@@ -46,6 +46,10 @@ systemctl daemon-reload
 systemctl restart finalbot
 echo "   Backend now runs as '$USERNAME'."
 
+echo "==> Allowing '$USERNAME' to restart its own service (for one-line updates)…"
+echo "$USERNAME ALL=(root) NOPASSWD: /usr/bin/systemctl restart finalbot" >/etc/sudoers.d/finalbot
+chmod 440 /etc/sudoers.d/finalbot
+
 echo "==> Installing Claude Code for '$USERNAME' (user-local, no root needed at runtime)…"
 sudo -u "$USERNAME" -H bash -lc '
   set -e

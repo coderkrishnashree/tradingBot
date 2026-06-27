@@ -14,5 +14,7 @@ echo "==> rebuild frontend"
 ( cd frontend && npm install --no-audit --no-fund && npm run build )
 
 echo "==> restart service"
-sudo systemctl restart finalbot
+# Works whether run as root or as the non-root service user (needs the sudoers
+# drop-in that make-nonroot.sh installs).
+sudo systemctl restart finalbot 2>/dev/null || systemctl restart finalbot
 echo "Done. https URL is live again."
