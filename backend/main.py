@@ -602,7 +602,13 @@ def _humanize_stream(text: str) -> str:
         elif t == "result":
             cost = ev.get("total_cost_usd")
             out.append(f"✓ debate complete{f' (cost ${cost})' if cost else ''}")
-    return "\n".join(out)
+    # Collapse consecutive duplicate lines (subagents each emit 'session started',
+    # the scan fires several Bash calls, etc.) so the feed stays readable.
+    deduped = []
+    for line in out:
+        if not deduped or deduped[-1] != line:
+            deduped.append(line)
+    return "\n".join(deduped)
 
 
 @app.get("/api/analyze/log")
