@@ -569,13 +569,49 @@ def get_alerts(limit: int = 100):
     return db.list_alerts(limit=limit)
 
 
+def _humanize_stream(text: str) -> str:
+    """Turn Claude's stream-json events into a readable live activity feed."""
+    import json as _json
+    out = []
+    for line in text.splitlines():
+        line = line.strip()
+        if not line:
+            continue
+        if not line.startswith("{"):
+            out.append(line)            # our own header line
+            continue
+        try:
+            ev = _json.loads(line)
+        except Exception:
+            continue
+        t = ev.get("type")
+        if t == "system":
+            out.append("• session started")
+        elif t == "assistant":
+            for c in ev.get("message", {}).get("content", []):
+                if c.get("type") == "text" and c.get("text", "").strip():
+                    out.append(c["text"].strip())
+                elif c.get("type") == "tool_use":
+                    name = c.get("name")
+                    inp = c.get("input", {}) or {}
+                    if name == "Task":
+                        who = inp.get("subagent_type") or inp.get("description") or "subagent"
+                        out.append(f"  → running agent: {who}")
+                    elif name in ("Bash", "Read", "WebSearch"):
+                        out.append(f"  → {name}")
+        elif t == "result":
+            cost = ev.get("total_cost_usd")
+            out.append(f"✓ debate complete{f' (cost ${cost})' if cost else ''}")
+    return "\n".join(out)
+
+
 @app.get("/api/analyze/log")
-def analyze_log(lines: int = 500):
-    """Live tail of the headless AI debate so the dashboard can show progress."""
+def analyze_log(lines: int = 800, raw: bool = False):
+    """Live, human-readable progress of the headless AI debate."""
     from .scheduler import AI_LOG_PATH
     text = AI_LOG_PATH.read_text() if AI_LOG_PATH.exists() else ""
-    tail = "\n".join(text.splitlines()[-lines:])
-    return {"running": scheduler._ai_running, "log": tail}
+    text = "\n".join(text.splitlines()[-lines:])
+    return {"running": scheduler._ai_running, "log": text if raw else _humanize_stream(text)}
 
 
 @app.post("/api/analyze/run")

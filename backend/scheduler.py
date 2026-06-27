@@ -185,8 +185,11 @@ class Scheduler:
             with open(AI_LOG_PATH, "w") as lf:
                 lf.write(f"=== /analyze started {datetime.now(timezone.utc).isoformat()} ===\n")
                 lf.flush()
+                # stream-json emits one JSON event per step and flushes live, so
+                # the dashboard can show real-time progress (text mode buffers).
                 proc = subprocess.run(
-                    [binp, "-p", "/analyze", "--verbose", "--dangerously-skip-permissions"],
+                    [binp, "-p", "/analyze", "--output-format", "stream-json", "--verbose",
+                     "--dangerously-skip-permissions"],
                     cwd=str(PROJECT_ROOT), stdout=lf, stderr=subprocess.STDOUT,
                     text=True, timeout=timeout,
                 )
