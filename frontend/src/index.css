@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#root {
+  height: 100%;
+}
+body {
+  @apply bg-ink-900 text-slate-200 antialiased;
+}
+
+/* A reusable card style used across the dashboard. */
+@layer components {
+  .card {
+    @apply bg-ink-800 border border-ink-600 rounded-2xl p-4 shadow-lg shadow-black/30;
+  }
+  .card-title {
+    @apply text-xs font-semibold uppercase tracking-wider text-slate-400 mb-3;
+  }
+  .stat-big {
+    @apply text-3xl font-bold font-mono tabular-nums;
+  }
+  .btn {
+    @apply px-3 py-2 rounded-lg text-sm font-semibold transition-colors disabled:opacity-40 disabled:cursor-not-allowed;
+  }
+  .input {
+    @apply bg-ink-900 border border-ink-600 rounded-lg px-3 py-2 text-sm w-full focus:outline-none focus:border-accent;
+  }
+  .th {
+    @apply text-left text-xs uppercase tracking-wider text-slate-500 font-semibold px-3 py-2;
+  }
+  .td {
+    @apply px-3 py-2 text-sm font-mono tabular-nums border-t border-ink-700;
+  }
+}

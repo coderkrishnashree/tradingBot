@@ -1,0 +1,449 @@
+{
+  "generated_at": "2026-06-27T20:02:41.470636+00:00",
+  "data_source": "bybit-mainnet-live",
+  "timeframes": [
+    "4h",
+    "1h",
+    "30m",
+    "15m",
+    "5m",
+    "1m"
+  ],
+  "rows": [
+    {
+      "symbol": "BNB/USDT:USDT",
+      "last": 559.2,
+      "composite": {
+        "confidence_pct": 66.5,
+        "direction": "short",
+        "blended_score": -0.644,
+        "aligned": false
+      },
+      "structure": {
+        "funding_rate": -5.758e-05,
+        "funding_next": 1782604800000,
+        "open_interest": 127466.65,
+        "long_short_ratio": 2.233,
+        "orderbook_imbalance": 0.026,
+        "structure_bias": -0.268,
+        "bias_parts": {
+          "funding": 0.06,
+          "long_short": -1.0,
+          "orderbook": 0.026
+        }
+      },
+      "indicators_ref": {
+        "rsi": 61.1,
+        "adx": 38.5,
+        "bb_pctb": 0.91,
+        "bb_width_pct": 0.12,
+        "stoch": 85.7,
+        "vwap_dist_pct": 0.05,
+        "divergence": "bearish",
+        "support": 557.4,
+        "resistance": 562.0,
+        "atr_pct": 0.04
+      },
+      "per_tf": {
+        "4h": {
+          "score": -0.475,
+          "direction": "short",
+          "rsi": 55.8,
+          "trend": "down",
+          "macd": -3.814312,
+          "atr_pct": 1.34
+        },
+        "1h": {
+          "score": -0.74,
+          "direction": "short",
+          "rsi": 28.1,
+          "trend": "neutral",
+          "macd": -0.884279,
+          "atr_pct": 0.37
+        },
+        "30m": {
+          "score": -0.938,
+          "direction": "short",
+          "rsi": 28.8,
+          "trend": "down",
+          "macd": -1.199584,
+          "atr_pct": 0.33
+        },
+        "15m": {
+          "score": -0.931,
+          "direction": "short",
+          "rsi": 10.6,
+          "trend": "down",
+          "macd": -1.339754,
+          "atr_pct": 0.23
+        },
+        "5m": {
+          "score": -0.748,
+          "direction": "short",
+          "rsi": 28.6,
+          "trend": "down",
+          "macd": -1.178237,
+          "atr_pct": 0.14
+        },
+        "1m": {
+          "score": 0.146,
+          "direction": "long",
+          "rsi": 61.1,
+          "trend": "neutral",
+          "macd": -0.069023,
+          "atr_pct": 0.04
+        }
+      },
+      "btc_correlation": 0.704,
+      "relative_strength_pct": -0.19
+    },
+    {
+      "symbol": "ETH/USDT:USDT",
+      "last": 1578.89,
+      "composite": {
+        "confidence_pct": 41.2,
+        "direction": "short",
+        "blended_score": -0.386,
+        "aligned": false
+      },
+      "structure": {
+        "funding_rate": -1.278e-05,
+        "funding_next": 1782604800000,
+        "open_interest": 715096.39,
+        "long_short_ratio": 2.812,
+        "orderbook_imbalance": -0.093,
+        "structure_bias": -0.324,
+        "bias_parts": {
+          "funding": 0.01,
+          "long_short": -1.0,
+          "orderbook": -0.093
+        }
+      },
+      "indicators_ref": {
+        "rsi": 57.5,
+        "adx": 46.6,
+        "bb_pctb": 0.914,
+        "bb_width_pct": 0.15,
+        "stoch": 78.0,
+        "vwap_dist_pct": 0.07,
+        "divergence": "bearish",
+        "support": 1571.92,
+        "resistance": 1594.09,
+        "atr_pct": 0.07
+      },
+      "per_tf": {
+        "4h": {
+          "score": -0.42,
+          "direction": "short",
+          "rsi": 52.5,
+          "trend": "down",
+          "macd": -22.075673,
+          "atr_pct": 1.88
+        },
+        "1h": {
+          "score": -0.202,
+          "direction": "short",
+          "rsi": 47.6,
+          "trend": "neutral",
+          "macd": 3.255986,
+          "atr_pct": 0.56
+        },
+        "30m": {
+          "score": -0.282,
+          "direction": "short",
+          "rsi": 44.0,
+          "trend": "neutral",
+          "macd": 0.495794,
+          "atr_pct": 0.54
+        },
+        "15m": {
+          "score": -0.742,
+          "direction": "short",
+          "rsi": 16.2,
+          "trend": "neutral",
+          "macd": -2.971019,
+          "atr_pct": 0.38
+        },
+        "5m": {
+          "score": -0.801,
+          "direction": "short",
+          "rsi": 21.2,
+          "trend": "down",
+          "macd": -4.610018,
+          "atr_pct": 0.23
+        },
+        "1m": {
+          "score": 0.128,
+          "direction": "long",
+          "rsi": 57.5,
+          "trend": "neutral",
+          "macd": -0.429039,
+          "atr_pct": 0.07
+        }
+      },
+      "btc_correlation": 0.881,
+      "relative_strength_pct": -0.24
+    },
+    {
+      "symbol": "BTC/USDT:USDT",
+      "last": 60197.4,
+      "composite": {
+        "confidence_pct": 31.9,
+        "direction": "short",
+        "blended_score": -0.311,
+        "aligned": false
+      },
+      "structure": {
+        "funding_rate": -3.259e-05,
+        "funding_next": 1782604800000,
+        "open_interest": 56999.516,
+        "long_short_ratio": 1.648,
+        "orderbook_imbalance": 0.297,
+        "structure_bias": -0.094,
+        "bias_parts": {
+          "funding": 0.03,
+          "long_short": -0.65,
+          "orderbook": 0.297
+        }
+      },
+      "indicators_ref": {
+        "rsi": 58.9,
+        "adx": 24.7,
+        "bb_pctb": 1.018,
+        "bb_width_pct": 0.12,
+        "stoch": 85.3,
+        "vwap_dist_pct": 0.06,
+        "divergence": "bearish",
+        "support": 60025.0,
+        "resistance": 60572.6,
+        "atr_pct": 0.05
+      },
+      "per_tf": {
+        "4h": {
+          "score": -0.241,
+          "direction": "short",
+          "rsi": 55.4,
+          "trend": "down",
+          "macd": -542.206736,
+          "atr_pct": 1.51
+        },
+        "1h": {
+          "score": -0.191,
+          "direction": "short",
+          "rsi": 45.5,
+          "trend": "neutral",
+          "macd": 91.628698,
+          "atr_pct": 0.42
+        },
+        "30m": {
+          "score": -0.274,
+          "direction": "short",
+          "rsi": 41.2,
+          "trend": "neutral",
+          "macd": 5.146036,
+          "atr_pct": 0.35
+        },
+        "15m": {
+          "score": -0.699,
+          "direction": "short",
+          "rsi": 19.7,
+          "trend": "neutral",
+          "macd": -76.964502,
+          "atr_pct": 0.25
+        },
+        "5m": {
+          "score": -0.793,
+          "direction": "short",
+          "rsi": 23.8,
+          "trend": "down",
+          "macd": -108.595952,
+          "atr_pct": 0.14
+        },
+        "1m": {
+          "score": 0.151,
+          "direction": "long",
+          "rsi": 58.9,
+          "trend": "neutral",
+          "macd": -14.049587,
+          "atr_pct": 0.05
+        }
+      },
+      "btc_correlation": 1.0,
+      "relative_strength_pct": 0.0
+    },
+    {
+      "symbol": "XRP/USDT:USDT",
+      "last": 1.0543,
+      "composite": {
+        "confidence_pct": 28.0,
+        "direction": "short",
+        "blended_score": -0.261,
+        "aligned": false
+      },
+      "structure": {
+        "funding_rate": -0.00018051,
+        "funding_next": 1782604800000,
+        "open_interest": 195200964.4,
+        "long_short_ratio": 3.965,
+        "orderbook_imbalance": -0.05,
+        "structure_bias": -0.243,
+        "bias_parts": {
+          "funding": 0.18,
+          "long_short": -1.0,
+          "orderbook": -0.05
+        }
+      },
+      "indicators_ref": {
+        "rsi": 46.5,
+        "adx": 10.0,
+        "bb_pctb": 0.412,
+        "bb_width_pct": 0.18,
+        "stoch": 40.0,
+        "vwap_dist_pct": -0.02,
+        "divergence": null,
+        "support": 1.0514,
+        "resistance": 1.0591,
+        "atr_pct": 0.06
+      },
+      "per_tf": {
+        "4h": {
+          "score": 0.145,
+          "direction": "long",
+          "rsi": 57.4,
+          "trend": "neutral",
+          "macd": -0.011368,
+          "atr_pct": 1.96
+        },
+        "1h": {
+          "score": -0.234,
+          "direction": "short",
+          "rsi": 44.6,
+          "trend": "neutral",
+          "macd": 0.002988,
+          "atr_pct": 0.54
+        },
+        "30m": {
+          "score": -0.596,
+          "direction": "short",
+          "rsi": 41.2,
+          "trend": "neutral",
+          "macd": -0.000147,
+          "atr_pct": 0.46
+        },
+        "15m": {
+          "score": -0.716,
+          "direction": "short",
+          "rsi": 9.5,
+          "trend": "neutral",
+          "macd": -0.002552,
+          "atr_pct": 0.31
+        },
+        "5m": {
+          "score": -0.744,
+          "direction": "short",
+          "rsi": 29.2,
+          "trend": "down",
+          "macd": -0.002079,
+          "atr_pct": 0.17
+        },
+        "1m": {
+          "score": -0.422,
+          "direction": "short",
+          "rsi": 46.5,
+          "trend": "down",
+          "macd": -0.000203,
+          "atr_pct": 0.06
+        }
+      },
+      "btc_correlation": 0.789,
+      "relative_strength_pct": -0.0
+    },
+    {
+      "symbol": "SOL/USDT:USDT",
+      "last": 71.12,
+      "composite": {
+        "confidence_pct": 18.7,
+        "direction": "short",
+        "blended_score": -0.161,
+        "aligned": false
+      },
+      "structure": {
+        "funding_rate": -7.96e-06,
+        "funding_next": 1782604800000,
+        "open_interest": 7222720.3,
+        "long_short_ratio": 2.448,
+        "orderbook_imbalance": -0.088,
+        "structure_bias": -0.322,
+        "bias_parts": {
+          "funding": 0.01,
+          "long_short": -1.0,
+          "orderbook": -0.088
+        }
+      },
+      "indicators_ref": {
+        "rsi": 48.4,
+        "adx": 18.7,
+        "bb_pctb": 0.533,
+        "bb_width_pct": 0.17,
+        "stoch": 60.0,
+        "vwap_dist_pct": 0.02,
+        "divergence": null,
+        "support": 70.89,
+        "resistance": 71.9,
+        "atr_pct": 0.09
+      },
+      "per_tf": {
+        "4h": {
+          "score": 0.571,
+          "direction": "long",
+          "rsi": 65.0,
+          "trend": "neutral",
+          "macd": 0.54193,
+          "atr_pct": 2.82
+        },
+        "1h": {
+          "score": -0.39,
+          "direction": "short",
+          "rsi": 37.3,
+          "trend": "neutral",
+          "macd": 0.215004,
+          "atr_pct": 0.72
+        },
+        "30m": {
+          "score": -0.765,
+          "direction": "short",
+          "rsi": 25.1,
+          "trend": "neutral",
+          "macd": -0.148272,
+          "atr_pct": 0.6
+        },
+        "15m": {
+          "score": -0.757,
+          "direction": "short",
+          "rsi": 9.2,
+          "trend": "neutral",
+          "macd": -0.296518,
+          "atr_pct": 0.45
+        },
+        "5m": {
+          "score": -0.864,
+          "direction": "short",
+          "rsi": 19.4,
+          "trend": "down",
+          "macd": -0.28858,
+          "atr_pct": 0.28
+        },
+        "1m": {
+          "score": -0.017,
+          "direction": "flat",
+          "rsi": 48.4,
+          "trend": "neutral",
+          "macd": -0.037742,
+          "atr_pct": 0.09
+        }
+      },
+      "btc_correlation": 0.754,
+      "relative_strength_pct": -0.71
+    }
+  ]
+}

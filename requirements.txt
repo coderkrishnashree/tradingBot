@@ -1,0 +1,7 @@
+# --- Layer 2 (always-on Python) + Stage 1 backend ---
+fastapi==0.111.0
+uvicorn[standard]==0.30.1
+ccxt>=4.4.0             # Bybit market data + order execution (testnet, demo & mainnet)
+python-dotenv==1.0.1   # load API keys from .env (never hardcode)
+pydantic==2.7.4        # request/response schemas
+# SQLite is built into Python's stdlib (sqlite3) — no install needed.
