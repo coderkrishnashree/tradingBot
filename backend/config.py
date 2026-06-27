@@ -111,6 +111,13 @@ class ModeManager:
     def __init__(self):
         self._mode = PAPER          # always boot in paper
         self._kill_switch = False   # True => Layer 2 halts all trading
+        # When the kill switch is reset, the drawdown auto-stop should measure
+        # only from here forward (a re-arm), so stale history can't re-trip it.
+        self._dd_reference_ts = None
+
+    @property
+    def dd_reference_ts(self):
+        return self._dd_reference_ts
 
     @property
     def mode(self) -> str:
@@ -163,6 +170,10 @@ class ModeManager:
 
     def reset_kill_switch(self):
         self._kill_switch = False
+        # Re-arm the drawdown auto-stop from NOW, so historical drawdown (e.g.
+        # from setup/basis changes) can't immediately re-engage the kill switch.
+        from datetime import datetime, timezone
+        self._dd_reference_ts = datetime.now(timezone.utc).isoformat()
 
 
 # A single shared instance imported across the backend.

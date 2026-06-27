@@ -45,7 +45,13 @@ def drawdown_guard() -> tuple[bool, float, float]:
     """
     cfg = db.get_trading_config()
     limit = float(cfg.get("max_drawdown_pct", 20))
-    equity = [r["equity"] for r in db.list_equity()]
+    rows = db.list_equity()
+    # After a manual kill-switch reset we only measure drawdown from that moment
+    # forward, so stale history can't immediately re-trip the auto-stop.
+    ref = mode_manager.dd_reference_ts
+    if ref:
+        rows = [r for r in rows if r["ts"] >= ref]
+    equity = [r["equity"] for r in rows]
     dd = stats.max_drawdown(equity) * 100 if equity else 0.0
     return dd >= limit, round(dd, 2), limit
 
