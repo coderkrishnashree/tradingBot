@@ -60,6 +60,7 @@ export const api = {
   claudeStatus: () => req("/claude/status"),
   tradeManual: (sym) => req(`/trade/manual/${sym}`, { method: "POST" }),
   runAnalyze: () => req("/analyze/run", { method: "POST" }),
+  analyzeLog: () => req("/analyze/log"),
 };
 
 // Poll a fetcher on an interval. Returns { data, error, loading, refresh }.

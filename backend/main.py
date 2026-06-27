@@ -569,6 +569,15 @@ def get_alerts(limit: int = 100):
     return db.list_alerts(limit=limit)
 
 
+@app.get("/api/analyze/log")
+def analyze_log(lines: int = 500):
+    """Live tail of the headless AI debate so the dashboard can show progress."""
+    from .scheduler import AI_LOG_PATH
+    text = AI_LOG_PATH.read_text() if AI_LOG_PATH.exists() else ""
+    tail = "\n".join(text.splitlines()[-lines:])
+    return {"running": scheduler._ai_running, "log": tail}
+
+
 @app.post("/api/analyze/run")
 def analyze_run():
     """Trigger the AI debate headlessly NOW (from the dashboard). Runs in a

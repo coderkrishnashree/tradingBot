@@ -31,6 +31,16 @@ from . import db, scanner, engine, exchange, decisions_io
 from .config import mode_manager, PROJECT_ROOT
 
 
+AI_LOG_PATH = PROJECT_ROOT / "data" / "ai_debate.log"
+
+
+def _tail(path, n=6) -> str:
+    try:
+        return "\n".join(path.read_text().splitlines()[-n:])[-400:]
+    except Exception:
+        return ""
+
+
 def _claude_bin() -> str | None:
     """Find the Claude Code CLI. cron-less: we run it from the backend process."""
     found = shutil.which("claude")
@@ -163,19 +173,28 @@ class Scheduler:
 
         if timeout is None:
             timeout = int(db.get_trading_config().get("ai_timeout_sec", 1200))
+        from datetime import datetime, timezone
+        AI_LOG_PATH.parent.mkdir(exist_ok=True)
         self._ai_running = True
         db.add_alert("info", "system",
-                     f"Auto-analyze: running /analyze headlessly (subscription)… up to {timeout//60} min.")
+                     f"Auto-analyze: running /analyze headlessly… up to {timeout//60} min "
+                     f"(watch it in the Debates tab → Live AI).")
         try:
-            proc = subprocess.run(
-                [binp, "-p", "/analyze", "--dangerously-skip-permissions"],
-                cwd=str(PROJECT_ROOT), capture_output=True, text=True, timeout=timeout,
-            )
+            # Stream Claude's output to a log file the dashboard tails live.
+            # --verbose makes it emit step-by-step progress as it runs.
+            with open(AI_LOG_PATH, "w") as lf:
+                lf.write(f"=== /analyze started {datetime.now(timezone.utc).isoformat()} ===\n")
+                lf.flush()
+                proc = subprocess.run(
+                    [binp, "-p", "/analyze", "--verbose", "--dangerously-skip-permissions"],
+                    cwd=str(PROJECT_ROOT), stdout=lf, stderr=subprocess.STDOUT,
+                    text=True, timeout=timeout,
+                )
             if proc.returncode == 0:
                 db.add_alert("success", "system", "Auto-analyze: debate complete; decision written.")
                 return {"ok": True, "message": "analyze complete"}
-            err = (proc.stderr or proc.stdout or "")[-200:]
-            db.add_alert("warning", "system", f"Auto-analyze failed (rc={proc.returncode}): {err}")
+            db.add_alert("warning", "system",
+                         f"Auto-analyze failed (rc={proc.returncode}): {_tail(AI_LOG_PATH, 4)}")
             return {"ok": False, "message": f"claude rc={proc.returncode}"}
         except subprocess.TimeoutExpired:
             db.add_alert("warning", "system", f"Auto-analyze timed out after {timeout}s.")

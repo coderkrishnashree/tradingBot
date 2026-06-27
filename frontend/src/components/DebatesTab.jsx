@@ -20,6 +20,36 @@ function actionColor(a) {
 
 // All AI debates, readable: pick a pair/decision up top, see every agent in one
 // table side by side with the final decision.
+function LiveAI() {
+  const log = usePoll(api.analyzeLog, 2500);
+  const running = log.data?.running;
+  const [busy, setBusy] = useState(false);
+  async function runNow() {
+    setBusy(true);
+    try { await api.runAnalyze(); log.refresh(); } catch (e) { alert(e.message); }
+    finally { setBusy(false); }
+  }
+  return (
+    <div className="card">
+      <div className="flex items-center justify-between mb-2">
+        <div className="card-title mb-0">
+          Live AI {running && <span className="text-accent animate-pulse">● running…</span>}
+        </div>
+        <button onClick={runNow} disabled={busy || running}
+          className="btn bg-accent hover:bg-blue-600 text-white text-sm">
+          {running ? "running…" : busy ? "starting…" : "▶ Run analysis now"}
+        </button>
+      </div>
+      <pre className="bg-ink-900 border border-ink-600 rounded-lg p-3 text-xs text-slate-300 font-mono max-h-80 overflow-auto whitespace-pre-wrap">
+{log.data?.log?.trim() || "No debate has run yet. Click “Run analysis now” or wait for the auto loop."}
+      </pre>
+      <p className="text-xs text-slate-500 mt-1">
+        Live output from the headless agent debate (Claude Code). Updates every few seconds while running.
+      </p>
+    </div>
+  );
+}
+
 export default function DebatesTab() {
   const decisions = usePoll(api.decisions, 8000);
   const list = decisions.data || [];
@@ -43,6 +73,8 @@ export default function DebatesTab() {
 
   return (
     <div className="space-y-4">
+      <LiveAI />
+
       {/* Switcher */}
       <div className="card">
         <div className="flex flex-wrap items-center justify-between gap-3">
