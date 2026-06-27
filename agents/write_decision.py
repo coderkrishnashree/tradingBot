@@ -56,7 +56,7 @@ def transcript_md(d: dict) -> str:
     lines = [f"# Debate transcript — {d.get('timestamp')}",
              f"**Final:** {d.get('action','').upper()} {d.get('symbol','')} "
              f"(size {d.get('size')}%, confidence {d.get('confidence')})\n"]
-    for role in ("research", "macro", "sentiment", "bull", "bear", "quant", "risk", "portfolio"):
+    for role in ("research", "macro", "sentiment", "analyst", "bull", "bear", "quant", "risk", "portfolio"):
         if role in t:
             lines.append(f"## {role.capitalize()} Agent\n\n{t[role]}\n")
     lines.append(f"## Final decision JSON\n\n```json\n"

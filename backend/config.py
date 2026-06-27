@@ -105,6 +105,11 @@ DEFAULT_TRADING_CONFIG = {
     # Max seconds to let one headless debate run. 8 agents + web search can take
     # 8-15 min on a small server, so give it room. Raise if you see timeouts.
     "ai_timeout_sec": 1200,
+    # LITE mode: the headless auto-run uses /analyze-lite (one fast desk-analyst
+    # per pair, no web search) so EVERY pair gets an AI decision each cycle.
+    # OFF = the full 8-agent debate on the single best pair. Default lite for the
+    # auto loop; the full debate is still available via manual /analyze.
+    "ai_lite": True,
 }
 
 

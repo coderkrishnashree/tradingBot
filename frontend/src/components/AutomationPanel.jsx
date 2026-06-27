@@ -29,6 +29,7 @@ export default function AutomationPanel({ status, mode, onRefresh }) {
         auto_trade_confidence: status.auto_trade_confidence,
         auto_analyze: status.auto_analyze ?? false,
         ai_gated: status.ai_gated ?? false,
+        ai_lite: status.ai_lite ?? true,
         ai_timeout_sec: status.ai_timeout_sec ?? 1200,
         scan_interval_min: status.scan_interval_min,
         scan_timeframes: status.scan_timeframes?.length ? status.scan_timeframes : ["15m", "1h", "4h", "1d"],
@@ -87,6 +88,7 @@ export default function AutomationPanel({ status, mode, onRefresh }) {
           <Toggle on={form.scan_enabled} label="Scanning" onClick={() => setForm({ ...form, scan_enabled: !form.scan_enabled })} />
           <Toggle on={form.auto_trade} danger label="Auto-trade" onClick={() => setForm({ ...form, auto_trade: !form.auto_trade })} />
           <Toggle on={form.ai_gated} label="AI-gated" onClick={() => setForm({ ...form, ai_gated: !form.ai_gated })} />
+          <Toggle on={form.ai_lite} label="Lite (all pairs)" onClick={() => setForm({ ...form, ai_lite: !form.ai_lite })} />
           <Toggle on={form.auto_analyze} danger label="Auto-run AI" onClick={() => setForm({ ...form, auto_analyze: !form.auto_analyze })} />
         </div>
 
@@ -95,6 +97,12 @@ export default function AutomationPanel({ status, mode, onRefresh }) {
           {form.ai_gated
             ? "ON — the screener only finds candidates; the AI agent debate decides and its confidence triggers the trade. Needs Claude Code running (non-root)."
             : "OFF — the mechanical screener's math score decides trades directly (agents not involved)."}
+          <div className="mt-2">
+            <b className={form.ai_lite ? "text-slate-200" : "text-slate-300"}>Lite mode:</b>{" "}
+            {form.ai_lite
+              ? "ON — fast desk-analyst scores EVERY pair each cycle (shared macro/sentiment web research once, then quick per-pair calls)."
+              : "OFF — the full 8-agent debate on the single best pair (deeper, slower, one pair)."}
+          </div>
         </div>
 
         <div className="mb-4 p-3 rounded-lg bg-ink-900 border border-ink-600">

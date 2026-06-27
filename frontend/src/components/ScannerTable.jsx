@@ -80,13 +80,14 @@ export default function ScannerTable({ scan, onRefresh }) {
                 <th className="th">Confidence</th>
                 <th className="th">Dir</th>
                 <th className="th text-center">Aligned</th>
+                <th className="th">AI</th>
                 {tfs.map((tf) => <th key={tf} className="th text-center">{tf}</th>)}
                 <th className="th"></th>
               </tr>
             </thead>
             <tbody>
               {rows.length === 0 && (
-                <tr><td className="td text-slate-500" colSpan={5 + tfs.length}>No scan data — click “Scan now”.</td></tr>
+                <tr><td className="td text-slate-500" colSpan={6 + tfs.length}>No scan data — click “Scan now”.</td></tr>
               )}
               {rows.map((r) => {
                 const c = r.composite;
@@ -102,6 +103,13 @@ export default function ScannerTable({ scan, onRefresh }) {
                       {c.direction}
                     </td>
                     <td className="td text-center">{c.aligned ? "✓" : "—"}</td>
+                    <td className="td whitespace-nowrap">
+                      {r.ai ? (
+                        <span className={r.ai.action === "buy" ? "text-up" : r.ai.action === "short" || r.ai.action === "sell" ? "text-down" : "text-slate-300"}>
+                          {(r.ai.action || "").toUpperCase()} {fmt.num((r.ai.confidence || 0) * 100, 0)}%
+                        </span>
+                      ) : <span className="text-slate-600">—</span>}
+                    </td>
                     {tfs.map((tf) => scoreCell(r.per_tf[tf]?.score))}
                     <td className="td">
                       <button

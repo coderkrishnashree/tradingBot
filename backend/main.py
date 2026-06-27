@@ -524,10 +524,21 @@ def health():
 
 @app.get("/api/scan")
 def get_scan():
-    """Latest multi-timeframe scan table (all pairs x all scan timeframes)."""
+    """Latest multi-timeframe scan table (all pairs x all scan timeframes),
+    decorated with each pair's latest AI decision (action + confidence) if any."""
     s = scanner.latest()
     if not s:
         return {"rows": [], "timeframes": [], "data_source": None, "generated_at": None}
+    # Cheap join: most-recent AI decision per symbol (list_decisions is newest-first).
+    latest_by_sym = {}
+    for d in db.list_decisions(200):
+        sym = d.get("symbol")
+        if sym and sym not in latest_by_sym:
+            latest_by_sym[sym] = d
+    for r in s.get("rows", []):
+        d = latest_by_sym.get(r["symbol"])
+        r["ai"] = ({"action": d.get("action"), "confidence": d.get("confidence"),
+                    "status": d.get("status"), "ts": d.get("ts")} if d else None)
     return s
 
 

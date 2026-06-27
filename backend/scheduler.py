@@ -86,6 +86,7 @@ class Scheduler:
             "min_minutes_between_trades": cfg.get("min_minutes_between_trades", 0),
             "auto_analyze": cfg.get("auto_analyze", False),
             "ai_gated": cfg.get("ai_gated", False),
+            "ai_lite": cfg.get("ai_lite", True),
             "ai_timeout_sec": cfg.get("ai_timeout_sec", 1200),
             "ai_available": _claude_bin() is not None,  # re-check live (no restart needed)
             "ai_running": self._ai_running,
@@ -185,10 +186,11 @@ class Scheduler:
             with open(AI_LOG_PATH, "w") as lf:
                 lf.write(f"=== /analyze started {datetime.now(timezone.utc).isoformat()} ===\n")
                 lf.flush()
-                # stream-json emits one JSON event per step and flushes live, so
-                # the dashboard can show real-time progress (text mode buffers).
+                # LITE = fast desk-analyst on every pair; FULL = 8-agent debate on
+                # the best pair. stream-json flushes live for the dashboard feed.
+                command = "/analyze-lite" if db.get_trading_config().get("ai_lite", True) else "/analyze"
                 proc = subprocess.run(
-                    [binp, "-p", "/analyze", "--output-format", "stream-json", "--verbose",
+                    [binp, "-p", command, "--output-format", "stream-json", "--verbose",
                      "--dangerously-skip-permissions"],
                     cwd=str(PROJECT_ROOT), stdout=lf, stderr=subprocess.STDOUT,
                     text=True, timeout=timeout,
@@ -272,27 +274,40 @@ class Scheduler:
         return {"traded": traded, "skipped": skipped}
 
     def _auto_trade_ai(self, threshold, cfg) -> dict:
-        """AI overlay: auto-execute the latest AI decision if it qualifies."""
-        d = decisions_io.latest_decision()
-        if not d:
-            return {}
-        fn = d.get("_filename")
-        # Only act on a still-pending decision.
-        logged = {x["filename"]: x for x in db.list_decisions(200)}
-        if fn in logged and logged[fn]["status"] in ("executed", "rejected"):
-            return {}
-        conf_pct = float(d.get("confidence") or 0) * 100
-        if conf_pct < threshold or (d.get("action") or "").lower() == "hold":
-            return {}
-        if d.get("symbol") in self._open_symbols():
-            return {}
-        res = engine.execute_decision(d, decision_file=fn)
-        if res["ok"]:
-            db.add_alert("success", "auto_trade",
-                         f"AUTO (AI) {d.get('action','').upper()} {d.get('symbol')} "
-                         f"@ conf {round(conf_pct)}% — {res['message']}", symbol=d.get("symbol"))
-            return {"ai_traded": d.get("symbol")}
-        return {"ai_skipped": res["message"]}
+        """AI overlay: execute every RECENT, still-pending AI decision that
+        qualifies. Handles both the full debate (one decision) and lite mode
+        (one decision per pair). Non-actionable ones are marked 'reviewed' so
+        they aren't reprocessed every cycle."""
+        from datetime import datetime, timezone, timedelta
+        cutoff = (datetime.now(timezone.utc) - timedelta(hours=2)).isoformat()
+        open_syms = self._open_symbols()
+        traded, skipped = [], []
+        for row in db.list_decisions(50):
+            if row.get("status") != "pending" or (row.get("ts") or "") < cutoff:
+                continue
+            fn = row["filename"]
+            full = decisions_io.read_decision(fn)
+            if not full:
+                continue
+            sym = full.get("symbol")
+            action = (full.get("action") or "").lower()
+            conf_pct = float(full.get("confidence") or 0) * 100
+            if action in ("hold", "", "close", "sell") or conf_pct < threshold:
+                db.set_decision_status(fn, "reviewed")   # clear from the pending queue
+                continue
+            if sym in open_syms or engine.cooldown_remaining(sym) > 0:
+                skipped.append(f"{sym}: open/cooldown")
+                continue
+            res = engine.execute_decision(full, decision_file=fn)
+            if res["ok"]:
+                traded.append(sym)
+                open_syms.add(sym)
+                db.add_alert("success", "auto_trade",
+                             f"AUTO (AI) {action.upper()} {sym} @ conf {round(conf_pct)}% — {res['message']}",
+                             symbol=sym)
+            else:
+                skipped.append(f"{sym}: {res['message']}")
+        return {"ai_traded": traded, "ai_skipped": skipped}
 
     def _row_to_decision(self, row, comp, cfg) -> dict:
         """Build an executable decision from a mechanical scan row."""

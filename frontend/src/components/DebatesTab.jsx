@@ -6,6 +6,7 @@ const AGENTS = [
   ["research", "🔍 Research", "text-slate-300"],
   ["macro", "🌐 Macro / Positioning", "text-cyan-400"],
   ["sentiment", "📰 Sentiment / News", "text-purple-400"],
+  ["analyst", "⚡ Desk Analyst (lite)", "text-accent"],
   ["bull", "🐂 Bull", "text-up"],
   ["bear", "🐻 Bear", "text-down"],
   ["quant", "🧮 Quant (devil's advocate)", "text-orange-400"],
