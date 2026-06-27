@@ -7,7 +7,6 @@ import PositionsTable from "./components/PositionsTable";
 import Charts from "./components/Charts";
 import StatsPanel from "./components/StatsPanel";
 import OrderHistory from "./components/OrderHistory";
-import AgentPanel from "./components/AgentPanel";
 import ConfigPanel from "./components/ConfigPanel";
 import LiveTradingSection from "./components/LiveTradingSection";
 import RunAnalysis from "./components/RunAnalysis";
@@ -17,9 +16,9 @@ import AlertsFeed from "./components/AlertsFeed";
 import ConnectClaude from "./components/ConnectClaude";
 import PnlTab from "./components/PnlTab";
 import TradesTab from "./components/TradesTab";
-import DecisionsHistory from "./components/DecisionsHistory";
+import DebatesTab from "./components/DebatesTab";
 
-const TABS = ["Overview", "P&L", "Trades", "Scanner", "Automation", "Alerts", "Connect Claude"];
+const TABS = ["Overview", "P&L", "Trades", "Debates", "Scanner", "Automation", "Alerts", "Connect Claude"];
 
 // Compact always-visible kill switch for the header (works on every tab).
 function HeaderKill({ mode, onChange }) {
@@ -87,8 +86,6 @@ export default function App() {
               <div className="lg:col-span-2 space-y-4">
                 <Charts equity={equity.data} />
                 <PositionsTable positions={positions.data} />
-                <AgentPanel transcript={transcript.error ? null : transcript.data} mode={mode.data} autoTrade={automation.data?.auto_trade} onAction={refreshAll} />
-                <DecisionsHistory />
                 <OrderHistory orders={orders.data} />
               </div>
               <div className="space-y-4">
@@ -104,6 +101,15 @@ export default function App() {
         {tab === "P&L" && <PnlTab />}
 
         {tab === "Trades" && <TradesTab />}
+
+        {tab === "Debates" && (
+          <DebatesTab
+            transcript={transcript.error ? null : transcript.data}
+            mode={mode.data}
+            autoTrade={automation.data?.auto_trade}
+            onAction={refreshAll}
+          />
+        )}
 
         {tab === "Scanner" && <ScannerTable scan={scan.data} onRefresh={() => { scan.refresh(); alerts.refresh(); portfolio.refresh(); }} />}
 

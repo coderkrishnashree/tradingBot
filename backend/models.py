@@ -28,6 +28,7 @@ class TradingConfig(BaseModel):
     auto_trade: bool = False
     auto_trade_confidence: float = Field(default=65, ge=0, le=100)
     auto_analyze: bool = False
+    ai_gated: bool = False
     daily_loss_limit_pct: float = Field(default=0, ge=0, le=100)
     min_minutes_between_trades: float = Field(default=0, ge=0, le=1440)
 
@@ -57,6 +58,7 @@ class AutomationConfig(BaseModel):
     scan_interval_min: int = Field(ge=1, le=1440)
     scan_timeframes: list[str] = Field(min_length=1)
     auto_analyze: bool = False
+    ai_gated: bool = False
     daily_loss_limit_pct: float = Field(default=0, ge=0, le=100)
     min_minutes_between_trades: float = Field(default=0, ge=0, le=1440)
 

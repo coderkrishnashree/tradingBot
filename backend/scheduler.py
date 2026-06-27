@@ -75,6 +75,7 @@ class Scheduler:
             "daily_loss_limit_pct": cfg.get("daily_loss_limit_pct", 0),
             "min_minutes_between_trades": cfg.get("min_minutes_between_trades", 0),
             "auto_analyze": cfg.get("auto_analyze", False),
+            "ai_gated": cfg.get("ai_gated", False),
             "ai_available": _claude_bin() is not None,  # re-check live (no restart needed)
             "ai_running": self._ai_running,
             "cycle_running": self._cycle_running,
@@ -121,18 +122,22 @@ class Scheduler:
                          f"Scan complete: {len(rows)} pairs ({result.get('data_source')}).")
 
             summary = {"scanned": len(rows), "traded": [], "skipped": []}
+            ai_gated = cfg.get("ai_gated", False)
+            threshold = float(cfg.get("auto_trade_confidence", 65))
 
-            # "Cron from the dashboard": run the AI debate headlessly — but in a
-            # BACKGROUND thread so a slow/hanging claude run never freezes the scan
-            # loop. The resulting decision is picked up by a later cycle's overlay.
-            if cfg.get("auto_analyze", False) and not self._ai_running:
+            # "Cron from the dashboard": when NOT gated, optionally run the AI in a
+            # background thread so a slow run never freezes the loop. When gated,
+            # the AI is run synchronously below (it IS the decision step).
+            if cfg.get("auto_analyze", False) and not ai_gated and not self._ai_running:
                 threading.Thread(target=self.run_ai_analyze, daemon=True,
                                  name="auto-analyze").start()
 
             if cfg.get("auto_trade", False):
-                threshold = float(cfg.get("auto_trade_confidence", 65))
-                summary.update(self._auto_trade(rows, threshold, cfg))
-                summary.update(self._auto_trade_ai(threshold, cfg))
+                if ai_gated:
+                    summary.update(self._ai_gated_cycle(rows, threshold, cfg))
+                else:
+                    summary.update(self._auto_trade(rows, threshold, cfg))
+                    summary.update(self._auto_trade_ai(threshold, cfg))
             self.last_summary = summary
             return summary
         finally:
@@ -182,6 +187,34 @@ class Scheduler:
             return {p.get("symbol") for p in exchange.fetch_positions()}
         except Exception:
             return set()
+
+    def _ai_gated_cycle(self, rows, threshold, cfg) -> dict:
+        """AI-GATED: the screener only pre-filters; the AGENTS decide + trade.
+
+        1. Find mechanical candidates >= threshold (not already open / on cooldown).
+        2. If any, run the AI debate (synchronous — this is the gate).
+        3. Execute ONLY the AI's resulting decision, and only if the AI's own
+           confidence clears the threshold. No mechanical-only trades happen here.
+        """
+        open_syms = self._open_symbols()
+        cands = [r for r in rows
+                 if r["composite"]["confidence_pct"] >= threshold
+                 and r["composite"]["direction"] != "flat"
+                 and r["symbol"] not in open_syms
+                 and engine.cooldown_remaining(r["symbol"]) <= 0]
+        if not cands:
+            return {"ai_gated": f"no candidate >= {threshold}%"}
+        if _claude_bin() is None:
+            db.add_alert("warning", "system",
+                         "AI-gated: candidate found but Claude CLI not available — NO trade "
+                         "(this is the gate working). Set up Claude Code to enable.")
+            return {"ai_gated": "claude unavailable — gated, no trade"}
+
+        top = ", ".join(f"{c['symbol']}({c['composite']['confidence_pct']}%)" for c in cands[:3])
+        db.add_alert("info", "system", f"AI-gated: {len(cands)} candidate(s) [{top}] — running agent debate…")
+        self.run_ai_analyze()                      # blocks until the debate finishes
+        res = self._auto_trade_ai(threshold, cfg)  # execute the AI's call if it qualifies
+        return {"ai_gated": "debate complete", **res}
 
     def _auto_trade(self, rows, threshold, cfg) -> dict:
         traded, skipped = [], []

@@ -28,6 +28,7 @@ export default function AutomationPanel({ status, mode, onRefresh }) {
         auto_trade: status.auto_trade,
         auto_trade_confidence: status.auto_trade_confidence,
         auto_analyze: status.auto_analyze ?? false,
+        ai_gated: status.ai_gated ?? false,
         scan_interval_min: status.scan_interval_min,
         scan_timeframes: status.scan_timeframes?.length ? status.scan_timeframes : ["15m", "1h", "4h", "1d"],
         daily_loss_limit_pct: status.daily_loss_limit_pct ?? 0,
@@ -84,7 +85,15 @@ export default function AutomationPanel({ status, mode, onRefresh }) {
         <div className="flex flex-wrap gap-3 mb-4">
           <Toggle on={form.scan_enabled} label="Scanning" onClick={() => setForm({ ...form, scan_enabled: !form.scan_enabled })} />
           <Toggle on={form.auto_trade} danger label="Auto-trade" onClick={() => setForm({ ...form, auto_trade: !form.auto_trade })} />
+          <Toggle on={form.ai_gated} label="AI-gated" onClick={() => setForm({ ...form, ai_gated: !form.ai_gated })} />
           <Toggle on={form.auto_analyze} danger label="Auto-run AI" onClick={() => setForm({ ...form, auto_analyze: !form.auto_analyze })} />
+        </div>
+
+        <div className={`mb-4 p-3 rounded-lg text-sm border ${form.ai_gated ? "bg-accent/10 border-accent/40 text-slate-200" : "bg-ink-900 border-ink-600 text-slate-400"}`}>
+          <b className={form.ai_gated ? "text-accent" : "text-slate-300"}>AI-gated decisions:</b>{" "}
+          {form.ai_gated
+            ? "ON — the screener only finds candidates; the AI agent debate decides and its confidence triggers the trade. Needs Claude Code running (non-root)."
+            : "OFF — the mechanical screener's math score decides trades directly (agents not involved)."}
         </div>
 
         <div className="mb-4 p-3 rounded-lg bg-ink-900 border border-ink-600">

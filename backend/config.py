@@ -97,6 +97,11 @@ DEFAULT_TRADING_CONFIG = {
     # scan schedule — i.e. the "cron from the dashboard". Headless, uses your Claude
     # Code subscription login (no API key). OFF by default. See scheduler.run_ai_analyze.
     "auto_analyze": False,
+    # AI-GATED: when ON, the mechanical screener only PRE-FILTERS candidates; the
+    # AI debate runs on them and the agents' decision (with the AI's own
+    # confidence) is what actually trades. No mechanical-only auto-trades.
+    # Requires Claude Code running (non-root). OFF by default.
+    "ai_gated": False,
 }
 
 
