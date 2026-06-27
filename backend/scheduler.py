@@ -76,6 +76,7 @@ class Scheduler:
             "min_minutes_between_trades": cfg.get("min_minutes_between_trades", 0),
             "auto_analyze": cfg.get("auto_analyze", False),
             "ai_gated": cfg.get("ai_gated", False),
+            "ai_timeout_sec": cfg.get("ai_timeout_sec", 1200),
             "ai_available": _claude_bin() is not None,  # re-check live (no restart needed)
             "ai_running": self._ai_running,
             "cycle_running": self._cycle_running,
@@ -143,7 +144,7 @@ class Scheduler:
         finally:
             self._cycle_running = False
 
-    def run_ai_analyze(self, timeout: int = 420) -> dict:
+    def run_ai_analyze(self, timeout: int | None = None) -> dict:
         """Run the multi-agent debate HEADLESSLY via Claude Code (claude -p).
 
         Uses your subscription login (NOT an API key). This is the dashboard's
@@ -160,8 +161,11 @@ class Scheduler:
                          "Auto-analyze: `claude` not found. Install Claude Code + /login first.")
             return {"ok": False, "message": "claude CLI not found"}
 
+        if timeout is None:
+            timeout = int(db.get_trading_config().get("ai_timeout_sec", 1200))
         self._ai_running = True
-        db.add_alert("info", "system", "Auto-analyze: running /analyze headlessly (subscription)…")
+        db.add_alert("info", "system",
+                     f"Auto-analyze: running /analyze headlessly (subscription)… up to {timeout//60} min.")
         try:
             proc = subprocess.run(
                 [binp, "-p", "/analyze", "--dangerously-skip-permissions"],

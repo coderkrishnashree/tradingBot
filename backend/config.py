@@ -102,6 +102,9 @@ DEFAULT_TRADING_CONFIG = {
     # confidence) is what actually trades. No mechanical-only auto-trades.
     # Requires Claude Code running (non-root). OFF by default.
     "ai_gated": False,
+    # Max seconds to let one headless debate run. 8 agents + web search can take
+    # 8-15 min on a small server, so give it room. Raise if you see timeouts.
+    "ai_timeout_sec": 1200,
 }
 
 

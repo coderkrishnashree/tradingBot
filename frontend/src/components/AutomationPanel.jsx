@@ -29,6 +29,7 @@ export default function AutomationPanel({ status, mode, onRefresh }) {
         auto_trade_confidence: status.auto_trade_confidence,
         auto_analyze: status.auto_analyze ?? false,
         ai_gated: status.ai_gated ?? false,
+        ai_timeout_sec: status.ai_timeout_sec ?? 1200,
         scan_interval_min: status.scan_interval_min,
         scan_timeframes: status.scan_timeframes?.length ? status.scan_timeframes : ["15m", "1h", "4h", "1d"],
         daily_loss_limit_pct: status.daily_loss_limit_pct ?? 0,
@@ -125,11 +126,20 @@ export default function AutomationPanel({ status, mode, onRefresh }) {
           <span className="text-xs text-slate-500">Pairs scoring at or above this auto-trade. (Your 60–70% range is typical.)</span>
         </label>
 
-        <label className="block mb-3">
-          <span className="text-xs text-slate-400">Scan interval (minutes)</span>
-          <input type="number" min="1" max="1440" className="input" value={form.scan_interval_min}
-            onChange={(e) => setForm({ ...form, scan_interval_min: Number(e.target.value) })} />
-        </label>
+        <div className="grid grid-cols-2 gap-3 mb-3">
+          <label className="block">
+            <span className="text-xs text-slate-400">Scan interval (minutes)</span>
+            <input type="number" min="1" max="1440" className="input" value={form.scan_interval_min}
+              onChange={(e) => setForm({ ...form, scan_interval_min: Number(e.target.value) })} />
+          </label>
+          <label className="block">
+            <span className="text-xs text-slate-400">AI debate timeout (minutes)</span>
+            <input type="number" min="2" max="60" className="input"
+              value={Math.round((form.ai_timeout_sec || 1200) / 60)}
+              onChange={(e) => setForm({ ...form, ai_timeout_sec: Math.max(120, Number(e.target.value) * 60) })} />
+            <span className="text-xs text-slate-500">8 agents + web search can need 8–15 min.</span>
+          </label>
+        </div>
 
         <div className="grid grid-cols-2 gap-3 mb-3">
           <label className="block">
