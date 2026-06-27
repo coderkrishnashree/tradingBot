@@ -102,14 +102,7 @@ export default function App() {
 
         {tab === "Trades" && <TradesTab />}
 
-        {tab === "Debates" && (
-          <DebatesTab
-            transcript={transcript.error ? null : transcript.data}
-            mode={mode.data}
-            autoTrade={automation.data?.auto_trade}
-            onAction={refreshAll}
-          />
-        )}
+        {tab === "Debates" && <DebatesTab />}
 
         {tab === "Scanner" && <ScannerTable scan={scan.data} onRefresh={() => { scan.refresh(); alerts.refresh(); portfolio.refresh(); }} />}
 
