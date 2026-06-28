@@ -231,11 +231,25 @@ class Scheduler:
                  and r["symbol"] not in open_syms
                  and engine.cooldown_remaining(r["symbol"]) <= 0]
         if not cands:
-            best = max((r["composite"]["confidence_pct"] for r in rows), default=0)
-            db.add_alert("info", "system",
-                         f"AI-gated: no pair ≥ {round(threshold)}% this cycle (best was {round(best)}%) — "
-                         f"no debate. The anti-chase scoring is finding nothing fresh.")
-            return {"ai_gated": f"no candidate >= {threshold}%"}
+            best = max(rows, key=lambda r: r["composite"]["confidence_pct"], default=None)
+            if best and best["composite"]["confidence_pct"] >= threshold:
+                sym, c = best["symbol"], best["composite"]
+                if c["direction"] == "flat":
+                    why = "direction is flat"
+                elif sym in open_syms:
+                    why = "you already hold a position in it"
+                elif engine.cooldown_remaining(sym) > 0:
+                    why = f"it's in a {engine.cooldown_remaining(sym)}m cooldown"
+                else:
+                    why = "it was excluded"
+                msg = (f"AI-gated: top pair {sym} is {round(c['confidence_pct'])}% (≥ {round(threshold)}%) "
+                       f"but {why} — no new debate.")
+            else:
+                bv = round(best['composite']['confidence_pct']) if best else 0
+                msg = (f"AI-gated: no pair ≥ {round(threshold)}% this cycle (best was {bv}%) — "
+                       f"no debate. The anti-chase scoring is finding nothing fresh.")
+            db.add_alert("info", "system", msg)
+            return {"ai_gated": "no tradeable candidate"}
         if _claude_bin() is None:
             db.add_alert("warning", "system",
                          "AI-gated: candidate found but Claude CLI not available — NO trade "
