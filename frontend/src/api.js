@@ -59,6 +59,7 @@ export const api = {
   alerts: () => req("/alerts"),
   claudeStatus: () => req("/claude/status"),
   tradeManual: (sym) => req(`/trade/manual/${sym}`, { method: "POST" }),
+  backtest: (params) => req(`/backtest?${new URLSearchParams(params).toString()}`),
   runAnalyze: () => req("/analyze/run", { method: "POST" }),
   analyzeLog: () => req("/analyze/log"),
 };

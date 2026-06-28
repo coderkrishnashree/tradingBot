@@ -509,6 +509,17 @@ def debug_balance():
     }
 
 
+@app.get("/api/backtest")
+def run_backtest(symbol: str, timeframe: str = "1h", days: int = 90,
+                 threshold: float = 50, sl_pct: float = 2.0, tp_pct: float = 4.0,
+                 size_pct: float = 5.0, leverage: float = 3.0, fee_pct: float = 0.055):
+    """Replay the mechanical screener over history and return stats + equity curve."""
+    from . import backtest
+    return backtest.run(symbol, timeframe=timeframe, days=days, threshold=threshold,
+                        sl_pct=sl_pct, tp_pct=tp_pct, size_pct=size_pct,
+                        leverage=leverage, fee_pct=fee_pct)
+
+
 @app.get("/api/health")
 def health():
     return {

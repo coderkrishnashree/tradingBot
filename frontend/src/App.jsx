@@ -17,8 +17,9 @@ import ConnectClaude from "./components/ConnectClaude";
 import PnlTab from "./components/PnlTab";
 import TradesTab from "./components/TradesTab";
 import DebatesTab from "./components/DebatesTab";
+import BacktestTab from "./components/BacktestTab";
 
-const TABS = ["Overview", "P&L", "Trades", "Debates", "Scanner", "Automation", "Alerts", "Connect Claude"];
+const TABS = ["Overview", "P&L", "Trades", "Debates", "Scanner", "Backtest", "Automation", "Alerts", "Connect Claude"];
 
 // Compact always-visible kill switch for the header (works on every tab).
 function HeaderKill({ mode, onChange }) {
@@ -105,6 +106,8 @@ export default function App() {
         {tab === "Debates" && <DebatesTab />}
 
         {tab === "Scanner" && <ScannerTable scan={scan.data} onRefresh={() => { scan.refresh(); alerts.refresh(); portfolio.refresh(); }} />}
+
+        {tab === "Backtest" && <BacktestTab />}
 
         {tab === "Automation" && (
           <div className="grid lg:grid-cols-2 gap-4">

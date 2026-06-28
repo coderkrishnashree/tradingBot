@@ -179,52 +179,81 @@ def analyze(ohlcv) -> dict:
     }
 
 
-def signal(ind: dict) -> dict:
-    """Turn indicators into a signal in [-1, +1] with a transparent breakdown.
+def _clamp(x, lo=-1.0, hi=1.0):
+    return max(lo, min(hi, x))
 
-    Components (weights sum to 1.0):
-      trend .22 (gated by ADX strength), momentum/RSI .18, macd .15,
-      price-vs-SMA20 .10, price-vs-VWAP .12, bollinger %B .13, stochastic .10.
-    Then a divergence penalty dampens a signal fighting a momentum divergence.
+
+def signal(ind: dict) -> dict:
+    """Entry-quality score in [-0.9, +0.9]. Separates DIRECTIONAL BIAS from
+    ENTRY QUALITY so it stops rewarding chasing already-extended moves.
+
+    bias        = trend direction x ADX strength x (lightly) confirmations
+    exhaustion  = penalty for entering INTO an oversold/overbought extreme
+                  (the 'don't short the already-bleeding one' fix)
+    freshness   = penalty for entering far from VWAP/mean (chasing)
+    room        = penalty when price is jammed against the level you'd target
+                  (poor reward:risk from here)
+    final = bias x freshness x room, shrunk by exhaustion; capped at 0.9.
     """
     last, s20 = ind.get("last"), ind.get("sma20")
-    r, m = ind.get("rsi"), ind.get("macd")
-    adx_v = ind.get("adx")
-    bb = ind.get("bb_pctb")
-    stoch = ind.get("stoch")
-    vw_dist = ind.get("vwap_dist_pct")
+    m, r, adx_v = ind.get("macd"), ind.get("rsi"), ind.get("adx")
+    bb, vwd, atrp = ind.get("bb_pctb"), ind.get("vwap_dist_pct"), ind.get("atr_pct")
+    sup, res, div = ind.get("support"), ind.get("resistance"), ind.get("divergence")
 
-    trend_s = {"up": 1.0, "down": -1.0}.get(ind.get("trend"), 0.0)
-    # ADX gates trend: weak trend (chop) => trend contributes less.
-    adx_gate = max(0.3, min(1.0, (adx_v or 20) / 25))
-    trend_s *= adx_gate
+    # --- 1) DIRECTIONAL BIAS (one trend factor, scaled by REAL trend strength) ---
+    trend_dir = {"up": 1.0, "down": -1.0}.get(ind.get("trend"), 0.0)
+    if trend_dir == 0 and last and s20:
+        trend_dir = 1.0 if last > s20 else -1.0
+    adx_strength = _clamp(((adx_v or 0) - 15) / 25, 0.0, 1.0)   # real trend only > ADX 15
+    # Same-family confirmations add only a LITTLE (avoids fake 4x-counted confluence).
+    confirms = 0
+    if m is not None and trend_dir:
+        confirms += 1 if (m > 0) == (trend_dir > 0) else -1
+    if vwd is not None and trend_dir:
+        confirms += 1 if (vwd > 0) == (trend_dir > 0) else -1
+    confirm_factor = 0.6 + 0.4 * max(0, confirms) / 2          # 0.6 .. 1.0
+    bias = trend_dir * adx_strength * confirm_factor            # [-1, 1]
 
-    mom_s = max(-1.0, min(1.0, (r - 50) / 25)) if r is not None else 0.0
-    macd_s = (1.0 if m and m > 0 else -1.0 if m and m < 0 else 0.0)
-    px_s = (1.0 if last and s20 and last > s20 else -1.0 if last and s20 else 0.0)
-    vwap_s = max(-1.0, min(1.0, (vw_dist or 0) / 1.0))            # +/-1% from VWAP -> +/-1
-    bb_s = max(-1.0, min(1.0, ((bb if bb is not None else 0.5) - 0.5) * 2))
-    stoch_s = max(-1.0, min(1.0, ((stoch if stoch is not None else 50) - 50) / 30))
+    # --- 2) EXHAUSTION: penalize entering INTO an extreme (bounce/squeeze risk) ---
+    against = 0.0
+    if r is not None:
+        if bias < 0 and r <= 35:        # shorting into oversold
+            against = (35 - r) / 35
+        elif bias > 0 and r >= 65:      # buying into overbought
+            against = (r - 65) / 35
+    if bb is not None:
+        if bias < 0 and bb < 0.1:
+            against = max(against, (0.1 - bb) / 0.1)
+        elif bias > 0 and bb > 0.9:
+            against = max(against, (bb - 0.9) / 0.1)
+    against = _clamp(against, 0.0, 1.0)
 
-    score = (0.22 * trend_s + 0.18 * mom_s + 0.15 * macd_s + 0.10 * px_s
-             + 0.12 * vwap_s + 0.13 * bb_s + 0.10 * stoch_s)
+    # --- 3) FRESHNESS: penalize chasing far from the mean (VWAP) ---
+    extension = min(1.0, abs(vwd or 0) / 3.0)                   # 3% from VWAP = stretched
+    freshness = 1.0 - 0.5 * extension                          # 0.5 .. 1.0
 
-    # Divergence dampens a signal moving against it.
-    div = ind.get("divergence")
+    # --- 4) ROOM: reward:risk to the next level in the trade direction ---
+    room = 1.0
+    if last and atrp:
+        atr_abs = last * atrp / 100 or 1e-9
+        if bias < 0 and sup:
+            room = _clamp((last - sup) / (1.5 * atr_abs), 0.2, 1.0)   # room down to support
+        elif bias > 0 and res:
+            room = _clamp((res - last) / (1.5 * atr_abs), 0.2, 1.0)   # room up to resistance
+
+    score = bias * freshness * room * (1.0 - 0.7 * against)
     if div == "bearish" and score > 0:
-        score *= 0.6
+        score *= 0.5
     elif div == "bullish" and score < 0:
-        score *= 0.6
-
-    score = max(-1.0, min(1.0, score))
+        score *= 0.5
+    score = _clamp(score, -0.9, 0.9)                            # never a fake 100%
     direction = "long" if score > 0.1 else "short" if score < -0.1 else "flat"
     return {
         "score": round(score, 3),
         "direction": direction,
         "parts": {
-            "trend": round(trend_s, 2), "momentum": round(mom_s, 2), "macd": macd_s,
-            "price_vs_sma20": px_s, "vwap": round(vwap_s, 2),
-            "bollinger": round(bb_s, 2), "stochastic": round(stoch_s, 2),
-            "adx_gate": round(adx_gate, 2), "divergence": div,
+            "bias": round(bias, 2), "adx_strength": round(adx_strength, 2),
+            "exhaustion_penalty": round(against, 2), "freshness": round(freshness, 2),
+            "room": round(room, 2), "divergence": div,
         },
     }
