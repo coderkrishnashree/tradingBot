@@ -38,7 +38,7 @@ from pathlib import Path
 
 from . import db, exchange, stats, decisions_io, engine, scanner
 from .scheduler import scheduler
-from .config import mode_manager, PROJECT_ROOT
+from .config import mode_manager, PROJECT_ROOT, has_mainnet_keys
 from .models import TradingConfig, GoLiveRequest, DecisionAction, AutomationConfig
 
 
@@ -47,7 +47,15 @@ async def lifespan(app: FastAPI):
     # On boot: create tables, seed config. Mode is ALWAYS paper at startup
     # (enforced by ModeManager's constructor).
     db.init_db()
-    db.add_alert("info", "system", "Backend started in PAPER mode.")
+    # Resume the persisted mode — but ONLY into live if mainnet keys exist.
+    saved = db.get_saved_mode()
+    if saved == "live" and has_mainnet_keys():
+        mode_manager.restore_mode("live")
+        db.add_alert("warning", "system",
+                     "⚠ Resumed in LIVE / REAL FUNDS mode from saved state. Auto-trading "
+                     "(if enabled) is now active on real money.")
+    else:
+        db.add_alert("info", "system", f"Backend started in {mode_manager.mode.upper()} mode.")
     # Start the always-on mechanical scan loop (no Claude tokens). Disable with
     # SCHEDULER_ENABLED=0 (used by tests).
     if os.getenv("SCHEDULER_ENABLED", "1") != "0":
@@ -82,6 +90,7 @@ def go_live(req: GoLiveRequest):
     if not result["ok"]:
         raise HTTPException(status_code=400, detail=result["error"])
     exchange.reset_clients()   # rebuild ccxt client with mainnet keys
+    db.save_mode("live")       # persist so a restart resumes live
     return mode_manager.status()
 
 
@@ -89,6 +98,7 @@ def go_live(req: GoLiveRequest):
 def go_paper():
     mode_manager.go_paper()
     exchange.reset_clients()
+    db.save_mode("paper")      # persist so a restart resumes paper
     return mode_manager.status()
 
 

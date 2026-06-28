@@ -6,9 +6,14 @@ Run a FAST debate that produces a decision for **every pair** in the universe. I
 research (macro + sentiment), but only ONCE per cycle (shared), so it stays quick even across many
 pairs. Runs on the Claude subscription via the Task tool — no API key, no loop.
 
+**Which pairs:** if symbols are passed as arguments ($ARGUMENTS), analyze ONLY those pairs (this
+is the normal case — the gate already picked the ones that qualified). If no arguments are given,
+fall back to the full universe from config.
+
 Steps:
 
-1. **Refresh data.** Run `python agents/market_scan.py`. Read the pair list from the config:
+1. **Refresh data.** Run `python agents/market_scan.py`. Determine the pairs: use $ARGUMENTS if
+   provided; otherwise read the universe with
    `python -c "import sys;sys.path.insert(0,'.');from backend import db;print(db.get_trading_config()['symbol_universe'])"`
 
 2. **Shared web research (ONCE).** Launch the `macro-agent` and `sentiment-agent` subagents for

@@ -155,7 +155,7 @@ class Scheduler:
         finally:
             self._cycle_running = False
 
-    def run_ai_analyze(self, timeout: int | None = None) -> dict:
+    def run_ai_analyze(self, timeout: int | None = None, symbols: list | None = None) -> dict:
         """Run the multi-agent debate HEADLESSLY via Claude Code (claude -p).
 
         Uses your subscription login (NOT an API key). This is the dashboard's
@@ -186,9 +186,13 @@ class Scheduler:
             with open(AI_LOG_PATH, "w") as lf:
                 lf.write(f"=== /analyze started {datetime.now(timezone.utc).isoformat()} ===\n")
                 lf.flush()
-                # LITE = fast desk-analyst on every pair; FULL = 8-agent debate on
-                # the best pair. stream-json flushes live for the dashboard feed.
-                command = "/analyze-lite" if db.get_trading_config().get("ai_lite", True) else "/analyze"
+                # LITE = fast desk-analyst; FULL = 8-agent debate on the best pair.
+                # In lite mode, if specific symbols are passed (the gated candidates)
+                # we debate ONLY those — no wasted calls on pairs that didn't qualify.
+                if db.get_trading_config().get("ai_lite", True):
+                    command = "/analyze-lite" + ((" " + " ".join(symbols)) if symbols else "")
+                else:
+                    command = "/analyze"
                 proc = subprocess.run(
                     [binp, "-p", command, "--output-format", "stream-json", "--verbose",
                      "--dangerously-skip-permissions"],
@@ -256,9 +260,11 @@ class Scheduler:
                          "(this is the gate working). Set up Claude Code to enable.")
             return {"ai_gated": "claude unavailable — gated, no trade"}
 
+        cand_syms = [c["symbol"] for c in cands]
         top = ", ".join(f"{c['symbol']}({c['composite']['confidence_pct']}%)" for c in cands[:3])
-        db.add_alert("info", "system", f"AI-gated: {len(cands)} candidate(s) [{top}] — running agent debate…")
-        self.run_ai_analyze()                      # blocks until the debate finishes
+        db.add_alert("info", "system",
+                     f"AI-gated: {len(cands)} candidate(s) [{top}] — debating only these…")
+        self.run_ai_analyze(symbols=cand_syms)     # debate ONLY the qualifying pairs
         res = self._auto_trade_ai(threshold, cfg)  # execute the AI's call if it qualifies
         return {"ai_gated": "debate complete", **res}
 

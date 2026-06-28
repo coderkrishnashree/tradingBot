@@ -178,6 +178,11 @@ class ModeManager:
         self._mode = PAPER
         return {"ok": True, "error": None}
 
+    def restore_mode(self, mode: str):
+        """Restore a persisted mode on boot (used by lifespan). Only ever sets
+        LIVE if called with LIVE; callers must check mainnet keys first."""
+        self._mode = LIVE if mode == LIVE else PAPER
+
     def engage_kill_switch(self):
         self._kill_switch = True
 
