@@ -273,11 +273,24 @@ class Scheduler:
                              symbol=sym)
         return {"traded": traded, "skipped": skipped}
 
+    def _scanner_conf(self, sym) -> float | None:
+        """Latest mechanical scanner confidence (%) for a symbol."""
+        try:
+            for r in (scanner.latest() or {}).get("rows", []):
+                if r["symbol"] == sym:
+                    return float(r["composite"]["confidence_pct"])
+        except Exception:
+            pass
+        return None
+
     def _auto_trade_ai(self, threshold, cfg) -> dict:
-        """AI overlay: execute every RECENT, still-pending AI decision that
-        qualifies. Handles both the full debate (one decision) and lite mode
-        (one decision per pair). Non-actionable ones are marked 'reviewed' so
-        they aren't reprocessed every cycle."""
+        """Execute every RECENT, still-pending AI decision that qualifies.
+
+        Gate logic (per your design): the AI sets DIRECTION; a HOLD never trades.
+        For a buy/short, the trade must clear the threshold on the SCANNER's
+        mechanical confidence (NOT the AI's own confidence — that only sizes the
+        trade via the decision's `size`). Handles full mode (one decision) and
+        lite mode (one per pair)."""
         from datetime import datetime, timezone, timedelta
         cutoff = (datetime.now(timezone.utc) - timedelta(hours=2)).isoformat()
         open_syms = self._open_symbols()
@@ -291,19 +304,30 @@ class Scheduler:
                 continue
             sym = full.get("symbol")
             action = (full.get("action") or "").lower()
-            conf_pct = float(full.get("confidence") or 0) * 100
-            if action in ("hold", "", "close", "sell") or conf_pct < threshold:
-                db.set_decision_status(fn, "reviewed")   # clear from the pending queue
+
+            if action not in ("buy", "short"):          # HOLD/close/sell => no trade
+                db.set_decision_status(fn, "reviewed")
+                db.add_alert("info", "auto_trade", f"AI: NO trade on {sym} — agents said HOLD.", symbol=sym)
+                continue
+            mech = self._scanner_conf(sym)              # the gate = scanner confidence
+            if mech is None or mech < threshold:
+                db.set_decision_status(fn, "reviewed")
+                db.add_alert("info", "auto_trade",
+                             f"AI: {action.upper()} {sym} but scanner conf "
+                             f"{round(mech) if mech is not None else '?'}% < {round(threshold)}% — no trade.",
+                             symbol=sym)
                 continue
             if sym in open_syms or engine.cooldown_remaining(sym) > 0:
                 skipped.append(f"{sym}: open/cooldown")
+                db.add_alert("info", "auto_trade",
+                             f"AI: skipped {sym} — already open or in cooldown.", symbol=sym)
                 continue
             res = engine.execute_decision(full, decision_file=fn)
             if res["ok"]:
                 traded.append(sym)
                 open_syms.add(sym)
                 db.add_alert("success", "auto_trade",
-                             f"AUTO (AI) {action.upper()} {sym} @ conf {round(conf_pct)}% — {res['message']}",
+                             f"AUTO (AI) {action.upper()} {sym} @ scanner {round(mech)}% — {res['message']}",
                              symbol=sym)
             else:
                 skipped.append(f"{sym}: {res['message']}")
