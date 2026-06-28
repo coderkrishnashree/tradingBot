@@ -49,7 +49,8 @@ def sharpe(returns: list[float], periods_per_year: int = 365 * 24) -> float:
 
 
 def compute_stats() -> dict:
-    equity_rows = db.list_equity()
+    from .config import mode_manager
+    equity_rows = db.list_equity(mode=mode_manager.mode)
     equity = [r["equity"] for r in equity_rows]
 
     total_return = 0.0

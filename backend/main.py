@@ -175,7 +175,8 @@ def get_portfolio():
 
     # Snapshot equity for the curve/drawdown — but THROTTLE to ~once a minute so
     # fast polling doesn't flood the curve or skew the (hourly-assumed) Sharpe.
-    curve = db.list_equity()
+    # Only this environment's history (paper vs live are separate accounts).
+    curve = db.list_equity(mode=mode_manager.mode)
     snapshot_due = True
     if curve:
         try:
@@ -238,7 +239,7 @@ def get_orders(limit: int = 200):
 
 @app.get("/api/equity")
 def get_equity():
-    return db.list_equity()
+    return db.list_equity(mode=mode_manager.mode)
 
 
 @app.get("/api/trades")

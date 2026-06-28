@@ -193,12 +193,20 @@ def record_equity(equity: float, cash: float | None, unrealized: float | None, m
         )
 
 
-def list_equity(limit: int = 1000) -> list[dict]:
+def list_equity(limit: int = 1000, mode: str | None = None) -> list[dict]:
+    """Equity snapshots. Pass mode='paper'|'live' to keep the two environments'
+    histories separate (so switching mode never shows a fake drawdown)."""
     with get_conn() as conn:
-        rows = conn.execute(
-            "SELECT ts, equity, cash, unrealized FROM equity_curve ORDER BY id ASC LIMIT ?",
-            (limit,),
-        ).fetchall()
+        if mode:
+            rows = conn.execute(
+                "SELECT ts, equity, cash, unrealized, mode FROM equity_curve "
+                "WHERE mode=? ORDER BY id ASC LIMIT ?", (mode, limit),
+            ).fetchall()
+        else:
+            rows = conn.execute(
+                "SELECT ts, equity, cash, unrealized, mode FROM equity_curve "
+                "ORDER BY id ASC LIMIT ?", (limit,),
+            ).fetchall()
         return [dict(r) for r in rows]
 
 

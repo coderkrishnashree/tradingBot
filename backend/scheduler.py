@@ -231,6 +231,10 @@ class Scheduler:
                  and r["symbol"] not in open_syms
                  and engine.cooldown_remaining(r["symbol"]) <= 0]
         if not cands:
+            best = max((r["composite"]["confidence_pct"] for r in rows), default=0)
+            db.add_alert("info", "system",
+                         f"AI-gated: no pair ≥ {round(threshold)}% this cycle (best was {round(best)}%) — "
+                         f"no debate. The anti-chase scoring is finding nothing fresh.")
             return {"ai_gated": f"no candidate >= {threshold}%"}
         if _claude_bin() is None:
             db.add_alert("warning", "system",

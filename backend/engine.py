@@ -45,7 +45,9 @@ def drawdown_guard() -> tuple[bool, float, float]:
     """
     cfg = db.get_trading_config()
     limit = float(cfg.get("max_drawdown_pct", 20))
-    rows = db.list_equity()
+    # Only the CURRENT environment's equity — paper and live are different
+    # accounts; mixing them shows a fake drawdown when you switch modes.
+    rows = db.list_equity(mode=mode_manager.mode)
     # After a manual kill-switch reset we only measure drawdown from that moment
     # forward, so stale history can't immediately re-trip the auto-stop.
     ref = mode_manager.dd_reference_ts
@@ -64,7 +66,7 @@ def daily_loss_guard() -> tuple[bool, float, float]:
         return False, 0.0, 0.0
     from datetime import datetime, timezone
     today = datetime.now(timezone.utc).date().isoformat()
-    rows = [r for r in db.list_equity() if r["ts"].startswith(today)]
+    rows = [r for r in db.list_equity(mode=mode_manager.mode) if r["ts"].startswith(today)]
     if len(rows) < 2:
         return False, 0.0, limit
     first, cur = rows[0]["equity"], rows[-1]["equity"]
