@@ -204,11 +204,18 @@ def get_portfolio():
     if breached and not mode_manager.kill_switch_active:
         mode_manager.engage_kill_switch()
 
-    # All-time P&L vs first ever snapshot; today's P&L vs first snapshot today.
-    all_time_pnl = (equity - curve[0]["equity"]) if curve else 0.0
-    today = datetime.now(timezone.utc).date().isoformat()
-    todays = [r for r in curve if r["ts"].startswith(today)]
-    todays_pnl = (equity - todays[0]["equity"]) if todays else 0.0
+    # DEPOSIT-PROOF P&L: trading P&L = realized (closed trades) + unrealized (open).
+    # (Using equity − baseline would count deposits/withdrawals as profit.)
+    closed = exchange.fetch_closed_trades(db.get_trading_config().get("symbol_universe"))
+    now = datetime.now(timezone.utc)
+    today = now.date().isoformat()
+    day_start_ms = int(now.replace(hour=0, minute=0, second=0, microsecond=0).timestamp() * 1000)
+    realized_all = sum(t.get("realized") or 0 for t in closed)
+    realized_today = sum(t.get("realized") or 0 for t in closed if (t.get("closed_at") or 0) >= day_start_ms)
+    todays_rows = [r for r in curve if r["ts"].startswith(today)]
+    unreal_start = float(todays_rows[0].get("unrealized") or 0) if todays_rows else unrealized
+    all_time_pnl = realized_all + unrealized
+    todays_pnl = realized_today + (unrealized - unreal_start)
 
     return {
         "mode": mode_manager.mode,
@@ -319,13 +326,18 @@ def get_stats(period: str = "all", start: str = "", end: str = ""):
     eq = [r for r in db.list_equity(mode=mode_manager.mode)
           if (not frm_iso or r["ts"] >= frm_iso) and r["ts"] <= to_iso]
     equity = [r["equity"] for r in eq]
-    total_return = (equity[-1] / equity[0] - 1) * 100 if len(equity) >= 2 and equity[0] else 0.0
 
     closed = [t for t in _fetch_closed_trades()
               if frm_ms <= (t.get("closed_at") or 0) <= to_ms]
     wins = [t for t in closed if (t.get("realized") or 0) > 0]
     gross_win = sum(t["realized"] for t in wins)
     gross_loss = abs(sum(t["realized"] for t in closed if (t.get("realized") or 0) <= 0))
+    realized = sum(t.get("realized") or 0 for t in closed)
+    unrealized = sum(_f(p.get("unrealizedPnl")) for p in exchange.fetch_positions())
+    # DEPOSIT-PROOF return: (realized in window + current unrealized) over the
+    # window's starting equity — deposits don't inflate the numerator.
+    base = equity[0] if equity and equity[0] else None
+    total_return = ((realized + unrealized) / base * 100) if base else 0.0
 
     return {
         "period": period,

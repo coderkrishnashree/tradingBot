@@ -101,8 +101,17 @@ def fetch_ticker(symbol: str) -> dict:
         return {"symbol": symbol, "error": str(e)}
 
 
+_closed_cache = {"ts": 0.0, "mode": None, "data": []}
+
+
 def fetch_closed_trades(symbols, per_sym: int = 100) -> list[dict]:
-    """Bybit closed-PnL (realized) records across the given symbols, newest first."""
+    """Bybit closed-PnL (realized) records across the given symbols, newest first.
+    Cached for 60s so frequent pollers (portfolio/stats) don't spam the API."""
+    import time
+    now = time.time()
+    if (_closed_cache["data"] and _closed_cache["mode"] == mode_manager.mode
+            and now - _closed_cache["ts"] < 60):
+        return _closed_cache["data"]
     out = []
     try:
         client = get_client()
@@ -125,6 +134,7 @@ def fetch_closed_trades(symbols, per_sym: int = 100) -> list[dict]:
     except Exception:
         pass
     out.sort(key=lambda x: x.get("closed_at") or 0, reverse=True)
+    _closed_cache.update({"ts": now, "mode": mode_manager.mode, "data": out})
     return out
 
 
