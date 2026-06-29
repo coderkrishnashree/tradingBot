@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { api, fmt } from "../api";
 import PairDetail from "./PairDetail";
+import { PairLink } from "../chart.jsx";
 
 // Colour a signal score in [-1,1]: green long, red short, gray flat.
 function scoreCell(score) {
@@ -93,10 +94,10 @@ export default function ScannerTable({ scan, onRefresh }) {
                 const c = r.composite;
                 return (
                   <tr key={r.symbol} className="hover:bg-ink-700/40">
-                    <td className="td">
-                      <button className="text-accent hover:underline" onClick={() => setSelected(r.symbol)}>
-                        {r.symbol}
-                      </button>
+                    <td className="td whitespace-nowrap">
+                      <PairLink symbol={r.symbol} />
+                      <button className="text-xs text-slate-500 hover:text-slate-200 ml-1"
+                        title="indicator details" onClick={() => setSelected(r.symbol)}>ⓘ</button>
                     </td>
                     <td className="td"><ConfBar pct={c.confidence_pct} direction={c.direction} /></td>
                     <td className={`td font-bold ${c.direction === "long" ? "text-up" : c.direction === "short" ? "text-down" : "text-slate-400"}`}>

@@ -1,11 +1,9 @@
-import { useState } from "react";
 import { fmt } from "../api";
 import { SkeletonRow } from "./Skeleton";
-import SymbolChart from "./SymbolChart";
+import { PairLink } from "../chart.jsx";
 
-// Open positions pulled live from Bybit. Click a row to see its price chart.
+// Open positions pulled live from Bybit. Click a symbol for its live chart.
 export default function PositionsTable({ positions }) {
-  const [sel, setSel] = useState(null);
   const loading = positions == null;
   const rows = positions || [];
 
@@ -26,9 +24,8 @@ export default function PositionsTable({ positions }) {
               <tr><td className="td text-slate-500" colSpan={7}>No open positions.</td></tr>
             )}
             {rows.map((p, i) => (
-              <tr key={i} className="hover:bg-ink-700/40 cursor-pointer"
-                onClick={() => setSel({ symbol: p.symbol, entry: p.entry_price, side: p.side })}>
-                <td className="td text-accent hover:underline">{p.symbol} <span className="text-slate-600">↗</span></td>
+              <tr key={i} className="hover:bg-ink-700/40">
+                <td className="td"><PairLink symbol={p.symbol} entry={p.entry_price} side={p.side} /></td>
                 <td className={`td font-bold ${p.side === "long" ? "text-up" : "text-down"}`}>{(p.side || "").toUpperCase()}</td>
                 <td className="td">{fmt.num(p.size, 4)}</td>
                 <td className="td">{fmt.num(p.entry_price, 2)}</td>
@@ -41,9 +38,8 @@ export default function PositionsTable({ positions }) {
         </table>
       </div>
       {!loading && rows.length > 0 && (
-        <div className="text-xs text-slate-500 mt-2">Click a position to open its price chart.</div>
+        <div className="text-xs text-slate-500 mt-2">Click a symbol to open its live chart.</div>
       )}
-      {sel && <SymbolChart {...sel} onClose={() => setSel(null)} />}
     </div>
   );
 }

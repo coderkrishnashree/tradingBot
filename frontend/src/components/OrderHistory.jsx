@@ -1,6 +1,7 @@
 import { useMemo, useState } from "react";
 import { fmt } from "../api";
 import { SkeletonRow } from "./Skeleton";
+import { PairLink } from "../chart.jsx";
 
 const COLUMNS = [
   { key: "ts", label: "Time" },
@@ -75,7 +76,7 @@ export default function OrderHistory({ orders }) {
                 <td className="td">
                   <span className={o.mode === "live" ? "text-down" : "text-up"}>{o.mode}</span>
                 </td>
-                <td className="td">{o.symbol}</td>
+                <td className="td"><PairLink symbol={o.symbol} /></td>
                 <td className={`td font-bold ${o.side === "buy" ? "text-up" : "text-down"}`}>{o.side}</td>
                 <td className="td text-slate-400">{o.order_type}</td>
                 <td className="td">{fmt.num(o.qty, 4)}</td>

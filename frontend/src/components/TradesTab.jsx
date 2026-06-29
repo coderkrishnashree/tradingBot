@@ -1,6 +1,6 @@
 import { useMemo, useState } from "react";
 import { api, usePoll, fmt } from "../api";
-import SymbolChart from "./SymbolChart";
+import { PairLink } from "../chart.jsx";
 
 function Pager({ page, pages, setPage }) {
   if (pages <= 1) return null;
@@ -19,7 +19,6 @@ function Pager({ page, pages, setPage }) {
 export default function TradesTab() {
   const trades = usePoll(api.trades, 5000);
   const [page, setPage] = useState(0);
-  const [sel, setSel] = useState(null);
   const PER = 12;
 
   const open = trades.data?.open || [];
@@ -45,9 +44,8 @@ export default function TradesTab() {
             <tbody>
               {open.length === 0 && <tr><td className="td text-slate-500" colSpan={8}>No open trades.</td></tr>}
               {open.map((t, i) => (
-                <tr key={i} className="hover:bg-ink-700/40 cursor-pointer"
-                  onClick={() => setSel({ symbol: t.symbol, entry: t.entry, side: t.side })}>
-                  <td className="td text-accent hover:underline">{t.symbol} <span className="text-slate-600">↗</span></td>
+                <tr key={i} className="hover:bg-ink-700/40">
+                  <td className="td"><PairLink symbol={t.symbol} entry={t.entry} side={t.side} /></td>
                   <td className={`td font-bold ${t.side === "long" ? "text-up" : "text-down"}`}>{(t.side || "").toUpperCase()}</td>
                   <td className="td">{fmt.num(t.size, 4)}</td>
                   <td className="td">{fmt.num(t.entry, 2)}</td>
@@ -82,7 +80,7 @@ export default function TradesTab() {
               {pageRows.map((t, i) => (
                 <tr key={i} className="hover:bg-ink-700/40">
                   <td className="td text-slate-400">{fmt.timeMs(t.closed_at)}</td>
-                  <td className="td">{t.symbol}</td>
+                  <td className="td"><PairLink symbol={t.symbol} /></td>
                   <td className={`td font-bold ${t.side === "Buy" || t.side === "long" ? "text-up" : "text-down"}`}>{t.side}</td>
                   <td className="td">{fmt.num(t.qty, 4)}</td>
                   <td className="td">{fmt.num(t.entry, 4)}</td>
@@ -95,7 +93,6 @@ export default function TradesTab() {
         </div>
         <Pager page={page} pages={pages} setPage={setPage} />
       </div>
-      {sel && <SymbolChart {...sel} onClose={() => setSel(null)} />}
     </div>
   );
 }
