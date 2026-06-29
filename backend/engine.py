@@ -30,6 +30,15 @@ class ExecutionResult(dict):
     """Just a dict with ok/message/order fields, for clarity at call sites."""
 
 
+def _num(x):
+    """Float or None (treats 0/blank as None)."""
+    try:
+        v = float(x)
+        return v if v != 0 else None
+    except (TypeError, ValueError):
+        return None
+
+
 def _fail(msg: str, **extra) -> ExecutionResult:
     return ExecutionResult(ok=False, message=msg, **extra)
 
@@ -182,42 +191,84 @@ def execute_decision(decision: dict, decision_file: str | None = None) -> Execut
             db.set_decision_status(decision_file, "executed")
         return _ok(f"Close submitted for {symbol}.", order_id=order.get("id"))
 
-    # --- BUY / SHORT: open a new position with SL + TP ----------------------
+    # --- BUY / SHORT: open a new position --------------------------------
     side = "buy" if action == "buy" else "sell"
-    size_pct = float(decision.get("size") or cfg.get("position_size_pct", 5))
-    amount = _amount_from_size(symbol, size_pct, leverage, price)
-    if amount <= 0:
-        return _fail("Computed order size is zero (no equity / price). "
-                     "Fund the account or check keys.")
+    is_long = action == "buy"
 
-    # Set leverage (best-effort; some accounts pin it).
+    # Don't stack a second order if one is already resting on this symbol.
+    try:
+        if client.fetch_open_orders(symbol):
+            if decision_file:
+                db.set_decision_status(decision_file, "executed")
+            return _ok(f"{symbol}: an order is already resting — not stacking another.")
+    except Exception:
+        pass
+
+    # SIZE & LEVERAGE come straight from YOUR config — your risk budget / how much
+    # you want to invest. The AI only sets direction, entry, and (cautious) SL/TP.
+    size_pct = float(cfg.get("position_size_pct", 5))
+
+    # ENTRY: honor the AI's planned entry as a LIMIT order when it's a better,
+    # passive price on the correct side (short ABOVE market / long BELOW market).
+    # Otherwise fall back to a market order — never chase past the plan.
+    ai_entry = _num(decision.get("entry"))
+    order_type, limit_price = "market", None
+    if ai_entry:
+        if is_long and ai_entry < price * 0.999:
+            order_type, limit_price = "limit", ai_entry
+        elif (not is_long) and ai_entry > price * 1.001:
+            order_type, limit_price = "limit", ai_entry
+    ref_price = limit_price or price
+
+    amount = _amount_from_size(symbol, size_pct, leverage, ref_price)
+    if amount <= 0:
+        return _fail("Computed order size is zero (no equity / price). Fund the account or check keys.")
+    try:
+        amount = float(client.amount_to_precision(symbol, amount))
+    except Exception:
+        pass
+
     try:
         client.set_leverage(leverage, symbol)
     except Exception:
         pass
 
-    params = {}
-    if decision.get("stop_loss"):
-        params["stopLoss"] = str(decision["stop_loss"])
-    if decision.get("take_profit"):
-        params["takeProfit"] = str(decision["take_profit"])
+    # SL/TP: prefer the AI's structural levels; else derive from your config %.
+    sl = _num(decision.get("stop_loss"))
+    tp = _num(decision.get("take_profit"))
+    if not sl:
+        slp = float(cfg.get("stop_loss_pct", 2))
+        sl = ref_price * (1 - slp / 100) if is_long else ref_price * (1 + slp / 100)
+    if not tp:
+        tpp = float(cfg.get("take_profit_pct", 4))
+        tp = ref_price * (1 + tpp / 100) if is_long else ref_price * (1 - tpp / 100)
+
+    def _p(v):
+        try:
+            return client.price_to_precision(symbol, v)
+        except Exception:
+            return str(v)
+    params = {"stopLoss": _p(sl), "takeProfit": _p(tp)}
 
     try:
-        order = client.create_order(symbol, "market", side, amount, None, params=params)
+        if order_type == "limit":
+            order = client.create_order(symbol, "limit", side, amount, float(_p(limit_price)), params=params)
+        else:
+            order = client.create_order(symbol, "market", side, amount, None, params=params)
     except Exception as e:
-        db.record_order(mode=mode, symbol=symbol, side=side, order_type="market",
-                        qty=amount, price=price, status="rejected",
+        db.record_order(mode=mode, symbol=symbol, side=side, order_type=order_type,
+                        qty=amount, price=ref_price, status="rejected",
                         decision_file=decision_file, raw=str(e))
         return _fail(f"Entry order rejected: {e}")
 
-    db.record_order(mode=mode, symbol=symbol, side=side, order_type="market",
-                    qty=amount, price=order.get("average") or price,
+    db.record_order(mode=mode, symbol=symbol, side=side, order_type=order_type,
+                    qty=amount, price=order.get("average") or ref_price,
                     status="submitted", filled_qty=order.get("filled"),
                     avg_fill_price=order.get("average"),
-                    exchange_id=order.get("id"), decision_file=decision_file,
-                    raw=str(order))
+                    exchange_id=order.get("id"), decision_file=decision_file, raw=str(order))
     if decision_file:
         db.set_decision_status(decision_file, "executed")
-    return _ok(f"{action.upper()} {symbol} submitted: {amount:.6f} @ ~{price} "
-               f"(lev {leverage}x, SL {decision.get('stop_loss')}, TP {decision.get('take_profit')}).",
-               order_id=order.get("id"), amount=amount, price=price, mode=mode)
+    placed = f"LIMIT @ {_p(limit_price)}" if order_type == "limit" else f"MARKET @ ~{_p(price)}"
+    return _ok(f"{action.upper()} {symbol} {placed}: {amount} (lev {leverage}x, size {round(size_pct, 2)}%, "
+               f"SL {_p(sl)}, TP {_p(tp)}).",
+               order_id=order.get("id"), amount=amount, price=ref_price, mode=mode)
