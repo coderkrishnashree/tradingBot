@@ -44,7 +44,6 @@ export default function App() {
   const positions = usePoll(api.positions, 2500);
   const orders = usePoll(api.orders, 4000);
   const equity = usePoll(api.equity, 8000);
-  const stats = usePoll(api.stats, 8000);
   const transcript = usePoll(api.latestTranscript, 6000);
   const scan = usePoll(api.scan, 10000);
   const automation = usePoll(api.automation, 5000);
@@ -82,7 +81,7 @@ export default function App() {
         {tab === "Overview" && (
           <>
             <PortfolioOverview portfolio={portfolio.data} />
-            <StatsPanel stats={stats.data} />
+            <StatsPanel />
             <div className="grid lg:grid-cols-3 gap-4">
               <div className="lg:col-span-2 space-y-4">
                 <Charts equity={equity.data} />

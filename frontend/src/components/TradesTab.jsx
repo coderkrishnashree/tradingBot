@@ -38,23 +38,38 @@ export default function TradesTab() {
           <table className="w-full">
             <thead><tr>
               <th className="th">Symbol</th><th className="th">Side</th><th className="th">Size</th>
-              <th className="th">Entry</th><th className="th">Mark</th><th className="th">uPnL</th>
-              <th className="th">Lev</th><th className="th">Liq.</th>
+              <th className="th">Value (USDT)</th><th className="th">Entry</th><th className="th">Mark</th>
+              <th className="th">Stop loss</th><th className="th">Take profit</th>
+              <th className="th">uPnL</th><th className="th">Lev</th><th className="th">Liq.</th>
             </tr></thead>
             <tbody>
-              {open.length === 0 && <tr><td className="td text-slate-500" colSpan={8}>No open trades.</td></tr>}
-              {open.map((t, i) => (
-                <tr key={i} className="hover:bg-ink-700/40">
-                  <td className="td"><PairLink symbol={t.symbol} entry={t.entry} side={t.side} /></td>
-                  <td className={`td font-bold ${t.side === "long" ? "text-up" : "text-down"}`}>{(t.side || "").toUpperCase()}</td>
-                  <td className="td">{fmt.num(t.size, 4)}</td>
-                  <td className="td">{fmt.num(t.entry, 2)}</td>
-                  <td className="td">{fmt.num(t.mark, 2)}</td>
-                  <td className={`td ${t.unrealized >= 0 ? "text-up" : "text-down"}`}>{fmt.signed(t.unrealized)}</td>
-                  <td className="td text-slate-400">{t.leverage ? `${t.leverage}x` : "—"}</td>
-                  <td className="td text-slate-400">{fmt.num(t.liquidation, 2)}</td>
-                </tr>
-              ))}
+              {open.length === 0 && <tr><td className="td text-slate-500" colSpan={11}>No open trades.</td></tr>}
+              {open.map((t, i) => {
+                const value = t.size && t.mark ? t.size * t.mark : null;
+                const slPnl = (t.stop_loss && t.entry && t.size) ? (t.stop_loss - t.entry) * t.size * (t.side === "long" ? 1 : -1) : null;
+                const tpPnl = (t.take_profit && t.entry && t.size) ? (t.take_profit - t.entry) * t.size * (t.side === "long" ? 1 : -1) : null;
+                return (
+                  <tr key={i} className="hover:bg-ink-700/40">
+                    <td className="td"><PairLink symbol={t.symbol} entry={t.entry} side={t.side} /></td>
+                    <td className={`td font-bold ${t.side === "long" ? "text-up" : "text-down"}`}>{(t.side || "").toUpperCase()}</td>
+                    <td className="td">{fmt.num(t.size, 4)}</td>
+                    <td className="td">{value ? fmt.num(value, 2) : "—"}</td>
+                    <td className="td">{fmt.num(t.entry, 2)}</td>
+                    <td className="td">{fmt.num(t.mark, 2)}</td>
+                    <td className="td text-down">
+                      {t.stop_loss ? <>{fmt.num(t.stop_loss, 2)}<span className="text-slate-500"> ({((t.stop_loss / t.mark - 1) * 100).toFixed(1)}%)</span>
+                        {slPnl != null && <div className="text-xs">{fmt.signed(slPnl)} USDT</div>}</> : "—"}
+                    </td>
+                    <td className="td text-up">
+                      {t.take_profit ? <>{fmt.num(t.take_profit, 2)}<span className="text-slate-500"> ({((t.take_profit / t.mark - 1) * 100).toFixed(1)}%)</span>
+                        {tpPnl != null && <div className="text-xs">{fmt.signed(tpPnl)} USDT</div>}</> : "—"}
+                    </td>
+                    <td className={`td ${t.unrealized >= 0 ? "text-up" : "text-down"}`}>{fmt.signed(t.unrealized)}</td>
+                    <td className="td text-slate-400">{t.leverage ? `${t.leverage}x` : "—"}</td>
+                    <td className="td text-slate-400">{fmt.num(t.liquidation, 2)}</td>
+                  </tr>
+                );
+              })}
             </tbody>
           </table>
         </div>

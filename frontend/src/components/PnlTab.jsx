@@ -74,7 +74,7 @@ export default function PnlTab() {
           </div>
         </div>
 
-        <StatsPanel stats={stats.data} />
+        <StatsPanel />
       </div>
 
       <Charts equity={equity.data} />

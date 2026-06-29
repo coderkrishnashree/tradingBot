@@ -124,6 +124,8 @@ class Scheduler:
         self.last_run = datetime.now(timezone.utc).isoformat()
         self._cycle_running = True
         try:
+            self._log_new_closures(cfg)   # surface SL/TP/manual closes in the feed
+
             if not cfg.get("scan_enabled", True):
                 self.last_summary = {"skipped": "scanning disabled"}
                 return self.last_summary
@@ -296,6 +298,32 @@ class Scheduler:
                              f"Skipped {sym} (conf {comp['confidence_pct']}%): {res['message']}",
                              symbol=sym)
         return {"traded": traded, "skipped": skipped}
+
+    def _log_new_closures(self, cfg=None):
+        """Detect positions that closed since last check (SL/TP/manual, even when
+        closed exchange-side) and post them to the alerts feed."""
+        cfg = cfg or db.get_trading_config()
+        try:
+            closed = exchange.fetch_closed_trades(cfg.get("symbol_universe"), per_sym=20)
+        except Exception:
+            return
+        if not closed:
+            return
+        last = int(db.get_setting("last_closed_alert_ms") or 0)
+        newest = max(t["closed_at"] for t in closed)
+        if last == 0:
+            # First run after deploy: set the baseline, don't flood with old closes.
+            db.set_setting("last_closed_alert_ms", newest)
+            return
+        new = sorted([t for t in closed if t["closed_at"] > last], key=lambda x: x["closed_at"])
+        for t in new:
+            pnl = t.get("realized") or 0
+            lvl = "success" if pnl > 0 else "warning"
+            db.add_alert(lvl, "auto_trade",
+                         f"Position CLOSED: {t.get('side')} {t['symbol']} — realized "
+                         f"{'+' if pnl >= 0 else ''}{round(pnl, 2)} USDT.", symbol=t["symbol"])
+        if new:
+            db.set_setting("last_closed_alert_ms", newest)
 
     def _scanner_conf(self, sym) -> float | None:
         """Latest mechanical scanner confidence (%) for a symbol."""

@@ -34,7 +34,7 @@ export const api = {
   orders: () => req("/orders"),
   trades: () => req("/trades"),
   equity: () => req("/equity"),
-  stats: () => req("/stats"),
+  stats: (params = {}) => req(`/stats?${new URLSearchParams(params).toString()}`),
 
   getConfig: () => req("/config"),
   saveConfig: (cfg) => req("/config", { method: "PUT", body: JSON.stringify(cfg) }),

@@ -225,10 +225,21 @@ def get_portfolio():
     }
 
 
+def _sltp(p: dict) -> tuple:
+    """Stop-loss / take-profit attached to a position (Bybit stores them there)."""
+    info = p.get("info") or {}
+    sl = p.get("stopLossPrice") or info.get("stopLoss")
+    tp = p.get("takeProfitPrice") or info.get("takeProfit")
+    sl = _f(sl) if str(sl) not in ("", "0", "0.0", "None", "0E-8") else None
+    tp = _f(tp) if str(tp) not in ("", "0", "0.0", "None", "0E-8") else None
+    return (sl or None), (tp or None)
+
+
 @app.get("/api/positions")
 def get_positions():
     out = []
     for p in exchange.fetch_positions():
+        sl, tp = _sltp(p)
         out.append({
             "symbol": p.get("symbol"),
             "side": p.get("side"),
@@ -238,6 +249,8 @@ def get_positions():
             "unrealized_pnl": p.get("unrealizedPnl"),
             "liquidation_price": p.get("liquidationPrice"),
             "leverage": p.get("leverage"),
+            "stop_loss": sl,
+            "take_profit": tp,
         })
     return out
 
@@ -252,51 +265,24 @@ def get_equity():
     return db.list_equity(mode=mode_manager.mode)
 
 
+def _fetch_closed_trades(per_sym: int = 100) -> list[dict]:
+    """Bybit closed-PnL records (realized) across the universe, newest first."""
+    return exchange.fetch_closed_trades(db.get_trading_config().get("symbol_universe"), per_sym)
+
+
 @app.get("/api/trades")
 def get_trades(limit: int = 200):
-    """Current (open) trades + closed trade history with realized P&L.
-    Open = live positions. Closed = Bybit's closed-PnL records (best-effort)."""
-    positions = exchange.fetch_positions()
-    open_trades = [{
-        "symbol": p.get("symbol"),
-        "side": p.get("side"),
-        "size": p.get("contracts"),
-        "entry": p.get("entryPrice"),
-        "mark": p.get("markPrice"),
-        "unrealized": p.get("unrealizedPnl"),
-        "leverage": p.get("leverage"),
-        "liquidation": p.get("liquidationPrice"),
-    } for p in positions]
-
-    closed = []
-    try:
-        client = exchange.get_client()
-        for sym in (db.get_trading_config().get("symbol_universe") or [])[:8]:
-            try:
-                resp = client.private_get_v5_position_closed_pnl(
-                    {"category": "linear", "symbol": client.market_id(sym), "limit": 50})
-                for it in resp.get("result", {}).get("list", []):
-                    closed.append({
-                        "symbol": sym,
-                        "side": it.get("side"),
-                        "qty": _f(it.get("qty")),
-                        "entry": _f(it.get("avgEntryPrice")),
-                        "exit": _f(it.get("avgExitPrice")),
-                        "realized": _f(it.get("closedPnl")),
-                        "closed_at": it.get("updatedTime") or it.get("createdTime"),
-                    })
-            except Exception:
-                pass
-    except Exception:
-        pass
-
-    def _ms(x):
-        try:
-            return int(x.get("closed_at") or 0)
-        except Exception:
-            return 0
-    closed.sort(key=_ms, reverse=True)
-
+    """Current (open) trades + closed trade history with realized P&L."""
+    open_trades = []
+    for p in exchange.fetch_positions():
+        sl, tp = _sltp(p)
+        open_trades.append({
+            "symbol": p.get("symbol"), "side": p.get("side"), "size": p.get("contracts"),
+            "entry": p.get("entryPrice"), "mark": p.get("markPrice"),
+            "unrealized": p.get("unrealizedPnl"), "leverage": p.get("leverage"),
+            "liquidation": p.get("liquidationPrice"), "stop_loss": sl, "take_profit": tp,
+        })
+    closed = _fetch_closed_trades()
     return {
         "open": open_trades,
         "closed": closed[:limit],
@@ -304,9 +290,53 @@ def get_trades(limit: int = 200):
     }
 
 
+def _stats_window(period: str, start: str, end: str):
+    """Return (from_iso, to_iso, from_ms, to_ms) for a stats period."""
+    from datetime import datetime, timezone, timedelta
+    now = datetime.now(timezone.utc)
+    if period == "today":
+        frm = now.replace(hour=0, minute=0, second=0, microsecond=0)
+    elif period == "1w":
+        frm = now - timedelta(days=7)
+    elif period == "1m":
+        frm = now - timedelta(days=30)
+    elif period == "custom" and start:
+        frm = datetime.fromisoformat(start).replace(tzinfo=timezone.utc)
+    else:
+        frm = None  # all time
+    to = (datetime.fromisoformat(end).replace(tzinfo=timezone.utc)
+          if period == "custom" and end else now)
+    return (frm.isoformat() if frm else None, to.isoformat(),
+            int(frm.timestamp() * 1000) if frm else 0, int(to.timestamp() * 1000))
+
+
 @app.get("/api/stats")
-def get_stats():
-    return stats.compute_stats()
+def get_stats(period: str = "all", start: str = "", end: str = ""):
+    """Strategy stats over a window. Win rate / closed / profit factor come from
+    Bybit's REALIZED closed trades; return/Sharpe/drawdown from the equity curve."""
+    frm_iso, to_iso, frm_ms, to_ms = _stats_window(period, start, end)
+
+    eq = [r for r in db.list_equity(mode=mode_manager.mode)
+          if (not frm_iso or r["ts"] >= frm_iso) and r["ts"] <= to_iso]
+    equity = [r["equity"] for r in eq]
+    total_return = (equity[-1] / equity[0] - 1) * 100 if len(equity) >= 2 and equity[0] else 0.0
+
+    closed = [t for t in _fetch_closed_trades()
+              if frm_ms <= (t.get("closed_at") or 0) <= to_ms]
+    wins = [t for t in closed if (t.get("realized") or 0) > 0]
+    gross_win = sum(t["realized"] for t in wins)
+    gross_loss = abs(sum(t["realized"] for t in closed if (t.get("realized") or 0) <= 0))
+
+    return {
+        "period": period,
+        "total_return_pct": round(total_return, 2),
+        "win_rate_pct": round(len(wins) / len(closed) * 100, 1) if closed else 0.0,
+        "sharpe": round(stats.sharpe(stats._returns(equity)), 2),
+        "max_drawdown_pct": round(stats.max_drawdown(equity) * 100, 2),
+        "num_closed_trades": len(closed),
+        "profit_factor": round(gross_win / gross_loss, 2) if gross_loss else (999.0 if gross_win else 0.0),
+        "realized_pnl": round(sum(t.get("realized") or 0 for t in closed), 2),
+    }
 
 
 @app.get("/api/pnl")

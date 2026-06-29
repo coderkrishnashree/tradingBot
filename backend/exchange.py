@@ -101,6 +101,33 @@ def fetch_ticker(symbol: str) -> dict:
         return {"symbol": symbol, "error": str(e)}
 
 
+def fetch_closed_trades(symbols, per_sym: int = 100) -> list[dict]:
+    """Bybit closed-PnL (realized) records across the given symbols, newest first."""
+    out = []
+    try:
+        client = get_client()
+        for sym in (symbols or [])[:8]:
+            try:
+                resp = client.private_get_v5_position_closed_pnl(
+                    {"category": "linear", "symbol": client.market_id(sym), "limit": per_sym})
+                for it in resp.get("result", {}).get("list", []):
+                    out.append({
+                        "symbol": sym,
+                        "side": it.get("side"),
+                        "qty": float(it.get("qty") or 0),
+                        "entry": float(it.get("avgEntryPrice") or 0),
+                        "exit": float(it.get("avgExitPrice") or 0),
+                        "realized": float(it.get("closedPnl") or 0),
+                        "closed_at": int(it.get("updatedTime") or it.get("createdTime") or 0),
+                    })
+            except Exception:
+                pass
+    except Exception:
+        pass
+    out.sort(key=lambda x: x.get("closed_at") or 0, reverse=True)
+    return out
+
+
 def connectivity_check() -> dict:
     """Cheap public call to confirm we can reach the active environment."""
     try:
