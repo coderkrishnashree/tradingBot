@@ -180,7 +180,16 @@ class Scheduler:
         if timeout is None:
             timeout = int(db.get_trading_config().get("ai_timeout_sec", 1200))
         from datetime import datetime, timezone
+        import json as _json
         AI_LOG_PATH.parent.mkdir(exist_ok=True)
+        # Write the EXACT pairs to debate to a file the command reads. This is
+        # robust — headless `claude -p` doesn't reliably pass slash-command args,
+        # so relying on $ARGUMENTS made it debate the whole universe (token burn).
+        try:
+            (PROJECT_ROOT / "decisions" / "_debate_targets.json").write_text(
+                _json.dumps({"symbols": symbols or []}))
+        except Exception:
+            pass
         self._ai_running = True
         db.add_alert("info", "system",
                      f"Auto-analyze: running /analyze headlessly… up to {timeout//60} min "
