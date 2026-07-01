@@ -186,8 +186,12 @@ class Scheduler:
         # robust — headless `claude -p` doesn't reliably pass slash-command args,
         # so relying on $ARGUMENTS made it debate the whole universe (token burn).
         try:
-            (PROJECT_ROOT / "decisions" / "_debate_targets.json").write_text(
-                _json.dumps({"symbols": symbols or []}))
+            (PROJECT_ROOT / "decisions").mkdir(exist_ok=True)
+            # symbols given -> debate exactly those (AI-gated). No symbols -> this
+            # is a manual "Run analysis now": mark it an explicit FULL sweep so the
+            # picker knows to use the whole universe (empty must NEVER mean "all").
+            payload = {"symbols": list(symbols)} if symbols else {"full": True}
+            (PROJECT_ROOT / "decisions" / "_debate_targets.json").write_text(_json.dumps(payload))
         except Exception:
             pass
         self._ai_running = True
@@ -364,6 +368,8 @@ class Scheduler:
         for sym in (cfg.get("symbol_universe") or []):
             try:
                 for o in client.fetch_open_orders(sym):
+                    if engine.is_protective_order(o):
+                        continue  # never expire a position's SL/TP
                     ts = o.get("timestamp") or 0
                     if ts and (now_ms - ts) > ttl * 60000:
                         try:

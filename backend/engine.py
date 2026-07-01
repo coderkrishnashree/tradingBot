@@ -47,6 +47,24 @@ def _ok(msg: str, **extra) -> ExecutionResult:
     return ExecutionResult(ok=True, message=msg, **extra)
 
 
+def is_protective_order(o: dict) -> bool:
+    """True for stop-loss / take-profit / any reduce-only or conditional order.
+    These protect an open position and must NEVER be cancelled by our
+    entry-replacement logic — cancelling them would strip the position's SL/TP."""
+    info = o.get("info", {}) or {}
+    if o.get("reduceOnly") or info.get("reduceOnly") in (True, "true", "True", "1", 1):
+        return True
+    # Bybit conditional / SL / TP orders carry these fields when set.
+    for k in ("stopLoss", "takeProfit", "stopPrice", "triggerPrice", "stopOrderType",
+              "tpslMode", "orderType"):
+        v = info.get(k) or o.get(k)
+        if k == "stopOrderType" and v and str(v).lower() != "unknownstoporder":
+            return True
+        if k in ("stopPrice", "triggerPrice") and _num(v):
+            return True
+    return False
+
+
 def drawdown_guard() -> tuple[bool, float, float]:
     """Return (breached, current_dd_pct, limit_pct).
     Compares the worst peak-to-trough on the equity curve to the configured
@@ -203,10 +221,14 @@ def execute_decision(decision: dict, decision_file: str | None = None) -> Execut
             return _ok(f"{symbol}: position already open — not adding to it.")
     except Exception:
         pass
-    # Otherwise REPLACE any stale resting entry order with this fresh decision —
-    # the AI's entry should reflect the newest debate, not an hour-old plan.
+    # Otherwise REPLACE any stale resting ENTRY limit with this fresh decision —
+    # the AI's entry should reflect the newest debate, not an hour-old plan. We
+    # ONLY cancel plain entry limits; stop-loss / take-profit / reduce-only orders
+    # are left untouched so we never strip a position's protection.
     try:
         for o in client.fetch_open_orders(symbol):
+            if is_protective_order(o):
+                continue
             try:
                 client.cancel_order(o["id"], symbol)
             except Exception:

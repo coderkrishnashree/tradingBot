@@ -1,30 +1,33 @@
 ---
-description: LITE debate — shared web research once, then a fast decision for EVERY pair.
+description: LITE debate — shared web research once, then a fast decision for the qualifying pairs.
 ---
 
-Run a FAST debate that produces a decision for **every pair** in the universe. It still uses web
-research (macro + sentiment), but only ONCE per cycle (shared), so it stays quick even across many
-pairs. Runs on the Claude subscription via the Task tool — no API key, no loop.
+Run a FAST debate that produces a decision for the **qualifying pairs only**. It still uses web
+research (macro + sentiment), but only ONCE per cycle (shared), so it stays quick. Runs on the
+Claude subscription via the Task tool — no API key, no loop.
 
-**Which pairs (IMPORTANT — do exactly this):** the backend writes the pairs to debate into
-`decisions/_debate_targets.json`. Debate ONLY those pairs. This is the normal case — the screener
-already filtered to the ones above the confidence threshold. Do NOT debate any other pair; doing so
-wastes tokens.
+**Which pairs (CRITICAL — this controls token cost, do EXACTLY this):** do NOT read the config
+universe, and do NOT decide the list yourself. The list of pairs to debate is produced by a script:
 
-Get the target list with:
 ```
-python -c "import json;d=json.load(open('decisions/_debate_targets.json'));print(' '.join(d.get('symbols') or []))"
+python3 agents/pick_candidates.py
 ```
-- If it prints one or more symbols → those are your ONLY targets.
-- If it prints nothing (empty) → this is a manual full sweep; use the whole universe from config:
-  `python -c "import sys;sys.path.insert(0,'.');from backend import db;print(db.get_trading_config()['symbol_universe'])"`
+
+- Each line it prints is one TARGET pair. Debate ONLY those. Ignore every other pair.
+- If it prints NOTHING, there is nothing to debate this cycle → **STOP immediately, write no
+  decisions.** Do NOT fall back to the full universe. (The script already filters to pairs above the
+  confidence threshold; an empty result means nothing qualified.)
+- If `python3` is missing, try `.venv/bin/python agents/pick_candidates.py` or `python`.
+
+Never debate more pairs than this script prints. Analyzing the whole universe is the exact bug this
+prevents — it wastes a large amount of tokens.
 
 Steps:
 
-1. **Refresh data.** Run `python agents/market_scan.py` (this scans all pairs for data — that's
-   free, no tokens). Then determine your TARGET pairs using the command above.
+1. **Refresh data.** Run `python3 agents/market_scan.py` (this scans all pairs for data — that's
+   free, no tokens). Then get your TARGET pairs with `python3 agents/pick_candidates.py`.
 
-   If there are NO target pairs (empty list and no manual sweep), STOP — nothing to debate.
+   If it returns NO pairs, STOP — nothing to debate this cycle.
 
 2. **Shared web research (ONCE).** Launch the `macro-agent` and `sentiment-agent` subagents for
    the overall market + ONLY the TARGET pairs (these use web search). Collect their notes. Do this
