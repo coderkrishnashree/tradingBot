@@ -25,4 +25,9 @@ Output a concise briefing (no JSON, no decision — that's not your job):
   strongest data point supporting each.
 - The data_source field from the scan (so downstream agents know if it's live or demo).
 
+Note the asset class of each symbol: the universe may mix **crypto**, **tokenized stocks/ETFs**
+(TSLA, NVDA, COIN, QQQ…), and **gold** (XAUT/PAXG). Technicals apply to all, but the `structure`
+block (funding/OI/long-short) and `btc_correlation` are only meaningful for crypto — call that out
+so the downstream agents treat stocks as equities, not coins.
+
 Be factual. Cite the actual numbers. Do not invent prices.

@@ -353,60 +353,25 @@ def get_stats(period: str = "all", start: str = "", end: str = ""):
 
 @app.get("/api/pnl")
 def get_pnl():
-    """P&L breakdown so you can see WHERE the money went: unrealized vs realized
-    vs fees vs funding. Fees/funding are pulled from Bybit history (best-effort)."""
+    """DEPOSIT/WITHDRAWAL-PROOF P&L breakdown: trading P&L = unrealized (open
+    positions) + realized (closed trades). Never uses equity−baseline, so adding
+    or pulling funds can't show up as profit/loss."""
     balance = exchange.fetch_balance()
     positions = exchange.fetch_positions()
-
-    # Everything in USDT, from the per-coin record (consistent, ties exactly):
-    #   equity = coin.equity            (cash + unrealized, in USDT)
-    #   cash   = coin.walletBalance     (real cash; fees/closed PnL booked here)
-    #   unrealized = coin.unrealisedPnl (or equity - cash)
-    c = _usdt_coin(balance)
-    equity = _f(c.get("equity")) or _usdt_equity(balance)[0]
-    cash = _f(c.get("walletBalance")) or equity
-    unrealized = _f(c.get("unrealisedPnl"))
-    if unrealized == 0:
-        unrealized = round(equity - cash, 4)
-    positions_unrealized = sum(_f(p.get("unrealizedPnl")) for p in positions)
-
-    fees_paid = funding = 0.0
-    try:
-        client = exchange.get_client()
-        for sym in (db.get_trading_config().get("symbol_universe") or [])[:8]:
-            try:
-                for t in client.fetch_my_trades(sym, limit=50):
-                    fees_paid += _f((t.get("fee") or {}).get("cost"))
-            except Exception:
-                pass
-            try:
-                for fnd in client.fetch_funding_history(sym, limit=50):
-                    funding += _f(fnd.get("amount"))
-            except Exception:
-                pass
-    except Exception:
-        pass
-
-    curve = db.list_equity()
-    baseline = curve[0]["equity"] if curve else equity
-    total_pnl = equity - baseline
-    # Realized(booked) = change in cash WALLET (USDT), excludes unrealized = fees +
-    # closed-trade PnL + funding booked. With no closed trades this is just fees.
-    realized_booked = cash - baseline
+    equity = _usdt_equity(balance)[0]
+    unrealized = sum(_f(p.get("unrealizedPnl")) for p in positions)
+    closed = exchange.fetch_closed_trades(db.get_trading_config().get("symbol_universe"))
+    realized = sum(t.get("realized") or 0 for t in closed)   # Bybit closedPnl = net of fees
+    total_pnl = realized + unrealized
     return {
         "mode": mode_manager.mode,
         "total_value": round(equity, 2),
-        "wallet_balance": round(cash, 2),
-        "starting_equity": round(baseline, 2),
         "total_pnl": round(total_pnl, 2),
-        "unrealized": round(unrealized, 2),                  # Bybit account UPL (consistent)
-        "positions_unrealized": round(positions_unrealized, 2),  # sum of positions table
-        "realized_booked": round(realized_booked, 2),
-        "fees_paid_est": round(fees_paid, 4),
-        "funding_est": round(funding, 4),
-        "open_positions": len(positions),
-        "note": "Unrealized is Bybit's account-level figure; the positions table may sum "
-                "slightly differently. Realized(booked) is the change in wallet balance.",
+        "unrealized": round(unrealized, 2),
+        "realized_booked": round(realized, 2),
+        "num_closed": len(closed),
+        "note": "Total = Unrealized + Realized (closed trades). Realized is net of fees & "
+                "funding (Bybit closed-PnL). Deposits/withdrawals are excluded.",
     }
 
 

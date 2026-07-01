@@ -15,8 +15,14 @@ Two inputs:
    shorts, crowding treated as contrarian). Each pair also has `btc_correlation` and
    `relative_strength_pct` (vs BTC).
 
-2. **Market regime (web).** Use web search for the current backdrop: BTC dominance trend, overall
-   crypto risk-on vs risk-off, any major macro events today (Fed/rates/CPI, big liquidations).
+2. **Market regime (web).** FIRST recognize the asset class of each candidate:
+   - **Crypto** (BTC, ETH, SOL, XRP, etc.): BTC dominance trend, crypto risk-on/off, Fed/rates/CPI,
+     big liquidations, funding/OI crowding.
+   - **Tokenized stock/ETF** (AAPL, TSLA, NVDA, MSFT, COIN, QQQ, EWJ, etc.): analyze it as an
+     EQUITY — the Nasdaq/S&P trend, sector rotation, rates/DXY, upcoming earnings, and crucially
+     **US market hours** (a tokenized stock is thin/gappy when its underlying market is closed).
+     BTC dominance and crypto funding are largely irrelevant here.
+   - **Gold** (XAUT, PAXG): real gold drivers — DXY, real yields, safe-haven flows.
    Keep it to a few authoritative, recent results.
 
 Then assess, for the candidate symbol(s):

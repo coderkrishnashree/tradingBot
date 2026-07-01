@@ -13,6 +13,14 @@ Read `decisions/_scan_latest.json` for that symbol's full data: per-timeframe sc
 Bollinger %B, stochastic, VWAP distance, support/resistance, divergence, the `structure` block
 (funding/OI/long-short/order-book), `btc_correlation`, and `relative_strength_pct`.
 
+FIRST recognize the asset class and weight your read accordingly:
+- **Crypto**: the funding / open-interest / long-short / BTC-correlation data is meaningful — use it.
+- **Tokenized stock/ETF** (TSLA, NVDA, COIN, QQQ, etc.): treat as an EQUITY. The crypto structure
+  metrics (funding, OI, long-short, BTC-beta) are NOT meaningful — lean on the technicals + the
+  macro/sentiment notes (index/sector/earnings). Flag if US markets are likely CLOSED (thin, gappy,
+  wide spreads → prefer HOLD or a tighter/limit entry).
+- **Gold** (XAUT/PAXG): macro/safe-haven asset; crypto structure metrics don't apply.
+
 Reason briefly but rigorously:
 - Direction + conviction from the multi-timeframe alignment and momentum.
 - Quant sanity: at-market reward:risk to the next level, stop beyond structure & ~1x ATR, ADX

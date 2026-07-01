@@ -27,7 +27,6 @@ export default function PnlTab() {
   const portfolio = usePoll(api.portfolio, 3000);
   const positions = usePoll(api.positions, 3000);
   const equity = usePoll(api.equity, 8000);
-  const stats = usePoll(api.stats, 8000);
   const orders = usePoll(api.orders, 4000);
 
   const p = pnl.data || {};
@@ -40,37 +39,23 @@ export default function PnlTab() {
         <div className="card">
           <div className="card-title">P&amp;L Breakdown</div>
           <div className="mb-3">
-            <div className="text-xs text-slate-500">Total P&amp;L (equity − starting {fmt.usdt(p.starting_equity)})</div>
+            <div className="text-xs text-slate-500">Total trading P&amp;L (realized + unrealized · deposits excluded)</div>
             <div className={`stat-big ${(p.total_pnl || 0) >= 0 ? "text-up" : "text-down"}`}>
-              {(p.total_pnl || 0) >= 0 ? "+" : ""}{fmt.num(p.total_pnl, 2)}
+              {(p.total_pnl || 0) >= 0 ? "+" : ""}{fmt.num(p.total_pnl, 2)} USDT
             </div>
           </div>
 
-          {/* Both from Bybit's own account fields => consistent, sum to total. */}
-          <Line label="Unrealized P&L" value={p.unrealized} hint="Bybit account-level, open positions" />
-          <Line label="Realized (booked)" value={p.realized_booked}
-                hint="wallet change: fees + closed-trade PnL + funding" />
+          <Line label="Unrealized P&L" value={p.unrealized} hint="open positions, marked to market" />
+          <Line label="Realized P&L" value={p.realized_booked}
+                hint={`closed trades — net of fees & funding (${p.num_closed ?? 0} closed)`} />
           <div className="mt-2 mb-3 text-xs text-slate-500 font-mono">
             {fmt.num(p.unrealized, 2)} (unreal.) + {fmt.num(p.realized_booked, 2)} (real.) ={" "}
             <span className={(p.total_pnl || 0) >= 0 ? "text-up" : "text-down"}>{fmt.num(p.total_pnl, 2)}</span> ✓
           </div>
 
-          <div className="p-2 rounded bg-ink-900 text-xs text-slate-500 space-y-1">
-            <div className="font-mono">
-              of realized — fees ≈ <span className="text-down">{fmt.num(-(p.fees_paid_est || 0), 2)}</span>,{" "}
-              funding ≈ <span className={(p.funding_est || 0) >= 0 ? "text-up" : "text-down"}>{fmt.num(p.funding_est, 2)}</span>
-              {" · "}closed trades: <b>{stats.data?.num_closed_trades ?? 0}</b>
-            </div>
-            {Math.abs((p.positions_unrealized || 0) - (p.unrealized || 0)) > 0.5 && (
-              <div>
-                Note: the positions table sums to {fmt.num(p.positions_unrealized, 2)} unrealized vs Bybit's
-                account figure of {fmt.num(p.unrealized, 2)} — the gap is mark-price timing, not a loss.
-              </div>
-            )}
-            <div>
-              With <b>no closed trades</b>, “Realized (booked)” is just entry fees. It only goes deeply
-              negative once the bot starts closing positions — that's when to watch for churn.
-            </div>
+          <div className="p-2 rounded bg-ink-900 text-xs text-slate-500">
+            Total Value above includes deposits/withdrawals; this P&amp;L does not — it's purely what
+            your trading made or lost. Realized is Bybit's closed-PnL (already net of fees &amp; funding).
           </div>
         </div>
 
