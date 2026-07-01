@@ -9,18 +9,20 @@ export default function ModeBanner({ mode }) {
     );
   }
   const live = mode.is_live;
-  const paperLabel = mode.paper_backend === "demo" ? "PAPER / DEMO TRADING" : "PAPER / TESTNET";
+  const paperLabel = mode.paper_backend === "demo" ? "PAPER · DEMO TRADING" : "PAPER · TESTNET";
   return (
     <div
-      className={`w-full py-3 px-4 flex items-center justify-center gap-3 font-extrabold tracking-widest text-lg ${
-        live ? "bg-down text-white" : "bg-up text-black"
+      className={`w-full py-2 px-4 flex items-center justify-center gap-3 font-bold tracking-[0.2em] text-sm ${
+        live
+          ? "bg-gradient-to-r from-down/80 via-down to-down/80 text-white"
+          : "bg-gradient-to-r from-up/70 via-up to-up/70 text-black"
       }`}
     >
-      <span className={`h-3 w-3 rounded-full ${live ? "bg-white" : "bg-black"} animate-pulse`} />
-      {live ? "● LIVE / REAL FUNDS ●" : paperLabel}
+      <span className={`h-2 w-2 rounded-full ${live ? "bg-white" : "bg-black/70"} animate-pulse`} />
+      {live ? "LIVE · REAL FUNDS" : paperLabel}
       {mode.kill_switch_active && (
-        <span className="ml-4 px-2 py-0.5 rounded bg-black/40 text-white text-sm">
-          KILL SWITCH ENGAGED — trading halted
+        <span className="ml-3 px-2 py-0.5 rounded-md bg-black/40 text-white text-xs tracking-normal font-semibold">
+          ⛔ KILL SWITCH ENGAGED — trading halted
         </span>
       )}
     </div>

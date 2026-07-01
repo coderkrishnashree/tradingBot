@@ -88,6 +88,7 @@ class Scheduler:
             "ai_gated": cfg.get("ai_gated", False),
             "ai_lite": cfg.get("ai_lite", True),
             "ai_timeout_sec": cfg.get("ai_timeout_sec", 1200),
+            "ai_order_ttl_min": cfg.get("ai_order_ttl_min", 120),
             "ai_available": _claude_bin() is not None,  # re-check live (no restart needed)
             "ai_running": self._ai_running,
             "cycle_running": self._cycle_running,
@@ -124,7 +125,9 @@ class Scheduler:
         self.last_run = datetime.now(timezone.utc).isoformat()
         self._cycle_running = True
         try:
+            self._reconcile_filled()      # flip 'resting' -> 'executed' once a limit fills
             self._log_new_closures(cfg)   # surface SL/TP/manual closes in the feed
+            self._expire_stale_orders(cfg)  # cancel unfilled limits that never reached price
 
             if not cfg.get("scan_enabled", True):
                 self.last_summary = {"skipped": "scanning disabled"}
@@ -325,6 +328,45 @@ class Scheduler:
         if new:
             db.set_setting("last_closed_alert_ms", newest)
 
+    def _reconcile_filled(self):
+        """A 'resting' limit that later fills becomes a real position — flip its
+        decision status to 'executed' so the history isn't stuck at 'resting'."""
+        try:
+            open_syms = self._open_symbols()
+        except Exception:
+            return
+        for d in db.list_decisions(50):
+            if d.get("status") == "resting" and d.get("symbol") in open_syms:
+                db.set_decision_status(d["filename"], "executed")
+
+    def _expire_stale_orders(self, cfg=None):
+        """Cancel unfilled LIMIT orders older than ai_order_ttl_min so a stale
+        'wait for a bounce' plan can't block a symbol indefinitely."""
+        cfg = cfg or db.get_trading_config()
+        ttl = float(cfg.get("ai_order_ttl_min", 120) or 0)
+        if ttl <= 0:
+            return
+        import time
+        now_ms = time.time() * 1000
+        try:
+            client = exchange.get_client()
+        except Exception:
+            return
+        for sym in (cfg.get("symbol_universe") or []):
+            try:
+                for o in client.fetch_open_orders(sym):
+                    ts = o.get("timestamp") or 0
+                    if ts and (now_ms - ts) > ttl * 60000:
+                        try:
+                            client.cancel_order(o["id"], sym)
+                            db.add_alert("info", "auto_trade",
+                                         f"Cancelled unfilled limit on {sym} after {round(ttl)}m — "
+                                         f"price never reached the entry.", symbol=sym)
+                        except Exception:
+                            pass
+            except Exception:
+                pass
+
     def _scanner_conf(self, sym) -> float | None:
         """Latest mechanical scanner confidence (%) for a symbol."""
         try:
@@ -370,6 +412,7 @@ class Scheduler:
                              symbol=sym)
                 continue
             if sym in open_syms or engine.cooldown_remaining(sym) > 0:
+                db.set_decision_status(fn, "reviewed")   # don't leave it 'pending'
                 skipped.append(f"{sym}: open/cooldown")
                 db.add_alert("info", "auto_trade",
                              f"AI: skipped {sym} — already open or in cooldown.", symbol=sym)
@@ -382,7 +425,12 @@ class Scheduler:
                              f"AUTO (AI) {action.upper()} {sym} @ scanner {round(mech)}% — {res['message']}",
                              symbol=sym)
             else:
+                # Order didn't go through (e.g. stock market closed, min size).
+                # Mark it 'failed' so it doesn't linger as 'pending' forever.
+                db.set_decision_status(fn, "failed")
                 skipped.append(f"{sym}: {res['message']}")
+                db.add_alert("warning", "auto_trade",
+                             f"AI: {action.upper()} {sym} NOT placed — {res['message']}", symbol=sym)
         return {"ai_traded": traded, "ai_skipped": skipped}
 
     def _row_to_decision(self, row, comp, cfg) -> dict:

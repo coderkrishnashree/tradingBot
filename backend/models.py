@@ -31,6 +31,7 @@ class TradingConfig(BaseModel):
     ai_gated: bool = False
     ai_lite: bool = True
     ai_timeout_sec: int = Field(default=1200, ge=120, le=3600)
+    ai_order_ttl_min: float = Field(default=120, ge=0, le=10080)
     daily_loss_limit_pct: float = Field(default=0, ge=0, le=100)
     min_minutes_between_trades: float = Field(default=0, ge=0, le=1440)
 
@@ -63,6 +64,7 @@ class AutomationConfig(BaseModel):
     ai_gated: bool = False
     ai_lite: bool = True
     ai_timeout_sec: int = Field(default=1200, ge=120, le=3600)
+    ai_order_ttl_min: float = Field(default=120, ge=0, le=10080)
     daily_loss_limit_pct: float = Field(default=0, ge=0, le=100)
     min_minutes_between_trades: float = Field(default=0, ge=0, le=1440)
 

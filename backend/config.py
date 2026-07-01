@@ -110,6 +110,10 @@ DEFAULT_TRADING_CONFIG = {
     # OFF = the full 8-agent debate on the single best pair. Default lite for the
     # auto loop; the full debate is still available via manual /analyze.
     "ai_lite": True,
+    # Cancel an unfilled LIMIT entry after this many minutes so a stale plan can't
+    # block a symbol forever (the AI's "wait for a bounce" is only valid briefly).
+    # 0 = never expire. Default 120 min.
+    "ai_order_ttl_min": 120,
 }
 
 

@@ -31,6 +31,7 @@ export default function AutomationPanel({ status, mode, onRefresh }) {
         ai_gated: status.ai_gated ?? false,
         ai_lite: status.ai_lite ?? true,
         ai_timeout_sec: status.ai_timeout_sec ?? 1200,
+        ai_order_ttl_min: status.ai_order_ttl_min ?? 120,
         scan_interval_min: status.scan_interval_min,
         scan_timeframes: status.scan_timeframes?.length ? status.scan_timeframes : ["15m", "1h", "4h", "1d"],
         daily_loss_limit_pct: status.daily_loss_limit_pct ?? 0,
@@ -163,6 +164,13 @@ export default function AutomationPanel({ status, mode, onRefresh }) {
               value={form.min_minutes_between_trades}
               onChange={(e) => setForm({ ...form, min_minutes_between_trades: Number(e.target.value) })} />
             <span className="text-xs text-slate-500">0 = off. Curbs fee churn from re-entries.</span>
+          </label>
+          <label className="block">
+            <span className="text-xs text-slate-400">Unfilled limit expiry (minutes)</span>
+            <input type="number" min="0" max="10080" step="5" className="input"
+              value={form.ai_order_ttl_min}
+              onChange={(e) => setForm({ ...form, ai_order_ttl_min: Number(e.target.value) })} />
+            <span className="text-xs text-slate-500">0 = never. Cancels limit entries that never fill.</span>
           </label>
         </div>
 

@@ -9,7 +9,9 @@ const AGENTS = [
 ];
 
 function statusColor(s) {
-  return s === "executed" ? "text-up" : s === "rejected" ? "text-down"
+  return s === "executed" ? "text-up"
+    : s === "resting" ? "text-yellow-400"
+    : s === "failed" || s === "rejected" ? "text-down"
     : s === "approved" ? "text-accent" : "text-slate-400";
 }
 

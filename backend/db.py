@@ -196,10 +196,12 @@ def record_order(**fields) -> int:
 
 
 def last_order_ts(symbol: str) -> str | None:
-    """ISO timestamp of the most recent order on a symbol (for trade cooldown)."""
+    """ISO timestamp of the most recent FILLED order on a symbol (for the trade
+    cooldown). Unfilled resting limits must NOT start the cooldown."""
     with get_conn() as conn:
         row = conn.execute(
-            "SELECT ts FROM orders WHERE symbol=? ORDER BY id DESC LIMIT 1", (symbol,)
+            "SELECT ts FROM orders WHERE symbol=? AND status IN ('filled','submitted','executed') "
+            "ORDER BY id DESC LIMIT 1", (symbol,)
         ).fetchone()
         return row["ts"] if row else None
 

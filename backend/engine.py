@@ -195,12 +195,22 @@ def execute_decision(decision: dict, decision_file: str | None = None) -> Execut
     side = "buy" if action == "buy" else "sell"
     is_long = action == "buy"
 
-    # Don't stack a second order if one is already resting on this symbol.
+    # If a position is already OPEN, don't stack another entry onto it.
     try:
-        if client.fetch_open_orders(symbol):
+        if any(p.get("contracts") for p in exchange.fetch_positions() if p.get("symbol") == symbol):
             if decision_file:
-                db.set_decision_status(decision_file, "executed")
-            return _ok(f"{symbol}: an order is already resting — not stacking another.")
+                db.set_decision_status(decision_file, "reviewed")
+            return _ok(f"{symbol}: position already open — not adding to it.")
+    except Exception:
+        pass
+    # Otherwise REPLACE any stale resting entry order with this fresh decision —
+    # the AI's entry should reflect the newest debate, not an hour-old plan.
+    try:
+        for o in client.fetch_open_orders(symbol):
+            try:
+                client.cancel_order(o["id"], symbol)
+            except Exception:
+                pass
     except Exception:
         pass
 
@@ -261,14 +271,21 @@ def execute_decision(decision: dict, decision_file: str | None = None) -> Execut
                         decision_file=decision_file, raw=str(e))
         return _fail(f"Entry order rejected: {e}")
 
+    # A market order fills now (=> position opened => "executed"). A limit order
+    # usually rests unfilled (=> NO position yet => "resting", not "executed").
+    filled = order_type == "market" or order.get("status") in ("closed", "filled")
+    status = "executed" if filled else "resting"
     db.record_order(mode=mode, symbol=symbol, side=side, order_type=order_type,
                     qty=amount, price=order.get("average") or ref_price,
-                    status="submitted", filled_qty=order.get("filled"),
+                    status="filled" if filled else "resting", filled_qty=order.get("filled"),
                     avg_fill_price=order.get("average"),
                     exchange_id=order.get("id"), decision_file=decision_file, raw=str(order))
     if decision_file:
-        db.set_decision_status(decision_file, "executed")
-    placed = f"LIMIT @ {_p(limit_price)}" if order_type == "limit" else f"MARKET @ ~{_p(price)}"
+        db.set_decision_status(decision_file, status)
+    if filled:
+        placed = f"MARKET filled @ ~{_p(price)} — position OPEN"
+    else:
+        placed = f"LIMIT resting @ {_p(limit_price)} — waiting for a bounce, NOT a position yet"
     return _ok(f"{action.upper()} {symbol} {placed}: {amount} (lev {leverage}x, size {round(size_pct, 2)}%, "
                f"SL {_p(sl)}, TP {_p(tp)}).",
-               order_id=order.get("id"), amount=amount, price=ref_price, mode=mode)
+               order_id=order.get("id"), amount=amount, price=ref_price, status=status, mode=mode)
