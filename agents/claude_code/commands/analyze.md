@@ -1,4 +1,5 @@
 ---
+model: opus
 description: Run the multi-agent trading debate across all configured pairs and write a decision.
 ---
 

@@ -1,5 +1,6 @@
 ---
 name: bull-agent
+model: opus
 description: Makes the strongest possible case to ENTER a position on the candidate(s) from research. Deliberately optimistic but evidence-based.
 tools: Read
 ---

@@ -128,6 +128,7 @@ class Scheduler:
             self._reconcile_filled()      # flip 'resting' -> 'executed' once a limit fills
             self._log_new_closures(cfg)   # surface SL/TP/manual closes in the feed
             self._expire_stale_orders(cfg)  # cancel unfilled limits that never reached price
+            self._manage_positions(cfg)   # break-even / ATR trail / time-stop
 
             if not cfg.get("scan_enabled", True):
                 self.last_summary = {"skipped": "scanning disabled"}
@@ -145,9 +146,16 @@ class Scheduler:
             # "Cron from the dashboard": when NOT gated, optionally run the AI in a
             # background thread so a slow run never freezes the loop. When gated,
             # the AI is run synchronously below (it IS the decision step).
+            # NOTE: pass the qualifying candidates explicitly — running with no
+            # symbols means a FULL-universe sweep (token burn) every cycle.
             if cfg.get("auto_analyze", False) and not ai_gated and not self._ai_running:
-                threading.Thread(target=self.run_ai_analyze, daemon=True,
-                                 name="auto-analyze").start()
+                auto_syms = [r["symbol"] for r in rows
+                             if r["composite"]["confidence_pct"] >= threshold
+                             and r["composite"]["direction"] != "flat"]
+                if auto_syms:
+                    threading.Thread(target=self.run_ai_analyze, daemon=True,
+                                     kwargs={"symbols": auto_syms},
+                                     name="auto-analyze").start()
 
             if cfg.get("auto_trade", False):
                 if ai_gated:
@@ -251,7 +259,8 @@ class Scheduler:
                  if r["composite"]["confidence_pct"] >= threshold
                  and r["composite"]["direction"] != "flat"
                  and r["symbol"] not in open_syms
-                 and engine.cooldown_remaining(r["symbol"]) <= 0]
+                 and engine.cooldown_remaining(r["symbol"]) <= 0
+                 and not self._corr_blocked(r["symbol"], r["composite"]["direction"], cfg)]
         if not cands:
             best = max(rows, key=lambda r: r["composite"]["confidence_pct"], default=None)
             if best and best["composite"]["confidence_pct"] >= threshold:
@@ -301,6 +310,11 @@ class Scheduler:
             if cd > 0:
                 skipped.append(f"{sym}: cooldown {cd}m")
                 continue
+            corr_msg = self._corr_blocked(sym, comp["direction"], cfg)
+            if corr_msg:
+                skipped.append(f"{sym}: {corr_msg}")
+                db.add_alert("info", "auto_trade", f"Skipped {sym}: {corr_msg}.", symbol=sym)
+                continue
             decision = self._row_to_decision(r, comp, cfg)
             res = engine.execute_decision(decision)
             if res["ok"]:
@@ -340,6 +354,7 @@ class Scheduler:
                          f"{'+' if pnl >= 0 else ''}{round(pnl, 2)} USDT.", symbol=t["symbol"])
         if new:
             db.set_setting("last_closed_alert_ms", newest)
+            self._close_trade_features(new)   # label outcomes for the learner
 
     def _reconcile_filled(self):
         """A 'resting' limit that later fills becomes a real position — flip its
@@ -379,6 +394,158 @@ class Scheduler:
                                          f"price never reached the entry.", symbol=sym)
                         except Exception:
                             pass
+            except Exception:
+                pass
+
+    def _atr_abs(self, sym, last) -> float | None:
+        """Absolute ATR for a symbol from the latest scan (ref timeframe)."""
+        try:
+            for r in (scanner.latest() or {}).get("rows", []):
+                if r["symbol"] == sym:
+                    ap = (r.get("indicators_ref") or {}).get("atr_pct")
+                    return last * float(ap) / 100 if ap and last else None
+        except Exception:
+            pass
+        return None
+
+    def _manage_positions(self, cfg=None):
+        """Active position management, every cycle:
+          - TIME-STOP: close positions older than max_holding_hours (stale
+            trades drift into the stop; free the margin).
+          - BREAK-EVEN: once up >= breakeven_atr x ATR, move SL to entry — a
+            winner should not turn into a loser.
+          - ATR TRAIL: once up >= trail_atr_mult x ATR, trail the SL at
+            trail_atr_mult x ATR behind price. Stops only ever TIGHTEN."""
+        cfg = cfg or db.get_trading_config()
+        be_atr = float(cfg.get("breakeven_atr", 1.0) or 0)
+        trail_mult = float(cfg.get("trail_atr_mult", 1.5) or 0)
+        max_hold_h = float(cfg.get("max_holding_hours", 0) or 0)
+        if be_atr <= 0 and trail_mult <= 0 and max_hold_h <= 0:
+            return
+        try:
+            positions = exchange.fetch_positions()
+            client = exchange.get_client()
+        except Exception:
+            return
+        now_ms = time.time() * 1000
+        for p in positions:
+            sym, side = p.get("symbol"), p.get("side")
+            entry = float(p.get("entryPrice") or 0)
+            contracts = float(p.get("contracts") or 0)
+            if not sym or not entry or not contracts or side not in ("long", "short"):
+                continue
+            is_long = side == "long"
+            info = p.get("info", {}) or {}
+
+            # --- time-stop -------------------------------------------------
+            created = float(info.get("createdTime") or p.get("timestamp") or 0)
+            if max_hold_h > 0 and created and (now_ms - created) > max_hold_h * 3_600_000:
+                try:
+                    client.create_order(sym, "market", "sell" if is_long else "buy",
+                                        contracts, None, params={"reduceOnly": True})
+                    db.add_alert("info", "auto_trade",
+                                 f"Time-stop: closed {side} {sym} after "
+                                 f"{round((now_ms - created) / 3_600_000, 1)}h without resolution.",
+                                 symbol=sym)
+                    continue
+                except Exception:
+                    pass
+
+            # --- break-even + trail -----------------------------------------
+            last = float(p.get("markPrice") or 0)
+            if not last:
+                try:
+                    last = float(client.fetch_ticker(sym).get("last") or 0)
+                except Exception:
+                    continue
+            atr_abs = self._atr_abs(sym, last)
+            if not atr_abs or atr_abs <= 0:
+                continue
+            profit = (last - entry) if is_long else (entry - last)
+            if profit <= 0:
+                continue
+            cur_sl = 0.0
+            try:
+                cur_sl = float(info.get("stopLoss") or p.get("stopLossPrice") or 0)
+            except Exception:
+                pass
+            new_sl = None
+            if be_atr > 0 and profit >= be_atr * atr_abs:
+                new_sl = entry                              # never let it go red
+            if trail_mult > 0 and profit >= trail_mult * atr_abs:
+                t_sl = last - trail_mult * atr_abs if is_long else last + trail_mult * atr_abs
+                new_sl = max(new_sl or 0, t_sl) if is_long else min(new_sl or 1e18, t_sl)
+            if not new_sl:
+                continue
+            # Only ever tighten (long: SL up; short: SL down), with a small
+            # deadband so we don't spam the API for dust moves.
+            improves = (not cur_sl) or (is_long and new_sl > cur_sl * 1.0005) \
+                or ((not is_long) and new_sl < cur_sl * 0.9995)
+            if not improves:
+                continue
+            try:
+                px = client.price_to_precision(sym, new_sl)
+                client.private_post_v5_position_trading_stop({
+                    "category": "linear", "symbol": client.market_id(sym),
+                    "stopLoss": str(px),
+                    "positionIdx": int(info.get("positionIdx") or 0),
+                })
+                kind = "break-even" if abs(new_sl - entry) < 1e-9 else "trailing"
+                db.add_alert("success", "auto_trade",
+                             f"Moved SL to {px} on {side} {sym} ({kind}, "
+                             f"+{round(profit / atr_abs, 1)} ATR in profit).", symbol=sym)
+            except Exception:
+                pass
+
+    def _corr_blocked(self, sym: str, direction: str, cfg=None) -> str | None:
+        """Correlation cap: refuse a new entry when an OPEN position in the
+        same direction is highly correlated — that's the same trade twice."""
+        cfg = cfg or db.get_trading_config()
+        cap = float(cfg.get("correlation_cap", 0.8) or 0)
+        if cap <= 0:
+            return None
+        scan = scanner.latest() or {}
+        try:
+            positions = exchange.fetch_positions()
+        except Exception:
+            return None
+        for p in positions:
+            psym, pside = p.get("symbol"), p.get("side")
+            if not psym or psym == sym or pside not in ("long", "short"):
+                continue
+            if pside != direction:
+                continue
+            c = scanner.pair_correlation(scan, sym, psym)
+            if c is not None and c >= cap:
+                return (f"corr {round(c, 2)} with open {pside} {psym} ≥ cap {cap} "
+                        f"— same risk twice")
+        return None
+
+    def _close_trade_features(self, closed_trades):
+        """Match newly-closed trades to their entry feature snapshots so the
+        learner gets labeled outcomes, then refit."""
+        try:
+            open_rows = db.open_trade_features(mode=mode_manager.mode)
+        except Exception:
+            return
+        if not open_rows:
+            return
+        open_syms_now = self._open_symbols()
+        matched = False
+        for t in closed_trades:
+            sym = t.get("symbol")
+            if sym in open_syms_now:      # still open (partial close) — keep waiting
+                continue
+            for row in open_rows:
+                if row["symbol"] == sym and row.get("outcome") is None:
+                    db.close_trade_feature(row["id"], float(t.get("realized") or 0))
+                    row["outcome"] = "done"
+                    matched = True
+                    break
+        if matched:
+            try:
+                from . import learner
+                learner.refit()
             except Exception:
                 pass
 
@@ -432,6 +599,12 @@ class Scheduler:
                 db.add_alert("info", "auto_trade",
                              f"AI: skipped {sym} — already open or in cooldown.", symbol=sym)
                 continue
+            corr_msg = self._corr_blocked(sym, "long" if action == "buy" else "short", cfg)
+            if corr_msg:
+                db.set_decision_status(fn, "reviewed")
+                skipped.append(f"{sym}: {corr_msg}")
+                db.add_alert("info", "auto_trade", f"AI: skipped {sym} — {corr_msg}.", symbol=sym)
+                continue
             res = engine.execute_decision(full, decision_file=fn)
             if res["ok"]:
                 traded.append(sym)
@@ -451,16 +624,17 @@ class Scheduler:
     def _row_to_decision(self, row, comp, cfg) -> dict:
         """Build an executable decision from a mechanical scan row."""
         last = row["last"]
-        sl = float(cfg.get("stop_loss_pct", 2))
-        tp = float(cfg.get("take_profit_pct", 4))
         long = comp["direction"] == "long"
+        # SL/TP left None ON PURPOSE: the engine derives ATR-scaled stops
+        # (volatility-aware) and falls back to the config % only if ATR is
+        # unavailable. Hardcoding the fixed % here would defeat that.
         return {
             "action": "buy" if long else "short",
             "symbol": row["symbol"],
             "size": float(cfg.get("position_size_pct", 5)),
             "entry": last,
-            "stop_loss": round(last * (1 - sl / 100) if long else last * (1 + sl / 100), 6),
-            "take_profit": round(last * (1 + tp / 100) if long else last * (1 - tp / 100), 6),
+            "stop_loss": None,
+            "take_profit": None,
             "confidence": comp["confidence_pct"] / 100,
             "rationale": f"Mechanical screener: {comp['confidence_pct']}% {comp['direction']} "
                          f"(aligned={comp['aligned']}) across {len(row['per_tf'])} timeframes.",

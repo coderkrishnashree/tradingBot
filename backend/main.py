@@ -386,7 +386,11 @@ def get_config():
 
 @app.put("/api/config")
 def put_config(cfg: TradingConfig):
-    db.save_trading_config(cfg.model_dump())
+    # MERGE into the existing config instead of replacing it — otherwise any
+    # key not in the pydantic model would be silently wiped on every UI save.
+    merged = db.get_trading_config()
+    merged.update(cfg.model_dump())
+    db.save_trading_config(merged)
     return db.get_trading_config()
 
 
@@ -536,6 +540,85 @@ def run_backtest(symbol: str, timeframe: str = "1h", days: int = 90,
     return backtest.run(symbol, timeframe=timeframe, days=days, threshold=threshold,
                         sl_pct=sl_pct, tp_pct=tp_pct, size_pct=size_pct,
                         leverage=leverage, fee_pct=fee_pct)
+
+
+@app.get("/api/backtest/composite")
+def run_backtest_composite(symbol: str, days: int = 90, threshold: float = 65,
+                           timeframes: str = ""):
+    """Backtest what the LIVE pipeline actually trades: multi-TF composite +
+    regime gate + ATR stops + break-even/trail + time-stop + risk sizing.
+    Pulls the management params from the saved config."""
+    from . import backtest
+    cfg = db.get_trading_config()
+    tfs = [t for t in timeframes.split(",") if t] or cfg.get("scan_timeframes")
+    return backtest.run_composite(
+        symbol, timeframes=tfs, days=days, threshold=threshold,
+        atr_stop_mult=float(cfg.get("atr_stop_mult", 1.5)),
+        atr_tp_mult=float(cfg.get("atr_tp_mult", 3.0)),
+        size_pct=float(cfg.get("position_size_pct", 5)),
+        leverage=float(cfg.get("leverage", 3)),
+        risk_per_trade_pct=float(cfg.get("risk_per_trade_pct", 1.0)),
+        regime_min_adx=float(cfg.get("regime_min_adx", 22)),
+        breakeven_atr=float(cfg.get("breakeven_atr", 1.0)),
+        trail_atr_mult=float(cfg.get("trail_atr_mult", 1.5)),
+        max_holding_hours=float(cfg.get("max_holding_hours", 48)))
+
+
+@app.get("/api/backtest/sweep")
+def run_backtest_sweep(symbol: str, days: int = 90):
+    """Sweep auto_trade_confidence thresholds on the composite backtest —
+    find where the edge actually peaks instead of guessing."""
+    from . import backtest
+    cfg = db.get_trading_config()
+    return backtest.sweep(symbol, timeframes=cfg.get("scan_timeframes"), days=days,
+                          atr_stop_mult=float(cfg.get("atr_stop_mult", 1.5)),
+                          atr_tp_mult=float(cfg.get("atr_tp_mult", 3.0)),
+                          size_pct=float(cfg.get("position_size_pct", 5)),
+                          leverage=float(cfg.get("leverage", 3)),
+                          risk_per_trade_pct=float(cfg.get("risk_per_trade_pct", 1.0)),
+                          regime_min_adx=float(cfg.get("regime_min_adx", 22)),
+                          breakeven_atr=float(cfg.get("breakeven_atr", 1.0)),
+                          trail_atr_mult=float(cfg.get("trail_atr_mult", 1.5)),
+                          max_holding_hours=float(cfg.get("max_holding_hours", 48)))
+
+
+@app.get("/api/backtest/walkforward")
+def run_backtest_walkforward(symbol: str, days: int = 180, folds: int = 3):
+    """Walk-forward validation: tune on train, verify on unseen test slices.
+    Trust ONLY the out-of-sample numbers."""
+    from . import backtest
+    cfg = db.get_trading_config()
+    return backtest.walk_forward(symbol, timeframes=cfg.get("scan_timeframes"),
+                                 days=days, folds=folds,
+                                 atr_stop_mult=float(cfg.get("atr_stop_mult", 1.5)),
+                                 atr_tp_mult=float(cfg.get("atr_tp_mult", 3.0)),
+                                 size_pct=float(cfg.get("position_size_pct", 5)),
+                                 leverage=float(cfg.get("leverage", 3)),
+                                 risk_per_trade_pct=float(cfg.get("risk_per_trade_pct", 1.0)),
+                                 regime_min_adx=float(cfg.get("regime_min_adx", 22)),
+                                 breakeven_atr=float(cfg.get("breakeven_atr", 1.0)),
+                                 trail_atr_mult=float(cfg.get("trail_atr_mult", 1.5)),
+                                 max_holding_hours=float(cfg.get("max_holding_hours", 48)))
+
+
+@app.get("/api/learner")
+def learner_stats():
+    """The feedback loop's state: samples, accuracy, per-condition win rates."""
+    from . import learner
+    import json as _json
+    try:
+        if learner.STATS_PATH.exists():
+            return _json.loads(learner.STATS_PATH.read_text())
+    except Exception:
+        pass
+    return {"meta": {"ok": False, "message": "No learner stats yet — needs closed trades."}}
+
+
+@app.post("/api/learner/refit")
+def learner_refit():
+    """Force a retrain on all labeled closed trades."""
+    from . import learner
+    return learner.refit()
 
 
 @app.get("/api/health")

@@ -84,6 +84,20 @@ def init_db():
                 status    TEXT DEFAULT 'pending'      -- pending | approved | rejected | executed
             );
 
+            CREATE TABLE IF NOT EXISTS trade_features (
+                id            INTEGER PRIMARY KEY AUTOINCREMENT,
+                ts            TEXT NOT NULL,
+                mode          TEXT NOT NULL,
+                symbol        TEXT NOT NULL,
+                direction     TEXT,                  -- long | short
+                entry         REAL,
+                features      TEXT,                  -- JSON: signal components at entry
+                decision_file TEXT,
+                outcome       TEXT,                  -- NULL until closed; win | loss
+                pnl           REAL,
+                closed_at     TEXT
+            );
+
             CREATE TABLE IF NOT EXISTS alerts (
                 id      INTEGER PRIMARY KEY AUTOINCREMENT,
                 ts      TEXT NOT NULL,
@@ -106,9 +120,17 @@ def init_db():
 # --- settings ---------------------------------------------------------------
 
 def get_trading_config() -> dict:
+    """Stored config over defaults — so NEW keys added in an update get their
+    default value even for a DB saved by an older version."""
     with get_conn() as conn:
         row = conn.execute("SELECT value FROM settings WHERE key='trading_config'").fetchone()
-        return json.loads(row["value"]) if row else dict(config.DEFAULT_TRADING_CONFIG)
+        merged = dict(config.DEFAULT_TRADING_CONFIG)
+        if row:
+            try:
+                merged.update(json.loads(row["value"]))
+            except Exception:
+                pass
+        return merged
 
 
 def save_trading_config(cfg: dict):
@@ -212,6 +234,60 @@ def list_orders(limit: int = 200) -> list[dict]:
             "SELECT * FROM orders ORDER BY id DESC LIMIT ?", (limit,)
         ).fetchall()
         return [dict(r) for r in rows]
+
+
+# --- trade features (the learner's training data) ---------------------------
+
+def record_trade_features(mode: str, symbol: str, direction: str, entry: float,
+                          features: dict, decision_file: str | None = None) -> int:
+    with get_conn() as conn:
+        cur = conn.execute(
+            "INSERT INTO trade_features (ts, mode, symbol, direction, entry, features, decision_file) "
+            "VALUES (?,?,?,?,?,?,?)",
+            (_now(), mode, symbol, direction, entry, json.dumps(features), decision_file),
+        )
+        return cur.lastrowid
+
+
+def open_trade_features(mode: str | None = None) -> list[dict]:
+    """Entries whose outcome hasn't been recorded yet (position still open)."""
+    with get_conn() as conn:
+        q = "SELECT * FROM trade_features WHERE outcome IS NULL"
+        args: tuple = ()
+        if mode:
+            q += " AND mode=?"
+            args = (mode,)
+        rows = conn.execute(q + " ORDER BY id ASC", args).fetchall()
+        return [dict(r) for r in rows]
+
+
+def close_trade_feature(row_id: int, pnl: float, closed_at: str | None = None):
+    with get_conn() as conn:
+        conn.execute(
+            "UPDATE trade_features SET outcome=?, pnl=?, closed_at=? WHERE id=?",
+            ("win" if pnl > 0 else "loss", pnl, closed_at or _now(), row_id),
+        )
+
+
+def closed_trade_features(limit: int = 500, mode: str | None = None) -> list[dict]:
+    with get_conn() as conn:
+        q = "SELECT * FROM trade_features WHERE outcome IS NOT NULL"
+        args: list = []
+        if mode:
+            q += " AND mode=?"
+            args.append(mode)
+        q += " ORDER BY id DESC LIMIT ?"
+        args.append(limit)
+        rows = conn.execute(q, tuple(args)).fetchall()
+        out = []
+        for r in rows:
+            d = dict(r)
+            try:
+                d["features"] = json.loads(d.get("features") or "{}")
+            except Exception:
+                d["features"] = {}
+            out.append(d)
+        return out
 
 
 # --- equity curve -----------------------------------------------------------

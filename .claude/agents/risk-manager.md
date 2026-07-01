@@ -1,5 +1,6 @@
 ---
 name: risk-manager
+model: opus
 description: Independent risk check on size, drawdown, exposure and leverage. Has VETO power over any trade.
 tools: Read, Bash
 ---

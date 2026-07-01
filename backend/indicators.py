@@ -126,23 +126,69 @@ def swing_levels(highs, lows, lookback=50):
     return {"resistance": round(max(h), 6), "support": round(min(l), 6)}
 
 
-def rsi_divergence(closes, n=14, lookback=20):
-    """Crude divergence flag: price makes a new extreme but RSI doesn't.
+def _swing_points(values, left=2, right=2):
+    """Indices of local swing lows and highs (a point lower/higher than `left`
+    bars before and `right` bars after it). Returns (low_idxs, high_idxs)."""
+    lows, highs = [], []
+    for i in range(left, len(values) - right):
+        window_l = values[i - left:i]
+        window_r = values[i + 1:i + 1 + right]
+        if values[i] <= min(window_l) and values[i] <= min(window_r):
+            lows.append(i)
+        if values[i] >= max(window_l) and values[i] >= max(window_r):
+            highs.append(i)
+    return lows, highs
+
+
+def _rsi_series(closes, n=14):
+    """RSI value at every index (None until warm). Wilder-free simple average,
+    consistent with rsi() above."""
+    out = [None] * len(closes)
+    for i in range(n, len(closes)):
+        out[i] = rsi(closes[:i + 1], n)
+    return out
+
+
+def rsi_divergence(closes, n=14, lookback=40):
+    """Swing-point RSI divergence over the last `lookback` bars.
+    Bullish: price makes a LOWER swing low but RSI makes a HIGHER low.
+    Bearish: price makes a HIGHER swing high but RSI makes a LOWER high.
     Returns 'bullish', 'bearish', or None."""
     if len(closes) < lookback + n:
         return None
-    recent = closes[-lookback:]
-    r_now = rsi(closes, n)
-    r_then = rsi(closes[:-lookback // 2], n)
-    if r_now is None or r_then is None:
-        return None
-    price_low_now = recent[-1] <= min(recent)
-    price_high_now = recent[-1] >= max(recent)
-    if price_low_now and r_now > r_then:
-        return "bullish"
-    if price_high_now and r_now < r_then:
-        return "bearish"
+    tail = closes[-(lookback + n + 1):]   # rsi(n) only needs n+1 bars of context
+    seg = tail[-lookback:]
+    lows, highs = _swing_points(seg)
+    rsis = _rsi_series(tail, n)[-lookback:]
+    # Compare the two most recent swing points of each kind.
+    if len(lows) >= 2:
+        a, b = lows[-2], lows[-1]
+        if rsis[a] is not None and rsis[b] is not None:
+            if seg[b] < seg[a] and rsis[b] > rsis[a]:
+                return "bullish"
+    if len(highs) >= 2:
+        a, b = highs[-2], highs[-1]
+        if rsis[a] is not None and rsis[b] is not None:
+            if seg[b] > seg[a] and rsis[b] < rsis[a]:
+                return "bearish"
     return None
+
+
+def regime(ind: dict, min_adx: float = 22.0, min_bb_width: float = 0.0) -> dict:
+    """Classify the tape: 'trend' (tradeable with trend signals), 'chop'
+    (mean-reversion only / skip), or 'squeeze' (coiled, breakout watch).
+    Used as the entry gate — trend-following entries in chop are the #1
+    win-rate killer."""
+    adx_v = ind.get("adx") or 0.0
+    bbw = ind.get("bb_width_pct")
+    if bbw is not None and bbw < max(min_bb_width, 1.0):
+        kind = "squeeze"
+    elif adx_v >= min_adx:
+        kind = "trend"
+    else:
+        kind = "chop"
+    return {"kind": kind, "adx": adx_v, "bb_width_pct": bbw,
+            "trend_ok": kind == "trend"}
 
 
 def analyze(ohlcv) -> dict:

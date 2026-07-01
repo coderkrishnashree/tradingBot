@@ -1,5 +1,6 @@
 ---
 name: post-trade-review
+model: opus
 description: Studies CLOSED trades and recent decisions to find what's working and what isn't, then proposes concrete config/strategy tweaks. Run periodically, not as part of a trade decision.
 tools: Read, Bash
 ---

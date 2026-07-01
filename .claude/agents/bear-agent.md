@@ -1,5 +1,6 @@
 ---
 name: bear-agent
+model: opus
 description: Makes the strongest case to STAY OUT or take the SHORT side. The skeptic that stress-tests the bull thesis.
 tools: Read
 ---

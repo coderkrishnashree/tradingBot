@@ -55,7 +55,12 @@ def _demo_ohlcv(symbol, seed_shift, limit=120):
 
 
 def composite(per_tf: dict) -> dict:
-    """Blend per-timeframe signals into one confidence% + direction."""
+    """Blend per-timeframe signals into one confidence% + direction.
+
+    Alignment is MULTIPLICATIVE (scales with the signal), not a flat bonus —
+    a flat +15 used to push weak signals over the trade threshold; now a weak
+    signal stays weak even when timeframes agree, and disagreement actively
+    shrinks confidence."""
     num = den = 0.0
     signs = []
     for tf, row in per_tf.items():
@@ -67,12 +72,19 @@ def composite(per_tf: dict) -> dict:
             signs.append(1 if s > 0 else -1)
     blended = (num / den) if den else 0.0          # -1..1
     base = abs(blended) * 100
-    # Alignment bonus: if every active timeframe agrees, boost up to +15.
-    aligned = bool(signs) and all(x == signs[0] for x in signs)
-    conf = min(100.0, base + (15 if aligned else 0))
+    # Alignment factor: fraction of active TFs agreeing with the majority.
+    if signs:
+        pos = sum(1 for x in signs if x > 0)
+        agree = max(pos, len(signs) - pos) / len(signs)     # 0.5 .. 1.0
+    else:
+        agree = 0.5
+    aligned = bool(signs) and agree == 1.0
+    align_factor = 0.7 + 0.5 * (agree - 0.5) * 2            # 0.7 .. 1.2 (x1.2 = old +15 only when strong)
+    conf = min(100.0, base * align_factor)
     direction = "long" if blended > 0.1 else "short" if blended < -0.1 else "flat"
     return {"confidence_pct": round(conf, 1), "direction": direction,
-            "blended_score": round(blended, 3), "aligned": aligned}
+            "blended_score": round(blended, 3), "aligned": aligned,
+            "align_factor": round(align_factor, 2)}
 
 
 def _returns(closes):
@@ -89,6 +101,27 @@ def _pearson(a, b):
     va = sum((x - ma) ** 2 for x in a) ** 0.5
     vb = sum((x - mb) ** 2 for x in b) ** 0.5
     return round(cov / (va * vb), 3) if va and vb else None
+
+
+def _corr_matrix(ref_closes: dict) -> dict:
+    """Pairwise return-correlation between every scanned symbol (ref timeframe).
+    Used by the correlation cap: opening BTC+ETH+SOL longs is ONE trade at 3x
+    risk, not three trades."""
+    rets = {s: _returns(c) for s, c in ref_closes.items() if len(c) > 5}
+    syms = list(rets)
+    out = {}
+    for i, a in enumerate(syms):
+        for b in syms[i + 1:]:
+            c = _pearson(rets[a], rets[b])
+            if c is not None:
+                out[f"{a}|{b}"] = c
+    return out
+
+
+def pair_correlation(scan: dict, sym_a: str, sym_b: str) -> float | None:
+    """Look up pairwise correlation from a scan result (either key order)."""
+    m = (scan or {}).get("corr_matrix") or {}
+    return m.get(f"{sym_a}|{sym_b}", m.get(f"{sym_b}|{sym_a}"))
 
 
 def _attach_btc_relations(rows, ref_closes):
@@ -145,6 +178,21 @@ def scan(symbols=None, timeframes=None, demo=False) -> dict:
                 ref_closes[sym] = [c[4] for c in ohlcv]
         comp = composite(per_tf)
 
+        # --- REGIME GATE (#1 win-rate killer: trend entries in chop) --------
+        # Classify the reference timeframe's tape. In chop/squeeze, the trend
+        # composite is not tradeable: zero the direction so nothing downstream
+        # (auto-trade, AI gate, pick_candidates) enters, but keep the raw call
+        # visible for the dashboard.
+        reg = indicators.regime(per_tf[ref_tf]["indicators"],
+                                min_adx=float(cfg.get("regime_min_adx", 22) or 0),
+                                min_bb_width=float(cfg.get("regime_min_bb_width", 0) or 0))
+        comp["regime"] = reg["kind"]
+        if float(cfg.get("regime_min_adx", 22) or 0) > 0 and not reg["trend_ok"]:
+            comp["raw_direction"] = comp["direction"]
+            comp["direction"] = "flat"
+            comp["confidence_pct"] = round(comp["confidence_pct"] * 0.6, 1)
+            comp["regime_blocked"] = True
+
         # --- Market structure (funding/OI/long-short/order book) ---
         # Skip in demo to keep the offline path fast; live calls degrade to None.
         struct = {}
@@ -182,11 +230,21 @@ def scan(symbols=None, timeframes=None, demo=False) -> dict:
     # --- BTC correlation + relative strength (free, from the data we have) ---
     _attach_btc_relations(rows, ref_closes)
 
+    # --- Learner calibration: blend in the win-probability learned from THIS
+    # account's actual closed trades (only once there's enough history). ------
+    if cfg.get("adaptive_weights", True):
+        try:
+            from . import learner
+            learner.calibrate_rows(rows)
+        except Exception:
+            pass
+
     rows.sort(key=lambda r: r["composite"]["confidence_pct"], reverse=True)
     result = {
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "data_source": source,
         "timeframes": timeframes,
+        "corr_matrix": _corr_matrix(ref_closes),
         "rows": rows,
     }
     # Persist latest scan for the dashboard + the Layer 1 agents.

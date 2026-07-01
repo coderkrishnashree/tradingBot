@@ -34,6 +34,23 @@ class TradingConfig(BaseModel):
     ai_order_ttl_min: float = Field(default=120, ge=0, le=10080)
     daily_loss_limit_pct: float = Field(default=0, ge=0, le=100)
     min_minutes_between_trades: float = Field(default=0, ge=0, le=1440)
+    # --- Accuracy / win-rate upgrades (all optional; 0 disables) -------------
+    atr_stop_mult: float = Field(default=1.5, ge=0, le=10)
+    atr_tp_mult: float = Field(default=3.0, ge=0, le=20)
+    risk_per_trade_pct: float = Field(default=1.0, ge=0, le=10)
+    regime_min_adx: float = Field(default=22.0, ge=0, le=60)
+    regime_min_bb_width: float = Field(default=0.0, ge=0, le=50)
+    correlation_cap: float = Field(default=0.8, ge=0, le=1)
+    breakeven_atr: float = Field(default=1.0, ge=0, le=10)
+    trail_atr_mult: float = Field(default=1.5, ge=0, le=10)
+    max_holding_hours: float = Field(default=48, ge=0, le=720)
+    loss_streak_pause: int = Field(default=3, ge=0, le=20)
+    loss_streak_cooldown_min: float = Field(default=240, ge=0, le=10080)
+    maker_entries: bool = False
+    maker_offset_bps: float = Field(default=2.0, ge=0, le=50)
+    funding_avoid_min: float = Field(default=10, ge=0, le=120)
+    funding_avoid_rate: float = Field(default=0.0003, ge=0, le=0.01)
+    adaptive_weights: bool = True
 
     @field_validator("timeframe")
     @classmethod

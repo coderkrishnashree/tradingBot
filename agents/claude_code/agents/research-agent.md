@@ -1,5 +1,6 @@
 ---
 name: research-agent
+model: opus
 description: Pulls Bybit market data + indicators and summarizes conditions across the whole symbol universe. Use first, before the bull/bear debate.
 tools: Read, Bash
 ---

@@ -1,5 +1,6 @@
 ---
 name: macro-agent
+model: opus
 description: Reads derivatives positioning (funding, open interest, long/short ratio, order-book imbalance) and the broader market regime (BTC dominance, risk-on/off) to judge whether the environment supports the trade.
 tools: Read, WebSearch
 ---

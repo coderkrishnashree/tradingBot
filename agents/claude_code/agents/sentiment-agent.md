@@ -1,5 +1,6 @@
 ---
 name: sentiment-agent
+model: opus
 description: Web-searches recent news and social sentiment for the candidate coin(s) and flags catalysts or risks that pure price data can't see (listings, hacks, unlocks, regulation, partnerships).
 tools: WebSearch, Read
 ---

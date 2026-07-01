@@ -114,6 +114,41 @@ DEFAULT_TRADING_CONFIG = {
     # block a symbol forever (the AI's "wait for a bounce" is only valid briefly).
     # 0 = never expire. Default 120 min.
     "ai_order_ttl_min": 120,
+    # --- Accuracy / win-rate upgrades ---------------------------------------
+    # ATR-scaled stops: SL = atr_stop_mult x ATR, TP = atr_tp_mult x ATR
+    # (volatility-aware; the fixed stop_loss_pct/take_profit_pct above are the
+    # fallback when ATR is unavailable). 0 = disable and use the fixed %.
+    "atr_stop_mult": 1.5,
+    "atr_tp_mult": 3.0,
+    # Risk normalization: a stop-out loses ~this % of equity. Only ever SHRINKS
+    # the position below position_size_pct (your size stays the ceiling). 0 = off.
+    "risk_per_trade_pct": 1.0,
+    # Regime gate: block trend entries when the reference timeframe's ADX is
+    # below this (chop). 0 = off.
+    "regime_min_adx": 22.0,
+    "regime_min_bb_width": 0.0,
+    # Correlation cap: refuse a new entry if an open same-direction position is
+    # correlated above this (it's the same trade twice). 0 = off.
+    "correlation_cap": 0.8,
+    # Position management (every scan cycle):
+    "breakeven_atr": 1.0,        # move SL to entry after +1 ATR. 0 = off
+    "trail_atr_mult": 1.5,       # trail SL at 1.5 ATR once past it. 0 = off
+    "max_holding_hours": 48,     # time-stop: close unresolved positions. 0 = off
+    # Loss-streak circuit breaker: after N consecutive losses, pause NEW
+    # entries for the cooldown. 0 = off.
+    "loss_streak_pause": 3,
+    "loss_streak_cooldown_min": 240,
+    # Maker entries: rest a post-only limit at the touch instead of paying the
+    # taker fee when the entry isn't urgent.
+    "maker_entries": False,
+    "maker_offset_bps": 2.0,
+    # Funding avoidance: skip an entry within N minutes of funding when the
+    # rate is against the trade (and above funding_avoid_rate). 0 = off.
+    "funding_avoid_min": 10,
+    "funding_avoid_rate": 0.0003,
+    # Feedback loop: blend the win-probability learned from this account's own
+    # closed trades into scanner confidence (needs 30+ closed trades).
+    "adaptive_weights": True,
 }
 
 

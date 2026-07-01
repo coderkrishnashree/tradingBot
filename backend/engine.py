@@ -118,6 +118,76 @@ def cooldown_remaining(symbol: str) -> float:
         return 0.0
 
 
+def loss_streak_guard() -> tuple[bool, int, str]:
+    """Circuit breaker: after N consecutive losing closes, pause NEW entries
+    for a cooldown window (closes are always allowed). Returns
+    (paused, streak, message)."""
+    cfg = db.get_trading_config()
+    n = int(cfg.get("loss_streak_pause", 3) or 0)
+    if n <= 0:
+        return False, 0, ""
+    cooldown_min = float(cfg.get("loss_streak_cooldown_min", 240) or 0)
+    try:
+        closed = exchange.fetch_closed_trades(cfg.get("symbol_universe"), per_sym=20)
+    except Exception:
+        return False, 0, ""
+    streak, newest_loss_ms = 0, 0
+    for t in closed:                       # newest first
+        if (t.get("realized") or 0) < 0:
+            streak += 1
+            newest_loss_ms = max(newest_loss_ms, t.get("closed_at") or 0)
+        else:
+            break
+    if streak < n or not newest_loss_ms:
+        return False, streak, ""
+    import time
+    mins_since = (time.time() * 1000 - newest_loss_ms) / 60000
+    if mins_since >= cooldown_min:
+        return False, streak, ""
+    left = max(1, round(cooldown_min - mins_since))
+    return True, streak, (f"{streak} consecutive losses — new entries paused for {left}m more "
+                          f"(loss-streak circuit breaker).")
+
+
+def funding_guard(symbol: str, is_long: bool) -> str | None:
+    """Skip an entry that would immediately pay a punitive funding rate:
+    within `funding_avoid_min` minutes of the next funding AND the rate is
+    against the trade's direction. Returns a message if blocked, else None."""
+    cfg = db.get_trading_config()
+    avoid_min = float(cfg.get("funding_avoid_min", 10) or 0)
+    if avoid_min <= 0:
+        return None
+    thr = float(cfg.get("funding_avoid_rate", 0.0003) or 0.0003)
+    try:
+        from . import market_structure
+        f = market_structure._funding(market_structure._client(), symbol)
+        rate, nxt = f.get("rate"), f.get("next")
+        if rate is None or not nxt:
+            return None
+        import time
+        mins_to = (float(nxt) - time.time() * 1000) / 60000
+        pays = (is_long and rate >= thr) or ((not is_long) and rate <= -thr)
+        if pays and 0 <= mins_to <= avoid_min:
+            side = "long" if is_long else "short"
+            return (f"Funding {rate * 100:+.4f}% is against this {side} and pays in "
+                    f"~{max(1, round(mins_to))}m — entry deferred past funding.")
+    except Exception:
+        return None
+    return None
+
+
+def _scan_row(symbol: str) -> dict:
+    """The latest scan row for a symbol (ATR%, features, structure)."""
+    try:
+        from . import scanner
+        for r in (scanner.latest() or {}).get("rows", []):
+            if r.get("symbol") == symbol:
+                return r
+    except Exception:
+        pass
+    return {}
+
+
 def preflight() -> ExecutionResult:
     """Run the safety checks that must pass before ANY order."""
     if mode_manager.kill_switch_active:
@@ -213,6 +283,14 @@ def execute_decision(decision: dict, decision_file: str | None = None) -> Execut
     side = "buy" if action == "buy" else "sell"
     is_long = action == "buy"
 
+    # Entry-only guards (closes above are never blocked by these).
+    paused, streak, ls_msg = loss_streak_guard()
+    if paused:
+        return _fail(ls_msg, loss_streak=streak)
+    f_msg = funding_guard(symbol, is_long)
+    if f_msg:
+        return _fail(f_msg)
+
     # If a position is already OPEN, don't stack another entry onto it.
     try:
         if any(p.get("contracts") for p in exchange.fetch_positions() if p.get("symbol") == symbol):
@@ -238,6 +316,7 @@ def execute_decision(decision: dict, decision_file: str | None = None) -> Execut
 
     # SIZE & LEVERAGE come straight from YOUR config — your risk budget / how much
     # you want to invest. The AI only sets direction, entry, and (cautious) SL/TP.
+    # Risk-based sizing below can only SHRINK the position, never exceed your size.
     size_pct = float(cfg.get("position_size_pct", 5))
 
     # ENTRY: honor the AI's planned entry as a LIMIT order when it's a better,
@@ -245,14 +324,63 @@ def execute_decision(decision: dict, decision_file: str | None = None) -> Execut
     # Otherwise fall back to a market order — never chase past the plan.
     ai_entry = _num(decision.get("entry"))
     order_type, limit_price = "market", None
+    post_only = False
     if ai_entry:
         if is_long and ai_entry < price * 0.999:
             order_type, limit_price = "limit", ai_entry
         elif (not is_long) and ai_entry > price * 1.001:
             order_type, limit_price = "limit", ai_entry
+
+    # MAKER ENTRY: when we'd otherwise cross the spread with a market order,
+    # optionally rest a post-only limit at the touch instead. Saves the taker
+    # fee both ways (~0.11% round trip vs a 4% target is real edge). The TTL
+    # expiry in the scheduler cleans it up if price runs away.
+    if order_type == "market" and cfg.get("maker_entries", False):
+        try:
+            t = client.fetch_ticker(symbol)
+            bid, ask = _num(t.get("bid")), _num(t.get("ask"))
+            off = float(cfg.get("maker_offset_bps", 2) or 0) / 10000.0
+            if is_long and bid:
+                order_type, limit_price, post_only = "limit", bid * (1 - off), True
+            elif (not is_long) and ask:
+                order_type, limit_price, post_only = "limit", ask * (1 + off), True
+        except Exception:
+            pass
     ref_price = limit_price or price
 
+    # --- SL/TP FIRST (they drive sizing): prefer the AI's structural levels;
+    # else ATR-scaled distances (adapt to each pair's volatility); else config %.
+    sl = _num(decision.get("stop_loss"))
+    tp = _num(decision.get("take_profit"))
+    scan_row = _scan_row(symbol)
+    atr_pct = _num((scan_row.get("indicators_ref") or {}).get("atr_pct"))
+    atr_sl_mult = float(cfg.get("atr_stop_mult", 1.5) or 0)
+    atr_tp_mult = float(cfg.get("atr_tp_mult", 3.0) or 0)
+    if not sl:
+        if atr_pct and atr_sl_mult > 0:
+            dist = ref_price * atr_pct / 100 * atr_sl_mult
+            sl = ref_price - dist if is_long else ref_price + dist
+        else:
+            slp = float(cfg.get("stop_loss_pct", 2))
+            sl = ref_price * (1 - slp / 100) if is_long else ref_price * (1 + slp / 100)
+    if not tp:
+        if atr_pct and atr_tp_mult > 0:
+            dist = ref_price * atr_pct / 100 * atr_tp_mult
+            tp = ref_price + dist if is_long else ref_price - dist
+        else:
+            tpp = float(cfg.get("take_profit_pct", 4))
+            tp = ref_price * (1 + tpp / 100) if is_long else ref_price * (1 - tpp / 100)
+
+    # --- SIZING: your configured size is the CEILING. If risk_per_trade_pct is
+    # set, normalize so a stop-out loses ~that % of equity — wide stop = smaller
+    # position, tight stop = up to (but never beyond) your configured size.
     amount = _amount_from_size(symbol, size_pct, leverage, ref_price)
+    risk_pct = float(cfg.get("risk_per_trade_pct", 0) or 0)
+    stop_dist = abs(ref_price - sl)
+    if risk_pct > 0 and stop_dist > 0:
+        risk_amount = _equity_usdt() * (risk_pct / 100.0) / stop_dist
+        if risk_amount > 0:
+            amount = min(amount, risk_amount)
     if amount <= 0:
         return _fail("Computed order size is zero (no equity / price). Fund the account or check keys.")
     try:
@@ -265,22 +393,14 @@ def execute_decision(decision: dict, decision_file: str | None = None) -> Execut
     except Exception:
         pass
 
-    # SL/TP: prefer the AI's structural levels; else derive from your config %.
-    sl = _num(decision.get("stop_loss"))
-    tp = _num(decision.get("take_profit"))
-    if not sl:
-        slp = float(cfg.get("stop_loss_pct", 2))
-        sl = ref_price * (1 - slp / 100) if is_long else ref_price * (1 + slp / 100)
-    if not tp:
-        tpp = float(cfg.get("take_profit_pct", 4))
-        tp = ref_price * (1 + tpp / 100) if is_long else ref_price * (1 - tpp / 100)
-
     def _p(v):
         try:
             return client.price_to_precision(symbol, v)
         except Exception:
             return str(v)
     params = {"stopLoss": _p(sl), "takeProfit": _p(tp)}
+    if post_only:
+        params["postOnly"] = True
 
     try:
         if order_type == "limit":
@@ -292,6 +412,33 @@ def execute_decision(decision: dict, decision_file: str | None = None) -> Execut
                         qty=amount, price=ref_price, status="rejected",
                         decision_file=decision_file, raw=str(e))
         return _fail(f"Entry order rejected: {e}")
+
+    # --- Feature snapshot for the learner: what the signal looked like at entry.
+    try:
+        comp = scan_row.get("composite") or {}
+        iref = scan_row.get("indicators_ref") or {}
+        struct = scan_row.get("structure") or {}
+        db.record_trade_features(
+            mode=mode, symbol=symbol, direction="long" if is_long else "short",
+            entry=ref_price, decision_file=decision_file,
+            features={
+                "confidence_pct": comp.get("confidence_pct"),
+                "blended_score": comp.get("blended_score"),
+                "aligned": comp.get("aligned"),
+                "regime": comp.get("regime"),
+                "adx": iref.get("adx"), "rsi": iref.get("rsi"),
+                "bb_pctb": iref.get("bb_pctb"), "vwap_dist_pct": iref.get("vwap_dist_pct"),
+                "atr_pct": atr_pct, "divergence": iref.get("divergence"),
+                "structure_bias": struct.get("structure_bias"),
+                "funding_rate": struct.get("funding_rate"),
+                "btc_correlation": scan_row.get("btc_correlation"),
+                "relative_strength_pct": scan_row.get("relative_strength_pct"),
+                "ai_confidence": _num(decision.get("confidence")),
+                "playbook": decision.get("playbook"),
+                "source": decision.get("source") or "ai",
+            })
+    except Exception:
+        pass
 
     # A market order fills now (=> position opened => "executed"). A limit order
     # usually rests unfilled (=> NO position yet => "resting", not "executed").
