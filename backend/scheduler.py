@@ -136,8 +136,21 @@ class Scheduler:
 
             result = scanner.scan()
             rows = result.get("rows", [])
+            source = result.get("data_source")
+            skipped_syms = result.get("skipped_symbols", 0)
             db.add_alert("info", "scan",
-                         f"Scan complete: {len(rows)} pairs ({result.get('data_source')}).")
+                         f"Scan complete: {len(rows)} pairs ({source})"
+                         + (f", {skipped_syms} skipped on fetch errors" if skipped_syms else "")
+                         + ".")
+
+            # HARD GUARD: never gate, debate, or trade on anything but LIVE
+            # market data. Synthetic/unavailable data must not reach a decision.
+            if source != "bybit-mainnet-live" or not rows:
+                db.add_alert("warning", "system",
+                             f"Scan data source is '{source}' — skipping auto-trade/AI this "
+                             f"cycle; will retry next cycle. ({result.get('error') or 'no rows'})")
+                self.last_summary = {"scanned": len(rows), "skipped_cycle": f"data source {source}"}
+                return self.last_summary
 
             summary = {"scanned": len(rows), "traded": [], "skipped": []}
             ai_gated = cfg.get("ai_gated", False)

@@ -149,33 +149,46 @@ def scan(symbols=None, timeframes=None, demo=False) -> dict:
 
     client = None
     source = "bybit-mainnet-live"
-    if not demo:
+    fetch_errors: list[str] = []
+    if demo:
+        # EXPLICIT demo only (offline testing). Production NEVER silently falls
+        # back to synthetic candles — fake data must never reach the gate or a
+        # trade decision. If Bybit is unreachable, pairs are skipped instead.
+        source = "demo-synthetic"
+    else:
         try:
             client = _public_client()
-        except Exception:
-            demo = True
-    if demo or client is None:
-        source = "demo-synthetic"
+        except Exception as e:
+            return {
+                "generated_at": datetime.now(timezone.utc).isoformat(),
+                "data_source": "unavailable",
+                "error": f"Bybit unreachable: {e}",
+                "timeframes": timeframes, "rows": [],
+            }
 
     rows = []
     ref_tf = timeframes[-1]
     ref_closes: dict[str, list] = {}   # for BTC correlation / relative strength
     for i, sym in enumerate(symbols):
         per_tf = {}
+        fetch_failed = False
         for tf in timeframes:
-            try:
-                if client:
-                    ohlcv = client.fetch_ohlcv(sym, timeframe=tf, limit=120)
-                else:
-                    raise RuntimeError("demo")
-            except Exception:
+            if demo:
                 ohlcv = _demo_ohlcv(sym, seed_shift=hash(tf) % 100)
-                source = "demo-synthetic"
+            else:
+                try:
+                    ohlcv = client.fetch_ohlcv(sym, timeframe=tf, limit=120)
+                except Exception as e:
+                    fetch_errors.append(f"{sym} {tf}: {e}")
+                    fetch_failed = True
+                    break
             ind = indicators.analyze(ohlcv)
             sig = indicators.signal(ind)
             per_tf[tf] = {"indicators": ind, "signal": sig}
             if tf == ref_tf:
                 ref_closes[sym] = [c[4] for c in ohlcv]
+        if fetch_failed or not per_tf:
+            continue   # skip the pair — NEVER score it on missing/fake data
         comp = composite(per_tf)
 
         # --- REGIME GATE (#1 win-rate killer: trend entries in chop) --------
@@ -247,6 +260,9 @@ def scan(symbols=None, timeframes=None, demo=False) -> dict:
         "corr_matrix": _corr_matrix(ref_closes),
         "rows": rows,
     }
+    if fetch_errors:
+        result["fetch_errors"] = fetch_errors[:10]
+        result["skipped_symbols"] = len(fetch_errors)
     # Persist latest scan for the dashboard + the Layer 1 agents.
     out = Path(config.DECISIONS_DIR) / "_scan_latest.json"
     out.write_text(json.dumps(result, indent=2))
