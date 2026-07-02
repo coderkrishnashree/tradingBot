@@ -112,25 +112,57 @@ def fetch_closed_trades(symbols, per_sym: int = 100) -> list[dict]:
     if (_closed_cache["data"] and _closed_cache["mode"] == mode_manager.mode
             and now - _closed_cache["ts"] < 60):
         return _closed_cache["data"]
+    # ONE unfiltered, paginated call for the whole account instead of a
+    # per-symbol loop. The old loop was capped at the first 8 symbols, so with
+    # a 21-pair universe any close on pair #9+ silently never appeared in the
+    # dashboard or the realized-P&L totals.
     out = []
+    want = set(symbols or [])
     try:
         client = get_client()
-        for sym in (symbols or [])[:8]:
-            try:
-                resp = client.private_get_v5_position_closed_pnl(
-                    {"category": "linear", "symbol": client.market_id(sym), "limit": per_sym})
-                for it in resp.get("result", {}).get("list", []):
-                    out.append({
-                        "symbol": sym,
-                        "side": it.get("side"),
-                        "qty": float(it.get("qty") or 0),
-                        "entry": float(it.get("avgEntryPrice") or 0),
-                        "exit": float(it.get("avgExitPrice") or 0),
-                        "realized": float(it.get("closedPnl") or 0),
-                        "closed_at": int(it.get("updatedTime") or it.get("createdTime") or 0),
-                    })
-            except Exception:
-                pass
+
+        def _row(it, sym):
+            return {
+                "symbol": sym,
+                "side": it.get("side"),
+                "qty": float(it.get("qty") or 0),
+                "entry": float(it.get("avgEntryPrice") or 0),
+                "exit": float(it.get("avgExitPrice") or 0),
+                "realized": float(it.get("closedPnl") or 0),
+                "closed_at": int(it.get("updatedTime") or it.get("createdTime") or 0),
+            }
+
+        try:
+            if not client.markets:
+                client.load_markets()
+            id_map = {m.get("id"): s for s, m in (client.markets or {}).items()
+                      if m.get("linear")}
+            cursor = None
+            for _ in range(5):                      # up to 500 records
+                params = {"category": "linear", "limit": 100}
+                if cursor:
+                    params["cursor"] = cursor
+                resp = client.private_get_v5_position_closed_pnl(params)
+                res = resp.get("result", {}) or {}
+                for it in res.get("list", []) or []:
+                    sym = id_map.get(it.get("symbol")) or it.get("symbol")
+                    if want and sym not in want:
+                        continue
+                    out.append(_row(it, sym))
+                cursor = res.get("nextPageCursor")
+                if not cursor:
+                    break
+        except Exception:
+            # Fallback: per-symbol loop over ALL requested symbols (no cap).
+            out = []
+            for sym in (symbols or []):
+                try:
+                    resp = client.private_get_v5_position_closed_pnl(
+                        {"category": "linear", "symbol": client.market_id(sym), "limit": per_sym})
+                    for it in resp.get("result", {}).get("list", []):
+                        out.append(_row(it, sym))
+                except Exception:
+                    pass
     except Exception:
         pass
     out.sort(key=lambda x: x.get("closed_at") or 0, reverse=True)
