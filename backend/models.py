@@ -37,7 +37,7 @@ class TradingConfig(BaseModel):
     # --- Accuracy / win-rate upgrades (all optional; 0 disables) -------------
     atr_stop_mult: float = Field(default=1.5, ge=0, le=10)
     atr_tp_mult: float = Field(default=3.0, ge=0, le=20)
-    risk_per_trade_pct: float = Field(default=1.0, ge=0, le=10)
+    risk_per_trade_pct: float = Field(default=0.0, ge=0, le=10)  # 0 = off: size = position_size_pct x leverage, always
     regime_min_adx: float = Field(default=22.0, ge=0, le=60)
     regime_min_bb_width: float = Field(default=0.0, ge=0, le=50)
     correlation_cap: float = Field(default=0.8, ge=0, le=1)

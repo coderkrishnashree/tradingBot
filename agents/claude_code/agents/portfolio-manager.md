@@ -42,8 +42,21 @@ Output **STRICT JSON ONLY** (no prose, no code fence), exactly this shape:
   "confidence": 0.0-1.0,       // honestly calibrated: 0.55-0.65 decent, 0.7+ exceptional
   "playbook": "trend" | "range" | "breakout" | "none",
   "expectancy_note": "one line: est. p(win), R:R, why this playbook beats the alternatives",
-  "rationale": "2-4 sentences: the decisive factors and why this size/stop."
+  "rationale": "2-4 sentences: the decisive factors and why this size/stop.",
+  "reconsider": {                // REQUIRED on every "hold"; omit otherwise
+    "condition": "price_above" | "price_below",
+    "level": 0,                  // the price that would FLIP your call
+    "expires_min": 240,          // how long the trigger stays valid
+    "note": "one line: what crossing this level proves"
+  }
 }
+
+**`reconsider` — what would flip you (mandatory on HOLD):** state the single most
+informative structural price level that would change your call (support/resistance break,
+breakout point, VWAP reclaim) as `price_above`/`price_below` + `level`. The scheduler
+watches it and re-debates the symbol the moment it's crossed — a correct-but-early HOLD
+becomes a timely entry instead of a missed move. If truly unconditional, set
+`expires_min: 0`.
 
 `buy` = open long, `short` = open short, `sell`/`close` = exit. Numbers must be consistent
 (for a long: stop < entry < take_profit; for a short: take_profit < entry < stop). Never

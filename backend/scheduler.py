@@ -172,7 +172,12 @@ class Scheduler:
 
             if cfg.get("auto_trade", False):
                 if ai_gated:
-                    summary.update(self._ai_gated_cycle(rows, threshold, cfg))
+                    # Fired HOLD triggers ("what would flip me" levels crossed)
+                    # join this cycle's debate list — no waiting for the setup
+                    # to resolve between scans.
+                    trig_syms = self._fired_hold_triggers(rows, cfg)
+                    summary.update(self._ai_gated_cycle(rows, threshold, cfg,
+                                                        extra_syms=trig_syms))
                 else:
                     summary.update(self._auto_trade(rows, threshold, cfg))
                     summary.update(self._auto_trade_ai(threshold, cfg))
@@ -259,21 +264,43 @@ class Scheduler:
         except Exception:
             return set()
 
-    def _ai_gated_cycle(self, rows, threshold, cfg) -> dict:
+    def _ai_gated_cycle(self, rows, threshold, cfg, extra_syms=None) -> dict:
         """AI-GATED: the screener only pre-filters; the AGENTS decide + trade.
 
         1. Find mechanical candidates >= threshold (not already open / on cooldown).
+           A pair also qualifies via a VOLATILITY BREAKOUT flag (muddy composite
+           but the move is starting) or a fired HOLD trigger (`extra_syms`) —
+           both get a temporary pass on the mechanical gate; the AI still decides.
         2. If any, run the AI debate (synchronous — this is the gate).
         3. Execute ONLY the AI's resulting decision, and only if the AI's own
            confidence clears the threshold. No mechanical-only trades happen here.
         """
         open_syms = self._open_symbols()
-        cands = [r for r in rows
-                 if r["composite"]["confidence_pct"] >= threshold
-                 and r["composite"]["direction"] != "flat"
-                 and r["symbol"] not in open_syms
-                 and engine.cooldown_remaining(r["symbol"]) <= 0
-                 and not self._corr_blocked(r["symbol"], r["composite"]["direction"], cfg)]
+        extra_syms = set(extra_syms or ())
+        cands, promoted = [], {}          # promoted: sym -> "breakout"/"trigger"
+        for r in rows:
+            comp, sym = r["composite"], r["symbol"]
+            bo = r.get("breakout") or {}
+            mech_ok = comp["confidence_pct"] >= threshold and comp["direction"] != "flat"
+            bo_ok = bool(cfg.get("breakout_promote", True)) and \
+                bo.get("direction") in ("long", "short")
+            trig_ok = sym in extra_syms
+            if not (mech_ok or bo_ok or trig_ok):
+                continue
+            direction = comp["direction"] if mech_ok else \
+                (bo.get("direction") or comp.get("raw_direction") or comp["direction"])
+            if (sym in open_syms
+                    or engine.cooldown_remaining(sym) > 0
+                    or self._corr_blocked(sym, direction, cfg)):
+                continue
+            cands.append(r)
+            if not mech_ok:
+                promoted[sym] = "trigger" if trig_ok else "breakout"
+        # Promoted pairs get a TIMED pass on the scanner-confidence gate in
+        # _auto_trade_ai — otherwise the AI's BUY on a 30% composite would be
+        # blocked by the very muddiness the promotion exists to bypass.
+        for sym, why in promoted.items():
+            self._grant_gate_exception(sym, why)
         if not cands:
             best = max(rows, key=lambda r: r["composite"]["confidence_pct"], default=None)
             if best and best["composite"]["confidence_pct"] >= threshold:
@@ -301,7 +328,10 @@ class Scheduler:
             return {"ai_gated": "claude unavailable — gated, no trade"}
 
         cand_syms = [c["symbol"] for c in cands]
-        top = ", ".join(f"{c['symbol']}({c['composite']['confidence_pct']}%)" for c in cands[:3])
+        top = ", ".join(
+            f"{c['symbol']}({c['composite']['confidence_pct']}%"
+            + (f", {promoted[c['symbol']]}" if c["symbol"] in promoted else "") + ")"
+            for c in cands[:3])
         db.add_alert("info", "system",
                      f"AI-gated: {len(cands)} candidate(s) [{top}] — debating only these…")
         self.run_ai_analyze(symbols=cand_syms)     # debate ONLY the qualifying pairs
@@ -562,6 +592,82 @@ class Scheduler:
             except Exception:
                 pass
 
+    # --- gate exceptions (breakout promotion / fired HOLD trigger) ----------
+    def _grant_gate_exception(self, sym: str, why: str):
+        """Give `sym` a timed pass on the mechanical-confidence gate. The AI's
+        decision still rules — this only stops the muddy composite from
+        blocking the very trade the promotion exists to enable."""
+        from datetime import datetime, timezone
+        try:
+            db.set_setting(f"gate_exception:{sym}",
+                           f"{datetime.now(timezone.utc).isoformat()}|{why}")
+        except Exception:
+            pass
+
+    def _gate_exception(self, sym: str, max_age_min: float = 120) -> str | None:
+        """Return the active exception kind ('breakout'/'trigger') or None."""
+        try:
+            from datetime import datetime, timezone
+            raw = db.get_setting(f"gate_exception:{sym}")
+            if not raw:
+                return None
+            ts_s, _, why = raw.partition("|")
+            ts = datetime.fromisoformat(ts_s)
+            if ts.tzinfo is None:
+                ts = ts.replace(tzinfo=timezone.utc)
+            age_min = (datetime.now(timezone.utc) - ts).total_seconds() / 60
+            return (why or "breakout") if age_min <= max_age_min else None
+        except Exception:
+            return None
+
+    def _fired_hold_triggers(self, rows, cfg) -> list[str]:
+        """Structured HOLD triggers: agents attach a `reconsider` block to HOLD
+        decisions — {"condition": "price_above"|"price_below", "level": <px>,
+        "expires_min": <m>, "note": "..."} — meaning "this is what would flip
+        me". When the level is crossed while the trigger is armed, re-debate
+        the symbol THIS cycle instead of letting the setup resolve unseen
+        between 30-minute scans. Each trigger fires at most once."""
+        if not cfg.get("hold_triggers", True):
+            return []
+        from datetime import datetime, timezone, timedelta
+        prices = {r["symbol"]: r.get("last") for r in rows}
+        cap_min = float(cfg.get("hold_trigger_max_min", 240) or 240)
+        fired = []
+        for row in db.list_decisions(50):
+            if row.get("status") != "reviewed":     # HOLDs land here; fire once
+                continue
+            full = decisions_io.read_decision(row["filename"]) or {}
+            if (full.get("action") or "").lower() != "hold":
+                continue
+            rec = full.get("reconsider") or {}
+            cond, level, sym = rec.get("condition"), rec.get("level"), full.get("symbol")
+            px = prices.get(sym)
+            if cond not in ("price_above", "price_below") or level is None or px is None:
+                continue
+            try:                                     # still armed?
+                ts = datetime.fromisoformat(row.get("ts"))
+                if ts.tzinfo is None:
+                    ts = ts.replace(tzinfo=timezone.utc)
+                exp = rec.get("expires_min")
+                ttl = cap_min if exp is None else min(float(exp), cap_min)
+                if ttl <= 0:                         # 0 = unconditional HOLD
+                    continue
+                if datetime.now(timezone.utc) > ts + timedelta(minutes=ttl):
+                    continue
+            except Exception:
+                continue
+            hit = (cond == "price_above" and float(px) >= float(level)) or \
+                  (cond == "price_below" and float(px) <= float(level))
+            if not hit:
+                continue
+            db.set_decision_status(row["filename"], "triggered")   # never refire
+            note = f" ({rec.get('note')})" if rec.get("note") else ""
+            db.add_alert("info", "system",
+                         f"HOLD trigger hit on {sym}: {cond.replace('_', ' ')} {level} "
+                         f"(now {px}){note} — re-debating this cycle.", symbol=sym)
+            fired.append(sym)
+        return fired
+
     def _scanner_conf(self, sym) -> float | None:
         """Latest mechanical scanner confidence (%) for a symbol."""
         try:
@@ -600,12 +706,20 @@ class Scheduler:
                 continue
             mech = self._scanner_conf(sym)              # the gate = scanner confidence
             if mech is None or mech < threshold:
-                db.set_decision_status(fn, "reviewed")
-                db.add_alert("info", "auto_trade",
-                             f"AI: {action.upper()} {sym} but scanner conf "
-                             f"{round(mech) if mech is not None else '?'}% < {round(threshold)}% — no trade.",
-                             symbol=sym)
-                continue
+                exc = self._gate_exception(sym)
+                if exc:
+                    db.add_alert("info", "auto_trade",
+                                 f"AI: {action.upper()} {sym} — scanner conf "
+                                 f"{round(mech) if mech is not None else '?'}% is below the "
+                                 f"{round(threshold)}% gate, but a {exc} promotion is active "
+                                 f"— proceeding on the AI's call.", symbol=sym)
+                else:
+                    db.set_decision_status(fn, "reviewed")
+                    db.add_alert("info", "auto_trade",
+                                 f"AI: {action.upper()} {sym} but scanner conf "
+                                 f"{round(mech) if mech is not None else '?'}% < {round(threshold)}% — no trade.",
+                                 symbol=sym)
+                    continue
             if sym in open_syms or engine.cooldown_remaining(sym) > 0:
                 db.set_decision_status(fn, "reviewed")   # don't leave it 'pending'
                 skipped.append(f"{sym}: open/cooldown")

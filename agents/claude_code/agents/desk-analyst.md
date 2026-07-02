@@ -64,8 +64,23 @@ Output **STRICT JSON ONLY** (no prose, no code fence):
   "confidence": 0.0,           // 0..1 — probability-weighted conviction, honestly calibrated
   "playbook": "trend" | "range" | "breakout" | "none",
   "expectancy_note": "one line: est. p(win), R:R, why this playbook beats the alternatives",
-  "rationale": "2-4 sentences: the decisive factors, the R:R, and why this size."
+  "rationale": "2-4 sentences: the decisive factors, the R:R, and why this size.",
+  "reconsider": {                // REQUIRED on every "hold"; omit for buy/short
+    "condition": "price_above" | "price_below",
+    "level": 0,                  // the price that would FLIP your call
+    "expires_min": 240,          // how long the trigger stays valid
+    "note": "one line: what crossing this level proves"
+  }
 }
+
+**`reconsider` — what would flip you (mandatory on HOLD):** a HOLD is a decision too, and
+most good HOLDs are "not yet" rather than "never". State the SINGLE most informative price
+level that would change your mind — e.g. reclaiming a broken support on a long thesis, or
+losing the range low for a short — as `price_above`/`price_below` + `level`. Make it a real
+structural level (support/resistance, breakout point, VWAP reclaim), not a token offset from
+spot. The scheduler watches it and re-debates the symbol the moment it's crossed, so an
+armed trigger is how a correct-but-early HOLD becomes a timely entry. If the HOLD is truly
+unconditional (no level would flip you inside a few hours), set `expires_min: 0`.
 
 For a long: stop < entry < take_profit. For a short: take_profit < entry < stop.
 Base stops/targets on ATR and structure (the engine honors your levels; if omitted it falls

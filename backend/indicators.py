@@ -174,6 +174,60 @@ def rsi_divergence(closes, n=14, lookback=40):
     return None
 
 
+def breakout(ohlcv, lookback: int = 20, bbw_ratio: float = 1.5,
+             vol_ratio: float = 1.5) -> dict | None:
+    """VOLATILITY-EXPANSION BREAKOUT detector.
+
+    Fires when ALL THREE hold on the given timeframe:
+      1. Bollinger width is expanding: current width >= `bbw_ratio` x the
+         median width of the prior `lookback` bars (squeeze -> release).
+      2. Directional break: close beyond the prior `lookback`-bar high/low
+         (the live bar excluded from the extreme).
+      3. Volume confirms: last bar's volume >= `vol_ratio` x the prior average.
+
+    Why it exists: on a volatile day the multi-TF blended composite CANCELS
+    (4h long, 15m short => score ~0) exactly when the move starts, so the
+    scanner finds "nothing fresh". This catches the expansion itself and lets
+    the scheduler promote the pair to an AI debate despite a muddy composite.
+    Returns {"direction","level","bbw_now","bbw_med","bbw_ratio","vol_ratio"}
+    or None."""
+    closes = [c[4] for c in ohlcv]
+    highs = [c[2] for c in ohlcv]
+    lows = [c[3] for c in ohlcv]
+    vols = [c[5] for c in ohlcv]
+    if len(closes) < lookback + 25:      # need history for widths + extremes
+        return None
+    # 1) BB width now vs median of the prior `lookback` widths.
+    widths = []
+    for i in range(len(closes) - lookback - 1, len(closes)):
+        bb = bollinger(closes[: i + 1])
+        widths.append(bb["width_pct"] if bb else None)
+    widths = [w for w in widths if w is not None]
+    if len(widths) < 6:
+        return None
+    now_w = widths[-1]
+    prior = sorted(widths[:-1])
+    med_w = prior[len(prior) // 2]
+    if not med_w or now_w < bbw_ratio * med_w:
+        return None
+    # 2) Directional break of the prior N-bar extreme.
+    last = closes[-1]
+    hh = max(highs[-(lookback + 1):-1])
+    ll = min(lows[-(lookback + 1):-1])
+    direction = "long" if last > hh else "short" if last < ll else None
+    if not direction:
+        return None
+    # 3) Volume confirmation.
+    v_avg = sum(vols[-(lookback + 1):-1]) / lookback
+    v_r = (vols[-1] / v_avg) if v_avg else 0.0
+    if v_r < vol_ratio:
+        return None
+    return {"direction": direction,
+            "level": round(hh if direction == "long" else ll, 6),
+            "bbw_now": round(now_w, 2), "bbw_med": round(med_w, 2),
+            "bbw_ratio": round(now_w / med_w, 2), "vol_ratio": round(v_r, 2)}
+
+
 def regime(ind: dict, min_adx: float = 22.0, min_bb_width: float = 0.0) -> dict:
     """Classify the tape: 'trend' (tradeable with trend signals), 'chop'
     (mean-reversion only / skip), or 'squeeze' (coiled, breakout watch).

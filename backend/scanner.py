@@ -168,10 +168,14 @@ def scan(symbols=None, timeframes=None, demo=False) -> dict:
 
     rows = []
     ref_tf = timeframes[-1]
+    # Breakout detection runs on ONE mid timeframe: fast enough to catch the
+    # expansion the day it happens, slow enough not to fire on 1m noise.
+    bo_tf = next((t for t in ("15m", "30m", "5m", "1h") if t in timeframes), ref_tf)
     ref_closes: dict[str, list] = {}   # for BTC correlation / relative strength
     for i, sym in enumerate(symbols):
         per_tf = {}
         fetch_failed = False
+        bo_ohlcv = None
         for tf in timeframes:
             if demo:
                 ohlcv = _demo_ohlcv(sym, seed_shift=hash(tf) % 100)
@@ -187,6 +191,8 @@ def scan(symbols=None, timeframes=None, demo=False) -> dict:
             per_tf[tf] = {"indicators": ind, "signal": sig}
             if tf == ref_tf:
                 ref_closes[sym] = [c[4] for c in ohlcv]
+            if tf == bo_tf:
+                bo_ohlcv = ohlcv
         if fetch_failed or not per_tf:
             continue   # skip the pair — NEVER score it on missing/fake data
         comp = composite(per_tf)
@@ -222,9 +228,28 @@ def scan(symbols=None, timeframes=None, demo=False) -> dict:
         elif comp["direction"] == "short":
             comp["confidence_pct"] = round(min(100.0, max(0.0, comp["confidence_pct"] - sbias * 8)), 1)
 
+        # --- VOLATILITY-BREAKOUT flag (accuracy upgrade #15) -----------------
+        # Chop cancels the blended composite exactly when a breakout STARTS, so
+        # a volatile day looks like "nothing fresh". Detect BB-width expansion +
+        # directional break + volume on the mid TF; the scheduler promotes a
+        # flagged pair to the AI debate even when the composite is muddy. The
+        # AI still makes the call — this only earns the pair a debate.
+        bo = None
+        if cfg.get("breakout_promote", True) and bo_ohlcv:
+            try:
+                bo = indicators.breakout(
+                    bo_ohlcv,
+                    bbw_ratio=float(cfg.get("breakout_bbw_ratio", 1.5) or 1.5),
+                    vol_ratio=float(cfg.get("breakout_vol_ratio", 1.5) or 1.5))
+            except Exception:
+                bo = None
+        if bo:
+            bo["tf"] = bo_tf
+
         rows.append({
             "symbol": sym,
             "last": round(per_tf[ref_tf]["indicators"]["last"], 6) if timeframes else None,
+            "breakout": bo,
             "composite": comp,
             "structure": struct,
             "indicators_ref": {k: per_tf[ref_tf]["indicators"].get(k) for k in

@@ -122,7 +122,23 @@ DEFAULT_TRADING_CONFIG = {
     "atr_tp_mult": 3.0,
     # Risk normalization: a stop-out loses ~this % of equity. Only ever SHRINKS
     # the position below position_size_pct (your size stays the ceiling). 0 = off.
-    "risk_per_trade_pct": 1.0,
+    # DEFAULT OFF: with this on, a wide (e.g. ATR/structural) stop silently cut
+    # a 10%-of-equity order to a third of its size. Your position_size_pct and
+    # leverage are the single source of truth for sizing unless you opt in here.
+    "risk_per_trade_pct": 0.0,
+    # Volatility-breakout promotion: a BB-width expansion + directional break +
+    # volume on the mid TF earns a pair an AI debate even when the multi-TF
+    # composite is muddy (chop cancels the blend exactly when the move starts).
+    # The AI still decides; this only grants the debate + a temporary pass on
+    # the mechanical-confidence gate.
+    "breakout_promote": True,
+    "breakout_bbw_ratio": 1.5,   # BB width now vs its prior 20-bar median
+    "breakout_vol_ratio": 1.5,   # last bar volume vs prior 20-bar average
+    # Structured HOLD triggers: agents attach a `reconsider` block to HOLD
+    # decisions ("what would flip me"); when price crosses that level the
+    # symbol is re-debated IMMEDIATELY instead of waiting for the next cycle.
+    "hold_triggers": True,
+    "hold_trigger_max_min": 240,  # cap on how long a trigger stays armed
     # Regime gate: block trend entries when the reference timeframe's ADX is
     # below this (chop). 0 = off.
     "regime_min_adx": 22.0,

@@ -377,10 +377,15 @@ def execute_decision(decision: dict, decision_file: str | None = None) -> Execut
     amount = _amount_from_size(symbol, size_pct, leverage, ref_price)
     risk_pct = float(cfg.get("risk_per_trade_pct", 0) or 0)
     stop_dist = abs(ref_price - sl)
+    risk_cap_note = ""
     if risk_pct > 0 and stop_dist > 0:
         risk_amount = _equity_usdt() * (risk_pct / 100.0) / stop_dist
-        if risk_amount > 0:
-            amount = min(amount, risk_amount)
+        if 0 < risk_amount < amount:
+            risk_cap_note = (f" [risk cap {risk_pct}%: size cut "
+                             f"{amount:.4g} → {risk_amount:.4g} "
+                             f"({risk_amount / amount * 100:.0f}% of configured) — "
+                             f"set risk_per_trade_pct: 0 to always use full size]")
+            amount = risk_amount
     if amount <= 0:
         return _fail("Computed order size is zero (no equity / price). Fund the account or check keys.")
     try:
@@ -456,5 +461,5 @@ def execute_decision(decision: dict, decision_file: str | None = None) -> Execut
     else:
         placed = f"LIMIT resting @ {_p(limit_price)} — waiting for a bounce, NOT a position yet"
     return _ok(f"{action.upper()} {symbol} {placed}: {amount} (lev {leverage}x, size {round(size_pct, 2)}%, "
-               f"SL {_p(sl)}, TP {_p(tp)}).",
+               f"SL {_p(sl)}, TP {_p(tp)}).{risk_cap_note}",
                order_id=order.get("id"), amount=amount, price=ref_price, status=status, mode=mode)
