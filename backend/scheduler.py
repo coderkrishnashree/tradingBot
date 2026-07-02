@@ -512,9 +512,14 @@ class Scheduler:
                 cur_sl = float(info.get("stopLoss") or p.get("stopLossPrice") or 0)
             except Exception:
                 pass
-            new_sl = None
+            new_sl = be_sl = None
             if be_atr > 0 and profit >= be_atr * atr_abs:
-                new_sl = entry                              # never let it go red
+                # "Break-even" = entry PLUS the round-trip fee, so a stop-out
+                # here books a true 0 (not a fee-sized loss that dents the win
+                # rate and feeds the loss-streak breaker).
+                off = float(cfg.get("breakeven_offset_bps", 12) or 0) / 10000.0
+                be_sl = entry * (1 + off) if is_long else entry * (1 - off)
+                new_sl = be_sl                              # never let it go red
             if trail_mult > 0 and profit >= trail_mult * atr_abs:
                 t_sl = last - trail_mult * atr_abs if is_long else last + trail_mult * atr_abs
                 new_sl = max(new_sl or 0, t_sl) if is_long else min(new_sl or 1e18, t_sl)
@@ -533,7 +538,7 @@ class Scheduler:
                     "stopLoss": str(px),
                     "positionIdx": int(info.get("positionIdx") or 0),
                 })
-                kind = "break-even" if abs(new_sl - entry) < 1e-9 else "trailing"
+                kind = "break-even" if (be_sl is not None and new_sl == be_sl) else "trailing"
                 db.add_alert("success", "auto_trade",
                              f"Moved SL to {px} on {side} {sym} ({kind}, "
                              f"+{round(profit / atr_abs, 1)} ATR in profit).", symbol=sym)

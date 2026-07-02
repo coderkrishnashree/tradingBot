@@ -143,6 +143,11 @@ DEFAULT_TRADING_CONFIG = {
     # below this (chop). 0 = off.
     "regime_min_adx": 22.0,
     "regime_min_bb_width": 0.0,
+    # Break-even offset: when the break-even stop arms, place it entry + this
+    # many bps (long; minus for short) so a stop-out there covers the round-trip
+    # taker fee (~11 bps on Bybit) and books a true 0, not a fee-sized loss
+    # that dents the win rate and feeds the loss-streak breaker. 0 = raw entry.
+    "breakeven_offset_bps": 12.0,
     # Correlation cap: refuse a new entry if an open same-direction position is
     # correlated above this (it's the same trade twice). 0 = off.
     "correlation_cap": 0.8,
