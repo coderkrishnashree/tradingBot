@@ -33,6 +33,12 @@ Then assess, for the candidate symbol(s):
   (high correlation) or moving on its own?
 - Is the macro regime supportive of taking risk right now?
 
-Output a short verdict: **SUPPORTIVE**, **MIXED**, or **HOSTILE** environment for the trade,
-the single biggest positioning risk, and whether the macro backdrop argues for smaller size.
-Prose only, cite the actual numbers/sources. No JSON.
+**Scope: the desk holds trades for hours to ~2 days.** Judge the environment for the NEXT FEW
+HOURS TO DAYS only — is risk-taking supported *this session and the next*? Cycle-level calls
+(where rates/indices go over months, analyst targets, quarterly narratives) are out of scope
+and must not drive the verdict. Near-term event risk (FOMC/CPI/earnings inside 48h, market
+closures, holiday gaps) IS in scope.
+
+Output a short verdict: **SUPPORTIVE**, **MIXED**, or **HOSTILE** environment for the trade
+over the next hours-to-days, the single biggest positioning risk, and whether the backdrop
+argues for smaller size. Prose only, cite the actual numbers/sources. No JSON.
