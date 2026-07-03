@@ -231,13 +231,21 @@ class Scheduler:
                     if not mech_ok:
                         promoted.append(r["symbol"])
             if not symbols:
-                best = max((r.get("composite", {}).get("confidence_pct", 0) for r in rows),
-                           default=0)
+                best_row = max(rows, key=lambda r: r.get("composite", {}).get("confidence_pct", 0),
+                               default=None)
+                bc = (best_row or {}).get("composite", {})
+                if best_row and bc.get("confidence_pct", 0) >= threshold:
+                    why = ("direction is flat"
+                           + (" (regime-blocked)" if bc.get("regime_blocked") else ""))
+                    msg = (f"Manual analysis: top pair {best_row['symbol']} is "
+                           f"{round(bc.get('confidence_pct', 0))}% (≥ {round(threshold)}%) but "
+                           f"{why} — nothing to debate.")
+                else:
+                    msg = (f"Manual analysis: no pair ≥ {round(threshold)}% (best was "
+                           f"{round(bc.get('confidence_pct', 0))}%) — nothing to debate.")
                 db.add_alert("info", "system",
-                             f"Manual analysis: no pair ≥ {round(threshold)}% (best was "
-                             f"{round(best)}%) — nothing to debate. (A full-universe sweep "
-                             f"is available via /api/analyze/run?full=true.)")
-                return {"ok": False, "message": "no pair above threshold — nothing to debate"}
+                             msg + " (Full-universe sweep: /api/analyze/run?full=true.)")
+                return {"ok": False, "message": "no qualifying pair — nothing to debate"}
             # Promoted (breakout) pairs get the same timed pass on the
             # scanner-confidence gate as in the scheduled cycle, so an AI BUY
             # on a muddy composite isn't blocked at execution.
