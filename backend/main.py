@@ -859,10 +859,12 @@ def analyze_log(lines: int = 800, raw: bool = False):
 
 
 @app.post("/api/analyze/run")
-def analyze_run():
-    """Trigger the AI debate headlessly NOW (from the dashboard). Runs in a
-    background thread so the request returns immediately; watch the Alerts feed
-    for progress. Uses your Claude Code subscription login, not an API key."""
+def analyze_run(full: bool = False):
+    """Trigger the AI debate headlessly NOW (from the dashboard). Debates ONLY
+    the pairs that pass the confidence gate (same rule as the scheduled cycle);
+    pass ?full=true for an explicit full-universe sweep (token-expensive). Runs
+    in a background thread so the request returns immediately; watch the Alerts
+    feed for progress. Uses your Claude Code subscription login, not an API key."""
     import threading
     from .scheduler import _claude_bin
     if scheduler._ai_running:
@@ -872,14 +874,19 @@ def analyze_run():
                             detail="Claude Code CLI not found. Install it and run /login first.")
 
     def _job():
-        scheduler.run_ai_analyze()
+        res = scheduler.run_ai_analyze(full=full)
+        if isinstance(res, dict) and res.get("ok") is False:
+            return  # nothing debated (no pair above the gate) — alert already posted
         try:
             scheduler.run_once()  # process the fresh decision (auto-trade if eligible)
         except Exception:
             pass
 
     threading.Thread(target=_job, daemon=True, name="manual-analyze").start()
-    return {"started": True, "message": "AI debate started — watch the Alerts feed."}
+    msg = ("AI debate started (full-universe sweep) — watch the Alerts feed." if full
+           else "AI debate started for pairs above the gate — if none qualify, "
+                "an alert will say so.")
+    return {"started": True, "message": msg}
 
 
 @app.post("/api/trade/manual/{symbol:path}")

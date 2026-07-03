@@ -186,7 +186,8 @@ class Scheduler:
         finally:
             self._cycle_running = False
 
-    def run_ai_analyze(self, timeout: int | None = None, symbols: list | None = None) -> dict:
+    def run_ai_analyze(self, timeout: int | None = None, symbols: list | None = None,
+                       full: bool = False) -> dict:
         """Run the multi-agent debate HEADLESSLY via Claude Code (claude -p).
 
         Uses your subscription login (NOT an API key). This is the dashboard's
@@ -207,15 +208,48 @@ class Scheduler:
             timeout = int(db.get_trading_config().get("ai_timeout_sec", 1200))
         from datetime import datetime, timezone
         import json as _json
+
+        # No explicit symbols and no explicit full sweep -> a manual "Run
+        # analysis now". Apply the SAME gate as the scheduled cycle: debate only
+        # pairs >= threshold (or with a breakout flag). A full-universe sweep
+        # must be an explicit choice (full=True), never the default — it is the
+        # single biggest token burn in the system.
+        if not symbols and not full:
+            cfg = db.get_trading_config()
+            threshold = float(cfg.get("auto_trade_confidence", 65) or 65)
+            rows = (scanner.latest() or {}).get("rows", [])
+            symbols, promoted = [], []
+            for r in rows:
+                comp = r.get("composite", {})
+                bo = r.get("breakout") or {}
+                mech_ok = (comp.get("confidence_pct", 0) >= threshold
+                           and comp.get("direction") not in (None, "flat"))
+                bo_ok = bool(cfg.get("breakout_promote", True)) and \
+                    bo.get("direction") in ("long", "short")
+                if mech_ok or bo_ok:
+                    symbols.append(r["symbol"])
+                    if not mech_ok:
+                        promoted.append(r["symbol"])
+            if not symbols:
+                best = max((r.get("composite", {}).get("confidence_pct", 0) for r in rows),
+                           default=0)
+                db.add_alert("info", "system",
+                             f"Manual analysis: no pair ≥ {round(threshold)}% (best was "
+                             f"{round(best)}%) — nothing to debate. (A full-universe sweep "
+                             f"is available via /api/analyze/run?full=true.)")
+                return {"ok": False, "message": "no pair above threshold — nothing to debate"}
+            # Promoted (breakout) pairs get the same timed pass on the
+            # scanner-confidence gate as in the scheduled cycle, so an AI BUY
+            # on a muddy composite isn't blocked at execution.
+            for sym in promoted:
+                self._grant_gate_exception(sym, "breakout")
+
         AI_LOG_PATH.parent.mkdir(exist_ok=True)
         # Write the EXACT pairs to debate to a file the command reads. This is
         # robust — headless `claude -p` doesn't reliably pass slash-command args,
         # so relying on $ARGUMENTS made it debate the whole universe (token burn).
         try:
             (PROJECT_ROOT / "decisions").mkdir(exist_ok=True)
-            # symbols given -> debate exactly those (AI-gated). No symbols -> this
-            # is a manual "Run analysis now": mark it an explicit FULL sweep so the
-            # picker knows to use the whole universe (empty must NEVER mean "all").
             payload = {"symbols": list(symbols)} if symbols else {"full": True}
             (PROJECT_ROOT / "decisions" / "_debate_targets.json").write_text(_json.dumps(payload))
         except Exception:
