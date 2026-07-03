@@ -122,9 +122,13 @@ def fetch_closed_trades(symbols, per_sym: int = 100) -> list[dict]:
         client = get_client()
 
         def _row(it, sym):
+            # Bybit's closed-pnl `side` is the side of the CLOSING order:
+            # Sell closes a long, Buy closes a short. Expose the actual
+            # position direction so the UI doesn't mislabel longs as "Sell".
             return {
                 "symbol": sym,
                 "side": it.get("side"),
+                "direction": {"Sell": "long", "Buy": "short"}.get(it.get("side")),
                 "qty": float(it.get("qty") or 0),
                 "entry": float(it.get("avgEntryPrice") or 0),
                 "exit": float(it.get("avgExitPrice") or 0),

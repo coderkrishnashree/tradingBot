@@ -96,7 +96,9 @@ export default function TradesTab() {
                 <tr key={i} className="hover:bg-ink-700/40">
                   <td className="td text-slate-400">{fmt.timeMs(t.closed_at)}</td>
                   <td className="td"><PairLink symbol={t.symbol} /></td>
-                  <td className={`td font-bold ${t.side === "Buy" || t.side === "long" ? "text-up" : "text-down"}`}>{t.side}</td>
+                  <td className={`td font-bold ${(t.direction || t.side) === "long" ? "text-up" : "text-down"}`}>
+                    {(t.direction || (t.side === "Sell" ? "long" : "short")).toUpperCase()}
+                  </td>
                   <td className="td">{fmt.num(t.qty, 4)}</td>
                   <td className="td">{fmt.num(t.entry, 4)}</td>
                   <td className="td">{fmt.num(t.exit, 4)}</td>
