@@ -692,6 +692,121 @@ def get_alerts(limit: int = 100):
     return db.list_alerts(limit=limit)
 
 
+@app.get("/api/report/24h")
+def report_24h(hours: float = 24.0):
+    """Everything that happened in the last N hours as ONE plain-text report:
+    config, scheduler state, latest scan, every AI decision (with rationale +
+    reconsider trigger), orders, a why-no-trade tally, and the full alert feed.
+    Built to be copy-pasted whole for diagnosis."""
+    from fastapi.responses import PlainTextResponse
+    from datetime import datetime, timezone, timedelta
+
+    cutoff = (datetime.now(timezone.utc) - timedelta(hours=hours)).isoformat()
+    cfg = db.get_trading_config()
+    sched = scheduler.status()
+    L = []
+    add = L.append
+
+    add(f"=== FINALBOT {int(hours)}H REPORT — generated {datetime.now(timezone.utc).isoformat()} ===")
+    add(f"mode={sched.get('mode')} scheduler_running={sched.get('running')} "
+        f"ai_available={sched.get('ai_available')} last_scan={sched.get('last_run')}")
+    add(f"config: size={cfg.get('position_size_pct')}% lev={cfg.get('leverage')}x "
+        f"threshold={cfg.get('auto_trade_confidence')}% auto_trade={cfg.get('auto_trade')} "
+        f"ai_gated={cfg.get('ai_gated')} auto_analyze={cfg.get('auto_analyze')} "
+        f"scan_interval={cfg.get('scan_interval_min')}m tfs={cfg.get('scan_timeframes')} "
+        f"universe={len(cfg.get('symbol_universe') or [])} pairs "
+        f"breakout_promote={cfg.get('breakout_promote')} hold_triggers={cfg.get('hold_triggers')} "
+        f"regime_min_adx={cfg.get('regime_min_adx')}")
+    try:
+        pre = engine.preflight()
+        add(f"preflight: ok={pre.get('ok')} {pre.get('message') or ''}".rstrip())
+    except Exception as e:
+        add(f"preflight: error {e}")
+
+    # --- latest scan snapshot ------------------------------------------------
+    s = scanner.latest() or {}
+    add(f"\n--- LATEST SCAN ({s.get('generated_at')}, source={s.get('data_source')}) ---")
+    for r in (s.get("rows") or [])[:25]:
+        c = r.get("composite") or {}
+        bo = r.get("breakout")
+        add(f"  {r['symbol']:<18} conf={c.get('confidence_pct')!s:>5}% dir={c.get('direction') or '?':<5} "
+            f"regime={c.get('regime') or '?':<7} aligned={c.get('aligned')}"
+            + (" REGIME-BLOCKED" if c.get("regime_blocked") else "")
+            + (f" BREAKOUT={bo.get('direction')}@{bo.get('tf')}" if bo else ""))
+
+    # --- decisions with full detail --------------------------------------------
+    add(f"\n--- AI DECISIONS (last {int(hours)}h) ---")
+    n_dec = 0
+    for row in db.list_decisions(300):
+        if (row.get("ts") or "") < cutoff:
+            continue
+        n_dec += 1
+        full = decisions_io.read_decision(row["filename"]) or {}
+        rec = full.get("reconsider") or {}
+        add(f"  [{row.get('ts')}] {row.get('symbol')} action={row.get('action')} "
+            f"conf={row.get('confidence')} status={row.get('status')}")
+        if full.get("rationale"):
+            add(f"      rationale: {str(full['rationale'])[:400]}")
+        if rec:
+            add(f"      reconsider: {rec.get('condition')} {rec.get('level')} "
+                f"expires={rec.get('expires_min')}m ({rec.get('note')})")
+    if not n_dec:
+        add("  (none — no debates produced decisions in this window)")
+
+    # --- orders ------------------------------------------------------------------
+    add(f"\n--- ORDERS (last {int(hours)}h) ---")
+    try:
+        with db.get_conn() as conn:
+            orows = [dict(r) for r in conn.execute(
+                "SELECT ts, mode, symbol, side, order_type, qty, price, status "
+                "FROM orders WHERE ts >= ? ORDER BY id", (cutoff,)).fetchall()]
+    except Exception:
+        orows = []
+    for o in orows:
+        add(f"  [{o['ts']}] {o['mode']} {o['side']} {o['symbol']} {o['order_type']} "
+            f"qty={o['qty']} px={o['price']} -> {o['status']}")
+    if not orows:
+        add("  (none)")
+
+    # --- alert feed + why-no-trade tally ------------------------------------------
+    alerts = [a for a in db.list_alerts(3000) if (a.get("ts") or "") >= cutoff]
+    alerts.reverse()  # chronological
+    tally = {"scans": 0, "no_candidate_cycles": 0, "debates": 0, "ai_hold": 0,
+             "gate_blocked": 0, "skipped": 0, "trades_placed": 0, "triggers_fired": 0,
+             "warnings_errors": 0}
+    for a in alerts:
+        m = a.get("message") or ""
+        if m.startswith("Scan complete"):
+            tally["scans"] += 1
+        if "no pair ≥" in m or "no new debate" in m:
+            tally["no_candidate_cycles"] += 1
+        if "debating only these" in m:
+            tally["debates"] += 1
+        if "agents said HOLD" in m:
+            tally["ai_hold"] += 1
+        if "scanner conf" in m and "no trade" in m:
+            tally["gate_blocked"] += 1
+        if m.startswith("AI: skipped") or m.startswith("Skipped"):
+            tally["skipped"] += 1
+        if m.startswith("AUTO"):
+            tally["trades_placed"] += 1
+        if "HOLD trigger hit" in m:
+            tally["triggers_fired"] += 1
+        if a.get("level") in ("warning", "danger"):
+            tally["warnings_errors"] += 1
+    add(f"\n--- WHY-NO-TRADE TALLY (last {int(hours)}h) ---")
+    for k, v in tally.items():
+        add(f"  {k}: {v}")
+
+    add(f"\n--- FULL ALERT FEED ({len(alerts)} events, chronological) ---")
+    for a in alerts:
+        add(f"  [{a.get('ts')}] {a.get('level') or '-':<7} {a.get('kind') or '-':<10} "
+            f"{a.get('symbol') or '':<18} {a.get('message')}")
+
+    add("\n=== END REPORT ===")
+    return PlainTextResponse("\n".join(L))
+
+
 def _humanize_stream(text: str) -> str:
     """Turn Claude's stream-json events into a readable live activity feed."""
     import json as _json

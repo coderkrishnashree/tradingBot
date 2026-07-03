@@ -8,7 +8,18 @@ export default function AlertsFeed({ alerts }) {
   const rows = alerts || [];
   return (
     <div className="card">
-      <div className="card-title">Alerts &amp; Activity ({rows.length})</div>
+      <div className="flex items-center justify-between">
+        <div className="card-title">Alerts &amp; Activity ({rows.length})</div>
+        <a
+          href="/api/report/24h"
+          target="_blank"
+          rel="noreferrer"
+          className="mb-3 rounded-lg border border-white/10 px-3 py-1 text-xs text-slate-300 hover:bg-white/[0.06]"
+          title="Full 24h diagnostic report: config, scans, decisions, orders, why-no-trade tally — copy-paste the whole page for debugging"
+        >
+          24h report ↗
+        </a>
+      </div>
       <div className="space-y-1 max-h-[34rem] overflow-y-auto -mx-1 px-1">
         {rows.length === 0 && <p className="text-slate-500 text-sm">No activity yet.</p>}
         {rows.map((a) => (
