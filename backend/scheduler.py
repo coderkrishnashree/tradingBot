@@ -94,6 +94,7 @@ class Scheduler:
             "cycle_running": self._cycle_running,
             "scan_interval_min": cfg.get("scan_interval_min", 30),
             "scan_timeframes": cfg.get("scan_timeframes", []),
+            "ref_timeframe": cfg.get("ref_timeframe", "4h"),
             "last_run": self.last_run,
             "seconds_to_next": max(0, int(self.next_run_epoch - time.time())) if self.next_run_epoch else None,
             "last_summary": self.last_summary,
@@ -523,7 +524,19 @@ class Scheduler:
             info = p.get("info", {}) or {}
 
             # --- time-stop -------------------------------------------------
+            # Bybit's position `createdTime` is when the symbol's position
+            # RECORD was first created — it can be months old and once made a
+            # 1.4h-old SOL trade look "3731h without resolution". Our own last
+            # entry-order timestamp is the real open time; take the LATEST of
+            # the available timestamps so a fresh trade is never time-stopped.
             created = float(info.get("createdTime") or p.get("timestamp") or 0)
+            try:
+                ots = db.last_order_ts(sym)
+                if ots:
+                    own_ms = datetime.fromisoformat(ots).timestamp() * 1000
+                    created = max(created, own_ms)
+            except Exception:
+                pass
             if max_hold_h > 0 and created and (now_ms - created) > max_hold_h * 3_600_000:
                 try:
                     client.create_order(sym, "market", "sell" if is_long else "buy",

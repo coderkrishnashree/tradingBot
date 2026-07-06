@@ -34,6 +34,7 @@ export default function AutomationPanel({ status, mode, onRefresh }) {
         ai_order_ttl_min: status.ai_order_ttl_min ?? 120,
         scan_interval_min: status.scan_interval_min,
         scan_timeframes: status.scan_timeframes?.length ? status.scan_timeframes : ["15m", "1h", "4h", "1d"],
+        ref_timeframe: status.ref_timeframe || "4h",
         daily_loss_limit_pct: status.daily_loss_limit_pct ?? 0,
         min_minutes_between_trades: status.min_minutes_between_trades ?? 0,
       });
@@ -54,10 +55,13 @@ export default function AutomationPanel({ status, mode, onRefresh }) {
 
   function toggleTf(tf) {
     const has = form.scan_timeframes.includes(tf);
-    setForm({
-      ...form,
-      scan_timeframes: has ? form.scan_timeframes.filter((x) => x !== tf) : [...form.scan_timeframes, tf],
-    });
+    const next = has ? form.scan_timeframes.filter((x) => x !== tf) : [...form.scan_timeframes, tf];
+    // If the reference TF was deselected, fall back to the largest remaining.
+    let ref = form.ref_timeframe;
+    if (!next.includes(ref)) {
+      ref = [...ALL_TF].reverse().find((x) => next.includes(x)) || next[0] || "4h";
+    }
+    setForm({ ...form, scan_timeframes: next, ref_timeframe: ref });
   }
 
   async function save() {
@@ -180,6 +184,23 @@ export default function AutomationPanel({ status, mode, onRefresh }) {
             {ALL_TF.map((tf) => (
               <button key={tf} onClick={() => toggleTf(tf)}
                 className={`btn text-xs py-1 ${form.scan_timeframes.includes(tf) ? "bg-accent text-white" : "bg-ink-700 text-slate-400"}`}>
+                {tf}
+              </button>
+            ))}
+          </div>
+        </div>
+
+        <div className="mb-3">
+          <span className="text-xs text-slate-400">
+            Reference timeframe — anchors <b className="text-slate-300">ATR</b> (stop distance, trailing,
+            break-even), the <b className="text-slate-300">regime gate</b> and support/resistance.
+            Pick a higher TF (4h recommended); a low one makes stops hair-triggered and flags
+            everything as squeeze.
+          </span>
+          <div className="flex flex-wrap gap-2 mt-1">
+            {ALL_TF.filter((tf) => form.scan_timeframes.includes(tf)).map((tf) => (
+              <button key={tf} onClick={() => setForm({ ...form, ref_timeframe: tf })}
+                className={`btn text-xs py-1 ${form.ref_timeframe === tf ? "bg-up text-black" : "bg-ink-700 text-slate-400"}`}>
                 {tf}
               </button>
             ))}

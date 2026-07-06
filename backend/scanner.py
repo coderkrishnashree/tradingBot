@@ -167,7 +167,14 @@ def scan(symbols=None, timeframes=None, demo=False) -> dict:
             }
 
     rows = []
-    ref_tf = timeframes[-1]
+    # Reference TF for ATR (stops/trailing), regime gate, S/R and BTC corr.
+    # Explicit config beats list position; if unset/not scanned, fall back to
+    # the LARGEST scanned TF — never "whatever was clicked last in the UI"
+    # (a 5m ref once made every stop hair-triggered and everything a squeeze).
+    _tf_rank = {"1m": 1, "5m": 2, "15m": 3, "30m": 4, "1h": 5, "4h": 6, "1d": 7}
+    ref_tf = cfg.get("ref_timeframe")
+    if ref_tf not in timeframes:
+        ref_tf = max(timeframes, key=lambda t: _tf_rank.get(t, 0))
     # Breakout detection runs on ONE mid timeframe: fast enough to catch the
     # expansion the day it happens, slow enough not to fire on 1m noise.
     bo_tf = next((t for t in ("15m", "30m", "5m", "1h") if t in timeframes), ref_tf)

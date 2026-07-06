@@ -151,8 +151,16 @@ DEFAULT_TRADING_CONFIG = {
     # Correlation cap: refuse a new entry if an open same-direction position is
     # correlated above this (it's the same trade twice). 0 = off.
     "correlation_cap": 0.8,
+    # Reference timeframe: which scanned TF anchors ATR (stops/trailing),
+    # the regime gate, support/resistance and BTC-correlation. Independent of
+    # the ORDER timeframes are selected in the UI (that order used to silently
+    # decide this — a 5m ref made every stop hair-triggered and flagged
+    # everything as squeeze).
+    "ref_timeframe": "4h",
     # Position management (every scan cycle):
-    "breakeven_atr": 1.0,        # move SL to entry after +1 ATR. 0 = off
+    "breakeven_atr": 0.0,        # move SL to entry after +N ATR. 0 = off (disabled:
+                                 # it kept scratching winners at entry while losers
+                                 # ran to the full stop — asymmetric and net-negative)
     "trail_atr_mult": 1.5,       # trail SL at 1.5 ATR once past it. 0 = off
     "max_holding_hours": 48,     # time-stop: close unresolved positions. 0 = off
     # Loss-streak circuit breaker: after N consecutive losses, pause NEW

@@ -34,6 +34,7 @@ class TradingConfig(BaseModel):
     ai_order_ttl_min: float = Field(default=120, ge=0, le=10080)
     daily_loss_limit_pct: float = Field(default=0, ge=0, le=100)
     min_minutes_between_trades: float = Field(default=0, ge=0, le=1440)
+    ref_timeframe: str = "4h"   # anchors ATR/regime/S-R; independent of selection order
     # --- Accuracy / win-rate upgrades (all optional; 0 disables) -------------
     atr_stop_mult: float = Field(default=1.5, ge=0, le=10)
     atr_tp_mult: float = Field(default=3.0, ge=0, le=20)
@@ -41,7 +42,7 @@ class TradingConfig(BaseModel):
     regime_min_adx: float = Field(default=22.0, ge=0, le=60)
     regime_min_bb_width: float = Field(default=0.0, ge=0, le=50)
     correlation_cap: float = Field(default=0.8, ge=0, le=1)
-    breakeven_atr: float = Field(default=1.0, ge=0, le=10)
+    breakeven_atr: float = Field(default=0.0, ge=0, le=10)  # 0 = off (BE scratched winners; losers still ran full stop)
     trail_atr_mult: float = Field(default=1.5, ge=0, le=10)
     max_holding_hours: float = Field(default=48, ge=0, le=720)
     loss_streak_pause: int = Field(default=3, ge=0, le=20)
@@ -52,7 +53,7 @@ class TradingConfig(BaseModel):
     funding_avoid_rate: float = Field(default=0.0003, ge=0, le=0.01)
     adaptive_weights: bool = True
 
-    @field_validator("timeframe")
+    @field_validator("timeframe", "ref_timeframe")
     @classmethod
     def _tf(cls, v: str) -> str:
         if v not in ALLOWED_TF:
@@ -77,6 +78,7 @@ class AutomationConfig(BaseModel):
     auto_trade_confidence: float = Field(ge=0, le=100)
     scan_interval_min: int = Field(ge=1, le=1440)
     scan_timeframes: list[str] = Field(min_length=1)
+    ref_timeframe: str = "4h"   # anchors ATR/regime/S-R; must be one of scan_timeframes
     auto_analyze: bool = False
     ai_gated: bool = False
     ai_lite: bool = True
@@ -91,6 +93,13 @@ class AutomationConfig(BaseModel):
         bad = [x for x in v if x not in ALLOWED_TF]
         if bad:
             raise ValueError(f"invalid timeframes: {bad}")
+        return v
+
+    @field_validator("ref_timeframe")
+    @classmethod
+    def _rtf(cls, v: str) -> str:
+        if v not in ALLOWED_TF:
+            raise ValueError(f"ref_timeframe must be one of {sorted(ALLOWED_TF)}")
         return v
 
 
