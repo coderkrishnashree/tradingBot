@@ -503,11 +503,11 @@ class Scheduler:
           - ATR TRAIL: once up >= trail_atr_mult x ATR, trail the SL at
             trail_atr_mult x ATR behind price. Stops only ever TIGHTEN."""
         cfg = cfg or db.get_trading_config()
-        be_atr = float(cfg.get("breakeven_atr", 1.0) or 0)
+        be_atr = float(cfg.get("breakeven_atr", 0.0) or 0)
         trail_mult = float(cfg.get("trail_atr_mult", 1.5) or 0)
         max_hold_h = float(cfg.get("max_holding_hours", 0) or 0)
-        if be_atr <= 0 and trail_mult <= 0 and max_hold_h <= 0:
-            return
+        # NOTE: no early return when all three are off — the TP1 ratchet below
+        # must still run for positions that carry an AI TP ladder.
         try:
             positions = exchange.fetch_positions()
             client = exchange.get_client()
@@ -556,6 +556,40 @@ class Scheduler:
                     last = float(client.fetch_ticker(sym).get("last") or 0)
                 except Exception:
                     continue
+            # --- TP1 ratchet (AI ladder) -------------------------------------
+            # If the AI gave take_profit_1 + take_profit_2, the exchange TP sits
+            # at TP2 and this locks in TP1: the moment price touches TP1, the SL
+            # jumps to TP1, so the runner toward TP2 can never go back red past
+            # the first target. Fires once per position.
+            try:
+                import json as _ljson
+                _raw = db.get_setting(f"tp_ladder:{sym}") or ""
+                ladder = _ljson.loads(_raw) if _raw else None
+            except Exception:
+                ladder = None
+            if ladder and ladder.get("tp1") and ladder.get("side") == side:
+                tp1 = float(ladder["tp1"])
+                if (last >= tp1) if is_long else (last <= tp1):
+                    l_cur = 0.0
+                    try:
+                        l_cur = float(info.get("stopLoss") or p.get("stopLossPrice") or 0)
+                    except Exception:
+                        pass
+                    if (not l_cur) or (is_long and tp1 > l_cur) or ((not is_long) and tp1 < l_cur):
+                        try:
+                            px = client.price_to_precision(sym, tp1)
+                            client.private_post_v5_position_trading_stop({
+                                "category": "linear", "symbol": client.market_id(sym),
+                                "stopLoss": str(px),
+                                "positionIdx": int(info.get("positionIdx") or 0),
+                            })
+                            db.add_alert("success", "auto_trade",
+                                         f"TP1 hit on {side} {sym} — SL ratcheted to {px}; "
+                                         f"letting the rest run to TP2.", symbol=sym)
+                        except Exception:
+                            pass
+                    db.set_setting(f"tp_ladder:{sym}", "")   # fire once
+
             atr_abs = self._atr_abs(sym, last)
             if not atr_abs or atr_abs <= 0:
                 continue

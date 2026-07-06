@@ -12,6 +12,16 @@ const NUMS = [
   { key: "max_drawdown_pct", label: "Max drawdown limit (%)", min: 1, max: 100, step: 1 },
 ];
 
+// Position management knobs (0 = off). These run every scan cycle on OPEN positions.
+const MGMT = [
+  { key: "breakeven_atr", label: "Break-even after (× ref-TF ATR)", min: 0, max: 10, step: 0.1,
+    hint: "0 = OFF. >0: once up this many ATR, SL moves to entry — scratches winners early if the ref TF is low." },
+  { key: "trail_atr_mult", label: "Trailing stop (× ref-TF ATR)", min: 0, max: 10, step: 0.1,
+    hint: "0 = OFF. >0: trail SL this many ATR behind price once past it." },
+  { key: "max_holding_hours", label: "Time-stop (hours)", min: 0, max: 720, step: 1,
+    hint: "0 = OFF. Close positions still open after this many hours." },
+];
+
 export default function ConfigPanel() {
   const [cfg, setCfg] = useState(null);
   const [symbolsText, setSymbolsText] = useState("");
@@ -98,6 +108,27 @@ export default function ConfigPanel() {
               />
             </label>
           ))}
+        </div>
+
+        <div className="pt-2">
+          <div className="text-xs text-slate-400 mb-2 font-semibold">Position management (0 = off)</div>
+          <div className="grid grid-cols-2 gap-3">
+            {MGMT.map((n) => (
+              <label key={n.key} className="block">
+                <span className="text-xs text-slate-400">{n.label}</span>
+                <input
+                  type="number"
+                  className="input"
+                  min={n.min}
+                  max={n.max}
+                  step={n.step}
+                  value={cfg[n.key] ?? 0}
+                  onChange={(e) => setNum(n.key, e.target.value)}
+                />
+                <span className="text-xs text-slate-500">{n.hint}</span>
+              </label>
+            ))}
+          </div>
         </div>
 
         <button onClick={save} disabled={saving} className="btn w-full bg-accent hover:bg-blue-600 text-white">

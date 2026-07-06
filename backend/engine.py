@@ -371,6 +371,19 @@ def execute_decision(decision: dict, decision_file: str | None = None) -> Execut
             tpp = float(cfg.get("take_profit_pct", 4))
             tp = ref_price * (1 + tpp / 100) if is_long else ref_price * (1 - tpp / 100)
 
+    # --- TP LADDER (optional): the AI may give take_profit_1 + take_profit_2.
+    # The exchange TP is set to TP2 (the full target); the scheduler ratchets
+    # the SL to TP1 the moment price touches it, so a trade that reaches the
+    # first target can never round-trip back to a loss.
+    tp1 = _num(decision.get("take_profit_1") or decision.get("tp1"))
+    tp2 = _num(decision.get("take_profit_2") or decision.get("tp2"))
+    if tp1 and tp2:
+        ladder_ok = (ref_price < tp1 < tp2) if is_long else (tp2 < tp1 < ref_price)
+        if ladder_ok:
+            tp = tp2
+        else:
+            tp1 = None   # inconsistent levels — ignore the ladder, keep single TP
+
     # --- SIZING: your configured size is the CEILING. If risk_per_trade_pct is
     # set, normalize so a stop-out loses ~that % of equity — wide stop = smaller
     # position, tight stop = up to (but never beyond) your configured size.
@@ -445,6 +458,17 @@ def execute_decision(decision: dict, decision_file: str | None = None) -> Execut
     except Exception:
         pass
 
+    # Persist (or clear) the TP ladder for the position manager. Always write —
+    # a stale ladder from a previous trade on this symbol must never fire on a
+    # new position that doesn't have one.
+    try:
+        import json as _json
+        db.set_setting(f"tp_ladder:{symbol}",
+                       _json.dumps({"tp1": tp1, "side": "long" if is_long else "short",
+                                    "entry": ref_price}) if tp1 else "")
+    except Exception:
+        pass
+
     # A market order fills now (=> position opened => "executed"). A limit order
     # usually rests unfilled (=> NO position yet => "resting", not "executed").
     filled = order_type == "market" or order.get("status") in ("closed", "filled")
@@ -460,6 +484,7 @@ def execute_decision(decision: dict, decision_file: str | None = None) -> Execut
         placed = f"MARKET filled @ ~{_p(price)} — position OPEN"
     else:
         placed = f"LIMIT resting @ {_p(limit_price)} — waiting for a bounce, NOT a position yet"
+    ladder_note = f", TP1 {_p(tp1)} (SL ratchets there when hit)" if tp1 else ""
     return _ok(f"{action.upper()} {symbol} {placed}: {amount} (lev {leverage}x, size {round(size_pct, 2)}%, "
-               f"SL {_p(sl)}, TP {_p(tp)}).{risk_cap_note}",
+               f"SL {_p(sl)}, TP {_p(tp)}{ladder_note}).{risk_cap_note}",
                order_id=order.get("id"), amount=amount, price=ref_price, status=status, mode=mode)

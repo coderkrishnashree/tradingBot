@@ -46,6 +46,12 @@ Output **STRICT JSON ONLY** (no prose, no code fence), exactly this shape:
   "entry": 64000,             // null if hold
   "stop_loss": 62700,         // null if hold
   "take_profit": 66600,       // null if hold
+  "take_profit_1": 65500,      // OPTIONAL first target (nearest structure): when
+                               // touched, the SL auto-ratchets TO it and the trade
+                               // rides toward take_profit_2.
+  "take_profit_2": 66600,      // OPTIONAL final target (becomes the exchange TP).
+                               // Long: entry < tp1 < tp2; short: tp2 < tp1 < entry.
+                               // Give BOTH or NEITHER (else use plain take_profit).
   "confidence": 0.0-1.0,       // honestly calibrated: 0.55-0.65 decent, 0.7+ exceptional
   "playbook": "trend" | "range" | "breakout" | "none",
   "expectancy_note": "one line: est. p(win), R:R, why this playbook beats the alternatives",

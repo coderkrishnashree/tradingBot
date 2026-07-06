@@ -74,6 +74,13 @@ Output **STRICT JSON ONLY** (no prose, no code fence):
   "symbol": "<the symbol>",
   "size": 0.0,                 // % of equity; 0 if hold
   "entry": 0, "stop_loss": 0, "take_profit": 0,   // null/0 if hold
+  "take_profit_1": 0,          // OPTIONAL first target: nearest structural level.
+                               // When price touches it, the SL auto-ratchets TO it
+                               // and the position rides on toward take_profit_2.
+  "take_profit_2": 0,          // OPTIONAL final target (becomes the exchange TP).
+                               // Long: entry < tp1 < tp2. Short: tp2 < tp1 < entry.
+                               // Give BOTH or NEITHER; if only one target makes
+                               // sense, use plain take_profit instead.
   "confidence": 0.0,           // 0..1 — probability-weighted conviction, honestly calibrated
   "playbook": "trend" | "range" | "breakout" | "none",
   "expectancy_note": "one line: est. p(win), R:R, why this playbook beats the alternatives",
