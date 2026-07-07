@@ -62,6 +62,7 @@ class Scheduler:
         self.last_summary: dict | None = None
         self._ai_running = False     # guard against overlapping claude runs
         self._cycle_running = False  # True while a scan cycle is executing
+        self._pos_first_seen: dict = {}  # (symbol, side) -> epoch ms we first saw the position
         self.ai_available = _claude_bin() is not None
 
     # --- lifecycle ----------------------------------------------------------
@@ -514,6 +515,22 @@ class Scheduler:
         except Exception:
             return
         now_ms = time.time() * 1000
+        # Track when WE first saw each open position (in-memory). Bybit's
+        # position `createdTime` is the record's birth (can be months old) and
+        # our order history can carry stale statuses — both produced bogus ages
+        # (a 1.4h SOL trade "3731h old", a 66-min CRCL short "75h old") that
+        # time-stopped fresh trades. First-seen is always correct while the
+        # process runs; a restart just resets the clock (conservative).
+        live_keys = set()
+        for p in positions:
+            if p.get("symbol") and p.get("side") in ("long", "short") and float(p.get("contracts") or 0):
+                k = (p["symbol"], p["side"])
+                live_keys.add(k)
+                self._pos_first_seen.setdefault(k, now_ms)
+        for k in list(self._pos_first_seen):
+            if k not in live_keys:
+                del self._pos_first_seen[k]
+
         for p in positions:
             sym, side = p.get("symbol"), p.get("side")
             entry = float(p.get("entryPrice") or 0)
@@ -524,19 +541,11 @@ class Scheduler:
             info = p.get("info", {}) or {}
 
             # --- time-stop -------------------------------------------------
-            # Bybit's position `createdTime` is when the symbol's position
-            # RECORD was first created — it can be months old and once made a
-            # 1.4h-old SOL trade look "3731h without resolution". Our own last
-            # entry-order timestamp is the real open time; take the LATEST of
-            # the available timestamps so a fresh trade is never time-stopped.
-            created = float(info.get("createdTime") or p.get("timestamp") or 0)
-            try:
-                ots = db.last_order_ts(sym)
-                if ots:
-                    own_ms = datetime.fromisoformat(ots).timestamp() * 1000
-                    created = max(created, own_ms)
-            except Exception:
-                pass
+            # Age = how long this process has continuously observed the
+            # position (see _pos_first_seen above). Never trusts exchange
+            # createdTime or order history — both gave bogus multi-day ages
+            # on fresh trades and closed them at a loss.
+            created = self._pos_first_seen.get((sym, side)) or now_ms
             if max_hold_h > 0 and created and (now_ms - created) > max_hold_h * 3_600_000:
                 try:
                     client.create_order(sym, "market", "sell" if is_long else "buy",
