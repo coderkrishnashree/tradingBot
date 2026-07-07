@@ -66,10 +66,15 @@ unlikely big one. Explicitly choose one playbook:
    and bear roughly balanced. HOLD is a position — often the highest-expectancy one.
 
 Hard quant checks before any entry (with numbers, not vibes):
-- **Reward:risk ≥ 1.5** for trend/breakout trades; range trades may go to 1.2 ONLY if the
-  level is strong and the probability is clearly high.
-- **Stop survives noise**: ≥ ~1×ATR from entry AND beyond a real structure level. A stop
-  inside the noise band is a donation.
+- **Reward:risk ≥ 1.5 measured to the FIRST exit.** If you give a TP ladder, compute reward
+  to take_profit_1 — the ratchet/trail makes TP1 the REALISTIC outcome, so a distant TP2
+  cannot rescue a trade whose TP1 barely covers the stop. (Account history proves this:
+  winners exit at TP1/trail for ~1R while full stops lose ~2R — that asymmetry is the #1
+  reason the book bleeds.) If (tp1 − entry) < 1.5 × (entry − stop), fix the entry or skip.
+- **Stop survives noise but stays honest**: ≥ ~1×ATR from entry AND beyond structure, but
+  prefer ≤ ~1.5×ATR. If a valid stop must be wider than that, the entry is too far from the
+  level — wait for a better entry or skip; wide-stop-near-target is how losers outgrow
+  winners.
 - **Not chasing**: entry at/near a level or the mean, never after an extended run.
 - **Crowding**: extreme funding / long-short against your direction is a red flag for trades
   WITH the crowd, and fuel for fades AT extremes.

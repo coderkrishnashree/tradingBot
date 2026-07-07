@@ -35,7 +35,12 @@ and lost for this account — weight toward what works. State which playbook you
 
 Stops and targets must be structural: beyond real support/resistance AND ≥ ~1×ATR from entry
 (survives noise), with reward:risk ≥ 1.5 for trend/breakout entries (range fades may go to
-1.2 when the level is strong).
+1.2 when the level is strong). **Measure R:R to the FIRST exit**: with a TP ladder, reward =
+take_profit_1 − entry, because the ratchet/trail makes TP1 the realistic outcome — a distant
+TP2 cannot rescue a trade whose TP1 barely covers the stop. Prefer stops ≤ ~1.5×ATR: if a
+valid stop must be wider, the entry is too far from the level — improve the entry or hold.
+(Account history: winners exit ~1R at TP1/trail, full stops lose ~2R — that asymmetry is why
+the book bleeds.)
 
 Output **STRICT JSON ONLY** (no prose, no code fence), exactly this shape:
 
