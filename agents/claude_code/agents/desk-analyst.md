@@ -14,7 +14,15 @@ Inputs (in your prompt): the target **symbol**, and the shared **macro** + **sen
 Read `decisions/_scan_latest.json` for that symbol's full data: per-timeframe scores, RSI, ADX,
 Bollinger %B/width, stochastic, VWAP distance, support/resistance, ATR%, divergence, regime,
 the `structure` block (funding/OI/long-short/order-book), `btc_correlation`, and
-`relative_strength_pct`. If `decisions/_learner_stats.json` exists, read it — it shows which
+`relative_strength_pct`.
+
+**Read the PATH, then forecast the NEXT move.** The row's `recent_candles` holds the last
+~20 bars (o,h,l,c,v) of the mid timeframe. Indicators are a snapshot; the candles are the
+story — read the sequence: repeated rejections at a level, momentum accelerating or fading
+bar-by-bar, higher-lows coiling under resistance, expanding vs drying volume, where the last
+bar closed in its range. Your decision is a FORECAST of the next hours' movement inside your
+holding window — state in the rationale what you expect price to DO next and why the recent
+bars support it, not just what the indicators currently read. If `decisions/_learner_stats.json` exists, read it — it shows which
 signal conditions have actually WON and LOST for this account recently; lean toward what has
 been working and away from what has been losing.
 
@@ -83,6 +91,11 @@ Output **STRICT JSON ONLY** (no prose, no code fence):
                                // sense, use plain take_profit instead.
   "confidence": 0.0,           // 0..1 — probability-weighted conviction, honestly calibrated
   "playbook": "trend" | "range" | "breakout" | "none",
+  "forecast": "one line: the expected price PATH over the next few candles, with levels —
+               e.g. 'dip to retest 81.4, then bounce toward 82.6 within 2-4 bars'. Your SL/TP
+               sit close to price, so the trade lives or dies on THIS move: entry, stop and
+               targets must express exactly this forecast. If you cannot state a concrete
+               next move, the action is hold.",
   "expectancy_note": "one line: est. p(win), R:R, why this playbook beats the alternatives",
   "rationale": "2-4 sentences: the decisive factors, the R:R, and why this size.",
   "reconsider": {                // REQUIRED on every "hold"; omit for buy/short

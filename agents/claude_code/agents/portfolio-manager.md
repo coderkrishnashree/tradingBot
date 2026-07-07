@@ -54,6 +54,10 @@ Output **STRICT JSON ONLY** (no prose, no code fence), exactly this shape:
                                // Give BOTH or NEITHER (else use plain take_profit).
   "confidence": 0.0-1.0,       // honestly calibrated: 0.55-0.65 decent, 0.7+ exceptional
   "playbook": "trend" | "range" | "breakout" | "none",
+  "forecast": "one line: the expected price PATH over the next few candles, with levels.
+               SL/TP sit close to price — the trade lives or dies on this immediate move,
+               so entry/stop/targets must express exactly this forecast. No concrete next
+               move = hold.",
   "expectancy_note": "one line: est. p(win), R:R, why this playbook beats the alternatives",
   "rationale": "2-4 sentences: the decisive factors and why this size/stop.",
   "reconsider": {                // REQUIRED on every "hold"; omit otherwise

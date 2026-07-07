@@ -253,10 +253,28 @@ def scan(symbols=None, timeframes=None, demo=False) -> dict:
         if bo:
             bo["tf"] = bo_tf
 
+        # --- Recent price PATH (last ~20 bars of the mid TF, compact) --------
+        # The AI otherwise only sees a snapshot of derived indicators — it
+        # can't see rejections at a level, fading momentum, or higher-lows
+        # coiling. This gives it the actual sequence so it can forecast the
+        # NEXT move instead of describing the current state. Reuses the
+        # already-fetched breakout-TF candles; rounded to keep tokens small.
+        def _r6(x):
+            try:
+                return float(f"{float(x):.6g}")
+            except Exception:
+                return x
+        recent = None
+        if bo_ohlcv:
+            recent = {"tf": bo_tf,
+                      "ohlcv": [[_r6(c[1]), _r6(c[2]), _r6(c[3]), _r6(c[4]), _r6(c[5])]
+                                for c in bo_ohlcv[-20:]]}
+
         rows.append({
             "symbol": sym,
             "last": round(per_tf[ref_tf]["indicators"]["last"], 6) if timeframes else None,
             "breakout": bo,
+            "recent_candles": recent,
             "composite": comp,
             "structure": struct,
             "indicators_ref": {k: per_tf[ref_tf]["indicators"].get(k) for k in
