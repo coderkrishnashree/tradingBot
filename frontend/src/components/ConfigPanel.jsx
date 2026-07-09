@@ -20,6 +20,8 @@ const MGMT = [
     hint: "0 = OFF. >0: trail SL this many ATR behind price once past it." },
   { key: "max_holding_hours", label: "Time-stop (hours)", min: 0, max: 720, step: 1,
     hint: "0 = OFF. Close positions still open after this many hours." },
+  { key: "loss_streak_pause", label: "Loss-streak pause (losses)", min: 0, max: 20, step: 1,
+    hint: "0 = OFF (AI always decides). >0: after this many consecutive losses, block NEW entries for the cooldown." },
 ];
 
 export default function ConfigPanel() {

@@ -164,8 +164,9 @@ DEFAULT_TRADING_CONFIG = {
     "trail_atr_mult": 1.5,       # trail SL at 1.5 ATR once past it. 0 = off
     "max_holding_hours": 48,     # time-stop: close unresolved positions. 0 = off
     # Loss-streak circuit breaker: after N consecutive losses, pause NEW
-    # entries for the cooldown. 0 = off.
-    "loss_streak_pause": 3,
+    # entries for the cooldown. 0 = off (user choice 2026-07-09: trade
+    # whenever the AI says trade; the streak pause was blocking entries).
+    "loss_streak_pause": 0,
     "loss_streak_cooldown_min": 240,
     # Maker entries: rest a post-only limit at the touch instead of paying the
     # taker fee when the entry isn't urgent.

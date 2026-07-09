@@ -45,7 +45,7 @@ class TradingConfig(BaseModel):
     breakeven_atr: float = Field(default=0.0, ge=0, le=10)  # 0 = off (BE scratched winners; losers still ran full stop)
     trail_atr_mult: float = Field(default=1.5, ge=0, le=10)
     max_holding_hours: float = Field(default=48, ge=0, le=720)
-    loss_streak_pause: int = Field(default=3, ge=0, le=20)
+    loss_streak_pause: int = Field(default=0, ge=0, le=20)  # 0 = off (user: AI decides, no streak pause)
     loss_streak_cooldown_min: float = Field(default=240, ge=0, le=10080)
     maker_entries: bool = False
     maker_offset_bps: float = Field(default=2.0, ge=0, le=50)
