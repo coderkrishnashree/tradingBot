@@ -18,6 +18,10 @@ bias. Imminent binaries (<48h), fresh shocks already moving price, and liquidity
 your trades resolve on structure and flows.
 
 Hard rules:
+- **No chasing extended moves** (the account's #1 loss pattern): if price is already
+  > ~1.5×ATR beyond VWAP in the trade direction, or LTF RSI is < 30 (short) / > 70 (long),
+  reject market entries — demand a limit at the retest level or hold. Late continuation
+  entries die to the routine counter-bounce before the trend resumes.
 - If the Risk Manager issued a **VETO**, you may NOT enter; action becomes `hold` (or `close`
   if reducing existing risk). You may never exceed the max size the Risk Manager allowed.
 - If the Quant agent FAILED the trade's math, do not enter on hope — either adjust

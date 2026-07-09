@@ -75,7 +75,14 @@ Hard quant checks before any entry (with numbers, not vibes):
   prefer ≤ ~1.5×ATR. If a valid stop must be wider than that, the entry is too far from the
   level — wait for a better entry or skip; wide-stop-near-target is how losers outgrow
   winners.
-- **Not chasing**: entry at/near a level or the mean, never after an extended run.
+- **Not chasing — the account's #1 loss pattern is entering continuation AFTER the move.**
+  If price is already extended in your direction (> ~1.5×ATR beyond VWAP, or LTF RSI < 30
+  for a short / > 70 for a long), a routine counter-bounce will hit any honest stop before
+  the trend resumes — that is exactly how this account's losers died (late shorts into
+  stretched tape, stopped by the bounce). In an extended move you may NOT market-enter:
+  either set a LIMIT at the retest level the bounce should reach (VWAP / broken support
+  turned resistance) with a reconsider trigger as backup, or hold. A breakout flag on a
+  muddy composite is a reason to DEBATE, never by itself a reason to chase.
 - **Crowding**: extreme funding / long-short against your direction is a red flag for trades
   WITH the crowd, and fuel for fades AT extremes.
 - **Correlation**: if this is just BTC-beta (|btc_correlation| > 0.85, no relative strength),
