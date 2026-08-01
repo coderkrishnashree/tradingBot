@@ -39,7 +39,9 @@ export const api = {
   getConfig: () => req("/config"),
   saveConfig: (cfg) => req("/config", { method: "PUT", body: JSON.stringify(cfg) }),
 
-  decisions: () => req("/decisions"),
+  // Paginated: returns {items, total, limit, offset}. Galaxy view asks for a
+  // big slim page; the table pages 100 at a time.
+  decisions: (params = {}) => req(`/decisions?${new URLSearchParams(params).toString()}`),
   decisionFile: (name) => req(`/decisions/file?name=${encodeURIComponent(name)}`),
   ohlcv: (symbol, timeframe = "15m", limit = 120) =>
     req(`/ohlcv?symbol=${encodeURIComponent(symbol)}&timeframe=${timeframe}&limit=${limit}`),

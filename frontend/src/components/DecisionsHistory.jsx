@@ -67,13 +67,14 @@ function DecisionModal({ name, onClose }) {
 
 // Full history of every decision the agents have produced.
 export default function DecisionsHistory() {
-  const decisions = usePoll(api.decisions, 8000);
+  const decisions = usePoll(() => api.decisions({ limit: 50 }), 8000);
   const [selected, setSelected] = useState(null);
-  const rows = decisions.data || [];
+  const rows = decisions.data?.items || [];
+  const total = decisions.data?.total ?? rows.length;
 
   return (
     <div className="card">
-      <div className="card-title">All Decisions ({rows.length})</div>
+      <div className="card-title">All Decisions ({total})</div>
       <div className="overflow-x-auto max-h-80 overflow-y-auto">
         <table className="w-full">
           <thead className="sticky top-0 bg-ink-800"><tr>

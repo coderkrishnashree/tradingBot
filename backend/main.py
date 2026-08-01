@@ -399,9 +399,20 @@ def put_config(cfg: TradingConfig):
 # ---------------------------------------------------------------------------
 
 @app.get("/api/decisions")
-def get_decisions():
-    decisions_io.sync_index()   # pick up any newly-written files
-    return db.list_decisions()
+def get_decisions(limit: int = 100, offset: int = 0):
+    """Paginated decision index, newest first. Returns {items, total, limit,
+    offset}. The galaxy view asks for a big slim page (up to 2000); the table
+    pages through 100 at a time. sync_index is throttled internally so the
+    8s UI poll no longer re-parses thousands of files."""
+    decisions_io.sync_index()   # pick up any newly-written files (throttled)
+    limit = max(1, min(int(limit or 100), 2000))
+    offset = max(0, int(offset or 0))
+    return {
+        "items": db.list_decisions(limit=limit, offset=offset),
+        "total": db.count_decisions(),
+        "limit": limit,
+        "offset": offset,
+    }
 
 
 @app.get("/api/decisions/latest")

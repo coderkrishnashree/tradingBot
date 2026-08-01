@@ -69,12 +69,30 @@ def latest_transcript() -> dict | None:
     }
 
 
-def sync_index() -> int:
+_sync_state = {"ts": 0.0}
+_SYNC_MIN_INTERVAL_SEC = 30
+
+
+def sync_index(force: bool = False) -> int:
     """Make sure every decision file on disk is indexed in SQLite.
-    Returns how many new files were indexed. Cheap to call on each request.
+
+    2026-08 perf fix: the old version read AND json-parsed EVERY file on disk
+    on EVERY call — with 5,000+ decision files, polled every 8s by the UI,
+    that alone made the Debates tab crawl. Now we (a) throttle to once per
+    30s, and (b) only parse files whose names aren't already in the index.
+    Returns how many new files were indexed.
     """
+    import time
+    now = time.time()
+    if not force and now - _sync_state["ts"] < _SYNC_MIN_INTERVAL_SEC:
+        return 0
+    _sync_state["ts"] = now
+
+    known = db.known_decision_filenames()
     new = 0
     for f in _decision_files():
+        if f.name in known:
+            continue
         try:
             d = json.loads(f.read_text())
         except Exception:

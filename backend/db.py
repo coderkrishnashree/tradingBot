@@ -359,12 +359,27 @@ def index_decision(filename: str, action: str | None, symbol: str | None,
         return cur.lastrowid
 
 
-def list_decisions(limit: int = 50) -> list[dict]:
+def list_decisions(limit: int = 50, offset: int = 0) -> list[dict]:
     with get_conn() as conn:
         rows = conn.execute(
-            "SELECT * FROM decisions_log ORDER BY id DESC LIMIT ?", (limit,)
+            "SELECT * FROM decisions_log ORDER BY id DESC LIMIT ? OFFSET ?",
+            (limit, offset),
         ).fetchall()
         return [dict(r) for r in rows]
+
+
+def count_decisions() -> int:
+    with get_conn() as conn:
+        row = conn.execute("SELECT COUNT(*) AS n FROM decisions_log").fetchone()
+        return int(row["n"]) if row else 0
+
+
+def known_decision_filenames() -> set[str]:
+    """All indexed filenames — lets sync_index skip files it has already
+    parsed instead of re-reading thousands of JSON files per request."""
+    with get_conn() as conn:
+        rows = conn.execute("SELECT filename FROM decisions_log").fetchall()
+        return {r["filename"] for r in rows}
 
 
 def set_decision_status(filename: str, status: str):
