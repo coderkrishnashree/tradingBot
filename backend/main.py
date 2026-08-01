@@ -940,6 +940,40 @@ def claude_status():
 
 
 # ---------------------------------------------------------------------------
+#  Data export — download an analysis bundle for a custom date range
+# ---------------------------------------------------------------------------
+
+@app.get("/api/export")
+def export_bundle(start: str = "", end: str = ""):
+    """Build and stream a tar.gz of DB tables, Bybit closed-PnL + executions
+    (fetched with EXPLICIT 7-day windows — Bybit only returns ~7 days when no
+    startTime is given), decisions and the AI-debate log for [start, end]
+    (YYYY-MM-DD, UTC). Defaults: end=today, start=end-35d. Can take a minute —
+    it walks the whole range against Bybit for every configured environment."""
+    from fastapi.responses import FileResponse
+    from starlette.background import BackgroundTask
+    from . import export_data
+
+    try:
+        path = export_data.build_export(start, end)
+    except ValueError as e:
+        raise HTTPException(status_code=400, detail=str(e))
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Export failed: {e}")
+
+    def _cleanup(p=str(path)):
+        try:
+            os.remove(p)
+        except OSError:
+            pass
+
+    return FileResponse(
+        str(path), filename=path.name, media_type="application/gzip",
+        background=BackgroundTask(_cleanup),
+    )
+
+
+# ---------------------------------------------------------------------------
 #  Serve the built frontend (same origin) — so ONE port sits behind nginx.
 #  Only mounts if frontend/dist exists (i.e. you've run `npm run build`).
 #  This must be LAST so it doesn't shadow the /api routes above.

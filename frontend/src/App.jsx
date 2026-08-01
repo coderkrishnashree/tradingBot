@@ -15,6 +15,7 @@ import AutomationPanel from "./components/AutomationPanel";
 import AlertsFeed from "./components/AlertsFeed";
 import ConnectClaude from "./components/ConnectClaude";
 import PnlTab from "./components/PnlTab";
+import ExportPanel from "./components/ExportPanel";
 import TradesTab from "./components/TradesTab";
 import DebatesTab from "./components/DebatesTab";
 import BacktestTab from "./components/BacktestTab";
@@ -62,8 +63,9 @@ export default function App() {
         <div className="bg-ink-950/70 border-b border-white/[0.06] backdrop-blur-md px-4 py-2.5
                         flex items-center justify-between gap-4">
           <div className="flex items-center gap-3 min-w-0">
-            <span className="font-semibold tracking-tight text-slate-100 whitespace-nowrap pr-1">
-              <span className="text-accent">◆</span> FinalBot
+            <span className="font-display font-bold uppercase tracking-[0.2em] text-slate-100 whitespace-nowrap pr-1 glow-text">
+              <span className="text-accent animate-blink">◈</span> J.A.R.V.I.S
+              <span className="hidden sm:inline text-accent/50 text-[10px] tracking-[0.35em] pl-2 align-middle">// TRADING OS</span>
             </span>
             <nav className="flex gap-1 overflow-x-auto">
               {TABS.map((t) => (
@@ -101,6 +103,7 @@ export default function App() {
                 <RunAnalysis onRefresh={transcript.refresh} />
                 <ConfigPanel />
                 <LiveTradingSection mode={mode.data} onChange={refreshAll} />
+                <ExportPanel />
               </div>
             </div>
           </>
@@ -127,8 +130,8 @@ export default function App() {
 
         {tab === "Connect Claude" && <ConnectClaude />}
 
-        <footer className="text-center text-xs text-slate-600 py-4">
-          Layer 2 dashboard · default PAPER/testnet · live trading gated · AI runs in Claude Code on your subscription
+        <footer className="text-center text-[11px] font-mono uppercase tracking-[0.25em] text-accent/40 py-4">
+          ◈ J.A.R.V.I.S core online · default PAPER · live gated · AI cortex: Claude Code
         </footer>
       </div>
     </div>
