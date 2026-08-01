@@ -64,7 +64,7 @@ body::after {
 
 @layer components {
   .card {
-    @apply relative bg-ink-900/80 border border-accent/[0.14] rounded-lg p-5 shadow-card backdrop-blur-sm;
+    @apply relative bg-ink-900/55 border border-accent/[0.16] rounded-lg p-5 shadow-card backdrop-blur-md;
   }
   /* HUD corner brackets */
   .card::before,
@@ -122,7 +122,7 @@ body::after {
     @apply px-3 py-2.5 text-sm font-mono tabular-nums border-t border-accent/[0.07];
   }
   .metric {
-    @apply relative bg-ink-900/80 border border-accent/[0.14] rounded-lg p-4 shadow-card;
+    @apply relative bg-ink-900/55 border border-accent/[0.16] rounded-lg p-4 shadow-card backdrop-blur-md;
   }
   .metric::before {
     content: "";
@@ -147,4 +147,26 @@ body::after {
 @keyframes hud-blink {
   0%, 100% { opacity: 1; filter: drop-shadow(0 0 6px rgba(0, 229, 255, 0.9)); }
   50% { opacity: 0.35; filter: drop-shadow(0 0 2px rgba(0, 229, 255, 0.4)); }
+}
+
+/* --- Command-deck animations (arc reactor rings, radar sweep) ------------- */
+.reactor-spin,
+.reactor-spin-rev,
+.radar-sweep {
+  transform-origin: center;
+  transform-box: fill-box;
+}
+.reactor-spin { animation: holo-rotate 20s linear infinite; }
+.reactor-spin-rev { animation: holo-rotate 20s linear infinite reverse; }
+.radar-sweep { animation: holo-rotate 4s linear infinite; }
+
+@keyframes holo-rotate {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reactor-spin, .reactor-spin-rev, .radar-sweep, .animate-blink {
+    animation: none;
+  }
 }

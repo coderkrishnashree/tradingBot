@@ -17,6 +17,9 @@ import ConnectClaude from "./components/ConnectClaude";
 import PnlTab from "./components/PnlTab";
 import ExportPanel from "./components/ExportPanel";
 import ParticleField from "./components/ParticleField";
+import ArcReactor from "./components/ArcReactor";
+import RadarScope from "./components/RadarScope";
+import HudStatusBar from "./components/HudStatusBar";
 import TradesTab from "./components/TradesTab";
 import DebatesTab from "./components/DebatesTab";
 import BacktestTab from "./components/BacktestTab";
@@ -92,15 +95,23 @@ export default function App() {
       <div className="max-w-7xl mx-auto p-4 sm:p-6 space-y-5">
         {tab === "Overview" && (
           <>
-            <PortfolioOverview portfolio={portfolio.data} />
-            <StatsPanel />
+            <HudStatusBar mode={mode.data} positions={positions.data}
+                          scan={scan.data} alerts={alerts.data} />
+            <div className="grid lg:grid-cols-3 gap-4">
+              <ArcReactor portfolio={portfolio.data} mode={mode.data} />
+              <div className="lg:col-span-2 space-y-4">
+                <PortfolioOverview portfolio={portfolio.data} />
+                <StatsPanel />
+              </div>
+            </div>
+            <Charts equity={equity.data} />
             <div className="grid lg:grid-cols-3 gap-4">
               <div className="lg:col-span-2 space-y-4">
-                <Charts equity={equity.data} />
                 <PositionsTable positions={positions.data} />
                 <OrderHistory orders={orders.data} />
               </div>
               <div className="space-y-4">
+                <RadarScope scan={scan.data} />
                 <KillSwitch mode={mode.data} onChange={mode.refresh} />
                 <RunAnalysis onRefresh={transcript.refresh} />
                 <ConfigPanel />

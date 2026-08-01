@@ -4,9 +4,9 @@ import { useEffect, useRef } from "react";
 // the "reels" look. Sits behind all content; pauses on hidden tabs (rAF) and
 // renders a single static frame for prefers-reduced-motion users.
 const ACCENT = "0, 229, 255";
-const N_DESKTOP = 70;
-const N_MOBILE = 36;
-const LINK_DIST = 130;
+const N_DESKTOP = 120;
+const N_MOBILE = 50;
+const LINK_DIST = 160;
 
 export default function ParticleField() {
   const ref = useRef(null);
@@ -48,7 +48,7 @@ export default function ParticleField() {
           const dx = a.x - b.x, dy = a.y - b.y;
           const d2 = dx * dx + dy * dy;
           if (d2 < LINK_DIST * LINK_DIST) {
-            const alpha = (1 - Math.sqrt(d2) / LINK_DIST) * 0.16;
+            const alpha = (1 - Math.sqrt(d2) / LINK_DIST) * 0.28;
             ctx.strokeStyle = `rgba(${ACCENT}, ${alpha})`;
             ctx.lineWidth = 1;
             ctx.beginPath();
@@ -65,9 +65,9 @@ export default function ParticleField() {
         const tw = 0.55 + 0.45 * Math.sin(p.tw + t / 900);
         ctx.beginPath();
         ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
-        ctx.fillStyle = `rgba(${ACCENT}, ${0.5 * tw})`;
+        ctx.fillStyle = `rgba(${ACCENT}, ${0.75 * tw})`;
         ctx.shadowColor = `rgba(${ACCENT}, 0.9)`;
-        ctx.shadowBlur = 6 * tw;
+        ctx.shadowBlur = 9 * tw;
         ctx.fill();
         ctx.shadowBlur = 0;
       }
