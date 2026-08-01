@@ -24,6 +24,8 @@ import ParticleField from "./components/ParticleField";
 import ArcReactor from "./components/ArcReactor";
 import RadarScope from "./components/RadarScope";
 import HudStatusBar from "./components/HudStatusBar";
+import ExecutionLog from "./components/ExecutionLog";
+import StreakPanel from "./components/StreakPanel";
 
 const TABS = ["Overview", "P&L", "Trades", "Debates", "Scanner", "Backtest", "Automation", "Alerts", "Connect Claude"];
 
@@ -110,7 +112,7 @@ export default function App() {
         {tab === "Overview" && isUniverse && (
           <>
             <HudStatusBar mode={mode.data} positions={positions.data}
-                          scan={scan.data} alerts={alerts.data} />
+                          scan={scan.data} alerts={alerts.data} portfolio={portfolio.data} />
             <div className="grid lg:grid-cols-3 gap-4">
               <ArcReactor portfolio={portfolio.data} mode={mode.data} />
               <div className="lg:col-span-2 space-y-4">
@@ -125,6 +127,7 @@ export default function App() {
                 <OrderHistory orders={orders.data} />
               </div>
               <div className="space-y-4">
+                <StreakPanel />
                 <RadarScope scan={scan.data} />
                 <KillSwitch mode={mode.data} onChange={mode.refresh} />
                 <RunAnalysis onRefresh={transcript.refresh} />
@@ -133,6 +136,7 @@ export default function App() {
                 <ExportPanel />
               </div>
             </div>
+            <ExecutionLog alerts={alerts.data} />
           </>
         )}
 

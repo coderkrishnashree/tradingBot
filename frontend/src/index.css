@@ -11,22 +11,24 @@
 
 :root,
 :root[data-theme="universe"] {
-  --ink-950: 5 2 18;        /* deepest void */
-  --ink-900: 13 9 38;       /* card base    */
-  --ink-850: 19 14 52;      /* raised       */
-  --ink-800: 27 20 70;      /* hover/input  */
-  --ink-700: 42 33 96;      /* chips/border */
-  --ink-600: 64 52 136;
-  --accent: 167 139 250;    /* nebula violet */
-  --accent-2: 103 232 249;  /* star cyan     */
-  --up: 52 211 153;         /* aurora green  */
-  --down: 251 113 133;      /* nova rose     */
-  --card-alpha: 0.42;
-  --card-blur: 14px;
-  --card-radius: 1rem;
-  --shadow-card: 0 0 0 1px rgb(var(--accent) / 0.07) inset,
-                 0 0 34px -12px rgb(var(--accent) / 0.28),
-                 0 12px 32px -16px rgba(0, 0, 0, 0.9);
+  /* "Reel quant terminal in space": near-black void, neon magenta panels,
+     mint profit green, floating multicolor data-motes. */
+  --ink-950: 5 5 9;         /* deepest void */
+  --ink-900: 10 10 17;      /* card base    */
+  --ink-850: 15 15 24;      /* raised       */
+  --ink-800: 21 21 33;      /* hover/input  */
+  --ink-700: 36 36 52;      /* chips/border */
+  --ink-600: 58 58 80;
+  --accent: 255 62 165;     /* neon magenta  */
+  --accent-2: 45 212 191;   /* signal teal   */
+  --up: 0 224 138;          /* mint profit   */
+  --down: 255 71 87;        /* loss red      */
+  --card-alpha: 0.55;
+  --card-blur: 10px;
+  --card-radius: 0.5rem;
+  --shadow-card: 0 0 0 1px rgb(var(--accent) / 0.08) inset,
+                 0 0 26px -10px rgb(var(--accent) / 0.35),
+                 0 12px 32px -16px rgba(0, 0, 0, 0.95);
 }
 
 :root[data-theme="table"] {
@@ -58,12 +60,13 @@ body {
   background-attachment: fixed;
 }
 
-/* Universe: nebula wash behind everything (the star canvas draws on top). */
+/* Universe: faint neon washes over the black void (motes draw on top). */
 :root[data-theme="universe"] body {
+  @apply font-mono;          /* the reel look is mono everywhere */
   background:
-    radial-gradient(1100px 700px at 12% -12%, rgb(var(--accent) / 0.13), transparent 60%),
-    radial-gradient(900px 600px at 105% 8%, rgb(var(--accent-2) / 0.07), transparent 55%),
-    radial-gradient(1300px 800px at 50% 118%, rgba(120, 60, 220, 0.10), transparent 62%),
+    radial-gradient(1100px 700px at 10% -12%, rgb(var(--accent) / 0.07), transparent 60%),
+    radial-gradient(900px 600px at 105% 10%, rgb(var(--accent-2) / 0.05), transparent 55%),
+    radial-gradient(1200px 800px at 50% 120%, rgb(var(--up) / 0.05), transparent 62%),
     rgb(var(--ink-950));
   background-attachment: fixed;
 }
@@ -95,6 +98,10 @@ body {
     border: 1px solid rgb(var(--accent) / 0.14);
     box-shadow: var(--shadow-card);
     backdrop-filter: blur(var(--card-blur));
+  }
+  /* Reel-style panels: bright neon frame */
+  :root[data-theme="universe"] .card {
+    border-color: rgb(var(--accent) / 0.40);
   }
   :root[data-theme="table"] .card {
     border-color: rgb(var(--ink-700) / 0.8);
@@ -162,6 +169,9 @@ body {
     border: 1px solid rgb(var(--accent) / 0.14);
     box-shadow: var(--shadow-card);
     backdrop-filter: blur(var(--card-blur));
+  }
+  :root[data-theme="universe"] .metric {
+    border-color: rgb(var(--accent) / 0.40);
   }
   :root[data-theme="table"] .metric { border-color: rgb(var(--ink-700) / 0.8); }
   :root[data-theme="universe"] .metric::before {

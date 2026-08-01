@@ -1,10 +1,10 @@
 import { useEffect, useRef } from "react";
 import { useTheme, tokenRGB } from "../theme";
 
-// Deep-space starfield: three parallax layers of drifting stars in starlight
-// white, nebula violet and star cyan, plus an occasional shooting star.
-// Rendered only in the universe theme. Static single frame when the user
-// prefers reduced motion.
+// Floating data-motes: multicolor market dust (profit green, loss red, neon
+// magenta, signal teal, white) drifting in depth over the black void — the
+// reel look. Near motes are bigger, brighter and faster (parallax). Universe
+// theme only; a static frame under prefers-reduced-motion.
 export default function ParticleField() {
   const ref = useRef(null);
   const { theme } = useTheme();
@@ -16,33 +16,38 @@ export default function ParticleField() {
     const ctx = canvas.getContext("2d");
     const reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
     let w, h, dpr, raf;
-    let stars = [];
-    let meteor = null;
-    let nextMeteor = 4000;
+    let motes = [];
 
-    const COLORS = [
-      "226,232,255",                                   // starlight
-      tokenRGB("--accent", 1).slice(5, -3),            // violet "r,g,b"
-      tokenRGB("--accent-2", 1).slice(5, -3),          // cyan
-    ];
+    const trip = (name) => tokenRGB(name, 1).slice(5, -3);
+    // Weighted palette — mostly dim white/teal dust, punctuated by neon marks.
+    const PALETTE = [
+      ["226,232,240", 5],          // white dust
+      [trip("--accent-2"), 3],     // teal
+      [trip("--up"), 2],           // mint
+      [trip("--down"), 2],         // red
+      [trip("--accent"), 2],       // magenta
+      ["245,158,11", 1],           // amber
+    ].flatMap(([c, n]) => Array(n).fill(c));
 
     function resize() {
       dpr = Math.min(window.devicePixelRatio || 1, 2);
       w = canvas.clientWidth; h = canvas.clientHeight;
       canvas.width = w * dpr; canvas.height = h * dpr;
       ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
-      const n = w < 640 ? 90 : 190;
-      if (stars.length !== n) {
-        stars = Array.from({ length: n }, (_, i) => {
-          const layer = i % 3;                          // 0 far … 2 near
+      const n = w < 640 ? 110 : 240;
+      if (motes.length !== n) {
+        motes = Array.from({ length: n }, (_, i) => {
+          const z = 0.25 + Math.random() * 0.75;        // depth 0..1 (near=1)
           return {
             x: Math.random() * w,
             y: Math.random() * h,
-            v: 0.015 + layer * 0.03,                    // parallax drift
-            r: 0.4 + layer * 0.55 + Math.random() * 0.7,
-            c: COLORS[i % 7 === 0 ? 1 : i % 11 === 0 ? 2 : 0],
+            z,
+            vx: (Math.random() - 0.5) * 0.22 * z,
+            vy: (Math.random() - 0.5) * 0.16 * z,
+            r: (0.6 + Math.random() * 1.7) * z,
+            c: PALETTE[i % PALETTE.length],
             tw: Math.random() * Math.PI * 2,
-            ts: 0.6 + Math.random() * 1.2,              // twinkle speed
+            ts: 0.5 + Math.random() * 1.4,
           };
         });
       }
@@ -50,48 +55,19 @@ export default function ParticleField() {
 
     function frame(t) {
       ctx.clearRect(0, 0, w, h);
-      for (const s of stars) {
-        s.x -= s.v; s.y += s.v * 0.35;
-        if (s.x < -4) { s.x = w + 4; s.y = Math.random() * h; }
-        if (s.y > h + 4) s.y = -4;
-        const tw = 0.45 + 0.55 * (0.5 + 0.5 * Math.sin(s.tw + (t / 1000) * s.ts));
+      for (const m of motes) {
+        m.x += m.vx; m.y += m.vy;
+        if (m.x < -6) m.x = w + 6; else if (m.x > w + 6) m.x = -6;
+        if (m.y < -6) m.y = h + 6; else if (m.y > h + 6) m.y = -6;
+        const tw = 0.4 + 0.6 * (0.5 + 0.5 * Math.sin(m.tw + (t / 1000) * m.ts));
+        const a = (0.25 + 0.6 * m.z) * tw;
         ctx.beginPath();
-        ctx.arc(s.x, s.y, s.r, 0, Math.PI * 2);
-        ctx.fillStyle = `rgba(${s.c},${0.75 * tw})`;
-        ctx.shadowColor = `rgba(${s.c},0.9)`;
-        ctx.shadowBlur = s.r * 4 * tw;
+        ctx.arc(m.x, m.y, m.r, 0, Math.PI * 2);
+        ctx.fillStyle = `rgba(${m.c},${a})`;
+        ctx.shadowColor = `rgba(${m.c},0.9)`;
+        ctx.shadowBlur = 5 * m.z * tw;
         ctx.fill();
         ctx.shadowBlur = 0;
-      }
-
-      // shooting star
-      if (!reduced) {
-        if (!meteor && t > nextMeteor) {
-          const fromTop = Math.random() > 0.5;
-          meteor = {
-            x: Math.random() * w * 0.7 + w * 0.2,
-            y: fromTop ? -10 : Math.random() * h * 0.3,
-            vx: -(3.5 + Math.random() * 3),
-            vy: 2 + Math.random() * 2,
-            life: 1,
-          };
-          nextMeteor = t + 6000 + Math.random() * 9000;
-        }
-        if (meteor) {
-          meteor.x += meteor.vx; meteor.y += meteor.vy;
-          meteor.life -= 0.016;
-          const grad = ctx.createLinearGradient(
-            meteor.x, meteor.y, meteor.x - meteor.vx * 14, meteor.y - meteor.vy * 14);
-          grad.addColorStop(0, `rgba(226,232,255,${0.9 * meteor.life})`);
-          grad.addColorStop(1, "rgba(226,232,255,0)");
-          ctx.strokeStyle = grad;
-          ctx.lineWidth = 1.6;
-          ctx.beginPath();
-          ctx.moveTo(meteor.x, meteor.y);
-          ctx.lineTo(meteor.x - meteor.vx * 14, meteor.y - meteor.vy * 14);
-          ctx.stroke();
-          if (meteor.life <= 0 || meteor.x < -60 || meteor.y > h + 60) meteor = null;
-        }
       }
       if (!reduced) raf = requestAnimationFrame(frame);
     }

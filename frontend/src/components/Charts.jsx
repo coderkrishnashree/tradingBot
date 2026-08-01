@@ -107,8 +107,9 @@ export default function Charts({ equity }) {
                 datasets: [
                   {
                     data: eq,
-                    borderColor: tokenRGB("--accent", 1),
-                    backgroundColor: gradientFill(triplet("--accent"), isUniverse),
+                    // Rising green equity — profit color, like the reel.
+                    borderColor: tokenRGB("--up", 1),
+                    backgroundColor: gradientFill(triplet("--up"), isUniverse),
                     fill: true,
                     tension: 0.3,
                     borderWidth: 2,
