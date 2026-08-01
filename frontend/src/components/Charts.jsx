@@ -9,57 +9,41 @@ import {
   Tooltip,
 } from "chart.js";
 import { fmt } from "../api";
+import { useTheme, tokenRGB } from "../theme";
 
 ChartJS.register(LineElement, PointElement, LinearScale, CategoryScale, Filler, Tooltip);
 
-// Neon glow for the line itself — drawn with a canvas shadow, restored after.
+// Optional line glow — blur amount comes from options.plugins.holoGlow.blur
+// (0 in the table theme: crisp lines, no effects).
 const glowPlugin = {
   id: "holoGlow",
   beforeDatasetDraw(chart, args) {
+    const blur = chart.options?.plugins?.holoGlow?.blur ?? 0;
+    if (!blur) return;
     const c = chart.ctx;
     c.save();
     const ds = chart.data.datasets[args.index] || {};
-    c.shadowColor = typeof ds.borderColor === "string" ? ds.borderColor : "rgba(0,229,255,0.8)";
-    c.shadowBlur = 8;
+    c.shadowColor = typeof ds.borderColor === "string" ? ds.borderColor : tokenRGB("--accent", 0.8);
+    c.shadowBlur = blur;
   },
   afterDatasetDraw(chart) {
-    chart.ctx.restore();
+    const blur = chart.options?.plugins?.holoGlow?.blur ?? 0;
+    if (blur) chart.ctx.restore();
   },
 };
 ChartJS.register(glowPlugin);
 
-const baseOpts = {
-  responsive: true,
-  maintainAspectRatio: false,
-  plugins: {
-    legend: { display: false },
-    tooltip: {
-      mode: "index",
-      intersect: false,
-      backgroundColor: "rgba(4,16,26,0.92)",
-      borderColor: "rgba(0,229,255,0.35)",
-      borderWidth: 1,
-      titleColor: "#7df9ff",
-      bodyColor: "#e2e8f0",
-      titleFont: { family: "'Share Tech Mono', monospace" },
-      bodyFont: { family: "'Share Tech Mono', monospace" },
-    },
-  },
-  scales: {
-    x: { ticks: { color: "#5b7a8c", maxTicksLimit: 6 }, grid: { color: "rgba(0,229,255,0.05)" } },
-    y: { ticks: { color: "#5b7a8c" }, grid: { color: "rgba(0,229,255,0.05)" } },
-  },
-  elements: { point: { radius: 0, hoverRadius: 4, hoverBackgroundColor: "#00e5ff" } },
-};
+// "R G B" token triplet → "r,g,b" (for rgba gradients)
+const triplet = (name) => tokenRGB(name, 1).slice(5, -3);
 
 // Vertical gradient fill under a line: color → transparent.
-function gradientFill(rgb) {
+function gradientFill(rgb, strong) {
   return (ctx) => {
     const { chart } = ctx;
     const { ctx: c, chartArea } = chart;
     if (!chartArea) return `rgba(${rgb},0.1)`;
     const g = c.createLinearGradient(0, chartArea.top, 0, chartArea.bottom);
-    g.addColorStop(0, `rgba(${rgb},0.28)`);
+    g.addColorStop(0, `rgba(${rgb},${strong ? 0.28 : 0.16})`);
     g.addColorStop(1, `rgba(${rgb},0.0)`);
     return g;
   };
@@ -78,12 +62,39 @@ function derive(equityRows) {
 }
 
 export default function Charts({ equity }) {
+  const { theme, isUniverse } = useTheme();
   const rows = equity || [];
   const { labels, equity: eq, drawdown } = derive(rows);
   const empty = rows.length === 0;
 
+  const grid = tokenRGB("--accent", 0.06);
+  const opts = {
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: {
+      legend: { display: false },
+      holoGlow: { blur: isUniverse ? 8 : 0 },
+      tooltip: {
+        mode: "index",
+        intersect: false,
+        backgroundColor: tokenRGB("--ink-950", 0.92),
+        borderColor: tokenRGB("--accent", 0.35),
+        borderWidth: 1,
+        titleColor: tokenRGB("--accent-2", 1),
+        bodyColor: "#e2e8f0",
+        titleFont: { family: "'JetBrains Mono', monospace" },
+        bodyFont: { family: "'JetBrains Mono', monospace" },
+      },
+    },
+    scales: {
+      x: { ticks: { color: "#8494ab", maxTicksLimit: 6 }, grid: { color: grid } },
+      y: { ticks: { color: "#8494ab" }, grid: { color: grid } },
+    },
+    elements: { point: { radius: 0, hoverRadius: 4, hoverBackgroundColor: tokenRGB("--accent", 1) } },
+  };
+
   return (
-    <div className="grid lg:grid-cols-2 gap-4">
+    <div className="grid lg:grid-cols-2 gap-4" key={theme}>
       <div className="card">
         <div className="card-title">Equity Curve</div>
         <div className="h-56">
@@ -96,15 +107,15 @@ export default function Charts({ equity }) {
                 datasets: [
                   {
                     data: eq,
-                    borderColor: "#00e5ff",
-                    backgroundColor: gradientFill("0,229,255"),
+                    borderColor: tokenRGB("--accent", 1),
+                    backgroundColor: gradientFill(triplet("--accent"), isUniverse),
                     fill: true,
                     tension: 0.3,
                     borderWidth: 2,
                   },
                 ],
               }}
-              options={baseOpts}
+              options={opts}
             />
           )}
         </div>
@@ -122,15 +133,15 @@ export default function Charts({ equity }) {
                 datasets: [
                   {
                     data: drawdown,
-                    borderColor: "#ff3b5c",
-                    backgroundColor: gradientFill("255,59,92"),
+                    borderColor: tokenRGB("--down", 1),
+                    backgroundColor: gradientFill(triplet("--down"), isUniverse),
                     fill: true,
                     tension: 0.3,
                     borderWidth: 2,
                   },
                 ],
               }}
-              options={baseOpts}
+              options={opts}
             />
           )}
         </div>

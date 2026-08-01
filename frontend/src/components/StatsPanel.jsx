@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { api, usePoll, fmt } from "../api";
 import HoloGauge from "./HoloGauge";
+import { useTheme } from "../theme";
 
 const PERIODS = [
   { key: "today", label: "Today" },
@@ -15,6 +16,7 @@ const PERIODS = [
 // NOTE: closed-trade stats now cover the full 35-day lookback (the old code
 // silently saw only Bybit's default ~7-day window).
 export default function StatsPanel() {
+  const { isUniverse } = useTheme();
   const [period, setPeriod] = useState("all");
   const [start, setStart] = useState("");
   const [end, setEnd] = useState("");
@@ -33,6 +35,11 @@ export default function StatsPanel() {
     { label: "Max Drawdown", value: fmt.pct(s.max_drawdown_pct), color: "text-down" },
     { label: "Closed Trades", value: s.num_closed_trades ?? 0 },
   ];
+  if (!isUniverse) {
+    tiles.splice(2, 0,
+      { label: "Win Rate", value: fmt.pct(s.win_rate_pct, 1) },
+      { label: "Profit Factor", value: pf ?? "—", color: (pf || 0) >= 1 ? "text-up" : "text-down" });
+  }
 
   return (
     <div className="card">
@@ -56,6 +63,7 @@ export default function StatsPanel() {
       </div>
 
       <div className="flex flex-wrap items-center gap-5">
+        {isUniverse && (
         <div className="flex gap-4">
           <HoloGauge
             value={s.win_rate_pct ?? 0}
@@ -72,12 +80,12 @@ export default function StatsPanel() {
             color={(pf || 0) >= 1 ? "up" : "down"}
           />
         </div>
-        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3 flex-1 min-w-[240px]">
+        )}
+        <div className={`grid grid-cols-2 sm:grid-cols-3 gap-3 flex-1 min-w-[240px] ${isUniverse ? "lg:grid-cols-5" : "lg:grid-cols-7"}`}>
           {tiles.map((it) => (
             <div key={it.label}>
               <div className="text-xs text-slate-500">{it.label}</div>
-              <div className={`text-xl font-mono font-bold ${it.color || "text-slate-100"}`}
-                   style={{ textShadow: "0 0 12px rgba(0,229,255,0.15)" }}>
+              <div className={`text-xl font-mono font-bold ${it.color || "text-slate-100"}`}>
                 {it.value}
               </div>
             </div>

@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from "react";
+import { useTheme, tokenRGB } from "../theme";
 
 // ─────────────────────────────────────────────────────────────────────────────
 // THE DECISION UNIVERSE
@@ -11,13 +12,12 @@ import { useEffect, useMemo, useRef, useState } from "react";
 // the full debate. Pure canvas — handles thousands of stars at 60fps.
 // ─────────────────────────────────────────────────────────────────────────────
 
-const ACTION_COLOR = {
-  buy: "0,255,163",
-  short: "255,59,92",
-  sell: "255,59,92",
-  close: "245,158,11",
-  hold: "120,160,190",
-};
+// action → "r,g,b" — semantic colors resolved from the active theme's tokens.
+function actionColors() {
+  const up = tokenRGB("--up", 1).slice(5, -3);
+  const down = tokenRGB("--down", 1).slice(5, -3);
+  return { buy: up, short: down, sell: down, close: "245,158,11", hold: "132,150,190" };
+}
 const GOLDEN = 2.39996;
 
 function hash(s) {
@@ -29,6 +29,7 @@ function hash(s) {
 // Build world-space layout: symbol galaxies on a golden-angle spiral,
 // each decision a star spiralling outward from its core by recency.
 function buildUniverse(items) {
+  const ACTION_COLOR = actionColors();
   const bySym = new Map();
   for (const d of items) {                       // items are newest-first
     const sym = d.symbol || "??";
@@ -75,7 +76,8 @@ function buildUniverse(items) {
 
 export default function DebatesGalaxy({ items, onPick, loading, onRefresh, total }) {
   const canvasRef = useRef(null);
-  const world = useMemo(() => buildUniverse(items || []), [items]);
+  const { theme } = useTheme();
+  const world = useMemo(() => buildUniverse(items || []), [items, theme]);
   const view = useRef({ tx: 0, ty: 0, scale: 0.9, drag: null });
   const hoverRef = useRef(null);
   const [tip, setTip] = useState(null);
@@ -106,8 +108,10 @@ export default function DebatesGalaxy({ items, onPick, loading, onRefresh, total
       ctx.clearRect(0, 0, w, h);
 
       // nebulae
+      const nebA = tokenRGB("--accent", 1).slice(5, -3);
+      const nebB = tokenRGB("--accent-2", 1).slice(5, -3);
       for (const [nx, ny, nr, col] of [
-        [-320, -180, 500, "0,229,255"], [380, 240, 560, "120,60,255"], [60, -420, 420, "0,255,163"],
+        [-320, -180, 500, nebA], [380, 240, 560, "120,60,255"], [60, -420, 420, nebB],
       ]) {
         const [sx, sy] = toScreen(nx, ny);
         const g = ctx.createRadialGradient(sx, sy, 0, sx, sy, nr * v.scale);
@@ -131,18 +135,18 @@ export default function DebatesGalaxy({ items, onPick, loading, onRefresh, total
         const [sx, sy] = toScreen(g.x, g.y);
         if (sx < -260 || sx > w + 260 || sy < -260 || sy > h + 260) continue;
         const maxR = (16 + 5.2 * Math.sqrt(Math.min(g.n, 400)) * 2.1) * v.scale;
-        ctx.strokeStyle = "rgba(0,229,255,0.07)";
+        ctx.strokeStyle = tokenRGB("--accent", 0.08);
         ctx.lineWidth = 1;
         for (const rr of [0.45, 0.75, 1]) {
           ctx.beginPath(); ctx.arc(sx, sy, maxR * rr, 0, Math.PI * 2); ctx.stroke();
         }
         ctx.beginPath();
         ctx.arc(sx, sy, 4.5, 0, Math.PI * 2);
-        ctx.fillStyle = "rgba(125,249,255,0.95)";
-        ctx.shadowColor = "rgba(0,229,255,1)"; ctx.shadowBlur = 14;
+        ctx.fillStyle = tokenRGB("--accent-2", 0.95);
+        ctx.shadowColor = tokenRGB("--accent", 1); ctx.shadowBlur = 14;
         ctx.fill(); ctx.shadowBlur = 0;
-        ctx.font = "600 11px Orbitron, monospace";
-        ctx.fillStyle = "rgba(148,190,210,0.85)";
+        ctx.font = "600 11px 'Space Grotesk', monospace";
+        ctx.fillStyle = "rgba(160,175,205,0.9)";
         ctx.textAlign = "center";
         ctx.fillText(`${g.short} · ${g.n}`, sx, sy - maxR - 8);
       }

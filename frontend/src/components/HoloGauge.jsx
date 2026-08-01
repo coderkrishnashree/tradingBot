@@ -1,14 +1,10 @@
 import { useEffect, useRef, useState } from "react";
+import { useTheme, tokenRGB } from "../theme";
 
-// Radial holo gauge: glowing sweep arc + big mono number. `value` in [0, max].
-// color: "accent" | "up" | "down" (falls back to accent).
-const COLORS = {
-  accent: "#00e5ff",
-  up: "#00ffa3",
-  down: "#ff3b5c",
-};
-
+// Radial gauge: glowing sweep arc + big mono number. `value` in [0, max].
+// color: "accent" | "up" | "down" — resolved through theme tokens.
 export default function HoloGauge({ value, max = 100, label, display, color = "accent", size = 118 }) {
+  const { theme, isUniverse } = useTheme();
   const v = Math.max(0, Math.min(1, (Number(value) || 0) / max));
   const [sweep, setSweep] = useState(0);
   const rafRef = useRef();
@@ -28,7 +24,8 @@ export default function HoloGauge({ value, max = 100, label, display, color = "a
     return () => cancelAnimationFrame(rafRef.current);
   }, [v]);
 
-  const c = COLORS[color] || COLORS.accent;
+  const token = color === "up" ? "--up" : color === "down" ? "--down" : "--accent";
+  const c = tokenRGB(token, 1);
   const r = 44;
   const circ = 2 * Math.PI * r;
   const gap = 0.25;                       // bottom gap (fraction of circle)
@@ -37,11 +34,11 @@ export default function HoloGauge({ value, max = 100, label, display, color = "a
   const rot = 90 + (gap * 360) / 2;       // open the gap at the bottom
 
   return (
-    <div className="flex flex-col items-center" style={{ width: size }}>
+    <div className="flex flex-col items-center" style={{ width: size }} key={theme}>
       <div className="relative" style={{ width: size, height: size }}>
         <svg viewBox="0 0 110 110" width={size} height={size}>
           {/* track */}
-          <circle cx="55" cy="55" r={r} fill="none" stroke="rgba(0,229,255,0.10)"
+          <circle cx="55" cy="55" r={r} fill="none" stroke={tokenRGB("--accent", 0.12)}
                   strokeWidth="6" strokeLinecap="round"
                   strokeDasharray={`${track} ${circ}`}
                   transform={`rotate(${rot} 55 55)`} />
@@ -61,11 +58,10 @@ export default function HoloGauge({ value, max = 100, label, display, color = "a
                   strokeWidth="6" strokeLinecap="round"
                   strokeDasharray={`${arc} ${circ}`}
                   transform={`rotate(${rot} 55 55)`}
-                  style={{ filter: `drop-shadow(0 0 6px ${c})` }} />
+                  style={isUniverse ? { filter: `drop-shadow(0 0 6px ${c})` } : undefined} />
         </svg>
         <div className="absolute inset-0 flex flex-col items-center justify-center">
-          <span className="font-mono font-bold text-xl tabular-nums text-slate-100"
-                style={{ textShadow: `0 0 14px ${c}66` }}>
+          <span className="font-mono font-bold text-xl tabular-nums text-slate-100">
             {display ?? value}
           </span>
         </div>

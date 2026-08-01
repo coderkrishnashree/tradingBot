@@ -17,7 +17,10 @@ export default function ModeBanner({ mode }) {
           ? "bg-gradient-to-r from-down/80 via-down to-down/80 text-white"
           : "bg-gradient-to-r from-up/70 via-up to-up/70 text-black"
       }`}
-      style={live ? { textShadow: "0 0 12px rgba(255,255,255,0.6)" } : undefined}
+      style={{
+        backgroundColor: "rgb(var(--ink-950))",   // opaque base under the gradient
+        ...(live ? { textShadow: "0 0 12px rgba(255,255,255,0.6)" } : {}),
+      }}
     >
       <span className={`h-2 w-2 rounded-full ${live ? "bg-white" : "bg-black/70"} animate-pulse`} />
       {live ? "⚠ LIVE · REAL FUNDS" : paperLabel}

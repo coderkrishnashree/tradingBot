@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { api, usePoll } from "./api";
+import { useTheme, ThemeToggle } from "./theme";
 import ModeBanner from "./components/ModeBanner";
 import KillSwitch from "./components/KillSwitch";
 import PortfolioOverview from "./components/PortfolioOverview";
@@ -15,14 +16,14 @@ import AutomationPanel from "./components/AutomationPanel";
 import AlertsFeed from "./components/AlertsFeed";
 import ConnectClaude from "./components/ConnectClaude";
 import PnlTab from "./components/PnlTab";
+import TradesTab from "./components/TradesTab";
+import DebatesTab from "./components/DebatesTab";
+import BacktestTab from "./components/BacktestTab";
 import ExportPanel from "./components/ExportPanel";
 import ParticleField from "./components/ParticleField";
 import ArcReactor from "./components/ArcReactor";
 import RadarScope from "./components/RadarScope";
 import HudStatusBar from "./components/HudStatusBar";
-import TradesTab from "./components/TradesTab";
-import DebatesTab from "./components/DebatesTab";
-import BacktestTab from "./components/BacktestTab";
 
 const TABS = ["Overview", "P&L", "Trades", "Debates", "Scanner", "Backtest", "Automation", "Alerts", "Connect Claude"];
 
@@ -36,10 +37,11 @@ function HeaderKill({ mode, onChange }) {
   if (mode?.kill_switch_active) {
     return <button onClick={reset} className="btn bg-ink-700 hover:bg-ink-600 text-down text-sm">⛔ Halted — reset</button>;
   }
-  return <button onClick={engage} className="btn bg-down hover:bg-red-600 text-white text-sm">⛔ KILL</button>;
+  return <button onClick={engage} className="btn bg-down hover:opacity-90 text-white text-sm">⛔ KILL</button>;
 }
 
 export default function App() {
+  const { isUniverse } = useTheme();
   // Persist the active tab so a browser refresh stays on the same tab.
   const [tab, setTabState] = useState(() => localStorage.getItem("activeTab") || "Overview");
   const setTab = (t) => { localStorage.setItem("activeTab", t); setTabState(t); };
@@ -65,19 +67,28 @@ export default function App() {
       <ParticleField />
       <div className="sticky top-0 z-20">
         <ModeBanner mode={mode.data} />
-        <div className="bg-ink-950/70 border-b border-white/[0.06] backdrop-blur-md px-4 py-2.5
+        <div className="bg-ink-950/70 border-b border-accent/10 backdrop-blur-md px-4 py-2.5
                         flex items-center justify-between gap-4">
           <div className="flex items-center gap-3 min-w-0">
-            <span className="font-display font-bold uppercase tracking-[0.2em] text-slate-100 whitespace-nowrap pr-1 glow-text">
-              <span className="text-accent animate-blink">◈</span> J.A.R.V.I.S
-              <span className="hidden sm:inline text-accent/50 text-[10px] tracking-[0.35em] pl-2 align-middle">// TRADING OS</span>
-            </span>
+            {isUniverse ? (
+              <span className="font-display font-bold tracking-[0.14em] whitespace-nowrap pr-1 uppercase">
+                <span className="text-accent">✦</span>{" "}
+                <span className="aurora-text">FinalBot</span>
+                <span className="hidden sm:inline text-slate-500 text-[10px] tracking-[0.3em] pl-2 align-middle">
+                  TRADING UNIVERSE
+                </span>
+              </span>
+            ) : (
+              <span className="font-display font-semibold tracking-tight text-slate-100 whitespace-nowrap pr-1">
+                <span className="text-accent">◆</span> FinalBot
+              </span>
+            )}
             <nav className="flex gap-1 overflow-x-auto">
               {TABS.map((t) => (
                 <button
                   key={t}
                   onClick={() => setTab(t)}
-                  className={`px-3.5 py-1.5 rounded-lg text-sm font-medium whitespace-nowrap transition-all ${
+                  className={`px-3.5 py-1.5 rounded-lg text-sm font-medium whitespace-nowrap transition-all cursor-pointer ${
                     tab === t
                       ? "bg-accent/15 text-accent ring-1 ring-accent/30"
                       : "text-slate-400 hover:text-slate-100 hover:bg-white/[0.05]"
@@ -88,12 +99,15 @@ export default function App() {
               ))}
             </nav>
           </div>
-          <HeaderKill mode={mode.data} onChange={mode.refresh} />
+          <div className="flex items-center gap-3">
+            <ThemeToggle />
+            <HeaderKill mode={mode.data} onChange={mode.refresh} />
+          </div>
         </div>
       </div>
 
       <div className="max-w-7xl mx-auto p-4 sm:p-6 space-y-5">
-        {tab === "Overview" && (
+        {tab === "Overview" && isUniverse && (
           <>
             <HudStatusBar mode={mode.data} positions={positions.data}
                           scan={scan.data} alerts={alerts.data} />
@@ -112,6 +126,27 @@ export default function App() {
               </div>
               <div className="space-y-4">
                 <RadarScope scan={scan.data} />
+                <KillSwitch mode={mode.data} onChange={mode.refresh} />
+                <RunAnalysis onRefresh={transcript.refresh} />
+                <ConfigPanel />
+                <LiveTradingSection mode={mode.data} onChange={refreshAll} />
+                <ExportPanel />
+              </div>
+            </div>
+          </>
+        )}
+
+        {tab === "Overview" && !isUniverse && (
+          <>
+            <PortfolioOverview portfolio={portfolio.data} />
+            <StatsPanel />
+            <div className="grid lg:grid-cols-3 gap-4">
+              <div className="lg:col-span-2 space-y-4">
+                <Charts equity={equity.data} />
+                <PositionsTable positions={positions.data} />
+                <OrderHistory orders={orders.data} />
+              </div>
+              <div className="space-y-4">
                 <KillSwitch mode={mode.data} onChange={mode.refresh} />
                 <RunAnalysis onRefresh={transcript.refresh} />
                 <ConfigPanel />
@@ -143,8 +178,10 @@ export default function App() {
 
         {tab === "Connect Claude" && <ConnectClaude />}
 
-        <footer className="text-center text-[11px] font-mono uppercase tracking-[0.25em] text-accent/40 py-4">
-          ◈ J.A.R.V.I.S core online · default PAPER · live gated · AI cortex: Claude Code
+        <footer className="text-center text-[11px] font-mono uppercase tracking-[0.22em] text-slate-600 py-4">
+          {isUniverse
+            ? "✦ FinalBot core online · default paper · live gated · AI cortex: Claude Code"
+            : "FinalBot · default PAPER · live trading gated · AI runs in Claude Code"}
         </footer>
       </div>
     </div>

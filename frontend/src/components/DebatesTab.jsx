@@ -3,6 +3,7 @@ import { api, usePoll, fmt } from "../api";
 import { Skeleton } from "./Skeleton";
 import { PairLink } from "../chart.jsx";
 import DebatesGalaxy from "./DebatesGalaxy";
+import { useTheme } from "../theme";
 
 const AGENTS = [
   ["research", "🔍 Research", "border-slate-500/40"],
@@ -107,7 +108,10 @@ const PAGE = 100;
 const GALAXY_LOAD = 1500;
 
 export default function DebatesTab() {
-  const [view, setViewState] = useState(() => localStorage.getItem("debatesView") || "galaxy");
+  const { isUniverse } = useTheme();
+  // Default follows the global theme unless the user picked one explicitly.
+  const [view, setViewState] = useState(() =>
+    localStorage.getItem("debatesView") || (isUniverse ? "galaxy" : "table"));
   const setView = (v) => { localStorage.setItem("debatesView", v); setViewState(v); };
   const [picked, setPicked] = useState(null);
 
