@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "HOOD/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Price sits on the $109 shelf after an 8-bar fade from 113; next few bars likely chop 109-110.8 as it decides \u2014 either a dead-cat bounce toward 110.8-111.3 (short-the-retest zone) or a decisive loss of 109 opening 106.5-107.",
+  "expectancy_note": "Fresh short from 109.36 = chasing an extended, oversold move (RSI 34.9, -4% vs VWAP) into support with no structural edge (orderbook ~0, funding flat) against the complex's strongest name (+3% rel-strength); R:R sub-1.5. Wait for a better price.",
+  "rationale": "HOOD faded cleanly from 113 to the $109 pivot, last bar closing on its low, but it is now AT support and oversold, so shorting here is chasing with a poor entry and weak edge \u2014 structure bias only -0.126, orderbook flat, and it is the relative outperformer (+3% vs BTC). The high-expectancy path is to wait: short a bounce into 110.8-111.3 (retest of broken support, back toward VWAP) or a confirmed break of 109 with acceleration. No size until one of those two triggers.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 108.9,
+    "expires_min": 240,
+    "note": "Losing the $109 shelf on a closing basis confirms the breakdown and opens 106.5-107 \u2014 arm a trend short there; a reclaim/bounce toward 110.8+ is the alternate short-the-retest entry."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF / hostile to fresh longs. Geopolitical shock (Trump: US-Iran ceasefire 'over', US airstrikes, oil up); US equities down intraday (Dow -1.6%, S&P -1%, Nasdaq -1%), VIX 16.5-18.9. BTC broken ~$61.7k near 21-month low, dominance ~54-55%, weak US spot demand. Whole board one-way short; funding flat/near-zero (shorts not crowded, room to run). Biggest risk = snap risk-on reversal (Iran de-escalation or BTC reclaiming $64k) squeezing longs. HOOD lean WEAK-short / lower conviction: +3.0% rel-strength vs BTC (relative OUTPERFORMER), own catalyst (event-contract rev +320%, Robinhood Chain), btc_corr 0.626, ADX 45, RSI 34.9, -4% below VWAP, L/S 1.42, orderbook ~0, structure bias only -0.126. If short: smaller size, $109 shelf is pivot.",
+    "sentiment": "Crypto tone Extreme Fear (F&G ~11-23), June ~$4.5B spot-BTC-ETF outflows. HOOD lean NEUTRAL-to-mildly-BULLISH on story but NO <48h catalyst. Jul 1 launched Robinhood Chain, tokenized stocks in 120+ countries, 7% USDG lending, AI Agentic Accounts; analyst target bumps (Mizuho $130, Piper $135, BTIG $125). Overhangs: Barclays flagged declining crypto revenue; late-June $2.0B 0% convertible notes (~$290M buybacks). Q2 earnings Jul 29 after close (est EPS $0.41) \u2014 OUTSIDE 48h. Near-term trades with heavy crypto beta.",
+    "analyst": "HOOD faded cleanly from the 113 intraday high to the $109 pivot with the last 15m bar closing on its low, but price is now sitting on that support while oversold (RSI 34.9, stoch 21, -4% vs VWAP) \u2014 shorting here chases an extended move into a shelf with no structural edge (orderbook ~0, funding flat) and fights the complex's strongest name (+3% rel-strength). Higher-expectancy play is HOLD and let it resolve: short a bounce into 110.8-111.3 or a decisive close below 108.9 that opens 106.5-107. Trigger armed at price_below 108.9.",
+    "portfolio": "HOOD \u2014 HOLD (conf 0.50): no clean short entry at support; armed to short a bounce into 110.8-111.3 or a break below 108.9."
+  },
+  "timestamp": "2026-07-08T15:57:03.636793+00:00"
+}

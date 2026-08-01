@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "EWY/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Oversold bounce/stall off the 159.4-160.0 shelf over the next 2-4 bars (1h RSI 24.2, %B 0.026, price 2.6% below VWAP); expect a mean-revert push back toward VWAP/broken-support 162.5-163.5 where the offered book and downtrend can reassert - that retest, not here, is the short entry.",
+  "expectancy_note": "Short-here p(win)~0.40 with bounce risk into RSI24 and R:R capped by support 157.1 only 2% away; waiting to short the bounce at 162.5+ lifts p(win) and gives clean 1.5R+ to 157 - better expectancy than chasing the low.",
+  "rationale": "Trend and positioning are bearish (offered book -0.27, RS -13%, 1h/4h down), but price is oversold and extended below VWAP - a market short now is the account's textbook late-short-into-stretched-tape loss, and support at 157.14 is only ~2% away so downside R:R is poor. Korea cash is closed (thin/gappy) with SK Hynix, Samsung earnings and FOMC all inside 48h = binary gap risk that punishes naked size. Prefer to arm a limit short on a bounce to VWAP/broken-support rather than chase; no size until price offers a better location.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 162.5,
+    "expires_min": 240,
+    "note": "A bounce back into the VWAP / broken-support-turned-resistance zone gives a high-quality short entry with a tight stop above 163.5 and room down to 157.1 - that is the trade, not the oversold low."
+  },
+  "transcript": {
+    "macro": "Regime risk-off/defensive; semiconductor sector in active drawdown. FOMC Wed 29 Jul 2:00pm ET (~48h) - LIVE +25bp hike tail. DXY >101 (headwind for non-US equity/Korea). Korea cash market closed = thin/gappy overnight; cut size, avoid naked risk over Wed print. EWY read: lean SHORT (small) - structure_bias -0.19, long/short 1.36, orderbook OFFERED (-0.27, only negative book among the shorts = real supply), RS -13.3%, down-trend 1h/4h. Korea proxy = tech/semi beta + strong-DXY headwind, both bearish, but 1h RSI 24.2 already oversold and Korea cash closed = respect oversold bounce risk.",
+    "sentiment": "EWY bearish/volatile, MAJOR event risk 28-30 Jul. KOSPI had its worst month on record (-23% July, seven circuit breakers) as an AI/semi-cap bubble unwound; foreigners dumped ~KRW1.6T. Tape now hinges on chip earnings this week: SK Hynix Q2 ~28-29 Jul (record profit expected) and Samsung ~30 Jul dominate the index and will set direction (binary gap catalysts inside 48h). Citi called the sell-off peaked / H2 rebound but that's long-horizon. Near-term momentum down confirms short bias; size for binary event risk.",
+    "analyst": "last 160.21. Structure: long/short 1.359, orderbook -0.266 (offered, real supply), structure_bias -0.188. Per-TF 1h -0.627 (RSI 24.2 oversold), 4h -0.194 (RSI 40), composite short but aligned:false, conf 35.5%, p_win_learned 0.407. ATR% 1.78 (4h ~$2.85). Support 157.14, resistance 177.38, VWAP dist -2.62% (already extended below), %B 0.026 pinned to lower band. Candles rolled over off ~161.5 to a 159.37 low on high volume then bounced to close 160.14/160.39 - a small stall/bounce, not fresh breakdown. Continuation short here is the late-short-into-stretched-tape loss pattern; support only ~2% away caps R:R; SK Hynix/Samsung/FOMC binary catalysts inside 48h with Korea closed. Clean short is a limit on a bounce to 162.5-163.5. HOLD.",
+    "portfolio": "EWY: HOLD (conf 0.50) - bearish trend but oversold and extended into binary Korea chip-earnings week; arm a short on a bounce to 162.5+, no naked size now."
+  },
+  "timestamp": "2026-07-27T23:37:31.199553+00:00"
+}

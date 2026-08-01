@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "AAPL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price coils in the 324.4-325.3 range over the next 2-4 bars; no clean directional break yet. A loss of 324.35 opens continuation toward 320/312; failure to break holds the chop.",
+  "expectancy_note": "Short here = late entry into RSI 18.5 / bb_pctb 0.10 (oversold) \u2014 a bounce hits any honest stop first (account's #1 loser). Long has no reversal confirmation. Both sub-1.5 R:R; HOLD is highest expectancy.",
+  "rationale": "Composite short (ADX 74) is real on higher TFs but 4h RSI 18.5, stoch 7.1 and price pinned at the lower BB mean shorting now chases a stretched move; the last 20 15m bars are coiling flat (324.4-325.3), not extending down, and 5m momentum has stalled (MACD flat-positive). No bullish divergence to justify a contrarian long either. No catalyst in-window (earnings July 30). I wait for a decisive break rather than chase \u2014 size 0.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 324.35,
+    "expires_min": 240,
+    "note": "Losing the chop-low / volume-spike swing low confirms downtrend resumption and opens a clean continuation short toward 320 then 312 with a stop back inside the range."
+  },
+  "transcript": {
+    "macro": "Cautiously risk-on with hawkish-rates overhang. VIX 17.85. AAPL is the one name printing SHORT on the composite (-0.51, 4h RSI 18.5 deeply oversold, ADX 74 strong downtrend). Near-zero BTC-corr (0.08) \u2014 pure equity story, weak vs the tape. Structure roughly neutral (L/S 0.98). No imminent earnings in-window. Oversold enough that shorts risk a bounce.",
+    "sentiment": "Neutral-to-mildly-positive backdrop, but earnings July 30 after close is a near-binary (outside 48h). Stock at record ~$325-327, +20% YTD, ~$5T mcap; Tim Cook's final earnings call adds headline risk on the print. No catalyst inside 48h. Note the conflict: scan shows deeply oversold intraday while sentiment cites record highs \u2014 respect intraday structure for the horizon.",
+    "analyst": "Higher-TF composite short (ADX 74) is real, but 4h RSI 18.5 / stoch 7.1 / price pinned at the lower BB means shorting now chases a stretched move \u2014 the exact late-short setup a bounce stops out (account's #1 loser). Last 20 15m bars coil flat 324.4-325.3, not extending down; 5m momentum stalled. No bullish divergence for a contrarian long. No in-window catalyst. HOLD; arm a continuation short on loss of 324.35.",
+    "portfolio": "HOLD AAPL \u2014 oversold downtrend, no clean R:R; continuation short armed below 324.35."
+  },
+  "timestamp": "2026-07-21T13:33:17.434807+00:00"
+}

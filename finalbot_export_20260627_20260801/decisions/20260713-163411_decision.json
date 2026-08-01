@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "EWY/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.55,
+  "playbook": "trend",
+  "forecast": "Failed reflex bounce (172.48 high) is rolling over; price drips into the 166.02-167 support with 5m RSI 8, then likely stages a reflex bounce toward the 170.5-171 VWAP/broken-support zone within the next 4-8 bars \u2014 that bounce is the short entry, not here.",
+  "expectancy_note": "p(win)~0.5 on a fresh short but R:R fails: only ~2.9pts to 166 support vs a >2pt honest stop above 170, and RSI 8/4h RSI 17.8 = chasing into support where the reflex bounce stops late shorts (this account's #1 loss pattern, trend-short avg_pnl -2.51). Waiting for the retest gives 1.5R+.",
+  "rationale": "Trend is firmly down (ADX 60.6, all TFs aligned short, RS -13.3%), but price is deeply washed out \u2014 1.7% above 166.02 support, -2.25% below VWAP, %B 0.06, 5m RSI 8 \u2014 after a failed bounce. A market short now shorts into support against an imminent reflex; a bounce to 170.5-171 offers a far better entry with a tight stop above 171.6 targeting 166/163. CPI pre-market tomorrow adds gap/whipsaw risk, reinforcing patience. Size 0 until the retest arms.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 170.5,
+    "expires_min": 240,
+    "note": "Reclaim of the failed-support/VWAP zone at 170.5 is where a reflex bounce exhausts \u2014 that is the high-R:R short entry; a decisive break back above 171.6 instead would signal the washout bottom is in and flip the bias."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF/defensive, stabilizing intraday. Semiconductor-led drawdown (SOX -10.8%, memory in bear market). Fed hawkish 3.50-3.75%, ~19% hike odds, zero cut; DXY firm ~100.6 = headwind for high-multiple tech. Funding benign across equity perps (no squeeze). Retail leaning long into downtrend (contrarian bearish); orderbooks show sellers stacked. BTC correlation low for all \u2014 trade as equities. Environment favors shorts/fades over fresh longs; deeply oversold 4h RSIs mean fade bounces rather than chase lows. EWY: headwind/short-favored, weakest RS in book (-13.3%), 4h RSI 17.8, crowd still long 1.49.",
+    "sentiment": "Market-wide: June CPI Tue 7/14 pre-market (last print before 7/29 FOMC) \u2014 expect gap/whipsaw; no single-name binary inside 48h. EWY ~$183-184, KOSPI +79% 6mo, essentially a Korean-semiconductor AI proxy; mover is US CPI/DXY (softer dollar = tailwind) + semi tape; 4h RSI 17.8 is a technical washout not a news event, fundamentals constructive. Tag: NEUTRAL-to-bullish.",
+    "analyst": "Trend firmly down but price deeply washed out 1.7% above 166.02 support after a failed reflex bounce off 172.48; shorting at 168.95 with 5m RSI 8 chases into support where the reflex bounce stops late shorts (account's #1 loss pattern). R:R fails at market; the clean short is a limit into a bounce toward 170.5-171. Hold, size 0 until the retest arms.",
+    "portfolio": "HOLD EWY \u2014 trend-short setup valid but wait to fade a bounce into 170.5-171; no market entry into support pre-CPI."
+  },
+  "timestamp": "2026-07-13T16:34:11.186372+00:00"
+}

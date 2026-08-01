@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "MU/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Coil around 848-852 on thin Sunday tape; most likely a failed dead-cat that rolls back to retest 845 then 840, but no clean break yet.",
+  "expectancy_note": "Long p_win~0.4 (chasing divergence bounce into risk-off semi rout, crowded L/S 2.18, RS -30%, Sunday gap risk) \u2014 negative EV. Short needs breakdown below 845; entering now fights the fresh 15m bounce. HOLD beats both.",
+  "rationale": "Scan flags a bullish-divergence long, but every context factor is hostile: MU is the epicenter of a RISK-OFF semiconductor selloff (-18% month, Burry short, SK Hynix rotation), structure_bias -0.40 with crowded long L/S 2.18 and sell-heavy orderbook, RS -30% vs BTC (worst in book), Sunday US-cash-closed with Monday gap risk. Price is a weak dead-cat bounce (845->852->850) coiling on fading volume near VWAP \u2014 no edge to chase the long, no confirmed breakdown to short. Wait: losing 845 arms a fade-short; reclaiming 852.6 validates the divergence long.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 845.0,
+    "expires_min": 240,
+    "note": "Losing the 845 swing-low base proves the dead-cat bounce failed and the semi rout is resuming \u2014 arms a fade-the-bounce short toward 840/833."
+  },
+  "transcript": {
+    "macro": "RISK-OFF, semiconductor-led selloff (Fri Jul 17: Nasdaq wk -2.9%), AI-capex confidence wobble; rates a mild tailwind (10Y ~4.55%, CPI 3.5%). SUNDAY \u2014 US cash closed, tokenized perps thin/gappy, gap-reconcile Monday; size down. Funding ~0 + heavily long-skewed L/S = crowded long into falling tape. MU: semis, directly in crosshairs; scan long but structure_bias -0.40 (L/S 2.18), RS -30%. Macro flatly HOSTILE to semi longs; if anything favors fade-the-bounce shorts.",
+    "sentiment": "Disinflation vs semiconductor rout (MU -9% Jul 16, -18% month). MU bearish near-term; blew out fiscal Q3 (rev $41.5B +15% AH) but epicenter of chip rout, Burry short + SK Hynix rotation overhangs. Next earnings ~Sept 21 (not imminent). Momentum/tape heavy \u2014 near-term news against longs.",
+    "analyst": "RSI 54.8 near VWAP (-0.47%), ADX 44.9 strong trend, bullish divergence, but structure_bias -0.40 (L/S 2.18, orderbook -0.35), RS -30%. 15m coiling 848-852 on fading volume \u2014 a weak dead-cat inside a brutal downtrend. Buying it chases into a hostile tape; shorting fights the fresh bounce. HOLD; short-biased reconsider on losing 845 base.",
+    "portfolio": "HOLD MU \u2014 semi-rout epicenter, crowded-long dead-cat bounce; no clean entry, fade-short arms below 845."
+  },
+  "timestamp": "2026-07-19T11:15:21.399118+00:00"
+}

@@ -1,0 +1,24 @@
+{
+  "symbol": "MSTR/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.5,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "rationale": "The composite reads short only because it lags the just-completed 15m flush (96.6->93.75); the next move is a bounce-or-deeper-dip decision, not fresh downside. The oversold-bounce long is real (1h RSI 24, bullish divergence, flush done, BTC reclaiming $65k + ETF flows positive, rel-strength +7%), but a market long can't get an honest >=1.5 R:R to a realistic VWAP-reclaim TP1 (~95.7) without a stop that gets swept under the fresh flush low or breaks R:R too wide \u2014 and shorting into RSI-24 oversold is the account's proven bleed. Hold flat and let price prove direction at a level.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 95.7,
+    "expires_min": 240,
+    "note": "Reclaiming VWAP/95.7 confirms the oversold bounce and turns this into a long toward 96.6-98 with a clean stop below the flush low."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF. MSTR (Strategy): btc_corr 0.714 (BTC-leverage proxy ~1.5-2x), rel-strength +7%, book -0.21, L/S 1.36, bullish divergence, RSI 24 (1h oversold). Big 15m flush already done (96.6->93.9). Direction keyed off BTC (mildly supportive). Earnings Jul 30 outside window. US cash open.",
+    "sentiment": "MSTR NEUTRAL, headline-heavy but digested (capital framework, $467M raise, Q2 reported). Trades as ~2x BTC proxy; next-48h follows BTC/ETF flows more than MSTR news. No imminent catalyst.",
+    "analyst": "Composite short lags the completed flush. Oversold-bounce long valid but market long R:R<1.5 (stop swept or too wide); shorting RSI-24 is the late-short trap. Hold, arm long at 95.7 VWAP reclaim.",
+    "portfolio": "HOLD MSTR/USDT:USDT (conf 0.5) \u2014 early bounce thesis, no clean R:R; trigger at 95.7."
+  },
+  "timestamp": "2026-07-16T15:06:22.800277+00:00"
+}

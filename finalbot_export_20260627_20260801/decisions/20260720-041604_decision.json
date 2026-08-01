@@ -1,0 +1,26 @@
+{
+  "symbol": "TSM/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.6,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "rationale": "TSM is dead off-session tape (near-zero volume, several flat 0.0-vol candles), so any stop/level is unreliable and US-open gap risk is high. It is very crowded long (L/S 2.59), a laggard (rel_str -21%) fighting a broken semi sector, yet already extended (RSI 67, stoch 75, %B 0.84) with no rejection print to fade. Earnings passed 7/16 so no <=48h catalyst; sizing zero and waiting for real volume.",
+  "forecast": "Off-session dead tape: last 15m bars print 0-2 units of volume; low-volume drift in the 399-404 box until US session.",
+  "expectancy_note": "No honest entry: long is a chase (RSI 67, %B 0.84, extended); short fades a crowded-long into an ADX-40 uptrend on zero volume. Learner: shorts bleed.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 399.12,
+    "expires_min": 240,
+    "note": "Losing the 399 shelf confirms the crowded-long unwind; a reclaim above 404.4 on real US volume argues a momentum long."
+  },
+  "playbook": "none",
+  "transcript": {
+    "macro": "Cycle 2026-07-20 (BTC ~$64.7k, QQQ ~699). Regime NEUTRAL, leaning risk-off in equities/semis, mildly constructive crypto. US indices closed red last week (Nasdaq -2.9%); semis are the epicenter (SOX -20% off highs) on AI-capex-cut fears. No major data Mon 7/20; thin drifting tape. Catalysts: GOOGL Q2 earnings 7/22 after close (event risk for GOOGL/QQQ); FOMC 7/28-29 (outside window). BTC neutral/constructive, reclaimed $65k on soft CPI, funding ~+4.7% ann = neutral, BTC.D ~56.3%, but book ask-heavy (-0.54) and longs crowded (L/S 1.47) into ~65.5k resistance. Crowded-long contrarian risk on MU/TSM/SOL/ORCL (L/S >2). Silver hostile: fresh 8-month low ~$55-56, higher-for-longer headwind, coiled triangle (bear <55.71, bull >61). Verdict: NEUTRAL, risk-off equities/semis, mildly constructive crypto - favor BTC-beta over semis, treat semi/silver longs as counter-trend, size down into thin Monday tape + GOOGL 7/22.",
+    "sentiment": "Shared sentiment 2026-07-20. Two near-term binaries dominate: GOOGL earnings Wed 7/22 ~4:30pm ET (biggest event, ripples to QQQ/tech) and FOMC 7/28-29 (soft June CPI -0.4% m/m, markets price a hold). QQQ neutral/bull. BTC neutral/bull (reclaimed $65k, under $65.5k resistance; ETF flow mixed). MU bull but no catalyst until ~Sep 29. MSTR neutral/bearish overhang (selling BTC ~3,588, $466.7M share issuance, $8.32B Q2 digital-asset loss). TSM neutral, catalyst passed (strong Q2 7/16, +33.7% YoY, AI 61% of rev). SOL neutral/bull (spot ETFs live, Firedancer upgrades - multi-week; trades as BTC beta). ORCL neutral/bearish (post-earnings hangover below $130-135, debt/capex fears, 21k job cuts). COIN neutral, Q2 earnings 7/30 (Q1 missed). GOOGL bull into print but HIGH event-risk - coin-flip binary, don't hold naked through 7/22. XAG neutral/bearish near-term (down ~15% on month, coiled triangle, bias lower).",
+    "analyst": "HOLD. Off-session dead tape (0-2 vol bars) makes levels unreliable, high US-open gap risk. Very crowded long (L/S 2.59), laggard (-21%) in a broken semi sector, extended (RSI 67, %B 0.84). Trigger: lose 399.12 to short; reclaim 404.4 on US volume to long.",
+    "portfolio": "TSM - HOLD (conf 0.60): illiquid off-session, crowded-long laggard; wait for US-session volume, short below 399."
+  },
+  "timestamp": "2026-07-20T04:16:04.725826+00:00"
+}

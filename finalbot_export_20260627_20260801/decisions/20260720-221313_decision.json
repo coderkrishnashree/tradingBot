@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "QQQ/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.4,
+  "playbook": "none",
+  "forecast": "Deeply oversold LTF (stoch 11, 15m RSI 30, 5m RSI 28) sitting 0.5% under VWAP right on support 688 in thin off-hours tape; next few candles most likely a relief bounce back toward VWAP ~699-700 rather than immediate continuation. Real directional move waits for US open 13:30 UTC.",
+  "expectancy_note": "Short now = chasing into oversold above support (p(win)~0.42, negative R:R after the routine bounce). Shorts win only 48% / avg -0.73R on this book; HOLD beats a late chase. Breakdown short only on a confirmed loss of 688.",
+  "rationale": "Trend/macro bias is genuinely bearish (4h short, rel strength -15.5%, risk-off, tech being sold), but LTF is stretched short and price is pinned on support 688 in thin off-hours liquidity where the real move is deferred to US open. A market short here chases directly into the account's #1 loss pattern (late short, stopped by the bounce). Wait for either a clean breakdown of 688 to short the confirmed leg, or let it bounce back toward VWAP for a better short entry at the open. No trade justifies risk in a gappy, oversold, support-hugging tape.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 687.5,
+    "expires_min": 240,
+    "note": "A clean 15m close below support 688 confirms the breakdown resumed (not just off-hours drift) and opens the next leg toward the lower structure - the point to enter the short with the trend rather than chasing into oversold."
+  },
+  "transcript": {
+    "macro": "RISK-OFF regime (scan 2026-07-20 ~22:08 UTC). Nasdaq -1.4% today (-2.9% wk) on AI/semiconductor selloff (post-NVDA hangover, Samsung chip results) + Iran geopolitical risk; tech/comms/discretionary sold -> supports equity-tracker shorts. Crypto soft but orderly (no cascade): BTC ~$64-65k flat, dominance 57% (capital hiding in BTC, alts bleeding), Fear&Greed 29. DXY soft 100.7, 10Y 4.60%, soft June CPI, no Fed/CPI print in 48h. CRITICAL EXECUTION HAZARD: US cash equities CLOSED at scan time -> MSFT/QQQ/TSM/ORCL/HOOD perps thin/gappy until 13:30 UTC Tue US open; size down, real move at the open. MSFT & HOOD earnings Wed Jul 29 (outside 48h). Crypto (BTC/SOL) trades 24/7 with normal liquidity.",
+    "sentiment": "No high-weight dated binary in next 48h for any name (Jul 29 cluster: MSFT, HOOD is the next wall). MSFT neutral, -20% YTD on AI capex worries. SOL mildly bullish structurally (5 spot SOL ETFs live ~$1.12B inflows, fee cuts, Alpenglow Q3) but 0.81 corr to BTC so rides crypto risk-off; $74-75 support. BTC bearish near-term, below EMA200 (~$74.4k), MSTR sold record $216M BTC, oil>$80/Iran + hawkish Fed. QQQ neutral-to-bearish, mega-cap earnings wave looms. TSM strong Q2 beat Jul 16 (rev +36% y/y, guide raised) now digesting. ORCL bearish shock (-28%/mo, S&P downgrade on OpenAI concentration, ~21k layoffs, 52wk low ~$132) BUT RSI 25 oversold + Burry covered half his short (bounce risk). HOOD ran +37% (Agentic Trading, IPO underwriting) then pulled back ~$113->$99, profit-taking; high crypto beta amplifies risk-off.",
+    "analyst": "Trend/macro bias genuinely bearish (4h short, RS -15.5%, tech sold) but LTF deeply oversold (stoch 11) pinned on support 688 in thin off-hours tape - market short chases the account's #1 loss pattern (late short stopped by bounce). Hold; short a confirmed break of 688 or a bounce-to-VWAP entry at the open.",
+    "portfolio": "HOLD QQQ - bearish bias but oversold on support in thin tape; short below 688."
+  },
+  "timestamp": "2026-07-20T22:13:13.389970+00:00"
+}

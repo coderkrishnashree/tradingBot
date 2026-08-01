@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "SNDK/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Just printed a bearish rejection off 1413 (last bar closed 1393 near its low). Expect chop between VWAP/1393 and the 1355-1360 base; a clean loss of 1360 opens the hostile-macro short toward 1330/1311, while reclaiming 1413 negates the divergence and resumes the up-leg.",
+  "expectancy_note": "Neither side clears R:R>=1.5 with an honest stop: ATR 1.63% is huge, thin pre-market gap risk, price sits AT vwap (not extended) so a short is a coin-flip vs continuation; a long is counter-macro into elevated funding + worst RS + bearish divergence. HOLD is highest expectancy.",
+  "rationale": "SNDK is the epicenter of an active semi selloff with RS -46% (worst on board), a bearish 4h divergence, and elevated +0.0004 funding = crowded longs paying up \u2014 all hostile to a fresh long, and the Goldman PT/NAND narrative is out-of-window and irrelevant to a 48h swing. But the immediate 15m tape is still rising and price is only AT vwap after a run to 1413, so a short here risks being stopped by a continuation before the down-move; with ATR 1.63% and thin pre-market gap risk, an honest stop is too wide to make either entry pay. I wait for the base to break rather than guess at the turn.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 1360,
+    "expires_min": 240,
+    "note": "Losing the 1355-1360 intraday base confirms the 1413 rejection and bearish divergence are following through, activating the hostile-macro short toward 1330/1311."
+  },
+  "transcript": {
+    "macro": "Overall NEUTRAL-to-HOSTILE for fresh longs. Active semiconductor-led drawdown. Tokenized-equity pairs thin until 09:30 ET. SNDK: hostile \u2014 pure memory/semi name in the epicenter of the selloff; RS -46% (worst on the board), bearish divergence flagged, funding elevated (+0.0004) = paying up for a crowded long. Longs are counter-trend; avoid or fade.",
+    "sentiment": "Risk-off, active AI/semiconductor unwind \u2014 KOSPI -4.5% today. SNDK: MEDIUM/HIGH via sector, no own catalyst in window \u2014 earnings not until Aug 5 (out of window). Story bullish long-horizon (NAND tightness, prices +~75% q/q, Goldman PT $1,200->$2,200 on 7/5) BUT caught in today's semi unwind; scan flags a bearish 4h divergence. Near-term sector momentum risk outweighs the bullish narrative.",
+    "analyst": "SNDK sits in the epicenter of the semi selloff (RS -46%, bearish 4h divergence, elevated funding on crowded longs) \u2014 hostile to a fresh long, and the NAND/Goldman narrative is out-of-window. But the 15m tape is still rising and price is only AT VWAP after a run to 1413, so a short risks a continuation stop; ATR 1.63% + gap risk make any honest stop too wide. Wait for the base to break.",
+    "portfolio": "HOLD SNDK \u2014 no counter-macro long, no premature short; re-debate a short on a loss of the 1355-1360 base."
+  },
+  "timestamp": "2026-07-20T10:16:25.644182+00:00"
+}

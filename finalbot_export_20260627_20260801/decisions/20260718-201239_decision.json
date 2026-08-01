@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "QQQ/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.38,
+  "playbook": "none",
+  "forecast": "Thin weekend drift: price grinds sideways-to-lower between 694 and support 688 over the next several bars; 4h RSI 22.9 + no intraday oversold relief means a snap-back bounce toward 697-700 VWAP is as likely as a break - no clean edge either way until 688 either holds-and-bounces or breaks.",
+  "expectancy_note": "p(win) ~0.40 for a market short here: shorting 6pts above 688 with 4h RSI 22.9 is the account's proven loser (shorts 0.47 win, -0.87 avg; model penalizes high-adx/aligned/rel-strength). Range fade invalid (ADX 77). Best expectancy is wait: short the break of 688 with momentum, or fade a rip to VWAP.",
+  "rationale": "Saturday equity perp: US cash closed, no price discovery, thin and gappy with Monday gap risk - a market entry here is a bet on noise. Macro/trend favor short, but price sits only ~1.4x(4h ATR) above 688 support with 4h RSI at 22.9 deeply oversold, so a routine counter-bounce would stop any honest short before the trend resumes - exactly this account's #1 loss pattern (late shorts into stretched tape). No range to fade (ADX 77) and no reason to fight the 4h downtrend long. Highest-expectancy action is HOLD until 688 resolves.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 688.09,
+    "expires_min": 240,
+    "note": "A decisive break of 688.09 support converts oversold weekend drift into a genuine breakdown with momentum - that is the point to short WITH the move rather than into oversold air."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF, equity-hostile. Fri 7/17 Nasdaq -1.40%, weekly loss on a semiconductor rout + US-Iran/Hormuz risk-off. Saturday = US cash closed, QQQ perp thin/gappy, Monday gap risk. Composite SHORT conf 36.9: 4h down hard, ADX 77 very strong trend, RSI 4h 22.9 deeply oversold, rel_strength -10.12%, structure ~flat, long/short 1.01 balanced, last 694.36 above support 688.09. Verdict: SHORT-supportive by trend but RSI 22.9 + on support + weekend-thin = high bounce risk; small size, sell rips not the support break.",
+    "sentiment": "Broad Nasdaq the sick patient: -1.4% Fri, -2.9% on the week, chips + AI-spend doubts + Iran risk-off; tone heavy/risk-off. 48h catalyst: megacap earnings begin next week - Alphabet (GOOGL) and Tesla headliners, Alphabet the key hyperscaler/chip-buyer read. Nothing in immediate 48h but Tue/Wed two-way event risk. Verdict: bearish near-term tone, big earnings risk mid-week.",
+    "analyst": "Saturday equity perp with US cash closed = a market entry bets on noise. Trend favors short but price is only ~1.4x(4h ATR) above 688 with 4h RSI 22.9 deeply oversold - a routine bounce stops an honest short (account's #1 loss pattern; shorts 0.47 win / -0.87 avg). No range to fade at ADX 77, no reason to fight the downtrend long. HOLD; reconsider on a decisive break of 688.09 to short with momentum.",
+    "portfolio": "HOLD QQQ - short trend but deeply oversold on support into a thin weekend; wait for 688.09 break or a rip to VWAP to short."
+  },
+  "timestamp": "2026-07-18T20:12:39.060109+00:00"
+}

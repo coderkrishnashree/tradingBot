@@ -1,0 +1,23 @@
+{
+  "symbol": "INTC/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.66,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "rationale": "INTC is vertically extended (RSI 76.9, %B 1.024, +3.18% VWAP, stoch 80) with an ADX-71 trend and heavy 1.9x long crowd \u2014 a valid short on levels alone, but the Jul 23 after-close earnings print is a binary inside the 48h window that makes any position a gap gamble, not a forecastable move. Recent bars show upper-wick rejections near 99.2 hinting at exhaustion, but not enough edge to short into an uptrend that could gap up on the print. Size 0: no honest short-term R:R exists.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 96.2,
+    "expires_min": 240,
+    "note": "Losing VWAP/the 96.8 higher-low base before the print confirms the extension is unwinding and opens a clean pre-earnings mean-reversion short toward support 89.8."
+  },
+  "transcript": {
+    "macro": "Cautiously risk-on but fragile: Nasdaq +1.02% Jul 20 on chip rebound, 'sell-the-news' theme (86%+ beat yet sold). Mega-cap AI earnings THIS WEEK: GOOGL Jul 22 AC, INTC Jul 23 AC (TSLA, IBM too) = binary gap risk. Fed FOMC Jul 28-29 (outside 48h), mildly hawkish ~63% hold, June CPI cooled. US-Iran conflict day 10: bullish for crude, equity tail risk. Crude (CL) firm at 5-week highs on Strait of Hormuz supply shock. Precious metals (gold/silver) corrective-to-soft, no fresh safe-haven surge despite Iran. Net: mixed-to-supportive for equity longs ex-earnings names; crude best-supported; metals weakest.",
+    "sentiment": "GOOGL: HIGH imminent catalyst, Q2 Jul 22 after close (cons ~$2.87-2.89 EPS, cloud +~60%), big binary gap; +2.9% Jul 20 on Gemini-chip report. INTC: HIGH catalyst, Jul 23 after close, already extended (RSI ~77). MSFT: no <48h catalyst (earns Jul 29). AAPL: no <48h catalyst (earns Jul 30). ORCL: no <48h catalyst (next ~Sept), only low-weight PT-trim noise. QQQ: index proxy, event-driven via GOOGL/INTC prints + Iran headlines, two-way gap risk. CL: HIGH, actively moving ~$82-83 on Iran/Hormuz/Houthi/Russia CPC supply shock, upside-skewed but whippy. XAG/XAUT: mildly supportive on Iran haven bid, offset by hawkish Fed; no hard <48h catalyst (FOMC Jul 28-29 outside window).",
+    "analyst": "Vertically extended: RSI 77, %B 1.024, +3.18% VWAP, crowd 1.9x long. ADX 71 uptrend. Earnings binary Jul 23 AC dominates \u2014 long chases into a binary, short fights the trend into gap-up risk.",
+    "portfolio": "HOLD INTC (conf 0.66) \u2014 earnings binary Jul 23; extended, no R:R survives the gap."
+  },
+  "timestamp": "2026-07-21T02:42:59.328877+00:00"
+}

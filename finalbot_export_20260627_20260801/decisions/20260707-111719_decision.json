@@ -1,0 +1,27 @@
+{
+  "action": "hold",
+  "symbol": "TSLA/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "expectancy_note": "Strong uptrend (ADX 45) but price extended: RSI 70.5, stoch 88, %B 0.90, +1.9% above VWAP. Fresh long = chasing into crowded longs (L/S 1.52); poor entry R:R vs waiting for a VWAP pullback. Fade rejected (ADX 45 = don't fight trend). HOLD has best expectancy.",
+  "rationale": "TSLA is a genuinely strong horse (+7.9% rel strength, low BTC corr 0.33) in a strong 4h uptrend, but it is stretched and mid-air here \u2014 RSI 70.5, stoch 88, %B 0.90, and +1.9% above VWAP with crowded longs (L/S 1.52). Sentiment is near-term cautious (7.5% delivery-print drop, Q2 earnings July 22 the dominant binary but outside window) and macro says avoid fresh longs into RSI-70 extensions. The learner also shows this account's trend-longs losing (0.5 win, -2.72 avg). I'd rather buy a pullback into VWAP (~408) to join the trend at good R:R, or chase a clean breakout close above 437.73 \u2014 not pay up here.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 408.0,
+    "expires_min": 240,
+    "note": "A pullback to the VWAP/SMA20 shelf (~408) resets the extended reading and offers a low-risk trend-continuation long into a strong ADX-45 uptrend with a tight stop under support."
+  },
+  "transcript": {
+    "macro": "OVERALL REGIME: RISK-ON, late-stage and thin. S&P 7,533 (+0.7%), Nasdaq 26,148 (+1.2%), Dow record ~53,000; VIX low 15.9. Rally narrow, semis/AI led. Fed seen holding July (~66% no-change), Sept hike priced (~67%) \u2014 hawkish tail, no FOMC/CPI in window. US equities constructive during US hours. Avoid fresh longs into RSI-70 extensions; normal-to-slightly-smaller size. TSLA composite long (71.6% conf, +7.9% rel strength) but RSI 70 (4h), long/short 1.52 = crowded longs; chase risk into strength.",
+    "sentiment": "TSLA \u2014 net BEARISH/cautious near-term. Q2 deliveries (July 2) crushed consensus 480,126 vs ~406k (+18%) yet TSLA fell ~7.5% on the print (worst day in ~a year) on profit-taking, BYD competition, stretched ~204x fwd P/E; has since bounced. KEY BINARY: Q2 EARNINGS after close Wed July 22 \u2014 outside 48h but dominant catalyst. No major <=48h catalyst; scan shows extended/overbought (RSI 70.5, %B 0.90); headline risk two-sided. Broad AI-bubble derisking is a live correlated risk.",
+    "analyst": "TSLA at 416.80: composite long 71.6% conf, ADX 45.6 (strong trend), aligned across TFs, but RSI 70.5 (4h)/stoch 88.2/%B 0.901 extended, +1.9% above VWAP, long/short 1.524 (crowded longs, bias -0.52), rel strength +7.87% vs BTC (btc_corr only 0.326 = genuine own-strength). Fresh long = chasing at %B 0.90 into crowded longs; poor R:R. ADX 45 says don't fade the top either. Learner shows trend-longs losing (0.5 win, -2.72 avg). Best expectancy = HOLD; wait for a pullback toward VWAP/SMA20 (~408) to join the uptrend, or a breakout close above 437.73.",
+    "portfolio": "TSLA: HOLD (conf 0.60) \u2014 strong but extended; wait for a ~408 VWAP pullback to go long."
+  },
+  "timestamp": "2026-07-07T11:17:19.352452+00:00"
+}

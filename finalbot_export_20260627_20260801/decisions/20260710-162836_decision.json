@@ -1,0 +1,22 @@
+{
+  "action": "short",
+  "symbol": "ORCL/USDT:USDT",
+  "size": 4.0,
+  "entry": 143.8,
+  "stop_loss": 145.95,
+  "take_profit": 138.2,
+  "take_profit_1": 140.0,
+  "take_profit_2": 138.2,
+  "confidence": 0.6,
+  "playbook": "trend",
+  "forecast": "Dead-cat bounce off 140 continues up to retest broken support / VWAP zone 143.5-144 within 1-3 bars, sellers reload there, then rolls back over toward the 140 base and 137.6 support as the downtrend and trapped longs (L/S 2.3) reassert.",
+  "expectancy_note": "p(win)~0.6, R:R ~1.8 to tp1; limit-selling the rip beats chasing the flush (30m RSI 22 oversold = market short gets stopped by this very bounce) and beats a long into the worst-RS name in the scan.",
+  "rationale": "ORCL is the scan's weakest name (rel-str -22.95%), rotation-out laggard with credit/dilution overhang, and heavily long-trapped (L/S 2.307) \u2014 structurally a sell-the-rip. Price just flushed 145.9->139.69 and is mid dead-cat bounce (142.07), so I place a LIMIT short at 143.8 (broken-support/VWAP retest) rather than chase, stop 145.95 above pre-flush base (~1.1 ATR), tp1 140.0 base and tp2 138.2 near support 137.63 for R:R ~1.8. Size modest (4%) because ADX is only 23 and oversold LTFs allow the bounce to overshoot my entry.",
+  "transcript": {
+    "macro": "Regime mildly RISK-ON, tech-led; ORCL is the sector LAGGARD with money rotating OUT. Crypto-irrelevant (btc_corr 0.36). Worst selloff in years: off ~50% from ~$346 high, -35% in June, S&P downgrade to BBB-. Debt-funded AI buildout, FCF -$23.7B, ~$167B debt, ~$20B equity raise (dilution). $638B RPO not enough. Earnings Sep 14 (no binary). Ex-div today $0.50. Derivs: funding flat, OI 13916, L/S 2.307 (trapped longs, contrarian bearish), orderbook +0.238 (modest bid support), structure_bias -0.229. Fresh flush 145->142, RSI oversold LTFs (28/22), rel-str -22.95% (weakest in scan). Verdict: SUPPORTIVE for SHORT \u2014 sell rips, dead-cat bounce may come first.",
+    "sentiment": "Bearish/weak. Down ~25% YTD, ~$140-144. Sold off despite $638B RPO; market focused on funding: S&P cut to BBB-, ~$167B debt, negative ~$23.7B FY26 FCF, ~$20B equity raise (dilution). Earnings Sep 14 \u2014 no binary. Ex-div today. No fresh 48h shock; near-term bias bearish momentum \u2014 supports shorts, cautions longs. Confidence medium-high negative tilt. Verdict: BEARISH \u2014 favors shorts over longs.",
+    "analyst": "Fresh flush 145.91->139.69 on 899 vol, now mid dead-cat bounce (142.07) with higher-lows 139.7->142.1 and 5m RSI 69 (bounce extended short-TF) but 30m RSI 22 (oversold). Market-shorting the live bounce = account's #1 loss pattern. Set LIMIT short at 143.8 retest (broken support / VWAP zone) where sellers reload; stop 145.95 above pre-flush base (~1.1 ATR); tp1 140.0 base, tp2 138.2 near support 137.63 => R:R ~1.8. Size modest (4%) since ADX only 23 and oversold LTFs allow overshoot.",
+    "portfolio": "ORCL: SHORT (conf 0.60) \u2014 limit-sell the rip at 143.8, stop 145.95, tp 140.0/138.2; sell-the-rip on the scan's weakest, long-trapped laggard."
+  },
+  "timestamp": "2026-07-10T16:28:36.930942+00:00"
+}

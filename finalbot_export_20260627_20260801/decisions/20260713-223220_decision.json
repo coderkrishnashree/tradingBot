@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "AAPL/USDT:USDT",
+  "size": 0.0,
+  "entry": 317.52,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Thin overnight coil pinned at 317.0-317.5 (upper band, bb_width 1.36%) drifts sideways into CPI 08:30 ET; the print gaps the whole Nasdaq complex before the desk can react, so direction resolves ON the release, not before.",
+  "expectancy_note": "p(win) on a long here ~0.45: buying the upper Bollinger band at VWAP into a downside-skewed CPI binary, in a 3.8k-OI book where the +0.453 orderbook tilt is meaningless; learner shows longs bleeding (-1.87 avg) and high-ADX 0.44 win. HOLD has best expectancy vs chasing the coil or fighting +8.65% rel-strength short.",
+  "rationale": "AAPL is the cleanest LONG lean of the set (bid-heavy, slightly-short crowd, outperformed a red tape) but the entry is wrong: price pinned at the upper band, at VWAP, coiled tight, with a downside-skewed CPI print (July 14 08:30 ET) inside the hold window and a thin gappy overnight book that makes structure signals unreliable. Wait-for-confirmation, not a chase; size 0 until the print resolves. Correlation to BTC is 0.215 so crypto read doesn't drive it; the trade is a broad-tape CPI proxy.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 323.2,
+    "expires_min": 240,
+    "note": "Reclaiming and holding above resistance 323.2 proves genuine post-CPI breakout momentum and opens a real trend-long; losing 315.9 (coil base) flips the read toward a short into 305 support."
+  },
+  "transcript": {
+    "macro": "RISK-OFF/defensive. US June CPI July 14 08:30 ET = binary event inside hold window; Fed hawkish. Nasdaq -0.92% on chip weakness, oil +5% on US-Iran. Underlying AAPL +0.74% today on upbeat analyst calls, bucking the red tape. AAPL positioning (tokenized equity): scan 22:28 UTC = thin gappy overnight session (1-8 unit candles, gap risk on US open), funding 0, OI 3,800, L/S 0.86 (slightly short = mild contrarian long support), obook +0.453 (distorted in thin book), structure_bias +0.178 (long tilt), 1h/4h up, 4h RSI 61.4, bb%b 1.015 (upper band), btc_corr 0.215 (decoupled), rel-strength +8.65%. Cleanest long lean of the set but read in thin after-hours + CPI hits before desk can react; wait-for-confirmation/reduced size.",
+    "sentiment": "NEUTRAL near-term. Treading water right at analyst consensus PT (~315-327; last 317.52 = fair value, limited fresh catalyst). Earnings July 30 after close = OUTSIDE 24-48h window, no single-name binary tonight. Only recent single-name item: July 6 Broadcom chip-supply extension through 2031 (multi-year de-risk, not a mover). Next 48h driven almost entirely by broad-tape reaction to CPI; mind off-hours thin-liquidity gap risk on the tokenized perp.",
+    "analyst": "Candles ran 316.1->317.5 then flatlined ~8 bars dead in 317.0-317.5 on collapsing volume (1-4 units) = illiquid overnight drift stalled at the highs, not a trend pushing; bb%b 1.015 with bb_width crushed to 1.36% = a coil at the upper band. Entering long = buying the upper band at VWAP into a downside-skewed CPI binary in a book so thin the +0.453 tilt is noise. Learner: longs 0.50 win/-1.87 avg, high-ADX 0.44 win. Wait for the print; a hold above 323.2 proves breakout, losing 315.9 opens a short to 305.",
+    "portfolio": "AAPL/USDT:USDT -> HOLD, size 0, conf 0.50: best-structured long of the set but wrong entry into a downside-skewed CPI print + thin overnight book; wait for confirmation above 323.2 or a break of 315.9."
+  },
+  "timestamp": "2026-07-13T22:32:20.324374+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "EWJ/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.3,
+  "playbook": "none",
+  "forecast": "Frozen tape: most 15m bars print zero volume at 93.13-93.35; expect price to chop in the 92.4-93.4 pocket, likely a small mean-reversion bounce off the 92.14 support/lower-band with bullish divergence, but nothing tradeable without volume.",
+  "expectancy_note": "No honest R:R possible - near-zero liquidity means any stop/target is fiction and a single gap can slip through; p(win) uncomputable, so HOLD is highest expectancy.",
+  "rationale": "EWJ perp is effectively dead: the last ~20 bars are mostly zero-volume prints flatlined at 93.13-93.35, so ADX 81 and the composite short are artifacts, not signal. Price sits near the lower Bollinger band above 92.14 support with a bullish divergence, so no short into the hole; but there is no volume to justify a long either. Illiquid/gappy execution risk (macro flags SIZE DOWN) plus no measurable R:R makes this a clear no-trade.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 92.14,
+    "expires_min": 240,
+    "note": "A decisive break below 92.14 support on real volume would confirm the Asia/chip-contagion selloff is transmitting into EWJ and open a genuine short; until then the tape is untradeable."
+  },
+  "transcript": {
+    "macro": "Regime (2026-07-08): cautiously risk-on but fragile; live semiconductor/memory bear-market rotation bleeding into Asia. FOMC minutes today. EWJ tilt: neutral - EXTREMELY thin (near-zero volume, illiquid/gappy); bullish divergence; low conviction, SIZE DOWN.",
+    "sentiment": "Negative near-term. Nikkei hit 3-week low (-2.1%) on tech/AI selloff spillover, Samsung/chip contagion hitting Asia. BOJ just hiked to 1.0% (30-yr high) = structural yen/valuation headwind; US-Japan tariff re-escalation a tail risk. Very thin/illiquid perp, gappy. Risk-off follower.",
+    "analyst": "Dead perp: last ~20 bars mostly zero-volume flatlined at 93.13-93.35, so ADX 81 and the composite short are artifacts. Near the lower band above 92.14 with bullish divergence - won't short into the hole, no volume for a long. No honest R:R. Clear no-trade; re-debate a short only on a real-volume break below 92.14.",
+    "portfolio": "EWJ: HOLD (conf 0.30) - untradeable frozen/illiquid tape; watch 92.14 break on volume."
+  },
+  "timestamp": "2026-07-08T01:02:50.675513+00:00"
+}

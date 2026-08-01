@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "TSLA/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.4,
+  "playbook": "none",
+  "forecast": "Weekend-frozen tape coils flat in 381.5-382.4 on microscopic volume; no directional move expected until Monday's cash-equity reopen. 4h RSI 15.3 is deeply oversold, so any real move is more likely a mean-reversion bounce toward VWAP (~395) than fresh downside.",
+  "expectancy_note": "No edge: shorting oversold-extended tape (RSI 15.3, ADX 77.5) with bid-supported orderbook (+0.38) is the account's classic late-short loss; long has no trigger. p(win) ~50/50, R:R sub-1.5 to nearby support. Flat is highest expectancy.",
+  "rationale": "Tokenized equity with US markets CLOSED all weekend - crypto structure metrics are noise and the tape is stale, thin and flat (Monday gap risk). 4h is extreme-oversold (RSI 15.3) with orderbook bid-supported (+0.38), so a fresh short risks getting run over by a bounce, while a long has no confirmation or catalyst. Wed Jul 22 earnings is major event risk; no <=48h catalyst. No concrete next move to trade, so size is zero.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 377.78,
+    "expires_min": 240,
+    "note": "A clean break of 4h support at 377.78 on the Monday reopen would confirm trend continuation and justify a short with a defined stop above the level; until then oversold + bid support favors staying flat."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF; broad SHORT lean. TSLA: tokenized equity, US CLOSED all weekend - stale prices, Monday gap risk. RSI 4h 15.3, ADX 77.5 = extreme oversold/overextended; long/short 1.96 crowded long. Orderbook +0.38 (bid-supported) CONFLICTS with short. Mixed/late - smallest size.",
+    "sentiment": "Overall risk-off, semi selloff. TSLA: EARNINGS Wed Jul 22, 5:30pm ET; Q2 deliveries already reported (480k, best Q2 ever) so print is guidance/margins-driven. No <=48h catalyst; direction neutral into Jul 18-20, but this is the single biggest event risk for any position carried toward Tuesday - do NOT hold size into it.",
+    "analyst": "US closed all weekend so crypto structure is noise; tape stale/thin/flat. 4h extreme-oversold (RSI 15.3) with bid-supported orderbook (+0.38) - a fresh short risks a bounce run-over (account's classic late-short loss, p_win 0.34); long has no trigger. Wed earnings is major event risk. No concrete next move; size zero.",
+    "portfolio": "TSLA/USDT:USDT -> HOLD (conf 0.40): extreme-oversold with bid support contradicts a short; weekend gap + Wed earnings risk; wait for 377.78 break."
+  },
+  "timestamp": "2026-07-18T13:39:22.204383+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "TSLA/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Price is coiling 381.1-382.4 at VWAP just above support 377.78 with 15m RSI 30.6 (oversold) and 5m turning up - expect a mean-revert bounce toward 383.5-384.5 over the next 2-4 bars, not immediate downside. Shorting here would get stopped by that bounce; a clean break of 377.78 is what opens the next leg lower.",
+  "expectancy_note": "p(win) on a short here ~0.45 (into support, oversold LTF, crowd-long already discounted) - negative expectancy; and earnings binary Wed 7/22 caps any carry. HOLD beats both a chased short and a countertrend long.",
+  "rationale": "4h is down (-0.9) and crowd is 2.0x long (short fuel), but price sits AT VWAP just 1% above support 377.78 with 15m RSI 30.6 - this is the exact 'late short into stretched tape' pattern the book bleeds on; a routine bounce hits any honest stop first. p_win_learned 0.481 and confidence 40.8% confirm no edge here. With the Q2 earnings binary ~2 days out (Wed 7/22 after close, volatility spike guaranteed), the correct expectancy move is flat and wait for either a bounce to a proper short entry or a confirmed support break. Size 0.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 377.5,
+    "expires_min": 240,
+    "note": "Decisive loss of support 377.78 confirms the 4h downtrend resuming - turns this from a coin-flip-at-support into a with-trend breakdown short (still small size given earnings 7/22)."
+  },
+  "transcript": {
+    "macro": "MIXED-to-CAUTIOUS. US equities risk-off; rotation OUT of big-tech. FOMC 7/28-29 overhang. Scan shows TSLA short bias / weak 4h (short_ok False). Equity pairs face gap risk at US open (thin overnight book).",
+    "sentiment": "TSLA HIGHEST-PRIORITY BINARY - Q2 2026 earnings + call Wed 7/22 after close (~5:30pm ET), ~2 days out. Do NOT hold sizable positions into the print; volatility spike guaranteed, direction unknown. Near-term = event risk.",
+    "analyst": "4h down (-0.9), crowd 2.0x long (short fuel), but price AT VWAP just 1% above support 377.78 with 15m RSI 30.6 (oversold) and 5m turning up - the exact 'late short into stretched tape' the book bleeds on; a routine bounce hits any honest stop first. p_win_learned 0.481, conf 40.8% = no edge. Q2 earnings ~48h out caps any carry. HOLD; a decisive break of 377.78 turns it into a with-trend breakdown short (small size).",
+    "portfolio": "HOLD TSLA - short bias but oversold at support and a ~48h earnings binary; flat, re-engage only on a 377.5 breakdown (conf 0.5)."
+  },
+  "timestamp": "2026-07-20T03:17:11.519743+00:00"
+}

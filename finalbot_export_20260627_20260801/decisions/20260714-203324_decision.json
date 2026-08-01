@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "TSLA/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.55,
+  "playbook": "none",
+  "forecast": "Price coils just above 391 support on dying after-hours volume; most likely a shallow squeeze toward VWAP/397-399 before either losing 391 or fading \u2014 no clean edge at 395.9 mid-range.",
+  "expectancy_note": "Short p(win) ~0.40: only 4.9pts to 391 vs a ~2.3pt+ honest stop that a bid-heavy, RSI-26 bounce runs first; R:R and probability both poor. HOLD beats chasing.",
+  "rationale": "Downtrend is intact but ADX 24 is weak, RSI 26.6 is oversold, orderbook is bid-heavy (+0.29) and the last bars are tiny-range on collapsing volume just above 391 support \u2014 classic squeeze/stall, not momentum. This account's shorts are net losers (46% win, -1.75 avg) and its #1 loss pattern is late continuation shorts stopped by the bounce, exactly this setup. No long either: no VWAP reclaim and a hard Q2 earnings binary looms July 22. Best expectancy is to wait for a decisive break of 391 (short the retest) or a VWAP reclaim (flip).",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 390.9,
+    "expires_min": 240,
+    "note": "Losing 391 support on volume confirms the breakdown and sets up a clean short-the-retest rather than a mid-range chase."
+  },
+  "transcript": {
+    "macro": "Tokenized US equities, judge off Nasdaq/tech tape not BTC (TSLA BTC corr 0.27). Regime risk-ON: soft June CPI 3.5% vs 3.8%, Nasdaq +0.9%. ~20:29 UTC just past cash close -> perps thinner/gappier after-hours. TSLA: cleanest of trio but crowded short. Downtrend intact (1h -0.90, 4h -0.21, RSI 26, VWAP -0.92%, ADX only 24). L/S 2.07 + funding +0.026% = crowded longs paying (contrarian-supportive), BUT orderbook +0.29 bid-heavy and RSI 26 flag squeeze/bounce risk. Don't chase below support 391.",
+    "sentiment": "Risk-on tech tape post-cool-CPI, Q2 earnings gappy. TSLA: hard binary Q2 earnings July 22 (~8 days out) \u2014 outside 24-48h but dominant looming risk. Deliveries known (record 480k beat) yet stock -7.5% on print (revenue shrank, margins/EPS collapsed, net margin ~4%, EPS -47% YoY); story now auto GM, robotaxi/Optimus burn, $25B capex at ~200x fwd P/E. No scheduled binary in 24-48h -> near-term NEUTRAL-to-slightly-heavy, fragile/headline-sensitive.",
+    "analyst": "15m: slow low-volume grind 400->395.9, last bars tiny-range on collapsing volume (1.9 final) coiling just above 391 \u2014 stall, not momentum. Learner: shorts net losers (28, 46%, -1.75R); aligned weight strongly negative; high_adx losing; #1 loss = late continuation shorts stopped by bounce \u2014 exactly RSI 26.6 + bid-heavy book here. Price 4.9pts above 391, only 0.92% below VWAP; short target 391 = ~4.9pts vs honest stop ~2.3pts a VWAP snap (~399.6) runs first. Marginal R:R, poor probability. No long (no reclaim; earnings binary). HOLD; arm 390.9 for short-the-retest.",
+    "portfolio": "HOLD TSLA \u2014 weak stalled downtrend into 391 with squeeze risk; wait for a 391 break to short the retest or a VWAP reclaim to flip."
+  },
+  "timestamp": "2026-07-14T20:33:24.590089+00:00"
+}

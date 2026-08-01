@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "TSM/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Accelerating LTF flush (5m RSI 14, 30m RSI 20.5) leaves price stretched into 413.8 with no support until 386.8; expect a choppy oversold bounce toward 416-418 within 2-4 bars, then risk of a lower low - neither a clean chase-short nor a confirmed long yet.",
+  "expectancy_note": "No edge: short is a chase into RSI-14 (account's top loss pattern, bounce stops it), long is a falling-knife catch with crowded-long L/S 2.03 unwinding and no reversal candle. Wait for confirmation; p(win) on either blind entry <0.5.",
+  "rationale": "The 20-bar 15m path is a clean, accelerating downtrend closing on its low, with LTFs deeply oversold (5m RSI 14) - too extended to short and unconfirmed to buy. 4h is still nominally long (0.848) but every faster TF has rolled over and structure_bias is -0.34 with a crowded 2.03 long book unwinding, so the composite 0.245 long is muddy and not aligned. Price is mid-air between 386.81 support and 433.74 resistance with no level at spot; size 0 until a reclaim of the 417-418 shelf confirms the bounce or a tag of 386.81 sets up a mean-reversion long.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 417.5,
+    "expires_min": 240,
+    "note": "Reclaiming the 417-418 shelf it just fell from would prove the LTF flush is exhausted and re-open a long with the 4h uptrend."
+  },
+  "transcript": {
+    "macro": "Regime MIXED-to-CAUTIOUS. Chips in an active rout (SOX -13% past month) but today a countertrend bounce (+5% July 21). TSM earnings already out July 16 - no own binary in 48h; drifts with SOX tape and inherits GOOGL/TSLA/INTC read-through. Crowded-long (L/S 2.03). FOMC July 28-29.",
+    "sentiment": "TSM cleaner - earnings out July 16: strong beat (EPS $4.31, rev $40.2B +36% YoY), raised FY26 capex $60-64B, guided Q3 up on AI demand. No fresh 48h binary; near-term news supportive but carries semi-tape + earnings read-through risk.",
+    "analyst": "Clean accelerating 15m downtrend closing on its low, LTFs deeply oversold (5m RSI 14) - too extended to short, unconfirmed to buy. 4h still nominally long but faster TFs rolled over, crowded 2.03 book unwinding, composite muddy/unaligned. Mid-air between 386.81 and 433.74. HOLD; long re-entry on a 417.5 reclaim.",
+    "portfolio": "HOLD TSM - cleanest name fundamentally but mid-flush with no level; short chases RSI-14, long catches a knife. Wait for a 417.5 reclaim."
+  },
+  "timestamp": "2026-07-22T06:32:39.120134+00:00"
+}

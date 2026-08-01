@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "SNDK/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Whippy chop between ~1353 and ~1406; last bar bounced off 1353 to 1367 so near-term is a dead-cat inside the range. Expect 1350-1400 slop until support 1311 breaks (flush) or 1406 reclaims.",
+  "expectancy_note": "No edge: price mid-band (%B 0.51, RSI 55, stoch 42), ATR 1.45%/bar forces a wide stop while nearest structure is far, and US cash closed = thin/gappy. A short chases a fresh bounce (the account's #1 loss pattern); a long fights hot funding + crowded longs + RS -43%.",
+  "rationale": "SNDK is the most crowded/negative name in the set (funding +0.000621, L/S 1.55, structure bias -0.487, RS -43% vs BTC) which biases bearish, but price just dumped ~4% off 1406 and bounced to 1367 mid-range -- not an extreme to fade and not a fresh break to follow. With Sunday-thin liquidity, 1.45% ATR bars, and no <=48h catalyst (earnings Aug 5), there is no honest R:R. Size 0.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 1311.52,
+    "expires_min": 240,
+    "note": "Losing support 1311 confirms the crowded-long squeeze is unwinding -- clean short trigger; a reclaim of 1406 would flip the bearish read."
+  },
+  "transcript": {
+    "macro": "OVERALL REGIME (2026-07-20, Sun -- US cash markets CLOSED, tokenized equities thin/gappy until Mon open): Mixed-to-hostile for risk. Equity tape in a semis-led pullback (Nasdaq -2.9% on week); AI-capex fear the dominant theme after TSMC hiked 2026 capex to $60-64B (MU -5.6% on read-through). Crypto risk-OFF: BTC ~$64.7k off the $65.1k 3wk high, BTC.D 56.3% (alt-unfriendly), Fear&Greed 26; the bounce was CPI/ETF-flow driven, not momentum. Mega-cap earnings begin Wed Jul 22 (GOOGL). Net: smaller size across the board; hostile for semi/AI longs (TSM, MU, SNDK) and crowded equity longs (GOOGL); mixed for BTC and COIN-short.",
+    "sentiment": "MARKET-WIDE (2026-07-20, Sun -- US markets closed, off-hours thin/gappy): Risk soured into the weekend; QQQ fell 3 straight days into Fri (~$695) on a semiconductor sell-off (positioning reset, not a broken AI cycle). FOMC Jul 28-29 (outside window). The ONLY genuine <=48h catalyst on the board is GOOGL Q2 earnings Wed Jul 22 after close -- flag for event risk, do not hold naked size through it. BTC soft-CPI-supported but still Fear (F&G ~26). TSM already reported Jul 16 (blowout, catalyst spent); COIN earnings Jul 30, SNDK Aug 5, MSTR already reported -- all outside window. PT upgrades are long-horizon noise, not tradeable.",
+    "analyst": "HOLD. Most crowded/negative in the set (hot funding, L/S 1.55, RS -43%) so bearish-biased, but price is mid-range after a 4% dump-and-bounce -- no extreme to fade. 1.45% ATR + thin session = no honest R:R. Reconsider below 1311.52.",
+    "portfolio": "HOLD -- squeeze-prone semi name mid-range; wait for 1311 flush to short."
+  },
+  "timestamp": "2026-07-20T01:13:10.593442+00:00"
+}

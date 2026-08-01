@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "CL/USDT:USDT",
+  "size": 0.0,
+  "entry": 71.52,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.55,
+  "playbook": "none",
+  "forecast": "Coiling 71.43-71.57 on dried-up volume; likely a relief bounce toward VWAP ~72.7-73.0 before the downtrend resumes, or a volume-backed flush through 71.43 toward 70.5. Either extreme, not the current mid-coil, is where the edge is.",
+  "expectancy_note": "Market short here is a chase: stoch 17.4 / 4h-RSI 34.9 already stretched, TP1 ~70.5 vs a needed ~1.3-ATR stop at ~72.9 = ~1.0R, below the 1.5R minimum. Waiting for a VWAP retest short gives clean R:R to 67.93.",
+  "rationale": "Strong daily downtrend (ADX 67.6, composite -0.27, crowded longs 4.17 = downside fuel) but the immediate 15m/5m tape is FLAT with collapsing volume and price basing at 71.5 above the low - momentum has faded, not accelerated. Shorting into stochastic 17.4 near VWAP-support coil is the account's classic late-short-into-bounce loss. Best expectancy is to hold and let price either bounce to a better short entry near VWAP or break the coil low on volume; no 48h binary catalyst forces an immediate chase.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 72.7,
+    "expires_min": 240,
+    "note": "A bounce into the VWAP zone (~72.7-73.0) offers a high-quality short re-entry with room down to 67.93 support and a stop above VWAP, restoring 1.5R+."
+  },
+  "transcript": {
+    "macro": "Cycle 2026-07-11 (Sat). CL WTI ~71.5, softening on US-Iran interim deal returning supply; oversupply narrative into H2 (JPM sees Brent ~$60). Scan: composite SHORT (-0.27), ADX 67.6 downtrend, RSI 34.9, crowded LONGS (long/short 4.17, structure_bias -0.36) = contrarian fuel for further downside. Favors SHORT, but RSI ~35 near-oversold - watch for bounce. Crude trades continuously (advantage over closed tokenized equities this weekend).",
+    "sentiment": "CL BEARISH tilt - ~$71-72, capped below $72 by US-Iran interim deal (Iranian barrels returning) + OPEC+ output hike; supply-heavy narrative. No bullish 48h catalyst; near-term news favors short bias. Risk: any Middle East headline reversal.",
+    "analyst": "HOLD. Strong daily downtrend (ADX 67.6, composite -0.27, crowded longs 4.17) but immediate 15m/5m tape is FLAT with collapsing volume, price basing at 71.5 above the low. Shorting into stoch 17.4 / 4h RSI 34.9 near VWAP-support coil is the classic late-short-into-bounce loss; market short R:R only ~1.0R (fails 1.5R). Wait for a bounce to VWAP ~72.7-73.0 for a better short, or a volume break of the coil low. Bearish thesis intact.",
+    "portfolio": "HOLD CL/USDT:USDT - conf 0.55, size 0."
+  },
+  "timestamp": "2026-07-11T07:32:47.951806+00:00"
+}

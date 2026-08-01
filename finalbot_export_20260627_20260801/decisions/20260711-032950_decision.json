@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "TSLA/USDT:USDT",
+  "size": 0.0,
+  "entry": 408.3,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Thin weekend coil 407.6-408.7 with repeated upper-wick rejections at ~408.37; expect continued chop pinned under 408.7 for the next several bars absent a real catalyst, with gap risk into Monday.",
+  "expectancy_note": "No edge either side: long is a chase (RSI 73, crowded L/S 1.599, +1.71% over VWAP) with sub-1.5 R:R to any honest stop; short fights ADX 51 uptrend with no reversal trigger. HOLD is highest expectancy.",
+  "rationale": "TSLA underlying cash market is closed (weekend perp is thin, stale, gap-prone) and the tape is a low-volume coil with sellers rejecting 408.37 repeatedly. Composite is only 35.4% long and crowded longs (L/S 1.599) into RSI 73 and resistance 420 make a fresh long a textbook late-chase, while shorting a strong uptrend with no exhaustion signal is equally unfavorable. No clean structure gives R:R >= 1.5, and CPI Tue plus earnings July 22 add binary risk \u2014 waiting for a resolved break is the disciplined call.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 408.7,
+    "expires_min": 240,
+    "note": "A clean break and hold above the 408.7 session high / rejection cap proves buyers absorbing the crowded-long supply and opens a continuation run toward 411-412, justifying a momentum long."
+  },
+  "transcript": {
+    "macro": "Scan timestamp Saturday 2026-07-11 03:25 UTC: TSLA cash market CLOSED, perp thin/stale/gap-prone \u2192 reduced size. TSLA last 408.3, composite long only 35.4%, RSI 73.4 overbought, ADX 51 (strong up-trend but stretched). RED FLAG: L/S 1.599 crowded longs driving structure_bias -0.097 despite orderbook +0.277 \u2014 contrarian downside risk on a flush. RS only +1.48% (not leading). Weekend gap risk + crowded longs + July-22 earnings = least supportive equity name. Bias CAUTIONARY, smaller size, tight stops.",
+    "sentiment": "TSLA neutral, headline-heavy. Q2 deliveries printed blowout 480,126 (+25% y/y, best Q2 ever) July 2 yet stock FELL 7.5% on margin worry \u2014 good news is spent. Live binary is Q2 earnings after close Wed July 22 (outside 48h). UBS PT $442, SpaceX-merger chatter noise. RSI 73 into resistance $420 \u2014 extended long, no fresh <=48h catalyst. Shared wildcard: US June CPI Tue July 14 08:30 ET.",
+    "analyst": "Low-volume weekend coil 407.6-408.7 with repeated upper-wick rejections at 408.37. Composite only 35.4% long; crowded longs (L/S 1.599) into RSI 73 and resistance 420 make a fresh long a late-chase, while shorting a strong ADX-51 uptrend with no exhaustion trigger is equally poor. No structure gives R:R >= 1.5; CPI Tue + earnings July 22 add binary risk. HOLD; reconsider on a clean break/hold above 408.7.",
+    "portfolio": "TSLA \u2014 HOLD, size 0, conf 0.60; coiled weekend tape, wait for 408.7 break."
+  },
+  "timestamp": "2026-07-11T03:29:50.631553+00:00"
+}

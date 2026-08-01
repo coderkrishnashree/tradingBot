@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "AAPL/USDT:USDT",
+  "size": 0.0,
+  "entry": 313.64,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.35,
+  "playbook": "none",
+  "rationale": "Tokenized AAPL on a CLOSED US cash market (Sun 06:26 UTC) = thin, gappy, weekend-gap risk into Monday. Tape is a dead-flat coil at VWAP mid-range with RSI 40.8 and a squeezed 1.34% BB width; the short composite leans on a lone 1h -0.9 while 4h MACD is positive (+0.93) and structure is neutral. No level to fade, no trigger to break, and the learner shows high-ADX trend shorts bleeding \u2014 expectancy favors standing aside until the underlying reopens. Size 0.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 305.19,
+    "expires_min": 240,
+    "note": "Losing the 305.19 support confirms the range breaks down and validates acting on the short signal rather than fading a coil."
+  },
+  "transcript": {
+    "macro": "Regime NEUTRAL tilting risk-off; Fed edging toward a hike. Sunday 06:26 UTC \u2014 US cash closed; AAPL here is a thin/gappy tokenized wrapper with Monday-gap risk. Scan shows AAPL +7.45% rel-strength yet flashing short signals \u2014 extended.",
+    "sentiment": "AAPL neutral: Q3 FY26 earnings July 30 (outside 48h; vol compression until then). Bullish Broadcom supply deal through 2031 vs real margin worry \u2014 memory costs (iPhone 18 Pro component +272%) pressuring guided 46.5-47.5% gross margin. No sub-48h binary; nothing to trade the news on before Monday.",
+    "analyst": "Dead-flat coil 313.4-314.6 on near-zero volume, RSI 40.8, BB width squeezed 1.34%, price at VWAP mid-range. Short composite rides a lone 1h -0.9 while 4h MACD +0.93 and structure neutral. No level to fade, tiny ATR = poor R:R, and account history shows high-ADX trend shorts losing (-2.89R avg). HOLD, size 0; wait for Monday liquidity. Re-arm short on a break below 305.19.",
+    "portfolio": "AAPL \u2014 HOLD (conf 0.35): frozen weekend coil, no honest edge; stand aside until the underlying reopens."
+  },
+  "timestamp": "2026-07-12T06:32:28.430925+00:00"
+}

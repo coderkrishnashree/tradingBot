@@ -1,0 +1,23 @@
+{
+  "symbol": "SNDK/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.6,
+  "size": 0.0,
+  "entry": 1681.71,
+  "stop_loss": 1676.98,
+  "take_profit": 1780.0,
+  "rationale": "Deep capitulation on a sector-wide memory de-rate (SOX -6.7%, SK Hynix/Samsung crash) - fresh shock already in price, not SNDK-specific. Price is pinned on support 1676.98 with RSI 16.3, stoch 1.9, bb_pctb -0.197 (below lower band), -6.74% below VWAP. Shorting here at RSI 16 with no fresh 48h catalyst is chasing an exhausted move; a long is tempting on the oversold read but longs are already crowded (funding +0.00039, orderbook bid-stuffing +0.555), there is NO reversal confirmation yet (5m still down, no bullish divergence), and next resistance is 2279 with no intermediate target plus off-hours gap risk (ATR 2.84%). Best expectancy is to wait for the level to resolve rather than pay to guess.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 1676.98,
+    "expires_min": 240,
+    "note": "Losing the support shelf that price is holding turns dead-cat exhaustion into fresh trend continuation - a clean short trigger; a reclaim above 1720 would instead arm the oversold-bounce long."
+  },
+  "transcript": {
+    "macro": "Regime SPLIT 2026-07-07: equities risk-on late-stage; SOX semiconductor index dropped 6.7% - sharp de-risking in the memory/AI-compute complex SNDK lives in. SNDK NOT crypto-driven (BTC corr 0.107). Scan: last 1681.71, CAPITULATION - RSI 16.3, stoch 1.9, bb_pctb -0.197, vwap_dist -6.74%, on support 1676.98, rel_strength -16.08%. Funding +0.00039 (longs paying) + orderbook +0.555 (bid-stuffing into drop). Oversold bounce-scalp maybe; NOT a clean short down here. ATR 2.84%, bb_width 10.5% - high vol; off-hours gap risk; size small. Earnings Aug 24 far out.",
+    "sentiment": "SNDK BEARISH tone but fresh shock already in price. Fell ~14% Jul 6 (~26% on week) as Korean/global memory names cratered (SK Hynix -14%, Samsung -9%) on memory-glut fears + rotation out of chip hardware into AI software. Drop came DESPITE good news (Kioxia 10th-gen 3D NAND production start) - macro/sector-driven, not fundamental. Near-term risk is continued contagion / dead-cat bounces, not a scheduled event; tight linkage to Korean semis (0.82 corr MU, 0.69 EWY).",
+    "analyst": "Sector-driven memory de-rate, fresh shock already priced, price pinned on support 1676.98. Shorting at RSI 16 below lower band with no fresh downside catalyst = chasing capitulation. Bounce-scalp long has no confirmation (5m down, no bullish divergence), no intermediate target to 2279, longs already crowded (flush risk if support cracks). HOLD; wait for reclaim >1720 (long) or clean loss of 1676.98 (short).",
+    "portfolio": "HOLD SNDK, confidence 0.6, size 0.0 \u2014 capitulation with no confirmed edge; wait for the support level to resolve."
+  },
+  "timestamp": "2026-07-07T00:43:11.211706+00:00"
+}

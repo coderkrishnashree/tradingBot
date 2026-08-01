@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "SOL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Price coils 75.0-75.6 on dried-up volume just above 73.39 support; most likely it chops here into FOMC, with a break of 73.39 opening 72-71 and a reclaim of 76.9 needed to revive the long. No clean next-move edge right now.",
+  "expectancy_note": "Short into a stalled tape 2.5% above support gives sub-1.5 R:R; long fights down 15m/1h, crowded L/S 2.77, 0.85 BTC-beta with BTC weak, FOMC Wed. Both sides <0.55 p(win) \u2014 HOLD is highest expectancy.",
+  "rationale": "Composite +0.19 long is a flagged 4h artifact (aligned:false, factor 0.7) against down 15m/1h and RSI ~32 on fast TFs; structure_bias -0.33 with L/S 2.77 crowded long is contrarian-bearish, and SOL is pure BTC beta (corr 0.85, rel-str -8.5%) into a risk-off FOMC week. Price flushed 77.4->75.0 then went flat on collapsing volume \u2014 a pause, not a reversal, sitting mid-range with no divergence or reclaim. No side offers a >=1.5 R:R with confirmation, so I wait for the level that decides it.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 73.39,
+    "expires_min": 240,
+    "note": "Losing 73.39 support confirms down-continuation and opens a clean short toward 72-71; a reclaim of 76.9 would instead revive the long."
+  },
+  "transcript": {
+    "macro": "RISK-OFF, event-gated. Crypto risk-off (BTC ~$64.5k, dominance ~59% bleeding alts). SOL SHORT-lean: BTC-corr 0.85 (pure beta) with BTC weak; L/S 2.77 crowded long. Worst spot to be long crypto. Scan's +0.19 long is a 4h artifact vs down 15m/1h.",
+    "sentiment": "SOL best crypto catalyst in the book \u2014 Morgan Stanley spot SOL ETF (MSOL) won NYSE Arca approval Jul 24, up-to-100% staking; 5 spot SOL ETFs live, $1.12B cumulative inflows; on-chain surging; Alpenglow upgrade Q3. Genuine positive tilt BUT 0.85 corr to BTC means Fear tape + FOMC dominate next 48h. Constructive but macro-capped.",
+    "analyst": "Composite long is a flagged 4h artifact vs down 15m/1h (RSI ~32); structure_bias -0.33, L/S 2.77 crowded long, pure BTC beta into risk-off Fed week. Price flushed then went flat on collapsing volume \u2014 a pause, not a reversal. No >=1.5 R:R either side. HOLD; reconsider a short below 73.39.",
+    "portfolio": "HOLD SOL \u2014 ETF tailwind capped by risk-off BTC beta; no edge, wait for 73.39 break."
+  },
+  "timestamp": "2026-07-27T16:09:05.642023+00:00"
+}

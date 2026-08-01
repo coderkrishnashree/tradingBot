@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "NVDA/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.34,
+  "playbook": "none",
+  "forecast": "Coils 207.8-209.9 at VWAP with dried volume into FOMC/MSFT-META; expect chop, no clean directional move next few bars. A break of 209.9 opens 211-214.5; loss of 207.8 opens 205-202.",
+  "expectancy_note": "No edge: mid-range at VWAP, ATR 0.29% and BB 1.73% squeezed mean any honest stop (>=1xATR beyond structure) leaves R:R < 1.5 to the band edge; crowded maxed-long funding blocks a fresh long, 15m short has no extension/level to fade. HOLD beats both.",
+  "rationale": "NVDA is index-beta into a Wed FOMC + MSFT/META capex binary; composite is long but unaligned (p_win 0.497) with 15m rolled short and price pinned at VWAP mid-range. Funding maxed long and structure_bias -0.58 flag crowded positioning, so I will not chase a long, and there is no stretched extreme or broken level to short into. Tight ATR inside a squeezed band makes every entry poor R:R until the coil resolves; size zero, wait for the break.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 209.95,
+    "expires_min": 240,
+    "note": "Clears the 209.9 range top / recent rejection high on volume - confirms the squeeze resolving up toward 211-214.5, turning the crowded-long tape into a real breakout long rather than a mid-range chase."
+  },
+  "transcript": {
+    "macro": "2026-07-27: Mixed-to-hostile, event-gated. FOMC Wed 7/29 2pm ET; MSFT/META Wed close, AAPL/AMZN Thu close. Chip-led selloff is the market's core weakness. Oil >$100. Crowd lopsided-long, maxed funding -> fade crowded longs. NVDA: composite long but not aligned (p_win 0.50), 4h up / 15m rolled short, funding maxed long, structure_bias -0.58 crowded; AI-capex proxy.",
+    "sentiment": "NVDA no earnings until Aug 26 - no company-specific 48h binary. But it is the market's AI-capex proxy: moves on Wed MSFT/META (and Thu AMZN) capex commentary + FOMC. Trading ~$207-209 after a volatile chip-selloff week. Treat as index-beta into Wed.",
+    "analyst": "Index-beta into a Wed FOMC + MSFT/META capex binary; composite long but unaligned with 15m rolled short and price pinned at VWAP mid-range. Funding maxed long / crowded = will not chase a long, and no stretched extreme or broken level to short. Tight ATR in a squeezed band makes every entry poor R:R. HOLD; reconsider breakout long above 209.95.",
+    "portfolio": "NVDA: HOLD - crowded, mid-range, squeezed band into FOMC/capex; wait for 209.95 break."
+  },
+  "timestamp": "2026-07-27T03:07:55.052201+00:00"
+}

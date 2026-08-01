@@ -1,0 +1,25 @@
+{
+  "symbol": "GOOGL/USDT:USDT",
+  "action": "hold",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Thin drift chop 352.3-354.3 into the ~Jul 22 after-close earnings binary; expect low-volume grind near the upper band with no clean intraday follow-through until the print resolves.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 355.5,
+    "expires_min": 240,
+    "note": "A volume-backed reclaim above the coil high (~355.5) justifies a small quick intraday long to be flattened before the close."
+  },
+  "rationale": "GOOGL is in a strong uptrend (ADX 83.7, 1h/4h long, RSI 67) but the last 20 bars are a tight 352.3-354.3 coil pushing the upper band (%B 0.952) on near-zero volume \u2014 a thin drift, not a breakout. The single biggest scheduled binary of the batch (Alphabet earnings after close ~Jul 22) sits inside the window; no directional size may be carried into the print and there is no intraday setup with R:R >= 1.5 to justify a pre-event scalp. Stand aside. HOLD.",
+  "transcript": {
+    "macro": "Regime risk-off/mixed. GOOGL scan long (+0.25), strong uptrend (ADX 83.7, RSI 67). EARNINGS after close ~Jul 22 \u2014 marquee AI-capex/cloud print, a binary INSIDE the hold window. OI thin (5,382). Any swing held past the print = earnings gamble; intraday-only or stand aside, do NOT carry size in.",
+    "sentiment": "Earnings ~Jul 22 after close (~$2.87 EPS) \u2014 single biggest scheduled binary of the batch. Regulatory noise (EU EUR4.1B Android fine upheld Jul 2; EC ordered Android open to AI rivals Jul 16) already priced/long-dated. The print is THE near-term driver.",
+    "analyst": "Strong uptrend but the tape is a tight coil pushing the upper band on 0.4-2.8 unit volume \u2014 thin drift, not a breakout. Binary earnings ~1 day out that cannot be held into; no pullback level to buy and only ~2-3pt to a target (R:R <1.5). Standing aside is highest-expectancy. HOLD, size 0.",
+    "portfolio": "GOOGL \u2014 HOLD (0.60): strong trend but binary earnings ~1 day out; no size into the print, no clean intraday R:R."
+  },
+  "timestamp": "2026-07-21T00:45:43.904577+00:00"
+}

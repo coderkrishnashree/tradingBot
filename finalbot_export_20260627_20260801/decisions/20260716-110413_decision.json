@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "ORCL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "No live ORCL data this cycle (rate-limited out of scan) and US cash market pre-open until 13:30 UTC; thin/gappy book means no honest next-candle path can be drawn. Bias is lower once open, but into a 14-month low with a forming 4h bullish divergence a low-liquidity oversold bounce is the higher-probability near-term move.",
+  "expectancy_note": "No entry: zero live levels + thin pre-open + oversold/divergence = negative expectancy to chase a late short now; better R:R shorting a bounce-failure into resistance after cash open.",
+  "rationale": "ORCL has NO row in _scan_latest.json this cycle - it appears only in fetch_errors (rate-limited), so I have no price, no per-TF scores, no ATR, no support/resistance and no live structure to size a trade honestly. The directional read is bearish (active selloff, S&P downgrade to BBB-, debt/capex overhang), but the tape is stretched (down ~47% since June, 14-month low two days ago, 4h bullish divergence forming) and the perp is thin and gap-prone pre-open - shorting here is precisely the account's proven late-short-into-oversold loss pattern. Sizing zero and waiting: re-engage the short only on a bounce that fails at resistance with live data in hand once the cash market opens.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 155.0,
+    "expires_min": 240,
+    "note": "Losing the ~155 area (fresh 14-month-low zone) on live data after cash open would confirm the bearish trend resuming rather than an oversold bounce, justifying a with-trend short entry with real ATR/structure levels."
+  },
+  "transcript": {
+    "macro": "Risk-on but late-stage/choppy. Soft June CPI + soft PPI trimmed Fed hike risk, 10y ~4.57%, lower yields supportive for high-multiple software/cloud. ORCL caveat: RATE-LIMITED out of this scan (fetch_error on 5m) -> NO live funding/OI/long-short/orderbook structure this cycle. Corr ~uncorrelated to BTC (0.155) and SOL (0.048) -> treat purely as equity. US market PRE-OPEN at 11:00 UTC (cash open 13:30 UTC) -> tokenized perp THIN and gap-prone = dominant near-term risk. 52-wk range huge ($127.60-$345.72), high-vol -> size small. Bottom line: MIXED, STAY OUT pre-open; once cash opens mild lean, self-confirm + small size.",
+    "sentiment": "ORCL bearish, moderately strong (momentum + credit overhang). Active ongoing selloff: 14-month low Mon Jul 14 (-6.5% that day), down ~1/3 since June 10 earnings, ~47% since start of June. S&P downgraded to BBB- (one notch above junk); OpenAI ~half of $638B backlog (concentration risk); FY2027 capex guided $90-95B; FY2026 FCF -$23.7B, projected ~-$42B FY2027; ~$40B new debt/equity; ~21,000 (13%) headcount restructuring. Real price-moving narrative in motion. NO binary event inside 48h - next earnings Sep 14, 2026. US markets CLOSED at scan time -> thin/gappy until 13:30 UTC. Analyst 12m PT ~$252 long-horizon only. Main 2-day risk to a short = low-liquidity/oversold bounce (4h bullish divergence forming).",
+    "analyst": "ORCL has NO row in the scan - only fetch_errors (rate-limited 'Too many visits'). Zero live data: no current price, no per-TF scores, no indicators, no structure. Cannot construct honest entry/stop/target levels. Directional lean is bearish per macro/sentiment, but operationally: (1) no live scan data to set structural levels or verify not chasing an already-stretched/oversold move (4h bullish divergence forming, 14-month low two days ago); (2) US cash pre-open -> thin, gap-prone perp; (3) no binary catalyst inside 48h. Shorting an oversold, 14-month-low, thin-book name with no live levels is the account's #1 loss pattern (late short stopped by the bounce). Correct call: HOLD with a reconsider trigger to re-engage the short once cash opens and price fails a bounce / loses fresh-low support with real data.",
+    "portfolio": "HOLD ORCL - no live data this cycle (rate-limited) + thin pre-open book; bearish lean but wait for cash open and live levels before any short."
+  },
+  "timestamp": "2026-07-16T11:04:13.200126+00:00"
+}

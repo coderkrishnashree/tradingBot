@@ -1,0 +1,23 @@
+{
+  "symbol": "XAUT/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.55,
+  "size": 0,
+  "entry": 4024.1,
+  "stop_loss": 4045.0,
+  "take_profit": 3985.0,
+  "rationale": "Trend/macro/structure all lean short (4h -0.659, L/S 2.79 crowded-long, RS -9.55% vs BTC, orderbook -0.224), but entry is bad now: price sits exactly at VWAP (-0.29%) with 30m RSI 17.8 / 5m RSI 28.6 deeply oversold after a failed bounce, and last 5 candles rolled 4031->4024 \u2014 a counter-bounce to 4035-4040 is the likelier next move. Account's 30 shorts won only 47% (-1.59 avg) shorting stretched-down tape, so market-shorting here is negative expectancy. Prefer to short a bounce into 4038 or a clean break of 4021; holding is higher-expectancy.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 4020.0,
+    "expires_min": 240,
+    "note": "losing the 4021 low confirms the failed bounce and opens 3985/3981 support \u2014 a momentum short trigger, not a chase"
+  },
+  "transcript": {
+    "macro": "Cautiously risk-on, not euphoric. June CPI 3.5% (soft); ~88% Fed hold at July 28-29 FOMC. DXY soft ~100.9. BTC ~$64.9k, dominance 54-55% leading alts; funding mildly positive, OI stable-rising ($47.7B), L/S 1.30, orderbook +0.22 bid-supported. Nasdaq firm (26,269, +0.62% Jul 15), mega-cap tech leading. Gold in correction, -6% MoM to ~$4,024-4,060, safe-haven premium drained post US-Iran ceasefire. Catalysts: FOMC Jul 28-29, GOOGL earnings Jul 22 AMC, MSTR earnings Jul 30 \u2014 all outside 48h.",
+    "sentiment": "BTC modestly bullish near-term but event-capped \u2014 soft CPI rallied BTC to $65.1k Jul 15; ETF flows reversed to positive early July (~$510M/3d, BlackRock led); Fear&Greed low (~23-35); FOMC Jul 28-29 next binary. MSTR neutral-to-cautious: reversed playbook, SOLD 3,588 BTC (~$216M) for preferred dividends, raised $466.7M via shares but bought no BTC; high-beta BTC proxy, stock +~29% off late-June low. GOOGL neutral, high-impact Jul 22 AMC earnings; $80B equity offering + $10B Berkshire; EU/German regulatory noise. XAUT/gold neutral, macro-tethered, ~28% below Jan ATH; no token-specific news; July 29 FOMC next pivot.",
+    "analyst": "Trend/macro/structure lean short but entry at VWAP is stretched (30m RSI 17.8, 5m RSI 28.6 oversold after failed bounce); learner shows this account's late shorts into stretched tape lose (30 shorts, 47% win, -1.59 avg). R:R ~2.8 to 3985 if it doesn't bounce first, but a counter-bounce to 4035-4040 is the higher-probability next move. HOLD; short a bounce into 4038 resistance or a clean break of 4021 instead.",
+    "portfolio": "XAUT: HOLD @0.55 \u2014 short bias intact but don't chase into VWAP; armed to short below 4021."
+  },
+  "timestamp": "2026-07-16T05:33:45.932620+00:00"
+}

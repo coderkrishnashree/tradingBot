@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "QQQ/USDT:USDT",
+  "size": 0.0,
+  "entry": 711.33,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.55,
+  "playbook": "none",
+  "forecast": "Price coiled 710-713 after bouncing off the 707.99 low; expect chop in this box for the next 2-4 bars. A clean break below 707.5 opens 703/698; a reclaim of VWAP ~720 sets up a rally-fade short instead.",
+  "expectancy_note": "Shorting 711 into 1h RSI 31 / 30m RSI 35 / %B 0.14 / stoch 17.6 is chasing oversold \u2014 a routine bounce hits any honest stop first (the book's #1 loser). No long vs risk-off chip-drag tape with 4h down. HOLD until price picks a side.",
+  "rationale": "QQQ is stretched to the downside on LTF (1h RSI 31, %B 0.14, stoch 17.6) and just bounced off 707.99 to coil 710-713 \u2014 a fresh market short here is exactly the late-into-stretched-tape entry that this account keeps losing on, and going long fights the 4h downtrend + risk-off/chip-drag catalyst. R:R for any immediate entry is poor because the honest stop sits beyond structure while price sits mid-range. Wait for either a continuation break below 707.5 (short toward 698) or a VWAP reclaim near 720 (rally-fade short) before committing size.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 707.5,
+    "expires_min": 240,
+    "note": "Losing the 707.99 bounce low confirms the oversold coil resolved lower \u2014 validates a continuation short toward 703/698 with the 4h downtrend."
+  },
+  "transcript": {
+    "macro": "RISK-OFF/defensive tilt: hawkish Warsh-led Fed edging toward a hike as US-Iran strikes rekindle energy inflation, though June CPI/PPI soft. Nasdaq is the weak spot (chip-led selloff, TSM -4% post-earnings, MU/AMD/INTC/SNDK -3%). Yields/DXY firm = headwind for growth/metals/crypto. QQQ: below VWAP, RSI 44, 1h/4h down, lagging BTC (-7.7% RS); supports shorts/fade rallies. Whippy, gap-prone tape argues smaller size.",
+    "sentiment": "June CPI soft (core coolest since 2021); July Fed hike odds collapsed ~42%->17%, sparking risk-on rotation into mega-cap tech; Sept hike ~60% priced. Near-term binaries: Warsh testimony (from Jul 14) + PPI data this week; FOMC Jul 28-29. QQQ mildly bullish near-term on cooling-CPI rotation + chip-earnings tailwinds, but PPI/Warsh are two-way risk. Macro (risk-off structure) and sentiment (risk-on CPI rotation) conflict.",
+    "analyst": "QQQ stretched to the downside on LTF (1h RSI 31, %B 0.14, stoch 17.6) and just bounced off 707.99 to coil 710-713. A fresh short chases oversold into a live bounce (account's #1 loss pattern); a long fights the 4h downtrend + chip-drag catalyst. No honest R:R from mid-range. Reconsider short on a break below 707.5, or rally-fade short on a VWAP reclaim ~720.",
+    "portfolio": "QQQ: HOLD (conf 0.55) \u2014 no edge mid-range; wait for 707.5 break or VWAP reclaim."
+  },
+  "timestamp": "2026-07-16T15:36:26.058287+00:00"
+}

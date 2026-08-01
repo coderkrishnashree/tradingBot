@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "MSTR/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.55,
+  "playbook": "none",
+  "forecast": "15m tape is rolling over (97.84 to 97.0 to 96.76, closing in lower range), but 5m RSI 31.6 is stretched short-side; expect either a dead-cat bounce toward 98.3-98.8 (broken-support-turned-resistance / VWAP) where a short belongs, or a clean loss of 96.4 that opens 94 then support 90.14. Neither offers honest R:R from 96.76 right now.",
+  "expectancy_note": "No entry clears R:R 1.5 from spot: market-short after a 2-bar drop is the account's #1 loser (30 shorts, 47%, -1.59R), and the 'long' is only a 4h RSI 70.5 snapshot into an extended, BTC-correlated, demand-bid-removed tape. HOLD + armed trigger beats forcing either.",
+  "rationale": "MSTR is pure BTC-beta (corr 0.741) with BTC below its 66.4k cost and mNAV collapsed to ~1.02, plus a fresh mild-bearish 'raised cash, bought zero BTC' headline removing the flywheel bid \u2014 a long here is chasing a 4h RSI 70.5 with every lower TF flat-to-down. But a fresh short from 96.76 is also a chase into a 2-bar flush with 5m RSI already 31.6 and support 90 still ~7% away, exactly the late-short pattern that has bled this book. Best expectancy is to wait: short a relief bounce into 98.3-98.8, or a decisive break of 96.4.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 96.4,
+    "expires_min": 240,
+    "note": "Losing 96.4 confirms the 15m rollover and opens 94 then support 90.14 \u2014 arms a with-momentum short; a bounce back above 98.8 would instead offer a higher, better short entry."
+  },
+  "transcript": {
+    "macro": "Regime MIXED, cautious risk-on; crypto weak (BTC ~$64.5k, ETF outflows, dominance >50%). MSTR scan weak-long (blended +0.227, align 0.7, conf 27%; only 4h long/RSI 70.5, lower TFs flat-to-down, 5m rolling over). Structure roughly neutral (L/S 1.456, funding 0, orderbook +0.124). KEY: MSTR-BTC corr 0.741 \u2014 leveraged BTC bet. BTC below MSTR's ~$66.4k avg cost, mNAV ~1.02 (premium gone). No compelling long; risk is BTC leg lower dragging MSTR with amplified beta.",
+    "sentiment": "NEUTRAL with fresh mild-bearish wrinkle. Last week Strategy raised ~$466.7M selling stock but bought ZERO BTC \u2014 holdings flat at 843,775 BTC; stock dipped ~3% Jul 13 on the pause. Rolled out Digital Credit Capital Framework ($1.25B BTC-monetization, $1B buyback, USD reserve ~$3.0B, STRC 12%). Mixed: Citi Buy $260 vs flywheel-bid removed. Direction keys off BTC (reclaimed $65k = mild positive). No 48h binary.",
+    "analyst": "Pure BTC-beta with demand-bid removed and 4h extended (RSI 70.5) but rolling over on 15m/5m \u2014 long is a chase, short from 96.76 is a late-short into a 2-bar flush (5m RSI 31.6) with support 90 ~7% away = the account's proven loser. No honest R:R from spot -> HOLD. Short a relief bounce into 98.3-98.8, or a decisive break of 96.4.",
+    "portfolio": "MSTR: HOLD (conf 0.55) \u2014 leveraged BTC proxy, no clean R:R; wait for a bounce to short or a 96.4 break."
+  },
+  "timestamp": "2026-07-15T19:34:01.078740+00:00"
+}

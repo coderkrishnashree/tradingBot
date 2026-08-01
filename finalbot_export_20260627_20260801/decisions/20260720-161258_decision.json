@@ -1,0 +1,28 @@
+{
+  "symbol": "XAG/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.6,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "none",
+  "forecast": "Low-volume drift to 57.18 stalls under the 57.25-57.30 trendline/100-SMA wall; next few bars most likely fade back toward 56.80-56.50 VWAP/support unless a volume break clears 57.30, after which 57.90 then the 59.90 level opens.",
+  "expectancy_note": "No long R:R buying into a wall 12c away; no short into bullish divergence + rebound. Both tails weak vs waiting for the break - HOLD is highest expectancy.",
+  "rationale": "XAG is pinned just under the repeatedly-rejecting 57.25-57.30 resistance on the thinnest-volume bar of the sequence (892 vs 3-10k prior) - a weak drift, not a break. The book is the most crowded long in the entire scan (L/S 3.89, structure_bias -0.357, asks heavier at -0.165), and the learner model penalizes exactly this crowding plus the negative relative strength; 4h RSI 75 / stoch 79 are stretched. A market long here has ~12c to resistance (no R:R) and a market short fights a fresh bullish divergence and the +1.5% rebound. The clean, high-expectancy trade only exists on a confirmed break, so I wait.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 57.35,
+    "expires_min": 240,
+    "note": "A volume-backed close above the 57.30 trendline/100-SMA that has repeatedly rejected flips this to a long toward 57.90 then 59.90."
+  },
+  "transcript": {
+    "macro": "Regime risk-on but cautious/mixed; DXY ~100.8 firm-ish; FOMC 7/29 ~9 days out (outside 48h), market flipped to ~53% odds of a Sept HIKE = live two-way rates risk. Firm oil (Iran) = inflation tailwind for metals BUT rising yields + firm DXY + soft industrial demand = cap. XAG (last ~57.18) NEUTRAL-to-headwind: +1.5% Monday off ~$55 but stuck UNDER the 57.25-57.30 trendline/100-SMA that has repeatedly rejected. Most crowded book in the scan (L/S 3.89, bias -0.357). A long only works on a clean break above 57.30.",
+    "sentiment": "XAG MILDLY BULLISH today, macro binary looming. Rebounding to ~$56.8-57 (+~1.5%), eyeing trendline breakout toward $60 (weekly R1 ~$63). Real catalyst is FOMC July 29 (outside 48h) - rate cuts priced OUT (~73% odds of a hike by Dec), a headwind that has repeatedly stalled rallies at $60-63. Gold/silver ratio ~69:1 stretched, favors silver longer-term. Next 24-48h: constructive intraday momentum, no dated in-window binary; tape/DXY trade. Mildly bullish but Fed caps conviction.",
+    "analyst": "Low-volume drift to 57.18 into the 57.25-57.30 wall on the thinnest bar of the sequence (892 vol) - weak, not a break. Most crowded long in the scan (L/S 3.89, bias -0.357), asks heavier, 4h RSI 75/stoch 79 stretched. Long has ~12c to resistance (no R:R); short fights a fresh bullish divergence and the rebound. Hold; a volume-backed close above 57.35 flips to a long toward 57.90 then 59.90.",
+    "portfolio": "HOLD XAG - no edge into the 57.30 wall; long arms on a volume break above 57.35."
+  },
+  "timestamp": "2026-07-20T16:12:58.618923+00:00"
+}

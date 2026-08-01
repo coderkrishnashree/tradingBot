@@ -1,0 +1,27 @@
+{
+  "action": "hold",
+  "symbol": "COIN/USDT:USDT",
+  "size": 0.0,
+  "entry": 165.34,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "expectancy_note": "Short = chasing a washed-out flush (15m RSI 15.7, stoch 0.8, %B 0.065, -2.44% below VWAP); long = catching a knife into hostile risk-off tape + live CLARITY binary. Neither clears R:R 1.5 with acceptable p(win). HOLD is best expectancy.",
+  "rationale": "COIN just flushed to $165 with a 15m volatility-expansion 'breakout short' (bbw x2.76, vol x2.39), but price is already deeply oversold and 2.44% below VWAP against the $142.48 support shelf - shorting here is chasing mid-air. ADX 12.7 = chop, no trend to ride, and the mean-reversion long has zero confirmation (no bullish divergence) while fighting risk-off BTC (corr 0.77) and the imminent CLARITY-Act headline that can gap either direction. No entry offers R:R >= 1.5 at honest probability, so I stand aside and let the binary + oversold condition resolve.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 142.48,
+    "expires_min": 240,
+    "note": "Losing the $142.48 support shelf confirms the flush is a real breakdown (not just an oversold wick), turning a chased short into a valid trend-continuation entry with room to run."
+  },
+  "transcript": {
+    "macro": "Overall regime HOSTILE / risk-off crypto: BTC ~$61,950 chop, extreme fear, ETF outflows; size down. COIN (HOSTILE, double-exposed): not in top scan rows - no structure block for COIN, data-thin here. btc_corr 0.769 (very high) - crypto-beta EQUITY: eats both risk-off crypto tape AND equity tape; with BTC in Fear + ETF outflows that's a headwind. Fundamentally weak: Q1 2026 big miss (EPS -$1.49 vs +$0.29, net loss $394M) as crypto fell 20%+. Earnings ~July 30 - outside 48h, known event to fade toward. Least supportive environment of the four.",
+    "sentiment": "COIN mildly bullish momentum BUT a real <=48h regulatory binary is live. CATALYST: CLARITY Act - Senate returns July 13, ~3 weeks before August recess = last realistic passage window; Lummis pushing July floor vote. As of July 4 NO scheduled vote and 3 disputes unresolved. Any headline (vote scheduled/cloture/passage/stall) is a sharp COIN mover - imminent but not fixed timing. Momentum up: COIN +19% in 5 sessions to ~$165 on bullish analyst re-rating + 'everything exchange' launches (tokenized stocks, perps/options via Deribit, AI advisor). Offsetting: Q1 2026 $394M net loss, Barclays Underweight $107 target, ~0.77 corr to BTC. Net: tug-of-war; HIGHEST event risk of the four.",
+    "analyst": "COIN is a tokenized Coinbase equity perp, so I weight technicals plus macro/sentiment over crypto structure metrics. Price sits at $165.34 having flushed hard: 15m RSI 15.7, 1h RSI 14.7, stochastic 0.8, bb_pctb 0.065 and 2.44% below VWAP - deeply oversold on lower TFs and pressed into the lower Bollinger. The scan's 'breakout short' at 165.40 (bbw 2.76, vol 2.39) is a volatility/volume expansion on the selloff, but entering short into that with the tape this washed out and the $142.48 support shelf below is chasing an extended move. ADX 12.7 with a 'chop' regime means no established trend to ride, and a mean-reversion long has no confirmation (composite divergence is bearish) while fighting a hostile risk-off BTC backdrop (0.77 corr) plus the live, unscheduled CLARITY-Act binary that can spike price violently either way inside 48h. Expectancy on both directions is poor -> HOLD. I arm a reconsider on a decisive break below $142.48.",
+    "portfolio": "HOLD COIN - washed-out flush into support with a live CLARITY-Act binary; both sides are poor expectancy, stand aside, armed to short a decisive break below 142.48."
+  },
+  "timestamp": "2026-07-06T12:48:28.216914+00:00"
+}

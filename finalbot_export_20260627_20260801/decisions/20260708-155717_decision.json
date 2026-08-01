@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "MSTR/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.55,
+  "playbook": "none",
+  "forecast": "Price stabilizing 92.4-93.7 on fading volume after the 91.9 flush; expect a corrective bounce toward 95-96 (broken support / VWAP-lag) over next 2-6 bars OR a fresh breakdown through 91.9. Selling the hole here at 93 into RSI 22 + bullish divergence + flat funding is a poor short entry.",
+  "expectancy_note": "Best with-trend short is a bounce into 95.3-96 resistance (stop 97.4, target 90/88 = R:R ~2:1); shorting 93 now gives ~1:1 into oversold squeeze risk \u2014 negative expectancy. Wait for the level.",
+  "rationale": "Trend is decisively down (ADX 65.8, price -7.5% below VWAP, longs trapped at L/S 1.51) so the bias is short, but the tape is deeply oversold (4h RSI 22, %B 0.037, stoch 7.7) with bullish divergence and the last four 15m bars ticking up on drying volume \u2014 a dead-cat stabilization, not fresh downside momentum. Funding is flat (0.0), so shorts aren't crowded but there's no squeeze fuel keeping this from bouncing to VWAP-lag ~95-96 first. Shorting the flush low here is a ~1:1 chase into snap-reversal risk (BTC $61.7k just off support, Iran headline risk); I want either a bounce into 95.3+ to sell with-trend or a clean break of 91.9 on volume \u2014 so I hold and arm the trigger.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 95.3,
+    "expires_min": 240,
+    "note": "Reclaim into 95-96 broken-support/VWAP-lag zone offers a proper with-trend short entry (stop 97.4 above swing, target 90/88, R:R ~2:1) instead of selling the oversold hole."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF / hostile to fresh longs. Geopolitical shock (Trump: US-Iran ceasefire 'over', US airstrikes, oil up); US equities down intraday (Dow -1.6%, S&P -1%, Nasdaq -1%), VIX 16.5-18.9. BTC broken ~$61.7k near 21-month low, dominance ~54-55%, weak US spot demand. Whole board one-way short; funding flat/near-zero (shorts not crowded, room to run). Biggest risk = snap risk-on reversal (Iran de-escalation or BTC reclaiming $64k) squeezing longs, with MSTR MOST exposed (already 29% off lows). MSTR lean SHORT (with-trend): btc_corr 0.789, rel-strength -15.4% (high-beta BTC laggard), RSI 22, ADX 65.8, -7.5% below VWAP, L/S 1.51. Size SMALL; don't chase into support $83.45.",
+    "sentiment": "Crypto tone Extreme Fear. MSTR lean BEARISH \u2014 fresh catalyst: Saylor's Strategy FLIPPED from never-sell to actively SELLING BTC \u2014 3,588 BTC (~$216M) sold late-June/early-July to fund preferred dividends + rebuild ~$2.55B USD reserve; $8.32B quarterly digital-asset loss, BTC below cost basis. 'BTC buys off the table for foreseeable future' = regime change. Analysts trimmed targets (Mizuho to $213 from $265, still Outperform). Bear-flag setup flagged. No fixed 48h dated event but treasury-selling narrative + BTC weakness is an active bearish driver; each new 8-K/sale headline = downside trigger.",
+    "analyst": "MSTR is in a strong downtrend (ADX 65.8, -7.5% below VWAP, trapped longs) and the macro/sentiment lean is short, but price at 93.0 is deeply oversold (4h RSI 22, lower-band %B 0.037) with bullish divergence and four stabilizing 15m bars on fading volume right after the 91.9 volume flush \u2014 a dead-cat bounce setup, not fresh downside. Flat funding means shorts aren't crowded (no immediate squeeze) but also nothing preventing a corrective pop toward the 95-96 VWAP-lag zone, where a with-trend short offers ~2:1 versus ~1:1 chasing the hole here into snap-reversal risk (BTC $61.7k near support, Iran headline). HOLD now, armed to short on a reclaim of 95.3.",
+    "portfolio": "MSTR \u2014 HOLD (conf 0.55): downtrend intact but too oversold to short the hole; armed to short a reclaim of 95.3 for ~2:1."
+  },
+  "timestamp": "2026-07-08T15:57:17.339757+00:00"
+}

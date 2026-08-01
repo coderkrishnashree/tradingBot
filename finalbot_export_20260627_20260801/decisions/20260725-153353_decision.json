@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "SNDK/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price is basing in a tight 1432-1447 band around 1437 after a violent drop; expect it to chop/mean-revert here over the next few bars rather than cleanly extend lower, with a real risk of a snapback toward VWAP or a weekend gap-up.",
+  "expectancy_note": "Short p(win) ~0.40 (learner shorts 0.47 and bleeding avg -0.78, structure_bias +0.19 against it, -8% below VWAP + 4h RSI 22.7 = chasing into oversold); no long confirmation. Best expectancy is flat.",
+  "rationale": "Scan wants a short but every quant check fails: price is already -8.12% below VWAP with 4h RSI 22.7 (deeply oversold, far past the 1.5xATR chase limit), orderbook is heavily bid (+0.839) and structure_bias leans against the short, and the account's shorts lose (0.47 win, -0.78 avg) while model weights punish exactly this stretched/against-structure setup. The 15m tape shows basing near 1437, not fresh breakdown momentum. With US cash closed, thin weekend perp liquidity and gap-up risk in a euphoric +700% YTD name, a knife-catch short here is the exact late-into-oversold pattern that has bled this book \u2014 HOLD is the highest-expectancy call.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 1411.0,
+    "expires_min": 240,
+    "note": "Losing the Jul-25 range low (~1412) on real volume proves the base failed and the downtrend is resuming with room to run toward support 1311, making a short viable rather than a knife-catch."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF, hawkish Fed, oil-shock dominant, equities selling off led by tech. SNDK: scan short (blended -0.31, conf 38%, ADX 59.5, 4h RSI 22.7, price -8.1% vs VWAP, weakest vs BTC rel_strength -24.97%) BUT fundamentals a raging bull (rev +251% YoY, 78.4% GM, NAND contract prices rising on AI demand, +574% longer-term). Structure crowded-long: funding 0.0, L/S 1.215, orderbook imbalance +0.839, structure_bias +0.186 (leans AGAINST the short). US equities closed weekend -> thin/gappy gap-up risk.",
+    "sentiment": "SNDK lean bullish momentum, NO near-term binary. Euphoric \u2014 top S&P 500 performer of 2026 (~+700% YTD) on NAND/DRAM supercycle, contract prices +70-75% QoQ Q2, +10-15% forecast Q3. Analyst PT hikes (Bernstein $3,000, BofA/Citi $2,500, Wells $1,620) but long-horizon; crowded one-way positioning raises reversal/profit-taking risk. Real catalyst = FY2026 Q4 earnings Wed Aug 5 (outside 48h). Trade is on technicals, not news.",
+    "analyst": "Textbook late-short trap: deeply oversold, -8% below VWAP, heavy bid, structure against the short, euphoric name + weekend gap-up risk; account shorts bleed. No long confirmation into a knife on thin weekend liquidity. HOLD; arm short reconsider below Jul-25 range low ~1411 on volume.",
+    "portfolio": "SNDK/USDT:USDT \u2014 HOLD (conf 0.60): scan short but oversold knife-catch against crowded bid + weekend gap-up; wait for base failure."
+  },
+  "timestamp": "2026-07-25T15:33:53.634308+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "TSLA/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Oversold bounce in progress: last 3 15m bars reversed 399.3->402.2 closing at range-high on rising volume with 5m RSI 82; expect a push toward VWAP ~407-410 over next 2-6 bars before the downtrend can resume. Shorting at 402 gets stopped by that bounce; wait for either a VWAP rejection or a clean break of 391 support.",
+  "expectancy_note": "p(win) on a market-short here ~0.40 (1h/4h RSI 26-30 oversold, active bounce, 5m RSI 82) \u2014 negative expectancy and the exact late-short pattern that made this book's 23 shorts lose (48% win, -1.54 avg). Waiting for 391 break or VWAP rejection lifts p(win) to ~0.55 with cleaner R:R; HOLD beats chasing.",
+  "rationale": "Composite is a weak, non-aligned short (35% conf) into deeply oversold mid-TFs while price is actively bouncing off the lower Bollinger band (bb%b -0.07) with 5m RSI 82 \u2014 market-shorting now is chasing and would be stopped by a routine pop to VWAP ~407. CPI is inside 48h (de-risk). Learner stats confirm trend-shorts here bleed (-2.51 avg). No long either: 1h/4h trend still down, ADX 57, risk-off macro. Highest-expectancy action is to wait for the bounce to exhaust or 391 to break.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 390.9,
+    "expires_min": 240,
+    "note": "Losing 391 support proves the oversold bounce failed and the downtrend leg resumed \u2014 arms a momentum short toward the 380s with a stop back over 391."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF into US open on a geopolitical shock (CENTCOM strikes on Iran, Strait of Hormuz); Nasdaq futs ~-1.24%, S&P ~-0.51%, oil up, S&P ~22% up-open odds. Trade as Nasdaq beta (TSLA BTC corr 0.29). Rates/USD hostile: hawkish Warsh Fed, ~75% hold/25% HIKE for July 29 FOMC, no cuts. EVENT WALL: June CPI Tue Jul 14 08:30 ET (inside 48h); TSLA earnings after close Wed Jul 22 (outside horizon) \u2014 de-risk into CPI. TSLA L/S 1.64 (bias -0.19, contrarian short fuel), funding flat (low squeeze risk), rel strength ~flat (+0.8%), 5m RSI hot ~82 \u2014 prefer selling into strength.",
+    "sentiment": "TSLA event risk HIGH, mixed/slightly bearish tactically. Two catalysts already FIRED & digested: Q2 deliveries (Jul 2) 480,126 +25% YoY crushing ~406k consensus (first growth since 2023); robotaxi expanded to Miami (5 markets) \u2014 fueled a run toward ~$420 earlier in July. Now pulling back hard intraday (1h RSI ~26, below 391 support, VWAP -1.3%). Next hard binary Q2 earnings Wed Jul 22 after close (9 days out, outside window). Musk tempered robotaxi revenue expectations ('unlikely before 2027'). No <=48h catalyst; positive fundamentals priced, momentum turned down \u2014 news NEUTRAL-to-mildly-supportive of the short but beware robotaxi pops.",
+    "analyst": "Composite is a weak non-aligned short (35% conf) into deeply oversold mid-TFs (1h/4h RSI 26-30) while price actively bounces off the lower Bollinger band (bb%b -0.07) with 5m RSI 82 \u2014 market-shorting is chasing, would be stopped by a pop to VWAP ~407. CPI inside 48h. Learner stats: trend-shorts bleed (-2.51 avg). No long either (trend down, ADX 57, risk-off). HOLD: wait for the bounce to exhaust or a clean break of 391.",
+    "portfolio": "HOLD TSLA \u2014 weak non-aligned short into an oversold 5m-RSI-82 bounce; momentum short trigger armed on a break below 390.9."
+  },
+  "timestamp": "2026-07-13T07:32:33.963980+00:00"
+}

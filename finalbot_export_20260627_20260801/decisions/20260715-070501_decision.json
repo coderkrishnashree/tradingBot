@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "AAPL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price stays pinned 314-316 near VWAP/mid-range over the next several bars; no directional resolution until it tags a range edge (307 support or 323 resistance) or US open at 13:30 UTC brings liquidity.",
+  "expectancy_note": "No entry has R:R >= 1.5 from dead-center of a 307-323 range; shorting into a 5m already at RSI 27 invites the counter-bounce that kills late shorts. Best expectancy is flat.",
+  "rationale": "AAPL is coiled mid-range: BB width 1.56%, price at VWAP (-0.48%), stoch 26.7 and %B 0.47 all dead-center, structure balanced (L/S 0.946, funding 0). The mild short composite is powered by an already-oversold 5m (RSI 27) \u2014 a fade-the-move short here would be chasing into stretched tape and get bounced before 307. US market is closed (thin/gappy) with no <=48h catalyst (earnings Jul 30). No edge either direction; hold and wait for a range edge to trade against.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 312.5,
+    "expires_min": 240,
+    "note": "Losing 312.5 breaks the tight coil lower and opens a clean momentum short toward 307 support with room for R:R; a reclaim/hold above 316.5 would instead argue the 1h up-bias is winning."
+  },
+  "transcript": {
+    "macro": "Risk-on (cooler CPI) but overnight/US-closed thin/gappy window; basket crowded-long. AAPL MIXED-to-soft, no edge either way: nearly flat vs everything (bias -0.04, L/S ~0.95 balanced, funding 0), composite leans slightly short (-0.24) on weak 5m/4h but 1h up \u2014 rangebound 307-323, ADX high but BB width only 1.6% = coiled/quiet. No catalyst till Jul 30. Pure chart trade.",
+    "sentiment": "AAPL neutral, drifting, no <=48h catalyst. Earnings Jul 30 (Tim Cook's last call). Last week all long-horizon narrative \u2014 PT hikes (Citi $365, others $365-400) on Siri-AI/Gemini roadmap, one bear (KeyBanc). Don't trade PT changes. Low BTC corr (0.26), tight range. Neutral, chop.",
+    "analyst": "Coiled mid-range chop: price at VWAP, stoch/%B dead-center, balanced structure, US closed, no 48h catalyst. Mild short lean is driven by an already-oversold 5m (RSI 27) \u2014 a short would chase into a likely counter-bounce with no room to 307. No entry clears R:R >= 1.5 from dead-center. HOLD, size 0; reconsider on a break below 312.5.",
+    "portfolio": "HOLD AAPL \u2014 coiled mid-range, no edge; wait for a range edge to trade against."
+  },
+  "timestamp": "2026-07-15T07:05:01.509114+00:00"
+}

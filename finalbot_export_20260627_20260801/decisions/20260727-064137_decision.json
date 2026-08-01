@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "SNDK/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.34,
+  "playbook": "none",
+  "forecast": "Price coils 1484-1502 under the 1500 round number; expect two-sided chop with rejection wicks at 1500-1502 until it either breaks above 1502 (resumes blowoff toward 1695) or loses 1484 (rolls over toward VWAP/1450). No clean edge in the 1484-1502 no-man's-land.",
+  "expectancy_note": "p(win) ~0.45 either direction; muddy composite (blended 0.255), RSI 74.7 + stoch 90 stretched, 4h MACD -13 divergence, and a Fed binary Wed make both a chase-long and an unconfirmed short negative-EV. Waiting for the level to resolve beats forcing it.",
+  "rationale": "SNDK is a tokenized semi equity in the weakest sector (SOXX -17% MTD) in a 12.8% Bollinger blowoff, crowded-long into FOMC Wed. The composite long is weak and price is stretched (RSI 74.7, stoch 90.3) with a 4h MACD negative divergence, so chasing the trend is the classic late-continuation loss; but the short lacks confirmation while price holds 1484. It just got rejected twice at 1500-1502 and closed back below on a wick. No positive-EV entry until the coil resolves, so size is zero.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 1484.0,
+    "expires_min": 240,
+    "note": "Losing 1484 (base low of the coil) confirms the rejection at 1500-1502 and opens a high-quality short toward VWAP/1450 in a hostile semi tape."
+  },
+  "transcript": {
+    "macro": "Regime MIXED-to-HOSTILE. FOMC Jul 28-29 binary event; SEMI selloff sharp (SOXX -12.9% 2-day, -17% MTD). Cross-cutting: crowded-long book, positive/extreme funding, RSI 70s-80s, flush risk. Semis (NVDA/TSM/MU/SNDK) weakest sector tone. SNDK 4h RSI 74.7 in a 12.8% Bollinger-band-width blowoff. Monday bounce could be a dead-cat. Verdict: skip or half-size.",
+    "sentiment": "FOMC Wed biggest \u226448h catalyst. MU/SNDK: memory pair, tightly correlated (corr 0.88), no near-term earnings. Sector took ~4-8% hit mid-July on TSMC capex fears \u2014 sentiment fragile and headline-sensitive. Neutral-to-cautious, no \u226448h binary.",
+    "analyst": "SNDK is a tokenized semi equity \u2014 read it as a stock. Coiling 1484-1502 under the 1500 handle, rejected twice at ~1502 (last bar spiked 1501.64, closed 1495 on a wick). Stretched (4h RSI 74.7, stoch 90.3, 12.8% BB blowoff) with a 4h MACD negative divergence (-13.2) and the weakest relative strength in the group (-12.9%). Macro HOSTILE \u2014 sharp semi selloff, crowded long into the Wed FOMC binary. Chasing the weak long is the classic late-continuation loss; the short is the higher-quality idea but needs a 1484 break. Stand aside; short trigger at 1484, bull-invalidation on a sustained reclaim above 1502.",
+    "portfolio": "HOLD flat \u2014 stretched semi blowoff with MACD divergence; short on a loss of 1484."
+  },
+  "timestamp": "2026-07-27T06:41:37.808133+00:00"
+}

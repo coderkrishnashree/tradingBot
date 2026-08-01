@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "BTC/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Chop 62,450-62,850 into the 12:30 UTC CPI/Warsh print, then a sharp directional resolution; base case is a whipsaw both ways before a clean move, so no edge until the print resolves and price reacts off 61,272 support or 64,703 resistance.",
+  "expectancy_note": "p(win) into a live CPI binary is coin-flip with fat whipsaw tails; both a short into oversold 61.3k support (squeeze risk, F&G 22) and a long into risk-off have negative expectancy \u2014 waiting for the print + a level reaction is the higher-EV play.",
+  "rationale": "Composite short but aligned:false (1h/30m long-biased vs 4h/5m short) = the mean-revert/chop zone, not a tradable trend. 4h RSI 26.4 with Extreme Fear is crowded-oversold, so shorting into 61,272 support invites a squeeze \u2014 the account's exact loss pattern. CPI + Warsh at 12:30 UTC (not yet printed) is a live binary; entering directionally now is gambling on the print. Hold flat and let a level break define the trade.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 61272,
+    "expires_min": 240,
+    "note": "Losing 61,272 support decisively (ideally post-CPI) confirms the 4h/5m short trend resumes with clean room toward the next demand shelf; a break down there is a real trend-continuation short rather than a fade into oversold."
+  },
+  "transcript": {
+    "macro": "Risk-OFF into a binary. BTC ~$62.6k fell ~3.3% Jul 13 on July 28-29 Fed HIKE bets + oil/US-Iran tension; 2Y yields at cycle highs. TODAY Jul 14 CPI 8:30 ET + Warsh testimony = live whipsaw. BTC dominance ~54-55% (capital hiding in BTC). BTC: structure_bias -0.204, funding neutral, L/S 1.53 mild long, OB -0.083, 4h RSI 26.4 oversold, above support 61,272 vs resistance 64,703, composite short but aligned:false (chop zone). Biggest risk: CPI whipsaw squeeze off oversold.",
+    "sentiment": "Crypto risk-off, Fear & Greed 22 (Extreme Fear). BTC dip below $62k is geopolitics-driven (Iran), no crypto-specific shock; MSTR selling into weakness = overhang, not imminent. No hard-dated <=48h catalyst \u2014 macro/geopolitics dictate. Mildly bearish-to-neutral; watch sharp mean-reversion bounces given Extreme Fear.",
+    "analyst": "Composite short but aligned:false \u2014 1h (RSI 60.5) and 30m disagree with 4h/5m short = mean-revert/chop zone, not a trend. 4h RSI 26.4 + Extreme Fear = crowded oversold, squeeze risk. CPI (12:30 UTC) not yet printed at scan time; directional entry into a binary is negative expectancy. Short into 61.3k support = the account's late-short-into-stretched-tape loss pattern; long into risk-off equally reckless. Hold; let 61,272 break (post-CPI) define a real trend short or a 62,850 reclaim define the bounce long.",
+    "portfolio": "BTC \u2014 HOLD (conf 0.60): no edge into the CPI binary off oversold chop; wait for a level break."
+  },
+  "timestamp": "2026-07-14T10:03:01.580777+00:00"
+}

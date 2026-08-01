@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "GOOGL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Snapback continues grinding from 336 toward the 341-343 VWAP/prior-shelf over the next 2-6 bars, then likely stalls/rejects there; a break back under 331 re-tests 324.44, a reclaim of 343 flips bias long.",
+  "expectancy_note": "Short is late (1h/30m RSI ~27, price at lower BB, +2% off lows on rising 5m/15m RSI) = chasing into a live bounce, p_win_learned 0.429; long has no VWAP-reclaim confirmation and fights crowded-long 2.47 + positive funding into hostile tape. Neither side clears R:R 1.5 with an honest stop right now.",
+  "rationale": "GOOGL already gapped 346->327 on the capex-guidance shock; it based at 324.44 in higher-lows and the last two 15m bars broke up (335.22, close 335.99 on highs) - the easy short is spent and a counter-bounce is exactly what stops late shorts. But a fresh long is unconfirmed: price is still 1.7% below VWAP, long/short is a crowded 2.47 with funding positive (crowd paying to hold a gap-down), and macro is MIXED-to-HOSTILE overnight before FOMC. Best expectancy is to wait for the tape to pick a side rather than pay to guess mid-snapback.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 343.0,
+    "expires_min": 240,
+    "note": "Reclaiming the 341-343 VWAP/failed-bounce shelf proves the snapback is a real reversal, not dead-cat, and opens a momentum long toward 350; losing 324.44 instead reopens the trend short."
+  },
+  "transcript": {
+    "macro": "2026-07-23 regime MIXED-to-HOSTILE for fresh risk. Overnight session after megacap earnings. Fading tape. FOMC Jul 28-29. Oil up on Iran = risk-off. GOOGL crowded-long (L/S 2.47, funding mildly positive - crowd paying to be long a name that just gapped down = contrarian negative). GOOGL gap ALREADY happened (346->327 in a couple 15m candles); easy short gone, snapback risk high (bounced ~2% off lows on 5m).",
+    "sentiment": "GOOGL HIGH / FRESH SHOCK. Reported last night: revenue beat ($119.8B +24%, Cloud +82%) but fell ~5% AH as it raised 2026 capex to as much as $205B (capex fear, not demand). Live already-moving negative reaction, may still be digesting today. News BEARISH/against longs, corroborates scan short bias - but the move already happened.",
+    "analyst": "GOOGL 335.99: gap-down 346->327 done, based 324.44 in higher-lows, last two 15m bars broke up closing on highs (335.99). 1h/30m/4h RSI ~27 (deeply oversold), 5m RSI 80.4 / 15m 69.9 (snapback firing), %B -0.03 at lower band, ADX 73.4. Composite short but p_win 0.429, L/S 2.47 crowded long, funding +, OB +0.3 bids stacked. Short is late/gone; long unconfirmed (1.7% below VWAP). HOLD; decisive level is VWAP reclaim 343 vs loss of 324.44.",
+    "portfolio": "GOOGL -> HOLD (conf 0.60): post-gap snapback mid-flight; wait for 343 reclaim or 324.44 break to pick a side."
+  },
+  "timestamp": "2026-07-23T00:36:03.714905+00:00"
+}

@@ -1,0 +1,26 @@
+{
+  "symbol": "INTC/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.72,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "forecast": "Blow-off spike to 108.5 already rejected back to 106.36 (last bar closed on its low); expect chop/pullback toward the 104-105 VWAP zone into Thursday, but earnings after close Jul 23 is a binary ~12-15% gap no honest 48h swing can survive.",
+  "expectancy_note": "Long: chasing RSI 89/ADX 96/+7% VWAP into a binary = negative EV. Short: a beat gaps it +12%. Any directional swing ~coinflip with a fat-tail gap = HOLD is the only positive-EV choice.",
+  "rationale": "INTC is a tokenized equity in a parabolic blow-off (4h RSI 89.4, ADX 96, +163% YTD, +7% above VWAP, %B 0.945) with crowded longs (L/S 1.85) \u2014 and the decisive factor is earnings Thursday after close, a hard binary within 48h options price at 12-15%. The 108.5 spike already sold back to 106.36 confirming exhaustion. Refuse either side into a coin-flip gap on thin, gappy books. No size.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 104.0,
+    "expires_min": 240,
+    "note": "Losing 104 toward VWAP before earnings confirms the blow-off unwinding and opens a clean pre-earnings mean-reversion short with a tight stop above 106.5."
+  },
+  "transcript": {
+    "macro": "Regime cautiously risk-on but event-gated. Semi bounce Tue (SOX +5%); FOMC Jul 28-29 next week. INTC riding chip bounce but VERY extended: 4h RSI 89.4/ADX 96, lagging BTC RS -25%, crowded longs L/S 1.85, thin gappy books. INTC earnings Thu Jul 23 after close = HARD binary within 48h; options price ~12-15% move.",
+    "sentiment": "24/7 tokenized perps tracking underlying. INTC up +163% YTD, just reclaimed $100 on Fortinet becoming first cybersecurity foundry customer, 18A yields ~85%. Bullish momentum but extremely extended. Major binary in 24h (earnings Thu).",
+    "analyst": "Extended parabolic tokenized-equity into a hard earnings binary <48h (options price 12-15%). Long chases RSI 89 into a coin flip; short risks a beat gapping +12%. Recent 108.5 spike already rejected to 106.36. Flat is highest-expectancy; only a break of 104 toward VWAP justifies a tight pre-earnings fade.",
+    "portfolio": "HOLD INTC \u2014 parabolic blow-off into Thu earnings binary (~12-15% gap); no size into the coin flip."
+  },
+  "timestamp": "2026-07-22T01:05:54.984172+00:00"
+}

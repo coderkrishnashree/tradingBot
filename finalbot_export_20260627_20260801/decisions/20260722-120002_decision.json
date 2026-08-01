@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "AAPL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Price coils 326.2-327.5 on dying volume with higher lows; most likely a small resolution \u2014 a break/hold above 327.6 opens 329-331 (1h/LTF up), else it slips back toward 325-326 first. No clean high-R:R entry from mid-range 327.",
+  "expectancy_note": "Market long here: ~1xATR stop (~323.8, -$3.2) vs realistic TP1 ~330-331 (+$3-4) = ~1:1 R:R, below 1.5 threshold; mid-range chase is this book's top loss pattern. Wait for a proper location.",
+  "rationale": "Tokenized equity (BTC-corr 0.095) so crypto structure is noise; read is technical. LTFs (15m/30m/1h/5m) point long and 4h is oversold with bullish divergence, and the learner favors longs (73% win) heavily over shorts, so bias is up \u2014 but price sits mid-range between support 312 and resistance 339 with volume drying, giving no tight-stop entry and only ~1:1 R:R to a realistic first target. Better to wait for the coil to resolve above intraday resistance (momentum confirmation) than to chase from the middle; no 48h catalyst (earnings Jul 30) forces action.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 327.6,
+    "expires_min": 240,
+    "note": "Reclaiming the intraday coil high on volume confirms the LTF-up bounce is resolving upward, enabling a long with a tight stop under 326 toward 330-331."
+  },
+  "transcript": {
+    "macro": "Broad regime cautious risk-off, hawkish Fed drift, DXY ~101.2. AAPL: cleanest of the three, no imminent event \u2014 reports July 30 (after close), no 48h earnings risk. Oversold with bullish divergence (RSI 32.7, 4h RSI 32.7, bb_pctb 0.35, stoch 40) into support 312 / near-term 15m-1h turning up \u2014 mean-reversion long setup. Structure neutral (bias +0.062, L/S 0.98 balanced, funding flat, orderbook +0.186 mild bid), NOT crowded. Near-zero BTC corr (0.095), idiosyncratic. Caveats: hawkish-Fed/oil headwind on tech broadly, pre-US-open thin/gappy. Environment mixed-to-supportive for a long, standard size.",
+    "sentiment": "NEUTRAL, earnings ~8 days out (July 30 after close) \u2014 not immediate binary but caps upside conviction on multi-day holds. Consensus ~$1.89 EPS on ~$108.9B revenue; Tim Cook's last earnings call as CEO (narrative). Mixed tone: EU court upheld Apple's DMA gatekeeper status (Jul 8), Siri AI delayed in EU, ~33% iPhone 17 production cut report (demand concern). Offsetting: China Apple Intelligence approval, HSBC upgrade (long-horizon). No catalyst inside 48h; near-term neutral.",
+    "analyst": "Price coils in a razor-tight range (326.2-327.5) on dying volume, higher lows into intraday resistance ~327.5. LTFs (15m/30m/1h/5m) point up and 4h is oversold-bearish, but price is mid-range between support 312 and resistance 339 \u2014 no level for a tight-stop, high-R:R entry. A market long needs ~1xATR stop ($3.2 to ~323.8) while realistic first reversion target (~330-331) is only ~$3-4 up: R:R ~1:1, fails the >=1.5 rule and is the account's classic mid-range chase. Learner favors longs (73% win) over shorts (45%), so bias is up but wait for location: a reclaim of ~327.6 confirms the coil resolving up. Hold; size 0.",
+    "portfolio": "HOLD AAPL \u2014 bias up but mid-range, no honest R:R; wait for a 327.6 reclaim to go long."
+  },
+  "timestamp": "2026-07-22T12:00:02.333529+00:00"
+}

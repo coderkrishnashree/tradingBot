@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "QQQ/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price stabilizing at 709.5-711 after a grind down; last 15m candle closed on its high (710.73) = short-term exhaustion. Expect either a dead-cat bounce toward VWAP ~720 (short-the-rip zone) or a flush through 698.42 support. No clean entry here mid-air 12pts above support with RSI 17.6.",
+  "expectancy_note": "Fresh short: p(win)~0.4, TP room only ~12pts to support vs bounce-risk stop = R:R <1.5, negative expectancy into oversold squeeze. Long: knife-catch in ADX-78 downtrend pre-CPI, no confirmation. HOLD beats both.",
+  "rationale": "QQQ is deeply oversold (RSI 17.6, %B -0.08, stoch 6.7) in a violent ADX-78 downtrend, sitting mid-air ~12pts above support 698.42 with the last candle closing on its high - the textbook late-short trap that has bled this account. Structure is benign/neutral (funding flat, orderbook +0.32 buy-lean), so no crowded fuel either way, and CPI Tue + PPI Wed create two-way gap and squeeze risk. Best expectancy is to wait: short a bounce into VWAP ~720 with room to 698, or trade a decisive break of 698.42. No trade with honest R:R exists at 710.73.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 698.42,
+    "expires_min": 240,
+    "note": "Losing support 698.42 confirms trend continuation and opens a clean short with room lower; a bounce reclaim of 720 VWAP would instead flag the squeeze - re-debate on either."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF (S&P -0.79%, Nasdaq -1.55%, VIX +14%). US-Iran escalation, WTI +9.4%. Semi unwind: KOSPI -9%, SK Hynix -15.4%. Binary CPI Jul 14 + PPI Jul 15 + Warsh testimony = two-way gap risk, smaller size. QQQ: proxy for whole tape - RSI 17.6 (extremely stretched), ADX 78, near support ~698, funding/OI benign (structure_bias +0.10). Hostile for longs but oversold into CPI = squeeze risk on any cool print.",
+    "sentiment": "QQQ MILDLY BEARISH / NEUTRAL. No index-level binary in next 48h - Q2 mega-cap earnings start with Microsoft Jul 29. Today's risk is spillover: semis lead QQQ, memory rout plus Middle East/oil pressuring risk sentiment. Longer-term tone constructive (low bar into earnings, AI capex) but not a 48h catalyst. QQQ<->EWY corr 0.72.",
+    "analyst": "Oversold (RSI 17.6) into a strong ADX-78 downtrend but mid-air ~12pts above 698.42 support with the last candle closing on its high = late-short trap; CPI/PPI gap+squeeze risk; benign structure gives no edge either way. Neither side offers >=1.5 R:R with an honest stop. Wait for a 698.42 break (clean short with room lower) or a VWAP ~720 reclaim (squeeze). HOLD.",
+    "portfolio": "QQQ: HOLD (conf 0.60) - no honest R:R mid-air above support into CPI; wait for 698.42 break or 720 reclaim."
+  },
+  "timestamp": "2026-07-14T00:04:24.218462+00:00"
+}

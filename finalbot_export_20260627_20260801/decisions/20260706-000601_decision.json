@@ -1,0 +1,25 @@
+{
+  "action": "hold",
+  "symbol": "TSM/USDT:USDT",
+  "entry": 451.4,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "size": 0.0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "expectancy_note": "No side clears bar: oversold-at-support long into an active AI-semi rout on thin gappy holiday tape has poor p(win) w/ gap risk; short at RSI26/stoch0/below-lower-BB is chasing a flush w/ squeeze risk. HOLD = highest expectancy.",
+  "rationale": "TSM is the cleanest relative outperformer (RS -0.51%, foundry not memory, higher-TF 4h/1h/30m/15m still long) pulling back into support 449.34 with a 5m oversold flush (RSI26, stoch0, %B -0.05). But three things kill entry now: (1) US July 4 holiday weekend leaves the equity underlying closed, so this tokenized perp is thin/gappy/wick-prone with a likely gap on cash reopen; (2) an active early-July AI-semiconductor valuation selloff (Micron -13%, SMH -5%) makes a countertrend long low-probability; (3) long-crowding L/S 2.14 + sell-side orderbook -0.373 are contrarian-bearish while the oversold read makes a short a chase. Neither long nor short offers 1.5R with acceptable p(win) on this tape, so size 0.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 449.34,
+    "expires_min": 240,
+    "note": "Clean loss of 449.34 support turns the higher-TF pullback into a confirmed breakdown, invalidating the buy-support thesis and opening a trend-continuation short with the sector rout."
+  },
+  "transcript": {
+    "macro": "Environment HOSTILE-to-MIXED for longs, MIXED-to-SUPPORTIVE for shorts. Active early-July 2026 AI/semiconductor VALUATION SELLOFF in progress (Micron -13%, Intel -9%, AMD -7%, SMH -5% single session; catalysts: SK Hynix slowing HBM expansion, AI-capex ROI skepticism, hawkish Fed under new Chair Warsh, May CPI 4.2%). Broad tape late-cycle risk-on but cracking; Goldman risk-appetite 99th pct. Trade as EQUITIES not BTC-beta (TSM BTC corr 0.40). CRITICAL: scan timestamped US July 4 holiday weekend, underlying US equities CLOSED, tokenized perps thin/gappy/wick-prone until US cash reopen; expect a gap. TSM: last 451.4, RS -0.51% (best of the four, foundry +46% YTD), OI 2,799 (thinnest), funding ~flat, L/S 2.14 (long-crowded contrarian-bearish), orderbook -0.373, structure_bias -0.424; higher-TF trend UP but 5m rolled over (RSI 26). Quality relative outperformer; long-crowding is the risk not a broken trend. Argue SMALLER SIZE.",
+    "sentiment": "Sector constructive-but-jittery: structural AI DRAM/NAND shortage (Q3'26 DRAM +13-18% QoQ, NAND +10-15%, tightest in 15yrs into 2027+) but volatile tape (June 5 rout wiped ~$1T, SOX -10.3%). TSM: Q2'26 earnings Thu July 16 02:00 ET (outside 48h); QUIET PERIOD July 6-15 starts today, no fresh company commentary, drifts on macro/sector flow. Prior guide strong (FY26 rev +30%+, CapEx high end $52-56B, AI/foundry demand intact). No <=48h company catalyst; near-term pure sector beta. TSM cleanest/lowest-beta of the four.",
+    "analyst": "TSM screens as the highest-quality horse in a bad barn: best relative strength (-0.51% vs BTC), foundry not memory, higher-TF uptrend (4h/1h/30m/15m long) merely pulling back into support 449.34 with a 5m oversold flush (RSI26, stoch0, below lower Bollinger). In a normal tape that is a textbook mean-reversion long location. What stops me is expectancy: US Independence Day holiday leaves the equity underlying closed so the perp is thin/gappy with real gap-through-stop risk on reopen; the macro is an in-progress AI-semi valuation selloff making a countertrend long low-probability; TSM enters its earnings quiet period today so no company catalyst. Structure is contrarian-bearish (L/S 2.14, orderbook -0.373) but RSI26/stoch0 makes a short a chase into a stretched flush with squeeze risk. No side offers a clean 1.5R at acceptable probability, so flat is highest expectancy. Armed a trigger at 449.34: a decisive break flips me to a trend-continuation short.",
+    "portfolio": "HOLD TSM (conf 0.60, size 0) - cleanest name but no side clears the bar into a thin holiday tape; short-trigger armed on a break of 449.34 support."
+  },
+  "timestamp": "2026-07-06T00:06:01.420229+00:00"
+}

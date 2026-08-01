@@ -1,0 +1,23 @@
+{
+  "symbol": "TSM/USDT:USDT",
+  "action": "hold",
+  "entry": 401.45,
+  "size": 0.0,
+  "confidence": 0.4,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "rationale": "TSM is caught between an intact 30m/1h/4h uptrend and a hostile semi-risk-off macro plus extreme crowded-long positioning (L/S 2.63, structure_bias -0.36). The two strongest learner predictors (structure_bias -0.49, rel_strength -0.41) both lean bearish, but the account has lost repeatedly SHORTING stretched tape (shorts 0.47 win, -0.88 avg), and 5m is already oversold (RSI 33.7) at a Sunday-thin 0-volume print. No honest 1.5R entry at 401 mid-range (supp 387/res 441), so wait: fade a fresh rejection lower, don't chase the stall. Size 0.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 400.0,
+    "expires_min": 240,
+    "note": "Losing 400 confirms the top-of-range rejection and turns crowded-long + semi risk-off into an active short toward 397/393."
+  },
+  "transcript": {
+    "macro": "RISK-OFF, hawkish-Fed tape (Fed leaning HIKE; FOMC Jul 28-29). Equity selloff LED BY SEMICONDUCTORS on AI-capex fear \u2014 THE macro trade this cycle (TSM/INTC/SNDK/EWY/QQQ = one correlated bet). DXY firm ~100.8. Hostile for fresh longs. Funding near-zero \u2014 read L/S + orderbook. TSM: reported Q2 Jul 16 (no fresh catalyst), L/S 2.63 (extreme crowded long -1.0), orderbook -0.21; crowded-long is a red flag against chasing longs. Sunday: US cash closed.",
+    "sentiment": "TSM BULLISH fundamentals but catalyst already fired: Q2 (Jul 16) blowout \u2014 rev $40.2B (+33.7% YoY), GM 67.7%, strong Q3 guide. Priced in; no fresh <=48h binary. Caught between own strong fundamentals and sector risk-off.",
+    "analyst": "Composite says long (+0.503) but aligned=false and structure is bearish (crowded L/S 2.63). Candles show a stall at 401-403 top of range rolling over, not a breakout. Macro hostile for longs; 5m oversold so a fresh short chases a stall. No clean level at 401 mid-range on thin Sunday tape. HOLD with bearish lean; fade a rejection below 400.",
+    "portfolio": "TSM: HOLD (conf 0.40) \u2014 strong fundamentals vs crowded-long + semi risk-off cancel; no 1.5R at mid-range, short trigger below 400."
+  },
+  "timestamp": "2026-07-20T06:16:40.797866+00:00"
+}

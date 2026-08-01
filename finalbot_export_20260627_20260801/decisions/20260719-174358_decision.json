@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "ORCL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price is coiling dead-flat 127.05-127.44 with no expansion; likely keeps grinding sideways near 127.2 for the next several bars until the coil resolves. Downside break of 127.00 opens 125.5-124 (short); reclaim of 128.5 with volume resumes the momentum long.",
+  "expectancy_note": "No edge either way: chasing the +1.37% VWAP, RSI-84.5/4h-MACD-negative long into resistance on a risk-off weekend is the account's #1 loss pattern; a fresh short fights a live 1h uptrend and shorts are the account's losing side (0.47 win). Flat coil = no trigger = HOLD is highest expectancy.",
+  "rationale": "ORCL shows extreme ADX 80 but a stalled 15m tape coiling in a 0.4-wide box; the 4h is exhausted (RSI 84.5, MACD rolling over) and the long is crowded 2.55 with structure_bias -0.29 and rel-strength -21.9% \u2014 all reasons NOT to chase the long here. Yet a short has no trigger while the 1h composite is still +0.81 and shorts have been losing for this book. There is no honest R:R>=1.5 entry inside the coil, so I wait for the box to resolve rather than force size into weekend gap risk.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 127.0,
+    "expires_min": 240,
+    "note": "Losing the coil floor / VWAP breaks the only structure holding ORCL up and, with risk-off macro + crowded-long flows + weak fundamentals all aligned bearish, opens a clean short toward 125.5-124."
+  },
+  "transcript": {
+    "macro": "Sun Jul 19 2026, US cash equities CLOSED (weekend) \u2014 tokenized-equity perps thin/gap-prone, de-weight trend until Monday. Tape RISK-OFF, semiconductor-led selloff. Crypto cautious-stabilizing, BTC ~$64.7k, Fear&Greed ~26-28. Desk tilts SHORT this basket. ORCL-specific: LONG signal (1h +0.81) but RSI 84.5 (4h) + negative 4h MACD = exhaustion; L/S 2.55 very crowded long, structure_bias -0.29, rel-strength -21.9%. Momentum-chasing into resistance; macro argues against fresh longs.",
+    "sentiment": "BEARISH-to-NEUTRAL. Weak hand of the group: down ~29% YTD, soaring AI capex (~$70B FY27), ~$40B debt raises, credit-downgrade overhang; slipped below $130 last week. No <48h binary. Scan's long fights a negative fundamental tape.",
+    "analyst": "Extreme ADX 80 but a stalled 15m tape coiling in a 0.4-wide box. 4h exhausted; long is crowded 2.55, negative structure_bias, deep laggard \u2014 do not chase the long. Short has no trigger while 1h is still +0.81 and shorts bleed this book. No honest R:R>=1.5 inside the coil. HOLD, arm short on loss of 127.0 (coil floor / VWAP), which aligns macro + crowding + weak fundamentals.",
+    "portfolio": "HOLD ORCL \u2014 stretched, crowded long in a flat coil; arm short on a break below 127.0."
+  },
+  "timestamp": "2026-07-19T17:43:58.870517+00:00"
+}

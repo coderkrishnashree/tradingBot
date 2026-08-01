@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "HOOD/USDT:USDT",
+  "size": 0,
+  "entry": 101.68,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price fading off the 102.49 rejection on drying volume - expect drift/chop 101.2-102.0 over the next few bars; a break back above 102.49 signals the 30m/1h uptrend resuming.",
+  "expectancy_note": "No edge: short has no near structural target (support 96.68 ~3.6xATR away) and shorts bled this book (46% win, -1.09 avg); a long fights fading tape, crowded L/S 1.67, negative orderbook and -17% RS.",
+  "rationale": "HOOD just failed at 102.49 and is rolling over (lower highs, volume drying, last bar closing near its low), yet price is only +1% over VWAP - not extended enough for a high-probability fade and there is no near support to target within 1.5x ATR. Composite reads long but structure_bias -0.256, orderbook -0.184, crowded long/short 1.67 and worst-in-cohort RS -17% all argue the opposite; a long would be buying into a fade. Neither side offers a close-to-structure entry with clean R:R, so the highest-expectancy action is HOLD until the 102.49 rejection level resolves.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 102.5,
+    "expires_min": 240,
+    "note": "Reclaiming and holding above the 102.49 rejection high proves the fade is done and the 30m/1h uptrend is resuming - turns this into a long."
+  },
+  "transcript": {
+    "macro": "Regime: MIXED / cautiously risk-on into event risk. US indices near records but digesting US-Iran tensions; soft June CPI (3.5%) supportive; DXY firm ~105.4, 10Y ~4%. FOMC 7/29 and BOJ 7/30 loom, Big Tech earnings begin this week. Crowded long/short ratios (1.6-2.6) across nearly every name into rising event risk -> trade small. Per-name: NVDA cautiously supportive (chip leadership bid, RS -6.6% vs BTC, earnings landmines) size down; HOOD mixed (fading internals, RS -17%); AAPL stretched short (RSI 18, ADX 74, bounce risk); XAUT range/neutral (~$4,020, firm DXY headwind, crowded L/S 2.57); EWJ hostile microstructure (near-zero volume, BOJ 7/30); SOL mixed (BTC-beta corr 0.78, OI contracting, funding negative, crowded long).",
+    "sentiment": "Dominant tape: violent AI-chip/semiconductor selloff in July (SOX -10-17%, >$1T chip cap erased) from custom-silicon competition, HBM slowdown, compute-surplus fears; risk-off rotation out of AI beta. FOMC July 28-29. No name has a hard catalyst inside 24-48h. NVDA: relatively resilient in selloff, no earnings until Aug 26. HOOD: earnings Wed 7/29 (outside window). AAPL: earnings Thu 7/30 (Cook's final call), oversold into strong YTD run. XAUT: defending $4,000, Goldman/JPM cut targets, $3,960 critical support. EWJ: MOST BEARISH - Nikkei -4% Fri on semi selloff, BOJ 'behind the curve'. SOL: constructive - testing $73-75 support, +4% wk, ETF assets >$1B, but venture unlock supply caps upside; above $80 = trend start.",
+    "analyst": "HOLD. Failed at 102.49, rolling over on drying volume, but only +1% over VWAP so not a clean fade; no near support to short against and shorts bleed this book. Long fights crowded L/S 1.67 + RS -17%. No clean R:R either side. Reconsider long above 102.5.",
+    "portfolio": "HOOD: HOLD (conf 0.60) - no clean edge either side; wait for a reclaim of 102.49."
+  },
+  "timestamp": "2026-07-21T12:32:00.271330+00:00"
+}

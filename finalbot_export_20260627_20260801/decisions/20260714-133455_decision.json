@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "EWY/USDT:USDT",
+  "size": 0.0,
+  "entry": 173.84,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.34,
+  "playbook": "none",
+  "forecast": "Price is stretched right at the 173.63 breakout after a single 14k-vol spike bar; likely chops 172.3-174.0 then risks a mean-revert back toward VWAP/170s given 4h RSI 36.9 downtrend and negative funding - no clean edge either way into a closed-Korea, gap-prone tape.",
+  "expectancy_note": "p(win) ~0.45, honest 1.5xATR(2.55%) stop is ~4.4% wide with gap risk - R:R and fill quality both poor; HOLD dominates chasing a 15m RSI-82 rip against a 4h downtrend.",
+  "rationale": "Breakout flag conflicts with everything else: 4h is short (RSI 36.9, MACD -3.6), 15m/30m RSI ~82 extremely overbought, +2.8% above VWAP, structure bias -0.39 (negative funding, crowded long), composite conf 2.6% flat. Korea market closed with 8-9% KOSPI whipsaws means gappy, unreliable fills - any honest ATR stop (2.55%) is too wide and a routine pullback stops a chased long. No expectancy edge; the highest-EV action is to wait for the base to prove itself or fail.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 172.34,
+    "expires_min": 240,
+    "note": "Losing the 172.34 breakout base fails the long and hands control to the 4h-down / short-biased flows - re-debate for a short."
+  },
+  "transcript": {
+    "macro": "Cycle 2026-07-14 ~13:29 UTC. Regime MIXED, leaning cautious/risk-off. Soft June CPI cut July hike odds to ~17%. Strait of Hormuz blockade / Iran escalation spiked oil (Brent ~+5% to ~$78), pressuring equities; gappy headline tape next 24-48h. Broad crowded-long positioning -> favors shorts/fades, smaller size. EWY: 173.8 long breakout FLAGGED but on razor-thin volume (many zero-volume candles) with the Korea underlying market CLOSED - fills gappy/unreliable; positioning near-neutral (L/S 1.32, bias -0.098); LOW-confidence, smallest size.",
+    "sentiment": "Market-wide: US-Iran/Hormuz escalation dominant - risk-off, oil +5%; two-way headline gap risk 24-48h. EWY: HIGHEST event-risk. Tokenized Korea ETF; KOSPI whipsawing violently - plunged ~8-9% Monday to ~6,807 (SK Hynix -15%) on Iran/oil shock after being up ~76% YTD. Extreme two-way volatility; same geopolitical/oil headlines that hit US chips hit Korea harder. Near-term news argues SHORT/defensive, but expect large gaps either way - size down.",
+    "analyst": "EWY 173.84, breakout flag above 173.63 on a single 14,180-vol spike bar. BUT 4h short (RSI 36.9, MACD -3.6) while 15m/30m RSI 82 extremely overbought; VWAP dist +2.8%; ATR% 2.55 / bb_width 16.35% enormous vol; structure bias -0.39 (funding -0.47, L/S 1.53 crowded long). Composite conf 2.6% flat, align 0.7 worst of group. Korea closed, KOSPI -8-9% Monday, extreme gap risk. Chasing a rip into a stretched, gappy tape against the 4h trend = #1 loss pattern. NO TRADE.",
+    "portfolio": "EWY: HOLD (conf 0.34) - conflicted breakout, huge gap risk on closed-Korea tape; flip short below 172.34."
+  },
+  "timestamp": "2026-07-14T13:34:55.456972+00:00"
+}

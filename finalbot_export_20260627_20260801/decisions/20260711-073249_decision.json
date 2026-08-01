@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "QQQ/USDT:USDT",
+  "size": 0.0,
+  "entry": 728.95,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.66,
+  "playbook": "none",
+  "forecast": "Thin weekend drift; price pinned under 730.30 resistance with RSI 84.7 and stoch 93.2 - expect chop/small fade toward 726-727 VWAP rather than a clean breakout until Monday's cash open and Tue CPI provide direction.",
+  "expectancy_note": "No side offers R:R>=1.5: long chases extreme-overbought into hard 730.30 resistance on stale off-hours tape (bounce-stop risk); short fades a 64-ADX uptrend with zero bearish confirmation into a CPI binary. Best expectancy is flat.",
+  "rationale": "QQQ is EXTREME overbought on every timeframe (RSI 84.7 / stoch 93.2 / %B 0.854) and pinned right at 730.30 resistance where the last 15m bar left an upper wick - buying is textbook chasing, the account's #1 loss pattern, while shorting a 64-ADX melt-up with no exhaustion signal is a knife-catch. US cash closed until Mon Jul 13, tokenized-ETF prices stale/gappy, and June CPI Tue Jul 14 08:30 ET is the real driver. Sit flat; size 0.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 730.3,
+    "expires_min": 240,
+    "note": "A decisive break and hold above 730.30 on Monday's live tape confirms continuation and would justify a pullback-buy entry."
+  },
+  "transcript": {
+    "macro": "Cycle 2026-07-11 (Sat, US cash equities CLOSED, reopen Mon Jul 13). Broad regime RISK-ON, Nasdaq 26,282 with weekly gains >1%, AI/tech melt-up (NVDA +4%, META +6% Fri). Tokenized-ETF pairs thin/gappy off-hours - size down, expect slippage, stale until Monday. QQQ scan composite long (35.1) but RSI ~84.7 EXTREME overbought - chase risk high.",
+    "sentiment": "QQQ NEUTRAL/extended - no standalone catalyst; June CPI Tue Jul 14 08:30 ET is the driver. Extreme overbought = chase risk.",
+    "analyst": "HOLD. EXTREME overbought every timeframe (RSI 84.7, stoch 93.2, %B 0.854), pinned at 730.30 resistance with an upper-wick rejection on the last 15m bar. Long is textbook chasing (#1 loss pattern); shorting a 64-ADX melt-up with no exhaustion is a knife-catch. US cash closed, stale/gappy prices, June CPI Tue is the real driver. Neither side clears R:R>=1.5. Reconsider on a decisive Monday break above 730.30.",
+    "portfolio": "HOLD QQQ/USDT:USDT - conf 0.66, size 0."
+  },
+  "timestamp": "2026-07-11T07:32:49.256336+00:00"
+}

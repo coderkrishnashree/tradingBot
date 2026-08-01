@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "TSM/USDT:USDT",
+  "size": 0.0,
+  "entry": 402.18,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Illiquid Sunday chop between 386.8 support and ~404 high; expect low-volume drift near 400-402 into the weekly open, with real direction only once cash markets reopen and the capex-selloff verdict prints.",
+  "expectancy_note": "No honest edge: near-zero volume + Monday gap risk make any stop unreliable; crowded long (L/S 2.617) into worst relative strength (-20%) offers no clean R:R either way. Best expectancy is flat.",
+  "rationale": "TSM is a tokenized equity with US cash closed -- sub-10-unit bar volumes and a 404.4 wick instantly sold to 399.2 confirm untradeable Sunday liquidity where any stop can be gapped through. It is the epicenter of the capex-fear semi selloff, worst relative strength (-20%), and extremely crowded long (L/S 2.617), so a with-trend long has contrarian-unwind risk and a short has no confirmation. HOLD, size 0.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 404.5,
+    "expires_min": 720,
+    "note": "Reclaiming and holding above the 404 swing high on real volume would show buyers absorbing the capex selloff despite crowded longs, flipping toward a with-trend long."
+  },
+  "transcript": {
+    "macro": "OVERALL REGIME (2026-07-20, Sun -- US cash markets CLOSED, tokenized equities thin/gappy until Mon open): Mixed-to-hostile for risk. Equity tape in a semis-led pullback (Nasdaq -2.9% on week); AI-capex fear the dominant theme after TSMC hiked 2026 capex to $60-64B (MU -5.6% on read-through). Crypto risk-OFF: BTC ~$64.7k off the $65.1k 3wk high, BTC.D 56.3% (alt-unfriendly), Fear&Greed 26; the bounce was CPI/ETF-flow driven, not momentum. Mega-cap earnings begin Wed Jul 22 (GOOGL). Net: smaller size across the board; hostile for semi/AI longs (TSM, MU, SNDK) and crowded equity longs (GOOGL); mixed for BTC and COIN-short.",
+    "sentiment": "MARKET-WIDE (2026-07-20, Sun -- US markets closed, off-hours thin/gappy): Risk soured into the weekend; QQQ fell 3 straight days into Fri (~$695) on a semiconductor sell-off (positioning reset, not a broken AI cycle). FOMC Jul 28-29 (outside window). The ONLY genuine <=48h catalyst on the board is GOOGL Q2 earnings Wed Jul 22 after close -- flag for event risk, do not hold naked size through it. BTC soft-CPI-supported but still Fear (F&G ~26). TSM already reported Jul 16 (blowout, catalyst spent); COIN earnings Jul 30, SNDK Aug 5, MSTR already reported -- all outside window. PT upgrades are long-horizon noise, not tradeable.",
+    "analyst": "HOLD. Epicenter of the capex selloff, near-zero overnight volume (sub-10-unit bars), crowded long L/S 2.617, worst RS in group. Untradeable Sunday liquidity + Monday gap risk; no honest R:R. Reconsider above 404.5.",
+    "portfolio": "HOLD -- illiquid closed-session name at the center of the semi selloff; stand aside."
+  },
+  "timestamp": "2026-07-20T01:13:07.813635+00:00"
+}

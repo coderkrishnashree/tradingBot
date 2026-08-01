@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "ORCL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Chop persists in the 126.6-127.6 box on thin overnight volume; most likely a drift back toward VWAP ~124.5 once US cash reopens rather than a clean push higher.",
+  "expectancy_note": "No edge either way now: long composite is weak (blended 0.29, ADX 25.9) and extended +2.1% over VWAP against a hostile tech-risk-off macro; a fresh long has p(win)<0.5 and a short lacks a trigger until the box breaks. HOLD beats both.",
+  "rationale": "ORCL is a tokenized equity, so the 2.6x long_short crowd and structure numbers are low-conviction, and US cash is closed (gap risk). Price is coiling in a 126.6-127.6 range, +2.12% above VWAP with no momentum, ADX barely 25.9, rel-strength -24% laggard fighting a bearish sector/downgrade drift. There is no clean trend pullback, no confirmed range-extreme fade, and no breakout trigger, so expectancy favors waiting for the box to resolve.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 126.6,
+    "expires_min": 240,
+    "note": "Losing the overnight range low breaks 15m structure and opens the with-macro short back toward VWAP ~124.5 / support 120.79."
+  },
+  "transcript": {
+    "macro": "MIXED-to-CAUTIOUS. US equities risk-off - big-tech/AI-capex unwind, rotation OUT of tech. FOMC 7/28-29 (hawkish tail) overhang. Equity pairs HOSTILE-to-MIXED; scan on thin overnight book, US open can gap. ORCL's long composite is fighting the sector.",
+    "sentiment": "ORCL down ~29% YTD despite record Q4 (rev +21%, cloud +47%, $638B AI backlog). Weighing it down: S&P downgrade to BBB-, ~$90-95B capex, ~21k job cuts, debt/cash-flow worries. Earnings behind us; tone heavy/bearish drift, no <=48h binary. Sentiment leans AGAINST longs.",
+    "analyst": "Tokenized equity - crypto structure (2.6x L/S) low-conviction, US cash closed (gap risk). Composite long but weak (42.8% conf, blended 0.289), ADX 25.9 borderline, price +2.12% above VWAP yet only chopping 126.6-127.6 on tiny volume. Rel-strength -24% laggard fighting a bearish downgrade drift. No trend pullback, no range-extreme fade, no breakout trigger. HOLD; losing 126.6 opens the with-macro short toward VWAP ~124.5.",
+    "portfolio": "HOLD ORCL - weak, extended long composite fighting a hostile tech tape on thin data; wait for the box to break (conf 0.6)."
+  },
+  "timestamp": "2026-07-20T03:17:08.934634+00:00"
+}

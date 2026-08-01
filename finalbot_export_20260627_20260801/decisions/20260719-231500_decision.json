@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "BTC/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Blow-off into 64880 is fading: last two 15m bars are lower-high rejections closing near range lows just under 65566 resistance. Expect a pullback toward the 64300-64350 VWAP/support zone over the next 2-5 bars; that dip is the long, not chasing 64577.",
+  "expectancy_note": "Market long here has p_win_learned 0.474 with RSI72/ADX71/stoch78 extended +1.17% over VWAP \u2014 model penalizes exactly this (adx/rsi/vwap_dist all negative). Waiting for the dip flips it to the account's 70%-win long bucket at far better R:R.",
+  "rationale": "BTC is a relief bounce (funding flat, OI not confirming) that just stalled under 65566 resistance and is printing red rejection bars off the 64880 high \u2014 a textbook late-chase that the account's losers died on. The winning play is a long on the pullback to VWAP/support ~64300, not a market fill at the extended high. Holding for that entry; a decisive reclaim of 64880 would instead confirm continuation and also flip me long.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 64880,
+    "expires_min": 240,
+    "note": "Reclaiming the 64880 swing high with follow-through proves the relief bounce is resuming toward 65566 resistance \u2014 go long on the breakout retest."
+  },
+  "transcript": {
+    "macro": "2026-07-19 Sun ~23:07 UTC \u2014 WEEKEND, US cash equities CLOSED; all tokenized-equity pairs on thin weekend liquidity and will GAP at Monday open \u2014 size DOWN across the board. Tape = semiconductor bear market (SOX >20% off June peak, chips shed ~$3.3T on 'AI-needs-less-compute' fears from Kimi K3); Nasdaq -2.9% wk, S&P -1.5%. Backdrop favors fading crowded semi longs over fresh longs. Crypto weak/risk-off: BTC ~$64.5k relief bounce off a 21-month low, dominance ~56-60%, June record -$4.5B BTC ETF outflows; BTC 4h RSI72/ADX71 extended but funding flat & OI not confirming (bounce, not durable trend). TSM beat + raised guide yet sold off (crowded-long unwind, L/S 2.47). INTC/MU/SNDK = epicenter of the rout, crowded longs (L/S 2.1-2.6) into a falling knife, deeply negative RS. META is the relative outperformer (RS +4.9%). EWY (Korea) whipsaw, BoK first hike since Jan-2023 (+25bp to 2.75%), semi-heavy/gappy. MSTR = BTC-beta (0.74 corr). Net: environment does NOT broadly support fresh longs; only META + a tactical BTC/MSTR bounce lean small-long; weekend gap risk overrides all.",
+    "sentiment": "2026-07-19 \u2014 Friday 7/17 closed risk-off on a semiconductor rout (SOX ~-13% in a month); FOMC Jul 28-29 (hold expected). US markets CLOSED (Sunday), equity pairs thin/gappy. HARD catalysts: INTC Q2 earnings Jul 23 (~4 days \u2014 do NOT hold size into it); META Q2 Jul 29; FOMC Jul 28-29. Per name: META bearish/caution tilt; TSM bullish fundamentals (Q2 beat Jul 16, +36% YoY) but sell-the-news + sector-contagion risk, lean neutral/cautious-long; QQQ neutral (heavy earnings week, GOOGL/TSLA Jul 22); BTC bullish tilt / cleanest long (ETF inflow reversal +$191M ending 10-day outflow streak, CLARITY Act optimism); EWY HIGH caution two-sided (Samsung+SK Hynix ~half of KOSPI, swinging 6-9%/day); SNDK bearish/caution (NAND +200% in 3mo then -15% on the month, RSI 21 = knife-catch); INTC hard-catalyst high caution; MU bearish/caution (memory, record DRAM ASPs but -10%+, 4h bullish divergence = bounce signal); MSTR neutral BTC-proxy (started SELLING BTC ~$216M, booked $8.3B Q2 digital-asset loss).",
+    "analyst": "Cleanest long by sentiment (ETF inflows, CLARITY Act) and the one 24/7 market, BUT the relief bounce is extended: 4h RSI 72 / ADX 71 / stoch 78, +1.17% over VWAP, funding flat & OI not confirming. Last two bars are lower-high rejections under 65566 resistance; p_win_learned 0.474. Chasing = the account's #1 loser; the long is the pullback to ~64300, not the high.",
+    "portfolio": "HOLD BTC \u2014 bullish tilt but extended blow-off; long the 64300 pullback or a 64880 reclaim, not the chase."
+  },
+  "timestamp": "2026-07-19T23:15:00.232488+00:00"
+}

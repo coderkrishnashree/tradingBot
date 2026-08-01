@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "MU/USDT:USDT",
+  "size": 0.0,
+  "entry": 834.82,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "MU just v-bounced off 816.54 to 846.8 and is now fading (846->834 over 3 bars); expect a choppy retest of the 845-852 VWAP/bounce-high zone or a slide back toward 816.5 over the next few bars \u2014 no clean entry from 834 mid-range.",
+  "expectancy_note": "Short at 834 to 816 is only ~18pts vs ~15pts risk above 849 = R:R ~1.2, below 1.5; 4h RSI 8.5 extreme-oversold makes a snapback to VWAP likely first \u2014 better to short the retest, not chase.",
+  "rationale": "Directional bias is bearish (structure_bias -0.545, semi sector hostile, MU relative_strength -32%, crowded-long L/S 2.15 with positive funding), but the tape just bounced 30pts off 816.54 support and sits -7.55% below VWAP at RSI 8.5 (4h) \u2014 market-shorting here is the account's #1 loss pattern (late short into stretched/oversold tape, stopped by the bounce). Support at 816.54 is only 0.6 ATR away so downside room is thin and R:R sub-1.5 from 834. The high-expectancy expression is to short a failed bounce into the 845-852 VWAP/prior-high retest, which gives room back toward 816 and below; scan also blocks the raw short (chop). Waiting for that retest, or a clean breakdown of 816.54, beats chasing mid-range now.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 850,
+    "expires_min": 240,
+    "note": "A bounce into 850 retests the VWAP/prior-high zone where a fresh short sets up with real room down to 816.5 and R:R back above 1.5 \u2014 re-debate the short there rather than chasing 834."
+  },
+  "transcript": {
+    "macro": "RISK-OFF, tech-led (Jul16: S&P -0.51%, Nasdaq -1.47%). Semi sector actively HOSTILE for longs / TAILWIND for shorts: TSMC capex-shock 'sell the beat', SMH -3.7%; MU premarket -1.9% to -2.7%; semi complex trading as one correlated short. MU positioning: structure_bias -0.308 (MOST bearish of the four), L/S 2.70 most crowded-long (contrarian bearish), highest sector-correlation cluster (SNDK 0.83, INTC 0.72, TSM 0.58) = highest-beta expression of the selloff. Regime 'chop', scan BLOCKS the raw short. Env SUPPORTS short directionally but chop + oversold (4h RSI 22.5) argues patience/smaller size. Funding=0, thin tape, gap risk into US open.",
+    "sentiment": "MU: the MOST news-driven name and epicenter of the selloff. Down ~20% MoM, broke $900 then $850 support; direct victim of Chinese CXMT ~$10B memory-fab IPO oversupply scare + DRAM pricing-power worries. Negative flow live and fresh. No earnings until ~Sep 29 \u2014 no binary in window. Bull items (Citi $1,400 PT, Anthropic HBM deal, $250B US fab plan) long-horizon and ignored by the tape. News argues FOR the short; cleanest bearish momentum name but stretched/oversold so size for snapback.",
+    "analyst": "Last 834.82; price bottomed 816.54 then v-bounced +30pts to 846.8, now fading (last 3 bars red). 4h RSI 8.5 extreme oversold, vwap -7.55%, ATR 3.46% (~29pts). Support 816.54 only ~0.6 ATR below = thin room; short at 834->816 is R:R ~1.2 (sub-1.5) with stop above 849. Market-shorting into the extreme-oversold snapback = the account's #1 loser; scan also blocks the raw short (chop). HOLD size 0; short a failed bounce into 845-852 or a clean breakdown of 816.54. Reconsider armed at price_above 850.",
+    "portfolio": "MU: HOLD (extreme-oversold, chop-blocked; short the 850 retest or 816.5 breakdown) \u00b7 conf 0.50 \u00b7 size 0"
+  },
+  "timestamp": "2026-07-17T04:06:29.678674+00:00"
+}

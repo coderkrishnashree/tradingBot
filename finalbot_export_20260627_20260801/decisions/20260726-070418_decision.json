@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "BTC/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.55,
+  "playbook": "none",
+  "forecast": "Mid-range chop: last two 15m bars bounced off 64,256 and closed near bar-high (64,409), so near-term likely drifts up to retest VWAP/prior swing 64,600-64,700 where the weak downtrend should reassert; expect it to stall there rather than break either way into FOMC.",
+  "expectancy_note": "Both sides ~coin-flip here: fresh short into an active bounce mid-range risks the counter-bounce stop (account's #1 loss pattern); long is the crowded side with ETF outflows. No level = no edge; HOLD has the best expectancy.",
+  "rationale": "BTC is consolidating $64k-66.8k with a weak, non-aligned trend (4h short/ADX 27 but 30m-1h flat) and price bouncing off its 15m intraday low, closing near the bar high 0.56% below VWAP - not extended, not at a level. Shorting the middle of the range into a bounce and a coiled BB squeeze ahead of the July 29 FOMC binary is negative-expectancy chop-bait; a long is the crowded, ETF-outflow-headwind side with no catalyst. I want either a rejection back at VWAP/swing (~64,650) to short, or a clean loss of support 63,678 to confirm the breakdown - neither is present, so no trade.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 63678,
+    "expires_min": 240,
+    "note": "Losing range/support 63,678 confirms the breakdown out of the consolidation - short into it toward 62,800/62,000; until then it is just mid-range chop."
+  },
+  "transcript": {
+    "macro": "Broad regime: cautiously risk-on, low-conviction, gated by FOMC July 29 (no dot plot -> tone risk). S&P ~7,412 flat, Nasdaq -0.6%. FedWatch ~34% odds of a HIKE. DXY ~101.4 stalling. Crypto cap $2.28T (-1.1%), BTC dominance 56.4% steady, Fear&Greed 27. BTC ~$64,410 consolidating $64k-66.8k after +13% bounce off July 1 low; failed to clear $66k. Scan 4h short (score -0.446, RSI 38.6, ADX 27.3 weak). L/S 1.614 (longs crowded), OB imbalance -0.066, structure_bias -0.203. Funding low-positive (~+6.7% ann, below avg). OI -10.6% m/m (de-risking). ETF outflows $225M July 25. Favor short/tactical over fresh longs; long needs catalyst + tight risk.",
+    "sentiment": "FOMC July 28-29, decision Wed 2pm ET = biggest ~48h binary. June CPI cooled (3.5%), weak jobs (57k NFP) -> dovish/hold lean; hawkish surprise cuts other way. Wall St sold off Fri July 24 (AI-capex doubts, new US tariffs, Brent >$100 Middle East) = risk-off backdrop. BTC: spot ETFs -$225M July 24 (IBIT -$202M), ending 7-session inflow streak; now chopping $63.5-65k, below 50-month EMA (~$65.6k). Fear&Greed 27. Low-vol BB squeeze = coiled. No BTC-specific hack/unlock. Sentiment just flipped cautious -> supports short bias near-term, but squeeze means FOMC snap either way possible.",
+    "analyst": "Weak, non-aligned trend (4h short/ADX 27 but 30m-1h flat); price bouncing off 15m intraday low (64,256) closing near bar-high 0.56% below VWAP - mid-range, not extended, not at a level. Shorting mid-range into a bounce ahead of the FOMC BB-squeeze is chop-bait (account's #1 loss pattern); long is crowded with ETF-outflow headwind and no catalyst. No clean level either way -> HOLD is best expectancy. Trigger: loss of support 63,678 to short the breakdown, or rejection at VWAP ~64,650.",
+    "portfolio": "BTC/USDT:USDT -> HOLD (conf 0.55): mid-range chop into FOMC binary, no clean level; arm short on loss of 63,678."
+  },
+  "timestamp": "2026-07-26T07:04:18.504672+00:00"
+}

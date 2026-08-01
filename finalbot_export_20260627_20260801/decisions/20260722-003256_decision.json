@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "TSM/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price stalls under 426.3; thin off-hours tape likely chops 424.6-426.3. Wait: either a failed 425 shelf losing 423.8 (unwind begins) or a clean reclaim above 433.7 (continuation).",
+  "expectancy_note": "Both sides sub-1.5R here: long stop must sit >1.5xATR below a stretched entry; late short = 45% win / -1.21 avg pnl in learner. HOLD has highest expectancy until a level resolves.",
+  "rationale": "TSM is the most crowded-long, most-extended name in the set: RSI 82, ADX 91, %B 0.955, +3.95% above VWAP, structure_bias -0.332 and relative strength -14.62 (both worst in set). Earnings are 6 days old and priced; no 48h binary. The 15m tape shows a rejected push to 426.65 falling back to 425 on thin off-hours volume - a stall, not yet a reversal. Chasing the long risks the counter-bounce stop; shorting strength blindly is exactly this account's #1 loss pattern, so wait for the level to pick the side.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 423.8,
+    "expires_min": 240,
+    "note": "Losing the 423.8 intraday shelf breaks the coil and confirms the overbought unwind is starting - opens a controlled short toward VWAP rather than a chased fade."
+  },
+  "transcript": {
+    "macro": "Regime RISK-ON (tech/semi-led) but late-stage/stretched. US equities firmly bid (Nasdaq +1.29% Jul22); memory-chip melt-up Jul21 (Micron +12%, SanDisk +14%). FOMC Jul 28-29 (outside 48h). Scan taken ~00:26 UTC = US cash CLOSED -> thin/gappy off-hours liquidity on equity trackers; several names print zero-volume 15m candles. Funding ~0 across the book (equity perps) so the crowding tell is L/S ratio + how extended price is. Most crowded-long: TSM (L/S 2.19), HOOD (1.87), EWJ (1.58), EWY (1.40). COIN only name with +RS vs BTC. MSTR highest BTC-corr (0.71). XAG driver separate (metals/safe-haven, 0.85 corr XAUT). Biggest shared risk: crowded longs into overbought extremes during off-hours illiquidity -> reduced size on new longs.",
+    "sentiment": "Peak big-tech earnings week: GOOGL & TSLA report mid-week after close (QQQ binary <48h). SNDK NAND cycle red-hot but earnings Aug 5 (no binary); pure momentum, RSI~86. EWJ: BOJ at 1%, no meeting <48h, yen firm ~160 mild headwind. HOOD record June retail volumes but crypto rev soft; Q2 earnings Jul 29 (approaching). TSM beat hard Jul 16 (rev +36% YoY, raised FY guide >40%) but ~6d old, priced. COIN weak (-34% YTD, Q1 rev -31%), BTC fear zone, no <48h binary. EWY: SK Hynix > Samsung, AI-chip proxy, BUT KOSPI -4.46% Jul21 forced selling -> two-sided risk high. XAG strong: ~$58-59, +4% on US-Iran safe-haven + supply deficit, live catalyst. MSTR holds 843,775 BTC but SELLING (largest sale since 2022) + equity raise; BTC ~$64k directionless. Best clean catalyst XAG; biggest avoidable binary = heavy QQQ/tech into the prints.",
+    "analyst": "Most crowded-long (L/S 2.19), most-extended name: RSI 82, ADX 91, +3.95% over VWAP, worst structure_bias & RS in set. Earnings priced (6d old). 15m stall (rejected 426.65 push), not yet a reversal. Chase-long = bad RR; blind short = #1 loss pattern. Wait for 423.8 or 433.7 to resolve.",
+    "portfolio": "HOLD TSM - most crowded-long into overbought; stand aside until 423.8 breaks or 433.7 reclaims."
+  },
+  "timestamp": "2026-07-22T00:32:56.796877+00:00"
+}

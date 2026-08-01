@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "AAPL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Pinned at resistance 338.53 with RSI ~80, stoch 98, %B 1.0 and bearish divergence \u2014 expect a stall and shallow fade toward 336/VWAP, but the safe-haven bid can just as easily punch through. Two-sided at the ceiling.",
+  "expectancy_note": "p(win) ~0.5 either way; fade R:R is cramped (ATR 0.49%) and shorting extended high-RS names is this account's proven loser (short win 0.45 / -0.85, RS weight -0.35). No edge > waiting for the break.",
+  "rationale": "The technical exhaustion (RSI 80, stoch 98, %B 1.0, bearish divergence at resistance 338.53) argues for a fade, but AAPL is the single outperformer (+7.44% RS, negatively correlated to the semi/AI selloff) holding a safe-haven bid, and learner stats explicitly show shorting extended relatively-strong names bleeds this book. Tiny ATR leaves no room for clean R:R, and earnings Thu Jul 30 after close plus a live FOMC Wed make naked size reckless. No high-expectancy trade \u2014 wait for the resistance to resolve.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 338.53,
+    "expires_min": 240,
+    "note": "A clean break and hold above 338.53 kills the exhaustion-fade thesis and confirms safe-haven continuation \u2014 flips this to a momentum long; failure to reclaim keeps the fade in play."
+  },
+  "transcript": {
+    "macro": "Regime MIXED / cautious-defensive into a LIVE FOMC Wed Jul 29 (~30% odds of a HIKE \u2014 hawkish-tail, not a benign hold), layered on the busiest megacap-earnings week of the quarter. Oil crashed 7%+ (Brent <$90) on US-Iran de-escalation = disinflationary: soft dollar, lower real yields, lifts precious metals, pressures crude. Equity tape two-sided (record S&P, heavy/gappy Nasdaq; SOX in a bear market). Funding is flat across tokenized names (no signal); the usable contrarian tell is the long/short ratio, lopsidedly LONG (2.0-3.5) across the equity/metals book = crowded-long, rallies into resistance vulnerable to long-liquidation air-pockets. Backdrop argues for smaller size and reluctance to carry fresh risk through Wednesday.",
+    "sentiment": "Risk-off tilt into a heavy event week. Earnings status: INTC (Jul 23), TSM (Jul 16/17), GOOGL (Jul 22), TSLA (Jul 22) have ALL reported and now trade on the semiconductor bear-market tone / post-earnings unwinds (all fell on beats due to capex/margin worries). Un-tradeable-through-print risk flags: MSFT earnings Wed Jul 29 after close, AAPL earnings Thu Jul 30 after close. FOMC Jul 29 is a macro binary hitting XAG, CL and all tech at once. CL: oil gapped lower on US-Iran easing (~$84 from ~$92), OPEC+ Aug 2 supply hike expected, glut narrative building, two-sided/headline-sensitive. XAG: near $58-60 after ~7.5% rally on safe-haven + softer dollar; FOMC is the swing factor. ORCL: no imminent earnings (~Sept 7-9), choppy. AAPL is the scan outlier (negatively correlated to the semi selloff) so may not track the chip rout.",
+    "analyst": "The technical exhaustion (RSI 79.6, stoch 98, %B 1.0, bearish divergence at resistance 338.53) argues for a fade, but AAPL is the single outperformer (+7.44% RS, negatively correlated to the semi/AI selloff) holding a safe-haven bid, and learner stats show shorting extended relatively-strong names bleeds this book (short win 0.45 / -0.85 avg, RS weight -0.35). Tiny ATR (0.49%) leaves no clean R:R, and earnings Thu Jul 30 plus a live FOMC Wed make naked size reckless. Wait for the 338.53 ceiling to resolve.",
+    "portfolio": "HOLD AAPL \u2014 exhaustion at 338.53 but strongest horse + earnings Thu binary; no edge, wait for the break."
+  },
+  "timestamp": "2026-07-27T15:08:48.375413+00:00"
+}

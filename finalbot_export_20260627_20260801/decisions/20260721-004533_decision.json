@@ -1,0 +1,25 @@
+{
+  "symbol": "INTC/USDT:USDT",
+  "action": "hold",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Extended bounce to 98.4 likely stalls near 98.5-99.0; base case is a fade back toward VWAP ~96.2-96.8 before any renewed push.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 96.4,
+    "expires_min": 240,
+    "note": "A pullback to VWAP ~96.4 that holds resets the extended reading for a long with a tight stop under 96.0."
+  },
+  "rationale": "1h trend is up (score +0.9, ADX 68.9) but at 98.42 price is stretched (RSI 74.8, %B 0.933, +2.3% above VWAP) with no near target before 115.46, making a market entry a chase with sub-1.5 R:R. INTC earnings Thu Jul 23 after close (~15% implied) is a hard binary inside the window that caps size/duration. Wait for a VWAP reset ~96.2. HOLD.",
+  "transcript": {
+    "macro": "Regime risk-off/mixed: soft equity tape, oil spike ($82.5, US-Iran) reviving inflation, hawkish-leaning Warsh Fed. Semis were Monday's bright spot (INTC +2.1%). INTC extended (RSI 74.8/ADX 68.9), funding +0.024%, L/S 1.65. INTC earnings THU JUL 23 after close, ~15% implied move = hard binary; tradable long only intraday through Wed, must be flat before the print.",
+    "sentiment": "Active AI/semi valuation reset (<48h) \u2014 INTC fell ~9% Fri Jul 17 in semi rout. Euphoric-but-fragile (US govt ~10% stake, Apple foundry deal, Lip-Bu Tan turnaround). Street ~$0.21 EPS on ~$14.4B rev. Any position into Thu close = event gamble.",
+    "analyst": "Momentum genuinely up on mid TF but price stretched (RSI 74.8, %B 0.933, +2.3% VWAP) with no near structural target below 115.46 -> sub-1.5 R:R chase, the account's classic late-continuation loss. Thu earnings binary caps size/hold. Higher-expectancy play is to wait for a VWAP reset ~96.2. HOLD, size 0.",
+    "portfolio": "INTC \u2014 HOLD (0.60): extended into a ~15% earnings binary Thu; no clean R:R, wait for VWAP pullback."
+  },
+  "timestamp": "2026-07-21T00:45:33.184522+00:00"
+}

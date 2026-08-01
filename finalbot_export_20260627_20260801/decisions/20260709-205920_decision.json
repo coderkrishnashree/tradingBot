@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "COIN/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.58,
+  "playbook": "none",
+  "forecast": "Selling is decelerating at 158.2-158.8 on drying volume with 4h RSI 29 and a flagged bullish divergence; expect a mean-reversion bounce toward VWAP ~162.5 over the next several bars before the downtrend can resume. Shorting the lows here gets stopped by that bounce.",
+  "expectancy_note": "Fresh short p(win) ~0.4: 2.34% below VWAP, RSI 29, bullish divergence, support only 1.2xATR away = poor R:R and the exact late-continuation setup that lost this account (16 shorts 50%/-2.8, high-ADX 47%/-3.0). Best expectancy is to wait and short the bounce into resistance.",
+  "rationale": "Scan tags a clean short (ADX 76, all TFs down, uncrowded book) but the entry is wrong: price is oversold and stalling at the lows with a bullish divergence, so a market short chases into a likely counter-bounce that hits any honest stop before the trend resumes. Support at 154.97 is only ~2.4% below (barely over 1xATR), giving sub-1.5 R:R to the first structural target. I hold for a better location: short strength into VWAP ~162.5, or confirmed breakdown below 154.97; sizing stays down given 0.73 BTC-beta and gap risk.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 162.5,
+    "expires_min": 240,
+    "note": "A bounce into VWAP / broken-support-turned-resistance at ~162.5 offers a high-R:R short entry with the intact downtrend, stop above 165, target back toward 155."
+  },
+  "transcript": {
+    "macro": "Regime: equities risk-on (US hours), crypto chop (BTC ~63k, ADX 12, range 59.5k-64.7k). COIN ~$159, down ~29% YTD, ~60% below 52wk high, Q1 2026 $394M net loss. Scan tags SHORT cleanly: composite -0.351, all TFs down (4h RSI 29, 1h RSI 36), ADX 76 strong trend; structure_bias -0.065, long/short 1.17 (uncrowded -> low squeeze risk), funding flat. But mostly BTC-beta (btc_corr 0.733, 0.81 vs MSTR/HOOD); rel strength -4.0%. Main risk to short = BTC bounce off 59.5k. Tokenized-equity gap risk off-hours. Verdict: supportive for shorts / hostile for longs; size down, don't stack with MSTR/HOOD.",
+    "sentiment": "Constructive medium-term narrative but soft/consolidating tape, NO hard binary inside 48h. COIN bounced ~19% to ~$165 (Jul 2) on 'System Update' (tokenized stocks, on-platform options, Open USD stablecoin consortium), since drifted to ~$159. Analysts bullish (Bernstein $330, Cantor $250, US Tiger $200) vs Barclays bear ($107) - low-weight. Overhang: Q1 $394M loss. Regulatory slow tailwind (stablecoin rules Jul 18). Hard catalyst: Q2 earnings Jul 30 after close (outside horizon). No fresh hack/insider shock. High-beta crypto proxy -> BTC drives it. Net: news NEUTRAL, technicals + BTC beta set direction.",
+    "analyst": "Scan short is clean (ADX 76, uncrowded) but the LOCATION is wrong: price 2.34% below VWAP, 4h RSI 29, bb near lower band, flagged bullish divergence, selling decelerating at the 158.2-158.8 lows on drying volume. A market short chases into a likely counter-bounce toward VWAP ~162.5 that stops out before trend resumes; support 154.97 only ~1.2xATR below = sub-1.5 R:R. Learner: 16 shorts 50%/-2.8, high-ADX 47%/-3.0 - this is the late-continuation trap. HOLD; short strength into ~162.5 or confirmed breakdown below 154.97, size down for BTC-beta/gap risk.",
+    "portfolio": "HOLD COIN - right direction, wrong location; short a bounce into ~162.5 or a break below 154.97, not the oversold lows."
+  },
+  "timestamp": "2026-07-09T20:59:20.338277+00:00"
+}

@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "NVDA/USDT:USDT",
+  "confidence": 0.4,
+  "size": 0.0,
+  "entry": 208.58,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "forecast": "Dead coiled tape into Monday open: price chops 207.9-208.6 on illusory sub-1-volume ticks until the 13:30 UTC cash open resolves the squeeze; no directional move is tradable before then.",
+  "expectancy_note": "No honest R:R mid-range in a closed, thin, gappy tape; ADX/RSI readings illusory. Shorts bleeding in the book (0.47wr/-0.78), breakouts 0/2, p_win 0.47 here - flat is the highest-expectancy action.",
+  "rationale": "NVDA sits dead-center between 201.9 support and 214.6 resistance, bb_width squeezed to 1.53%, right on VWAP, on a US-market-closed Sunday tape where the last 20 15m bars drifted only 0.3% on micro-volume - the RSI 80/ADX 92 prints are artifacts, not momentum. There is no level test, no trigger, no catalyst inside 48h, and Monday gap risk plus crowded-long positioning make any pre-open entry a coin-flip. Size 0: want to see the coil resolve at the cash open before committing.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 214.56,
+    "expires_min": 1200,
+    "note": "A decisive reclaim/break of range resistance on real Monday-open volume confirms the +6% relative-strength leader is breaking the coil upward - the higher-expectancy long trigger given shorts have been losing."
+  },
+  "transcript": {
+    "macro": "Regime MIXED-to-CAUTIOUS, AI leaders wobbling. US market CLOSED Sunday -> thin/gappy, Monday gap risk. NVDA: MIXED/neutral, slight long lean, no edge. btc_corr 0.19 (independent of crypto). Coiled (bb_width 1.53%), RSI ~50, price 208.6 mid-range (sup 202 / res 214.6). 15m RSI 80 illusory (market closed). rel_str +6% (leader). Wait for Monday open direction; low conviction.",
+    "sentiment": "NVDA NEUTRAL, no own-catalyst in 48h (earnings Aug 27). AI-complex bellwether; next week Big Tech earnings (MSFT/META/AMZN/AMD) capex commentary will whip NVDA. Worst performer in its chip group in 2026 despite Blackwell sold out. Expect sympathy vol from peer prints late next week. Mildly long but overbought.",
+    "analyst": "Dead market-closed tape: 20 15m bars drifted 0.3% on sub-1-unit volume; RSI 80/ADX 92 illusory. Coiled mid-range, no trigger, no direction, no 48h catalyst. Entering a coiled closed-market tape with gap risk is the low-expectancy trap. Textbook HOLD; wait for cash-open resolution.",
+    "portfolio": "NVDA/USDT: HOLD (conf 0.40) - coiled mid-range on illusory closed-market tape, no edge."
+  },
+  "timestamp": "2026-07-26T18:36:43.801910+00:00"
+}

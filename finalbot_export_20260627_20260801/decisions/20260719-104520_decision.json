@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "EWJ/USDT:USDT",
+  "size": 0.0,
+  "entry": 90.09,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.2,
+  "playbook": "none",
+  "forecast": "Price stays pinned near 90.0-90.2 on zero-volume off-hours prints; no directional move can be forecast until US cash market reopens Monday. Real repricing gaps only on the Monday open.",
+  "expectancy_note": "No edge: illiquid (OI 2,248), stale zero-volume candles, ADX 24 = no trend, weak short score -0.37 on unreliable data. Any entry has negative expectancy \u2014 spread/gap risk swamps a 0.74% ATR.",
+  "rationale": "EWJ is effectively untradeable right now: the last ~20 15m candles are frozen with near-zero volume, US cash market is closed (Sunday), and OI is only 2,248. The scan's short bias (-0.37) is noise on stale indicative pricing, and BoJ (Jul 30) is outside the 48h window. No honest stop/target can be placed on gappy off-hours prints, so size is zero.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 88.16,
+    "expires_min": 240,
+    "note": "Losing the 88.16 support on real Monday-session volume would confirm the bearish break and justify re-debating a short; until then the tape is dead."
+  },
+  "transcript": {
+    "macro": "RISK-OFF regime (2026-07-19). Equities down hard; Fed hawkish. US cash CLOSED (Sunday) => thin/gappy indicative pricing. EWJ (Japan ETF) essentially untradeable: OI only 2,248, near-zero volume, stale candles. Scan says short (-0.37) but bias weak and data unreliable \u2014 treat as NO-TRADE/avoid; any signal is noise. BoJ decision Jul 30 (outside 48h) is the real vol driver.",
+    "sentiment": "EWJ neutral. Nikkei +~30% YTD but fell 2.8% on semis selloff. BoJ Jul 30 is main volatility driver (carry-trade unwind risk if hawkish; outside 48h). Illiquid (zero-volume candles). No <=48h catalyst; trade cautiously on gappy prints.",
+    "analyst": "Frozen tape \u2014 ~20 stale 15m candles, near-zero volume, OI 2,248, ADX 24 no trend. Short score -0.37 is noise. No honest stop/target placeable; negative expectancy. HOLD; only re-debate on a real Monday-session break of 88.16.",
+    "portfolio": "HOLD EWJ \u2014 illiquid/stale, untradeable; avoid until Monday liquidity."
+  },
+  "timestamp": "2026-07-19T10:45:20.021380+00:00"
+}

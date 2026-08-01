@@ -1,0 +1,28 @@
+{
+  "symbol": "SOL/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.5,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "none",
+  "forecast": "With BTC LTFs rolling over (1h RSI 30, 30m RSI 18.8) into resistance and SOL longs bleeding, expect SOL to drift/leg lower toward ~75-76 as BTC probes 63.5k-63k; a clean break of SOL's ~75.5 day-low would open the short, while reclaim of ~80 kills the squeeze thesis.",
+  "expectancy_note": "p(win) short ~0.55 directionally, but no live SOL structure/ATR/candles this cycle = can't size a tight honest stop; blind counter-trend entry on estimated levels is negative-expectancy vs waiting for the level to confirm.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 75.5,
+    "expires_min": 240,
+    "note": "Losing the intraday low confirms crowded-long capitulation + BTC dragging SOL down \u2014 arms the squeeze-of-longs short with real structure."
+  },
+  "rationale": "SOL data fetch failed this cycle, so I have no live levels, ATR, or candles \u2014 only web-sourced ~$77-78 and BTC as lead. A short is directionally supported (crowded 2.2 L/S longs, OI slipping as price falls, Extreme Fear, unlock overhang, BTC LTFs rolling over into 65.5k resistance) but is counter-trend to BTC's 4h uptrend and cannot be entered blind with honest tight stops. Best expectancy is to wait for confirmation: let a break of SOL's day-low (BTC losing 63.5k) trigger the short, rather than market into estimated levels and get stopped by noise.",
+  "transcript": {
+    "macro": "Overall regime MIXED, leaning risk-on but late/squeezy. June CPI cooled 3.5% y/y, Fed on hold, equities firm. BTC ~$63.9k, tagged 3-week high ~$65.1k Jul 15; 4h up but 1h/30m/5m rolling over, stalling into resistance $65,566. Rally was short-liquidation driven (~82.6% shorts) = squeeze fuel. BTC dominance ~56.3% elevated = alt headwind. SOL: ~$77-78, down ~5% on day, OI ~$4.9-5.4B slipping as price falls (longs bleeding), funding +0.004%, Binance L/S ~2.2 lopsided long. High-beta to BTC; long only works if BTC holds $61.5k / breaks $65.5k. Data caveat: SOL Bybit fetch failed this cycle (rate-limit) \u2014 no live structure.",
+    "sentiment": "SOL sentiment BEARISH-to-NEUTRAL. Fear & Greed 25 (Extreme Fear), ~61% bearish, negative social at 2026 high, 24h volume lowest of year. Near-term OVERHANG: July token unlocks ~$127M SOL-ecosystem supply incl Pump.fun ~$124M (21.35% circ) \u2014 supply pressure over coming days. Structural positives (MS ETF filing, Grayscale fee cut, SBI/SMFG, Alpenglow Q3) are longer-horizon, not 24-48h binaries. No hard timed catalyst next 24-48h; news leans mildly against longs / for shorts.",
+    "analyst": "No live SOL data \u2014 worked off shared notes + BTC as lead. BTC 4h up but every LTF rolling over hard (30m RSI 18.8, 1h RSI 30, 5m score -0.747), fresh rejection candle, mid-range below $65,566 resistance / above $61,500 support \u2014 near-term BTC path leans down toward 63.5k-63k. SOL: down ~5%, OI slipping (longs bleeding), L/S ~2.2 crowded long = downside squeeze fuel, Extreme Fear, unlock overhang. Short is directionally supported but counter-trend to 4h AND has no live SOL levels/ATR to place an honest stop. Disciplined call: HOLD with a downside reconsider armed at SOL day-low ~75.5 / BTC losing 63.5k.",
+    "portfolio": "HOLD SOL/USDT:USDT \u2014 directional short thesis is real but un-priceable without live structure; wait for day-low break to confirm."
+  },
+  "timestamp": "2026-07-16T13:04:07.678486+00:00"
+}

@@ -1,0 +1,27 @@
+{
+  "action": "hold",
+  "symbol": "AAPL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "expectancy_note": "Both sides low-p: long chases %B 1.39 / stoch 99.5 into resistance (bad R:R); short fades an ADX-29.5 uptrend at highs with no rejection yet (low p-win). Flat is highest expectancy.",
+  "rationale": "AAPL is pinned exactly at resistance 312.90 (last 312.86), stretched above the upper Bollinger band (%B 1.39) with stoch 99.5 and intraday RSI 85-92 plus a bearish divergence \u2014 textbook overextension, so chasing long is a donation. But ADX 29.5 in an uptrend and neutral structure (L/S 1.08) mean there's no confirmed rejection to short either; fading strength at new highs without an exhaustion candle is low-probability. No 48h catalyst (earnings Jul 30). Wait for the level to resolve.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 313.5,
+    "expires_min": 240,
+    "note": "A break and hold above resistance 312.90 (buffered to 313.5) proves the ceiling gave way, opening a trend-continuation long on the retest rather than a failed fade."
+  },
+  "transcript": {
+    "macro": "Regime risk-ON, tech-selective. Dow record, S&P +0.6%/Nasdaq +1.2% intraday 7/6. Rates/USD mild headwind \u2014 higher-for-longer caps high-multiple names. Derivatives: targets crowded LONG + negative structure_bias \u2014 contrarian caution for fresh longs. Low BTC corr (own-story mover). NOTE: shared macro note said AAPL RSI ~27 oversold, but actual scan shows AAPL OVERBOUGHT (4h RSI 65.2, intraday RSI 85-92, stoch 99.5) pinned at resistance \u2014 analyst traded off the scan data.",
+    "sentiment": "Overall cautiously risk-on. Overhang: weak June NFP growth scare. No FOMC/CPI inside 48h. AAPL: neutral, NO <=48h catalyst; Q3 earnings July 30 (Tim Cook's last call as CEO; iPhone 18 memory-cost margin guidance). Recent pop on China memory-chip sourcing (CXMT/YMTC) is a narrative, not a 48h binary. NEUTRAL near-term.",
+    "analyst": "AAPL is pinned exactly at resistance 312.90 (last 312.86), stretched above the upper Bollinger band (%B 1.39) with stoch 99.5 and intraday RSI 85-92 plus a bearish divergence \u2014 textbook overextension, so chasing long is a donation. But ADX 29.5 in an uptrend and neutral structure (L/S 1.08) mean no confirmed rejection to short either; fading strength at new highs without an exhaustion candle is low-probability. No 48h catalyst (earnings Jul 30). Wait for the level to resolve \u2014 break-and-hold above 312.90 opens a retest long. (Flagged: shared macro's 'RSI ~27 oversold' contradicts scan; traded off actual scan data.)",
+    "portfolio": "HOLD AAPL \u2014 overextended at resistance with bearish divergence, but no rejection to short; wait for the level to resolve."
+  },
+  "timestamp": "2026-07-06T15:17:42.795541+00:00"
+}

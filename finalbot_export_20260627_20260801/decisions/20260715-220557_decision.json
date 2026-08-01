@@ -1,0 +1,28 @@
+{
+  "symbol": "TSLA/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.6,
+  "size": 0.0,
+  "entry": 394.92,
+  "stop_loss": 0.0,
+  "take_profit": 0.0,
+  "take_profit_1": 0.0,
+  "take_profit_2": 0.0,
+  "playbook": "none",
+  "forecast": "Price coils 394.5-395.5 just above 391 support on dried-up volume; next few bars likely chop or a small mean-revert bounce toward VWAP ~397.5 before the 391 level is genuinely tested.",
+  "expectancy_note": "Short here is negative-expectancy: 15m RSI 21.5 + only 1% above support = the late-short-into-oversold the bounce stops; learner shorts win 47% / avg -1.59R, model weights ADX/aligned/structure_bias all negative. Wait for the 391 break.",
+  "rationale": "Scan is cleanly bearish (ADX 58.8, all TFs down) but the candles show the down-leg already spent: price ran to 399.5, rolled to 394.8, and has gone dead flat for ~10 bars on near-zero volume right above 391 support. Entering a short at 394.9 into 15m RSI 21.5 is exactly the chase pattern that has bled this account (shorts avg -1.59R). No long thesis with 4h trend down and no VWAP reclaim. Best expectancy is to wait for a decisive 391 break to short the continuation or a reclaim of VWAP to reassess.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 391.0,
+    "expires_min": 240,
+    "note": "A clean break of 391 support confirms the breakdown resumed and opens a lower-risk trend short toward the next level; until then price is coiling and oversold."
+  },
+  "transcript": {
+    "macro": "Regime risk-on but late-stage/fragile; Fed HOLD, soft July CPI. TSLA ~394: Q2 deliveries smashed (480k vs 406k est) but FY growth ~1%. Earnings July 22 OUTSIDE 48h. Scan cleanly bearish (score -0.351, ADX 58.8, 15m RSI 21.5, all TFs down); long/short 1.87 leaves room to fall. Supports SHORTS near-term; watch US-hours liquidity and pre-earnings drift.",
+    "sentiment": "Q2 deliveries already printed 7/2 at blowout 480,126 - catalyst spent. Next binary is Q2 earnings Wed July 22 17:30 ET - OUTSIDE 48h window. No imminent Tesla-specific catalyst next 24-48h; macro/beta-driven. Verdict: NEUTRAL (deliveries spent; earnings outside window).",
+    "analyst": "Last 394.92, composite short score -0.351, ADX 58.8 strong trend aligned, 15m RSI 21.5 deeply oversold, overall RSI 44.8, %B 0.295, VWAP dist -0.69%, support 391 / resistance 413.44, ATR% 0.98, L/S 1.868. Candles: ran to 399.5 then rolled to 394.8, dead flat ~10 bars on near-zero volume above 391. Scan screams short but down-move already happened and stalled - exhaustion/consolidation not fresh breakdown. Learner shorts n=30 win 0.47 avg_pnl -1.59; model weights ADX -0.465, structure_bias -0.598, aligned -0.338 all NEGATIVE = the losing signature. Chasing short into 15m RSI 21.5 ~1% above support is the trap. HOLD; short only on clean 391 break.",
+    "portfolio": "TSLA: HOLD (conf 0.60) - down-leg spent/coiling above 391, late-short-into-oversold trap the account bleeds on."
+  },
+  "timestamp": "2026-07-15T22:05:57.751484+00:00"
+}

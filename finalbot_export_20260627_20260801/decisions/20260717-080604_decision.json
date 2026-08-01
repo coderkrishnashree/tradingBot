@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "EWJ/USDT:USDT",
+  "size": 0.0,
+  "entry": 89.27,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Basing above 88.16 support after RSI-10 washout; expect chop between 88.16 and 89.72 next few bars, likely a grind-up toward VWAP (~92.4) if 89.72 clears, or a fresh flush to ~87 only if 88.16 breaks on volume.",
+  "expectancy_note": "Short here is negative-EV: p(win)~0.4, entry 89.27 vs stop ~90.3 for target 88.16 = R:R<1, and bounce is already underway (bullish divergence, RSI 10, OB +0.175). Long is the better bias but thin liquidity + risk-off macro make a market entry low-quality - HOLD beats both until confirmation.",
+  "rationale": "EWJ is hyper-extended DOWN (4h RSI 10.3, %B -0.05, ADX 93) sitting on 88.16 support with a flagged bullish divergence and buyers leaning into the book (OB +0.175, L/S 1.371) - exactly the 'sold the hole' setup where a routine counter-bounce stops any fresh short, this account's #1 loss pattern. The recent candles already show the low reclaimed (88.16 -> 89.72) and basing, so shorting now is negative expectancy with sub-1 R:R to the only nearby target. A long fade has better odds but the perp is VERY thin (near-zero volume, OI 2263) into a risk-off tape, so no clean market entry exists; size 0 until price proves direction.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 89.72,
+    "expires_min": 240,
+    "note": "Reclaiming the 89.72 bounce pivot confirms the divergence is playing out and opens a mean-reversion long toward VWAP ~92.4; conversely a decisive loss of 88.16 on volume would re-arm the short."
+  },
+  "transcript": {
+    "macro": "Risk-OFF tilt, tech/semi-led drawdown. Nasdaq -1.47% Thu 7/16; trigger = TSMC capex hike -> AI-overspend fear hit semis. 10Y ~4.60%, DXY ~100.9. Backdrop favors shorts/fades over new longs in equity-beta. EWJ tracks Nikkei which plunged -4.03% in the same semi-driven selloff (Japan exporter/semi-heavy). BOJ Jul 30-31 expected HOLD at 1% (31-yr high), hike guidance retained (outside window). Weak yen supported exporters all year (Nikkei +37% YTD) so multi-week trend still constructive-up -> this leg down may be a correction. Liquidity caveat: EWJ perp VERY THIN (many zero-volume 15m candles, OI ~2,263). Structure: L/S 1.371 (mild long lean), OB imbalance +0.175 (buyers leaning in - caution for shorts). Verdict: MIXED-to-HOSTILE for fresh shorts - right macro direction but oversold + thin = high bounce risk.",
+    "sentiment": "EWJ/Japan: KEY EVENT RISK BOJ meeting Jul 30-31 with quarterly Outlook Report - ~2 weeks out, NOT this cycle, but scheduled binary raising risk of holding into month-end; BOJ hiked to 1% in June (highest since 1995), hawkish bias. Yen near 162.4/USD (four-decade lows) as of Jul 15; Goldman 12-mo USD/JPY to 165; oil spike adds pressure. Mixed read for USD-denominated EWJ: weak yen lifts exporter Nikkei but DRAGS the USD-priced ETF via translation - consistent with washed-out short (RSI 10, price at support 88.16, %B -0.05, bullish divergence). No fresh <=48h Japan shock. Net: no <=48h catalyst; tone soft/risk-off; neutral-to-mildly-supportive of existing short bias, but tape deeply oversold at support with bullish divergence - watch for bounce.",
+    "analyst": "EWJ is the classic washed-out short trap: 4h RSI 10.3, price pinned on 88.16 support, %B below the lower band, a flagged bullish divergence, and an order book where buyers are leaning in (+0.175) with a modest long lean (L/S 1.371). The last several 15m candles already reclaimed the 88.16 low up to 89.72 and are basing - the bounce this account keeps getting stopped by is underway, so a fresh market short is negative-EV (stop must sit above ~90.3 for a target of only 88.16, sub-1 R:R). The long fade has better odds but the perp is far too thin (near-zero volume, OI ~2,263) into a risk-off macro backdrop for a clean market entry. HOLD is the highest-expectancy call: re-debate long on a reclaim of 89.72 toward VWAP ~92.4, or re-arm the short only if 88.16 breaks decisively on volume.",
+    "portfolio": "EWJ/USDT:USDT -> HOLD (conf 0.50): washed-out at support with bullish divergence + buyers in book (no fresh short) but too thin/risk-off for a clean long. Reconsider on reclaim > 89.72 or break < 88.16."
+  },
+  "timestamp": "2026-07-17T08:06:04.453580+00:00"
+}

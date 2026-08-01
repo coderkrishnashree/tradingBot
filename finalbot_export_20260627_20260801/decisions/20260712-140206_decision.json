@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "BTC/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price coils 63,900-64,110 just under resistance; most likely it chops in this band and drifts back toward 63,800 rather than breaking clean. A decisive 4h close above 64,703 opens a measured move toward ~65.8-66.0k; losing 63,730 opens the 63,272 air-pocket.",
+  "expectancy_note": "No level to trade from mid-range: a market long chases into stacked offers with the account's worst playbook (trend/high-ADX/long). Waiting for the 64,703 break gives real R:R, so HOLD beats it.",
+  "rationale": "BTC is mid-range (63,989 vs support 61,272 / resistance 64,703), RSI 50, VWAP +0.46% - not extended, but no edge. The 4h is the only firm bull (0.846); 1h is flat/down (MACD -40) and derivs do NOT confirm: structure_bias -0.182, orderbook -0.209 (offers stacked overhead), retail net-long into flat funding = downside air-pocket risk. Price poked 64,111 and faded on light volume - a rejection, not a thrust. Thin Sunday tape plus the account bleeding on trend/high-ADX longs makes a chase negative-expectancy; want the resistance reclaim before paying up.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 64703,
+    "expires_min": 240,
+    "note": "A break and hold above range resistance 64,703 confirms the 4h uptrend and turns this from mid-range chop into a real long with a measured move toward ~66k."
+  },
+  "transcript": {
+    "macro": "OVERALL REGIME MIXED, leaning risk-on but thin-tape (Sunday, US cash market closed). BTC ~$64k, bounced off 21-month low, dominance ~56-60% (capital hiding in BTC, alts weak). BTC environment MIXED/neutral: funding flat (+0.0047%), structure_bias -0.182 (L/S 1.334 retail net-long, orderbook -0.209 offers stacked). Composite long (61%, 4h up) but derivs don't confirm - a lean, not a tailwind. Range support 61,272 / resistance 64,703, price mid-range. Risk: downside air-pocket if 63,800 breaks. Standard size.",
+    "sentiment": "BTC neutral-to-cautious, macro-gated. Fear & Greed ~26 (Fear). Chopping ~$60-64k (12-mo low $60,816 June 6). July +10% off lows on returning ETF inflows. No near-term binary inside 48h; FOMC July 28-29 (~70% hold) ~2.5 weeks out. Headline-light - trade the technicals.",
+    "analyst": "BTC mid-range 63,989 between support 61,272 and resistance 64,703, RSI 50, VWAP +0.46% - neutral, non-extended, no structural level to trade against. Composite long carried by 4h (0.846); 1h flat with negative MACD (-40), 5m flat - intraday momentum soft, not aligned. Recent 15m probed 64,111, faded to 63,989 on shrinking volume (72 vs 433 up-thrust), leaned on 63,800 - consolidation under resistance, not a breakout. Positioning argues against paying up: structure_bias -0.182, orderbook -0.209 (offers stacked), L/S 1.334 into flat funding = downside air-pocket if 63,730/63,272 give way. Account bleeding on trend/high-ADX longs makes a mid-range chase negative-expectancy. Neither direction has a level, so HOLD, armed to flip long on a clean break above 64,703.",
+    "portfolio": "BTC/USDT:USDT - HOLD (conf 0.60): mid-range, no edge; flip long only on a confirmed break/hold above 64,703."
+  },
+  "timestamp": "2026-07-12T14:02:06.581941+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "INTC/USDT:USDT",
+  "size": 0.0,
+  "entry": 97.0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.34,
+  "playbook": "none",
+  "forecast": "Price sitting on intraday support ~96.7 with LTF RSI ~31; most likely a dead-cat bounce toward 97.9-98.5 (broken support / VWAP) over next 2-4 bars before the range resolves \u2014 no clean directional edge into the print.",
+  "expectancy_note": "p(win) on any entry ~0.45; shorting a fresh low into RSI31 = the account's #1 loss pattern (bounce stops it), and Thu earnings (~15% implied) is a binary inside the window \u2014 stay-out beats both directions on expectancy.",
+  "rationale": "Composite edge ~zero (conf 2.2%, flat), TFs conflict (15m/30m/1h short vs 4h long), 4h RSI 67 extended while 5m/15m RSI ~31 oversold into support 96.7 \u2014 a bounce is the probable next move, not clean continuation. This is a tokenized equity with worst-in-class RS -40% in a risk-off, semis-weak tape, and a ~15%-implied Q2 print Thu Jul 23 sits inside the holding window: no honest short survives that gap risk and no long is justified. HOLD is the highest-expectancy call; only a clean loss of support flips me.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 96.5,
+    "expires_min": 240,
+    "note": "Losing the 96.7-97 intraday shelf on volume confirms momentum breakdown (not a bounce) and would justify a tactical short with stop back above VWAP ~98 \u2014 but only pre-earnings and only intraday."
+  },
+  "transcript": {
+    "macro": "2026-07-20 RISK-OFF/DEFENSIVE. Semis hit last week. Funding ~0; crowded-long board = contrarian-short tilt. INTC line: STAY OUT / very small \u2014 reports Thu Jul 23 (event risk in window), crowded long L/S 1.76 vs down intraday, worst-in-class RS (-40%).",
+    "sentiment": "INTC: Q2 earnings Thu Jul 23 (INSIDE horizon) \u2014 options imply ~15% move. Up 163% YTD on 18A/foundry hype; corrected -17% recently (18A yield delay, AMD data-center lead). HSBC $200 target, new foundry deals (Apple/Nvidia/SpaceX). Massive binary event \u2014 treat as high-vol, non-directional into the print; do NOT hold blind through Thursday.",
+    "analyst": "Composite edge ~zero (conf 2.2%, flat), TFs conflict (15m/30m/1h short vs 4h long); 4h RSI 67 extended while 5m/15m RSI ~31 oversold into support 96.7 = bounce more likely than continuation. Worst-in-class RS -40%, risk-off semis-weak tape, and a ~15%-implied Q2 print Thu Jul 23 inside the window. HOLD; arm a tactical intraday short only on a clean break below 96.5, pre-earnings.",
+    "portfolio": "HOLD INTC \u2014 near-zero edge, oversold into support, binary earnings Thu; stay out, no blind hold through print."
+  },
+  "timestamp": "2026-07-20T20:18:57.146994+00:00"
+}

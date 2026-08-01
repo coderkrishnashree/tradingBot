@@ -1,0 +1,24 @@
+{
+  "symbol": "TSM/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.4,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "rationale": "TSM is a crowded-long laggard (LSR 2.48, structure_bias -0.30, RS -24.6%) in a macro regime hostile to semi longs, and the tape just printed a sharp rejection at 410.67 that dumped to 404.40 and flipped the 15m/5m short while 30m/1h/4h still read long \u2014 a genuinely split book (composite aligned=false). A fresh long fights the immediate rejection; a fresh short at mid-range (405) chases a move that already ran with only ~0.8% ATR of room, so a routine bounce to 408 stops it out. No R:R >= 1.5 exists here, so size stays 0 until price picks a side.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 404.0,
+    "expires_min": 240,
+    "note": "Losing 404 confirms the 410 rejection and breaks near-term structure, arming a short toward 401/397 in the hostile-semis, crowded-long context."
+  },
+  "transcript": {
+    "macro": "Regime mixed-to-hostile for chasing longs; semis in active July drawdown. Hawkish Fed (Warsh), ~53% odds Sept hike; Middle East war lifting oil/inflation; USD a headwind. TSM crowded-long (LSR 2.48, structure_bias negative) \u2014 favor mean-reversion/shorts; smaller size, tight stops.",
+    "sentiment": "Heavy earnings week. TSM neutral / post-catalyst \u2014 already reported Jul 16 (beat: rev +36% y/y, GM 67.7%, raised 2026 capex to $60-64B); catalyst spent, residual 'can capex translate to profit' skepticism weighing on chips. No new <=48h binary.",
+    "analyst": "Post-rejection split book: 410.67 rejected to 404.40, 15m/5m flipped short vs 30m/1h/4h long, composite unaligned. Crowded-long laggard in hostile semi tape but a fresh short at 405 chases a 5-pt drop into a 3.3-pt ATR (bounce hits stop). No fresh entry clears p(win) 0.5. HOLD.",
+    "portfolio": "HOLD TSM \u2014 rejected 410, split book; short on loss of 404."
+  },
+  "timestamp": "2026-07-20T14:14:45.343514+00:00"
+}

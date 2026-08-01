@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "QQQ/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Bounce off the 713.6 flush low is stalling near 718; expect a push toward VWAP ~721-723 where the down-trend should reject, OR a loss of 713.6 that resumes the leg toward 709. Right here at 718 (mid-bounce, 4h RSI 23.8) there is no clean entry.",
+  "expectancy_note": "Shorting 718 into an oversold bounce = the account's proven loser (trend shorts 45% win, -2.51 avg); waiting to short the retest at VWAP or the break below 713.6 flips R:R from ~1:1 to >2:1.",
+  "rationale": "ADX 75 confirms a powerful downtrend, but price just bounced off the 713.60 flush low and sits mid-bounce with 4h RSI 23.8 and %B 0.06 \u2014 chasing a short here gets stopped by the counter-rally, exactly this book's dominant loss pattern, and cross-book squeeze risk is high on any de-escalation headline. Not crowded (L/S 1.0), so no fade-the-crowd edge either. Best expectancy is to wait: short strength into VWAP (~722) or confirm breakdown below 713.6, rather than enter in no-man's-land.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 713.6,
+    "expires_min": 240,
+    "note": "Losing the 713.6 flush low proves the oversold bounce failed and the ADX-75 downtrend is resuming \u2014 clean trend-short with the stop back above the low."
+  },
+  "transcript": {
+    "macro": "Regime HOSTILE/risk-off. US-Iran Hormuz escalation -> war-inflation trade: WTI ~$74 spiking, DXY firm, Fed flipped hawkish (~61% Sept HIKE odds), CPI 3yr high. BTC crashed ~$58-62k on record ETF outflows (~$4.5B June). Safe-haven flow -> USD not metals. Environment favors shorts/defense; longs counter-trend. Crowded-long into falling prices = squeeze risk. Tokenized equities gap-risk off-hours. Cross-book risk: everything ex-CL is crowded-short into oversold; a de-escalation headline squeezes all shorts -> smaller size / faster targets. QQQ lean: supportive-SHORT, ADX 75, 1h/4h down, RSI 24, under VWAP, not crowded (L/S 1.0).",
+    "sentiment": "Dominant driver: weekend US-Iran escalation over Strait of Hormuz -> risk-off + oil spike + hawkish-Fed repricing. QQQ BEARISH: broad risk-off, oil/inflation drag; no index-specific 48h catalyst but heavy earnings week starts July 22.",
+    "analyst": "ADX 75 = powerful downtrend, but 15m shows a bounce off the 713.60 flush low back to 718 with 4h RSI 23.8 and %B 0.06. Shorting mid-bounce is the book's #1 loss pattern (trend shorts 45% win, -2.51 avg). Not crowded so no fade edge. Wait for a short into VWAP ~722 or a breakdown below 713.6.",
+    "portfolio": "QQQ: HOLD (conf 0.60) \u2014 no clean short at 718 mid-bounce; armed to short below 713.6."
+  },
+  "timestamp": "2026-07-13T15:04:00.288170+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "COIN/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Price is mid-range (165.9) after a bounce off ~162 stalled and rejected at 168; expect chop between 164-168 into the FOMC minutes, no clean directional edge next few bars.",
+  "expectancy_note": "No entry clears the bar: mid-range fill forces SL beyond distant structure (142/175), R:R <1.5; structure flat (funding 0, L/S 1.13), pure BTC beta (corr 0.74, rel-str +0.1%), and FOMC minutes tomorrow is a binary. p(win) not high enough for either side.",
+  "rationale": "The 15m path shows a clean bounce off the 162 support that ran to 168 and just rolled over on the last two bars (close 165.91 near range low) \u2014 recovering, not trending down, so the 4h composite short lacks confirmation (4h MACD is positive). But the fade off 168 also blocks a long. Structure is genuinely neutral with no crowding edge and COIN is trading as pure BTC beta with zero relative strength, so there is no independent thesis. With FOMC minutes Wed as a binary and the account's trend playbook running -3.29 avg pnl, forcing a low-conviction trade here is negative expectancy. Wait for a level to resolve.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 168.0,
+    "expires_min": 240,
+    "note": "Reclaiming the 168 rejection high proves buyers absorbed the fade and the crypto tailwind is winning over the technical short \u2014 flips me long toward 172-175."
+  },
+  "transcript": {
+    "macro": "2026-07-07 split tape \u2014 equities/AI RISK-OFF (bearish for COIN as a stock) vs BTC +10% MTD crypto RISK-ON (bullish for COIN as crypto beta) \u2014 these OFFSET. COIN 165.91, bounced off ~163, composite short (-0.268), 4h RSI 35, 15m/5m flat, price recovering, ADX 47. Structure NEUTRAL: funding 0.0, long/short 1.13, orderbook +0.161, structure_bias +0.009. BTC corr 0.739 high, rel-strength +0.11%. Genuinely MIXED; trade small.",
+    "sentiment": "Q2 2026 earnings Jul 30 = OUTSIDE window. No fresh regulatory/listing shock. Trades as high-beta BTC/crypto proxy (BTC-corr 0.739, HOOD 0.81, MSTR 0.81). Next 24-48h driven by crypto tape + FOMC minutes Wed Jul 8 (rates->risk appetite), NOT Coinbase headlines. Scan short aligns with a weak crypto complex but BTC is strong MTD.",
+    "analyst": "15m: sharp selloff 169->161.86 low (bounced off ~162), clean recovery to 168.76, then last two bars rolled over (166.05, close 165.91 near range low). 4h MACD positive (0.558) so the composite short lacks confirmation; but the fade off 168 blocks a long. Structure flat, pure BTC beta with zero rel-strength = no independent thesis. FOMC binary Wed + trend playbook at -3.29 avg pnl = forcing a trade is negative EV. HOLD; flip long on a reclaim of 168.",
+    "portfolio": "HOLD COIN \u2014 mid-range after a bounce stalled at 168; flat structure, pure BTC beta, no edge into FOMC."
+  },
+  "timestamp": "2026-07-07T17:24:59.626963+00:00"
+}

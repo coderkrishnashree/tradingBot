@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "MU/USDT:USDT",
+  "size": 0.0,
+  "entry": 930.98,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.58,
+  "playbook": "none",
+  "forecast": "Coiled flat at 930 after the flush to 920.8; expect a mean-reversion bounce toward the 942-950 broken-support/VWAP retest over the next 2-6 bars, which is where a low-risk short belongs - not a fresh leg down from here. If instead 920.8 gives way, the downtrend resumes toward 900/876.",
+  "expectancy_note": "p(win) on a market short here ~0.40 (RSI 29 snapshot, 5m RSI 70, drying volume = flush done, snapback risk); no honest 1.5R short exists at 930 with stop above 950. Best expectancy = wait for the bounce to 944 to short, or the 920.8 break to trend-follow.",
+  "rationale": "MU is the selloff epicenter (RS -12.5%, crowded longs 2.04 = downside fuel) but the 4h flush is already complete: RSI 29 is a completed-move snapshot while 5m RSI is 70 and 15m is neutral, the last six 15m bars are a tight flat balance at 930 on drying volume - a market short here would be chasing into an oversold snapback, precisely the late-short pattern that has this account's trend-shorts at 45% win / -2.5R. With CPI tomorrow (binary) and US cash closed (gappy), I want confirmation, not a mid-air entry. I short the bounce into 944 (broken-support/VWAP retest) or trend-follow only if 920.8 fails; neither trigger is live yet, so flat.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 920.5,
+    "expires_min": 240,
+    "note": "Losing the 920.82 flush low breaks the balance and confirms downtrend resumption toward 900/876 - arm the continuation short; a bounce back to 944 would instead offer the cleaner low-risk short entry."
+  },
+  "transcript": {
+    "macro": "Risk-OFF. MU is the EPICENTER of the chip selloff (Samsung/SK Hynix contagion; memory names ran into $1T caps = profit-taking). Scan: RSI 29, ADX 66, 4h trend down, rel-str -12.5% (laggard), structure_bias -0.31, long/short 2.04 (crowded longs). Composite aligned:false - stretched-oversold, snapback risk. US cash closed. June CPI tomorrow Jul 14 08:30 ET.",
+    "sentiment": "Very bullish NARRATIVE but earnings already passed and stock extended. Blowout FQ3 (Jun 24, rev +346% YoY), HBM sold out through 2027, ~$100B contracts, Anthropic partnership - all priced. Shares +200%+ over 90 days. No fresh <=48h catalyst; risk is momentum/mean-reversion pullback, not news.",
+    "analyst": "Scan: last 930.98, RSI 29.2 (snapshot), ADX 66.5, 5m RSI 70 / 15m neutral (immediate tape already bounced), ATR% 1.91, support 876.29, structure_bias -0.31, long/short 2.04. Flush to 920.82 done; last six 15m bars flat coil at 930 on drying volume. Market short = chasing oversold snapback (account's late-short loss pattern). HOLD; short the bounce to ~944 or trend-follow only if 920.8 fails.",
+    "portfolio": "MU: HOLD (conf 0.58) - weakest name but flush already complete and coiled at 930; no honest short at spot. Reconsider short below 920.5 or on a bounce to 944."
+  },
+  "timestamp": "2026-07-13T21:32:12.342591+00:00"
+}

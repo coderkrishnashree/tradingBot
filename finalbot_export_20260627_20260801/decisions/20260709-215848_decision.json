@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "MSTR/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.58,
+  "playbook": "none",
+  "forecast": "Coiling at 94.18 after a 93.23 flush that got absorbed on drying volume; expect chop between 93.2 and 95.5 near-term. A rally into 95.5-96.1 offers a clean short into VWAP/broken support; a break below 91.92 on volume resumes the flush toward ~89.",
+  "expectancy_note": "Short is right directionally but wrong on location: entering at 94.18 (RSI31/stoch19, -3.5% below VWAP, right above 91.92 support, US market closed) is ~1:1 R:R into oversold support with tape already bouncing = the account's exact loss pattern (short 0.50 winrate, -2.8 avg). Waiting for the bounce or the support break both give >1.5R.",
+  "rationale": "MSTR reads short on the composite (-0.297) and macro is hostile, but the last 7 candles show a stall/base after the 93.23 capitulation flush with volume collapsing and price creeping back ~1%, not fresh downside momentum. Shorting here into oversold levels just above 91.92 support with the US cash market closed (thin, gap-prone) risks getting stopped by a routine counter-bounce before the trend resumes. I want to short strength into 95.5-96.1 (VWAP/broken-support retest) or short a confirmed loss of 91.92 - both give real R:R; chasing the flush does not.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 91.92,
+    "expires_min": 240,
+    "note": "Losing the 91.92 support on volume confirms the flush is resuming and opens a clean short with a measured target toward ~89; a reclaim rally into 95.5-96 would instead be the preferred short-the-bounce entry."
+  },
+  "transcript": {
+    "macro": "Risk-OFF, event-driven. Fear&Greed 22, BTC ~$62,850 below $65k pivot, Iran deal 'over'. BTC dominance ~56% (bad for crypto-beta equities). CRITICAL: ~21:55 UTC Thursday, US cash equity market CLOSED \u2014 MSTR tokenized equity thin/gap-prone off BTC proxy. MSTR read: worst fundamental story \u2014 BTC underwater vs cost basis, $8.3B Q2 loss, company now SELLING BTC (flywheel stalled). In-scan short (blended -0.30), RS -17.3% (massive underperformance vs BTC, corr 0.78), structure_bias -0.25, funding still positive + L/S 1.50 = residual long crowding to flush. Caveats: RSI 31, stoch 19 oversold, just above support 91.92; countertrend-bounce + overnight-gap execution risk.",
+    "sentiment": "High-beta, fragile, BTC-dependent \u2014 leveraged BTC bet, 847k BTC underwater ~11-12%, deeply negative GAAP earnings. Recent bounce on Digital Credit Capital Framework (buybacks, up to $1.25B BTC sale for liquidity); scan last 94 faded with BTC. No <=48h catalyst/earnings/unlock. Near-term news neutral-to-bearish, entirely BTC-driven; watch $62k BTC support.",
+    "analyst": "MSTR reads short and macro is hostile, but last 7 candles are a stall/base after the 93.23 capitulation flush \u2014 volume collapsing, price creeping back ~1%, not fresh downside. Shorting at 94.18 into oversold just above 91.92 support with US market closed = ~1:1 R:R and the book's exact loss pattern. Prefer to short strength into 95.5-96.1 or a confirmed loss of 91.92. HOLD.",
+    "portfolio": "MSTR: HOLD (conf 0.58) \u2014 short is right direction, wrong location; sell the bounce (95.5-96) or a break of 91.92, not the flush."
+  },
+  "timestamp": "2026-07-09T21:58:48.978093+00:00"
+}

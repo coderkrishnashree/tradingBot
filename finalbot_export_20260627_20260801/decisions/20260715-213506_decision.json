@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "TSM/USDT:USDT",
+  "size": 0.0,
+  "entry": 422.01,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.34,
+  "playbook": "none",
+  "forecast": "Coils in the 419-423 band on dying volume into the print; no directional edge until the Thu ~2pm ET earnings gap resolves it. Expect chop, not a clean trend leg, over the next several hours.",
+  "expectancy_note": "p(win) ~0.5 on either side = negative expectancy once you subtract a binary gap that can move 5-10%+; muddy unaligned composite (32.7% conf, TFs split 15m-long vs 1h/4h-short) offers no edge to justify carrying event risk.",
+  "rationale": "TSMC Q2 earnings land Thursday ~2pm ET, inside my 48h window \u2014 a scheduled binary gap that dominates technicals. The scan is a coin-flip: short-biased composite but not aligned (align_factor 0.87, 32.7% conf) with a bullish divergence flag, 15m/5m ticking up against 1h/4h short, and price coiling flat under ~423 resistance on collapsing volume. Crowded-long L/S 1.99 with longs paying funding is a mild caution but no edge alone. Flat-before-print is the highest-expectancy choice; size 0.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 423.0,
+    "expires_min": 240,
+    "note": "A clean break/hold above the coil's 423 resistance on rising volume would show buyers front-running a beat, converting the 15m-long divergence into a real pre-print momentum long."
+  },
+  "transcript": {
+    "macro": "Regime MIXED, risk-on-ish post-soft-CPI, oil/Iran tail. TSM = EVENT RISK. TSMC reports Q2 THURSDAY JULY 16 (~2:00 ET) \u2014 inside 24h. Expected ~$3.81/ADR vs $2.47 y/y, rev ~$40B, GM 65.5-67.5%. Beat 4 straight quarters. Sector shed ~$1.3-1.4T in a days-long selloff -> binary vol event; CoWoS/AI-capex guidance is the swing factor. Scan short bias (structure_bias -0.30), L/S 1.99 crowded-long, funding +0.00027, BUT bullish divergence flagged & 15m/5m up. rel-strength -9.9% vs BTC. Recommend flat-before-print or smaller size.",
+    "sentiment": "BINARY EVENT IMMINENT: Q2 earnings Jul 16. June revenue reportedly +68% y/y \u2014 bar is high. Market watching for FY2026 outlook RAISE and AI/CoWoS + 2nm/3nm pricing. Single biggest <=48h catalyst; sets tone for whole chip/AI complex. Elevated vol/gap risk. Directionally neutral pre-event.",
+    "analyst": "TSMC Q2 earnings Thursday ~2pm ET, inside the window \u2014 a scheduled binary gap that dominates technicals. Scan is a coin-flip: short-biased but not aligned (32.7% conf) with a bullish divergence flag, 15m/5m up vs 1h/4h short; price coiling flat under ~423 on collapsing volume. Flat-before-print is highest expectancy; size 0. Small tightly-stopped long only on a clean 423 break/hold on volume.",
+    "portfolio": "HOLD TSM \u2014 flat before a binary earnings gap inside 24h; muddy 32.7%-conf signal gives no edge."
+  },
+  "timestamp": "2026-07-15T21:35:06.247250+00:00"
+}

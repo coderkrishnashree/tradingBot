@@ -1,0 +1,25 @@
+{
+  "action": "hold",
+  "symbol": "TSLA/USDT:USDT",
+  "size": 0.0,
+  "entry": 382.54,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.34,
+  "playbook": "none",
+  "forecast": "Sunday dead tape drifting 382-383 on near-zero volume; no real move until Monday's gap. Real risk is a downside gap toward 377.78 support given crowded longs (L/S 1.995) into the 7/22 earnings.",
+  "rationale": "US market is CLOSED (Sunday) so the tape is thin/gappy with near-zero volume \u2014 the last 20 bars are noise, not signal, and price will gap on Monday. TSLA has a binary Q2 earnings print Wed 7/22 sitting inside the ~48h hold window, and positioning is crowded long (long_short 1.995) into a print sentiment reads as bearish. The 4h is deeply oversold (RSI 22.4, ADX 56.8 down) while short TFs drift up \u2014 mixed, no honest directional edge \u2014 and composite confidence is only 2.1. Correct play is to wait for Monday's open to reveal a real level; size zero.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 377.78,
+    "expires_min": 240,
+    "note": "Losing the 377.78 pivot on Monday's open confirms the delivery-day downtrend resuming and clears a short into the bearish 7/22 print; above it the range holds and HOLD stands."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF, tech-led. Fri 7/18 S&P -1%, Nasdaq -1.5% on semiconductor selloff. Sunday US market CLOSED. TSLA: EARNINGS 7/22 inside the hold window. Q2 deliveries (480k, +18% beat) already OUT yet stock fell ~7.5% on the report \u2014 margins/Cybercab now the swing factor, 204x fwd P/E, BYD pressure. Binary print inside the hold \u2014 close before 7/22 or trade minimal size.",
+    "sentiment": "TSLA BEARISH near-term, binary imminent: Q2 earnings Wed 7/22. Record deliveries (480,126, +25% YoY, beat 18%) already priced; stock fell ~7.5% on delivery day, so beat is spent \u2014 print is now purely about auto gross margin, Cybercab timeline, capex. Caught in same chip/AI-adjacent risk-off. Coin-flip event risk skewed bearish on positioning; near-term news against fresh directional exposure.",
+    "analyst": "No edge: p(win) ~0.5 coin-flip, thin closed-market tape + binary earnings inside window kills R:R. 4h deeply oversold (RSI 22.4) while short TFs drift up on ~zero Sunday volume \u2014 noise, not signal. Crowded long (L/S 1.995) into a bearish print. HOLD, size zero; wait for Monday's open to reveal a real level.",
+    "portfolio": "TSLA: HOLD \u2014 thin Sunday tape and binary 7/22 earnings inside the window; no honest directional edge, size zero."
+  },
+  "timestamp": "2026-07-19T03:11:30.606996+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "MSFT/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price is stalling 401-403 just under 406.14 resistance after a stretched run; expect a chop-to-fade back toward VWAP/399 over the next 2-6 bars rather than a clean breakout, with volume drying and 5m momentum cooling.",
+  "expectancy_note": "Long here is chasing (%B>1, RSI65, stoch86, +1.31% vs VWAP) into resistance with poor R:R and crowded-long structure; short lacks a confirmed rejection against a live all-TF uptrend. Best expectancy = wait.",
+  "rationale": "MSFT is the firmest mega-cap but now extended: RSI 65, %B 1.14 (above upper band), stoch 85.6, +1.31% over VWAP, into hot CPI and a live FOMC hike risk, with a 1.756 long/short ratio (contrarian-bearish). The last ~9 candles rolled over under the 403 high on drying volume, so a fresh long is a chase with sub-1.5 R:R to the 406.14 cap, and there is no bearish divergence yet to justify fading a live uptrend. Flat is highest-expectancy; want a breakout above 406.14 (buy strength) or a pullback toward VWAP/378 (clean long).",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 406.14,
+    "expires_min": 240,
+    "note": "A clean reclaim/close above 406.14 resistance proves the trend is resuming and turns this into a valid momentum-long trigger."
+  },
+  "transcript": {
+    "macro": "Regime MIXED-to-RISK-OFF. Mega-cap/software: MSFT firmest (mild uptrend, RSI ~65 extended). FOMC 7/28-29 (~63% hold, 37% HIKE, no cut priced); June CPI hot. Funding flat; long/short lopsidedly long desk-wide (MSFT 1.76 => contrarian-bearish). Favor fading crowded-long extended names over fresh longs; overbought extension = poor long entry; reduce size.",
+    "sentiment": "MSFT earnings July 29 after close (FY26 Q4). No binary this cycle but position risk builds into next week; RSI stretched (65+). Positions held past ~July 28 carry earnings gap risk.",
+    "analyst": "Firmest mega-cap but stretched: RSI 65, %B 1.14, stoch 85.6, +1.31% VWAP, crowded-long 1.76, into hot CPI + live FOMC hike. Last ~9 bars rolled over under 403 high on drying volume. Fresh long = chase, sub-1.5 R:R to 406.14; no divergence to justify fading a live uptrend. Wait for breakout >406.14 or pullback to VWAP/378.",
+    "portfolio": "MSFT: HOLD (conf 0.60) \u2014 extended into resistance; wait for 406.14 breakout or a VWAP pullback."
+  },
+  "timestamp": "2026-07-20T19:16:50.513339+00:00"
+}

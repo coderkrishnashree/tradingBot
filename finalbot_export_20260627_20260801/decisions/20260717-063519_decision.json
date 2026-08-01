@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "NVDA/USDT:USDT",
+  "size": 0.0,
+  "entry": 203.2,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.55,
+  "playbook": "none",
+  "forecast": "Relief bounce off 201.6 low already underway (last 3 15m bars 201.89->202.49->203.2); expect a push toward 205-206 (VWAP / broken support-turned-resistance) over the next 2-6 bars where sellers likely reload, OR a clean break of 199.26 that opens continuation lower.",
+  "expectancy_note": "p(win) on a fresh short here ~40%: RSI 22.9/27 oversold + 5m flipped long = buying the low tick, a routine bounce hits any honest stop before trend resumes. Better EV waiting for the rip to 205-206 to short, or a 199.26 break; no long vs ADX 86 risk-off.",
+  "rationale": "NVDA is in a very strong risk-off semis downtrend (ADX 86) but 1h RSI 22.9 / 4h RSI 27 are deeply oversold and the 5m has flipped long with the last three 15m candles bouncing off 201.6 support toward 203.2 \u2014 the classic exhausted-move relief bounce the shared notes flag. Shorting now sells the low tick into that bounce (the account's #1 loss pattern: late shorts into stretched tape stopped by the counter-bounce); no valid R:R>=1.5 short exists until price rallies to a sell-the-rip level. HOLD is highest expectancy; arm the trigger that actually resolves the tape.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 199.26,
+    "expires_min": 240,
+    "note": "Losing 199.26 support ends the oversold bounce and opens fresh downtrend continuation \u2014 re-debate for a clean short."
+  },
+  "transcript": {
+    "macro": "Both TSM & NVDA are tokenized SEMICONDUCTOR EQUITIES \u2014 judge as chips, not crypto (BTC corr ~0). Regime = RISK-OFF for semis. TSMC Q2 (7/16) beat but SOLD OFF on 2026 capex hike ($60-64B) \u2014 AI-capex/margin scare. Cascade: Nasdaq-100 -1.6%, SOX -4.27%, SK hynix ADR -13.7%, Micron -6%, NVDA -2.4%. Nasdaq futures soft into 7/17; Asia lower; oil spiking on Iran = secondary risk-off. NVDA positioning: funding flat, L/S 1.44 (mild long skew), orderbook near-neutral (+0.002), structure_bias -0.131, RSI 27 (4h), 1h RSI 22.9 DEEPLY oversold, ADX 86 very strong downtrend, support 199.26 vs last 203.2, rel-strength vs BTC +0.6% neutral, 5m flipped LONG (RSI 72) = bounce twitch, OI 15,959. Environment leans SHORT but NVDA less clean; biggest risk = chasing shorts into deeply oversold exhausted move primed for violent relief bounce \u2192 smaller size, sell into rallies, do NOT chase new lows or fresh longs.",
+    "sentiment": "NVDA tone neutral-to-constructive fundamentally, NO \u226448h binary \u2014 near-term news NEUTRAL to the trade. Next earnings Aug 26, 2026 (outside 48h). Recent flow mildly positive-to-neutral: denied 'Kyber' rack-scale delay & reaffirmed schedule (+~1%), Goldman called ~21.7x forward 'compelling,' Japan launched national AI infra with NVIDIA (7/15) \u2014 narrative/long-horizon, not 48h movers. Export control slow drip ('very few' H200 shipped to China as of 7/14) \u2014 mild overhang, nothing binary. The one 48h mover = macro/sector beta: deeply oversold, moving with QQQ/semis (partly TSM drag), not NVDA-specific news. No NVDA-specific catalyst \u2014 direction is a sector/tape call; fundamentals neutral-to-mildly-bullish = mild caution against pressing a fresh short into stretched oversold absent its own catalyst.",
+    "analyst": "NVDA is in a very strong risk-off semis downtrend (ADX 86) but 1h RSI 22.9 / 4h RSI 27 are deeply oversold and the 5m has flipped long with the last three 15m candles bouncing off 201.6 support toward 203.2 \u2014 the classic exhausted-move relief bounce. Shorting now sells the low tick into that bounce (the account's #1 loss pattern: late shorts into stretched tape stopped by the counter-bounce); no valid R:R>=1.5 short exists until price rallies to a sell-the-rip level (205-206 VWAP/broken-support). No long against ADX 86 risk-off. HOLD is highest expectancy; reconsider armed at price_below 199.26 (support break \u2192 clean short continuation).",
+    "portfolio": "HOLD NVDA (0.55) \u2014 sector-beta short at best and it's deeply oversold mid-bounce; wait for 205-206 rip or a 199.26 break, no honest short exists here."
+  },
+  "timestamp": "2026-07-17T06:35:19.188563+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "MSTR/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.4,
+  "playbook": "none",
+  "forecast": "Coiling 93.1-93.6 on thin weekend tape; last bars ticked up into ~93.5 intraday resistance but momentum is minor. Expect continued chop 92.9-93.6 unless BTC breaks its own 64.6k range; no clean directional move to trade here.",
+  "expectancy_note": "p_win only ~0.46 composite; no nearby structural target inside 1.5xATR, crowded long + weak RS + closed-market gap risk = negative expectancy. HOLD beats a coin-flip BTC-echo entry.",
+  "rationale": "MSTR is a 0.727 BTC-beta wrapper lagging its driver by -8.87%, on a weak +0.302 composite with US cash markets closed (thin/gappy). Nearest structure is far (support 89.85, resistance 104.64), so any honest ATR stop (~92.3) sits mid-air with no target inside 1.5R. L/S 1.495 crowded long and structure_bias -0.164 argue against chasing the minor last-bar pop into the weekend. No edge - wait for a real break with BTC leading.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 93.7,
+    "expires_min": 240,
+    "note": "Reclaiming the 15m consolidation high with BTC support intact would confirm a genuine long push rather than a thin-tape wiggle; below 92.9 instead flags the crowded-long unwind for a short re-look."
+  },
+  "transcript": {
+    "macro": "2026-07-26 Sunday. Regime NEUTRAL tilting risk-OFF. US cash markets CLOSED -> thin/gappy weekend tokenized-equity tape. MSTR is a BTC-beta vehicle (btc_corr 0.727). BTC constructive-ish (long, p_win 0.62, ~64.6k) but MSTR's relative strength -8.87% vs BTC - equity wrapper LAGGING its driver (heavy). L/S 1.50 crowded long. Earnings Thu 7/30 AMC - binary midweek. Follow BTC, don't lead with it.",
+    "sentiment": "MSTR (Strategy) holds 843,775 BTC (~$63.7B cost), 0.73 BTC corr. BTC tone SOFT - crypto Fear&Greed mid-fear-to-neutral, ~$225M spot-ETF outflow, BTC chopping $63.7k-$65.4k. Earnings Jul 30 AMC (outside 48h). Crypto risk-off + weak relative strength -> longs fighting the tape; lean cautious until BTC reclaims ground. NEUTRAL-to-soft-bearish near term.",
+    "analyst": "0.727 BTC-beta wrapper lagging driver -8.87% on weak +0.302 composite, US cash closed. Nearest structure far (support 89.85, resistance 104.64) so any honest stop (~92.3) sits mid-air with no target inside 1.5R. L/S 1.495 crowded long. No edge. HOLD; long trigger above 93.7, short re-look below 92.9.",
+    "portfolio": "HOLD MSTR - weak BTC-echo, lagging RS, no structural R:R; wait for a real break with BTC leading."
+  },
+  "timestamp": "2026-07-26T14:35:53.806055+00:00"
+}

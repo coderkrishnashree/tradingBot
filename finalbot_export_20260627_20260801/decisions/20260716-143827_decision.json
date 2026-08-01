@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "MSTR/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.55,
+  "playbook": "none",
+  "forecast": "Price bounced off the 93.88 flush low back to ~95.3 and is coiling under 95.9-96.5; expect a grind toward 96.3-96.5 resistance (lower-high short setup) OR a loss of 94.5 confirming the LTF downtrend resuming toward 90.14. Mid-range chop at VWAP for now.",
+  "expectancy_note": "Short bias exists (30m/1h down, equity tape risk-off) but shorting a live bounce with bullish divergence + firm BTC ($65K) + MSTR as rel-strength leader is the account's classic late-short loss; no clean R:R market entry, so wait for the 94.5 breakdown.",
+  "rationale": "The composite says short, but recent candles show a completed flush to 93.88 and a ~1.5pt recovery holding near VWAP with bullish divergence flagged and BTC firm - that's a bounce, not a breakdown. A market short here has poor R:R (target 90.14 far, immediate path up), so hold and arm a breakdown trigger. Losing 94.5 proves the bounce failed and the 30m/1h downtrend resumed, opening 90.14 with a stop above 96.5.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 94.5,
+    "expires_min": 240,
+    "note": "Break below 94.5 loses the post-flush bounce structure and confirms the 30m/1h downtrend resuming toward support 90.14 - the short trigger."
+  },
+  "transcript": {
+    "macro": "Risk-off lean into a thin headline-driven session. Nasdaq -0.76%, S&P -0.37% on chip-led selloff (TSMC). DXY firm ~100.6; US 10Y 4.59%/2Y 4.16% (yields up). BTC reclaimed ~$65K (~$64.8K), funding modest, Fear&Greed 26. No FOMC/CPI inside 48h (Fed Jul 28-29; June CPI printed Jul 14). DXY up + yields up + soft indices = supportive of shorts. MSTR: BTC-proxy equity, rel-strength +7.73% leader, cleanest positioning (L/S 1.36, structure_bias -0.06); scan direction SHORT (30m/1h down) but 4h RSI 61.9 - mixed, firm BTC caps downside.",
+    "sentiment": "Cool June CPI (3.5% vs 3.8%) Jul 14 + soft PPI sparked risk-on relief rally Jul 15-16; Fed-hike odds ~10%. Big binaries OUTSIDE 48h. MSTR net BEARISH lean near-term: Q2 earnings Jul 30 (caps upside, month-end event risk); flagged $8.32B Q2 digital-asset loss; sold 3,588 BTC to fund preferred dividends + issued 4.82M shares (dilution). ~0.71 corr BTC - BTC tape dominates intraday.",
+    "analyst": "Composite says short, but candles show a completed flush to 93.88 and a ~1.5pt recovery holding near VWAP with bullish divergence + firm BTC - a bounce, not a breakdown. Market-shorting into it risks a stop on continued recovery to 96+. Poor R:R now, so HOLD and arm a short on a break below 94.5 toward 90.14.",
+    "portfolio": "MSTR: HOLD (0.55) - no clean short into a live bounce; armed to short below 94.5."
+  },
+  "timestamp": "2026-07-16T14:38:27.979677+00:00"
+}

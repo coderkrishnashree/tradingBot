@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "META/USDT:USDT",
+  "size": 0.0,
+  "entry": 665.87,
+  "stop_loss": 661.5,
+  "take_profit": 670.0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Price is grinding sideways-to-up in a 662-666.5 coil on a heavy bid book (OB +0.68); expect chop between 662 and 667 over the next few thin overnight bars, no clean directional edge until US cash opens 09:30 ET.",
+  "expectancy_note": "Short p(win) ~0.45: fights RS +14.8%, positive structure_bias +0.138, and a +0.68 bid wall \u2014 and this account's shorts win only 49% (avg -0.74R). Long lacks a tight-stop entry (resistance 689 is 3.5% away, ADX weak). Neither clears R:R 1.5 into thin closed-market tape; HOLD is highest expectancy.",
+  "rationale": "META is the weakest short on the board: blended -0.34 but structure_bias is POSITIVE (+0.138) with a strong +0.68 bid book, RS is +14.8% (sector leader, not a semi name), and the last ~15 candles show a slow higher-low grind from 662 to 666.4 \u2014 momentum is up, not down. The 1h RSI already washed to 29 and is recovering, so a short here chases a faded move into a bid wall (the account's #1 loser). No long trigger yet either: ADX 26.7 is weak, price sits at VWAP, and resistance (689) is 3.5% away with no tight stop, in a thin/gappy overnight tape with US cash closed. Size 0 \u2014 wait for the market open and a defined break.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 667.0,
+    "expires_min": 240,
+    "note": "Reclaiming/holding above the 666.5-667 intraday high cluster with the bid book intact confirms the grind-up long toward 670+; conversely losing 662 flips the bid-wall thesis bearish."
+  },
+  "transcript": {
+    "macro": "REGIME: HOSTILE-to-MIXED for longs, SUPPORTIVE for shorts. Semiconductor/AI-led risk-off tape (not crypto-driven). Jul 16: Nasdaq -1.47%, S&P -0.51%, SMH ~-4%. TSM beat Q2 but raised FY capex to $60-64B, reigniting AI-spend/valuation worries. Oil spiking. Softer inflation (June CPI 3.5%/core 2.6%) but hawkish rate tail (FOMC Jul 29, Waller flagged possible hike). BTC correlation LOW \u2014 treat as equity beta. Funding 0.0. US cash CLOSED overnight \u2014 perps thin/gappy until 09:30 ET Jul 17. META: weakest short \u2014 structure_bias POSITIVE +0.138, OB imbalance +0.68, RS +14.8% (leader), only mildly crowded-long L/S 1.22; not a semi name.",
+    "sentiment": "OVERALL: Risk-off in semis/AI \u2014 valuation/capex scare, not weak demand. Fed headwind (Logan floated a hike). META (short \u2014 CAUTION): Q2 earnings Wed Jul 29 after close (guide $58-61B, EPS ~$7.18) \u2014 outside 48h but a large looming binary; avoid holding shorts into it. Less semi-correlated. Near-term NEUTRAL-to-slightly-bearish; no fresh catalyst.",
+    "analyst": "Blended -0.34 but structure_bias POSITIVE +0.138 with a +0.68 bid book; RS +14.8% leader; last ~15 candles a slow higher-low grind 662->666.4. 1h RSI washed to 29 and recovering, so a short chases a faded move into a bid wall (account's #1 loser \u2014 shorts win 49%, avg -0.74R). No long trigger: ADX 26.7 weak, price at VWAP, resistance 689 is 3.5% away, thin overnight tape. HOLD highest expectancy; size 0. Flip long above 667, bearish below 662.",
+    "portfolio": "META: HOLD (conf 0.50) \u2014 countertrend short fights RS + bid wall; no tight-stop long yet."
+  },
+  "timestamp": "2026-07-17T00:05:39.453386+00:00"
+}

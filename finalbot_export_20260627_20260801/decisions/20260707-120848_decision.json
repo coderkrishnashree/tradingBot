@@ -1,0 +1,28 @@
+{
+  "symbol": "TSLA/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.55,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "none",
+  "forecast": "Stall at 418.3-418.6 local high after a +2% VWAP-extended grind; expect chop/pullback toward 415-413 over next 2-6 bars rather than a clean continuation; no edge long here, no confirmed reversal for a short.",
+  "expectancy_note": "p(win) on a chase-long here ~0.45 into overbought/soft futures; trend-long playbook has been LOSING for this account (0.5 win, -2.72 avg). Best-EV action is wait for a pullback-to-VWAP long or a structure-break short.",
+  "rationale": "TSLA is a strong-RS equity (RS +6.8%, BTC corr 0.32) in a high-ADX uptrend, but it is extended: +2.06% above VWAP, stoch 91.8, RSI 78-79 on 15m/30m, %B 0.88, and the last two 15m candles faded off the 418.6 local high closing near their lows. Entering long here is chasing into a soft Nasdaq tape (-0.9% futures), crowded longs (L/S 1.61 squeeze risk), and a FOMC-minutes binary within 48h - a low-EV chase that matches the exact losing condition in the learner stats. A short has no confirmed reversal trigger yet (higher-TF trend still up). Highest-expectancy move is to stand aside and wait for either a pullback to VWAP (~409) to buy the trend or a clean break of intraday structure.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 418.65,
+    "expires_min": 180,
+    "note": "Reclaiming/breaking the 418.6 intraday swing high on volume proves the stall was a pause and momentum is resuming, re-opening a trend-continuation long toward 437.7 resistance."
+  },
+  "transcript": {
+    "macro": "2026-07-07: Tokenized equities, treat as equities (BTC corr low). Tape constructive but stretched - Jul 6 record close on AI/chip trade, Jul 7 futures softening (Nasdaq100 -0.9%). Rates a headwind (Fed held 3.50-3.75% hawkish, May CPI +4.2%). Event risk low next 1-3 sessions; TSLA already reported Q2 deliveries, next earnings Jul 22. Crowded longs (L/S 1.61) funding flat = squeeze risk. TSLA strong-RS long (+6.8% vs BTC) but overbought (RSI 68-79, stoch >90). Biggest risk: long-squeeze unwind if soft futures follow through.",
+    "sentiment": "MIXED-to-risk-off in tech; AI-chip rotation down on DeepSeek in-house-chip report; FOMC minutes Wed Jul 8 = <=48h macro binary. TSLA bullish lean/momentum: blowout Q2 deliveries 480,126 (+25% y/y) Jul 2; dropped 7.5% that day on profit-taking, rebounded ~6.6% Monday. Extended (RSI ~72, ~$418). Delivery catalyst already priced; no <=48h stock catalyst.",
+    "analyst": "HOLD TSLA at 417.85. Strong-RS uptrend equity but overbought and extended +2% above VWAP into a fading local high (418.6 rejected, last bars closing near lows) with soft Nasdaq futures, crowded longs, and FOMC minutes <48h. Chasing a long here is negative-EV and matches the account's losing trend-long condition; no confirmed short trigger. Wait for a VWAP pullback to buy or a break above 418.65 to re-engage the trend.",
+    "portfolio": "TSLA: HOLD (0.55) - stand aside, extended into fading momentum; re-engage long above 418.65."
+  },
+  "timestamp": "2026-07-07T12:08:48.547669+00:00"
+}

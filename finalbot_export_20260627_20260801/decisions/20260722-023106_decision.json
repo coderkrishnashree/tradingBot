@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "CRCL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Chop between the 70.19 capitulation low and 72.66 resistance for the next few bars; dead-cat bounce to 70.78 on collapsing volume likely stalls near 71.1, then either loses 70.19 (parabola unwinds toward VWAP ~67-68) or reclaims 72.66 to resume the trend.",
+  "expectancy_note": "No honest 1.5R entry now: long chases RSI 88 / +4.4% VWAP / 2:1 crowded longs at a rolled-over top; short fights a fresh OCC catalyst + genuine +2.8% RS and this account's shorts win only 45%. Waiting for the level beats a coin-flip mid-air entry.",
+  "rationale": "The parabolic 88/81 readings are 4h-lagged; the 15m sequence already topped at 71.12 and dumped to 70.19 on a 955-vol capitulation candle, now limping back on drying volume \u2014 momentum has rolled over but no level has broken. Crowded 2:1 longs into that top are squeeze fuel lower, yet a fresh OCC bank-charter catalyst plus best-in-class relative strength (+2.8% vs BTC) and US-cash-closed gap risk make a market short a low-quality chase. Highest-EV action is to wait for confirmation at a real level.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 70.19,
+    "expires_min": 240,
+    "note": "Losing the capitulation low confirms the parabola is unwinding and crowded longs are being flushed \u2014 opens a lower-risk short toward VWAP ~68 with a stop back over 71.1."
+  },
+  "transcript": {
+    "macro": "Regime: RISK-ON, tech/semi-led. S&P +0.89%, Nasdaq +1.29% Tue 7/21 close; Micron +12%, SanDisk +14%. US cash CLOSED overnight \u2014 equity tokens (GOOGL/EWY/CRCL) trade thin/gappy until ~13:30 UTC; only SOL has a true 24h book. Size DOWN this cycle. GOOGL: funding +0.00046, OI 6922, L/S 1.56 (crowded long, contrarian -0.28), RS vs BTC -13%, 1h/4h down; Alphabet Q2 earnings TODAY ~20:30 UTC = binary landmine, no swing size. EWY: funding 0, L/S 1.25 (~neutral), deeply extended (RSI77/ADX86/%b1.01/+5% VWAP) at resistance 181.6; Korea/semi beta supportive but thin & stretched \u2014 lean long-with-trend, high chase risk. CRCL: funding 0, L/S 2.03 (crowded long -0.30), parabolic (RSI88/ADX81) new highs, RS vs BTC +2.8% (only outperformer), OCC bank approval catalyst 7/20; momentum-long only, high squeeze risk. SOL: funding -0.0000143 (flat, healthy), L/S 2.49 (long-skewed -0.30), 4h up RSI74/ADX48 into resistance 79.01, BTC-corr 0.77 (BTC-beta), RS -9.9%; supportive-to-mixed long, needs BTC firm. Biggest calendar risk: Alphabet earnings after today's close moves the whole Nasdaq complex.",
+    "sentiment": "GOOGL \u2014 BEARISH/HIGH-RISK BINARY: earnings TODAY after close (20:30 UTC), consensus ~$2.87 EPS / ~$116.9B rev; story = $190B AI capex + Google Cloud growth, big gap risk either way; tokenized GOOGL gaps on the after-hours print. Do NOT carry a naked position through the release. EWY \u2014 BEARISH, elevated vol: KOSPI in historic crash (~-23% MTD, 7 circuit breakers, broke below 7,000 from 9,114 in June), Samsung/SK Hynix rout; Bank of Korea HIKED to 2.75% July 16 (tightening into selloff); US Section 122 10% tariff baseline sunsets ~July 24 (headline wildcard). EWY bounce candle is chasing exhaustion inside a broken tape; illiquid/gappy. CRCL \u2014 BULLISH momentum, no imminent binary: earnings ~Aug 10 (outside window), fresh OCC national-trust approval (7/20) +8-13%, Nomura/Japan USDC deal, expected Coinbase-USDC renewal in Aug; parabolic RSI88 \u2014 snapback the main risk; correlated to a FEARFUL crypto tape (Fear&Greed ~21). SOL \u2014 NEUTRAL: crypto sentiment fearful (F&G ~21), BTC-led selling; SOL spot ETFs live since Oct 2025, small positive daily inflows; staking-ETF/SEC decisions repeatedly PUNTED (no \u226448h binary); overbought & crowded longs (L/S 2.49) \u2192 fade-strength risk if BTC rolls. Direction is a BTC-beta call.",
+    "analyst": "Extended both ways \u2014 no clean entry. Parabolic 4h readings (RSI88/ADX81) are lagged; 15m already topped at 71.12 and dumped to 70.19 on a capitulation candle, now limping back on drying volume. Crowded 2:1 longs = downside squeeze fuel, but a fresh OCC bank-charter catalyst + genuine +2.8% RS (only green name) make a market short a low-quality chase (and account shorts win only 45%). HOLD, arm short trigger below 70.19 capitulation low.",
+    "portfolio": "HOLD CRCL (conf 0.60) \u2014 parabola rolling over but catalyst-backed; wait for 70.19 break."
+  },
+  "timestamp": "2026-07-22T02:31:06.975747+00:00"
+}

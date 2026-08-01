@@ -1,0 +1,28 @@
+{
+  "symbol": "XAG/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.55,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "trend",
+  "forecast": "Relief bounce off 59.53 is stalling at 60.3-60.4 and fading back to 60.17; expect further drift toward 59.5, but a fresh short at 60.17 chases oversold (RSI 24.9, %B<0) mid-air. Better fills on a lift into 60.6-61.1 (VWAP reload) where the trapped-long unwind resumes toward 59.5 then 58.5.",
+  "expectancy_note": "p(win) ~0.5 chasing here vs ~0.62 shorting a failed bounce into 60.7+; R:R poor at 60.17 (stop must clear 61.12 = ~1.6% risk for <1% to 59.5). Trend-short playbook currently -3.05 avg, so wait for the higher-quality entry.",
+  "rationale": "Downtrend intact (ADX 58, RS -12.3%, structure_bias -0.36, L/S 3.1 trapped longs) so bias is short, but price is -2.77% below VWAP, pinned under the lower Bollinger with 4h RSI 24.9 and a live bounce \u2014 entering here chases into oversold ahead of Fed minutes and the July 14 CPI binary. Highest-EV plan is to short a failed bounce into 60.7-61.1 or a clean break of 59.53, not the current mid-air 60.17. Size 0 until a level arms the trade.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 60.7,
+    "expires_min": 240,
+    "note": "A lift into 60.7 puts price back at VWAP/prior-support-turned-resistance where the trapped-long bounce can be shorted with a stop above 61.15 and target back to 59.5 \u2014 far better R:R than chasing the extended low."
+  },
+  "transcript": {
+    "macro": "RISK-OFF, hostile to longs, supportive for shorts. Rates HIKE regime (~56% Sept hike), firm DXY ~101, elevated yields = hostile for precious metals. Fed June minutes this week = event risk. XAG: corr BTC 0.25, RS -12.3% (worst laggard), downtrend intact (ADX 58, RSI 25), L/S 3.1 (very long/trapped = squeeze risk on a dovish bid), structure_bias -0.36. XAUT (gold) same trade, corr 0.88.",
+    "sentiment": "XAG bearish tone, HIGH near-term event = US CPI July 14 08:30 ET. Silver sliding (RSI ~25, off ~144% YTD surge) on hawkish-Fed narrative (~77% year-end hike odds, DXY ~101). CPI is a two-way binary: hot extends selloff, soft snaps it back hard (safe-haven/rate-cut). Supports a short into CPI but SIZE for the two-way risk.",
+    "analyst": "Downtrend intact (ADX 58, trapped longs L/S 3.1) so short bias, but -2.77% below VWAP, sub-lower-band, 4h RSI 24.9 with a live bounce = chasing into oversold ahead of Fed minutes + July 14 CPI binary. Best EV = short a failed bounce into 60.7-61.1 or a break of 59.53. Size 0.",
+    "portfolio": "HOLD XAG \u2014 short bias but extended/oversold into event risk; short a failed bounce to 60.7+ or a 59.53 break."
+  },
+  "timestamp": "2026-07-07T20:27:27.019513+00:00"
+}

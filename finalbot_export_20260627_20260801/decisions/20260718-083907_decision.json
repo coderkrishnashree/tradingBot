@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "ORCL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.4,
+  "playbook": "none",
+  "forecast": "Price coils in the 126.4-126.8 pocket right at VWAP; expect chop for the next few bars, then a resolution - a decisive loss of 126.25 opens 125.5 then 124, while a reclaim of 127.0 puts the bullish 4h divergence in charge back toward 128+.",
+  "expectancy_note": "No edge: p(win) ~0.45 short, R:R poor (target 120.79 far, honest stop >127 = <1R to first support). Weak ADX 22, price AT vwap (nothing to fade/chase), bullish 4h divergence and crowded-long squeeze risk all argue against a naive short; learner shows this account's shorts lose (0.47 wr, -0.87 avg) and structure_bias is a negative tell.",
+  "rationale": "ORCL is mid-range (BB %B 0.40) sitting on VWAP with a weak trend (ADX 22) and a bullish 4h divergence - no extreme to fade, nothing extended to chase, and the 'short' structure_bias is entirely the crowded 2.4x long-short ratio, which is squeeze fuel as much as it is bearish. Thin weekend tape (US cash closed) and this account's poor short expectancy make forcing a trade negative-EV. Wait for the coil to resolve on a real break.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 126.25,
+    "expires_min": 240,
+    "note": "Losing the defended session low on volume breaks the coil and validates a short toward 125.5/124; until then it is chop at VWAP."
+  },
+  "transcript": {
+    "macro": "Regime HOSTILE-to-MIXED, weekend US cash CLOSED. Fri Jul 17 risk-off, semis bear market on AI-capex fears. ORCL: scan short blended -0.364, but structure_bias -0.32 driven ENTIRELY by L-S 2.409 (very long-heavy crowd, contrarian-bearish) with a noted BULLISH DIVERGENCE on 4h. ADX only 22.2 = weak trend. Crowd long into weakness -> squeeze risk cuts both ways. MIXED; lopsided long/short ratio is the key risk to a naive short.",
+    "sentiment": "SEMICONDUCTOR/AI-CAPEX RISK-OFF / AI-infra derating. ORCL: down ~29% YTD, ~$140 area, squeezed on AI-capex/debt fears (capex ~$95B FY27, negative FCF) despite monster backlog ($638B RPO incl $300B OpenAI deal). Last earnings Q4 (June 10) - no 48h catalyst. Analyst targets long-horizon noise. Bias bearish/neutral, part of broad AI-infra derating.",
+    "analyst": "Last 126.50. Composite short blended -0.364, conf 43.5%, p_win_learned 0.383. ADX 22.2 (weak/no trend), RSI 31.4, VWAP -0.89% (basically AT vwap - not extended), BB %B 0.40 (dead middle), bullish 4h divergence. 15m candles: slow drift 126.75->126.41, no impulse, big-volume 126.25-low bar bought back to 126.48 (rejection of lows). Only bearish tell is crowded 2.4x long-short = squeeze fuel both ways. Honest short R:R poor (target 120.79 far, stop >127). Learner: shorts bleed. Textbook NO TRADE. HOLD; arm short on loss of 126.25.",
+    "portfolio": "HOLD ORCL - muddy short (weak trend, at VWAP, bullish divergence, crowded-long squeeze risk); no edge to force. Armed short at 126.25."
+  },
+  "timestamp": "2026-07-18T08:39:07.626073+00:00"
+}

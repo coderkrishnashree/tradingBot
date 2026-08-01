@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "QQQ/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.62,
+  "playbook": "none",
+  "forecast": "Price coils 691.9-694.3 near-term; the last two 15m bars rejected 694.3 and closed weak, while 30m/5m momentum has gone flat. Expect chop under 694 until the FOMC/mega-cap prints set direction \u2014 a real move only on a break of 694.3 (up) or 691.9 (down toward 683.88 support).",
+  "expectancy_note": "No entry clears 1.5R: price is mid-range between 683.88 support and 710 resistance with tight BB (1.78%) and ATR ~$2, no level to lean on. Long chases RSI-72/ADX-89/maxed-funding tape (the book's #1 loser); short has no trigger. Flat into the binary is highest-EV.",
+  "rationale": "QQQ is the epicenter of Big-Tech earnings week + FOMC Wed; anything held is a coin-flip on the prints, not the chart. It is extended and one-sided (4h RSI 72, ADX 88.9, funding maxed-positive, structure_bias -0.264) with rel-strength -6.46% vs peers, and learner stats show shorts (-0.82 avg) and RSI/ADX/structure_bias weights all negative \u2014 exactly this setup. No R:R-honest entry exists mid-range with a compressed band, so flat is the disciplined call.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 691.9,
+    "expires_min": 240,
+    "note": "Losing the 691.9 coil floor breaks the multi-day grind and opens a clean run toward 683.88 support \u2014 flips to a short with a real level to lean on."
+  },
+  "transcript": {
+    "macro": "Regime MIXED-to-HOSTILE. FOMC Jul 28-29 binary event; mega-cap earnings week; fragile US-Iran truce; chip selloff (SOXX -17% MTD, Nasdaq -2.1% last week). Cross-cutting: crowded-long book, positive/extreme funding, RSI 70s-80s, flush risk. Big tech (MSFT/ORCL/QQQ): QQQ funding maxed (extreme-positive), 4h RSI 72 / ADX 89 (extended). Verdict: smaller size, avoid fresh full-size longs held through FOMC.",
+    "sentiment": "Wed Jul 29 event wall. QQQ: pure index beta and the EPICENTER of Big-Tech earnings week + FOMC \u2014 expect elevated gaps Wed-Thu. Direction = FOMC/mega-cap prints. Anything held into those windows is a coin-flip on the print, not the chart.",
+    "analyst": "QQQ is textbook NO-TRADE: extended (4h RSI 72, ADX 88.9), maxed-positive funding, crowded-long structure (-0.264), rel-strength -6.46% vs peers, sitting mid-range (683.88 support / 710.65 resistance) with a compressed 1.78% BB and no honest 1.5R entry. Epicenter of Big-Tech earnings + FOMC Wed, so any held position is a coin-flip on the print. Learner data confirms shorts bleed (-0.82 avg) and every extension/structure weight is negative for this setup. Hold; watch 694.3 (up) and 691.9 (down).",
+    "portfolio": "HOLD flat \u2014 extended, epicenter of earnings + FOMC; short on a loss of 691.9."
+  },
+  "timestamp": "2026-07-27T06:41:36.520290+00:00"
+}

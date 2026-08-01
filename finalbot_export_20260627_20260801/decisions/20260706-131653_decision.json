@@ -1,0 +1,27 @@
+{
+  "action": "hold",
+  "symbol": "SNDK/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.32,
+  "playbook": "none",
+  "expectancy_note": "Two-sided/marginal: long tilt (p~0.5) has no 48h catalyst, offer-heavy book (-0.64) and MU (0.82 corr) rolling over cap upside; no nearby level for a >=1.5 R:R trade at VWAP. Wait has best expectancy.",
+  "rationale": "Composite is a weak-long (+0.26, only 28% conf) sitting right at VWAP with resistance 24% up and support 7.6% down \u2014 no structural anchor for a tight stop, and 1.56% ATR makes any stop costly. The bullish NAND-upcycle story is stale (next earnings late-July, no 48h catalyst) so it's only a drift bias, while orderbook -0.635, crowded structure, risk-off macro, and its 0.82-correlated sister MU breaking down (4h -0.50, bearish divergence) all press against pressing the long. No clean short either given still-aligned trend structure. Flat is the highest-expectancy position here.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 1905,
+    "expires_min": 240,
+    "note": "Reclaim over the local shelf proves buyers are absorbing the offer-heavy book and decoupling from a rolling-over MU \u2014 activates the long."
+  },
+  "transcript": {
+    "macro": "Overall regime HOSTILE-to-MIXED, tilts SHORT: Fed (Warsh) hawkish, funds 3.50-3.75%, ~80% odds of ZERO 2026 cuts, May CPI 4.2% (higher-for-longer, risk-off). BTC limp ~$61.7k. Every name crowded-long (contrarian-bearish) w/ near-zero/positive funding \u2014 unwind risk skews down. SNDK MIXED/marginal: composite weak-long (+0.26) but structure_bias -0.30 (orderbook -0.64, crowded). Memory name, high beta to MU (0.82) which is rolling over (MU composite short). No 48h earnings. Neither side clean; if long, small.",
+    "sentiment": "SNDK BULLISH bias but stale catalyst (confidence low-medium). Standalone public co (post-2025 WDC spinoff). Last print blowout Q3 FY26: revenue $5.95B (+97% q/q), EPS $23.03, Datacenter +233%, guided Q4 $7.75-8.25B rev / $30-33 EPS \u2014 massive NAND up-cycle story (fuels long tilt + huge ATR 1.56%). Beat already digested; NO fresh dated catalyst in 48h (next earnings Q4, late July/early Aug). Risk: high-beta memory name riding sector momentum, vulnerable to same semi profit-taking hitting NVDA. Trade the tape, not a catalyst.",
+    "analyst": "Two-sided/marginal. Composite +0.26 (28% conf) at VWAP, resistance 24% up / support 7.6% down \u2014 no anchor for a tight-R trade, and 1.56% ATR makes stops costly. Bullish NAND story is stale (no 48h catalyst) = drift bias only; orderbook -0.635, crowded structure, risk-off macro, and MU (0.82 corr) breaking down all press against the long. No clean short given still-aligned trend. Flat is highest expectancy; reclaim over ~1905 activates the long.",
+    "portfolio": "HOLD SNDK \u2014 bullish story but stale, fights offer-heavy book + rolling-over MU; wait for a reclaim over 1905."
+  },
+  "timestamp": "2026-07-06T13:16:53.816553+00:00"
+}

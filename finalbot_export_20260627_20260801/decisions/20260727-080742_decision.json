@@ -1,0 +1,23 @@
+{
+  "symbol": "COIN/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.4,
+  "size": 0,
+  "entry": 162.72,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "rationale": "COIN is extended and rolling over from a 163.55 rejection (RSI 76.4, stoch 88.5, +2% above VWAP) into a hostile sell-side book (orderbook -0.70, structure_bias -0.41, crowded long L/S 1.66) \u2014 a textbook late-long chase. A short is equally poor: tokenized equity with US markets closed (thin/gappy), risk-on macro, and FOMC Wed + earnings Thu 7/30 make it a binary. No clean edge, so flat.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 163.6,
+    "expires_min": 240,
+    "note": "Reclaiming/holding above the 163.55 rejection high proves the overbought stall is absorbed and re-opens an intraday long."
+  },
+  "transcript": {
+    "macro": "COIN read: LONG-lean but HARD event cap \u2014 benefits from risk-on + crypto beta (0.50 BTC-corr), but structure_bias -0.31 (crowded long) and earnings 7/30. Fine for short intraday long; NO multi-day carry. Tokenized equity, thin/gappy off US hours.",
+    "sentiment": "COIN BEARISH-lean / HIGH event risk. Q2 earnings AFTER CLOSE Thu 7/30 (~$0.19 EPS, ~$1.35B rev); last print ugly miss (Q1 EPS -$1.49 vs +$0.29 exp). High-beta to BTC \u2014 gets FOMC move first then earnings. Any long is a bet ahead of a binary.",
+    "analyst": "Overbought stall at 163.55, last 4 bars rolling over to range low; hostile sell-side book, crowded long. Late-long chase (p~0.40); short blocked by risk-on/US-closed gap + FOMC/earnings binary. HOLD beats both.",
+    "portfolio": "HOLD COIN \u2014 late-long exhaustion + binary earnings/FOMC risk; no clean side."
+  },
+  "timestamp": "2026-07-27T08:07:42.489928+00:00"
+}

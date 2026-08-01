@@ -1,0 +1,25 @@
+{
+  "symbol": "MSTR/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.4,
+  "size": 0.0,
+  "entry": 106.63,
+  "stop_loss": 104.4,
+  "take_profit": 109.5,
+  "playbook": "trend",
+  "expectancy_note": "p(win) ~0.5 on a chase vs ~0.6 on a support-reset entry; chasing RSI 75 near resistance ($0.75 to R vs $2.2 to stop = R:R <0.4) into a closed-underlying weekend is negative expectancy. Waiting for 105.63 reclaim/hold flips R:R to ~1.7.",
+  "rationale": "Real uptrend (ADX 54, RS +1.67% leading BTC) with a fresh buyback/BTC-monetization catalyst, but price is overbought (RSI 74.7, %B 0.74) and extended (+0.39% vs VWAP) right under resistance 107.38, while structure_bias is negative (-0.189: crowded long 1.353, sell-side orderbook, longs paying funding). Decisively, the underlying equity is CLOSED July 3-6 (Independence Day + weekend) so the tokenized perp trades thin with gap risk and no arb anchor \u2014 a fresh leveraged long chase here is poor expectancy. Best play is to wait for a pullback that resets the overbought read and holds ~105.63 support, entering small into that structure rather than chasing the top of the candle.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 105.63,
+    "expires_min": 240,
+    "note": "A tag-and-hold of 105.63 support resets the overbought extension and offers a genuine 1.5R+ long entry off structure; losing it cleanly instead warns the crowded-long unwind is starting."
+  },
+  "transcript": {
+    "macro": "Treat MSTR as a leveraged BTC-proxy EQUITY (BTC corr ~0.45). BTC firm but choppy ~$62.5k (squeeze regime, low-conviction long lean). Equity backdrop mixed \u2014 Dow record but Nasdaq -0.8% (AI/chip softness); June jobs missed badly (57k vs 115k). DOMINANT NEAR-TERM FACTOR: US market CLOSED July 3 (Independence Day observed) + weekend; NYSE/Nasdaq reopen Monday July 6, so the tokenized MSTR perp trades thin over the weekend with wide spreads, gap risk into Monday and no equity-arb anchor. Scan: last 106.63, composite long but low conviction (30.5%), trend regime, ADX 53.9, RSI 74.7 overbought, extended (vwap_dist +0.39%, bb_pctb 0.74); structure_bias NEGATIVE -0.189 (funding +0.000158 longs paying, L/S 1.353 crowded long, orderbook -0.067 sell-side); RS +1.67% leading BTC. Verdict: MIXED, tilting hostile for holding a leveraged long through the weekend \u2014 direction bias modestly long but favor smaller size / reduced leverage; if exposure wanted, small long only on a pullback resetting overbought toward ~105.63 support. Short not endorsed.",
+    "sentiment": "Broad crypto fearful but stabilizing: BTC bounced off ~$59.5K 21-month low into early July (~$62.6K), Fear & Greed ~36. Record June US spot BTC ETF outflows ~$4.06B (worst month ever) \u2014 dominant overhang; FOMC July 28-29 next binary (outside 48h). MSTR FRESH POSITIVE CATALYST: ~July 1-2 Strategy unveiled 'Digital Credit Capital Framework' \u2014 USD reserve, up to $1B common-stock buyback authorization, $1.25B BTC Monetization Program; stock popped (+~11.8% Jul 1, up again Jul 2), strongest name on the board. KEY STRUCTURAL RISK: mNAV premium compressed toward ~1x from 2x-3x, so issuing common is now dilutive \u2014 the buyback/monetization pivot is a defensive move dressed as positive; STRK preferred dividend load jumps ~$217M (2025) to ~$904M (2026). No fresh BTC-purchase this week; holdings 847,363 BTC at ~$66,384 avg \u2014 BTC now BELOW cost basis. Net 24-48h: news argues for the long (buyback bid) but conviction capped by fear regime, ETF outflows, BTC below cost basis and the defensive nature of the move; high-beta MSTR gives it back fast if BTC rolls to $59-60K.",
+    "analyst": "BULL: strong multi-TF uptrend (ADX 53.9), fresh Jul 1-2 buyback + $1.25B BTC monetization catalyst that popped the stock ~12%, strongest name on the board leading BTC (+1.67% RS), BTC firm ~$62.5k. BEAR: RSI 74.7 overbought, extended above VWAP, sitting just under resistance 107.38, structure_bias -0.189 (crowded long 1.353, longs paying funding, sell-side orderbook), mNAV premium compressed so the catalyst is partly defensive, BTC below MSTR cost basis, fear regime with record ETF outflows. RISK: dominant factor is the US equity market being CLOSED July 3-6 \u2014 the tokenized perp trades through a thin weekend with wide spreads, Monday gap risk and no equity-arb anchor. Net: direction bias is long but a fresh leveraged chase at an overbought extreme into a closed-underlying weekend is negative expectancy (R:R <0.4 chasing vs ~1.7 on a 105.63 support reset). Correct call is HOLD, armed to buy a small long on a pullback that holds 105.63; real test is Monday's reopen.",
+    "portfolio": "HOLD MSTR/USDT:USDT (conf 0.40, size 0) \u2014 direction bias long but do not chase overbought into the closed-underlying July 3-6 weekend; re-arm for a small long on a 105.63 support reset."
+  },
+  "timestamp": "2026-07-04T00:00:17.488749+00:00"
+}

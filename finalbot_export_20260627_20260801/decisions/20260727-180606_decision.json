@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "SOL/USDT:USDT",
+  "size": 0.0,
+  "entry": 75.94,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Chop between 75.0 and 76.2 near VWAP over the next 2-6 bars; a reclaim of 76.9 opens 78.86, while losing 75.0 flushes toward 73.39.",
+  "expectancy_note": "No edge mid-range: a long is crowded/late (L/S 2.71, rel-str -8.35%, pure BTC beta) and 30m/1h went flat; forcing entry into FOMC has negative expectancy vs waiting for the 76.9 reclaim.",
+  "rationale": "SOL rejected 77.49 and sold hard to 75.0 on heavy volume, then stabilized sideways on collapsing volume \u2014 a dead-cat base, not a fresh thrust, mid-range between support 73.39 and resistance 78.86 just above VWAP. The 4h still reads long (0.785) but 30m/1h are flat and 15m RSI 75.3 is extended, so no clean pullback-with-trend entry and no mean-reversion extreme at a level. With crowded longs (L/S 2.71), -8.35% relative strength as pure BTC beta at $65k amid ETF outflows, and FOMC Wed a binary, wait for the 76.9 reclaim before committing size.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 76.9,
+    "expires_min": 240,
+    "note": "Reclaiming the 76.9 breakdown pivot proves dip-buyers regained control and revives the 4h-long thesis toward 78.86; below 75.0 confirms the crowded-long flush toward 73.39."
+  },
+  "transcript": {
+    "macro": "Regime MIXED-to-CAUTIOUS. FOMC Wed Jul 29 (hold, hawkish lean, ~73% Dec hike odds) + MSFT/META same day; smaller size, tighter holds, prefer trades closing before Wed 2pm. Tech selloff (Nasdaq -0.6%, SMH -3%), WTI -7%. No risk-on. Crypto: BTC ~$65k, dominance ~56%, alts NOT running, heavy ETF outflows; BTC funding near-flat, 4h/5m lean long but 30m/1h flat (grind not thrust). SOL: 0.855 BTC-corr (pure beta), lagging BTC badly (rel-str -8.35%), L/S 2.71 crowded longs, structure_bias -0.31 -> late and crowded longs.",
+    "sentiment": "FOMC Jul 28-29 master catalyst, hawkish lean. SOL: constructive undertone \u2014 Morgan Stanley spot SOL ETF won NYSE Arca approval Jul 24 (staking to 100%); five spot SOL ETFs ~$1.12B cumulative inflows (positive but not a fresh 48h shock). Alpenglow/Firedancer are Q3 narratives. SOL rides BTC; FOMC + crypto beta dominate next 2 days. Mildly supportive but macro-gated.",
+    "analyst": "SOL spiked to 77.49, rolled over to 75.0 on heavy volume, then based sideways on drying volume \u2014 dead-cat stabilization, not a fresh thrust. Mid-range between support 73.39 and resistance 78.86, just above VWAP. Textbook NO-TRADE: long is late/crowded, intermediate TFs flat, 15m RSI 75 extended, FOMC binary. Wait for 76.9 reclaim (revive 4h long) or 75.0 loss (crowded-long flush).",
+    "portfolio": "HOLD SOL - crowded/late mid-range; wait for 76.9 reclaim or 75.0 break."
+  },
+  "timestamp": "2026-07-27T18:06:06.065121+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "INTC/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Price is pinned at the low (93.82) after a steady 15m grind from 94.8; RSI 25 on 4h/30m and -4.46% below VWAP argue the next few bars are more likely a relief bounce toward 95-96 than a clean break of 89.76 support, especially into a crowded-long book (L/S 2.37) on thin weekend liquidity.",
+  "expectancy_note": "Short is the correct DIRECTION (weakest RS -32.9%, ADX 57 downtrend) but a market short at 93.82 chases a stretched move into support ~89.76 (only ~1.4x 4h-ATR of room) with a bounce more likely first - R:R and p(win) both poor; waiting for a retest of ~95.5 flips it to a clean 1.5R+ short.",
+  "rationale": "INTC is the most macro-consistent short in the scan, but shorting 93.82 while RSI is 25 (4h/30m), price sits 4.46% below VWAP, and the book is crowded-long (2.37, OI 37k) is the exact late-short-into-stretched-tape pattern that has bled this account. Downside to support 89.76 is limited (~$4) versus a high-odds relief pop; weekend vacuum + Jul-23 earnings 5 days out add gap/vol risk. Hold with no position; re-arm a short on a bounce to the ~95.5 retest where R:R toward support becomes clean.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 95.5,
+    "expires_min": 240,
+    "note": "A bounce reclaiming 95.5 gives a proper short retest toward broken structure with room down to 89.76 - flips this from chasing to a clean 1.5R+ short entry."
+  },
+  "transcript": {
+    "macro": "2026-07-18 Saturday - underlyings closed until Mon; weekend perp vacuum, thin/gappy. Regime RISK-OFF/tech unwind (Nasdaq -2.9% wk, SMH ~-9%); rates a mild tailwind. INTC: last 93.82, RS -32.9% vs BTC (BY FAR weakest name, idiosyncratic, BTC corr ~0.00). Fundamentals ugly: 18A yield-delay, AMD taking data-center lead, foundry layoffs 15-20%, -14% wk. MOST macro-consistent short. BUT most crowded-short book: L/S 2.37, OI 37,241 - can snap back on relief. Constraint: Q2 earnings Jul 23 (~5d, ~15% implied) - outside 48h but any short must be de-risked before it.",
+    "sentiment": "INTC tone bearish/capitulatory; -17-19% over past month. Catalyst near desk edge: Q2 earnings Wed Jul 23 after close (est rev $14.4B, EPS ~$0.06) - ~5d out, injects event risk/vol-crush as week progresses. HSBC doubled PT to $200 Jul 16 (long-horizon, LOW weight). Consensus Hold-heavy. No <=48h binary; deep RS underperformance supports the short-trend thesis.",
+    "analyst": "Trend is down and the desk edge is short, but the ENTRY here is bad: shorting 93.82 at RSI 25, 4.5% below VWAP, into support (89.76, only ~$4 down) and a crowded-long book on a thin weekend is chasing - the account's #1 loss pattern. Relief pop toward VWAP is the higher-probability near-term path. No clean intraday long to fade either. HOLD; arm a short on a bounce to ~95.5.",
+    "portfolio": "HOLD INTC - right direction, wrong entry (stretched into support on a thin weekend); re-arm the short on a bounce to 95.5, and stay out before Jul 23 earnings."
+  },
+  "timestamp": "2026-07-18T02:37:20.314379+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "HOOD/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price coils 106.0-107.1 near the highs; over the next 2-6 bars I expect either a fade toward VWAP/102 (offering a real long re-entry) or a loss of 105.9 that resolves the bearish divergence lower. No clean edge at 106.8 mid-range.",
+  "expectancy_note": "p(win) too low both ways: long here chases +4.5% over VWAP / RSI72 / bb%b 1.04 / bearish div (account bans market-entry when extended); short fades the strongest-momentum name into a fresh PT-driven catalyst, and the book's shorts win only 45% (-1.21 avg). Waiting for a pullback long (longs 69% win) is the +EV path.",
+  "rationale": "HOOD is overbought (RSI 71.9, above upper Bollinger, +4.47% over VWAP) with a bearish divergence and very crowded longs (L/S 1.93), so a market long is chasing and a routine bounce-fade would hit any honest stop first. Shorting the top of the group's momentum into a same-day Bernstein PT-upgrade catalyst is exactly the late-short-into-strength pattern that has bled this account (shorts 45% win). Recent 15m candles show a stall/mild fade, not fresh thrust, so there is no concrete next move to trade with tight SL/TP - HOLD and wait for a VWAP pullback (long) or a structural break.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 105.9,
+    "expires_min": 240,
+    "note": "Losing the 20-bar 105.9 shelf confirms the bearish divergence resolving down and opens a short toward 104/102 VWAP; a hold in the 106s keeps the pullback-long thesis alive."
+  },
+  "transcript": {
+    "macro": "Regime RISK-ON but late-cycle stretched, event-gated. Nasdaq +1.29%. Post-close perps thin/gappy. HOOD: cautious long, overextended - RSI 71.9, ADX 71.9, above upper Bollinger (bb%b 1.04), bearish divergence flagged, +4.5% above VWAP. L/S 1.93 = very crowded long (squeeze/contrarian risk). Highest crypto-sympathy risk (BTC corr 0.45). Neutral-to-cautiously-long, size down.",
+    "sentiment": "HOOD BULLISH short-term (momentum). Earnings Jul 29 (coincides FOMC) - OUTSIDE 48h window, no imminent binary. Fresh catalyst: surged ~8% Jul 21 after Bernstein lifted PT to $160 (tokenized assets / prediction-markets thesis). Offsetting: options moderately bearish tilt mid-month; Q1 (Apr 28) gapped -13% on crypto-rev miss so market fears the print. Tradable near-term; clear before Jul 29.",
+    "analyst": "Classic NO-TRADE. Long here chases +4.5% over VWAP / RSI72 / bb%b 1.04 with bearish divergence (account bans market-entry when extended). Short fades the strongest-momentum name into a fresh PT catalyst, and shorts bleed on this book (45% win, -1.21 avg). 15m tape stalls/fades near highs, not fresh thrust. Best-EV path is a pullback-long to VWAP ~102 (longs 69% win). HOLD; loss of 105.9 shelf flips to short/invalidates continuation.",
+    "portfolio": "HOOD: HOLD (0.60) - overbought + crowded + divergent, no clean entry; wait for VWAP pullback long or break of 105.9."
+  },
+  "timestamp": "2026-07-21T22:29:54.728288+00:00"
+}

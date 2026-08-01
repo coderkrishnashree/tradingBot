@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "ORCL/USDT:USDT",
+  "size": 0.0,
+  "entry": 146.26,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.4,
+  "playbook": "none",
+  "forecast": "Chop in 145.3-146.9 for the next few bars; break above 147.0 resumes the trend toward 149.29, loss of 145.3 confirms the bounce is dead toward VWAP/143.",
+  "expectancy_note": "No entry clears 1.5R: long is extended/chasing into crowded book, short fights ADX-32 trend with no break. HOLD is highest expectancy until the shelf resolves.",
+  "rationale": "Bounce is exhausted at the upper band and stalling below resistance; entering long now is chasing an extended move into lopsided-long positioning (the account's #1 loss pattern), and shorting fights a live uptrend without confirmation. No side gives 1.5R to a real level from 146.26. Wait for a clean pullback-to-VWAP long trigger or a break of the 145.3 shelf; size 0.",
+  "transcript": {
+    "macro": "2026-07-10 (Fri, US cash open). Equity tape risk-ON but rate-nervous: Jul 9 Nasdaq +1.30% (26,206), S&P +0.81%; cooler CPI reignited AI trade - supports longs in quality tech. Standing risk-off flag: 10Y ~4.6%, inflation 3-yr high, market pricing risk of another Warsh Fed HIKE - trim size on longs. Big catalyst 48h out: June CPI + Warsh testimony Jul 14; anything held into 13th-14th size down/flat. No imminent earnings (ORCL Sept 14 - clean swing). ORCL trend LONG but positioning is the wart: long 30m/1h/4h, RSI 61.8, ADX 32.3, above VWAP; BUT long/short_ratio 2.471 very lopsided (structure_bias -0.272 despite uptrend - crowded longs = contrarian squeeze risk) and rel-strength -21.87% vs BTC (big laggard). Respect 149.29 resistance / 137.63 support band. Longs crowded across the basket.",
+    "sentiment": "ORCL net NEUTRAL-to-BULLISH (short-covering bounce), no fresh binary. No earnings in window (already reported Q4 FY2026 in June: ~$90B FY27 rev guide, adj EPS ~$8.05, RPO ~$640B). Price action is the story: after falling 9 of 10 sessions, ORCL reversed ~+5.5% on Jul 9 (to ~$148) on bargain-buying/short-covering; scan last ~146.3, leaning long - live bounce in motion. Overhangs: S&P downgrade to BBB-, deep FY26 FCF deficit (~-$23.7B) from 162% capex surge on AI data-center buildout - cap conviction. Ex-dividend today (Jul 10, $0.50) - minor mechanical drag on the perp basis.",
+    "analyst": "Post +5.5% bounce, price stalled at the upper Bollinger band (%B 0.858), +1.84% over VWAP, RSI 61.8, stoch 74 - extended and rolling off 146.94 highs after repeated rejections; last ~7 15m bars drift down into a 145.8-146.3 chop shelf, well short of 149.29 resistance. Crowded longs (L/S 2.471) plus -21.87% rel-strength and S&P downgrade/FCF overhangs make chasing the extended bounce the account's classic late-entry loss; a short fights an ADX-32 uptrend with no HTF break. Neither side offers 1.5R here.",
+    "portfolio": "HOLD ORCL - exhausted short-covering bounce stalling below 149.29, no 1.5R entry either side; reconsider long on reclaim >147.0."
+  },
+  "reconsider": {
+    "condition": "price_above",
+    "level": 147.0,
+    "expires_min": 240,
+    "note": "Reclaiming 147 clears the repeated-rejection shelf and re-opens a trend long toward 149.29 resistance."
+  },
+  "timestamp": "2026-07-10T12:30:36.416937+00:00"
+}

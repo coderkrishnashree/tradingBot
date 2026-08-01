@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "CRCL/USDT:USDT",
+  "confidence": 0.38,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "none",
+  "forecast": "Price stays pinned in the 63.4-64.0 zone, likely drifting toward VWAP (~62.5) as the 15m/5m bleed continues; no clean thrust either way until it either loses 62.5 or reclaims 64.0.",
+  "expectancy_note": "No edge: TFs conflict (15m/5m short vs 30m/1h/4h long), price +1.79% above VWAP and %B 0.80 = extended for a long, while a short has no near structure (support 60.11 far) and 4h uptrend \u2014 R:R < 1.5 both sides on thin weekend tape.",
+  "rationale": "CRCL is a crowded-long (L/S 3.24) BTC-beta name underperforming its cluster (-7.7% RS) into a RISK-OFF weekend with thin/gappy equity-perp liquidity. Recent 15m candles show a slow lower-highs bleed off 63.95 with drying volume, but price is still +1.79% above VWAP and near the upper Bollinger band, so a long would be chasing and a short has no clean level or trigger within honest stop distance. Best expectancy is to wait for either a VWAP-loss flush or a reclaim before committing size.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 62.5,
+    "expires_min": 240,
+    "note": "Losing VWAP (~62.5) confirms the crowded-long unwind and opens a clean short toward 60.11 support with structure behind the stop."
+  },
+  "transcript": {
+    "macro": "RISK-OFF/cautious tape 2026-07-26: BTC ~$64k Fear&Greed 27. CRCL clusters tightly with COIN (0.70)/MSTR (0.70) \u2014 same crowded crypto-fintech-beta basket, same risk-off exposure. Weekend gap; equity perp thin/gappy off-hours. Crowded-long book into risk-off. Verdict: CAUTIOUS/FLAT-to-lean-SHORT; smaller size on any BTC-beta long.",
+    "sentiment": "Crypto EXTREME FEAR. CRCL (Circle) earnings NOT until Aug 5 (outside window). Bullish flow: USDC hit record $1.21T June volume (~70% share, 2x USDT); received final OCC approval for Circle National Trust bank charter. Supportive tone, no <=48h binary; moves with crypto/COIN beta.",
+    "analyst": "Crowded-long (L/S 3.24) BTC-beta underperforming its cluster (-7.7% RS) into a risk-off weekend with thin/gappy liquidity. 15m shows a lower-highs bleed off 63.95 on drying volume, but price is +1.79% above VWAP near the upper band \u2014 a long chases, a short has no clean level within honest stop distance (support 60.11 far). Wait for a VWAP-loss flush or a reclaim.",
+    "portfolio": "CRCL: HOLD 0.38 \u2014 extended above VWAP with no clean level; armed to short on loss of 62.5."
+  },
+  "timestamp": "2026-07-26T21:08:52.467861+00:00"
+}

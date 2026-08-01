@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "TSM/USDT:USDT",
+  "size": 0.0,
+  "entry": 437.42,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.34,
+  "playbook": "none",
+  "forecast": "Frozen, near-zero-volume tape drifting sideways in the 436.5-437.5 pocket around VWAP; no honest directional move to trade before Thu Jul 16 earnings, expect thin gappy prints until the print reprices it.",
+  "expectancy_note": "Any entry has negative expectancy: illiquid gappy fills, ADX 24 chop, weak 37.7% short contradicted by bullish divergence, and a binary earnings gap ahead - no stop is honest on this tape.",
+  "rationale": "TSM prints are effectively dead (multiple 0.0-volume bars, sub-1 unit size) - a tokenized equity with US market closed, so crypto structure metrics are noise. Price sits right on VWAP mid-Bollinger with ADX 24.1 (no trend) and a flagged bullish divergence undercutting the weak 37.7% short composite; there is no concrete next move to express and no fill to trust. With Q2 earnings Thu Jul 16 a binary gap risk, macro and sentiment both mandate event-risk-flat; zero size is the highest-expectancy choice.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 425.72,
+    "expires_min": 240,
+    "note": "Losing range-support at 425.72 on real volume would confirm the short bias and produce a tradable directional move rather than chop."
+  },
+  "transcript": {
+    "macro": "Regime MIXED, risk-cautious. TSM: DO-NOT-INITIATE-SIZE into 48h - Q2 earnings Thu Jul 16 is a binary event and scan shows near-dead volume/frozen prints (illiquid, gappy). Mild short bias (bias -0.31, L/S 1.78) but low conviction (37.7%) and a bullish divergence flagged. Best-positioned fundamentally in group (73% foundry share, 30%+ rev growth) - headline risk skewed to upside squeeze. Treat as event-risk-flat until after the print.",
+    "sentiment": "Risk-off tilt into a semi-heavy week. TSM: THE catalyst of the week - Q2 earnings Thu Jul 16 (Street $3.81/ADR vs $2.47, rev ~$40B); market watching full-year outlook raise, CoWoS capacity, 2nm/3nm pricing. Just outside strict 48h but dominates positioning; expect pre-earnings drift/vol and a hard gap on the 16th. Lean neutral-to-cautious into print, do NOT hold a large directional bet across the report.",
+    "analyst": "Textbook no-trade: near-zero-volume dead tape (multiple 0.0-vol bars, sub-1 unit size), ADX 24.1 chop, price on VWAP mid-Bollinger, weak 37.7% short composite contradicted by a bullish divergence and crowd-long positioning. No honest fill, no concrete next move, binary earnings gap Jul 16 ahead. Macro and sentiment both mandate event-risk-flat. Hold, size 0; re-arm short only on a live break below 425.72.",
+    "portfolio": "TSM: HOLD, size 0 - dead illiquid tape + binary Jul 16 earnings; stand aside, arm short on loss of 425.72."
+  },
+  "timestamp": "2026-07-12T07:33:55.358084+00:00"
+}

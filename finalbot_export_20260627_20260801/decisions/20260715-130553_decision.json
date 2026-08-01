@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "QQQ/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price coils 723-726 under the 730.3 wall; expect chop toward 726-728 but the -0.776 ask imbalance + 1h RSI 73.9 cap upside, so a market long here gets bounced. Cleaner entries come on a pullback to the 723.5 volume shelf (long-again) or a decisive 730.3 break; otherwise range 722-730 holds next few bars.",
+  "expectancy_note": "Long into 730.3 gives ~R:R 1.0 (5pt target vs 3.5pt stop) with heavy overhead sell pressure - below the 1.5 threshold; HOLD preserves capital until price resets RSI or breaks out.",
+  "rationale": "QQQ is the clean tech-long proxy but is stretched into resistance (1h RSI 73.9, stoch 90.4) with orderbook imbalance -0.776 flagging near-term sell pressure only ~0.7% below the 730.3 wall - the account's #1 loss pattern is chasing extended continuation, and this is that setup. The 15m path shows buyers defending 723.5-724 on huge volume, so I want either the pullback long at the shelf or the confirmed breakout, not a mid-range market fill. No 48h binary forces action; waiting has the higher expectancy.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 730.3,
+    "expires_min": 240,
+    "note": "A hold above 730.3 clears the overhead sell wall and confirms breakout continuation, making a long with a measured target valid despite the stretched RSI."
+  },
+  "transcript": {
+    "macro": "Regime modestly risk-on, tech-led, but a live Fed HIKE tail (one 25bp hike priced 2026; hawkish Chair Warsh). Soft June CPI cooled fears, Nasdaq leading; US cash open. QQQ (last ~725.24): cleanest LONG proxy for the tech tape. Funding ~0 BUT orderbook imbalance -0.776 (heavy near-term sell pressure) and RSI stretched (1h 73.9, stoch 90.4) - extended into resistance 730.3. Supportive trend but CHASE RISK; favor pullback entries.",
+    "sentiment": "QQQ constructive/risk-on. Softer June CPI pushed tech up, yields down; Nasdaq +1.7% on week on easing US-Iran tensions and AI/semis strength. Idiosyncratic: IBM -15% on EPS miss. Overhangs near window: FOMC July 28-29 (hold ~80-90% priced) and Q2 tech earnings season starting late July. Tape headline-sensitive. No 48h binary.",
+    "analyst": "QQQ is the clean tech-long proxy but stretched into resistance (1h RSI 73.9, stoch 90.4) with orderbook imbalance -0.776 flagging near-term sell pressure only ~0.7% below the 730.3 wall - chasing extended continuation is the account's #1 loss pattern. 15m path shows buyers defending 723.5-724 on huge volume, so I want the pullback long at the shelf or a confirmed breakout, not a mid-range market fill. A long into 730.3 is only R:R ~1.0, below the 1.5 threshold. No 48h binary forces action -> HOLD. Trigger: hold above 730.3 clears the wall for a breakout long.",
+    "portfolio": "HOLD QQQ - stretched into the 730.3 wall with heavy overhead sell pressure; wait for pullback-to-shelf or clean breakout (conf 0.60)."
+  },
+  "timestamp": "2026-07-15T13:05:53.507346+00:00"
+}

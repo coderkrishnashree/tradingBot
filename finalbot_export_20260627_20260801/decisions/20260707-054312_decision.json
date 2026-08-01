@@ -1,0 +1,27 @@
+{
+  "action": "hold",
+  "symbol": "EWJ/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.55,
+  "playbook": "none",
+  "expectancy_note": "Short is chasing into 1h RSI 16 / %B<0 at the lower band with a bullish divergence against it (neg expectancy); long is a countertrend fade vs ADX 57.6 on a thin overnight name with no confirmation - both sub-1.5 R:R right now.",
+  "rationale": "EWJ is in a strong short-scored downtrend (ADX 57.6, 15m -0.9) but price is already pinned at the lower Bollinger band, deeply oversold (1h RSI 16, stoch 17.5, %B -0.108) with a bullish divergence and only 0.77% below VWAP, ~2.8% above support 91.43. Shorting here is chasing exhaustion; buying the divergence has no trigger yet on a thin (OI ~1,297), gappy pre-US-open tokenized equity that is mostly QQQ/yen beta with no 48h catalyst. Flat is the highest-expectancy stance until the oversold either confirms a reversal (VWAP reclaim) or breaks support cleanly.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 94.8,
+    "expires_min": 240,
+    "note": "Reclaiming VWAP/34-band confirms the bullish divergence and oversold turn, converting the exhaustion into a long toward resistance 96.65."
+  },
+  "transcript": {
+    "macro": "Overall MIXED, modestly risk-on. July 6 clean risk-on. Headwind: DXY >100, dot plot projected HIKE (3.50-3.75%), 2Y ~4.2%. Timing risk: scan ~05:37 UTC pre-US-open, thin/gappy overnight; 5m flat, 15/30m stale down-scores. Funding ~0; long/short >1 -> mildly contrarian-bearish. EWJ: last 94.08, Japan ETF; overnight short-tilted (1h RSI 16 oversold) but bullish divergence flag & long/short 1.41 (crowded long); QQQ-corr 0.65 (US-beta); firm DXY/yen drag; THIN (OI ~1,297) keep size small.",
+    "sentiment": "Q3 rotation OUT of semis/tech; no tradable <=48h binary on any of the 5. EWJ: Nikkei +30% YTD on AI names but stretched with BOJ tightening risk; BOJ decision Jul 30 OUTSIDE window; EWJ mostly beta/yen follower; near-term news NEUTRAL.",
+    "analyst": "ADX 57.6 very strong downtrend but price pinned at lower Bollinger band, deeply oversold (1h RSI 16, stoch 17.5, %B -0.108), bullish divergence, only 0.77% below VWAP and ~2.8% above support 91.43. Shorting = chasing exhaustion (neg EV); longing the divergence has no trigger on a thin (OI ~1,297) gappy pre-open name that's mostly QQQ/yen beta with no catalyst. HOLD; long triggers on VWAP reclaim above 94.8.",
+    "portfolio": "HOLD EWJ - thin oversold Japan-beta name at the band, no confirmed turn; long re-arms above 94.8."
+  },
+  "timestamp": "2026-07-07T05:43:12.080014+00:00"
+}

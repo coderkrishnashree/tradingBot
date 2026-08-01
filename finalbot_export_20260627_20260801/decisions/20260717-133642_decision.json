@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "EWJ/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.55,
+  "playbook": "none",
+  "forecast": "Illiquid, near-zero-volume tape pinned to the lower band ~1.4% above support 88.16; base case is chop between 88.2 and 90.2 with elevated odds of a mean-reversion bounce back toward VWAP (~92) into Friday close before any further downside.",
+  "expectancy_note": "Short here p(win)~0.40: target support 88.16 is only ~1.4% away while an honest stop must sit above 90.2 (>1.5x ATR), so R:R <1.0 \u2014 negative expectancy; learned p_win 0.36 and squeeze risk confirm no edge.",
+  "rationale": "EWJ is deeply oversold (4h RSI 13, %B 0.025, 3.2% below VWAP) and chasing a with-trend short into support 88.16 is exactly the account's #1 loss pattern \u2014 a routine counter-bounce stops it before continuation. Structure bias is weak (-0.11), funding flat, tape is thin/gappy with near-zero volume, and macro flags a mean-reversion squeeze into Friday close. No 48h catalyst and R:R to the first structural target fails, so the highest-expectancy action is to wait for a clean break of support to re-enter without chasing.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 88.16,
+    "expires_min": 240,
+    "note": "Losing support 88.16 on a close confirms trend continuation and opens the next leg down \u2014 a short becomes valid there without chasing into the band."
+  },
+  "transcript": {
+    "macro": "RISK-OFF regime. US futures down hard (Nasdaq -1.6%, chip rout, Netflix miss). BTC ~$62.9k near 21-mo low, dominance 56.3%. Fed likely holds Jul 28-29. Entire scan uniformly short but deeply oversold \u2014 dominant risk is mean-reversion SQUEEZE into Friday close. EWJ: bias DOWN but weak conviction (structure -0.11, funding flat, 4h RSI 13/ADX 100, rel-strength -8.5%); thin/gappy; short into support 88.16 = high squeeze risk.",
+    "sentiment": "EWJ NEUTRAL, slight bearish drift. No catalyst inside 48h. BOJ meeting Jul 30-31 outside window. Near-term just tracks global risk/tech tape and USD/JPY. Nothing news-driven to trade.",
+    "analyst": "Deeply oversold (4h RSI 13, %B 0.025, -3.2% VWAP), thin near-zero-volume tape, weak structure bias, learned p_win 0.36, only ~1.4% above support 88.16. Shorting = chasing into support with a squeeze tail; R:R fails. HOLD until a clean break below 88.16.",
+    "portfolio": "EWJ: HOLD \u2014 no edge shorting into support in a thin, deeply-oversold tape; wait for a break of 88.16."
+  },
+  "timestamp": "2026-07-17T13:36:42.115551+00:00"
+}

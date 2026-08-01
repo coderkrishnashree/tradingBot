@@ -1,0 +1,28 @@
+{
+  "symbol": "HOOD/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.35,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "none",
+  "forecast": "Dead, near-zero-volume weekend chop between 94.9 and 95.15; no directional resolution expected until cash reopens Monday. A break under 93.21 would resume the 4h downtrend toward ~90; a reclaim of ~98 would validate the oversold bounce.",
+  "expectancy_note": "No side clears R:R 1.5: long = chasing into 4h downtrend with crowded longs + worst rel-strength; short = late into stretched tape (RSI 25.8, %B 0.24, -5.4% vs VWAP) that a bounce stops. HOLD has best expectancy.",
+  "rationale": "Sharp conflict: dominant 4h is a violent downtrend (ADX 86.5, RSI 25.8, MACD -2.34) while lower TFs show only an oversold weekend bounce on essentially zero volume. Long/short 2.48 means crowded longs are fuel for further downside, and rel strength -18.4% marks HOOD as the board's worst laggard. With earnings + FOMC Wed 7/29 inside the window and a dead illiquid weekend tape offering no honest entry or R:R, flat is the highest-expectancy position. Size 0.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 93.21,
+    "expires_min": 240,
+    "note": "Losing 93.21 4h support confirms downtrend resumption and a crowded-long flush, opening a clean short toward ~90 before earnings."
+  },
+  "transcript": {
+    "macro": "Regime risk-off. HOOD scan bias long but conf only 36.6% and NOT aligned (4h is short). Earnings Wed July 29 after close is INSIDE the hold window - a binary event, so a directional swing into it is a gamble; any trade must close before earnings. Cash market closed (weekend). Correlated to the crypto/broker complex (COIN 0.75, BTC 0.45). Timeframes badly conflicted; long/short 2.48 (crowded long into a downtrend), rel strength -18.4% vs BTC (worst laggard).",
+    "sentiment": "HOOD ~$100, +9.7% YTD, bullish-leaning but the earnings binary is imminent: Q2 2026 earnings Wed 7/29 after close (~4:30pm ET) is the highest-priority near-term binary (consensus $0.43 EPS / $1.28B rev, +23.6% rev YoY but EPS -7.1% YoY); expect a large gap, same day as FOMC = compounded volatility. Analyst tone 'Moderate Buy'. Crypto.com prediction-markets chatter is a soft/long-horizon positive.",
+    "analyst": "Oversold bounce forming under a violent 4h downtrend (ADX 86.5, RSI 25.8, MACD -2.34, -5.4% vs VWAP); lower TFs long on essentially zero weekend volume, dead-flat 94.9-95.15. Long = chasing into a downtrend with crowded longs and worst-in-class rel strength; short = late into stretched tape a routine bounce stops out. Earnings + FOMC 7/29 inside the window. No honest R:R - flat.",
+    "portfolio": "HOLD HOOD - flat 0.35 conf, no size; earnings-week binary, revisit a short only on a break under 93.21."
+  },
+  "timestamp": "2026-07-25T22:35:20.235859+00:00"
+}

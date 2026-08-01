@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "AAPL/USDT:USDT",
+  "size": 0.0,
+  "entry": 313.63,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.4,
+  "playbook": "none",
+  "forecast": "Chop between 312.8 support and 316.9 spike-high; last bar bounced off 312.83 and closed upper-range at 313.63, so likely 313-315 drift for the next 2-4 bars rather than a clean directional move.",
+  "expectancy_note": "No R:R>=1.5 in a 1.53% BB-width box; shorting into 1h RSI 18.1 after a bounce candle is the account's losing 'late short' pattern (short win 44%, aligned weight -0.55) - HOLD is highest expectancy.",
+  "rationale": "AAPL is a low-conviction idiosyncratic equity play (btc_corr 0.28, RS +0.22) in a compressed range: ADX 24.5 is borderline, BB width just 1.53%, and 1h RSI is deeply oversold at 18.1 with the last 15m candle rejecting 312.83 and closing strong - shorting here chases a stretched tape and buying fights the short bias plus risk-off macro. No level offers a clean 1.5R, and macro warns of thin, gappy pre/early-US tape, so the honest edge is zero. Wait for a decisive break of the box.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 312.3,
+    "expires_min": 240,
+    "note": "Losing 312.30 breaks the intraday base below VWAP and confirms downside continuation for a valid short; a reclaim of 315.6 instead would flag the bounce."
+  },
+  "transcript": {
+    "macro": "Cycle 2026-07-14 ~13:29 UTC. Regime MIXED, leaning cautious/risk-off. Soft June CPI cut July hike odds to ~17%. Strait of Hormuz blockade / Iran escalation spiked oil (Brent ~+5% to ~$78), pressuring equities; gappy headline tape next 24-48h. US equities soft Mon, semis weakest sector. Broad crowded-long positioning -> favors shorts/fades, smaller size. Tokenized equities thin pre/early-US-session. AAPL: 313.6 short bias; balanced positioning (bias -0.055, L/S 0.99 neutral, OB -0.19); flat vs BTC (RS +0.22), low corr 0.28 - idiosyncratic; low conviction chop-to-mild-down.",
+    "sentiment": "Market-wide: US-Iran/Hormuz escalation dominant - risk-off, oil +5%, chip-led selloff; two-way headline gap risk 24-48h. No FOMC/CPI in window. AAPL: Neutral. Earnings July 30 (OUT of window). Least chip/oil-sensitive megacap, low correlation to semi selloff; no <=48h catalyst. Trades on broad-market direction; near-term news roughly neutral.",
+    "analyst": "last 313.63, ATR% 0.81, support 305.19, resistance 323.20. Composite short but only 37.8% conf, p_win 0.477. ADX 24.5 borderline, RSI 50.4 neutral, BB %B 0.174, BB width only 1.53% (compressed), 1h RSI 18.1 deeply oversold. Last candle bounced off 312.83, closed strong 313.63. Shorting into 1h RSI 18 with a bounce candle is the 'late short into stretched tape' loser; buying fights short bias + risk-off. No R:R>=1.5 in the box. HOLD.",
+    "portfolio": "AAPL: HOLD (conf 0.40) - compressed chop, no edge; watch 312.30 break for a valid short."
+  },
+  "timestamp": "2026-07-14T13:33:37.857404+00:00"
+}

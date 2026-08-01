@@ -1,0 +1,23 @@
+{
+  "symbol": "TSLA/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.62,
+  "size": 0.0,
+  "entry": 408.71,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "rationale": "TSLA is pinned at fair value (~408.7 vs consensus PT 407-410) in dead, thin weekend tape with US cash CLOSED and Monday gap risk. Signals conflict: 1h/5m long but 15m short, 30m flat, composite aligned=FALSE, 4h RSI 75.7 overbought, and structure_bias -0.26 (long/short 1.651 lopsided long, orderbook -0.215 offer-heavy) flags a crowded-long unwind risk against any fresh long. Recent 15m candles are a flat 408.2-409.5 coil fading off 409.36 with sub-1 volume prints \u2014 no directional thrust, no honest R:R, no level to fade or ride. CPI + Warsh Tue Jul 14 is a binary just outside 48h that caps conviction. Chasing an overbought, crowded-long name at fair value in thin tape is exactly the account's #1 loss pattern; HOLD is the highest-expectancy call until Monday cash sets a real level.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 407.9,
+    "expires_min": 240,
+    "note": "Losing the weekend swing low that has held confirms the crowded-long unwind the structure bias warns about \u2014 opens a short toward 405/391."
+  },
+  "transcript": {
+    "macro": "Regime leans bullish/risk-on but QQQ/TSLA overbought near-term. Tokenized equity, US cash CLOSED Sat, weekend gap risk. TSLA bullish-lean but CROWDED LONG: composite long blended 0.507, 1h/5h up, 4h RSI 75.7 overbought. structure_bias -0.26 (long/short 1.651 lopsided long -> contrarian short risk, orderbook -0.215 offer-heavy). Funding flat, BTC corr 0.275, rel strength +1.03%, ATR 0.98% (higher-vol). Q2 deliveries beat already digested/whipsawed. Robotaxi Miami/Austin = slow burn. Earnings Jul 22 outside 48h. BIG binary inside 48h of Monday: CPI + Warsh Tue Jul 14 -> smaller size.",
+    "sentiment": "TSLA neutral-to-cautiously-bullish. Deliveries 480,126 vs ~406k consensus (~18% beat) but stock dropped ~7% on release ('good news sold') \u2014 catalyst spent. Robotaxi Miami launch Jul 3 = slow-burn narrative, not a 48h mover. Analyst tone HOLD, consensus PT ~407-410 (stock ~408.71 = sitting on fair value). UBS PT $442 Jul 9 (low weight). Q2 earnings Wed Jul 22 after close = real binary, ~11 days out, OUTSIDE 24-48h. No TSLA-specific catalyst inside 48h; will ride CPI/Warsh macro tape (QQQ-TSLA corr 0.50). 4h RSI 75.7 overbought.",
+    "analyst": "Price coiled tightly 408.2-409.5, sitting at 408.71 = Friday close / fair value, last bars fading from 409.36 back to 408.71 on sub-1 weekend volume. No directional thrust. Overbought 4h RSI + crowded long book (structure_bias -0.26) argues against chasing long; no bearish trigger and 1h/5h momentum up argues against shorting a mildly-leading name. CPI+Warsh Tuesday is a binary just outside window. Dead-flat chop, no edge -> textbook NO TRADE / HOLD. Flip trigger: break below 407.9 confirms the crowded-long unwind, opens a short toward 405/391.",
+    "portfolio": "TSLA/USDT:USDT \u2014 HOLD (conf 0.62, size 0): fair value in thin weekend chop; arm a short below 407.9, else no edge into Tuesday CPI."
+  },
+  "timestamp": "2026-07-11T17:59:34.336555+00:00"
+}

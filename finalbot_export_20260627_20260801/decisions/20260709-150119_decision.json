@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "HOOD/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Post-spike fade continues: last 3 bars lower-lows (116.75>115.29>114.85, close near low) with sellers stacked on the book (OB -0.305); expect drift toward the 113.0 pre-breakout base / VWAP over the next 2-5 bars, then it decides - reclaim 116.8 = momentum resumes, lose 113.0 = mean-reversion toward 111.",
+  "expectancy_note": "No clean edge: long is mid-air (+0.96% over VWAP, ATR 2.56%, RSI 44 fading) = chasing a stretched pop into RISK-OFF; short fights the +7.5% rel-strength leader with 1h/4h still long. p(win) on either <0.5 here - HOLD until a level defines the trade.",
+  "rationale": "HOOD is the set's strongest relative name (+7.5%) but the Robinhood-Chain pop is stale and the 15m tape shows a clear post-spike fade (three lower-low closes, last bar closing near its range low) with negative orderbook imbalance and a 5m that has turned short. Composite is only a weak, UNALIGNED long (align_factor 0.87, conf 27.6%) and macro is RISK-OFF/defensive - not a backdrop to chase a mid-air continuation long, which is this book's #1 loss pattern. Shorting a leader with 1h/4h still long is a knife-catch. Best expectancy is to wait: a pullback into the 113.0 base sets up a cleaner long, a 116.8 reclaim confirms momentum resumption.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 116.8,
+    "expires_min": 240,
+    "note": "Reclaiming the 116.8 spike-shelf after this fade proves the launch momentum is resuming, not exhausting - flips to a trend-continuation long toward the 120.12 resistance."
+  },
+  "transcript": {
+    "macro": "Cycle 2026-07-09, RISK-OFF/defensive. Jittery tape, oil/Iran risk-off, hawkish Fed minutes. BTC ~$62.9k grind. Env favors shorts/mean-reversion over fresh momentum longs; size modest. US cash closes ~20:00 UTC -> overnight thin/gappy. HOOD: btc_corr 0.635, rel-strength +7.5% (LEADING - strongest relative name in set), underlying ~$108-115 boosted by 'Robinhood Chain' L2 launch + bullish analyst initiations. Idiosyncratic momentum but crypto-linked (shares COIN's downside beta). Scan composite a weak/unaligned long (align_factor 0.87). L/S 1.25.",
+    "sentiment": "HOOD near-term BULLISH momentum but no NEW <=48h catalyst. Robinhood Chain mainnet + tokenized stocks + perps/agentic trading launched Jul 1-3, stock jumped ~14% - now a few days stale, pop is in the price. Earnings Jul 29 2026 (outside window). Scan shows HOOD spiked then faded (5m turning short, best relative strength +7.5%) - momentum long thesis exists but maturing; watch mean-reversion after launch pop. No new <=48h news either way.",
+    "analyst": "HOOD @114.85, RSI 44.2, ADX 24.8 (weak trend), +0.96% vs VWAP. The 15m tape shows a violent spike to 117.48 then a clear post-spike fade - three lower-low closes (116.75>115.29>114.85, last bar closing near its low) with negative orderbook (-0.305, sellers stacked) and 5m turned short. Composite is only a weak UNALIGNED long (align_factor 0.87, conf 27.6%) and macro is RISK-OFF. Chasing the mid-air continuation long is the account's #1 loss pattern; shorting a +7.5% rel-strength leader with 1h/4h still long is a knife-catch. HOLD; a pullback to the 113.0 base sets up a cleaner long, a reclaim of 116.8 confirms momentum resumption toward 120.12.",
+    "portfolio": "HOOD: HOLD (conf 0.60) - post-spike fade, no clean level; long armed on reclaim of 116.8."
+  },
+  "timestamp": "2026-07-09T15:01:19.145948+00:00"
+}

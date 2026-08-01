@@ -1,0 +1,25 @@
+{
+  "symbol": "META/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.55,
+  "size": 0.0,
+  "entry": 598.0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "forecast": "META stair-stepped down 607->598, now pressing support 592.52 with 5m RSI 26.2 stretched; expect a small dead-cat bounce toward 601-603 VWAP or a clean break of 592.52. A fresh short only pays below 592.52 toward ~586.",
+  "rationale": "The 4h short thesis is valid (blended -0.34, ADX 41, orderbook offers -0.4) but price is already 1 point above support 592.52 with 5m RSI 26.2 \u2014 too stretched to market-short without getting stopped on the routine bounce, and the first target is too close for 1.5R (p_win_learned 0.427 flags this late-short-into-support pattern as a net loser). Overriding factor: META reports earnings Wed after close alongside FOMC, a double binary I will not carry a swing into.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 592.5,
+    "expires_min": 240,
+    "note": "Losing 592.52 on momentum opens ~6+ pts toward 586, restoring 1.5R+ on a fresh short."
+  },
+  "transcript": {
+    "macro": "2026-07-27 NEUTRAL-to-RISK-OFF, event-gated. FOMC July 28-29. Tape in revolt over AI capex after Alphabet guided 2026 capex ~$200B; semis hit hard. Tokenized equities HOSTILE/high hazard, thin/gappy outside US cash hours. META already rolling over (4h short, blended -0.34). Avoid carrying through earnings prints or the Fed.",
+    "sentiment": "META reports earnings Wed July 29 AFTER THE CLOSE \u2014 same day as FOMC. Single biggest stock-specific <=48h catalyst in the book; expect a large after-hours gap. Do NOT hold a position into Wednesday close. Bearish/binary risk.",
+    "analyst": "Late short into stretched support (5m RSI 26.2, ~1pt above 592.52) is the account's #1 loss pattern with R:R ~1.0; won't establish a swing carried into Wed's FOMC+earnings double binary. Wait for a decisive break of 592.52 or a bounce to VWAP 603.",
+    "portfolio": "HOLD META \u2014 valid short thesis but stretched into support and a Wed earnings+FOMC double binary; stand aside."
+  },
+  "timestamp": "2026-07-27T17:07:18.669703+00:00"
+}

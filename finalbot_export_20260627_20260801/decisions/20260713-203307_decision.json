@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "AAPL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price coils 316.2-317.9 into the CPI print; most likely it chops sideways in this box over the next few bars, then gaps hard on Monday cash open and again on tomorrow's 8:30am CPI - direction of that gap is a coin flip with asymmetric downside for high-multiple tech.",
+  "expectancy_note": "No pullback to buy (pinned to upper band, bb_pctb 0.97) and a binary CPI in <18h with explicit downside skew for mega-cap tech; p(win) on a stretched pre-print long is <0.5 with gap risk, so waiting beats chasing the squeeze.",
+  "rationale": "AAPL's uptrend is real (ADX 41, 1h/4h up, rel-strength +8.5%) but it is stretched to the upper Bollinger band and sitting at VWAP with no pullback, giving no honest entry with a <=1.5xATR stop before resistance 323.2. CPI drops tomorrow 8:30am ET - the cycle's key print with asymmetric downside for high-multiple tech - and these tokenized equities are thin/gappy and will gap twice before resolution. The account's trend/long book is already bleeding (trend 45% win, -2.51R avg), so the highest-expectancy move is to wait for a post-CPI reaction or a real pullback rather than chase a coil into a binary; no size justified now.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 318.5,
+    "expires_min": 240,
+    "note": "A decisive reclaim and hold above the 318 shelf / intraday high (317.93) on volume would prove the breakout is real and pull the entry back within a tight stop; below it, it's chop into the CPI binary."
+  },
+  "transcript": {
+    "macro": "Environment MIXED tilting hostile into a binary. US June CPI drops tomorrow July 14 8:30am ET - cycle's key print, hot core hits high-multiple tech hardest. Monday risk-off on Iran/Strait of Hormuz oil spike (Brent +7%, S&P -0.79%, Nasdaq -1.55%). Late-cycle risk-on but frothy. Tokenized equities, US cash closed off-hours -> thin/gappy candles that gap on Monday open + CPI; smaller size warranted. BTC corr low (0.22). AAPL: momentum supports LONG but environment does NOT support adding into tonight/tomorrow; long bias only, small size or wait post-CPI. Risk: hot core CPI gapping mega-cap tech down; bb_pctb 0.97 stretched into the print.",
+    "sentiment": "AAPL neutral-to-mildly-bullish, LOW near-term event risk. JPMorgan PT raised to $345, Broadcom supply deal extended to 2031 (long-horizon, not 48h). Hard binary = Q3 FY2026 earnings Thu July 30 after close - OUTSIDE 24-48h window, no earnings risk this cycle. AAPL insulated from today's memory-chip rout (not a memory play; slightly negative corr to MU). Net: no <=48h catalyst, near-term news roughly neutral; long bias trades on price/structure. Calm fragile with earnings ~2.5 weeks out and live oil/geopolitical backdrop.",
+    "analyst": "AAPL is a genuine uptrend - ADX 41, both 1h and 4h long, +8.5% rel-strength vs BTC, positive order-book imbalance, neutral funding, low BTC correlation (its own horse). But wrong moment to press a long: (1) price pinned to the upper Bollinger band (bb_pctb 0.97) while sitting at VWAP, so no pullback to buy - a trend entry needs a stop below 315 (>1xATR) against resistance 323.2, and the last 15m bar sold off its 317.5 high back to mid-range showing overhead supply; (2) June CPI tomorrow 8:30am ET, the cycle's key print, with explicit asymmetric downside for high-multiple mega-cap tech on a hot core, plus tokenized-equity gap risk on Monday open and the print. Learner stats reinforce caution (trend 45% win -2.51R; longs 0.5 win -1.87R). Chasing a tight coil to the upper band the night before a binary is the low-expectancy trap. Hold, keep the long bias, arm a reconsider at 318.5.",
+    "portfolio": "AAPL: HOLD (conf 0.60) - real uptrend but stretched into tomorrow's CPI with no pullback entry; wait for post-CPI reaction or reclaim of 318.5."
+  },
+  "timestamp": "2026-07-13T20:33:07.897876+00:00"
+}

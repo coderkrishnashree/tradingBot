@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "XAUT/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.34,
+  "playbook": "none",
+  "forecast": "Compressed drift 4055-4077; last bars stalled and put in a small green inside bar off the 4055 session low, so near-term likely chops 4058-4072 rather than trending. A clean loss of 4055 reopens 4020; a reclaim of 4077 kills the short bias.",
+  "expectancy_note": "No near structural target inside ~1.5x ATR (support 3957 / resistance 4189 both far), mid-frames 15m/1h flat, bb_width 3.76% quiet; jobless-claims binary today risks a short-squeeze. R:R to any real level < 1.5 \u2014 thin edge, 88% redundant with XAG.",
+  "rationale": "XAUT is a lower-beta echo of XAG (0.883 corr) with only 4h/5m short while 15m/1h are flat and the range is compressed (bb_width 3.76%, ATR 0.88%). Price is basing off 4055 with a small green reversal bar, not accelerating down, and today's 8:30 ET jobless claims is a live squeeze risk against a short. No clean 1.5 R:R to a near level, so the highest-expectancy action is to wait for a decisive 4055 break to short the continuation.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 4055.0,
+    "expires_min": 240,
+    "note": "Loss of the intraday base confirms momentum continuation lower toward 4020 with the DXY/yields macro tailwind \u2014 valid short trigger."
+  },
+  "transcript": {
+    "macro": "FRAGILE RISK-OFF, dollar firming. BTC dominance ~55-56% rising. DXY firming + Treasury yields rising Jul 8 hammered metals (gold -2.2%). Rates hostile: May CPI +4.2% y/y, 9 Fed pencil a hike, no cuts. Fear&Greed 24. Next catalyst June CPI Jul 14 (outside 48h). XAUT: gold ~$4,076-4,080 (scan last 4063.5); funding ~0, OI thin 34k, L/S 2.83 (long-crowded), orderbook slightly offered, bias -0.324. Momentum weaker than silver: 15m/1h flat, only 4h/5m short; ADX 45; rel-strength -0.84% vs BTC (flat); bb_width 3.8% compressed. 88% correlated to XAG. Verdict: MIXED, slight short bias \u2014 smaller size or hold.",
+    "sentiment": "XAUT lean NEUTRAL-to-BEARISH, mildly supports short but low conviction. Gold ~$4,060-4,200 caught between safe-haven bid (Middle East) and dollar strength; banks split. No gold-specific catalyst next 48h. EVENT RISK: weekly Initial Jobless Claims today Thu Jul 9 8:30 ET is the binary for metals \u2014 soft print squeezes shorts, hot print helps.",
+    "analyst": "Macro hostile to metals, but 4h/5m short with 15m/1h flat = trend not cleanly aligned; bb_width 3.76% is a low-vol drift, not a driving trend. Price only -1.13% from VWAP (no fade edge). ATR 0.88% (~$36) with support 3957 / resistance 4189 both far = no near structural target for R:R>=1.5. RSI 33.9 with a small green reversal bar off 4055 = downside exhausting near-term, not accelerating. Jobless claims is a live 48h binary against a short. 88% redundant with XAG. HOLD; flip to short on a decisive break below 4055.",
+    "portfolio": "HOLD XAUT, conf 0.34 \u2014 lower-beta echo of the XAG short with a thin, redundant edge and a live squeeze binary; arm a short only below 4055."
+  },
+  "timestamp": "2026-07-09T01:58:33.747475+00:00"
+}

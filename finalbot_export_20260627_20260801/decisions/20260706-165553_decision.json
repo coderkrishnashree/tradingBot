@@ -1,0 +1,27 @@
+{
+  "symbol": "CL/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.5,
+  "size": 0.0,
+  "entry": 68.45,
+  "stop_loss": null,
+  "take_profit": null,
+  "take_profit_1": null,
+  "take_profit_2": null,
+  "playbook": "none",
+  "expectancy_note": "Short bias is right (crowded L/S 4.23, OPEC+ supply, weakest RS -6.92%) but price sits ~$1.28 above 67.17 support with 5m RSI 22.2 already stretched \u2014 fresh short here is chasing into a level, R:R<1.5. Better to fade a bounce to VWAP/69.3.",
+  "rationale": "Directionally bearish (structure_bias -0.455, funding +0.0004 & long/short 4.23 = crowded-long fuel, OPEC+ supply headwind, rel-strength -6.92% weakest of the board, btc-independent so it's the real horse). But ADX is only 24 and 30m/1h are flat; entering short at 68.45 into the 67.17 support with intraday already oversold gives poor reward for the risk. Highest-expectancy action is to wait: short a mean-reversion bounce back into 69.3 (VWAP/mid-band) where the crowded-long fade sets up ~2.5-3x ATR toward 67.2 with a stop above 69.9. No 48h binary forces the hand; EIA inventory is the recurring mover.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 69.3,
+    "expires_min": 360,
+    "note": "A bounce back to VWAP/mid-band 69.30 is where fading the crowded long gives clean R:R (stop 69.9+, target 67.2 / 66.3) \u2014 that's the timely short entry."
+  },
+  "transcript": {
+    "macro": "2026-07-06 mildly RISK-ON but fragile into FOMC minutes; 10Y ~4.48%, DXY ~101. CL/WTI env SUPPORTS SHORT: crude sub-$69 (lowest since Feb) on OPEC+ +188k bpd hike and Hormuz/Saudi export normalization. Positioning is the risk \u2014 long/short 4.23 and funding +0.0004 extremely crowded long (downside fuel but squeeze risk on Iran headline). ADX only 24. SHORT favored, biggest risk = geopolitical spike; moderate size.",
+    "sentiment": "CL mildly BEARISH. WTI soft ~$68.60. OPEC+ approved another +188k b/d quota hike next month; Hormuz risk premium drained as Gulf/Saudi/UAE exports normalize. No 48h binary; EIA weekly inventory the recurring mover. Bias: sell rallies / neutral-to-down.",
+    "analyst": "Short-biased tape (macro + sentiment + extreme crowded long = downside fuel; OPEC+ supply) but price 68.45 sits only ~$1.28 above 67.17 support with 5m RSI 22.2 stretched. Fresh short into support = chasing, R:R<1.5. ADX 24 weak, 30m/1h flat. Best fade is a bounce to VWAP/69.3. HOLD, arm short trigger on rally to 69.30.",
+    "portfolio": "HOLD CL \u2014 bearish thesis intact but oversold at support; fade a bounce to 69.3, don't chase."
+  },
+  "timestamp": "2026-07-06T16:55:53.235635+00:00"
+}

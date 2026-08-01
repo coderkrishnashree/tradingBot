@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "QQQ/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.55,
+  "playbook": "none",
+  "forecast": "Price stalls under 700-701 rejection; last 2 bars red off 700.19. Likely chops 697-701 into the weekend, with true resolution at Monday cash open (gap risk). Base case is a fade toward 696 support-test before any squeeze-breakout.",
+  "expectancy_note": "No RR>=1.5 available: ATR only 0.25% (~1.75pts), support 688 ~6x ATR away and resistance 727 ~16x away \u2014 any tight-stop trade dies in noise; squeezed BB + closed cash market + gap risk = wait.",
+  "rationale": "QQQ is an equity proxy with US cash CLOSED (weekend) and real Monday gap risk into a -1.5% risk-off Nasdaq tape with TSLA earnings Wed. Structure is the cleanest of the group (L/S 1.09, funding flat) but that only makes it a dip-buy candidate, not a chase: price is stalled at 700-701 rejection with 5m/15m rolling short under a squeezed band, and no structural level is close enough for an honest 1.5R with a sub-1.5xATR stop. Highest-expectancy action is to wait for a real dip to 688 support or a decisive 701 reclaim.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 701.0,
+    "expires_min": 240,
+    "note": "Reclaiming the 700-701 rejection zone on momentum flips 5m/15m long and opens a squeeze-breakout toward 705+."
+  },
+  "transcript": {
+    "macro": "Risk-off, semis-led. Nasdaq -1.5% Fri; VIX ~16.7; Fed on hold. Equity-pair weekend GAP RISK. QQQ cleanest structure of the group (L/S 1.09, funding flat, structure_bias -0.06) but broad-tech proxy in a -1.5% tape; small tactical long on dips only, no chasing. TSLA earnings Wed Jul 22 a tape risk for the index.",
+    "sentiment": "QQQ BEARISH near-term drift. 3 down days, symmetrical triangle making lower highs, AI leadership pressured with oil up. SpaceX Nasdaq-100 add (Jul 7) done/one-time. Momentum soft; news leans against fresh longs.",
+    "analyst": "Stalled at 700-701 rejection, last 2 bars red, 5m/15m rolling short under a squeezed band; ATR only 0.25% so no structural level within honest 1.5R of a sub-1.5xATR stop. Cleanest structure makes it a dip-buy candidate, not a chase. HOLD; reconsider long above 701.",
+    "portfolio": "QQQ \u2014 HOLD (no honest RR; dip-buy/breakout long armed above 701)."
+  },
+  "timestamp": "2026-07-20T05:15:02.067343+00:00"
+}

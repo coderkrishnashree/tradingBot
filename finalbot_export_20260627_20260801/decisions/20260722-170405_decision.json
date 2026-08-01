@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "TSM/USDT:USDT",
+  "size": 0.0,
+  "entry": 423.0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Post-earnings drift is stalling: price peaked 425.0 and is printing lower highs (425.0->424.45->423.7->423.0) at +2.69% over VWAP with stoch 85.8 and 15m RSI 73.6 into resistance 433.74. Expect a fade/chop back toward the 415-416 shelf (near VWAP ~412) before any trend resumption.",
+  "expectancy_note": "Chasing a long up here (extended, crowded L/S 2.12, INTC binary tomorrow) has negative expectancy; a short has no confirmation (ADX 44.6 up, no bearish divergence). Best EV is to wait for a with-trend long at the VWAP/shelf retest.",
+  "rationale": "TSM's bullish catalyst (Jul 16 beat) is already digested and price is mid-air +2.69% above VWAP, stalling with lower highs into 433.74 resistance while crowded long (2.12) and lagging (rel strength -11%). RISK-OFF hawkish macro plus INTC print tomorrow (0.65 corr) adds overnight gap risk, so buying the top or fading without confirmation both carry poor R:R. HOLD and wait for a cleaner pullback entry; size 0.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 416.0,
+    "expires_min": 240,
+    "note": "A dip into the 415-416 shelf near VWAP resets the with-trend long with a tight stop under 411; a decisive loss of 415 instead flags trend failure and a possible short."
+  },
+  "transcript": {
+    "macro": "RISK-OFF/hawkish; DXY 13-mo high. Semi tape fragile after early-July selloff; jumpy/headline-driven. GOOGL/TSLA tonight = overnight Nasdaq vol. TSM crowded long (L/S 2.12), lags BTC (-11%), low BTC corr \u2014 lives/dies by Nasdaq tape + INTC print. Tokenized equities thin/gappy off-hours. Smaller size.",
+    "sentiment": "TSM bullish, no fresh binary. Reported Jul 16: rev +36% YoY, raised FY26 guide to slightly above 40%, lifted capex, strong AI demand, Q3 guide $44.6-45.8B. Catalyst already digested \u2014 move is post-earnings drift. INTC print Thu Jul 23 is the main sector read-through risk (INTC-TSM corr 0.65).",
+    "analyst": "Digested catalyst, stalling lower highs into resistance, extended above VWAP, INTC binary tomorrow. No R:R at spot. HOLD, wait for a 415-416 pullback.",
+    "portfolio": "TSM -> HOLD (conf 0.60): post-earnings drift stalling into resistance \u2014 wait for the VWAP retest."
+  },
+  "timestamp": "2026-07-22T17:04:05.225734+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "INTC/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.55,
+  "playbook": "none",
+  "forecast": "Fading bounce stalls under 105.9; price grinds sideways 105.0-105.5 into CPI. A clean break of 103.47 support opens the next leg toward ~101.5/100; failure there sees an oversold snapback toward VWAP ~108.9.",
+  "expectancy_note": "Short thesis is right directionally but market-entry R:R is poor: support 103.47 is only ~1xATR below and RSI 27/stoch 19 invite a snapback into CPI. Better expectancy waiting for a breakdown confirm or a VWAP retest to short.",
+  "rationale": "INTC is the weakest name (rel-strength -21%), macro/structure/trend all short-aligned (ADX 77, bias -0.358, crowded longs 2.3x). But price is pinned at support 103.47, RSI 27 and %B ~0 mean a market short chases into an oversold hole with only ~1xATR to first target and real snapback risk into June CPI tomorrow \u2014 exactly this account's losing late-short pattern. Wait for the trigger rather than pay the worst entry; size 0.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 103.4,
+    "expires_min": 240,
+    "note": "Losing the 103.47 support on a 15m close confirms breakdown continuation and opens room to the next leg, making a short entry with proper R:R viable."
+  },
+  "transcript": {
+    "macro": "RISK-OFF tape (2026-07-13 15:28 UTC). US\u2013Iran strikes, Hormuz closed -> oil spiking, rate-HIKE fears, firm DXY. Equities down led by Nasdaq, memory/semis the epicenter. June CPI TOMORROW (July 14) = major 48h event risk. Funding ~0, L/S lopsidedly long (weak contrarian tell). Basket is one macro trade -> smaller size, tight risk. INTC: supports SHORT (aligned), HIGH conviction \u2014 weakest name (rel-strength -21%), in the exact memory/semi group leading Nasdaq down. Mind oversold snapback (RSI 27).",
+    "sentiment": "US\u2013Iran/Hormuz shock + BofA AI-bubble note + Samsung/SK Hynix weakness = broad semi selloff. INTC: BEARISH (near-term). Down ~21% on the week after 18A yield delay (no profitable yields until late 2026/2027), AMD overtaking Intel in data-center revenue, sector-wide chip selloff. Earnings July 23 (outside window). Fresh negative flow + downtrend support the short.",
+    "analyst": "Weakest name (rel-strength -21%), macro/structure/trend all short-aligned (ADX 77, bias -0.358, crowded longs 2.3x). But price pinned at support 103.47 with RSI 27 / %B ~0 = a market short chases into an oversold hole, only ~1xATR to first target, real snapback risk into CPI (the account's losing late-short pattern). HOLD; short on a confirmed break of 103.47 or a fuller VWAP retest.",
+    "portfolio": "HOLD INTC \u2014 cleanest aligned short but pinned at support/oversold; wait for a break of 103.4, don't chase the hole."
+  },
+  "timestamp": "2026-07-13T15:34:43.150428+00:00"
+}

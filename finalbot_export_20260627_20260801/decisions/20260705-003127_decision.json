@@ -1,0 +1,25 @@
+{
+  "action": "hold",
+  "symbol": "TSM/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "expectancy_note": "Short thesis is right but entry is wrong: p(win) of shorting at support 444.00 with 5m RSI 10.6 is low (~40%) vs snapback risk; waiting for a break below 444.00 lifts p(win) to ~0.6 with clean R:R toward 440/438. HOLD beats a poor-R:R chase into oversold support with cash market closed.",
+  "rationale": "Bearish structure is clear (semi-sector rout, crowded longs 1.76, offer-heavy book -0.16, ADX 79.9 downtrend, rel-strength -0.84), but price is sitting exactly on support 444.00 at a deeply oversold 5m RSI of 10.6 with NYSE closed (weekend + July 3) so the perp is thin, gap-prone, and unanchored. Shorting here means stop above resistance 446.97 (~447.5, ~3.2 risk) with immediate downside blocked by the very support I'd be selling into \u2014 bad R:R plus high relief-bounce risk. Best expectancy is to wait: a clean break below 444.00 confirms continuation and offers a proper entry with room to 440/438, while any bounce toward 446-447 gives a higher/better short. No size until the level resolves.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 444.0,
+    "expires_min": 240,
+    "note": "Losing support 444.00 breaks the oversold floor and confirms downtrend continuation \u2014 that is the short trigger with clean R:R toward 440/438."
+  },
+  "transcript": {
+    "macro": "Late-cycle toppy tape: Dow at record highs but Nasdaq rolling over; SEMICONDUCTORS actively sold (profit-taking after 80%+ H1 run, Micron -10%+) \u2014 rotation-out-of-semis, not a broad crash. TSM structure: funding 0.0, OI ~2,825 (THIN), long_short_ratio 1.76 (crowded LONG = contrarian short fuel), orderbook_imbalance -0.16 (offer-heavy), structure_bias -0.276 (leans short). Scan composite: SHORT, 88.3% conf, ADX 79.9, 5m RSI 10.6 (deeply oversold \u2192 squeeze risk), rel-strength -0.84. Underlying TSM ~$434 (Jul 4), gapping lower. CRITICAL: NYSE CLOSED (weekend + July 3 holiday) \u2014 perp thin, gap-prone, no cash anchor until Monday. Verdict: MIXED-to-supportive for SHORT, hostile for long; trade short with REDUCED size, respect reopen gap and squeeze risk.",
+    "sentiment": "Live AI-chip sector rout (Jul 1-2): Micron -10%+, SK Hynix -14.5%, Samsung -9%, Kospi -7.9% \u2014 triggered by SK Hynix slowing HBM expansion + demand-destruction fears + hawkish new Fed Chair Warsh. TSM -3.5% on Jul 1 ($444\u2192$434). Revenue deceleration flag: Apr+May +24% YoY vs ~35% expected. Near-term catalyst: June monthly revenue ~July 10 (just beyond 48h). Quiet period from July 6; Q2 earnings July 16 (both outside horizon). Geopolitics: Taiwan detained Super Micro execs, weighing tighter China AI-chip export curbs \u2014 slow-burn overhang. Verdict: BEARISH next 24-48h; main risk to short = deeply oversold RSI \u2192 sharp relief bounce/short-cover snapback.",
+    "analyst": "Bearish thesis is sound (semi rout, crowded longs 1.76, offer-heavy book, ADX 79.9 downtrend, rel-strength -0.84), but the ENTRY is bad: price sits exactly on support 444.00 with 5m RSI 10.6 (deeply oversold), cash market CLOSED and gap-prone. Shorting here = stop above resistance 446.97 (~447.5, ~3.2 risk) with immediate downside blocked by the support being sold into \u2014 poor R:R + high snapback risk. Disciplined play: HOLD and arm a short trigger on a clean break below 444.00, which confirms continuation and gives a proper entry with room toward 440/438.",
+    "portfolio": "HOLD TSM/USDT:USDT (conf 0.60) \u2014 right thesis (short), wrong entry; arm short trigger on break below 444.00."
+  },
+  "timestamp": "2026-07-05T00:31:27.318438+00:00"
+}

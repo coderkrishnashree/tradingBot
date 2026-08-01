@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "ORCL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.62,
+  "playbook": "none",
+  "forecast": "Dead Sunday tape: price pins 127.0-127.4 on negligible volume with no impulse either way; most likely it keeps micro-drifting flat until Monday US open, then gaps. No tradeable next move inside the window.",
+  "expectancy_note": "No edge: extended long (RSI 85.5/ADX 81.7) forbids a chase, but candles show zero exhaustion/reversal to justify a fade; account history proves late shorts into stretched tape lose (0.47 wr, -0.87 avg). HOLD dominates a coin-flip.",
+  "rationale": "ORCL is a tokenized equity on a CLOSED-market Sunday \u2014 crypto structure (L/S 2.51) is noise and Monday-gap risk is real, so size down to zero. RSI 85.5 + ADX 81.7 make the long a chase (forbidden) while the flat, low-volume 15m base offers no short trigger and no divergence, so R:R is undefined in either direction. Best expectancy is to wait for either a break of the 127.0 base (opens the mean-reversion short toward 125.5) or a real volume expansion, neither present now.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 126.7,
+    "expires_min": 240,
+    "note": "Losing the 15m base/127 shelf on volume breaks the coil and confirms the exhaustion roll-over from RSI 85 \u2014 arms a mean-reversion short toward 125.5/support."
+  },
+  "transcript": {
+    "macro": "Sunday Jul 19 2026 \u2014 US equities CLOSED; tokenized stocks thin/gappy, Monday-gap risk, size DOWN. Backdrop HOSTILE/risk-off, crypto neutral-fragile, FOMC Jul 28-29 HOLD. Positioning lopsidedly LONG. ORCL: MOST overbought on the board (RSI 85.5, ADX 81.7, stoch 83), crowded long (L/S 2.51), structure_bias -0.22, RS -21% \u2014 late-stage extended long, exhaustion/mean-reversion risk.",
+    "sentiment": "ORCL cautious/heavy; down ~25% YTD despite record $638B RPO backlog, weighed by $40B debt/equity raise, capex-driven negative FCF, S&P credit-rating concerns (BBB-). Last earnings June 10, no 48h event but the overhang is a bearish drift risk. Overall risk-off crypto (Fear ~34).",
+    "analyst": "Late-stage extended long (RSI 85.5/ADX 81.7) in a risk-off week, but the 15m tape is dead-flat on negligible volume \u2014 no chase entry (forbidden) and no exhaustion/reversal candle to justify a fade. Crypto structure is noise on a closed-market equity; Monday-gap risk real. Account late-shorts into stretched tape lose. HOLD; re-debate on break below the 126.7 base.",
+    "portfolio": "HOLD ORCL \u2014 most-overbought name but flat tape offers no chase and no fade trigger; armed re-debate below 126.7."
+  },
+  "timestamp": "2026-07-19T15:13:58.529744+00:00"
+}

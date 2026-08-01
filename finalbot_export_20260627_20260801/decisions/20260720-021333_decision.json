@@ -1,0 +1,28 @@
+{
+  "symbol": "GOOGL/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.6,
+  "size": 0.0,
+  "entry": 348.67,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "none",
+  "forecast": "Coils in the 347.4-349.5 range for the next few bars; no clean directional break until it loses 347.4 (opens 341.86) or reclaims 349.5 with volume. Earnings ~Jul 22 dominates any 48h path.",
+  "expectancy_note": "No 1.5R setup: price mid-range at VWAP (%B 0.52), no extreme to fade, no breakout trigger, and Q2 earnings ~48h out makes any swing a binary gamble.",
+  "rationale": "GOOGL shows conflicting signals: strong ADX (45) with all timeframes long-biased versus bearish divergence, stoch 79.5 extended, and the most crowded-long funding of the set (0.000348, L/S 1.64, structure_bias -0.32). But the mid-TF candles are coiling 347.4-349.5 right at VWAP with no exploitable extreme, so neither side offers an honest 1.5R. Decisively, Q2 earnings land ~Jul 22 after close, inside the 48h window; entering now bets on a gap, not structure. Size 0.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 347.4,
+    "expires_min": 240,
+    "note": "Losing 347.4 (recent swing low / VWAP break) confirms the bearish divergence resolving down and opens a clean short toward 341.86 support before the print."
+  },
+  "transcript": {
+    "macro": "Near-term RISK-OFF for tech. GOOGL funding notably positive (0.000348, most crowded-long funding of the set) + long_short 1.64 + bearish divergence; structure_bias -0.32. Alphabet reports Q2 ~Jul 22 after close \u2014 earnings landmine near window. FOMC Jul 28-29. Tokenized equities thin/gappy on weekend.",
+    "sentiment": "HIGH-attention binary \u2014 Q2 earnings ~Jul 22 after close. Antitrust overhang (EU EUR3.0B fine appealed) is long-horizon, not a 48h driver. The print is the near-term catalyst; scan shows bearish divergence into it.",
+    "analyst": "Strong ADX (45), all TFs long-biased (RSI 60-67) but bearish divergence, stoch 79.5 extended, crowded-long funding. Candles coil 347.4-349.5 at VWAP (%B 0.52) \u2014 no extreme to fade, no breakout trigger, support 341.86 far below. No honest 1.5R either way. Q2 earnings ~Jul 22 inside the window makes any swing a gap gamble. HOLD; arm short on a loss of 347.4.",
+    "portfolio": "GOOGL \u2014 HOLD (conf 0.60): coiled at VWAP with a binary earnings print ~48h out; short arms on a loss of 347.4."
+  },
+  "timestamp": "2026-07-20T02:13:33.878076+00:00"
+}

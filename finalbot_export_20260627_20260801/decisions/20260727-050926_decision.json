@@ -1,0 +1,26 @@
+{
+  "symbol": "QQQ/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.46,
+  "size": 0.0,
+  "entry": 692.66,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "forecast": "Continued tight coil 691.5-693.5 into thin closed-cash hours; no directional resolution likely until FOMC Wed and megacap earnings Wed/Thu force the break.",
+  "expectancy_note": "No edge: mid-range chop, atr 0.28% with price ~mid between 683.9 and 710.7, funding maxed against longs, binary event risk inside window - R:R and p(win) both unattractive vs cash.",
+  "rationale": "QQQ is the index itself and pure beta to FOMC (Wed) plus MSFT/META/AAPL/AMZN earnings (Wed/Thu) - both macro and sentiment explicitly say do NOT carry size through these binaries. The 15m path is a listless coil (690.2 low, drifting back to 692.6) in a squeezed 1.76% band with drying volume and flat 30m/1h scores; ADX 88.9 is a stale artifact, not a live trend. US cash is closed (thin, gap-prone) and funding is maxed against longs. No honest R:R exists mid-range, so HOLD is highest expectancy.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 710.65,
+    "expires_min": 240,
+    "note": "A volume reclaim of 710.65 resistance would prove the coil resolved up and reopen a trend-continuation long; losing 683.88 support flips the bias short."
+  },
+  "transcript": {
+    "macro": "Regime MIXED, risk-on into a heavy event week. FOMC Wed Jul 29; MSFT+META Wed AC; AAPL+AMZN Thu AC. Funding broadly rich, crowded longs. Smaller size everywhere; scan @05:00 UTC = US cash closed, prices thin/gap-prone. QQQ: the index itself, funding maxed +0.21%/8h, orderbook +0.95, ADX 88.9; pure beta to FOMC + megacap earnings. NEUTRAL, do NOT hold size through the events.",
+    "sentiment": "Wall of binary catalysts next 48-72h. QQQ directly in the crosshairs - FOMC Jul 29 + MSFT/AAPL earnings Jul 29-30 set the tape; hawkish Fed + hot CPI (core 4.2%) a headwind. NEUTRAL-to-cautious, high event risk, do NOT hold naked through Wed/Thu.",
+    "analyst": "Listless 15m coil (690.2 low back to 692.6) in a squeezed 1.76% band, drying volume, flat 30m/1h; ADX 88.9 is a stale artifact. Mid-range between 683.9 and 710.7, atr 0.28%, funding maxed against longs, binary events inside window. HOLD. Reconsider on volume reclaim of 710.65 (long) or loss of 683.88 (short).",
+    "portfolio": "HOLD - index beta to FOMC + megacap earnings, mid-range coil, no edge; conf 0.46."
+  },
+  "timestamp": "2026-07-27T05:09:26.350641+00:00"
+}

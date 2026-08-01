@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "HOOD/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Controlled bleed continues to test 103.43; either a wick-and-reclaim of 105.0 (oversold 30m RSI 14 bounce) or a clean loss of 103.43 toward 102/support 96.68. No bounce confirmation on the tape yet, so I wait for the level to pick a side within 2-6 bars.",
+  "expectancy_note": "p(win) ~0.5 either side, no edge: fresh long fights crowded L/S 1.92 + bias -0.32 with zero reversal signal; fresh short chases 30m RSI 14 into VWAP with 4h score +0.9 -- the account's proven losing pattern (shorts 46% win, -0.97). HOLD beats both.",
+  "rationale": "HOOD is a controlled grind lower (106.1 to 103.76) with LTF deeply oversold (30m RSI 14) but NO bounce confirmation -- no higher low, no volume, no rejection wick, closing near lows. Crowded longs (L/S 1.92, structure_bias -0.32, orderbook -0.13) make a fresh long a squeeze-risk knife-catch, while a fresh short chases an extended oversold move into VWAP against a bullish 4h -- exactly this account's losing short setup. US cash closed adds gap risk. No positive expectancy on either side; wait for the level to resolve.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 105.15,
+    "expires_min": 240,
+    "note": "Reclaiming the broken 105.0-105.15 shelf (~VWAP+) confirms the oversold LTF bounce has legs and activates the constructive 4h thesis for a long entry."
+  },
+  "transcript": {
+    "macro": "2026-07-22 RISK-OFF tilt. Fear&Greed 33. HOOD crowded longs, negative structure: L/S 1.92, orderbook -0.13, structure_bias -0.32, and 15m/30m RSI ~14-21 (freshly, heavily sold on LTF). US cash CLOSED -> tokenized names thin/gappy. NET: MIXED-to-HOSTILE for fresh longs; crowded longs = squeeze risk, but very oversold LTF could bounce. Favor smaller size.",
+    "sentiment": "HOOD: soft today, event next week. Q2 earnings July 29 after close (OUTSIDE 48h). Crypto-correlated (0.72 with COIN); currently weak on lower timeframes. No near-term catalyst -- NEUTRAL, drifting with crypto/risk.",
+    "analyst": "Controlled orderly bleed 106.1 -> 103.76 over 20 bars, closing near lows on drying volume -- NOT an exhaustion bottom despite 30m RSI 14. Fresh long = knife-catch into crowded longs (L/S 1.92, bias -0.32) with no reversal confirmation; fresh short = late-short into oversold at VWAP against bullish 4h (score 0.9), the account's proven loser. US cash closed = gap risk. HOLD; arm long on reclaim of the 105.0-105.15 shelf.",
+    "portfolio": "HOOD: HOLD (conf 0.60) -- oversold but no bounce confirmation, crowded longs; wait for reclaim of 105.15."
+  },
+  "timestamp": "2026-07-22T22:33:25.760653+00:00"
+}

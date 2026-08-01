@@ -1,0 +1,24 @@
+{
+  "symbol": "BTC/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.55,
+  "entry": 64179.4,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "size": 0.0,
+  "playbook": "none",
+  "rationale": "BTC sits mid-range (61.3k support, 64.7k resistance) with weak composite (+0.36, 44.5% conf) and RSI 45.5 -> no actionable extreme and no confirmed breakout under the 64703 ceiling. Account history shows high-ADX trend/long entries bleeding (~-3R avg), so chasing continuation into resistance with June CPI ~40h away is negative expectancy. Wait for a clean break: hold above 64703 flips long on the measured move, loss of 61272 opens a short.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 64703,
+    "expires_min": 240,
+    "note": "Decisive reclaim/hold above 64703 range resistance confirms breakout -> flip HOLD to long on measured move."
+  },
+  "transcript": {
+    "macro": "Regime NEUTRAL-to-RISK-ON (2026-07-12). BTC ~$64.2k, mildly constructive (4h long, blended +0.36) but not trending hard. Funding neutral (+0.000036), L/S 1.34 (not crowded), OB imbalance +0.75 (bid-heavy). June CPI Jul 14 08:30 ET (~40-48h) is a genuine binary that can gap BTC either way; FOMC Jul 28-29 outside window.",
+    "sentiment": "BTC NEUTRAL-to-bullish: rallied ~10% early July off a 21-month low (~$58k -> ~$64k) on stabilizing ETF inflows and dovish repricing after weak jobs report. Sentiment improving but not euphoric. Near-term swing factor is June CPI Jul 14 -> respect the risk.",
+    "analyst": "Mid-range chop ~$500 under 64703 resistance; not extended enough to fade nor pulled back to buy, and no breakout trigger. Account trend/long playbook losing (~41%/45% win). No edge into a CPI binary; HOLD and wait for a clean level break.",
+    "portfolio": "HOLD BTC - mid-range chop under resistance, no edge into CPI; trade only a clean 64703 breakout or 61272 breakdown."
+  },
+  "timestamp": "2026-07-12T19:32:28.033633+00:00"
+}

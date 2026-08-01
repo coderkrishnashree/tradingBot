@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "SOL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Extended above the upper band (%B 1.05, RSI 82, +2.3% VWAP) and stalling at 76.8-77.1 resistance; expect a mean-reversion dip toward 75.3-75.6 over the next few bars, or a shallow chop under 78.86 into FOMC - no clean edge either way right now.",
+  "expectancy_note": "Long here is a chase (p(win)~0.45, poor R:R with %B>1 and L/S 2.8 crowded); blind short into ADX 68 uptrend is negative-expectancy. Waiting for a 75.3 retest gives ~2R with an honest stop - highest expectancy is patience.",
+  "rationale": "SOL is pure BTC-beta (corr 0.85) and UNDERPERFORMING BTC (RS -8.8%) despite the ETF catalyst, so the constructive story is not translating into relative strength. It is extended (RSI 82, %B 1.05, +2.3% VWAP), crowded long (L/S 2.8), and its driver BTC is itself overheated into resistance with a binary FOMC Jul 28-29 inside the window. Chasing a long now is the account's proven #1 loss pattern; there is no clean short trigger against ADX 68. HOLD and wait for a pullback-reclaim.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 75.3,
+    "expires_min": 240,
+    "note": "A dip and hold at the 75.3 VWAP/shelf offers a low-risk trend-continuation long (stop under 74.9, target 77+); crossing back down there is where the setup re-arms."
+  },
+  "transcript": {
+    "macro": "REGIME: RISK-OFF/MIXED, defensive. FOMC Jul 28-29 inside window (binary). SOL 0.85 correlation to BTC - pure BTC-beta this cycle. BTC firm but overheated (RSI 78-82, into resistance). Alts not running (dominance 56.3%).",
+    "sentiment": "RISK-OFF/EVENT-GRIDLOCKED, but SOL has the one clean bullish catalyst: Morgan Stanley spot SOL ETF got NYSE Arca approval Jul 24 (0.14% fee, staking), positive daily ETF inflows all July, Alpenglow upgrade pending Q3. Still Fed/BTC-correlated (0.85).",
+    "analyst": "Despite the ETF catalyst SOL is UNDERPERFORMING BTC (RS -8.8%) and extended (RSI 82, %B 1.05 above the band, +2.3% VWAP, crowded L/S 2.8); its driver BTC is overheated into resistance with a binary FOMC. Long is the #1 loss pattern chase; no clean short vs ADX 68. HOLD; long re-arms on a pullback-reclaim at 75.3.",
+    "portfolio": "HOLD SOL - extended BTC-beta underperformer despite ETF news; buy the dip at ~75.3."
+  },
+  "timestamp": "2026-07-27T00:08:26.266144+00:00"
+}

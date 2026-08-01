@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "NVDA/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.55,
+  "playbook": "none",
+  "forecast": "Price already V-reclaimed the 198.1 flush low back to 202.5; expect chop between 200 and 204 over the next 2-4 bars as the oversold-4h/bouncing-15m tug-of-war resolves, with no clean edge until it breaks 204 (bounce extends toward 206-208) or loses 198.1 (flush resumes toward 195).",
+  "expectancy_note": "p(win) ~0.5 either way here; shorting now is a late entry into an active V-bounce (the account's #1 loser), going long fights ADX-99 risk-off semis + NFP gap risk - both sub-1.5 R:R from mid-range, so HOLD is highest expectancy.",
+  "rationale": "NVDA flushed to 198.1 on heavy volume then fully reclaimed it within two 15m bars back to 202.5, so support held and short-term composites (15m/30m) flipped long - price is now mid-range (198.1 support / 213.96 resistance), not at any extreme. Shorting into a fresh bounce with recovering RSI is the exact late-short pattern this book bleeds on, while going long against a violent 4h downtrend in a risk-off semis regime with NFP gap risk tonight has no confluence. Thin tokenized-equity book (OI 16.5k) adds slippage/stop-run risk, reinforcing patience. No trade with positive expectancy exists here; wait for a level to be proven.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 198.1,
+    "expires_min": 240,
+    "note": "Losing the reclaimed flush low invalidates the V-bounce and reopens the downtrend for a clean short toward 195."
+  },
+  "transcript": {
+    "macro": "RISK-OFF, semis-led. Nasdaq -1.6%, PHLX Semi in bear market after TSMC raised 2026 capex to $60-64B ('sell the AI trade'). NVDA ADX 99, RSI 27, directly in AI-capex crosshairs; deeply oversold but stretched. Favors shorts/fading bounces; size smaller. Thin tokenized-equity OI (NVDA 16.5k) gaps hard. NFP Thu Jul 18 08:30 ET overnight gap risk. NVDA earnings ~Aug 26 (not near-term).",
+    "sentiment": "NVDA center of the storm, -3-4% on TSMC capex read-through. No own earnings near-term; driver 100% chip-sector risk-off - fresh and still moving. BEARISH near-term but already extended/oversold intraday. F&G 27.",
+    "analyst": "NVDA flushed to 198.1 and fully V-reclaimed it in two bars to 202.5; support held, 15m/30m flipped long, price mid-range (198.1 sup / 213.96 res), not at an extreme. Shorting a fresh bounce with recovering RSI is the account's classic late-short loss; long fights a violent 4h downtrend + risk-off semis + NFP. Thin book adds slippage. No +EV trade; wait for 204 break or 198.1 loss.",
+    "portfolio": "NVDA \u2014 HOLD (0.55): flush fully reclaimed, mid-range chop; no edge until 204 breaks or 198.1 fails."
+  },
+  "timestamp": "2026-07-17T14:08:53.841658+00:00"
+}

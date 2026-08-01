@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "BTC/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price stalling in the 65450-65570 zone under 65769 resistance with drying volume (996->420->297->220->145) and stoch pegged at 88; expect chop/fade back toward 65200-65350 VWAP rather than a clean break. No edge until it loses 65145 or reclaims 65769.",
+  "expectancy_note": "p(win)~0.5 either way: long chases into resistance (%B 0.91, stoch 88, +1.15% VWAP) and short has no confirmation with ADX 26; HOLD beats both, and shorts are this account's losing pattern (47 trades, 47% win, -1.01 avg).",
+  "rationale": "BTC is coiling just under 65769 resistance in a weak-ADX (26.3), risk-OFF tape with neutral structure (+0.03 bias) and short-term overbought oscillators \u2014 a coin-flip with no honest R:R. A long would chase an extended move into a hard level; a short lacks a rejection trigger and matches the account's proven bleed pattern. Waiting for the range to resolve at a real level is the highest-expectancy play; size zero.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 65769,
+    "expires_min": 240,
+    "note": "A 15m close above 65769 clears the range top and turns this into a valid breakout long toward the next level; below that it stays chop."
+  },
+  "transcript": {
+    "macro": "Risk-OFF/defensive, hawkish Fed. BTC ~$64-65k, chopping/soft, Fear&Greed ~29 (fear), trading WITH the equity selloff. Scan: funding tiny/neutral, L/S 1.334, orderbook +0.51 -> structure_bias barely +0.03 (not crowded, no momentum). Reduce size, no heroics.",
+    "sentiment": "BTC no dated 48h binary. ~$65k, +4% on week but extreme-fear regime persists; top-buyer cohort ($75k-$126k) underwater = overhang. Standard Chartered $100k year-end (long-horizon noise), CLARITY Act chatter. Neutral-to-cautious; tracks the risk tape.",
+    "analyst": "BTC 65518.5: ADX 26.3 (weak/chop), RSI 59.3, stoch 88 (ST overbought), bb_pctb 0.913, vwap_dist +1.15%; resistance 65769 (~$251 above), support 61777. structure_bias +0.03 neutral. Last bars stall under resistance with fading volume \u2014 not a clean breakout. Long chases into resistance; short has no rejection + weak ADX + is the book's losing bucket. Coin-flip -> HOLD; breakout above 65769 is the informative flip.",
+    "portfolio": "BTC \u2014 HOLD (conf 0.60): coiling under 65769 in weak-ADX chop; breakout long only above 65769."
+  },
+  "timestamp": "2026-07-21T05:18:10.716013+00:00"
+}

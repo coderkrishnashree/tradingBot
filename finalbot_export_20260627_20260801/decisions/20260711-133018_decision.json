@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "GOOGL/USDT:USDT",
+  "size": 0.0,
+  "entry": 357.53,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.58,
+  "playbook": "none",
+  "forecast": "Thin off-hours tape into 5m RSI 8.1 (deeply oversold) argues for a small mean-reversion bounce from 357.53 up toward VWAP ~359.3 over the next 2-6 bars before the 4h downtrend can resume; shorting the lows now gets stopped by that bounce.",
+  "expectancy_note": "p(win) on a market short here ~0.40 (RSI 8 bounce risk, thin liquidity); trend-playbook shorts are 44% win / -2.89 avg pnl on this book. Best EV is to wait for the bounce to VWAP where an honest short has R:R>1.5.",
+  "rationale": "4h trend (ADX 60, down) and crowded-long structure (L/S 1.848) favor shorts, but the 5m RSI at 8.1 with the last bar closing on its low on near-zero volume is textbook exhaustion \u2014 a market short here is exactly the account's #1 loser (late short into stretched tape). Off-hours liquidity is thin/gappy and CPI lands Tuesday, so I want a retest of VWAP/broken 358 before pressing short, not a chase at the lows. Holding preserves capital and lets the trigger arm the trade at a real level.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 359.3,
+    "expires_min": 240,
+    "note": "A bounce reclaiming VWAP ~359.3 gives the honest short entry against the 4h downtrend with a tight stop above 360.5 toward support 351.78 \u2014 that is where R:R and the crowded-long fade line up."
+  },
+  "transcript": {
+    "macro": "2026-07-11 regime NEUTRAL-to-HOSTILE for risk. Equities firm but jittery (S&P ~7543, Nasdaq ~26200), tech-sensitive; 10Y at multi-decade highs. Event risk: June CPI Tue 07/14 + Warsh testimony; CPI hot +4.2% y/y, ~61% priced Sept HIKE \u2014 trim size. GOOGL (tokenized equity, btc_corr 0.13): last 357.53; rel-strength -1.91% vs BTC; 4h trend DOWN, RSI 39.8, ADX 60 (clean downtrend); structure_bias -0.29, L/S 1.848 (crowded long = short fuel), OB -0.12; liquidity thin/gappy off US hours; earnings 07/22. Longs HOSTILE, shorts SUPPORTIVE.",
+    "sentiment": "GOOGL mildly BULLISH structurally but NO <=48h catalyst. Strong Buy consensus (~28/33), avg PT ~$382 vs ~$357 spot. Earnings binary Wed 07/22 after close (outside horizon). Near-term newsflow neutral-to-slightly-negative: EU court dismissed final antitrust appeal 07/02 (~\u20ac4.1B fine), pending US adtech remedies (possible AdX divestiture) \u2014 long-horizon overhangs. It's a stock: US open/closed hours matter (thin off-hours).",
+    "analyst": "Trend (4h ADX 60 down) and crowded-long structure (L/S 1.848) favor a short, but 5m RSI at 8.1 with last bar closing on its low on near-zero off-hours volume is textbook exhaustion \u2014 a market short into the lows is the book's #1 loser (late short into stretched tape). ATR ~$3, support only ~$5.75 away, thin/gappy liquidity, CPI Tuesday. Honest short lives on a bounce to VWAP ~359.3, not here. Best EV = HOLD; arm short-on-bounce above 359.3.",
+    "portfolio": "GOOGL/USDT:USDT \u2014 HOLD (conf 0.58): short-biased structure but 5m RSI 8 exhaustion + thin off-hours tape; wait for a VWAP bounce ~359.3 to short, don't chase the lows."
+  },
+  "timestamp": "2026-07-11T13:30:18.649255+00:00"
+}

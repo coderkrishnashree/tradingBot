@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "NVDA/USDT:USDT",
+  "size": 0.0,
+  "entry": 207.6,
+  "stop_loss": 208.7,
+  "take_profit": 203.5,
+  "confidence": 0.5,
+  "playbook": "trend",
+  "forecast": "Price just bounced off 205.34 and is ticking up (205.78->206.32); expect a corrective bounce toward VWAP/prior support-turned-resistance 207.5-208.0 over the next 2-5 bars, which is where the down-trend should resume \u2014 not a fresh leg down from here.",
+  "expectancy_note": "Market-shorting 206.3 into a live oversold-1h (RSI 26.9) bounce with VWAP only 0.8% away is the account's proven loser (shorts 0.49 win, -0.74 avg); waiting to short the 207.6 retest gives ~1.1 risk to ~4.1 reward (R:R ~2.8) vs chasing into the bounce.",
+  "rationale": "NVDA is cleanly short-aligned (blended -0.63, ADX 82, 4h down, L/S 1.524 crowded-long) but the 15m candles show price bouncing off 205.34 right now, and 1h RSI 26.9 flags an oversold snap-back \u2014 exactly the tape that stops out late shorts. US cash is closed (thin/gappy) so size down. The high-expectancy move is to short the bounce into VWAP ~207.6, not to chase 206.3; until price retests that level a short has poor entry and a hold is the best call.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 207.6,
+    "expires_min": 240,
+    "note": "A bounce back to VWAP / broken-support-turned-resistance 207.6 is the retest where the downtrend resumes with a tight stop above 208.7 \u2014 that is the shortable entry, so re-debate to arm the short."
+  },
+  "transcript": {
+    "macro": "REGIME: HOSTILE-to-MIXED for longs, SUPPORTIVE for shorts. Semiconductor/AI-led risk-off tape. Jul 16: Nasdaq -1.47%, SMH ~-4%. TSM raised FY capex to $60-64B. Oil spiking. Hawkish rate tail (FOMC Jul 29, Waller). BTC correlation LOW \u2014 equity beta. Funding 0.0. US cash CLOSED overnight \u2014 thin/gappy until 09:30 ET. NVDA: short-aligned (blended -0.63, ADX 82, RSI 33, 4h down), L/S 1.524 crowded-long (contrarian short), RS +1.0%. Semi selloff tailwind; main risk oversold 1h RSI 26.9 bounce. SUPPORTIVE for shorts, size normal-to-light.",
+    "sentiment": "OVERALL: Risk-off in semis/AI \u2014 valuation/capex scare, not weak demand. Fed headwind. NVDA (short): No company catalyst until late-Aug earnings \u2014 July hinges on macro/peers. Caught in the semi drawdown; TSM capex scare + hawkish Fed pressure it. Longer-horizon bullish story NOT a 48h input. Near-term mildly BEARISH, supports short; beware sharp dip-buy bounces.",
+    "analyst": "Cleanly short-aligned (blended -0.63, ADX 82, 4h down, L/S 1.524) but 15m candles show price bouncing off 205.34 now and 1h RSI 26.9 flags an oversold snap-back \u2014 the tape that stops late shorts. US cash closed (thin/gappy). High-expectancy move: short the bounce into VWAP ~207.6, not chase 206.3. HOLD until the 207.6 retest arms the short (stop 208.7, target 203.5, R:R ~2.8).",
+    "portfolio": "NVDA: HOLD (conf 0.50) \u2014 short thesis intact but don't chase the oversold bounce; arm short on 207.6 VWAP retest."
+  },
+  "timestamp": "2026-07-17T00:05:40.867092+00:00"
+}

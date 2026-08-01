@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "QQQ/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Price is consolidating 694.3-695.9 just above 688 support after a stretched 4h decline (RSI 22, -1.48% below VWAP); over the next few bars I expect chop/basing, with a weekend-gap coin-flip Monday rather than a clean directional move now.",
+  "expectancy_note": "Short = chasing an extreme-oversold, sub-VWAP move (bounce would stop it); long = fighting risk-off 'sell rallies' + weekend down-gap risk; neutral funding/L-S gives no fade edge - both sides sub-50% p(win), so flat is best expectancy.",
+  "rationale": "QQQ is a tokenized ETF trading on a closed-market weekend (thin, gappy) and is deeply oversold on 4h (RSI 22.4, ADX 79) already 1.48% under VWAP and only ~1% above 688 support - exactly the extended-continuation trap that stops late shorts on a routine bounce, while a long fights the risk-off tape and down-gap risk. Composite confidence is only 43% with learned p_win 0.386, and funding/long-short are neutral so there is no crowding or fade edge to lean on. No 48h binary catalyst; the highest-expectancy action is to wait for either a clean 688 break (fresh downside trigger) or a VWAP reclaim (bounce trigger).",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 688.0,
+    "expires_min": 240,
+    "note": "Losing the 688 support that has held all consolidation confirms downtrend continuation and opens a lower-risk short with the stop back above 688."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF, semiconductor/AI-capex scare; 'sell rallies in tech' tape, shorts better aligned than longs. US cash CLOSED Sat, reopen Mon Jul 20 - tokenized equities thin/gappy, Monday gap risk; reduce size on all equity tokens. QQQ direct proxy for the broken Nasdaq; scan short, 4h RSI 22.4 (deeply oversold), ADX 79 (strong downtrend). Regime supports downside continuation BUT oversold + weekend illiquidity = bounce/gap risk both ways; small size.",
+    "sentiment": "QQQ bearish, directly in the selloff. No single-name catalyst; it IS the tape - trades with the semi rout + Netflix -10% drag; QQQ -1.5% Friday. Scan RSI 22 (4h) deeply oversold so a dead-cat bounce is possible, but tone is bearish. No macro binary (FOMC/CPI) inside 48h.",
+    "analyst": "Tokenized ETF on a closed-market weekend (thin/gappy), deeply oversold 4h (RSI 22.4, ADX 79), 1.48% under VWAP, only ~1% above 688 support - late-short bounce trap; long fights risk-off + down-gap risk. Composite conf only 43%, learned p_win 0.386, funding/L-S neutral (no fade edge). No 48h binary. Wait for a clean 688 break or a VWAP reclaim.",
+    "portfolio": "HOLD QQQ (conf 0.50) - deeply oversold into a closed-market weekend, no edge either side; arm short on a decisive break of 688."
+  },
+  "timestamp": "2026-07-18T19:15:09.204859+00:00"
+}

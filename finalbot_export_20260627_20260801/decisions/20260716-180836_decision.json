@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "COIN/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.62,
+  "playbook": "none",
+  "forecast": "Price is mid-range at 162 grinding lower on faded volume; expect it to chop 160.5-164 over the next few bars. A clean break below the 160.1 session low opens 157/154.3 support; failure there and a reclaim of 164.5 resumes the 4h uptrend.",
+  "expectancy_note": "Mid-range chop (ADX 24, %B 0.51, VWAP flat) offers no edge; shorting into positive structure_bias (+0.20, crowd already short, bid-heavy book +0.31) is the account's losing pattern (shorts win 0.52, avg -0.52R). Best expectancy is to wait for the level.",
+  "rationale": "Lower TFs are short but the mid-TF has no trend (ADX 24) and price sits dead mid-range with no extreme to fade and no support to buy. The 4h is still up (+0.35, RSI 64) and structure is contrarian-bullish (L/S 0.627 = crowd short, orderbook +0.31), so pressing a short here has negative expectancy per the learner stats. No <=48h catalyst (earnings Jul 30, USDC renewal Aug 18 both outside window). Wait for a decisive break to trade with momentum rather than chase chop.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 160.1,
+    "expires_min": 240,
+    "note": "Losing the 160.1 session low confirms a real breakdown out of the mid-range, validating a short toward 157/154.3 with momentum instead of fading into contrarian-bullish structure."
+  },
+  "transcript": {
+    "macro": "REGIME mixed, tilting risk-off. Softer June CPI eased Fed-hike fears, BTC 3-week high ~$64.7-65k. Nasdaq rolling over on semis weakness, oil+yields up on US-Iran/Hormuz escalation. Crypto F&G 26 (Fear), BTC dominance ~56-60%. COIN: STAY OUT / marginal short \u2014 lower TFs short but 4h up, L/S 0.627 crowd SHORT (contrarian-bullish), corr BTC 0.65. Chop/fade, no clean edge.",
+    "sentiment": "COIN (Coinbase): neutral-to-constructive, no <=48h binary. Stock +19% in 5 days to ~$158-165, analysts bullish. Earnings Jul 30 and Aug 18 USDC revenue-share renewal both outside window. Backer of Open USD consortium. Trades off crypto beta (BTC ~$64k, corr 0.65). Near-term news neutral.",
+    "analyst": "COIN at 162, mid-range (%B 0.51), ADX 24 = chop/weak trend. Lower TFs short (15m -0.88, 1h RSI 34) but 4h up (+0.35, RSI 64). Structure contrarian-bullish: L/S 0.627, orderbook +0.31, structure_bias +0.20. Learner: shorts n=33 win 0.52 avg -0.52R; positive structure_bias argues against shorts. No edge, no <=48h catalyst. HOLD; reconsider on break below 160.1.",
+    "portfolio": "COIN: HOLD (0.62) \u2014 mid-range chop, contrarian-bullish structure vetoes a short; wait for break of 160.1."
+  },
+  "timestamp": "2026-07-16T18:08:36.627219+00:00"
+}

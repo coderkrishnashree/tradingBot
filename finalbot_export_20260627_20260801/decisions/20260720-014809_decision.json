@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "MSTR/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.55,
+  "playbook": "none",
+  "forecast": "Coiling 95.6-96.0 after rejecting 96.65; in thin weekend tape likely chops/drifts back toward VWAP ~94.0 before any clean continuation.",
+  "expectancy_note": "Long now = chasing +2.09% over VWAP into BTC resistance on the weaker proxy (RS -3.12%), thin weekend liquidity; p(win) ~0.45, R:R poor.",
+  "rationale": "MSTR is levered BTC beta (corr 0.743) but lagging (RS -3.12%), and BTC is itself stretched right under 65566 resistance with RSI 67/stoch 80. Hot 15m/30m scores reflect a pop already spent \u2014 price rejected 96.65 and sits +2.09% above VWAP with US equities closed (thin/gappy). Chasing this extended move is the classic late-continuation loss; wait for a VWAP retest to buy or a clean 96.65 reclaim. HOLD.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 96.65,
+    "expires_min": 240,
+    "note": "Reclaiming the 96.65 rejection high on volume confirms continuation."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF (2026-07-20 Mon), semiconductor de-rating (SOX ~-20% off June peak), rotation OUT of chips/tech INTO financials/energy. US equity market CLOSED (weekend) \u2014 tokenized pairs thin/gappy, gap risk. FOMC 7/28-29 (outside 48h). June CPI (7/14) soft but digested. Crypto is the lone risk-on pocket: BTC ~$64.8k (+4% wk), liqs 82.6% shorts (squeeze), funding modest, BTC.D ~56-60%, resistance $65,566. MSTR is BTC proxy (corr 0.743) \u2014 crypto its tailwind, not equities.",
+    "sentiment": "Only imminent <=48h binaries are TSLA & GOOGL earnings Wed 7/22 (after close). MSTR earnings 7/30 (outside window); trades as levered BTC beta, no standalone catalyst; Strategy just did largest-ever BTC sale ($216M). Crypto F&G ~26 recovering. Neutral near-term; follow BTC.",
+    "analyst": "BTC-beta proxy but relative strength negative (-3.12%), so weaker horse vs a BTC that is itself extended (RSI 67, stoch 80) into resistance 65566. 15m/30m scores hot but that's the pop already spent \u2014 price rejected 96.65, +2.09% over VWAP, US market closed/thin. Entering a long now chases an extended move in a thin weekend tape into BTC resistance on the weaker proxy \u2014 the account's #1 loss pattern. No clean pullback yet. HOLD.",
+    "portfolio": "HOLD \u2014 extended BTC-proxy into resistance on thin weekend tape; wait for VWAP dip or 96.65 reclaim."
+  },
+  "timestamp": "2026-07-20T01:48:09.393198+00:00"
+}

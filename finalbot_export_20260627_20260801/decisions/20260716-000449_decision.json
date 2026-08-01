@@ -1,0 +1,28 @@
+{
+  "symbol": "XAUT/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.6,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "none",
+  "forecast": "Low-vol grind: price rejected 4056/4057 and is bleeding back toward VWAP ~4050; expect continued chop 4042-4056 until 4042 support or 4058 breaks.",
+  "expectancy_note": "No edge either way: long fights a 2.79 crowded book + USD headwind, short from mid-range 4051 has no level and only ~0.67% ATR to 4042 (R:R <1). HOLD beats both; the real short trade arms on a 4042 break.",
+  "rationale": "XAUT sits mid-range (support 3981 / resistance 4136), at VWAP (+0.29%), with tiny 0.67% ATR and squeezed BB width 2.38 - a grind, not a trend. Last six 15m bars faded off 4056/4057 back toward 4050; no structural level to trade against here and R:R poor both directions. Crowded long (L/S 2.79) plus USD/rates headwind bias the eventual break lower, but won't short mid-air into the Iran safe-haven bid - waits for 4042 to confirm the unwind.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 4042,
+    "expires_min": 240,
+    "note": "Losing swing-low 4042 confirms the crowded-long unwind and opens a clean short toward 4030/support; reclaiming above 4058 negates the fade."
+  },
+  "transcript": {
+    "macro": "Regime MIXED, risk-on but fragile: hawkish/possible-hike Warsh Fed (~60% odds of 25-50bp HIKE by Oct) + firm USD from US-Iran escalation. XAUT last ~4051, spot gold ~$4,060 flat, capped by firm DXY/rising real yields. L/S 2.79 = VERY crowded long, funding barely positive, OI 33k, ATR 0.67% (grind). MIXED-to-HOSTILE for fresh longs; shorts have positioning tailwind but fight the Iran bid.",
+    "sentiment": "Gold corrective ~$4,030-4,040, ~28% off Jan ATH on hot US inflation + hawkish repricing. June CPI hot Tue Jul 14 (digested). FOMC Jul 28-29 OUTSIDE 48h. No binary inside 24-48h. Bias mildly bearish/rangebound; watch DXY + Middle East. Neutral-to-slightly-negative for a long.",
+    "analyst": "Mid-range at VWAP, tiny 0.67% ATR, squeezed BB - a grind. Last six 15m bars faded off 4056/4057 to 4050. No level to trade against; R:R poor both ways. Crowded long + USD headwind bias eventual break lower, but won't short mid-air into Iran bid - waits for 4042 break.",
+    "portfolio": "XAUT: HOLD (conf 0.6) - no edge mid-range; short arms on a break below 4042."
+  },
+  "timestamp": "2026-07-16T00:04:49.628609+00:00"
+}

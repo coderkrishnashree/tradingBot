@@ -176,6 +176,75 @@ def funding_guard(symbol: str, is_long: bool) -> str | None:
     return None
 
 
+def entry_discipline_guard(decision: dict, symbol: str, is_long: bool, cfg: dict) -> str | None:
+    """The 2026-08 fixes from the losing-month analysis. Entries only — closes
+    are never blocked. Returns a human-readable block reason, or None to allow.
+
+      (a) US-open blackout: fresh entries during the open-bell window lost
+          -79 USDT in <1h stop-outs last month. Crypto pairs are exempt.
+      (b) Asymmetric short gate: shorts ran 42% WR vs longs 62%; a short now
+          needs extra AI conviction, must not chase an oversold tape (RSI
+          floor), and blocklisted symbols (MSTR: 1W/8L, -49) can't be shorted.
+      (c) Learner direction veto: when this account's own record for a
+          direction is provably negative, only exceptional AI confidence can
+          override it — the stats file stops being advisory.
+    """
+    from datetime import datetime, timezone
+    ai_conf = _num(decision.get("confidence"))
+
+    # (a) US-open blackout ---------------------------------------------------
+    win = str(cfg.get("entry_blackout_utc", "") or "").strip()
+    exempt = set(cfg.get("blackout_exempt") or [])
+    if win and "-" in win and symbol not in exempt:
+        try:
+            lo, hi = (s.strip() for s in win.split("-", 1))
+            now_hm = datetime.now(timezone.utc).strftime("%H:%M")
+            if lo <= now_hm < hi:
+                return (f"{symbol}: entry deferred — US-open blackout {win} UTC "
+                        f"(fast stop-outs cluster at the bell; re-evaluated next cycle).")
+        except Exception:
+            pass
+
+    # (b) asymmetric short gate ----------------------------------------------
+    if not is_long:
+        if symbol in set(cfg.get("short_symbol_blocklist") or []):
+            return f"{symbol}: SHORT blocked — symbol is on the short blocklist."
+        min_conf = float(cfg.get("short_min_ai_conf", 0) or 0)
+        if min_conf > 0 and ai_conf is not None and ai_conf < min_conf:
+            return (f"{symbol}: SHORT blocked — AI confidence {ai_conf:.2f} below the "
+                    f"short floor {min_conf:.2f} (shorts need extra conviction here).")
+        min_rsi = float(cfg.get("short_min_rsi", 0) or 0)
+        rsi = _num((_scan_row(symbol).get("indicators_ref") or {}).get("rsi"))
+        if min_rsi > 0 and rsi is not None and rsi < min_rsi:
+            return (f"{symbol}: SHORT blocked — RSI {rsi:.0f} < {min_rsi:.0f}: tape is "
+                    f"already oversold; shorting it here is chasing the snap-back.")
+
+    # (c) learner direction veto ---------------------------------------------
+    if cfg.get("learner_direction_veto", True):
+        try:
+            import json as _json
+            from . import learner
+            st = _json.loads(learner.STATS_PATH.read_text())
+            d = (st.get("by_direction") or {}).get("long" if is_long else "short") or {}
+            n = int(d.get("n") or 0)
+            wr = float(d.get("win_rate") or 0)
+            avg = float(d.get("avg_pnl") or 0)
+            if (n >= int(cfg.get("learner_veto_min_n", 20) or 0)
+                    and wr < float(cfg.get("learner_veto_wr", 0.50) or 0)
+                    and avg < 0):
+                need = float(cfg.get("learner_veto_override_conf", 0.75) or 0)
+                if ai_conf is None or ai_conf < need:
+                    side = "long" if is_long else "short"
+                    got = f"{ai_conf:.2f}" if ai_conf is not None else "n/a"
+                    return (f"{symbol}: {side.upper()} blocked by learner veto — this "
+                            f"account's {side}s run {wr * 100:.0f}% WR / {avg:+.2f} avg "
+                            f"over {n} trades; needs AI confidence ≥ {need:.2f} to "
+                            f"override (got {got}).")
+        except Exception:
+            pass
+    return None
+
+
 def _scan_row(symbol: str) -> dict:
     """The latest scan row for a symbol (ATR%, features, structure)."""
     try:
@@ -290,6 +359,15 @@ def execute_decision(decision: dict, decision_file: str | None = None) -> Execut
     f_msg = funding_guard(symbol, is_long)
     if f_msg:
         return _fail(f_msg)
+    g_msg = entry_discipline_guard(decision, symbol, is_long, cfg)
+    if g_msg:
+        if decision_file:
+            db.set_decision_status(decision_file, "reviewed")
+        try:
+            db.add_alert("info", "gate", g_msg, symbol=symbol)
+        except Exception:
+            pass
+        return _fail(g_msg)
 
     # If a position is already OPEN, don't stack another entry onto it.
     try:

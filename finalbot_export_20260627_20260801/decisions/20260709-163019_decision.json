@@ -1,0 +1,22 @@
+{
+  "action": "short",
+  "symbol": "MSTR/USDT:USDT",
+  "size": 1.5,
+  "entry": 95.9,
+  "stop_loss": 97.35,
+  "take_profit": 92.4,
+  "take_profit_1": 92.4,
+  "take_profit_2": 90.0,
+  "confidence": 0.56,
+  "playbook": "trend",
+  "forecast": "Short-covering pop to 96.86 has been rejected; last 15m bar closed at its dead low (94.64) with 5m RSI 26.7 rolling back over. Expect a dead-cat retest of 95.8-96.2 (fill the limit), then resumption lower to retest 92.4-93.0 within 3-6 bars; loss of 94.1 shelf accelerates it.",
+  "expectancy_note": "Limit into the faded bounce: risk ~1.45 to stop above the rejected high, reward ~3.5 to TP1 (R:R ~2.4, p(win) ~0.55). A market short at 94.6 would need the same ~2.6 wide stop for only ~2 of reward (R:R <1) - the limit is the only positive-expectancy way to express this short.",
+  "rationale": "Weakest name in book (-16% rel strength), forced BTC seller, long-heavy positioning (1.43) and flat funding all favor the short, and the bounce has already faded with price closing at lows. But 4h RSI 30.5 plus 3.03% ATR and 0.79 BTC-beta mean a naked market short risks getting squeezed to any honest stop; a limit at 95.9 lets the dead-cat pay for a stop just above the 96.86 rejection. Size kept small (1.5%) given wide vol and squeeze risk. If the limit never fills, no harm - the trade only triggers on the bounce I'm fading.",
+  "transcript": {
+    "macro": "Regime risk-off/defensive, hawkish Warsh Fed, crypto risk appetite POOR, BTC low-$60Ks. MSTR now a NET SELLER of BTC (sold 3,588 BTC/~$216M Jun 29-Jul 5 to fund preferred dividends), treasury underwater vs ~$75K cost basis, premium-issuance flywheel stalled - structural negative. Net bias SUPPORTIVE for the short (weakest name, forced seller, positioning leans short) BUT it's a 0.79 BTC-beta short in high vol; size SMALL, respect BTC-bounce squeeze risk.",
+    "sentiment": "MSTR BEARISH - strongest catalyst-backed name, favors the short. Saylor REVERSED 'never sell' doctrine (Digital Credit Capital Framework), largest-ever BTC sale, ~17% of sale capacity already used = structural sentiment-negative shift. BTC ~$62.8K, Fear & Greed 22 (extreme fear), worst relative strength (-16%), RSI 30.5, deep below VWAP (-3.8%). Citi Buy/$260 long-horizon, ignore. Two-sided risk: extreme-fear exhaustion; any BTC bounce lifts MSTR hard (squeeze).",
+    "analyst": "Weakest name (-16% rel strength), forced BTC seller, long-heavy (1.43), flat funding all favor short; bounce already faded, price closing at lows. But 4h RSI 30.5, 3.03% ATR, 0.79 BTC-beta -> naked market short gets squeezed to any honest stop. Express as LIMIT short at 95.9 into dead-cat retest: risk ~1.45 to stop 97.35 above the 96.86 rejection, reward ~3.5 to TP1 92.4 (R:R ~2.4). Small 1.5% size for wide vol/squeeze risk. No fill = no harm.",
+    "portfolio": "SHORT MSTR - limit 95.9 into the faded bounce (R:R ~2.4); best catalyst support in the basket, small size for BTC-beta squeeze risk."
+  },
+  "timestamp": "2026-07-09T16:30:19.440252+00:00"
+}

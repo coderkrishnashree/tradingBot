@@ -1,0 +1,25 @@
+{
+  "symbol": "GOOGL/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.35,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "forecast": "Thin closed-market chop: price grinds the 326.2-327.5 coil around VWAP into Monday; no directional edge until the cash open. Continued rejection at 327.5, defense of 326.2, occasional gappy wicks.",
+  "rationale": "GOOGL is a tokenized equity trading Sunday-night thin/gappy with US cash closed and FOMC Wed (hawkish tail), so structure metrics are low-signal and gap risk is high. The 15m tape is a flat coil (rejections at 327.5, support ~326.2) with 1h/4h long but 15m/5m short - no aligned edge and no near-term level to build R:R>=1.5 against. Sitting flat and waiting for the Monday open / a decisive break of the coil is the disciplined call.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 327.9,
+    "expires_min": 240,
+    "note": "Reclaiming session high / coil top confirms the 1h/4h uptrend resuming \u2192 long on cash open; losing 326.0 opens a momentum short toward 324."
+  },
+  "transcript": {
+    "macro": "Cautious risk-off / event-gated. FOMC Wed Jul 30 hawkish tail. Scan stamped Sun 9pm ET \u2192 US cash CLOSED, thin/gappy. GOOGL: last 326.42, CROWDED LONG long/short 2.67 (contrarian short signal), funding barely neg, orderbook -0.05, structure_bias -0.259. rel-strength -12.4% vs BTC (lagging), btc_corr +0.28. Mixed TF (1h/4h long, 15m short).",
+    "sentiment": "GOOGL neutral/slightly negative (already reported). Q2 out Jul 22: rev $119.8B (+24%), Cloud +82% \u2014 strong, but shares fell ~3.6% AH on a capex hike to ~$205B and a 'significant' 2027 increase warning. No new catalyst in 48h; trades as a read-through on AI-capex skepticism + the Wed Fed.",
+    "analyst": "Price mid-range around VWAP, nearest structure 3%+ away (support 315 / resistance 360) so no honest R:R>=1.5. TFs conflict (1h/4h up vs 15m/5m down), market closed (gap risk into Monday + FOMC Wed). Crowded-long fade has poor expectancy (learner shorts 44% win, structure_bias & rel_strength negative weights); chasing the long into a stalling 15m + closed market is a bad entry. HOLD highest-expectancy; flip on a reclaim/hold above 327.9.",
+    "portfolio": "HOLD GOOGL \u2014 mid-range coil, no structure within reach on a thin closed tape; wait for 327.9 reclaim or 326.0 break."
+  },
+  "timestamp": "2026-07-28T01:07:21.719222+00:00"
+}

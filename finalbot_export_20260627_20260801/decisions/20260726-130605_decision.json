@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "ORCL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Coiling 116.0-116.5 after the 4h washout; over the next few bars expect a chop between 115.8 support and 116.5, resolving on Monday's cash open - a snap toward 118 VWAP reclaim (bounce) or a break of 113 (continuation), neither confirmed yet.",
+  "expectancy_note": "No edge either way: shorting 4h RSI 18.5 / -2.56% below VWAP is textbook chasing into squeeze risk (learner p_win 0.396); longing a -20% laggard with no catalyst into a hostile weekend gap needs confirmation the flat 15m isn't giving. R:R < 1.5 with any honest stop.",
+  "rationale": "ORCL is the most washed-out name (4h RSI 18.5, RS -20.5%) but the 15m tape has stopped falling and is coiling flat 116.0-116.5, not continuing down - so a fresh short is chasing an already-spent move (2.56% below VWAP) straight into squeeze/mean-revert risk the macro note flags. There is no basis for a long either: no catalyst until Sept, crowded-long positioning (L/S 2.58), and a hostile risk-off weekend tape with Monday cash-open gap risk. Neither direction offers R:R >= 1.5 with an honest ~1.5xATR stop, so the highest-expectancy play is to stand aside and let Monday's open pick a side.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 118.2,
+    "expires_min": 240,
+    "note": "Reclaiming 118.2 (back above the down-move's VWAP band) would confirm the oversold flush is mean-reverting and open a long toward 121-123; below 113 instead would reconfirm continuation-short."
+  },
+  "transcript": {
+    "macro": "Regime MIXED-to-HOSTILE. Sunday 2026-07-26, US cash markets closed -> tokenized perps thin/gappy; Monday-open gap risk dominant, size down. Jittery risk-off-leaning tape. Heavy earnings week 7/29-7/31. ORCL $116.13: MOST oversold/washed-out name (4h RSI 18.5, 4h MACD -2.29, RS -20.52% worst laggard). structure_bias -0.266 (long/short 2.58 crowded-long). Composite short but deeply extended to downside -> squeeze/mean-reversion risk if you short late, no basis for a long either. HOSTILE / late for shorts.",
+    "sentiment": "ORCL neutral-to-mildly-constructive fundamentally but NO near-term catalyst - earnings not until ~Sept 7. Tone mixed (Piper Sandler AI-cloud upside long-horizon; options modestly bearish early July). Scan shows deeply washed out (4h RSI 18.5, RS -20.5%) - looks like a positioning/technical flush, not a fresh news shock. No <=48h news; news neutral.",
+    "analyst": "Most washed-out name (4h RSI 18.5, RS -20.5%) but the 15m tape has stopped falling and is coiling flat 116.0-116.5 - a fresh short chases an already-spent move (2.56% below VWAP) into squeeze/mean-revert risk. No basis for a long either: no catalyst until Sept, crowded-long (L/S 2.58), hostile weekend gap risk. Neither direction is R:R >= 1.5 with an honest stop (learner p_win 0.396). HOLD; a reclaim of 118.2 opens a mean-revert long, a loss of 113 reconfirms continuation-short.",
+    "portfolio": "ORCL: HOLD (conf 0.60) - washout coiling with no confirmed side; let Monday's open pick a direction."
+  },
+  "timestamp": "2026-07-26T13:06:05.094246+00:00"
+}

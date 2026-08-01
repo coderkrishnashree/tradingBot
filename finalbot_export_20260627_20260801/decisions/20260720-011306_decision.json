@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "MSTR/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price rejected 96.65 on volume and rolled to 95.5; expect chop between 95.15 and 96.65 over 2-4 bars. Break below 95.15 opens 94.3; only a reclaim above 96.65 restores the leg toward 98.",
+  "expectancy_note": "No edge either side: long p(win)~0.45 (chasing +2% above VWAP, RS -2.91% laggard, structure -0.158, into F&G 26 + US-closed thin tape); short fights ADX 30 uptrend with bullish divergence and support at 89.95, and shorts are this account's losers. Flat is highest expectancy.",
+  "rationale": "MSTR is pure crypto-beta (74% BTC-corr) lagging BTC into a risk-OFF fear tape with US cash closed (thin/gappy). Price is extended +2.09% above VWAP after a run to 96.65 that got rejected on volume and rolled to 95.5 -- a long here is the account's #1 loss pattern, and learner weights are sharply negative on vwap_dist, structure_bias and relative_strength. A short fights a live uptrend with bullish divergence and nearby support, and shorts have bled. Size zero.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 95.15,
+    "expires_min": 240,
+    "note": "Losing 95.15 confirms the 96.65 rejection rolled the structure over, opening a short toward 94.3 with the crypto fear tape as tailwind."
+  },
+  "transcript": {
+    "macro": "OVERALL REGIME (2026-07-20, Sun -- US cash markets CLOSED, tokenized equities thin/gappy until Mon open): Mixed-to-hostile for risk. Equity tape in a semis-led pullback (Nasdaq -2.9% on week); AI-capex fear the dominant theme after TSMC hiked 2026 capex to $60-64B (MU -5.6% on read-through). Crypto risk-OFF: BTC ~$64.7k off the $65.1k 3wk high, BTC.D 56.3% (alt-unfriendly), Fear&Greed 26; the bounce was CPI/ETF-flow driven, not momentum. Mega-cap earnings begin Wed Jul 22 (GOOGL). Net: smaller size across the board; hostile for semi/AI longs (TSM, MU, SNDK) and crowded equity longs (GOOGL); mixed for BTC and COIN-short.",
+    "sentiment": "MARKET-WIDE (2026-07-20, Sun -- US markets closed, off-hours thin/gappy): Risk soured into the weekend; QQQ fell 3 straight days into Fri (~$695) on a semiconductor sell-off (positioning reset, not a broken AI cycle). FOMC Jul 28-29 (outside window). The ONLY genuine <=48h catalyst on the board is GOOGL Q2 earnings Wed Jul 22 after close -- flag for event risk, do not hold naked size through it. BTC soft-CPI-supported but still Fear (F&G ~26). TSM already reported Jul 16 (blowout, catalyst spent); COIN earnings Jul 30, SNDK Aug 5, MSTR already reported -- all outside window. PT upgrades are long-horizon noise, not tradeable.",
+    "analyst": "HOLD. Extended crypto-beta laggard chasing +2% above VWAP into Fear + closed session -- the exact conditions the learner penalizes; short fights a live uptrend. No clean edge. Reconsider on loss of 95.15.",
+    "portfolio": "HOLD -- no edge, wait for 95.15 break to short or 96.65 reclaim to long."
+  },
+  "timestamp": "2026-07-20T01:13:06.418326+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "HOOD/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Fresh 15m breakdown from the 106.5 shelf just printed a new low at 105.25 with 5m/15m/1h RSI all 26-29 (oversold); next few bars most likely produce a dead-cat bounce back toward 105.9-106.4 before any continuation, so a market short here sells the exact spot the counter-bounce hits the stop.",
+  "expectancy_note": "Short-into-oversold now = ~40% p(win), bounce hits stop first (account's #1 loser); waiting for the 106.4 retest gives ~2.5R short with p(win) ~0.6 - better expectancy than chasing.",
+  "rationale": "HOOD just broke 106.5 on a 2.5x volume, 2.3x bbw expansion, but LTF RSIs are 26-29 and price closed on its low after a fast ~1.6% drop - textbook stretched tape where a routine bounce stops out any honest short. No earnings binary until Jul 29, so no rush. This is a weak name (RS -13.3%) with a valid downside thesis, but the entry is wrong right here; wait for a retest of broken support/VWAP near 106.4 to short with a stop above 107.1 toward 104. Size 0 while flat.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 106.4,
+    "expires_min": 240,
+    "note": "A bounce back to the broken 106.4-106.5 shelf/VWAP is the honest short retest - re-engage there with stop above 107.1 targeting 104, instead of chasing the oversold breakdown."
+  },
+  "transcript": {
+    "macro": "Regime MIXED-to-CAUTIOUS. HOOD does NOT report until July 29 - no single-name earnings gap in the window (cleaner than GOOGL/TSLA/INTC), but most crypto/BTC-correlated name here (0.40). FOMC July 28-29.",
+    "sentiment": "HOOD no earnings this cycle (reports July 29). Mixed tone: launched Robinhood Chain L2 (July 1), prediction-market revenue set to top crypto; but fell ~5.7% recently on the crypto selloff. Trades on crypto beta right now. Bernstein PT $160 long-horizon, not tradable.",
+    "analyst": "Broke 106.5 on 2.5x volume / 2.3x bbw expansion, but LTF RSI 26-29 and closed on its low after a fast ~1.6% drop - stretched tape, a bounce stops any honest short. No earnings until Jul 29 so no rush. Weak name (RS -13.3%) with a valid short thesis but wrong entry; wait for the 106.4 retest, stop above 107.1, target 104. HOLD.",
+    "portfolio": "HOLD HOOD - valid downside thesis but shorting an oversold breakdown is the wrong entry; wait for the 106.4 retest."
+  },
+  "timestamp": "2026-07-22T06:33:46.156008+00:00"
+}

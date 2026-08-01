@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "XAUT/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Stalled thrust: after the 4083 spike price is coiling 4075-4079 just under resistance 4094.6; most likely a 15-30 bar drift-back to retest VWAP/4062 before any resolution. A clean long only appears on that dip-and-hold; a short only on losing 4062.",
+  "expectancy_note": "Fresh long is a chase (RSI 71, stoch 95, %B>1, +1.26% VWAP, under 4094.6 res + 4h bearish div); short fades ADX 50.9 uptrend where this account's shorts lose (0.45 wr, -1.21 avg). No positive-expectancy entry at spot.",
+  "rationale": "Price is stretched into resistance 4094.6 with a bearish 4h divergence and stochastic pegged at 95, so buying here means paying the top; a routine pullback would hit any honest stop. Shorting a 50-ADX multi-TF uptrend is the losing pattern in the learner stats (shorts -1.21 avg pnl). Best expectancy is to wait for a pullback to the 4062-4065 VWAP shelf to buy the trend, or a break below 4062 to prove the thrust failed.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 4062,
+    "expires_min": 240,
+    "note": "Losing the 4062 VWAP/consolidation shelf proves the 4083 thrust failed and opens a controlled short toward 3961 support; a hold there also becomes a trend-long dip entry."
+  },
+  "transcript": {
+    "macro": "Regime MIXED, tilting risk-on but fragile. Hawkish Fed (~80% Dec hike odds), Middle East tensions. Funding ~zero on tokenized perps -> long/short negatives noisy. Liquidity best during US cash hours. XAUT: NEUTRAL-to-cautious LONG - gold ~$4,050-4,080, holding above $4k but near nine-month lows with hawkish Fed and rising real-yield risk capping it. RSI 70.9 / stoch 95 / bearish divergence = stretched short-term. Chase risk high; small only.",
+    "sentiment": "XAUT (gold) neutral-to-mildly-constructive, no 48h binary. Holding ~$4,000-4,080, caught between Middle East safe-haven demand and firm dollar ahead of July 28-29 Fed hold (out of window). Weak June payrolls (57k) keep dovish tilt alive but no gold-moving macro release in next 48h. Overbought (RSI ~71, stoch ~95, bearish 4h divergence). Trades technicals/DXY.",
+    "analyst": "Stalled thrust: after the 4083 spike, price coils 4075-4079 under resistance 4094.6 with 4h bearish divergence and stoch 95. Fresh long is a chase; short fades a 50-ADX uptrend where the book's shorts lose (0.45 wr, -1.21 avg). No positive-expectancy entry at spot. HOLD; reconsider on a break below 4062 (short) or a dip-and-hold there (trend long).",
+    "portfolio": "HOLD XAUT - stretched into resistance, no clean entry; wait for a 4062 pullback/break."
+  },
+  "timestamp": "2026-07-21T19:31:19.447831+00:00"
+}

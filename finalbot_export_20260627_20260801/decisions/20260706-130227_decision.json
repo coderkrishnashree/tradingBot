@@ -1,0 +1,27 @@
+{
+  "action": "hold",
+  "symbol": "MSTR/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "expectancy_note": "Both sides sub-1.5 R:R here: short chases RSI-11/stoch-8 washout into a 18pt air-pocket (bounce risk); long catches a knife vs active BTC downtrend with zero reversal confirmation. Neutral structure, no crowd to fade, composite 9.7% - highest-variance lowest-edge name; flat is best expectancy.",
+  "rationale": "MSTR just broke 97.48 on real 15m vol (BBW 6.9x, vol 3.1x) and is the worst RS name (-15% vs BTC), but it is simultaneously the most washed-out (1h RSI 11.2, price -7.4% vs VWAP, bb%B -0.40). Shorting into that has awful entry location (violent relief-bounce risk into no support until 79.93), and longing fights a live breakdown plus a soft BTC (corr 0.833) with no divergence or reclaim to confirm. Structure is near-neutral (bias -0.028, L/S 1.28 not crowded), so there is neither trend-continuation edge nor a contrarian squeeze to fade - no positive-expectancy trade exists yet.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 97.48,
+    "expires_min": 180,
+    "note": "Reclaiming the broken 97.48 breakout level on the 15m proves the breakdown failed and the washout was absorbed - opens a confirmed mean-revert long toward VWAP; until then no edge either way."
+  },
+  "transcript": {
+    "macro": "Regime risk-ON for equities/semis but risk-OFF for CRYPTO (scan 12:57 UTC). Equity tape does NOT help MSTR - its driver is BTC (corr 0.833, highest in book), not Nasdaq (QQQ corr 0.417). BTC soft/fragile (~$60k, Extreme Fear). MSTR: HOSTILE backdrop, worst RS name (-15.1% vs BTC). Deeply oversold/washed out (1h RSI 11.2, 15m 17.3, price -7.4% vs VWAP, bb%B -0.40) with a FRESH 15m downside breakout (level 97.48, BBW 6.9x, vol 3.1x). Structure near-neutral (bias -0.028; L/S 1.28 = NOT crowded, no squeeze fuel; weakness genuine). Composite FLAT (9.7% conf). Trade small or stand aside.",
+    "sentiment": "Most bearish context. Leveraged BTC proxy; BTC in sharp selloff toward high-$50k/low-$60k, Crypto Fear & Greed at 11 (extreme fear), ~$4.5B June spot-ETF outflows. Company-specific bearish: Strategy did its FIRST BTC sale in ~4 years + new framework authorizing selling up to $1.25B BTC (BTC Monetization Program) - narrative shift from accumulator to seller, cited as a crash trigger. Mixed: added ~$1B buyback capacity, Citi reiterated Buy ($260); bounced 8% Jul 2 above $100 but scan shows it broken back below (~97.26). Near-term news FOR the short while BTC stays weak, but oversold - violent relief bounces are the main short risk.",
+    "analyst": "Textbook highest-variance, lowest-edge NO-TRADE. Short case (fresh 15m breakdown, worst RS, BTC downtrend, seller narrative) is undercut by awful entry location: RSI-11/stoch-8 washout, -7.4% vs VWAP, bb%B -0.40, with no support until 79.93 - high odds of a violent relief bounce first. Long case (washed out, orderbook +0.19 bid, not crowded) fights an active BTC downtrend and a live breakdown with zero reversal confirmation (still making lows). Structure neutral - no trend-continuation edge, no crowd to fade. Flat is best expectancy; the informative flip is a reclaim of 97.48 on the 15m (breakdown failed -> mean-revert long).",
+    "portfolio": "HOLD MSTR - no positive-EV trade: too washed-out to short, no confirmation to long; wait for a reclaim of 97.48 to consider a mean-revert long."
+  },
+  "timestamp": "2026-07-06T13:02:27.946765+00:00"
+}

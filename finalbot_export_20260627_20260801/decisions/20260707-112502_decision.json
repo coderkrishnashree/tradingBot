@@ -1,0 +1,26 @@
+{
+  "symbol": "QQQ/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.4,
+  "size": 0.0,
+  "entry": 715.88,
+  "stop_loss": 705.83,
+  "take_profit": 737.88,
+  "playbook": "none",
+  "forecast": "Thin off-hours grind stays pinned in the 715-718 pocket near lower BB; most likely a shallow mean-revert back toward VWAP/717.7 on the next US-hours print rather than a clean directional break within the next few bars.",
+  "expectancy_note": "Short is a thin-liquidity artifact against a record-high cash tape (do not sell record highs); long-fade lacks confirmation (no bullish divergence, not extended >2xATR) and CPI 7/14 is a landmine \u2014 best expectancy is flat until US hours confirm.",
+  "rationale": "The scan's short signal (1h RSI 18.7, below VWAP, pctB -0.04) is contradicted by the underlying Nasdaq-100 closing at RECORD HIGHS Monday, and the recent 15m candles are a low-volume (0.18-17 contracts) off-hours bleed from 718 to 715.5 \u2014 a stale perp lagging cash, not a real breakdown. No clean edge: shorting record highs is a losing setup and the oversold long-fade has no divergence or exhaustion confirmation, with price only -0.74% below VWAP. With CPI 7/14 a binary landmine and gappy off-hours ETF liquidity, flat is highest-expectancy; size 0.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 705.83,
+    "expires_min": 240,
+    "note": "Losing support at 705.83 on real US-hours volume would confirm a genuine Nasdaq pullback (not an off-hours artifact) and validate a short; reclaiming above there keeps this a thin-tape HOLD."
+  },
+  "transcript": {
+    "macro": "Cautiously risk-on, headline-driven AI tape. Record highs Mon 7/6 (Nasdaq Comp 26,121 +1.12%, S&P 500 7,537, Dow 53,055 record). VIX ~15.95 low but gap risk elevated post late-June AI-chip washout. QQQ's scan short signal (1h RSI 18.7, below VWAP, lower BB) contradicts the record-high cash close \u2014 likely a stale/thin off-hours perp artifact, not a real breakdown. Positioning near-neutral (L/S 1.056, funding 0). Do NOT lean hard short into a record-high tape; wait for US hours to confirm. ETF wrapper thin/gappy off-hours.",
+    "sentiment": "QQQ MIXED, macro-event-heavy week. KEY <=1wk catalyst: US CPI (June) Tue July 14 8:30am ET \u2014 the swing factor. Fed held 3.50-3.75% June 17 but dot plot flipped from a cut to a possible HIKE (9 of 18); May CPI hot 4.2% YoY. Hot print = valuation headwind for long-duration tech; soft = takes hike off table. Earnings season kicks off (Pepsi 7/9, Delta 7/10, banks 7/13-17); mega-cap tech reports later in July. Constructive underlying (AI capex >$650B) but unusually rate-sensitive. Lean defensive into the July 14 landmine.",
+    "analyst": "QQQ shows the classic thin off-hours divergence \u2014 perp softness (washed 1h RSI, sub-VWAP, lower BB) against a genuine record-high Nasdaq cash close, on candle volumes so light this is noise not signal. I won't lean short into record highs on a liquidity artifact, and the oversold bounce lacks any confirming divergence or true extension to justify a long fade. Balanced positioning (L/S 1.056, funding 0, structure_bias -0.08) and a July 14 CPI landmine argue for patience; I'll wait for US-hours pricing to confirm a real direction rather than trade the ghost move.",
+    "portfolio": "HOLD QQQ - short signal is a thin off-hours artifact vs record-high cash close; no edge either way, defensive into 7/14 CPI. Revisit on a real-volume loss of 705.83."
+  },
+  "timestamp": "2026-07-07T11:25:02.278021+00:00"
+}

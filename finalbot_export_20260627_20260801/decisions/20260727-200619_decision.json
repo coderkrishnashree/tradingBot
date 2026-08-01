@@ -1,0 +1,28 @@
+{
+  "symbol": "GOOGL/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.6,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "none",
+  "forecast": "Chop 325.9-329.7 near the highs; likely drift/fade toward 324-322 over the next hours only IF the 325.9 base cracks, otherwise range-bound into FOMC.",
+  "expectancy_note": "Long = chasing RSI 74 / %B 0.94 / worst RS -14.57 / crowded L/S 2.67 into FOMC (account's #1 loss pattern); short into ADX 69 uptrend with no confirmed break and support 33pts away is low-p. Both < 1.5R; HOLD is highest expectancy.",
+  "rationale": "GOOGL is very extended (RSI 74.3, ADX 69.4, %B 0.944) at the top of its Bollinger with the worst relative strength in the set (-14.57) and crowded longs (L/S 2.67) \u2014 a momentum long chases overbought into a hawkish-risk FOMC, the exact late-entry pattern that has bled this account. Yet the 1h trend is too strong (ADX 69) to fade with confidence: 15m rolled from 329.7 to a 326.05 low but the bounce held, so no confirmed breakdown. No setup clears R:R >= 1.5 with an honest stop; catalyst is a two-day-out binary. Sitting out is highest-expectancy.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 325.9,
+    "expires_min": 240,
+    "note": "Losing the intraday base low confirms the 5m/15m rollover and opens a short toward VWAP / 322."
+  },
+  "transcript": {
+    "macro": "Regime MIXED/risk-cautious into a heavy event week; FOMC Wed 7/29. Crowded longs into a hawkish-risk Fed = unwind risk. Tokenized equities thin/gappy, underlying closed. GOOGL: equity, low BTC corr (0.30), last ~327.21, very extended (RSI 74, ADX 69, %B 0.94) and the WORST relative strength in the set (-14.57); crowded long (L/S 2.67). Momentum long is chasing an overbought move into an event.",
+    "sentiment": "FOMC 7/28-29 gates everything. GOOGL already reported Q2 7/22: big beat (rev $119.8B +24%, cloud +82%) but stock FELL ~6% on a 2026 capex hike to $195-205B and negative FCF. Catalyst spent; residual tone 'good numbers, spending fear.' No fresh <=48h binary \u2014 trades on Nasdaq/FOMC beta.",
+    "analyst": "Very extended at the top of the band with the worst RS and crowded longs \u2014 a long is the account's #1 loss pattern, but ADX 69 is too strong to fade without a confirmed break. No R:R>=1.5 either way; hold and arm the 325.9 downside break.",
+    "portfolio": "GOOGL: HOLD (0.60) \u2014 extended, no clean edge; short armed on losing 325.9."
+  },
+  "timestamp": "2026-07-27T20:06:19.327754+00:00"
+}

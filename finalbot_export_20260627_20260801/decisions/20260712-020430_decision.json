@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "CL/USDT:USDT",
+  "confidence": 0.55,
+  "size": 0.0,
+  "entry": 73.53,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "none",
+  "forecast": "Off the 74.25 headline-spike high, momentum is fading - last 15m bar closed at its low (73.53) and 5m flipped short (RSI 34). Expect a drift/rotation between 73.0 and 74.2 into Monday's open; a loss of 73.0 opens 72.2/VWAP, a reclaim of 74.25 opens 76.1.",
+  "expectancy_note": "p(win) ~0.45 either direction; buying is chasing (RSI 74 30m/1h, stoch 79, vwap +1.21%, most-crowded long LS 4.08 + positive funding into supply-heavy tape) = account's #1 loss pattern; shorting the fade risks Monday Hormuz gap-through on thin Sunday books. No clean R:R now - wait for level break.",
+  "rationale": "CL is the most crowded long in the scan (long_short 4.081, funding +0.00033 = longs paying) and is extended after a Hormuz headline spike to 74.25 that is now rolling over (last bar closed on its low, 5m short). Chasing the long here is precisely the late-continuation-into-stretched-tape pattern that kills this book, while a fade carries live two-way Sunday gap risk into Monday's futures open. Highest-expectancy move is to stand aside with a trigger and take the cleaner move once a level confirms.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 73.0,
+    "expires_min": 240,
+    "note": "Losing 73.0 breaks the post-spike consolidation floor and confirms the crowded long is unwinding - opens a cleaner short toward 72.2/VWAP with the crowd offside."
+  },
+  "transcript": {
+    "macro": "Cycle 2026-07-12 ~01:56 UTC, SUNDAY - futures underlying CLOSED, thin books/Monday gap risk. Fundamentally CAPPED: US-Iran interim deal reopening Hormuz + returning Iranian barrels + UAE record output + OPEC+ hikes vs slowing demand = supply-heavy. WTI ~$71-72, only residual Hormuz risk premium. Scan: CL (73.53) all HTFs LONG (4h +0.80), RSI 60s-70s (hot), but L/S 4.081 + funding +0.00033 -> structure_bias -0.432 (MOST crowded pair). Crowded funded long into supply-heavy market = squeeze-prone. Neg correlated to BTC/equities (-0.26).",
+    "sentiment": "Most catalyst-rich name. Two opposing LIVE forces: (1) bearish supply - OPEC+ +188k bpd Aug, UAE multi-year-high output, Saudi cut Aug OSP to Asia ~$11 (biggest in 20+ yrs), JPM sees Brent ~$60 avg 2026; (2) bullish risk premium - renewed US-Iran/Hormuz tension (~20% global oil) drove ~3.5% weekly gain. Genuine <=48h headline binary BOTH directions. HIGH-catalyst, event-driven; respect two-way headline gap risk.",
+    "analyst": "Most crowded long in the scan (LS 4.08 + positive funding) and extended after a Hormuz spike to 74.25 now rolling over (last bar closed on its low, 5m short). Chasing the long = account's #1 loss pattern; fading carries live two-way Sunday gap risk into Monday's futures open. No honest R:R now. HOLD with price_below 73.0 trigger for a cleaner short as the crowd unwinds.",
+    "portfolio": "CL: HOLD (conf 0.55) - crowded extended long fading post-spike, two-way Hormuz gap risk; armed short below 73.0."
+  },
+  "timestamp": "2026-07-12T02:04:30.167659+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "TSM/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.55,
+  "playbook": "none",
+  "forecast": "Reflex bounce off 386.81 still accelerating (last 3 bars 399->403->404.58, closing on highs); expect push toward the VWAP reclaim ~410-412 within 2-4 bars, where sell-the-news supply and crowded longs (LSR 2.32) should stall it and roll price back toward 397, then retest 390.",
+  "expectancy_note": "p(win)~0.55 for a fade AT 411 (R:R ~1.9 to 400, ~3x to 391); shorting HERE at 404.58 into an accelerating bounce is the account's proven losing pattern (shorts 47% / -0.87 avg) - waiting for the stretched retest flips expectancy positive.",
+  "rationale": "Structure is bearish (4h -0.723, RS -12%, sell-the-news shock) but the lower TFs are a fresh reflex bounce that just closed at its high and is not yet extended (LTF RSI 62-71, price still 1.6% below VWAP). Market-shorting now hands a routine continuation the first 6-7 points and stops me before the trend resumes - exactly how this book's shorts bled. I hold and arm the short at the 411 VWAP-reclaim zone where crowded longs and news supply should reject; if instead it reclaims and holds above ~413 the fade thesis is wrong and I stand aside.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 410.5,
+    "expires_min": 240,
+    "note": "Tag of the VWAP-reclaim zone ~411 is where the reflex bounce should exhaust into news supply/crowded longs - a stall/rejection there is the high-expectancy short entry; a clean hold above 413 instead invalidates the fade."
+  },
+  "transcript": {
+    "macro": "Regime HOSTILE/risk-off. SOX semis -3%. TSMC underlying down ~7% on good-news selling = maximally bearish equity signal. Positioning crowded long (LSR 2.32)/contrarian-short; 4h short but LTF green = reflex bounce, fade rallies, don't chase. TSM: SHORT on strength, not here \u2014 rel-str -12%, 4h -0.723, currently bouncing 388->405; supports SHORT into the rally, STAY OUT of chasing. Near-zero BTC-corr (-0.03) = pure equity/semi play.",
+    "sentiment": "TSM NEAR-TERM CATALYST, SUPPORTS SHORT (highest conviction). TSMC Q2 July 16 blowout on paper (rev +36% YoY, 67.7% GM, FY guide raised >40% $ growth) yet ADR FELL ~4-5% below $400 on bigger capex, $100B US commitment, 2nm/overseas margin-dilution warning. Live sell-the-news shock; scan short bias aligns. BUT 1h bounce off ~$387 shows dip-buyers active = reaction fade, not fresh trend.",
+    "analyst": "Structure bearish (4h -0.723, RS -12%, sell-the-news shock) but LTF is a fresh reflex bounce that just closed at its high, not yet extended (LTF RSI 62-71, price 1.6% below VWAP). Market-shorting now hands a routine continuation the first 6-7 pts and stops before the trend resumes \u2014 how this book's shorts bled (47% / -0.87 avg). Hold and arm the short at the 411 VWAP-reclaim where crowded longs/news supply should reject; hold above 413 invalidates. HOLD.",
+    "portfolio": "TSM: HOLD (conf 0.55) \u2014 best short catalyst of the group, but wait to fade the bounce at ~411; don't chase at 405."
+  },
+  "timestamp": "2026-07-17T16:06:41.120296+00:00"
+}

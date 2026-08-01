@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "SNDK/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.55,
+  "playbook": "none",
+  "forecast": "Low-volume bounce off 1739 continues to retest broken support/VWAP zone 1765-1775 over next 2-5 bars; that retest is where the downtrend short reloads, not here at 1747 mid-air.",
+  "expectancy_note": "Shorting at 1747 = chasing after RSI31/near-VWAP with a 5-bar bounce just starting; p_win_learned 0.368 and closed-market gap risk make R:R negative. Waiting to short the 1765-1775 retest gives 1x-ATR stop above with 2.5x-ATR downside = far better expectancy.",
+  "rationale": "SNDK is a +700% parabola in a fresh momentum unwind; 4h/15m are short-aligned but price is NOT extended (vwap_dist only -0.63%, RSI 31 already pulled back) and the last five low-volume candles are a stabilizing bounce off 1739 closing near their highs. Entering short here is the account's classic late-short-into-a-bounce loss (learner p_win 0.368); with US cash closed, 4% ATR and overnight gap-up-against-shorts risk there is no positioning edge (l/s already short-skewed at 0.872). Correct play is to wait for the bounce to sell the 1765-1775 retest, so HOLD with an armed short trigger.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 1766,
+    "expires_min": 240,
+    "note": "A bounce into broken-support/VWAP at 1765-1775 is the high-expectancy short entry with an honest stop above 1785; crossing 1766 arms that re-debate."
+  },
+  "transcript": {
+    "macro": "Regime (2026-07-14): US equities risk-ON (soft June CPI, Nasdaq-led) but crypto SOFT (BTC ~$62-65k, dominance high ~56-60%). Tokenized equities scanned 22:59 UTC with US CASH MARKET CLOSED -> thin gappy overnight books, gap-up-against-shorts risk elevated. SNDK: funding +0.000139, OI 7197, long/short 0.872 (slightly short-skewed, NO crowded-long tailwind), orderbook -0.039, structure_bias -0.029 ~= flat, btc_corr ~0.02 (own-name mover). RS vs BTC -24.4% but SNDK is the year's monster (+600-700% YTD on NAND shortage), RSI 31 = pullback within a violent uptrend. Read: MIXED-to-supportive for a tactical short scalp but fading a parabola with no positioning edge in thin closed hours -> SIZE DOWN HARD; 4% ATR + overnight gap risk is the real danger.",
+    "sentiment": "SNDK BEARISH near-term tilt (momentum unwind): after +700% YTD parabola, plunged ~29% first four July sessions, -16% on month, dragged by sector-wide memory rout (SK Hynix worst day in ~20yr). Fresh, still-moving shock. BUT analysts aggressively RAISING targets (Goldman $2,200, Bernstein $3,000, Evercore $3,100) on durable NAND/AI demand -> headline chase risk is to the UPSIDE. No near-term binary (earnings Aug 5, outside window). Net: near-term news supports the short but respect sharp mean-reversion bounces.",
+    "analyst": "4h/15m short-aligned but price NOT extended (vwap_dist -0.63%, RSI 31 already pulled back); last five low-volume candles are a stabilizing bounce off 1739 closing near their highs. Shorting 1747 mid-air = the account's classic late-short-into-a-bounce loss (p_win_learned 0.368). No positioning edge (l/s 0.872 already short-skewed), US cash closed, 4% ATR + gap-up risk. Correct play: sell the 1765-1775 VWAP/broken-support retest, not here. HOLD with armed short trigger at 1766.",
+    "portfolio": "SNDK: HOLD (conf 0.55) - short thesis right but entry is a chase; wait to short the 1765-1775 retest."
+  },
+  "timestamp": "2026-07-14T23:03:58.124400+00:00"
+}

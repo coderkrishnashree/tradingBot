@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "SNDK/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Coiling under 1605 with fading volume and repeated rejections; expect a stall/mean-reversion dip toward the 1545-1527 shelf (or VWAP ~1480) over the next several bars before the uptrend can resume \u2014 no honest long R:R exists at 1596, +7.7% over VWAP.",
+  "expectancy_note": "p(win) on a chase-long here ~0.4 \u2014 extended RSI73/ADX70/+7.7% VWAP means a routine pullback hits any honest stop first; waiting for a pullback entry near VWAP flips R:R to >2 with the trend. HOLD beats both chasing and knife-catching a live uptrend.",
+  "rationale": "ADX 70 confirms a real uptrend but price is stretched +7.66% over VWAP with RSI 72.9, 15m RSI 81.7, and has stalled against 1605 on drying volume with repeated wick rejections \u2014 a textbook 'do not chase' per the macro semis-overbought note and the account's late-entry loss pattern. Shorting a live ADX-70 uptrend with an +0.82 bid orderbook is knife-catching; there is no valid long stop within ~1.5x ATR that also sits below structure at this price. Add correlated event risk: INTC (corr 0.75) reports Thursday with ~15% implied move, an uncontrollable binary inside the co-move window. Wait for either a pullback to VWAP/the 1545-1527 base to buy the trend cheaply, or a confirmed breakout hold above 1606.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 1527.0,
+    "expires_min": 240,
+    "note": "Reclaim of the 1527-1545 demand shelf on a pullback restores a sane long R:R with the strong uptrend; a decisive break above 1606 would instead trigger a breakout re-debate, but the higher-probability re-entry is buying the dip into support."
+  },
+  "transcript": {
+    "macro": "MIXED regime tilting cautious into an earnings+Fed gauntlet. TONIGHT GOOGL+TSLA earnings; June CPI ~3.5%; FOMC Jul 28-29 hold. Semis (TSM/INTC/SNDK) leadership but OVERBOUGHT & CROWDED \u2014 prefer pullbacks not chases. SNDK tightly correlated to INTC (0.75) and QQQ (~0.80) \u2014 co-moves with INTC's Thu earnings print.",
+    "sentiment": "SNDK earnings Aug 5 \u2014 OUTSIDE 48h. Narrative very bullish (NAND supply tightness, prior quarter +251% YoY), RSI ~73 and ~8% over VWAP. No <=48h catalyst; rides memory/AI-semi wave and co-moves with INTC's Thursday print (~15% implied move after close).",
+    "analyst": "ADX 70 uptrend but price stretched +7.66% over VWAP, RSI 72.9 / 15m RSI 81.7, stalled at 1605 on drying volume with repeated wick rejections \u2014 do not chase. Shorting a live ADX-70 uptrend with +0.82 bid book is knife-catching; no valid long stop within ~1.5x ATR below structure. Correlated event risk from INTC (0.75) earnings Thu. Wait for a pullback to VWAP / the 1545-1527 base, or a confirmed hold above 1606.",
+    "portfolio": "HOLD SNDK/USDT:USDT \u2014 too extended to chase; buy a dip to the 1527-1545 base instead."
+  },
+  "timestamp": "2026-07-22T16:05:28.511343+00:00"
+}

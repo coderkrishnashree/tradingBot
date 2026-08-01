@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "XAUT/USDT:USDT",
+  "size": 0.0,
+  "entry": 4053.2,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Price coils around 4050 after fading from the 4076 local high; expect a chop between 4036 support-cluster and 4064 over the next 2-6 bars. A reclaim of 4064 confirms the oversold-divergence bounce toward 4076/4090; a break of 4036 opens a crowded-long shakeout toward 3957.",
+  "expectancy_note": "Oversold-bounce long has ~55% odds but entry at 4051 gives only ~1.1 R:R to TP1 4067 with an honest 4037 stop; tightening the stop gets noised out (15m ATR ~11pts). No clean >=1.5 R:R entry now \u2014 waiting for the 4064 reclaim yields a trend-continuation entry with room to 4090.",
+  "rationale": "Macro is supportive (DXY<102, negative real yields) and 4h RSI 28 + bullish divergence argues for a bounce, but the tape only shows a modest recovery bar off 4050 with no reclaim of the 4064 fade zone, and the 2.92x crowded long book keeps a downside shakeout live. At current price a valid long stop (below the 4036 structure) makes R:R to the nearest target only ~1.1, below my 1.5 threshold, and shorting into oversold + supportive macro is low-expectancy. Highest-expectancy action is to wait for confirmation rather than force a marginal-R:R fade.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 4064,
+    "expires_min": 240,
+    "note": "Reclaiming 4064 recovers the VWAP/fade zone and confirms the oversold-divergence bounce, opening a with-trend long toward 4076/4090 with clean R:R."
+  },
+  "transcript": {
+    "macro": "Cautiously risk-on grind. DXY <102 (lowest since early 2024), negative real yields, geopolitical bid = macro OUTRIGHT SUPPORTIVE of gold. XAUT is gold not crypto (btc_corr 0.297). structure_bias -0.321, long/short 2.92 (most crowded long on the board), orderbook -0.097, RS -2.24% pullback, 4h RSI 28 + bullish divergence. Crowded long book = long-squeeze/shakeout main risk. Trim size.",
+    "sentiment": "Pure gold/macro proxy near record (~$4,050). Caught between safe-haven demand (Middle East, Eastern Europe) and hawkish-Warsh dollar dynamics. No dated gold catalyst inside 48h (CPI Jul 14, FOMC Jul 29 out of window). Tilt: neutral near-term, structurally supported longer-term.",
+    "analyst": "Last 4053.2, faded from 4076 local high, sitting near 4050 with a small green recovery bar, no reclaim of 4064. 4h RSI 28 + bullish divergence argue for a bounce but the crowded 2.92x long book keeps a shakeout toward 3957 live. A valid long stop below the 4036 structure gives only ~1.1 R:R to TP1 4067; a tighter stop gets noised out (15m ATR ~11pts). Shorting into oversold + supportive macro is low-expectancy. Wait for a 4064 reclaim.",
+    "portfolio": "XAUT \u2014 HOLD (0.50): supportive macro but no reclaim of 4064 and crowded long book; marginal R:R, wait for the 4064 confirmation to go long."
+  },
+  "timestamp": "2026-07-08T14:27:07.431612+00:00"
+}

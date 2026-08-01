@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "EWJ/USDT:USDT",
+  "size": 0.0,
+  "entry": 90.03,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Price just flushed to 89.70 and is bouncing to 90.03; expect a dead-cat bounce toward 90.5-91.0 (VWAP/broken-support) over the next 2-4 bars before the downtrend can resume - chasing the short here into that bounce is how this book's late shorts got stopped.",
+  "expectancy_note": "Est p(win) ~0.45 on a market short (learner: shorts 47% win, avg -0.87; vwap_dist -2.17% = extended); no honest R:R when price is already at the flush low with support 88.16 only ~2% away - waiting for a bounce beats chasing.",
+  "rationale": "Direction is cleanly bearish (composite -0.583, aligned, ADX 46.8, rel-strength -10.9%, fresh Nikkei/chip-selloff catalyst), but price is already 2.17% below VWAP with 1h RSI 28 after a volume-flush to 89.70 - a textbook extended move where a routine counter-bounce hits any honest stop first. Liquidity is terrible (near-zero-volume candles, tokenized Japan ETF, Japan/US closed, Monday 7/20 gap risk), so no market-chase. HOLD and wait to short a bounce back toward VWAP/broken-support (~90.7) or a fresh volume break of 88.16 support; size stays 0 until then.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 90.7,
+    "expires_min": 240,
+    "note": "A bounce back to VWAP/broken-support ~90.7 gives a proper short entry with tight stop above 91.0 and target back toward 88.16."
+  },
+  "transcript": {
+    "macro": "2026-07-19 Sunday, US & Japan markets closed. RISK-OFF/hostile weekend, thin/gappy perps, Monday 7/20 gap risk. BTC ~$64.7k near lows. Funding ~zero; L/S lopsidedly long; structure_bias negative broadly. EWJ: cleanly short across TFs, rel-strength -10.9%, but THINNEST name (near-zero volume candles), Japan/US closed - direction OK, liquidity terrible, small size only.",
+    "sentiment": "Risk-off. Fresh chip/AI-capex selloff Fri Jul 17. Crypto Fear&Greed 25. EWJ: freshest shock - Nikkei -4%, Topix -2.7% to one-month lows on global chip selloff (Kioxia -16%, Advantest -7%), yen weakness / record JGB yields. Active, already-moving catalyst clearly FOR the short.",
+    "analyst": "Bearish direction confirmed but price already -2.17% below VWAP, 1h RSI 28, just flushed to 89.70 and bouncing - extended, counter-bounce would hit a stop first. Support 88.16 only ~2% away. Terrible weekend liquidity. HOLD; short a bounce to ~90.7 or a fresh volume break of 88.16.",
+    "portfolio": "EWJ: HOLD - bearish but extended post-flush; short the bounce to ~90.7, not the low."
+  },
+  "timestamp": "2026-07-19T05:45:32.509284+00:00"
+}

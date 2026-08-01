@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "ORCL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Thin weekend drift; likely marginal chop 141.0-142.0 into an oversold-bounce attempt toward VWAP ~144.2 over the next several bars. A short is only valid on that bounce-and-reject, not down here at RSI 27.",
+  "expectancy_note": "p(win) on a fresh short down here ~40% (account trend-short history: 41% win, -3.0R); chasing stretched tape into a bounce is the book's #1 loss pattern. HOLD + armed trigger has higher expectancy than a late short or an unconfirmed bounce-long.",
+  "rationale": "ORCL is a tokenized equity, weekend-closed, thin and gap-prone with CPI Tue and Monday-open gap-reset risk. The 4h downtrend is real (ADX 58, structure_bias -0.30, crowded-long L/S 2.2), but price is deeply oversold and extended (4h RSI 27, 5m RSI 0, VWAP -1.93%) just $3.8 above support 137.63 \u2014 the exact stretched-short setup that has bled this account (trend-short 41% win, -3R). No confirmed reversal to justify a long either. Sitting flat until price gives a clean bounce-and-reject at VWAP for a proper short, or loses support to confirm continuation.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 144.2,
+    "expires_min": 240,
+    "note": "A bounce into the VWAP zone (~144.2) sets up an honest short entry with a stop above and room down to 137.6 support; a stall/reject there flips me to short."
+  },
+  "transcript": {
+    "macro": "Overall (2026-07-12): cautiously risk-on but thin; Wall St closed Fri green, semis firm; crypto rebound weak conviction, Fear&Greed ~23 (Extreme Fear), BTC dom ~55%. Hard catalysts in 2-day window: US CPI Tue Jul 14, TSMC Q2 earnings Thu Jul 16. US equity CLOSED weekend -> ORCL/TSM tokens thin/gappy off Friday close, gap-reset at Monday open -> smaller size on equity tokens. ORCL: structure_bias -0.30, L/S 2.20 (crowded long -> contrarian short support), orderbook flat, OI thin 14.1k, RSI 27/4h down, extended down (rel-strength -19.6% vs BTC, biggest laggard), low BTC-beta (corr 0.37), weekend-closed/gap-prone.",
+    "sentiment": "Overall tone risk-off; Fear&Greed ~23; hawkish Fed; macro binary CPI Tue Jul 14 + Warsh testimony Jul 14-15. ORCL: bearish drift, no imminent binary. Q4 FY26 reported Jun 10 (beat but sold off on unchanged $90B FY27 guide). Shares -37% YTD, fresh leg lower (RSI ~27 deeply oversold). Only scheduled event $0.50 dividend Jul 24 (non-catalytic). Neutral-to-mildly-bearish, momentum/macro-driven; watch oversold-bounce risk against a short.",
+    "analyst": "ORCL is oversold-but-trending-down on a thin weekend equity-token tape with CPI Tuesday and gap risk. Shorting at RSI 27 / VWAP -1.93% is a chase and matches this account's worst-performing pattern (trend shorts, 41% win, -3R avg); no confirmed bottom to buy. Highest-expectancy move is HOLD with an armed short trigger at the VWAP retest ~144.2, where a bounce-and-reject would give a real edge toward the 137.63 support.",
+    "portfolio": "HOLD ORCL (conf 0.60) \u2014 no clean R:R; armed short trigger on a bounce-and-reject at VWAP ~144.2."
+  },
+  "timestamp": "2026-07-12T18:01:50.831482+00:00"
+}

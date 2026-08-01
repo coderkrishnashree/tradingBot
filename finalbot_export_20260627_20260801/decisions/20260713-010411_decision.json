@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "SNDK/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.3,
+  "playbook": "none",
+  "forecast": "After a steep flush from 1966 to 1856, LTF RSI 14-20 and stoch 1.5 are washed out; next few bars likely chop/relief-bounce 1858->1900+ rather than clean continuation. No reversal candle yet, so no honest entry - expect a bounce or a retest of ~1912 before the next tradable move.",
+  "expectancy_note": "Both sides <0.5 p(win): shorting sub-1858 chases a stretched flush into a crowd already net-short (0.70 L/S = squeeze fuel, account's late-short pattern loses ~-1.8R); fading a knife with no reversal candle and ADX~0 is a coin-flip. HOLD has best expectancy.",
+  "rationale": "Composite 0.7% conf (weakest of the group), ADX 3.6, regime chop, every LTF deeply oversold (RSI 14-20, stoch 1.5) right after a violent -5% waterfall through the flagged 1877 short breakout - the move is spent, not starting. Long/short 0.702 means the crowd is already short, so a squeeze bounce is the higher-probability next move; macro explicitly warns SNDK is prone to VIOLENT bounces, and CPI is inside 48h. No confirmed reversal to fade long either. Learner shows late shorts bleed this account (-1.8R). Waiting for a retest into 1912-1930 to short strength, or a reversal off 1856 to fade, is the only edge.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 1912,
+    "expires_min": 240,
+    "note": "Reclaiming the 1912 breakdown shelf proves the flush is squeezing back up, invalidating fresh shorts and opening a fade-long / short-into-strength retest."
+  },
+  "transcript": {
+    "macro": "REGIME: RISK-OFF / HAWKISH \u2014 tilts SHORT. New Fed Chair Warsh held rates but flagged rising HIKE odds (~61% Sept hike priced); firm USD/yields, rising oil, US-Iran tension. Headwind for long-duration equities (big-tech/semis) and precious metals. All target names are equity/commodity-tracking perps (low BTC corr) \u2014 judge as equities/commodities, not crypto. CRITICAL EVENT RISK inside 48h: June CPI ~July 14-15 coincides with Q2 bank-earnings kickoff (JPM/BofA/Citi/Wells/GS before open Jul 14) = binary vol cluster; reduce/flat size into Jul 14 US cash open. Tokenized equities are thin/gappy off US hours \u2014 treat overnight moves skeptically. Per-theme: Big-tech/Nasdaq (GOOGL,QQQ) neutral-to-SHORT, Nasdaq rolling over into CPI; GOOGL long-crowded (L/S 2.02, squeeze risk). Semis/memory (TSM,MU,INTC,SNDK) SHORT-favorable but LATE/squeeze-prone \u2014 memory just entered bear market after Samsung Jul-7 selloff, still up huge YTD so crowded/violent bounces; TSM/MU/INTC/SNDK/EWY are effectively ONE correlated memory-beta trade, do not stack. Korea (EWY) short-leaning memory-proxy (~47% Samsung/SK Hynix), redundant with semis. Silver (XAG) SHORT bias but EXTREMELY oversold (RSI 24, ADX 85, long-crowded 3.33) \u2014 sell rallies toward $60, don't chase lows. Bottom line: environment broadly SHORT-friendly but crowded/oversold on several names and sitting in front of the CPI+earnings cluster \u2014 longs unsupported, reduce size, flat-or-hedged into Jul 14.",
+    "sentiment": "OVERALL TECH/SEMI: RISK-OFF / FRAGILE. Dominant force is a sharp semiconductor selloff that started ~Jul 2 on a Samsung earnings AI miss + SK Hynix HBM-slowdown reports, extended on valuation fears + a hawkish Fed (Warsh). Worst day: Nasdaq -2.2%, SMH -5%, MU -13%, INTC -9%, AMD -7% \u2014 broad de-risk of the AI/memory trade after a parabolic H1; supports short bias on TSM/MU/EWY/QQQ/INTC/SNDK. Biggest scheduled catalyst: TSM Q2 earnings July 16 pre-market (sector-wide binary; ~3 days out, just OUTSIDE 48h horizon but the key event risk if size is carried). Per-name: GOOGL \u2014 not part of chip selloff, earnings Jul 22 (OUT of window), DOJ antitrust overhang is multi-month; near-term NEUTRAL, trades on Nasdaq beta. MU \u2014 epicenter, -22% off highs despite record Q3/HBM sold out through 2027/Anthropic deal; pure momentum/valuation unwind, snap-back risk. SNDK \u2014 best S&P 500 stock 2026 (+707% YTD); bull narrative intact (Goldman PT $2,200) but LOW-weight long-horizon notes; high-beta NAND proxy vulnerable to de-risk. INTC \u2014 -21% in 7 days on 18A yield-delay + AMD overtaking data-center; earnings Jul 23 (OUT of window). EWY \u2014 ~47% SK Hynix+Samsung, Kospi -4.91% Jul 7 (Samsung -9%, SK Hynix -14.6%); SK Hynix ADRs began Nasdaq trading Jul 10. QQQ \u2014 aggregate semi weakness + hawkish Fed, biased weak. XAG \u2014 silver collapsed ~$121\u2192$58-59 (halved in 6mo) on hawkish-Fed repricing; bullish structural story is long-horizon; near-term Fed/DXY-driven, deeply oversold. Oversold across MU/INTC/XAG/EWY/SNDK means shorts must respect snapback risk.",
+    "analyst": "Composite 0.7% (weakest of the group), ADX 3.6, regime chop, every LTF deeply oversold (RSI 14-20, stoch 1.5) right after a violent -5% waterfall through the flagged 1877 breakout - move is spent. Long/short 0.702 = crowd already short = squeeze fuel; macro warns SNDK prone to VIOLENT bounces; CPI <48h. No reversal candle to fade long. Late shorts bleed this account. HOLD; short a retest into 1912-1930 or fade a confirmed reversal off 1856.",
+    "portfolio": "HOLD SNDK - weakest signal of the group, spent flush into a net-short crowd (squeeze fuel); no honest entry, armed above 1912."
+  },
+  "timestamp": "2026-07-13T01:04:11.267201+00:00"
+}

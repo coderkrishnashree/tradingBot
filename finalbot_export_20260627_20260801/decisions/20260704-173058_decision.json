@@ -1,0 +1,25 @@
+{
+  "action": "hold",
+  "symbol": "HOOD/USDT:USDT",
+  "size": 0.0,
+  "entry": 113.23,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.34,
+  "playbook": "none",
+  "expectancy_note": "Long entry would be AT resistance 113.24 with RSI 70.5, stoch 96.2, %B 0.98 \u2014 chasing an extended thin-liquidity holiday breakout; est p(win) ~0.4 at negative R:R into reopen-gap risk. No-trade beats it.",
+  "rationale": "HOOD is a tokenized equity with US cash markets closed until Mon Jul 6, so the 5.51x-vol 15m breakout at 113.18 is a low-liquidity holiday move with no real price discovery and high reopen-gap risk. Price is pinned to the upper band at resistance (RSI 70.5, stoch 96.2, %B 0.98) \u2014 buying here is chasing mid-air, and the composite is flat/regime_blocked (23% conf). The launch catalyst is already public and partly priced with no binding <48h binary; there's no edge to fade a fresh uptrend with bid-heavy orderbook (+0.401) either. Highest-expectancy action is to stand aside and let Monday's cash open provide clean discovery.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 114.0,
+    "expires_min": 240,
+    "note": "Decisive acceptance above 114.0 (clearing the breakout wick and holding) would confirm the move is real demand not a holiday thin-liquidity spike, making a trend-continuation long viable."
+  },
+  "transcript": {
+    "macro": "MIXED, leaning HOSTILE for a directional swing this window \u2014 a market-structure/timing problem, not a thesis problem. HOOD is a tokenized US equity (judge as equity; BTC corr 0.422). DOMINANT RISK: US cash markets CLOSED Fri Jul 3, reopen Mon Jul 6 \u2014 underlying not trading for front half of window; tokenized perp thin/gappy with no real price discovery; the 5.51x-vol 15m breakout is exactly the low-liquidity holiday move that reverses Monday. Equity regime supportive but stale (Thu Jul 2: S&P +0.49%, Nasdaq +0.40%, Dow ATH; soft jobs keeps Fed patient). HOOD in uptrend, ~8% jump on London keynote, Mizuho target $130; last 113.23 near high of Jul 4 range (110.93-120.05), catalyst partly priced. Derivatives clean: funding 0.0, OI 7551, long/short 1.348 (mild long tilt), orderbook +0.401 (bid-heavy \u2014 main bullish tell), structure_bias +0.015 (~flat), RS vs BTC -0.51%. Scanner regime 'squeeze', regime_blocked true, composite 'flat' 23% conf \u2014 raw lean long but engine NOT endorsing. If taken, long only + size down materially; first clean discovery is Monday cash open.",
+    "sentiment": "US markets CLOSED (Jul 4 holiday) is the dominant near-term factor \u2014 perp trades 24/7 but no underlying discovery until Mon open; expect thin/gappy moves + Monday-open gap risk (weight HIGH). Tone BULLISH/fresh: Jul 1 London event launched Robinhood Chain (Arbitrum L2), 24/7 tokenized stocks, Lighter perps, DeFi lending, agentic AI trading; shares ran +4-8% into Jul 2 close ($112.73); 1inch integrating Robinhood Chain; 15m breakout 113.18 on 5.5x vol but RSI ~70 (overbought). Concrete <=48h catalyst: NONE binding \u2014 next hard binary is Q2 earnings Jul 29 (outside window); launch already public/priced, risk of buy-the-rumor/sell-the-news fade. Low-weight: Mizuho PT $130 Outperform, Strong Buy consensus (~$117 avg), $2.0-2.2B convertible notes June; tokenized-stock structure (Jersey SPV, price-exposure-only) drawn scrutiny but nothing imminent. Net: news mildly supportive of long bias but the actionable 24-48h driver is a holiday liquidity vacuum, not a catalyst; overbought technicals argue against chasing.",
+    "analyst": "HOOD 113.23. Setup: 15m breakout at 113.18 on 5.51x vol but RSI 70.5, stochastic 96.2, %B 0.979 (pinned to upper band), price essentially AT resistance 113.24 with support 112.55; ATR% only 0.05 (extremely tight/thin). Composite 'flat' 23% conf, regime_blocked true \u2014 textbook low-liquidity holiday breakout at top of range on overbought reading. Against chasing long: entry would be at 113.23 basically AT resistance and pinned to upper band, chasing an extended move mid-air; US cash closed until Mon so the vol spike is exactly the holiday thin-liquidity wick that reverses on reopen; catalyst already public/partly priced with no binding <48h binary; composite flat/regime_blocked. No valid entry \u2014 can't buy at overbought resistance into a liquidity vacuum, and no reason to short a fresh uptrend with bid-heavy orderbook. HOLD is correct. Actionable long trigger: decisive break and acceptance above ~114.0 with real volume (clearing wick and holding), or wait for Monday open; losing 112.55 voids the breakout entirely.",
+    "portfolio": "HOLD HOOD/USDT:USDT \u2014 stand aside; no valid entry into a July 4 holiday liquidity vacuum at overbought resistance. Re-arm long only on acceptance above 114.0."
+  },
+  "timestamp": "2026-07-04T17:30:58.787527+00:00"
+}

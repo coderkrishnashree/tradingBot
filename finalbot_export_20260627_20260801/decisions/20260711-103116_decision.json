@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "MU/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price is coiling 985-987 just under the 990.5 rejection high; expect continued chop in the 983-990 band over the next 2-4 bars with no clean directional resolution while the underlying is closed. Break and hold >990.5 opens continuation toward 1000+; loss of 982 rolls back toward VWAP ~960.",
+  "expectancy_note": "Long p(win) ~0.45 chasing a +2.81% extended bounce into bearish orderbook (-0.338) and hostile chip-rout narrative \u2014 the account's classic late-continuation loss. Short has no tape confirmation vs a fully green multi-TF momentum. Both < 1.5 R:R; HOLD is highest expectancy.",
+  "rationale": "MU shows genuine intraday momentum (all 5 TFs long, RSI 61.6) but it is a dead-cat bounce inside a headline-driven chip-rout downtrend: rel strength -13.96%, structure_bias -0.266, orderbook -0.338, price +2.81% over VWAP and mid-air between support 876 and resistance 1049. Weekend thin synthetic tape with Sunday-night gap risk into a live semi selloff makes a fresh chase low-expectancy, while a short lacks any exhaustion trigger against green momentum. No trade until the tape picks a side; size 0.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 990.6,
+    "expires_min": 240,
+    "note": "Reclaiming and holding above the 990.5 rejection high proves the momentum bid is real, not a fade, and sets up a continuation long toward 1000+."
+  },
+  "transcript": {
+    "macro": "Regime: mixed-to-risk-off, weekend thin-liquidity tape. AI/semiconductor rout is the week's theme (chips -$1T, MU -13%) but broad indices holding. Macro neutral-to-hawkish: 10Y ~4.56%, DXY ~100.9, Fed higher-for-longer. No FOMC/CPI/earnings in 48h; June CPI Jul 14 ~3d out. MU: last 986.95, HOSTILE for longs \u2014 epicenter of the July chip rout, orderbook -0.338, L/S 1.55 -> structure_bias -0.266, rel strength -13.96% vs BTC; intraday bid may be a dead-cat bounce reopening Monday into more chip weakness.",
+    "sentiment": "MU structurally bullish \u2014 blowout fiscal Q3 (rev $41.5B, Q4 guide ~$50B vs ~$44B consensus), HBM sold out through 2027. But earnings already reported Jun 24, so NO earnings binary in 48h; next print ~late Sept. Now a momentum/AI-memory narrative name, crowded. Treat as trend continuation not fresh catalyst; semi weakness / CPI read-through is the main 48h risk.",
+    "analyst": "Tension resolved toward caution: bullish fundamentals are already priced (reported Jun 24) while the tape is a dead-cat bounce in a chip-rout downtrend \u2014 price +2.81% over VWAP, structure_bias -0.266, orderbook -0.338, rel strength -13.96%, mid-air between support 876 and resistance 1049. Long chases into weekend gap risk (account's #1 loss pattern); short has no exhaustion trigger vs green multi-TF momentum. HOLD; long trigger only on reclaim/hold above the 990.5 rejection high.",
+    "portfolio": "MU \u2014 HOLD (conf 0.60): dead-cat bounce, bullish fundamentals already priced; wait for reclaim of 990.5."
+  },
+  "timestamp": "2026-07-11T10:31:16.608757+00:00"
+}

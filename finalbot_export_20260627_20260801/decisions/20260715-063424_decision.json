@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "HOOD/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "HOOD is stretched +2.75% above VWAP with stoch pinned at 98.9 and 1h RSI ~79; the anomalous 8,594-contract pop to 114.55 closed off its high (114.62) showing upper-wick rejection. Expect a mean-reversion fade/consolidation back toward the 112.5-113.2 VWAP/broken-resistance zone over the next 2-6 bars before any trend can resume. A market long here gets stopped by the routine counter-bounce; the buyable pullback is lower.",
+  "expectancy_note": "p(win) on a chased long here ~40% (learner: trend playbook 45% win/-2.62, vwap_dist weight -0.47, all losing conditions present); waiting for the VWAP retest lifts p(win) and R:R above 1.5 \u2014 HOLD is the higher-expectancy line.",
+  "rationale": "HOOD is a hot momentum leader (+9.58% rel strength) on a CPI-friendly tape, but it is overbought and crowded long (L/S 1.641, structure_bias -0.162) and +2.75% above VWAP into stoch 98.9. Chasing here matches this account's exact loss pattern (late trend entries into stretched tape). No short either \u2014 fading a leader against a supportive tape with 0.824 COIN beta is poor expectancy. I hold and arm a re-entry: a pullback to the 112.7 VWAP/prior-resistance-turned-support zone resets the stretch and gives a clean 1.5R+ long with a ~1xATR stop under 111.5.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 112.8,
+    "expires_min": 240,
+    "note": "A pullback to the 112.7-113.0 VWAP/broken-resistance zone resets the overbought stretch and offers a clean trend-continuation long entry with tighter risk; re-debate for a buy there."
+  },
+  "transcript": {
+    "macro": "SHARED 2026-07-15: cautiously RISK-ON post soft June CPI (3.5% vs 3.8% exp; July Fed hike odds ~17%, but ~60% Sept hike). Nasdaq +0.9%, semis-led rally supports tokenized-equity longs this session, but fragile -- live Hormuz oil/risk-off overnight gap risk; tokenized equities thin/gappy off-hours. HOOD MIXED: no earnings risk near-term (reports Jul 29, outside window). Relative-strength leader of the group (rel strength +9.58% vs BTC), fintech-friendly tape on CPI relief. BUT highest crypto/BTC-beta name (btc_correlation 0.583, 0.824 corr to COIN) -- a crypto/risk-off wobble hits it hard; BTC itself chopping (65k, flat). Positioning stretched/crowded: last 114.55, structure_bias -0.162 (L/S 1.64 crowded long), short-TF RSIs near exhaustion (1h RSI 79.3, stoch 98.9, bb_pctb 0.93 upper band). Anomalous 8,594-contract print on last 15m candle. Recall Q1 (Apr 28) gapped -13%. Long with tape but trim size.",
+    "sentiment": "SHARED 2026-07-15: HOOD momentum strongly bullish (+~37% over 30 days into ~$113, RSI ~70 overbought on Jul 7), driven by Agentic AI trading launch, record May metrics, prediction-market growth -- but NO imminent binary (Q2 earnings Jul 29, outside window). Near-term risk is technical/exhaustion after a parabolic run rather than a fresh catalyst. No <=48h event; sentiment hot but the setup argues caution on chasing longs -- treat direction as momentum-vs-mean-reversion, not news-driven. (Peers: TSM binary earnings Jul 16 inside window; EWJ BoJ Jul 30-31 outside window.)",
+    "analyst": "HOOD is a hot momentum leader (+9.58% rel strength) on a CPI-friendly tape, but overbought and crowded long (L/S 1.641, structure_bias -0.162) and +2.75% above VWAP into stoch 98.9 / 1h RSI ~79; the anomalous 8,594-contract pop to 114.55 closed off its high (114.62) = upper-wick rejection. Chasing a market long here matches this account's exact loss pattern (late trend entries into stretched tape) -- a routine counter-bounce stops it. No short either: fading a leader against a supportive tape with 0.824 COIN beta is poor expectancy. HOLD and arm a re-entry on a pullback to the ~112.7-113.0 VWAP/prior-resistance-turned-support zone for a clean 1.5R+ long with a ~1xATR stop under 111.5.",
+    "portfolio": "HOLD HOOD/USDT:USDT (conf 0.60) -- hot but overbought/crowded and +2.75% above VWAP; wait for a pullback to ~112.8 VWAP/support retest to buy."
+  },
+  "timestamp": "2026-07-15T06:34:24.196281+00:00"
+}

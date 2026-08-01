@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "COIN/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Low-volume drift into the 162.5 top after a run; next few 15m bars likely stall/fade toward VWAP 160-160.5 rather than break cleanly. A retest of 160 that holds, or a decisive reclaim above 162.6 on volume, is the tradeable event \u2014 not this mid-air creep.",
+  "expectancy_note": "p(win) for a chase-long here ~0.45 (RSI 66-70, %B>1.0, +1.6% VWAP, 4h bearish div = pullback hits stop first); shorts bleed on this book (45 trades, -0.71 avg). Best expectancy is to wait for a base and enter long with the trend.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 162.7,
+    "expires_min": 240,
+    "note": "Reclaiming/holding above the 162.6 swing high on real volume confirms the coil resolves upward \u2014 a fresh long off the base rather than a mid-air chase; earnings-week risk keeps size small."
+  },
+  "rationale": "COIN is in a strong uptrend (ADX 65, all TFs long) but extended: price is above the upper Bollinger (%B 1.045), +1.6% over VWAP, RSI ~66-70 across TFs, with a 4h bearish divergence, and the last bars are a thin 0.5-volume drift into the highs rather than a fresh impulse. Chasing here is the account's proven #1 loss pattern, and shorting an ADX-65 trend into support-rich 152-160 has poor expectancy for a book where shorts already bleed. Structure is neutral (funding +7.4e-5, L/S 1.04) and rel-strength ~0, so it's just BTC-beta with no edge to pay up for. Wait for a pullback toward VWAP/160 to go long with the trend, or a clean volume reclaim of 162.6.",
+  "transcript": {
+    "macro": "Cautious risk-off, event-heavy week (2026-07-21). Crypto constructive but range-bound (BTC ~$65.5k, neutral funding); US-Iran conflict, oil spike; FOMC Jul 29; tokenized equities gap overnight. COIN one-liner: LONG-lean but LATE \u2014 balanced funding (+7.4e-5), L/S ~1.04, structure_bias -0.027; tracks BTC (corr 0.63); RSI ~66-70 + 4h bearish divergence = chasing an extended move. Small size only.",
+    "sentiment": "COIN EARNINGS JULY 30 after close (Q2 est EPS ~$0.47). Ripped ~19% early July on 'everything exchange' super-app vision, Open USD stablecoin consortium (Visa/Mastercard/BlackRock/Google, +11% pop), UK stock/derivatives approval; closed ~$165 Jul 2. Bullish momentum & narrative but earnings-week risk and BTC-correlated. NEUTRAL-to-bullish into print.",
+    "analyst": "Strong uptrend (ADX 65, all TFs long) but extended: %B 1.045, +1.6% VWAP, RSI 66-70, 4h bearish divergence, last bars a thin 0.5-vol drift into the highs \u2014 not a fresh impulse. Chasing = the book's #1 loss pattern; shorting an ADX-65 trend into 152-160 support has poor EV. Structure neutral, rel-strength ~0 = just BTC-beta, no edge to pay up. Wait for a VWAP/160 pullback or a volume reclaim of 162.6; small size on earnings-week risk.",
+    "portfolio": "COIN \u2014 HOLD (conf 0.50): extended late-long, thin drift into the top; wait for 160 pullback or 162.7 reclaim."
+  },
+  "timestamp": "2026-07-21T03:18:04.172872+00:00"
+}

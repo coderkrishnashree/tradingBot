@@ -1,0 +1,26 @@
+{
+  "symbol": "MSTR/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.6,
+  "size": 0.0,
+  "entry": 96.44,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "forecast": "Price mid-air after a vertical +4% BTC-beta pop; expect two-sided chop between 94.1 and 96.5, then a pullback toward VWAP/breakout retest ~94.5-95.0 (long reset) or a failure back under 94.1 toward the 92.4-93.0 base.",
+  "expectancy_note": "No positive-expectancy entry at 96.44: chasing long into 15m RSI 83 / stoch 95.7 / bearish divergence / +3% VWAP is the #1 loss pattern (breakout 0/1 -4.67R); shorting a fresh vol-expansion breakout with +0.512 bid support fights momentum. Wait for a level.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 94.15,
+    "expires_min": 240,
+    "note": "Losing the breakout base opens a mean-reversion short toward 92.4-93.0; a reclaim-and-hold pullback here would instead be a with-trend long reset."
+  },
+  "rationale": "MSTR flagged a real up-vol-expansion breakout (BBW 5.9x, vol 4.9x) but it's pure BTC-beta (corr 0.775, rel-strength -4.2%) and BTC is itself stretched (15m RSI 80.6) off a 21-month low in a chop/fragile regime. Every LTF overbought (RSI 78-83), stoch 95.7, bearish divergence, +2.99% VWAP \u2014 move already made; last two bars are whippy exhaustion. No edge/R:R mid-air at 96.44; a reset or a base failure both beat chasing. Sentiment bearish-lean (raised $467M, bought no BTC). HOLD.",
+  "transcript": {
+    "macro": "Regime MIXED-to-RISK-OFF, event-heavy (2026-07-14). Equities soft (S&P -0.79%, Nasdaq -1.55% Jul13); Iran/Hormuz oil shock +9% (WTI ~$78) = risk-off + inflation scare, cushioned by soft June CPI (3.5% vs 3.8%) + record big-bank earnings. BTC ~$63.8k bouncing off 21-mo low, dominance 56.3%, funding tame, regime \"chop\", risk-on fragile. Tokenized equities (CRCL/TSM/MSTR/META) pricing pre-US-cash-open into a rare CPI+bank-earnings+Iran convergence \u2014 thin/gappy, size for gap risk. Cleanest trend+positioning setups were shorts in CRCL/TSM (fade bounces); SOL long crowded/overbought (buy dips); META/MSTR confirm-at-open. Biggest cross-book risk: event/gap risk at the US cash open.",
+    "sentiment": "Shared sentiment 2026-07-14. CRCL: OCC national-trust-bank approval (Jul10, +13% to ~$70) now priced in and being sold off; Compass Point PT cut to $55 (Stripe stablecoin competition); earnings ~Aug11 (outside window); near-term neutral-to-slightly-bearish, no <=48h binary. TSM: EARNINGS THU JULY 16 2:00pm ET \u2014 hard binary inside window; guidance rev $39.0-40.2B, GM 65.5-67.5%, FY growth >30%; elevated vol/gap risk, avoid naked directional over the print. SOL: mildly bullish structurally \u2014 spot SOL ETF inflows every July trading day (>$1B cumulative), Clearstream custody; Alpenglow upgrade late Q3/Q4 (not imminent); heavily BTC-correlated, follows BTC over 48h; no unlock/hack. MSTR: bearish lean \u2014 raised $467M selling MSTR shares and bought NO BTC (Jul 6-12), sold ~3,588 BTC for preferred dividends (shift from accumulation, cautious read); $1B buyback framework mild positive; earnings outside window; trades as leveraged BTC. META: earnings WED JULY 29 after close (~2wk out, not a <=48h catalyst); consensus EPS ~$7.18; no near-term stock-specific shock; trades on Nasdaq tape next 48h.",
+    "analyst": "Real up-vol-expansion breakout (BBW 5.9x, vol 4.9x) but pure BTC-beta into stretched BTC; LTF RSI 78-83, stoch 95.7, bearish divergence, +3% VWAP, whippy exhaustion bars. Flow sentiment bearish (no BTC bought). No honest entry mid-air; HOLD, watch 94.15 base failure vs pullback reset.",
+    "portfolio": "MSTR \u2014 HOLD (0.60): vertical BTC-beta breakout but overbought + bearish divergence + bearish flow; no entry at 96.44, watch 94.15."
+  },
+  "timestamp": "2026-07-14T14:04:09.434498+00:00"
+}

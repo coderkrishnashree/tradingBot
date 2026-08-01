@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "TSLA/USDT:USDT",
+  "size": 0.0,
+  "entry": 409.22,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Thin weekend chop 408.2-409.7 continuing; price pinned near local ceiling on drying volume, drifts sideways-to-down toward VWAP until Monday Nasdaq open sets real direction.",
+  "expectancy_note": "No positive-expectancy entry: long extended (+1.92% VWAP, RSI 69, stoch 80.8) into crowded-long book (L/S 1.698) with no fade level and no fresh catalyst; account history shows trend/high-ADX chases lose (~44%, -2.9R).",
+  "rationale": "TSLA is a tokenized US equity in dead weekend off-hours liquidity, so the strong 15m ADX 46 is noise - real direction is the Monday open. Price is stretched into the top of a tight 408-410 range on thin recovery volume, crowded long, with Tuesday CPI gap risk on carries and no catalyst until Jul 22 earnings. No clean mean-reversion level exists yet, so I stand aside.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 410.5,
+    "expires_min": 240,
+    "note": "A decisive reclaim/hold above 410 on real volume re-opens a long toward 420.22; below 408 flips to a fade toward VWAP."
+  },
+  "transcript": {
+    "macro": "Split tape: risk-ON US equities (S&P 7,575, Nasdaq 26,282, records on AI/chip optimism, Meta/Nvidia leadership), risk-OFF crypto (BTC ~$62-64k, -18% MTD, sub-200wMA, Fear&Greed 22 Extreme Fear) - treat buckets separately. Dominant near-term risk: June CPI Tue Jul 14 (Warsh testifies same day; hawkish FOMC minutes, some floated a HIKE) = binary gap risk for carries into Monday night. Big-bank earnings Jul 14-15; FOMC Jul 28-29 ~89% hold. TSLA earnings Jul 22, META Jul 29 (beyond 48h). Tokenized US equities (TSLA/SNDK/META/QQQ/CRCL) trade thin/gappy over the closed weekend cash session - real direction at Monday Nasdaq open. Positioning: BTC only pair with real funding (mildly +, L/S 1.329, bid ob +0.762, RSI 73.7 stretched counter-trend bounce); META strongest rel-str (+16.5%) but RSI80/stoch95; TSLA crowded-long L/S 1.698; SNDK parabolic (1h RSI 91, +9.4% VWAP); QQQ pinned at 730 resistance RSI 80.5; CRCL most crowded-long L/S 2.695, worst laggard rel-str -18.5%, squeeze-prone. Backdrop argues smaller size/tighter risk into Monday night.",
+    "sentiment": "Shared overlay: June CPI Tue Jul 14 + Warsh testimony is the dominant 24-48h binary on a 'good-news-is-bad-news' hawkish-Fed tape; US cash equities closed over the weekend so tokenized pairs trade thin/gappy until Monday with Monday-night/Tuesday CPI gap risk. TSLA: mildly bullish but catalyst spent - Q2 deliveries 480,126 vs ~406k (Jul 2) already priced; next binary Jul 22 earnings. SNDK: bullish momentum but stretched - +683% YTD, blowout earnings, Bernstein PT $3,000 (long-horizon), screamingly overbought (1h RSI 91), off July highs; risk is momentum unwind not news. META: bullish fresh catalyst - ~6-10% jump Jul 10 on 'Meta Compute' AI-cloud unit; offset by higher-capex concern; extended; earnings Jul 29. QQQ: neutral macro-hostage - no single-name catalyst, pinned at ~730 resistance, direction hinges on CPI. BTC: cautiously bullish washed-out reversal - Fear&Greed ~23, higher lows ~$64k, ETF flows flipped + (+$265M Jul 7), >$450M shorts liquidated above $62k, but 30d ETF flow still -$6.3B; macro-capped by CPI; break/hold >$63.8k is bull trigger. CRCL: bullish news shock but two-sided - Jul 10 OCC approved Circle National Trust (+16% intraday to ~$72.85, <48h old); counterweights Compass Point PT cut to $55 (Stripe competition), Coinbase USDC renewal awaited Aug; high ATR, violent chop; most headline-driven name.",
+    "analyst": "Extended long (+1.92% VWAP, RSI 69, stoch 80.8) into crowded-long book (L/S 1.698) with no fresh catalyst; 15m ADX is weekend noise, real direction at Monday open. No clean fade level; chasing here matches the account's losing trend-chase pattern. Stand aside.",
+    "portfolio": "TSLA: HOLD (0.60) - extended & crowded-long in dead weekend tape ahead of CPI; wait for Monday open."
+  },
+  "timestamp": "2026-07-11T15:00:55.618326+00:00"
+}

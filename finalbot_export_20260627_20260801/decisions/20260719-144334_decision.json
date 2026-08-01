@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "CRCL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.55,
+  "playbook": "none",
+  "forecast": "Price pinned near VWAP/61.2 after a grind to 61.37; last 3 bars stalled and rejected the highs. Expect chop between 60.6 support and 61.4 resistance; a loss of 60.63 opens the 58.76 test.",
+  "expectancy_note": "p(win)~0.5 either way; chasing the long at RSI77/ADX83 into risk-off is the book's #1 loser; no clean R:R>=1.5 at price.",
+  "rationale": "Genuine conflict: scan flags a short-term long (+0.26) but RSI 77 / ADX 83 is overbought-extended, retail crowded long (L/S 2.35, bias -0.31), a -26% laggard well below all daily EMAs with bearish sentiment (Mizuho Underperform, Coinbase/BlackRock threat), thin Sunday tape + Monday gap risk. Price sits at VWAP (-0.02%) mid a 60.6-61.4 micro-range with fading momentum, so no honest 1.5R entry either way. Preferred trade is a short on structure breakdown, not a chase.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 60.6,
+    "expires_min": 240,
+    "note": "Losing the 60.6 pivot/VWAP zone confirms crowded longs unwinding and opens the 58.76 test - arms a short."
+  },
+  "transcript": {
+    "macro": "SUN 2026-07-19, US cash markets CLOSED -> thin weekend liquidity + Monday cash-open gap risk, cut size / tight stops. Regime MIXED-to-HOSTILE for risk; violent semiconductor/memory unwind (~$1.5T chip cap gone since Jun 25, MU/SNDK/SK Hynix/WD all -20%+). Funding flat everywhere. Crowded retail LONGS (L/S>2 on MU 2.16, CRCL 2.35) into a tape that just punished longs -> structure_bias negative on longs. Environment favors SHORTS in semis + index, genuinely SUPPORTIVE only for AAPL longs. No FOMC/CPI inside 48h; earnings build late next week (GOOGL/TSLA 7/22).",
+    "sentiment": "Equity backdrop constructive but jittery: June CPI cooler (July hike odds ~17%, Sept ~60%), Fed/Middle East headlines drive Nasdaq chop. Crypto tape weak/risk-off (BTC ~$64.8k, Fear&Greed 28) -> headwind for MSTR/CRCL/HOOD. NO earnings for any target inside 48h (HOOD 7/29, AAPL 7/30, SNDK 8/5, MU 9/29). CRCL bearish (Mizuho Underperform 7/14, Coinbase/BlackRock+Visa stablecoin threat, below all EMAs). MSTR bearish/high-risk (pure BTC proxy, Saylor sold ~3,588 BTC + ~$467M shares). MU/SNDK strong long-term (HBM sold out / NAND up-cycle) but bearish near-term momentum. AAPL mildly bullish at record high, low BTC corr, insulated from crypto weakness.",
+    "analyst": "Genuine conflict: scan flags a short-term long (+0.26) but RSI 77 / ADX 83 is overbought-extended, retail crowded long (L/S 2.35, bias -0.31), a -26% laggard well below all daily EMAs with bearish sentiment (Mizuho Underperform, Coinbase/BlackRock threat), thin Sunday tape + Monday gap risk. Price sits at VWAP (-0.02%) mid a 60.6-61.4 micro-range with fading momentum, so no honest 1.5R entry either way. Preferred trade is a short on structure breakdown, not a chase.",
+    "portfolio": "HOLD CRCL - don't chase the RSI-77 long; short a break of 60.6."
+  },
+  "timestamp": "2026-07-19T14:43:34.935966+00:00"
+}

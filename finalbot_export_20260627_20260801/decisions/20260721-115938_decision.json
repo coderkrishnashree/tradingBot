@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "QQQ/USDT:USDT",
+  "size": 0.0,
+  "entry": 706.12,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.4,
+  "playbook": "none",
+  "forecast": "Coiling in a tight 704-707 range under 707.4; expect chop 705-707 for the next few bars until the mega-cap tape resolves. A hold above 707.4 opens a run toward 712-714; loss of 704 opens 701-702.",
+  "expectancy_note": "p(win) ~0.5 at best; a chase here (stoch 90, %B>1, at range top) gives sub-1.5 R:R and courts the counter-pullback that kills this account's late longs. No-trade beats a marginal chase.",
+  "rationale": "QQQ (treat as equity) is constructively trending \u2014 all TFs aligned long, ADX 59, risk-on tape with Nasdaq futs +1.3% pre-open \u2014 but price is short-term extended (stoch 90.3, %B 1.02, RSI 68/1h 77.9) and pinned at the top of a squeezed 704-707 range, only ~0.7% above VWAP. Buying the 707 top chases into overbought with sub-1.5 R:R to the next resistance (726.99 far; near measured target ~712 gives ~1.3 R:R); a dip-buy needs a stop tighter than 1xATR to work. With dense mega-cap earnings this week adding gap risk and composite confidence only 38%, the highest-expectancy move is to wait for the coil to resolve.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 707.4,
+    "expires_min": 240,
+    "note": "A break and hold above the range top / recent high confirms the squeeze resolving up with the risk-on tape \u2014 flips to a breakout long toward 712-714."
+  },
+  "transcript": {
+    "macro": "Regime MIXED, constructive for longs but selective. Nasdaq-100 futs +1.3%, chips leading; S&P +0.5%; 10Y ~4.52% supportive. FOMC July 28-29 (outside 48h). Near-term risk = mega-cap earnings (Alphabet, Tesla, IBM). QQQ tilt: LONG \u2014 the cleanest expression of the risk-on tape; RSI 68, funding mild, balanced L/S. Supportive.",
+    "sentiment": "QQQ: Nasdaq-100 ETF, no single-company binary. Broad tape risk-on into a dense mega-cap earnings week; no macro shock flagged. Multi-day earnings catalysts embedded via constituents but index diversifies single-name risk.",
+    "analyst": "Nasdaq-100 ETF \u2014 weight technicals + risk-on macro, discount crypto structure (though L/S 0.799 not crowded-long, funding mild \u2014 no crowding flag). Trend real and aligned (ADX 59, every TF long) but timing wrong: price at the top of a squeezed 704-707 range with stoch 90, %B just over the upper band, 1h RSI 77.9 \u2014 short-term extension where a market chase gets clipped by the pullback that kills late longs. Candles show repeated 707 rejections and a base on the last big-volume bar (706.12 close) \u2014 a coil, not a fresh impulse. R:R to the nearest target doesn't clear 1.5 from a chase; a dip-buy needs a stop tighter than 1xATR. Mega-cap earnings add gap risk. HOLD, breakout trigger armed at 707.4.",
+    "portfolio": "QQQ: HOLD @ conf 0.40 \u2014 clean uptrend but overbought range-top coil; wait for the 707.4 breakout."
+  },
+  "timestamp": "2026-07-21T11:59:38.748055+00:00"
+}

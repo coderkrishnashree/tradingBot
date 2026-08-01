@@ -1,0 +1,23 @@
+{
+  "symbol": "BTC/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.6,
+  "size": 0,
+  "entry": 66187.0,
+  "stop_loss": 65550.0,
+  "take_profit": 67000.0,
+  "reconsider": {
+    "condition": "price_above",
+    "level": 66245,
+    "expires_min": 240,
+    "note": "an hourly hold above the 66244.9 resistance confirms the breakout and turns the extended move into a valid retest-continuation long rather than a chase."
+  },
+  "rationale": "BTC just grinded ~1.2% from 65380 to 66187 and is jammed directly into resistance 66244.9 with 15m RSI 91.1, stoch 97.7, bb_pctb 1.14 and vwap +2.06% - textbook extended tape into a hard level, exactly the late-continuation chase that bleeds this account; the breakout flag (66126.8, vol_ratio 2.89) is already 60pts behind price so a market long has no room and a fresh short fights a live high-volume push. Composite is flat (0.046, all TFs near-zero) and structure is mildly negative (bias -0.18, orderbook -0.135, funding ~0), so there is no directional edge, while macro is risk-off/jittery (F&G 29, chip selloff, GOOGL earnings Wed) with BTC still range-bound $64-66k. Best expectancy is to wait: a clean hourly close above 66245 confirms breakout and sets a retest-continuation long, whereas a rejection gives a far better long near VWAP ~65600.",
+  "transcript": {
+    "macro": "Overall regime: MIXED, leaning cautious risk-on. S&P ~7,443 (-0.2%), Nasdaq flat, VIX ~17.6 benign; tape drifting. Key events 48-72h: GOOGL+TSLA earnings after close WED JUL 22 (first AI-capex test, high event risk); FOMC Jul 28-29 just outside window; rates steady 3.50-3.75%. Middle East: US-Iran ceasefire collapsed, Hormuz tanker traffic near-halted, Brent >$90 per macro (oil-shock/risk-off tail). Crypto: consolidation not trend; BTC ~$64.3k range-bound; dominance ~56-58%; Fear&Greed 29; no alt rotation. Positioning: nearly every equity token CROWDED LONG (L/S 1.5-2.7, structure_bias negative), funding ~0 so spot-crowding not squeeze -> contrarian caution on fresh longs. Tokenized equities: US cash market CLOSED, candles thin/gappy, reprice on US open & Wed after-hours.",
+    "sentiment": "Overall tone: RISK-OFF / jittery. Global semiconductor/AI-valuation selloff is the dominant story: US chip weakness dragged Korea KOSPI -4.5% Mon (7 circuit breakers, -23% MTD); Middle East energy fears add overlay. Soft June CPI (3.5% YoY, Jul 14) killed July hike odds -> FOMC Jul 28-29 ~10% hike, NOT a 48h catalyst. Time-sensitive (<=48h): GOOGL earnings WED JUL 22 after close - headline catalyst, large gap/vol, two-sided (Cloud/capex vs fresh $4.67B EU antitrust fine + Gemini 3.5 delays). No other target reports inside 48h (AAPL Jul 30, HOOD Jul 29, NVDA Aug 26, ORCL Sep 9). Cross-cutting: chip/AI selloff links NVDA, EWY, GOOGL (TSM/MU) to the downside if rout continues. macro & sentiment DISAGREE on oil (Hormuz bid >$90 vs OPEC+ glut/WTI ~5-mo lows ~$69-74) -> CL two-sided.",
+    "analyst": "BTC just grinded ~1.2% from 65380 to 66187 and is jammed directly into resistance 66244.9 with 15m RSI 91.1, stoch 97.7, bb_pctb 1.14 and vwap +2.06% - textbook extended tape into a hard level, exactly the late-continuation chase that bleeds this account; the breakout flag (66126.8, vol_ratio 2.89) is already 60pts behind price so a market long has no room and a fresh short fights a live high-volume push. Composite is flat (0.046, all TFs near-zero) and structure is mildly negative (bias -0.18, orderbook -0.135, funding ~0), so there is no directional edge, while macro is risk-off/jittery (F&G 29, chip selloff, GOOGL earnings Wed) with BTC still range-bound $64-66k. Best expectancy is to wait: a clean hourly close above 66245 confirms breakout and sets a retest-continuation long, whereas a rejection gives a far better long near VWAP ~65600.",
+    "portfolio": "HOLD BTC \u2014 extended 15m tape (RSI 91) jammed into resistance with a flat composite; no room to chase long, and shorting fights a live high-volume push."
+  },
+  "timestamp": "2026-07-21T08:03:30.090276+00:00"
+}

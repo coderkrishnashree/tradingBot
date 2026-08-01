@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "COIN/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.55,
+  "playbook": "none",
+  "forecast": "Oversold higher-low bounce off 156.34 continues toward the broken 161-162 shelf / VWAP ~163-165; that rally into resistance is the short entry, not these lows. Downside 142.48 support is the eventual target once the bounce fails.",
+  "expectancy_note": "Short-from-here p(win)~0.45, R:R<1.5 (stop above bounce, target at already-touched low) - negative expectancy; the +EV trade is to sell the bounce into 162+, so wait.",
+  "rationale": "COIN is deeply oversold (4h RSI 26.8, %B -0.05, -4.2% below VWAP, ADX 65) and is printing higher lows off 156.34 with the 5m flipped long into the pre-US-open - shorting fresh lows chases an extended move. Structure is the most neutral of the crowded MSTR/COIN/HOOD basket (LSR 0.95, bias +0.03), so short conviction is weakest here, and a US-equity-proxy gap into the 13:30 UTC open adds tail risk. No long either: fighting an ADX-65 downtrend in a risk-off tape is low expectancy. Wait for the bounce into 161-165 to short with real R:R.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 161.5,
+    "expires_min": 240,
+    "note": "Reclaim of the broken 161-162 shelf toward VWAP offers a proper short-into-resistance entry with stop above 165 and target back to 156/152 at R:R>=2."
+  },
+  "transcript": {
+    "macro": "RISK-OFF/defensive regime (2026-07-08). US-Iran/Strait of Hormuz escalation; crude +3-5%, yields up. S&P -0.5%, Nasdaq -1.2%, semis leading declines. Fed hawkish (Warsh, leaning 1-2 HIKES 2026, rates 3.5-3.75%). Crypto as risk-beta: BTC ~$62.1k faded from $64k, F&G 27 (Fear), dominance ~56-60%, ETF flows just turned +$222M Jul 2 (fragile). Env favors SHORTS but oversold/crowded (LSRs lean long = flush/squeeze risk); best shorts are rallies into resistance, not fresh lows. AAPL/MSTR/COIN/HOOD are US-equity proxies; scan @10:52 UTC is PRE-US-OPEN (13:30 UTC) = gap risk; MSTR/COIN/HOOD are one crowded BTC-beta basket. No earnings inside horizon (HOOD 7/29, AAPL 7/30, MSTR 8/4, COIN early-Aug); CPI ~7/14, FOMC 7/28-29.",
+    "sentiment": "Overall risk-off; tech/chips sold off Jul 7 (semis -4.5%+), oil +5%, crypto in Fear. No <=48h binary catalyst on any of the five. BTC recovering off June ~$58k low after >$450M short liquidations; ETF flows flipped positive; contained crypto stress (BonkDAO $20M exploit, patched Aptos flaw) not systemic. AAPL: no catalyst, earnings 7/30, dragged by tech/semi selloff. MSTR: most catalyst-heavy - Strategy now SELLING BTC (3,588 BTC/~$216M Jul 6), new capital framework, $1B buyback, ~$8.3B Q2 BTC loss; two-sided headline risk. COIN: +16% on week but EPS cut, most neutral structure. HOOD: earnings 7/29 (outside horizon), bullish analyst tone. Earnings/macro all beyond horizon.",
+    "analyst": "COIN is deeply oversold (4h RSI 26.8, %B -0.05, -4.2% below VWAP, ADX 65) and is printing higher lows off 156.34 with the 5m flipped long into the pre-US-open - shorting fresh lows chases an extended move. Structure is the most neutral of the crowded MSTR/COIN/HOOD basket (LSR 0.95, bias +0.03), so short conviction is weakest here, and a US-equity-proxy gap into the 13:30 UTC open adds tail risk. No long either: fighting an ADX-65 downtrend in a risk-off tape is low expectancy. Wait for the bounce into 161-165 to short with real R:R.",
+    "portfolio": "HOLD - weakest-conviction short of the basket; wait to sell a bounce into 161-165."
+  },
+  "timestamp": "2026-07-08T10:57:51.877990+00:00"
+}

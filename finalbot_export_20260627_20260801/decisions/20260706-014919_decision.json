@@ -1,0 +1,25 @@
+{
+  "symbol": "SOL/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.6,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "expectancy_note": "Long here has R:R < 1 (only ~$0.45 to resistance $82.40 vs ~$0.87 to a real stop below $81.08); p(win) not high enough. Crowded longs (L/S 2.08, bias -0.32) + BTC extended/squeeze-blocked = flush risk. Best EV is wait.",
+  "rationale": "SOL is mid-range at $81.95 pinned between support $81.08 and resistance $82.40 with a tiny ATR (0.29%), so entering long now gives sub-1 reward:risk against any noise-surviving stop. Headline ADX 45.8 overstates conviction: 4h and 15m score flat (0.0) and composite confidence is only 33%, so trend alignment isn't clean. It's a lagging BTC-beta (corr 0.73, rel strength -0.76) with crowded longs (L/S 2.08, structure_bias -0.32) while BTC itself is extended and regime-blocked \u2014 the exact setup where a BTC roll flushes crowded SOL longs. No <=48h catalyst; wait for a resolved break rather than fade into a coin-flip.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 82.4,
+    "expires_min": 240,
+    "note": "A clean break and hold above resistance $82.40 (with BTC leading) confirms breakout continuation and gives room to the next level, flipping this from mid-range chop to a valid trend-long entry."
+  },
+  "transcript": {
+    "macro": "Regime MIXED. Crypto constructive but BTC-led w/ firm dominance ~55-60% (capital in BTC, alts bleed vs BTC). BTC ~$63.7k, strong but extended (regime-blocked squeeze). SOL: ~$81.95, ADX 45.8, 1h +0.72, 5m +0.90, RSI 65.9. Positioning risk: funding ~flat (good) but L/S 2.084 lopsided long => structure_bias -0.321 (contrarian caution), crowded longs vulnerable if BTC rolls. btc_corr 0.734, lagging (rel str -0.76). Long only as BTC-beta w/ tight risk / smaller size.",
+    "sentiment": "SOL: no token unlock risk (fully vested \u2014 good for longs). Network stable, no recent outages. Positive fundamentals: RWA TVL ~$3.4B record, stablecoin supply >$16B, SOL ETF inflows >$1B, tokenized fund launched. Alpenglow upgrade late Q3/early Q4 \u2014 NOT a 48h catalyst. Caveat: cooling social buzz; analysts split (bullish wedge vs bearish H&S). Net: neutral-to-constructive, no discrete <=48h catalyst; tracks BTC beta.",
+    "analyst": "Mid-range at $81.95 between support $81.08 and resistance $82.40 with tiny ATR (0.29%) => long gives sub-1 R:R. Headline ADX 45.8 overstates it: 4h and 15m flat, composite conf only 33%. Lagging BTC-beta (corr 0.73, rel str -0.76) with crowded longs (L/S 2.08, bias -0.32) while BTC extended/regime-blocked \u2014 classic BTC-roll flush setup. No <=48h catalyst. HOLD; reconsider long on clean break-and-hold above $82.40 with BTC leading.",
+    "portfolio": "SOL \u2014 HOLD (conf 0.60): crowded lagging BTC-beta mid-range with sub-1 R:R; wait for a clean break above $82.40."
+  },
+  "timestamp": "2026-07-06T01:49:19.109272+00:00"
+}

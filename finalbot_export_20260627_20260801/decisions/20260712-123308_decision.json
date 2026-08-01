@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "TSM/USDT:USDT",
+  "size": 0.0,
+  "entry": 437.35,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.34,
+  "playbook": "none",
+  "forecast": "Price dead-coiling 436.6-438.3 right on VWAP with volume drying to near-zero; expect chop in this ~$1.7 box on thin weekend tape until the Monday US open, which gaps on the bid semis lead - no clean directional edge before then.",
+  "expectancy_note": "Short p(win) ~0.4: honest stop above 438.3+noise is <0.5xATR (gets wicked) while a proper 1xATR stop makes R:R only ~1.5 to distant 425.7 support through a BULLISH semis tape into July-16 earnings; no long either (composite short, OB -0.48). HOLD dominates.",
+  "rationale": "Higher-TF technicals are genuinely short (1h/4h -0.9, ADX 38.7, orderbook -0.481), but this fights the sector: semis are Thu/Fri LEADERSHIP (SK Hynix +12.8%, Micron +4.5%) and TSM sentiment is bullish into a hard July-16 earnings binary just outside the window, with elevated Monday-open UP-gap risk against a short on thin, US-closed weekend tape. Price sits right at VWAP in a tight drying coil with no room for an honest stop and no extreme to fade, so there is no positive-expectancy entry now. Want the coil to resolve with real volume rather than short a single-name into a bid sector and a two-way earnings gap.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 435.0,
+    "expires_min": 240,
+    "note": "Losing 435 breaks the coil low and VWAP support with follow-through, confirming the 1h/4h short thesis and clearing room toward 425.7."
+  },
+  "transcript": {
+    "macro": "2026-07-12: Risk-off-leaning/mixed. Hawkish Fed (~61% Sept HIKE), USD firm. Sunday scan, US cash CLOSED -> gappy, elevated Monday-open gap risk. Semis were the LEADERSHIP Thu/Fri (SK Hynix +12.8%, Micron +4.5%), so SECTOR tailwind is LONG - CONFLICTS with the pair's short composite and -0.48 orderbook. Mixed: single-name/technical short vs a bid semiconductor tape.",
+    "sentiment": "TSM bullish narrative but EARNINGS RISK imminent - Q2 earnings JULY 16, 2026, a hard binary near/just outside the ~2-day window. Guided Q2 rev $39-40.2B (~10% QoQ), GM 65.5-67.5%, AI demand 'extremely robust'; stock ran ~40% in Q2, beat last 4 quarters. A short into the print carries two-way event gap risk. Equity, US-hours sensitive.",
+    "analyst": "Technical short is real on 1h/4h but it's a single-name signal fighting a bullish semis leadership tape into a July-16 earnings binary, with thin US-closed weekend tape and elevated Monday UP-gap risk. Price coiling right at VWAP with no honest stop room and no extreme to fade, so neither short nor long has positive expectancy. Armed the flip at a decisive break below 435 (coil/VWAP loss) to re-enter short with confirmation.",
+    "portfolio": "HOLD TSM - don't straddle the July-16 earnings binary; wait for a sub-435 break to confirm the short."
+  },
+  "timestamp": "2026-07-12T12:33:08.777958+00:00"
+}

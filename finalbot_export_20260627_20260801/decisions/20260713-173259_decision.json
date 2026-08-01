@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "MU/USDT:USDT",
+  "size": 0.0,
+  "entry": 929.58,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Chop 920-944 continues into CPI; expect a re-test of range-low ~920, and only a decisive 15m close below 920 opens the path back toward the 903 spike-low and 4h support 876. A pop to 944 more likely fades than breaks.",
+  "expectancy_note": "No entry: shorting mid-range 929 after a 4% bounce off 903 is the account's classic late-short-into-bounce loss; R:R at range-mid is <1.5 with CPI gap risk. Best expectancy is to wait for the 920 break (momentum short) or 944 rejection.",
+  "rationale": "MU already flushed to 903, squeezed the crowded longs (L/S 1.862) up ~4% to 943, and is now consolidating 920-944 with 4h RSI 25.9 lagging the bounce \u2014 not a fresh short. VWAP -2.51% is only mildly extended and the impulse already retraced, so a market short here risks getting stopped by the same bounce that just ran, for sub-1.5 R:R into tomorrow's 8:30am CPI binary. Genuine sector downdraft (TSM 0.56, SNDK 0.81, EWY 0.81 corr; RS -12%) keeps the bias bearish, so I want the trade on a confirmed break of range-low 920, not the muddy middle.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 919.5,
+    "expires_min": 240,
+    "note": "Losing the 920 range-low confirms the bounce failed and reopens the down-leg toward the 903 spike-low and 876 4h support \u2014 that is the momentum short entry."
+  },
+  "transcript": {
+    "macro": "RISK-OFF/defensive. S&P/Nasdaq heavy, oil spiking (Hormuz), semi-led selloff (Samsung, SK Hynix -8%). DXY ~101, 10Y ~4.56% backing up, possible Fed HIKE by Sept. June CPI Tue Jul 14 8:30am + bank earnings = binary. SOX ~11% below June peak, SOXX -2% Mon. MU broken in scan: 4h RSI 25.9, ADX 67, blended -0.32. TSM corr 0.56 \u2014 genuine sector downdraft. Bias: bearish momentum intact, favors shorts BUT oversold -> size down, squeeze risk. Gap risk on CPI.",
+    "sentiment": "MU: Already reported FY-Q3 June 24 \u2014 RECORD quarter (~$33.5B rev, ~81% GM, >$19 EPS); entire 2026 HBM output sold out and priced, HBM4 for Nvidia Vera Rubin ramping. NO new earnings binary inside 48h. RSI 26 = technical pullback, not fundamental crack. L/S 1.86 (crowded longs) = short-side fuel. Net: neutral-to-bearish near-term, fundamentals argue against pressing shorts hard. Bearish (fragile).",
+    "analyst": "MU already flushed to 903, squeezed crowded longs up ~4% to 943, now consolidating 920-944 with 4h RSI 25.9 lagging the bounce. Shorting mid-range at 929 is the book's late-short-into-bounce loss pattern; sub-1.5 R:R with CPI gap risk tomorrow. Sector bias bearish, but take the trade on a confirmed 920 break, not the muddy middle. HOLD; reconsider on a break below 919.5.",
+    "portfolio": "MU: HOLD (conf 0.60) \u2014 bearish bias but mid-range chop after a 4% bounce; no clean short, wait for the 920 break."
+  },
+  "timestamp": "2026-07-13T17:32:59.780471+00:00"
+}

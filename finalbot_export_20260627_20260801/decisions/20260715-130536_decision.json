@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "EWJ/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Tokyo cash closed: prints frozen near 93.8-94.24 on ~0 volume (0.0-0.13 size candles). Expect drift/noise inside 90.27-95.44 until real liquidity returns; no clean directional move is tradeable on these prints.",
+  "expectancy_note": "No honest edge: buying stretched (RSI 69, 4h/5m overbought) crowded long (L/S 1.407) into frozen illiquid prints has negative expectancy; no short confirmation. HOLD beats a gappy coin-flip.",
+  "rationale": "EWJ is a tokenized Japan ETF with Tokyo cash CLOSED - the last ~15 candles print near-zero volume (0.0-0.13) so all indicators are stale and gap risk dominates. Price is stretched (RSI 69.1, 5m RSI 83, vwap +0.87%) and crowded long (L/S 1.407) while relative strength is actually WEAK (-8.87% vs peers), so chasing the long is exactly the account's #1 loss pattern and there is no exhaustion/divergence confirming a short. With no 48h binary and unreliable prints, the expectancy-maximizing move is to stand aside until real liquidity confirms direction.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 95.44,
+    "expires_min": 240,
+    "note": "A clean reclaim/hold above resistance 95.44 on genuine volume (Tokyo reopen) confirms the bullish continuation is real, not a frozen-print artifact, and would justify a trend-long entry."
+  },
+  "transcript": {
+    "macro": "Regime modestly risk-on, tech-led, but a live Fed HIKE tail (one 25bp hike priced in 2026; hawkish Chair Warsh). Soft June CPI cooled fears, Nasdaq leading. EWJ: Tokyo cash CLOSED - thin/gappy overnight pricing, near-zero-volume candles, prints unreliable. Nikkei backdrop strong (~70k, +37% YTD, weak yen ~162) but L/S 1.407 crowded long and RSI 69.1 stretched. Liquidity/gap risk dominates; size down. Low BTC corr.",
+    "sentiment": "EWJ bullish momentum: Nikkei 225 above 68,300, +37% YTD, led by AI/semis; weak yen supports earnings. Key dated risk = BOJ meeting July 30-31 (OUTSIDE 48h) - hawkish 'defend the yen' surprise could sharply strengthen JPY and hit exporters (recall Aug-2024 -12.4% day). No 48h binary catalyst.",
+    "analyst": "Tokyo cash closed: last ~15 candles print near-zero volume (0.0-0.13), so indicators are stale and gap risk dominates. Stretched (RSI 69.1, 5m RSI 83, vwap +0.87%) and crowded long (L/S 1.407) while relative strength is WEAK (-8.87% vs peers). Chasing the long is the account's #1 loss pattern; no exhaustion/divergence to confirm a short. No honest tradeable edge -> HOLD until real liquidity confirms direction. Flip level: clean reclaim/hold above 95.44 on genuine volume.",
+    "portfolio": "HOLD EWJ - illiquid/gappy closed-market prints, stretched and crowded long; stand aside (conf 0.60)."
+  },
+  "timestamp": "2026-07-15T13:05:36.275859+00:00"
+}

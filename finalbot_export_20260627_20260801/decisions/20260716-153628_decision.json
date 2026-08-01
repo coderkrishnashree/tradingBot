@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "MSTR/USDT:USDT",
+  "size": 0.0,
+  "entry": 94.89,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Choppy mid-range churn 94-96; likely re-test of 93.5-93.7 reclaim zone in next 2-4 bars before deciding \u2014 a hold of 93.7 with BTC firm sets a long, a loss of 93.5 reopens the 90.1 support.",
+  "expectancy_note": "No edge at mid-range: short fades a fresh bounce into 1h RSI 29 (account's proven losing pattern, shorts avg -0.52 PnL); long chases into VWAP/resistance overhead with macro risk-off. p(win) ~0.5 either way \u2014 flat is best expectancy.",
+  "rationale": "MSTR is dead-center its 90.1-102 range after bouncing off a 93.88 flush low, with bullish divergence and 1h RSI oversold (29.5) arguing the immediate downside is spent, so a short here catches the bounce \u2014 exactly how this account's shorts bled (33 shorts, 52% win, -0.52 avg PnL). But it's also mid-range with resistance/VWAP overhead and a risk-off macro on a 0.71-BTC-beta name, so a long is a chase. No level sits at spot; wait for the retest to define risk. Size 0 \u2014 the highest-expectancy action.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 93.5,
+    "expires_min": 240,
+    "note": "Losing the 93.5 bounce-reclaim breaks the higher-low structure and reopens the 90.14 support flush, validating a short with a clean stop above 95."
+  },
+  "transcript": {
+    "macro": "RISK-OFF/defensive tilt (hawkish Warsh Fed, Iran energy inflation), though June CPI/PPI soft. Crypto beta names (MSTR, COIN) deeply lagging; BTC recovering off brutal June (record ETF outflows). MSTR: high BTC beta (corr 0.71), pure crypto-proxy that only works if BTC holds; choppy, L/S 1.36 crowded-long, two-sided.",
+    "sentiment": "BTC bullish/constructive (reclaimed ~$65k on soft CPI, ETF flows reversed to inflows, CLARITY Act hearing Jul 17). MSTR neutral/two-sided: BTC-proxy (0.71 corr); new Digital Credit Capital Framework with $1B buyback authorization (bullish) but sold ~$216M BTC and booked $8.32B Q2 digital-asset loss. Bounced low-$80s to mid-$90s; buyback is a soft floor, no hard <=48h catalyst.",
+    "analyst": "MSTR dead-center its 90.1-102 range after a 93.88 flush low, bullish divergence + 1h RSI 29.5 oversold = immediate downside spent, so a short catches the bounce (account shorts 52% win, -0.52 avg PnL). Long is a mid-range chase into VWAP/resistance under risk-off macro on a high-BTC-beta name. Learner shows longs win (71%, +2.55, n=7) but no long level at spot. Wait for the 93.5-93.7 retest.",
+    "portfolio": "MSTR: HOLD (conf 0.5) \u2014 mid-range, no edge; wait for 93.5-93.7 retest, tied to BTC."
+  },
+  "timestamp": "2026-07-16T15:36:28.156299+00:00"
+}

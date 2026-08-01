@@ -1,0 +1,25 @@
+{
+  "symbol": "MSTR/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.6,
+  "size": 0.0,
+  "entry": 106.65,
+  "stop_loss": 108.9,
+  "take_profit": 102.5,
+  "playbook": "none",
+  "expectancy_note": "p(win) too low mid-range; no R:R >=1.5 either way. Long blocked by EXTREME crowded funding + defensive BTC + holiday gap; short lacks an extended entry/level. Best expectancy = wait.",
+  "rationale": "MSTR trades at 106.65, mid-range between support 105.02 and resistance 107.90 with no edge at either extreme. Structure is decisively bearish (funding EXTREME crowded-long, L/S 1.47, structure_bias -0.558) and BTC macro is defensive with holiday gap risk, so a fresh long is hostile and a bull trap at best. But price is only -0.77% under VWAP \u2014 not extended enough to short cleanly, and momentum is mixed (5m flipped short, 15m/30m still long). No confirmed setup, so I hold and wait for a decisive break rather than donate a stop into chop. Size 0.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 105.02,
+    "expires_min": 240,
+    "note": "Losing intraday support 105.02 confirms the crowded-long liquidation / fade-strength short thesis and opens a clean move toward 102.5."
+  },
+  "transcript": {
+    "macro": "Regime early July 2026: RISK-OFF LEANING / DEFENSIVE. BTC ~62.7k, BTC.D ~55.5% (elevated = weak high-beta appetite); BTC structure soft (RSI 43.8, ADX 18.4, book imbalance -0.824). AI/semis leading, siphoning crypto flows. No CPI/FOMC inside 48h (FOMC July 28-29). MSTR = tokenized equity, US underlying closed/thin around July 4 -> perp gappy. Derivatives HOSTILE for longs: funding +0.00129 flagged EXTREME crowded-long, L/S 1.47, orderbook -0.056, structure_bias -0.558 (one of the most contrarian-bearish in the scan). Momentum fading: 15m/30m long (0.9/0.79) but 5m flipped short (-0.478). Structure favors FADING strength, not chasing. Biggest risk = long-liquidation squeeze. If traded: half-size, quick stops, no leveraged long across session gap.",
+    "sentiment": "Cautiously stabilizing after brutal drawdown (~$187 May 14 -> ~$82 low June 26 -> $100.77 July 2, +7.9%). Bounce ENTIRELY BTC-driven (soft June NFP 57K vs 110K exp revived rate-cut hopes; BTC $58K->$62K), not company-specific. Scan MSTR last 106.65, RSI ~31, 0.558 BTC correlation. KEY NEGATIVE regime change June 29: Strategy ended Saylor 'never sell' doctrine -> authorized Bitcoin Monetization Program to sell up to $1.25B BTC to fund USD reserve + preferred dividends; hiked STRC dividend to 12% after STRC hit record-low $71.25. Signals capital stress, caps upside (forced BTC sales into weakness possible). Analysts cut PTs July 1 but stayed net-bullish (avg ~$321), attributed to BTC. No fresh binary in 24-48h; Q2 earnings Aug 4 (outside window). Neutral-to-cautious; if BTC rolls under ~$60K, oversold MSTR is a bull trap.",
+    "analyst": "MSTR at 106.65 sits mid-range between support 105.02 and resistance 107.90 with no edge at either extreme. Structure decisively bearish (EXTREME crowded-long funding, L/S 1.47, structure_bias -0.558) and BTC macro defensive with holiday gap risk -> fresh long hostile / bull trap. But price only -0.77% under VWAP, not extended enough to short cleanly, momentum mixed (5m short, 15m/30m long). No confirmed setup -> HOLD, wait for a decisive break rather than donate a stop into chop. Reconsider short if 105.02 support breaks (targets 102.5).",
+    "portfolio": "MSTR/USDT:USDT -> HOLD (conf 0.60, size 0.0): hostile for longs, no clean short entry mid-range; wait for 105.02 break."
+  },
+  "timestamp": "2026-07-05T21:02:36.629000+00:00"
+}

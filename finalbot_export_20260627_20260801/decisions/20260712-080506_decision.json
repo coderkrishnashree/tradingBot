@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "CL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "trend",
+  "forecast": "From 73.8 (%B 0.889, stoch 86.8, +1.74% vs VWAP) price is stretched into resistance 76.13; expect either a stall/pullback toward the 73.1-73.3 shelf or VWAP ~72.6, OR a decisive close above 76.13 that opens continuation \u2014 buy the dip or the breakout, not this mid-air chase.",
+  "expectancy_note": "Chasing here: R:R < 1.5 (only ~$2.3 to resistance vs squeeze risk) and 4.08 crowded long = poor expectancy. Waiting for a ~72.6-73.3 retest long (stop under 71.9, target 76) gives ~2R at higher p(win); best expectancy is patience, not the chase.",
+  "rationale": "Strong aligned uptrend (ADX 55, all TFs long) on a live Hormuz geopolitical bid, but price is extended (%B 0.889, stoch 86.8, +1.74% above VWAP) into resistance 76.13 with an extremely one-sided book (L/S 4.08, structure_bias -0.40) that is fuel for a headline long-squeeze. Market-buying here is precisely the late-continuation chase that gets stopped by a routine bounce, and R:R to resistance is under 1.5, so I hold and wait for a pullback entry near 72.6-73.3 or a confirmed breakout close above 76.13.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 73.1,
+    "expires_min": 240,
+    "note": "A dip back to the 73.1 shelf (toward VWAP ~72.6) offers a real trend-continuation long entry with a tight stop under support 67.9-71.9 and room to 76.13 \u2014 flips HOLD to a buy setup."
+  },
+  "transcript": {
+    "macro": "Regime NEUTRAL. CL has real weekend volume (unlike equities). WTI ~$71-74 +~4% on week, bid on Strait of Hormuz disruptions / US-Iran tension \u2014 supply premium live and headline-driven. Composite long conf 48%, all TFs up, BUT positioning crowded (L/S 4.08, funding+, orderbook -0.13 -> structure_bias -0.40) \u2014 long only on continuation, tight stop, reduced size.",
+    "sentiment": "CL neutral-to-bearish macro, watch geopolitics. WTI ~$72-74 supported by renewed US-Iran strikes delaying Hormuz recovery (live geopolitical bid), offset by UAE record production + EIA inventory-build forecast pressuring Brent ~$74 Q3. No scheduled 48h binary; swing risk headline-driven. Long aligns with geopolitical bid but faces bearish supply fundamentals \u2014 mixed.",
+    "analyst": "CL last 73.8, composite LONG 48.2%, all TFs up (aligned), ADX 55.2 (strong), 4h RSI 61.5 / 1h RSI 74.9 (stretched), %B 0.889 (upper band), stoch 86.8, VWAP dist +1.74% (extended). Support 67.93, resistance 76.13, ATR ~$0.94. L/S 4.076 (extremely crowded long), structure_bias -0.395. Steady grind up closing at range high, but market-buying at %B 0.889/stoch 86.8 into resistance only ~$2.3 above = sub-1.5 R:R chase with squeeze risk. Trend is real (one name with true weekend liquidity) but the high-expectancy play is a pullback long near 72.6-73.3, not this. HOLD; reconsider on dip to 73.1.",
+    "portfolio": "HOLD CL \u2014 strong uptrend but stretched/crowded chase with poor R:R; wait for pullback, reconsider armed at 73.1."
+  },
+  "timestamp": "2026-07-12T08:05:06.431833+00:00"
+}

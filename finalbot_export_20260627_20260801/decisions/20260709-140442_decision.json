@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "MSFT/USDT:USDT",
+  "size": 0.0,
+  "entry": 378.62,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price just bounced ~5pts off 373.78 support on a strong green 15m reversal bar (375.05->378.76 close) with 5m RSI back to 61.6; expect a mean-reversion drift up toward VWAP/386 before the downtrend can resume, so neither a fresh short nor a long is clean here.",
+  "expectancy_note": "Shorting now: p(win)~0.4 into oversold RSI30/%B0.02 snapback = negative expectancy (account's #1 loss pattern). Buying: fighting risk-off downtrend + crowded longs (L/S 1.89). HOLD beats both until price picks a side.",
+  "rationale": "MSFT is oversold (RSI 30, %B 0.02, stoch 22) at 373.78 support and the last two 15m bars are a sharp green reversal/squeeze - market-shorting here sells the bottom and a routine bounce to VWAP ~386 hits any honest stop. Equity in a hawkish/risk-off tape with crowded longs also blocks a fresh long. No positive-expectancy entry mid-air, so I wait for the level to resolve.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 373.78,
+    "expires_min": 240,
+    "note": "A fresh 15m close below 373.78 proves the bounce failed and the downtrend resumes at the level - clean continuation short with a stop above the bounce high (~379)."
+  },
+  "transcript": {
+    "macro": "US equity risk tone MIXED, tilting risk-OFF near-term. Mon 7/6 record highs, Tue 7/7 tech-led pullback (Nasdaq -1.16%) with rotation OUT of mega-cap tech/semis; scan shows AAPL/MSFT/META/GOOGL/TSLA/ORCL negative composites, RSI 25-38, downtrend 15m-1h (wobble, not breakdown). Fed HAWKISH: dot plot year-end 3.8%, ~36% tail for a July hike, cuts off the table. June CPI drops Jul 14 (binary event risk if carried). Positioning: crowded longs everywhere (L/S: MSFT 1.89, META 1.93, GOOGL 1.76, ORCL 2.15, CL 2.73, SOL 2.36), funding ~zero on equity perps -> downside air-pockets favored, rallies fade-able, but snap-back squeeze risk from oversold RSIs. Environment MIXED-to-HOSTILE for LONGs, modestly SUPPORTIVE for tactical SHORTS/fades in mega-cap tech. Smaller size / faster targets. CL is own driver (choppy-to-soft, Iran/Hormuz two-way tail, negatively correlated to equities). SOL: BTC dead-flat, no crypto impulse, crowded longs; trades on weak drift.",
+    "sentiment": "No <=48h catalyst; earnings 7/29 AMC. Modest positive on 7/2 $2.5B Frontier AI unit news, stale. NEUTRAL near-term; trades with Nasdaq/CPI.",
+    "analyst": "MSFT is oversold (RSI 30, %B 0.02, stoch 22) at 373.78 support and the last two 15m bars are a sharp green reversal/squeeze - market-shorting here sells the bottom and a routine bounce to VWAP ~386 hits any honest stop. Equity in a hawkish/risk-off tape with crowded longs also blocks a fresh long. No positive-expectancy entry mid-air, so I wait for the level to resolve.",
+    "portfolio": "HOLD MSFT/USDT:USDT (conf 0.6)"
+  },
+  "timestamp": "2026-07-09T14:04:42.882877+00:00"
+}

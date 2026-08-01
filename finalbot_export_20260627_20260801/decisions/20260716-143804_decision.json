@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "QQQ/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Price just bounced ~5.4pts off 708 to 713.4 in 4 green bars and is coiling below VWAP; expect a push toward the 715.8-716.3 VWAP/prior-support-turned-resistance over the next 2-4 bars, where a rejection would be the clean macro-aligned short back toward 708.",
+  "expectancy_note": "Market-short here at 713.4 is mid-range chasing a fresh bounce; learner shows shorts 52% win / -0.52 avg pnl (bleeding) and QQQ p_win 0.47 \u2014 negative expectancy. Waiting for the 716 rejection turns R:R to ~2.5:1; holding beats a coin-flip chase.",
+  "rationale": "Short is macro-supported (1h -0.9, orderbook -0.74, DXY/yields up, Nasdaq -0.76%) but price has already rallied 5pts off 708 and sits mid-range below VWAP in thin off-hours equity tape \u2014 selling here risks a stop on continuation of the bounce to VWAP. The account's shorts have negative avg pnl and this setup's learned p_win is 0.469, so a market short is negative-expectancy. Wait for a rejection at the 716 VWAP/resistance retest (clean 2.5:1 short) or a break of 708 for continuation.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 715.8,
+    "expires_min": 240,
+    "note": "Tag of the VWAP/prior-support-turned-resistance zone; a rejection there is the clean macro-aligned short entry with 2.5:1 R:R toward 708."
+  },
+  "transcript": {
+    "macro": "Risk-off lean, thin headline-driven session. Nasdaq -0.76%, S&P -0.37% (chip-led selloff, TSMC). DXY firm ~100.6; 10Y 4.59%/2Y 4.16% (yields up). No FOMC/CPI inside 48h. QQQ: treat as EQUITY (btc_corr 0.25). Cleanest macro-aligned short this session (index actually falling), structure_bias -0.18, orderbook -0.74, 1h score -0.9. Caveat: US market hours (thin/gappy overnight).",
+    "sentiment": "Cool June CPI Jul 14 + soft PPI sparked multi-day risk-on relief rally; Fed-hike odds ~10%. QQQ net BULLISH on equity backdrop (Nasdaq closed higher Jul 14-15, strong Q2 earnings start ~+23.7% EPS growth, chip earnings tailwind) but off-hours perp can gap on next US open; scan's short bias partly thin-liquidity drift. No \u226448h index binary before Jul 28-29 FOMC. TENSION: macro-agent sees today's intraday session risk-off vs sentiment's multi-day risk-on bid.",
+    "analyst": "Short is macro-supported but price has already bounced ~5pts off 708 and sits mid-range below VWAP in thin off-hours tape; account learner shows shorts bleeding (52% win, -0.52 avg pnl) and QQQ p_win 0.47 \u2014 market short is negative EV. HOLD and wait for a 716 VWAP/resistance rejection (2.5:1 short) or a 708 breakdown.",
+    "portfolio": "QQQ: HOLD (0.50) \u2014 macro-aligned short but chase-risk mid-range; armed to short a 715.8 rejection."
+  },
+  "timestamp": "2026-07-16T14:38:04.084111+00:00"
+}

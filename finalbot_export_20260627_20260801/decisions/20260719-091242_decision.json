@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "MSTR/USDT:USDT",
+  "size": 0.0,
+  "entry": 96.34,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Dead-flat coil in a ~96.1-96.6 box on near-zero weekend volume; overbought unwind only triggers if 95.0 gives way, then a slide toward 94/92.",
+  "expectancy_note": "No edge: long chases RSI 75 / +2.27% above VWAP; short has no rollover trigger and shorts are the account's losing side. HOLD > either.",
+  "rationale": "MSTR is overbought (4h RSI 75, stoch 91, +2.27% above VWAP) and crowded long (L/S 1.20) yet the 15m tape is a lifeless 50-cent coil with tiny weekend volume and no exhaustion or breakdown trigger, on a Sunday with US equities closed (thin, gappy, high slippage). It is near-pure BTC beta (corr 0.75) with BTC momentum fading mid-range, so there is no independent thesis. No trade justifies risk into this liquidity.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 95.0,
+    "expires_min": 240,
+    "note": "Losing 95.0 breaks the coil floor and confirms the overbought unwind, opening a short toward 94/92."
+  },
+  "transcript": {
+    "macro": "Sunday Jul 19 2026, US cash equities CLOSED \u2014 tokenized-equity perps thin/gappy, high slippage. Fri Jul 17 risk-off (S&P -1%, Nasdaq -1.5%) on semi/AI-capex scare. Crowded longs across nearly all names -> smaller size. BTC ~64.7k mid-range, 4h/1h up but LTF fading. Biggest risk: crowded-long unwind into a risk-off Monday open. Backdrop mixed-to-hostile for longs.",
+    "sentiment": "MSTR bearish-leaning, high BTC beta (corr 0.75). The 'never sell' firm sold 3,588 BTC (Jun 29-Jul 5) to fund >$1.5B/yr preferred dividend; treasury underwater vs ~$75.5k cost basis. Trades as leveraged BTC, amplifies dips. Earnings Jul 30 (outside window). No fresh <=48h catalyst.",
+    "analyst": "Overbought and crowded long but 15m tape is a lifeless coil with tiny weekend volume, no exhaustion/breakdown trigger. Near-pure BTC beta with BTC momentum fading. Neither chase-long nor untriggered short favored; weekend thin tape seals HOLD. Armed short trigger below 95.0.",
+    "portfolio": "HOLD MSTR \u2014 overbought coil, pure BTC beta, thin Sunday tape; wait for 95.0 break."
+  },
+  "timestamp": "2026-07-19T09:12:42.243989+00:00"
+}

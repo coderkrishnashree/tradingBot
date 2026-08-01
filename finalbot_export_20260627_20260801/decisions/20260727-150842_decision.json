@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "MSFT/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "15m rolling over from the 393.4 rejection; expect chop/drift 386-391 before Wed's FOMC + earnings binary, no clean directional edge.",
+  "expectancy_note": "Long: overbought RSI 78.6, %b>1, negative structure_bias, crowded L/S 1.97 into an earnings gap = poor expectancy. Short: entry already ~1% below the high, ATR 0.51% gives R:R ~1.1 fighting ADX-87 uptrend. Neither clears 1.5R; HOLD.",
+  "rationale": "MSFT is a strong but extended uptrend (RSI 78.6, BB %b>1) fading off a 393.4 rejection into a major binary: live FOMC Wed and earnings Wed after close, with crowded-long positioning (L/S 1.97) and negative structure_bias. There is no honest R:R short here (entry already below the high, tiny ATR, fighting ADX 87) and no reason to buy an overbought name naked into a gap-risk print. Sit flat and let the event resolve.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 386.0,
+    "expires_min": 240,
+    "note": "Losing the 386 VWAP/pivot confirms the 393 rejection rollover and opens a cleaner short toward 378; a reclaim above 393.4 re-opens the long."
+  },
+  "transcript": {
+    "macro": "Regime MIXED / cautious-defensive into a LIVE FOMC Wed Jul 29 (~30% odds of a HIKE \u2014 hawkish-tail, not a benign hold), layered on the busiest megacap-earnings week of the quarter. Oil crashed 7%+ (Brent <$90) on US-Iran de-escalation = disinflationary: soft dollar, lower real yields, lifts precious metals, pressures crude. Equity tape two-sided (record S&P, heavy/gappy Nasdaq; SOX in a bear market). Funding is flat across tokenized names (no signal); the usable contrarian tell is the long/short ratio, lopsidedly LONG (2.0-3.5) across the equity/metals book = crowded-long, rallies into resistance vulnerable to long-liquidation air-pockets. Backdrop argues for smaller size and reluctance to carry fresh risk through Wednesday.",
+    "sentiment": "Risk-off tilt into a heavy event week. Earnings status: INTC (Jul 23), TSM (Jul 16/17), GOOGL (Jul 22), TSLA (Jul 22) have ALL reported and now trade on the semiconductor bear-market tone / post-earnings unwinds (all fell on beats due to capex/margin worries). Un-tradeable-through-print risk flags: MSFT earnings Wed Jul 29 after close, AAPL earnings Thu Jul 30 after close. FOMC Jul 29 is a macro binary hitting XAG, CL and all tech at once. CL: oil gapped lower on US-Iran easing (~$84 from ~$92), OPEC+ Aug 2 supply hike expected, glut narrative building, two-sided/headline-sensitive. XAG: near $58-60 after ~7.5% rally on safe-haven + softer dollar; FOMC is the swing factor. ORCL: no imminent earnings (~Sept 7-9), choppy. AAPL is the scan outlier (negatively correlated to the semi selloff) so may not track the chip rout.",
+    "analyst": "MSFT is a strong but extended uptrend (RSI 78.6, BB %b>1) fading off a 393.4 rejection into a MAJOR binary: live FOMC Wed AND earnings Wed after close, with crowded-long L/S 1.971 and negative structure_bias (-0.314). No honest short R:R here (entry already ~1% below the high, ATR only 0.51%, fighting ADX 87), and no reason to buy an overbought name naked into a gap-risk print. Sit flat and let the event resolve.",
+    "portfolio": "HOLD MSFT \u2014 extended into a live FOMC + earnings-print binary Wed; no naked size, no clean R:R."
+  },
+  "timestamp": "2026-07-27T15:08:42.847320+00:00"
+}

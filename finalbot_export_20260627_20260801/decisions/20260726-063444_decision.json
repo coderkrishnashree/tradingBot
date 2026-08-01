@@ -1,0 +1,26 @@
+{
+  "symbol": "EWJ/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.34,
+  "size": 0.0,
+  "entry": 91.98,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "forecast": "Tape stays pinned near 91.93-91.98 at zero volume through the weekend; first real print comes at US cash open Monday, likely a gap rather than a tradeable intraday path. No concrete next-candle move to trade.",
+  "expectancy_note": "No live order flow to price a stop/target against; adding the BOJ (Jul 30-31) binary inside the hold window turns any long into negative expectancy. HOLD dominates every entry.",
+  "rationale": "EWJ is a tokenized equity with a dead underlying: US cash closed, 15m/1h/5m candles printing identical 91.93->91.98 at 0 volume with RSI pinned at 100 and intraday ATR% = 0.0 \u2014 every bullish signal here is a stale-feed artifact, not real demand. No honest ATR/structure stop or target can be set on a flat illiquid tape, and rel_strength -6.12% vs BTC shows the ETF is a laggard. With BOJ (Jul 30-31) a binary inside the 48h window against a record-high euphoric Nikkei, asymmetry is to the downside; size is 0 until the feed is live at cash open.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 92.5,
+    "expires_min": 240,
+    "note": "A clean break above 92.5 on real volume proves the feed is live at US cash open; re-debate with genuine levels and BOJ event risk priced in (resistance 93.34, support 89.53)."
+  },
+  "transcript": {
+    "macro": "Critical: scan Sunday 06:29 UTC \u2014 US cash equities CLOSED. EWJ is a tokenized equity with a dead underlying: tape stale/synthetic (identical 91.93 candles at 0 volume, RSI 100 intraday). Untradeable until US cash open; weekend gap risk into Monday. BOJ meets Jul 30-31 \u2014 inside a 2-day hold window \u2014 event risk. Backdrop constructive for Japan equities (weak yen USD/JPY ~162, BOJ expected hold at 1%, Nikkei firm) but rel_strength -6.12% vs BTC. Environment HOSTILE on liquidity/timing now.",
+    "sentiment": "EWJ scan stale/illiquid (flat 91.93 tape, near-zero volume, RSI 100) \u2014 tokenized ETF trading thin off US-hours, gaps likely on US open. Hard catalyst: BOJ Jul 30-31; hawkish surprise is yen-positive but a headwind for Japanese equities/EWJ. Nikkei euphoric/stretched at record highs \u2014 asymmetric downside if BOJ hawkish. Near-term news is a RISK not a tailwind; neutral-to-cautious into event.",
+    "analyst": "EWJ scan is untradeable \u2014 tokenized Japan ETF sampled Sunday 06:29 UTC with US cash closed, so the tape is synthetic: identical 91.93->91.98 prints at zero volume, RSI pinned 100, intraday ATR% = 0.0. The composite 'long' is a stale-feed artifact, not order flow \u2014 nothing to price a stop against. Rel_strength -6.12% vs BTC (laggard), and BOJ (Jul 30-31) is a binary inside the hold window against a euphoric record-high Nikkei, so any long carries negative-expectancy event risk. HOLD, size 0. Reconsider only on a real break above 92.5 on genuine volume at Monday cash open.",
+    "portfolio": "EWJ \u2014 HOLD (0.34): weekend-closed tokenized equity, dead/synthetic tape, plus BOJ event risk; no trade until cash open."
+  },
+  "timestamp": "2026-07-26T06:34:44.290885+00:00"
+}

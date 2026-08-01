@@ -1,0 +1,25 @@
+{
+  "symbol": "MSFT/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.5,
+  "size": 0.0,
+  "entry": 386.1,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "expectancy_note": "Short into RSI 27.8 / sub-lower-band in a supportive AI up-tape = negative expectancy (squeeze risk, tiny room to support 367.7 already priced); long has no confirmation vs live intraday downtrend + offered book. Both edges <0; wait for a level.",
+  "rationale": "MSFT is oversold-flushing (RSI 27.8 on 4h, 26.6 on 30m, BB %B -0.11 below the lower band, -0.7% under VWAP) with ADX 45.5, but into a hostile-for-shorts megacap AI up-tape (SMH +2.7%) and with the 5m already flipped long (+0.9). Chasing a short sub-28 RSI toward support 367.68 offers poor R:R and high squeeze risk; a fresh long fights three down timeframes and a heavily-offered book (imbalance -0.714, L/S 1.80 net-long). No 48h binary catalyst (earnings ~Jul 28). Best expectancy is to wait for the tape to resolve: a VWAP/structure reclaim confirms the bounce, a clean loss of support confirms continuation.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 389.0,
+    "expires_min": 240,
+    "note": "Reclaiming ~389 (back above VWAP/intraday structure) proves the oversold bounce is real and aligns a long with the supportive AI tape; below it the flush is still live and neither side has edge."
+  },
+  "transcript": {
+    "macro": "Regime mildly risk-on but late-cycle, hawkish-Fed melt-up; S&P +0.7%, Nasdaq +1.3%, semis/AI leading (SMH +2.7%). Fed on hold 3.50-3.75% w/ hawkish tail, DXY >100, 10yr 4.49%. CPI Jul 14 / FOMC Jul 28-29 both outside 48h window. MSFT btc_corr 0.29 (equity story, not crypto beta). Megacap tech leads the tape -> macro SUPPORTIVE for longs / HOSTILE for fresh shorts, yet scanner flags a counter-tape SHORT off an oversold flush (RSI 27.8). Funding flat, L/S 1.80 net-long, orderbook -0.714 (heavy offer), 5m flipped long +0.9. Shorting a megacap sub-28 RSI into an AI up-tape = high squeeze risk; environment argues smaller size, quick management, not a swing.",
+    "sentiment": "MSFT NET bearish-to-neutral short-term. Megacap tech in broad AI-capex selloff; investors demanding 'proof of returns' on ~$452B hyperscaler capex, MSFT in crosshairs. Fresh regulatory overhang: Italian AGCM Copilot probe (Jul 3) + active UK & US FTC antitrust probes on Azure/Office/Teams/Copilot bundling + OpenAI tie (negative drift, not binary). Earnings NOT in window (~Jul 28, 3 weeks out). No bullish catalyst inside 48h; risk skew leans against longs -> modestly supportive of scanner short bias, but drift not a dated trigger.",
+    "analyst": "Oversold flush (RSI 27.8/26.6, BB %B -0.11, -0.7% VWAP, ADX 45.5) into a hostile-for-shorts AI up-tape with 5m already flipped long. Short chases sub-28 RSI toward support 367.68 = poor R:R + squeeze risk; long fights three down TFs + offered book (-0.714, L/S 1.80). No 48h binary. Both edges <0 -> HOLD; wait for VWAP/structure reclaim (~389, long) or clean loss of support (short continuation).",
+    "portfolio": "MSFT/USDT:USDT -> HOLD (conf 0.50): no-trade at range boundary; armed to flip long above 389, short on a clean support break."
+  },
+  "timestamp": "2026-07-06T16:11:36.256666+00:00"
+}

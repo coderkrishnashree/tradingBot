@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "ORCL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Oversold bounce off 131 support is already running (last 8 bars: higher lows 131.28->133.18, close at bar high); expect it to stall into VWAP/133.5-134.5 over the next few bars, then chop \u2014 no clean edge to enter either side here.",
+  "expectancy_note": "Short: fresh entry at RSI21/%B0.10/VWAP-2.75% into an active bounce = the account's classic late-short loss (bounce hits stop before trend resumes), learned p_win only 0.32 \u2014 negative expectancy. Long: counter-trend vs 4h ADX74 downtrend with crowded L/S 2.61 above = poor R:R. HOLD beats both.",
+  "rationale": "ORCL is a genuine 4h falling knife (RSI 21.6, ADX 73.9, RS -19.6%) but deeply oversold and mid-bounce off 131 support, so neither side offers honest R:R right now: shorting here chases into a stretched, bouncing tape that will hit any tight stop, and buying fights an intact strong downtrend with trapped longs (L/S 2.61) overhead. The clean, higher-expectancy trade is the continuation short on a decisive break of 131 support (entry on the breakdown retest, stop ~1x ATR above, target toward the next 4h level), not a market short into RSI 21. Wait for the level to resolve.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 131.0,
+    "expires_min": 240,
+    "note": "Loss of the 131.01 support (the only thing holding the bounce) confirms the 4h downtrend resuming and opens a clean continuation short with a real breakdown level to anchor the stop."
+  },
+  "transcript": {
+    "macro": "Cycle scan 2026-07-14 05:28 UTC (thin overnight tape). Regime modestly RISK-ON, two-tiered (software supported). Funding ~zero (no signal). L/S skew: ORCL 2.61 \u2014 MOST crowded-long of the four (strongest contrarian caution); structure_bias -0.33 (most negative). ORCL relative strength vs BTC -19.6% \u2014 already broken down HARD; 4h RSI 21, ADX 74 \u2014 falling knife. Low BTC-corr 0.39. Event-heavy US 48h (CPI/PPI/Retail Sales) headline-gap risk. Macro flags ORCL as a broken-down, deeply oversold, crowded-long name.",
+    "sentiment": "ORCL high-momentum AI-infra story but NO earnings this cycle (last Q4/FY26 June: rev +21%, cloud +47%, OCI +93%, RPO $638B +363% y/y). Huge backlog but huge cash burn \u2014 FCF -$23.7B FY26, FY27 capex ~$70B; leverage/AI-bet risk is the recurring bear narrative (multi-quarter, not 48h). Piper Sandler Jul 7 bullish on FY27 OCI \u2014 long-horizon, don't trade on it. Scan shows deeply oversold (4h RSI 21.6, RS -19.6%, near support 131) \u2014 technical stretch, NOT a fresh 48h headline. Net near-term NEUTRAL on news; any bounce/continuation is technical.",
+    "analyst": "ORCL: last 133.18, support 131.01, resistance 149.29, ATR% 1.37, 4h RSI 21.6, ADX 73.9, RS -19.64%, vwap_dist -2.75%, bb_pctb 0.097, L/S 2.61, structure_bias -0.334. 15m: bottomed 131.28 then eight higher lows into a close at the bar high (131.28->133.18), 5m RSI 83.2 \u2014 oversold bounce off 131 already underway. 4h is a genuine falling knife but a fresh short is textbook late-short-into-stretched-oversold (learned p_win 0.32) \u2014 any honest stop gets hit by the counter-bounce already happening; a long is counter-trend vs ADX-74 with crowded longs above. HOLD; reconsider continuation short on a clean loss of 131 support.",
+    "portfolio": "ORCL \u2014 HOLD (conf 0.60): 4h falling knife but mid oversold-bounce, no honest R:R; armed continuation-short reconsider at 131.0."
+  },
+  "timestamp": "2026-07-14T05:34:41.429577+00:00"
+}

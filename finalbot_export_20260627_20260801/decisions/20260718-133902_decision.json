@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "SOL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.55,
+  "playbook": "none",
+  "forecast": "Coiling 74.5-75.1 just above 73.3 support; likely grinds sideways to a small oversold bounce toward 75.6-76.0 VWAP over next 2-6 bars before the downtrend can resume. A clean break-and-hold under 73.3 opens 72.0 next.",
+  "expectancy_note": "Short p(win) here ~0.45 (account shorts avg -0.87R; late-short-into-oversold is the proven loss pattern); no long edge against ADX 40. Waiting for a 73.3 break OR a bounce to fade beats chasing into support in Extreme Fear.",
+  "rationale": "Real 4h downtrend (ADX 40, RSI 30.9) but price is only 1.4% above hard support 73.3, oversold, in crypto Extreme Fear with oversold BTC - max bounce risk, and the learner shows aligned/crowded shorts (structure_bias -0.49, rel-strength -0.41 weights) have been losing money. Two failed pushes at 75.1 plus a heavy down-flush say the range is intact, not broken. No clean R:R short into support and no long against the trend, so I stand aside for either a confirmed 73.3 breakdown or a bounce to fade.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 73.25,
+    "expires_min": 240,
+    "note": "Loss of 73.3 support confirms trend-continuation breakdown with clear room to 72.0 - that flips me to a with-trend short with real R:R."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF; desk leaning broad SHORT. Fri Jul 17 steep tech/chip selloff (Nasdaq100 -1.5%), Philly semi index ~bear market on TSMC capex-guide AI-capex fears. Crypto Extreme Fear (F&G 25), BTC heavy ~$63.9k, dominance 56.4%. SOL is the only 24/7-live name this weekend (btc_corr 0.785, mostly BTC-beta); rel-strength -2.08%, RSI 4h 30.9, ADX 40 real downtrend; long/short 2.78 crowded long (contrarian short support), funding ~flat (shorts not paying); Extreme-Fear + oversold BTC = bounce risk. Lean: short-with-trend but expect chop, modest size.",
+    "sentiment": "Overall risk-off, semi selloff deepening, tape favors shorts. SOL: neutral-to-constructive fundamentals vs bearish tape - Morgan Stanley amended SOL staking-ETF (MSOL) filed Jul 14; Solana #1 in RWA holders, throughput near ATHs; BUT spot-ETF flows two straight days zero net inflows, crypto Extreme Fear. No hard <=48h binary; near-term news neutral, broad fear + stalled ETF flows lean slightly with a short.",
+    "analyst": "Real 4h downtrend but price only 1.4% above hard support 73.3, oversold, Extreme Fear - max bounce risk. Two failed pushes at 75.1 + heavy down-flush = range intact not broken. Learner: aligned/crowded shorts losing (36 shorts, 47% win, -0.87 avg). No clean R:R short into support, no long against ADX 40. Stand aside for a confirmed 73.3 breakdown or a bounce to fade.",
+    "portfolio": "SOL/USDT:USDT -> HOLD (conf 0.55): no clean R:R short into support in Extreme Fear; wait for 73.3 breakdown or VWAP bounce to fade."
+  },
+  "timestamp": "2026-07-18T13:39:02.022362+00:00"
+}

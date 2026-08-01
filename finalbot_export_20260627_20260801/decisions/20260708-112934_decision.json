@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "ORCL/USDT:USDT",
+  "confidence": 0.55,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "trend",
+  "forecast": "Price basing on higher-lows at 137.6-139.0 support after the 11:00 flush; next bars likely a reflex bounce toward VWAP/139.5-140.5 OR a fresh break of 137.63.",
+  "expectancy_note": "Shorting here sits ~1 ATR (2.8pts) above 137.63 support with RSI 26/stoch 11/%B -0.16 oversold; TP1 to support gives <1R while a squeeze to VWAP is 2R against. Wait for bounce-to-VWAP short or support break for R:R>1.5.",
+  "rationale": "ORCL is the cleanest trend-short thesis (ADX 34, rel_strength -24.8, L/S 2.07 crowded long, no <=48h catalyst) but the ENTRY is wrong: price -2.98% below VWAP with 15m/30m RSI 26/24, stoch 11 and %B below the lower band, basing on higher-lows directly on 137.63 support after the coordinated flush. Macro flags 5m flip to bounce mode and squeeze risk. Shorting mid-air here targets support only ~1 ATR away for sub-1.5R while risking a reflex pop to VWAP. Better to wait for a bounce toward 139.5-140.5 to sell the trend, or a decisive 137.63 break with volume.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 137.6,
+    "expires_min": 240,
+    "note": "Losing 137.63 on volume confirms the flush resumes, opening ~134-135; that is the trend-continuation short trigger."
+  },
+  "transcript": {
+    "macro": "RISK-OFF regime supportive of shorts: S&P -0.5%, Nasdaq -1.2%, semis-led selloff on fresh US-Iran escalation; WTI/Brent +6%, oil revives inflation premium, pushes back Fed cuts, firms USD. BTC ~$62k (from $126k Oct-2025 peak), dominance ~54-55%. Coordinated intraday flush ~11:00-11:15 UTC across all names. No top-tier US macro print inside 48h - tape risk is headline/geopolitical (de-escalation squeeze risk). Funding ~0 on tokenized-equity perps. Every name oversold intraday with 5m bounces firing - favor selling reflex rallies, not chasing lows. ORCL-specific: rel_strength -24.8 (weakest name), L/S 2.07 crowded long, cleanest trend-continuation short but extended (-2.98% below VWAP, RSI 15m 27).",
+    "sentiment": "ORCL: beat FQ4 (6/10: EPS $2.03 vs $1.96, RPO +363% to $638B, OCI +93%), no <48h binary, $70B FY27 capex overhang, ex-div record 7/10 ($0.50). Recovering but capex-jittery. Overall: tech/AI constructive but stretched; crypto in Extreme Fear but bid on rate-cut hopes.",
+    "analyst": "Cleanest equity trend-short thesis but the entry location is poor: price basing on higher-lows on top of 137.63 support after the coordinated flush, 15m/30m RSI 26/24, stoch 11, %B below lower band. Shorting mid-air targets support ~1 ATR away = sub-1.5R and risks a reflex squeeze to VWAP. HOLD; arm a short on a bounce to 139.5-140.5 or a clean break of 137.63.",
+    "portfolio": "HOLD ORCL - right thesis (crowded-long laggard), wrong entry; stand aside for a VWAP bounce short or a 137.63 breakdown."
+  },
+  "timestamp": "2026-07-08T11:29:34.272187+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "META/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Oversold bounce likely first: from 599.3 a relief pop toward VWAP ~605 over the next 2-6 bars, where the broken 4h downtrend should reject; only a decisive loss of 592.5 support opens clean downside toward 585.",
+  "expectancy_note": "p(win) on a market short here ~0.4: 5m RSI 18 + price 1% below VWAP = classic bounce-into-stop trap (this account #1 loss pattern); no clean R:R with support 592.5 only 1.1% away. HOLD beats forcing it.",
+  "rationale": "META 4h is genuinely broken (score -0.8, RSI 33) but 5m RSI 18 and -1% below VWAP means shorting the low here gets stopped by the routine bounce before the trend resumes. Support 592.5 is too close (~1.1%) to give a short honest R:R, and a long is counter-4h-trend. Overlay: US cash CLOSED Sunday, Monday gap risk into a double binary (FOMC Jul 28-29 + META earnings Wed AMC) - thin/gappy tape where I do not want naked size. Best expectancy is to wait for either a VWAP reject to short at ~605 or a decisive 592.5 break.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 592.5,
+    "expires_min": 240,
+    "note": "Losing 592.5 support confirms the 4h breakdown and opens clean downside toward 585 - that break, not the oversold low, is the honest short entry."
+  },
+  "transcript": {
+    "macro": "Regime HOSTILE-to-MIXED. S&P -1.21%, Nasdaq -2.15% on Jul 23; S&P below 50-day MA. FOMC Jul 28-29: ~36% hike tail. Firm dollar. Sunday Jul 26 US cash CLOSED; equity perps thin/gappy; Monday gap risk into FOMC week. META: crowd near-balanced (L/S 1.16), orderbook +0.26; 4h broken (score -0.8, RSI 33, 5m RSI 18) - short thesis extended/oversold, chase risk into bounce.",
+    "sentiment": "META: EARNINGS Wed Jul 29 AMC - HARD BINARY inside the cycle. Consensus ~$60B rev; down ~10% YTD, recovered from 20% drawdown. Options imply large move; AI-ad monetization + capex guide are swing factors. Reports SAME afternoon as FOMC - double event risk. Do NOT hold naked size into Wed close.",
+    "analyst": "META 4h genuinely broken (score -0.8, RSI 33) but 5m RSI 18 and -1% below VWAP = shorting the low gets stopped by routine bounce. Support 592.5 only ~1.1% away = no honest short R:R; long is counter-4h-trend. US cash CLOSED Sunday, Monday gap into double binary (FOMC + META earnings Wed AMC). Wait for VWAP reject (~605) to short or decisive 592.5 break. HOLD.",
+    "portfolio": "META: HOLD (conf 0.60) - broken 4h but oversold; short only on VWAP reject or 592.5 break, never naked into Wed earnings+FOMC."
+  },
+  "timestamp": "2026-07-26T13:35:18.608538+00:00"
+}

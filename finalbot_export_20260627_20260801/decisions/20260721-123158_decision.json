@@ -1,0 +1,22 @@
+{
+  "action": "buy",
+  "symbol": "NVDA/USDT:USDT",
+  "size": 2.0,
+  "entry": 205.35,
+  "stop_loss": 203.55,
+  "take_profit": 210.5,
+  "take_profit_1": 208.2,
+  "take_profit_2": 210.5,
+  "confidence": 0.6,
+  "playbook": "trend",
+  "forecast": "Shallow pullback to retest the 205.3-205.5 breakout shelf within 1-3 bars, then trend resumes toward 208.2 and on to 210.5; last 15m bar stalled at 206.34 and closed weak, so the dip fills the limit before continuation.",
+  "expectancy_note": "p(win)~0.60, R:R 1.58 to TP1 (reward 2.85 vs risk 1.80); trend playbook beats a market chase because 1h RSI 88.5 is stretched.",
+  "rationale": "Strong trend (ADX 54, all TFs long-aligned, composite 70.9% long, learner longs 0.69 win/+2.28) but LTF is stretched (1h RSI 88.5, 5m/30m RSI ~74) and the last 15m bar rejected 206.34 closing near its low, so a market entry would risk the routine pullback stop. A limit at the 205.3-205.5 breakout shelf gives a 1x-ATR stop below the base (203.55) and clean 1.58 R:R to TP1 at 208.2, riding toward 210.5. Size kept at 2% given Big Tech earnings/FOMC cluster, negative RS vs BTC, and crowded long/short structure bias (-0.18).",
+  "transcript": {
+    "macro": "Regime: MIXED / cautiously risk-on into event risk. US indices near records but digesting US-Iran tensions; soft June CPI (3.5%) supportive; DXY firm ~105.4, 10Y ~4%. FOMC 7/29 and BOJ 7/30 loom, Big Tech earnings begin this week. Crowded long/short ratios (1.6-2.6) across nearly every name into rising event risk -> trade small. Per-name: NVDA cautiously supportive (chip leadership bid, RS -6.6% vs BTC, earnings landmines) size down; HOOD mixed (fading internals, RS -17%); AAPL stretched short (RSI 18, ADX 74, bounce risk); XAUT range/neutral (~$4,020, firm DXY headwind, crowded L/S 2.57); EWJ hostile microstructure (near-zero volume, BOJ 7/30); SOL mixed (BTC-beta corr 0.78, OI contracting, funding negative, crowded long).",
+    "sentiment": "Dominant tape: violent AI-chip/semiconductor selloff in July (SOX -10-17%, >$1T chip cap erased) from custom-silicon competition, HBM slowdown, compute-surplus fears; risk-off rotation out of AI beta. FOMC July 28-29. No name has a hard catalyst inside 24-48h. NVDA: relatively resilient in selloff, no earnings until Aug 26. HOOD: earnings Wed 7/29 (outside window). AAPL: earnings Thu 7/30 (Cook's final call), oversold into strong YTD run. XAUT: defending $4,000, Goldman/JPM cut targets, $3,960 critical support. EWJ: MOST BEARISH - Nikkei -4% Fri on semi selloff, BOJ 'behind the curve'. SOL: constructive - testing $73-75 support, +4% wk, ETF assets >$1B, but venture unlock supply caps upside; above $80 = trend start.",
+    "analyst": "BUY limit 205.35, SL 203.55, TP 208.2/210.5. Strong ADX-54 trend, all TFs long, learner longs win 0.69/+2.28, but 1h RSI 88.5 stretched and last 15m bar rejected 206.34 closing weak -> buy the retest of the 205.3-205.5 shelf rather than chase. R:R 1.58 to TP1. Size 2% for earnings/FOMC + crowded L/S.",
+    "portfolio": "NVDA: BUY limit 205.35 (conf 0.60, size 2%) - buy the pullback into strong trend, size down for event risk."
+  },
+  "timestamp": "2026-07-21T12:31:58.886956+00:00"
+}

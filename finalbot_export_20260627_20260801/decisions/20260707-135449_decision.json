@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "NVDA/USDT:USDT",
+  "confidence": 0.58,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "none",
+  "forecast": "Dead-cat bounce off 190.97 has stalled at 192.8-193.4 and price is rolling back to 192.29; expect either a fade-rally retest of 193.0-193.4 (VWAP) that fails, or a slow grind toward the 190.16 support shelf. Best short is on the rally, not the low.",
+  "expectancy_note": "Shorting 192.29 into 190.16 support (only ~1% away) is ~0.8R and chases the flush; waiting to fade 193.0-193.4 gives a ~2R short with the down-trend and crowded-long structure.",
+  "rationale": "Structure is decisively bearish (L/S 1.97 crowded long, offers stacked, structure_bias -0.452, weakest name at RS -4.63) and trend is strong down (ADX 49, all TFs short), so bias is a short. But 4h RSI 25.3 / 1h 27.8 and price 2% under VWAP sitting on 190.16 support mean this is late-stage, not fresh \u2014 selling the low here is poor R:R with support ~1% below. The dead-cat bounce already stalled at 192.8-193.4; the high-expectancy trade is to fade a retest of that zone, not chase the flush. Holding flat until a proper fade-rally short or a support loss to reset lower.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 192.95,
+    "expires_min": 240,
+    "note": "Reclaim into 192.95-193.4 is the failed-bounce/VWAP fade zone \u2014 a rally back there sets up a clean short with the down-trend and crowded-long structure."
+  },
+  "transcript": {
+    "macro": "Regime MIXED, tilting cautious near-term. Multi-day trend risk-on/semi-led, but active intraday semi flush (NVDA/MU/TSM/SNDK/INTC washout candles, sub-20 RSIs). Fed on hold 3.50-3.75%, mild headwind. Crypto irrelevant (BTC corr 0.32). Crowd lopsided LONG across the board = contrarian caution. NVDA structure_bias -0.452 (funding +0.0002 longs paying, L/S 1.97 crowded long, offers tilted); positioning favors downside but already flushed (4h RSI 25.3), best as fade-rallies not sell-the-low.",
+    "sentiment": "Risk-off in semis (Korea/KOSPI rout, SK Hynix -14.6%, Apple maybe sourcing memory from Chinese rival). No first-tier macro binary in 48h. NVDA: no imminent binary, next earnings Aug 26 (outside window); Blackwell demand strong but long-horizon. NVDA riding semi selloff + oversold bounce mechanics; news neutral-to-slightly-short-supportive, move is technical/sector-driven.",
+    "analyst": "Deep oversold flush, weak dead-cat bounce to ~192.8-193.4 now fading; price 192.29 mid-range between 190.16 support and 193.4 bounce high. Structure decisively bearish and trend strongly down, but selling into support ~1% below is poor R:R. Best expectancy is to fade a retest of 193.0-193.4, not chase the low. HOLD, armed to short on a rally into the fade zone.",
+    "portfolio": "NVDA: HOLD (conf 0.58) \u2014 bearish bias but oversold on support; wait to fade a rally into 192.95-193.4."
+  },
+  "timestamp": "2026-07-07T13:54:49.148036+00:00"
+}

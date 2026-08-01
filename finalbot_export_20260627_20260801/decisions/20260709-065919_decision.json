@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "QQQ/USDT:USDT",
+  "confidence": 0.5,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "none",
+  "forecast": "Price is at the top of a 5-point overnight grind (711->716.5) on fading volume with 15m/1h RSI ~70; expect a stall and a pullback toward the 712.5-713 higher-low/VWAP zone over the next 2-6 bars, which is the real long entry, not 716.2.",
+  "expectancy_note": "Buying 716.2 into thin closed-market liquidity is chasing: entry sits ~+0.6% above VWAP with near-term RSI hot, so R:R to 720 resistance is poor. Waiting for the 712.5 dip gives a ~1x ATR stop under structure and 1.5R+ to 720/723 \u2014 far better expectancy. Learner shows longs/trend-chasing bleed (-1.9 to -2.8 avg).",
+  "rationale": "Structure is mildly long-friendly (L/S 0.816 contrarian-short, OB +0.125, bullish 4h divergence, bias +0.091) but the tape is already extended at the top of an overnight grind on 3-vol into a CLOSED US cash market with gap risk. This is a good thesis at a bad price. The correct move is to arm a dip-buy at the 712.5-713 higher-low/VWAP reclaim and skip the chase; also flags if 710.6 range-low breaks, invalidating the long.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 713.0,
+    "expires_min": 240,
+    "note": "A pullback into 712.5-713 (higher-low/VWAP zone) holding above 710.6 is the clean long entry for the bullish structure; crossing down into it re-arms the buy debate."
+  },
+  "transcript": {
+    "macro": "Regime MIXED, leaning risk-off (2026-07-09). Hawkish Fed, CPI 4.2% hot, yields rising, oil shock Brent +5.4%. Vol bid. Funding ~0 (no edge). US cash CLOSED at snapshot \u2192 perps thin/gap-prone; intraday RSI spikes are liquidity artifacts. QQQ: cleanest structure \u2014 L/S 0.816 (only net-short-positioned name = contrarian support for longs), OB +0.125, bullish 4h divergence, structure_bias +0.091, but rel-strength -3.4% (lagging) and it IS the index so wears full rates/hawkish-Fed headwind. Mildly supportive long, modest size.",
+    "sentiment": "QQQ: no company catalyst; it IS the macro basket. Driven by hawkish Fed and July 14 CPI (pre-market Wed). No <=48h binary before CPI. Bullish 4h divergence, mild long tilt. Verdict: NEUTRAL near term; real event is CPI July 14. Trade on price until then.",
+    "analyst": "15m candles coil then grind up: 711.02 low \u2192 higher-lows \u2192 716.66 high, now 716.21 near highs on fading volume (last bar 3.02 vol). 4h RSI 44 but 15m/1h RSI 69-72 (hot). ADX 45, %B 0.565, VWAP dist +0.6% (slightly extended). Support 698.42, resistance 736.92. Structure mildly bullish (L/S 0.816, OB +0.125) but this is the TOP of a short grind into closed thin liquidity \u2014 buying 716.2 is chasing. Clean long is a dip to 712-713 (VWAP/higher-low). HOLD with armed dip-buy.",
+    "portfolio": "HOLD QQQ \u2014 good long thesis, bad price; arm dip-buy at 712.5-713, invalidate below 710.6."
+  },
+  "timestamp": "2026-07-09T06:59:19.129300+00:00"
+}

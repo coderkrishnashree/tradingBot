@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "XAG/USDT:USDT",
+  "size": 0.0,
+  "entry": 59.93,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Frozen coil at the $60 round number: last 20 15m bars span barely 0.1% (ATR 0.02%). Expect continued chop between 59.7 and 60.2 into the CPI print; no directional move is set up in the next few candles.",
+  "expectancy_note": "No edge: long chases +1% above VWAP into a 3.39 crowded book with no dip; short has the crowding tailwind but zero downside momentum sitting on $60 support with no trigger. Both fail R:R on honest ATR stops, so HOLD is the highest-expectancy line.",
+  "rationale": "Silver is pinned dead-flat at the $60 psychological level after a brutal drawdown; 15m/30m are flat with sub-50 RSI while only the 1h leans long and 4h MACD is still negative. The standout signal is the extreme long/short ratio (3.39) and structure_bias -0.324 \u2014 crowded longs create squeeze risk but there's no exhaustion trigger yet, and price is +1.05% above VWAP so there's no dip to buy either. With no 48h silver catalyst (CPI Jul 14 is the real driver) and a frozen tape offering no concrete next move, the disciplined play is to stand aside and let a level break define direction. Size 0.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 59.3,
+    "expires_min": 240,
+    "note": "Losing the $60 shelf on volume validates the crowded-long squeeze toward 57.31 support \u2014 the highest-information break to trade short."
+  },
+  "transcript": {
+    "macro": "Regime MIXED/fragile, DXY soft ~101, rates higher-for-longer, no FOMC/CPI landmine in 48h. XAG: BULLISH with crowding caveat \u2014 cleanest fundamental story (6th year supply deficit ~46Moz, 60%+ industrial demand, +61% YoY, holding $60). KEY RISK: long/short 3.39 very lopsided long, structure_bias -0.324 (contrarian short from crowding). OI large 371k. Enter on dips not chase; smaller size than conviction suggests.",
+    "sentiment": "NEUTRAL, choppy consolidation. ~$60 after ~50% drawdown from Jan peak, -10% past month, still +57% YoY, held $60 support Jul 10. Structural bull case is multi-quarter, not a 48h mover. Near-term driver is macro/rates: US June CPI Tue Jul 14 8:30 ET \u2014 highest-conviction <=48h catalyst, swings DXY/real yields. Long/short 3.39 stretched = squeeze risk on a soft print. Neutral into the print.",
+    "analyst": "15m tape frozen flat at the $60 round number \u2014 20 bars barely 0.1% total range (ATR 0.02%), last 59.93. Only 1h leans long; 15m/30m flat sub-50 RSI, 4h MACD still negative. Long chases +1.05% above VWAP into a 3.39 crowded book with no dip; short has the crowding tailwind but zero downside momentum sitting on $60 support with no trigger. Neither meets R:R on honest ATR stops. HOLD; squeeze-break short trigger armed below the $59.3 shelf.",
+    "portfolio": "HOLD XAG \u2014 frozen coil at $60, crowded long but no exhaustion trigger; stand aside, short trigger armed below 59.3."
+  },
+  "timestamp": "2026-07-11T04:00:13.811890+00:00"
+}

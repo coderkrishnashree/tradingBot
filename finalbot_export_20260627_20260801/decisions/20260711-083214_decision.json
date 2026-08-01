@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "CRCL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Charter pop is fading: the 67.55 spike was sold and price drifted to 67.10 with 5m RSI ~31 (already extended down). Expect a dead-cat bounce toward the 67.8-68.2 broken-support/VWAP zone over the next 2-6 bars, where crowded longs re-load and the fade re-arms; a market short here just feeds that bounce and gets stopped.",
+  "expectancy_note": "No clean level at 67.10, mid-range, ATR 3.4%, weekend gap + CPI Tue; shorting into 5m RSI 31 is chasing (account shorts 0.47 win, -1.65 avg). Best-EV move is to wait for the bounce to 67.9 to short the crowded-long fade at a real level, R:R >1.5.",
+  "rationale": "Structure (L/S 2.72, bias -0.32, RS -18%) favors a contrarian short, but the immediate down-leg is already extended (5m RSI 31.6) so a market short chases into a due bounce \u2014 the exact way this book's late shorts died. Longing a fading charter pop into crowded positioning, weak relative strength and weekend/CPI gap risk is negative-EV. HOLD until a bounce lifts price into the 67.9 broken-support/VWAP retest, where the fade sets up with a tight stop above the 68 shelf.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 67.9,
+    "expires_min": 240,
+    "note": "A bounce into the 67.9-68.2 broken-support/VWAP zone re-arms the crowded-long fade short with a tight stop above 68 and target back toward 66 range low."
+  },
+  "transcript": {
+    "macro": "Regime mildly risk-on but stretched. Higher-for-longer, DXY firm. Crowded-long positioning almost everywhere. CRCL is a Circle equity perp on a CLOSED weekend underlying -> gap risk into Monday + CPI Tue Jul 14 + bank earnings. Funding 0, OI ~41k, long/short 2.72 = CROWDED LONG -> structure_bias -0.32 (contrarian short). Weak vs BTC (RS -18%), moderate BTC corr 0.53. Environment MIXED / lean cautious \u2014 crowded-long positioning is the biggest risk; favor smaller size or flat.",
+    "sentiment": "CRCL has a FRESH catalyst actively moving price: on Jul 10 Circle won FINAL OCC approval for a national trust bank charter -> shares +8-16% intraday (near $67-68, spiked ~$73.80 premarket) \u2014 inside the 48h shock window, likely why it topped the scan. Offsetting: 140-company consortium (BlackRock, Coinbase, Visa, Mastercard, Stripe) backing rival 'Open USD'; Compass Point cut PT to $55. News argues FOR the long but expect elevated volatility and possible fade into Monday open.",
+    "analyst": "Structure (L/S 2.72, bias -0.32, RS -18%) favors a contrarian short, but the immediate down-leg is already extended (5m RSI 31.6) \u2014 a market short chases a due bounce, the exact way late shorts died. The 67.55 spike was sold and price drifted to 67.10; charter pop is digesting/fading. Longing a fading pop into crowded positioning, weak RS and weekend/CPI gap risk is negative-EV. HOLD until a bounce into 67.9-68.2 broken-support/VWAP re-arms the fade short with a tight stop above 68.",
+    "portfolio": "HOLD CRCL \u2014 bullish charter catalyst vs crowded-long fade + weekend gap cancel out; short only re-arms on a bounce to 67.9."
+  },
+  "timestamp": "2026-07-11T08:32:14.170336+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "CRCL/USDT:USDT",
+  "size": 0.0,
+  "entry": 63.44,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Coils 63.2-64.1 pre-open; a decisive break under the 63.16 intraday low opens the move toward 62.4 then 59.44 support. Until 09:30 ET this is thin/gappy chop with no clean entry.",
+  "expectancy_note": "Short bias is real (4h/5m down, ADX 63.8, L/S 2.66 crowded longs, RS -17.6%) but price sits mid-range near VWAP, not extended. Shorting the stall pre-open has weak R:R and gap risk; wait for the 63.16 break.",
+  "rationale": "The tape is bearish but there is no edge at 63.44: price is coiling mid-range (+0.54% off VWAP, RSI 41, not oversold), the down-move has stalled rather than accelerated, and the scan is stamped US pre-open where perps are thin/gappy. A short here sells into a stall and risks the routine bounce to VWAP/64.1 stopping out before continuation. Better to wait for the 63.16 intraday-low break (or a bounce into 64.0-64.2 to fade); size stays zero.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 63.15,
+    "expires_min": 240,
+    "note": "Losing the 63.16 intraday low confirms downside continuation off the crowded-long squeeze; flip to short targeting 62.4 then 59.44 support."
+  },
+  "transcript": {
+    "macro": "Regime MIXED, leaning constructive for longs but timing-gated. Risk-on backdrop. CRITICAL: scan ~07:29 ET = US PRE-OPEN; perps thin/gappy until 09:30 ET, size down. Low BTC correlation. CRCL: WEAKEST of four, RS -17.6% vs BTC, L/S 2.66 (most crowded long, structure_bias -0.35), 4h/5m trending down. Trapped longs = squeeze-lower risk; environment favors shorts/fades, not fresh longs.",
+    "sentiment": "CRCL (Circle): mixed/divided tone, no <=48h catalyst. Big driver already fired: final OCC national-trust-bank approval (Jul 9) spiked it +12%, now fading/consolidating. Next binaries far out: Q2 earnings Aug 18, Coinbase USDC renewal in August. Wall Street split (Clear Street $157 buy vs Goldman/Mizuho ~$65-96 Underperform), low-weight PT noise. Weak RS fits a post-news cooldown.",
+    "analyst": "Bias bearish (4h/5m/30m down, crowded longs, weak RS) but price is coiling mid-range near VWAP, not extended; RSI 41 not oversold. Shorting a stall pre-open = chase into noise with mediocre R:R to 59.44 support and gap risk. HOLD; arm short on 63.16 low break.",
+    "portfolio": "CRCL -> HOLD (conf 0.50): bearish lean but no extreme to sell; wait for 63.16 breakdown to short."
+  },
+  "timestamp": "2026-07-15T11:34:03.782090+00:00"
+}

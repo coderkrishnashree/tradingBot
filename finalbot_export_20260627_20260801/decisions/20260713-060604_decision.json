@@ -1,0 +1,26 @@
+{
+  "symbol": "MSTR/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.58,
+  "size": 0.0,
+  "entry": 93.31,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "forecast": "Price is base-building 92.5-93.4 just above support 91.92, deeply oversold (1h RSI 18.6, %B 0.024, -2.65% below VWAP); most likely path is a relief bounce toward VWAP ~95.5 over the next few bars OR a clean flush through 91.92 - want confirmation before committing either way.",
+  "expectancy_note": "Short p(win) low here: market-shorting into 1h RSI 18.6 / %B 0.024 / on support is the account's classic late-short-into-bounce loser. Long is fading a downtrend into CPI with 0.80 BTC-beta - coin flip. No positive-expectancy entry now; HOLD dominates.",
+  "rationale": "MSTR is essentially a BTC/CPI beta bet (corr 0.80, RS -13.3%) and is stretched short: -2.65% below VWAP, %B 0.024, 1h RSI 18.6, sitting on support 91.92 with the last 4 bars carving higher lows - precisely the extended tape where a routine bounce stops any fresh short. Shorting here chases; longing fades a real downtrend into Tuesday's CPI wall with US cash equities closed (thin/gappy). No honest R:R>=1.5 either way, so stand aside and let the level decide.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 91.92,
+    "expires_min": 240,
+    "note": "Losing support 91.92 breaks the base and confirms downtrend continuation - arms an active short toward 90; a reclaim of VWAP ~95.5 instead sets up the short at the retest."
+  },
+  "transcript": {
+    "macro": "Regime MIXED-to-cautious, event-gated (2026-07-13). New Fed Chair Warsh testifies Jul 14-15 (hawkish overhang; market pricing ~61% chance of a Sept rate HIKE - headwind for BTC-proxies). Dominant near-term catalyst: Tue Jul 14 08:30 ET June CPI + big-bank earnings - high-vol event wall <48h. US cash equities CLOSED now (Monday off-hours) so perps are thin/gappy. Crypto fragile/neutral: BTC ~$63-64k fighting a downtrend, holding ~$64k pivot; BTC dominance 1-month low; weak US spot demand (Coinbase premium negative ~50 days). MSTR IS a leveraged BTC/CPI bet (corr 0.80) - BTC's hold of ~$64k is the swing factor. Weak trend (ADX 25.5) + CPI wall = smaller size, don't hold blindly into Tuesday AM.",
+    "sentiment": "News modestly SUPPORTS the short. Regime shift: Strategy is now SELLING bitcoin - sold 3,588 BTC (~$216M) into early July, holdings 843,775 BTC; approved a BTC Monetization Program to raise up to $1.25B to fund preferred dividends + buybacks ($1B Class A repurchase + $1B digital-credit buyback). Reported an $8.32B Q2 digital-asset loss. The seller-of-BTC pivot is a sentiment negative vs the old 'infinite buyer' thesis, though buyback authorizations cushion it.",
+    "analyst": "Composite short 40% (weakest conviction), struct_bias -0.12 (weakest structure), ADX 25.5 (weak/unconfirmed trend), bearish divergence. Deeply stretched short: 1h RSI 18.6, %B 0.024, -2.65% below VWAP, sitting on support 91.92 with the last 4 bars carving higher lows. Shorting here chases into a routine-bounce stop; a long fades a real downtrend into a CPI binary with 0.80 BTC-beta. No honest R:R either way. HOLD; short a confirmed break below 91.92.",
+    "portfolio": "HOLD - leveraged BTC/CPI beta bet, stretched short on support 91.92; stand aside, short a break below 91.92."
+  },
+  "timestamp": "2026-07-13T06:06:04.714105+00:00"
+}

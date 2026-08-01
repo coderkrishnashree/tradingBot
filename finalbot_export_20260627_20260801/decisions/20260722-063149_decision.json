@@ -1,0 +1,22 @@
+{
+  "action": "short",
+  "symbol": "XAUT/USDT:USDT",
+  "size": 2.0,
+  "entry": 4125.0,
+  "stop_loss": 4140.0,
+  "take_profit": 4092.0,
+  "take_profit_1": 4100.0,
+  "take_profit_2": 4078.0,
+  "confidence": 0.58,
+  "playbook": "range",
+  "forecast": "Bounce to retest the 4125-4131 rejection zone within 1-3 bars, fail there (RSI 78 / %B>1 / bearish divergence / 2.56 crowded-long), then roll back toward 4100 and VWAP ~4078 over the next several 15m bars.",
+  "expectancy_note": "p(win)~0.58, reward to TP1 = 25 vs risk 15 = 1.7R; fading a clear-structure extreme (rejected 4131.7 high, bb_pctb>1, bearish div) beats chasing a stretched long with no macro tailwind and DXY headwind.",
+  "rationale": "XAUT is textbook-extended into 4131.7 resistance: RSI 77.7, ADX 81, %B 1.015, stoch 87.7, +1.71% vs VWAP, bearish divergence, and a crowded 2.56 long book with negative orderbook imbalance and flat funding - no fuel left for continuation, and macro (hawkish Fed, strong DXY, no fresh long catalyst) offers no tailwind. Momentum fades bar-by-bar off the high with the last bar closing on its low, so fade the retest rather than chase; a LIMIT short at 4125 avoids entering mid-air. Stop 4140 sits just above the 4131.7 structure high (~0.6x ATR), TP1 4100 then VWAP-area 4078 for ~1.7R+; 2% size reflects a moderate-probability fade against a live safe-haven bid.",
+  "transcript": {
+    "macro": "Regime MIXED-to-CAUTIOUS; Fed hawkish-hold, FOMC July 28-29, strong DXY = metals headwind. Gold ~$4,000-4,110, corrective (off Jan-2026 ~$5,589 peak, ~-22%), range-bound; no clean macro tailwind for fresh longs. Crowded-long (L/S 2.56), RSI ~78 with bearish divergence = exhaustion into resistance.",
+    "sentiment": "XAUT safe-haven bid (soft CPI July 14, reduced Fed-hike urgency, Iran geopolitics), first weekly rise in a month, 0.86 corr to XAG. But RSI ~78 / bearish divergence = extended. Momentum not event; no imminent trigger.",
+    "analyst": "Textbook exhaustion into 4131.7: RSI 77.7, ADX 81, %B 1.015, +1.71% vs VWAP, bearish div, crowded 2.56 long, negative book. Momentum fading off the high, last bar closed on its low. Fade the retest - LIMIT short 4125, stop 4140, TP1 4100 / TP2 4078 (~1.7R). 2% size: moderate-probability fade against a live safe-haven bid.",
+    "portfolio": "SHORT XAUT (limit 4125, stop 4140, TP 4100/4078) - fade a crowded, RSI-78, divergent exhaustion into resistance; the one qualifying trade this cycle."
+  },
+  "timestamp": "2026-07-22T06:31:49.538657+00:00"
+}

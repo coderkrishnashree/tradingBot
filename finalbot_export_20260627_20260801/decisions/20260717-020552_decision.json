@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "NVDA/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.55,
+  "playbook": "none",
+  "forecast": "Thin/stale tape (last 15m bar vol 0.5, US closed) grinding 204.4-205 into the US open; most likely a small mean-reversion bounce toward 206-207 VWAP zone rather than an immediate break of 199.26 support. Either resolves at the cash open.",
+  "expectancy_note": "Shorting RSI 23/stoch 3.4 with funding 0.0 (no crowd fuel), L/S net-long and +0.25 bid support is the account's proven money-loser (shorts n=35, avg -0.74R); p(win) for a fresh short here <0.45, so no positive-expectancy entry now.",
+  "rationale": "NVDA is deeply oversold in a strong semi-led downtrend, but there is NO short crowding to fuel continuation, only -1.57% under VWAP (not a clean fade extreme either), and a thin/closed market with open-gap risk. Chasing the short down here is exactly the late-short-into-stretched-tape pattern that has bled this book; a real short needs a bounce back to VWAP/213.96 to sell, and a real long needs a proven reclaim. Neither R:R is available at 204.77, so flat is the highest-expectancy call.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 199.26,
+    "expires_min": 240,
+    "note": "Losing the 199.26 support confirms trend continuation and opens a clean short toward the next leg down, resolving the oversold-bounce risk."
+  },
+  "transcript": {
+    "macro": "Regime risk-OFF, chip-led selloff (Thu 7/16: S&P -0.5%, Nasdaq100 -1.5%; Micron/AMD -5%, SanDisk -12%). Fed funds 3.50-3.75%, June CPI 3.5%/core 2.6%, FOMC 7/28-29 ~HOLD (~11d out). Scan @02:00 UTC with US+Tokyo cash CLOSED -> thin/stale prices, open-gap risk. NVDA funding 0.0 (no short crowding), OI 16.3k, L/S 1.506, orderbook +0.25, structure_bias -0.078; deeply oversold (4h RSI 29.7, ADX 83). Biggest risk: mean-reversion bounce at US open.",
+    "sentiment": "NVDA next earnings Aug 26 (outside window). Semis sold off hard 7/16; TSMC beat but shares -4%, dragging chips. NVDA worst in its chip group 2026 (~+5% YTD vs SOXX +59%). China H200 shipments 'very few'/trivial - narrative not 48h binary. Kyber delay rumor DENIED. Near-term leans mildly bearish, low conviction, no scheduled catalyst.",
+    "analyst": "Deeply oversold in a strong downtrend but NO short crowding (funding 0.0), only -1.57% under VWAP, thin/closed market w/ gap risk. Chasing short here = book's proven loss pattern (shorts n=35 avg -0.74R). No R:R at 204.77 either side -> HOLD; re-arm short on loss of 199.26 support.",
+    "portfolio": "NVDA: HOLD (0.55) - no positive-expectancy entry; watch 199.26 break."
+  },
+  "timestamp": "2026-07-17T02:05:52.635502+00:00"
+}

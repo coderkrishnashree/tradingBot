@@ -1,0 +1,25 @@
+{
+  "symbol": "XAG/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.5,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "size": 0.0,
+  "playbook": "none",
+  "forecast": "Price capitulated into 56.93 support on an 88k-volume flush with RSI 13.8, stoch 6.5, %B 0.01 and bullish divergence; expect a reflex bounce toward 57.5-57.8 over 2-4 bars rather than clean continuation \u2014 but no reversal bar has printed, so no confirmed entry.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 56.93,
+    "expires_min": 240,
+    "note": "A 15m close below 56.93 support breaks the floor that just absorbed capitulation volume, invalidating the bounce and opening a fresh short with real room toward the next structure."
+  },
+  "rationale": "XAG is directionless (ADX 3.8) and just flushed into support 56.93 with extreme oversold readings (15m RSI 13.8, stoch 6.5) plus bullish divergence \u2014 the exact spot where late shorts get squeezed and knife-catch longs get one more flush. The short breakout at 57.53 already ran its distance; entering now gives ~0.3% of room to a stop-inviting bounce, failing the 1.5R and no-chase checks. No trade until the level resolves; size 0.",
+  "transcript": {
+    "macro": "Regime risk-ON but extended. DXY firm on Waller hawkishness caps metals upside. Silver HOSTILE/MIXED \u2014 ~$57-58, down ~52% from Jan high; fresh 15m short breakout on 9.5x volume; L/S 3.90 = most crowded long on the board (contrarian bearish) but bullish divergence + oversold RSI 31 = squeeze risk. Directionless (ADX 3.8).",
+    "sentiment": "XAG: weak, macro-driven; near $58 from >$62 earlier July. Dominant mechanism: oil spike (Iran ceasefire off Jul 8) -> higher inflation expectations -> hawkish Fed -> higher real yields -> metals lower. Offset: soft June CPI trimmed hike odds to ~17%. Choppy, slightly bearish/mixed, no scheduled binary.",
+    "analyst": "ADX 3.8 (no trend); high-volume capitulation flush into 56.93 support with 15m RSI 13.8, stoch 6.5, %B 0.01 and bullish divergence. Short breakout at 57.53 already ran; entering gives ~0.3% room before a stop-inviting bounce (fails 1.5R + no-chase). Long is a premature knife-catch with no reversal bar and crowded L/S 3.9 headwind. HOLD until the level resolves.",
+    "portfolio": "HOLD XAG \u2014 capitulation into support, no confirmed reversal; reconsider fresh short on a close below 56.93."
+  },
+  "timestamp": "2026-07-15T16:36:53.438567+00:00"
+}

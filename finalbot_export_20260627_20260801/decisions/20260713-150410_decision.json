@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "TSM/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price coils 428-435 just above support 425.72 for the next 2-6 bars; oversold RSI 30.6 plus bid-heavy book (+0.18) favors a chop/bounce, not a clean breakdown yet. Either 425.72 gives way (breakdown short) or price retests 435-437 VWAP zone (short from height) \u2014 until then it's noise.",
+  "expectancy_note": "No entry clears the bar: short here is ~1.1 R:R to support with oversold bounce underway; long is countertrend into hostile risk-off before an earnings gap. Learner shows high-ADX trend-shorts at 45% win / -2.5R \u2014 this is that exact losing template.",
+  "rationale": "TSM just completed a ~1.5% down-leg and is consolidating $5 above support 425.72 with RSI 30.6 (oversold) and a bid-heavy order book, so a market short here would enter right into a likely bounce and hit any honest stop (~1.4x ATR) for sub-1.5 R:R \u2014 the account's #1 loss pattern. This is a tokenized equity, so the crowded L/S 1.81 is a weak signal, and the Thu earnings binary (~72h) plus thin off-hours book make oversized directional bets low-expectancy. Best expectancy is to wait: short the confirmed break of 425.72, or short a retest into 435-437; no size until one triggers.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 425.72,
+    "expires_min": 240,
+    "note": "Losing 4h support 425.72 on volume confirms the downtrend resumes and opens the breakdown short toward the next leg; a reclaim/retest of 436 would instead set up a short from height."
+  },
+  "transcript": {
+    "macro": "Regime HOSTILE/risk-off. US-Iran Hormuz escalation -> war-inflation trade: WTI ~$74, DXY firm, Fed hawkish. Environment favors shorts/defense. Tokenized equities gap-risk off-hours. Cross-book: crowded-short into oversold, de-escalation squeeze risk. TSM lean: supportive-SHORT (mild), downtrend, L/S 1.81 crowded-long, thin book, lower conviction.",
+    "sentiment": "Dominant driver: US-Iran Hormuz escalation -> risk-off. TSM HIGH-WEIGHT BINARY: earnings Thu July 16 ~2:00 ET (<72h, quiet period now). Est $3.81/ADR, rev ~$40B. Bearish drift into print; expect gap. Size accordingly.",
+    "analyst": "TSM consolidating ~$5 above support 425.72 with RSI 30.6 (oversold) and a bid-heavy book -> a market short enters into a likely bounce for sub-1.5 R:R (book's #1 loss). Tokenized equity so L/S 1.81 weak; earnings binary in ~72h + thin off-hours book = keep size off. Wait for a break of 425.72 or a retest short into 435-437.",
+    "portfolio": "TSM: HOLD (conf 0.60) \u2014 no honest R:R either way pre-earnings; armed to short below 425.72."
+  },
+  "timestamp": "2026-07-13T15:04:10.815823+00:00"
+}

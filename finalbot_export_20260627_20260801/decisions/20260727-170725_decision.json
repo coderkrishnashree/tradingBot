@@ -1,0 +1,25 @@
+{
+  "symbol": "BTC/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.6,
+  "size": 0.0,
+  "entry": 64866.7,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "forecast": "Chop/coil 64,400-65,200 into FOMC; the bounce off 64,374 is decelerating just under 65,000 overhead supply (last 3 closes stalling ~64,870), so expect two-sided range trade over the next 4-8 bars.",
+  "rationale": "BTC is dead-center of its 63,679-66,938 range with a decelerating bounce running into the 65,000-65,200 breakdown pivot, right into the FOMC (Jul 28-29) volatility trap and monthly options expiry (Jul 31). Longs are the crowded side (L/S 1.47, structure_bias -0.05) and the immediate 5m thrust (RSI 73) is stretched, so a market long chases into overhead supply and event risk; a short mid-range has support only ~1,190 pts away with no rejection confirmation. Neither side clears R:R>=1.5 with an honest ATR stop, so stand aside and arm triggers at the range edges.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 65200,
+    "expires_min": 240,
+    "note": "Reclaiming the 65,200 breakdown pivot with momentum opens a continuation long toward 66,900; losing 64,374 flips short toward 63,679."
+  },
+  "transcript": {
+    "macro": "2026-07-27 NEUTRAL-to-RISK-OFF, event-gated. FOMC July 28-29 (hawkish-hold tail). BTC ~$64,900, stalling; dominance ~56%; Fear & Greed 26. Funding flat, OI moderate, L/S 1.47, structure_bias slightly negative (-0.05) \u2014 longs crowded. Crypto not a clean risk-on backdrop; favor crowd-fade.",
+    "sentiment": "BTC neutral/cautious \u2014 defending ~$65k in a volatility trap into FOMC (Wed) + large monthly options expiry July 31. Hold-with-hawkish-language could send it to $61k; dovish surprise toward $66-68k. CLARITY Act floor vote possible before Aug 7 recess \u2014 not a 48h catalyst.",
+    "analyst": "No edge: mid-range (64,866 vs 63,679 sup / 66,938 res), binary FOMC + Jul-31 expiry <48h, longs crowded, 5m RSI 73 stretched \u2014 both a chase-long and a mid-range short are negative-expectancy.",
+    "portfolio": "HOLD BTC \u2014 mid-range coil into an FOMC volatility trap with crowded longs; stand aside, trade the range break."
+  },
+  "timestamp": "2026-07-27T17:07:25.108233+00:00"
+}

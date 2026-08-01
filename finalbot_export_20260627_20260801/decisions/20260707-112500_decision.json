@@ -1,0 +1,26 @@
+{
+  "symbol": "EWY/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.5,
+  "size": 0.0,
+  "entry": 181.8,
+  "stop_loss": 186.5,
+  "take_profit": 174.61,
+  "playbook": "none",
+  "forecast": "Deeply oversold (1h RSI 26, %B<0, -3% vs VWAP) just above 174.6 support; base case is a low-volume relief bounce toward 184-186 VWAP over next 2-6 bars, not fresh continuation. Short only pays on a decisive close below 174.6 or a bounce back to VWAP.",
+  "expectancy_note": "p(win) on a fresh short here ~0.45 \u2014 entry is chased into oversold/sub-band with Samsung-guidance squeeze risk; R:R poor with support only $7 below. Waiting for VWAP retest (short strength) or 174.6 break (short breakdown) has far better expectancy.",
+  "rationale": "EWY is the cleanest bearish laggard (rel-strength -10.5%, bearish divergence, trend down) but price is already extended: 1h RSI 26, %B below the lower band, -3.05% below VWAP, and only ~$7 above 174.61 support \u2014 shorting here is chasing into exhaustion, and the last 15m bar bounced off 181.65 on dead volume. Add an imminent Samsung Q2 guidance binary plus a live AI relief-rally that squeezed hard Monday, and both a fresh short and a countertrend long have poor expectancy right now. Wait for a cleaner trigger; size 0.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 174.61,
+    "expires_min": 240,
+    "note": "A decisive break of the 174.61 support flips this from oversold-bounce risk to confirmed breakdown, opening the next leg down and justifying a trend short."
+  },
+  "transcript": {
+    "macro": "Cautiously risk-on AI tape; record highs Mon 7/6; VIX ~15.95 low but gap risk elevated post late-June AI-chip washout. EWY is the cleanest bearish laggard (rel-strength -10.5% worst in scan, bearish divergence, trend down) \u2014 fits macro as Kospi took the worst of the late-June AI-chip selloff. Semi-heavy high-beta AI ETF. Mild long crowding into weakness (L/S 1.467) adds contrarian downside fuel, BUT AI trade bounced hard Monday so a semi relief rally can squeeze shorts; high ATR (2.22% 4h) means wide stops. Best-aligned short in the set but manage AI-bounce risk.",
+    "sentiment": "EWY BULLISH underlying trend but HIGH-VOLATILITY, chip-earnings binary looms. Samsung + SK Hynix ~half the fund; EWY +80% YTD, ~+200% over 12mo; high-beta HBM proxy. July 2 Samsung/SK Hynix fell 7-9% on Nasdaq chip rout, then KOSPI rallied ~5.8% July 3 as both bounced 8%+ \u2014 extremely whippy. Catalyst 1-2wk: Samsung Q2 earnings guidance imminent (THE test for the chip rally), SK Hynix ~$29B Nasdaq listing filing, govt ~800tn won semi push. Concentration/reversal risk. Size for gap risk around Samsung's print.",
+    "analyst": "EWY screens as the best-aligned short in the set \u2014 worst relative strength (-10.5%), bearish divergence, downtrend across 1h/4h \u2014 but the tape is already stretched: 1h RSI 26, price below the lower Bollinger band, -3.05% under VWAP, sitting just $7 over the 174.61 support with ATR at 2.22%. Shorting into that exhaustion, against a live AI relief rally that squeezed KOSPI +5.8% last week and with Samsung Q2 guidance looming as a bullish binary, is a donation. The higher-expectancy move is patience: short strength on a bounce back to VWAP (~184-186) or short weakness on a clean loss of 174.61, not the middle. Hold, trigger armed below 174.61.",
+    "portfolio": "HOLD EWY - best-aligned short but too extended to chase into oversold + Samsung-guidance squeeze risk; arm a breakdown short below 174.61."
+  },
+  "timestamp": "2026-07-07T11:25:00.841219+00:00"
+}

@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "GOOGL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Coiling in a tight 346.4-347.5 micro-range just above support 341.86; deeply oversold (4h RSI 18.5, -4.58% below VWAP) so the higher-probability next move is a mean-reversion bounce/chop toward 350-353 into US open, NOT an immediate fresh leg down. A fresh market-short here gets stopped by that bounce.",
+  "expectancy_note": "Short here p(win)~0.40: chasing -4.58% below VWAP with 4h RSI 18.5 is the exact stretched-short profile the learner shows LOSING (shorts 0.47 win / -0.87 avg pnl; p_win_learned 0.318; vwap_dist weight -0.29). No honest 1.5R short exists (support 341.86 only ~1% away, VWAP retest far above). HOLD > chase.",
+  "rationale": "Clean downtrend but the move is already spent for THIS window: -4.58% below VWAP, 4h RSI 18.5, US market closed (thin/gappy, mean-reversion risk into open), and Q2 earnings 7/22 forbids carrying a naked short far. Learner is emphatic that late shorts into stretched tape bleed for this account (shorts avg -0.87, p_win 0.318). No valid entry: shorting mid-air stops on the bounce; support is too close for 1.5R. Wait for either a bounce-to-reject or a confirmed support break.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 341.86,
+    "expires_min": 240,
+    "note": "Losing the 341.86 support with follow-through confirms the downtrend resuming with fresh room lower - that makes a short valid on the break instead of chasing oversold mid-air."
+  },
+  "transcript": {
+    "macro": "RISK-OFF for tech, semis leading the selloff. Nasdaq -2.9% on the week, SOX bear market. Macro backdrop supportive (soft CPI, Fed hike odds ~17%, FOMC 7/28-29 outside window). Funding ~0. Scan taken while US cash CLOSED -> thin/gappy, gap risk at open. GOOGL: 346.68, RS -4.62%, clean downtrend (1h/4h short, 4h RSI 18.5 deeply oversold, vwap -4.58%), L/S 1.634 lopsided long + orderbook -0.379 -> structure_bias -0.303 (longs trapped, book offered). Environment SUPPORTIVE of shorts but very stretched (mean-reversion risk into open).",
+    "sentiment": "Overall RISK-OFF semis (SOX bear market, Chinese Moonshot AI). GOOGL Q2 earnings July 22 (potential 5%+ move) - a HARD binary INSIDE the horizon. Fresh negative: Gemini 3.5 Pro launch delayed (GOOGL fell Friday); DOJ search-remedies + EU fines live tail risks. Down ~12% from May highs, weak tape, pre-earnings drift lower. Near-term news SUPPORTS the short into the 22nd, BUT do not carry a naked short through the print.",
+    "analyst": "Textbook don't-chase. Deeply oversold (-4.58% vs VWAP, 4h RSI 18.5), US cash closed/gappy, earnings 7/22 blocks carrying a naked short, and the learner shows this account's shorts-into-stretched-tape losing (win 0.47 / avg -0.87 pnl, GOOGL p_win 0.318). Price coiling 346.4-347.5 just above 341.86; higher-probability next move is a mean-reversion bounce, not a fresh leg down. No valid entry: short mid-air stops on the bounce, support too close for 1.5R. HOLD; arm a break below 341.86 to re-enter short on confirmation.",
+    "portfolio": "HOLD GOOGL - stretched, pre-earnings binary 7/22; re-debate on a decisive break below 341.86, never carry a short into the print."
+  },
+  "timestamp": "2026-07-18T00:36:44.908039+00:00"
+}

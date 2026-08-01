@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "GOOGL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Dead weekend tape: price chops in the 347.3-348.8 pocket on near-zero volume into Monday; no directional resolution until the equity cash session reopens. Below-VWAP drift keeps 347 heavy with a floor around support 341.9.",
+  "expectancy_note": "No edge now: mid-range entry, thin illiquid tape, 4h down vs LTF up (unaligned) - R:R undefined. Best move is to wait for a VWAP reclaim or a support bounce that gives a real long trigger.",
+  "rationale": "GOOGL screens as the cleanest long (p_win 0.743, 1h/30m/5m all long) but the executable near-term path is empty: the last 20 15m bars are a flat 0.4% grind on mostly zero volume, price sits -1.81% BELOW VWAP, and the 4h has turned down against the LTF longs (unaligned). Entering long mid-range into a closed-market weekend is the classic low-expectancy trap, and any held position also bleeds toward July-22 earnings gap risk. Want a VWAP reclaim on Monday or a clean defense of 341.86 first.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 354.4,
+    "expires_min": 240,
+    "note": "Reclaiming VWAP (~354.4) proves the LTF long has real demand and aligns with the 1h uptrend - flips this to a buy."
+  },
+  "transcript": {
+    "macro": "Rotation OUT of semis INTO big-tech - GOOGL is the CLEANEST long-side environment of the group: highest p_win 0.74, 1h/30m/5m all long, near highs, rel-strength only -9.9%. Watch: 4h turned down. Funding ~0. Weekend/market-closed gap risk; smaller size generally. FOMC Jul 28-29 outside window.",
+    "sentiment": "GOOGL RISK: earnings Jul 22 after close (just past 48h window but close). EPS consensus ~$2.87 (+24% YoY); strong Q1 (Cloud +63%). Biggest dated event in the basket - a position held into Jul 22 carries gap risk. Tone constructive but neutral until the print.",
+    "analyst": "Cleanest long thesis (p_win 0.743, LTF all long) but executable path empty: flat 0.4% weekend grind on zero volume, price -1.81% BELOW VWAP, 4h turned down vs LTF longs (unaligned). Mid-range entry into a closed market = low-expectancy trap; held size also bleeds toward Jul-22 earnings gap. Want a VWAP reclaim (~354.4) or a 341.86 defense before size.",
+    "portfolio": "HOLD GOOGL - best thesis but no tradeable move in dead weekend tape; armed long trigger above 354.4."
+  },
+  "timestamp": "2026-07-19T20:45:27.902163+00:00"
+}

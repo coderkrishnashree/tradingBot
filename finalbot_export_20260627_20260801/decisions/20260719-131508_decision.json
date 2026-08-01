@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "TSLA/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.7,
+  "playbook": "none",
+  "forecast": "Thin weekend drift keeps price pinned in the 381.7-383.5 range on dead volume into Monday's gappy open; no directional edge and an earnings binary Wed after close caps any hold.",
+  "expectancy_note": "No setup: ATR sub-0.5% flat mid-range, weekend liquidity nil, and a Wed earnings gap inside the window makes p(win) coin-flip with fat tail risk \u2014 HOLD has the best expectancy.",
+  "rationale": "TSLA is dead-flat mid-range (382 vs support 378 / resistance 410) on negligible weekend volume with US cash markets closed, so there is no clean trend, range-fade, or breakout to trade and Monday carries gap risk. Worse, earnings Wednesday July 22 after close is a max-event binary squarely inside the ~48h horizon that a position cannot exit before, so any directional bet is a coin-flip with an outsized tail. The tiny ATR gives no reward to justify that risk. No trade \u2014 protecting capital is the highest-expectancy call here.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 377.78,
+    "expires_min": 240,
+    "note": "Losing the 377.78 support on real volume breaks the range and, with crowded 1.99 long/short as squeeze fuel, would open a tactical intraday short worth re-debating \u2014 still to be closed before Wed earnings."
+  },
+  "transcript": {
+    "macro": "Cycle 2026-07-19 RISK-OFF/DEFENSIVE. US cash equity markets CLOSED (Sunday) \u2014 proxies gappy/thin, Monday gap risk. QQQ leaning DOWN. TSLA: composite short, L/S 1.99 (crowded long = squeeze fuel), 4h -0.61. EVENT-LOCKED into earnings; effectively untradeable this cycle unless intraday-only and closed before the print.",
+    "sentiment": "TSLA: HIGH-PRIORITY BINARY \u2014 earnings Wednesday July 22 after close (~5:30pm ET), squarely INSIDE the ~48h horizon. Record Q2 deliveries already priced; call hinges on gross margin, FSD, Robotaxi timeline. Expect outsized post-earnings gap a position likely cannot exit before. Neutral direction, MAX event risk.",
+    "analyst": "All decisive factors override technicals: US markets closed, thin/gappy, earnings Wed-close binary inside the hold window a position cannot exit before, name flagged untradeable this cycle. Tape dead-flat mid-range, tiny ATR, no reward to justify tail risk. Textbook NO-TRADE.",
+    "portfolio": "HOLD TSLA/USDT:USDT \u2014 earnings-locked (Wed Jul 22 aft-close); do not hold directional through the print. conf 0.70"
+  },
+  "timestamp": "2026-07-19T13:15:08.705958+00:00"
+}

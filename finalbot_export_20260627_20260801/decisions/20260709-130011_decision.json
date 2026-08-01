@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "ORCL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Price coils 141.2-142.5 at VWAP for the next few bars; a loss of the 141.0 base opens 139.3 then 137.6, while a reclaim of 143.4 confirms the 1h up-tick and traps late shorts. No edge until one side breaks.",
+  "expectancy_note": "Mid-range at VWAP (%B 0.47, RSI 45), 4h-down vs 1h-up conflict, and crowded-long L/S 2.11 = squeeze fuel; a market short here has p(win) ~0.5 and no clean R:R \u2014 waiting for the 141 break gives a real 1.6R+.",
+  "rationale": "The waterfall from 143.4 to 140.86 already happened and the last 7 bars are a sideways base with tentative higher-lows, so price is mid-range (support 137.63 / resistance 150.23) and sitting exactly at VWAP \u2014 not an extreme to fade and not a fresh breakdown to chase. 4h remains down (-0.9) supporting the bear lean, but 1h ticked up (RSI 57.7, +MACD) and the crowded-long 2.11 L/S ratio the macro flagged is genuine squeeze fuel against a naked mid-range short. Best expectancy is to wait: short only on a confirmed loss of the 141.0 base (targets 139.3/137.6, ~1.6R), otherwise a reclaim of 143.4 kills the short thesis entirely.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 140.85,
+    "expires_min": 240,
+    "note": "Losing the 141 consolidation base breaks the coil to the downside, confirms 4h-down over the 1h up-tick, and opens the run to 139.3/137.63 support with a valid tight-stop short."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF (Middle East/Hormuz escalation, oil up, 10y ~4.58%, hawkish Fed, equities heavy; S&P heavy, Nasdaq soft). ORCL tilt bearish-lean but CROWDED-LONG (squeeze risk) -> size down. Pure equity (BTC corr 0.38, keyed to Nasdaq/rates). Structure_bias -0.45 driven by lopsided L/S 2.11 + slightly positive funding = contrarian squeeze fuel, not clean downside. RS vs BTC -22% (big laggard). 4h down, 1h up (mixed).",
+    "sentiment": "FY Q4 already reported June 10 (strong, priced in). Only imminent item: ex-dividend July 10 ($0.50) \u2014 trivial mechanical drop. Overhang: massive capex/financing ($70B FY27 capex, $40B raise, $20B share sale) = slow dilution bleed, not a 48h event. Weakest of group (RS -22%). NEUTRAL/slightly bearish; news does not fight a short but no positive near-term catalyst.",
+    "analyst": "ORCL is the weakest horse (RS -22%) with a 4h downtrend justifying a bearish lean, but it is a poor entry not a poor asset. The 143.4->140.86 drop is already spent; last 7 bars are a tight sideways base (141.2-142.5) exactly on VWAP mid-range (%B 0.47, RSI 45) \u2014 no extreme to fade, no fresh breakdown to ride. 1h ticked up (RSI 57.7, +MACD) and crowded-long L/S 2.11 is real squeeze fuel that would punish a naked mid-range short on any bounce. Coin-flip odds and no honest R:R now, so arm a short trigger on a decisive loss of the 141.0 base (run to 139.3/137.63, ~1.6R) and stand aside; a reclaim of 143.4 invalidates the bear case for this window.",
+    "portfolio": "ORCL: HOLD (conf 0.50) \u2014 no clean edge mid-range; short only on loss of 141.0 base. No order this cycle."
+  },
+  "timestamp": "2026-07-09T13:00:11.364504+00:00"
+}

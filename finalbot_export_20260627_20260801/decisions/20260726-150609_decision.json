@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "CL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Price is deeply oversold (4h RSI 21, stoch 3.9, %B 0.04, -5.31% vs VWAP) and coiling 85.0-85.5 on 15m after the flush; expect a corrective bounce toward 86.5-87.5 to relieve the extreme before any trend resumption, or a decisive loss of 84.85 to open the 83s. Neither edge is clean yet.",
+  "expectancy_note": "Short = chasing a >3xATR flush into crowded-short positioning (L/S 0.58) and Hormuz gap risk = the account's classic late-short bounce loss; long = knife-catch vs ADX 65.8 downtrend. p(win) on a market entry <0.5 either way; wait for a level.",
+  "rationale": "WTI has flushed violently (RSI 21.4, stoch 3.9, %B 0.042, VWAP -5.31%) and is basing 85.0-85.5 with higher-lows on 15m; a market short here is exactly the stretched-tape chase that gets stopped by a mean-reversion bounce, and crowd positioning (L/S 0.581, structure_bias +0.179) plus live Hormuz headline risk both favor an up-gap. A long fights a strong downtrend with no reclaim yet. Best expectancy is to wait: either fade a relief bounce back into VWAP/broken support around 87.5-88 (short with the EIA structural lean) or short a clean break of 84.85. No trade until price defines it.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 87.5,
+    "expires_min": 240,
+    "note": "A relief bounce into 87.5 (toward VWAP / prior broken support) is the low-risk spot to re-engage the tactical short with the trend and EIA structural lean, stop above 88.5."
+  },
+  "transcript": {
+    "macro": "Regime MIXED-to-RISK-OFF, geopolitics the swing factor. US-Iran strikes ~11th night, Hormuz/Red Sea tanker disruption = oil spike risk; tape whipsaws on headlines. EIA sees oil fading to ~$70 Q4. CL lens: LEAN SHORT tactically but headline-hostage; scan short (blended -0.22), momentum down hard (4h RSI 21.4, oversold). Positioning contrarian-long-friendly (L/S 0.581 crowded SHORT); escalation gaps it violently up. Smallest size, tight leash.",
+    "sentiment": "~$88-90, near multi-month highs on Middle East risk premium + declining US inventories, despite OPEC+ +548k bpd for August. No FOMC-style binary but geopolitics is the live wire. Net bullish-tilted but headline-fragile - risk premium can deflate fast if tensions ease; OPEC+ supply growth a structural cap/glut risk into H2. Risk: overnight geopolitical headline either direction.",
+    "analyst": "Deeply oversold across TFs (4h RSI 21.4, stoch 3.9, %B 0.042, VWAP -5.31%) and basing 85.0-85.5 with higher-lows; scan spot ~85 vs sentiment $88-90 - the drop already happened. Market short chases a >3xATR flush into crowded-short (L/S 0.58) + Hormuz up-gap risk = late-short loss pattern; long knife-catches ADX 65.8 downtrend. Wait to fade a relief bounce into 87.5-88 or short a break of 84.85.",
+    "portfolio": "HOLD CL - too oversold to chase short, no reclaim to buy; flat, re-engage short on a bounce into 87.5."
+  },
+  "timestamp": "2026-07-26T15:06:09.732630+00:00"
+}

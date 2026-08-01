@@ -1,0 +1,25 @@
+{
+  "action": "hold",
+  "symbol": "EWY/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.4,
+  "playbook": "none",
+  "expectancy_note": "Long p(win)~0.45 but capped: only ~1.2% to resistance 196.23 vs weekend-gap risk; any survivable stop makes R:R <1. HOLD beats a stretched, room-poor entry.",
+  "rationale": "EWY has the cleanest positioning of the set (funding -0.117% shorts-pay-longs, L/S 1.09 uncrowded, structure_bias +0.396, +0.71 RS, BTC-corr only 0.2 so not mere beta), but price at 193.96 is jammed into resistance 196.23 with 4h/1h RSI at 85 \u2014 a vertical bounce off a crash. Upside is capped at ~1.5x ATR to resistance while a noise-surviving stop below 189.3 support is ~3x ATR away, so R:R is unfavorable, and it's a thin gap-prone weekend with EWY (~40% semis) at ground-zero of an active HBM/chip rout carrying outsized headline gap risk. The positioning tailwind is real but does not justify chasing into resistance at RSI 85 \u2014 wait for either a breakout confirmation or a pullback.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 196.23,
+    "expires_min": 240,
+    "note": "A clean break and hold above resistance 196.23 proves the overbought move has genuine continuation and opens room for a breakout-continuation long instead of buying into a capped ceiling."
+  },
+  "transcript": {
+    "macro": "Broad regime MIXED, tilting risk-off. Q3 opened with a semiconductor profit-taking unwind (PHLX Semi -7% to start Q3). Fed on hold 3.50-3.75%, hawkish drift (June dot plot shows possible hike, PCE 3.6%). Weekend (Jul 6, Sun) \u2014 US & Korean cash markets closed, perps thin/gap-prone until Monday. EWY: only pair with positive relative strength (+0.71); long-supportive positioning (funding -0.117% shorts pay longs, L/S 1.09 uncrowded, structure_bias +0.396) but OVERBOUGHT (RSI 85 on 4h/1h, near resistance 196.23). Fundamentals two-sided: KOSPI did -7.89% then +5.76%, won at 17-yr low, Korean CPI 3.2% (hawkish BoK), EWY ~40% semis inherits chip unwind.",
+    "sentiment": "Violent AI/semiconductor selloff drives all three (SK Hynix HBM-slowdown + Meta Compute supply warning ~Jul 2-5; KOSPI hit circuit breakers). No scheduled <=48h binary. EWY NEUTRAL-to-BEARISH / highest headline risk for a LONG \u2014 dominated by Samsung/SK Hynix, ground-zero of HBM selloff, long riding a bounce off a crash. Any renewed chip-rout leg or fresh HBM/Samsung headline hits EWY directly & hard (outsized gap risk). Longer-term Korea story bullish but irrelevant to a 24-48h long.",
+    "analyst": "Cleanest positioning of the set but price jammed into resistance 196.23 with 4h/1h RSI 85 \u2014 a vertical bounce off a crash. Upside capped ~1.5x ATR to resistance; noise-surviving stop below 189.3 is ~3x ATR away, so R:R unfavorable. Thin gap-prone weekend with EWY (~40% semis) at ground-zero of active HBM rout. Positioning tailwind real but does not justify chasing into resistance at RSI 85 \u2014 wait for breakout above 196.23 or a pullback. Best expectancy is HOLD.",
+    "portfolio": "EWY \u2014 HOLD (conf 0.40): clean positioning but stretched into resistance with capped room and outsized weekend gap risk; wait for 196.23 reclaim or a pullback."
+  },
+  "timestamp": "2026-07-06T01:03:21.848369+00:00"
+}

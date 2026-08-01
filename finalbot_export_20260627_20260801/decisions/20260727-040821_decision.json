@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "EWY/USDT:USDT",
+  "size": 0.0,
+  "entry": 165.6,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Price basing 165-167 just above 164.4 flush-low after the tariff selloff; over next 2-6 bars I expect a mean-reversion bounce toward VWAP/broken-support 167.5-168.5, OR a fresh break under 164.4 that opens 160.15.",
+  "expectancy_note": "p(win) on a market short here ~0.40: entry is 1.41% below VWAP, stoch 30, 15m/1h RSI high-30s, mid-TF momentum gone flat - chasing into a stall above support. Waiting for a VWAP retest short gives ~2R at p~0.55.",
+  "rationale": "EWY is the weakest horse (rel-str -12.5) with a bearish 4h (-0.765) and tariff/chip macro tailwind, but the down-thrust is already spent: price flushed to 164.48 and coiled in a higher-low base for 11 bars, 1.41% below VWAP with stoch 30. A market short here is exactly the account's #1 loser (late short into oversold tape stopped by the bounce). Re-arm the short on a bounce into VWAP-resistance ~167.8 or a decisive loss of the 164.4 base; weekend-thin liquidity also argues against a chase.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 167.8,
+    "expires_min": 240,
+    "note": "A bounce into VWAP/broken-support ~167.8 is the higher-probability short entry with a tight stop above 169.5."
+  },
+  "transcript": {
+    "macro": "Regime: risk-on but into event wall, lean defensive. S&P near highs, Nasdaq -0.64% AI/chip selloff, 10Y ~4.69%. HARD CATALYSTS in 48-72h: FOMC Wed 7/29 2pm ET + mega-cap earnings MSFT+META Wed, AAPL+AMZN Thu. SUNDAY: US cash equity closed -> all stock proxies gap Monday, thin weekend liquidity, size down. BTC ~65.3k consolidating, only clean 24/7 book. Oil in bearish selloff (US-Iran de-escalation + surplus). Reduce size across board; crowded-long positioning pervasive (CRCL 3.52, SOL 2.76, XAUT 2.56, EWY, INTC, HOOD).\n\nMacro stance EWY: short with down-tape, weekend-thin",
+    "sentiment": "Dominant fact: binary catalyst wall Wed 7/29 (FOMC + MSFT/HOOD earnings AMC) & Thu 7/30 (AAPL/COIN/MSTR earnings AMC). FOMC hawkish-hike surprise risk. Crypto soft: BTC ~65k, Fear&Greed 28, stablecoin outflows. EWY: live US 12.5% tariff + KOSPI/chip selloff (bearish). INTC: 7/23 blowout beat (bullish, established). CRCL: no 48h catalyst (earnings 8/5), bearish narrative. SOL: SOL ETF inflows constructive but Fed-tethered. CL: WTI ~$85 two-sided geopolitics vs OPEC+ supply.\n\nSentiment stance EWY: BEARISH, live US 12.5% tariff + KOSPI/chip selloff",
+    "analyst": "EWY is the weakest horse (rel-str -12.5) with a bearish 4h (-0.765) and tariff/chip macro tailwind, but the down-thrust is already spent: price flushed to 164.48 and coiled in a higher-low base for 11 bars, 1.41% below VWAP with stoch 30. A market short here is exactly the account's #1 loser (late short into oversold tape stopped by the bounce). Re-arm the short on a bounce into VWAP-resistance ~167.8 or a decisive loss of the 164.4 base; weekend-thin liquidity also argues against a chase.\n\nForecast: Price basing 165-167 just above 164.4 flush-low after the tariff selloff; over next 2-6 bars I expect a mean-reversion bounce toward VWAP/broken-support 167.5-168.5, OR a fresh break under 164.4 that opens 160.15.\n\nExpectancy: p(win) on a market short here ~0.40: entry is 1.41% below VWAP, stoch 30, 15m/1h RSI high-30s, mid-TF momentum gone flat - chasing into a stall above support. Waiting for a VWAP retest short gives ~2R at p~0.55.",
+    "portfolio": "HOLD EWY/USDT:USDT - no positive-expectancy entry (size 0), conf 0.5. Reconsider: A bounce into VWAP/broken-support ~167.8 is the higher-probability short entry with a tight stop above 169.5."
+  },
+  "timestamp": "2026-07-27T04:08:21.111612+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "AAPL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price is coiling on 325.1-326.4 just above the recent base low after a washout to 325.13; most likely it chops here or squeezes a relief bounce toward VWAP/~330 within 2-6 bars rather than cleanly extending down from an RSI-27.8 extreme.",
+  "expectancy_note": "Shorting here is negative-expectancy: account shorts win only 48% / avg -0.73R, and rel-strength weight (-0.47) says fading a leader loses; a counter-trend long into ADX 69 lacks confirmation. No trade beats both.",
+  "rationale": "AAPL is deeply oversold and extended to the downside (RSI 27.8, bb_pctb -0.01, -1.48% vs VWAP, at the lower band) with 5m RSI already 71.3 and a positive 5m score - the classic setup where a late short gets stopped by the counter-bounce, this account's #1 loss pattern. It is also a relative-strength leader (+1.69 vs BTC, corr 0.18) with slightly bid orderbook, so no clean short edge and no confirmed long trigger; hostile macro plus Jul-30 earnings outside window argue against initiating either side blind. Wait for the break that resolves the coil.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 325.0,
+    "expires_min": 240,
+    "note": "Losing the 325.1 base low ends the coil and opens clean room to 312 support, validating a short with a proper structural stop."
+  },
+  "transcript": {
+    "macro": "MIXED-to-HOSTILE. Risk-off, hawkish Fed, rising yields, rotation OUT of tech. AAPL oversold/washed out (RSI 27.8, lower Bollinger, bb_pctb -0.01) - extended DOWNSIDE; shorts chase, watch for a bounce. AAPL one of few relative leaders vs BTC (+1.7%). Tokenized equity: thin/gappy off-hours.",
+    "sentiment": "AAPL: earnings July 30 after close - OUTSIDE 48h, NOT a near-term catalyst. Tim Cook's final earnings call (narrative). Scan deeply oversold (RSI 27.8, support ~$312) after selloff, no fresh news - technical.",
+    "analyst": "Deeply oversold/extended down with 5m RSI 71.3 and positive 5m score - classic setup where a late short gets stopped by the counter-bounce (account's #1 loss pattern). Also a rel-strength leader with slightly bid book, so no clean short edge and no confirmed long trigger. Wait; loss of 325.1 base opens room to 312 for a proper short.",
+    "portfolio": "HOLD AAPL - don't short the washout; arm reconsider below 325.0."
+  },
+  "timestamp": "2026-07-21T00:16:52.072394+00:00"
+}

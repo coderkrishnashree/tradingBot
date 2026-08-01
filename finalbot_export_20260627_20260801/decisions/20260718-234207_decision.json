@@ -1,0 +1,23 @@
+{
+  "symbol": "GOOGL/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.6,
+  "entry": 345.94,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "size": 0.0,
+  "rationale": "GOOGL is short-biased (all-TF short, structure bias -0.29, OB -0.38, bearish divergence, hostile tech macro) but the move is exhausted: 4h RSI 12, ADX 95.6, price -6.2% below VWAP, %B 0.27 \u2014 textbook stretched. Support 341.86 sits only ~1.2% below, so a fresh market short offers poor R:R (~1.3R) into high snapback risk (this account's #1 loss pattern: late shorts into oversold tape stopped by the bounce). Recent 15m bars show a slow bleed already bouncing weakly off 345.56, not accelerating. Earnings Wed 7/22 is outside 48h; weekend/thin equity tape adds gap risk. Best expectancy is to wait: a clean breakdown through 341.86 for a momentum short with a lower target, or a bounce back toward 349-350 (broken-support/VWAP retest) to short at better R:R.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 341.86,
+    "expires_min": 240,
+    "note": "Losing support 341.86 confirms the next leg down and opens a clean breakdown short with a defined lower target, no longer chasing mid-air."
+  },
+  "transcript": {
+    "macro": "Overall regime RISK-OFF/defensive. Fri 7/17: S&P -1.0%, Nasdaq -1.4% led by semiconductor rout (AI-capex scare + TSMC capex guide). US-Iran Hormuz escalation drove WTI +14%/wk. DXY soft ~100.9, Fed on hold, no FOMC/CPI inside 48h. Equities/tech HOSTILE-to-longs. Tokenized equity perps, weekend after Friday close: thin/gappy, Monday gap risk, size down. GOOGL read: SUPPORTIVE OF SHORT but stretched \u2014 comm/consumer-cyclical among worst-hit Fri; bias -0.29, OB -0.381, bearish divergence; already extended RSI 12, ADX 95.6, -6.2% below VWAP \u2014 hard bounce/squeeze is main risk to fresh shorts. Small size.",
+    "sentiment": "GOOGL BEARISH/high-event-risk. Dominant catalyst: Q2 2026 EARNINGS Wed 7/22 ~4:30pm ET (after close), a hard binary just outside 48h. Street EPS ~$2.86 (+23.8% y/y), revenue ~$116.5B; focus Cloud, Gemini, $175B 2026 capex after FCF -47% y/y \u2014 market punishing AI overspend, guidance risk skews negative. No news inside 48h; drift/positioning ahead of earnings. Lean neutral-to-bearish short-term; stock closed weekends.",
+    "analyst": "Short-biased but exhausted: RSI 12, ADX 95.6, -6.2% below VWAP, %B 0.27. Support 341.86 only ~1.2% below \u2192 fresh market short is poor R:R (~1.3R) into high snapback risk. 15m bars bouncing weakly off 345.56, not accelerating. HOLD; arm short trigger below 341.86 for a clean breakdown, or short a bounce toward 349-350. Earnings 7/22 outside 48h.",
+    "portfolio": "GOOGL: HOLD (armed short <341.86 breakdown) \u00b7 confidence 0.6 \u00b7 size 0%"
+  },
+  "timestamp": "2026-07-18T23:42:07.288775+00:00"
+}

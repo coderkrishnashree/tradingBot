@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "AAPL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.66,
+  "playbook": "none",
+  "forecast": "Frozen weekend tape: price stays pinned 331.8-333.2 under 335.34 resistance on near-zero volume; no directional move to trade until Monday cash open.",
+  "expectancy_note": "Long chases into 335.34 wall (~0.86% room) while RSI 83 / VWAP +1.4% extended = p(win) low; short fights a heavy-bid frozen tape with no down-momentum. Both negative EV; HOLD dominates.",
+  "rationale": "The 15m candles show a dead, sub-2-unit-volume drift (332.58 to 332.47 over 20 bars), not the RSI-83 momentum the snapshot implies \u2014 cash market is CLOSED so the 0.738 orderbook bid and structure metrics are weekend noise. Price is extended (+1.4% VWAP, higher-TF RSI 83) yet capped by resistance 335.34 just above, and EARNINGS Jul 30 is a binary inside the hold window. No honest R:R for either side; standing aside is the highest-expectancy play.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 335.34,
+    "expires_min": 240,
+    "note": "A 15m close above 335.34 resistance on real (Monday-open) volume clears the wall and turns the extended chop into a genuine breakout worth re-debating long."
+  },
+  "transcript": {
+    "macro": "Regime HOSTILE-to-MIXED for fresh risk. Hawkish Fed, oil-driven inflation, indices rolling over. WEEKEND: cash markets CLOSED \u2014 thin, gap-prone until Monday (AAPL near-zero volume; orderbook bid 0.74 is thin-weekend noise). AAPL-specific: EARNINGS Thu Jul 30 after close = binary gap inside the hold window; avoid holding across the print.",
+    "sentiment": "AAPL earnings Thu Jul 30 after close; consensus ~$1.89 EPS, ~$109-110B rev; Tim Cook's final call (Ternus succession) adds headline/vol risk. Scan extremely overbought (RSI 83, +6.4% rel strength) into a binary; fine for very short scalps, unsafe to carry into Jul 30.",
+    "analyst": "15m candles are a dead sub-2-unit drift under 335.34 resistance (~0.86% room), not real RSI-83 momentum; weekend cash market closed so orderbook/structure are noise. Extended and capped, earnings binary Thu. Both sides negative EV. HOLD; reconsider long on a 15m close above 335.34 on real volume.",
+    "portfolio": "AAPL: HOLD 0.66 \u2014 extended under resistance, frozen weekend tape, earnings binary; stand aside."
+  },
+  "timestamp": "2026-07-26T04:05:57.756060+00:00"
+}

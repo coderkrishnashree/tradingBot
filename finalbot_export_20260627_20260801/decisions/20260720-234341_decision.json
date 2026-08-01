@@ -1,0 +1,25 @@
+{
+  "action": "hold",
+  "symbol": "INTC/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Choppy bounce off the 96.7 low likely stalls in the 97.7-98.2 supply pocket; expect a 96.8-98.2 range in thin after-hours rather than a clean break.",
+  "rationale": "INTC is an equity in CLOSED-cash thin after-hours (size down), bounced off 96.7 but is extended on higher TFs (4h/5m RSI 70-74, +1.48% over VWAP) with a crowded-long book (structure_bias -0.247) and a mixed 30m short read. A fresh long chases into 97.7-98.5 supply with weak R:R, and there is no divergence to fade cleanly. The ~15% earnings binary Thu Jul 23 makes any multi-day hold high-variance; wait for a decisive break.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 98.55,
+    "expires_min": 240,
+    "note": "Reclaiming the 98.5 swing high on volume confirms the bounce has legs, turning a chop-fade into a momentum long toward 100."
+  },
+  "transcript": {
+    "macro": "Regime MIXED, risk-off (US/Iran). Semis the strong pocket - Intel +2.1% on chip bounce. Scan ~23:38 UTC = US cash CLOSED -> thin gappy after-hours, size down. INTC: L/S 1.82, structure_bias -0.247, own driver (BTC corr 0.07), tied to TSM/MU/SNDK.",
+    "sentiment": "INTC HIGH near-term risk. Earnings THURSDAY JULY 23 after close - inside/at edge of 48h. Options imply ~15% move. +163% YTD but -17% off peak. Multi-day holds must respect event risk; intraday scalps before Thu cleaner.",
+    "analyst": "Bounce off 96.7 into thin after-hours, already extended on higher TFs, crowded long, 30m already flushed. Fresh long chases supply with poor R:R; no clean fade. ~15% earnings binary ~3 days out inflates tail risk. HOLD.",
+    "portfolio": "INTC -> HOLD (extended bounce in thin tape, ~15% earnings binary Thu)."
+  },
+  "timestamp": "2026-07-20T23:43:41.481868+00:00"
+}

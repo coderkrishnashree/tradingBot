@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "EWY/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.28,
+  "playbook": "none",
+  "forecast": "Thin Sunday chop: price coils 182.8-184.2 around VWAP (183.0) with no momentum; most likely drifts sideways/slightly lower into the weekend, resolving only on Monday's US-chip cash reopen. 5m fade points to a possible probe of 182.8 next few bars, but no follow-through fuel.",
+  "expectancy_note": "No trade: ADX 6.7 (no trend), chop regime_blocked, price at VWAP mid-range; p(win) on any entry ~50/50 while gap/wick risk is asymmetric. HOLD beats fading noise into a closed-cash weekend before CPI+Fed Tue.",
+  "rationale": "EWY is a pure Korea/memory basket proxy with zero independent driver, lowest scan conf of the group (5.2), all higher-TF cells flat, ADX 6.7 and composite regime_blocked in chop. It is Sunday July 12 with US and Korean cash markets closed, making this the most gap-prone, wick-prone name in the book, and June CPI + Fed Chair Warsh testimony land Tuesday within the window. There is no level, no momentum and no R:R edge here; the only honest stop (to range structure 168.8/196.23) is far too wide for this coil, so any entry is negative expectancy. Size 0 until price picks a side out of the 182.8-184.2 coil.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 182.8,
+    "expires_min": 240,
+    "note": "Losing the coil low 182.8 (with 5m already short) breaks the intraday base and opens toward 181/support, validating a short; a reclaim back above 184.7 would instead argue the long."
+  },
+  "transcript": {
+    "macro": "Regime MIXED, leaning risk-on but late-cycle/fragile. Semis crowded/extended. Sunday Jul 12 \u2014 US AND Korean cash CLOSED, perps thin/gappy until reopen. Within 48h: June CPI Tue Jul 14 + Fed Chair Warsh first testimony Tue. Group co-correlated (MU/EWY 0.81, INTC/EWY 0.62, NVDA/EWY 0.51) \u2014 don't stack. EWY: Korea = semi/memory-supercycle proxy (Goldman KOSPI 9,000) but 'most dangerous market' \u2014 record leverage, Samsung/SK Hynix concentration, frequent halts. High tail risk both ways, no independent driver. Lowest scan conf (5.2).",
+    "sentiment": "Overall semis CAUTIOUS/VOLATILE \u2014 SOX ~11% plunge on AI-spend scare. EWY: HIGHEST event-density, clearest 48h risk. Samsung + SK Hynix ~half of KOSPI, so EWY = leveraged memory/HBM bet. Extreme swings: KOSPI -5.4% then +5.8%; SK Hynix -14.6% one session on HBM-slowdown, then rebound on oversubscribed US ADR. Most headline-sensitive name, gaps hard on overnight US-chip moves. Near-term neutral directionally but HIGH volatility \u2014 size for gap risk.",
+    "analyst": "At 183.02, ADX 6.7 (no trend), chop regime_blocked, RSI 49 neutral, all higher-TF cells flat (only 5m short -0.81). At VWAP mid of wide 168.8-196.23 range. Thin Sunday tape, US+Korea closed = most gap-prone name. Honest stop to structure far too wide for this coil. No edge. HOLD; short on break below 182.8, long on reclaim above 184.7.",
+    "portfolio": "EWY: HOLD (size 0) \u2014 no trend, most gap-prone name into closed-cash weekend; wait for the 182.8/184.7 coil to break."
+  },
+  "timestamp": "2026-07-12T22:02:38.998632+00:00"
+}

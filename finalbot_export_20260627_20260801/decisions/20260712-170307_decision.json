@@ -1,0 +1,23 @@
+{
+  "symbol": "CL/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.6,
+  "size": 0.0,
+  "entry": 73.75,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "rationale": "CL is in a genuine 4h uptrend (ADX 54, +0.68) on live Iran/Hormuz supply fear, but at $73.75 it is extended (VWAP +1.94%, stoch 85, %B 0.89) and sits under $76.13 resistance with the single most crowded long book in the scan (L/S 4.0, funding positive). Chasing long into that is the account's #1 loss pattern; shorting fights the trend and the geopolitical bid. Wait: buy a pullback to VWAP ~72.3 with confirmation, or a volume break of 76.13. Diversifier value (BTC corr -0.26) does not justify a bad entry.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 72.3,
+    "expires_min": 360,
+    "note": "A pullback to VWAP/prior support ~72.3 resets the long into a proper trend-continuation entry with an honest ~1x ATR stop instead of chasing extension."
+  },
+  "transcript": {
+    "macro": "Regime MIXED, hawkish Fed. CL NEUTRAL-to-BULLISH momentum but crowded/near resistance. ~$73.75, one clean uptrend: 4h +0.68, ADX 54, RSI 59, +1.9% above VWAP, ~3.5% weekly gain on US-Iran tension / Hormuz supply fears. Just under scan resistance $76.13, stoch 85 (stretched). L/S 4.0 (most crowded long in scan) -> squeeze/mean-reversion risk on any de-escalation headline. Negatively correlated to BTC/equities (diversifier).",
+    "sentiment": "CL BULLISH / high-vol, freshest shock. REGIME FLIP: Trump declared ceasefire 'over', US strikes on Iran, Strait of Hormuz shipping effectively halted -> WTI jumped ~$69 Mon to ~$75 Fri. Counterweight: pre-flare-up backdrop bearish (OPEC+ +188kb/d July hike, Iranian barrels returning, UAE record output, glut talk). Net: sharp two-way headline-driven risk; trade as event-driven, not trend.",
+    "analyst": "CL is the one clean uptrend (4h +0.68, ADX 54, live Hormuz bid), but at $73.75 it's stretched +1.94% above VWAP with stoch 85 and %B 0.89, jammed under $76.13, with the most crowded long book (L/S 4.0, positive funding). A market long chases exactly the extension that produces the account's worst losers; any de-escalation headline gaps it down. Shorting fights an ADX-54 uptrend and the geopolitical bid. Hold flat, arm a price_below trigger at ~72.3 (VWAP) for a proper trend-continuation long on the pullback.",
+    "portfolio": "CL -> HOLD (flat), conf 0.60; armed trend-continuation long on pullback below 72.3."
+  },
+  "timestamp": "2026-07-12T17:03:07.744178+00:00"
+}

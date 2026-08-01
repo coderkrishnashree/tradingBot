@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "EWJ/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.8,
+  "playbook": "none",
+  "forecast": "Price stays pinned in the 91.8-93.2 zero-volume band, drifting near 92.6 on essentially no trades until US cash reopens; no clean directional move is executable this session.",
+  "expectancy_note": "No fillable entry: OI 2,111, repeated 0.0-volume 15m bars, phantom candles mean any stop/target is untradeable \u2014 expectancy of entering is negative regardless of the mild 4h bullish lean.",
+  "rationale": "EWJ is effectively untradeable off-hours: the last ~20 bars are mostly zero-volume prints, OI is a trivial 2,111, and US cash is closed. Although 1h/4h scores lean long (RSI 70.6, mild Nikkei/AI tailwind) with no adverse binary in 48h, there is no liquidity to honor an entry, stop, or target, so risk is uncontrollable. HOLD on liquidity alone; a real-volume reclaim of the 94.49 resistance once markets reopen is the only thing that would justify a long.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 94.49,
+    "expires_min": 240,
+    "note": "A break of 4h resistance on genuine (non-zero) volume after cash reopens would confirm the bullish lean is tradeable and flip this to a long candidate."
+  },
+  "transcript": {
+    "macro": "RISK-OFF/DEFENSIVE. Hawkish Fed, FOMC July 29. US cash CLOSED at scan. EWJ effectively UNTRADEABLE this session \u2014 zero-volume 15m candles, OI just 2,111. AVOID on liquidity alone.",
+    "sentiment": "EWJ mildly bullish/neutral: Nikkei opened +0.5% on AI/semis theme, less explosive than Korea. Scan symbol extremely illiquid (many zero-volume candles) \u2014 treat price signals with caution. No Japan-specific binary inside 48h.",
+    "analyst": "EWJ candles confirm untradeable off-hours: last ~20 bars mostly 0.0-volume prints, OI 2,111, price frozen 91.79-93.21. Any SL/TP cannot be honestly filled; mechanical stop would sit inside a phantom candle. 4h read mildly bullish (RSI 70.6) but no executable path and no binary inside 48h \u2014 pure liquidity avoidance. HOLD; re-debate only if EWJ breaks 94.49 on real volume once cash reopens.",
+    "portfolio": "HOLD EWJ \u2014 untradeable off-hours (OI 2,111, zero-volume bars); no fillable entry."
+  },
+  "timestamp": "2026-07-23T02:32:42.100610+00:00"
+}

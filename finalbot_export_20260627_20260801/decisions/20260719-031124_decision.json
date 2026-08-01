@@ -1,0 +1,25 @@
+{
+  "action": "hold",
+  "symbol": "INTC/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Short-term bounce off 92.6-92.7 grinds into the weekend close (93.3-93.5), then Monday gaps on the open; no clean directional edge until price reclaims/rejects VWAP near 95.4 or loses 92.6 support with volume.",
+  "rationale": "Higher TFs are down (1h -0.85, 4h -0.51, ADX 57.9) but the last ~10 mid-frame candles show a clean series of higher lows off 92.63 with the final bar closing at its high (93.28) \u2014 price is bouncing, not breaking down, so a market short here fades directly into strength while already 2.74% below VWAP. Longs are disqualified: down trend, crowded long (L/S 2.23), weakest name (rel-str -36%), and EARNINGS Thu 7/23 make any hold a coin-flip. Sunday US-closed tape is thin and will gap Monday \u2014 HOLD is the highest-expectancy choice.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 95.4,
+    "expires_min": 240,
+    "note": "A bounce back to the 95.4 resistance/VWAP zone would offer a proper high-R:R short entry (rejection into resistance, trend still down) rather than chasing 2.74% below VWAP down here."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF, tech-led. Fri 7/18 S&P -1%, Nasdaq -1.5% on semiconductor selloff. Sunday US market CLOSED. INTC: EARNINGS 7/23 inside the hold window \u2014 options pricing ~15% move; any hold through print is a coin-flip event bet. Structure bias -0.26 (L/S 2.23 crowded long), 4h/1h down, RSI 32; stock +160% YTD / -17% on the month. Environment HOSTILE for holding through print.",
+    "sentiment": "INTC BEARISH into a binary: Q2 earnings Thu 7/23 after close. Stock down ~14% on the week (~$79B wiped) on semiconductor/AI-overvaluation selloff sparked by BofA 'AI chip bubble' note. HSBC $200 PT is long-horizon foundry-driven \u2014 do not trade on it. Tape and sector momentum decisively negative; near-term news against longs.",
+    "analyst": "Both sides negative expectancy: shorting is a late entry 2.74% below VWAP into a fresh higher-lows bounce (account's #1 loss pattern), longing is a knife-catch vs down 1h/4h into a binary earnings; p(win) <0.45 (p_win_learned 0.345). HOLD; short only on a rejection back at VWAP/resistance ~95.4.",
+    "portfolio": "INTC: HOLD \u2014 bouncing into strength below VWAP with earnings 7/23 inside the window; no clean edge either side."
+  },
+  "timestamp": "2026-07-19T03:11:24.246867+00:00"
+}

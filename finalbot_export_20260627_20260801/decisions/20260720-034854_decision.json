@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "TSLA/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Price is basing 381.1-382.4 just above support 377.78 with 15m RSI 33.4 and 5m flipped long; over the next few bars expect chop/small bounce toward VWAP ~383-385 rather than a clean flush. A decisive 15m close below 377.78 opens air toward 372-373.",
+  "expectancy_note": "Short here is p(win)~0.45 (learner: shorts 0.47 win, -0.88 avg): market-shorting into held support with LTF oversold/turning is the account's classic late-short-stopped-by-bounce loss. Better R:R comes on a confirmed break of 377.78 or a bounce to 385.",
+  "rationale": "4h trend and macro/sentiment favor the short side, but at 381.9 price is at VWAP and basing directly on support 377.78 with 15m RSI 33.4 and 5m already long \u2014 a market short chases into the level and a routine bounce hits any honest stop first. Cash market is closed (thin/gappy pre-open) and earnings hit Wed after close, so I will not carry naked size. I want confirmation: a clean 15m close below 377.78 turns this into a proper trend-continuation short toward 372.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 377.78,
+    "expires_min": 240,
+    "note": "Losing base support 377.78 confirms the 4h breakdown and opens air toward 372-373 \u2014 the trend-short entry with real R:R, versus chasing into support now."
+  },
+  "transcript": {
+    "macro": "TSLA: corr 0.25, rel-strength -15.65%, struct_bias -0.27. The ONE name whose composite is SHORT (-0.37), 4h trend down \u2014 aligns with the risk-off tape. But L/S 2.02 crowded-long (fuel for a squeeze down or a contrarian bounce). A short lines up with the macro backdrop better than any long here; gated by the closed cash market (open 13:30 UTC, thin/gap-prone).",
+    "sentiment": "US tech RISK-OFF. TSLA BEARISH lean / HIGH event risk: reports Wed Jul 22 after close. Deliveries already known (blowout 480k, +25% y/y) so the beat is priced; report now about margins + robotaxi/Cybercab \u2014 a 'sell-the-known-good-news' setup. Scan composite the only outright SHORT. Do not carry naked size into Wed close.",
+    "analyst": "4h trend and macro/sentiment favor short, but at 381.9 price is at VWAP basing directly on support 377.78 with 15m RSI 33.4 and 5m already long \u2014 market-shorting into a held level is the account's classic late-short-stopped-by-bounce loss. Cash closed/thin, Wed earnings binary. HOLD; a clean 15m close below 377.78 turns it into a proper trend-continuation short toward 372.",
+    "portfolio": "TSLA -> HOLD (conf 0.50): short bias is right but price is basing on support; sell the break of 377.78, don't chase."
+  },
+  "timestamp": "2026-07-20T03:48:54.040376+00:00"
+}

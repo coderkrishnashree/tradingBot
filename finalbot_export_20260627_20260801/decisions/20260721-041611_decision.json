@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "COIN/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Grind is stretched: +1.95% over VWAP, %B ~1.0, bearish divergence \u2014 expect a stall/pullback toward 160-161 (VWAP/SMA20) over the next few bars before any push at resistance 168.65. Not a spot to chase either way.",
+  "expectancy_note": "Long here p(win) low: entry 163.1 vs resistance 168.65 gives <1.5R with a stretched, divergent tape; short fights ADX 65 uptrend. Best expectancy = wait for VWAP retest to buy with trend, or breakout confirmation.",
+  "rationale": "COIN is in a strong aligned uptrend (ADX 65, all TFs long) but is extended: price rides the upper Bollinger band, +1.95% above VWAP, stoch 82.8 with a bearish divergence flagged \u2014 this is exactly the chase-the-move condition that stops out on a routine bounce/pullback. Volume is fading on the last few up-bars, arguing for a stall. No honest R:R long exists at 163.1 into 168.65 resistance, and shorting a strong uptrend against 0.635 BTC-beta in a risk-off tape is not worth it. Wait for a VWAP retest (~160) to buy the trend or a clean break of 168.65.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 160.5,
+    "expires_min": 240,
+    "note": "Pullback into VWAP/SMA20 zone gives a with-trend long entry with room to 168.65 and an honest ~1x ATR stop under 158.5."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF/defensive (2026-07-21): geopolitics (Iran/Hormuz) headline-gap tape; size down. COIN cleanest crypto-linked positioning \u2014 L/S 1.10, funding tiny, structure_bias only -0.078; BUT bearish divergence flagged and btc_corr 0.635 (BTC-beta). RS vs BTC ~flat (-0.29%).",
+    "sentiment": "COIN neutral: Q2 earnings Jul 30 after close (outside 48h). Prior quarter (May 7) was a miss (-$0.17); expectations cautious. Near-term trades as high-beta to overall crypto/BTC tone, not an idiosyncratic catalyst this week.",
+    "analyst": "HOLD COIN. Trending strongly up (ADX 65, all timeframes aligned long) but over-extended right now \u2014 riding the upper Bollinger band, +1.95% above VWAP, stochastic 82.8, and a bearish divergence flagged. Buying at 163.13 into 168.65 resistance gives sub-1.5R and fits the account's worst loss pattern (chasing a stretched move that stops on the bounce). Shorting fights a very strong uptrend and 0.635 BTC-beta in a risk-off tape. Trigger is a VWAP retest near 160.5 to buy with the trend.",
+    "portfolio": "HOLD COIN \u2014 strong uptrend but extended with bearish divergence; wait for the ~160.5 VWAP retest to buy the trend."
+  },
+  "timestamp": "2026-07-21T04:16:11.254727+00:00"
+}

@@ -1,0 +1,23 @@
+{
+  "symbol": "MU/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.2,
+  "size": 0.0,
+  "entry": 1030.64,
+  "stop_loss": 990.0,
+  "take_profit": 1080.0,
+  "rationale": "US cash market is dark (July 4 holiday, reopens Mon July 6), so this tokenized perp trades on a stale reference (~1030) that is RICH to the last real cash close (~976) with no price discovery and thin gappy liquidity. Scanner is regime_blocked (squeeze), composite confidence only 13.8%, and indicators are stretched (RSI 66.6, Stoch 97.5, bb_pctb 0.995, price pinned at resistance 1030.76, +0.4% VWAP) \u2014 a poor spot to buy and no confirmed reversal to short. Crowded longs (L/S 1.509, mild positive funding) into a fresh SOXX ~13% two-day sector crack skew Monday's reopen gap DOWN, but a pre-open short on a stale token risks a benign fill and its own gap risk. Best expectancy is to wait for real cash-market price discovery; no trade justifies size here.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 1022.0,
+    "expires_min": 240,
+    "note": "Losing support 1022.91 breaks the squeeze DOWN and confirms the crowded-long unwind / rich-token mean-reversion toward the ~976 real cash level, opening a short."
+  },
+  "transcript": {
+    "macro": "Scan stamped 2026-07-04 (Sat); US equities closed Fri Jul 3 (Independence Day), reopen Mon Jul 6 \u2014 MU's NASDAQ book is DARK, perp on stale reference price. Semis in violent reversal: SOXX -12.9% in two sessions (sharpest since Mar 2025) off a +82% YTD run. MU +309% YTD, ATH close 1213.56 Jun 25, last real cash close 975.56 Jul 2 (already -20% off high); scan 'last' 1030.64 is RICH vs cash. Crypto risk-off but MU btc_correlation only 0.248 \u2014 treat as equity. Derivs: funding 0.000118 (mild long lean), OI 19,182, L/S 1.509 (crowded longs), OB imbalance +0.253 (thin holiday book), structure_bias -0.125, composite conf 13.8%, regime 'squeeze', regime_blocked=true. Verdict: HOSTILE for directional risk; Mon Jul 6 reopen gap risk skewed DOWN; if forced, size down; best = wait for cash open.",
+    "sentiment": "Fundamentally bullish, tactically fragile. MU blew out fiscal Q3 Jun 24 (rev ~$41.5B vs ~$35.8B est, EPS $25.11), guided Q4 ~$50B vs ~$43.6B est, HBM sold out through 2026, ~$100B AI-memory contracts + Anthropic deal. Consensus Strong Buy (40/42), avg PT $1,264\u2013$1,486 \u2014 already priced. \u226448h catalyst is NEGATIVE sector momentum (AI-chip selloff, MU -13% in a session; SK Hynix slowing HBM, AI-capex skepticism, hawkish Fed Chair Warsh), not a MU binary (earnings done Jun 24, next ~3 mo out). Near-term news NEUTRAL-to-BEARISH for a long; markets thin/gappy into Mon Jul 6 reopen. Long into overbought token vs fresh sector drawdown is lower-quality side; any short is a mean-reversion/sector play.",
+    "analyst": "MU row: last 1030.64, support 1022.91, resistance 1030.76 (pinned at resistance), 4h ATR% 2.44 (~25 pts). RSI 66.6, Stoch 97.5, bb_pctb 0.995, vwap_dist +0.4%, regime_blocked=true, conf 13.8%. Stretched token pinned at upper band into a dark cash market and fresh semi selloff \u2014 no clean directional edge, gap risk skewed down for Monday. HOLD is correct; no trade justifies size. Reconsider a short only if price loses 1022.0 within 4h (confirms crowded-long unwind toward ~976).",
+    "portfolio": "HOLD MU/USDT:USDT \u2014 no trade; closed-market stale/rich token, regime_blocked, gap risk into Mon Jul 6 reopen. Confidence 0.2, size 0."
+  },
+  "timestamp": "2026-07-04T18:46:01.808813+00:00"
+}

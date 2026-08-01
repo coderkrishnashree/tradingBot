@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "AAPL/USDT:USDT",
+  "size": 0.0,
+  "entry": 315.09,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Thin, low-volume drift chops 314-317 until the 9:30 ET open / 12:30 UTC CPI; then a gap decides direction. No clean next-candle move to trade in the closed-market window.",
+  "expectancy_note": "No edge: composite weak (36.8%, p_win 0.50), 30m RSI 15.4 oversold means a short chases into a bounce; CPI + closed cash market = binary gap risk. Best expectancy is standing aside.",
+  "rationale": "AAPL is a tokenized equity (btc_corr 0.21) with US cash markets CLOSED and volumes of 0.4-8 contracts \u2014 the overnight perp is gappy and can reprice violently at the 9:30 ET open, with June CPI printing today at 12:30 UTC as a binary macro shock. The composite short is real but weak (blended -0.24, 36.8% conf), structure is effectively neutral (funding 0, L/S 0.91, bias -0.089), and 30m RSI 15.4 is washed out so a fresh short here would be chasing into a bounce \u2014 precisely this account's proven #1 loss pattern (learner: aligned weight -0.52, trend playbook avg -2.51R). bb_width 1.44% offers no range to fade either. Zero size: no honest R:R exists across a closed-market, pre-CPI window.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 305.19,
+    "expires_min": 240,
+    "note": "Losing the 305.19 support post-CPI/open confirms genuine downside momentum rather than thin-tape drift, opening a valid trend short with a real level to lean on."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF/defensive. Equities wobbly (S&P -0.79% to 7,515, Nasdaq -1.55% to 25,873 chip-led on Iran/Hormuz oil spike); Jul 14 Nasdaq 100 futures -0.3%. CRITICAL: US June CPI prints today Jul 14 12:30 UTC \u2014 binary event in hours; scan built pre-print. AAPL: price 315.09, quiet (bb_width 1.44%, ADX 31), composite short but WEAK (blended -0.24, conf 36.8). 30m RSI 15.4 washed out -> bounce-prone. THIN/CLOSED-MARKET RISK is the headline: 15m volumes 0.4-8 contracts; US cash equities CLOSED; tokenized perp overnight gappy, can reprice violently at 9:30 ET open. Funding 0, L/S 0.91 (balanced), orderbook -0.386 (mild sell), structure_bias -0.089 (neutral). btc_corr 0.21 (trades on Nasdaq/rates/CPI). Read: MIXED/neutral, least attractive to initiate; do not carry fresh exposure across the closed-market window ahead of CPI.",
+    "sentiment": "AAPL net NEUTRAL-to-mildly-constructive, but dominant factor is an EARNINGS BINARY: Q3 FY26 earnings Jul 30 after close (~16 days out, outside 24-48h window \u2014 no directional trade now, but expect pre-earnings drift). Consensus ~$108.9B rev, ~$1.88-1.89 EPS (+20% y/y), 4 straight beats; guidance flagged softer gross margin 46.5-47.5% on rising component/memory costs. Fresh news moved little: Apple trade-secret lawsuit vs OpenAI Jul 10 (stock ~flat -0.28%). Long-horizon only: Broadcom chip deal to 2031, memory cost pressure, Citi PT raised to $365. Underlying closed off US hours (perp thin/gappy). 48h read: NEUTRAL \u2014 no catalyst inside 48h; a short rests on tape not fundamentals; mildly positive medium-term tone is a modest headwind to a short.",
+    "analyst": "Textbook NO-TRADE. Tokenized equity (btc_corr 0.21) with US cash market CLOSED and volumes of 0.4-8 contracts \u2014 gappy perp that can reprice violently at the 9:30 ET open, with CPI at 12:30 UTC. Composite short is weak (36.8%, p_win 0.50), structure neutral, and 30m RSI 15.4 washed out means a fresh short chases into a bounce \u2014 the account's #1 loss pattern (learner aligned weight -0.52, trend playbook -2.51R). bb_width 1.44% gives no range to fade. HOLD, size 0; reconsider on a 305.19 support break post-CPI/open.",
+    "portfolio": "AAPL/USDT:USDT \u2014 HOLD (conf 0.60): thin closed-market tokenized equity, no honest R:R pre-CPI; stand aside, reconsider below 305.19."
+  },
+  "timestamp": "2026-07-14T07:02:45.876157+00:00"
+}

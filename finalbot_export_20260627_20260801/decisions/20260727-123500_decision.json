@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "INTC/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Oversold exhaustion into 91.35 support: last bars show a dead-volume stall at 93.5 (vol 31 vs 1675), so expect a relief bounce toward the 94.7-95.1 broken-support shelf over the next 4-8 bars before the bear trend can resume; shorting the hole here (RSI 17, -3.9% below VWAP) gets stopped by that bounce.",
+  "expectancy_note": "Short-here p(win)~0.4 (bounce risk into 91.35, only ~2R of room left); waiting to short the 94.7-95.1 retest gives ~0.6 p(win) with clean 1.5R+ to 91.35. HOLD beats chasing a stretched move.",
+  "rationale": "Macro/sentiment SHORT lean is right (RS -17%, crowded-long 1.80, post-capex unwind), but INTC is 2x-ATR extended down with 15m RSI 17 and only ~2.3% (2xATR) above 91.35 support \u2014 the classic late-short trap that has killed this account's book. Volume is collapsing into the low, signaling a pending relief bounce. No trade until price offers a proper short entry near the broken 94.7-95.1 shelf, or a clean support break re-arms continuation.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 94.8,
+    "expires_min": 240,
+    "note": "A bounce back to the broken 94.7-95.1 support-turned-resistance is where a trend-continuation SHORT pays with clean R:R down to 91.35; crossing it means the relief rally has arrived and I re-debate a short entry."
+  },
+  "transcript": {
+    "macro": "Risk-OFF into a binary event window (FOMC 7/28-29). Semis in an acknowledged bear market. Crowded-long: INTC L/S 1.80, structure_bias -0.28. INTC BTC-corr low (0.31), RS -17.3% (worst laggard, worst structural story). Per-symbol lean: INTC SHORT (worst structural story, -21% run) BUT already very oversold intraday \u2014 size down, expect bounces.",
+    "sentiment": "INTC: the freshest shock. Reported Q2 Thu 7/23 (big beat EPS $0.42 vs $0.21) then REVERSED and fell ~8% Fri 7/24 on raised 2026 capex ($18B->$20B+) and still no named foundry-anchor customer. Down ~21-28% over the week \u2014 post-earnings unwind with active negative momentum and no fresh catalyst to arrest it. Earnings binary already behind it; risk is continued gap-down drift and foundry-customer headline sensitivity. Lean: bearish.",
+    "analyst": "Price -3.91% below VWAP with 15m RSI 17 \u2014 a ~2xATR extension in the short direction. Support 91.35 only ~2.3% (2xATR) below, so most near-term downside is spent; last bars stall 93.44-93.87 on collapsing volume (31 vs 1675) = exhaustion into support, not fresh breakdown. Structural short lean is right but market-shorting the hole gets stopped by the relief bounce. Honest expression: short the 94.7-95.1 retest, not the flush. HOLD with armed short trigger at 94.8.",
+    "portfolio": "HOLD INTC \u2014 2xATR oversold into support; don't chase, short the bounce to 94.7-95.1."
+  },
+  "timestamp": "2026-07-27T12:35:00.964572+00:00"
+}

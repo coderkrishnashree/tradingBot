@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "CRCL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.34,
+  "playbook": "none",
+  "forecast": "Price coils 60.7-61.3 in a thin weekend range; most likely it chops sideways around 60.9 VWAP for the next several bars. Only a clean loss of the 60.69 base low opens a slide to 58.76 support; a reclaim of 61.80 confirms the bounce back toward 62.5+.",
+  "expectancy_note": "No edge: mid-range %B 0.458, no fade extreme and no aligned continuation entry; a market short here risks a squeeze in a thin, low-liquidity name. Best expectancy is flat until a level breaks.",
+  "rationale": "Mid-range, unaligned timeframes, illiquid CLOSED-market weekend tape, and a short direction that is both crowded-against and this account's proven money-loser. No entry offers >=1.5R with an honest sub-1.5xATR stop, so the highest-expectancy action is flat. Size 0.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 60.69,
+    "expires_min": 240,
+    "note": "Losing the coil's base low breaks the weekend range and opens the 58.76 support test \u2014 that is the only clean short trigger; until then it is chop."
+  },
+  "transcript": {
+    "macro": "RISK-OFF/defensive. Fri equities sold off on AI-capex/semi scare + US-Iran escalation. Crypto Fear (F&G 26), BTC low-$60Ks, 10Y 4.56%, DXY 101. Sunday, US cash markets CLOSED \u2014 CRCL prices on-chain only (thin/gappy), widest ATR (1.65%); smallest size. CRCL: short-lean conf 38.7%, biggest positioning flag \u2014 L/S 2.38 (max long-crowding, bias -0.31) while RS -26.6% (worst laggard). Squeeze-prone both directions.",
+    "sentiment": "CRCL = stablecoin issuer, high crypto-sensitivity, de-rated (~$138 May -> $60-80, worst RS -26.6%). Mixed cross-currents, none a clean <=48h binary: (+) OCC approval for national trust bank (~Jul 10, popped ~7%); (+/-) Nomura Japan USDC deal (2027); (-) Stripe/Open-USD 'existential' threat + downgrades (long-horizon, low weight); (-) tightening Fed stablecoin oversight. No confirmed earnings/lockup in 48h (unknown \u2014 a lockup unlock would be real supply overhang). Choppy, news-NEUTRAL but headline-jumpy.",
+    "analyst": "BEAR: worst RS (-26.6%), 4h/5m down, risk-off, Stripe/Open-USD narrative, structure_bias -0.31 from L/S 2.38 that can unwind lower. BULL/RISK veto: composite UNALIGNED (conf 38.7%), 1h actually LONG, price mid-range (%B 0.458, RSI 55) with no extreme to fade and no honest continuation entry; closed-market Sunday, thinnest/gappiest, widest ATR 1.65%, squeeze-prone both ways; learner shows this account's shorts LOSE (n=36, win 0.47, avg -0.87). No 1.5R setup. HOLD; short only on confirmed loss of 60.69, abandon bear on 61.80 reclaim.",
+    "portfolio": "CRCL \u2014 HOLD (conf 0.34): no edge, unaligned + thin squeeze-prone tape; re-arm short below 60.69."
+  },
+  "timestamp": "2026-07-19T06:43:19.706304+00:00"
+}

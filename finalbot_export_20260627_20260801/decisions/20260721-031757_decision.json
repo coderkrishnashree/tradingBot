@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "MSFT/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price is stalling under 402 with bearish 15m divergence, stoch 90 and %B 0.98 while extended +1.17% over VWAP; expect a mean-reversion dip toward the 397-398 VWAP/support zone over the next 2-6 bars before the daily uptrend can resume. That dip is the buy, not this stretched top.",
+  "expectancy_note": "Buying here is chasing (extended, overbought, bearish div, crowded longs LSR 1.84, negative orderbook) - a routine pullback would hit any honest stop first; shorting a clean 1h/4h uptrend has negative edge (account shorts 49% win, -0.71R). Waiting for the pullback long gives R:R >2.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 398.5,
+    "expires_min": 240,
+    "note": "A reversion into the 397-398 VWAP/support zone unwinds the overbought stretch and offers a trend-continuation long with a tight stop under 396 and target back toward 406 resistance."
+  },
+  "rationale": "MSFT is the cleanest equity uptrend (1h/4h up, low BTC beta 0.30) but price is mid-air: +1.17% over VWAP, %B 0.978, stoch 90, bearish divergence, and the last 8 candles are fading under 402 rather than breaking 406 resistance. Structure is bearish short-term (LSR 1.84 crowded longs, orderbook -0.39), so a shallow reversion toward VWAP ~397-398 is the higher-probability next move and the honest long entry. No earnings inside 48h (Jul 29), so nothing forces a chase \u2014 hold and buy the dip.",
+  "transcript": {
+    "macro": "Cautious risk-off, event-heavy week (2026-07-21). Equities soft but chip rebound supportive; US-Iran conflict, oil spike; FOMC Jul 29; tokenized equities gap overnight. MSFT one-liner: LONG-lean, cleanest equity here \u2014 NO earnings this week (Jul 29), uptrend across TFs, low BTC beta (0.30); watch bearish 15m divergence + stoch 90 (near-term overbought); buy pullbacks, not breakouts.",
+    "sentiment": "MSFT EARNINGS JULY 29 after close (outside 48h). Azure guide 39-40% cc growth; AI run-rate $37B (+123% yoy); capex $190B. Sentiment compressed/'crisis of confidence,' so even in-line could relief-rally. NEUTRAL into the print; bullish skew if Azure holds.",
+    "analyst": "Cleanest equity uptrend (1h/4h up, BTC beta 0.30) but mid-air: +1.17% over VWAP, %B 0.978, stoch 90, bearish 15m divergence, last 8 bars fading under 402. Crowded longs (LSR 1.84) + negative orderbook favor a reversion toward VWAP ~397-398, which is the honest long entry. No earnings inside 48h forces a chase \u2014 HOLD and buy the dip.",
+    "portfolio": "MSFT \u2014 HOLD (conf 0.60): cleanest uptrend but overbought; buy the 397-398 VWAP dip, don't chase 402."
+  },
+  "timestamp": "2026-07-21T03:17:57.931204+00:00"
+}

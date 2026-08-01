@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "MSTR/USDT:USDT",
+  "size": 0.0,
+  "entry": 94.98,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.4,
+  "playbook": "none",
+  "forecast": "Price coils 94.8-95.4 around VWAP for the next 2-4 bars; a break below the 94.60 absorption low opens 4h-short toward 93.5/support, while a reclaim above 95.35 with the 1h uptrend negates the short. No directional edge until one side gives.",
+  "expectancy_note": "No R:R>=1.5 setup: price mid-range at VWAP (%B 0.44), TFs conflict (1h long vs 4h short), and this account's shorts win only 0.47 (-0.87R) - a muddy weekend short is negative expectancy.",
+  "rationale": "MSTR sits dead-center of its 89.95-102.0 range, right at VWAP (-0.76%) with %B 0.44 and RSI 38.7 - neither an extreme to fade nor a trend pullback to join, and the 1h TF is long against the 4h short. A large-volume absorption bar at 94.82 stabilized price, so there is no momentum to chase. Structure bias near-flat (-0.075) with crowd leaning long (L/S 1.33); thin weekend/BTC-beta tape and a losing short record make waiting for a level break the highest-expectancy play.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 94.6,
+    "expires_min": 240,
+    "note": "Losing the 94.60 absorption low confirms sellers regained control, aligning 15m/4h shorts for a run toward 93.5/support."
+  },
+  "transcript": {
+    "macro": "2026-07-18 Sat, US equities CLOSED weekend. Neutral-to-choppy bearish tilt; thin/gappy weekend books, mean-revert into Monday. MSTR highest-conviction crypto proxy, BTC corr 0.713, rel-strength +6.5% (leading), ~$94.98. TFs conflict (1h long, 4h short) and BTC soft ~$62.7k - a BTC-beta bet more than standalone. Neutral-to-slightly-short with BTC. Size down.",
+    "sentiment": "MSTR mildly bearish, BTC-driven. No MSTR-specific binary in 48h - follows bitcoin weekend tape. Overhang: sold ~3,588 BTC (~$135M) early July + issued 4.82M shares for preferred dividends (dilution), cash ~$3B. Partly offset by JPMorgan Jul 16 positive BTC-futures note. Leans slightly against longs / mildly supportive of short, BTC-tape dependent.",
+    "analyst": "Textbook no-trade chop-in-the-middle: mid-range at VWAP, %B 0.44, RSI 38.7, TFs conflict. Absorption bar at 94.82 stabilized price, no momentum. Shorts losing (0.47 win, -0.87R). HOLD; reconsider on 94.60 breakdown or 95.35 reclaim.",
+    "portfolio": "HOLD MSTR - dead-center range at VWAP with conflicting TFs; wait for 94.60 break."
+  },
+  "timestamp": "2026-07-18T07:38:17.617628+00:00"
+}

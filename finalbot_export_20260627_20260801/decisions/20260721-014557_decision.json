@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "TSM/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.55,
+  "playbook": "breakout",
+  "forecast": "Fresh 15m breakout closed at 407.53 right at the highs on an 8x thin-liquidity spike with 5m RSI 86 - a vertical first bar. Expect a pullback to retest the 407.29 breakout level / 404-405 base within 1-4 bars; otherwise it fails back into the range.",
+  "expectancy_note": "Market-chasing here is negative expectancy: stop must sit below 404 base (~3.5pts / 0.85%) while a routine counter-bounce off RSI-86 hits it before 440; p(win) on the chase ~0.4. Waiting for the retest turns it into a ~0.6 setup with 1.5R+.",
+  "rationale": "TSM is a tokenized equity on thin liquidity (sub-2.5 vol bars) that just ripped vertically into the 407.29 level on 8x volume with 5m RSI 86 and %B 0.996 - textbook extended, structure crowded long (L/S 2.14, bias -0.33) with a weak 37.5% composite. Chasing at the highs is this account's #1 loss pattern; wait for the retest of the breakout level to confirm as support before going long.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 407.29,
+    "expires_min": 240,
+    "note": "A pullback that bases and reclaims 407.29 as support (rather than the vertical first-touch) confirms the breakout and gives a proper retest long with a tight stop below the 404-405 base."
+  },
+  "transcript": {
+    "macro": "MIXED, leaning RISK-OFF for fresh longs (2026-07-21). Indices stalling just off highs (S&P 7,443, Nasdaq Comp 25,508), rising 10Y yields (4.55%) = headwind for tech multiples, DXY ~100.8. Earnings gauntlet inside 48h: GOOGL + TSLA after close Wed 7/22, INTC after close Thu 7/23 (no position carried through those). Tech names uniformly long-crowded (negative structure_bias). Chips are the relative-strength pocket but on a bounce, not a confirmed leg. Crude has the only fresh macro tailwind (US-Iran, Hormuz) but it's binary headline risk. Metals capped by yields (gold rejected $4,000, silver crowded-long/extended). BTC cleanest tape (benign funding, no earnings gate) but heavy overhead offers. EWJ pure QQQ/EWY beta, no independent driver. FOMC 7/29, BOJ 7/30 outside window. Size stance BELOW NORMAL - elevated gap risk into next 2 sessions.",
+    "sentiment": "Only true <=48h binaries are GOOGL (Q2 earnings 7/22 after close, elevated IV, gap expected) and INTC (Q2 earnings 7/23, options pricing ~15% move, RSI ~76). MSTR flipped to SELLING BTC (~$216M, largest since 2022) to fund dividends, stock -79% YoY - modest sentiment negative, BTC-dependent. BTC low-$65k, coiled bet on 7/28-29 FOMC ($2.5B call spreads target $72k); record June ETF outflows. XAG near 8-month lows after -6%, Sept-hike fears a headwind, no 48h catalyst. CL ~$82-83 five-week highs on US-Iran day 10 / Hormuz disruption - two-sided gap risk (possible 10-day ceasefire circulating). AAPL record ~$334 on China Apple Intelligence approval, +24% China iPhone units; earnings 7/30 (outside). MSFT earnings 7/29 (outside). TSM already reported 7/16 (rev +36% YoY, strong guide) - catalyst behind. ORCL no near-term catalyst. EWJ driver is BOJ 7/30 (outside). Everything except GOOGL/INTC/CL is pre-positioning ahead of the 7/28-30 FOMC/BOJ/MSFT/AAPL cluster - no fresh 48h mover.",
+    "analyst": "TSM is a tokenized equity on thin liquidity (sub-2.5 vol bars) that just ripped vertically into the 407.29 level on 8x volume with 5m RSI 86 and %B 0.996 - textbook extended, structure crowded long (L/S 2.14, bias -0.33) with a weak 37.5% composite. Chasing at the highs is this account's #1 loss pattern; wait for the retest of the breakout level to confirm as support before going long.",
+    "portfolio": "HOLD (0.55) - fresh 8x breakout but vertical first-touch on thin tape, 5m RSI 86; wait for retest."
+  },
+  "timestamp": "2026-07-21T01:45:57.045344+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "TSLA/USDT:USDT",
+  "size": 0.0,
+  "entry": 385.13,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.34,
+  "playbook": "none",
+  "forecast": "Price is bouncing off 377.78 back toward VWAP (~395); expect a grind into the 391-392 resistance shelf over the next few bars, then either rejection or reclaim decides direction. No clean edge until that resolves.",
+  "expectancy_note": "No trade beats both a chase-short into 4h RSI 16.5 / %B 0.12 (the account's classic late-short-into-bounce loss) and a counter-trend long into risk-off tech pre-earnings; p(win) on either sub-0.5 with poor entry location.",
+  "rationale": "Signals are internally contradictory: 4h/1h oversold-and-down (RSI 16.5, short scores) vs 15m/30m/5m recovering long, composite flat (conf 7.0). Price sits -2.68% below VWAP at %B 0.119 and is actively bouncing off 377.78 support toward VWAP, so a short here chases into deep LTF oversold (bounce would stop it) and a long fights a risk-off tech tape with Jul 22 earnings looming and Friday weekend-gap risk. No location gives R:R >= 1.5 with an honest 1x-ATR stop, so size is zero.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 377.78,
+    "expires_min": 240,
+    "note": "Losing the 377.78 bounce-low proves the oversold flush is resuming with momentum rather than reversing, flipping this to a with-trend short instead of a fade of the current bounce."
+  },
+  "transcript": {
+    "macro": "Risk-OFF 2026-07-17: SPX -1.15%, Nasdaq -1.81%, VIX 18.04 (+7.8%). Global tech/semiconductor sell-off (AI capex fears, US-Iran tension, Netflix -11%). Tape favors tech shorts/fades. Friday weekend-gap risk; FOMC Jul 28-29. TSLA: RS +11.6% area (leading), corr SOL 0.44/BTC 0.23. Best-ever Q2 deliveries (~480K) known. Jul 22 earnings (after close) is about MARGINS + negative-FCF capex warning; options price a 7.6% move. Down 12% YTD. Pre-earnings + risk-off tape = don't chase longs; short bias favored intraday but beware squeeze on Musk/robotaxi headlines. Scan shows TSLA flat (conf 7.0, mixed timeframe signals ~+0.27/-0.27).",
+    "sentiment": "TSLA NEUTRAL for now, EARNINGS Jul 22 (~5 days) is the key upcoming binary. Q2 deliveries strong (480,126, +25% y/y) + robotaxi launched Miami Jul 5, but known/priced; Musk flagged material robotaxi revenue unlikely before 2027 and softened the 5-city timeline. Analysts mixed (Morgan Stanley EW $415; 'fully-priced' at >200x P/E). No catalyst inside 48h; quiet drift ahead of the Jul 22 print. Be flat/small into it.",
+    "analyst": "TSLA last 385.13, recovering off a 377.78 flush low back toward VWAP (-2.68% below, %B 0.119). Signals contradict: 4h RSI 16.5 / 1h RSI 41 short vs 15m/30m/5m recovering long; composite flat (conf 7.0). Shorting here chases deep LTF oversold right as price bounces (the book's classic late-short-into-bounce loss); a long fights the risk-off tech tape with Jul 22 earnings looming and Friday weekend-gap risk. No location gives R:R >= 1.5 with an honest 1x-ATR stop. HOLD, size 0; arm a with-trend short reconsider only on a loss of the 377.78 bounce-low.",
+    "portfolio": "TSLA: HOLD, size 0, conf 0.34 \u2014 mixed/oversold-bouncing, no edge; earnings Jul 22 keeps it flat. Arm short below 377.78."
+  },
+  "timestamp": "2026-07-17T17:05:43.091932+00:00"
+}

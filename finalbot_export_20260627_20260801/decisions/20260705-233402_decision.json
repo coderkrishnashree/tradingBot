@@ -1,0 +1,25 @@
+{
+  "action": "hold",
+  "symbol": "XAUT/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.62,
+  "playbook": "none",
+  "expectancy_note": "Long at band-top/resistance in a maxed-long book = chasing (p(win) low, R:R <1 with resistance overhead); short a live ADX-66 breakout with no divergence = fighting the tape. Neither clears the bar; HOLD is highest expectancy until a pullback or a confirmed break-and-retest.",
+  "rationale": "XAUT is in a real but VERY extended 15m breakout: price 4186.7 sits exactly at resistance 4187.2, bb_pctb 1.215 (above upper band), RSI 79 / stoch 97.6, 1h RSI 92. Long/short 2.888 (maxed) plus structure_bias -0.311 = the most one-sided long book on the board, so buying here means chasing into crowded longs with no upside room and an ATR of only 0.09% (any real stop sits far below inside a stretched move). Shorting a fresh vol-4.4x breakout with ADX 66 and no bearish divergence into a bullish gold macro (soft DXY/NFP) is also negative expectancy. Wait for either a pullback toward the 4178.7 breakout level for a cleaner long, or a decisive hold above 4187.2 that opens fresh range.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 4187.2,
+    "expires_min": 240,
+    "note": "A decisive hold/retest above resistance 4187.2 confirms the breakout has room and flips me to a trend-continuation long on the first pullback; until then price is pinned at the band top with crowded longs."
+  },
+  "transcript": {
+    "macro": "Gold strong near highs (~$4,175-4,187) on soft DXY (largest weekly dollar decline since April) and safe-haven bid. Soft US jobs + falling DXY supportive for gold. No FOMC/CPI inside 48h. XAUT $4,186.7: funding ~flat, OI 34,342, L/S 2.89 (HEAVILY long-skewed, leg maxed -1.0), orderbook +0.03, structure_bias -0.311 (most one-sided long book). RSI 79, ADX 66, stoch 97.6, bb_pctb 1.2, fresh 15m breakout (bbw 2.9x, vol 4.4x). Near-zero BTC corr (0.06) - trades on gold/DXY.",
+    "sentiment": "XAUT mildly bullish, macro-driven. Gold climbed toward $4,200 into July 3 close after weak June NFP (57k vs 110k) cooled Fed hike bets, softened dollar. <=48h calendar LIGHT: FOMC minutes July 8, June CPI July 14 (outside 48h). No XAUT-specific token news. NEUTRAL-to-mildly-BULLISH, no hard <=48h binary until FOMC minutes on the 8th.",
+    "analyst": "XAUT just printed a genuine 15m breakout (bbw 2.94x, vol 4.42x above 4178.7) on a supportive gold macro. But the entry is the problem, not the thesis. Price sits on resistance (4186.7 vs 4187.2) with bb_pctb 1.215 (above the upper band), momentum maxed across every TF (RSI 79/ADX 66/stoch 97.6, 1h & 30m RSI low-90s). Order book most one-sided long of the scan (L/S 2.888, leg pinned -1.0, structure_bias -0.311) - contrarian caution against joining up here. ATR 0.09% means no stop both survives noise and keeps R:R reasonable with resistance overhead - a long is a chase. A short is worse: fading an ADX-66 breakout with no divergence into a bullish macro. Textbook 'extended mid-air' no-trade. HOLD, trigger armed at 4187.2.",
+    "portfolio": "HOLD XAUT - real breakout but extended mid-air at resistance with the most crowded long book; wait for pullback or confirmed break/retest above 4187.2."
+  },
+  "timestamp": "2026-07-05T23:34:02.502343+00:00"
+}

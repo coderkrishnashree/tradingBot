@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "GOOGL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price coils 352-355 on support 351.78 with drying volume and higher-lows; expect a small oversold bounce toward VWAP/353.6-357 over 2-4 bars, OR a clean break of 351.78 that opens the next leg down toward ~349. Neither offers honest R:R from 355 right now.",
+  "expectancy_note": "Short here is chasing (1h RSI 22, %B~0, -2.4% VWAP): stop above 359 vs target 351.78 = R:R<1, and the routine oversold bounce stops it. Long fights risk-off macro + structure_bias -0.49 + ADX60 downtrend into US-close thin tape. HOLD has best expectancy; wait for the level to resolve.",
+  "rationale": "Trend/structure/sentiment all point short, but price is already deeply extended down and sitting on support 351.78 with volume drying and coiling higher-lows - a market short now is the account's textbook late-short-into-oversold loser (R:R<1, bounce stops it). A long is a pure counter-trend scalp against risk-off macro and crowded-long structure into thinning US-close liquidity. Best expectancy is to wait: a decisive break of support confirms the next down-leg with room, or a bounce into VWAP gives an honest short entry. Zero size until the coil resolves.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 351.78,
+    "expires_min": 240,
+    "note": "Losing 351.78 support breaks the coil and confirms the downtrend resumes - opens a fresh short with room toward ~349 and honest R:R, no longer chasing."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF/defensive. Hawkish Warsh Fed (9/18 dots see a hike by year-end, hike RISK not cuts). Heavy tape: Dow -1.09%, S&P -0.28%, Nasdaq +0.2%; oil shock (Iran ceasefire 'over', Brent +5.4%) = stagflation-tinted backdrop argues AGAINST fresh long equity beta. GOOGL net macro bias: AGAINST a fresh long - crowded longs (L/S 1.81) + active intraday downtrend; at best a small counter-trend bounce. US cash close ~20:00 UTC thins liquidity.",
+    "sentiment": "GOOGL mildly BEARISH near-term. AI-talent exodus (~5 senior researchers incl. Noam Shazeer left in a week), Gemini 3.5 Pro slipped June->July - dropped GOOGL ~5% this week. Q2 earnings ~July 22 (outside 24-48h window) = hard time-stop. Antitrust not near-term. Analysts structurally bullish (avg PT ~$434) but long-horizon. Near-term news ARGUES FOR a short.",
+    "analyst": "Trend/structure/sentiment point short, but price deeply extended down (1h RSI 22, %B~0, -2.4% VWAP) and sitting on support 351.78, volume drying, coiling higher-lows. Market short = chasing, R:R<1, bounce stops it (account's losing short pattern). Long = counter-trend scalp vs risk-off macro + structure_bias -0.49 + ADX60 downtrend into thin US-close tape. HOLD with armed short trigger: break of 351.78 flips to actionable short with room to ~349.",
+    "portfolio": "HOLD GOOGL - no honest R:R either side; wait for the 351.78 support break to re-arm the short."
+  },
+  "timestamp": "2026-07-09T16:30:15.173522+00:00"
+}

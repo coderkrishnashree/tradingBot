@@ -1,0 +1,28 @@
+{
+  "symbol": "COIN/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.55,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "none",
+  "forecast": "Price spiked to 160.52 and was rejected back to 159.3; over the next 2-4 bars expect a fade/consolidation toward the 157.4-158.0 base rather than immediate continuation. A long only earns positive R:R on a pullback to ~157.5 or a decisive reclaim above 160.5.",
+  "expectancy_note": "Market-buy at 159.35 gives TP1~160.5 (1.1pt) vs honest stop below 157.2 (2.1pt) = R:R~0.55 \u2014 negative expectancy; waiting for pullback or reclaim flips it to 1.5+.",
+  "rationale": "COIN is a tokenized equity scanned pre-US-open (08:38 ET) in a RISK-OFF tape with BTC in Fear \u2014 crypto structure metrics carry little weight. The 15m just popped to 160.52 on peak volume and got sold ~1pt back, so buying here chases a fading pop right under fresh rejection (account's #1 loss pattern). It's the cleanest crypto-proxy (rel-str -1.14%, L/S balanced 0.81, longs winning 0.67), so bias is long \u2014 but only from the 157.5 base or on a confirmed reclaim, not mid-range. No honest R:R entry at 159.35, so HOLD.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 160.55,
+    "expires_min": 180,
+    "note": "A decisive reclaim/hold above the rejected 160.52 impulse high proves the pop wasn't a fade and opens a continuation long toward 162-163 with a stop back inside the base."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF/defensive; hawkish Fed; pre-cash-open (08:38 ET) tokenized equities thin/gappy until 09:30 ET. COIN neutral: cleanest crypto-proxy structure (L/S 0.81, funding flat, bias +0.05, only -1.14% vs BTC) but high-beta crypto equity slaved to BTC + Nasdaq. One of the safer relative longs.",
+    "sentiment": "COIN neutral, event ~10 days out: earnings July 30 (outside window). Oppenheimer cut PT to $209 on 7/16 (low weight). Trades as crypto-beta; inherits BTC Fear tone (F&G 36, BTC ~$63k). No <=48h catalyst.",
+    "analyst": "15m popped to 160.52 on peak volume then sold ~1pt back to 159.35; buying mid-range under fresh rejection has R:R~0.55. Cleanest proxy so bias is long, but only from the 157.5 base or on a confirmed reclaim of 160.5. HOLD and wait for the level.",
+    "portfolio": "COIN: HOLD (conf 0.55) \u2014 cleanest proxy but no R:R at 159.35; arm long on reclaim of 160.55."
+  },
+  "timestamp": "2026-07-20T12:44:08.558893+00:00"
+}

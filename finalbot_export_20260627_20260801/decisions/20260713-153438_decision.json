@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "CRCL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Post-capitulation basing 64.3-65.3 continues; likely chops in this band 2-6 bars. A clean loss of 62.84 opens 61.78 then continuation lower; reclaim of 66.2 flips momentum back up into CPI.",
+  "expectancy_note": "No clean edge: shorting is chasing a move already -4.3% below VWAP with 5m flipped long into crowded-long liquidation and CPI tomorrow; p(win) on a fresh short here ~0.45, R:R poor. HOLD beats a whipsaw entry.",
+  "rationale": "CRCL just flushed to 62.84 on a huge volume spike (ADX 83 = spent, violent move) and is now basing 64.3-65.3 with the 5m composite flipped long (+0.53) and lower-TF RSI recovered to mid-40s \u2014 classic exhaustion, not fresh downside. Shorting into this stretched, crowded-long tape is the account's #1 loss pattern (late short stopped by the bounce), and June CPI tomorrow is a binary 48h event that can gap it either way. No high-expectancy entry exists right now; better to wait for either a confirmed breakdown retest or a reclaim.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 62.84,
+    "expires_min": 240,
+    "note": "Losing the capitulation low confirms trend continuation rather than a base \u2014 enables a short toward 61.78 support with a stop back above 64.3."
+  },
+  "transcript": {
+    "macro": "RISK-OFF tape (2026-07-13 15:28 UTC). US\u2013Iran strikes, Hormuz closed -> oil spiking, rate-HIKE fears, firm DXY. Equities/crypto down. June CPI TOMORROW (July 14) = major 48h event risk. Funding ~0, L/S lopsidedly long (weak contrarian tell). Basket is one macro trade -> smaller size, tight risk. CRCL: supports SHORT but crowded/whippy (MIXED); most crypto-beta of the equity names (BTC corr 0.55), L/S 2.39 crowded long \u2014 size down hard.",
+    "sentiment": "US\u2013Iran/Hormuz shock drives risk. CRCL: mildly BULLISH but volatile. Catalysts: OCC final approval for national trust bank (July 9) drove July 10 spike; Nomura/Japan FX-settlement deal. Overhang: Stripe 'Open USD' threat (Compass Point PT cut to $55), awaited Aug Coinbase/USDC renewal. Earnings ~Aug 11. Two-sided headline risk, choppy \u2014 elevated-vol neutral-to-long.",
+    "analyst": "Flushed to 62.84 on huge volume (ADX 83 = spent move), now basing 64.3-65.3 with 5m flipped long (+0.53) and lower-TF RSI back to mid-40s = exhaustion, not fresh downside. Macro/structure short conflicts with mildly-long sentiment; -4.3% below VWAP into crowded-long liquidation + CPI tomorrow = whipsaw. Shorting here is the account's #1 loss pattern. HOLD; act on a breakdown retest below 62.84 or a reclaim.",
+    "portfolio": "HOLD CRCL \u2014 conflicting signals + violent whipsaw; no clean edge either way, re-arm on loss of 62.84."
+  },
+  "timestamp": "2026-07-13T15:34:38.992508+00:00"
+}

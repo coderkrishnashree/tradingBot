@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "ORCL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price coils in 138.5-139.6 above the 138.47 capitulation low; with 1h RSI 10.7 and %B 0.045, the next few bars more likely mean-revert UP toward VWAP ~141.3-142.8 than break support cleanly. Shorting here (~1% above support 137.63) is chasing an exhausted move into a probable bounce and a Monday gap.",
+  "expectancy_note": "Fresh short down here: ~1R to support vs stop above VWAP = R:R <1 into oversold \u2014 negative expectancy. The +EV trade is re-shorting the bounce at ~141.3, so wait for the trigger.",
+  "rationale": "Trend is down (ADX 45.7, all TFs short, L/S 2.33 crowded-long fuels more downside eventually), but price is deeply extended: 1h RSI 10.7, %B 0.045, -2.66% vs VWAP, sitting just above support 137.63. A market short is the account's classic late-short-into-stretched-tape loss, and today's closed US market + Tuesday CPI make any fresh perp a weekend-gap gamble. Highest-expectancy action is to wait: re-short a bounce into VWAP/broken-support resistance (~141.3), or a decisive break of 137.63 to confirm continuation. No size justified now.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 141.3,
+    "expires_min": 240,
+    "note": "A bounce back to VWAP/broken-support ~141.3 offers a proper short entry with room down to 137.63 and a stop above the mean, converting the trend edge into positive R:R without chasing the oversold low."
+  },
+  "transcript": {
+    "macro": "Crypto RISK-OFF (BTC ~$62.7k, Extreme Fear F&G ~24, BTC.D ~56% not rolling over). EVENT: US June CPI Tue Jul 14 08:30 ET, inside 48h. Today Sunday Jul 13 = US cash equity CLOSED, so ORCL perp trades on a stale/gappy weekend mark, thin volume; gap re-price expected at Monday US open, amplified by pre-open CPI. ORCL structure: funding 0.0, L/S 2.33 (crowded long, contrarian short), orderbook -0.03, structure_bias -0.31; scan SHORT (blended -0.40, ADX 45.7, RSI 36, 1h RSI 10.7 deep oversold), RS -19% vs BTC. Verdict: short-biased on structure but closed-market + CPI gap risk makes any fresh position a gap gamble; HOSTILE for fresh risk.",
+    "sentiment": "ORCL reported fiscal Q4 Jun 10 (record: rev +21%, cloud +47%, $638B backlog) but stock down ~25% YTD near $139-144, lagging despite strong print; heavy tape, deeply negative RS. NO earnings/product/regulatory binary inside 48h; only $0.50 dividend (ex-date Jul 10), immaterial. Near-term news effectively NEUTRAL \u2014 short rests on price/structure, not fresh fundamentals.",
+    "analyst": "Trend down but deeply extended (1h RSI 10.7, %B 0.045, -2.66% vs VWAP) just ~1% above support 137.63 \u2014 a market short here is the account's classic late-short-into-stretched-tape loss and risks a bad R:R (~1R to target vs stop above VWAP). Closed US market + Tuesday CPI make a fresh weekend perp a gap gamble. Wait to re-short a bounce into ~141.3 (VWAP/broken support) or a decisive break of 137.63.",
+    "portfolio": "HOLD ORCL @ conf 0.60 \u2014 no fresh risk; armed to re-short a bounce to ~141.3 or a break below 137.63."
+  },
+  "timestamp": "2026-07-13T05:32:30.812079+00:00"
+}

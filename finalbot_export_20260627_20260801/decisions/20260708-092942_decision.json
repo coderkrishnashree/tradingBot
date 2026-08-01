@@ -1,0 +1,28 @@
+{
+  "symbol": "META/USDT:USDT",
+  "action": "hold",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price is pinned to the 602.98 breakdown trigger after a ~2.5% 6-bar vertical flush; 5m RSI 14 = short-term exhaustion. Expect a chop/relief bounce toward 607-611 (broken shelf) over the next 2-4 bars, then that retest resolves the direction.",
+  "expectancy_note": "Fresh short = chasing 14-RSI oversold into thin pre-open tape with no nearby target (next support 552) and squeeze fuel from L/S 1.82; long = knife-catch vs 6.2x breakdown volume. Both sub-1.5 R:R. HOLD is highest expectancy.",
+  "rationale": "The 15m breakout fired short (602.98, vol 6.2x) but price is glued to the trigger and deeply oversold on fast frames after a vertical drop, in a regime the engine itself tagged chop/regime_blocked. 4h is still UP (RSI 63.8) and macro is risk-off with squeeze-prone crowded longs \u2014 a momentum-vs-mean-reversion standoff with no honest entry near a level. Waiting for the retest of broken support (607-611) or a reclaim gives a real setup; entering now is a coin-flip with poor R:R. Size 0.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 611.7,
+    "expires_min": 240,
+    "note": "Reclaiming the 611.7 breakdown shelf negates the short and confirms the crowded-long squeeze \u2014 flips bias to a possible long back toward 617-628."
+  },
+  "transcript": {
+    "macro": "Risk-off/defensive: semi sell-off, Nasdaq -1.2%, VIX ~18. Rotation OUT of megacap tech. Universal short-crowding (retail long into falling tape) supports continuation-down but snapback/squeeze risk. Trade smaller; equity tokens best after US open ~13:30 UTC. META: 15m short breakout (vol 6.2x!) off a local high, L/S 1.82, BUT 4h still UP (RSI 63.8) \u2014 momentum-vs-mean-reversion conflict, regime-blocked chop.",
+    "sentiment": "META modestly bullish tone \u2014 strongest fundamental momentum of group (last qtr EPS $10.44, 33% rev growth, AI-monetization/Meta-Glasses narrative, +8.5% recently). Offsetting risk: raised $125-145B capex guide. Earnings Jul 29 (outside 48h). Constructive sentiment slightly disfavors fresh shorts.",
+    "analyst": "Breakout fired short but price glued to trigger, 5m RSI 14 exhausted after a 2.5% vertical drop; engine tagged chop/regime_blocked, 4h still up, crowded longs = squeeze fuel. No honest entry near a level. Wait for retest of 607-611 or a reclaim. HOLD, size 0.",
+    "portfolio": "META: HOLD \u2014 momentum-vs-mean-reversion standoff, oversold at trigger; reclaim of 611.7 flips bias. Conf 0.60."
+  },
+  "timestamp": "2026-07-08T09:29:42.604031+00:00"
+}

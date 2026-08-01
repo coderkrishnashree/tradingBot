@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "TSM/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Choppy drift 425-429 pre-open; the 30m/1h bounce has stalled and 15m/5m are rolling back over. Expect a fade toward 420.29 support on a breakdown, or a bounce failure at VWAP/429.5 \u2014 but likely inside the pre-open range until the 13:30 UTC cash open sets direction.",
+  "expectancy_note": "p(win) ~0.46 (learned), R:R only ~1.5 with an honest stop that's already sub-1xATR in thin tape; two-way earnings gap Thu kills expectancy of carrying a fresh position now.",
+  "rationale": "TSM is mid-range ($427) between 420.29 support and 460.54 resistance, only 0.62% below VWAP, so there is no extreme to fade and no clean structure to short into. The 4h downtrend (RSI 33, ADX 49) plus crowded-long structure (L/S 1.95, +funding, bias -0.49) favor an eventual short, but 30m/1h scored LONG and the tape is a thin, gappy pre-open with TSMC Q2 earnings Thursday inside the hold window \u2014 a two-sided gamma bomb. Learned p_win 0.462 and a sub-1xATR honest stop make a fresh entry here negative-expectancy; wait for either a VWAP/resistance rejection to short or a 420.29 breakdown to confirm. Size 0 respects the imminent binary.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 420.29,
+    "expires_min": 240,
+    "note": "Losing 420.29 support breaks the pre-open range and confirms the 4h downtrend resuming \u2014 that flips me to a short with structure behind the stop."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF/defensive (crypto side). Scan PRE-US-OPEN (~10:58 UTC; US equities open 13:30 UTC). Tokenized-equity perps thin & gappy while underlying closed \u2014 pre-open structure low-conviction; cash open can gap through stops. Higher-for-longer rates; US CPI this week = event risk. TSM ~427, RSI 33 (4h), ADX 49, 4h downtrend; BUT 30m/1h scored LONG (short-term bounce) \u2014 mixed. Funding +0.00034; L/S 1.95 (crowded long) -> structure_bias -0.49 (most bearish structure of the four). Orderbook -0.23. Semis/Nasdaq beta (QQQ corr 0.69, BTC corr 0.18). SOX ~11% below June peaks; JPMorgan frames chip weakness as crowded-positioning unwind, not demand deterioration. BIGGEST RISK: TSMC Q2 earnings Thu July 16 (~2pm ET, ~2 days out) inside hold horizon; quiet period Jul 6-15; gap can blow through stops either way -> smaller size / avoid carrying through print.",
+    "sentiment": "BINARY EVENT: Q2 earnings Thu July 16. Guidance $39.0-40.2B rev, GM 65.5-67.5%, EPS consensus ~$3.77-3.81 (+52% YoY). June revenue +67.9% YoY confirms robust AI/HPC demand; beat streak last 4 quarters (avg +8.3% surprise). First big AI-semis print of the season, read-through for the whole complex. Expect elevated implied vol / gap into and out of print. Downside tail = 'softening outside AI' or fab-ramp-delay comments. Lean bullish fundamentally but flag the imminent binary \u2014 treat any short-term position as earnings-exposed.",
+    "analyst": "TSM trades as a QQQ/semis-beta equity (QQQ corr 0.69, BTC corr 0.18). Path: price spiked to 429.5 early, got rejected to 426.36, and the last eight 15m bars drift lower on fading volume with the close (427.23) mid-range \u2014 the 30m/1h short-term bounce (RSI 64-67) has stalled while 15m/5m rolled back short. The 4h downtrend (RSI 33, ADX 49, score -0.86) wants lower and crowded-long L/S 1.95 with positive funding (structure_bias -0.49) is a genuine bearish tell, but price is neither extended nor at a clean level \u2014 mid-range, only 0.6% below VWAP \u2014 so a market short is a low-quality mid-air entry with a sub-1xATR honest stop in a thin, gappy pre-open. Overriding factor: TSMC Q2 earnings Thu July 16 is squarely inside the hold horizon, an implied-vol gap that can blow through stops either way; with learned p_win 0.462 the expectancy of carrying a fresh position through that is negative. HOLD flat, size 0, with an armed short trigger on a break of 420.29 support (downtrend resuming with real structure behind the stop).",
+    "portfolio": "HOLD TSM \u2014 mid-range, no clean edge, and TSMC earnings Thu (Jul 16) sits inside the hold window; size 0 respects the binary. Armed short trigger on a break of 420.29."
+  },
+  "timestamp": "2026-07-14T11:04:19.559724+00:00"
+}

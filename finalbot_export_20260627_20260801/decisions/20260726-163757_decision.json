@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "CL/USDT:USDT",
+  "size": 0.0,
+  "entry": 85.3,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Price coils 85.1-85.5 near-term, likely a dead-cat chop; a relief bounce toward 86.5-87.5 (VWAP) or a fresh flush through 84.85 toward 83 are both live, but neither is confirmed on the current bars.",
+  "expectancy_note": "Shorting here is 5% below VWAP with stoch 7 / RSI 25 and crowd already net-short \u2014 negative expectancy (bounce-stop risk). Longing fights an ADX-60 downtrend + bearish supply macro. Best EV is to wait for a level to resolve.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 87.5,
+    "expires_min": 240,
+    "note": "Reclaiming the VWAP / broken-support zone confirms the oversold bounce has legs and opens a tactical long from a non-extended base."
+  },
+  "rationale": "CL is deeply oversold (4h RSI 25.7, stoch 7.2, %B 0.12) and stretched 5% below VWAP, with the 15m tape already stalling (RSI back to 49, neutral trend, sideways 85.1-85.5 coil) \u2014 the exact stretched-tape condition where late shorts get bounce-stopped, and the crowd is already net-short (LS 0.585). Yet higher-TF structure and macro (OPEC+ +548kbpd, Goldman $52) are firmly bearish, so a countertrend long into an ADX-60 downtrend near resistance is also low-quality, and live US-Iran war headlines make any bar gappy 2-way. No R:R-1.5 setup at spot; HOLD until a level resolves the tension.",
+  "transcript": {
+    "macro": "CL SHORT bias confirmed by structure (RSI 25.7, 4h down, oversold). Structurally bearish (OPEC+ +548kbpd Aug, Goldman WTI avg $52) BUT geopolitical premium from resumed US-Iran war creates violent 2-way spike risk. Negative BTC corr = diversifier.",
+    "sentiment": "CL two-sided/volatile. Geopolitical risk premium (Middle East tension, Caspian pipeline disruption) vs OPEC+ +548kbpd Aug supply and structural surplus (Goldman WTI avg $52). Scan shows sharp selloff (4h RSI 26, oversold). Any headline can gap it \u2014 high-volatility, no clean directional edge.",
+    "analyst": "Deeply oversold (4h RSI 25.7, stoch 7.2, 5% below VWAP) but 15m already stalling (RSI 49, sideways 85.1-85.5); late shorts get bounce-stopped and crowd already net-short (LS 0.585). Countertrend long fights ADX-60 downtrend + bearish supply. Headline whipsaw both ways. HOLD; arm 87.5 reclaim for a bounce long.",
+    "portfolio": "HOLD CL \u2014 oversold and stretched below VWAP but structurally bearish; no clean edge, wait for 87.5."
+  },
+  "timestamp": "2026-07-26T16:37:57.172958+00:00"
+}

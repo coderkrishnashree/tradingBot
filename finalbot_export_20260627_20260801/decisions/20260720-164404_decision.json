@@ -1,0 +1,22 @@
+{
+  "action": "short",
+  "symbol": "INTC/USDT:USDT",
+  "size": 2.0,
+  "entry": 100.5,
+  "stop_loss": 101.7,
+  "take_profit": 96.3,
+  "take_profit_1": 98.0,
+  "take_profit_2": 96.3,
+  "confidence": 0.58,
+  "playbook": "range",
+  "forecast": "Grind higher stalls into the 100.5-101 spike-high supply (RSI 82.5, +3.9% over VWAP, bb%B 1.06); price gets rejected there and mean-reverts back toward 98.0 then 96.3 over the next 4-10 bars as the exhausted squeeze unwinds.",
+  "expectancy_note": "p(win) ~0.58, R:R to TP1 = 2.5/1.2 = 2.1; fading a stretched extreme at the level beats chasing a late long into an earnings wall or shorting mid-range now.",
+  "rationale": "INTC is the weakest name (RS -40.7%), badly overbought on the 4h (RSI 82.5, bb%B 1.06, +3.92% VWAP) after an exhausted +3% squeeze that already faded from 101 to 97.2 and is now grinding back up on declining volume (last bar 66 vs squeeze 6071). Crowded long (L/S 1.851) with zero funding cushion is fuel for a fade. I use a LIMIT at 100.5 to fade the retest of the spike-high supply rather than short mid-range at 99 or chase; stop 101.7 (1.2 ATR, above the 101.02 spike) keeps risk honest, targeting mean-reversion to 98.0/96.3. Size trimmed to 2% because earnings 7/23 is a binary inside the window - this is an intraday exhaustion fade to be flat before the print, not a hold-through-earnings short.",
+  "transcript": {
+    "macro": "Mixed, cautiously risk-on session; chips bouncing today. Funding ~0, L/S uniformly crowded-long. Event risk inside window: INTC earnings Thu 7/23, GOOGL/MSFT 7/28, FOMC 7/28-29. INTC weakest name vs BTC (RS -40.74%), exhausted overbought move (4h RSI 82.5, +3.92% VWAP, bb%B 1.06) into an earnings wall. Stay out / mean-reversion short candidate only - do NOT carry a long.",
+    "sentiment": "INTC bullish momentum INTO a binary. Earnings CONFIRMED Thursday July 23 (~3 days out) - focus on 18A yields + foundry guidance. Tape euphoric (RSI ~82, HSBC doubled PT to $200 on foundry-partnership hopes), but 18A-not-profitable-until-2027 worry + recent 21% drawdown = very two-sided. July 23 report is a coin-flip; do NOT sit long through it blindly.",
+    "analyst": "INTC is an exhausted, overbought, weakest-RS squeeze into an earnings wall - fade the retest of the 100.5-101 spike-high supply with a limit short targeting mean-reversion to 98/96.3, small size to be flat before the 7/23 binary.",
+    "portfolio": "SHORT INTC - small (2%) limit fade at 100.5 of the exhausted spike; targets 98/96.3, flat before the 7/23 earnings binary."
+  },
+  "timestamp": "2026-07-20T16:44:04.118131+00:00"
+}

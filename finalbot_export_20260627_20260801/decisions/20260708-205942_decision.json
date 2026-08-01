@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "XAUT/USDT:USDT",
+  "size": 0.0,
+  "entry": 4068.1,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.4,
+  "playbook": "none",
+  "forecast": "Choppy grind 4060-4082 into the FOMC minutes; a break below 4057 opens 4030 next, while a reclaim of 4090 aborts the short and targets 4120+.",
+  "expectancy_note": "Short bias (4h -0.71, macro/DXY bearish, crowded longs L/S 3.03, orderbook -0.22) but location is mid-range with a fresh 15m up-tick off 4063 and a live two-sided FOMC-minutes binary today; shorting here is p(win)~0.5 with no edge \u2014 R:R improves on a 4057 break or a 4090 fade.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 4057,
+    "expires_min": 240,
+    "note": "Losing the 4057 swing low confirms the 4h downtrend resumes and gives a clean short toward 3957 support; until then price is stuck mid-range with 15m momentum ticking up."
+  },
+  "rationale": "The bearish thesis is intact but the entry location is poor (fresh green bounce off 4063, mid-range between 3957 support and 4189 resistance, only -1.1% from VWAP, tight ATR 0.88%) and a live FOMC June-minutes binary adds two-sided tail risk today, so shorting 4068 is ~1:1 expectancy at best. HOLD costs nothing; size 0 until 4057 breaks (short) or 4090 reclaims (fade the failure).",
+  "transcript": {
+    "macro": "RISK-OFF regime, DXY firm ~101 rising, yields up. XAUT: headwind for longs / lean short \u2014 same DXY + real-yield pressure as silver; gold fell >1% to ~$4,050, geopolitical haven bid overwhelmed by rates. Scan short bias (-0.36) matches, but conviction LOWER than silver (composite not aligned, RS -0.8%, price mid-range) and a genuine war escalation is the tail that flips it. Neutral-to-short, modest size.",
+    "sentiment": "XAUT bearish near-term tilt: gold fell >1% to ~$4,050 (lowest since July 2) on the Iran 'peace over' headline pushing rate-hike odds higher. FOMC June minutes TODAY (July 8) are the live 48h binary \u2014 hawkish extends the drop, dovish could bounce it. Fresh shock already moving price lower supports the short read, but the minutes are two-sided risk.",
+    "analyst": "XAUT is bearishly biased on 1h/4h and macro (rate/dollar channel, hawkish-minutes risk) with crowded longs and negative orderbook, but the composite is NOT aligned and the last few 15m bars tick up off 4063 \u2014 price sits mid-range, not at an extreme to fade nor a clean trend pullback. Tight ATR (0.88%) plus today's two-sided FOMC minutes make blind entry coin-flip expectancy. Arm the trigger: a break under 4057 gives a real short toward 4030.",
+    "portfolio": "XAUT/USDT:USDT \u2014 HOLD (conf 0.40): correct-but-early bearish lean; wait for a 4057 break or a 4090 fade, mind FOMC minutes."
+  },
+  "timestamp": "2026-07-08T20:59:42.458142+00:00"
+}

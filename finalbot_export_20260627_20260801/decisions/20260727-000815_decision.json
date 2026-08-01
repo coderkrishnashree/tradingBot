@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "TSM/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Thin melt-up is exhausting: 15m RSI 92, stoch 98.4, VWAP +1%, but 15m momentum score has gone flat (0.086). Expect price to stall/roll in the 411-413 zone and drift back toward 409.4; a break below 409.4 opens a fade to 405/397.8 - that is the tradable move, not now.",
+  "expectancy_note": "Long = chasing RSI-92 into FOMC/capex binaries (account's #1 loss pattern); blind short fights ADX-65 uptrend on gappy tape. Neither clears R:R>=1.5 with an honest stop, so HOLD has best expectancy; arm the 409.4 break for a confirmed short.",
+  "rationale": "TSM is a tokenized equity so crypto structure is secondary, but crowded long/short 2.245 plus stochastic 98.4 / 15m RSI 92 on a low-volume grind signals exhaustion into risk-off tape, DXY 13-mo high, sector fragility (SK Hynix/Samsung -8%), and FOMC + big-tech capex prints inside the window. No confirmed rejection yet and price too far above the level to short cleanly, while longing chases the extreme. Zero size until the structure break.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 409.4,
+    "expires_min": 240,
+    "note": "Losing the 409.4 session base proves the thin melt-up failed and opens a fade toward 405/397.8 - re-debate a short with a stop back above 412."
+  },
+  "transcript": {
+    "macro": "REGIME: RISK-OFF/MIXED, defensive. FOMC Jul 28-29 inside window. DXY 13-mo high. TSM crowded-long (L/S 2.2, negative orderbook), RSI stretched (15m 92); longs chasing into AI-capex jitters. MU/TSM tied to semi complex (corr 0.67) - one thin, gappy underlying. Smaller size.",
+    "sentiment": "RISK-OFF/EVENT-GRIDLOCKED. AI/HBM demand intact but TSM in tariff/AI-capex crosshairs; SK Hynix -8.3%, Samsung -7.6% last week signal sector fragility. Elevated downside gap risk into Fed + big-tech capex prints (MSFT/META Wed, AAPL/AMZN Thu). Risk, not fresh long catalyst.",
+    "analyst": "Thin melt-up exhausting - 15m RSI 92, stoch 98.4, +1% VWAP, but 15m momentum score flat (0.086). Long chases RSI-92 into FOMC/capex binaries (#1 loss pattern); blind short fights ADX-65 uptrend. Neither clears R:R>=1.5. HOLD; short arms on loss of the 409.4 session base.",
+    "portfolio": "HOLD TSM - exhausted thin melt-up; wait for 409.4 break to fade toward 405/397.8."
+  },
+  "timestamp": "2026-07-27T00:08:15.947343+00:00"
+}

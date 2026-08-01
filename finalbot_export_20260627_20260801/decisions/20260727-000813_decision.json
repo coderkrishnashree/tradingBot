@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "CL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.4,
+  "playbook": "none",
+  "forecast": "Price consolidates 84.3-85.2 after the 83.15 flush; either bounces to retest VWAP ~85.8-86.2 (failed-retest short setup) or loses 83.15 to resume the leg toward 79.65. No clean next move to trade right now.",
+  "expectancy_note": "Fresh short here is a chase: RSI 4h 20, -4.26% below VWAP, flush already spent - counter-bounce hits any honest stop first. Learner: shorts 46% win / -0.82 avg. Best expectancy is waiting for the breakdown or the failed retest.",
+  "rationale": "CL is a live headline-driven uptrend asset (rel-strength +18%) and the big 15m capitulation already fired; last bars are sideways consolidation, not fresh downside momentum. Shorting deeply oversold mid-air into FOMC (Wed, ~34% hike odds) with Hormuz/tanker gap risk is exactly this account's losing pattern. Wait for the 83.15 flush low to break for a clean continuation short.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 83.15,
+    "expires_min": 240,
+    "note": "Losing the 83.15 flush low proves the oversold bounce failed and the down-leg resumes with room to 79.65 support - a clean continuation short entry, not a chase into stretched tape."
+  },
+  "transcript": {
+    "macro": "REGIME: RISK-OFF/MIXED, defensive. FOMC Jul 28-29 inside the hold window (binary; ~34% hike odds as oil rips). WTI ~$84-92 on Mideast supply shock (Houthi tankers/Hormuz), DXY ~101.5 (13-mo high), 10Y ~4.68%. Equities sold hard mid-week; BTC ~$65.4k, dominance 56.3% (alts not running). Guidance: reduce size, fade crowded RSI-extended longs, avoid carrying anything through Wednesday's FOMC.",
+    "sentiment": "RISK-OFF/EVENT-GRIDLOCKED. FOMC Wed 2pm ET (hawkish tilt), then MSFT+META earnings Wed after close, AAPL+AMZN Thu. New Trump tariffs (10-12.5% on 60 countries) broke Asia (Kospi -6% circuit breaker, Nikkei -1,800). CL ~$84.7, down ~6% Jul 26; OPEC+ +188kbpd Sept (bearish) vs Houthi tanker attacks capping downside - news does not contradict a short.",
+    "analyst": "CL is a headline-driven uptrend (rel-str +18%); the 86.16->83.15 capitulation (109k vol) already fired and last bars are sideways 84.3-85.2, not fresh downside. RSI 4h 20, -4.26% below VWAP - a short here chases exhaustion and gets counter-bounced (learner: shorts 46% win / -0.82 avg). No clean R:R either way into FOMC + oil gap risk. HOLD; short arms on loss of 83.15.",
+    "portfolio": "HOLD CL - no clean fade; armed continuation short on loss of the 83.15 flush low."
+  },
+  "timestamp": "2026-07-27T00:08:13.321229+00:00"
+}

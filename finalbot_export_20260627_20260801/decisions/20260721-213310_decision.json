@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "AAPL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price pinned at 325.3 after a high-volume flush from 327.6 that stalled instantly (5 dead bars, drying volume). Likely coils 324.5-326, then resolves: reclaim of 327.5 confirms oversold bounce toward 329-330; break under 324 restarts the 4h downtrend toward 320/312.",
+  "expectancy_note": "Shorting here chases RSI 28.9 into a +0.555 bid-heavy book; account shorts win only 45% (-1.21 avg). Long is a valid mean-revert but needs the 327.5 reclaim trigger first.",
+  "rationale": "Deep oversold (RSI 28.9, bb%B 0.16, stoch 24.9) after a capitulation flush that stalled instantly. Orderbook bid-heavy (+0.555) and account bleeds on shorts, so no chasing the low; strong 4h downtrend (ADX 44.7) means a blind counter-trend long has no edge until price proves the turn. Wait for a 327.5 reclaim to go long, or step aside on a 324 break.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 327.5,
+    "expires_min": 240,
+    "note": "Reclaiming 327.5 confirms the oversold bounce is underway - flips to a long toward 329-330 with stop under 324."
+  },
+  "transcript": {
+    "macro": "Regime broadly RISK-ON but late US after-hours (thin/gappy), event-front-loaded. Nasdaq +1.36%, semis leading, BTC 5-wk high ~$66.5k. AAPL ~$325, RS +1.06% vs BTC, scan leans SHORT (RSI 28.9, 4h down) but oversold/bounce-risk high, orderbook +0.555 bid-heavy. Near-zero BTC corr (0.08) - pure equity. Fade rallies, don't chase lows. AAPL earnings Jul 30 (not imminent). Fed Jul 29 (hawkish Chair Warsh).",
+    "sentiment": "AAPL NEUTRAL near-term. Earnings Jul 30 (outside 48h) so no scheduled catalyst; ~$1.89 EPS/$109-110B rev. Tim Cook's last call as CEO = multi-day narrative, not a 48h driver. Treat as technical.",
+    "analyst": "Shorting into RSI 28.9 after a volume flush that already stalled, with a bid-heavy book and an account that loses on shorts, is textbook chasing the low - the #1 loss pattern; will not short. Counter-trend long into a strong 4h downtrend needs the bounce to actually start (no reversal candle yet). No honest R:R at spot; HOLD and arm a 327.5-reclaim long trigger.",
+    "portfolio": "AAPL: HOLD (conf 0.60) - oversold flush stalled; wait for 327.5 reclaim to go long, stand aside below 324."
+  },
+  "timestamp": "2026-07-21T21:33:10.375845+00:00"
+}

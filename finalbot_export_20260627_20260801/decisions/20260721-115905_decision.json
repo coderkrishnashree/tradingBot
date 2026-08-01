@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "AAPL/USDT:USDT",
+  "size": 0.0,
+  "entry": 325.07,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Price basing 324.5-325.3 after a slight higher-low off 324.35; expect a shallow oversold bounce toward 326.5-327 over the next few bars into the risk-on open, but no confirmed reversal \u2014 chop between 324.3 and 327 until one side breaks.",
+  "expectancy_note": "Short p(win) poor: RSI 22 / %B 0.06 / 5m already long into Nasdaq +1.3% = textbook late-short bounce-stop. Long has no reversal structure vs ADX 72.9 down. Neither clears 1.5R; HOLD is highest expectancy.",
+  "rationale": "AAPL is a tokenized equity, so funding/OI/L-S are noise; a technical read. The 4h is a violent downtrend (ADX 72.9) but price is deeply oversold (RSI 22, stoch 9.4, %B 0.06) and the 5m has flipped up (RSI 59, +MACD) into a risk-on open \u2014 the exact stretched-tape condition where shorting gets stopped by the bounce and longing has no confirmation yet. No honest 1.5R entry exists in either direction from 325 mid-range, so stand aside and arm the reclaim level.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 327.0,
+    "expires_min": 240,
+    "note": "Reclaiming 327 turns the 15m up and confirms the oversold bounce has legs \u2014 re-debate for a long toward 331/339; below 324.3 instead reopens the downtrend for a cleaner short entry."
+  },
+  "transcript": {
+    "macro": "Regime MIXED, constructive for longs but selective. Nasdaq-100 futs +1.3%, chips leading; risk-on reasserting. FOMC July 28-29 (outside 48h). Crowded-long ratios, funding benign. AAPL tilt: SHORT but UNALIGNED / least favored \u2014 RSI 22 deeply oversold, 5m already turning up; bounce risk high against a risk-on open.",
+    "sentiment": "AAPL: CATALYST \u2014 reports fiscal Q3 after close Thu July 30 (~9 days out); consensus ~$109-110B rev, EPS ~$1.89; Tim Cook's expected last call as CEO (succession headline risk). Outside 48h. Near-term neutral; oversold short is technical.",
+    "analyst": "Tokenized equity, so crypto structure is noise \u2014 weighted on technicals + macro. Conflicted: 4h/1h/30m all short with extreme ADX 72.9, yet RSI 22, stoch 9.4, %B 0.06 (deeply oversold) and 5m flipped up (RSI 59, +MACD) carving a higher low off 324.35, closing 325.07. Nasdaq +1.3% into the open makes a short the account's documented worst trade (chasing a stretched down-move a bounce stops out). Long is premature \u2014 basing not reversal against a powerful downtrend, no tight-stop structure. No honest 1.5R either way from 325 mid-range. HOLD; 327 reclaim flips long, 324.3 break reopens a short. July 30 earnings outside window.",
+    "portfolio": "AAPL: HOLD @ conf 0.50 \u2014 oversold short is a bounce trap; no clean entry either way, stand aside."
+  },
+  "timestamp": "2026-07-21T11:59:05.297172+00:00"
+}

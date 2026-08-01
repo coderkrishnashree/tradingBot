@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "INTC/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.55,
+  "playbook": "none",
+  "forecast": "Price pinned at 105.09 support after a capitulation flush on record volume (last bar green off the 105.23 low). Expect choppy stabilization/small bounce toward 108-109 OR a clean break below 105 that resumes the waterfall; next 2-4 bars decide.",
+  "expectancy_note": "Short = chasing an 8%-extended move (RSI 21, %B 0.04) INTO support with squeeze risk; long = knife-catch vs ADX 58 downtrend + active sector de-rating + gap risk. Neither clears 1.5R -> HOLD.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 105.0,
+    "expires_min": 240,
+    "note": "Losing 105.09 support on volume confirms the waterfall resumes and opens a clean trend-continuation short; a reclaim of 108.5 flips toward the oversold-bounce long."
+  },
+  "rationale": "INTC is deeply oversold (RSI 21, stoch 7.6, VWAP -8.3%) right at 105.09 support after a high-volume capitulation flush with a green exhaustion bar. Shorting = selling into support against oversold extremes (poor R:R, squeeze fuel); longing = fighting an ADX-58 downtrend amid an active semi de-rating and pre-open gap risk. Size 0 until price proves direction.",
+  "transcript": {
+    "macro": "RISK-OFF/defensive tape (2026-07-08 08:52 UTC snapshot): synchronized down-leg across equities+crypto. ACTIVE semiconductor de-rating is the dominant theme (SOX -4.5%, Micron -4.7%; Samsung spook + DeepSeek own-chip). Treat semis (MU/SNDK/INTC) as ONE correlated basket (MU/SNDK 0.83, MU/INTC 0.64). Mega-cap tech (AAPL +4.3%, META +5.8%, MSFT) holding up far better - weakness concentrated in chips, not broad tech. BTC ~$62k at 21-month low, structurally weak; BTC dominance 55-56% rising = no altseason. BTC L/S 1.49, SOL L/S 2.21 (crowded long into downtrend = squeeze-both-ways). MSTR is a leveraged BTC proxy (corr 0.79), not an independent equity. Silver ~$60-62, down 8.2% on the month, rolling over on hawkish-Fed repricing. Tokenized stocks were PRE-OPEN/thin at snapshot with a US-open re-pricing gap ahead - size down. June CPI Jul 14 is the biggest scheduled risk; earnings season opens late July (all in-scope names report Jul 23-30, outside the 48h window).",
+    "sentiment": "Risk-off. Crypto Fear&Greed ~20 (Extreme Fear). BTC broke $60k to 21-month low, Coinbase premium negative 50 straight days (record), ~$6B YTD spot-ETF outflows, Strategy sold 3,588 BTC (~$216M) this week, EU signaling tighter crypto regulation - freshest, still-moving bearish news is in BTC/SOL/MSTR. SOL stuck near $80 with Q3 token-unlock overhang; Alpenglow upgrade is Q3, not <48h. Semis: MU down ~22% from post-earnings highs, SNDK up ~635% YTD now unwinding, INTC -21%/7d on 18A yield doubts. Only hard dated <=48h catalyst is the SK Hynix (SKHY) ~$28B Nasdaq IPO on Jul 10 - a headwind for MU and the memory group (SNDK). All equity earnings (AAPL/META/MSFT/INTC/MSTR) sit a week-plus out, so those are macro/beta-driven this cycle, no imminent binary. Markets pricing a possible year-end Fed HIKE - pressures metals (XAG) and risk.",
+    "analyst": "Pinned on 105.09 support after a capitulation flush; both a short (chasing into support) and a long (knife-catch vs ADX 58) fail the 1.5R bar. Armed reconsider at 105.0 break (short); 108.5 reclaim = long flip.",
+    "portfolio": "HOLD INTC - decision point on 105 support; no edge until it breaks or reclaims 108.5."
+  },
+  "timestamp": "2026-07-08T09:01:28.207673+00:00"
+}

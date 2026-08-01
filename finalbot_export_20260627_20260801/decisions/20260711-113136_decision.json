@@ -1,0 +1,26 @@
+{
+  "symbol": "MU/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.5,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "forecast": "Low-volume weekend drift stalling under 988-990 (spike to 990.51 sold back to 985.76). Chop 984-990 with fade risk toward VWAP ~960 before uptrend resumes; no clean next-move edge from 987.",
+  "expectancy_note": "Long chases +2.83% above VWAP, 1h RSI 71 into fresh 990 rejection, orderbook -0.222, crowded-long L/S on dead weekend liquidity \u2014 poor p(win).",
+  "rationale": "Trend/fundamentals bullish (memory up-cycle, blowout Q3) but MU is extended: +2.83% above VWAP, 1h RSI 71, last spike to 990.51 rejected to 985.76 on tiny volume. US cash CLOSED (Saturday) so this tokenized proxy trades near-zero gappy liquidity; micro-flow (orderbook -0.222, structure_bias -0.229) leans down and Tue CPI is a live hawkish risk. No honest R:R long at 987 without a pullback; chasing into resistance is the #1 loss pattern. Wait for a VWAP-zone dip or a clean breakout above 990.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 990.6,
+    "expires_min": 240,
+    "note": "Reclaiming/holding above the 990.51 spike high proves the rejection failed and continuation resumes \u2014 valid breakout long trigger."
+  },
+  "transcript": {
+    "macro": "Risk-on, low-vol (VIX~15), indices near highs; memory/storage theme leads (SK Hynix $26.5B US listing +12.8%). CRITICAL: Sat 2026-07-11 US cash market CLOSED \u2014 tokenized proxies on thin/gappy weekend liquidity, near-zero vol/funding; crowded-long L/S reads contrarian. Tue 7/14 June CPI + Warsh = live hawkish risk. Smaller size warranted. MU: supportive for longs, no earnings until ~9/23, RSI 71 extended.",
+    "sentiment": "MU BULLISH \u2014 blowout Q3 ($41.5B rev vs $35.8B est, +15% AH), guided ~$50B next Q, 16 multi-year supply deals, ~700% YoY. No new 48h catalyst \u2014 momentum/fundamental name.",
+    "analyst": "Bullish trend/fundamentals but extended (+2.83% VWAP, 1h RSI 71) with a rejected 990.51 spike and down-leaning micro-flow on dead weekend liquidity. No honest R:R long without a pullback; HOLD, armed above 990.6.",
+    "portfolio": "MU \u2014 HOLD (bullish theme but extended; no chase on thin weekend tape)."
+  },
+  "timestamp": "2026-07-11T11:31:36.252609+00:00"
+}

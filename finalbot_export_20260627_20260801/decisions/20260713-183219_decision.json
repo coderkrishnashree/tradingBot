@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "MU/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.3,
+  "playbook": "none",
+  "forecast": "Price coils 920-940 on frozen weekend tape; most likely chop/small mean-reversion bounce toward 940-950 (VWAP reclaim) from oversold RSI 25 before Monday's open re-prices it. No clean directional edge inside the window.",
+  "expectancy_note": "p(win) on a short here ~0.4: deeply oversold (RSI25, %B0.06, -2.7% VWAP) means a routine bounce hits any 1.5xATR stop before trend resumes \u2014 the account's proven #1 losing pattern. No entry gives RR>=1.5 with an honest stop. HOLD beats a coin-flip fade into thin weekend liquidity + Tue CPI binary.",
+  "rationale": "MU is the cleanest technical short of the equity names (ADX 67, -11.9% rel-strength, L/S long-crowded), but it is deeply oversold at the lower band into support 876 after the initial flush, and the last 12 bars are basing/coiling, not breaking down fresh \u2014 chasing a short here is exactly how this book bleeds. Weekend-frozen tape (US cash closed), Monday-open gap risk, a strong fundamental bid (HBM/Anthropic), and Tuesday CPI make both directions a hazard, not an edge. Composite confidence is only 36.7%. No trade until price either resumes the downtrend on a clean support break or reclaims VWAP to confirm the bounce.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 876.29,
+    "expires_min": 240,
+    "note": "A break-and-hold below support 876 proves the oversold bounce failed and the ADX-67 downtrend resumed, opening a lower-risk momentum short with a stop back inside the base."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF but equities tape stale: today is Sunday 13 Jul, US CASH EQUITY MARKET CLOSED. MU token trades 24/7 on stale Friday close, thin weekend liquidity -> gappy, unreliable fills, full Monday-open gap risk both directions \u2014 execution HAZARD not edge. MU already reported (Q3 FY26 6/24, record); next earnings ~9/23, no 48h earnings risk. OI 17,336, ADX 67 / RSI 25 = strong downtrend, -11.9% vs BTC (worst laggard) after parabolic +200% YTD. L/S 1.825 long-skewed supports shorts, but frozen weekend + huge-beta = a green Nasdaq Monday can gap it violently against a short.",
+    "sentiment": "MU biggest live catalyst risk against a short. Very bullish backdrop: HBM sold out through 2026, new $3B US fab (first concrete 7/9), multi-year AI memory partnership with Anthropic. Analyst PTs ripped to $1,450-1,600 (long-horizon). Deeply oversold (~$927 vs Q3 print near $1,150) looks like a sharp pullback within a raging uptrend; short here fights a strong bid, bounce risk elevated -> near-term neutral-to-against the short. CROSS-CUT: US CPI (June) Tue Jul 14 8:30am ET binary inside window.",
+    "analyst": "Last ~12 bars coil 920-940 after the initial flush and a bounce to 943 \u2014 basing, not a fresh breakdown. Deeply oversold (4h RSI 25, %B 0.06, -2.69% VWAP) = exactly the 'extended in short direction, don't chase' condition; a short gets bounced. Weekend frozen tape + Monday gap + Tue CPI + strong fundamental bid + composite conf only 36.7% = textbook NO-TRADE. HOLD; reconsider on a clean break below support 876.29.",
+    "portfolio": "MU/USDT:USDT \u2014 HOLD (bearish name, wrong entry); arm momentum short on a break below 876.29."
+  },
+  "timestamp": "2026-07-13T18:32:19.101581+00:00"
+}

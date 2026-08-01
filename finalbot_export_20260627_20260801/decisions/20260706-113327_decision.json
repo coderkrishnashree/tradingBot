@@ -1,0 +1,25 @@
+{
+  "symbol": "GOOGL/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.6,
+  "size": 0,
+  "entry": 362.75,
+  "stop_loss": 360.51,
+  "take_profit": 363.08,
+  "playbook": "none",
+  "expectancy_note": "Both sides negative EV: long p(win)~0.35 chasing crowded funding-paying longs into overbought resistance w/ orderbook -0.346; short blocked by 0.07% ATR making any real stop-beyond-363.08 give R:R<1. No trend (ADX 0.6) to ride.",
+  "rationale": "GOOGL is pinned at resistance 363.08 in an extreme squeeze (BB width 0.35%, ATR 0.07%, ADX 0.6) with 30m RSI 99.7 and the most negative structure in the scan (bias -0.585: hot funding, 1.79 long/short, orderbook -0.346). That combo makes a fresh long a chase into a likely long-squeeze flush, while a short is untradeable because a stop placed beyond real structure (~363.5+) versus a target back into the range is too tight for acceptable R:R on a thin tokenized-equity tape with gap risk. No 48h binary catalyst (earnings 3+ weeks out). Highest-expectancy action is to stand aside at zero size.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 363.08,
+    "expires_min": 240,
+    "note": "A clean hold above 363.08 resolves the squeeze upward and invalidates the short-flush thesis, opening a possible pullback-long re-debate."
+  },
+  "transcript": {
+    "macro": "NEUTRAL, leaning against fresh longs. Equity tape constructive-but-two-speed (Nasdaq +2.1% wk of Jul 2, futures higher into Jul 7) but rotation tape selling semis/AI on capex worries. Rates a tailwind (soft +57k payrolls, 2y ~4.14%, lower Fed hike odds). GOOGL trades on Nasdaq beta not crypto (corr to SOL 0.14). Positioning is the caution flag: structure_bias -0.585 (most negative in scan) \u2014 funding +0.06%/interval crowded longs paying, long/short 1.79 lopsided long, orderbook -0.346 live sell pressure. Pinned at top of tight squeeze (ADX 0.6, BB width 0.35%, ATR 0.07%, 30m RSI 99.7) at resistance 363.08. Crowded funding-paying longs into overbought resistance = long-squeeze flush is path of least resistance. Don't chase long; cut size if any position taken. Earnings Jul 28 outside window; tokenized-equity gap risk when US cash closed.",
+    "sentiment": "NEUTRAL-to-slightly-BEARISH near-term. No scheduled binary in next 24-48h (earnings ~Jul 21-28, no FOMC/CPI). Dominant recent theme bearish: AI talent exodus (Shazeer->OpenAI, Jumper->Anthropic, ~5 senior departures) drove GOOGL -5-7% mid-June + Gemini 3.5 Pro slipped to July \u2014 largely priced but re-trigger risk on fresh headline. Structural overhang: ~$84.75B equity raise + $40B ATM program starting Q3 2026 (now) = ongoing dilution/supply pressure, stock -11% on month. Antitrust a non-event for horizon. Long-term bull thesis intact (Street ~89% bullish, Cloud +63% YoY) but not tradable this week.",
+    "analyst": "Textbook no-trade for a long: crowded funding-paying longs into overbought resistance (30m RSI 99.7) with live sell pressure (orderbook -0.346) \u2014 chasing is a donation. A short has structural tailwind but ATR 0.07% means any real stop beyond resistance 363.08 is a fraction of a percent; the noise band swallows it, R:R<1 with a meaningful stop, plus thin-tape/gap risk and no trend (ADX 0.6) to ride. Both sides negative EV. HOLD at zero size; arm a flip/re-debate on a clean hold above 363.08.",
+    "portfolio": "GOOGL/USDT:USDT \u2014 HOLD, size 0, conf 0.60. Stand aside; re-debate on clean break above 363.08 within 4h."
+  },
+  "timestamp": "2026-07-06T11:33:27.888169+00:00"
+}

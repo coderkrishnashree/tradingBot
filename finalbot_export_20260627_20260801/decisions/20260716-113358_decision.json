@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "TSLA/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.2,
+  "playbook": "none",
+  "forecast": "No TSLA data in the scan (5m fetch rate-limited, symbol skipped) \u2014 no price, ATR, levels or candles to forecast a concrete next move; cannot express a tradeable path.",
+  "expectancy_note": "No measurable R:R without price/structure; shorts have been net-losing (0.48 win, -0.7 avg) and Jul 22 AMC earnings makes any pre-print swing negative-expectancy vs gap risk.",
+  "rationale": "TSLA was not scanned (rate-limited/skipped), so there is no price, ATR, support/resistance or candle sequence to build an honest entry/stop/target \u2014 I will not fabricate levels. It is also a tokenized equity likely in thin/gappy hours with a binary Q2 earnings print Wed Jul 22 that will de-risk and coil the tape; the correct play is to trade around the print, not into it. Size 0: no edge, no data, no setup.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 0,
+    "expires_min": 0,
+    "note": "Unconditional hold \u2014 no TSLA scan data exists this cycle to anchor a real structural flip level; re-evaluate only when fresh TSLA data is available."
+  },
+  "transcript": {
+    "macro": "Mild risk-ON (soft CPI/PPI, tech-led rally) but Jul 16 futures wobbling, semis weak, US-Iran overhang. Equity perps gap/thin outside US cash hours. TSLA earnings Wed Jul 22 AMC (binary, ~7-8% implied); long/short 2.34 crowded long. TSLA not a top scan candidate.",
+    "sentiment": "TSLA & GOOGL both report Q2 AMC Wed Jul 22 \u2014 binary gap risk, tape de-risks/coils into print. TSLA Q2 deliveries already out (480k best-ever) modestly positive, priced. Consensus $0.52 EPS +30% YoY. Neutral-to-mildly-bullish pre-print.",
+    "analyst": "TSLA absent from scan (5m fetch rate-limited/skipped) \u2014 no price, ATR, levels or candles to build an honest entry/stop/target. Will not fabricate. Thin/gappy equity hours + binary Jul 22 earnings = trade around, not into. Size 0, no edge.",
+    "portfolio": "HOLD TSLA \u2014 no scan data + binary earnings Jul 22; no tradeable setup."
+  },
+  "timestamp": "2026-07-16T11:33:58.943624+00:00"
+}

@@ -1,0 +1,27 @@
+{
+  "action": "hold",
+  "symbol": "EWJ/USDT:USDT",
+  "size": 0.0,
+  "entry": 93.93,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.36,
+  "playbook": "none",
+  "expectancy_note": "Short p(win) ~0.4 into stoch 9 / %B -0.07 / bullish divergence with support 91.68 only 2.4% away \u2014 chasing an extended down-move; negative expectancy. No long trigger yet. HOLD dominates.",
+  "rationale": "EWJ is a thin US-listed equity wrapper showing a strong downtrend (ADX 57.7) but price is already jammed below the lower Bollinger band (%B -0.07), stochastic at 9, 1h RSI 19.5, plus a scan-flagged bullish RSI divergence \u2014 the exact profile where fresh shorts get squeezed into the 91.68 support. Reward-to-support (~2.4%) does not clear a noise-surviving stop given 0.59% ATR, and the mean-reversion risk is live. No catalyst inside 48h (BoJ July 30 is outside window); the bullish divergence is technical, not a buy trigger without a reclaim. Standing aside is the highest-expectancy call.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 91.68,
+    "expires_min": 240,
+    "note": "Losing support 91.68 with momentum voids the bullish divergence and reopens clean trend-continuation short toward the next leg down."
+  },
+  "transcript": {
+    "macro": "OVERALL REGIME: RISK-ON, late-stage and thin. VIX low 15.9. JAPAN (EWJ): risk-on YTD (Nikkei +39%) on semis. Scan has EWJ weak SHORT bias but showing a BULLISH divergence (mean-reversion risk against shorts). US-listed ETF wrapper \u2014 gappy/thin outside US hours; underlying already ran hard. Narrow AI leadership is the biggest cross-asset risk.",
+    "sentiment": "EWJ (Japan) \u2014 net NEUTRAL, one hard catalyst pending. Nikkei near records (~69.7k, +37% YTD) but choppy with rotation OUT of tech/AI on AI-bubble worries. BoJ holds ~0.75%, tilting hawkish. KEY BINARY: BoJ decision July 30 \u2014 main vol driver but outside 48h. Weak yen supports exporters. No <=48h catalyst; scan's bullish RSI divergence is technical, not news.",
+    "analyst": "EWJ at 93.93: composite SHORT (37.2% conf), ADX 57.7 (very strong trend) but price already below lower Bollinger band (%B -0.072), 4h RSI 38 / 1h RSI 19.5 / 5m RSI 26.3 deeply oversold, stoch 9.0, vwap_dist -0.89%, scan-flagged BULLISH divergence. Support 91.68 only ~2.4% below; ATR 0.59% (~$0.55). Shorting into a sub-band, deeply-oversold, bullish-divergence tape just above support is a donation \u2014 terrible R:R. Fade-long is premature (ADX says strong downtrend, no reclaim trigger). HOLD; arm short on a decisive loss of 91.68.",
+    "portfolio": "EWJ: HOLD (conf 0.36) \u2014 short is extended/oversold with bullish divergence; wait for a break of 91.68."
+  },
+  "timestamp": "2026-07-07T11:17:24.938452+00:00"
+}

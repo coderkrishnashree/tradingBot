@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "EWJ/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.34,
+  "playbook": "none",
+  "forecast": "Price stays pinned near 94.1 on stale, near-zero-volume prints until Tokyo reopens Monday JST; no honest next-candle move to trade \u2014 real direction resolves on the reopen gap, not now.",
+  "expectancy_note": "No edge: the 'short' composite is a single 132-vol dump candle amid flat 0.00-vol stale prints; LTF RSI 7.3/19.5 is an artifact not momentum. Shorting a closed market into crowd-long + Nikkei +37% weak-yen gap-up risk is negative expectancy.",
+  "rationale": "EWJ is a tokenized Japan ETF and the underlying cash market is closed on Sunday; the recent candles are overwhelmingly flat zero-volume stale-price drift punctuated by one illiquid dump, so indicators are unreliable and there is no tradeable forecast. Composite confidence is only 35.7% and the crowd is long into a weak-yen tailwind, meaning the Monday reopen carries two-sided gap risk that any tight intraday stop cannot survive. Best expectancy is to stand aside until real volume and a structural break appear.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 93.27,
+    "expires_min": 240,
+    "note": "Losing the dump-candle low 93.27 on real (non-zero) volume would confirm genuine breakdown momentum toward support 90.27 and justify a short; until then price is just stale drift."
+  },
+  "transcript": {
+    "macro": "RISK-OFF lean. Sunday \u2014 Japanese equity market CLOSED (Tokyo reopens Monday JST with GAP risk). Defensive macro. EWJ structure_bias -0.13, L/S 1.47, BTC-corr 0.27. Underlying closed; volumes near zero, multiple flat 0.00 candles = purely stale-price drift. HOSTILE for near-term entry; if taken, minimal size.",
+    "sentiment": "Risk-cautious; June CPI + Warsh July 14 = dominant 48h binary. EWJ key binary is BOJ July 30 (OUTSIDE window). Nikkei +37% YTD on weak yen (USD/JPY ~162) helping exporters; hawkish-BOJ risk is end-of-month. Very thin on Bybit off-hours; near-term neutral.",
+    "analyst": "Last 94.13. Recent candles almost entirely flat 0.00-volume stale prints, punctuated by one 132-volume dump (94.95->93.27 low->94.26 close), then drift to 94.13. ADX 33.6 but composite conf only 35.7%; 15m RSI 19.5 / 30m 7.3 are artifacts of that single print, not momentum. Market closed \u2192 no honest next-candle move; Monday reopen gap risk (weak-yen tailwind could gap UP) with crowd long. HOLD, armed if 93.27 breaks on real volume.",
+    "portfolio": "EWJ \u2014 HOLD, conf 0.34: closed-market stale tape, indicators unreliable; stand aside until real volume / structural break."
+  },
+  "timestamp": "2026-07-12T23:04:57.056553+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "INTC/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Mid-air chop: from 95.03 likely a small dead-cat bounce toward 95.4-95.6 (5m RSI 25.6 stretched) then continued drift toward the 94.56/94.23 swing low; a clean break of 94.56 opens the crowded-long flush toward 93; reclaim of 96.67 revives the 1h/4h bounce toward 97.5.",
+  "expectancy_note": "p(win) ~0.5 either way now; shorting here chases a move already 1.6% off the 96.67 high into 5m RSI 25.6 (account's #1 loss pattern), and longing is counter-trend into risk-off semis with the bounce already rolling over \u2014 no R:R>=1.5 clean entry, so HOLD has best expectancy.",
+  "rationale": "INTC gives a genuine two-sided setup with no edge at 95.03: the 1h/4h long scores are a counter-trend bounce that has ALREADY rolled over (96.67 peak faded to 95.03 on lower highs/lows), while a fresh short chases a stretched 5m (RSI 25.6) with price still +0.9% above VWAP and thin/gappy off-hours. Crowded longs (L/S 2.54) into worst-in-class rel-str (-36%) and semis-cluster risk-off are real squeeze fuel for a short, but I want the trigger (loss of 94.56), not a mid-range chase that a routine bounce stops out. Earnings Thu July 23 is building binary risk. Size 0 until a level resolves the direction.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 94.56,
+    "expires_min": 240,
+    "note": "Losing the 94.56/94.23 swing low confirms the bounce failed and the crowded longs start flushing \u2014 arms a high-expectancy short toward 93 in a risk-off semis tape."
+  },
+  "transcript": {
+    "macro": "RISK-OFF/defensive, fragile. Semis cluster epicenter of last week's AI-capex selloff. INTC hugely lagging (rel-str -36%), crowded long (L/S 2.54) = squeeze fuel. INTC has bullish 1h/4h scores but that's COUNTER-TREND. Posture: smaller size, favor short/mean-reversion fades.",
+    "sentiment": "US equities closed (Sunday) \u2014 thin/gappy until Monday cash open. INTC: neutral into earnings Thu 7/23 after close (just outside the tightest 48h window but on the horizon). Low EPS bar ($0.06), foundry-ramp narrative. No catalyst before Thu.",
+    "analyst": "Two-sided with no edge at 95.03: the 1h/4h counter-trend bounce has already rolled over (96.67 -> 95.03 lower highs/lows) and a fresh short chases a stretched 5m (RSI 25.6) still +0.9% above VWAP. Want the trigger (loss of 94.56), not a mid-range chase. Earnings Thu building binary risk. Size 0.",
+    "portfolio": "HOLD INTC \u2014 mid-air, no edge; arm short on break of 94.56."
+  },
+  "timestamp": "2026-07-20T06:46:29.457410+00:00"
+}

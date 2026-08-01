@@ -1,0 +1,26 @@
+{
+  "symbol": "SOL/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.4,
+  "size": 0.0,
+  "entry": 75.12,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "forecast": "Coils 74.5-75.4 into the 8:30 ET CPI print; expect whipsaw, then direction dictated by BTC. Loss of 74.04 support resumes the 1h/4h downtrend toward 73.0/72.3; reclaim of VWAP ~76.4 flips bullish toward 77.",
+  "expectancy_note": "No edge: spent 5m bounce, retail crowded long (L/S 2.58), pure BTC beta (0.789) into a binary CPI whipsaw. Learner shows trend/high-ADX entries bleeding (0.45 win, -2R). Waiting for the support break gives a cleaner directional short.",
+  "rationale": "SOL is holding support 74.04 with a 5m/15m bounce, but 1h/4h remain down and this is a low-conviction BTC-beta expression into today's binary June CPI + Warsh testimony (high whipsaw). A long chases a crowded retail-long book into an event; a short fights a fresh bounce off support right below. Neither clears R:R 1.5 with an honest stop, and account history punishes exactly these high-ADX trend entries. HOLD is highest expectancy; want the 74.04 break to confirm downtrend resumption before committing.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 74.04,
+    "expires_min": 300,
+    "note": "Losing 74.04 support (likely on a hot CPI/risk-off) confirms the 1h/4h downtrend resumes and opens a cleaner short toward 73.0/72.3."
+  },
+  "transcript": {
+    "macro": "Risk-OFF, US-Iran/Hormuz inflation shock; rates hawkish (~60% Sept HIKE). June CPI 8:30 ET + Warsh today = binary whipsaw. BTC ~62,600 mid-range, 4h down, funding flat, L/S 1.56 \u2014 no conviction. SOL = highest BTC beta of set (corr 0.789), RS +8.07% leading crypto, 4h down, coiled 74.5-75.4, L/S 2.58 (retail long-tilted).",
+    "sentiment": "SOL mixed / no hard <=48h catalyst: crypto Fear & Greed in Extreme Fear (~19-23), BTC ~50% off 2025 high, rebound is short-covering. High-beta to risk-off tape. No dated binary next 48h (Firedancer testnet priced, SOL ETFs live w/ small outflows). Trades off CPI + BTC; extreme fear a mild contrarian positive.",
+    "analyst": "Holding 74.04 with a spent 5m/15m bounce, 1h/4h down, pure BTC beta into binary CPI. Long chases crowded retail longs; short fights the bounce. Learner shows high-ADX trend entries bleeding. HOLD; re-short on loss of 74.04.",
+    "portfolio": "HOLD SOL \u2014 BTC-beta expression into a binary CPI, no clean R:R; re-short below 74.04."
+  },
+  "timestamp": "2026-07-14T04:32:53.560278+00:00"
+}

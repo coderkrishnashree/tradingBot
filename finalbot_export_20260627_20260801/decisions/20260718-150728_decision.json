@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "HOOD/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.4,
+  "playbook": "none",
+  "forecast": "Price stays pinned in the 99.40-99.66 coil near-term; expect it to keep basing on thin weekend flow until either a reclaim of 99.66/100 kicks off the oversold snapback or a loss of 99.40 resumes the flush toward 96.68 support - no clean edge either way inside the next few bars.",
+  "expectancy_note": "No entry: p(win) too low both sides. Shorting into 4h RSI 3.4 is this account's proven loss pattern (shorts 0.47 WR, -0.87 avg; model weights on vwap_dist/rel_strength/adx all negative), and a long needs a reclaim first (currently coiling, no trigger). HOLD beats a coin-flip fade.",
+  "rationale": "HOOD is in a violent 4h oversold flush (RSI 3.4, vwap -7.4%) but the mid-TF tape has stopped falling - the last 5h of 15m candles are a dead-flat coil at 99.5 with tiny weekend volume and no fresh momentum in either direction. Shorting a sub-4 RSI is exactly how this book bleeds (a normal bounce stops you out), and going long a knife with no reclaim is unconfirmed; structure_bias is near-neutral (-0.103) so there is no edge to size. Best expectancy is to stand aside over thin weekend liquidity and let price declare with a level break.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 100.0,
+    "expires_min": 240,
+    "note": "Reclaiming the 100 round number / above the 99.66 coil high confirms the oversold snapback is underway - the learner-favored long (longs 0.75 WR, +3.44 avg) with room toward VWAP; re-debate for a long entry."
+  },
+  "transcript": {
+    "macro": "Risk-OFF/defensive; Fri Jul 17 tech/semi selloff. WEEKEND: US cash equities CLOSED until Mon 13:30 UTC - equity tokens thin/gappy, Monday-gap risk. HOOD: ADX 89.7 & 4h RSI 3.4 EXTREME oversold (violent down-extension, snapback risk), rel-strength -6.6%, btc_corr 0.518, L/S 1.51, orderbook +0.168 => bias only -0.103 (near neutral). Both continuation and mean-revert bounce plausible; don't size for a clean trend.",
+    "sentiment": "HOOD net NEUTRAL. Earnings not until Jul 29 (outside 48h). Analysts Moderate Buy, prediction-markets growth narrative (long-horizon). Violent oversold flush (RSI 3.4, ADX 89.7, vwap -7.4%) is price action not news - likely mechanical/crypto-beta driven. No near-term catalyst.",
+    "analyst": "4h oversold flush but 15m tape stopped falling - dead-flat coil at 99.5, tiny weekend volume, no fresh momentum either way. Shorting sub-4 RSI = account's proven bleed (shorts 0.47 WR, -0.87 avg; negative model weights on vwap_dist/rel_strength/adx). Long needs a reclaim first; structure near-neutral => no edge to size. HOLD.",
+    "portfolio": "HOOD: HOLD (conf 0.40) - coiling, no trigger; flip to learner-favored long on reclaim of 100."
+  },
+  "timestamp": "2026-07-18T15:07:28.033534+00:00"
+}

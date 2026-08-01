@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "COIN/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Fresh 3-bar bounce (162.9 -> 164.64) into a strong 4h/1h downtrend; expect price to push toward the 166.0-166.8 VWAP/shelf over the next 2-5 bars where the downtrend should reassert, OR fade and lose 162.9 to resume the leg down. Right here it is mid-air with no honest stop.",
+  "expectancy_note": "No clean level to short against at 164.45 (5m RSI 70.6 still thrusting up) and long fights ADX 46.5 / 4h RSI 34.4 for a tiny target; neither side clears 1.5R with a <1.5xATR stop. Wait for the retest of resistance.",
+  "rationale": "HTF is firmly bearish (4h -0.746, 1h -0.642, ADX 46.5) but the last 3 candles are a green momentum thrust off 162.9 support, so shorting now means shorting into acceleration with no structure above to anchor a tight stop. COIN is pure BTC beta (corr 0.739, rel strength -0.89) riding the BTC relief bounce, not leading. Best expectancy is to arm a short for the retest into 166.5 VWAP/shelf where the dominant downtrend reasserts, or flip if 162.9 breaks. Size 0 until one of those triggers.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 166.5,
+    "expires_min": 240,
+    "note": "A bounce into the 166.5 VWAP/shelf offers a with-trend short entry against overhead resistance with a tight stop above 167.5; that is the setup worth taking."
+  },
+  "transcript": {
+    "macro": "Regime (2026-07-08): cautiously risk-on but fragile. Hot inflation; June dot-plot leans toward possible 2026 hike. Live semiconductor/memory bear-market rotation. FOMC minutes today = hawkish risk. BTC ~$64k +6.3% wk, dominance ~55.5%, risk appetite recovering but BTC-led. Crypto-perp wrappers; funding ~0. COIN tilt: neutral - high BTC corr (0.74), riding crypto relief; balanced positioning (L/S 0.90); direction follows BTC.",
+    "sentiment": "Dominant <=48h force is the AI/semiconductor risk-off bleeding into COIN via crypto risk appetite. Jul 1 California DFAL deadline passed (digested). Recent flow = product expansion + stablecoin partnership (Open USD) + analyst target bumps, all long-horizon. Pure BTC beta; moves on crypto tape not company news this cycle.",
+    "analyst": "HTF firmly bearish (ADX 46.5) but last 3 candles are a green thrust off 162.9 - shorting now is shorting into acceleration with no structure above for a tight stop; long fights the trend for a tiny target. Best EV is to arm a with-trend short on the retest into 166.5 VWAP/shelf, or flip if 162.9 breaks.",
+    "portfolio": "COIN: HOLD (conf 0.60) - mid-air; arm with-trend short on retest into 166.5."
+  },
+  "timestamp": "2026-07-08T01:02:44.431778+00:00"
+}

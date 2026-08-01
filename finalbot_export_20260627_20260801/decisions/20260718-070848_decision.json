@@ -1,0 +1,28 @@
+{
+  "symbol": "QQQ/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.5,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "none",
+  "forecast": "Weekend, US cash closed: price grinds in a tight 694-697 range on near-zero volume, RSI 21.6 / 5m RSI 5.3 exhausted; more likely a dead-cat bounce toward VWAP (~710) than a clean break of 688 before Monday's gap.",
+  "expectancy_note": "Short p(win) ~0.40 here; account shorts avg -0.87 PnL, and every strong feature (extended -2.14% below VWAP, ADX 76, aligned) carries negative model weight. Selling 7pts above support into deep-oversold, closed-market gap risk = negative expectancy.",
+  "rationale": "Textbook late-short-into-oversold trap the account keeps losing on: RSI 21.6, stoch 22, 5m RSI 5.3, price already 2.14% below VWAP and only ~1% above 688 support, on dead weekend volume with Monday gap/squeeze risk. Learner p_win 0.384 and shorts bleed (-0.87 avg). No honest R:R short from here. HOLD and re-engage only on a decisive break of 688 or a bounce back to VWAP for a higher/tighter short entry.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 687.5,
+    "expires_min": 240,
+    "note": "Losing 688.09 support on real volume confirms the downtrend resuming rather than exhausting - a valid non-chasing short entry with room to the next leg."
+  },
+  "transcript": {
+    "macro": "Risk-off, tech/semis selling off (week -2.9%). Scan 07:01 UTC weekend - US cash CLOSED, thin/gappy, Monday gap risk. No FOMC/CPI in 72h. Short-favorable but LATE-STAGE, squeeze risk; cut size. QQQ: cleanest macro alignment (risk-off tech, ADX 76, aligned TFs) but RSI 21.6 deeply oversold, late to press.",
+    "sentiment": "Risk-off tape, crypto Fear. Mega-cap earnings wall Jul21-29. US markets closed weekend -> thin/gappy. QQQ is the vehicle for the mega-cap earnings wave; near-term confirms short into weekend but oversold + closed market = squeeze risk on Monday gap.",
+    "analyst": "Textbook late-short-into-oversold trap: RSI 21.6, 5m RSI 5.3, -2.14% below VWAP, only ~1% above 688 support on dead weekend volume. Learner p_win 0.384, shorts bleed -0.87 avg; extended/aligned features carry negative model weight. No honest R:R short. Re-engage only on a decisive break of 688.",
+    "portfolio": "HOLD QQQ - late short into oversold; re-arm on break of 688 support."
+  },
+  "timestamp": "2026-07-18T07:08:48.274793+00:00"
+}

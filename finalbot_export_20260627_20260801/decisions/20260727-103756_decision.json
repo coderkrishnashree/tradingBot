@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "INTC/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price is stretched 3% below VWAP with 15m RSI 31.4 / 5m RSI 36.9 (oversold); expect a mean-revert bounce toward 95.6-96.0 over the next 2-6 bars before the short thesis can be re-armed at a proper retest - not a fresh leg down from here.",
+  "expectancy_note": "Shorting oversold LTF into a heavily-long crowd is the account's exact loser (shorts 45% win, -0.85 avg pnl, p_win_learned 0.374); a market short here has negative expectancy - a bounce stops it. Better to wait for the retest.",
+  "rationale": "Composite is short but price already round-tripped and is now 2.98% below VWAP with LTF RSIs oversold and support (91.35) only ~3.4 below - the easy downside is spent and a counter-bounce is the higher-probability next move, which would stop a market short. The 2.03 long crowd is squeeze fuel and the learner punishes shorts hard, so I will not chase; I want a rejection back near VWAP for real R:R. FOMC Wed adds gap risk. No entry with acceptable R:R exists now.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 95.6,
+    "expires_min": 240,
+    "note": "A bounce back to the 95.6 shelf near VWAP is where a fresh rejection gives a valid short-the-bounce entry (stop above ~96.7, target 91.35)."
+  },
+  "transcript": {
+    "macro": "MIXED regime, risk-cautious into a heavy-event week. FOMC Wed Jul 29. Crowded longs + RSI extremes broadly. INTC lean: the only short-biased name in the scan (composite -0.34) yet crowd 2.03 LONG - contrarian setup supports the short, but ADX/semis strength is a squeeze risk.",
+    "sentiment": "INTC already reported Jul 23 - BLOWOUT: rev $16.1B (+25% YoY), EPS $0.42 vs ~$0.21, 7th straight beat, data-center +59%, shares popped 12-13% AH above $112. Fundamentals strongly positive BUT the scan shows INTC now a SHORT candidate at ~$94.75 (round-tripped the spike). Positive tone is a squeeze headwind for a short.",
+    "analyst": "Composite short but price already 2.98% below VWAP with LTF RSIs oversold and support 91.35 only ~3.4 below - easy downside spent, counter-bounce likely (would stop a market short). Crowd 2.03 long = squeeze fuel, learner punishes shorts (p_win 0.374). HOLD; short a bounce/rejection near 95.6.",
+    "portfolio": "HOLD INTC (conf 0.60) - short bias but oversold; wait to short a bounce back to ~95.6."
+  },
+  "timestamp": "2026-07-27T10:37:56.586104+00:00"
+}

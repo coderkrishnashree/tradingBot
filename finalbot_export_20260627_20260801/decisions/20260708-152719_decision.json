@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "HOOD/USDT:USDT",
+  "size": 0.0,
+  "entry": 109.57,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.55,
+  "playbook": "trend",
+  "forecast": "After a 7-bar staircase drop from 112.69 to 109.57, price is pressed on the 4h lower Bollinger band (pctB 0.03, -3.85% vs VWAP); expect a relief bounce/consolidation toward the broken 110.8-111.0 shelf over the next 2-5 bars before trend resumes lower. Shorting the hole here is a chase into squeeze fuel (retail net-long 1.42); the higher-expectancy short is the retest, not the low.",
+  "expectancy_note": "Short at 109.57 gives ~1.5R to 107.5 but sells into the lower band with no structure until 99.18 and squeeze risk \u2014 p(win) ~0.5, a coin flip. Waiting to short a 110.8-111.0 retest lifts R:R toward 2.2 and p(win) to ~0.6; that expectancy beats chasing now.",
+  "rationale": "Trend is genuinely down (ADX 45, composite short, BTC-fear tailwind, name fading a stale L2 catalyst), so the bias is to SHORT \u2014 but price is already ~2.8% off the high and pinned to the 4h lower band, which is where bounces start, not where you initiate. The clean setup is a pop into the broken 110.8-111.0 shelf/VWAP to short with a tight stop above 111.7 and target the 107.5-106 zone (2R+). Holding for that entry; size 0 until the level triggers.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 110.9,
+    "expires_min": 240,
+    "note": "A bounce into 110.8-111.0 is the broken-support/VWAP retest that arms the higher-R short; if instead it reclaims and holds above 111.7 the down-leg is invalidated and the short thesis is off."
+  },
+  "transcript": {
+    "macro": "Regime: risk-off/cautious, HOSTILE-to-MIXED for longs, mildly supportive for tactical shorts. BTC ~$63k, Fear & Greed 27, Coinbase Premium negative ~50 days (persistent US selling), dominance ~56-60% (defensive rotation). Fed held under Chair Warsh; 9/18 SEP members see a HIKE by year-end, October hike possible, inflation 3-yr high \u2014 rate-hike-risk regime, headwind for high-beta crypto proxies. FOMC minutes this afternoon can whipsaw. HOOD treated as equity (Robinhood): underlying ~$112.90, 12mo avg target $110.52 BELOW spot (fully valued); sank 13.2% on Q1 print. Scan: composite SHORT (-0.208, ADX 45 real trend), 4h RSI 35.7, -3.85% vs VWAP, LSR 1.42 (retail net-long = squeeze risk on shorts). 0.62 correlated to BTC. Q2 earnings Jul 29 outside window. Tokenized perp thin/gappy when US cash equity closed.",
+    "sentiment": "Overall neutral, recovering off fear washout (F&G ~45); June CPI Jul 14, FOMC Jul 28-29 \u2014 no scheduled shock in 24-48h. HOOD: Jul 1-2 launched Robinhood Chain (Arbitrum L2), tokenized Stock Tokens (200+ equities), DeFi + perps; shares jumped 8%+ then, catalyst now several days old and largely priced, name leaking lower (post-spike fade) consistent with short bias. Analyst PT bumps (Mizuho $130, Compass Point $130) = long-horizon noise. Near-term risk: US absent from tokenized-stock jurisdiction list; regulatory headline on Jersey-issued Stock Tokens could gap the name. Net near-term news NEUTRAL, mildly supportive of short bias.",
+    "analyst": "HOOD last 109.57, blended composite SHORT (-0.208), ADX 45.1 (strong trend), regime 'trend'. 4h RSI 35.7, bb_pctb 0.033 (near lower band), vwap_dist -3.85%. Spike to 112.69 high 7 bars ago then a steady staircase down (112.32->112.18->112.06->110.86->110.77->109.94->109.57); last bar closed in the low third of range on dried-up volume (289) \u2014 a pause, not a reversal. Problem: already dropped ~2.8% from the high, pressed on the 4h lower band, next support far away at 99.18. Shorting here at 109.57 is a chase into squeeze fuel (LSR 1.42) with R:R only ~1.5. Higher-expectancy short is a retest of the broken 110.8-111.0 shelf/VWAP (R:R toward 2.2, p(win) ~0.6). HOLD and arm a short trigger on a bounce; invalidation if it reclaims/holds 111.7.",
+    "portfolio": "HOOD \u2014 HOLD (conf 0.55): trend is short but price is extended on the lower band; wait to short the 110.8-111.0 retest rather than chase the hole."
+  },
+  "timestamp": "2026-07-08T15:27:19.044069+00:00"
+}

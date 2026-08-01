@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "SOL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price is extended +2.27% above VWAP with 4h RSI 84 and just rejected the 77.49 spike back to 76.86; expect a fade/chop toward VWAP ~75.1-75.5 (or support 76.4/73.4) over the next few bars rather than a clean break of resistance 78.86. Best long location is a pullback to VWAP, not here.",
+  "expectancy_note": "Long-here p(win) ~0.40 (chasing extended, BTC-lagging, long-crowded L/S 2.65 into RSI 84); no honest R:R since a routine counter-bounce hits any tight stop before resistance. Fade-the-top short fights a strong up-trend (1h score 0.87) = low expectancy. HOLD beats both.",
+  "rationale": "SOL is pure BTC-beta (corr 0.85) and LAGGING it (-7.69%), fully extended at the upper Bollinger band with 4h RSI 84 and stoch 84, and long-crowded (L/S 2.65, structure_bias -0.33) - a market long here is the account's classic late-continuation-into-stretched-tape loss. No clean level to buy against and no confirmed rejection to short a strong trend. With FOMC Wed compressing the window, the disciplined trade is to wait for a pullback into VWAP for a with-trend long or a decisive rejection at resistance.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 77.5,
+    "expires_min": 240,
+    "note": "Reclaiming and holding above the 77.49 rejection high proves the extension is resuming and reopens a momentum-continuation long toward resistance 78.86."
+  },
+  "transcript": {
+    "macro": "Regime MIXED, risk-on into event risk: US-Iran ceasefire + oil -7% lifted crypto/equities (BTC ~$65.2k +1.1%, dominance ~56.6%). Funding near-flat but long/short long-heavy = contrarian risk (structure_bias negative on most names). DOMINANT SHARED RISK: FOMC Wed Jul 29 with a live hawkish/hike tail + Mag-7 earnings this week -> reduce size, avoid naked holds into Wednesday.",
+    "sentiment": "FOMC Jul 28-29 is the biggest <=48h cross-asset event, most relevant for XAUT/BTC/SOL. SOL mild tailwind: MSOL spot ETF NYSE Arca approval Jul 24, steady July inflows (~$904M AUM), but rides BTC beta (0.85 corr) into the Fed. Crypto neutral (F&G ~44-53).",
+    "analyst": "SOL 76.86, 4h RSI 84.3 / stoch 84 / %B 0.949 (upper band), ADX 83.8, +2.27% above VWAP - fully extended. Just failed a push into resistance 78.86 (spike to 77.49 rejected back to 76.86). Long-crowded L/S 2.65, lagging BTC -7.69%. No clean buy level and no confirmed rejection to short a strong up-trend; chasing here is the account's late-continuation loss pattern. HOLD, arm continuation long on reclaim >77.5.",
+    "portfolio": "SOL/USDT:USDT - HOLD (conf 0.60): extended/crowded BTC-beta into FOMC; wait for VWAP pullback long or reclaim >77.5."
+  },
+  "timestamp": "2026-07-27T14:08:59.662149+00:00"
+}

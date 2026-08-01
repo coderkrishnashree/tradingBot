@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "SOL/USDT:USDT",
+  "size": 0.0,
+  "entry": 76.41,
+  "stop_loss": null,
+  "take_profit": null,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Coiling 76.2-76.6 under the 76.64 high; likely churns into FOMC Wed, then pulls back toward VWAP/73.39 (long setup) or breaks 78.86 resistance on a BTC-led push.",
+  "expectancy_note": "No positive-expectancy entry: long is extended (+1.93% VWAP, RSI 77, %B 0.90) = chasing; short fights an ADX-80 uptrend and shorts are the account's losing book.",
+  "rationale": "SOL is overbought (RSI 77, %B 0.90), VWAP-extended, crowded long (L/S 2.74) and pure BTC-beta (corr 0.855) lagging BTC by 9%, all into a binary FOMC Wed. The 15m/30m/5m composites are flat and the tape is coiling with no fresh impulse. Waiting for a pullback to 73.39 support or a confirmed close above 78.86 is far better expectancy than a fresh late long or a countertrend short.",
+  "transcript": {
+    "macro": "SHARED MACRO / POSITIONING CONTEXT - 2026-07-27 (Bybit live scan). Broad regime MIXED-TO-CAUTIOUS, dominated by event risk (busiest week of quarter). FOMC Wed Jul 29 2:00pm ET, rates held 3.50-3.75%, ~82-93% odds of a hold but higher-for-longer. MSFT+META earnings Wed close; AAPL+AMZN Thu close - every tech/semi/index name here carries a hard catalyst inside the hold window. Brent back >$100, 10Y >4.6%, DXY ~102 = firm dollar/yields/oil, a headwind for risk. Equities choppy, semis two-sided, high dispersion; Wed/Thu earnings will gap these names. Treat ORCL/TSM/SNDK/MU/MSFT/QQQ/AAPL as EQUITIES on the Nasdaq/rates tape, low BTC corr; thin/gappy off US cash hours. POSITIONING: long side broadly CROWDED + overbought. Hot funding TSM 0.00333, ORCL 0.00296, MSFT 0.00112, QQQ 0.00210. L/S lopsided long: SOL 2.74, XAUT 2.57, ORCL 2.34, TSM 2.07. RSI stretched (TSM 73.9, SNDK 73.7, QQQ 72.4, XAUT 80.2, SOL 77.1, BTC 77.6). All long structure_bias negative (TSM -0.60, ORCL -0.64, MSFT -0.48, QQQ -0.12, SOL -0.33, XAUT -0.30, COIN -0.36) - positioning favors fading strength, not chasing. Rel strength vs BTC negative for the equity names (ORCL -22.5, SNDK -13.1, TSM -10.7) - LAGGING. GOLD XAUT ~4080 uptrend but RSI 80 overbought/crowded. CRUDE CL scan $84.64 RSI 20.8 (may be stale vs Brent >$100); short-cover friendly (L/S 0.61, structure_bias +0.16). BTC ~$65.4k, dominance ~57%, overbought into Fed; SOL BTC-beta (corr 0.855), lagging, overbought, crowded. BOTTOM LINE: MIXED tilting HOSTILE for fresh full-size longs; crowded overbought longs meeting a wall of binary catalysts + firm DXY/yields/$100 oil. Argue SMALLER size or trades that flatten before Wed 2pm; cleaner setups are counter-crowding fades.",
+    "sentiment": "SHARED NEWS/SENTIMENT CONTEXT - 2026-07-27 (24-48h). Cautiously risk-on today but on TWO binary events inside the window. Futures rallied Mon (NDX +1.16%, SPX +0.72%) on a US-Iran ceasefire + oil lower; earnings season strong (86% beats). Trading INTO the most dangerous 72h: FOMC Wed 2pm (hold expected, oil spike lifted hike odds ~38%) AND a wall of megacap earnings Wed/Thu. July AI-capex/memory-chip selloff crushed Korea/chip names. All equity longs held past Tuesday are event-exposed. MSFT HIGH - earnings Wed after close, AI-capex swing. AAPL HIGH - earnings Thu after close, Tim Cook's final call/CEO handoff adds vol. COIN HIGH - Q2 Thu, crypto-beta. MSTR HIGH - Q2 Thu, BTC-proxy + fair-value accounting = double catalyst. CL HIGH/live - ceasefire drove oil sharply lower (RSI ~21), headline-sensitive both ways, OPEC+ hiking quotas. QQQ HIGH - IS the megacap+FOMC basket. SOL MEDIUM - Morgan Stanley spot SOL ETF NYSE Arca approval Jul 24, no 48h binary. EWY MEDIUM/risk - just hammered on chip selloff, ~41% SK Hynix+Samsung, moves on MSFT capex Wed. TSM LOW/MED - reported Q2 Jul 16, no fresh binary. MU LOW/MED - no earnings in window, sector beta. SNDK LOW/MED - no earnings in window, extremely extended. ORCL LOW - next earnings Sep 14. XAUT MEDIUM - FOMC Wed is THE driver, extended. KEY DATES: Wed 2pm FOMC; Wed close MSFT; Thu close AAPL/COIN/MSTR.",
+    "analyst": "SOL is overbought (RSI 77, %B 0.90), VWAP-extended, crowded long (L/S 2.74) and pure BTC-beta (corr 0.855) lagging BTC by 9%, all into a binary FOMC Wed. The 15m/30m/5m composites are flat and the tape is coiling with no fresh impulse. Waiting for a pullback to 73.39 support or a confirmed close above 78.86 is far better expectancy than a fresh late long or a countertrend short.\n\nForecast: Coiling 76.2-76.6 under the 76.64 high; likely churns into FOMC Wed, then pulls back toward VWAP/73.39 (long setup) or breaks 78.86 resistance on a BTC-led push.\n\nExpectancy: No positive-expectancy entry: long is extended (+1.93% VWAP, RSI 77, %B 0.90) = chasing; short fights an ADX-80 uptrend and shorts are the account's losing book.",
+    "portfolio": "HOLD SOL - overbought BTC-beta into FOMC; buy a pullback toward 73-74.5."
+  },
+  "reconsider": {
+    "condition": "price_below",
+    "level": 74.5,
+    "expires_min": 240,
+    "note": "A flush toward 73.39/VWAP unwinds the overbought stretch and sets up a trend-continuation long."
+  },
+  "timestamp": "2026-07-27T05:39:57.039226+00:00"
+}

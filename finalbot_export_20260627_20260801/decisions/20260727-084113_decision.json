@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "SOL/USDT:USDT",
+  "size": 0.0,
+  "entry": 76.34,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.34,
+  "playbook": "none",
+  "forecast": "Price rolled off the 76.95 high in a steady stair-step of lower closes, now stalling at 76.34; with 5m RSI 32.5 a small bounce toward 76.7-76.9 is likely before any real leg lower. Expect chop 75.9-76.9.",
+  "expectancy_note": "No edge at mid-range: a market short chases a move whose fast-TF is already oversold (bounce risk), a long fights crowded LSR 2.74 + RSI 74.9 into FOMC; p(win) either ~0.45, sub-1.5 R:R.",
+  "rationale": "SOL is a pure BTC-beta echo (corr 0.852, RS -9%) mid-range (73.39-78.86), +1.82% over VWAP, RSI 74.9 with an extremely crowded long book (LSR 2.74, structure_bias -0.30) - squeeze-prone but no clean level to fade and 5m near-oversold, so a market short risks the classic late-continuation bounce-out. FOMC Wed inherits full macro risk. Stand aside.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 73.39,
+    "expires_min": 240,
+    "note": "Losing range-low support 73.39 confirms the crowded-long unwind and opens a clean momentum short toward 72."
+  },
+  "transcript": {
+    "macro": "MIXED, cautious into event risk. FOMC Wed Jul 29. Risk-on but fragile. Crypto BTC ~$64-65k, dominance 56.3%, F&G 29, BTC-led not trending. Crowding flag firing across book. Default reduced size, intraday over overnight. SOL: NEUTRAL crypto-beta - BTC corr 0.85, LSR 2.74 extremely crowded, structure_bias -0.30, RSI 75, squeeze-prone.",
+    "sentiment": "Risk-on but knife's-edge. FOMC Wed. Crypto F&G 30. CL short highest-conviction. SOL: mildly bullish tone but crowded + July FTX-estate unlock overhang; 0.85 corr to BTC inherits full FOMC risk. Near-term neutral-to-cautious into the Fed.",
+    "analyst": "SOL 76.34 rolled off 76.95 in a stair-step of lower closes; pure BTC-beta echo (corr 0.85, RS -9%), mid-range, +1.82% VWAP, RSI 74.9, LSR 2.74. 5m already near-oversold (RSI 32.5) so a market short risks a bounce-out; long fights the crowd into FOMC. Best trade is the VWAP/76.9 retest short or range-break, neither triggered.",
+    "portfolio": "SOL - HOLD (0.34): crowded-long BTC beta rolling over mid-range; no clean level, short only on a 73.39 break."
+  },
+  "timestamp": "2026-07-27T08:41:13.427459+00:00"
+}

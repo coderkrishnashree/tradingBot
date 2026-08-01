@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "BTC/USDT:USDT",
+  "size": 0,
+  "entry": 61852.8,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.34,
+  "playbook": "none",
+  "forecast": "Oversold grind: 5m RSI 21 / 1h RSI 26 / %B -0.06 argues for a mean-revert bounce toward 62,100-62,350 first; a decisive break of the 61,680 swing low is what unlocks trend-continuation toward 61,000/60,500.",
+  "expectancy_note": "Shorting here chases below-band oversold (p(win) low, snap-back risk from L/S 1.48); longing fights ask-heavy book (-0.425) and downtrend. No side clears 1.5R at spot \u2014 wait for the level.",
+  "rationale": "Composite/structure lean short but price is already >2% below VWAP with 5m RSI 21, 1h RSI 26 and %B below the lower band \u2014 selling the low of an oversold grind is a bad entry, and net-long 1.48 L/S plus dovish jobs headlines create real squeeze fuel on any bounce. A clean short needs either a bounce to sell into (VWAP ~62,300) or confirmation via a break of the 61,680 swing low; neither exists at spot, so R:R does not clear 1.5 in either direction. Size 0 \u2014 highest-expectancy move is to wait for the trigger.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 61680,
+    "expires_min": 240,
+    "note": "Losing the 61,680 swing low confirms downtrend continuation and clears the oversold-bounce risk, opening a with-trend short toward 61,000/60,500."
+  },
+  "transcript": {
+    "macro": "Regime MIXED, leaning risk-off/transitional. BTC ~$61,853, down ~$1,145/day, far below $126k ATH. Weak US jobs -> Fed rate-cut hopes (dovish) but only 1 H2-2026 cut projected. BTC dominance ~55.5% slipping (alt rotation). Fear&Greed ~24. Coinbase Premium negative ~50 days. Funding +2.4bp (flat, no squeeze). OI ~55,868 BTC; 24h liquidations only ~$76.5M (quiet). L/S 1.48 (net-long, contrarian headwind for longs). Order-book imbalance -0.425 (ask-heavy). structure_bias -0.279. Verdict: hostile-to-mixed for longs, mildly supportive for a tactical short, but flat funding + quiet OI => grind not cascade; big snap-back/squeeze risk. Trade smaller.",
+    "sentiment": "Tone neutral-to-cautious. Fear&Greed 45 (Neutral), recovered from extreme-fear 11. Macro dominant + hawkish-leaning: June 16-17 FOMC pivoted hawkish (median dot 3.8%, 9/18 penciling a hike); BTC high equity correlation. Catalysts (>48h): June CPI July 14 (May hot 4.2% YoY); FOMC July 28-29. ETF flows constructive: +$143M/+$46.6M inflows after record -$4.5B June, ended 10-day outflow streak. Recent bounce >$62K was mechanical short-liquidation, faded to ~$61.8K. No BTC-specific shock. Near-term verdict: broadly NEUTRAL, mild bearish tilt, not contradicted by scan short bias; no imminent <48h catalyst. Keep conviction low until July 14 CPI.",
+    "analyst": "Composite/structure lean short but price already >2% below VWAP with 5m RSI 21, 1h RSI 26 and %B below lower band \u2014 selling the low of an oversold grind is a bad entry; net-long 1.48 L/S + dovish headlines create squeeze fuel on any bounce. Clean short needs either a bounce to sell into (VWAP ~62,300) or a break of the 61,680 swing low; neither exists at spot, R:R doesn't clear 1.5 either way. Hold, size 0, armed trigger on a break below 61,680 toward 61,000/60,500.",
+    "portfolio": "BTC/USDT:USDT \u2014 HOLD (conf 0.34): stand aside, oversold grind offers no clean R:R; arm short on break below 61,680."
+  },
+  "timestamp": "2026-07-08T13:25:50.612970+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "action": "short",
+  "symbol": "ORCL/USDT:USDT",
+  "size": 3.0,
+  "entry": 142.4,
+  "stop_loss": 143.5,
+  "take_profit": 138.0,
+  "take_profit_1": 140.3,
+  "take_profit_2": 138.0,
+  "confidence": 0.58,
+  "playbook": "trend",
+  "forecast": "Fresh bounce off the 139.3 low carries up toward VWAP/broken-support ~142.4, rejects, then the ADX-37 downtrend resumes toward the 139.3 low and on to 138 support within the window.",
+  "expectancy_note": "p(win)~0.55, R:R ~1.9 to TP1; limit-sell the retest beats chasing the low where LTF RSI 30 / stoch 22 / %B 0.12 would get stopped by this bounce.",
+  "rationale": "Cleanest trend-short structure among mega-caps: all TFs short-aligned, ADX 37.8, structure_bias -0.31, L/S 2.52 trapped longs, rel-strength -18.7%. But price is mid-bounce off 139.3 with LTF oversold (RSI ~31, stoch 22, %B 0.12, -2.2% below VWAP), so sell the retest into VWAP ~142.4 with a tight 1.1-wide stop. Size kept small (3%) because CPI prints July 14 inside 48h, US cash is closed (thin/gappy), and squeeze-risk on the bounce is live; the limit may not fill, which is acceptable.",
+  "transcript": {
+    "macro": "MIXED, tilting risk-off intraday; US cash equities CLOSED (overnight/weekend) so tokenized perps thin/gappy. Dominant catalyst: June CPI July 14 08:30 ET (inside 48h) \u2014 hot print = risk-off/stronger DXY, cool = relief. Whole book long-crowded into weakness (L/S 1.5-2.7): continuation-short bias but live squeeze/gap risk on bounces. Reduced size; avoid carrying fresh risk through CPI. FOMC Jul 28-29 (not near-term). ORCL: L/S 2.52, OI 14.2k, bias -0.31, rel-strength -18.7% vs BTC (biggest laggard), BTC corr 0.37.",
+    "sentiment": "ORCL bearish lean, NO company-specific catalyst inside 48h. Earnings already reported Jun 10 (beat, raised FY27 EPS ~$8.05). Heavy tone: ~$140-145, -29% YTD / -35% over 30d; market punishing ~$70-95B FY27 capex, planned $40B debt/equity raise, OpenAI-concentration risk in $638B backlog (Stargate Texas shelving). Bearish AI-debt narrative is the dominant non-price driver.",
+    "analyst": "Structure is a gorgeous trend-short but the entry is wrong: price is mid-bounce off the 139.3 low with LTF RSI 30-33, stoch 22, %B 0.12, -2.2% below VWAP. Chasing the low = the account's proven loss pattern (trend-short book 45% win, -2.51 avg). Discipline: LIMIT short the retest into VWAP/broken-support ~142.4, stop 143.5 (~1.3x ATR), targets 140.3 then 138.0, R:R ~1.9. Small size into CPI + closed cash market.",
+    "portfolio": "SHORT ORCL @ limit 142.4, stop 143.5, TP 140.3/138.0, size 3%, conf 0.58 \u2014 sell the retest, don't chase the low."
+  },
+  "timestamp": "2026-07-13T02:33:11.450676+00:00"
+}

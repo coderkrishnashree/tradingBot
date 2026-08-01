@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "CL/USDT:USDT",
+  "size": 0.0,
+  "entry": 71.55,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Price is coiling 71.45-71.61 on drying volume just above the 71.43 range low; expect chop 1-3 bars, then either a break under 71.43 that opens the leg toward 70.4/67.93, or a bounce back to VWAP ~72.3. Want the break, not the coil.",
+  "expectancy_note": "Fresh short here is a chase: -2.29% below VWAP, 15m RSI 31.9 oversold, 5m flipped long, volume dying into a flat doji cluster \u2014 a routine bounce hits any honest stop (above 71.96) before the 67.93 target. R:R and p(win) both poor mid-coil; wait for the range-low break with the crowd (L/S 4.17) as fuel.",
+  "rationale": "Structure and macro are decisively bearish (ADX 67.6, all TFs short, extreme long crowding L/S 4.17, OPEC+ supply), but price has stalled just above the 71.43 range low rather than accelerating, is oversold on LTF (15m RSI 31.9, 5m flipped long), on drying volume, and carries a live Hormuz upside tail \u2014 the wrong spot to sell. The highest-expectancy move is to arm the short on a decisive loss of the 71.43 range low, targeting 67.93, rather than pay the spread into an exhaustion coil. No size until the break confirms the next leg. Reconsider trigger: price_below 71.42 within 240 min (short toward 67.93, stop back above 72.0).",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 71.42,
+    "expires_min": 240,
+    "note": "Losing the 71.43 coil low confirms the downtrend resuming and opens the leg toward 67.93 support \u2014 take the short there with stop back above 72.0."
+  },
+  "transcript": {
+    "macro": "Regime: NEUTRAL tilting risk-off. Equity tape firm but stretched; Fed hawkish (CME ~61% Sept HIKE odds, inflation 3yr high); US-Iran/Strait-of-Hormuz geopolitics live. Scan Sat 2026-07-11 07:56 UTC \u2014 US cash closed, so CRCL/MU/TSLA/QQQ perps are thin/gappy with Monday gap risk (CL trades continuously). QQQ violently overbought (RSI 84.6 4h) pinned at resistance 730.3, offer-heavy book. MU strongest momentum, no earnings risk \u2014 cleanest long but on pullbacks not chases. TSLA only positive-RS name (+1.84% vs BTC) with real bid support, but 5m blown off. CRCL high-beta, most crowded-long book (L/S 2.69) \u2014 smallest size. CL rolling over: ADX 67.6 downtrend, L/S 4.17 (squeeze-lower fuel), OPEC+ supply \u2014 short-favored with a Hormuz upside tail. Verdict: NEUTRAL, risk-off tilt; smaller size, favor MU-on-pullback / CL shorts over chasing QQQ/TSLA.",
+    "sentiment": "CRCL: OCC approved Circle National Trust (bank charter) July 10 (+~7% premarket after +12% Jul 9), USDC/stablecoin regulatory tailwind; overhang = Compass Point PT cut to $55 on Stripe 'Open USD'. No earnings until ~Aug 11. Lean BULLISH. MU: blowout fiscal Q3 ~Jun 24, guided ~$50B, popped 15% then pulled back 14-22% off high \u2014 catalyst spent, no 48h binary; Anthropic memory-supplier narrative supportive multi-quarter. Lean NEUTRAL. TSLA: Q2 earnings July 22 (EPS ~$0.47-0.48); deliveries beat (480,126, +18%) but stock trades margins/robotaxi (auto GM ex-credits the key number); overbought into the event. Lean NEUTRAL. CL: OPEC+ July 5 keeps unwinding cuts (+188k bpd Aug), UAE record output caps rallies, WTI ~$71-72 heavy; swing factor = fragile US-Iran/Hormuz ceasefire (upside tail, can spike within hours). Lean BEARISH. QQQ: +28%/3mo AI boom, call demand highest since 2007, SpaceX added Jul 7; real catalyst = June CPI July 14 + new Fed Chair Warsh testimony (hot 4.2% YoY print = downside risk); extremely overbought. Lean NEUTRAL.",
+    "analyst": "Structure and macro are decisively bearish (ADX 67.6, all TFs short, extreme long crowding L/S 4.17, OPEC+ supply), but price has stalled just above the 71.43 range low rather than accelerating, is oversold on LTF (15m RSI 31.9, 5m flipped long), on drying volume, and carries a live Hormuz upside tail \u2014 the wrong spot to sell. The highest-expectancy move is to arm the short on a decisive loss of the 71.43 range low, targeting 67.93, rather than pay the spread into an exhaustion coil. No size until the break confirms the next leg. Reconsider trigger: price_below 71.42 within 240 min (short toward 67.93, stop back above 72.0).",
+    "portfolio": "CL: HOLD (0.5) \u2014 bearish structure/macro but stalled above 71.43 into a Hormuz tail; arm the short on a range-low break."
+  },
+  "timestamp": "2026-07-11T08:01:01.935998+00:00"
+}

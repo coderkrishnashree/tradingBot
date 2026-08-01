@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "MSTR/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Rejected at 104.64 resistance (wick sold to 103.08); next few bars likely chop 102.3-104.0, a stall/pullback toward the 101-102 VWAP-cluster is more probable than an immediate clean break \u2014 no clean next move to trade.",
+  "expectancy_note": "Long chases +4.9% VWAP extension into 104.64 resistance with RSI 74-80 and p_win_learned 0.474 (losing condition) = negative expectancy; short fights ADX 66 uptrend with no crowd fuel = coin-flip. HOLD beats both.",
+  "rationale": "MSTR is stretched (%B 1.145, RSI 74-80, vwap_dist +4.9%) and just got rejected at 104.64 resistance \u2014 the exact late-continuation-into-resistance setup that has bled this account (learner p_win 0.474). It is also the highest BTC-beta name (corr 0.729) with rel_strength -1.0%, i.e. pure BTC echo, while macro and sentiment disagree on whether BTC is weak or at a 5-week high. No honest R:R exists here: a long's stop below structure is >2xATR away, and a fade fights a strong trend. Wait for a decisive break above resistance (real breakout) or a VWAP-support failure (confirmed fade). Size 0.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 104.64,
+    "expires_min": 240,
+    "note": "A clean break/close above 104.64 resistance converts this from an extended chase into a confirmed breakout-continuation with measured-move room \u2014 re-debate for a long entry on the retest."
+  },
+  "transcript": {
+    "macro": "MSTR highest BTC correlation in book (0.729) \u2014 a leveraged BTC-beta equity. Macro read: BTC weak (~$64.8k, YTD -26%), so long fights the crypto tape; RSI 74-80, vwap_dist +4.9% extended; any BTC leg-down hits MSTR ~1.5-2x. Company halted BTC buys, building $3.2B cash reserve (843,775 BTC held); reclaimed $100 on ATM-funded momentum.",
+    "sentiment": "Sources DISAGREE with macro on BTC: sentiment found BTC at a 5-week high (~$66.5k), bullish toward $67k resistance \u2014 supports MSTR near term. Company tone mixed: sold ~$216M BTC early July for preferred dividends, $8.32B Q2 digital-asset loss, but authorized up to $1B buyback; two weeks of no BTC transactions.",
+    "analyst": "Stretched (%B 1.145, RSI 74-80, +4.9% VWAP) and just rejected at 104.64 resistance \u2014 the account's #1 loss pattern (learner p_win 0.474). Highest BTC-beta with rel_strength -1.0% while sources disagree on BTC direction. No honest R:R. HOLD; reconsider on a clean break above 104.64.",
+    "portfolio": "MSTR/USDT:USDT \u2014 HOLD (conf 0.60): extended late-continuation into resistance, losing learner condition, BTC direction disputed; stay flat until a confirmed breakout."
+  },
+  "timestamp": "2026-07-21T14:59:58.710096+00:00"
+}

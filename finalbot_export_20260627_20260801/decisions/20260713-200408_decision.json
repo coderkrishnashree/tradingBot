@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "QQQ/USDT:USDT",
+  "size": 0.0,
+  "entry": 713.16,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.62,
+  "playbook": "none",
+  "forecast": "Choppy stabilization between 711.3 support and 716-718 into tomorrow's 8:30am CPI; the last three 15m bars printed a higher low (711.3) and closed at bar-high 713.16 on drying volume, signaling an oversold-bounce pause, not fresh breakdown \u2014 then CPI gaps it out of the range.",
+  "expectancy_note": "No side clears 1.5R: shorting RSI-19/stoch-10 stretched tape is the account's proven loser (trend p=0.45, -2.51 avg; high_adx -1.93), and a 0.45% ATR stop cannot survive a CPI gap in either direction \u2014 flat is the +EV play.",
+  "rationale": "QQQ is the pure CPI/rates proxy and June CPI lands tomorrow 8:30am ET \u2014 a binary that can gap this multiple ATRs, so any 1-1.5R stop is coinflip roulette. Technically it's a strong downtrend (ADX 77.5) but deeply oversold (RSI 19, %B below band) with the 5m already flat/bouncing and volume drying into a higher low at 711.3 \u2014 a chase-short into that is exactly the late-into-stretched-tape pattern that has bled this book. Size zero; wait for the print to resolve the trend.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 698.42,
+    "expires_min": 240,
+    "note": "Losing the 698.42 support on a hold confirms post-CPI downtrend resumption with clean room to the next leg \u2014 the only setup that justifies a fresh short with real R:R."
+  },
+  "transcript": {
+    "macro": "Regime: risk-off/mixed. Hawkish-Fed tape \u2014 US CPI at 3yr high on energy (US-Iran), Fed (Warsh) prolonged pause with live HIKE risk H2 2026 (~58% odds Sept hike); strong USD, headwind for long-duration tech. June CPI + Warsh testimony Tue Jul 14 8:30am ET = gappy 24-48h risk. QQQ rate-sensitive, rolling over \u2014 blended -0.29, RSI 19, ADX 77.5, orderbook -0.70; leans short-friendly but fighting last week's chip-led bounce. Regime call: risk-off/mixed, size smaller into CPI.",
+    "sentiment": "ONE tradable catalyst: US June CPI Tue Jul 14 8:30am ET (+ Warsh). ~58% odds Sept hike; hot=risk-off, soft=relief. QQQ neutral, pure CPI proxy \u2014 no idiosyncratic catalyst, this IS the CPI/rates trade; ~712 on Jul 13 down from ~725 prior close (red day); big-tech earnings wave starts late July; direction into Wed = what the 8:30am print does to Sept-hike odds.",
+    "analyst": "QQQ last 713.16; pure CPI/rates proxy with June CPI tomorrow 8:30am ET able to gap it multiple ATRs \u2014 any 0.45% ATR / 1-1.5R stop is coin-flip roulette. Strong downtrend (ADX 77.5) but deeply oversold (RSI 19, %B<0) with 5m flat/bouncing and volume drying into a higher low at 711.3 \u2014 a chase-short is the late-into-stretched-tape loser (trend -2.51, high_adx -1.93). HOLD, size 0; short only on a clean loss of 698.42 support post-CPI.",
+    "portfolio": "QQQ \u2014 HOLD (conf 0.62): pure CPI binary; no stop survives the gap, stand aside."
+  },
+  "timestamp": "2026-07-13T20:04:08.691435+00:00"
+}

@@ -1,0 +1,21 @@
+{
+  "action": "short",
+  "symbol": "CRCL/USDT:USDT",
+  "size": 2.2,
+  "entry": 67.8,
+  "stop_loss": 71.2,
+  "take_profit": 59.5,
+  "take_profit_1": 62.0,
+  "take_profit_2": 59.5,
+  "confidence": 0.6,
+  "playbook": "trend",
+  "expectancy_note": "p(win)~0.58, R:R~2.4 on tp2 (8.3 reward vs 3.4 risk); trend-continuation short beats fading a downtrend or waiting - ADX 39.5 down, crowded L/S 2.62 fuels squeeze, RS -11.97% laggard.",
+  "rationale": "CRCL is the book's cleanest short: strong down-regime (ADX 39.5, 1h/4h scores -0.64/-0.48), bearish divergence, below VWAP (-1.64%), extreme crowded longs (L/S 2.62, structure long_short maxed -1.0) and worst RS (-11.97% vs BTC) with Open USD competitive overhang. I sell into the live intraday bounce (15m +0.37, 5m RSI 63.7) at 67.8 rather than chase the 66.1 low, so the stop (71.2, ~1.8x ATR above structure) survives noise while TP1 62.0 sits above hard support 61.07 (Ark bid zone) and TP2 59.5 rides a support break. Size trimmed to 2.2% for the 4.17% BB-width volatility and elevated bounce risk from Ark buying.",
+  "transcript": {
+    "macro": "Broad risk SUPPORTIVE for equity longs generally, but CRCL is the most SUPPORTIVE-for-a-SHORT name: laggard (RS -11.97% vs BTC), most crowded long (L/S 2.62 extreme), bearish structure/divergence -- cleanest short but HIGHEST vol (ATR 4.17%). Higher BTC beta ~0.62 so soft BTC tape adds downside sympathy. Rates/USD CAUTION. No FOMC/CPI/earnings inside 48h.",
+    "sentiment": "Concrete shock: CRCL crashed ~17% July 1 after Stripe/Visa/BlackRock launched an 'Open USD' stablecoin rival. Compass Point upgraded to Neutral from Sell but cut PT to $55 from $97 -- competitive threat is the dominant, bearish driver. Partial offsets in tape: Nomura instant-FX partnership (~2027), Ark bought ~$18M near $62 July 1. Watch (NOT in 48h): possible Circle-Coinbase USDC renewal in August. Net: bearish but stabilizing; Open USD overhang argues short, but bounce risk elevated.",
+    "analyst": "CRCL 66.11: ADX 39.5 strong down-regime (1h -0.644, 4h -0.478), RSI 42.9/stoch 41.6 (not oversold, room to fall), %B 0.053, vwap -1.64%, bearish divergence, support 61.07 / resistance 76.66, L/S 2.62 (structure long_short maxed -1.0), RS -11.97%, btc_corr 0.615. Live short-term bounce (15m +0.373, 5m RSI 63.7) so sell the retrace, not the low: SHORT limit 67.8, stop 71.2 (~1.8x ATR above structure), TP1 62.0 (above hard support / Ark bid), TP2 59.5 (support break). R:R~2.4 on TP2. Size 2.2% for 4.17% BB-width vol + Ark bounce risk.",
+    "portfolio": "CRCL -> SHORT (conf 0.60): trend-continuation short, entry 67.8 / stop 71.2 / TP 62.0-59.5, size 2.2%."
+  },
+  "timestamp": "2026-07-06T14:31:35.645285+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "INTC/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.68,
+  "playbook": "none",
+  "forecast": "Overnight (US cash closed, thin): chop 105.2-108.5 with sellers stacked; the 108.5 spike high just rejected and price bled to 106.2 on weak closes, so base case is a drift/fade toward 105.2-104.6 rather than a clean breakout. No honest directional edge before Thursday's ~15% earnings binary.",
+  "expectancy_note": "Long = chasing RSI 89 / +6.8% above VWAP into stacked sell-side orderbook (bounce stops it out); short = fading ADX-96 red-hot uptrend one day before a 15% binary. Both negative-expectancy; HOLD avoids the coin-flip.",
+  "rationale": "INTC is maximally extended (RSI 89.3, ADX 96, %b 0.94, +6.83% above VWAP) with offside positioning (long/short 1.70 crowded long, orderbook -0.41 sellers stacked) and a 5m already flipped short off a failed 108.5 spike. A ~15% implied earnings binary sits Thursday inside the 48h horizon, so any directional trade risks being trapped into the print. Thin overnight token (US closed) adds gap risk. No entry offers R:R >= 1.5 with an honest stop, so flat is the highest-expectancy position.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 108.5,
+    "expires_min": 240,
+    "note": "A volume-backed reclaim and hold above the rejected 108.5 spike high would clear the stacked sellers and reopen a momentum-long debate; until then extended tape favors doing nothing into earnings."
+  },
+  "transcript": {
+    "macro": "Regime RISK-ON but capped by live US-Iran oil shock, firm DXY, rising yields. INTC: AVOID / EVENT-BLOCKED. Intel reports Q2 earnings THURSDAY JULY 23 after US close - INSIDE the 48h horizon. Stock +163% YTD, jumped ~8% Tue on Xeon/Google Cloud/18A catalysts, now RSI 89.3, ADX 96, %b 0.94, bb_width 18% extreme, price 106.2 near resistance 115.46. Options pricing ~12-15% post-earnings swing. Structure bias -0.33: L/S 1.70 crowded long, orderbook -0.41 sellers stacked. Composite aligned=false. No new hours-to-days exposure into the event.",
+    "sentiment": "INTC POSITIVE momentum but binary earnings ~24h out (Jul 23 after close, consensus ~$14.4B rev / $0.10 EPS), options imply ~15% move (above ~12% historical avg). Red-hot (+163% YTD) on 18A ramp, Apple/Amazon foundry wins, fresh $10B cost-cut layoffs (Jul 20-21). Tone bullish but STRETCHED; holding through earnings is a coin-flip, not a trend trade.",
+    "analyst": "Blow-off spike to 108.5 immediately rejected, stair-stepped to 106.2 on weak closes; 5m already flipped short (RSI 23.2). Price +6.83% above VWAP into stacked sellers - a long chases exhaustion, a short fades an ADX-96 uptrend one day before a ~15% binary. Neither has honest edge; the earnings binary alone disqualifies directional risk held into Thursday. HOLD; only a volume-backed reclaim above 108.5 reopens a momentum long.",
+    "portfolio": "HOLD INTC - event-blocked (~15% earnings binary Jul 23) + maximally extended; conf 0.68."
+  },
+  "timestamp": "2026-07-22T01:32:25.580408+00:00"
+}

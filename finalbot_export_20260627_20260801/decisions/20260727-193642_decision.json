@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "CRCL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Price just ramped +2% off 63.5 into the upper Bollinger band (bb%b 1.009), closing at highs with 5m RSI 81.6 and a fresh bearish 4h divergence; expect a stall/mean-revert back toward the 63.2-63.5 VWAP shelf over the next 2-5 bars rather than clean continuation from here.",
+  "expectancy_note": "No edge either way: long here is chasing an extended move at the top of its range (bad R:R, no nearby support), and shorts are this account's proven money-loser (44% win, -1.02 avg) especially late shorts into stretched momentum. Best expectancy = wait for a pullback to VWAP to buy the account's winning long edge (60% win).",
+  "rationale": "CRCL is a tokenized equity so the 3.143 long/short is not decisive, but the technical picture is a parabolic close into the upper band with bearish divergence and vwap_dist +2.95% \u2014 the exact 'entering continuation after the move' trap that killed prior trades. There is no structural level within ~1 ATR to anchor a stop (support 60.11 / resistance 72.66 are both far), so any entry now is wide-stop-mid-air. FOMC Wed adds beta/gap risk. Stand aside and let it come back to a level.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 63.2,
+    "expires_min": 240,
+    "note": "A pullback to the 63.2 VWAP/consolidation shelf would offer a proper trend-continuation long entry with a tight stop under 62.7 (the account's winning long edge), instead of chasing the stretched top."
+  },
+  "transcript": {
+    "macro": "Risk-off crypto, wobbly equities. FOMC Wed Jul 29. Tokenized equities thin/gappy outside US hours. CRCL (Circle): price ~$64.87, highest-caution name. Scan carries explicit BEARISH DIVERGENCE flag; RSI 65.1, bb_pctb 1.009 (pinned to upper band), vwap_dist +2.95%, ADX 64.5 \u2014 parabolic/overextended. L/S 3.143 \u2014 most crowded-long book in the entire scan \u2192 sharpest contrarian long-squeeze risk. atr_pct 1.67 (most volatile equity here). btc_corr 0.46. Reduce size hard.",
+    "sentiment": "CRCL bullish, momentum-heavy, but stretched. Fresh positive: OCC final approval for Circle National Trust Jul 20 drove stock +8-13% (real recent regulatory win). BUT earnings Aug 5 (outside 48h window). Trades as high-beta crypto/COIN proxy. Momentum COOLING after the OCC pop. News is stale-positive; risk is a pullback/mean-revert + Fed beta.",
+    "analyst": "CRCL is a tokenized equity so the 3.143 L/S isn't decisive, but the picture is a parabolic close into the upper band with a fresh bearish 4h divergence, vwap_dist +2.95%, 5m RSI 81.6 \u2014 the 'chase after the move' trap that killed prior trades. No structural level within ~1 ATR to anchor a stop (support 60.11 / resistance 72.66 both far), so any entry is wide-stop-mid-air. Shorts are the account's proven loser and momentum is still up on LTF. FOMC beta/gap risk. Stand aside; wait for a pullback to the 63.2 VWAP shelf for a proper long.",
+    "portfolio": "HOLD CRCL/USDT \u2014 parabolic/overextended with bearish divergence; armed a pullback-long reconsider at 63.2."
+  },
+  "timestamp": "2026-07-27T19:36:42.796675+00:00"
+}

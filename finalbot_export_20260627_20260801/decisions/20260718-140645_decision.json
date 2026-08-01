@@ -1,0 +1,29 @@
+{
+  "action": "hold",
+  "symbol": "CRCL/USDT:USDT",
+  "size": 0.0,
+  "entry": 60.79,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "leverage": 1,
+  "playbook": "none",
+  "forecast": "Thin weekend coil 60.6-60.95 likely drifts sideways into the close; a probe of 58.76 support or a reclaim of the 61.9 VWAP zone is what resolves it, but not tradeable in this dead tape.",
+  "expectancy_note": "Neither side clears R:R: short fights bullish 4h divergence + oversold RSI 24 (account shorts avg -0.87 PnL over 36 trades); long fights broken narrative + unmanageable Monday gap risk. HOLD is highest expectancy.",
+  "rationale": "CRCL is coiling mid-air at 60.79 in a low-volume weekend tape with US equity markets closed til Monday, so any perp move is thin, gappy and mean-reverting with unmanageable overnight gap risk. The bearish structure (L/S 2.66, offer-heavy, RS -25%) argues short, but 4h RSI 24.3 with a bullish divergence flag and a bouncing 1h/15m means a short here is a late entry into a stretched, oversold name right above 58.76 support \u2014 the exact pattern that has bled this account (shorts 0.47 win, -0.87 avg over 36 trades). No clean level to lean on either direction, so no valid R:R; wait.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 58.6,
+    "expires_min": 240,
+    "note": "Losing the 58.76 4h support on volume invalidates the oversold-bounce/divergence read and opens the crowded-long flush toward 52-wk lows \u2014 a clean short trigger."
+  },
+  "transcript": {
+    "macro": "Regime HOSTILE-to-MIXED, risk-off thin weekend tape. US equities CLOSED til Monday \u2014 tokenized perps thin/gappy/mean-reverting; Monday gap risk unmanageable. CRCL: L/S 2.66 most crowded-long (contrarian bearish), structure_bias -0.32 most negative in set, orderbook offer-heavy, OI 66,865 largest. RS -25.5% (worst performer). 4h RSI 24.3 though 15m/1h show weak bounce + bullish divergence. Underlying down ~68% YoY, hit by OpenUSD (Coinbase/BlackRock) competition. Backdrop favors short; longs fight everything.",
+    "sentiment": "Most headline-active. Earnings ~Aug 10 (far off). Mixed flow: POSITIVE \u2014 federal bank charter approval, ARK bought 220k Jul 14, Nomura Japan FX-settlement deal, possible Coinbase/USDC renewal in Aug; NEGATIVE \u2014 Mizuho downgrade to Underperform (PT $85->$50), Stripe + OUSD threat. RS worst in book. Near-term NEUTRAL 24-48h \u2014 tug-of-war of multi-week narratives, noise for short-horizon.",
+    "analyst": "Crowded-long broken name is a structural short, but oversold-with-divergence (4h RSI 24) into thin weekend tape just above 58.76 support offers no honest entry, and account shorts bleed (-0.87 avg over 36). A long has no catalyst against Monday gap risk. No clean level to lean on \u2014 HOLD; re-debate on a coil break.",
+    "portfolio": "CRCL: HOLD (0.60) \u2014 structural short but oversold/divergent above support in dead tape; flat, short trigger below 58.6."
+  },
+  "timestamp": "2026-07-18T14:06:45.371583+00:00"
+}

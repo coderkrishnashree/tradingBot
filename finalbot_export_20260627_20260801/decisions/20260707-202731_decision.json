@@ -1,0 +1,28 @@
+{
+  "symbol": "HOOD/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.5,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "none",
+  "forecast": "Price is in an orderly 15m bleed from ~116 to 112.6, but the last bar is a tiny doji at the low on collapsing volume (18 vs 200-500 prior) with 15m RSI 22 / stoch 17 \u2014 near-term exhausted. Expect a small bounce/chop between 112.6 and 114 over the next few bars rather than a clean continuation; a decisive break of 112.57 on volume opens 110 then 108.",
+  "expectancy_note": "Fresh short here chases a move already -2.49% below VWAP into 15m-oversold with drying volume; next real support is far (99), so R:R is poor. No long in a RISK-OFF tape. HOLD has the best expectancy until the 112.57 low breaks or 114 reclaims.",
+  "rationale": "The 'bullish/overbought RSI~70' notes are stale \u2014 HOOD has fully unwound the July-6 pop and is now bleeding down every bar (LH/LL, closing near lows), so a long is wrong. But the fresh short is also low-quality: price is already extended below VWAP, 15m RSI 22 and the final doji on collapsing volume signal near-term seller exhaustion, and there is no nearby target (support 99, far). Hostile RISK-OFF macro and COIN-0.81 correlation favor the short side structurally, so arm a re-entry on a clean break of the intraday low rather than chasing here. Size 0 until the level resolves.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 112.57,
+    "expires_min": 180,
+    "note": "Losing the intraday low on real volume proves the bleed is resuming, not exhausting \u2014 trigger a with-trend, macro-aligned short toward 110/108."
+  },
+  "transcript": {
+    "macro": "RISK-OFF, hostile to fresh longs. BTC ~$64k +6.3% on short-covering, Fear&Greed=23, fragile bounce. Biggest cross-book risk = BTC short-squeeze reversal (hits COIN/MSTR/HOOD together). Fed minutes this week. HOOD: corr BTC 0.62, corr COIN 0.81; crypto-beta + retail-flow equity exposed to both tech risk-off and the fragile BTC bounce. High-beta risk-on proxy \u2014 hostile tape argues short-lean / smaller size.",
+    "sentiment": "HOOD BULLISH momentum but stretched; earnings OUT of window (July 29). Closed ~$117.55 +4.3% July 6 on concrete catalysts (Robinhood Chain L2 mainnet, Earn up to 7% APY on USDG, tokenization/perps roadmap). RSI ~70 into earnings (note now stale). Tightly correlated COIN 0.81, BTC 0.62. News tape argues against a fresh short; a short only works as a crypto-beta/overbought fade.",
+    "analyst": "The bullish/RSI~70 notes are STALE \u2014 HOOD unwound the July-6 pop and is now bleeding every bar (LH/LL). Long is wrong. But fresh short is low-quality too: -2.49% below VWAP, 15m RSI 22, final doji on collapsing volume = near-term exhaustion, next support far (99). Structure favors short; arm re-entry on a clean break of 112.57. HOLD, size 0.",
+    "portfolio": "HOLD HOOD \u2014 momentum has rolled over but short entry is exhausted; short a break of 112.57."
+  },
+  "timestamp": "2026-07-07T20:27:31.163771+00:00"
+}

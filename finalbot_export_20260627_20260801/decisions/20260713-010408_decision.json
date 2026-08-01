@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "MU/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.3,
+  "playbook": "none",
+  "forecast": "Price is flushing to fresh session lows (960.5) with 1h RSI 23 and stoch pinned at 2 right after a +22pt squeeze to 990 an hour ago; next few bars most likely a mean-reverting bounce back toward VWAP/977-980, not clean continuation. No edge to short the low or catch the knife until it either reclaims 977 or loses 960.5 on volume.",
+  "expectancy_note": "Composite 2.2% (flat), structure_bias +0.02 with bid imbalance +0.50 = buyers absorbing; shorting stoch-2/RSI-23 into a fresh flush = the account's #1 loser (late short bounced out), R:R negative. HOLD beats both a chase-short and a knife-catch.",
+  "rationale": "MU is the washed-out epicenter of the memory selloff but the intraday move is stretched: RSI 1h 22.9, stoch 2.1, %B below the band, 1.7% under VWAP, right after a violent +22pt squeeze that got faded. Structure_bias is net positive (+0.02) with a heavy +0.50 bid imbalance, so a fresh short at 961 gets bounced before any continuation, and there is no reclaim yet to justify a long into a confirmed bear-market/CPI-in-48h tape. Composite confidence is 2.2% - no directional edge - and the learner shows late trend-shorts losing (-2.87 avg), so the highest-expectancy action is to stand aside and wait for the level to resolve.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 977.5,
+    "expires_min": 240,
+    "note": "Reclaiming the broken 977 shelf / VWAP would prove the flush is exhausted and buyers have regained control, flipping the intraday bias to a long-bounce toward 990; failing there keeps the short-fade alive."
+  },
+  "transcript": {
+    "macro": "REGIME: RISK-OFF / HAWKISH \u2014 tilts SHORT. New Fed Chair Warsh held rates but flagged rising HIKE odds (~61% Sept hike priced); firm USD/yields, rising oil, US-Iran tension. Headwind for long-duration equities (big-tech/semis) and precious metals. All target names are equity/commodity-tracking perps (low BTC corr) \u2014 judge as equities/commodities, not crypto. CRITICAL EVENT RISK inside 48h: June CPI ~July 14-15 coincides with Q2 bank-earnings kickoff (JPM/BofA/Citi/Wells/GS before open Jul 14) = binary vol cluster; reduce/flat size into Jul 14 US cash open. Tokenized equities are thin/gappy off US hours \u2014 treat overnight moves skeptically. Per-theme: Big-tech/Nasdaq (GOOGL,QQQ) neutral-to-SHORT, Nasdaq rolling over into CPI; GOOGL long-crowded (L/S 2.02, squeeze risk). Semis/memory (TSM,MU,INTC,SNDK) SHORT-favorable but LATE/squeeze-prone \u2014 memory just entered bear market after Samsung Jul-7 selloff, still up huge YTD so crowded/violent bounces; TSM/MU/INTC/SNDK/EWY are effectively ONE correlated memory-beta trade, do not stack. Korea (EWY) short-leaning memory-proxy (~47% Samsung/SK Hynix), redundant with semis. Silver (XAG) SHORT bias but EXTREMELY oversold (RSI 24, ADX 85, long-crowded 3.33) \u2014 sell rallies toward $60, don't chase lows. Bottom line: environment broadly SHORT-friendly but crowded/oversold on several names and sitting in front of the CPI+earnings cluster \u2014 longs unsupported, reduce size, flat-or-hedged into Jul 14.",
+    "sentiment": "OVERALL TECH/SEMI: RISK-OFF / FRAGILE. Dominant force is a sharp semiconductor selloff that started ~Jul 2 on a Samsung earnings AI miss + SK Hynix HBM-slowdown reports, extended on valuation fears + a hawkish Fed (Warsh). Worst day: Nasdaq -2.2%, SMH -5%, MU -13%, INTC -9%, AMD -7% \u2014 broad de-risk of the AI/memory trade after a parabolic H1; supports short bias on TSM/MU/EWY/QQQ/INTC/SNDK. Biggest scheduled catalyst: TSM Q2 earnings July 16 pre-market (sector-wide binary; ~3 days out, just OUTSIDE 48h horizon but the key event risk if size is carried). Per-name: GOOGL \u2014 not part of chip selloff, earnings Jul 22 (OUT of window), DOJ antitrust overhang is multi-month; near-term NEUTRAL, trades on Nasdaq beta. MU \u2014 epicenter, -22% off highs despite record Q3/HBM sold out through 2027/Anthropic deal; pure momentum/valuation unwind, snap-back risk. SNDK \u2014 best S&P 500 stock 2026 (+707% YTD); bull narrative intact (Goldman PT $2,200) but LOW-weight long-horizon notes; high-beta NAND proxy vulnerable to de-risk. INTC \u2014 -21% in 7 days on 18A yield-delay + AMD overtaking data-center; earnings Jul 23 (OUT of window). EWY \u2014 ~47% SK Hynix+Samsung, Kospi -4.91% Jul 7 (Samsung -9%, SK Hynix -14.6%); SK Hynix ADRs began Nasdaq trading Jul 10. QQQ \u2014 aggregate semi weakness + hawkish Fed, biased weak. XAG \u2014 silver collapsed ~$121\u2192$58-59 (halved in 6mo) on hawkish-Fed repricing; bullish structural story is long-horizon; near-term Fed/DXY-driven, deeply oversold. Oversold across MU/INTC/XAG/EWY/SNDK means shorts must respect snapback risk.",
+    "analyst": "Washed-out epicenter of the memory selloff but intraday stretched: 1h RSI 22.9, stoch 2.1, %B below band, 1.7% under VWAP, right after a violent +22pt squeeze to 990 that got faded. Structure_bias +0.02 with +0.50 bid imbalance = buyers absorbing, so a short at 961 gets bounced; no reclaim to justify a long into a bear-market/CPI-<48h tape. Composite 2.2% = no edge. HOLD; re-debate on a reclaim above 977.5.",
+    "portfolio": "HOLD MU - near-zero signal, oversold with buyers absorbing after a squeeze; no edge either way, armed above 977.5."
+  },
+  "timestamp": "2026-07-13T01:04:08.439513+00:00"
+}

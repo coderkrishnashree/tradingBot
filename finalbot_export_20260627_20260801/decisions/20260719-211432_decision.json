@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "COIN/USDT:USDT",
+  "size": 0.0,
+  "entry": 158.82,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.55,
+  "playbook": "none",
+  "forecast": "Thin Sunday tape chops 158.0-159.0 on near-zero volume into Monday cash open; last upticks to 158.82 are 0.15-vol noise, not demand. Expect continued drift/coil until real US equity flow returns, with genuine direction set by the Monday-open gap.",
+  "expectancy_note": "No valid R:R: RSI 72 overbought at VWAP (no clean pullback), resistance 168.65 far vs support 152.88 near; long would be chasing into thin gappy tape. p(win) too low to size; HOLD is highest-expectancy.",
+  "rationale": "COIN is an equity proxy and US cash markets are CLOSED (Sunday 21:07 UTC) \u2014 the perp trades thin/gappy off Friday's stale reference with near-zero real volume and Monday-open gap risk. Price sits right at VWAP with 4h RSI 72 overbought, so there is no discounted continuation entry and no clean level to fade; the recent upticks are sub-3-contract noise. LSR 0.772 hints at squeeze fuel but that only pays with a confirmed volume break, which the tape does not yet show. Standing aside preserves capital in a low-conviction session where the account's history shows chasing extended moves is the top loss pattern.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 159.0,
+    "expires_min": 240,
+    "note": "A volume-backed break above the 158.97-159.0 congestion high proves real demand returning and would trigger a long re-debate toward 162+; below this it is just thin-tape noise."
+  },
+  "transcript": {
+    "macro": "REGIME: RISK-OFF/cautious. Friday equity selloff on semiconductor rout + Middle East risk. Crypto soft: BTC ~$64.5k, dominance ~56-59% (alts pressured). CRITICAL: Sunday 21:07 UTC \u2014 US cash equities CLOSED; COIN perp thin/gappy off Friday stale reference; low-conviction. COIN: high BTC-beta (corr 0.64), crypto proxy \u2014 soft BTC caps upside.",
+    "sentiment": "COIN \u2014 Mixed, momentum-positive. Rallied ~19% mid-July on cost cuts (14% layoffs ~$500M) + 'System Update' product event (tokenized stocks, options). Offset by weak prior quarter (EBITDA miss, rev -31% YoY). No dated <=48h catalyst. Lean cautiously bullish on flow but watch overbought RSI 72.",
+    "analyst": "Price at VWAP (+0.24%), 4h RSI 72 overbought, ADX 53.5; upticks to 158.82 on sub-3-contract volume = noise. Resistance 168.65 far, support 152.88 nearer \u2192 no discounted entry, no clean fade. LSR 0.772 hints squeeze fuel but needs a confirmed volume break >159.0. Chasing is the account's #1 loss pattern. HOLD.",
+    "portfolio": "HOLD COIN \u2014 overbought at VWAP on thin tape; long only on a volume break above 159.0."
+  },
+  "timestamp": "2026-07-19T21:14:32.264925+00:00"
+}

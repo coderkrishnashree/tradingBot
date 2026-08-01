@@ -1,0 +1,19 @@
+{
+  "action": "hold",
+  "symbol": "NVDA/USDT:USDT",
+  "confidence": 0.35,
+  "size": 0.0,
+  "entry": 196.31,
+  "stop_loss": 200.5,
+  "take_profit": 193.8,
+  "playbook": "none",
+  "expectancy_note": "Short is directionally right but entry at 196.3 sits only ~1.3% above support 193.8 while a sane stop is >200 (~2%): reward:risk <1:1 into a 1d-oversold (RSI 24) level with squeeze risk and thin off-hours tape \u2014 negative expectancy on a fresh short here.",
+  "rationale": "Trend is unambiguously down (ADX 73, 1h/30m/1d short, LSR 2.295 crowded longs, sector-wide semi weakness, bearish catalysts) but price is jammed against support 193.8 with 1d RSI 24.2 deeply oversold and the 4h already flipped flat (RSI 52.9, MACD positive) \u2014 momentum is exhausting into the level. Chasing a short here risks the exact violent squeeze the one-sided long positioning sets up, and US cash market is closed (09:01 UTC) so the tokenized perp is gappy. The high-expectancy play is to sell strength on a bounce toward 199-200 (resistance/VWAP reclaim) with a stop above 200.5, not to short 2.5 points above support into oversold; no size until that setup appears.",
+  "transcript": {
+    "macro": "Regime late-cycle risk-on but hawkish/fragile: S&P ~7,420 near ATH, Fed (Warsh) hawkish leaning 1-2 hikes 2026, Goldman Risk Appetite 99th pctile (crowded, mean-reversion risk). NVDA trades as equity (btc_corr 0.336); tokenized perp thin/gappy off US hours. Derivatives skew short-supportive but contrarian: structure_bias -0.363 from long_short_ratio 2.295 (crowded longs), funding mildly positive. OI modest, last 196.31, RSI 30.2, on support 193.8 vs resistance 200.0; ADX 73 strong downtrend but 1d RSI 24.2 oversold. Sector-wide semi weakness (TSM/MU/SNDK/INTC/QQQ all short) confirms direction but crowded. Next earnings Aug 26 (~8 wks out). Verdict: MIXED, short-supportive but LATE \u2014 prefer shorting strength toward 200, reduced size.",
+    "sentiment": "Broadly bearish short-term (argues for short): NVDA ~$197, down ~17-18% in 2026, multi-week downtrend. Freshest driver: B200 GPU rental prices collapsed ~31% (supply catching demand). China export controls active headwind (DC China rev ~zero; loophole close for Rubin/Blackwell; $5.5-16B headwind). Michael Burry publicly short (AI-bubble/'clearly Cisco'), NVDA issued rebuttal memo. Insider selling ~$410M/3mo. Counterweight/short risk: Wall St overwhelmingly bullish (36-37/38 Buy, PT ~$299-302), daily RSI ~24 oversold \u2192 violent squeeze risk. Earnings ~8 wks out, no imminent binary. Net: news leans FOR short over multi-day horizon but crowded/squeeze-prone; size and stops matter.",
+    "analyst": "Scan confirms NVDA 196.31 between support 193.8 and resistance 200.0, RSI 30.2 (1d 24.2 deeply oversold), 4h flipped flat (RSI 52.9, MACD +0.287) \u2014 shortest-term momentum exhausting into support. Direction is genuinely short (ADX 73, multi-TF down, crowded longs, bearish catalysts, sector confirmation) but entry is poor: only ~1.3% above support while a sane stop is >200 (~2%) = sub-1:1 R:R into an oversold level with squeeze risk and thin off-hours tape. No entry meets the R:R bar. HOLD; re-engage by shorting strength on a bounce to ~199-200 with stop above 200.5.",
+    "portfolio": "NVDA/USDT:USDT \u2192 HOLD (conf 0.35, size 0.0): short is directionally right but a fresh entry here is negative-expectancy; wait to sell strength toward 200."
+  },
+  "timestamp": "2026-07-02T09:04:32.157675+00:00"
+}

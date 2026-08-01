@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "ORCL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Frozen/illiquid quote pinned 115.1-115.4 on near-zero volume; no directional impulse. Expect chop-drift until 113.0 support breaks (opens a fresh down-leg) OR an oversold bounce reclaims toward VWAP ~120.",
+  "expectancy_note": "Short = chasing RSI21/4h-RSI21 into support 113 (learner p_win 0.39, account's #1 loss pattern); long = knife-catch vs ADX47 downtrend, no divergence/trigger. Both negative expectancy \u2014 HOLD wins.",
+  "rationale": "ORCL is deeply oversold (RSI 21, stoch 17, -4.27% below VWAP) sitting ~2% above support 113.0 with a strong ADX 47 downtrend and crowded longs (L/S 2.21) plus tiny OI \u2014 a shove-and-squeeze setup where a routine bounce stops a late short and the downtrend stops a fresh long. Recent 15m candles are effectively frozen (sub-40u volume, 0.3% range), so there is no concrete next move to trade. No entry offers R:R >= 1.5 with an honest stop; highest-expectancy action is to wait for the level that resolves it.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 113.0,
+    "expires_min": 360,
+    "note": "A decisive break of support 113.0 confirms trend continuation with fresh downside room, turning crowded longs into fuel \u2014 a clean short entry, unlike chasing mid-air here."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF/defensive, AI-capex-bleed + sticky inflation, fade-strength tape favors shorts. ORCL $115: same AI-capex-bleed narrative (-4.3% on 7/24, $56B capex / -$24B FCF). L/S 2.21 (crowded long), ADX 47.3, RSI 21 (deeply oversold), structure_bias -0.33. Macro supports SHORT directionally BUT RSI 21 + tiny OI (24k) = high bounce risk \u2014 SIZE DOWN.",
+    "sentiment": "ORCL NEUTRAL-to-BEARISH: NO near-term catalyst \u2014 next earnings Sep 14 (outside window). Longer-horizon: debt-funded AI datacenter buildout (~$90-95B capex), 400MW delivered Q2, Jul 1 warning on datacenter delays/cost overruns + 13% workforce cut. Slow-burn overhang leans mildly WITH a short, not a 48h mover.",
+    "analyst": "Directionally short-aligned (ADX 47 downtrend, crowded longs L/S 2.21, structure_bias -0.33, weakest RS -21%) BUT deeply oversold (RSI 21, -4.27% vs VWAP) ~2% above support 113 \u2014 shorting is the account's #1 loss pattern (learner p_win 0.39), longing is a knife-catch vs strong downtrend with no trigger. 15m candles frozen (sub-40u vol). No R:R>=1.5 entry \u2014 HOLD; wait for a break of 113.0.",
+    "portfolio": "ORCL/USDT:USDT \u2014 HOLD (conf 0.60): no clean edge in frozen oversold tape; wait for break of 113.0 support."
+  },
+  "timestamp": "2026-07-25T17:04:07.114679+00:00"
+}

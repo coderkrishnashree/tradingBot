@@ -1,0 +1,28 @@
+{
+  "action": "short",
+  "symbol": "MU/USDT:USDT",
+  "size": 4.0,
+  "entry": 867.5,
+  "stop_loss": 876.5,
+  "take_profit": 835.0,
+  "take_profit_1": 848.0,
+  "take_profit_2": 835.0,
+  "confidence": 0.6,
+  "playbook": "trend",
+  "forecast": "Dead-cat bounce off the 847 washout is stalling at 858-863 under the broken 869-874 shelf; expect one more push to retest 867-870, rejection there, then roll back to 848 and toward 835 within the next 4-8 bars.",
+  "expectancy_note": "p(win)~0.6, R:R 2.5 to TP1 (risk 9 / reward 19.5) and 3.6 to TP2; sell-the-retest beats chasing the fade mid-range and beats a long into -34% RS + orderbook -0.889 in a falling chip sector.",
+  "rationale": "MU is the weakest name in the book (RS -34%), in the dominant semi/AI-capex unwind, with a crushing orderbook imbalance (-0.889) and long-crowding (L/S 2.071) as downside fuel; the recent tape shows a rejected spike to 881, a washout to 847, and a tiring bounce that cannot reclaim 869-874. A market short here mid-range is not chasing but R:R is thin, so I use a LIMIT at the 867-870 broken-shelf retest with an honest stop at 876.5 (above the 874 lower-high, below the 881 spike wick) targeting the 848 low then 835. The bullish divergence and strong fundamentals are why I keep size moderate at 4% rather than pressing harder.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 847.0,
+    "expires_min": 240,
+    "note": "A break of the 847 washout low without first retesting 867 confirms continuation and can be shorted on the breakdown instead of the retest."
+  },
+  "transcript": {
+    "macro": "MIXED-to-CAUTIOUS. Semiconductor/AI-capex unwind is the dominant equity theme; MU is memory/semi, rel-strength -34.3% (weakest name in book vs BTC), orderbook imbalance -0.889 and L/S 2.071 - heavily long-crowded into a FALLING sector. High squeeze/washout risk; longs most exposed to the chip theme, shorts have momentum. FOMC 7/28-29 overhang; scan on thin overnight book.",
+    "sentiment": "MU blowout Q3 (reported 6/24: rev +300% y/y, Q4 guide ~$50B, HBM sold out through 2026, Anthropic deal) BUT stock -14% past week / -16% past month on TSMC-capex worries, China CXMT IPO, HBM export-control chatter. No <=48h binary. 'Great fundamentals, ugly tape.'",
+    "analyst": "Weakest name in book (RS -34%), in the semi unwind, orderbook -0.889 (real sellers) and L/S 2.071 (downside fuel). Tape: rejected spike to 881, washout to 847, tiring bounce that cannot reclaim the broken 869-874 shelf, last bars flat/rolling over ~858. Market short mid-range has thin R:R, so LIMIT short at 867-870 retest, stop 876.5 (above 874 lower-high, below 881 wick), TP1 848 / TP2 835 = R:R 2.5-3.6. Size kept moderate at 4% because the bullish divergence + strong fundamentals cap conviction.",
+    "portfolio": "SHORT MU - sell the retest of the broken 869-874 shelf with sector/orderbook/crowding tailwinds; limit 867.5, stop 876.5, targets 848/835, 4% size (conf 0.6)."
+  },
+  "timestamp": "2026-07-20T03:17:12.824813+00:00"
+}

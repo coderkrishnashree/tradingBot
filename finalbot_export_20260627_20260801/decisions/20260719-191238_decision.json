@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "CRCL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "15m tape coiling chop in a 60.84-61.40 band on fading volume mid-structure; expect continued drift between 60.9 and 61.4 over the next 2-4 bars with no clean impulse until 67.38 is tested or 60.84 breaks.",
+  "expectancy_note": "No entry clears R:R: shorting mid-range into ADX-80 uptrend with no rejection trigger is chasing the bear thesis; longing a crowded 2.24 skew / RSI-75 into risk-off is chasing the top. Best expectancy is waiting for the level.",
+  "rationale": "CRCL sits mid-structure at 61.27 (support 58.76, resistance 67.38), not at the 67.38 exhaustion level the macro wants to fade and not on a VWAP pullback for a long. 4h RSI 75 / ADX 80 warn against chasing the long; crowded 2.24 long-skew, -26% rel-strength vs BTC and the negative stablecoin-competition tape argue for eventual downside, but the 15m shows only directionless chop on fading volume with no trigger yet. As a tokenized equity it faces weekend thin/gappy MM liquidity (US cash closed until Mon 13:30 UTC). Wait for the level rather than force a trade.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 60.84,
+    "expires_min": 240,
+    "note": "Losing the local range floor toward 58.76 support confirms the bearish stablecoin/crowded-long thesis and opens a clean momentum short."
+  },
+  "transcript": {
+    "macro": "RISK-OFF/defensive regime (2026-07-19 19:07 UTC). US cash equities CLOSED until Mon 13:30 UTC -> these tokenized-equity perps trade thin MM-quoted liquidity, funding=0.0 across all six, weekend-gap risk dominant; size down, best executions intraday US hours. Chip-sector selloff (Nasdaq -1%+, semis leading down), WTI +14% on US-Iran strikes, Netflix -10%. Crypto weak (BTC ~$62-64k, -18% MoM, BTC.D 56.3%, spot-ETF outflows) -> drag on crypto-beta names. Late-July earnings cluster: HOOD/META 29 Jul, COIN 30 Jul, CRCL ~10-18 Aug; TSM already reported 16 Jul; Alphabet 22 Jul is an AI-capex read-through for semis+META. Best-supported shorts: META (own-trend, uncrowded) and TSM (pure equity beta, sector-led down). Most caution: MU and CRCL 'long' flags fight crowded long books + hostile tape.",
+    "sentiment": "Sunday 19 Jul, US markets closed, thin weekend tape, Monday-gap risk. No name has a genuine <=48h catalyst; big binaries cluster 29-30 Jul. META: neutral, no fresh news, clean technical short. MU: bullish fundamentals (~$100B AI-memory contracts, Anthropic partnership) but -18% MoM post-earnings unwind -> technical dip-buy not news-driven. TSM: catalyst spent (Q2 16 Jul, rev +36% YoY), mild bearish post-earnings digestion. CRCL: bearish -- Mizuho downgrade 14 Jul + stablecoin-competition (Open USD, Visa) pressure, well below EMAs; fade the long. COIN: neutral, crypto-beta (Fear&Greed 28), mixed analyst views. HOOD: bullish momentum (+37% MoM, Agentic Trading) but stretched/crypto-linked, chase-risk high.",
+    "analyst": "CRCL sits mid-structure at 61.27 (support 58.76, resistance 67.38), not at the 67.38 exhaustion level the macro wants to fade and not on a VWAP pullback for a long. 4h RSI 75 / ADX 80 warn against chasing the long; crowded 2.24 long-skew, -26% rel-strength vs BTC and the negative stablecoin-competition tape argue for eventual downside, but the 15m shows only directionless chop on fading volume with no trigger yet. As a tokenized equity it faces weekend thin/gappy MM liquidity (US cash closed until Mon 13:30 UTC). Wait for the level rather than force a trade. | Forecast: 15m tape coiling chop in a 60.84-61.40 band on fading volume mid-structure; expect continued drift between 60.9 and 61.4 over the next 2-4 bars with no clean impulse until 67.38 is tested or 60.84 breaks. | Expectancy: No entry clears R:R: shorting mid-range into ADX-80 uptrend with no rejection trigger is chasing the bear thesis; longing a crowded 2.24 skew / RSI-75 into risk-off is chasing the top. Best expectancy is waiting for the level.",
+    "portfolio": "HOLD -- mid-structure chop, no rejection/breakdown trigger; short on loss of 60.84."
+  },
+  "timestamp": "2026-07-19T19:12:38.784435+00:00"
+}

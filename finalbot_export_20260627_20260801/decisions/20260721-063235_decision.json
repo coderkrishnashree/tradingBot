@@ -1,0 +1,26 @@
+{
+  "symbol": "CL/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.55,
+  "size": 0.0,
+  "entry": 82.04,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "forecast": "Choppy grind between 81.82 support and 82.53 resistance; needs a decisive break of 81.82 to open the technical short toward 81.0-80.5, otherwise chops and can gap up on any Hormuz headline.",
+  "expectancy_note": "Immediate short offers only ~1.0 R:R to a realistic TP1 (81.3 vs stop 82.75) and fades a live supply shock at a 5-week high; waiting for the range break gives a clean 2R short.",
+  "rationale": "Technicals lean short (composite -0.48, ADX 46, all TFs aligned, learned p_win 0.61) but price sits AT VWAP inside an 81.82-82.53 chop with small non-expanding down bars, so a market short now has sub-1.5 R:R while risking a headline gap-up from the Hormuz supply floor at a 5-week high. Better to wait: a decisive loss of the 81.82 swing low opens a clean short toward 81.0-80.5; until then flat is highest-expectancy.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 81.8,
+    "expires_min": 240,
+    "note": "Losing 81.82 breaks the chop and confirms the aligned technical short."
+  },
+  "transcript": {
+    "macro": "Regime MIXED/cautious risk-on with live Iran/Hormuz geopolitical overhang; VIX 18.65; no scheduled US data bomb in 48h (FOMC 7/28-29). CL: SHORT-with-caution/prefer stay-out \u2014 technicals short (composite -0.48, ADX 46) but Hormuz disruption + inventory draws are a bullish headline floor; fading oil fights geopolitics.",
+    "sentiment": "CL ~$82, 5-week high. Bid on geopolitics (Hormuz shipping disrupted, CPC terminal halted, Trump warned Iran, Houthi embargo); counterweight OPEC+ 5th straight monthly hike (+188k bpd Aug), Saudi volume doubling, EIA Q4 builds. OPEC+ meeting 8/2 (outside window). Tilt NEUTRAL-to-bullish; news argues against pressing shorts.",
+    "analyst": "Price rolled from 82.53 to 81.82 low, now 82.04 sitting at VWAP; lower highs but small non-expanding bars = grinding not impulsive. Short R:R sub-1.5 to any honest TP1, and fading a live supply shock at a 5-week high = the account's late-fade-into-catalyst loss pattern. Hold with a downside trigger at 81.80.",
+    "portfolio": "CL: HOLD (0.55) \u2014 stand aside; arm short on decisive break below 81.80."
+  },
+  "timestamp": "2026-07-21T06:32:35.390812+00:00"
+}

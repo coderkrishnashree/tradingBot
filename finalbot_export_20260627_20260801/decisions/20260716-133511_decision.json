@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "EWJ/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.36,
+  "playbook": "none",
+  "forecast": "Off-hours: price chops in the 91.7-92.7 micro-range on near-zero volume; no directional follow-through until underlying Japan cash reopens. Bullish divergence + stoch 17 suggest the tiny down-drift is exhausting rather than accelerating.",
+  "expectancy_note": "No edge: p(win)~0.5 either way, R:R undefinable on a non-trading tape; HOLD dominates because any fill is random slippage into OI 2,211 with macro/sentiment canceling.",
+  "rationale": "EWJ is an equity ETF token trading off-hours with essentially no volume (last 20 bars 0.07-2 units, two real prints only), so crypto structure (OI 2,211, funding 0) is noise and the composite short is built on 0.6-unit candles. Composite is unaligned at 41.7% conf, and 5m flips long with a bullish divergence and stoch 17 oversold, contradicting the short; macro (constructive) and sentiment (Nikkei -2.6%) directly disagree, with the only hard catalyst (BOJ Jul 30) outside 48h. Illiquidity, not direction, is the dominant risk, so the highest-expectancy action is to stand aside.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 90.27,
+    "expires_min": 240,
+    "note": "Losing range support on real volume confirms genuine underlying Japan selling (validates the sentiment short) rather than off-hours drift."
+  },
+  "transcript": {
+    "macro": "Regime MIXED, risk-off; EWJ MIXED/low-conviction, ILLIQUIDITY is the main risk. Last 92.25. Derivs noise: OI 2,211, funding 0, recent candles near-zero volume. Structure_bias only -0.11, composite unaligned (conf 41.7). Underlying Japan read somewhat constructive. Gappy fills; token trades offside underlying hours. BOJ Jul 30 outside cycle.",
+    "sentiment": "EWJ bearish today on AI/semi selloff \u2014 Nikkei -2.6% (Tokyo Electron -5.2%, Advantest -5.1%, SoftBank -5.9%, Kioxia -8.7%) + higher oil. Fresh risk-off shock argues FOR short intraday. Hard catalyst BOJ Jul 30-31 outside 48h. Slight structural headwind from BOJ hiking (stronger yen). Scan liquidity thin/gappy. Corr XAG 0.50, EWY 0.56.",
+    "analyst": "Token not trading (last 20 bars 0.07-2 units); crypto structure meaningless at OI 2,211. Composite unaligned sub-42% conf, 5m flips long with bullish divergence + stoch 17 contradicting the short; macro and sentiment cancel. Illiquidity is the dominant risk. HOLD; short only on a volume-backed break of 90.27.",
+    "portfolio": "EWJ \u2014 HOLD (conf 0.36); no executable edge on a non-trading off-hours tape; short only arms on a real-volume break of 90.27."
+  },
+  "timestamp": "2026-07-16T13:35:11.161336+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "XAUT/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Low-vol grind continues near 4090-4100 into FOMC; either a coil-break above 4155 or a sharp DXY/hawkish-driven flush back toward 3984 support - no tradable edge inside current 4076-4093 chop.",
+  "expectancy_note": "No entry clears R:R 1.5: ATR 0.19% means honest structural stops dwarf near-term targets; fresh long at RSI 85 into binary FOMC is the classic chase-loss, and there is no exhaustion/divergence to fade the top yet.",
+  "rationale": "XAUT is pinned at all-time highs with RSI 84.8, ADX 92 and %B >1.1 while BB width has compressed to 1.38% - a coil, not a signal. Longs are crowded (L/S 2.59, structure_bias -0.34) into a hawkish-risk FOMC with DXY at 13-mo highs and the Iran safe-haven catalyst just removed, so adding is a chase; equally no rejection/divergence to justify a short. Best expectancy is to wait for the FOMC binary or a real break of the 4155/3984 rails.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 4155,
+    "expires_min": 240,
+    "note": "A clean break and hold above resistance 4155 resolves the coil upward and would justify a continuation long on the retest rather than a chase at mid-range."
+  },
+  "transcript": {
+    "macro": "MIXED regime, lean cautious. FOMC Wed Jul 29 binary (hawkish risk, DXY 13-mo high ~101.5 = metals headwind). XAUT macro tilt NEUTRAL-to-long: safe-haven bid firm (~$4,090, RSI 84.8, ADX 92) but crowded (long/short 2.59, structure_bias -0.34); Iran de-escalation just removed a safe-haven catalyst. Trend intact but chase-y.",
+    "sentiment": "XAUT BULLISH tone but FOMC-gated. Extended (RSI 85, near BB top) into July 29 Fed. News frames metals pricing a hold; a hawkish Fed / stronger DXY is the clean downside risk. Do NOT add fresh longs at these RSIs ahead of a binary.",
+    "analyst": "Pinned at ATHs (RSI 84.8, ADX 92, %B >1.1) in a 1.38% BB coil - a coil, not a signal. Crowded long into hawkish-risk FOMC with DXY headwind; adding = chase. ATR 0.19% means no honest R:R either way. Wait for the FOMC or a break of 4155/3984.",
+    "portfolio": "HOLD XAUT - coiled at ATHs, crowded long into FOMC with DXY headwind; no edge, size 0."
+  },
+  "timestamp": "2026-07-27T07:39:33.744445+00:00"
+}

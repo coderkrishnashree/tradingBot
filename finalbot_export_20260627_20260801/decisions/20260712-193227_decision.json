@@ -1,0 +1,24 @@
+{
+  "symbol": "ORCL/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.5,
+  "entry": 141.42,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "size": 0.0,
+  "playbook": "none",
+  "rationale": "ORCL is the weakest name (RS -19.8%, RSI 27, 4h/1h short) but stretched -1.94% below VWAP with NEGATIVE funding (-0.126%) -> shorts already crowded and paying, and the last two 15m bars (141.32 low bounced to 141.51 on rising vol, 5m score +0.27) show a relief bounce starting. Shorting the low into a thin weekend tape 48h before CPI chases the book's #1 loss pattern; a long fights regime and RS. No entry gives R:R >= 1.5, so HOLD; re-short a VWAP rejection (~144) or a fresh breakdown below 141.3.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 141.3,
+    "expires_min": 240,
+    "note": "Losing 141.3 base on volume confirms bounce failed and downtrend resuming -> clean short trigger (target 139/137.6)."
+  },
+  "transcript": {
+    "macro": "Regime NEUTRAL-to-RISK-ON (2026-07-12, Sun), but ORCL is DIVERGENT/bucking the tape: RS -19.8% vs BTC, RSI 27, -1.9% vs VWAP, 4h/1h short. Regime does NOT support fresh longs; short-leaning. btc_corr 0.37. Weekend thin-tape gap risk; June CPI Jul 14 ~48h binary. Tokenized equity, cash market closed -> size down.",
+    "sentiment": "ORCL BEARISH lean: record Q4/FY26 Jun 10 but DROPPED ~10% on weak FY27 guidance + plan to raise ~$40B ($20B ATM equity) for AI capex -> dilution/leverage overhang; that's why it is the weakest name. No fresh binary next 1-2 weeks (next earnings September). News argues for downside continuation, not a bounce.",
+    "analyst": "Deeply oversold and stretched below VWAP with negative funding (crowded shorts paying) and a 5m long flip -> relief bounce underway. Fresh short here is a knife-catch chase; long fights the trend. HOLD; re-short the VWAP rejection or a fresh breakdown below 141.3.",
+    "portfolio": "HOLD ORCL - short-biased name but too stretched/oversold to short here; wait for the rejection or breakdown."
+  },
+  "timestamp": "2026-07-12T19:32:27.033720+00:00"
+}

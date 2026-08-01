@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "SNDK/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.34,
+  "playbook": "none",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 1684.0,
+    "expires_min": 240,
+    "note": "A decisive break of support 1684 flips oversold-on-support into a continuation short with real downside room."
+  },
+  "rationale": "SNDK is a parabolic memory/AI-storage name correcting hard; scan direction is short but only 34.6% confidence and the 4h score is effectively flat (-0.021). Price is deeply oversold (RSI 24, stoch 11, bb %b -0.10, -5.28% below VWAP) and resting right on support 1684 (~1.6% away) with the hottest long funding (+0.081%) and orderbook bid support (+0.375) underneath \u2014 the worst location to initiate a short and prime squeeze territory. No 48h binary (earnings Aug 24), so this resolves on structure: bounce off 1684 (short squeezes) or break of 1684 (air pocket lower). ATR 2.71% on the least liquid name means a wide stop and poor R:R for any chase. HOLD, short armed on a break below 1684.",
+  "transcript": {
+    "macro": "Regime 2026-07-07: MIXED, cautious-risk-off for tech; semis sliding, hawkish Fed a tailwind for semi shorts. Venue-wide long/short long-skewed. SNDK: dir SHORT (conf 34.6% LOW), structure_bias -0.29 but FUNDING-driven not crowding \u2014 funding 0.00081 (+0.081%, highest of four, mildly hot long), long/short only 1.26, orderbook +0.375 (bid support). WEAKEST relative strength in set: -14.54% vs BTC; ~zero BTC corr (0.108), pure semi/memory story (corr MU 0.82). Very stretched down: RSI 24 (4h), bb %b -0.10, vwap_dist -5.28%, ATR 2.71% (most volatile). On support 1684, distant resistance 2279. MIXED \u2014 deeply oversold on huge ATR sitting on support = high squeeze/mean-reversion risk; smallest size / widest stops.",
+    "sentiment": "SNDK 2026-07-07: mixed. NO near-term catalyst (earnings Aug 24). Parabolic (+4,885% since Feb-2025 relisting, ~$1,745 early July) on AI storage/memory theme; NAND/DRAM ASPs rising = supportive multi-quarter tailwind. Wall of analyst PT hikes (BofA $2,500, Goldman $2,200, Bernstein $3,000) \u2014 LOW-weight/long-horizon, not a 48h driver. Deeply oversold = parabolic-stock pullback, not a news event. High volatility is a risk flag, not a directional signal.",
+    "analyst": "Downtrend and weakest relative strength (-14.5% vs BTC) argue the bias is lower, but you never initiate a short into RSI 24 / %b below band / -5.28% vs VWAP while price is glued to support 1684 and long funding is hottest of the set \u2014 that is squeeze fuel against shorts, not confirmation. Immediate reward to support is smaller than one ATR, so any fresh short is negative-expectancy after a wide stop. No 48h catalyst = purely technical; the higher-expectancy trade is to short a confirmed break of 1684 (air pocket toward next demand) rather than chase the stretched candle now. HOLD with an armed price_below 1684 trigger.",
+    "portfolio": "HOLD SNDK/USDT:USDT \u2014 low-conviction short into deep oversold on support with high squeeze risk; wait for a break below 1684."
+  },
+  "timestamp": "2026-07-07T00:13:40.622130+00:00"
+}

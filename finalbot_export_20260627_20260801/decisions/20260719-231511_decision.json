@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "MSTR/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.4,
+  "playbook": "none",
+  "forecast": "After a vertical BTC-driven bounce, MSTR stalled at 95.42 with a slight-red close (95.30); expect a pullback to retest the 94.4-94.6 breakout shelf / VWAP over the next 2-4 bars. A clean reclaim and hold above ~95.5 on continued BTC strength would open the path toward 96.5-97; loss of 94.4 sends it back toward 93.5.",
+  "expectancy_note": "p(win) ~0.5 at best chasing here; longing +1.46% above VWAP into stretched BTC (4h RSI 72/ADX 71) is the account's #1 loser pattern, and a fresh short fights BTC momentum \u2014 no positive-expectancy entry, so HOLD and wait for the pullback.",
+  "rationale": "MSTR is pure BTC-beta (corr 0.74, rel-str -4.2%) with the weakest long composite in the scan (38.6% conf, 1h flat), sitting +1.46% above VWAP right after a vertical relief-bounce off BTC's 21-month low that funding/OI do not confirm. Chasing long here means buying the top with resistance (102) far away and support (89.95) below \u2014 poor R:R and exactly the late-continuation entry that has bled this book. Weekend equity closure adds Monday gap risk, so size stays zero; I'd rather buy a controlled pullback to the 94.4-94.6 shelf where a stop under 93.9 gives real R:R toward 96.5+.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 94.5,
+    "expires_min": 240,
+    "note": "A pullback to the 94.4-94.6 breakout shelf / VWAP offers a low-risk BTC-beta long entry with a tight stop under 93.9, versus chasing the stretched 95.4 print."
+  },
+  "transcript": {
+    "macro": "2026-07-19 Sun ~23:07 UTC \u2014 WEEKEND, US cash equities CLOSED; all tokenized-equity pairs on thin weekend liquidity and will GAP at Monday open \u2014 size DOWN across the board. Tape = semiconductor bear market (SOX >20% off June peak, chips shed ~$3.3T on 'AI-needs-less-compute' fears from Kimi K3); Nasdaq -2.9% wk, S&P -1.5%. Backdrop favors fading crowded semi longs over fresh longs. Crypto weak/risk-off: BTC ~$64.5k relief bounce off a 21-month low, dominance ~56-60%, June record -$4.5B BTC ETF outflows; BTC 4h RSI72/ADX71 extended but funding flat & OI not confirming (bounce, not durable trend). TSM beat + raised guide yet sold off (crowded-long unwind, L/S 2.47). INTC/MU/SNDK = epicenter of the rout, crowded longs (L/S 2.1-2.6) into a falling knife, deeply negative RS. META is the relative outperformer (RS +4.9%). EWY (Korea) whipsaw, BoK first hike since Jan-2023 (+25bp to 2.75%), semi-heavy/gappy. MSTR = BTC-beta (0.74 corr). Net: environment does NOT broadly support fresh longs; only META + a tactical BTC/MSTR bounce lean small-long; weekend gap risk overrides all.",
+    "sentiment": "2026-07-19 \u2014 Friday 7/17 closed risk-off on a semiconductor rout (SOX ~-13% in a month); FOMC Jul 28-29 (hold expected). US markets CLOSED (Sunday), equity pairs thin/gappy. HARD catalysts: INTC Q2 earnings Jul 23 (~4 days \u2014 do NOT hold size into it); META Q2 Jul 29; FOMC Jul 28-29. Per name: META bearish/caution tilt; TSM bullish fundamentals (Q2 beat Jul 16, +36% YoY) but sell-the-news + sector-contagion risk, lean neutral/cautious-long; QQQ neutral (heavy earnings week, GOOGL/TSLA Jul 22); BTC bullish tilt / cleanest long (ETF inflow reversal +$191M ending 10-day outflow streak, CLARITY Act optimism); EWY HIGH caution two-sided (Samsung+SK Hynix ~half of KOSPI, swinging 6-9%/day); SNDK bearish/caution (NAND +200% in 3mo then -15% on the month, RSI 21 = knife-catch); INTC hard-catalyst high caution; MU bearish/caution (memory, record DRAM ASPs but -10%+, 4h bullish divergence = bounce signal); MSTR neutral BTC-proxy (started SELLING BTC ~$216M, booked $8.3B Q2 digital-asset loss).",
+    "analyst": "Pure BTC-beta (corr 0.74) with the weakest long composite in the scan (38.6% conf, 1h flat), +1.46% over VWAP after a vertical bounce off BTC's extended, unconfirmed relief rally. Chasing = buying the top (resistance 102 far, support 89.95) \u2014 the account's late-continuation loser. Weekend equity gap risk. Long the 94.4-94.6 pullback with a stop under 93.9, not the 95.4 print.",
+    "portfolio": "HOLD MSTR \u2014 leveraged BTC-beta chasing an extended bounce; wait for the 94.5 pullback to go long."
+  },
+  "timestamp": "2026-07-19T23:15:11.630905+00:00"
+}

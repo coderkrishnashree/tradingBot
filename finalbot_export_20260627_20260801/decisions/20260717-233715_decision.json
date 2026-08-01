@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "CRCL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.4,
+  "playbook": "none",
+  "forecast": "Price is coiling 60.4-60.6 just above 58.76 support after a flush; over the next few bars it likely chops in this range, then resolves either by losing 58.76 (fresh breakdown) or reclaiming VWAP ~62.8 (divergence bounce). No edge until it picks a side.",
+  "expectancy_note": "Short here is a chase: -3.66% below VWAP, 4h RSI 28.9 oversold, bullish 4h divergence, L/S 2.53 squeeze fuel - a routine bounce stops it (p_win_learned 0.319). Long fights risk-off macro + worst RS with no trigger. HOLD is highest expectancy.",
+  "rationale": "CRCL is stretched to the downside (VWAP -3.66%, 4h RSI 28.9) with a bullish 4h divergence and extreme long crowding (L/S 2.53) that is squeeze fuel - shorting now is exactly the late-into-oversold pattern that has bled this account (learned p_win 0.319). Buying is untenable into a risk-off tape, worst-in-group RS -24.3%, and a US-cash-closed thin/gappy session with no upside trigger yet. The tape is a tight coil above 58.76 support with no clean R:R either way, so I wait for a resolution rather than force a bad-expectancy entry.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 58.76,
+    "expires_min": 240,
+    "note": "Losing the 58.76 support base voids the bullish divergence and confirms a fresh breakdown, opening a with-trend short toward the next leg down."
+  },
+  "transcript": {
+    "macro": "RISK-OFF/hostile for longs. Nasdaq100 -1.5% Fri (week -2.9%), semiconductor selloff + geopolitical/inflation risk. Late-Friday US cash closed -> thin/gap-prone until Monday. CRCL lean: supports SHORT but TREACHEROUS - RS -24.3% (weakest name), Mizuho downgrade Jul 14, Visa stablecoin competition, 4h down; BUT L/S 2.53 EXTREMELY long-crowded AND a bullish 4h divergence flagged -> high short-squeeze/reversal risk; smallest size of the group.",
+    "sentiment": "CRCL: bearish lean (recent IPO, structural overhang). No earnings binary in 48h, but as a recent IPO carries lockup/insider-supply risk: 10b5-1 insider sale reported 7/8, mixed-to-negative analyst tone on stablecoin competition. OCC national-trust-bank approval is a positive but already digested. High-beta to risk-off; near-term news mildly AGAINST longs.",
+    "analyst": "Stretched to the downside (VWAP -3.66%, 4h RSI 28.9) with a bullish 4h divergence and extreme long crowding (L/S 2.53 = squeeze fuel) - shorting now is the late-into-oversold pattern that has bled this account (learned p_win 0.319). Buying fights risk-off macro + worst-in-group RS -24.3% with no upside trigger. Tape is a tight coil above 58.76 support, no clean R:R. HOLD; short only a break below 58.76.",
+    "portfolio": "HOLD CRCL - weakest name but oversold with squeeze risk; short only on a break below 58.76."
+  },
+  "timestamp": "2026-07-17T23:37:15.115080+00:00"
+}

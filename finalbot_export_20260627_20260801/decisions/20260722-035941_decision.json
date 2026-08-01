@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "EWY/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Chop-to-mild-fade from 173.7 toward the 172.9 recent low over the next few bars, but the real move is the SK Hynix (today) / Samsung (23 Jul) earnings gap that can jump EWY several ATR in EITHER direction and overrides any 15m read.",
+  "expectancy_note": "No 1.5R structural trade: extended RSI73/ADX86 tape blocks a clean long-continuation, and shorting an ADX-85 uptrend into a 'record-profit' print is fuel for a squeeze - earnings binary makes both sides negative expectancy.",
+  "rationale": "EWY (South Korea equity proxy) is very extended (4h RSI 73, ADX 85.7, +4% above VWAP, near upper BB) while short-TF momentum is rolling over (15m/5m flat-to-short, price fading from 176.67 to close near lows), so there is no clean edge either way. The decisive factor is an imminent earnings binary - SK Hynix Q2 today and Samsung 23 Jul, together ~45-50% of the ETF - which can gap price violently and swamp any 1x-ATR technical stop; weak relative strength (-14.4%) and mildly bearish flows add no long edge. Best expectancy is to stand aside and let the print resolve, then trade the confirmed direction.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 176.7,
+    "expires_min": 240,
+    "note": "A hold above the 176.67 swing high (post-print) confirms the uptrend resuming with earnings risk behind it - that is the trigger to re-debate a momentum long; losing 172.9 instead argues for a fade toward VWAP/support."
+  },
+  "transcript": {
+    "macro": "Regime MIXED, mildly risk-on but hawkish-Fed overhang. DXY ~100.9; rate narrative flipped to HIKES (~58% odds by Sept; FOMC 29 Jul). Low BTC correlation - trade own drivers. EWY: SUPPORTIVE long with elevated risk; +80% YTD, exports +52% (semis +180% on AI demand), Citi 10,000 KOSPI target. BUT KOSPI fell ~26% over past month, BoK just hiked to 2.75%, Samsung/SK Hynix ~45% of ETF; very extended in scan (RSI ~82.8, ADX 85-91). Momentum-long only, tight risk.",
+    "sentiment": "EWY HIGH-EVENT-RISK, directional. Kospi ~50% weighted to Samsung + SK Hynix, extremely volatile (recent 4-9% daily swings). SK Hynix reports Q2 TODAY 22 Jul; Samsung comprehensive report 23 Jul (prelim record profit, +19x YoY). These prints can move EWY sharply either direction within 48h - the key catalyst.",
+    "analyst": "EWY last 173.66. Very extended higher-TF (4h RSI 73.2, ADX 85.7, +4.04% VWAP, bb_pctb 0.943 near upper band, stoch 81.8) while short-TF rolling over (15m short -0.74 RSI 38.6, 30m/5m flat-down, price faded 176.67 -> close near lows). 1h still long (0.871) - muddy. structure_bias -0.068, L/S 1.142, orderbook -0.086, relative_strength -14.44%, btc_corr 0.34. Long = chasing extended +80% YTD move into unpredictable earnings; short = fading ADX-85 uptrend into a record-profit print (squeeze fuel). No 1.5R structure with catalyst gate open. HOLD.",
+    "portfolio": "EWY/USDT:USDT -> HOLD (conf 0.60): stand aside for the SK Hynix/Samsung earnings binary; re-debate on hold above 176.7 or fade below 172.9."
+  },
+  "timestamp": "2026-07-22T03:59:41.232473+00:00"
+}

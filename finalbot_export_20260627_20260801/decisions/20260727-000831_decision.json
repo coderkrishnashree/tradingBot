@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "ORCL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.4,
+  "playbook": "none",
+  "forecast": "After the 119.6 volume-blowoff was fully rejected back to 117.5, expect 2-4 bars of digestion between 116.0-118.6; a re-test lower toward 116 is more likely than an immediate new high given crowded longs and RSI ~69 into FOMC.",
+  "expectancy_note": "No entry clears R:R >=1.5: long is a chase (crowded L/S 2.6, RSI 69, weakest RS -21.9%) and the short lacks extension (price at VWAP). p(win) both sides ~50% -> HOLD is highest expectancy.",
+  "rationale": "ORCL just printed a buying-climax rejection: a huge-volume spike to 119.62 gave back the entire move to close 117.52. Structure is a max-crowded long (L/S 2.615), RSI ~69, ADX only 25 (no strong trend), weakest relative strength in the group (-21.9%), and FOMC sits inside the window on a risk-off tape. There is no honest 1.5R setup at spot in either direction, so I wait for the level that resolves it. Size 0.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 116.0,
+    "expires_min": 240,
+    "note": "Losing 116 confirms the climax failure and coil breakdown, opening a cleaner short toward 113 support rather than a chase."
+  },
+  "transcript": {
+    "macro": "REGIME: RISK-OFF/MIXED, defensive. FOMC Jul 28-29 inside window. ORCL crowded-long (L/S 2.6, negative orderbook), RSI ~69 stretched; longs chasing into AI-capex jitters. Smaller size.",
+    "sentiment": "RISK-OFF/EVENT-GRIDLOCKED. ORCL no imminent binary; only analyst notes (Mizuho Outperform $320 PT) - LOW weight, do not trade on it. Moves with broad tech/Fed.",
+    "analyst": "Buying-climax rejection: a huge-volume spike to 119.62 gave back the whole move to close 117.52. Max-crowded long (L/S 2.615), RSI ~69, ADX only 25 (no strong trend), weakest RS in the group (-21.9%), FOMC inside window. No honest 1.5R at spot either way (short lacks extension, price at VWAP). HOLD; short arms on loss of 116.",
+    "portfolio": "HOLD ORCL - buying-climax rejection, crowded long; wait for 116 loss to short."
+  },
+  "timestamp": "2026-07-27T00:08:31.412448+00:00"
+}

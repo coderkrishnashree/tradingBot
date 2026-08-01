@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "BTC/USDT:USDT",
+  "size": 0.0,
+  "entry": 64043.4,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "range",
+  "forecast": "Bounce stalls just under 64,100-64,703 offer wall; likely rejection back toward 63,300-63,700 over next 2-6 bars, or a grind that either breaks 64,703 (turns bullish) or fails and mean-reverts to the 61,500-62,000 range low.",
+  "expectancy_note": "Long into 64,703 offers R:R only ~1.5 with a -0.625 offered book overhead; short unconfirmed. p(clean edge) too low now - HOLD and let price reach a range edge for a real fade.",
+  "rationale": "BTC is mid-to-upper range (61,272-64,703) on a low-conviction bounce inside broken monthly structure, extreme fear, hawkish-Fed risk-off macro. The last 15m bar already rejected near 64,100 and orderbook imbalance -0.625 shows sellers stacked into resistance, so a long here is chasing the offer wall for a sub-1.5 R:R; a short has no printed rejection and the account's trend/short book has been losing (-2.89 avg). No 48h catalyst. Best expectancy is to wait for a range edge: buy 61,500-62,000 or short a confirmed rejection at 64,703 - hence zero size now.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 64703,
+    "expires_min": 240,
+    "note": "A 15m close above 64,703 clears the offer wall and range top, flipping this from range-fade to a breakout long toward 66k."
+  },
+  "transcript": {
+    "macro": "2026-07-12: Risk-off-leaning. Hawkish Fed (~61% Sept HIKE), USD firm. BTC ~$64,043, -18% from ~$73.7k monthly open; 21-mo low, dipped below 200-week MA; Extreme Fear (F&G 24); BTC.D elevated ~56-60% (alts bleeding). Scan structure: funding barely +0.0047%, OI ~54.7k, long/short 1.329, orderbook imbalance -0.625 (heavy offered) -> structure_bias -0.306. Weak long, mid-range: support 61,272 / resistance 64,703. Low-conviction bounce inside broken monthly structure.",
+    "sentiment": "BTC bearish structure, extreme-fear, possible squeeze. +6% on week off early-July lows (~$58-60K) but ~53% below Oct-2025 record. Spot ETFs bled ~$4.5B June / ~$6B 30d (Jul 10 small +$265M inflow). Rebound looks short-squeeze-driven not fresh spot demand; whales accumulated ~270K BTC near lows. Key binary: Fed decision late July (outside 48h). Near-term fearful-but-stabilizing -> chop/mean-reversion over trend.",
+    "analyst": "Mid-to-upper range on a low-conviction bounce; last 15m bar rejected near 64,100 and orderbook -0.625 shows sellers stacked into resistance, so a long chases the offer wall for sub-1.5 R:R; a short has no printed rejection and the account's short/trend book bleeds. No 48h catalyst. Wait for a range edge - buy 61,500-62,000 or short a confirmed 64,703 rejection. Zero size now.",
+    "portfolio": "HOLD BTC - range-fade setup, no edge mid-range; act at 64,703 (short/breakout) or 61,500-62,000 (long)."
+  },
+  "timestamp": "2026-07-12T12:33:11.405469+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "META/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.55,
+  "playbook": "none",
+  "forecast": "Price coiling 651-654 above the 650.8 capitulation low; next 2-6 bars either a relief bounce toward VWAP ~662 (better short entry) or a clean break below 650.8 that reopens downside toward 645. Chasing the short at 652 with RSI 24 / stoch 4.7 / %B 0.03 gets stopped by the bounce.",
+  "expectancy_note": "Market-short expectancy negative: p(win)~0.42 into oversold tape, and a 1.5xATR stop (~10pts) gets tagged by a routine bounce before continuation. HOLD + trigger beats chasing; learner shows aligned-trend shorts losing (0.45 win, -2.5R).",
+  "rationale": "META is in a real 4h downtrend (ADX 40, all TFs down) but deeply stretched to the downside - VWAP -1.58%, 4h RSI 24.1, stoch 4.7, %B 0.027 - exactly the late-short-into-oversold pattern that has bled this account (shorts 0.46 win / -1.6R, aligned weight -0.52). Structure gives no crowding tailwind (bias -0.014, funding flat, L/S 1.11 neutral), so no fuel forcing continuation, and a binary CPI at 8:30am ET risks a cool-print relief squeeze into thin tokenized-equity liquidity. Best expectancy is to wait: re-short a bounce into VWAP ~662 or a fresh break of the 650.8 shelf, not market-chase at 652. Size 0.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 662.0,
+    "expires_min": 240,
+    "note": "A bounce back to VWAP/prior-support-turned-resistance ~662 offers a clean, un-stretched re-short entry with the intact 4h downtrend and a tight stop above 668."
+  },
+  "transcript": {
+    "macro": "Regime HOSTILE-to-MIXED, tape favors shorts. Nasdaq -1.55% yesterday. Binary CPI 8:30am ET today; Fed HIKE bets rising into Jul 28-29 FOMC. Oil shock compounds inflation. META BTC corr 0.39 (low). Thin/gappy perps around CPI -> size smaller; relief-squeeze risk on cool print. META structure_bias -0.014 (funding flat, L/S 1.11 neutral) so short is price/trend not crowding; rel_strength +11.6% vs BTC but rolling over; 4h RSI 24.1, stoch 4.7 deeply oversold; highest p_win 0.53. Earnings Jul 29 outside window.",
+    "sentiment": "META NEUTRAL near-term. Earnings Jul 29 after close (outside 48h). Guidance $58-61B rev, consensus ~$60.2B, EPS ~$7.18; AI monetization/capex multi-quarter narrative. No fresh shock. Trade on technicals not headlines.",
+    "analyst": "META is a genuine 4h downtrend (ADX 40, all TFs down, rel-strength +11.6% but rolling over) - yet the single most stretched name to the downside: 4h RSI 24.1, stoch 4.7, %B 0.027, VWAP -1.58%. Recent candles show selling spent - a 1198-vol capitulation bar hit 650.80 nine bars ago and price has coiled flat 651-654, momentum fading. Market-shorting here is the account's proven #1 loser (learner: shorts 0.46 win/-1.6R, aligned -0.52) and structure_bias only -0.014 means no crowding fuel. Add binary CPI (cool = squeeze) into thin liquidity. HOLD; arm re-short trigger at VWAP ~662.",
+    "portfolio": "HOLD META - trend down but too stretched to chase; re-short a bounce to ~662."
+  },
+  "timestamp": "2026-07-14T10:32:59.943718+00:00"
+}

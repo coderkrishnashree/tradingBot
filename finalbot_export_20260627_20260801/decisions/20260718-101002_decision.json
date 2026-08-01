@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "AAPL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Thin-book weekend drift 332-334 into Monday, then a gap on the 7/20 open; direction of the gap is unknowable and likely down given the risk-off semi selloff. No clean tradable path inside the weekend.",
+  "expectancy_note": "Long bias exists (composite +0.56, rel str +11.6%) but p(win) is coin-flip: market closed, thin tokenized book, 30m RSI 71.6 overbought into 339 resistance, and a known Monday catch-down gap risk that jumps any honest ~1% stop. Negative expectancy to enter; HOLD is highest EV.",
+  "rationale": "AAPL is a tokenized equity trading on a thin weekend book with US markets closed and a WILL-gap Monday open into a risk-off, semi-led selloff. The bull case (only long-biased name, +11.6% rel strength) is real but is precisely the strength macro flags as vulnerable to a catch-down gap, and price is already overbought (30m RSI 71.6) and coiling just under 339 resistance with no <=48h catalyst (earnings 7/30 is out of window). Any stop I could justify is roughly ATR-wide (~1%) yet a gap can jump straight through it, so R:R is uncontrollable \u2014 no size is the correct size until the market reopens and price shows its hand.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 339.17,
+    "expires_min": 240,
+    "note": "A clean reclaim/hold above the 339.17 resistance (only credible once cash market reopens and gap risk resolves) confirms the breakout and activates the long."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF, semiconductor-led equity selloff. Fri 7/17: Nasdaq -1.40%, S&P -1.02%. US EQUITY MARKETS CLOSED for the weekend \u2014 every equity wrapper trades a thin tokenized book and WILL gap on the Monday 7/20 open. Funding ~0 (no directional signal). AAPL ($333.45) is the ONLY clean long-biased name (composite +0.56, rel str +11.6% vs BTC, RSI 67, 30m RSI 71.6 overbought) but works AGAINST the risk-off tape \u2014 its strength is vulnerable to a Monday catch-down gap. Earnings 7/30 after close (outside 48h).",
+    "sentiment": "AAPL (~$333): no <=48h catalyst. Earnings Jul 30 after close (consensus EPS $1.88 +19.8% y/y, 4-qtr beat streak). Relatively insulated from the chip-capex selloff (low/negative correlation to semis). Near-term news neutral; drift on macro/index tone until earnings.",
+    "analyst": "Tokenized equity, generated Saturday, cash underlying closed \u2014 15m 'candles' are thin-book noise (0.3-100 unit volumes), not price discovery. Long bias real (composite +0.56, rel str +11.6%) but 30m RSI 71.6 overbought into 339 resistance, no <=48h catalyst, and a known Monday catch-down gap that jumps any ~1% stop. R:R uncontrollable; correct size is zero until the market reopens.",
+    "portfolio": "HOLD AAPL \u2014 lone long-biased name but overbought into resistance with uncontrollable weekend gap risk; wait for a hold above 339.17 post-reopen."
+  },
+  "timestamp": "2026-07-18T10:10:02.818318+00:00"
+}

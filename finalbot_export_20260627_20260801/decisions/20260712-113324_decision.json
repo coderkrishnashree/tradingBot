@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "AAPL/USDT:USDT",
+  "size": 0.0,
+  "entry": 314.03,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price stays pinned in the 313.5-314.5 micro-coil around VWAP on thin Sunday volume; no directional break expected until Monday cash open / Tue CPI. No concrete next move to trade.",
+  "expectancy_note": "No setup clears R:R 1.5 to a real level; TFs conflict (1h short but RSI 33 stretched, 4h MACD +, 5m/15m RSI 66), structure dead-neutral. A late short here is exactly the account's losing pattern (trend playbook 44% win, -2.89). HOLD is highest expectancy.",
+  "rationale": "AAPL is a coiled, lifeless Sunday tape: 20 bars in a $0.50 range on near-zero volume, price glued to VWAP, BB width squeezed at 1.35%, and structure is dead neutral (bias -0.004, funding 0, balanced L/S) on the thinnest OI in the group. The composite short is low-conviction (53.5%) and internally conflicted (4h MACD positive, 15m/5m RSI ~66). With Monday gap risk and the Tue CPI/Warsh/rate-hike cluster ahead in the thinnest-liquidity name, forcing size here is negative-expectancy; stand aside, zero size.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 316.77,
+    "expires_min": 240,
+    "note": "Reclaiming the 316.77 resistance on the coil resolves the neutral chop upward and would flip me toward a long-side momentum read; losing it back cleanly is the only thing worth re-debating from this dead range."
+  },
+  "transcript": {
+    "macro": "Regime MIXED, tilting risk-off into a loaded event window. Sun Jul 12 \u2014 thin/gappy, Monday gap risk. 48h event cluster from Tue 07/14: June CPI, Warsh testimony, ~1-in-3 rate HIKE priced end-July. AAPL: flat/neutral structure (bias -0.004, balanced L/S, funding 0), OI just 3.4k (thinnest of group); composite short low conf (53%) but 4h MACD positive -> mixed. RS +5.8%. Earnings Jul 30 (outside 48h). No positioning edge \u2014 pure macro/tape trade, HOSTILE for size given thin book + CPI tail.",
+    "sentiment": "Q3 FY26 earnings Thu Jul 30 5pm ET (Tim Cook's expected last call as CEO \u2014 headline risk); consensus EPS $1.88 (+19.8% y/y), 4-quarter beat streak. Fresh positive: Broadcom chip supply deal extended through 2031 (Jul 6), a multi-year narrative not a 48h mover. No stock-specific <=48h catalyst; near-term follows tape + Tue CPI.",
+    "analyst": "Coiled lifeless Sunday tape \u2014 20 bars in a $0.50 range on near-zero volume, price glued to VWAP, BB width squeezed 1.35%, structure dead-neutral on thinnest OI. Composite short low-conviction and internally conflicted (4h MACD +, 5m/15m RSI ~66). A late short is the account's losing trend pattern (44% win, -2.89). No R:R 1.5 setup -> stand aside, zero size. Armed price_above 316.77 to re-debate an upside resolution.",
+    "portfolio": "HOLD AAPL \u2014 dead-neutral micro-coil, thinnest book; flat until 316.77 breaks."
+  },
+  "timestamp": "2026-07-12T11:33:24.434082+00:00"
+}

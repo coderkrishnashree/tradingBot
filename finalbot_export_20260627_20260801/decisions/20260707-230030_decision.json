@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "MU/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Price coils 923-928 on drying volume after the squeeze to 946 faded; expect it to chop here 1-3 bars, then resolve \u2014 a break under 923 opens 908 then 894, while a reclaim of 940 signals squeeze continuation. No edge until it picks a side.",
+  "expectancy_note": "Fresh short at 926 chases a 4h-RSI-22/ADX-72 stretched tape into 894 support with live squeeze risk (946 wick); learner shows high-ADX shorts bleeding (-2.9R avg). Waiting for 923 break or 935-940 lower-high gives far better entry R:R than mid-air now.",
+  "rationale": "MU is in a strong multi-TF downtrend with bearish structure (L/S 2.12 trapped longs, orderbook -0.69), which favors shorts, but it is deeply oversold and just squeezed to 946 before fading \u2014 entering short at 926, mid-range and above 894 support, is chasing into a level with poor R:R and violent snap-back risk that account history says punishes high-ADX shorts. No long either: regime hostile, no reversal confirmation. Highest-expectancy action is to wait for the coil to resolve rather than pay up mid-air.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 923.0,
+    "expires_min": 240,
+    "note": "Loss of the 923 coil floor proves the squeeze-bounce failed and continuation resumes toward 908 then 894 support \u2014 that is the clean short entry."
+  },
+  "transcript": {
+    "macro": "2026-07-07 RISK-OFF, specifically a semi rout. S&P -0.45%, Nasdaq -1.16%. Trigger: Samsung earnings disappointment + DeepSeek AI-chip reports drove ~3% semiconductor sell-off; MU closed -4.7% cash session. Crowded-long de-risk after monster H1 (MU +260% YTD). MU/SNDK/EWY treated as ONE correlated short cluster (corr 0.81-0.82). Funding flat, L/S 2.12 (trapped longs = contrarian bearish but squeeze risk), orderbook -0.69, structure_bias -0.51. FOMC minutes Wed Jul 8 only scheduled event in window; no MU earnings (reported Jun 24, next ~Sep 29). Regime tag: HOSTILE to longs / SUPPORTIVE for shorts, but stretched.",
+    "sentiment": "MU: Blowout Q3 FY2026 already reported Jun 24 (EPS $25.11 vs $20.49). No earnings catalyst in 48h. Active driver = sector memory selloff; Jul 7 MU fell ~7% on Samsung miss + SK Hynix slowing HBM. News aligned to downside, supports short bias. Caveat: +245% YTD, intact bull thesis (tight supply into 2027), crowded/oversold correction that can violently bounce; treat rallies as the risk.",
+    "analyst": "Short bias is real (downtrend, trapped longs, heavy offer) but 4h RSI 22 + ADX 72 is stretched, scan composite only 47%, and price just squeezed to 946 then faded into a 923-928 coil on drying volume. Learner stats show high-ADX shorts bleeding (-2.9R avg). Chasing a short at 926 mid-range above 894 support is low-expectancy. No long (regime hostile, no reversal). HOLD; re-engage short on a break below 923.",
+    "portfolio": "MU: HOLD (0.50 conf) \u2014 no-trade, short-continuation armed below 923."
+  },
+  "timestamp": "2026-07-07T23:00:30.037031+00:00"
+}

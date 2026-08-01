@@ -1,0 +1,28 @@
+{
+  "symbol": "AAPL/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.34,
+  "size": 0.0,
+  "entry": 313.79,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "none",
+  "forecast": "Thin weekend chop between 312 and 315, coiling under 316.77 resistance / above 305 support until US cash opens; no directional resolution likely before CPI Tuesday.",
+  "expectancy_note": "No edge: ADX-trend read is trapped in a BLOCKED squeeze (BBW 0.99%, ATR 0.39%), so any honest ~1xATR stop is inside weekend noise and R:R to a real level is <1.5 \u2014 HOLD beats fading a zero-volume tape.",
+  "rationale": "AAPL is a tokenized EQUITY with US cash markets CLOSED (Sunday night UTC) and candles trading 2-30 units \u2014 thin drift, not price discovery. Composite is regime-BLOCKED (squeeze) with a latent short bias, but price is mid-range at VWAP (-0.28%), RSI 40, %B 0.18 \u2014 no extreme to fade and no trigger to chase; 0.39% ATR makes every target sub-1.5R against weekend whipsaw. With CPI + Warsh testimony Tuesday as a binary risk-off gap risk, sitting flat is highest-expectancy; size 0.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 316.77,
+    "expires_min": 240,
+    "note": "Reclaiming resistance breaks the squeeze upward and kills the latent short read."
+  },
+  "transcript": {
+    "macro": "RISK-OFF/defensive. Sunday night UTC, US cash equities CLOSED \u2014 tokenized-equity/ETF perps thin/gappy, low-liquidity drift not real price discovery. Binary: CPI + Warsh Fed testimony Tuesday; Fed-hike odds rising (~60% Sept, ~85% by year-end). BTC soft 63.7k. AAPL 313.8 regime-BLOCKED (squeeze), structure near-neutral, RS +5%, volume near zero \u2014 no conviction until cash opens.",
+    "sentiment": "AAPL NEUTRAL/slightly bullish, no <=48h binary. JPMorgan PT to $345, +13% over 7 sessions on July 6 Broadcom chip-supply extension (long-horizon). Q3 earnings July 30 (outside window). Memory-cost margin risk is an earnings-day story. Near-term neutral to the scan's short/squeeze read.",
+    "analyst": "Textbook no-trade: BLOCKED squeeze, price mid-range at VWAP, RSI 40, no extreme and no trigger; 0.39% ATR makes R:R sub-1.5 against weekend whipsaw with a Tuesday CPI gap risk. Reconsider on reclaim of 316.77.",
+    "portfolio": "HOLD AAPL \u2014 no edge in a blocked weekend squeeze into CPI; flat."
+  },
+  "timestamp": "2026-07-13T01:36:55.909234+00:00"
+}

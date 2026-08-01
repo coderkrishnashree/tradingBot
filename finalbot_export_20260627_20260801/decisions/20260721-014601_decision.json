@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "EWJ/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.8,
+  "playbook": "none",
+  "forecast": "Illiquid off-hours drift; price likely chops in the 90.5-91.5 pocket on near-zero volume until the US session, with no directional edge inside the range 88.16-95.09.",
+  "expectancy_note": "No tradable edge: ADX 8.8, regime_blocked chop, conf 0.3%, thin/zero-volume candles, no level to fade or trend to ride, R:R undefined -> hold is highest expectancy.",
+  "rationale": "EWJ is a pure QQQ/EWY beta echo (corr 0.68/0.56) with zero independent signal: composite direction flat, blended_score 0.008, ADX 8.8 and every timeframe cell ~0, tape mostly zero-volume off-hours prints. Stoch 97.5 / 5m RSI 91.2 mark the top of a micro-range but on no volume, so it is noise not exhaustion. BOJ (Jul 30) is outside the 48h window - no catalyst, no structure for an honest 1.5R trade. Don't manufacture a trade in dead chop.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 95.09,
+    "expires_min": 240,
+    "note": "A real break above 95.09 resistance on US-session volume would be the first genuine directional signal worth debating."
+  },
+  "transcript": {
+    "macro": "MIXED, leaning RISK-OFF for fresh longs (2026-07-21). Indices stalling just off highs (S&P 7,443, Nasdaq Comp 25,508), rising 10Y yields (4.55%) = headwind for tech multiples, DXY ~100.8. Earnings gauntlet inside 48h: GOOGL + TSLA after close Wed 7/22, INTC after close Thu 7/23 (no position carried through those). Tech names uniformly long-crowded (negative structure_bias). Chips are the relative-strength pocket but on a bounce, not a confirmed leg. Crude has the only fresh macro tailwind (US-Iran, Hormuz) but it's binary headline risk. Metals capped by yields (gold rejected $4,000, silver crowded-long/extended). BTC cleanest tape (benign funding, no earnings gate) but heavy overhead offers. EWJ pure QQQ/EWY beta, no independent driver. FOMC 7/29, BOJ 7/30 outside window. Size stance BELOW NORMAL - elevated gap risk into next 2 sessions.",
+    "sentiment": "Only true <=48h binaries are GOOGL (Q2 earnings 7/22 after close, elevated IV, gap expected) and INTC (Q2 earnings 7/23, options pricing ~15% move, RSI ~76). MSTR flipped to SELLING BTC (~$216M, largest since 2022) to fund dividends, stock -79% YoY - modest sentiment negative, BTC-dependent. BTC low-$65k, coiled bet on 7/28-29 FOMC ($2.5B call spreads target $72k); record June ETF outflows. XAG near 8-month lows after -6%, Sept-hike fears a headwind, no 48h catalyst. CL ~$82-83 five-week highs on US-Iran day 10 / Hormuz disruption - two-sided gap risk (possible 10-day ceasefire circulating). AAPL record ~$334 on China Apple Intelligence approval, +24% China iPhone units; earnings 7/30 (outside). MSFT earnings 7/29 (outside). TSM already reported 7/16 (rev +36% YoY, strong guide) - catalyst behind. ORCL no near-term catalyst. EWJ driver is BOJ 7/30 (outside). Everything except GOOGL/INTC/CL is pre-positioning ahead of the 7/28-30 FOMC/BOJ/MSFT/AAPL cluster - no fresh 48h mover.",
+    "analyst": "EWJ is a pure QQQ/EWY beta echo (corr 0.68/0.56) with zero independent signal: composite direction flat, blended_score 0.008, ADX 8.8 and every timeframe cell ~0, tape mostly zero-volume off-hours prints. Stoch 97.5 / 5m RSI 91.2 mark the top of a micro-range but on no volume, so it is noise not exhaustion. BOJ (Jul 30) is outside the 48h window - no catalyst, no structure for an honest 1.5R trade. Don't manufacture a trade in dead chop.",
+    "portfolio": "HOLD (0.80) - dead illiquid chop, zero signal, no catalyst; no trade."
+  },
+  "timestamp": "2026-07-21T01:46:01.262297+00:00"
+}

@@ -1,0 +1,25 @@
+{
+  "symbol": "SOL/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.34,
+  "size": 0.0,
+  "entry": 75.91,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "forecast": "Price mid-range at 75.91, chopping in a 75.2-75.9 shelf after a weak bounce off the 75.0 low on fading volume; likely drifts sideways 75.2-76.5 into FOMC, then resolves on the BTC/FOMC tape.",
+  "rationale": "SOL sits mid-range with conflicting timeframes (15m -0.87 short, 4h +0.79 long), composite unaligned at only 33% confidence, and is pure BTC-beta (corr 0.85, rel-strength -8.2%) with no independent driver. Crowded longs (L/S 2.77, structure_bias -0.31) plus a binary FOMC tomorrow make chasing either direction poor expectancy \u2014 the highest-EV action is to wait for price to reach a real level. No size committed.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 74.9,
+    "expires_min": 240,
+    "note": "Losing the 74.98 bounce low breaks the weak shelf and opens the 73.39 support test \u2014 confirms a short on the crowded-long unwind."
+  },
+  "transcript": {
+    "macro": "2026-07-27 NEUTRAL-to-RISK-OFF, event-gated. FOMC July 28-29 (crypto reacts). BTC ~$64,900 stalling, dominance ~56%, Fear & Greed 26. BTC funding flat, L/S 1.47, structure_bias slightly negative \u2014 longs crowded. SOL tracks BTC tightly (corr 0.85) \u2014 high-beta BTC, not independent. Favor crowd-fade on crowded longs.",
+    "sentiment": "SOL mildly bullish flow \u2014 5 spot SOL ETFs live with positive net inflows; Morgan Stanley spot SOL ETF got NYSE Arca approval July 24. Bearish undertone: on-chain fundamentals weak (MAU 2-yr low, TVL -56%, fees -50%). Over 48h SOL trades the FOMC/BTC tape, not its own news.",
+    "analyst": "No edge: mid-range entry (73.39 sup / 78.86 res), 15m bearish vs 4h stale-bullish conflict, crowded longs and FOMC tomorrow. Any market entry is chasing/fading mid-air; R:R <1.5 to any honest level.",
+    "portfolio": "HOLD SOL \u2014 mid-range, timeframe-conflicted, pure BTC-beta into a binary FOMC; stand aside."
+  },
+  "timestamp": "2026-07-27T17:07:23.833085+00:00"
+}

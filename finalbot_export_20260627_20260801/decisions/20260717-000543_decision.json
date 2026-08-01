@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "EWJ/USDT:USDT",
+  "size": 0.0,
+  "entry": 91.67,
+  "stop_loss": 92.35,
+  "take_profit": 90.4,
+  "confidence": 0.34,
+  "playbook": "none",
+  "forecast": "Price is coiling directly on 91.56 support with near-zero volume; expect it to chop 91.56-91.90 for the next few bars. RSI 17.7 + bullish divergence + stoch 3.8 mean a downside break needs a real seller; absent that, a relief squeeze toward 92.0+ is equally likely.",
+  "expectancy_note": "No edge either way: short = fading into oversold support with bullish divergence (the account's classic late-short loss), long = catching a knife with no reversal confirmation. Thin/gappy perp (sub-1.0 vol candles) makes any SL/TP unfillable \u2014 HOLD is highest expectancy.",
+  "rationale": "EWJ perp is effectively untradeable here: recent 15m candles print 0.0-0.5 volume, so market orders gap and stops can't execute honestly. Technically it sits on 91.56 support with 4h RSI 17.7, stoch 3.8 and a flagged bullish divergence \u2014 a stretched, exhausted downtrend where shorting invites a squeeze and longing lacks any reversal signal. Weak composite (-0.198, 29% conf) and no 48h catalyst give no reason to force a trade; size 0.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 91.5,
+    "expires_min": 240,
+    "note": "A decisive break and hold below the 91.56 support clears the bullish-divergence risk and confirms the downtrend resumes, opening a with-trend short toward 90.4."
+  },
+  "transcript": {
+    "macro": "REGIME: HOSTILE-to-MIXED for longs, SUPPORTIVE for shorts. Semiconductor/AI-led risk-off tape. Oil spiking. Hawkish rate tail (FOMC Jul 29). BTC correlation LOW \u2014 equity beta. Funding 0.0. US/Japan cash markets thin overnight \u2014 perps thin/gappy; size down. EWJ: short-aligned (-0.20), RSI deeply oversold (4h 17.7, BULLISH DIVERGENCE flagged), RS -7.0%. Driver Japan equities + yen: USD/JPY ~162 (4-decade lows), Nikkei -2.6% Jul 17 with Japan chip names hit hard. But oversold + divergence = SQUEEZE RISK, and EWJ perp is VERY THIN. MIXED \u2014 trend down but exhausted.",
+    "sentiment": "OVERALL: Risk-off in semis/AI. Fed headwind. EWJ (short): No hard 48h catalyst. Mixed: BOJ normalization/rising yields help bank-heavy index, but stronger yen + stretched tech valuations hurt exporters. July BOJ meeting is the swing factor. Near-term NEUTRAL, drifting with global risk-off; thin liquidity in the perp.",
+    "analyst": "EWJ perp effectively untradeable: recent 15m candles print 0.0-0.5 volume, so market orders gap and stops can't execute honestly. Sits on 91.56 support with 4h RSI 17.7, stoch 3.8 and bullish divergence \u2014 a stretched, exhausted downtrend where shorting invites a squeeze and longing lacks reversal signal. Weak composite (-0.198, 29% conf), no 48h catalyst. HOLD, size 0; with-trend short only on a decisive break below 91.5.",
+    "portfolio": "EWJ: HOLD (conf 0.34) \u2014 untradeable thin tape on support with bullish divergence; short only on a clean 91.5 break."
+  },
+  "timestamp": "2026-07-17T00:05:43.687796+00:00"
+}

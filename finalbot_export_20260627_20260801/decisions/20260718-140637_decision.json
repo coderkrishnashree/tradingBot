@@ -1,0 +1,29 @@
+{
+  "action": "hold",
+  "symbol": "SOL/USDT:USDT",
+  "size": 0.0,
+  "entry": 74.72,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "leverage": 1,
+  "playbook": "none",
+  "forecast": "Price coiled 74.5-75.0 just under VWAP (76.1) after holding the 74.46 flush on volume; expect chop 74.4-75.2. A clean close below 73.3 opens the next leg toward ~71.5; a bounce should stall at 76.0-76.3.",
+  "expectancy_note": "Market short here is R:R <1 (~$1.4 to support 73.3, stop must sit above 76.1 VWAP ~1.5 ATR); p(win) hurt by oversold 4h RSI 31 + F&G 25 + BTC-oversold squeeze on 0.79 corr.",
+  "rationale": "4h is a strong aligned downtrend (ADX 40, all TFs short, 2.77 long-skew is contrarian-bearish), but price sits mid-range only ~1.6 ATR above 73.3 support with 4h RSI 31 near oversold and Extreme Fear + oversold BTC (0.79 corr) posing real squeeze risk. The account's short book is a net loser (36 shorts, 47% win, -0.87 avg) from late entries into stretched tape, so a market short here has no edge and sub-1 R:R to first support. Wait for a bounce to 76.0-76.3 to short with room, or a confirmed break of 73.3. Size 0.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 73.3,
+    "expires_min": 240,
+    "note": "Losing 73.3 4h support on a close confirms trend continuation toward ~71.5 with real room."
+  },
+  "transcript": {
+    "macro": "Regime HOSTILE-to-MIXED, risk-off thin weekend tape. Fri close S&P -1.0%/Nasdaq -1.4% (week -2.9%, semis smoked on AI-capex fears). BTC ~$63.9k, F&G 25 Extreme Fear, BTC dominance ~56.4% firm (alts disadvantaged). US equities CLOSED til Monday. SOL: funding neutral, OI 6.24M, L/S 2.77 heavily long (contrarian bearish), structure_bias -0.30, BTC corr 0.785 (highest), RS -2.17%. Environment supports short / hostile to longs; main risk = oversold BTC bounce squeeze.",
+    "sentiment": "Crypto Extreme Fear (F&G 25). SOL only pure crypto, scan short bias. No <48h binary catalyst. Long-horizon bullish narrative (ETF filings progressing, staking-ETF filed Jul 16, #1 RWA holders, Alpenglow Q3) but nothing dated <48h. Near-term NEUTRAL-to-bearish; trades with BTC risk-off. Watch relief-rally squeeze on oversold F&G.",
+    "analyst": "Strong aligned 4h downtrend and crowded-long crowd argue short, but price is mid-range only ~1.6 ATR above 73.3 support with 4h RSI 31 near oversold, Extreme Fear, and oversold BTC (0.79 corr) posing squeeze risk. Account short book bleeds from late entries into stretched tape; market short here is sub-1 R:R with no edge. Hold; short a VWAP bounce (76.0-76.3) or a confirmed 73.3 break instead.",
+    "portfolio": "SOL: HOLD (0.50) \u2014 no edge shorting mid-range above support into oversold/squeeze risk; wait for bounce or 73.3 break."
+  },
+  "timestamp": "2026-07-18T14:06:37.050793+00:00"
+}

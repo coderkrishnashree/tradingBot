@@ -1,0 +1,25 @@
+{
+  "symbol": "COIN/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.62,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "expectancy_note": "No-trade wins: fresh long is a blow-off chase (RSI86/ADX81/stoch100, %B1.05, pinned AT resistance, most-crowded-long funding = negative expectancy); short has p(win)~0.4 vs fat gap-up tail into Mon reopen at record-high equities. Both sub-1.5 R:R with holiday illiquidity - flat is highest EV.",
+  "rationale": "COIN is a tokenized equity with the cash market shut for US July 4 holiday (~48h), so the perp is a thin, gappy proxy on a stale $165.48 print with real weekend/Monday-reopen gap risk. Price is pinned exactly at resistance 169.26 after a ~19% five-session rip, fully extended (%B>1, stoch 100), while funding is the single most crowded-long reading in the whole scan - a fresh long is chasing a blow-off with no edge and negative expectancy. A short is the more tempting side technically, but with equities at record highs into a long weekend and a fat gap-up tail into Monday's bell plus zero divergence yet, there is no confirmation and no clean structure to lean a stop against - R:R does not clear 1.5. Standing aside is the highest-expectancy action; I want to see the blow-off actually crack before fading it.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 167.08,
+    "expires_min": 240,
+    "note": "Losing intraday support 167.08 breaks the vertical blow-off and confirms mean-reversion has begun, arming a small confirmed short back toward VWAP/the 165.48 stale close."
+  },
+  "transcript": {
+    "macro": "Underlying is a tokenized US equity; cash market CLOSED for July 4 (~48h), reopens Mon Jul 6. Perp trades on stale $165.48 Jul-2 close -> thin, gappy, weekend/reopen gap risk. Equity regime constructive (Jul 2 record closes); crypto regime weaker (BTC ~$62.8k, Extreme Fear, recent $1.5B long flush, COIN/BTC corr 0.455). Derivatives: funding +0.001177 = most crowded-long in whole scan (component pinned -1.0); OI 7,028 (thin); L/S 1.025 (balanced); order-book imbalance +0.361 (bid-heavy, only long-supportive input); structure_bias -0.298 (contrarian-negative). Momentum blown off: RSI 86.3, Stoch 100, ADX 81.5, price 169.26 AT resistance after ~19% 5-session rip. Regime = squeeze, regime_blocked=true. Verdict: HOSTILE-to-MIXED for a fresh long; no clean edge for a short (Jul 6 gap-up risk). Cleanest = stand aside / very small; do not hold size through Monday bell.",
+    "sentiment": "Tone bullish but near-term overheated. COIN +19% in 5 sessions to ~$165-169 on analyst upgrades (consensus Buy, ~$250 median PT) + crypto-regulation optimism; raw-long signal blocked by regime filter. No hard-dated <=48h catalyst: earnings Jul 30 (outside window); CLARITY Act a multi-week Senate narrative with no confirmed floor vote. July 4 US holiday -> thin/gappy perp, elevated slippage/whipsaw. Crypto backdrop mild headwind; move is idiosyncratic/regulatory-hope, vulnerable to mean-reversion. No hacks/delistings/negative shocks. Net near-term news NEUTRAL-to-slightly-cautionary; does not justify a fresh long into extreme overbought; argues for fade/patience.",
+    "analyst": "Fresh long = blow-off chase with negative expectancy (extreme overbought + most-crowded-long funding, pinned at resistance). Short is technically more tempting but lacks confirmation and clean stop structure with fat gap-up tail into Monday reopen at record-high equities; R:R does not clear 1.5. Holiday illiquidity compounds both. Standing aside is highest-EV. Reconsider a small confirmed short only if price loses 167.08 intraday support (breaks the vertical), targeting VWAP / 165.48 stale close.",
+    "portfolio": "COIN/USDT:USDT -> HOLD (stand aside), conf 0.62; no trade into blow-off + holiday-closed underlying, watch 167.08 break to arm a small confirmed short."
+  },
+  "timestamp": "2026-07-04T00:14:45.886237+00:00"
+}

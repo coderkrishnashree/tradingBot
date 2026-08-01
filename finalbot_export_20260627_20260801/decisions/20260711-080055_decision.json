@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "CRCL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "The OCC-approval pop to 67.55 is being sold: four straight lower 15m closes (67.28>67.24>67.13>67.06) drift back toward VWAP ~66.85. Expect chop 66.6-67.3 on thin weekend tape; no clean edge until either the 67.55 spike high is reclaimed or the 66.6 base cracks.",
+  "expectancy_note": "No entry: p(win) ~50/50 mid-range chop; a long here chases a faded spike into the most crowded-long book in the set (L/S 2.69, bias -0.335) \u2014 the late-continuation pattern that lost this account. No structure to fade either. Best expectancy is flat.",
+  "rationale": "CRCL popped on the OCC bank-charter headline but the 67.55 spike was immediately sold back to 67.06 on fading volume (four straight lower 15m closes 67.28>67.24>67.13>67.06); price sits mid-range (support 61.78 / resistance 73.72) near VWAP with nothing to lean on. The crowded-long book (L/S 2.69, structure_bias -0.335) plus negative orderbook lean argue against chasing the long, while RSI 58 and no resistance test give no short. Saturday US-closed tape is thin/gappy with Monday gap risk \u2014 HOLD is the highest-expectancy play; wait for the level to pick a side. Reconsider trigger: reclaim of 67.55 spike high (with-trend long) within 240 min.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 67.55,
+    "expires_min": 240,
+    "note": "Reclaiming the OCC-spike high on volume proves the headline momentum is real and re-opens a with-trend long toward 68.5+."
+  },
+  "transcript": {
+    "macro": "Regime: NEUTRAL tilting risk-off. Equity tape firm but stretched; Fed hawkish (CME ~61% Sept HIKE odds, inflation 3yr high); US-Iran/Strait-of-Hormuz geopolitics live. Scan Sat 2026-07-11 07:56 UTC \u2014 US cash closed, so CRCL/MU/TSLA/QQQ perps are thin/gappy with Monday gap risk (CL trades continuously). QQQ violently overbought (RSI 84.6 4h) pinned at resistance 730.3, offer-heavy book. MU strongest momentum, no earnings risk \u2014 cleanest long but on pullbacks not chases. TSLA only positive-RS name (+1.84% vs BTC) with real bid support, but 5m blown off. CRCL high-beta, most crowded-long book (L/S 2.69) \u2014 smallest size. CL rolling over: ADX 67.6 downtrend, L/S 4.17 (squeeze-lower fuel), OPEC+ supply \u2014 short-favored with a Hormuz upside tail. Verdict: NEUTRAL, risk-off tilt; smaller size, favor MU-on-pullback / CL shorts over chasing QQQ/TSLA.",
+    "sentiment": "CRCL: OCC approved Circle National Trust (bank charter) July 10 (+~7% premarket after +12% Jul 9), USDC/stablecoin regulatory tailwind; overhang = Compass Point PT cut to $55 on Stripe 'Open USD'. No earnings until ~Aug 11. Lean BULLISH. MU: blowout fiscal Q3 ~Jun 24, guided ~$50B, popped 15% then pulled back 14-22% off high \u2014 catalyst spent, no 48h binary; Anthropic memory-supplier narrative supportive multi-quarter. Lean NEUTRAL. TSLA: Q2 earnings July 22 (EPS ~$0.47-0.48); deliveries beat (480,126, +18%) but stock trades margins/robotaxi (auto GM ex-credits the key number); overbought into the event. Lean NEUTRAL. CL: OPEC+ July 5 keeps unwinding cuts (+188k bpd Aug), UAE record output caps rallies, WTI ~$71-72 heavy; swing factor = fragile US-Iran/Hormuz ceasefire (upside tail, can spike within hours). Lean BEARISH. QQQ: +28%/3mo AI boom, call demand highest since 2007, SpaceX added Jul 7; real catalyst = June CPI July 14 + new Fed Chair Warsh testimony (hot 4.2% YoY print = downside risk); extremely overbought. Lean NEUTRAL.",
+    "analyst": "CRCL popped on the OCC bank-charter headline but the 67.55 spike was immediately sold back to 67.06 on fading volume (four straight lower 15m closes 67.28>67.24>67.13>67.06); price sits mid-range (support 61.78 / resistance 73.72) near VWAP with nothing to lean on. The crowded-long book (L/S 2.69, structure_bias -0.335) plus negative orderbook lean argue against chasing the long, while RSI 58 and no resistance test give no short. Saturday US-closed tape is thin/gappy with Monday gap risk \u2014 HOLD is the highest-expectancy play; wait for the level to pick a side. Reconsider trigger: reclaim of 67.55 spike high (with-trend long) within 240 min.",
+    "portfolio": "CRCL: HOLD (0.6) \u2014 don't chase a faded OCC-spike into the most crowded-long book on thin weekend tape."
+  },
+  "timestamp": "2026-07-11T08:00:55.654880+00:00"
+}

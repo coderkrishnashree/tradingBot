@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "TSLA/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.58,
+  "playbook": "none",
+  "forecast": "Slow low-volume bleed toward 391 support; but 4h RSI 24.5 / stoch 18 are stretched and a cool CPI (8:30am ET) can trigger a relief squeeze back to VWAP ~398. Chop between 391 and 397 into the print, not a clean next-candle continuation.",
+  "expectancy_note": "Short thesis is right-direction but wrong-timing: market-short at 395.3 gives only ~4pts to 391 support vs ~2.5pt honest stop above 396.7 swing = sub-1.5 R:R, into RSI 24.5 and a binary CPI. p(win) ~0.45. HOLD beats chasing.",
+  "rationale": "TSLA is composite-short and structure-short (L/S 1.80 long-crowded, funding long), but it is already ~1.4% below VWAP with 4h RSI 24.5, stoch 18 and price only ~1.1% above the 391 support - precisely the late-into-oversold continuation that has bled this account (learner: aligned -0.52, high-ADX shorts 0.45 win / -1.85 avg). Binary CPI at 8:30am ET on a thin/gappy tokenized equity adds squeeze risk against a fresh short. No entry offers R:R >= 1.5 to the first structural target without an oversized stop, so I stand aside and let the print resolve.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 390.9,
+    "expires_min": 240,
+    "note": "A decisive break of the 391 support (ideally post-CPI, on volume) confirms breakdown continuation and clears the oversold-bounce trap that vetoes a market short here."
+  },
+  "transcript": {
+    "macro": "Regime HOSTILE-to-MIXED, tape favors shorts. Nasdaq -1.55% yesterday. Binary CPI 8:30am ET today; bond traders raising Fed HIKE bets into Jul 28-29 FOMC. Oil shock (Hormuz) compounds inflation. TSLA BTC corr 0.30 (low). Thin/gappy perps around CPI -> size smaller; squeeze risk on cool print. TSLA structure_bias -0.324 (L/S 1.80 long-crowded, funding long); composite short, aligned, p_win 0.42; 4h RSI 24.5 stretched. Earnings Jul 22 outside window.",
+    "sentiment": "TSLA mixed/slightly heavy near-term. Earnings Jul 22 after close (outside 48h). Strong deliveries (480,126) and Miami Robotaxi known/priced. Today soft ~-3%, slipping after-hours on NJ Robotaxi-ban law (small fresh negative). UBS PT $442 long-horizon. Net neutral-to-slightly-bearish, consistent with short bias.",
+    "analyst": "TSLA is genuinely short-biased (composite -0.341, structure_bias -0.324, rel_strength -0.26), but already stretched down - 4h RSI 24.5, stoch 18, %B 0.15, 1.4% below VWAP - sitting only ~1.1% ($4.3) above 391 support. A market short chases into oversold with marginal sub-1.5 R:R plus binary-CPI squeeze risk on a thin tokenized-equity perp. Learner data punishes this profile (aligned -0.52, high-ADX shorts 0.45 win / -1.85 avg). Highest-expectancy action is HOLD, with a reconsider armed on a clean break below 391.",
+    "portfolio": "HOLD TSLA - right direction, wrong timing; stand aside into CPI, reconsider on break of 391."
+  },
+  "timestamp": "2026-07-14T10:32:57.861036+00:00"
+}

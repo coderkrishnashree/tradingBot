@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "QQQ/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Slow fade off 710.6 continues: 15m lower-highs on dead volume drift price toward the 702-700 VWAP/consolidation shelf next 3-6 bars before it decides. No clean edge mid-range (688 support, 727 resistance).",
+  "expectancy_note": "No entry clears 1.5R -- long chases 4h RSI 73/stoch 88.7 into resistance (account's #1 loss), short fights ADX-65 uptrend with crowd already short and no level; HOLD is highest expectancy.",
+  "rationale": "QQQ is stalling mid-range under 727 with 4h massively extended (RSI 73, stoch 88.7, %B 0.92) while 15m/5m rolled flat-to-down on fading volume -- a chase-long setup that bleeds. Shorting a 65-ADX trend with the crowd already short (L/S 0.82) and no structural level gives no honest 1.5R stop either. Wait for a 700 break (short toward 688) or a 712 reclaim (long resumes).",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 700.0,
+    "expires_min": 240,
+    "note": "Losing the 700 VWAP/shelf confirms the fade extends and opens a clean short toward 688 support with a defined stop."
+  },
+  "transcript": {
+    "macro": "Regime MIXED/cautious (2026-07-21). US equity tape choppy, headline-driven; hawkish-Fed (market pricing a possible HIKE by Oct) is a headwind for high-multiple tech. Crypto tape constructive short-term (BTC ~$66.5k, 5-wk high, +ETF inflows) -> helps MSTR/CRCL crypto-proxies only. BIGGEST RISK: earnings inside the hold window -- GOOGL reports Wed 7/22 after close, INTC Thu 7/23 after close; do NOT carry either through the print. Several longs (INTC, CRCL, EWY, EWJ, MSTR) already RSI-extended/crowded-long -> smaller size, prefer intraday over multi-day until earnings clear.",
+    "sentiment": "Overall risk-OFF: Nasdaq-100 down 5 straight weeks on AI-capex anxiety + Iran/oil spike; heavy earnings + macro week (GOOGL/TSLA 7/22, INTC 7/23, FOMC 7/28-29, BOJ 7/30). GOOGL bearish/event-risk (earnings 7/22). AAPL neutral-slightly bearish (earnings 7/30, outside window). QQQ bearish tilt, extended into weak macro week. MSTR neutral fragile bounce on fading volume. INTC bearish/event-risk, ~12% swing priced into 7/23 print, RSI88 extended. CRCL neutral-cautious: OCC bank-charter catalyst spent, Mizuho downgrade + Visa overhang, RSI89. EWJ neutral/mildly bullish but Nikkei record already priced, BOJ 7/30 caps runway. EWY bearish: KOSPI in a record -23% crash w/ circuit breakers -- scan long tilt fights a violent country downtrend.",
+    "analyst": "Market barometer stalling mid-range under 727, 4h extended (RSI 73, stoch 88.7, %B 0.92) while 15m/5m roll flat-to-down on fading volume -> long is a chase, short fights a 65-ADX uptrend with crowd already short and no level. Absorbs GOOGL/INTC earnings reactions. No 1.5R entry; HOLD, watch 700 break vs 712 reclaim.",
+    "portfolio": "HOLD QQQ -- extended, mid-range, no edge; short below 700 or long back over 712."
+  },
+  "timestamp": "2026-07-21T20:31:45.053201+00:00"
+}

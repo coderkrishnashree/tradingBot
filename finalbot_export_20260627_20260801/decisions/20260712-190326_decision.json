@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "TSM/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.34,
+  "playbook": "none",
+  "forecast": "Coils 437-438.5 on near-dead volume, pinned at VWAP; no directional path until either the 425.7 support gives way (opens 4h short toward 420) or 440.5 reclaims. Expect continued low-vol chop into Monday's cash open with gap risk.",
+  "expectancy_note": "p(win) ~0.4 for a mid-range short here; entry at VWAP with 0.62% ATR forces a stop that gets tapped by any coil-bounce before support breaks \u2014 negative expectancy. Best EV is waiting for the 425.7 break.",
+  "rationale": "Genuine short fuel exists (structure_bias -0.43, L/S 1.78 lopsided-long, orderbook -0.64, 4h -0.86) but the tape does not support entry NOW: price sits mid-range at VWAP (dist -0.08%), composite only 37% and NOT aligned, 1h reads long against the 4h short, ADX 36.7 with RSI 47.7 = no momentum, and volume is essentially dead (0.02-2.4 contracts). Shorting a coil mid-range into weekend/Monday-gap risk with a July-16 earnings landmine 4 days out is the account's classic late/no-edge loss. Hold; arm a short trigger on a confirmed loss of support so the structural thesis gets room before earnings, and size stays zero given DISFAVORED liquidity + binary.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 425.72,
+    "expires_min": 240,
+    "note": "Losing the 4h support flips the muddy coil into a confirmed structural short with orderbook/L/S fuel and room to 420 before the earnings binary; only then does a short carry positive expectancy."
+  },
+  "transcript": {
+    "macro": "Regime NEUTRAL, cautiously risk-on into CPI. Weekend/Sunday \u2014 tokenized equities off a CLOSED cash market: thin, gappy, Monday-gap risk -> smaller size. US June CPI Tue Jul 14 inside window. TSM: structure_bias -0.43 (L/S 1.78 lopsided-long = contrarian short fuel; orderbook -0.64 heavy offer), 4h short. BUT near-dead volume (0.02-2 contracts/candle) AND a July-16 EARNINGS LANDMINE (~4d, inside window). Lean short bias per structure but EVENT-CAPPED \u2014 smallest size, do NOT hold through earnings. DISFAVORED for size.",
+    "sentiment": "TSM BEARISH, event risk \u2014 EARNINGS ~4 DAYS. TSMC reports Q2 Jul 16 \u2014 hard binary inside horizon's tail. Guidance $39-40.2B rev, 65.5-67.5% GM; Street $3.81/ADR; analysts expect a RAISE to FY26 outlook. Single biggest scheduled catalyst in basket. Scan short (37% conf, 4h -0.86, orderbook -0.64) but price can gap violently into/after Jul 16 \u2014 do NOT hold naked into the print. Geopolitical (25% chip tariff eff Jan 2026, Taiwan-US trade deal) known/priced.",
+    "analyst": "TSM row of scan. Price 437.73 mid-range, pinned at VWAP (dist -0.08%), %B 0.447, ADX 36.7, RSI 47.7 = no momentum. Per-TF muddy: 4h -0.86 short vs 1h +0.26 long; composite 37% NOT aligned. Structure is the short case (bias -0.43, L/S 1.78, orderbook -0.64). Volume dead (0.02-2.4 contracts), coiling 437.4-438.4. Shorting a mid-range coil at VWAP into Monday-gap + Jul-16 earnings binary = account's late/no-edge loss. HOLD; arm a structural short on a confirmed loss of support 425.72.",
+    "portfolio": "HOLD TSM \u2014 real short fuel on structure but muddy mid-range coil, dead liquidity, and a Jul-16 earnings binary forbid entry; short armed on a break below 425.72, size stays zero."
+  },
+  "timestamp": "2026-07-12T19:03:26.983550+00:00"
+}

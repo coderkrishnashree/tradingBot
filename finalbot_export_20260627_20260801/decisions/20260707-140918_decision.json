@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "INTC/USDT:USDT",
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "size": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price sits on 111.20 support after an 8% capitulation; next 2-4 bars most likely a relief bounce toward 114-116 OR a clean break of 111.20 - no clean edge until it resolves.",
+  "expectancy_note": "Shorting here = chasing RSI 13.8, stoch 0.3, -7.97% vs VWAP into fresh support = negative expectancy (snap-back risk). Longing a knife closing on its low with no reversal print = also low p(win). Best EV is wait.",
+  "rationale": "INTC just liquidation-dumped from 118 to 111.25, closing the last bar on its low right at the 111.20 support that printed this bar. Every timeframe is maximally oversold (4h RSI 13.8, stoch 0.3, %B -0.334) and price is 8% below VWAP - far too extended to add a fresh short, yet no reversal confirmation exists to justify a long. Structure_bias is only -0.067 with orderbook +0.167, so the short is not even crowded enough to fuel more downside. No trade until 111.20 resolves.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 111.2,
+    "expires_min": 240,
+    "note": "A decisive break and hold below 111.20 support breaks the capitulation floor and opens a fresh trend-continuation short; a hold above keeps the bounce thesis alive."
+  },
+  "transcript": {
+    "macro": "Risk-off, semiconductor-led selloff (Samsung Q2 sparked semi fear; SOX broke uptrend, Nasdaq below 50-DMA; Nasdaq futures -0.9% vs S&P -0.3%). Pullback from Monday's record highs. BTC chopping ~$62.9k, funding mild +0.01%, OI flat - no crypto risk-on. Environment SUPPORTS tech/semi shorts over hours-to-days, but these are LATE in a one-directional intraday flush (RSIs stretched) so squeeze risk on a bounce is the main hazard; favor smaller size and shorts on a bounce toward VWAP rather than chasing lows. Macro events in window: FOMC minutes Jul 8, June jobs Jul 9.",
+    "sentiment": "Overall: risk to any short book is a BTC/AI-chip sentiment bounce plus the FOMC-minutes/NFP prints. NVDA: constructive/dip-buy, no 48h binary (earnings ~Aug 26), Jul 7 Kyber-delay-rumor denial nudged +1%. EWY: highest near-term catalyst risk - ~40% Samsung/SK Hynix, KOSPI whipsawing on AI doubt (-8% Jul 2, +5.8% Jul 3), Samsung Q2 print + SK Hynix ~$29B Nasdaq DR listing both live, two-way gap risk. MSTR: BTC-proxy (corr 0.81), BTC ~$64k in Extreme Fear (F&G ~23-27); Strategy actively selling BTC to fund preferred divs - slight overhang; bounce off Extreme Fear is key short risk. TSLA: post-catalyst cooldown; Q2 deliveries (Jul 2) beat big at 480,126, now priced; next binary Jul 22 earnings (outside window); overbought, delivery beat argues against pressing shorts. INTC: no 48h trigger (earnings Jul 23); rides semis/Nasdaq beta.",
+    "analyst": "HOLD @111.25. Late-stage capitulation - dumped 118->111.25, closing on its low at the 111.20 support printed this bar. Maximally oversold everywhere (RSI 13.8, stoch 0.3, %B -0.334), 8% below VWAP: too extended to short fresh, no reversal to justify a long. Uncrowded short (-0.067). Wait for 111.20 to resolve. conf 0.60.",
+    "portfolio": "HOLD - late capitulation on support, wait for 111.20 to resolve."
+  },
+  "timestamp": "2026-07-07T14:09:18.985895+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "ORCL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.35,
+  "playbook": "none",
+  "forecast": "Price coils in the 117.5-118.7 zone; the 119.17 spike was sold and momentum is fading, but there is no clean trigger. Expect chop into FOMC (Wed 2pm ET) \u2014 a break under 117.5 opens 116/113; a reclaim of 119.2 negates the sell bias.",
+  "expectancy_note": "No structural level here mid-range; short p(win)~0.42 (account bleeds on shorts, -0.85 avg, and late-short-into-bounce is its #1 loser), long blocked by crowded-long 2.19 + RS -18% + risk-off. Best expectancy is waiting for the 117.5 break to short toward 113.",
+  "rationale": "ORCL is a stalling bounce inside a downtrend, sitting mid-range (support 113, resistance 129) with no level to lean a stop against \u2014 a short here needs a stop above 119.2 with the nearest target barely 1R away, failing the 1.5 R:R check. Macro is short-biased (most crowded long L/S 2.19, RS -18%, semis bear market) but that resolves on structure not next-candle, and FOMC tomorrow is a binary that can violently flip this tape; the account's history shows late shorts into stretched/chopping tape are its worst trades. Highest-expectancy action is to wait: a clean loss of the 117.5 base is the tradable short trigger toward 113.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 117.5,
+    "expires_min": 240,
+    "note": "Losing the 117.5 bounce base confirms sellers regained control and opens a clean short toward 116/113 with a defined stop back above 118.7."
+  },
+  "transcript": {
+    "macro": "Risk-OFF into a binary event window (FOMC 7/28-29). Semiconductors in an acknowledged bear market (SOX >20% off June ATHs, AI-capex de-rating). Long/short ratios lopsided long \u2014 ORCL 2.19 is the MOST crowded long in the book, structure_bias -0.36. RS ORCL -18.4% vs BTC (deep laggard). Path of least resistance down/short-biased but prone to dip-buy bounces; FOMC can flip tape Wed. Per-symbol lean: ORCL neutral-to-short.",
+    "sentiment": "ORCL: no imminent binary; next earnings ~Sept 7 (does NOT report this week). Tone mixed-to-heavy: wounded name near low end of range (~$115-118), negative momentum. Only long-horizon positives ($7B DoW contract, PT ~$249) none tradable in 48h. Follows index/AI-sentiment beta. Lean: neutral-to-slightly-bearish.",
+    "analyst": "ADX 83 extreme but composite only 46% and not aligned; TFs split (15m short, 1h long). Crowded-long 2.19 into risk-off is the classic setup, but price is mid-range 117.5-118.7 with the 119.17 spike sold \u2014 a stalling bounce inside a downtrend. No structural level to lean a stop against; short needs stop above 119.2 with target barely 1R away, failing R:R. Account history: late shorts into stretched/chopping tape are its worst trades. FOMC binary <48h. No clean long either. NO-TRADE mid-range; the 117.5 break is the real short trigger toward 113.",
+    "portfolio": "HOLD ORCL \u2014 mid-range chop, no level, FOMC binary; wait for 117.5 break to short toward 113."
+  },
+  "timestamp": "2026-07-27T12:34:52.654279+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "EWY/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Chop between 163.0 and 166.4 with gap risk on Seoul reopen; price just rejected 166.2 and is drifting back to mid-range 165.3 - no clean directional path until 163 breaks or 166.4 reclaims with volume.",
+  "expectancy_note": "No honest R:R exists: >60% implied vol + closed underlying = whipsaw that runs any 1x-ATR stop before the move; my account's shorts win only 47% (avg -0.94) precisely in this chase-into-shock condition, so best expectancy is flat.",
+  "rationale": "Scan shows a stale technical uptrend, but the live catalyst (KOSPI -4.5%, circuit breakers, BoK tightening, risk-off) argues down while the underlying is closed - the token gaps rather than trends, so neither a long into a coming gap-down nor a short into violent whipsaw offers a stop that survives noise at acceptable R:R. Weak RS (-29.35%) and thin liquidity add no edge. The candles show 163 held twice and 166.2 rejected: I want price to pick a side before committing. Size 0 - this is the highest-expectancy action given my short book bleeds in exactly this setup.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 162.9,
+    "expires_min": 240,
+    "note": "Losing the 162.9 swing low (held twice) confirms NAV repricing has begun and opens a cleaner momentum-short with structure-based stop back above 165."
+  },
+  "transcript": {
+    "macro": "Mixed, cautiously risk-on session; chips bouncing. Funding ~0, L/S uniformly crowded-long. Event risk inside window: INTC 7/23, GOOGL/MSFT 7/28, FOMC 7/28-29. US-Iran weekend tension pushed oil ~$90 (broad risk-off tail). EWY = Korea ETF, least-crowded L/S, mild technical uptrend BUT thin (ATR 1.52%) and underlying (Seoul) closed -> gappier than US names. Marginal long / prefer stay-out given weak RS (-29.35%) and closed-market thinness.",
+    "sentiment": "EWY bearish / high-volatility risk. KOSPI fell ~4.5% today (July 20) as AI/chip names (Samsung, SK Hynix) dumped; Kospi vol >60%, circuit breakers tripped 7x this year, Bank of Korea started tightening (+25bp to 2.75%). Middle East tensions compounding risk-off. Fresh already-moving downside shock - argues WITH a short but expect violent whipsaw; underlying closed so token likely gaps down on repricing.",
+    "analyst": "HOLD EWY - stale technical uptrend collides with a live Korea risk-off shock into a closed, thin, gappy tape; no stop survives the whipsaw at good R:R, so stay flat and re-debate if 162.9 breaks.",
+    "portfolio": "HOLD EWY - gap/whipsaw risk into closed Seoul market; no honest R:R, stay flat, re-debate a short below 162.9."
+  },
+  "timestamp": "2026-07-20T16:44:01.694901+00:00"
+}

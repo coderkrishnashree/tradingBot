@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "ORCL/USDT:USDT",
+  "size": 0.0,
+  "entry": 133.08,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Expect continued thin overnight chop between 132.2 and 133.5 into US open; no directional thrust until cash market reopens and resolves the coil.",
+  "expectancy_note": "No-trade beats both sides: p(win) on a chase-long into 1h RSI 74 vs bearish structure_bias -0.336 is <0.5, and shorts have bled -1.59 avg for this account (n=30); range playbook here is 33% win, -2.92.",
+  "rationale": "ADX 23.6 = no trend, price pinned mid-Bollinger (%B 0.48) in a dead, drying-volume overnight coil (132.4-133.1) with the underlying CLOSED and gap risk into US open. The scan's long is a stretched counter-trend bounce (1h RSI 74.1) against the most bearish structure of the group (structure_bias -0.336, L/S 2.2 long-crowded) and rel-strength -19%; a short fights fresh bullish divergence and this account's proven short-bleed. No honest R:R>=1.5 in either direction with no level to lean on, so flat is the highest-expectancy call. Size 0.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 133.5,
+    "expires_min": 240,
+    "note": "Reclaiming the bounce high with volume on US open confirms the bullish divergence and gives a real long trigger toward VWAP/136; losing 132.2 instead would reopen the downside toward 127.65 support."
+  },
+  "transcript": {
+    "macro": "Overall risk-ON but late-session/event-sensitive; US cash closed green on soft June PPI, VIX 15.67; ~49% odds Sept Fed HIKE. US market CLOSED - thin/gappy overnight. BTC ~$62.6k, down. ORCL: weakest conviction; underlying shut. Broad tech ripped today (megacaps +3-4%) but ORCL NOT a named leader; proxy limp at 133.1, 4h trend DOWN, RSI 41.7, ADX 23.6 (no trend). Positioning long-crowded: L/S 2.2 (bias -1.0), orderbook -0.12, structure_bias -0.336 (most bearish structure of the four). Saving grace: bullish divergence flagged, lower-TF scores turned up (15m/30m/1h long). Near-zero BTC corr 0.18, rel-strength -19%. Smaller size, treat as range not trend.",
+    "sentiment": "ORCL BEARISH overhang, no imminent binary. Earnings already OUT (record Q4 FY2026, EPS beat, RPO backlog $638B +363%) but reaction ugly - shares fell ~6% post-earnings, down ~35% in June (worst month since 1990), near 52-week lows ~$130-135. Market punishing AI-capex/debt concerns: ~$56B FY26 capex, negative ~$24B FCF, ~$70B+ FY27 capex guided, OpenAI concentration risk, 21,000 job cuts. Multi-day sentiment overhang, next print months out. Tape weak/oversold - scan's long is a counter-trend bounce vs negative fundamentals, LOW conviction. Minor dividend event around now.",
+    "analyst": "ADX 23.6 = no trend, price pinned mid-Bollinger in a dead drying-volume overnight coil (132.4-133.1) with the underlying CLOSED and gap risk into US open. Long is a stretched counter-trend bounce (1h RSI 74.1) against the most bearish structure of the group (structure_bias -0.336); short fights fresh bullish divergence and this account's proven short-bleed. No honest R:R>=1.5 either way. HOLD; long trigger on a 133.5 reclaim with volume at US open, else downside on loss of 132.2.",
+    "portfolio": "ORCL: HOLD (conf 0.60) - no-edge overnight VWAP coil, bearish overhang vs stretched bounce; wait for US-open resolution above 133.5 or below 132.2."
+  },
+  "timestamp": "2026-07-15T23:34:18.942032+00:00"
+}

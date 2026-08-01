@@ -1,0 +1,25 @@
+{
+  "symbol": "CRCL/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.34,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "size": 0.0,
+  "playbook": "none",
+  "forecast": "Price tapped the 63.3-63.4 base and bounced to 64.0; expect chop between 63.3 and 65.4. A decisive 15m close below 63.3 unlocks the crowded-long unwind toward 62 then 59.4; else drift back to 65.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 63.3,
+    "expires_min": 240,
+    "note": "Losing the 63.3-63.4 base that held twice confirms the crowded-long unwind and opens a clean short toward 62 then support 59.44."
+  },
+  "rationale": "CRCL is the flagged laggard (RS -16.6%) with crowded longs (L/S 2.57, structure_bias -0.30) and a 4h/5m rollover, so the bias is bearish \u2014 but price already fell 66.9->63.3 and the last 15m bar is an up-close bounce off the base. Shorting 64 into a stretched 5m (RSI 32) invites the routine counter-bounce that stops late shorts; ADX 23.4 is only marginal trend. Best expectancy is to wait for a base break, or a reclaim that flips the thesis. No size until then.",
+  "transcript": {
+    "macro": "Regime risk-ON but extended. Fed FOMC Jul 28-29 outside window. Crypto-adjacent: BTC $65.1k firm but ETF outflows heavy. CRCL is the LAGGARD (-16.6% RS vs BTC, L/S 2.57 crowded long = contrarian bearish, 5m rolling over). Neutral/smaller size \u2014 crowded long, chop.",
+    "sentiment": "CRCL: earnings ~Aug 10-11 (outside window). Recent flow headline-driven (bank-operating approval, US Tiger upgrade to Buy Jul 7, Nomura/Japan USDC-FX partnership for 2027) \u2014 all long-horizon, not tradeable. Elevated vol, thin float = gappy. Neutral-to-noisy, no 48h catalyst.",
+    "analyst": "Bearish bias (RS laggard, crowded L/S 2.57, 4h/5m down) but price already dropped 66.9->63.3 and bounced to 64.01 on an up-close bar; 5m RSI 32 stretched. Shorting spot is chasing after the move (top loss pattern), ADX 23.4 marginal, composite flat. No clean fade at spot -> HOLD, short only triggers on a decisive break below 63.3.",
+    "portfolio": "HOLD CRCL \u2014 bearish bias but no clean entry after the bounce; reconsider short on a 63.3 base break."
+  },
+  "timestamp": "2026-07-15T16:36:46.455496+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "symbol": "CL/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.6,
+  "size": 0,
+  "entry": 74.47,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "none",
+  "forecast": "Two-sided chop in the 74.0-74.7 box continues near-term; the last two bars flushed to 74.08 then reclaimed 74.47 on heavy volume, so no directional edge until 74.0 breaks (flush toward VWAP/72) or 76.13 gives way.",
+  "expectancy_note": "No entry clears 1.5R with an honest ~1xATR ($1.43) stop from mid-box; p(win) ~coin-flip into binary Hormuz gap risk. HOLD beats chasing an extreme-overbought long under resistance or shorting an active geopolitical bid.",
+  "rationale": "4h is extreme-overbought (RSI 76, ADX ~90, +2.49% above VWAP) and jammed under 76.13 with the book 3.5:1 net long (structure_bias -0.269) \u2014 a bad spot to chase a long, while the active geopolitical bid + extreme-ADX uptrend make a fresh short reckless. Lower TFs (30m RSI 49, 1h RSI 36) have already cooled and the 15m tape is a balanced 74.0-74.7 coil with a just-defended floor, so there is no next-move edge and no level that gives 1.5R on an honest stop. Size 0: the highest-expectancy action into unschedulable Hormuz headline risk is to wait for the box to resolve.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 74.0,
+    "expires_min": 240,
+    "note": "Losing the 74.0 box floor (defended twice on heavy volume) confirms the crowded 3.5:1 long book is flushing and opens a mean-reversion short toward VWAP/72 \u2014 the higher-probability squeeze the positioning implies."
+  },
+  "transcript": {
+    "macro": "CL = WTI crude oil (commodity, decorrelated from crypto; btc_corr -0.223). Regime driven by the 2026 Strait of Hormuz crisis and its unwinding: oil spiked to Brent ~$120+ during US-Iran war then collapsed on a 60-day ceasefire MOU; CL now $74.47, above pre-conflict $65-75 base. Headline risk is enormous and TWO-SIDED \u2014 any single Hormuz/ceasefire headline can gap 3-5% either direction; thin event-driven tape. OPEC+ agreed further Aug hikes (~188kbd), a latent bearish overhang once the Strait normalizes. Positioning: funding 0.0 (neutral), long/short ratio 3.556 = crowd HEAVILY net long (contrarian red flag, drives structure_bias -0.269), order-book imbalance +0.104 (mild bid support). Signal-vs-structure tension: composite says LONG (~37.7% conf) but momentum is stretched (RSI 76, ADX ~90, +2.49% above VWAP, jammed under resistance 76.13). Environment MIXED, leaning cautious for a fresh long; do NOT favor a short. A long is defensible only on reduced size with tight stop, ideally on a pullback toward VWAP/support ($67-72).",
+    "sentiment": "'CL' verified = Bybit CLUSDT 'Cruel Oil' perp launched ~late March 2026, tracks WTI crude, USDT-settled \u2014 a commodity, no listings/unlocks/hacks/on-chain catalysts. Drivers: OPEC+ supply, Strait of Hormuz geopolitics, EIA/API inventories, DXY, Fed. Recent: OPEC+ +188k bpd hike (quota ~35.83M bpd), UAE pumping near-record after quitting OPEC, Hormuz tanker traffic normalizing = bearish structural pressure; offset by sporadic drone strikes near Hormuz keeping a geopolitical risk premium (sharp 2-5% up-days) = headline-whippy, not cleanly trending. Near-term (<=48h) scheduled catalysts: IEA Monthly Oil Market Report + Baker Hughes rig count due ~July 10 (gap risk); EIA inventories + FOMC minutes landed July 8. Social tone: mildly bearish-to-neutral (glut narrative) fighting intermittent geopolitical fear bid = headline-driven mean-reverting regime. Crowded longs (L/S 3.56) mean a downside flush is the higher-probability squeeze. Verdict: neutral-to-slightly-AGAINST a fresh long.",
+    "analyst": "4h is extreme-overbought (RSI 76.2, ADX 89.6, bb_pctb 0.81, +2.49% above VWAP) and jammed under 76.13 resistance with the book 3.5:1 net long (structure_bias -0.269) \u2014 a poor spot to chase a long. No short either: active geopolitical bid + extreme-ADX uptrend, and recent bars bounced off 74.0. Lower TFs already cooled (15m RSI 60, 30m RSI 49.5, 1h RSI 36.3). 15m tape is a balanced 74.0-74.7 coil; bar 19 dumped to 74.08 on heavy volume (9938), bar 20 reclaimed 74.47 on heavy volume (10119) = two-sided chop, no directional momentum. No entry offers 1.5R on an honest ~1xATR ($1.43) stop; binary Hormuz headline risk makes mid-range entries coin-flips. HOLD is the highest-expectancy action. Trigger: decisive break of 74.0 floor (crowded-long flush toward VWAP/72) or clean reclaim above 76.13.",
+    "portfolio": "CL/USDT:USDT \u2014 HOLD (conf 0.60, size 0): overbought-into-resistance + crowded 3.5:1 longs + binary Hormuz gap risk; wait for the 74.0-74.7 box to resolve."
+  },
+  "timestamp": "2026-07-09T05:26:48.012090+00:00"
+}

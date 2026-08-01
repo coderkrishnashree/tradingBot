@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "COIN/USDT:USDT",
+  "size": 0.0,
+  "entry": 157.18,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Stoch pinned at 4.2 and 5m/15m RSI ~36 into the 157.05 shelf after a failed pop to 159.41 and rejection; likeliest next move is a mean-revert bounce back toward VWAP/158.3-158.9 over the next 2-4 bars, NOT a clean breakdown from here \u2014 a market short now gets bounce-stopped.",
+  "expectancy_note": "Short here p(win)~0.42 (chasing stoch=4.2, thin pre-open, learner short win-rate 0.49/-0.84R); waiting for either a VWAP retest to short or a support break beats a market entry at the low. HOLD is highest expectancy.",
+  "rationale": "COIN is composite-short and aligned with soft crypto (btc_corr 0.63), but price is only -0.28% from VWAP with stoch 4.2 and LTF RSI ~36 \u2014 deeply oversold and pressed against the 157.05 immediate shelf right after a rejected pop. That is the account's classic late-short-into-stretched-tape trap; a routine bounce would hit any honest stop. Market is US-cash-closed (thin/gappy) and there is no imminent binary, so size stays zero until price either reclaims the rejection zone (invalidating the short) or loses support 152.88 on volume to confirm continuation.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 152.88,
+    "expires_min": 240,
+    "note": "Losing the 4h support shelf on volume confirms downtrend resumption and opens a lower-risk short toward the next leg; until then oversold LTF favors a bounce, not a chase."
+  },
+  "transcript": {
+    "macro": "Regime MIXED/cautious. US cash closed pre-open; tokenized perps thin/gappy until 09:30 ET. Crypto weak link: BTC low-$60k, BTC.D 56.3%, bias heavily bearish, bounce off ~$58k. COIN composite SHORT, structure ~neutral (bias +0.007), L/S 0.75 (crowd actually SHORT), btc_corr 0.626 \u2014 a short aligns with weak crypto tape and is NOT fighting crowded positioning.",
+    "sentiment": "COIN tone tracks soft crypto (Fear&Greed 36, BTC corr ~0.63). Earnings Jul 30 after close \u2014 OUTSIDE 48h but approaching; no imminent binary. No fresh hack/listing/regulatory shock. NEUTRAL-to-slightly-negative near term, driven by crypto beta.",
+    "analyst": "Composite-short aligned with soft crypto, but price only -0.28% from VWAP, stoch 4.2, LTF RSI ~36 \u2014 deeply oversold at the 157.05 shelf after a rejected pop to 159.41. Market short = late-short-into-stretched-tape trap; a routine bounce hits the stop. HOLD; short arms on loss of support 152.88 on volume, or short a bounce into VWAP/158.3-158.9.",
+    "portfolio": "COIN: HOLD (conf 0.50) \u2014 short thesis intact but LTF oversold; arm short below 152.88."
+  },
+  "timestamp": "2026-07-20T08:43:17.459252+00:00"
+}

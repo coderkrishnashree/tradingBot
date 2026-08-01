@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "MSFT/USDT:USDT",
+  "size": 0,
+  "entry": 391.5,
+  "stop_loss": 377.5,
+  "take_profit": 406.0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Selloff is decelerating at the lows (last 3 bars flat at 391.0-391.7); expect a choppy base/small bounce toward 393 rather than a clean directional leg over the next 2-4 bars.",
+  "expectancy_note": "Short is chasing RSI ~18-25 into 378 support (the account's classic late-short-stopped-by-bounce loss); long has no confirmation (no divergence, no reclaim, risk-off thin tape). Neither clears 1.5R, so HOLD is highest expectancy.",
+  "rationale": "MSFT composite is weak-short but momentum is already deeply extended down (RSI 38 with LTFs at 17-25, %B negative, stoch 9.4) just above 378 support, so fresh shorts risk being stopped by a routine oversold bounce. There is no long trigger yet: no bullish divergence, no VWAP reclaim, risk-off chip-led tape and thin off-hours liquidity. Best expectancy is to wait for either an oversold-bounce confirmation (reclaim ~393) or a decisive break of 390.7/378 with re-accelerating momentum.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 393.1,
+    "expires_min": 240,
+    "note": "Reclaiming the 393 VWAP/stall zone would confirm the oversold bounce and flip me to a tactical mean-reversion long toward 400-406."
+  },
+  "transcript": {
+    "macro": "RISK-OFF, fragile, chip-led selloff; rips suspect. MSFT scan composite is WEAK (~15.2, flat), per-timeframe signals mostly negative (notably -0.90 on the longest TF). Tokenized-equity pair thin off-hours. FOMC Jul 28-29 outside window. Net: HOSTILE/weak setup for a fresh long.",
+    "sentiment": "MSFT neutral pre-event. FQ4 earnings Jul 29 after close - outside window. No near-term catalyst; index-driven.",
+    "analyst": "MSFT composite is weak-short but momentum is already deeply extended down (RSI 38, LTFs 17-25, %B negative, stoch 9.4) just above 378 support - fresh shorts risk being stopped by a routine oversold bounce, and there's no long trigger yet (no divergence/reclaim, thin risk-off tape). Wait for a 393 reclaim (bounce long) or a decisive 390.7/378 break with re-accelerating momentum.",
+    "portfolio": "HOLD MSFT - deeply oversold into 378 support; too late to short, no bounce confirmation to long. Wait for a 393 reclaim or a fresh breakdown."
+  },
+  "timestamp": "2026-07-20T12:16:36.378506+00:00"
+}

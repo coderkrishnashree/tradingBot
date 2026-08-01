@@ -1,0 +1,24 @@
+{
+  "action": "hold",
+  "symbol": "AAPL/USDT:USDT",
+  "size": 0.0,
+  "entry": 326.63,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "rationale": "The 4h is deeply oversold (RSI 25.4, %B 0.10) sitting just -1.19% below VWAP, and the last 8 mid-TF candles are basing with higher-lows (325.85->326.63) rather than continuing down \u2014 so a market short here risks a routine counter-bounce stopping out before continuation, the exact pattern this book loses on. The bear case is real but already priced at the extreme; want either a confirmed break of the 325.6 range low (short-continuation into 320/312) or a bounce back to VWAP ~330.5 to short from strength. With US cash closed and thin liquidity, waiting for the level is higher expectancy.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 325.6,
+    "expires_min": 240,
+    "note": "Losing the 20-bar range low confirms oversold short-continuation resumes toward 320/312 \u2014 enter short on the break rather than pre-empting here."
+  },
+  "transcript": {
+    "macro": "RISK-OFF/defensive, thin overnight (US cash CLOSED). AAPL is the one name leaning SHORT \u2014 composite -0.41, 1h/4h down, 4h RSI 25.4 (oversold), price below VWAP (-1.19%), not crowded (L/S 0.99). Oversold into support ~312 \u2014 don't add on a flush, watch for a bounce.",
+    "sentiment": "AAPL NEUTRAL, mildly heavy near-term: earnings Jul 30 after close (Cook's final call) \u2014 outside 48h. No <=48h catalyst; oversold/short bias technically, fundamentally quiet. Neutral-to-slightly-soft short-term.",
+    "analyst": "Bear case real but already priced \u2014 4h RSI 25.4, %B 0.10, only -1.19% off VWAP, and mid-TF candles basing (higher-lows). Market-shorting is the classic late-short-into-stretched-tape loss; longing is countertrend in risk-off. HOLD; short on a confirmed break of 325.6 toward 320/312.",
+    "portfolio": "HOLD AAPL \u2014 oversold, basing; short-continuation armed below 325.6."
+  },
+  "timestamp": "2026-07-21T05:45:51.361613+00:00"
+}

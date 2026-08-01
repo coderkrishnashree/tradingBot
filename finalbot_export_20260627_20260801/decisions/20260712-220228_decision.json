@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "MU/USDT:USDT",
+  "size": 0.0,
+  "entry": 980.68,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.34,
+  "playbook": "none",
+  "forecast": "Price is pinned at VWAP mid-range (980), likely to keep chopping 976-990 on thin Sunday tape; no directional edge until it breaks the 976 floor toward 950 or reclaims 990 toward 1000+.",
+  "expectancy_note": "No setup: 1h long vs 4h short conflict, %B 0.42 (mid-band), price exactly at VWAP, ADX from trend but composite flat/unaligned (0.87). Any entry here is a coin-flip inside noise \u2014 negative expectancy vs waiting for a level.",
+  "rationale": "MU is dead-center of its 876-1049 range, sitting on VWAP with mixed per-TF cells (1h long, 4h/5m short) and a tiny composite (conf 7.7, flat). It is Sunday: US cash closed, perp is thin/gappy (1-40 unit candles), and the bullish catalyst (blowout Q3) is already spent while CPI + Fed testimony Tuesday are the real binaries. Crowded longs (L/S 1.64) and RS -16% give a mild bearish lean but no trigger; no honest stop-to-target here clears 1.5R, so HOLD is the highest-expectancy call until price picks a side.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 976.0,
+    "expires_min": 240,
+    "note": "Losing the 976 range floor (recent wick-low shelf) with crowded longs above confirms a range-break lower, opening a short toward 950 then 876 \u2014 that would flip HOLD to short."
+  },
+  "transcript": {
+    "macro": "Regime MIXED, leaning risk-on but late-cycle/fragile. Semis crowded/extended (BofA bubble risk 0.91). Sunday Jul 12 \u2014 US cash CLOSED, perps thin/gappy until Mon. Within 48h: June CPI Tue Jul 14 + Fed Chair Warsh first testimony Tue. Group co-correlated (MU/EWY 0.81, INTC/EWY 0.62) \u2014 smaller size. MU: mildly bullish composite (+0.18) but L/S skewed, RS -10%; tied to EWY 0.81, INTC 0.62 \u2014 memory/semi block.",
+    "sentiment": "Overall semis CAUTIOUS/VOLATILE \u2014 SOX ~11% plunge on AI-spend scare, whipsaw. MU: tone strong but catalyst ALREADY SPENT \u2014 blowout fiscal Q3 (rev ~$41.5B vs ~$35.8B est, guided Q4 ~$50B), +15% AH, now >$1T cap, pop in the price. Live risk = HBM-oversupply narrative that hammered SK Hynix; MU is MOST exposed if 'memory glut' theme reasserts. High corr EWY 0.81, SNDK 0.82. Near-term neutral.",
+    "analyst": "Dead-center of 876-1049 range, at VWAP, %B 0.42. Per-TF conflict: 1h long (+0.45) vs 4h short (-0.33), 5m short. Composite conf 7.7, flat/unaligned. Thin Sunday tape (1-40 unit candles). Catalyst spent; CPI+Fed Tue are the binaries. Crowded longs (L/S 1.64), RS -16% = mild bearish lean, no trigger. No 1.5R setup. HOLD; short on break below 976.",
+    "portfolio": "MU: HOLD (size 0) \u2014 mid-range coin-flip; short only if it loses the 976 range floor."
+  },
+  "timestamp": "2026-07-12T22:02:28.208290+00:00"
+}

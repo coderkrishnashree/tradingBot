@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "SOL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price is pinned under 79.0 resistance while stretched (RSI 75.6, %B 0.95, +1.83% over VWAP, stoch 87); expect a stall/pullback toward the 75.7-76.0 VWAP/prior-shelf zone over the next few bars before the uptrend can offer a clean long \u2014 a chase here gets shaken by the routine pullback first.",
+  "expectancy_note": "Long-into-resistance chase R:R only ~1.6 to a hard 79 wall with p(win) low given overbought+crowded-long; waiting for a VWAP pullback long lifts p(win) materially. Shorting an intact uptrend is the account's proven losing pattern (short win 0.49, -0.77 avg). HOLD is best expectancy.",
+  "rationale": "SOL is in a real uptrend (ADX 44.8, all TFs long) but overbought and extended right under 79.0 resistance, with L/S 2.70 crowded long and positive funding \u2014 buying here is the account's #1 loss pattern (late continuation into stretched tape stopped by the routine pullback). It is a BTC-beta laggard (corr 0.805, RS -5.5%), so it rips or reverses on BTC not its own edge. Want to buy the dip toward VWAP (~75.7-76.0) or a confirmed hold above 79.0, not chase mid-air; no valid short since shorts into this trend have bled.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 76.0,
+    "expires_min": 240,
+    "note": "A pullback to the 76.0 VWAP/shelf zone resets the extension and offers a proper trend-continuation long entry with a tight stop under 75.3 and room to 79.0."
+  },
+  "transcript": {
+    "macro": "Cautiously risk-on, low-conviction; BTC ~$64.6k range-bound/chop, dominance ~58.6% ticking up (mild alt headwind); no FOMC in 48h. SOL: funding +8.1e-05 (mild), OI ~6.08M rising into push to 77.0 (real participation), L/S 2.70 crowded long, orderbook flat, RSI 75.6/stoch 87 overbought, under resistance 79.0 / support 73.3, BTC-corr 0.805, RS -5.5%. Supportive-but-late; size down.",
+    "sentiment": "Crypto Fear&Greed 36 (down from 64 a week ago) \u2014 dominant near-term force. SOL ~$77, ~74% below ATH, trying to hold/break $80. ETF filings + Alpenglow upgrade are late-Aug/multi-week, NOT \u226448h. No near-term binary \u2014 neutral; watch broad crypto tape.",
+    "analyst": "Real uptrend but overbought/extended under 79 resistance, crowded long, positive funding \u2014 a market long is the account's #1 loss pattern; shorting an intact uptrend has bled historically. HOLD; buy a dip toward VWAP 75.7-76.0 or a confirmed hold above 79.0.",
+    "portfolio": "HOLD SOL \u2014 don't chase the rip into resistance; armed pullback-long below 76.0."
+  },
+  "timestamp": "2026-07-20T13:43:34.158608+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "XAG/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.58,
+  "playbook": "none",
+  "forecast": "Price just reversed hard off 55.48 support (78k-vol hammer, close 55.97) and is bouncing 55.48 -> 56.48; expect the squeeze to extend toward the 57.0-57.3 VWAP/broken-support zone over the next 4-8 bars, then bears likely re-assert. Selling 56.48 into that bounce chases a stretched (-2.45% VWAP, 4h RSI 27.8) tape.",
+  "expectancy_note": "Short-into-oversold-bounce here ~ p(win) 0.40 (learner short win 0.52 w/ -0.52 avg pnl, negative model weights on vwap_dist/atr/oversold); waiting to short the 57+ retest gives ~2:1 R:R vs chasing 56.48 for a coin-flip. HOLD is highest expectancy.",
+  "rationale": "Trend is down (ADX 34, macro + sentiment bearish) but price is deeply oversold and just held 55.48 support with a violent high-volume reversal, heavy retail-long crowding is squeeze fuel, and price is already 2.45% below VWAP \u2014 market-shorting now is the exact late-into-stretched-tape pattern that bleeds this book. I want to sell the bounce into 57.0-57.3 or a fresh loss of 55.48, not chase mid-air. No 48h binary forces the hand.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 55.48,
+    "expires_min": 240,
+    "note": "A decisive break/hold below 55.48 support voids the bounce thesis and reopens the downtrend for a clean continuation short toward 54.5."
+  },
+  "transcript": {
+    "macro": "Regime MIXED, risk-off; SILVER is the strongest short. Last 56.48, -2% day/-5.6% week, RSI 27.8 (4h) momentum down. Stronger USD + higher real yields + cooling industrial demand. Structure_bias -0.39 (most bearish of four). Funding +0.000255 (longs paying), L/S 3.9 heavily long-skewed. CAVEAT: oversold + crowded longs = squeeze/bounce risk. Don't chase below support 55.48.",
+    "sentiment": "Fresh bearish shock TODAY; -2% to ~$56.5 breaking toward triangle bottom ($55.71). Soft PPI but silver fell on weak global manufacturing + firm dollar; US-Iran interim deal trims safe-haven bid. Supply deficit is LONG-horizon backdrop, not 48h. NO scheduled binary in 48h. Watch $55.71 \u2014 hold there is reversal risk. Corr 0.89 to XAUT (also weak).",
+    "analyst": "Downtrend intact but price just held 55.48 with a 78k-vol hammer reversal (close 55.97) and bounced to 56.48; deeply oversold (RSI 27.8), -2.45% VWAP, crowded longs = squeeze fuel. Market-shorting now is the late-into-stretched-tape loss pattern. Sell the bounce into 57.0-57.3 or a fresh 55.48 break. HOLD with reconsider at 55.48.",
+    "portfolio": "XAG \u2014 HOLD (conf 0.58); strongest short thesis but wait for a 57+ fade or 55.48 break, don't chase the reversal bounce."
+  },
+  "timestamp": "2026-07-16T13:35:09.031310+00:00"
+}

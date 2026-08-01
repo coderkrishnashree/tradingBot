@@ -1,0 +1,25 @@
+{
+  "action": "hold",
+  "symbol": "CL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Price is pinned under 80.15/80.67 resistance after a blow-off; expect a stall/pullback toward VWAP ~79.0-79.2 over the next 2-4 bars. A dip that holds 79.0 sets a with-trend long; a break under 79.0 opens the fade toward 78.4.",
+  "rationale": "WTI just spiked to 80.15 on Iran/Hormuz and rejected - 15m RSI 87.4, stochastic 76, +2.54% above VWAP, and a flagged bearish divergence all say the up-thrust is exhausted right into the 80.67 resistance, while the current bar's volume collapsed to 785 vs 16-20k. Composite is chop/flat (ADX 18.6, regime_blocked), so there is no clean trend to join and no confirmed reversal yet. With two-way headline gap risk overhanging a stretched tape, highest-expectancy action is to wait for a VWAP retest (~79.0) to buy the dip with trend, or a loss of 79.0 to confirm the fade - do not chase into 80.67.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 79.0,
+    "expires_min": 180,
+    "note": "Losing the 79.0 shelf breaks the rally's higher-low structure and confirms the exhaustion/bearish-divergence fade toward 78.4; a reclaim-and-hold above instead is the with-trend long dip-buy."
+  },
+  "transcript": {
+    "macro": "Regime mildly RISK-ON but fragile; US-Iran escalation / Strait of Hormuz (~1/5 global crude flows) live tail risk. CL: WTI ~$79.5, Brent >$80, 4-session rally on Iran/Hormuz. Headline-driven, two-way gap risk; momentum favors longs but de-escalation reverses hard. Trade small, tight stops.",
+    "sentiment": "CL BULLISH / most actionable NOW - only name with a live price-moving catalyst. WTI ~$79.5, 1-month high, up 4 straight days on active US-Iran escalation and Hormuz risk (fresh airstrikes, disabled Iran-bound tanker). Gappy, two-way risk; any Hormuz headline moves it within hours - trade the tape, keep stops tight.",
+    "analyst": "15m spike to 80.15 rejected, RSI 87.4 blow-off, +2.54% VWAP, bearish divergence, volume collapsed to 785 vs 16-20k at the high. Composite flat/chop (ADX 18.6, regime_blocked). Long extended = chase; short fights a live escalation catalyst with gap-through-80.67 risk. HOLD; wait for VWAP retest or 79.0 loss.",
+    "portfolio": "HOLD CL/USDT - exhausted blow-off into resistance amid two-way headline risk; buy a VWAP dip or fade below 79.0, don't chase."
+  },
+  "timestamp": "2026-07-16T12:35:10.078480+00:00"
+}

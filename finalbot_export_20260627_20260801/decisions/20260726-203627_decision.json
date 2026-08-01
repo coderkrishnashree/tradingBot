@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "SOL/USDT:USDT",
+  "confidence": 0.6,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "none",
+  "forecast": "Price grinds sideways 74.8-75.9 near-term; a lower-high pattern off 75.94 is building but 73.39 support holds. Expect continued fade toward 74.0 then a decision at 73.39 within a few bars.",
+  "expectancy_note": "No edge mid-range: long ruled out (RSI 73, crowded L/S 2.84, RS -9.3%, hostile macro/FOMC); short mid-range into squeeze-risk has p(win)~0.45 with no level. Best expectancy is wait for the 73.39 break.",
+  "rationale": "SOL is pure BTC-beta (corr 0.843) and the weakest major (RS -9.3%), overbought on the trend TF (4h RSI 73.4) and the single most crowded long (L/S 2.84) into a HOSTILE window with FOMC Wed. The 15m candles show a fade from the 75.94 high with lower highs and RSI 39.7, but price sits mid-range (73.39-78.86), so neither a fresh long nor a mid-range short offers 1.5R with an honest stop. Want a clean loss of 73.39 to arm the mean-reversion short; until then, hold.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 73.39,
+    "expires_min": 240,
+    "note": "Losing range support confirms the rollover and BTC-beta breakdown, arming a short toward 71.5-72."
+  },
+  "transcript": {
+    "macro": "HOSTILE window (2026-07-26). Broad tech/AI-capex selloff (Nasdaq ~-2% on week). Hawkish rates: June CPI 3.5%, oil>$100, ~34% chance of a HIKE next week, Sep hike ~81%. Event minefield <48h: FOMC Wed Jul29 2pm ET, MSFT/META earnings Wed AH, AAPL/AMZN Thu, GDP+PCE Thu 8:30am. Crypto weak: BTC ~$64.6k off 21-mo low, $4.5B June spot-ETF outflows. Precious metals the one bright spot (DXY<103, safe-haven bid). Crowded longs across the board = squeeze fuel. Cut size hard; prefer flat before Wed; equity-perp funding ~0. | SOL: High BTC-beta (0.84), RSI 73, most crowded major long (L/S 2.84), bias -0.26. No fresh longs.",
+    "sentiment": "Event-heavy pre-earnings cycle. HARD earnings flags: META (Wed Jul29 AH), AAPL/COIN/MSTR (Thu Jul30). FOMC + GDP/PCE + BOJ (Jul29-30) = desk-wide landmines. Crypto Fear&Greed ~33-39 (fear). Cleanest names without single-name binaries: TSLA (bearish drift post -14.5% earnings), ORCL (bearish, -50% since Jun), XAG (mild bull, safe-haven), CRCL/SOL (sentiment/technical). | SOL: Neutral-to-slightly-bearish; MS spot SOL ETF NYSE Arca approval Jul24 (slow-burn). Tied to BTC.",
+    "analyst": "SOL is pure BTC-beta (corr 0.843) and the weakest major (RS -9.3%), overbought on the trend TF (4h RSI 73.4) and the single most crowded long (L/S 2.84) into a HOSTILE window with FOMC Wed. The 15m candles show a fade from the 75.94 high with lower highs and RSI 39.7, but price sits mid-range (73.39-78.86), so neither a fresh long nor a mid-range short offers 1.5R with an honest stop. Want a clean loss of 73.39 to arm the mean-reversion short; until then, hold.",
+    "portfolio": "HOLD SOL/USDT:USDT @ conf 0.6"
+  },
+  "timestamp": "2026-07-26T20:36:27.151123+00:00"
+}

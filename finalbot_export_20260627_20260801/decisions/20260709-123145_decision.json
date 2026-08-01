@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "SOL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price coils 77.36-77.75 just above session low; likely either a dead-cat bounce toward the broken 78.0-78.3 shelf/VWAP (the fadeable short) or a grind lower to test 74.21 support. No clean edge at 77.64 mid-air.",
+  "expectancy_note": "Fresh short into 4h RSI 29.6 / -2.7% below VWAP is the account's #1 loser (14 shorts, avg -2.61 PnL from chasing); buying the bounce lacks R:R with support 3+ away. Best expectancy is to wait and fade a bounce.",
+  "rationale": "Macro/crowding (L/S 2.328, RISK-OFF, PUMP unlock Jul 12) favor shorts, but SOL is already oversold and stretched below VWAP, so a market short here gets stopped by the routine counter-bounce that killed prior late shorts. Price sits mid-air between support 74.21 and VWAP ~79.8 with no impulse in the recent bars, giving no tight-stop entry in either direction. Hold and re-debate on a bounce into the broken 78.0-78.3 shelf, where a short gets a ~1xATR stop above VWAP and 2.5R to support.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 78.3,
+    "expires_min": 240,
+    "note": "Reclaim of the broken 78.0-78.3 shelf sets up a high-expectancy fade short into trapped crowded longs with a tight stop above VWAP."
+  },
+  "transcript": {
+    "macro": "RISK-OFF, geopolitics-driven (US-Iran oil supply shock). Equities heavy, poor breadth; 10yr 4.59%, DXY 101.1, divided Fed with hikes on table. Crypto Extreme Fear (F&G 22), BTC ~$62.4k, dominance 56.6% (money leaving alts). Environment favors SHORTS/defense over new longs. SOL: crypto beta, weakest link, crowded long L/S 2.328, bias -0.308, but 4h RSI 29.6 oversold under VWAP -2.7%.",
+    "sentiment": "SOL neutral-to-slightly-bearish near-term: 700+ days uptime, Clearstream added SOL custody (Jul 8), but tiny ETF inflows amid heavy sector ETF outflows ('ETF paradox'). PUMP unlock Jul 12 ($123.65M, +21.35% supply) plus 14 SOL-ecosystem unlocks this month = liquidity overhang capping upside. No upside catalyst inside 48h. BTC chop drains the crypto-beta tailwind.",
+    "analyst": "Macro/crowding favor shorts but SOL is oversold and stretched below VWAP; a market short gets stopped by the routine counter-bounce that has been the account's #1 loser (14 shorts, avg -2.61). Price coils mid-air between 74.21 support and ~79.8 VWAP with no impulse, so neither side offers a tight-stop entry. Hold; fade a bounce into the broken 78.0-78.3 shelf where a short earns ~1xATR stop and 2.5R.",
+    "portfolio": "SOL: HOLD (conf 0.60) \u2014 armed to fade a bounce into 78.3."
+  },
+  "timestamp": "2026-07-09T12:31:45.320926+00:00"
+}

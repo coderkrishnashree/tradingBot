@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "TSM/USDT:USDT",
+  "size": 0.0,
+  "entry": 399.55,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.55,
+  "playbook": "none",
+  "forecast": "Price defended 386.81 support with a sharp V-bounce to 405, now fading on drying volume; expect chop 397-405 next few bars. A push back into the 404-406 rejection zone is the sell-the-rally spot; a clean loss of 386.81 opens 380. Mid-range 399.55 offers no edge either way.",
+  "expectancy_note": "Short bias is right but entering mid-range at RSI 31.8 just above twice-defended support is the account's #1 loser (chase into oversold, stopped by the bounce). Best expectancy = limit short on a bounce to VWAP/405 rejection (~4R to 386.81) OR fresh short on a support break; neither is live yet, so HOLD beats a mid-air entry.",
+  "rationale": "TSM gapped down on earnings and is now oversold (4h RSI 31.8, -2.79% vs VWAP) but bounced hard off 386.81 support (388->405) and is only pulling back in a controlled, low-volume fade \u2014 not breaking down. Structure favors shorts (long/short 2.419, structure_bias -0.32) but funding 0.0 means no squeeze fuel, and shorting mid-range above defended support has poor R:R with high bounce risk. Size 0: wait to sell a rally into the 404-406 rejection zone or a confirmed break of 386.81; a tokenized US equity trading thin off-hours amplifies the gappy-bounce risk.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 386.81,
+    "expires_min": 240,
+    "note": "A 15m close below 386.81 breaks the twice-defended support and the earnings-day low, confirming trend continuation toward 380 \u2014 that is the clean short trigger without chasing into an oversold bounce."
+  },
+  "transcript": {
+    "macro": "Treat as equity, not crypto (BTC corr ~0). Semis in active rout: Nasdaq -1.47%, SMH -4%, chip industry ~-20% from record. Trigger is TSM's own July 16 Q2 print \u2014 beat (rev $40.2B +33.7% y/y, net +77%, GM 67.7%) but raised 2026 capex to $60-64B -> market read as margin/FCF compression, sold whole complex (MU -8%, INTC -4%). TSM positioning supports shorts: structure_bias -0.32, long/short 2.419 (crowd trapped long), funding 0.0 (no squeeze fuel), OI modest. Momentum aligned short: 4h RSI 31.8, ADX 59.6, -2.79% vs VWAP, near support 386.81. BIGGEST RISK: oversold near defended support after -5%+ gap, crowd still 2.4:1 long -> violent mean-reversion bounce risk. Guidance: short bias supported but SMALLER size, sell rallies not chase-breakdown-at-support; wider stops (ATR 2.59% 4h); tokenized equity trades thin off-hours, keep horizon tight.",
+    "sentiment": "Fundamentally bullish but near-term bearish/oversold \u2014 that gap IS the story. TSMC Q2 beat July 16 (rev +36% YoY, EPS $4.31 vs ~$3.77 est, guidance raised >40% growth) yet sold off ~6-7% ($422->$397) on capex/margin worries + rotation out of AI/semis. Earnings binary already behind us -> shock value spent; near-term driver now broader semi/AI tape + Nasdaq (QQQ corr 0.66). Section 122 Taiwan 10% tariff sunsets ~July 24 (outside 48h, muted). Net tilt: neutral-to-mildly-bearish, aligns with scan short bias; no fresh bullish catalyst in 48h but oversold RSI means a short chases an already ~7% extended move \u2014 bounce/squeeze is the main risk.",
+    "analyst": "Price capitulated to 386.81 support then V-recovered to 404-405 and is now fading on drying volume, holding well above the low \u2014 controlled pullback, not a breakdown. Shorting mid-range at 399.55 (RSI 31.8, just above twice-defended support) is the 'chase into oversold near defended support' pattern the macro notes warn against; bounce risk is live and funding 0.0 gives no squeeze pressure. Clean short is a rally into the 404-406 rejection zone or a confirmed break of 386.81 \u2014 neither is live, so HOLD with a reconsider armed to short on a 15m close below 386.81 (targets 380).",
+    "portfolio": "HOLD TSM/USDT:USDT \u2014 right short bias, wrong entry; stand aside, sell a bounce into 404-406 or short a break below 386.81."
+  },
+  "timestamp": "2026-07-17T18:04:46.911785+00:00"
+}

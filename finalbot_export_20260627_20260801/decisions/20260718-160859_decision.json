@@ -1,0 +1,23 @@
+{
+  "symbol": "HOOD/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.66,
+  "size": 0.0,
+  "entry": 99.47,
+  "stop_loss": 99.47,
+  "take_profit": 99.47,
+  "rationale": "The last ~20 15m bars are frozen in a 0.25-wide band (99.41-99.66) on near-zero volume (last bar 0.0), the signature of illiquid Saturday equity-token tape; RSI 3.5 / ADX 89 / vwap -7.2% are broken artifacts (real 15m-1h RSI is 38/36/32, structure bias only -0.134). Shorting the 'downtrend' fights oversold snap-back and any BTC/COIN bounce (corr 0.52/0.77); a mean-reversion long has zero volume confirmation. No <=48h binary (earnings 7/29 is outside window) and Monday gap risk dominates - no honest stop survives it, so stand aside.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 96.68,
+    "expires_min": 240,
+    "note": "Losing the 96.68 support on real volume confirms the downtrend resuming with genuine flow rather than a weekend pin, opening a short with a definable stop."
+  },
+  "transcript": {
+    "macro": "Regime risk-OFF into weekend. Saturday: US equity markets CLOSED; equity tokens on thin weekend perp, near-zero volume, prices pinned; Monday gap risk dominant. HOOD: most crypto-linked equity (BTC corr 0.52, tracks COIN 0.77); scan RSI 3.5 / ADX 89 / vwap -7% are BROKEN weekend-tape artifacts - a crypto bounce would lift HOOD; short here fights oversold mean-reversion and any BTC recovery.",
+    "sentiment": "HOOD bearish momentum but earnings risk approaching (Q2 earnings Wed 7/29 after close, outside 48h). Fundamentals soft: Q1 crypto revenue -47% YoY; current crypto slump (F&G 27) pressures Q2 volumes. But readings violently oversold/exhausted - snap-back/squeeze risk high. Correlates ~0.52 BTC, ~0.77 COIN. Bearish trend but so stretched that chasing shorts is dangerous.",
+    "analyst": "Price pinned 99.4-99.7 on dead weekend perp (last bar 0.0 volume); extreme RSI 3.5/ADX 89/vwap -7.2% are broken artifacts (real 15m-1h RSI 38/36/32, bias only -0.134). Both sides are ~coin-flip weekend-gap bets, not structure trades; est p(win)~0.5 with gap risk uncapped by any honest stop. HOLD has best expectancy. Reconsider on a 96.68 support break on real volume.",
+    "portfolio": "HOLD HOOD - extreme readings are weekend artifacts, no edge; short armed on 96.68 break."
+  },
+  "timestamp": "2026-07-18T16:08:59.400589+00:00"
+}

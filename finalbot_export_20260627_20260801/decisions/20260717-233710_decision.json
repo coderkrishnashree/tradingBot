@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "AAPL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Dead-flat coil at 333.4-334.1 on drying volume; into the weekend gap this drifts sideways-to-lower with the red Nasdaq tape, no clean impulse either way until Monday cash open.",
+  "expectancy_note": "A market long here is a chase: 4h RSI 73, +1.44% over VWAP, orderbook -0.33, into risk-off closed market - p(win) ~0.42 (learner), routine pullback hits any honest stop first. No extreme to fade either. HOLD beats both.",
+  "rationale": "AAPL's long tilt lives only on overbought 1h/4h (RSI 72-73, ADX 43) while the 15m/5m are flat and the last ~13 bars are pinned in a 0.7-point range with volume dying to zero - momentum is spent, not pulling back to VWAP for a clean trend re-entry. Buying now chases an extended move into resistance 339 with a -0.33 orderbook and a bleeding Nasdaq on a thin, gap-prone closed-market tape - the account's textbook late-long loss. No fade level either. Wait for a controlled dip-and-reclaim of VWAP or a decisive break of 339 before committing capital.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 339.17,
+    "expires_min": 240,
+    "note": "A clean break/hold above the 339 resistance proves buyers absorbed the stacked offers and the uptrend has fresh legs - that flips this to a breakout long."
+  },
+  "transcript": {
+    "macro": "RISK-OFF/hostile for longs. Nasdaq100 -1.5% Fri (week -2.9%) on a semiconductor selloff + geopolitical/inflation risk. Tokenized US equities driven by the Nasdaq tape; late-Friday US cash closed -> thin/gap-prone until Monday. FOMC Jul 28-29 + PCE/GDP Jul 30 loom. AAPL lean: NEUTRAL, slight caution on longs - only name with a long tilt (blended +0.48, up 1h/4h) BUT 4h RSI 73.2 overbought, orderbook -0.33, fighting a red index; counter-trend long, keep small.",
+    "sentiment": "Broad risk-off tech selloff (Chinese 'Moonshot AI' model + US-Iran re-escalation). AAPL: mixed. Earnings Thu 7/30 (outside window). Recent idiosyncratic support (foldable-iPhone lineup report, Broadcom supply deal to 2031, Citi PT raise to $365) is all long-horizon - do not trade on it. Less exposed to AI-capex fear than semis but still drags with a weak Nasdaq. Near-term roughly neutral.",
+    "analyst": "Long tilt lives only on overbought 1h/4h (RSI 72-73, ADX 43); 15m/5m flat, last ~13 bars pinned in a 0.7pt range with volume dying to zero - momentum spent. Market long chases into resistance 339 with a -0.33 orderbook and a bleeding Nasdaq on a thin gap-prone tape; learner p(win) ~0.42. No fade extreme either. HOLD; arm breakout long above 339.17.",
+    "portfolio": "HOLD AAPL - overbought counter-index long with no pullback; only buy a clean break above 339."
+  },
+  "timestamp": "2026-07-17T23:37:10.930354+00:00"
+}

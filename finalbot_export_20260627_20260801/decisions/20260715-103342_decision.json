@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "MU/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Last 15m bar closed at 968.61 on its low (968.10), no bounce yet \u2014 expect a probe of 960-965 to flush the last longs, THEN a reflex bounce back toward 976-980 once 15m RSI 15.9 capitulation resolves; a clean reclaim of 976 is the dip-buy trigger.",
+  "expectancy_note": "p(win) on a market dip-buy here ~0.45 \u2014 knife still falling, closing at lows, PPI + pre-cash-open gap risk; waiting for a 976 reclaim raises p(win) to ~0.6 and lets the -27.5% RS laggard actually turn before I pay for it. No 48h catalyst forces the trade.",
+  "rationale": "MU is deeply oversold (15m RSI 15.9) but the tape is still selling \u2014 the final bar closed on its low with sellers in control, orderbook offered (-0.265), composite long only 24.7% and unaligned. Fundamentals (HBM sold out, KeyBanc) are a multi-week tailwind, not a 48h event, so they don't justify catching this knife into a PPI print pre-cash-open. Best expectancy is to wait: buy the reclaim of the 976 broken shelf (confirmation the flush is done), not the fresh low. HOLD is the highest-expectancy action here.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 976.5,
+    "expires_min": 240,
+    "note": "Reclaiming the 976-977 shelf that just broke (with VWAP overhead) proves the capitulation is done and turns the oversold-laggard into a valid dip-buy toward 1000/1035."
+  },
+  "transcript": {
+    "macro": "Regime SUPPORTIVE for multi-day AI/semis longs, NEUTRAL-to-cautious immediate. Soft CPI, semis leading, but scan PRE US cash open (thin/gappy) + PPI today. MU last 968.61, RS vs BTC -27.51% (deeply lagging), composite long but WEAK 24.7% unaligned, structure_bias -0.202 (funding 0, L/S 1.414 mild long crowd, OB -0.265 offered). Tape sold ~1000->968, lower TFs washed out (15m RSI 15.9). Strongest fundamental tailwind of the three (record $41.46B qtr, HBM sold out 2026, KeyBanc PT raise) but near-term oversold pullback; long here is a dip-buy against sellers, not a breakout.",
+    "sentiment": "MU BULLISH tilt: KeyBanc raised target to $1,750 on tightening DRAM/NAND/HBM pricing (DRAM +15-20% Q3, NAND +30-40% Q3), MU ~+5% intraday. HBM sold out through 2027, ~$100B contracted, Anthropic memory partnership. Next earnings Sept 29 = NO binary inside 48h; momentum/sentiment tailwind not event trade. Intraday move cooling (pulled back off ~1000).",
+    "analyst": "Deeply oversold (15m RSI 15.9) but tape still selling \u2014 final bar closed on its low, sellers in control, OB offered, composite unaligned. Fundamentals are multi-week not 48h, so no justification to catch the knife into PPI pre-open. Wait to buy the reclaim of the 976 broken shelf (flush done), not the fresh low.",
+    "portfolio": "HOLD MU - oversold laggard with strong multi-week story but knife still falling; arm dip-buy on 976.5 reclaim."
+  },
+  "timestamp": "2026-07-15T10:33:42.172270+00:00"
+}

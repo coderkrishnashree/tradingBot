@@ -1,0 +1,23 @@
+{
+  "action": "hold",
+  "symbol": "HOOD/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.6,
+  "rationale": "HOOD sits mid-range (support 106.88 / resistance 119.88) on near-zero weekend volume with US equity markets closed and Monday-open gap risk plus a Tuesday CPI cluster inside the window. Composite short is unaligned and only 36.7% confidence, and relative_strength +9.95% makes it a poor short into a red tape while risk-off macro makes it a poor long. LTF RSI already 25-33 (oversold) means a fresh short would be chasing into a bounce. No honest structure-based stop/target gives R:R>=1.5, so no trade; size 0.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 106.88,
+    "expires_min": 240,
+    "note": "Losing range-low support 106.88 on real volume would confirm a genuine breakdown and validate a trend-continuation short with a defined level to lean against."
+  },
+  "transcript": {
+    "macro": "RISK-OFF/defensive. BTC $63.8k down, Fear&Greed ~22. Dominant 48h risk: Tue Jul 14 June CPI + Warsh testimony, possible Sept HIKE. Tokenized equities: HANDLE WITH CARE - thin/gappy, Monday-open gap risk plus Tuesday CPI cluster; reduced size. HOOD: $112.16, brokerage/retail-flow proxy, high crypto beta (corr 0.64, moves with COIN 0.83). Short bias on lower TFs BUT relative_strength +9.95% makes it a POOR short and a dangerous long into a red crypto tape. MIXED, thin.",
+    "sentiment": "HOOD neutral near-term. Earnings Jul 29 after close (OUTSIDE window) - no imminent binary. Recent analyst PT hikes (Morgan Stanley $124, Barclays $122) are long-horizon. Correlated to BTC/COIN - tracks crypto tape into CPI.",
+    "analyst": "No edge either way: short p(win) low (rel-strength +9.95% = strongest horse, poor short); long p(win) low (risk-off crypto tape, below VWAP, no catalyst). Recent 15m candles are microscopic-volume weekend drift, not a tradeable trend. Price mid-range with no clean level within 1xATR, so no R:R>=1.5 entry. Textbook NO TRADE. HOLD, size 0.",
+    "portfolio": "HOOD: HOLD (conf 0.60) - thin weekend tape, no edge either side; wait for Monday open / a break of 106.88."
+  },
+  "timestamp": "2026-07-13T00:02:03.877060+00:00"
+}

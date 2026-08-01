@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "MSFT/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.2,
+  "playbook": "none",
+  "forecast": "MSFT pinned at 394 in low-volume chop after the 397.5->394.3 flush; last bar closed on its low but 15m stoch 10 / RSI 27.6 is stretched, so expect a shallow 394-395.2 grind rather than a clean next-candle move either way.",
+  "expectancy_note": "No edge: p(win)~0.5, ADX 18.9 chop + regime_blocked (7.7% conf) + thin overnight book / gap risk into US open; shorting into LTF-oversold invites the bounce that kills this book, and there's no reversal candle to buy.",
+  "rationale": "Composite is flat/regime-blocked at 7.7% conf with a chop regime (ADX 18.9), and the tape is a tight low-volume drift at 394 well above support 378 and below resistance 406 - no level to trade against, no R:R>=1.5 setup. Price is short-term oversold (15m RSI 27.6, stoch 10.1) so a short risks the mechanical counter-bounce, yet there's no bullish divergence or reversal bar to justify a long; equity pair on thin overnight liquidity adds open-gap risk with FOMC/earnings 7/29 overhanging. HOLD is the highest-expectancy call; size 0.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 397.5,
+    "expires_min": 240,
+    "note": "Reclaiming the 397.5 shelf that failed on the flush would negate the short-term downdraft and flip the read to long toward 406 resistance."
+  },
+  "transcript": {
+    "macro": "MIXED-to-CAUTIOUS. US equities risk-off; rotation OUT of big-tech. FOMC 7/28-29 overhang. Scan composite for MSFT is FLAT/weak (very low conf ~7.7%, per-TF signals slightly negative). Equity pairs face gap risk at US open (thin overnight book).",
+    "sentiment": "MSFT earnings Wed 7/29 (same day as FOMC), OUTSIDE the 48h window - not an immediate binary this cycle. Prior quarter Azure +39% but missed vs lofty bar twice running. Near-term news-neutral; just Nasdaq beta until late next week.",
+    "analyst": "Composite flat/regime_blocked at 7.7% conf, chop regime (ADX 18.9). Tape a tight low-volume 394.0-395.2 drift after a 397.5->394.3 flush, last bar on its low, no reversal candle. 15m RSI 27.6 / stoch 10.1 = short-term oversold, so a short risks the counter-bounce that kills this book; no divergence/trigger to justify a long. Mid-air between support 378 and resistance 406, no R:R. Thin overnight book adds gap risk. HOLD; a 397.5 reclaim flips the read long.",
+    "portfolio": "HOLD MSFT - regime-blocked chop, oversold with no reversal, no level to trade; flat (conf 0.2)."
+  },
+  "timestamp": "2026-07-20T03:17:16.723510+00:00"
+}

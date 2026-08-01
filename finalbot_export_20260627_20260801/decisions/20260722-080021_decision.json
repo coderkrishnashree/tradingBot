@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "QQQ/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.34,
+  "playbook": "none",
+  "forecast": "Price bases in the 702.9-705.2 zone into the US cash close; direction resolves not on the chart but on GOOGL/TSLA earnings tonight \u2014 expect a gap that invalidates any intraday level, so no honest 48h path exists yet.",
+  "expectancy_note": "No edge: composite 8.7% conf/blended -0.087, 4h long vs all LTFs short. Short = chasing LTF RSI 22-24 into a bounce (the account's classic loser); long = knife-catch vs bearish divergence + soft futures into binary earnings. p(win) ~0.5 with fat gap tails \u2014 negative expectancy either way.",
+  "rationale": "QQQ is a Nasdaq-100 ETF, so crypto funding/OI are irrelevant \u2014 this is an equity read. Bearish divergence, soft NDX futures (-0.8%) and a coiled BB (width 2.8%) sit against deeply oversold 15m/1h RSI, giving a genuine coin-flip. GOOGL and TSLA (a large share of NDX weight combined) report after close today, so tonight's mega-cap gap will override every intraday signal; taking directional risk into that binary is negative expectancy. HOLD is the highest-EV action \u2014 wait for the gap to resolve and the range to re-form.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 702.87,
+    "expires_min": 240,
+    "note": "Losing the last-bar low / basing floor confirms the LTF downtrend is resuming pre-close and opens a clean short toward 688 support before earnings freeze the tape."
+  },
+  "transcript": {
+    "macro": "Regime MIXED, leaning risk-on but event-charged. Cash equities closed higher but futures soft (NDX -0.8%). Heavy earnings TODAY after close \u2014 GOOGL and TSLA are Nasdaq-100 heavyweights. FOMC Jul 29. QQQ: last 703.61, effectively flat (blended -0.087, 8.7% conf, structure_bias +0.039 \u2014 only non-negative bias here, L/S 0.83 slightly short). Soft futures + earnings cluster make it a coin-flip into tonight; no edge, environment does not support a directional QQQ trade. Biggest risk: post-close earnings gap in mega-cap components.",
+    "sentiment": "QQQ ~30-40% GOOGL/TSLA/big-tech by weight; Google + Tesla both report after close TODAY (Intel Thu), so QQQ inherits after-hours gap risk. Broad tape constructive (Nasdaq +1.3%, semis +5%, 87% of SPX names beating Q2) but scan direction flat/short with bearish divergence flagged. Do NOT hold through the mega-cap prints expecting a clean technical move \u2014 earnings tape overrides intraday signals. FOMC Jul 28-29 next week.",
+    "analyst": "Nasdaq-100 ETF read (crypto funding/OI irrelevant). Bearish divergence, soft NDX futures (-0.8%), coiled BB (width 2.8%) vs deeply oversold 15m/1h RSI (22-24) = genuine coin-flip. Short chases oversold LTF into a bounce (account's #1 loser); long is a knife-catch into binary earnings. GOOGL+TSLA report after close, gap overrides technicals. HOLD; arm a short trigger below 702.87 basing floor.",
+    "portfolio": "QQQ: HOLD (conf 0.34) \u2014 no edge, coin-flip into tonight's GOOGL/TSLA earnings gap; short only below 702.87."
+  },
+  "timestamp": "2026-07-22T08:00:21.280311+00:00"
+}

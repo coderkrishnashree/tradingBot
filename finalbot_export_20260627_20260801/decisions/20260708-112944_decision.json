@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "COIN/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Price coiling 156.3-159 after the 11:00 flush, higher lows (156.3>156.8>157.6>158.4) stalling just under 159; next bars likely chop 157.5-160, either failing at the 160-161 broken shelf (short re-entry) or losing 156.3 to resume the downtrend toward 153.",
+  "expectancy_note": "Short at 158.6 mid-base is a chase: RSI 26 oversold, 5m +0.9, crowd already net-short (L/S 0.92) with bid book - squeeze risk. No level gives R:R>=1.5 here.",
+  "rationale": "HTF trend is firmly down (ADX 65, 30m/1h scores -0.8/-0.5) which favors shorts, but the tape just flushed and is bouncing off oversold into a bid-supported book with the crowd already short - exactly the squeeze setup the macro notes flag for high-beta proxies. Entering short now at 158.6, mid the 156.3-159 base with no clean stop, is negative expectancy. Better to short a failed retest of 160-161 or the break of 156.3; both give ~1.8-2R vs the 153/156 targets. Holding for that trigger.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 156.3,
+    "expires_min": 240,
+    "note": "Losing the post-flush base low proves the oversold bounce failed and the downtrend resumed - arms a short toward 153 with stop back above 158.5."
+  },
+  "transcript": {
+    "macro": "RISK-OFF regime supportive of shorts: S&P -0.5%, Nasdaq -1.2%, semis-led selloff on fresh US-Iran escalation; WTI/Brent +6%, firms USD. Coordinated flush ~11:00-11:15 UTC. No top-tier US macro print inside 48h - tape risk headline/geopolitical (de-escalation squeeze risk); smaller size on high-beta proxies (MSTR/COIN/HOOD). COIN-specific: crypto-adjacent (btc_corr 0.74), structure_bias +0.08 POSITIVE (L/S 0.92 net SHORT already = contrarian squeeze risk, book bid +0.18), RSI 27 oversold, 5m flipped hard long (+0.9). De-risking supports the short but positioning crowded-short and bouncing - smaller size / wait for the bounce to fade. Weakest short-conviction name on positioning.",
+    "sentiment": "COIN: CLARITY Act vote is THE catalyst - imminent, could gap COIN either way. Weak fundamentals (Q1 rev -31%, net loss $394M), -34% YTD, -66% off highs. California DFAL effective 7/1. Regulatory-headline-driven, high BTC beta.",
+    "analyst": "Firm HTF downtrend favors shorts, but tape flushed and is bouncing off oversold into a bid book with the crowd already net-short = squeeze setup. Short at 158.6 mid-base = negative expectancy, no R:R>=1.5. HOLD; arm a short on a failed 160-161 retest or a loss of 156.3.",
+    "portfolio": "HOLD COIN - downtrend intact but crowded-short bounce; wait for the 156.3 break or a 160-161 rejection. Two-way CLARITY Act headline risk."
+  },
+  "timestamp": "2026-07-08T11:29:44.866300+00:00"
+}

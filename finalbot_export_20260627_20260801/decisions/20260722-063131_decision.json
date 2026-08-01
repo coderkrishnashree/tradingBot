@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "GOOGL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Low-vol drift/chop between 347.5 and 350.5 into the US close, then a large binary gap on tonight's Q2 print (~4:30pm ET) that dwarfs any intraday technical move; direction of the gap is not forecastable.",
+  "expectancy_note": "Short trend is clean (all TFs down, ADX 35.8) but LTF is already oversold (stoch 12.1, 5m RSI 33.5) so a market short chases into a bounce, and the earnings binary makes the realistic next move a coin-flip gap; p_win_learned 0.455 confirms no edge - HOLD is highest expectancy.",
+  "rationale": "GOOGL reports Q2 earnings tonight after the US close, an imminent binary squarely inside the 48h window; any position now is an earnings bet on thin tokenized overnight liquidity, not a technical trade. The downtrend is real (blended -0.591, RS -9.84) but price sits right at VWAP with LTF already oversold (stoch 12.1), so an immediate short would chase into a likely counter-bounce for only a few hours before the event forces a decision. No size is justified ahead of a coin-flip gap.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 341.86,
+    "expires_min": 240,
+    "note": "Losing 341.86 support post-print, once the gap has cleared, confirms the downtrend resumed and re-opens a clean short."
+  },
+  "transcript": {
+    "macro": "Regime MIXED-to-CAUTIOUS; indices bounce (S&P +0.89%, Nasdaq +1.29%) inside a corrective tape after a 2-week semi rout. VIX ~16-17 firming, Fed hawkish-hold with FOMC July 28-29, strong DXY. GOOGL reports Q2 TONIGHT after US close (~4:30pm ET) - high implied-move binary; tokenized perps gap on thin overnight liquidity.",
+    "sentiment": "GOOGL DO-NOT-TRADE/imminent binary: Q2 today July 22 after close, consensus ~$2.89 EPS / ~$116.8B rev, focus Cloud growth + $190B capex. Any position into the print is a coin-flip overnight gap.",
+    "analyst": "Clean downtrend (all TFs short, ADX 35.8, blended -0.591, RS -9.84) but price at VWAP with LTF oversold (stoch 12.1, 5m RSI 33.5) and p_win_learned 0.455 - no edge, a short chases into a likely bounce. Tonight's earnings binary vetoes any position. HOLD; arm post-print short below 341.86.",
+    "portfolio": "HOLD GOOGL - clean downtrend but vetoed by tonight's Q2 earnings binary; no edge into a coin-flip gap."
+  },
+  "timestamp": "2026-07-22T06:31:31.771876+00:00"
+}

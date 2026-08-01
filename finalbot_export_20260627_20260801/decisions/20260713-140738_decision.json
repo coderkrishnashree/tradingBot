@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "NVDA/USDT:USDT",
+  "size": 0.0,
+  "entry": 207.82,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.34,
+  "playbook": "none",
+  "forecast": "Chop around 206-209 into the CPI/TSMC events; the 210.66 spike was fully rejected on volume back to VWAP, but there is no follow-through either way \u2014 price likely oscillates inside the 205-213 box over the next few bars.",
+  "expectancy_note": "No edge: ADX 23.5 chop, price mid-range equidistant from 191/213, composite conf 12%. Any intraday R:R is <1.5 with a binary TSMC/CPI landmine inside 48h; flat = highest expectancy.",
+  "rationale": "NVDA is a low-conviction, mid-range chop (ADX 23.5, RSI 40.9, %B 0.32, VWAP dist -0.49%) with conflicting per-TF signals \u2014 no clean trend or fadeable extreme. The 210.66 spike was rejected back to 208 on heavy volume, confirming no directional commitment. With June CPI Tue 08:30 ET and TSMC earnings Jul 14-15 both inside 48h feeding directly into semis, and the macro mandate of no overnight equity-token size, the right play is flat rather than force a sub-1.5R trade into a binary. Size 0.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 213.13,
+    "expires_min": 240,
+    "note": "Clearing range-high resistance 213.13 with OB bid support behind it would prove buyers reclaimed control and arm a long momentum entry; conversely losing 205 would confirm the rejected-spike short toward 200."
+  },
+  "transcript": {
+    "macro": "Env MIXED-to-SHORT-biased. June CPI Tue Jul 14 08:30 ET + TSMC earnings Jul 14-15 inside 48h \u2014 TSMC bleeds directly into NVDA/semis; do NOT carry size into it, no overnight equity-token size. NVDA: bias only -0.12 (mildest short), L/S 1.60, OB +0.20 (bid support), ADX 23.5 chop, RSI 40.9, rel-strength +3.89 \u2014 MIXED/low-conviction.",
+    "sentiment": "NVDA neutral-to-bullish, no dated \u226448h catalyst (fiscal-Q2 earnings late August). Live swing factor is the US interagency review on H200 exports to China \u2014 headline-driven, can gap either way, no scheduled date. Sentiment constructive on AI demand.",
+    "analyst": "Mid-range chop (ADX 23.5, RSI 40.9, %B 0.32, VWAP -0.49%), conflicting per-TF, composite conf 12%. 210.66 spike rejected on heavy volume back to 208 = no directional commitment. Price equidistant from support 191 / resistance 213. CPI + TSMC binaries inside 48h. No \u22651.5R setup. HOLD/flat.",
+    "portfolio": "HOLD NVDA \u2014 choppy no-edge into CPI/TSMC landmine; flat is highest expectancy."
+  },
+  "timestamp": "2026-07-13T14:07:38.938114+00:00"
+}

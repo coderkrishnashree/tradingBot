@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "EWY/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Price is stalling at the highs (rejected repeatedly near 174.2-173.8, now grinding 173.0-173.3); expect a low-quality drift or a roll-over. A clean break below the 172.8 shelf opens a fade toward VWAP ~165-166; until then it can still squeeze up, so no entry.",
+  "expectancy_note": "No positive-expectancy entry now: long is extended (RSI75, %B 1.008, +4.6% VWAP) into a KOSPI crash = chase trap; short pre-break risks the squeeze. Wait for 172.8 loss to short with the trend and the news.",
+  "rationale": "The scan's long tilt is a stretched semis/Korea-beta reading (relative_strength -15.8%, weakest in the book) sitting above the upper Bollinger band while KOSPI is in a record crash with circuit breakers -- a classic extended-long trap I will not chase. Shorting pre-confirmation risks a counter-bounce stop; the honest move is to wait for structure to break. Losing 172.8 (repeated 15m lows) proves the top has failed and aligns the tape with the bearish country narrative for a swing short toward VWAP ~165. Size 0 until that trigger.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 172.8,
+    "expires_min": 240,
+    "note": "Loss of the intraday shelf where 15m lows have held confirms the extended top is rolling over, aligning technicals with the KOSPI crash for a short toward VWAP/support."
+  },
+  "transcript": {
+    "macro": "Regime MIXED/cautious (2026-07-21). US equity tape choppy, headline-driven; hawkish-Fed (market pricing a possible HIKE by Oct) is a headwind for high-multiple tech. Crypto tape constructive short-term (BTC ~$66.5k, 5-wk high, +ETF inflows) -> helps MSTR/CRCL crypto-proxies only. BIGGEST RISK: earnings inside the hold window -- GOOGL reports Wed 7/22 after close, INTC Thu 7/23 after close; do NOT carry either through the print. Several longs (INTC, CRCL, EWY, EWJ, MSTR) already RSI-extended/crowded-long -> smaller size, prefer intraday over multi-day until earnings clear.",
+    "sentiment": "Overall risk-OFF: Nasdaq-100 down 5 straight weeks on AI-capex anxiety + Iran/oil spike; heavy earnings + macro week (GOOGL/TSLA 7/22, INTC 7/23, FOMC 7/28-29, BOJ 7/30). GOOGL bearish/event-risk (earnings 7/22). AAPL neutral-slightly bearish (earnings 7/30, outside window). QQQ bearish tilt, extended into weak macro week. MSTR neutral fragile bounce on fading volume. INTC bearish/event-risk, ~12% swing priced into 7/23 print, RSI88 extended. CRCL neutral-cautious: OCC bank-charter catalyst spent, Mizuho downgrade + Visa overhang, RSI89. EWJ neutral/mildly bullish but Nikkei record already priced, BOJ 7/30 caps runway. EWY bearish: KOSPI in a record -23% crash w/ circuit breakers -- scan long tilt fights a violent country downtrend.",
+    "analyst": "Scan long tilt is a stretched Korea/semis-beta reading (rel_strength -15.8%, weakest in book) above the upper BB (RSI 75, %B 1.008, +4.6% VWAP) while KOSPI is in a record -23% crash with circuit breakers -> extended-long trap, won't chase; short pre-break risks a squeeze stop. HOLD, short trigger below the 172.8 shelf toward VWAP ~165.",
+    "portfolio": "HOLD EWY -- extended long fighting a KOSPI crash; size 0, short only below 172.8."
+  },
+  "timestamp": "2026-07-21T20:31:51.911629+00:00"
+}

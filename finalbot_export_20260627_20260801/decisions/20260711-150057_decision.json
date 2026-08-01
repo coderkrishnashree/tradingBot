@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "SNDK/USDT:USDT",
+  "size": 0.0,
+  "entry": 1946.56,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price stays coiled in the 1937-1950 box; no clean edge until it breaks 1987.8 (continuation) or loses 1937 (mean-revert toward VWAP ~1780).",
+  "expectancy_note": "No positive-expectancy setup: long = chase into 1h RSI 91 / +9.35% VWAP; short = fighting ADX 60.9 with heavy bid support; 15m is mid-range chop with no level to trade against.",
+  "rationale": "SNDK is a tokenized equity, screamingly overbought on 1h/4h (RSI 91/75), +9.35% above VWAP and parabolic (bb_width 24%). The 15m tape is dead-sideways 1937-1950 with no volume expansion, so no confirmed breakout trigger nor an extreme at a level to fade. Weekend thin/gappy liquidity plus Tuesday CPI gap risk make any carry poor R:R. HOLD; wait for a break of 1987.8 or a loss of 1937.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 1987.8,
+    "expires_min": 240,
+    "note": "A decisive break of 1987.8 resistance turns a retest into a valid continuation long; a break below 1937 flips bias toward a mean-reversion short."
+  },
+  "transcript": {
+    "macro": "Split tape: risk-ON US equities (S&P 7,575, Nasdaq 26,282, records on AI/chip optimism, Meta/Nvidia leadership), risk-OFF crypto (BTC ~$62-64k, -18% MTD, sub-200wMA, Fear&Greed 22 Extreme Fear) - treat buckets separately. Dominant near-term risk: June CPI Tue Jul 14 (Warsh testifies same day; hawkish FOMC minutes, some floated a HIKE) = binary gap risk for carries into Monday night. Big-bank earnings Jul 14-15; FOMC Jul 28-29 ~89% hold. TSLA earnings Jul 22, META Jul 29 (beyond 48h). Tokenized US equities (TSLA/SNDK/META/QQQ/CRCL) trade thin/gappy over the closed weekend cash session - real direction at Monday Nasdaq open. Positioning: BTC only pair with real funding (mildly +, L/S 1.329, bid ob +0.762, RSI 73.7 stretched counter-trend bounce); META strongest rel-str (+16.5%) but RSI80/stoch95; TSLA crowded-long L/S 1.698; SNDK parabolic (1h RSI 91, +9.4% VWAP); QQQ pinned at 730 resistance RSI 80.5; CRCL most crowded-long L/S 2.695, worst laggard rel-str -18.5%, squeeze-prone. Backdrop argues smaller size/tighter risk into Monday night.",
+    "sentiment": "Shared overlay: June CPI Tue Jul 14 + Warsh testimony is the dominant 24-48h binary on a 'good-news-is-bad-news' hawkish-Fed tape; US cash equities closed over the weekend so tokenized pairs trade thin/gappy until Monday with Monday-night/Tuesday CPI gap risk. TSLA: mildly bullish but catalyst spent - Q2 deliveries 480,126 vs ~406k (Jul 2) already priced; next binary Jul 22 earnings. SNDK: bullish momentum but stretched - +683% YTD, blowout earnings, Bernstein PT $3,000 (long-horizon), screamingly overbought (1h RSI 91), off July highs; risk is momentum unwind not news. META: bullish fresh catalyst - ~6-10% jump Jul 10 on 'Meta Compute' AI-cloud unit; offset by higher-capex concern; extended; earnings Jul 29. QQQ: neutral macro-hostage - no single-name catalyst, pinned at ~730 resistance, direction hinges on CPI. BTC: cautiously bullish washed-out reversal - Fear&Greed ~23, higher lows ~$64k, ETF flows flipped + (+$265M Jul 7), >$450M shorts liquidated above $62k, but 30d ETF flow still -$6.3B; macro-capped by CPI; break/hold >$63.8k is bull trigger. CRCL: bullish news shock but two-sided - Jul 10 OCC approved Circle National Trust (+16% intraday to ~$72.85, <48h old); counterweights Compass Point PT cut to $55 (Stripe competition), Coinbase USDC renewal awaited Aug; high ATR, violent chop; most headline-driven name.",
+    "analyst": "Parabolic and screamingly overbought (1h RSI 91, +9.35% VWAP); 15m is dead-sideways 1937-1950 chop with no volume expansion - neither a confirmed breakout nor an extreme to fade. Long is a chase, short fights ADX 60.9 + heavy bid. HOLD.",
+    "portfolio": "SNDK: HOLD (0.60) - parabolic/overbought coil, no directional edge; wait for 1987.8 break or 1937 loss."
+  },
+  "timestamp": "2026-07-11T15:00:57.711187+00:00"
+}

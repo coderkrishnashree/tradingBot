@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "SOL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Coiling bounce stalls under the 77.9-78.2 shelf; likely chops 77.2-78.0 for the next few bars. Either fades toward 77.0/76.5 (buy-the-dip near VWAP/74.04) or must reclaim 78.2 to resume toward 78.66/82.75.",
+  "expectancy_note": "p(win) ~0.5 either way; long here R:R only ~1.15 (stop 77.0 vs first resist 78.66 already rejected) and buys the most-crowded long in the book.",
+  "rationale": "SOL leads BTC (+8.5% rel-strength) with bullish 4h divergence and flat funding, but L/S 2.58 is the single most crowded long in the book and price already +1.74% above VWAP just got rejected at 78.66 \u2014 a market-long chases into squeeze risk with no <=48h catalyst. The recent 15m tape is a fading bounce still trapped under the 77.9-78.2 shelf, not a breakout, and the honest-stop R:R (~1.15) fails the 1.5 minimum.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 78.25,
+    "expires_min": 240,
+    "note": "A 15m close back above the 77.9-78.2 shelf flips it to support and confirms the crowded long can extend toward 78.66/82.75."
+  },
+  "transcript": {
+    "macro": "RISK-ON. BTC ~$64.8k +3.6%, dominance 56.2%, funding flat. Crypto majors supportive but tactically toppy. SOL rel-strength +8.5% (leading BTC), 4h bullish divergence, but L/S 2.58 = MOST crowded long in the book \u2014 most vulnerable to a positioning-driven long-squeeze. BTC corr 0.76 (BTC leads).",
+    "sentiment": "SOL ~$77 after 2026 drawdown. Catalysts all Q3/Q4 (Alpenglow, Firedancer, spot SOL ETF), NOT <=48h. Network fundamentals strong (~7M active addresses). Near-term NEUTRAL-to-supportive, trades as high-beta BTC; scan notes bullish divergence.",
+    "analyst": "SOL leads BTC with bullish divergence but L/S 2.58 is the most crowded long, +1.74% over VWAP and just rejected at 78.66. 15m is a fading bounce under the shelf, not a breakout; R:R ~1.15 fails 1.5. No <=48h catalyst. HOLD; take long on 78.2 reclaim or a dip into 74-75 support.",
+    "portfolio": "SOL: HOLD (conf 0.50) \u2014 most crowded long, squeeze risk; wait for 78.2 reclaim or support dip."
+  },
+  "timestamp": "2026-07-15T09:35:57.133598+00:00"
+}

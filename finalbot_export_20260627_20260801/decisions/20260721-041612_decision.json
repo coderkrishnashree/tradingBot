@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "QQQ/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.62,
+  "playbook": "none",
+  "forecast": "Thin off-hours melt-up (5m RSI 93, 15m RSI 88, %B 0.97) into resistance 727 is exhausted; expect chop/fade back toward 698-700 VWAP zone over next 2-4 bars rather than a clean continuation, but no edge to short a still-rising thin tape ahead of the weak US open.",
+  "expectancy_note": "No honest R:R: too extended to chase long (p~0.4 continuation into risk-off open), and shorting a rising thin tape is this account's proven loser (shorts 48% win, avg -0.8R).",
+  "rationale": "QQQ is a tokenized Mag-7 basket, so crypto structure metrics are noise; the real drivers are a RISK-OFF macro (S&P -0.28%, futures -1%) and binary GOOGL earnings Wed after-close. Price melted up ~1.2% overnight on tiny volume and is now LTF-stretched (5m RSI 93, %B 0.97) mid-range between 688 and 727 with the worst RS in the group (-16% vs BTC) \u2014 no level to fade at and nothing to chase. Chasing the long here is the account's #1 loss setup; shorting a rising thin tape is the proven bleeder. Wait for a resistance break (real legs) or a loss of the overnight base (real reversal).",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 695.0,
+    "expires_min": 240,
+    "note": "Losing 695 breaks the overnight melt-up base and confirms the risk-off open is catching the perp down \u2014 opens a clean short toward 688 support."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF/defensive (2026-07-21): S&P -0.28%, futures ~-1% pre-open, VIX firming. Geopolitics (Iran/Hormuz) headline-gap tape; size down. Tokenized index thin off US RTH. QQQ is the Mag-7 basket \u2014 GOOGL print Wed Jul 22 after close moves it directly; gaps with every after-hours tech report. QQQ only positive structure_bias (+0.09) but RS vs BTC -16% and risk-off tape.",
+    "sentiment": "QQQ HIGH indirect event risk: no own catalyst but IS the Mag-7 basket; GOOGL (Jul 22) and MSFT (Jul 29) prints move it directly; gaps with every after-hours tech report. Neutral direction, high volatility through the week. Off-hours perp thin.",
+    "analyst": "HOLD QQQ 703.81. Tokenized Mag-7 basket into RISK-OFF open (futures -1%) with GOOGL earnings Wed as binary gap risk. Overnight thin-volume melt-up is now LTF-exhausted (5m RSI 93, 15m RSI 88, %B 0.97) mid-range 688-727, worst RS in group (-16% vs BTC). Chasing long = account's #1 loss pattern; shorting a rising thin tape = proven bleeder (shorts 48% win). No edge, no level, binary event ahead. Flip short only on a break below 695; reconsider long only above 727.",
+    "portfolio": "HOLD QQQ \u2014 exhausted thin melt-up mid-range into risk-off open + GOOGL binary; no edge, wait for 695 break or 727 reclaim."
+  },
+  "timestamp": "2026-07-21T04:16:12.649306+00:00"
+}

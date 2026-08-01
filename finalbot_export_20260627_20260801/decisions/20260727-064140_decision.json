@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "MSTR/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price stalls in the 94-95.2 zone (twice rejected 95.24) and likely chops or fades back toward VWAP/89.85 support into the FOMC print; no clean continuation off an 80-RSI top without a reset.",
+  "expectancy_note": "Long = chasing a 4h RSI 80 / stoch 91 extended move into FOMC+earnings double binary (p_win low, negative expectancy); short has no exhaustion trigger. HOLD dominates.",
+  "rationale": "MSTR is a leveraged BTC proxy (corr 0.72, rel-strength -9.4% = a laggard echo, not a leader) that is stretched at 4h RSI 80.2, stoch 90.7, ~2.3 ATR above VWAP, with only a weak 43% composite and last two bars rejecting 95.24. Entering long here is the account's worst pattern (late continuation into a stretched tape) and it faces a DOUBLE <=48h binary \u2014 FOMC Wed and earnings Thu after close \u2014 so any BTC flush amplifies through this name. No short trigger yet either.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 104.64,
+    "expires_min": 240,
+    "note": "A clean break of 4h resistance proves the drift has real fuel through the event window; a loss of 89.85 support flips to short bias."
+  },
+  "transcript": {
+    "macro": "Regime MIXED-to-HOSTILE. FOMC Jul 28-29 binary event. Crypto downtrend, BTC ~65k (-18% MTD), F&G ~29 fear. Cross-cutting: crowded-long book, positive/extreme funding, RSI 70s-80s, flush risk. MSTR: 0.72 corr to BTC, L/S 1.54, 4h RSI 80.2 / stoch 90.7 (extreme). Leveraged BTC proxy into a Fed week; will amplify any BTC flush. Verdict: skip or half-size.",
+    "sentiment": "FOMC Wed biggest \u226448h catalyst. MSTR: no fresh company binary but it's a levered BTC proxy AND reports earnings Jul 30 (after close) \u2014 a \u226448h binary just past the FOMC window. DOUBLE event risk (Fed Wed + earnings Thu). Don't hold naked through Thu close.",
+    "analyst": "MSTR 94.9: stretched leveraged BTC-beta laggard (4h RSI 80.2, stoch 90.7, ~2.3 ATR over VWAP) with a weak 43% long composite and price rejecting 95.24 twice. Fresh long = chasing late into a DOUBLE binary (FOMC Wed + earnings Thu); no exhaustion trigger for a short. HOLD, size 0. Re-debate on a reclaim above resistance 104.64 (or a loss of 89.85 support flips to short bias).",
+    "portfolio": "HOLD flat \u2014 stretched levered BTC laggard into a double binary; long only >104.64."
+  },
+  "timestamp": "2026-07-27T06:41:40.402293+00:00"
+}

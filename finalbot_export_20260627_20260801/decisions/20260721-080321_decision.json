@@ -1,0 +1,23 @@
+{
+  "symbol": "ORCL/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.55,
+  "size": 0,
+  "entry": 123.01,
+  "stop_loss": 124.2,
+  "take_profit": 120.36,
+  "reconsider": {
+    "condition": "price_below",
+    "level": 120.36,
+    "expires_min": 240,
+    "note": "a clean close below 120.36 support confirms the 4h downtrend's next leg and turns this into an in-trend breakdown short rather than a mid-band chase."
+  },
+  "rationale": "ORCL is the cleanest structural short (4h -0.85, RSI 35.6, L/S maxed 2.46 with positive funding = crowded-long downside fuel, worst laggard at rel-str -30.5%, idiosyncratic vs BTC corr 0.045), but the immediate setup is a bad entry: price sits on the lower Bollinger band (%B 0.15, stoch 34.6) only ~2.2% (~1.9xATR) above support 120.36, while 30m/1h momentum has gone flat - shorting here chases into a compressed lower band with too little room to the first real level for 1.5R. The learner is emphatic that this account bleeds shorts (n=48, 46% win, avg -1.09 R), the exact late-short-into-stretched-tape loss pattern, so I will not market-short mid-band. Want either a bounce to VWAP/broken-support-retest (~124.1) to short with room, or a decisive close below 120.36; until one prints, HOLD is higher-expectancy.",
+  "transcript": {
+    "macro": "Overall regime: MIXED, leaning cautious risk-on. S&P ~7,443 (-0.2%), Nasdaq flat, VIX ~17.6 benign; tape drifting. Key events 48-72h: GOOGL+TSLA earnings after close WED JUL 22 (first AI-capex test, high event risk); FOMC Jul 28-29 just outside window; rates steady 3.50-3.75%. Middle East: US-Iran ceasefire collapsed, Hormuz tanker traffic near-halted, Brent >$90 per macro (oil-shock/risk-off tail). Crypto: consolidation not trend; BTC ~$64.3k range-bound; dominance ~56-58%; Fear&Greed 29; no alt rotation. Positioning: nearly every equity token CROWDED LONG (L/S 1.5-2.7, structure_bias negative), funding ~0 so spot-crowding not squeeze -> contrarian caution on fresh longs. Tokenized equities: US cash market CLOSED, candles thin/gappy, reprice on US open & Wed after-hours.",
+    "sentiment": "Overall tone: RISK-OFF / jittery. Global semiconductor/AI-valuation selloff is the dominant story: US chip weakness dragged Korea KOSPI -4.5% Mon (7 circuit breakers, -23% MTD); Middle East energy fears add overlay. Soft June CPI (3.5% YoY, Jul 14) killed July hike odds -> FOMC Jul 28-29 ~10% hike, NOT a 48h catalyst. Time-sensitive (<=48h): GOOGL earnings WED JUL 22 after close - headline catalyst, large gap/vol, two-sided (Cloud/capex vs fresh $4.67B EU antitrust fine + Gemini 3.5 delays). No other target reports inside 48h (AAPL Jul 30, HOOD Jul 29, NVDA Aug 26, ORCL Sep 9). Cross-cutting: chip/AI selloff links NVDA, EWY, GOOGL (TSM/MU) to the downside if rout continues. macro & sentiment DISAGREE on oil (Hormuz bid >$90 vs OPEC+ glut/WTI ~5-mo lows ~$69-74) -> CL two-sided.",
+    "analyst": "ORCL is the cleanest structural short (4h -0.85, RSI 35.6, L/S maxed 2.46 with positive funding = crowded-long downside fuel, worst laggard at rel-str -30.5%, idiosyncratic vs BTC corr 0.045), but the immediate setup is a bad entry: price sits on the lower Bollinger band (%B 0.15, stoch 34.6) only ~2.2% (~1.9xATR) above support 120.36, while 30m/1h momentum has gone flat - shorting here chases into a compressed lower band with too little room to the first real level for 1.5R. The learner is emphatic that this account bleeds shorts (n=48, 46% win, avg -1.09 R), the exact late-short-into-stretched-tape loss pattern, so I will not market-short mid-band. Want either a bounce to VWAP/broken-support-retest (~124.1) to short with room, or a decisive close below 120.36; until one prints, HOLD is higher-expectancy.",
+    "portfolio": "HOLD ORCL \u2014 cleanest structural short but price is pressed to the lower band right above support; wait for a bounce to short the retest or a break of 120.36."
+  },
+  "timestamp": "2026-07-21T08:03:21.139348+00:00"
+}

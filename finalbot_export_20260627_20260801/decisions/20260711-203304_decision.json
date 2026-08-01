@@ -1,0 +1,26 @@
+{
+  "symbol": "EWJ/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.34,
+  "size": 0,
+  "entry": 95.26,
+  "stop_loss": 90.27,
+  "take_profit": 96.13,
+  "playbook": "none",
+  "forecast": "No tradable path: 15m printed 14 identical flat candles at 95.44 on zero volume, last two ticks drifted to 95.26 - pure illiquidity noise. Price likely pinned 95.0-95.5 until US cash reopens, then gaps unpredictably.",
+  "expectancy_note": "Negative expectancy at entry: RSI 77.6 / ADX 87.8 / stoch 91 overbought into resistance 96.13, OI 1,686 and near-zero volume mean spread/gap eats any edge; no honest R:R exists.",
+  "rationale": "EWJ is essentially untradeable this session - US cash CLOSED Saturday, open interest of only 1,686 and flat zero-volume candles make fills and stops unreliable, while RSI 77.6, ADX 87.8 and stoch 91 show it stretched to the top of its range just under 96.13 resistance. Longs chase an exhausted grind into a wall; shorts fade a strong 3-year-high uptrend with no liquidity to cover, and CPI Tuesday adds binary gap risk. Best expectancy is flat.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 96.15,
+    "expires_min": 240,
+    "note": "A decisive break above 96.13 resistance on real volume after US reopen confirms a fresh breakout leg worth a trend-continuation long; below that it stays untradeable chop."
+  },
+  "transcript": {
+    "macro": "Cycle 2026-07-11. Scan Saturday, US cash CLOSED - thin/gappy, funding 0.0. EWJ illiquid (OI 1,686, near-zero volume, 15m printed 14 flat candles), RSI 77 stretched - essentially untradeable this session. Regime RISK-ON but late-stage/stretched; VIX 15 calm. BIG event risk inside 48h: CPI Tue Jul 14, bank earnings - smaller size, don't chase. Verdict for EWJ: overbought + illiquid = caution.",
+    "sentiment": "EWJ (Japan): Near 52-wk highs (~95); Japan exports strongest in 3+ years on chip demand. Steady low-vol grind (RSI 77, ADX 88 - extended). No hard catalyst in 48h. Neutral-to-mildly-bullish but overextended. Broader: Nasdaq fragile, hawkish FOMC, CPI binary Tuesday.",
+    "analyst": "Last 95.26, RSI 77.6, ADX 87.8, stoch 91, %B 0.788, ATR 0.5%, resistance 96.13, support 90.27, OI 1,686 (tiny), vwap_dist +1.55%. 15m printed 14 identical flat candles (0 volume); last two bars ticked down 95.44->95.26 on tiny volume - meaningless noise. Any entry dies on spread/gap, not the forecast. Clear HOLD; only a decisive break of 96.13 on real volume matters.",
+    "portfolio": "EWJ: HOLD (conf 0.34) - untradeable illiquid weekend tape, overbought at resistance; re-debate on a volume break above 96.15."
+  },
+  "timestamp": "2026-07-11T20:33:04.698448+00:00"
+}

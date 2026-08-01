@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "GOOGL/USDT:USDT",
+  "size": 0.0,
+  "entry": 356.28,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Fresh higher-low bounce off 354.82 back toward 356.4-357.0 stalling; likely chop 355-357 into US open; only a break under 354.82 re-opens the 4h/1h downtrend toward 353-351.8.",
+  "expectancy_note": "No clean edge: composite short but NOT aligned (5m long, 1h RSI 24 oversold, book +0.44 bid-supported) \u2014 shorting the bounce is the account's proven loser; long is counter-trend into thin off-hours tape and CPI ~12h out. p(win) either side ~0.5, R:R doesn't clear 1.5. HOLD is highest expectancy.",
+  "rationale": "Last three 15m bars ticked up (356.10/356.16/356.28, closing near bar high) off a higher-low base at 354.82-355.21, with 1h RSI 24 oversold and orderbook imbalance +0.445 bid-supported \u2014 a routine bounce that would stop any market short before the 4h downtrend resumes. But the composite bias is short and L/S 1.79 is crowded-long, so a long is fighting the higher-timeframe tape. US cash is CLOSED (thin, gap risk) and June CPI hits in ~12h \u2014 the dominant binary. No setup clears R:R 1.5 with an honest ATR stop, so size is zero.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 354.8,
+    "expires_min": 240,
+    "note": "Losing the 354.82 bounce low fails the oversold bounce and re-opens the aligned 1h/4h downtrend toward 353/351.78 \u2014 a clean short trigger."
+  },
+  "transcript": {
+    "macro": "Timing: scan ~06:57 UTC = ~02:57 ET Monday pre-dawn; US cash market CLOSED, tokenized-equity perps thin off-hours, gap risk into 09:30 ET open. Regime: RISK-ON but wobbly on equities (S&P +>1% on week, revived AI optimism). Crypto offered: BTC 62,757, RSI 22-28, ADX ~75 downtrend near support 61,272. Catalysts: June CPI Tue 7/14 08:30 ET (~12h out) dominant; Q2 earnings season opens 7/14; GOOGL earnings ~7/22 (outside 48h, caps multi-day short); FOMC 7/28-29 hold expected. GOOGL positioning: funding +0.00028 (mild long), L/S 1.79 (crowded long -> contrarian short), OB imbalance +0.44 (bid support), structure_bias -0.215, RS +3.2%, BTC corr 0.13 (own-driven). Verdict: MIXED tilting short intraday, low-conviction, smaller size, don't carry into CPI/earnings.",
+    "sentiment": "GOOGL tone constructive but binary coming. Earnings 7/22 after close (~9d out, outside 24-48h, caps short runway). Bullish medium-term: +~20% YTD, ~$4.3T cap, joined Dow 6/29, cloud +63%. Near-term overhangs soft/narrative: Gemini 3.5 Pro slipped, senior AI researcher departures, lost EU Android EUR4.1B appeal \u2014 none \u226448h catalysts. Net near-term NEUTRAL-to-mildly-bearish tape. Tilt: NEUTRAL.",
+    "analyst": "Composite short but NOT aligned (5m long, 1h RSI 24 oversold, book +0.44 bid-supported). Last three 15m bars ticked up off a higher-low base at 354.82-355.21 \u2014 a routine oversold bounce that would stop any late market short. Shorting the bounce is the account's proven loser; a long fights the crowded-long higher-TF tape into thin off-hours with CPI ~12h out. No setup clears R:R 1.5 on an honest ATR stop. HOLD, reconsider on loss of 354.82.",
+    "portfolio": "GOOGL: HOLD (size 0, conf 0.50) \u2014 no aligned edge; arm short only on a clean break below 354.82."
+  },
+  "timestamp": "2026-07-13T07:02:31.386946+00:00"
+}

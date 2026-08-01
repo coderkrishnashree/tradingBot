@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "MSTR/USDT:USDT",
+  "size": 0.0,
+  "entry": 93.85,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Volume-dried drift between 93.8-94.9; most likely a shallow oversold bounce toward VWAP/95.2 over the next 4-8 bars before the downtrend resumes \u2014 chasing a short at -6% from VWAP is poor R:R.",
+  "expectancy_note": "Fresh short at RSI 28.5 / stoch 15 / -6% VWAP is a chase; TP1 far and the account bleeds trend shorts (avg -2.31R). Better expectancy = wait for a bounce to short higher.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 95.2,
+    "expires_min": 240,
+    "note": "Reclaiming the 95.1 swing high confirms an oversold relief bounce \u2014 the level to fade for a higher, tighter-stop short back into the 4h downtrend."
+  },
+  "rationale": "Macro/trend/RS all favor shorting this leveraged BTC-proxy (corr 0.79, RS -15.2%, clean 4h/1h/30m downtrend, rate-hike fear), but price is deeply oversold and extended ~6% below VWAP (RSI 28.5, stoch 15, %B 0.167) with volume collapsing on the last few bars \u2014 the wrong place to initiate. Prefer selling a relief bounce toward 95-97 (nearer VWAP/broken structure) where stop is tight and reward to 84.6 support is clean. Zero size until a better entry or the thesis flips.",
+  "transcript": {
+    "macro": "RISK-OFF regime: US-Iran conflict, rate-hike fears (~66% Sept hike odds), DXY firm. MSTR: supportive for shorts \u2014 high BTC-beta (0.79) into risk-off, worst RS in set (-15.2%), clean 4h/1h/30m downtrend; rate-hike fear poison for a leveraged BTC-proxy. Structure only mildly short (L/S 1.39).",
+    "sentiment": "MSTR mixed-to-cautious: company now a net BTC seller (sold 3,588 BTC / ~$216M this week to fund preferred dividends) \u2014 unusual bearish signal; stock bounced ~29% off late-June low but on fading volume/negative money flow. No 48h earnings. ~1.8x BTC beta \u2014 BTC direction dominates. News leans slightly WITH the short bias.",
+    "analyst": "Bias favors shorting the BTC-proxy but entry is wrong: deeply oversold and ~6% below VWAP (RSI 28.5, stoch 15) with volume drying up on the last bars \u2014 a low-liquidity drift, not fresh downside. Chasing here is poor R:R and matches the account's losing trend-short bucket. Wait to short a bounce toward 95-97 near VWAP.",
+    "portfolio": "MSTR/USDT:USDT \u2014 HOLD (conf 0.50): bearish beta short, but oversold/extended; fade a bounce to 95+ instead of chasing."
+  },
+  "timestamp": "2026-07-08T20:59:38.287429+00:00"
+}

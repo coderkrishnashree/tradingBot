@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "MSTR/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Price is pinned near 98.2 in the upper Bollinger band (%B 0.91, +1.41% over VWAP); over the next 2-6 bars I expect a fade/chop back toward the 96.5-97.0 VWAP zone rather than a clean break of 102 resistance, with the 30m pullback (RSI 30.3) still unrepaired.",
+  "expectancy_note": "Long-here p(win)~0.45: chasing top of band into hostile macro + bearish company news gives sub-1.5 R:R to 102; better long appears on a VWAP retest-and-hold near 96.5-97.0. HOLD beats a chased entry.",
+  "rationale": "4h is genuinely long (0.733, RSI 61) but the composite is NOT aligned (30m short, RSI 30.3) and price is extended: %B 0.906, +1.41% above VWAP, near the top of the range with resistance 102 only ~3.9% up. Macro is risk-off/hawkish, MSTR is a crowded long (L/S 1.357) leveraged-BTC proxy, and company news is a structural negative (selling BTC, weakening the perpetual bid). A market long would be the account's #1 loss pattern (chasing an extended move); want a pullback to VWAP for a better entry, or confirmation of the down-case below.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 96.8,
+    "expires_min": 240,
+    "note": "Losing the VWAP/lower-range shelf (~96.8) confirms the 30m-short + bearish-news thesis and opens the flush toward support 89.95; a bounce and hold instead sets up the 4h-trend long."
+  },
+  "transcript": {
+    "macro": "MIXED-to-HOSTILE. Risk-off, hawkish Fed, rising yields. Crypto WEAK/OVERSOLD, no alt bid: BTC ~$64k range-bound, Fear&Greed 29, BTC dominance 56.4% holding. MSTR the MOST crypto-levered of the set (corr 0.73). One of few relative leaders vs BTC (+1.7%). Tokenized equity: thin/gappy off-hours.",
+    "sentiment": "MSTR: most news-heavy name, tone shifted NEGATIVE. Now SELLING BTC (3,588 BTC ~$135M) to cover ~$1.5B/yr preferred dividend load; adopted 'BTC Monetization Program' to raise up to $1.25B; paused BTC purchases. Structural overhang - perpetual-bid story weakening. Reports it sold ~7x more than disclosed. Earnings July 30 (outside 48h). Company-specific BEARISH tilt.",
+    "analyst": "4h genuinely long but composite NOT aligned (30m short, RSI 30.3) and price extended (%B 0.906, +1.41% vs VWAP) near top of range with R 102 ~3.9% up. Macro risk-off, crowded long, bearish company news (BTC selling). A market long = account's #1 loss pattern. Want a VWAP pullback, or a break below 96.8 to confirm the down-case.",
+    "portfolio": "HOLD MSTR - don't chase the extended long into bearish news; arm reconsider below 96.8."
+  },
+  "timestamp": "2026-07-21T00:16:53.494657+00:00"
+}

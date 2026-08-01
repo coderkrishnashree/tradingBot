@@ -1,0 +1,22 @@
+{
+  "action": "buy",
+  "symbol": "XAG/USDT:USDT",
+  "confidence": 0.58,
+  "size": 2.5,
+  "entry": 58.45,
+  "stop_loss": 57.85,
+  "take_profit": 60.4,
+  "take_profit_1": 59.6,
+  "take_profit_2": 60.4,
+  "playbook": "trend",
+  "forecast": "Price fading from the 59.38 pop back toward VWAP (~58.4); expect a dip into 58.4-58.6 over the next 3-6 bars, then the strong uptrend (ADX 89, 4h/30m long, precious-metals bid) resumes toward 59.6 and 60.4 before Wed FOMC.",
+  "expectancy_note": "p(win) ~0.58, R:R ~2.3 to TP1 / 3.3 to TP2 on 0.60 risk; dip-buy beats chasing (VWAP +1.26%, stoch 76, L/S 3.95 crowded) which gets stopped by a routine pullback, and beats a fade since the dominant trend is firmly up.",
+  "rationale": "Dominant trend is powerfully up (ADX 89.4, 30m +0.9, 4h +0.79) with the best macro tailwind on the board (DXY<103, safe-haven metals bid). But price at 59.09 is +1.26% over VWAP with 1h RSI 76 and the last 8 bars rolling over from 59.38 \u2014 a chase dies on the pullback (the #1 loss pattern). So this is a LIMIT dip-buy into the VWAP retest ~58.45 with a stop below structure (57.85, ~1xATR) and targets into the 59.6/60.4 shelf, R:R ~3.3 to TP2. Size cut to 2.5% because L/S is an extreme 3.95 (squeeze risk) and FOMC lands Wed \u2014 do not size up into a two-way binary.",
+  "transcript": {
+    "macro": "HOSTILE window (2026-07-26). Broad tech/AI-capex selloff (Nasdaq ~-2% on week). Hawkish rates: June CPI 3.5%, oil>$100, ~34% chance of a HIKE next week, Sep hike ~81%. Event minefield <48h: FOMC Wed Jul29 2pm ET, MSFT/META earnings Wed AH, AAPL/AMZN Thu, GDP+PCE Thu 8:30am. Crypto weak: BTC ~$64.6k off 21-mo low, $4.5B June spot-ETF outflows. Precious metals the one bright spot (DXY<103, safe-haven bid). Crowded longs across the board = squeeze fuel. Cut size hard; prefer flat before Wed; equity-perp funding ~0. | XAG: Best macro tailwind (DXY<103, metals rally, ADX 89) but L/S 3.95 crowded. Long on dips, don't chase.",
+    "sentiment": "Event-heavy pre-earnings cycle. HARD earnings flags: META (Wed Jul29 AH), AAPL/COIN/MSTR (Thu Jul30). FOMC + GDP/PCE + BOJ (Jul29-30) = desk-wide landmines. Crypto Fear&Greed ~33-39 (fear). Cleanest names without single-name binaries: TSLA (bearish drift post -14.5% earnings), ORCL (bearish, -50% since Jun), XAG (mild bull, safe-haven), CRCL/SOL (sentiment/technical). | XAG: Mildly bullish; safe-haven flows, weaker dollar, supply deficit. FOMC Jul29 two-way risk.",
+    "analyst": "Dominant trend is powerfully up (ADX 89.4, 30m +0.9, 4h +0.79) with the best macro tailwind on the board (DXY<103, safe-haven metals bid). But price at 59.09 is +1.26% over VWAP with 1h RSI 76 and the last 8 bars rolling over from 59.38 \u2014 a chase dies on the pullback (the #1 loss pattern). So this is a LIMIT dip-buy into the VWAP retest ~58.45 with a stop below structure (57.85, ~1xATR) and targets into the 59.6/60.4 shelf, R:R ~3.3 to TP2. Size cut to 2.5% because L/S is an extreme 3.95 (squeeze risk) and FOMC lands Wed \u2014 do not size up into a two-way binary.",
+    "portfolio": "BUY XAG/USDT:USDT @ conf 0.58"
+  },
+  "timestamp": "2026-07-26T20:36:31.327235+00:00"
+}

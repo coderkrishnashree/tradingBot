@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "TSLA/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.3,
+  "playbook": "none",
+  "forecast": "Pre-earnings drift chops in the 376-380 coil until the US close; the real move is the Q2 print tonight, which options price at ~7-8% and will gap the tokenized perp overnight in either direction - path is undefined until then.",
+  "expectancy_note": "Any pre-print entry has negative expectancy: a ~1.3% ATR stop is dwarfed by a 7-8% implied gap, so it's a coin-flip with truncated upside and open-ended downside. HOLD is the highest-expectancy choice.",
+  "rationale": "TSLA reports Q2 tonight after US close with ~7-8% implied move - an imminent binary inside the window on a thin, gap-prone tokenized perp. Regime is dead chop (ADX 1.6), composite conf 12.8 and regime_blocked; the BB-squeeze short flag on this muddy composite is a debate, not a trade, and the bearish structure (crowded 2.09 longs, -0.31 book) is noise that a gap can erase in one candle. Both macro and sentiment flag DO-NOT-TRADE; carrying a technical trade through this print is uncompensated risk, so size is zero.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 370.0,
+    "expires_min": 240,
+    "note": "Losing 370 support (post-print) confirms a fresh bearish leg out of the coil and is worth re-debating a short once the earnings binary has resolved."
+  },
+  "transcript": {
+    "macro": "Regime MIXED-to-CAUTIOUS. TSLA reports Q2 TONIGHT after US close (~5:30pm ET). Record Q2 deliveries already priced; swing factor is auto gross margin, options imply ~7-8% move. High implied-move binary; tokenized perp gaps on thin overnight liquidity. FOMC July 28-29.",
+    "sentiment": "TSLA DO-NOT-TRADE/imminent binary: reports Q2 today July 22 after close. Record deliveries known/priced; swing factor auto gross margin, ~7-8% implied. Same overnight-gap risk as GOOGL - do not carry a technical trade through the print.",
+    "analyst": "Reports tonight, ~7-8% implied. Regime dead chop (ADX 1.6), composite conf 12.8, regime_blocked; BB-squeeze short flag is a debate not a trade, bearish structure is noise a gap erases. A ~1.3% ATR stop is dwarfed by the implied move. HOLD, size 0; re-debate a short only below 370 post-print.",
+    "portfolio": "HOLD TSLA - vetoed by tonight's ~7-8% earnings binary in a dead-chop regime; uncompensated risk, stay flat."
+  },
+  "timestamp": "2026-07-22T06:33:28.464836+00:00"
+}

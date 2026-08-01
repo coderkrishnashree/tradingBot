@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "GOOGL/USDT:USDT",
+  "size": 0.0,
+  "entry": 357.61,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.35,
+  "playbook": "none",
+  "forecast": "Price just flushed to 354.18 support and V-bounced to 359.87 before fading back to ~357; expect chop between 354-360 as the deeply oversold 1h RSI (20) works off - no clean edge either way here.",
+  "expectancy_note": "Short is a chase into 1h RSI 20 / %B -0.01 with support only ~1x ATR below (bad R:R, account's #1 loss pattern); counter-trend long fights hostile mega-cap-tech macro and a stalling bounce. HOLD is highest expectancy.",
+  "rationale": "GOOGL is in a downtrend but deeply oversold (1h RSI 20.4, stoch 17.8, price at lower BB) and just printed a sharp reversal bar off 353.89 support that already faded back to 357 - shorting now risks the standard oversold-bounce stop-out, while a long fights a risk-off, hawkish-Fed tape hostile to fresh mega-cap tech longs. Weak short composite (29.7%, not aligned), no <=48h catalyst, no asymmetric edge. Sit flat and let the range resolve.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 353.89,
+    "expires_min": 240,
+    "note": "A decisive break of the 353.89 flush low after the bounce has worn off the oversold reopens a clean short-continuation entry toward the next leg down."
+  },
+  "transcript": {
+    "macro": "US equity risk tone MIXED, tilting risk-OFF near-term. Mon 7/6 record highs, Tue 7/7 tech-led pullback (Nasdaq -1.16%) with rotation OUT of mega-cap tech/semis; scan shows AAPL/MSFT/META/GOOGL/TSLA/ORCL negative composites, RSI 25-38, downtrend 15m-1h (wobble, not breakdown). Fed HAWKISH: dot plot year-end 3.8%, ~36% tail for a July hike, cuts off the table. June CPI drops Jul 14 (binary event risk if carried). Positioning: crowded longs everywhere (L/S: MSFT 1.89, META 1.93, GOOGL 1.76, ORCL 2.15, CL 2.73, SOL 2.36), funding ~zero on equity perps -> downside air-pockets favored, rallies fade-able, but snap-back squeeze risk from oversold RSIs. Environment MIXED-to-HOSTILE for LONGs, modestly SUPPORTIVE for tactical SHORTS/fades in mega-cap tech. Smaller size / faster targets. CL is own driver (choppy-to-soft, Iran/Hormuz two-way tail, negatively correlated to equities). SOL: BTC dead-flat, no crypto impulse, crowded longs; trades on weak drift.",
+    "sentiment": "No <=48h catalyst; earnings ~7/28. Lost EU appeal on EUR4.7B antitrust fine (priced), high P/E. NEUTRAL-to-slightly-bearish near-term; macro-driven.",
+    "analyst": "GOOGL is in a downtrend but deeply oversold (1h RSI 20.4, stoch 17.8, price at lower BB) and just printed a sharp reversal bar off 353.89 support that already faded back to 357 - shorting now risks the standard oversold-bounce stop-out, while a long fights a risk-off, hawkish-Fed tape hostile to fresh mega-cap tech longs. Weak short composite (29.7%, not aligned), no <=48h catalyst, no asymmetric edge. Sit flat and let the range resolve.",
+    "portfolio": "HOLD GOOGL/USDT:USDT (conf 0.35)"
+  },
+  "timestamp": "2026-07-09T14:04:47.105857+00:00"
+}

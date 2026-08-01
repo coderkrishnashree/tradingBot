@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "EWY/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Bounce is stalling at 164.2-165.0 after rejecting 165.05; expect chop/fade back toward 161.4-162.0 over the next few bars. No clean long entry (LTF RSI 79-82, stretched) and no leanable level for a short.",
+  "expectancy_note": "No positive-expectancy trade: long is chasing an exhausted bounce (5m/15m RSI ~79-82) into a hostile tape; short has no near structure (support 154 is ~6% away, ATR 1.36%) so any honest stop is wider than target -> R:R < 1.5. HOLD dominates.",
+  "rationale": "EWY is a chip/memory-heavy Korea ETF down ~4.5% today in the AI/semi rout with the worst RS in the set (-28%); it has bounced ~2% off intraday lows into stretched short-TF momentum, and the Korean cash market is CLOSED (pure gap risk) with a Section 122 tariff cliff ~Jul 24 as a live binary. Macro and sentiment are openly hostile to longs, and a counter-trend short lacks any nearby structure to define a tight stop, so neither side clears the 1.5R bar. The single event that flips this to an actionable short is a failure of today's relief rally through its base ~161.4, which would prove the bounce dead and the downtrend resumed. Size 0 - patience is the highest-expectancy play into a thin, closed, headline-risk tape.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 161.4,
+    "expires_min": 240,
+    "note": "Losing the base of today's relief bounce kills the bounce thesis and reopens a trend-continuation short in the direction of the -4.5% chip-rout down day."
+  },
+  "transcript": {
+    "macro": "Overall NEUTRAL-to-HOSTILE for fresh longs. US semiconductor-led drawdown. Earnings cluster this week (TSLA/GOOGL Wed, INTC Thu). Tokenized-equity pairs thin until 09:30 ET. EWY: hostile-leaning \u2014 worst RS in the equity set outside chips (-28%), memory/semi-heavy so wears the chip selloff; Korean cash market closed now (pure gap risk). Avoid long.",
+    "sentiment": "Risk-off, active AI/semiconductor unwind. EWY: HIGH risk, already moving \u2014 down ~4.5% today, KOSPI below 7,000 after ~8% weekly plunge; BoK just hiked to 2.75% (7/16, hawkish); Section 122 tariff relief (10% vs 25%) expires ~Jul 24, live uncertainty. Momentum and macro both argue AGAINST longs \u2014 falling-knife territory.",
+    "analyst": "EWY is a falling knife (-4.5% today, RS -28%) that has bounced ~2% into stretched LTF RSI 79-82, with the Korean cash market closed (gap risk) and a tariff cliff ~7/24. Long chases an exhausted bounce; short has no nearby structure for a tight stop (support 154 ~6% away). Neither clears 1.5R \u2014 hold.",
+    "portfolio": "HOLD EWY \u2014 no long into a closed-market falling knife; re-debate a short only if it loses today's bounce base ~161.4."
+  },
+  "timestamp": "2026-07-20T10:16:21.495894+00:00"
+}

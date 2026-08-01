@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "AAPL/USDT:USDT",
+  "confidence": 0.34,
+  "size": 0.0,
+  "entry": 315.94,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "forecast": "Thin weekend chop pinned between 315.7 and the 316.77 resistance; likely drifts sideways in a 0.5% band until Monday's cash open, with real direction set by Tuesday CPI.",
+  "expectancy_note": "Long into resistance 0.8pt away with stoch 90 / %B 0.82 gives R:R < 1 to TP1; short fights a +7% RS leader on stale weekend liquidity. Flat is the highest-expectancy choice.",
+  "rationale": "AAPL is a tokenized equity with the underlying cash market CLOSED (Saturday) \u2014 15m candles are near-zero volume, stale and gap-prone until Monday, so signals are low-confidence. Price sits pinned just under resistance 316.77 with stochastic 90 and %B 0.82 both stretched, leaving no room for a long (reward < risk) and no honest short (balanced L/S 1.01, funding 0, +7% RS leader). With CPI Tuesday as a binary gap risk and weekend illiquidity dominating, expectancy favors waiting. Size 0.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 316.77,
+    "expires_min": 240,
+    "note": "A clean break and hold above the 316.77 resistance on real volume clears the overhead cap and opens a momentum long toward the next level."
+  },
+  "transcript": {
+    "macro": "Regime RISK-ON but late-stage (S&P 7,575 +0.42%, VIX 15.4 falling) with US 10Y ~4.6% and another Fed hike alive \u2014 headwind for rate-sensitive tech. Scan timestamp Saturday 2026-07-11 03:25 UTC: AAPL cash market CLOSED, 15m candles near-zero volume/stale/gap-prone until Monday. AAPL last 315.94, RS +7.0% vs BTC (leading), L/S 1.01 balanced, funding 0, orderbook +0.211, structure_bias +0.06, RSI 61/stoch 90 extended. Bias NEUTRAL, lean cautious, small size.",
+    "sentiment": "AAPL neutral (mild bullish drift). ~$316 at resistance 316.77, RSI stretched. No product/regulatory shock last week. Pre-earnings into July 30 after-close (EPS $1.88 est, +19.8% y/y), chip-supply deal, analysts Moderate Buy PT ~$315. Monday action is a CPI/beta story. Shared wildcard: US June CPI Tue July 14 08:30 ET.",
+    "analyst": "Price pinned just under resistance 316.77 (~0.26% away) with stoch 90 and %B 0.82 both stretched \u2014 no room for a long (R:R < 1 to TP1) and no honest short (balanced L/S, +7% RS leader, thin weekend liquidity). Weekend cash-market closure makes signals unreliable; CPI Tuesday is a binary gap risk. Highest-expectancy call is flat. Reconsider on a clean break/hold above 316.77 on real volume.",
+    "portfolio": "AAPL \u2014 HOLD, size 0, conf 0.34; wait for Monday volume / 316.77 break."
+  },
+  "timestamp": "2026-07-11T03:29:44.356824+00:00"
+}

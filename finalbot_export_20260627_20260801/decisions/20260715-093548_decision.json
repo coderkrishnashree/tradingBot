@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "MSTR/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.4,
+  "playbook": "none",
+  "forecast": "Choppy consolidation 97.2-99.4 near-term; likely a fade back toward VWAP/96.5-97 before any push at the 99.4/103.6 resistance.",
+  "expectancy_note": "p(win) on a chase-long here ~0.4; R:R poor since stop must sit below 97.2 (~1.2 ATR) while 99.4 caps upside <1R.",
+  "rationale": "MSTR is extended (4h RSI 74.5, stoch 86.9, +3.86% above VWAP) and sits in the most crowded crypto-proxy cluster (L/S 1.587, structure_bias -0.151) \u2014 buying this bounce is exactly the late-continuation chase this book bleeds on, and BTC (corr 0.743) is itself overbought with -0.464 orderbook imbalance. Pre-US-open the tokenized equity is thin/gappy till 13:30 UTC. No short edge against an intact uptrend, so HOLD is highest expectancy.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 96.5,
+    "expires_min": 240,
+    "note": "A dip to 96.5 unwinds the overbought stretch and offers a trend-continuation long with a stop below 95/90.14 and room to 99.4/103.6."
+  },
+  "transcript": {
+    "macro": "RISK-ON but early/thin. BTC ~$64.8k +3.6%, funding flat. Crypto-proxy equities supportive but MOST crowded cluster. MSTR highest BTC-beta (corr 0.74) = leveraged BTC; RSI 74.5 overbought, L/S 1.59 crowded \u2014 prefer pullbacks, smaller size, first to flush.",
+    "sentiment": "MSTR earnings Jul 30. New Digital Credit Capital Framework (USD reserve + up to $1B buyback) drove a pop; but SOLD ~3,588 BTC ($216M) to cover preferred dividends (mild negative). Still holds 843,775 BTC. Near-term NEUTRAL, BTC-driven.",
+    "analyst": "MSTR extended (RSI 74.5, +3.86% VWAP) in the most crowded cluster; bounce off 97.23 to 98.4 is a pullback bounce not a breakout, and BTC (corr 0.74) is itself overbought with negative orderbook. Chasing here is the loss pattern; no short edge. HOLD; dip to 96.5 offers a better long.",
+    "portfolio": "MSTR: HOLD (conf 0.40) \u2014 extended, most-crowded cluster; leveraged-BTC into overbought BTC."
+  },
+  "timestamp": "2026-07-15T09:35:48.782245+00:00"
+}

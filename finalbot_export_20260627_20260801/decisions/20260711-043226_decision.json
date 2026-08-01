@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "AAPL/USDT:USDT",
+  "size": 0.0,
+  "entry": 315.88,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Coils 315.6-316.2 under resistance 316.77 into the weekend; on thin volume it drifts, not trends. No honest R:R until a real break of 316.77 or a flush toward 313-314 support.",
+  "expectancy_note": "Long into 316.77 is only 0.28% (~0.4R vs 1xATR stop) - R:R < 0.5, a chase at range top with Monday gap risk; trend playbook is 44% win / -2.89 avg for this book. HOLD > forced entry.",
+  "rationale": "AAPL is a tokenized equity with cash markets CLOSED on Saturday - 15m candles print on 0.04-8 contract volume, so any signal is noise and Monday carries gap risk. Price is pinned just under resistance 316.77, faded off the 316.68 spike, ADX only 25 and BB width 2.5% = a coil, not a trend. A long has ~0.28% to resistance vs a ~$2 (1xATR) honest stop = sub-0.5 R:R; no clean range-fade setup exists at the top of the range. Best expectancy is to wait for a real cash-session break.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 316.77,
+    "expires_min": 240,
+    "note": "A decisive reclaim/hold above 316.77 on real volume breaks the coil and opens a measured-move long; below it this is just weekend chop."
+  },
+  "transcript": {
+    "macro": "Regime MIXED, lean cautious for RWA perps: Saturday weekend, US cash closed - thin/gappy, Monday gap risk, size down. Broad tape risk-on, mega-cap/tech-led. US 10yr sticky ~4.6%. AAPL: quietest/most orderly - tight range, ADX 25, under resistance 316.77 with balanced positioning (L/S 1.03, orderbook +0.21, structure_bias +0.05 neutral). Low BTC beta (0.27) = trades on own/Nasdaq. Earnings Jul 30. Mildly long-supportive, low-conviction; coiled range at resistance needs a real cash-session break; weekend 15m signal low-quality.",
+    "sentiment": "Overall BULLISH/risk-on but weekend-thin. AAPL NEUTRAL/mildly positive: no imminent catalyst; earnings Jul 30 (Tim Cook's expected last call as CEO, outside window). Only recent item Jul 6 Broadcom chip-supply deal extension to 2031 (+1%, long-horizon). Near-term neutral; tracks index/beta more than idiosyncratic flow.",
+    "analyst": "Spike to 316.68, then slow grind sideways settling 315.8-316.0, last bars drifting DOWN to close 315.88 on near-zero volume (0.04-8 contracts). Pinned under 316.77 but not breaking - faded off high, coiling. ADX 25, BB width 2.5% = coil not trend, stoch 89.3 near-term overbought. Long has only 0.28% to resistance vs ~$2 (1xATR) honest stop = R:R <0.5, a chase at range top with Monday gap risk (trend playbook 44% win, -2.89 avg). No clean range-fade at top. HOLD; breakout-long trigger armed above 316.77.",
+    "portfolio": "HOLD AAPL - coiled under resistance on dead weekend tape, sub-0.5 R:R for a long; breakout-long trigger armed above 316.77."
+  },
+  "timestamp": "2026-07-11T04:32:26.510476+00:00"
+}

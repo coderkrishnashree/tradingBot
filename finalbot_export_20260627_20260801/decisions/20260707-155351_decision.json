@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "QQQ/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.55,
+  "playbook": "none",
+  "forecast": "Price is coiling on the 705.83 shelf after a flush to 705.97; expect 706-711 chop for the next 2-4 bars. A clean break under 705.83 opens 702/700; a reclaim of 712.9 confirms the oversold bounce.",
+  "expectancy_note": "Shorting RSI 17-23 right at support with 0.3% ATR = donation entry; fresh long fights the downtrend with no <48h catalyst. Both edges are poor at 709 \u2014 wait for the break.",
+  "rationale": "QQQ is deeply oversold (1h RSI 17.8, %B -0.29) and sitting 3 points above the 705.83 support after sellers exhausted (down-volume dried up, last 5 bars flat-to-up). Chasing a short here into the level with sub-0.4% ATR is a bad entry, and a long into a CPI-week downtrend with no bullish catalyst has no edge. Highest expectancy is to hold and let the shelf resolve \u2014 a break under 705.83 is a clean short trigger, a reclaim of 712.9 is the bounce signal.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 705.83,
+    "expires_min": 180,
+    "note": "Losing the 705.83 support shelf that has held the flush confirms the downtrend's next leg toward 702/700 \u2014 a clean short-continuation entry with real room."
+  },
+  "transcript": {
+    "macro": "Overall regime firm at index level but fragile in chips (violent June selloff, PHLX -10% June 5, then V-bounce). Rates/USD a headwind: Fed held 3.50-3.75% June 17 with hawkish dot plot (9/18 see a hike; May CPI 4.2%). Dominant catalyst: June CPI Tue July 14 8:30am ET -> July 29 FOMC. All three names carry positive funding + L/S ~2:1 = crowded perp longs into a downtrend. QQQ verdict: MIXED, lean short/stay-out. Oversold + freefall lower TFs (RSI 23 15m, 18 1h, ADX 53.8) but stretched. L/S 0.97 (cleanest, not crowded), low BTC-corr 0.39. 706 support here. Not a place for fresh longs into CPI.",
+    "sentiment": "QQQ bearish/neutral. Fed dot plot flipped from cut to possible hike. Biggest catalyst June CPI July 14 (~1 week out, outside 48h). No bullish <=48h catalyst; immediate driver is the semiconductor tape (Samsung/Micron memory rout) bleeding into the index.",
+    "analyst": "Price coiling on the 705.83 shelf after a flush to 705.97; down-volume dried up, last 5 bars flat-to-up (basing). Shorting RSI 17-23 at support with sub-0.4% ATR is a donation entry; a fresh long fights the CPI-week downtrend with no bullish catalyst. Highest expectancy is to wait \u2014 break under 705.83 = clean short, reclaim of 712.9 = bounce.",
+    "portfolio": "QQQ: HOLD (0.55) \u2014 no clean edge at 709; wait for the 705.83 shelf to resolve."
+  },
+  "timestamp": "2026-07-07T15:53:51.038904+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "symbol": "MSTR/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.55,
+  "size": 0.0,
+  "entry": 98.37,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "none",
+  "forecast": "Choppy 97.1-99 consolidation next 2-4 bars after the 100.78 rejection; needs BTC to either break 65769 (reclaim 100, resume long) or lose support (crack 97.1, confirm rollover) before a clean move.",
+  "expectancy_note": "No edge either way: long = chasing +2% VWAP extension right after a sharp rejection (account's #1 loss pattern); short fights a 4h uptrend and shorts have bled 48%/-0.73R here. p(win) sub-0.5 both sides.",
+  "rationale": "MSTR failed above 100.78 and dumped to 97.10 on rising volume, then only weakly bounced to 98.37 - composite is muddy (aligned:false, 15m short vs 1h/4h long). It's 0.73 BTC-beta and BTC is itself stretched into 65769 overhead supply with a -0.81 orderbook imbalance and risk-off/fearful sentiment. Entering long chases the extension; shorting fights the higher-TF trend into a possible BTC bounce. Best expectancy is to wait for confirmation, so size is zero.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 97.1,
+    "expires_min": 240,
+    "note": "Losing the 97.10 rejection-swing low confirms the rollover off 100.78 and opens a clean short toward 95.5/89.95 support; a reclaim of 100.10 instead would re-arm the higher-TF long."
+  },
+  "transcript": {
+    "macro": "Risk-neutral-to-defensive tape on Iran/oil shock. Crypto constructive-not-euphoric: BTC ~$64-65k, funding neutral, OI flat - no crowded-leverage squeeze. MSTR 0.73 corr to BTC - pure BTC-beta. BTC orderbook imbalance -0.81, supply overhead ~$65.8k. No FOMC; tokenized names thin/gappy off-hours.",
+    "sentiment": "Overall risk-off near-term; crypto soft/fearful (F&G 29). MSTR no BTC purchases for 2nd straight week; raising cash/selling shares to fund dividends. Pure BTC-beta - direction keyed to Bitcoin, which is soft. Neutral-to-slightly-negative near-term.",
+    "analyst": "Failed above 100.78, dumped to 97.10 on rising volume, weak bounce to 98.37 - muddy composite (aligned:false, 15m short vs 1h/4h long). 0.73 BTC-beta and BTC stretched into 65769 overhead with -0.81 orderbook, risk-off. Long chases the extension; short fights higher-TF trend into a possible BTC bounce. HOLD; short below 97.10, re-arm long above 100.10.",
+    "portfolio": "HOLD MSTR - failed above 100, muddy composite, soft BTC driver; arm short below 97.10."
+  },
+  "timestamp": "2026-07-20T20:45:53.032730+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "SNDK/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Fresh vol-3x bounce off 1438-1442 is pushing into the 1447 breakout level toward 1455; expect a stall/rejection in the 1455-1475 zone (still 5-6% under VWAP) then either a fade back toward 1438 or a clean break of 1438 that resumes the 4h collapse. Two-sided, no honest entry now.",
+  "expectancy_note": "Long = chasing a counter-trend bounce in an ADX-86 4h downtrend (bounce fails, ~40% p_win); short = chasing 6.8% below VWAP with 4h RSI 18 into a live bounce (the account's #1 stop-out pattern). Neither clears R:R 1.5 at a tight stop vs 2.58% ATR. HOLD is highest expectancy.",
+  "rationale": "SNDK is the most violent name in the book: 4h RSI 18.1, ADX 86, ATR 2.58%, -6.8% below VWAP, RS -23% worst in scan, on FOMC-eve with thin off-hours pricing. A vol-3x dead-cat bounce is happening right now into the 1447 breakout \u2014 shorting into it is the classic 'stopped by the bounce' loss, and chasing the bounce long fights an ADX-86 downtrend. The support/resistance band (1338/1695) is far too wide to frame a tight-stop scalp with 1.5R. No honest, size-worthy edge either way; wait for structure.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 1438.0,
+    "expires_min": 240,
+    "note": "Losing the 1438 local floor kills the dead-cat bounce and lets me short continuation from a defined level instead of chasing 6.8% below VWAP."
+  },
+  "transcript": {
+    "macro": "Regime cautious/risk-off-leaning, event-heavy; Thu Jul 23 Nasdaq -2.15% on tech/capex fear. FOMC Jul 29 inside 48h, BOJ Jul 30. SNDK ~$1,453, most violent name in scan: ADX 86.0, 4h RSI 18.1, bb_width 21%, ATR 2.58%, VWAP dist -6.8%, RS vs BTC -23.2% (worst). 15m long breakout (level 1447, vol_ratio 3.02) but that's a dead-cat bounce inside a severe 4h downtrend. structure_bias -0.075 (long/short benign 1.21) \u2014 realized volatility & sector risk are the problem. Cut size hard / momentum-scalp-only.",
+    "sentiment": "SNDK very bullish narrative but NO <=48h catalyst. SNDK-MU corr 0.88, -QQQ 0.75. Top S&P 500 performer 2026 (~700% YTD) on NAND/memory supercycle; July PT hikes (Goldman $2,200, Bernstein $3,000) are long-horizon \u2014 do NOT trade on them. No price-moving binary inside 48h (fiscal Q4 earnings 5 Aug, investor day 13 Aug both outside). Trades as high-beta memory/semi, follows AI-capex tape + Wed FOMC risk appetite. Lean neutral next two days. US equity underlying = thin gappy off-hours perp pricing.",
+    "analyst": "Most violent name: 4h RSI 18.1, ADX 86, ATR 2.58%, -6.8% below VWAP, RS -23% worst. Vol-3x dead-cat bounce is happening right now into the 1447 breakout \u2014 shorting into it is the classic 'stopped by the bounce' loss; chasing the bounce long fights an ADX-86 downtrend. Support/resistance band 1338/1695 far too wide for a tight-stop 1.5R scalp. FOMC-eve, thin off-hours pricing. No honest size-worthy edge either way; wait for structure (a 1438 break).",
+    "portfolio": "SNDK \u2014 HOLD (0.60): extreme-volatility knife mid dead-cat bounce, no tight-stop R:R; short only on a clean 1438 break."
+  },
+  "timestamp": "2026-07-26T01:35:06.217735+00:00"
+}

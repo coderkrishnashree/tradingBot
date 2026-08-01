@@ -1,0 +1,23 @@
+{
+  "action": "hold",
+  "symbol": "EWY/USDT:USDT",
+  "size": 0.0,
+  "entry": 163.6,
+  "stop_loss": 159.5,
+  "take_profit": 170.0,
+  "confidence": 0.55,
+  "rationale": "EWY is in violent capitulation (ADX 56, RS -23.91%, weakest in set) but just printed a high-volume reversal bar off 162.15 right above 159.52 support, and is 3.87% under VWAP \u2014 classic squeeze setup where a routine bounce stops any fresh short before the trend resumes. Cash market is closed and ETF liquidity is thin, adding gap/whipsaw risk. Better to wait: short a bounce back toward VWAP, or trade continuation only once 159.52 support breaks with conviction. No trade beats a poor-R:R chase.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 159.5,
+    "expires_min": 240,
+    "note": "A decisive break of 159.52 flips this to a continuation short \u2014 capitulation resolving lower rather than bouncing, giving a clean measured-move target."
+  },
+  "transcript": {
+    "macro": "OVERALL REGIME: RISK-OFF / hostile to fresh longs. Broad de-risking on AI-valuation unwind, hawkish-Fed, rising oil, US-Iran escalation. Whole scan short-tilted. EWY: trades as Korea equity \u2014 single MOST hostile backdrop in the set. Kospi CRASHED -6.4% on a surprise BOK rate hike + AI/chip selloff. Scan confirms capitulation (ADX 56, RSI 29.5, rel_strength -23.91% vs BTC \u2014 weakest major here, vwap -3.87%). L/S 1.25. Move already violent and one-directional \u2014 chasing new shorts risks buying the low tick into a dead-cat bounce. Korea cash market closed; thin ETF liquidity. Tightest size.",
+    "sentiment": "NOTE macro and sentiment sources CONFLICT on Korea direction \u2014 scan is ground truth for current price. Sentiment tone was bullish on a chip-driven KOSPI tear (SK Hynix, Samsung) up ~6% mid-July on soft US CPI; won firmed, MOF raised 2026 growth to 3%. 'Roller coaster' tape led by two chip names, large intraday swings. But EWY scan shows deeply oversold (RSI ~29, RS -24%) \u2014 a divergence vs the bullish news, i.e. price has now rolled over hard. Risk is a chip-sector pullback given how stretched the prior rally was.",
+    "analyst": "last 163.6, support 159.52, resistance 186.45, ATR% 2.55 (ATR ~4.17), RSI 29.5 (4h), stoch 7.5, %B 0.143, VWAP -3.87%, ADX 56. rel_strength -23.91% (weakest). Recent bars fell 166.29 to 162.15 low, last real bar closed 163.59 on massive volume (1907 vs ~400-600 typical) \u2014 a strong reversal bar off the low, right above 159.52 support. Deeply oversold into support = capitulation-into-support squeeze setup; fresh short sells the low tick into a dead-cat bounce (account's #1 loser), long is a knife-catch against a -6.4% crash with cash closed. Support only ~2.5% away vs honest stop ~1.5x ATR above, R:R sub-1.5. HOLD.",
+    "portfolio": "EWY: HOLD (conf 0.55) \u2014 capitulation but high-volume reversal bar off support; don't chase the low, wait for a bounce to short or a break of 159.52."
+  },
+  "timestamp": "2026-07-16T20:06:00.035494+00:00"
+}

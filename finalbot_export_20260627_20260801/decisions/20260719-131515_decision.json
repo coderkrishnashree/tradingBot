@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "HOOD/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.34,
+  "playbook": "none",
+  "forecast": "Thin weekend drift near 99.5 with bids absorbing; most likely a shallow relief bounce toward 100.5-101.5 (VWAP magnet) before any resumption. A late short here gets stopped by the routine snapback; a fresh leg down only confirms on a decisive break of 96.68 support.",
+  "expectancy_note": "Short p(win)~0.33 (model) into RSI 19.7 / -5.1% below VWAP with absorbing bids = negative expectancy; account short book is 0.47 win / -0.87 avg. No long edge (downtrend + Monday gap risk). HOLD has the best expectancy.",
+  "rationale": "HOOD is deeply oversold intraday (4h RSI 19.7, ADX 64, -5.1% vs VWAP) and grinding lower only on near-zero weekend volume \u2014 no capitulation, and orderbook imbalance +0.25 shows bids absorbing, so a mean-revert bounce is the higher-probability next move against a short. The learner confirms this account loses on shorts (0.47 win, -0.87 avg) and on stretched high-ADX setups, exactly this profile. No fresh <=48h catalyst and US cash markets closed (gappy Monday open) remove any reason to force either side; wait for a clean break of 96.68 (short) rather than chase mid-air.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 96.68,
+    "expires_min": 240,
+    "note": "A decisive break and hold below the 96.68 support flips this to a valid trend-continuation short with real room to the next level, rather than chasing an already-stretched move."
+  },
+  "transcript": {
+    "macro": "Cycle 2026-07-19 RISK-OFF/DEFENSIVE. Hawkish Fed, stretched valuations, semis correcting. US cash equity markets CLOSED (Sunday) \u2014 proxies gappy/thin, Monday gap risk. BTC ~$63.8k, BTC.D ~56.3%. QQQ leaning DOWN. HOOD: broken down hard \u2014 RSI 19.7 (4h), vwap_dist -5.1%, ADX 64, composite short (p_win 0.331); deeply oversold, chasing shorts into thin weekend liquidity risks a snapback. MIXED.",
+    "sentiment": "HOOD: neutral near-term. Product momentum (Robinhood Chain / tokenized Stock Tokens Jul 1, ~7% Earn) but Q1 crypto revenue -47% YoY. Earnings July 29 = OUTSIDE 48h window. No fresh <=48h catalyst; trades on crypto beta + risk-off tape.",
+    "analyst": "Chasing a short is textbook wrong: RSI 19.7, -5.1% below VWAP, p_win 0.331, bids absorbing (+0.25), thin weekend liquidity primed for snapback, account short book a proven loser. No long thesis (downtrend + Monday gap). Negative expectancy both sides. NO-TRADE; re-arm short only on clean break below 96.68.",
+    "portfolio": "HOLD HOOD/USDT:USDT \u2014 oversold, bounce risk; don't chase the short. conf 0.34"
+  },
+  "timestamp": "2026-07-19T13:15:15.202321+00:00"
+}

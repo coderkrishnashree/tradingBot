@@ -1,0 +1,23 @@
+{
+  "action": "hold",
+  "symbol": "BTC/USDT:USDT",
+  "size": 0.0,
+  "entry": 63970,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.6,
+  "rationale": "BTC is consolidating mid-range under 64,703 resistance with real ask-side orderbook pressure (-0.374) and a failed 64,100 probe now rolling over. Composite is long but aligned:false (38.6% conf) with 1h flat/negative-MACD and 5m short - no clean signal. Account's trend and short playbooks are both bleeding (-2.89 / -1.65 avg), and CPI Tue (inside window) adds gap risk. Best expectancy is to wait for a range-edge setup rather than pay overhead supply.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 64703,
+    "expires_min": 240,
+    "note": "A decisive reclaim/hold above resistance 64,703 flips the range into a breakout long with a clean stop back inside the range; that is the trigger worth chasing, not mid-range."
+  },
+  "transcript": {
+    "macro": "Regime MIXED, risk-on but event-gated. June CPI Tue 07/14 inside window (gap risk). BTC dominance elevated ~58%. BTC is the only genuinely liquid book: composite long 0.43 but aligned:false, structure_bias -0.231 (funding benign +0.46bp, L/S 1.33, orderbook -0.374 = real ask pressure). RSI 50, ADX 38, mid-range under resistance 64,703 - consolidation, not breakout; capped by CPI. Beta anchor for CRCL/COIN/MSTR.",
+    "sentiment": "BTC: sentiment improving off lows; whales accumulated ~270k BTC near bottom, spot ETF flows turned positive (+$222M July 2 after 10-day outflow streak). Price ~$64k pressing resistance ~$64.7k. No crypto-specific binary inside 48h - next big event month-end FOMC. Catalyst-light; tone modestly constructive/neutral-to-long, macro-driven.",
+    "analyst": "Range consolidation pinned under 64,703 with genuine overhead ask pressure (-0.374) and a failed 64,100 probe rolling over. Composite long but aligned:false (38.6%), per-TF messy (1h flat/neg-MACD, 5m short). Long buys into overhead supply; short has no nearby level (support 2.7k away). p(win) ~0.5 both, R:R<1.5. HOLD; wait for a decisive break of 64,703.",
+    "portfolio": "HOLD BTC - range-bound under resistance with ask-side pressure; re-debate breakout long above 64,703."
+  },
+  "timestamp": "2026-07-12T14:31:59.890589+00:00"
+}

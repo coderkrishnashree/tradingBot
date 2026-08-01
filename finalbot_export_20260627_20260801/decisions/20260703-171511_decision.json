@@ -1,0 +1,25 @@
+{
+  "symbol": "INTC/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.28,
+  "size": 0.0,
+  "entry": 122.29,
+  "stop_loss": 121.87,
+  "take_profit": 123.85,
+  "playbook": "none",
+  "expectancy_note": "Short into RSI ~24 washout + funding -0.0024 (paid to be long) = squeeze-risk chase, neg expectancy; long fights a live bear breakout + hostile semis. No edge either way, R:R not there.",
+  "rationale": "Fresh real bearish breakout (bbw 1.89, vol 7.49) but into extreme oversold: 5m RSI 23.6, 4h RSI 24.7, %B 0.159, deeply negative funding \u2014 the classic setup for a violent dip-buy squeeze against a short. A long fights that live breakout and a semiconductor sector selling off hard (INTC -9%/-6% Jul 1-2, BofA AI-bubble flag). Critically, the underlying equity is CLOSED for July 3-4 holiday: no live price discovery means thin, gappy, wicky perp fills and two-sided gap risk, with no stock-specific binary before Jul 23 earnings. Confidence 26% scan + no clean R:R = stand down; size 0.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 121.87,
+    "expires_min": 240,
+    "note": "A decisive break of support 121.87 on sustained volume (not a holiday wick) would confirm downside continuation past the oversold stall and justify a small with-trend short entry."
+  },
+  "transcript": {
+    "macro": "RISK-OFF for chips; US cash market CLOSED Jul 3 (Independence Day) and Jul 4 \u2014 tokenized INTC perp has NO live underlying price discovery: thin, gappy, venue wicks, poor weekend liquidity. Semis sold off hard on BofA AI 'bubble risk': INTC -7%, AMD -4-5%, TSM -6%, Micron -7% (Jul 1-2); rotation OUT of semis, not broad risk-off (Dow record). Soft June payrolls (57k vs 113k) keeps Fed on hold. Positioning: last 122.29, scan SHORT (blended -0.221, conf 26%), fresh 15m short breakout (bbw 1.89, vol 7.49). Funding -0.0024 (deeply negative \u2192 squeeze fuel), RSI washed out (5m 23.6 / 4h 24.7, ADX 77.9), long/short 1.80, orderbook imbalance -0.36, structure_bias +0.052 (neutral), btc_correlation 0.091 (own story). Verdict: OPPOSE / stand down \u2014 short chases exhausted oversold move, long fights live breakout + hostile sector, underlying closed = gap risk. Next catalyst Jul 23 earnings (outside 48h). Biggest risk: short squeeze on thin holiday tape.",
+    "sentiment": "MIXED, momentum sharply negative near-term. Multi-month story bullish (INTC +~270% H1 2026 on foundry turnaround, Apple 18A deal, SpaceX/Tesla 14A interest, 18A-P risk production; PT bumps HSBC $200, Cantor $150, BofA $160) \u2014 but sell-side consensus still 'Hold' with avg target ~$85-96 FAR below current ~$120 (ran ahead of fundamentals). Near-term: broad semiconductor selloff, INTC -9% Jul 1, -6% Jul 2 to ~$120 on profit-taking + AI-valuation/bubble-risk. Aligns with scanner SHORT breakout. No stock-specific binary inside 48h; next hard catalyst Q2 earnings Thu Jul 23 (~3 wks out). Verdict: near-term BEARISH \u2014 caveat deeply oversold RSI + beloved momentum name \u2192 violent dip-buy bounce is main short risk; US closed Jul 3-4 \u2192 thin gappy weekend perp liquidity.",
+    "analyst": "Fresh real bearish breakout (bbw 1.89, vol 7.49) but into extreme oversold (5m RSI 23.6, 4h RSI 24.7, %B 0.159) with deeply negative funding \u2014 textbook short-squeeze setup against a short. A long fights the live breakout and a hostile semi sector. Underlying equity CLOSED Jul 3-4 \u2192 no live price discovery, thin/gappy/wicky fills, two-sided gap risk, no binary before Jul 23 earnings. Shorting an RSI-24 washout with funding paying you to be long is negative expectancy; long has no edge either. 26% scan confidence + no clean R:R = stand down, size 0. Reconsider only on a decisive break of support 121.87 on sustained (non-holiday-wick) volume for a small with-trend short.",
+    "portfolio": "HOLD INTC/USDT:USDT \u2014 stand down: no edge either side, holiday-closed underlying = gap/liquidity risk; re-look only on clean break below 121.87 on real volume."
+  },
+  "timestamp": "2026-07-03T17:15:11.035872+00:00"
+}

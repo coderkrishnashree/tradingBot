@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "EWY/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Active oversold bounce: 15m/5m RSI 60-66 and trend 'up', price just pushed off 168.4 lows to 171.78 and closed 171.36 near range high on heavy volume. Expect the bounce to extend toward the VWAP/retest zone ~172.8-173.5 over the next 2-5 bars, where the dominant 4h downtrend (RSI 24, ADX 65) should reassert; a short is only attractive AT that stall, not here.",
+  "expectancy_note": "Shorting now into a rising LTF bounce = the account's #1 loss pattern (late short, stopped by bounce); waiting for the VWAP retest gives ~1.6R+ short vs negative expectancy chasing now. No long (weakest horse, rel-str -11%, 4h trend down). CPI tomorrow caps size regardless.",
+  "rationale": "Higher timeframes are trend-down and deeply oversold (4h RSI 24, ADX 65) while lower timeframes are actively bouncing (15m RSI 66, trend up, last bar closed near its high on 4437 volume) - the two disagree, and entering a market short into that bounce would be chasing a stretched move right before CPI, exactly the setup that gets squeezed given RSI-24 + mild long-funding. There is no clean R:R short at 171.4 (stop above the fresh 171.78 high, target too near support 166), and I cannot go long against a firm downtrend on the weakest ETF. The high-expectancy play is to wait for the bounce to exhaust into the VWAP/resistance retest around 172.8-173.5, then short with the trend; hence hold and arm that trigger.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 172.8,
+    "expires_min": 240,
+    "note": "Bounce reaching the VWAP/resistance retest where the oversold 4h downtrend can be shorted with proper R:R toward 168-166; a stall/rejection there is the entry."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF/defensive, event-gated. Fresh Strait-of-Hormuz oil shock (WTI +3%) hit risk 2026-07-13 ~14:30 UTC; synchronized intraday down-legs across equities/semis/crypto. DXY firm ~101 => the DOLLAR is the safe-haven, NOT gold; real yields up. BTC ~$62.5k in a strong downtrend (ADX 74), SOL high-beta to it; gold DOWN ~0.9% despite the geopolitics. Environment favors the SHORT side but conviction is capped by a wall of event risk: CUT SIZE, and do NOT carry tokenized-equity risk naked through Tue 2026-07-14 8:30 ET CPI. Biggest shared risk: an oversold bounce / short-squeeze (many names RSI 23-29, several long-heavy L/S ratios) into the CPI + bank-earnings gap.",
+    "sentiment": "Hawkish / risk-off; Fed now priced for possible HIKES after hot prior CPI. The only <=48h catalyst that moves ALL of these names is CPI (Tue 7/14 8:30 ET) + PPI (Wed 7/15). Single-name earnings binaries are OUTSIDE the window (TSM 7/16; TSLA & GOOGL 7/22) -> trade them as tape, not news. Everything is deeply oversold = squeeze risk on any soft CPI print; SNDK/MU/EWY are violent two-way chip names; AAPL is the lone relative-strength long; gold (XAUT) is NOT hedging risk here -- it trades on rate fear.",
+    "analyst": "Higher timeframes are trend-down and deeply oversold (4h RSI 24, ADX 65) while lower timeframes are actively bouncing (15m RSI 66, trend up, last bar closed near its high on 4437 volume) - the two disagree, and entering a market short into that bounce would be chasing a stretched move right before CPI, exactly the setup that gets squeezed given RSI-24 + mild long-funding. There is no clean R:R short at 171.4 (stop above the fresh 171.78 high, target too near support 166), and I cannot go long against a firm downtrend on the weakest ETF. The high-expectancy play is to wait for the bounce to exhaust into the VWAP/resistance retest around 172.8-173.5, then short with the trend; hence hold and arm that trigger.",
+    "portfolio": "HOLD EWY - 4h downtrend but LTF bouncing hard; short the VWAP/resistance retest ~172.8-173.5."
+  },
+  "timestamp": "2026-07-13T14:38:13.846120+00:00"
+}

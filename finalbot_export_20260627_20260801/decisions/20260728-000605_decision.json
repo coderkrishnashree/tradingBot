@@ -1,0 +1,23 @@
+{
+  "action": "hold",
+  "symbol": "TSM/USDT:USDT",
+  "size": 0.0,
+  "entry": 397.73,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.34,
+  "rationale": "TSM at the lower band (%B 0.09, RSI 38, VWAP -1.57%), only ~2% above 389.34 support, with strong bid support (+0.42) and 2.78 crowded-long squeeze fuel \u2014 a composite short here is the stretched-tape chase that bleeds this book; last four bars reclaim off the 396.10 low. Timeframes conflict (aligned:false; 30m long vs 15m/1h/4h short), no clean edge, and FOMC 7/29 + MSFT AI-capex read-through are a direct binary in-window (flat guidance). Stand aside.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 389.0,
+    "expires_min": 240,
+    "note": "Break below 389.34 breaks the lower-BB floor and turns crowded-longs into short fuel."
+  },
+  "transcript": {
+    "macro": "Regime RISK-ON but into a wall of event risk (S&P +0.81%, Nasdaq +0.90%, VIX ~17.8 \u2014 calm before the print). FOMC decision Wed 7/29 2pm ET; MSFT+META earnings Wed after close, AAPL+AMZN Thu after close. Semis constructive underlying (TSM/MU AI demand strong) but headline-hostage to MSFT AI-capex read-through. L/S ratios lopsidedly crowded-long across nearly all names (squeeze risk); funding ~0; low BTC correlation (these tokenized-equity perps are not crypto-beta). Guidance: trade SMALLER, favor same-session in-and-out, FLAT into FOMC + MSFT (Wed) / AAPL (Thu) prints. Best structural setups AAPL (long, uncrowded) intraday only + CL/TSLA (short w/ trend) but both stretched.",
+    "sentiment": "Biggest earnings week of year + FOMC 7/29. Already-reported (drift, not binary): GOOGL (Q2 7/22 beat, capex hiked ~$205B, positive), TSM (7/16 beat, FY >40%, but caught in mid-July chip selloff + Korea rout), TSLA (7/22, stock -15% on 7/23, rev miss/FCF deficit, negative), INTC (7/23, +25% rev but -8% on print, down ~28% MTD, negative), MU (record Q3, HBM sold out 2026-27, positive fundamentals but two-way tape). Unresolved binaries \u2014 do NOT hold through: MSFT (Wed AH, Azure/AI-capex swing, priced for perfection), AAPL (Thu AH, Tim Cook's final call, extra vol). EWY = high-vol semi/Korea proxy, KOSPI crashed from June peak, BoK hiked to 2.75%, trades off MSFT/FOMC, negative near-term. CL/WTI ~$83-84, slid on US-Iran de-escalation + OPEC+ ending cuts, deeply oversold (RSI ~21), bearish but de-escalation unwind largely played out.",
+    "analyst": "Lower-BB, RSI38, VWAP -1.57%, 2% above support with strong bid + 2.78 crowded-long. Timeframes conflict. Short=late chase into support; no long confirmation. HOLD into FOMC/MSFT. Reconsider short below 389.",
+    "portfolio": "HOLD TSM \u2014 two-sided tape at lower band into a Wed FOMC + MSFT binary."
+  },
+  "timestamp": "2026-07-28T00:06:05.218205+00:00"
+}

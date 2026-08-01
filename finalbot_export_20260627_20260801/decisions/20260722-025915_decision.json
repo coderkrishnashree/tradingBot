@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "QQQ/USDT:USDT",
+  "size": 0.0,
+  "entry": 708.26,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Coiling 707.7-710 near the highs; the last bars keep getting rejected at 709.1-709.3 and closing weak while RSI 72 diverges. Expect a two-way overnight resolution driven by GOOGL/TSLA prints - most likely a fade toward VWAP ~703-704 if 707.7 gives, or a squeeze to test 711/726.99 if buyers reclaim 710. Neither edge is clean pre-event.",
+  "expectancy_note": "Long = chasing an extended, bearishly-diverging move into a binary (poor R:R, gap risk); short = fighting a live 4h uptrend at high ADX. p(win) on either sub-0.5 without confirmation - HOLD is the highest-expectancy line into thin, gappy earnings-night tape.",
+  "rationale": "QQQ is stretched (RSI 71.8, %b 0.85, stoch 85, bearish divergence) and price is stalling/rolling at the highs on tiny tokenized-equity volume, while structure is neutral (bias +0.02, funding flat, L/S 0.83) - no directional edge. GOOGL + TSLA report tonight after close, creating a genuine overnight gap that dwarfs any 0.65% ATR technical edge, so entering size now is uncompensated event risk. No trade until the tape picks a side post-event; size 0.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 707.5,
+    "expires_min": 240,
+    "note": "Losing the 707.75 intraday shelf confirms the bearish divergence resolving down, opening a clean short toward VWAP/703 with the stretched RSI as fuel."
+  },
+  "transcript": {
+    "macro": "REGIME: RISK-ON (equities); QQQ MIXED, lean cautious-long. Broad tape constructive July 22 (S&P +0.89%, Nasdaq Comp +1.29%, semis leading). QQQ structure neutral (bias +0.023, funding flat, long/short 0.83 not crowded). QQQ stretched: RSI 71.8, ADX 66.5, BB %b 0.85 with bearish divergence, lags BTC (rel-str -12%). Heavily equity-beta (0.69 TSM, 0.65 NVDA, 0.79 INTC) - GOOGL earnings tonight + wave of mega-cap prints drive it more than crypto. NDX vol gauge ~27 (elevated). No FOMC this session (Fed July 28-29, expected hold 3.50-3.75%). Tokenized-equity thinness = gappy overnight fills.",
+    "sentiment": "QQQ/BROAD MARKET NEUTRAL-to-BULLISH but event-heavy. Peak earnings week: GOOGL, TSLA, INTC, IBM this week (GOOGL + TSLA tonight after close). Tape constructive - Nasdaq-100 +2% July 21, best day in 3 weeks, chip rebound overshadowing re-escalating US-Iran conflict; 85% of S&P reporters have beaten. Two-way tail risk: Iran headlines + oil spikes can jolt sentiment; tonight's mega-cap prints drive QQQ overnight. Scan flags RSI ~72 with bearish divergence - stretched into a binary-heavy window. Trade tactically; avoid overnight size.",
+    "analyst": "QQQ 708.26. RSI 71.8, ADX 66.5 (strong trend but stretched), BB %b 0.853, stoch 85, VWAP dist +0.68%, bearish divergence flagged, ATR% 0.65 (~4.6 pts). Support 688.09 / resistance 726.99. Structure neutral (bias +0.023, funding flat, L/S 0.83). Recent 15m: peaked 710.01, drifted 708.90->708.04, dipped 707.75, bounced 709.13/709.30 twice rejected, last bars close weak (708.06/708.80/708.11/708.26) - stalling/rolling near highs, not fresh momentum. 15m/5m per-TF flat/down (rsi 45.8/41.2); 4h/1h long real but mid/short TFs show pause. Stretched into binary-heavy overnight window (GOOGL/TSLA tonight). Long = chasing extended move into divergence + event; short = fighting 4h uptrend/high ADX. Neither clean R:R; earnings gap makes overnight size reckless. HOLD. Reconsider on break below 707.5 (divergence resolving down toward VWAP ~703).",
+    "portfolio": "QQQ/USDT:USDT -> HOLD (size 0, conf 0.60): stretched + bearish divergence, no clean edge, overnight earnings-gap risk."
+  },
+  "timestamp": "2026-07-22T02:59:15.682880+00:00"
+}

@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "SNDK/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.3,
+  "playbook": "none",
+  "forecast": "Price is rolling over from ~1649 into a downside momentum flush (last 4 bars 1645->1635->1611->1604->1586, closing on lows), but sits +5.83% above VWAP with 5m RSI at 11.3 \u2014 over the next 2-4 bars I expect a mean-revert bounce/chop between ~1586 and ~1620 before direction resolves.",
+  "expectancy_note": "No edge: composite conf 6.1%/flat, align_factor 0.7. Short = chasing into 5m RSI 11 (snap-bounce stops late shorts); long = knife-catch vs -0.369 orderbook, +5.8% VWAP extension. p(win) ~0.45 both sides.",
+  "rationale": "SNDK is the weakest horse today (rel strength -19.4%) yet still +5.8% above VWAP on 3.81% ATR bars \u2014 extended mid-air with US cash closed (thin/gappy). Structure is mildly bearish (orderbook -0.369) while 4h stays up-trend/overbought (RSI 71.6), so intraday is a two-sided fight with no composite edge (conf 6.1). Fundamentals bullish but the Aug 5 earnings/Aug 13 investor-day catalysts are outside my 48h window. Waiting for either a VWAP-ward flush to buy support or a shelf reclaim beats forcing a bad-R:R trade here.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 1560,
+    "expires_min": 240,
+    "note": "Losing 1560 confirms the flush is extending toward VWAP (~1500)/the 1311 support zone, opening a cleaner pullback-long entry lower or a momentum short with a defined base; a bounce above 1620 instead would re-arm the up-trend continuation read."
+  },
+  "transcript": {
+    "macro": "RISK-OFF/DEFENSIVE. Hawkish Fed, FOMC July 29. US cash CLOSED => thin/gappy. SNDK: same memory tailwind as MU (0.875 corr), lower BTC corr (0.11). Structurally supported but overbought/extended. Scan conf 6.1 flat/weak signals. MIXED-constructive.",
+    "sentiment": "SNDK bullish drift, event risk Aug 5: same NAND-tightness theme as MU. Massive analyst PT hikes (Goldman $1,200->$2,200; Bernstein ->$3,000) but long-horizon, weight lightly. Fiscal Q4 earnings Aug 5 + investor day Aug 13 (both outside 48h, building event risk). AI-capex read-through positive today. No binary inside 48h.",
+    "analyst": "Weakest horse (RS -19.4%) yet +5.83% above VWAP on 3.81% ATR bars \u2014 extended mid-air, cash closed. Last 4 bars flush 1645->1586 closing on lows, but 5m RSI 11.3 (very oversold LTF); orderbook -0.369, structure_bias -0.078; 4h up-trend/overbought (RSI 71.6). Composite conf 6.1 = no edge. Short chases into RSI 11 (snap-bounce risk); long is a knife-catch vs the book. HOLD \u2014 refuse to force a bad-R:R trade.",
+    "portfolio": "HOLD SNDK \u2014 no composite edge (conf 6.1), extended and mid-flush off-hours; wait for a VWAP flush or 1620 reclaim."
+  },
+  "timestamp": "2026-07-23T02:32:52.494386+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "CL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.55,
+  "playbook": "none",
+  "forecast": "Base holds 84.85-85.6 near-term; a relief bounce toward 86.5-87 (VWAP/broken-support retest) is the higher-odds next move before any trend resumption. Only after that bounce, or after a decisive break of 84.85 on renewed volume, is a clean short available.",
+  "expectancy_note": "Shorting 85.1 is a late entry into RSI21/stoch4.5/-5.25% below VWAP tape - the account's #1 loser; p(win) on a chase ~0.40 with headline gap risk. Waiting for the bounce-to-VWAP short lifts R:R above 1.5 and avoids the reflex squeeze.",
+  "rationale": "All TFs point short but price is extremely stretched (RSI 21 on 4h, %B 0.045, 5%+ below VWAP) and the last 20 bars are a sideways base off 84.85, not fresh selling - a routine counter-bounce would hit any honest stop before the trend resumes. This is a 100% headline-driven asset with FOMC 7/28-29 and Hormuz re-escalation gap risk against shorts, so chasing the low here is negative-expectancy. I want to sell strength into a retest, not weakness at the low; hence hold, no size.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 86.5,
+    "expires_min": 240,
+    "note": "A bounce back to the VWAP/broken-support zone gives a clean, non-chasing short entry with room to a proper stop above 87.3 and target back toward the 84.85 base low."
+  },
+  "transcript": {
+    "macro": "Regime MIXED->HOSTILE, headline-driven tape; FOMC July 28-29 inside window. CL cleanest SHORT setup but knife-catch risk: all TFs short, 5m -0.90, RSI 21 oversold, reversed -4.5% Friday on de-escalation. 100% headline-driven - any Hormuz re-escalation gaps it against you. Short with trend but tight, small, headline-aware.",
+    "sentiment": "CL two-sided and violent: war premium (Hormuz strikes, tankers hit) vs diplomacy-driven crashes (-3% Friday on peace-revival reports); OPEC+ adding supply. Any headline gaps it 3-5%. A de-escalation headline is the biggest 48h risk to shorts.",
+    "analyst": "All TFs short but price extremely stretched (RSI 21, %B 0.045, 5%+ below VWAP); last 20 bars a sideways base off 84.85, not fresh selling; 15m RSI back to 43 (bounce underway). Shorting the low = the account's #1 loser + headline gap risk. Want to sell strength into a bounce to ~86.5, not weakness at the low. Hold.",
+    "portfolio": "HOLD CL (conf 0.55) - trend short but too oversold to chase; sell the bounce >86.5."
+  },
+  "timestamp": "2026-07-26T15:37:31.551519+00:00"
+}

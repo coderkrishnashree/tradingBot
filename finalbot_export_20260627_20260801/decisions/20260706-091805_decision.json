@@ -1,0 +1,25 @@
+{
+  "action": "hold",
+  "symbol": "SNDK/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.34,
+  "playbook": "none",
+  "expectancy_note": "No edge either way: p(win) on a fresh short ~0.45 with severe squeeze tail-risk into RSI 14/bullish divergence at support; buying a -26% knife pre-open is negative EV. HOLD beats both.",
+  "rationale": "SNDK is a tokenized equity (btc_corr 0.005) in an active memory-glut unwind, deeply oversold intraday (RSI 14/5m, 25.8/15m, stoch 6.7, %B -0.022 below lower band, bullish divergence) and sitting on support ~1824 with the scan 'last' 1826 already stale vs live 1,700s prints. Structure leans short (orderbook -0.63, crowd long 1.22) but chasing short here invites a vicious snap-back/squeeze into $2,500-3,000 analyst bids, while buying has no reversal confirmation. Scan is 09:15 UTC, before the 13:30 US cash open, so the tokenized pair is thin and gap-prone \u2014 real price discovery hasn't happened. Best expectancy is to wait for the US-open print and a bounce to fade rather than enter blind into an oversold, off-hours tape.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 1857,
+    "expires_min": 360,
+    "note": "Reclaiming the ~1857 broken shelf/resistance proves the oversold snap-back has legs and the down-leg is exhausted \u2014 re-debate for a fade or trend reassessment at a non-extended level."
+  },
+  "transcript": {
+    "macro": "SNDK = tokenized equity (btc_corr ~0.005; crypto regime irrelevant). Equities/memory sector in active unwind: SNDK -26% on week, multi-day memory-glut selloff (Micron/Seagate/WDC down) on Samsung/SK Hynix supply + AI capex peak fears; SNDK was +858% YTD, violently mean-reverting. Structure (scan ~09:15 UTC): structure_bias -0.264 (supports short), orderbook_imbalance -0.632 (heavy offers), long_short_ratio 1.222 (crowd long = contrarian short fuel), funding ~flat. Composite SHORT, blended -0.36, regime=trend, ADX 64.7, price at support (1826 vs 1824). Exhaustion loud: RSI 14/25.8, stoch 6.7, %B -0.022, bullish divergence. Biggest risk: oversold snap-back/squeeze into bullish analyst targets (Bernstein $3,000, BofA/Citi $2,500). Scan is pre-US-open (13:30 UTC); tokenized equity thin/gap-prone off-hours. VERDICT: NEUTRAL/stay-out \u2014 too oversold to chase down, too broken to buy; wait for US-open bounce to fade.",
+    "sentiment": "Fresh shock, moving today: SNDK gapping hard July 6 (range ~$2,113 high to ~$1,693 low, last ~$1,745-1,762 vs ~$2,032 prior close); scan 'last' 1826 STALE vs live 1,700s. Micron in lockstep (SNDK/MU corr 0.85, SNDK/INTC 0.79) \u2014 coordinated memory/semi rotation, no company-specific news; momentum-driven, prone to sharp bounces. No <=48h catalyst (Q4 FY2026 earnings ~Aug 13-24). Analyst tone aggressively bullish (Bernstein $3,000, BofA/Citi $2,500) \u2014 short fights strong bid, squeeze risk. Off-hours thin/gappy. VERDICT: near-term bearish momentum but LOW conviction on short; argues WITH a very short-term/tight-stop short, AGAINST holding it. Not a high-conviction directional edge.",
+    "analyst": "Textbook NO-TRADE. Chasing a short into RSI 14 / below lower band / bullish divergence, at support, before US cash open, against $2,500-3,000 analyst bids, is a donation to a squeeze. Buying a knife -26% on the week in an active memory-glut unwind with no reversal confirmation is equally reckless. Best expectancy: wait for US-open print and a bounce to fade. Most informative flip level: reclaim of ~1857 broken shelf/resistance proves the oversold snap-back has legs and the down-leg is exhausted \u2014 that's where a fade/trend reassessment becomes actionable.",
+    "portfolio": "HOLD SNDK/USDT:USDT (conf 0.34) \u2014 no edge either way; wait for US-open, re-debate on reclaim of 1857."
+  },
+  "timestamp": "2026-07-06T09:18:05.253595+00:00"
+}

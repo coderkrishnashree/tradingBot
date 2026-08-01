@@ -1,0 +1,28 @@
+{
+  "symbol": "QQQ/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.5,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "none",
+  "forecast": "Coils in the 695-696 basing zone; either grinds into 688.09 support (short-continuation trigger) or reflexively bounces toward the 700-701 VWAP zone. No edge market-selling the flat tape.",
+  "expectancy_note": "Shorting 695 into 688 support with 4h RSI 18.6 on a CLOSED underlying is the classic late-chase (p_win_learned 0.361); waiting for a 688 break or 700 bounce raises R:R above 1.5.",
+  "rationale": "4h deeply oversold (RSI 18.6, ADX 75.9) but 15m/5m have gone flat and price bases only ~1% above structural support 688.09 with US cash shut over the weekend (thin, gappy). A market short risks the routine counter-bounce stopping me before continuation. Want a clean 688 break to short with room, or a bounce to ~700 to short the retest; neither present, so HOLD.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 688.0,
+    "expires_min": 240,
+    "note": "Losing 688.09 confirms trend resumption and opens a clean short-continuation entry with downside room."
+  },
+  "transcript": {
+    "macro": "RISK-OFF regime, favor shorts/selectivity. Nasdaq -1.4% to 25,520 (weekly -2.9%) on a semiconductor rout (China Moonshot AI shock) + re-escalating US-Iran conflict. Rates dovish (soft June CPI, July hike odds ~17%) but overwhelmed by geopolitics/AI shock. Tokenized equities (QQQ/TSM/META/MSFT/ORCL/SNDK) track a CLOSED US cash market over the weekend -> thin, gappy, low-volume tape, Monday gap risk; size down and treat oversold RSI as unreliable. SOL: crypto Extreme Fear (F&G 25), BTC dominance rising, crowded long L/S 2.78, BTC-beta 0.79. CL: the only long-friendly name, WTI +4.5% (Brent +12%) on US-Iran/Hormuz supply shock, but extremely overbought (RSI 76.6, stoch 93, %B >1.0) pinned at resistance 82.99. Bottom line: shorts on the semis/equity complex (reduced size) and cautious momentum-long on CL only; stay selective on SOL.",
+    "sentiment": "Only two names have a real <=48h news driver: CL (BULLISH - geopolitical oil spike, overbought) and ORCL (BEARISH - S&P cut to BBB-, ~$42B FY27 FCF deficit, 13%/~21k layoffs, OpenAI ~half of backlog). TSM Q2 beat July 16 (binary past); MSFT earnings ~July 13 (past); META July 29 & SNDK Aug 5 (outside window). SOL/MSTR trade on crypto Extreme Fear as BTC-beta with no 48h binary. Net: risk-off momentum across the equity names; semi/AI-capex selloff + oil geopolitics are the two macro threads.",
+    "analyst": "4h deeply oversold (RSI 18.6, ADX 75.9) but 15m/5m have gone flat and price bases only ~1% above structural support 688.09 with US cash shut over the weekend (thin, gappy). A market short risks the routine counter-bounce stopping me before continuation. Want a clean 688 break to short with room, or a bounce to ~700 to short the retest; neither present, so HOLD. | Forecast: Coils in the 695-696 basing zone; either grinds into 688.09 support (short-continuation trigger) or reflexively bounces toward the 700-701 VWAP zone. No edge market-selling the flat tape. | Expectancy: Shorting 695 into 688 support with 4h RSI 18.6 on a CLOSED underlying is the classic late-chase (p_win_learned 0.361); waiting for a 688 break or 700 bounce raises R:R above 1.5.",
+    "portfolio": "HOLD QQQ - deeply oversold but basing on support into a closed weekend tape; no honest R:R short."
+  },
+  "timestamp": "2026-07-18T11:07:50.469466+00:00"
+}

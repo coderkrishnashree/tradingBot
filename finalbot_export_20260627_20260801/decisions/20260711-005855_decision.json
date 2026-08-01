@@ -1,0 +1,26 @@
+{
+  "symbol": "TSLA/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.6,
+  "size": 0.0,
+  "entry": 408.36,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "forecast": "Overnight coil continues: price grinds in the 407.5-408.7 micro-range on near-zero liquidity for the next several bars, no directional resolution until US reopen (13:30 UTC). No clean next move to trade.",
+  "expectancy_note": "No valid geometry: nearest resistance 420 is +2.9% (~2.7 ATR) and honest 1xATR stop (~404) vs a realistic in-range target gives R:R < 1; 30m already short (RSI 39.8) and 4h stretched (RSI 73.5) \u2014 mixed, low p(win). HOLD beats a noise-stopped chase.",
+  "rationale": "TSLA is coiling in a ~$1 overnight range (407.57-408.69) on near-zero 15m volume post US-close, with the 4h uptrend stretched (RSI 73.5, +1.73% above VWAP) and the composite NOT aligned (41% conf, 30m already flipping short). Mild long lean and robotaxi momentum are real but there is no concrete next move to express and no entry with R:R >= 1.5: a tight stop under the coil is < 1xATR (noise-stopped), an honest 1.5xATR stop puts the range-top target below break-even. Sell-the-good-news behavior on the delivery beat plus Jul-22 earnings capping multi-day holds argue for patience; wait for a real US-session break above the coil before paying up.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 410.5,
+    "expires_min": 240,
+    "note": "A decisive break above the 408.7 overnight cap toward 410.5 on returning US-session volume proves the uptrend is resuming with real liquidity \u2014 that reopens a trend-continuation long with a stop back inside the base."
+  },
+  "transcript": {
+    "macro": "MIXED environment, mild long lean (2026-07-11 ~00:55 UTC). Crypto cautious (BTC.D ~55.5%, BTC -19% June, record ETF outflows) but equities mildly risk-on: S&P 7,575 (+0.42%), Nasdaq 26,282 (+0.29%) Jul 10; chips/AI leading. TSLA is a tokenized EQUITY (BTC corr only 0.28) \u2014 trades on Nasdaq/tech tape. Underlying ~$408-409.58, +41.7% YoY, off $489 Dec-2025 ATH. Funding 0.0 (neutral, not crowded), OI 7,360, long_short 1.67 (mild contrarian drag), 4h RSI 73.5/ADX 51 = strong but STRETCHED. Risk#1: Q2 earnings Wed Jul 22 after close \u2014 outside horizon but caps multi-day holds. Risk#2: scan ~20:55 ET, post US cash close \u2192 thin/gappy overnight, near-zero 15m volume; don't size as liquid until US reopen 13:30 UTC. Verdict: mild long higher-probability direction; short no tailwind; argue smaller size.",
+    "sentiment": "Cautiously bullish-but-frothy. Dominant driver: robotaxi \u2014 Tesla expanded to Miami (first no-safety-monitor launch), shares +6% intraday; live Austin/Dallas/Houston. Offset: proposed NJ law could BAN robotaxi services (live downside headline). Biggest catalyst: Q2 earnings Wed Jul 22 ~5:30pm ET \u2014 outside 24-48h; be flat/small into it. Q2 deliveries 480,126 (+25% y/y, ~18% beat) Jul 2 yet stock FELL ~7% that day on margin/valuation skepticism (fwd P/E ~200x) \u2014 sell-the-good-news tell. Low-weight: UBS PT $442 (Neutral), Citizens Hold, consensus Hold-to-Buy. Net 24-48h: neutral-to-mildly-supportive of long bias with caveats (sell-the-good-news + NJ ban risk); no imminent binary inside 48h.",
+    "analyst": "TSLA coiling in a ~$1 overnight range (407.57-408.69) on near-zero 15m volume post US-close. 4h uptrend stretched (RSI 73.5, +1.73% above VWAP), composite NOT aligned (41% conf, 30m already flipping short RSI 39.8). Mild long lean and robotaxi momentum real but no concrete next move to express and no entry with R:R>=1.5: tight stop under coil is <1xATR (noise-stopped), honest 1.5xATR stop puts range-top target below break-even. Nearest resistance 420 is +2.9% (~2.7 ATR) away. Sell-the-good-news behavior + Jul-22 earnings cap \u2192 patience. Reconsider on a clean US-session break above 410.5.",
+    "portfolio": "HOLD \u2014 no valid R:R geometry in a thin overnight coil; wait for a US-session break above 410.5 to re-open a trend-continuation long."
+  },
+  "timestamp": "2026-07-11T00:58:55.548980+00:00"
+}

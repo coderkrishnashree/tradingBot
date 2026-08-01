@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "CL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.34,
+  "playbook": "none",
+  "forecast": "Price just rejected the 73.9 shelf on the day's biggest volume and is probing 73.16; expect chop between 73.16 and 73.9 next 2-4 bars, then a decision - a bounce back toward VWAP ~72.4 favors a later trend-long, while losing 73.16 opens 72.9/72 and confirms the near-term rollover.",
+  "expectancy_note": "No clean edge: long is extended (%B 0.80, +1.42% vs VWAP, stoch 76.8) into an extreme-crowded book (L/S 3.98) = chasing; short fights the bullish 4h war-premium bid with 73.16 still holding. p(win) ~0.5 either way, sub-1.5 R:R at spot; waiting for a level beats forcing it.",
+  "rationale": "Macro (Hormuz-disruption war premium) and sentiment (OPEC+/UAE/Iran barrels returning) genuinely cancel here, and the tape confirms indecision: the 4h is up (+0.763, RSI 63.7, ADX 56) but price is stretched to the upper Bollinger band and +1.42% over VWAP with a 3.98 long/short ratio - the crowd is already long, funding is positive, and the last three 15m bars broke down off 73.9 on the session's heaviest volume. Buying now chases an over-owned, extended move (the account's documented #1 loss pattern); shorting fights an intact bullish 4h with 73.16 support holding. The highest-expectancy action is to stand aside until price either pulls back to VWAP for a cleaner long or decisively loses 73.16 to confirm the rollover; no honest 1.5R trade exists at 73.46.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 73.15,
+    "expires_min": 240,
+    "note": "Losing the 73.16 swing low breaks the near-term shelf and confirms the 5m/15m rollover into supply-return flow - flips this to a short setup toward 72.4/71.9; a reclaim of 74.0 instead would be the long-side re-debate."
+  },
+  "transcript": {
+    "macro": "2026-07-12: CL its own geopolitical trade. LONG-biased read: Strait of Hormuz disruption / fresh US strikes on Iran, US revoked Iran's sale waiver. WTI ~$71-75, weekly +~3.5% on war-risk premium; ~20% of world oil transits Hormuz. NEGATIVELY correlated to BTC/equities (-0.26) -> diversifier, not risk-on beta. Ceasefire/peace-talk headline = main long-side risk. Scan composite weak LONG (conf ~12.7).",
+    "sentiment": "BEARISH read: WTI ~$68-71, up ~3.5% on week but CAPPED. OPEC+ approved +188k bpd next month, UAE record output, June 18 US-Iran MOU REOPENED Hormuz with Iranian barrels returning. Analysts flag downside toward $60. No single 48h binary; watch weekly EIA inventories. Supply news skews sentiment bearish. TENSION: macro sees Hormuz DISRUPTED, sentiment sees Hormuz REOPENED.",
+    "analyst": "Macro (war premium) and sentiment (supply returning) genuinely cancel, and the tape confirms indecision: 4h up (+0.763, RSI 63.7, ADX 56) but price stretched to the upper BB, +1.42% over VWAP, with a 3.98 long/short ratio (crowd already long) and the last three 15m bars broke down off 73.9 on the session's heaviest volume. Long chases an over-owned move; short fights an intact 4h with 73.16 holding. Stand aside until a pullback to VWAP (long) or a decisive loss of 73.16 (short). No honest 1.5R at 73.46.",
+    "portfolio": "HOLD CL - macro/sentiment cancel and price is extended+crowded; wait for a sub-73.16 break (short) or a VWAP pullback (long)."
+  },
+  "timestamp": "2026-07-12T12:33:14.026821+00:00"
+}

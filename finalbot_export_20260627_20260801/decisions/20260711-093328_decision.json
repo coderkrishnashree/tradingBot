@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "BTC/USDT:USDT",
+  "size": 0.0,
+  "entry": 64239.2,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price coils 64,150-64,300 under resistance 64,703; last 3 bars faded on light volume off the 64,286 high. Expect chop/mild fade toward VWAP-area 63,000-63,400, OR a clean break >64,703. No high-expectancy entry at current price.",
+  "expectancy_note": "Long here: resistance only ~0.7% overhead vs a valid stop >1xATR down = R:R <1 into CPI; not worth it. Short: fighting ADX 75 uptrend with no divergence/exhaustion = negative expectancy. HOLD beats both.",
+  "rationale": "BTC is in a violently strong but overextended uptrend (ADX 74.9, 4h RSI 80, +1.98% above VWAP) pressed against resistance at 64,703 with only ~0.7% of room, while support sits ~4.6% away - any honest long stop dwarfs the reward to the next level, exactly the late-chase pattern that bleeds this account. A short is untradeable against ADX 75 with flat funding and a bid-heavy book. CPI + Warsh testimony Tue Jul 14 is a live binary inside the hold window, so I want a pullback to VWAP for a with-trend long or a confirmed breakout retest, not a mid-air entry now.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 64703,
+    "expires_min": 240,
+    "note": "A decisive break and hold above 64,703 resistance opens continuation room and flips this to a long on the retest; losing 63,000 (VWAP) would instead set up a deeper mean-reversion long."
+  },
+  "transcript": {
+    "macro": "Regime risk-ON but late-stage & event-gated (2026-07-11). Fri Jul 10 closed green led by AI/semis; nearly everything overbought. CATALYST inside 48h: June CPI + Core CPI Tue Jul 14 8:30am ET + Warsh's first Congressional testimony 10am + bank earnings start - a live binary inside a 2-day hold window. BTC 64.2k, funding near-flat (0.006%/8h, NOT crowded), L/S 1.34 (mild long tilt), orderbook +0.39 bid-heavy, OI 56.9k - structure neutral/clean, no squeeze - but 4h RSI 80/ADX 75 extremely extended. BTC.D 56.3% (no alt rotation). Size DOWN into Monday.",
+    "sentiment": "BTC: improving but fragile ~$64k, recovered off a 21-month low near $58k. Key catalyst: ETF flows reversed - three straight inflow days (~$510M, IBIT-led) snapped a 10-day $2.73B outflow streak; softer US labor eased hike fears. HIGH-weight risk: June CPI mid-July + FOMC Jul 29 - a hot CPI is the swing factor. Overall tone: cautiously risk-on, hinges on CPI.",
+    "analyst": "Composite 56.5% long, blended 0.472. RSI 80, ADX 74.9 (extreme), %B 0.79, VWAP +1.98% = extended. 5m RSI cooled to 52.9, last 15m bars faded on light volume = intrabar cool-down, not reversal. Resistance 64,703 only ~0.7% above (poor R:R for a long); support 61,272 ~4.6% below. No exhaustion/divergence to justify a short. Verdict: HOLD; wait for a VWAP pullback (with-trend long) or a confirmed >64,703 breakout retest.",
+    "portfolio": "HOLD BTC - overextended into resistance with sub-1 R:R and CPI gap risk; no chase, no counter-trend short."
+  },
+  "timestamp": "2026-07-11T09:33:28.571904+00:00"
+}

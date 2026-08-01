@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "ORCL/USDT:USDT",
+  "size": 0.0,
+  "entry": 141.78,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.55,
+  "playbook": "none",
+  "forecast": "Weekend flatline: price stays pinned 141.3-142.2 on dead volume into the weekend; no directional resolution likely until Monday cash open. Only a decisive loss of 137.6 support reopens the downtrend toward 134.",
+  "expectancy_note": "No edge: momentum already exhausted (5m RSI 35, stoch 21.8) yet price stalled 4pts above support into a bid-heavy book (+0.43); a fresh short = chasing a stalled move (account's #1 loser). p(win) on any entry <0.5 with Monday gap risk. HOLD is highest expectancy.",
+  "rationale": "The 1h/5m short scores are stale echoes of an earlier drop that has since flatlined \u2014 last ~10 15m bars are sub-1-unit volume, price frozen 141.7-142.0, no momentum to short into. Structure is mixed against a short (crowded longs 2.57 but bid-heavy book +0.43, stoch washed out) and hostile to longs (weakest RS -23.4%, BBB- downgrade overhang). Weekend thinness + Monday CPI/gap risk make any position low-expectancy; wait for structure to break.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 137.63,
+    "expires_min": 240,
+    "note": "Losing the multi-day support 137.63 confirms the 1h/4h downtrend resuming and opens a clean momentum short toward 134 \u2014 the only high-expectancy setup here, absent on a flatline mid-range."
+  },
+  "transcript": {
+    "macro": "Regime MIXED, cautiously risk-on but thin. Wall St closed Fri higher; Big Tech led. Higher-for-longer Fed (rates 3.50-3.75%, CPI >4% y/y, ~63% odds Sept hike). DXY soft ~100.8. BTC ~$64.1k. WEEKEND: US cash equities closed until Mon 13:30 UTC \u2014 stale underlyings, thin books, Monday gap risk; US CPI ~Jul 14-15. ORCL: HEADWIND \u2014 S&P cut Oracle to BBB- (one notch above junk) Thu on capex/profitability/concentration concerns. Weakest name: RS -23.4%, per-TF trend down on 1h/4h/5m, structure_bias -0.17, crowded L/S 2.57; order-book imbalance +0.43 lone bull tell. Downgrade overhang favors shorts but weekend thinness cautions size.",
+    "sentiment": "Market cautiously positive but nervous; hawkish Fed (~61-77% odds HIKE). June CPI 7/14 key binary; bank earnings start 7/14. ORCL BEARISH/cautious lean: already reported Q4 FY26 (record cloud, IaaS +93%) but fell ~10% post-print on $55.7B capex / $40B AI raise spooking margins. No new earnings catalyst <48h; weak RS, short bias. Near-term news neutral-to-bearish, drifting on funding overhang.",
+    "analyst": "Tape has flatlined: last ~10 15m bars sub-1-unit volume, price frozen 141.7-142.0, stalled 4 pts above support 137.63 into a bid-heavy book (+0.43), stoch washed out (21.8). The 1h/5m short scores are stale echoes of an earlier drop \u2014 no momentum to short now; a fresh short is the account's #1 loser (late short into stalled tape). No long either (weakest RS, downgrade overhang). HOLD; short only on a decisive 137.63 loss toward 134.",
+    "portfolio": "ORCL \u2014 HOLD, size 0; downgrade-overhang short only arms on a clean break of 137.63 support."
+  },
+  "timestamp": "2026-07-11T05:00:51.007198+00:00"
+}

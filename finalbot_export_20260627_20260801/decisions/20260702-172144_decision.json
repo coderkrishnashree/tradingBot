@@ -1,0 +1,23 @@
+{
+  "symbol": "SOL/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.6,
+  "size": 0.0,
+  "entry": 80.98,
+  "stop_loss": 71.5,
+  "take_profit": 93.63,
+  "rationale": "SOL is in a real uptrend (ADX 38, all TFs long-aligned) but price is deeply extended: RSI 70-75, stoch 90.6, bb_pctb 1.21 above the upper band, and +12.7% (~2.2x ATR) above VWAP with crowded longs (L/S 2.06, structure_bias -0.326) and slipping OI. Chasing at the band into crowded longs is negative-expectancy and squeeze-prone, while a fresh short fights an ADX-38 trend and a bullish divergence during a BTC relief bounce. With btc_correlation 0.855 and only +4% relative strength this is mostly a BTC-beta echo, no idiosyncratic edge. Best expectancy is to wait for a pullback toward VWAP/value (~$72-74) to buy the trend with a proper stop, or a confirmed break of $93.63.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 74.0,
+    "expires_min": 240,
+    "note": "A pullback into the VWAP/value zone resets the overbought stretch and offers a low-risk trend-continuation long entry with real R:R toward $93.63."
+  },
+  "transcript": {
+    "macro": "Regime: cautious risk-on bounce, not a trend. BTC ~$61.8k (+4% on-day after Fed's Warsh eased inflation fears); Fear & Greed 15 (Extreme Fear); BTC.D elevated ~55.5% (alts not leading); BTC 1d still down. Relief rally into July 28-29 FOMC. SOL positioning: ~$80.98, RSI hot (70 1d / 75 4h), +12.7% above VWAP, bb_pctb 1.21; funding near-neutral (+2.26e-05); L/S ratio 2.06 in-scan (~1.8-2.2 Binance) = crowded longs; orderbook imbalance -0.059; structure_bias -0.326 (contrarian bearish); OI slipping (~$5.4B, -1.2%/day) = squeeze-prone. SOL corr 0.855 = mostly BTC-beta, only +4.05% rel strength; ATR ~5.7%. Verdict: MIXED, leaning HOSTILE for a fresh long; no standalone short; if long, small and on a pullback toward VWAP/support.",
+    "sentiment": "SOL sentiment NEUTRAL-to-mildly-constructive with overhang. Bullish: Morgan Stanley SOL ETF filing at record-low 0.14% fee; ETF inflows key upside catalyst; network healthy (no outage/hack); Alpenglow upgrade (sub-200ms finality) targeting Q3 2026; ~99% of on-chain tokenized-stock volume, MoneyGram validator, RWA growth. KEY RISK (imminent): venture token unlock pressure through Q3 2026 ('$1B ETF paradox' - inflows not enough to absorb unlock supply, capping price). Broad market: Fear & Greed neutral-to-extreme-fear; record June BTC ETF outflows but OI flushed suggesting capitulation. Verdict: NEUTRAL.",
+    "analyst": "Data confirms hostile-for-a-fresh-long. RSI 70/75.3, stoch 90.6, bb_pctb 1.21, +12.67% above VWAP (~2.2x ATR). ADX 38.4 with all TFs long-aligned = genuine uptrend, but price is mid-air far from value. L/S 2.06 crowded, structure_bias -0.326, OI slipping = squeeze-prone. btc_correlation 0.855, only +4.05% rel strength = BTC-beta echo, no idiosyncratic edge. Support 60.03 (far), resistance 93.63. Chasing a long at the band is negative-expectancy; a fresh short fights an ADX-38 uptrend + bullish divergence in a BTC relief bounce. Textbook NO TRADE: wait for pullback toward VWAP/SMA20 (~$72-74) to buy the trend with real R:R, or a confirmed break of $93.63.",
+    "portfolio": "SOL/USDT:USDT -> HOLD (conf 0.60): overbought + crowded longs into a stalling BTC-beta rally; wait for a VWAP pullback (~$72-74) or a confirmed break of $93.63."
+  },
+  "timestamp": "2026-07-02T17:21:44.044024+00:00"
+}

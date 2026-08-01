@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "EWJ/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.8,
+  "playbook": "none",
+  "forecast": "No forecastable next candle: tape is frozen (last ~20 15m bars ~0.0 volume, price pinned 91.64->91.90 on a single tick), US-listed EWJ and Tokyo cash both closed over the weekend, 5m RSI a broken 100.0 with null ATR. No live price discovery to trade.",
+  "expectancy_note": "No computable R:R on non-existent prices; any signal is illiquid noise and a hard BOJ binary Jul30-31 + FOMC Jul29-30 dwarf any 15m read. Expectancy of a trade is negative; HOLD has the best expectancy.",
+  "rationale": "EWJ is an effectively no-volume, stale, gappy book with OI just 2,501 and composite confidence 41.6% \u2014 there is no honest entry, stop, or target to draw, so R:R is uncomputable. On top of illiquidity, a genuine BOJ decision with Outlook Report on Jul 30-31 (rate at 0.75%, hawkish = stronger yen = negative for Japanese equities) plus FOMC Jul 29-30 are catalysts pure price cannot see; a directional position must not be held through them. Size 0 \u2014 no reliable market to trade.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 93.34,
+    "expires_min": 240,
+    "note": "Only a genuine volume-backed reclaim of resistance 93.34 during live US/Tokyo hours would signal a tradable market; until then the tape is frozen and the BOJ/FOMC binary keeps this a no-trade regardless of level."
+  },
+  "transcript": {
+    "macro": "Regime MIXED tilting risk-off. US-listed EWJ CLOSED till Mon; Tokyo cash also closed (weekend) = no live price discovery. EFFECTIVELY NO VOLUME \u2014 last ~20 15m candles ~0.0 volume; one 5m RSI printed 100.0 (broken). OI 2.5k tiny. Do NOT trade on these prints \u2014 noise from a frozen tape.",
+    "sentiment": "RISK-OFF/defensive, hawkish tape. HARD BOJ BINARY: BOJ decision Jul 30-31 WITH quarterly Outlook Report + presser; policy rate 0.75% (highest since 1995). Hawkish BOJ/stronger yen typically NEGATIVE for Japanese equities. Plus FOMC Jul 29-30. Do NOT hold a directional EWJ position through Jul 30-31; event risk dwarfs any 15m technical.",
+    "analyst": "Frozen tape: essentially all last 20 15m bars 0.0 volume, price pinned 91.64->91.90 on a single tick, 5m RSI broken 100.0 with null ATR, OI 2,501, composite conf 41.6%. No live price discovery, no forecastable next candle, R:R uncomputable. Hard BOJ binary Jul 30-31 + FOMC Jul 29-30 override. Textbook NO-TRADE/HOLD.",
+    "portfolio": "HOLD EWJ/USDT:USDT \u2014 no reliable market (frozen weekend tape) and BOJ/FOMC binary; skip."
+  },
+  "timestamp": "2026-07-25T23:03:50.619713+00:00"
+}

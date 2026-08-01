@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "TSM/USDT:USDT",
+  "size": 0.0,
+  "entry": 437.41,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.34,
+  "playbook": "none",
+  "forecast": "Dead, coiling tape around 436.6-437.8 on near-zero off-hours volume; chop pinned to VWAP until US session, then direction decided by CPI/bank earnings Jul 14 and the TSMC print Jul 16.",
+  "expectancy_note": "No edge: price mid-range at VWAP (%B 0.40), 5m RSI 25.4 + 15m flipping long = shorting into a micro-bounce; nearest support 425.7 ~4 ATR away so any honest stop makes R:R <1.5. HOLD beats a late short into crowded longs (L/S 1.73) ahead of a binary earnings coin-flip.",
+  "rationale": "The 1h/4h composite is short and the sector rout is real, but the tape is coiling at VWAP with no extension to fade and no structure within stop range - entering here is the classic late-short-into-a-bounce loss. L/S 1.732 crowded long is squeeze risk against a short, and TSMC earnings Jul 16 (inside horizon) plus thin off-hours liquidity make a fresh entry negative-expectancy. Wait for a decisive break of the defended 436.5 swing low (short confirmation) or a reclaim of 439.5 (invalidation); size 0 until then.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 436.4,
+    "expires_min": 240,
+    "note": "Losing the repeatedly-defended 436.5 swing low confirms the 1h/4h breakdown and opens a clean short toward 433/430 with a stop back above 438."
+  },
+  "transcript": {
+    "macro": "Environment MIXED, tilt to caution on size. Live semis/AI-demand scare (Samsung miss Jul 7), CPI + bank earnings Jul 14, TSMC earnings Jul 16 - all inside desk horizon. Funding flat/neutral. BTC range-bound $63.6-64.4k, dominance ~56-58%, alts lagging. TSM: composite SHORT 60.8%, structure_bias -0.196 (L/S 1.73 crowded long into weakness), btc_corr 0.13 (own semis story), outperformed peers but binary earnings Jul 16.",
+    "sentiment": "TSM NET BEARISH near-term / high event risk. HARD CATALYST Q2 earnings Thu Jul 16 (~2am ET). Held up better than peers in July chip selloff but sits in a cratering sector (Micron -13%/day, SK Hynix HBM slowdown). Prior guide strong so beat partly priced; risk is skew - soft CoWoS/capex amplifies selloff. Tokenized equity gaps/thin off US hours.",
+    "analyst": "1h/4h short and sector rout real, but tape coiling at VWAP, no extension to fade, nearest support ~4 ATR away, 5m RSI 25.4 + 15m flipping long = shorting into a micro-bounce. Crowded-long L/S 1.73 = squeeze fuel; binary earnings Jul 16 + thin off-hours = negative expectancy. HOLD, arm short below 436.4.",
+    "portfolio": "HOLD TSM - no clean entry mid-range ahead of binary Jul 16 earnings; short armed on break of 436.4."
+  },
+  "timestamp": "2026-07-12T13:03:10.830713+00:00"
+}

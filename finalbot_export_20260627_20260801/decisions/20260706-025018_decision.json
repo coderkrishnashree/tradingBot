@@ -1,0 +1,24 @@
+{
+  "action": "hold",
+  "symbol": "EWY/USDT:USDT",
+  "size": 0.0,
+  "entry": 185.82,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "rationale": "EWY is pinned to support 185.55 (price 185.82, only 0.15% above), RSI 20 / %B 0.08 / stoch 3.5 \u2014 deeply oversold, with 1h/30m/15m momentum all flat near zero; only the 4h is short. US cash reopens today after the Jul-3 holiday, so tokenized levels are stale and gap/repricing risk is high. Shared macro explicitly warns oversold + reopen gap = bounce risk against shorts and to fade strength, not sell breakdowns. No edge either way at the low into a gap \u2014 HOLD and wait for either a clean support break or a failed bounce.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 185.55,
+    "expires_min": 240,
+    "note": "A decisive break below the 185.55 support (with lower-TF momentum turning back down post-reopen) confirms the 4h downtrend has resumed and re-arms a short; until then price is holding the low and bounce risk dominates."
+  },
+  "transcript": {
+    "macro": "Regime MIXED-to-HOSTILE. US cash reopens Mon Jul 6 after Jul-3 holiday \u2014 gap/repricing risk on thin tokenized liquidity, SIZE DOWN. Tech/semis in hard reversal (memory glut, ~$1T wiped, SK Hynix HBM capex-slowdown). Fed hawkish (Warsh) but weak June NFP (57k) cooled hike bets, DXY ~101; rotation OUT of megacap tech/semis. BTC soft ~$63.4k, mildly risk-off. EWY tilt: HEADWIND for longs / short-supportive but deeply oversold \u2014 0.78 corr to SNDK/MU, Korean-memory-chip proxy (Samsung/SK Hynix), RS -3.41%, downtrend intact (4h -0.9, ADX 74). Oversold + reopen gap = bounce risk vs shorts; fade strength.",
+    "sentiment": "Dominant theme: memory/AI-glut selloff (MU/SNDK hit hard Jul 1-4). EWY NEUTRAL, high beta to same memory theme (Samsung/SK Hynix core of index). +100%+ YTD, whippy (KOSPI -7.9% then +5.8% early July). No isolated <=48h catalyst. Corr 0.77-0.78 to MU/SNDK.",
+    "analyst": "Price pinned to support 185.55 at RSI 20 / %B 0.08 with lower-TF momentum flat \u2014 shorting the exact low into a reopen gap in a spent trend (ADX 74 = exhaustion) is negative-expectancy; longing an intact 4h downtrend against the memory-glut theme is worse. No-trade; wait for a clean break below 185.55 or a failed bounce.",
+    "portfolio": "HOLD EWY (conf 0.60) \u2014 no edge at oversold support into US reopen gap; re-arm short on break < 185.55."
+  },
+  "timestamp": "2026-07-06T02:50:18.714753+00:00"
+}

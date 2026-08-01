@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "GOOGL/USDT:USDT",
+  "size": 0.0,
+  "entry": 348.69,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.55,
+  "playbook": "trend",
+  "forecast": "LTFs deeply oversold (15m RSI 23, 30m RSI 8, stoch 15.8) sitting on the 348.28 low just above 341.86 support \u2014 expect a mean-reversion bounce toward VWAP ~352-353 over the next 2-6 bars before the bearish 4h trend (score -0.85, worst rel strength) can resume; that bounce is the short entry, not here.",
+  "expectancy_note": "p(win)~0.5 shorting into RSI-23 now \u2014 a routine counter-bounce hits any honest stop first (account's #1 loss pattern); waiting for the ~352 retest gives a tight ~1.5xATR stop above VWAP and R:R>2 to the 341.9 support, far better expectancy than chasing.",
+  "rationale": "GOOGL is the weakest name and structurally short-friendly (4h -0.85, rel-strength -14.7%, structure_bias -0.29, crowded 1.61 longs as squeeze fuel), but a market short here chases a move that is already stretched (LTF RSI 23/25/8) and sits right on the 348.28 low above 341.86 support \u2014 a bounce is the higher-probability next move. Binary earnings AFTER CLOSE Wed 7/22 is inside the window and can gap through any stop, so I will not carry a fresh naked short into the print; the edge is a limit short into a VWAP bounce, closed before the event. Holding with an armed trigger.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 352.3,
+    "expires_min": 300,
+    "note": "reclaim of VWAP ~352.3 = the mean-reversion bounce completed; that is the spot to short the bearish 4h trend with a tight stop above 353.5, targeting 344/341.9 \u2014 re-debate a short entry there, but only if it can resolve before Wed-close earnings."
+  },
+  "transcript": {
+    "macro": "Regime MIXED, tilting risk-on 7/21 (Nasdaq +1% relief bounce) but two-sided/event-heavy. Fed on hold 3.50-3.75%, FOMC 7/28-29 ~75% hold/25% HIKE (hawkish Warsh); June CPI cooled 3.5%. DXY firm ~105.4, oil/Iran inflation risk. GOOGL is the weakest name: rel-strength -14.7% vs BTC, 4h score -0.85, downtrend intact = short-friendly. Funding ~zero; long/short 1.61 (crowded long, squeeze risk). Equity beta \u2014 trade on the equity tape. Catalysts: heavy tech earnings this week, FOMC.",
+    "sentiment": "GOOGL BEARISH-lean / HIGH-RISK EVENT: Alphabet reports Q2 2026 AFTER CLOSE Wed 7/22 (~4:30pm ET) \u2014 INSIDE the 24-48h window. Consensus ~$2.89 EPS on ~$116.8B rev; hinges on Google Cloud ~60%+ growth and $190B AI-capex story. Expect IV crush pre-print and a gap on the number; any short must respect binary event risk. Bias: bearish drift but treat as an EVENT, not a clean trend.",
+    "analyst": "Structurally short-friendly (weakest name, 4h -0.85, rel-strength -14.7%, crowded 1.61 longs) BUT LTFs deeply oversold (15m RSI 23, 30m RSI 8, stoch 15.8) sitting on the 348.28 low above 341.86 support \u2014 a market short here chases a stretched move into a likely bounce (account's #1 loss pattern). Binary earnings Wed-close can gap through any stop. Edge = a limit short into a VWAP bounce (~352), closed before the print. HOLD with armed trigger.",
+    "portfolio": "GOOGL: HOLD (conf 0.55) \u2014 no chase into oversold + binary earnings Wed; armed short on a bounce to ~352.3."
+  },
+  "timestamp": "2026-07-21T15:31:24.311411+00:00"
+}

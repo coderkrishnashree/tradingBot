@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "BTC/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Chop between ~64,200 support-flush zone and the 65,566 pivot cap; likely drifts sideways/lower toward 64,200-64,300 as LTF momentum (15m/30m/1h RSI all sub-46) keeps fading; no clean thrust in the next 2-4 bars.",
+  "expectancy_note": "p_win_learned 0.507 (coin flip); mid-range entry +0.95% above VWAP with no structural level to lean on gives R:R <1.5 either direction \u2014 HOLD beats forcing a chop trade.",
+  "rationale": "BTC's only bullish read is a stretched 4h (RSI 69.9); every executable LTF (15m/30m/1h/5m) is flat-to-down with sub-46 RSI and the last three 15m bars are red, fading ~700 below the 65,566 macro cap. Macro is risk-off with extreme fear and weak US spot demand, so a fresh long chases an already-capped move and a short here is mid-range with no edge. No high-expectancy setup mid-range \u2014 wait for the range to resolve.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 65566,
+    "expires_min": 240,
+    "note": "A 15m close above 65,566 flips to a breakout long; losing 64,200 on volume opens a short toward 61,777 support."
+  },
+  "transcript": {
+    "macro": "Regime: RISK-OFF/defensive, and it is SUNDAY 2026-07-19 \u2014 US cash equities CLOSED until Monday, so tokenized equities (TSM, COIN, ORCL, META, CRCL, SNDK) trade thin/gappy with weekend gap risk. Last week: S&P -1.6%, Nasdaq -2.9%, PHLX Semiconductor (SOX) entered a BEAR MARKET on an AI-capex scare (Samsung, TSM capex hike to $60-64B). BTC ~$64.4k soft, capped below $65.6k pivot, dominance ~54-56% slipping, weak US spot demand. Catalysts this week: GOOGL/TSLA/INTC earnings whip semis/tech; Fed quiet before Jul 28-29 FOMC. Long/short crowded LONG on ORCL 2.63, TSM 2.45, CRCL 2.24, SNDK 1.59 (contrarian downside risk). Environment argues for SMALLER SIZE across the board.",
+    "sentiment": "2026-07-19: no fresh <=48h binary catalyst on any name. TSM \u2014 neutral/slightly bullish post Q2 beat (Jul 16, raised FY guide >30%), catalyst spent. COIN \u2014 neutral/cautious, ~$159, JPM PT cut, 14% layoffs. ORCL \u2014 bearish tilt, S&P cut to BBB-, NM blocked its 2.5GW data center. BTC \u2014 bearish/risk-off, Fear & Greed 25 (Extreme Fear). META \u2014 neutral now, Q2 earnings Jul 29 event risk. CRCL \u2014 bearish, ~$61 below all EMAs, Mizuho downgrade to Underperform, Coinbase/BlackRock 'Open USD' threat. SNDK \u2014 bullish momentum but stretched (+700% YTD, Goldman PT $2,200), down 30%+ from June high.",
+    "analyst": "Range-bound and capped below the 65,566 pivot; the composite 'long' rests on a stretched 4h while all executable LTFs are neutral-to-down, learned p_win a coin-flip 0.507. Risk-off, extreme fear. No mid-range edge.",
+    "portfolio": "HOLD BTC \u2014 range-bound and capped below 65,566 in a risk-off tape."
+  },
+  "timestamp": "2026-07-19T21:42:57.922139+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "symbol": "HOOD/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.4,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "none",
+  "forecast": "Bled from 115.84 to a 112.66 base; last 4 bars tiny-range on collapsing volume = selloff exhausting. Base case: chops 112.5-114 until the US open resolves it; a reclaim of 114.6 opens VWAP/117, a loss of 112.5 reopens the short toward 111.",
+  "expectancy_note": "Both sides mid-air: short chases 15m RSI 21 / VWAP -2.06% on drying volume; long is a knife-catch with no reclaim into a risk-off, gap-prone tape. Learner stats show low-conviction shorts bleeding (avg_pnl -2.54). HOLD is highest expectancy.",
+  "rationale": "Oversold-and-basing on fast TFs (don't chase short) but no reclaim/confirmation and a risk-off, gap-prone tape (don't knife-catch long) = highest-expectancy action is to wait for the tape to declare. Best R:R comes from a confirmed oversold bounce rather than a mid-air fade in either direction. Size 0.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 114.6,
+    "expires_min": 240,
+    "note": "Reclaiming the 114.6 breakdown shelf (origin of the big-volume down-bar) proves the oversold bounce has legs and the RS-leader + crypto tailwind is winning \u2014 flips to a long toward VWAP/117 with the intraday base ~112.5 as stop."
+  },
+  "transcript": {
+    "macro": "Regime risk-OFF, tech-led selloff. HOOD is the highest-beta risk name here \u2014 btc_correlation 0.62, in COIN/MSTR/CRCL crypto-equity cluster (COIN corr 0.81). Backdrop cuts both ways: tech/risk-off tape favors a short, BUT crypto is bouncing (BTC +6% wk) and HOOD RS +5.3% vs BTC (relative leader) \u2014 shorting a leader into a crypto bounce fights its own tailwind. Structure near-neutral (bias -0.003), no crowding edge. 15m RSI 21 already very oversold. Price ~$113.08 (below Jul 6 cash close $117.55 \u2014 thin off-hours, can gap on US open).",
+    "sentiment": "HOOD NEUTRAL, overbought fade risk. Earnings Jul 29 after close (outside window). Recent rally to $117-118 (Jul 6) driven by Robinhood Chain mainnet launch + 'Earn' 7% APY \u2014 real but multi-quarter narratives, not 48h binaries. Sell-side flags overbought (daily RSI ~70, above upper Bollinger); Q2 EPS expected to DECLINE double-digits YoY, fundamentals lean soft into print. Scan shows it pulling off highs; near-term news neutral-to-slightly-bearish.",
+    "analyst": "HOOD 113.08, bled from 115.84 but last 4 15m bars are tiny-range (112.66-113.10) on collapsing volume (25/87/135/43 vs 452-576 on down-bars) \u2014 selloff exhausting, not accelerating. 15m RSI 21, stoch 23.9, %B 0.178, VWAP -2.06%: deeply oversold DOWN, so chasing a short is the extended-move-mid-air trap (no fresh 48h catalyst). But no bullish trigger printed and the tape is risk-off with gap risk vs the 117.55 cash close, so a knife-catch long is premature. Structure neutral (bias -0.003, funding 0). Crypto-beta (corr 0.62) but a relative LEADER (RS +5.27%) into a BTC +6% week. HOLD; flip long on a 114.6 reclaim.",
+    "portfolio": "HOLD HOOD/USDT:USDT \u2014 oversold and basing but no reclaim into a risk-off, gap-prone tape; wait for a 114.6 reclaim for the bounce long; conf 0.40."
+  },
+  "timestamp": "2026-07-07T21:16:17.653574+00:00"
+}

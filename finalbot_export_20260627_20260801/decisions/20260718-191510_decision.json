@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "SNDK/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.34,
+  "playbook": "none",
+  "forecast": "Choppy coil between 1311 support and ~1354 over the next several bars; no clean directional move - price is basing 7.8% below VWAP after the drop, not accelerating either way. Expect two-way whipsaw on thin weekend liquidity rather than a fresh trend leg.",
+  "expectancy_note": "Short = chasing an asset already 7.8% below VWAP, stoch 13.3, 1h RSI 26.7 into a thin weekend book - the account's #1 loser (shorts n=36, 47% win, -0.87 avg); a routine bounce stops it. No long confirmation. Best expectancy is no position.",
+  "rationale": "SNDK is the worst laggard in the book (rel-strength -44.9%), ADX 24.7 (no trend), ATR 4.73% and BB width 26.6% (extreme thin-book vol), and price is deeply extended/oversold below VWAP. The composite short (37.6% conf, -0.329) is weak and would mean market-chasing a stretched move - the exact setup the learner shows bleeding (structure_bias, rel_strength, vwap_dist, atr all negative-weighted). US cash closed with Monday gap risk on the highest single-name-risk token. No honest R:R either way; flat is the highest-expectancy call.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 1355.0,
+    "expires_min": 240,
+    "note": "Reclaiming the 1354-55 congestion high off deeply oversold would confirm a mean-reversion bounce and open a possible long back toward VWAP; until then the tape is directionless stretch."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF, semiconductor/AI-capex scare; reduce size on all equity tokens, SNDK smallest. US cash CLOSED Sat, reopen Mon Jul 20 - thin/gappy, Monday gap risk. SNDK memory/storage dragged by HBM/semi scare; scan rel_strength -44.9% vs BTC (massive laggard), 4h ATR 4.73% (very volatile/thin), L/S 1.436 but orderbook +0.801 (odd bid skew in a thin book, low confidence). Highest single-name risk; smallest size or avoid over weekend.",
+    "sentiment": "SNDK highest-beta, most dangerous. Top S&P 500 stock of 2026 (+707% YTD), monster Q2 (rev +251% YoY, datacenter +645%). But poster child of the AI/memory momentum trade now unwinding in the chip rout - huge two-way vol (ATR 4.7%). NEXT catalyst FQ4 earnings Aug 5 + investor day Aug 13 (both OUTSIDE 48h). Near-term pure sentiment/momentum, currently negative with semis. Analyst PT hikes are long-horizon noise.",
+    "analyst": "Worst laggard (rel-strength -44.9%), ADX 24.7 (no trend), ATR 4.73% / BB width 26.6% (extreme thin-book vol), deeply extended/oversold below VWAP (stoch 13.3, 1h RSI 26.7). Weak composite short (37.6% conf) = market-chasing a stretched move, the exact learner-bleeding fingerprint. US cash closed, Monday gap on the highest single-name-risk token. No honest R:R either way; flat.",
+    "portfolio": "HOLD SNDK (conf 0.34) - textbook no-trade: extreme oversold/thin, highest single-name risk into the weekend; only a reclaim >1355 flips to a bounce long."
+  },
+  "timestamp": "2026-07-18T19:15:10.588928+00:00"
+}

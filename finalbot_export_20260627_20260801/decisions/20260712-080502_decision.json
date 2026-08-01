@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "TSLA/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Price stalled 408.4-409.5 at the top of a thin Sunday range; most likely it chops or fades toward VWAP ~404.5 rather than pushing 420 on no-liquidity flow. A clean reclaim of 409.7 with follow-through flips it to a continuation long toward 414-420.",
+  "expectancy_note": "p(win) on a chase here ~0.45: +1.1% over VWAP, 5m RSI 77, orderbook -0.27 and crowded L/S 1.63 mean a routine fade hits any honest stop before 420; HOLD/wait-for-pullback beats market-buying the stall.",
+  "rationale": "TSLA is the only clean long (4h up, ADX 44, rel-strength +4.2%, independent of BTC at 0.29), but the immediate tape is stretched and stalled: +1.09% above VWAP, 5m RSI 77, offer-heavy orderbook (-0.27) and crowded longs (L/S 1.63), on a closed-market thin Sunday tape with CPI Tuesday as asymmetric downside risk. Market-buying here is the account's #1 loss pattern (chasing continuation after the move). HOLD is highest-expectancy until a pullback toward VWAP ~404.5 or a confirmed reclaim of the stall high.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 409.7,
+    "expires_min": 240,
+    "note": "reclaiming the intraday stall high with follow-through proves momentum resumed and opens a continuation long toward 414-420"
+  },
+  "transcript": {
+    "macro": "Regime NEUTRAL. US equity markets CLOSED (Sunday) \u2014 thin/gappy tape, size down. June CPI Tue Jul 14 08:30 ET = asymmetric event risk (hot print hits growth/tech longs). TSLA only clean long among targets (4h up, ADX 44, rel-strength +4.2%, btc_corr 0.29 independent) BUT structure_bias -0.27 (L/S 1.63 crowded long + orderbook -0.27) and stretched (VWAP +1.1%, 5m RSI 77) \u2014 long viable but small, into CPI risk.",
+    "sentiment": "US cash closed \u2014 thin gappy tape. TSLA neutral near-term, bullish undertone: Q2 deliveries blowout 480k vs ~406k exp (Jul 2) already spent/in price; Q2 earnings Jul 22 (outside 48h). Nothing inside 24-48h \u2014 treat long as technically-driven, no fresh news against it.",
+    "analyst": "TSLA last 409, composite LONG 58.7%, ADX 44.1, 4h RSI 62.4, VWAP dist +1.09% (stretched), 5m RSI 76.6 (overbought), 1h/15m flat. Support 391, resistance 420.22. 15m candles chopping 408.4-409.5 on thin volume, no fresh impulse \u2014 momentum flattened at top of range. Structure_bias -0.27, L/S 1.63 crowded. Market-buying the stall into offer-side pressure on closed thin tape + CPI Tue = negative expectancy. HOLD; buy a VWAP pullback (~404.5) or a confirmed reclaim of 409.7 instead.",
+    "portfolio": "HOLD TSLA \u2014 cleanest long technically but stretched/stalled into CPI risk; reconsider armed at 409.7 reclaim."
+  },
+  "timestamp": "2026-07-12T08:05:02.211200+00:00"
+}

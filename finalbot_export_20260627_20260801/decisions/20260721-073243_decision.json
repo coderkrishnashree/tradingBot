@@ -1,0 +1,28 @@
+{
+  "symbol": "ORCL/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.5,
+  "size": 0.0,
+  "entry": 123.17,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "none",
+  "forecast": "Price is coiling in a 122.7-123.7 range around 123.2 (basing, not falling); most likely it either bounces toward VWAP ~124.2 or loses 122.7 to resume the 4h downtrend toward support 120.4. No directional edge from mid-coil right now.",
+  "expectancy_note": "A short from 123.17 mid-range into a bid-heavy book (OB imbalance +0.70) with a 46% short win-rate history is low-expectancy; better to short a bounce into VWAP ~124.2 or a confirmed break of 122.7, not the middle.",
+  "rationale": "ORCL is macro-aligned weak (RS -29.9%, 4h down, crowded-long L/S 2.46 = trapped longs), but the last 20 15m bars show it has stopped falling and is coiling 122.7-123.7 above support 120.36, so a market short here enters mid-range into a bid-stacked book - exactly the chase pattern that made this account's shorts lose (46% win, -1.09 avg). US cash is closed so signals are provisional/gappy. I'd rather wait for a VWAP-rejection or a 122.7 break to confirm the down-leg; either would restore a ~2.5R short. HOLD with a break-trigger.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 122.7,
+    "expires_min": 240,
+    "note": "Losing the 122.7 coil low confirms the 4h downtrend resuming through the base - that break is the clean short trigger toward support 120.36, with stop back above 123.7."
+  },
+  "transcript": {
+    "macro": "Regime MIXED/defensive-lite. AI-tech deleveraging pullback; Asia V-rebound into 7/21 (can fail). Rates/USD headwind, FOMC 7/29. CRITICAL: scan 07:25 UTC (~03:25 ET) - US cash CLOSED, signals gappy/provisional until 13:30 UTC open. Crowded-long book, gap risk. ORCL tilt SHORT - weakest name in the book: RS -29.9% vs BTC, 4h/5m down, below VWAP, most crowded-long (L/S 2.46 = trapped longs). Cleanest macro-aligned SHORT.",
+    "sentiment": "ORCL bearish. Reported Jun 10 (beat) but stock sliding - broke below $135 support on debt/capex fear ($70B FY27 capex, ~$40B debt+equity raise incl $20B share sale overhang). No earnings catalyst in-window; de-rating on the same AI-capex worry pressuring the tape. Weakest fundamental setup, negative drift.",
+    "analyst": "Macro-aligned weak but the last 20 15m bars have stopped falling and are coiling 122.7-123.7 above support 120.36; a market short mid-range into a bid-stacked book (OB +0.70) is the chase pattern that made this account's shorts lose. Wait for a VWAP-rejection (~124.2) or a 122.7 break to restore a ~2.5R short. HOLD with a break-trigger.",
+    "portfolio": "HOLD ORCL - short is right but not from mid-coil; trigger on a 122.7 break."
+  },
+  "timestamp": "2026-07-21T07:32:43.136615+00:00"
+}

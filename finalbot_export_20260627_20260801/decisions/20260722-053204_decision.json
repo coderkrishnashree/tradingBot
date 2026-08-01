@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "XAUT/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price pinned just under resistance 4131.7 after a clean rejection; expect a drift/pullback into 4090-4100 over the next few bars rather than a fresh breakout. Too stretched to chase long, too strong an uptrend to short into crowded longs.",
+  "expectancy_note": "No positive-expectancy entry now: long into resistance at the band is negative R:R; shorts have bled for this account (n=49, 45% win, -1.21 avg). Wait for a pullback-buy or a confirmed reclaim.",
+  "rationale": "XAUT is extended into resistance 4131.7 (rejected there this session) with bearish divergence, %B>1.02, stoch 89, L/S 2.53 crowded longs, negative orderbook/structure bias and same-day USD firming \u2014 textbook 'don't chase' and this account's #1 loss pattern. Longs only win on pullbacks (71%); shorts lose (45%, -1.21). Holding is highest-expectancy until price reclaims resistance on volume or pulls back to VWAP/support.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 4132.0,
+    "expires_min": 240,
+    "note": "A decisive close above 4131.7 flips this from stretched-into-a-wall to a confirmed breakout, justifying a trend-continuation long."
+  },
+  "transcript": {
+    "macro": "Regime MIXED-to-FRAGILE, don't size up. USD firming today (metals dipped as dollar firms), 10Y ~4.5-4.63%, Fed HIKE-scare split 9-8. Gold/silver bias LONG on trend but CROWDED/overbought: XAUT L/S 2.53, RSI 78.6, ADX 81, bb_pctb 1.03, bearish divergence, orderbook -0.29, structure_bias -0.41. XAUT/XAG corr 0.859 \u2014 treat gold complex as ONE bet. Longs only on pullback; contrarian squeeze risk real; reduce size.",
+    "sentiment": "XAUT tracks spot gold ~1:1; structural bid intact (central banks ~80t/month, tightening exchange supply). Silver ripping tends to drag gold up. No dated <=48h binary. BOJ Jul 30 and Fed repricing outside window. Near-term neutral-to-mildly-bullish, trade on tape not headlines. Caution: RSI 78.6 / bearish divergence.",
+    "analyst": "Extended into resistance 4131.7 with rejection, bearish divergence, %B>1.02, stoch 89, +1.82% vs VWAP, crowded L/S 2.53. Learner: longs 71% win only on pullbacks, shorts bleed. No trigger present at 4116; wait for pullback-buy or confirmed reclaim of 4131.7.",
+    "portfolio": "XAUT: HOLD (conf 0.60) \u2014 stretched into resistance, wait for pullback or breakout reclaim."
+  },
+  "timestamp": "2026-07-22T05:32:04.377775+00:00"
+}

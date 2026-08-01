@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "QQQ/USDT:USDT",
+  "size": 0.0,
+  "entry": 693.36,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.34,
+  "playbook": "none",
+  "forecast": "Thin Sunday tape: after a single low-liquidity pop to ~694 and a stale 0.01-vol print at 693.36, expect drift/mean-revert back toward the 691 base and chop 691-693 until Monday cash open, then gap risk into the FOMC/MSFT/AAPL cluster.",
+  "expectancy_note": "No positive-expectancy entry: closed market, stale prints, LTF RSI 77-82 already extended +0.49% above VWAP on a fake single-bar pop; any honest stop is either noise-tight or blown by Monday gap.",
+  "rationale": "US market CLOSED \u2014 QQQ is a tokenized equity so crypto funding/OI/L-S are meaningless. Recent bars are dead chop near 691 plus one 272-vol spike to 694 and a 0.01-vol stale print, i.e. a thin illiquid pop, not a real breakout, and price is stretched on LTF (RSI 77.6/82.7) into an event-heavy week (FOMC Jul 28-29, MSFT Jul 29, AAPL Jul 30). RS -6.52% (laggard). No level offers R:R >= 1.5 without Monday gap risk, so size is zero.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 710.65,
+    "expires_min": 240,
+    "note": "A volume-backed reclaim of resistance 710.65 once liquidity returns would prove real demand rather than a thin Sunday pop, flipping to a trend-long re-debate."
+  },
+  "transcript": {
+    "macro": "REGIME: NEUTRAL tilting RISK-OFF into event window. Equities neutral-to-soft (S&P ~7412 flat, Nasdaq -0.64% Fri chip-led weakness, VIX ~18.6). CRITICAL: US market CLOSED (Sunday 2026-07-26) \u2014 tokenized-equity perps thin/gappy with stale prints; Monday gap risk. 48h event risk: FOMC Jul 28-29, MSFT Jul 29, AAPL Jul 30. Fed on hold, sticky inflation.",
+    "sentiment": "QQQ: NEUTRAL, event-heavy week \u2014 no catalyst today, but it's the aggregate of the Jul 29-30 mega-cap earnings cluster; expect elevated vol Monday into those prints. Off-hours holding pattern.",
+    "analyst": "Illiquid Sunday chop pinned near 691, then a single thin pop to ~693-694 on one 272-vol bar and a 0.01-vol stale print \u2014 not a real breakout. Already +0.49% above VWAP with LTF RSI 77-82. No honest R:R either way into an event cluster. Stand-aside.",
+    "portfolio": "HOLD (0.34) \u2014 stand aside; fake thin-tape pop, laggard RS, event cluster in window."
+  },
+  "timestamp": "2026-07-26T22:39:30.605456+00:00"
+}

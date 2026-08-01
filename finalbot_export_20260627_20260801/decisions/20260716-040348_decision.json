@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "EWY/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.36,
+  "playbook": "none",
+  "forecast": "Price paused a 3% down-leg and bounced 167.14->169.7, now churning at VWAP; likely two-way chop 167-171 next few bars until it either loses 167.14 (resumes toward 164-160) or reclaims 171+ (bounce extends). No directional edge from here.",
+  "expectancy_note": "p(win) for a fresh short here ~0.45; account shorts avg -1.59R and model weights aligned/structure_bias negative; shorting a paused down-move at VWAP into 2.98% ATR whipsaw invites a snapback stop-out. HOLD > entering.",
+  "rationale": "Composite short is only 36% conf with ADX 24.7 (borderline chop) and RSI 52.8 mid-range at VWAP - no extreme to fade and no fresh downside momentum to join; the last 6 candles are a base/bounce off 167.14, not a breakdown. The BoK-hike catalyst is real but price already absorbed one leg and reversed, so a market short risks exactly this account's proven loser: late short into stretched tape stopped by the violent counter-bounce. I wait for 167.14 to break before committing risk.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 167.14,
+    "expires_min": 240,
+    "note": "Losing the bounce base / last swing low confirms the BoK-driven down-leg has resumed with momentum, justifying a short toward 164/160 with the catalyst behind it."
+  },
+  "transcript": {
+    "macro": "Soft June CPI, Fed hike fears eased, risk-on tailwind generally. EWY underlying EXTREMELY volatile: KOSPI ATH ~9,386 Jun 19, crashed ~27% to ~6,880 by Jul 13 (7-8% chip-led rout), snapped back +6-7% to ~7,300 on CPI tech rally. WHIPSAW regime - violent two-way gaps are the biggest risk, not a clean trend. Positioning not extremely crowded (L/S 1.22). HOSTILE/high-risk for size; momentum leans short and it's a deep laggard, but reversals are violent. Trade SMALL, beware Korea-session gaps.",
+    "sentiment": "Decisively RISK-OFF, fresh active shock. CONCRETE catalyst NOW (Jul 16): Bank of Korea UNEXPECTEDLY HIKED to 2.75% (first hike since Jan 2023) to defend the won; KOSPI fell ~7%, triggered a sidecar trading halt. SK Hynix -11.7%, Samsung -8.9% (~half the index -> EWY tracks ~1:1). Rate hike into fragility = bearish accelerant, a genuine <=48h bearish catalyst. Risk to short = violent oversold snapback (this market repeatedly bounces 5%+ day after a plunge; won strengthening on the hike could stabilize sentiment).",
+    "analyst": "Composite short only 36% conf, ADX 24.7 (borderline chop), RSI 52.8 mid-range at VWAP - no extreme to fade and no fresh downside momentum. Last 6 15m candles are a base/bounce off 167.14 (167.14->169.7), not a breakdown. BoK-hike catalyst is real but price already absorbed one leg and reversed; a market short at VWAP into 2.98% ATR risks the account's #1 loser (30 shorts, 47% win, -1.59R; model weights aligned/structure_bias negative) via snapback stop-out. HOLD size 0 and watch 167.14 - break below re-arms the short with catalyst-backed momentum toward 164/160.",
+    "portfolio": "EWY: HOLD, conf 0.36 - real bearish catalyst but no entry edge at VWAP; stand aside, trigger short below 167.14."
+  },
+  "timestamp": "2026-07-16T04:03:48.944951+00:00"
+}

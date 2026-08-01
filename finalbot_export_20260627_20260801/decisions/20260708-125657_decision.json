@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "BTC/USDT:USDT",
+  "size": 0.0,
+  "entry": 62066,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Choppy fade around 62.0-62.2k near-term; the 62.4k bounce already failed and price is rolling back, but 1h RSI 26.7 and bb %B 0.015 (pinned at lower band) plus bid-leaning book make fresh shorts here a chase into support. Expect either a snapback toward 62.7-63.1k VWAP (the spot to short) or a break of the 61.68k swing low.",
+  "expectancy_note": "No edge at spot: shorting into %B~0 / 1h RSI 27 is a chase (poor R:R, snapback risk); longing has retail net-long headwind and no reclaim. p(win) on either <0.5 here. Wait for the rally to fade.",
+  "rationale": "BTC sold off then bounced to 62.4k and is now fading again, but it sits pinned at the lower Bollinger band (%B 0.015) with 1h RSI 26.7 deeply oversold and an orderbook tilted to bids \u2014 the textbook 'don't short the hole' setup, and too early to catch a long with no VWAP reclaim and retail already net-long (1.525). Macro guidance explicitly favors shorting rallies over fresh shorts at lows. Highest-expectancy move is to wait: a snapback to ~62.7-63.1k VWAP arms a clean short-the-rally with a tight stop above VWAP targeting the 61.68k low. Size 0 until price offers that entry.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 62700,
+    "expires_min": 240,
+    "note": "A snapback into 62.7k reloads the favored short-the-rally toward the failing 62.4k structure with stop above VWAP ~63.1k."
+  },
+  "transcript": {
+    "macro": "REGIME: MIXED, tilted SHORT/risk-off. Risk-off tape (memory-chip selloff + US-Iran flare-up); crypto soft in sympathy (BTC ~62.1k). Board broadly oversold (1h/4h RSI 25-40) \u2014 fade bounces, watch snapbacks; NOT clean trend initiation. US cash equities CLOSED (pre-open). BTC: funding flat (no crowded-long premium/limited squeeze fuel), OI 56,457, L/S 1.525 (retail net-long = mild contrarian headwind for longs), orderbook +0.274 (bid-leaning support), structure_bias -0.082. Drifting lower on weak momentum, downside orderly, dip-buyers present. Sizing: SMALLER across board; favor shorts on rallies over fresh shorts at lows.",
+    "sentiment": "Overall cautious/risk-off; hawkish-Fed (funds 3.50-3.75%, May CPI hot +4.2%). FOMC minutes TODAY (July 8) can move rates intraday; June CPI July 14; FOMC July 28-29. BTC: cautiously bullish (contrarian) \u2014 recovered to ~$62-63k from late-June lows, Fear & Greed 23 (extreme fear) but improving, $143M spot-ETF inflows July 6 = constructive divergence. No hack/unlock/regulation shock, no hard <=48h binary \u2014 moves macro/ETF-flow driven. Lean bullish but low-conviction.",
+    "analyst": "BTC 62066, deeply oversold and mechanically pinned at the lower Bollinger band (bb %B 0.015, 1h RSI 26.7, stoch 23). 15m path: sharp flush to 61680, oversold bounce rejected at 62400, price now rolling back over \u2014 but shorting here means selling INTO the band with a bid-leaning book (orderbook +0.274) and live snapback risk, which macro explicitly warns against. A long is premature: no VWAP reclaim, momentum still down, retail already net-long (1.525) = contrarian headwind. Neither side clears R:R >= 1.5 from spot, so highest-expectancy action is HOLD and wait for a bounce toward 62.7-63.1k VWAP to short the rally, or a loss of 61.68k to reassess.",
+    "portfolio": "BTC/USDT:USDT \u2014 HOLD (conf 0.50): pinned at lower band / deeply oversold; wait to short a bounce to ~62.7-63.1k rather than chase the hole."
+  },
+  "timestamp": "2026-07-08T12:56:57.424005+00:00"
+}

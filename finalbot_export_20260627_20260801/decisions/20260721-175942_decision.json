@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "CRCL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.4,
+  "playbook": "none",
+  "forecast": "Coils 69.3-71.5 under the 72.66 spike-high; a break below 69.3 opens a fade toward VWAP ~67.3, a reclaim of 72.66 resumes the blow-off \u2014 neither confirmed.",
+  "expectancy_note": "Long p(win)~0.40 (RSI86, +4.56% vs VWAP, L/S 2.11 = chasing #1 loser); short p(win)~0.45 (live OCC catalyst + ADX85 trend, no rejection yet). Both negative-EV; flat beats either.",
+  "rationale": "CRCL is a blow-off: 4h RSI 86, ADX 85, price 4.56% above VWAP, extremely crowded long (L/S 2.11, structure_bias -0.34) \u2014 market-longing is the late-continuation entry this account keeps losing, and BTC just rolled over into a risk-off tape it's 0.47-correlated to. But the OCC-trust catalyst is live/bullish and price merely coils under 72.66 (no rejection), so a short lacks confirmation and this account's shorts bleed. No clean R:R \u2014 hold.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 69.3,
+    "expires_min": 240,
+    "note": "Losing the 15-bar consolidation floor confirms the blow-off top failing and opens a fade toward VWAP ~67.3."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF/hostile into FOMC Jul 28-29 (~36% hike odds, hawkish Warsh Fed, 10y ~4.57%), US-Iran/oil tension. BTC ~66.1k uptrend losing near-term momentum. Tokenized equity/ETF perps crowded LONG with offered orderbooks (GOOGL L/S 1.73, CRCL 2.11, EWJ 1.64) -> squeeze/flush risk favors shorts; AAPL is the exception (L/S 1.06, bid book, structure_bias +0.14). EWJ pair-catalyst = the yen (USD/JPY ~162.5, four-decade lows, BOJ intervention tail). Correlations to BTC low (GOOGL 0.34, EWJ 0.38, AAPL 0.10, CRCL 0.47). US cash session open now; equity-perp liquidity degrades after 20:00 ET. Argue reduced size across the board.",
+    "sentiment": "GOOGL: Alphabet Q2 earnings TOMORROW Wed Jul 22 after close (~4:30pm ET) \u2014 major binary, unhedgeable gap risk; avoid naked directional hold into the print. CRCL: live BULLISH catalyst \u2014 OCC final approval for Circle National Trust (+~8%) plus Standard Chartered institutional USDC deal; Mizuho downgrade (Visa 'Open USD') is a longer-horizon overhang; already extended (RSI ~86). AAPL: earnings Jul 30 (outside 48h window), near-term neutral, trades on broad tape/QQQ. EWJ: BOJ Jul 30-31 (outside window), no near-term Japan catalyst, follows global equity tape. BTC: supportive flows \u2014 5-day spot-ETF inflow streak (~$227M Mon) \u2014 but Fear&Greed in 'fear' (~22-29); no scheduled 48h binary, main risk is a headline-driven Iran/oil risk-off flush.",
+    "analyst": "Blow-off top: RSI 86, ADX 85, +4.56% above VWAP, extremely crowded long (L/S 2.11). Longing chases the account's #1 loss pattern with BTC rolling over; but the live OCC-approval catalyst is bullish and price only coils under 72.66 (no rejection), so a short lacks confirmation and account shorts bleed. No clean R:R \u2014 HOLD; fade only if 69.3 floor breaks.",
+    "portfolio": "HOLD CRCL \u2014 blow-off on a live OCC catalyst but crowded long; no clean R:R, fade only if the 69.3 floor breaks."
+  },
+  "timestamp": "2026-07-21T17:59:42.014751+00:00"
+}

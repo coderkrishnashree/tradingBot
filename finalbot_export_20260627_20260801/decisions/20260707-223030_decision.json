@@ -1,0 +1,28 @@
+{
+  "symbol": "EWY/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.55,
+  "size": 0,
+  "entry": 181.34,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "trend",
+  "forecast": "Price is coiling 180.5-181.9 on drying volume just above the 179.45 flush low; expect chop 2-4 bars, then either a dead-cat bounce into 182.6-183.2 (short-the-rip zone) or a break under 179.4 opening 177/174.6.",
+  "expectancy_note": "Macro/sentiment favor short but RSI34 oversold + 2.54% ATR + FOMC-minutes gap tomorrow = high whipsaw; shorting mid-coil forces a wide stop with TP1 only ~1.9pts away -> R:R <1.5. Wait for the 182.6-183.2 lower-high rejection.",
+  "rationale": "EWY is the direct memory-semi victim (corr MU 0.81), crowded long 1.43, 4h downtrend + bearish divergence -- short thesis is right but the entry is wrong: price is mid-coil above the 179.45 low after an already-underway rebound, and a short here is a chase into oversold with a live FOMC gap tomorrow. Best expectancy is to arm a short at the bounce-rejection zone. Size 0 until the trigger.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 182.6,
+    "expires_min": 240,
+    "note": "A pop into 182.6-183.2 that stalls is the macro-aligned lower-high short entry with a tight stop over 183.5."
+  },
+  "transcript": {
+    "macro": "2026-07-07 RISK-OFF, hostile to longs. Memory/AI complex is the selloff epicenter: Samsung blowout Q2 but shares -8%, MU/SNDK/WDC/Intel -6-10%; DeepSeek building own AI chip. USD/DXY firm. EWY -8.45% this week, ~50% Samsung/SK Hynix = levered memory proxy, -13.5% RS vs BTC, crowded long 1.43. FOMC minutes Wed Jul 8 2pm ET = live gap catalyst in hold window -> trim size. Every name oversold on 4h -> bounce risk, do not chase. Macro favors SHORT but stretched.",
+    "sentiment": "EWY is the freshest live driver: ~50% Samsung + SK Hynix, had a historic 12.25% one-day crash then partial rebound; KOSPI hit ATH >5,600 then broke. RSI 35, bearish divergence, RS -13.5%. Pure memory-semi sentiment -- MU/SNDK/EWY are ONE correlated trade (corr MU-EWY 0.81). No scheduled Korea binary in 48h; bearish bias but HIGH whipsaw given >2% rebound already underway.",
+    "analyst": "4h RSI 34.7, ADX 34.7, bearish divergence, below VWAP -2.71%, crowded long 1.43, RS -13.53%. 15m tape: sharp flush 183.4->179.45 low, then a low-energy coil 180.5-181.9 on drying volume drifting gently down -- the warned-of rebound has already stalled. Shorting mid-coil at 181.34 forces a stop >182.6 with TP1 (179.45) only ~1.9pts away = R:R <1.5. Cleaner short is a bounce-rejection at 182.6-183.2 or a break of 179.4. Neither trigger live -> HOLD, arm short at the lower-high rejection.",
+    "portfolio": "HOLD EWY (conf 0.55) -- bearish but oversold/mid-coil into FOMC; arm short on a 182.6+ bounce-rejection."
+  },
+  "timestamp": "2026-07-07T22:30:30.688614+00:00"
+}

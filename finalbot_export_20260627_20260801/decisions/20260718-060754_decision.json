@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "SOL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Grind lower into 73.3 support is decelerating (small-bodied 74.90/74.89/74.88 closes, volume drying to 2684); base case is a bounce/hold off 73.3 rather than a clean break, so both a fresh short and a long are low-edge.",
+  "expectancy_note": "Short at 74.88 targets 73.3 (2.1% away) but TP1 sits AT tested support where bounces fire; p_win_learned 0.429 and 4h RSI 27 make a relief bounce the base case \u2014 negative expectancy on a chase into support.",
+  "rationale": "SOL is 1.5% above the key 73.3 support it's testing, 4h RSI 27 oversold, BTC flat/chop giving no directional fuel, and it is pure BTC-beta (corr 0.781, rel-str -1.82) with no independent trend. Crowded L/S 2.814 favors a mild short bias, but funding is slightly negative and the staking-ETF headline is a violent upside tail \u2014 shorting oversold into support here is the account's classic losing pattern. Wait for a break-and-retest of 73.3 or a bounce to ~76.3 VWAP to short into strength.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 73.1,
+    "expires_min": 240,
+    "note": "Losing the 73.3 support shelf confirms breakdown and opens a clean short-continuation entry on the retest."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF, semis rout, BTC ~$63.9k flat/chop. Board favors SHORT; biggest risk shorting oversold. SOL: mixed/contrarian-long risk, only pure-crypto name, corr BTC 0.781 (BTC-beta, no independent trend, rel-str -1.82). L/S 2.814 very lopsided long (contrarian bearish) but funding slightly negative, structure_bias -0.207. 4h RSI 27 oversold. Low conviction mild short.",
+    "sentiment": "SOL bearish near-term. Fell ~4% to ~$74 Fri on tech sell-off + leveraged-long liquidations after rejection near $77; testing key ~$73 support. Crypto Fear (27). Longer-term bullish (staking-ETF filings, possible SEC decision 'as soon as July', Alpenglow Q3) but no dated <=48h binary. WILDCARD: staking-ETF approval could spike price violently UP -> keep shorts tight.",
+    "analyst": "Price 74.88, support 73.3 / resistance 79.63. 4h RSI 27.1 oversold, ADX 47.9, vwap_dist -1.84%, %B 0.229. L/S 2.814 crowded long, p_win_learned 0.429 (low). 15m grinding into support decelerating (small bodies, volume drying). Only 2.1% above tested support; short TP1 sits AT support where bounces fire; upside ETF tail. HOLD; short on break below 73.1.",
+    "portfolio": "HOLD SOL \u2014 oversold into support, negative EV chase; arm short below 73.1."
+  },
+  "timestamp": "2026-07-18T06:07:54.050641+00:00"
+}

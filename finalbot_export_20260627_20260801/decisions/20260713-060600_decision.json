@@ -1,0 +1,26 @@
+{
+  "symbol": "CRCL/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.6,
+  "size": 0.0,
+  "entry": 64.72,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "forecast": "Waterfall from 66.1 has stalled into a 64.2-64.9 base; with 1h RSI 12 and -4.9% below VWAP, the next 2-6 bars favor a relief bounce toward 66 rather than fresh downside. Shorting the hole now gets stopped by the squeeze; want to sell strength into ~66 or see support at 61.78 break first.",
+  "expectancy_note": "p(win) on a fresh short here ~40% - oversold 1h RSI 12, -4.9% VWAP, 2.77x-long crowd = squeeze fuel; negative expectancy chasing. Wait to sell the bounce or the breakdown; HOLD is highest expectancy.",
+  "rationale": "CRCL is deeply extended to the downside (1h RSI 12.1, VWAP -4.91%, BB %B 0.20) and the 15m tape shows the decline stalling with drying volume around 64.2-64.9 - a classic setup for a counter-bounce that would stop any fresh short, precisely this account's worst loss pattern. The 2.775 long-skewed crowd is squeeze fuel and BTC (corr 0.55) is trying to hold ~$64k, adding bounce risk into Tuesday CPI. Won't buy a falling knife with no reclaim either. Best expectancy is to wait: sell strength into the VWAP retest near 66, or short the confirmed break of 61.78 support.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 66.0,
+    "expires_min": 240,
+    "note": "A bounce into 66 = prior support-turned-resistance near VWAP; the spot to sell strength with a proper stop above and target back into the 64-62 zone."
+  },
+  "transcript": {
+    "macro": "Regime MIXED-to-cautious, event-gated (2026-07-13). S&P/Nasdaq modest green Fri. New Fed Chair Warsh testifies Jul 14-15 (hawkish overhang; ~61% Sept-hike odds). Dominant near-term catalyst: Tue Jul 14 08:30 ET June CPI + big-bank earnings - high-vol event wall <48h. US cash equities CLOSED now (Monday off-hours) so perps are thin/gappy, reprice at the 09:30 ET open. Crypto fragile/neutral: BTC ~$63-64k fighting a downtrend, holding ~$64k pivot; BTC dominance 1-month low; weak US spot demand. CRCL is crypto-tied (corr 0.55) - a BTC bounce is the main way this short gets hurt. Washed-out 1h RSIs + long-skewed L/S + CPI wall = smaller size, sell strength not the hole.",
+    "sentiment": "MIXED / fading. Fresh catalyst: OCC national trust bank charter approved Jul 8; stock popped +16% intraday, closed ~+4% Jul 10 - first stablecoin issuer with a federal charter, USDC volume doubled Tether's in June. BUT the pop has FADED and price is now below VWAP with the scan short - classic buy-the-rumor exhaustion. Offsetting risk: 140-company Open USD (OUSD) consortium (BlackRock, Coinbase, Visa, Mastercard, Stripe) competitive threat; Warren challenging charter legality; new Fed stablecoin oversight overhang. Highest-vol name - watch for headline whipsaw.",
+    "analyst": "Composite short 46%, ADX 57 but deeply washed out: 1h RSI 12.1, VWAP -4.91%, highest-vol name (ATR 1.25%, BBW 9.2%). The 66.1->64.2 waterfall has stalled into a 64.2-64.9 base with drying volume - next few bars favor a mean-reversion bounce, not continuation. Shorting the hole into a 2.775x-long crowd (squeeze fuel) with BTC trying to hold $64k into CPI = negative expectancy. HOLD; sell strength into ~66 or short a break of 61.78.",
+    "portfolio": "HOLD - waterfall stalled, 1h RSI 12 + 2.77x-long crowd = squeeze risk into CPI; sell strength ~66 or breakdown below 61.78."
+  },
+  "timestamp": "2026-07-13T06:06:00.517842+00:00"
+}

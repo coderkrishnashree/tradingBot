@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "GOOGL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price rejected exactly at resistance 373.49 and rolled ~4pts to stall in a 368-370 shelf on drying volume; expect continued chop between 368 support and 371-373 over the next few bars, no clean edge either way.",
+  "expectancy_note": "Long into RSI 77 / %B 0.97 at resistance with crowded longs (L/S 2.12) and offered book is negative-expectancy chasing; short against a strong ADX-36 uptrend leader with no TF/divergence confirmation is knife-catching. p(win) on either <0.5 here \u2014 flat is highest expectancy.",
+  "rationale": "GOOGL is the genuine relative-strength outlier (+1.97% vs BTC, uncorrelated 0.05) but it is badly overbought and just failed at the 373.49 cap, rolling over on fading volume. There is no fresh <48h catalyst to justify chasing a stretched leader, and the crowded-long structure argues against adding here. I wait for either a decisive breakout above 373.49 (fresh long) or a pullback that resets the setup rather than pay up at the extreme.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 373.6,
+    "expires_min": 240,
+    "note": "A clean close above the 373.49 resistance cap proves the overbought condition is resolving via continuation, not exhaustion, and would justify a trend-continuation long on the breakout."
+  },
+  "transcript": {
+    "macro": "Regime MIXED-to-RISK-OFF, tech-led (semi sell-off Jul 7). GOOGL is the OUTLIER: scan LONG bias, uptrend all TFs, holding up while chips sell off (RS +2% vs BTC) \u2014 the rotation winner. BUT stretched: 4h RSI 77 / %B 0.97 = overbought at resistance ~373 (last 369.6). L/S 2.12 (crowded long), orderbook slightly offered (-0.19). Un-correlated to BTC (0.05). Caution/smaller size on longs; don't chase extended moves.",
+    "sentiment": "Mixed; long-horizon catalysts, nothing actionable in 48h. Earnings Jul 28. Long-dated headlines (EU Android fine appeal dismissed Jul 2 - priced; DOJ remedy appeal 2026/27; ~$84.75B equity raise incl $10B Berkshire for AI capex). Scan badly overbought at resistance \u2014 exhaustion setup, no fresh bullish catalyst to chase. Only <=48h swing factor: FOMC minutes Wed Jul 8 via tech beta.",
+    "analyst": "Spike to 373.49 (exact resistance) rejected, rolled ~4pts, now chopping 368-369.8 on thin volume \u2014 exhaustion/digestion under a hard level. Long = buying RSI 77 into resistance with crowded longs/offered book (poor R:R); short = fighting a strong ADX-36 uptrend leader with no mid-TF confirmation (knife-catching). Flat is best expectancy. Long trigger on a clean break above 373.6.",
+    "portfolio": "HOLD GOOGL \u2014 relative-strength leader but overbought and rejected at 373.49; long only on a clean breakout above 373.6 (conf 0.6)."
+  },
+  "timestamp": "2026-07-07T16:25:58.884554+00:00"
+}

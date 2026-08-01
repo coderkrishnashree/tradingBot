@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "QQQ/USDT:USDT",
+  "confidence": 0.6,
+  "size": 0.0,
+  "entry": 728.95,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "none",
+  "forecast": "Price stays pinned in the 727.7-729.1 coil just under 730.3 for the next several bars; resolves on a break of 730.3 (upside) or a flush toward 720/VWAP (downside), not before.",
+  "expectancy_note": "No positive-expectancy entry: long = chasing 4h RSI 79.8 stretched tape at resistance into hostile CPI binary (account's #1 loss pattern); short = fighting ADX 46.5 uptrend with no divergence and no room. Both fail R:R.",
+  "rationale": "QQQ is deeply overbought (4h RSI 79.8, stoch 90.3) and coiling in a 1.3-pt band directly under 730.3 resistance, with cash equities CLOSED through Monday (thin/gappy) and June CPI Tue 8:30am ET as an unfavorable asymmetric binary. A vacuum breakout is untrustworthy and gap-prone; a fade fights a strong uptrend with no cushion (ATR only 0.41%). Highest-expectancy action is to wait for either a confirmed break-and-hold of 730.3 to buy a retest, or a flush to VWAP/720 for a pullback-buy. Size 0.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 730.4,
+    "expires_min": 240,
+    "note": "Break-and-hold above 730.3 resistance confirms the coil resolves up and opens a retest-buy; a rejection keeps the short-of-resistance bias intact."
+  },
+  "transcript": {
+    "macro": "Regime MIXED, leaning cautious for fresh longs. Sat Jul 11 2026 \u2014 US cash equity markets CLOSED through Monday open; tokenized-equity perps trade in a vacuum: thin books, gappy fills, Monday-open re-pricing gap risk. Funding 0.0/stale \u2192 positioning read off long/short ratio + orderbook only. Equity backdrop constructive (semis/AI bid; S&P 7575 / Nasdaq 26282 Fri close) but overbought. QQQ: last 728.95, cleanest positioning \u2014 L/S 1.02 (balanced), orderbook +0.251 \u2192 structure_bias +0.069 (mildly long), NOT crowded. Most stretched on oscillators: 4h RSI 79.8, stoch 90, right at resistance 730.3. Nasdaq-100 proxy; cash index closed strong Friday so trend backdrop supports it, but no cushion, pinned at highs into closed cash. Size for a pullback-buy, not a breakout-chase.",
+    "sentiment": "Overall risk-off tilt into a binary: June CPI Tue Jul 14 8:30am ET (~24-36h out); hawkish Fed Jun 17, hot May CPI 4.2%; VXN ~18, QQQ put/call 1.15 \u2014 hot CPI puts a Jul 29 FOMC hike back in play, hits long-duration tech hardest. QQQ neutral, tilts bearish into CPI: this IS the macro proxy \u2014 no idiosyncratic catalyst but MAXIMUM event exposure, June CPI is the dominant driver. Tape fragile after retreating from June highs, rising VXN, defensive positioning. Hot CPI = sharp downside given rate sensitivity; in-line/soft = relief rally. Near-term news argues AGAINST chasing longs \u2014 binary is unfavorable/asymmetric.",
+    "analyst": "Deeply overbought (4h RSI 79.8, stoch 90.3), coiling in a 1.3-pt band directly under 730.3 resistance, cash closed through Monday (thin/gappy), June CPI Tue as unfavorable asymmetric binary. Vacuum breakout untrustworthy/gap-prone; a fade fights a strong ADX 46.5 uptrend with no cushion (ATR only 0.41%). Both directions fail R:R. HOLD is highest-expectancy. Armed reconsider: break-and-hold above 730.3 = retest-buy; rejection keeps short-of-resistance bias.",
+    "portfolio": "QQQ \u2014 HOLD, size 0, confidence 0.60. Wait for a confirmed 730.3 break-and-hold to buy the retest, or a flush to VWAP/720 for a pullback-buy."
+  },
+  "timestamp": "2026-07-11T18:31:56.890652+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "META/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.55,
+  "playbook": "none",
+  "forecast": "Thin Sunday drift; price coils 638-640 on near-zero volume with 5m RSI ~21 and 30m RSI ~29 stretched \u2014 expect a mean-reversion pop back toward VWAP/650 before any real down-leg resumes; no clean entry until it bounces or loses 636.",
+  "expectancy_note": "Fresh market-short here is a late chase into an extended, illiquid tape on the strongest-RS name (RS +6.35%); learner shows shorts 47% win / -0.87 avg. Better EV to short a bounce into VWAP ~649 (~1.5R to 634) than to sell the low.",
+  "rationale": "Trend is down and all TFs align short, but price is already ~1.7% below VWAP with 5m/30m RSI deeply oversold and the last bars are flat dojis on ~0 volume \u2014 classic bounce setup, not a breakdown. US cash is CLOSED (Sun Jul 19) so tape is thin/gappy; a routine counter-bounce would stop any honest short before continuation, which is exactly this account's dominant loss pattern. Wait to sell strength near VWAP or a confirmed loss of 636/626 support. Size 0.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 648.0,
+    "expires_min": 240,
+    "note": "A bounce into the VWAP retest zone resets a proper short-into-strength entry with 1.5R+ room down to 634 and a stop above 655."
+  },
+  "transcript": {
+    "macro": "Regime MIXED, tilting HOSTILE for longs / SUPPORTIVE for tech-short setups. US tech tape rolling over (Nasdaq -2.9% wk), semis the selloff epicenter. Crypto risk-off (BTC ~$64-65k, F&G ~26, dominance ~58%). Sunday Jul 19 US cash CLOSED \u2014 thin/gappy perps until Mon open, smaller size/wide stops. META L/S 1.18, orderbook +0.23, bias +0.016, RS +6.35% (leading), BTC corr 0.39; earnings Jul 29.",
+    "sentiment": "Risk-off/defensive 'sell rallies' tape. META Q2 earnings Wed Jul 29 after close (guided rev $58-61B, EPS ~$7.18); no <=48h catalyst, AI narrative constructive but tape heavy. Bias neutral-to-bearish short-term; do not overstay into Jul 29.",
+    "analyst": "All TFs short-aligned (63.3% conf, ADX 78.6) but price ~1.7% below VWAP, 5m RSI 20.9 / 30m RSI 29 deeply oversold, last bars flat dojis on ~0 volume = bounce setup not breakdown. META is the strongest-RS name (+6.35%) \u2014 the last horse to short. Structure_bias flat, orderbook bid-leaning +0.23. Thin Sunday tape + account's dominant loss pattern (late shorts into stretched tape, shorts 47% WR/-0.87 avg) = no edge. Wait to short a VWAP bounce (~649) or a confirmed loss of 636/626.",
+    "portfolio": "HOLD META \u2014 no fresh short into an oversold, illiquid Sunday drift on the strongest-RS name; short a bounce instead."
+  },
+  "timestamp": "2026-07-19T18:44:40.221934+00:00"
+}

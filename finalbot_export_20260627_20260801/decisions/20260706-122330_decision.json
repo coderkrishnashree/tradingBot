@@ -1,0 +1,25 @@
+{
+  "action": "hold",
+  "symbol": "INTC/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.58,
+  "playbook": "none",
+  "expectancy_note": "Best rel-strength horse (+4.23%, btc_corr 0.345) but pinned under 125.12 resistance with stoch 87.8 / RSI 64.7 into thin pre-open; chasing overbought = negative edge. Wait for the break to buy with confirmation.",
+  "rationale": "INTC has the strongest idiosyncratic bid in the semi complex and a supportive regime, but it is stalled 0.5% under resistance 125.12 with overbought oscillators and only 0.37% ATR - there is no cushion for an entry here and the perp is thin before the 13:30 UTC US cash open. A long at 124.53 buys directly into resistance with a stop that either sits inside noise or gives sub-1.5 R:R; a breakout above 125.12 on the open is the clean trigger, while a rejection to 122 offers a better long entry. Do not hold into July 23 earnings, but that is well outside this window.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 125.12,
+    "expires_min": 180,
+    "note": "Break/close above 125.12 resistance on the US cash open confirms the trend-continuation breakout and flips me to a buyer with the strongest horse in the group."
+  },
+  "transcript": {
+    "macro": "US equities risk-ON, semis leading today's Nasdaq bid into 13:30 UTC open; crypto risk-OFF. Fed on hold 3.50-3.75%, May CPI hot +4.2% y/y, no FOMC/CPI in next 48h. INTC: rel_strength +4.23% (best of four, idiosyncratic, btc_corr 0.345). Scan BLOCKED the long as squeeze regime (RSI 64.7, stoch 87.8, extended). structure_bias -0.105 on long_short 1.566; funding flat. US cash open is the liquidity event; before that the perp is thin. Supportive backdrop but overbought into the open - chasing green is the risk.",
+    "sentiment": "INTC: Q2 2026 earnings after close Thursday July 23, 2026 (outside 24-48h window, not a blocker today, but do NOT hold into it). Highly correlated to the semis/AI complex that just whipsawed KOSPI/SK Hynix/Samsung; dragged by any renewed AI-chip selloff. No Intel-specific fresh shock. Neutral-to-cautious: no 48h catalyst, scan already blocked the long, sector risk-off argues against chasing longs.",
+    "analyst": "INTC is the strongest horse in the group (rel_strength +4.23%, low BTC corr, semis leading) but stalled 0.5% under resistance 125.12 with stoch 87.8 / RSI 64.7, ATR only 0.37% - no cushion, and the perp is thin pre-open. A long at 124.53 buys into resistance with sub-1.5 R:R. A breakout above 125.12 on the US cash open is the clean trigger; a rejection to 122 offers a better entry. HOLD with armed trigger.",
+    "portfolio": "HOLD INTC - strongest rel-strength but overbought under 125.12 pre-open; armed to buy on a break above 125.12."
+  },
+  "timestamp": "2026-07-06T12:23:30.870900+00:00"
+}

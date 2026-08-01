@@ -1,0 +1,28 @@
+{
+  "symbol": "EWY/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.6,
+  "size": 0.0,
+  "entry": 175.74,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "none",
+  "forecast": "Price is in a vertical flush (183.7 to 175.7 on rising 3x volume, RSI 11-22, 3.57% below VWAP, %B -0.47). Expect a mechanical dead-cat bounce toward the broken 176.99 / VWAP over the next 2-4 bars, then likely re-test of 168.8 support at the Asia memory open \u2014 but no reversal candle yet.",
+  "expectancy_note": "Late short into RSI 11 / -3.6% VWAP = the account's #1 loss pattern (bounce stops it); long-fade has no exhaustion confirmation on a 3x-volume knife with US cash closed. Both sides <1.5 R:R now; HOLD is highest expectancy.",
+  "rationale": "EWY is the epicenter of the Korean memory selloff: ADX 64, RSI 11-22, %B -0.47, VWAP -3.57%, weakest RS in the book (-11.4%) and correlated 0.80 to a crashing MU. Scan flags it FLAT, not a clean short. Chasing the short at the bottom of a vertical 4% flush invites the bounce; fading a falling knife with strong-but-outside-window bullish fundamentals and thin, gappy closed-cash liquidity has no confirmation. No structural crowding edge (funding 0, orderbook neutral). Wait.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 177.0,
+    "expires_min": 240,
+    "note": "Reclaiming the broken 176.99 breakout level proves the flush exhausted and opens a mean-reversion long back toward VWAP; losing 168.8 re-opens a fresh short with room."
+  },
+  "transcript": {
+    "macro": "RISK-OFF/defensive; US cash CLOSED, tokenized-equity/ETF perps thin/gappy. Korea is the epicenter of the memory selloff \u2014 EWY -11.4% RS, RSI 11-19, ADX 64, fresh short breakout after Kospi's memory-driven flush. Hostage to how Samsung/SK Hynix trade at the Asia open. Scan flagged EWY FLAT. Binary: Tuesday CPI/Fed.",
+    "sentiment": "EWY BULLISH tilt but event-heavy. KOSPI strong (7,476, +2.5% July 10) on AI/memory boom; Samsung July 7 preliminary Q2 record (op profit +19x YoY), ADB raised Korea 2026 GDP to 2.6%, SK Hynix ADR 7x oversubscribed. Key near-term risk: SK Hynix full Q2 ~July 29 (outside window) + AI-valuation volatility. Correlates 0.80 to MU. Conflict: short-breakout technicals vs bullish fundamentals.",
+    "analyst": "Vertical 4% flush, RSI 11-22, %B -0.47, -3.57% VWAP on 3x volume with no reversal candle. Chasing the short invites the bounce; fading the knife has no confirmation and thin closed-cash liquidity. No crowding edge. Reconsider on reclaim of 177.0 (long) or loss of 168.8 (short).",
+    "portfolio": "HOLD EWY \u2014 knife mid-flush with conflicting bullish fundamentals; wait for the level to resolve."
+  },
+  "timestamp": "2026-07-13T01:37:06.465928+00:00"
+}

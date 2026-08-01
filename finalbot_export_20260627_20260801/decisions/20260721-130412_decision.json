@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "QQQ/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Price stays boxed 704.4-707.4 for the next few bars; only a decisive 15m close above 707.4 opens the path toward 710-712, otherwise it drifts back toward VWAP/688 support.",
+  "expectancy_note": "No live edge: est p(win)~0.5 on a market long here; 1h RSI 88 / stoch 91 = extended, RS -13.5% laggard, and Wed TSLA+GOOGL earnings cap upside. Waiting for the coil break beats chasing the top of the box.",
+  "rationale": "The 4h ADX 57.8 flags a trend, but the 15m tape is a flat 2.5-pt coil pinned under 707 with momentum already stretched (1h RSI 88, stoch 91), so a market entry buys the top of the range into exhaustion - exactly the chase pattern that stops out on a routine pullback. The one bull tell is the +0.697 orderbook bid, but price can't clear 707.4 and QQQ is the book's biggest laggard (RS -13.5%). No clean pullback-to-VWAP entry and full Wed mega-cap earnings risk, so the highest-expectancy move is to wait for the coil to resolve.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 707.4,
+    "expires_min": 240,
+    "note": "A 15m close above the coil top confirms the orderbook bid is winning and opens a clean continuation long toward 710-712 with a stop back inside the box."
+  },
+  "transcript": {
+    "macro": "Regime MIXED, cautious risk-on into an event-heavy week. Tue futures firmer (Nasdaq-100 +1.3%) on a chip bounce but capped by US-Iran escalation; 10Y ~4.52-4.57% elevated. QQQ trades as EQUITY (BTC corr 0.39). EVENT WALL: Tesla+Alphabet Wed Jul 22 after close, INTC Jul 23. QQQ lean: supportive-long (mild) - best structure_bias in book (+0.21) from a strong orderbook (+0.70), funding slightly negative; composite +0.19 but 1h RSI 88, RS -13.5%. Clean-ish long into Tue, de-risk before Wed close.",
+    "sentiment": "No single-name binary this week, but the index is hostage to the Jul 28-29 FOMC and Jul 29-30 mega-cap earnings (MSFT/GOOGL Jul 29). Breadth weak, volume ~22% below average - gappy, headline-sensitive. Near-term news neutral; the modest long lean has no specific catalyst inside 48h.",
+    "analyst": "ADX 57.8 flags a trend but the 15m tape is a flat 2.5-pt coil under 707 with 1h RSI 88 / stoch 91 = a chase at the top of the box. Orderbook +0.70 is the one bull tell but price can't clear 707.4 and QQQ is the biggest laggard. HOLD; reconsider a continuation long on a 15m close above 707.4.",
+    "portfolio": "QQQ - HOLD (size 0): coiled under 707 and extended; long only on a decisive break above 707.4."
+  },
+  "timestamp": "2026-07-21T13:04:12.491182+00:00"
+}

@@ -1,0 +1,25 @@
+{
+  "symbol": "BTC/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.55,
+  "size": 0,
+  "entry": 63810.9,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "forecast": "The 63,364->63,810 bar just fired on 10.5x volume into RSI 71-82 / stoch 95 with asks stacked (ob -0.132) below 64,703 resistance; expect a pullback to retest the 63,440 breakout level over the next 2-4 bars rather than immediate continuation.",
+  "rationale": "BTC just printed a 10.5x-volume 15m breakout above 63,440 but is now extended and overbought (1h RSI 71, 5m RSI 82, stoch 95, +1.3% VWAP) into 64,703 resistance with asks stacked and structure_bias -0.20 (mildly long-crowded), while composite ADX ~0 confirms no trend - a chop-regime pop, not a trend to chase. Entering at 63,810 gives poor R:R because a normal pullback toward the 63,440 breakout retest would hit any honest stop before continuation. With June CPI (Tue) as a binary event and this a late chase, HOLD is the highest-expectancy call; I want to buy the retest that holds 63,440, not the spike. Size 0.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 63440,
+    "expires_min": 240,
+    "note": "63,440 is the breakout level; a pullback to it that holds is my long entry (re-debate for a long), a decisive close back below means the breakout failed and the pop is done."
+  },
+  "transcript": {
+    "macro": "Cautiously risk-on into a hostile-to-longs backdrop; crypto bouncing inside a downtrend, BTC.D ~55.5%. BTC: last 63,811, just printed a 15m breakout long (level 63,440, vol 10.5x) - the fresh move powering the crypto names. But structure_bias -0.20 (funding +0.0001, L/S 1.40, orderbook imbalance -0.132 asks stacked). RSI 71 1h/30m, stoch 95 - overbought into resistance 64,703. Composite ADX ~0 = no established trend, a chop-regime pop. Supports a tactical long with tight risk, NOT a chase.",
+    "sentiment": "BTC cautiously improving, macro driver for the book: ~$64k recovering off June ~$58k low after worst-ever ETF month (-$4.5B June) flipped to positive inflows early July. Move driven by soft US labor data easing July hike odds. CRITICAL <=48h catalyst: June CPI Tue Jul 14 08:30 ET - hard binary; hot print revives hike fears & pressures all risk, soft print extends bounce. Anything opened now is a bet on the print. No hacks/halts/delistings in window.",
+    "analyst": "HOLD. Move fired one candle ago on 10.5x volume; now +1.3% over VWAP, stoch 95, RSI 71-82 - extended into the very move that just fired, into stacked asks below 64,703. ADX ~0 = chop not trend. A market long chases a stretched one-bar spike a routine pullback would stop out (p(win)~0.4). Wait for the 63,440 breakout retest to hold. HOLD into CPI is highest expectancy.",
+    "portfolio": "HOLD BTC - do not chase the 10.5x-vol spike into overbought/CPI; buy the 63,440 retest if it holds."
+  },
+  "timestamp": "2026-07-10T02:00:03.626920+00:00"
+}

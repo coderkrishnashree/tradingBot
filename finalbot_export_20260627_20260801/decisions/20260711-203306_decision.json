@@ -1,0 +1,26 @@
+{
+  "symbol": "EWY/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.35,
+  "size": 0,
+  "entry": 183.63,
+  "stop_loss": 180.9,
+  "take_profit": 189.5,
+  "playbook": "none",
+  "forecast": "Weekend dead tape: price stays pinned 183.4-183.9 with near-zero volume until Monday US open; no directional move to trade before then.",
+  "expectancy_note": "No intraday momentum (20 bars span 0.4%), US cash closed so quote is stale/gappy, CPI Tue binary inside the window - p(win) on a chase is a coin flip, R:R uncomputable.",
+  "rationale": "EWY is a laggard semi-beta ETF (-15% RS, 0.81 corr to MU) sitting mid-range with strong longer-term ADX but dead intraday tape - 15m candles flat in a 0.4% band on tiny weekend volume, US cash closed. The only edge is a Monday-open continuation and a binary CPI Tuesday sits inside the 48h window, so entering now into a stale quote has coin-flip odds and uncomputable R:R. No trade; wait for a real break above 184.5.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 184.5,
+    "expires_min": 240,
+    "note": "Break above the 183.9 shelf toward 184.5 on real volume confirms Monday-open continuation of the semi/memory uptrend and justifies a trend long toward 189-196."
+  },
+  "transcript": {
+    "macro": "Cycle 2026-07-11. Scan Saturday, US cash CLOSED - thin/gappy, funding 0.0. Regime RISK-ON but late-stage/stretched; Nasdaq near records, VIX 15 calm; 10Y 4.56% mild headwind. BIG event risk inside 48h: CPI Tue Jul 14, bank earnings Tue-Wed - smaller size, don't chase. EWY rides the memory/Samsung-SK Hynix $520B capex theme (0.81 corr to MU, 0.74 to QQQ) - pure semi-beta. Rel strength vs BTC -15.0% (laggard). Verdict: cautious longs on semi/memory theme but overbought + crowded + CPI binary.",
+    "sentiment": "EWY (South Korea): Tracks Samsung/SK Hynix AI-memory demand; +156% YoY but -4.4% last month. KOSPI recently crash-and-rebound. Highly correlated to MU/SNDK memory complex. Constructive but consolidating; no single-name catalyst in 48h. Neutral-bullish, macro/CPI-driven. Broader: Nasdaq fragile, hawkish FOMC (hike projected before year-end), CPI is the binary.",
+    "analyst": "Last 183.63, ADX 66.7 (strong longer-term trend), RSI 47 neutral, %B 0.6, BB width 4.66% (not squeezed), stoch 60.3, vwap_dist +1.27%, support 168.8 / resistance 196.23 (far), ATR% 1.16, composite 65.3% long. 15m candles dead flat 183.4-183.9 over 5h on tiny volume; last 20 bars span 0.4%. Zero intraday momentum; stale weekend quote will gap Monday and resolves at CPI Tuesday. HOLD; flip on break above 184.5.",
+    "portfolio": "EWY: HOLD (conf 0.35) - dead weekend tape, semi-beta laggard; re-debate on a break above 184.5."
+  },
+  "timestamp": "2026-07-11T20:33:06.321117+00:00"
+}

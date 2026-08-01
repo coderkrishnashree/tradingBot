@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "MSTR/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Grind toward the 102.0 resistance is likely to stall; expect a pullback to the VWAP/broken-support shelf near 97.0-97.5 over the next few bars before the trend can resume \u2014 no clean entry at 99.6 pressing the upper band.",
+  "expectancy_note": "p(win) for a chase-long here ~0.45: +2.57% above VWAP, %B~1.0, hottest funding in book (structure_bias -0.38) \u2014 a routine bounce/pullback hits stop first; R:R to 102 only ~1.0. Fresh shorts also disfavored (learner shorts 0.48 win, -0.8 avg).",
+  "rationale": "MSTR is the strongest trend in scan but is extended: +2.57% above VWAP, pressing the upper Bollinger band, with the hottest funding and most contrarian structure_bias in the book \u2014 the exact stretched-tape late-entry that has bled this account. Chasing long offers poor R:R into 102 resistance; shorting a strong uptrend against BTC-beta is worse. Wait for a VWAP retest (~97.2) to buy the pullback with the trend, or a confirmed break/hold above 102 for continuation.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 97.3,
+    "expires_min": 240,
+    "note": "A pullback to VWAP/broken-support near 97.3 resets the trend-continuation long at proper R:R with an honest sub-1.5xATR stop below 95.9."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF/defensive (2026-07-21): geopolitics (Iran/Hormuz) headline-gap tape; size down. MSTR funding HOT +0.00097 (~0.1%/8h, highest in book) + OI 26.5k \u2014 crowded-long crypto-proxy; structure_bias -0.38 (most contrarian). btc_corr 0.73 (mostly BTC-beta, not idiosyncratic). Vol-heavy (ATR 1.72%). Strongest trend in scan.",
+    "sentiment": "MSTR neutral, BTC-driven: no earnings this week. Paused BTC buying 2nd straight week (as of Jul 20); running BTC Monetization Program (selling BTC / raising up to $1.25B for dividends/buybacks) \u2014 slight de-risking shift, not a shock. Effectively a levered BTC proxy; 48h direction dominated by bitcoin.",
+    "analyst": "HOLD MSTR. Strongest but most-extended, most-crowded name in the scan \u2014 +2.57% above VWAP, %B ~1.01, ADX 51, hottest funding (+0.097%/8h) and most contrarian structure_bias (-0.38), 73% BTC-beta with only +2.24% RS. Chasing the long into 102 resistance is the account's proven loss pattern (late entry stopped by the routine bounce), R:R barely 1.0. A fresh short against a strong uptrend and hot longs is also poor (shorts 0.48 win, -0.8 avg). Wait for a VWAP pullback (~97.3) to buy the dip with trend, or a clean break-and-hold of 102.",
+    "portfolio": "HOLD MSTR \u2014 strongest trend but most stretched/crowded (hot funding); wait for the ~97.3 VWAP dip, don't chase."
+  },
+  "timestamp": "2026-07-21T04:16:08.462365+00:00"
+}

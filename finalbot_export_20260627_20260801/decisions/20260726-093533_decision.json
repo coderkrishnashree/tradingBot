@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "NVDA/USDT:USDT",
+  "size": 0.0,
+  "entry": 208.22,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Thin weekend tape keeps NVDA pinned near VWAP 208.2 in a ~0.1% coil (208.0-208.4); no directional resolution expected until US cash reopens, then a gap toward either 207.9 support-break or 210+ is the real move.",
+  "expectancy_note": "No measurable R:R: price at VWAP, mid-BB, ~0.1% range, closed/gappy equity market into FOMC. Weak short composite (-0.27, 42%) contradicted by +0.41 bid-heavy orderbook and +4.36 rel-strength. HOLD is highest expectancy.",
+  "rationale": "NVDA is a tokenized equity with US markets closed; the 20-bar 15m sequence is a dead 208.0-208.4 coil with the final huge-volume bar a settlement artifact, not real flow. Price sits exactly at VWAP with neutral RSI and near-zero structure bias, so there is no level to fade or trend to ride, and any ATR stop would be pure noise into a weekend gap. FOMC Jul 28-29 plus a hostile AI-capex tape argue for waiting for a real, in-hours structural break rather than forcing size now.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 207.9,
+    "expires_min": 240,
+    "note": "Losing the 208.0 coil floor confirms the weekend drift is turning into a real breakdown toward 201.93 support, validating the short bias \u2014 re-debate for a short entry."
+  },
+  "transcript": {
+    "macro": "REGIME: RISK-OFF/mixed-hostile. AI-capex scare after Alphabet earnings hit megacap tech + chips hard; chips led regional losses. FOMC Jul 28-29 (statement 7/29 2pm ET). Smaller size, no new risk into Fed. Tokenized names thin/gappy off US hours. NVDA: under pressure from AI-spend scare; NVDA does NOT report until Aug 26 (no single-name event); scan bias mildly short.",
+    "sentiment": "NVDA BULLISH bias, but earnings OUTSIDE window (Aug 26 AMC). Live catalyst: US approved limited H200 exports to China; shipments started mid-July but volumes called 'trivial'. Guidance ~$91B Q2 assumes ZERO China datacenter rev, so H200 is optionality/upside. Near-term risk is the semi/AI-capex tape + FOMC; recent chip selloffs whipsawed the group. Lean: constructive fundamentals, no <=48h binary \u2014 trade technicals/macro, not the story.",
+    "analyst": "Dead weekend coil 208.0-208.4 pinned at VWAP; RSI neutral, structure_bias ~0, orderbook actually +0.41 bid-heavy (contradicts the weak short composite). Final huge-volume bar is a settlement artifact. No level to fade or trend to ride; ATR stop would be pure noise into a weekend gap. HOLD; reconsider short on loss of 207.9.",
+    "portfolio": "HOLD NVDA (conf 0.50) \u2014 VWAP-pinned dead coil, no measurable R:R; wait for an in-hours break of 207.9."
+  },
+  "timestamp": "2026-07-26T09:35:33.284941+00:00"
+}

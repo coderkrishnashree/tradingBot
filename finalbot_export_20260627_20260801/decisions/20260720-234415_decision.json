@@ -1,0 +1,25 @@
+{
+  "action": "hold",
+  "symbol": "GOOGL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.68,
+  "playbook": "none",
+  "forecast": "Illiquid after-hours drift stays pinned in the 351-354 coil on sub-1-unit volume into US open; no directional resolution likely until cash session, and earnings Wed AMC dominates thereafter.",
+  "rationale": "GOOGL prints earnings Wed 7/22 AMC, squarely inside the 48h window, and the desk mandate forbids holding through it. Right now it is dead after-hours tape (last six bars <1 unit volume) coiling 351-354 with no clean level to fade or break; the high ADX is an artifact of the flat drift, not a trend. Crowd is leaning long (orderbook -0.216, %B 0.96) into a binary, a red flag, but there is no exhaustion signal at a level to short either. No trade - protect capital until liquidity and a real level return.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 341.86,
+    "expires_min": 240,
+    "note": "Losing session support 341.86 on real volume opens a short toward mid-range - only a fast pre-earnings scalp given the Wed print."
+  },
+  "transcript": {
+    "macro": "Regime MIXED, risk-off tilt. Scan ~23:38 UTC = US cash CLOSED -> thin gappy after-hours (GOOGL 15m candles 0.1-50 units = poor price discovery), size down. GOOGL ($353): structure_bias -0.227, orderbook -0.216 (crowded long). EARNINGS WED 7/22 AMC = HARD binary inside the hold window - do not hold through the print.",
+    "sentiment": "GOOGL HIGHEST near-term risk. Earnings WED JULY 22 after close - squarely inside 48h. Consensus ~$2.89 EPS on ~$116.84B rev; trade is Google Cloud growth (~60%) and ~$190B AI capex. Single biggest dated binary for the desk's equities. Any position into Wed close = full gap risk.",
+    "analyst": "Dead after-hours tape (<1u volume) coiling 351-354, high ADX an artifact, no level to trade. Crowd leaning long into a binary two days out that the desk must not hold through. No honest edge. HOLD.",
+    "portfolio": "GOOGL -> HOLD (binary earnings Wed inside window, illiquid tape, no level)."
+  },
+  "timestamp": "2026-07-20T23:44:15.603500+00:00"
+}

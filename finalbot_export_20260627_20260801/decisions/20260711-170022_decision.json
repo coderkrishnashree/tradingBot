@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "GOOGL/USDT:USDT",
+  "size": 0.0,
+  "entry": 357.85,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.3,
+  "playbook": "none",
+  "forecast": "Price stays pinned in the 357.1-358.8 coil around VWAP on near-zero off-hours volume; expect continued chop into US reopen with no directional resolution over the next several bars.",
+  "expectancy_note": "No edge: p(win) ~0.45, R:R undefined at VWAP with compressed 2.63% BB and conflicting per-TF (15m long vs 4h short). HOLD beats a thin off-hours short that a routine wick can stop.",
+  "rationale": "GOOGL is a tokenized equity with US cash markets CLOSED \u2014 the book is thin and gap-prone (volumes ~0), and the mild short bias (structure -0.22, contrarian long/short 1.75) is not enough to fight a bid-up mega-cap tech tape from the short side. Price sits AT VWAP (dist -0.26%) in a tight 357.1-358.8 coil with BB width crushed to 2.63% and no trigger; per-TF signals conflict (15m long, 4h short) = low-conviction chop. No honest R:R and no catalyst inside 48h, so size is zero until the range resolves on real volume.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 351.78,
+    "expires_min": 240,
+    "note": "A break below support 351.78 confirms a real breakdown with a measured-move short target, turning the mild short bias into an actionable trade."
+  },
+  "transcript": {
+    "macro": "Regime: risk-on equities on a hawkish rates/USD backdrop (DXY reclaimed 100; Fed funds 3.50-3.75%, mkt pricing ~62% chance of a Sept HIKE; CPI 4.2% y/y hot). US CPI Tue Jul 14 + FOMC Jul 28-29 are catalysts. GOOGL last ~357.85, short setup. Broad tech grinding higher; Alphabet fundamentals strong (Q1'26 rev +22%, Cloud +63%, 41-analyst Buy consensus, $393 avg target vs $358 spot) -> stalling near $358 looks like consolidation, not breakdown. Scan positioning modestly short (structure_bias -0.22, funding flat, long/short 1.75 mild contrarian), near-zero BTC correlate (0.115), rel-strength -2.23% (quiet/idiosyncratic). Dominant risks structural: US cash market CLOSED (thin, gap-prone) and Q2 earnings late July + CPI beta. Fighting a bid-up mega-cap tech tape from the short side in a thin off-hours book = mixed-to-hostile; reduced size, low conviction until US hours.",
+    "sentiment": "No idiosyncratic <=48h catalyst for GOOGL. Q2 earnings ~Jul 22-28 (after close), OUTSIDE window \u2014 do NOT trade as binary now. Legal overhangs (EU Court dismissed Google's final antitrust appeal Jul 2; DOJ search-monopoly remedy appeals grind on) are long-horizon, not <=48h. $175-185B AI capex reaffirmed (narrative). Structural caveats: US cash markets CLOSED this weekend (thin, gap-prone; tiny volumes, conflicting per-TF signals \u2014 15m long vs 4h short = low-conviction chop); real driver next 48h is beta to broad Nasdaq into Tue Jul 14 CPI. Macro-beta name with no near-term catalyst.",
+    "analyst": "Last 357.85, price coiling tightly 357.1-358.8 at VWAP (dist -0.26%) on dead off-hours volume (~0.07 last bar). RSI 47.6 neutral, BB %B 0.418 mid-band, BB width crushed to 2.63% (no room/no trigger), stoch 65.2. Per-TF signals conflict badly: 15m long (+0.596) vs 30m short (-0.9) vs 4h short (-0.9), 1h flat. Mild short bias (structure -0.22) but entry at VWAP with a stop above the 358.8 swing targeting support 351.78 is a coin-flip in a thin book \u2014 no honest R:R, no edge. Textbook NO TRADE. HOLD until a clean break/close below support 351.78 gives a real measured-move short, or a reclaim above 358.8 invalidates the short bias.",
+    "portfolio": "GOOGL: HOLD (size 0) \u2014 thin off-hours tokenized equity coiling at VWAP with compressed BB and conflicting TFs; no edge, no <=48h catalyst. Short only on a confirmed break below 351.78."
+  },
+  "timestamp": "2026-07-11T17:00:22.668756+00:00"
+}

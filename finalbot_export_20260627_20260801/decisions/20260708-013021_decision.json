@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "EWJ/USDT:USDT",
+  "size": 0.0,
+  "entry": 93.23,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.3,
+  "playbook": "none",
+  "forecast": "Price stays pinned near 92.1-93.5 support on near-zero on-venue volume; the real risk is a Tokyo-open gap that leaps a level rather than a clean 15m path. No tradable next-candle move - expect drift/chop until a gap resolves it.",
+  "expectancy_note": "p(win) ~0.4 at best but spread/gap/slippage on a thin gappy book turns any 1.5R plan negative; skipping beats a fade or a chase here.",
+  "rationale": "EWJ barely trades on-venue: the mid-TF shows long strings of 0-volume candles and tiny prints, so ADX 81 is a liquidity artifact, not a trend, and bb_width is a compressed 3.17%. Bearish sentiment (Nikkei -2.1%, Samsung shock) and the 4h short bias tempt a short, but price is already oversold at support 92.14 (%B 0.087, rsi 32, 4h bullish divergence) - a chase into the level, not an entry at it, while gap risk on Tokyo open can jump any stop. Expectancy is negative once execution costs are honest, so no position; smallest-size-or-skip resolves to skip.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 92.14,
+    "expires_min": 240,
+    "note": "A clean, volume-backed break of 92.14 support (not a 0-volume gap) would confirm the bearish sentiment is actually reaching the tape and open a real short toward the lower structure."
+  },
+  "transcript": {
+    "macro": "EWJ: FLAT (avoid). Japan-equity ETF: THIN/GAPPY - US-hours liquidity only, many 0-volume candles in scan confirm it barely trades on-venue. ADX 81 is a liquidity ARTIFACT, not a real trend; 4h shows bullish divergence. btc_corr 0.23 (ignore crypto). Environment HOSTILE for execution regardless of direction - gap risk on Tokyo open. Smallest size or skip.",
+    "sentiment": "EWJ BEARISH near-term, momentum event risk. Fresh shock: Nikkei fell ~2.1% to 3-week low as tech sold off; Samsung dropped up to 10% despite strong profit, sparking AI-trade sustainability fears (real, moving catalyst). BOJ ~0.75% with another 25bp hike plausible H2. Note EWJ thin/gappy off US hours. Near-term news argues FOR the short, BUT execution is hazardous (gap risk).",
+    "analyst": "Untradeable tape. 15m shows long strings of 0-volume candles and tiny prints, so ADX 81 is a liquidity artifact and bb_width a compressed 3.17%. Bearish sentiment (Nikkei -2.1%, Samsung shock) and 4h short bias tempt a short, but price is already oversold at support 92.14 (%B 0.087, rsi 32, 4h bullish divergence) - a chase into the level, plus Tokyo-open gap risk jumps any stop. Expectancy negative once execution costs are honest. Smallest-size-or-skip resolves to skip. HOLD.",
+    "portfolio": "HOLD/skip EWJ - execution hazard (thin, gappy, 0-volume) dominates any bearish edge. Conf 0.3, size 0."
+  },
+  "timestamp": "2026-07-08T01:30:21.242627+00:00"
+}

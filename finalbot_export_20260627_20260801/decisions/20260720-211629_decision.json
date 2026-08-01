@@ -1,0 +1,22 @@
+{
+  "action": "buy",
+  "symbol": "BTC/USDT:USDT",
+  "size": 3.0,
+  "entry": 65020,
+  "stop_loss": 64700,
+  "take_profit": 65760,
+  "take_profit_1": 65540,
+  "take_profit_2": 65760,
+  "confidence": 0.6,
+  "playbook": "trend",
+  "forecast": "Bounce off resistance-rejection stalling on dying volume near 65300; expect one more dip to retest the 65020-65070 flush base within 2-4 bars, then buyers reload for another push toward the 65540-65769 resistance retest.",
+  "expectancy_note": "p(win)~0.6, R:R 1.6 to TP1 (reward 520 vs risk 320); trend-pullback long beats chasing and beats any short - account longs win 69% vs shorts 48%, and structure (orderbook +0.78, benign funding, L/S 1.37) backs the bid.",
+  "rationale": "Trend intact across 30m/1h/4h (ADX 34) and price only pulled back ~1% after tagging 65769 resistance, so this is a pullback-continuation, not a chase. LIMIT at the 65020 flush low near VWAP rather than a market fill because the current bounce is fading on collapsing volume right under supply - buying the retest gives a clean 1.6R to the 65540 first target with a stop tucked below the flush low. Size kept modest (3%) because RSI 64 is warming, price is into resistance, and FOMC sits just outside the window per the 'don't overstay' note.",
+  "transcript": {
+    "macro": "Regime MIXED, leaning risk-off - cooling/consolidation tape, equities soft & headline-driven (Iran/oil ~$90), Fed on hold into Jul 28-29 FOMC (no cut, some hike risk). Crypto quiet: BTC ~$65.3k, dominance high ~59-60% (alt-unfriendly); recent bid is short-squeeze off oversold, not fresh trend. BTC is the cleanest long structure in the set - funding benign, OI healthy, L/S 1.37, orderbook +0.78, structure_bias +0.11, but RSI 64 into resistance 65769. Size down broadly.",
+    "sentiment": "Mildly risk-on after soft June CPI cut Fed-hike odds; spot BTC ETFs flipped to ~$191M inflows after a 10-day outflow streak; CLARITY Act a mild tailwind; Fear&Greed Neutral ~44-50. The whole complex walks into a month-end earnings + FOMC wall (FOMC Jul 28-29, GDP Jul 30) just outside the 48h window - constructive near-term for a BTC long but 'don't overstay into FOMC'. No hacks on majors.",
+    "analyst": "Price tagged 65769 resistance, flushed ~$750 to 65013, and is grinding back up but stalling near 65300 on collapsing volume - not extended, a healthy trend pullback. Rather than chase the fading bounce, use a LIMIT buy at the 65020 flush low near VWAP: entry 65020, stop 64700 (below flush), TP1 65540 = 1.6R, TP2 65760 resistance tap. Structure (orderbook +0.78, benign funding, L/S mildly long) backs the bid; learner favors longs (69% vs 48%). Modest 3% size given RSI warming into resistance and FOMC just outside window.",
+    "portfolio": "BUY BTC (limit 65020) - only qualifying long in the set; clean 1.6R trend-pullback, modest size."
+  },
+  "timestamp": "2026-07-20T21:16:29.522180+00:00"
+}

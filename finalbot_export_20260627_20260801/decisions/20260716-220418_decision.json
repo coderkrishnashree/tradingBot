@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "META/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Oversold bounce off the 662 base is stalling near 665-666 on dying volume; expect chop 662-668 next 2-4 bars.",
+  "expectancy_note": "Short = fading a deep-oversold (30m/1h RSI ~26) bounce into a +0.67 bid-heavy book = the account's losing late-short pattern. Long = counter-macro on dying volume, 5m RSI 82 already stretched. Neither gives 1.5R with an honest 1xATR stop; HOLD has best expectancy.",
+  "rationale": "META already flushed 670->662 and is the rel-strength outlier (+13.3 vs BTC) bouncing off oversold with an aggressively bid-heavy book; shorting into that is the stopped-by-the-bounce loss this book keeps taking. But the bounce is on collapsing volume with resistance overhead and 5m RSI 82, so chasing long lacks conviction too. At VWAP (dist +0.2%), mid Bollinger (%B 0.47), no honest 1.5R setup exists; wait for the range to resolve.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 662.0,
+    "expires_min": 240,
+    "note": "Losing the 662 flush-low base breaks the oversold bounce and re-arms the macro-aligned short."
+  },
+  "transcript": {
+    "macro": "RISK-OFF (short-biased) 2026-07-16. Nasdaq -1.3%, chip-led selling 2nd session. SOX ~15% off highs, semis in distribution, rallies sold. META rel-strength outlier +13.3 vs BTC, less semis-exposed, but 30m/1h deeply oversold (RSI 25-26) after selling 670->662; orderbook imbalance +0.67 bid-heavy => bounce risk on shorts. No earnings 48h (Jul 29).",
+    "sentiment": "META neutral. Q2 earnings Jul 29 (13d out, not a 48h binary). Consensus EPS ~$7.18, rev ~$60.2B, Street Strong Buy, capex-hike is long-horizon. No fresh single-name shock; trades on beta to Nasdaq + hawkish Warsh testimony.",
+    "analyst": "META already did its down-move (670->662 capitulation) and is the strongest name bouncing off deep-oversold with bid-heavy book. Short = account's late-short-into-bounce loss pattern (short win 52%, structure_bias weight -0.50). Long = counter-macro on dying volume, 5m RSI 82 stretched. No 1.5R with honest ATR stop. HOLD; re-arm short below 662, flip long above 668 reclaim.",
+    "portfolio": "META: HOLD \u2014 no honest R:R between the oversold bounce and dying-volume drift; wait for 662 break or 668 reclaim."
+  },
+  "timestamp": "2026-07-16T22:04:18.208232+00:00"
+}

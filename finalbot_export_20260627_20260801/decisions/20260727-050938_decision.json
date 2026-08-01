@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "AAPL/USDT:USDT",
+  "size": 0.0,
+  "entry": 334.53,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.4,
+  "playbook": "none",
+  "forecast": "Thin, US-cash-closed tape keeps AAPL drifting/chopping between 333-336 after the 338.5 rejection; LTF is oversold (5m RSI 19) so a small dead-cat bounce toward 335.8-336 is likely, but no directional edge - expect range-bound noise, not a clean move, into the Thu earnings binary.",
+  "expectancy_note": "p(win) ~0.46 (learned), no honest R:R either way - long buys a fresh resistance rejection, short fights 1h/4h uptrend into 5m RSI 19; HOLD beats both, and earnings Thu forbids a 48h swing.",
+  "rationale": "AAPL reports Thursday after close (last Tim Cook call = extra headline risk), a hard binary inside the desk's 48h hold window that both macro and sentiment flag as avoid-through-Thu. Price was just rejected at 338.5 resistance and is bleeding to session lows on thin US-closed liquidity; composite is 'long' but NOT aligned (factor 0.8), confidence 46%, p_win_learned 0.46, with higher-TF up but LTF momentum down and oversold - no clean entry, no R:R edge. Zero size; wait for a resistance reclaim or the post-earnings dust to settle.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 338.53,
+    "expires_min": 240,
+    "note": "Reclaiming the 338.5 resistance would end the rejection/bleed and confirm the 1h/4h uptrend, turning the muddy long into a real breakout entry - but even then earnings risk caps size."
+  },
+  "transcript": {
+    "macro": "Regime MIXED, risk-on into event week. FOMC Wed Jul 29. Funding broadly rich, crowded longs. Smaller size everywhere; scan @05:00 UTC = US cash closed, prices thin/gap-prone. AAPL: REPORTS THURSDAY AFTER CLOSE. Near-zero/negative BTC corr (isolated equity), at resistance 338.5 (last 334.5), neutral positioning (bias +0.03). Long here is an earnings bet. NEUTRAL; event trade only, flat/tiny into Thu.",
+    "sentiment": "AAPL: EARNINGS Thu Jul 30 AC (last call with Tim Cook as CEO - extra headline risk); consensus ~$110B rev, EPS ~$1.89. Hard binary. NEUTRAL into it, high event risk - avoid holding through Thu close.",
+    "analyst": "Rejected at 338.5 resistance, bleeding to session lows on thin US-closed liquidity; composite 'long' but NOT aligned (0.8), conf 46%, p_win_learned 0.46; higher-TF up but LTF momentum down and oversold (5m RSI 19). No clean entry, no R:R. Earnings Thu forbids a 48h swing. HOLD. Reconsider on reclaim of 338.53.",
+    "portfolio": "HOLD - resistance rejection into thin tape, earnings Thu binary, no edge; conf 0.4."
+  },
+  "timestamp": "2026-07-27T05:09:38.142758+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "HOOD/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Choppy pre-open drift 113.5-114.7; expect either a fade back toward VWAP ~111.8 or a stall under 114.7 resistance-of-the-hour. Prefer buying the dip toward 112, not this bounce.",
+  "expectancy_note": "Long here = chasing: stoch 91, RSI 66, +2% above VWAP, crowded L/S 1.72, structure_bias -0.16, learner p_win 0.40. No positive-expectancy entry; wait for VWAP retest.",
+  "rationale": "HOOD is a strong horse (RS +11.7%, ADX 65) but extended above VWAP and overbought into a THIN pre-open tape, with a crowded long book and a learner win-rate of only 0.40 on this condition. The last 15m bar bounced off 113.5 but that is not a pullback-to-structure entry; an honest long needs a dip to ~112 (VWAP). HOLD is the highest-expectancy call; re-engage on the dip.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 112.0,
+    "expires_min": 240,
+    "note": "A pullback into the VWAP/112 zone gives a non-chasing trend-continuation long entry with an honest sub-1.5xATR stop below 111."
+  },
+  "transcript": {
+    "macro": "Regime MIXED, leaning constructive for longs but timing-gated. Risk-on (soft June CPI 3.5%, S&P +0.38%, Nasdaq +0.9%, semis rebounding). CRITICAL: scan stamped ~07:29 ET = US cash market PRE-OPEN; perps thin/gappy until 09:30 ET, size down. Low BTC correlation; QQQ/semis beta dominates. HOOD: strong RS +11.7%, ADX 65 uptrend, but crowded long (L/S 1.72), RSI 66, stoch 91, structure_bias -0.16 = extended, pullback risk. Earnings Jul-29 (outside 48h).",
+    "sentiment": "HOOD (Robinhood): bullish tone, earnings Jul-29 (14d out, not imminent). Fresh product momentum early July (Robinhood Chain L2 mainnet, tokenized stocks 120+ countries, record prediction-market volume). Price leading analyst target (~$111 avg vs ~$114 spot). No hack/halt/regulatory shock. Near-term news neutral-to-mildly-supportive; nothing forces a move inside 48h.",
+    "analyst": "Extended long into thin pre-open tape with crowded book and learner p_win 0.40 = the account's late-continuation-chase loss pattern. Last bar is a bounce, not a pullback-to-structure entry. Honest long needs a dip to ~112 (VWAP) against 106.9 support. Short fights ADX 65 uptrend and +11.7% RS. HOLD, reconsider on dip below 112.",
+    "portfolio": "HOOD -> HOLD (conf 0.60): strong horse but overbought/extended; wait for VWAP dip to ~112 to buy."
+  },
+  "timestamp": "2026-07-15T11:34:01.638494+00:00"
+}

@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "CRCL/USDT:USDT",
+  "size": 0,
+  "entry": 61.4,
+  "stop_loss": 60.55,
+  "take_profit": 62.6,
+  "confidence": 0.44,
+  "playbook": "none",
+  "forecast": "Weak intraday bounce is stalling; expect chop between 60.6 and 61.9 over the next few bars, more likely to fade back toward 60.6/59 than to break 62 given crowded-long, laggard RS and risk-off tape.",
+  "expectancy_note": "Long = chasing a stretched 15m RSI 76.6 bounce into hostile macro/crowded-long (negative expectancy); short = premature with no confirmed rejection at a real level. p(win) on either <0.5 with R:R below 1.5 to first honest exit, so HOLD dominates.",
+  "rationale": "CRCL is a tokenized equity: crypto structure metrics are noise, so I lean on technicals + the bearish macro/sentiment. Price bounced ~1.8% off lows into an extended 15m RSI (76.6) and just printed a rejection bar (61.65 high, closed 61.40), while the pair lags peers (-12.6% RS), sits crowded-long (L/S 2.17), and trades in a risk-off, thin off-hours tape. There is no clean level to fade from and chasing the bounce is the account's #1 loss pattern, so size is zero until price resolves the 60.6-62.0 pocket.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 60.55,
+    "expires_min": 240,
+    "note": "Losing 60.55 breaks the base of the intraday bounce and opens a short toward 58.76 support in this risk-off, crowded-long tape."
+  },
+  "transcript": {
+    "macro": "RISK-OFF, fragile; rips suspect. Crypto soft (BTC ~$62-64k, Extreme Fear ~23). Tokenized-equity pair thin off-hours. Crowded-long CRCL L/S 2.17 (bias -0.32), rel strength -12.6% (lagging). FOMC Jul 28-29 outside window. Net: MIXED-to-HOSTILE for fresh longs.",
+    "sentiment": "CRCL bearish. NO earnings in window (~Aug 10). Mizuho downgraded to Underperform Jul 14; Visa 'Open USD' stablecoin platform is a real competitive threat. Offset: OCC final banking approval Jul 10. Stock ~$61, below all key MAs. Net tone soft/bearish.",
+    "analyst": "Tokenized equity so crypto structure is noise; read is technicals + bearish macro/sentiment. A ~1.8% bounce into extended 15m RSI 76.6 with a rejection bar, laggard RS, crowded-long, risk-off thin tape. No clean level to fade and chasing the bounce is negative-expectancy. Wait for the 60.6-62.0 pocket to resolve; a loss of 60.55 opens the short.",
+    "portfolio": "HOLD CRCL - stretched bounce in a bearish, crowded-long laggard; no edge to chase, a 60.55 break arms the short."
+  },
+  "timestamp": "2026-07-20T12:16:25.903739+00:00"
+}

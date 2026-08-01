@@ -1,0 +1,23 @@
+{
+  "action": "hold",
+  "symbol": "MSFT/USDT:USDT",
+  "size": 0.0,
+  "entry": 390.04,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.7,
+  "rationale": "MSFT is a tokenized equity into a coin-flip binary wall: FOMC Wed 2pm ET and Q4 FY2026 earnings Wed after close, both inside the 24-48h horizon, with the hard macro rule to be FLAT into the print. Technically a poor entry anyway: RSI 72.7 and %B 0.921 stretched long while structure_bias is -0.235 (crowded long, orderbook -0.233), composite long-but-not-aligned (0.87), and 15m is a listless bleed 392->390 on dust volume. Gap risk across the print can breach any 1-1.5x ATR stop \u2014 no size; stand aside flat.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 378.0,
+    "expires_min": 240,
+    "note": "Losing 378 support (well before the events) breaks bull structure and opens a clean short with defined risk."
+  },
+  "transcript": {
+    "macro": "Regime RISK-ON but into a wall of event risk (S&P +0.81%, Nasdaq +0.90%, VIX ~17.8 \u2014 calm before the print). FOMC decision Wed 7/29 2pm ET; MSFT+META earnings Wed after close, AAPL+AMZN Thu after close. Semis constructive underlying (TSM/MU AI demand strong) but headline-hostage to MSFT AI-capex read-through. L/S ratios lopsidedly crowded-long across nearly all names (squeeze risk); funding ~0; low BTC correlation (these tokenized-equity perps are not crypto-beta). Guidance: trade SMALLER, favor same-session in-and-out, FLAT into FOMC + MSFT (Wed) / AAPL (Thu) prints. Best structural setups AAPL (long, uncrowded) intraday only + CL/TSLA (short w/ trend) but both stretched.",
+    "sentiment": "Biggest earnings week of year + FOMC 7/29. Already-reported (drift, not binary): GOOGL (Q2 7/22 beat, capex hiked ~$205B, positive), TSM (7/16 beat, FY >40%, but caught in mid-July chip selloff + Korea rout), TSLA (7/22, stock -15% on 7/23, rev miss/FCF deficit, negative), INTC (7/23, +25% rev but -8% on print, down ~28% MTD, negative), MU (record Q3, HBM sold out 2026-27, positive fundamentals but two-way tape). Unresolved binaries \u2014 do NOT hold through: MSFT (Wed AH, Azure/AI-capex swing, priced for perfection), AAPL (Thu AH, Tim Cook's final call, extra vol). EWY = high-vol semi/Korea proxy, KOSPI crashed from June peak, BoK hiked to 2.75%, trades off MSFT/FOMC, negative near-term. CL/WTI ~$83-84, slid on US-Iran de-escalation + OPEC+ ending cuts, deeply oversold (RSI ~21), bearish but de-escalation unwind largely played out.",
+    "analyst": "Same-day FOMC + earnings double binary; hard flat rule. RSI72.7/%B0.92 stretched, structure_bias -0.235, listless bleed on dust volume. Gap risk > any stop. HOLD/flat. Reconsider short below 378.",
+    "portfolio": "HOLD MSFT \u2014 flat into a same-day FOMC + earnings double binary."
+  },
+  "timestamp": "2026-07-28T00:06:19.805227+00:00"
+}

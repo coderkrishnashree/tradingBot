@@ -1,0 +1,27 @@
+{
+  "action": "hold",
+  "symbol": "AAPL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "expectancy_note": "Chasing long here: only ~$1.20 to resistance vs ~$2+ ATR stop = R:R <0.6; wait for breakout-hold >315.25 (room opens) or pullback to VWAP ~311. p(win) on a chase is low, HOLD dominates.",
+  "rationale": "Strong uptrend (ADX 53, all TFs long, rel-strength +7.7%, own equity story, low BTC corr) but price is pinned into resistance 315.25 with RSI 70.8, %B 0.995, stoch 88 \u2014 textbook extended with tiny 0.63% ATR, so there is no room to the target and any stop that survives noise blows the R:R. US cash market is CLOSED (thin/gappy, open-gap risk), so no edge in forcing a fill overnight. I wait: a decisive break and hold above 315.25 opens the measured move and flips me long.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 315.25,
+    "expires_min": 600,
+    "note": "Clean break/hold above resistance 315.25 confirms continuation and opens fresh upside room, converting the overbought stall into a valid trend-long entry."
+  },
+  "transcript": {
+    "macro": "Risk-ON, tech-led regime. US equities near record highs (Jul 6: S&P +0.72% 7,537; Nasdaq +1.12% 26,121). AI trade re-igniting; Broadcom+Apple partnership positive. Semis volatile (BofA 'bubble risk' Jul 1). AAPL derivs neutral: funding ~0, OI small 2,971, L/S 1.08 balanced, orderbook +0.178, structure_bias +0.03. Rel strength +7.7% vs BTC, low BTC corr 0.27 (own equity story). Trend strong up (ADX 53, all TFs long) but RSI 70.8, %B 0.995, stoch 88 \u2014 extended into resistance 315.25 (last 314.05). Scan ~00:52 ET, US cash market CLOSED, reprices at 09:30 ET \u2192 overnight gap risk. Verdict: favors LONG but overbought into resistance; prefer confirmation over chasing.",
+    "sentiment": "AAPL NEUTRAL-to-mildly-bullish. Earnings fiscal Q3 July 30 (~3 wks out, no near-term binary). Constructive: rallied on Bloomberg reports Apple in talks with Chinese memory suppliers CXMT/YMTC for iPhone chips, easing memory-cost squeeze; also demand side of Apple-Intel foundry story (multi-year). No <=48h binary catalyst; risk is generic tech-tape drift + price stretched into resistance.",
+    "analyst": "Strong uptrend but price jammed into resistance 315.25 with RSI 70.8, %B 0.995, stoch 88 \u2014 textbook extended. Tiny 0.63% ATR (~$1.98) leaves only ~$1.20 to resistance vs a stop that must sit ~1xATR below structure \u2192 R:R <0.6 on a chase. US market closed, thin/gappy overnight, no edge forcing a fill. Highest-expectancy play is HOLD with an armed breakout trigger: break-and-hold >315.25 opens the measured move and flips long; else buy a pullback to VWAP ~311.",
+    "portfolio": "AAPL: HOLD (conf 0.60) \u2014 do not chase overbought into resistance; armed long trigger above 315.25."
+  },
+  "timestamp": "2026-07-07T04:56:52.795104+00:00"
+}

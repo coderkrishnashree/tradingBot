@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "EWY/USDT:USDT",
+  "size": 0.0,
+  "entry": 163.78,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.35,
+  "playbook": "none",
+  "forecast": "Choppy digestion 163-165 near-term; recent bars faded from 167.6 to a 162.9 lower-low with 5m RSI at 26, so a small dead-cat bounce toward 164.5-165 is likely before direction resolves. No clean edge at spot.",
+  "expectancy_note": "p(win) on either entry ~0.45-0.5; shorting a 5m RSI-26 flush on a thin/gappy ETF is the account's classic late-short trap, and long lacks a reclaim \u2014 both sub-1.5R here, so flat beats forcing it.",
+  "rationale": "Composite is flat (3.6% conf, blended 0.038) with per-TF in conflict: 30m/15m/5m bearish after a -2.5% fade from 167.6, but 4h still long (0.449) on the record-inflow/HBM catalyst. Price sits mid-range (support 154.4, resistance 184.6), VWAP +0.33%, no structural level at 163.78 to lean a stop on within ~1.5xATR. EWY is a thin, gappy leveraged semi proxy \u2014 the macro note says trade smaller and only long while today's bounce holds; it has NOT reclaimed, so I wait for a decisive level rather than chase the flush.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 165.5,
+    "expires_min": 240,
+    "note": "Reclaiming 165.5 (failed intraday support / VWAP shelf) proves the fade is done and the 4h-long + inflow bid is back in control, arming a trend-continuation long toward 167.6/168."
+  },
+  "transcript": {
+    "macro": "Regime MIXED/fragile-recovering (2026-07-20). US equities bouncing today after ugly week; SOX ~-13%/month on AI-capex reset. EWY is a leveraged semi proxy \u2014 ~24% SK Hynix + 17% Samsung; KOSPI swung -8%/+6% intraday recently. High-beta, event-driven. VIX ~18-19. Rates supportive. Longs favored only while today's bounce holds. INTC/MU/EWY thin/gappy \u2014 trade SMALLER.",
+    "sentiment": "EWY: no single-name earnings; ETF driven by macro + SK Hynix. Concrete recent catalyst BULLISH \u2014 record inflows mid-July (~$1.1B Wed, $814M prior) as SK Hynix/HBM proxy (~25% weight) + Fed-cut hopes. No hard <=48h scheduled event but reacts to the same AI-memory/semi tape as MU and China/Iran macro (oil near $90 on US-Iran tension). Mildly constructive near-term; main risk is a broad semis-tape flush.",
+    "analyst": "Composite flat (3.6% conf) with per-TF conflict: 30m/15m/5m bearish after a -2.5% fade from 167.6, but 4h still long (0.449) on the inflow/HBM catalyst. Mid-range, no structural level at 163.78 for a ~1.5xATR stop. Shorting a 5m RSI-26 flush on a thin/gappy ETF is the classic late-short trap; long lacks a reclaim. Wait for a 165.5 reclaim. Size 0.",
+    "portfolio": "EWY \u2014 HOLD (conf 0.35): flat composite, conflicted TFs; don't chase the flush, arm long on 165.5 reclaim."
+  },
+  "timestamp": "2026-07-20T15:14:52.721671+00:00"
+}

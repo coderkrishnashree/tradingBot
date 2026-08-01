@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "AAPL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Tape is frozen at ~333.66 on near-zero volume with the US cash market closed into the weekend; no next-few-candle move exists until Monday's 9:30 ET open, which is a gap-risk coin-flip, not a tradable path.",
+  "expectancy_note": "p(win) on any entry ~0.45: a long is extended (RSI 73, +1.45% vs VWAP) into resistance 339 against a risk-off tape with sellers stacked (OB -0.52); a short fights the 4h uptrend and RS-leader status while QQQ/META are oversold and prone to a bounce. No edge > weekend gap variance.",
+  "rationale": "The 15m candles are a dead doji cluster pinned at 333.6-334.0 with the last bar zero-volume - the market is closed, there is no price discovery, and my SL/TP would sit on stale marks facing a Monday gap. AAPL is the relative-strength standout but counter-regime and extended, structure_bias is negative, and there is no <=48h catalyst (earnings Jul 30 is outside window). The learner rewards longs but penalizes exactly this profile (high RS, extended, negative structure); best expectancy is to wait for real Monday flow. Zero size.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 339.17,
+    "expires_min": 240,
+    "note": "A clean break and hold above the 339.17 resistance on real Monday volume would prove the RS-leader breakout resumed and justify a momentum long with a stop back inside 335."
+  },
+  "transcript": {
+    "macro": "Cycle @ 2026-07-17 23:01 UTC (~19:01 ET Fri, AFTER US cash close, into full weekend). Risk-OFF tape: Thu 7/16 Nasdaq Composite -1.4%, week Nasdaq -2.9%, semis smoked on AI-capex fears. Tokenized perps now trade with NO underlying price discovery until Mon 9:30 ET - thin books, wide spreads, stale/gappy marks, Monday gap risk. Fed on hold 3.50-3.75%, no monetary tailwind; AAPL earnings Jul 30 outside 48h. AAPL last 333.66: scan composite LONG (RS +12.3% vs BTC, 4h uptrend) but fights risk-off tape, RSI 73/stretched, structure_bias -0.12 (OB -0.52 sellers stacked). Counter-regime, extended; if taken, small. Nearly BTC-independent (corr 0.16).",
+    "sentiment": "Overall bearish/risk-off: Nasdaq -2.9% week, semiconductor rout (SMH ~-9% wk) after China Moonshot AI Kimi K3 open-source model stoked AI-monetization fears; US-Iran re-escalation, Brent +4.6% to ~$88. Momentum DOWN into weekend but QQQ/META deeply oversold so fresh shorts risk a relief bounce. AAPL: neutral-to-mildly-bullish but NO <=48h catalyst; relative-strength standout, +20% YTD near record ~$333, least chip-sensitive mega-cap. Q3 FY26 earnings Jul 30 outside window; iPhone 18/CEO transition are September; Citi PT $365 low-weight. Direction dictated by broad tape where Apple is defensive relative outperformer.",
+    "analyst": "15m tape completely flat, price pinned ~333.66 near-zero volume, market closed - no next-few-candle move to forecast until Monday gap. Long is counter-regime AND extended (RSI 73, +1.45% vs VWAP, resistance 339 overhead); learner shows longs won (0.75, n=8) but penalizes high relative_strength (-0.414) and this negative-structure profile (OB -0.52). A short fights the 4h uptrend/RS-leader status while QQQ/META oversold. No honest short-horizon edge > weekend gap variance. HOLD, zero size; arm break-and-hold above 339.17 for a Monday momentum long.",
+    "portfolio": "AAPL - HOLD (conf 0.60): stand aside on a frozen, closed, weekend tape; arm 339.17 breakout."
+  },
+  "timestamp": "2026-07-17T23:06:06.927923+00:00"
+}

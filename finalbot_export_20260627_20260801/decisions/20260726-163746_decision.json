@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "AAPL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Low-vol coil at 332.9 just under 335.34 resistance; expect continued pin/chop 331.5-335. Either a clean break+hold above 335.34 (continuation) or a rejection wick there (exhaustion short) \u2014 neither confirmed yet.",
+  "expectancy_note": "Long into RSI 85 / ADX 82 at resistance = chasing, poor R:R. Blind short vs ADX 82 with no reversal trigger = negative expectancy. HOLD best until 335.34 resolves.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 335.34,
+    "expires_min": 240,
+    "note": "Decisive break/hold above 335.34 flips to momentum long on retest; a rejection sets up the exhaustion short."
+  },
+  "rationale": "AAPL (treat as equity) is parabolically extended on 4h (RSI 84.9, ADX 82) but grinding flat on 15m/30m just below 335.34 resistance on drying, tiny volume \u2014 a coil, not a fresh impulse. Chasing the long here is the account's #1 loss pattern; shorting a trend with ADX 82 and no bearish divergence has no edge. Earnings Jul 30 after close adds binary gap risk building into the window. No positive-expectancy trade until 335.34 resolves, so stay flat and arm that trigger.",
+  "transcript": {
+    "macro": "Mixed/late-cycle risk-on, fragile. FOMC next week hawkish (~80% Sept-hike odds, inflation ~4.2%, USD-supportive) = headwind for high-beta longs. Biggest tech earnings week Jul 27-31; AAPL reports Jul 30 after close = binary gap risk. Tokenized equities thin/gappy off US hours. AAPL 4h RSI 84.9/stoch 90 extremely extended; corr to BTC -0.09, RS +5.3%.",
+    "sentiment": "AAPL neutral-to-cautious. Earnings Jul 30 after close (fiscal Q3, EPS est ~1.89). No <=48h catalyst; tape quiet/extended. Do NOT carry size into the print. Part of the dense Jul 29-30 cluster (FOMC + AAPL/COIN/MSTR earnings).",
+    "analyst": "4h parabolic (RSI 84.9, ADX 82) into 335.34 resistance while 15m/30m grind flat on tiny volume; benign structure (L/S 1.10, funding 0). Long chases into resistance with ~2.5pt headroom; short fights ADX 82 with no divergence. No honest R:R either way \u2014 HOLD and arm the 335.34 break.",
+    "portfolio": "HOLD AAPL \u2014 extended into resistance, earnings gap risk building; wait for 335.34 to resolve."
+  },
+  "timestamp": "2026-07-26T16:37:46.745094+00:00"
+}

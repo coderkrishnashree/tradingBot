@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "META/USDT:USDT",
+  "size": 0.0,
+  "entry": 671.96,
+  "stop_loss": 658.0,
+  "take_profit": 690.0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Weekend dead-zone chop between 670 and 674 on near-zero volume through Sunday; no directional resolution until Monday cash open, where the real move (up through 678.67 or a gap-fill pullback toward 660) prints.",
+  "expectancy_note": "No positive-expectancy entry: long chases RSI 81.6 into resistance 678.67 (~1% away) with unmanageable Monday-gap risk; short fights a leading name in a risk-on tape. p(win) on either side <0.5 with poor R:R \u2014 flat is the highest-expectancy choice.",
+  "rationale": "META is overbought (4h RSI 81.6, stoch 83.8, +3.62% above VWAP) and pinned just under resistance 678.67 while the US cash market is CLOSED (Sunday) \u2014 15m volumes near 0-8 contracts and OI only 5,461 make this an illiquid, gappy tape where stops cannot be honored into the Monday open. The underlying trend and sentiment are bullish, so directional bias is long, but entering here means chasing into resistance with a stretched RSI, exactly the account's #1 loss pattern. No trade: wait for Monday liquidity and either a clean break/hold above 678.67 to go with trend continuation or a pullback toward VWAP/660 to buy the dip. Size 0.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 678.67,
+    "expires_min": 240,
+    "note": "A clean break and hold above resistance 678.67 on restored (Monday) liquidity confirms trend continuation and would flip this to a tactical long."
+  },
+  "transcript": {
+    "macro": "Scan 2026-07-12 15:27 UTC. Regime risk-on (S&P +0.42% at 7,575, Nasdaq +0.29%, Mag-7 +4.9%, META +6% Fri), tech tape supportive of longs. CRITICAL: Sunday, US cash market CLOSED \u2014 tokenized equity perp thin/gappy; 15m volume 0-8 contracts, OI 5,461, price drifting $670-673, unmanageable Monday-gap risk. Derivatives: funding 0.0, long_short 0.916 (balanced), orderbook_imbalance +0.888 (thin-book noise), structure_bias +0.29. RSI stretched 81.6 (4h), +3.62% above VWAP, under resistance 678.67. relative_strength +19.3% vs BTC (corr 0.36). July 29 earnings ~17d out. Verdict: HOSTILE for fresh entries this session; LONG bias directionally right but wait for Monday open, small size only if forced, no shorts.",
+    "sentiment": "Strongly BULLISH, momentum-driven. META ripped mid-$540s to ~$668 (~20%+) on 'Meta Compute' AI-cloud narrative: Jul 1 excess-compute report (+9-10%), in-house 'Iris' chip Sept, 14GW target (+6.85% Jul 10). Street bullish: BofA Buy/$835, upgrades Wells Fargo/Erste, avg PT ~$825 (long-horizon, not 48h). NEAR-TERM EVENT RISK: Q2 earnings Wed Jul 29 after close (~17d out, outside window) \u2014 pre-earnings drift. Regulatory overhang (EU order, US states $1.4T Aug trial) slow-moving. Bottom line: bullish near-term, no negative shock inside 48h; caution: move extended, vulnerable to pullback/profit-taking.",
+    "analyst": "META overbought (4h RSI 81.6, stoch 83.8, +3.62% above VWAP, ADX 67.8 extended) and pinned ~1% under resistance 678.67 while US cash market is CLOSED (Sunday). 15m volumes 0-8 contracts, OI only 5,461 = illiquid, gappy tape where stops cannot be honored into Monday open. 5m score -0.305 (momentum cooling). Trend + sentiment bullish so bias is long, but entering here chases into resistance with stretched RSI = the account's #1 loss pattern. Textbook NO TRADE \u2014 wait for Monday liquidity: buy a clean break/hold above 678.67 (continuation) or a pullback toward VWAP/660 (dip). Size 0.",
+    "portfolio": "META/USDT:USDT \u2014 HOLD (conf 0.60): bullish long bias but no positive-expectancy entry on a closed-market weekend at resistance; stand aside until Monday liquidity."
+  },
+  "timestamp": "2026-07-12T15:29:43.230056+00:00"
+}

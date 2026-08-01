@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "TSM/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.62,
+  "playbook": "none",
+  "forecast": "Dead off-hours tape: last several 15m bars print 404.0 flat on ~0 volume, no real price discovery until 13:30 UTC US open. Expect price to drift/pin near 402-405 until then, then gap on the open toward either the 386.8 support (if sector selloff wins) or back above 408-410 (if the fresh beat draws dip buyers).",
+  "expectancy_note": "No tradeable edge now: stops/targets on zero-volume synthetic candles are fiction; shorts on this account are -0.73 avg over 44 trades, and shorting a fresh 36% revenue beat into a dead tape is the classic loser pattern. Waiting for the open has far better expectancy.",
+  "rationale": "ADX 70 with all mid-TFs (15m/30m/1h) flat means the trend already ran and price is coiled at VWAP (+0.23%) with no next-candle direction. The tape is illiquid off-hours (last 3 bars 0.0 volume, 5m RSI 96.3 is an artifact), so any entry faces massive slippage and a meaningless stop. Two-sided setup (bearish sector momentum + crowded 2.12 longs vs strongly bullish fresh earnings) with the real move only at the US open - HOLD is the highest-expectancy choice until liquidity returns.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 386.81,
+    "expires_min": 1200,
+    "note": "Losing the 386.8 4h support on real US-open volume confirms the sector-selloff short thesis has overpowered the earnings beat, giving a clean momentum short with structure below."
+  },
+  "transcript": {
+    "macro": "RISK-OFF regime (scan 2026-07-20 ~22:08 UTC). Nasdaq -1.4% today (-2.9% wk) on AI/semiconductor selloff (post-NVDA hangover, Samsung chip results) + Iran geopolitical risk; tech/comms/discretionary sold -> supports equity-tracker shorts. Crypto soft but orderly (no cascade): BTC ~$64-65k flat, dominance 57% (capital hiding in BTC, alts bleeding), Fear&Greed 29. DXY soft 100.7, 10Y 4.60%, soft June CPI, no Fed/CPI print in 48h. CRITICAL EXECUTION HAZARD: US cash equities CLOSED at scan time -> MSFT/QQQ/TSM/ORCL/HOOD perps thin/gappy until 13:30 UTC Tue US open; size down, real move at the open. MSFT & HOOD earnings Wed Jul 29 (outside 48h). Crypto (BTC/SOL) trades 24/7 with normal liquidity.",
+    "sentiment": "No high-weight dated binary in next 48h for any name (Jul 29 cluster: MSFT, HOOD is the next wall). MSFT neutral, -20% YTD on AI capex worries. SOL mildly bullish structurally (5 spot SOL ETFs live ~$1.12B inflows, fee cuts, Alpenglow Q3) but 0.81 corr to BTC so rides crypto risk-off; $74-75 support. BTC bearish near-term, below EMA200 (~$74.4k), MSTR sold record $216M BTC, oil>$80/Iran + hawkish Fed. QQQ neutral-to-bearish, mega-cap earnings wave looms. TSM strong Q2 beat Jul 16 (rev +36% y/y, guide raised) now digesting. ORCL bearish shock (-28%/mo, S&P downgrade on OpenAI concentration, ~21k layoffs, 52wk low ~$132) BUT RSI 25 oversold + Burry covered half his short (bounce risk). HOOD ran +37% (Agentic Trading, IPO underwriting) then pulled back ~$113->$99, profit-taking; high crypto beta amplifies risk-off.",
+    "analyst": "Dead off-hours tape - last 3 bars 404.0 flat on 0 volume, stops/targets are fiction. Trend already ran (ADX 70, mid-TFs flat, coiled at VWAP). Two-sided: bearish sector momentum + crowded 2.12 longs vs a strongly bullish fresh Q2 beat. No tradeable edge until the US open. Hold; short a loss of 386.8 support on real volume.",
+    "portfolio": "HOLD TSM - no liquidity/edge in dead off-hours tape; short below 386.8 at the open."
+  },
+  "timestamp": "2026-07-20T22:13:15.472521+00:00"
+}

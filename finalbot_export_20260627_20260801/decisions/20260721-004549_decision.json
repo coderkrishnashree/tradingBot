@@ -1,0 +1,25 @@
+{
+  "symbol": "EWJ/USDT:USDT",
+  "action": "hold",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.34,
+  "playbook": "none",
+  "forecast": "No tradable path: last 20 15m bars are mostly zero-volume flats around 90.5-90.9; price drifts inside a dead 88.2-95.1 range (ADX 23, BB width 1.9%). Expect illiquid chop until real volume returns.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 91.4,
+    "expires_min": 240,
+    "note": "A reclaim above the intraday pivot on genuine (non-zero) volume would show the tape woke up with buyers and validate the composite long."
+  },
+  "rationale": "EWJ is the thinnest, gappiest name in the book (OI 2,205, ~11 of last 20 bars are 0.0-volume flats). The composite long is the weakest in the scan (+0.178, conf 36.5%, ADX 23, no trend) and it contradicts a clearly bearish near-term Japan backdrop (Nikkei -4%, BOJ hike, semi selloff). Broad-risk beta with no idiosyncratic in-window catalyst; execution risk dominates any edge. HOLD, size 0.",
+  "transcript": {
+    "macro": "Regime risk-off/mixed. EWJ last 90.87. Scan long (+0.18) but the THINNEST, most illiquid name \u2014 15m tape littered with zero-volume candles, OI just 2,205; Japan cash hours make it gappy. Correlated to broad risk (QQQ 0.675), no idiosyncratic catalyst in-window. HOSTILE tradability \u2014 minimal size or avoid.",
+    "sentiment": "No single-name catalyst; scan data stale/illiquid, off-hours prints unreliable. Macro tone NEGATIVE: Nikkei -4% Jul 17 on the global semi selloff (Kioxia -16%, Advantest -7%, SoftBank -9%), BOJ hiked to 1.0% (30-yr high), US-tariff/yen uncertainty. Leans BEARISH/risk-off.",
+    "analyst": "Untradeable: ~11 of last 20 bars are 0.0-volume flats, OI 2,205. Weakest composite long in the book, contradicting a bearish Japan tape. No honest stop-to-target gives R:R>=1.5 once slippage/gap risk on 0.7% ATR is priced. Execution risk dominates. HOLD, size 0, conf 0.34.",
+    "portfolio": "EWJ \u2014 HOLD (0.34): untradeable illiquid tape (zero-volume flats); execution risk dominates the marginal edge."
+  },
+  "timestamp": "2026-07-21T00:45:49.135564+00:00"
+}

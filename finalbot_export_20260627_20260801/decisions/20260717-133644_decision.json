@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "BTC/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.55,
+  "playbook": "none",
+  "forecast": "Choppy basing 62.6k-63.1k near-term; the intraday pop to 63.28k was already sold but oversold RSI (30-25 on 1h/5m), stoch 8.5, %B 0.05 and heavy +0.67 bid imbalance argue against fresh downside from here \u2014 likely a relief bounce toward VWAP/63.5-63.8k before the down-trend can resume, OR a flush through 61.8k support.",
+  "expectancy_note": "Shorting here is negative-EV: account shorts n=35 win 0.49 avg -0.74R, model penalizes aligned (-0.40) + deep vwap_dist (-0.33) + neg structure_bias (bid support). Best expectancy is to wait and SELL the bounce into 63.6k, not chase -2.15% below VWAP into a bid wall.",
+  "rationale": "Macro is short-biased but explicitly 'not from these levels \u2014 size for a squeeze,' and the tape agrees: RSI 34/25, stoch 8.5, %B 0.05, price already 2.15% under VWAP with orderbook imbalance +0.668 (heavy bids) and neutral funding. That is precisely the oversold-chase configuration that has bled this account on aligned trend-shorts. A market short now gets stopped by a routine counter-bounce before support 61.8k pays; a market long fights a down 4h trend in a risk-off regime. Sit flat and let the trigger arm a proper sell-into-strength short.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 63600,
+    "expires_min": 240,
+    "note": "A bounce reclaiming VWAP/~63.6k offers the macro-preferred short-into-strength entry (stop above 65.6k res area / tighter above local high, target back toward 61.8k support) \u2014 far better R:R than chasing the low here."
+  },
+  "transcript": {
+    "macro": "RISK-OFF regime. US futures down hard. BTC ~$62.9k near 21-mo low, ETF outflows, hawkish Fed, dominance 56.3%. Uniformly short scan but deeply oversold \u2014 dominant risk is a mean-reversion SQUEEZE into Friday close. BTC: cleanest macro short but NOT from these levels; funding ~0 (neutral), long/short 1.61, orderbook +0.67 (bid support), RSI 34 \u2014 near-term bounce possible. Support 61.8k, resistance 65.6k.",
+    "sentiment": "BTC NEUTRAL-to-cautious, no clean 48h binary. Popped >$65k Jul 15 on soft CPI + ETF inflows +$191M then bled back to ~$63k. Fear&Greed neutral, thin social volume = consolidation not conviction. Clarity Act is noise. Short is a macro/technical call, not news.",
+    "analyst": "Oversold (RSI 34/25, stoch 8.5, %B 0.05) already -2.15% below VWAP with heavy +0.67 bid support; net structure bias flat/slightly bullish. Chasing a short here is the account's losing pattern (shorts 0.49 WR, -0.74 avg). HOLD; arm short-into-strength on a reclaim of VWAP ~63.6k.",
+    "portfolio": "BTC: HOLD \u2014 don't chase the low into a bid wall; sell strength on a bounce to ~63.6k."
+  },
+  "timestamp": "2026-07-17T13:36:44.210654+00:00"
+}

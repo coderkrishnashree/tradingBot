@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "COIN/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Thin-weekend slow bleed is stalling near 157.1-157.3 with drying volume and 4h RSI 19; expect a chop/bounce toward 159-161 (VWAP) over the next 4-8 bars rather than a clean impulsive break of 152.88.",
+  "expectancy_note": "Short here is a late entry 3.2% below VWAP into oversold (4h RSI 19) + crowded short (L/S 0.60) + squeeze/gap/reg risk; TP1 to 152.88 support is only ~2.8% with high snap-back odds, so R:R and p(win) both poor vs waiting.",
+  "rationale": "COIN is already extended below VWAP and deeply oversold on the 4h with crowd net-short and the highest BTC correlation in the set (0.64) - a weekend BTC-beta echo, not a fresh independent breakdown. Market-shorting into that is exactly the account's #1 loss pattern (late short stopped by the bounce), and CLARITY-Act headline + Monday-open gap risk add binary noise. Best expectancy is to wait: short a weak retest of ~161 VWAP resistance, or a confirmed high-volume loss of 152.88 support - not this stretched mid-air spot.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 152.88,
+    "expires_min": 240,
+    "note": "A decisive break of 152.88 support reactivates the breakdown short with a real measured-move target; until then price is oversold and squeeze-prone."
+  },
+  "transcript": {
+    "macro": "RISK-OFF, short lean, low-conviction due to weekend illiquidity. Sat Jul 18 scan, US cash closed until Monday -> thin/gappy perps, Monday-open gap risk. COIN SHORT (blended -0.267) BUT L/S 0.60 = crowd net SHORT -> shorting joins a crowded short -> snap-back squeeze risk; funding ~0; highest BTC corr in set (0.64) -> driven by BTC/crypto risk appetite over the weekend not equity fundamentals. Macro flags fade/avoid COIN short.",
+    "sentiment": "Broad AI/semiconductor-led tech selloff Fri Jul 17. COIN bearish near-term with a regulatory wildcard: Q2 earnings Jul 30 (outside window); stock -34% YTD, weak fundamentals; CLARITY Act crypto-reg hearing flagged ~Jul 17 could inject volatility this cycle (clearer rules = longer-horizon positive, not a clean <=48h bull); double risk-off exposure (BTC beta + tech rout); CLO Grewal stepping down Jul 31 (minor).",
+    "analyst": "Already extended below VWAP (-3.2%) and deeply oversold on 4h (RSI 19) with crowd net-short (L/S 0.60) and highest BTC corr (0.64) - a weekend BTC-beta echo, not a fresh breakdown. Market-shorting is the account's #1 loss (late short stopped by a bounce); CLARITY-Act headline + Monday gap add binary noise; TP1 to 152.88 only ~2.8% with high snap-back odds. HOLD; reconsider short on a decisive high-volume break below 152.88.",
+    "portfolio": "COIN: HOLD - crowded-short, oversold, squeeze- and headline-prone; wait for the 152.88 break, no trade."
+  },
+  "timestamp": "2026-07-18T16:39:01.149121+00:00"
+}

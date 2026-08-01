@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "SNDK/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.4,
+  "playbook": "none",
+  "forecast": "Price coils 1348-1360 just above 1311 support; over the next few bars it either mean-reverts up toward VWAP (~1413) as the oversold LTF stoch (14.7) unwinds, or loses 1311 and expands lower. Neither offers an honest close-in entry now.",
+  "expectancy_note": "Shorting here is the book's #1 loser: -4.19% below VWAP, stoch 14.7, p_win_learned 0.338 \u2014 a bounce stops any honest short before continuation; no clean level to short AT, so expectancy is negative.",
+  "rationale": "SNDK is fully short-aligned (ADX 52.8, RS -41%) but ALREADY extended 4.2% below VWAP with LTF stoch oversold at 14.7 and price basing above 1311 \u2014 market-shorting now chases a stretched move into a thin, closed-market Sunday tape (2.57% ATR, high wick/gap risk) exactly as prior losers died. The learner's 0.338 p_win on this condition confirms it. No clean entry: resistance is 600pts away, VWAP is above; I wait for either a real breakdown below support or a VWAP retest to short from a level rather than chase.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 1311.52,
+    "expires_min": 240,
+    "note": "Losing the 1311 base confirms fresh downside expansion (not a chase) \u2014 short the retest of broken support with the semi-selloff trend and crowded longs as fuel."
+  },
+  "transcript": {
+    "macro": "Regime MIXED, HOSTILE for longs / SUPPORTIVE for tech-short setups. SEMIS the selloff epicenter. Sunday Jul 19 US cash CLOSED \u2014 thin/gappy, smaller size/wide stops. SNDK L/S 1.69, bias -0.16, RS -41% (worst laggard in set), high semi/QQQ corr 0.80. Full alignment with semi-short thesis; watch 2.57% ATR = big size risk.",
+    "sentiment": "Risk-off tape. SNDK best-performing S&P name of 2026 (+700% YTD) on NAND shortage; Goldman PT $2,200 (long-horizon, ignore as driver). NO earnings until Aug 5 (investor day Aug 13), nothing binary in 48h, but an extended crowded winner hit in a NAND selloff = sharp two-way risk. Bias neutral, high-volatility; respect the -4% VWAP gap.",
+    "analyst": "Fully short-aligned (ADX 52.8, RS -41%) but ALREADY -4.2% below VWAP, LTF stoch oversold 14.7, price basing above 1311 \u2014 market-shorting now chases a stretched move into thin closed-market Sunday tape (2.57% ATR, high wick/gap risk), the book's #1 loser (p_win_learned 0.338). No clean entry: resistance 600pts away, VWAP above. Wait for a real breakdown below 1311.52 or a VWAP retest to short from a level.",
+    "portfolio": "HOLD SNDK \u2014 trend is down but price stretched 4% below VWAP and oversold; short the 1311 break, not the low."
+  },
+  "timestamp": "2026-07-19T18:44:52.648882+00:00"
+}

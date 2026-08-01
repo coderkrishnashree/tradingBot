@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "CRCL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price stays trapped in the 61.5-63.5 coil for the next several bars; only a decisive break of 59.44 support (downside) or reclaim of 63.7 (upside) resolves it. Absent a break, expect chop around 61.5-62.5.",
+  "expectancy_note": "No clean edge: chop regime (ADX 19), fresh short chases a done -17% drop into 1h RSI 11.8; account shorts avg -0.52 PnL. p(win) on any fresh entry ~0.45, R:R poor mid-range with 2.83% ATR. HOLD beats both.",
+  "rationale": "CRCL is regime-blocked chop (ADX 19, confidence 10.7) \u2014 after a -17% news drop it has coiled sideways 61.5-63.5 for ~4.5h, deeply oversold on 1h (RSI 11.8), so a fresh short would chase a completed move into stretched tape, the account's #1 loss pattern (shorts avg -0.52 PnL over 33 trades). The active bearish catalyst (Open USD consortium, Mizuho PT $50, don't buy the dip) plus weakest relative strength (-22%) rules out buying the knife, but crowded longs (L/S 2.80) and mild bid imbalance (+0.13) mean it can squeeze before it breaks. No trigger, poor R:R mid-range with a 2.83% ATR \u2014 stand aside at zero size until the coil resolves.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 59.44,
+    "expires_min": 240,
+    "note": "Losing support 59.44 confirms the downtrend resuming out of the coil and opens a clean continuation short aligned with the fresh bearish catalyst, no longer chasing mid-range."
+  },
+  "transcript": {
+    "macro": "REGIME mixed, risk-off. US cash equities OPEN \u2014 tokenized stock names have real liquidity now. CRCL: STAY OUT (chop, regime-blocked). Last 61.9, regime=chop, confidence 10.7. Extremely crowded longs (L/S 2.80, contrarian-bearish), weakest relative performer (rel str -22%), 1h RSI 11.8 deeply oversold. Too washed out to short fresh, no reason to buy a falling knife.",
+    "sentiment": "CRCL (Circle): BEARISH, active fresh negative catalyst. Open USD 140+ company consortium (BlackRock, Visa, Mastercard, Stripe, Coinbase) called by CoinShares Jul 15 biggest threat yet to USDC; CRCL fell ~17%, USDC supply slipped to ~$73B from ~$80B. Mizuho downgrade Underperform PT $50 Jul 14, Jefferies dont buy the dip. Aug 18 Coinbase revenue-share renewal looms. Earnings ~Aug 10. Momentum/news clearly bearish but already beaten down (oversold bounces).",
+    "analyst": "CRCL chop-regime, regime_blocked, ADX 19, coiling 61.5-63.5 for ~4.5h after -17% news drop, 1h RSI 11.8 deeply oversold. Fresh short chases a completed drop into oversold (account loss pattern, shorts avg -0.52 over n=33). Active bearish catalyst + weakest rel str -22% rules out buying the knife; crowded longs L/S 2.80 can squeeze first. No trigger, poor mid-range R:R. HOLD; reconsider on break of 59.44.",
+    "portfolio": "CRCL: HOLD (0.60) \u2014 regime-blocked chop, bearish catalyst but too oversold to chase; wait for break of 59.44."
+  },
+  "timestamp": "2026-07-16T18:08:43.500275+00:00"
+}

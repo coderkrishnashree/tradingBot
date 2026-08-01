@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "QQQ/USDT:USDT",
+  "size": 0.0,
+  "entry": 718.73,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.28,
+  "playbook": "none",
+  "forecast": "Chop 716-723 near-term; last bar rejected 723.5 into a -0.61 offer wall and closed weak at 718.7, so expect a drift back toward 716 VWAP zone over the next 2-4 bars, no clean directional edge.",
+  "expectancy_note": "p(win) ~0.5 either way; ADX 5 + regime-blocked chop + mid-range price = negative expectancy on any entry; no level to fade and RR<1.5 for both sides.",
+  "rationale": "QQQ is a pure index-proxy in dead chop (ADX 5.1, regime_blocked, price mid-range between 698 support and 734 resistance). The 30m/1h long lean is contradicted by a -0.61 orderbook (heavy offers), stoch 81 extended, and a last candle that rejected 723.5 and gave back the entire rally. Macro is risk-off-leaning/gappy with no CPI/FOMC in 48h; sentiment neutral-until-CPI. No honest RR>=1.5 setup either direction, so flat is the highest-expectancy call; size 0.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 723.6,
+    "expires_min": 240,
+    "note": "Reclaiming the rejection high above the stacked offer wall proves buyers absorbed supply and opens a run toward 734 \u2014 flips this to a long."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF-LEANING/MIXED, defensive. Oil gapped up (US-Iran), yields up. No CPI/FOMC in 48h; gappy two-sided oil tape. Crypto soft-neutral, no tailwind. L/S crowded LONG while price bleeds. Favors shorts/fades; size down. QQQ: index proxy in chop, ADX 5, regime-BLOCKED, bullish divergence noted but heavy orderbook imbalance -0.61 (offers stacked), balanced L/S. Range-bound/indecisive; use as risk-on/off tell.",
+    "sentiment": "Overall NEUTRAL-to-BEARISH tech. QQQ: pure macro/beta vehicle. CPI + hawkish-Fed risk into Jul 29 FOMC is THE driver; Nasdaq volatile with rotation risk out of megacap-AI if inflation runs hot. Neutral until CPI.",
+    "analyst": "Dead chop (ADX 5.1, regime-blocked), price mid-range 698-734. The 30m/1h long lean is contradicted by a -0.61 offer wall, stoch 81, and a last bar that rejected 723.5 and gave back the rally. No honest RR>=1.5 either side. HOLD, size 0. A reclaim above 723.6 (through the offer wall) flips it long toward 734.",
+    "portfolio": "QQQ: HOLD (conf 0.28) \u2014 index-proxy chop, flat is the edge; long only above 723.6."
+  },
+  "timestamp": "2026-07-09T14:32:46.883163+00:00"
+}

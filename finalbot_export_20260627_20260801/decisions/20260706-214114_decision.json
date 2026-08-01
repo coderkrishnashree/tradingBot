@@ -1,0 +1,27 @@
+{
+  "action": "hold",
+  "symbol": "TSM/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "trend",
+  "expectancy_note": "Genuine 4h/1h uptrend (ADX 38, RS +7.9%) but price at upper BB (%b 0.90), 15m flat / 30m short = stalling; entering here into a long-crowded book (L/S 1.93) and thin overnight tokenized-equity liquidity is a chase. Better EV to buy the pullback toward VWAP than the extension.",
+  "rationale": "TSM is a real, non-BTC-beta uptrend (corr 0.15, leading BTC by 7.9%, ADX 38.4, 1h +0.90 / 4h +0.82), so the bias is long, not short. But at 453.76 it sits on the upper Bollinger band with lower-TFs rolling over (15m 0.0, 30m -0.26) and a crowded long book, and US cash is closed so the tape is thin and gap-prone \u2014 a poor spot to pay up. A pullback into the 448 VWAP/consolidation zone offers the same trend with proper R:R and a stop under 445 structure; until then HOLD is the higher-expectancy call. No sub-48h binary (earnings July 16 is outside window), so nothing forces the trade now.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 448.5,
+    "expires_min": 360,
+    "note": "Pullback into VWAP/SMA20 consolidation zone \u2014 where the uptrend can be bought with a stop under 445 support and target 479, restoring R:R that chasing the upper band doesn't offer."
+  },
+  "transcript": {
+    "macro": "Regime RISK-ON (July 6 US record close, VIX 15.97 low/falling), supportive for equity-perp longs hours-to-days. Caveat: tokenized equities in illiquid overnight window until next US cash open \u2014 thin, gap-prone. Positioning: funding ~0, long/short uniformly crowded (TSM L/S 1.93, bias -0.26). TSM +45% YTD, Strong Buy; low BTC corr 0.15, RS +7.9% leading, RSI 60.9 ADX 38 genuine trend. Hard event risk: Q2 earnings July 16 (outside window) \u2014 don't carry size into it.",
+    "sentiment": "TSM bullish tone, no sub-48h binary. May revenue +30% YoY, CEO calls AI demand 'extremely robust', capex near top of $52-56B, Citi expects raised 2026 guidance. Watch Samsung July 7 preliminary as same-sector tell.",
+    "analyst": "Real 4h/1h uptrend (ADX 38.4, RS +7.9%, corr 0.15 own beta) so bias long not short. But at 453.76 price is on upper BB (%b 0.90) with 15m flat / 30m short = stalling, long-crowded book, thin overnight tape \u2014 chasing the extension is poor EV. Disciplined play: wait for pullback to VWAP/SMA20 ~448 for the same trend with proper R:R and stop under 445. HOLD, armed for a pullback long.",
+    "portfolio": "HOLD TSM \u2014 bullish trend but chase at upper band into thin overnight; buy the ~448 pullback instead."
+  },
+  "timestamp": "2026-07-06T21:41:14.360363+00:00"
+}

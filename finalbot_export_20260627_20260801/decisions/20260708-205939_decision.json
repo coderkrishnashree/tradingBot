@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "EWJ/USDT:USDT",
+  "size": 0.0,
+  "entry": 92.26,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.28,
+  "playbook": "none",
+  "forecast": "Price stays pinned near 92.2-92.6 on near-zero volume until Tokyo reopens; the next REAL move is a gap driven by global risk-off vs. yen-intervention tail, direction not tradeable in advance.",
+  "expectancy_note": "No edge: 4h downtrend is the only signal but on frozen/stale prints; RSI 29.6 oversold, shorts already crowded, and zero-volume fills into gap risk make expectancy negative regardless of R:R.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 90.27,
+    "expires_min": 480,
+    "note": "A break of 90.27 support on restored (non-zero) volume confirms the 4h downtrend resuming with real liquidity \u2014 a valid short trigger rather than a stale-data guess."
+  },
+  "rationale": "The recent 15m candles are literally 0.0-2.4 volume with prints frozen \u2014 a stale, untradeable off-hours token with the Japanese cash market closed. The only directional signal is a 4h downtrend (RSI 29.6, already oversold, shorts crowded per L/S 2.1 fading), which does not justify entering a liquidity vacuum where the real move will be a gap on the Tokyo open. Both macro and sentiment flag gap/intervention risk; size 0 because execution risk swamps any technical edge.",
+  "transcript": {
+    "macro": "RISK-OFF regime. EWJ: neutral-to-mild short but LIQUIDITY CAUTION \u2014 Japanese cash market closed (Tokyo overnight); token extremely thin (15m volumes near zero, prints frozen). 4h downtrend tracks global risk-off but with no underlying market open this is gappy and untradeable in size. Low-conviction; avoid unless spread/depth acceptable.",
+    "sentiment": "EWJ neutral near-term, one flag: BOJ decision July 30 (outside window). Nikkei near record highs; yen very weak (~162, 40-yr lows) supports exporters but raises intervention risk \u2014 surprise yen-buying intervention is the tail that could gap this. EWJ nearly untraded off-hours (scan candles ~0 volume) \u2014 price stale/gappy. No 48h catalyst; NEUTRAL to short bias.",
+    "analyst": "EWJ is frozen off-hours: 15m volumes near zero and prints stale, so ADX 80 and the tight range are artifacts, not tradeable structure. The genuine 4h downtrend (RSI 29.6) is already oversold and shorts are crowded, so fading here has no edge and the next real move will be a gap on the Tokyo reopen. HOLD until 90.27 support breaks on real volume.",
+    "portfolio": "EWJ/USDT:USDT \u2014 HOLD (conf 0.28): untradeable stale/thin off-hours token; no-trade until real liquidity returns."
+  },
+  "timestamp": "2026-07-08T20:59:39.674740+00:00"
+}

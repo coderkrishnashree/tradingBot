@@ -1,0 +1,25 @@
+{
+  "symbol": "MSTR/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.4,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "forecast": "Price is grinding along the 94.8-95.2 shelf just above the 91.92 support; over the next few bars it likely chops sideways or drifts to test 91.92, but 15m RSI 14 / stoch 24 argue for a dead-cat bounce toward 96.3 VWAP-area before any clean directional resolution.",
+  "rationale": "MSTR is pure BTC-beta (corr 0.786) with the weakest RS in the book (-16.2%) and only 38.8% composite conviction \u2014 a beta echo, not its own trade. Price just dumped from 96.2 to 94.8 on heavy volume and is now oversold short-term (15m RSI 14, stoch 24) just 3% above 91.92 support, so a fresh market short would chase the exact late-entry pattern that bleeds this account, while a long has no reversal confirmation and faces the active BTC-monetization overhang plus CPI Tue Jul 14. Sit out until the range breaks with conviction.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 91.8,
+    "expires_min": 240,
+    "note": "Losing 91.92 support on volume confirms trend continuation and opens a clean short toward the next leg down without chasing an already-stretched move."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF, hawkish-Fed + oil-shock. Event risk 48-72h: June CPI Tue Jul 14. Tokenized equities closed over weekend \u2192 gap risk. MSTR HOSTILE, pure crypto-beta: BTC-corr 0.786, trades as leveraged BTC. RS -16.2% vs BTC (badly lagging), scan short (-0.318) but LOW conviction (38.8%), ATR 2.0%. Crypto regime soft/rate-sensitive, structure near-neutral (bias -0.08). Size down.",
+    "sentiment": "MSTR BEARISH-to-neutral, crypto sentiment fragile. Fear & Greed extreme-fear/fear (~22-30); BTC ~$62-64K, recovered off early-July lows but shaky. Board approved BTC Monetization Program (selling BTC up to $1.25B), actively SELLING (3,588 BTC Jun 29-Jul 5) \u2014 structural overhang; stock bounced ~29% off late-June low on buyback hopes (fading volume). No hard 48h binary beyond CPI; BTC-sale narrative leans against longs.",
+    "analyst": "MSTR 94.92, ATR 2.01%, composite short but only 38.8% conviction; support 91.92, at VWAP (-0.4%), RSI 47, ADX 31. Price dumped 96.2->94.8 on heavy volume then stabilized on fading volume; 15m RSI 14 / stoch 24 washed out just ~3% above support. Short = chasing a stretched drop where a bounce stops out; long = fighting RS -16%, BTC-sell overhang, risk-off. No R:R>=1.5. HOLD; armed price_below 91.8 for continuation short.",
+    "portfolio": "Hold MSTR \u2014 low-conviction BTC-beta echo, no edge; armed a 91.8 breakdown trigger. Conf 0.40."
+  },
+  "timestamp": "2026-07-12T00:03:00.789136+00:00"
+}

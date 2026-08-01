@@ -1,0 +1,25 @@
+{
+  "action": "hold",
+  "symbol": "EWJ/USDT:USDT",
+  "size": 0.0,
+  "entry": 94.02,
+  "stop_loss": 91.68,
+  "take_profit": 96.65,
+  "confidence": 0.5,
+  "playbook": "none",
+  "expectancy_note": "Short = chasing into 1h RSI 20 / lower-BB / bullish divergence against a +34% YTD Nikkei; long lacks confirmation. Both sub-1.5 R:R with cash-market gap risk; flat is highest expectancy.",
+  "rationale": "EWJ is pinned below the lower Bollinger band (bb_pctb -0.032), 1h RSI 20, stoch 14 with a flagged BULLISH divergence into support 91.68 \u2014 a textbook mean-reversion setup that makes the scanner's momentum-short a low-expectancy chase, while the underlying Japan tape (Nikkei >70k, +34% YTD) is constructive. But there is no reclaim yet and Japan cash is CLOSED (gap risk) with FOMC minutes in 48h, so a long is unconfirmed. Waiting for a VWAP reclaim to confirm the divergence beats forcing either side here; size 0.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 94.77,
+    "expires_min": 240,
+    "note": "Reclaiming VWAP confirms the bullish divergence is resolving up \u2014 flips this from short-bias chop to a long toward 96.65 resistance."
+  },
+  "transcript": {
+    "macro": "Regime: moderate risk-on but fragile. Jul 6 AI bid, Jul 7 futures soft. Rates hawkish; FOMC minutes Jul 8 (48h), CPI Jul 14. Tokenized perp: EWJ tracks Japan cash which is CLOSED \u2192 gap risk on the next Asia open. Nikkei broke 70,000 (+0.73% Jul 6), up ~34% YTD \u2014 the broad Japan tape is constructive, yet the scan has EWJ short (1h RSI 20, oversold) with a flagged BULLISH divergence and mild crowded-long (L/S 1.48). RS roughly flat vs BTC (+1.87). Env: MIXED / lean neutral \u2014 a short would be a counter-trend fade of a strong Nikkei; low conviction.",
+    "sentiment": "Market-wide: violent AI/memory-chip selloff ~2 weeks, risk-off; FOMC minutes Jul 8 the near binary. EWJ (Japan): Nikkei elevated (~69-70k), tech-to-value rotation on AI concerns \u2014 caught in the risk-off tape but less chip-concentrated than Korea (softer beta). Backdrop: BOJ hiked to 1.0% (first hike in ~30 years, mid-June, already priced) \u2014 a hawkish JPY-positive equity headwind. No Japan-specific 48h binary; the scanner flags a bullish divergence on the daily. News is mixed/mildly-bearish for a short \u2014 supported by the global rotation but lacking a fresh Japan catalyst to drive it in 48h.",
+    "analyst": "EWJ is pinned below the lower Bollinger band (bb_pctb -0.032), 1h RSI 20, stoch 14 with a flagged BULLISH divergence into support 91.68 \u2014 a textbook mean-reversion setup that makes the scanner's momentum-short a low-expectancy chase, while the underlying Japan tape (Nikkei >70k, +34% YTD) is constructive. But there's no reclaim yet and Japan cash is CLOSED (gap risk) with FOMC minutes in 48h, so a long is unconfirmed. HOLD, size 0; a VWAP reclaim (~94.77) confirms the divergence and flips this to a long toward 96.65.",
+    "portfolio": "EWJ \u2014 HOLD (0.50): mixed \u2014 momentum-short chases a bullish divergence against a strong Nikkei; arm long above 94.77 VWAP reclaim."
+  },
+  "timestamp": "2026-07-07T10:15:22.182104+00:00"
+}

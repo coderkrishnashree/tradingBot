@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "COIN/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.34,
+  "playbook": "none",
+  "forecast": "Blowoff into 162.5 on a fresh 15m breakout but RSI 96/90/90 and +2.11% above VWAP; expect a stall/fade toward VWAP ~159 rather than clean continuation, and with the cash market closed the tokenized print is thin and pin-prone.",
+  "expectancy_note": "Chasing a breakout at RSI-blowoff into a closed cash market is the account's proven loser (breakout playbook 0/2); a market long here has R:R <1 as a routine VWAP pullback stops it. No honest long entry exists at 162.5.",
+  "rationale": "COIN is a tokenized equity: crypto funding/L-S are weak signals and the operative facts are a Sunday-night closed cash market (thin/gappy) plus earnings Thu 7/30 and a multi-TF RSI blowoff (96/89/90). Price is +2.11% above VWAP on a 6x-volume spike into the 162.38 pivot - extended, not enterable at market without chasing. A controlled pullback to the VWAP zone that holds resets RSI and creates a real long with defined risk against 154 support; a failure back under the breakout keeps me flat into the binary.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 159.0,
+    "expires_min": 240,
+    "note": "A pullback to the VWAP zone that resets the RSI blowoff would offer a clean long entry against 154 support with proper R:R, flipping HOLD to a buy."
+  },
+  "transcript": {
+    "macro": "2026-07-26 Sun: MIXED / risk-off into a heavy event week. Nasdaq -2.1% on the week (chip-led selloff); crypto the relative bright spot, BTC ~$65k pressing $68k resistance on thin summer volume. Sunday night = every tokenized US stock/ETF (AAPL, QQQ, MU, NVDA, MSTR, TSLA, CRCL, MSFT, HOOD, TSM, COIN, EWY) trades with its cash market CLOSED -> thin, gappy, pinned. Calendar: FOMC Wed 7/29; MSFT/META earnings Wed AC; AAPL/AMZN Thu AC. Derivatives book is crowded LONG (contrarian-bearish) with funding near-flat and RSIs stretched. Argues for smaller size and no directional swings held through Wed/Thu. The only two environments that actually support a trade this cycle: CL short (real 24h liquidity, clean supply catalyst) and BTC / BTC-proxy longs on a PULLBACK, not chasing the vertical.",
+    "sentiment": "Heavy earnings gauntlet inside the window: FOMC 7/28-29 (hold at 3.50-3.75% expected) plus MSFT+HOOD earnings Wed 7/29 AC and AAPL+COIN Thu 7/30 AC -> overnight gap risk on those names and index-level on QQQ. CL: bearish (OPEC+ output expansion, IEA/EIA cut 3Q26 Brent to ~$74). MU: very bullish narrative (HBM sold out through 2027) but no imminent catalyst. NVDA: earns ~Aug 26 (no near-term print). EWY: highest idiosyncratic risk (KOSPI -23% in July, 7 circuit breakers, bounced ~40% off lows). MSTR: sentiment deteriorating - Strategy now selling BTC + stock to fund preferred dividend. TSLA: reported 7/22, big EPS miss still digesting. CRCL: earns Aug 5, constructive USDC flow. TSM: reported 7/16 big beat, catalyst passed. BTC: cautious/Fear tone, ETF outflows into the Fed. SOL: best idiosyncratic catalyst (spot SOL ETF NYSE Arca approval 7/24) but pinned by broad crypto / FOMC risk-off (0.85 corr to BTC).",
+    "analyst": "COIN is a tokenized equity: crypto funding/L-S are weak signals and the operative facts are a Sunday-night closed cash market (thin/gappy) plus earnings Thu 7/30 and a multi-TF RSI blowoff (96/89/90). Price is +2.11% above VWAP on a 6x-volume spike into the 162.38 pivot - extended, not enterable at market without chasing. A controlled pullback to the VWAP zone that holds resets RSI and creates a real long with defined risk against 154 support; a failure back under the breakout keeps me flat into the binary.",
+    "portfolio": "HOLD - fresh breakout but RSI blowoff (96/90/90) into closed market + earnings Thu; don't chase."
+  },
+  "timestamp": "2026-07-26T23:11:35.270710+00:00"
+}

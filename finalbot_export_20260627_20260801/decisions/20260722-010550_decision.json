@@ -1,0 +1,26 @@
+{
+  "symbol": "HOOD/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.6,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "forecast": "Coiling 106.3-107.5 on thin overnight volume; likely drifts sideways-to-down toward 105.8-106.0 as the +4.48% VWAP stretch and bearish divergence unwind, unless 107.55 breaks with volume.",
+  "expectancy_note": "Long is a chase (%B 0.97, RSI 71, +4.48% VWAP, bearish divergence, crowded longs 1.87); short lacks confirmation on thin tape. p(win) either <0.5.",
+  "rationale": "HOOD is pinned to the upper Bollinger (%B 0.965) far above VWAP with bearish divergence and crowded longs (L/S 1.87, structure_bias -0.21) \u2014 the exact late-continuation chase this account loses on, and the 5m has flipped short (score -0.49). It is just the COIN/crypto-broker echo (corr 0.75, RS -11.4) on thin US-closed liquidity. No <48h catalyst (earnings Jul 29). Wait for a VWAP-area pullback or a confirmed rejection.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 105.8,
+    "expires_min": 300,
+    "note": "Losing 105.8 confirms the upper-band stretch unwinding \u2014 opens a pullback/short-scalp toward VWAP ~104."
+  },
+  "transcript": {
+    "macro": "Regime cautiously risk-on but event-gated. Nasdaq +1.9% Tue on semi bounce; FOMC Jul 28-29 next week. Crypto soft: BTC ~$66.6k, dominance 56.3%. Funding flat, crowded longs on many names, most RSI 74-89 4h. HARD EVENTS: GOOGL+TSLA earnings after close TODAY, INTC Thu. HOOD tracks COIN/crypto brokers (corr 0.75), equity-hours-sensitive.",
+    "sentiment": "24/7 tokenized perps tracking underlying equities. Hard <=48h binaries: GOOGL tonight, INTC Thu. HOOD reports Jul 29 (outside 48h), bullish crypto/tokenization tailwind, no hard <=48h binary.",
+    "analyst": "Extended long-side setup with bearish divergence and crowded longs on thin overnight tape; no confirmation for a fade. Waiting for a break of 107.55 with volume (continuation) or a pullback toward ~104 VWAP (better long). Size 0.",
+    "portfolio": "HOLD HOOD \u2014 extended COIN-echo, thin tape, no edge; watch 105.8 (fade) / 107.55 (breakout)."
+  },
+  "timestamp": "2026-07-22T01:05:50.817616+00:00"
+}

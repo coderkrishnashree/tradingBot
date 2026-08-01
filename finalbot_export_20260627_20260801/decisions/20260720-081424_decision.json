@@ -1,0 +1,26 @@
+{
+  "symbol": "CL/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.6,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "forecast": "Fresh high-volume liquidation flush closed 81.94 at the low with no reversal candle; expect a probe of 81.3-81.5 or a short-cover bounce first. Only a reclaim of the broken 82.11 level confirms the flush is spent and lets the geopolitical bid push back toward 82.6-83.",
+  "expectancy_note": "p(win) too low to act now: shorting chases 5m RSI 15.4/stoch 14 into the account's proven late-short loss pattern; longing a knife with no confirmation and binary API data ~24h out is negative-EV. A reclaim trigger captures the learner-favored long (73% win) at higher probability.",
+  "rationale": "The scan shows a genuine long-liquidation flush (30k-vol bar, RSI washed to 22.8/15.4) breaking 82.11 and closing on lows -- shorting chases exactly the stretched-tape entry that has bled this account, and funding is slightly negative with a bid-heavy book (+0.32), so bounce risk is real. The bullish geopolitical Hormuz bid argues against pressing shorts, but there is no reversal candle yet and API (7/21) + EIA (7/22) are in-window binaries, so a knife-catch long is also low-expectancy. A reclaim of 82.11 flips this to a high-probability long.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 82.11,
+    "expires_min": 240,
+    "note": "Reclaiming the broken level proves the liquidation flush is exhausted and the geopolitical bid is reasserting -- flips to a long toward 82.6-83."
+  },
+  "transcript": {
+    "macro": "MIXED-to-HOSTILE, defensive tilt (2026-07-20). Risk-off tape from a semiconductor/AI-capex unwind + hawkish Fed (FOMC Jul 29; Dallas Fed Logan floated a hike). PHLX Semi index in a bear market (SOX -10.8%, SMH -13% over 10 sessions); S&P -1.5% / Nasdaq -2.9% on the week. Crowded-long L/S ratios across the equity perps (ORCL 2.59, TSM 2.75, MU 2.17, CRCL 2.25) = contrarian short signal; funding ~flat. GOOGL & TSLA earnings Wed 7/22 after close = binary gap in-window. Tokenized equities are thin/gappy pre-US-open. CL (crude): fresh high-volume downside liquidation flush off a headline-inflated level, two-sided vs a live geopolitical Hormuz bid; API inventories 7/21, EIA 7/22 are in-window binaries. Biggest book risk: being long crowded semi/AI names into a semi bear market with GOOGL/TSLA gaps mid-window. Backdrop argues smaller size, flat-into-print for GOOGL/TSLA, and a preference for fades/shorts where trend and positioning agree.",
+    "sentiment": "Tech in a 3-day selloff, semis leading; TSMC's Jul 16 capex guide-up to $60-64B triggered the chip selloff (~$1.3-1.4T off the semi complex). GOOGL + TSLA both report Wed 7/22 after close = gap risk across QQQ/tech. US-Iran / Strait of Hormuz hostilities live (blockade + 20% cargo fee, 3rd+ day) -> crude bid, risk-off for equities, two-way tail on any de-escalation. Per name: SNDK bullish fundamentals (rev +251% YoY, 78% GM), no near binary (earns Aug 5), trades with the semi tape. GOOGL neutral into a high binary (Wed print). QQQ bearish short-term, 3 down days, binary-heavy week. CRCL bearish (Mizuho Underperform Jul 14, Coinbase/BlackRock Open USD competition; OCC charter already priced). MU mixed (record DRAM/HBM sold out CY2026, but stock -27-29% off highs on the AI-chip reset). ORCL bearish (debt/capex fears, S&P to BBB-, FY26 FCF ~-$23.7B). TSLA neutral into a high binary (Wed print, implied ~7.6% swing; Q2 deliveries beat already priced). CL bullish short-term geopolitical spike, two-way tail. TSM bearish short-term, epicenter of the AI-capex fear.",
+    "analyst": "The scan shows a genuine long-liquidation flush (30k-vol bar, RSI washed to 22.8/15.4) breaking 82.11 and closing on lows -- shorting chases exactly the stretched-tape entry that has bled this account, and funding is slightly negative with a bid-heavy book (+0.32), so bounce risk is real. The bullish geopolitical Hormuz bid argues against pressing shorts, but there is no reversal candle yet and API (7/21) + EIA (7/22) are in-window binaries, so a knife-catch long is also low-expectancy. A reclaim of 82.11 flips this to a high-probability long.\n\nForecast: Fresh high-volume liquidation flush closed 81.94 at the low with no reversal candle; expect a probe of 81.3-81.5 or a short-cover bounce first. Only a reclaim of the broken 82.11 level confirms the flush is spent and lets the geopolitical bid push back toward 82.6-83.\n\nExpectancy: p(win) too low to act now: shorting chases 5m RSI 15.4/stoch 14 into the account's proven late-short loss pattern; longing a knife with no confirmation and binary API data ~24h out is negative-EV. A reclaim trigger captures the learner-favored long (73% win) at higher probability.",
+    "portfolio": "HOLD CL -- fresh high-volume liquidation flush closed on lows with no reversal, but a live Hormuz bid and API/EIA binaries make both sides low-EV; arm a long on a reclaim of 82.11, do not chase the short."
+  },
+  "timestamp": "2026-07-20T08:14:24.319063+00:00"
+}

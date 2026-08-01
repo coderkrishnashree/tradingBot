@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "EWJ/USDT:USDT",
+  "size": 0.0,
+  "entry": 92.62,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.4,
+  "playbook": "none",
+  "forecast": "Dead-volume drift between support 90.27 and VWAP ~94.2; most likely a small oversold bounce or flat grind into CPI. A clean break below 90.27 on real volume opens the next leg to ~88; that break, not the current stretched print, is the entry.",
+  "expectancy_note": "Short bias is correct but entry here is negative expectancy: RSI 26 oversold, -1.68% below VWAP, sitting 2.6% above support on ~0-volume 15m candles = classic chase into a bounce/whipsaw. p(win) on a market short here ~40% with slippage; waiting for the break improves both fill and R:R.",
+  "rationale": "EWJ composite/momentum are short (30m -0.79, 4h -0.60, ADX 49.8) and risk-off + Korea/semi contagion support downside, but price is already oversold (RSI 26.3) and parked just above firm support 90.27 on essentially dead overnight liquidity \u2014 the exact stretched-tape short that this book keeps getting stopped on by the counter-bounce. Major CPI binary Tue 8:30 ET sits inside the hold window and US cash is closed, so a market short now is negative-expectancy. Wait for either a VWAP-area bounce to short into or a volume-backed break of 90.27; hold until then.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 90.27,
+    "expires_min": 240,
+    "note": "Losing support 90.27 on real volume confirms trend continuation and opens ~88; that break is the honest short entry versus chasing the oversold print here."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF (S&P -0.79%, Nasdaq -1.55%) on Iran/Hormuz blockade + semi rout \u2014 direct negative for North-Asia equity ETFs. Event risk inside window: CPI/bank earnings/Warsh Jul 14. US cash closed; EWJ is the thinnest/gappiest of the three (many 0.0-vol 15m candles). Composite SHORT conf 42%, aligned, RSI 26.3 oversold, near support 90.27, -1.68% below VWAP. Short is right side but stretched \u2014 wait for a bounce or size down.",
+    "sentiment": "EWJ bearish tone, no <=48h binary. Yen at multi-decade lows (~\u00a5160-162) despite June BOJ hike to 1.0% + \u00a511.7T intervention; carry trade still on. BOJ meeting Jul 31 (outside window), steady expected. EWJ correlates to global semi selloff (SK Hynix/Samsung hits Japan chip names in top holdings). Tail risk: surprise MOF/BOJ yen intervention can gap EWJ intraday. Net leans bearish/supports the short.",
+    "analyst": "Directionally right short (aligned bearish momentum, risk-off, semi contagion into Japan chip names) but entry is a trap: RSI 26.3 oversold, -1.68% below VWAP, only ~2.6% above support 90.27, on near-zero-volume 15m candles. Shorting here is the account's proven loss pattern (late short into stretched tape, stopped by the bounce), worsened by CPI Jul 14 inside window. HOLD, size 0; reconsider on a volume-backed break below 90.27.",
+    "portfolio": "HOLD EWJ/USDT:USDT \u2014 short thesis right but oversold at support on dead liquidity; wait for a break below 90.27 or a bounce to short into."
+  },
+  "timestamp": "2026-07-13T23:03:30.724344+00:00"
+}

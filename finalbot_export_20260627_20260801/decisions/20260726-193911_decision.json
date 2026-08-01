@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "NVDA/USDT:USDT",
+  "size": 0.0,
+  "entry": 208.5,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Coiling mid 201.9-214.6 range with bb_width squeezed to 1.5%; expect chop 207.9-208.8 until big-tech capex prints/FOMC force a break - 15m bars fade under 208.76 on drying volume.",
+  "expectancy_note": "No edge: mid-range (RSI 49, VWAP flat), honest stop >1xATR kills R:R into resistance; crowded-long + hostile semi tape + FOMC argue against a long, account shorts bleed (47% win). p_win_learned 0.477.",
+  "rationale": "ADX 92 overstates the trend - bb_width 1.52% shows a tight coil, price mid-range at 208.5 between support 201.9 and resistance 214.6 with neutral RSI and fading intraday momentum. Neither a clean buy nor a short (account's losing pattern). FOMC Jul 28-29 and big-tech AI capex prints are the real catalysts; wait for the coil to resolve.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 208.9,
+    "expires_min": 240,
+    "note": "Volume-backed reclaim above 208.76 coil high breaks the squeeze toward 214.56, flips to long."
+  },
+  "transcript": {
+    "macro": "Risk-off/defensive late Jul 2026. Nasdaq -2% wk, semis epicenter of tech wobble. FOMC Jul 28-29 inside horizon = vol event. Book-wide crowded-long = contrarian downside risk. NVDA: rel-strength STANDOUT (+5.9% vs BTC), low crypto corr (0.19), strong multi-TF trend (ADX 92), L/S 1.64 crowded; constructive technically but fighting hostile semi/Nasdaq tape.",
+    "sentiment": "NVDA no earnings this week (reports late Aug) but sensitive to this week's big-tech AI capex prints (MSFT/META/AMZN/AMD). ~$206, +5% YTD. Positives: H20 China license reopening, Kyber-delay denial, Japan Physical AI coalition. Reactive, not a binary.",
+    "analyst": "ADX 92 is a tight coil not a thrust (bb_width 1.5%); price mid-range, RSI neutral, momentum fading under 208.76. No clean buy or short. Real catalysts are FOMC + big-tech capex prints. Hold; long trigger above 208.9.",
+    "portfolio": "HOLD NVDA - mid-range coil, wait for 208.9 breakout ahead of big-tech capex prints/FOMC."
+  },
+  "timestamp": "2026-07-26T19:39:11.490178+00:00"
+}

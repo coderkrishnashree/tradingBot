@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "EWY/USDT:USDT",
+  "size": 0.0,
+  "entry": 166.98,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.35,
+  "playbook": "none",
+  "forecast": "Price recovered off the 164.48 flush into VWAP/167.5 resistance and stalled on a frozen thin bar; likely chops 165.5-167.5 until US cash reopens rather than making a clean directional move now.",
+  "expectancy_note": "p(win) ~0.45 either way; no R:R edge - mid-band %B 0.50, RSI 62, price at VWAP, no structural extreme to fade and no aligned trend to ride. HOLD beats forcing a chase into thin/gappy tape.",
+  "rationale": "Tokenized Korea ETF with US cash CLOSED (thin, gap-prone) - crypto structure is noise but maxed funding +0.22% is mild crowding against longs. Timeframes conflict (4h/5m long, 30m short, 1h flat; composite only 35% conf, aligned=false), RS -11.2% flags it as the weak horse in the chip complex into FOMC Wednesday. The bounce has already run +2.4 into VWAP resistance with no confirmed break, so entering now is chasing with no R:R edge. Wait for the level to declare.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 167.6,
+    "expires_min": 240,
+    "note": "Reclaiming the 167.5 rejection zone confirms the flush recovery is extending and opens a long toward 170; below 165 instead reopens downside and I'd flip bearish."
+  },
+  "transcript": {
+    "macro": "Regime MIXED, risk-on into event week. FOMC Wed Jul 29; chip complex jumpy. Funding broadly rich, crowded longs. Smaller size everywhere; scan @05:00 UTC = US cash closed, prices thin/gap-prone. EWY: chip/export beta (high corr to MU/QQQ), funding maxed +0.22%/8h, RS -11.2%, whippy 15m candles. NEUTRAL, event-week caution.",
+    "sentiment": "EWY: BoK surprised with a HIKE Jul 16 (2.50%->2.75%, signaling more tightening); KOSPI whippy but record bank earnings and SK Hynix flows support it. No fresh dated catalyst in 48h; moves with global semis/Nasdaq. NEUTRAL, mildly constructive medium-term.",
+    "analyst": "Recovered off 164.48 flush into VWAP/167.5 resistance and stalled on a frozen thin bar. Timeframes conflict (4h/5m long, 30m short, 1h flat; conf 35%, aligned=false), RS -11.2% weak horse into FOMC. Bounce already ran +2.4 into resistance, no confirmed break - chasing with no R:R. HOLD. Reconsider on reclaim above 167.6 (long) or loss of 165 (short).",
+    "portfolio": "HOLD - stalled bounce into resistance, conflicted TFs, weak RS, no edge; conf 0.35."
+  },
+  "timestamp": "2026-07-27T05:09:32.799637+00:00"
+}

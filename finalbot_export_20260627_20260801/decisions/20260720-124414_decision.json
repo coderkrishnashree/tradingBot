@@ -1,0 +1,28 @@
+{
+  "symbol": "GOOGL/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.6,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "none",
+  "forecast": "Pre-open dead coil (BB width 1.2%, near-zero volume, bars pinned 348.1-349.6); expect continued micro-chop until 09:30 ET cash open, then a directional resolution of the squeeze on real volume.",
+  "expectancy_note": "No edge now: entries on illusory pre-market prints, ATR just 0.39% so any honest ~1xATR stop is inside the noise; both a squeeze-long and a risk-off short lack a trigger \u2014 negative expectancy vs waiting.",
+  "rationale": "GOOGL is a tokenized equity scanned at 08:38 ET, pre-cash-open and thin/gappy \u2014 macro guidance is no equity entries before 09:30 ET. Price is in a squeezed coil (BB width 1.2%) with dead volume and a weak long composite (39.9%), mildly crowded longs (structure bias -0.218), in a risk-off tape with rel-str -12.7%. HIGH binary earnings 7/22 AH forbids holding naked into that print, so any trade must be a quick intraday post-open resolution \u2014 none is triggered yet. Wait for the cash open to reveal real direction; do not chase a squeeze pre-market.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 341.86,
+    "expires_min": 240,
+    "note": "Losing support 341.86 on cash-open volume confirms the squeeze resolving down in a risk-off tape \u2014 a valid intraday short setup that resolves well before the 7/22 earnings print."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF; AI-capex/semi scare; hawkish Fed; pre-cash-open thin/gappy until 09:30 ET (no pre-open equity entries). GOOGL neutral/headwind: non-semi, less exposed to chip rout (low BTC corr 0.32), low ATR, rel-str -12.7%. One of the safer relative longs (least chip-exposed).",
+    "sentiment": "GOOGL HIGH event risk: earnings Wed July 22 after-hours (est EPS $2.90 / rev $116.9B; Cloud/TPU/Gemini in focus). Overhang from finalized $4.67B EU Android fine and Gemini 3.5 delays. Expect low vol into the print, then a gap. Do NOT hold naked into the close of 7/22.",
+    "analyst": "Pre-open dead coil (BB width 1.2%, near-zero volume, pinned 348-349.6). Weak long composite (39.9%), mildly crowded, risk-off. Entries are on illusory pre-market prints; ATR 0.39% puts any honest stop inside the noise. Earnings 7/22 AH forbids naked hold. HOLD; arm short on loss of 341.86 at the open.",
+    "portfolio": "GOOGL: HOLD (conf 0.60) \u2014 pre-open coil, earnings overhang; arm short below 341.86."
+  },
+  "timestamp": "2026-07-20T12:44:14.224107+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "MSTR/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.4,
+  "playbook": "none",
+  "forecast": "After the violent 96.99->95.22 flush candle, 5m RSI is 26 (oversold) so a dead-cat bounce toward 96.0-96.5 (dump-candle open / VWAP) is the likely next 2-4 bars; only a clean loss of 95.2 opens 89.95 support. Neither edge is present at spot 95.64.",
+  "expectancy_note": "Shorting spot after the flush = chasing into 5m-oversold (account shorts 0.47 win/-0.87 pnl); no long edge with 4h RSI 87. Best EV is wait: fade a bounce to ~96.3 or ride a 95.2 break, not market here.",
+  "rationale": "The scan reads short but the down-move already fired: a 1,938-vol flush candle dumped to 95.22 and 5m RSI is 26, so a market short at 95.64 is a late entry that a routine bounce would stop out \u2014 the exact loss pattern in the learner stats (shorts -0.87 avg). 4h RSI 87 is stretched but that argues for a bounce FIRST, and US equities are closed (thin, Monday-gap risk) so size-down/wait is correct. Want either a bounce to ~96.3 (VWAP/dump-candle open) to short into, or a decisive break of 95.22 to short continuation toward 89.95.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 95.2,
+    "expires_min": 240,
+    "note": "Losing the flush-candle low confirms sellers in control and opens a clean continuation short toward 89.95 support without chasing."
+  },
+  "transcript": {
+    "macro": "Sunday Jul 19 2026 \u2014 US equities CLOSED; tokenized stocks thin/gappy, Monday-gap risk, size DOWN. Backdrop HOSTILE/risk-off; crypto neutral-fragile: BTC ~$64.5k downtrend, dominance high, FOMC Jul 28-29 HOLD tail-risk hike. MSTR: BTC-corr 0.74 (leveraged-BTC + equity double whammy), RSI 87.1 (most extended on 4h), just printed a violent 1,938-vol wick candle; scan reads short.",
+    "sentiment": "MSTR bearish narrative shift \u2014 the company that 'never sold' is now selling BTC (3,588 BTC/~$216M early July) to fund >$1.5B/yr preferred dividend, treasury underwater vs ~$75.5k cost basis, NAV premium compressing. Pure high-beta BTC proxy into a Fear-leaning tape; no scheduled 48h binary but sentiment deteriorating. Overall risk-off crypto (Fear ~34).",
+    "analyst": "Scan reads short but the down-move already fired: a 1,938-vol flush candle dumped to 95.22 and 5m RSI is 26 (oversold), so a market short at 95.64 is a late chase a routine bounce would stop out \u2014 the documented -0.87R short loss pattern. 4h RSI 87 argues for a bounce first. Closed-equity weekend, weak 28.6% composite. HOLD; fade a bounce to ~96.3 or ride a break below 95.2.",
+    "portfolio": "HOLD MSTR \u2014 down-move already fired, 5m oversold; armed continuation short below 95.2."
+  },
+  "timestamp": "2026-07-19T15:13:59.915347+00:00"
+}

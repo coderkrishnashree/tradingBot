@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "TSLA/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price is pinned on support 303.71 with stoch 8 / RSI 32 / %B<0; expect a relief bounce toward 307.8-308.3 (broken support + VWAP) over the next 2-6 bars, OR a clean flush through 303.71. Either extreme is the entry; here in no-man's-land it is not.",
+  "expectancy_note": "Shorting AT support with stoch 8 into hostile pre-FOMC tape = the account's proven loser (shorts 0.44 win, -1.02 avg pnl); a bounce would stop it first. Waiting for retest short (~308) or confirmed break gives R:R>1.5; HOLD has higher expectancy than a chased entry.",
+  "rationale": "TSLA is the desk's weakest horse (RS -24.99%) with trapped longs (L/S 2.917) \u2014 direction bias is genuinely SHORT, but price sits exactly on support 303.71 while stoch 8, RSI 32, %B -0.05 and -2.35% below VWAP scream oversold, and FOMC is inside 48h. A market short now buys the bottom of the move; the honest stop would be far and the likely next candle is a squeeze. Wait for the bounce to fade near 308 (best R:R short) or a decisive break of 303.71 with volume. No size until price shows its hand.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 307.9,
+    "expires_min": 240,
+    "note": "A bounce back to broken support/VWAP ~307.9 is the low-risk short retest entry (stop above 309.5, target back to 303.7 then lower) \u2014 far better R:R than chasing at support; re-debate the moment it prints."
+  },
+  "transcript": {
+    "macro": "Cycle 2026-07-28 MIXED-to-HOSTILE for fresh risk; FOMC Wed 07/29 inside 48h; semi-led risk-off tape. TSLA already reported (07/22) so no earnings landmine. Scan reads SHORT (blended -0.273 aligned; 15m/30m/1h down; RSI 32; at support 303.71; RS -24.99% vs BTC = clear laggard). Positioning: L/S 2.917 crowded-long + funding -0.171% => trapped longs support continuation shorts, but oversold at support = squeeze hazard. Environment supports SHORT direction; standard-to-smaller size; manage oversold-bounce risk.",
+    "sentiment": "TSLA catalyst just PASSED: Q2 (07/22) revenue beat $28.24B +26% but BIG profit miss (adj EPS $0.33 vs ~$0.51); op margin collapsed to 1.4%; stock -15% on 07/24. Record deliveries (480,126) already priced. No fresh binary next 48h; short-term is momentum/mean-reversion off the 07/24 gap plus Robotaxi/Cybercab chatter. Valuation stretched (P/E >350). Tone negative/heavy.",
+    "analyst": "Direction bias genuinely SHORT (weakest horse RS -24.99%, trapped longs L/S 2.917), but price sits exactly on support 303.71 with stoch 8 / RSI 32 / %B -0.05 / -2.35% below VWAP = deeply oversold into pre-FOMC tape. A market short now buys the bottom; honest stop is far and next candle likely a squeeze \u2014 the account's proven loser (shorts 0.44 win, -1.02 avg pnl). HOLD; arm retest short near 307.9 (stop >309.5) or a confirmed break of 303.71.",
+    "portfolio": "TSLA: HOLD (conf 0.60) \u2014 short bias but oversold on support; wait for retest ~308 or clean break of 303.71."
+  },
+  "timestamp": "2026-07-28T04:34:12.010450+00:00"
+}

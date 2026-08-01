@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "BTC/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Bounce continuing near-term: last 3 bars carved higher lows off 62073 and closed at bar-high 62729; expect a relief push toward VWAP / broken support 63.4-64.0k over next 2-6 bars before sellers reload. Fresh downside only opens on a decisive 61272 support break.",
+  "expectancy_note": "Shorting 62.7k = chasing into 1h/4h RSI 30, lower-BB, -1.43% VWAP with an active bounce (5m RSI 73.5) \u2014 the account's exact late-short loss pattern (short WR 46%, trend PnL -2.51). The edge is a retest-short into 63.4k+ or a 61.2k breakdown, neither triggered yet.",
+  "rationale": "Composite is muddy (48% conf, 15m flat) and price is oversold and bouncing off support 61272 into VWAP, so a market short now risks the routine counter-bounce hitting any honest stop first. Crowded-short/oversold with de-escalation squeeze risk argues against pressing the short here. I want either a bounce into 63.4-64.0k to short with a tight stop above VWAP, or a clean break below 61272 to short momentum \u2014 until then flat is the highest-expectancy stance.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 61272,
+    "expires_min": 240,
+    "note": "Losing hard support 61272 confirms the down-trend resumes and opens the next leg toward ~60k \u2014 trigger for a momentum short with stop back above the level."
+  },
+  "transcript": {
+    "macro": "Regime HOSTILE/risk-off. US-Iran Hormuz escalation -> war-inflation trade: WTI ~$74, DXY firm, Fed hawkish (~61% Sept HIKE odds). BTC crashed to ~$58-62k on record ETF outflows (~$4.5B June) + MSTR selling; dominance/risk appetite weak. Environment favors shorts/defense. Cross-book: crowded-short into oversold, de-escalation squeeze risk. BTC lean: supportive-SHORT, aligned down, 1h RSI 30, orderbook -0.36, L/S 1.45; near support 61.3k, expect chop.",
+    "sentiment": "Dominant driver: US-Iran Hormuz escalation -> risk-off. BTC BEARISH/neutral ~$62.7k, faded weekend risk-off; no crypto-specific 48h catalyst. Watch Fed (July 28-29).",
+    "analyst": "Composite muddy (48% conf, 15m flat). Price oversold (1h/4h RSI 30) bouncing off support 61272 (3 higher lows, 5m RSI 73.5). Market short = chasing into the bounce = book's loss pattern. Wait for a retest-short into 63.4-64.0k or a clean break below 61272. Flat now.",
+    "portfolio": "BTC: HOLD (conf 0.50) \u2014 oversold bounce off support; armed to short below 61272."
+  },
+  "timestamp": "2026-07-13T15:04:04.502931+00:00"
+}

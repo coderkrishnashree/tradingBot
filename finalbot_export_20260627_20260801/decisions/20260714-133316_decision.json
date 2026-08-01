@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "META/USDT:USDT",
+  "size": 0.0,
+  "entry": 651.6,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.58,
+  "playbook": "none",
+  "forecast": "Bounce underway off 645 oversold low; last 15m bar is the biggest up-candle in the window (647.4 open to 653.4 high, 651.6 close on 408 vol). Expect a push toward the 654-661 VWAP/resistance retest over the next 2-6 bars, where the 30m/1h downtrend can resume - that retest is the clean short, not here.",
+  "expectancy_note": "Shorting now (RSI 28, %B 0.09, fresh reversal bar) is the account's #1 loser: late short into stretched tape, stopped by the bounce (shorts 27 trades, 44% win, -1.83 avg). Waiting for the 658-661 retest gives ~1.5R+ vs the 1h down-structure; a market short here is <1R after the bounce runs.",
+  "rationale": "META is the cleanest short of the equity names on positioning (structure near-neutral, not crowded) and rel-strength leader, but it is mid-bounce off oversold lows on the heaviest up-volume bar of the session - exactly where honest short stops get run before the trend resumes. Multi-TF (30m/1h) is down and macro is risk-off, so the short thesis is intact; I just need the bounce to complete into VWAP/resistance (~658-661) before entering. Risk-off Hormuz headline gap and thin equity tape argue against chasing a long. HOLD and let the retest come to me.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 658.0,
+    "expires_min": 240,
+    "note": "Reaching 658 puts price back at VWAP/broken-support-turned-resistance where the 30m/1h downtrend can resume - arm the short there; a decisive reclaim above 662 instead invalidates the short."
+  },
+  "transcript": {
+    "macro": "Cycle 2026-07-14 ~13:29 UTC. Regime MIXED, leaning cautious/risk-off with an intraday crypto bounce. Soft June CPI (3.5% vs 3.8%) cut July FOMC hike odds to ~17%. Strait of Hormuz blockade / Iran escalation spiked oil (Brent ~+5% to ~$78), pressuring equities; gappy headline tape next 24-48h. US equities soft Mon (S&P -0.79%, Nasdaq -1.55%), semis weakest sector. Crypto Extreme Fear (F&G 22), BTC dominance ~56%. Broad crowded-long positioning -> favors shorts/fades, smaller size. META: 651.6 short bias; structure near-neutral (bias -0.079, L/S 1.13, OB -0.13, NOT crowded); RS leader vs BTC (+10.0%), low beta (corr 0.38); 30m/1h down, 4h RSI 28 oversold.",
+    "sentiment": "Market-wide: US-Iran/Hormuz escalation dominant - risk-off, oil +5%, chip-led selloff; two-way headline gap risk 24-48h. No FOMC/CPI in window. META: Neutral-to-cautious. Earnings July 29 (OUT of window). Recent AI-cloud/'Meta Compute' + Iris-chip headlines bullish multi-week, but long-horizon. Near-term rides risk-off tape; neutral to slightly short.",
+    "analyst": "ATR% 1.26 (~8.2 pts). Price bouncing off oversold lows on the strongest volume bar in the window. Shorting into this fresh reversal candle at RSI 28 / %B 0.09 is the textbook late-short trap the learner penalizes. Clean short is the VWAP (~660-661) / 654-655 resistance retest. HOLD with an armed short-on-retest trigger at 658.",
+    "portfolio": "META: HOLD (conf 0.58) - short thesis intact but mid-bounce; arm short on 658 retest."
+  },
+  "timestamp": "2026-07-14T13:33:16.325095+00:00"
+}

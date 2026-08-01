@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "EWY/USDT:USDT",
+  "size": 0.0,
+  "entry": 169.86,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.31,
+  "playbook": "none",
+  "forecast": "Thin closed-market tape: last 3 bars gapped 168.2->169.9 on a volume spike then died to 0.4-vol doji at the high with 5m RSI 94.8. Expect a fade/mean-revert back toward the 168.0-168.2 base over the next few bars, then chop; Monday reopen carries two-sided gap risk.",
+  "expectancy_note": "p(win) ~0.4 chasing a vertical +1.3% spike into stoch 99 / 5m RSI 94.8 on empty Sunday volume; a routine pullback hits any honest stop first. HOLD beats both a chase-long and a level-less short.",
+  "rationale": "EWY is a tokenized equity with US markets CLOSED \u2014 the 0.4-volume final bar confirms thin/gappy tape and the scan's 38.8 confidence is the group's weakest. Price already ran vertically into cooked LTF momentum (5m RSI 94.8, stoch 99.3) with mildly bearish structure_bias (-0.083) and bearish headlines (KOSPI -25%, FSC deposit-rule change Jul 31), so buying the top is the account's classic late-continuation loss pattern. No structural level nearby to fade a short, so stand aside.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 170.5,
+    "expires_min": 240,
+    "note": "A pullback that holds the 168 base and then reclaims 170.5 on real (non-zero) volume would confirm the dip-buy has genuine follow-through rather than a thin-air spike, making a small long honest."
+  },
+  "transcript": {
+    "macro": "REGIME: NEUTRAL tilting RISK-OFF. VIX ~18.6. US/ETF market CLOSED (Sunday) \u2014 perps thin/gappy, Monday gap risk. EWY -8.7% relative-strength laggard. Scan: EWY composite conf 29.7, signal LONG, tradeable=True.",
+    "sentiment": "EWY: BEARISH tilt, HIGH VOLATILITY \u2014 KOSPI down ~25% from June peak ($1T wipeout), Samsung/SK Hynix each -30%; FSC tightens leveraged-ETF deposit rules effective Jul 31. Record EWY inflows show dip-buying but tape is a knife. No single <=48h binary, but headline-driven gap risk is the largest of the group.",
+    "analyst": "CONFLICT: scan LONG (dip-buy) vs bearish news + knife-catch. Price already ran vertically +1.3% into cooked LTF RSI 94.8 / stoch 99 on a 0.4-vol closed-market doji \u2014 chasing the top is the classic late-continuation loss. No level to fade a short. Stand aside.",
+    "portfolio": "HOLD (0.31) \u2014 stand aside; thin-air spike into bearish knife, largest gap risk of the group."
+  },
+  "timestamp": "2026-07-26T22:39:38.908977+00:00"
+}

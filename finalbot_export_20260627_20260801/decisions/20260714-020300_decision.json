@@ -1,0 +1,22 @@
+{
+  "action": "short",
+  "symbol": "EWY/USDT:USDT",
+  "size": 2.5,
+  "entry": 168.4,
+  "stop_loss": 170.9,
+  "take_profit": 163.5,
+  "take_profit_1": 163.5,
+  "take_profit_2": 160.0,
+  "confidence": 0.58,
+  "playbook": "trend",
+  "forecast": "Oversold bounce topped at 170.6 and is fading; expect a dead-cat retest of the 168.4-169 broken-support/VWAP zone within 1-4 bars, then rejection and roll back down toward the 163.36 support flush low, extending to ~160 if 163.36 breaks.",
+  "expectancy_note": "p(win)~0.58, R:R ~1.96:1 to TP1 (4.9 reward / 2.5 risk). Limit-at-retest beats market-shorting 166.44 mid-range (only ~0.7:1 to support) and beats chasing into the freshly-held 163.36 support.",
+  "rationale": "EWY is the cleanest bear: 4h RSI 15.7, ADX 68, RS -16% vs BTC, structure bias -0.365 with crowded longs (L/S 1.48, funding punished), direct KOSPI/SK Hynix memory-crash read-through. But price is mid-range at 166.44 after a violent 4-pt bounce off 163.36 support, so a market short has poor R:R and sits in chop. I short the retest of the 168.4-169 broken-support/VWAP zone the fade should reach, stop 170.9 above the 170.6 swing (~0.7xATR-4h, honest but tight), targeting the 163.36 flush low then 160. Reduced 2.5% size given deep oversold + CPI <24h squeeze risk.",
+  "transcript": {
+    "macro": "RISK-OFF. US-Iran/Hormuz, DXY broke 100, Fed hike tail, CPI+bank earnings <48h. EWY lean SHORT, BEST risk/reward of the five: composite -0.27, structure bias -0.365 (most bearish; funding +0.0005 punished -0.52, L/S 1.48), direct read-through from SK Hynix/Samsung memory crash that sent KOSPI -9% with a halt, RS -16% vs BTC; 4h RSI 15.7 oversold, ATR 2.05%.",
+    "sentiment": "Risk-OFF; Hormuz; June CPI Tue Jul 14 AM ET (~+3.8%), hawkish Fed. EWY most bearish/highest momentum: KOSPI hit circuit breaker Jul 13, SK Hynix -14%, Samsung -10% on chip rout + Hormuz; RS -16%, RSI 15.7; even Samsung's strong earnings couldn't hold the tape. News argues STRONGLY WITH a short; watch for a violent oversold bounce if CPI cools.",
+    "analyst": "Strongest bearish confluence of the group (4h RSI 15.7, ADX 68, structure -0.365, RS -16%, KOSPI/SK Hynix rout). But 15m candles: flushed to 163.36 support with an 11.8k-vol hammer, sprang to 170.60, then rolled over to 166.44 near bar low \u2014 a failed mid-range bounce. Market-shorting 166.44 is a trap (~0.7:1 to just-held support). Disciplined: LIMIT short 168.4 into the broken-support/VWAP retest, stop 170.9 above the 170.6 swing, ~1.96:1 to 163.5 then 160. 2.5% size given deep oversold + CPI <24h squeeze risk.",
+    "portfolio": "SHORT EWY \u2014 limit 168.4, stop 170.9, TP 163.5/160; sell the retest of broken 168-169 zone, cleanest short of the five, small size into CPI."
+  },
+  "timestamp": "2026-07-14T02:03:00.270926+00:00"
+}

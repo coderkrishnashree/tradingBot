@@ -1,0 +1,23 @@
+{
+  "action": "hold",
+  "symbol": "XAUT/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.55,
+  "rationale": "Composite is long and macro is near-term supportive, but the tape just got rejected at 4074, offers are stacked overhead (orderbook -0.416), the book is dangerously crowded-long (LSR 2.775 = squeeze risk), and price is coiling flat at VWAP with no clean pullback to buy \u2014 so there is no honest R:R>=1.5 entry yet. Account learner stats penalize precisely this aligned-crowded-long-high-ADX setup. HOLD and wait for either a momentum dip toward 4040 to reload the long or a loss of 4042 to confirm a long-squeeze and flip short.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 4042,
+    "expires_min": 240,
+    "note": "Losing the coil base / 4042 swing low confirms the 4074 spike failed and crowded longs are unwinding \u2014 flips the read toward a short targeting 4020."
+  },
+  "transcript": {
+    "macro": "Regime RISK-ON but jumpy; softer CPI supports risk near-term, cycle rates not a tailwind (~60% Oct hike odds), vol elevated. Gold ~$4,055 holding >$4,000 on weaker USD post-CPI + Middle East safe-haven bid; near-term supportive but crowded-long book (structure_bias -0.433, LSR 2.775, orderbook -0.416) = squeeze risk. Composite long (conf 62.9%, ADX 43.8) but RS -6.64% vs BTC. Structural headwind = rising real yields into year-end.",
+    "sentiment": "Overall risk-on rebound on softer June CPI, but oil/Iran (Hormuz, Brent +14%/5d) pricing a HIKE not cut into Sept (~70%). Gold NEUTRAL-to-slightly-negative near term: ~$4,055-4,075 chopping, off Jan record, mid July range; counterintuitively oil spike pressures metals via rate-hike bets. No Tether-Gold token issue (clean spot proxy). No scheduled binary <=48h.",
+    "analyst": "Price coils 4052-4058 at VWAP on drying volume after 4074 rejection; RSI 64.5, ADX 43.8, offers stacked overhead. No clean entry: long chases stacked offers at most crowded-long extreme; short lacks confirmation into supportive macro. Learner weights (structure_bias -0.60, adx -0.47, aligned -0.34) show this exact setup has been the account's loser. HOLD, arm dip-buy ~4040 / short flip on loss of 4042.",
+    "portfolio": "XAUT: HOLD (conf 0.55) \u2014 no honest R:R at a crowded-long extreme; wait for dip or a 4042 break."
+  },
+  "timestamp": "2026-07-15T22:34:35.652333+00:00"
+}

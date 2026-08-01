@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "ORCL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.34,
+  "playbook": "none",
+  "forecast": "Thin overnight chop between 141.4 and 142.5 continues near the lower Bollinger band; likely a grind toward the 137.94 support over coming bars, but no clean short entry here - either a bounce to VWAP ~143.3 or a break of 137.94 is needed first.",
+  "expectancy_note": "Short into %B 0.168 near lower band with support only ~2.5% away gives R:R <1 (stop ~1.5xATR=3.9pt vs ~3.6pt to support); wait for a better entry - no edge now.",
+  "rationale": "Bearish bias is valid (worst laggard -20.45% RS, sector risk-off, retail stubbornly net-long into weakness), but ADX 23.6 is borderline chop and price already sits near the lower Bollinger band, so a fresh short here chases into nearby support 137.94 with sub-1.5 R:R. Cash market closed and sub-10-unit bars mean gappy, illiquid tape - no reason to force a size-down entry with poor geometry. Best expectancy is to wait: a break below 137.94 opens a clean measured-move short; until then, hold.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 137.94,
+    "expires_min": 240,
+    "note": "Losing 137.94 support confirms the sector-driven breakdown and opens a proper short with a measured move toward the next leg, stop back above the broken level."
+  },
+  "transcript": {
+    "macro": "Regime MIXED, risk-off within AI/tech. US equity cash market CLOSED - tokenized ORCL perp THIN (most 15m bars <10 units, OI 9,397), overnight gaps, SIZE DOWN. Oracle is squarely an AI-infrastructure/cloud (OCI) name, IN THE CROSSHAIRS of the DeepSeek/AI-capex-doubt selloff (SOX -5.5%). Scan: relative_strength -20.45% vs BTC (worst laggard), price 141.5 below VWAP (-1.24%), down-trend 30m/1h/4h, composite SHORT ~31% conf. Funding 0, order-book ~balanced (-0.011), long/short ratio 1.939 -> structure_bias -0.285 (retail net-long a bleeding sector-pressured name = contrarian-bearish). No earnings near-term (Sep 14). Crypto/equity correlation LOW.",
+    "sentiment": "ORCL has the MOST active fresh negative headline flow. Earnings passed (record Q4 Jun 10: rev +21% $19.2B, OCI +93%, $638B RPO incl $300B/5yr OpenAI deal). Under pressure this week on OpenAI risk: shares ~-3.6% to ~$138 on customer-concentration concerns; reports OpenAI DELAYING IPO to 2027 frustrate investors worried about Oracle's debt-funded negative-FCF AI capex (~$70B FY27). Analysts split (Buy, PT ~$155; Piper Sandler OCI upside Jul 7). Ex-div Jul 10 ($0.50) minor. Net: near-term sentiment leans BEARISH/risk-off, aligns with scan short bias; no hard <=48h binary.",
+    "analyst": "Bearish thesis real (worst laggard, sector risk-off, retail net-long into weakness) but ADX 23.6 is borderline chop and price sits near the lower Bollinger band (%B 0.168). Shorting here chases into nearby support 137.94 with R:R <1 (stop ~1.5xATR=3.9pt vs ~3.6pt to support). Thin, gappy, cash-closed tape. HOLD; a break below 137.94 opens a clean measured-move short.",
+    "portfolio": "ORCL: HOLD (conf 0.34) - valid short bias but price near lower band with poor R:R into support; armed breakdown short below 137.94."
+  },
+  "timestamp": "2026-07-08T05:59:41.697524+00:00"
+}

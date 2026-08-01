@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "CL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Post-spike digestion: price stalled at 74.5-74.8 under 75.20 spike-high and 76.13 resistance after a vertical +4% move; over next 2-6 bars expect a mean-revert pullback toward VWAP/spike-base 73.5-73.8 before the geopolitical bid resumes. A dip into 73.6-73.8 is the high-expectancy long entry; a failure to hold there opens 72.x.",
+  "expectancy_note": "Long-at-market here is p(win)~0.4: 4h RSI 78 / stoch 85, %B 0.89, +1.99% above VWAP, crowd 3.96:1 long \u2014 a routine counter-bounce/de-escalation hits any honest stop first (my book's #1 loss = chasing extended trend, -2.51 avg). Waiting for the 73.6-73.8 pullback flips R:R to ~2.5:1 with a tight stop under the base.",
+  "rationale": "The CL long thesis is macro-aligned and live (Hormuz/US-Iran), but price is a vertical spike into 4h overbought (RSI 78, stoch 85), pinned under 75.20/76.13 resistance, and the crowd is 3.96:1 long \u2014 the textbook chase the shared notes and my loss history warn against. Lower-TF momentum (1h flat, 5m flat) is already fading, so I expect a mean-revert dip toward VWAP/spike-base 73.6-73.8 that offers a far better long entry with a tight stop. HOLD now, arm the pullback: this is 'not yet', not 'no'.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 73.8,
+    "expires_min": 240,
+    "note": "Pullback into the spike-base/VWAP zone (73.6-73.8) is where the geopolitical long becomes high-expectancy \u2014 re-debate to enter long with a stop under 73.2 and target the 75.2/76.1 highs."
+  },
+  "transcript": {
+    "macro": "RISK-OFF tape (2026-07-13 15:28 UTC) driven by US\u2013Iran strikes + Tehran declaring Strait of Hormuz closed (~20% of global oil flow). CL is THE macro trade. June CPI TOMORROW (July 14), crude inventories + OPEC+ this week = high vol. CL: supports LONG (aligned) but 4h RSI 78 / stoch 85 EXTENDED; enter on pullbacks not the vertical. Biggest reversal risk = a Hormuz de-escalation headline.",
+    "sentiment": "CL: BULLISH (active catalyst). WTI +~4% above $74 on US\u2013Iran strikes + Hormuz 'closed until further notice.' OPEC+ + CPI + crude inventories all land this week \u2014 high volatility. Fresh shock actively moving price -> near-term news argues long. Caveat: RSI ~78 (4h) stretched; any de-escalation unwinds the risk premium fast.",
+    "analyst": "Long thesis is macro-aligned and live, but price is a vertical +4% spike into 4h overbought (RSI 78, stoch 85), %B 0.89, +1.99% above VWAP, pinned under 75.20/76.13 resistance, crowd 3.96:1 long \u2014 textbook chase (account's #1 loser, -2.51 avg). Lower-TF momentum fading. Expect a mean-revert dip to VWAP/spike-base 73.6-73.8 = the high-expectancy long. HOLD now; arm the pullback long. 'Not yet', not 'no.'",
+    "portfolio": "HOLD CL \u2014 bullish but overbought; wait to buy the pullback into 73.6-73.8, don't chase the vertical."
+  },
+  "timestamp": "2026-07-13T15:34:40.377199+00:00"
+}

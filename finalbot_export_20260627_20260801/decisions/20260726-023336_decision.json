@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "MSFT/USDT:USDT",
+  "size": 0.0,
+  "entry": 384.78,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.62,
+  "playbook": "none",
+  "forecast": "Blow-off 15m spike to 385.0 is stalling (last bar rejected to 384.78 on heavy volume); expect chop/fade back toward VWAP ~383.2 over the next few bars, but no clean directional edge until the underlying reopens.",
+  "expectancy_note": "No side clears 1.5R: long chases 1h RSI 93.6 into a crowded-long, closed-underlying gap before a Wed earnings+FOMC binary; short fades a live spike with no exhaustion or trend (ADX 24.9). Flat is highest expectancy.",
+  "rationale": "MSFT wrapper is badly overbought (1h RSI 93.6, 30m 87.5) after a vertical volume spike to 385, while the US cash market is closed (gappy) and the book is lopsided long (structure_bias -0.19) into a HARD binary - Q4 earnings AND FOMC both July 29. Price sits right on VWAP with ADX 24.9 (no trend) and a fading final bar, so there is no honest 1.5R entry either direction. Standing aside preserves capital ahead of a gap event; size 0.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 383.2,
+    "expires_min": 240,
+    "note": "Losing the pre-spike shelf/VWAP confirms the blow-off failed and opens a short toward 378 support; until then the spike is intact and fading is premature."
+  },
+  "transcript": {
+    "macro": "Weekend RISK-OFF snapshot; US cash market closed Fri 07/24 so tokenized wrapper is gappy. S&P -1.21% to 7,408, Nasdaq -2.15% Wed on AI-capex worries + oil spike. Fed held 4.25-4.50%, pricing one 25bp HIKE later 2026; USD firm. MSFT positioning: funding 0, OI ~4.5k, long/short 1.92 (lopsided long), orderbook +0.29, structure_bias -0.19 (crowded long = contrarian risk). Low BTC corr 0.22 = equity play; 1h RSI 93.6 / 30m 87.5 badly overbought; rel strength -3.8%. Verdict: MSFT = stand-aside / very small.",
+    "sentiment": "Q4 FY2026 earnings AFTER CLOSE Wed July 29, 2026 - HARD binary inside window. Guided revenue $86.7B-$87.8B (+13-15%); Azure/AI focus; results tend to gap the stock several %. SAME DAY as FOMC (July 29 2pm ET) - double catalyst. Sentiment neutral into the print; binary EARNINGS risk strongly argues for reduced size or being FLAT over the print; off-hours token pricing gaps hard.",
+    "analyst": "Wrapper badly overbought (1h RSI 93.6) after a vertical volume spike to 385 with a fading final bar; US cash market closed; book lopsided long into a Q4-earnings + FOMC double binary July 29. Price glued to VWAP, ADX 24.9 (no trend) - no honest 1.5R either side. HOLD, size 0. Reconsider short on a break below 383.2.",
+    "portfolio": "MSFT/USDT:USDT -> HOLD (conf 0.62): overbought spike, closed underlying, earnings+FOMC binary July 29; stand aside."
+  },
+  "timestamp": "2026-07-26T02:33:36.673577+00:00"
+}

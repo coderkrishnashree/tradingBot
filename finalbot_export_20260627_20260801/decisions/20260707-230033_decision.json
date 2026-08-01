@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "SNDK/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Coiling 1605-1616 after a violent 1555->1654 dead-cat bounce that is now rolling over on drying volume; next few bars likely chop the 1605-1620 zone, then resolve \u2014 a clean break under 1605 opens 1567/1555, while failure to break holds a squeeze-back toward 1650.",
+  "expectancy_note": "Short bias is real (OB -0.63, crowded longs, RS -19.6%) but entering mid-coil at 1609 after 4h RSI 19.8 + a fresh +6.4% snapback is a chase; p(win) on high-ADX trend shorts is negative in account history (-2.9R). Better expectancy waiting for the 1605 breakdown confirmation.",
+  "rationale": "SNDK is the most crash- and squeeze-prone name here: 4h RSI 19.8, ATR% 4.71, and it just printed a 1555->1654 (+6.4%) bounce that is only now fading. Structure (heavy offer, 1.42 long/short crowd, RS -19.6%) favors the short, but entering at 1609 mid-range gives no honest level for a stop that survives noise without exceeding ~1.5xATR, and the learner shows high-ADX trend shorts bleeding. I want the 1605 coil low to break (confirming the bounce failed) before shorting into the 1567/1555 air pocket; until then HOLD is the higher-expectancy call.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 1605,
+    "expires_min": 240,
+    "note": "Losing the 1605 coil low confirms the dead-cat bounce failed and reopens the 1567/1555 gap \u2014 trigger to short continuation with a stop back above ~1650."
+  },
+  "transcript": {
+    "macro": "2026-07-07 RISK-OFF, semi rout (Nasdaq -1.16%). Samsung miss + DeepSeek AI-chip reports drove the memory sell-off. SNDK deepest laggard: RS vs BTC -19.6%, 4h RSI 19.8, ADX 61.5. Part of MU/SNDK/EWY ONE correlated short cluster. Funding ~flat, L/S 1.42, orderbook -0.63, structure_bias -0.38. FOMC minutes Wed Jul 8 only event in window; no SNDK earnings (fiscal Q4 August). Regime: HOSTILE to longs / SUPPORTIVE for shorts, but most stretched name.",
+    "sentiment": "SNDK: Highest-beta name (+635-858% YTD). Jul 7 dropped ~7-11% as Samsung-led memory rout hit storage/NAND hardest. No 48h binary. Only positives are long-horizon (Goldman PT to $2,200, Kioxia NAND milestone) \u2014 not tradeable. Near-term news unambiguously negative/momentum-down, supports short, but MOST crash/mean-reversion-prone \u2014 an 858% mover down 15%+ can snap back double digits intraday. Widest whipsaw risk.",
+    "analyst": "Structure favors short (heavy offer, crowded longs, RS -19.6%) but 4h RSI 19.8 is textbook squeeze-danger and a fresh 1555->1654 (+6.4%) bounce just printed and is only now rolling over into a tight 1605-1616 coil on dead volume. Entry at 1609 is mid-air with no honest stop under ~1.5xATR; learner shows high-ADX shorts bleeding. HOLD; short trigger armed on loss of 1605.",
+    "portfolio": "SNDK: HOLD (0.50 conf) \u2014 no-trade, short-continuation armed below 1605."
+  },
+  "timestamp": "2026-07-07T23:00:33.013650+00:00"
+}

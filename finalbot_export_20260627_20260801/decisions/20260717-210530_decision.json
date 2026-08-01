@@ -1,0 +1,24 @@
+{
+  "action": "hold",
+  "symbol": "AAPL/USDT:USDT",
+  "size": 0.0,
+  "entry": 333.91,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "rationale": "AAPL is a relative-strength outlier (+12% vs BTC, corr 0.15) holding up in a risk-off, semi-scare tape, but the 15m path shows momentum fading at 334 on drying volume (last 6 bars flat) - no pullback-to-VWAP continuation entry and no extreme to fade. 4h RSI 73.9 is overbought and resistance 339.17 sits only ~1.6% away, so a fresh long can't clear 1.5R to first structure. Weekend gap risk with US cash closed and the learner flagging high rel-strength as a net negative make chasing this outlier poor expectancy; wait for a clean break of structure above 339.17.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 339.17,
+    "expires_min": 300,
+    "note": "Reclaiming/holding above 339.17 resistance proves the relative-strength outlier is breaking out and absorbing the risk-off tape - turns this into a real long."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF, tech-led. Fri 7/17: S&P -1.0%, Nasdaq -1.4% (-2.9% wk) on semiconductor/AI-capex scare (TSMC capex hike), Netflix -8/11%. Crypto risk-off: BTC ~$63.8k, dominance 55.95%, F&G 27. AAPL: last 333.91, long candidate but environment fights it; funding 0.0, L/S 0.894 (mild short-skew), orderbook -0.271, structure_bias -0.048; rel strength +12.06% vs BTC, corr 0.157, 4h RSI 73.9 overbought. Weekend gap risk (US cash closed till Monday). Lowest-conviction alignment of the four.",
+    "sentiment": "Broad tech risk-off; semiconductor rout worst since Apr 2025; soft June CPI (3.5% vs 3.8%) a cushion. AAPL bullish/neutral: no <=48h catalyst, earnings July 30 after close (outside window, consensus strong ~$108.9B rev/$1.89 EPS, 4 straight beats). Relatively insulated from semi selloff, best relative strength in scan (+12%). Nothing to trade next 24-48h on news.",
+    "analyst": "AAPL is the tape's relative-strength standout, holding 333.91 while Nasdaq bleeds -1.4% on a semi/AI-capex scare. On paper a long candidate and account history favors longs (75% win, n=8), but the entry is the problem, not the direction. 4h RSI 73.9 overbought; the 15m grind up from 329.55 stalled at 334 on collapsing volume (last 6 bars 3-9 units). Resistance 339.17 only ~1.6% overhead, so a market long can't make 1.5R vs an honest ~1x-ATR ($3.5) stop, and there's no extreme to fade. Weekend gap risk into a risk-off tape plus the learner's warning that high-rel-strength has been a net drag make fresh-entry expectancy poor. A 'not yet,' not a 'never' - want a clean hold above 339.17. HOLD.",
+    "portfolio": "AAPL/USDT:USDT -> HOLD (conf 0.50): overbought outlier, no clean entry, thin headroom to resistance into weekend gap risk."
+  },
+  "timestamp": "2026-07-17T21:05:30.757018+00:00"
+}

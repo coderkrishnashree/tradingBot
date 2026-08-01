@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "EWJ/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.32,
+  "playbook": "none",
+  "forecast": "No live tape: last ~15 15m bars print 0.0 volume, frozen at 92.31-92.54 (stale quote). Price mechanically pinned at upper Bollinger (%b 1.00, stoch 97) against range-top resistance 93.34; expect it to sit stale until a live US/Japan session, not make a tradable next move.",
+  "expectancy_note": "No executable edge - frozen quote means any fill is against a stale price; overbought reading is an artifact not momentum, and BOJ July 30-31 binary caps conviction. Expectancy of any entry is negative; HOLD dominates.",
+  "rationale": "EWJ is an equity ETF with US and Japan markets closed; recent_candles are dominated by zero-volume frozen prints, so the RSI 68 / stoch 97 / %b 1.0 overbought signal is a stale-quote artifact, not a live trend to fade or ride. Crypto structure metrics (tiny OI 2461, funding 0) are meaningless here, RS is -3.7% vs BTC, and a BOJ binary sits days out. There is no honest R:R or next-move forecast into a frozen tape, so no size is warranted.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 93.34,
+    "expires_min": 240,
+    "note": "A live-session break above range-top resistance 93.34 on real volume would confirm a genuine breakout worth a long re-debate; until then the overbought print is just a stale off-hours quote."
+  },
+  "transcript": {
+    "macro": "Regime mixed-to-hostile, risk-off. Scan Sunday 16:59 UTC - US and Japan CLOSED. EWJ untradeable-thin: last 92.54 pushing top of range (RSI 68, stoch 97, upper Bollinger, BB %b 1.0). Volume essentially ZERO on most 15m candles (frozen prints) - stale quote, not a live trend. RS -3.7% vs BTC. Do NOT act on the intraday signal.",
+    "sentiment": "EWJ neutral/two-sided. BOJ meeting July 30-31, expected to hold at 1.00% after June hike; live risk is weakening yen (Middle East) stoking additional-hike speculation. Nikkei cooled from ~72,000 to 22.9x forward P/E. Thin off-hours liquidity + BOJ binary = neutral; no near-term reason to press the long.",
+    "analyst": "US and Japan closed; recent_candles dominated by zero-volume frozen prints, so RSI 68 / stoch 97 / %b 1.0 overbought is a stale-quote artifact, not a live trend. Crypto structure metrics meaningless (OI 2461, funding 0). No honest R:R or next-move into a frozen tape with a BOJ binary days out. HOLD; re-debate only on a live break above 93.34.",
+    "portfolio": "HOLD EWJ - frozen off-hours quote, no executable edge; wait for a live session and the BOJ decision."
+  },
+  "timestamp": "2026-07-26T17:05:59.776376+00:00"
+}

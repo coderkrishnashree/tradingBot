@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "META/USDT:USDT",
+  "size": 0.0,
+  "entry": 665.22,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.3,
+  "playbook": "none",
+  "forecast": "Low-volume coil right on VWAP (~665) inside the wide 578-690 range; next few bars likely chop 662-668 with no directional edge until price commits to a range boundary.",
+  "expectancy_note": "No setup clears 1.5R: price mid-range (%B 0.47) at VWAP, ADX 29.6 but TFs conflict (15m long RSI70 vs 1h short RSI27). Any 1xATR stop gets chopped; a fade/trend entry here is negative expectancy. HOLD is highest expectancy.",
+  "rationale": "META is the weakest short thesis in a semi-led selloff: negatively correlated to the semi story (TSM corr -0.39), a +13.7% relative outperformer, with flat structure (funding 0, L/S 1.10, bias -0.04). The 15m path is a low-volume drift back up off 662 to 665 with no momentum, sitting exactly on VWAP mid-range. No <=48h catalyst (earnings July 29). Nothing to trade; stand aside and let it pick a boundary.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 659.0,
+    "expires_min": 240,
+    "note": "Losing the 659-662 shelf that has held on every recent 15m dip proves sellers have control and opens a clean short; above it this is just mid-range chop."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF, tech/semis leading downside, bias SHORT. US closed weak (Nasdaq -1.2%). Semi selloff from TSMC capex hike; hawkish-Fed risk live. Equity perps trade with US cash CLOSED = thin/gappy -> smaller size. META: WEAK short / near-neutral, NOT a semi name (corr negative), rel-str +13.7% relative OUTPERFORMER, structure flat. Least conviction of the group; last name you'd short in a semi-led selloff.",
+    "sentiment": "META NEUTRAL now, binary OUTSIDE window: Q2 earnings after close July 29 (~13 days out). Recent tone bullish (+15% on 'Meta Compute' AI-infra launch) but Zuckerberg pre-warned AI agents lag + capex ballooning. Least chip-exposed; trades with broad Nasdaq. No <=48h catalyst.",
+    "analyst": "Textbook no-trade: mid-range (%B 0.47) right on VWAP, structure flat, funding zero, TFs contradict (15m long RSI70 vs 1h short RSI27), ADX 29.6 no directional agreement. Low-volume drift 662->665. No honest 1.5R setup; any 1xATR stop gets chopped. HOLD, arm short trigger on loss of the 659-662 shelf.",
+    "portfolio": "META HOLD (0.30): flat mid-range coil, least-conviction name; stand aside until it picks a boundary."
+  },
+  "timestamp": "2026-07-16T23:06:24.550281+00:00"
+}

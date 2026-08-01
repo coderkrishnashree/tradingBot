@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "COIN/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price pinned at 180.59 resistance with volume collapsing and bearish divergence into RSI 92 / %B 1.46; most likely stalls and fades back toward 174-175 over next 2-4 bars, but the parabola (ADX 89) can squeeze once more first. No confirmed rollover yet.",
+  "expectancy_note": "Chasing long into RSI 92 / %B 1.46 / +8% ATR-from-VWAP is the book's #1 loser; blind short into ADX 89 parabola with volume only just fading is a knife-catch. Waiting for the level break gives a real edge vs guessing now.",
+  "rationale": "COIN is a tokenized equity mid blow-off: RSI 85-92 across TFs, stoch 96, %B 1.46, +8% above VWAP, bearish divergence, and the composite itself is flat (5.4% conf) refusing the long. Volume is drying bar-by-bar right at 180.59 resistance \u2014 exhaustion, but no reversal candle has printed. Entering either side now is negative expectancy; a confirmed loss of 174 opens a fade short toward 168, while a clean reclaim above 180.59 on volume would signal continuation. Zero size until price picks a side.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 174.0,
+    "expires_min": 240,
+    "note": "Losing 174 (origin of the blow-off impulse) confirms the exhaustion top is rolling over and arms a mean-reversion short toward 168 / VWAP."
+  },
+  "transcript": {
+    "macro": "Mixed / event-loaded (2026-07-21). Equity risk-on intraday, semis bid; BTC ~$66.6k firm but broader tape soft (F&G 29 fear, BTC dominance ~56%, grind-not-rip). Tokenized equities liquid only during US cash hours (~13:30-20:00 UTC); thin/gappy off-hours. Heavy earnings week: TSLA & GOOGL Wed 7/22 after-close, INTC Thu 7/23 after-close; FOMC 7/28-29 (hold expected, ~20% hike odds). Longs are the crowded consensus side across the book \u2014 favor pullbacks over chasing; most names RSI-extended. Cleanest longs on crowding/RS: MSTR, META, QQQ, BTC. High-hazard (parabolic/crowded/earnings): TSLA, COIN, INTC, SNDK, XAUT.",
+    "sentiment": "Mixed-to-cautious. Crypto in Extreme Fear (F&G ~25-29) \u2014 rallies faded; BTC +~2% on ETF inflows + easing CLARITY Act. Equities grind into heavy earnings week on thin breadth (Nasdaq -2.9% last week, chips ~-10%). Imminent binaries inside horizon: TSLA Wed AC (~7.6% implied), INTC Thu AC (~15% implied). MSTR halted BTC buys / dilution optics (earnings 7/30). META/COIN earnings next week (7/29-30). XAUT: hawkish-Fed macro headwind, gold near 9-mo lows. SNDK/EWY/QQQ have no own <=48h catalyst (sector/semi beta, INTC-Thu risk secondhand). COIN chained to BTC/crypto sentiment.",
+    "analyst": "COIN is a tokenized equity mid blow-off: RSI 85-92 across TFs, stoch 96, %B 1.46, +8% above VWAP, bearish divergence, and the composite itself is flat (5.4% conf) refusing the long. Volume is drying bar-by-bar right at 180.59 resistance \u2014 exhaustion, but no reversal candle has printed. Entering either side now is negative expectancy; a confirmed loss of 174 opens a fade short toward 168, while a clean reclaim above 180.59 on volume would signal continuation. Zero size until price picks a side. | Forecast: Price pinned at 180.59 resistance with volume collapsing and bearish divergence into RSI 92 / %B 1.46; most likely stalls and fades back toward 174-175 over next 2-4 bars, but the parabola (ADX 89) can squeeze once more first. No confirmed rollover yet. | Expectancy: Chasing long into RSI 92 / %B 1.46 / +8% ATR-from-VWAP is the book's #1 loser; blind short into ADX 89 parabola with volume only just fading is a knife-catch. Waiting for the level break gives a real edge vs guessing now.",
+    "portfolio": "HOLD (0.60) \u2014 extreme blow-off (RSI 92, +8% VWAP) pinned at 180.59 on fading volume; no confirmed turn, zero size."
+  },
+  "timestamp": "2026-07-21T14:31:18.519509+00:00"
+}

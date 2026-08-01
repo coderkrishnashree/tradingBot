@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "XAUT/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Price coils in a tight 4103-4114 band under resistance 4131.7; expect continued chop for the next 2-4 bars. A clean 15m close above 4131.7 opens the breakout long toward 4160+; a break below 4103 exposes 4090/VWAP for a fade. Neither trigger is live yet.",
+  "expectancy_note": "No honest R:R now: long chases an overbought +1.56% VWAP tape into resistance only ~$20 up; short fights ADX 79 uptrend and account shorts bleed (win 0.45, avg -1.21). Longs win here (0.73, +2.31) so wait for the upside break, not a chase.",
+  "rationale": "XAUT is stretched (RSI 71.6, %B 0.95, +1.56% VWAP) and stuck in a $10 range under resistance 4131.7, twice rejected near 4114 on fading volume. The range is too tight for a mean-reversion trade with a real stop, and a market long into the level is exactly the late-continuation chase pattern this account loses on. Structure is crowded-long (2.52 L/S) which caps upside conviction; thin outside US cash hours adds gap risk. Best expectancy is to wait for a confirmed break of 4131.7 to join the trend cleanly.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 4131.7,
+    "expires_min": 240,
+    "note": "A 15m close above resistance 4131.7 confirms the breakout and turns the overbought read into a valid trend-continuation long (the direction this account actually wins on) toward the next measured move ~4160."
+  },
+  "transcript": {
+    "macro": "Broad regime cautious risk-off, hawkish Fed drift (~24% July hike odds), DXY ~101.2, 10y TIPS real yield ~2.05%. XAUT supportive backdrop but crowded/overbought: spot gold ~$4,060-4,130 on Mideast safe-haven flows; RSI 71.6, ADX 79, bb_pctb 0.95, +1.6% VWAP, right at resistance 4131.7. Structure_bias -0.379 (L/S 2.52 crowded-long, orderbook -0.195), funding flat. Leans mildly long on trend but chase risk into resistance argues smaller size; thin/gappy outside US cash hours.",
+    "sentiment": "NEUTRAL-to-BULLISH near-term. Gold up ~1.3% today to near $4,130 (two-week high) on Middle East safe-haven bid, soft DXY. No token-specific catalyst - trade as gold macro proxy. Key risk: FOMC July 29 (~85% odds hold). Constructive tone but scan shows XAUT already hot/extended.",
+    "analyst": "XAUT is stretched (RSI 71.6, %B 0.95, +1.56% VWAP) coiling in a tight $10 range (4103-4114) under resistance 4131.7, twice rejected near 4114 on fading volume. Range too tight for a mean-reversion trade with a real stop; a market long chases an overbought tape into resistance only ~$20 up (poor R:R) - the late-continuation chase this account loses on. Short fights ADX 79 uptrend and account shorts bleed (win 0.45, avg -1.21) while longs win (0.73, +2.31). Best expectancy is HOLD; wait for a confirmed 15m close above 4131.7 to join the trend, or a loss of 4103 to fade.",
+    "portfolio": "HOLD XAUT - extended and range-bound under resistance; no honest R:R until a 4131.7 breakout."
+  },
+  "timestamp": "2026-07-22T11:59:50.233385+00:00"
+}

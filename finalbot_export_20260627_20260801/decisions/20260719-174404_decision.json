@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "COIN/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Price coils 157.7-158.7 near VWAP; the high-volume 157.7 bar bounced and closed 158.44, so near-term it chops/leans slightly up toward 159-160 before the trend can resume. A clean short only appears on a decisive break below 157.7 (continuation) or a failed bounce into 159.9-160 VWAP.",
+  "expectancy_note": "p(win) for a market short ~0.45 (learner short win-rate 0.47, p_win_learned 0.456); no R:R edge chasing a level that just bounced. HOLD beats a late trend-short into thin weekend tape with BTC squeeze risk.",
+  "rationale": "4h reads short but LTF RSI is already 40-44 (not overbought) and the last high-volume 15m bar rejected 157.7 and closed higher \u2014 shorting now is chasing into a fresh support bounce, the exact late-short pattern that bleeds this book (shorts 47% win, avg -0.87). Weekend/US-closed = thin and gap-prone, BTC extended near resistance means a bounce (corr 0.64) squeezes shorts, and positioning is near-neutral so there's no crowd to fade. No <48h catalyst; earnings Jul 30 is outside window. Wait for structure to actually break rather than pay up for a snapshot.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 157.7,
+    "expires_min": 240,
+    "note": "Losing 157.7 (the bounce low on the highest-volume 15m bar) confirms the bounce failed and continuation is underway \u2014 a short with structure behind the stop instead of chasing."
+  },
+  "transcript": {
+    "macro": "Sun Jul 19 2026, US cash equities CLOSED (weekend) \u2014 tokenized-equity perps thin/gap-prone, de-weight trend until Monday. Tape RISK-OFF; crypto cautious-stabilizing, BTC ~$64.7k, Fear&Greed ~26-28, record June ETF outflows. Desk tilts SHORT this basket. COIN-specific: crypto-beta (BTC corr 0.64). 4h score -0.83, RSI 75.7 rolling over, below VWAP. Positioning near-neutral (L/S 0.77, structure_bias +0.003, orderbook -0.21). Squeeze risk: outsized leverage to a BTC recovery and BTC extended near resistance.",
+    "sentiment": "NEUTRAL, event risk building. No <48h catalyst. Q2 2026 earnings Thu Jul 30 after close (outside window). Regulatory tone positive (CLARITY Act). COIN in Open USD consortium (w/ BlackRock) pressuring Circle \u2014 bullish-relative for COIN, bearish for CRCL. Tracks BTC; no strong directional edge.",
+    "analyst": "4h reads short but LTF RSI already 40-44 (not overbought) and the last high-volume 15m bar rejected 157.7 and closed higher \u2014 shorting now chases a fresh support bounce, the pattern that bleeds this book. Weekend/thin, BTC squeeze risk via corr 0.64, positioning near-neutral so no crowd to fade. HOLD, arm short on a decisive loss of 157.7 (structure behind the stop).",
+    "portfolio": "HOLD COIN \u2014 support just bounced, no edge chasing; arm short below 157.7."
+  },
+  "timestamp": "2026-07-19T17:44:04.535345+00:00"
+}

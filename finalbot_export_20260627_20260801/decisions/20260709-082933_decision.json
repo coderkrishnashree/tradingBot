@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "EWY/USDT:USDT",
+  "size": 0.0,
+  "entry": 177.99,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.4,
+  "playbook": "none",
+  "forecast": "Choppy two-sided: the 15m bounce off 173.5 into 178.6 just stalled (last two bars red, rejected at 178.67). Expect a fade back toward the 176.4 shelf; losing it reopens 173.5/168.8, reclaiming 178.7 opens a squeeze to VWAP ~181.3. No clean edge until one side breaks.",
+  "expectancy_note": "p(win)~0.5 at best; honest ATR-sized short stop (~5.8pt) kills R:R, tight structural stop (~1.2pt) gets noise-wicked in a 3.27% ATR name. Waiting for the 176.4 break beats chasing a live bounce.",
+  "rationale": "4h/1h trend is down (short bias) and the name is crowded-long (L/S 1.68, bias -0.27) with squeeze risk, but the 15m tape just ran +2.5% off the lows and only barely stalled at 178.67 \u2014 shorting here is the account's proven loss pattern (high-ADX trend shorts, avg -2.87): a tight stop gets wicked by the ongoing bounce, a wide stop wrecks R:R. Price sits mid-air, -1.81% below VWAP but well off the base, with no clean level to lean on. Size 0; wait for confirmation that the bounce failed (below 176.4) to short with the 4h trend, or stand aside if it reclaims 178.67 and squeezes to VWAP.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 176.4,
+    "expires_min": 240,
+    "note": "Losing the 176.4 intraday shelf confirms the bounce failed and rejoins the 4h downtrend \u2014 short entry with stop above 178.67 targeting 173.5/168.8."
+  },
+  "transcript": {
+    "macro": "REGIME: RISK-OFF/neutral. EWY lean HEADWIND: memory/AI-hardware proxy (half the fund Samsung + SK Hynix) caught in the chip downdraft; rising DXY/yields hit EM; crowded-long (L/S 1.68, OB -0.15, structure_bias -0.27) and the group's biggest laggard (-16.9% vs BTC), 4h trend down. Strong long-term story (KOSPI +34% YTD, EWY +184% trailing yr) but wrong side of the near-term pulse; crowded-long into weak tape = squeeze risk. Broad: Iran strikes + oil spike (risk-off), hawkish Fed, higher yields, firm DXY ~101 = direct EM headwind.",
+    "sentiment": "NEUTRAL-to-BEARISH, high volatility. Highest near-term event-risk name (macro/sector, not a scheduled print). KOSPI on a violent AI/semi roller-coaster early July (-6% Jul 2, +5% Jul 3, -5.35% day, +0.62% recovery). Positive: SK Hynix US ADR offering 7x+ oversubscribed, ADB raised Korea 2026 growth to 2.6%. Headwind: US-Iran tension lifting oil/inflation. Next 24-48h dictated by overnight US semi tape (corr 0.74 QQQ, 0.61 NVDA). Two-sided gappy name, respect wide stops. No scheduled binary in 48h but semi headline risk elevated.",
+    "analyst": "4h/1h downtrend + crowded-long/laggard argues short bias, but the 15m bounce off 173.5 into 178.6 is fresh and only just stalling. With ATR 3.27% (~5.8pt), an honest structural short is either fragile (tight 1.2pt stop, noise-wicked) or poor R:R (wide stop). Learner shows high-ADX trend shorts bleed on this account (win small/lose big). No clean level mid-air, squeeze risk two-sided. HOLD with a short trigger on a break below the 176.4 shelf; invalidation on a 178.67 reclaim.",
+    "portfolio": "HOLD EWY (no trade). Short trigger armed on a break below 176.4 (expires 240m); size 0, confidence 0.40."
+  },
+  "timestamp": "2026-07-09T08:29:33.421164+00:00"
+}

@@ -1,0 +1,27 @@
+{
+  "symbol": "CRCL/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.5,
+  "size": 0.0,
+  "entry": 67.3,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "none",
+  "forecast": "Price coils 67.1-67.55 on fading weekend volume; likely chops until a clean 15m close above 67.55 opens 68.3, or a loss of 66.6 breaks the intraday higher-low structure. No clean R:R at spot into resistance + weekend gap.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 67.55,
+    "expires_min": 240,
+    "note": "15m close and hold above coil high 67.55 opens measured move toward 68.3+ for a 1.5R+ long."
+  },
+  "rationale": "CRCL has the cleanest technical long in the set (ADX 59, composite 83.6%, all-TF aligned, RSI 59 with room), but at 67.36 it is pinned just under the intraday coil high ~67.55 with no room to a 1.5R target absent a fresh breakout trigger. It is a tokenized equity on stale weekend pricing (US cash closed until Mon 13:30 UTC), very long-crowded (L/S 2.70) and a -17.7% BTC laggard; the OCC-approval pop may fade (Compass Point cut PT to 55). Buying spot = chasing the top of the coil into resistance plus Monday gap risk, sub-1.5R. HOLD and arm a trigger.",
+  "transcript": {
+    "macro": "MIXED/cautious regime. Scan Sat 2026-07-11 09:56 UTC - US cash closed all weekend, reopens Mon 13:30 UTC; equity perps (CRCL/TSLA/MU/EWJ) on stale thin pricing = high Monday gap risk. Funding ~0 (crowding signal muted); L/S books broadly long-crowded (negative structure_bias = retail long skew, not a short signal). Crypto soft/heavy (BTC ~$64k). CRCL: strongest composite (83.6%) but very long-crowded (L/S 2.70), -17.7% BTC laggard; long favored but SIZE DOWN, crowding is the main risk.",
+    "sentiment": "Broadly risk-ON but stretched. CRCL: bullish shock - Jul 10 final OCC approval for national trust-bank charter (+12-13%); momentum-positive but pop may be largely priced (watch for fade). Overhang: Stripe 'Open USD' competition; Compass Point cut PT to $55 from $97. USDC ~67-70% of June stablecoin volume. Next earnings ~Aug 11 (outside window).",
+    "analyst": "CRCL is the strongest technical long in the set (ADX 59, composite 83.6%, all timeframes aligned, RSI 59 with room), but at 67.36 it's coiling right under the intraday high 67.55 with no room to a 1.5R target absent a fresh breakout. Tokenized equity on stale weekend liquidity (US cash reopens Mon 13:30 UTC), very long-crowded (L/S 2.70), a -17.7% BTC laggard, and the OCC-charter pop may fade (Compass Point PT cut to 55). Buying spot = chasing the top of the coil into resistance + Monday gap risk, sub-1.5R. HOLD; a 15m close above 67.55 opens 68.3+ for a clean long, losing 66.6 breaks the intraday structure.",
+    "portfolio": "HOLD CRCL - cleanest long but no 1.5R at spot; arm breakout trigger at 67.55."
+  },
+  "timestamp": "2026-07-11T10:02:04.567426+00:00"
+}

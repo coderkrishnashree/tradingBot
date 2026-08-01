@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "XAG/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Bounce is exhausted at 57.4; expect a dead-cat retest of 57.2-57.4 (5m already oversold at RSI 32 so a small pop first), then rollover back through 56.4 toward VWAP ~55.8 over the next 1-2 days.",
+  "expectancy_note": "Short setup is right (RSI 75, %B>1, +2% VWAP, LS 4.01 crowded long, hostile DXY) but market-shorting after the 5m already rolled = chasing; honest stop >57.5 is >2xATR, R:R<1.5. Better to short the retest or the confirmed break.",
+  "rationale": "Silver is a dead-cat bounce into a hostile rates/DXY macro with extremely crowded longs (LS 4.01) and overbought RSI 75 above the upper Bollinger band \u2014 the up-move is done. But the 5m has already rolled to RSI 32, so a market short now risks being stopped by the reflex bounce; the account's #1 loss pattern is exactly this late short into stretched tape. Wait for either a fade-worthy pop into 57.3-57.4 or a clean loss of the 56.4 shelf to confirm, which is why size is zero.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 56.4,
+    "expires_min": 240,
+    "note": "Losing the 56.4-56.5 shelf confirms the bounce failed and opens the short toward VWAP 55.8 / support 54.85."
+  },
+  "transcript": {
+    "macro": "Risk-off, stronger rates/DXY = metals-negative. Silver -3% Thu to lowest since Nov 2025; gold fading (-4.5% MTD). Scan: RSI 75, LS 4.01 (extremely crowded long \u2014 biggest positioning risk in the book), 5m already -0.74. STAY OUT / fade rips.",
+    "sentiment": "XAG BEARISH near-term. Silver ~$57-58, down 52% from Jan $120 top, plunged >3% below $56 on Middle East tension lifting oil + higher-for-longer rates / stronger USD. Structural bull intact (supply deficit, solar demand) but near-term macro a headwind; argues against fresh longs.",
+    "analyst": "Bounce exhausted at 57.4 (RSI 75, %B>1, +2% VWAP, LS 4.01). But 5m already rolled to RSI 32 \u2014 market-shorting now risks the reflex bounce (account's #1 loss pattern), and an honest >57.5 stop is >2xATR (R:R<1.5). HOLD; short the retest into 57.3-57.4 or the break below 56.4.",
+    "portfolio": "XAG \u2014 HOLD (short setup valid but chasing; short armed on break below 56.4)."
+  },
+  "timestamp": "2026-07-20T05:15:04.051706+00:00"
+}

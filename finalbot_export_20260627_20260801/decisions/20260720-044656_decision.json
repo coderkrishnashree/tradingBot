@@ -1,0 +1,26 @@
+{
+  "symbol": "COIN/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.4,
+  "size": 0.0,
+  "entry": 159.0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "forecast": "Coiling 158.1-159.0 on near-zero off-hours volume; expect continued dead drift within the range until BTC resolves its 65.5k cap. No directional thrust in the next few bars.",
+  "expectancy_note": "p(win) ~0.45 either way; compressed bb (2.39%), muddy per-TF (15m/1h/5m flat), off-hours illiquid tape means any entry needs a wide noise stop that breaks R:R below 1.5. HOLD is highest expectancy.",
+  "rationale": "COIN is a high-beta BTC proxy with no 48h catalyst (earnings 7/30) sitting mid-range at 159 vs 152.9 support / 168.6 resistance. Last ~15 15m bars are a dead coil on 0-2 unit volume in a RISK-OFF, Extreme-Fear session with BTC capped at 65.5k - no concrete next move and no honest R:R. Learner shows shorts bleeding (-0.88 avg), so no short; longs need real momentum this setup lacks. Waiting for BTC to pick a side is the disciplined call.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 161.5,
+    "expires_min": 240,
+    "note": "Reclaim above the 160-161.5 congestion/breakout shelf (would coincide with BTC clearing 65.5k) confirms the composite long bias and gives a real momentum entry toward 168.6."
+  },
+  "transcript": {
+    "macro": "RISK-OFF/defensive 2026-07-20. VIX ~16.7 rising, crowded-long positioning broadly. BTC ~64.7k capped at $65.5k resistance, Fear&Greed 25 (Extreme Fear), dominance one-month low. COIN is a high-beta crypto proxy (MSTR-COIN corr 0.86, COIN-HOOD 0.77); amplifies any BTC break of 65.5k either way.",
+    "sentiment": "2026-07-20. COIN neutral, event-aware: Q2 earnings NOT until 7/30 (outside window). CLARITY Act regulatory headlines a slow-burn positive, not a 48h trade. Stock weak YTD (-34%). Follows BTC (corr 0.64).",
+    "analyst": "HOLD (conf 0.40). High-beta BTC proxy, no 48h catalyst, mid-range at 159 in a dead off-hours coil (0-2 unit volume) with BTC capped at 65.5k. No concrete move, no honest R:R. Shorts bleed this account; longs need momentum this lacks. Long trigger on a 161.5 reclaim (with BTC clearing 65.5k).",
+    "portfolio": "COIN - HOLD (conf 0.40): dead coil, BTC-flow driven; long only on a 161.5 break toward 168.6."
+  },
+  "timestamp": "2026-07-20T04:46:56.467311+00:00"
+}

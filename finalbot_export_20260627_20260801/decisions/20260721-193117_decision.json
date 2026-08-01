@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "META/USDT:USDT",
+  "size": 0.0,
+  "entry": 648.94,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.4,
+  "playbook": "none",
+  "forecast": "Price stays pinned 646-651 for the next few bars; the 651 spike was sold and volume is drying, so expect continued low-vol chop with a slight bid, not a directional thrust until it reclaims 651 or loses 646.",
+  "expectancy_note": "No honest R:R here: nearest target (651 rejection ~2pts) vs a noise-surviving stop below 646 (~4pts) gives R:R ~0.5; better to wait for a 651 reclaim than force a sub-1.5R long into bearish 4h divergence.",
+  "rationale": "META is coiling mid-range (BB width 2.16% squeezed) at +0.45% over VWAP with a weak long composite (40.5%) and 4h bearish divergence plus negative 4h MACD overhead. The 651 spike was rejected and sold to 646, then price ground sideways on fading volume - no thrust and no favorable reward:risk at 648.9. No catalyst until July 29 earnings; it merely lags equity beta (rel strength -4.63%). Wait for confirmation.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 651.0,
+    "expires_min": 240,
+    "note": "A 15m close above 651 clears the rejection high and proves the +0.57 orderbook bid is real, opening a clean equity-beta long toward 655-658 with a stop back under 648."
+  },
+  "transcript": {
+    "macro": "Regime MIXED, tilting risk-on but fragile. Nasdaq +1.3%, tech leading into megacap earnings. 48h landmine: Alphabet reports after close July 22 (tech read-through); hawkish Fed, Middle East tensions. Funding ~zero on tokenized equity perps -> long/short negatives noisy. Liquidity best during US cash hours. META: LONG-lean but small - constructive tape, orderbook +0.57, mild long bias; but 4h bearish divergence and no catalyst until July 29. Smaller than normal size.",
+    "sentiment": "META neutral for 24-48h. No imminent catalyst; earnings July 29 (out of window). Narrative is multi-quarter AI capex ($125-145B 2026) - long-horizon, not tradable now. Scan flags bearish 4h divergence; near-term sentiment neutral, technicals lead.",
+    "analyst": "Coiling mid-range 646-651, BB width 2.16% squeezed, +0.45% over VWAP, weak long composite 40.5%, 4h bearish divergence + negative 4h MACD overhead. 651 spike rejected/sold to 646 then sideways on fading volume. Long R:R only ~0.5 at 648.9. HOLD; arm long reconsider on a 15m close above 651.",
+    "portfolio": "HOLD META - compressed mid-range chop, no honest R:R; wait for a 651 reclaim to go long."
+  },
+  "timestamp": "2026-07-21T19:31:17.375462+00:00"
+}

@@ -1,0 +1,23 @@
+{
+  "symbol": "MSTR/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.6,
+  "size": 0.0,
+  "entry": 93.75,
+  "stop_loss": 89.85,
+  "take_profit": 104.64,
+  "rationale": "MSTR is a pure BTC proxy (corr 0.73) lagging badly (RS -9.18%) with crowded long positioning (L/S 1.47, structure_bias -0.145) and only a weak ADX 28.5 trend; recent bars show a stall - a push to 93.98 that faded to 93.6-93.7 on collapsing volume, not a continuation trigger. With FOMC (Jul 28-29) and Q2 earnings (Jul 30) both inside the holding window, Sunday thinness, and Monday gap risk, the expectancy of any fresh entry at VWAP is poor. Wait for a volume-backed reclaim above ~95 or a loss of 89.85 support.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 95.0,
+    "expires_min": 240,
+    "note": "Volume-backed reclaim above 95 breaks the fading coil and signals independent strength vs BTC toward 104.6."
+  },
+  "transcript": {
+    "macro": "REGIME NEUTRAL-to-RISK-OFF, event-gated. FOMC Jul 28-29 -> smaller size. Rates/USD headwind. BTC ~$65-67k. Sunday: underlyings CLOSED, perps thin/gappy, Monday gap risk. Positioning lopsided long. MSTR tag: NEUTRAL, high BTC beta corr 0.73, RS -9.2% lagging, no independent edge.",
+    "sentiment": "MSTR BEARISH-tilt/high-risk. Q2 earnings July 30 (call July 31). Leveraged BTC proxy (~818K BTC), inherits weak-crypto/negative-ETF-flow backdrop plus earnings binary; mNAV/BTC-yield-slowdown narrative.",
+    "analyst": "Fading coil at VWAP on collapsing volume, no continuation trigger, pure BTC echo lagging badly, crowded long, into a double binary (FOMC + earnings). HOLD beats both a chase-long and a counter-BTC short.",
+    "portfolio": "HOLD MSTR - late BTC-echo into double binary, no edge."
+  },
+  "timestamp": "2026-07-26T19:06:09.729297+00:00"
+}

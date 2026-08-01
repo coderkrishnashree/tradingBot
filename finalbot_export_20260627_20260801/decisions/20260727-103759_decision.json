@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "MSFT/USDT:USDT",
+  "size": 0.0,
+  "entry": 386.26,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price is coiled dead-flat at 386.0-386.5 for the last ~10 bars after a small pop; expect chop between 384.5 and 387 with no directional edge until it breaks the 388 coil top or flushes to 383/378 support.",
+  "expectancy_note": "No entry clears 1.5 R:R: long is stretched (RSI 72, stoch 93.6, %B 0.905) into a 2.13 crowd and capped by Wed earnings; short has no trigger (no divergence, holding highs). HOLD has best expectancy.",
+  "rationale": "MSFT is pinned overbought at the top of a very tight 1.72% Bollinger band, momentum flat-lined for hours, crowd 2.13x long, and Jul 29 after-close earnings forbids any naked hold into the print. Buying here chases a stretched, crowded move with resistance ~4% away and poor R:R; shorting lacks any exhaustion/divergence confirmation while price still holds the highs. Waiting for a clean break or a flush-to-support is the higher-expectancy play; strictly intraday only if a setup appears before Wed.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 384.3,
+    "expires_min": 240,
+    "note": "Losing the 384.5 shelf breaks the coil down and opens a clean intraday short toward VWAP/378 with a stop above the highs; a reclaim keeps it chop."
+  },
+  "transcript": {
+    "macro": "MIXED regime, risk-cautious into a heavy-event week. Crowded longs + RSI extremes broadly -> longs SMALL, tight stops. MSFT lean: DO NOT hold into Wed after-close (earnings); RSI 72, crowd 2.14 long, tight range; intraday only before the print.",
+    "sentiment": "MSFT IMMINENT EARNINGS Wed Jul 29 after close. Capex/margin under the microscope in an 'AI capex revolt' tape. Do not hold naked through the print. Neutral pre-event, binary risk.",
+    "analyst": "Pinned overbought at the top of a tight 1.72% BB, momentum flat-lined for hours, crowd 2.13x long, earnings Wed forbid carry. Long chases (resistance ~4% away, poor R:R); short has no divergence trigger. HOLD; a 384.3 break opens an intraday short toward 378, strictly no overnight carry.",
+    "portfolio": "HOLD MSFT (conf 0.60) - overbought coil into binary earnings; no carry, short only below 384.3."
+  },
+  "timestamp": "2026-07-27T10:37:59.162522+00:00"
+}

@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "ORCL/USDT:USDT",
+  "size": 0.0,
+  "entry": 117.3,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Thin holiday-session drift: price likely oscillates 116.9-117.5 around VWAP on near-dead volume until US cash reopens 13:30 UTC; no directional edge before then.",
+  "expectancy_note": "No playbook clears the bar: p(win) ~0.5 either way, no near structural level for an honest <=1.5xATR stop (support 113 / resistance 129 both ~3.6% off), so R:R is unfavorable in every direction.",
+  "rationale": "ORCL sits dead-center of its Bollinger band (%B 0.51) right at VWAP (-0.16%) with 15m/30m/1h RSI only 52-58 and the last six candles coiling on collapsing, near-zero holiday-session volume - no trend pullback, no range edge, no breakout trigger. It is the weakest horse in the set (relative_strength -22.4%) with the most crowded long positioning (funding maxed, L/S 2.30, structure_bias -0.60), both flagged as loss predictors, and a wall of event risk (FOMC Wed, mega-cap earnings) looms. Size 0; wait for cash to reopen and give a cue.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 116.68,
+    "expires_min": 240,
+    "note": "Losing the intraday session low breaks the coil and, given crowded-long positioning, opens a momentum flush toward 113 support worth fading or shorting the retest."
+  },
+  "transcript": {
+    "macro": "Regime MIXED, risk-on into a heavy event week. FOMC Wed Jul 29; MSFT+META Wed AC; AAPL+AMZN Thu AC. Funding broadly rich, L/S lopsided long. Smaller size everywhere; scan @05:00 UTC = US cash closed, prices thin/gap-prone. ORCL: extreme crowding (funding +0.37%/8h maxed, L/S 2.30, structure_bias -0.60); momentum up but most overheated long positioning in set. NEUTRAL, fade-risk into any wobble.",
+    "sentiment": "Wall of binary catalysts next 48-72h. Tone cautious-to-neutral. ORCL: no earnings until Sep 7; recent flow just analyst cloud-upside chatter (low weight). NEUTRAL, drifts with Nasdaq/mega-cap earnings sentiment.",
+    "analyst": "Dead-center Bollinger (%B 0.51) at VWAP, RSI 52-58, six coil candles on near-zero holiday volume. Weakest horse (RS -22.4%), most crowded long (L/S 2.30) - both loss predictors per learner. No honest <=1.5xATR stop nearby. HOLD. Reconsider on a break below 116.68.",
+    "portfolio": "HOLD - dead-center coil, weakest RS + crowded longs, no edge; conf 0.6."
+  },
+  "timestamp": "2026-07-27T05:09:23.765218+00:00"
+}

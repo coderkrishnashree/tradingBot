@@ -1,0 +1,24 @@
+{
+  "symbol": "QQQ/USDT:USDT",
+  "action": "hold",
+  "size": 0.0,
+  "entry": 728.89,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Weekend pin: price chops in the 727-730.3 band under the ceiling on thin Saturday books, most likely drifting 728-730 with repeated failures to break 730.3 until Monday's real cash session sets direction.",
+  "rationale": "QQQ is pinned right under hard resistance 730.3 with 4h RSI 81 overbought, extended +1.86% above VWAP, neutral positioning (L/S 0.99, bias -0.07), and only 35% composite confidence \u2014 a weak long into a ceiling. It's Saturday with US cash CLOSED until Mon 7/13, so perps trade off a stale Fri close on thin, gap-prone books; ATR 0.44% leaves no room for a clean target either way. Neither a chase-long nor a premature short-fade clears the 1.5R bar, so I stand aside and let Monday's session pick the direction.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 730.4,
+    "note": "A decisive reclaim/hold above 730.3 resistance would confirm a breakout and flip to a long with a stop back inside the base; a hard rejection there sets up the short."
+  },
+  "transcript": {
+    "macro": "2026-07-11 RISK-ON but late-stage/extended. Fri 7/10 close S&P +0.42% (7,575), Nasdaq +0.29% (26,282), VIX 15.03. Fed funds 3.50-3.75%; May CPI hot (+4.2% y/y); FOMC 7/28-29 OUT of window. BTC $64,416 risk-on. CRITICAL: Saturday, US cash CLOSED until Mon 7/13 \u2014 thin books, gap risk. QQQ L/S 0.99 (balanced), orderbook -0.24, structure_bias -0.07 (neutral), RSI 4h 81.3, at resistance 730.3, ATR 0.44%. BTC corr 0.45.",
+    "sentiment": "QQQ/broad tech: Nasdaq-100 ~+18% YTD, near record ~30,600 early June; pinned at resistance 730.3, RSI 4h 81 \u2014 overbought. Macro wildcard: Fed 6/17 dot-plot flipped hawkish (possible hike) after May CPI 4.2%. A hot upcoming CPI print hits all five at once \u2014 confirm CPI date. Tilt broadly bullish trend but late-stage/rate-sensitive.",
+    "analyst": "Last 728.89, ~0.2% under resistance 730.3. RSI 4h 81.3, stoch 91.1, %B 0.787, ADX 48.3 but 4h score only 0.136 (fading), composite conf 35%, blended 0.297. ATR 0.44% (~$3.20), vwap_dist +1.86%. Structure neutral (L/S 0.99, orderbook -0.239, bias -0.069). 15m bleeding 729.34\u2192727.7 then chop back to 728.89 \u2014 weekend pin under ceiling, small bodies, no volume. Long chases into ceiling with tiny ATR (late-continuation loss pattern); short-fade has room but tape just bounced and structure neutral. No honest R:R. HOLD, reconsider at 730.4 breakout.",
+    "portfolio": "QQQ \u2014 HOLD (conf 0.6): overbought index proxy pinned under 730.3 with neutral positioning and no R:R on a closed-market Saturday; wait for the 730.3 resolution."
+  },
+  "timestamp": "2026-07-11T15:31:34.617589+00:00"
+}

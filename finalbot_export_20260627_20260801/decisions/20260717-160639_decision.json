@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "HOOD/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Live reflex bounce off 96.68 low: last bars ran 97.1 to 102.5, likely grinds toward 104-108 VWAP zone over next 2-6 bars where sellers should reappear; until then no edge either way.",
+  "expectancy_note": "Short into RSI-16.5/-8% VWAP tape = chasing, bounce stops it out (account's #1 loser); long a dead-cat in risk-off down-trend is low p(win). Best EV is waiting for the mean-reversion to set a tight-stop short.",
+  "rationale": "HOOD 4h is deeply oversold (RSI 16.5, vwap_dist -8%) and mid-bounce off 96.68, snapping 97 to 102.5 on the last two green bars \u2014 too stretched to short safely and no base to justify a long into a hostile, risk-off, high-beta (BTC-corr 0.54, rel-strength -1.7%) name. Composite is only 20.9% confidence, unaligned, p_win 0.44. Highest-expectancy action is to stand aside and let it mean-revert into a cleaner short.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 108.0,
+    "expires_min": 360,
+    "note": "A mean-reversion back to the ~108 VWAP/broken-support zone unwinds the oversold stretch and offers a tight-stop short entry as the down-trend resumes."
+  },
+  "transcript": {
+    "macro": "Regime HOSTILE/risk-off both worlds. Positioning crowded long/contrarian-short; 4h short but LTF green = reflex bounce, fade rallies, don't chase. HOOD: STAY OUT (short bias intact) \u2014 RSI-15m/4h extreme oversold (16.5 on 4h), vwap_dist -8%, deeply stretched; 0.54 BTC-corr dragged by both crypto Fear and equity risk-off. Snapping back 96.7->102.5 = too stretched to short safely, no reason to be long.",
+    "sentiment": "HOOD NEUTRAL near-term, but July 29 earnings landmine + high-beta risk. Q2 results July 29 after close (~$0.41 EPS est), outside window. Recent tone bullish (Agentic Trading launch, record metrics, Moderate Buy) = multi-week narrative, not \u226448h mover. Highly correlated to COIN (0.78) and BTC (0.54); with crypto in Fear that beta cuts toward the short. Risk is a broad crypto/risk bounce, not a stock-specific event.",
+    "analyst": "4h deeply oversold (RSI 16.5, vwap_dist -8%) and mid-bounce off 96.68, snapping 97->102.5 on last two green bars. Too stretched to short safely; no base for a long into hostile risk-off high-beta name. Composite only 20.9% confidence, unaligned, p_win 0.44. Highest-EV action is to stand aside and let it mean-revert into a cleaner short (~108). HOLD.",
+    "portfolio": "HOOD: HOLD (conf 0.60) \u2014 STAY OUT mid-bounce; wait for mean-reversion to ~108 for a tight-stop short."
+  },
+  "timestamp": "2026-07-17T16:06:39.025746+00:00"
+}

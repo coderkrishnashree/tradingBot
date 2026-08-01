@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "QQQ/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.34,
+  "playbook": "none",
+  "forecast": "Price coils 715.2-718.5 into the US open; volume drying and momentum fading after the 718.56 rejection point to more chop until CPI Wednesday resolves it.",
+  "expectancy_note": "No edge: long chases stoch 89.9 into hostile macro + CPI binary; short fights bullish divergence and 698 support with no trigger. Neither clears R:R>=1.5.",
+  "rationale": "Lowest-conviction name of the set (36% composite), balanced L/S, off-hours gap risk and a dominant CPI print within 48h where the brief explicitly says do NOT carry size. The tape is a tight coil (BB width 3.41) mid-air, not at a fadeable extreme, and the last 8 bars are a low-volume drift after rejection near 718.5 \u2014 no honest continuation or fade entry exists, so no size is justified.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 718.6,
+    "expires_min": 240,
+    "note": "A clean reclaim/break above the 718.56 rejection high resolves the squeeze up with dip-buyers back in control, making a long worth re-debating."
+  },
+  "transcript": {
+    "macro": "Regime MIXED tilting HOSTILE for fresh longs into July 9 US open. 10Y ~4.58% (4wk high). AI hyperscalers sold Jul 8. Catalyst cluster Jul 14-16. QQQ: last 716.53, L/S 0.975 (cleanest/balanced), OB -0.359, bias -0.099, BTC corr 0.462, rel-strength -2.86%. Lowest conviction (36%), stoch 89.9 stretched. Cleanest index-risk proxy and index is soft.",
+    "sentiment": "QQQ is the index itself. CPI Wednesday is THE <=48h catalyst; index-inclusion event (~Jul 7) forced multi-billion passive buying that can distort intraday prints. Momentum wobbly (5-day slide, semis heavy, hawkish Fed) but dip-buying narrative intact. Two-sided/neutral \u2014 do NOT carry size into CPI.",
+    "analyst": "Soft index into hostile open, CPI is dominant <=48h binary, brief says don't carry size into it. Composite 36% (lowest), structure balanced (no crowd edge), BB squeezed but mid-air (%B 0.58) not at extreme. Long chases stretched stoch; short fights bull divergence + 698 support with no trigger. Off-hours gap risk. Textbook HOLD; arm upside break of 718.5 as the higher-conviction re-debate.",
+    "portfolio": "QQQ: HOLD (0.34) \u2014 lowest conviction, coiled into CPI; no size, watch 718.6 break."
+  },
+  "timestamp": "2026-07-09T10:28:16.082199+00:00"
+}

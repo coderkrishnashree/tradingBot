@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "GOOGL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.55,
+  "playbook": "none",
+  "forecast": "Slow intraday bleed continues: price chops 324.6-326.5 into the US close, likely drifting to test 324.6/322 before FOMC (Wed 2pm ET); no clean reversal or breakout signal yet, so range/no-trade until the event resolves.",
+  "expectancy_note": "Est p(win) ~0.5 on either side; long has only the 4h behind it vs a bleeding intraday tape and heavily-offered book, short is ~3% from support 315 (poor R:R, stop above 327.8) and shorts are this account's losing side (44%). FOMC tomorrow = binary in-window; HOLD beats both.",
+  "rationale": "GOOGL is grinding lower on 15m/30m/1h (lower highs 327.8->325.0, 30m RSI 26) while only the 4h is still bullish (RSI 64.5) - a muddy, unaligned composite (align 0.87). It sits right at VWAP (+0.18%), not extended, with no exhaustion candle to fade and support 315.34 ~3% away, so neither a clean short nor a triggered long exists; the -0.89 order-book imbalance and long-short 2.66 show a crowd trapped long into a heavy tape. With risk-off macro and FOMC tomorrow (binary inside my 48h window), the highest-expectancy action is to wait for a level to resolve rather than pay the coin-flip; size 0.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 327.85,
+    "expires_min": 240,
+    "note": "Reclaiming the 327.8 lower-high cluster breaks the intraday down-structure and aligns 15m/1h with the bullish 4h, turning this into a long with the trend."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF/defensive. Nasdaq worst day since Jun 23 on semi sell-off + rising oil. GOOGL btc_corr +0.28 (trade off tech tape). FOMC Wed Jul 29 2pm ET binary vol event. GOOGL already reported Jul 22 (EPS beat $9.11) - post-earnings drift, NO fresh earnings catalyst; cleanest/most balanced of the three. Size down but cleanest setup.",
+    "sentiment": "Post-earnings drift, catalyst already spent. Q2 reported 7/22: revenue beat ($119.8B) but stock sold off on a 2026 capex hike (~$205B) and negative FCF (-$5.9B). Overhang from EU Android ruling (~$4.67B fine, 7/2) and US antitrust (potential Chrome divestiture). No fresh <=48h catalyst; tone cautious/heavy post-print. Trade on technicals - news a mild negative backdrop.",
+    "analyst": "Muddy alignment: only the 4h is bullish (RSI 64.5) while 15m/30m/1h bleed (lower highs to 325.0, 30m RSI 26). At VWAP (+0.18%), not extended, no exhaustion candle, support 315.34 ~3% away = no clean short and no triggered long. Order-book imbalance -0.89 and long/short 2.66 = crowd trapped long. Risk-off + FOMC tomorrow = coin-flip in-window. HOLD; arm reconsider on reclaim of 327.85 (aligns TFs to bullish 4h).",
+    "portfolio": "GOOGL: HOLD (size 0) - unaligned tape at VWAP into FOMC, wait for 327.85 reclaim."
+  },
+  "timestamp": "2026-07-28T02:35:23.285029+00:00"
+}

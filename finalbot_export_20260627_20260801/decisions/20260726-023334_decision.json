@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "EWJ/USDT:USDT",
+  "size": 0.0,
+  "entry": 91.93,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Market frozen at 91.9 on zero volume (Tokyo+US closed since 07/24). No live tape to trade; on reopen the risk-off backdrop (Nikkei -2.73% Fri, Softbank -7.6%) points to a gap-DOWN retest of 89.53 rather than continuation up.",
+  "expectancy_note": "No live price discovery + weekend gap-down risk + stale extended oscillators (stoch 88, 1h RSI 82.9) = negative expectancy on a fresh long; HOLD dominates any entry.",
+  "rationale": "The recent_candles are flat 91.9 prints with near-zero volume - the ETF is closed and the ADX 65.6 / RSI readings are stale artifacts, not tradeable momentum. Macro is explicitly RISK-OFF with the underlying Nikkei down 2.7% Friday, so the tokenized long carries weekend gap-down risk into the Tokyo reopen, with a BOJ binary July 30-31 just beyond my window. There is no honest R:R>1.5 short-term setup against a frozen quote; stand aside. Size 0.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 93.34,
+    "expires_min": 240,
+    "note": "A reclaim of resistance 93.34 on the reopen with real volume would prove the risk-off gap-down thesis wrong and re-open a trend-continuation long."
+  },
+  "transcript": {
+    "macro": "Weekend RISK-OFF snapshot. S&P -1.21% to 7,408, Nasdaq -2.15% Wed on AI-capex worries + Red Sea oil spike. Nikkei 225 -2.73% Fri to ~64,611 (Softbank -7.6%) - Tokyo leading the risk-off. Fed held 4.25-4.50%, market pricing one 25bp HIKE later 2026; USD firm, weak yen ~163 helps EWJ names but tape hostile. EWJ positioning: funding 0, OI ~2.5k, long/short 1.36, orderbook +0.09, structure_bias -0.08; rel strength -5.23% vs BTC. Tokenized long faces weekend gap-down risk on Tokyo reopen. Verdict: EWJ = stand-aside or short-bias, worst risk/reward of the three.",
+    "sentiment": "BOJ raised 25bp to ~1.0% June 16; BOJ policy meeting July 30-31, 2026 (quarterly Outlook Report) - binary just beyond 48h. Hawkish signals lift EWJ bank exposure (MUFG) but stronger yen pressures exporters (Toyota, Tokyo Electron). Fund +45% trailing 12m, momentum cooled, ~9% below Feb 2026 peak; fwd P/E ~17.8. US-listed ETF - thin/gappy outside US cash hours; reacts to Nasdaq/S&P tone. Sentiment neutral leaning constructive; binary risk BOJ July 30-31 -> caution/smaller size.",
+    "analyst": "Recent candles are flat 91.9 prints with near-zero volume - ETF closed, ADX 65.6/RSI readings stale artifacts not tradeable momentum. RISK-OFF with Nikkei -2.7% Fri -> weekend gap-down risk into Tokyo reopen; BOJ binary July 30-31 just beyond window. No honest R:R>1.5 setup vs a frozen quote. HOLD, size 0. Reconsider on reclaim above 93.34 with real volume.",
+    "portfolio": "EWJ/USDT:USDT -> HOLD (conf 0.60): frozen/closed tape into a risk-off gap-down; stand aside."
+  },
+  "timestamp": "2026-07-26T02:33:34.588278+00:00"
+}

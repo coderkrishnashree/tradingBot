@@ -1,0 +1,25 @@
+{
+  "symbol": "CRCL/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.6,
+  "size": 0,
+  "entry": 69.19,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "expectancy_note": "No edge either way: p(win) on a long ~0.4 chasing into upper BB (%B 0.95), +2.16% over VWAP, stoch 85, bearish 4h divergence; short lacks a confirmed rejection with 15m/5m still up. Best EV is to wait for the crowded-long unwind trigger.",
+  "rationale": "CRCL is extended and stretched: last 69.19 sits at the upper Bollinger, 2.16% above VWAP, stoch overbought at 85, into a bearish 4h divergence, while the up-move is only 15m/5m (1h flat, 4h weak-neutral). Positioning is a crowded long (L/S 2.737, structure_bias -0.307) that is unwind fuel, and OUSD overhang caps upside with no <=48h catalyst. A long chases into resistance (76.66) with poor R:R; a blind short at 69 with 2.19% ATR is a knife-catch with no rejection trigger yet. Waiting costs nothing and the real short prints on a VWAP/short-TF support break.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 66.0,
+    "expires_min": 240,
+    "note": "Losing ~66 breaks the intraday VWAP/short-TF uptrend support and confirms the crowded-long unwind has begun \u2014 that is the short entry, targeting 63/61 support."
+  },
+  "transcript": {
+    "macro": "2026-07-06: Cautiously risk-ON equities (Nasdaq +1.1%, Dow record ~53,056; US cash market OPEN so CRCL trades on real underlying liquidity). Crypto weak leg: BTC ~$61.5k at 21-month lows, regime chop, ADX 5.6, orderbook imbalance -0.30, funding ~0, stablecoin dominance elevated (defensive). No CPI/FOMC inside 48h (FOMC Jul 28-29). CRCL MIXED/lean cautious: crowded long (L/S 2.737), structure_bias -0.307, momentum only short-TF (15m 0.90) into bearish 4h divergence at upper Bollinger, -12.16% RS vs BTC. Argues smaller size, tight invalidation, tactical only.",
+    "sentiment": "2026-07-06: Dominant catalyst = Jun 30-Jul 1 launch of Open USD (OUSD) by 140+ company coalition (Stripe, Coinbase, Mastercard, Visa, BlackRock) striking Circle's core economics; CRCL crashed ~17-25% to 4-month low (~$63-65, -55% from mid-May high). Fresh structural overhang, sentiment bearish-to-neutral, gap-down largely complete. No dated <=48h catalyst \u2014 Coinbase-USDC renewal ~Aug 18 and Q2 earnings Aug 11 both outside window. Net: NEUTRAL-to-mildly-bearish; argues against conviction longs into a bounce, and any short chases an already-large move. Confidence medium.",
+    "analyst": "CRCL is extended/stretched: last 69.19 at upper Bollinger (%B 0.95), +2.16% over VWAP, stoch 85 overbought, into bearish 4h divergence; up-move only 15m/5m (1h flat, 4h weak-neutral). Crowded long (L/S 2.737, structure_bias -0.307) is unwind fuel; OUSD overhang caps upside with no <=48h catalyst. Long chases into resistance 76.66 with poor R:R; blind short at 69 with 2.19% ATR is a knife-catch with no rejection trigger. Best EV is HOLD; real short prints on a VWAP/short-TF support break near 66 (target 63/61).",
+    "portfolio": "HOLD CRCL/USDT:USDT \u2014 no edge either direction; wait for a break of ~66 to arm the crowded-long-unwind short."
+  },
+  "timestamp": "2026-07-06T22:25:13.364148+00:00"
+}

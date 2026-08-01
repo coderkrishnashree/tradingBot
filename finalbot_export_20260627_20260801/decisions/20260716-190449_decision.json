@@ -1,0 +1,28 @@
+{
+  "symbol": "SOL/USDT:USDT",
+  "action": "hold",
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "size": 0.0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Price pinned at bottom of its 75.4-75.8 range with 1h RSI 27 / stoch 14 (oversold), support 74.04 just below. Most likely next move over 2-4 bars is a relief bounce toward VWAP ~76.6 rather than a clean break of 74.04; shorting here chases the exact low.",
+  "expectancy_note": "p(win) on a market-short from oversold LTF ~0.45 with only ~1.4xATR to support; account's realized short PnL negative (n=33, -0.52 avg) precisely from chasing extended shorts. Waiting for the 76.6 bounce lifts R:R to ~2.5:1 and p(win) toward 0.6.",
+  "rationale": "SOL is in a valid down-trend (4h -0.647, crowded 2.65 long/short to flush, structure_bias -0.28) so I want to be short, but NOT here: 1h RSI 27, stoch 14, price -1.2% below VWAP sitting on the 75.4 range low with support 74.04 immediately below leaves no room and invites the counter-bounce that has stopped this account's late shorts. High BTC-beta (0.79) means a BTC pop off $64k is the squeeze risk. The high-expectancy play is to short the retest into VWAP/resistance, so I hold and arm the trigger rather than chase the low.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 76.6,
+    "expires_min": 240,
+    "note": "A bounce back to VWAP ~76.6 offers a clean higher-R short entry into the down-trend with crowded longs still trapped above."
+  },
+  "transcript": {
+    "macro": "Regime broadly RISK-OFF/cautious: US equities soft (Nasdaq -1%+, semi selloff), Fed drifting hawkish (Iran/US strikes lifting energy inflation, mortgage rates ~1yr high, real hike chance later this year). Crypto in Fear (F&G 26), BTC ~$64.2k above $64k but net stablecoin outflows / weak US spot demand. BTC.D ~56%. SOL: last $75.69, all TFs down (1h RSI 27, 4h -0.65), rel str -1.6%, BTC corr 0.79 (BTC bounce = squeeze risk), funding flat/neg, long/short 2.65 (crowded long, contrarian bearish). Supportive for shorts, mixed for longs.",
+    "sentiment": "SOL cautious/heavy: F&G ~25-26, thin social volume, BTC consolidating low $64k, no euphoria. Bullish catalysts exist but long-horizon (5 spot SOL ETFs ~$1.12B inflows, Morgan Stanley refiled SOL ETF Jul 15, Clearstream/SBI institutional rails, Alpenglow Q3) \u2014 none <=48h. No imminent binary (no unlock/hack/delisting in 48h). Near-term NEUTRAL with slight downside tilt; trades off BTC and soft broad risk.",
+    "analyst": "Trend is down and I want short exposure, but a market short at 75.69 chases into 1h RSI 27 / stoch 14 with support 74.04 only ~1.4xATR below \u2014 exactly the account's proven late-short loss pattern (short n=33, avg_pnl -0.52). Best expectancy is to short the retest into VWAP ~76.6, not fade the low. HOLD, arm reconsider trigger at price_above 76.6.",
+    "portfolio": "SOL: HOLD (conf 0.50) \u2014 down-trend intact but oversold LTF; wait to short the VWAP ~76.6 retest rather than chase the low."
+  },
+  "timestamp": "2026-07-16T19:04:49.209007+00:00"
+}

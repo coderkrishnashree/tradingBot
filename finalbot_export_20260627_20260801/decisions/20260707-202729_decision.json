@@ -1,0 +1,28 @@
+{
+  "symbol": "MSTR/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.6,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "none",
+  "forecast": "15m RSI 10, %B 0.04, -5.5% below VWAP on a drying last bar (282 vol) \u2014 a dead-cat bounce toward 98.5-100 is likely within 2-6 bars before the downtrend resumes; that retrace is where a short pays, not here at the low.",
+  "expectancy_note": "Fresh short at 96.9 = selling the hole into RSI 10 with a BTC short-squeeze as the top macro risk (corr 0.81); p(win) barely 0.5 and R:R < 1.5. Better EV is HOLD and short the bounce toward VWAP (~99-100) for R:R 2+ toward 93/89.",
+  "rationale": "MSTR is the weakest, highest-beta name (RS -17.6%, real orderbook selling -0.26) so directional bias is short, but the entry is wrong: price is 1.4x ATR below VWAP with 15m RSI 10 and %B at the bottom band on fading volume \u2014 a mechanical BTC bounce (macro's #1 cross-book risk) would violently squeeze any short entered here. No long in a RISK-OFF tape against a downtrend. Size 0; wait for the retrace to VWAP/99-100 to short with proper R:R, or a volume-backed loss of 96 to short the continuation.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 99.2,
+    "expires_min": 240,
+    "note": "A bounce back into the 99.2 broken-support/VWAP zone resets RSI and offers a high-EV short entry into the downtrend toward 93/89; crossing it is the re-entry trigger."
+  },
+  "transcript": {
+    "macro": "RISK-OFF, hostile to longs, supportive for shorts. BTC ~$64k +6.3% on short-covering, Fear&Greed=23, fragile bounce. Biggest cross-book risk = BTC short-squeeze reversal (hits COIN/MSTR/HOOD together). Fed minutes this week. MSTR: corr BTC 0.81 (highest beta), RS -17.6% (biggest laggard), ATR 3.9% (violent), broke VWAP -5.5%, RSI 29, orderbook -0.26 (real selling). SIZE DOWN HARD.",
+    "sentiment": "MSTR bearish/deleveraging tone. Strategy now SELLING BTC (sold 3,588 BTC/~$216M) to rebuild USD reserve; authorized $1B buyback under new 'Digital Credit Capital Framework' \u2014 shift from pure accumulation; treasury ~11.5% underwater vs $66.4k avg cost. Levered BTC proxy \u2014 only real 48h driver is BTC's move, amplified here. Supports a short as BTC-beta play BUT rips on any BTC bounce; buyback is a latent floor.",
+    "analyst": "Weakest, highest-beta name (RS -17.6%, orderbook -0.26) => short bias, but entry is wrong: 1.4x ATR below VWAP, 15m RSI 10, %B bottom band on fading volume; a BTC bounce (macro's #1 risk, corr 0.81) squeezes any short here. No long in risk-off. HOLD, size 0; short the retrace to 99-100.",
+    "portfolio": "HOLD MSTR \u2014 short bias but selling-the-hole into RSI 10 + squeeze risk; short the bounce to 99.2."
+  },
+  "timestamp": "2026-07-07T20:27:29.774661+00:00"
+}

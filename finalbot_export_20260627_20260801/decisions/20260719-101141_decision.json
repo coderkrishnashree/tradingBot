@@ -1,0 +1,23 @@
+{
+  "symbol": "ORCL/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.5,
+  "size": 0.0,
+  "entry": 126.75,
+  "stop_loss": 0.0,
+  "take_profit": 0.0,
+  "rationale": "Intraday TFs strongly long (ADX 61, 15m/30m/1h all 0.9) but 4h RSI 74.7 overbought, long_short 2.70 crowded-long, and 15m just rejected 127.14 closing on the low (126.75) with 5m RSI 31.8 \u2014 momentum fading, not resuming. Price only +0.49% from VWAP, neither extended to fade nor pulled back to a clean support to buy; nearest resistance far (142.54) gives no long R:R>=1.5, and shorting fights an ADX-61 uptrend into thin weekend liquidity. Wait: reclaim 127.15 to arm a long, or lose 126.37 for the pullback.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 127.15,
+    "expires_min": 240,
+    "note": "reclaiming the rejected 127.14 high resumes the intraday uptrend; long with stop under 126.37"
+  },
+  "transcript": {
+    "macro": "Regime MIXED-to-HOSTILE, active semiconductor selloff, risk-OFF. 2026-07-19 weekend \u2014 US cash markets CLOSED, tokenized perps thin/gappy until Monday open. S&P ~7,458 (-1.6% wk), Nasdaq ~25,520 (-2.9% wk) on chip selloff + AI-capex fears (>$1T semi cap wiped). Semi trio MU/INTC/ORCL correlated (~0.70), all crowded-long into a falling sector. INTC Q2 earnings Thu Jul 23 (~15% implied move) is the defining catalyst; TSLA earnings Wed Jul 22. Funding flat on all names; long_short ratios lopsided (ORCL 2.70, INTC 2.47, CRCL 2.33, MU 2.14, TSLA 2.00) = crowded longs = contrarian downside fuel. CRCL has real crypto beta (BTC corr 0.45); rest near-zero. Size smaller than normal everywhere; no overnight carry into earnings.",
+    "sentiment": "Sunday Jul 19 \u2014 US cash closed, tokenized prices thin/gappy until Mon open; these are equities/ETFs (no crypto unlocks). ORCL: neutral, no <=48h binary; blowout Q4/FY26 already passed in June, next earnings Sept 9 \u2014 trade only on tape, not the AI-cloud story. MU: mildly bullish (record Q3, HBM sold out thru 2027, Anthropic deal) but high-beta AI-memory name at risk of a Monday sector gap; no own earnings imminent, correlated to INTC Jul 23. CRCL: bearish \u2014 dropped ~16-17% on Coinbase/BlackRock/Visa \"Open USD\" competitor + Mizuho downgrade Jul 14; offset by OCC trust-bank charter + Standard Chartered deal; below all EMAs. TSLA: EARNINGS Wed Jul 22 (~3 days out); Q2 deliveries beat (480k, +25% YoY), margin/FSD guidance the unknown; OK for intraday only, no carry. EWJ: bearish, macro-driven \u2014 Nikkei -4.03% Fri on semi selloff; BOJ Jul 30 overhang; illiquid off-hours. INTC: EARNINGS Thu Jul 23 (~15% implied move, biggest binary); fell ~21% over 7 sessions on 18A yield slippage + AMD gains; pre-earnings intraday only, no carry.",
+    "analyst": "HOLD. Strong intraday long but overbought 4h + crowded 2.70 long_short + a close-on-low rejection at 127.14 (5m RSI 31.8) = fading momentum. No honest R:R>=1.5 entry either side; wait for a 127.15 reclaim (long) or 126.37 break (pullback).",
+    "portfolio": "ORCL \u2014 HOLD (0.50): no clean R:R, wait for 127.15 reclaim or 126.37 break."
+  },
+  "timestamp": "2026-07-19T10:11:41.386228+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "SOL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Price flushed to 75.80 on a 104k-vol capitulation candle, then printed higher lows (75.84, 76.15) closing at 76.27 near range top \u2014 a reflex bounce off 75.59 support. Expect chop between 75.59 and the 76.9 shelf over the next 2-4 bars; a reclaim of 76.9 opens a run to VWAP ~77.9, while a clean loss of 75.59 opens a trend leg toward 74.5.",
+  "expectancy_note": "Shorting now = late entry into oversold (1h RSI 30, VWAP -2.1%, %B<0) crowded-long tape AT support \u2014 the account's proven loss pattern (short trend avg -2.89R). Long is premature until the bounce confirms. HOLD has best expectancy; wait for the level to pick a side.",
+  "rationale": "SOL is oversold and stretched right on 75.59 support with a capitulation flush already absorbed and higher lows forming \u2014 shorting here invites a squeeze against a 2.49 crowded-long book, and the composite short is low-conviction (38%) and not TF-aligned. A long is the better lean given +4.25% RS vs BTC and the 5m flip up, but it must prove itself by reclaiming the 76.9 shelf rather than being caught blindly at the low with CPI Jul 14 overhead. No honest R:R at spot; wait.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 76.9,
+    "expires_min": 240,
+    "note": "Reclaiming the 76.9 shelf confirms the support bounce held and flips me to a mean-reversion long toward VWAP 77.9 / 83.95."
+  },
+  "transcript": {
+    "macro": "Fragile/mixed. Crypto proxies high BTC-beta. SOL RS +4.25% vs BTC but sitting on support (75.59, price 76.27), oversold (RSI 30s), funding roughly flat/slightly negative, L/S 2.49 = CROWDED LONG (contrarian squeeze risk on shorts). SOL short signal low-conviction (38%, not aligned across TFs). Crypto soft but recovering: Fear&Greed ~13->45, BTC bouncing off ~$58k. Jul 14 CPI overhead \u2014 keep size modest.",
+    "sentiment": "Mildly bullish/neutral. Structurally supported: US spot SOL ETFs logged net inflows every July trading day, total assets >$1B; Clearstream added SOL custody Jul 8 \u2014 steady institutional bid, but no discrete 48h catalyst. Price subdued (~$74-76) vs $82-86 resistance. Slight bullish tilt, no imminent binary.",
+    "analyst": "SOL oversold and stretched on 75.59 support, capitulation flush (104k vol) absorbed, higher lows forming. Shorting invites a squeeze vs a 2.49 crowded-long book, and the short composite is low-conviction (38%) and not TF-aligned. Long is the better lean (+4.25% RS vs BTC, 5m flipping up) but must confirm by reclaiming the 76.9 shelf, not be caught blindly at the low with CPI Jul 14 overhead. No honest R:R at spot. HOLD; reconsider above 76.9.",
+    "portfolio": "HOLD SOL \u2014 oversold at support, no honest R:R; reconsider (long) above 76.9."
+  },
+  "timestamp": "2026-07-12T07:03:34.107510+00:00"
+}

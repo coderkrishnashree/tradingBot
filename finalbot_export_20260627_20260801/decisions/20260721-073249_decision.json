@@ -1,0 +1,28 @@
+{
+  "symbol": "EWY/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.33,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "none",
+  "forecast": "Coils 167.5-169 on dying volume just under the 170 rejection; more likely to fade toward VWAP/166 than to reclaim 170 while US cash is closed. No clean level to lean on either side, so I wait for the 167.5 shelf to break (confirms rollover, short) or a volume reclaim of 170 (long).",
+  "expectancy_note": "p(win) ~0.45 either direction; RR poor with ATR 2.08% whipsaw and no honest nearby stop. Chasing an extended +2.3%-VWAP, %B>1.07 bounce (long) or knife-catching the world's most volatile index into a thin closed-cash tape (short) both negative-expectancy; HOLD beats both.",
+  "rationale": "EWY already ran 165->170 and is now stalling below it on collapsing volume (813->28), extended above the upper Bollinger band (%B 1.07) and +2.3% over VWAP into a HOSTILE-for-longs macro with US cash CLOSED (provisional gappy prints). Composite long is weak (30%) and just echoes the technical rebound; rel-strength -25% flags it as the laggard. The account's shorts are the losing book (46% win, exactly late-short-into-stretched-tape deaths), so I will not chase either side without confirmation. No trade with acceptable R:R here.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 167.4,
+    "expires_min": 240,
+    "note": "Losing the 167.5 intraday shelf that has held the last several bars confirms the dead-cat bounce has rolled over and opens a cleaner short toward VWAP/166 with a definable stop back above 169."
+  },
+  "transcript": {
+    "macro": "Regime MIXED/defensive-lite. AI-tech deleveraging pullback; Asia V-rebound into 7/21 (can fail). Rates/USD headwind, FOMC 7/29. CRITICAL: scan 07:25 UTC (~03:25 ET) - US cash CLOSED, thin proxy signals gappy/provisional. Crowded-long book, gap risk. EWY tilt HOSTILE for longs: KOSPI down 6.6% intraday mid-month on AI-chip deleveraging; won weak; highest cyclical/semiconductor beta, rebound technical/unstable. Favor SHORT or avoid; smallest size.",
+    "sentiment": "EWY volatile, two-sided, leaning cautious. KOSPI just had its largest monthly drop in history (~-23% in July), triggering repeated circuit breakers, but rebounded +4.6% today (7/21) on blowout semis exports (+180% chip shipments, exports +52% first 20 days). Whipsaw regime: world's most volatile major index right now. High-beta semis/AI proxy - outsized ATR both ways. Neutral with violent-rebound bias; size down.",
+    "analyst": "Already ran 165->170 and now stalling below it on collapsing volume, extended above the upper band (%B 1.07, VWAP +2.3%) into hostile-for-longs macro with US cash closed. Composite long weak (30%), RS -25% (laggard). Shorting the world's most volatile index on a thin gappy tape is a knife-catch and the account's short book loses. No acceptable-R:R trade. HOLD.",
+    "portfolio": "HOLD EWY - extended dead-cat bounce, whipsaw; short only on loss of 167.4."
+  },
+  "timestamp": "2026-07-21T07:32:49.378360+00:00"
+}

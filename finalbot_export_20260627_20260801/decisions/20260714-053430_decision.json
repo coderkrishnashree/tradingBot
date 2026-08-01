@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "TSM/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "TSM just bounced +7pts off 420.29 support into the broken 426-428 supply shelf; 5m RSI 93.8 = stretched. Next few bars likely stall/reject here, then either roll over to retest 424 and the 420.29 low (4h downtrend resumes) or push through 430. I want the rejection confirmed, not to short into the rip or long into a semis-hostile tape.",
+  "expectancy_note": "No clean edge NOW: shorting into a 93.8 5m-RSI bounce is the account's late-short trap; longing fights bearish 4h (RSI33, ADX55 down), L/S 1.87 crowd, semis selloff and the Jul-16 earnings binary. Best EV is to wait for the bounce to fail at structure.",
+  "rationale": "4h is firmly bearish (score -0.885, RSI 33, ADX 55.6) but the immediate 15m/5m tape is a stretched oversold-bounce into overhead supply, so a market short here gets run by continuation and a long fights macro + the Thursday earnings print. Aligned=false / align_factor 0.7 confirms TF conflict. No R:R-worthy entry exists at 428.25; the high-expectancy move is to arm a short for the bounce rejection.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 423.8,
+    "expires_min": 240,
+    "note": "Losing the 424 bounce pivot proves the oversold bounce failed at the broken shelf and the 4h downtrend is resuming toward 420.29 \u2014 that's the short entry with a tight stop above 428 and target 420/416."
+  },
+  "transcript": {
+    "macro": "Cycle scan 2026-07-14 05:28 UTC (thin overnight tokenized tape). Regime modestly RISK-ON but two-tiered \u2014 SEMIS are the drag today: Samsung record Q2 spooked AI-capex sustainability; SanDisk -7%, Micron -6%, Intel -3%. Funding ~zero (no signal). L/S long-heavy: TSM 1.87 (contrarian caution), structure_bias -0.25. TSM relative strength vs BTC -2.0% (lagging); low BTC-corr 0.12. KEY FLAG: TSM reports Q2 earnings Thursday Jul 16 2pm ET \u2014 binary event; macro says do NOT hold through the print. Bottom line: HOSTILE for semis longs into the chip selloff and TSM earnings.",
+    "sentiment": "TSM HARD CATALYST \u2014 Q2 earnings Thu Jul 16 before US open, the single most important event this cycle for semis. Consensus ~$3.77-3.83/ADR on ~$39-40B rev; watch full-year guide (>30%), capex, CoWoS/AI packaging \u2014 expect an outsized gap. Geopolitical overhang: Trump renewed attacks on Taiwan chips + threatened 100% semiconductor tariff \u2014 live intraday headline risk. Net: HIGH-IMPACT / two-sided event-risk name into Jul 16.",
+    "analyst": "TSM: last 428.25, ADX 55.6, 4h short (-0.885, RSI 33.0), composite short but aligned=false (align_factor 0.7), blended -0.325, structure_bias -0.249, L/S 1.865, funding zero, support 420.29, resistance 460.54, RS -1.95, btc_corr 0.119. Recent 15m: fell to 420.29 low then bounced hard +7pts over ~2h (421->428.25), last close near top of range, 5m RSI 93.8 = extreme LTF overbought. 4h bearish/oversold but immediate tape a stretched bounce into the 426-428 supply zone it broke down from. Classic trap: shorting a bearish name AFTER an oversold bounce into resistance \u2014 no clean short here (would get run) and long fights macro + earnings. HOLD; arm short trigger below the bounce structure at 423.8.",
+    "portfolio": "TSM \u2014 HOLD (conf 0.50): semis-hostile + Jul-16 earnings binary; no edge into a stretched bounce; armed short reconsider at 423.8."
+  },
+  "timestamp": "2026-07-14T05:34:30.908100+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "SNDK/USDT:USDT",
+  "size": 0.0,
+  "entry": 1481.72,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.28,
+  "playbook": "none",
+  "forecast": "Thin Sunday pop from 1455 to 1481 is likely to stall/fade into the 1484-1490 offer wall (orderbook -0.87) and drift back toward 1452-1455 VWAP over the next few 15m bars; no clean directional move until Monday's real open.",
+  "expectancy_note": "No edge: p(win)~0.45, composite conf 4.1/FLAT, regime chop (ADX 9.6). Chasing a thin +1.7% candle into a -0.87 book wall on a closed, gappy market is negative expectancy vs waiting.",
+  "rationale": "SNDK is a tokenized equity with US market CLOSED (Sunday) \u2014 thin, gappy, Monday-gap and FOMC (Jul 28-29) risk. The 15m breakout flag is a low-quality signal on a chop composite (regime_blocked, ADX 9.6), and the pop ran straight into a heavy sell wall (orderbook_imbalance -0.871, structure_bias -0.366) while the name is -20% MTD in profit-taking (4h RSI 39, 4h MACD deeply negative, rel strength -13.6%). No honest R:R here; buying the thin spike is the account's classic late-chase loss and shorting into a fresh pop with no trend is equally poor. Stand aside at zero size.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 1490,
+    "expires_min": 240,
+    "note": "A decisive reclaim and hold above the 1484-1490 offer wall on real (Monday) volume would confirm the breakout is genuine rather than a thin Sunday wick, justifying a long re-look toward 1520/1560."
+  },
+  "transcript": {
+    "macro": "REGIME: NEUTRAL tilting RISK-OFF. Chip-led weakness, VIX ~18.6. US market CLOSED (Sunday) \u2014 tokenized-equity perps thin/gappy, Monday gap risk. FOMC Jul 28-29 in window. Scan: SNDK composite conf 4.1, signal FLAT, tradeable=True (weak/no edge).",
+    "sentiment": "SNDK: NEUTRAL \u2014 earnings not until Aug 5 (investor day Aug 13). Best S&P name YTD (+700%) but down ~20% MTD on profit-taking. No <=48h catalyst.",
+    "analyst": "Low-quality 15m breakout on a regime-blocked chop composite (ADX 9.6, conf 4.1); the +1.7% thin pop ran into a heavy sell wall (orderbook -0.87) while the name is -20% MTD in profit-taking. Buying the spike is the classic late-chase loss; no trend for a short either. Stand aside.",
+    "portfolio": "HOLD (0.28) \u2014 stand aside; thin pop into a sell wall, no edge, profit-taking downtrend."
+  },
+  "timestamp": "2026-07-26T22:39:49.403457+00:00"
+}

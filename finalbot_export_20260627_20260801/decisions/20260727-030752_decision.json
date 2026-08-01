@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "TSLA/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Price just flushed to 313.75 and is coiling at VWAP (315.2) with the 5m turning up; expect a relief bounce back toward the broken 316.5-317 shelf over the next 2-5 bars. That retest is where the crowded-long squeeze and 4h downtrend (-0.9, ADX 67) resume the leg lower - I want to short the bounce, not the current dead-center stall.",
+  "expectancy_note": "Market short now is dead-center (VWAP, %B 0.48, RSI 56) into a fresh 5m up-flip = the account's #1 losing pattern (shorts 46% win, -0.82 avg). R:R to first TP from here is <1.5. Waiting for the 316.8 retest gives ~1.3 risk vs ~2R reward - far better expectancy.",
+  "rationale": "The bearish case is real: most crowded-long structure in the book (funding -1.0, L/S 2.60, bias -0.68), weakest rel-strength (-27%), strong 4h downtrend. But price is neither extended nor at a level right now, and the 5m has flipped long off the 313.75 low, so a market short would be chasing a stall into a bounce. I'd rather sell strength at the broken 316.5-317 shelf where R:R and the squeeze thesis line up; holding until then.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 316.7,
+    "expires_min": 240,
+    "note": "A bounce into the broken 316.5-317 support-turned-resistance is the high-R:R short entry against the crowded-long squeeze thesis; re-debate to arm the short there."
+  },
+  "transcript": {
+    "macro": "2026-07-27: Mixed-to-hostile, event-gated. FOMC Wed 7/29 2pm ET. Oil >$100. Crowd lopsided-long, maxed funding -> favor shorts where aligned. TSLA: composite SHORT (not fully aligned), 4h strong down (-0.9), rel-strength -27% weakest name, most crowded-long structure in book (funding -1.0, L/S 2.60, bias -0.68) = trapped-long squeeze fuel.",
+    "sentiment": "TSLA earnings ALREADY PASSED (Q2 reported Wed 7/22): mixed-negative - record rev $28.2B beat but EPS miss ($0.33 vs $0.49), operating margin crushed to 1.4%, FCF -$1.1B, thin Robotaxi/Optimus milestones; stock fell ~4% AH. No fresh 48h catalyst; residual tone bearish.",
+    "analyst": "Bearish case is real (most crowded-long structure, weakest rel-strength, strong 4h downtrend), but price is dead-center at VWAP with the 5m flipping long off the 313.75 flush - a market short is the account's #1 losing pattern (chasing a stall into a bounce). Prefer selling strength at the broken 316.5-317 shelf where R:R lines up. HOLD; arm short on a bounce into 316.7.",
+    "portfolio": "TSLA: HOLD - bearish but sell the bounce at 316.7, don't chase the dead-center stall."
+  },
+  "timestamp": "2026-07-27T03:07:52.965218+00:00"
+}

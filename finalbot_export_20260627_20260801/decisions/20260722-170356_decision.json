@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "EWJ/USDT:USDT",
+  "size": 0.0,
+  "entry": 92.45,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.62,
+  "playbook": "none",
+  "forecast": "No tradable move: last 3 bars print 92.45 flat on 0.0 volume; price frozen mid-range (88.16-94.82) with no liquidity to carry a directional leg.",
+  "expectancy_note": "p(win) undefined \u2014 near-zero 15m volume makes fills/stops fiction; no honest R:R exists, so HOLD dominates any entry.",
+  "rationale": "The candles are the whole story: nearly every 15m bar has ~0 volume and the last three are flat 92.45 prints \u2014 the venue is effectively closed for this tokenized ETF. 'Strong' ADX 42 / 15m score 0.807 is illusory noise on illiquid prints, and timeframes aren't aligned (1h score -0.585). Add risk-off/hawkish macro, DXY 13-mo high, crowded-long structure, and GOOGL/TSLA earnings tonight = overnight gap risk on a thin token \u2014 any stop/target is fiction. Size 0.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 94.82,
+    "expires_min": 240,
+    "note": "A close above range-high resistance on real (non-zero) volume would prove buying returned and could justify a momentum long."
+  },
+  "transcript": {
+    "macro": "RISK-OFF/hawkish. Fed edging toward a HIKE; DXY 13-mo high, 10Y ~4.5%. GOOGL/TSLA tonight = overnight Nasdaq vol. Tokenized ETFs thin/gappy off-hours; EWJ specifically shows near-zero 15m volume \u2014 'trend' is illusory/untradeable in size.",
+    "sentiment": "EWJ neutral, thin. Little idiosyncratic news; scan candles near-zero volume (illiquid, gappy fills). No <=48h catalyst. Broad risk-on/off proxy, low conviction.",
+    "analyst": "Frozen flat on 0.0 volume, mid-range, timeframes unaligned. Textbook no-trade; any stop/target is fiction. HOLD.",
+    "portfolio": "EWJ -> HOLD (conf 0.62): illiquid/frozen, no honest R:R \u2014 stand aside."
+  },
+  "timestamp": "2026-07-22T17:03:56.863330+00:00"
+}

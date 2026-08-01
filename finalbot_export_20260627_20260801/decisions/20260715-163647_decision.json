@@ -1,0 +1,25 @@
+{
+  "symbol": "AAPL/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.34,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "size": 0.0,
+  "playbook": "none",
+  "forecast": "Price pinned at 328.17 resistance with RSI ~77-88 and %B 1.27 across all TFs; most likely a stall/pullback toward VWAP ~318-320, not a clean continuation.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 324.0,
+    "expires_min": 240,
+    "note": "Losing 324 breaks the intraday base and confirms an overbought stall rolling into a mean-reversion move toward VWAP ~318, opening a short; a clean hold-and-retest above 328.2 would instead be the long trigger."
+  },
+  "rationale": "AAPL is a tokenized equity (funding/OI/L-S not meaningful); relies on technicals + neutral macro, no catalyst before Jul 30 earnings. It is deeply overbought (RSI 76.9/4h, Stoch 97.8, %B 1.266, +3.1% over VWAP ~2.8 ATR) and sitting exactly at 328.17 resistance after a near-vertical grind \u2014 a routine counter-bounce would stop any honest long before the trend resumes, so a market long is prohibited. No bearish reversal signal yet either, so a short has no edge. HOLD; size 0.",
+  "transcript": {
+    "macro": "Regime risk-ON but extended (S&P +0.24%, Nasdaq +0.28%, VIX 16.2). Fed FOMC Jul 28-29 outside window. AAPL scan near-flat (composite conf 5.1); broad mega-cap tape follower. Crowded-long positioning broadly argues smaller size.",
+    "sentiment": "AAPL: earnings Jul 30 after close (outside window); no imminent binary; trades on broad-market/mega-cap tape; options imply ~+/-5.4% on the eventual print. Neutral near term.",
+    "analyst": "Deeply overbought across ALL TFs (RSI 76.9/87.9/82.1/78.3, Stoch 97.8, %B 1.266, +3.11% VWAP ~2.8 ATR) sitting exactly at 328.17 resistance after a near-vertical grind. Longing chases the account's #1 loss pattern; shorting a raging ADX-67 uptrend with no lower-high/divergence gets run over. No positive-expectancy entry -> HOLD.",
+    "portfolio": "HOLD AAPL \u2014 too extended into resistance to chase, no reversal to short; reconsider below 324."
+  },
+  "timestamp": "2026-07-15T16:36:47.835739+00:00"
+}

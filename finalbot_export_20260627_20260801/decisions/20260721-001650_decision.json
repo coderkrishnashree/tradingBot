@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "QQQ/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.4,
+  "playbook": "none",
+  "forecast": "Price chops 694-698 just above support 688; oversold stoch (7.7) favors a bounce back toward VWAP/697-698 before any clean break of 688. Expect a relief pop first, not an immediate flush.",
+  "expectancy_note": "Short here has p(win)~0.44, crowd already short (LS 0.81) and stoch 7.7 = chasing into support; no long edge either. Best EV is waiting for a 697-698 rejection or a confirmed 688 break.",
+  "rationale": "4h reads short (-0.86) but the entry is broken: stoch 7.7 and 30m RSI 27.3 with price only ~1% above major support 688 and already below VWAP means a fresh short chases a stretched move a routine bounce would stop out first - this account's losing pattern (shorts 0.48 win, -0.73 avg). long_short 0.81 shows the crowd is already short (bounce fuel), and GOOGL earnings within 48h add two-way gap risk. No long setup either. HOLD until price breaks and holds below 688.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 688.0,
+    "expires_min": 240,
+    "note": "Losing the 688 support on a 15m close confirms the 4h downtrend resuming and gives a non-chasing continuation short."
+  },
+  "transcript": {
+    "macro": "MIXED-to-HOSTILE. Risk-off, hawkish Fed, rising yields, oil-driven inflation, rotation OUT of tech/semis. QQQ scan reads SHORT (blended -0.36, 4h down, mid-range 695 vs S 688 / R 727). QQQ RS vs BTC -16% (lagging badly). Tokenized equity: thin/gappy off-hours.",
+    "sentiment": "QQQ: no single-name catalyst but wraps a WALL of mega-cap earnings: GOOGL after-close within 48h (can move QQQ futures overnight), MSFT Jul 29, AAPL Jul 30. Scan QQQ short-biased (4h -0.86, stoch 7.7 oversold). GOOGL gap risk cuts both ways.",
+    "analyst": "4h short but the entry is broken: stoch 7.7, 30m RSI 27.3, price ~1% above support 688 and below VWAP - a fresh short chases a stretched move a bounce stops out. LS 0.81 = crowd already short (bounce fuel); GOOGL earnings <48h add two-way gap risk. HOLD until 688 breaks and holds.",
+    "portfolio": "HOLD QQQ - oversold, don't chase short into support; arm reconsider below 688."
+  },
+  "timestamp": "2026-07-21T00:16:50.667970+00:00"
+}

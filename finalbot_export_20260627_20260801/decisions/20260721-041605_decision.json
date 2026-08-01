@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "MSFT/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Chop 400-403 for the next several bars; price stalls under the 402 shelf with drying volume and no momentum. Neither a clean push to 406 resistance nor a break of 400 is set up yet.",
+  "expectancy_note": "No edge: ADX 24 (no trend), price mid-air ~1% under resistance (no fade level), bearish divergence + stoch 90 + crowded long block a fresh long; thin off-RTH risk-off tape. p(win) on any entry ~0.5, R:R unfavorable.",
+  "rationale": "Weak long composite (41% conf, blended 0.243) undercut by bearish divergence, stoch 90.7, %B 0.93 and long_short 1.85 crowding into a risk-off pre-open with ~-1% futures. But price sits ~1% below the 406 resistance, so there is no extreme to fade either \u2014 the 15m candles show a stalling, drying-volume chop just under 402, not a trend leg. No honest R:R>=1.5 setup in either direction; size 0.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 406.14,
+    "expires_min": 240,
+    "note": "A decisive reclaim/break of 406 resistance negates the bearish divergence and proves buyers absorbed the crowded-long overhang \u2014 flips this to a trend-continuation long."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF/defensive (2026-07-21): S&P -0.28%, futures ~-1% pre-open, VIX firming; DXY soft. Geopolitics (Iran/Hormuz) headline-gap tape; size down. Tokenized equity thin off US RTH. MSFT reports Wed Jul 29 after close \u2014 OUTSIDE 48h (no gap this cycle) but hard boundary for holds >~2 days. MSFT crowded long L/S 1.85, structure_bias negative; scan modest long but bearish divergence, stoch 90, stretched near resistance ~406.",
+    "sentiment": "MSFT neutral near-term: FY26 Q4 earnings Wed Jul 29 after close (outside 48h). Key read Azure sustaining high-30s/40% growth; prior quarter shares fell despite strong Azure on heavy capex. No <=48h binary; flag Jul 29 for holds beyond ~2 days.",
+    "analyst": "HOLD MSFT. Weak long composite is contaminated by bearish divergence, stoch 90.7, %B 0.93 and heavy long-side crowding (L/S 1.85) into a risk-off, thin off-RTH tape \u2014 but price is mid-air ~1% under the 406 resistance, so there's no clean extreme to fade either. ADX 24 = no trend, drying-volume chop under 402. No honest R:R setup either way. Re-debate on a decisive break above 406.14.",
+    "portfolio": "HOLD MSFT \u2014 no-trend chop under 402, bearish divergence blocks a long, no fade level; wait for a 406 break."
+  },
+  "timestamp": "2026-07-21T04:16:05.637557+00:00"
+}

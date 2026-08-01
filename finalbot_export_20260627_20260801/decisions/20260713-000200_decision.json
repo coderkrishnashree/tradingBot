@@ -1,0 +1,23 @@
+{
+  "action": "hold",
+  "symbol": "BTC/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.55,
+  "rationale": "Strong downtrend (ADX 56) with real sell pressure (orderbook -0.648) and hostile CPI-Tuesday macro favors shorts - but LTF is oversold (15m RSI 23, stoch 18) and price is basing just above 63,655, so a fresh market short is a chase a routine bounce would stop out. No long into a RISK-OFF ADX-56 downtrend under VWAP. Best expectancy is to wait: re-arm a short on a bounce to VWAP/resistance ~64,200, or on a decisive break of 63,600.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 64200,
+    "expires_min": 240,
+    "note": "A bounce back to VWAP/64,200 offers a clean trend-aligned short entry near 64,700 resistance with a tight stop, instead of chasing the low."
+  },
+  "transcript": {
+    "macro": "RISK-OFF/defensive. BTC dominance ~56%, Fear&Greed ~22. Funding flat (spot-driven grind lower). Dominant 48h risk: Tue Jul 14 June CPI (est +3.8% YoY) + Warsh testimony, possible Sept HIKE. BTC: MIXED/HOSTILE for longs. $63.8k, ADX 56 (strong trend), price under VWAP, orderbook imbalance -0.65 (real sell pressure), long/short 1.35. Downtrend intact into CPI - supports shorts/fades of rallies, not fresh longs.",
+    "sentiment": "BTC bearish/cautious near-term. Fear&Greed 31 (Fear); recovered off June ~$58K low but stalling below $64K. Big binary: Tue Jul 14 8:30 ET June CPI - dominant 48h catalyst. April printed 3.8% YoY (hot); a hot June feeds the hawkish-Fed narrative pressuring BTC. FOMC Jul 28-29 outside window. Two-sided event risk - size accordingly.",
+    "analyst": "Trend, orderbook (-0.648) and CPI macro argue bearish, but BTC just flushed and is basing above 63,655 with 15m RSI 23 - market-shorting here is the account's proven losing pattern (late short into oversold, stopped by the bounce; trend shorts 42% win / -2.87 avg pnl). No long into an ADX-56 RISK-OFF downtrend. Highest-expectancy is to wait and re-debate on a bounce to VWAP ~64,200 where a trend-aligned short near 64,700 sets up with a tight stop.",
+    "portfolio": "BTC: HOLD (conf 0.55) - bearish bias but wait to short the bounce to VWAP ~64,200, don't chase the low."
+  },
+  "timestamp": "2026-07-13T00:02:00.085666+00:00"
+}

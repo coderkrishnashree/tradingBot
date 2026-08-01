@@ -1,0 +1,22 @@
+{
+  "action": "short",
+  "symbol": "MSTR/USDT:USDT",
+  "size": 2.0,
+  "entry": 95.9,
+  "stop_loss": 97.6,
+  "take_profit": 91.0,
+  "take_profit_1": 92.99,
+  "take_profit_2": 91.0,
+  "confidence": 0.56,
+  "playbook": "trend",
+  "forecast": "The 96.86 bounce has already faded to 94.44 closing near its low; expect a dead-cat retest of the broken 95.7-96.0 shelf over the next 1-3 bars, then rejection and resumption lower toward the 92.99 bounce origin and on to ~91.",
+  "expectancy_note": "p(win)~0.55, R:R 1.7 to TP1; limit-at-retest beats market-chasing a name already -4.2% below VWAP (RSI 33.7) where late trend-shorts have bled.",
+  "rationale": "MSTR is worst RS in book (-16% vs BTC), 0.79 BTC-corr with no BTC tailwind, L/S 1.51 crowded long into a downtrend, plus a real fresh bearish catalyst (Strategy selling BTC below cost basis). But price is already stretched down (4h RSI 33.7, -4.19% VWAP, stoch 21.6) and just spiked to 96.86 before fading \u2014 a market short here is the exact late-short trap, so I use a LIMIT into the 95.9 retest with stop above the 96.86 swing (0.58xATR risk) targeting the 92.99 shelf then 91. Size small (2%) given ~3% ATR whippiness and gappy risk-off tape.",
+  "transcript": {
+    "macro": "Regime RISK-OFF-LEANING/MIXED, defensive. Oil gapped up on US-Iran, yields up. No CPI/FOMC in 48h; driver = geopolitical/oil headline tape. Crypto soft-neutral: BTC ~$62.7k chopping, dominance rolling off, no tailwind. L/S lopsidedly LONG while price bleeds (contrarian-bearish). Favors shorts/fades; size down. MSTR: worst RS in crypto-proxy cluster (-16% vs BTC), high BTC corr (0.79) = levered-BTC beta, L/S 1.51 crowded long into downtrend, whippy (spiked 93->96->94).",
+    "sentiment": "Overall NEUTRAL-to-BEARISH tech. MSTR: REAL fresh bearish catalyst \u2014 Strategy SOLD 3,588 BTC (~$216M) Jun29-Jul5 to fund preferred dividends, a break from 'never sell'; treasury underwater vs ~$75.5k basis. Highest BTC correlation; any BTC weakness/further-sale = amplified downside.",
+    "analyst": "Genuinely short bias (worst RS, crowded L/S 1.51, real BTC-sale catalyst) but price stretched down (4h RSI 33.7, -4.19% VWAP) and just spiked 96.86 then faded to 94.44 \u2014 won't chase mid-air. LIMIT short 95.9 into the dead-cat retest of broken 95.7-96 shelf, stop 97.60 above the 96.86 wick (0.58xATR), tp1 92.99, tp2 91. Size 2% for 3% ATR whippiness + risk-off gaps.",
+    "portfolio": "MSTR: SHORT limit 95.9 on the retest (conf 0.56, size 2%) \u2014 fade the bounce into crowded longs + BTC-sale overhang."
+  },
+  "timestamp": "2026-07-09T14:32:36.346441+00:00"
+}

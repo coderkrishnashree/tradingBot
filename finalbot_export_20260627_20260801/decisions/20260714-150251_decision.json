@@ -1,0 +1,26 @@
+{
+  "symbol": "AAPL/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.6,
+  "size": 0.0,
+  "entry": 314.74,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "forecast": "Continued coil in the 313-317 zone over the next few bars; no directional edge until price resolves the squeeze by clearing 316.9 (toward 323) or losing 312 (toward 305).",
+  "expectancy_note": "No entry clears the bar: mid-range (%B 0.39) so nothing to fade, ADX 24.5 with 1h short vs 15m/30m long so no trend, BB coil has no trigger. Best-EV action is HOLD; any market entry here is negative expectancy on a thin off-hours book.",
+  "rationale": "AAPL is dead-center of its 305-323 range with BB width crushed to 1.47% and price pinned near VWAP (-0.64%) on thin off-hours volume. Timeframes conflict (1h short RSI 31 vs 15m/30m long), structure is neutral (bias +0.09, flat funding, balanced L/S), and there is no <=48h catalyst (earnings Jul 30). No honest stop-to-target gives R:R >=1.5 from this mid-range location, and chasing a muddy-composite breakout into a thin book is the flagged loss pattern. Wait for the coil to resolve.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 316.9,
+    "expires_min": 240,
+    "note": "Reclaiming the top of the coil / prior micro-resistance on volume confirms the breakout attempt toward 323 and turns this into a long; losing 312 would instead open the 305 support test."
+  },
+  "transcript": {
+    "macro": "Cycle 2026-07-14. Regime MIXED, leaning cautious. Soft CPI (3.5% vs 3.8% exp) = modest risk-on for tech, July hike odds ~33%, but hawkish Warsh keeps Sept hike odds ~69% and an oil/Hormuz shock pushed WTI ~$79. S&P +0.4%, Nasdaq +0.8% \u2014 chop-with-event-risk. AAPL barely tracks BTC (corr 0.28); pure equity. AAPL is relative-strength standout of equity names (+0.37% vs BTC), structure near-neutral (+0.09), flat funding, balanced L/S 1.005, orderbook modestly bid (+0.31), mid-range 305-323, thin book, high off-hours gap risk. Earnings Jul 30 (outside 48h window).",
+    "sentiment": "AAPL tone constructive/steady. NO near-term (<=48h) stock-specific catalyst. Earnings Jul 30 outside window. Apple sued OpenAI Jul 10 over AI trade-secret theft \u2014 slow-moving legal overhang, not a 48h driver. India antitrust probe + Siri settlement = background risk. Near-term direction set by macro/index tape.",
+    "analyst": "HOLD. AAPL coiled dead-center of the 305-323 range (BB width 1.47%) near VWAP (-0.64%) on thin volume. Timeframes conflict (1h short RSI 31 vs 15m/30m long), structure neutral, no <=48h catalyst. No honest stop-to-target gives R:R >=1.5 from mid-range; chasing the muddy-composite breakout into a thin book is the flagged loss pattern. Re-debate trigger above 316.9 (toward 323); 312 loss opens the 305 test.",
+    "portfolio": "AAPL/USDT:USDT \u2014 HOLD (conf 0.60); no size, wait for coil to resolve above 316.9 or below 312."
+  },
+  "timestamp": "2026-07-14T15:02:51.071062+00:00"
+}

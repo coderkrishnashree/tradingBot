@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "XAUT/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price coils 4111-4123 under the 4123 ceiling on fading volume; most likely it drifts sideways-to-lower into thin post-20:00 UTC liquidity, and a loss of the 4108/4096 shelf opens a fade toward VWAP/4060. A clean volume reclaim of 4123 would instead extend toward 4150+.",
+  "expectancy_note": "No honest edge: long is a late chase into 1h RSI 86 + crowded 2.90 L/S (bounce stops it), short is premature while the 4108 shelf holds. HOLD beats both until structure resolves.",
+  "rationale": "Composite prints long (+0.325) but the setup is a stretched, crowded, late continuation: 1h RSI 86 exhaustion, long_short 2.90, orderbook -0.22 and structure_bias -0.381 all lean bearish, funding flat (no squeeze fuel), ADX 24 (no trend strength), and gold has macro-rolled-over into hawkish-Fed/firm-USD. Price is stalling at range highs on declining volume - chasing long has bad R:R and shorting is premature until the 4108/4096 shelf fails. Wait for structure to break; the downside trigger arms the higher-expectancy fade.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 4096.0,
+    "expires_min": 240,
+    "note": "Losing the 4096 shelf confirms the exhaustion-fade thesis and opens a clean short toward VWAP/4060 with the crowded longs offside."
+  },
+  "transcript": {
+    "macro": "Regime cautiously risk-on with rate/geopolitical crosswinds. Fed on hold 3.50-3.75%, June minutes hawkish (9-8 split on possible 2026 HIKE), inflation forecasts up; soft June payrolls (57k). Trump declared Iran ceasefire 'over' - strike/blockade threats push yields up on energy-inflation fears and, notably, do NOT bid safe-haven gold (feeds yield/dollar story). Gold trend has ROLLED OVER: spot ~$4,030 (lowest since Jul 2), firmer USD/real yields, hawkish Fed risk. Scan composite long (+0.325) but 1h RSI 86 exhaustion, long_short 2.90 crowded, orderbook -0.22, structure_bias -0.381, funding flat. Bias flip risk HIGH.",
+    "sentiment": "XAUT/Gold choppy/two-sided; mild bounce today (+~0.9% to ~$4,113) after slide to ~$4,030 Jul 8. Whipsaw risk high. Bearish weight: hawkish FOMC minutes, sticky yields + firm DXY capping bullion, Iran oil spike feeds higher-for-longer. Floor: soft payrolls + Hormuz safe-haven bid. Near-term catalyst June CPI Mon Jul 14 (outside 48h) - the week's binary; nothing inside 48h -> range/headline chop into weekend. No Tether-Gold-specific catalyst.",
+    "analyst": "Composite tags XAUT long but every quality filter contradicts chasing it: 1h RSI 86 exhaustion, crowded long_short 2.90, bearish orderbook (-0.22) and structure_bias (-0.381), flat funding (no squeeze fuel), weak ADX 24, price stalling at range highs (4118.9 under the 4123 ceiling) on fading volume, against a macro backdrop where gold has rolled over. Late long has poor R:R into a stretched tape; short is premature while the 4108/4096 shelf holds. Reconsider armed at 4096 (price_below) - losing that shelf opens the higher-expectancy short toward VWAP/4060.",
+    "portfolio": "XAUT/USDT:USDT -> HOLD (conf 0.60); no honest edge either way, armed to short a break below 4096."
+  },
+  "timestamp": "2026-07-09T16:59:02.448701+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "action": "short",
+  "symbol": "QQQ/USDT:USDT",
+  "size": 3.0,
+  "entry": 699.6,
+  "stop_loss": 703.6,
+  "take_profit": 688.3,
+  "take_profit_1": 691.0,
+  "take_profit_2": 688.3,
+  "confidence": 0.56,
+  "playbook": "trend",
+  "forecast": "LTF stretched (15m/30m RSI ~32) at the 696.7 low; expect a mean-revert bounce toward VWAP/broken-support ~699.5-700 within 2-4 bars, where the 4h downtrend (score -0.9, ADX 46) resumes and drives price back toward 691 then support 688.",
+  "expectancy_note": "p(win)~0.55, R:R ~2.2 to tp1 / ~2.8 to tp2; limit-into-bounce beats chasing the low (that late-short-into-stretched-tape pattern is the account's #1 loser, p_win_learned 0.435), and beats a naked hold because the 4h trend + weak rel-strength (-15%) give a real short edge on the retest.",
+  "rationale": "QQQ is in a confirmed 4h downtrend (score -0.9, ADX 46) and is the weakest of the index proxies (rel_strength -15%), but LTF RSI at 31-32 means a fresh market short here would be chasing into a due bounce that hits any honest stop first. I place a LIMIT short at the VWAP/broken-support retest ~699.6 with stop just above the 703-704 rejection cluster, targeting 691 then support 688; risk 4.0pts, tp1 reward 8.6pts = R:R 2.2. Size trimmed to 3% for off-US-hours thin/gappy tape and GOOGL earnings Wed event risk.",
+  "transcript": {
+    "macro": "2026-07-20 RISK-OFF/DEFENSIVE. Nasdaq soft, wait-for-Big-Tech-earnings holding pattern; oil ~$90 on US/Iran tensions. Crypto risk-off, BTC ~$64-65k, Fear&Greed 25-29 (Extreme Fear), BTC dominance ~56.3% = no alt rotation. Earnings cluster: GOOGL+TSLA Wed Jul 22 aftmkt, INTC Thu Jul 23; FOMC Jul 28-29. Funding ~0; long/short lopsidedly long = crowded-long, contrarian-short tilt. Tokenized-equity perps thin/gappy off cash hours. QQQ line: lean SHORT/neutral, down-trend 4h, size down into earnings-week chop.",
+    "sentiment": "Cool June CPI (Jul 14) -> Fed hold expected 7/28-29; constructive rates but AI-capex fatigue (Oracle-led rotation) + single-name earnings risk dominate next 10 days. QQQ: no single catalyst but sits atop the megacap earnings wave (GOOGL 7/22 first) + FOMC; slightly bearish near-term, direction hostage to GOOGL 7/22.",
+    "analyst": "4h down (score -0.9, ADX 46), weakest index RS (-15%), but 15m/30m/5m RSI 31-35 = LTF stretched at the 696.7 low; p_win_learned 0.435 shows late shorts lose. Chose a LIMIT short into the VWAP/broken-support bounce ~699.6, stop 703.6 above the rejection cluster, tp1 691 / tp2 688 (support). R:R 2.2. Size 3% for thin off-hours tape + GOOGL earnings.",
+    "portfolio": "SHORT QQQ on the retest \u2014 limit 699.6, conf 0.56, small size into earnings-week chop."
+  },
+  "timestamp": "2026-07-20T20:18:43.041138+00:00"
+}

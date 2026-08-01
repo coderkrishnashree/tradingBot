@@ -1,0 +1,28 @@
+{
+  "symbol": "QQQ/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.28,
+  "size": 0.0,
+  "entry": 724.66,
+  "stop_loss": 698.42,
+  "take_profit": 732.99,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "none",
+  "forecast": "Expect continued low-energy drift/chop in the 720-726 zone into US close; stochastic pinned at 99.7 and %B 0.88 leave <1.1% to the 733 cap, so no clean directional move sets up in the next few bars.",
+  "expectancy_note": "No edge: ADX 1.3 (no trend), BB width 3.58% (no mean-revert room), structure dead-flat (bias -0.02, L/S 0.95). Any entry here is a coin-flip with negative expectancy after fees/liquidity cliff.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 733.0,
+    "expires_min": 240,
+    "note": "A clean break and hold above 733 resistance turns the coil into a breakout long toward the measured move; that is the level that flips me to a trade."
+  },
+  "rationale": "QQQ is regime-blocked chop grinding into the top of a 698-733 range with stochastic maxed (99.7) and price 1.64% over VWAP \u2014 extended for a long, but no bearish confirmation and a tight band for a fade, so neither side has 1.5R. Macro/sentiment confirm no <48h catalyst (real risk is Jul 14 CPI/Warsh, outside window) plus a US-close liquidity cliff, so directional risk is uncompensated. HOLD is the highest-expectancy call; wait for a range break to trade the resolution.",
+  "transcript": {
+    "macro": "Overall MIXED-to-CAUTIOUS; Nasdaq only +0.2% with weak tech internals. QQQ: HOSTILE for a directional trade \u2014 scan flat/regime-blocked (chop, ADX 1.3, confidence 1.2%), structure_bias -0.02, L/S ~neutral 0.95, coiled in 698-733 range near top (bb %b 0.88). No positioning edge either way; environment does NOT support directional risk this session.",
+    "sentiment": "QQQ neutral-to-cautious for 48h. Firm ~$716 (+0.6% premarket Jul 9) but week's binaries are Jul 14 (June CPI + Warsh testimony) and Jul 15 PPI \u2014 outside window. Fed ~73% hold in July; rising yields a mild drag. No <=48h index catalyst; expect range/beta trading into next week's data \u2192 NEUTRAL, Jul 14 the real risk event.",
+    "analyst": "Low-ADX (1.3) drift up into the top of a tight range with stochastic pinned 99.7, %B 0.88, price 1.64% over VWAP. No trend to ride, narrow band (3.58%) leaves no mean-revert room, only ~1.1% to the 733 cap. Textbook NO TRADE \u2014 chop with no edge and no <48h catalyst plus a US-close cliff. HOLD; trigger a breakout long only on a clean hold above 733.",
+    "portfolio": "QQQ \u2014 HOLD (conf 0.28), size 0; breakout long only on clean hold above 733."
+  },
+  "timestamp": "2026-07-09T17:30:14.634233+00:00"
+}

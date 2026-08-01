@@ -1,0 +1,23 @@
+{
+  "symbol": "TSM/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.6,
+  "size": 0.0,
+  "entry": 441.29,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "rationale": "Price sits exactly at VWAP (-0.14%), mid-Bollinger (%B 0.51) and RSI 47.9 - no directional edge. Recent 15m tape shows a clean rejection at 443.0 with a fade back to 441, and structure is hostile to longs (orderbook imbalance -0.60 sellers stacked, L/S 1.58 crowded long, bias -0.354) into a hostile semis tape. Decisively, TSMC June revenue prints tomorrow (Jul 10) - a two-sided binary GAP inside the 48h window - so opening a leveraged perp now is a coin-flip, not a setup. Nearest tradable levels (support 425, resistance 478) are ~3.5%+ away and the micro 441-443 range is too tight for a 1.5R trade with an honest ~1xATR stop. Wait for the print and a real level.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 443.3,
+    "expires_min": 240,
+    "note": "A hold above the 443 rejection high proves buyers overwhelmed the stacked sellers and reopens a momentum long toward 445+; below it the fade owns the tape."
+  },
+  "transcript": {
+    "macro": "MIXED-to-HOSTILE environment. Tape rolled over into a semis-led sell-off (Jul 7 Nasdaq -1.2% on Samsung results + China DeepSeek building own AI chip). Live geopolitical risk-off (US-Iran, Strait of Hormuz, oil up, DXY ~101). Rates NOT supportive: May CPI +4.2% y/y, ~50% odds of a Sept HIKE. TSM: MIXED, event-gated. Earnings Jul 16 pre-open (~7d), binary two-sided gap; consensus bullish (bar high). Scan: structure_bias -0.354, L/S 1.58 crowded long, orderbook -0.60 sellers stacked, OI 3,590, rel_strength -3.75% vs BTC, btc_corr 0.16 (own semis story). Funding ~0. Neutral-to-cautious.",
+    "sentiment": "Market-wide jittery, semiconductor-led risk-off; AI trade lost steam. TSM: MIXED, high near-term event risk. TSMC June monthly revenue drops Jul 10 (tomorrow) + Q2 earnings Jul 16; in quiet period. Fundamentals strong (May sales +30% YoY, AI chips ~75% wafer rev, Q2 EPS ~$3.81 est) but sector tape hostile. June revenue print Jul 10 is the immediate binary. Elevated event risk into both dates.",
+    "analyst": "Price mid-VWAP, mid-Bollinger, RSI neutral - no edge. 443 rejection confirms stacked sellers defending; crowded longs argue fade-risk on pops. 1h/30m lean long but RSI elevated (66-67) and 4h MACD negative. Decisive factor: June revenue print <24h is a two-sided binary gap - entering a leveraged perp into a coin-flip with sellers stacked is poor expectancy. No clean level near price. HOLD.",
+    "portfolio": "HOLD TSM - no directional edge into a binary June revenue print (Jul 10); reconsider long only on a hold above 443.3."
+  },
+  "timestamp": "2026-07-09T09:59:31.275519+00:00"
+}

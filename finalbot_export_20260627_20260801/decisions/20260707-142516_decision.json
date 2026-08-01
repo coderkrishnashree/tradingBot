@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "MU/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Two tests of 908.9 with the last 15m bar closing green off 908.9 low; expect a relief bounce toward 924-930 over the next few bars, but a fresh flush through 908.9 stays possible \u2014 no clean entry until price picks a side.",
+  "expectancy_note": "Shorting RSI16/stoch3 at named support with green rejection = negative expectancy (squeeze risk); buying into an ADX-71 downtrend with no reclaim = knife-catch. Best EV is wait.",
+  "rationale": "MU is a tokenized equity so funding/OI/L-S are noise; read is pure technical. 4h RSI 16, stoch 3.2, %B below the band and vwap -6.65% mark a violent capitulation into support 908.9, which is holding on two tests with a green rejection candle \u2014 exactly the tape macro flags as high squeeze-risk to shorts. There is no positive-expectancy entry: the short chases fresh lows against a bullish fundamental and the long has no reclaim confirmation yet. Wait for price to prove direction.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 925,
+    "expires_min": 240,
+    "note": "Reclaiming the 924-925 shelf where the flush began confirms the oversold bounce has legs and flips this to a long into 940+."
+  },
+  "transcript": {
+    "macro": "RISK-OFF, tech-led (Samsung/semis flush). MU 913.41 sharpest mover, down ~7%: 4h RSI 16, ADX 71, bb_width 16% \u2014 deeply oversold violent leg. Fundamentals very strong (Q3 blowout, HBM booked through 2027, +241% YTD). Positioning flush vs bullish fundamental = highest bounce risk. Macro bias STAY-OUT / smallest size, don't chase the short.",
+    "sentiment": "MU bearish drift after the event. Q3 FY26 already reported Jun 24 (record revenue, huge beat, guide-up, consensus PT ~$525). Catalyst passed; -22% off post-earnings high despite +250% YTD \u2014 buy-the-rumor unwind. No 48h binary; July dividend immaterial. Post-earnings profit-taking + semi weakness = short-term bearish but deeply oversold.",
+    "analyst": "Violent capitulation (4h RSI 16, stoch 3.2, %B<0, vwap -6.65%, ADX 71) into support 908.9, holding on two tests with a green rejection candle \u2014 high squeeze risk. Short chases fresh lows vs a bullish fundamental; long has no reclaim. No positive-EV entry. HOLD; flip long on a 924-925 reclaim.",
+    "portfolio": "MU: HOLD (conf 0.60) \u2014 capitulation into support 908.9, no edge; wait for a 925 reclaim before considering a long, do not chase the short."
+  },
+  "timestamp": "2026-07-07T14:25:16.907284+00:00"
+}

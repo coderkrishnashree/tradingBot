@@ -1,0 +1,28 @@
+{
+  "symbol": "ORCL/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.5,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "none",
+  "forecast": "Dead-flat weekend grind holding 126.3-126.9 around VWAP; most likely more chop into Monday, with a slow drift lower toward 125 unless 124-125 breaks decisively to open the 120.79 support test.",
+  "expectancy_note": "No edge: short p(win)~0.40 (learned 0.382), mid-range at VWAP, 4h RSI 31 oversold + bullish divergence = bounce risk; fading nothing and chasing nothing beats a coin-flip short into a thin book.",
+  "rationale": "ORCL is short-biased fundamentally (S&P downgrade, RS -22.7%, long-crowded L/S 2.56) but the tape offers no entry: price sits AT VWAP (-0.88%), bb_pctb 0.40 mid-band, ADX 22 weak/choppy, 4h RSI 31 already oversold with a bullish divergence flagged \u2014 shorting here is the account's classic late-into-stretched loss, and buying fights risk-off + the downgrade. Weekend-illiquid token with live Monday gap risk argues for patience. I want a decisive break of support (fresh momentum, real room to 120.79) or a VWAP reclaim before committing.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 125.0,
+    "expires_min": 240,
+    "note": "Losing the multi-day 125 shelf breaks the quiet range and opens the 120.79 support test \u2014 a momentum short with real room, unlike the current dead mid-range."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF / hostile to fresh longs. Saturday \u2014 US equities closed, tokenized-stock pairs trade weekend/underlying-closed (thin books, live Monday gap risk). ORCL: MIXED, short-biased but watch reversal \u2014 L/S 2.559 long-crowded (contrarian short), badly lagging RS -22.7%, but bullish divergence flagged and low ADX 22 (choppy, not a clean short). Illiquid weekend token; tactical only.",
+    "sentiment": "ORCL has a fresh live shock \u2014 S&P downgrade to BBB- (one notch above junk) on OpenAI customer-concentration + projected -$42B FY27 FCF deficit; stock -28% in a month, 52-week lows (~$132, scan ~$126.5). Actively-bleeding fundamental story. BEARISH near-term (weak bounces sellable; 4h bullish divergence = counter-trend only).",
+    "analyst": "Fundamentally short-biased (downgrade, RS -22.7%, crowded long) but the tape gives no honest entry: price pinned AT VWAP, bb_pctb 0.40 mid-band, ADX 22 choppy, 4h RSI 31 oversold with bullish divergence. Shorting into a thin weekend book (learned p_win 0.382) is the account's late-entry loser. HOLD, armed to short a decisive break below 125.",
+    "portfolio": "ORCL \u2014 HOLD (0.50): fundamentally weak but pinned mid-range at VWAP with a bullish divergence; short only on a break below 125."
+  },
+  "timestamp": "2026-07-18T09:08:23.759750+00:00"
+}

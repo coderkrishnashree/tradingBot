@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "GOOGL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Post-capex-shock stabilization: price coils 331-336 above 324.44 support for the next 2-6 bars; oversold 4h/1h RSI 23 + extreme crowded-long L/S 2.58 make a mean-revert bounce toward 340-342 VWAP-retest more likely than immediate fresh downside - but sellers stacked (orderbook -0.36) cap the bounce, so neither side has a clean edge yet.",
+  "expectancy_note": "Fresh short p(win) low: knife into RSI-23 oversold with squeeze fuel = the account's classic late-short loss; long p(win) low: catching a -5% shock with no reversal confirmation. Best expectancy = wait for either the 324.44 breakdown (continuation short) or the 340-342 bounce-and-reject (higher-quality short entry).",
+  "rationale": "GOOGL is the epicenter of a spent capex/negative-FCF shock, already -5% and pinned below its lower Bollinger band at RSI 23 with ADX 73 - deeply extended. A market short here fights extreme crowded-long squeeze risk (L/S 2.58) and would be stopped by any routine counter-bounce; a long is knife-catching the weakest large-cap (-13.7% rel strength) in a risk-off tape with sellers still stacked in the book. No R:R>=1.5 clean entry exists at 333.30, so stand aside and let the gap digest.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 324.44,
+    "expires_min": 240,
+    "note": "Losing the 324.44 support (last swing floor) confirms capex-fear capitulation continuation and re-arms a momentum short with structure at back; a bounce-rejection near 340-342 would be the alternate short entry."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF for US megacap tech (2026-07-23, scan 03:26 UTC). GOOGL+TSLA fell ~4-5% after-hours July 22 on an AI-capex scare (GOOGL hiked 2026 capex to $195-205B, first negative FCF qtr -$5.8B; TSLA missed EPS). Nasdaq Composite -0.57% to 25,691. Hot June CPI (headline 3.5%, core 2.6%); Fed funds 3.50-3.75%; FOMC July 29 (~6d out, ~80% no-change but hawkish tone). Oil up (mild stagflation tint). BTC heavy low-$60Ks, dominance 56.3%, total mcap ~$2.28T; no standalone BTC scan row. Funding on these synthetic equity perps ~0.0 = uninformative; use long_short_ratio & orderbook. Crowded-LONG books into weakness (contrarian-bearish / squeeze fuel): GOOGL L/S 2.58, MSFT 1.95, EWJ 1.60. Equity names low BTC-corr (0.21-0.37). KEY: July 23 Asia session risk-ON \u2014 KOSPI +2.8-3.4%, Samsung/SK Hynix +3%+, as Google's raised AI capex reads BULLISH for Korean memory/chip suppliers => EWY the clean macro-aligned long. Nikkei only +0.5% (EWJ). Megacap Q2 earnings cluster July 29-30 (MSFT+META 29th, AAPL/AMZN 30th). Tokenized equities gap/thin off US hours.",
+    "sentiment": "Risk-off into a heavy calendar (2026-07-23). Fed hawkish (Warsh), FOMC July 28-29 with live-hike chatter. GOOGL: reported Q2 after close July 22 - rev beat $119.8B +24% (Cloud +82%) but -5% AH on capex hike to $195-205B + 'significant' 2027 increase; EPS beat largely unrealized securities gains. Catalyst spent; watch capex-fear washout vs dip-buy. MSFT: earnings Wed July 29 after close (same day as FOMC); deeply oversold, no fresh near-term catalyst, macro/AI-capex bleed from GOOGL; neutral-to-slightly-negative. MSTR: Q2 earnings July 30; holds 843,775 BTC (~$63.7B cost), 2nd straight week no BTC buy, raised ~$263.5M ATM + authorized $1B Class A + $1B digital-credit buyback, cash ~$3B; no forced-seller risk; slightly constructive vs the short; trades on BTC (0.70 corr). BTC: ~$65.9K -> 1-month high ~$67K July 22; Fear&Greed recovered to ~33; driver = Clarity Act market-structure bill progress + bullish BlackRock CEO + Treasury remark; range ~$65.5-66.5K battleground; no imminent binary; mildly bullish, FOMC July 29 main risk. EWY: KOSPI historic ~23% July crash (7 circuit breakers) on semi/AI-chip rout, then rebounded +3.56% July 21, still up July 22; Citi calls rout 'temporary', 10,000 y/e target; high vol, knife-catch, US-hours gappy. EWJ: Nikkei near record highs on weak-yen (USD/JPY high-162s) exporter tailwind despite BoJ June hike to 1.00%; scan tape near-zero volume/illiquid off-hours.",
+    "analyst": "GOOGL is the epicenter of a spent capex/negative-FCF shock, already -5% and pinned below its lower Bollinger band at RSI 23 with ADX 73 \u2014 deeply extended. A market short fights extreme crowded-long squeeze risk (L/S 2.58) and would be stopped by any routine counter-bounce; a long is knife-catching the weakest large-cap (-13.7% rel strength) in a risk-off tape with sellers still stacked (orderbook -0.36). No R:R>=1.5 clean entry exists at 333.30; stand aside and let the gap digest. Short re-arms on losing 324.44, or a bounce-rejection near 340-342.",
+    "portfolio": "HOLD GOOGL \u2014 epicenter of a spent capex shock, deeply oversold below lower BB with extreme crowded longs; no R:R>=1.5 entry either way."
+  },
+  "timestamp": "2026-07-23T03:34:07.056059+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "EWJ/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.7,
+  "playbook": "none",
+  "forecast": "No tradeable path: >70% of the last 20 15m candles printed 0.0 volume and price is frozen at 92.24-92.45. Expect continued dead drift in the 92.0-92.6 coil until a real order arrives; no directional move to trade next.",
+  "expectancy_note": "p(win) on any entry is unquantifiable on 0-volume gappy tape; ATR 0.71% gives no room for honest 1.5R, and GOOGL/INTC/Iran two-sided event risk can gap it either way. HOLD dominates all playbooks.",
+  "rationale": "EWJ is effectively untraded this window (majority 0.0-volume 15m bars, sub-1-unit prints), so the ADX/RSI snapshot is noise, not a signal. Macro and sentiment both flag it thin, gappy, avoid, with no 48h catalyst but live gap risk from earnings and the Iran conflict. There is no structural level with confirmation to fade or break and no way to construct a 1.5R trade on 0.71% ATR; size zero.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 92.05,
+    "expires_min": 240,
+    "note": "Losing the coil floor on real volume would prove the calm bid has vanished and a genuine down-move (toward 88.16 support) has begun, worth re-debating a short."
+  },
+  "transcript": {
+    "macro": "Regime RISK-ON but event-heavy. GOOGL earnings after close; Brent >$92 on Iran. Perps funding=0.0; equity beta. EWJ nearly untraded (0-volume candles), thin/gappy, mild uptrend but no conviction; avoid, gap risk.",
+    "sentiment": "EWJ (Japan) mildly bullish, calmest name. Corporate reform + BoJ + exporters, +26% YoY near 52wk highs. No specific 48h catalyst but live gap risk from GOOGL tonight, INTC tomorrow, Iran. Lowest-vol name.",
+    "analyst": "Effectively untraded window (majority 0.0-volume 15m bars); ADX/RSI snapshot is noise. No structural level with confirmation and no honest 1.5R on 0.71% ATR. Textbook no-trade; size zero.",
+    "portfolio": "HOLD EWJ (conf 0.70) - dead/illiquid tape, no tradeable edge; avoid."
+  },
+  "timestamp": "2026-07-22T20:02:39.259442+00:00"
+}

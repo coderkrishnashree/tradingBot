@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "EWJ/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.34,
+  "playbook": "none",
+  "forecast": "Price stays pinned near 93.8-94.0 (VWAP) on near-zero overnight volume; likely drifts inside 93.45-94.26 until Tokyo liquidity returns, with no directional resolution over the next several bars.",
+  "expectancy_note": "No edge: ADX 22 chop, price at VWAP mid-band, conflicting MTF (5m RSI 86 stretched vs 1h RSI 33.5), dead off-hours book with gap risk.",
+  "rationale": "EWJ trades as a global-tech-beta equity but Tokyo cash is in off-hours, so the token is illiquid and gappy (many 0.0-0.4 lot bars) with tiny OI (1,910). Price sits exactly at VWAP (0.06% dist), mid Bollinger (%B 0.571), no trend (ADX 22.4), support 90.27 far below and resistance 95.45 above -- no structural level to lean on for a >=1.5R trade. Constructive Nikkei/semis backdrop favors longs but composite confidence is only 33.9% and 5m is overbought (RSI 86); forcing an entry into dead liquidity is how gaps and slippage erase the small edge. Wait for a level break.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 94.26,
+    "expires_min": 240,
+    "note": "Reclaiming the rejected intraday high on the equity-constructive/semi-led tape confirms the 1h/4h long bias and gives a clean momentum long toward 95.45."
+  },
+  "transcript": {
+    "macro": "SHARED 2026-07-15: cautiously RISK-ON post soft June CPI (3.5% vs 3.8% exp; July Fed hike odds ~17%, but ~60% Sept hike). Nasdaq +0.9%, semis-led rally supports tokenized-equity longs this session, but fragile -- live Hormuz oil/risk-off overnight gap risk; tokenized equities thin/gappy off-hours. EWJ MIXED-to-SUPPORTIVE for longs: Japan is the cleanest backdrop -- Nikkei >68,300, +37% YTD, weak yen boosting exporters + AI-capex tailwind. No event risk in window (BoJ Jul 30 outside 48h). Main hazard is liquidity/hours: thinnest/gappiest when Tokyo cash closed, Hormuz oil headline could gap it. btc_correlation 0.253 (not crypto beta), moves with QQQ (0.642)/EWY (0.62) = broad equity risk, currently supportive. Keep size moderate; be flat well before Jul 30 BoJ.",
+    "sentiment": "SHARED 2026-07-15: EWJ neutral-to-cautious near term -- event risk on the horizon but NOT inside 48h (BOJ Jul 30-31 with quarterly Outlook; rate hikes well-telegraphed/largely priced). Yen ~160/USD, EWJ ~9% below Feb peak after a +45% trailing year, momentum cooled. No un-priced <=48h catalyst -- sentiment neutral for the immediate horizon; EWJ tracks the yen and broad Nasdaq/AI risk-on tone (a TSM beat could bounce Japanese semis) rather than Japan-specific news the next two days. (Peers: TSM binary earnings Jul 16 inside window; HOOD no binary until Jul 29.)",
+    "analyst": "Price flat/dead: last 20 15m bars 93.45-94.26, many 0.0-lot flat bars; dipped 94.26->93.45 then recovered to 93.98. RSI 42, ADX 22.4 (no trend), BB %B 0.571 (mid-band), VWAP dist 0.06%. Support 90.27 far below, resistance 95.45 above. Conflicting MTF: 5m RSI 86 overbought vs 1h RSI 33.5 oversold. Composite conf 33.9%, structure_bias -0.037, OI 1,910. No R:R edge (mid-range, ~5.5% from support, ~1.5% from resistance), no <=48h catalyst, dead overnight book = unreliable gappy fills. No honest high-expectancy setup -> HOLD. Flip levels: reclaim 94.26 = clean momentum long; lose 93.45 = negate constructive lean.",
+    "portfolio": "HOLD EWJ/USDT:USDT (conf 0.34) -- no edge in dead off-hours chop at VWAP; wait for reclaim of 94.26 or loss of 93.45."
+  },
+  "timestamp": "2026-07-15T06:34:27.065368+00:00"
+}

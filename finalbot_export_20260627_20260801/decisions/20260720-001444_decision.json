@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "SNDK/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Violent two-way chop; last 15m bar ripped 1362->1401 and closed 1396 near its high on the heaviest volume of the window with orderbook +0.616 bid \u2014 momentum is UP into the print, so an immediate short gets run over by the bounce. Expect either a rejection near 1401-1410 (short-the-retest setup) or a failure that loses 1361 to open the profit-taking air-pocket toward 1311.",
+  "expectancy_note": "Short bias is right on macro (worst RS -42%, funding +0.00041, crowded long 1.53), but market-shorting a green thrust into stacked bids is the account's #1 loss pattern (late short into strength, stopped by bounce). Waiting for a level > chasing = better expectancy.",
+  "rationale": "Every structural input favors a SHORT (hottest funding, crowded L/S long, worst relative strength, RSI 69/stoch 92 stretched), but the tape just printed a large bullish thrust closing near its high on peak volume with a +0.616 bid imbalance \u2014 shorting here is chasing into a bounce and any honest stop above ~1421 gets tagged first. US cash is closed so overnight prints are thin/gappy, further lowering conviction. I want the retest-rejection near 1401 or a clean break of 1361 before committing; no market entry now.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 1361.0,
+    "expires_min": 240,
+    "note": "Losing 1361 (last swing low, under VWAP) breaks the up-thrust and confirms the profit-taking air-pocket the sentiment note fears \u2014 a clean momentum short toward 1311 support opens with funding/crowding as fuel."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF/defensive, semis in a bear market (SMH -9%, group in bear territory on AI-capex-cut fears). FOMC Jul 28-29 caps upside. Scan 00:07 UTC Monday = US cash CLOSED, gap risk. SNDK: SHORT bias / avoid longs \u2014 worst relative strength (-42%), hottest funding (+0.00041), crowded long (L/S 1.53), ADX 44.7 in a semi bear market. Long here fights the entire tape.",
+    "sentiment": "SNDK very bullish fundamental narrative (NAND tightness, Q3 rev +251% YoY, +707% YTD, PT hikes) BUT no near-term catalyst and stretched. Earnings Aug 5 (outside window). RSI ~69, up multi-hundred-percent \u2014 momentum/sentiment name, not catalyst name. Near-term neutral; risk is a profit-taking air-pocket on any semi/NAND wobble.",
+    "analyst": "All structure favors a short (funding, crowding, worst RS, stretched RSI/stoch), but the last 15m bar ripped 1362->1401 closing near its high on peak volume with +0.616 bid imbalance \u2014 market-shorting the thrust is chasing and a stop above ~1421 gets tagged. US cash closed = thin/gappy. Wait for a rejection near 1401 or a loss of 1361 before shorting.",
+    "portfolio": "HOLD SNDK \u2014 short is the direction but not at this green thrust; arm short trigger below 1361."
+  },
+  "timestamp": "2026-07-20T00:14:44.648615+00:00"
+}

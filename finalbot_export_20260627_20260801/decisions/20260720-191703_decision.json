@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "MU/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.55,
+  "playbook": "none",
+  "forecast": "Price bled from 901 to a fresh low 868.4 into the close, 5m RSI 7.4 = capitulation; next move is likely a mean-reversion bounce toward 877-887, but with no reversal bar yet and heavy sell-side book (-0.90) it can also grind lower to test 855-860 first. No clean entry until it reclaims 887 or bounces off a lower level.",
+  "expectancy_note": "Shorting here is the account's proven loser (short win-rate 0.48, and late shorts into 5m RSI<10 get stopped by the bounce); buying a falling knife with structure_bias -0.57 has no edge. HOLD until confirmation is the highest-expectancy line.",
+  "rationale": "MU is caught between a bullish 4h (+0.57, bullish divergence, fresh $250B catalyst) and a clean 15m downtrend into a new low with crowded-long structure (L/S 2.21) and a heavily negative order book (-0.90). Price is stretched-oversold on 5m (RSI 7.4), so a market short would be chasing the exact setup that killed this account's losers, while a long needs a reclaim to confirm the bounce. No R:R>=1.5 setup exists at 868 with support down at 806 and no local level \u2014 wait.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 887.0,
+    "expires_min": 240,
+    "note": "Reclaiming 887 (the broken intraday support the last several bars rejected off) confirms the oversold bounce is real and, with the 4h uptrend + fresh catalyst, flips this to a long."
+  },
+  "transcript": {
+    "macro": "Regime MIXED-to-RISK-OFF, semis-led drawdown. SOX -20% from June peak; memory (MU/SNDK) dragged toward bear market. Semis sell-the-rip. FOMC 7/28-29 (~63% hold, 37% HIKE). Funding flat; long/short lopsidedly long desk-wide => contrarian-bearish. Reduce size (VIX 18, Iran gap risk).",
+    "sentiment": "MU NO near-term earnings. FRESH ACTIVE catalyst \u2014 up ~3-4% today (July 20) on $250B+ US expansion plan and AI/HBM demand; aggressive Buy targets. Offsetting risk: -7% on July 15 (China CXMT $8.5B IPO, potential US HBM export curbs, Samsung HBM3E qualification). Most catalyst-active name this cycle \u2014 headline-sensitive. High corr to SNDK (0.86).",
+    "analyst": "Caught between bullish 4h (+0.57, bullish divergence, $250B catalyst) and clean 15m downtrend into a new low with crowded-long 2.21 and order book -0.90. 5m RSI 7.4 capitulation \u2014 market short chases the account's losing setup; long needs a reclaim. No 1.5R at 868 (support far at 806). Wait for reclaim of 887.",
+    "portfolio": "MU: HOLD (conf 0.55) \u2014 headline-driven, flushed oversold; long only on reclaim of 887."
+  },
+  "timestamp": "2026-07-20T19:17:03.021651+00:00"
+}

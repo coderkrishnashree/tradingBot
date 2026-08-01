@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "XAUT/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price is mid-range at VWAP (~4,111) after a stair-step fade from 4,122; expect continued low-vol chop between 4,106 and 4,120 over the next few bars with a downward drift bias. No edge until it either loses 4,090 (short trigger toward 4,018) or reclaims 4,150.",
+  "expectancy_note": "No level to trade AT: long fights structure_bias -0.351 + crowded 2.60 L/S + strong-USD/hawkish macro; naked short risks an Iran/Hormuz safe-haven gap up. Learner shows shorts -2.8 and trend -3.0 avg pnl - fading mid-range momentum here is negative expectancy. HOLD beats both.",
+  "rationale": "Composite +0.481 long is pure lagging 1h/30m momentum, contradicted by bearish structure (crowded long, offers stacked -0.13) and a hawkish-Fed/strong-USD macro that pressures gold. But price sits right at VWAP, RSI 46.9, mid-Bollinger - not extended enough to fade and no clean level to short, while a long chases into a headwind. The live geopolitical two-way tail makes any naked position gappy. Best expectancy is to wait for price to resolve the tight range at a real level.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 4090,
+    "expires_min": 240,
+    "note": "Losing 4,090 breaks below the 4,106 range floor and confirms the down-drift, setting up a structure- and macro-aligned short toward 4,018 support."
+  },
+  "transcript": {
+    "macro": "Regime: equities risk-on (US hours), crypto chop, gold pressured by strong USD + high real yields + macro-fund de-leveraging out of bullion; live US-Iran/Hormuz two-way tail. XAUT: spot gold soft, down ~4 sessions from ~4,175. Scan tags LONG (blended +0.481, 1h/30m up) but that's momentum only; structure_bias -0.351 BEARISH (long/short 2.60 = crowded long, orderbook -0.13). Funding flat. Tight range, not a breakout. Verdict: MIXED, leaning AGAINST fresh longs; fade toward support better than breakout long. Size down for geopolitical tail.",
+    "sentiment": "Bearish-to-choppy near term with live two-way geopolitical tail. Hawkish Fed repricing: core inflation ~4.2% hot, June FOMC minutes 9-8 split on a possible 2026 HIKE, ~75% odds no change July. Hard catalysts: June CPI Jul 14, PPI Jul 15, FOMC Jul 29. Iran wildcard: ceasefire 'over' Jul 8, US strikes near Hormuz -> escalation can gap XAUT UP hard on safe-haven bid. No Tether-Gold token-specific issues. Net: news mildly against longs, but a short faces safe-haven gap risk.",
+    "analyst": "Price mid-range at VWAP (~4,111), RSI 46.9, mid-Bollinger after a stair-step fade from 4,122 on thin volume. Composite long is lagging momentum, contradicted by bearish structure + hawkish macro; but not extended enough to fade and no clean level to short, while a long chases a headwind. Live geopolitical gap tail makes any naked position dangerous. Learner: shorts -2.8, trend -3.0 avg pnl. HOLD is highest-expectancy. Flip to short on a decisive loss of 4,090 toward 4,018.",
+    "portfolio": "HOLD XAUT - no clean level; wait for break below 4,090 (short) or reclaim of 4,150."
+  },
+  "timestamp": "2026-07-09T20:59:12.187224+00:00"
+}

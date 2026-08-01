@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "MU/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.58,
+  "playbook": "none",
+  "forecast": "Price just got rejected off ~994 and is fading bar-by-bar (986->976->973->970->964, last bar closed on its low); expect continuation lower toward VWAP/mid-band ~920-930 before the 4h uptrend can reload.",
+  "expectancy_note": "No setup clears R:R>=1.5 honestly: extended long = chase (account's #1 loss pattern), short = fights uptrend + bid-heavy book + this account's 46% short win-rate (-0.97 avg). HOLD beats both.",
+  "rationale": "MU is a tokenized equity with US cash closed (thin/gappy), sitting +4.58% above VWAP with 4h RSI 68 and confirmed bearish divergence just under resistance 1006 \u2014 a textbook 'constructive backdrop, bad entry' where a long chases a stretched move any bounce would stop out. The 15m tape fades hard off 994, tempting a short, but shorting an intact 4h uptrend into a bid-heavy orderbook (+0.648) off-hours with the short book down 46%/-0.97R bleeds. Best expectancy: wait for a VWAP pullback-hold (long) or reclaim of 987 to confirm trend resumption.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 987,
+    "expires_min": 240,
+    "note": "Reclaiming 987 proves the fade off 994 failed and the 4h uptrend is resuming with momentum \u2014 flips to a trend-continuation long with a stop under the pullback low."
+  },
+  "transcript": {
+    "macro": "RISK-OFF/DEFENSIVE. Hawkish Fed, FOMC July 29. US cash CLOSED => thin/gappy. MU: best fundamental backer (memory super-cycle, NAND +60% Q1, FQ3 rev +346% YoY) BUT RS -10.7%, RSI 68, bearish divergence, 4h ATR 3.1% \u2014 extended. Constructive backdrop, poor entry timing. MIXED.",
+    "sentiment": "MU mildly bullish, no imminent event: no earnings until late Sept. June beat +22% EPS; memory/NAND complex pulled up by Korea semis on Google AI-capex hike. Scan flags bearish divergence at RSI 68 near resistance ~1006 \u2014 extended. Supportive-to-neutral tailwind.",
+    "analyst": "Price ran to 993.91 then rolled over (986->976->973->970->964, last bar near low). 4h still uptrend (RSI 68, bearish divergence at top), +4.58% above VWAP into resistance 1006 = poor long (chase). Short fights an intact uptrend into bid-heavy book (+0.648) off-hours; account shorts 46% win/-0.97R. LTF fade likely just a pullback toward VWAP ~920-930 that reloads. HOLD; reconsider on 987 reclaim.",
+    "portfolio": "HOLD MU \u2014 strong fundamentals but extended long / no honest short entry off-hours; wait for 987 reclaim."
+  },
+  "timestamp": "2026-07-23T02:32:44.185151+00:00"
+}

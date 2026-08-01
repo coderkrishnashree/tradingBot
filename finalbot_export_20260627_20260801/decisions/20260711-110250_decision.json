@@ -1,0 +1,26 @@
+{
+  "symbol": "CRCL/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.6,
+  "size": 0.0,
+  "entry": 67.22,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "forecast": "Price coils 66.9-67.5 on thin Saturday tape; the 15m fade off 67.55 presses lower-highs, so a break below 66.90 likely extends toward 66.0/65.3, while a reclaim of 67.55 on volume reopens the OCC-catalyst long toward 68.5+.",
+  "expectancy_note": "No side clears R:R 1.5 with an honest <=1.5xATR stop: ATR% 3.42 makes stops ~$2.3 wide, and both a crowded-long chase and a knife-catch short into ADX 59 have negative expectancy in this book (trend playbook avg -2.89, high_adx -1.98).",
+  "rationale": "CRCL is the MOST crowded long in the set (L/S 2.70 pegging contrarian cap, structure_bias -0.309) on thin/gappy Saturday tape with equities closed and CPI Tue, while the fresh OCC pop (+7%) is being SOLD into on the 15m/5m (repeated rejection at 67.45-67.55, momentum fading). Mid-timeframes (30m/1h/4h) still long, so no confirmed breakdown either \u2014 long is squeeze/gap risk and short is a knife-catch into ADX 59, neither offering 1.5R. This account bleeds on high-ADX trend chases, so wait for a decisive level. HOLD with an armed downside trigger.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 66.9,
+    "expires_min": 240,
+    "note": "Losing the 15m higher-low base at 66.90 confirms the fade of the OCC pop is winning and the crowded long is unwinding, opening a short toward 66.0/65.3."
+  },
+  "transcript": {
+    "macro": "2026-07-11 Sat, US cash CLOSED. Regime moderately risk-on but late-cycle/stretched. Weekend perps thin/gappy/detached, gap risk into Mon. EVENT: Tue Jul 14 June CPI + bank earnings = heavy vol. CRCL most crowded long (L/S 2.70, structure_bias -0.309), 5m flipped short, moderate BTC corr 0.53. Size down.",
+    "sentiment": "Risk-on but stretched into Jul 14 CPI binary. CRCL: most active catalyst tape \u2014 Jul 10 OCC approval for national trust bank (+7%), Nomura Japan FX partnership; overhangs = Stripe 'Open USD' competition, Coinbase USDC renewal due Aug. Only pair with a fresh <=48h catalyst; volatile, headline-driven, size for volatility.",
+    "analyst": "Crowded long (L/S 2.70) into thin Saturday tape with an unresolved fade on 15m/5m; the OCC pop is being sold, not accumulated. Longing the most-crowded name into CPI = squeeze risk; shorting +59 ADX with 4h still long = knife-catch the book keeps losing. Neither side clears 1.5R. HOLD; downside trigger below 66.90.",
+    "portfolio": "HOLD CRCL \u2014 only fresh catalyst in the set but most crowded long being sold on thin tape; armed short trigger below 66.90."
+  },
+  "timestamp": "2026-07-11T11:02:50.857773+00:00"
+}

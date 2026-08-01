@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "META/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Thin weekend chop around 640-643; last 15m bar bounced off 640.47 and closed near its high, so a mean-revert drift back toward VWAP ~651 is as likely as continuation. A clean short only sets up on a bounce into 648-651 or a decisive break of 640.47 that opens 634 then 626.46.",
+  "expectancy_note": "Est p(win) ~0.45 for a market short here; R:R poor because entry is already -1.55% below VWAP (chasing). Account short book is net-losing (0.47 win, -0.87 avg) and model penalizes high-RS/aligned/stretched-VWAP shorts.",
+  "rationale": "Scan reads short (ADX 77, bearish divergence) but every edge argues against acting now: META is the RS leader (+6.98%, hardest name to short), a closed-market weekend token (thin, gappy, Monday gap risk), already -1.55% below VWAP with the last bar bouncing off 640.47 \u2014 a market short invites the counter-bounce that repeatedly stops this account's late shorts. Learner shows shorts losing (-0.87R) and structure near-neutral (L/S 1.14). No honest 1.5R setup at 641.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 640.4,
+    "expires_min": 240,
+    "note": "Losing 640.47 swing low confirms continuation, opens clean short toward 634/626.46."
+  },
+  "transcript": {
+    "macro": "Sunday Jul 19 2026 \u2014 US cash equities CLOSED; every tokenized stock trades on perp venue with no price discovery \u2192 thin/gappy, Monday-open gap risk, size DOWN. Backdrop HOSTILE/risk-off (Fri S&P -1.0%, Nasdaq -1.4%, week -2.9%; semi/AI-capex-led SMH ~-9%). Crypto neutral-fragile: BTC ~$64.5k downtrend, dominance ~58.8% (alt-unfriendly), FOMC Jul 28-29 ~70% HOLD, tail-risk hike. Positioning lopsidedly LONG on most names. META: balanced book (L/S 1.14), slightly bearish structure (-0.083), low BTC-corr 0.39, RS leader +6.98%, scan short ADX 77.",
+    "sentiment": "META neutral/quiet; Q2 earnings after close Wed Jul 29 (~$7.18 EPS/$60.2B) \u2014 no 48h binary but looming date caps multi-day conviction. Overall risk-off crypto (Fear ~34); no target has a catalyst inside 48h.",
+    "analyst": "Scan wants a short but every edge points against it: shorting the group's RS leader on a thin closed-market weekend token already stretched -1.55% below VWAP, with the account short book net-losing and the learner penalizing high-RS/aligned/stretched-VWAP shorts = documented loss pattern. Last 15m bar bounced off 640.47 and closed near its high \u2192 a market short invites the counter-bounce to VWAP ~651. HOLD; re-debate on break below 640.4.",
+    "portfolio": "HOLD META \u2014 no honest 1.5R short at 641; armed re-debate on break below 640.4."
+  },
+  "timestamp": "2026-07-19T15:13:48.834413+00:00"
+}

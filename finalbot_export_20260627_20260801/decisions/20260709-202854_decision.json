@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "COIN/USDT:USDT",
+  "size": 0.0,
+  "entry": 158.58,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Thin US-closed tape; COIN chops 157.5-160.5. RSI 28 + bullish divergence + %B 0.23 argue against fresh downside here - expect a base or small bounce toward VWAP ~162.6, not a clean break of 154.97 in the next few bars.",
+  "expectancy_note": "No edge: shorting into RSI 28 / bullish divergence / -2.5% below VWAP is the account's classic late-short-into-stretched-tape loss; no long with BTC risk-off. Best expectancy is wait.",
+  "rationale": "Composite is short but only 42% confidence and the move is already extended (ADX 76, RSI 28 on 4h, %B 0.23, price -2.5% below VWAP) with a BULLISH divergence flagged - a routine counter-bounce would stop any honest short before continuation. Structure is neutral (bias -0.04, funding 0, L/S 1.17) so no crowding edge, and the underlying equity is firm today (Nasdaq +1.3%) on thin US-closed tape with gap risk. No clean long into a risk-off crypto regime either, so the highest-expectancy action is to wait for either a break of support 154.97 (fresh breakdown = short) or a bounce-and-reject at VWAP.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 154.97,
+    "expires_min": 240,
+    "note": "Losing 4h support 154.97 turns the oversold bleed into a real breakdown and validates a fresh short with the trend."
+  },
+  "transcript": {
+    "macro": "Overall crypto regime RISK-OFF/weak (BTC ~$62.7k, -18% month, below 50-month EMA). Hawkish Fed, firm dollar DXY ~101.2, 10Y ~4.58%; equities firm today (Nasdaq +1.3%, S&P +0.8%). COIN ~$158-159 after a +19% run to ~$165 on July 2 then pullback - scan short is catching a PULLBACK AFTER A RALLY, not a fresh breakdown. RSI 28 (4h), ADX 76, bullish divergence flagged. Funding neutral; L/S 1.17 (mildly long), structure_bias -0.04 (neutral). High BTC-corr 0.733 = crypto-beta, crypto soft = mild short tailwind; rel-strength -4.17% already lagged. Tokenized stock thin/gappy when US cash closed. Bottom line: MIXED, do not press the short - any short is a counter-trend fade, smaller size, tight stop.",
+    "sentiment": "Risk-off tape, Crypto Fear&Greed 22 (extreme fear), BTC weakness dragging crypto-equity basket. Near-term binary = CPI July 14 + FOMC July 28-29. COIN bearish tilt with binary risk: ran +19% into July 2 on product news + bullish analyst notes; but JPM/Barclays flag weak crypto trading revenue, Q1 2026 $394M net loss (long-horizon). Earnings July 30 (outside window). One dated near-term catalyst: CLARITY Act hearing July 17 (just outside 48h). BTC extreme-fear leans AGAINST a COIN long / mildly supports scan short, but extreme fear raises squeeze risk on any BTC bounce. Bottom line: Bearish/cautious near-term, watch squeeze risk.",
+    "analyst": "Composite short but only 42% conviction and move already extended (ADX 76, RSI 28 4h, %B 0.23, -2.5% below VWAP) with BULLISH divergence - a routine counter-bounce stops any honest short before continuation. Structure neutral (bias -0.04, funding 0, L/S 1.17), no crowding edge; underlying equity firm today on thin US-closed tape with gap risk. Shorting into RSI 28/bullish divergence is the account's classic late-short-into-stretched-tape loss. No clean long into risk-off crypto either. HOLD - wait for a break of support 154.97 (fresh breakdown = short) or a bounce-and-reject at VWAP.",
+    "portfolio": "COIN: HOLD (conf 0.60) - don't chase an extended oversold short; short arms on a break below 154.97."
+  },
+  "timestamp": "2026-07-09T20:28:54.897599+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "SOL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price coils between support 75.59 and VWAP ~77.9; the 75.80 bounce is fading (76.66->76.53->76.41 lower closes) but sits too deep in oversold (RSI 27.7, %B 0.014, -1.92% vs VWAP) to short into. Likely chop 75.6-76.9 next few bars until BTC picks a direction or 75.59 breaks.",
+  "expectancy_note": "No edge either way: short = chasing oversold at support (account shorts 47% win, -1.65 avg, trend -2.89); long = crowded-long BTC-beta into soft BTC pre-CPI. Best EV is waiting for a real trigger.",
+  "rationale": "SOL is glued to the lower band (%B 0.014, RSI 27.7) and stretched -1.92% below VWAP right at support 75.59 - market-shorting here is exactly the late-into-oversold trap that has bled this account. A long is leveraged BTC-beta (corr 0.795) against a lopsided-long 2.50 book into an offered BTC with CPI Tue, and the intraday bounce off 75.80 is already fading with lower closes. Neither side offers R:R >= 1.5 from here; wait for 75.59 to break (clean continuation short with room) or VWAP ~77.9 to reclaim (bounce confirmed).",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 75.59,
+    "expires_min": 240,
+    "note": "Losing support 75.59 confirms the oversold coil resolves DOWN, opening a clean continuation short with room to the next level instead of chasing into the band."
+  },
+  "transcript": {
+    "macro": "Regime MIXED, crypto weak/heavy, risk-off with a fragile bounce. BTC ~$63.8k, offered book, blended short bias. SOL: L/S ratio 2.50 (lopsided long = contrarian risk), RSI 27.7, %B 0.014 (deeply oversold), structure_bias -0.273, 0.795 correlated to BTC. A SOL long = leveraged BTC-beta bet into soft BTC; a short = chasing a stretched oversold move. Key <=48h risk is macro (CPI Tue Jul 14).",
+    "sentiment": "SOL neutral-to-constructive fundamentally but NO dated <=48h binary. Catalysts Q3-paced (Alpenglow, Firedancer v1.0 testnet, Clearstream custody, SOL ETF filings - possible SEC decision as soon as July, no confirmed date). Trades as high-beta BTC proxy; oversold. No unlock/hack. Crypto F&G Extreme Fear ~23.",
+    "analyst": "Deeply oversold at support with a fading bounce; short = the account oversold-chase trap, long = crowded BTC-beta into soft BTC pre-CPI. No R:R>=1.5 either way. HOLD, wait for a real trigger.",
+    "portfolio": "HOLD SOL/USDT:USDT (conf 0.60) - stand aside; continuation-short trigger armed below 75.59."
+  },
+  "timestamp": "2026-07-12T09:34:01.368076+00:00"
+}

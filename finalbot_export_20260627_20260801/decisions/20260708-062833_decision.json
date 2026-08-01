@@ -1,0 +1,25 @@
+{
+  "symbol": "META/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.55,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "size": 0.0,
+  "playbook": "range",
+  "forecast": "Price coiling dead-flat 613.3-614.6 on collapsing volume under the highs. A break of 612.6 arms a mean-reversion short toward VWAP 602-604; above 617 the melt-up continues.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 612.6,
+    "expires_min": 240,
+    "note": "Losing the coil floor confirms flat-top distribution resolving down; arms the short toward VWAP 602-604, stop above 617."
+  },
+  "rationale": "META is the scan's overbought, over-crowded relative-strength leader (+9.74% vs BTC) in a risk-off tape - RSI 77.5 (4h), %B 0.91, +1.93% above VWAP, long/short 1.80, heaviest sell-side orderbook imbalance of the group (-0.638, structure_bias -0.431) - a textbook fade, not a chase-long. But price is coiling flat under its highs with no confirmed rejection, and with US cash closed an anticipatory off-hours short risks a gap-up stop. Holding with a short bias armed on a break of 612.6; a fresh long is off the table into resistance 628.",
+  "transcript": {
+    "macro": "RISK-OFF / defensive equity tape. Nasdaq -1.16% (Jul 7), semiconductor/AI rout (Samsung miss + DeepSeek own chip). Fed June dot plot flipped to a projected 2026 HIKE (PCE 3.6%), yields up, DXY ~101 - no dovish cushion. Tokenized equities: US cash closed at scan time, thin/gappy volumes, gap risk at open - size down. META bias NEUTRAL-to-SHORT (fade the stretch): tagged long (blended +0.469) but overbought/crowded (RSI 77.5, %B 0.91, L/S 1.80, orderbook -0.638, structure_bias -0.431); low BTC-beta (0.35).",
+    "sentiment": "META NEUTRAL - strongest name on scan, clean uptrend but no <=48h binary. Q2 2026 earnings Jul 29 after close (3 weeks out). Guidance constructive (Q2 rev $58-61B) but capex raised to $125-145B (digested). EU/US antitrust slow-burn. Only near-term risk = mean-reversion pullback from overbought.",
+    "analyst": "Standout relative-strength leader but stretched and crowded - the profile you fade in a risk-off Nasdaq tape, not chase. The 15m tape shows price coiling dead-flat 613.3-614.6 on collapsing volume, holding highs rather than rolling over, so no confirmed rejection; with US cash closed an anticipatory short risks a gap-up stop, and a stop tight enough for good R:R gets wicked while one above 618 makes R:R marginal. Holding with the short armed on a break of 612.6 (resolves flat-top distribution down toward VWAP 602-604 for ~2R); a fresh long is out of the question at RSI 77.5 into 628.",
+    "portfolio": "HOLD META - short bias, no trigger; re-arm on break of 612.6."
+  },
+  "timestamp": "2026-07-08T06:28:33.905340+00:00"
+}

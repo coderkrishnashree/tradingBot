@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "MU/USDT:USDT",
+  "size": 0.0,
+  "entry": 978.26,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.35,
+  "playbook": "none",
+  "forecast": "Price stays pinned in the 975-981 coil on dead weekend volume; only a decisive break below 975.3 with volume opens the next leg toward ~965, otherwise it chops sideways until US cash open.",
+  "expectancy_note": "No near structural level (support 876 / resistance 1049 ~10% away), so no tight-stop trade clears R:R 1.5; short is already extended (30m RSI 29.5, 1h RSI 33.7) into a thin closed-market coil.",
+  "rationale": "MU sold from 984 to 975 then coiled 14 bars on collapsing volume, momentum stalled with 5m flat/up and LTF RSI near-oversold. US cash market CLOSED (Sunday) makes this tokenized perp thin/gap-prone, and the only real structure is ~10% away, so no entry offers a tight stop with 1.5R. Wait for a volume-backed coil-low break or the cash open.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 975.3,
+    "expires_min": 240,
+    "note": "Losing the coil/session low on volume confirms short resuming and gives a real entry."
+  },
+  "transcript": {
+    "macro": "Risk-ON but stretched/late-stage; S&P ~7575 near ATH, Mag-7 led. Key macro risk: hawkish Warsh Fed (9/18 pencil a hike), 10Y toward 5%, FOMC Jul 28-29. ~03:26 UTC Sunday: US CASH EQUITIES CLOSED -> tokenized equity perps (MU/TSM/EWY/AAPL/TSLA/CRCL) thin/gappy, low conviction until cash open. Crypto RISK-OFF & diverging: BTC ~$64K, dominance >50% rising, capital rotating out of alts; SOL crowded long. TSM Q2 earnings Jul 16 is the biggest event, drives MU/EWY read-through. Crude (CL) independent on Hormuz supply premium but very crowded long. Biggest recurring trap: crowded longs (SOL 2.5x, CRCL 2.76x, CL 4.0x L/S) into a stretched melt-up.",
+    "sentiment": "Cautiously risk-off/event-gated. Dominant near-term driver = TSM Q2 earnings binary Thu Jul 16 (drags MU/EWY/QQQ). MU: blowout Q3 Jun 24, news stale, next earnings ~Sep 22. SOL ~$77, best week of 2026 but crypto ETF ~$4.4B outflows/13 sessions, momentum fragile. EWY +112% YTD parabolic, geared to TSM print. CL=crude/WTI (not Colgate), whippy on US-Iran/Hormuz vs OPEC+ output hike. AAPL quiet into Jul 30 earnings (outside 48h). TSLA Q2 Jul 22 approaching, record deliveries digested, choppy. CRCL ~$67 down from mid-$80s: bank charter bullish vs Stripe 'Open USD' threat (PT cut to $55); most volatile name, headline-sensitive. Only CL and the TSM-complex have true <=48h catalysts.",
+    "analyst": "MU sold from 984 to 975 then coiled 14 bars on collapsing volume, momentum stalled with 5m flat/up and LTF RSI near-oversold. US cash market CLOSED (Sunday) makes this tokenized perp thin/gap-prone, and the only real structure is ~10% away, so no entry offers a tight stop with 1.5R. Wait for a volume-backed coil-low break or the cash open.",
+    "portfolio": "HOLD MU - thin closed-market coil, no near structural level for 1.5R; wait for 975.3 break or cash open."
+  },
+  "timestamp": "2026-07-12T03:32:02.683011+00:00"
+}

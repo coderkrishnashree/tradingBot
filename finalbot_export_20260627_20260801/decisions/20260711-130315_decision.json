@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "CRCL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Price coils in a tight 67.0-67.5 band; likely chops sideways over the next 2-4 bars until it either loses 67.0 (fade toward 66.6/VWAP) or reclaims 67.55 on volume to resume the 4h uptrend toward 68.5+.",
+  "expectancy_note": "No clean entry: price is mid-range (not at support 61.78 nor breaking resistance 73.72), 15m/5m momentum flat, crowd 2.72x long + RS -17.9% raises squeeze risk on a thin Saturday. Any market long here is a mid-air chase (<1.5R to first real level); waiting has higher expectancy.",
+  "rationale": "The 4h/1h composite is genuinely strong (score 0.9/0.77, ADX 57), so I won't fight the trend by shorting into support. But the entry is poor: price is coiling mid-range with flat near-term momentum, the L/S book is crowded 2.72x long (squeeze fuel), CRCL is bleeding -17.9% vs BTC, and US underlying is closed (gap-prone). No pullback-to-level long and no fade-at-extreme exists right now, so the highest-expectancy action is to wait for confirmation. A clean reclaim of the local 67.55 pivot on volume would turn this coil into a timely trend-continuation long.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 67.55,
+    "expires_min": 240,
+    "note": "Reclaiming the local 67.55 pivot (above the recent 67.49 rejection high) confirms the coil resolving upward with the strong 4h trend, justifying a reduced-size long toward 68.5."
+  },
+  "transcript": {
+    "macro": "Regime MIXED, risk-cautious into June CPI Tue Jul 14 (last print before Jul 28-29 FOMC). DXY 13-mo highs (~101.4), 10Y ~5%, hawkish-divided Fed. Equities grinding higher but stretched; BTC $64.2k laggard, dominance 56.3%. Saturday - US cash closed, tokenized-stock perps quote closed underlyings (thin, gap-prone until Monday). Reduced size + short holds advised. CRCL: strong composite (73% long, 4h 0.9, ADX 57) BUT L/S 2.72 crowded long, RS -17.9% vs BTC, corr BTC 0.53 - long only tactically, reduced size.",
+    "sentiment": "CRCL BULLISH fresh catalyst: Jul 10 received FINAL OCC approval for First National Digital Currency Bank, shares jumped ~13% pre-market (dominant near-term driver). Nomura FX-settlement partnership (longer horizon). Compass Point upgraded to Neutral but cut PT to $55 citing Stripe stablecoin competition. Earnings ~Aug 11 (outside window). High crypto beta (BTC 0.53, COIN 0.66).",
+    "analyst": "Strong 4h/1h trend but no clean entry: price coils mid-range 67.0-67.5, near-term momentum flat, crowd 2.72x long (squeeze fuel), RS -17.9% vs BTC, Saturday closed-underlying gap risk. Won't short a trending name into support; won't chase a mid-air long. Wait. Armed reconsider at 67.55 pivot reclaim for a reduced-size continuation long.",
+    "portfolio": "HOLD CRCL - trend real but crowded long with poor entry; wait for 67.55 reclaim."
+  },
+  "timestamp": "2026-07-11T13:03:15.828990+00:00"
+}

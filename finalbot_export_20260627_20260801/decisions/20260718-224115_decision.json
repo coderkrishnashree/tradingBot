@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "QQQ/USDT:USDT",
+  "size": 0.0,
+  "entry": 695.19,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price coils 693-696 just above 688 support; a live 5m/30m micro-bounce (5m RSI 69, up) likely keeps it chopping toward 697-700 near VWAP before the 4h downtrend resolves. No clean next move to trade from 695.",
+  "expectancy_note": "Short here: TP1=688 is only ~1x ATR (~4pt) below while an honest stop above the coil/VWAP is ~700-701 -> R:R < 1 into a deeply oversold 4h (RSI 24) with a live bounce = the account's classic late-short-stopped-by-bounce loss. Long fights ADX-77 downtrend + heavy sell wall. HOLD has best expectancy.",
+  "rationale": "Strong established 4h downtrend (ADX 77, score -0.64) but 4h RSI 24 is deeply oversold and the last hours are a tight coil at 688 support with a live short-term bounce (5m RSI 69, up). Shorting 695 gives sub-1.5 R:R to the 688 target with the honest stop above VWAP, and the bounce would likely hit that stop first; going long fights the trend and a -0.65 sell orderbook with cash markets closed and gappy. No positive-expectancy entry until price breaks 688 (short continuation) or reclaims ~703 VWAP zone (bounce), so I wait.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 687.5,
+    "expires_min": 240,
+    "note": "Losing 688 support on a 15m close confirms the coil resolved down and opens clean short-continuation room toward 680, flipping me to a with-trend short with real R:R."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF/defensive. QQQ: macro BEARISH near-term, epicenter of selloff: -5% off June highs, chip-led, hawkish-Fed overhang (hike priced by year-end). Scan short (blended -0.33), 4h RSI 24 and ADX 77 = strong established downtrend but already oversold short-term. Long/short ~0.99 (balanced) and heavy sell orderbook (-0.65). Lean bearish-with-trend, mind the bounce.",
+    "sentiment": "QQQ NEUTRAL, mildly negative momentum. Megacap earnings binary already passed (MSFT/GOOGL/AAPL Jul 13, TSLA Jul 15), next 48h is digestion not a scheduled event. Tape soft: Nasdaq Composite -1.47% mid-week on semiconductor weakness, though TSMC beat and hiked capex (bullish AI-infra read). July is seasonally QQQ's strongest month, but immediate overhang is oil-driven risk-off from the Iran war. Choppy, headline-hostage; no clean directional catalyst.",
+    "analyst": "Last 695.19, support 688. Strong 4h downtrend (ADX 77) but 4h RSI 24 deeply oversold; last hours are a tight coil at support with a live 5m/30m micro-bounce (5m RSI 69). Short gives sub-1.5 R:R to 688 with stop above VWAP \u2014 the bounce likely stops it first (account's losing pattern). Long fights the trend + sell wall. HOLD until 688 breaks or ~703 reclaims.",
+    "portfolio": "QQQ: HOLD (conf 0.60) \u2014 bearish trend but oversold/coiling at 688; short only on a break of 688, don't chase."
+  },
+  "timestamp": "2026-07-18T22:41:15.982263+00:00"
+}

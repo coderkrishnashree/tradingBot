@@ -1,0 +1,26 @@
+{
+  "symbol": "AAPL/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.6,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "forecast": "Thin, near-dead Sunday tape coiled 332.5-333.7 with BB width just 1.74% and collapsing volume; expect micro-drift until Monday cash open, then a gap that resolves direction.",
+  "expectancy_note": "Short = chasing 5m/15m RSI 33-40 oversold into a bid-heavy (+0.34), positive-bias (+0.15), +11.6% rel-strength name; learner shorts win only 47% (-0.87 avg). No long either: 4h down, market closed. p(edge)<0.5 both ways.",
+  "rationale": "Signal (short) and structure (long-supportive orderbook +0.34/bias +0.15, contrarian-friendly short-leaning crowd 0.83) directly disagree = MIXED. BB width 1.74% is a dead squeeze at VWAP with microscopic ATR, and the tape is thin Sunday drift that will GAP Monday, so any stop set now sits inside noise. Shorting into 5m/15m oversold against +11.6% rel-strength is this account's proven losing pattern; longing fights the 4h downtrend. Wait for the Monday open.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 332.0,
+    "expires_min": 240,
+    "note": "Losing 332.0 (under the coil, toward 312 support) on Monday-open volume confirms the SHORT signal with real energy rather than thin-tape drift."
+  },
+  "transcript": {
+    "macro": "Regime: RISK-OFF. Equities rolling over; live AI/semiconductor selloff dominant. Fed hawkish; FOMC Jul 28-29 (outside cycle). US equity market CLOSED (Sunday) \u2014 tokenized-stock perps thin, will gap Monday. AAPL: structure_bias +0.15 (only meaningfully long-supportive name), L/S 0.83 (short-leaning = contrarian bounce-friendly), orderbook +0.34, but scan direction SHORT and RSI 37/4h down \u2014 MIXED. Rel-strength +11% (genuine outperformer). Verdict: RISK-OFF.",
+    "sentiment": "AAPL: earnings NOT inside 48h \u2014 Q3 confirmed July 30 after close (~11 days out, Tim Cook's expected last as CEO). Consensus ~$108.9B rev / $1.89 EPS. Stock near record highs (~$327, +20% YTD); run-up may keep a bid under it, elevate implied vol. Neutral-to-supportive; binary is not this cycle.",
+    "analyst": "AAPL is a tokenized equity; even the light crypto structure leans against the short (bid-heavy +0.34, bias +0.15, contrarian short-leaning crowd 0.83). Scan short is contradicted by +11.6% relative strength and by the learner (shorts 47% win / -0.87 avg). BB width 1.74% and dead volume = no directional energy; market closed with Monday gap risk. Stand aside; re-debate on a real break of 332.0.",
+    "portfolio": "HOLD AAPL/USDT:USDT \u2014 mixed signal/structure on thin closed-market tape; armed reconsider below 332.0."
+  },
+  "timestamp": "2026-07-19T12:45:06.370235+00:00"
+}

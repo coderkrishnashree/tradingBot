@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "SNDK/USDT:USDT",
+  "confidence": 0.62,
+  "size": 0.0,
+  "entry": 1394.15,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "none",
+  "forecast": "Bounce is stalling: price grinds 1390-1395 for a candle or two on fading volume, then either rolls over toward 1360 (bearish-divergence resolution) or squeezes back above 1400. No clean edge until it picks a side.",
+  "expectancy_note": "Long here = chasing a stretched 15m bounce (RSI 75, stoch 81, bearish div, hot +5.7e-4 funding) into a risk-off semis air-pocket, negative expectancy. Blind short lacks a confirmed lower-high; wait for the 1360 break to get a ~1.5R momentum short toward 1311.",
+  "rationale": "SNDK is the weakest name in the scan (RS -46%), dead-center of a risk-off semis selloff, with a flagged bearish divergence, crowded hot long funding, and RSI 75 / stoch 81 on the mid TF after a 2.5% intraday bounce now fading on shrinking volume. Longing chases the top; shorting without a confirmed rejection risks the 9.2% BB-width gappy squeeze. No dated catalyst inside 48h. Highest-expectancy action is to wait: a loss of ~1360 (bounce origin / higher-low structure) confirms the reversal and opens a clean short toward support 1311, size 0 until then.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 1360,
+    "expires_min": 240,
+    "note": "Losing 1360 breaks the intraday higher-low structure and confirms the bearish divergence resolving down \u2014 arms a momentum short toward 1311 support with room for ~1.5R."
+  },
+  "transcript": {
+    "macro": "Broad regime RISK-OFF/defensive: semis-led equity selloff (SOX -20% off peak). SNDK sits DEAD CENTER of the AI-capex/semis air-pocket \u2014 the single worst risk/reward long in the group. Hot long funding + bearish divergence + extreme relative weakness.",
+    "sentiment": "SNDK euphoric/BULLISH tone but STRETCHED. Top S&P 500 performer 2026 (~700% YTD) on NAND supply tightness, Q3 rev +251% y/y. Recent pop largely analyst PT chases (Goldman $2,200, Bernstein $3,000 \u2014 low weight). Actual binaries OUT of window: Q4 earnings Aug 5, investor day Aug 13. Bearish divergence, crowded, mean-reversion-prone. No dated <=48h catalyst.",
+    "analyst": "2.5% intraday bounce to 1394 now fading on shrinking volume; RSI 75.6, stoch 81, bearish divergence, hot funding +5.7e-4, RS -46% (weakest in scan). Long = chasing the top; blind short risks a 9.2% BB-width squeeze without a confirmed lower-high. HOLD; arm a momentum short on a loss of ~1360 toward 1311.",
+    "portfolio": "HOLD SNDK \u2014 weakest name chasing a fading stretched bounce; wait for a 1360 break to short toward 1311."
+  },
+  "timestamp": "2026-07-20T09:44:59.507966+00:00"
+}

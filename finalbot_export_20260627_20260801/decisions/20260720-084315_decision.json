@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "MU/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "876-877 rejection is holding; last two 15m bars are red and fading on lighter volume, so I expect a drift back toward VWAP/the 856-858 shelf over the next 2-4 bars rather than a fresh breakout while US cash is closed.",
+  "expectancy_note": "Long here chases RSI76/+1.6% VWAP into resistance in a thin pre-open tape; short fights ADX75 uptrend AND the account's proven losing pattern (shorts 49% win, -0.84 avg). Neither clears 1.5R cleanly now \u2014 best expectancy is to wait for the dip-to-support long.",
+  "rationale": "MU is extremely extended (RSI 76, ADX 75, +1.6% VWAP) and just got rejected at 876-877 with the last two bars fading; chasing the long into a CLOSED, gappy tokenized-equity tape with weak relative strength (-34%) and crowded longs (L/S 2.17) is exactly the late-entry pattern that stops out on the routine pullback. Shorting a 75-ADX uptrend is the account's worst-performing bucket. The high-expectancy trade is a low-risk long on the pullback into the 856-858 higher-low shelf, not a market entry now.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 858.0,
+    "expires_min": 240,
+    "note": "A controlled dip into the 856-858 shelf/VWAP resets a with-trend long off support with a tight ~1xATR stop below 850; that is the honest entry this strong uptrend deserves."
+  },
+  "transcript": {
+    "macro": "Regime MIXED/cautious. US cash closed pre-open; tokenized perps thin/gappy until 09:30 ET. Semi slide drove last week's selloff (headwind for memory/semis). Positioning CROWDED LONG. MU: RSI 76, ADX 75 \u2014 extremely extended, strong trend but overbought; L/S 2.17 crowded. Any pullback would be sharp.",
+    "sentiment": "MU bullish fundamental tone \u2014 raised guidance on surging DRAM/NAND/HBM pricing; Q4 outlook lifted. Earnings NOT until Sep 29 (well outside window). No \u226448h binary. Memory-cycle bellwether, leads SNDK/INTC on memory/hyperscaler-capex headlines. NEUTRAL on scheduled catalysts.",
+    "analyst": "Extremely extended (RSI 76, ADX 75, +1.6% VWAP), rejected at 876-877, last two bars fading on lighter volume. Chasing the long = late-entry stop-out; shorting a 75-ADX uptrend = account's worst bucket. Neither clears 1.5R. HOLD; high-EV trade is a low-risk long on a dip into the 856-858 shelf.",
+    "portfolio": "MU: HOLD (conf 0.50) \u2014 extended; wait for a pullback-to-support long near 856-858."
+  },
+  "timestamp": "2026-07-20T08:43:15.373243+00:00"
+}

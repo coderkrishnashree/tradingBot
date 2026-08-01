@@ -1,0 +1,24 @@
+{
+  "symbol": "TSM/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.34,
+  "size": 0,
+  "entry": 401.27,
+  "stop_loss": null,
+  "take_profit": null,
+  "playbook": "none",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 403.0,
+    "expires_min": 240,
+    "note": "Reclaiming/holding above descending local resistance validates the 4h bullish divergence + 1h uptrend \u2014 turns the long into an actionable setup rather than catching a falling laggard."
+  },
+  "rationale": "TSM ~$401.27 is the most crowded long in the scan (L/S 2.537, structure_bias -0.332) and the weakest relative-strength laggard (-16.7%), with a hard 4h/1h conflict (4h down, MACD -5.86 vs 1h up) and dead weekend volume showing no price discovery. The only long hook is a 4h bullish divergence, but chasing it into a closed cash market with squeeze/gap risk has no honest R:R, and shorting a bleeding laggard is this account's #1 loss pattern (learner shorts 47% win). Wait for Monday to resolve divergence-vs-selloff; size 0.",
+  "transcript": {
+    "macro": "Cycle 2026-07-19 (Sat), US cash markets CLOSED \u2014 tokenized equity thin/gappy, no discovery until Mon, cut size. Regime MIXED, risk-OFF lean; master variable oil/Hormuz; Friday semi-led global risk-off (Nikkei -4%, semis led). TSM most crowded name (L/S 2.54), post-earnings drift active. Size DOWN.",
+    "sentiment": "TSM Q2 2026 earnings ALREADY REPORTED ~Jul 16 and BEAT (rev +36% YoY, GM 67.7%, Q3 guide +37% YoY, FY26 growth >40%, capex $60-64B, AI demand 'extremely robust') \u2014 binary PASSED. BUT tape rejected it: semis led Friday's global selloff, TSM weakest RS (-16.7%), 4h downtrend (with a 4h bullish divergence). Fundamentally bullish, sentiment bearish; sector-selloff overhang DOMINATES into Monday.",
+    "analyst": "Composite only 38.6%, bearish 4h (RSI 40.9, MACD -5.86) vs bullish 1h/5m; dead-volume weekend chop 401.4->400.6->401.3 with zero-volume bars = no discovery. Structurally most crowded long (L/S 2.537, bias -0.332) and worst RS laggard (-16.65%); learner flags structure_bias/rel_strength as strongest negative predictors and shorts as a losing book (47% win). Neither side has positive expectancy: long chases a crowded laggard into a gappy closed market; short fights a live 4h bullish divergence with a distant stop. HOLD; re-engage only above ~403 (validates divergence) or loss of 399.9 toward 386.81.",
+    "portfolio": "TSM: HOLD @0.34 \u2014 good print, bad tape; most crowded long + worst laggard, no edge either way until Monday. Trigger >403."
+  },
+  "timestamp": "2026-07-19T07:44:19.738342+00:00"
+}

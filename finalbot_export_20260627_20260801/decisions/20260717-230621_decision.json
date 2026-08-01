@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "META/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price is coiling in a 642-646 base on dying volume after the flush to 642; next few bars likely chop 642-646, resolving either into an oversold bounce toward VWAP ~658 or a break of 642 that reopens 630/608.",
+  "expectancy_note": "Fresh short at 643 has poor expectancy: 4h RSI 24 / 5m RSI 17 oversold + weekend gap = high bounce risk; learner shorts 0.47 win/-0.87 pnl and model penalizes high-RS extended names. Wait for a break of 642 (momentum) or VWAP reclaim (long).",
+  "rationale": "META already flushed to 642 and has based sideways for 15 bars on fading volume, sitting deeply oversold (4h RSI 24) and -2.3% below VWAP into a weekend with no price discovery until Monday. Chasing a short here is precisely the account's losing pattern (late short into stretched tape, stopped by the bounce), and the model weights penalize the exact features this name has (high RS +10%, extended below VWAP). No concrete next-candle edge and R:R to distant support 608 is unattractive with bounce risk high, so HOLD with a break of the 642 base as the trigger to re-arm a momentum short.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 642.0,
+    "expires_min": 240,
+    "note": "Losing the 642 intraday base low proves the oversold coil broke down and downside resumes with room toward 630/608 - a momentum short without chasing."
+  },
+  "transcript": {
+    "macro": "Cycle @ 2026-07-17 23:01 UTC (~19:01 ET Fri, AFTER US cash close, into full weekend). Risk-OFF tape: week Nasdaq -2.9%, semis smoked on AI-capex fears. Tokenized perps trade with NO price discovery until Mon 9:30 ET - thin books, stale/gappy marks, Monday gap risk. Fed on hold 3.50-3.75%. Event risk just outside 48h: META earnings Jul 29 (after close) - do not carry a large position toward month-end. META last 643.37: short-aligned with regime, RSI 24/4h oversold, but RS +10.1% vs BTC (relative outperformer being sold hard). Highest BTC corr of the three (0.39) yet still primarily an equity. Oversold + weekend = snapback risk against shorts; keep it tight.",
+    "sentiment": "Overall bearish/risk-off: semiconductor rout (SMH ~-9% wk) after China Moonshot AI Kimi K3 open-source model stoked AI-monetization fears; US-Iran re-escalation, Brent +4.6% to ~$88. Momentum DOWN into weekend but extremely oversold - tactical risk is a bounce. META: closed weak (RSI 24, 4h down, -2%+ on Nvidia decline), caught in AI-spend anxiety Moonshot amplified - core worry is whether Meta's $115B+ AI capex is investment or leak. Q2 2026 earnings Wed Jul 29 (after close) outside 48h, not this-cycle catalyst, but pre-earnings positioning/vol can build. Near-term news bearish/risk-off-aligned with the same oversold-bounce caveat.",
+    "analyst": "Mid-TF candles show the flush already happened - big red bar to 642.0 (high vol), then based ~15 bars in 642-646 on tiny volume. Not fresh downside; stalled oversold tape above the low into a weekend close. 4h RSI 24 / 5m RSI 17 deeply oversold = account's #1 loss pattern (short stretched tape, get bounced); learner shorts 0.47/-0.87 vs longs 0.75/+3.44, and model weights (vwap_dist -0.292, atr -0.252, relative_strength -0.414) penalize META's exact profile (RS +10.1%, -2.3% below VWAP). Long unjustified without a VWAP reclaim (~659). HOLD; arm break of 642 base for a momentum short.",
+    "portfolio": "META - HOLD (conf 0.60): oversold, don't chase the short into the weekend; arm 642 breakdown."
+  },
+  "timestamp": "2026-07-17T23:06:21.872541+00:00"
+}

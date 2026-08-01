@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "INTC/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Off the 104.21 rejection, price is rolling over on the LTF (15m/5m RSI mid-40s, 15m score -0.21); expect chop 101.3-103.3 until it either loses 101.33 (opens a VWAP retest toward ~99) or reclaims 103.3 to retry 104.6.",
+  "expectancy_note": "Long = buying a parabolic top (RSI 82/ADX 88, VWAP +4.5%, long-crowded 1.75) = account's #1 loss pattern; short into an ADX-88 uptrend with a 15% earnings binary Thu is a knife-catch. p(win) on either market entry <0.5.",
+  "rationale": "INTC is a tokenized equity in a parabolic blow-off (RSI 81.9, ADX 87.6, +163% YTD, VWAP +4.5%) with an imminent Thursday-after-close earnings binary implying ~15%. Chasing the top long is how this account bleeds, and fading an ADX-88 trend without confirmation is a knife-catch; the LTF has only just started rolling over off the 104.21 rejection. No trade offers R:R>=1.5 with an honest stop, and overnight event risk argues against any size. Wait for the 101.33 swing-low break for a real short trigger.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 101.33,
+    "expires_min": 240,
+    "note": "Losing the recent 15m swing low confirms the rollover off 104.21 and opens a short toward the VWAP retest near 99."
+  },
+  "transcript": {
+    "macro": "Mixed / event-loaded (2026-07-21). Equity risk-on intraday, semis bid; BTC ~$66.6k firm but broader tape soft (F&G 29 fear, BTC dominance ~56%, grind-not-rip). Tokenized equities liquid only during US cash hours (~13:30-20:00 UTC); thin/gappy off-hours. Heavy earnings week: TSLA & GOOGL Wed 7/22 after-close, INTC Thu 7/23 after-close; FOMC 7/28-29 (hold expected, ~20% hike odds). Longs are the crowded consensus side across the book \u2014 favor pullbacks over chasing; most names RSI-extended. Cleanest longs on crowding/RS: MSTR, META, QQQ, BTC. High-hazard (parabolic/crowded/earnings): TSLA, COIN, INTC, SNDK, XAUT.",
+    "sentiment": "Mixed-to-cautious. Crypto in Extreme Fear (F&G ~25-29) \u2014 rallies faded; BTC +~2% on ETF inflows + easing CLARITY Act. Equities grind into heavy earnings week on thin breadth (Nasdaq -2.9% last week, chips ~-10%). Imminent binaries inside horizon: TSLA Wed AC (~7.6% implied), INTC Thu AC (~15% implied). MSTR halted BTC buys / dilution optics (earnings 7/30). META/COIN earnings next week (7/29-30). XAUT: hawkish-Fed macro headwind, gold near 9-mo lows. SNDK/EWY/QQQ have no own <=48h catalyst (sector/semi beta, INTC-Thu risk secondhand). COIN chained to BTC/crypto sentiment.",
+    "analyst": "INTC is a tokenized equity in a parabolic blow-off (RSI 81.9, ADX 87.6, +163% YTD, VWAP +4.5%) with an imminent Thursday-after-close earnings binary implying ~15%. Chasing the top long is how this account bleeds, and fading an ADX-88 trend without confirmation is a knife-catch; the LTF has only just started rolling over off the 104.21 rejection. No trade offers R:R>=1.5 with an honest stop, and overnight event risk argues against any size. Wait for the 101.33 swing-low break for a real short trigger. | Forecast: Off the 104.21 rejection, price is rolling over on the LTF (15m/5m RSI mid-40s, 15m score -0.21); expect chop 101.3-103.3 until it either loses 101.33 (opens a VWAP retest toward ~99) or reclaims 103.3 to retry 104.6. | Expectancy: Long = buying a parabolic top (RSI 82/ADX 88, VWAP +4.5%, long-crowded 1.75) = account's #1 loss pattern; short into an ADX-88 uptrend with a 15% earnings binary Thu is a knife-catch. p(win) on either market entry <0.5.",
+    "portfolio": "HOLD (0.60) \u2014 parabolic blow-off (RSI 82/ADX 88) into a ~15% earnings binary Thu; no size, wait for a 101.33 break."
+  },
+  "timestamp": "2026-07-21T14:31:17.237882+00:00"
+}

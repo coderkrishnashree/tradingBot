@@ -1,0 +1,28 @@
+{
+  "symbol": "CL/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.5,
+  "size": 0.0,
+  "entry": 82.12,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "trend",
+  "forecast": "Choppy near 82.1 short-term; a break of the 81.82 session low likely extends to 81.3-81.0, whereas an Iran supply-fear headline squeezes back toward 82.85-83.0. Mid-range now, no clean edge either way.",
+  "expectancy_note": "Short-from-here p(win)~0.5, R:R~1.5 to 81.0 but two-way Iran gap risk + account shorts losing (47% win, -1.01 avg) degrade expectancy; a break of 81.82 restores it.",
+  "rationale": "Strong downtrend (ADX 46, all TFs short) and a bar-by-bar rollover favor lower, but price sits AT VWAP mid-range with no bounce-into-resistance to short and no fresh downside trigger \u2014 market-selling here risks a headline squeeze through a tight stop on a live two-way US-Iran tape. This account's short book is bleeding (47% win rate), so I want confirmation, not a mid-range guess. Wait for either a break of the 81.82 low to short continuation, or a bounce to 82.85 resistance to fade \u2014 size 0 until then.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 81.82,
+    "expires_min": 240,
+    "note": "Losing the session low confirms the downtrend is resuming and clears the way toward 81.3-81.0 for a lower-risk continuation short."
+  },
+  "transcript": {
+    "macro": "Regime MIXED, cautiously risk-on but on a US-Iran geopolitical knife-edge; funding ~0 broadly, equity book long-crowded. CL short bias (blended -0.495, RSI 39, ADX 46 strong downtrend), structure near-neutral, negatively correlated to BTC. Biggest risk: two-way Iran headline can squeeze shorts. Supports short trend but keep size modest given event whipsaw.",
+    "sentiment": "CL BULLISH-catalyst live: US-Iran conflict capping Gulf output, disrupting Strait of Hormuz tanker traffic, holding crude near $82-83 despite OPEC+ raising Aug targets +188k bpd. Headline-driven, gappy; any de-escalation/ceasefire is a sharp downside risk. Scan reads short but news skews the tape two-way.",
+    "analyst": "Strong downtrend (ADX 46, all TFs short) with a bar-by-bar rollover, but price sits AT VWAP (-0.35%) mid-range \u2014 no bounce-into-resistance to short and no fresh downside trigger. Market-selling here risks a headline squeeze through a tight stop on a live two-way US-Iran tape, and this account's short book is bleeding (47% win, -1.01 avg). R:R to 81.0 is ~1.5 but expectancy is degraded. Wait for a break of the 81.82 session low (continuation) or a bounce into 82.85 resistance (fade). Size 0.",
+    "portfolio": "HOLD CL \u2014 strong downtrend but mid-range with live two-way Iran gap risk; wait for 81.82 break or 82.85 fade."
+  },
+  "timestamp": "2026-07-21T06:16:13.173184+00:00"
+}

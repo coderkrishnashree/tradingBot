@@ -1,0 +1,25 @@
+{
+  "action": "hold",
+  "symbol": "SOL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "expectancy_note": "No positive-expectancy entry now: buying at bb_pctb 1.07 / RSI 93.9(15m) / +0.89% VWAP after +19% week is chasing mid-air; shorting the only BTC-leader (RS +1.47%) on a fresh 5.39x-vol breakout with no rejection is negative EV. Best EV is to wait for a defined level.",
+  "rationale": "SOL is the standout (RS +1.47%, only 'trend' regime) but violently extended: outside the upper band, RSI 82 composite/93.9 on 15m, pinned just under 83.94 resistance. Crowded longs (L/S 2.08, structure_bias -0.32) plus btc_corr 0.60 into a fragile BTC tape make a chase here a prime long-liquidation candidate, while a countertrend short has no confirmation. R:R on any immediate entry is poor, so I stand aside and let it either retest the 83.09 breakout/81.75 support for a long or lose the base to invalidate.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 82.6,
+    "expires_min": 240,
+    "note": "Losing 82.6 fails the fresh 83.09 breakout retest and opens a pullback long entry toward 81.75 support (or confirms the extended-move unwind); either resolves the chase problem and lets me re-debate with defined risk."
+  },
+  "transcript": {
+    "macro": "Regime CAUTIOUS/MIXED. BTC ~$62.7k off ~$58k mid-June low, reclaimed $60k Jul 2 on eased Fed inflation fears. BTC dominance elevated ~57-58% (alt headwind). Fear & Greed ~19 (Extreme Fear). Bounce driven by fragile US-Iran ceasefire (headline-dependent). SOL is the standout: relative_strength +1.47% vs BTC (only crypto leading BTC), only symbol not regime-blocked ('trend' regime), +19% on week off ~$66-72 low, btc_correlation 0.60. Positioning problem: crowded extended long \u2014 RSI 82 composite/93.9 15m/76 4h, bb_pctb >1.0 (outside upper band), vwap_dist +0.89%, fresh 15m breakout at 83.09 (vol 5.39x). L/S 2.08 lopsided long, structure_bias -0.32. Funding benign, OI ~$5.4B flat-to-down ~1% with volume -15% = squeeze-quality not durable trend. Verdict: lean don't-chase-longs; favor pullback to 81.75 or 83.09 retest. Biggest risk: crowded long book into extreme RSI with btc_corr 0.60 \u2014 BTC fade cascades into long liquidations.",
+    "sentiment": "Tone constructively bullish, momentum-driven. Best week of 2026 (+19% off ~$68), fundamentals-backed: record RWA $3.4B, stablecoin supply >$16B, ~7M active addresses, TPS ~1,100, whale accumulation, small ETF inflows. Near-term <=48h catalysts: NONE concrete/binary \u2014 no unlock, no FOMC/CPI, no listing, no upgrade activation. Alpenglow upgrade is Q3 2026 (multi-week narrative, not a 24-48h trigger). ETF flows tiny (~$0.5M Jul 1). Jul 4 US holiday \u2014 thin liquidity, BTC risk appetite drives SOL. Risk flags: overheated (RSI 82-94, ~0.9% above VWAP, late-stage mean-reversion risk); crowded longs (L/S 2.08 squeeze-lower setup); broad BTC tone only 'Fear' ~36. Net: neutral-to-mildly-supportive tone but NO fresh <=48h catalyst \u2014 a long here is a pure momentum/technical bet, not a news bet.",
+    "analyst": "Textbook 'don't chase': price outside upper Bollinger band, RSI blown out to 93.9 on 15m, ADX 78.5, sitting right under resistance 83.94 after +19% week. A fresh long chases an extended move mid-air; a short fights the strongest name with a fresh 5.39x-vol breakout and no confirmed rejection. Highest-expectancy play is to wait for a pullback toward the 83.09 breakout retest / 81.75 support, or a clean rejection below 83. HOLD with an armed trigger below 82.6 (240 min).",
+    "portfolio": "SOL: HOLD (conf 0.60) \u2014 momentum leader but violently overbought; stand aside, armed to re-debate a pullback long below 82.6."
+  },
+  "timestamp": "2026-07-04T04:45:14.595876+00:00"
+}

@@ -1,0 +1,26 @@
+{
+  "symbol": "GOOGL/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.6,
+  "size": 0,
+  "entry": 370.59,
+  "stop_loss": 366.9,
+  "take_profit": 373.49,
+  "playbook": "none",
+  "forecast": "Rejected at 373.49 resistance, last 15m bar closed at its low; expect a fade toward the 367.5-368 launch base / rising VWAP over the next 2-5 bars. Buy the dip there with-trend, or chase only on a clean reclaim/close back above 373.49.",
+  "expectancy_note": "No edge at spot: extended (RSI 77.6, %B 1.1), just rejected at resistance, crowded longs + negative orderbook (-0.52). p(win) on a chase ~45%; waiting for 367.5 dip lifts it to ~60% with 1x ATR risk. HOLD beats both a chase-long and a countertrend short.",
+  "rationale": "GOOGL is a pure equity (BTC corr 0.044) in a strong up-trend all TFs, but price is extended above the upper band and just got rejected at 373.49, with the last bar closing on its low. Structure_bias -0.52 (2x crowded longs, asks stacked) signals near-term pullback risk, and this account's longs have been losing (0.5 win, -1.87 avg) \u2014 no reason to chase. Best expectancy is to wait for a dip into the 367.5-368 base to buy with-trend, or a confirmed reclaim of 373.49 to ride the breakout; size 0 until one triggers.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 368.0,
+    "expires_min": 240,
+    "note": "A pullback to the 367.5-368 launch base / rising VWAP is the high-probability with-trend long entry; crossing it re-debates for a dip-buy with a tight stop under 366.9."
+  },
+  "transcript": {
+    "macro": "Cautiously risk-on but hawkish Fed overhang (~56% Sep hike odds); equities firm near records but fragile. GOOGL idiosyncratic \u2014 BTC corr only 0.044, treat as pure equity. RS +3.5% vs BTC, composite long ~51%, up-trend all TFs, but overbought (RSI 77.6 4h, bb_pctb 1.1) with structure_bias -0.52 (crowded 2x longs, asks stacked). Better on pullback than breakout chase.",
+    "sentiment": "GOOGL bullish/momentum on AI-capex rally but stretched. Only near catalyst Q2 earnings ~Jul 22 after close \u2014 outside 48h window, not tradeable, just a reason not to hold large into next week. No <=48h binary. Near-term news neutral-to-slightly-supportive; lean on technicals, tape overbought.",
+    "analyst": "GOOGL 370.59, rejected exactly at 373.49 resistance and fading bar-by-bar, last 15m bar closed at its low. Extended/overbought (RSI 77.6, %B 1.106, stoch 81.2), structure_bias -0.52. Not a chase-long spot; not a clean short (trend up all TFs, RS +3.5%). Learner: longs losing (0.5 win, -1.87 avg). Highest-expectancy = HOLD; arm pullback-buy at 367.5-368 base / rising VWAP, or long on a clean reclaim of 373.49.",
+    "portfolio": "GOOGL \u2014 HOLD (conf 0.60): extended and rejected at resistance; wait for dip to 367.5-368 base to buy with-trend, no position now."
+  },
+  "timestamp": "2026-07-07T14:38:15.147913+00:00"
+}

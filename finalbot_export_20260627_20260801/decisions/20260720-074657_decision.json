@@ -1,0 +1,28 @@
+{
+  "symbol": "MU/USDT:USDT",
+  "action": "hold",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price just bounced off 851 support to 867 and is pressing back into the 869-872 prior-supply shelf under a RISK-OFF semi rout; I expect a rejection at 869-872 and a roll-over back toward 851, and only a break of 851 confirms the exhausted-long unwind toward 830/806.",
+  "expectancy_note": "p(win) ~0.5 either way now: market-long chases RSI 77.5 / +1.7% VWAP into a -0.908 sell-wall (account's #1 loss pattern); market-short fights a fresh bounce off 851 with live bullish divergence. No 1.5R edge until 851 breaks or 880 reclaims \u2014 HOLD has best expectancy.",
+  "rationale": "MU screens 'long' but it's a low-confidence (37%) lagging-trend read on a blow-off (RSI 77.5, ADX 72.5) into a hostile semiconductor rout, with the worst structure in the set: bias -0.572, orderbook -0.908 heavy offer, L/S 2.28 crowded, RS -33%. The last two 15m bars are a bounce back INTO the 869-872 supply that already rejected price twice, not a breakout, so a market long is chasing an exhausted move into a sell-wall. A short is the right side but a fresh bounce off 851 with bullish divergence means immediate entry risks a squeeze to VWAP; wait for the 851 failure to fire the short cleanly.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 851.0,
+    "expires_min": 240,
+    "note": "Losing the 851 bounce low confirms the exhausted-long unwind and clears the way to short toward 830/806; a reclaim of 880 would invalidate the bear case."
+  },
+  "transcript": {
+    "macro": "RISK-OFF / hostile for tech & crypto longs. Semiconductor rout the main event. MU specifically STRONG HEADWIND \u2014 pure memory/semi, dead-center of the sell-off, worst structure in the set (bias -0.572, orderbook -0.908, L/S 2.28, RS -33%). BTC 21-month lows. Tokenized equities off-hours thin/gappy.",
+    "sentiment": "MU: bearish tone, no <=48h catalyst. Crashed ~30% from Jun 25 record (~$1,255), chopping ~$844; last earnings (blowout) already Jun 24 \u2014 no earnings catalyst in window. Most beaten-up memory name, moves tick-for-tick with the KOSPI/AI-memory complex that sold off hard today (KOSPI -4.5%). Near-term momentum negative, bullish RSI divergence on the scan.",
+    "analyst": "MU last 867.08, RSI 77.5, ADX 72.5 (blow-off), +1.73% VWAP, structure_bias -0.572, orderbook -0.908 (sell wall), L/S 2.28. Last two 15m bars are a bounce off 851 back INTO the 869-872 supply that rejected twice \u2014 not a breakout. Long chases an exhausted move into a sell-wall; short is the right side but risks a squeeze to VWAP off a fresh 851 bounce with live bullish divergence. HOLD; short trigger below 851.",
+    "portfolio": "HOLD MU \u2014 exhausted long into a sell-wall, short not yet clean; reconsider short below 851."
+  },
+  "timestamp": "2026-07-20T07:46:57.717229+00:00"
+}

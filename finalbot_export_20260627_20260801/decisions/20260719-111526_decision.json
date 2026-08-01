@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "AAPL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Frozen Sunday tape: price pinned ~333.0-333.4 on near-zero volume with no momentum either way; expect continued flat drift until Monday's cash open, where a gap-reconcile could break either direction.",
+  "expectancy_note": "No tradable next-move; tight 2.29% BB + dead volume gives no honest R:R, and weekend gap risk makes any entry a coin-flip. HOLD beats forcing a frozen-tape long into resistance with a bearish 4h divergence.",
+  "rationale": "AAPL is a tokenized equity with US cash closed on Sunday \u2014 the last 20 15m bars are flat at ~333.2 on 0.2-18 unit volume, i.e. off-hours noise. Structure is mildly constructive (bias +0.20, orderbook +0.47, L/S 0.81 not crowded, RS +10%) and longs have been this account's winning side (75%, +3.44), so the bias favors a long \u2014 but price sits near range-top resistance (339) with a bearish 4h divergence and no momentum. Best expectancy is to wait for the Monday open and enter on confirmation; size 0.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 339.17,
+    "expires_min": 240,
+    "note": "A decisive reclaim/break of range-top resistance (likely on Monday's open) confirms real buyers and validates the long trend-continuation thesis."
+  },
+  "transcript": {
+    "macro": "RISK-OFF, semiconductor-led selloff; rates mild tailwind. SUNDAY \u2014 US cash closed, tokenized perps thin/gappy, gap-reconcile Monday. AAPL: NOT a chip name, lower beta (RSI 44, ADX 65 trend intact). One of few with POSITIVE structure_bias (+0.20, orderbook +0.47, L/S 0.81 not crowded) and positive RS +10% vs BTC. Bearish 4h divergence, frozen over weekend. Mixed-to-mildly-constructive long \u2014 least-bad long here, wait for Monday open.",
+    "sentiment": "Disinflation vs semi selloff; earnings-gauntlet week; Sunday off-hours thin/gappy. AAPL bullish + earnings approaching: at/near record highs (~$327+, +20% YTD), Broadcom supply deal through 2031 positive, Citi PT raised to $365. Q3 FY26 earnings July 30 after close (OUTSIDE 48h). Near-term sentiment supportive, no imminent binary.",
+    "analyst": "Last 20 15m bars flat at ~333.2 on 0.2-18 unit volume \u2014 off-hours noise, not signal. Tight BB (2.29%), ADX 65 trend intact but RSI 44.5 neutral, bearish 4h divergence, price near range-top resistance 339. Structure mildly bullish and longs are the account's winning side (75%, +3.44), but no tradable next-move on a frozen tape with gap risk. HOLD; enter long on a Monday break above 339.17.",
+    "portfolio": "HOLD AAPL \u2014 least-bad long but frozen at range-top on dead volume; enter on Monday reclaim of 339.17."
+  },
+  "timestamp": "2026-07-19T11:15:26.571237+00:00"
+}

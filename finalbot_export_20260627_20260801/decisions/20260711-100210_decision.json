@@ -1,0 +1,27 @@
+{
+  "symbol": "XAG/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.62,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "none",
+  "forecast": "Pinned weekend tape: last 20 bars span 59.93-59.97 (4 cents) coiled dead on the $60 pivot; no directional path. Expect low-vol chop between ~59.85 and 60.10 until a macro/DXY catalyst forces a break of 59.30 (down) or 60.70+ (up).",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 59.3,
+    "expires_min": 360,
+    "note": "Losing the pinned-range floor confirms the crowded-long book unwinding; opens a squeeze toward support 57.31 and turns this into a short."
+  },
+  "rationale": "Silver sits exactly on the $60 make-or-break line with a dead-flat, pinned tape (tick 0.01 candles, 5m RSI 100 = illiquid weekend pin) that gives no forecastable next move. Momentum is up but stretched (1h RSI 73) while the book is the most crowded-long in the set (L/S 3.29, structure_bias -0.295) into a cooling metal with a hawkish-Fed/firmer-USD headwind - a genuine two-sided setup with no trigger. Entering means guessing the pivot break with a noise-width stop; wait for the $60 resolution.",
+  "transcript": {
+    "macro": "MIXED/cautious regime. Scan Sat 2026-07-11 09:56 UTC. Silver is a commodity perp (trades ~24/7, less weekend-stale than the equity names) but macro-driven. Precious metals cooling: gold ~$4,000, silver retreated below $60 on hawkish-Fed lean + fading Mideast safe-haven bid + firmer USD. XAG: composite 49.1%, L/S 3.29 - the MOST crowded-long book in the set; $60 is the live line, contrarian squeeze risk if it fails. Mild long bias only above $60; SIZE DOWN.",
+    "sentiment": "Broadly risk-ON but stretched. XAG: ~$60, stuck in a bearish-to-neutral channel, whipsawing on Fed rate-cut vs hike bets and DXY. Recent bounce on Fed-cut hopes + safe-haven bid from renewed Middle East tension. Longer-term structurally bullish (JPM ~$81 avg 2026, GS $85-100, Citi $110 tail) but NOT a <=48h driver. Near-term driven by macro/DXY and Fed-speak, no scheduled weekend event. Resistance ~$65, then ~$72.",
+    "analyst": "XAG pinned dead on the $60 pivot in a 4-cent weekend range with no forecastable path. Two-sided: up-momentum (ADX 49, 1h RSI 73) vs extreme long-crowding (L/S 3.29, structure_bias -0.295) into a cooling metal on a hawkish-Fed/firmer-USD lean. No trigger, noise-width stops, undefined R:R = HOLD. Re-debate short if 59.30 breaks (crowded-long unwind toward 57.31); flips long only on a clean reclaim/hold back above ~60.70.",
+    "portfolio": "HOLD XAG - pinned on the $60 pivot, most crowded-long book, two-sided with no trigger; short flip at 59.30."
+  },
+  "timestamp": "2026-07-11T10:02:10.863099+00:00"
+}

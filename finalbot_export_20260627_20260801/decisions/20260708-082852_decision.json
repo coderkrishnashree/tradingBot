@@ -1,0 +1,26 @@
+{
+  "symbol": "XAUT/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.35,
+  "size": 0.0,
+  "entry": 4081.2,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "forecast": "Oversold flush (RSI 26-32, stoch 8.5, closed below lower BB) with bullish divergence and a hammer that recovered ~8pts off the 4073.1 low - a bounce toward the broken 4108-4116 shelf is likely over 2-6 bars, but FOMC minutes today can extend the flush; range 4073-4116 until the event resolves.",
+  "expectancy_note": "Long geometry is ~2.4 R:R but p(win) capped by a live FOMC-minutes binary today + L/S 2.69 crowded-long fuel, and the macro desk says no fresh longs into this knife; shorting means chasing a washed-out extreme after an 8pt bounce. Neither side clears 1.5R cleanly.",
+  "rationale": "Divergence/mean-reversion candidate, not a fresh trend: deeply oversold across all TFs with bullish divergence and a rejection wick off 4073, but a falling knife into today's FOMC minutes with crowded-long positioning that can cascade. A long risks being run over by a hawkish headline; a short chases an exhausted extreme. Best expectancy is to wait for a 4108 reclaim (then long the confirmed divergence toward 4116-4130) or a clean break of 4073 to flip short.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 4108.0,
+    "expires_min": 240,
+    "note": "Reclaiming the 4108 shelf confirms the bullish-divergence bounce and converts the oversold read into a valid long toward 4116-4130."
+  },
+  "transcript": {
+    "macro": "Risk-on w/ intraday wobble; DXY<102, negative real yields = structural gold bid; Fed on hold, first cut ~Sept. Funding ~0 but L/S long-skewed (contrarian-bearish). XAUT: L/S 2.69 crowded long, RSI 32, bullish divergence after flush to 4073; near-term MIXED - no fresh longs into falling knife. Low BTC corr (0.29), independent.",
+    "sentiment": "Catalyst TODAY: June FOMC minutes (Jul 8, Chair Warsh) reprices Sept cut. Gold bullish tone - weak DXY + rising cut bets + Eastern-Europe tension = safe-haven flows, near $4,130-4,175 recently; main risk strong US data / hawkish minutes today sparking a sharp reversal. Bullish but headline-sensitive.",
+    "analyst": "Deep oversold + bullish divergence + hammer off 4073 argues bounce, but FOMC binary today and crowded longs cap edge; wait for 4108 reclaim (long) or 4073 break (short).",
+    "portfolio": "HOLD XAUT - right thesis (structurally bullish gold), wrong time; no fresh long into a knife before FOMC. Long trigger armed on 4108 reclaim."
+  },
+  "timestamp": "2026-07-08T08:28:52.329794+00:00"
+}

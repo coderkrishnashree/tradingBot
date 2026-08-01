@@ -1,0 +1,24 @@
+{
+  "action": "hold",
+  "symbol": "TSLA/USDT:USDT",
+  "size": 0.0,
+  "entry": 395.04,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.55,
+  "rationale": "TSLA is pinned at VWAP (dist -0.66%, not extended) coiling on the 391 support with volume drying to near-zero and 5m already flipping long (RSI 62.7) \u2014 a short here enters the account's proven loss pattern (high-ADX shorts avg -1.21, structure_bias short weight -0.60). Reward to the only real target (391) is barely 1R against a squeeze-risk crowded-long book on a risk-on tape; no long either as price sits under a down 4h with resistance 18pts away. Best expectancy is to wait for the 391 break or 397.5 reclaim to trade the resolution rather than the coil.",
+  "transcript": {
+    "macro": "OVERALL risk-on tech-led but tokenized book crowded LONG overbought -> favor contrarian shorts on laggards. TSMC earnings Thu Jul 16 binary chip gap. Off-hours thin. TSLA: supports SHORT tactically, EVENT-AWARE \u2014 395.04 pinned near support 391, 4h/15m short (4h RSI 45, ADX 58.8), crowded long L/S 1.87 bias -0.16; BUT orderbook +0.34 dip-buyers, Q2 record deliveries; TSLA earnings Jul 22 OUTSIDE 48h but headline-prone; respect 391 and risk-on squeeze risk.",
+    "sentiment": "OVERALL risk-off, event-heavy (US-Iran/Hormuz, AI-semi rout, KOSPI bear market). TSLA: BEARISH/NEUTRAL into a hard catalyst \u2014 Q2 deliveries beat big (480,126, +25%) yet stock fell ~7.5% on Jul 2 (third straight delivery-day drop; ~200x P/E, BYD competition). Q2 earnings after close Wed Jul 22 (OUTSIDE strict 48h) but dominant upcoming binary; pre-earnings positioning risk rising; broad risk-off adds downside.",
+    "analyst": "15m dropped 399.5->394.8 then flatlined 394.8-395.2 for ~12 bars on vanishing volume \u2014 a drift-stall right above 391 support, not seller accumulation; 5m flipped long (RSI 62.7). Short here is the account's #1 loss pattern (shorts n=30, 47%, avg -1.59; high-ADX shorts n=35 avg -1.21) into support 4pts away with dip-buyers (ob +0.34) and crowded-long squeeze fuel on a risk-on tape \u2014 negative expectancy, sub-1.5 R:R. No clean long under a down 4h either. HOLD; trade the 391 break or 397.5 reclaim.",
+    "portfolio": "TSLA: HOLD (0.55) \u2014 coil on 391 support, 5m turning up, short would fade into support/squeeze; wait for 390.8 break or 397.5 reclaim."
+  },
+  "forecast": "Price is coiling dead-flat at 394.8-395.2 on collapsing volume just above 391 support; expect a low-vol grind here, then a resolution \u2014 a clean break/hold below 391 opens 388-386, while a reclaim of 397.5 aborts the short and targets 400+. No edge until one side breaks.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 390.8,
+    "expires_min": 240,
+    "note": "Losing 391 support on real volume confirms the 4h/15m short and opens 388-386 \u2014 that break, not the current coil, is the tradeable short."
+  },
+  "timestamp": "2026-07-15T23:05:51.434784+00:00"
+}

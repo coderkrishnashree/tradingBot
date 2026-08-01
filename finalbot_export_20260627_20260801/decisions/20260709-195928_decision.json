@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "MSFT/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.34,
+  "playbook": "none",
+  "forecast": "Squeeze likely extends 1-3 more bars toward the 386-390 VWAP-band ceiling, then stalls; only a rejection near ~395.85 resistance validates the 4h short, while a hold above ~388 would keep momentum bid. No clean edge from 384.79 mid-range.",
+  "expectancy_note": "p(win) too low both ways: shorting now fights 88-RSI momentum + strong bid book (that is the account's classic late-short-into-squeeze loss); no long edge with 4h down. R:R undefined mid-range - best EV is wait.",
+  "rationale": "MSFT is mid-air between support 373.78 and resistance 395.85, price only -0.27% from VWAP (not extended vs VWAP) yet 5m/15m RSI 82.6/88.0 - a stretched intraday squeeze into the close on rising volume, closing at the bar high. The only real bear is the 4h (score -0.821), but orderbook +0.597 bid book and off-hours thin/gappy equity liquidity make a market short a coin-flip that gets run over first. Highest-EV move is to hold and let the squeeze reach resistance, where the 4h short becomes a real R:R fade.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 393.0,
+    "expires_min": 240,
+    "note": "A push into the 393-395.85 resistance zone gives the frothy short-TF RSI a structural level to fade with a tight stop above 395.85, aligning the fade with the 4h down bias - that is the tradable short."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF but AI names held Nasdaq up (+0.2%). MSFT last 384.79, composite SHORT only 35.8%; structure conflicted: long_short 1.869 (crowded-long -> contrarian short) but orderbook +0.597 (strong bid) -> net structure_bias only -0.082. TF conflict: 4h short (score -0.821, RSI 36.6) vs 15m/5m ripping up (RSI 82.6/88.0). Pure equity, thin/gappy off-hours; AI support cuts against a clean short. Lowest conviction; wait for squeeze to roll over near ~395.85 or stand aside.",
+    "sentiment": "Structurally bullish AI narrative (run-rate +123% YoY to $37B) but LONG-horizon. Near-term only hard binary is EARNINGS July 29 (~3 weeks out, not tradable). No fresh MSFT shock today. Near-term news NEUTRAL - pure-technical decision; frothy short-TF RSI is the relevant signal; off-hours thin liquidity the main caveat.",
+    "analyst": "Mid-air between support 373.78 and resistance 395.85, only -0.27% from VWAP yet 5m/15m RSI 82.6/88.0 - a stretched squeeze into the close. Only bear is the 4h; orderbook +0.597 bid book + thin off-hours liquidity make a market short a coin-flip that gets run over first. Hold and let the squeeze reach resistance where the 4h short becomes a real R:R fade.",
+    "portfolio": "MSFT: HOLD (conf 0.34) - lowest conviction; arm short into 393-395.85 resistance."
+  },
+  "timestamp": "2026-07-09T19:59:28.996381+00:00"
+}

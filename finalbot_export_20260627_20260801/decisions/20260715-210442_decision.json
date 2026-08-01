@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "EWY/USDT:USDT",
+  "size": 0.0,
+  "entry": 171.44,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.34,
+  "playbook": "none",
+  "forecast": "Price coils in the 170.0-172.2 consolidation shelf built over the last ~9 bars; most likely it chops sideways into the July-16 TSMC print rather than trending cleanly. A rejection back under ~170.0 reopens the 1h downtrend toward 168/166; a reclaim of 172.2 confirms the bounce continues toward 174-175.",
+  "expectancy_note": "No edge: ADX 26 (choppy), %B 0.42 and price AT VWAP (no extreme to fade, no level to break), TFs conflict (15m up vs 1h/4h down). p(win) on any entry ~0.5 with binary gap risk = negative expectancy; HOLD beats it.",
+  "rationale": "The scan's 'momentum short' is stale: the last 9 candles are a tight consolidation ABOVE the 166 bounce low with 15m/5m turned up and price sitting exactly at VWAP, mid-Bollinger \u2014 shorting here sells the middle of a range with no level to lean on, and 1h RSI 33 means downside is already stretched (the account's classic late-short-into-bounce loss). No clean fade or breakout exists with support 159.5 / resistance 187 so far away, and the July-16 TSMC binary plus 2.83% ATR make any position a coin-flip on a gap. Stand aside until the 170/172.2 coil resolves.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 169.85,
+    "expires_min": 240,
+    "note": "Losing the 170 consolidation shelf on a 15m close reopens the 1h downtrend and validates a short toward 168/166 with a real level to lean on."
+  },
+  "transcript": {
+    "macro": "Modestly risk-on but event-heavy. Soft June CPI + PPI, Fed HOLD July. US strikes on Iran + Hormuz blockade = elevated gap risk; Korea is oil-import dependent. Tokenized equities thin/gap-prone when US cash closed. EWY: MIXED / HIGH-BETA to the July-16 TSMC chip event. KOSPI ripped +6% today (~7,300) on AI-relief rally, but most volatile of the four (ATR 2.83%, bb_width 12%), directly exposed to July-16 TSMC + Samsung/SK Hynix earnings. In-scan momentum short (1h RSI 33, 30m/1h/4h down) after today's spike; rel-strength -19.7% vs BTC.",
+    "sentiment": "Tone dominated by active US-Iran conflict. EWY NET NEGATIVE / extreme two-way vol, headline-driven. KOSPI in violent bear market \u2014 down ~25% from 9,114 record, plunged below 7,000 ('Black Monday' July 13), then +6% Wednesday on tech rally. Drivers: (1) US-Iran/Hormuz oil fears hit oil-import-dependent Korea, (2) chip-sector unwind (SK Hynix -10%+). Whippy, high-beta to oil + semis; short bias but heavy two-way gap risk; carries the July-16 TSMC binary indirectly. Long-term bullish (Goldman 12m target 12,000) but not tradeable this horizon.",
+    "analyst": "EWY at 171.44. Price bottomed 166.05 ~5h ago, rallied to 172.21, now consolidating tight 170.5-172.2 for ~9 bars. ADX 26.3 (choppy), price AT VWAP (+0.36%), mid-Bollinger (%B 0.42) \u2014 no extreme to fade, no level to break; support 159.5 / resistance 187 far away. 15m/5m turned up vs 1h/4h down; 1h RSI 33 = downside already stretched. July-16 TSMC binary + 2.83% ATR makes any entry a gap coin-flip. Textbook NO TRADE. HOLD; reconsider on a 15m close below 169.85.",
+    "portfolio": "HOLD EWY \u2014 choppy mid-range at VWAP, no edge, binary chip event tomorrow; reconsider on a 15m close below 169.85."
+  },
+  "timestamp": "2026-07-15T21:04:42.794267+00:00"
+}

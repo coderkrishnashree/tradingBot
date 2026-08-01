@@ -1,0 +1,28 @@
+{
+  "symbol": "COIN/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.5,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "none",
+  "forecast": "Price is basing 163.5-164.3 after the leg down; last 6 bars are small-bodied, low-volume holds above 163.5 with 15m RSI 25.4 oversold. Expect either a dead-cat bounce toward 166.5-168 VWAP/resistance or a fresh flush through 163.3 \u2014 sell the bounce, don't chase into the hole.",
+  "expectancy_note": "Chasing a trend-short here (extended -1.99% below VWAP, %B 0.03, 15m RSI 25.4) is negative-EV; learner shows short/trend plays bleeding (-2.5 to -3.0 avg). Better to short a bounce into 167 or a confirmed 163.3 break.",
+  "rationale": "COIN is multi-TF short-aligned with strong ADX 47, but price is already oversold on lower TFs and pinned to short-term support 163.5 after a volume-driven flush, mid-air between a good short-from-strength (167) and a breakdown trigger (163.3). BTC corr 0.74 with a fragile short-squeeze bounce underway makes a fresh short vulnerable to a violent BTC-driven pop. No clean entry, so HOLD with an armed short trigger.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 163.3,
+    "expires_min": 240,
+    "note": "Loses the basing floor / prior swing low on volume = trend resumes, short toward 160/158; a reclaim of 166.5 would instead offer a short-the-bounce entry into VWAP."
+  },
+  "transcript": {
+    "macro": "RISK-OFF regime, hostile to longs, supportive for shorts. Rates HIKE regime (~56% Sept hike); Fed minutes this week. BTC ~$64k +6.3% on short-covering, Fear&Greed=23, fragile bounce. Biggest cross-book risk = BTC short-squeeze reversal (hits COIN/MSTR/HOOD together). COIN: corr BTC 0.74 (pure crypto-beta), structure_bias ~flat -0.03, L/S 1.23 mildly long; short-supportive but crowded-down, SIZE DOWN.",
+    "sentiment": "COIN bullish narrative fading into pullback, no <=48h binary. +19% pop to ~$165 (July 2 'System Update') now fading. Overhang: Q1 2026 $394M net loss, Barclays Underweight $107 PT. Earnings late-July (out of window). Trades as high-beta crypto proxy; mildly supports a short (post-catalyst mean-reversion) but respect crypto whipsaw risk.",
+    "analyst": "Multi-TF short-aligned, ADX 47, but oversold on lower TFs (15m RSI 25.4, %B 0.03, -1.99% below VWAP) and basing on 163.5 support after a volume flush. Mid-air between short-from-strength (167) and breakdown (163.3). BTC squeeze reversal is the tail risk. No clean entry => HOLD, armed short trigger.",
+    "portfolio": "HOLD COIN \u2014 trend-short bias but no clean entry; short a bounce to 167 or a break of 163.3."
+  },
+  "timestamp": "2026-07-07T20:27:25.644822+00:00"
+}

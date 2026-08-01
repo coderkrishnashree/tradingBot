@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "ORCL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price is mid-bounce: held 120.36 support, ran to 124.03, rejected twice, now easing to 122.67 \u2014 expect chop between 120.4 and 124.5 over the next few bars, no clean edge either way until one side breaks.",
+  "expectancy_note": "No entry clears R:R: shorting RSI 29.7 / -2% VWAP into an active bounce is the account's proven loser (shorts 48% win, avg -0.73R); longing a counter-trend bounce under ADX-60 downtrend + crowded longs is fragile.",
+  "rationale": "ORCL is deeply oversold (RSI 29.7, below lower BB, -2% VWAP) and actively bouncing off 120.36 support \u2014 the 15m has flipped LONG (+0.499) while all higher TFs stay down. Fresh shorts here are chasing a stretched name into a bid-heavy book (orderbook +0.43) and match this account's #1 loss pattern; a counter-trend long fights an ADX-60 downtrend and crowded 2.67 L/S into hot CPI + live FOMC hike risk. Neither side offers 1.5R with an honest stop, so flat is the highest-expectancy stance.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 120.36,
+    "expires_min": 240,
+    "note": "Losing 120.36 support proves the oversold bounce failed and the ADX-60 downtrend resumes \u2014 clean short trigger with structure behind the stop."
+  },
+  "transcript": {
+    "macro": "Regime MIXED-to-RISK-OFF. Mega-cap/software: ORCL WEAKEST name on the board (RS -27.9%, deeply oversold RSI ~29). FOMC 7/28-29 (~63% hold, 37% HIKE, no cut priced); June CPI hot. Funding flat; long/short lopsidedly long desk-wide (ORCL 2.67, most crowded-long => contrarian-bearish). Deeply oversold could bounce but crowd still heavily long. Reduce size (VIX 18, Iran gap risk).",
+    "sentiment": "ORCL NO near-term earnings (last June 10, next ~Sep 14). Cleanest of the cluster \u2014 trades on price/sector, no event overhang. Deeply oversold (RSI ~29, RS -28%). Near-term neutral.",
+    "analyst": "Deeply oversold (RSI 29.7, below lower BB, -2% VWAP) and actively bouncing off 120.36; 15m flipped long (+0.499) while higher TFs down (ADX 60). Fresh short = chasing into bid-heavy book (+0.43) = account's #1 loser; counter-trend long fragile vs ADX-60 + crowded 2.67 L/S. No 1.5R. Wait for loss of 120.36.",
+    "portfolio": "ORCL: HOLD (conf 0.60) \u2014 oversold bounce, no clean edge; short only on loss of 120.36."
+  },
+  "timestamp": "2026-07-20T19:16:56.766456+00:00"
+}

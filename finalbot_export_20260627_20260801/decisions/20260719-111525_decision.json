@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "INTC/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.66,
+  "playbook": "none",
+  "forecast": "Price coils 94.0-94.45 below VWAP on fading volume; most likely chop into Monday gap-reconcile with no clean edge before the Jul-23 earnings binary. Expect drift within 93.3-94.5 rather than a resolved trend.",
+  "expectancy_note": "No setup clears R:R>=1.5: ADX 24 chop, TFs split (1h long vs 4h/5m short), mid-range between 89.8 and 115.5, crowded longs (L/S 2.34) into worst-RS name; HOLD beats forcing a trade into thin Sunday tape + earnings binary.",
+  "rationale": "INTC is the highest-risk name on the board: hostile semi-rout macro, worst relative strength (-33%), non-aligned composite (align 0.8), and a hard earnings binary Jul-23 inside the hold window. Sunday off-hours make fills thin and gappy. There is no honest R:R here \u2014 price sits mid-range below VWAP with ADX 24 chop and crowded longs, exactly the condition to stand aside.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 95.0,
+    "expires_min": 240,
+    "note": "Reclaiming 95 clears the intraday resistance shelf and would confirm the 1h long is winning through off-hours, justifying a re-debate for a small long; below 93.3 the 4h short takes control."
+  },
+  "transcript": {
+    "macro": "RISK-OFF, semiconductor-led selloff; rates mild tailwind. SUNDAY \u2014 US cash closed, tokenized perps thin/gappy, gap-reconcile Monday. INTC: highest-risk name \u2014 reports earnings this week, ~21% foundry-yield drawdown, poster child of chip rout. Scan nominally long (p_win 0.75) but NOT aligned (4h/5m short), structure_bias -0.31 (L/S 2.34). HOSTILE macro + binary earnings risk in hold window; tiny size only if traded.",
+    "sentiment": "Disinflation vs semi rout; earnings-gauntlet week; Sunday off-hours thin/gappy. INTC bearish + IMMINENT EARNINGS RISK: crashed ~21% in 7 days on 18A yield-delay + AMD taking data-center lead. Q2 earnings July 23 (Thu) after close \u2014 hard binary, biggest event risk on the list. Sentiment bearish into the print.",
+    "analyst": "Composite long but NOT aligned (align 0.8): 4h short (-0.284), 5m short (-0.41), 1h strongly long. ADX 24.3 chop, RSI 51.8, VWAP -1.42%, structure_bias -0.31 (L/S 2.34), RS -33% (worst on board). Price coils 94.0-94.45 mid-range. Sunday gap risk + Jul-23 earnings binary. Textbook NO TRADE; reclaim >95 reopens small-long debate, below 93.3 the 4h short takes over.",
+    "portfolio": "HOLD INTC \u2014 hostile semi macro, split TFs, earnings binary Jul-23; stand aside, no directional carry into the print."
+  },
+  "timestamp": "2026-07-19T11:15:25.275441+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "EWY/USDT:USDT",
+  "size": 0.0,
+  "entry": 180.77,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.58,
+  "playbook": "none",
+  "forecast": "Relief bounce continues off the 177.6 low toward VWAP/broken-support 182.5-183.5 over next 2-5 bars; that retest is where the downtrend most likely resumes back toward 177.6/174.6.",
+  "expectancy_note": "p(win) on a chase-short here ~0.45 with support only 3.4% away = negative expectancy; waiting to short the failed VWAP retest ~182.8 offers ~2.5R.",
+  "rationale": "EWY is a Samsung/SK-Hynix chip-selloff proxy mid-way through an oversold bounce: last 5 bars higher-lows/higher-closes off 177.62, stoch 18.8, RSI 33, -3.19% below VWAP. Trend is down (ADX 37, all TFs short) so short the RETEST not the dip. Entering short at 180.77 into support 174.61 is chasing into an active snapback with flagged squeeze risk; wait.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 182.8,
+    "expires_min": 180,
+    "note": "A tag of VWAP/broken-support 182.8 that stalls/rejects is the high-EV short entry back toward 177.6/174.6."
+  },
+  "transcript": {
+    "macro": "RISK-OFF / semis-led unwind. Nasdaq-100 -2%, SOX -6%, memory-glut scare. EWY (181): 57% tech/Samsung/SK Hynix chip-selloff proxy, -13% RS, QQQ corr 0.75, L/S 1.54 lopsided-long (contrarian squeeze risk).",
+    "sentiment": "Samsung Q2 sell-the-news crash -> global semis/memory selloff. EWY epicenter: KOSPI -3.6% today. Samsung detailed earnings 7/30 (not 48h). Bearish today but very oversold.",
+    "analyst": "Bearish bias but oversold bounce live (green 5m, RSI 33, stoch 18.8, -3.2% below VWAP, higher-lows off 177.6). Shorting the dip at 180.77 into support 174.6 is negative expectancy; trade is the failed VWAP retest near 182.8. HOLD with armed short trigger.",
+    "portfolio": "EWY: HOLD (0.58) \u2014 armed short on failed retest ~182.8."
+  },
+  "timestamp": "2026-07-07T16:09:51.388008+00:00"
+}

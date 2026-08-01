@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "TSM/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.55,
+  "playbook": "none",
+  "forecast": "Price is pinned at the lower band (bb%b 0.018, 15m RSI 25.6, -2% below VWAP) just 1.7% above 389.34 support on paper-thin volume; base case is a mean-revert bounce toward 400-403 over the next 2-6 bars before the downtrend resumes.",
+  "expectancy_note": "Short p(win)~0.40 chasing here (learner: shorts 44% win, -1.02 avg) vs a clean break-of-389.34 short p(win)~0.6; holding for the trigger beats a stretched market entry into FOMC/thin tape.",
+  "rationale": "Aligned-short but deeply oversold and extended (bb%b 0.018, LTF RSI 25-26, -2% below VWAP) with support 389.34 only 1.7% away and crowded-long L/S 2.78 plus negative funding = squeeze fuel - the exact late-short-into-stretched-tape pattern this account loses on. Thin gappy volume and FOMC Wed + hyperscaler capex read-through add binary risk with no <=48h edge. I want either a break of support or a bounce to VWAP/403 to short from strength, not a chase at the band.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 389.34,
+    "expires_min": 240,
+    "note": "Losing 389.34 support breaks the range floor and confirms the next downtrend leg - arm the short there rather than chasing the stretched band now."
+  },
+  "transcript": {
+    "macro": "FOMC Wed Jul 29 + mega-cap earnings week (MSFT/META Wed) = two 48h event walls; GOOGL & TSLA capex triggered tech-sector meltdown, semis SMH -2%. HOSTILE-to-MIXED for equity directional risk into Wed. L/S lopsidedly long even as prices fall = squeeze risk. TSM: aligned short, semis under pressure, but very low volume/liquidity (gappy tape), RSI 36 and L/S crowded 2.78; slippage risk, size down.",
+    "sentiment": "Busiest catalyst window compressed into 24-72h: FOMC Wed, MSFT+META Wed, PCE Fri. TSM net neutral, catalyst spent: reported Q2 7/16 strong beat (EPS $4.31, rev $40.2B, +36% YoY), AI/2nm demand 'extremely robust'; catalyst behind it, selling off (RSI 26-36, below VWAP) with the semi tape; no own <=48h binary, trades on INTC/semis and MSFT/META hyperscaler-capex commentary Wed.",
+    "analyst": "Snapshot last 395.90: aligned short, 43.1% conf, ADX 53.1 strong trend, RSI 36.4 (4h)/25.6 (15m)/26.1 (1h) deeply oversold LTF, bb %B 0.018 pinned at lower band, VWAP dist -2.02% extended, support 389.34 only ~1.7% below, L/S 2.776 crowded long, funding -0.0007 (shorts pay), very thin/gappy volume. Last 20 bars stair-step down 400.2->395.9, near session low. Market short is the #1 loss pattern (late short into stretched tape, high bounce-stop risk); honest short is a limit on a bounce to VWAP ~403. HOLD with armed trigger on the support break.",
+    "portfolio": "HOLD TSM - down-trend but stretched-oversold at the band on thin tape into FOMC; arm short on a break of 389.34."
+  },
+  "timestamp": "2026-07-28T00:37:41.537806+00:00"
+}

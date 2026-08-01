@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "XAG/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "breakout",
+  "forecast": "Breakout candle (RSI 86, closed with an upper wick off 58.94) is exhausted; expect a pullback to retest the 58.73/58.65 broken-resistance shelf or VWAP ~58.26 over the next 2-5 bars, then a possible resumption. Chasing 58.87 now buys the top of the pop into a 4.04 long crowd; the clean long is the retest hold.",
+  "expectancy_note": "p(win) ~0.55 only on a retest entry (stop under 58.50 ~1xATR, target 60.5-61.0 = R:R ~4:1); market-buying here is ~0.4 with the bounce likely to hit any honest stop first. Breakout playbook is 0/2 on this account \u2014 wait for structure, don't chase.",
+  "rationale": "Real volatility expansion higher, but every timeframe is badly overbought (15m RSI 86, stoch 89, +1.04% above VWAP) and long/short 4.04 is the most crowded long in the scan \u2014 textbook conditions for the account's recurring 'chased late, stopped by the bounce' loss. FOMC Wed adds shakeout risk. No honest stop exists at 58.87 (base is only $0.22 below = sub-ATR, will get wicked). I want the retest: a hold of 58.65-58.73 gives a $0.20 stop and a $2 target. Losing 58.50 voids the breakout.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 58.65,
+    "expires_min": 240,
+    "note": "Tag of the broken-resistance shelf \u2014 if it holds as support there (bounces off 58.5-58.65) it becomes the high-R:R long entry; a clean break below 58.50 instead voids the breakout and keeps me flat."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF, Sunday July 26 2026. Oil up, 10Y ~4.69%, USD firm. XAG 58.87 \u2014 most extended of the group. Breakout flagged (level 58.73, BBW 2.6x, vol 3.29x) but RSI 74.5 (15m 86), stoch 89, bb_pctb 0.80 \u2014 badly overbought. structure_bias -0.294 off EXTREME long/short 4.04 (most crowded long in scan). 0.877 corr XAUT \u2014 high-beta gold trade. Momentum-long ONLY on the breakout with a tight leash; smaller size. FOMC Wed July 29.",
+    "sentiment": "Strongest structural story: sixth consecutive annual supply deficit (~46M oz), AI/solar/semi demand, spot briefly $60+ \u2014 multi-quarter narratives, not <=48h catalysts. Near-term a momentum/breakout trade, overbought (RSI 75-86), vulnerable to pre-FOMC shakeout. Dovish-hold helps silver; hawkish surprise hurts more than gold (higher beta). Bullish bias but catalyst is technical and extended.",
+    "analyst": "Breakout is real but the candle closed off its high with an upper wick, RSI 86, +1% above VWAP, into the most crowded long in the book (4.04). No honest stop at 58.87 (base only $0.22 below = sub-ATR, gets wicked). This is the account's #1 loss pattern (chase late, stopped by the bounce); breakout playbook 0/2. HOLD and arm a retest trigger at 58.65 \u2014 the only entry with an honest stop and 3-4:1 R:R.",
+    "portfolio": "XAG: HOLD (conf 0.60) \u2014 real breakout but won't chase RSI-86 into a 4.04 long crowd; wait for retest of 58.65."
+  },
+  "timestamp": "2026-07-26T10:35:09.867754+00:00"
+}

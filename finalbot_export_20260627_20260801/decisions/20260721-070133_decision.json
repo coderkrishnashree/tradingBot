@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "HOOD/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.4,
+  "playbook": "none",
+  "forecast": "Grind stalling at 101.1-101.23 on collapsing volume with LTF RSI 77/84 stretched; expect a fade/chop back toward the 100.2-100.4 shelf rather than a clean breakout. A pullback holding ~100.3 offers a proper long; loss of 100.2 opens 99.7.",
+  "expectancy_note": "Chasing a long into RSI 77/84 + crowded 1.65 L/S into 7/29 earnings, thin closed-market session = negative expectancy; no bearish trigger for a short. HOLD beats both.",
+  "rationale": "HOOD is a tokenized equity with US cash CLOSED (gappy) and weak relative strength (-11.67% vs BTC). Composite only mildly long (49%) and LTF overbought (15m/30m RSI 77/84) with price on the upper Bollinger and volume drying - a late entry is the account's proven loser. A short lacks any reversal signal (last bar at highs, orderbook +0.259 bid-heavy). No level close enough for honest R:R; wait for a pullback into the 100.2-100.4 shelf. Size 0.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 100.3,
+    "expires_min": 240,
+    "note": "A pullback into the 100.2-100.4 shelf that holds resets the long to a with-trend, non-extended entry."
+  },
+  "transcript": {
+    "macro": "Mildly risk-off, thin off-hours session (US cash CLOSED - gappy). VIX 18.77. Fed HOLD Jul 28-29, possible hike later 2026, no dovish rescue. Crowded-long/overbought AI complex. HOOD lags BTC -11.7%. SIZE DOWN. Dominant risk: GOOGL earnings 7/22.",
+    "sentiment": "HOOD (Robinhood): HARD CATALYST Q2 earnings 7/29 after close (~8 days out, outside 48h but caution on multi-day holds). History of violent post-print moves (fell 13% on Q1 miss 4/28; weak crypto take-rates, crypto sentiment only neutral now). Pre-earnings de-risking could cap upside.",
+    "analyst": "Overbought, weak-RS grind (LTF RSI 77/84, upper band, volume drying) into a thin US-closed session with a crowded long book (L/S 1.648) and 7/29 earnings looming - chasing a long is the account's signature late-entry loss; no reversal trigger for a short. Wait for a pullback into the 100.2-100.4 shelf. HOLD, size 0.",
+    "portfolio": "HOLD HOOD - overbought late-grind into 7/29 earnings; armed pullback-buy trigger at 100.3."
+  },
+  "timestamp": "2026-07-21T07:01:33.137080+00:00"
+}

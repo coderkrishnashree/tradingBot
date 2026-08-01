@@ -1,0 +1,27 @@
+{
+  "action": "hold",
+  "symbol": "BTC/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.3,
+  "playbook": "none",
+  "forecast": "No BTC candles or indicators in this scan (rate-limited), so no concrete next-bar path can be stated; price likely chops ~$63-64k into the FOMC-minutes release, which resolves direction. Cannot forecast a tradeable move without primary data.",
+  "rationale": "BTC was rate-limited out of the scan (fetch_errors/skipped_symbols): no RSI, ADX, ATR, support/resistance, recent candles or structure block exist for BTC, so I have no way to place an honest entry, stop or target or to read the candle path. Web positioning is stale and FOMC minutes release today is a same-day binary that can jolt risk either way inside the 48h window. With no measurable R:R and an imminent catalyst, entering is negative-expectancy guessing; confidence kept low to reflect the data gap.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 60000,
+    "expires_min": 240,
+    "note": "$60k is the cited pivot; losing it flips the neutral-to-mild-bull lean bearish and warrants a re-debate (ideally once BTC is back in the scan with real candles/structure)."
+  },
+  "transcript": {
+    "macro": "Regime MIXED-to-RISK-OFF in equities (tech-led chip selloff), but CRYPTO DECOUPLED and holding: BTC ~$64k, +6.3% on the week, dominance ~54-58%, funding modestly positive (~0.009%), OI ~$47.7B rising with price = real money, no euphoria/crowded-long red flag. Cleanest risk backdrop of the three targets. WARNING: BTC's own structure numbers are STALE/MISSING - re-pull before sizing.",
+    "sentiment": "BTC NEUTRAL-to-slightly-cautious, one 48h catalyst. ~$63-64k, clawed back from 21-month low under $58k; sentiment fragile but stabilizing. Spot-ETF flows flipped POSITIVE (+$221M Jul 3, largest single-day inflow in ~2 months, ending 10-day/$2.73B outflow streak) after ETFs' worst month on record (-$4.5B June). Dated catalyst inside 48h: FOMC minutes release Jul 8 (today) - hawkish could jolt risk, dovish supports recovery; FOMC decision Jul 28-29. Regulatory tail-risk low. $60k is the pivot.",
+    "analyst": "Bull: crypto decoupled and holding, BTC +6.3% week, ETF flows flipped positive (+$221M), funding positive with OI rising = real money, cleanest backdrop of the targets. Bear: overall regime mixed-to-risk-off with tech-led chip selloff, sentiment fragile after 21-month low under $58k, FOMC minutes drop TODAY - same-day binary either way inside the window. Decisive: BTC was rate-limited out of this scan - no row, no candles, no indicators, no structure. Cannot read the path, cannot size ATR-based stops/targets, cannot compute R:R; only positioning is stale web numbers. Blind directional perp into a same-day FOMC binary with no technicals is negative expectancy. HOLD, reconsider at $60k pivot, wait for BTC data to repopulate.",
+    "portfolio": "BTC: HOLD (conf 0.30) - rate-limited out of scan, no technicals + stale structure + same-day FOMC-minutes binary = un-quantifiable R:R; reconsider armed at $60k pivot."
+  },
+  "timestamp": "2026-07-08T05:30:13.330799+00:00"
+}

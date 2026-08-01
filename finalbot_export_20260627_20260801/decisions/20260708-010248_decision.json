@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "XAG/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.55,
+  "playbook": "none",
+  "forecast": "Oversold reflex bounce off the 59.67-59.75 double-low just stalled with a rejection wick near 60.30-60.34; expect chop 59.90-60.35 into FOMC minutes, then resolution. Trend/crowding favor a resumption lower toward 59.70/59.00 IF the bounce fails and 59.85 breaks; a reclaim of 60.55 would instead extend the squeeze toward 61.3.",
+  "expectancy_note": "Short is the trend+crowding play (ADX 57, L/S 3.10, rel_str -10.9%) but entering at 60.16 chases a fresh bounce off support with RSI 28.7 and FOMC minutes today - negative expectancy at this exact price; wait for bounce-failure trigger.",
+  "rationale": "Multi-TF is bearish (30m/1h/4h all short, oversold-momentum trend down) and the crowded 3.10 long ratio is fuel for more downside, but price is bouncing off 59.67 support at the lower Bollinger band with a live 5m up-thrust (RSI 70) and FOMC minutes can cause 2%+ whipsaws - shorting here is chasing into oversold. No long either: rel strength -10.9% and firm dollar cap upside. HOLD is highest-expectancy; short the failure of this bounce, not the bounce itself.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 59.85,
+    "expires_min": 240,
+    "note": "Losing 59.85 confirms the oversold reflex bounce failed and the downtrend is resuming toward 59.00/58.00 - arm the short."
+  },
+  "transcript": {
+    "macro": "Regime (2026-07-08): cautiously risk-on but fragile. Hot inflation (May CPI +4.2%); June dot-plot leans toward possible 2026 hike; firm dollar. FOMC minutes today = DXY/real-yield sensitive. Semiconductor risk-off could drive safe-haven bid. XAG tilt: bearish/neutral - crowded long (L/S 3.10), rel str -10.9%, RSI 28.7 oversold; firm dollar/hot-CPI unhelpful.",
+    "sentiment": "Macro-driven, mildly constructive but choppy. Weak June payrolls (57k vs 110k) cut Fed hike odds, fueled ~6.7% weekly silver surge toward ~$60-62; safe-haven/rate-play bid if AI risk-off persists. Near-term swing risk: FOMC minutes + USD strength already causing 2%+ intraday reversals. Neutral-to-positive, DXY-sensitive.",
+    "analyst": "Bearish trend+crowding (ADX 57, L/S 3.10, rel_str -10.9%) but price is on an oversold reflex bounce off the 59.67-59.75 double-low at the lower band (RSI 28.7, %B 0.08) with a live 5m up-thrust, and FOMC minutes can whipsaw 2%+. Shorting at 60.16 chases the fade at the wrong spot; long has no edge. Hold; short the bounce-failure below 59.85.",
+    "portfolio": "XAG: HOLD (conf 0.55) - short the bounce-failure below 59.85, not the bounce."
+  },
+  "timestamp": "2026-07-08T01:02:48.594144+00:00"
+}

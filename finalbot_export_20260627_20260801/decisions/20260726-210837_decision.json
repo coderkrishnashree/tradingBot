@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "INTC/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price is 8% below VWAP with 15m/30m/5m RSI 24-29 (deeply oversold) and holding just above 94.06; expect a mean-revert bounce or chop toward 95-96 over the next few bars before any resumption lower \u2014 not a clean continuation down.",
+  "expectancy_note": "Late short into stretched/oversold tape is this account's #1 loser (shorts n=51, win 0.47, avg -0.78; rel_strength weight -0.33 argues against shorting the weakest name). No confirmed reversal bar for a long-fade either. Best expectancy is to wait.",
+  "rationale": "INTC is a crowded-long (L/S 2.17) weakest name that has already dumped 8% below VWAP with LTF RSI 24-29 \u2014 shorting here is chasing and a routine counter-bounce would stop it; the learner shows shorts and low-rel-strength names bleeding for this book. Support 91.35 is only ~3% away, so a short's reward is thin against high bounce risk, and the long-fade lacks a confirmation bar (still lower closes). Waiting for either a bounce to VWAP to short into or a reclaim of 95.5 to confirm mean-reversion is the higher-expectancy path.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 95.6,
+    "expires_min": 240,
+    "note": "Reclaiming ~95.6 (toward VWAP) confirms the oversold mean-revert bounce and opens a long-scalp / removes the case for a fresh short; below it the tape stays too stretched to short late."
+  },
+  "transcript": {
+    "macro": "RISK-OFF/cautious tape 2026-07-26: crowded-long book into risk-off. INTC L/S 2.17, RSI 36.6, rel strength -22.97% (weakest name), earnings already reported Jul 23 \u2014 post-earnings drift, no fresh catalyst. Weekend gap; equity perp thin/gappy off-hours. Verdict: CAUTIOUS/FLAT-to-lean-SHORT (INTC named as short candidate), but oversold intraday = mean-revert watch.",
+    "sentiment": "Crypto EXTREME FEAR; 'good results, nervous tape'. INTC EARNINGS OUT Jul 23: big BEAT (EPS $0.42 vs $0.21; rev $16.1B vs $14.4B +25% YoY; data center +59%). Guided Q3 above, raised capex >$20B. Catalyst PAST \u2014 perp digesting a bullish surprise; heavy/oversold intraday (mean-revert watch, not fresh news).",
+    "analyst": "Crowded-long weakest name already 8% below VWAP with LTF RSI 24-29 \u2014 shorting is chasing and a counter-bounce would stop it; learner shows shorts and low-RS names bleeding. Support 91.35 only ~3% away = thin reward vs high bounce risk; long-fade lacks a confirmation bar. Wait for a bounce to VWAP to short or a reclaim of 95.6 to confirm mean-reversion.",
+    "portfolio": "INTC: HOLD 0.60 \u2014 too stretched/oversold to short late; armed to reconsider on reclaim of 95.6."
+  },
+  "timestamp": "2026-07-26T21:08:37.880958+00:00"
+}

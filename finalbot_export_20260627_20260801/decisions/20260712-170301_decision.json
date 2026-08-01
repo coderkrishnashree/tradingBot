@@ -1,0 +1,23 @@
+{
+  "symbol": "MSFT/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.55,
+  "size": 0.0,
+  "entry": 383.55,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "rationale": "Short bias is real (4h ADX 55, blended -0.46, structure_bias -0.39 from crowded 1.98 L/S + negative orderbook), but the down-leg is already mature: 4h RSI 34.5 and 5m RSI 33.8 are stretched, a BULLISH divergence is flagged, and price sits AT VWAP (-0.14%) in a tight 383.4-383.9 coil with drying volume. Fresh shorting here is chasing into oversold with no honest R:R. Underlying cash market closed (Sunday) = thin/gappy. Wait for a clean VWAP-rejection breakdown below 383.3 or a bounce, not mid-range entry into a divergence.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 383.3,
+    "expires_min": 240,
+    "note": "Losing the 383.3 consolidation shelf on 15m re-arms the short toward 380/support 373.8; a reclaim above 385 kills the short bias."
+  },
+  "transcript": {
+    "macro": "Regime MIXED, risk-cautious with hawkish-Fed (Warsh) overhang; FOMC July 28-29; DXY biased higher; longs broadly crowded. MSFT: perp ~$383.5, RSI 34.5 4h, all TFs tilted short, below VWAP, scan direction short 58% conf. Crowded long L/S 1.98 + negative orderbook -0.33 = structure_bias -0.39 (contrarian-supportive of short). Earnings July 29 (outside window). Sunday July 12, cash market closed -> thin/gappy equity perp.",
+    "sentiment": "MSFT NEUTRAL/mildly bullish but earnings binary looms. Q4 FY26 earnings Wed July 29 after close (outside 48h). Constructive ops (Azure +40%, AI run-rate ~$37B) capped by heavy AI capex narrative and Copilot/Azure lawsuits; OpenAI deal reworked non-exclusive through 2032 w/ $250B Azure commitment. No <=48h catalyst.",
+    "analyst": "MSFT is a tokenized equity so I lean on technicals; crowded 1.98 long + negative orderbook lean bearish and match the 4h downtrend (ADX 55). But the short is already extended: 4h/5m RSI low-30s, flagged bullish divergence, price parked at VWAP in a drying-volume coil -> a fresh short chases a mature move with no clean R:R. Cash closed and thin. Hold and arm a break below 383.3 to re-enter cleanly; reclaim of 385 invalidates.",
+    "portfolio": "MSFT -> HOLD (flat), conf 0.55; armed short-on-breakdown below 383.3."
+  },
+  "timestamp": "2026-07-12T17:03:01.444738+00:00"
+}

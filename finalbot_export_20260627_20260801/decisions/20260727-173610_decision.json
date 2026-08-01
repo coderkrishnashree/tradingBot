@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "XAG/USDT:USDT",
+  "size": 0.0,
+  "entry": 58.52,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.4,
+  "playbook": "none",
+  "forecast": "Coils in the 58.3-59.1 range into FOMC; a fresh 15m close below 58.29 opens the crowded-long flush toward 57.4/55.6, while reclaiming 59.1 targets 60. Neither is confirmed yet.",
+  "expectancy_note": "Short signal p_win only 0.421, stoch already 12 (down-move spent) and FOMC in ~40h - market short here risks the counter-bounce that stops late entries; expectancy negative until the range breaks.",
+  "rationale": "ADX 26 with price sitting at VWAP mid-range (BB %B 0.36) is chop, not trend; the crowded-long fade (L/S 3.468) is real but the LTF has already washed out (stoch 12, 1h RSI 26) so the easy short is behind us. FOMC Wed is inside the window and silver is the single most Fed-reactive name here - sentiment explicitly says do not carry size through it. Best expectancy is to wait for the range to resolve rather than pay to be early into a binary; hence flat.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 58.28,
+    "expires_min": 240,
+    "note": "A 15m close under the coil low breaks the base and confirms the crowded-long flush (57.4 then 55.6), turning the fade into a timely short with structure behind the stop."
+  },
+  "transcript": {
+    "macro": "Regime MIXED/cautious, event-gated. Dominant risk = FOMC Wed Jul 29 (inside 48h); smaller size. XAG last 58.52, pushing toward $60 on a softer dollar + dovish Fed bets - cleanest macro tailwind of the group. BUT scan structure_bias -0.289 from EXTREME long/short 3.468 (most lopsided long in the entire scan; crowded-long risk), and short-TF momentum soft (30m/1h/5m all short, stoch 12). Blended lean SHORT -0.231 (a crowded-longs fade). Net MIXED: macro wants higher into a dovish Fed; positioning says longs overcrowded and vulnerable if the Fed disappoints. Real-yield/DXY out of the Fed is the swing factor.",
+    "sentiment": "XAG ~$58.5, bounced ~2% to reclaim $58 on Jul 24 as hold odds fell and physical buyers stepped in; ~52% below the Jan 2026 blow-off high of $121. Two-way: strong DXY/higher yields cap it; structural industrial/AI-solar demand + a 6th straight supply deficit support it. Most Fed-reactive of the four - hawkish hike Wed = direct headwind, dovish hold = tailwind. NEUTRAL leaning slightly constructive on dips; do NOT hold size through the Jul 29 decision.",
+    "analyst": "Chop, not trend (ADX 26, price at VWAP). Crowded-long fade is real but LTF already washed out (stoch 12, 1h RSI 26) so the easy short is behind us, and the short signal's learned p_win is only 0.421. FOMC in ~40h and silver is the most Fed-reactive name - don't carry size through it. HOLD; reconsider on a 15m close under 58.28.",
+    "portfolio": "HOLD XAG/USDT:USDT - crowded-long fade but momentum spent and Fed-reactive into FOMC, wait for range break (conf 0.40)."
+  },
+  "timestamp": "2026-07-27T17:36:10.610339+00:00"
+}

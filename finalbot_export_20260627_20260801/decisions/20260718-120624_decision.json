@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "SNDK/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price is basing 1343-1350 above the 1341.34 capitulation-flush low after a high-volume flush; expect chop in this zone. A clean break under 1341 opens 1311 support; failure to break holds a relief bounce toward 1360-1370.",
+  "expectancy_note": "No edge: short is chasing a -7.8% below-VWAP, 4h-RSI-31.7, stoch-14.9 oversold flush with heavy bid stack (OB +0.848) \u2014 the account's classic late-short-into-stretched-tape loser (shorts 47% win, -0.87 avg). Long is an unconfirmed knife-catch in a risk-off semi tape on a thin Saturday. Best expectancy is waiting.",
+  "rationale": "SNDK just flushed on a 603-unit capitulation bar to 1341 and is basing, deeply oversold across TFs (4h RSI 31.7, stoch 14.9, -7.84% vs VWAP) with orderbook imbalance +0.848 stacking bids beneath price \u2014 shorting here would be chasing the exact stretched-tape condition that has bled this account, and composite short conviction is weak (37% conf, p_win 0.35). No bullish reversal is confirmed either, and it's a weekend with US cash closed (thin/gappy). Highest-expectancy action is to hold flat and let the 1341 flush low decide direction; size 0.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 1341.0,
+    "expires_min": 240,
+    "note": "Losing the 1341.34 capitulation low confirms breakdown continuation toward 1311 support \u2014 a valid short trigger (a break, not a chase into oversold)."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF, tech-led; supportive for tactical shorts on SNDK but already oversold. BTC-corr 0.00, trade Nasdaq tape. Fri Jul 17 Nasdaq -1.4%, -2.9% week; SOX/SMH -7-10%. SNDK weakest name: rel-strength -44%, VWAP -7.8%, 4h RSI 31.7 \u2014 memory/semi casualty. Funding 0.0. Weekend illiquidity; size down.",
+    "sentiment": "SNDK (SanDisk) BULLISH tone, no <=48h binary (earnings Aug 5). Best-performing S&P 500 stock in 2026 (+707% YTD) on NAND supply squeeze; NAND +75% q/q Q2, Gartner +234% 2026. Goldman PT $2,200 (Jul 5). Momentum name \u2014 extremely volatile/whippy; bullish fundamentals vs bearish near-term semi tape.",
+    "analyst": "Just flushed on a 603-unit capitulation bar to 1341 and basing; deeply oversold (4h RSI 31.7, stoch 14.9, -7.84% VWAP) with bids stacked beneath (OB +0.848). Short is chasing the book's loss pattern; long is an unconfirmed knife-catch into a risk-off semi tape on thin Saturday. HOLD; short only on a 1341 break.",
+    "portfolio": "SNDK: HOLD (conf 0.60) \u2014 post-capitulation basing; wait for 1341 break."
+  },
+  "timestamp": "2026-07-18T12:06:24.217861+00:00"
+}

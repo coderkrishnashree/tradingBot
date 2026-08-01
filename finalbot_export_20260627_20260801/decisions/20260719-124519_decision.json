@@ -1,0 +1,26 @@
+{
+  "symbol": "META/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.36,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "forecast": "Thin weekend tape stays pinned in the 641-643 coil through the illiquid session; the real move waits for Monday's cash open, which can gap either way out of the 626.46-689.72 range.",
+  "expectancy_note": "Composite unaligned (align 0.87) at 36.5 conf; 4h short vs 1h/30m up-grind cancel out; shorting a +7.6% outperformer with bid-heavy book into Monday gap risk is negative expectancy.",
+  "rationale": "META is dead weekend chop (~zero-volume 15m bars pinned 641.6-643.4) with a conflicting composite: 4h bearish (RSI 38.8, below VWAP, bearish divergence) but 30m/1h grinding up and orderbook bid-heavy (+0.228). US equities are CLOSED, so this tokenized perp will re-price on Monday's gap and current levels are unreliable. No R:R>=1.5 setup exists in either direction; earnings (Jul 29) is outside my 48h window and only a mild anti-short drift bias. Size 0 \u2014 wait for the range to break with real volume.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 636.0,
+    "expires_min": 240,
+    "note": "Losing the 640 congestion floor confirms the 4h bearish read and opens a run at the 626.46 support \u2014 that flips me to a short."
+  },
+  "transcript": {
+    "macro": "Regime: RISK-OFF. Equities rolling over. Live AI/semiconductor selloff dominant \u2014 META directly exposed to the Meta Compute / AI-capex narrative (Meta Compute selling surplus AI capacity rewrote AI-infra supply/demand). Fed hawkish; FOMC Jul 28-29 (outside cycle). US equity market CLOSED (Sunday) \u2014 tokenized-stock perps thin, will gap Monday. META: structure_bias ~flat (+0.005), composite NOT aligned (align 0.87), scan direction SHORT but conf only 36.5, rel-strength +7.6% (outperformer). MIXED, lower conviction. Verdict: RISK-OFF.",
+    "sentiment": "META: earnings July 29 after close (~10 days out, closest of the mega-caps but outside 48h). Guided Q2 rev $58-61B (cons $60.2B, EPS $7.18); swing factor = Q3 guide + CapEx. Stock ran +15% recently on Meta Compute launch + Iris chip (Sept) \u2014 momentum into a print. No 48h binary; supportive momentum but stretched.",
+    "analyst": "Highest-expectancy action is HOLD: unaligned low-conf composite, opposing timeframes (4h short vs 30m/1h up), illiquid closed-market tape with Monday gap risk. Armed a price_below 636 trigger to catch a genuine breakdown toward support if the 4h short thesis activates on real volume.",
+    "portfolio": "HOLD META/USDT:USDT \u2014 unaligned low-conf, conflicting timeframes on dead tape; armed trigger below 636."
+  },
+  "timestamp": "2026-07-19T12:45:19.067380+00:00"
+}

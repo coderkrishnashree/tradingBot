@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "QQQ/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Fresh 705.21 breakdown on a 14.5x volume flush with 5m/15m RSI 19-29 (deeply oversold) sitting exactly at VWAP; next few bars most likely a dead-cat bounce back toward 705-706 rather than clean continuation, then two-sided chop into tonight's GOOGL+TSLA prints which gap the open.",
+  "expectancy_note": "Short = chasing an oversold flush into a binary earnings gap (the book's #1 loss pattern); long = fighting fresh down-momentum + bearish divergence. Neither clears R:R 1.5 with a coin-flip overnight gap; HOLD has the best expectancy.",
+  "rationale": "QQQ just broke 705.21 on a 14.5x volume spike but LTF RSI is 19-28 and price is AT VWAP, so the immediate edge is a counter-bounce, not continuation - a fresh short would get stopped on the retest. Overlaying that, GOOGL and TSLA report after close TONIGHT and mechanically gap the Nasdaq-100 overnight, an unpriceable binary inside the 48h window. Composite is a weak, unaligned 27.5% with a bearish divergence - no clean directional edge either way, so stand aside rather than pay the gap tax.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 703.5,
+    "expires_min": 180,
+    "note": "Losing the 703.79 flush low on continued heavy volume (before the bounce) confirms breakdown momentum overriding the oversold read and justifies a momentum short with a stop above 706."
+  },
+  "transcript": {
+    "macro": "Regime MIXED-to-CAUTIOUS; indices bounce inside a corrective tape. QQQ is the lone slightly long-tilted book (L/S 0.80), printed a bearish divergence + a 15m short-breakout on a 14.5x volume spike. Directly/mechanically exposed to GOOGL+TSLA after-close prints TONIGHT. FOMC July 28-29.",
+    "sentiment": "QQQ no standalone event but headline-exposed: inherits GOOGL+TSLA overnight earnings risk tonight. Intraday riding semis-led rally. Neutral-to-two-sided into tonight; the earnings are the risk.",
+    "analyst": "Broke 705.21 on a 14.5x volume spike but LTF RSI 19-28 and price at VWAP - immediate edge is a counter-bounce, a short gets stopped on the retest. GOOGL+TSLA report tonight and gap the Nasdaq-100 overnight = unpriceable binary. Composite weak/unaligned 27.5% + bearish div. HOLD; momentum short only below 703.5 on volume.",
+    "portfolio": "HOLD QQQ - no clean directional edge and an unpriceable overnight gap from tonight's GOOGL+TSLA prints; stand aside."
+  },
+  "timestamp": "2026-07-22T06:33:10.605080+00:00"
+}

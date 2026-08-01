@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "EWY/USDT:USDT",
+  "size": 0.0,
+  "entry": 164.48,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Bounce off 162.15 continues to grind toward VWAP ~170 over the next several bars; the next high-expectancy SHORT is a lower-high rejection there, not a chase here at -3.3% below VWAP.",
+  "expectancy_note": "Shorting now: ~40% p(win), R:R poor \u2014 a routine VWAP bounce hits any honest stop before trend resumes. Waiting to fade the retest flips R:R and p(win) in my favor; long is a dead-cat vs BoK-hike catalyst. HOLD beats both.",
+  "rationale": "Real 4h/1h downtrend (ADX 56, rel_str -23.4, hard BoK-hike catalyst) but price is stretched -3.34% below VWAP, RSI 31 oversold, and the last 10x15m candles are a clean V-recovery off 162.15 up to 164.48 near session highs. Funding is positive so shorts aren't crowded, meaning no squeeze fuel to break the bounce. Entering short here is the late-chase pattern this book bleeds on; the honest short is a lower-high rejection near VWAP, so I wait.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 162.15,
+    "expires_min": 240,
+    "note": "Losing the 162.15 bounce low kills the counter-rally and re-opens the downtrend for a clean trend-continuation short."
+  },
+  "transcript": {
+    "macro": "RISK-OFF, EWY has its own HOSTILE catalyst: BoK HIKED 25bp to 2.75% (first in 3.5y) to defend the won, signaled more. KOSPI ~-7%, sidecar halt. SK Hynix -11.7%, Samsung -8.9% (>half index). EWY rel_str -23.4 (worst laggard), ADX 56 clean multi-TF downtrend, funding slightly positive (shorts not crowded). Near-vertical, RSI oversold => late-short-chase risk.",
+    "sentiment": "EWY neutral (high-vol). KOSPI plunged ~8% below 7,000, SK Hynix >-10% (Hynix ~25% of EWY). EWY ~$164.5 low end of range. OFFSET: record ETF inflows $814M then $1.1B \u2014 flows aggressively bullish even as price fell. Near-term Hynix-driven tug-of-war.",
+    "analyst": "Stalled near-vertical selloff with a live 10-bar V-bounce back toward VWAP \u2014 textbook late-short-chase trap. Price -3.34% below VWAP, RSI 31, no squeeze fuel to break bounce. HOLD; the honest short is a lower-high rejection near VWAP, or re-arm on loss of 162.15.",
+    "portfolio": "EWY: HOLD \u2014 real downtrend but stretched into a live bounce; fade the VWAP retest, not this chase."
+  },
+  "timestamp": "2026-07-16T22:04:20.747502+00:00"
+}

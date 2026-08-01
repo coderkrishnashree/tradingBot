@@ -1,0 +1,28 @@
+{
+  "symbol": "QQQ/USDT:USDT",
+  "action": "hold",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price is coiling flat 695.1-695.9 at the lows after its down-leg; next few bars likely either mean-revert toward VWAP ~709 (squeeze) or break 688 support to resume the trend. No edge chasing the stall here.",
+  "expectancy_note": "Fresh short: p(win) ~0.42, bounce risk into VWAP hits stop before trend resumes; learner shorts 47% win / -0.87 avg vs longs 75%. HOLD beats chasing oversold into a squeeze.",
+  "rationale": "Multi-TF short is real (all TFs down, ADX 82, rel-str -9.4%) but 4h RSI 21 + -1.96% below VWAP + a 12-bar flat coil = a stalled, deeply oversold tape, the exact late-short-into-a-bounce pattern this account bleeds on. Structure is neutral (bias -0.001, funding 0), so no crowding edge, and the equity proxy is weekend-thin/gappy. Best expectancy is to wait for a bounce-and-fail into VWAP resistance to short with room, or a decisive 688 break to short fresh momentum.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 688.09,
+    "expires_min": 240,
+    "note": "Losing 688 support breaks the coil and reopens the down-leg with fresh momentum, enabling a low-risk trend short instead of chasing the stall."
+  },
+  "transcript": {
+    "macro": "RISK-OFF regime; Wall St closed a losing week (Fri 7/17 S&P -1.01%, Nasdaq -1.4%), semiconductors the epicenter of a 3-session selloff. Nearly every target composite-short with deeply oversold 4h RSIs -> trend down but high short-squeeze risk if chasing late. Crypto weak/unsupportive (BTC ~$63k, worst ETF month on record, dominance ~56.3%). No FOMC/CPI inside 48h (FOMC 7/28-29). #1 risk this cycle: chasing oversold shorts into a squeeze -> smaller size across the board.",
+    "sentiment": "Fri 7/17 broad risk-off; semis entered a bear market (-20% from record) on AI-capex-peaking fears + China Moonshot AI scare + Middle East/oil stress. Crypto Fear&Greed ~36-48. Binary cluster all >48h out: FOMC 7/29, GOOGL 7/28, META/HOOD 7/29. US markets closed weekends -> equity-tracking perps thin/gappy. QQQ: bearish near-term tone, just took a leg down led by chips/AI; fragile headline-driven tape, no index catalyst inside 48h, bounce risk if AI-selloff exhausts.",
+    "analyst": "QQQ 695.49: aligned multi-TF short (ADX 82, all TFs down, rel-str -9.4%) but 4h RSI 21 and -1.96% below VWAP with a 12-bar flat coil at the lows \u2014 a stalled, deeply oversold tape. Macro's stated #1 risk is chasing oversold shorts into a squeeze; learner shows account shorts win only 47% (-0.87 avg) vs longs 75%. Structure neutral (bias -0.001, funding 0) = no crowding edge, weekend-thin equity proxy. HOLD; re-debate on a 688 break (fresh short momentum) or a bounce-fail into VWAP ~709.",
+    "portfolio": "HOLD QQQ \u2014 aligned short but oversold/stalled at support; wait for a 688 break or bounce-fail before shorting."
+  },
+  "timestamp": "2026-07-18T12:39:39.442674+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "CL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.55,
+  "playbook": "none",
+  "forecast": "Price is coiled in a tight 86.8-87.5 range after the 89.3->85.8 flush; expect continued chop between 86.7 and 87.5 over the next 2-4 bars with no clean impulse. A rally back into 88-89 resistance is the high-expectancy short entry; a loss of 86.7 opens a continuation toward 84-80.",
+  "expectancy_note": "No edge at 87.3: shorting into 30m/1h RSI 22-23 (deeply oversold) with crowd already short (L/S 0.571) invites a squeeze; no long trigger either. p(win) on any market entry here <0.5 with binary headline risk - HOLD beats both.",
+  "rationale": "Macro/structure favor shorting RALLIES into 87.5-89, not chasing an oversold flush at 87.3 where a routine counter-bounce would stop a late short (the account's #1 loss pattern). Sentiment flags live binary Iran/Hormuz squeeze risk plus FOMC in 3 days, so two-sided volatility argues against a market entry into coiled chop. Waiting for a rally to short into resistance (or a confirmed 86.7 breakdown) is the only positive-expectancy path.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 88.0,
+    "expires_min": 240,
+    "note": "A rally back to 88 puts price into the macro-endorsed 87.5-89 resistance zone, offering a clean short-the-rally entry with the down-trend and structure, instead of chasing the oversold flush."
+  },
+  "transcript": {
+    "macro": "Regime: Risk-OFF/defensive crypto tape, elevated BTC dominance, BTC soft (down-trend). Overhang: FOMC July 28-29 (~3 days out) -> smaller size, shorter holds. CL: macro backdrop BEARISH & topical - OPEC+ raised Aug output (+188kbd), Hormuz normalizing, US-Iran de-escalation stripping geopolitical risk premium; WTI at ~5-month lows, gappy headline tape (15m candle 89.3->85.8). Structure: funding flat/slightly neg, OI 279k, L/S 0.571 (crowd already short), orderbook flat, blended structure_bias +0.149 (mildly contrarian-long only because crowd is short). Momentum: 30m/1h -0.71/-0.61 RSI 23 (oversold), 4h neutral, 5m +0.18. CL nearly uncorrelated to BTC (-0.181), relative-strength LEADER (+26.7% vs BTC) - its own move. Backdrop supports short bias but chasing oversold gap-prone tape with crowd already short = squeeze risk; prefer shorting rallies into 87.5-89.",
+    "sentiment": "Market-wide risk-off; single big binary ahead (FOMC Jul 28-29); geopolitics (Iran/Hormuz) is the <=48h swing variable. CL: near-term BULLISH bias but two-sided/high-risk. Live geopolitically-charged tape, WTI whipsawing (+surge to ~$92 one session, -4.5% toward $85 next on de-escalation). Active catalyst = binary Iran/Hormuz headlines. Structurally bearish counterweights (OPEC+ output, EIA cutting 3Q26 Brent to ~$74, near-record US production) but slow-moving/known. Watch weekly EIA/API inventory prints + Iran headlines. Argues AGAINST a clean technical short; warrants tight stops given volatility.",
+    "analyst": "The big flush already happened; price now coiled in a tight 86.8-87.5 range for ~14 bars, no fresh lower low, no impulse. 30m/1h deeply oversold (RSI 22-23) - chasing a short here is the late-short-into-stretched-tape pattern that gets squeezed. No long trigger either - just chop under the 87.5 lid. Sentiment flags binary geopolitical squeeze risk and FOMC 3 days out. NO-TRADE range with two-sided binary risk -> HOLD. Macro favors shorting rallies into 87.5-89, NOT chasing at 87.3 with RSI already 22. Flip to short on a rejection back up at 88+ (armed via reconsider) or a clean break below 86.7 toward support 79.65.",
+    "portfolio": "CL/USDT:USDT -> HOLD (conf 0.55): no edge in the coil; armed to short a rally into 88+ resistance."
+  },
+  "timestamp": "2026-07-25T17:33:23.714704+00:00"
+}

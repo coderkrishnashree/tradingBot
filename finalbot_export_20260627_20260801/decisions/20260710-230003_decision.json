@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "ORCL/USDT:USDT",
+  "size": 0.0,
+  "entry": 141.25,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.55,
+  "playbook": "none",
+  "forecast": "Dead micro-range 141.0-141.4 on drying volume with underlying closed; most likely a small oversold-snap drift toward VWAP ~143.5 near-term, then trend resumes lower only on a decisive break under 137.63.",
+  "expectancy_note": "p(win) on a fresh 141.25 short ~0.40 \u2014 1h RSI 25 + dead volume = bounce risk; honest stop is too tight for the noise, R:R fails. Waiting for 137.63 break gives a real continuation short with the crowd (L/S 2.8) capitulating.",
+  "rationale": "Trend and heavy backdrop favor short (composite -39.7%, all TFs down, rel_strength -23.4%), but 1h RSI 25.2 is deeply oversold and the 15m tape has flatlined into a 0.3-wide micro-range on collapsing volume \u2014 that is exhaustion, not continuation, and chasing a short here is exactly this account's losing pattern (shorts 0.47 win, trend playbook -2.89 avg). Underlying Nasdaq is closed until Monday so any entry is a weekend gap-risk hold with no catalyst to force the flush. Best expectancy is to wait: a clean loss of 137.63 support turns this into a high-conviction continuation short with the crowded longs (L/S 2.8) capitulating, whereas entering now risks getting stopped by a routine bounce.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 137.63,
+    "expires_min": 240,
+    "note": "Losing 137.63 support with the oversold snap failing confirms the crowded-long capitulation flush \u2014 arms a high-expectancy continuation short toward the next leg down."
+  },
+  "transcript": {
+    "macro": "Mild RISK-ON but Friday Jul 10 2026 after US cash close \u2014 ORCL is a tokenized equity perp, Nasdaq closed until Monday: thin liquidity, gap risk, weekend hold, trim size. NVDA/META led an AI-optimism tape today (shorting an AI-cloud name fights sector momentum). ORCL last ~141.25, scan leans SHORT (composite -39.7%, all TFs down, 1h RSI 25.2 deeply oversold). Backdrop bearish: -25% YTD, FCF/capex/debt-raise concerns, rel_strength vs BTC -23.4% (worst laggard). Cautions: RSI 25 + stoch 27.9 stretched -> bounce risk; crowd net LONG L/S 2.80. Support 137.63. Verdict: MIXED \u2014 trend favors shorts but oversold + AI-risk-on + weekend gap argue small size, tight management.",
+    "sentiment": "ORCL: NO 48h binary catalyst. Next earnings Sep 14 (outside window). Tone BEARISH but multi-week narrative not a shock: -35% June, -24% YTD on free-cash-flow burn / capex fears (FY26 FCF -$23.7B, ~$70B capex + ~$40B raise FY27). Low-weight: mixed analyst chatter (36/42 Buy; Bernstein defends; one downgrade Jul 7). Div $0.50 ex-date Jul 10 immaterial. Net: bearish/heavy, aligns with scan short bias, but NO near-term catalyst to force a move \u2014 technicals/flow trade. Crowded long (L/S 2.8) into downtrend = potential continuation flush.",
+    "analyst": "15m tape has gone dead \u2014 last ~12 candles micro-range 141.05-141.38 on tiny volume; the selloff to 140.65 happened bars ago and price has since drifted sideways/slightly up. That is exhaustion, not continuation, and there is no continuation engine with Nasdaq closed. 1h RSI 25.2 deeply oversold, VWAP dist -1.55%, ADX only 23 (weak/borderline chop). Learner: shorts 0.47 win / -1.65 avg, trend playbook -2.89 \u2014 late shorts into stretched oversold tape get stopped by the bounce; honest stop above ~142 is too tight for the noise. No range-fade long either (downtrend, no confirmation). HOLD; arm short on decisive loss of 137.63 support.",
+    "portfolio": "ORCL \u2014 HOLD @ 0.55: bearish trend but oversold + dead tape, no clean entry; arm short trigger on break <137.63."
+  },
+  "timestamp": "2026-07-10T23:00:03.754161+00:00"
+}

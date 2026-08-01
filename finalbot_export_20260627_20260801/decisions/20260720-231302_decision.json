@@ -1,0 +1,23 @@
+{
+  "symbol": "AAPL/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.6,
+  "size": 0.0,
+  "entry": 325.36,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "rationale": "AAPL is deeply oversold (RSI 28.6, %B -0.145, stoch 12) in an extreme ADX 69 downtrend, but sits 4.1% above the only real target (support 312) with volume collapsing into the low and the last 15m bar closing green off the bottom \u2014 classic exhaustion, not fresh supply. Learner stats are decisive: this account bleeds on exactly this trade (late shorts into stretched tape, 0.48 win rate, -0.73 avg), and AAPL's +2.14 relative strength means the short fights the tape. With US cash equities closed (thin/gappy), thinnest OI of the group, and mean-reversion snap risk high, neither a chase-short nor a knife-catch long clears the expectancy bar \u2014 wait for structure.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 312.0,
+    "expires_min": 240,
+    "note": "Losing 312 support confirms the downtrend resuming and makes a with-trend short valid on the retest, instead of chasing at the lower band."
+  },
+  "transcript": {
+    "macro": "2026-07-20, mixed-to-hostile for fresh risk-on longs; favors short/fade side. Tape mildly risk-off, headline-driven (US-Iran escalation = overnight gap risk). US CASH EQUITY MARKET CLOSED \u2014 tokenized perps thin/gappy. Fed ~60%+ odds Sept HIKE, corrective/range tape. Crypto risk-off (BTC ~$64.2k, F&G 29). No FOMC/CPI in 48h. AAPL reports Jul 30 (out of window). AAPL short is with-trend but oversold-stretched with high mean-reversion snap risk; reduced size.",
+    "sentiment": "AAPL neutral on news, no catalyst inside 48h. Q3 FY2026 print Thu Jul 30 after close (~$108.9B rev / $1.89 EPS), Tim Cook's final call before John Ternus \u2014 a 10-day-out event, not a 48h mover. No Apple-specific shock today; trades on index beta / Iran tape. Scan's oversold short read stands on its own.",
+    "analyst": "Reads: last 325.36, RSI 28.6, ADX 69 (extreme downtrend), %B -0.145 (below lower band), stoch 12, VWAP dist -1.72%; 5m RSI 15.5 / 15m RSI 21.7 extremely stretched. Support 312 (4.1% away), resistance 339.17. Recent 15m bars grind from ~329 to 325.13 but LAST bar closed green at its high on collapsing volume (1-9 units vs earlier 40-116) = exhaustion/drift, not fresh selling. Learner: shorts 0.48 win / -0.73 avg; RS weight -0.473 penalizes shorting a +2.14 rel-strength name. R:R to 312 poor vs bounce risk that hits any honest stop first. HOLD; short only on a decisive break of 312 and retest.",
+    "portfolio": "AAPL \u2014 HOLD (conf 0.60, size 0): oversold at lower band, wait for break of 312 to short with-trend."
+  },
+  "timestamp": "2026-07-20T23:13:02.567773+00:00"
+}

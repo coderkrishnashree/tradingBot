@@ -1,0 +1,22 @@
+{
+  "symbol": "NVDA/USDT:USDT",
+  "action": "buy",
+  "confidence": 0.58,
+  "size": 0.5,
+  "entry": 204.0,
+  "stop_loss": 202.3,
+  "take_profit": 210.2,
+  "take_profit_1": 207.2,
+  "take_profit_2": 210.2,
+  "playbook": "trend",
+  "forecast": "Grind stalls near 205.2 with 15m/30m RSI 78-84 stretched; expect a shallow 2-4 bar pullback to the 204.0 shelf/VWAP, then trend resumption toward 207.2 and 210 as chip-sector bid persists.",
+  "expectancy_note": "p(win)~0.60, R:R 1.88 to TP1; limit-on-pullback beats a market chase into stretched short-TF RSI, and beats a short against ADX 45 uptrend + orderbook bid +0.22.",
+  "rationale": "NVDA is in a clean 15m uptrend (higher-lows grind 203.4->205.1, rising volume, ADX 45.6) only +0.37% off VWAP with resistance 214 giving 4%+ room, so this is trend-continuation, not a blowoff. But 15m/30m RSI 78-84 means a market entry chases the late-long trap, so place a LIMIT at the 204 shelf/VWAP retest with a tight 202.3 stop (~1.1xATR below structure). Size trimmed to 0.5 for TSLA-week tech vol and off-hours thinness; the L/S 1.59 crowding is the main risk if the pullback deepens through support.",
+  "transcript": {
+    "macro": "Regime MIXED/cautious risk-on, geopolitical overhang; VIX 18.65; chips rebounded (Broadcom +2%, Micron +1.9%, AMD +1.6%); equity-perp longs crowded/late; size down off-hours + into TSLA-week vol. NVDA: LONG-OK but LATE \u2014 momentum up, orderbook bid +0.22, RSI stretched, L/S crowded 1.59; favor long on pullback, not a short.",
+    "sentiment": "NVDA ~$205, short-TF RSI 78-84. No earnings until Aug 26 \u2014 clear of window. Driver macro/sector: chip sector rebounded 7/20 on AI-infra trade, recovered from mid-July sell-off. Overhang China export limbo (H200 licenses cleared ~10 firms 75k cap, no deliveries; Blackwell restricted). Tilt NEUTRAL-to-bullish; no imminent binary.",
+    "analyst": "Clean 15m uptrend, higher lows, rising volume, only +0.37% off VWAP with 4%+ room to resistance 214. Short-TF RSI 78-84 = don't chase, so LIMIT long at the 204 shelf/VWAP retest, stop 202.3 (~1.1xATR), TP1 207.2 (1.88R), TP2 210.2. Size 0.5 for TSLA-week vol/off-hours thinness.",
+    "portfolio": "NVDA: LONG (0.58, size 0.5) \u2014 limit-pullback entry 204, stop 202.3, TP1 207.2 / TP2 210.2; only actionable setup this cycle."
+  },
+  "timestamp": "2026-07-21T06:32:31.579443+00:00"
+}

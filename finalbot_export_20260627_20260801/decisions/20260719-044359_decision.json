@@ -1,0 +1,23 @@
+{
+  "symbol": "MU/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.4,
+  "size": 0.0,
+  "entry": 846.12,
+  "stop_loss": 0.0,
+  "take_profit": 0.0,
+  "rationale": "MU is macro-hostile for longs (chip selloff, rel-strength -33 worst in book, structure_bias -0.55, orderbook -0.83 heavy selling) but the 15m tape is currently grinding UP off 839 with all LTFs (15m/30m/1h/5m) leaning long and a bullish 4h divergence, so a short HERE is mid-range chasing: %B 0.45, ADX 26 (weak trend), fat 2.57% ATR forcing a >2R stop with no nearby level. L/S 2.006 crowded long is squeeze-lower fuel eventually, but into an active bounce it is also squeeze-UP risk, and this account's short book bleeds (win 0.47, avg -0.87). Best expectancy is to wait: let the weak bounce fade into ~855 VWAP/resistance and short the retest, or short only once 843 breaks and re-opens the down-leg toward 806.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 843.0,
+    "expires_min": 240,
+    "note": "Losing 843 breaks the current intraday bounce and re-opens the down-leg toward 806 support, giving a clean trend-continuation short aligned with the hostile macro/structure."
+  },
+  "transcript": {
+    "macro": "Regime MIXED, cautious risk-off. Chip-led selloff on AI-capex fears, rotation OUT of chips. Equity longs crowded (L/S 2.0-2.5) = squeeze risk. MU: long score +0.14 (aligned=false), structure_bias -0.55 (L/S 2.0, orderbook -0.83), rel-strength -33 (worst in book). Bullish 4h divergence the only positive. HOSTILE for longs.",
+    "sentiment": "MU bearish near-term, bullish long-term (do NOT trade the long story). Long-term HBM4/AI narrative strong (KeyBanc PT $1,750) but multi-quarter. Near-term negative: stock -18% on month, fell 7% Jul 15 on China CXMT $8.5B IPO + potential US HBM export restrictions. No earnings in window. Lean bearish/volatile short-term.",
+    "analyst": "Hostile-for-longs but the 15m tape is bouncing off 839 with all LTFs long \u2014 a short here is mid-range chasing (%B 0.45, ADX 26, 2.57% ATR, no nearby level) with squeeze-up risk and the account's short book bleeding. Wait for the ~855 retest or a 843 break to short.",
+    "portfolio": "HOLD MU \u2014 no mid-range edge; short the retest into ~855 or the 843 breakdown."
+  },
+  "timestamp": "2026-07-19T04:43:59.619153+00:00"
+}

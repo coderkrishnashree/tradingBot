@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "XAG/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Price is coiling under 58.7 with tiny bodies, extended +0.69% over VWAP and RSI 72.6 into resistance; most likely it either drifts/chops 58.4-58.9 or pulls back to the 58.0-57.7 VWAP/support band before the next trend leg. I want to BUY that dip, not chase here.",
+  "expectancy_note": "Long-at-market has poor expectancy: crowded-long (L/S 4.05), overbought, extended over VWAP, and FOMC Jul29 hawkish/strong-DXY caps metals \u2014 this is the account's classic 'chase after the move' loser. A pullback-buy near VWAP offers real 1.5R+; fading is worse (shorts win only 47% here). HOLD until a level confirms.",
+  "rationale": "Trend is genuinely strong (ADX 92, 4h up, XAUT corr 0.877, composite +0.301 p_win 0.629), so I will not short \u2014 the book's shorts bleed (47% win) and longs win (65%). But entering long now means chasing an overbought (RSI 72.6), VWAP-extended, most-crowded-long name into a binary hawkish-tilted FOMC \u2014 negative on every learner weight (structure_bias -0.295, rel_strength -6.55). No honest close-in entry exists at 58.66; wait for a dip to the 58.0 VWAP/support zone to buy with room, or a decisive 59.2 breakout to confirm fresh continuation. Size 0.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 58.05,
+    "expires_min": 240,
+    "note": "A pullback to the VWAP/support band gives a proper trend-continuation long entry with an honest stop below 57.6 and room to 59.2/61 \u2014 flips HOLD to a buy."
+  },
+  "transcript": {
+    "macro": "REGIME: RISK-OFF/HOSTILE for fresh longs. Equities broke down Fri Jul 23 (S&P -1.21%, Nasdaq -2.15%) on AI-capex fears + oil spike. Fed hawkish under new Chair Warsh \u2014 CME FedWatch ~34% odds of a HIKE at the next meeting, ~60% higher by Oct. FOMC Jul 28-29 (statement Wed Jul 29, 2pm ET) sits inside the hold window = binary gap risk. Crypto weak/decoupled: BTC ~$64.3k, F&G 29 (fear), BTC.D 56.4% (no alt rotation), ETF outflows. WEEKEND: all equity-tracking perps (EWJ/NVDA/META/MSTR) track CLOSED US/Japan cash markets \u2014 prices stale/gappy, reprice Monday's open. Cross-book broadly crowded-LONG into a falling tape (XAG L/S 4.05, XAUT 2.49, NVDA 1.63, MSTR 1.53, BTC 1.59) \u2014 pain trade is DOWN; favor short/neutral over longs.",
+    "sentiment": "Overall: RISK-OFF/cautious. Crypto F&G ~27-29 (fear). De-risking into the Jul 29 event cluster: FOMC + META Q2 earnings + MSFT Q4 earnings ALL Wed Jul 29 after close (MSTR earnings Thu Jul 30). US equities CLOSED Sat/Sun so tokenized-stock perps trade thin/gappy and reprice Monday. EWJ: BOJ hike to 1% behind us, no fresh Japan binary in 48h, beta-driven. NVDA: no own earnings in-window (Q2 Aug 26), indirect MSFT read-through Jul 29, mildly negative-neutral. META: HIGHEST event risk \u2014 Q2 earnings Wed (cons ~$7.13 EPS, rev ~$60.2B), hard binary, large post-print gap expected. XAG: constructive (6th straight supply deficit, AI/solar demand, inflation bid) but Fed-dependent, capped ~$60/$62.50. MSTR: leveraged BTC proxy, fragile ~29% bounce on fading volume, triple event exposure. BTC: $225M ETF outflow Jul 24 broke a 7-day inflow streak, Iran tension the live swing factor, neutral-to-slightly-negative. Long-horizon analyst PTs are noise, not tradable same-day.",
+    "analyst": "Trend genuinely strong (ADX 92, XAUT corr 0.877) so no short, but entering long now chases an overbought, VWAP-extended, most-crowded-long name (L/S 4.05) into a hawkish-tilted FOMC \u2014 negative expectancy. HOLD; buy a dip to the 58.0 VWAP/support zone or a 59.2 breakout.",
+    "portfolio": "XAG \u2014 HOLD (conf 0.50): strong uptrend but overbought & most-crowded-long into FOMC; buy the dip near 58.0, don't chase."
+  },
+  "timestamp": "2026-07-26T08:35:37.292468+00:00"
+}

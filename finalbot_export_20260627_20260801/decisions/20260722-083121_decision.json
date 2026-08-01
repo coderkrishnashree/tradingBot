@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "XAUT/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Price rejected 4128-4131 resistance and flushed to 4101.5, now bouncing weakly to 4108.9 on fading volume; over the next 2-6 bars I expect chop between the 4101 low and 4128 rejection, most likely a retest of the 4090-4101 shelf before direction resolves \u2014 not a clean entry mid-range.",
+  "expectancy_note": "No entry clears R:R: a long here is a chase (RSI 71, bb 0.93, VWAP +1.53%, LSR 2.5 crowded -> squeeze risk), and a short fights ADX 79 uptrend into bid-heavy book at support -> both sub-1.5R. Waiting has higher expectancy than either.",
+  "rationale": "Trend is up but XAUT is stretched and crowded-long (LSR 2.50, RSI 71, ADX 79, bb_pctb 0.93, +1.53% over VWAP) and just got rejected at 4131.7 resistance, slipping to 4101.5. Buying here is exactly the late-continuation chase this account bleeds on; shorting a strong uptrend into support with flat funding is equally poor. The high-expectancy path is to buy a real pullback into the 4090-4101 shelf or a confirmed reclaim of 4131.7 \u2014 neither is present now, so I hold flat with the trigger armed.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 4131.7,
+    "expires_min": 240,
+    "note": "A reclaim/close above the 4131.7 rejection high resolves the overbought consolidation upward and validates a with-trend continuation long instead of a mid-range chase."
+  },
+  "transcript": {
+    "macro": "Mildly risk-on, Sept FOMC cut odds ~90%, no Fed event inside 48h. Scan 08:26 UTC pre-open, thin overnight. XAUT (spot gold): supportive for longs but EXTENDED/crowded. Gold ~$4,050-4,110, above $4,000, off Jan record $5,602; near-term trend UP. Structure red flag: L/S 2.50 (very lopsided net-long -> contrarian pullback risk); funding flat +0.00005; orderbook +0.28; structure_bias -0.235 driven by crowded long book. Momentum 1h/4h up, RSI 71 + ADX 79 (very stretched), bb_pctb 0.93, rejected ~4,128 resistance, slipped to 4,109. Low BTC corr 0.39. Verdict: trend supports longs but overbought+crowded -> chase risk high; buy PULLBACKS not breakouts, modest size; long-squeeze flush is main risk.",
+    "sentiment": "XAUT neutral near-term, structurally bullish. ~$4,060-4,073/oz, above $4,000, up ~1.6% July 21. No <=48h binary \u2014 FOMC is NEXT week (July 28-29), outside window. Near-term chop: Iran/Middle East safe-haven headlines + this week's PMIs/jobless claims (not scheduled binaries). Banks structurally bullish (DB $4,300 Q3). No Tether-specific negatives. Net: mildly firm/neutral, range-bound into next week's Fed \u2014 neutral-to-slightly-long, not a conviction catalyst trade.",
+    "analyst": "XAUT last 4108.9. 4h/1h trend up (0.35, 0.90), RSI 71.2, ADX 79.3 (very stretched), bb_pctb 0.934, VWAP dist +1.53%. Support 3961.8 / resistance 4131.7, ATR% 0.6. Structure LSR 2.50 (very crowded long -> squeeze risk), funding flat, orderbook +0.283, structure_bias -0.235; p_win_learned 0.653 but confidence only 41%, not aligned. Candles: rejected 4128.6, stair-stepped down to 4101.5 low, now weak bounce to 4108.9 near bar high on fading volume (18 vs 175-284 earlier). This is the exact extended+crowded-long, just-rejected-resistance tape to avoid chasing; a short fights ADX 79 uptrend into structural support with flat funding = low expectancy. Honest play: no clean entry mid-air; long only earns edge on a real pullback (~4090-4101 shelf / toward VWAP ~4047) or a confirmed 4131.7 breakout. HOLD flat, trigger armed at 4131.7 reclaim.",
+    "portfolio": "XAUT: HOLD/flat \u2014 overbought and crowded-long, wait for pullback or 4131.7 reclaim; conf 0.50."
+  },
+  "timestamp": "2026-07-22T08:31:21.240094+00:00"
+}

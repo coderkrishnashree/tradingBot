@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "MSFT/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Deeply oversold (15m RSI 14, stoch 1.7) right after breaking 382.07 on the highest-volume bars of the sequence; base case is a dead-cat bounce back toward the 382-383.5 broken-support-turned-resistance over the next 2-5 bars before direction resolves, not a clean immediate drop to 375.5.",
+  "expectancy_note": "Shorting 381.65 into RSI 14 = the account's classic late-short-stopped-by-bounce loss; a short at the 382.5-383.5 retest offers far better R:R, so waiting has higher expectancy than chasing.",
+  "rationale": "Fresh 15m short breakout (level 382.07, vol_ratio 5.14) confirms downside momentum, but 15m RSI 14.4 / stoch 1.7 / bb_pctb 0.07 are washed-out extremes that invite a counter-bounce, and ADX 0.8 says no trend to ride. US cash market is closed (thin, gappy, unhedgeable gap risk) and OI is the thinnest of the group at 4,919 \u2014 chasing a break here is a coin flip. Crowded long (L/S 2.05) hasn't flushed, so a squeeze lower is possible AFTER a bounce, but I want confirmation: either short the retest into 382.5-383.5, or short a clean break of 375.5. No trade at 381.65.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 375.5,
+    "expires_min": 240,
+    "note": "Losing support 375.54 confirms the breakdown has follow-through past the oversold bounce, opening a continuation short toward the next leg with the crowded longs trapped."
+  },
+  "transcript": {
+    "macro": "Scan ~04:55 ET, US CASH MARKET CLOSED -> thin, gappy liquidity, unhedgeable gap into 09:30 open; cut size. Regime RISK-OFF/hostile for high-multiple tech: hawkish Warsh Fed, NO 2026 cuts, rising real yields, choppy Nasdaq. MSFT 381.65: funding 0.0, OI 4,919 (thinnest), L/S 2.05 (CROWDED LONG), structure_bias -0.265. FRESH 15m SHORT breakout (level 382.07, bbw_ratio 2.49, vol_ratio 5.14). 15m RSI 14, stoch 1.7 \u2014 DEEPLY OVERSOLD (bounce risk). Rel strength +0.5% vs BTC (own move, BTC-corr 0.28). ADX 0.8 = no trend, chop. Earnings ~Jul 28-29, not imminent. Read: MIXED-to-mildly-HOSTILE: structure/momentum favor shorts but crowded-long unflushed + oversold + illiquidity = whipsaw/gap risk; small size, confirm at 09:30 open.",
+    "sentiment": "MSFT tilt SLIGHTLY BEARISH-to-NEUTRAL. Fresh catalyst (Jul 6 2026): ~4,800 layoffs (2.1%), Xbox hardest hit \u2014 AI cost-cutting, modest negative, not big shock. OpenAI-relationship friction live theme (MSFT swapping OpenAI/Anthropic models for own in Excel/Outlook); shares AI-capex anxiety weighing on ORCL. Earnings Q4 FY2026 Tue Jul 28 after close (outside 48h), consensus EPS ~$4.21 +15% y/y, Azure +40% last qtr. Analysts overwhelmingly Strong Buy PT ~$550 (long-horizon only). Near-term neutral-to-slightly-bearish, headline-driven.",
+    "analyst": "15m: steady grind 385 -> 381.65, accelerating into last two bars that broke 382.07 on highest vol (8.72 then 23.68), closed near low. Momentum IS down and just broke, BUT 15m RSI 14 / stoch 1.7 = extreme oversold, mean-revert bounce imminent. Genuine conflict: fresh momentum breakdown vs extreme oversold, on thin closed book. Chasing short at 381.65 = account's late-short-into-stretched-tape loss. HOLD; better short at 382.5-383.5 retest or confirmed loss of support 375.54.",
+    "portfolio": "HOLD MSFT (conf 0.6) \u2014 fresh breakdown collides with extreme oversold on thin tape; armed continuation-short trigger on loss of 375.5."
+  },
+  "timestamp": "2026-07-09T09:00:22.288490+00:00"
+}

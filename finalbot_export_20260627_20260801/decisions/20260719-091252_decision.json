@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "ORCL/USDT:USDT",
+  "size": 0.0,
+  "entry": 126.99,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Dead Sunday tape: price grinds sideways 126.4-127.1 on near-zero volume; no clean directional move until Monday US open. Overbought RSI 75 across all TFs into a broken downtrend keeps upside capped near 127-128; a roll-over below 126.4 opens a slide toward 124-121.",
+  "expectancy_note": "p(win) both sides ~0.45-0.5, no R:R edge \u2014 long chases stretched, crowded (L/S 2.59) overbought tape (account's top loss pattern); short fights ADX 60.9 with no funding fuel. HOLD beats both on thin closed-market tape.",
+  "rationale": "ORCL is overbought on every timeframe (RSI 71-78) with crowded longs (L/S 2.59) and -23% relative strength, bouncing countertrend into a broken downtrend on dead Sunday tape with US cash closed (thin, gappy, high slippage). %B 0.551 sits mid-band so there is no extreme to fade and no pullback-to-VWAP entry for the trend; chasing the long here is precisely the late-into-stretched-tape mistake, while shorting a 60.9-ADX grind with zero funding fuel has no edge.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 126.35,
+    "expires_min": 240,
+    "note": "Losing the 126.4 intraday shelf/VWAP proves the overbought bounce is rolling over, opening a cleaner short toward 124-121 support once Monday liquidity returns."
+  },
+  "transcript": {
+    "macro": "Sunday Jul 19 2026, US cash equities CLOSED \u2014 tokenized-equity perps thin/gappy, high slippage. Fri Jul 17 risk-off. Crowded longs -> smaller size. ORCL: neutral/mildly-long but crowded (L/S 2.59) and overbought (RSI 75.5); thin. Small only.",
+    "sentiment": "ORCL bearish momentum despite good numbers. Record Q4 (Jun 10, cloud +47%) but stock lost ~1/3 since; credit cut to one notch above junk on ~$90-95B AI-datacenter capex, plus ~21k job cuts (13% of staff). No <=48h binary (next earnings Sept). Scan shows overbought bounce (RSI 75) into a broken longer-term downtrend and -23% rel strength \u2014 bounce is countertrend.",
+    "analyst": "Overbought on every TF (RSI 71-78), crowded longs (L/S 2.59), -23% RS, countertrend bounce into a broken downtrend on dead Sunday tape. %B mid-band = no extreme to fade, no VWAP pullback entry. Chasing long is #1 loss pattern; shorting a 60.9-ADX grind with no funding fuel has no edge. HOLD; arm short below 126.35.",
+    "portfolio": "HOLD ORCL \u2014 overbought countertrend bounce, dead tape; wait for 126.35 rollover."
+  },
+  "timestamp": "2026-07-19T09:12:52.674412+00:00"
+}

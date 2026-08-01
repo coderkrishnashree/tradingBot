@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "QQQ/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price is basing at 694.8-696.4 after the waterfall stalled at the 694.84 low on the last big-volume bar; next few bars likely coil/drift in a 694-698 range as the +0.706 bid stack and RSI 25.6 fuel a relief bounce, before the trend decides at 688 support or 702 resistance.",
+  "expectancy_note": "Fresh short into 4h RSI 25.6 + heavy bid imbalance is the account's proven loss pattern (shorts 47% win, -0.87 avg); p(bounce hits stop) too high. No long into chip-led bear tape. Wait for break of 688 or a bounce to 702 \u2014 better R:R either way.",
+  "rationale": "QQQ is the epicenter of a RISK-OFF chip selloff (4h RSI 25.6, ADX 79.5, rel-strength -8.05%) but is now deeply oversold and stalled at 694.84 with orderbook_imbalance +0.706 (heavy bids) and flat 30m/1h scores \u2014 classic mean-reversion-bounce risk against a fresh short. With ATR tight (~0.86%), an honest stop above 700.7 leaves only ~8 pts to the next support at 688, and the model penalizes the +0.14 structure_bias headwind. Selling the hole here is negative expectancy; I wait to either short a bounce into 700-702 VWAP/broken-support or short a clean break of 688 with momentum. HOLD is the highest-EV action now.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 688.0,
+    "expires_min": 240,
+    "note": "Losing the 688.09 support on volume proves the oversold base failed and the downtrend is resuming \u2014 re-engage short toward the next leg with the break as the trigger, not the hole."
+  },
+  "transcript": {
+    "macro": "2026-07-17 RISK-OFF, hostile to fresh longs. US equities selling off hard (Nasdaq -1.4%, -2.9% wk); PHLX Semiconductor index in bear market on AI-capex cut fears; Netflix -11%. Rates hawkish, possible Fed HIKE month-end. QQQ = epicenter of the chip-led selloff; deeply oversold (4h RSI 25.6, ADX 79.5), rel-strength -8.05% vs BTC (real downside leader, btc_corr only 0.256). L/S 1.049 balanced, but orderbook_imbalance +0.706 (heavy BID stacking = near-term bounce risk); structure_bias +0.14. THIN-TAPE: tokenized US-equity proxy, gappy off US cash hours, Friday weekend gap risk. Biggest risk: oversold mean-reversion bounce; chase strength, don't sell the hole.",
+    "sentiment": "RISK-OFF, bearish (global semi/AI-capex rout, SOX near -20%). QQQ most directly in crosshairs (tech >50% of ETF); live still-moving shock, argues FOR short, highest-weight input. RSI 25/ADX 79 reflect momentum. Next binary: Alphabet (GOOGL) hyperscaler earnings next week (outside 48h) could reset chip sentiment. CAVEAT: July seasonally QQQ's strongest month (~90% historical win rate); sharp mean-reversion bounce is the main short risk. Price ~696.",
+    "analyst": "QQQ 696.13: 4h RSI 25.6, ADX 79.5, vwap_dist -2.12%. Path 701 -> 694.84 low (232-vol capitulation bar), then last 6 bars dead-flat 695.7-696.4 on tiny volume \u2014 waterfall stalled, basing not reversing; 5m/30m/1h scores flat. Support 688, resistance ~702; ATR% 0.86 (tight). Fresh short into RSI 25.6 + +0.706 bid imbalance is chasing the hole = account's #1 loss pattern (shorts 47%/-0.87). No long into chip-led bear tape. HOLD is highest-EV; short a bounce into 700-702 or a clean break of 688 with momentum.",
+    "portfolio": "QQQ/USDT:USDT \u2014 HOLD (conf 0.60): don't sell the oversold hole into heavy bids; armed short below 688 or on a bounce to 700-702."
+  },
+  "timestamp": "2026-07-17T21:35:16.613429+00:00"
+}

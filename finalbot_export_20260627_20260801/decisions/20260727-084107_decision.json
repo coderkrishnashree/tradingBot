@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "ORCL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "After the vertical spike to 119.17 that already faded to 118.65, expect chop/pullback toward the 117.5 base over the next 2-4 bars as the impulsive move digests; no continuation or exhaustion signal yet.",
+  "expectancy_note": "No entry beats both: chasing long at 15m-RSI 82 / +1.1% VWAP into Fed is the account's #1 loser; blind short vs ADX 83 uptrend with no divergence has p(win) < 0.45.",
+  "rationale": "ORCL is the most-stretched, most-crowded long in the book (LSR 2.21, structure_bias -0.23, RS -17.4%) and just printed a single high-volume vertical spike to 119.17 that immediately rejected to 118.65 - classic exhaustion, not a clean breakout. Chasing into a Wed FOMC is precisely the late-continuation trap this account bleeds from; no confirmed short trigger either (ADX 83, no divergence).",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 119.25,
+    "expires_min": 240,
+    "note": "A hold above the 119.17 spike high converts the failed spike into a genuine breakout, re-arming a momentum-long debate; a fade below 117.5 arms a fade short."
+  },
+  "transcript": {
+    "macro": "MIXED, cautious into event risk. FOMC Wed Jul 29; megacap earnings this week. Risk-on but fragile. Crowding flag firing across book. Default reduced size, intraday over overnight. ORCL: HEADWIND - most stretched in book (RSI 73 / 15m 82), LSR 2.21 max crowding, RS -17.4% worst laggard; contrarian short risk if anything.",
+    "sentiment": "Risk-on but knife's-edge. FOMC Wed, PCE Thu. CL short highest-conviction. ORCL: neutral, overextended; no earnings until Sept, drivers already priced. Momentum long only; catalyst-empty this window.",
+    "analyst": "ORCL 118.69 - 17 flat bars then a single 10x-volume vertical spike to 119.17 that immediately faded to 118.65. Most crowded long in book (LSR 2.21), +1.1% VWAP, 15m RSI 82 into Wed FOMC. Chasing = #1 loss pattern; blind short into ADX 83 = knife-catch. HOLD until the spike resolves.",
+    "portfolio": "ORCL - HOLD (0.60): failed parabolic spike into FOMC; don't chase the top, wait for 119.25 reclaim or 117.5 fade."
+  },
+  "timestamp": "2026-07-27T08:41:07.152107+00:00"
+}

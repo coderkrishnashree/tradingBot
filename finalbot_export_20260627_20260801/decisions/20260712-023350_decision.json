@@ -1,0 +1,23 @@
+{
+  "symbol": "MU/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.5,
+  "size": 0.0,
+  "entry": 977.3,
+  "stop_loss": 990.0,
+  "take_profit": 955.0,
+  "rationale": "MU trend is down across all TFs (rel-strength -16.2%, orderbook -0.24, structure_bias -0.25), but price is NOT at a tradeable location: it already dropped from 985 to 974.5 and is now coiling flat in a 976-980 range with LTF RSI stretched oversold (1h 29, 30m 26). A market short here is exactly the account's #1 loss pattern \u2014 chasing a stretched move into a base, where a routine bounce toward VWAP (~984) stops you before the trend resumes. No support-fade setup either (support 876 is far below). Best expectancy is to wait: a break of the 974.5 base low confirms momentum resumed for a fresh short toward 955-960; a bounce to ~985 would offer a better short location. Weekend thin-liquidity gap risk reinforces standing aside.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 974.5,
+    "expires_min": 240,
+    "note": "losing the 974.5 coil/base low proves the down-move resumed and clears a fresh short entry with room to 955-960; until then LTF oversold makes a market short a chase."
+  },
+  "transcript": {
+    "macro": "REGIME: RISK-OFF lean/defensive. Hawkish Fed, USD bid, tech (XLK) -2% on profit-taking. WEEKEND (Jul 12): tokenized US equities gap/thin-liquidity risk. MU specifically BEARISH: short trend all TFs, rel-strength -16.2%, orderbook -0.24, bias -0.25 \u2014 rides the tech/semi rotation lower.",
+    "sentiment": "MU NEUTRAL / no near-term binary: blowout Q3 already reported Jun 24 (record results, Q4 guide ~$50B rev, HBM sold out through 2026); next earnings weeks away. Long-term very bullish but no <=48h catalyst \u2014 trade on tape.",
+    "analyst": "Downtrend intact but price already fell to 974.5 and is coiling flat with LTFs oversold (1h 29, 30m 26) \u2014 market-shorting the base = chasing into the bounce (top loss pattern). No support-fade (876 far below). Wait for a break of 974.5 (fresh short) or a bounce to ~985 (better short location). Weekend gap risk.",
+    "portfolio": "HOLD MU \u2014 bearish bias but coiling/oversold mid-range; short trigger armed below 974.5."
+  },
+  "timestamp": "2026-07-12T02:33:50.603863+00:00"
+}

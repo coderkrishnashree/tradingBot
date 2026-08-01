@@ -1,0 +1,27 @@
+{
+  "action": "hold",
+  "symbol": "AAPL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "expectancy_note": "Long at upper band (%B 0.967, stoch 88, RSI 69) into resistance 315.39 = chasing, poor R:R; short vs ADX 56.9 uptrend + 0.77 bid = fighting tape. Best expectancy is wait.",
+  "rationale": "AAPL is a genuine leader (RS +8.7%, own-strength not BTC beta at corr 0.27, ADX 56.9, all TFs long) but price 314.21 is pinned against resistance 315.39 at overbought extremes with no catalyst inside 48h and analysts flagging a tight ~$305-318 range into Jul-30 earnings. Buying the band top is chasing (entry at extreme, ~1 ATR to the ceiling), and fading a strong uptrend backed by +0.77 orderbook bid is unfavorable. No trade with acceptable R:R here; the clean edge is either a pullback toward VWAP ~311 or a confirmed breakout hold above 315.39.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 315.39,
+    "expires_min": 240,
+    "note": "A hold above range-top resistance 315.39 breaks the $305-318 ceiling and opens the measured move, flipping the chase into a valid trend-continuation long."
+  },
+  "transcript": {
+    "macro": "Regime risk-on but late-stage: Nasdaq100 +1.3%, VIX ~15.9, DXY ~100.86, 10Y ~4.48% eased. Semis hot leadership but stretched. ~50% odds of Sept Fed HIKE; June FOMC minutes this week = live headline risk. Positioning crowded long. AAPL intraday firm/overbought (RS +8.7%, orderbook +0.77, RSI ~69). Macro favors AAPL LONG (leading, own-strength) but watch overbought.",
+    "sentiment": "AAPL neutral-to-mildly-bullish. Earnings Thu Jul 30 (fiscal Q3), guidance flagged +14-17% YoY revenue = next binary (outside 48h). Jul 6: Broadcom chip-supply deal extended to 2031 (multi-quarter positive). Foldable iPhone = narrative. Risk: surging memory costs. No <=48h catalyst; analysts see tight ~$305-318 range into earnings - lean neutral for fast cycle.",
+    "analyst": "Strong uptrend (ADX 56.9, all TFs long, RS +8.7% leader, own-strength corr 0.27) BUT price 314.21 pinned right under resistance 315.39 at overbought extremes: %B 0.967, stoch 88.4, RSI 69.2, +1.02% over VWAP, ATR only 0.73%. Chasing the band top is poor R:R; shorting vs ADX 56.9 + 0.77 bid fights the tape. HOLD; flip trigger price_above 315.39 (breakout hold) or dip to VWAP ~311.",
+    "portfolio": "HOLD AAPL - leader but pinned under 315.39 resistance at overbought extremes; wait for breakout or pullback (conf 0.50)."
+  },
+  "timestamp": "2026-07-07T10:28:10.977988+00:00"
+}

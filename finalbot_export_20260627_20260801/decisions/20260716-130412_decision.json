@@ -1,0 +1,28 @@
+{
+  "symbol": "MSTR/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.34,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "none",
+  "forecast": "No live MSTR candles/ATR/levels this cycle; likely drifts with BTC around $92-97, but next concrete move is undefined without data. Watch $81.81 (52wk low) for breakdown and $100 for a reclaim.",
+  "expectancy_note": "No priceable entry/stop/target without MSTR technicals; forcing a trend-short into BTC-squeeze risk near the 52wk low is the account's proven loss pattern (shorts n=32, avg -0.67R). HOLD has higher expectancy than a blind entry.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 81.81,
+    "expires_min": 240,
+    "note": "Losing the 52-week low confirms breakdown continuation and, with fresh MSTR data, would justify a trend-aligned short re-look; a reclaim of $100 would instead flip toward neutral/long."
+  },
+  "rationale": "MSTR was skipped from the scan (rate-limited 30m fetch) so there is no live RSI/ADX/ATR/support/resistance or candle sequence to build an honest R:R around \u2014 every stop/target would be a guess. Backdrop is bearish (downtrend, dilution + BTC-sale overhang, net-short smart money) but BTC is stalling into resistance with short-liquidation squeeze fuel, so a fresh short risks a routine counter-bounce stopping me out, and equity-hours gap risk compounds it. With no live levels and a losing short track record, size is zero.",
+  "transcript": {
+    "macro": "Regime MIXED, leaning risk-on but squeezy. BTC ~$63.9k stalling into $65,566 resistance, lower TFs rolling over, rally short-liquidation driven. MSTR treated as EQUITY + BTC proxy \u2014 MIXED-to-HOSTILE for longs. ~$97.5 (Jul 15), off the $100 reclaim, down ~77% trailing 12mo, deep downtrend, 52-wk range $81.81-$457.20. Needs firm Nasdaq AND rising BTC; thin/gappy off US hours. Smart-money net short (~56% notional). Earnings Jul 30 (outside 48h). Data caveat: MSTR Bybit fetch failed (rate-limit) \u2014 no live structure.",
+    "sentiment": "MSTR sentiment BEARISH. ~$92, down ~37.7% YTD, struggling below $100. KEY SHIFT: Strategy abandoned 'never sell Bitcoin' \u2014 sold ~3,620 BTC (~$218M) late-May to early-July; new framework authorizes selling up to $1.25B BTC. Fresh dilution: sold 4.82M MSTR shares (Jul 6-12) for $466.7M, bought NO bitcoin. BTC-sale + dilution combo is the dominant bearish overhang. Hard catalyst Q2 earnings Thu Jul 30 5pm ET (outside 48h). Near-term news argues against longs; short bias better supported.",
+    "analyst": "No live MSTR row (rate-limited, skipped) \u2014 no RSI/ADX/ATR/levels/candles. Learner flags shorts have bled (n=32, win_rate 0.50, avg_pnl -0.67R) vs longs winning \u2014 cautions against reflexive trend-short. BTC stalling into resistance with LTFs rolling over = no bullish proxy tailwind but squeeze risk. MSTR structurally weak, net-short smart money, dilution/BTC-sale overhang, thin off US hours near 52wk low $81.81. Cannot build honest R:R either direction without data; blind short into squeeze fuel is the account's proven loss pattern. HOLD by data insufficiency, reconsider armed at $81.81 breakdown / $100 reclaim.",
+    "portfolio": "HOLD MSTR/USDT:USDT \u2014 bearish backdrop but un-priceable with no live structure and a losing short record; size zero."
+  },
+  "timestamp": "2026-07-16T13:04:12.043894+00:00"
+}

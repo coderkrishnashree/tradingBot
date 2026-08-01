@@ -1,0 +1,28 @@
+{
+  "symbol": "EWY/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.36,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "none",
+  "forecast": "Price just bounced off 168.8-169.2 and closed strong at 170.56 near bar highs; over the next 2-4 bars expect a drift/retest up toward the 171.5-172.0 lower-high cluster where the short setup lives, or a break of 169.2 to confirm downside.",
+  "expectancy_note": "p(win) on a market short here ~0.40: mid-range (RSI 50.6, %B 0.39, at VWAP), TFs conflicted (4h/1h short vs 30m/5m long), no location edge; an honest short needs a stop above 172 vs targets barely 1.5-2 pts away = sub-1.5 R:R. Waiting for the retest gives a real edge.",
+  "rationale": "Macro and scan both favor short, but the tape just bounced off 169 and closed at the top of its range, price sits exactly at VWAP with neutral RSI/stoch/%B mid-Bollinger and only ADX 26 with conflicting timeframes (4h/1h short, 30m/5m long). Shorting the bounce mid-range with a 2.95% ATR is the account's classic late-short-into-bounce loss. Best expectancy is to wait: sell a rejection at the 171.5-172.0 lower-high cluster with a ~172.3 stop, or short a clean loss of 169.2. No size warranted; overnight gap risk on this thinnest name reinforces patience.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 169.15,
+    "expires_min": 240,
+    "note": "Losing 169.15 breaks the current bounce low and confirms downside continuation toward 166-165, arming a with-trend short; a reclaim of 172 invalidates the short bias entirely."
+  },
+  "transcript": {
+    "macro": "Regime MIXED, fragile (hawkish/possible-hike Fed + firm USD). EWY last ~170.6, structure_bias -0.15 (least crowded of four). L/S near neutral 1.14, funding highest of group 2.24e-4 (mild long-crowding). OI 26k. Scan direction SHORT (-0.33). Highest-conviction MACRO-negative name: KOSPI -19.8% past month, EWY heavily semi-weighted into a session where chips sold hard (Micron -8%). USD/won headwind, elevated oil/Iran dents EM appetite. Highest ATR 2.95% - overnight gap risk. Supportive for short / hostile for longs.",
+    "sentiment": "Extreme volatility, high-beta chip whipsaw. KOSPI roller coaster (Jul 2 -6%, Jul 7 -4.9%, Jul 14 ~-3% to 6,610) then bounces (Jul 15: SK Hynix +3.7%, Samsung +3.6%). Hostage to Samsung/SK Hynix + overnight US semi tape. No single scheduled binary in 48h but highest near-term-move candidate - gaps hard on overnight chip sessions. No clean directional bias - size for gaps.",
+    "analyst": "Tape just bounced off 168.8-169.2 and closed strong at 170.56. Price at VWAP, neutral RSI 50.6/stoch/%B, conflicted TFs (4h/1h short vs 30m/5m long). Market short = shorting a bounce mid-range, sub-1.5 R:R (classic late-short loss). Hold; sell a rejection at 171.5-172.0 or short a loss of 169.2. Overnight gap risk reinforces patience.",
+    "portfolio": "EWY: HOLD (conf 0.36) - short bias but tape bounced; short arms on rejection at 171.5-172 or loss of 169.15."
+  },
+  "timestamp": "2026-07-16T00:04:55.904626+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "EWJ/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.4,
+  "playbook": "none",
+  "forecast": "Price likely drifts/gaps between 89.53 support and 93.34 resistance on near-zero volume until Tokyo/US liquidity returns; the last bar's flush to 92.27 is a single thin print, not real momentum, and BOJ/FOMC risk dominates the next move.",
+  "expectancy_note": "No honest R:R: illiquid gappy perp (mostly zero-vol candles) means stops can't survive noise and spread eats entries; event minefield (FOMC Wed, PCE Thu, BOJ Jul30) makes direction a coin flip. HOLD beats any entry.",
+  "rationale": "EWJ is a broken/illiquid perp \u2014 the 15m RSI of 3.4 and most zero-volume candles are data artifacts, not tradeable momentum. Composite is unaligned and near-neutral (structure_bias -0.01), with the only real recent bar a thin flush to 92.27. With a HOSTILE macro window and three high-impact events on Japan risk inside ~48h, there is no positive-expectancy setup; the correct trade is no trade.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 89.53,
+    "expires_min": 240,
+    "note": "A clean break of 89.53 support on real volume would confirm a genuine bearish breakdown worth a thin short; until then the range holds and it's untradeable."
+  },
+  "transcript": {
+    "macro": "HOSTILE window (2026-07-26). Broad tech/AI-capex selloff (Nasdaq ~-2% on week). Hawkish rates: June CPI 3.5%, oil>$100, ~34% chance of a HIKE next week, Sep hike ~81%. Event minefield <48h: FOMC Wed Jul29 2pm ET, MSFT/META earnings Wed AH, AAPL/AMZN Thu, GDP+PCE Thu 8:30am. Crypto weak: BTC ~$64.6k off 21-mo low, $4.5B June spot-ETF outflows. Precious metals the one bright spot (DXY<103, safe-haven bid). Crowded longs across the board = squeeze fuel. Cut size hard; prefer flat before Wed; equity-perp funding ~0. | EWJ: Illiquid perp, thin/gappy, bias ~flat. Neutral, low-conviction, size down for liquidity.",
+    "sentiment": "Event-heavy pre-earnings cycle. HARD earnings flags: META (Wed Jul29 AH), AAPL/COIN/MSTR (Thu Jul30). FOMC + GDP/PCE + BOJ (Jul29-30) = desk-wide landmines. Crypto Fear&Greed ~33-39 (fear). Cleanest names without single-name binaries: TSLA (bearish drift post -14.5% earnings), ORCL (bearish, -50% since Jun), XAG (mild bull, safe-haven), CRCL/SOL (sentiment/technical). | EWJ: Bearish-lean/high-risk; Nikkei -2.7% Fri on capex/tariffs; BOJ Jul30 trigger; illiquid.",
+    "analyst": "EWJ is a broken/illiquid perp \u2014 the 15m RSI of 3.4 and most zero-volume candles are data artifacts, not tradeable momentum. Composite is unaligned and near-neutral (structure_bias -0.01), with the only real recent bar a thin flush to 92.27. With a HOSTILE macro window and three high-impact events on Japan risk inside ~48h, there is no positive-expectancy setup; the correct trade is no trade.",
+    "portfolio": "HOLD EWJ/USDT:USDT @ conf 0.4"
+  },
+  "timestamp": "2026-07-26T20:36:33.402671+00:00"
+}

@@ -1,0 +1,23 @@
+{
+  "symbol": "CRCL/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.6,
+  "size": 0,
+  "entry": 69.28,
+  "stop_loss": 70.75,
+  "take_profit": 66.5,
+  "rationale": "CRCL is a parabolic, max-crowded long: RSI 85 (5m), bb_pctb 1.247 above the upper band, +0.88% over VWAP, funding +0.4456%/interval and long/short 2.93 both pinned at the -1.0 cap (structure_bias -0.649, most negative in scan), on a tokenized equity that just crashed ~17.5% on the OUSD threat with Monday cash-open gap risk. A fresh long here is a textbook late-longs trap, and standing in front of a still-live 15m breakout (level 68.9, 5m still up) to short blindly is a donation with no confirmed momentum roll yet. Best expectancy is to wait: the crowded-long positioning is squeeze fuel for a fade, but only once price loses structure. If price loses support 68.25 (below the 68.9 breakout level and VWAP), the rollover is confirmed and I flip short with the positioning tailwind - stop back above 70.75 (~1x ATR beyond the parabolic high / resistance), target the 66.5 mean-reversion zone for ~1.9R.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 68.25,
+    "expires_min": 240,
+    "note": "losing 68.25 breaks the breakout base and VWAP support, confirming the parabolic has rolled over - the crowded longs become squeeze fuel for a mean-reversion short"
+  },
+  "transcript": {
+    "macro": "Crypto regime CAUTIOUS/RISK-OFF LEANING (BTC dominance elevated, Fear&Greed 22). Catalysts in window: US equities reopen Mon Jul 6 (gappy tokenized-equity pricing), ISM Services Mon Jul 6, FOMC June minutes Wed Jul 8. CRCL HOSTILE for fresh longs - the crowded name: structure_bias -0.649 (most negative in scan), funding +0.4456%/interval (extreme crowded-long carry) and long/short 2.93 both pinned at -1.0 cap, orderbook +0.171 (only bid positive, swamped). Parabolic/overbought: RSI 85 (5m), ADX 65, bb_pctb 1.25, +0.88% over VWAP, 15m breakout long - blow-off geometry. btc_correlation 0.58 (half BTC-beta, half idiosyncratic). Underlying equity broken ($263 high to ~$63-65, recent >17% single-session crash), just reopened after US holiday - Monday gap risk real. Longs HOSTILE; mean-reversion short only on confirmed momentum roll, small/tight.",
+    "sentiment": "CRCL treat as EQUITY; fresh negative shock dominates. Falling-knife: down ~40% over past month, crashed ~17.5% single session (Jun 30, closed ~$62.63, 4-month low) on OUSD - zero-fee yield-sharing USDC rival backed by 140+ firms (Visa, Mastercard, BlackRock, Coinbase, Stripe, Google, Shopify, OKX), strikes Circle's model (reserve interest ~99% of 2024 rev). Nuance: OUSD doesn't launch until late 2026 - threat structural/long-horizon; analysts (Bernstein Buy, CoinDesk) call selloff overreaction, so shock largely priced. RSI-85 breakout looks like a violent dead-cat bounce, not a fresh up-catalyst. Analyst noise (low weight): Goldman PT $96 Neutral, Morgan Stanley $106 Neutral. Earnings ~Aug 11 (outside window). Watch Mon Jul 6 cash open - off-hours tokenized price can gap to reconcile, direction unknown. Net: argues AGAINST chasing longs; tilt favors caution/fade.",
+    "analyst": "CRCL parabolic and max-crowded: last 69.28 right under resistance 69.40, RSI 85 (5m), bb_pctb 1.247, +0.88% VWAP, funding +0.4456%, long/short 2.93, structure_bias -0.649. 15m breakout long live at 68.9, 5m still up. This is HOSTILE for longs (late-longs trap), but no confirmed rollover yet - shorting a live parabolic breakout blindly is a donation. HOLD and arm a trigger: loss of 68.25 support (below breakout 68.9 and VWAP) is the confirmed-rollover signal to flip short with positioning tailwind, stop 70.75, target 66.5 (~1.9R).",
+    "portfolio": "HOLD CRCL (conf 0.60) - parabolic max-crowded long into RSI-85 with Monday gap risk; no fresh long, arm short trigger below 68.25."
+  },
+  "timestamp": "2026-07-05T22:04:04.134300+00:00"
+}

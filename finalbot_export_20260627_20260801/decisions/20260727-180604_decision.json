@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "CRCL/USDT:USDT",
+  "size": 0.0,
+  "entry": 64.25,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.55,
+  "playbook": "none",
+  "forecast": "Low-volume bounce into 64.25-64.5 (upper BB, +2% over VWAP) likely stalls; expect a fade toward 63.4-63.0. A break under 63.0 opens the crowded-long flush toward 62.0; a volume reclaim of 64.6+ negates the 4h bearish divergence.",
+  "expectancy_note": "No entry clears R:R: a long chases an extended, weak-volume, negative-rel-str bounce into resistance; a short fights still-rising 30m/1h momentum and shorts have been this book's loser (45% win, -0.85).",
+  "rationale": "CRCL is high-beta crypto-fin equity (0.69 COIN, 0.68 MSTR) with no relative strength (-4.1%), bouncing on DRYING volume into the upper Bollinger band +2% above VWAP with a bearish 4h divergence and very crowded longs (L/S 3.05, structure_bias -0.31). That is the extended-chase-into-resistance setup the account's model penalizes, so a fresh long is bad expectancy. A short has the thesis but 30m/1h still trend up and shorts have bled this book, so I want confirmation via a loss of the 63.0 base. With FOMC Wed and a risk-off tape, restraint is the highest-expectancy play.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 63.0,
+    "expires_min": 240,
+    "note": "Losing the 62.77-63.0 base while longs are crowded 3-to-1 confirms the squeeze/divergence and arms a short toward 62.0-61.0."
+  },
+  "transcript": {
+    "macro": "Regime MIXED-to-CAUTIOUS. Headline-risk week: FOMC Wed Jul 29 2pm ET (hold expected, hawkish lean, cuts priced out, ~73% Dec hike odds) same day as MSFT+META earnings; AAPL/AMZN Thu -> smaller size, tighter holds, prefer trades closing before Wed 2pm. Tech-heavy selloff today (Nasdaq -0.6%, SMH -3%), WTI -7% to ~$83. No risk-on. Crypto: BTC ~$65k, dominance ~56%, alts not running, heavy ETF outflows. CRCL trades as high-beta crypto-fin equity; rel-str -4.1%, bearish 4h divergence, L/S 3.05 very crowded longs (structure_bias -0.31); stablecoin rulemaking deadline this window.",
+    "sentiment": "FOMC Jul 28-29 master catalyst, hawkish lean. CRCL: no imminent binary. Q1 earnings printed Jul 11 (beat $0.21 EPS); OCC national-trust-bank approval now old news. Next earnings Aug 5 (outside 48h). Only near-term driver is broad risk sentiment/FOMC plus high crypto-equity beta. Near-term catalyst: none specific; neutral.",
+    "analyst": "Price grinding a low-volume recovery bounce off the 62.77-63.0 base into the upper BB, +2% over VWAP, 15m RSI 62, bearish 4h divergence, drying volume. Long is an extended chase into resistance the model penalizes (vwap_dist, rel_str, structure_bias all bearish). Short has the setup (crowded longs, divergence, upper band) but 30m/1h still trend up with positive MACD and shorts have bled this book, so wait for the 63.0 break rather than front-run. FOMC Wed argues for restraint.",
+    "portfolio": "HOLD CRCL - no clean edge; wait for 63.0 break (short) or 64.6 reclaim (long)."
+  },
+  "timestamp": "2026-07-27T18:06:04.662661+00:00"
+}

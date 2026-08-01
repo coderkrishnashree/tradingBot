@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "SNDK/USDT:USDT",
+  "size": 0.0,
+  "entry": 1750.51,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Last 4 bars coil 1749-1751 on drying volume (41 vs 814 on the breakdown bar) into micro-support; expect a 2-4 bar chop/relief bounce toward 1765-1772 (VWAP/broken shelf) before direction resolves. A fresh short only earns its keep on a decisive loss of 1749 with volume; buying the exact oversold low is a knife-catch.",
+  "expectancy_note": "p(win) short ~0.4 here: 4h/15m/5m all oversold (RSI 31/33/31), crowd already short (L/S 0.88 = squeeze fuel), and learner shows this account's high-ADX/high-ATR/neg-bias shorts lose -1.97R over 31 trades. No clean R:R either way at 1750; HOLD beats chasing.",
+  "rationale": "SNDK is a genuine NAND-glut shock (aligns bearish) but price is deeply oversold and NOT extended from VWAP (-0.47%), coiling on fading volume into 1749 micro-support with active squeeze/bounce risk on a +700%-YTD name whose PTs are being hiked. Shorting the exact low here is the account's proven #1 loss pattern (learner p_win 0.36, short avg -1.75R). A long is an unconfirmed knife-catch. Best expectancy is to wait: re-short only on a clean break of 1749 (momentum, not chasing), or reassess on a reclaim of 1772.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 1749.0,
+    "expires_min": 240,
+    "note": "Losing the 1749-1751 coil low on volume confirms the downtrend resuming with momentum \u2014 a re-short that enters on the break rather than buying the oversold low, avoiding the squeeze that stops late shorts."
+  },
+  "transcript": {
+    "macro": "Regime modestly RISK-ON (June CPI 3.5% vs 3.8% exp, Nasdaq +0.9%, semis/memory leadership). SNDK near-zero BTC corr (0.02) \u2014 own equity tape. Deeply lagging (-23.8% vs BTC), oversold 4h RSI 31 \u2014 shorting into oversold + risk-on semis tape risks a squeeze. No FOMC/CPI in next 48h; SNDK earnings ~late-July/Aug (outside window). Thin tokenized perp, after-hours gaps make stops unreliable \u2014 prefer entries while US cash open. Regime MIXED-to-HOSTILE for fresh shorts.",
+    "sentiment": "BEARISH near-term, active NAND supply-glut shock: SNDK -8.2% Jul 13 then ~-11% intraday to ~$1,802 on faster ASP declines, triggered by SK Hynix's worst drop in ~20yrs (dragged Micron/Seagate/WDC). Genuine sector shock aligning with the short read. Counter: analyst PTs being hiked (GS $2,200, Bernstein $3,000, Evercore $3,100), 79% Buy, +700% YTD = profit-taking fuel and violent oversold-bounce risk if headlines cool. Earnings Aug 5 (no binary in window). Stocks Fear&Greed 44.",
+    "analyst": "Genuine NAND-glut shock aligns bearish, but price deeply oversold and NOT extended from VWAP (-0.47%), coiling on fading volume (41 vs 814 breakdown bar) into 1749 micro-support with squeeze/bounce risk on a +700%-YTD name. Crowd already short (L/S 0.88). Learner: this account's high-ADX/high-ATR/neg-bias shorts lose -1.97R over 31 trades; short p_win 0.36, avg -1.75R \u2014 shorting the exact low is the #1 loss pattern. Long is an unconfirmed knife-catch. HOLD; re-short only on a clean break of 1749, or reassess on reclaim of 1772.",
+    "portfolio": "HOLD SNDK/USDT:USDT \u2014 no clean R:R; armed short trigger on decisive break of 1749."
+  },
+  "timestamp": "2026-07-14T21:03:01.684743+00:00"
+}

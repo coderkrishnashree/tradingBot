@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "AAPL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Tired melt-up into resistance 339.51 on drying volume with RSI 76.6 and bearish divergence; expect it to stall/chop 336-339.5 over the next several bars, with real direction deferred to FOMC (Wed) and earnings (Thu). No clean move to trade now.",
+  "expectancy_note": "No setup clears R:R>=1.5 into two 48h binaries - long chases an extended top (p_win_learned 0.412), short knife-catches the strongest name in an ADX-90 uptrend with no reversal confirmation. HOLD is highest expectancy.",
+  "rationale": "AAPL is at record highs (last 337.87 vs resistance 339.51) with RSI 76.6, bb%b>1 and a flagged bearish divergence - a textbook extended top, exactly the late-continuation entry this account bleeds on, and the last candles show the push weakening on thin volume. Support is a distant 319.54, so any honest stop is far while the target into resistance is tiny - R:R fails. Above all, macro explicitly warns AVOID holding AAPL into the Jul 29 FOMC and Jul 30 earnings; entering now risks carrying a binary gap. Zero size is the disciplined, highest-expectancy choice.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 339.51,
+    "expires_min": 240,
+    "note": "A decisive break-and-hold above record-high resistance on real volume would invalidate the exhaustion/divergence read and give momentum a fresh level to trade; failure there keeps the fade thesis alive."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF/defensive, high event risk. Nasdaq worst day since Jun 23 on semi sell-off (SMH -4%) + rising oil. Trade off tech tape (AAPL btc_corr -0.11). TWO hard catalysts inside 48h: FOMC Wed Jul 29 2pm ET (rates held 3.50-3.75%, June CPI hot), and AAPL earnings Thu Jul 30 after close. AAPL RSI 76.6/ADX 90/bb%b 1.02 - overbought, extended, bearish divergence. Verdict: MIXED-to-HOSTILE; AVOID holding AAPL into Jul 29-30.",
+    "sentiment": "HIGH near-term binary. Earnings Thu Jul 30 after close (~48h out). Consensus ~$108.9B rev/$1.89 EPS; iPhone $55-57B, China + Services swing factors. Stock near record highs (~$333-338) into print, optimistic tone (iPhone 17, AI). Options imply ~$260B cap swing. Framed as Tim Cook's final earnings call - narrative risk. Bullish but crowded/extended (RSI ~76); do NOT carry oversized risk into 7/30.",
+    "analyst": "Long here = chasing an extended move into resistance with bearish divergence right before FOMC (late-continuation loss pattern). Short = fading the strongest name in a risk-off tape with no confirmed reversal candle (knife-catch into ADX-90 uptrend). Holding into FOMC + earnings violates the explicit macro warning. No clean R:R>=1.5 setup that resolves before the binaries. HOLD; arm reconsider on reclaim above 339.51 resistance.",
+    "portfolio": "AAPL: HOLD (size 0) - extended top into FOMC + earnings, no clean setup."
+  },
+  "timestamp": "2026-07-28T02:34:36.997814+00:00"
+}

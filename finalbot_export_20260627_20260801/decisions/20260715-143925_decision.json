@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "TSLA/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.34,
+  "playbook": "none",
+  "forecast": "Price is pinned at VWAP (~398) mid-range between 391 support and 419 resistance after a failed pop to 407 and a flush to 394 that bought back; expect continued 394-404 chop over the next few bars with no clean edge until one boundary breaks.",
+  "expectancy_note": "No directional edge: 1h long vs 4h short (align_factor 0.7), price at VWAP mid-Bollinger, ADX inflated by a spike that fully reversed. Any mid-range entry risks the same whipsaw that killed prior late entries; p(win) ~0.5 with sub-1.5 R:R, so flat beats both.",
+  "rationale": "TSLA is deeply conflicted (30m/1h up, 15m/4h down) and sits exactly at VWAP in the middle of a 391-419 range after a violent 407-reject-then-394-flush whipsaw. Long-heavy L/S (1.88) argues against fresh longs while a firm bid (OB +0.53) argues against fresh shorts, leaving no asymmetry. Earnings July 22 is outside the 48h window, so there is no catalyst edge; the highest-expectancy action is to wait for a clean break of the range.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 391.0,
+    "expires_min": 240,
+    "note": "Losing the 391 support flips the balance to the 4h downtrend and opens a clean short toward the lower range; conversely this is the level that ends the chop and gives a directional trade."
+  },
+  "transcript": {
+    "macro": "2026-07-15 14:29 UTC, US cash equities OPEN. Cautiously RISK-ON, tech-led (S&P +0.39%, Nasdaq +0.67%); ASML raised guidance re-igniting AI/semis. Soft June PPI -0.3% & CPI 3.5%hd/2.6%core cooling rate-HIKE fears, but regime is hike-risk not cut-risk -> hot data = asymmetric downside. DXY easing ~100.9. BTC ~$65k three-week high, spot-BTC-ETF inflows turned +$221.7M. Funding flat (no squeeze). L/S broadly long-heavy (XAUT 2.88, SOL 2.58, TSM 1.90, NVDA 1.65) -> smaller size on fresh longs. TSLA: high-beta consumer-tech, BTC-corr low 0.26, rides Nasdaq risk-on, benefits from softer yields; neutral positioning.",
+    "sentiment": "2026-07-15. Earnings season dominant: TSM reports Jul16 pre-mkt (only genuine <=48h binary); MSFT 7/29, COIN 7/30, TSLA 7/22, INTC 7/23 outside 48h. Memory/NAND epicenter of vol (SNDK unwind, S.Korea chip crash). TSLA: Q2 deliveries blowout 480,126 (+25% YoY) already priced; earnings call July 22 after close is next binary (outside 48h); near-term neutral-to-mildly-bullish drift, no <=48h catalyst.",
+    "analyst": "TSLA @398.07, support 391 / resistance 419.79, ATR% 1.1. Timeframes conflict (30m/1h up, 15m/4h down; align_factor 0.7), price at VWAP (+0.07%), mid-Bollinger, RSI 40.6 neutral. Tape: coil ~397 -> fake pop to 406.97 rejected -> flush to 394.11 -> bought back to 398. Whipsaw, no direction. L/S 1.879 long-heavy (contra fresh longs); orderbook +0.526 bid (contra fresh shorts) -> no asymmetry. Chasing mid-range after a violent whipsaw is the account's #1 loss pattern. HOLD is highest expectancy; wait for a range break.",
+    "portfolio": "HOLD TSLA \u2014 flat mid-range at VWAP; conflicted timeframes, no edge. Reconsider short on loss of 391."
+  },
+  "timestamp": "2026-07-15T14:39:25.537762+00:00"
+}

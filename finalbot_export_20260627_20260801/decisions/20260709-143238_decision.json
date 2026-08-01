@@ -1,0 +1,22 @@
+{
+  "action": "short",
+  "symbol": "MU/USDT:USDT",
+  "size": 2.0,
+  "entry": 1024.0,
+  "stop_loss": 1037.5,
+  "take_profit": 1002.0,
+  "take_profit_1": 1002.0,
+  "take_profit_2": 986.0,
+  "confidence": 0.6,
+  "playbook": "range",
+  "forecast": "Blowoff to 1035 already rejected; last 15m bar reversed 1027->1014 tapping 1003.7. Expect a dead-cat bounce toward 1024 (broken support/VWAP-fail), then roll back to retest 1003-1000, extending toward 985 VWAP-magnet over 4-10 bars.",
+  "expectancy_note": "p(win)~0.6, R:R 1.7 to TP1 / 2.9 to TP2. Fade beats trend-follow: +7% vs VWAP, RSI 72-75, %B 0.94, crowded L/S 1.44 into an active semi rout.",
+  "rationale": "MU is grossly extended (+7% VWAP, multi-TF RSI 71-75, stoch 86.8) into a sector-wide rout it leads (-4.7% cash), with crowded longs (L/S 1.44, structure_bias -0.14) fueling a downside unwind. The blowoff high (1035) already got sold and the last bar rejected to 1003.7 \u2014 momentum is rolling. I short a limit bounce to 1024 rather than chase, stop 1037.5 above the blowoff (13.5 risk, ~1.2x 15m-ATR), targeting the 1002 recent low then 986 VWAP magnet. Size 2% given macro says size down and 4h trend still nominally up (squeeze risk).",
+  "transcript": {
+    "macro": "Regime RISK-OFF-LEANING/MIXED, defensive. Oil gapped up (US-Iran), yields up. SEMIS IN ACTIVE ROUT (MU -4.7% on the session, epicenter). No CPI/FOMC in 48h; driver = geopolitical/oil tape. Crypto soft-neutral, no tailwind. L/S crowded LONG while price bleeds (contrarian-bearish). Favors shorts/fades; size down. MU: +34% RS rank but -9% vs BTC and epicenter of semi rout, stretched long (RSI 64-75, %B 0.94, +7% VWAP), L/S 1.44 crowded \u2014 high reversal risk.",
+    "sentiment": "Overall NEUTRAL-to-BEARISH tech. MU: already reported Jun 24 \u2014 blowout, rev $41.5B, monster ~$50B next-Q guide, HBM sold out through 2026, Anthropic deal. That is PRICED (RSI ~64-75, +7% above VWAP, overbought). No new binary in 48h; risk is momentum-unwind/mean-revert, not news.",
+    "analyst": "Textbook overextended long into sector rout + crowding; the blowoff to 1035 already sold and last bar reversed 1027->1014 tapping 1003.7. Fade the bounce not the knife: LIMIT short 1024 (broken support/VWAP-fail), stop 1037.5 above the blowoff (~1.2x ATR), tp1 1002 recent low, tp2 986 VWAP magnet (1.7-2.9R). Size 2% (macro size-down + 4h still nominally up = squeeze risk).",
+    "portfolio": "MU: SHORT limit 1024 fade of the blowoff (conf 0.60, size 2%) \u2014 overbought epicenter of the semi rout."
+  },
+  "timestamp": "2026-07-09T14:32:38.460237+00:00"
+}

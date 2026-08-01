@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "SOL/USDT:USDT",
+  "confidence": 0.5,
+  "size": 0.0,
+  "entry": 76.2,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "none",
+  "forecast": "Price is coiling 76.0-76.2 after the earlier drop stalled; expect a relief bounce toward 76.8-77.2 (VWAP/prior support-turned-resistance) over the next 2-6 bars before the downtrend can resume, OR a clean break of 76.0 base. Entering short at the base low now risks the bounce hitting an honest stop first.",
+  "expectancy_note": "Short at 76.2 to first support 74.04 with an honest stop above 77.0 is only ~1.05R \u2014 fails 1.5R; 30m/1h RSI 28/32 oversold = late-short-into-stretched-tape, the account's #1 loss pattern. Better to sell a bounce or a confirmed base break.",
+  "rationale": "Composite/structure lean short (long/short 2.65 lopsided-long = liquidation fuel, RS -3%, all TFs down) but the LTF selloff has already stalled and based sideways 76.0-76.2 for 3+ hours with drying volume and oversold 30m/1h RSI \u2014 poor short entry timing, and 0.77 BTC correlation with BTC at a 3-week high threatens an upside squeeze. The high-expectancy trade is to short a bounce into 76.8-77.2 or a decisive loss of the 76.0 base, not to chase the base low. Holding flat until price gives a real entry.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 75.9,
+    "expires_min": 240,
+    "note": "Losing the 76.0 base that has held for 3+ hours confirms the downtrend resuming with a clean momentum entry toward 74.04 support; a push back above 77.0 instead would be the bounce to short into."
+  },
+  "transcript": {
+    "macro": "Regime mildly risk-on, not euphoric. BTC ~$64.2k (3-week high on soft US June CPI); BTC dominance ~56-60% elevated, alts lagging; no FOMC/CPI inside 48h. SOL leans SHORT and structure agrees: last $76.2, RS -3.09% vs BTC (lagging), correlation 0.77 (mostly BTC-beta). 30m/1h/4h all trend down; composite short conf 62%. Funding slightly negative (near flat, no long crowding). OI 6.19M moderate. Long/short ratio 2.65 lopsided long = downside/liquidation fuel. Structure_bias -0.27 supports shorts. Environment SUPPORTIVE for a SOL short intraday; biggest risk is a BTC bounce off ~$61.5k support squeezing high-correlation SOL up.",
+    "sentiment": "SOL near-term sentiment NEUTRAL to mildly bearish, no fresh binary in 48h. ~$76-78, rank #7, coin-specific Fear&Greed ~25 (Extreme Fear) vs broad crypto neutral; social volume thin. The big July PUMP unlock already happened July 15 (PUMP rallied ~13% post-unlock, overhang absorbed) \u2014 fading, PUMP-specific not SOL. No imminent (<=48h) SOL binary; Alpenglow upgrade is Q3. 0.77 BTC correlation means BTC/macro tape is the dominant driver. Weak vs market, no positive catalyst to fear on a short-horizon short. Net: near-term news does not argue against a short.",
+    "analyst": "Composite/structure lean short but the LTF selloff already stalled and based sideways 76.0-76.2 for 3+ hours (oversold 30m/1h RSI 28/32, drying volume) = poor short entry timing and late-short-into-stretched-tape, the account's #1 loss pattern. 0.77 BTC correlation with BTC at a 3-week high threatens an upside squeeze. R:R from 76.2 to support 74.04 with an honest stop above 77.0 is only ~1.05R (fails 1.5). High-expectancy trade is to short a bounce into 76.8-77.2 or a decisive loss of the 76.0 base, not chase the base low. Hold flat with a short-trigger armed.",
+    "portfolio": "SOL/USDT:USDT \u2014 HOLD (conf 0.50): in-trend short thesis intact but entry timing poor; wait for a bounce to 76.8-77.2 or a break below 75.9."
+  },
+  "timestamp": "2026-07-16T12:03:15.738082+00:00"
+}

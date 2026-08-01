@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "BTC/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Price just flushed to 63678 on the largest-volume bar of the sequence (15m RSI 21.9, stoch 12.5) \u2014 deeply oversold. Expect a dead-cat bounce toward the broken 64028 breakout level / VWAP over the next 2-4 bars; a fresh short there that rolls over is the real setup, not selling this bottom tick.",
+  "expectancy_note": "Shorting into a max-volume oversold flush = negative expectancy (p(win)<0.45, bounce stops it); account shorts already run 47% / -0.88 avg. Best EV is wait for the retest.",
+  "rationale": "BTC is mid-flush: last bar closed near lows on 2166 vol after breaking 64028, with 15m/5m RSI in the low-20s and stoch at 12.5 \u2014 chasing short here is exactly the account's #1 loss pattern (late short into stretched tape, stopped by the bounce). Composite is flat/chop (3.9% conf, regime_blocked), ADX 15.2 = no trend to ride, and there is no clean level to fade against right here. Highest-expectancy action is to wait for the counter-bounce to retest broken support ~64028 and short a failure, or step aside if it reclaims 64500. Size 0.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 64028,
+    "expires_min": 240,
+    "note": "A bounce back to the broken 64028 breakout level lets a short enter with the bearish macro at proper R:R instead of chasing the flush; a decisive reclaim of 64500 instead would void the short thesis."
+  },
+  "transcript": {
+    "macro": "RISK-OFF/defensive, fragile. BTC soft (~$65k, failed $70k), BTC.D 56.3%, Coinbase Premium negative 50 straight days (weak US demand), June ETF outflows record ~$4bn. Crowded longs into falling tape = squeeze fuel. BTC scan 'flat' (composite conf only 3.9%) \u2014 no strong edge either way.",
+    "sentiment": "BTC: neutral/fragile, macro-gated. Rebounded 7/15 on soft CPI + first ETF inflows ($191M) after a brutal 10-day/$2.73B outflow streak; June worst ETF month on record. Base range ~$56-62k; bull trigger >$63.8k, breakdown <$56.2k. Real binary is Fed 7/28-29 (~70% hold priced), outside 48h. No hard crypto catalyst in next two days.",
+    "analyst": "Mid-flush: last bar closed near lows on the biggest-volume bar after breaking 64028, 15m/5m RSI low-20s, stoch 12.5. Chasing short = account's #1 loss pattern. Composite flat/chop (3.9% conf, regime_blocked), ADX 15.2 = no trend. No clean level to fade. Wait for a bounce to retest ~64028 and short a failure, or step aside on a 64500 reclaim.",
+    "portfolio": "HOLD BTC \u2014 oversold mid-flush, no-trend chop; arm short on a bounce-retest of 64028."
+  },
+  "timestamp": "2026-07-20T06:46:33.344748+00:00"
+}

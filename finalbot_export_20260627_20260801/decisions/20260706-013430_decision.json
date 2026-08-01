@@ -1,0 +1,23 @@
+{
+  "symbol": "MSFT/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.34,
+  "size": 0.0,
+  "entry": 390.02,
+  "stop_loss": 394.19,
+  "take_profit": 385.5,
+  "rationale": "The MSFT 15m 'breakout short' print is a corrupted thin-book flush (vol 12.6x, RSI 16.7, ADX 89.6, 5m bullish divergence) \u2014 not a tradable signal, and composite confidence is 0.7% with regime_blocked. Every meaningful timeframe (4h/1h/30m/15m) scores essentially flat (-0.0 to -0.055), so there is no trend, range-fade, or clean breakout to trade; ATR is tiny (~0.13% intraday) and fills are gappy. Structure leans mildly short (long/short 2.07 crowded long, orderbook -0.26, bias -0.39) but that is not enough edge to short into a spent flush at support 389.83 where a bounce is likely. No 48h catalyst (earnings Jul 28, outside window), so HOLD is the highest-expectancy call until price proves direction with real volume.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 389.83,
+    "expires_min": 240,
+    "note": "A decisive break-and-hold below support 389.83 on non-thin volume confirms the negative structure bias and flips to a short."
+  },
+  "transcript": {
+    "macro": "Regime NEUTRAL-to-cautious, risk-off tilt for tech. 'Great Rotation' out of big-tech into value. VIX ~15.8. Fed on hold; stagflation-leaning. Tech crowded LONG (MSFT L/S 2.07, near highest), orderbook -0.26, structure_bias -0.39, RS vs BTC -2.0%. DATA-QUALITY FLAG: MSFT breakout print 12.6x vol, RSI 16.7 \u2014 likely overnight thin-book flush, low-confidence. Clear runway ~48h. Net bias favors SHORT side of tech-momentum. Risk: thin-book/gappy fills.",
+    "sentiment": "MSFT: no 48h binary. Next earnings Jul 28-29 (outside window). Prior guide flagged heavy $190B FY capex + slight margin dip (old news). Sentiment mixed: AI/Azure capex narrative intact vs rate-sensitivity + broad tech de-risking; lower-beta than NVDA/TSLA. Net near-term NEUTRAL; expect MSFT to track QQQ/tape.",
+    "analyst": "MSFT 15m breakout print is corrupted thin-book flush (vol 12.6x, RSI 16.7, ADX 89.6, 5m bullish divergence); composite 0.7% regime_blocked. All meaningful TFs flat (-0.0 to -0.055), no trend/range/breakout to trade; ATR ~0.13%. Structure leans mildly short (L/S 2.07, orderbook -0.26, bias -0.39) but not enough to short a spent flush at support 389.83. HOLD until real volume proves direction.",
+    "portfolio": "MSFT \u2014 HOLD (conf 0.34): signal is a thin-book artifact, no real edge. Arm short only on break-and-hold below 389.83 on real volume."
+  },
+  "timestamp": "2026-07-06T01:34:30.514300+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "XAG/USDT:USDT",
+  "size": 0.0,
+  "entry": 60.79,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Price stretched to the downside (RSI 28.9, stoch 13.5, %B 0.05, -1.95% vs VWAP) and the last bar bounced off 60.54 on fading down-volume. Expect chop/coil in 60.5-61.2 over next few bars; reclaim of 61.20 kicks off the bounce toward 61.7-62.0, loss of 60.50 resumes the slide toward 59.8.",
+  "expectancy_note": "No clean edge: shorting chases deep oversold with the crowd (L/S 3.25) and supportive macro against it; a long needs confirmation it lacks. p(win) either immediate entry ~0.5 \u2014 HOLD is highest-expectancy.",
+  "rationale": "XAG is oversold and grinding down on drying volume into the 60.5 shelf, orderbook bid-heavy (+0.22), macro mildly supportive to silver \u2014 poor spot to add a short at the extreme, yet no reclaim to justify a long. Crowded-long L/S 3.25 is contrarian-bearish but also squeeze fuel; funding flat so shorts aren't paid to press. Wait for the market to pick a side. Size zero.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 61.2,
+    "expires_min": 240,
+    "note": "Reclaiming 61.20 (intraday shelf / VWAP) confirms the oversold bounce off 60.54 and flips to a long toward 61.7-62.0; a break of 60.50 instead opens a clean short."
+  },
+  "transcript": {
+    "macro": "RISK-OFF in equities but silver is the odd one out. XAG (60.8): ~$62, structural deficit vs firming-dollar chop; OI huge, L/S 3.25 crowded-long (contrarian short signal). RSI 28.9 oversold. Choppy, not a clean trend.",
+    "sentiment": "XAG neutral, slight bull risk to shorts: holding ~$62 after weak-NFP short-squeeze (June payrolls +57k vs +110k exp). DXY soft <101, Fed hike odds 25%. Macro mildly SUPPORTIVE \u2014 caution shorting into safe-haven/Hormuz bid. De-prioritize shorts.",
+    "analyst": "Oversold and grinding down on drying volume into 60.5 shelf; last bar bounced off 60.54. Shorting chases the extreme with crowd + supportive macro against it; long not yet confirmed. HOLD; reclaim 61.20 flips long, break 60.50 opens short.",
+    "portfolio": "XAG: HOLD (0.50) \u2014 coil; reclaim 61.20 = long, break 60.50 = short."
+  },
+  "timestamp": "2026-07-07T16:09:55.568931+00:00"
+}

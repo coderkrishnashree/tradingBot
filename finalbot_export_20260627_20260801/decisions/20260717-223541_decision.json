@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "HOOD/USDT:USDT",
+  "size": 0.0,
+  "entry": 99.95,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price coils just above the $100 round level (99.83-100.14) for the next 2-6 bars; base case is a mean-reversion squeeze back toward 101.5-103 (broken support / VWAP retrace) before any trend resumption - not a clean break of 96.68 into the weekend.",
+  "expectancy_note": "Short here (VWAP -10%, 4h RSI 5.8, bb%b 0.08) is a chase: nearest TP 96.68 is ~3.3% vs a ~2.7% honest stop, and a bounce is more probable than a break - negative expectancy. A retrace short at 102-103 offers real R:R; wait for it.",
+  "rationale": "HOOD is a tokenized equity with US cash CLOSED into a weekend (thin, gap risk) - size down / avoid. Every indicator is blow-off oversold (4h RSI 5.8, ADX 90, VWAP -10%, bb%b 0.08) and the last ~10 15m bars show selling stalled and coiling above $100 with the flush volume bought back - reversion/squeeze risk is high, so shorting now is the account's classic late-short-into-stretched-tape loss. No long either: trend is firmly down, this is only an oversold pause. Best expectancy is to wait for a lower-high retrace to short, or a confirmed break of 96.68.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 102.7,
+    "expires_min": 300,
+    "note": "A bounce to ~102.7 (broken support / VWAP retrace) sets up the lower-high short the setup wants; crossing it means the squeeze is underway and a with-trend short becomes valid."
+  },
+  "transcript": {
+    "macro": "RISK-OFF into a weekend; deepening semiconductor selloff, tech-led de-risking. Tokenized equity perps judged as stocks. US cash market CLOSED into a weekend gap -> thin liquidity, Monday-gap risk -> size down. HOOD has the highest risk-asset beta of the four (BTC 0.52) so a broad risk bounce hits it hardest. Short direction but EXHAUSTED/OVERSOLD: 4h RSI 5.8, ADX 90, bb_pctb 0.08, VWAP -10%, just broke 100, last 99.95, structure_bias -0.13 (L/S 1.45 crowded long). Earnings July 29 (outside 48h). Short only on a lower-high retrace, not at -10% below VWAP; smaller size.",
+    "sentiment": "HOOD bearish with high headline sensitivity. Down ~9% this week toward $100 support now testing; capitulation candle (4h RSI 5.8). Two-sided news: bullish structural (Robinhood Chain mainnet, $HOOD live tokenized on Solana 7/16, new DeFi/perps) vs bearish near-term (credit-expansion + fundraising scrutiny, memecoins-not-stocks doubts). High correlation to COIN/crypto - weekend crypto moves drag it. Lean bearish/neutral into earnings 7/29, very oversold - watch $100 pivot.",
+    "analyst": "Price fell 103.19 -> 99.35 then stabilized; last ~10 bars coil 99.83-100.14 above the $100 round number, well above 96.68 support, flush volume bought back = capitulation/stabilization not fresh breakdown. Direction is short but VWAP -10%, 4h RSI 5.8, bb%b 0.08 all scream DO NOT CHASE; a bounce is more likely than a clean break, so a short here is the account's #1 loss pattern. HOLD; short a lower-high retrace to ~102-103 or a confirmed break of 96.68.",
+    "portfolio": "HOLD HOOD (size 0) \u2014 valid short direction but far too extended to chase into a closed/gappy weekend; reconsider short on a bounce to ~102.7 or a break below 96.68."
+  },
+  "timestamp": "2026-07-17T22:35:41.244655+00:00"
+}

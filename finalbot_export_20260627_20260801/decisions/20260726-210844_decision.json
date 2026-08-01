@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "ORCL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Thin weekend grind-down has ORCL pinned ~116.1 just $3 above hard support 113.0 with 4h RSI 31.5 and 5m RSI 19 \u2014 expect either a mean-revert bounce toward VWAP/118 or a clean break of 113 over the next several bars; both give a cleaner entry than here.",
+  "expectancy_note": "p(win) on a market-short here ~0.42 (learner 0.407): honest stop above 117 vs realistic TP at 113 support is ~3:0.9 on paper, but oversold-into-support on drying weekend volume is the account's classic late-short bounce trap \u2014 negative expectancy until confirmed.",
+  "rationale": "ORCL is the weakest crowded-long name (L/S 2.56, rel-strength -21.4%) in a 4h downtrend, which favors shorts \u2014 but price is oversold (4h RSI 31.5, 5m RSI 19), sitting only 2.7% above hard support 113.0 on thin weekend tape, exactly where a counter-bounce would stop a fresh short. I want either a bounce to short from VWAP (~118) or a decisive close below 113 to confirm continuation before committing risk. No <=48h binary forces action, so waiting for the level is the higher-expectancy choice.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 113.0,
+    "expires_min": 240,
+    "note": "Losing the 113.0 support with a close confirms downtrend continuation and opens the next leg toward ~110 \u2014 that break is the short trigger, not this oversold grind into the level."
+  },
+  "transcript": {
+    "macro": "RISK-OFF/cautious tape 2026-07-26: ORCL L/S 2.56 (crowded long), RSI 31.5 (oversold intraday), 4h down-trend, rel strength -21.4% (one of weakest). Crowded-long book into risk-off. Weekend gap; equity perp thin/gappy off-hours. Verdict: CAUTIOUS/FLAT-to-lean-SHORT (ORCL named as short candidate), but oversold intraday = mean-revert watch.",
+    "sentiment": "Crypto EXTREME FEAR; risk-off in high-multiple AI names. ORCL no earnings this window. Stock ~29% off June peak on AI-capex/debt worries despite strong OCI bookings (OpenAI, Meta, xAI). Sentiment heavy/negative near-term. No <=48h binary.",
+    "analyst": "Weakest crowded-long name (L/S 2.56, RS -21.4%) in a 4h downtrend favors shorts, but price is oversold (4h RSI 31.5, 5m RSI 19) only 2.7% above hard support 113.0 on thin weekend tape \u2014 exactly where a counter-bounce stops a fresh short. Want a bounce to short from VWAP (~118) or a decisive close below 113 before committing.",
+    "portfolio": "ORCL: HOLD 0.50 \u2014 bearish lean but too oversold into support to short late; armed to short on close below 113.0."
+  },
+  "timestamp": "2026-07-26T21:08:44.163408+00:00"
+}

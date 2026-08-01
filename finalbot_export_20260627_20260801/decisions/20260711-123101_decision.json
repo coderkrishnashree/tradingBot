@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "SNDK/USDT:USDT",
+  "size": 0.0,
+  "entry": 1943.91,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Failed breakout at 1987.8; price coiling 1939-1946 after the rejection. Expect chop in this band next 2-4 bars, then resolution: either loss of 1937 flushing toward VWAP (~1780-1800) or a reclaim of 1987.8 for a squeeze leg. Neither offers tight-stop R:R here.",
+  "expectancy_note": "Both sides low-expectancy: long chases RSI 74.8 / +9.25% above VWAP into a failed-breakout rejection (account's #1 loss pattern); short fights ADX-61 uptrend with crowd already short (squeeze risk) \u2014 learner shows shorts 0.47 win, trend playbook 0.44/-2.89. No close structural stop. HOLD beats both.",
+  "rationale": "Candle 8 spiked to the 1987.8 resistance on 660 volume then reversed and closed 1957; every subsequent bar bled lower into a 1939-1946 coil \u2014 momentum is fading, not building. Price is 9.25% above VWAP with RSI 74.8 and stoch 82, deeply extended, so a market long is a chase and a short fights a 61-ADX trend into short crowding and squeeze fuel (structure_bias +0.12). US equities are also closed at scan time (thin/gappy). No entry here has honest R:R; wait for either the 1987.8 reclaim (squeeze-long) or the 1937 flush (pullback-long toward VWAP).",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 1937.0,
+    "expires_min": 240,
+    "note": "Losing 1937 breaks the post-spike coil floor and opens the flush toward VWAP, setting up a pullback-long with real R:R (or confirming momentum failure)."
+  },
+  "transcript": {
+    "macro": "Regime: broadly risk-on but semiconductor-driven and choppy; US cash equities CLOSED at 12:26 UTC scan (thin/gap-prone). Funding ~0. SNDK CLEANEST positioning: crowd SHORT (L/S 0.71) into an uptrend, structure_bias +0.12 \u2014 supports squeeze-up longs. Rel strength vs BTC -12.3% (sector lag). RSI HOT (74.8) = extended. EVENT RISK: ASML/TSMC earnings this week swing semis; SNDK-MU corr 0.81.",
+    "sentiment": "SNDK \u2014 bullish narrative, high volatility, catalyst pending. Massive +857% first-half run, but down ~24% in July with extreme swings (7-9% intraday drop July 7 on Samsung prelim earnings; +3% July 10). Positives: multi-year NAND supply deal with Meta, Wedbush raised PT ahead of expected beat. Key binary: fiscal Q4 earnings Aug 5 + Investor Day Aug 13 (outside ~48h window but approaching). High-beta NAND proxy, hostage to Samsung/SK Hynix pricing. Tone bullish long-term, choppy short-term.",
+    "analyst": "Price 1943.91. Candle 8 spiked to 1987.8 resistance on 660 volume then reversed (closed 1957); every bar since bled lower into a 1939-1946 coil = fading momentum, failed breakout. +9.25% above VWAP, RSI 74.8, stoch 82 = deeply extended. Long chases the rejection (account's #1 loss pattern); short fights ADX-61 uptrend into short-crowding/squeeze fuel. Closed cash market, no close structural stop. HOLD; reconsider below 1937 (coil-floor flush toward VWAP for a pullback-long).",
+    "portfolio": "HOLD SNDK/USDT:USDT \u2014 failed breakout, deeply extended over VWAP, both sides low-expectancy; armed pullback trigger below 1937."
+  },
+  "timestamp": "2026-07-11T12:31:01.332964+00:00"
+}

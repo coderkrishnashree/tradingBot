@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "AAPL/USDT:USDT",
+  "size": 0.0,
+  "entry": 335.25,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Twice-rejected at 339.17; 15m prints lower highs (338.19 to 336.45 to 334.06) rolling back toward VWAP ~325. Expect continued fade/chop 336 to 331 over next few bars, not a clean breakout \u2014 no low-risk entry here.",
+  "expectancy_note": "Long into RSI-95/ADX-97 at resistance = the account's #1 loss pattern (learned p_win 0.339); only ~4pts to the 339 wall kills R:R. Shorting a dominant uptrend is negative-EV too. HOLD is highest expectancy.",
+  "rationale": "Price is +3.2% above VWAP with 4h RSI 95.5 and has been rejected at 339.17 resistance twice, now fading on lower highs back toward VWAP \u2014 a chase-long here has ~1 ATR to the wall and a learned p_win of only 0.339, while shorting fights an ADX-97 uptrend backed by real bid support (orderbook +0.638) and +14.1% relative strength. Tokenized equity is thin/gappy off-hours, adding gap-through-stop risk. Size 0: wait for either a controlled pullback-and-hold above VWAP for a proper long re-entry, or a decisive close above 339.17 to confirm continuation.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 339.17,
+    "expires_min": 240,
+    "note": "A decisive break and hold above the twice-rejected 339.17 resistance proves the wall is cleared and reopens a continuation long with a measured-move target."
+  },
+  "transcript": {
+    "macro": "Tokenized Apple equity (btc_corr 0.177) \u2014 judge as AAPL stock. Regime risk-OFF this session, tech-led: Nasdaq -1.6% Thu 7/16 on a semiconductor valuation scare (MU/AMD/SanDisk/Broadcom down hard, Netflix -8% AH); breadth not broken (62% of S&P above 50-DMA). AAPL is the LONG-side outlier: RS +14.1% vs BTC, positively correlated to MSFT, negatively correlated to the falling semis \u2014 trading as the defensive megacap catching rotation OUT of chips. Positioning clean/uncrowded: funding 0.0, long_short_ratio 0.904 (slightly short-tilted), orderbook_imbalance +0.638 (real bid support), structure_bias +0.221 (only meaningfully positive equity bias in book). Catch: momentum exhausted \u2014 4h RSI 95.5, ADX 97.7, price at resistance 339.17 (last 335.25, +3.2% above VWAP), learned p_win only 0.339. No FOMC/CPI in next 48h (FOMC Jul 28-29, CPI Aug 12); AAPL earnings Jul 30 after close (outside horizon, don't carry a swing into it). Venue-liquidity risk: thin/gappy off US market hours. Verdict: MIXED, leaning constructive but small size; prefer pullback-and-hold above VWAP over chasing RSI-95 at resistance.",
+    "sentiment": "Tone strongly bullish/momentum-driven but the big binary (earnings Jul 30 after close, consensus ~$108.9B rev, EPS $1.88 +20% YoY, 4 straight beats) is 13 days out \u2014 no hard <=48h catalyst. Price at fresh ATH (+20% YTD, nearing ~$5T cap, best month in ~4 years). Recent catalysts: China CAC approved Apple Intelligence (priced in); Apple sued OpenAI Jul 10 (slow legal narrative); foldable iPhone Sept (multi-quarter). Analyst raises ~Jul 13: Citi $365, MS $360, HSBC Buy $366. Bear clauses: ~39-40x valuation stretched, memory-cost margin pressure, soft phone/PC end-markets. Net: bullish tone but main short-horizon risk is mean-reversion/profit-taking from extended record-high levels.",
+    "analyst": "Price rejected 339.17 resistance twice then faded on lower highs (338.19 -> 336.45 -> 334.06 -> now 335.25) rolling back toward VWAP \u2014 textbook late-stage continuation into a wall. 4h RSI 95.5 / ADX 97.7 is a mean-reversion setup, not a chase, and learned p_win 0.339 is a strong negative against longs. A long at 335 with resistance at 339 has only ~1 ATR of room to the wall \u2014 terrible R:R and the account's #1 loss pattern. But shorting an ADX-97 uptrend backed by +0.638 orderbook and +14.1% RS is negative-EV too, and off-hours gap risk on a tokenized equity cuts both ways. Highest-expectancy call is HOLD: wait for a pullback-and-hold above VWAP (~325) for a long re-entry, or a decisive close above 339.17 to confirm continuation.",
+    "portfolio": "AAPL/USDT:USDT \u2014 HOLD (size 0, conf 0.60): no low-risk entry into RSI-95 at twice-rejected resistance; reconsider on a decisive break above 339.17."
+  },
+  "timestamp": "2026-07-17T04:34:05.253875+00:00"
+}

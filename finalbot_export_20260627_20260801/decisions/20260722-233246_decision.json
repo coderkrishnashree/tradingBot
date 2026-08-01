@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "TSLA/USDT:USDT",
+  "size": 0.0,
+  "entry": 358.39,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price is basing 358-360 just above 354.05 support after a 5% earnings flush; next few bars likely chop 356-361 as the oversold squeeze fights the downtrend. A break under 354.05 reopens the next leg toward ~348; a reclaim of 363-365 confirms a dead-cat bounce toward VWAP ~367.",
+  "expectancy_note": "No edge either way: shorting is chasing RSI 5-19 into support (account p_win 0.41, loses), longing is a countertrend scalp into a fresh negative earnings shock with overnight gap risk. Best EV is to wait for the level to resolve.",
+  "rationale": "TSLA gapped 376->358 on a major earnings profit miss and sits deeply oversold (15m/1h RSI ~19, 30m RSI 5.8, %B -0.27, VWAP -2.54%) right on 354.05 support, with crowded longs (L/S 2.14) being squeezed. A market short here is exactly the account's #1 loss pattern (late short into stretched tape, stopped by the bounce) and a long is a knife-catch into an event still bleeding overnight. Thin after-hours perp plus gap risk into cash close means no honest 1.5R setup exists yet; wait for 354.05 to break or 363-365 to reclaim.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 354.05,
+    "expires_min": 240,
+    "note": "Losing the earnings-flush support at 354.05 confirms sellers still in control and reopens the short toward ~348, clear of the oversold-bounce risk."
+  },
+  "transcript": {
+    "macro": "Regime NEUTRAL, lean cautious (~60%). Flat index tape, VIX 16.6. Rising oil headwind. TSLA reported earnings TODAY after close \u2014 dominant catalyst; scan shows a gap down 376->358 (RSI 5-19 lower TFs). Any position into cash close is an overnight gap bet. Funding ~0; TSLA crowded-long L/S 2.14. Relative strength vs BTC -17% (worst of the group). Size down / event-driven only.",
+    "sentiment": "TSLA: LIVE EARNINGS July 22 after close: record revenue $28.2B (beat), 480K deliveries (big beat), but MAJOR profit miss \u2014 non-GAAP EPS $0.33 vs $0.53, operating profit -57% as regulatory credits collapsed. Stock fell ~4-5% during the call; no clear robotaxi metrics, balance-sheet pressure, Musk warning 'hiccups for four quarters.' SENTIMENT: bearish. KEY RISK: post-earnings gaps choppy \u2014 after a 5% drop into oversold, a bounce can squeeze shorts before the downtrend resumes.",
+    "analyst": "Gapped 376->358 on the profit miss; deeply oversold (30m RSI 5.8) right on 354.05 support with crowded longs squeezing. Short chases into support (account's losing pattern); long is a knife-catch into a bleeding event with overnight gap risk. No honest 1.5R setup. HOLD.",
+    "portfolio": "TSLA \u2014 HOLD (0.60): fresh earnings flush into oversold support; no clean side, wait for a 354.05 break or 363-365 reclaim."
+  },
+  "timestamp": "2026-07-22T23:32:46.969795+00:00"
+}

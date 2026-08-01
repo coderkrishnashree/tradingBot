@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "ORCL/USDT:USDT",
+  "size": 0.0,
+  "entry": 118.07,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.58,
+  "playbook": "none",
+  "forecast": "Weak dead-cat bounce stalling at 118.07 under the 118.4-118.5 rejection shelf on drying volume; expect chop 117.5-118.5, and only a decisive break of 117.5 opens the 117.0/116.0 air pocket. A short here mid-range gives sub-1.5R (stop must sit above 118.9).",
+  "expectancy_note": "p(win) ~0.5 at best for a mid-range short; tp1 117.5 (~0.55) vs stop 118.9 (~0.85) = <1R. HOLD beats forcing a sub-1.5R short into a risk-on relief tape; wait for 117.5 break for a tight-stop, high-R entry.",
+  "rationale": "The bear thesis is sound \u2014 ORCL is the most crowded long (L/S 2.17), weakest RS (-18.7% vs BTC), an AI-cloud name in an AI-hostile, FOMC-Wed tape. But price is mid-range (117.5-118.9), not extended for a fade, and the weak bounce to 118.07 is stalling; an honest short stop above the 118.9 swing high gives sub-1.5R to the 117.5 target, and today is a broad risk-on relief session. Wait for the 117.5 low to break before committing size.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 117.5,
+    "expires_min": 240,
+    "note": "Losing the 117.5 intraday low confirms the failed bounce and opens the 117.0/116.0 air pocket for a tight-stop short back above 118.1."
+  },
+  "transcript": {
+    "macro": "Regime MIXED now, HOSTILE into midweek. 7/27 risk-on relief tape atop AI-capex-revolt backdrop. Event wall: FOMC Wed 7/29 (hawkish), MSFT+META Wed AH, AAPL+AMZN Thu AH. ORCL last ~118.1, MOST crowded long (L/S 2.17), funding slightly positive, structure_bias -0.34, ADX 83, RS vs BTC -18.7% (weakest performer). No earnings until Sept. Lopsided-long weak-RS AI-cloud name in AI-hostile tape \u2192 contrarian squeeze-DOWN risk is the biggest hazard.",
+    "sentiment": "ORCL no imminent binary; tone weak/negative. Market cap bled ~$490B off Sept peak; funding/debt concerns around ~$90-95B AI-datacenter capex + OpenAI exposure; ~21,000 (13%) job-cut restructuring. Longer-horizon offsets only (govt contract, AI backlog, ~$247 median PT). Near-term no <=48h catalyst; will track tape/FOMC.",
+    "analyst": "Intraday fade from 118.87 to 117.56, weak dead-cat recovery to 118.26 now stalling at 118.07 under the 118.4-118.5 shelf on drying volume. ADX 83, 4h RSI 68.9 but 15m RSI 40.1 (momentum rolled). Bear thesis right (crowded long, weak RS, AI-hostile FOMC-Wed tape) but a mid-range short with a stop above 118.9 gives sub-1.5R to the 117.5 target, and shorting into a risk-on relief tape is the account's #1 loss pattern. HOLD; trigger is a break of 117.5 (opens 116/115 with a tight stop).",
+    "portfolio": "HOLD ORCL \u2014 bearish bias but no clean sub-1.5R short here; short the 117.5 break, not the mid-range."
+  },
+  "timestamp": "2026-07-27T13:06:06.084044+00:00"
+}

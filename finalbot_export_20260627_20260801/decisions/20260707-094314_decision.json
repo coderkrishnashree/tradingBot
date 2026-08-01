@@ -1,0 +1,23 @@
+{
+  "action": "hold",
+  "symbol": "QQQ/USDT:USDT",
+  "size": 0,
+  "entry": 715.99,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.4,
+  "rationale": "QQQ is a tokenized equity: weight technicals + macro, not crypto structure (funding 0, L/S 1.10, BTC corr 0.44). Clean aligned downtrend (all TFs short, ADX ~30, blended -0.35) and macro is a short tailwind (hawkish Warsh/Sept-hike risk, DXY>100, Gulf tanker shock, QQQ 0.82-corr to NVDA breaking down, likely gappy US open). But refuse to chase: 1h RSI 22, price ON the lower Bollinger band (%B -0.03), stoch 15, only ~1.4% (2.9 ATR) above support 705.83, no index catalyst inside 48h (CPI July 14). High-expectancy short is a decisive break of 705.83 or a fade of a bounce to ~722-724; neither present. Flat is best EV.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 705.83,
+    "expires_min": 240,
+    "note": "Losing support 705.83 confirms the gap-down breakdown and opens a high-expectancy trend-continuation short."
+  },
+  "transcript": {
+    "macro": "Regime MIXED-to-HOSTILE for fresh longs (scan 09:38 UTC pre-US-open). Hawkish Warsh Fed (possible Sept HIKE ~50-56%), DXY>100. Overnight Gulf tanker attack drove Asia risk-off (Kospi -3.57%, Nikkei -0.43%). US names print thin/stale vs Asia selloff; gappy open likely to reprice to semis weakness. Crowded-long derivatives favor shorts. QQQ tilt: NEUTRAL-to-HOSTILE for longs / supportive for short, 0.82 corr to NVDA, structure_bias -0.07, RSI 22 on 1h (stretched down).",
+    "sentiment": "AI trade dominant, 'sour but stabilizing' after chip selloff->rebound. No mega-cap earnings inside 48h; nearest hard catalyst June CPI July 14. QQQ neutral-bearish: broke below 50-DMA July 2, bounced +1.3% July 6. Technical/flow trade, not news trade.",
+    "analyst": "Aligned downtrend + short-supportive macro, but 1h RSI 22 at the lower band with only ~1.4% to support 705.83 is chasing the oversold low into possible squeeze-back-to-VWAP = negative EV. No 48h catalyst to force it. Wait for a break of 705.83 (breakdown) or fade a bounce to 722-724. HOLD flat.",
+    "portfolio": "HOLD QQQ, no position, conf 0.40 \u2014 short-biased but oversold; arm break of 705.83."
+  },
+  "timestamp": "2026-07-07T09:43:14.526853+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "INTC/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Choppy drift 103.5-105.0 into the US close, then a BINARY earnings gap tonight that can jump through any ATR stop in either direction; no reliable next-candle path exists pre-print.",
+  "expectancy_note": "No pre-print edge: a binary gap makes p(win)~coinflip with unbounded gap risk, so expectancy of any directional entry is negative vs flat; HOLD dominates.",
+  "rationale": "INTC reports Q2 after today's US close - a binary gap sits squarely inside the ~48h window, and the scan long is already extended (+3.28% above VWAP, RSI 67, crowded long L/S 1.84) with the worst relative strength in the basket (-21.88%), i.e. exactly the chase-into-stretched-tape pattern that produces full-stop losses. No technical edge compensates for gap risk that can leap past a 1x-1.5x ATR stop, so I carry zero directional size into the print. Post-print, a clean move that respects structure gives a far higher-expectancy, non-binary entry.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 106.5,
+    "expires_min": 240,
+    "note": "A post-print reclaim and hold above the recent 105-106 shelf would confirm a bullish gap with follow-through, turning the flat into a tradable trend-continuation long once binary risk has passed."
+  },
+  "transcript": {
+    "macro": "2026-07-23 regime MIXED-to-HOSTILE. Overnight session after megacap earnings. Fading tape. FOMC Jul 28-29. Oil up on Iran = risk-off. CRITICAL EVENT RISK: INTC reports Q2 earnings AFTER the US close TODAY (July 23) - a BINARY. Scan long sits directly in front of a binary gap. Do NOT carry size into the print. L/S 1.84 crowded long, funding mildly positive.",
+    "sentiment": "INTC HIGH / IMMINENT BINARY. Reports Q2 2026 TODAY July 23 after close (~2pm PT call). Consensus ~$14.4B rev / ~$0.06 EPS. Single biggest <=48h catalyst in the basket - expect a gap tonight/tomorrow. News argues AGAINST holding directional risk into the print without sizing for a binary; event risk elevated.",
+    "analyst": "INTC 104.86: base ~103.2-103.5 then 3-bar push to 104.86 on rising volume, +3.28% above VWAP (extended), RSI 67, ADX 60.4, %B 0.752. L/S 1.842 crowded long, funding +, RS -21.88 (WORST in basket). Dominant fact: Q2 earnings AFTER US close tonight = binary gap inside the window that can blow through any ATR stop either way. Scan long is chase-into-stretched-tape ahead of a binary. HOLD flat into the print, size 0.",
+    "portfolio": "INTC -> HOLD (conf 0.60): flat into tonight's binary earnings; re-engage only post-print above 106.5."
+  },
+  "timestamp": "2026-07-23T00:36:07.610361+00:00"
+}

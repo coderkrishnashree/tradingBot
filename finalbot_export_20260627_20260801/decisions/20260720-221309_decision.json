@@ -1,0 +1,22 @@
+{
+  "action": "short",
+  "symbol": "SOL/USDT:USDT",
+  "size": 2.5,
+  "entry": 77.95,
+  "stop_loss": 78.72,
+  "take_profit": 76.6,
+  "take_profit_1": 76.6,
+  "take_profit_2": 75.6,
+  "confidence": 0.56,
+  "playbook": "range",
+  "forecast": "Bounce retests the 77.9-78.0 broken shelf (below the failed 78.36 high), gets rejected, then rolls back toward 77.3 and 76.6 within 3-6 bars; loss of 77.3 opens 75.6.",
+  "expectancy_note": "p(win)~0.55, limit fill at 77.95 gives R:R ~1.75 to TP1 (reward 1.35 vs risk 0.77); fade-the-crowd beats chasing a market short into non-extended 77.7 where a routine bounce stops me.",
+  "rationale": "SOL is crowded-long (L/S 2.60) and 4h-overbought (RSI 78, %B 0.96) while underperforming BTC -7.1% into a risk-off, high-dominance tape where alts bleed - the SCAN short. Recent 15m bars printed a lower high under 78.0 after failing 78.36, with volume drying on the bounce, so I fade the retest rather than chase 77.71 down. Countering it is a genuine ADX-62 uptrend and firm $74-75 support plus BTC-bounce risk, so I size small (2.5%), keep the stop tight above the 78.36 swing, and take profit at the 76.6/75.6 shelves rather than reaching for the support target.",
+  "transcript": {
+    "macro": "RISK-OFF regime (scan 2026-07-20 ~22:08 UTC). Nasdaq -1.4% today (-2.9% wk) on AI/semiconductor selloff (post-NVDA hangover, Samsung chip results) + Iran geopolitical risk; tech/comms/discretionary sold -> supports equity-tracker shorts. Crypto soft but orderly (no cascade): BTC ~$64-65k flat, dominance 57% (capital hiding in BTC, alts bleeding), Fear&Greed 29. DXY soft 100.7, 10Y 4.60%, soft June CPI, no Fed/CPI print in 48h. CRITICAL EXECUTION HAZARD: US cash equities CLOSED at scan time -> MSFT/QQQ/TSM/ORCL/HOOD perps thin/gappy until 13:30 UTC Tue US open; size down, real move at the open. MSFT & HOOD earnings Wed Jul 29 (outside 48h). Crypto (BTC/SOL) trades 24/7 with normal liquidity.",
+    "sentiment": "No high-weight dated binary in next 48h for any name (Jul 29 cluster: MSFT, HOOD is the next wall). MSFT neutral, -20% YTD on AI capex worries. SOL mildly bullish structurally (5 spot SOL ETFs live ~$1.12B inflows, fee cuts, Alpenglow Q3) but 0.81 corr to BTC so rides crypto risk-off; $74-75 support. BTC bearish near-term, below EMA200 (~$74.4k), MSTR sold record $216M BTC, oil>$80/Iran + hawkish Fed. QQQ neutral-to-bearish, mega-cap earnings wave looms. TSM strong Q2 beat Jul 16 (rev +36% y/y, guide raised) now digesting. ORCL bearish shock (-28%/mo, S&P downgrade on OpenAI concentration, ~21k layoffs, 52wk low ~$132) BUT RSI 25 oversold + Burry covered half his short (bounce risk). HOOD ran +37% (Agentic Trading, IPO underwriting) then pulled back ~$113->$99, profit-taking; high crypto beta amplifies risk-off.",
+    "analyst": "Crowded-long (L/S 2.60) + 4h-overbought (RSI 78) + underperforming BTC -7.1% into risk-off high-dominance tape = the scan short. Lower-high under 78.0 after failing 78.36, volume drying. Fade the retest at 77.95 (not chase), tight stop above swing, small 2.5% size given the ADX-62 uptrend and $74-75 support/BTC-bounce risk.",
+    "portfolio": "SHORT SOL 2.5% limit 77.95, stop 78.72, TP 76.6/75.6 - fade the crowded-long overbought retest."
+  },
+  "timestamp": "2026-07-20T22:13:09.213721+00:00"
+}

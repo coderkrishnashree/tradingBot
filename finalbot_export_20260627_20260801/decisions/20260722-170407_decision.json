@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "INTC/USDT:USDT",
+  "size": 0.0,
+  "entry": 104.87,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.66,
+  "playbook": "none",
+  "forecast": "Intraday exhaustion off the 106.9 spike high fades back toward VWAP ~101 over the next several bars, but the dominant event is tomorrow's after-close earnings with ~15% implied move \u2014 no swing edge until that binary resolves.",
+  "expectancy_note": "No positive-expectancy swing exists: a fresh long/short today is a coin-flip on a ~15% binary tomorrow; even the intraday VWAP-fade short is low-R with bounce risk given crowded-long 1.78 and worst rel-strength -20.9%.",
+  "rationale": "INTC prints Q2 earnings tomorrow (Thu Jul 23) after close with ~15% implied move \u2014 any directional swing held into that is a gamble, not a trade, and this is a thin/gappy tokenized equity in a RISK-OFF tape. Price is extended +3.79% above VWAP with the 5m already rolling (RSI 31.8, score -0.769) off the 106.9 spike, so there is no clean continuation entry and the fade lacks R:R to justify carrying event risk. Standing aside is highest-expectancy; size 0 until the binary resolves or price gives a structural break.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 101.0,
+    "expires_min": 240,
+    "note": "Losing VWAP/101 support breaks the intraday uptrend and opens a clean momentum short toward 96-97 that would justify an intraday entry ahead of the print."
+  },
+  "transcript": {
+    "macro": "RISK-OFF/hawkish; DXY 13-mo high. Semi tape fragile (Intel dropped ~21% early July). GOOGL/TSLA tonight = overnight Nasdaq vol. INTC crowded long (L/S 1.78), WORST rel strength of group (-20.9%), low BTC corr. Tokenized equities thin/gappy off-hours. Smaller size.",
+    "sentiment": "INTC = HIGH EVENT RISK / BINARY. Q2 earnings Thu Jul 23 AFTER CLOSE, options imply ~15% move. +163% YTD on 18A/foundry momentum but corrected ~17% into the print. Any position held into Thu close is an earnings gamble. Neutral direction but MAXIMUM near-term event risk.",
+    "analyst": "Extended and rolling off the 106.9 spike, ~15% implied binary tomorrow. Refuse to carry a swing into the print; fade lacks R:R. HOLD.",
+    "portfolio": "INTC -> HOLD (conf 0.66): ~15% earnings binary tomorrow \u2014 stand aside until it resolves."
+  },
+  "timestamp": "2026-07-22T17:04:07.338486+00:00"
+}

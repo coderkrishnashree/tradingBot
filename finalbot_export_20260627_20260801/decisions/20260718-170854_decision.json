@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "GOOGL/USDT:USDT",
+  "size": 0.0,
+  "entry": 347.35,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Thin weekend tape drifts/coils 345-349 near the 341.86 support shelf; a genuine oversold-bounce leg only starts once price reclaims ~350 and heads back toward VWAP (~368), otherwise a flush retests 341.86 first.",
+  "expectancy_note": "p(win) on a market-long here ~0.5; bounce hasn't triggered, stop must sit below 341.86 (~1.6%) for a ~1.4% TP = R:R <1.0. Waiting for the 350 reclaim (or 341.86 exhaustion) is higher expectancy than chasing a flat drift.",
+  "rationale": "4h is capitulation-oversold (RSI 11.8, ADX 95, -5.83% vs VWAP) which sets up a bounce, but the 15m sequence is only a low-energy sideways coil at the lows with thin weekend volume and no reversal impulse - not a valid trend, breakout, or confirmed reversion trigger yet. Wednesday 7/22 after-close earnings is a binary gap inside the horizon, so no size can be carried and any long must be an intraday scalp only. Best expectancy is to wait: a reclaim of 350 confirms the bounce has legs toward VWAP, so I stay flat until then.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 350.0,
+    "expires_min": 240,
+    "note": "Reclaiming 350 proves the oversold bounce has momentum (not just a flat drift), opening an intraday long toward the -5.83% VWAP gap; below it the tape is dead weekend chop with earnings gap risk looming."
+  },
+  "transcript": {
+    "macro": "2026-07-18 (Sat, US cash CLOSED until Mon 7/20). Broad tape RISK-OFF led by a semiconductor rout. SPX -1.02% Fri, Nasdaq -1.40%, weekly Nasdaq -2.9%. Rates supportive (soft CPI, hike odds ~17%) but overwhelmed by AI/semi de-risk + US-Iran geopolitics. Weekend thin/gappy tape - reduce size. GOOGL: MIXED, EVENT RISK - do NOT carry size into earnings; capex guide is the market's AI-spend litmus test. RS -6.76%, 4h oversold (RSI 11.8, ADX 95). Fine for an intraday oversold scalp, not a hold-through-earnings position.",
+    "sentiment": "GOOGL: BULLISH-to-neutral tone, HIGH near-term event risk. Q2 earnings CONFIRMED WEDNESDAY JULY 22 after close (~$2.87 EPS, +24% YoY, cloud/AI focus) - inside the desk's 2-day horizon by early next week. Extreme oversold/exhausted selloff into the print (4h RSI 11.8, ADX 95.7). Anything held past Tuesday close is an earnings gamble - keep intraday or size for gap risk.",
+    "analyst": "4h capitulation-oversold (RSI 11.8, ADX 95, -5.83% vs VWAP) sets up a bounce, but the 15m tape is a low-energy sideways coil at the lows on thin weekend volume - no reversal impulse. Earnings Wed 7/22 after close is a binary gap inside the horizon; no size can be carried. Market long here gives R:R <1.0 (stop below 341.86 for a modest TP). HOLD; a reclaim of 350 confirms the bounce has legs toward VWAP ~368, otherwise a flush retests support 341.86.",
+    "portfolio": "GOOGL: HOLD (conf 0.60) - oversold but untriggered coil into a 7/22 earnings binary; arm intraday long on reclaim of 350."
+  },
+  "timestamp": "2026-07-18T17:08:54.107149+00:00"
+}

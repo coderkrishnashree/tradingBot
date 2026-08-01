@@ -1,0 +1,25 @@
+{
+  "action": "hold",
+  "symbol": "CL/USDT:USDT",
+  "size": 0.0,
+  "entry": 69.31,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.58,
+  "playbook": "range",
+  "expectancy_note": "p(win) fair only AT the level; shorting mid-range (2.4 below resistance) risks getting run into 71.71 first \u2014 no edge here, best fade is a tag of resistance with stop above it for ~2.5:1.",
+  "rationale": "CL is mid-range (69.31 between support 67.17 and resistance 71.71) with weak ADX 23.6 \u2014 chop, not a clean trend. The bearish supply backdrop (OPEC+ +188k, Saudi cut, 4-month lows) plus extreme crowded longs (L/S 4.6, structure_bias -1.0) argue strongly against chasing the 1h bounce long, but shorting here mid-air 2.4 below resistance is not the high-expectancy fade \u2014 the edge is fading a tag of 71.71 with a tight stop above it. I hold and arm the short trigger rather than donate a stop inside the noise band.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 71.4,
+    "expires_min": 600,
+    "note": "A push to 71.4 into the 71.71 resistance in this bearish/crowded-long tape is the high-expectancy short-fade entry (stop above 71.71, target back to 67-68)."
+  },
+  "transcript": {
+    "macro": "CL is a distinct driver with near-zero/negative correlation to the equity names (BTC corr -0.108) \u2014 a portfolio diversifier. Fundamentals bearish: ~4-month lows, OPEC+ adding 188k bpd, Saudi cut Arab Light to Asia by $11, Strait of Hormuz traffic recovering, 2026 demand revised -1.1M bpd. The scan shows a short-term long bounce (1h RSI 72.6, bb_pctb 0.83) BUT extreme crowded-long positioning (L/S 4.60, structure bias pinned -1.0) \u2014 classic contrarian topping fuel into a bearish supply backdrop. Env: neutral-to-short bias; fade the long bounce, do NOT chase the long.",
+    "sentiment": "CL (WTI): bearish/heavy tone \u2014 crude ~$69 near 4-month lows, pressured by OPEC+ approving another +188k bbl/d hike, Saudi Aramco cutting Arab Light to Asia by $11/bbl, and Strait of Hormuz shipping recovering (de-risking the war premium). Offset: OECD inventories drawing to ~50 days' cover (tightest since 2003). No scheduled 48h binary beyond weekly EIA inventories (Wed) and any Hormuz/OPEC+ headline. The scan shows a very crowded long (L/S 4.6) \u2014 stretched long into a bearish supply backdrop. News argues against the long; a Hormuz re-escalation is the only near-term bull catalyst (tail risk).",
+    "analyst": "CL is mid-range (69.31 between support 67.17 and resistance 71.71) with weak ADX 23.6 \u2014 chop, not a clean trend. The bearish supply backdrop plus extreme crowded longs (L/S 4.6, structure_bias -1.0) argue strongly against chasing the 1h bounce long, but shorting here mid-air 2.4 below resistance is not the high-expectancy fade \u2014 the edge is fading a tag of 71.71 with a tight stop above. HOLD, size 0; arm the short-fade trigger on a push to ~71.4 into resistance (stop above 71.71, target 67-68).",
+    "portfolio": "CL \u2014 HOLD (0.58): don't chase the crowded-long bounce; arm short-fade near 71.4 resistance in a bearish supply tape."
+  },
+  "timestamp": "2026-07-07T10:15:24.289024+00:00"
+}

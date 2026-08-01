@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "SNDK/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.58,
+  "playbook": "none",
+  "forecast": "Chop between 1490-1530 for a few bars; either a bounce into the broken 1529-1540 supply shelf (fadeable short) or a break below 1490 confirming the blow-off top is in and opening 1470/1450.",
+  "expectancy_note": "Directional bias is short (parabolic blow-off, distribution candles, RS -37, VWAP +5.2%), but entering mid-range at 1504 with 2.97% ATR gives sub-1.5 R:R and high whipsaw risk; wait for the retest or breakdown.",
+  "rationale": "SNDK spiked to 1545 on heavy volume then printed two upper-wick distribution bars back to 1504 and is failing to reclaim with lower highs \u2014 a classic parabolic blow-off (RSI 76 / ADX 76 / VWAP +5.2%), and it is a deep RS laggard (-37 vs BTC). But at 1504 price sits mid-range between the 1490 lows and 1545 spike high with 2.97% ATR, so any immediate entry risks a noise stop. Wait for a bounce into 1529 supply to fade or a clean loss of 1490.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 1490.0,
+    "expires_min": 240,
+    "note": "Losing 1490 (below the pre-spike base) confirms the blow-off failed and opens a clean short toward 1470/1450."
+  },
+  "transcript": {
+    "macro": "Mixed / event-loaded (2026-07-21). Equity risk-on intraday, semis bid; BTC ~$66.6k firm but broader tape soft (F&G 29 fear, BTC dominance ~56%, grind-not-rip). Tokenized equities liquid only during US cash hours (~13:30-20:00 UTC); thin/gappy off-hours. Heavy earnings week: TSLA & GOOGL Wed 7/22 after-close, INTC Thu 7/23 after-close; FOMC 7/28-29 (hold expected, ~20% hike odds). Longs are the crowded consensus side across the book \u2014 favor pullbacks over chasing; most names RSI-extended. Cleanest longs on crowding/RS: MSTR, META, QQQ, BTC. High-hazard (parabolic/crowded/earnings): TSLA, COIN, INTC, SNDK, XAUT.",
+    "sentiment": "Mixed-to-cautious. Crypto in Extreme Fear (F&G ~25-29) \u2014 rallies faded; BTC +~2% on ETF inflows + easing CLARITY Act. Equities grind into heavy earnings week on thin breadth (Nasdaq -2.9% last week, chips ~-10%). Imminent binaries inside horizon: TSLA Wed AC (~7.6% implied), INTC Thu AC (~15% implied). MSTR halted BTC buys / dilution optics (earnings 7/30). META/COIN earnings next week (7/29-30). XAUT: hawkish-Fed macro headwind, gold near 9-mo lows. SNDK/EWY/QQQ have no own <=48h catalyst (sector/semi beta, INTC-Thu risk secondhand). COIN chained to BTC/crypto sentiment.",
+    "analyst": "SNDK spiked to 1545 on heavy volume then printed two upper-wick distribution bars back to 1504 and is failing to reclaim with lower highs \u2014 a classic parabolic blow-off (RSI 76 / ADX 76 / VWAP +5.2%), and it is a deep RS laggard (-37 vs BTC). But at 1504 price sits mid-range between the 1490 lows and 1545 spike high with 2.97% ATR, so any immediate entry risks a noise stop. Wait for a bounce into 1529 supply to fade or a clean loss of 1490. | Forecast: Chop between 1490-1530 for a few bars; either a bounce into the broken 1529-1540 supply shelf (fadeable short) or a break below 1490 confirming the blow-off top is in and opening 1470/1450. | Expectancy: Directional bias is short (parabolic blow-off, distribution candles, RS -37, VWAP +5.2%), but entering mid-range at 1504 with 2.97% ATR gives sub-1.5 R:R and high whipsaw risk; wait for the retest or breakdown.",
+    "portfolio": "HOLD (0.58) \u2014 parabolic blow-off with distribution, but mid-range at 1504; short bias only on a 1490 break or 1529 retest."
+  },
+  "timestamp": "2026-07-21T14:31:12.127839+00:00"
+}

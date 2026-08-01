@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "ORCL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price just crashed 146->141 with 15m RSI at 8.3 (washout); next few candles most likely a dead-cat bounce back toward the broken 141.5 shelf / VWAP ~143.5 before sellers can re-test 137.6. Shorting 141.15 into that RSI extreme buys the bounce.",
+  "expectancy_note": "Short-now p(win) ~0.4 (bounce stops it first, matching account's 50%/-1.67R short record); waiting to short the 143 retest lifts p(win) to ~0.6 with cleaner R:R. HOLD beats chasing a chop-regime (ADX 5.3) falling knife.",
+  "rationale": "Fresh 15m downside breakout with crowded L/S 2.373 fuel and worst RS on the board argues for lower prices, but 15m RSI 8.3 / 5m 22.3 is maximally stretched down into a dead ADX (5.3) chop regime \u2014 a market short here is the account's textbook late-short-into-washout loser (18 shorts, 50%, avg -1.67R). No 48h catalyst; earnings stale. Best expectancy is to wait for the snap-back to the broken 141.5 shelf / VWAP ~143.5 and short the retest with structure, or stand aside \u2014 so size is zero now.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 143.5,
+    "expires_min": 240,
+    "note": "A bounce into 143.5 retests the broken breakdown level/VWAP from below \u2014 that is the honest short entry the washed-out RSI is setting up; re-debate for a short there. A decisive reclaim/hold above 143.5 instead would negate the fresh breakdown."
+  },
+  "transcript": {
+    "macro": "Regime cautious risk-neutral: US equities flat/mixed, 10y ~4.6% sticky; SK Hynix $26.5B Nasdaq debut pressuring chips, oil ~$72 on Hormuz/Iran = mild risk-off. Cross-cutting: L/S lopsided-long across the board -> crowded-long unwinds are the dominant risk. ORCL (last 141.15): fresh 15m downside breakout (level 141.52, vol 2.0x, BBW 2.3x) \u2014 broke down hard from ~146. Composite flat/chop but 1h/5m tilt short, RSI 22-30 stretched DOWN. structure_bias -0.275, L/S 2.373 very crowded long into breakdown = fuel for more downside. Worst RS on the board (-24% vs BTC), pure equity name. Momentum favors shorts but already extended/oversold \u2014 snap-back risk. Smaller size, don't chase first candle.",
+    "sentiment": "ORCL: Q4 FY26 already reported 6/10 (beat EPS $2.03 vs $1.96, rev $19.18B; raised FY27 guide) \u2014 STALE, priced in. Overhang: heavy capex/financing (~$40B FY27 incl $20B ATM equity raise) = dilution/margin concern, slow-burn not a 48h mover. Buy consensus PT ~$272. Net near-term: neutral; no scheduled catalyst in 48h; equity-beta driven.",
+    "analyst": "ORCL 141.15 just broke down 146->141 over 4 candles (breakdown candle 899k vol, 2x). ADX composite 5.3 (chop), but 15m RSI 8.3 (extreme oversold), 5m 22.3, 30m 27.9, 1h 29.7; VWAP dist -1.67%; support 137.63, resistance 149.29; L/S 2.373 very crowded long. Move is fresh and momentum favors shorts, but 15m RSI 8.3 is a washout \u2014 'do NOT chase the first candle.' A market short at 141.15 is the account's #1 loss pattern (18 shorts, 50% win, avg -1.67R) and rules bar market-entry into an extended move. Cleaner play: LIMIT short on a bounce to the broken 141.5 shelf / VWAP ~143.5, else stand aside. HOLD, size 0, arm reconsider at 143.5.",
+    "portfolio": "ORCL: HOLD (conf 0.60) \u2014 fresh breakdown but RSI-8 washout into chop; wait to short the 143.5 retest rather than chase."
+  },
+  "timestamp": "2026-07-10T14:30:56.757604+00:00"
+}

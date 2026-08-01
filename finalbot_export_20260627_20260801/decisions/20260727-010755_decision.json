@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "MSFT/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.4,
+  "playbook": "none",
+  "forecast": "Price stays pinned to VWAP in a 383.8-385.7 coil on thin overnight volume; likely chops until US cash open, with 15m/5m momentum leaning slightly down toward 383.8 before the higher-TF uptrend can reassert.",
+  "expectancy_note": "No edge: BB width 1.61% squeezed at VWAP, higher TFs long but 15m/5m short and structure_bias -0.71 (crowded long) - R:R on either side <1.5; HOLD is highest expectancy.",
+  "rationale": "MSFT is a tokenized equity glued to VWAP (dist +0.06%) in a tight 384-385 coil on near-zero overnight volume with US cash closed. Higher TFs lean long but 15m/5m fading, structure_bias -0.71 shows a crowded-long book - no clean entry. Earnings Wed Jul 29 after close is a binary I cannot hold through; with no trigger, wait for the coil to resolve.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 385.7,
+    "expires_min": 240,
+    "note": "Reclaiming the rejected 385.7 high turns 15m momentum back up with the 1h/4h uptrend, opening a long toward 388/390 ahead of the earnings deadline."
+  },
+  "transcript": {
+    "macro": "MACRO (2026-07-27, shared): Cautiously RISK-ON but into a wall of event risk. Sunday futures rallied (NDX +1.2%) on US-Iran de-escalation + oil pullback, but FOMC Wed Jul 29 is a live HIKE tail (~34% CME) with CPI at a 3-yr high on energy. Busiest megacap earnings night: MSFT+META Wed after close, AAPL+AMZN Thu after close. BTC.D ~56%, crypto firm but range-bound (BTC reclaimed $65k). Treat longs into Wed as smaller-size; anything held through FOMC or a name's own print is gap coin-flip. Tokenized equities (MSFT/AAPL/NVDA/TSLA/TSM/QQQ/INTC/EWY/MSTR/CRCL) are thin/gappy when US cash is closed; Nasdaq tape + rates/DXY drive them, not crypto funding. Biggest cross-book risk: a hawkish FOMC or megacap miss re-prices equities, semis, gold and crypto together.",
+    "sentiment": "SENTIMENT (2026-07-27, shared): Busiest macro+earnings week of the quarter. FOMC Wed Jul 29 2pm ET (hold ~85% priced; hawkish risk on $100 oil). MSFT+META earnings Wed AC; AAPL+AMZN Thu AC; COIN Thu. CL: positive/volatile, US-Iran risk premium, two-way headline-driven. XAG: positive, 7.5% 4-day rally, softer USD + AI/industrial demand + supply deficit; FOMC swing risk. MSFT: neutral-positive into Wed binary earnings. BTC: neutral-cautious ~$64K, F&G 27 (Fear), ETF outflows. AAPL: neutral into Thu binary (Cook's final call). TSLA: negative, Q2 miss (EPS $0.33 vs $0.53, op income -57%), -11% MTD. NVDA: neutral-positive, no own catalyst <48h, AI-capex read-through. SOL: positive, MSOL ETF approval Jul 24, inflows, $80 breakout level. TSM: neutral post-earnings (record rev but -4% on print). XAUT: neutral-positive ~$4,050-4,200, FOMC swing. MSTR: neutral-cautious, halted BTC buying, high BTC beta. QQQ: neutral-cautious into events, expect gaps. INTC: negative/volatile, Q2 foundry -$2.1B op loss, -28% MTD. EWY: positive/volatile, KOSPI +15% off lows, heavy SK Hynix weight. CRCL: positive, OCC trust-bank charter Jul 8, USDC +19%; Visa/Mizuho offsets, COIN Thu read-through.",
+    "analyst": "MSFT is a tokenized equity glued to VWAP (dist +0.06%) in a tight 384-385 coil on near-zero overnight volume with US cash closed. Higher TFs lean long but 15m/5m fading, structure_bias -0.71 shows a crowded-long book - no clean entry. Earnings Wed Jul 29 after close is a binary I cannot hold through; with no trigger, wait for the coil to resolve. | Forecast: Price stays pinned to VWAP in a 383.8-385.7 coil on thin overnight volume; likely chops until US cash open, with 15m/5m momentum leaning slightly down toward 383.8 before the higher-TF uptrend can reassert. | Expectancy: No edge: BB width 1.61% squeezed at VWAP, higher TFs long but 15m/5m short and structure_bias -0.71 (crowded long) - R:R on either side <1.5; HOLD is highest expectancy. | Reconsider: {\"condition\": \"price_above\", \"level\": 385.7, \"expires_min\": 240, \"note\": \"Reclaiming the rejected 385.7 high turns 15m momentum back up with the 1h/4h uptrend, opening a long toward 388/390 ahead of the earnings deadline.\"}",
+    "portfolio": "HOLD - VWAP coil, no edge; earnings Wed"
+  },
+  "timestamp": "2026-07-27T01:07:55.858185+00:00"
+}

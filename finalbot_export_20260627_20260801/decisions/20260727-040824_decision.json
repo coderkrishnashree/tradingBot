@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "COIN/USDT:USDT",
+  "size": 0.0,
+  "entry": 161.64,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Choppy grind 160.6-163.2 near-term; drying volume and a weak bounce off 160.6 suggest range-bound coil. A clean reclaim of 163.2 opens the 1h uptrend toward 166+; loss of 160.6 flips the 15m into a downside leg toward 157/154.",
+  "expectancy_note": "No edge either way: long chases crowded positioning (+VWAP 1.45%, RSI72, funding+, negative premium) into 7/30 earnings with only ~1R to prior high; short fights a rising 1h/4h and a flagged bullish divergence.",
+  "rationale": "COIN is HTF-up but the 15m just rejected 163 and is coiling on drying volume above 160.6 support, with crowded-long structure (bias -0.63, orderbook -0.23, negative Coinbase premium) capping fresh longs and the 1h/4h uptrend blocking clean shorts. No entry offers R:R>=1.5 to a realistic first target, and the account's shorts have been net losers (0.46 WR). Earnings 7/30 AMC is still 3 days out, not an imminent 48h binary.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 160.6,
+    "expires_min": 240,
+    "note": "Losing the 160.6 pivot arms a short toward 157/154 with the crowded-long structure as fuel."
+  },
+  "transcript": {
+    "macro": "Regime: risk-on but into event wall, lean defensive. S&P near highs, Nasdaq -0.64% AI/chip selloff, 10Y ~4.69%. HARD CATALYSTS in 48-72h: FOMC Wed 7/29 2pm ET + mega-cap earnings MSFT+META Wed, AAPL+AMZN Thu. SUNDAY: US cash equity closed -> all stock proxies gap Monday, thin weekend liquidity, size down. BTC ~65.3k consolidating, only clean 24/7 book. Oil in bearish selloff (US-Iran de-escalation + surplus). Reduce size across board; crowded-long positioning pervasive (CRCL 3.52, SOL 2.76, XAUT 2.56, EWY, INTC, HOOD).\n\nMacro stance COIN: stay out/small, crowded long",
+    "sentiment": "Dominant fact: binary catalyst wall Wed 7/29 (FOMC + MSFT/HOOD earnings AMC) & Thu 7/30 (AAPL/COIN/MSTR earnings AMC). FOMC hawkish-hike surprise risk. Crypto soft: BTC ~65k, Fear&Greed 28, stablecoin outflows. EWY: live US 12.5% tariff + KOSPI/chip selloff (bearish). INTC: 7/23 blowout beat (bullish, established). CRCL: no 48h catalyst (earnings 8/5), bearish narrative. SOL: SOL ETF inflows constructive but Fed-tethered. CL: WTI ~$85 two-sided geopolitics vs OPEC+ supply.\n\nSentiment stance COIN: NEUTRAL/BEARISH, earnings Thu 7/30 AMC, negative Coinbase premium",
+    "analyst": "COIN is HTF-up but the 15m just rejected 163 and is coiling on drying volume above 160.6 support, with crowded-long structure (bias -0.63, orderbook -0.23, negative Coinbase premium) capping fresh longs and the 1h/4h uptrend blocking clean shorts. No entry offers R:R>=1.5 to a realistic first target, and the account's shorts have been net losers (0.46 WR). Earnings 7/30 AMC is still 3 days out, not an imminent 48h binary.\n\nForecast: Choppy grind 160.6-163.2 near-term; drying volume and a weak bounce off 160.6 suggest range-bound coil. A clean reclaim of 163.2 opens the 1h uptrend toward 166+; loss of 160.6 flips the 15m into a downside leg toward 157/154.\n\nExpectancy: No edge either way: long chases crowded positioning (+VWAP 1.45%, RSI72, funding+, negative premium) into 7/30 earnings with only ~1R to prior high; short fights a rising 1h/4h and a flagged bullish divergence.",
+    "portfolio": "HOLD COIN/USDT:USDT - no positive-expectancy entry (size 0), conf 0.5. Reconsider: Losing the 160.6 pivot arms a short toward 157/154 with the crowded-long structure as fuel."
+  },
+  "timestamp": "2026-07-27T04:08:24.990566+00:00"
+}

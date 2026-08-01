@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "MSFT/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.4,
+  "playbook": "none",
+  "forecast": "Price just broke 392.71 on 2x volume but is deeply oversold (15m/30m/1h RSI 22/22/29, %B below band, stoch 8) into a thin Sunday book; base case is a mean-reversion bounce back toward 392.7-393.5 over the next 2-4 bars, not clean continuation. Only a decisive loss of the 391.6 low with follow-through opens the next leg to 388/378.",
+  "expectancy_note": "Fresh short here p(win) ~0.4: stop above 393.8 = ~1.6pt risk vs a bounce that likely triggers it first; chasing a stretched breakdown is this account's #1 loss pattern. HOLD beats a poor-entry short.",
+  "rationale": "MSFT is chop/regime_blocked (composite conf 4.9, ADX 13.7) with LTFs pinned deeply oversold below the lower Bollinger band - a market short at 392.18 buys the exact spot a counter-bounce is most likely, and the thin Sunday tape amplifies whipsaw. The Monday chip-selloff gap risk is a real bearish tilt, but I want the breakdown to prove itself below the 391.6 low rather than chase into stretched, thin conditions. No long either: nothing here reclaims VWAP. Wait for either a clean lower-low confirmation or a bounce to 392.7 to short with proper R:R.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 391.4,
+    "expires_min": 240,
+    "note": "Losing today's 391.6 swing low with follow-through confirms the breakdown leg toward 388/378 and justifies a short with the trend; until then price is oversold and prone to bounce."
+  },
+  "transcript": {
+    "macro": "RISK-OFF/MIXED. SOX bear market, Nasdaq selloff epicenter. US cash CLOSED (Sunday), Monday gap risk. MSFT scan composite very weak (conf ~4.9, regime chop/blocked, timeframe signals slightly negative, action flat), L/S 1.65 crowded-long. A 15m breakout flag fired short (level 392.71, 2x volume).",
+    "sentiment": "MSFT neutral this cycle, binary just outside window. Q4 FY2026 earnings Wed July 29 after close (outside 48h). Benefits from risk-on mega-cap rotation but no company-specific <=48h catalyst. Neutral; watch as earnings approaches next cycle.",
+    "analyst": "Chop/regime_blocked (conf 4.9, ADX 13.7), LTFs deeply oversold (15m/30m/1h RSI 22/22/29, %B below band, stoch 8). Fresh break of 392.71 on 2x volume but shorting here buys the spot a counter-bounce is most likely; thin Sunday amplifies whipsaw. Monday gap risk is a bearish tilt but want confirmation below 391.6. No long (nothing reclaims VWAP). HOLD, arm short below 391.4.",
+    "portfolio": "HOLD MSFT - oversold breakdown, bounce risk; armed short below 391.4."
+  },
+  "timestamp": "2026-07-20T10:46:03.333979+00:00"
+}

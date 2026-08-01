@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "BTC/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Stalling into 65769 resistance with fading volume; expect a rejection back toward the 65200-65260 VWAP zone over 2-4 bars, OR a decisive close above 65770 opening 66.1k+. No clean entry until one resolves.",
+  "expectancy_note": "Long here chases %B 0.95 / stoch 86 / +1.14% VWAP into a wall only ~295pts away (R:R <1 to resistance vs ~660pt ATR). Short lacks confirmed rejection/divergence and shorts have bled (48% win, -0.8R, n=46). HOLD has best expectancy.",
+  "rationale": "BTC is overbought (stoch 85.9, %B 0.946) and pinned directly under major resistance 65769 with volume drying up, exactly where macro flags crowded-long squeeze risk to the downside (Extreme Fear F&G 25). Chasing long gives sub-1.0 R:R into the wall; fading short has no confirmation and a poor account track record. Wait for either a rejection to VWAP for a long re-entry or a confirmed breakout hold above 65770.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 65770,
+    "expires_min": 240,
+    "note": "A 15m close that reclaims and holds above 65769 resistance would confirm breakout continuation and flip this to a long toward 66.1k."
+  },
+  "transcript": {
+    "macro": "NEUTRAL tilting risk-off. US-Iran conflict spiking oil (WTI ~$83-85) reviving inflation/hike fear; higher long-end yields + firm dollar pressure equity multiples & metals. US indices digesting near highs (S&P -0.19%, Nasdaq -0.05%). Key events <48h: GOOGL earnings Wed Jul 22 AC, TSLA Jul 22 AC, INTC Jul 23 AC; FOMC Jul 28-29 (market pricing hike RISK, not cuts). BTC ~$65.5k pinned under $65.8k resistance, dominance ~56.5%, Fear & Greed 25 (Extreme Fear), funding benign; crypto-beta names crowded long -> squeeze risk to downside if BTC stalls. Semis (NVDA/MU/INTC/SNDK) move as a pack, headline-fragile. CL structurally bid on Hormuz supply fear (hostile to shorts). XAG near 8-month lows, capped by dollar/yields. Tokenized-equity perps thin/gappy overnight (scan 03:38 UTC).",
+    "sentiment": "Risk-off/cautious. Only tradable <=48h binaries are GOOGL (Jul 22 AC) and INTC (Jul 23 AC, ~15% implied move), both casting a shadow over beta names (QQQ, NVDA, MU, SNDK, crypto). MSFT (Jul 13) & MU (blowout Q3) already reported - no fresh binary. COIN Jul 30, HOOD Jul 29, SNDK Aug 5 all OUTSIDE the window (don't hold into next week). MSTR flipped to SELLING BTC (largest since 2022) - sentiment negative. CL live geopolitical gap risk both ways, supply-shock skew up. XAG coiled in a triangle (breakout >61 / breakdown <55.7), no dated catalyst. No hacks/exploits/large delistings flagged.",
+    "analyst": "BTC 65474.7, composite long conf 41.8%, ADX 29.1, RSI 61.8, stoch 85.9, %B 0.946, VWAP +1.14%, resistance 65769 (~0.45% up), funding +0.005% (flat), L/S 1.357, orderbook +0.437. Overbought into the wall on fading volume; reward-to-resistance < ATR. HOLD, breakout reconsider at 65770.",
+    "portfolio": "BTC: HOLD - overbought into 65.8k resistance, Extreme Fear, no room; wait for the resolution."
+  },
+  "timestamp": "2026-07-21T03:47:50+00:00"
+}

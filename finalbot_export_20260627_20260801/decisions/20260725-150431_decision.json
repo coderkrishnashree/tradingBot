@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "GOOGL/USDT:USDT",
+  "size": 0.0,
+  "entry": 319.16,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Choppy drift around 319; the 317.9 flush was already bought back to 319.1. Expect sideways-to-slightly-lower coil 318-320 on thin weekend volume; a clean short only sets up if a bounce lifts price to ~322-324 (VWAP retest) OR support 315.6 breaks with momentum.",
+  "expectancy_note": "p(win) on a fresh short here ~0.42 \u2014 4h RSI 22.8 oversold + price -3% below VWAP = chasing; account shorts run 0.47 win / -0.78 avg while the losing pattern is exactly late shorts into stretched tape. No positive-expectancy entry now.",
+  "rationale": "Trend and structure are bearish (ADX 51.7, composite -0.30 aligned, L/S 2.45 crowded long, RS -14%), but 4h RSI 22.8 is deeply oversold and price is already 3% under VWAP with the last flush to 317.9 fully bought back \u2014 a market short is chasing into the exact pattern this account bleeds on. US cash is CLOSED (Saturday), perps are thin and gap-prone into Monday and FOMC Wed, so I will not initiate here. Wait for either a bounce into 322-324 to short with the trend at a real level, or a decisive loss of 315.6 support to join the breakdown; size 0 until then.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 322.5,
+    "expires_min": 240,
+    "note": "A bounce to VWAP/322.5 relieves the oversold stretch and offers a with-trend short entry at a real level instead of chasing; losing 315.6 instead would open the downside continuation (secondary trigger)."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF/defensive; SATURDAY 2026-07-25 so US equity underlyings CLOSED -> perps thin, gappy, Monday-gap risk. Nasdaq -2.1% on week, chip-led lower. FOMC Wed 7/29 caps risk. GOOGL: L/S 2.45 (crowded long), OI 21.9k, orderbook -0.08, composite short -0.30 aligned, 4h RSI 22.8 oversold, ADX 51.7, RS -14%. Alphabet already reported and beat revenue yet sold off (bearish tell; earnings risk behind it). Verdict: lean SHORT but reduce size / wait for cash open.",
+    "sentiment": "GOOGL MILDLY BEARISH / news-driven (catalyst fired). Q2 July 22: revenue $119.8B (+24% y/y beat), Cloud +82% to $24.8B, but adj EPS $2.85 MISSED ~$2.89 and 2026 capex guided up to ~$205B. Market punished capex/spend despite strong top line ('good business, expensive AI bill'). Binary event behind us; residual drift + capex overhang supports short bias near term. No further scheduled catalyst in 48h.",
+    "analyst": "GOOGL 319.16, support 315.61, res 360.11; 4h RSI 22.8 oversold, ADX 51.7, vwap_dist -3.08, structure_bias -0.324, composite -0.304, RS -14%. The -0.7% drop was one 217-vol candle 319.89->317.91 then recovered to 319.1 (dump absorbed/bought back); last bars coiling flat ~319.1. Learner: shorts LOSING (0.47 win / -0.78) vs longs 0.69; weights structure_bias -0.321 & RS -0.30 = the late-short-into-oversold pattern the desk loses on. Fresh market short chases an extended move into oversold on a closed thin market -> HOLD; short on a bounce to 322-324 or on losing 315.6.",
+    "portfolio": "GOOGL: HOLD (conf 0.50) \u2014 bearish post-earnings but oversold/bought-back on a closed weekend tape; reconsider short on bounce to 322.5 or break of 315.6."
+  },
+  "timestamp": "2026-07-25T15:04:31.776880+00:00"
+}

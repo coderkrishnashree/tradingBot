@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "TSM/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price stalling at 410-412 under the 411.94 swing high with fading 15m bodies; expect chop 408-412, resolving on the FOMC-week tape rather than cleanly now.",
+  "expectancy_note": "No edge either side: long chases 4h RSI 74.5 into crowded LSR 1.76 + heavy -0.72 sellwall in a leading-down sector; short fights ADX 56 uptrend and shorts have lost this account. p(win) < 0.55 both ways.",
+  "rationale": "TSM mid-range (410.8 between 398 support / 426.7 resistance), strong uptrend but overbought/stalling and the most negative structure_bias in the equity book (-0.443, crowded longs + sellwall). Learner flags negative structure_bias and RS (-7%) as loss-predictors and shorts as the account's worst bucket. Neither chase-long nor counter-trend short offers R:R>=1.5.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 412.0,
+    "expires_min": 240,
+    "note": "Reclaiming the 411.94 swing high on volume proves buyers absorbed the -0.72 sellwall; arms a momentum long. A loss of 407.8 arms the structure short toward 398."
+  },
+  "transcript": {
+    "macro": "MIXED, cautious into event risk. FOMC Wed Jul 29; megacap earnings this week. Risk-on but fragile. Crowding flag firing across book. Default reduced size, intraday over overnight. TSM: HEADWIND - chip proxy, chips led last week's selloff, LSR 1.76 crowded, orderbook -0.72, structure_bias -0.44, RSI 74.",
+    "sentiment": "Risk-on but knife's-edge. FOMC Wed, PCE Thu, megacap earnings. Semis in ~20% bear-market drawdown. CL short highest-conviction. TSM: neutral/mild-bearish drift - already reported mid-July (raised FY26 rev >40% but soft margin guide), -15% on month, no fresh <=48h catalyst.",
+    "analyst": "TSM 410.82 stalling under the 411.94 swing high with fading 15m bodies; overbought 4h (RSI 74.5), crowded long (LSR 1.76), heavy sellwall (-0.72), leading-down sector. Long chases into overbought/crowd/sellwall; short fights ADX 56 and shorts bleed this account. Wait for breakout/breakdown.",
+    "portfolio": "TSM - HOLD (0.60): overbought chip laggard stalled below resistance into FOMC; wait for a 412 reclaim (long) or 407.8 break (short)."
+  },
+  "timestamp": "2026-07-27T08:41:05.042750+00:00"
+}

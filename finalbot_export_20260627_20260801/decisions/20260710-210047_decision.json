@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "META/USDT:USDT",
+  "size": 0.0,
+  "entry": 669.73,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.62,
+  "playbook": "none",
+  "forecast": "Choppy consolidation 663-672 just under resistance 678.67; thin post-hours tape (last bars <2 contracts) keeps it range-bound near term. Expect either a decisive break >678.67 to extend the squeeze, or a slip <663.5 to start the overbought unwind toward VWAP ~640 \u2014 neither confirmed yet.",
+  "expectancy_note": "No positive-expectancy entry: long is a chase (RSI 81 1h/4h, +4.63% over VWAP, %b 0.95, at resistance) = account's #1 loser (trend WR 0.44); short fades the strongest leader mid-squeeze with no divergence. Flat beats both.",
+  "rationale": "Scan confirms macro price ~$669.73, up hard and deeply overbought (RSI ~81 both 1h/4h, stoch 91, +4.63% above VWAP) pinned against resistance 678.67 \u2014 a classic mid-air extension where a routine counter-bounce stops any honest long before trend resumes, and shorting the +17% rel-strength leader mid-squeeze is hostile. Tokenized equity with near-zero recent volume (thin/gappy, outside US cash) makes both stops untrustworthy and R:R poor. Highest expectancy is to wait: let price either confirm a breakout above 678.67 or begin the overbought unwind below 663.5 before committing size, especially with Q2 earnings Jul 29 ahead.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 678.67,
+    "expires_min": 240,
+    "note": "A clean break/hold above 678.67 clears resistance and confirms the squeeze extends to fresh highs \u2014 re-debate for a breakout long or a pullback-to-VWAP entry."
+  },
+  "transcript": {
+    "macro": "Regime mildly risk-on but late-stage, hawkish rates, narrow/stretched AI leadership \u2014 a chase tape. META underlying ~$669-673, +15% on the week (best since early 2024) on a Meta Compute AI-cloud catalyst; leadership name, trend up. Scan screams overextension: RSI 80.9(4h)/81.0(1h), stoch 91, bb_%b 0.95, +4.63% above VWAP, ADX 41.8, at resistance 678.67. Best rel strength +17% vs BTC; long/short 0.86 (no crowded-long warning). Verdict: LONG MIXED (poor R:R chasing), SHORT HOSTILE.",
+    "sentiment": "Note: the two web streams disagreed on price (macro ~$669 up vs sentiment ~$564 down). Scan file resolves it: authoritative last = $669.73 (macro read correct). Ad engine healthy; FY26 capex $125-145B the multi-quarter debate. IMMINENT: Q2 2026 earnings CONFIRMED Wed Jul 29 after close \u2014 biggest scheduled binary on horizon, don't carry large exposure into it. Verdict: NEUTRAL near-term / cautious.",
+    "analyst": "Scan confirms $669.73, deeply overbought (RSI ~81 both TFs, +4.63% over VWAP) pinned under resistance 678.67. Long here = chase into the account's #1 loss pattern; short = fading the strongest leader mid-squeeze. Near-zero recent volume (thin/gappy) makes stops untrustworthy. Wait for a break >678.67 (breakout/pullback long) or a slip <663.5 (unwind short). HOLD.",
+    "portfolio": "META: HOLD (conf 0.62) \u2014 overbought leader mid-air, no positive-EV entry either way; trigger: break above 678.67 re-debates a breakout long."
+  },
+  "timestamp": "2026-07-10T21:00:47.743892+00:00"
+}

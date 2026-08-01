@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "AAPL/USDT:USDT",
+  "size": 0.0,
+  "entry": 314.77,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Off-hours: price keeps drifting in a tight 314.4-315.7 band on near-zero volume until US open (~13:30 UTC); no honest directional edge before then. Expect continued low-vol chop pinned to VWAP.",
+  "expectancy_note": "No 1.5R setup exists - intraday range only ~$1.2, bb squeezed (width 1.56%), price at VWAP mid-band; a short (scan's lean) is this book's losing pattern (0.46 win / -1.75 pnl) and fights the rotation trend. HOLD is highest expectancy.",
+  "rationale": "AAPL is a tokenized equity trading off-hours (US cash closed) on thin, gappy liquidity with no catalyst inside 48h - crypto structure metrics are noise here. Price sits at VWAP in a squeezed Bollinger (width 1.56%), RSI 55, %B 0.43: no extension to fade and no momentum to follow, so neither the scan's short lean nor a long ATH-chase has an edge. The learner shows this account bleeds on late trend/aligned shorts (win 0.46, avg -1.75), and macro says shorting fights both tape and trend - waiting for the US open to supply real volume/direction is the disciplined, positive-expectancy choice.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 314.4,
+    "expires_min": 360,
+    "note": "Losing the 314.4 intraday range low on US-open volume would confirm the short lean with real flow behind it, turning the off-hours drift into a tradeable break."
+  },
+  "transcript": {
+    "macro": "Regime: risk-on, tech-led melt-up on soft June CPI (Fed hike bets easing); quality-rotation favors cash-rich low-AI-capex names like Apple. US cash CLOSED at scan -> thin, gappy off-hours perp tape until 09:30 ET; crypto structure metrics (funding 0, OI 3.4k, L/S 0.91 balanced) low-signal. AAPL: LONG=with the rotation but extended at ATHs into Jul 30 earnings; SHORT=fighting both tape and trend (headwind), only a tactical fade of extension - but price is NOT extended (at VWAP). Structure_bias ~flat (-0.05).",
+    "sentiment": "AAPL NEUTRAL-to-mildly-bullish; EARNINGS EVENT RISK looming. Closed ATH $317.31 Jul 13; perp last 314.77 drifting off-hours. Positives: Broadcom chip-supply deal extended to 2031 (Jul 6); Apple suing OpenAI on trade-secret theft (Jul 13, read as strength). A KeyBanc downgrade to Underweight is fresh in the tape. Q3 FY26 earnings after close Jul 30 (consensus ~$108.9B rev/~$1.89 EPS, four straight beats) - outside 48h but the dominant scheduled binary. No hard catalyst next 1-2 days.",
+    "analyst": "Textbook NO-TRADE. bb squeeze (width 1.56%), price pinned at VWAP mid-band (RSI 55, %B 0.43), off-hours thin liquidity, no catalyst inside 48h. Intraday range only ~$1.20 so no honest 1.5R setup. The only lean (short) is exactly this book's loss pattern (shorts 0.46 win/-1.75) and fights the quality rotation. Long at ATH into earnings has no trigger. HOLD; a decisive loss of 314.4 on US-open volume confirms the short.",
+    "portfolio": "AAPL: HOLD (conf 0.60) - no edge in the off-hours squeeze; wait for US open / 314.4 break."
+  },
+  "timestamp": "2026-07-15T08:04:27.151936+00:00"
+}

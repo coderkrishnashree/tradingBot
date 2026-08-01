@@ -1,0 +1,23 @@
+{
+  "action": "hold",
+  "symbol": "TSM/USDT:USDT",
+  "size": 0.0,
+  "entry": 401.06,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.55,
+  "rationale": "Bull case (learner p_win 0.742, 15m/1h +0.69/+0.82, bullish 4h divergence, bid-heavy orderbook +0.43, post-earnings guide raised) genuinely conflicts with a hostile macro tape, weak rel-strength (-16%), and the most crowded-long L/S in the set (2.44). Decisive factor is mechanical: synthetic weekend market with near-zero volume and Monday gap risk, and no entry offering >=1.5R with an honest ~1-1.5x ATR stop (structural stop under 386.8 is >2.5x ATR; resistance 440 unreachable in 48h). HOLD until live volume confirms.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 403.6,
+    "expires_min": 240,
+    "note": "Reclaiming the weekend drift-high on real volume confirms the 15m/1h long alignment is carrying into a live tape, arming a pullback long toward 410 with a stop under 397."
+  },
+  "transcript": {
+    "macro": "2026-07-19 regime MIXED-to-HOSTILE; US weekend dead/synthetic tape, Monday gap risk. Semi sector hostile. TSM conflicted post-earnings: TSMC Q2 EPS $4.31 beat, guidance raised, yet stock fell ~7% on capex/margin fears (bearish-tape-despite-good-news). Scan: bullish 4h divergence, long-tilted lower TFs, but 4h still down; L/S 2.44 most crowded-long (contrarian short risk). Earnings landmine is behind it.",
+    "sentiment": "TSM bullish, catalyst already fired, no new <=48h binary. Q2 (reported July 16) crushed estimates (profit +77% YoY, EPS beat ~14%), strong Q3 guide ($44.6-45.8B, 56-58% op margin), extra $100B Arizona investment; stock rose on the day. 4h-down/bullish-divergence looks like a healthy pullback within an uptrend. Near-term fundamentals argue AGAINST pressing a short.",
+    "analyst": "Lower-TF longs align and learner favors long (p_win 0.742), price below VWAP (-1.12%, not extended), well above support 386.81, bullish divergence. But this is a dead synthetic weekend tape drifting 399-401.5 on near-zero volume with Monday gap risk; no tight defensible entry (structural stop ~3.6%/>2.5x ATR, resistance unreachable in 48h). HOLD; arm a live-tape long above 403.6.",
+    "portfolio": "TSM: HOLD (0.55) \u2014 real lower-TF long thesis but no honest entry on a synthetic weekend tape; arm long above 403.6."
+  },
+  "timestamp": "2026-07-19T03:42:51.628149+00:00"
+}

@@ -1,0 +1,25 @@
+{
+  "action": "hold",
+  "symbol": "NVDA/USDT:USDT",
+  "size": 0.0,
+  "entry": 194.28,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "expectancy_note": "Short is right thesis but wrong price: only ~2% (~1.2 ATR) to support 190.16, RSI 31/stoch 15.6/%B 0.06 all pinned oversold \u2014 chasing here gives sub-1.5 R:R into strong support and into FOMC minutes squeeze risk; edge is negative until a level breaks.",
+  "rationale": "1h/4h are short-aligned in a trend regime (ADX 31.6) with crowded-long positioning (L/S 1.92, neg-lean funding) supporting more downside, but price is already deeply oversold and sitting on support 190.16 with the fast frames (5m/15m/30m) flat \u2014 a fresh short here is chasing into the level with too little room and elevated snap-back risk into Wed's FOMC minutes. A long is against trend and unconfirmed. Highest-expectancy play is to wait: short only on a decisive breakdown of 190.16, or stand aside/flip on a VWAP reclaim. Size 0.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 190.16,
+    "expires_min": 240,
+    "note": "Losing 190.16 support on a closing basis confirms the downtrend continuation and opens the next leg toward ~188/185 \u2014 clean short trigger with room; until then price is trapped oversold on support."
+  },
+  "transcript": {
+    "macro": "Regime: moderate risk-on but fragile/event-gated. Jul 6 AI-trade bid lifted mega-cap tech; Jul 7 pre-market futures softened (ES -0.3%, NQ -0.9%). Rebound off a late-June AI/chip washout; high-beta/whippy. Rates/USD a headwind: June dot plot hawkish. FOMC minutes Wed Jul 8 (inside 48h), June CPI Jul 14. Tokenized perp on cash underlying; scan 10:08 UTC pre US open (~13:30 UTC) \u2192 gap risk. NVDA is the epicenter of the AI-trade swing, rolling over (1h/4h short) but crowded long (L/S 1.92) with negative-lean funding; any AI-optimism headline squeezes shorts violently given the sharp Jul-6 rebound. Env: supports short with trend, highest-vol name, smaller size.",
+    "sentiment": "Market-wide: violent AI/memory-chip selloff ~2 weeks, risk-off, mean-reversion-prone; FOMC minutes Jul 8 the near binary. NVDA clearly negative \u2014 down ~18% from its June high, ~4% early July, dragged by AI-capex/sustainability fears and a Kyber next-gen rack delay dispute (Nvidia denies). Earnings Aug 26 (no near binary). 48h risk = FOMC minutes Jul 8: hawkish accelerates downside; dovish surprise is the main squeeze risk. News argues for the short, but it's already deeply oversold (RSI ~31) \u2014 a crowded, snap-back-prone short into a Fed event.",
+    "analyst": "1h/4h short-aligned in a trend regime (ADX 31.6) with crowded-long positioning (L/S 1.92, neg-lean funding) supporting more downside, but price is deeply oversold (RSI 31.2, stoch 15.6, %B 0.06, -1.22% vs VWAP) and sitting right on support 190.16 with fast frames flat \u2014 a fresh short is chasing into the level (~2%/~1.2 ATR of room) with elevated snap-back risk into Wed's FOMC minutes. A long is against trend and unconfirmed. HOLD, size 0; short only on a decisive break of 190.16 or flip on a VWAP reclaim.",
+    "portfolio": "NVDA \u2014 HOLD (0.60): right short thesis, wrong price \u2014 oversold on support into FOMC minutes; arm short below 190.16."
+  },
+  "timestamp": "2026-07-07T10:15:15.859460+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "symbol": "GOOGL/USDT:USDT",
+  "action": "hold",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.62,
+  "playbook": "none",
+  "forecast": "Price is coiling flat at 346.7-347.1 just above 341.86 support for ~5 hours; expect chop between 341.86 and ~352 near-term, with either a fresh breakdown below 341.86 or an oversold squeeze back toward VWAP; no clean edge until one side resolves.",
+  "expectancy_note": "Fresh short here is p(win)<0.45 (4h RSI 16, -5.69% below VWAP, flat tape = classic late-short-into-squeeze trap the account keeps losing on); only ~1R to support before bounce risk. HOLD beats both a chased short and a counter-trend long.",
+  "rationale": "GOOGL is deeply oversold (4h RSI 16, stoch 13, -5.69% vs VWAP) and has flat-lined for ~5 hours right above 341.86 support with no bar-by-bar downside momentum \u2014 shorting now is chasing into squeeze risk, the exact pattern this account bleeds on (short win_rate 0.47, avg_pnl -0.87; model penalizes low RSI / VWAP-extension / relative-strength shorts). No long either: risk-off macro, firm 4h down-trend, and earnings loom (7/22-7/28) capping any hold. Best expectancy is to wait for resolution; size 0.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 341.86,
+    "expires_min": 240,
+    "note": "A decisive break of the 341.86 support ends the 5-hour base and gives a momentum short with real room, versus the current chase-into-oversold trap."
+  },
+  "transcript": {
+    "macro": "RISK-OFF regime; Alphabet led a mega-cap selloff earlier in the week. No FOMC/CPI inside 48h. GOOGL earnings loom (macro flags Wed 7/22 AMC; sentiment says Tue 7/28 AMC) \u2014 any hold into that report is an earnings gamble; flatten or size down before it. #1 risk this cycle: chasing oversold shorts into a squeeze; smaller size. GOOGL: last 346.84, short trend, 4h RSI 16 (deeply oversold), composite short ~39.9.",
+    "sentiment": "GOOGL: nearest equity earnings binary of the group (7/28 AMC per sentiment / 7/22 per macro \u2014 treat earnings as looming). No fresh company-specific shock recently; relative-strength name (less chip-exposed than semis) but dragged by broad Nasdaq risk-off. Near-term news neutral-to-slightly-bearish via market beta only; nothing idiosyncratic to trade <=48h. US markets closed weekends -> perp thin/gappy.",
+    "analyst": "GOOGL 346.84, short 4h trend but 4h RSI 16 / stoch 13 / -5.69% below VWAP = deeply oversold. The 15m candles are dead flat (346.7-347.1) for ~5 hours right on top of 341.86 support \u2014 a base not a breakdown. Fresh short = chasing oversold into squeeze risk (macro's #1 trap; learner shows shorts 0.47 wr / -0.87 avg, model weights punish low-RSI/VWAP-extended/relative-strength shorts). Only ~1R (346.84->341.86) before bounce risk, so R:R is poor. No long against a risk-off down-trend with earnings looming. HOLD; re-arm short only on a decisive loss of 341.86 which converts to a momentum breakdown with room.",
+    "portfolio": "HOLD GOOGL \u2014 deeply oversold coil at support, do not chase; arm short on a 341.86 breakdown, mind looming earnings."
+  },
+  "timestamp": "2026-07-18T12:39:46.461244+00:00"
+}

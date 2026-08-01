@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "COIN/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.34,
+  "playbook": "none",
+  "forecast": "Thin weekend tape: price stays pinned in the 160.3-161.3 micro-range on near-zero volume through the session; no directional resolution expected until Monday cash open reprices the gap.",
+  "expectancy_note": "No edge either way: long is overbought-chase (stoch 95.6, RSI 76.8) into risk-off, short lacks momentum/volume confirmation on a gappy off-hours equity perp; p(win) ~coinflip, expectancy negative after fees.",
+  "rationale": "COIN is a tokenized equity trading thin/gappy on a weekend with every oscillator pinned overbought (RSI 76.8, stoch 95.6, 30m RSI 81.8) and structure crowded-long (L/S 1.53) into a risk-off tape with a sell-heavy book (orderbook -0.19). The recent candles are flat-lining in a ~$1 range on ~zero volume \u2014 no level being tested and no momentum to trade. Chasing the extended long is the account's classic late-continuation loser, while shorting has no confirmation; HOLD until Monday's cash open or a structural break, and stay flat into the July 30 earnings binary.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 154.16,
+    "expires_min": 240,
+    "note": "Losing support 154.16 confirms the crowded-long unwind and opens a real short with room to the mean/VWAP below."
+  },
+  "transcript": {
+    "macro": "RISK-OFF/cautious tape 2026-07-26: BTC ~$64k Fear&Greed 27. COIN L/S 1.53, orderbook -0.19, RSI 76.8 / stoch 95.6 (overbought). Crowded-long book into risk-off. Weekend gap; equity perp thin/gappy off-hours. Verdict: CAUTIOUS/FLAT-to-lean-SHORT; avoid holding into earnings window.",
+    "sentiment": "Crypto EXTREME FEAR. COIN EARNINGS Jul 30 after close (Q2, est EPS ~$0.19; same day as AAPL+MSTR = event risk into print). Directly geared to crypto tape (BTC ~$64k). Near-term neutral-to-cautious with crypto beta.",
+    "analyst": "Tokenized equity trading thin/gappy on a weekend, oscillators pinned overbought (RSI 76.8, stoch 95.6, 30m 81.8), crowded-long (L/S 1.53) into risk-off with sell-heavy book (-0.19). Candles flat-lining in a ~$1 range on ~zero volume \u2014 no level, no momentum. Long is a late-continuation chase; short has no confirmation. Hold until Monday open or a break of 154.16; stay flat into Jul 30 earnings.",
+    "portfolio": "COIN: HOLD 0.34 \u2014 dead overbought weekend tape; armed to short on loss of 154.16."
+  },
+  "timestamp": "2026-07-26T21:08:46.249403+00:00"
+}

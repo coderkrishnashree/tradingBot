@@ -1,0 +1,24 @@
+{
+  "symbol": "TSLA/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.34,
+  "size": 0.0,
+  "entry": 414.54,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "rationale": "TSLA is a tokenized equity - funding/L-S are noise; this is a technical read. Price 414.54 is overbought and stranded mid-range (support 379, resistance 438), just ran ~6% on Robotaxi news into a -0.9% Nasdaq futures open with gap risk. Chasing an extended move (RSI 69, stoch 80, +1.48% VWAP) here is the textbook no-trade; a value pullback into 388-396 (VWAP/SMA zone) would offer a much cleaner trend-long with room to 437.73 resistance. Recent tape whipsaws violently even on good news (-7.5% on a delivery beat). No size committed.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 396.0,
+    "expires_min": 300,
+    "note": "Pullback into VWAP/SMA20 value zone unwinds the overbought stretch and offers a trend-long with stop under 388, target 437.73."
+  },
+  "transcript": {
+    "macro": "Regime MIXED, tilting cautious: Mon Jul 6 closed risk-on (Nasdaq +1.1%, records) but overnight flipped, Nasdaq-100 futures -0.9% into Jul 7 cash open - digesting a rally. Tokenized equities; funding dead (0.0), positioning from L/S ratio + orderbook. Live 48h catalyst: Wed Jul 8 2pm ET FOMC minutes. US market-hours gap risk.",
+    "sentiment": "Cautiously risk-on but event-heavy (Wed FOMC minutes). QQQ: no single-name catalyst, macro-driven. MU: Q3 blowout Jun 24 already digested, next earnings ~Sept 22 (outside window), trades as AI/memory beta. AAPL: mildly positive (Broadcom deal Jul 6), earnings Jul 30 outside window. TSLA: catalyst-rich - Q2 deliveries beat Jul 2, +6% Jul 6 on Miami Robotaxi; earnings Jul 22 outside 48h.",
+    "analyst": "Extended long mid-range, not at a level; short fights 43-ADX uptrend + bullish divergence. No edge; wait for value pullback (388-396) long or a resistance fade at 437.73.",
+    "portfolio": "TSLA - HOLD (0.34): overbought mid-range, no level to trade; wait for pullback to value."
+  },
+  "timestamp": "2026-07-07T07:56:44.645928+00:00"
+}

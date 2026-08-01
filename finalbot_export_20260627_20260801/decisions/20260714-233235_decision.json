@@ -1,0 +1,26 @@
+{
+  "symbol": "TSLA/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.4,
+  "size": 0.0,
+  "entry": 396.46,
+  "stop_loss": 390.5,
+  "take_profit": 402.0,
+  "playbook": "none",
+  "forecast": "Choppy hold just above 391 support after-hours; last 15m bar snapped up on 785-vol bid reclaim to 396.46, likely to probe the 397.5 shelf/VWAP over next 2-4 bars. Above 397.5 opens a run toward 402-405; a slip back under 391 opens 388.",
+  "expectancy_note": "No clean edge: short into 4h RSI 27 at support is the account's classic late-chase trap; long is thin after-hours with mixed composite. p(win) either way ~0.5, R:R not clearing 1.5 without confirmation - HOLD has highest expectancy until a level resolves.",
+  "rationale": "TSLA perp sits on 391 support, 4h deeply oversold (RSI 27) with a bid-heavy book (imbalance +0.716) and firm RTH underlying (~427), so a fresh short is chasing into exhaustion. But US cash is closed (thin/gappy), the composite reads short (stale artifact) and crowd is heavily long (L/S 1.966 = squeeze risk), so a mean-reversion long lacks confirmation. Neither side clears R:R>=1.5 with conviction; wait for a 397.5 reclaim (validates the bounce, flips me long) rather than guess into illiquid tape. Earnings 8 days out caps any multi-day hold anyway.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 397.5,
+    "expires_min": 240,
+    "note": "Reclaiming the 397.5 shelf/VWAP proves the bounce off 391 has real momentum (not just an after-hours wick) and flips me to a mean-reversion long toward 402-405."
+  },
+  "transcript": {
+    "macro": "Scan 2026-07-14 23:29 UTC (~19:29 ET), US cash CLOSED - tokenized perp thin/gappy after hours. Broad regime risk-ON (June CPI 3.5% vs 3.8% exp; Nasdaq +0.9%). TSLA is an equity proxy; crypto regime low weight (BTC corr 0.27, BTC soft ~$62.5k). Derivatives: funding +0.000222 (mild long lean), OI 7,966 modest, long/short 1.966 (crowd heavily long -> squeeze/contrarian downside risk = biggest flag), orderbook imbalance +0.716 (bid-side, thin/low-conviction after hours), structure_bias -0.164, composite SHORT 37% conf, aligned=FALSE, p_win 0.575, 4h RSI 27.2 oversold. Support 391 / resistance 420.22, last 396.46. Underlying TSLA ~427 in RTH near highs conflicts with stale after-hours short read. Earnings 2026-07-22 (~8d out) caps multi-day holds. Net: MIXED, lean STAY OUT / very small until RTH reopens.",
+    "sentiment": "Tone MIXED, leaning constructive but choppy. Q2 deliveries beat (480,126 vs 406,024, +25% YoY) already priced (stock +11.6% since last earnings). Q2 EARNINGS July 22 after close - big binary ~8d out, outside horizon. Optimus 3 reveal teased late-Jul/early-Aug (vague). Risks: NJ bill S1677 (~Jul 9-13) would ban Tesla camera-only robotaxi, NY considering similar - slow legislative overhang, freshest negative; XPeng competitive noise (minor). Analyst PT creep (UBS $442, MS $417, JPM Neutral $475) but ratings stay neutral. Tokenized-equity caveat: 24/7 perp but US cash closed -> thinner/gappier, re-anchors on Nasdaq open. Net: NEUTRAL near-term (24-48h); technicals-driven, sentiment not a tiebreaker. Do NOT carry size into July 22 earnings.",
+    "analyst": "TSLA perp on 391 support, 4h deeply oversold (RSI 27) with bid-heavy book (+0.716) and firm RTH underlying (~427) - a fresh short is chasing exhaustion (the account's classic late-chase trap). But US cash closed (thin/gappy), composite reads short (stale artifact), crowd heavily long (L/S 1.966 = squeeze risk) - so a mean-reversion long lacks confirmation. Last 15m bar snapped up on 785-vol bid reclaim to 396.46 (5m RSI 73 = active bounce). Neither side clears R:R>=1.5 with conviction. HOLD with armed trigger: a reclaim of the 397.5 shelf/VWAP validates the bounce and flips to a mean-reversion long toward 402-405; a loss of 391 opens 388.",
+    "portfolio": "TSLA/USDT:USDT -> HOLD (conf 0.40, size 0.0): no clean edge into thin after-hours tape; armed to flip long on a 397.5 reclaim."
+  },
+  "timestamp": "2026-07-14T23:32:35.586886+00:00"
+}

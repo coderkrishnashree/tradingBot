@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "ORCL/USDT:USDT",
+  "size": 0.0,
+  "entry": 141.87,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.58,
+  "playbook": "none",
+  "forecast": "Thin Sunday tape: the lone real 15m candle already puked to 141.30 and closed back at 141.87 (0.57 off the low, oversold LTF: 15m RSI 31.5, stoch 30, -1.59% vs VWAP). Expect a dead-cat bounce toward the broken 142.18 level / VWAP over the next few bars, then Monday decides - a clean rejection at 142.18-142.6 or a volume break of 141.30 is the short trigger.",
+  "expectancy_note": "Short bias is right (worst laggard -18.7%, crowded 2.08 long = fade fuel, 4h down) but shorting 141.87 into oversold LTF/thin Sunday print is the account's #1 loser (late entry, bounce stops you). p(win) on a chase here ~0.4; waiting for the 142.18 retest gives ~0.6 at better R:R. HOLD beats a bad short.",
+  "rationale": "The short thesis is sound but the entry is wrong: price is already ~1.6 ATR below VWAP with 15m RSI 31.5 and stoch 30 after a single thin Sunday candle, and US cash is closed so levels are unreliable until Monday. Market-shorting here invites the counter-bounce that hits any honest stop above 142.18 before continuation. Better expectancy is to arm the retest: reconsider a short on a bounce reclaim toward 142.18 (sell resistance).",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 142.18,
+    "expires_min": 240,
+    "note": "A bounce back to the broken breakout level offers the high-expectancy short entry (sell resistance with a tight stop above 143), versus chasing the oversold flush here; crossing it re-arms the short debate."
+  },
+  "transcript": {
+    "macro": "Regime: mildly RISK-ON but late-stage and event-heavy; treat these five as EQUITY not crypto (low BTC corr). US indices grinding higher on AI optimism but tape jumpy (chip rout + KOSPI drop Jul 7). Rates/USD a headwind: DXY>100, negligible Fed-cut odds, sticky 4.2% CPI. Sunday Jul 12 -> US cash CLOSED, thin/gappy weekend perp prints, levels unreliable until Monday open. Hard events in window: June CPI Tue Jul 14 (session-defining, cross-asset); TSMC Q2 earnings Thu Jul 16 (direct binary for TSM, read-through to EWY via Samsung/SK Hynix). Crowded longs (ORCL 2.08, TSM 1.79, TSLA 1.67) squeeze-vulnerable into CPI -> smaller size, avoid fresh TSM/EWY longs pre-Jul16. Cleanest structural setups: ORCL short and AAPL as relative leader, both needing Monday's cash open to confirm the thin weekend prints.",
+    "sentiment": "Only <=48h binary is TSM Jul 16 earnings (also governs EWY via the chip complex). TSM: bullish but two-sided into the print (guide $39-40.2B rev / ~66% GM, AI demand 'extremely robust') - do not hold size blind through the 16th; scan technically heavy (4h/1h short). EWY: bullish chip-beta proxy (Samsung record prelim Q2 op profit ~89T KRW; SK Hynix Nasdaq ADR Jul 10, 7x oversubscribed) but hostage to the TSM print. TSLA: neutral/constructive - Q2 deliveries beat (~480k vs ~406k) already priced, next earnings Jul 22 (outside window). ORCL: bearish - down ~25-29% YTD on AI-datacenter capex/FCF drag ($40B raise planned) despite $638B backlog; fresh 15m short breakout; news+price agree to the downside. AAPL: neutral - Broadcom supply deal thru 2031 (multi-year, not a 48h mover), fiscal Q3 earnings Jul 30. Trade AAPL/TSLA on tape/macro.",
+    "analyst": "The short thesis is sound but the entry is wrong: price is already ~1.6 ATR below VWAP with 15m RSI 31.5 and stoch 30 after a single thin Sunday candle, and US cash is closed so levels are unreliable until Monday. Market-shorting here invites the counter-bounce that hits any honest stop above 142.18 before continuation. Better expectancy is to arm the retest: reconsider a short on a bounce reclaim toward 142.18 (sell resistance).  Forecast: Thin Sunday tape: the lone real 15m candle already puked to 141.30 and closed back at 141.87 (0.57 off the low, oversold LTF: 15m RSI 31.5, stoch 30, -1.59% vs VWAP). Expect a dead-cat bounce toward the broken 142.18 level / VWAP over the next few bars, then Monday decides - a clean rejection at 142.18-142.6 or a volume break of 141.30 is the short trigger.  Expectancy: Short bias is right (worst laggard -18.7%, crowded 2.08 long = fade fuel, 4h down) but shorting 141.87 into oversold LTF/thin Sunday print is the account's #1 loser (late entry, bounce stops you). p(win) on a chase here ~0.4; waiting for the 142.18 retest gives ~0.6 at better R:R. HOLD beats a bad short.",
+    "portfolio": "HOLD (short bias) - thesis sound but entry is a chase after a thin Sunday flush (oversold LTF). Short the 142.18 retest, not here."
+  },
+  "timestamp": "2026-07-12T09:03:21.401126+00:00"
+}

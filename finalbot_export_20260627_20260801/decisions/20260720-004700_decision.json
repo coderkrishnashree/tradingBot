@@ -1,0 +1,26 @@
+{
+  "symbol": "EWY/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.3,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "forecast": "Fresh vertical bounce from 162.7 to 167.69 leaves price pinned at the top of the band (%B 0.997, stoch 92.5, +2.82% over VWAP); most likely path is a pullback toward 164-163.5 before direction resolves, but with ADX 10 the tape is pure chop.",
+  "expectancy_note": "No edge either way: shorting a hot bounce (stoch 92.5) is the exact late-short loss pattern (account shorts 0.47 win, -0.88 avg), and longing an exhausted +2.8%-VWAP spike in a bearish, gappy ETF is negative EV too. R:R undefined; HOLD is highest expectancy.",
+  "rationale": "EWY prints ADX 10.1, chop-regime-blocked, all per-TF scores ~0.0 and composite conf 0.9% flat \u2014 literally no structural edge. Price just spiked 3% off the low into severe overbought (stoch 92.5, %B 0.997) so a market long is chasing, while the violently bearish KOSPI/semi macro plus a fresh momentum bounce make a short a coin-flip against a live squeeze. Tokenized ETF carries overnight/holiday gap risk. Nothing here justifies risk; wait for a real level to break.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 163.5,
+    "expires_min": 240,
+    "note": "Losing the bounce's higher-low base near VWAP/163.5 would confirm the spike failed and align with the bearish semi macro, opening a with-trend short."
+  },
+  "transcript": {
+    "macro": "REGIME RISK-OFF in tech/semi. EWY high corr to semi/tech (0.78 to MU, 0.72 to QQQ), inherits semi headwind; scan printed conf 0.9%/flat, all cells ~0.0 (no structural edge). Tokenized ETF carries overnight/holiday gap risk. Verdict: semi-beta, mixed-to-hostile long.",
+    "sentiment": "EWY bearish/high-risk \u2014 standout risk of the batch. KOSPI chip-driven rout ('Black Monday' below 7,000, -6.37% circuit-breaker, Samsung/SK Hynix -9-11%), Bank of Korea surprise hike to 2.75% (first in 3.5yr). Violently volatile; weak TSLA/GOOGL print (7/20-24) hits Korean semis hardest. Argues against a long.",
+    "analyst": "ADX 10 chop, zero structural edge, just spiked 3% into severe overbought (stoch 92.5). Long = chasing exhausted spike, short = coin-flip late-short against a live squeeze into gappy ETF. HOLD; short only if it loses the 163.5 base.",
+    "portfolio": "EWY: HOLD 0.30 \u2014 no edge, overbought spike into bearish KOSPI; flat."
+  },
+  "timestamp": "2026-07-20T00:47:00.793938+00:00"
+}

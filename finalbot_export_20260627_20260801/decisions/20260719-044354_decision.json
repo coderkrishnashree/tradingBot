@@ -1,0 +1,23 @@
+{
+  "symbol": "QQQ/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.5,
+  "size": 0.0,
+  "entry": 695.19,
+  "stop_loss": 0.0,
+  "take_profit": 0.0,
+  "rationale": "Macro/sentiment and ADX 67 all favor short, orderbook -0.86, rel-strength -10.89 \u2014 QQQ is the weakest horse and the trade the backdrop supports. BUT a market short here is the account's #1 loss pattern: chasing a stretched move (5m RSI 8.8, 4h RSI 32) only ~1% (7pts) above support 688, with the 15m tape coiled flat (694.3-695.8) rather than breaking down. p_win_learned just 0.39 warns this short setup has been losing (bounces stop out late entries). R:R <1 vs a bounce toward VWAP ~701. Better to short the clean breakdown below 688 or fade a bounce. Holding until the tape resolves.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 688.0,
+    "expires_min": 240,
+    "note": "Losing support 688 confirms the downtrend resumes with room to run (next level ~680/672) \u2014 the honest short entry, not chasing the coil at 695 into 5m-oversold."
+  },
+  "transcript": {
+    "macro": "Regime MIXED, cautious risk-off. Chip-led Nasdaq selloff on AI-capex fears, rotation OUT of tech. Fed hawkish tail; FOMC Jul 28-29 outside 48h. Oil strong. Equity longs crowded = squeeze risk. QQQ: short score -0.63, ADX 67, orderbook -0.86 \u2014 aligns with the regime; SUPPORTIVE for shorts (4h RSI 32 stretched, watch bounce).",
+    "sentiment": "QQQ bearish lean. No index-level 48h binary, but tape risk-off \u2014 Nasdaq fell on semiconductor selloff (AI-valuation questions) + US-Iran escalation. Near-term news reinforces the short bias; sector tone negative.",
+    "analyst": "Strong downtrend + macro aligned, but 5m RSI 8.8 / 4h RSI 32 signal near-term exhaustion and p_win_learned 0.39 warns the short setup has been losing. Tape coiled flat at 695, only 7pts above 688 support \u2014 market short has too little room to TP1 vs a bounce-driven stop. Cleanest expectancy is a breakdown short below 688.",
+    "portfolio": "HOLD QQQ \u2014 bearish thesis intact but no chase; armed to short the 688 breakdown."
+  },
+  "timestamp": "2026-07-19T04:43:54.499821+00:00"
+}

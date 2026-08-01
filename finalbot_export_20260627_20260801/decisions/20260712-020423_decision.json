@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "AAPL/USDT:USDT",
+  "size": 0.0,
+  "entry": 314.55,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Price is pinned at VWAP mid-range (314.5) after a shallow bounce off 313.73; over the next 2-4 bars I expect chop between 313.7 and 316.0, with no clean edge until it either taps resistance ~316.3-316.77 (short the bounce) or loses 313.7 to open 311-312.",
+  "expectancy_note": "Short bias is real (aligned trend, ADX 45, not crowded, RS +5.98%) but entering mid-range now gives ~0.8R to first support vs ~2.5R stop above 316.77 - R:R < 1 and thin weekend tape; wait for the bounce-to-resistance short (stop 317.0, target 311.5 = ~2R) or a confirmed break.",
+  "rationale": "Trend/composite favor a short (30m/1h -0.9, ADX 45.5, structure_bias only -0.038 so uncrowded, RS +5.98% own-feet move), but price sits right at VWAP in the middle of the 305-316.77 range with a fresh shallow bounce off 313.73 and drying volume - a market short here has no R:R (honest stop above 316.77 is ~2.5xATR, first support only ~0.8R away). US equities are CLOSED (Sunday, gap risk into Monday), so I want either a bounce into 316.3-316.77 to short with a tight stop, or a break of 313.73 to confirm continuation. HOLD until one of those triggers.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 313.7,
+    "expires_min": 240,
+    "note": "Losing the 313.73 swing low confirms the downtrend resuming out of the range and opens 311-312 - flips me to an active short."
+  },
+  "transcript": {
+    "macro": "Cycle 2026-07-12 ~01:56 UTC, SUNDAY - US cash equity/futures CLOSED; AAPL token trades with underlying shut (thin books, Monday gap risk) -> smaller size/wider stops or stand aside. Regime mildly risk-on but choppy/rotational; indices near highs; rates a headwind (10y 4.56%). Q2 earnings season kicks off week of July 13. AAPL (314.55): downtrend 30m/1h (-0.9) but RS +5.98% (outperforming), structure_bias -0.038 (NOT crowded), low btc_corr 0.25 - an AAPL short is a lower-crowding own-feet move vs crushed semis.",
+    "sentiment": "AAPL earnings NOT imminent (Q3 FY26 July 30, ~18d out). Only recent item July 6 Broadcom chip-supply extension to 2031 (bullish long-horizon, digested). Analyst tone Moderate Buy, avg PT ~$315 near spot. Near-term NEUTRAL: no <=48h catalyst, weekend thin tape; news doesn't argue against scan short bias but nothing fundamental to drive it.",
+    "analyst": "Short bias is clean (aligned, ADX 45.5, uncrowded, RS-driven) but price is at VWAP mid-range after a shallow bounce off 313.73 on drying volume. A market short here has negative R:R - honest stop above 316.77 is ~2.5xATR while first support is only ~0.8R away. Prefer to short a bounce into 316.3-316.77 or a confirmed break of 313.73. HOLD with a price_below 313.7 trigger.",
+    "portfolio": "AAPL: HOLD (conf 0.50) - real short bias but no R:R mid-range; armed short trigger below 313.7."
+  },
+  "timestamp": "2026-07-12T02:04:23.917480+00:00"
+}

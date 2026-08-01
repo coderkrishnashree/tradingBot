@@ -1,0 +1,25 @@
+{
+  "symbol": "XAUT/USDT:USDT",
+  "action": "hold",
+  "size": 0.0,
+  "entry": 4168.3,
+  "stop_loss": 4157.0,
+  "take_profit": 4185.0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "expectancy_note": "Long bias but entry here is a chase: %B 1.093, RSI 86, price pinned under 4170.6 resistance with ATR ~$1. R:R at spot is negative; the +EV long only exists on a 4165 retest. Fade is wrong vs macro tailwind. HOLD beats both.",
+  "rationale": "Macro (soft NFP, DXY 4-mo low) and sentiment both favor long, but the tape is badly overbought (RSI 86, %B 1.093 outside upper band, ADX 85) and crowded long (L/S 2.821, orderbook -0.217 sellers into highs) with a binary FOMC-minutes event Jul 8 inside the window. Buying the highs offers no R:R with resistance at 4170.6 just overhead and support at 4163 - a stop would sit inside noise. Wait for the pullback/retest of the 4165 breakout level where a long has real edge; size stays 0 until then.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 4165.0,
+    "expires_min": 240,
+    "note": "A controlled pullback to retest the 4165 breakout level is the +EV long entry - buy the dip there with a stop under 4160 rather than chasing 4170."
+  },
+  "transcript": {
+    "macro": "Broad crypto RISK-OFF (BTC ~$62,792 corrective, Fear & Greed 22, dominance ~55.5%), but XAUT decoupled (BTC corr 0.137) so it trades on gold not crypto beta. Gold macro SUPPORTIVE near-term: spot ~$4,168-4,170, +2% weekly gain breaking a 4-week losing streak on soft June NFP (+57k vs +110k) -> dovish Fed repricing (Sept hike ~50% from ~64-67%), DXY at 4-month low ~100.8. YELLOW FLAG on positioning: tape stretched (RSI 85.9/5m, ADX 85.2, %B 1.093), fresh 15m breakout above 4165 on 4.26x vol, crowded long (L/S 2.821), orderbook -0.217 sellers into highs, funding flat. Verdict: SUPPORTIVE for LONG bias but DO NOT CHASE - trade small, buy pullback/retest of 4165; avoid fresh SHORT; squeeze/mean-reversion risk on any DXY bounce.",
+    "sentiment": "Cautiously bullish-to-neutral. Spot XAU recovered ~2% to ~$4,170-4,200 snapping four weekly declines on soft June jobs (halved Sept Fed hike odds, dollar worst week since April) + central-bank buying (+41t May) - genuine fresh macro tailwind. Concrete <=48h catalyst: FOMC minutes Wed Jul 8 (hawkish read is the two-way risk, could knock gold back); June Services PMI Jul 6 (lower-tier). No XAUT-specific shock; Tether/Ledn gold-loan + Alloy wind-down are structural. XAUT tracking spot cleanly, no active depeg (2-4% discounts only in thin liquidity during sharp corrections - slippage risk). Verdict: modestly FOR the direction (long) but AGAINST timing/chasing - better as a pullback buy than a breakout chase, respect the Jul 8 minutes.",
+    "analyst": "Tape extremely stretched: price above upper Bollinger band, RSI 86, sitting essentially AT resistance (4170.6) just above current 4168.3, ATR tiny (~$1). Both research streams agree: bias long but do NOT chase the highs; buy a retest of 4165. Crowd saturated long (2.821) with sellers leaning into highs (orderbook -0.217) = squeeze/mean-reversion risk on any DXY bounce, plus binary FOMC-minutes Jul 8 inside the window. Chasing at %B 1.093 / RSI 86 is a textbook bad entry - stop would sit inside the noise band at 4163 support with target barely above at resistance. Shorting against a genuine macro tailwind is also unattractive. HOLD and arm a pullback-buy trigger: a controlled retest of 4165 is where the long has real R:R; losing 4160 invalidates the breakout.",
+    "portfolio": "HOLD XAUT (conf 0.50, size 0) - long bias intact but no R:R chasing the RSI-86 breakout into resistance; arm pullback-buy at 4165 retest."
+  },
+  "timestamp": "2026-07-05T20:17:21.285564+00:00"
+}

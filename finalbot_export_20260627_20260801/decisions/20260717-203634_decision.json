@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "QQQ/USDT:USDT",
+  "size": 0,
+  "entry": 696.16,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Downside momentum fading right at the 688 support shelf - last 3 bars stopped falling and ticked up off 694.84 on dried-up volume; expect a mean-reversion bounce toward VWAP/broken 700-702 over 2-6 bars before the next directional decision, not a clean fresh leg down.",
+  "expectancy_note": "p(win) on a market short here ~0.40: RSI 25.6 + ADX 79.5 + price 2% below VWAP = prime counter-bounce that stops late shorts; learner confirms shorts 0.47 win / -0.87 avg while aligned-trend weight is -0.366. Best expectancy is to wait.",
+  "rationale": "Composite says short but this is a textbook late-short trap: deeply oversold (RSI 25.6, %B 0.148), 2.1% below VWAP, with the last few candles' selling drying up right on the 688 support - a violent bounce is the highest-probability next move and would knock out any fresh short at an honest ~1xATR stop. The account's history proves it: shorts lose (0.47 win, -0.87 avg) and aligned trend-continuation carries a negative weight. Short the RETEST into VWAP or the breakdown of 688, not the hole in the middle; a long fights the risk-off macro tape with no reversal confirmation. HOLD until price shows its hand.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 688.09,
+    "expires_min": 240,
+    "note": "Losing the 688 support shelf confirms the breakdown resumes rather than bounces, validating a short on the retest instead of chasing mid-range."
+  },
+  "transcript": {
+    "macro": "Risk-OFF and deteriorating (2026-07-17). Nasdaq -1.4% (25,520); week ugly (Nasdaq -2.9%, SOX bear-market) on a semiconductor/AI-capex scare after the TSMC capex hike. Rates: 10Y 4.57%, Fed pause, June dots skew HIKES into July 28-29 FOMC - no dovish tailwind. Bybit funding flat. Long/short QQQ 1.03 (near neutral). Structure_bias QQQ -0.05 (mild). RSI 25.6 deeply oversold, very high ADX -> bounces can be violent; fade rallies rather than chase breakdowns. Trend + macro favor SHORT but oversold cautions against chasing.",
+    "sentiment": "QQQ - macro tailwind cuts against the short. June CPI cooled to 3.5% (vs 3.8% exp), PPI fell 0.3%, sharply paring near-term Fed tightening odds - dips being bought on the cooling-inflation narrative. This week's earnings are banks/Netflix (NFLX -10% Fri), not QQQ mega-caps; the mega-cap wave starts Jul 29-30. No dated macro print inside 48h. A fade fights the macro tape somewhat - conflicting signals (bearish price/trend vs supportive inflation).",
+    "analyst": "QQQ composite short but a textbook late-short trap: RSI 25.6, %B 0.148, 2.1% below VWAP, selling drying up right on the 688 support - violent bounce is the highest-probability next move and stops fresh shorts at ~1xATR. Account history: shorts 0.47 win/-0.87 avg, aligned trend weight -0.366. Short the retest into VWAP or a break of 688, not mid-range; long fights risk-off macro with no reversal confirmation. HOLD with armed price_below 688.09 trigger.",
+    "portfolio": "QQQ: HOLD (conf 0.60) - late-short trap at oversold support; armed short below 688.09."
+  },
+  "timestamp": "2026-07-17T20:36:34.595416+00:00"
+}

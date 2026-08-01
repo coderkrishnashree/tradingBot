@@ -1,0 +1,26 @@
+{
+  "symbol": "MSFT/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.34,
+  "size": 0.0,
+  "entry": 389.98,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "forecast": "Thin overnight coil holds 388-391 into the 12:30 UTC June CPI; the binary print sets direction. A hawkish/hot CPI likely rejects 390 back toward 384/support; a benign print lets the 4h uptrend push through 395.85 toward 398+.",
+  "expectancy_note": "p(win) ~0.45 on a flat, near-zero-volume coil into a binary CPI in a risk-off/hawkish macro; no momentum trigger and resistance overhead \u2014 market-entering now is negative-expectancy, HOLD dominates.",
+  "rationale": "MSFT's only bull evidence is the 4h leg (+0.7, RSI 65) and RS +5.3%, but the mid-TF is mixed (30m short, 1h flat) and the last ~5h of 15m candles are dead-flat on 0.4-60 units of volume \u2014 pure illiquid overnight drift with no entry trigger and resistance 395.85 overhead. A binary June CPI hits in ~8h in a risk-off, hawkish-rate regime, so a market long now risks getting whipsawed on the print before any move materializes. Wait for CPI to resolve and price to prove itself through 395.85 rather than pay up into resistance and an event.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 395.85,
+    "expires_min": 240,
+    "note": "A break and hold above resistance 395.85 confirms the 4h uptrend resumes and turns this into a valid trend-continuation long toward 398-400."
+  },
+  "transcript": {
+    "macro": "Risk-OFF, US-Iran/Hormuz inflation shock; rates hawkish (~60% Sept HIKE). June CPI 8:30 ET + Warsh + bank earnings today = binary whipsaw. MSFT = equity, even thinner overnight (OI 4,724, near-zero vol) until 13:30 UTC. Long lean: composite +0.283, 4h up (RSI 65, %b 0.82), RS +5.3%, low BTC corr 0.28, but extended near resistance 395.85. Earnings ~July 29 (outside window).",
+    "sentiment": "MSFT neutral near-term: Q4 FY26 earnings July 29 after close is ~15 days out, not in window. Nothing MSFT-specific inside 48h; drivers are CPI + mega-cap tech beta. Scan leans marginally constructive (4h up, near resistance 395.85). Neutral, macro-driven.",
+    "analyst": "Only bull evidence is the 4h leg; mid-TF mixed, last ~5h dead-flat on tiny volume, resistance 395.85 overhead. Binary CPI in ~8h in risk-off macro; market long now risks a whipsaw before any move. HOLD; go long only on a break/hold above 395.85.",
+    "portfolio": "HOLD MSFT \u2014 constructive 4h but flat illiquid tape into a binary CPI; long only on a confirmed break above 395.85."
+  },
+  "timestamp": "2026-07-14T04:32:57.756397+00:00"
+}

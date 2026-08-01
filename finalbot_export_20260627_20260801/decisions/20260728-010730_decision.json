@@ -1,0 +1,25 @@
+{
+  "symbol": "EWY/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.55,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "forecast": "Price is pinned on 156.29 support after a stair-step drop from 161.5; stretched (4h RSI 33, stoch 3.3, %B -0.11, VWAP -4.5%). Expect a chop/relief bounce toward 158-160 into a thin closed cash market, OR a clean break of 156.29 that reopens 152-153. Neither has confirmation yet.",
+  "rationale": "EWY is a Korea/chip-beta proxy in a sharp sector risk-off, but it is already stretched to the downside and resting on 4h support 156.29 with crowded-short funding (-0.0022) and a closed US/Korea cash market that raises gap/squeeze risk. A market short chases into support; a long fights the trend with no reclaim. With FOMC Wed as a hawkish binary, the disciplined play is to wait for the market to pick a side. No trade earns its risk here.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 156.29,
+    "expires_min": 240,
+    "note": "A decisive 4h close below 156.29 breaks the last support shelf and confirms continuation toward 152-153 \u2192 short with momentum instead of chasing into support."
+  },
+  "transcript": {
+    "macro": "Cautious risk-off / event-gated. FOMC Wed Jul 30 hawkish tail. Scan stamped Sun 9pm ET \u2192 US AND Korea cash markets CLOSED, thin/gappy. EWY: last 156.79, downtrend (RSI 33, VWAP -4.5%). EXTREME NEGATIVE funding (-0.0022), long/short 1.31, orderbook +0.175, structure_bias +0.36. Korea/semiconductor (Samsung/SK Hynix) proxy riding the chip risk-off; rel-strength -12.2% vs BTC, btc_corr +0.38.",
+    "sentiment": "EWY bearish near-term. KOSPI PLUNGED ~5.7% Fri, snapping a rally, as Samsung (-7.6%) and SK Hynix (-8.3%) got hit by the US-tech/AI-capex selloff; index >60% concentrated in those two chip names. Despite a ~96% 2026 run and bullish long-term calls, the immediate tape is a sharp risk-off correction leveraged to this week's US chip/AI earnings tone.",
+    "analyst": "Stretched to the downside (>2xATR below VWAP, stoch 3.3, %B negative) and sitting ON support 156.29 with extreme neg funding (crowded short, squeeze fuel) on a closed/gappy market \u2014 chasing a short is the account's late-short-into-stretched-tape loser. A long bounce is a counter-trend fade into a violent chip selloff with FOMC Wed and no reclaim (last bar a weak doji). No clean edge either way; HOLD. Trigger: short on a decisive break of 156.29.",
+    "portfolio": "HOLD EWY \u2014 stretched onto support with crowded shorts on a closed tape; wait for a 156.29 break to short with momentum."
+  },
+  "timestamp": "2026-07-28T01:07:30.041485+00:00"
+}

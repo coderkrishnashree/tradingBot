@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "INTC/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Live falling knife: 20 straight 15m bars from 95.0 to 90.78 with volume EXPANDING into the lows and no reversal candle yet (last bar a 145-vol doji on support). Expect a probe/wobble around 90.78 next 1-3 bars; either it cracks toward the 88s (air below) or a real reclaim of 92.6 confirms a mean-reversion bounce toward VWAP ~93.5.",
+  "expectancy_note": "No edge either way: long = catch a knife mid-flush with no confirmation (coin-flip at best); short = chase 6% below VWAP with RSI 14 into a bounce that stops late-shorts (account's #1 loss pattern). p(win) ~0.5 both directions; wait for confirmation instead.",
+  "rationale": "INTC is in a broad live chip capitulation (NVDA/MU/SNDK/TSM all flushing simultaneously), regime chop/blocked, ADX 13, rel str -19.9% (worst horse), stretched -6% below VWAP with 15m/30m RSI ~14 and stoch 4.9. Orderbook +0.40 shows dip-buying at 90.78 but there is zero reversal confirmation and it is FOMC week on a gappy tokenized equity. A long only earns 1.5R+ if 90.78 holds, which I cannot confirm; a short is a textbook stretched-knife trap. Highest-expectancy action is to wait for the knife to be arrested.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 92.6,
+    "expires_min": 240,
+    "note": "Reclaiming the capitulation-bar open at 92.6 proves the flush got bought back and a mean-reversion bounce toward VWAP/93.5 is underway - that is the long entry, not this falling knife."
+  },
+  "transcript": {
+    "macro": "Semiconductor complex in an ACTIVE intraday flush (INTC gapped to support ~90.78) + confirmed sector bear market (SOX >20% off highs; DeepSeek own-chip story, soft Samsung) = hostile for longs. Tokenized equity on US cash-session clock -> gappy off-hours/weekend. DOMINANT SHARED RISK: FOMC Wed Jul 29.",
+    "sentiment": "INTC just reported Jul 23 - messy: beat rev (+25% to $16.1B) and EPS, Data Center/AI +59%, but posted an $11B GAAP loss (CHIPS Act charge). Stock spiked 12-13% AH then gave back over half - no clean follow-through. Catalyst spent; sentiment mixed/choppy.",
+    "analyst": "INTC 91.04 in a broad live chip capitulation (NVDA/MU/SNDK/TSM all flushing), regime chop/blocked (ADX 13), rel str -19.9%, -6% below VWAP, 15m/30m RSI ~14, stoch 4.9. 20 straight red 15m bars 95->90.78 with EXPANDING volume, last bar a 145-vol doji on support, no reversal. Orderbook +0.40 (dip-buying) but unconfirmed. Long = knife; short = stretched-knife trap. HOLD; bounce long only on reclaim >92.6.",
+    "portfolio": "INTC/USDT:USDT - HOLD (conf 0.60): live capitulation at support, unconfirmed; arm bounce long on reclaim >92.6."
+  },
+  "timestamp": "2026-07-27T14:09:14.005048+00:00"
+}

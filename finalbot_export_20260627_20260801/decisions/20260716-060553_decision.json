@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "MSTR/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price is stalling at 98.0-98.3 just under the 102 resistance after a volume-climax push; next few bars likely chop 97.5-98.4. A close below 97.5 opens a fade back toward VWAP ~95.6 then support 90.1; a sustained reclaim of 98.4 extends the melt-up I refuse to chase.",
+  "expectancy_note": "p(win) on a market entry ~0.45 either way: long chases RSI 80.9/ADX 73 into risk-off (account's #1 loss pattern), short has no lower-high confirmation yet and shorts here run 0.47win/-1.59avg. HOLD until the intraday shelf breaks.",
+  "rationale": "MSTR is the most extended, highest-beta name (4h RSI 80.9, ADX 73, +2.47% over VWAP) into a RISK-OFF macro with a bearish idiosyncratic catalyst (Strategy now SELLING BTC). Learner weights punish exactly this profile (adx -0.47, vwap_dist -0.41, structure_bias -0.60) and the book bleeds shorts (-1.59 avg over 30). No honest R:R exists mid-range: a market long chases the climax, a market short lacks rollover confirmation. Wait for 97.5 to break to short toward VWAP, or stand aside.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 97.5,
+    "expires_min": 240,
+    "note": "Losing the 97.5 intraday breakout shelf confirms the RSI-81 climax is rolling over, opening a high-expectancy fade toward VWAP ~95.6 / support 90.1."
+  },
+  "transcript": {
+    "macro": "Overall RISK-OFF/DEFENSIVE, countertrend BTC bounce; crowded longs + flat/negative funding = mean-reversion/squeeze, fade extension. MSTR-specific: funding 0.0, OI 25,837, L/S 1.618, orderbook ~flat, structure_bias -0.174, composite long +0.407 but VERY extended (4h RSI 80.9, ADX 73.2, bb_width 11.2%, ATR 2.16%); btc_correlation 0.729 (leveraged BTC beta AND a US equity), rel-strength +7.89% vs BTC. Dual regime risk: leveraged BTC proxy into a weak monthly tape + equity gap risk when US cash closed. Desk lean MIXED - size down materially, avoid holding naked through US close.",
+    "sentiment": "Relief rally off Jul 15 CPI/PPI miss mostly fired; live <=48h wildcard Warsh. MSTR ~$98, the standout catalyst pair: Q2 2026 earnings confirmed Thu July 30 after US close (outside 48h but key looming binary). Regime shift + active risk: Strategy FLIPPED from accumulation to SELLING BTC - sold 3,588 BTC (~$216M, largest since 2022) to fund preferred dividends, raised $466.7M via share sales and bought ZERO BTC; stock slipped on the 'halted buying' headline. mNAV/dilution/forced-seller concerns can drive idiosyncratic downside; ADX 73 / RSI 80.9 extremely extended. Near-term two-sided with a bearish fundamental tilt.",
+    "analyst": "MSTR is the most extended, highest-beta name into a risk-off tape with a bearish idiosyncratic catalyst (Strategy selling BTC). Learner weights punish this exact profile and the book bleeds shorts, so no honest mid-range R:R: long chases the climax, short lacks rollover confirmation. HOLD; reconsider a fade if 97.5 breaks.",
+    "portfolio": "HOLD MSTR/USDT:USDT - no chase into RSI-81; fade only if 97.5 shelf breaks."
+  },
+  "timestamp": "2026-07-16T06:05:53.670082+00:00"
+}

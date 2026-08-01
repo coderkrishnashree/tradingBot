@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "TSLA/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.62,
+  "playbook": "none",
+  "forecast": "Thin weekend chop between 381.5 support and ~384; no real discovery until Mon Jul 21 open. Expect drift/coil around 382 until US cash reopens, with 4h RSI 16 keeping a mean-reversion bounce risk alive against any short.",
+  "expectancy_note": "No honest R:R either way: short into 4h RSI 16 / ADX 77 is the account's exact losing pattern (shorts 47% win, -0.87 avg), long buys weakness into a Jul 22 earnings coin-flip on single-digit volume. p(win) ~coin-flip, edge < costs -> HOLD is highest expectancy.",
+  "rationale": "Saturday, US markets closed, tokenized-equity perp printing single-digit volume/candle = no price discovery and weekend gap/liquidation risk. TSLA is violently oversold on 4h (RSI 16, ADX 77) with a weak thin bounce on lower TFs into a hard binary (Q2 earnings Wed Jul 22) - no level-anchored entry with >=1.5R exists. Learner data confirms shorts bleed here and longs into weakness are unproven; the disciplined trade is no naked exposure through the weekend/print. Size 0.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 377.78,
+    "expires_min": 240,
+    "note": "Losing 4h support at 377.78 on real Monday volume breaks the oversold floor and confirms a tradable trend-continuation short into liquidity; until then the oversold-bounce risk makes shorting the stretched tape a trap."
+  },
+  "transcript": {
+    "macro": "RISK-OFF/MIXED. Saturday 2026-07-18 - US markets closed until Mon Jul 21; tokenized-equity perps thin, gappy, weekend gap/liquidation risk. Fri equity close weak (S&P -1.01%, Nasdaq -1.4%, chip sell-off). BTC ~$62.9k soft. Funding ~0; long-heavy books contrarian short-supportive. TSLA: MIXED, slight short lean but out is defensible - 4h RSI 16 / ADX 77 violently oversold in strong downtrend (bounce risk cuts both ways), long/short 1.93 crowded longs, orderbook +0.24 bid. Thin weekend book + late-July earnings = low-conviction hold-through-weekend.",
+    "sentiment": "TSLA: RISK-EVENT PENDING (bearish skew into event). Hard binary in ~4 days: Q2 2026 earnings after US close Wed Jul 22 (5:30pm ET). Q2 deliveries already strong (~480k, +34% q/q, best-ever Q2) so beat is known/priced; debate shifts to margins, guidance, Cybercab/FSD roadmap = where disappointment risk lives. Scan shows TSLA hammered on 4h into the print - stretched tape into a binary. Pre-earnings short has event risk; long buys weakness into a coin-flip. Don't hold naked through Jul 22.",
+    "analyst": "TSLA/USDT last 382.23. 4h RSI 16.1 / ADX 77.3 violently oversold in extreme downtrend, -3.24% vs VWAP; 30m +0.864 / 1h +0.361 / 5m +0.564 turning up but thin. Composite long 36% conf, p_win_learned 0.755. Support 377.78, resistance 413.44. Long/short 1.93 (crowded), orderbook +0.235 bid, btc_corr 0.228. 15m stabilizing off 381.48 lows on single-digit volume = weak thin bounce, not impulse. Learner: shorts 0.47wr/-0.87 avg (bleeds), longs 0.75/+3.44. No honest R:R either way; weekend gap + Wed earnings binary dominate. NO TRADE, size 0.",
+    "portfolio": "TSLA - HOLD (conf 0.62): oversold with weekend gap + Jul 22 earnings risk; short only on a real-volume break of 377.78."
+  },
+  "timestamp": "2026-07-18T15:37:10.029833+00:00"
+}

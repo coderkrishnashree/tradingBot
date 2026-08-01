@@ -1,0 +1,25 @@
+{
+  "symbol": "COIN/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.5,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "rationale": "COIN is long-biased (risk-on, orderbook +0.44 buy support, +4.3% RS vs BTC, funding 0/not crowded) but 4h is extremely extended: RSI 77, ADX 67.8, %B 0.91, +2.2% above VWAP. Candles show a 167.45 blow-off rejected hard, a flush to 160.54 bought back, now overlapping bars stalling at 163.3 mid-range - no clean entry. A market long chases the account's #1 loss pattern; a market short fades an ADX-68 uptrend in a risk-on tape (worst-performing pattern). Best expectancy is to wait: buy a dip toward 160.5-161.0 VWAP support, or re-debate on a confirmed 164.5 reclaim. Size 0.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 164.5,
+    "expires_min": 240,
+    "note": "Reclaiming/holding above the 164.45/165.24 rejection shelf proves the stretched-but-intact uptrend resumes, reopening 166-167 for a continuation long."
+  },
+  "transcript": {
+    "macro": "RISK-ON regime (cool CPI, hike odds ~17%, tech leading). COIN lean LONG but STRETCHED/MIXED: scan long (blended +0.462) yet 4h RSI 77.3, ADX 67.8, %B 0.91, >2% above VWAP. Funding 0, L/S 1.26 (not badly crowded), orderbook +0.44. High BTC-corr 0.67 = mostly crypto-beta; chasing an extended move -> favor pullback entries.",
+    "sentiment": "Cautiously risk-on ahead of earnings. COIN NEUTRAL-to-cautious: earnings Jul 30 (not this cycle); CLO Grewal steps down Jul 31 (mild governance negative). Heavily crypto-beta (0.67 BTC / 0.60 SOL) so trades off broad crypto risk; stretched with no near-term catalyst to justify continuation.",
+    "analyst": "Genuinely long-biased on macro/structure (risk-on, buy-side book, +RS, no funding crowding) but the tape is too stretched to buy and too strong to short. 15m candles: a 167.45 blow-off violently rejected (close 163.0, huge wick), the 160.54 flush immediately bought back, now churning at 163.3 mid-range with flat-to-negative 5m momentum. No honest entry - a market long chases a +2.2%/RSI-77 extension (documented #1 loser); a market short fades an ADX-68 uptrend in a risk-on tape (worst pattern: 29 shorts, 48% win, -1.47 avg). Highest expectancy is patience: buy a dip into 160.5-161.0 VWAP support or re-engage long on a confirmed 164.5 reclaim. Trigger armed at 164.5.",
+    "portfolio": "COIN: HOLD, size 0 - long-biased but overbought; armed to buy the pullback or a 164.5 reclaim. conf 0.5."
+  },
+  "timestamp": "2026-07-15T15:06:52.627038+00:00"
+}

@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "NVDA/USDT:USDT",
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "size": 0,
+  "confidence": 0.58,
+  "playbook": "trend",
+  "forecast": "Bounce continues off 190.16 support toward the 194.2-195.2 broken-support/VWAP zone within 2-5 bars; that is where the 4h downtrend re-asserts and offers a clean short back toward 191, not here at 193.39 mid-bounce.",
+  "expectancy_note": "Shorting here (193.39) mid-bounce = ~1x ATR of chop to the ideal 194.5 entry, poor R:R; waiting for the retest gives p(win) ~0.6 with 2R to 190.5. Buying fights a strong 4h down-trend (ADX 49) at the epicenter of a semi selloff.",
+  "rationale": "4h/1h/30m short-aligned with ADX 49, but the 15m tape is a fresh higher-lows bounce off 190.16 (5m RSI 61.5, last bar closed at range high 193.39) and RSI already stretched down, so chasing lows is what the macro note warns against. High-expectancy play is to short the bounce into 194.2-195.2 VWAP/broken-support, not enter mid-move; crowded long/short 2.05 and +0.157 orderbook bid argue for letting the squeeze exhaust. Low BTC corr (0.31): trades on the (bearish but over-extended) semi story.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 194.4,
+    "expires_min": 240,
+    "note": "Tag of 194.2-195 broken-support/VWAP is the rejection point to arm the 4h-trend short toward 191/190.5; a clean break and hold above 195 turns the short off."
+  },
+  "transcript": {
+    "macro": "Risk-off, semiconductor-led selloff (Samsung Q2 sparked semi fear; SOX broke uptrend, Nasdaq below 50-DMA; Nasdaq futures -0.9% vs S&P -0.3%). Pullback from Monday's record highs. BTC chopping ~$62.9k, funding mild +0.01%, OI flat - no crypto risk-on. Environment SUPPORTS tech/semi shorts over hours-to-days, but these are LATE in a one-directional intraday flush (RSIs stretched) so squeeze risk on a bounce is the main hazard; favor smaller size and shorts on a bounce toward VWAP rather than chasing lows. Macro events in window: FOMC minutes Jul 8, June jobs Jul 9.",
+    "sentiment": "Overall: risk to any short book is a BTC/AI-chip sentiment bounce plus the FOMC-minutes/NFP prints. NVDA: constructive/dip-buy, no 48h binary (earnings ~Aug 26), Jul 7 Kyber-delay-rumor denial nudged +1%. EWY: highest near-term catalyst risk - ~40% Samsung/SK Hynix, KOSPI whipsawing on AI doubt (-8% Jul 2, +5.8% Jul 3), Samsung Q2 print + SK Hynix ~$29B Nasdaq DR listing both live, two-way gap risk. MSTR: BTC-proxy (corr 0.81), BTC ~$64k in Extreme Fear (F&G ~23-27); Strategy actively selling BTC to fund preferred divs - slight overhang; bounce off Extreme Fear is key short risk. TSLA: post-catalyst cooldown; Q2 deliveries (Jul 2) beat big at 480,126, now priced; next binary Jul 22 earnings (outside window); overbought, delivery beat argues against pressing shorts. INTC: no 48h trigger (earnings Jul 23); rides semis/Nasdaq beta.",
+    "analyst": "HOLD @193.39. Trend down (4h/1h/30m, ADX 49) but 15m is a fresh bounce off 190.16 support with higher-lows and 5m RSI 61.5 - too early to short mid-bounce, wrong to buy a 4h downtrend at the semi epicenter. Clean short is a retest of the 194.2-195.2 broken-support/VWAP zone. conf 0.58.",
+    "portfolio": "HOLD - short-the-bounce setup, wait for 194.4 retest."
+  },
+  "timestamp": "2026-07-07T14:09:10.632751+00:00"
+}

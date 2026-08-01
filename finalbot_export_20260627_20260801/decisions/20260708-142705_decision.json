@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "MSTR/USDT:USDT",
+  "size": 0.0,
+  "entry": 93.84,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Buyers defended 92 twice (long lower wicks, close back at 93.84); expect chop between 92 support and 95-96 supply over the next few bars, not a clean directional move yet \u2014 likely a grind back toward 95 before the next real decision.",
+  "expectancy_note": "Short is chasing (-6.7% below VWAP, RSI 23, into +0.333 orderbook support & defended 92); counter-trend long is only a bounce on the worst-RS asset. Neither gives R:R>=1.5 with an honest <=1.5xATR stop from here \u2014 wait for a better level.",
+  "rationale": "MSTR is deeply oversold on 4h (RSI 23, bullish divergence) inside a strong prior downtrend (ADX 65.8), sitting 6.7% below VWAP with buy-side orderbook support and 92 defended twice on the 15m \u2014 a bad spot to sell and too weak/counter-trend to buy. Worst RS in the book (-15.4%) and Saylor net-seller overhang keep the structural bias down, but the immediate down-leg is exhausted, so shorting here is late. Best expectancy is patience: short a bounce into 95.5-96.5 supply, or a clean breakdown of the defended 92 low toward 88/83 \u2014 not the current mid-range.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 91.9,
+    "expires_min": 240,
+    "note": "Losing the twice-defended 92 low proves buyers failed and reopens the downtrend toward 88/83 \u2014 a clean trend-continuation short entry."
+  },
+  "transcript": {
+    "macro": "Cautiously risk-on grind. BTC ~$62-64k bounced ~6% on soft jobs, dominance ~54-55% rising so MSTR trades as crypto-beta. DXY <102, negative real yields supportive. MSTR: structure_bias -0.041, funding 0.0, orderbook +0.333 buy-side support, btc_corr 0.788, RS -15.4% (worst), 4h RSI 23.1 + bullish divergence, ADX 65.8. Saylor sold 3,588 BTC overhang. Trim size; tokenized equity thin outside US hours.",
+    "sentiment": "Strategy launched BTC Monetization Program (sell up to $1.25B), executed largest-ever ~$216M sale \u2014 net BTC seller = structural negative for leveraged-BTC thesis. ~29% bounce off $82 low on FADING volume/negative money flow \u2014 weak rally. Tilt: bearish-lean, but 0.79 BTC correlation means a BTC bounce can overpower the narrative.",
+    "analyst": "Last 93.84 vs support 83.45 / resistance 108.96, -6.74% below VWAP, deeply oversold. 15m candles show buyers defending ~92 twice (long lower wicks, close back near 93.8) = immediate down-leg exhaustion. Shorting here is chasing into buy-side support and a defended level; counter-trend long is only a low-conviction bounce on the worst-RS asset. Neither offers R:R>=1.5 with an honest stop. Wait for a bounce into 95.5-96.5 supply to short with the trend, or a clean loss of 91.9 to short the breakdown toward 88/83.",
+    "portfolio": "MSTR \u2014 HOLD (0.50): oversold-bounce chop between defended 92 and 95-96 supply; no clean R:R either way, wait for a better level."
+  },
+  "timestamp": "2026-07-08T14:27:05.316574+00:00"
+}

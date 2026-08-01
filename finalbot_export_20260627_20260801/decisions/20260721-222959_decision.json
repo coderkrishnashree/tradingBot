@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "INTC/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.66,
+  "playbook": "none",
+  "forecast": "Chop/fade in the 104-106.3 zone over the next few bars; last two 15m candles are red closing near range-low (105.24), momentum stalling at the top of the parabola. No clean directional edge before the Jul 23 earnings binary.",
+  "expectancy_note": "Both sides negative expectancy: long chases RSI 86.8 / +6.35% above VWAP into crowded L/S 1.78 and a ~15% implied earnings gap; short fights ADX 90.7 with no reversal confirmation. HOLD dominates.",
+  "rationale": "INTC is parabolic and stretched (+6.35% above VWAP, RSI 86.8, ADX 90.7, %B 0.958) with the book crowded long into a binary earnings print inside 48h that options price at ~15% - that event overwhelms any 15m structure. The near-term composite is actually turning (15m score -0.182, 5m flat) so there's no momentum to ride, and any honest stop would be steamrolled by a routine counter-bounce or the earnings gap. No trade with acceptable R:R exists here; flat into Thursday is the highest-expectancy call.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 115.46,
+    "expires_min": 240,
+    "note": "A clean break/hold above the 115.46 resistance would signal fresh momentum breakout worth a small trend continuation - but still size for the earnings event risk."
+  },
+  "transcript": {
+    "macro": "Regime RISK-ON but late-cycle stretched, event-gated. Post-close perps thin/gappy. INTC: momentum long but EVENT + parabolic risk. Earnings Jul 23 (inside 48h). Up ~278% H1 then chopped ~28% off June highs - extreme volatility. RSI 86.8, ADX 90.7, +6.35% above VWAP, ATR 2.17% - parabolic/stretched. L/S 1.78 crowded long. Coin-flip into earnings; event trade, smaller size. Lowest BTC corr (0.19).",
+    "sentiment": "INTC NEUTRAL / VERY HIGH EVENT RISK. Earnings Thu Jul 23 after close. Options imply a massive ~15% move - most explosive of the group. Up huge YTD (+163% cited) on 18A foundry momentum and Apple/Microsoft partnership headlines - stretched, momentum-loaded into a binary. Consensus ~$14.4B rev, ~$0.22 EPS, 39% gross margin key watch. Flat into Thursday close unless deliberately trading the binary. Two-sided risk.",
+    "analyst": "Textbook NO-TRADE. Long chases a >6% extended RSI 86.8 parabola with crowded L/S 1.78 into a ~15% implied earnings binary where either side gaps through any honest stop. Short is equally reckless: fighting ADX 90.7 with no reversal confirmation and crowd fuel could still squeeze. Near-term composite turning (15m -0.182, 5m flat) so no momentum to ride. Event dominates all technical structure inside the window. Flat into Thursday is highest-EV.",
+    "portfolio": "INTC: HOLD (0.66) - parabolic + crowded into ~15% implied earnings binary <48h; no acceptable R:R either side, stay flat."
+  },
+  "timestamp": "2026-07-21T22:29:59.448124+00:00"
+}

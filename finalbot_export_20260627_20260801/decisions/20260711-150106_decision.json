@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "CRCL/USDT:USDT",
+  "size": 0.0,
+  "entry": 66.98,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Expect violent two-way chop 66.4-67.5; the record-volume rejection bar (spiked 67.38, closed 66.98 near the 66.70 low) points to a probe of 66.4-66.5 first, but the crowded-long book + <48h OCC bull catalyst make a short squeeze-prone and a long a chase.",
+  "expectancy_note": "p(win) ~0.5 either direction; 3.35% ATR whipsaws any honest tight stop, and conflicting TFs (4h/1h long vs 5m/30m short) give no edge - flat beats forcing a coin-flip.",
+  "rationale": "CRCL is the caution flag: L/S 2.695 (most crowded long), rel_str -18.49% (worst laggard), aligned=false, and just printed a bearish rejection at VWAP on the heaviest volume of the sequence. With TFs split and off-hours/Monday gap risk plus Tue CPI, no expectancy edge survives the 3.35% ATR noise. Hold and let price pick a side; size 0.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 67.55,
+    "expires_min": 240,
+    "note": "Reclaiming above the 67.38 rejection high proves the OCC bull catalyst is resuming and the record-volume slap failed - re-debate a long toward 68.5/resistance."
+  },
+  "transcript": {
+    "macro": "Split tape: risk-ON US equities (S&P 7,575, Nasdaq 26,282, records on AI/chip optimism, Meta/Nvidia leadership), risk-OFF crypto (BTC ~$62-64k, -18% MTD, sub-200wMA, Fear&Greed 22 Extreme Fear) - treat buckets separately. Dominant near-term risk: June CPI Tue Jul 14 (Warsh testifies same day; hawkish FOMC minutes, some floated a HIKE) = binary gap risk for carries into Monday night. Big-bank earnings Jul 14-15; FOMC Jul 28-29 ~89% hold. TSLA earnings Jul 22, META Jul 29 (beyond 48h). Tokenized US equities (TSLA/SNDK/META/QQQ/CRCL) trade thin/gappy over the closed weekend cash session - real direction at Monday Nasdaq open. Positioning: BTC only pair with real funding (mildly +, L/S 1.329, bid ob +0.762, RSI 73.7 stretched counter-trend bounce); META strongest rel-str (+16.5%) but RSI80/stoch95; TSLA crowded-long L/S 1.698; SNDK parabolic (1h RSI 91, +9.4% VWAP); QQQ pinned at 730 resistance RSI 80.5; CRCL most crowded-long L/S 2.695, worst laggard rel-str -18.5%, squeeze-prone. Backdrop argues smaller size/tighter risk into Monday night.",
+    "sentiment": "Shared overlay: June CPI Tue Jul 14 + Warsh testimony is the dominant 24-48h binary on a 'good-news-is-bad-news' hawkish-Fed tape; US cash equities closed over the weekend so tokenized pairs trade thin/gappy until Monday with Monday-night/Tuesday CPI gap risk. TSLA: mildly bullish but catalyst spent - Q2 deliveries 480,126 vs ~406k (Jul 2) already priced; next binary Jul 22 earnings. SNDK: bullish momentum but stretched - +683% YTD, blowout earnings, Bernstein PT $3,000 (long-horizon), screamingly overbought (1h RSI 91), off July highs; risk is momentum unwind not news. META: bullish fresh catalyst - ~6-10% jump Jul 10 on 'Meta Compute' AI-cloud unit; offset by higher-capex concern; extended; earnings Jul 29. QQQ: neutral macro-hostage - no single-name catalyst, pinned at ~730 resistance, direction hinges on CPI. BTC: cautiously bullish washed-out reversal - Fear&Greed ~23, higher lows ~$64k, ETF flows flipped + (+$265M Jul 7), >$450M shorts liquidated above $62k, but 30d ETF flow still -$6.3B; macro-capped by CPI; break/hold >$63.8k is bull trigger. CRCL: bullish news shock but two-sided - Jul 10 OCC approved Circle National Trust (+16% intraday to ~$72.85, <48h old); counterweights Compass Point PT cut to $55 (Stripe competition), Coinbase USDC renewal awaited Aug; high ATR, violent chop; most headline-driven name.",
+    "analyst": "Caution flag: L/S 2.695 (most crowded long), worst laggard (rel-str -18.5%), aligned=false, and a bearish rejection at VWAP on the heaviest volume of the sequence. Split TFs (4h/1h long vs 5m/30m short) + 3.35% ATR whipsaw = coin-flip. HOLD.",
+    "portfolio": "CRCL: HOLD (0.60) - crowded-long squeeze-prone laggard, record-volume rejection at VWAP, no edge in the chop."
+  },
+  "timestamp": "2026-07-11T15:01:06.098554+00:00"
+}

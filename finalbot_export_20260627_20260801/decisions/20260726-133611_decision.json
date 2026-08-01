@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "AAPL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Price stays pinned in the 331.5-335.3 shelf just under resistance; 15m coils flat with fading closes (332.8 rejected, holding ~332.5) into a thin closed-cash weekend. No decisive break either way in the next few bars - most likely chop, then a Monday gap sets direction into FOMC.",
+  "expectancy_note": "No edge: long is late into 4h RSI 85 (macro veto, FOMC Tue), short fights strong +0.74 bid with no confirmed rejection and this account shorts lose (0.47 win, -0.78 avg). p(win) on either forced entry <0.5; HOLD is highest expectancy.",
+  "rationale": "AAPL is stretched (4h RSI 85.4, stoch 88) and capped at 335.34, but the 5m has only just turned and the 15m tape is coiling flat under resistance with no clean rejection, while the orderbook is strongly bid (+0.74) - a short has no trigger and fights support, and a fresh long into 85 RSI ahead of FOMC (Tue-Wed) and earnings (Thu AMC) is exactly the chase this book gets punished for. US cash is closed (thin/gappy Sunday) so any move is unreliable; wait for the stretch to actually break. Size 0 - no honest R:R here.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 331.5,
+    "expires_min": 240,
+    "note": "Losing the intraday shelf confirms the 85-RSI stretch is unwinding, opening a clean momentum short toward VWAP/support 319.5 with the stop above 333.5 - the only setup with real edge here."
+  },
+  "transcript": {
+    "macro": "Regime HOSTILE-to-MIXED. S&P -1.21%, Nasdaq -2.15% on Jul 23. FOMC Jul 28-29: ~36% hike tail. Firm dollar. Sunday Jul 26 US cash CLOSED; equity perps thin/gappy; Monday gap risk into FOMC week. AAPL: odd one out - BTC-corr -0.09 (diversifier), crowd near-flat (L/S 1.08), orderbook strongly bid (+0.74), rel-strength +5.4%. BUT 4h RSI 85.4 badly overbought, 5m already turned short. Long late; consider only a fade of the stretch.",
+    "sentiment": "AAPL: EARNINGS Thu Jul 30 AMC - HARD BINARY, one day after FOMC. Consensus ~$108.9B rev, ~$1.89 EPS. Narrative wrinkle: reportedly Tim Cook's last call as CEO, raising headline/guidance sensitivity. Neutral-to-cautious tone; don't carry size into Thu close.",
+    "analyst": "AAPL stretched (4h RSI 85.4, stoch 88) capped at 335.34, but 5m only just turned and 15m coiling flat under resistance with no clean rejection while orderbook strongly bid (+0.74). Short has no trigger and fights support; fresh long into 85 RSI ahead of FOMC + Thu earnings is the chase this book gets punished for (shorts 0.47 win / -0.78 avg; model penalizes rel-strength). US cash closed Sunday, moves unreliable. HOLD, arm momentum short below 331.5.",
+    "portfolio": "AAPL: HOLD (conf 0.50) - overbought/capped but no rejection and strong bid; fade only on loss of 331.5, no naked size into FOMC/Thu earnings."
+  },
+  "timestamp": "2026-07-26T13:36:11.413552+00:00"
+}

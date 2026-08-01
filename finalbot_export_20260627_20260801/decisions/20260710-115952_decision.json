@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "ORCL/USDT:USDT",
+  "size": 0.0,
+  "entry": 145.93,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Chop/fade in the 145.0-146.9 range into the 09:30 ET cash open; expect a dip toward VWAP ~143.6 as the 146.9 stall resolves lower before any real directional break.",
+  "expectancy_note": "No R:R>=1.5 edge: long is extended (%B 0.85, +1.6% VWAP, at upper band); short lacks a trigger (still above VWAP, 15m/30m green). Thin closed-market tape + most-crowded long book (L/S 2.52) = stop-run risk both ways. HOLD is highest-expectancy.",
+  "rationale": "ORCL pushed to 146.94 on strong volume then stalled below 149.29 resistance with lower highs/closes on the last 6 bars while 5m RSI faded to overbought-exhaustion \u2014 momentum is stalling, not breaking. Weakest RS name (-21.82% vs BTC), most crowded long (L/S 2.52) into a thin closed US-cash tape prone to sweeps, with an S&P downgrade overhang and ex-div today. No clean long (chasing) and no confirmed short (above VWAP), so no honest 1.5R trade exists; wait for the cash open to resolve direction.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 143.6,
+    "expires_min": 180,
+    "note": "Losing VWAP ~143.6 confirms the 146.9 stall failed and opens a momentum short toward support 137.6."
+  },
+  "transcript": {
+    "macro": "Regime RISK-ON/supportive. BUT scan ~07:55 ET, US CASH CLOSED (pre-open ~1h35m); tokenized-equity perps thin/gappy until 09:30. Whole book crowded long (L/S >1.4). ORCL last 145.93, most crowded long book (L/S 2.52) but structure_bias only -0.297 (funding flat, orderbook +0.01). Short-TF momentum UP (15m/30m +0.9, RSI ~64); 5m overbought-fading. btc_corr 0.359. Weakest single-name: ~-25% YTD, ~-32% MTD, contested $140-145 zone, bearish longer chart; RS -21.82% vs BTC. Momentum-up but crowded into resistance; MIXED, tactical over swing.",
+    "sentiment": "ORCL (Oracle): NEUTRAL, mild bearish tilt. Ex-dividend TODAY ($0.50) minor drag. Next earnings September (no binary). S&P downgrade to BBB- on negative FCF; 'great growth, valuation overhang.' No imminent catalyst; weak RS + downgrade argue against aggressive longs, nothing forces a 48h move.",
+    "analyst": "Momentum-up on 15m/30m but faded into a stall below 149.29 resistance, price +1.6% above VWAP at upper Bollinger band = not a place to chase a long, and not a clean short either (still above VWAP, 15m/30m green). No clean edge with R:R>=1.5 into a thin closed-market tape on the most crowded long name. HOLD with reconsider on a VWAP break.",
+    "portfolio": "ORCL \u2014 HOLD (0.60): extended long / no short trigger into thin tape; short only if it loses 143.6."
+  },
+  "timestamp": "2026-07-10T11:59:52.597705+00:00"
+}

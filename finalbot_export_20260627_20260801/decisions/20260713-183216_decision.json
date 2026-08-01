@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "SOL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price is basing on support 74.42 after a 616k-volume capitulation bar; expect it to chop 74.4-75.4 into the CPI print. A clean 15m/30m close below 74.42 opens the next long-liquidation leg toward ~72.5; failure there means a relief bounce back toward VWAP ~76.9.",
+  "expectancy_note": "p(win) too low either way now: short is stoch 9.3 / -2.76% vs VWAP / on-support = the exact late-trend chase that lost this account (shorts 46% win, trend pb -2.51 avg). No R:R>=1.5 without chasing. Best EV is wait for the 74.42 break to short WITH liquidation fuel.",
+  "rationale": "SOL just flushed to support 74.42 on huge volume and is now printing small stabilizing bars right on it, deeply oversold (stoch 9.3, RSI 29.5, %B -0.11, 2.76% below VWAP). A market short here is precisely the account's #1 loss pattern (late short into stretched tape, stopped by the counter-bounce), and a long is a knife-catch against ADX-59 downtrend into tomorrow's CPI binary. No honest entry offers R:R>=1.5 without chasing, so I wait. A decisive break of 74.42 arms a proper trend short with 2.55 long-skew liquidation fuel and avoids the chase.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 74.4,
+    "expires_min": 240,
+    "note": "Losing support 74.42 on a closed bar confirms the flush continues and triggers long-liquidation cascade \u2014 clean trend-short entry toward 72.5 rather than chasing the oversold snapshot now."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF/defensive. BTC ~$62k at 21-month lows, worst-ever ETF outflow month; BTC dominance 56.3% elevated -> high-beta alts doubly exposed. Fed held, cut off table, yields higher. SOL is the only real-time name (others are tokenized equities, US market closed Sunday). SOL funding ~flat/slightly negative, OI large (6.51M), price at lows. L/S 2.55 heavily long-skewed -> long-liquidation fuel below; on support 74.42, RSI 29.5, stoch 9.3 (stretched). btc_corr 0.79 -> SOL short = BTC-down bet; rel strength +8.6% vs BTC. Chase risk high into oversold.",
+    "sentiment": "SOL cleanest short. Fear&Greed ~22-29 (Extreme Fear), 84% of alts below 200-DMA; rejected hard $78-80, broke rising channel. Fresh negatives this week: Phantom wallet degraded performance + ~$14.2M genesis-wallet exploit. Offsetting long-horizon positives (spot ETF inflows ~$1.1B, Alpenglow Q3, Clearstream custody) not 48h movers. Pinned at support 74.42 -> squeeze risk if BTC bounces. CROSS-CUT: US CPI (June) Tue Jul 14 8:30am ET is a market-wide binary inside the window.",
+    "analyst": "SOL flushed to support 74.42 on a 616k-volume capitulation bar and is now printing small stabilizing bars right on it, deeply oversold (stoch 9.3, RSI 29.5, %B -0.11, -2.76% vs VWAP). Account learner stats show late trend shorts into stretched tape are its #1 loser (24 shorts 46% win avg -1.67; trend playbook 45% win -2.51 avg) \u2014 a market short here is exactly that pattern; a long is a knife-catch vs ADX-59 downtrend into CPI. No entry clears R:R>=1.5 without chasing -> HOLD, armed reconsider on a decisive close below 74.42 for a proper trend short with 2.55 long-skew liquidation fuel.",
+    "portfolio": "SOL/USDT:USDT \u2014 HOLD (no chase); arm short on a decisive close below 74.42."
+  },
+  "timestamp": "2026-07-13T18:32:16.575494+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "MSFT/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.4,
+  "playbook": "none",
+  "forecast": "Thin Sunday tape keeps MSFT pinned 396.4-398 into Monday; the 16.5/144.9-vol pops are likely on-chain fakes that mean-revert toward VWAP ~398 or fade back to the 396.4 coil base rather than trend cleanly to 406.",
+  "expectancy_note": "Long p(win) only ~0.5 here: mid-range (397 vs 378/406), at VWAP, no level edge, R:R to 406 is decent but entry is a chase not a pullback; HOLD beats a thin closed-market long.",
+  "rationale": "The composite (74.6% long, all TFs aligned, ADX 43.8) is real but the environment fights it: tokenized MSFT on a Sunday with US cash CLOSED means thin/gappy prices that snap on Monday open, RISK-OFF macro, crowded L/S 1.75 and orderbook -0.22 against the long, RS lagging -3.4%, and 1h RSI 77.7 already hot mid-range. Price sits at VWAP with no support/resistance edge, so any entry is mid-air chasing. No trade beats forcing a low-quality long into illiquid weekend tape; wait for a real structural break with Monday liquidity.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 400.0,
+    "expires_min": 240,
+    "note": "A clean hold above 400 (round-number/range-upper break) on real volume would confirm the aligned uptrend is following through rather than a thin-tape fake, opening a continuation long toward 406."
+  },
+  "transcript": {
+    "macro": "RISK-OFF/defensive. Fri equities sold off (S&P -1.0%, Nasdaq -1.4%) on AI-capex/semi scare + US-Iran escalation. Crypto Fear (F&G 26), 10Y 4.56%, DXY 101. Sunday, US cash markets CLOSED \u2014 MSFT tokenized equity, thin/gappy, Monday-open reprice risk; size down. MSFT: highest composite conf 74.6% (long) but a long into risk-off closed market, L/S 1.75 crowded, orderbook -0.22, RS -3.4% lagging. 397 mid-range (support 378 / resistance 406).",
+    "sentiment": "MSFT tokenized equity. NO catalyst inside 48h. Q4 FY2026 earnings after close Wed Jul 29 (~10d out) \u2014 dominant risk, don't hold blind into it. Trades on broad tech/Nasdaq tone; tech/semis soft into the week. Near-term news NEUTRAL.",
+    "analyst": "Composite is genuinely bullish (74.6%, all TFs aligned, ADX 43.8) but environment fights it: closed-market Sunday thin/gappy tape (16.5/144.9-vol pops look like on-chain fakes), risk-off, crowded L/S 1.75, orderbook -0.22, RS -3.4%, 1h RSI 77.7 hot, price at VWAP mid-range with no level edge. Long is mid-air chasing = #1 loss pattern. HOLD; re-engage on clean hold >400 with Monday liquidity.",
+    "portfolio": "MSFT \u2014 HOLD (conf 0.40): strong signal but no edge into thin closed-market tape; re-arm long above 400."
+  },
+  "timestamp": "2026-07-19T06:43:11.325120+00:00"
+}

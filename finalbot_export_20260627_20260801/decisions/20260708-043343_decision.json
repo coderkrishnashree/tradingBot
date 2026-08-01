@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "EWY/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.34,
+  "playbook": "none",
+  "forecast": "Price is oversold (stoch 6.9, RSI 24 on 15m/5m, %B 0.09) and knifing into support 174.61 after losing the 181.6 shelf on rising volume; over the next 2-6 bars I expect either a capitulation flush to 174.6 then a sharp mean-reversion bounce, or a grind sideways above 177 - neither offers a clean entry yet. A reclaim of 181.6 would confirm the oversold reversal is real.",
+  "expectancy_note": "Short: p(win)~0.4, target 174.6 only 2.2% away vs honest stop above 181.6 (~1.7x ATR) = R:R <1 - fails. Long fade: no reversal confirmation, chop regime. HOLD beats both; account data shows losers give back 2-2.7R chasing wide-stop trend trades.",
+  "rationale": "EWY is regime-blocked chop (ADX 19.5) in the epicenter of the AI-doubt semi selloff, -14.6% RS, extended -3.74% below VWAP and only ~2.2% above support 174.61. Shorting into deep oversold this close to support gives sub-1.5 R:R to the first target; the bounce-fade has no confirmation with the last bar closing near its low. With the book already bleeding on the winner/loser asymmetry, the highest-expectancy call is to wait for either a support bounce or a shelf reclaim.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 181.6,
+    "expires_min": 240,
+    "note": "Reclaiming the 181.6 shelf it just lost proves the oversold selloff has exhausted and a mean-reversion long toward VWAP/183-185 is live."
+  },
+  "transcript": {
+    "macro": "Regime MIXED, risk-off intraday. Fed on hold, hawkish Warsh -> firmer USD, no FOMC/CPI inside 48h; semis key swing factor. EWY $178 Korea ETF; KOSPI just had historic 70% quarter on memory supercycle, now profit-taking + semi-driven drops. EWY chop-blocked (regime=chop), RSI 32, -14.6% RS, bearish divergence - pullback within uptrend, don't chase short.",
+    "sentiment": "EWY (Korea) Highly volatile, bearish momentum. KOSPI -4.9% on Jul 7 after wild swings (down ~8% one session, +5.8% the next). Epicenter of AI-doubt selloff via Samsung/SK Hynix. Government AI/semi support fund is a longer-term backstop, not a 48h catalyst. Expect whippy high-beta moves tracking chip sentiment.",
+    "analyst": "Chop regime (ADX 19.5), knifing into support 174.61 after losing the 181.6 shelf; deeply oversold (stoch 6.9, %B 0.09) only 2.2% above support = short R:R <1 to first target. No reversal confirmation for a long fade (last bar closed near its low). Learner stats show losers give back 2-2.7R chasing wide-stop chop trades. HOLD; long only on a 181.6 reclaim.",
+    "portfolio": "HOLD EWY/USDT:USDT \u2014 oversold into support in chop; no clean entry."
+  },
+  "timestamp": "2026-07-08T04:33:43.597558+00:00"
+}

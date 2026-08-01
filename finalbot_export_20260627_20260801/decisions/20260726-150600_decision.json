@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "META/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.55,
+  "playbook": "none",
+  "forecast": "Coiling 598.6-601 just below VWAP; expect continued chop into support 592.5. A clean 15m close below 598.6 opens the next leg to 592.5; absent that, likely a mean-revert bounce toward 602-605 that would trap a market short.",
+  "expectancy_note": "p(win) on a market short here ~0.45 (RSI 32-34 stretched, right above support, book loses on late shorts); R:R ~1:1 to 592.5 vs honest stop above 601/VWAP. HOLD beats chasing; a break of 598.6 converts a poor entry into a real one.",
+  "rationale": "Composite is short and aligned but RSI (4h 32.8, 15m 34.6) is already stretched down and price is coiling above support 592.5, not breaking - a market short is the account's #1 loss pattern (late short into a bounce; shorts here win only 47% at -0.78 avg). Earnings Wed after close caps the window at ~2.5 days, so this must resolve on structure fast. Waiting for 598.6 to give way (fresh impulse) or a VWAP retest to 605 (better fade entry) is far higher expectancy than selling the coil now.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 598.6,
+    "expires_min": 240,
+    "note": "Losing the coil low / immediate support triggers the next short leg toward 592.5 with momentum, turning the stretched drift into a valid continuation entry."
+  },
+  "transcript": {
+    "macro": "Regime MIXED-to-RISK-OFF, event-gated. Nasdaq -2% on the week (AI-capex worry + geopolitics). FOMC Wed Jul 29 (~64% hold, live two-way). US-Iran strikes ongoing. META lens: LEAN SHORT into the print then STAY OUT; scan already short (blended -0.709, 74% conf, RSI 32.8, aligned down) but earnings Wed after close cap the window - event not trend past Wed. Low BTC corr (0.29), equity-beta.",
+    "sentiment": "HARD CATALYST: Q2 earnings after close Wed Jul 29 4:30pm ET - binary inside 48h window, expect a gap. Down ~10% YTD into print; sentiment cautious/mixed. Any short-term trade must respect the Jul 29 earnings landmine.",
+    "analyst": "Composite short/aligned but RSI 4h 32.8 / 15m 34.6 already stretched; price coiling 598.6-601 above support 592.5, not a fresh breakdown. Shorting the coil is the account's late-short-into-bounce loss pattern (shorts 47% win, -0.78 avg). No honest 1.5R market entry; earnings Wed caps holding to ~2.5 days. Wait for a break of 598.6 (fresh impulse) or a VWAP retest to 605 (better fade).",
+    "portfolio": "HOLD META - no fresh risk; armed to short on a 15m break below 598.6, flat into Wed earnings."
+  },
+  "timestamp": "2026-07-26T15:06:00.688962+00:00"
+}

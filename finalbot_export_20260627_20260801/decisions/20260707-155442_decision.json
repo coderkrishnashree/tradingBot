@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "NVDA/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.35,
+  "playbook": "none",
+  "forecast": "Light-volume bounce off 190 stalls in the 194-195 zone; expect chop between 190.16 support and 200.68 resistance over the next several bars with no clean directional edge \u2014 likely a drift back toward 192-193 VWAP rather than a decisive break either way.",
+  "expectancy_note": "No trade: mid-air at 194 between support(190.16)/resistance(200.68), 5m RSI 80 overbought into a fading-volume bounce, TFs conflict (1h +0.54 vs 4h -0.84); neither long nor short clears R:R>=1.5 with a real level to lean on.",
+  "rationale": "NVDA is basing after the June chip crash with genuinely two-sided signals \u2014 a crowded long book (L/S 1.95, funding +0.00024, structure_bias -0.38 = squeeze risk against longs) offset by a supportive fundamental bid, and the scan itself down-weights the read (align_factor 0.7, confidence 14.7%). The last bars are a higher-low grind up but on declining volume into overbought 5m, stalling well below the 200.68 resistance \u2014 no clean entry level at 194 for either side. With CPI (Tue 7/14) as the dominant catalyst still ahead and no 48h binary now, expectancy favors waiting for price to reach a real level before committing size.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 190.16,
+    "expires_min": 240,
+    "note": "Losing the 190.16 base confirms the crowded-long squeeze is unwinding and opens a clean trend-continuation short with the 4h downtrend, a real level to lean against."
+  },
+  "transcript": {
+    "macro": "Index tape firm but chips fragile \u2014 violent June chip selloff (PHLX -10% June 5) then V-bounce (WDC +7%, AMD +6.6% July 7). Rates/USD a headwind: Fed held 3.50-3.75% June 17, hawkish dot plot. Dominant catalyst: June CPI Tue July 14 -> July 29 FOMC. NVDA verdict: MIXED, NO EDGE \u2014 smallest size or stay out. Most crowded long book: funding +0.00024, L/S 1.95, structure_bias -0.38, but scan down-weights it (align_factor 0.7) and TFs conflict (1h +0.54 vs 4h -0.84). Price basing at 190 support, RS -4.7% vs BTC. Fundamental bid (Goldman 'compelling' 21.7x, Kyber-delay denied). Genuinely two-sided, LOWEST conviction.",
+    "sentiment": "NVDA neutral. SemiAnalysis Kyber NVL144 delay rumor DENIED by Nvidia ('roadmap intact'), stock turned green +1% on the denial \u2014 binary is behind us. Bull: ~$1T confirmed AI chip demand through 2027, Blackwell sold out through mid-2026, Rubin pulled forward. Bear: NVDA lagging (only ~7% YTD) as Broadcom custom ASICs erode the story. No earnings/hard <=48h catalyst; near-term path dominated by sector/CPI tape.",
+    "analyst": "Higher-low grind up off 191.34 on FADING volume, last bar near its high but 5m RSI 80 (extended). Mid-air at 194 between 190.16 support and 200.68 resistance \u2014 no clean level to lean against. Long chases the crowded book + overbought 5m; short has no top confirmation and fights the 1h bounce. Scan itself down-weights (align_factor 0.7, conf 14.7%). No edge either way \u2014 HOLD; losing 190.16 flips to a clean short.",
+    "portfolio": "NVDA: HOLD (0.35) \u2014 lowest conviction, no clean level at 194; wait for 190.16 break."
+  },
+  "timestamp": "2026-07-07T15:54:42.357894+00:00"
+}

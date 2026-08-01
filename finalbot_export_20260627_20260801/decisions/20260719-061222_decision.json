@@ -1,0 +1,22 @@
+{
+  "action": "short",
+  "symbol": "EWJ/USDT:USDT",
+  "size": 1.5,
+  "entry": 90.8,
+  "stop_loss": 91.55,
+  "take_profit": 88.3,
+  "take_profit_1": 89.65,
+  "take_profit_2": 88.3,
+  "confidence": 0.58,
+  "playbook": "trend",
+  "forecast": "Price bounced off the 89.70 flush low back to 90.08 on thin Sunday tape; expect a dead-cat retest of the 90.7-91.0 broken-support/VWAP zone within a few bars, which fails and resumes the downtrend toward 89.65 then support 88.16 over the next 24-48h.",
+  "expectancy_note": "p(win)~0.55; limit-fade the bounce gives R:R ~1.5 to TP1 and ~3.3 to TP2; beats market-shorting here (1h RSI 15.2, -2.1% below VWAP = chasing) and beats HOLD given cleanest short, RS -10.8%, ADX 46.8 all-TF down, live JP225/semi catalyst.",
+  "rationale": "EWJ is the cleanest short on the board: every timeframe scores short, ADX 46.8, RS -10.8% vs BTC, crowded-long structure (bias -0.23) is fuel, and the JP225 -4% semi rout plus yen intervention risk are live 48h catalysts. But price is already 2.1% below VWAP with 1h RSI at a stretched 15.2 and just bounced off 89.70 \u2014 market-shorting now is the account's classic late-short-into-the-bounce loss, so I place a LIMIT short at the 90.80 retest with stop 91.55 (~1x ATR, above minor structure), TP1 89.65 and TP2 88.30 (near support 88.16). Size held to 1.5% for Sunday illiquidity/gap risk since US cash is closed.",
+  "transcript": {
+    "macro": "Mildly risk-off, tech-led. Nasdaq -2.9% / S&P -1.6% on the week on an AI-capex/semiconductor rout. Sunday Jul 19 \u2014 US cash equities closed, so equity tokens are thin/gappy/stale until Monday open. Crypto neutral-to-heavy: BTC ~$63.9-64.7k flat, dominance ~56.3%. Positioning crowded-long across the board \u2014 headwind for fresh longs. EWJ is the cleanest short: trend down all TFs, RS -10.8% vs BTC, thin on a Sunday. Cycle bias: favor shorts/fades; reduce size on weekend illiquidity.",
+    "sentiment": "Risk-off, bearish tilt \u2014 AI-capex/semiconductor selloff dominant. EWJ: bearish with active catalyst \u2014 Japan JP225 -4.0% on Jul 17 led by AI/semi names (Kioxia -16%, Tokyo Electron -8%, SoftBank -9%); yen in high 162s keeps intervention risk live; BOJ decision Jul 30. Near-term news supports the SHORT lean.",
+    "analyst": "Cleanest short: all TFs short, ADX 46.8, RS -10.8% vs BTC, crowded-long structure is fuel, live JP225/semi + yen catalysts. But already 2.1% below VWAP with 1h RSI 15.2 and just bounced off 89.70 \u2014 market-shorting now = chasing. LIMIT short at 90.80 retest, stop 91.55 (~1x ATR), TP1 89.65 / TP2 88.30 (near support 88.16). Size 1.5% for Sunday illiquidity.",
+    "portfolio": "EWJ \u2014 SHORT (size 1.5%): the cycle's cleanest short; limit-fade the dead-cat bounce at 90.80, stop 91.55, targets 89.65/88.30."
+  },
+  "timestamp": "2026-07-19T06:12:22.619866+00:00"
+}

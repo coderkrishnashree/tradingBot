@@ -1,0 +1,25 @@
+{
+  "symbol": "EWJ/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.34,
+  "size": 0.0,
+  "entry": 93.23,
+  "stop_loss": 94.6,
+  "take_profit": 92.14,
+  "playbook": "none",
+  "forecast": "Dead tape: last 3 bars printed 0.0 volume pinned at 93.23. No tradable next move - likely a gappy drift between support 92.14 and 93.6 until US-hours liquidity returns; direction unpredictable with a bullish-divergence bounce risk offsetting strong down-ADX.",
+  "rationale": "EWJ is functionally untradeable: recent 15m candles show near-zero volume (0.0-1.3), last three bars flat at 93.23, so any stop or target fills on a gap. ADX 67.8 confirms a strong downtrend, but 4h RSI 36 + stoch 13 + bullish-divergence flag sit just $1.1 above support 92.14 - the short has no room and real bounce risk. Illiquidity and gap risk dominate a thin edge; crowded-long book (L/S 1.554) is the only mild short tell. Size 0.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 92.14,
+    "expires_min": 240,
+    "note": "Losing support 92.14 on real US-hours volume validates trend-continuation short (ADX 67.8 down) with actual exit liquidity."
+  },
+  "transcript": {
+    "macro": "Regime risk-OFF; oil +5% headwind. EWJ THIN - near-zero volume, gappy, US-hours liquidity only. ADX 67.8 strong downtrend but 4h RSI 36 + bullish divergence = stretched. Yen near 40yr lows (USD/JPY ~162), BoJ at 1%. L/S 1.554 crowded-long (bias -0.15). Mild short bias but illiquidity/gap risk dominates - smallest size.",
+    "sentiment": "EWJ bearish tilt but no <=48h binary for the ETF - BoJ decision July 30 (outside window). Japan earnings season starts July 9 (Fast Retailing, Seven&i) - soft indirect driver. Yen weak ~158/USD. EWJ rallied hard (~+32% yr) so extended; scan short-aligned with bullish-divergence flag (mixed). NEUTRAL-to-BEARISH; illiquidity is the dominant risk.",
+    "analyst": "Near-zero volume with the last three 15m bars frozen at 93.23 - no price discovery, no exit liquidity, so any entry lives or dies on a gap. Down-ADX (67.8) argues short, but 4h RSI 36, stoch 13 and a bullish-divergence flag sit only ~$1.1 above support 92.14, giving poor room and real bounce risk. Illiquidity/gap risk dominate a thin edge; HOLD is highest-expectancy. Reconsider armed at 92.14 on real volume.",
+    "portfolio": "EWJ: HOLD (conf 0.34) - functionally untradeable (dead tape / gap risk); revisit only on a 92.14 break with real US-hours volume."
+  },
+  "timestamp": "2026-07-07T20:54:37.126449+00:00"
+}

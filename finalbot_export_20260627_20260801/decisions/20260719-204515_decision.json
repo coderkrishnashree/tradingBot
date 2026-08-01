@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "META/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.58,
+  "playbook": "none",
+  "forecast": "Price is basing at 638 just above 626 support; over 2-4 bars expect chop/relief bounce toward VWAP ~647 rather than a fresh flush, as 15m RSI 28 + fading down-volume + stacked bid book absorb sellers.",
+  "expectancy_note": "A short here has est. p(win) ~0.40 and R:R <1.5 (stop above 646 vs TP 631) - worse than skipping; account shorts avg -0.87 PnL and model penalizes short vs +rel-strength and structure_bias.",
+  "rationale": "The 4h leans short but every short-term edge cuts against selling now: 15m RSI 28 / 5m RSI 37 oversold, down-volume collapsed to 1.22, orderbook bid-stacked (+0.29), META has POSITIVE relative strength (+4.97) and is the macro rotation destination, and L/S only 1.18 (no crowd to squeeze). Shorting into support 626-639 against a defended bid is the exact late-short loss pattern. No R:R-viable short and no fresh trigger.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 626.46,
+    "expires_min": 240,
+    "note": "Losing 626.46 support breaks the base and confirms the 4h downtrend resuming - the valid short trigger."
+  },
+  "transcript": {
+    "macro": "Rotation OUT of semis INTO mega-cap software/internet - META is the rotation destination (supportive). Indices near highs but Fri -1.5% Nasdaq reversal. Funding ~0 (not usable); L/S only 1.18 = not crowded. Weekend/market-closed gap risk; smaller size. FOMC Jul 28-29 outside window.",
+    "sentiment": "META BEARISH/RISK near-term but earnings Jul 29 (AFTER 48h window). No same-day catalyst; guidance $58-61B, EPS consensus $7.18. 4h/5m downtrend; scan short not contradicted by news but real binary is 10 days out.",
+    "analyst": "Scan flips short (4h -0.79) but LTF already oversold (15m RSI 28), down-volume dried up, bid book stacked, positive rel-strength +4.97 into rotation-destination name, L/S 1.18 = no squeeze fuel. Shorting into 626-639 support against a defended bid = the account's proven late-short loser. No viable R:R; wait for a break of 626.46.",
+    "portfolio": "HOLD META - short fights the inflow and sits on support; armed short trigger below 626.46."
+  },
+  "timestamp": "2026-07-19T20:45:15.421630+00:00"
+}

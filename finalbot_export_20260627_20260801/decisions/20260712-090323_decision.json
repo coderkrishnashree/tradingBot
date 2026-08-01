@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "AAPL/USDT:USDT",
+  "size": 0.0,
+  "entry": 313.97,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Dead-flat weekend coil 313.5-314.2 on near-zero volume; expect continued drift inside the 305-316.8 range with no directional resolution until Monday US open / Tue CPI. No clean next move to trade.",
+  "expectancy_note": "p(win) ~0.5 either way - muddy composite (short but unaligned, 4h MACD positive), price mid-range on VWAP, BB squeezed with no volume trigger; any entry is a coin-flip with weekend gap risk, so flat has the best expectancy.",
+  "rationale": "US cash closed -> thin/gappy weekend prints make levels unreliable; last 20 bars are a sub-$1 coil on ~0 volume with price pinned to VWAP mid-range between 305 support and 316.8 resistance. Signals conflict (composite short but unaligned/low-conf 35.8%, 4h MACD +0.80 bullish, structure bias +0.04 with bid-heavy orderbook +0.21), and June CPI Tuesday is the session-defining binary. No edge and no honest R:R here - the highest-expectancy action is to wait for a real break with volume.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 305.19,
+    "expires_min": 240,
+    "note": "Losing 305 support on volume breaks the range and confirms the 1h/4h short bias - flips this to a short setup; a clean break of 316.8 would open a long, but 305 is the more actionable near-term trigger."
+  },
+  "transcript": {
+    "macro": "Regime: mildly RISK-ON but late-stage and event-heavy; treat these five as EQUITY not crypto (low BTC corr). US indices grinding higher on AI optimism but tape jumpy (chip rout + KOSPI drop Jul 7). Rates/USD a headwind: DXY>100, negligible Fed-cut odds, sticky 4.2% CPI. Sunday Jul 12 -> US cash CLOSED, thin/gappy weekend perp prints, levels unreliable until Monday open. Hard events in window: June CPI Tue Jul 14 (session-defining, cross-asset); TSMC Q2 earnings Thu Jul 16 (direct binary for TSM, read-through to EWY via Samsung/SK Hynix). Crowded longs (ORCL 2.08, TSM 1.79, TSLA 1.67) squeeze-vulnerable into CPI -> smaller size, avoid fresh TSM/EWY longs pre-Jul16. Cleanest structural setups: ORCL short and AAPL as relative leader, both needing Monday's cash open to confirm the thin weekend prints.",
+    "sentiment": "Only <=48h binary is TSM Jul 16 earnings (also governs EWY via the chip complex). TSM: bullish but two-sided into the print (guide $39-40.2B rev / ~66% GM, AI demand 'extremely robust') - do not hold size blind through the 16th; scan technically heavy (4h/1h short). EWY: bullish chip-beta proxy (Samsung record prelim Q2 op profit ~89T KRW; SK Hynix Nasdaq ADR Jul 10, 7x oversubscribed) but hostage to the TSM print. TSLA: neutral/constructive - Q2 deliveries beat (~480k vs ~406k) already priced, next earnings Jul 22 (outside window). ORCL: bearish - down ~25-29% YTD on AI-datacenter capex/FCF drag ($40B raise planned) despite $638B backlog; fresh 15m short breakout; news+price agree to the downside. AAPL: neutral - Broadcom supply deal thru 2031 (multi-year, not a 48h mover), fiscal Q3 earnings Jul 30. Trade AAPL/TSLA on tape/macro.",
+    "analyst": "US cash closed -> thin/gappy weekend prints make levels unreliable; last 20 bars are a sub-$1 coil on ~0 volume with price pinned to VWAP mid-range between 305 support and 316.8 resistance. Signals conflict (composite short but unaligned/low-conf 35.8%, 4h MACD +0.80 bullish, structure bias +0.04 with bid-heavy orderbook +0.21), and June CPI Tuesday is the session-defining binary. No edge and no honest R:R here - the highest-expectancy action is to wait for a real break with volume.  Forecast: Dead-flat weekend coil 313.5-314.2 on near-zero volume; expect continued drift inside the 305-316.8 range with no directional resolution until Monday US open / Tue CPI. No clean next move to trade.  Expectancy: p(win) ~0.5 either way - muddy composite (short but unaligned, 4h MACD positive), price mid-range on VWAP, BB squeezed with no volume trigger; any entry is a coin-flip with weekend gap risk, so flat has the best expectancy.",
+    "portfolio": "HOLD - muddy mid-range coil pinned to VWAP, no volume trigger into CPI. Range-break trigger 305.19."
+  },
+  "timestamp": "2026-07-12T09:03:23.478590+00:00"
+}

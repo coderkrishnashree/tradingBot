@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "INTC/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Coiling 111.1-112.4 after the 115.46 thrust was rejected; expect a probe either back up toward VWAP ~112.8-113.2 (weak bounce to be sold) or a break of 111.0 that flushes the crowded longs toward 109.8/108 within 2-6 bars.",
+  "expectancy_note": "No honest R:R now: long is the crowded/stretched side (vwap +4.29%, l/s 1.72, RS -22%) = chase risk; short mid-range lacks confirmation. Best EV is to wait for the 111.0 break to short the flush (~1.6R to 108) rather than guess mid-coil.",
+  "rationale": "INTC is a tokenized equity so crypto structure is only a positioning tell, and that tell is bearish: crowded long book, high OI, worst relative strength in the group (-22% vs BTC), price stretched +4.29% over VWAP with 15m/5m already flipped short after a rejected 115.46 spike. But right now price sits mid-range at 111.55 with a weak stalled bounce \u2014 no clean entry either way and R:R is sub-1.5 in both directions, so the highest-expectancy action is to wait. Jul 23 earnings is 8d out (not a 48h factor) but makes positioning twitchier, favoring the squeeze-lower bias once the floor cracks.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 111.0,
+    "expires_min": 240,
+    "note": "Losing 111.0 (recent swing low / coil floor) confirms the crowded-long flush and opens the short toward 109.8/108 with a proper stop back above 112.4."
+  },
+  "transcript": {
+    "macro": "Regime risk-on after cool CPI; semis/tech leadership. INTC positioning CROWDED LONG (long/short 1.723, high OI 28,553, structure_bias -0.215). Price ran 110->115 then faded to 111.5 = squeeze-risk tell. RSI 64.8, vwap_dist +4.29% stretched, RS -22.21% vs BTC (worst laggard), 15m/5m flipped short. Earnings Jul 23 (8d out) makes positioning twitchier. Weakest name; smaller size if traded.",
+    "sentiment": "Genuinely two-sided. Cratered ~21% into Jul 7 on 18A yield delay + AMD taking data-center lead, then rebounded on foundry/AI deal chatter + US-gov ~9.9% stake. Live wire: Q2 earnings Jul 23; 7%+ single-day moves common. Choppy, headline-whippy \u2014 any long needs tight risk; news is two-sided risk not a clean tailwind.",
+    "analyst": "Failed thrust to 115.46 rejected, grind to 111.11, weak bounce stalled 112.20 and closed 111.55 mid-range (weak close). Crowded-long + stretched VWAP + laggard RS + LTF short = squeeze setup where a long chase is the #1 loss pattern; a fresh short mid-range lacks confirmation. Neither side has honest R:R. HOLD, arm short on loss of 111.0 (flush toward 109.8/108).",
+    "portfolio": "HOLD INTC \u2014 no clean R:R mid-coil; short bias armed below 111.0, conf 0.50."
+  },
+  "timestamp": "2026-07-15T10:04:03.214779+00:00"
+}

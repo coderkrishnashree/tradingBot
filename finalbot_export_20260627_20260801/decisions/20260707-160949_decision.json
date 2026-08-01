@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "QQQ/USDT:USDT",
+  "size": 0.0,
+  "entry": 711.11,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Bounce off 705.83 support already underway (higher-lows 706.58->711.11, 5m RSI 66.9); expect relief toward 715-716 broken-support/VWAP over next 3-6 bars, then likely rejection offering a cleaner short than shorting oversold RSI 27 into a rising tape.",
+  "expectancy_note": "Shorting now (RSI 1h 27.5, %B -0.06, bouncing off support with -0.80 ask-heavy book but explicit squeeze/FOMC-minutes risk) is chasing the low. Waiting for the retest short at ~715 gives R:R ~2.5.",
+  "rationale": "Multi-TF aligned down (ADX 52, 1h RSI 27.5) but price deeply oversold and already bouncing off support 705.83 into a higher-low base. Macro flags violent snapback + FOMC minutes squeeze catalyst, so shorting at 711 into the bounce is a donation and longing a strong downtrend is low-edge. Best expectancy: wait to re-short a failed retest near 715-716, or trade continuation only if 705.83 breaks.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 705.83,
+    "expires_min": 240,
+    "note": "Losing 705.83 support ends the bounce and confirms continuation."
+  },
+  "transcript": {
+    "macro": "RISK-OFF / semis-led unwind. Nasdaq-100 -2%, SOX -6% (Meta AI-compute resell + Samsung/SK Hynix memory-glut scare). June FOMC minutes near-term catalyst. Every pair green 5m = bounce underway, shorts risk snapback. QQQ (711): core of selloff, RSI 27-32, at support 705.8, orderbook -0.80 ask-heavy; trend-short valid but oversold + FOMC = squeeze risk, size modest.",
+    "sentiment": "Risk-off in tech. Samsung Q2 prelim (today) record profit but sell-the-news 7-10% crash on AI-memory-capex fears -> global semis/memory selloff (Intel/AMAT -10%, AMD -8%). KOSPI -3.6%. Hormuz flare-up lifting oil. QQQ bearish/neutral, RSI ~28 oversold 1h, no index binary in 48h (Fed 7/29).",
+    "analyst": "Multi-TF aligned short (ADX 52, 1h RSI 27.5, %B -0.06) but last 7 candles climb off 705.83 and 5m flipped green (RSI 66.9) \u2014 dead-cat bounce live. Shorting oversold into support with flagged squeeze/FOMC risk is negative expectancy; cleaner short is a failed retest near 715-716. HOLD with short trigger on a 705.83 break.",
+    "portfolio": "QQQ: HOLD (0.60) \u2014 wait for retest short ~715 or breakdown below 705.83."
+  },
+  "timestamp": "2026-07-07T16:09:49.301107+00:00"
+}

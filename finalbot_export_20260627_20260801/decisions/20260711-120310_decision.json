@@ -1,0 +1,26 @@
+{
+  "symbol": "BTC/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.6,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "forecast": "Price coils 64,120-64,300 below 64,703 resistance; most likely a fade back toward VWAP/63,900 given 4h RSI 79.6 and risk-off macro, but supportive orderbook prevents a clean short. No edge until it breaks 64,703 or loses 63,900.",
+  "expectancy_note": "Long into 4h RSI 79.6 + hawkish-Fed/extreme-fear tape is the account's #1 loss pattern; shorting a 74.9 ADX uptrend with +0.65 orderbook has no LTF confirmation. Both sides <1.5 R:R -- HOLD beats a coin-flip.",
+  "rationale": "BTC is stretched: 4h RSI 79.6, ADX 74.9, +1.85% above VWAP, pinned just under 64,703 resistance in risk-off, weak-US-demand, hawkish-Fed macro -- a textbook no-chase zone. The 15m has cooled to flat (RSI 43.8) and chops near the pullback lows, but no decisive breakdown and orderbook +0.65, so a short is a knife-catch. Price sits mid-air (~540 below resistance, ~2,890 above support) with no >1.5 R:R entry either way. Stand aside.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 64703,
+    "expires_min": 240,
+    "note": "A decisive reclaim/hold above 64,703 proves the overbought tape can absorb hawkish macro -- flips to a long on the retest; losing 63,900 VWAP opens the fade short."
+  },
+  "transcript": {
+    "macro": "Sat Jul 11 2026 ~12:00 UTC. BTC trades 24/7 but crypto macro is risk-OFF: 21-month low into late June, record June ETF outflows $4.5B, Coinbase premium negative 50 straight days, hawkish Fed ~70% hold at July 28-29 FOMC, BTC dominance ~56-60%. BTC scan STRETCHED: 4h RSI 79.6, ADX 74.9, price just under resistance 64,703. L/S 1.33 modest, orderbook +0.65, funding flat.",
+    "sentiment": "BTC BEARISH tone. Fear & Greed 22 (Extreme Fear), ~$64k after falling from $93k to a 21-month low near $60k late June (Fed rates + ETF outflows). No hack/unlock/listing shock last 48h -- macro/flows. Cautious/against aggressive longs, though extreme-fear can mean-revert.",
+    "analyst": "Stretched 4h (RSI 79.6, +1.85% VWAP) into 64,703 resistance in risk-off macro = no-chase. 15m cooled to flat but no decisive breakdown and orderbook +0.65 makes a short a knife-catch. Mid-air, no >1.5 R:R either way. HOLD; reconsider on a decisive break of 64,703 or loss of 63,900.",
+    "portfolio": "HOLD BTC -- overbought into resistance in a risk-off tape; no edge until 64,703 breaks or 63,900 gives way."
+  },
+  "timestamp": "2026-07-11T12:03:10.175215+00:00"
+}

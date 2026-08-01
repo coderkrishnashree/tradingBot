@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "XAG/USDT:USDT",
+  "size": 0.0,
+  "entry": 58.45,
+  "stop_loss": 58.2,
+  "take_profit": 59.3,
+  "confidence": 0.5,
+  "playbook": "breakout",
+  "forecast": "Fresh 15m breakout above 58.59 on 3.2x volume, last bar closed 58.62 near its high. Base case: shallow pullback to retest 58.45-58.50 (the breakout shelf) then resume toward 59.0; but with L/S 3.98 (clamped floor) and structure_bias -0.291 the crowded book can gap the retest lower to 58.20 first.",
+  "expectancy_note": "Long-at-market R:R to 59.0 is only ~1.4 (stop must sit under 58.36 base), below the 1.5 floor; a limit at the 58.45 retest lifts R:R to ~2.0 (risk 0.25 to TP 59.30). Waiting for the retest beats chasing a crowded, FOMC-shadowed pop.",
+  "rationale": "Momentum and the 4h trend (score 0.895, ADX 49) favor longs and the account's long win-rate is 65%, but spot is only $0.03 above the breakout trigger with mid-TFs flat (~0.03) and an extremely crowded long book (L/S 3.98 clamped, bias -0.291) into a 48h FOMC binary and a 13-mo-high DXY. Market entry gives sub-1.5 R:R and sits right where a routine counter-bounce would tap an honest stop \u2014 the exact late-continuation pattern that bleeds this account. I want the retest: a hold of 58.45-58.50 on the pullback is a clean long, or a decisive close above 59.0 proves the breakout has legs beyond the crowd.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 58.5,
+    "expires_min": 180,
+    "note": "A dip that holds 58.45-58.50 (breakout shelf reclaimed) is the low-risk long entry with R:R ~2 to 59.30; re-debate on the retest touch."
+  },
+  "transcript": {
+    "macro": "Regime MIXED/cautious. FOMC Wed Jul 29 inside 48h (hold expected, hawkish tail) favors smaller size. 10y ~4.5%, DXY 13-mo high = two-way headwind for silver vs supply-deficit/industrial-demand underpin. XAG: last 58.62, fresh 15m breakout above 58.59 on 3.2x vol, 4h/5m up, RSI 66/82 (5m overbought), ADX 49. BIGGEST RISK crowding: L/S 3.98 (clamped floor), structure_bias -0.291 lopsided crowded long \u2014 contrarian risk if FOMC hawkish / DXY spikes. Corr to gold 0.877.",
+    "sentiment": "Silver ~$58, one of 2026's strongest commodities; structural bid from ~46Moz supply deficit + AI/solar demand; $58 defended as key support. Near-term driver entirely macro: FOMC Jul 29 \u2014 dovish hold unlocks ETF buying (flat ETF demand missing leg); hawkish surprise + firmer USD is main downside. Net: fundamentals lean FOR the long but the Fed is a two-sided binary \u2014 the move may wait for that print rather than run in the next 24-48h.",
+    "analyst": "Breakout is real but spot is only $0.03 above the 58.59 trigger with mid-TFs flat and an extremely crowded long book (L/S 3.98, bias -0.291) into a 48h FOMC binary and 13-mo-high DXY. Market entry gives sub-1.5 R:R and sits where a routine counter-bounce taps an honest stop \u2014 the late-continuation trap. Wait for the 58.45-58.50 retest (R:R ~2 to 59.30) or a decisive close above 59.0.",
+    "portfolio": "XAG: HOLD (size 0) \u2014 'not yet'; chasing the breakout fails the R:R gate into a crowded book pre-FOMC. Armed for the 58.50 retest."
+  },
+  "timestamp": "2026-07-26T08:03:42.807184+00:00"
+}

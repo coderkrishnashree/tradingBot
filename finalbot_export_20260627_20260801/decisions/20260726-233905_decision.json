@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "CL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Choppy basing between 83.15 and 85.7; the 83.15 flush low likely holds near-term with a stalling bounce toward 85 already spent - no clean edge until price reclaims 85.7 or loses 83.15.",
+  "expectancy_note": "Shorting here (composite says short) is the #1 loser: 4.46% below VWAP, RSI 32, %B 0.10, 5m already bouncing, crowd net-short (0.607) = squeeze fuel. Longing a knife with no reversal confirm + FOMC/weekend gap risk is also negative EV. HOLD is highest expectancy.",
+  "rationale": "The big down candle (109k vol, to 83.15) is the move; price is now stretched oversold and basing, so a fresh short chases into exhaustion and into a geopolitical oil floor (Iran/Hormuz) with weekend gap risk - the late-short pattern that has bled this book. No confirmed reversal justifies a long either, and FOMC Wed adds event risk. Wait for a real trigger; zero size.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 83.15,
+    "expires_min": 240,
+    "note": "Losing the flush low confirms trend continuation toward 79.65 - a clean short with structure behind the stop."
+  },
+  "transcript": {
+    "macro": "NEUTRAL tilting RISK-OFF for equity-proxies into mid-week. Two event risks INSIDE 48h: FOMC Wed Jul 29 2pm ET (hawkish-hold risk) and a Big-Tech earnings wall (MSFT Wed; AAPL/AMZN/META Wed-Thu). Equities toppy/mixed, VIX ~18.6, 10y ~4.6%, DXY firm ~101.4, Sep hike odds ~50-60%. US-Iran/Hormuz keeps an oil bid + safe-haven bid (tail escalation risk). Crypto is the cleanest longs (BTC $65.3k, funding benign, no crowding) but short-term overbought (RSI 78) - don't chase. Cut size / avoid multi-day holds on ALL equity proxies (QQQ, MSFT, AAPL, TSM, EWJ, EWY, COIN, HOOD) through the Wed FOMC + earnings gauntlet. Avoid crowded longs in TSLA (L/S 2.67, worst RS) and XAG (L/S 3.69, squeeze-prone). Favor quick tactical trades over swings; longs>shorts only in crypto, longs neutral-to-unfavorable in equities.",
+    "sentiment": "Risk-OFF and event-heavy. A bruised, AI-capex-ROI-spooked tech tape (Mag7 shed ~$797B on Jul 23; Nasdaq -2.15% Thu) heading into an FOMC + mega-cap-earnings gauntlet Jul 29-30. Imminent binaries: MSFT+HOOD earnings Wed Jul 29 after close; AAPL+COIN earnings Thu Jul 30 after close. Asia fragile: KOSPI -5.72% Jul 24 (circuit-breaker), Nikkei -2.73%, US tariffs live. CL bearish short-term (fell ~4% Fri on US-Iran talk, two-sided war premium, weekend gap risk). XAG neutral ~$58 consolidating. BTC cautious/range-bound, Fear&Greed 27, $225M ETF outflows Jul 25. TSLA bearish (-14% on Q2 miss). TSM already reported Jul 16 (beat). Favor caution/short bias on tech-index and Asia names; avoid new pre-earnings directional bets; crypto macro-tethered and defensive.",
+    "analyst": "Crude flushed to 83.15 (109k vol) then based back to ~85 and stalled; RSI 32 oversold, %B 0.10, 4.46% below VWAP, crowd net-short 0.607 = squeeze fuel. Composite says short but that's chasing exhaustion into a geopolitical oil floor + weekend gap. No reversal to buy either.",
+    "portfolio": "HOLD CL - no edge; short = chasing oversold flush into Iran floor, long = knife-catch. Re-debate on loss of 83.15."
+  },
+  "timestamp": "2026-07-26T23:39:05.617821+00:00"
+}

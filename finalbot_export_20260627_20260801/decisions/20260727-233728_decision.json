@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "CL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price is basing 81.8-82.3 with higher-lows after the waterfall stalled at 81.68; over the next few bars I expect a coil that either reclaims 82.6 (bounce toward 83.5) or loses 81.68 for a flush to 80.3 -- neither is confirmed yet, so no edge to enter now.",
+  "expectancy_note": "p(win) on a fresh short here ~0.40 (deeply oversold, 4h RSI 21.5, -4.2% VWAP, bid orderbook +0.75, account shorts already 44% win/-1.02) -- classic late-short-into-bounce trap; a long is a knife-catch vs ADX 71 downtrend with no reclaim. HOLD beats both.",
+  "rationale": "Signals genuinely conflict: composite short (-0.24, only 36% conf) vs structure_bias +0.24 with orderbook heavily bid. Price is deeply oversold and stalling, not breaking down -- shorting here is the account's #1 loss pattern (late short into stretched tape). With FOMC Wed (live hike risk), OPEC+ this week and two-way Iran headline risk, expectancy on any naked directional entry is negative; standing aside is the play.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 82.6,
+    "expires_min": 240,
+    "note": "Reclaiming 82.6 confirms the oversold bounce is underway (VWAP magnet, broken intraday shelf) -- flips this to a long scalp toward 83.5; below 81.68 instead would reopen the short toward 80.3."
+  },
+  "transcript": {
+    "macro": "Regime risk-off/defensive. FOMC Wed 29 Jul 2:00pm ET (~48h) - LIVE +25bp hike tail. DXY >101 (commodity headwind). OPEC+ meeting this week; cut size, avoid naked risk over Wed print. CL read: STAY OUT / small SHORT at best - composite short (-0.24) but structure_bias actually +0.24 (orderbook heavily bid +0.75, long/short balanced 0.95) = signals conflict. 4h RSI 21.5, stoch 8, VWAP -4.2% = deeply oversold after trendline break; OI huge (334k). Genuinely two-sided this week (OPEC + API inventories + Fed + Iran headlines can gap either way). Hostile to clean directional risk.",
+    "sentiment": "CL bearish near-term. WTI spiked >$92 last week on Hormuz supply fears then cratered to ~$82-83 Monday 27 Jul after US-Iran halted strikes / moved to diplomacy (last 82.17, 4h RSI 21.5 oversold, ADX 71 strong downtrend). De-escalation is the live driver removing the war premium; supply loosening (OPEC+ +548kbd Aug, ~+188kbd likely at 2 Aug OPEC+ meeting). Near-term news supports short, but two-way risk if Hormuz/Iran headlines re-escalate.",
+    "analyst": "last 82.17, deeply oversold after trendline break: 4h RSI 21.5, stoch 8, %B 0.082, VWAP -4.2%, ADX 71.8. Composite short but weak (-0.235, 36% conf); structure_bias +0.241, orderbook heavily bid (+0.75), long/short balanced (0.95) - signals conflict. 15m candles bottomed ~81.68 and are now basing 81.8-82.3 with higher-lows (81.68->81.78->81.91->81.95->82.09->82.15), last close 82.17 near the top of a tight consolidation - the waterfall has stalled, not fresh breakdown. Support 79.65. Shorting here is the late-short-into-stretched-tape loss pattern; a long is a knife-catch vs ADX 71 with no reclaim. FOMC Wed + OPEC+ + Iran two-way headline risk. HOLD.",
+    "portfolio": "CL: HOLD (conf 0.60) - signals conflict and price is deeply oversold/basing into event-heavy week; stand aside, watch 82.6 reclaim vs 81.68 loss."
+  },
+  "timestamp": "2026-07-27T23:37:28.404619+00:00"
+}

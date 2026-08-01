@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "ORCL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.55,
+  "playbook": "none",
+  "forecast": "Price is pinned on the 134.51 52-wk-low support after a 6-point waterfall, RSI in the teens on every TF, stoch 2.5. Next few bars most likely chop/oversold-bounce toward 136-137 before either resolving lower on a fresh break of 134.5 or fading back. No clean edge at this exact price.",
+  "expectancy_note": "Short at 134.71 has ~0.2 ATR to support (no room, negative R:R); long is a knife-catch into a broken chart pre-CPI. Both < 1.5R here. HOLD beats forcing either; wait for the retest-short or the confirmed break.",
+  "rationale": "ORCL trade as equity: heavily oversold (RSI teens, stoch 2.5, %B -0.26, VWAP -3.72%) sitting exactly on the 134.51 52-wk low. Structure bias is strongly short (crowded longs, LS 2.175, orderbook -0.62) which favors eventual continuation, but entering short into a hard support with zero room is the account's proven loss pattern (late shorts stopped by the bounce). CPI tomorrow adds gap/whipsaw risk. Best expectancy is to wait: re-short a bounce into 136.5-137 (broken support turned resistance) or on a decisive break/close under 134.5.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 134.4,
+    "expires_min": 240,
+    "note": "A decisive break under the 134.51 52-wk-low support opens fresh downside with the crowded-long structure as fuel \u2014 that is the clean continuation short."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF/defensive. Semiconductor-led drawdown; AI-capex-doubt theme. Fed hawkish; DXY firm ~100.6 = headwind for high-multiple tech. Funding benign. Retail leaning long into downtrend (contrarian bearish). BTC correlation low \u2014 trade as equities. ORCL: headwind, moderate \u2014 software roped into AI-capex-doubt (data-center spend), correlates QQQ 0.48, general tech de-rating + hawkish rates weigh; lean short/avoid long.",
+    "sentiment": "Market-wide: June CPI Tue 7/14 pre-market \u2014 gap/whipsaw. ORCL ~$140-141, near 52-wk low ($134.57) after collapse from $345. LIVE overhang: S&P downgrade to BBB-, FY26 free-cash-flow deficit -$23.7B on 162% capex surge, OpenAI ~half of $638B RPO (concentration/counterparty risk). Bounced +3.4% on 7/9 ('sell-off overdone'). Most headline-sensitive name; testing support. Tag: BEARISH-to-neutral (broken chart, fundamental overhang, oversold-bounce risk).",
+    "analyst": "Heavily oversold (RSI teens all TFs, stoch 2.5, %B -0.26, VWAP -3.72%) sitting exactly on the 134.51 52-wk low. Structure strongly short (LS 2.175, orderbook -0.62) favors eventual continuation, but shorting into hard support with zero room is the account's proven loss pattern; long is a knife-catch pre-CPI. Both <1.5R here. Hold; re-short a bounce into 136.5-137 or a decisive break/close under 134.5.",
+    "portfolio": "HOLD ORCL \u2014 broken chart with real overhang but pinned on 52-wk-low support; wait for the 134.4 break or a bounce to fade."
+  },
+  "timestamp": "2026-07-13T16:34:19.578822+00:00"
+}

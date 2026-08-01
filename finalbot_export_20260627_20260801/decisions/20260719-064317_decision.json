@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "EWJ/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Deeply oversold on 1h (RSI 13), stretched -2.18% below VWAP into support 88.16; expect a feeble mean-reversion drift/bounce toward 91-92 over the next several bars rather than a clean fresh leg down, with zero-volume weekend bars making any move unreliable.",
+  "expectancy_note": "Shorting here is a chase: p(win) ~0.40 (learner p_win 0.385), first support 88.16 only ~2% away vs a likely bounce to VWAP ~92 that stops out any honest short; negative expectancy. No long either (downtrend + RS -10.9%). Best EV is wait.",
+  "rationale": "Downtrend is intact (ADX 46.8, all TFs short) but price is already extended: 1h RSI 13, -2.18% below VWAP, %B 0.23 into support 88.16 only ~2% below. That is exactly the late-short-into-stretched-tape pattern that has been this book's #1 loss, and the learner confirms it (p_win 0.385). US cash markets are CLOSED on Sunday, EWJ is the thinnest name with multiple zero-volume bars and an air-pocket print, so execution risk dominates. Wait to fade a bounce back to broken support/VWAP rather than chase the hole.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 91.9,
+    "expires_min": 360,
+    "note": "A bounce back to the ~92 VWAP/broken-support zone that then rolls over gives a proper short entry with room to 88.16 and unwinds the 1h RSI-13 oversold that currently blocks a fresh short."
+  },
+  "transcript": {
+    "macro": "RISK-OFF/defensive; macro favors SHORTS/fades. Fri equities sold off on AI-capex/semi scare + US-Iran escalation. Crypto Fear (F&G 26), 10Y 4.56%, DXY 101. Sunday, US cash markets CLOSED \u2014 EWJ THINNEST of the lot (multiple zero-volume bars, air-pocket); execution risk dominates. EWJ: short conf 62.3%, RS -10.9%, downtrend intact all TFs but 1h RSI 13 oversold/exhausted (bounce risk), L/S 1.62 net long.",
+    "sentiment": "EWJ tokenized Japan. Up ~30% YoY, richly extended but recently VOLATILE \u2014 Nikkei ~4% single-day plunge to 1-month low; weak tape (4h RSI 36, ADX 46 downtrend, worst RS -10.9%). Main driver BOJ Jul 30 (outside 48h). Weak yen (\u00a5162s) helps exporters but raises intervention/import-inflation risk; a sudden BOJ/MOF intervention or hawkish leak is the tail risk that could gap it. Near-term: mildly BEARISH/uncertain.",
+    "analyst": "Downtrend real (ADX 46.8, all TFs short, RS -10.9%) but price at 90.02 is stretched: 1h RSI 13, -2.18% VWAP, %B 0.23, just ~2% above support 88.16. Short now = textbook chase into exhaustion (learner p_win 0.385). Closed-market Sunday, thinnest name (zero-volume bars, air-pocket) \u2014 execution risk swamps edge. HOLD; fade a bounce \u2014 short arms on rollover from ~91.9 VWAP/broken-support zone.",
+    "portfolio": "EWJ \u2014 HOLD (conf 0.60): downtrend but oversold/thinnest tape, don't chase; re-arm short on failed bounce to ~91.9."
+  },
+  "timestamp": "2026-07-19T06:43:17.605658+00:00"
+}

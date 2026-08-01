@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "META/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.62,
+  "playbook": "none",
+  "forecast": "Thin weekend tape chops between support 592.5 and VWAP (~607); last 15m bar rejected the 596.97 low and closed 597.6, so expect shallow oscillation, not a clean directional move, into the Wed earnings binary.",
+  "expectancy_note": "No positive-expectancy trade: short is chasing RSI 30 / 5m RSI 8.4 with bullish divergence (account's #1 loser = late shorts into stretched tape), long is a naked counter-trend bottom-fish, and both face weekend gap fills + a Wed earnings binary. Flat is the best EV.",
+  "rationale": "META is oversold with bullish divergence into an imminent Jul 29 after-close earnings print and a closed, near-zero-volume weekend cash market \u2014 the two dominant risks are the binary gap and illiquid fills. Shorting the stretched down-move invites the bounce stop that has repeatedly killed this book; longing a heavy pre-earnings name with no reclaim/confirmation is equally low-probability. R:R and fills are both untradeable here, so I stand aside and let a level pick the direction.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 592.5,
+    "expires_min": 240,
+    "note": "Losing support 592.52 on real volume breaks the bullish-divergence floor and opens a clean short with defined risk; until then oversold chop offers no edge."
+  },
+  "transcript": {
+    "macro": "Regime HOSTILE-to-MIXED for fresh risk. Hawkish Fed, oil-driven inflation, indices rolling over. WEEKEND: cash markets CLOSED \u2014 thin, gap-prone until Monday (META near-zero volume). META-specific: EARNINGS Wed Jul 29 after close = binary gap risk inside the hold window; AI-capex theme means violent two-way gaps. Avoid holding across the print.",
+    "sentiment": "META earnings Wed Jul 29 after close; consensus ~$7.13 EPS, ~$60.2B rev; stock -10% YTD into print, sentiment heavy. Hard binary <48h; scan oversold RSI 30 with bullish divergence = pre-earnings chop. Do NOT hold META through Wed close.",
+    "analyst": "Oversold (RSI 30, 5m RSI 8.4) with bullish divergence \u2014 shorting chases the exact extreme this book bleeds on; longing is a naked counter-trend bottom-fish into a heavy pre-earnings name. Chop above support 592.5, near-zero weekend volume, Wed earnings binary. HOLD; reconsider short below 592.5.",
+    "portfolio": "META: HOLD 0.62 \u2014 oversold into earnings binary + weekend illiquidity; stand aside."
+  },
+  "timestamp": "2026-07-26T04:05:55.682502+00:00"
+}

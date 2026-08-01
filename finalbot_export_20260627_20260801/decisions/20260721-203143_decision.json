@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "AAPL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "After the one-bar flush 327.58->325.40 on 6x volume, price is stretched (5m RSI 24.8, 4h RSI 29.4, -1% below VWAP). Expect a dead-cat bounce toward the broken 327.5-328 shelf next 2-6 bars; a short into THAT retest is the real edge, not chasing 325.65.",
+  "expectancy_note": "p(win) for a market-short here ~0.42 (shorts 0.45 win, -1.21 avg; extended-below setups have negative model weight). Fading the bounce at 327.8 lifts p(win) toward 0.55 with clean 1.5R+.",
+  "rationale": "AAPL just impulse-dropped into oversold and sits 1xATR below VWAP with 5m RSI ~25 -- chasing the short here is the late-into-stretched-tape pattern that bleeds this book. No long either: macro tech tape is risk-off, 30m flat, no imminent catalyst (earnings 7/30). High-expectancy play is to wait for the counter-bounce to retest broken 327.5-328 and short the failure toward 322/318. Size 0 until that setup arms.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 327.8,
+    "expires_min": 240,
+    "note": "A bounce back to broken 327.5-328 offers a clean short against VWAP/structure toward 322 with 1.5R+, instead of chasing the flush."
+  },
+  "transcript": {
+    "macro": "Regime MIXED/cautious (2026-07-21). US equity tape choppy, headline-driven; hawkish-Fed (market pricing a possible HIKE by Oct) is a headwind for high-multiple tech. Crypto tape constructive short-term (BTC ~$66.5k, 5-wk high, +ETF inflows) -> helps MSTR/CRCL crypto-proxies only. BIGGEST RISK: earnings inside the hold window -- GOOGL reports Wed 7/22 after close, INTC Thu 7/23 after close; do NOT carry either through the print. Several longs (INTC, CRCL, EWY, EWJ, MSTR) already RSI-extended/crowded-long -> smaller size, prefer intraday over multi-day until earnings clear.",
+    "sentiment": "Overall risk-OFF: Nasdaq-100 down 5 straight weeks on AI-capex anxiety + Iran/oil spike; heavy earnings + macro week (GOOGL/TSLA 7/22, INTC 7/23, FOMC 7/28-29, BOJ 7/30). GOOGL bearish/event-risk (earnings 7/22). AAPL neutral-slightly bearish (earnings 7/30, outside window). QQQ bearish tilt, extended into weak macro week. MSTR neutral fragile bounce on fading volume. INTC bearish/event-risk, ~12% swing priced into 7/23 print, RSI88 extended. CRCL neutral-cautious: OCC bank-charter catalyst spent, Mizuho downgrade + Visa overhang, RSI89. EWJ neutral/mildly bullish but Nikkei record already priced, BOJ 7/30 caps runway. EWY bearish: KOSPI in a record -23% crash w/ circuit breakers -- scan long tilt fights a violent country downtrend.",
+    "analyst": "Just impulse-dropped 327.58->325.40 on 6x volume into oversold (5m RSI 24.8, 4h RSI 29.4), 1xATR below VWAP -> shorting now chases a stretched tape (account shorts 0.45 win / -1.21R). No long (risk-off tech tape, 30m flat, earnings 7/30 outside window). Edge is to fade the dead-cat bounce at broken 327.5-328 shelf toward 322/318. HOLD, size 0.",
+    "portfolio": "HOLD AAPL -- don't chase the flush; short the bounce back to 327.8 if it comes."
+  },
+  "timestamp": "2026-07-21T20:31:43.684065+00:00"
+}

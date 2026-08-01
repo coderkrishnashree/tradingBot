@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "ORCL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.55,
+  "playbook": "none",
+  "forecast": "Price stalled at 143.7 (rejected twice) and is fading; over the next few bars expect chop 142.7-143.5 into the US open, with risk of a slip toward 142.1/141.6 VWAP-support before any real continuation. No clean next-move edge at 143.02.",
+  "expectancy_note": "p(win) ~0.5 either direction; a market long here chases a stalled, 1h-RSI-77 overbought push with maxed long/short 2.165 and worst relative strength (-21.7%) into a gappy pre-open - negative expectancy vs waiting.",
+  "rationale": "ORCL is the most crowded-long name in the set (L/S 2.165, structure_bias -0.42, funding positive) and 1h RSI 77 overbought, yet just got rejected off 143.7 with the last bounce on thin volume - a chase-long here is the account's classic late-entry loss. No fade edge either: price sits mid-range (137.6 support / 150.2 resistance), not at an extreme. Pre-US-open thin/gappy tape argues for patience; wait for a VWAP/support pullback to join the trend cheaply, or a confirmed reclaim of the failed high. Hold is highest-expectancy.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 143.75,
+    "expires_min": 240,
+    "note": "Reclaiming and holding above the twice-rejected 143.72 intraday high proves buyers absorbed the supply and opens continuation toward 145+, flipping this to a long."
+  },
+  "transcript": {
+    "macro": "Regime risk-ON but late-stage/stretched; record equity highs, VIX ~16.9, oil/Iran risk-off tail. Scan ~09:24 UTC PRE US cash open (13:30 UTC) -> thin/gappy, expect opening gap. ORCL: long lean but crowded, no near-term catalyst. NO earnings until Sept 14 (clean of event risk). BUT most crowded-long of set: funding positive, L/S 2.165 (maxed contrarian flag), structure_bias -0.42 (most negative), RSI 1h 77 overbought. Rel_strength -21.7% (badly lagging). Chase-longs contrarian-vulnerable.",
+    "sentiment": "ORCL MIXED/cautious. Earnings behind (record Q4 FY2026 June 10: rev +21% to $19.2B, IaaS +93%, $638B RPO backlog +363% YoY) - long-horizon, not a 48h trade. $0.50 dividend ex-date July 10 (mechanical, minor). Overhangs: FY2026 FCF -$23.7B from capex, ~$40B planned raises incl $20B share sale, 'beaten-down/execution-risk' frame near $140. Headline-quiet next 48h; let technicals lead.",
+    "analyst": "Price 143.02, composite long conf 47%, ADX 27 (borderline). Most crowded-long (L/S 2.165, structure_bias -0.42), 1h RSI 77 overbought, worst rel-strength -21.7%, 5m already rolling (RSI 36.5). Just rejected twice off 143.7, last bounce on thin volume. Mid-range (137.6 support / 150.2 resistance) - no fade edge, no clean pullback entry. HOLD; wait for VWAP/support pullback or a confirmed reclaim of 143.75.",
+    "portfolio": "ORCL: HOLD (conf 0.55) - overbought and most crowded-long, rejected twice off 143.7 into thin pre-open; no clean edge."
+  },
+  "timestamp": "2026-07-09T09:29:46.604292+00:00"
+}

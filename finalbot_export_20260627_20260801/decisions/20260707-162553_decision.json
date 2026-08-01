@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "QQQ/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Price is bouncing off 705.83 support (low 705.97, now 712.22) into overhead 715-717 supply/VWAP; expect a stall/rejection near 715-717 over the next 2-4 bars, then a re-test of 705.83 \u2014 chop between 706 and 717, no clean edge at 712.",
+  "expectancy_note": "Long here chases +6 off support into supply with 1h/4h trend down and FOMC minutes tomorrow (~p0.5, poor R:R); short fades an active bounce against a +0.64 bid book. Both sub-1.5 R:R at mid-range \u2014 HOLD has best expectancy.",
+  "rationale": "QQQ (treat as equity \u2014 crypto structure metrics muted) sits mid-range at 712 between 705.83 support and 715-717 broken-support/VWAP resistance, with an oversold bounce (1h RSI 32, 5m RSI 68) already extended ~6pts off the low into overhead supply. Dominant 1h/4h trend is down (ADX 52.7) but the bid orderbook (+0.64) and support hold argue against shorting here; FOMC minutes Wed adds event risk. No entry offers >=1.5 R:R from this spot, so wait for the level to break.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 705.83,
+    "expires_min": 240,
+    "note": "Losing 705.83 kills the oversold-bounce thesis and resumes the down-trend \u2014 a clean short trigger toward the next support with the 1h/4h trend."
+  },
+  "transcript": {
+    "macro": "Regime MIXED-to-RISK-OFF, tech-led. Jul 7 Nasdaq-100 -2% on semi sell-off. QQQ index expression of tech weakness: structure_bias ~neutral (+0.07), funding slightly positive, long/short balanced (0.98), orderbook bid (+0.64). Scan short-biased (1h RSI 32) but price on support ~706 (last 712). Beware whipsaw \u2014 oversold tech can snap back.",
+    "sentiment": "Bearish near-term tilt: AI-trade fatigue, lost 50-DMA Jul 2, hawkish Fed headwind. Concrete <=48h catalyst: FOMC minutes Wed Jul 8 argues against longs. Long-horizon positive (don't trade on it): hyperscaler AI capex >$650B 2026.",
+    "analyst": "Clean higher-low recovery off 706 support, bounce ~6pts into 715-717 overhead supply/VWAP with 1h/4h trend down (ADX 52.7) and FOMC minutes tomorrow. Shorting into a strong bid book is poor timing; buying chases into supply. No >=1.5 R:R at 712 \u2014 flat is best expectancy. Trigger: below 705.83 flips short.",
+    "portfolio": "HOLD QQQ \u2014 mid-range 712 between 706 support and 717 supply, no clean edge; short trigger below 705.83 (conf 0.5)."
+  },
+  "timestamp": "2026-07-07T16:25:53.782812+00:00"
+}

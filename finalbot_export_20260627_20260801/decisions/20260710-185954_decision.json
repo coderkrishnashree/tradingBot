@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "META/USDT:USDT",
+  "size": 0.0,
+  "entry": 669.95,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Choppy digestion 663-672 for the next few bars; the 663 flush was bought and the bounce is stalling under 671-672 on drying volume. Expect either a fade toward VWAP/636 into the weekend, or a fresh breakout only if 678.67 reclaims. No clean edge at 670.",
+  "expectancy_note": "Long here is a chase (RSI 77, stoch 91, above upper BB, +5.3% over VWAP, bearish div) and a short fights ADX 40 + orderbook +0.92 bid stacking + funding 0.0 non-crowded; neither gives honest RR>=1.5, so HOLD is highest expectancy.",
+  "rationale": "META is the day's momentum leader up ~6.6% on Meta Compute/Iris news, but it is textbook-extended (1h/4h RSI ~77.7, stoch 91.3, bb_pctb 1.03, +5.28% above VWAP, bearish divergence) into a Friday US session with weekend gap risk on a tokenized equity. Chasing the long up here is exactly the account's #1 loss pattern (late continuation entry, stopped by a routine counter-bounce), and shorting fights a strong bid-stacked uptrend (orderbook +0.92, structure_bias +0.28, funding 0.0 not crowded, +17% rel strength). The clean long is a pullback toward VWAP or a fresh breakout base, not mid-air at 670 against the upper band; no honest RR>=1.5 exists here, so flat is the best expectancy.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 678.67,
+    "expires_min": 240,
+    "note": "Reclaiming today's high absorbs the overbought/divergence signals and confirms a fresh momentum leg, turning the chase into a defined breakout-continuation long off a real base."
+  },
+  "transcript": {
+    "macro": "Regime mildly risk-on, tech-led (Nasdaq +1.3%, AI/memory leadership). No FOMC/CPI inside 48h. Friday-into-weekend gap risk elevated on tokenized equities. META SUPPORTIVE for longs but crowded/extended: day's momentum leader +6.6% on Meta Compute + Iris, rel-strength +17.1% vs BTC (own story). Positioning: funding 0.0, L/S 0.985 balanced, orderbook +0.92 bid stacking, structure_bias +0.28. Biggest risk EXHAUSTION not positioning: 1h/4h RSI ~77.7, stoch 91, at BB upper, +5.3% above VWAP, bearish divergence. Smaller size / tight risk warranted.",
+    "sentiment": "META strongly bullish but stretched. Ripped mid-$540s -> ~$670-673 on Meta Compute AI-cloud launch (+9-10%). Tailwinds: >$6.5B Samsung 2nm foundry deal (MTIA), Iris chip Sept production, Q1 beat (rev +33% YoY). Consensus Strong Buy (~$824 mean PT, long horizon). KEY near-term risk: Q2 earnings July 29 after close - real binary but ~19 days out, OUTSIDE 24-48h window, doesn't anchor. No scheduled <=48h catalyst; move is momentum now technically overbought. News neutral-to-mildly-supportive of direction but cautions against chasing.",
+    "analyst": "META up ~6.6% on Meta Compute + Iris news, day's momentum leader (+17% rel strength vs BTC). But textbook-extended: 1h/4h RSI ~77.7, stoch 91.3, above upper Bollinger (pctb 1.03), +5.28% over VWAP, bearish divergence. Candles show top at 678.67, a flush to ~663 that got immediately bought, then a stalling bounce under 671-672 on drying volume. Structure backs the direction (orderbook +0.92, funding 0.0, L/S 0.985, bias +0.28) so I won't short a strong ADX-40 uptrend into heavy bids. But I won't chase the long into the upper band on a Friday with weekend gap risk - the account's classic late-continuation loss. No honest RR>=1.5 setup, so HOLD. Flip long on a reclaim of 678.67 (fresh breakout base) or a controlled pullback to VWAP/663 shelf that holds.",
+    "portfolio": "META: HOLD (no-trade) @ 669.95, confidence 0.60 - long is an overbought chase, short fights a strong bid-stacked trend; neither offers honest RR>=1.5. Reconsider long on a reclaim of 678.67 within 4h."
+  },
+  "timestamp": "2026-07-10T18:59:54.322057+00:00"
+}

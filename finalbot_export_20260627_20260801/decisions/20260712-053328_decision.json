@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "TSLA/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price is coiling in dojis at 409.2-409.3 on dried-up volume just under 420.22 resistance; most likely next move is a drift/fade back toward VWAP ~404-405 over the next few bars rather than a fresh breakout, so no honest long R:R exists at spot.",
+  "expectancy_note": "A market long chases +1.16% above VWAP into crowded-long (LSR 1.62) + offered book (-0.41) with 5m already short \u2014 the account's documented trend-chase loss pattern (44% win, -2.89 avg). Best expectancy is to wait; no fade either, since 4h trend is up.",
+  "rationale": "Composite long is self-flagged NOT aligned; 4h/30m are strong but 1h is flat and 5m has rolled to short with volume collapsing into dojis under 420.22 resistance. Crowded-long positioning against an offered order book plus weekend-thin tape and Tuesday CPI gap risk make a chase low-expectancy. No entry gives a clean >=1.5R to a first target from 409, so I stand aside and let the level decide.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 420.22,
+    "expires_min": 240,
+    "note": "A volume-backed reclaim of the 420.22 resistance proves the coil resolved up (not a fade), turning the aligned 4h uptrend into a tradeable continuation long."
+  },
+  "transcript": {
+    "macro": "Equities risk-ON but wobbly at highs, narrow leadership. June CPI Tue Jul 14 \u2014 trim size; weekend thin/gappy tape. TSLA: tokenized equity, rel-strength +4.21%, scan long (+0.459) but flagged NOT aligned and structure_bias -0.31 (orderbook -0.41, longs crowded 1.62). Momentum up (4h RSI 63) into resistance 420.22 \u2014 mixed, long only with a tight leash.",
+    "sentiment": "TSLA: Neutral-to-cautious. Q2 deliveries already printed strong (480K vs ~406K expected) \u2014 catalyst spent, supports long lean but digested. Next binary Q2 earnings Jul 22 (after close), outside 48h but approaching. No <=48h catalyst today; off-hours thinness the main hazard.",
+    "analyst": "HOLD. Composite long is self-flagged not aligned; 4h/30m strong but 1h flat and 5m rolled short with volume collapsing into dojis under 420.22. Crowded-long vs offered book + weekend/CPI gap risk make a chase low-expectancy; no clean >=1.5R at 409. Stand aside; flip long only on a volume-backed reclaim of 420.22.",
+    "portfolio": "TSLA \u2014 HOLD (conf 0.60): no honest long R:R at spot; re-debate a continuation long above 420.22."
+  },
+  "timestamp": "2026-07-12T05:33:28.615489+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "MSFT/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.7,
+  "playbook": "none",
+  "forecast": "Thin drift in the 390-395 zone into the close; the real move is the Jul 29 earnings gap (options price 7-8%) plus FOMC Jul 28-29 \u2014 a binary, not a tradeable path. Expect chop, then a gap that dwarfs the 0.59% ATR.",
+  "expectancy_note": "Both sides negative expectancy: long is RSI 83 / stoch 91 / %B 1.24 stretched into resistance (chase = account's #1 loss pattern); short fights ADX 89 uptrend into a 7-8% binary. No honest R:R exists ahead of an earnings+FOMC gap.",
+  "rationale": "MSFT is the biggest 48h binary on the board \u2014 Q4 earnings tomorrow after close plus FOMC, options implying a 7-8% move that overwhelms any technical stop. Price is wildly overbought (RSI 83, stoch 91, above upper BB) yet trending hard (ADX 89), so neither a stretched long nor a counter-trend short has edge; funding ~0, OI 4.7k and a thin book give no structural tiebreaker. Standing aside is the highest-expectancy action; size 0 into a catalyst that can gap either way.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 403.24,
+    "expires_min": 240,
+    "note": "A decisive clear of resistance would resolve the coil up and justify re-debating a momentum long; loss of 378 support would open a short."
+  },
+  "transcript": {
+    "macro": "Regime MIXED, event-gated. BTC ~$64.9k, dominance ~58%, no alt rotation. Equities soft, semis dumping on China DUV-lithography scare. Crude sold off ~$82-83 on Iran-truce unwind. Dominant catalyst: FOMC Jul 28-29 (hold priced 82-93%) INSIDE the 48h window. Big-tech earnings (MSFT et al.) next week. Funding ~0 across board (not a usable crowding signal) \u2014 lean on L/S skew and OI. Backdrop argues smaller size on all longs; crude short cleanest alignment but carries OPEC (Aug 2)/inventory risk. Biggest shared risk: hawkish FOMC hits all longs + crowded L/S books at once.",
+    "sentiment": "SOL constructive: rebounded ~16% to mid-$70s (1B+ weekly txns, E*TRADE spot SOL, MS NYSE Arca spot-SOL-ETF pending); no <=48h binary; 0.85 corr to BTC drives near term. CL standout: WTI choppy mid-$80s after >$92 spike on Mid-East supply fear then fell; HARD BINARY OPEC+ Aug 2 (~188kbpd Sept hike); Hormuz/tanker tail gaps price up \u2014 RISK to the short. COIN EARNINGS BINARY: Q2 Thu Jul 30 after close; Q1 badly missed (EPS -$1.49 vs +$0.29), CLO Grewal departing; elevated IV/gap risk. INTC: blowout Q2 fired Jul 23 (EPS $0.42 vs $0.20, rev $16.1B, DC +59%), now priced/fading; no further <=48h binary. MSFT BIGGEST 48h binary: Q4 tomorrow Wed Jul 29 after close; EPS ~$4.24, rev ~$87.6B; Azure vs >$40B CapEx the swing; options price ~7-8% move; stretched RSI 83.",
+    "analyst": "MSFT wildly overbought (RSI 83) yet ADX-89 trend, into tomorrow's Q4 earnings (7-8% implied) + FOMC; both sides negative expectancy. HOLD; re-debate on a 403.24 break or 378 loss.",
+    "portfolio": "HOLD MSFT \u2014 earnings gap tomorrow dwarfs any stop, stand aside."
+  },
+  "timestamp": "2026-07-27T18:35:22.548910+00:00"
+}

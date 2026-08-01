@@ -1,0 +1,25 @@
+{
+  "symbol": "MSFT/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.62,
+  "size": 0.0,
+  "entry": 391.65,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "forecast": "Price stalling in 390-392 after a double rejection at 394; expect chop-to-mild-fade, a break below ~389.5 (VWAP/stall floor) opens a slide toward 386-388, while reclaiming 394 resumes the extended trend.",
+  "rationale": "MSFT is textbook extended (4h RSI 81.6, ADX 89, BB %B 1.155 above the upper band, crowded long/short 1.86) and the last seven 15m bars rejected 394 and rolled sideways into 390-392. Chasing a long at RSI 82 above the band is the #1 late-entry loss pattern; shorting a parabolic ADX-89 uptrend with no confirmed lower-high break is the late counter-trend loss pattern. As a tokenized equity into a Wed FOMC+earnings double binary, holding through the print is a gamble. Wait for the 389.5 break to confirm a fade.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 389.5,
+    "expires_min": 240,
+    "note": "Losing the 390 stall floor / VWAP after the 394 double rejection confirms exhaustion and opens a fade toward 386-388."
+  },
+  "transcript": {
+    "macro": "2026-07-27 NEUTRAL-to-RISK-OFF, event-gated. FOMC July 28-29. Tape in revolt over AI capex; semis hit hard. Tokenized equities HOSTILE/high hazard, thin/gappy outside US cash hours. MSFT technically EXTENDED (4h RSI 81.6, ADX 89, at upper band) with a crowded long (L/S 1.86). Avoid carrying through earnings prints or the Fed.",
+    "sentiment": "MSFT reports earnings Wed July 29 AFTER THE CLOSE (consensus ~$4.21 EPS), same day as FOMC \u2014 a double-event binary. Any position into Wed close is an earnings gamble; already extended. Bearish/binary risk.",
+    "analyst": "No side offers R:R>=1.5 now: can't chase a long at RSI 82 above the band, and shorting a parabolic ADX-89 uptrend without a confirmed lower-high break is the late counter-trend loser. Wait for the 389.5 break to confirm the exhaustion fade.",
+    "portfolio": "HOLD MSFT \u2014 extended parabolic into a Wed FOMC+earnings double binary; no honest entry, stand aside."
+  },
+  "timestamp": "2026-07-27T17:07:19.949063+00:00"
+}

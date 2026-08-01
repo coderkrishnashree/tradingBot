@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "HOOD/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Small 15m bounce off the 105.95 base back toward 107.2-108 likely near-term; stretched +4.56% VWAP, RSI 72 and bearish 4h divergence cap upside, but no fresh rejection to short yet. Cleanest resolution: a bounce into 108.5 that gets sold, or a break under 105.95 that confirms the divergence rolling down toward 104-105.",
+  "expectancy_note": "No edge at price: long is chasing an extended/crowded/divergent move (account's #1 loser), short mid-air into an active 15m bounce gets stopped by the bounce. p(win) on either market entry <0.5. Waiting for the 105.95 break gives a real level to short against.",
+  "rationale": "HOOD is +4.56% above VWAP with RSI 72 / 1h RSI 79.9, BB %B >1.0, 4h bearish divergence and a crowded 1.93 long ratio - no honest long. But the last 15m bars made a higher low at 105.95 and closed at the high (106.86), so it's bouncing, not rejecting; shorting mid-air now risks the classic stop-by-bounce. Best expectancy is to wait for the 105.95 break. Thin after-hours tape into a Jul-29 print argues for patience.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 105.9,
+    "expires_min": 240,
+    "note": "Losing the 105.95 15m base breaks the bounce and confirms the bearish divergence resolving down - short trigger, entering on the retest with stop over 107 toward 104/support."
+  },
+  "transcript": {
+    "macro": "HOOD ~$107, corr 0.45 to BTC. Momentum long but RSI 72, vwap +4.6%, bearish divergence, long/short 1.93 (crowded). Extended. Regime risk-on but late after-hours thin/gappy. Favor smaller size, pullback entries, tight risk - don't chase.",
+    "sentiment": "HOOD NEUTRAL near-term, earnings risk building. Q2 report Jul 29 (outside 48h); ~$0.40-0.41 EPS, prediction-markets tailwind cited. Stretched (RSI 72, bearish divergence, +4.6% above VWAP). No catalyst inside 48h - crowded momentum name into a Jul 29 print. Fed Jul 29 (hawkish Chair Warsh).",
+    "analyst": "Extended/crowded/divergent = no honest long (account's #1 loser). Short is directionally right but early: 15m made a higher low at 105.95 and closed at its high, so it's bouncing not rejecting - shorting mid-air gets stopped by the bounce. HOLD and arm a 105.9 breakdown short that actually resolves the divergence.",
+    "portfolio": "HOOD: HOLD (conf 0.50) - stretched but bouncing; short only on a 105.9 base break, don't chase."
+  },
+  "timestamp": "2026-07-21T21:33:20.755732+00:00"
+}

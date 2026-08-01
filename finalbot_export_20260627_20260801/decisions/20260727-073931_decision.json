@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "MU/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Momentum is fading at the 962 top after a ~2% impulse: last 4 bars printed lower closes (961.0 to 957.97) on shrinking volume with twin rejections at 962. Expect a pullback toward the 953-950 VWAP/launch shelf over the next 3-6 bars.",
+  "expectancy_note": "Chasing this extended long (stoch 91, +0.76% VWAP, semis weak, FOMC Wed) is the book's proven loser; a routine bounce-back down to 950 stops it. p(win) on a chase ~0.4, negative expectancy. No clean level to fade either -> HOLD beats both.",
+  "rationale": "MU is a strong ADX-66 uptrend but is stretched into the top of a fresh 2% ramp with RSI 78 / stoch 91 and the last four 15m bars fading lower on drying volume - a textbook late-continuation trap. Semis got sold Friday and a binary FOMC lands Wed, so rips deserve suspicion. Better to wait for the pullback-and-reclaim than pay the top; no counter-short against ADX 66 either.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 962.3,
+    "expires_min": 240,
+    "note": "A clean reclaim/break of the 962 rejection high on volume proves the fade failed and trend continuation is resuming - re-debate a long toward 1011 resistance."
+  },
+  "transcript": {
+    "macro": "MIXED regime, lean cautious into FOMC Wed Jul 29 + Mag-7 earnings. Weekend relief bounce follows a losing week (Nasdaq -2.1% Fri on CHIP pullback). MU macro tilt NEUTRAL/long but stretched: strong trend (ADX 66, RSI 78) but semis are exactly what got sold Friday; TSM-correlated 0.67, RS ~flat. Chip momentum fading - treat rips with suspicion.",
+    "sentiment": "MU BULLISH narrative but NO near-term catalyst - next earnings late Sep. Rides NAND/memory supercycle + Korea-chip tape (0.88 correlated to SNDK). No <=48h binary; momentum-only long.",
+    "analyst": "Strong uptrend but stretched at the top of a 2% ramp (RSI 78, stoch 91) with the last 4 bars fading on drying volume - classic late-continuation trap into semis weakness and FOMC. No fade level either. Wait for pullback-and-reclaim toward 950 or a 962.3 breakout.",
+    "portfolio": "HOLD MU - stretched semis momentum fading into FOMC; chasing is the proven loser, size 0."
+  },
+  "timestamp": "2026-07-27T07:39:31.666230+00:00"
+}

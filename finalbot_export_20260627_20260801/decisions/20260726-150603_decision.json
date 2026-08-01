@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "AAPL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price stays pinned in the 331-335 zone drifting toward resistance 335.34; expect a rejection there or a low-conviction chop into the FOMC/earnings gate rather than a clean directional move over the next several bars.",
+  "expectancy_note": "No edge: long is 85-RSI chased into resistance with learned p_win only 0.43; short lacks a rejection trigger (orderbook +0.24 bid-heavy). Both sub-1.5 R:R with binary event risk. HOLD is highest expectancy.",
+  "rationale": "AAPL 4h RSI 85.8 / stoch 89.4 / ADX 83 is a maximally extended long into resistance 335.34, and the learner assigns this exact long setup a losing 0.43 p_win - chasing it is the account's #1 loss pattern. A short is directionally attractive on the overbought reading but the 15m tape is quietly drifting UP with no exhaustion wick and bid-heavy order book, so there is no confirmed fade trigger. With Nasdaq risk-off, FOMC Wed, and a binary earnings print Thu after close, there is no honest sub-1.5-ATR-stop trade with R:R >= 1.5; sitting out preserves capital.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 330.5,
+    "expires_min": 240,
+    "note": "Losing 330.5 breaks the tight coil and confirms the overbought 4h exhaustion is rolling over, opening a clean short toward VWAP/319.5 support with a defined stop above resistance."
+  },
+  "transcript": {
+    "macro": "Regime MIXED-to-RISK-OFF, event-gated. Nasdaq -2% on the week. FOMC Wed Jul 29 (~64% hold). AAPL lens: STAY OUT / no fresh risk; scan long but weak (blended 0.436, conf 49%, p_win 0.43) and 4h RSI 85.8 = extremely overbought. Earnings Thu Jul 30 after close - do not hold directional into it. Negatively correlated to BTC (-0.09), pure equity.",
+    "sentiment": "HARD CATALYST fiscal Q3 earnings after close Thu Jul 30 5:00pm ET - framed as Tim Cook's final earnings call (succession by John Ternus), adds headline risk. Binary event in ~2-day horizon. Net neutral-to-mixed into print; iPhone/services guidance is the swing. Risk: Jul 30 post-close gap + CEO-transition commentary.",
+    "analyst": "4h RSI 85.8 / stoch 89.4 / ADX 83 = maximally extended long into resistance 335.34; learner p_win 0.43 (losing) - chasing is the #1 loss pattern. Short is tempting on overbought but 15m drifts UP with no rejection wick and bid-heavy book (orderbook +0.24) - no confirmed fade trigger. FOMC Wed + earnings Thu binary. No honest R:R>=1.5 either way; sit out.",
+    "portfolio": "HOLD AAPL - overbought, no clean trigger, two binary events; capital preserved, armed to short below 330.5."
+  },
+  "timestamp": "2026-07-26T15:06:03.694676+00:00"
+}

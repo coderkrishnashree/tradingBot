@@ -1,0 +1,26 @@
+{
+  "symbol": "AAPL/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.6,
+  "size": 0.0,
+  "entry": 326.27,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "forecast": "Low-volume coil 326.0-326.7 continues; expect either a mean-reversion bounce toward VWAP/330-333 (the short-strength zone) or a fresh leg to retest 322/312 support. No clean next-move until price reaches one of those levels.",
+  "expectancy_note": "Shorting here (4h RSI 23.5, at lower BB, -1.3% below VWAP) is a late chase; p(bounce stops the short) too high for +EV. Waiting to short strength ~330-333 gives far better R:R.",
+  "rationale": "AAPL 4h is a violent ADX-70 downtrend but deeply oversold (RSI 23.5, bb_pctb 0.08), and the last 20 15m bars are a dead low-volume sideways coil, not an active breakdown; off US-cash-hours thin/gappy conditions make chasing worse. Structure is balanced (L/S 1.01) with only mild bearish orderbook, so no edge to short at the low; the macro short-lean says short bounces, not chase. Hold flat until price reaches VWAP/331.5 to short strength, or reclaims and holds to abandon the short.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 331.5,
+    "expires_min": 300,
+    "note": "A bounce to VWAP/331.5 offers the short-strength entry (stop above 335, target 322/312) instead of chasing an oversold low."
+  },
+  "transcript": {
+    "macro": "Regime MIXED/cautious risk-on, geopolitical overhang; VIX 18.65; mega-cap tech earnings season (TSLA Wed 7/22); equity-perps thin/gappy off US cash hours. AAPL: SHORT-LEAN/stay-out \u2014 balanced positioning (L/S 1.01), scan short (-0.49), RSI oversold 23.5 on 4h ADX-70 downtrend; short strength/bounces, don't chase. Not reporting this week.",
+    "sentiment": "AAPL ~$326, deeply oversold. Bearish: KeyBanc downgrade to Underweight 7/14 ($250 PT), OpenAI trade-secret suit 7/11, ~190bps gross-margin hit flagged. BINARY earnings Thu 7/30 after close (outside 48h but approaching). Tilt BEARISH near-term but RSI 23 stretched; watch oversold bounce/short-cover.",
+    "analyst": "Last 20 15m bars a tight low-volume coil after a sharp drop leaving 4h RSI 23.5; not an active breakdown. Shorting here (-1.3% below VWAP, at lower BB) is a late chase; oversold bounce would hit any honest stop first. Best expectancy HOLD, armed to short a bounce into 330-333/resistance.",
+    "portfolio": "AAPL: HOLD (0.6) \u2014 stand aside; short bounces into 331.5, don't chase the low."
+  },
+  "timestamp": "2026-07-21T06:32:37.730214+00:00"
+}

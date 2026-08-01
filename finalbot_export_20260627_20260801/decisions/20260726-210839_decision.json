@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "XAG/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.55,
+  "playbook": "none",
+  "forecast": "Grind sideways-to-lower 58.6-59.4 near-term; the real trade is a push to 61.0 resistance where the crowded 3.95 L/S long unwinds, or a fade back toward 58.5 support. No clean level at 59.08 now.",
+  "expectancy_note": "Shorting mid-range into ADX 89 uptrend, ~1.3% above VWAP, with stop above 59.38/61.0 gives sub-1.5 R:R and fights a 0.64 learned long win-rate \u2014 negative expectancy. Wait for the 61.0 rejection.",
+  "rationale": "Silver is extremely crowded long (L/S 3.95) and overextended under 61.0 resistance, which makes a fade attractive ONLY at that level \u2014 not here at 59.08 mid-range where a short must fight a monster ADX-89 uptrend and would need a wide stop above 59.38/61.0 for a shallow target (poor R:R). The 15m has rolled over but higher TFs remain up; no confirmed entry either way. Hold and arm a short trigger at the resistance where the long unwind would actually fire.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 60.8,
+    "expires_min": 240,
+    "note": "A tag of the 61.0 resistance with the crowded 3.95 long book is the high-expectancy short-fade zone; re-debate for a short on rejection there."
+  },
+  "transcript": {
+    "macro": "RISK-OFF/cautious tape 2026-07-26: USD/rates firm into Fed week; oil-driven inflation risk. XAG (silver) L/S 3.95 (extremely crowded long), ADX 89, right under resistance ~61, overextended. Verdict names over-extended XAG as a tactical short candidate. FOMC Jul28-29.",
+    "sentiment": "XAG macro-driven ~$58, holding $57-58 support; 52% below Jan peak. Fed on hold but hawkish; markets price ~36% chance July hike, ~82% by Sept \u2014 rate risk caps upside. Strong industrial/AI + supply deficit underpin. No dated <=48h binary beyond Fed headlines.",
+    "analyst": "Extremely crowded long (L/S 3.95) and overextended under 61.0 \u2014 a fade is attractive ONLY at that level, not at 59.08 mid-range where a short fights an ADX-89 uptrend and needs a wide stop for a shallow target (poor R:R). 15m rolled over but higher TFs up. Hold and arm a short at the 61.0 resistance where the long unwind fires.",
+    "portfolio": "XAG: HOLD 0.55 \u2014 no clean level mid-range; armed to short a rejection at 60.8/61.0."
+  },
+  "timestamp": "2026-07-26T21:08:39.956148+00:00"
+}

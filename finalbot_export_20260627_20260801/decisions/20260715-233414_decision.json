@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "EWY/USDT:USDT",
+  "size": 0.0,
+  "entry": 170.11,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Price is bouncing off the 168.84-169.14 lows back toward the 171.8-172.2 VWAP/resistance shelf; expect a retest there over the next 2-6 bars where the short reloads, or a failure that loses 169 and opens 167.5.",
+  "expectancy_note": "p(win) ~0.5 on an immediate short; LTF RSI 32/35 oversold and price actively bouncing means a market short chases into the counter-bounce (the account's #1 loser). Better to wait for the 171.9 retest or a clean break of 169.",
+  "rationale": "Higher-TF composite is short (-0.40, 1h/4h down, structure_bias -0.18, orderbook offered) but 15m/1h RSI at 32/35 are oversold and the last four candles show an active bounce off 168.84 - a market short now fades into strength with gap risk (US closed, KOSPI +6-7% squeeze name, will gap next session). No clean R:R at 170.11: shorting here needs a wide stop above 172.2 while TP1 near 167.5 barely covers it. Wait for the retest into 171.9-172.2 (short reload with a tight stop over 173) or a decisive loss of 169. Size 0 until one of those triggers.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 171.9,
+    "expires_min": 240,
+    "note": "A bounce back to the 171.9-172.2 VWAP/resistance shelf is the high-quality short-reload zone with a tight stop over 173 and target back toward 168/165; crossing it re-arms the short."
+  },
+  "transcript": {
+    "macro": "Overall risk-ON but late-session/event-sensitive; US cash closed green on soft June PPI, VIX 15.67; ~49% odds Sept Fed HIKE, DXY ~100.5, 10y ~4.56%. US market CLOSED - proxies trade thin/gappy overnight. BTC ~$62.6k, down. EWY: KOSPI exploded +6-7% today on AI/semi short-squeeze (Samsung +8%, SK Hynix +12%) - violent one-day rebound, overextended/squeeze-driven, not clean trend. Scan composite SHORT (-0.40), price mid-range (170.1, RSI 50, below VWAP -0.41%). Structure_bias -0.183, L/S 1.14 long-crowded, orderbook offered. Low BTC corr 0.29, rel-strength -20%. Size down.",
+    "sentiment": "EWY BEARISH near-term, high conviction. KOSPI in active crash - 'Black Monday' Jul 13 plunged 8.95% below 7,000, circuit breaker, SK Hynix -15%/Samsung -11% chip rout, ~31% off June peak. Modest dead-cat bounce Jul 14. Violent both ways, mechanical leveraged-ETF selling. US-Iran escalation, Hormuz blockade, elevated oil = risk-off for export/chip-heavy Korea. News argues WITH the scan short, but beware sharp counter-trend squeezes given oversold conditions.",
+    "analyst": "Higher-TF composite short is real (structure_bias -0.18, orderbook offered, 1h/4h down) but 15m/1h RSI 32/35 oversold with last four candles bouncing off 168.84. A market short now chases into the counter-bounce (account's #1 loser) with gap risk on a closed, squeeze-driven name. No clean R:R at 170.11. Hold with armed short trigger: reload short on retest into 171.9-172.2 (tight stop over 173) or on a decisive loss of 169.",
+    "portfolio": "EWY: HOLD (conf 0.50) - short bias intact but no clean entry into an active oversold bounce; armed to reload short at 171.9 retest or on loss of 169."
+  },
+  "timestamp": "2026-07-15T23:34:14.727108+00:00"
+}

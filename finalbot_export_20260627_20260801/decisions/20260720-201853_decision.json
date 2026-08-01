@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "ORCL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price is pinned on the 120.36 support after fading from 123.87; RSI 23.7 and %B below the band favor a chop/bounce within 120.4-123.5 near-term rather than a clean next leg. A clean break of 120.36 opens the next down-leg; failure there means a relief bounce toward 123.5.",
+  "expectancy_note": "Short: 1st target is 120.36 support (~1.4 away) vs a >1.3 honest stop = R:R <1.5 and high odds of a bounce-stop into RSI 23.7; long fights ADX 63.9 + BBB- shock with no confirmation. Both sub-threshold; HOLD is best expectancy.",
+  "rationale": "ORCL is deeply oversold (RSI 23.7, %B -0.089, -2.67% vs VWAP) and sitting directly on 120.36 support after a credit-downgrade shock. Shorting here is the account's #1 loss pattern (chasing a stretched move into support, learner p_win 0.375); longing fights a 63.9 ADX downtrend with a toxic narrative and no reversal confirmation. No clean edge either way, so I wait for the support to break (short on a retest) or hold to bounce.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 120.36,
+    "expires_min": 240,
+    "note": "A decisive break of 120.36 support resumes the down-trend cleanly and lets a short enter on the retest rather than into stretched tape."
+  },
+  "transcript": {
+    "macro": "2026-07-20 RISK-OFF/DEFENSIVE. Funding ~0; crowded-long board = contrarian-short tilt. ORCL line: STAY OUT \u2014 L/S 2.58 crowded long but price RSI 23.7 oversold and downtrending all TFs, longs trapped, momentum down. No clean edge either way.",
+    "sentiment": "ORCL: THE recent shock. S&P cut credit rating to BBB- (one notch above junk) on customer concentration (OpenAI ~half backlog) + projected ~$42B FY27 FCF deficit; $70B+ capex + $20B equity raise -> dilution fears. Broke $135->$130->$140 tests, -6% Thu, down ~60% from highs. Fundamentally bearish and sparked the tech rotation. Scan shows deeply oversold (RSI ~24) \u2014 bearish narrative but crowded/stretched short.",
+    "analyst": "Deeply oversold (RSI 23.7, %B -0.089, -2.67% VWAP) sitting on 120.36 support after the BBB- downgrade shock. Short = chasing a stretched move into support (learner p_win 0.375), 1st target only ~1.4 away = R:R <1.5; long fights ADX 63.9 downtrend + toxic narrative with no confirmation. HOLD; arm short on a decisive break below 120.36.",
+    "portfolio": "HOLD ORCL \u2014 oversold on support after downgrade shock, no clean edge; re-debate on a break of 120.36."
+  },
+  "timestamp": "2026-07-20T20:18:53.316186+00:00"
+}

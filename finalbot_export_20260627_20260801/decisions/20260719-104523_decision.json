@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "TSLA/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.35,
+  "playbook": "none",
+  "forecast": "Coiling just above 377.78 support after a failed 383.5 push; 5m RSI 71 shows a counter-bounce underway. Expect chop 380-384 into Monday's cash open, with a real directional resolution only on a clean break of 377.78 (down) or reclaim of ~385 VWAP (up).",
+  "expectancy_note": "No edge: short into 4h RSI 28 + rising 5m momentum is this account's proven losing pattern (late short, stopped by bounce); p_win 0.45, not-aligned composite, and only ~1.1% to support = sub-1.5 R:R. HOLD beats both sides.",
+  "rationale": "TSLA is deeply oversold on 4h (RSI 28) with a fresh 5m bounce, US cash market is CLOSED (thin/gappy indicative pricing), and Q2 earnings hit Wednesday Jul 22 inside the hold window \u2014 a large two-sided binary. A short here has almost no room before 377.78 support and fights an active counter-bounce; a long fights the risk-off downtrend with no confirmation. Neither offers 1.5R with an honest stop, so the highest-expectancy action is to stand aside and let the level pick a direction.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 377.78,
+    "expires_min": 240,
+    "note": "Losing 377.78 support on volume confirms the downtrend resuming with room toward the next level, giving a short real R:R; until then oversold-bounce risk dominates."
+  },
+  "transcript": {
+    "macro": "RISK-OFF regime (2026-07-19). Equities down hard; Fed hawkish (25bp hike priced). US cash CLOSED (Sunday) => thin/gappy indicative pricing. Funding ~0 uninformative; L/S 1.999 crowded long => bias -0.35, 4h downtrend RSI 28 (already oversold \u2014 bounce risk on a short). CRITICAL: TSLA Q2 earnings Wed Jul 22 after close \u2014 inside the hold window; any position must be sized for that binary or closed before it.",
+    "sentiment": "TSLA HIGH-RISK BINARY: Q2 report Jul 22 after close. Record Q2 deliveries (480k, +25% YoY) already gave +6% pop (good news partly priced); call hinges on Robotaxi/Optimus narrative (material robotaxi rev not before 2027). RSI 28 oversold into an earnings binary \u2014 near-term risk two-sided and LARGE; do not hold size blindly through Jul 22.",
+    "analyst": "Deeply oversold 4h (RSI 28) with a fresh 5m bounce (RSI 71); US cash closed; Jul-22 earnings binary inside window. Short has ~1.1% to support 377.78 and fights an active bounce (account's late-short loss pattern); long fights the downtrend unconfirmed. No 1.5R with an honest stop. HOLD; short arms on a volume break <377.78.",
+    "portfolio": "HOLD TSLA \u2014 oversold into earnings binary, no room/edge; short only below 377.78."
+  },
+  "timestamp": "2026-07-19T10:45:23.932163+00:00"
+}

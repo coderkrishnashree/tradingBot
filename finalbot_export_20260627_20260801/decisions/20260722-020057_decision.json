@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "QQQ/USDT:USDT",
+  "confidence": 0.5,
+  "size": 0.0,
+  "entry": 709.13,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "forecast": "Price is coiling 707.5-710 just under the 710 high after fading off it; expect chop in this band into the GOOGL print (~20:30 UTC), then a gap-driven move that resolves the bearish divergence - no clean edge until either 710.5 reclaims (trend resumes) or 707.5 fails (divergence resolves down).",
+  "expectancy_note": "No R:R>=1.5 setup: long is chasing RSI73.8/stoch90.5/bearish-div (account's #1 loss = late trend entries); short fights ADX66 + orderbook +0.68 at intraday support (shorts win only 0.45 here). Overnight GOOGL earnings gap makes any hold a coin-flip. HOLD is highest expectancy.",
+  "rationale": "QQQ is in a very strong uptrend (ADX 66) but tactically extended and toppy: RSI 73.8, stochastic 90.5, %B 0.89, and a bearish divergence, with 15m already rolling off the 710 high into 707.75. There is no pullback to buy the trend and no confirmed breakdown to short, so neither side offers R:R>=1.5 to a nearby level. Layered on top is tonight's GOOGL earnings (~20:30 UTC) that gaps the whole index - holding into that binary with no structural edge is negative expectancy. Wait for a real level: a dip to VWAP/688 to join the trend, or a decisive loss of 707.5 to short the divergence.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 707.5,
+    "expires_min": 240,
+    "note": "Losing the 707.5 intraday support with momentum confirms the bearish divergence is resolving lower against the overbought top - flips toward a short despite the strong ADX and bid-supported orderbook."
+  },
+  "transcript": {
+    "macro": "Regime risk-on but late-stage/event-heavy; chip-led rebound, hawkish Fed (~60% Oct hike). QQQ is the structure OUTLIER (structure_bias +0.25, orderbook +0.68, L/S 0.83 not crowded). Lean: NEUTRAL/supportive but tactically toppy (RSI 73.8, stoch 90.5, bearish divergence); gaps on tonight's GOOGL/TSLA prints. Respect earnings gap risk overnight.",
+    "sentiment": "QQQ mildly bullish (index proxy), riding chip-led Nasdaq rally to fresh highs. No single-name binary but indirect exposure to GOOGL (tonight ~20:30 UTC) and mega-cap earnings wave - elevated volatility. Lean bullish with the tape, tempered by event risk.",
+    "analyst": "Strong uptrend (ADX 66) but extended/toppy (RSI 73.8, stoch 90.5, bearish divergence), 15m rolled off 710. No pullback to buy, no confirmed breakdown to short - neither side clears R:R 1.5. GOOGL earnings gap tonight makes a hold a coin-flip. HOLD; flip on loss of 707.5.",
+    "portfolio": "HOLD QQQ - overbought under the high with GOOGL earnings gap risk tonight; no edge until a level resolves."
+  },
+  "timestamp": "2026-07-22T02:00:57.660220+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "INTC/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.34,
+  "playbook": "none",
+  "forecast": "Price is pinned at the top of the Bollinger band (%B 0.944) and +2% above VWAP after a dip-and-recover to 96.74; expect chop between the 95.0 shelf and 96.7 resistance over the next few bars, no clean directional edge until one side breaks.",
+  "expectancy_note": "Long is extended (RSI 69, stoch 85, +2% VWAP) = the account's classic late-chase loss; short lacks confirmation and fights an ADX-41 uptrend into a thin, closed, pre-earnings tape. Neither offers honest 1.5R, so flat is the highest-expectancy call.",
+  "rationale": "INTC is a tokenized equity in a CLOSED, thin pre-open session with a semi-sector headwind and crowded-long positioning (L/S 2.237). It is stretched to the top of its band, so buying here is chasing; but there is no confirmed rejection to short and price defended the 95.0 shelf and rebounded to 96.7, so a short is a knife-catch against an uptrend. With Thursday's Jul 23 AMC earnings a binary bomb (options imply ~15% move) approaching the edge of the window, size discipline and no forced trade is correct \u2014 wait for the shelf to break and plan to be flat before the print.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 95.0,
+    "expires_min": 240,
+    "note": "Losing the repeatedly-defended 95.0 shelf confirms the crowded-long unwind/exhaustion and opens a clean short toward VWAP and support 89.76."
+  },
+  "transcript": {
+    "macro": "Regime MIXED/cautious. US cash closed pre-open; tokenized perps thin/gappy until 09:30 ET. Semi slide = headwind for semis. Positioning CROWDED LONG. INTC: RSI 69, stoch 85, VWAP +2%, crowded L/S 2.237 \u2014 extended, thin book.",
+    "sentiment": "HIGHEST-PRIORITY EVENT RISK: INTC earnings Thursday Jul 23 ~14:00 PT (after close) \u2014 inside the 48h window by end of cycle. Options imply ~15% move. Stock up ~160% YTD, euphoric (18A yield to 85%, foundry order chatter incl. Nvidia/OpenAI; HSBC $200 PT). BINARY BOMB: any position into Thursday's close faces a large gap. EVENT-CONSTRAINED \u2014 argue against carrying size into the print.",
+    "analyst": "Pinned at top of band (%B 0.944, +2% VWAP) after dip-and-recover to 96.74; composite long but weak (38.6%). Long = late chase into stretched tape; short lacks confirmation and fights ADX-41 uptrend into thin closed pre-earnings tape. Neither offers 1.5R. HOLD (low conf 0.34); short arms on loss of the 95.0 shelf; stay flat before Thursday's print.",
+    "portfolio": "INTC: HOLD (conf 0.34) \u2014 extended + earnings Jul 23 event risk; no forced trade, short arms below 95.0."
+  },
+  "timestamp": "2026-07-20T08:43:23.712043+00:00"
+}

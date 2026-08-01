@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "XAG/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.62,
+  "playbook": "none",
+  "forecast": "Price stays pinned in the 58.0-58.9 coil under the $60 ceiling into the weekend; no directional resolution expected until the Jul 29 FOMC, which then gaps it either toward $61+ (dovish) or sub-$55.71 (hawkish).",
+  "expectancy_note": "No edge: p(win) ~50/50 into a binary FOMC gap. No pullback for a trend entry (VWAP +0.29%, %B mid-band), no extreme to fade, no breakout trigger. Best expectancy is waiting for the $60 break or the gap to clear.",
+  "rationale": "4h trend is up (ADX 39, RSI 65, score 0.9) but that long is the MOST crowded in the book (L/S 4.01, structure_bias -0.30) and price sits mid-range with no honest entry \u2014 the 15m tape is a dead 15c coil. A binary FOMC (Jul 29, ~35% hike odds) plus BOJ (Jul 30) both land inside the ~48h window on a thin weekend tape, so any entry now is a coin-flip on an event gap, not a technical edge. Zero size until the range resolves.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 60.0,
+    "expires_min": 240,
+    "note": "A clean reclaim/break of the $60 ceiling confirms the bullish breakout toward $61+ and is the only near-term move worth entering with the trend."
+  },
+  "transcript": {
+    "macro": "Regime MIXED-to-HOSTILE for adding risk: weekend, US cash closed, thin/gappy tape. Live FOMC Jul 28-29 (~35% hike odds, tripled in a week; Warsh hawkish) + BOJ Jul 30 inside hold window = event-gap risk. Strong dollar (DXY 13-mo high) + 10Y ~4.5% headwind for non-yielders. Crowded retail longs across book; XAG L/S 4.01 (most crowded), funding ~0, structure_bias -0.30. XAG ~$58, 52% below Jan ATH, pinned below $60; trend model tags long but consensus; rel strength -9.1% vs BTC. Macro lean: NEUTRAL, slight fade-longs. Small size only.",
+    "sentiment": "Silver BULLISH structurally (6th year supply deficit ~46Moz, AI/solar/datacenter demand, soft June CPI revived cut hopes) BUT high two-way risk into FOMC Wed Jul 29 2pm ET \u2014 single biggest <=48h mover. Dovish -> breakout toward $61+; hawkish + stronger dollar -> break below $55.71 triangle floor. Trade the reaction, not the narrative.",
+    "analyst": "4h trend up (ADX 39, RSI 65) but most-crowded long in book; 15m tape a dead ~15c coil pinned mid-range 55.64/61.0. No pullback for a trend entry, no extreme to fade, no breakout trigger. Binary FOMC + BOJ inside 48h window on thin weekend tape = coin-flip gap risk, not tradeable edge. Textbook NO TRADE; arm reconsider on $60 ceiling reclaim.",
+    "portfolio": "XAG/USDT:USDT \u2014 HOLD (conf 0.62): no edge into binary FOMC; wait for $60 break."
+  },
+  "timestamp": "2026-07-26T06:03:48.991147+00:00"
+}

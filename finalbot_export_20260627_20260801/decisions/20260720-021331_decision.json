@@ -1,0 +1,28 @@
+{
+  "symbol": "TSLA/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.4,
+  "size": 0.0,
+  "entry": 381.9,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "none",
+  "forecast": "Price grinds lower-highs toward support 377.78 (~1% below) on drying volume; chop 380-384 into the weekend with the real move deferred to the Wed earnings gap. No clean 1.5R short here.",
+  "expectancy_note": "p_win_learned 0.391 and account shorts win only 47% (avg -0.88R); short R:R to support 377.78 is ~1.46 (<1.5) and fades INTO support \u2014 negative expectancy vs waiting for a clean breakdown.",
+  "rationale": "Structure favors short (long_short 2.04 crowded, orderbook -0.25, bias -0.38, 4h -0.9) but price is only ~1.1% above support 377.78, so a market short is a chase into the floor with sub-1.5 R:R and the account's worst-performing pattern (aligned shorts, p_win 0.39). Q2 earnings Wed ~48h out imply a ~7% two-sided gap and weekend liquidity is thin/gappy. Best expectancy is to wait: a decisive loss of 377.78 opens a real short.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 377.78,
+    "expires_min": 240,
+    "note": "Losing support 377.78 confirms the breakdown and opens a clean short leg with room down \u2014 a real 1.5R+ entry rather than a chase into support."
+  },
+  "transcript": {
+    "macro": "Near-term RISK-OFF for tech. TSLA scan direction SHORT; long_short 2.04 (crowded long into weakness), orderbook -0.251, structure_bias -0.38 \u2014 positioning supports the short. BUT Tesla Q2 earnings Wed Jul 22 5:30pm ET (~48h out), two-sided vol risk. Tokenized equities thin/gappy on weekend.",
+    "sentiment": "HIGH-attention binary \u2014 Q2 earnings Wed Jul 22. Q2 deliveries already strong (480,126 beat). Options imply ~7% move; focus robotaxi (Miami live, Austin Cybercab) & Optimus over financials. Scan short but the event is two-sided \u2014 do NOT hold blind into it.",
+    "analyst": "Candles grind lower-highs toward support 377.78 on drying volume; last bar a small green reclaim. Short from 381.9 with honest stop above 384.7 (~1.8xATR) targeting 377.8 gives R:R ~1.46 (<1.5) and fades INTO support. Learner: shorts 0.47 wr, avg -0.88R; p_win_learned 0.391 below coin-flip; aligned-short-into-support is the loss profile. ~7% binary 48h out + thin weekend liquidity. Negative expectancy \u2014 HOLD, no chase, no blind short into earnings.",
+    "portfolio": "TSLA \u2014 HOLD (conf 0.40): bearish structure but chase-into-support sub-1.5R with a ~7% earnings binary 48h out; short re-arms below 377.78."
+  },
+  "timestamp": "2026-07-20T02:13:31.759006+00:00"
+}

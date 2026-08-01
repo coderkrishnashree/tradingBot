@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "GOOGL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.62,
+  "playbook": "none",
+  "forecast": "Coiling 348.3-348.9 after the 347.64 washout; likely chops/counter-bounces toward VWAP ~350.5 over next 2-4 bars rather than fresh downside, until the earnings binary resolves.",
+  "expectancy_note": "Short here is late into 1h RSI 20.5 washout (p_win_learned 0.422 = losing condition); a VWAP bounce hits a 1xATR stop before trend resumes. Binary earnings gap tomorrow makes any carried size negative expectancy.",
+  "rationale": "4h trend and structure lean short, but price is already washed out (1h RSI 20.5) and now basing flat on heavy volume, not accelerating down - entering short here is the account's #1 late-continuation loss pattern. Alphabet Q2 earnings tomorrow after the CLOSED US market is a hard binary gap that dwarfs any honest ~1xATR stop, so no directional size is justified. No intraday edge at mid-band with support 2% away - HOLD is the highest-expectancy call.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 347.6,
+    "expires_min": 240,
+    "note": "Losing the 347.64 washout low on volume confirms the 4h downtrend resuming with room to 341.86 support before extension - a valid short entry."
+  },
+  "transcript": {
+    "macro": "Regime MIXED, cautiously risk-on but headline-fragile (2026-07-21). Nasdaq +1.3% Tue; 10Y ~4.57% with futures pricing ~53% odds of a Sept HIKE; DXY ~101. US cash market CLOSED (~22:55 UTC) -> tokenized equities/ETFs thin/gappy with gap risk into Wed open. GOOGL Q2 earnings Wed July 22 after close = binary gap radiating across the tech complex. Least positioning risk: QQQ & EWJ (uncrowded / trend-supported) but poor liquidity; CRCL has the best fundamental catalyst (OCC national-trust-bank approval) but the worst crowding (L/S 2.05, RSI 87 -> fade-the-chase risk); GOOGL should not be carried through the print. Argues for smaller size across all four.",
+    "sentiment": "Only true <=48h binary on the board is GOOGL earnings Wed July 22 after close (which also swings QQQ). GOOGL bullish tone but high-risk binary -> do not hold a directional swing through the print. CRCL two-sided: OCC national-trust-bank pop (+5-13%) fighting Visa Open USD consortium threat & Mizuho Underperform ($50 PT); overbought RSI ~87, mean-reversion risk high, earnings not near-term (Aug 18). QQQ bullish/neutral, seasonally strong July but hostage to megacap prints, no own catalyst. EWJ neutral near-term - BOJ July 30 & FOMC both outside the 48h window; thin gappy Bybit book.",
+    "analyst": "4h trend and structure lean short, but price is already washed out (1h RSI 20.5) and now basing flat on heavy volume, not accelerating down - a short here is the account's #1 late-continuation loss pattern (p_win_learned 0.422). Alphabet Q2 earnings tomorrow after the CLOSED US market is a hard binary gap that dwarfs any honest ~1xATR stop. Mid-band, support 2% away, no intraday edge.",
+    "portfolio": "GOOGL -> HOLD (0.62): no directional size into tomorrow's earnings binary; short only if it loses 347.6."
+  },
+  "timestamp": "2026-07-21T23:00:42.423457+00:00"
+}

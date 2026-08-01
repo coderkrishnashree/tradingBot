@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "HOOD/USDT:USDT",
+  "confidence": 0.6,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "forecast": "Coiling 106.6-107.5 after a stalled run; likely a mean-reversion dip toward 105-104 (VWAP zone) over the next several bars before the uptrend can resume - no clean long entry up here, no valid short into ADX 74.",
+  "expectancy_note": "No positive-expectancy entry: fresh long is extended (+4.63% vwap, %B 0.98, 2.4xATR) so a bounce isn't buyable; short fights ADX 74 uptrend and this account's shorts lose (45% win, -1.21 avg). Wait for a pullback to buy the trend.",
+  "rationale": "HOOD is in a powerful uptrend (ADX 74, aligned MTFs) but stretched to the upper band with 4h bearish divergence, crowded L/S 1.78, and negative rel-strength -10.88 - every model weight argues against chasing long here, and the 15m tape has flattened/rolled rather than pushing. Chasing a long risks the routine pullback stopping me out; shorting an ADX-74 trend is the exact late-short pattern that has bled this account (49 shorts, 45% win). Highest-expectancy action is to wait: buy a pullback into the 104-105 VWAP/SMA20 zone, or confirm a fresh breakout. Size zero.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 105.0,
+    "expires_min": 240,
+    "note": "A pullback into the 104-105 VWAP/SMA20 zone resets the extension and offers a proper trend-continuation long entry with a tight stop below support."
+  },
+  "transcript": {
+    "macro": "Regime risk-on but late-stage/event-heavy; chip-led rebound, hawkish Fed (~60% Oct hike odds). Tokenized-equity perps crowded-long. HOOD lean: NEUTRAL, supportive but EXTENDED - strong uptrend (ADX 74, RSI 78.5) riding fintech bid but stretched (bb_pctb 0.98, 4h bearish divergence), crowded (L/S 1.78). Favor pullback entries, smaller size.",
+    "sentiment": "HOOD bullish tone, NO imminent binary. Earnings not until July 29 (outside 48h). Driver: July 1 Robinhood Chain mainnet launch (tokenized stocks/perps/7% Earn), stock ~$113. Multi-week narrative, not a 48h catalyst. Near-term lean bullish with market beta.",
+    "analyst": "Extended >2xATR above VWAP, %B 0.98, 4h bearish divergence, 15m stalled/rolled - can't chase long. Short fights ADX 74 uptrend and account's shorts bleed (45% win). No entry. HOLD; buy a pullback to 104-105 or confirm breakout.",
+    "portfolio": "HOLD HOOD - trend intact but too extended to chase; wait for a pullback to the 104-105 zone."
+  },
+  "timestamp": "2026-07-22T02:00:55.580596+00:00"
+}

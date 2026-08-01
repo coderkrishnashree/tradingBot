@@ -1,0 +1,26 @@
+{
+  "symbol": "CRCL/USDT:USDT",
+  "action": "hold",
+  "size": 0,
+  "entry": 66.59,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.36,
+  "playbook": "none",
+  "forecast": "Price coils 65.9-66.7 at VWAP through the weekend session; without a fresh catalyst it drifts sideways-to-slightly-lower, but the real move waits for a break of the 65.15 swing low (fade lower toward 61.78) or reclaim of 66.66 (bulls absorb the fade).",
+  "expectancy_note": "No edge either side: trend (long 0.357) and saturated crowded longs (2.83) disagree, catalyst spent, price at VWAP not extended - any entry is a coin-flip and weekend cash-close adds Monday gap risk. HOLD beats a low-p forced trade.",
+  "rationale": "CRCL spiked +14% today on a one-off OCC trust-bank approval that already faded from ~72.85, so the catalyst is spent and momentum has stalled into a tight coil at VWAP (-0.32%). Trend reads mildly long but positioning is a fully saturated crowd long (long/short 2.83) into a name up big on its own news - trend and crowding disagree, which is a fade-the-chase setup with no clean trigger. Critically this is a tokenized EQUITY with the US cash market CLOSED for the weekend, so any carried position eats a two-sided Monday gap; sizing into that with no edge is negative expectancy. Hold and arm the more informative flip below 65.15.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 65.15,
+    "expires_min": 240,
+    "note": "Losing the 65.15 post-fade swing low breaks the bounce structure and confirms the crowded-long unwind - that opens a structure+positioning-backed short toward support 61.78."
+  },
+  "transcript": {
+    "macro": "Regime MIXED, cautious risk-on. BTC ~$64,150, +6.3% week but fragile (weak US demand, Coinbase Premium negative 50 straight days; BTC/Nasdaq corr ~0.77 into month-end Fed). Grind/mean-revert tape. CRCL: structure_bias -0.323 driven by saturated long_short 2.83 (crowd heavily long after +14% OCC-approval pop); funding flat, orderbook slightly offered; composite still reads long 0.357 so trend vs positioning disagree. BTC corr only 0.53, rel strength -18.2% (own-catalyst name). OVERRIDING: tokenized equity, US cash market CLOSED for the weekend -> Monday gap risk on any carry. Stance: MIXED-to-cautious, fade-the-chase, trade small, avoid weekend carry.",
+    "sentiment": "CRCL neutral-to-slightly-bullish. Fresh catalyst Jul 10: OCC approval for Circle National Trust national digital-currency trust bank to custody its own USDC reserves - spiked +16% intraday to ~$72.85 then faded to ~+5% close (shock largely priced, momentum faded into close = fade risk, not a fresh long trigger). Overhang: Compass Point Sell->Neutral, cut target to $55 on Stripe/bank-issued stablecoin competition (low-weight, long-horizon). Q2 earnings Aug 18 (outside 48h). Net: mildly supportive but day-one pop spent; two-sided gap risk around the news fade.",
+    "analyst": "Price 66.59 balanced at VWAP (-0.32%) after a spent catalyst, coiling 66.1-66.5 with a small bounce off the 65.15 low. RSI 59.6 mid-range, ADX 57.8 (reflects the big daily move). Long = chasing crowded 2.83 late longs on a spent catalyst into a closed cash market (the account's #1 loss pattern). Short = no downside trigger, price at VWAP not extended, weekend could gap up against it. No clean edge either way; high-expectancy choice is HOLD. Reconsider armed below 65.15 for a structure+positioning-backed short toward 61.78.",
+    "portfolio": "CRCL/USDT:USDT -> HOLD (conf 0.36): fade-the-chase, no edge into spent catalyst + crowded longs + weekend gap; short trigger armed below 65.15."
+  },
+  "timestamp": "2026-07-10T23:29:03.545905+00:00"
+}

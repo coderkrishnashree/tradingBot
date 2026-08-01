@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "ORCL/USDT:USDT",
+  "size": 0.0,
+  "entry": 145.17,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.4,
+  "playbook": "none",
+  "forecast": "Bounce is fading: last two 15m bars rejected 145.5 (609-vol spike closed off the high, final bar faded to 145.17 near its low). Expect chop/drift in the 143.5-146 zone over the next several bars, no clean thrust; a dip toward the 142-143 VWAP/prior-support zone is the higher-probability path before any real continuation leg.",
+  "expectancy_note": "No edge at 145.17 mid-range: long to 149.29 is only ~1.4:1 vs an honest sub-143 stop and would chase a faded bounce into crowded longs (L/S 2.148); short fights the long composite/1h-RSI-38 with 137.63 support far away. Best expectancy is waiting for the pullback.",
+  "rationale": "ORCL is a tokenized equity (btc_corr 0.36) sitting mid-range between 137.63 support and 149.29 resistance, ~1.24% above VWAP with 4h RSI 62.5 \u2014 neither oversold-at-support (no mean-reversion long) nor extended-at-resistance (no fade short). The July 9 oversold bounce has already partly faded (145 < the ~148 high) and the last two 15m bars show a rejection at 145.5 with a fade close, so buying here is exactly the 'chase continuation after the move into crowded longs' pattern that bleeds the account. No entry from 145.17 clears the 1.5:1 R:R bar with a <=1.5xATR honest stop, so size is zero; I'd rather buy a pullback into the 142-143 VWAP/support zone (better R:R toward 149) than chase, and won't carry naked risk toward Tue CPI.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 142.5,
+    "expires_min": 360,
+    "note": "A dip into the 142-143 VWAP/prior-support zone would offer a real mean-reversion long with an honest sub-141 stop and 2.5-3xATR room back toward 148-149 \u2014 that setup earns an entry; chasing at 145 mid-range does not."
+  },
+  "transcript": {
+    "macro": "Tokenized equity \u2014 judge as equity (Nasdaq/semis/rates), btc_corr 0.357. Regime moderately risk-on but choppy/headline-sensitive; indices near highs, AI bid returning after Jul 7 chip rout, Jul 9 bounce. ORCL positioning: funding ~0 (neutral), OI 12,841 (moderate), L/S 2.148 (crowded long = contrarian headwind, biggest positioning risk; structure_bias -0.315), orderbook -0.049. Rel strength -22.06 (major laggard, ~-25% YTD, on $140 support with AI-capex/dilution overhang). Events: CPI Tue Jul 14 (rate-sensitive, ~4d out); NO earnings until Sep 14; ex-div today $0.50; off-hours gap risk. VERDICT MIXED: tape supports risk but not a fresh long (crowded L/S, laggard at support); argues SMALLER size, treat any long as tactical mean-reversion off support, don't carry through CPI/off-hours.",
+    "sentiment": "ORCL down ~24-27% YTD, off >50% from ~$346 high, 9-day losing streak into early July. Cause NOT a fundamentals miss (Q4/FY26 beat-and-raise, 21% rev growth, IaaS +84-93%, $553-638B backlog) but a BALANCE-SHEET story: FY26 FCF ~-$24B vs ~$56B capex, guiding ~$70B more capex + ~$40B raise ($20B ATM ~5% dilution); $300B OpenAI deal spooked bond market. Fresh catalyst: oversold bounce +3.4-5.7% Jul 9 (to ~$148 from ~$140) on short-covering \u2014 momentum not fundamentals, can reverse fast; scan last ~$145 already below Jul 9 high so bounce partly faded. NO binary event in 48h. Analysts lopsidedly bullish (84% Buy, PT ~$251-264) but long-horizon, low 48h weight. VERDICT: Neutral-to-mildly-bullish, LOW conviction.",
+    "analyst": "Price mid-range between 137.63 support and 149.29 resistance, ~1.24% above VWAP, 4h RSI 62.5 \u2014 neither oversold-at-support nor extended-at-resistance. Jul 9 oversold bounce already partly faded (145 < ~148 high); last two 15m bars rejected 145.5 with a fade close near the low. Long from 145.17 to 149.29 is only ~1.4:1 vs an honest sub-143 stop and would chase a faded bounce into crowded longs (L/S 2.148) \u2014 the exact 'chase continuation' loss pattern. Short fights the long composite and 1h RSI 38 with 137.63 support far away. No entry clears 1.5:1 R:R with a <=1.5xATR stop \u2192 HOLD, size 0. Reconsider a real mean-reversion long on a dip into the 142-143 VWAP/support zone.",
+    "portfolio": "HOLD ORCL/USDT:USDT \u2014 no edge mid-range after a faded bounce into crowded longs; wait for a 142-143 pullback."
+  },
+  "timestamp": "2026-07-10T05:28:26.029282+00:00"
+}

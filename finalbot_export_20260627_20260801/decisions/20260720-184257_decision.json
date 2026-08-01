@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "MSTR/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Price is stalling at 99-100 just under 102 resistance after a +5.7% run; last two bars rejected 100.56 and closed weak (99.44). Base case: a pullback toward VWAP/prior shelf ~96-97 over the next several bars before any resolution. A clean break/hold above 102 would open continuation toward the next leg.",
+  "expectancy_note": "No positive-expectancy entry now: fresh long is a chase (RSI 74, bb_pctb 1.19, +3.82% over VWAP, into 102 res, p_win 0.474) that a routine bounce-stop kills; a short into ADX 50.5 uptrend with rising RS is negative-EV. Wait for a level.",
+  "rationale": "MSTR is the highest-beta BTC proxy with BTC pinned at $65.7k resistance and dominance rising \u2014 macro says no crowded fresh longs and no chasing. Technically extended (RSI 74.2, bb_pctb 1.19, +3.82% VWAP) into the 102 cap with the last bar rejecting, so a market long buys the top and a with-trend short is premature. The account's edge is longs (0.69) but only on non-extended pullbacks; HOLD until price either reclaims 102 (continuation) or pulls back to ~96 VWAP for a cleaner long.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 102.0,
+    "expires_min": 240,
+    "note": "A clean break and hold above the 102 resistance proves the uptrend is resuming rather than topping, validating a with-trend long on the retest."
+  },
+  "transcript": {
+    "macro": "Crypto weaker regime: BTC capped at 65.7k, dominance rising, Fear&Greed 29. MSTR MIXED: crypto-proxy equity corr 0.73 BTC / 0.85 COIN (leveraged BTC bet), positive RS +3.4% and trending but 4h RSI 74 / bb_pctb 1.19 extended, p_win_learned only 0.474. Rolls fastest if BTC rejects 65.7k. Size down.",
+    "sentiment": "MSTR NEUTRAL, no imminent binary (earnings Jul 30). Holds 843,775 BTC; $1B buyback + digital-credit framework supportive but not a 48h trigger. Highest crypto beta on the board; near-term = pure BTC direction.",
+    "analyst": "MSTR at 99.44, stalling under 102 resistance after +5.7% run, last two bars rejected 100.56. RSI 74.2, bb_pctb 1.19, +3.82% VWAP = do-not-chase long; with-trend short premature into ADX 50.5. BTC at resistance. p_win 0.474 weakest. HOLD until 102 reclaim or ~96 VWAP pullback.",
+    "portfolio": "HOLD MSTR \u2014 extended into 102 with BTC capped; long only on break>102 or pullback to VWAP."
+  },
+  "timestamp": "2026-07-20T18:42:57.833694+00:00"
+}

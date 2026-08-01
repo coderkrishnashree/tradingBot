@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "SOL/USDT:USDT",
+  "size": 0.0,
+  "entry": 75.09,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.4,
+  "playbook": "none",
+  "forecast": "Coiling just above 74.04 support; likely chop 74.5-75.6 into the 12:30 UTC CPI print, then a directional resolve \u2014 soft/in-line CPI squeezes the crowded 2.59 long ratio toward VWAP ~76.5, hot CPI breaks 74.04 toward 72.5.",
+  "expectancy_note": "Fresh short p(win) ~0.45 (learner: trend shorts 45% win / -2.5R, oversold chase = #1 loss pattern); R:R only ~1.3:1 to first support with CPI binary blocking the path \u2014 HOLD has higher expectancy than shorting into support pre-event.",
+  "rationale": "SOL is in a strong 4h downtrend (ADX 62) but is oversold at support (74.04 one point below, %B 0.13, stoch 25, VWAP -1.8%) after the 74.5 low, and the last 15m bars ground UP not down \u2014 the clean short already played out. Shorting here chases into support against a heavily lopsided 2.59 long ratio (squeeze fuel), +8.1% relative strength vs BTC, and a binary US CPI print in ~5.5h. That is precisely the late-short-into-stretched-tape pattern the learner shows bleeds this account (-1.6R avg on shorts). Size 0: wait for either a bounce to VWAP/resistance to short with edge, or a confirmed 74.04 break post-CPI.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 74.04,
+    "expires_min": 360,
+    "note": "Losing 74.04 support (ideally post-CPI) confirms downtrend resumption with air below toward 72.5 \u2014 that break is the honest short entry, not chasing at support."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF/defensive. BTC ~$62.5k (21-month low area), BTC.D 56.3%, negative Coinbase premium 50 straight days, shrinking stablecoin supply (capital leaving crypto). Equities wobbly (S&P -0.79%, Nasdaq -1.55% chip-led on Iran/Hormuz oil spike). CRITICAL: US June CPI prints today Jul 14 12:30 UTC \u2014 scan built pre-print, so any trade is on the wrong side of a binary event in hours. SOL: price 75.09, 4h downtrend (RSI 36.3, ADX 62), all TFs short-aligned, blended -0.361. Funding ~flat (not crowded-long). Long/short 2.59 = heavily lopsided long (squeeze-higher fuel). btc_corr 0.79 (SOL short = leveraged BTC short). relative_strength +8.1% vs BTC (short fights relative strength). Read: MIXED-to-supportive for a short, size down; biggest risk = soft/in-line CPI relief bounce squeezing the crowded longs.",
+    "sentiment": "SOL net BEARISH/risk-off near-term. Jul 13 SOL -3.4% to ~$74.87 with broad crypto risk-off; renewed US-Iran hostilities lifted oil, reviving inflation/rate worries; Fear & Greed ~28 (Fear); US spot BTC ETFs ~$425M net outflows Jul 13. SOL-specific: failed to break $80 and rolled over; Phantom wallet outage Jul 13 = minor on-chain confidence hit. Structural (not 48h): 5 spot SOL ETFs live (~$1.12B inflows) but absorbed by venture unlock supply through Q3 (slow bleed). 48h read: bearish-to-neutral, favors short. Main risk to short: oil/geopolitics de-escalation or oversold bounce off ~$74 support.",
+    "analyst": "Downtrend is real (ADX 62) but price is oversold at support: 74.04 one point below, %B 0.13, stoch 25, VWAP -1.8%, and the last 15m bars ground UP after the 74.5 low \u2014 the clean short already played out. A fresh short chases into support against a lopsided 2.59 long ratio (squeeze fuel) and +8.1% relative strength vs BTC, with CPI ~5.5h away. R:R only ~1.3:1 to first support. This is the late-short-into-stretched-tape pattern the learner shows loses (-1.6R avg on shorts). HOLD, size 0; reconsider on a confirmed 74.04 break post-CPI.",
+    "portfolio": "SOL/USDT:USDT \u2014 HOLD (conf 0.40): oversold at support pre-CPI, no honest short R:R; wait for VWAP bounce or a 74.04 break."
+  },
+  "timestamp": "2026-07-14T07:02:36.252281+00:00"
+}

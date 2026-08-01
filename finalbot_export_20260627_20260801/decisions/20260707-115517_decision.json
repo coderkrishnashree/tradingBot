@@ -1,0 +1,26 @@
+{
+  "symbol": "NVDA/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.6,
+  "entry": 191.81,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "size": 0.0,
+  "playbook": "none",
+  "forecast": "Price coils just above support 190.16 after an oversold flush; next few bars likely chop 190.5-192.5 as sellers exhaust and dip-buyers probe. Either 190.16 cracks and slides toward 188 (short trigger), or a reclaim of ~193/VWAP kicks off an oversold bounce toward 195-197 (long trigger). No clean edge yet.",
+  "expectancy_note": "Shorting here is a chase: RSI 15-24 all TFs, %B<0, price on support 190.16, Micron in 48h risks a relief bounce \u2014 R:R only ~1:1 into a strong level. Counter-trend long lacks confirmation vs ADX 46.7 downtrend. HOLD until a level resolves.",
+  "rationale": "Genuine downtrend (ADX 46.7, all TFs short, structure_bias -0.36) but deeply oversold and pinned to support 190.16, below the lower Bollinger band, with the last three 15m bars ticking up on fading volume. Entering short now sells into a probable bounce zone with a Micron catalyst in 48h; entering long fights a strong trend with no reclaim yet. Neither side offers R:R>=1.5, so the highest-expectancy play is to wait for the level to break.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 190.16,
+    "expires_min": 240,
+    "note": "Losing support 190.16 on volume confirms the breakdown continues and opens a clean short with room toward 188; a decisive close below flips me short."
+  },
+  "transcript": {
+    "macro": "Cautious risk-OFF / SHORT-tilt (2026-07-07). QQQ broke below 50-day MA Jul 2. DXY reclaimed 100, US 10Y ~4.48%. Live risk: AI-chip unwind; PHLX chip index bled >$1T since June; Micron reports Wed Jul 8/9 (48h event risk). Funding ~0 on equity perps. NVDA-specific: SHORT-friendly but STRETCHED \u2014 structure_bias -0.36, RSI 23.8 (deeply oversold), all TFs down, rel-strength -3.5% vs BTC; chase-short risk HIGH.",
+    "sentiment": "NVDA: BEARISH/volatile near-term. Caught in today's chip rotation + Samsung read-through; heavy overnight selling. No earnings inside 48h (next report late Aug). Short-term news aligns with short.",
+    "analyst": "Genuine strong downtrend (ADX 46.7, all TFs short) but deeply oversold \u2014 RSI 15-24 across TFs, %B -0.24 (below lower band), stoch 11.1, VWAP -2.38%, pinned to support 190.16 (~0.86% away) with last three 15m bars ticking up on light volume. Shorting is the exact chase-short trap into a Micron-driven relief-bounce zone (~1:1 R:R); counter-trend long lacks any reclaim confirmation. Neither side R:R>=1.5. Wait for loss of 190.16 (short) or reclaim of ~193/VWAP (bounce long).",
+    "portfolio": "HOLD NVDA \u2014 real downtrend but deeply oversold on support into Micron; wait for 190.16 break."
+  },
+  "timestamp": "2026-07-07T11:55:17.816339+00:00"
+}

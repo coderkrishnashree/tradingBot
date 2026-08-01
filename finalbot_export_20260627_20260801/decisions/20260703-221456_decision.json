@@ -1,0 +1,25 @@
+{
+  "symbol": "MU/USDT:USDT",
+  "action": "hold",
+  "size": 0.0,
+  "entry": 1032.59,
+  "stop_loss": 1013.0,
+  "take_profit": 1050.0,
+  "confidence": 0.34,
+  "playbook": "none",
+  "expectancy_note": "No edge either way: p(win) ~0.45 both directions. Long at resistance 1035 into overbought/crowded-long/hot-funding + closed US market is chasing; shorting ADX 57.8 with no divergence is a knife-catch. Flat beats both.",
+  "rationale": "MU is pinned at resistance 1035.18 (last 1032.59), RSI 68.7 / bb_pctb 0.79 / vwap +0.67% = stretched, with structure_bias -0.458 (funding +0.00073 hot, L/S 1.711 = overcrowded long, squeeze risk) and relative_strength -0.76 vs BTC. The only fresh 48h catalyst is negative (Burry short at ~1052), earnings are behind us, and the US cash market is CLOSED for July 3 - the tokenized perp is thin, gappy and wicky with no underlying price discovery into a long holiday weekend. That combination (extended + crowded + illiquid gap risk + no bullish binary) is a low-expectancy trap for both sides, so size stays 0 and I wait for a clean resolution of the 1018-1035 box.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 1035.5,
+    "expires_min": 240,
+    "note": "A decisive break/hold above resistance 1035.18 proves trend continuation resumed and de-risks the overbought-at-resistance concern, flipping me to a tactical small long; conversely losing support 1018.86 would flip me toward the crowded-long flush short."
+  },
+  "transcript": {
+    "macro": "Broad tape risk-ON (soft June jobs killed near-term Fed-hike fear; Dow record 52,900). BUT semi sector in violent unwind - SOX ~6.7% down into quarter-end after ~doubling in Q2; MU/SNDK/AMAT/LRCX ~10% single-day hits, whipsawing 10% both directions (MU +9.9% bounce day on ~$50B next-Q guide, ~$6.5B above consensus). BTC corr only 0.162 (idiosyncratic semi/AI flow). Derivatives OVERCROWDED LONG: funding +0.00073 (hot), L/S 1.711, structure_bias -0.458, OI 20,534 elevated; RSI 68.7 / ADX 57.8 / bb_pctb 0.79 stretched. HARD RISK: US cash market CLOSED Fri July 3 (Independence Day) - tokenized perp thin/gappy/wicky into holiday weekend, no underlying price discovery. Net: MIXED-to-cautious; mild risk-on but crowded-long into whipsawing selloff + closed market; any long small/tactical, flat/small is honest read.",
+    "sentiment": "Earnings BEHIND us - Micron fiscal Q3 2026 reported June 24, blowout (rev ~$41.5B, EPS $25.11 vs $20.20 exp, data-center +7x YoY); NO earnings event next 48h (next ~late Sept). Strong multi-quarter fundamentals (HBM3E/HBM4 sold out through 2027, HBM4 to NVIDIA Vera Rubin, DRAM spot +52% since Jan) but PRICED IN. FRESH NEAR-TERM RISK: July 2 Michael Burry disclosed SHORT on MU at $1,051.87 (AI-chip short basket), called it 'destroyer of capital'/'bubble territory', furthest above 200-day MA since 1984; July 2 wide-range session (high 1064.64, low 950.28, ~$114 swing). Extended: MU +270-280% YTD, 2nd-best S&P 500, just made ATH post-earnings, crowded long -> squeeze/mean-revert risk. Analyst Strong Buy avg PT ~$1,486 (long-horizon, low weight). Net: no fresh bullish binary in 48h; euphoric-but-extended; only active near-term catalyst is NEGATIVE (Burry short); argues against chasing longs / mildly favors fade risk.",
+    "analyst": "Price pinned at resistance 1035.18 (last 1032.59) into a CLOSED US market July 3 holiday - extended, overbought (RSI 68.7, bb_pctb 0.79, stoch 78.3, vwap +0.67%), crowded-long with hot funding (structure_bias -0.458), only fresh 48h catalyst negative (Burry). No underlying price discovery, thin/gappy/wicky tape. Low-expectancy for both sides: chasing a long at resistance into a squeeze setup is bad; shorting a strong-ADX (57.8) name that just gapped +9.9% with no confirmation/divergence is a knife-catch. Best expectancy is HOLD size 0 and wait for a clean break above 1035 (flip long) or loss of 1018 support (flip short).",
+    "portfolio": "MU: HOLD (conf 0.34) - flat/no-trade; wait for resolution of the 1018-1035 box before taking either side."
+  },
+  "timestamp": "2026-07-03T22:14:56.991588+00:00"
+}

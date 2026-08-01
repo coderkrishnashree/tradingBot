@@ -1,0 +1,22 @@
+{
+  "action": "buy",
+  "symbol": "MSFT/USDT:USDT",
+  "size": 3.0,
+  "entry": 387.6,
+  "stop_loss": 384.6,
+  "take_profit": 395.6,
+  "take_profit_1": 392.5,
+  "take_profit_2": 395.6,
+  "confidence": 0.6,
+  "playbook": "trend",
+  "forecast": "Shallow pullback to retest the 387.0-387.6 breakout shelf within 1-3 bars, then resume up toward 392.5 and 395.6 (pre-resistance) over the next several bars; fresh 15m base breakout on the strongest recent volume with room to VWAP and resistance.",
+  "expectancy_note": "p(win)~0.58, R:R 1.63 to TP1 / 2.67 to TP2; trend-continuation beats fade here because 4h/1h/15m all up, RSI 51.7 not extended, and price just cleared a tight base - I limit-enter the retest rather than chase the 2-bar pop.",
+  "rationale": "MSFT coiled 386-387 all session then broke out +0.6% on rising volume, closing near range high; cleanest single-stock long (BTC corr 0.33, moves on its own), RSI 51.7 with room and only +0.5% from VWAP so not extended, resistance 395.85 gives 1.7-ATR of runway. Crowded long (L/S 1.85, structure_bias -0.27) is the main caution and cooler June CPI is a mega-cap tailwind, so I size moderate at 3% and enter via a limit on the retest of the 387 shelf rather than chasing. Stop 384.6 sits below the base floor (~0.8 ATR), giving R:R 1.63 to TP1 and 2.67 to TP2; earnings July 29 is outside the 48h window.",
+  "transcript": {
+    "macro": "Regime modestly risk-on, tech-led, but a live Fed HIKE tail (one 25bp hike priced 2026; hawkish Chair Warsh). Soft June CPI cooled fears, Nasdaq leading; US cash open. MSFT: L/S 1.85 (crowded long, structure_bias -0.27), trending up 4h/1h, RSI neutral 51.7 (room), ATR ~1.1%. Cleanest single-stock long (BTC corr 0.33), rel strength flat. Supportive for longs; watch resistance 395.85.",
+    "sentiment": "MSFT neutral-to-constructive near-term. Down ~19% YTD (AI-capex anxiety, Copilot doubts, securities class action). Q4 FY2026 earnings confirmed Wed July 29 after close - OUTSIDE 48h but a hard stop for multi-day holds. Watch: EU DMA 'gatekeeper' findings on Azure possibly next week (intraday headline risk). Cooler June CPI is a mega-cap tech tailwind.",
+    "analyst": "MSFT coiled 386-387 all session then broke out +0.6% on the strongest recent volume, closing near range high - fresh 15m base breakout. RSI 51.7 with room, only +0.5% from VWAP (not extended), resistance 395.85 ~1.7 ATR away. Crowded long (L/S 1.85, structure_bias -0.27) is the main caution, so size moderate (3%) and limit-enter the retest of the 387 shelf rather than chase the 2-bar pop. Entry 387.6, stop 384.6 (below base floor, ~0.8 ATR), TP1 392.5 / TP2 395.6; R:R 1.63/2.67. Earnings July 29 outside window.",
+    "portfolio": "BUY MSFT - trend-continuation off a fresh base breakout, limit entry 387.6 on the retest, stop 384.6, TP 392.5/395.6 (conf 0.60, size 3%)."
+  },
+  "timestamp": "2026-07-15T13:05:45.191743+00:00"
+}

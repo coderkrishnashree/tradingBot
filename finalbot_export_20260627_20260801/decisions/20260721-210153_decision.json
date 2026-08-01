@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "XAUT/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.58,
+  "playbook": "range",
+  "forecast": "Price faded from the 4083 spike and closed on its low (4073.6) making lower highs; expect chop in the 4062-4083 band. A bounce back to retest 4090-4094 resistance is the clean short entry (fade toward 4048/4030); a decisive reclaim above 4094.6 opens the range higher.",
+  "expectancy_note": "p(win)~0.55 for a fade AT 4092, but mid-range short at 4073 gives <1.5 R:R vs an honest stop above 4094.6; account shorts are a proven loser (45% win, -1.21 avg), so I wait for the resistance retest rather than chase either side.",
+  "rationale": "XAUT is a crowded long (L/S 2.56) at resistance 4094.6 with bearish divergence, RSI 67.8 and stoch 90.2 into a weak macro tape (DXY 13-mo high, 10Y ~4.5%) - a long here chases into overbought/divergence, the account's #1 loss pattern. But a market short at 4073 sits mid-range: an honest stop above 4094.6 (~$21) versus a first target near 4048 (~$25) is barely 1R, and this account's 49 shorts have bled (-1.21 avg). The high-expectancy trade is a fade on the bounce INTO 4090-4094, so I hold and arm that level; no <=48h binary until FOMC 7/28.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 4090,
+    "expires_min": 240,
+    "note": "A bounce back into the 4090-4094 resistance shelf is the clean fade-short entry with a tight stop above 4094.6; if it instead reclaims and holds >4094.6 the range breaks up and the short thesis is void."
+  },
+  "transcript": {
+    "macro": "Regime=NEUTRAL. Gold weak - ~$4,056 near 9-mo low, ~28% off Jan high, pressured by firm DXY (13-mo high) and higher-for-longer real yields (10Y ~4.5%); desks see it drifting lower into year-end. XAUT stretched: RSI 68, bearish divergence, at resistance ~4,094. L/S 2.56 = max crowded long. Funding ~0.",
+    "sentiment": "XAUT: macro/safe-haven flows. Mixed-to-heavy: DXY high + 10Y ~4.5% headwinds; markets price ~20% July-hike odds, ~60% by Sept. Near-term Fed June minutes + Iran/geopolitics could swing it; a dovish surprise or risk-off flips bullish. No dated <=48h binary until FOMC 7/28-29. Neutral (macro two-way).",
+    "analyst": "XAUT ~4073, RSI 67.8, stoch 90.2, at resistance 4094.6, bearish divergence, L/S 2.56 (max crowded long), structure_bias -0.35, RS -8.49. Learner: shorts bleed (45% win, -1.21 avg, n=49); longs win 69%. Long here chases overbought/divergence (account's #1 loss). But a market short at 4073 is mid-range: honest stop above 4094.6 (~$21) vs first target ~4048 (~$25) is barely 1R, and account shorts are a proven loser. High-EV trade is a fade on the bounce INTO 4090-4094. HOLD; short arms on the resistance retest, void on a hold above 4094.6.",
+    "portfolio": "XAUT: HOLD (conf 0.58) - crowded long at resistance with bearish divergence; fade-short arms at 4090-4094, void above 4094.6."
+  },
+  "timestamp": "2026-07-21T21:01:53.347698+00:00"
+}

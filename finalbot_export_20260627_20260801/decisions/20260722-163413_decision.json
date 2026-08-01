@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "MSTR/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Price pinned at VWAP (~99.6) after a low-volume bounce off 98.27; likely chops 98.5-101 next few bars. A loss of 98.27 opens the flush toward 96-95 support-ward; a reclaim of 101 revives the 4h long.",
+  "expectancy_note": "1h short (-0.85) vs 4h long (+0.3) cancel; price mid-range at VWAP, no edge either way \u2014 p(win) on a mid-range entry ~0.45, R:R indeterminate. Waiting for the 98.27 break beats guessing.",
+  "rationale": "MSTR is internally conflicted (1h short, 4h long, composite -0.06 flat) with price sitting exactly at VWAP after a weak dead-cat bounce on drying volume. Longs are hostile (premium compressed to 11%, treasury underwater, falls faster than soft BTC, rel-strength -9.5%); shorts have fundamental backing but would chase mid-range off the 98.27 low into 89.95 support with no fresh trigger \u2014 the account's classic late-short-stopped-by-bounce trap. No entry has R:R >= 1.5 from here, so I wait for the break that resolves the 1h/4h conflict.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 98.27,
+    "expires_min": 240,
+    "note": "Losing the swing low confirms the 1h short + fundamental overhang with momentum, arming a clean continuation short toward 96/95."
+  },
+  "transcript": {
+    "macro": "Regime risk-off-leaning mixed, BTC soft (low-$60Ks), BTC.D high \u2014 weakest environmental support alongside SOL. MSTR: composite flat (-0.06); 1h short, 4h up \u2014 no clean signal. btc_corr 0.697, rel-strength -9.5%. Critical fundamental overhang: MSTR's premium to BTC NAV compressed to ~11% (from 1.8x), company now SELLING BTC to fund a $1.5B/yr preferred dividend, treasury underwater vs ~$75.5K cost basis, stock -75% YoY vs BTC -41%. Structurally falls faster than BTC on weakness, no longer gets a premium on rallies. HOSTILE for longs.",
+    "sentiment": "Dated catalyst approaching \u2014 earnings confirmed Thursday July 30 after close (outside 48h, flagged). Day-to-day a high-beta BTC proxy (corr 0.70); benefits from the same risk-on crypto turn \u2014 BTC back over $65k, ETF inflows, F&G neutral. Near-term supportive of a long via BTC beta; no binary inside 48h, the July 30 print dominates late next week.",
+    "analyst": "Internally conflicted (1h short, 4h long, composite -0.06 flat), price pinned at VWAP after a weak dead-cat bounce off 98.27 on drying volume. Longs hostile (premium compressed to 11%, treasury underwater, falls faster than soft BTC, rel-strength -9.5%); shorts have fundamental backing but would chase mid-range into 89.95 support with no fresh trigger (the late-short-stopped-by-bounce trap). No R:R >= 1.5 here; wait for a break of 98.27 to resolve the 1h/4h conflict.",
+    "portfolio": "HOLD MSTR \u2014 conflicted at VWAP, hostile-for-longs overhang; short only on a break below 98.27."
+  },
+  "timestamp": "2026-07-22T16:34:13.163446+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "action": "short",
+  "symbol": "INTC/USDT:USDT",
+  "size": 1.5,
+  "entry": 98.3,
+  "stop_loss": 99.75,
+  "take_profit": 95.4,
+  "take_profit_1": 95.4,
+  "take_profit_2": 93.5,
+  "confidence": 0.58,
+  "playbook": "range",
+  "forecast": "Small bounce to fill 98.3 limit (broken 98.4 shelf as resistance), then roll back toward VWAP ~95.4 within 3-6 bars; loss of 97.2 opens 93.5.",
+  "expectancy_note": "p(win) ~0.6, R:R ~2.0 to TP1 (reward 2.9 vs risk 1.45); fading a rejected +3% spike beats chasing a stretched 4h RSI 73 long or holding chop into a binary.",
+  "rationale": "INTC spiked to 101 on the 15m and was slapped back hard; it now sits +3% above VWAP with 4h RSI 73 and %B>1 (extended long) while the 5m has flipped short (score -0.68, RSI 38) and longs are crowded (LSR 2.06) into sharply bearish earnings sentiment. The higher-expectancy play is to fade the exhaustion back toward VWAP ~95.4 then 93.5, not to buy the stretch. Size is only 1.5% because the tape is thin/gappy and Thursday's ~15% earnings binary caps how far this can safely run \u2014 intraday only, flat well before the print. I use a 98.3 limit rather than a market chase so the stop stays tight (99.75, ~1\u00d7ATR above the rejection swing) and R:R to TP1 clears 1.5.",
+  "transcript": {
+    "macro": "Regime MIXED/fragile-recovering (2026-07-20). US equities bouncing today after ugly week; SOX ~-13%/month on AI-capex reset. VIX ~18-19. Rates supportive; Fed hold likely. Longs favored only while today's bounce holds; failed rebound flips hostile. INTC/MU/EWY thin/gappy \u2014 trade SMALLER. INTC RS -40% vs BTC, 3-6% intraday candles.",
+    "sentiment": "INTC: EARNINGS BINARY Thu Jul 23 after close (~5pm ET); options imply ~15% move. Sentiment sharply reversed BEARISH into print \u2014 18A yield-delay chatter, AMD taking data-center revenue lead, ~21% weekly slide. Offsetting positives structural not <=48h (US govt 10% stake, 18A-P risk production, foundry orders). Extreme two-sided risk over Thursday's report \u2014 do NOT hold into the print; intraday only.",
+    "analyst": "Spiked to 101 and was slapped back; +3% above VWAP, 4h RSI 73, %B>1 (extended long), 5m flipped short (score -0.68), crowded longs (LSR 2.06) into bearish earnings sentiment. Fade the exhaustion via a 98.3 limit (not a chase) -> TP1 95.4 / TP2 93.5, stop 99.75 (~1xATR above rejection). R:R ~2.0. Size only 1.5% \u2014 thin/gappy, Thursday binary, intraday only, flat before print.",
+    "portfolio": "INTC \u2014 SHORT (conf 0.58, size 1.5): fade the rejected +3% spike to VWAP; tight limit entry, intraday only, out before Thu earnings."
+  },
+  "timestamp": "2026-07-20T15:14:44.951812+00:00"
+}

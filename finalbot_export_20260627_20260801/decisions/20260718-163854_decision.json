@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "EWJ/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.34,
+  "playbook": "none",
+  "forecast": "Price is frozen at 91.05 on zero-volume weekend candles; no live tape and Monday-open gap risk in either direction. No concrete next-candle move can be stated until real volume returns.",
+  "expectancy_note": "Short here is negative expectancy: entry mid-range (88.16 sup / 95.44 res) at VWAP, no extreme to fade, dead book; learner shows shorts 0.47 win/-0.87 avg and structure_bias/rel_strength/aligned weights all penalize a crowded aligned short.",
+  "rationale": "The 4h is bearish but 15m/30m/1h are flat and the last ~10 candles printed 0.0 volume - there is no tradable tape, only a Monday gap lottery. Orderbook imbalance +0.34 (bid lean) and L/S 1.61 mean a crowded long that can squeeze either way; selling the middle of a range into an illiquid book with a stop that must sit beyond 95.44 gives sub-1.5 R:R. Highest-expectancy action is to wait for the cash open and a real break; size 0.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 88.16,
+    "expires_min": 240,
+    "note": "Losing range-low support on real (non-zero) volume confirms the 4h downtrend resuming and would arm a proper trend-continuation short with structure below."
+  },
+  "transcript": {
+    "macro": "RISK-OFF, short lean, low-conviction due to weekend illiquidity. Sat Jul 18 scan, Tokyo+US cash closed until Monday -> thin/gappy perps (many zero-volume 15m candles), Monday-open gap risk. EWJ SHORT, L/S 1.61 (crowded long), funding ~0, orderbook imbalance +0.34 (bid lean -> mild caution on shorts), rel strength -10.7%. No BOJ risk this window (next BOJ Jul 30-31). Near-term driver: Nikkei risk-off follow-through + USD/JPY.",
+    "sentiment": "Broad AI/semiconductor-led tech selloff Fri Jul 17. EWJ bearish near-term: Nikkei -4% Jul 17, semiconductor names led declines, Japan caught in the same global chip selloff (direct read-through). BOJ hiked to 1.00% but yen historically weak (~162). No Japan-specific <=48h binary. Near-term tape argues WITH shorts, but thin/zero-volume candles = execution/gap risk.",
+    "analyst": "4h bearish but 15m/30m/1h flat and last ~10 candles printed 0.0 volume - no live tape, only a Monday gap lottery. Orderbook +0.34 bid lean + L/S 1.61 = crowded long that can squeeze either way; selling mid-range (88.16 sup / 95.44 res) at VWAP with stop beyond resistance = sub-1.5 R:R. Learner: shorts 0.47 win/-0.87 avg, weights penalize crowded aligned short. HOLD; reconsider short on a real-volume break below 88.16.",
+    "portfolio": "EWJ: HOLD - frozen zero-volume book, no extreme to fade, mid-range short is negative EV; wait for a real break, no trade."
+  },
+  "timestamp": "2026-07-18T16:38:54.911183+00:00"
+}

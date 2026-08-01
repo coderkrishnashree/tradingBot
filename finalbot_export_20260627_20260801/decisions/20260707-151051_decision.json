@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "COIN/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price bounced off the 161.9-163.0 zone and is consolidating at 164.6 into micro-resistance; expect chop between 162 and 166.8 over the next few bars until it picks a side \u2014 a BTC-led pop clears 166.8 toward 170, a fresh leg lower loses 161.8 toward 158.",
+  "expectancy_note": "Short p(win) ~45% fighting firm BTC + record Nasdaq with zero positioning edge (L/S 0.99, funding 0) and price already oversold-bouncing off the lower band; long is premature with 1h still -0.65 and no reclaim. No edge either way = highest-EV is flat.",
+  "rationale": "COIN is a high-beta crypto proxy (btc_corr 0.744) and the only bearish signal is 15m/1h momentum, not positioning \u2014 structure is dead neutral (L/S 0.99, funding 0, bias -0.02). Last two candles printed a green bounce (162.38->164.67) off oversold (%B -0.03, RSI 32.6) and are holding, so shorting into that bounce with BTC firm +7%/wk risks a squeeze, while chasing a long on one bar before any structure reclaim is low-quality. Sit flat and let the 166.8 / 161.8 break decide direction.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 166.8,
+    "expires_min": 240,
+    "note": "Reclaiming the 166.8 VWAP/consolidation shelf proves the oversold bounce has follow-through and flips the short thesis, opening a momentum long toward 170-172."
+  },
+  "transcript": {
+    "macro": "Equity risk-ON near record highs; crypto constructive (BTC ~64k, +7% wk, dominance ~60%, funding near-flat-positive). COIN is the one hybrid name (btc_corr 0.744, high-beta crypto proxy) so crypto regime matters. Structure NEUTRAL not a clean short: L/S 0.99 balanced, funding 0, structure_bias -0.02; bearish tilt is momentum only (1h -0.65, RSI 32.6). BTC firm +7%/wk cuts AGAINST a short \u2014 weakest environment fit of the four, a BTC pop would squeeze it. Stay flat or small/tactical.",
+    "sentiment": "COIN neutral-to-mixed, no earnings inside 48h. Tug-of-war: bullish super-app product momentum (global perps+options, tokenized stocks, Open USD consortium) vs California DFAL licensing drag (effective Jul 1). Trades as crypto beta (BTC corr 0.744) \u2014 follows crypto tape more than stock headlines. Analyst PT chatter long-horizon only. Scan short momentum-driven, not news-backed = neutral fundamentally.",
+    "analyst": "Price bounced off 161.9-163.0 oversold, consolidating 164.6 into micro-resistance. No positioning edge for a short + firm BTC = donation; long premature with 1h -0.65. HOLD, armed reconsider on 166.8 reclaim.",
+    "portfolio": "COIN: HOLD \u2014 no edge either way; neutral structure + firm BTC make the short a squeeze risk; wait for 166.8/161.8 break."
+  },
+  "timestamp": "2026-07-07T15:10:51.138302+00:00"
+}

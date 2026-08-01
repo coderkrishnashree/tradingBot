@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "HOOD/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.62,
+  "playbook": "none",
+  "forecast": "Low-volume grind stalling at 98.0-98.2; expect chop between 97.0 and 98.3 into FOMC/earnings, no clean directional edge until 97.0 breaks or momentum resets.",
+  "expectancy_note": "No-trade wins here: chasing long into RSI 85.4/stoch 94.6 pre-earnings = the account's classic late-continuation stop-out; short lacks an exhaustion trigger while the 15m still prints higher highs. Both entries are negative-EV; flat is best.",
+  "rationale": "HOOD is the most overbought name in the book (4h RSI 85.4, ADX 88.6, stoch 94.6) yet lagging BTC badly (rel-strength -19.4) \u2014 an extended, crowded, low-conviction grind, not a clean setup. The last bars are a drying-volume creep to a new local high (vol collapsing to 3.79 then 0.06), classic pre-stall, and a <=48h binary (FOMC + earnings Jul 29 after close) makes any hold gappy. Chasing the long is the exact late-entry pattern that stops out on the routine bounce; the short has no rollover confirmation yet.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 97.0,
+    "expires_min": 240,
+    "note": "Losing the 97.0 consolidation shelf breaks the intraday higher-low structure and, with 4h RSI 85, opens a short toward 96/95 \u2014 the first evidence the overbought grind is rolling over."
+  },
+  "transcript": {
+    "macro": "Regime MIXED-to-HOSTILE. FOMC Jul 28-29 binary event. Crypto downtrend, F&G ~29 fear. Cross-cutting: crowded-long book, positive/extreme funding, RSI 70s-80s, flush risk. HOOD: the MOST OVERBOUGHT name in the book \u2014 4h RSI 85.4, ADX 88.6, stoch 94.6, rel-strength -19.4 (badly lagging BTC). L/S 1.89 (crowded long). Extreme and lagging. Verdict: skip or half-size.",
+    "sentiment": "FOMC Wed biggest \u226448h catalyst. HOOD: reports earnings Jul 29 (after close) \u2014 a \u226448h binary, same day as FOMC + MSFT. Minor headline noise: CEO Tenev's X account was hacked in a memecoin scam (not fundamental). High event risk; avoid holding through Wed close.",
+    "analyst": "HOOD 97.99, extreme overbought (4h RSI 85.4, stoch 94.6, ADX 88.6) but lagging BTC (-19.4 rel-strength) on a drying-volume grind into a new local high. Support 93.21 / resistance 108.25. Earnings + FOMC Jul 29 (~48h) = binary gap risk. No clean long (chasing = the book's #1 loser) and no exhaustion trigger for a short yet. HOLD; flip to short on a decisive loss of the 97.0 intraday shelf, which breaks the higher-low structure and opens 96/95.",
+    "portfolio": "HOLD flat \u2014 most overbought in the book into earnings + FOMC; short on a loss of 97.0."
+  },
+  "timestamp": "2026-07-27T06:41:45.573454+00:00"
+}

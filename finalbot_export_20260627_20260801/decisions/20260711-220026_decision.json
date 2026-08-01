@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "INTC/USDT:USDT",
+  "size": 0.0,
+  "entry": 112.39,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price stays pinned in the 112.0-112.5 weekend coil for the next several candles; no directional resolution until liquidity returns. Real move is a Monday-reopen gap, outside my intraday window and untradeable on this thin book.",
+  "expectancy_note": "No honest entry: shorting flat tape near VWAP (stoch 77, not oversold) gives sub-1.5 R:R with gap-up relief-bounce risk; p(win) on a fade here is coin-flip. HOLD is the highest-expectancy action.",
+  "rationale": "INTC is a crowded-long (1.602), worst-laggard (-20.7% RS) chip name in a routed sector -- structurally a short bias, but there is NO <=48h trigger: 15m candles are a dead 112.0-112.5 coil on a closed-equities Saturday, funding=0 is a venue quirk (no crowding signal), and price sits mid-range near VWAP with elevated (not oversold) stoch. Fading into weekend dead liquidity risks a headline relief-bounce gap and offers no valid R:R. Wait for real liquidity and a confirmed break of the 111.9 intraday shelf to arm the short; sizing is zero until then.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 111.9,
+    "expires_min": 240,
+    "note": "Losing the intraday 111.9 shelf on returning volume confirms the bearish laggard thesis resuming and justifies a short entry toward 110/support; until then it is just weekend chop."
+  },
+  "transcript": {
+    "macro": "Modestly risk-on but choppy; a chip-sector rout earlier in the week hit semis (INTC's complex). CRITICAL: Saturday Jul 11 2026, US equities CLOSED -> tokenized-equity perps thin/gappy, funding_rate=0.0 is a venue quirk (no crowding signal), 15m/5m trends are noise; real risk is a Monday-reopen gap. No FOMC imminent. INTC: structure_bias -0.167; long/short 1.602 (crowded long); orderbook +0.043 (no real bid support); OI 27,945; relative strength -20.71% vs BTC (worst laggard); RSI 45.8 / ADX 27 on 4h = weak, non-trending; underlying volatile/heavy, ~21% drawdown, HSBC/BofA bubble-risk chatter, 18A yield doubts, 32/46 analysts Hold. Environment does NOT support a fresh long; INTC is the one to avoid or fade. Earnings ~Jul 23-24 (outside 48h, hold-risk).",
+    "sentiment": "INTC bearish / falling knife, sector-driven. -21% over prior 7 days into Jul 1 semi selloff (BofA AI-bubble call), fell again Fri Jul 10 (~-2.5% to ~$109.7) -- lone red chip while NVDA/AMD green, on Samsung-earnings chip wobble + 18A-yield-delay fears (not profitably yielding until 2026-27; foundry deeply loss-making). Scan last ~112, 4h neutral, RS -20.7% (worst). Crosscurrent bullish long-horizon items (HSBC PT $200, BofA upgrade $160 Buy, reported US govt ~10% stake/onshoring, foundry external sales +461%) -- narrative, low weight for 24-48h. Q2 earnings Jul 23 AMC (~12 days) binary, outside cycle. Net: no <=48h scheduled catalyst but active bearish momentum/tape; supportive of the short side, though a headline relief bounce is the counter-risk. Weekend thin.",
+    "analyst": "INTC is structurally a short (crowded long 1.602, worst laggard -20.7% RS, routed sector) but has NO <=48h trigger: 15m is a dead 112.0-112.5 coil on a closed-equities Saturday, funding=0 is a venue quirk, price sits mid-range near VWAP with elevated (not oversold) stoch 77. Fading into weekend dead liquidity risks a headline relief-bounce gap and offers no valid R:R. Wait for real liquidity and a confirmed break of the 111.9 intraday shelf to arm the short.",
+    "portfolio": "INTC/USDT:USDT -> HOLD (conf 0.60): structurally bearish but no <=48h trigger; short only on a break below 111.9 with real liquidity."
+  },
+  "timestamp": "2026-07-11T22:00:26.411378+00:00"
+}

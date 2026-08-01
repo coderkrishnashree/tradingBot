@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "TSM/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Thin Sunday melt-up is stalling into resistance with 15m RSI 92.7; most likely next move is a shallow pullback/chop toward 408-409 (VWAP) rather than a clean break of 426.72.",
+  "expectancy_note": "p(win) on a long chase ~0.45: entry 411 into 426 res gives ~15pt reward but honest stop under 408 grind is only ~3.5pt, and RSI 92.7 makes a mean-revert dip the base case = negative expectancy. Short into extreme +0.0019 funding melt-up on illiquid closed-market tape is a squeeze trap.",
+  "rationale": "TSM is a tokenized equity trading thin on a closed-market weekend; the crypto structure block (funding +0.0019 extreme, bias -0.46, OI 4,897) is noise except as a crowding warning against longs. 5m/15m hot but 15m RSI 92.7 (exhausted) into resistance 426.72, catalyst spent, FOMC Wed + Mag-7 earnings binary. Chasing here is the late-into-stretched-tape loss pattern; no confirmed exhaustion candle to fade either. Wait for a real trigger.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 426.72,
+    "expires_min": 240,
+    "note": "A 15m close above 426.72 resistance proves a genuine breakout with follow-through worth joining; absent that, the grind is just extended chop into a level."
+  },
+  "transcript": {
+    "macro": "MIXED regime, lean cautious/smaller size into FOMC Wed Jul 29 + Mag-7 earnings. Weekend relief bounce after losing week (Nasdaq -2.1% Fri chip pullback). TSM macro tilt CAUTIOUS long: 5m/tape strong but RSI 92.7 on 15m (EXHAUSTED), funding +0.0019 extreme, structure_bias -0.46, thin OI (4,897). Small size only.",
+    "sentiment": "TSM mildly BULLISH backdrop but catalyst already spent. Blowout Q2 (Jul 16, raised FY growth >40%, capex $60-64B, +$100B Arizona) drove the Korea/semi rally but is already priced. No new <=48h catalyst. Neutral-to-bullish drift.",
+    "analyst": "Thin closed-market melt-up, 15m RSI 92.7 exhausted into resistance 426.72, catalyst spent, into FOMC. Long chase R:R ~0.45; short into extreme funding melt-up on thin tape is a squeeze trap. Wait for a 426.72 close-through breakout.",
+    "portfolio": "HOLD TSM - exhausted thin-tape melt-up into FOMC, catalyst spent; no honest R:R, size 0."
+  },
+  "timestamp": "2026-07-27T07:39:35.817523+00:00"
+}

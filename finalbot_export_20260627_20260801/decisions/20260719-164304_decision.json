@@ -1,0 +1,28 @@
+{
+  "symbol": "MU/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.6,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "none",
+  "forecast": "Lower highs since 853 with last bar closing near its low (847.7); expect drift/chop toward 846-844 near-term, no clean bounce until buyers reclaim ~852.7.",
+  "expectancy_note": "No positive-expectancy entry: long fights -0.82 orderbook, crowded L/S 2.13, semis rotation and short 15m/30m/5m; no clean fade level (mid-range %B 0.55). HOLD beats forcing either side.",
+  "rationale": "MU is a tokenized equity trading Sunday (US closed, thin/gappy) with the weakest environment in the scan: rel-strength -32.8%, structure_bias -0.546, heavy sell-side orderbook -0.82 and crowded longs (L/S 2.13) - a market long fights sector tape AND order flow. Lower-TF momentum (15m/30m/5m) is short while only 1h/4h lean long, so the tape is rolling over near-term (lower highs, close near bar low). There is no clean support to fade (805.8 is ~5% off) and no short signal from the composite, so the highest-expectancy action is to stand aside and let a level define the next trade.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 852.7,
+    "expires_min": 240,
+    "note": "Reclaiming the intraday swing shelf flips lower-TF momentum back up and confirms the 1h/4h long thesis, turning this into a with-trend pullback-buy."
+  },
+  "transcript": {
+    "macro": "MU long candidate (blended +0.165, NOT aligned, align_factor 0.8) - WEAKEST environment of the four. Micron on the WRONG side of rotation (money leaving semis, SMH -9%/month). Biggest laggard vs BTC at rel-strength -32.8%. Book leans wrong way: L/S 2.13 crowded-long AND orderbook imbalance -0.82 (heavy sell pressure) -> structure_bias -0.546, most hostile in scan. Lower-TF momentum short (15m/30m/5m negative). HOSTILE for a long, smallest size or pass. Sunday thin/gappy. No earnings inside window.",
+    "sentiment": "MU no near-term catalyst; long-horizon story intact. Reported blockbuster Q3 FY26 late June (rev $41.5B, EPS $25.11 beat, guided ~$50B next quarter on AI/HBM demand); next earnings ~Sep 23, outside window. Tradeable near-term fact: MU pulled back ~18% over past month on profit-taking after ~205% YTD run, momentum corrective despite great fundamentals. No fresh shock last few days. Near-term: NEUTRAL, recent tape favors the pullback.",
+    "analyst": "MU is a tokenized semi trading Sunday (US cash closed, thin/gappy). It is the weakest name in the scan - rel-strength -32.8%, structure_bias -0.546 with orderbook imbalance -0.82 (heavy sell pressure) and crowded longs (L/S 2.13). A market long would fight sector rotation out of semis AND the order flow. The 15m recent candles show a rollover: lower highs from ~853 and the last bar closing near its low at 847.7, with 15m/30m/5m momentum all short; only 1h/4h lean long. There is no clean fade level nearby (support 805.8 is ~5% away, %B mid-range 0.55) and no short signal either, so there is no positive-expectancy entry. HOLD, arm a reconsider at a reclaim of ~852.7 which would flip lower-TF momentum and validate the 1h/4h pullback-buy.",
+    "portfolio": "MU/USDT:USDT: HOLD (conf 0.60) - weakest name in scan; long fights semis rotation and -0.82 order flow, no short signal. Stand aside."
+  },
+  "timestamp": "2026-07-19T16:43:04.625857+00:00"
+}

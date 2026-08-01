@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "AAPL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.55,
+  "playbook": "none",
+  "forecast": "Price pinned at 315.58 resistance with RSI 69 / %B 0.95; expect a rejection stall toward VWAP ~311.5 over the next few bars unless the ask wall at 315.58 is reclaimed and held - no clean entry either way yet.",
+  "expectancy_note": "Long into resistance = R:R ~0.6 (chasing); fade against ADX 57 uptrend = low p(win). Both sub-1.5 R:R, so HOLD is highest expectancy until 315.58 resolves.",
+  "rationale": "AAPL is extended into hard resistance 315.58 (RSI 69.5, stoch 93.8, %B 0.951) with an ask-heavy book (-0.34) and last two bars rejecting on near-zero volume - a momentum long is chasing into a wall with poor R:R, while a fade fights a very strong all-TF uptrend (ADX 57) and the strongest rel-strength in the group (+7.5%) with a fresh positive catalyst. July 7 AI-rotation risk-off plus tiny OI (3.2k, gappy) argue against forcing size. Wait for a confirmed hold above 315.58 (long the breakout) or a flush to VWAP ~311 (buy the pullback); size 0 until then.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 315.58,
+    "expires_min": 240,
+    "note": "A 15m close holding above 315.58 proves buyers absorbed the ask wall and opens the breakout continuation for a long."
+  },
+  "transcript": {
+    "macro": "Regime: NEUTRAL, leaning cautious. July 7 futures reversed (Nasdaq-100 -0.9%) on AI/chip rotation. No FOMC/CPI inside 48h; AAPL earnings July 30 (outside horizon). AAPL $314.94: structure_bias -0.10, long/short 1.00 (balanced), funding 0, orderbook -0.34 (ask-heavy). Rel-str +7.5%, RSI ~69, pinned at resistance 315.58 - thinnest OI (3.2k), gappy.",
+    "sentiment": "AAPL mildly bullish. July 6 catalysts: Broadcom chip-supply deal extended through 2031 (AAPL +1%) and Bloomberg reporting Chinese memory-supplier talks (CXMT/YMTC). Earnings July 30 (outside window). Guided gross-margin compression (46.5-47.5%) is a longer-horizon risk. Freshest idiosyncratic positive of the four. Broad July 7 AI-rotation risk-off pressures all four.",
+    "analyst": "Extended into hard resistance 315.58 with an ask-heavy book and rejection wicks on near-zero volume. Long = chasing into a wall (R:R ~0.6); fade = fighting a very strong ADX-57 uptrend on a gappy low-OI name. Neither >=1.5 R:R. HOLD; reconsider armed above 315.58 for the breakout long.",
+    "portfolio": "AAPL: HOLD (0.55) - pinned at resistance 315.58 with fresh positive catalyst but no R:R either way; wait for a breakout hold or a VWAP flush."
+  },
+  "timestamp": "2026-07-07T12:38:51.523145+00:00"
+}

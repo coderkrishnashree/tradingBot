@@ -1,0 +1,23 @@
+{
+  "symbol": "MSTR/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.6,
+  "size": 0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "rationale": "Price 107.64 is pinned at resistance (107.7) and stretched (RSI 85.6, stoch 97.4, %B 1.14 above upper band, 1.12% over VWAP) with a flagged bearish divergence \u2014 a fresh long chases the exact top of a parabolic move while paying max-penalty crowded-long funding (0.00204/period, long/short 1.52, structure_bias -0.52). But ADX 78.9 in an active 15m up-breakout (vol 1.86x, OI rising) makes shorting a knife-catch, and composite confidence is only 10%. As a leveraged BTC proxy (corr 0.59) on a shaky crypto tape with BTC merely stabilizing off its low, the higher-expectancy 48h risk is a beta fade \u2014 but I want confirmation, not a blind fade. No trade: wait for either a clean pullback/retest into 104.34 support (for a lower-risk long) or a decisive reclaim-and-hold above 107.7 to prove continuation before committing.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 104.34,
+    "expires_min": 240,
+    "note": "Losing the 104.34 support flips the parabolic breakout into a failed move and confirms the crowded-long squeeze \u2014 re-debate for a short."
+  },
+  "transcript": {
+    "macro": "Two-speed tape \u2014 equities firm (Dow ATH, closed July 3 holiday, reopen Mon July 6 with gap risk), crypto shaky (BTC bounced off 21-month low to ~$62.8k, +5% off weekly low; ETF flows broke a 10-day outflow streak with +$221.7M July 2; Fear & Greed extreme). BTC stabilizing not trending; composite 23.6% conf, squeeze regime, 5m RSI 88 stretched. MSTR: last 107.64, RSI 85.6, ADX 78.9, stoch 97.4, %B 1.14, +1.12% VWAP \u2014 fresh 15m breakout (107.45, vol 1.86x) but BEARISH DIVERGENCE. Funding extreme 0.00204 (~0.2%/period, max penalty), long/short 1.52, orderbook +0.12, structure_bias -0.52 (most crowded-long in scan), OI 27,849 rising = long-squeeze setup. btc_corr 0.593, rel-strength +0.88%. Bottom line: MIXED-to-HOSTILE for a fresh long; chasing pays max funding to buy the top of a leveraged BTC proxy; short is a knife-catch vs ADX 78.9. Tape favors WAITING for pullback/retest (support 104.34); if traded, size down materially.",
+    "sentiment": "Net MIXED, leaning cautious/bearish. Treated as equity/leveraged-BTC proxy. NO imminent binary catalyst (earnings Aug 4). Negatives: Strategy's new Digital Credit Capital Framework (June 29-July 2) authorizes SELLING BTC up to $1.25B + $2B buybacks + hiked STRC preferred div to 12% \u2014 breaks the 'never sell' narrative. mNAV compressed to ~0.95-1.16x (from ~1.9x); below 1.0x issuance turns dilutive, growth engine stalls. STRC preferred crashed ~25% below par; JPMorgan warned holders. Analyst PT cuts (BTIG, Canaccord, TD Cowen, Citi) but consensus still Buy (low weight). No solvency/margin-call trigger (unsecured converts + preferreds). Positives: July 3 ETF-inflow turn + extreme-fear contrarian BTC bounce. MSTR lives/dies on BTC beta (corr 0.59). Argues AGAINST chasing the breakout long \u2014 BTC-driven fade is the more likely 48h risk.",
+    "analyst": "Data confirms the macro read. Price 107.64 at resistance (107.7), stretched (RSI 85.6, stoch 97.4, %B 1.14, bearish divergence), max-penalty crowded-long funding, leveraged BTC proxy on a shaky tape. Composite confidence only 10%. A fresh long chases the top and pays extreme funding; a short is a knife-catch against ADX 78.9 in an active up-breakout. Neither side clean \u2014 WAIT for a retest of 104.34 support (lower-risk long) or a reclaim/hold above 107.7 to confirm continuation. Reconsider short if 104.34 support fails within 240 min.",
+    "portfolio": "HOLD MSTR/USDT:USDT \u2014 no trade; overextended crowded-long into resistance, wait for pullback to 104.34 or reclaim above 107.7. (conf 0.60)"
+  },
+  "timestamp": "2026-07-05T19:17:38.437642+00:00"
+}

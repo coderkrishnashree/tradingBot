@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "MU/USDT:USDT",
+  "size": 0.0,
+  "entry": 851.95,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.55,
+  "playbook": "none",
+  "forecast": "Thin weekend tape likely chops 847-853; the last 5-bar pop to 853 on light volume stalls and drifts back toward 848-850 VWAP before Monday's cash open decides direction.",
+  "expectancy_note": "p(win) ~0.5 either way; a continuation long here chases the micro-pop into local resistance with a distant next-support (805.8) forcing either a sub-1xATR stop that weekend noise breaks or a wide stop that ruins R:R vs the far 1006 target. HOLD beats both.",
+  "rationale": "MU is a tokenized equity trading thin/gappy on a WEEKEND with US cash markets closed, inside a RISK-OFF macro where semis were Friday's selloff epicenter (SMH -9%). The own-trend is genuinely strong (ADX 59, all TFs long, price at VWAP not extended, bullish divergence), but it is a -32% relative-strength laggard and crowded long (L/S 2.16), and the only reason to buy now would be the low-liquidity 5-bar push to 853 - that is chasing, not a setup. No catalyst inside 48h; wait for Monday session confirmation before sizing in, hence 0 size.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 853.31,
+    "expires_min": 240,
+    "note": "A reclaim and hold above the local high on real Monday liquidity confirms the ADX-59 uptrend is resuming and turns this from chase into valid continuation entry."
+  },
+  "transcript": {
+    "macro": "RISK-OFF/defensive regime. 2026-07-19 is a WEEKEND - US cash markets CLOSED, so equity proxies (MU/META/CRCL/MSTR/ORCL/QQQ) trade thin/gappy off Friday's close until Monday; size down, treat signals as low-conviction drift. Nasdaq closed weak (-1.4% Fri, -2.9% wk) on AI-capex/semis scare (SMH -9%). BTC ~$60-64k near 21-month low, BTC.D ~56.3% elevated (hostile for crypto beta). FOMC July 28-29 (~9d out). Long/short ratios lopsided-long everywhere (contrarian caution): MU 2.16. Funding ~0. Bottom line: mixed-to-hostile for longs, only tactically supportive for shorts; prefer fade/short over chasing overbought longs.",
+    "sentiment": "No name has a hard catalyst inside 48h. June CPI soft (3.5%) Jul 14 -> July hike odds ~17%, mild risk-on undertone. MU (Micron): Q3 FY26 already reported Jun 24 (blowout - record rev, Q4 guide raised on AI memory demand); next earnings ~Sep 29; bullish structurally, no imminent event. Any move is index/semis beta.",
+    "analyst": "MU 851.95: ADX 59.4 strong up-trend, RSI 65.4 mid-range, %B 0.61, right at VWAP (not extended), bullish divergence, btc_corr 0.08 (idiosyncratic), rel_strength -32.4% (laggard), L/S 2.161 (crowded long), orderbook +0.327. Last 5 15m bars pushed 850->853 then pulled back to 851.95 on tiny volume. Continuation long would need a sub-1xATR stop (weekend noise breaks it) or a wide ATR stop that ruins R:R vs the distant 1006 resistance. Best expectancy = HOLD until Monday confirmation.",
+    "portfolio": "HOLD MU - strong own-trend but a weekend-thin chase into local resistance; wait for a Monday reclaim above 853.3."
+  },
+  "timestamp": "2026-07-19T14:14:17.182717+00:00"
+}

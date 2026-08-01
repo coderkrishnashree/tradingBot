@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "QQQ/USDT:USDT",
+  "size": 0,
+  "entry": 702.47,
+  "stop_loss": 688.09,
+  "take_profit": 727.69,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Rejection off 704.65 with the last bar closing red near its low (701.81); expect a fade back toward VWAP ~698 over the next 2-4 bars. No clean long entry at the band top; a dip into 697-699 would be the buyable spot.",
+  "expectancy_note": "Chasing long here (RSI 72.5, bb_pctb 1.006, extended into risk-off tape) is the account's #1 loser; tiny 0.32% ATR means an honest stop gets clipped by a routine VWAP pullback. Shorting fights ADX 65 + strong +0.78 bid. HOLD beats both until price gives a level.",
+  "rationale": "QQQ is grinding up but is extended at the upper Bollinger band with RSI 72.5 and just got rejected at 704.65, closing red near its low, into a RISK-OFF chip-led tape where it badly lags peers (-14.8% rel strength) with TSLA/GOOGL earnings Jul 22 looming. A market long here is a late-continuation chase with a stop that a normal fade to VWAP would trigger; a short fights strong momentum (ADX 65, +0.78 orderbook bid). No positive-expectancy trade at this price. Size 0.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 697.5,
+    "expires_min": 240,
+    "note": "A fade into the 697-699 VWAP zone offers a with-trend long entry off support rather than chasing the band top; losing 688 instead would open the risk-off short."
+  },
+  "transcript": {
+    "macro": "RISK-OFF, fragile, chip-led selloff (Nasdaq -2.9% last week); rips suspect. QQQ shows big +0.78 orderbook imbalance (bias +0.17) BUT extended: bb_pctb 1.006 / RSI 72.5. Rel strength -14.8%. TSLA & GOOGL earnings Jul 22 feed QQQ/Nasdaq beta. FOMC Jul 28-29 (outside window). Net: MIXED-to-HOSTILE - extended long into a defensive tape + earnings wall.",
+    "sentiment": "QQQ neutral, event-heavy week ahead. No catalyst today but mega-cap earnings cluster (TSLA/GOOGL Jul 22, more Jul 28-29) plus FOMC Jul 29 loom. RSI hot (~72). Grinding up; macro risk skewed to late-July.",
+    "analyst": "Extended at the upper band (RSI 72.5, %B 1.006) with a red rejection off 704.65, badly lagging peers in a risk-off tape with an earnings wall. A market long is a late-continuation chase with a stop a routine VWAP fade would clip; a short fights ADX 65 + strong bid. Wait for a VWAP pullback to 697-699 to buy the trend, or a break of 688 to flip bearish.",
+    "portfolio": "HOLD QQQ - extended band-top long into risk-off tape + earnings wall; buy a VWAP dip or wait for 688 to break, don't chase."
+  },
+  "timestamp": "2026-07-20T12:16:23.811553+00:00"
+}

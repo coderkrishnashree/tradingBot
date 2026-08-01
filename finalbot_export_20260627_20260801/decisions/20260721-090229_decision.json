@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "COIN/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price is pinned to the upper Bollinger band at 169.4 with stoch 94 and %B>1 on fading volume (last bar 78 vs prior 268/215) \u2014 expect a stall/mean-revert pullback toward VWAP ~164.8 / the 15m higher-low shelf 167.5-168 over the next few bars, not a fresh leg up from here.",
+  "expectancy_note": "No positive-expectancy entry: market-long here chases an exhausted +2.81% VWAP-extended move into stoch 94 (the account's #1 loss pattern); short fights an intact intraday uptrend and this book's shorts bleed (0.46 win, -1.09 avg over 48). Best EV is to wait for the pullback and buy WITH the trend at structure.",
+  "rationale": "COIN is extended mid-air (%B 1.06, stoch 94.4, RSI 68.6, +2.81% above VWAP), crowd already long (L/S 1.454) with mildly negative structure_bias and no fuel left, and it is the weakest crypto-beta horse (rel_strength -20.2 vs BTC's 0.0) into a defensive/hawkish macro tape \u2014 a pure high-beta echo, not the leader. There is no clean pullback-to-VWAP long yet and no structural level to fade at 169; a chase or a counter-trend short both carry negative expectancy per the learner. Hold and arm the trend-continuation trigger: a reset into the 167.5-168 higher-low shelf that holds gives the honest, non-chasing long (stop below 166, target back to the 171-173 highs).",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 167.8,
+    "expires_min": 240,
+    "note": "A pullback into the 167.5-168 higher-low shelf / toward VWAP resets the overbought stretch and offers a with-trend long at structure instead of chasing the extended top; also flags whether the uptrend is losing its higher-low structure."
+  },
+  "transcript": {
+    "macro": "Regime MIXED/risk-off; hawkish Fed tilt (~53% Sep hike); thin/gappy. COIN macro: neutral, crypto-beta risk \u2014 highest crypto-correlated name here (0.63 BTC, 0.78 MSTR, 0.69 HOOD), trades as a crypto risk proxy not on own fundamentals. Defensive tape + hawkish odds -> high-beta/high-vol; size down, lean on BTC's tape.",
+    "sentiment": "COIN neutral, no <48h binary. Earnings Jul 30. Recent +19% pop to ~$165 on the 'Everything Exchange'/tokenized-stock event; analysts split (Bernstein Buy $330 vs Barclays Underweight $107, both long-horizon). High-beta crypto proxy (0.63 BTC corr); near-term follows BTC/crypto risk, not stock news.",
+    "analyst": "Extended mid-air (%B 1.06, stoch 94.4, +2.81% VWAP) on fading volume, crowd already long, weakest crypto-beta horse (rel_strength -20.2) into a defensive tape. Market long = chase; counter-trend short = negative EV per learner. HOLD; arm the 167.5-168 higher-low-shelf continuation long (stop <166, target 171-173).",
+    "portfolio": "HOLD COIN \u2014 high-beta echo, extended and out of fuel; buy the 167.8 pullback with trend, conf 0.6."
+  },
+  "timestamp": "2026-07-21T09:02:29.324820+00:00"
+}

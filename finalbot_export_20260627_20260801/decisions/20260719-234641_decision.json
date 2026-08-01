@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "GOOGL/USDT:USDT",
+  "size": 0.0,
+  "entry": 348.9,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Thin off-hours chop 347-349.5; likely fades from the 349.4 rejection toward VWAP/341.9 support before Monday cash open reprices. No clean directional edge tonight.",
+  "expectancy_note": "Long chases a stall into bearish divergence + stoch 90.8 (the account's #1 loss pattern); short faces up-trending LTFs + off-hours gap risk. Neither clears 1.5R with an honest stop -> flat.",
+  "rationale": "GOOGL is mid-range (support 341.86 / resistance 379.97) with a bearish divergence flag, stoch pinned at 90.8, and price rejecting 349.4 on drying volume - a stall, not a breakout. Structure bearish (L/S 1.62 crowded-long, orderbook -0.48) but thin Sunday equity-proxy tape with Monday gap risk and no fresh <=48h catalyst (earnings 7/13 spent). No trade offers a clean 1.5R with a stop that survives noise.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 341.86,
+    "expires_min": 240,
+    "note": "Losing 4h support 341.86 confirms the bearish divergence resolving down and opens a clean short; reclaiming would instead be the long trigger."
+  },
+  "transcript": {
+    "macro": "RISK-OFF; Sunday off-hours thin/gappy, real discovery Mon open. Capital preservation.",
+    "sentiment": "GOOGL reported 7/13 (old, spent), no fresh <=48h catalyst; scan shows bearish divergence. Trades on tape/AI-sentiment.",
+    "analyst": "Stuck mid-range on thin tape, stalling under 349.4 with bearish divergence, stoch 90.8, volume drying - rejection not base. Long = chasing exhausted push; short has structure (L/S 1.62, orderbook -0.48) but fights still-up LTFs + Mon gap risk. No honest 1.5R. HOLD.",
+    "portfolio": "HOLD GOOGL (conf 0.5) \u2014 mid-range stall, wait for 341.86 break to short."
+  },
+  "timestamp": "2026-07-19T23:46:41.720028+00:00"
+}

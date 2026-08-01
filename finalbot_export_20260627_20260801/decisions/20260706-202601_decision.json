@@ -1,0 +1,27 @@
+{
+  "action": "hold",
+  "symbol": "MSTR/USDT:USDT",
+  "size": 0.0,
+  "entry": 100.53,
+  "stop_loss": 109.5,
+  "take_profit": 88.0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.35,
+  "playbook": "none",
+  "expectancy_note": "Short thesis is right (weakest RS, downtrend, bearish news) but entry is wrong: price is below the lower BB with 4h RSI 27, ~7xATR above support 79.93 \u2014 pressing here is chasing into snapback risk. Wait to short a bounce into 105-109 resistance for clean R:R; no long edge either.",
+  "rationale": "MSTR is the worst-in-class name (RS -15.82%, structurally de-rating, fresh 8-K BTC sale) and the 4h trend is down (ADX 36.6, composite short), so directional bias is lower. But at 100.53 it is deeply oversold (RSI 27.2, bb_pctb -0.054, -3.12% below VWAP) with support 20% away and no crowding/squeeze fuel (funding 0.0) to press \u2014 shorting here donates a stop into elevated mean-reversion risk (Extreme Fear, $1B buyback, equities risk-on, tentative ETF inflow). Best expectancy is patience: arm a short into the 105-109 resistance bounce where R:R toward 88/80 is clean. No long: trend, RS and news are all hostile.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 106.0,
+    "expires_min": 720,
+    "note": "A relief bounce into 106-109 resistance offers a clean short entry on the weakest name back toward 88/80 with stop above 109 \u2014 flips this HOLD into a tactical short."
+  },
+  "transcript": {
+    "macro": "HOSTILE for a long, LEANS SUPPORTIVE for a tactical short with elevated squeeze risk (trade smaller). MSTR 100.53, composite SHORT (conf 30.4%, blended -0.245, ADX 36.6 real trend), RSI 27.2 4h, below lower BB \u2014 deeply oversold, downtrend intact but stretched. RS -15.82% vs BTC (worst-in-class), btc_corr 0.818. Structure_bias -0.118: funding 0.0 (neutral, not crowded), L/S 1.252 (net-long retail), orderbook_imbalance -0.145; large OI but funding-neutral = genuine trend not squeeze fuel. BTC weak not crashing (~$62k, below EMA50/200, Fear&Greed 24, on $58-62.5k support; relief bounce to $65-70k possible). Equities risk-ON today (Nasdaq +1.2%, semis +2.7%) \u2014 supports MSTR's equity wrapper, cuts against a short = chop at the crypto-vs-equity fault line. Structural de-rating: ~81% off 2025 highs, mNAV below 1, $8.2B debt, selling shares to rebuild USD. No FOMC/CPI in 48h (next Jul 28-29). Biggest risk: squeeze/mean-reversion bounce toward $108.96 (+8%); ideal short entry is a bounce into $105-109, not pressing here.",
+    "sentiment": "BEARISH near-term, news aligns with tape. FRESH Jul 6: Strategy SOLD 3,588 BTC for ~$216M (8-K), largest sale in company history / 3rd ever \u2014 regime break from 'never sell', shares -2% premarket, reframes treasury as under funding pressure (bearish for mNAV premium). Jul 2: 'Digital Credit Capital Framework' with up to $1B MSTR buyback + USD reserve + selective BTC monetization (~$3.8B liquidity); stock popped +10.2% then faded. mNAV compressed toward ~1.0-1.27x from 2-3x, issuance flywheel stalled. Holds ~847,363 BTC at ~$75k avg \u2014 underwater at BTC ~$62k; convertibles cut to ~$6.7B. BTC ~$61.8-62.7k, hit 21-month low sub-$58k Jul 1 then bounced; June worst ETF month ever (~$4.5B outflows), 10-day outflow streak snapped Jul 3 (+$221M, tentative turn). Fear&Greed Extreme Fear. Q2 earnings Aug 4 (outside window). No token unlocks. Net: bias short-with-the-trend but size for high two-way vol; do not fade an oversold BTC reversal \u2014 snapback risk real.",
+    "analyst": "Directional bias is lower \u2014 weakest-in-class RS, downtrend (ADX 36.6, composite short), bearish fresh 8-K BTC sale. But entry is wrong: at 100.53 MSTR is deeply oversold (RSI 27.2, below lower BB, -3.12% vs VWAP) with support 79.93 ~7xATR away and no crowding/squeeze fuel (funding 0.0) to press. Shorting here donates a stop into elevated mean-reversion risk (Extreme Fear, $1B buyback, equities risk-on, tentative ETF inflow). Best expectancy is patience \u2014 arm a short into a 105-109 resistance bounce toward 88/80. No long: trend, RS and news all hostile. Verdict: HOLD with an armed short trigger on a bounce >106.",
+    "portfolio": "HOLD MSTR/USDT:USDT \u2014 right short thesis, wrong price (oversold into support); wait for a 105-109 bounce to short. conf 0.35."
+  },
+  "timestamp": "2026-07-06T20:26:01.779014+00:00"
+}

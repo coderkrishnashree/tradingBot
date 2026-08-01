@@ -1,0 +1,26 @@
+{
+  "symbol": "QQQ/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.4,
+  "size": 0,
+  "entry": 729.43,
+  "stop_loss": 722.5,
+  "take_profit": 730.3,
+  "playbook": "none",
+  "forecast": "Low-volume weekend grind pinned just under 730.3; likely chops 728-730 into Monday, with the real move deferred to the CPI print Tue.",
+  "expectancy_note": "No edge: long chases RSI 74/stoch 93 into 0.12%-away resistance (account's #1 loss pattern), short has no rejection/divergence; thin weekend tape + CPI binary in 48h = negative expectancy either way.",
+  "rationale": "QQQ is dead-flat coiling under 730.3 resistance, overbought on every timeframe (RSI 74, stoch 93, %B 0.80) with ADX only 29 and US cash CLOSED - near-zero volume, gappy. Any entry has SL/TP within ~2.5pts (ATR 0.34%) i.e. pure noise, and the decisive event (CPI Tue, 'QQQ is the CPI trade') sits inside the window making both a chase-long into resistance and an unconfirmed short negative-expectancy. Wait for the level to resolve.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 730.5,
+    "expires_min": 240,
+    "note": "A clean break and hold above 730.3 resistance confirms the coil resolved up and justifies a breakout long; losing 728 instead opens the VWAP/720s retest for a short."
+  },
+  "transcript": {
+    "macro": "Cycle 2026-07-11. Scan Saturday, US cash CLOSED - thin/gappy, funding 0.0. Regime RISK-ON but late-stage/stretched. Fri Nasdaq near records; QQQ ~724 cash close 'revived AI optimism' but perp RSI 74/stoch 93 overbought and only 0.3% from resistance (730). VIX 15 calm; 10Y 4.56% mild headwind. BIG event risk inside 48h: CPI Tue Jul 14 - QQQ IS the CPI trade - plus bank earnings Tue-Wed. Verdict: caution, event-gated, overbought at resistance.",
+    "sentiment": "QQQ (Nasdaq-100): Extended (RSI 74), hawkish Fed + CPI risk overhead. Neutral, event-gated; the index IS the CPI trade. Broader: Nasdaq fragile after retreating from June highs, FOMC hawkish (dot-plot projecting a hike before year-end), VXN ~18, QQQ put/call ~1.15 (defensive), big-tech earnings (NVDA/MSFT/AMZN) ahead.",
+    "analyst": "Last 729.43, resistance 730.3 (~0.12% away), support 698.42, RSI 74.3, stoch 92.9 (extreme), %B 0.804, bb_width 3.03%, ADX 29.3, ATR% 0.34, vwap_dist +1.42%, funding 0.0. Composite long but only 37.6%. Recent candles dead-flat 728.3->729.43 pinned under 730 on tiny volume, repeated stalls at 729.1-729.2. Long chases into resistance (account's #1 loss pattern); short unconfirmed. No honest R:R. HOLD; flip above 730.5.",
+    "portfolio": "QQQ: HOLD (conf 0.40) - overbought and coiling under 730 resistance, event-gated by CPI; re-debate on a hold above 730.5."
+  },
+  "timestamp": "2026-07-11T20:33:12.840967+00:00"
+}

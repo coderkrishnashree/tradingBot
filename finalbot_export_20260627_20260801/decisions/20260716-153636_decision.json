@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "CL/USDT:USDT",
+  "size": 0.0,
+  "entry": 79.11,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.34,
+  "playbook": "none",
+  "forecast": "Post-Hormuz-spike fade is stalling mid-range ~79.0-79.2 between 78.8 support and 80.67 resistance; expect chop/coil next few bars with no clean directional edge until 78.84 gives way (extends fade to ~78) or 80.67 reclaims (momentum long).",
+  "expectancy_note": "ADX 13.7 chop + regime_blocked + all mid-TFs flat = no edge; a short chases an oversold 5m (RSI 25.6) into gappy headline tape (account shorts net -0.52 pnl), a long fights bearish divergence + 1.89 crowded-long. p(win) on any entry ~0.45, sub-1.5 R:R.",
+  "rationale": "CL is dead-center in its 78.8-80.67 range with ADX 13.7 (chop, regime-blocked) and every timeframe 15m-4h reading flat; the only directional bar is an oversold 5m short that would be a textbook late-short-into-a-bounce given crowded 1.89 longs and Hormuz headline gap risk. There is no honest R:R>=1.5 setup from mid-range, and the learner shows this account's shorts bleed. Highest-expectancy action is to stand aside and wait for the range edge to resolve.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 78.84,
+    "expires_min": 240,
+    "note": "Losing the recent swing low breaks the bull's higher-low and confirms the post-spike fade extending toward 78/support \u2014 a mean-reversion short setup worth re-debating."
+  },
+  "transcript": {
+    "macro": "RISK-OFF/defensive tilt. CL is the only bid asset \u2014 Iran/Hormuz blockade premium keeps it near 1-mo highs. But chop regime, bearish divergence, L/S 1.89 crowded-long, headline-driven (gappy). Two-sided, event-risk heavy; low scan conf (~5.0).",
+    "sentiment": "CL two-sided, geopolitics-driven. Whippy ~$74-80 on US-Iran / Strait of Hormuz tensions (bullish spikes) vs OPEC+ raising output (+137k bpd Aug, 3rd hike) and rising Iranian supply (bearish). CL is negatively correlated to BTC/QQQ (~-0.30 to -0.40) \u2014 risk-on tape and oil rally can coexist via geopolitics. Headline-sensitive; any Hormuz/Iran flare is the near-term mover.",
+    "analyst": "CL dead-center its 78.8-80.67 range with ADX 13.7 (chop, regime-blocked) and every TF 15m-4h flat; only the 5m is short and it's oversold (RSI 25.6) \u2014 a short would be a textbook late-short-into-a-bounce given crowded 1.89 longs and Hormuz gap risk. No honest R:R>=1.5 from mid-range; learner shows shorts bleed. Stand aside; reconsider a mean-reversion short on a break below 78.84, or momentum long on an 80.67 reclaim.",
+    "portfolio": "CL: HOLD (conf 0.34) \u2014 chop/regime-blocked, headline gap risk; no edge, stand aside."
+  },
+  "timestamp": "2026-07-16T15:36:36.541322+00:00"
+}

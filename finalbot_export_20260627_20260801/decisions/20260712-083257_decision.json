@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "EWY/USDT:USDT",
+  "size": 0.0,
+  "entry": 182.43,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Thin weekend tape likely chops 182.0-183.2 into Monday; last 15m bar flushed to 182.43 lows on only 50 vol but VWAP sits right here \u2014 expect a bounce-or-grind, not a clean impulse, until the 181.6 shelf breaks.",
+  "expectancy_note": "A high-ADX trend-continuation short is exactly what this account has bled on (trend playbook 0.44 WR / -2.89 avg; high_adx 0.45 WR); marginal ~1.6 R:R into weekend gap-up risk on a +87% YTD crowded leader = negative expectancy \u2014 wait for confirmation.",
+  "rationale": "4h/1h are aligned short (scores -0.9, ADX 66) and the last bar closed at its low, but RSI is already 33.6, price is AT VWAP (no continuation edge yet), and US cash is CLOSED so this equity perp is thin/gappy with Monday gap-up risk against a bullish KOSPI/AI-memory narrative. The learner shows this exact high-ADX trend-short pattern has been a net loser for the book, so I will not pay weekend-thin size for a marginal R:R. HOLD until price proves the breakdown by losing the 181.6 shelf, or invalidates it by reclaiming 183.2.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 181.6,
+    "expires_min": 300,
+    "note": "Losing the intraday 181.6 shelf confirms the 4h/1h downtrend is resuming with follow-through, turning the marginal continuation short into a clean one toward 180.5."
+  },
+  "transcript": {
+    "macro": "2026-07-12 (Sunday) regime cautious/mixed: Fed (Warsh) HELD Jul 8 and signaled HIKE risk into year-end (~61% Sept hike) \u2014 headwind for high-multiple tech; rotation OUT of AI names; USD/rates higher. WEEKEND: US cash CLOSED, equity perps thin/gappy with Monday gap risk. L/S ratios lopsidedly long (contrarian caution). EWY: pure AI-memory/HBM proxy (Samsung/SK Hynix), KOSPI +2.52% Fri, ~+87% YTD \u2014 crowded momentum leader, extended; structure_bias ~neutral, L/S 1.18, short-term 4h/1h pullback within uptrend; correlated to TSM/MU, TSMC 7/16 real swing factor.",
+    "sentiment": "EWY: KOSPI at record highs, ~doubled YTD on Samsung/SK Hynix AI-memory; ADB raised 2026 growth forecast; trades cheap ~6.4x fwd \u2014 bullish narrative but NO <=48h catalyst. NEAR-TERM NEUTRAL (long-horizon bullish tape; semis read-through into Monday; TSMC 7/16 the binary).",
+    "analyst": "4h/1h aligned short (ADX 66) with last bar at its low, but RSI already 33.6 and price AT VWAP \u2014 no continuation edge yet. Weekend thin/gappy with Monday gap-up risk against a bullish KOSPI/AI-memory narrative on a +87% YTD crowded leader. Learner shows high-ADX trend-continuation short is the documented loss pattern (trend 0.44 WR/-2.89, high_adx 0.45). Marginal ~1.6 R:R = negative expectancy. HOLD; short re-arms only on losing the 181.6 shelf.",
+    "portfolio": "EWY: HOLD \u2014 no size; wait for 181.6 breakdown or 183.2 reclaim."
+  },
+  "timestamp": "2026-07-12T08:32:57.669168+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "BTC/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.35,
+  "playbook": "none",
+  "forecast": "Choppy grind 61,850-62,450 into the FOMC minutes this afternoon; the 5m/oversold bounce likely stalls near 62,400-62,750 prior-support-turned-resistance, and direction resolves on the minutes, not before.",
+  "expectancy_note": "Two-sided: short fights RSI28 + short-covering squeeze (squeeze-prone, negative expectancy here); long fights the -0.854 offered book + downtrend + hawkish-FOMC gap risk. No 1.5R either way pre-catalyst; HOLD is highest expectancy.",
+  "rationale": "BTC is bouncing off a 21-month low on a mechanical short-covering squeeze: 1h RSI 28, 30m RSI 37, 5m flipped long, price building higher lows 61.9-62.3k. Structure (L/S 1.525 net-long, orderbook -0.854, bias -0.42) favors fading rallies, but chasing a short into deep oversold ahead of FOMC minutes today is exactly the squeeze trap flagged. Conf 35% and aligned:false confirm no edge; I want either a rejection-and-loss of the base (clean trend short) or a reclaim of the breakdown level (real trend change) before committing size.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 61820,
+    "expires_min": 240,
+    "note": "Losing the 61,820 session-low base kills the short-covering bounce and re-arms the downtrend with the offered order book \u2014 a clean trend-continuation short toward 60k support."
+  },
+  "transcript": {
+    "macro": "Cautiously risk-off / fragile bounce. BTC ~$62.2k, down from ~$93k early 2026, fresh 21-month low near $60k late June, now squeeze-driven bounce (short liquidations $105M > longs $55M = short-covering not conviction). Fear & Greed 23 (Extreme Fear). BTC dominance ~55-56% (risk-off, no altseason). Fed (Warsh) held 3.50-3.75%, 9/18 flag a year-end hike = hawkish overhang. BTC specifics: funding +1.67e-05 (flat), OI 56,457, L/S 1.525 (crowd net-long, contrarian-negative), order-book imbalance -0.854 (heavily offered), structure_bias -0.42. Structure supports SHORT/fade rallies toward 62.5-64.7k, but price at 21-mo-low bounce w/ 1h RSI 28 + 5m flipping long = chasing short is late/squeeze-prone. Biggest risk: short-liquidation squeeze.",
+    "sentiment": "Overall catalyst: FOMC MEETING MINUTES release TODAY Wed July 8 (afternoon US session) = live binary. Hawkish surprise = downside; dovish = supports risk. BTC cautious-recovering not euphoric; bounce mechanically driven ($450M+ short liquidations above $62k). F&G ~23 extreme fear (contrarian-supportive but fragile). ETF FLOWS turned positive: +$221M July 3 (largest ~2mo), +$143M July 6 \u2014 genuine near-term positive though YTD still -$5.4B. No hacks/delistings/unlocks in 48h. A SHORT fights improving ETF flows + extreme-fear positioning, so downside follow-through needs a hawkish FOMC catalyst.",
+    "analyst": "Structure says short (offered book, net-long crowd) but price is at a 21-month-low bounce, deeply oversold on 1h/30m (RSI 28/37), 5m flipping long, extreme fear (contrarian), ETF flows positive, FOMC minutes a live binary hours away. Chasing a short into RSI 28 + short-covering squeeze is the flagged trap; a long fights the -0.854 offered book, downtrend, and hawkish-FOMC gap risk. Two-sided, low-conviction (conf 35%, aligned:false) with a binary catalyst imminent \u2014 no clean 1.5R either direction. HOLD, with a reconsider armed: a break below the 61,820 session-low base re-arms a clean trend-continuation short.",
+    "portfolio": "HOLD BTC/USDT:USDT \u2014 no edge either side into FOMC minutes; short-continuation short armed below 61,820."
+  },
+  "timestamp": "2026-07-08T12:26:36.508617+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "META/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Thin weekend book drifts/coils between 626.46 support and ~641; the real move is Monday's 7/20 gap. Deeply oversold (RSI 23, 5m RSI 24, -3.23% below VWAP) argues an oversold bounce is as likely as continuation short-term; no clean directional path until the cash open.",
+  "expectancy_note": "Short here is the account's #1 loss pattern: late entry into RSI-23/ADX-73 tape sitting ~1xATR above 4h support 626.46 \u2014 reward to TP1 barely 1R vs a bounce/gap that overshoots a wide stop. p(win) not high enough; HOLD beats chasing.",
+  "rationale": "META is violently extended short (RSI 23.4, ADX 73.5, -3.23% vs VWAP) and sitting just above 4h support 626.46 with no <=48h catalyst \u2014 a routine oversold bounce would stop any honest short before the trend resumes. US equity markets are CLOSED, so the tokenized book is thin and WILL GAP Monday, making any directional entry now poor expectancy with unquantifiable stop risk. No size: better to let Monday's open resolve direction and re-arm on a clean support break or VWAP reclaim.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 626.46,
+    "expires_min": 240,
+    "note": "Losing 4h support 626.46 confirms trend continuation with fresh downside room, re-arming a short with real R:R instead of chasing mid-air."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF, semiconductor-led equity selloff. Fri 7/17: Nasdaq -1.40%. US EQUITY MARKETS CLOSED \u2014 META trades a thin tokenized book and WILL gap on the Monday 7/20 open. Funding ~0. META ($636.75) short composite, RSI 23.4, ADX 73.5, deep below VWAP (-3.23%). Rel str +8.2% vs BTC (was outperformer, now rolling). Directionally aligned with risk-off; oversold-bounce risk into Monday.",
+    "sentiment": "META (~$637): no <=48h catalyst; earnings Wed Jul 29 after close (rev guide $58-61B, consensus $60.18B, EPS $7.18). Overhang from raised 2026 AI capex ($125-145B). In the current 'hyperscalers may cut AI spend' narrative META is caught in the crossfire. Near-term neutral-to-slightly-negative; no fresh binary before 7/29.",
+    "analyst": "RSI 23.4 (4h), 24.2 (5m), ADX 73.5, -3.23% below VWAP \u2014 violently oversold and extended. Sitting ~1xATR above 4h support 626.46; reward to TP1 barely 1R vs a bounce that overshoots a wide gap-exposed stop. Market closed, thin book, Monday gap unquantifiable. Late short here = account's #1 loss pattern. Re-arm on a clean break of 626.46 or a VWAP reclaim.",
+    "portfolio": "HOLD META \u2014 aligned short but violently oversold on 626.46 support; re-arm on a break of 626.46 or a VWAP reclaim after Monday's open."
+  },
+  "timestamp": "2026-07-18T10:10:06.982816+00:00"
+}

@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "EWY/USDT:USDT",
+  "size": 0.0,
+  "entry": 168.01,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Light-volume dead-cat bounce into the broken 168.0 shelf/VWAP stalls; expect chop 167.1-168.5, then direction dictated by the KOSPI-open gap, not tonight's US relief tape.",
+  "expectancy_note": "No side clears R:R>=1.5: long fights heavy-vol supply above 168.9, short at VWAP isn't extended and risks a stop-skipping overnight gap. p(win) on either ~0.45 with fat binary tails (FOMC Wed + live Korea-tariff headline) \u2014 flat is highest expectancy.",
+  "rationale": "EWY is a leveraged Korean-semis proxy whose underlying is closed overnight US-time, so the perp gaps on KOSPI open into a hawkish FOMC (Wed) and live Trump 25% tariff risk \u2014 an unpriceable <=48h binary. The tape shows a heavy-volume waterfall (167.12 low) followed by a fading-volume bounce back into the broken 168.0 shelf/VWAP: supply in control, not a long, and price sits at VWAP so it's not a clean short-at-extreme either. With RS -9.5% and gap risk that can skip any honest stop, no directional bet clears R:R \u2014 flat is the disciplined call.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 168.9,
+    "expires_min": 240,
+    "note": "Reclaiming and holding the pre-dump 168.9 shelf negates the heavy-volume breakdown and re-arms the 1h/4h long into resistance 177.4; losing 167.1 instead confirms continuation lower."
+  },
+  "transcript": {
+    "macro": "Regime MIXED now, HOSTILE into midweek. 7/27 US risk-on relief tape atop damaged AI/semi backdrop. FOMC Wed 7/29 (hawkish, EM/USD-hostile). EWY last ~168.0, structure clean (L/S 1.11, funding 0, bias -0.04) but RS vs BTC -9.5% and it IS the epicenter \u2014 KOSPI down 23% MTD (worst month ever), circuit breakers, Samsung/SK Hynix carnage (>60% of index). CRITICAL: Korean underlying closed overnight US-time, so perp gaps on KOSPI open. Twin <=48h risks: FOMC/USD hitting Korea beta, live Trump 25% Korea-tariff headline. Neutral with fat tails.",
+    "sentiment": "EWY macro/beta driven, elevated two-way risk. No single-name earnings (Samsung/SK Hynix proxy). KOSPI crashed >20% off highs on AI-spend fears then rebounded ~15% off month's low; still up ~65% YTD. HIGH sensitivity to Wed FOMC / any tariff headline; neutral with fat tails.",
+    "analyst": "Price ran to 169.13 then waterfalled 168.71->167.12 on heavy expanding volume (sellers dumping), then a 3-bar bounce to 168.02 on fading volume back into the broken 168.0 shelf at VWAP \u2014 supply in control. ADX 27 (weak-moderate), per-TF mixed/unaligned. Leveraged Korean-semis proxy with underlying closed overnight; perp gaps on KOSPI open into hawkish FOMC + live tariff risk \u2014 unpriceable binary, stop can be skipped. Not a clean long (heavy-vol supply above), not a clean short-at-extreme (at VWAP). HOLD; trigger reclaim of 168.9 (long) or loss of 167.1 (short).",
+    "portfolio": "HOLD EWY \u2014 overnight KOSPI gap + FOMC/tariff binary can skip any stop; no directional edge. Watch 168.9 / 167.1."
+  },
+  "timestamp": "2026-07-27T13:06:08.170395+00:00"
+}

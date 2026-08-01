@@ -1,0 +1,22 @@
+{
+  "action": "short",
+  "symbol": "MSTR/USDT:USDT",
+  "size": 2.5,
+  "entry": 95.35,
+  "stop_loss": 96.4,
+  "take_profit": 91.95,
+  "take_profit_1": 93.4,
+  "take_profit_2": 91.95,
+  "confidence": 0.62,
+  "playbook": "trend",
+  "forecast": "Failed bounce under 95.5-95.6 with dying volume; expect a fade to retest 94.7, break it toward 93.4, then extend to the 92.0 support zone over the next 4-10 bars as soft BTC drags this lagging beta lower.",
+  "expectancy_note": "p(win)~0.60, R:R~1.5 to TP1 (reward 1.95 vs risk 1.05); trend-continuation beats mean-reversion here because ADX 36 + all higher TFs aligned down and price is at VWAP, not extended.",
+  "rationale": "MSTR is the weakest horse (rel-strength -16.2%, crowded 1.42 longs to squeeze) and pure BTC-beta into a soft, offer-heavy BTC tape; 4h/1h/15m all down with ADX 36 and price coiling under 95.5-95.6 resistance after a failed bounce on fading volume, so I'm joining the trend near VWAP rather than chasing. Stop sits above the 95.67 bounce high (~1.1 risk); TP1 at 93.4 gives ~1.5 R:R with the ratchet carrying toward 92.0 support. Size trimmed to 2.5% for equity-perp weekend gap risk and Tuesday CPI event risk.",
+  "transcript": {
+    "macro": "Regime NEUTRAL. US equity/commodity markets CLOSED (Sunday 2026-07-12) \u2014 equity perps on thin/gappy weekend liquidity; only CL has real volume. Constructive equity trend but gated by June CPI Tue Jul 14 08:30 ET (hawkish Fed, hike odds rising \u2014 hot print = yields/DXY up, tech down) and chip earnings this week (TSM Q2 Thu Jul 16). USD biased firmer. WTI ~$71-74 on Hormuz/US-Iran tension. Verdict: NEUTRAL \u2014 size down, favor aligned crypto-beta shorts (MSTR). MSTR: composite short conf 79% (top of scan), btc_corr 0.79, rel-strength -16.2% \u2014 leveraged BTC-beta badly lagging into soft, offer-heavy BTC (~63.9k, OB imbalance -0.48).",
+    "sentiment": "US cash closed \u2014 thin gappy tape; big catalysts are next-week binaries. MSTR bearish-lean/event risk: sold 3,588 BTC (Jun 29-Jul 5) to fund preferred dividends + new Digital Credit Capital Framework (sparked bounce low-80s->mid-90s). Q2 earnings Jul 30 (outside 48h). Pure BTC-beta (0.785 corr) near-term; BTC extreme fear (F&G ~23) but stabilizing \u2014 near-term news neutral-to-slightly-negative, short read rests on price.",
+    "analyst": "MSTR last 95.2, composite SHORT 79.3%, all higher TFs down (4h -0.80, 1h -0.90, 15m -0.85), ADX 36.4, RSI 53, %B 0.445 (not extended), VWAP dist -0.38% (near VWAP). Recent 15m: rallied to 95.67, rejected, faded to 94.71, bounced then fading again on dying volume (34/13/10) \u2014 controlled downtrend coiling under 95.5-95.6 after a failed bounce, not chasing. L/S 1.42 crowded long = short fuel. Joining trend near VWAP: entry 95.35, stop 96.4 (above 95.67 bounce high, ~1.1 risk), TP1 93.4 (~1.5 R:R), TP2 91.95 support. Size trimmed to 2.5% for weekend gap + CPI risk.",
+    "portfolio": "SHORT MSTR 2.5% @95.35, stop 96.4, TP 93.4/91.95 \u2014 highest-conviction aligned crypto-beta short; the one actionable trade this cycle."
+  },
+  "timestamp": "2026-07-12T08:05:00.802175+00:00"
+}

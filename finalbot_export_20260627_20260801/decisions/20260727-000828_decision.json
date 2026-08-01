@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "XAG/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.62,
+  "playbook": "none",
+  "forecast": "Extended chop between 59.4-60.0 under the 61.0 cap into FOMC; most likely it stalls/coils here, with a break of 59.0 opening a fade toward 58.2/VWAP or a reclaim of 61.0 resuming the trend.",
+  "expectancy_note": "No positive-expectancy entry: long is a chase (RSI 94.5, %B 1.03, VWAP +1.9%, L/S 3.69 crowded) into a Fed coin-flip with DXY 13mo-high headwind; short lacks confirmation with ADX 92 trend intact. HOLD beats both.",
+  "rationale": "Silver is +7.5% in 4 days and vertically overbought (RSI 94.5, stoch 88.6, price above the upper Bollinger band, +1.91% over VWAP) with an extremely crowded long book (long/short 3.69) pressing into the 61.0 resistance. Buying is the account's classic late-continuation chase, and it sits inside the FOMC Jul 28-29 binary with DXY at a 13-month high and elevated real yields as clean headwinds (QQQ corr 0.66 adds equity risk-off). Fading a live ADX-92 uptrend without exhaustion confirmation is equally low-expectancy - wait for the level to resolve.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 59.0,
+    "expires_min": 240,
+    "note": "Loss of the 59.0 breakout base breaks the vertical structure and opens a mean-reversion short toward VWAP/58.2 as the crowded long unwinds."
+  },
+  "transcript": {
+    "macro": "REGIME: RISK-OFF/MIXED, defensive. FOMC Jul 28-29 inside window (binary). XAG ~$58-60 HOSTILE for longs: DXY 13-mo high + elevated real yields are clean headwinds; only relief if FOMC holds. Silver highly QQQ-correlated (0.66) - inherits equity risk-off.",
+    "sentiment": "RISK-OFF/EVENT-GRIDLOCKED. XAG +7.5% over 4 days to ~$58-60; caught between safe-haven/AI-industrial demand (6th straight annual deficit) vs hawkish-Fed / strong-USD headwind. Fed is the near-term decider - a coin-flip.",
+    "analyst": "Vertically overbought (RSI 94.5, %B >1, +1.9% VWAP) with an extremely crowded long book (L/S 3.69) into the 61.0 cap and a Fed coin-flip with DXY 13-mo-high headwind. Long is the late-continuation chase; short lacks exhaustion confirmation vs ADX 92. HOLD; short arms on loss of the 59.0 breakout base.",
+    "portfolio": "HOLD XAG - vertical RSI-94 into a Fed coin-flip; wait for 59.0 loss to fade."
+  },
+  "timestamp": "2026-07-27T00:08:28.852083+00:00"
+}

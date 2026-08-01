@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "QQQ/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.55,
+  "playbook": "none",
+  "forecast": "Frozen weekend tape: price micro-drifts around 695-696 on near-zero volume until Monday cash open, then gap-reconciles. Real move only with Monday liquidity; likely retest of 688.09 if semi selloff continues, or relief bounce toward 700-705 on any Alphabet/earnings relief.",
+  "expectancy_note": "p(win)~0.42 (learner), R:R illusory on frozen 0.04% ATR bars; shorting a dead print into a Monday gap is negative expectancy. HOLD beats chasing an already-oversold (5m RSI 17) move with no liquidity.",
+  "rationale": "QQQ candles show 0.0-12 volume with 0.04% 15m ATR \u2014 a frozen Sunday tape with US cash closed; any fill reconciles against Monday's gap. Direction (short) is macro-aligned but learner p_win is only 0.412 and the LTF is already stretched-oversold (5m RSI 17.2, 15m RSI 24.8) into support at 688 with heavy earnings-week bounce risk. No 48h binary forces action; highest-expectancy play is to wait for Monday liquidity.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 688.09,
+    "expires_min": 240,
+    "note": "A break of 688.09 support on Monday's real volume proves the tech-risk-off downtrend resuming with liquidity behind it \u2014 the clean, macro-aligned short entry."
+  },
+  "transcript": {
+    "macro": "RISK-OFF, semiconductor-led selloff (Fri Jul 17: Nasdaq -1.4%, wk -2.9%), AI-capex confidence wobble; rates mild tailwind. SUNDAY \u2014 US cash closed, tokenized perps thin/gappy (QQQ candles near-zero volume, frozen prints), gap-reconcile Monday. QQQ is the index itself: scan short, aligned down, RSI 39. Macro SUPPORTS the short (cleanest macro-aligned name) but wait for Monday liquidity given bounce risk into heavy earnings week.",
+    "sentiment": "Disinflation (CPI +3.5%) vs chip selloff tug-of-war; QQQ down 1.3% Jul 16. Earnings-gauntlet week; Sunday off-hours thin/gappy. No fresh <=48h binary; direction is a derivative of the semi tape + Tesla/earnings flow this week.",
+    "analyst": "Composite short (conf 50.9%, p_win_learned 0.412 \u2014 LOW). Candles are a dead, frozen tape (0.0-12 volume, 0.04% 15m ATR). LTF already stretched-oversold (5m RSI 17.2, 15m RSI 24.8). Any entry fills on a frozen print then gap-reconciles Monday. Textbook NO-TRADE; HOLD and arm a Monday break-of-688.09 short on real volume.",
+    "portfolio": "HOLD QQQ \u2014 cleanest macro short but frozen Sunday tape; wait for Monday break of 688.09 on volume."
+  },
+  "timestamp": "2026-07-19T11:15:22.696623+00:00"
+}

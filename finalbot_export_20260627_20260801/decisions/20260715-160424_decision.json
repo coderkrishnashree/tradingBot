@@ -1,0 +1,23 @@
+{
+  "symbol": "COIN/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.5,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "rationale": "COIN just got rejected hard at 167.45 and is chopping mid-range (163.89) while overbought on 4h (RSI 78.3) and stretched +2.42% above VWAP, with structure_bias -0.192 (crowded long, negative orderbook). It is a BTC-beta bet (corr 0.67) and BTC itself is RSI 73 overbought, so a BTC mean-reversion amplifies downside. Neither a chase-long nor a counter-trend short offers R:R >=1.5 with an honest stop, so wait for the range to resolve.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 165.25,
+    "expires_min": 240,
+    "note": "Reclaiming and holding the pre-spike swing high 165.25 proves buyers absorbed the 167.45 rejection and reopens the trend-continuation long toward 170.29."
+  },
+  "transcript": {
+    "macro": "2026-07-15 risk-on, low-vol (VIX 16.09), indices at highs. COIN: last 163.89, RS +4.65% (leading), BTC corr 0.67 (largely BTC-beta; BTC ~65.4k RSI 73 overbought). Correlated to HOOD (0.81)/MSTR (0.80) \u2014 one crypto-beta bet, not diversified. Uptrend, ADX 67.8, RSI 78.3 (overbought), structure_bias -0.192. Verdict: supports long but small size, tight to BTC.",
+    "sentiment": "Next earnings Thu Jul 30 (far outside 48h); Q1 was a miss (rev -31% y/y, net loss) \u2014 later overhang. Constructive tone: +19% early-July to ~163; Jul 14 China-user signup (+2%); mean PT ~$227 (low weight). Near-term mildly bullish/neutral on macro + crypto beta, no 48h catalyst; regulatory headlines can drop it 7%+.",
+    "analyst": "167.45 blowoff rejected, chopping 162.7-165.2, overbought (RSI 78) +2.42% VWAP. Long = chasing rejection (account's #1 loss pattern); short fights ADX 67.8 and shorts bleed (-1.59 avg). No edge. HOLD; long on reclaim/hold of 165.25.",
+    "portfolio": "COIN: HOLD (0.50) \u2014 overbought crypto-beta chopping post-rejection; wait for 165.25 reclaim."
+  },
+  "timestamp": "2026-07-15T16:04:24.380540+00:00"
+}

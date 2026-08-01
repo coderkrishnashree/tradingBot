@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "INTC/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.42,
+  "playbook": "none",
+  "forecast": "94 basing zone holds near-term; 15m consolidating 93.74-94.60 with drying volume just above 89.76 support. Expect chop 93.5-95.5, with elevated odds of a mean-reversion bounce toward VWAP ~97-98 before any resumption lower; a clean loss of 89.76 opens 88/86.",
+  "expectancy_note": "p(win) short ~0.35 (learner p_win 0.31); immediate short is chasing a -32.7% rel-weak, 4h RSI 24.6 washout into 89.76 support with 15% earnings-gap risk Jul23 \u2014 negative expectancy vs waiting for a VWAP fade or confirmed break.",
+  "rationale": "Trend, macro and structure_bias (-0.30) all point short and 2.24 long/short is contrarian-bearish, but this is textbook late-short into an extended, oversold, idiosyncratically-washed-out name sitting just ~4.5% above major support \u2014 the account's proven #1 loss pattern, and the macro note explicitly favors fading rallies over selling new lows. Learner p_win 0.31 confirms shorts here bleed. Thursday Q2 earnings adds a ~15% binary gap risk that makes a naked short-horizon short unattractive. No concrete next-candle down-trigger on the 15m tape (it's basing, not breaking), so the highest-expectancy action is to wait for either a bounce to VWAP to fade or a decisive break of 89.76.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 89.76,
+    "expires_min": 240,
+    "note": "Losing 89.76 support on volume confirms the washout is extending, not bottoming, and turns the trend-continuation short into a clean break trade toward 88/86 rather than a chase into support."
+  },
+  "transcript": {
+    "macro": "RISK-OFF tilt, tech epicenter; Intel is dead-center the semi selloff (secular AI-capex loser). Tokenized US equities (Nasdaq matters). Fri Jul 17 Nasdaq -1.4%; week -2.9%. SOX bear market. FOMC Jul 29 (outside window). Everything short-term washed-out into thin pre-US-hours weekend book \u2014 high mean-reversion/gap odds; favor fading rallies over selling new lows. INTC: last 94.04, composite short (-0.32, conf 38%, aligned), trend regime. RSI 24.6, ADX 58, price -4.06% below VWAP, ATR 3.0%. Support 89.76/resistance 115.46. OI 37k, long/short 2.24 (MOST crowded-long/max contrarian-bearish), orderbook flat, structure_bias -0.30 (most bearish). Rel-strength -32.7% \u2014 WEAKEST name, idiosyncratic. Trend+macro favor short; execution risk = chasing extended into 89.76 support (squeeze/bounce risk).",
+    "sentiment": "Tech RISK-OFF/defensive, SOX bear market. INTC HIGH-ALERT: hard binary INSIDE likely 2-day horizon \u2014 Q2 earnings Thursday July 23; options price ~15% post-earnings move. Deeply bearish tone into it: 18A yield timeline slipped to late-2026/2027, AMD took data-center revenue lead for first time ever, INTC bled ~14% last week. Net bias: bearish trend BUT July 23 print is a coin-flip event \u2014 do NOT hold naked short-horizon exposure across it without sizing for a 15% gap either way; treat earnings as hard stop-out risk.",
+    "analyst": "Trend/macro/structure (-0.30, L/S 2.24) all say short, but learner p_win only 0.31 \u2014 shorts here bleed. Name is -32.7% rel-weak, 4h RSI 24.6, deeply oversold, basing 93.74-94.60 just ~4.5% above 89.76 support with drying volume \u2014 no fresh 15m breakdown trigger; entering = selling new lows into support (account #1 loss pattern). Jul 23 earnings = ~15% binary gap risk. HOLD; wait for a VWAP fade or a decisive break of 89.76.",
+    "portfolio": "HOLD INTC \u2014 bearish structure but extended/oversold into support with p_win 0.31 and Jul23 earnings gap risk; wait for 89.76 break or VWAP fade."
+  },
+  "timestamp": "2026-07-18T04:36:56.876553+00:00"
+}

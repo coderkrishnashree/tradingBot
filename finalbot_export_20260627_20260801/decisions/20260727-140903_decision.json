@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "COIN/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Post-spike back-fill: price drifts/rotates 163.5-165.5 unwinding the vertical 15m candle (%B>1.0, +2.84% VWAP, orderbook -0.59); a clean pullback into ~162 that holds is the real long, not the top-tick chase here.",
+  "expectancy_note": "Chasing long into RSI80/%B1.09/+2.84%VWAP is the account's #1 loss pattern (routine bounce-back stops it); shorting ADX97 momentum pre-earnings is picking a top. Best expectancy = wait for the 162 retest-hold. p(win) on a chase ~0.4, R:R poor; HOLD dominates.",
+  "rationale": "COIN just did a vertical +3% 15m repricing into RSI 80, %B 1.09 and +2.84% above VWAP, then got rejected on the next two candles with orderbook imbalance -0.59 (heavy offers). Entering long now is buying the extended top right before mean-reversion; shorting a 97-ADX trend into pre-earnings vol-build is low-expectancy top-picking. No honest 1.5R entry exists at 165.27 - the trade lives on a pullback to the ~162 spike origin that holds, or on a confirmed reclaim of the 167.8 high. Wait.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 167.85,
+    "expires_min": 240,
+    "note": "Reclaiming and holding the 167.8 spike high proves the repricing is a base, not a blow-off - momentum continuation long back on the table into earnings positioning."
+  },
+  "transcript": {
+    "macro": "Regime MIXED, risk-on tape (ceasefire). Tokenized equities on US cash-session clock -> gappy off-hours/weekend; big single-15m spikes are session-open repricings. DOMINANT SHARED RISK: FOMC Wed Jul 29 hawkish/hike tail.",
+    "sentiment": "COIN HARD CATALYST: earnings Jul 30 after close (~3 days out, just outside 48h) -> pre-earnings positioning/vol build. Trades as crypto/BTC beta (0.50 corr) into FOMC first, then its own print. Crypto neutral (F&G ~44-53).",
+    "analyst": "COIN 165.27 just ripped +3% on a 15m candle to 168.1 then rejected back, 4h RSI 80 / %B 1.09, ADX 97.8, +2.84% above VWAP, orderbook -0.59 (heavy offers post-spike). Chasing the top = account's #1 loss pattern; shorting an ADX-97 trend pre-earnings is top-picking. No honest 1.5R at 165.27. HOLD; real long is a hold of the ~162 spike origin or reclaim >167.85.",
+    "portfolio": "COIN/USDT:USDT - HOLD (conf 0.60): overextended post-spike into Jul 30 earnings; wait for 162 hold or reclaim >167.85."
+  },
+  "timestamp": "2026-07-27T14:09:03.572580+00:00"
+}

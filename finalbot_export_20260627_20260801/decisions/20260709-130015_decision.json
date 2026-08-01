@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "CL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.55,
+  "playbook": "none",
+  "forecast": "Price coils 73.6-74.3 under the 74.6 rejection; expect chop toward 73.5 support first. A clean 4h close/hold above 74.6 opens a run at resistance 76.13; a break below 72.4 (loss of the geopolitical-premium base) unwinds the crowded long fast toward 71.",
+  "expectancy_note": "Long here: p(win)~0.5, R:R only ~1.0-1.3 to a realistic first exit (76.13 cap vs 1.5xATR stop) \u2014 fails the 1.5 gate. Crowded long (L/S 2.78) + two-sided headline binary make a fresh chase negative-expectancy; wait for a cleaner trigger.",
+  "rationale": "Momentum (ADX 54, 4h up) and geopolitics favor long, but the move is crowded (L/S 2.778, OI 318k) and pinned between 73.5 support and 76.13 resistance with RSI 67.5 \u2014 the honest R:R to a first exit is barely 1:1 and the headline is a two-sided binary that can gap either way. Buying the consolidation into the crowd with a capped target is exactly the late-continuation, wide-stop-near-target loss pattern to avoid. I'd rather arm a trigger: a confirmed break and hold above 74.6 (the rejection high) proves fresh escalation demand and re-opens 76+, at which point a smaller long has real R:R.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 74.6,
+    "expires_min": 240,
+    "note": "A 15m/1h close and hold above the 74.6 rejection high confirms buyers overpowering the crowded-long overhang and opens a clean run at 76.13 \u2014 that flips this to a sized-down long."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF driven by Middle East/Hormuz escalation. CL is the ONE target the regime supports long near-term: geopolitical supply premium spiked WTI ~7% to ~$74-75. Scan: long, blended +0.4, 4h up, RSI 67.5 (overbought), ADX 54. Risk-off hedge (BTC corr -0.26). BUT structure_bias -0.287 driven by L/S 2.778 (VERY crowded long); huge OI (318k). De-escalation headline unwinds fast. EIA sees Q4 inventory builds (caps upside). Size down, don't chase spikes.",
+    "sentiment": "Real LIVE <=48h catalyst \u2014 fresh Hormuz shock. WTI +4.4% (~$73.52), Brent +5.2% (~$78) July 8: Trump declared Iran ceasefire over, threatened strikes/blockade, US revoked Iran oil-sale waiver, 3 tankers attacked near Hormuz. Two-sided binary: further escalation gaps UP, de-escalation gaps DOWN hard. Overbought (RSI 67.5, near resistance ~$76), L/S 2.78 crowded long. Structural backdrop bearish (EIA Brent ~$74 3Q26 -> $65 2027 on OPEC+ glut) = fragile premium. HIGH-vol headline-dependent \u2014 CAUTION, size down.",
+    "analyst": "CL is the one long the risk-off regime supports and the tape is strong (ADX 54, 4h score +0.66, RSI 67.5 not extreme, price only +1.34% above VWAP so not stretched). But 15m candles show a high-volume spike into 74.60 rejected, then tight consolidation 73.6-74.3 \u2014 coiling, not breaking. Problem is expectancy, not direction: resistance 76.13 caps the target and an honest 1.5xATR stop below the 72.4 premium base leaves reward-to-first-exit only ~1:1, failing the 1.5 minimum. Add L/S 2.778 (everyone already long) plus a live two-sided Hormuz binary that can gap either way, and a fresh market long is the crowded, late-continuation, capped-target trade that bleeds this book. Hold and arm a structural trigger: a confirmed hold above 74.60 proves fresh escalation demand, clears overhead, and justifies a sized-down long with room to 76+.",
+    "portfolio": "CL: HOLD (conf 0.55) \u2014 direction is long but R:R fails the gate and positioning is crowded; long only on a confirmed hold above 74.6. No order this cycle."
+  },
+  "timestamp": "2026-07-09T13:00:15.633748+00:00"
+}

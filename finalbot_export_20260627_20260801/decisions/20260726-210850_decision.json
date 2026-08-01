@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "TSM/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.34,
+  "playbook": "none",
+  "forecast": "Thin off-hours drift: price likely chops between 409 and 411 on near-zero volume; a decisive loss of 407.8/397.8 would open the risk-off leg toward the 397.8 support, while reclaiming 411.2 would neutralize the bleed.",
+  "expectancy_note": "p(win) ~0.45 either way; no clean R:R here \u2014 TFs conflict (1h/4h long vs 15m/structure short) and volume is 0-3.5/bar, so any stop is noise-driven. Best expectancy is waiting for a confirmed level break.",
+  "rationale": "TSM is a tokenized equity trading on dead weekend/off-hours volume (15m bars printing 0.0-3.5 contracts), so crypto structure metrics carry little edge and level integrity is poor. Signals are muddy (composite long but not aligned, 1h/4h up vs 15m/5m down) while macro is risk-off with a crowded-long book and heavy sell-side orderbook (-0.62) \u2014 a real bearish lean but no clean, liquid trigger yet. Standing aside beats forcing a thin-tape entry that a single gap can whipsaw.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 397.8,
+    "expires_min": 240,
+    "note": "Losing the 397.8 support on volume confirms the risk-off chip unwind and crowded-long capitulation \u2014 a clean short trigger; until then the range holds."
+  },
+  "transcript": {
+    "macro": "RISK-OFF/cautious tape 2026-07-26: Nasdaq -2% wk led by chip sell-off. TSM already reported (slipped despite strong results). Mega-cap tech earnings Wed/Thu = AI-capex read-through to chips. Weekend gap; equity perp thin/gappy off-hours. Crowded-long book into risk-off. Verdict: CAUTIOUS/FLAT-to-lean-SHORT.",
+    "sentiment": "Crypto EXTREME FEAR; 'good results, nervous tape'. TSM EARNINGS OUT Jul 16: strong (guided Q2 rev $39-40.2B +~32% YoY; GM 65.5-67.5%; FY26 growth >30%); 'extremely robust' AI demand. Catalyst PAST; supportive backdrop but subject to broad semi/AI-sentiment swings.",
+    "analyst": "Tokenized equity on dead weekend volume (15m bars 0.0-3.5 contracts) \u2014 crypto structure carries little edge, level integrity poor. Muddy signals (composite long but unaligned, 1h/4h up vs 15m/5m down); risk-off with crowded-long book and heavy sell-side orderbook (-0.62) = real bearish lean but no clean liquid trigger. Stand aside vs a gap-whipsaw entry.",
+    "portfolio": "TSM: HOLD 0.34 \u2014 bearish lean but dead thin tape; armed to short on loss of 397.8."
+  },
+  "timestamp": "2026-07-26T21:08:50.396982+00:00"
+}

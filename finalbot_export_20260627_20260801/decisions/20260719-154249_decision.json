@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "MU/USDT:USDT",
+  "size": 0.0,
+  "entry": 850.69,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.34,
+  "playbook": "none",
+  "forecast": "Coiling 847-853 at VWAP with fading momentum; last three 15m bars drift lower on thin volume. Into Sunday/closed US cash, MU most likely chops here then gaps on Monday's open - direction set by whether Friday's semi rout resumes, not by anything tradeable tonight.",
+  "expectancy_note": "p(win)~0.45 on a market long: crowded L/S 2.15, worst-in-class RS -32.6%, chip-sector under active pressure, gap risk - no honest R:R and no trigger. HOLD beats forcing a lagging long into a closed-market gap.",
+  "rationale": "The 4h/1h long alignment is real but this is a SEMICONDUCTOR equity perp on a Sunday: US cash closed, thin/gappy, chips led Friday's -2.9% selloff, MU lags peers by ~33% (weakest horse) and longs are crowded (L/S 2.15, structure_bias -0.30). Price is dead at VWAP with fading, low-volume candles and no breakout trigger - a market long has negative expectancy and gap risk swamps any 15m edge. Size 0: wait for Monday's open to show whether buyers reclaim the coil top or the rout continues.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 853.3,
+    "expires_min": 240,
+    "note": "Reclaiming/holding above the 853 coil top on real volume proves buyers took the 15m rejection zone and validates the 4h long despite the sector pressure - flips to a trend-continuation entry toward 860+."
+  },
+  "transcript": {
+    "macro": "Regime HOSTILE-to-MIXED, risk-off. Sunday 2026-07-19: US cash CLOSED, tokenized-stock perps thin/gappy, gap risk into Monday. Fri 7/17 selloff driven by SEMICONDUCTOR rout (AI-capex/hyperscaler-cutback fears). Crypto risk-off, Extreme Fear. FOMC July 28-29 outside window. MU line: scan says long but chips were THE epicenter of Friday's selloff; crowded L/S 2.15, structure_bias -0.30 - low-conviction / smaller size.",
+    "sentiment": "MU NEUTRAL, catalyst spent. Q3 FY26 beat June 24 ($41.5B rev, Q4 guide ~$50B, HBM sold out through 2026) is month-old and priced in. Next earnings ~late Sept. Structurally bullish AI/HBM but long-horizon, not tradeable in 48h.",
+    "analyst": "4h/1h long alignment real but this is a semiconductor perp on a Sunday with cash closed; chips led Friday's selloff, MU lags peers ~33% (weakest horse), longs crowded (L/S 2.15). Dead at VWAP with fading low-volume candles, no breakout trigger - market long has negative expectancy and gap risk swamps the 15m edge. Wait for Monday open.",
+    "portfolio": "HOLD MU - bullish long signal fought by semi-sector pressure, crowded longs, worst-in-class RS, gap risk; armed long trigger above 853.3."
+  },
+  "timestamp": "2026-07-19T15:42:49.113295+00:00"
+}

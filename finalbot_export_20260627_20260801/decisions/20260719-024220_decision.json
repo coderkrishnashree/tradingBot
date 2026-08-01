@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "GOOGL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.66,
+  "playbook": "none",
+  "forecast": "Price coils 345.6-346.3 near-term; expect chop above support 341.86 with elevated squeeze risk on any bounce toward VWAP. No clean directional edge until it either loses 341.86 (fresh down-leg) or reclaims toward the VWAP band (squeeze).",
+  "expectancy_note": "Short here = late, aligned, RSI-24, -6.2% below VWAP into support 1.2% away: R:R <1 to support and squeeze risk high; learner shows aligned stretched shorts win only 0.47/-0.87. Long is a knife-catch with no reclaim. HOLD has best expectancy.",
+  "rationale": "Deeply oversold (RSI 24, ADX 90.5, -6.2% vs VWAP) with bearish divergence and support 341.86 just below - chasing the aligned short is exactly this account's #1 loss pattern (late short into stretched tape, stopped by the bounce), and the R:R to nearby support is under 1. Thin gappy Sunday tape plus binary ALPHABET EARNINGS Wed 7/22 after close (inside 72h) makes any swing hold hostile; no reversal confirmation to justify a counter-trend long. Size 0 - wait for either a support break (bounce-to-retest short) or a VWAP reclaim (squeeze) before committing risk.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 341.86,
+    "expires_min": 240,
+    "note": "Losing support 341.86 proves the oversold bounce failed and a fresh down-leg is underway - re-debate for a short on the retest of the broken level."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF/defensive. US equities closed a bad week on AI/semi capex fears. Sunday: US cash markets CLOSED, GOOGL perp thin/gappy until Monday open; size down. GOOGL scan SHORT (blended -0.46) BUT extremes: RSI 24, ADX 90.5, vwap_dist -6.2%, bearish divergence - deeply OVERSOLD/stretched, high squeeze/bounce risk. L/S 1.534 (crowded long), rel_strength -6.8%. EVENT RISK DECISIVE: Alphabet Q2 earnings Wed Jul 22 after close (inside 72h) - do NOT carry size through; backdrop HOSTILE for a swing hold.",
+    "sentiment": "GOOGL earnings Wed Jul 22 after US close dominates positioning. Street ~$2.86 EPS / ~$116.8B rev (+21% YoY), ~63% Cloud growth, beaten 4 straight quarters (high bar). Constructively bullish on AI/Cloud but pre-earnings drift/vol setup - fresh short carries elevated event risk; positioning whipsaws.",
+    "analyst": "GOOGL last 345.94, support 341.86, resistance 379.97, ATR% 0.79. RSI 24, ADX 90.5, vwap_dist -6.17%, bearish divergence, p_win_learned 0.334. Learner damning for shorts (short n=36, win 0.47, avg -0.87; weights punish vwap_dist/structure_bias/aligned). This is a stretched aligned short into support 1.2% away, thin Sunday tape, 3 days pre-earnings - textbook late-short loss pattern. Long is a knife-catch with no reclaim. NO-TRADE / HOLD.",
+    "portfolio": "HOLD GOOGL (conf 0.66) - stretched short into support + binary earnings 7/22; no clean edge either way."
+  },
+  "timestamp": "2026-07-19T02:42:20.579818+00:00"
+}

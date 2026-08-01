@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "ORCL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Thin Sunday grind chops 141-142 on near-zero volume into Monday; direction resolves at US cash open. Deeply oversold (4h RSI 27, -1.97% vs VWAP) argues a relief bounce toward 143-145 is as likely as a flush; genuine trend continuation only confirmed on a volume break of 137.63.",
+  "expectancy_note": "Shorting RSI 27 into a closed-market Sunday is the account's proven money-loser: trend shorts 41% win / -3.01 avg PnL. No honest R:R here (support only 2xATR away, weekend stops unreliable). HOLD has higher expectancy than chasing.",
+  "rationale": "ORCL is bearish structurally (blended -0.478, weakest RS -19.9%, L/S 2.16 long-heavy) but the tape is stretched-oversold and US equities are CLOSED, so this is a thin tokenized-equity proxy with dominant Monday gap risk and unreliable stops. Shorting the lows into RSI 27 is exactly the late-continuation chase that has bled this book (short win rate 45%, -1.82 avg). Better to wait: a clean break of 137.63 support opens a proper retest short, while failure there sets up the relief bounce - either way Monday resolves it. Size zero; no valid weekend entry.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 137.63,
+    "expires_min": 240,
+    "note": "Losing 4h support 137.63 on real volume confirms continuation and enables a short on the retest of broken support rather than a chase at the lows."
+  },
+  "transcript": {
+    "macro": "Regime MIXED-to-HOSTILE, defensive; hawkish Fed (Chair Warsh flagged a possible HIKE later this year). CRITICAL: Sunday 2026-07-12, US equities CLOSED so ORCL is a thin/gappy tokenized-equity proxy disconnected until Monday cash open; Monday gap risk dominates, stops unreliable, size down. ORCL macro: lean-short (bearish tape+structure, L/S 2.16 long-heavy, next report Sep 14) but Sunday illiquidity argues enter Monday not on weekend prints.",
+    "sentiment": "ORCL bearish (mod-to-high conf): -29% YTD, ~$248->$140-145 on AI capex burn ($55.7B +162%, -$23.7B FCF); narrative/positioning unwind; Q4 FY2026 already reported Jun 10 (OCI +93%) yet stock kept bleeding; no binary inside 48h; extended/oversold RSI~27 prone to violent relief bounces.",
+    "analyst": "Learner data decisive: short trades 45% win / -1.82 avg, trend shorts 41% win / -3.01 avg - late-continuation shorts bleed the book. Shorting RSI 27 on a closed-market Sunday with support only ~2xATR (137.63) below is the exact chase the rules forbid; no honest R:R and weekend stops untrustworthy. No long thesis without a real reclaim. HOLD; short becomes valid on a volume break of 137.63.",
+    "portfolio": "ORCL -> HOLD (conf 0.60): bearish bias but no tradable weekend entry; arm short below 137.63."
+  },
+  "timestamp": "2026-07-12T20:01:43.960305+00:00"
+}

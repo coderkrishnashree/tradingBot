@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "EWY/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price just waterfalled ~4% to 168.5 with 15m/30m/1h RSI all sub-27; over the next 2-6 bars expect a mean-reversion bounce toward the broken 172-173 shelf before the downtrend can resume, so both a fresh short here and a long knife-catch get whipsawed.",
+  "expectancy_note": "Shorting the breakdown into RSI<25 = the account's classic late-short-stopped-by-bounce loss; longing fights an active semi rout + DXY + overnight gap risk. No entry sits at a clean level, ATR 2.5% makes any honest stop expensive. HOLD is highest expectancy.",
+  "rationale": "EWY is the weakest name on the board (RS -14.9%) mid-waterfall: last 20 15m bars fell 175.8->168.5 and every LTF is deeply oversold (RSI 22-26). The composite long is purely a stale 4h read while every tradable timeframe is down-and-stretched. Chasing the 168.8 breakdown short means selling into exhaustion just before a bounce; longing catches a falling knife against chips/DXY with overnight gap risk on a closed name. Neither offers 1.5R without a wide, expensive stop, so wait for a retest.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 172.5,
+    "expires_min": 240,
+    "note": "A bounce back into the broken 172-173 shelf reloads a retest short into the intact downtrend."
+  },
+  "transcript": {
+    "macro": "Regime MIXED-to-CAUTIOUS. EWY is a leveraged semi/memory basket (~45% Samsung + SK Hynix) plus strong-DXY FX headwind, CLOSED overnight = most gap-prone name. Chips in an active rout (SOX -13% past month), today a countertrend bounce. No 48h binary. FOMC July 28-29.",
+    "sentiment": "EWY semis-driven, no 48h catalyst. SK Hynix record ~$26.5B ADR debut, record EWY inflows. Constructive but momentum-extended; moves with global semi tape.",
+    "analyst": "Weakest name (RS -14.9%) mid-waterfall: 15m fell 175.8->168.5, all LTF RSI 22-26. Composite long is a stale 4h read. Short the 168.8 breakdown = selling into exhaustion before a bounce; long = knife-catch + overnight gap. No clean level, ATR 2.5% = expensive stop. HOLD; retest short above 172.5.",
+    "portfolio": "HOLD EWY - no clean entry; short chases an oversold waterfall, long catches a knife into overnight gap risk. Wait for a 172.5 retest."
+  },
+  "timestamp": "2026-07-22T06:32:06.080725+00:00"
+}

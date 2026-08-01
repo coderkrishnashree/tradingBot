@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "CRCL/USDT:USDT",
+  "size": 0.0,
+  "entry": 65.2,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.58,
+  "playbook": "none",
+  "forecast": "Price is 4.2% below VWAP with 30m/1h RSI ~17 \u2014 deeply oversold on LTFs after the 66.86->64.83 flush; expect a mean-reversion bounce toward 66.0-66.5 (broken support/VWAP) over the next 2-6 bars before any trend resumption. Fresh market-short here gets stopped by that bounce.",
+  "expectancy_note": "Late trend-short into stretched LTF RSI = the account's proven loss pattern (trend playbook 45% win, -2.51 avg); honest stop >66.2 is >1.5xATR away vs oversold-bounce risk, so R:R and p(win) are both poor now. Best short is a fade of the bounce at 66.0-66.5, not a chase of the low.",
+  "rationale": "Coherent short bias (ADX 51.8 down-trend, crowded 2.47 long, RS -15.8%, structure -0.27) but price is extended: -4.21% below VWAP, 30m RSI 16.5, 1h RSI 18.0. This is a tokenized equity with US cash markets CLOSED into Monday \u2014 thin, gappy, squeeze/headline-prone. Chasing short at the low is exactly how this book's trend shorts bled; wait for the retrace. Size 0 until price either bounces to the 66.0-66.5 short zone or breaks 64.73 to confirm continuation.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 66.0,
+    "expires_min": 300,
+    "note": "A bounce to 66.0-66.5 (broken support / VWAP retest) unwinds the oversold LTFs and offers a clean trend-short entry with stop above 66.9 into the down-trend; that's the high-expectancy version of this short."
+  },
+  "transcript": {
+    "macro": "Scan 2026-07-13 ~02:57 UTC = Sunday night ET; US cash equity markets CLOSED until Monday \u2014 tokenized equity perps thin/wide/gap-prone (dominant fact). Broad tape mildly risk-on but choppy; hawkish FOMC-minutes tail + oil bid on Iran ceasefire 'over' = weekend gap risk; no CPI/FOMC in 48h. CRCL last ~65.2, funding ~0, long/short 2.47 (crowded long -> contrarian bearish), orderbook +0.11 (mild bid), structure_bias -0.27, ADX 51.8 (strong down-trend), RS -15.8% vs BTC, higher beta (BTC corr ~0.54; crypto tape can whip it). Verdict: MIXED-to-HOSTILE for fresh entries \u2014 short bias coherent but illiquid weekend gap + binary headline/squeeze risk; size smaller.",
+    "sentiment": "CRCL mixed/choppy. Stock ~$65, back near $31 IPO price, ~68% off June peak. Whipsaw: OCC national trust-bank charter approval (~Jul 9) popped ~13%, called overdone; Goldman cut PT to $96 (Neutral); ARK bought 218K shares Jul 9; Compass Point cut PT to $55 on Stripe competition; stock swung $65\u2013$73 intraday Jul 12. No imminent binary in 48h (next earnings Aug 18; IPO lockup already expired Dec 2 2025). Fed rate-cut expectations a slow drag on stablecoin float income. Net neutral-to-slightly-negative for the short; news-driven name, short can be squeezed on any stablecoin/crypto-policy headline over the weekend.",
+    "analyst": "Short bias coherent (ADX 51.8 downtrend, L/S 2.47 crowded long, RS -15.8%, structure -0.27) but price is extended: -4.21% below VWAP, 30m RSI 16.5, 1h RSI 18.0 after the 66.86->64.83 flush; last bar closed on its low. Market-short into stretched LTF RSI is this book's proven loss pattern (trend playbook 45% win, -2.51 avg), honest stop >66.2 is >1.5xATR away. Tokenized equity, US cash CLOSED = thin/gappy/squeeze-prone weekend. HOLD; reconsider a fade on a bounce to 66.0-66.5 or a break of 64.73 for continuation.",
+    "portfolio": "CRCL/USDT:USDT \u2014 HOLD (conf 0.58): right direction, extended entry; oversold LTFs + illiquid weekend gap/squeeze risk. Reconsider on bounce to 66.0-66.5."
+  },
+  "timestamp": "2026-07-13T03:01:34.052700+00:00"
+}

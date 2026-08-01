@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "GOOGL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price coils on 351.78 support after a stretched drop; 15m bounce to 353.95 already fading back to 352.73. Expect chop 351.5-354 into tonight's CPI; no clean directional move until support breaks or the bounce reclaims 354.",
+  "expectancy_note": "No honest R:R either side: short at RSI 14.5 on the lower band invites a mean-revert bounce that hits any stop (account's aligned high-ADX shorts win only 45%, avg -1.85R); long is a knife-catch vs -0.387 bearish structure. HOLD is highest expectancy.",
+  "rationale": "GOOGL is deeply oversold (4h RSI 14.5, %B 0.03, stoch 12) sitting exactly on 351.78 support with ADX 62 confirming a strong downtrend \u2014 the definition of stretched-into-support where chasing the short is the account's #1 loss pattern (learner: aligned high-ADX shorts = losers). The bounce off support is already fading, so no long confirmation either, and June CPI lands after-hours tonight (binary gap risk on a thin tokenized book). No trade offers a clean 1.5R to a near structural target; wait for the break or the reclaim. Size 0.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 351.4,
+    "expires_min": 240,
+    "note": "A decisive break/hold below 351.78 support voids the oversold-bounce thesis and opens trend continuation \u2014 re-debate a short on the retest of broken support turned resistance."
+  },
+  "transcript": {
+    "macro": "RISK-OFF/defensive. Mon Jul 13 Nasdaq -1.55%, S&P -0.79%; chips led down. Trump Hormuz blockade, oil spiked. June CPI tonight after-hours \u2014 binary gap risk on thin tokenized book; do not be oversized. GOOGL: last 352.73, structure_bias -0.387 (bearish), funding +0.000289 (mild long-lean \u2192 contrarian), L/S 1.45, orderbook -0.453. DEEPLY OVERSOLD: 4h RSI 14.5, 1h RSI 26, ADX 62.5, bb_pctb 0.03 pinned to lower band, sitting ON support 351.78. Structure supports shorts but chart stretched \u2014 do NOT chase short at the band. Earnings Jul 22 (outside 48h). RS vs BTC +1.66%.",
+    "sentiment": "GOOGL neutral-to-soft, NO 48h catalyst. Next earnings Q2 Wed Jul 22 (outside window). Fresh low-magnitude: from Jul 13 UK designated Google Cloud a 'critical third party' to the financial sector (BoE/PRA/FCA) \u2014 incremental, not a share shock. Down ~12% from May 18 $408 ATH; 'worst day in a year' late June on senior AI-talent departures (Gemini-behind narrative) \u2014 largely priced. DOJ Chrome divestiture appeal ongoing (slow). Risk is BOUNCE not fresh bad news. Near-term news NEUTRAL.",
+    "analyst": "Learner stats confirm restraint: shorts 26 trades @ 46% win, avg -1.6; high-ADX trades (n=29) win 45%, avg -1.85; model weights strongly negative on adx (-0.35), aligned (-0.523), structure_bias (-0.345) \u2014 aligned high-ADX shorts (this exact GOOGL setup: aligned=true, ADX 62.5) have been LOSERS. Shorting an RSI-14.5 asset pinned to the lower band on 351.78 support is the exact bleed pattern; long is a knife-catch vs -0.387 structure and ADX 62 with CPI binary tonight. No honest R:R either way. HOLD, size 0; arm short-reconsider on a decisive break below 351.4.",
+    "portfolio": "GOOGL \u2014 HOLD (oversold-into-support; account history proves aligned high-ADX shorts lose here, no long confirmation, CPI gap tonight; armed to re-debate a short below 351.4)."
+  },
+  "timestamp": "2026-07-14T07:33:12.103703+00:00"
+}

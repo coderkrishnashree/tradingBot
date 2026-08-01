@@ -1,0 +1,24 @@
+{
+  "action": "hold",
+  "symbol": "ORCL/USDT:USDT",
+  "size": 0.0,
+  "entry": 132.91,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.34,
+  "rationale": "ORCL is dead-center in its range at VWAP with ADX<25, timeframes fighting, and volume evaporated into a tight coil \u2014 no tradable level within reach and no momentum to express. The crowded-long book (L/S 2.36, structure_bias -0.33) plus 4h downtrend give a mild bearish lean, but a break of the 132.24 base is required to make a short honest; a market entry now gets chopped. Size 0 until the range resolves.",
+  "transcript": {
+    "macro": "OVERALL risk-on tech-led US tape (megacaps led) but tokenized book crowded LONG (L/S 2-3.5) overbought -> contrarian caution, favor shorts on laggards. TSMC earnings Thu Jul 16 binary. Off-hours thin. ORCL: neutral/conflicted \u2014 132.91, mixed TFs (30m/1h long, 4h short, bullish divergence), composite long but not aligned (0.8), heavily crowded long L/S 2.36, structure_bias -0.33, lags BTC -19.1%; no imminent 48h catalyst, mostly Nasdaq-beta/AI-sentiment.",
+    "sentiment": "OVERALL risk-off, event-heavy (US-Iran/Hormuz, AI-semi peak-out rout, KOSPI bear market); AI-spend narrative under attack. ORCL: BEARISH lean \u2014 at/near 52-week low after post-earnings ~6% drop; despite strong beat (EPS $2.11, IaaS +93%), market punishing negative FCF (-$23.7B) and 162% capex surge on AI/debt fears. No earnings catalyst in-window; sentiment fragile, tracks AI-spend narrative currently under attack.",
+    "analyst": "15m ran to 134.2, rolled to 132.29, bounced to 133.46, dead-flat coiling 132.6-133.0 for ~10 bars on collapsing volume; last close 132.91 mid-range. Textbook chop: ADX 23.6 (no trend), price pinned at VWAP, %B 0.47 dead-center, TFs fighting, volume dried up. Support 127.65 ~4% below, resistance 149.29 ~12% above \u2014 no level to trade against. Learner: shorts bled (47%, -1.59), range playbook 33%. HOLD; break of 132.24 base opens a clean short.",
+    "portfolio": "ORCL: HOLD (0.34) \u2014 no-edge VWAP chop, mild bearish lean; wait for 132.24 base break to short toward 130/127.65."
+  },
+  "forecast": "Price is coiling flat 132.6-133.0 right at VWAP on collapsing volume; over the next few bars it drifts sideways in this micro-range with no impulse until it either loses 132.24 (base break -> flush toward 130.0/127.65) or reclaims 134.20 (resume 30m/1h uptrend). No edge until one side breaks.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 132.24,
+    "expires_min": 240,
+    "note": "Losing the coil base confirms the 4h-short + crowded-long thesis and opens a clean short toward 130.0/127.65; until then price is pinned at VWAP with no edge."
+  },
+  "timestamp": "2026-07-15T23:05:50.051463+00:00"
+}

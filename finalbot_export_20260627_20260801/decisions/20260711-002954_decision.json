@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "AAPL/USDT:USDT",
+  "size": 0.0,
+  "entry": 315.58,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.55,
+  "playbook": "none",
+  "forecast": "Pinned 315.0-316.0 on dead weekend liquidity; last bar poked 316.68 and failed back to 315.58 \u2014 expect continued chop under the 316.77 resistance until Monday's cash open, no clean directional move inside the window.",
+  "expectancy_note": "Long entry sits ~$1.2 under resistance vs a ~$1.7 honest stop -> R:R <1.5 to TP1; stoch 85.7 + failed resistance poke = chasing (account's trend book is 44% win / -2.89R). No confirmed breakdown to short a bid-heavy, RS-leading tape. Best expectancy is flat.",
+  "rationale": "AAPL composite is long but weak on higher TFs (1h 0.281, 4h 0.137) and price is stalled directly beneath 316.77 resistance after a failed poke that closed back at 315.58 \u2014 a rejection, not a breakout. The last 14 candles are near-zero-volume weekend drift, so any entry now is a Monday-gap bet on thin liquidity, not a trend trade, and no honest 1.5R exists in either direction. Sitting flat with an armed breakout trigger is the highest-expectancy choice; size 0.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 316.77,
+    "expires_min": 240,
+    "note": "A 15m close above 316.77 on real volume confirms the resistance break and reactivates the aligned long toward a measured move ~319."
+  },
+  "transcript": {
+    "macro": "Regime NEUTRAL, leaning cautious. S&P500 +0.42% (7,575), Nasdaq +0.29% (26,282) Jul 10; index +>1% on week (NVDA +4%, META +15%) but choppy 1%+ swings. US-Iran (Strait of Hormuz strikes, ceasefire) = risk-off tail. Crypto soft, BTC ~$64.1k -27% YTD. BINDING: weekend, US cash closed ~2.5 days -> perps drift thin then Monday-open gap; any position now is a weekend-gap bet -> size down. AAPL: composite LONG conf 52.5%, aligned all 5 TFs, RS +6.94% vs BTC (leading), btc_corr only 0.265, funding 0, structure_bias +0.162 (bid-heavy), but stoch 85.7 stretched, res 316.77 / sup 305, earnings Jul 30 (outside window). Slight long tilt, half-size at most.",
+    "sentiment": "AAPL mildly bullish / neutral. Earnings Jul 30 AC (outside 48h). Slow-burn constructive news: $1.5B Broadcom deal thru 2031; exploring Chinese memory suppliers amid iPhone 18 memory cost spike; JPM PT $325->$345. Stock ~$315-317 pressing resistance, retail moderately bullish, valuation rich ~38x. No hard catalyst inside 48h -> treat as technical trade, not catalyst trade.",
+    "analyst": "Nominal long (aligned TFs, bid-heavy book, AAPL leading BTC +6.94%) but entry trapped: spot 315.58 jammed ~$1.2 under 316.77 resistance while an honest stop below the 314.4 swing needs ~$1.7, so R:R fails the 1.5 minimum. Stoch 85.7 + last bar's failed poke to 316.68 closing back at 315.58 = chasing a stretched level (account trend book 44% win / -2.89R). 14 dead micro-volume weekend candles, US cash closed ~2.5 days -> entering now is a gap bet not a trend bet. No short edge vs bid-heavy RS-leading tape with no confirmed breakdown. HOLD, breakout trigger armed at 316.77.",
+    "portfolio": "AAPL/USDT:USDT -> HOLD (conf 0.55): aligned-long but trapped under 316.77 resistance with no honest 1.5R into a dead weekend tape; flat, trigger armed on a clean break above 316.77."
+  },
+  "timestamp": "2026-07-11T00:29:54.886091+00:00"
+}

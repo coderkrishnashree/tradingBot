@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "GOOGL/USDT:USDT",
+  "size": 0.0,
+  "entry": 349.28,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.4,
+  "playbook": "none",
+  "forecast": "Coil at 349-350 resolves in one of two ways: a break below 348.26 flushes toward 346/support 341.86, or the deeply oversold 30m/1h RSI (~24) snaps back toward VWAP ~352. From here it stays chop-bound 348.3-350.7 over the next 2-4 bars.",
+  "expectancy_note": "p(win) on a fresh short ~0.42 (learner-confirmed loser), R:R poor: any bounce toward VWAP hits stop before support; chasing RSI-24 into an earnings binary is negative-expectancy.",
+  "rationale": "Composite is short but 30m/1h RSI ~24 means the down-move is already stretched and the last 8 bars coil flat with drying volume \u2014 classic late-short trap where a bounce stops you out (the account's #1 loss pattern), and p_win_learned 0.424 confirms this condition loses. Price is only -0.82% from VWAP so there is no extended-fade edge either, and earnings tomorrow after close forbid any carry. Best expectancy is to wait for the coil to break: a clean loss of 348.26 gives a same-session momentum short toward 341.86, otherwise stand aside.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 348.26,
+    "expires_min": 240,
+    "note": "losing the coil low confirms the down-leg resumes for a same-session flush toward 346/341.86; a fresh short only earns edge once momentum breaks, not while RSI sits at 24 in a flat coil"
+  },
+  "transcript": {
+    "macro": "Regime RISK-ON, Nasdaq-led (+1.36%), Fed-week grind, firm real yields (DXY ~105.4, 10Y mid-4%), live hawkish tail (~16.6% hike odds July 28-29 FOMC), Iran/oil risk-off trigger. GOOGL last 349.28, env MIXED/caution: scan composite SHORT (-0.577, 61% conf), 30m/1h RSI ~24 (stretched down), rel-strength -13.6% (clear laggard), structure_bias -0.243, L/S 1.763 (crowded long, contrarian supports short), funding negligible. Earnings TOMORROW Wed 7/22 after close is a hard no-carry \u2014 short is same-session only.",
+    "sentiment": "GOOGL earnings Wed 7/22 AFTER close \u2014 imminent binary, single biggest catalyst; expect after-hours gap/vol spike. Consensus ~$2.87-2.90 EPS, ~$117B rev; focus Cloud + AI monetization vs ~$185B capex. Recent tape mildly heavy ($4.67B EU fine, DMA orders, Gemini 3.5 Pro delay) but +3.4% July 20. Overhangs (DOJ appeal, breakup ruling) long-horizon. Tilt: event-driven/two-sided, do not hold naked into the print.",
+    "analyst": "Composite short but 30m/1h RSI ~24 = down-move already stretched; last 8 bars coil flat with drying volume = late-short trap. p_win_learned 0.424 confirms this short condition loses. Only -0.82% from VWAP so no extended-fade edge. Earnings tomorrow forbid carry. Wait for coil break below 348.26 for a same-session momentum short toward 341.86; otherwise stand aside.",
+    "portfolio": "HOLD GOOGL (conf 0.4) \u2014 no positive-expectancy entry; arm short below 348.26."
+  },
+  "timestamp": "2026-07-21T19:01:30.808060+00:00"
+}

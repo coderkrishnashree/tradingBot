@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "MSTR/USDT:USDT",
+  "confidence": 0.6,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "none",
+  "forecast": "Price coils between the 92.48 flush low and the 95.4 shelf over the next 2-6 bars; higher-lows base (92.77>93.08>93.27) on fading volume suggests a drift toward 94.7-95.4, but a fresh BTC leg down cracks 92.48 and reopens 91/89.",
+  "expectancy_note": "No clean R:R either way: shorting RSI 23 / -6.76% below VWAP with bullish divergence + 5m long +0.875 is chasing into squeeze risk; longing is a counter-trend knife-catch vs a risk-off tape at btc_corr 0.79.",
+  "rationale": "MSTR is the most-crushed proxy (rel_str -14.47), deeply oversold (RSI 23, stoch 12), >1.5xATR below VWAP with a flagged bullish divergence and a 5m long score of +0.875 - the single highest squeeze-risk name in the set per the macro note. The last eight 15m bars printed higher lows off the 92.48 flush low on collapsing volume, a stabilizing base that makes a fresh short a chase and a long a knife-catch against a risk-off, oil-shock tape. With structure_bias only -0.078 (crowd not even crowded) there is no edge to either side; the highest-expectancy move is to stand aside until price picks a direction out of the 92.48-95.4 range.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 92.48,
+    "expires_min": 240,
+    "note": "Losing the post-flush higher-low base confirms sellers back in control and lets me short WITH the risk-off trend without chasing the oversold extreme; a reclaim of 95.4 flips me long the squeeze."
+  },
+  "transcript": {
+    "macro": "RISK-OFF regime supportive of shorts: S&P -0.5%, Nasdaq -1.2%, semis-led selloff on fresh US-Iran escalation; WTI/Brent +6%, firms USD. BTC ~$62k. Coordinated flush ~11:00-11:15 UTC. No top-tier US macro print inside 48h - tape risk headline/geopolitical (de-escalation SQUEEZE risk); smaller size on high-beta proxies (MSTR/COIN/HOOD). MSTR-specific: HIGHEST-beta BTC proxy (btc_corr 0.79), ATR 4.0%, ADX 66, RSI 23 deeply oversold with BULLISH divergence, rel_strength -14.5 (worst laggard), structure_bias -0.08 (L/S 1.28, book flat - weak). Direction (short) aligns with regime but most stretched/oversold name with 5m long +0.875 = highest squeeze risk of the set.",
+    "sentiment": "MSTR: bounced ~29% off late-June $82 low to low-$90s. 7/2 new Digital Credit Capital Framework - $1B buyback authorization, USD reserve policy, selective BTC monetization; also a cited defense contract (+10%). Added 520 BTC (holdings 847,363). Bounce on fading volume/negative money flow = fragile. Highest-beta BTC proxy, tracks BTC 1:1.",
+    "analyst": "Most-crushed, most-oversold proxy with a flagged bullish divergence and 5m long +0.875 - shorting here chases into the highest squeeze risk of the set; longing is a knife-catch vs a risk-off tape at btc_corr 0.79. Higher-lows base off 92.48 on collapsing volume, no edge either side. HOLD; short a loss of 92.48, long a reclaim of 95.4.",
+    "portfolio": "HOLD MSTR - highest squeeze-risk name; stand aside until the 92.48-95.4 range resolves, then trade the break (short 92.48 / long 95.4)."
+  },
+  "timestamp": "2026-07-08T11:29:46.964815+00:00"
+}

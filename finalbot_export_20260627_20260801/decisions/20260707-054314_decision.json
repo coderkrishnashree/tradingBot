@@ -1,0 +1,27 @@
+{
+  "action": "hold",
+  "symbol": "INTC/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "expectancy_note": "Short = negative EV: oversold (RSI25, %B<lower band, stoch19.8) sitting ON support 116.90 into a bullish AI/foundry tape (+3%, PT$200), pre-US-open thin tape; long = falling-knife with no reclaim yet. Both edges low; HOLD is highest EV.",
+  "rationale": "Tokenized equity: crypto structure (funding/OI/L-S) is not meaningful, and the scan's own short is NON-aligned (align 0.95, conf 32%). Price is stretched 3.6% below VWAP, below the lower Bollinger band, RSI 25, and pinned just 1.7% above support 116.90 while the news tape is strongly bid (HSBC $200) and 5m is already ticking up (+0.18, RSI 66.7) - a poor spot to press a short and no confirmation to buy a knife before cash open. Wait for the level to resolve rather than pay the spread on a coin-flip.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 116.9,
+    "expires_min": 240,
+    "note": "A decisive break of support 116.90 breaks the last floor and re-validates the trend-continuation short with real room to run; until then oversold + bullish tape argue against selling here."
+  },
+  "transcript": {
+    "macro": "Overall MIXED, modestly risk-on. July 6 clean risk-on. Headwind: DXY >100, dot plot projected HIKE. Timing: scan ~05:37 UTC pre-US-open, thin overnight tape, 15/30m stale down-scores; wait for cash open. long/short >1 -> mild contrarian caution. INTC: last 118.98, CONFLICTED - scan says short (RSI 25 oversold, bearish divergence) YET news tape strongly bullish (+3% AI/foundry, HSBC PT doubled to $200); short fights the fundamental wind and risks a snap-back; earnings Jul 23 outside window; if anything a mean-reversion long candidate.",
+    "sentiment": "Q3 rotation out of semis/tech (INTC a semi in same drawdown, RSI 25, VWAP -3.6%) BUT tape constructive (AI/foundry deals, HSBC PT $200), stock +3.2% Jul 6; earnings Jul 23 OUTSIDE window; short is a tape/technical play not news-driven; news argues AGAINST pressing the short hard given the bid under it.",
+    "analyst": "Tokenized equity - crypto structure not meaningful; scan short is NON-aligned (align 0.95, conf 32%). Stretched 3.6% below VWAP, below lower band, RSI 25, stoch 19.8, pinned 1.7% above support 116.90 while tape is strongly bid (HSBC $200) and 5m already ticking up (+0.18, RSI 66.7). Shorting here = negative EV; buying a knife pre-open has no confirmation. HOLD; short re-arms on a decisive break below 116.90.",
+    "portfolio": "HOLD INTC - oversold on support fighting a bullish AI/foundry tape; short re-arms only below 116.90."
+  },
+  "timestamp": "2026-07-07T05:43:14.732984+00:00"
+}

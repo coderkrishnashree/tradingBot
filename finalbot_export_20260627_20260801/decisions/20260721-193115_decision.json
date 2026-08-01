@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "GOOGL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Coils 348-351 near-term; no clean directional edge before the July 22 after-close print. Expect chop into resistance 352-354 or a fade toward 346, but the earnings gap (coin-flip) dominates the next 48h.",
+  "expectancy_note": "Short is chasing: 1h RSI 25.2 oversold, bb_pctb 0.476 mid-band, 15m/5m flat, p_win_learned 0.413 - no >1.5R short at 349.7 without a sub-1xATR stop, and a binary earnings event caps any edge. HOLD > forced short.",
+  "rationale": "4h is down (-0.887) but momentum has faded on lower timeframes (1h RSI 25.2 already oversold, 15m/5m flat, price coiling 348-351) - market-shorting here is the late-into-stretched-tape entry this account bleeds on, with no honest 1.5R. Decisively, Alphabet reports after close July 22, a binary inside the 48h window; a beat can squeeze violently. Size zero.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 341.86,
+    "expires_min": 240,
+    "note": "Losing 4h support 341.86 confirms the down-trend with room to run before the print - a clean short trigger rather than chasing mid-range."
+  },
+  "transcript": {
+    "macro": "Regime MIXED, tilting risk-on but fragile. Nasdaq +1.3%, tech leading into megacap earnings; crypto bid. 48h landmines: Alphabet reports after close July 22 (complex-wide read-through); hawkish Fed (~80% Dec hike odds), Middle East tensions. Funding ~zero on tokenized equity perps -> long/short negatives are noisy, not real crowding. Liquidity only real during US cash hours. GOOGL: NEUTRAL/avoid new size - scan short (blended -0.58, RS -13.6% vs BTC, 4h down) but binary earnings inside 48h override the setup.",
+    "sentiment": "GOOGL HIGH RISK, imminent binary. Reports Q2 July 22 ~4:30pm ET (consensus ~$116.9B rev / ~$2.90 EPS, cloud the swing). Weak into print: fell ~4% July 16 on Gemini 3.5 Pro delays; fresh EUR4.67B EU antitrust fine/DMA order. Negative tone, earnings gap coin-flip - argues against holding directional risk over the event. A beat could squeeze violently.",
+    "analyst": "4h down but LTF faded (1h RSI 25.2 oversold, 15m/5m flat, price coiling 348-351). Shorting here chases into stretched tape with no honest 1.5R; p_win 0.413 confirms low edge. Alphabet earnings July 22 after close is a binary both macro and sentiment flag as override-worthy. Clean HOLD, size zero. Reconsider short on a clean loss of support 341.86.",
+    "portfolio": "HOLD GOOGL - no honest R:R short and binary earnings tomorrow caps conviction; stand aside."
+  },
+  "timestamp": "2026-07-21T19:31:15.301576+00:00"
+}

@@ -104,18 +104,22 @@ def fetch_ticker(symbol: str) -> dict:
 _closed_cache = {"ts": 0.0, "mode": None, "data": []}
 
 
+CLOSED_LOOKBACK_DAYS = 35   # how far back the dashboard/learner see closes
+
+
 def fetch_closed_trades(symbols, per_sym: int = 100) -> list[dict]:
     """Bybit closed-PnL (realized) records across the given symbols, newest first.
-    Cached for 60s so frequent pollers (portfolio/stats) don't spam the API."""
+    Cached for 60s so frequent pollers (portfolio/stats) don't spam the API.
+
+    IMPORTANT (2026-08 fix): the v5 closed-pnl endpoint only returns ~the LAST
+    7 DAYS when called without startTime — which silently made the dashboard's
+    realized P&L, win rate and the learner's labels a one-week window. We now
+    walk the last CLOSED_LOOKBACK_DAYS in explicit <=7-day windows."""
     import time
     now = time.time()
     if (_closed_cache["data"] and _closed_cache["mode"] == mode_manager.mode
             and now - _closed_cache["ts"] < 60):
         return _closed_cache["data"]
-    # ONE unfiltered, paginated call for the whole account instead of a
-    # per-symbol loop. The old loop was capped at the first 8 symbols, so with
-    # a 21-pair universe any close on pair #9+ silently never appeared in the
-    # dashboard or the realized-P&L totals.
     out = []
     want = set(symbols or [])
     try:
@@ -141,21 +145,34 @@ def fetch_closed_trades(symbols, per_sym: int = 100) -> list[dict]:
                 client.load_markets()
             id_map = {m.get("id"): s for s, m in (client.markets or {}).items()
                       if m.get("linear")}
-            cursor = None
-            for _ in range(5):                      # up to 500 records
-                params = {"category": "linear", "limit": 100}
-                if cursor:
-                    params["cursor"] = cursor
-                resp = client.private_get_v5_position_closed_pnl(params)
-                res = resp.get("result", {}) or {}
-                for it in res.get("list", []) or []:
-                    sym = id_map.get(it.get("symbol")) or it.get("symbol")
-                    if want and sym not in want:
-                        continue
-                    out.append(_row(it, sym))
-                cursor = res.get("nextPageCursor")
-                if not cursor:
-                    break
+            now_ms = int(now * 1000)
+            start_ms = now_ms - CLOSED_LOOKBACK_DAYS * 86_400_000
+            win_ms = 6 * 86_400_000            # Bybit caps the window at 7 days
+            seen_ids = set()
+            t0 = start_ms
+            while t0 < now_ms:
+                t1 = min(t0 + win_ms, now_ms)
+                cursor = None
+                for _ in range(10):            # up to 1000 records per window
+                    params = {"category": "linear", "limit": 100,
+                              "startTime": t0, "endTime": t1}
+                    if cursor:
+                        params["cursor"] = cursor
+                    resp = client.private_get_v5_position_closed_pnl(params)
+                    res = resp.get("result", {}) or {}
+                    for it in res.get("list", []) or []:
+                        key = (it.get("orderId"), it.get("updatedTime"), it.get("symbol"))
+                        if key in seen_ids:
+                            continue
+                        seen_ids.add(key)
+                        sym = id_map.get(it.get("symbol")) or it.get("symbol")
+                        if want and sym not in want:
+                            continue
+                        out.append(_row(it, sym))
+                    cursor = res.get("nextPageCursor")
+                    if not cursor:
+                        break
+                t0 = t1
         except Exception:
             # Fallback: per-symbol loop over ALL requested symbols (no cap).
             out = []

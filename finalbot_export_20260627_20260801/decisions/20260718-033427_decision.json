@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "MSFT/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.4,
+  "playbook": "none",
+  "forecast": "Dead weekend tape: MSFT chops 393.5-395.2 on near-zero volume with US market closed; no directional resolution until Monday cash open. A break below 393.5 opens a slide toward 388/378 support; a reclaim of 395.2 flips the intraday short-lean neutral-to-long.",
+  "expectancy_note": "p(win) ~0.45 for a mid-range short; R:R poor with no level at hand; shorts win only 47% (avg -0.87R) for this book and 5m RSI 14 invites a bounce that stops late shorts. HOLD beats forcing it.",
+  "rationale": "Price sits on VWAP (-0.72%) and mid-Bollinger (%B 0.446) with ADX just 25 in zero-volume weekend tape (US market CLOSED, OI only 4,612 = thin/gappy). The crowded-long 1.648 L/S is a real contrarian short edge but only pays at resistance (~406) or on a fresh break of support (378) \u2014 not mid-range. Shorting into 5m RSI 14 risks the exact counter-bounce that kills this account's late shorts (47% win, -0.87R). No honest 1.5R short exists here; wait for the level.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 393.5,
+    "expires_min": 240,
+    "note": "Loss of the 393.5 weekend shelf confirms the crowded-long squeeze-lower and opens a clean short toward 388/378 with structure-defined stop above 395."
+  },
+  "transcript": {
+    "macro": "HOSTILE-to-MIXED for longs, MILDLY SUPPORTIVE for shorts. US cash equity CLOSED (Sat 18 Jul) \u2014 perps thin/gappy until Monday. Risk-OFF into weekend: S&P500 -1.0% Fri (7,457), Nasdaq -1.4% (25,520); week S&P -1.6%, Nasdaq -2.9%, semis led down on AI-capex fears + Netflix -11%. MSFT: structure_bias -0.181 from crowded L/S 1.648 (retail net-long into weak tape = contrarian negative), funding 0.0, OI tiny 4,612. Rel strength -1.4% vs BTC, RSI 43.8, ADX 25.2, 5m RSI 14 stretched-oversold. Past earnings (Jul 13) \u2014 no event risk. Cleaner short candidate but low conviction; size SMALLER.",
+    "sentiment": "MSFT (SHORT candidate, scan ~394): cautiously constructive but macro-buffeted. ~$190B 2026 AI/Azure capex + 4,800 job cuts weighed early July, but MSFT showed relative strength +2.8%/+1.8% (to ~$402) Jul 15-16 on 'valuation discount' bid even as Nasdaq sold off. NO \u226448h binary \u2014 Q4 FY2026 earnings Wed Jul 29 (after close), ~11 days out. Near-term news neutral-to-mild-headwind for a short (stock catching a valuation bid, outperforming weak tape). Broad soft tape = modest tailwind for short side.",
+    "analyst": "Not a tradeable setup. Price at VWAP (-0.72%), mid-BB (%B 0.446), ADX barely 25, dead-volume weekend chop with US markets closed. No extended move to fade, no clean level tested, 5m RSI 14 = intraday oversold \u2192 shorting risks the exact bounce that stops out late shorts (account's #1 loss pattern; shorts 47% win, -0.87R). Crowded-long contrarian short is a real edge but needs price at resistance (~406) or a fresh break of support (378) to express, not mid-range on zero volume. HOLD, arm a trigger: break below 393.5 confirms the squeeze; reclaim above 395.2 kills the short-lean.",
+    "portfolio": "MSFT/USDT:USDT \u2014 HOLD (conf 0.40); stand aside on dead weekend tape, arm short trigger below 393.5."
+  },
+  "timestamp": "2026-07-18T03:34:27.772697+00:00"
+}

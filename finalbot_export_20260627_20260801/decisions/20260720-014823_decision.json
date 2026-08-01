@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "EWY/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.34,
+  "playbook": "none",
+  "forecast": "Choppy fade continues: last five 15m bars rolled over from the 167.85 rejection back to 164.3, closing near the low; expect drift/chop 163.5-165.5 with gap risk at cash open rather than a clean directional move.",
+  "expectancy_note": "No edge: scan-long (36.8% conf, aligned=false) conflicts with RISK-OFF semi de-rating and 0.78 MU corr; tape is a fade not a pullback, R:R undefined with no level nearby.",
+  "rationale": "EWY is a semi-heavy KR ETF importing the chip selloff (corr 0.78 MU, 0.72 QQQ) into a RISK-OFF weekend with US markets closed and gap risk. The scan's long is the weakest on the sheet (conf 36.8%, aligned=false, structure_bias -0.11), and the mid-TF candles show a rejection at 167.85 fading back to 164.3 with the last bar closing near its low \u2014 momentum rolling over, not a constructive pullback. Mid-range with no level within 1xATR and two-way headline risk means negative expectancy either direction; wait for confirmation.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 167.0,
+    "expires_min": 240,
+    "note": "Reclaiming and holding above the 166.6-167.0 rejection shelf proves the fade failed and buyers regained control."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF (2026-07-20 Mon), semiconductor de-rating. US equity market CLOSED (weekend) \u2014 thin/gappy, gap risk. EWY is a semi-heavy index (Samsung/SK Hynix), corr to QQQ 0.717 / MU 0.783 \u2014 imports the chip selloff. Headwind. Scan direction LONG (conflicts with the semi headwind).",
+    "sentiment": "EWY extremely volatile \u2014 KOSPI +6-7% on soft CPI, but BoK just hiked to 2.75% (first since 2023), briefly tipping into a bear market. Whippy, headline-driven, gap-prone off-hours. High two-way risk, no clean directional catalyst.",
+    "analyst": "Scan says long but confidence is weakest of the sheet (36.8%), aligned=false, and the mid-TF story is a rejection at 167.85 fading back to 164.34 with the final bar closing near its low \u2014 momentum rolled over intraday. US market closed/gappy, RISK-OFF semi de-rating, EWY imports the chip selloff (corr 0.78 MU). Scan-long conflicts with the semi headwind and the tape is a fade, not a constructive pullback. No edge either direction, two-way gap risk. HOLD.",
+    "portfolio": "HOLD \u2014 weakest scan-long vs semi headwind, tape rolling over; watch 167 reclaim."
+  },
+  "timestamp": "2026-07-20T01:48:23.657145+00:00"
+}

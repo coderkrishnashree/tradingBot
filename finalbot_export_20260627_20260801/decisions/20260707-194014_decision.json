@@ -1,0 +1,25 @@
+{
+  "symbol": "MSTR/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.35,
+  "size": 0,
+  "entry": 98.66,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "forecast": "Chop/base between 97.5 and 100 over the next 2-4 bars; last bar bounced off 97.47 support, so no clean edge until price either breaks the 97.5 base (short resumes toward ~94) or reclaims 100.5-101.7 (squeeze underway).",
+  "rationale": "MSTR is the lowest-conviction short of the group (30.6%) and a near-pure BTC-beta echo (corr 0.806, rel-strength -15.8% already a heavy laggard), meaning much of the downside is spent. Price is extended -3.88% below VWAP at the bottom of the Bollinger band and the last candle is basing/green off the 97.47 low - shorting into that, with a $1B buyback standing bid and BTC having just liquidated $450M of shorts above $62k, is chasing with poor R:R and severe squeeze risk. A fresh counter-trend long is equally unappealing into a RISK-OFF tape with US cash close ~25min away. Highest-expectancy move is to stand aside and let the base resolve.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 97.4,
+    "expires_min": 240,
+    "note": "Losing the 97.47 intraday base (last two bars' support) confirms the rollover from 103.6 resumes and opens a trend short toward ~94 with room beyond the ATR noise band."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF this session (semis-led, SMH -5%, Nasdaq -1.2%): supportive for shorts, hostile for fresh longs. US cash close ~25 min away -> gap/liquidity risk. No Fed/CPI inside 48h. Crypto two-sided: BTC ~$64k flat, $450M shorts liquidated >$62k, ETF inflows +$46.6M. MSTR: highest crypto-beta short, watch the BTC two-way - scan short conf 30.6% (lowest-ish), RSI 35, BTC corr 0.806, rel-strength -15.8% (heavy laggard, much downside spent), L/S 1.44. If BTC catches a bid, MSTR squeezes hardest of the group.",
+    "sentiment": "Overall cautious-but-stabilizing; Crypto Fear & Greed 23-27 (Fear); earnings outside horizon. MSTR: net neutral-to-cautious near-term. Jul 2 live item: new 'Digital Credit Capital Framework' - up to $1B MSTR buyback authorized, $1.25B BTC monetization, ~$3.8B liquidity reserve; stock +10% that day; Citi reaffirmed Buy/$260; added 520 BTC (holdings 847,363). The $1B buyback is a STANDING BID and squeeze risk against a short if BTC ticks up; highest BTC correlation, tracks any BTC move hardest.",
+    "analyst": "MSTR is the group's weakest short signal (conf 30.6%) and essentially a leveraged BTC proxy (corr 0.806) that's already the heaviest laggard (rel-strength -15.8%), so the easy downside is largely priced. It's -3.88% below VWAP at the bottom of its Bollinger band with the last 15m candle basing green off 97.47, while the shared context flags a $1B buyback standing bid and a BTC tape that just squeezed $450M of shorts above $62k - the highest short-squeeze risk in the group. Neither a fresh short (chasing into support with terrible R:R inside a 3.87% ATR) nor a counter-trend long (into RISK-OFF with US close/gap risk) has positive expectancy. Hold and arm a break of 97.4 to re-enter short if the base fails.",
+    "portfolio": "MSTR/USDT:USDT -> HOLD (weakest signal, highest squeeze risk), conf 0.35; short trigger armed below 97.4."
+  },
+  "timestamp": "2026-07-07T19:40:14.576372+00:00"
+}

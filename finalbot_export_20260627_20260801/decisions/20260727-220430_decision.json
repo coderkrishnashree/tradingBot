@@ -1,0 +1,25 @@
+{
+  "symbol": "CL/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.55,
+  "size": 0.0,
+  "entry": 81.99,
+  "stop_loss": 0.0,
+  "take_profit": 0.0,
+  "playbook": "none",
+  "forecast": "Deeply oversold (4h RSI 20, %B 0.07, stoch 5, -4.5% vs VWAP); 15m basing at 81.68 with higher lows into 81.99 - expect an oversold snap-back toward 83.0-83.5 over the next 2-6 bars before the downtrend resumes.",
+  "rationale": "Macro and sentiment favor shorts, but the tape is stretched (RSI 20, %B 0.07, 4.5% below VWAP) and 15m bars are already curling up off 81.68 - chasing a short here is the account's classic late-short-into-oversold loss, stopped by the reflex bounce. Dense two-way catalysts (FOMC Wed, EIA/API, GDP) add whiplash risk. Best expectancy is to let the bounce come to VWAP/prior support ~83 and short the retrace; no size until then.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 83.3,
+    "expires_min": 360,
+    "note": "A bounce into 83.0-83.5 (VWAP / broken-support-turned-resistance) is the retrace to short the downtrend with R:R>2 to 80.5; a decisive reclaim of 84+ invalidates continuation and keeps flat."
+  },
+  "transcript": {
+    "macro": "Regime MIXED, cautious. FOMC Wed Jul 29 (stronger USD = mild oil headwind, supports short), size down. CL last ~81.99, short bias: WTI fell ~7% today toward $83 after US-Iran de-escalation bled out risk premium (still +20% MTD). Scan aligns: 4h RSI 20.2, ADX 71.8 strong downtrend, orderbook -0.21, L/S 0.94 balanced (healthy for a short). Biggest risk: deeply oversold = bounce risk; chase-shorts poor R:R, wait for a retrace.",
+    "sentiment": "CL bearish/oversold, HIGH catalyst density. Price ~$82, RSI deeply oversold. Middle East supply tension vs OPEC+ output-hike/2026 glut - two-way. Cluster of <=48h catalysts: FOMC Wed, weekly API/EIA inventory, US Q2 GDP; OPEC+ meets Aug 2 (modest hike). Two-way risk elevated - any bounce could be a violent snap-back. Treat shorts with caution into prints.",
+    "analyst": "Clean downtrend + short alignment, but tape is deeply oversold and 15m already curling up off 81.68 into a bounce; market short = negative expectancy. +EV trade is a limit short on the retrace to VWAP/broken-support ~83.3, R:R>2 to 80.5. HOLD, arm short trigger at 83.3.",
+    "portfolio": "CL: HOLD (conf 0.55) - short thesis intact but oversold; wait to short the retrace ~83.3."
+  },
+  "timestamp": "2026-07-27T22:04:30.085066+00:00"
+}

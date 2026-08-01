@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "MSFT/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Thin off-hours coil 400.3-403.1 under the 406.1 cap; upper-band rejections + a weak low-close hint at a fade back toward 398-397, but no confirmation yet and HTF composite is still long - expect chop until the US open reprices it.",
+  "expectancy_note": "Short p(win) ~0.5 at best: crowded-long/heavy-sell-book/risk-off favor a fade, but ADX 23.5 (not clean range), composite+HTF are long, thin gappy book, and this account's shorts run 48% win / -0.73 avg PnL. No 1.5R edge either way now - flat is highest expectancy.",
+  "rationale": "MSFT is coiled mid-range in a thin, closed-cash-market book: composite/HTF read long while structure (L/S 1.82, orderbook -0.66) and risk-off tape read short - a genuine standoff with no confirmed trigger. Price pinned to the upper band with an overbought stoch and a weak low-close is fade-able, but ADX<25 and the -0.73 avg-PnL short history mean a market short here is low-expectancy and prone to the thin-liquidity whipsaw that kills this account. Wait for the range to resolve.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 400.3,
+    "expires_min": 240,
+    "note": "Losing the coil low confirms the upper-band rejection is turning into a real rollover in the thin book - re-debate for a short toward 397-398."
+  },
+  "transcript": {
+    "macro": "RISK-OFF regime (scan 2026-07-20 ~22:08 UTC). Nasdaq -1.4% today (-2.9% wk) on AI/semiconductor selloff (post-NVDA hangover, Samsung chip results) + Iran geopolitical risk; tech/comms/discretionary sold -> supports equity-tracker shorts. Crypto soft but orderly (no cascade): BTC ~$64-65k flat, dominance 57% (capital hiding in BTC, alts bleeding), Fear&Greed 29. DXY soft 100.7, 10Y 4.60%, soft June CPI, no Fed/CPI print in 48h. CRITICAL EXECUTION HAZARD: US cash equities CLOSED at scan time -> MSFT/QQQ/TSM/ORCL/HOOD perps thin/gappy until 13:30 UTC Tue US open; size down, real move at the open. MSFT & HOOD earnings Wed Jul 29 (outside 48h). Crypto (BTC/SOL) trades 24/7 with normal liquidity.",
+    "sentiment": "No high-weight dated binary in next 48h for any name (Jul 29 cluster: MSFT, HOOD is the next wall). MSFT neutral, -20% YTD on AI capex worries. SOL mildly bullish structurally (5 spot SOL ETFs live ~$1.12B inflows, fee cuts, Alpenglow Q3) but 0.81 corr to BTC so rides crypto risk-off; $74-75 support. BTC bearish near-term, below EMA200 (~$74.4k), MSTR sold record $216M BTC, oil>$80/Iran + hawkish Fed. QQQ neutral-to-bearish, mega-cap earnings wave looms. TSM strong Q2 beat Jul 16 (rev +36% y/y, guide raised) now digesting. ORCL bearish shock (-28%/mo, S&P downgrade on OpenAI concentration, ~21k layoffs, 52wk low ~$132) BUT RSI 25 oversold + Burry covered half his short (bounce risk). HOOD ran +37% (Agentic Trading, IPO underwriting) then pulled back ~$113->$99, profit-taking; high crypto beta amplifies risk-off.",
+    "analyst": "Coiled mid-range in a thin closed-cash book; composite/HTF long vs structure+risk-off short = standoff, no confirmed trigger. Market short here is low-expectancy given ADX<25 and the account's losing short history. Hold, short-trigger armed on loss of 400.3 coil low.",
+    "portfolio": "HOLD MSFT - no confirmed edge in thin off-hours tape; re-arm short below 400.3."
+  },
+  "timestamp": "2026-07-20T22:13:07.111812+00:00"
+}

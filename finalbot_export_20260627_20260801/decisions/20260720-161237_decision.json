@@ -1,0 +1,28 @@
+{
+  "symbol": "GOOGL/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.6,
+  "size": 0.0,
+  "entry": 356.2,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "none",
+  "forecast": "Faded pop distributing under 359-360; expect drift/chop 354-358 next few bars. A break below ~354 (VWAP) opens 351.5 then 348.3; a reclaim of 359.9 reopens the momentum long toward resistance.",
+  "expectancy_note": "No edge at snapshot: long = chasing RSI78/+2% VWAP extended after a failed pop; short = fighting ADX 83.5 uptrend with no level broken yet. Wait for 354 break or 359.9 reclaim.",
+  "rationale": "Tokenized equity, so I ignore funding and read structure as sentiment only: L/S 1.69 crowded long and orderbook -0.219 lean bearish, and the 15m tape shows a spike to 359.4 then a clean sequence of lower highs closing 356.23 near its low with 5m RSI already back to 43. That is a faded pop, not a fresh breakout, and price is +1.99% above VWAP with RSI 78 and %B>1.0 - too extended to chase either way. Sentiment is bearish into Wed after-close earnings, so I hold flat with no naked size and arm the 354 VWAP break as the trigger that converts this into a faded-pop short.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 354.0,
+    "expires_min": 240,
+    "note": "Losing VWAP/354 confirms the faded pop rolled over and opens the 351.5 then 348.3 short toward the prior breakout base."
+  },
+  "transcript": {
+    "macro": "Regime risk-on but cautious/mixed, megacap-tech-led, thin breadth; US cash open Monday. DXY ~100.8 cooling; FOMC 7/29 outside the 48h window. Whole basket crowded long into RSI-extended names = squeeze/mean-reversion risk. GOOGL (last ~356) NEUTRAL-to-supportive: sharp pop 348->359 faded to 356, RSI 78 extended, crowded long L/S 1.69; fragile momentum long only while Nasdaq green.",
+    "sentiment": "GOOGL BEARISH into event risk. Biggest <=48h catalyst on the list: Q2 2026 earnings AFTER CLOSE Wed July 22 (binary). Tape heavy on $4.67B EU Android antitrust fine, DMA orders, confirmed Gemini 3.5 Pro delay. Sentiment defensive; do NOT hold naked size through the print.",
+    "analyst": "Faded pop distributing under 359-360 with 5m RSI back to 43; +1.99% vs VWAP, RSI 78, %B>1.0 = too extended to chase. No high-expectancy entry; long chases exhaustion, short fights ADX 83.5 with no level broken. Hold flat, arm 354 (VWAP) break as the faded-pop short trigger.",
+    "portfolio": "GOOGL: HOLD flat into Wed earnings; short arms below 354."
+  },
+  "timestamp": "2026-07-20T16:12:37.589323+00:00"
+}

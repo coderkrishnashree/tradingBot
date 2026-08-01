@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "MSTR/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price is stretched +2.28% above VWAP and above the upper BB (%B 1.05) just under 102 resistance; expect a fade/pullback toward VWAP ~96.9-97.9 rather than a clean continuation, especially as BTC (0.73 corr) stalls into its own 65769 resistance.",
+  "expectancy_note": "Long = chasing an extended move into resistance with red-hot funding (0.0011, bias -0.45 crowded longs) = the account's #1 loss pattern; short = fighting ADX-51 uptrend with all TFs long. Neither offers >1.5R now.",
+  "rationale": "MSTR is the only rel-strength leader (+2.3%) but is over-extended: %B 1.047, +2.28% VWAP, 15m RSI 79, pressing 102 resistance with funding red-hot and longs crowded plus a BTC-selling narrative - a routine BTC-beta counter-bounce would stop any honest late long before trend resumes. A market long is chasing; a short fights a strong intact uptrend.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 97.85,
+    "expires_min": 240,
+    "note": "Losing the recent swing low breaks the extended up-leg and opens a pullback toward VWAP/support (~95-96), turning the setup into a short."
+  },
+  "transcript": {
+    "macro": "MIXED, leaning RISK-OFF for fresh longs (2026-07-21). Indices stalling just off highs (S&P 7,443, Nasdaq Comp 25,508), rising 10Y yields (4.55%) = headwind for tech multiples, DXY ~100.8. Earnings gauntlet inside 48h: GOOGL + TSLA after close Wed 7/22, INTC after close Thu 7/23 (no position carried through those). Tech names uniformly long-crowded (negative structure_bias). Chips are the relative-strength pocket but on a bounce, not a confirmed leg. Crude has the only fresh macro tailwind (US-Iran, Hormuz) but it's binary headline risk. Metals capped by yields (gold rejected $4,000, silver crowded-long/extended). BTC cleanest tape (benign funding, no earnings gate) but heavy overhead offers. EWJ pure QQQ/EWY beta, no independent driver. FOMC 7/29, BOJ 7/30 outside window. Size stance BELOW NORMAL - elevated gap risk into next 2 sessions.",
+    "sentiment": "Only true <=48h binaries are GOOGL (Q2 earnings 7/22 after close, elevated IV, gap expected) and INTC (Q2 earnings 7/23, options pricing ~15% move, RSI ~76). MSTR flipped to SELLING BTC (~$216M, largest since 2022) to fund dividends, stock -79% YoY - modest sentiment negative, BTC-dependent. BTC low-$65k, coiled bet on 7/28-29 FOMC ($2.5B call spreads target $72k); record June ETF outflows. XAG near 8-month lows after -6%, Sept-hike fears a headwind, no 48h catalyst. CL ~$82-83 five-week highs on US-Iran day 10 / Hormuz disruption - two-sided gap risk (possible 10-day ceasefire circulating). AAPL record ~$334 on China Apple Intelligence approval, +24% China iPhone units; earnings 7/30 (outside). MSFT earnings 7/29 (outside). TSM already reported 7/16 (rev +36% YoY, strong guide) - catalyst behind. ORCL no near-term catalyst. EWJ driver is BOJ 7/30 (outside). Everything except GOOGL/INTC/CL is pre-positioning ahead of the 7/28-30 FOMC/BOJ/MSFT/AAPL cluster - no fresh 48h mover.",
+    "analyst": "MSTR is the only rel-strength leader (+2.3%) but is over-extended: %B 1.047, +2.28% VWAP, 15m RSI 79, pressing 102 resistance with funding red-hot and longs crowded plus a BTC-selling narrative - a routine BTC-beta counter-bounce would stop any honest late long before trend resumes. A market long is chasing; a short fights a strong intact uptrend.",
+    "portfolio": "HOLD (0.60) - over-extended (+2.28% VWAP, RSI 79) into resistance, red-hot funding; no chase."
+  },
+  "timestamp": "2026-07-21T01:45:50.737120+00:00"
+}

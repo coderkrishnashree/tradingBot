@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "MU/USDT:USDT",
+  "size": 0.0,
+  "entry": 861.75,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price twice-rejected 867-868 and the last 15m bar closed on its low (861.7); expect a fade back toward VWAP/850-852 over the next 2-4 bars, not a fresh breakout. A clean reclaim of 868 would flip the read to continuation toward 880+.",
+  "expectancy_note": "No clean R:R: long is chasing a +2% bounce already extended +1.27% over VWAP into twice-rejected 867 (order book -0.84, retail L/S 2.14 crowded long); short is counter-trend into 4h RSI 34.8 + bullish divergence on thin Sunday tape. Both sub-1.5R -> flat.",
+  "rationale": "MU is an equity proxy in an active semi unwind (RS -33%), Sunday off-hours thin/gappy with real discovery at Mon cash open. The oversold-rebound has already fired into 867-868 with two rejections and a last bar closing on its low, so a market long chases the move into a heavily offered book (imbalance -0.84) with crowded retail longs - the account's #1 loss pattern. No entry offers >=1.5R to a structural first target.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 850.0,
+    "expires_min": 240,
+    "note": "Pullback to VWAP ~850 with the bullish divergence intact offers a far cleaner long entry with a tight stop under 805.8 and room back toward 867/880."
+  },
+  "transcript": {
+    "macro": "RISK-OFF/semiconductor unwind; retail crowded long semis into de-rating (contrarian bearish). Sunday off-hours thin/gappy. Capital preservation.",
+    "sentiment": "MU memory/semi, no company catalyst <=48h; follows semi tape + Korea/SK Hynix read-through. Oversold RSI ~35 = positioning washout.",
+    "analyst": "Fast ~2% oversold rebound off 849 into 867-868, rejected twice, last 15m closed on low. Contrarian-bearish structure (L/S 2.14, orderbook -0.84), +1.27% over VWAP. Long = chasing into a wall; short = counter-trend into 4h RSI 34.8 + bullish divergence. No 1.5R. HOLD, prefer 850 VWAP retest for long.",
+    "portfolio": "HOLD MU (conf 0.6) \u2014 bounce spent into rejection, wait for VWAP ~850 retest."
+  },
+  "timestamp": "2026-07-19T23:46:44.518452+00:00"
+}

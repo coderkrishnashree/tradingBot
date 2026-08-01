@@ -1,0 +1,28 @@
+{
+  "symbol": "QQQ/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.6,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "none",
+  "forecast": "Thin pre-open drift between 698.8 and 705; no honest edge until the 09:30 ET cash open. Expect chop around 700-704, with real direction only after the open and Wed GOOGL/TSLA event risk.",
+  "expectancy_note": "No positive-expectancy entry: longing above the upper BB (%B 1.05, RSI 76) into a risk-off week is a chase; shorting ADX 65 uptrend pre-open lacks confirmation. HOLD dominates both.",
+  "rationale": "Scan is 08:38 ET, before the 09:30 cash open \u2014 macro explicitly bans pre-open equity entries (thin/gappy). QQQ is overbought and extended above its upper Bollinger band into a -2.9% risk-off week with weak relative strength (-14.5%) and p_win_learned only 0.53; the +0.78 orderbook imbalance is pre-open noise, not signal. No clean long entry (would be chasing) and no confirmed short, so size is zero.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 698.83,
+    "expires_min": 180,
+    "note": "Losing the pre-open range low after the 09:30 open would confirm momentum failure from overbought and open a short into the risk-off tape."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF; AI-capex/semi scare (Nasdaq -2.9% wk); hawkish Fed; pre-cash-open thin/gappy until 09:30 ET (no pre-open equity entries). QQQ headwind: most direct proxy for the index selling off on the semi scare. RSI 76, bb_pctb 1.05 (above upper band), overbought into a down week. Least attractive long.",
+    "sentiment": "QQQ neutral-bullish but earnings-gated: strong uptrend (RSI ~76). No index-level catalyst before FOMC July 29, but GOOGL+TSLA Wed after-hours plus 135 reports drive Nasdaq direction into Thu. Fine intraday; two-sided event risk building for Wed.",
+    "analyst": "Overbought and extended above upper BB (%B 1.05, RSI 76), rel-str -14.5%, p_win 0.53; +0.78 orderbook is pre-open noise. Long = chase into risk-off; short into ADX 65 lacks confirmation. Macro bans pre-open entries. HOLD; arm short on loss of 698.83 after the open.",
+    "portfolio": "QQQ: HOLD (conf 0.60) \u2014 overbought proxy for the selling index; arm short below 698.83."
+  },
+  "timestamp": "2026-07-20T12:44:17.041596+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "CRCL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Low-volatility drift within 58.76-62.5; quiet 15m candles on drying volume suggest continued chop into the Monday US-open gap, with a bearish lean toward retesting 58.76 support over the next several bars.",
+  "expectancy_note": "No clean edge: price mid-range (not at an extreme), 15m/30m/1h all flat, weekend/thin with gap risk; account shorts lose (0.47 win, -0.87 avg) when not at a confirmed level, and longs are hostile (RSI 74, crowded 2.33, rel-str -26.6%). Best expectancy is waiting for the 58.76 break.",
+  "rationale": "CRCL is grinding sideways-to-down in the low-$60s between support 58.76 and resistance 67.49 with no momentum on any near timeframe; the composite 'long' is just a lagging 4h RSI/ADX artifact into a crowded, underperforming name. A long chases a stretched, crowded trade the macro flags as hostile; a short here isn't at the level and this account's shorts bleed when entered mid-range. Weekend thinness plus Monday gap risk makes any entry low-confidence, so I wait for structure to declare at 58.76.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 58.76,
+    "expires_min": 360,
+    "note": "Losing the 58.76 support confirms a fresh leg down toward the $55 Compass Point target and opens a clean trend-continuation short."
+  },
+  "transcript": {
+    "macro": "Cycle 2026-07-19 RISK-OFF/DEFENSIVE. US cash equity markets CLOSED (Sunday) \u2014 proxies gappy/thin, Monday gap risk. CRCL: RSI 74, ADX ~80, L/S 2.33 (crowded long), rel-str -26.6%. Extended, crowded, thin \u2014 HOSTILE for chasing longs.",
+    "sentiment": "CRCL: bearish-to-neutral, headline overhang. Collapsed from ~$138 (May) to low-$60s after Coinbase+BlackRock 'Open USD' stablecoin threat; Compass Point cut target to $55. Offsetting slow-burn positives (OCC trust-bank approval, Nomura/Japan deal, likely Aug USDC renewal) are ~August NOT 48h. No imminent binary; trades heavy on competitive fear + crypto beta.",
+    "analyst": "No clean short (not at resistance, no exhaustion, mid-range) and no long (chasing crowded RSI 74, rel-str -26%). 15m/30m/1h all flat, quiet drift lower on drying volume; 4h 'long' is a lagging artifact. Weekend/gap risk. HOLD; short trigger on loss of 58.76 toward $55.",
+    "portfolio": "HOLD CRCL/USDT:USDT \u2014 bearish overhang but mid-range chop; wait for 58.76 break. conf 0.60"
+  },
+  "timestamp": "2026-07-19T13:15:11.303280+00:00"
+}

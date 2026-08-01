@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "CRCL/USDT:USDT",
+  "size": 0.0,
+  "entry": 61.28,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Thin weekend drift up to 61.3 on drying volume into 4h RSI 77.8 / 5m RSI 85 exhaustion; expect it to stall in the 61.0-61.5 zone and chop or fade back toward the 60.5 Friday-close shelf rather than break out.",
+  "expectancy_note": "No edge: fresh long is banned (overbought into risk-off, crowded L/S 2.35); market-short is the account's classic late-into-stretched-tape trap and squeeze risk on a thin closed-market weekend. p(win) either side sub-0.5 with poor R:R - HOLD is highest expectancy.",
+  "rationale": "CRCL is a tokenized equity with US cash markets CLOSED (weekend) - gappy, thin, and crypto structure metrics don't apply; it closed weak below all MAs Friday then bounced on fading volume. It sits mid-range (support 58.76 / resistance 67.49) with 4h and 5m RSI deeply overbought and the 1h already flat (RSI 46.6), so there is no honest entry near a level in either direction. No 48h binary catalyst; wait for either a clean fade trigger or a genuine reclaim before risking size into an illiquid tape.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 60.5,
+    "expires_min": 240,
+    "note": "Losing the 60.5 Friday-close/VWAP shelf breaks the weak bounce and opens a short toward support 58.76, activating the fade thesis."
+  },
+  "transcript": {
+    "macro": "RISK-OFF/defensive regime. 2026-07-19 WEEKEND - US cash markets CLOSED; equity proxies thin/gappy off Friday close until Monday; size down. BTC ~$60-64k near 21-month low, BTC.D ~56.3% elevated (hostile for crypto beta). L/S ratios lopsided-long: CRCL 2.35. Prefer fade over chasing overbought longs.",
+    "sentiment": "CRCL (Circle): MIXED/CHOPPY. OCC final banking approval Jul 10 (bullish) + Nomura/Japan FX-settlement partnership (long-horizon), but Mizuho DOWNGRADE to Underperform Jul 14 citing Visa 'Open USD' stablecoin competitive threat (low weight). Closed weak (~$60.6, below all key MAs) into the scan bounce. No 48h binary; sentiment neutral-to-bearish on competition overhang, high-beta to BTC/COIN.",
+    "analyst": "CRCL 61.28: 4h RSI 77.8, 5m RSI 85.1 (extremely overbought), ADX 83 but 1h flat (RSI 46.6, trend exhausting), VWAP dist +0.11% (flat), support 58.76 / resistance 67.49, L/S 2.35 crowded. Last 15m bars a low-volume drift up (last bar 8.85 vol) - thin weekend bounce, not real buying. No fresh long into overbought risk-off; market-short after a Friday selloff risks a squeeze. HOLD, armed short on loss of 60.5.",
+    "portfolio": "HOLD CRCL - overbought into risk-off, no clean level; fade only if it loses the 60.5 shelf."
+  },
+  "timestamp": "2026-07-19T14:14:19.746316+00:00"
+}

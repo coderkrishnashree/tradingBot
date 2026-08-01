@@ -1,0 +1,90 @@
+{
+  "meta": {
+    "ok": true,
+    "samples": 76,
+    "accuracy": 0.592,
+    "base_rate": 0.513,
+    "usable": true
+  },
+  "overall": {
+    "n": 76,
+    "win_rate": 0.49,
+    "avg_pnl": -0.12
+  },
+  "by_direction": {
+    "long": {
+      "n": 20,
+      "win_rate": 0.6,
+      "avg_pnl": 1.35
+    },
+    "short": {
+      "n": 56,
+      "win_rate": 0.45,
+      "avg_pnl": -0.65
+    }
+  },
+  "by_regime": {
+    "trend": {
+      "n": 75,
+      "win_rate": 0.48,
+      "avg_pnl": -0.47
+    },
+    "chop": null,
+    "squeeze": {
+      "n": 1,
+      "win_rate": 1.0,
+      "avg_pnl": 26.01
+    }
+  },
+  "by_playbook": {
+    "trend": {
+      "n": 56,
+      "win_rate": 0.54,
+      "avg_pnl": -0.04
+    },
+    "range": {
+      "n": 7,
+      "win_rate": 0.43,
+      "avg_pnl": 1.82
+    },
+    "breakout": {
+      "n": 2,
+      "win_rate": 0.0,
+      "avg_pnl": -3.83
+    }
+  },
+  "by_source": {
+    "ai": {
+      "n": 75,
+      "win_rate": 0.48,
+      "avg_pnl": -0.15
+    },
+    "screener": {
+      "n": 1,
+      "win_rate": 1.0,
+      "avg_pnl": 2.01
+    }
+  },
+  "high_adx": {
+    "n": 71,
+    "win_rate": 0.51,
+    "avg_pnl": 0.06
+  },
+  "low_adx": null,
+  "note": "win_rate/avg_pnl per condition, computed from THIS account's closed trades. Weight decisions toward conditions that have been winning.",
+  "model_weights": {
+    "confidence_pct": 0.271,
+    "adx": -0.111,
+    "rsi": 0.012,
+    "bb_pctb": 0.061,
+    "vwap_dist_pct": -0.215,
+    "atr_pct": -0.158,
+    "structure_bias": -0.221,
+    "btc_correlation": 0.09,
+    "relative_strength_pct": -0.266,
+    "ai_confidence": -0.002,
+    "aligned": 0.014,
+    "regime_trend": -0.067,
+    "bias": 0.068
+  }
+}

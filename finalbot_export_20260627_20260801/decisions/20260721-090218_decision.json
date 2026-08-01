@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "XAUT/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Price is rolling off the 4077 high (lower highs 4074>4067>4066>4059>4057, closing near lows) and should drift down to retest the 4040 base / VWAP zone over the next 3-6 bars; from there it either bounces (long) or breaks (fade extends). Right now it sits mid-air between support 3962 and resistance 4094 with no honest entry at a level.",
+  "expectancy_note": "No level-based edge: shorting into 5m RSI 20 (already flushed) is the exact late-short-into-stretched-tape pattern this account loses on (shorts 46% win, -1.09 avg); longing is +EV historically (69% win) but price is extended (%B 1.07, +0.96% VWAP) with bearish 4h divergence \u2014 no clean long entry either. HOLD beats a forced R:R<1.5 trade.",
+  "rationale": "XAUT is a macro/safe-haven asset (crypto structure only weakly relevant, though L/S 2.63 crowded-long + structure_bias -0.37 support a fade bias). The 15m sequence shows a clear fade off 4077 with fading momentum, but the 5m is already exhausted (RSI 20.5), so an immediate short chases into a likely counter-bounce. Price is mid-structure with no level to lean a stop against inside ~1.5xATR, so any entry here is wide-stop-near-target \u2014 the account's worst pattern. Wait for a bounce into resistance 4094 (high-prob fade short) or a pullback-and-reclaim of 4040 (momentum long).",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 4090,
+    "expires_min": 240,
+    "note": "A push into resistance 4094 with crowded longs and bearish 4h divergence sets up a high-probability fade short at a real level; crossing 4090 re-debates for that entry."
+  },
+  "transcript": {
+    "macro": "Regime MIXED/risk-off; Mideast escalation gives gold a safe-haven bid, firm dollar/hawkish Fed is the offset. XAUT macro: mildly supportive long but fading momentum \u2014 gold ~$4,030-4,057 on Iran bid, but bearish 4h divergence, L/S 2.63 very crowded (structure_bias -0.37), 5m flushed (RSI 20). Mean-revert-prone, not breakout.",
+    "sentiment": "XAUT/gold neutral-to-cautious. ~$4,020-4,060, off Jan ATH, caught between safe-haven bid and firm dollar/hawkish Fed; bearish divergence, 5m RSI 20 exhaustion. Data cluster (ADP Jul 21, claims Jul 23, PMIs Jul 24) + FOMC Jul 29 are the movers. No clean <48h catalyst; lean neutral, fade strength into ~4,094.",
+    "analyst": "Fade off 4077 argues short, but 5m RSI 20.5 already flushed = chase into a likely bounce (account's losing pattern); long is +EV historically but price extended (%B 1.07, +0.96% VWAP) with bearish divergence \u2014 no clean entry. Mid-structure, no stop to lean on. HOLD; re-debate a fade short on a push into 4090/4094.",
+    "portfolio": "HOLD XAUT \u2014 mid-air chop, no level; wait for the 4094 fade short or a 4040 reclaim, conf 0.5."
+  },
+  "timestamp": "2026-07-21T09:02:18.884796+00:00"
+}

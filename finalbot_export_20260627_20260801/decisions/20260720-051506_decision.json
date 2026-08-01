@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "MSTR/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.3,
+  "playbook": "none",
+  "forecast": "Low-vol chop between 95.2 and 96.6 continues near-term; no directional edge until either the 95.2 shelf breaks (opens toward 93.8 then support 89.95) or 96.6 reclaims. Expect more sideways grind over the next few 15m bars.",
+  "expectancy_note": "No setup clears R:R: TFs conflict (1h short/down vs 30m/4h long), price mid-range between 89.95 and 102, drying volume, composite conf only 28%. Both long and short are coin-flips into risk-off double-beta \u2014 HOLD has best expectancy.",
+  "rationale": "MSTR is grinding lower on fading volume in the middle of its 89.95-102 range with no clean level to fade or break from, and it is just BTC/COIN beta (corr 0.74/0.86, rel-strength -1.8%) with no independent edge. Macro is risk-off and the fundamental pivot (Strategy paused BTC buys, defensive) is net-negative, but there is no <=48h binary and price is not at an extreme to short. Entering leveraged double-beta here with conflicting timeframes and 28% composite confidence is negative expectancy; wait for the range to resolve.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 93.8,
+    "expires_min": 240,
+    "note": "Losing the session shelf/last swing-low confirms sellers control and opens the risk-off leg toward support 89.95 \u2014 re-debate as a short."
+  },
+  "transcript": {
+    "macro": "Risk-off equity tape. MSTR = leveraged BTC-beta (0.74 corr BTC, 0.86 COIN). BTC soft (~64,446, 15m/1h/5m short, only 4h up), range-bound below 65,566 resistance. STAY OUT / small; size for double-beta.",
+    "sentiment": "MSTR BEARISH / defensive shift. Strategy PAUSED BTC buying, sold BTC Jun/Jul, raised USD reserves to $3.0B, but retains $42B ATM dilution overhang. Stock down ~79% YoY. No <=48h binary, but pivot from accumulation to balance-sheet defense + BTC weakness is net-negative tone.",
+    "analyst": "Grinding lower on fading volume mid-range (89.95-102), TFs conflict (1h short vs 30m/4h long), composite conf 28%. Pure BTC/COIN beta with no independent edge; entering leveraged double-beta here is negative expectancy. HOLD; reconsider short below 93.8.",
+    "portfolio": "MSTR \u2014 HOLD (no edge, conflicted TFs; short armed below 93.8)."
+  },
+  "timestamp": "2026-07-20T05:15:06.065030+00:00"
+}

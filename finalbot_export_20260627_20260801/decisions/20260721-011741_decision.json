@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "EWY/USDT:USDT",
+  "size": 0.0,
+  "entry": 164.81,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.4,
+  "playbook": "none",
+  "forecast": "After the violent flush to 160.15 and the vertical V-recovery bar closing 164.81 near session highs, expect a pullback to retest the 162.5-163.0 reclaim zone over the next 2-4 bars; either it holds and grinds toward 166-167, or fails back under 162 toward 160.",
+  "expectancy_note": "p(win) ~0.5; any honest stop below the 160.15 capitulation low (~2.9pts) exceeds the reachable TP1 near 165 (~R:R 0.7), and market-entry chases a +2pt vertical bar into BB %B 0.81 - no edge either way with ATR this large.",
+  "rationale": "EWY just printed a textbook Kospi V-recovery off a 160.15 flush, closing strong at 164.81, but price is now extended at the top of its range with VWAP +0.61% below and ADX only 29 - a market long chases the recovery bar into the routine pullback a 1.85% ATR guarantees. A limit long on the 162.9 retest is the right idea, but the only honest stop (below the capitulation low ~160) is wider than the distance to first resistance (~165), so R:R fails the 1.5 gate. Learner favors longs over shorts, so no short; wait for a clean pullback-and-hold.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 163.0,
+    "expires_min": 240,
+    "note": "A controlled pullback to 163 (retest of the reclaimed flush zone near VWAP) that holds gives a valid limit-long with stop under 160.15 and room to 167."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF/defensive; hawkish Fed (~60% Sept hike odds), rising yields, firm DXY. Semis complex fragile post >$1T selloff; EWY is a de-facto semi proxy (EWY-MU corr 0.80), part of the single semiconductor factor. Equity names ~zero BTC corr. Kospi staged violent V-recoveries (+7% one session on SK Hynix/Samsung).",
+    "sentiment": "Cautious/mixed, event-driven. EWY whipsawing +/-6-8% daily with Samsung/SK Hynix on the chip selloff/rally; BoK hiked 25bps to 2.75%. High-beta to chip tape and Middle East risk; no single <=48h catalyst but expect large swings.",
+    "analyst": "Textbook V-recovery off the 160.15 flush, closed strong 164.81 but extended (BB %B 0.81, +0.61% VWAP, ADX 29). Market long chases the vertical bar; the honest stop below the 160.15 capitulation low is wider than the ~165 first-resistance target so R:R fails 1.5. Learner favors longs (no short). HOLD; buy a controlled pullback-and-hold at 162.9.",
+    "portfolio": "HOLD EWY - violent V-recovery but extended; armed to buy a pullback-and-hold near 163."
+  },
+  "timestamp": "2026-07-21T01:17:41.554838+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "HOOD/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Thin Sunday-night pin: price likely chops 96.5-97.6 on near-zero volume; no clean directional move until Monday cash open or the earnings binary Wed AC.",
+  "expectancy_note": "No side clears 1.5R: long is stretched (RSI 80+ fast TFs, stoch 97, maxed L/S 2.27, rel-str -19%) into earnings; short has support 4%+ away (93.21) with Monday gap risk. HOLD is highest expectancy.",
+  "rationale": "Tokenized equity with cash market CLOSED - thin, gappy, pinned; crypto structure metrics are noise. Composite long is weak (37.7%) and deeply overbought, laggard, and crowded long, i.e. exactly the late-chase pattern that has killed this account. A definite earnings binary Wed AC sits inside the horizon, so no swing should be initiated here. Nothing offers honest R:R, so size is zero.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 93.21,
+    "expires_min": 240,
+    "note": "Losing the 4h support at 93.21 breaks the uptrend structure and turns the maxed-long crowd into fuel for a clean short."
+  },
+  "transcript": {
+    "macro": "2026-07-26 Sun: MIXED / risk-off into a heavy event week. Nasdaq -2.1% on the week (chip-led selloff); crypto the relative bright spot, BTC ~$65k pressing $68k resistance on thin summer volume. Sunday night = every tokenized US stock/ETF (AAPL, QQQ, MU, NVDA, MSTR, TSLA, CRCL, MSFT, HOOD, TSM, COIN, EWY) trades with its cash market CLOSED -> thin, gappy, pinned. Calendar: FOMC Wed 7/29; MSFT/META earnings Wed AC; AAPL/AMZN Thu AC. Derivatives book is crowded LONG (contrarian-bearish) with funding near-flat and RSIs stretched. Argues for smaller size and no directional swings held through Wed/Thu. The only two environments that actually support a trade this cycle: CL short (real 24h liquidity, clean supply catalyst) and BTC / BTC-proxy longs on a PULLBACK, not chasing the vertical.",
+    "sentiment": "Heavy earnings gauntlet inside the window: FOMC 7/28-29 (hold at 3.50-3.75% expected) plus MSFT+HOOD earnings Wed 7/29 AC and AAPL+COIN Thu 7/30 AC -> overnight gap risk on those names and index-level on QQQ. CL: bearish (OPEC+ output expansion, IEA/EIA cut 3Q26 Brent to ~$74). MU: very bullish narrative (HBM sold out through 2027) but no imminent catalyst. NVDA: earns ~Aug 26 (no near-term print). EWY: highest idiosyncratic risk (KOSPI -23% in July, 7 circuit breakers, bounced ~40% off lows). MSTR: sentiment deteriorating - Strategy now selling BTC + stock to fund preferred dividend. TSLA: reported 7/22, big EPS miss still digesting. CRCL: earns Aug 5, constructive USDC flow. TSM: reported 7/16 big beat, catalyst passed. BTC: cautious/Fear tone, ETF outflows into the Fed. SOL: best idiosyncratic catalyst (spot SOL ETF NYSE Arca approval 7/24) but pinned by broad crypto / FOMC risk-off (0.85 corr to BTC).",
+    "analyst": "Tokenized equity with cash market CLOSED - thin, gappy, pinned; crypto structure metrics are noise. Composite long is weak (37.7%) and deeply overbought, laggard, and crowded long, i.e. exactly the late-chase pattern that has killed this account. A definite earnings binary Wed AC sits inside the horizon, so no swing should be initiated here. Nothing offers honest R:R, so size is zero.",
+    "portfolio": "HOLD - stretched laggard, maxed L/S 2.27, earnings Wed AC; no honest R:R."
+  },
+  "timestamp": "2026-07-26T23:11:29.004261+00:00"
+}

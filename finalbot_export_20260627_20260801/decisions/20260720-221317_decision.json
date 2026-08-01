@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "ORCL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price coils 121.6-122.2 just above support 120.36; most likely path is a relief bounce toward VWAP/124.5 as trapped longs get squeezed and Burry-type covering absorbs supply, OR a thin off-hours flush of 120.36 that only becomes tradable once the US session opens. Neither edge is entry-worthy right now.",
+  "expectancy_note": "Short: p(win)~0.35 - chasing RSI 25 / -2.26% below VWAP at support into a bounce is the account's proven loser (late short stopped by counter-bounce), R:R negative. Long: knife-catch in a -28% credit-downgrade selloff off-hours, no reclaim confirmation, p(win) low. HOLD has the best expectancy until a level resolves.",
+  "rationale": "ORCL is deeply oversold (RSI 25, 1h 23.6, below lower BB, -2.26% below VWAP) and sitting on support 120.36 with the last bars basing on a volume spike that did NOT break down - textbook late-short trap given crowded 2.48 long ratio (squeeze fuel) and Burry covering half his short. US cash equities are CLOSED, so the perp is thin/gappy until 13:30 UTC and any entry risks a spread/gap slip; ATR%1.08 gives no clean R:R here. No confirmed reclaim for a long and no fresh breakdown for a short, so size is zero.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 120.0,
+    "expires_min": 300,
+    "note": "A decisive hourly close below 120.36 support (ideally after the 13:30 UTC US open) confirms the downtrend resuming and re-validates a short into the next measured leg; until then the setup is exhausted-oversold at support."
+  },
+  "transcript": {
+    "macro": "RISK-OFF regime (scan 2026-07-20 ~22:08 UTC). Nasdaq -1.4% today (-2.9% wk) on AI/semiconductor selloff (post-NVDA hangover, Samsung chip results) + Iran geopolitical risk; tech/comms/discretionary sold -> supports equity-tracker shorts. Crypto soft but orderly (no cascade): BTC ~$64-65k flat, dominance 57% (capital hiding in BTC, alts bleeding), Fear&Greed 29. DXY soft 100.7, 10Y 4.60%, soft June CPI, no Fed/CPI print in 48h. CRITICAL EXECUTION HAZARD: US cash equities CLOSED at scan time -> MSFT/QQQ/TSM/ORCL/HOOD perps thin/gappy until 13:30 UTC Tue US open; size down, real move at the open. MSFT & HOOD earnings Wed Jul 29 (outside 48h). Crypto (BTC/SOL) trades 24/7 with normal liquidity.",
+    "sentiment": "No high-weight dated binary in next 48h for any name (Jul 29 cluster: MSFT, HOOD is the next wall). MSFT neutral, -20% YTD on AI capex worries. SOL mildly bullish structurally (5 spot SOL ETFs live ~$1.12B inflows, fee cuts, Alpenglow Q3) but 0.81 corr to BTC so rides crypto risk-off; $74-75 support. BTC bearish near-term, below EMA200 (~$74.4k), MSTR sold record $216M BTC, oil>$80/Iran + hawkish Fed. QQQ neutral-to-bearish, mega-cap earnings wave looms. TSM strong Q2 beat Jul 16 (rev +36% y/y, guide raised) now digesting. ORCL bearish shock (-28%/mo, S&P downgrade on OpenAI concentration, ~21k layoffs, 52wk low ~$132) BUT RSI 25 oversold + Burry covered half his short (bounce risk). HOOD ran +37% (Agentic Trading, IPO underwriting) then pulled back ~$113->$99, profit-taking; high crypto beta amplifies risk-off.",
+    "analyst": "Deeply oversold (RSI 25, below lower BB, -2.26% VWAP) basing on support 120.36 with a volume spike that did NOT break down - textbook late-short trap given crowded 2.48 longs (squeeze fuel) and Burry covering half his short. Thin off-hours; no clean R:R. No reclaim for a long, no breakdown for a short. Hold; re-arm short below 120.0.",
+    "portfolio": "HOLD ORCL - oversold at support, late-short trap; short only below 120.0 at the open."
+  },
+  "timestamp": "2026-07-20T22:13:17.549524+00:00"
+}

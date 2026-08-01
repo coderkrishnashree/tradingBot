@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "META/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Momentum-exhausted at support: price coils 636.4-637.6 on dead volume just above 626.46. Expect either a relief bounce toward VWAP (~657) or a clean break of 626.46 unlocking the next leg; neither is confirmed yet.",
+  "expectancy_note": "Short p(win) ~0.42 into RSI-23/VWAP-3.2%/at-support = chasing the exact late-short pattern that bled this book (36 shorts, 47% win, -0.87 avg); no long trigger. Best expectancy is wait.",
+  "rationale": "META is deeply oversold across all TFs (RSI 23-27) and 3.2% below VWAP sitting on 626-636 support with momentum fully stalled \u2014 a market short here is chasing and would be stopped by any routine bounce, the account's #1 loss pattern. It is also the strongest RS name (+8.0) into a weak tape, which the learner flags as a losing short condition. Weekend illiquidity adds gap risk; highest-expectancy action is to wait for the 626.46 break.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 626.46,
+    "expires_min": 240,
+    "note": "Losing 626.46 support breaks the coil and confirms a fresh downleg \u2014 validates a momentum short on the break rather than chasing mid-air."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF, tech-led; favors shorts/fades. Trade Nasdaq tape not BTC (META corr 0.39). Fri Jul 17 Nasdaq -1.4%, -2.9% week on semiconductor AI-capex-throttle selloff. Rates mildly supportive (June core CPI 0.0% m/m) but overwhelmed by AI-capex scare. Funding 0.0; long/short lopsidedly long into downtape. Weekend illiquidity = biggest risk; size down.",
+    "sentiment": "META neutral near-term. Earnings Jul 29 (outside window), no fresh company catalyst. Trades with QQQ/tech beta, inherits cautious/bearish tape.",
+    "analyst": "Deeply oversold across TFs (RSI 23-27), 3.2% below VWAP, coiling on dead volume just above 626.46 support with momentum stalled. Shorting here chases the book's #1 loss pattern (late shorts stopped by the bounce); META is strongest RS name (+8.0) which learner flags as losing short condition. No long trigger either. HOLD, wait for 626.46 break.",
+    "portfolio": "META: HOLD (conf 0.60) \u2014 no honest R:R; wait for 626.46 break."
+  },
+  "timestamp": "2026-07-18T12:06:18.647515+00:00"
+}

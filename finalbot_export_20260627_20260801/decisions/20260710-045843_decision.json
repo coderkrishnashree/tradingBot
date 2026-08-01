@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "TSM/USDT:USDT",
+  "size": 0.0,
+  "entry": 442.23,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.4,
+  "playbook": "none",
+  "forecast": "Thin off-hours grind stalls at 442.5-443.0 on drying volume; likely chops 440-443 into US open, no clean directional move next 2-4 bars.",
+  "expectancy_note": "A market long here chases a stalled drift (p(win) ~0.45, no confirmation) into thin liquidity and crowded longs; HOLD beats it. A confirmed break >443.5 with volume flips to a valid trend-continuation long toward 461.",
+  "rationale": "TSM is a mid-4h-uptrend (15m/1h/4h aligned long, ADX 30.8) but price sits mid-range at 442, stalling at 442.5-442.8 on dried-up off-hours volume with US cash closed and thin/gappy tape. Longs are crowded (L/S 1.664, structure_bias -0.233), giving no contrarian edge, and there's no clean pullback level or 48h catalyst to lean an entry on. Chasing here is the account's #1 loss pattern (late continuation entry, stopped by a routine bounce); wait for either a confirmed breakout or a dip back toward VWAP/support.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 443.5,
+    "expires_min": 240,
+    "note": "Reclaiming/breaking the 442.8 stall high on volume confirms the grind resuming toward 461 resistance \u2014 turns this into a valid trend-continuation long."
+  },
+  "transcript": {
+    "macro": "Overall regime MIXED/risk-neutral: BTC dominance ~55.5-56.2% elevated (defensive), BTC ~$63-64K bouncing off a 21-month low on weak US spot demand (Coinbase Premium negative 50 straight days), Fear & Greed 27. Semis strong July 9. TSM (treat as equity): funding 0.0, OI 3,480 modest, L/S 1.664 long-skewed, orderbook -0.116 ask-heavy, structure_bias -0.233 (tilts against a long). BTC corr 0.15 (trades on own, ~QQQ 0.70). RS -5.0% vs BTC. Biggest risk: TSMC Q2 earnings July 16 gap event + US cash market CLOSED at scan time (thin/gappy off-hours). Bottom line: STAY OUT / do not chase the long; reduce size.",
+    "sentiment": "Overall defensive, Fear & Greed ~22-23 (Extreme Fear) ticking up; no confirmed CPI/FOMC inside 48h. TSM bullish fundamentally (Q2 rev ~$39-40B +32% YoY, Street expects a beat) but the binary earnings event (Jul 16) is OUTSIDE the 48h window. Off-hours tokenized perp thin/gappy; no unlocks/on-chain events. NO near-term 48h catalyst \u2014 near-term neutral to the trade; respect earnings-gap risk on any carry into Jul 15/16.",
+    "analyst": "Bullish TF alignment (15m/1h/4h long, ADX 30.8) but price is mid-range at 442, stalling at 442.5-442.8 on thin, drying off-hours volume with US market closed and crowded longs (L/S 1.664) offering no edge. No clean pullback level, no 48h catalyst. A market long chases a low-conviction drift \u2014 the account's #1 loss pattern. HOLD with a breakout trigger armed at 443.5 toward 461 resistance.",
+    "portfolio": "TSM/USDT:USDT \u2014 HOLD (conf 0.40): no actionable edge in a thin off-hours, crowded-long tape; wait for a confirmed >443.5 breakout or a pullback to VWAP/support."
+  },
+  "timestamp": "2026-07-10T04:58:43.612267+00:00"
+}

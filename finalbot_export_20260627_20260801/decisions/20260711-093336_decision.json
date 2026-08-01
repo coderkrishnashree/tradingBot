@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "EWJ/USDT:USDT",
+  "size": 0.0,
+  "entry": 95.13,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Thin, near-frozen tape (multiple zero-volume candles) coiling 94.95-95.24 just under 96.65 resistance; likely drifts sideways/gaps on Monday's US open, with June CPI Tue 8:30am ET the real driver - no tradable next move on this session's flow.",
+  "expectancy_note": "No edge: extended long (RSI 76.5, stoch 96.3, +2.13% VWAP, ADX 79.8) with chase risk, or a short fighting a +37% YTD record-high uptrend with no exhaustion - both negative expectancy; HOLD is highest-EV.",
+  "rationale": "EWJ is pure QQQ-beta (corr 0.67), thin and gappy off US hours with dead volume, and stretched to the top of its range while a live CPI binary sits inside the 48h window. A long here is the exact late-chase-into-a-gap pattern that has bled this account; a short defies the dominant momentum with zero confirmation. There is no honest R:R with a stop that survives a Monday gap, so size is zero.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 96.65,
+    "expires_min": 240,
+    "note": "A volume-backed break and hold above the 96.65 resistance would confirm genuine breakout continuation (not an exhausted extension) and justify a momentum long."
+  },
+  "transcript": {
+    "macro": "Regime risk-ON but late-stage & event-gated (2026-07-11). CATALYST inside 48h: June CPI Tue Jul 14 8:30am ET + Warsh testimony 10am - live binary in a 2-day hold window. Japan (EWJ): riding global risk-on, corr 0.67 to QQQ - pure beta, THIN (many zero-volume candles), gappy off US hours; ADX 79.8/stoch 96 = overextended. Avoid crowded-long chases. Size DOWN into Monday.",
+    "sentiment": "EWJ: bullish, strong momentum. Nikkei +37% YTD, record highs on a weak yen (USD/JPY ~162, 4-decade high) boosting exporters. Risks: BOJ decision Jul 30, BOJ-independence/JGB-yield concerns, ongoing Japan earnings season. Overall tone: cautiously risk-on, hinges on mid-July CPI.",
+    "analyst": "ADX 79.8 (extreme), RSI 76.5, stoch 96.3, %B 0.847, VWAP +2.13% = overextended. THIN instrument - many zero-volume candles, last candle 95.13 on 0 volume (stale); tape frozen off US hours, no live flow to trade. Support 90.27, resistance 96.65. Long = late-chase into a CPI gap; short = fighting a +37% YTD record-high uptrend with no exhaustion. Verdict: HOLD; only a volume-backed break/hold above 96.65 justifies a momentum long.",
+    "portfolio": "HOLD EWJ - overextended, thin/frozen tape, gap risk into CPI; no honest entry either side."
+  },
+  "timestamp": "2026-07-11T09:33:36.901826+00:00"
+}

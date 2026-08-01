@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "SNDK/USDT:USDT",
+  "size": 0.0,
+  "entry": 1582.88,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.62,
+  "playbook": "none",
+  "forecast": "Active bounce off 1481.71 support: last 6 bars ran 1503->1582 closing on the high, 1h RSI 14.9 and vwap_dist -7% both stretched. Expect the bounce to extend toward the 1620-1664 breakdown shelf then likely stall/reject as the 4h/1h downtrend reasserts; no clean edge until it either loses 1481 or reclaims 1664.",
+  "expectancy_note": "No R:R>=1.5 with honest stop: ATR 5.25% forces wide stops, shorting into 1h-RSI-14.9 oversold bounce = the account's #1 loser (shorts 0.47 win / -1.59 avg), longing a sector falling-knife pre-TSMC print is a coin flip. HOLD is highest expectancy.",
+  "rationale": "SNDK is 4h/1h downtrend (ADX 43.6) but deeply oversold and mid-bounce off 1481.71 support, closing the last bar on its high 7% below VWAP with 1h RSI 14.9 - the exact stretched tape where late shorts get stopped by the counter-bounce (learner: shorts -1.59 avg pnl). ATR 5.25% makes every stop either dishonestly wide or whipsaw-prone, so no R:R>=1.5 entry exists. TSMC earnings tomorrow ~02:00 ET is a binary sector read-through adding gap risk. Wait for either a clean 1481 breakdown (trend short with room) or a 1664 reclaim (bounce confirmed).",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 1481.71,
+    "expires_min": 240,
+    "note": "Losing the 1481.71 swing low kills the bounce and reopens the downtrend with clean room to run - turns a chase into a valid trend-continuation short."
+  },
+  "transcript": {
+    "macro": "Regime MIXED-to-SUPPORTIVE (soft CPI, semis rebound). Event cliff: TSMC earnings tomorrow Jul 16 ~02:00 ET has read-through to SNDK/memory complex. SNDK: L/S 1.22, orderbook +0.294, bias -0.046 (cleanest positioning of group) BUT violent - down ~8% intraday, ATR 5.25%, vwap_dist -7%, rel-strength -40.5%, btc_corr ~0. Profit-taking after +500% YTD. MIXED/HOSTILE from VOLATILITY not events; hostile execution environment.",
+    "sentiment": "Sandisk highest-vol name, a falling knife - down ~24% in July incl ~-12.7% Jul 13, after ~858% first-half run. Drop is SECTOR-driven (memory/AI-chip risk-off, SK Hynix worst day in ~20yr), NOT company-specific. Earnings ~Aug 5. Analysts hiking targets (Goldman $2,200, Evercore $3,100) long-horizon. Near-term neutral-to-bearish; watch tomorrow's TSM print as sector read-through.",
+    "analyst": "Downtrend but deeply oversold mid-bounce off 1481.71, last bar closed on its high 7% below VWAP with 1h RSI 14.9 - the stretched tape where late shorts get stopped. ATR 5.25% forces dishonest/whipsaw stops so no R:R>=1.5 exists; longing a sector knife pre-TSMC print is a coin flip. HOLD; wait for a 1481 breakdown or 1664 reclaim.",
+    "portfolio": "SNDK: HOLD (size 0) - oversold falling-knife, no honest stop, conf 0.62."
+  },
+  "timestamp": "2026-07-15T17:36:20.745405+00:00"
+}

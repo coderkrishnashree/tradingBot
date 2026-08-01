@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "XAUT/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.35,
+  "playbook": "none",
+  "forecast": "Continued tight coil 4076-4085 until it resolves off the 4093 local high; no directional edge until it breaks either 4093 or 4076. Most likely more range-bound drift into FOMC.",
+  "expectancy_note": "No clean setup: long would chase RSI-81, bb%B-0.974 tape capped by yields/FOMC; short fights the 1h/4h uptrend + safe-haven bid with no LTF confirmation or reached extreme. HOLD > both.",
+  "rationale": "XAUT is coiling in a 1.17% Bollinger squeeze with ATR only 0.21% and mixed TFs (15m/5m flat-down, 30m short, 1h/4h long) - a directionless snapshot right below the 4093 local high, 4155 resistance far off. RSI 81 overbought, crowd 2.35 long, and a Wed FOMC binary make chasing the long negative-expectancy, while shorting has no confirmation. Wait for the squeeze to resolve; with sub-0.25% ATR any entry now is noise.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 4093.5,
+    "expires_min": 240,
+    "note": "Clearing the 4093 local coil high on volume confirms the squeeze resolving up -> a breakout long toward 4155; losing 4076 opens the short side."
+  },
+  "transcript": {
+    "macro": "MIXED regime, risk-cautious into a heavy-event week. FOMC Wed Jul 29. Rates/USD firm (10Y >4.6%, firmer DXY) capping risk. Crowded longs + RSI extremes broadly. XAUT lean: two-sided - firm on safe-haven (~$4,080-4,090) but capped by yields/DXY; RSI 81, crowd 2.35 long; fade extensions rather than chase.",
+    "sentiment": "XAUT neutral into event. ~$4,050-4,080. Jul 29 Fed hold 'already priced in'; higher oil/inflation caps upside, but Middle East geopolitical risk and central-bank buying give a safe-haven bid. Two-way risk around FOMC; a hawkish surprise is the main downside.",
+    "analyst": "Tight 1.17% BB squeeze, ATR only 0.21%, mixed TFs (15m/5m flat-down, 30m short, 1h/4h long) below the 4093 local high. RSI 81, crowd 2.35 long, FOMC binary - long chases, short unconfirmed, sub-0.25% ATR = noise. HOLD; a >4093 break (or <4076) resolves it.",
+    "portfolio": "HOLD XAUT (conf 0.35) - directionless squeeze into FOMC; wait for a 4093 or 4076 break."
+  },
+  "timestamp": "2026-07-27T10:37:54.036891+00:00"
+}

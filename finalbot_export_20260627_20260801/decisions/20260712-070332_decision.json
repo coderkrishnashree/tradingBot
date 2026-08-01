@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "CL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.55,
+  "playbook": "none",
+  "forecast": "Price is stalling under 73.9 after rejecting the 73.9-74.0 highs; expect chop/pullback toward the 72.8-73.0 shelf and VWAP over the next few bars before the next directional resolve. A market long here into RSI 74 / %B 0.83 / crowd 4.08x gets flushed to VWAP first.",
+  "expectancy_note": "No clean entry: long is extended+overcrowded (chase = account's #1 loss pattern), short fights a strong-ADX uptrend with live geopolitical bid + CPI risk. p(win) on either forced entry ~0.45, sub-1.5 R:R at this location. HOLD has best expectancy.",
+  "rationale": "4h/1h trend is up (ADX 55) but the tape is stretched (1h RSI 74, %B 0.83, +1.38% over VWAP) and L/S is 4.08 EXTREMELY crowded long with structure_bias -0.32 \u2014 a fade-prone, headline-fragile spike where a market long chases the crowd and a market short fights the trend. Recent candles show a sharp rejection from 73.9 to 73.0 then choppy consolidation: no VWAP pullback for a clean long, no confirmed reversal for a short. Best expectancy is to wait for either a pullback into 72.8-73.0/VWAP (long with real R:R) or a decisive reclaim of 74.0 (fresh trend leg); no honest 1.5R trade exists here now.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 74.0,
+    "expires_min": 240,
+    "note": "A hold above 74.0 clears the rejection high and resets the momentum-long leg toward 76.1 resistance, justifying a trend-continuation entry."
+  },
+  "transcript": {
+    "macro": "Fragile/mixed. WTI ~$73.5, up ~5% on the week on Iran/Hormuz headlines; 4h/1h uptrend, RSI stretched (1h 74). Positioning RED FLAG: L/S 4.08 EXTREMELY crowded long, structure_bias -0.32 \u2014 crowd all one way, longs chasing a headline spike. Supportive for momentum longs ONLY with tight risk; fade-prone if the ceasefire narrative flips. Trump called Iran ceasefire 'over.' Jul 14 CPI overhead.",
+    "sentiment": "Bullish (geopolitical) but headline-fragile. WTI ~$71-73.5, ~3.5% weekly gain on renewed US-Iran tensions disrupting Strait of Hormuz \u2014 active supply-risk premium that can gap either way within 48h. OPEC+ agreed Jul 5 to add 188k bpd from August (bearish backdrop) but geopolitics dominating. The one name with a real 48h catalyst.",
+    "analyst": "4h/1h uptrend real (ADX 55) but entry location poor: stretched (1h RSI 74, %B 0.83, +1.38% over VWAP) into EXTREMELY crowded long (L/S 4.08, structure_bias -0.32) on a headline-fragile spike. Market-long chases the crowd and gets flushed to VWAP; market-short fights a strong trend with a live Iran/Hormuz bid + CPI overhead. No clean pullback or breakout trigger yet \u2014 no honest 1.5R trade. HOLD; reconsider on a reclaim/hold above 74.0.",
+    "portfolio": "HOLD CL \u2014 stretched, overcrowded long into headline-fragile spike; reconsider above 74.0."
+  },
+  "timestamp": "2026-07-12T07:03:32.001789+00:00"
+}

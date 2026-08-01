@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "EWY/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.55,
+  "playbook": "none",
+  "forecast": "Price coiling flat at 162.8-163.1 just above the 162.74 flush low; next move is a binary break of that micro-support toward 161.0/159.5 (continuation) or a dead-cat bounce back to VWAP ~164.0. No edge market-shorting into the coil.",
+  "expectancy_note": "Short bias is real (4h -0.9, ADX 52, RS -27%, tariff cliff Jul 24) but price is at micro-support with 15m RSI 38 / stoch 33 - market-shorting = the account's #1 loss pattern (late short into stretched tape, stopped by bounce; shorts win only 48%). Wait for the 162.74 break to short with the move, not into it.",
+  "rationale": "Genuinely weakest asset with active downside catalysts, but the tape is coiling on micro-support after a volume flush, not extended enough to chase and not bounced enough for a clean high short. Equities are past cash close (thin/gappy), and this account's short book is bleeding (-0.73 avg over 44 trades), so I need a confirmed trigger rather than a mid-air entry. A close below 162.74 confirms sellers won the consolidation and opens 161.0 then 159.5 with a stop back above 164.0 (~1x ATR).",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 162.74,
+    "expires_min": 240,
+    "note": "Losing the flush low / micro-support confirms breakdown continuation - short toward 161.0/159.5, stop back over 164.0 VWAP; also re-debate a bounce short if price reclaims 164.0 into resistance."
+  },
+  "transcript": {
+    "macro": "Regime MIXED, leaning risk-off. Equities soft, headline-driven (Iran/oil ~$90). US equity proxies now past cash close - thin/gappy overnight. EWY: down trend (4h -0.9, ADX 52), worst RS in set (-26.8% vs BTC), structure_bias -0.22, orderbook -0.42. Short-side setup but a foreign-equity ETF - thin off-hours, gaps on Asia open / Iran-oil headlines. Fine short bias, keep size small.",
+    "sentiment": "Most negative macro tape in the set. KOSPI crashed into a bear market (one session -6.4%, SK Hynix -11.6%, Samsung -8.9%) after the Bank of Korea's surprise first rate hike in 3+ years (to 2.75%, Jul 16) plus US chip-valuation fears. Live time-sensitive risk: US 10% global tariff expiry Jul 24 and Korea Q2 GDP this week. Near-term FOR the short - active downside catalysts, hawkish central bank, tariff cliff Jul 24.",
+    "analyst": "Strong 4h downtrend and weakest name with real catalysts, but price is NOT extended (vwap -0.56%, 15m RSI ~37, stoch 33) - it just flushed to 162.86 and is coiling flat above 162.74 micro-support. Market-shorting here into support after a flush is the account's proven loss pattern (shorts 48% win, -0.73 avg). Best expectancy is HOLD and arm a short trigger on a break below 162.74 (continuation toward 161.0/159.5), or re-debate a bounce short back at VWAP ~164.0.",
+    "portfolio": "HOLD EWY - short thesis is right but the entry is wrong; wait for the 162.74 break, don't chase into micro-support."
+  },
+  "timestamp": "2026-07-20T21:16:30.917543+00:00"
+}

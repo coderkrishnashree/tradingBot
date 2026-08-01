@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "MSTR/USDT:USDT",
+  "size": 0.0,
+  "entry": 94.67,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "breakout",
+  "forecast": "Breakout already fired (93.68->94.72 on 4x vol); 5m/15m RSI 84-90 and stoch 98.6 are exhausted, so next 2-4 bars most likely a pullback to retest the 94.0-93.9 broken level, possibly VWAP ~93.1, before any continuation \u2014 chasing 94.67 gets stopped on that dip.",
+  "expectancy_note": "p(win) for a market chase ~0.4; account breakout playbook is 0/2 (-3.83 avg) and #1 loss = late continuation entries; waiting for a held retest gives a real 1.5R+, so HOLD-with-trigger beats chasing.",
+  "rationale": "Fresh 15m breakout but price is already +1.64% above VWAP with 5m RSI 90 / stoch 98.6 \u2014 a market entry here fails the no-chase and R:R checks and the account's breakout record is 0/2. MSTR is also the laggard (rel-strength -7%) echoing an RSI-77 extended BTC, and Jul 30 earnings caps holding time. Best expectancy is to wait for the breakout to prove itself by holding a retest of 94.0, then re-debate a long; below 93.4 the breakout is a failure and there's no long.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 94.0,
+    "expires_min": 180,
+    "note": "A pullback to the 94.0 breakout-retest level is where a valid, non-chasing long entry appears (or, if it slices toward 93.1 VWAP without holding, the breakout is failing) \u2014 either way this level is the decision point."
+  },
+  "transcript": {
+    "macro": "US market CLOSED (Sunday) \u2014 tokenized-equity perps thin/gappy, Monday gap risk. BUT MSTR tracks BTC (corr 0.715) which trades continuously \u2014 BTC ~$65.2k, dominance ~56%, recovering, funding benign, RSI 77+ extended. MSTR just triggered a 15m breakout (bbw 2.35x, vol 4.12x) but L/S 1.54 (crowded long). MSTR earnings Jul 30. Crypto-native names are the cleaner setups vs frozen equity perps.",
+    "sentiment": "MSTR: NEUTRAL/tied-to-BTC, HIGH-RISK \u2014 Q2 earnings Jul 30 after close; holds 843,775 BTC (levered BTC proxy). BTC firm (~$65k, up on session) = mild tailwind; no MSTR-specific <=48h catalyst.",
+    "analyst": "Breakout already fired; price +1.64% above VWAP with 5m RSI 90 / stoch 98.6 \u2014 a market chase fails no-chase + R:R checks, and the account's breakout playbook is 0/2 (-3.83). Laggard vs an already-extended BTC (RSI 77). Jul 30 earnings caps hold time. Wait for a held 94.0 retest; below 93.4 the breakout fails. HOLD.",
+    "portfolio": "HOLD (0.60) \u2014 no chase; wait for a 94.0 breakout retest to hold before a long, earnings Jul 30 caps the window."
+  },
+  "timestamp": "2026-07-26T22:39:43.145016+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "EWY/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Coiling mid-range on dead off-hours volume; expect continued 164.3-166.4 chop around VWAP (165.1) into Monday US open, with overnight gap risk either way.",
+  "expectancy_note": "No clean R:R: nearest resistance 184.6 is miles off, range-top tp1 ~166.4 vs ~1.4xATR stop gives <1.5R; thin Sunday tape + worst RS in group = negative expectancy on any entry.",
+  "rationale": "EWY sits mid-range at 165.13, ~0.8% above VWAP, with 15m/30m composites flat and the last ~6 bars drifting on collapsing volume (33 last bar) \u2014 a coil, not a trend pullback despite ADX 47 (that reads the higher-TF trend). It is a semis-beta Korea proxy with the worst relative strength in the group (-29.7%), mildly bearish crowd (L/S 1.21, book -0.06), and Sunday-closed cash markets make marks proxy/gappy. No level offers 1.5R here, so the highest-expectancy action is to wait for Monday's real repricing.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 167.7,
+    "expires_min": 240,
+    "note": "Reclaiming the 167.5-167.6 range high on real volume proves the 1h/4h uptrend has resumed and turns this into a valid trend-continuation long toward 170+."
+  },
+  "transcript": {
+    "macro": "Environment MIXED, cautiously risk-on but event-heavy. Sun Jul 20 = US cash CLOSED; tokenized equity perps trade thin off-hours, marks are proxy, real repricing at Mon Jul 21 open, elevated gap risk. Funding 0.0 across names (uninformative); L/S + orderbook are the live positioning inputs. Index momentum choppy (Fri Jul 17 Nasdaq -1% on chips then rebound). Rates/USD mildly supportive (~65% Fed hold Jul 29 FOMC, DXY ~100.9). US-Iran airstrikes + firm oil = weekend wildcard. Crowded-long across HOOD/INTC/NVDA/EWY (L/S 1.6-1.9). EWY: mildly bearish structure (L/S 1.21, book -0.06, bias -0.081), low BTC corr 0.27, worst RS in group (-29.7%); semis-beta Korea proxy (0.52 corr TSM, 0.80 MU), thinnest tape. Neutral-to-cautious.",
+    "sentiment": "Risk-on but jumpy, in the eye of a Big Tech earnings storm (GOOGL/TSLA Wed Jul 22, INTC Thu Jul 23, MSFT/META Jul 29, AMZN/AAPL Jul 30); tape hostage to AI-capex guidance, elevated vol next 48h; US-Iran + oil ~$90 a risk-off tail. EWY: mild BULLISH tilt, no <=48h binary \u2014 record ETF inflows mid-July ($1.1B/$814M) as SK Hynix/Samsung HBM-memory AI proxy, supported by Fed-cut expectations; fresh momentum flow in tape, but rides the same semis/AI sentiment INTC's Thu print and last week's chip selloff can whipsaw.",
+    "analyst": "Price coiling mid-range (165.13, ~0.8% above VWAP) with 15m/30m composites flat and last ~6 bars drifting on collapsing volume (33 last bar) \u2014 a coil, not a trend pullback. ADX 47 reflects the higher-TF uptrend only. Worst RS in group (-29.7%), mildly bearish crowd, thinnest off-hours tape, gap risk into Monday. No level gives 1.5R (nearest resistance 184.6 far off; range-top tp ~166.4 vs ~1.4xATR stop < 1.5R). NO-TRADE; wait for Monday reprice or a >167.7 range-high reclaim.",
+    "portfolio": "HOLD EWY \u2014 mid-range coil on dead Sunday tape, no 1.5R setup; re-debate on >167.7 reclaim."
+  },
+  "timestamp": "2026-07-20T18:14:58.890981+00:00"
+}

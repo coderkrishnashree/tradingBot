@@ -1,0 +1,22 @@
+{
+  "symbol": "ORCL/USDT:USDT",
+  "action": "short",
+  "size": 2.5,
+  "entry": 143.65,
+  "stop_loss": 144.55,
+  "take_profit": 140.2,
+  "take_profit_1": 142.0,
+  "take_profit_2": 140.2,
+  "confidence": 0.58,
+  "playbook": "range",
+  "forecast": "Limit-fill on a final push into the 143.7 rejection zone, then roll over: fade back through VWAP ~142.25 to 142.0 within 3-6 bars, extending toward 140.2 as the crowded-long bounce exhausts.",
+  "expectancy_note": "p(win) ~0.57, R:R 1.83 to TP1 / 3.8 to TP2; range-fade beats trend/breakout because 1h RSI 79.8 is stretched, structure_bias -0.426 crowded-long, and -21.6% rel-strength laggard has no catalyst to sustain the bounce.",
+  "rationale": "ORCL is a rates-hostile, crowded-long (l/s 2.165, longs paying funding) laggard bouncing into short-term overbought (30m RSI 77, 1h RSI 79.8) while 4h stays neutral-soft. The 15m tape shows repeated rejection at 143.7 (143.72 high faded to 142.73), so I fade a retest of that level rather than chase - using a limit into strength keeps R:R honest at 1.83 to the first structural target near VWAP. Size kept modest (2.5%) given overnight gap risk on a tokenized equity and the risk the bounce overshoots to 145 before rolling; stop sits just beyond the swing high.",
+  "transcript": {
+    "macro": "MIXED-to-HOSTILE environment. Semis-led sell-off, live geopolitical risk-off (US-Iran, oil up, DXY ~101), rates hostile (May CPI +4.2%, ~50% Sept HIKE odds) - a direct headwind for long-duration/high-multiple tech like ORCL. ORCL: MOST HOSTILE of the three for longs. Down ~25% YTD despite record $638B RPO backlog - AI-capex story punished (negative FCF ~-$23.7B on ~$70B capex). rel_strength -21.64% vs BTC (weakest laggard). Scan reddest: structure_bias -0.426, L/S 2.165 (maxed contrarian-negative), funding +0.00038 (only positive, longs paying), OI 10,949, 30m/1h RSI 77-80 overbought bounce. No near catalyst (earnings Sep 14). Setup: 'bounce into resistance to be faded'.",
+    "sentiment": "Market-wide jittery, semiconductor-led risk-off. ORCL: BEARISH near-term skew. Reported Q4 FY2026 (Jun 10): beat EPS ($2.03 vs $1.96), lifted FY27 guide to $8.05, but stock dropped ~10% post-print on massive AI-capex spend and -$23.7B FCF / -$24B cash drain forcing new fundraising. Endured 9-session losing streak, snapped Jul 6. Ex-dividend Jul 10 ($0.50). Sentiment mixed-to-negative; AI-capex-burn overhang fits the 'AI valuation reality-check' mood. Near-term news skews neutral-to-bearish.",
+    "analyst": "Rates-hostile, crowded-long laggard bouncing into overbought (30m RSI 77, 1h RSI 79.8), 4h neutral-soft. 15m repeated rejection at 143.7. Fade a retest via limit into strength rather than chase, keeping R:R honest at 1.83 to TP1 near VWAP. Modest 2.5% size given tokenized-equity overnight gap risk and bounce-overshoot risk to 145; stop just beyond swing high. SHORT.",
+    "portfolio": "SHORT ORCL - limit-fade 143.65 into the 143.7 rejection on a crowded-long, overbought, rates-hostile laggard; stop 144.55, TP1 142.0 / TP2 140.2, size 2.5%."
+  },
+  "timestamp": "2026-07-09T09:59:38.415952+00:00"
+}

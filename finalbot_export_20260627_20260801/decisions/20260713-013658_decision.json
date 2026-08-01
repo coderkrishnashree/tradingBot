@@ -1,0 +1,28 @@
+{
+  "symbol": "XAUT/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.6,
+  "size": 0.0,
+  "entry": 4069.3,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "none",
+  "forecast": "Coils 4058-4082 into CPI/Fed; oversold bounce likely tests 4082, but the tight BB squeeze + binary catalyst means the real move waits for a range break either way.",
+  "expectancy_note": "No edge: shorting RSI 27 below the lower band is the account's classic 'stopped by the bounce' trap; longing a knife into hawkish-Fed macro is unconfirmed; ATR 0.25% gives poor R:R to any honest stop, and CPI can gap through it.",
+  "rationale": "XAUT is regime-blocked (squeeze, composite flat) with 4h/1h/30m RSI 27-30 deeply oversold and %B below the lower band, while 5m has flipped long (+0.26) \u2014 a stretched-down tape that punishes fresh shorts with a bounce. Crowded longs (L/S 2.72) and a live CPI + Warsh Fed binary within ~48h cut both ways, so neither side has expectancy. Tiny 0.25% ATR means an honest stop dwarfs any near target (R:R <1.5) and a catalyst gap voids the setup. Waiting for the squeeze to resolve is highest-expectancy.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 4082.0,
+    "expires_min": 240,
+    "note": "Reclaiming 4082 confirms the oversold bounce has legs for a long scalp toward 4110+; losing 4058 flags downside continuation."
+  },
+  "transcript": {
+    "macro": "RISK-OFF/defensive into Tuesday CPI + Warsh Fed testimony; Fed-hike odds rising. DXY 3-wk low ~100.6 but driver is hawkish-Fed/inflation, risk-negative for non-yielding metals over 48h. Gold spot ~$4,100-4,120, XAUT perp 4069 rolling over (RSI 27, ADX 66, 4h/1h down); L/S 2.72, OI leaning long = crowded longs bleeding; regime flagged SQUEEZE so composite is flat. Not a place to press either side into CPI.",
+    "sentiment": "XAUT NEUTRAL-to-bullish macro, key binary looming. Gold ~$4,050 after 20% correction off Jan ~$5,000; hawkish Warsh Fed split 9-to-8. LIVE CATALYST: FOMC minutes ~July 14 flagged as pivot; recent DXY weakness + unwinding hike bets gave metals a 2.5% pop. Genuine <=48h risk cutting both ways.",
+    "analyst": "Regime-blocked squeeze, HTF RSI 27-30 below lower band, 5m flipped up \u2014 stretched-down tape where shorts get bounced and longs are an unconfirmed knife into a hawkish-Fed CPI binary. 0.25% ATR = poor R:R. Reconsider on reclaim of 4082.",
+    "portfolio": "HOLD XAUT \u2014 oversold squeeze into a two-sided Fed binary; wait for range break."
+  },
+  "timestamp": "2026-07-13T01:36:58.007404+00:00"
+}

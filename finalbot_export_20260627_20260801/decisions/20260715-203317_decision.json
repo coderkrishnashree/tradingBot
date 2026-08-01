@@ -1,0 +1,25 @@
+{
+  "action": "hold",
+  "symbol": "TSM/USDT:USDT",
+  "size": 0.0,
+  "entry": 421.8,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.7,
+  "playbook": "none",
+  "forecast": "Coils 418-423 into the 02:00 ET print, then gaps hard one way \u2014 a beat/strong CoWoS guide gaps toward 435-448, a soft guide/tariff worry gaps toward 405-390; no clean intraday path exists before the binary.",
+  "rationale": "TSM reports July 16 02:00 ET, INSIDE the ~5h/48h window, so any position is pure event exposure, not a tradable structure \u2014 the 4h ATR of ~1.6% is dwarfed by likely gap size and no stop is meaningful across the print. The tape is genuinely mixed: composite is short-but-unaligned (p_win 0.46) while the 15m shows a bullish divergence and candles are recovering higher-lows off the 411.6 low toward 422, so neither side has an edge worth binary risk. Funding is rich (3.4e-4) and sector rotation out of semis is a drift headwind, but not enough to short a company that has beaten 4 straight quarters. Correct play is flat through the print, then re-engage on the reaction.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 411.64,
+    "expires_min": 240,
+    "note": "Losing the 411.6 swing low BEFORE the print would break the recovery structure and confirm sellers control, opening a pre-earnings short toward 405 \u2014 but only if it breaks ahead of 02:00 ET, not on the gap itself."
+  },
+  "transcript": {
+    "macro": "Risk-on but chip-sector ROTATION the live theme \u2014 money rotating OUT of semis. Soft June CPI + cool PPI trimmed Fed-hike odds (~66% hold July 29 FOMC). TSM (~$422): EARNINGS JULY 16 02:00 ET \u2014 INSIDE ~5 HOURS, dominates everything. Down 2% on week, ~10% off highs; June rev +67.9% y/y, guide $39-40.2B. Scan short (not aligned, p_win 0.46) with bullish divergence, funding slightly rich (3.4e-4). Do NOT hold through the print \u2014 binary gap both ways. Size down on TSM.",
+    "sentiment": "High-alert \u2014 imminent binary. Q2 earnings CONFIRMED Thu July 16 02:00 ET (inside 48h). Guidance $39.0-40.2B rev, 65.5-67.5% GM; June revenue +68% y/y and TSMC beat 4 straight quarters (avg +8.3% surprise), expectations high, miss/soft guide could gap price. Watch AI/CoWoS, tariff, Arizona-ramp. SOX/SMH fell ~7-10% early July \u2014 sector jumpy. Earnings print will drive TSM within the window; treat any pre-print position as event-exposed, not a clean technical trade.",
+    "analyst": "Price ~421.8, earnings ~5h out. Composite short but NOT aligned (p_win 0.462); 15m bullish divergence, 1h RSI 34.6 (oversold), candles recovering higher-lows off 411.6 toward 422. ATR% 1.59 (~$6.7) is dwarfed by likely gap; no honest stop survives the print. Funding rich (3.4e-4), structure_bias -0.418, rel_strength -10.18% (weak sector), btc_corr -0.044 (independent). Mixed signal offers no edge worth event risk. HOLD flat through the print; reconsider a short only on a pre-print break of 411.64.",
+    "portfolio": "HOLD TSM \u2014 flat through the July 16 02:00 ET earnings binary; no edge worth the gap."
+  },
+  "timestamp": "2026-07-15T20:33:17.198745+00:00"
+}

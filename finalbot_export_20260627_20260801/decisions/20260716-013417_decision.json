@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "TSLA/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Price pinned ~$3 above support 391.0 with LTF stochastics washed out (5m RSI 27.6, 30m RSI 17, stoch 18.9); expect a bounce/chop back toward 396-398 (VWAP) over 2-4 bars before the downtrend resumes, OR a clean break of 391 on volume opening 388-386. Neither is a clean market-short here.",
+  "expectancy_note": "p(win) ~0.45 for a market-short into support 391 only 0.76R away; a bounce hits any honest stop first (the account's #1 loss = late short into stretched tape). Better expectancy waiting for a 391 break or a bounce to VWAP.",
+  "rationale": "TSLA is a genuine downtrend (ADX 69, all TFs down) but sits only $3 above support 391 with 5m/30m RSI washed out and stoch 18.9 into a thin, gappy pre-market tape \u2014 market-shorting here is the exact late-into-stretched-tape entry that bleeds this book. R:R to the 391 target is under 1.5 with any structure-honest stop above 395.7. Prefer shorting a break of 391 (continuation) or a bounce to VWAP ~397; neither is triggered now. Q2 earnings Jul 22 caps duration but is outside the window. HOLD until 391 breaks.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 390.8,
+    "expires_min": 240,
+    "note": "Losing 391 support on volume confirms downtrend continuation and opens 388-386 with a clean stop back above 391 \u2014 the honest short entry rather than chasing into support."
+  },
+  "transcript": {
+    "macro": "Regime MIXED, risk-off in tech; Nasdaq/semis weak leg (sell-tech tape) mechanically supports tech-beta shorts. DXY soft-but-supported, Fed hawkish, no FOMC 48h. TSLA screens weak (all TFs down, ADX 69, RS vs BTC -0.6%), long/short 1.71 (long-tilted, contrarian-supportive for a short). Env SUPPORTIVE near-term BUT hard event risk: Q2 earnings after close Jul 22 \u2014 do NOT carry into the 22nd. Scan ran pre-market: thin/gappy off-hours tape. Trim size.",
+    "sentiment": "Q2 deliveries BEAT (480k vs 406k, stock +6% to ~$416 July 2) \u2014 good news already priced. Robotaxi Miami+Austin tests supportive but no material rev before 2027; NHTSA closed braking probe (minor positive). KEY BINARY: Q2 earnings Wed Jul 22 5:30pm ET (just outside 24-48h) \u2014 expect pre-earnings drift + elevated implied vol. NEUTRAL for a <=48h trade.",
+    "analyst": "Downtrend real (ADX 69) but price 394.02 sits only ~$3 above support 391 with 5m RSI 27.6 / 30m 17 / stoch 18.9 washed out into thin pre-market. Market-shorting into support = classic late-short loser; R:R <1.5. No trade now. HOLD; arm a reconsider trigger on a decisive break below 390.8 (continuation) \u2014 better than chasing into support or fading a strong trend.",
+    "portfolio": "HOLD TSLA, conf 0.5 \u2014 genuine downtrend but pinned on support in thin pre-market; wait for a 391 break before shorting."
+  },
+  "timestamp": "2026-07-16T01:34:17.507198+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "ORCL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.58,
+  "playbook": "none",
+  "forecast": "Price is basing 141.3-141.5 just above 137.63 support after a stalled drop; on thin weekend tape I expect a mean-reversion bounce toward VWAP ~143.5-144 over the next 6-12 bars before the downtrend can resume \u2014 chasing the short here gets squeezed.",
+  "expectancy_note": "Shorting at 1h RSI 27 / -1.82% below VWAP is the account's #1 loss pattern (late short into stretched tape, stopped by the bounce). p(win) on a chase ~40%; waiting for the bounce to ~143.5 turns it into a >55% R:R>2 short. HOLD beats a bad market-short.",
+  "rationale": "ORCL is genuinely the weakest name (rel strength -18.7%, L/S 2.12 contrarian bearish, downtrend 15m-4h) so the directional bias is short \u2014 but price is already oversold and extended (1h RSI 27.4, -1.82% below VWAP) into dead Sunday liquidity with Monday gap risk and Tue CPI. A market-short here has poor expectancy: a routine counter-bounce hits any honest stop (~143) before support 137.63 pays off. The timely short lives on a bounce back into 143.5-144 (VWAP / broken-support resistance) or on a clean loss of 137.63 \u2014 neither is present now, so the highest-expectancy action is to wait with an armed trigger.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 143.5,
+    "expires_min": 240,
+    "note": "A bounce to ~143.5 (VWAP / broken-support-turned-resistance) resets the short with honest R:R above the oversold extreme \u2014 that is the entry to fade, not the current low."
+  },
+  "transcript": {
+    "macro": "Regime MIXED, tilting risk-off into a loaded event window. Sun Jul 12 \u2014 US markets closed, tokenized names thin/gappy with Monday-open gap risk. 48h event cluster from Tue 07/14: June CPI 08:30 ET (last 4.2% hot), Warsh first testimony, ~1-in-3 rate HIKE priced end-July; bank + TSM/ASML earnings mid-week. Reduce size; anything held into Tue AM is a CPI bet. ORCL: short-bias, RS -18.7% (weakest), L/S 2.12 contrarian bearish, oversold (RSI 27-33) -> squeeze risk on bounces.",
+    "sentiment": "US markets closed weekend -> off-hours thin/gappy into Mon Jul 13 open; broad tape risk-on (S&P ~7,537, Nasdaq +29% YTD). Key binaries: CPI Tue Jul 14, PPI Jul 15, TSM Jul 16. ORCL reported Q4 FY26 Jun 10 (beat, rev +21%, OCI +93%, RPO $638B); no <=48h catalyst; closed ~$140.64 -2.5%; trades on broad Nasdaq/AI tape and AI-capex sentiment.",
+    "analyst": "Directional bias is short (weakest name, contrarian-bearish L/S 2.12, confirmed downtrend) but price is oversold and 1.82% below VWAP on dead weekend liquidity \u2014 chasing a market-short is the account's proven loss pattern. Waiting for a bounce to ~143.5 (VWAP/broken-support resistance) or a clean loss of 137.63 gives an honest R:R short. HOLD with armed price_above 143.5 reconsider.",
+    "portfolio": "HOLD ORCL \u2014 short-bias but oversold; armed to fade a bounce into 143.5."
+  },
+  "timestamp": "2026-07-12T11:33:20.251418+00:00"
+}

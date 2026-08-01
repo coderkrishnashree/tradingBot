@@ -1,0 +1,27 @@
+{
+  "action": "hold",
+  "symbol": "INTC/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "expectancy_note": "Short bias is right but entry is wrong: price sits ~1.7% above support 116.90 with RSI 24.5 / stoch 18.9 / %B<0 / -3.57% vs VWAP into a CLOSED cash session. Chasing = ~1.7% reward vs 3-5% bounce risk (R:R<1) with high dead-cat-bounce odds; wait for a break or a bounce.",
+  "rationale": "INTC is in a strong aligned downtrend (ADX 43.8, 4h/1h MACD deeply negative, structure_bias -0.213, orderbook sellers, L/S 1.59 = trapped longs) so the direction is short. But it is deeply oversold and pinned on support 116.90 while extended -3.57% below VWAP during a thin, gappy pre-US-open tape \u2014 exactly where macro warns against chasing shorts and where violent bounces happen. Learner shows trend-playbook trades bleeding (-2.72 avg) and I refuse a sub-1 R:R entry. Best expectancy is to wait: sell a bounce toward VWAP or a clean US-open breakdown of 116.90, not sell weakness into the level.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 116.5,
+    "expires_min": 240,
+    "note": "Decisive loss of 116.90 support (on US-open volume) confirms continuation and reopens the short without needing a bounce; a break here means trapped longs capitulating rather than an exhausted wick."
+  },
+  "transcript": {
+    "macro": "Regime bifurcated; Jul 7 AM tech/semis lead down (NDX futures -0.9%). Hawkish Fed (Warsh), inflation ~4.2% = not buy-every-dip. US cash CLOSED at 07:37 UTC = thin/gappy, 5m noise. Semis SUPPORT SHORTS. INTC strong aligned downtrend: RSI 24.5, -3.6% vs VWAP, structure_bias -0.213, orderbook -0.12 (sellers), L/S 1.59 = crowd net-long into falling market (contrarian fuel/trapped longs), OI 25,456. BIGGEST RISK: RSI deeply oversold + semis +250% YTD = violent dead-cat bounce risk. Do NOT chase-short the pre-open hole; wait for US open/bounce, reduce size.",
+    "sentiment": "INTC earnings Jul 23 (outside 48h but next real binary; guided Q2 GM ~39% down from 41% \u2014 don't hold short blindly into it). Caught in chip rout (~-9% early-July). Still +168% YTD = profit to shake out, momentum favors short short-term. Long-horizon bull narrative (HSBC PT->$200, 18A anchors MSFT/AWS) = not a 48h mover. Tilt: bearish near-term but deeply oversold + pre-earnings = bounce risk real.",
+    "analyst": "Direction is short (ADX 43.8, MACD deeply negative, structure_bias -0.213, orderbook sellers, L/S 1.59 trapped longs) but price 118.88 sits ~1.7% above support 116.90 with RSI 24.5 / stoch 18.9 / %B<0 / -3.57% vs VWAP in a closed thin tape. Chasing = ~1.7% reward vs 3-5% bounce risk, sub-1 R:R, high dead-cat-bounce odds. Wait to short a bounce toward VWAP (~123-125) or a clean US-open break of 116.90. HOLD; reconsider on a decisive break below 116.5.",
+    "portfolio": "HOLD INTC \u2014 short bias correct but oversold on support in a closed tape; wait for a bounce to fade or a break of 116.90."
+  },
+  "timestamp": "2026-07-07T07:43:07.335925+00:00"
+}

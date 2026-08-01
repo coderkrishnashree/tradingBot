@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "META/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price chops 668-674 just under the 678.67 resistance; 15m tape making lower highs (673.4 to 671.7) and fading, so the most likely next move is a drift/pullback toward the rising VWAP near ~648-650 rather than a clean breakout - but no bearish trigger has fired and the trend is intact.",
+  "expectancy_note": "No positive-expectancy entry: long is an RSI-81 chase into resistance with ~1% room (negative R:R), short fights an ADX-67.8 leader (+19.3% RS, orderbook +0.846) with no reversal signal and gap-up risk. Best EV is waiting for a pullback to VWAP.",
+  "rationale": "META is the strongest leader in the set (RS +19.3%, ADX 67.8) but 4h RSI 81.4 and vwap_dist +3.6% make it dangerously overextended into the 678.67 resistance with almost no room - buying here is the account's classic late-continuation loss. A short has no confirmation and fights a powerful uptrend plus a heavily-bid book (+0.846). US cash markets closed (thin/gappy, Monday reopen-gap risk). Want a pullback toward VWAP (~648-650) to buy the trend with real R:R, not a chase.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 650.0,
+    "expires_min": 360,
+    "note": "A pullback into the rising VWAP zone resets RSI and offers a trend-continuation long with room back to 678.67."
+  },
+  "transcript": {
+    "macro": "Cycle 2026-07-12 (Sunday) - US cash equity markets CLOSED; tokenized-equity pairs thin/gappy with Monday 07-13 reopen-gap risk. Regime MIXED, cautious; semis volatile. META/USDT last 671.82, composite long 47.7%: long bias but OVEREXTENDED - RSI 81.4 (4h), price at resistance 678.67, vwap_dist +3.6%, RS +19.3% vs BTC (strongest leader), orderbook heavily bid +0.846. Biggest risk = buying strength into an RSI-81 blowoff with no room; tokenized gap-down on reopen hurts most here. Earnings ~Jul 29. Favor fades/pullback entries; size down.",
+    "sentiment": "META strong bullish momentum, no <=48h binary. Best week since early 2024 (+~15%) on 'Meta Compute' AI-cloud unit launch and in-house Iris chip news - fresh re-rating. Earnings Jul 29 (outside window). Near-term news tone bullish/supportive but move is extended and overbought; catalyst is a multi-quarter narrative, momentum-continuation only. Weekend US-open gap risk Monday 07-13.",
+    "analyst": "last 671.82, resistance 678.67, support 578.25. RSI 81.4 (4h) severely overbought, ADX 67.8 strong trend, vwap_dist +3.6% extended, orderbook +0.846 heavily bid, RS +19.3% (strongest leader), low BTC corr 0.362. 15m candles show fading momentum - push to 673.41 then rejection, lower highs (672.77 -> 672.09 -> 671.71), consolidating just below 678.67 with only ~1% room. Chasing long is the #1 loss pattern; a short has no confirmed reversal against a powerful uptrend and bid book. HOLD with a reconsider on a pullback to VWAP.",
+    "portfolio": "HOLD META - RSI-81 leader pinned under resistance with ~1% room; no confirmed short, wait for a VWAP pullback (~650) to buy the trend."
+  },
+  "timestamp": "2026-07-12T16:04:01.051413+00:00"
+}

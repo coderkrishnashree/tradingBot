@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "INTC/USDT:USDT",
+  "size": 0.0,
+  "entry": 95.74,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.16,
+  "playbook": "none",
+  "forecast": "Thin Sunday tape: the 95.17 breakout likely stalls/fades back toward the 94.2-94.5 base over the next 2-4 bars as the exhausted 5m (RSI 90) mean-reverts; no clean directional path worth trading.",
+  "expectancy_note": "p(win) ~0.45 either direction; no setup clears R:R 1.5 \u2014 long chases a bearish-divergent 5m pop, short front-runs an unconfirmed vol-4x breakout. HOLD beats both.",
+  "rationale": "Composite conf 0.8% FLAT, regime chop + regime_blocked, ADX 8.9, 4h trend down with bearish divergence \u2014 the 15m breakout is a low-TF spasm against the dominant tape into a CLOSED, gappy market with FOMC in 48h. Crowded longs (L/S 2.22) into an overbought pop are fade fuel, not a long; RS -22.63% makes it the group's weakest horse. Zero size: no edge, no honest stop-to-target geometry.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 96.5,
+    "expires_min": 240,
+    "note": "A hold above ~96.5 would convert the 15m spasm into a confirmed breakout with follow-through despite the closed market, making a trend-continuation long worth re-debating."
+  },
+  "transcript": {
+    "macro": "REGIME: NEUTRAL tilting RISK-OFF. Chip-led weakness, VIX ~18.6. US market CLOSED (Sunday) \u2014 tokenized-equity perps thin/gappy, Monday gap risk. FOMC Jul 28-29 in window. Scan: INTC composite conf 0.8, signal FLAT, tradeable=False (lowest conviction of the group).",
+    "sentiment": "INTC: NEUTRAL, event PAST \u2014 reported Jul 23: big beat (EPS $0.42 vs $0.20 guide), 18A yields 85%, DCAI +59%. Post-earnings drift; binary behind us.",
+    "analyst": "Lowest-conviction name in the scan (conf 0.8, FLAT, regime_blocked, ADX 8.9). 4h trend down with bearish divergence; the 15m vol-4x breakout is a low-TF spasm into an exhausted 5m RSI 90, crowded longs (L/S 2.22) = fade fuel, RS -22.6% weakest horse. No edge, no honest geometry. HOLD.",
+    "portfolio": "HOLD (0.16) \u2014 stand aside; weakest name in the scan, breakout spasm against a down 4h."
+  },
+  "timestamp": "2026-07-26T22:39:51.482326+00:00"
+}

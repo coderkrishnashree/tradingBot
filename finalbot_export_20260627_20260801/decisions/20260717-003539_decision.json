@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "META/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.58,
+  "playbook": "none",
+  "forecast": "Price pinned at VWAP 663.7 after rejecting 666.4; over the next 2-6 bars expect chop between the 661.5 intraday low and 666.4 rejection high. Short becomes valid only on a failed retest at ~666.5 or a decisive break below 661.5 resuming the down-leg toward 655.",
+  "expectancy_note": "No honest R:R: fresh short 663.8 needs stop above 667.5 (~3.7pt) but nearest support target ~661.5 gives <1R; forcing a wider TP is the wide-stop-near-target trap. Waiting for the level flip yields ~2R vs a coin-flip now.",
+  "rationale": "META composite reads short but it's driven by 1h/30m already oversold (RSI 27/36) from an earlier down-leg, while the last three 15m candles show a bounce to 666.4 that just got rejected back to VWAP \u2014 shorting mid-range now is the late-short-into-stretched-tape pattern that gets stopped by the counter-bounce just witnessed. Structure_bias only -0.07 (L/S 1.22, funding flat) = weak short conviction; earnings 12 days out (no <48h catalyst); price at VWAP %B 0.425 gives no edge either way. Highest-expectancy action is to wait for a failed retest of 666.5 or a break below 661.5.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 661.5,
+    "expires_min": 240,
+    "note": "Losing the 661.5 intraday low confirms the bounce is over and the 1h downtrend resumes, opening a cleaner short toward 655 with the rejection high as a defined stop."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF / semis-led: Nasdaq100 -1.5% Thu on valuation-driven AI/semi selloff (breadth okay, not a crash). Rising oil + yields; Netflix -8% AH hurts megacap-growth sentiment. HOSTILE-to-MIXED for longs, supportive for shorts/trend-down. No FOMC in window. META: 662, RS +14.5% vs BTC, corr 0.39, not a semi \u2014 trades on megacap-growth sentiment that is souring; RS leader rolling over but structure_bias only -0.07.",
+    "sentiment": "META earnings Q2 2026 Wed Jul 29 after close (~12d out, OUTSIDE 48h window). No fresh <=48h catalyst. Stock firm but trades with mega-cap tech/AI beta into the selloff; lower AI-correlation than pure semis. Neutral-to-mildly-positive on its own; main risk is being dragged by the tech-bubble tape.",
+    "analyst": "Composite short is driven by oversold 1h/30m from an earlier leg; on 15m price bounced 662->666.4, got rejected, sits at VWAP mid-range (%B 0.425). Fresh short entry 663.8 with stop above 667.5 targets only ~661.5 = <1R, R:R fails. Short only valid on a failed retest of 666.5 or a break below 661.5. HOLD is highest expectancy.",
+    "portfolio": "HOLD META \u2014 no honest R:R mid-range at VWAP; arm short trigger on break below 661.5."
+  },
+  "timestamp": "2026-07-17T00:35:39.469238+00:00"
+}

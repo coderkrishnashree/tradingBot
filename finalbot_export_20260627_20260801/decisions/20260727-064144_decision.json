@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "NVDA/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Thin Sunday-overnight tape coiling 208.3-209.6; likely continues to drift/chop in this band into Monday's US cash open. No clean next move to trade until either the 4h bearish divergence resolves down through ~207.5 or price breaks the 210.6-214.6 supply ceiling.",
+  "expectancy_note": "p(win) ~0.48 (learned) either way; long is a chase into RSI71 + bearish divergence + extreme funding, short has no rejection yet \u2014 best expectancy is flat until confirmation.",
+  "rationale": "NVDA is a tokenized equity trading on a thin closed-market Sunday session ahead of a binary FOMC Wed. Composite is a weak long (45% conf) but it sits on a 4h bearish divergence, RSI 71 / bb%B 0.83 (stretched into resistance), funding +0.13% with L/S 1.75 (crowded long, structure_bias -0.62) and p_win_learned 0.485 \u2014 the exact 'crowded long catching a falling semi knife into Fed' setup. Recent 15m bars are a low-volume grind, not a breakout or a rejection, so neither direction has a confirmed trigger with R:R >= 1.5.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 207.4,
+    "expires_min": 240,
+    "note": "Losing the 208 overnight base / prior consolidation floor confirms the 4h bearish divergence resolving down and opens a short toward support 201.9."
+  },
+  "transcript": {
+    "macro": "Regime MIXED-to-HOSTILE. FOMC Jul 28-29 binary event; SEMI selloff sharp (SOXX -12.9% 2-day, -17% MTD). Cross-cutting: crowded-long book, positive/extreme funding, RSI 70s-80s, flush risk. Semis (NVDA/TSM/MU/SNDK) weakest sector tone. NVDA funding 0.13% (positive), L/S 1.75 (crowded long), BEARISH DIVERGENCE flagged, p_win_learned only 0.485 (below coinflip). Monday bounce could be a dead-cat. Verdict: skip or half-size.",
+    "sentiment": "FOMC Wed biggest \u226448h catalyst. NVDA: no near-term earnings (Aug 26). Mixed sector tone \u2014 TSMC strong Q2 + $100B added Arizona capex, but TSMC's capex guide triggered a memory-stock selloff mid-July. Trades on Nasdaq/FOMC into Wed. Neutral, macro beta.",
+    "analyst": "Weak long composite (45% conf) undercut by a 4h bearish divergence, RSI 71 into resistance 214.6, extreme +0.13% funding with a crowded 1.75 long book (structure_bias -0.62) and sub-coinflip p_win 0.485 \u2014 a textbook crowded-long-into-Fed trap on a semi sector down 17% MTD. Thin Sunday session, gappy. No confirmed breakout or rejection, so no direction clears R:R 1.5. Watching a break below 207.4 (confirms divergence, opens short to 202) or a reclaim/break of 214.6 (validates continuation).",
+    "portfolio": "HOLD flat \u2014 crowded long with bearish divergence into FOMC; short on a loss of 207.4."
+  },
+  "timestamp": "2026-07-27T06:41:44.286029+00:00"
+}

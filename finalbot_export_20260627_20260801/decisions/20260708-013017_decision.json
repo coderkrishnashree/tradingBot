@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "XAG/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.55,
+  "playbook": "none",
+  "forecast": "Price just squeezed off the 59.67 low on a 24k-volume spike and is stalling at 60.1-60.3; expect a further reflex bounce toward VWAP/60.7-61.0 over the next few bars before sellers reload, OR a fresh flush through 59.67. Neither offers a clean entry from 60.10.",
+  "expectancy_note": "Short thesis is right (ADX 57 downtrend, L/S 3.14 offside longs, firm DXY, hawkish minutes) but entry location is wrong: RSI 28, %B 0.067, -2.6% below VWAP into a fresh volume-spike bounce = chasing an oversold extreme where macro flags +8% squeeze risk. Better R:R to short a bounce back toward VWAP (~60.7-61.0) with stop above 61.5, not the band low.",
+  "rationale": "Everything favors a short bias, but shorting at the lower Bollinger band after a volume-spike reflex bounce is exactly the poor-location entry that gets stopped by the violent bounces the macro note warns about (up to $65). A short from 60.10 would need a stop above ~61.5 (>1.5x ATR) with TP1 only near 59.67 - sub-1.5 R:R and wrong side of noise. I want the bounce into VWAP to short into strength; a fresh long is out (against a 57-ADX downtrend, crowded, hawkish FOMC minutes today). HOLD and arm the trigger.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 60.7,
+    "expires_min": 240,
+    "note": "A bounce back to VWAP/60.7 offers the high-R:R short entry into strength: stop above 61.5, target back to 59.6/58.5 with the downtrend and offside longs as fuel."
+  },
+  "transcript": {
+    "macro": "Regime: modestly risk-on but late-cycle fragile. Fed dot-plot flipped toward possible HIKE; July FOMC hike odds ~20%. DXY neutral-to-firm (headwind for metals). XAG: macro says FLAT, tactical SHORT only. Long/short 3.14 (max-crowded offside longs), structure_bias -0.297, RSI 28, ADX 57, price ~$60 pinned at lower band, RS -10.9% (worst laggard). Crowded longs into firm DXY = squeeze-lower risk supports short lean. Risk: violent reflex bounces (+8% to $65). Supportive for shorts, hostile for fresh longs. TRIM SIZE.",
+    "sentiment": "XAG NEUTRAL-to-bearish, event risk HIGH. Silver ripped +3.85% to ~$61 Jul 2 on unwind of hike bets; off Jan ATH ~$121, chopping $54-$65 near low end. IMMINENT CATALYST: FOMC minutes published TODAY (Jul 8) - hawkish read = USD up, silver down. Hawkish minutes argues AGAINST longs / supports short bias.",
+    "analyst": "Short thesis is directionally right but entry location is wrong. Price at 60.10 just squeezed off the 59.67 low on a 24k-volume spike and is stalling at 60.1-60.3. RSI 28, %B 0.067, -2.6% below VWAP = oversold extreme where macro warns of +8% reflex bounces. Shorting here needs a stop above 61.5 with TP1 only near 59.67 = sub-1.5 R:R. Wait to short a bounce into VWAP (60.7-61.0). Fresh long is out against a 57-ADX downtrend + hawkish FOMC minutes. HOLD, arm short trigger on a bounce to 60.7.",
+    "portfolio": "HOLD XAG - right short bias, wrong entry; wait for a bounce to VWAP (60.7) to short into strength. Conf 0.55, size 0."
+  },
+  "timestamp": "2026-07-08T01:30:17.029466+00:00"
+}

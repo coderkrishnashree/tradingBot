@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "COIN/USDT:USDT",
+  "size": 0.0,
+  "entry": 161.21,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.4,
+  "playbook": "none",
+  "forecast": "Chop between 160.4 support and ~163.5 mid-range resistance for the next few bars; the $5 fade from 165 already spent the momentum and price is bouncing off 160.40 back to VWAP. A decisive close below 160.4 opens 157/154.3; a reclaim above 163.5 flips it back long.",
+  "expectancy_note": "p(win) ~0.45 either way \u2014 mid-range, ADX 24 (chop), price AT VWAP so no fade edge and no breakout trigger; crowd already short (L/S 0.63) = squeeze risk vs a fresh short, and CLARITY Act hearing tomorrow is a two-way <48h binary. No positive-expectancy entry.",
+  "rationale": "COIN just faded ~$5 from 165 into 160.40 and is bouncing back to VWAP \u2014 the move is done and price sits mid-range (BB %B 0.46), giving neither a clean extreme to fade nor a coiled breakout to trade. Composite short is the weakest on the board (39% conf, blended -0.245, ADX 24 = borderline chop), the crowd is already positioned short (L/S 0.63) which fuels squeeze risk on any bounce, and the July 17 CLARITY Act hearing is a genuine two-way headline binary inside 48h. Shorting mid-range into a defended low with crowd-short crowding is the exact late-short-stopped-by-the-bounce pattern to avoid; wait for the range to resolve.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 160.4,
+    "expires_min": 240,
+    "note": "Losing the 160.40 bounce low confirms the downtrend resumes with clear air to 157/154.3, turning the weak short into an actionable break \u2014 re-debate for a short entry on that break."
+  },
+  "transcript": {
+    "macro": "RISK-OFF/defensive. Nasdaq -1%, semis hit, Fed hawkish, 10y 4.58%. Environment favors shorts. COIN (equity perp) last 161.21, short bias but WEAKEST conviction (39% conf), L/S 0.63 (crowd already SHORT -> squeeze risk on bounce), tiny OI, thin. BTC-corr 0.65, rel-strength +1.37%. Crypto-proxy into risk-off is a short tailwind but earnings approaching and thin off US hours -> smaller size.",
+    "sentiment": "COIN (treat as EQUITY): tone mixed/heavy, stock -30% YTD, Q1 weak (rev -31% YoY, net loss ~$394M). Near-term catalysts: (1) CLARITY Act crypto-regulation hearing July 17 (tomorrow) = genuine <=48h two-way headline binary; (2) Q2 earnings July 30 (awareness only). Moves with BTC/crypto flows. Tokenized US equity -> can gap/trade thin around cash session and hearing headlines. July 17 hearing argues for caution on any directional position.",
+    "analyst": "No positive-expectancy entry: COIN already faded ~$5 from 165 into 160.40 and is bouncing to VWAP, sitting mid-range (BB %B 0.46) with ADX 24 (chop) \u2014 no clean extreme to fade, no breakout trigger. Weakest composite on the board; crowd already short (L/S 0.63) fuels squeeze risk; CLARITY Act hearing tomorrow is a two-way <48h binary. HOLD and wait for the range to resolve; a close below 160.4 opens a cleaner short toward 157/154.3.",
+    "portfolio": "COIN: HOLD, conf 0.40, size 0 \u2014 weakest edge, chop into a July-17 binary; reconsider on break below 160.4."
+  },
+  "timestamp": "2026-07-16T18:34:37.004926+00:00"
+}

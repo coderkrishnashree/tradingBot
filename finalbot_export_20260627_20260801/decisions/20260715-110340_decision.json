@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "SNDK/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.34,
+  "playbook": "none",
+  "forecast": "Two-sided: last 15m bar reclaimed its high (1711.73 open to 1727.53 close on rising volume) bouncing off the 1706-1711 flush low, but lower-TF RSI is oversold (15m 31, 30m 29) and shorts are already crowded (L/S 0.85, orderbook -0.386). Expect chop 1706-1755 next few bars; direction only resolves on a break of that box.",
+  "expectancy_note": "No side clears R:R 1.5 here: long to ~1750 TP1 is ~1R vs ~1R risk below 1706; short chases oversold LTFs into a fresh reclaim bar (the account's #1 loss pattern). p(win) ~50/50 either way = negative expectancy after 4% ATR noise. HOLD beats both.",
+  "rationale": "SNDK is a 4%-ATR, $1700-notional parabolic name in a chop regime (ADX 18.4, regime_blocked) with the US cash market thin until 13:30 UTC, and no near structure (support 1491, resistance 1987) to anchor an honest stop close to entry. A long has under-1.0 R:R to the first shelf; a short means chasing 28-31 RSI right as the last bar reclaimed its high with volume - textbook late-short-into-bounce. Neither is a fundable edge, so size is zero until price picks a side.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 1755,
+    "expires_min": 240,
+    "note": "Reclaiming the 1755 post-flush shelf / VWAP zone proves the bounce off 1706 has legs and flips this to a fundable long with a stop back under 1706."
+  },
+  "transcript": {
+    "macro": "Mildly risk-on for tech but hawkish-tail (cooler June CPI, July hike odds ~17%, ~60% by Sept FOMC; semis leading). SNDK/BTC corr ~0.036 so crypto beta irrelevant; US cash thin until 13:30 UTC. SNDK: MIXED-to-HOSTILE for immediate entry \u2014 parabolic (#1 S&P stock 2026, +707% YTD on AI/NAND squeeze; Goldman $2,200, Bernstein $3,000) but mid-pullback and knifing lower: 15m/30m short, RSI 31/29, RS -30.7% vs BTC in-window, bb_width 22%, ATR 3.95% extreme. Composite regime-blocked/flat. Positioning no edge: funding 0, OI 7,097, L/S 0.85, orderbook -0.386, structure_bias -0.07. SMALLER-SIZE name regardless of direction \u2014 volatility is the risk, not the thesis. Earnings Aug 5 (outside window).",
+    "sentiment": "Strongly bullish NARRATIVE but \u226448h read is 'extended, no fresh binary.' NAND shortage story: top S&P 500 performer 2026 (~700-800% YTD), TrendForce Q2 NAND contract +70-75% QoQ, SanDisk pushing double-digit price hikes \u2014 durable fundamental tailwind. Binary OUTSIDE window: fiscal Q4/FY26 earnings ~Aug 5. Low-weight noise: PT-hike wave this week (Bernstein $3,000, Evercore $3,100, Goldman $2,200, Wedbush $2,000) \u2014 long-horizon, confirm crowding/euphoria more than a 48h move. Near-term: badly extended, consensus-crowded, no fresh catalyst \u2014 a two-sided momentum/mean-reversion coin-flip; main hazard is sharp air-pocket pullbacks after the parabolic run. Near-term news NEUTRAL; let price structure lead.",
+    "analyst": "Last 15m bar reclaimed its high off the 1706-1711 flush low on rising volume (bullish), but lower-TF RSI is oversold (15m 31, 30m 29), shorts are already crowded (L/S 0.85, orderbook -0.386), regime is chop (ADX 18.4, regime_blocked), ATR an extreme 3.95% on a $1,700 notional, and US cash is thin until 13:30 UTC. No near structure (support 1491, resistance 1987) means neither side clears R:R 1.5 without a dishonest wide stop \u2014 a long is ~1R to the first shelf, a short chases oversold tape into a reclaim bar (the account's documented #1 loss pattern). No fundable edge; size zero until price picks a side.",
+    "portfolio": "SNDK/USDT:USDT \u2014 HOLD (conf 0.34). No entry; armed long-side reconsider at 1755 (post-flush/VWAP shelf reclaim) that would flip it to a fundable long with a stop under 1706."
+  },
+  "timestamp": "2026-07-15T11:03:40.398050+00:00"
+}

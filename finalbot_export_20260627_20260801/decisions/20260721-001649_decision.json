@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "COIN/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Price stalling at 161.4-161.7 after a 1% grind; expect chop between 160.4 and 161.7. A clean 15m close above 161.7 reopens continuation toward 163-164; failure to hold 160.4 tips it back toward VWAP/154 support but that short is the account's losing side.",
+  "expectancy_note": "p(win)~0.5 either way; no edge. Long faded by bearish 4h div + hostile macro; short is the account's worst direction (win 0.48, avg -0.73) and price isn't extended enough to fade.",
+  "rationale": "COIN is mid-range (161 vs S 152.9 / R 168.65), pure BTC-beta (corr 0.63, rel-str -0.25) with BTC range-bound and macro risk-off. The 15m grind higher is exhausting into resistance - last bar closed red near its lows with a bearish 4h divergence and orderbook imbalance -0.25 - so a fresh long lacks confirmation and R:R. A short is against the account's proven weakness and price isn't stretched enough to fade. Wait for a real trigger.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 161.7,
+    "expires_min": 180,
+    "note": "A 15m close above the 161.7 swing high confirms the stalled grind resumes as continuation, opening a run toward 163-164."
+  },
+  "transcript": {
+    "macro": "MIXED-to-HOSTILE. Risk-off, hawkish Fed, rising yields. Crypto WEAK/OVERSOLD, no alt bid: BTC ~$64k range-bound, Fear&Greed 29, BTC dominance 56.4% holding. COIN high BTC correlation (0.63). Tokenized equity: thin/gappy off-hours.",
+    "sentiment": "COIN: earnings July 30 after close - OUTSIDE 48h, not a near-term driver. No fresh listing/hack/reg shock. Q2 rev guide $1.6B. Crypto-beta (corr 0.63 BTC, 0.86 MSTR). Scan flags bearish 4h divergence. Avoid multi-day holds straddling July 30.",
+    "analyst": "Mid-range, pure BTC-beta with BTC range-bound and macro risk-off. 15m grind exhausting into resistance - last bar red near lows, bearish 4h divergence, orderbook -0.25 - so fresh long lacks confirmation/R:R. Short is against account's proven weakness. Wait; 161.7 close = continuation long.",
+    "portfolio": "HOLD COIN - mid-range no-edge; arm reconsider at 161.7."
+  },
+  "timestamp": "2026-07-21T00:16:49.264053+00:00"
+}

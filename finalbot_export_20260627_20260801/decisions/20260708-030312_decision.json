@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "EWJ/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Thin off-hours grind between 92.14 support and 93.5; likely a shallow relief bounce toward 93.9-94.2 (VWAP) over next bars before the downtrend can resume. No clean short here.",
+  "expectancy_note": "Short at 93.07 into support 92.14 (only ~1.3x ATR away) with bullish divergence + oversold RSI31 + BB%B 0.045 + stacked bids (+0.21) = R:R <1.5 and high bounce risk; negative expectancy. Better to short a bounce into 94 or a confirmed break of 92.14.",
+  "rationale": "EWJ is macro-bearish and every TF reads short, but the tape is stretched to an extreme: ADX 81, RSI 31, price pinned at the lower Bollinger band right on 92.14 support with a bullish divergence and bids stacked in the book (L/S 1.60 crowded long, imbalance +0.21). Selling the hole here chases into the level where a relief bounce is most likely, and off-hours zero-volume candles make fills gappy and unreliable. Wait to sell strength near VWAP/94 or a decisive loss of 92.14 rather than short mid-air at support.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 92.14,
+    "expires_min": 240,
+    "note": "A clean 15m close below 92.14 support voids the bounce thesis and confirms trend continuation \u2014 arm the short for a run toward 91.3/90.8."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF. Global chip/AI selloff; oil +5%, yields up; Asia worse (Kospi ~-5% circuit breaker, Nikkei -1.75%). US cash equities closed off-hours \u2014 tokenized equity pairs thin/gappy until 13:30 UTC. Shorts crowded & oversold; relief-bounce risk. EWJ read: short-supportive but thin (Nikkei under Samsung/AI pressure, ADX 81 extended, L/S 1.60 crowded long = contrarian short fuel, but bullish divergence + near support $92.14 warns of a bounce; trade small; Japan ETF distribution selling 7/8 & 7/10 expected to ease).",
+    "sentiment": "Risk-off AI-rotation tape; Asia rout. EWJ: Nikkei at 3-week lows, AI-trade unwind spilling from Korea/Samsung, BOJ now at 1% (30-yr high) with more hikes flagged, weak-yen tug-of-war. Momentum and macro point down near-term. Net bearish, supports short.",
+    "analyst": "EWJ at 93.07 (support 92.14, resistance 96.65). RSI 31, ADX 81 (extremely extended), BB %b 0.045 (lower band), stoch 23, vwap_dist -1.42%, ATR% 0.73, bullish 4h divergence. L/S 1.603 crowded long, orderbook imbalance +0.211 (bids stacked). All TFs short. Off-hours tape: frozen/zero-volume bars, a flush to 92.36 then recovery to 93.07-93.48. Short into 92.14 support (~1.3x ATR away) against oversold + divergence + stacked bids = R:R <1.5 with high bounce risk. Wait to sell a bounce near VWAP/94 or a confirmed break of 92.14.",
+    "portfolio": "HOLD EWJ \u2014 bearish bias but extended into support off-hours with bounce risk; arm short on a clean break below 92.14."
+  },
+  "timestamp": "2026-07-08T03:03:12.029014+00:00"
+}

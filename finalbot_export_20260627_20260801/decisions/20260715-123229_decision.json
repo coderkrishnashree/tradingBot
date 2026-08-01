@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "MSFT/USDT:USDT",
+  "size": 0.0,
+  "entry": 387.05,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Coiling at VWAP between 385.4 support and the 388.4 cap; over the next few bars expect continued 385.5-388.4 chop with no directional edge until one side breaks.",
+  "expectancy_note": "p(win) ~0.50 either way; no extreme to fade, no pullback-to-support to buy, no breakout trigger fired \u2014 R:R with honest close stops is <1.5, so no-trade beats a coin-flip entry.",
+  "rationale": "MSFT is pinned at VWAP (dist +0.12%) with RSI 49 and BB %B 0.55 \u2014 dead-center, no edge. The 388.38 high has capped price twice on fading volume and last bars are flat at 387.0; the composite is a weak 52.9% long (p_win_learned 0.497) against a mildly bearish AI-capex narrative and a crowded-long L/S 1.85 contrarian drag. There is no structural entry with R:R>=1.5 here, so HOLD is the highest-expectancy call; wait for the coil to resolve.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 388.4,
+    "expires_min": 240,
+    "note": "A 15m close above the twice-rejected 388.4 cap confirms the 4h-uptrend/soft-long thesis and opens a run toward 391-395.85, turning the HOLD into a trend-continuation long."
+  },
+  "transcript": {
+    "macro": "2026-07-15 risk-ON, supportive for megacap tech. Soft June CPI (-0.4% m/m, 3.5% y/y vs 3.8% exp) crushed July hike odds (17% from 42%); indices green, tech leading. Tokenized equities driven by Nasdaq/rates tape (favorable), not crypto. PPI on deck adds intraday sensitivity but nothing forcing smaller size in 48h; perps thin/gappy off US hours. MSFT last 387.05: funding flat, OI ~4,768, L/S 1.85 (crowded-long, contrarian drag), orderbook +0.35, net structure_bias -0.15. RS +0.79% vs BTC (in-line). Scan soft long 52.9%, 4h up, RSI ~49. Earnings Jul 29 (14d) \u2014 no gap risk in window.",
+    "sentiment": "MSFT lean BEARISH/cautious. Down ~3% recently (~$379) as investors punish AI-capex story: ~4,800 layoffs to fund ~$190B CY2026 AI/Azure capex; Wolfe flagged surging memory prices could push FY27 capex toward $270B and FY27 FCF negative \u2014 live narrative weighing on tape. No \u226448h binary; Jul 29 earnings outside window. Near-term news argues mildly AGAINST a long despite scan's soft-long lean.",
+    "analyst": "Price pinned at VWAP (+0.12%), RSI 49, BB %B 0.55 \u2014 dead-center, no extreme to fade and no pullback-to-support to buy. 388.38 high capped twice on fading volume, last bars flat at 387.0. Composite weak 52.9% coin-flip long (p_win_learned 0.497) against mildly bearish capex sentiment and crowded-long L/S 1.85 contrarian drag. No honest R:R>=1.5 structural entry. HOLD is highest-expectancy; armed upside re-debate trigger on 15m close above 388.4 (breakout of twice-rejected cap into intact 4h uptrend toward 391-395.85).",
+    "portfolio": "HOLD MSFT \u2014 balanced chop at VWAP, no R:R>=1.5 entry; re-debate on 15m close > 388.4."
+  },
+  "timestamp": "2026-07-15T12:32:29.047712+00:00"
+}

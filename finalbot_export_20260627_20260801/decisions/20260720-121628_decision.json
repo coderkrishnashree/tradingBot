@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "XAG/USDT:USDT",
+  "size": 0,
+  "entry": 56.87,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Chop between 56.75 support shelf and the rejected 57.30-57.60 breakout zone over the next 2-4 bars; last 15m bar closed on its low after a failed poke to 57.59, so near-term drift is sideways-to-soft until 57.30 is reclaimed or 56.75 breaks.",
+  "expectancy_note": "p(win) too low both ways: long = chasing a just-rejected breakout into extreme crowded-long (L/S 3.9, bias -0.25); short = fading an ADX-56 HTF uptrend with bullish divergence and support at 54.85. R:R unattractive either direction; HOLD until 57.30 confirms.",
+  "rationale": "TFs disagree (aligned:false): 1h/4h long but 15m/30m flat-to-short, and the immediate tape shows the $57.30 breakout poked to 57.59 then rejected, last bar closing on its low. Extreme crowded-long (L/S 3.9, structure_bias -0.25) plus rel strength -14.2% means longs are over-owned in a laggard, while ADX 56 uptrend + bullish divergence makes a fade equally risky. No clean, close-to-price entry that clears R:R 1.5.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 57.3,
+    "expires_min": 240,
+    "note": "A 15m close reclaiming and holding above the 57.30 breakout aligns LTF momentum with the 1h/4h uptrend and confirms the breakout that just got rejected - flips this to a long toward 58.5/59.9."
+  },
+  "transcript": {
+    "macro": "RISK-OFF, fragile. Middle East tension + rising fuel add an inflation tail (can support metals). XAG top-ranked by composite (~41.8) but extreme crowded-long: L/S 3.9 (highest, bias -0.25); rel strength -14.2%. FOMC Jul 28-29 (outside window) is rate-sensitive for silver. Net: MIXED - best composite in set but crowded-long.",
+    "sentiment": "XAG mixed/choppy. Sixth straight annual supply deficit (bullish structural) vs stalled rally after -6% week. Bullish divergence + $57.30 breakout level. Rate-sensitive to FOMC. No 48h binary; range $54-63.",
+    "analyst": "Timeframes disagree (1h/4h long, 15m/30m flat-to-short); the $57.30 breakout poked to 57.59 then rejected, last bar closing on its low. Extreme crowded-long and laggard RS make a long a chase, while the strong ADX-56 HTF uptrend + bullish divergence make a fade risky. No close-to-price 1.5R entry. Wait for a hold above 57.30 to confirm.",
+    "portfolio": "HOLD XAG - best composite but a just-rejected breakout with extreme crowded-long and disagreeing timeframes; a 57.30 reclaim arms the long."
+  },
+  "timestamp": "2026-07-20T12:16:28.007373+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "INTC/USDT:USDT",
+  "size": 0.0,
+  "entry": 106.22,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Price just crashed to 105.72 and closed 106.22 with 15m/5m RSI 13-15 - expect a 1-3 bar oversold bounce toward the broken 106.7-107.3 zone; if it stalls there sellers resume toward 105/101.3, if it reclaims 106.7 the washed-out snap-back extends higher.",
+  "expectancy_note": "No clean edge: shorting RSI-15 into a fresh vertical breakdown on a risk-ON semis +2.5% tape is the account's classic late-short trap (bounce stops it); a long fights a confirmed -30% rel-strength breakdown with no reversal confirmation. Both sub-1.5R here.",
+  "rationale": "INTC (treat as equity - crypto structure noise) just did a violent vol-2.2x breakdown through 106.7 and closed near the low with LTF RSI 13-15, deeply oversold into a risk-ON bounce day. Chasing the short now invites a routine counter-bounce into any honest stop, and there is no confirmed reversal signal to justify a long against the -30% rel-strength downtrend. Best expectancy is to wait: let the oversold bounce reach the 106.7 retest and see whether it rejects (short) or reclaims (bounce/long). Earnings July 23 is outside the 48h window - not tradable, but flags rising vol for any hold.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 106.7,
+    "expires_min": 240,
+    "note": "Reclaiming the broken 106.7 breakout level invalidates the short and confirms the oversold snap-back the risk-ON tape favors - flips me toward a bounce/long."
+  },
+  "transcript": {
+    "macro": "Risk-ON today but a one-day relief bounce. June CPI soft cut Fed hike odds ~42%->17%; Nasdaq +0.67%, semis +2.5%. BTC 65,075 +1.4% but bouncing within a downtrend; dominance ~56%. Crowd long across the board. INTC last 106.2, SHORT breakout confirmed (level 106.7, vol 2.23x), regime chop/blocked, rel-str -30%, L/S 1.90 crowded long into weakness (bias -0.29). Lower-tf RSIs washed out (15m 15, 5m 13) - weakest chart of the group; leans short but oversold enough to snap back on the risk-on tape.",
+    "sentiment": "Overall MIXED. INTC: the one real <=48h-adjacent binary is earnings July 23 after close (~8 days out, just OUTSIDE the 48h window - not yet tradable, but pre-earnings vol builds). Down ~21% in 7 days on 18A yield/profitability doubts; deeply divided Street (HSBC PT $200 vs JPMorgan top short). Foundry (18A-P, possible Apple deal) is the swing factor. Bearish-momentum with a looming binary; near-term 48h news neutral.",
+    "analyst": "INTC did a violent vol-2.2x breakdown through 106.7, closed near the low with LTF RSI 13-15 - deeply oversold into a risk-ON bounce day. Chasing the short invites the counter-bounce that stops late shorts; no reversal signal for a long against -30% rel-strength. HOLD; let the bounce retest 106.7 - reject = short, reclaim = long. Earnings 7/23 flags vol for any multi-day hold.",
+    "portfolio": "INTC: HOLD (conf 0.50) - washed-out post-breakdown, don't chase; arm on the 106.7 retest resolution."
+  },
+  "timestamp": "2026-07-15T14:07:53.743371+00:00"
+}

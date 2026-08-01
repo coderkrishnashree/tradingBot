@@ -1,0 +1,24 @@
+{
+  "action": "hold",
+  "symbol": "EWJ/USDT:USDT",
+  "size": 0.0,
+  "entry": 91.61,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.34,
+  "playbook": "none",
+  "rationale": "The EWJ perp is untradeable overnight \u2014 near-zero volume, multiple flat identical candles at 91.61, and US cash market closed, so any stop/target is fantasy against gap risk. Technically price is stretched into the upper band and overbought (%B 0.92, stoch 89, +1.1% VWAP) while short-term sentiment is bearish-leaning (Nikkei -4% Jul 17, momentum down) and positioning is crowded long (L/S 1.68), so there is no edge either direction. Size 0; the only clean setup is a volume-backed break of the range once liquidity returns.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 94.82,
+    "expires_min": 240,
+    "note": "A volume-backed reclaim/break of resistance 94.82 confirms the bullish Nikkei backdrop is winning through the illiquidity and justifies a real long."
+  },
+  "transcript": {
+    "macro": "RISK-OFF/defensive, thin overnight (US cash CLOSED). EWJ (Japan): Nikkei backdrop strong (yen at 40-yr low) BUT the perp is untradeable overnight \u2014 near-zero volume, flat candles, illiquid, crowded long (L/S 1.68). Execution is the problem; tiny size only. BOJ Jul 30 (outside window).",
+    "sentiment": "EWJ BEARISH-leaning, event risk: Nikkei plunged ~4% Jul 17 to a one-month low on global semi selloff + US-Iran oil/inflation fears. BOJ Jul 30 main vol driver. Weak yen cushions exporters, index +37% YTD, but near-term momentum turned down; thinly traded on token side.",
+    "analyst": "Dead tape \u2014 last ~5 15m candles print identical o=h=l=c with 0.0 volume around 91.61. Overbought and stretched while short-term sentiment bearish and positioning crowded long. No honest entry/stop against gap risk. Size 0; break of 94.82 on volume is the only clean setup.",
+    "portfolio": "HOLD EWJ \u2014 untradeable overnight (zero volume); breakout above 94.82 armed once liquidity returns."
+  },
+  "timestamp": "2026-07-21T05:45:48.515095+00:00"
+}

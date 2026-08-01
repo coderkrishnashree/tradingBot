@@ -1,0 +1,23 @@
+{
+  "symbol": "TSM/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.38,
+  "size": 0.0,
+  "entry": 398.49,
+  "stop_loss": 398.49,
+  "take_profit": 398.49,
+  "rationale": "TSM is a tokenized equity and US markets are CLOSED (Saturday) - the candles show a dead, near-zero-volume synthetic tape pinned at ~398.5, so no intraday move can be traded and the only real event is an uncontrollable Monday gap. The bearish bias (crowded L/S 2.447, orderbook -0.321, RS -16%, semis AI-capex de-rate) is correct directionally but 1h RSI 31.9 and VWAP -2.35% show the down-leg already stretched, and shorting a stretched illiquid tape into a weekend gap is the account's classic late-short loss. Best expectancy is to stay flat and arm a trigger for a real Monday break below 386.81.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 386.81,
+    "expires_min": 2880,
+    "note": "Losing support 386.81 on real Monday volume confirms the semis de-rate resuming - clean continuation-short trigger."
+  },
+  "transcript": {
+    "macro": "Regime risk-OFF into weekend (Fri 7/17: S&P -1.0%, Nasdaq -1.4%, VIX ~18.8; Nasdaq -2.9% on week, semis smoked on AI-capex fears). Saturday: US equity markets CLOSED; all equity/ETF tokens on thin weekend perp, near-zero volume, prices pinned. Weekend gap risk into Monday cash open is the dominant hazard. TSM: Q2 beat 7/16 but stock gave back ~10% in sector AI-capex de-rate; earnings behind it, pure semis-beta now; L/S 2.45 crowded long supports short, RS -16% vs BTC.",
+    "sentiment": "AI/semi sell-off in progress: TSMC beat 7/16 but hiked FY26 capex to $60-64B, spooking AI-spend-sustainability trade (SMH -~9%). TSM: capex hike is the fresh bearish catalyst still bleeding; no new binary in 48h, continuation of Thu/Fri weakness; weekend close gaps Monday. Sentiment-continuation, not new catalyst.",
+    "analyst": "p_win_learned 0.449 (sub-coinflip), ADX 23 weak trend, VWAP -2.35% already extended down, 5m +0.598 bounce brewing. Frozen weekend tape pinned 397-399 on near-zero volume; no honest R:R measurable. Directionally bearish for Monday but untradeable weekend tape with dominant gap risk. HOLD; short trigger armed on a break below 386.81.",
+    "portfolio": "HOLD TSM - bearish bias but frozen weekend tape, no edge; short armed on 386.81 break."
+  },
+  "timestamp": "2026-07-18T16:08:52.393756+00:00"
+}

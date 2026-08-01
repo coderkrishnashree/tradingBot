@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "SNDK/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.55,
+  "playbook": "none",
+  "forecast": "Price is chopping between the 1583 session low and the 1611-1620 broken shelf after rejecting 1670; next few bars likely oscillate 1585-1615 as the weak bounce (30m RSI already 30) fights the down-momentum. Clean break of 1583 opens 1560/1540; reclaim of 1620 resumes the uptrend toward 1650.",
+  "expectancy_note": "No clean edge: fresh long chases +9% above VWAP / RSI 76 into a bearish sector unwind; fresh short is late into a 30m-oversold bounce and shorts have been losing (45% win, -1.21 avg). Both < 1.5R p-weighted, so HOLD is highest-expectancy.",
+  "rationale": "SNDK is deeply extended (+9.15% above VWAP, RSI 76.5, ADX 84.6) and mid-correction inside a bigger uptrend, with sentiment flagging a violent memory-sector unwind (-14% sessions). The 15m tape stair-stepped down from 1670 to 1583 then bounced weakly, leaving price mid-range with no honest entry: a long chases extension, a short is late into 30m-oversold (RSI 30.2) right where the account historically gets stopped by the bounce. Size 0 - wait for structure to resolve rather than force a sub-1.5R trade.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 1583.0,
+    "expires_min": 240,
+    "note": "Losing the 1583 session low confirms the correction extends past the bounce, enabling a cleaner short toward 1560/1540 with the oversold pop already spent."
+  },
+  "transcript": {
+    "macro": "Overall: cautiously risk-on day but hawkish backdrop (~55% odds Sept Fed hike, CPI 4.2%, 10Y ~4.5%); FOMC Jul 28-29 shared swing factor. BTC soft, low BTC correlation targets. Korea/Semis: NAND supercycle real (contract +75% q/q Q2, Gartner +234%/yr; SanDisk rev +251% y/y, GM ~78%, $11B supply guarantees) but SNDK ran ~800%+ YTD and is whipsawing (recent -14% single sessions). SNDK scan: RSI 76.5, ADX 84.6, vwap_dist +9.15% (far extended), bb_width 25%, atr_pct 3.46. structure_bias +0.078 - the ONLY mildly positive of the four (long/short 0.94, orderbook +0.199, not crowded long). BTC corr ~nil; trades on memory/AI headlines + US hours. Read MIXED, structural tailwind real but violently overbought/extended, mid-correction, reduce size.",
+    "sentiment": "Overall risk-off tape, global semi selloff >$2T chip mcap erased in July, Hormuz crisis, hawkish Fed; FOMC Jul 28-29 (~83% hold, ~25% hike tail). SNDK BEARISH near-term, two-sided: ran +635% YTD, now in violent sector unwind - repeatedly dropped 6-7% on Samsung earnings, SK Hynix weak HBM4 outlook, TSMC-driven chip selloff ('if AI is so strong why are memory stocks crashing'). Fundamentals intact (NAND +70-75% QoQ Q2, +10-15% Q3) but multi-quarter, not a near-term input. Earnings Aug 5 (outside 48h) - no imminent binary but holding a crowded high-beta name in a falling sector. Tape favors short side / fading rallies.",
+    "analyst": "SNDK deeply extended (+9.15% over VWAP, RSI 76.5, ADX 84.6), mid-correction inside a bigger uptrend, bearish memory-sector unwind. 15m stair-stepped down 1670->1583 then bounced weakly, leaving price mid-range. No honest entry: a long chases extension; a short is late into 30m-oversold (RSI 30.2) where the account gets stopped by the bounce, and shorts have been losing (45% win, -1.21 avg). Both sides < 1.5R p-weighted -> HOLD size 0, arm short trigger below 1583.",
+    "portfolio": "HOLD SNDK - overbought mid-correction, no clean entry; wait for break of 1583 (short) or reclaim of 1620 (trend-long) (conf 0.55, size 0)."
+  },
+  "timestamp": "2026-07-22T04:31:57.986870+00:00"
+}

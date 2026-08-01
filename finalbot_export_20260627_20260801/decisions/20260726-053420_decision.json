@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "EWJ/USDT:USDT",
+  "size": 0.0,
+  "entry": 91.98,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Tape is frozen (~18 flat 91.93 candles, 0 volume) inside the 89.53-93.34 range; no readable next move until Tokyo/US session reopens. Expect it to sit pinned near 91.9-92.0 off-hours, then re-price on the reopen.",
+  "expectancy_note": "No live tape = fills/stops unreliable and gap-prone; any entry here is a coin-flip with negative edge. HOLD beats a chased breakout on a stale 4h score.",
+  "rationale": "The bullish composite (ADX 62.8, RSI 100) is an artifact of a dead order book, not real momentum \u2014 5m/15m atr_pct is 0.0 and the last real trade tick was 0.02 units. Structure is neutral (tiny OI 2,486, L/S 1.36, funding flat) and a two-sided BOJ Outlook binary lands Jul 30-31, so an equity ETF long carried through would face asymmetric hawkish-surprise yen-strength risk. Off-hours frozen liquidity is the veto: no honest stop can be placed, so size is zero.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 93.34,
+    "expires_min": 240,
+    "note": "A live break above range-high resistance 93.34 on real volume would confirm the tape has reopened and the uptrend is resuming \u2014 worth a trend long then, pre-BOJ only."
+  },
+  "transcript": {
+    "macro": "OVERALL: risk-OFF / event-heavy, size down. FOMC Jul 28-29 (hawkish tilt), jobs report, mega-cap earnings inside 48-72h. 10Y ~4.5-4.67%, DXY 13mo-high. EWJ (equity ETF) MIXED; liquidity is the real problem: tokenized tape frozen \u2014 ~18 consecutive flat/zero-volume 15m candles at 91.93; RSI 100 / atr 0% are no-trade artifacts. Scan 05:29 UTC (Tokyo/US cash closed), thin/gap-prone. Nikkei ~66,400 (briefly 70k), BOJ hiked ~1% June, yen 40yr-lows ~163.84 (weak-yen tailwind, hawkish-BOJ = tail risk). Structure near-neutral (OI 2,486, L/S 1.36, bias -0.107). Execution/liquidity is the veto.",
+    "sentiment": "EWJ constructive but sitting on a LIVE BOJ binary. HARD CATALYST: BOJ meeting concludes Jul 30-31 2026 w/ quarterly Outlook Report \u2014 historically biggest-move sessions. ~96% priced no-change BUT officials open to hiking FASTER than expected = asymmetric hawkish-surprise risk. Yen ~40yr low (USD/JPY >163); hawkish surprise strengthens yen & unwinds carry = headwind for USD-denominated EWJ; dovish hold sustains weak-yen tailwind. Nikkei near 70k, AI/electronics leadership; PM Takaichi reluctant to let BOJ tighten fast. A long carried into Jul 30-31 faces a two-sided binary \u2014 tight sizing / don't hold naked through it.",
+    "analyst": "EWJ 15m tape essentially frozen: ~18 consecutive flat/zero-volume candles at 91.93 then a 0.02-unit tick to 91.98. Bullish indicators (ADX 62.8, RSI 100, composite long 55.7%) are no-trade artifacts riding a stale 4h score (0.9), not tradable momentum. Scan ran off-hours (Tokyo/US closed) \u2014 stops/fills unreliable. Structure near-neutral (OI 2,486, L/S 1.36, funding flat, bias -0.107). Two-sided BOJ Outlook binary Jul 30-31 with asymmetric hawkish yen-strength risk for this USD-denominated Japan ETF. HOLD; re-debate on a real volume break above 93.34.",
+    "portfolio": "EWJ/USDT: HOLD (conf 0.60) \u2014 frozen off-hours tape + live two-sided BOJ binary Jul 30-31; no honest stop. Re-debate on a real-volume break >93.34."
+  },
+  "timestamp": "2026-07-26T05:34:20.947535+00:00"
+}

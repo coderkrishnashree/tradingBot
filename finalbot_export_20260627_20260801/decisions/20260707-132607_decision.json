@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "NVDA/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.55,
+  "playbook": "none",
+  "forecast": "Price is coiling 191.5-192.9 after bouncing off the 190.97 low; likely chops here, either fails at the 193.6-194.2 VWAP/broken-support retest (short entry) or loses 190.16 to accelerate down. At 192.48 mid-range the immediate edge is thin.",
+  "expectancy_note": "Short thesis is valid (ADX 49 downtrend, crowded L/S 1.97, orderbook -0.31) but 4h/1h RSI 26-28 at deep oversold sitting 2 handles above 190.16 support it just bounced from = chasing; p(win) shorting here ~0.45, R:R barely 2 into support. Waiting for a retest short or a break flips expectancy positive.",
+  "rationale": "NVDA is the group's best-aligned short (blended -0.476, structure_bias -0.46, contrarian crowded longs), but price already flushed to 190.97 and bounced; it is now drifting quietly below 193 in no-man's-land, RSI deeply oversold, pre-open thin/gappy 10min before US cash open with FOMC minutes tomorrow. Shorting into support here is chasing a stretched move; the high-expectancy version is a failed retest of 193.6-194.2 (short with trend, stop over 194.3, target 190.2 = ~2.5R) OR a clean break of 190.16. Hold flat until price picks a side.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 190.16,
+    "expires_min": 240,
+    "note": "Losing 190.16 support confirms the downtrend resumes past the oversold bounce and opens 188/VWAP-lower targets for a trend-continuation short; a reclaim-and-reject of 194 would be the alternate short trigger."
+  },
+  "transcript": {
+    "macro": "Risk-on uptrend but hawkish-Fed ceiling. Scan ~13:19 UTC, ~10min pre US cash open -> tokenized-equity perps thin/gappy, size down. NVDA is best-aligned short of the group: comp -0.476 (60.8%), structure_bias -0.46, crowded longs L/S 1.97 (contrarian fuel), orderbook -0.31, funding mildly positive. Sector black sheep (~3-5% YTD vs SOXX +59%), rejecting $198-203. But 4h RSI 26.6 = deep oversold, biggest risk mean-reversion bounce (Goldman 'compelling at 21.7x'). Low BTC corr 0.32.",
+    "sentiment": "US equities open Tue; NVDA earnings far off (Aug 26), no <=48h binary. Only fresh headline: Jul 7 Kyber NVL144 2028-slip report, which Nvidia DENIED -> ~1% pop, mild positive partly priced. Weak Jul 7 jobs print (NFP 57K vs 115K) = dovish repricing lifting risk. Hard <=48h catalyst for the whole tape: FOMC minutes Wed Jul 8 2pm ET. Near-term neutral-to-slightly-supportive, so a short rides technicals/macro not a bearish catalyst.",
+    "analyst": "Best-aligned short of the group but price already made the oversold flush (4h RSI 26.6, low 190.97) and bounced ~2 handles; now stalling at 192.48 mid-range on drying volume. Shorting into 190.16 support with stochastic 19.9 is chasing. Prefer to arm a break-of-support trigger or a failed VWAP retest rather than enter mid-air pre-open with FOMC minutes tomorrow adding gap risk. R:R and probability both improve by waiting for the level to break or the retest to fail.",
+    "portfolio": "HOLD NVDA \u2014 valid short thesis but chasing into oversold support pre-open; flat with a short trigger armed on a break of 190.16 (conf 0.55)."
+  },
+  "timestamp": "2026-07-07T13:26:07.822466+00:00"
+}

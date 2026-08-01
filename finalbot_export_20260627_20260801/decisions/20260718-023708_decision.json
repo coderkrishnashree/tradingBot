@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "META/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Selling has stalled: last ~8 15m bars coil flat between 638.3 and 639.7 after the big-volume 640->638 flush, with 4h RSI 23.5 and %b 0.1 pinned to the lower band. Expect chop/oversold-bounce toward the 640-645 VWAP zone rather than clean continuation down; only a decisive break of 626.46 support reopens the short.",
+  "expectancy_note": "Short here is negative-expectancy: p(win)~0.40 into RSI 23.5/ADX 75 stretched tape with NO positioning fuel (L/S 1.08, bias -0.013) and +9% relative strength. Long is not confirmed either (risk-off tech, weekend, resistance 51pts up). HOLD beats both.",
+  "rationale": "META is a positive-RS outperformer basing at its lows into a weekend perp vacuum (US cash closed until Mon) - shorting a deeply oversold, un-crowded name is the account's textbook late-short loss pattern (stopped by the bounce before trend resumes). No short crowding to fuel continuation and no reclaim yet to justify a long, so no clean R:R>=1.5 setup exists in the ~48h window.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 626.46,
+    "expires_min": 240,
+    "note": "Losing 4h support 626.46 breaks the base and proves the downtrend resumed - flips this to a valid trend-continuation short."
+  },
+  "transcript": {
+    "macro": "2026-07-18 Saturday - US equity underlyings closed until Mon; weekend perp vacuum, thin liquidity, gap risk. Regime RISK-OFF/tech unwind (Nasdaq -2.9% wk, SMH ~-9% on AI-valuation de-rate); rates a mild tailwind (soft June CPI). Supportive for shorts broadly. META: last 638.9, RS +9.1% vs BTC (relative OUTPERFORMER), positioning near-neutral (L/S 1.08, structure_bias -0.013) so no squeeze fuel and limited contrarian risk; scan short signal strong but 4h RSI 23.5 deeply oversold - chase/mean-reversion bounce is the danger.",
+    "sentiment": "META tone bullish/high-momentum but stretched - best week since early 2024 (~15%) on 'Meta Compute Cloud' + Superintelligence releases. Q2 earnings Wed Jul 29 (outside window) sets a buy-the-strength bid arguing against pressing shorts. Near-term NEUTRAL-to-slightly-AGAINST a short.",
+    "analyst": "Selling stalled/coiling 638.3-639.7 after the flush; RSI 23.5, %b pinned low. No short crowding to fuel continuation and no reclaim to justify a long. Shorting a deeply oversold, positive-RS, un-crowded name into a thin weekend is the textbook late-short loss pattern. No clean R:R>=1.5 in the 48h window. Re-arm a short only on a decisive break of 626.46.",
+    "portfolio": "HOLD META - no clean edge either side into stretched, thin weekend conditions; watch 626.46 for a break to re-arm the short."
+  },
+  "timestamp": "2026-07-18T02:37:08.444672+00:00"
+}

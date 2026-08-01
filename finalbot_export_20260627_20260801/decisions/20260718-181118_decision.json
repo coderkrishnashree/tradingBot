@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "QQQ/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Thin weekend chop in a ~1pt band (694.9-695.9) on near-zero volume; expect continued drift, resolving only when 688.09 support cracks (downtrend resumes toward 685) or 697.5 reclaims (oversold bid squeeze). No clean next move now.",
+  "expectancy_note": "No side clears R:R 1.5: shorting RSI 22.7 into a +0.662 bid stack invites a squeeze (the account's classic late-short loss); longing an ADX 78.6 downtrend on nothing but oversold + Monday-gap risk is a knife-catch. p_win 0.411, dead volume \u2014 HOLD is the highest-expectancy line.",
+  "rationale": "4h is deeply oversold (RSI 22.7) inside a violent downtrend (ADX 78.6), and the single positive structure signal (orderbook +0.662, bias +0.196) directly contradicts the bearish momentum \u2014 a genuine standoff. The 15m tape is chopping in a 1-point range on near-zero weekend volume with no directional trigger, so neither a fade nor a continuation entry has an honest edge. With US cash closed and Monday-open gap risk, initiating here is negative-expectancy; wait for the range to resolve.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 688.09,
+    "expires_min": 240,
+    "note": "Losing 4h support 688.09 proves the bid stack failed and the downtrend has resumed \u2014 arms a fresh short with the trend rather than against oversold noise."
+  },
+  "transcript": {
+    "macro": "RISK-OFF, US cash market CLOSED (Sat Jul 18); Nasdaq -1.4% Fri, semis-led selloff. QQQ $695.17: funding 0.0, OI 8,272 (thinnest), L/S 1.007 (balanced), orderbook +0.662 (STRONG bid stack), structure_bias +0.196 (only positive of the three), RS -10.78%. 4h RSI 22.7, ADX 78.6 \u2014 oversold in strong downtrend. Verdict: STAY OUT / smallest size \u2014 momentum says short but the book disagrees (bids absorbing); thin OI + weekend closure = whippy; do not initiate.",
+    "sentiment": "QQQ BEARISH/risk-off tilt. Fri Jul 17 clean risk-off: Nasdaq -1.5%, chip rout (AI capex-pullback fears), Netflix -10% on soft guidance, oil +2% >$80. Macro neutral-to-slightly-hawkish (Fed held 3.50-3.75%, benign CPI), no imminent macro binary in 48h. Markets closed weekend -> QQQ perp mostly tracks BTC/crypto risk until Monday. Lean bearish/neutral \u2014 momentum down, no fresh 48h catalyst; watch Monday-open gap.",
+    "analyst": "Deeply oversold RSI 22.7 inside a violent ADX 78.6 downtrend, but the lone positive structure (orderbook +0.662, bias +0.196) contradicts the bearish momentum \u2014 a genuine standoff. 15m tape chopping in a 1pt band on near-zero weekend volume, no directional trigger, p_win 0.411. Neither fade nor continuation has an honest edge; Monday-gap risk. HOLD; arm a short only if 688.09 support cracks.",
+    "portfolio": "QQQ \u2014 HOLD (conf 0.60): momentum-vs-book standoff on dead weekend volume; no honest edge either side, short only below 688.09."
+  },
+  "timestamp": "2026-07-18T18:11:18.223392+00:00"
+}

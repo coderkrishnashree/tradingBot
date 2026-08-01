@@ -1,0 +1,28 @@
+{
+  "symbol": "SOL/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.4,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "none",
+  "forecast": "Price coils 74.8-75.1 holding above 73.3 support; most likely a slow chop/minor bounce toward 75.6-76.0 next 2-6 bars rather than fresh breakdown, since selling momentum has flattened and 4h RSI is oversold at 27.",
+  "expectancy_note": "Short here = p(win)~0.42, only ~$1.6 to support vs bounce risk into oversold/bid-heavy tape; negative expectancy. No clean range fade or trend-pullback entry, so HOLD beats both.",
+  "rationale": "SOL is mid-range (73.3-79.63) with 4h RSI 27 oversold, price basing at 74.9 and last 6 bars coiling with shrinking range - selling has stalled, not accelerated. Structure is contradictory for a short: L/S 2.811 crowded long (squeeze fuel) but funding negative (shorts paying) and orderbook bid-heavy +0.185, and it is 0.78 BTC-beta with negative rel strength (just an echo). Composite conf 40 and learned p_win 0.43 both sub-threshold; entering a late short into stretched, stabilizing tape just above support is the account's proven loss pattern.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 73.3,
+    "expires_min": 240,
+    "note": "Losing the 73.3 support that has held all session confirms a genuine breakdown and opens a clean short toward the next leg; until then the range low holds and shorting is chasing."
+  },
+  "transcript": {
+    "macro": "Risk-off. Crypto risk-off: BTC dominance rising, alts lag. No FOMC/CPI in 72h. Short-favorable but LATE-STAGE, squeeze risk. SOL is the only name with genuine 24h liquidity. SOL: long-crowded (L/S 2.81, most crowded), BTC-beta (0.78 corr) = supportive short, BUT RSI 27 oversold and holding $73-75 support; MIXED.",
+    "sentiment": "Risk-off tape, crypto Fear (idx ~25-27). SOL ~$75 soft, highest BTC corr in book. Constructive medium-term flow (staking-ETF filings, record-low fees, RWA base, Alpenglow/Firedancer) but NONE dated 48h binaries; SEC ETF decision tail risk with no confirmed date. Near-term follows BTC/leans bearish, but surprise ETF approval is asymmetric upside risk.",
+    "analyst": "Mid-range with 4h RSI 27 oversold, price basing at 74.9, last 6 bars coiling with shrinking range - selling stalled. Structure contradictory (crowded long but funding negative and orderbook bid-heavy). Conf 40 and p_win 0.43 sub-threshold. Late short into stabilizing tape just above support = proven loss pattern. Wait for a break of 73.3.",
+    "portfolio": "HOLD SOL - selling stalled at support; re-arm short on loss of 73.3."
+  },
+  "timestamp": "2026-07-18T07:09:44.750761+00:00"
+}

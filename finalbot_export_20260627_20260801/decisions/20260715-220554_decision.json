@@ -1,0 +1,28 @@
+{
+  "symbol": "XAUT/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.6,
+  "size": 0.0,
+  "entry": 4055.4,
+  "stop_loss": 0.0,
+  "take_profit": 0.0,
+  "take_profit_1": 0.0,
+  "take_profit_2": 0.0,
+  "playbook": "none",
+  "forecast": "Price stays boxed 4045-4074 for the next 2-4 bars on drying volume; the 4028->4074 impulse already ran and was rejected, so no clean directional edge until the box resolves.",
+  "expectancy_note": "No entry beats both alternatives: long chases crowded 2.78 longs into hike-capped tape near VWAP (no edge), short mid-range has no structure behind stop. p(win) on either <0.5 vs a flat HOLD.",
+  "rationale": "XAUT sits mid-range (~4055) after a 4028->4074 spike that was rejected, now chopping 4045-4056 on collapsing volume with VWAP right here (+0.4%). ADX 43.8 is a lagging echo of that impulse while the 4h trend reads neutral with negative MACD; longs are crowded 2.78:1 into a market capped by ~63% Sept-hike odds and firmer USD. There is no honest R:R>=1.5 entry - no extreme to fade, no level to lean a stop on - so HOLD is the highest-expectancy call until the box breaks.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 4074,
+    "expires_min": 240,
+    "note": "Reclaiming the 4074 rejection high on volume proves buyers absorbed the crowded-long supply and opens the squeeze toward 4100 WGC fair value -> flips me long."
+  },
+  "transcript": {
+    "macro": "Regime risk-on but late-stage/fragile; Fed HOLD, soft July CPI. XAUT ~4055 at WGC fair value ~4100. Headwinds: firmer USD (Iran-driven), Fed-on-hold, rising real yields cap upside. Scan structure_bias -0.294, long/short 2.78 (crowded longs = contrarian short risk), RSI 64 stretched, rel-strength -6.5% vs BTC. Environment MIXED-to-soft; longs crowded, chop/pullback more likely than breakout short-term.",
+    "sentiment": "Big data risk (June CPI 7/14) behind us - headline cooled to 3.5%, core 2.6%, softer than expected = mildly gold-supportive; but markets price ~63% odds of Sept Fed HIKE, capping upside. Gold ~4050-4200, down 26% from January record. No FOMC in 48h. Verdict: NEUTRAL-to-BULLISH (soft CPI tailwind, capped by Sept hike odds).",
+    "analyst": "Last 4055.4, ATR% 0.67, support 3981 / resistance 4136.5. RSI 64.4, ADX 43.8, %B 0.668, VWAP dist +0.4%, structure_bias -0.294, L/S 2.78 crowded longs, rel-strength -6.5% vs BTC. Candles: 4028->4074 six green bars then hard rejection to 4052.7, now chopping 4045-4056 on drying volume. Impulse already ran and rejected; VWAP here so no mean-reversion edge; ADX lagging artifact; 4h neutral with negative MACD. No clean short trigger mid-range, no long edge into crowded/capped tape. HOLD until box breaks; long trigger on reclaim above 4074.",
+    "portfolio": "XAUT: HOLD (conf 0.60) - mid-range chop, crowded longs but no extreme to fade, capped tape."
+  },
+  "timestamp": "2026-07-15T22:05:54.801474+00:00"
+}

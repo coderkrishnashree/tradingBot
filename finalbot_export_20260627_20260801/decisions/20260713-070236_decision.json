@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "CRCL/USDT:USDT",
+  "size": 0.0,
+  "entry": 64.72,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.52,
+  "playbook": "none",
+  "forecast": "Price is basing 64.21-64.95 after the flush; expect chop into the US open with a bounce risk toward 65.5-66 (deeply oversold 1h RSI 14.3, -4.9% below VWAP). A clean loss of the 64.21 base opens 62-61.78 support; a reclaim above 66 sets up the proper short-the-bounce.",
+  "expectancy_note": "No positive-expectancy entry: shorting 64.72 into 1h RSI 14.3 / -4.9% VWAP is the account's classic late-short-stopped-by-bounce; long fights bearish structure (L/S 2.56 crowded, RS -16.85%). Pre-CPI thin off-hours tape = skip.",
+  "rationale": "CRCL is structurally the cleanest short (crowded longs, worst laggard, structure_bias -0.336) but it is deeply oversold and stretched, and the last ~10 15m bars show momentum stalling into a tight 64.21-64.95 base rather than fresh breakdown \u2014 chasing a short here risks the exact counter-bounce that hits an honest stop. With CPI ~12h out, US cash closed and gappy off-hours liquidity, expectancy on any entry is negative; the disciplined play is to wait for either a clean break of the base (momentum short toward 62) or a bounce to VWAP/66 (short-the-retest). Size 0.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 64.2,
+    "expires_min": 240,
+    "note": "Losing the 64.21 basing low after the oversold pause confirms trend continuation and opens a momentum short toward 62.0/61.78 support."
+  },
+  "transcript": {
+    "macro": "Timing: scan ~06:57 UTC = ~02:57 ET Monday pre-dawn; US cash CLOSED, perps thin off-hours, gap risk into 09:30 ET. Regime RISK-ON equities but crypto offered: BTC 62,757, RSI 22-28, ADX ~75 downtrend near 61,272. CRCL is crypto-beta (BTC corr 0.55) so crypto weakness matters. Catalysts: June CPI Tue 7/14 08:30 ET (~12h out) dominant; Q2 earnings opens 7/14; CRCL no earnings inside 48h. Positioning: funding 0, L/S 2.56 VERY crowded long (contrarian short fuel), OB imbalance -0.12, structure_bias -0.336 (most bearish of three), RS -16.85% (big laggard), ADX 57, 1h RSI 14.3 deeply oversold, -4.9% below VWAP. Verdict: cleanest short structurally but oversold -> bounce risk; don't carry into CPI.",
+    "sentiment": "CRCL BEARISH with a real active driver. FRESH SHOCK still bleeding: Open USD rival stablecoin (Visa, Mastercard, Stripe, BlackRock, 140+ firms) unveiled ~6/30 crashed CRCL ~17% to 4-mo low; slid to ~$66.60 by 7/10, scan ~$64.72 (worst RS). Structural threat \u2014 ~96% of Circle income is USDC reserve yield Open USD targets. Offsets slower-burn: OCC national trust-bank charter ~7/10 (+14% pop), USDC overtaking Tether (~70% volume), Nomura Japan FX deal, Compass Point upgrade Sell->Neutral but PT slashed $97->$55. NO depeg. Highest vol of the three. Tilt: BEARISH (2-way given charter bounce).",
+    "analyst": "Structurally the cleanest short (crowded L/S 2.56, worst laggard RS -16.85%, structure_bias -0.336) but deeply oversold/stretched (1h RSI 14.3, -4.9% VWAP) and the last ~10 15m bars stall into a tight 64.21-64.95 base, not a fresh breakdown. Chasing a short here invites the counter-bounce that hits an honest stop \u2014 the account's #1 loss pattern. Pre-CPI thin off-hours = negative expectancy either way. HOLD; short only on a clean break of the 64.21 base or a bounce-retest of VWAP/66.",
+    "portfolio": "CRCL: HOLD (size 0, conf 0.52) \u2014 best short thesis but too stretched to chase; trigger short on break below 64.21."
+  },
+  "timestamp": "2026-07-13T07:02:36.038562+00:00"
+}

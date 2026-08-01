@@ -1,0 +1,28 @@
+{
+  "symbol": "COIN/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.5,
+  "size": 0.0,
+  "entry": 160.82,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "none",
+  "forecast": "Fading dead-cat bounce off 159.5 stalling at 160.6-160.8 on drying volume; expect a retest of 159.3, then either a break lower toward 156.5 or a mid-range chop back toward 162.4 - no clean edge from here.",
+  "expectancy_note": "Long = chasing into 168.65 resistance with a fresh bearish divergence and BTC stretched (RSI 64.6, %B 0.94, OB imbalance -0.81 into 65.8k overhead); short from mid-range (160.8 vs support 152.9) lacks a level/confirmation. R:R either <1.5 until price picks a side.",
+  "rationale": "Higher-TF composite is long (30m/1h/4h up) but the 15m tape rolled over from 164.75 to 159.5 and is only limply bouncing on collapsing volume, with a bearish divergence flagged. Pure BTC-beta (0.633 corr) and BTC is itself extended into $65.8k supply with a deeply negative orderbook and risk-off macro - a poor spot to add a long and a poor spot to short mid-range. Highest expectancy is to wait for price to resolve the 159.3 low.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 159.26,
+    "expires_min": 240,
+    "note": "Losing the recent swing low confirms the rollover and bearish divergence, flipping short toward 156.5 as BTC fails at 65.8k overhead."
+  },
+  "transcript": {
+    "macro": "Risk-neutral-to-defensive tape on Iran/oil shock. Crypto constructive-not-euphoric: BTC ~$65k, funding neutral, OI flat, no crowded-leverage squeeze; BTC orderbook imbalance -0.81 into ~$65.8k resistance. COIN 0.63 corr to BTC = BTC-beta long that lives/dies on BTC holding $64-65k. No FOMC.",
+    "sentiment": "Overall risk-off near-term; crypto soft/fearful (F&G 29). COIN no imminent binary (earnings early Aug); William Blair (7/15) says risks largely priced, BTC-recovery upside - low-weight long-horizon positive. Trades with soft BTC near-term.",
+    "analyst": "Higher-TF composite long but 15m rolled over 164.75->159.5 on collapsing volume with bearish divergence. Pure BTC-beta and BTC itself extended into 65.8k supply with -0.81 orderbook, risk-off macro. Mid-range (160.8, support 152.9) = no clean long or short. HOLD; flip short below 159.26.",
+    "portfolio": "HOLD COIN - mid-range chop, fading bounce; wait for a break of 159.26 to go short."
+  },
+  "timestamp": "2026-07-20T20:45:47.032302+00:00"
+}

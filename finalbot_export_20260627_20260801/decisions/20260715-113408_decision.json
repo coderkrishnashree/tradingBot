@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "MU/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.3,
+  "playbook": "none",
+  "forecast": "Bounce off 967.74 stalled at 983 and is fading; expect chop between 967 and 983 into the 09:30 ET open, then direction resolves. Reclaim of 983 opens 1000+; loss of 967.74 opens 955/940.",
+  "expectancy_note": "No edge: 15m/30m short but price already extended down (30m RSI 34) into pre-open thin tape = classic late-short loss pattern; long has no trigger and worst RS (-26.8). Best expectancy is waiting.",
+  "rationale": "MU is a tokenized EQUITY scanned during US pre-open (thin/gappy, low conviction) with a flat 6.1% composite and internal TF conflict (15m/30m short vs 4h long). Price fell ~2.5% from the open, bounced off 967.74, and just got rejected at 983 (last bar closed 976.97 near its lows). Momentum rolling over but not confirmed. Chasing a short into a 30m RSI-34 down-leg is the account's #1 loss pattern, and there is no bullish trigger for a long; HOLD until the open clarifies.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 967.74,
+    "expires_min": 180,
+    "note": "Losing the session low confirms the down-leg resumed and turns the failed 983 bounce into a tradable short toward 955/940."
+  },
+  "transcript": {
+    "macro": "Regime MIXED, leaning constructive for longs but timing-gated. Risk-on, semis rebounding hard (SMH +2.5%, Micron/SK Hynix leading; AI-memory cycle intact post-Micron blowout Q3). CRITICAL: scan ~07:29 ET = US PRE-OPEN; perps thin/gappy until 09:30 ET, size down. Low BTC correlation. MU: best fundamental tailwind (AI-memory leader, Q4 guide raised) but scan composite only ~6.1% (flat) - indicators not aligned right now.",
+    "sentiment": "MU (Micron): strongly bullish, fresh momentum, no imminent binary. Crushed FQ3 (rev $41.5B vs $35.8B est, +15% AH), guided next quarter ~$50B vs ~$43.6B est; HBM sold out through 2026, DRAM +15-20% expected. Next earnings ~late Sept, no <=48h binary. Jul-14 KeyBanc PT raise to $1,750 (overweight) drove +4.9% - low-weight analyst noise. Tone clearly bullish and price-leading; mildly FOR longs but no dated catalyst.",
+    "analyst": "Tokenized equity in thin pre-open, flat 6.1% composite, TF conflict (15m/30m short vs 4h long). Fell ~2.5%, bounced off 967.74, rejected at 983, fading again. Shorting a 30m RSI-34 down-leg = loss pattern #1; no bullish trigger and worst RS (-26.8) for a long. HOLD; arm short on loss of 967.74 session low.",
+    "portfolio": "MU -> HOLD (conf 0.30): best fundamentals but flat/conflicted tape pre-open; no clean entry, wait for the open."
+  },
+  "timestamp": "2026-07-15T11:34:08.053787+00:00"
+}

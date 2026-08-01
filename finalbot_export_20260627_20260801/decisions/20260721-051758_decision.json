@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "AAPL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.58,
+  "playbook": "none",
+  "forecast": "Price coils 325.3-326.7 under short-TF resistance; expect chop 2-4 bars, then a reclaim of ~327.3 opening a mean-reversion bounce toward VWAP ~330, OR a loss of 325.3 resuming the down-leg toward 322.",
+  "expectancy_note": "Shorting into 4h RSI 25 + ADX 70 (stretched, exhausted) is the account's #1 loser (late short, bounce stops it); no long trigger yet with 1h score -0.9. Mid-range, no edge either way -> HOLD beats both.",
+  "rationale": "The down-move is deeply extended (4h RSI 25.1, bb_pctb 0.10, price -1.21% below VWAP) and has stalled into a tight higher-low base on the 5m/15m, which have flipped up. Chasing a short here fights the exhaustion and the macro RS-winner narrative; a long has no confirmed reclaim yet and fights the 1h/4h down trend. Structure is neutral (funding 0, L/S 0.99), so there is no flow edge. Best expectancy is to wait for the coil to resolve.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 327.3,
+    "expires_min": 240,
+    "note": "Reclaiming the consolidation high confirms the oversold bounce, opening a mean-reversion long toward VWAP ~330."
+  },
+  "transcript": {
+    "macro": "Risk-OFF/defensive, hawkish Fed, active chip rout. AAPL is the OUTLIER/relative-strength winner \u2014 rotation destination OUT of chips INTO Apple (just overtook NVDA as most valuable co ~$4.9T, RS +1.2% vs deeply negative peers). Equity-tracker liquidity thin while US cash closed (scan @05:08 UTC).",
+    "sentiment": "AAPL no imminent binary (reports ~Jul 30). Sentiment constructive (rotation destination) but the move is largely spent; neutral-to-slightly-positive near-term.",
+    "analyst": "AAPL 326.58: composite SHORT (blended -0.438, not aligned) but deeply oversold \u2014 4h RSI 25.1, bb_pctb 0.101, vwap_dist -1.21%, ADX 70.2 (strong down-move). 1h/4h short but 5m/15m flipped LONG (RSI 62-63), price basing 325.3-326.7 in higher-lows. Structure neutral (funding 0, L/S 0.986, orderbook -0.103). Shorting a stretched/exhausted down-move = the book's #1 loss pattern; long has no reclaim yet. Mid-range, no edge. HOLD armed for a reclaim of 327.3.",
+    "portfolio": "AAPL \u2014 HOLD (conf 0.58): oversold RS-winner basing; mean-reversion long only above 327.3, no short chase."
+  },
+  "timestamp": "2026-07-21T05:17:58.224474+00:00"
+}

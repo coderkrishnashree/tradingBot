@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "HOOD/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.35,
+  "playbook": "none",
+  "forecast": "Bounce off the 98.68 flush low is stalling under 101.7/102.1 broken-support resistance on drying volume; expect chop 100.2-101.7 next few bars, then a decisive break - reclaim 102.1 resumes up toward 103.5, losing 100.2 reopens 99.3/98.7.",
+  "expectancy_note": "No trade: long into 2.085 crowded L/S and overhead resistance ~0.5 ATR away gives sub-1.5 R:R; short lacks confirmation. p(win) on either edge <0.5 now - wait for the level break.",
+  "rationale": "HOOD flushed -3% then recovered, but the bounce is fading right under the 101.7-102.1 broken-support zone on collapsing volume (last bar 18 vol), with ADX 29.7 and 1h flat = no trend to lean on. It is the 2nd most crowded long (L/S 2.085) and largely a COIN/BTC beta echo (corr 0.77/0.53), so chasing the long here has poor R:R into overhead supply, while shorting lacks any exhaustion/divergence trigger. Highest-expectancy move is to wait for the tape to prove itself at a real level.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 102.15,
+    "expires_min": 240,
+    "note": "Reclaiming the broken-support-turned-resistance proves the flush is fully absorbed and buyers control - flips to a long toward 103.5/104."
+  },
+  "transcript": {
+    "macro": "Mixed, cautiously risk-on session. Funding ~0, L/S crowded-long. Event risk inside window: INTC 7/23, GOOGL/MSFT 7/28, FOMC 7/28-29. HOOD mixed - small long at best, no conviction. Highest BTC corr so partly crypto/risk beta; no trend (ADX 29.7); crowded long (L/S 2.085, 2nd most after ORCL).",
+    "sentiment": "HOOD neutral / no near-term catalyst. Earnings NOT until July 29 (outside 48h window), nothing binary this session. Sentiment mildly constructive (prediction-markets growth, 17 Strong Buys, ~$107 PT) but memory of -13% drop after Q1 crypto-revenue miss = caution. High correlation to COIN/crypto/BTC (0.77 to COIN) -> trades as risk-on beta. Near-term news NEUTRAL; play off crypto/tape not headlines.",
+    "analyst": "HOOD's post-flush bounce is stalling under 101.7-102.1 resistance on drying volume with a crowded long book and no trend (ADX 29.7) - HOLD, re-debate on a reclaim of 102.15 (long) or loss of 100.2 (short resumes).",
+    "portfolio": "HOLD HOOD - no trend, no catalyst, crowded long; re-debate a long on a 102.15 reclaim."
+  },
+  "timestamp": "2026-07-20T16:44:08.734105+00:00"
+}

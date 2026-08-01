@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "META/USDT:USDT",
+  "size": 0.0,
+  "entry": 660.75,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Chop between ~659 and ~665 on thin weekend liquidity; the -0.74 book keeps capping bounces near 664-665, but no clean impulse either way until Monday US open re-prices the stale mark.",
+  "expectancy_note": "No edge: p(win) ~0.5 either direction on a market-closed, pre-CPI stale mark. Trend-short expectancy is negative here (account trend book 45% win, -2.5R) and shorting the tape's strongest name into a likely Monday gap-up is a trap; mean-reversion has no extreme to fade (VWAP -0.1%, %B 0.38). HOLD dominates.",
+  "rationale": "META perp is a stale weekend mark under-reflecting Friday's ~+15%-week cash rally in the strongest name on the tape; US equities are CLOSED and a gap re-price is expected at Monday open, amplified by Tue CPI inside 48h. Price sits at VWAP with %B mid-band (not extended), so neither a trend-continuation short nor a mean-reversion fade has a real R:R edge, and the -0.74 book creates near-term downside chop risk without a clean level. Front-running a binary gap into closed, thin liquidity is negative expectancy; wait for the Monday re-rate to confirm direction.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 658.9,
+    "expires_min": 240,
+    "note": "Losing the 659 local floor the offer-heavy book is pressing on opens a weekend flush toward the mid-band/support and would validate a short; a clean break either side of this consolidation is the first honest directional read."
+  },
+  "transcript": {
+    "macro": "Crypto RISK-OFF (BTC ~$62.7k, Extreme Fear ~24, BTC.D ~56%). EVENT: US June CPI Tue Jul 14 08:30 ET, inside 48h. Today Sunday Jul 13 = US cash equity CLOSED; META perp trades on a stale/gappy weekend mark, gap re-price expected at Monday US open amplified by pre-open CPI. META: underlying is STRONGEST name on tape (+~6% day, best week since 2024 ~+15%, BofA reaffirmed Buy on improving AI cost structure), equity trend UP; but perp scan SHORT (last 660.75, blended -0.38, 4h RSI 36.8, under resistance 678.67) \u2014 perp fading/lagging cash rally, likely stale mark. Positioning: funding 0.0, L/S 0.95 balanced, orderbook -0.74 (heavy offer). Verdict MIXED: equity backdrop argues long but perp tape + -0.74 book say don't front-run into closed market + CPI; small size only if any.",
+    "sentiment": "META ran ~+20% into Jul 10 on 'Meta Compute' AI-cloud launch + Iris chip/Muse model news, then REVERSED hard on capex fear: ~$200B 2026 capex warnings (vs ~$160B prior), JPMorgan downgrade to Neutral (PT $725) citing path to ~$24B negative FCF by 2027, ~$175B mktcap shed. Q2 earnings Jul 29 (OUTSIDE 48h). Net: near-term news argues modestly FOR the short (narrative flipped euphoria->capex/FCF anxiety), but downgrade/PT is low-weight long-horizon; the real short thesis is the failing rally.",
+    "analyst": "Choppy weekend consolidation ~659-667 with a -0.74 offer-heavy book capping bounces; price NOT extended (VWAP -0.1%, %B 0.38) so neither trend-short nor mean-reversion fade has R:R edge. US market CLOSED + CPI Tuesday = gap-risk landmine; shorting a stale weekend mark on the tape's strongest name that likely re-rates UP Monday is a trap. HOLD; a loss of ~659 floor validates a short, reclaiming 665+ confirms the Monday re-rate long, but wait for the actual open.",
+    "portfolio": "HOLD META @ conf 0.60 \u2014 no fresh risk into closed market/CPI; watch a break of 658.9 for the first honest directional read."
+  },
+  "timestamp": "2026-07-13T05:32:32.870445+00:00"
+}

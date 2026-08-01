@@ -1,0 +1,25 @@
+{
+  "action": "hold",
+  "symbol": "TSLA/USDT:USDT",
+  "confidence": 0.55,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "trend",
+  "expectancy_note": "Trend intact (ADX 44, RS +7.3%, own-strength) but price stretched: RSI 70, stoch 86, %B 0.88, +1.76% over VWAP into 437 resistance. Chasing here is negative-expectancy; a pullback to VWAP ~409 gives ~2.5:1 long instead.",
+  "rationale": "TSLA is a genuine uptrend leader (blended 0.58, ADX 44, low BTC corr 0.33, RS +7.3%), and macro/sentiment favor the long side, but at 416 it is overbought and mid-air, only 5% below the 437.73 ceiling with a tiny 1% ATR - a long here has poor R:R and the crowded long/negative structure_bias adds mean-reversion chop risk after the two-day swing. No sub-48h catalyst forces action (earnings Jul 22 is outside the window). Best expectancy is to wait for a dip to the VWAP/SMA20 zone (~408-410) where I can enter with a stop under recent structure and room to 437, so I hold armed to buy that pullback.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 409.0,
+    "expires_min": 240,
+    "note": "A pullback to the VWAP/SMA20 zone resets the overbought stretch and offers a proper trend-continuation long (stop under ~404 structure, target 437 resistance, ~2.5:1)."
+  },
+  "transcript": {
+    "macro": "Regime risk-on but late-stage: Nasdaq100 +1.3%, VIX ~15.9, DXY ~100.86, 10Y ~4.48% eased after weak June jobs. Semis hot leadership (SMH +2.7%) but stretched/volatile. ~50% odds of Sept Fed HIKE; June FOMC minutes this week = live headline risk. Positioning crowded long & contrarian-negative. TSLA long/short 1.55, structure_bias negative; intraday firm/overbought (RS +7.3%, RSI ~69). Macro favors TSLA LONG (own-strength) but watch overbought.",
+    "sentiment": "TSLA bullish near-term, binary looming. Q2 deliveries (Jul 2) smashed: 480,126 vs ~406K consensus, +25% YoY (first growth since 2023); dropped ~7.5% that day on profit-taking then recovered +6.6% by Jul 6. Earnings Wed Jul 22 after close = dominant upcoming binary (outside 48h). No scheduled <=48h catalyst; technicals-led with bullish tone; watch mean-reversion chop after the two-day swing.",
+    "analyst": "Strong uptrend (ADX 44) with genuine own-strength (RS +7.3%, low BTC corr 0.33), but price 416.08 is stretched: RSI 69.9, stoch 85.8, %B 0.881, +1.76% over VWAP, only 5% under 437.73 resistance with tiny 1.04% ATR. Chasing long here is negative-expectancy; extended-move no-trade flag active. Best entry is a pullback to VWAP/SMA20 ~408-410. HOLD armed to buy the dip; flip trigger price_below 409.",
+    "portfolio": "HOLD TSLA - uptrend leader but overbought into resistance; wait to buy the ~409 pullback (conf 0.55)."
+  },
+  "timestamp": "2026-07-07T10:28:08.875408+00:00"
+}

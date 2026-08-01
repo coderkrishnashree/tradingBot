@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "EWY/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.4,
+  "playbook": "none",
+  "forecast": "Price coils 175.1-176.4 under the 176.5-176.67 spike high; expect the coil to resolve DOWN toward 174.5 then 173.7 as the blowoff exhausts, but only a break of 174.9/174.5 confirms it \u2014 until then chop between 174.5 and 176.5.",
+  "expectancy_note": "No edge at mid-coil: short p(win) only ~0.45 with the spike high 1.3pt away as stop-fuel; long chases a %B>1, +5% VWAP blowoff into a crashing cash tape. Best EV is waiting for the coil to break.",
+  "rationale": "EWY is a maximally stretched blowoff (RSI 77, ADX 86, %B 1.01, +5% VWAP) into a genuinely crashing underlying (KOSPI -23% MTD, 7 circuit breakers); the sentiment thesis is a fade-down and 5m has already rolled (RSI 39). But the last 8 bars are a tight 174.9-176.4 coil that has NOT broken; shorting mid-coil on a thin, US-cash-closed token invites a stop-run to 176.5+, and a long is a forbidden chase. No honest R:R at 175.24, so hold and arm the trigger below the coil floor.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 174.5,
+    "expires_min": 240,
+    "note": "Losing the 174.5 coil floor / swing base confirms the blowoff is exhausting and opens a high-EV short toward 173.7 then 172, aligned with the crashing KOSPI cash tape."
+  },
+  "transcript": {
+    "macro": "Regime: RISK-ON, tech/semi-led. S&P +0.89%, Nasdaq +1.29% Tue 7/21 close; Micron +12%, SanDisk +14%. US cash CLOSED overnight \u2014 equity tokens (GOOGL/EWY/CRCL) trade thin/gappy until ~13:30 UTC; only SOL has a true 24h book. Size DOWN this cycle. GOOGL: funding +0.00046, OI 6922, L/S 1.56 (crowded long, contrarian -0.28), RS vs BTC -13%, 1h/4h down; Alphabet Q2 earnings TODAY ~20:30 UTC = binary landmine, no swing size. EWY: funding 0, L/S 1.25 (~neutral), deeply extended (RSI77/ADX86/%b1.01/+5% VWAP) at resistance 181.6; Korea/semi beta supportive but thin & stretched \u2014 lean long-with-trend, high chase risk. CRCL: funding 0, L/S 2.03 (crowded long -0.30), parabolic (RSI88/ADX81) new highs, RS vs BTC +2.8% (only outperformer), OCC bank approval catalyst 7/20; momentum-long only, high squeeze risk. SOL: funding -0.0000143 (flat, healthy), L/S 2.49 (long-skewed -0.30), 4h up RSI74/ADX48 into resistance 79.01, BTC-corr 0.77 (BTC-beta), RS -9.9%; supportive-to-mixed long, needs BTC firm. Biggest calendar risk: Alphabet earnings after today's close moves the whole Nasdaq complex.",
+    "sentiment": "GOOGL \u2014 BEARISH/HIGH-RISK BINARY: earnings TODAY after close (20:30 UTC), consensus ~$2.87 EPS / ~$116.9B rev; story = $190B AI capex + Google Cloud growth, big gap risk either way; tokenized GOOGL gaps on the after-hours print. Do NOT carry a naked position through the release. EWY \u2014 BEARISH, elevated vol: KOSPI in historic crash (~-23% MTD, 7 circuit breakers, broke below 7,000 from 9,114 in June), Samsung/SK Hynix rout; Bank of Korea HIKED to 2.75% July 16 (tightening into selloff); US Section 122 10% tariff baseline sunsets ~July 24 (headline wildcard). EWY bounce candle is chasing exhaustion inside a broken tape; illiquid/gappy. CRCL \u2014 BULLISH momentum, no imminent binary: earnings ~Aug 10 (outside window), fresh OCC national-trust approval (7/20) +8-13%, Nomura/Japan USDC deal, expected Coinbase-USDC renewal in Aug; parabolic RSI88 \u2014 snapback the main risk; correlated to a FEARFUL crypto tape (Fear&Greed ~21). SOL \u2014 NEUTRAL: crypto sentiment fearful (F&G ~21), BTC-led selling; SOL spot ETFs live since Oct 2025, small positive daily inflows; staking-ETF/SEC decisions repeatedly PUNTED (no \u226448h binary); overbought & crowded longs (L/S 2.49) \u2192 fade-strength risk if BTC rolls. Direction is a BTC-beta call.",
+    "analyst": "Countertrend fade setup but no confirmation. Maximally stretched blowoff (RSI77/ADX86/%b1.01/+5% VWAP) into a crashing KOSPI (-23% MTD, 7 circuit breakers); 5m already rolling. But last 8 bars are a tight 174.9-176.4 coil, not a breakdown \u2014 shorting mid-coil on a thin US-cash-closed token risks a stop-run to 176.5; a long is a chase the rules forbid. HOLD, arm short trigger below 174.5 coil floor.",
+    "portfolio": "HOLD EWY (conf 0.40) \u2014 bearish thesis but price coiling; wait for 174.5 break to short."
+  },
+  "timestamp": "2026-07-22T02:31:04.901291+00:00"
+}

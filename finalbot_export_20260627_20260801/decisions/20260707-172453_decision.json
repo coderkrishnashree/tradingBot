@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "XAG/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Oversold base at 60.7-61.0 on drying volume; next few bars more likely an oversold bounce toward 61.5-61.9 than a clean break of 60. A decisive 15m close below 60.54 flips it to short-continuation toward 58.",
+  "expectancy_note": "p(win) on a fresh short here ~0.45: chasing a 2xATR move into $60 support, RSI 30/stoch 17, long/short 3.16 squeeze fuel and a two-way FOMC-minutes binary tomorrow all cut edge. HOLD beats both a chased short and an unconfirmed long.",
+  "rationale": "Silver is oversold and basing right on the $60 support shelf with fading downside momentum and dying volume, so the short is extended and the immediate risk is a crowded-short squeeze / oversold bounce, not fresh downside. A naked short across tomorrow's 2pm FOMC minutes is exactly the two-way risk to avoid, and a long lacks confirmation with 4h trend still down. No level-anchored entry with R:R >= 1.5 exists right now; the clean trade is to wait for either a confirmed loss of 60.54 (short) or a reclaim of 61.9 (bounce).",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 60.54,
+    "expires_min": 240,
+    "note": "Losing the 15m base low 60.54 proves the $60 shelf broke and re-arms the short-continuation leg toward 58, no longer chasing into support."
+  },
+  "transcript": {
+    "macro": "2026-07-07 RISK-OFF, tech-led selloff; USD firm, ~50% odds of a Sep Fed HIKE = headwind for metals. XAG 60.89, RSI 30.3 oversold, 4h trend down, ADX 38.8, composite short (-0.319). Structure: funding flat, long/short 3.16 VERY long-crowded (squeeze risk on USD pullback), orderbook +0.069, structure_bias -0.287. Corr XAUT 0.877. Environment supports SHORT continuation but biggest risk is oversold bounce / crowded-short squeeze.",
+    "sentiment": "HARD CATALYST <48h: FOMC June minutes Wed Jul 8 2:00pm ET \u2014 genuine two-way risk (dot plot split 9-9 on a hike; weak 57k NFP drove silver +3.85% last week). Last week's rally STALLED, spot -1% Monday threatening $60, potential daily death-cross. Momentum DOWN into the print but oversold silver can violently reverse on a dovish surprise. Do NOT hold a naked short across 2pm Wed without a plan.",
+    "analyst": "15m tape sold off 61.88->60.71 then based tightly 60.87-61.04 on drying volume (exhaustion of the down-leg). RSI 30/stoch 16.8 oversold at $60 support, long/short 3.16 = squeeze fuel, FOMC binary tomorrow. Shorting into support while oversold before a two-way binary = poor expectancy; a long lacks confirmation (4h down). Best expectancy = HOLD; re-arm short on a confirmed loss of 60.54.",
+    "portfolio": "HOLD XAG \u2014 oversold base at $60 support into FOMC-minutes binary; no clean edge either side."
+  },
+  "timestamp": "2026-07-07T17:24:53.280070+00:00"
+}

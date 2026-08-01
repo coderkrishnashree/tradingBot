@@ -1,0 +1,28 @@
+{
+  "symbol": "GOOGL/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.5,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "none",
+  "forecast": "No scan data for GOOGL \u2014 cannot state a concrete next move; price likely coils/de-risks into the July 22 AMC earnings print with thin off-hours liquidity.",
+  "expectancy_note": "No indicators, candles, structure or R:R obtainable \u2014 entering blind has negative expectancy; HOLD is the highest-expectancy choice.",
+  "rationale": "GOOGL is not present in _scan_latest.json (universe: BTC, SOL, XAUT, TSM, MU, TSLA, SNDK, META, ORCL, INTC, MSTR, COIN, CRCL, EWY, XAG) \u2014 no RSI/ADX/BB/ATR, no recent_candles, no support/resistance, so I cannot build an honest ATR-based stop/target or verify R:R >= 1.5. On top of thin/gappy equity off-hours liquidity, GOOGL reports Q2 AMC next Wed July 22, a binary gap risk to trade around, not hold into. With no reliable data and an imminent catalyst, size is 0 and I stand aside.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 0,
+    "expires_min": 0,
+    "note": "No level flips this \u2014 GOOGL has no scan data to trade on; revisit only once reliable indicator data appears for the pair."
+  },
+  "transcript": {
+    "macro": "Mild risk-ON but Jul 16 futures wobbling, semis weak, US-Iran overhang. Equity perps gap/thin off US hours. GOOGL benefited from Cloud/AI rally ~+3% earlier in week but was NOT in the scan universe.",
+    "sentiment": "GOOGL reports Q2 AMC Wed Jul 22 (consensus ~$2.87 EPS +24% YoY; Cloud/TPU/Gemini focus) \u2014 binary gap risk, price de-risks/coils into print. No fresh shock today; neutral into the print.",
+    "analyst": "GOOGL absent from _scan_latest.json \u2014 no indicators/candles/structure, cannot build honest ATR stop/target or verify R:R>=1.5. Thin off-hours + binary Jul 22 earnings. Size 0, stand aside.",
+    "portfolio": "HOLD GOOGL \u2014 no scan data + binary earnings Jul 22; no tradeable setup."
+  },
+  "timestamp": "2026-07-16T11:34:01.058289+00:00"
+}

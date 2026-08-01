@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "TSM/USDT:USDT",
+  "size": 0.0,
+  "entry": 411.62,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.33,
+  "playbook": "none",
+  "forecast": "Thin Sunday tape: illiquid chop between 409.4 and 413 into the Monday open; the last pop to 411.6 is 2 dust-volume bars with 5m RSI pinned at 100 \u2014 likely fades back toward 409-410, but no clean directional move until real liquidity returns Monday.",
+  "expectancy_note": "No honest R:R either way: long chases a no-volume pop into stoch 100 against the most crowded long book (L/S 2.17); short has thesis (crowded, -10.4% laggard, cooling semis) but no confirmed rejection and thin tape gaps/squeezes.",
+  "rationale": "TSM is the heaviest-crowded long of the group (long/short 2.17, structure_bias fully pinned -0.30) and the worst relative-strength laggard (-10.4%), a contrarian-bearish combo, but the market is CLOSED (Sunday) so the perp is thin/gappy with Monday gap risk and FOMC Jul 28-29 inside the window. Recent 15m candles are near-zero-volume drift, not tradable demand, and the current pop is exhausted (5m RSI 100). No setup clears R:R >= 1.5 with an honest stop, so size is 0.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 409.4,
+    "expires_min": 240,
+    "note": "Losing today's coil low confirms the crowded-long unwind and opens a short toward 405/397.8; that break is the informative trigger to re-debate."
+  },
+  "transcript": {
+    "macro": "REGIME: NEUTRAL tilting RISK-OFF. Nasdaq -0.64% Fri (chip-led weakness), VIX ~18.6. US market CLOSED (Sunday) \u2014 tokenized-equity perps thin/gappy, Monday gap risk. FOMC Jul 28-29 in window. TSM most crowded long (L/S 2.17) and -10.4% RS laggard; funding ~0.",
+    "sentiment": "TSM: NEUTRAL, event PAST \u2014 already reported Jul 16: beat, raised FY26 growth to >40%, strong AI demand. Binary behind us; now trades on broad semi sentiment (cooling).",
+    "analyst": "Heaviest-crowded long + worst RS laggard = contrarian-bearish, but closed thin market with near-zero-volume drift and an exhausted 5m-RSI-100 pop. No confirmed rejection for a short, no R:R for a long. HOLD.",
+    "portfolio": "HOLD (0.33) \u2014 stand aside; crowded-long laggard on exhausted dust-volume pop, wait for a break of 409.4."
+  },
+  "timestamp": "2026-07-26T22:39:41.019173+00:00"
+}

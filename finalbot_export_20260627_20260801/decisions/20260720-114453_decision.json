@@ -1,0 +1,28 @@
+{
+  "symbol": "XAG/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.6,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "none",
+  "forecast": "Vertical last 15m bar spiked to 57.59 and closed 57.30 (gave back half its range on 10x volume = exhaustion). Expect a pullback to retest the 56.9-57.0 shelf / VWAP ~56.1 over 2-6 bars; a break below 56.8 confirms mean-reversion.",
+  "expectancy_note": "Both sides negative-EV: chase-long buys 4h RSI 82 / %B 1.12 / +2.17% VWAP into L/S 3.9 (the losing profile the learner flags); short fights ADX56 uptrend + bullish divergence (account shorts 49% win, -0.77 avg). No 1.5R honest entry at 57.30.",
+  "rationale": "Silver is stretched: 4h RSI 82, price 2.17% above VWAP and above the upper band, most-crowded-long book (L/S 3.90), -15% rel-strength vs BTC. Final 15m candle was a vertical spike (57.06->57.59) that closed back at 57.30 = exhaustion/rejection, so a market long chases the top and a short knifes a strong ADX-56 trend with bullish divergence. Learner stats confirm this extended/crowded profile is the account's losing setup while pullback-longs are the edge; wait for the retest.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 56.8,
+    "expires_min": 240,
+    "note": "Losing 56.8 confirms the spike-rejection is a real reversal, opening a pullback-long near 56.1 VWAP support or a mean-reversion fade."
+  },
+  "transcript": {
+    "macro": "Regime MIXED, leaning risk-off (2026-07-20, scan 11:38 UTC pre-US-open). Nasdaq -5% off June high on a chip-led semiconductor selloff; DXY soft ~100.7; FOMC Jul 29 (outside window). Scan is pre-cash-open so strong last candles are thin liquidity, not confirmed trend. Nearly every candidate overbought and long-crowded (negative structure_bias = crowded longs = contrarian risk). Cleanest read: SOL (24/7). Most treacherous to chase: EWY/QQQ/NVDA (overbought chip proxies in the active chip selloff). GOOGL earnings Wed Jul 22 after close is a binary inside the hold window.",
+    "sentiment": "Mood cautiously risk-on but rate-nervous; mega-cap earnings season starts this week. GOOGL reports Wed Jul 22 after close (only true <=48h binary; read-through to QQQ/NVDA/EWY). NVDA earnings Aug 26; HOOD Jul 29; FOMC Jul 28-29. SOL constructive structural backdrop (spot ETFs >$1.12B inflows, ~96% RWA volume share) but no <=48h binary, flow-dependent, highest BTC corr. XAG best fundamental tailwind (6th straight supply deficit, LBMA $79.57 target) but RSI ~82 stretched. EWY strongest momentum (SK Hynix/AI-memory proxy, Goldman KOSPI target 12,000) but a chip proxy into the semis selloff and the most extended name in the scan.",
+    "analyst": "XAG: HOLD. Extended mid-air - 4h RSI 82, %B 1.12, +2.17% over VWAP, most-crowded-long book (L/S 3.90). Last 15m candle a vertical spike to 57.59 closing back at 57.30 on 10x volume = exhaustion. Market long chases the top (#1 loss pattern); short fights an ADX-56 uptrend. No honest 1.5R entry.",
+    "portfolio": "HOLD - too extended/crowded to chase; armed for a pullback-long below 56.8."
+  },
+  "timestamp": "2026-07-20T11:44:53.671524+00:00"
+}

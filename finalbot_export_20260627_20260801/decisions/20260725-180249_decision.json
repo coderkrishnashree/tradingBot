@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "AAPL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Dead-flat coil 331.5-332.2 on dried-up volume just under 4h resistance 335.34; most likely stays boxed / drifts sideways over next several bars until a catalyst \u2014 no directional edge until the box breaks.",
+  "expectancy_note": "Long into resistance (only ~0.95% headroom) can't build 1.5R vs an honest sub-range stop; shorting a +6.68% RS leader with no bearish trigger is negative-EV. Waiting for the box break is the highest-EV path.",
+  "rationale": "AAPL is stretched (4h RSI 74.7, stoch 86.7, +1.49% above VWAP) and coiling on near-zero volume directly beneath resistance 335.34 \u2014 a momentum long here chases into a wall with too little room for 1.5R, and the tight range floor gives no room for a noise-surviving stop. It is a genuine idiosyncratic RS leader (+6.68%, ~0 BTC corr) so I won't short it, but with two hard binaries ahead (FOMC Jul 29, earnings Jul 30) and no <=48h catalyst, carrying risk here is poor. HOLD is highest-expectancy; a clean break of 335.34 on volume is the trigger to take the momentum long tactically.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 335.34,
+    "expires_min": 240,
+    "note": "Reclaiming/breaking 4h resistance 335.34 on volume confirms the coil resolving up and opens a tactical momentum long with a real measured target above the box."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF LEANING / MIXED, event-loaded. Rates/USD a headwind (2yr ~4.35%, 10yr ~4.69%, DXY ~101.4 firming; Fed hawkish lean). Two hard event risks in window: FOMC Wed Jul 29 2pm ET, AAPL earnings Thu Jul 30 after close. AAPL positioning clean not crowded (funding ~flat, L/S 1.043, OI modest); idiosyncratic rel-strength +6.68% vs BTC, near-zero BTC corr, diverging UP while Nasdaq/megacap sells off. But extended/overbought (4h RSI 74.7, ADX 46.5, stoch 86.7, +1.49% above VWAP, pressing resistance 335.34). Verdict: MIXED, don't-hold-through-events; intraday/momentum long OK on RS but no multi-day carry into Jul 29/30; if taken size DOWN and be flat before Jul 30 close.",
+    "sentiment": "Biggest catalyst: Q3 FY2026 earnings Thu Jul 30 after US close (~5 days out, outside 24-48h horizon but dominates positioning). Consensus rev ~$108.9B, EPS ~$1.88-1.89 (+20% y/y); Tim Cook's final call (narrative wildcard). Short-term tone modestly constructive: +3.55% Jul 24 (China regulatory clearance + HSBC upgrade). Sell-side avg PT ~$314.94 below spot ~332 (long-horizon caution, do not trade on it). Multi-week overhangs: DOJ antitrust talks, EU DMA, OpenAI trade-secret suit. Net: neutral-to-mildly-bullish momentum, NO <=48h catalyst; keep any long tactical/short-leash and flat before the 30th. RSI stretched.",
+    "analyst": "15m tape is a dead-flat coil 331.5-332.2 for ~5h on near-zero volume, last bar closed at range high on trivial volume, pressed just under 4h resistance 335.34 and +1.49% above VWAP. 4h RSI 74.7 / stoch 86.7 / ADX 46.5 = strong but stretched. A momentum long chases into resistance with only ~0.95% headroom (can't build 1.5R vs an honest sub-range stop below 331.5); shorting a genuine +6.68% RS leader with ~0 BTC corr and no bearish trigger is negative-EV. No <=48h catalyst and two binaries ahead (FOMC Jul 29, earnings Jul 30). HOLD is highest-expectancy; armed reconsider on a clean break of 335.34 for a tactical momentum long.",
+    "portfolio": "AAPL/USDT:USDT \u2014 HOLD (conf 0.60); stand aside on stretched coil under resistance, reconsider long on break of 335.34."
+  },
+  "timestamp": "2026-07-25T18:02:49.812520+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "XAG/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.55,
+  "playbook": "none",
+  "forecast": "Price is frozen at the $60 handle (59.91-59.97 for 20 bars, near-zero 15m ATR); most likely it continues to chop sideways at 59.9-60.1 until the July 14 CPI catalyst forces a break, with the crowded-long book biasing the eventual resolution lower toward 57.3.",
+  "expectancy_note": "No tradable setup: frozen mid-range tape with no momentum, confirmation, or R:R edge; short thesis is real (crowded L/S 3.33, bias -0.30, hawkish macro, death-cross) but needs a break of 59.3 to trigger \u2014 fading a dead pin here is negative expectancy.",
+  "rationale": "The 15m candles show a completely inert, thin weekend tape pinned at 59.97 with microscopic ATR (0.02-0.06%) and no directional structure \u2014 there is no next move to express, so any entry would be a coin-flip stopped by noise. The bearish confluence (extreme crowded-long book, hawkish Fed, spot broken below $60, algo target ~$57) argues for a SHORT, but only once price actually cracks the range and confirms; the correct action now is to wait, not chase a fade with no exhaustion signal and a CPI wildcard 3 days out. I arm a downside trigger at the local support shelf.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 59.3,
+    "expires_min": 300,
+    "note": "Losing the 59.3 shelf breaks the $60 pin and confirms the crowded-long unwind lower toward 57.3 \u2014 that is the short entry the bearish macro/structure justifies."
+  },
+  "transcript": {
+    "macro": "Regime: mixed-to-risk-off, weekend thin-liquidity tape. Macro neutral-to-HAWKISH: 10Y ~4.56%, DXY ~100.9, Fed higher-for-longer on rising crude + Strait of Hormuz tension \u2014 that hawkish tilt is why metals sold off. No FOMC/CPI/earnings in 48h; June CPI Jul 14 (~3d out) is the dominant metals wildcard. XAG: last 59.97, HOSTILE for longs \u2014 spot silver just broke below $60 and fell ~4% on the week; structure starkly crowded-long L/S 3.331 -> structure_bias -0.301 (contrarian warning after a drop), OI large (373k). Scan's weak long (46.6%) contradicts macro + book.",
+    "sentiment": "XAG neutral-to-slightly-bearish next 48h. Sitting ~$59.7-60, just had best week in months (+6%) but rally STALLED at the $60 handle with a potential daily death-cross and algo models pointing lower (~$57 by Jul 15). Direction dominated by Jul 14 CPI + DXY/Fed path \u2014 cool CPI helps, hot hurts. No metal-specific catalyst; scan's own read weak. Near-term news argues AGAINST chasing a long at resistance.",
+    "analyst": "Inert, thin weekend tape frozen at 59.97 (59.91-59.97 for 20 bars, microscopic 15m ATR) with no directional structure \u2014 any entry is a coin-flip stopped by noise. Bearish confluence (crowded-long L/S 3.33, bias -0.30, hawkish Fed, spot broken below $60, algo target ~$57) supports a SHORT, but only once price cracks the range; fading a dead pin with a CPI wildcard 3 days out is negative expectancy. HOLD; arm a short trigger on a break below the 59.3 shelf.",
+    "portfolio": "XAG \u2014 HOLD (conf 0.55): frozen $60 pin; bearish short only on a break below 59.3."
+  },
+  "timestamp": "2026-07-11T10:32:25.667134+00:00"
+}

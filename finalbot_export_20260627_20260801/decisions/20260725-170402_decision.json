@@ -1,0 +1,22 @@
+{
+  "action": "short",
+  "symbol": "GOOGL/USDT:USDT",
+  "size": 3.0,
+  "entry": 319.8,
+  "stop_loss": 322.6,
+  "take_profit": 315.6,
+  "take_profit_1": 315.6,
+  "take_profit_2": 311.5,
+  "confidence": 0.58,
+  "playbook": "trend",
+  "forecast": "Dead-cat bounce off 315.34 support grinds up into the 319-320 pre-drop shelf/VWAP resistance over 2-4 bars where trapped longs (L/S 2.44) and orderbook sellers (-0.38) cap it, then rolls back to retest 315.5 and extends toward 311-312 as the 4h/1h downtrend (ADX 43.7) resumes.",
+  "expectancy_note": "p(win)~0.55, R:R 1.5 to tp1 (4.2 reward / 2.8 risk); LIMIT-short-the-bounce beats market-short because RSI 29.6 + 5m long-flip + -3.28% VWAP dist mean a market entry gets stopped by the reflex bounce (book's #1 loss pattern, p_win_learned 0.41 confirms). Fading strength into resistance flips that edge.",
+  "rationale": "Multi-TF trend down (30m/1h -0.9, 4h short, ADX 43.7), RS -12.84% weak horse, structure_bias -0.41, macro/sentiment epicenter of the selloff \u2014 all argue lower. But price is oversold (RSI 29.6) sitting on support 315.34 with a live 5m bounce and crowded longs, so I refuse to chase; instead a LIMIT short at 319.8 into the broken-shelf/VWAP resistance where the bounce should stall. Stop 322.6 above the 319.89 pre-drop high plus ATR buffer; tp1 315.6 (support retest) = 1.5R, tp2 311.5 rides the trend. Size trimmed to 3% given oversold-bounce and squeeze risk.",
+  "transcript": {
+    "macro": "Regime RISK-OFF/defensive (S&P -0.6%, Nasdaq -2.1%; AI-capex repricing \u2014 Alphabet's guidance shock spilled across the complex; sticky inflation + Iran overhang; fade-strength tape favors shorts). GOOGL $318: EPICENTER of the selloff, down ~7.4% post-earnings on $195-205B capex guide + first-ever negative FCF. Funding 0, L/S 2.44 (heavily long = contrarian bearish), orderbook -0.38, structure_bias -0.41, 30m/1h/4h all short. Strongly supports SHORT; watch oversold bounce (RSI 29) as longs unwind.",
+    "sentiment": "GOOGL BEARISH/short-supportive: Q2 (Jul 22 AMC) beat big (rev +24% $119.8B, Cloud +82%) but stock SANK ~7% on 2026 capex hiked to $195-205B + higher 2027 spend flagged. Earnings risk BEHIND us (no 48h binary). Post-earnings drift lower, RS weak (-12.8%). Momentum favors continuation lower short-term.",
+    "analyst": "Trend down across TFs (ADX 43.7), weakest-horse RS -12.84%, structure_bias -0.41, macro/sentiment aligned short. But oversold (RSI 29.6) ON support 315.34 with a live 5m long-flip and crowded longs (L/S 2.44) \u2014 refuse to market-chase (learner p_win 0.41). Instead LIMIT short at 319.8 into the broken 319-320 shelf/VWAP resistance where the dead-cat bounce should stall; stop 322.6, tp1 315.6 (1.5R), tp2 311.5. Size 3% for squeeze risk.",
+    "portfolio": "GOOGL/USDT:USDT \u2014 SHORT (conf 0.58): limit short 319.8 into the bounce, stop 322.6, tp 315.6/311.5, size 3%."
+  },
+  "timestamp": "2026-07-25T17:04:02.506322+00:00"
+}

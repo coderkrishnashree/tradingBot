@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "TSLA/USDT:USDT",
+  "size": 0.0,
+  "entry": 409.63,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Low-volume weekend grind keeps TSLA coiling 408-410 just under 420 resistance; most likely chops here or drifts back toward 405-406 VWAP/base before any real directional move, which won't come until Monday cash-open volume arrives.",
+  "expectancy_note": "p(win) on a market-buy chase into 420 only ~0.45 on dead tape; sell-heavy book + crowded longs + learner high-ADX trend record (44%/-2.89) make the honest expectancy negative. Waiting for 420 break or 405 pullback is higher-EV.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 420.5,
+    "expires_min": 240,
+    "note": "A clean break/hold above 420.22 resistance (ideally on Monday-open volume) confirms real demand and turns this into a valid continuation long toward the measured move; until then the grind is thin-tape noise."
+  },
+  "rationale": "TSLA is the strongest equity token (4h +0.80, RSI 61.6, rel-strength +1.94%, low BTC-corr), but every entry here is compromised: price grinds up on 0-14 unit/bar weekend volume into 420 resistance while orderbook (-0.28) and crowd positioning (L/S 1.65, bias -0.28) lean the wrong way, and OI is thin (7.1k) with Monday gap risk. This account's trend/high-ADX book is bleeding (44%/-2.89) precisely on late continuation entries \u2014 chasing this grind repeats that mistake. No concrete edge to size on now; wait for a real trigger.",
+  "transcript": {
+    "macro": "Regime NEUTRAL. Risk-on tape but late-cycle/jittery; Sunday = US cash closed, equity tokens thin/gappy off Friday closes, Monday-open gap risk. TSLA genuinely bid on own catalysts \u2014 record Q2 deliveries (480k, +25% y/y, ~74k above consensus) & Miami robotaxi launch drove it to ~$420. Scan: strongest clean uptrend of equity tokens (4h +0.80, RSI 61.6, rel-strength +1.94%), price 409.63 pushing toward resistance 420. Funding ~0; L/S crowded long 1.65; structure_bias -0.28; orderbook -0.28; OI thin 7.1k. Event risk: earnings Jul 22.",
+    "sentiment": "TSLA neutral-to-bullish. Q2 deliveries (reported Jul 2) big beat (~480,126 vs ~406,024 consensus) \u2014 already in price/behind us. Next hard binary Q2 earnings Jul 22 after close \u2014 outside horizon. No \u226448h company catalyst; momentum constructive post-delivery beat but perp drifting on thin weekend liquidity. Mostly a technical trade this cycle.",
+    "analyst": "Strongest equity token but every entry compromised: grind into 420 resistance on dead weekend volume, sell-heavy book, crowded long, thin OI + Monday gap risk. Chasing high-ADX continuation is the book's bleeding pattern. Hold; valid long only on a clean 420.5 break or a 405 pullback.",
+    "portfolio": "HOLD TSLA \u2014 strongest trend but grinding into resistance on dead tape; wait for a 420.5 breakout or 405 pullback, don't chase."
+  },
+  "timestamp": "2026-07-12T10:34:00.029151+00:00"
+}

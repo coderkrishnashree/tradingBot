@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "ORCL/USDT:USDT",
+  "size": 0.0,
+  "entry": 141.34,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Thin Sunday tape; price micro-bounced off the 141.12 low (last 15m bar closed on its high) into deeply oversold 1h/15m RSI. Base case: a relief bounce toward 142.4-143.0 (VWAP/broken-support-turned-resistance) over the next several bars into Monday open, which is where an honest short entry sets up; only a volume break of 141.12 confirms trend resumption sooner.",
+  "expectancy_note": "Market-short now = late short into oversold bounce; account's short/high-ADX/trend book runs 44-47% win, -1.6 to -2.9 avg R \u2014 negative expectancy. Waiting for the 142.5 bounce gives a fade with the downtrend at ~1x ATR stop and 2-3x target vs 137.63 support: far better R:R.",
+  "rationale": "Composite is genuinely short (-0.54, ADX 35, rel-strength -19%, crowded longs), but price is stretched (1h RSI 21, 15m RSI 19) and just bounced off 141.12 on a closed-cash, illiquid Sunday book with Monday-gap and CPI-Tuesday binary risk. Chasing continuation into stretched tape is this account's #1 loss pattern (learner: shorts 47%/-1.65, trend 44%/-2.89). The high-expectancy short is to fade a bounce back to VWAP/prior support near 142.5, not to sell the low here \u2014 so hold and arm the retest trigger. Size 0 until that level or a clean volume breakdown appears.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 142.5,
+    "expires_min": 240,
+    "note": "A bounce reclaiming ~142.5 (VWAP / broken-support-turned-resistance) unwinds the oversold stretch and offers an honest short entry into the intact 1h/4h downtrend with a tight ~1x ATR stop above 143.0 and target toward 139-137.6."
+  },
+  "transcript": {
+    "macro": "Regime MIXED/risk-on but event-gated. Sunday Jul 12 2026 US cash markets CLOSED; thin/stale books, funding ~0, Monday-open gap risk. Binary: US June CPI Tue Jul 14 8:30am ET inside holding window, hawkish skew punishes high-multiple longs (~25% odds of Fed HIKE Jul 28-29). ORCL composite SHORT (-0.54, 66.7% conf), aligned down 1h/4h, RSI deeply oversold (1h 21, 15m 19), structure_bias -0.28, crowded longs L/S 2.12, laggard -19% vs BTC. Env favors SHORT but stretched/oversold on closed illiquid tape \u2014 Monday bounce risk, smaller size / wait for cash-session confirmation.",
+    "sentiment": "ORCL NEUTRAL-to-BEARISH near term. Q4 FY2026 reported Jun 10 (record, cloud +47%) \u2014 stale/digested. No earnings inside 48h (next ~Sept). Only event tiny $0.50 dividend (ex-date passed). Overhang: AI-capex/OCI buildout skepticism. No fresh headline to fight the technical short; near-term news neutral-to-slightly-negative, does NOT contradict a short. CPI Tue only thing that flips it.",
+    "analyst": "Composite genuinely short but price stretched (1h RSI 21, 15m RSI 19) and just bounced off 141.12 on a closed Sunday book with Monday-gap and CPI-Tue binary risk. Chasing continuation into stretched tape is the account's #1 loss pattern (shorts 47%/-1.65, trend 44%/-2.89). High-expectancy short is to fade a bounce back to ~142.5, not sell the low. HOLD, arm 142.5 retest trigger, size 0.",
+    "portfolio": "ORCL: HOLD (conf 0.60) \u2014 short bias intact but oversold; fade a bounce to 142.5, don't sell the low into CPI-Tue on a closed tape."
+  },
+  "timestamp": "2026-07-12T12:01:42.998030+00:00"
+}

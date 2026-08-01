@@ -1,0 +1,28 @@
+{
+  "symbol": "QQQ/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.6,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "none",
+  "forecast": "Thin weekend chop 695-698 as the 15m base flattens on drying volume; no clean next move \u2014 either a dead-cat bounce toward VWAP ~710 or a Monday-gap continuation lower, neither tradeable now with the underlying closed.",
+  "expectancy_note": "p(win) on a fresh short ~0.45 (learner: 36 shorts, 47% win, -0.87 avg pnl); shorting RSI 19 / ADX 75 extended -2% below VWAP into a closed underlying is the account's proven late-short bleed. No range/breakout edge either. HOLD is highest expectancy.",
+  "rationale": "QQQ is the epicenter of the chip-led rout \u2014 4h RSI 19.3, ADX 75.8, RS -8.5% \u2014 but it is now deeply oversold on a CLOSED underlying (Saturday), and the 15m candles show a flattening base with dried-up volume, not fresh breakdown. Chasing a short here invites the exact Monday mean-revert bounce that has killed this account's late shorts; a fresh long has no confirmation with the downtrend intact. Structure_bias +0.19 is pure orderbook noise (L/S 1.0, funding 0). No positive-expectancy trade \u2014 stand aside for the level to resolve.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 688.0,
+    "expires_min": 240,
+    "note": "Losing the 688.09 support with volume confirms the downtrend resumed past the oversold pause \u2014 a clean continuation short; a reclaim of 700 would instead argue the bounce is on."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF / hostile to fresh longs. Saturday \u2014 US equities closed, tokenized-stock pairs trade weekend/underlying-closed (thin books, live Monday gap risk from Friday's semiconductor rout + US-Iran escalation). Crypto Extreme Fear (F&G 25), BTC dominance ~56.4%. QQQ: HOSTILE for longs, favors shorts (4h RSI 19.3, ADX 75.8, RS -8.5%, epicenter of chip-led selloff) but deeply oversold on a closed underlying; short-chasing risks a Monday mean-revert bounce.",
+    "sentiment": "Risk-off, pre-catalyst tape. QQQ no single 48h catalyst; epicenter of risk-off tech selloff, FOMC Jul 28-29 + earnings cluster overhang. Consolidating ~$696-720. NEUTRAL-TO-BEARISH near-term (headline risk skews down).",
+    "analyst": "Deeply oversold (RSI 19.3, ADX 75.8) on a closed underlying with a flattening 15m base on drying volume \u2014 not fresh breakdown. Chasing a short is the account's #1 loss pattern (late shorts into stretched tape); no long confirmation. HOLD, reconsider on a volume break of 688 or a reclaim of 700.",
+    "portfolio": "QQQ \u2014 HOLD (0.60): oversold epicenter, but shorting the stretch into a closed underlying is bounce-bait; wait for 688 break or 700 reclaim."
+  },
+  "timestamp": "2026-07-18T09:08:17.521405+00:00"
+}

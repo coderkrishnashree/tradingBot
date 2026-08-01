@@ -1,0 +1,25 @@
+{
+  "symbol": "CL/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.6,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "forecast": "Post-spike chop just under the 74.08 high; likely a fade toward the 72.2-72.5 VWAP/breakout shelf over the next 2-4 bars before the trend decides. A clean reclaim/hold above 74.08 = fresh escalation buying and a momentum long; a fade back under 72.2 = the geopolitical pop is unwinding.",
+  "rationale": "Macro (Iran/Hormuz) supports CL longs and every TF is up, but entry timeframes are stretched (15m/1h RSI 78-83) and positioning is extremely crowded long (L/S 4.18, positive funding) with structure_bias -0.355 against the chase. The candle path shows the 74.08 headline spike already faded to 72.5 and is now rolling over into lower closes, so a market buy at 73.24 gets stopped by any routine counter-bounce/de-escalation gap before the trend resumes. Best expectancy is to wait: buy on a pullback to the 72.2-72.5 VWAP/breakout shelf, or chase only a confirmed hold above 74.08.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 74.1,
+    "expires_min": 240,
+    "note": "A clean break and hold above the 74.08 spike high proves fresh escalation-driven buying absorbing the crowded-long risk, flipping this to a momentum continuation long."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF, oil-shock the DOMINANT driver: Brent +5.4% to ~$78 on renewed US-Iran hostilities / Strait of Hormuz fears; Trump called Iran ceasefire 'over.' CL SUPPORTIVE trend but CROWDED-LONG: scan long (+0.488), up-trend every TF, RSI stretched 78-83. structure_bias -0.355: L/S 4.18 (extremely lopsided long) + funding 0.024% = crowded/late. Environment supports direction but positioning says smaller size, don't chase.",
+    "sentiment": "CL NEUTRAL-to-BULLISH intraday, geopolitics the wildcard. WTI ~$71-73, sharp pop to ~$73-74 on huge volume, but oil down ~18% over past month. Live catalyst: re-escalating US-Iran near Hormuz, offset by UAE/Gulf record production; can gap either way. The one name uncorrelated to CPI (crude -0.26 vs BTC). Momentum favors longs but a geopolitics coin-flip.",
+    "analyst": "Candle path: flat ~71.8, then a massive-volume spike bar 72.20->74.08 high closing 72.92 (the headline), faded back to ~72.5, retested 73.72, now rolling over \u2014 last bar 73.24 near lows. RSI 78-83 on entry TFs + L/S 4.18 crowded-long + fade off 74.08 = the account's #1 late-trend loss pattern. Market long has negative expectancy; short fights the dominant macro. HOLD; buy a 72.2-72.5 pullback OR chase only a confirmed hold above 74.08. Armed price_above 74.1 trigger.",
+    "portfolio": "Hold CL \u2014 no edge chasing RSI-83 crowded-long; armed a 74.1 breakout trigger. Conf 0.60."
+  },
+  "timestamp": "2026-07-12T00:02:59.505289+00:00"
+}

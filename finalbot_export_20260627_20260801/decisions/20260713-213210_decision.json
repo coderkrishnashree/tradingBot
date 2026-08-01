@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "EWJ/USDT:USDT",
+  "size": 0.0,
+  "entry": 92.69,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.62,
+  "playbook": "none",
+  "forecast": "Dead off-hours tape: price drifts in a 92.6-93.1 vacuum on near-zero volume into US CPI; no impulse either way until real liquidity returns.",
+  "expectancy_note": "No edge: shorting oversold near 90.27 support gives <1R with high snapback whip risk (thin book); longing a 4h downtrend has no confirmation. HOLD beats both.",
+  "rationale": "Japan cash closed - the last ~15 candles print 0.0-0.1 volume and 0.07% ATR, an illiquid vacuum where a single order gaps price, not a trend to ride. Price sits at 92.69 only ~2.6% above support 90.27 with 4h RSI 26.6 and %B 0.12 (oversold near lower band), so a momentum short risks the classic late-short-stopped-by-bounce loss the learner flags. With US CPI tomorrow 08:30 ET adding binary gap risk, no positive-expectancy trade exists tonight - size 0.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 90.27,
+    "expires_min": 240,
+    "note": "A decisive break of support 90.27 on returning volume confirms the downtrend resuming - clean momentum short trigger."
+  },
+  "transcript": {
+    "macro": "Risk-OFF regime. Nasdaq -1.6%, S&P -0.8% on semiconductor selloff + US-Iran/Hormuz escalation. EWJ short-supportive: Nikkei sliding on chip overheating; but 4h very stretched (oversold), snapback risk high. Japan cash closed = extremely thin. June US CPI prints tomorrow Jul 14 08:30 ET.",
+    "sentiment": "Mixed/cautious, macro-driven. Nikkei ~66,800 (~7% off highs); BoJ hiked to 20-yr-high 1%, JGB yields jumping, USD/JPY ~162, yen sliding despite >$70B intervention. No single <=48h binary for the ETF. Near-term neutral-to-slightly-bearish; watch yen/BoJ headlines.",
+    "analyst": "Scan: last=92.69, RSI 26.6 (oversold), ADX 49.7, %B 0.124 near lower band, support 90.27 / resistance 95.45, funding flat, long_short 1.306. Last ~20 15m candles near-zero volume (dead off-hours tape, 15m ATR 0.07%). Not shorting oversold near support into an illiquid vacuum before CPI; not longing a 4h downtrend with no reversal confirmation. HOLD, reconsider on break of 90.27 on real volume.",
+    "portfolio": "EWJ: HOLD (conf 0.62) - dead off-hours tape, no positive-expectancy entry into CPI; reconsider on break of 90.27 on volume."
+  },
+  "timestamp": "2026-07-13T21:32:10.253461+00:00"
+}

@@ -1,0 +1,24 @@
+{
+  "symbol": "GOOGL/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.34,
+  "entry": 358.8,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "size": 0.0,
+  "playbook": "none",
+  "rationale": "GOOGL is a tokenized equity with US cash markets CLOSED (Sunday); the last ~20 15m bars are dead-flat between 358.2 and 358.8 on near-zero volume, so ADX 45.9 'trend' is an artifact, not a tradable move. The long composite (0.44, only 50.8% conf) is undercut by crowded longs (L/S 1.9), slightly bearish structure_bias -0.20, and stoch 85 near the coil top. No honest stop inside range; wait for Monday flow or a real break above ~359.2 / below 351.78. Earnings Jul 22 out of window; CPI ~48h out.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 359.2,
+    "expires_min": 240,
+    "note": "Clearing coil top on real volume confirms long composite; re-debate toward resistance 373.49."
+  },
+  "transcript": {
+    "macro": "Regime NEUTRAL-to-RISK-ON (2026-07-12, Sun). AI/chip bid supportive but headline-fragile and weekend-thin. Fed on hold 3.50-3.75%; FOMC Jul 28-29 (outside window). June CPI Jul 14 08:30 ET (~48h) is a binary. Tokenized equities (GOOGL/ORCL/SNDK/EWY): US cash markets CLOSED Sunday -> thin, gappy NAV-anchored prints, size down. BTC ~$64.2k mild long, funding neutral, L/S 1.34, OB +0.75. GOOGL btc_corr 0.15, mild long, thinnest tape of the set.",
+    "sentiment": "GOOGL: Alphabet Q2 earnings Wed Jul 22 after close (~10d) -> do NOT carry size into the 22nd. Tone into print constructive (~$2.87 EPS consensus) but no 48h catalyst beyond broad tech beta; near-term news effectively neutral.",
+    "analyst": "Price pinned 358.2-358.9 on near-zero weekend volume; ADX 'trend' meaningless. Long composite weak (50.8% conf) and undercut by crowded longs, bearish structure_bias and stoch 85 at coil top. No edge, no honest in-range stop; account bleeds on high-ADX chase entries. HOLD, re-debate on a real break.",
+    "portfolio": "HOLD GOOGL - pinned weekend NAV tape, no edge; stand aside until a real break or Monday flow."
+  },
+  "timestamp": "2026-07-12T19:32:26.192111+00:00"
+}

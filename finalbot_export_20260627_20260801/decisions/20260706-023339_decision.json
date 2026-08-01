@@ -1,0 +1,25 @@
+{
+  "action": "hold",
+  "symbol": "SNDK/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "expectancy_note": "Fresh short here has bad R:R (~0.2% to support vs 6% to resist) into RSI30/stoch5/%B0.07 + bullish divergence; long is a knife-catch into RISK-OFF. Both negative-expectancy at this exact price; wait for the level to resolve.",
+  "rationale": "SNDK is pinned on support 1811.44 (last 1814.92) after a -14% flush: RSI 29.7, stoch 5, VWAP -2.27%, %B 0.066, with a bullish divergence and 1h/30m/15m momentum gone flat \u2014 classic oversold-into-support where the sell pressure is stalling, so a fresh short is chasing and a long is catching a falling knife into a hostile hawkish-Fed tape with overnight gap risk. Structure is only mildly bearish (bias -0.164, LSR 1.26) and this is a semi-beta move (0.82 corr to MU), not a clean setup. Highest-expectancy action is to wait: a decisive loss of 1811 unpins the divergence and re-arms the macro-aligned short with room to run.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 1811.0,
+    "expires_min": 240,
+    "note": "Losing hardened support 1811 negates the oversold-bounce/divergence thesis and confirms trend continuation \u2014 that is the timely, macro-aligned short entry."
+  },
+  "transcript": {
+    "macro": "2026-07-06 RISK-OFF, AI/semi-led unwind. Nasdaq-100 -2%+, Dow record on rotation to value. Weak jobs (57k), hawkish Fed under Chair Warsh (market pricing a possible HIKE). Semis epicenter: Micron -13%, SanDisk -11% on memory-glut fears. BofA long-term bullish (PT $2,500, NAND tight through 2027) but momentum broken after +700% YTD. Bias favors shorts/fades of bounces; thin overnight liquidity, gap risk.",
+    "sentiment": "SNDK bearish near-term / bullish structural. ~14% single-day drop July 3 to ~$1,745 on valuation wall; fresh shock still bleeding (RSI 30, ADX 69, support ~1811). NAND tight through 2026 (long-horizon). Next earnings Aug 24, no imminent binary. Momentum flush favors short bias next 24-48h but stretched oversold falling knife \u2014 watch mean-revert bounce.",
+    "analyst": "Price parked exactly on support 1811 (last 1814.92) with bullish divergence, stoch 5, %B 0.066, VWAP -2.27%, and 1h/30m/15m momentum gone flat \u2014 sell pressure decelerating. Fresh short = chasing with inverted R:R (0.2% to support vs 6% to resistance); long = knife-catch into hostile RISK-OFF tape. Best expectancy is HOLD; a decisive break below 1811 re-arms the macro-aligned short.",
+    "portfolio": "SNDK: HOLD (conf 0.60) \u2014 oversold pinned on 1811 support; wait for a break below 1811 to short."
+  },
+  "timestamp": "2026-07-06T02:33:39.449027+00:00"
+}

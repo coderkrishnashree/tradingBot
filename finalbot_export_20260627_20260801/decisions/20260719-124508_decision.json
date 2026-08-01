@@ -1,0 +1,26 @@
+{
+  "symbol": "CRCL/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.55,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "forecast": "Choppy drift between 60.6 support-of-the-hour and 61.2 VWAP over next 2-4 bars; 30m/5m RSI already ~30 favors a small bounce toward 61.2 before any resumption, so shorting here buys the low. A clean break of 58.76 opens 57.0-56.5.",
+  "expectancy_note": "Short structurally valid but timing late: LTF RSI ~30 = bounce risk; account shorts win only 47% (avg -0.87R) and model weights structure_bias/aligned NEGATIVE. Market closed Sunday = no catalyst + two-way gap risk.",
+  "rationale": "4h is a monster downtrend (ADX 80, RSI 73 rolling, rel-strength -27%, long-crowded L/S 2.33) so the bias is genuinely down, but price has already completed today's leg into 30m/5m oversold and is grinding on tiny volume just above 60.63. Market-shorting at 60.73 requires a stop above VWAP ~61.2 that a routine oversold bounce would tag first, and the learner shows this 'aligned bearish' pattern is the account's losing trade. Better to wait for a failed bounce to 61.2 or a confirmed break of 58.76 than sell the intraday low into a closed cash market with two-way gap risk (Mizuho downgrade + Visa threat can shock intraday either way).",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 58.76,
+    "expires_min": 240,
+    "note": "Losing 58.76 support confirms 4h downtrend continuation with air to 57.0-56.5 and re-arms the crowded-long short with proper room."
+  },
+  "transcript": {
+    "macro": "Regime: RISK-OFF. Equities rolling over. Fed hawkish; FOMC Jul 28-29 (outside cycle). US equity market CLOSED (Sunday) \u2014 tokenized-stock perps thin, will gap Monday. CRCL: structure_bias -0.30, L/S 2.33 (long-crowded), RSI 73/ADX 80 overbought on 4h, rel-strength -27%. Scan leans SHORT; crowding supports downside. Verdict: RISK-OFF.",
+    "sentiment": "CRCL: most headline-heavy, two-sided, HIGH near-term sensitivity. Positives: OCC national trust bank approval (Jul 10, +7%); likely Coinbase/USDC renewal in August. Negatives dominate NOW: Mizuho downgraded to Underperform, PT cut to $50 (from $85, Jul 17); Visa's 'Open USD' stablecoin platform is a direct USDC threat. Moves on unscheduled regulatory/competitive headlines \u2014 two-way gap risk. Bearish tilt supports scan short bias.",
+    "analyst": "Tokenized equity: crypto structure only partially meaningful, but L/S 2.33 crowding is real downside fuel. Strong 4h bearish trend, yet entry timing is late into LTF-oversold on a closed-market Sunday. Highest-expectancy action is HOLD and arm the sub-58.76 breakdown trigger.",
+    "portfolio": "HOLD CRCL/USDT:USDT \u2014 bearish bias but late/oversold entry; armed short trigger below 58.76."
+  },
+  "timestamp": "2026-07-19T12:45:08.476521+00:00"
+}

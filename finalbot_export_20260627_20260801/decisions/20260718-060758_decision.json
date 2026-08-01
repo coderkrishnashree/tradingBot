@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "INTC/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Thin weekend grind continues near 93.7 with high odds of a violent oversold relief bounce back toward VWAP ~97.5-98 before any resumption; a fresh short here front-runs that bounce and gets stopped.",
+  "expectancy_note": "Short thesis is best-in-set on structure (bias -0.318, L/S 2.307) but entry is 4.4% below VWAP, 1h RSI 11.7 / 4h RSI 24, p_win_learned 0.303 \u2014 chasing a washed-out name gives ~1.3 R:R and negative expectancy; waiting to short the bounce (or breakdown) is higher-EV.",
+  "rationale": "INTC is the epicenter short but price is deeply extended below VWAP into a closed US market with crowded longs (L/S 2.307) primed to squeeze \u2014 the exact 'late short into stretched tape' pattern that has bled this account (learner p_win 0.303). Bollinger is already fully expanded (24% width), not a squeeze, so a breakout-chase has no edge. I want to short either a relief bounce to ~97.5-98 (VWAP / prior support-turned-resistance) for clean R:R toward the 89.76 double-bottom, or a decisive break of 89.76 with momentum \u2014 neither is present now. Earnings Jul 23 also caps multi-day short holds. HOLD is highest-expectancy until price gives a better level.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 97.5,
+    "expires_min": 240,
+    "note": "A relief bounce back to VWAP/broken-support-turned-resistance ~97.5 sets up a proper-R:R short toward the 89.76 double-bottom with the crowded-long squeeze exhausted."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF, US venues CLOSED (Saturday). Semis rout, BTC ~$63.9k flat/chop. Board favors SHORT; biggest risk shorting deeply-oversold. INTC: short-aligned, highest-conviction THESIS but event+oversold risk. -14.1% on week, ~$79bn wiped, testing double-bottom ~$94. L/S 2.307 crowded long, structure_bias -0.318 (most bearish), zero BTC corr, rel-str -32.98 pure idiosyncratic. Earnings Jul 23 after close (binary). 4h RSI 24 hugely oversold. Smaller size, tight.",
+    "sentiment": "INTC most event-heavy. Q2 earnings Thu Jul 23 after close (~5 days, looming binary limits multi-day holds). Bearish: epicenter of semi rout (SOX -13%/month), foundry loss-making, RS -33%. No <=48h catalyst but highest-beta to selloff; RSI washed out -> violent oversold bounce is main short risk.",
+    "analyst": "Price 93.69, support 89.76 / resistance 115.46. 4h RSI 24 / 1h RSI 11.7 washed out, ATR% 3.04 huge, vwap_dist -4.41% (very extended down), BB width 24.4% already-expanded (not a squeeze). L/S 2.307 crowded longs primed to squeeze, p_win_learned 0.303. 15m gentle stair-step lower, no acceleration. Fresh short ~1.3 R:R, negative EV chase. HOLD; short on bounce to ~97.5 or break of 89.76.",
+    "portfolio": "HOLD INTC \u2014 best thesis but terrible entry (4.4% below VWAP); arm short on bounce to 97.5."
+  },
+  "timestamp": "2026-07-18T06:07:58.311133+00:00"
+}

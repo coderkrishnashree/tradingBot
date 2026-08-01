@@ -1,0 +1,28 @@
+{
+  "symbol": "XAG/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.5,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "none",
+  "forecast": "Chop between 56.76 and 57.34 for the next few bars; the 57.59 breakout was sold back to 56.82, so price likely coils near 57.0 until FOMC-driven macro resolves. A break under 56.76 opens 56.2/VWAP; reclaim of 57.34 revives the push toward 57.9.",
+  "expectancy_note": "No clean edge: ADX 52 uptrend + bullish divergence (bull) vs RSI 72, %B 0.91, L/S 3.9 crowded long, structure_bias -0.30, failed 15m breakout (bear). ATR only 0.61% so any honest stop nearly eats the target to next structure \u2014 R:R < 1.5 either way. HOLD beats a coin-flip.",
+  "rationale": "Price is mid-range (56.99) after a failed spike to 57.59 that was fully rejected to 56.82, with the composite NOT aligned (conf 42.5%) and the crowd extremely long (L/S 3.9) into strong-but-stretched trend. Shorts have been losing for this account and a late short into ADX 52 is the classic trap, while a long into RSI 72 / upper band with a fresh failed breakout has no confirmation. Tiny ATR makes both R:R sub-1.5 to the next real level, so the highest-expectancy action is to wait for the range to resolve.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 56.76,
+    "expires_min": 240,
+    "note": "Losing today's rejection low confirms the failed 57.59 breakout and opens a clean move to VWAP/56.2 \u2014 flips me to a short with a defined stop back above 57.1."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF; US-Iran oil/inflation; hawkish Fed (~60% odds hike by Oct); firm DXY. XAG neutral, contrarian risk: ~$57, near 8-month lows, far below Jan's $121 high. Safe-haven bid from oil/inflation but hawkish-Fed/firm-DXY caps it. L/S 3.9 = VERY crowded long, bias -0.30, RSI 72. Bullish divergence noted \u2014 mixed.",
+    "sentiment": "XAG neutral, macro-driven: whippy \u2014 rebounding toward $57 after a 6% weekly drop. Soft June CPI (July 14) eased hike bets, but US-Iran tension and +30% oil cut the other way. Real driver is FOMC July 29 (outside 48h window).",
+    "analyst": "Failed spike to 57.59 fully rejected to 56.82; composite NOT aligned (42.5%), crowd extremely long (L/S 3.9). Late short into ADX 52 is the classic trap; long into RSI 72 / upper band has no confirmation. Tiny ATR (0.61%) makes R:R sub-1.5 either way. HOLD; arm short below 56.76.",
+    "portfolio": "XAG: HOLD (conf 0.50) \u2014 coin-flip mid-range after failed breakout; arm short below 56.76."
+  },
+  "timestamp": "2026-07-20T12:44:12.818857+00:00"
+}

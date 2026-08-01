@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "INTC/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.68,
+  "playbook": "none",
+  "forecast": "Parabolic 20-bar melt-up (96.9 to 100.8) is exhausted: RSI 90/96, stoch 97, +4.6% over VWAP, %B>1.14. Expect a mean-revert dip toward VWAP ~96-97 within several bars, then chop/consolidation ahead of Thursday's post-close print.",
+  "expectancy_note": "No entry has positive expectancy: long = chasing a vertical top (bounce stops it), short = knife-catch on ADX 75 into a bullish binary. HOLD dominates; a pullback-to-VWAP long is the setup worth waiting for.",
+  "rationale": "INTC treated as equity; crypto structure only shows the crowd already max-long (bias -0.33) into the print. Price is grossly extended (+4.56% over VWAP, RSI 90+/96, stoch 97, %B 1.14) on a straight-up parabola with composite conf 4.1/flat/not-aligned - market-buying here is the account's #1 loss pattern, and Q2 earnings Thu Jul 23 after close (~15% implied) make naked size reckless. No topping confirmation yet to justify a fade. Size 0.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 97.0,
+    "expires_min": 240,
+    "note": "A flush back to the VWAP/breakout-retest zone (~96-97) that holds would reset the overbought stretch and offer a with-trend long with a tight ~1xATR stop and honest R:R - the only high-expectancy entry here."
+  },
+  "transcript": {
+    "macro": "NEUTRAL tilting risk-off. US-Iran conflict spiking oil (WTI ~$83-85) reviving inflation/hike fear; higher long-end yields + firm dollar pressure equity multiples & metals. US indices digesting near highs (S&P -0.19%, Nasdaq -0.05%). Key events <48h: GOOGL earnings Wed Jul 22 AC, TSLA Jul 22 AC, INTC Jul 23 AC; FOMC Jul 28-29 (market pricing hike RISK, not cuts). BTC ~$65.5k pinned under $65.8k resistance, dominance ~56.5%, Fear & Greed 25 (Extreme Fear), funding benign; crypto-beta names crowded long -> squeeze risk to downside if BTC stalls. Semis (NVDA/MU/INTC/SNDK) move as a pack, headline-fragile. CL structurally bid on Hormuz supply fear (hostile to shorts). XAG near 8-month lows, capped by dollar/yields. Tokenized-equity perps thin/gappy overnight (scan 03:38 UTC).",
+    "sentiment": "Risk-off/cautious. Only tradable <=48h binaries are GOOGL (Jul 22 AC) and INTC (Jul 23 AC, ~15% implied move), both casting a shadow over beta names (QQQ, NVDA, MU, SNDK, crypto). MSFT (Jul 13) & MU (blowout Q3) already reported - no fresh binary. COIN Jul 30, HOOD Jul 29, SNDK Aug 5 all OUTSIDE the window (don't hold into next week). MSTR flipped to SELLING BTC (largest since 2022) - sentiment negative. CL live geopolitical gap risk both ways, supply-shock skew up. XAG coiled in a triangle (breakout >61 / breakdown <55.7), no dated catalyst. No hacks/exploits/large delistings flagged.",
+    "analyst": "INTC 100.78, composite flat conf 4.1, not aligned, ADX 74.7, RSI 79.6(4h)/90.1(15m)/96.3(5m), stoch 97.1, %B 1.141, VWAP +4.56%, structure_bias -0.327. Q2 earnings Thu Jul 23 AC, ~15% implied. Parabolic exhaustion into a binary => HOLD, pullback reconsider at 97.",
+    "portfolio": "INTC: HOLD - parabolic +4.6%-over-VWAP into the Jul 23 earnings binary; do not chase or fade."
+  },
+  "timestamp": "2026-07-21T03:47:56+00:00"
+}

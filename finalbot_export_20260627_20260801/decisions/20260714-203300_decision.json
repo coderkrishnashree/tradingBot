@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "SNDK/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.34,
+  "playbook": "none",
+  "forecast": "Price is at VWAP (1753) after fading from 1786 on dying volume (last bar 51 vs 779 earlier); expect chop/base-building 1746-1770 next few bars, not a clean directional resolution. A short only becomes live if 1740-1746 breaks with volume; otherwise oversold bounce risk into a bullish sector tape (MU +5%) is high.",
+  "expectancy_note": "p(win) ~0.38 (learner p_win_learned 0.383; account shorts 46% win, -1.75R; high-ADX 45%). Short = chasing RSI 31 at VWAP with nearest target (1491) 15% away \u2014 no honest sub-1.5x-ATR R:R; every playbook here is negative expectancy vs a free HOLD.",
+  "rationale": "This is the account's textbook losing setup: a late continuation short into stretched/oversold tape (RSI 31, ADX 41) with no nearby structure \u2014 support 1491 is ~15% off so a short has no near target, while a 1.5x-ATR stop sits ~$100 up into a violently bullish name (blowout earnings, PT hikes, MU +5% sector tailwind today, L/S 0.88 = crowded-short squeeze fuel). Price sits AT VWAP with collapsing volume, giving neither a clean fade entry nor a breakdown trigger. No positive-expectancy trade exists; wait for a real level.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 1740.0,
+    "expires_min": 240,
+    "note": "Losing the intraday low 1740 on volume confirms the oversold-momentum short resolves lower and opens the runway toward the 1491 support zone, turning a knife-catch into a valid trend-continuation entry."
+  },
+  "transcript": {
+    "macro": "Tokenized US equities, judge off Nasdaq/tech tape not BTC (SNDK BTC corr 0.02). Regime risk-ON: soft June CPI 3.5% vs 3.8%, Nasdaq +0.9%, semis/memory rallied hard (MU +5%). ~20:29 UTC, just past 16:00 ET cash close -> perps now thinner/gappier after-hours. IBM -25% on enterprise-software warning. SNDK: scan wants short (blended -0.49, 4h -0.88, RSI 31) BUT fundamental tape violently bullish (blowout earnings, Bernstein 1700->3000 & Wedbush 1200->2000 PT hikes, +10-12% session). Knife-catch; if shorting, small size mean-reversion scalp only.",
+    "sentiment": "Risk-on tech tape post-cool-CPI, Q2 earnings season = headline/gappy (IBM -25% reminder). SNDK: no <=48h binary (next earnings Aug 5, Investor Day Aug 13). Near-term = wave of PT hikes (Goldman 2200, Bernstein 3000, Evercore 3100 \u2014 LOW weight), NAND/flash supercycle +700% YTD. Caveat -16% in July on semi wobble; moves with memory complex (MU/SNDK corr 0.78); today's semi rebound (MU +5%) is a tailwind AGAINST a short. Net near-term news mildly bullish -> argues against scan's short lean.",
+    "analyst": "Account shorts bleeding (28 shorts, 46% win, -1.75R); high-ADX 45% win; p_win_learned 0.383 for this SNDK setup. #1 loss pattern = late continuation shorts into stretched tape stopped by bounce \u2014 exactly this. Price AT VWAP (-0.32%, no clean fade entry), RSI 31 oversold, nearest support 1491 ~15% away (no honest near-target), ATR 3.96%/~69, so 1.5xATR stop ~100 up with no structure. Fighting a violently bullish same-day tape + crowded-short book (L/S 0.88 = squeeze fuel). No long justified either. Textbook NO TRADE -> HOLD highest expectancy. Armed reconsider at 1740.",
+    "portfolio": "HOLD SNDK \u2014 no positive-expectancy trade; wait for a volume break of 1740 to arm a trend short toward 1491."
+  },
+  "timestamp": "2026-07-14T20:33:00.599419+00:00"
+}

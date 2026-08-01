@@ -1,0 +1,23 @@
+{
+  "symbol": "BTC/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.5,
+  "size": 0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "rationale": "4h overbought (RSI 76.6, +0.89% over VWAP) after tagging 65749 and rolling over on lower TFs (30m/5m short); last six 15m bars bled 65504->65208 \u2014 a stretched trend fading into the FOMC 7/29 window, not a clean pullback-long. Composite only 33% confident, unaligned, p_win 0.54; shorting a 73-ADX uptrend with flat funding is equally low-EV. Stand aside; flip long only on a reclaim of 65750.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 65750,
+    "expires_min": 240,
+    "note": "Reclaiming the 65749 rejection high proves the pullback failed and the 4h uptrend resumes toward 66938."
+  },
+  "transcript": {
+    "macro": "Risk-ON but into a loaded event window (FOMC Wed 7/29 + mega-cap tech earnings). Crypto DEFENSIVE: BTC ~$64-65k, dominance elevated ~58.7% (BTC bleeding alts, not altseason), funding ~0 everywhere. BTC read: NEUTRAL-to-cautious-long, no squeeze fuel, trade small.",
+    "sentiment": "BTC NEUTRAL-to-cautious ~$64-65k, recovered off late-June 21-month low ~$58k, Fear&Greed 27 (fear). Modest spot-ETF inflows; $2.5B call-spread expiring Jul 31 (payoff toward $72k on dovish Fed). Coiled for 7/29 FOMC \u2014 binary, direction unknown, size small.",
+    "analyst": "4h overbought and rolling over on lower TFs after a 65749 rejection; last six 15m bars bled lower. Composite 33% conf, unaligned, weak p_win. No clean pullback-long yet and shorting a 73-ADX uptrend is low-EV. Wait for a VWAP/support retest to buy or a reclaim of 65750 to confirm.",
+    "portfolio": "HOLD BTC \u2014 stretched trend fading into FOMC; no edge with size into a binary catalyst."
+  },
+  "timestamp": "2026-07-27T08:07:41.182304+00:00"
+}

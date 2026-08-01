@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "COIN/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.32,
+  "playbook": "none",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 165.0,
+    "expires_min": 240,
+    "note": "Losing 165 (below VWAP/mid-range, 5m momentum extending with BTC heavy) confirms the short; target 155/support."
+  },
+  "rationale": "COIN scan short is only 31.2% conf with no positioning tailwind (L/S 1.14, funding 0, structure_bias +0.013 = neutral, no crowding cushion). Price sits mid-range (bb %b 0.39, stoch 64.8, VWAP +0.66%) \u2014 not at an extreme to fade nor extended enough to short cleanly, and 30m/1h are flat while only the 5m (-0.9) shows momentum. As the highest BTC-beta name (corr 0.767) into BTC chopping at $64k support, a bounce squeezes COIN hardest, and a live 5-day +19% counter-trend rally is active. No 48h catalyst (earnings Jul 30). No edge here; wait for the tape to pick a side. HOLD, short armed on a break below 165.",
+  "transcript": {
+    "macro": "Regime 2026-07-07: MIXED, cautious-risk-off for crypto. BTC chopping ~$64k, Coinbase spot premium negative 48 days, StanChart flags $50k downside \u2014 soft crypto favors short. COIN: dir SHORT (conf 31.2% LOW). Positioning CLEANEST/LEAST crowded \u2014 long/short 1.14 (near balanced), funding 0, orderbook +0.182, structure_bias +0.013 (essentially NEUTRAL, only target NOT crowded-long) so the short signal is momentum/technical, not a positioning tailwind. CRYPTO-BETA: btc_correlation 0.767 (highest of four). RS +2.02. Bearish 4h divergence; RSI 41; support 142.48 / resistance 175.05 (~3% overhead). 5m -0.9 but 30m/1h flat = mixed. If BTC bounces off $64k COIN squeezes fastest; gate on BTC staying heavy.",
+    "sentiment": "COIN 2026-07-07: BEARISH pressure, high beta to weak crypto tape. NO COIN-specific catalyst in 48h (earnings Jul 30). Active macro shock: BTC broke below $60k, Crypto Fear & Greed in Extreme Fear, record June crypto-ETF outflows (~$4.06B); COIN fell ~4.8%. Counter-trend: COIN bounced ~19% over last 5 sessions, spot-BTC ETFs snapped a 10-day outflow streak (+$221.7M) = tentative stabilization; but Coinbase BTC Premium negative 48 days straight (record) = persistent US retail selling. Watch BTC $60k as swing factor; squeeze risk from the 5-day bounce.",
+    "analyst": "COIN is a high-beta echo of BTC (corr 0.767) with a genuinely clean but NEUTRAL book \u2014 the short is pure momentum, not positioning, and momentum only shows on the 5m while 30m/1h are flat. Price at 169.71 is stuck in the middle of the 142.48-175.05 range (bb %b 0.39), so a short here risks getting run 3% into the 175 cap on any BTC bounce off $64k, while the 5-day +19% rally keeps squeeze fuel loaded. R:R and probability don't clear the bar. Hold and arm a trigger: a decisive break below 165 (loss of VWAP/mid-range with BTC staying heavy) is the entry toward 155 then support; a reclaim toward 175 that rejects would be the cleaner short-at-resistance instead.",
+    "portfolio": "HOLD COIN/USDT:USDT \u2014 low-conviction, neutral-book, BTC-gated short with an active 5-day squeeze; no edge until 165 breaks or 175 rejects."
+  },
+  "timestamp": "2026-07-07T00:13:42.699762+00:00"
+}

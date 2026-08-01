@@ -1,0 +1,25 @@
+{
+  "symbol": "MSFT/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.34,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "forecast": "Thin-tape drift inside the 389.3-390.3 coil until US cash open; no directional path on near-zero volume, price pinned at VWAP mid-range (378 support / 403 resistance). Real move deferred to the Wed earnings + FOMC gap.",
+  "rationale": "Market closed (Sunday 9pm ET), book paper-thin (candle volumes <20 units), last 20 bars are flat noise around 389.6 with price sitting on VWAP in the middle of the 378-403 range \u2014 no mean-reversion extreme, no aligned trend pullback (4h RSI 71 extended, composite not aligned, conf 39.7%), no breakout trigger. MSFT reports after close Wed Jul 29 into FOMC the same day, a double binary that gaps through any honest stop. rel-strength -0.9% makes this a laggard with no relative edge. Size 0 \u2014 nothing here justifies risking capital ahead of the event.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 378.0,
+    "expires_min": 240,
+    "note": "Losing 378 range-floor support on real volume at/after cash open breaks the coil \u2192 clean short toward the range mid; else no trade before the Wed catalyst."
+  },
+  "transcript": {
+    "macro": "Cautious risk-off / event-gated. FOMC Wed Jul 30 hawkish tail. Scan stamped Sun 9pm ET \u2192 US cash CLOSED, thin/gappy. MSFT: last 389.65, funding 0.0, OI light (5,110), long/short 1.55, orderbook -0.10, structure_bias -0.194. rel-strength ~flat (-0.9%), btc_corr +0.22, 4h RSI 71 (extended). Very thin book.",
+    "sentiment": "MSFT bullish lean but HIGH EVENT RISK. Reports fiscal Q4 AFTER CLOSE WED Jul 29 (same day as FOMC \u2014 double catalyst). Watch Azure growth (prior guide +39-40% cc), Copilot seats, and especially capex (~$190B guide). Post-Alphabet, the market may punish any spending increase regardless of a cloud beat. Direction binary.",
+    "analyst": "Pure noise on near-zero volume \u2014 chop with no directional path. Price at VWAP in the middle of the 378-403 range: no mean-reversion edge, no trend pullback (4h extended, not aligned), no breakout trigger. Earnings after close Wed + FOMC same day = binary gap through any 0.6%-ATR stop. Textbook no-trade: closed/gappy, mid-range chop, imminent double binary, laggard beta. HOLD.",
+    "portfolio": "HOLD MSFT \u2014 mid-range chop into a Wed earnings+FOMC double binary; flat is the highest-expectancy line."
+  },
+  "timestamp": "2026-07-28T01:07:23.809045+00:00"
+}

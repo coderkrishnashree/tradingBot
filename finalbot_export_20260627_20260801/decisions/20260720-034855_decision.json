@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "ORCL/USDT:USDT",
+  "size": 0.0,
+  "entry": 127.25,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.34,
+  "playbook": "none",
+  "forecast": "Price stays pinned in the 126.6-127.6 coil for the next few bars on dead volume; no directional resolution until US cash open (13:30 UTC) injects volatility. Break of 126.6 opens 124.5 then support 120.8; reclaim of 128 targets 130.",
+  "expectancy_note": "No viable R:R either way: price +2.2% above VWAP (extended for a long), nearest support 120.8 is 5% away (no fade level), ADX 25.9 borderline-chop. Short is tempting on bearish overhang but crowded-long that won't drop + account's short book at 47% win = the late-short trap.",
+  "rationale": "ORCL is coiling in a tight 0.6% band with drying volume and no trend (ADX 25.9), price stretched 2.2% above VWAP with the nearest structural level 5% away \u2014 there is no honest 1.5R entry in either direction. Bearish structural overhang exists but has no <=48h catalyst and the tape refuses to break, so a short here is a late fade into crowded-long noise, exactly the pattern that has been losing on this account. Thin pre-US-open liquidity adds gap risk; wait for the coil to resolve. Size 0.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 126.6,
+    "expires_min": 240,
+    "note": "Loses the 15m coil low and VWAP support; confirms sellers taking control and opens a short toward 124.5/120.8 with the bearish overhang behind it."
+  },
+  "transcript": {
+    "macro": "ORCL: corr 0.13, rel-strength -23.9%, struct_bias -0.285. Weak relative strength, low ADX (25.9 \u2014 choppy, no trend), L/S 2.63 crowded-long. Nothing supportive; MIXED-to-HOSTILE, low conviction either way. Cash open 13:30 UTC, thin/gap-prone pre-open.",
+    "sentiment": "US tech RISK-OFF, AI-capex fear. ORCL BEARISH structural overhang: down ~29% from June peak; S&P downgraded it to BBB- on AI-capex/debt worries (~$90-95B capex, ~21k job cuts). No fresh <=48h catalyst but the tone is heavy and it trades with the AI-capex-fear theme.",
+    "analyst": "Coiling in a tight 0.6% band with dead volume and ADX 25.9 (no trend); price +2.2% above VWAP with the nearest level 5% away \u2014 no honest 1.5R entry either way. Bearish overhang has no <=48h catalyst and the tape refuses to break, so a short is a late fade into crowded-long noise (the account's losing pattern). HOLD; short only on a break below 126.6.",
+    "portfolio": "ORCL -> HOLD (conf 0.34): bearish overhang but dead coil, no level, no catalyst; wait for a break of 126.6."
+  },
+  "timestamp": "2026-07-20T03:48:55.037246+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "GOOGL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.62,
+  "playbook": "none",
+  "forecast": "Oversold bounce/base from 347.6 low toward 349.5-350.3 over next few bars; then chop into tomorrow's earnings gap. No clean edge before the binary.",
+  "expectancy_note": "Short p(win) ~0.40 (learner 0.437), fighting RSI-16 oversold at support with a 24h earnings gap ahead - negative expectancy. Flat beats a coin-flip that can gap through any stop.",
+  "rationale": "Alphabet reports Wed after close (~24h) - a hard binary that vetoes any swing held through it, and the tape is a washed-out oversold bounce off 341.86 support (1h RSI 16.8, stoch 11, 5m score +0.57), so shorting here chases into the exact late-short-into-oversold pattern that has been losing (p_win 0.437). No long into a downtrend and a pre-earnings gap. Flat is highest-expectancy; size 0.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 341.86,
+    "expires_min": 240,
+    "note": "Losing 4h support 341.86 on volume before the print confirms breakdown continuation and would justify an intraday short with a tight target ahead of earnings."
+  },
+  "transcript": {
+    "macro": "GOOGL ~$349, RS -12% vs BTC, scan leans SHORT - BUT Alphabet reports Q2 earnings Wed Jul 22 AFTER CLOSE (~24h). Event-risk VETO on any directional swing held through the print; only intraday or FLAT before the print. Regime risk-on but late after-hours thin/gappy.",
+    "sentiment": "GOOGL NEUTRAL-to-VOLATILE, the ONE <=48h catalyst. Reports tomorrow Jul 22 after close; consensus ~$2.87 EPS on ~$117B rev, hinges on Cloud growth and $190B AI capex guide. Hard binary - expect a gap. News argues AGAINST holding a directional swing through the print. Fed Jul 29 (hawkish Chair Warsh).",
+    "analyst": "Earnings tomorrow after close vetoes any swing. Tape is a washed-out oversold bounce off 341.86 support (1h RSI 16.8, stoch 11, 5m turning up), so shorting chases the late-short-into-oversold loss pattern (learner p_win 0.437). No long into a downtrend + pre-earnings gap. HOLD/flat is the highest-EV call.",
+    "portfolio": "GOOGL: HOLD (conf 0.62) - earnings-eve veto; oversold bounce, stay flat into Wed's print."
+  },
+  "timestamp": "2026-07-21T21:33:16.603220+00:00"
+}

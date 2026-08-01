@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "XAUT/USDT:USDT",
+  "confidence": 0.6,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "none",
+  "forecast": "Choppy drift 4000-4020 into the 8:30am ET CPI; the print is the pivot \u2014 hot CPI cracks 3990 back toward 3981 support (short reactivates), soft CPI squeezes the crowded longs through 4030+.",
+  "expectancy_note": "No entry beats both alternatives: shorting into an active LTF bounce + 4h RSI 18.9 + long-crowded squeeze + binary CPI is negative expectancy (the account's classic late-short loss); a long fights a firm 4h/1h downtrend. Wait for the event.",
+  "rationale": "Last 6 15m bars printed higher lows off 3981 support with 15m/30m RSI ~63-64 and positive MACD \u2014 the oversold-bounce the macro flagged is live, so a fresh short here sells the low into a squeeze right before a CPI binary. R:R is poor either way with support only ~0.85% below and a violent short-squeeze possible in a 3.08 long-crowded book. Size 0: the expectancy is in waiting for CPI and the level break, not guessing the print.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 3990,
+    "expires_min": 360,
+    "note": "Losing 3990 after this bounce means the higher-low structure failed and the 4h downtrend has resumed \u2014 that re-validates a short toward 3981 support (and a break of it opens new lows)."
+  },
+  "transcript": {
+    "macro": "OVERALL risk-off/defensive next 1-2 sessions on Hormuz escalation (oil+yields up, US10y ~4.60% rising, DXY firm ~101.10); semiconductor/memory bear market the standout theme; bias favors short side/smaller size. XAUT LEANS SHORT not a clean long: gold fell >2% to ~$4,020 a 2nd down day even WITH a Middle East flare (bearish tell), 4h RSI 18.9 deeply oversold, ADX 69.6, structure_bias -0.27, long/short 3.08 (squeeze risk off $3,981 support) \u2014 short rallies not new lows, modest size.",
+    "sentiment": "XAUT bearish/heavy: gold down 2nd straight day into July 13 ~$4,020-4,063, Hormuz escalation paradoxically hurting bullion via stronger USD/hawkish real yields. DOMINANT <=48h catalyst = June CPI Tue July 14 8:30am ET (headline -0.1% m/m, 3.8% y/y; core 0.2%/2.9%). Hot->gold lower, soft->bullish snap. Live geopolitical tail both ways. Net tilt bearish-to-neutral, short carries event risk.",
+    "analyst": "Last 6 15m bars printed higher lows off 3981 support (15m trend flipped up, RSI 64.3, MACD +2.69; 30m RSI 63) \u2014 the oversold bounce is live. 4h/1h still down (RSI 18.9, ADX 69.6). Shorting here = selling into an active LTF bounce at 15m highs with a binary CPI hours away and squeeze fuel from a 3.08 long-crowded book \u2014 textbook knife-catch into an event and the account's classic late-short loss. A long fights the firm 4h/1h downtrend. Highest-expectancy action is HOLD through CPI; arm a short if price loses 3990 (structure fails, downtrend resumes toward 3981).",
+    "portfolio": "XAUT: HOLD through CPI, size 0 \u2014 short reactivates below 3990, no long into a firm downtrend."
+  },
+  "timestamp": "2026-07-14T03:33:00.664576+00:00"
+}

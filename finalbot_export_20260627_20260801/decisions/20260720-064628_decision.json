@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "SOL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.55,
+  "playbook": "none",
+  "forecast": "Price just flushed to 75.46 on heavy volume with 15m RSI ~26 and 5m ~30 (LTF oversold) and sits at VWAP; expect a mean-reversion bounce toward 76.4-77.0 over the next 2-6 bars before the risk-off tape decides direction. Shorting the oversold flush = chasing; longing into a RISK-OFF, 0.80 BTC-beta tape with no reclaim = premature.",
+  "expectancy_note": "No edge either way now: short into LTF-oversold flush has neg expectancy (account shorts win only 47%, avg -0.88, dying to bounces), and long is counter-trend with no confirmation. Best trade is the bounce-fade at 76.9-77.0 or a confirmed reclaim \u2014 neither is here yet.",
+  "rationale": "SOL is mid-range (support 73.30 nearly 3 ATR below, resistance 79.01 above), sitting at VWAP after a fresh oversold flush, so there is no honest R:R entry at a structural level. Macro is risk-off and SOL is pure BTC-beta with crowded longs (L/S 2.76) = squeeze fuel on bounces, which is exactly why I want to SELL a rally into 76.9-77.0 rather than chase the flush. The learner confirms this account bleeds on late shorts into stretched tape (shorts 47% win, -0.88 avg), so I wait for the bounce.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 76.95,
+    "expires_min": 240,
+    "note": "A bounce into 76.9-77.0 (VWAP/prior supply) is the level to fade short in this risk-off, crowded-long tape; a decisive momentum reclaim above it instead argues the 4h long is taking hold. Either way, crossing it is the informative event that lets me set a real trade with structure-based R:R."
+  },
+  "transcript": {
+    "macro": "RISK-OFF/defensive, fragile. Crypto weak: BTC ~$65k after failing $70k, negative Coinbase Premium 50 days, June ETF outflows record ~$4bn. SOL is 0.80 correlated to BTC (pure beta, no independent bid) and long-crowded (L/S 2.76) = squeeze fuel on bounces. Posture: smaller size, favor short/mean-reversion fades.",
+    "sentiment": "SOL: neutral/constructive, no imminent binary. Long-horizon positives (Firedancer v1.0, Alpenglow upgrade late-Q3/Q4, cheap SOL ETF filings, rising active addresses) but nothing lands in 48h. Trades as BTC-beta. Fed 7/28-29 is the shared macro gate (outside 48h).",
+    "analyst": "Mid-range (support 73.30 ~3 ATR below, resistance 79.01 above) at VWAP after a fresh oversold flush (15m RSI ~26) = no honest R:R at a structural level. Risk-off + pure BTC-beta + crowded longs = fade a rally into 76.9-77.0, not chase the flush. Account bleeds on late shorts into stretched tape. Wait for the bounce.",
+    "portfolio": "HOLD SOL \u2014 mid-range oversold flush; fade a bounce to ~76.95 rather than chase."
+  },
+  "timestamp": "2026-07-20T06:46:28.156572+00:00"
+}

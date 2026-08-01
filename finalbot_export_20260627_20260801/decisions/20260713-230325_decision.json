@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "AAPL/USDT:USDT",
+  "size": 0.0,
+  "entry": 317.22,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Coiled just under the 317.6 local top on drying volume; most likely a shallow fade toward 316.2-316.5 over the next 2-4 bars, or a low-conviction grind sideways, rather than an immediate clean breakout on thin overnight liquidity.",
+  "expectancy_note": "p(win) on a fresh long here ~0.45: %B 0.96 pinned at top band + 15m RSI 68 = extended, and entry sits far from any honest structural stop (315.75/305.19), so R:R to 323.2 is poor once the CPI-gap tail is priced. HOLD beats chasing into the event.",
+  "rationale": "AAPL has the cleanest bull structure of the equity names (1h/4h aligned, ADX 41, +8.96% rel strength, not crowded long, own story dodging the semi bleed), but price is extended at the top Bollinger band in a risk-off tape on thin overnight liquidity with US cash closed, and anything held goes into tomorrow's June CPI + bank earnings \u2014 a binary inside the window. The candles show a low-volume stall under 317.6, not accelerating momentum, so there is no honest pullback entry and a market-buy here would be chasing into an event gap. Size 0: wait for either a confirmed breakout-and-hold to enter with the trend, or a loss of the base to invalidate.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 318.2,
+    "expires_min": 240,
+    "note": "A decisive breakout and hold above the 317.6 overnight top toward 318.2+ on rising volume would confirm trend continuation rather than a top-band stall and justify a trend long toward 320-323.2 with a stop back under 316."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF (S&P -0.79%, Nasdaq -1.55%) on Iran/Hormuz blockade + semi rout (SK Hynix -9%). HEAVY event risk inside hold window: Jun CPI + bank earnings + Warsh testimony Jul 14. US cash closed now \u2014 tokenized perps on thin overnight liquidity. AAPL: composite LONG conf 43%, 1h/4h aligned up, RSI 59.7, but pinned at top BB (pctb 0.96) near resistance 323.2; not crowded (L/S 0.86), structure_bias +0.085; +8.96% rel strength, dodged the chip bleed. Least-bad name to be long but size for the CPI gap.",
+    "sentiment": "Market mood risk-off, 'AI rally overdone' fear. AAPL neutral-to-bearish near-term: no binary of its own (earnings Jul 30, outside window). Fresh negatives: EU App Store gatekeeper appeal lost Jul 8; trade-secrets suit vs OpenAI. Low-weight positive: Broadcom supply deal to 2031 (digested). Near-term news does NOT support a fresh long into CPI.",
+    "analyst": "Cleanest bull structure of the three, but extended at top BB (%B 0.96, 15m RSI 68) in a risk-off tape on thin overnight tape; low-volume stall under 317.6, no honest pullback entry, and no structural stop nearby. A market-buy would be chasing into the CPI gap \u2014 the book's #1 loss pattern. HOLD, size 0; arm a breakout-and-hold trigger above 318.2.",
+    "portfolio": "HOLD AAPL/USDT:USDT \u2014 best long structure but extended into resistance and into CPI; wait for a confirmed breakout above 318.2."
+  },
+  "timestamp": "2026-07-13T23:03:25.871413+00:00"
+}

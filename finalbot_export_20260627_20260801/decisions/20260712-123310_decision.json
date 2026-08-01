@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "META/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Impulse has stalled ~6pts under 678.67 resistance; expect chop/fade in the 670-674 zone with a likely pullback toward the 665-667 shelf (or lower toward VWAP ~648) over the next several bars rather than a clean breakout on a closed session.",
+  "expectancy_note": "No positive-expectancy entry: long here chases RSI81/+3.6% VWAP into resistance (the account's #1 loser pattern); short fights ADX68 uptrend. p(win) on either is ~0.4 with poor R:R - HOLD and wait for a dip-buy or a confirmed breakout.",
+  "rationale": "META is composite-long but EXTREMELY extended (RSI 81, ADX 68, BB width 14%, +3.6% above VWAP) and stalling ~6 points below hard resistance 678.67, with the last several 15m bars rolling over off 674 on fading volume - a blow-off pausing, not a fresh breakout. US cash is CLOSED (Sunday), adding Monday-open gap risk, so chasing the top here is exactly the late-continuation entry that gets stopped by a routine counter-bounce. Sentiment itself favors dip-buys over chasing new highs; the disciplined trade is to wait for either a pullback to the 665-667 shelf / VWAP for a trend-continuation long, or a volume-confirmed break of 678.67. No honest R:R>=1.5 setup exists at spot, so size is zero.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 678.67,
+    "expires_min": 240,
+    "note": "A decisive reclaim/break of 678.67 resistance would confirm the breakout is real (not a stall) and flip me to a momentum-continuation long on the retest."
+  },
+  "transcript": {
+    "macro": "2026-07-12: Risk-off-leaning/mixed. Hawkish Fed (~61% Sept HIKE), USD firm. Sunday scan, US cash CLOSED -> gappy, elevated Monday-open gap risk. Scan: composite LONG, RS +19.4%, but RSI 81 / ADX 68 / +14% BB width = EXTREMELY extended/hot into resistance 678.67. Broad Nasdaq tone supportive but chase risk high on a closed session; positioning says don't add size at the top.",
+    "sentiment": "META strongly bullish momentum but EXTENDED. Best week since early 2024 (~15%) on new 'Meta Compute' AI cloud unit + in-house Iris AI chip production starting Sept - a real fresh catalyst already moving price. Bear counter: 2026 capex raised to $125-145B (whispers ~$200B). Overbought (RSI 81) -> chase risk high. Next earnings July 29 (outside window). Near-term bullish but exhausted; favors dip-buys over chasing fresh highs.",
+    "analyst": "Composite-long but extremely extended and stalling ~6pts under 678.67 on fading volume - a blow-off pausing, not a fresh breakout. Closed Sunday session adds Monday gap risk; chasing the top is the account's #1 loser pattern. Wait for a pullback to the 665-667 shelf/VWAP for a continuation long, or a volume-confirmed break of 678.67. No honest R:R>=1.5 at spot, size zero.",
+    "portfolio": "HOLD META - momentum long but too extended to chase; buy the dip or a confirmed 678.67 break."
+  },
+  "timestamp": "2026-07-12T12:33:10.089407+00:00"
+}

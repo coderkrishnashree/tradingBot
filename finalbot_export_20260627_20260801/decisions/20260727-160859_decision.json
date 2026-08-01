@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "MSFT/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.66,
+  "playbook": "none",
+  "forecast": "Rolling over from the 393-394 rejection back toward VWAP/support 388-390 over the next few bars; no clean directional edge before Wed's earnings + FOMC binary.",
+  "expectancy_note": "Any directional trade here carries an earnings gap inside 48h (uncapped tail risk) \u2014 negative expectancy regardless of R:R; HOLD avoids the coin-flip and preserves capital.",
+  "rationale": "MSFT reports Wed 7/29 after close plus FOMC same day, both inside the holding window \u2014 the shared macro/sentiment explicitly flags this as a top event-risk name; a directional carry eats the print. Technically it is stretched (RSI 80.9, 4h %B 1.12 above the upper band, last three 15m bars rejecting 393-394 and rolling to 390.7), so a long is chasing an extended move and a short fights ADX 89 uptrend \u2014 neither offers clean R:R. Long/short 1.857 shows crowded longs, adding downside risk to any late long. No trade until the event clears.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 388.0,
+    "expires_min": 240,
+    "note": "Losing 388 (VWAP/support) breaks the intraday uptrend and would open a pre-earnings mean-reversion short toward 378, worth re-debating; otherwise stay flat into Wed's print."
+  },
+  "transcript": {
+    "macro": "RISK-OFF, event-gated. MSFT NEITHER/avoid: uptrend but RSI ~81 stretched and reports Wed 7/29 after close \u2014 squarely inside the hold window. Binary event; do not hold directional risk through it.",
+    "sentiment": "MSFT earnings Wed Jul 29 AH \u2014 same-day double-header with FOMC (Fed 2pm, MSFT after close). RSI ~81 extended. Any position held past Wed close eats the print. One of the highest event-risk names in the book.",
+    "analyst": "Directional trade here carries an earnings gap inside 48h (uncapped tail) \u2014 negative expectancy regardless of R:R. Stretched (RSI 80.9, %B 1.12, rejecting 393-394); long chases, short fights ADX 89. HOLD until the event clears; reconsider a mean-reversion short only below 388.",
+    "portfolio": "HOLD MSFT \u2014 top event-risk name into Wed FOMC + earnings; stay flat."
+  },
+  "timestamp": "2026-07-27T16:08:59.118865+00:00"
+}

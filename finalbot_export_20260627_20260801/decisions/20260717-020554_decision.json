@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "META/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.55,
+  "playbook": "none",
+  "forecast": "Thin/stale tape chops 660-663; the 5-pt low-volume bleed leaves 5m RSI 16 / 15m RSI 27 stretched, so the base case is a mild bounce back toward 663-665 VWAP before direction resolves - no clean next move to trade.",
+  "expectancy_note": "Short here = chasing a stretched LTF into the RS leader (most-defended name) with no near TP before 578 and open-gap risk; p(win) sub-0.5, R:R under 1.5. HOLD beats both a late short and a baseless long.",
+  "rationale": "META is mid-Bollinger (4h RSI 49, ADX 24.7 = no trend), sitting on VWAP after a slow thin-volume drift; structure is only mildly offer-heavy (bias -0.134, not crowded) and it's the +14.3% RS leader that buyers defend first. Shorting into 5m RSI 16 with the next support 80+ pts away is negative expectancy and matches the book's worst loss pattern (late short, stopped by the bounce). No <48h catalyst and thin/stale prices argue for patience.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 660.5,
+    "expires_min": 240,
+    "note": "Losing the session low 660.69 with follow-through proves the drift has real supply, not thin-tape noise - arms a short on the retest of broken 660/VWAP."
+  },
+  "transcript": {
+    "macro": "Regime risk-OFF, chip-led selloff (Nasdaq100 -1.5%); broadly supports tech shorts but META is an AI-momentum LEADER (headwind to shorting). Scan @02:00 UTC, US+Tokyo cash CLOSED -> thin/stale, gap risk. META funding 0.0, OI 2.55k (thin), L/S 1.228, orderbook -0.217 (offer-heavy), structure_bias -0.134 (cleanest bearish tilt, not crowded); RS +14.3% vs BTC (leader), NOT oversold (4h RSI 49, ADX 24.7). Biggest risk: buyers defend the leader first on any bounce.",
+    "sentiment": "META Q2 earnings Wed July 29 after close (~12d out, outside 24-48h but flag for multi-day holds). Recent tone bullish/momentum: +8-10% early July on 'Meta Compute' AI cloud; +3.25% 7/15; >$50B Louisiana data center; 'Iris' AI chips to production Sept. Strong RS = short headwind. Offsetting EU regulatory overhang (WhatsApp antitrust, DMA fines) - slow-burn. NO clean <=48h catalyst; near-term mixed-to-bullish argues against a short.",
+    "analyst": "Mid-Bollinger, no trend, on VWAP after thin-vol drift; only mildly offer-heavy and it's the RS leader. Short into 5m RSI 16 with next support 80+ pts away = negative expectancy, book's worst loss pattern. HOLD; arm short only on loss of 660.5 with follow-through.",
+    "portfolio": "META: HOLD (0.55) - no R:R>=1.5 either side; watch 660.5 break."
+  },
+  "timestamp": "2026-07-17T02:05:54.727444+00:00"
+}

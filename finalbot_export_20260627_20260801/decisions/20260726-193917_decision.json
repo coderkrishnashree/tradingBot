@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "EWJ/USDT:USDT",
+  "size": 0.0,
+  "entry": 92.38,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.2,
+  "playbook": "none",
+  "forecast": "Price stays pinned near 92.38-92.52 on near-zero volume until the Japan cash market reopens; real move waits on FOMC (Jul 28-29) and BOJ (Jul 30) as gap events.",
+  "expectancy_note": "Negative expectancy: illiquid tape means stops cannot fill, and two binaries inside horizon make any entry a coin-flip gap bet; HOLD dominates both long and short.",
+  "rationale": "EWJ is effectively untradeable: recent 15m candles show repeated 0.00-volume bars and sub-1.4-unit prints, so ADX 89.5/RSI 64.7 are artifacts of a frozen price, and per-TF signals contradict (composite conf 44.8%). Two binaries inside ~48h (FOMC Jul 28-29, BOJ Jul 30) into a crowded-long book after Nikkei -2.73% Friday. Zero size: no fillable stop, pure gap risk.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 93.34,
+    "expires_min": 240,
+    "note": "Break above range resistance 93.34 on genuine volume signals the cash market has reopened with real buyers."
+  },
+  "transcript": {
+    "macro": "EWJ essentially UNTRADEABLE: near-zero volume (many 0.00-volume 15m candles), underlying cash market closed. Thin/gappy, do not size. FOMC Jul 28-29 inside horizon. Book-wide crowded-long positioning.",
+    "sentiment": "EWJ ELEVATED: BOJ decision Thu Jul 30 is near-term vol driver. Nikkei -2.73% Fri (SoftBank/chip-led selloff). Weak yen (~163) supports exporters but oil reignites import-inflation. Up ~37% YTD. Binary into Thu.",
+    "analyst": "Frozen tape: repeated 0.00-volume bars, indicators are artifacts, signals contradict. Two binaries (FOMC + BOJ) inside window; no fillable stop, pure gap risk. Zero size. Hold; revisit only on a real volume break above 93.34.",
+    "portfolio": "HOLD EWJ - untradeable (no liquidity) into FOMC + BOJ binaries; no size."
+  },
+  "timestamp": "2026-07-26T19:39:17.750606+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "MSFT/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Stays pinned in the 383-386 coil (BB width 1.6%) drifting near VWAP; the last 6-bar micro-pop to 385 on 15m RSI 80 is exhausted and likely fades toward 384, no clean edge before the coil resolves.",
+  "expectancy_note": "p(win) ~0.5, R:R<1.5 in a mid-range dead squeeze; chasing a stretched LTF pop into an earnings/FOMC binary is negative EV vs waiting for the coil to break.",
+  "rationale": "MSFT is a tokenized equity so crypto structure is noise; it reports Wed Jul 29 after close with FOMC same day and an active AI-capex scare - a directional swing must NOT be held into that binary. Technically no edge: ADX 28, BB width 1.6% squeeze, price at VWAP mid-range with 15m RSI 79.7 already extended, resistance far at 403. Size zero.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 386.5,
+    "expires_min": 240,
+    "note": "A decisive break of the 383-386 coil high on volume resolves the squeeze and justifies a tactical intraday long closable before Wed's binary."
+  },
+  "transcript": {
+    "macro": "NEUTRAL tilting RISK-OFF for equity-proxies into mid-week. Two event risks INSIDE 48h: FOMC Wed Jul 29 2pm ET (hawkish-hold risk) and a Big-Tech earnings wall (MSFT Wed; AAPL/AMZN/META Wed-Thu). Equities toppy/mixed, VIX ~18.6, 10y ~4.6%, DXY firm ~101.4, Sep hike odds ~50-60%. US-Iran/Hormuz keeps an oil bid + safe-haven bid (tail escalation risk). Crypto is the cleanest longs (BTC $65.3k, funding benign, no crowding) but short-term overbought (RSI 78) - don't chase. Cut size / avoid multi-day holds on ALL equity proxies (QQQ, MSFT, AAPL, TSM, EWJ, EWY, COIN, HOOD) through the Wed FOMC + earnings gauntlet. Avoid crowded longs in TSLA (L/S 2.67, worst RS) and XAG (L/S 3.69, squeeze-prone). Favor quick tactical trades over swings; longs>shorts only in crypto, longs neutral-to-unfavorable in equities.",
+    "sentiment": "Risk-OFF and event-heavy. A bruised, AI-capex-ROI-spooked tech tape (Mag7 shed ~$797B on Jul 23; Nasdaq -2.15% Thu) heading into an FOMC + mega-cap-earnings gauntlet Jul 29-30. Imminent binaries: MSFT+HOOD earnings Wed Jul 29 after close; AAPL+COIN earnings Thu Jul 30 after close. Asia fragile: KOSPI -5.72% Jul 24 (circuit-breaker), Nikkei -2.73%, US tariffs live. CL bearish short-term (fell ~4% Fri on US-Iran talk, two-sided war premium, weekend gap risk). XAG neutral ~$58 consolidating. BTC cautious/range-bound, Fear&Greed 27, $225M ETF outflows Jul 25. TSLA bearish (-14% on Q2 miss). TSM already reported Jul 16 (beat). Favor caution/short bias on tech-index and Asia names; avoid new pre-earnings directional bets; crypto macro-tethered and defensive.",
+    "analyst": "MSFT 385.02, dead squeeze (BB width 1.6%, ADX 28) at VWAP mid-range, 15m RSI 79.7 on a small pop, resistance far at 403. Reports Wed Jul 29 after close + FOMC same day + AI-capex scare = must not hold a swing into it. No R:R either way.",
+    "portfolio": "HOLD MSFT - dead coil into an earnings/FOMC binary; flat. Re-debate on volume break above 386.5."
+  },
+  "timestamp": "2026-07-26T23:39:13.967107+00:00"
+}

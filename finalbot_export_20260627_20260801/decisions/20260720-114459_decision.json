@@ -1,0 +1,28 @@
+{
+  "symbol": "SOL/USDT:USDT",
+  "action": "buy",
+  "confidence": 0.58,
+  "size": 3.0,
+  "entry": 76.45,
+  "stop_loss": 75.55,
+  "take_profit": 79.0,
+  "take_profit_1": 78.0,
+  "take_profit_2": 79.0,
+  "playbook": "trend",
+  "forecast": "Last 15m bar is a vertical +1% breakout spike to 77.05 on 3x volume into an already-extended tape (%B 1.03, stoch 88, VWAP +2%). Expect a pullback to retest the broken 76.4-76.5 shelf / VWAP over 2-5 bars; buy that retest, then continuation toward 78.0 and the 79.0 resistance.",
+  "expectancy_note": "p(win)~0.55, R:R 1.72 to tp1 / 2.83 to tp2 on the limit fill. Limit-on-retest beats market-chasing the spike: entering 77.05 into a crowded-long book (L/S 2.70) and overbought stoch is the account's #1 loss pattern; the retest gives a tight honest stop below 75.85 structure.",
+  "rationale": "SOL is in a healthy uptrend (ADX 40, multi-TF long, best relative strength -5.7%) and just broke the 76.5 congestion on heavy volume, but is momentarily stretched above the upper band with crowded-long structure (bias -0.338). Rather than chase the spike, bid the 76.45 retest shelf where risk is only 0.90 to a stop under 75.55, targeting 78.0 then the 79.0 range top for 1.7-2.8R. Size kept modest (3%) because this is largely BTC-beta (corr 0.81) and a crowded-long flush is the main risk if BTC rolls over.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 79.01,
+    "expires_min": 240,
+    "note": "A hold/reclaim above the 79.01 range top can run further without the limit fill; re-debate a breakout-continuation entry there."
+  },
+  "transcript": {
+    "macro": "Regime MIXED, leaning risk-off (2026-07-20, scan 11:38 UTC pre-US-open). Nasdaq -5% off June high on a chip-led semiconductor selloff; DXY soft ~100.7; FOMC Jul 29 (outside window). Scan is pre-cash-open so strong last candles are thin liquidity, not confirmed trend. Nearly every candidate overbought and long-crowded (negative structure_bias = crowded longs = contrarian risk). Cleanest read: SOL (24/7). Most treacherous to chase: EWY/QQQ/NVDA (overbought chip proxies in the active chip selloff). GOOGL earnings Wed Jul 22 after close is a binary inside the hold window.",
+    "sentiment": "Mood cautiously risk-on but rate-nervous; mega-cap earnings season starts this week. GOOGL reports Wed Jul 22 after close (only true <=48h binary; read-through to QQQ/NVDA/EWY). NVDA earnings Aug 26; HOOD Jul 29; FOMC Jul 28-29. SOL constructive structural backdrop (spot ETFs >$1.12B inflows, ~96% RWA volume share) but no <=48h binary, flow-dependent, highest BTC corr. XAG best fundamental tailwind (6th straight supply deficit, LBMA $79.57 target) but RSI ~82 stretched. EWY strongest momentum (SK Hynix/AI-memory proxy, Goldman KOSPI target 12,000) but a chip proxy into the semis selloff and the most extended name in the scan.",
+    "analyst": "SOL: BUY (limit). Healthy uptrend (ADX 40, multi-TF long, best rel-strength -5.7%) that just broke 76.5 congestion on ~3x volume, but the last candle is a stretched spike (%B 1.03, stoch 88, VWAP +2%) into a crowded-long book (L/S 2.70). Don't chase - bid the 76.45 retest, stop 75.55 (risk 0.90), tp1 78.0 (1.72R), tp2 79.0 (2.83R). Modest 3% size given BTC-beta (corr 0.81).",
+    "portfolio": "BUY limit 76.45, stop 75.55, tp 78.0/79.0, 3% size, 0.58 conf - only actionable long this cycle."
+  },
+  "timestamp": "2026-07-20T11:44:59.900180+00:00"
+}

@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "COIN/USDT:USDT",
+  "size": 0,
+  "entry": 159.32,
+  "stop_loss": 157.0,
+  "take_profit": 163.5,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "After the 160.52 spike rejected, price pulls back toward the 158.4-158.5 broken-level/VWAP zone over the next 2-4 bars; from there it either bounces to retest 160.5+ or loses 158.0 and slides to 157.2/152.88.",
+  "expectancy_note": "p(win) ~0.5 either way - chasing a hot 15m RSI-72 long into a risk-off/Extreme-Fear tape after a red rejection bar is the account's #1 loss pattern; a fade lacks a level (support 152.88 far). No positive-expectancy entry at 159.3; a dip to 158.4 would give real R:R.",
+  "rationale": "COIN is a thin off-hours tokenized-equity proxy in a fragile risk-off regime; the 15m just printed a rejection off 160.52 closing near its lows with 4h MACD still negative and 1h score weak (0.237). L/S 0.81 and flat funding are mildly supportive of longs but not a reason to chase +0.9% above VWAP with 15m RSI at 72. No clean level to fade either. Best expectancy is to wait: buy a pullback into 158.4 or a reclaim of 160.5. Size 0.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 160.6,
+    "expires_min": 240,
+    "note": "reclaiming the 160.52 spike high proves the rejection failed and continuation is resuming - arms a long toward 163.5/168.65"
+  },
+  "transcript": {
+    "macro": "RISK-OFF, fragile regime; chip-led selloff last week, rips suspect. Crypto soft (BTC ~$62-64k, weak demand). COIN is the cleanest positioning in the set: L/S 0.81 (NOT crowded), structure_bias +0.04, funding flat. Tokenized-equity pair thin off-hours, funding near-zero/meaningless. Net: MIXED-to-HOSTILE for fresh longs but COIN not crowded.",
+    "sentiment": "Crypto Fear & Greed ~23 (Extreme Fear); defensive into month-end. COIN bearish-lagging but stabilizing, NO earnings in window (Q2 early Aug). Stock ~$159, 64% off highs, Q1 missed. Recent 19% pop was analyst-upgrade PT noise, not a 48h catalyst. High-beta crypto proxy (BTC corr 0.63); risk-off governs near-term.",
+    "analyst": "COIN printed a rejection off 160.52 closing near its lows with 4h MACD negative and 1h score weak. Not-crowded positioning (L/S 0.81) is mildly bullish but insufficient to chase +0.9% VWAP at 15m RSI 72 in a risk-off tape; no clean level to fade. Wait for a pullback to 158.4 or a reclaim of 160.5.",
+    "portfolio": "HOLD COIN - cleanest positioning in set but a rejection bar + risk-off tape; buy the 158.4 dip or the 160.5 reclaim, don't chase the middle."
+  },
+  "timestamp": "2026-07-20T12:16:17.497739+00:00"
+}

@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "HOOD/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.55,
+  "playbook": "none",
+  "forecast": "Bounce is stretched (15m RSI 83, 30m 76) right into VWAP/round-$100; expect a stall and pullback toward 99.3-99.0 support-VWAP retest over the next 2-4 bars before direction resolves. Clean reclaim of 100.6 on volume opens 102-103; loss of 99.0 re-tests 98/96.68.",
+  "expectancy_note": "No edge here: long would chase a 15m-RSI-83 push into resistance (account's #1 loss pattern), short fights firm BTC and the winning long side (longs 69% vs shorts 49% in learner). Best expectancy is waiting for the pullback-and-reclaim.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 100.6,
+    "expires_min": 240,
+    "note": "Reclaiming 100.6 breaks the VWAP/round-$100 cap on real volume, proving the bounce off support can run toward 102-103 and justifying a long from a lower-risk spot."
+  },
+  "rationale": "HOOD is a weak laggard (RS -11%, the single most-penalized learner feature) grinding a slow bounce off $96.68/100 support straight into VWAP and the $100 round number, with 15m/30m RSI at 83/76 \u2014 short-term overbought and mid-air, not a spot to market-buy. Crowded longs (L/S 1.69) and the July-29 earnings/ABS-raise overhang cap upside, while a short contradicts firm BTC (corr 0.54) and the account's losing short record (49% win, -0.71 avg). No clean R:R >=1.5 setup exists at this price; the highest-expectancy action is to hold and let the stretched push unwind. A decisive reclaim of 100.6 on volume would flip me long toward 102-103.",
+  "transcript": {
+    "macro": "Cautious risk-off, event-heavy week (2026-07-21). US-Iran conflict, oil spike; FOMC Jul 29; tokenized equities gap overnight. HOOD one-liner: MIXED, risk-on beta \u2014 crypto/equity hybrid (BTC corr 0.54), RS -11%, 15m RSI 83 overbought; long only if BTC and equities firm together, thin overnight.",
+    "sentiment": "HOOD EARNINGS JULY 29 after close. Big product catalyst digested: Robinhood Chain (Arbitrum L2) + tokenized Stock Tokens live since Jul 1. Stock popped ~7.5% on launch but fell ~9% this week toward $100 support on credit-expansion/$500M ABS-raise concerns. MIXED/neutral near-term \u2014 momentum stalling into support, earnings a week out.",
+    "analyst": "Weak laggard (RS -11%, most-penalized learner feature) grinding a slow bounce off $96.68/100 into VWAP and the $100 round number with 15m/30m RSI 83/76 \u2014 overbought, mid-air, not a market-buy. Crowded longs (L/S 1.69) + Jul-29 earnings/ABS overhang cap upside; a short fights firm BTC and the book's losing short record. No 1.5R setup \u2014 HOLD; a 100.6 reclaim on volume flips long toward 102-103.",
+    "portfolio": "HOOD \u2014 HOLD (conf 0.55): weak laggard, bounce stretched into $100; wait for 100.6 reclaim."
+  },
+  "timestamp": "2026-07-21T03:18:02.080731+00:00"
+}

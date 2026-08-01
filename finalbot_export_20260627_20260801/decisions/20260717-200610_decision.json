@@ -1,0 +1,27 @@
+{
+  "symbol": "AAPL/USDT:USDT",
+  "action": "hold",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price coils in 331-334 under the 339.17 resistance with fading momentum on the last 3 bars; base case is a stall/small fade toward VWAP ~328.8 into the weekend rather than a clean break.",
+  "rationale": "AAPL is the group's relative-strength haven (+12% vs BTC, 4h uptrend, ADX 43.6, not crowded long, bid-heavy orderbook), but it's stalling ~6 points under the 339 resistance with 4h RSI 71.7 overbought and 1h neutral-to-short. Last three 15m bars are small and fading on drying volume - momentum coiling, not breaking. A long here chases into resistance with only ~1.5R to a hard ceiling plus weekend gap risk (account's #1 loser); a short fights the strongest name in the group. No clean R:R either way - HOLD, wait for a 339 break.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 339.17,
+    "expires_min": 240,
+    "note": "A decisive break/close above the 339 resistance confirms the leader breaking out and flips to a breakout long with a real measured-move target."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF, semis-led rout (Nasdaq -1.8%, VIX +11% to ~18.5). Rates a headwind (~52% odds Sept HIKE, no cut cushion). US cash open Fri; weekend gap risk. AAPL is the relative outperformer/HAVEN: rel-str +12% vs BTC, only name with a LONG composite bias, 4h uptrend, RSI 71.7 (OVERBOUGHT), long/short 0.87 (not crowded long). Least semi-correlated. Earnings 7/30.",
+    "sentiment": "AAPL bullish tape but crowded/overbought: fresh record (~$327-333, near $5T), +20% YTD, DOJ antitrust settlement talks + strong iPhone 17. Mixed near-term: Citi PT $365 vs KeyBanc DOWNGRADE to Underweight + Italy iCloud probe. At resistance ($339), stretched. Big risk Q3 earnings Thu Jul 30 after close (outside 48h). Long is chasing an overbought move - treat cautiously.",
+    "analyst": "AAPL last 333.31, resistance 339.17, support 312.00; 4h RSI 71.7 ADX 43.6 uptrend score +0.668, 1h -0.194, vwap_dist +1.37%, long/short 0.871, orderbook +0.413, p_win_learned 0.465. 15m higher lows off 330 but last 3 bars small/fading on drying volume, stalling ~6pts under 339. Long chases RSI 71.7 into a hard ceiling (~1.5R) in a risk-off tape; short fights the strongest name. No clean R:R - HOLD; a 339 break flips to a breakout long.",
+    "portfolio": "HOLD AAPL - haven stalling under 339 resistance, overbought; long only on a clean 339 breakout."
+  },
+  "timestamp": "2026-07-17T20:06:10.479280+00:00"
+}

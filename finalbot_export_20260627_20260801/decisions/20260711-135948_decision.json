@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "GOOGL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Off-hours dead tape: price chops 356-359 on near-zero volume; only a decisive loss of 351.78 support opens the next leg down toward ~348, otherwise a bounce to 359-360 VWAP/resistance sets up a cleaner short entry.",
+  "expectancy_note": "p(win) ~0.45 on a market-short here; entry 357.35 sits only ~1.6% above 351.78 support with an honest stop ~359.2, giving R:R ~1.6 into a level longs defend \u2014 sub-threshold. Better expectancy waiting for a support break (room to 348) or a bounce to short from 359-360.",
+  "rationale": "4h is down (-0.9) and long/short 1.848 gives an unwind bias, but every lower TF is flat/neutral, BB width is compressed (2.85%), and the 15m candles show near-zero off-hours volume \u2014 no in-window momentum to carry a short. Price sits just above 351.78 support, so a market short now is squeezed between entry and a defended level (R:R ~1.6, sub-1.5 after slippage) in a thin/gappy tokenized name. Highest-expectancy move is to wait: short the breakdown below 351.78 or the bounce back into 359-360, not the dead middle.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 351.78,
+    "expires_min": 300,
+    "note": "Losing 351.78 support confirms the 4h downtrend resuming with clear air to ~348, converting the flat lower TFs into a valid momentum short."
+  },
+  "transcript": {
+    "macro": "GOOGL (trade as US equity): ~$357.35, RSI 39.6(4h), 4h trend DOWN (-0.9), lower TFs neutral/soft. Composite SHORT (conf 45.2%). relative_strength -2.04% vs BTC; correlation to BTC only 0.128 (own equity story). long/short 1.848 (heavily long-skewed, downside unwind fuel), orderbook +0.153 (mild bid), structure_bias -0.209. OI ~4,611 = thin/gappy tokenized name. Nasdaq/S&P grinding higher but Fed hawkishness a headwind for high-multiple tech. Alphabet earnings ~July 21/22 OUTSIDE 48h but holding near it risks gap exposure. Bias: SHORT (4h downtrend + lopsided longs to unwind; watch thin liquidity).",
+    "sentiment": "GOOGL neutral for next 24-48h. Treat as equity; 15m candles near-zero volume = off-hours. Biggest near-term item Q2 earnings Wed July 22 after close \u2014 hard binary but 11 days out, OUTSIDE 48h. Fundamentals constructive long-horizon (Gemini 750M+ MAU, Cloud +63%, analysts Buy, PT raised) but multi-quarter. Overhang: EU4.1B Android fine upheld, DOJ Chrome cross-appeal \u2014 no <=48h date. Short bias is technical; news neither confirms nor contradicts in-window.",
+    "analyst": "4h down and long/short 1.848 give an unwind bias, but all lower TFs flat/neutral, BB width compressed (2.85%), 15m near-zero off-hours volume \u2014 no in-window momentum. Price sits just ~1.6% above 351.78 support, so a market short is squeezed between entry and a defended level (R:R ~1.6, sub-1.5 after slippage) in a thin/gappy name. HOLD; short the breakdown below 351.78 (room to ~348) or a bounce into 359-360, not the dead middle.",
+    "portfolio": "GOOGL/USDT:USDT \u2014 HOLD (conf 0.50): off-hours dead tape, no clean short mid-range; wait for 351.78 break or 359-360 bounce."
+  },
+  "timestamp": "2026-07-11T13:59:48.829916+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "INTC/USDT:USDT",
+  "size": 0.0,
+  "entry": 96.05,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Upper-96 rejection (96.6-96.74 capped 4x); price drifts/chops 95.4-96.2 near-term, most likely a mean-reversion pullback toward VWAP ~94.2 within the session rather than a clean breakout of 96.7 resistance.",
+  "expectancy_note": "No positive-EV entry: long is a chase (RSI68/stoch83/%B0.93, +1.94% VWAP, L/S 2.01 crowded, rel-str -41%); short lacks confirmation vs ADX41 uptrend. Waiting for a VWAP retest is the +EV path.",
+  "rationale": "INTC is extended at the top of its range with the last 4 bars rejecting 96.6-96.74 and closing lower \u2014 classic late-long chase that a routine bounce would stop out, so I won't market-buy here. A short has no confirmed exhaustion (divergence null) against a strong 4h/1h uptrend, and it's pre-US-open with thin, unreliable fills until ~13:30 UTC. With Q2 earnings Thu after close inside the hold window, the highest-expectancy play is to stand aside and wait for a with-trend pullback into VWAP to re-enter, or a support break to flip short.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 94.3,
+    "expires_min": 300,
+    "note": "A pullback into the VWAP/mid-range ~94.2-94.3 resets the extended read and offers a with-trend long entry (stop below 92.9, target retest 96.7)."
+  },
+  "transcript": {
+    "macro": "2026-07-20 09:08 UTC, pre-US-open. Cautious risk-off into a heavy earnings week. Thin overnight book, unreliable fills/stops until ~13:30 UTC. INTC long-crowded: L/S 2.01, structure_bias -0.30 (contrarian caution). Scan shows INTC long, composite conf ~40%, but extended (RSI ~68, stoch ~83). Near-zero BTC corr (0.041, semi beta). EVENT RISK: INTC Q2 earnings Thu Jul 23 after close \u2014 inside the hold window.",
+    "sentiment": "INTC Q2 earnings Thu Jul 23 after close, ~$14.4B rev expected, focus on foundry ramp/AI. Extended on the scan. A directional position held past Wed risks running into the Thu-close print. Fine to trade the next 1-2 sessions but flatten before Thu close unless intentionally playing the event.",
+    "analyst": "INTC is extended at the top of its range, last 4 bars rejecting 96.6-96.74 and closing lower \u2014 a classic late-long chase a routine bounce would stop out (RSI 68, stoch 83, %B 0.93, +1.94% VWAP, L/S 2.01, rel-str -41%). A short has no confirmed exhaustion (divergence null) vs a strong ADX 41 uptrend. Pre-open thin book; Q2 earnings Thu inside the window. Wait for a VWAP retest ~94.2-94.3 for a with-trend long, or a support break to flip short.",
+    "portfolio": "HOLD INTC \u2014 extended crowded long into Thu earnings; wait for a VWAP pullback re-entry, flatten before the print."
+  },
+  "timestamp": "2026-07-20T09:17:24.714978+00:00"
+}

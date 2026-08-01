@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "EWY/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.4,
+  "playbook": "none",
+  "forecast": "Price is pinned just above 159.52 support after a slow grind down, 4h RSI 22.7 / stoch 0.8 / -4.9% below VWAP \u2014 expect a choppy hold of support with snapback risk toward 163.8-164.5 over the next 4-8 bars; only a decisive close under 159.5 opens the next leg down.",
+  "expectancy_note": "Short here: TP1 (support 159.52) is ~1.4% away vs a needed stop above ~163.5 = R:R well under 1.5 into deeply oversold tape with high squeeze risk \u2014 negative expectancy. No long confirmation yet. HOLD beats both.",
+  "rationale": "EWY is the scan's most stretched short (RS -24%, 4h RSI 22.7, stoch 0.8, -4.9% below VWAP) sitting right on 159.52 support, and both macro and sentiment flag extreme two-way vol, +4% snapbacks, circuit breakers and $1.1B dip-buying inflows. A market short here is the account's late-into-oversold loss pattern, and there is no reclaim signal to justify a long into a HOSTILE risk-off semi tape. Wait for either a clean support break (short with room) or a pivot reclaim (bounce) rather than chasing.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 159.5,
+    "expires_min": 240,
+    "note": "A decisive 15m/1h close below the 159.52 support breaks the shelf and gives a fresh short real room toward the next leg down, resolving the oversold coil in the trend's direction."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF / semis-led; HOSTILE for longs, supportive for trend-down but oversold semi cluster carries high squeeze risk \u2014 SIZE DOWN. Off-hours/Asia-close = gap risk. EWY: 161, RS -24% vs BTC (worst laggard), KOSPI -6.6% overnight then a V-bounce mid-week; memory/semi proxy (Samsung, SK Hynix), corr MU 0.76 / NVDA 0.54; 4h ADX 66, deeply oversold (4h RSI 22.7, stoch 0.8). Momentum-down leader but most stretched \u2014 squeeze risk high; short is late-stage.",
+    "sentiment": "HIGH near-term risk, in motion. KOSPI plunged ~6.4% Jul 16, circuit-breaker/sidecars; Samsung -8.8%, SK Hynix -11.5% (chips ~half the index). EWY gapped 171.6->163.6, then a +4% Friday snapback \u2014 extreme two-way vol, not a clean trend. SK Hynix/Samsung AI-memory proxy, record inflows ($1.1B) even as it fell (dip-buying). 48h direction driven by global chip sentiment, not Korean macro. Gappy off-hours; high realized vol both ways.",
+    "analyst": "Price pinned on 159.52 support after a grind down; 4h RSI 22.7, stoch 0.8, %B 0.105, -4.9% below VWAP. Short TP1 is support only ~1.4% away vs stop >163.5 = R:R <1.5 with elevated squeeze risk; long is a knife-catch into a risk-off tape with no reclaim signal. No honest edge either way. HOLD; short on a decisive break below 159.5.",
+    "portfolio": "HOLD EWY \u2014 most-stretched short on support; wait for a break of 159.5 or a reclaim, don't chase."
+  },
+  "timestamp": "2026-07-17T00:35:42.227905+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "COIN/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Weak bounce off 159.5 is stalling under the broken 162 shelf; expect chop 159-162 over the next few bars, more likely a fade back toward 158-159 than a clean reclaim, given the fresh 15m top rejection and 4h bearish divergence.",
+  "expectancy_note": "Long here = ~1.3 R:R buying a stalling bounce below a broken level into resistance; short fights the 1h/4h uptrend and learner shows shorts at 48% win / -0.73R. No edge either way now \u2014 wait for reclaim or a clean pullback to support.",
+  "rationale": "COIN is the most balanced of the crypto-equity longs (L/S 0.98, orderbook +0.27) and 1h/4h trend still up, but the 15m tape just rejected 164.75 and rolled 5 bars into a weak, stalling bounce, and a 4h bearish divergence is flagged into a risk-off macro. Chasing long at 160 gives sub-1.5 R:R to the first resistance; shorting fights the dominant trend the learner says loses. HOLD until price either reclaims 162.8 (top invalidated, momentum back with the higher-TF trend) or offers a clean retest of the 153-155 support for a proper long entry.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 162.8,
+    "expires_min": 240,
+    "note": "Reclaiming the broken 162 shelf invalidates the 15m top and re-aligns momentum with the 1h/4h uptrend for a long entry."
+  },
+  "transcript": {
+    "macro": "2026-07-20 RISK-OFF/DEFENSIVE. Crypto Extreme Fear. Funding ~0; crowded-long board = contrarian-short tilt. COIN line: mild LONG-supportable \u2014 only balanced structure in group (L/S 0.98, orderbook +0.27, structure_bias +0.09) but CAPPED by bearish 4h RSI divergence + risk-off. Tightest long; modest size. Earnings Jul 30 (outside window).",
+    "sentiment": "COIN: riding Open USD stablecoin launch (140-firm consortium incl. Visa/Mastercard/BlackRock/Google) \u2014 stock +11% week, +8.6% month (but -30% YTD). Multiple reaffirmed Buys. Bullish momentum/narrative tailwind, not a dated event. Bullish lean near-term, but high BTC beta (0.63) means crypto tape can override. No earnings inside horizon.",
+    "analyst": "Most balanced long in group (L/S 0.98, OB +0.27), 1h/4h still up, but 15m rejected 164.75 and rolled 5 bars into a weak stalling bounce with a 4h bearish divergence into risk-off. Long at 160 = sub-1.5R into resistance; short fights the trend (learner: shorts 48% win). HOLD; reconsider on a reclaim above 162.8 or a clean pullback into 153-155 support.",
+    "portfolio": "HOLD COIN \u2014 bullish narrative but 15m topped; wait for a 162.8 reclaim or a support pullback."
+  },
+  "timestamp": "2026-07-20T20:18:52.037527+00:00"
+}

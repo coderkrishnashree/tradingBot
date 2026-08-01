@@ -1,0 +1,25 @@
+{
+  "symbol": "EWY/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.62,
+  "size": 0.0,
+  "entry": 191.41,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "expectancy_note": "p(win) on a fresh long ~0.45 into a coin-flip binary; R:R poor when a gap can erase 1.5+ ATR overnight. HOLD has higher expectancy than either side pre-event.",
+  "rationale": "EWY is a tokenized Korea ETF, so crypto structure is noise and this is a pure equity read: price is stretched (RSI 77 on 1h, bb_pctb 0.947 at the upper band, ADX 78 = blow-off-prone) with a bearish divergence flag, and it is a laggard (RS -3.47), so the scanner's LONG is chasing an overbought echo into resistance at 202.90. The decisive factor is a hard binary: Samsung Q2 preliminary earnings tomorrow (Jul 7) hit EWY's ~40%-weight holding in the Korean morning while the US cash market is closed, making a fresh long or short a gappy coin-flip rather than a structured setup. No size justifies buying overbought into an unhedgeable two-sided event; the highest-expectancy move is to stand aside and let the event resolve.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 174.61,
+    "expires_min": 240,
+    "note": "Losing the 174.61 swing support confirms the bearish divergence/exhaustion has resolved down and turns this into a real short (retest of the broken level), rather than fading a still-intact AI-supercycle uptrend blind."
+  },
+  "transcript": {
+    "macro": "Regime mildly risk-on, hawkish-Fed melt-up, semis/AI leading; DXY >100 strong dollar (headwind for non-US). EWY btc_corr 0.35 (not crypto beta). Scanner LONG (blended +0.317, conf 37%). KOSPI in violent memory/AI supercycle (~8,000, +100% YTD) but roller-coaster character: sessions -2.0%, -7.9%, +5.8%, driven by Samsung + SK Hynix (~40% of index). EWY RSI 77, bb_pctb 0.947, bearish divergence, ADX 78 (extended), atr_pct 1.2. KRW near 17-yr low + DXY >100 + foreign outflows = persistent drag on the USD-denominated ETF. RS -3.47 (laggard). Funding flat, L/S 1.326, orderbook -0.087 (balanced), structure_bias -0.125. Biggest risk: Samsung earnings inside the hold window; tokenized ETF thin/gappy when Korea cash closed. Size down hard.",
+    "sentiment": "EWY NET bearish-risk / high-vol with a HARD <=48h binary. Samsung Q2 PRELIMINARY earnings Jul 7 (tomorrow), consensus record ~86T KRW op profit (up ~17-18x YoY) -> genuine gap event on largest holding. SK Hynix ADR lists Nasdaq Jul 10 (just outside 48h). Backdrop violently two-sided: KOSPI ~7.9% crash Jul 2 (SK Hynix -15%, Samsung -9%, ~$290B wiped) then ~5.8% rebound Jul 3. Structural memory story bullish (HBM shortages into 2027) but KRW 17-yr low + foreign outflows drag. Near-term coin-flip event-risk name; the Jul 7 print in Korean morning (US off-hours) can send EWY sharply either way. Treat as event-exposed, size for a gap.",
+    "analyst": "Tokenized Korea ETF -> funding/OI/L-S are non-signal; equity read: overbought/extended (RSI 77, %B 0.947, ADX 78, bearish divergence) laggard (RS -3.47), so scanner LONG chases an echo into resistance 202.90. Dominant variable is Samsung Q2 preliminary earnings tomorrow on ~40% of the index during Korean hours while US cash market is closed = thin, gappy, two-sided binary. Both fresh long and fresh short negative-expectancy vs standing aside -> HOLD. Armed: break below 174.61 flips to a clean short on the divergence resolving down.",
+    "portfolio": "EWY/USDT:USDT -> HOLD (conf 0.62): stand aside into tomorrow's Samsung binary; armed to short on a break below 174.61."
+  },
+  "timestamp": "2026-07-06T16:11:40.764967+00:00"
+}

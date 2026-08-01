@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "AAPL/USDT:USDT",
+  "size": 0.0,
+  "entry": 311.75,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.34,
+  "playbook": "none",
+  "forecast": "Coils 309-314 between the 308.4 flush low and 315.7 resistance; last 15m bar bounced off 308.4 and closed at its high (311.68) right on VWAP, so near-term drift is a chop/recovery, not a fresh leg down.",
+  "expectancy_note": "No clean edge either side: short has p~0.45 but fights AAPL's +5.16% relative strength and a non-crowded L/S 0.967; long fights the negative composite/hawkish macro. R:R <1.5 to any honest level, ATR only 0.91% - HOLD beats forcing a coin-flip.",
+  "rationale": "AAPL is the relative-strength leader of the mega-caps (up ~13% in 7 sessions) and is NOT crowded long (L/S 0.967, funding 0), so it is a poor short despite the negative composite; RSI is neutral 47.5, price sits exactly at VWAP with a squeezed 2.27% BB and a green recovery bar closing at its high - no exhaustion to fade and no confirmed breakdown to sell. No <=48h catalyst (earnings 7/30) and CPI 7/14 is the real event; no honest 1.5R trade here, stand aside until the coil resolves.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 308.4,
+    "expires_min": 240,
+    "note": "Losing today's flush low breaks the coil and opens the downside air-pocket toward 300, validating a macro-rotation short with a clean stop above VWAP."
+  },
+  "transcript": {
+    "macro": "US equity risk tone MIXED, tilting risk-OFF near-term. Mon 7/6 record highs, Tue 7/7 tech-led pullback (Nasdaq -1.16%) with rotation OUT of mega-cap tech/semis; scan shows AAPL/MSFT/META/GOOGL/TSLA/ORCL negative composites, RSI 25-38, downtrend 15m-1h (wobble, not breakdown). Fed HAWKISH: dot plot year-end 3.8%, ~36% tail for a July hike, cuts off the table. June CPI drops Jul 14 (binary event risk if carried). Positioning: crowded longs everywhere (L/S: MSFT 1.89, META 1.93, GOOGL 1.76, ORCL 2.15, CL 2.73, SOL 2.36), funding ~zero on equity perps -> downside air-pockets favored, rallies fade-able, but snap-back squeeze risk from oversold RSIs. Environment MIXED-to-HOSTILE for LONGs, modestly SUPPORTIVE for tactical SHORTS/fades in mega-cap tech. Smaller size / faster targets. CL is own driver (choppy-to-soft, Iran/Hormuz two-way tail, negatively correlated to equities). SOL: BTC dead-flat, no crypto impulse, crowded longs; trades on weak drift.",
+    "sentiment": "No <=48h catalyst; earnings 7/30. Positive drift (up ~13% in 7 sessions on Broadcom deal + iPhone 17 demand, JPM PT $345) but long-horizon. Slightly bullish tone, NEUTRAL next 48h.",
+    "analyst": "AAPL is the relative-strength leader of the mega-caps (up ~13% in 7 sessions) and is NOT crowded long (L/S 0.967, funding 0), so it is a poor short despite the negative composite; RSI is neutral 47.5, price sits exactly at VWAP with a squeezed 2.27% BB and a green recovery bar closing at its high - no exhaustion to fade and no confirmed breakdown to sell. No <=48h catalyst (earnings 7/30) and CPI 7/14 is the real event; no honest 1.5R trade here, stand aside until the coil resolves.",
+    "portfolio": "HOLD AAPL/USDT:USDT (conf 0.34)"
+  },
+  "timestamp": "2026-07-09T14:04:40.763452+00:00"
+}

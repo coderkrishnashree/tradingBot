@@ -1,0 +1,27 @@
+{
+  "action": "hold",
+  "symbol": "NVDA/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "expectancy_note": "No edge at mean: price at VWAP, %B 0.39, RSI 47.7, squeezed BBW 1.61%, TFs conflict (1h long vs 4h short). Any entry here is a coin-flip with poor R:R; HOLD has best expectancy.",
+  "rationale": "NVDA is boxed 190.16-200.68 and trading dead-center right at VWAP (-0.11%) with neutral RSI/stoch and a squeezed Bollinger \u2014 no mean-reversion or breakout edge exists mid-range. The only bear case is crowded-long positioning (L/S 2.10, structure_bias -0.47), but on a tokenized equity those crypto-structure metrics are weak, and macro is explicitly RISK-ON for semis (SMH +2.7%, don't short the sector leader into this tape). No earnings/binary in the 48h window and low BTC correlation (0.33) means this resolves on its own structure, which is currently balanced. Wait for a real break of the range.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 190.16,
+    "expires_min": 240,
+    "note": "Losing range-support 190.16 would align the crowded-long/structure-bias short thesis with a genuine structural breakdown, flipping me to a tactical short; until then the contrarian short is just positioning noise inside a range."
+  },
+  "transcript": {
+    "macro": "RISK-ON for semis (SMH +2.7%), dovish Fed. Don't short semis into this tape. NVDA MIXED, avoid shorting: composite short -0.18, most crowded-long (long/short 2.10, structure_bias -0.47) = contrarian short ON PAPER, but shorting the sector leader on crowding alone is low-conviction. Bias: stay-out.",
+    "sentiment": "NVDA net NEUTRAL-to-slightly-bullish: 'black sheep of chip rally', only +3.2% YTD, relative laggard despite strong fundamentals (data-center +92% YoY). Mild positive: July 4 AI-chip financing initiative. No earnings in 48h (August). Sector tailwind vs stock underperformance cancel out.",
+    "analyst": "Boxed 190.16-200.68, dead-center at VWAP, neutral RSI/stoch, squeezed BB \u2014 no mean-reversion or breakout edge. Crowded-long is weak on a tokenized equity; don't short the leader into a +2.7% SMH day. No 48h binary. HOLD; arm price_below 190.16 for a structural-breakdown short.",
+    "portfolio": "HOLD NVDA \u2014 balanced mid-range, no edge; short only on losing 190.16."
+  },
+  "timestamp": "2026-07-06T14:05:23.586467+00:00"
+}

@@ -1,0 +1,27 @@
+{
+  "symbol": "TSLA/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.62,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "none",
+  "forecast": "Weekend illiquid drift 407-411; 410.5 already rejected with a 2.4pt wick. No real move until Monday cash open (13:30 UTC) which can gap either way on stale pricing. Expect chop into the 420 resistance shelf.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 420.22,
+    "expires_min": 360,
+    "note": "Clean reclaim/breakout of 420.22 resistance on real Monday-session volume flips to a momentum-continuation long."
+  },
+  "rationale": "TSLA is overbought (RSI 72.4, stoch 80.4, +1.9% over VWAP) and pinned under resistance 420.22 on essentially dead weekend liquidity (0.1-16 vol prints), with US cash closed until Monday 13:30 UTC = high gap risk on stale marks. The delivery beat is fully digested (stock even sold off 7.5% on delivery day) and earnings Jul 22 sits outside the ~48h window, so there is no near-term catalyst for a fresh leg. Retail is long-crowded (L/S 1.61, orderbook -0.214) into resistance - poor R:R for a chase long and no bearish trigger for a short, so flat is the highest-expectancy stance.",
+  "transcript": {
+    "macro": "MIXED/cautious regime. Scan Sat 2026-07-11 09:56 UTC - US cash closed all weekend, reopens Mon 13:30 UTC; equity perps on stale thin pricing = high Monday gap risk. Funding ~0; L/S long-crowded (negative structure_bias = retail long skew, not a short signal). TSLA: composite 71.3% long but RSI 72.4 / stoch 80 overbought, structure_bias -0.247; overbought into an illiquid weekend, biggest risk a Monday gap. SIZE DOWN.",
+    "sentiment": "Broadly risk-ON but stretched. TSLA: Q2 deliveries already out (Jul 2) 480,126 vs ~406k consensus - big beat, digested. Key binary Q2 earnings Wed Jul 22 after close (~$0.47 EPS, focus margins/energy/robotaxi) but outside the 48h window. No fresh binary this weekend; RSI stretched 72+. Neutral-to-mildly-constructive momentum, no <=48h catalyst.",
+    "analyst": "Tokenized equity read as a stock; funding/L-S structure is muted weekend noise. Tape overbought (RSI 72.4, stoch 80.4, +1.9% over VWAP) and stalled directly under resistance 420.22, 15m candles essentially dead weekend prints (0.1-16 volume) with a clear rejection wick off 410.5. US cash closed until Monday 13:30 UTC = major gap risk on stale pricing. Delivery beat fully priced (stock fell 7.5% on delivery day), earnings Jul 22 outside horizon, no <=48h catalyst. Chasing a late long is the account's classic loser; shorting fights an intact uptrend with no trigger. HOLD flat, re-debate as momentum long only if 420.22 reclaimed on real Monday volume.",
+    "portfolio": "HOLD TSLA - overbought under 420 resistance on dead weekend tape; no trade until 420 resolves."
+  },
+  "timestamp": "2026-07-11T10:02:06.665589+00:00"
+}

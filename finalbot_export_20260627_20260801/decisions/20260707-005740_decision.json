@@ -1,0 +1,27 @@
+{
+  "symbol": "AAPL/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.6,
+  "size": 0.0,
+  "entry": 313.17,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "none",
+  "expectancy_note": "Strong uptrend (ADX 47, all TFs long) but jammed at resistance 314.05 with RSI 68/stoch 90/%B>1.0/+1.16% VWAP = fully extended; entering here has RR<1.5 and FOMC minutes tomorrow adds headline risk. Wait for a breakout close or a pullback to VWAP.",
+  "rationale": "AAPL is a tokenized equity (btc_corr 0.28, ignore crypto structure) in a powerful multi-TF uptrend, but price is pinned against 314.05 resistance and stretched on every momentum gauge, so chasing the long is negative-expectancy and a short fights a 47 ADX trend with no divergence. Structure neutral (funding 0, L/S 0.98) with slight orderbook sell pressure -0.13. With FOMC minutes Wed offering a binary headline into an overbought tape, the highest-expectancy play is to stand aside. Zero size until a clean break or a reset to the mean.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 314.6,
+    "expires_min": 240,
+    "note": "A 15m/1h close above 314.05 resistance confirms breakout continuation, turning the extended read into a valid trend-continuation long toward ~318-320."
+  },
+  "transcript": {
+    "macro": "2026-07-07 RISK-ON/NEUTRAL. Nasdaq +1.1%, S&P +0.7%, Dow record; VIX ~15.6; DXY soft. Fed hawkish lean under Chair Warsh (June hold, dot plot toward possible 2026 hike; May CPI +4.2%). KEY EVENT: FOMC minutes Wed July 8 \u2014 avoid aggressive fresh risk into print. Big tech leading on AI demand but overbought.",
+    "sentiment": "AAPL NEUTRAL near-term. Earnings July 30 (outside 48h). Rallied +4.59% July 2 on China memory sourcing (CXMT/YMTC) news \u2014 constructive momentum, priced. No <=48h binary. Options imply ~+/-5.4% eventual earnings move.",
+    "analyst": "Strong uptrend (ADX 47, multi-TF aligned) but price jammed at resistance 314.05, RSI 68, stoch 90, %B>1.0, +1.16% above VWAP = textbook extended. Chasing long has RR<1.5 with FOMC minutes tomorrow adding headline risk. Not a short (fighting ADX 47 uptrend, no divergence). HOLD; reconsider on breakout close above 314.6 or pullback to VWAP ~309-310.",
+    "portfolio": "HOLD AAPL \u2014 stand aside, fully extended at resistance into FOMC minutes; reconsider armed above 314.6."
+  },
+  "timestamp": "2026-07-07T00:57:40.404222+00:00"
+}

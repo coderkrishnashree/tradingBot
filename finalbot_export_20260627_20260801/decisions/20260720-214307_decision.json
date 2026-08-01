@@ -1,0 +1,23 @@
+{
+  "symbol": "COIN/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.6,
+  "size": 0.0,
+  "entry": 160.77,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "rationale": "COIN is dead flat around 160.5-160.9 on collapsing/near-zero overnight volume \u2014 the liquidity void where fills gap. The bearish 15m divergence already resolved into a 159.26 washout and modest bounce, leaving no clean structural entry mid-range (159.26-164.75) and no momentum. Funding 0 / L/S 1.01 means no crowding edge; as a 0.86-MSTR / 0.63-BTC proxy with RS -0.6% there is no relative-strength reason to force a trade. Wait for morning liquidity and a decisive level break.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 161.5,
+    "expires_min": 240,
+    "note": "Reclaiming the broken 161.5 shelf confirms the pullback is over and opens a trend-continuation long toward 164.7; losing 159.26 opens the 152.88 support leg for a short."
+  },
+  "transcript": {
+    "macro": "MIXED regime, headline-fragile. After US cash close: tokenized equities on thin, gappy overnight liquidity, near-zero volume, unreliable fills -> reduce size. COIN cleanest positioning of the equity names (funding 0, L/S ~1.01, structure_bias +0.02) but 15m bearish divergence; high-beta crypto proxy. Environment neutral; main risk is the liquidity gap.",
+    "sentiment": "Overall risk-off tilt. COIN earnings CONFIRMED Thu Jul 30 after close (outside 48h) \u2014 not a near-term binary but argues against holding into next week. Near-term neutral, driven by BTC and equity tape.",
+    "analyst": "Dead flat 160.5-160.9 on zero volume (overnight void). Down-leg 164.75->159.26 spent, 15m RSI tagged 24.6 and recovered so divergence resolved; no level to lean on mid-range, both sides negative expectancy. HOLD size 0; reconsider on 161.5 reclaim or 159.26 loss.",
+    "portfolio": "COIN/USDT:USDT -> HOLD (conf 0.60), no size; wait for AM liquidity, level triggers 161.5 up / 159.26 down."
+  },
+  "timestamp": "2026-07-20T21:43:07.155331+00:00"
+}

@@ -1,0 +1,25 @@
+{
+  "symbol": "SNDK/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.6,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "size": 0.0,
+  "playbook": "none",
+  "forecast": "Price at support 1486 after a -12% waterfall (RSI 5-8, %B<0, -12% below VWAP); expect a choppy oversold base ~1486-1564 with high risk of a violent snap-back that would stop any late short \u2014 no clean directional edge into the TSM print tomorrow.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 1565,
+    "expires_min": 240,
+    "note": "Reclaiming the 1564 consolidation shelf confirms the oversold selling exhausted and opens a bounce-long back toward VWAP/1620 \u2014 the first honest reversal trigger."
+  },
+  "rationale": "SNDK just crashed from 1722 to 1486 (-14%) into support 1486.04 with every timeframe deeply oversold (4h RSI 25, 1h RSI 5, stoch 5.7, %B -0.04, 12% below VWAP). Shorting here is the account's classic late-short-into-stretched-tape loss and a valid stop above 1564 gives sub-1R; a bounce long has no confirmation (last bar still made a lower low, no bullish divergence). TSMC earnings tomorrow pre-market is a binary read-through gap making either side negative-expectancy \u2014 flat is correct until price proves a base.",
+  "transcript": {
+    "macro": "Regime risk-ON but extended. Semis HOSTILE \u2014 sector shed ~$1.3-1.4T; SNDK -44% RS vs BTC, RSI 5-30 waterfall zone. TSMC earnings TOMORROW Jul 16 pre-market drags MU/SNDK (corr 0.57-0.83) \u2014 binary read-through event risk. Bullish RSI divergence = bounce/squeeze risk. Do not carry semis into the print at size.",
+    "sentiment": "SNDK: earnings Aug 5 (outside window). Bullish backdrop (Goldman PT $2,200 Jul 5 on NAND supply tightness, Gartner NAND +234% in 2026) \u2014 longer-horizon narrative. Near-term moves with the memory/semi tape; TSM tomorrow is the swing factor. No standalone 48h catalyst.",
+    "analyst": "Violent -12% waterfall (1722->1486) into support with every TF deeply oversold (1h RSI 5, stoch 5.7, %B -0.04, -12% VWAP). Short = late-short chase, stop above 1564 gives sub-1R; long has no reversal confirmation (fresh lower low). TSM read-through binary tomorrow makes either side negative-expectancy -> HOLD until a base proves out.",
+    "portfolio": "HOLD SNDK \u2014 oversold waterfall into support + TSM binary read-through; reconsider bounce-long above 1565."
+  },
+  "timestamp": "2026-07-15T16:36:50.648326+00:00"
+}

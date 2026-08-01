@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "MSFT/USDT:USDT",
+  "size": 0.0,
+  "entry": 389.93,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Chop between 388 and 392 near VWAP; intraday sellers (5m/15m short, orderbook -0.36) likely press toward 388 but no clean break until CPI resolves. Expect range-bound drift, not a decisive move, over the next few bars.",
+  "expectancy_note": "No honest R:R>=1.5 either way: a short's nearest structural stop (above 392) vs support 373.78 is far below (~4% = >5x ATR to target), and a long is hostile (crowded longs, sellers stacked, %B 0.895, stalling under 395.85 into CPI). p(win) too low both sides; flat is highest expectancy.",
+  "rationale": "MSFT is the pipeline's lowest-conviction name: composite long but NOT aligned (0.87), only 14.7% conf, with 4h uptrend fighting clearly bearish 5m/15m and hostile structure (L/S 1.938 crowded long, orderbook -0.359 sellers stacked, bias -0.39). Price sits mid-range near VWAP (+0.55%) with no structural level close enough for an honest 1.5x-ATR stop in either direction, and CPI (Jul 14 8:30 ET) is a binary inside the window on thin, gappy overnight liquidity. Standing aside preserves capital until a level breaks; size 0.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 395.85,
+    "expires_min": 240,
+    "note": "Reclaiming/closing above resistance 395.85 breaks the stall zone and confirms the 4h uptrend wins over intraday sellers \u2014 flips me to a long with room to run."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF (S&P -0.79%, Nasdaq -1.55%) on Iran/Hormuz blockade + semi rout (AI-spend-overdone narrative hitting tech). Event risk inside window: CPI/bank earnings/Warsh Jul 14. US cash closed; thin gappy perps. MSFT CONFLICTED: composite LONG but NOT aligned (align 0.87), only 14.7% conf; 4h long vs 5m/15m short, rolling over under resistance 395.85. Structure hostile to long (L/S 1.938 crowded, orderbook -0.359, bias -0.39). Lowest conviction \u2014 smaller size or stand aside.",
+    "sentiment": "MSFT neutral near-term, event-risk building. Earnings Jul 29 (outside cycle) is the elephant ~2 weeks out. No fresh company-specific shock; trades the macro/CPI + AI-spend-overdone narrative that hit semis. High corr to AAPL (0.55). Low-weight: Wedbush reiterated Outperform $625 PT. Direction dictated by tomorrow's CPI and tech risk-off mood.",
+    "analyst": "Lowest-conviction name: composite long not aligned (14.7% conf), 4h uptrend vs decisively bearish 5m/15m with textbook intraday distribution (lower highs, closing near lows at 389.93). Structure hostile to the long; a short has no nearby structural stop (support 373.78 ~4% away, far beyond 1.5x-ATR $2.53). Plus CPI binary inside window on thin liquidity \u2014 no positive-expectancy trade. HOLD, size 0; reconsider on a reclaim above 395.85.",
+    "portfolio": "HOLD MSFT/USDT:USDT \u2014 conflicted, lowest conviction, no honest R:R either way into CPI; stand aside until 395.85 reclaims or 388 breaks."
+  },
+  "timestamp": "2026-07-13T23:03:35.326676+00:00"
+}

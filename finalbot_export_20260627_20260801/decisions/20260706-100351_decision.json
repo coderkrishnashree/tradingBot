@@ -1,0 +1,24 @@
+{
+  "action": "hold",
+  "symbol": "SNDK/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.66,
+  "playbook": "none",
+  "expectancy_note": "No scan data (SNDK rate-limited, only in fetch_errors) -> no measurable R:R or p(win); trading blind into an active semi selloff on a thin post-holiday session is negative EV. HOLD is highest expectancy.",
+  "rationale": "SNDK produced no row in the scan (rate-limit error), so there is no price, no per-TF score, no RSI/ADX/ATR, and no derivatives structure to build a setup on - a hard data blackout. Context is actively hostile: SNDK is the epicenter of a multi-day memory/semi selloff (MU/WDC/STX sliding, SK Hynix HBM slowdown), down ~14-16% off a parabolic ~858% run, and July 6 is a thin post-July-4 session where the token can gap through stops or print garbage. No earnings binary inside 48h (Aug 24). With no edge and severe execution risk, size stays zero; the falling knife plus rotation momentum means I would only consider a short on confirmation, not a fresh long.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 1693,
+    "note": "Losing the cited July 6 intraday low (~$1,693) on real US-cash-hours volume would confirm the memory selloff extending and open a momentum-continuation short worth re-debating; until then it is blind chop with gap risk."
+  },
+  "transcript": {
+    "macro": "Overall crypto regime MIXED-to-HOSTILE: BTC dominance ~55.5% (risk-off tell), BTC ~$62.6k bouncing within a downtrend, Nasdaq semiconductor-led selloff (Micron -10%+, Kospi -8% on AI-chip demand fears). SNDK HOSTILE/FLAT: tokenized equity, no derivatives data in scan (Bybit rate-limit, in fetch_errors) - full blind spot. Parabolic run ~$37->~$2,000 now ~$1,762, down 14-16%, extreme July 6 range $1,693-$2,113. Critical US market-hours/gap risk on a thin post-July-4 Monday. No earnings inside 48h (Aug 24). Default flat.",
+    "sentiment": "SNDK sharply RISK-OFF: epicenter of an active multi-day semiconductor/memory selloff (MU, SNDK, STX, WDC sliding since ~July 1-2), down ~14-16% off an ~858% run. Trigger real and fresh: SK Hynix slowing HBM expansion, AI-glut fears, hawkish Fed, Korean chip weakness (Samsung/SK Hynix -9%). Rotation-driven profit-taking, not broken fundamentals. Analysts still bullish (Bernstein PT $3,000, BofA $2,500) but low weight. No company binary inside 48h. Near-term lean BEARISH/volatile.",
+    "analyst": "SNDK is not in the scan rows at all - it only shows in fetch_errors (Bybit rate limit), so there is literally no price/indicator/structure data; the ~$1,762 and $1,693-$2,113 range come only from shared notes. Full data blackout forces flat. On top: macro/sentiment actively hostile (fresh multi-day semi/memory selloff, SK Hynix HBM slowdown, down 14-16% off an ~858% parabola); tokenized equity in a thin post-July-4 Monday with gap-through-stop / garbage-print risk; no catalyst inside 48h. No valid long (falling knife, no confirmation), no clean short without data. Correct call is HOLD with re-debate trigger on a decisive break below ~$1,693 during US cash hours.",
+    "portfolio": "SNDK/USDT:USDT -> HOLD (conf 0.66): data blackout + hostile semi selloff + gap risk; flat, re-debate on a confirmed break under ~$1,693."
+  },
+  "timestamp": "2026-07-06T10:03:51.768607+00:00"
+}

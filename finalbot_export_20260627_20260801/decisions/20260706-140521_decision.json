@@ -1,0 +1,27 @@
+{
+  "action": "hold",
+  "symbol": "MSTR/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "trend",
+  "expectancy_note": "Short bias is right (weakest laggard, ADX 40, all short TFs) but entry is wrong: -4.52% below VWAP, RSI 34, bb%B -0.30 = extended flush on BTC's $57.8k support. Chasing here ~p(win) 0.45 into squeeze risk; waiting for a bounce to ~104-106 lifts R:R to >2.5 and p(win) toward 0.6.",
+  "rationale": "Direction is clearly short \u2014 MSTR is the weakest crypto-beta name (-13.4% rel strength), hostile regime, fresh BTC-sale catalyst, ADX 40.5 downtrend, all short-side timeframes. But price at 99.44 is already ~1.7xATR below VWAP with RSI 33.9, stoch 32.8 and %B below the lower band, sitting directly on BTC's $57.8k support with 0.835 correlation \u2014 shorting this hole is chasing the low and invites a relief-bounce squeeze, exactly the risk the macro note flags. Far better expectancy shorting a bounce back into the broken 104-106 VWAP/structure zone (stop ~109 above resistance, target 80 support = >2.5 R:R). Hold and arm the re-entry trigger.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 104.5,
+    "expires_min": 240,
+    "note": "A bounce back to the broken VWAP/structure zone (~104-106) offers a lower-high short with clean R:R to the 80 support; re-debate for a short entry there rather than selling the oversold flush."
+  },
+  "transcript": {
+    "macro": "HOSTILE for crypto-beta; BTC blocked-chop near support $57.8k. MSTR SHORT-leaning, weakest name: btc_corr 0.835 leveraged BTC proxy, rel strength -13.4% (worst laggard), -4.5% below VWAP, all short TFs, ADX 40.5. Not getting semi bid. Long/short 1.20. Biggest risk: BTC bounce off $57.8k squeezing it; respect BTC reclaim ~$64k as stop-out cue.",
+    "sentiment": "MSTR net BEARISH \u2014 epicenter: own first-ever BTC sale (~3,588 BTC) read as regime change, accelerated sell-off. 0.84 BTC corr tracks any further BTC leg down. Balance-sheet overhang + extreme-fear tape (F&G 11). No 48h binary; momentum/BTC linkage firmly negative.",
+    "analyst": "Direction short is correct but entry wrong: at 99.44 it's ~1.7xATR below VWAP, RSI 34, %B below lower band, sitting on BTC's $57.8k support with 0.835 corr \u2014 shorting the hole invites a relief-bounce squeeze. Better to short a bounce into broken 104-106 VWAP/structure (stop ~109, target 80 = >2.5 R:R). HOLD, arm price_above 104.5.",
+    "portfolio": "HOLD MSTR \u2014 bearish thesis intact but don't sell the flush; short a bounce to 104-106."
+  },
+  "timestamp": "2026-07-06T14:05:21.507793+00:00"
+}

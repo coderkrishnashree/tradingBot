@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "HOOD/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "15m fade off 108.25 is still unfolding (lower highs/closes, 106.16 now, 15m RSI 30.7); expect further drift toward the VWAP/102 area over the next few bars, then the strong 1h/4h uptrend (ADX 69) can be bought there - no clean entry at spot.",
+  "expectancy_note": "p(win) low on any spot entry: long chases +4% above VWAP into a live 15m pullback (crowded L/S 2.14), short fights a 1h-RSI-79 uptrend into 15m-oversold bounce. Waiting for the VWAP tap or a 107 reclaim gives a real 1.5R+ setup vs a coin-flip now.",
+  "rationale": "HOOD is in a powerful but stretched uptrend: strong 1h/4h trend and ADX 69, yet +4% above VWAP, bb_pctb 1.1, long/short 2.14 crowded-long, and a clear bar-by-bar 15m fade from 108.25 to 106.16 on drying volume. A market long buys into the ongoing pullback (the account's #1 loss pattern); a short fights the dominant trend into 15m-oversold where a bounce is due. No size until price hands over a real level.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 107.0,
+    "expires_min": 240,
+    "note": "Reclaiming the 107 intraday shelf ends the 15m fade and re-arms a trend-continuation long with the strong 1h/4h uptrend; a VWAP-area (~102) tap would also flip me long."
+  },
+  "transcript": {
+    "macro": "Regime MIXED, tilting risk-on but fragile. Crypto/broker names riding risk-on wave. Hawkish Fed, Middle East tensions. Funding ~zero on tokenized perps -> long/short negatives noisy. Liquidity best during US cash hours. HOOD: LONG-lean but extended - strong uptrend (ADX 69, 1h RSI 79) but RSI 69 + long/short 2.14 + price 4% above VWAP = crowded and stretched. Trend-follow long only with tight risk; prime for a fast unwind.",
+    "sentiment": "HOOD mild positive tone but no <=48h catalyst. Earnings July 29 (out of window). Momentum from July 1 London launch (Robinhood Chain L2, 24/7 stock tokens, perps) and Moderate-Buy analyst tone (~$111 avg PT) - narrative, not a dated catalyst. Already stretched (RSI ~69-79, +4% above VWAP). Watch pre-earnings de-risking into the 29th.",
+    "analyst": "Powerful but stretched uptrend (ADX 69, 1h RSI 79) yet +4% above VWAP, bb_pctb 1.1, long/short 2.14 crowded-long, with a live 15m fade 108.25 -> 106.16 on drying volume. Long chases the pullback; short fights the trend into 15m-oversold. HOLD; arm a long reconsider on a 107 reclaim or a VWAP-area (~102) tap.",
+    "portfolio": "HOLD HOOD - strong trend but too extended to chase; wait for a pullback or 107 reclaim."
+  },
+  "timestamp": "2026-07-21T19:31:23.588112+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "AAPL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price stays pinned in the 335.5-337.1 coil under the 339.51 ATH wall over the next few bars; no directional edge until it either breaks 339.5 on volume or loses VWAP/335. Thin closed-market tape keeps ranges tiny.",
+  "expectancy_note": "No entry clears R:R: long chases RSI74/bb_pctb0.98 into resistance with bearish divergence (bounce stops it out); short fights the only long-structured name (neg funding, +bid, +6.6% RS) and this account's short-losing pattern (44% wr). Best EV = wait for the break.",
+  "rationale": "AAPL is the best-positioned structural name (negative funding, uncrowded 0.89 L/S, +0.21 bid, +6.6% RS, independent of BTC) but sits at the worst tactical spot: RSI 73.9, bb_pctb 0.98, bearish divergence right under the 339.51 all-time-high wall, on dead-flat thin closed-market tape. Two binary events inside the horizon (FOMC Wed 7/29, earnings 7/30 AC) make any carried directional size a gap coin-flip. No concrete next-move to forecast in the coil, so HOLD is the highest-expectancy call; I want the market to prove a breakout above 339.5 before paying up.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 339.51,
+    "expires_min": 240,
+    "note": "A decisive break/hold above the 339.51 ATH resistance clears the wall and turns the maxed uptrend into a fresh breakout worth a long (measured move) rather than a top-tick chase."
+  },
+  "transcript": {
+    "macro": "Regime risk-off/defensive (Nasdaq lagging). FOMC Wed 29 Jul 2:00pm ET (~48h) - hold base case but LIVE +25bp hike tail. DXY >101. US cash markets closed = thin/gappy; cut size, avoid naked risk over Wed print. AAPL read: lean LONG but LATE - the only long-biased structure in the set (bias +0.20, funding slightly negative, long/short 0.89 not crowded, orderbook +0.21 bid), RS +6.6% leader, BTC corr negative (-0.10) = independent strength. BUT 4h RSI 73.9, ADX 90, bb_pctb 0.98 right under resistance 339.51 with a bearish divergence = maxed-out uptrend into a wall. Long only on a pullback/hold above VWAP; do not chase the top tick.",
+    "sentiment": "AAPL bullish tone but HIGH gap risk - EARNINGS 30 Jul after close (~4:30pm ET), inside the desk horizon = binary event. Stock at all-time high ~$337, ~$4.95T cap, +20% YTD; Tim Cook's final earnings call (narrative wildcard). Street expects ~$108.8B rev, EPS ~$1.89. Scan shows AAPL stretched (4h RSI 74, bb_pctb 0.98, bearish divergence) right into the print. Momentum up, but 30 Jul earnings make any multi-day directional position a coin-flip on the gap - do not carry naked size through it.",
+    "analyst": "last 336.77, resistance 339.51 just above, support 319.54. 4h RSI 73.9, ADX 90, bb_pctb 0.978, bearish divergence - maxed uptrend into a wall; VWAP dist +0.49% (near VWAP short-term). 15m candles dead-flat coiling 335.5-337.1 for ~5h on low volume, last bars drifting slightly lower - no momentum either way. Long here chases the top tick into a wall; short fights the only long-structured name and this account's short-losing pattern (44% wr). Two binary events inside the horizon (FOMC 7/29, earnings 7/30 AC) + thin closed-market tape. No next-move to forecast in the coil, so HOLD; want a proven break above 339.5.",
+    "portfolio": "AAPL: HOLD (conf 0.60) - best structural name but maxed into ATH resistance with FOMC + 7/30 earnings; wait for a clean break/hold above 339.51."
+  },
+  "timestamp": "2026-07-27T23:37:25.863349+00:00"
+}

@@ -16,6 +16,7 @@ import AlertsFeed from "./components/AlertsFeed";
 import ConnectClaude from "./components/ConnectClaude";
 import PnlTab from "./components/PnlTab";
 import ExportPanel from "./components/ExportPanel";
+import ParticleField from "./components/ParticleField";
 import TradesTab from "./components/TradesTab";
 import DebatesTab from "./components/DebatesTab";
 import BacktestTab from "./components/BacktestTab";
@@ -58,6 +59,7 @@ export default function App() {
 
   return (
     <div className="min-h-full">
+      <ParticleField />
       <div className="sticky top-0 z-20">
         <ModeBanner mode={mode.data} />
         <div className="bg-ink-950/70 border-b border-white/[0.06] backdrop-blur-md px-4 py-2.5

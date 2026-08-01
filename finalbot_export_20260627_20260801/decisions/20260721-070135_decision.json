@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "CL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Chop near VWAP 82.2; the fresh 10k-volume bounce off 81.82 likely fades toward 81.5-81.0, but no clean level to short at spot. The high-expectancy short only sets up on a rally into 84.5-84.78 (5-week high / range top).",
+  "expectancy_note": "Short at mid-range 82.2 gives R:R ~1.0 (stop 83.3, target 81) against a live geopolitical bid and a fresh volume bounce - negative expectancy. Waiting for the 84.5+ retest offers stop above 85 targeting 82/80 for R:R >2.",
+  "rationale": "CL is mid-range (support 72.66 / resistance 84.78) at VWAP, with conflicting TFs (30m short but 1h flipped long) and a fresh 10k-volume green bounce off 81.82 - no honest edge to market-short. Structural bias is down and longs are crowded (L/S 1.5), real fuel, but live US-Iran/Hormuz/CPC supply-shock headlines make selling a mid-range bounce a two-way coin-flip. Wait for a rally into the 5-week-high supply zone. Size 0.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 84.5,
+    "expires_min": 360,
+    "note": "A tag of the 84.5-84.78 range top / 5-week high is where a CL short lines up with the structural down-bias and crowded longs, stop above the 85 geopolitical spike level."
+  },
+  "transcript": {
+    "macro": "CL is the one genuine short-side macro tailwind: WTI ~$82.5, five-week high on Middle East risk premium, but structural bias DOWN (EIA/JPM base case low-$60s-mid-$70s on returning Gulf/Iran supply + OPEC+ hikes; Brent cut to $74 3Q26). Rallies supply-capped. A CL short fights the live geopolitical bid - headline spike risk is the offset. CL negatively correlated to BTC (-0.30), diversifies crypto beta.",
+    "sentiment": "CL: most event-driven name. ~$82 near 5-week highs; US-Iran strikes in 10th day, Strait of Hormuz disrupted, Russian CPC terminal loading halted by drone strikes. Fresh geopolitical supply shocks LIVE, two-way headline hazard. Argues for caution/tight risk on any short.",
+    "analyst": "Mid-range at VWAP, conflicting TFs, fresh high-volume bounce off 81.82 - a market short here is a mid-range coin-flip against a live geopolitical bid, negative expectancy. Clean structural short only on a rally into the 84.5-84.78 five-week-high supply zone with stop above 85. HOLD, size 0.",
+    "portfolio": "HOLD CL - no mid-range short into live geopolitical bid; armed short trigger at the 84.5 supply zone."
+  },
+  "timestamp": "2026-07-21T07:01:35.777599+00:00"
+}

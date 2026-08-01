@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "GOOGL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Vertical parabola: price just ripped 348 to 357 on 6.6x volume, last bar closed at its high (357.18). Next few bars likely either extend a bit then mean-revert toward the 352.5 breakout retest, or blow off further into thin air. No honest entry here: chasing long at 357 (RSI 82, stoch 98, %B 1.48, 2.5x ATR above VWAP) invites the routine counter-bounce that stops late longs, and shorting live parabolic momentum with no exhaustion candle gets run over.",
+  "expectancy_note": "No setup clears R:R: long needs a ~4.5 wide stop below 352.5 (2.3x ATR) into far resistance 380 with earnings risk; short fights 79 ADX momentum with no reversal signal. p(win) both sub-0.5 - HOLD is the highest-expectancy choice.",
+  "rationale": "Tokenized equity (treat as equity; crypto structure metrics irrelevant), screaming overbought on every TF into a BINARY earnings print Wed 7/22 inside the holding window - maximum event risk plus a mid-air extended move means neither a chase-long nor a knife-catch short offers 1.5R at an honest stop. This is textbook NO-TRADE: extended >2x ATR from VWAP with %B>0.95 in the trade direction. Wait for a retest of the 352.5 breakout for a clean long entry with a tight stop, or a failure back below it to reassess.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 352.48,
+    "expires_min": 240,
+    "note": "Losing the breakout level proves the parabolic breakout failed - a pullback to 352.5 that holds sets up a clean low-risk long retest, and a decisive break below flips the near-term bias to a fade."
+  },
+  "transcript": {
+    "macro": "Cautiously risk-on, low-conviction; Big Tech earnings gauntlet this week; no FOMC in 48h. GOOGL: REPORTS Wed 7/22 after close (binary inside window); just broke out (level 352.5, vol_ratio 6.6, price 357) and screaming overbought (RSI 82, stoch 98, every TF pinned). Chasing a pre-earnings parabola into a binary event = maximum event risk.",
+    "sentiment": "Crypto F&G 36. GOOGL earnings Wed 7/22 after close (~4:30pm ET, ~2 days out). Focus: Google Cloud growth (was +63% y/y), Gemini/TPU; consensus ~$2.87 EPS. Binary inside window \u2014 short-horizon directional hold carries event risk into Wed close.",
+    "analyst": "Vertical 6.6x-volume parabola, screaming overbought (RSI 82, stoch 98, %B 1.48, +2.5% VWAP) into a binary earnings print inside the window. Chase-long invites a counter-bounce stop; short fights live momentum with no exhaustion. No 1.5R either way. HOLD; long only on a 352.5 retest that holds, fade only on a failure below it.",
+    "portfolio": "HOLD GOOGL \u2014 parabola into binary earnings; no honest entry; armed at 352.48."
+  },
+  "timestamp": "2026-07-20T13:44:54.155877+00:00"
+}

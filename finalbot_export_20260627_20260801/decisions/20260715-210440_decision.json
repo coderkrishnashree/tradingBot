@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "TSLA/USDT:USDT",
+  "size": 0.0,
+  "entry": 395.22,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price coils 394.5-395.4 just above VWAP and support 391 with drying volume; likely chops here 2-4 bars until it either loses 391 (flush toward 387/383) or reclaims 400. No clean edge until it picks a side.",
+  "expectancy_note": "Short here has R:R ~0.95 to first exit (391 only 1.1xATR away, stop above 399.6) \u2014 fails the 1.5 test; shorting into support after a stall is the account's chase-and-get-stopped pattern. HOLD beats both a late short and an unconfirmed long.",
+  "rationale": "Strong 30m/4h downtrend (ADX 58) but composite is NOT aligned (0.87) and near-term TFs are flat/mixed with 5m turning up \u2014 the move has stalled 4 points above support 391 on drying volume, right at VWAP. Shorting into support gives sub-1.0 R:R to TP1; going long fights the higher-TF trend with no reversal confirmation. Crowded longs (LS 1.85) and elevated Iran/gap risk with no TSLA catalyst until Jul 22 argue for patience \u2014 wait for the level to break.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 390.9,
+    "expires_min": 240,
+    "note": "Losing support 391 confirms the 30m/4h downtrend resuming with clean room to 387/383, turning a poor-R:R fade into a proper trend-continuation short entry on the break/retest."
+  },
+  "transcript": {
+    "macro": "Modestly risk-on but event-heavy. Soft June CPI + PPI, Fed HOLD July, ~60% odds rates higher by October. US strikes on Iran + Hormuz blockade = elevated gap risk. Tokenized equities thin/gap-prone when US cash closed. TSLA: NEUTRAL-bearish near-term \u2014 no earnings until July 22 (outside 48h), trades on tape/Nasdaq beta. In-scan short-leaning (30m/4h down, ADX 58, structure_bias -0.20 from crowded longs at 1.85), just above support 391 vs resistance 413. BTC corr 0.26.",
+    "sentiment": "Tone dominated by active US-Iran conflict. TSLA NET NEUTRAL near-term; catalyst NOT until July 22. Q2 deliveries already printed strong (480,126 vs ~406K expected, best Q2 ever) \u2014 spent and in the price. Next binary is July 22 earnings call (outside 48h). No fresh <=48h Tesla catalyst; trades on broad risk/Nasdaq tape + Iran headline flow. Near-term news neutral to the trade.",
+    "analyst": "TSLA at 395.22, support 391, resistance 413. ADX 58.8 strong trend but composite NOT aligned (0.87); 30m/4h down while 15m/1h flat and 5m upticking (+0.49). Price bounced 391->399.6 then faded to 395, coiling in a tight 394.5-395.4 range at VWAP on drying volume (doji bars). Short into support 391 (only 1.1xATR away, stop above 399.6) is R:R ~0.95 to TP1 \u2014 fails 1.5. No long confirmation, no catalyst until July 22, elevated gap risk. HOLD; reconsider armed on a break below 391.",
+    "portfolio": "HOLD TSLA \u2014 coiling above 391 support, no 1.5R edge either way; reconsider trigger armed at a break below 391."
+  },
+  "timestamp": "2026-07-15T21:04:40.507579+00:00"
+}

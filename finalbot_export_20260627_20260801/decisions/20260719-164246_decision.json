@@ -1,0 +1,28 @@
+{
+  "symbol": "META/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.4,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "none",
+  "forecast": "Price is basing 640-642 after a slow grind down; the last real 15m candle bounced off 640.5 to 642.57. Expect chop in the 640-645 pocket into the weekend, resolving on a break of 640 support (down) or reclaim of ~650 VWAP/round-level (up) rather than a clean move now.",
+  "expectancy_note": "Short p_win ~0.5 at best: fights leadership, +0.317 book, no bearish crowding, and enters into a fresh bounce (late-short bleed pattern). Long lacks 4h confirmation. No side clears R:R>=1.5 with confluence, so HOLD beats both.",
+  "rationale": "META is the FAVORED rotation name (rel-strength +6.6%) with a mildly-long book (structure_bias +0.05, orderbook +0.317) and no bearish funding crowding, hostile to the scan's short, whose only support is the 4h down-leg. Price just bounced off 640.5 support and sits mid-range (626-690), not extended, so there is no clean continuation entry either way. With Sunday thin/gappy tape and Monday open able to gap up on the leadership narrative, the highest-expectancy action is to stand aside and let the 640/650 break pick a side.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 640.0,
+    "expires_min": 240,
+    "note": "Losing 640 (the bounce low, toward 626.46 support) confirms the 4h down-leg is winning and opens a with-structure short; a reclaim above ~650 would instead validate the leadership-long bounce."
+  },
+  "transcript": {
+    "macro": "Constructive-but-choppy US tech tape. June CPI cooled. Rotation OUT of chips INTO mega-cap software/platforms; META is on the FAVORED side (+3% on last up-day). July 29 FOMC HOLD expected. Sunday = perps thin/gappy, size down. META: SHORT candidate in scan (blended -0.325, conf 42%, p_win 0.68) but fights the tape; positioning near-neutral/slightly-long (L/S 1.15, orderbook +0.317, structure_bias +0.05 = against the short), rel-strength +6.6% (leading). Earnings July 29 after close, outside 48h window but any carry must be flat before then.",
+    "sentiment": "META constructive tone but HARD binary looms. Q2 2026 earnings AFTER CLOSE Wed July 29 (guidance $58-61B rev, consensus ~$60.2B/EPS ~$7.18, Buy-rated). Outside the ~48h desk window, no catalyst risk this cycle, but any position carried toward end of next week faces a major earnings gap. No fresh company-specific shock last few days; sentiment neutral-to-positive. Near-term: NEUTRAL.",
+    "analyst": "META scan flags a short (blended -0.325, p_win 0.68) but it is un-aligned and fights the tape: META is the favored software/platform rotation leader (rel-strength +6.6%), the book is mildly long (structure_bias +0.05, orderbook +0.317), and there is no bearish funding crowding; the only bear input is the 4h down-leg (-0.785, 15m -0.608). Crucially the last real 15m candle bounced off 640.5 support back to 642.57, so a market short here is a late short into a fresh bounce, the exact pattern that bleeds this book. Price is mid-range (626.46 support / 689.72 resistance), only -1.29% from VWAP, not extended enough for a clean continuation either. On a thin, gappy Sunday with Monday able to gap up on the leadership narrative, HOLD is the highest-expectancy call; re-debate on a loss of 640 (short) or reclaim of ~650 (long).",
+    "portfolio": "META/USDT:USDT: HOLD (conf 0.40) - scan short fights leadership rotation and a fresh bounce off 640.5; stand aside on thin weekend tape."
+  },
+  "timestamp": "2026-07-19T16:42:46.966323+00:00"
+}

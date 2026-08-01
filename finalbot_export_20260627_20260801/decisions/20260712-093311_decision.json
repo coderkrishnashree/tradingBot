@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "ORCL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.34,
+  "playbook": "none",
+  "forecast": "Thin weekend tape; price just leaked from a flat 142.2-142.4 shelf to close 141.48 at the bar low. Likely a small oversold bounce toward 142.2-142.5 (5m RSI 21.6, 15m 28.2) or drift to 140.5-141.0 before any clean continuation to 137.6 support.",
+  "expectancy_note": "Short here chases a -1.86% VWAP-extended, deeply oversold move (squeeze risk); long fights -0.325 bias + -18.65% RS with no bounce confirmation. Both <1.5 R:R on gappy weekend tape - flat is highest expectancy.",
+  "rationale": "ORCL is the deep laggard (RS -18.65%) with weak structure (LS crowded long, bias -0.325), but it is already stretched down (5m RSI 21.6, 1.86% below VWAP) into a fresh thin-volume breakdown - the account's #1 loss pattern is shorting exactly this stretch and getting stopped by the bounce. Support 137.6 is ~2.7 ATR away, so no honest stop yields 1.5R without chasing. Weekend US-cash-closed tape adds gap risk. Wait for either a squeeze-and-retest short setup near VWAP or a reclaim long; no size until then.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 141.28,
+    "expires_min": 240,
+    "note": "Losing the 141.3 breakdown low on real volume confirms continuation, enabling a short on the retest bounce toward 137.6 rather than chasing the current stretch."
+  },
+  "transcript": {
+    "macro": "Regime MIXED/risk-cautious, choppy. Tokenized equities thin/gappy over the weekend (US cash closed) -> orderbook low-confidence, size down. ORCL structure_bias -0.325, RS -18.65% (deep laggard, weakest in set), 5m RSI 21.6 (very oversold - bounce risk for shorts). Already reported (~Jun 10) - no imminent earnings catalyst; trades on tape/rotation. Smaller-than-normal size.",
+    "sentiment": "ORCL neutral-to-soft, NO <=48h catalyst. Q4/FY26 reported Jun 10 (beat: rev +21%, IaaS +93%) - priced. Only fresh item: $0.50 dividend ex-date Jul 10 (passed) + Piper Sandler AI-upside note (long-horizon). Down ~28% YTD, oversold. Macro/Monday-open driven. Weekend thin off-hours tape.",
+    "analyst": "Deep laggard with weak structure but already stretched down into a thin-volume breakdown - shorting the stretch is the account's #1 loss pattern (squeeze risk), long has no bounce confirmation. Support 137.6 ~2.7 ATR away = no honest 1.5R. NO TRADE.",
+    "portfolio": "HOLD ORCL/USDT:USDT (conf 0.34) - stand aside; continuation-short trigger armed below 141.28."
+  },
+  "timestamp": "2026-07-12T09:33:11.075734+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "symbol": "EWJ/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.3,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "none",
+  "forecast": "No readable next move: tape is phantom (wall of zero-volume flat 91.64 prints, one 8.46-lot jump to 91.90, then zeros; 5m RSI=100 broken). Expect Monday to gap on the real cash open, not to trade the current quote - direction hinges on BoJ July-30 and JPY intervention, both two-way tails.",
+  "expectancy_note": "No tradable edge: fills would be on phantom quotes and gapped through on reopen; illiquidity + BoJ/intervention binaries make any entry negative-expectancy. HOLD dominates.",
+  "rationale": "EWJ is a tokenized Japan equity ETF with the cash market closed for the weekend and an extremely illiquid perp showing long stretches of zero-volume flat candles and a broken RSI=100 print. Composite confidence is only 41.6% with a negative structure bias (L/S 1.38, orderbook -0.155), and BoJ July-30 plus live FinMin intervention headline risk are two-way tails that guarantee gap risk. There is no honest R:R to compute on a phantom tape, so no size is warranted.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 89.53,
+    "expires_min": 240,
+    "note": "A real, volume-backed break of the 89.53 support would confirm the bearish Nikkei/yen-strength thesis and justify re-debating a short with a live tape."
+  },
+  "transcript": {
+    "macro": "Regime risk-off. BoJ meeting July 30 = major event risk (BoJ hiked to 1.0% in June, unwinding its \u00a583T ETF book - the 'BoJ put' is gone; yen firming). For unhedged EWJ, yen strength helps USD returns but hurts exporter earnings - two-way. Data quality essentially untradeable: long stretches of zero-volume flat candles, one 5m RSI printed 100. Cash market closed; extremely illiquid perp with guaranteed weekend gaps - do not size meaningfully.",
+    "sentiment": "EWJ shows bearish near-term momentum. Nikkei fell ~2.8% Friday on AI/tech-bubble fears - the most actionable near-term signal. USD/JPY ~163-164 (40-yr low range); FinMin intervention hints have been ignored, so an intervention headline is a live two-way tail (real intervention = sharp yen spike, EWJ shock). BOJ already hiked in June. Bias cautious/bearish into a jittery tech tape.",
+    "analyst": "The tape is phantom - a wall of zero-volume flat 91.64 prints, one 8.46-lot jump to 91.90, then zeros, and a broken 5m RSI=100. Any fill would be on a phantom quote and gapped through on Monday's real cash open. Composite conf only 41.6%, negative structure bias; BoJ 7/30 and intervention are two-way tails. No honest R:R on a phantom tape - flat.",
+    "portfolio": "HOLD EWJ - flat 0.30 conf, no size; illiquid phantom tape, revisit only on a volume-backed break of 89.53."
+  },
+  "timestamp": "2026-07-25T22:35:18.161225+00:00"
+}

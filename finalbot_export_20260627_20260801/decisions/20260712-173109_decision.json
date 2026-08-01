@@ -1,0 +1,26 @@
+{
+  "symbol": "MSFT/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.4,
+  "size": 0.0,
+  "entry": 383.27,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "forecast": "Off-hours drift stays pinned 382-385 on ~zero volume into Monday; no clean directional move until US cash opens. Real move only if 373.78 support breaks (short) or 386 reclaims (bounce).",
+  "expectancy_note": "No entry has R:R >= 1.5: short is into 5m RSI 15.5 + bullish divergence + only -0.21% from VWAP (not extended = no room, high bounce risk); long fights hostile tech regime + CPI Tues. HOLD beats both.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 373.78,
+    "expires_min": 240,
+    "note": "Losing 4h support 373.78 on real volume confirms the breakdown and gives a clean short with room; until then oversold + bullish divergence make shorting a trap."
+  },
+  "rationale": "MSFT composite is short but weakest conviction (43%), and the setup is contradictory: 4h RSI 33.7, 5m RSI 15.5, stoch 12.7, %B 0.23 and a flagged bullish divergence all say oversold/exhaustion, while price sits only -0.21% from VWAP so a short has no room before support at 373.78. US equity is CLOSED Sunday \u2014 near-zero volume, stale Friday marks, Monday-gap risk \u2014 so any entry is a coin flip stopped by routine noise. This is the late-short-into-stretched-tape pattern that has bled the book; correct move is to wait. Size 0.",
+  "transcript": {
+    "macro": "MIXED-to-HOSTILE, esp. tech/semis; hawkish Fed. MSFT: short bias but WEAKEST conviction (43%), 4h down yet bullish divergence flagged, RSI 33.7 stretched, RS +3.7% mild outperformer. Sunday off-hours, tiny volume \u2014 MIXED-to-HOSTILE for fresh shorts.",
+    "sentiment": "Market: June CPI Tues Jul 14 (hot=hike risk), Warsh testifies. MSFT: neutral-to-cautious, earnings Jul 29 (outside window, not a 48h factor); trades on CPI/macro only. Near-term neutral, macro-driven.",
+    "analyst": "Weakest short on the board (43%) directly contradicted by oversold/exhaustion (5m RSI 15.5, stoch 12.7, %B 0.23, bullish divergence) with price only -0.21% from VWAP = no room, high bounce risk. Closed-market Sunday, ~zero volume, stale marks, Monday-gap. No entry clears 1.5R; flat and arm breakdown trigger at 373.78.",
+    "portfolio": "MSFT: HOLD \u2014 weakest, contradicted short; reconsider on breakdown below 373.78."
+  },
+  "timestamp": "2026-07-12T17:31:09.361869+00:00"
+}

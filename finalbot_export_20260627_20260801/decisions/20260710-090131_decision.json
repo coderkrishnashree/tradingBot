@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "COIN/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.35,
+  "playbook": "none",
+  "forecast": "Thin overnight drift to hold 160.3-162.0 into the 13:30 UTC US open; then a liquidity-driven gap decides direction - momentum tape favors a push toward 163.5, but a BTC roll from its 64.7k resistance gaps COIN back to 160/support with no depth to defend.",
+  "expectancy_note": "p(win) ~0.45 on any entry now; RR uncertain because a thin closed-market gap can leap any honest stop. Chasing a high-ADX, 5m-RSI-79, VWAP-lagging move is exactly the account's losing pattern (high_adx trend win_rate 0.47, avg -3.0). Waiting for real open liquidity or a level beats a blind pre-open entry.",
+  "rationale": "Bias is mildly long (clean positioning, risk-on, bullish 4h divergence, 4h RSI 47 with room) but the vehicle is CLOSED until 13:30 UTC and trading on ~0.1-40 unit volumes with OI just 8k - no depth to trust a fill or defend a stop. COIN is short-term stretched (1h/5m RSI 70-79) and lags BTC (-2.83%), while BTC itself is topping into 64.7k resistance (5m RSI 70, %B 0.92), so the downside gap risk into open is asymmetric. No honest 1.5R entry exists pre-open, so I wait for the open to reprice with real liquidity.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 163.5,
+    "expires_min": 360,
+    "note": "Reclaiming 163.5 (above the overnight pop) on real open-session volume confirms momentum continuation with room to the 175 resistance and justifies a long with a defined stop back under 161."
+  },
+  "transcript": {
+    "macro": "Regime mildly risk-on but fragile; BTC dominance ~54-55% (no beta tailwind). COIN $161.75 composite long (37% conf LOW), 4h +0.58, bullish divergence, RSI 47 (room) BUT 1h/5m RSI 70-79 on overnight pop; ADX 43. Funding 0; long_short 1.079 NOT crowded; orderbook ~0; structure_bias -0.024; OI only 8k = THIN. BTC corr 0.737 = largely crypto-beta, follows BTC; relative strength -2.83% (lagging). CRITICAL: as an equity COIN CLOSED until 13:30 UTC, tape thin overnight and WILL GAP. Read: directional bias modestly long but vehicle unreliable pre-open = smaller size or wait; risk = BTC-beta proxy trading thin, if BTC rolls at resistance COIN gaps down harder with no depth (OI 8k).",
+    "sentiment": "COIN constructive tone: ripped ~19% in 5 sessions off 52-wk low to ~$165 on product news (tokenized stocks, options, perps via Deribit/CFTC FCM). Two catalysts: (1) CLARITY Act - Senate returns Jul 13, new combined draft expected 'as soon as next week', live binary in the 2-day horizon tail, still no floor vote scheduled; (2) Earnings Jul 30 - outside horizon. Dominant book catalyst = June CPI Jul 14. Barclays reiterated Underweight $107 PT (long-horizon, ignore). Net: near-term news argues FOR the long but headline-driven and whippy.",
+    "analyst": "COIN $161.75, equity CLOSED until 13:30 UTC on thin overnight tape (candle vols 0.16-42 vs 235 spike). Last 4 candles clean overnight pop but thin; 1h/5m RSI 67-79 stretched into a closed-market gap; OI only 8k = no depth to trust a fill/defend a stop. BTC corr 0.737, rel strength -2.83% (lagging), and BTC itself stretched at resistance (5m RSI 70, %B 0.915) - if BTC rolls, COIN gaps down harder. Learner: high_adx trend longs/shorts losing (win 0.47, avg -3.0) - this is that chase setup. Verdict HOLD, wait for US open liquidity or a $163.5 reclaim on real volume.",
+    "portfolio": "COIN: HOLD (conf 0.35) - mild long bias but thin/gappy closed-equity pre-open; wait for 13:30 UTC open or 163.5 reclaim."
+  },
+  "timestamp": "2026-07-10T09:01:31.619232+00:00"
+}

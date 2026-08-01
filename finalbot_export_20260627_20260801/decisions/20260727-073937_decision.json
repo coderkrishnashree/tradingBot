@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "EWY/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Momentum has stalled at 168.5 on drying volume; expect chop 167.6-168.8 with a pullback toward the 166.2-165.5 VWAP/prior-shelf area before any resumption, and no clean trend entry until then.",
+  "expectancy_note": "No edge: mid-range (160.2 support / 177.4 resistance), 15m move already faded, p(win)~0.5. A market long chases a dead 15m thrust; a fade has no level. Waiting beats both.",
+  "rationale": "EWY is a laggard (RS -10%) tracking QQQ/semis (0.77 QQQ, 0.80 MU corr) - pure beta, not the strongest horse. The 15m grind to 168.5 has flattened over the last 6 bars with collapsing volume, so a long here chases a stalled move mid-range with structure mildly crowded long (bias -0.24, orderbook -0.23). Mid-TF composites read flat and a binary FOMC Wed sits inside the window. Want a pullback to 166.2/165.5 to buy, or a break above 169.5 to prove the range is expanding.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 169.6,
+    "expires_min": 240,
+    "note": "A clean reclaim/break above the 168.8 stall high confirms buyers regained control and opens room toward 172-177 range top, flipping this to a trend long."
+  },
+  "transcript": {
+    "macro": "MIXED regime, lean cautious. FOMC Wed Jul 29 binary. Weekend relief bounce after losing week (Nasdaq -2.1% Fri chip pullback). EWY macro tilt NEUTRAL: mildly crowded (structure_bias -0.24, orderbook -0.23), tracks Nasdaq/semis (0.77 QQQ corr, 0.54 TSM). Asia-market timing + semis beta; no edge, RS -10%.",
+    "sentiment": "EWY BULLISH, sentiment-driven, no own binary. KOSPI ripping (+47% YTD) on memory supercycle + AI capex optimism (Alphabet beat, Samsung/SK Hynix strength). Sympathy long to TSM/MU/SNDK; main risk is the FOMC, not Korea-specific.",
+    "analyst": "Laggard beta (RS -10%), 15m grind to 168.5 flattened on collapsing volume, mid-range with flat mid-TFs and crowded-long structure into FOMC. Long chases a dead thrust; no fade level. Wait for a 166/165.5 pullback or a 169.6 breakout.",
+    "portfolio": "HOLD EWY - stalled laggard beta mid-range into FOMC; no edge, size 0."
+  },
+  "timestamp": "2026-07-27T07:39:37.894353+00:00"
+}

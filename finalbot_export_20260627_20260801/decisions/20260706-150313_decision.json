@@ -1,0 +1,23 @@
+{
+  "symbol": "CRCL/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.5,
+  "size": 0.0,
+  "entry": 66.12,
+  "stop_loss": 69.5,
+  "take_profit": 61.07,
+  "rationale": "Bearish thesis (OUSD overhang, RS -11.6%, 1h/4h down, bearish divergence) is real, but the tape is a bad short-entry location: price is already -1.57% below VWAP, sitting at the lower Bollinger band (%B 0.056) just above support 61.07 after a ~25% drop, and the 15m has flipped LONG. Critically, L/S 2.62 is the MOST crowded-long name in the scan = maximal squeeze fuel on any bounce, so selling the low here is chasing into support with the odds of a relief pop against me. No clean long either (higher-TF trend and fundamentals point down). Best expectancy is to wait: sell a lower-high rejection back toward the 68.5-70 VWAP/supply zone (better R:R vs the 61 target and lets crowded longs get trapped), or re-debate if 61.07 breaks decisively for a fresh momentum leg.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 68.8,
+    "expires_min": 240,
+    "note": "A bounce into the 68.8-70 VWAP/supply zone that stalls is the high-quality short entry \u2014 far better R:R toward 61.07 than shorting the current low, and it lets the crowded longs get trapped before the next leg down."
+  },
+  "transcript": {
+    "macro": "Broad regime MIXED/risk-off: equities firm, crypto broken (BTC ~$61.9k 21-month low, Extreme Fear ~24, dominance ~55.7%). No FOMC/CPI in 48h. CRCL: scan short (conf 36.1%, bias -0.283), L/S 2.62 = most crowded-long name in the scan (strongest contrarian-squeeze risk on any bounce). RS -11.6% big laggard, bearish divergence. Fundamental overhang real and recent: OUSD stablecoin launch (Jun 30) sparked USDC competition fears, dropped CRCL $73->$62, now ~$66. btc_corr 0.61 so also catches crypto risk-off. Direction (short) has a fundamental story but crowded longs make it whippy.",
+    "sentiment": "Bearish, active catalyst in play. Jun 30 launch of 'Open USD' (OUSD) by a 140+ company consortium (Visa, Mastercard, Stripe, BlackRock, Coinbase, Google, BNY) directly attacks Circle's reserve-yield economics (~96% of revenue); stock crashed 16-25% to a four-month low (~$63.85), only partially bounced. Jefferies: headwinds 'unlikely to ease'; overhang persists this week. Next earnings Aug 18 (outside window). News argues for the short \u2014 but after a ~25% drop a relief bounce is a real risk, so size accordingly.",
+    "analyst": "Bearish thesis intact but current price (66.12) is a poor short-entry location: at the lower Bollinger band just above support 61.07, -1.57% below VWAP after a ~25% drop, 15m flipped LONG, and the most crowded-long L/S (2.62) in the scan = squeeze risk. No clean long. Best expectancy = HOLD; sell a lower-high rejection into the 68.8-70 supply/VWAP zone via the reconsider trigger.",
+    "portfolio": "HOLD CRCL \u2014 bearish story intact but selling the low into support with max crowded-long squeeze risk; wait for a 68.8-70 lower-high to short."
+  },
+  "timestamp": "2026-07-06T15:03:13.713096+00:00"
+}

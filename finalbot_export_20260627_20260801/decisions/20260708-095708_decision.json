@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "BTC/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Small dead-cat bounce off 61,680 toward the broken 62,500-62,700 shelf / VWAP over the next 2-5 bars, then trend resumes lower back to 61,700 and eventually the 60,500 / 57,756 support. Shorting AT the lower BB band (%B -0.035, 1h RSI 22.9) right after a vertical 1,000-pt flush is chasing the hole.",
+  "expectancy_note": "Short here: TP1 ~61,700 = 365 vs a valid stop above 63,050 = ~985, R:R 0.37 \u2014 fails the 1.5 gate. Waiting for the retrace into 62,500-62,700 yields R:R ~2 with the trend; that beats the chase.",
+  "rationale": "Structure is genuinely bearish (OI holding into the drop = distribution, OB -0.776 offered, net-long 1.47 crowd to punish, hawkish FOMC minutes today), and the direction is short \u2014 but the immediate tape is stretched: at the lower band, 1h RSI 22.9, price -1.75% below VWAP, and the last 3 candles already printed a stabilizing bounce off 61,680. Learner stats show trend/high-ADX shorts win often (73%) yet still bleed on R (avg -1.76) precisely because of poor entries \u2014 so I refuse to chase into the hole. Hold and short the retrace; the edge is the entry, not the direction.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 62550,
+    "expires_min": 240,
+    "note": "A bounce back into the 62,550 broken-support/VWAP zone offers a with-trend short at 2:1 R:R with a stop above 63,050 targeting 61,700 then 60,500 \u2014 that is the high-expectancy entry, versus chasing at the band now."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF, fragile. F&G 23 (extreme fear). Last week's rally was squeeze-driven ($450M+ short liqs above $62k); squeeze fuel subsided (24h liqs -78%). Equities rolled over July 7. Rates headwind (Fed 3.50-3.75%, hawkish dot plot, ~56% Sep-hike odds, DXY ~100.9). Scan 09:52 UTC: BTC 62,066 after fresh flush ~62,900->61,850 on huge volume. Funding neutral, OI 55,097 holding into the drop = real distribution, L/S 1.47 net-long into falling price, OB imbalance -0.776 (heavily offered), blended bias -0.37 (most negative of majors). Support 57,756, resistance 64,703. Macro verdict: SUPPORTS SHORT, but plan to cover into support \u2014 1.47 crowd could wash out and mean-revert.",
+    "sentiment": "BTC NEUTRAL/BEARISH near term. Extreme Fear (F&G 20, down from 27). Price ~$62K, -1% on day, bottoming but unconfirmed \u2014 needs clean break >$65K to flip. ETF flows just turned positive 2 straight days (~$265M, ~$200M IBIT) ending a 10-day $2.7B outflow streak (fragile, net -$6B YTD). Live <=48h swing: FOMC minutes publish TODAY July 8 (dot-plot toward possible 2026 HIKE) \u2014 hawkish = direct downside, argues for short bias into release. June CPI July 14. Coinbase premium record lows = weak US spot demand. No hacks.",
+    "analyst": "Direction is short (OI-backed distribution, offered book, net-long crowd to punish, hawkish FOMC minutes today), but the immediate tape is stretched: at/below lower BB band (%B -0.035), 1h RSI 22.9, -1.75% below VWAP, and the last 3 candles already bounced off 61,680. Shorting into the hole gives R:R 0.37 (TP1 61,700 = +365 vs stop above 63,050 = ~985), failing the 1.5 gate. Learner stats: trend/high-ADX shorts win 73% but avg PnL -1.76 \u2014 bleeding on R from poor entries. So HOLD and short the retrace into 62,500-62,700 for ~2:1. The edge is the entry, not the direction.",
+    "portfolio": "BTC/USDT:USDT \u2014 HOLD (conf 0.60): bearish but stretched; wait to short the 62,550 retrace, don't chase the flush."
+  },
+  "timestamp": "2026-07-08T09:57:08.811083+00:00"
+}

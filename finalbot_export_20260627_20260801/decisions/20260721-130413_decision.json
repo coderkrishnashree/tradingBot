@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "COIN/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "After a vertical +2.4% 15m spike that tagged 169.44 and printed a ~1.8pt upper wick, expect a stall/pullback toward VWAP ~161 over the next 2-6 bars rather than clean continuation; the 4h bearish divergence + RSI 75.7 + %B 1.157 mark exhaustion, not a fresh long entry.",
+  "expectancy_note": "No positive-expectancy entry at 167.94: a long chases a blow-off >4% above VWAP (p(win) low, bounce stops it), a market short into a vertical bar is the account's classic late-short loss. Best EV is wait.",
+  "rationale": "COIN just spiked vertically into 169.44 resistance and got wicked-rejected, sitting >4% above VWAP with RSI 75.7, stoch 89.4, %B above the band and a flagged 4h bearish divergence - textbook extension. Structure is neutral/balanced (L/S 0.96, funding flat) so there is no flow edge either way, and any honest stop on a chase-long or a stretched-short gets taken by routine noise. Size 0: highest-expectancy move is to let the extension resolve and re-engage on a level break.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 169.44,
+    "expires_min": 240,
+    "note": "Reclaiming and holding above the 169.44 spike high converts blow-off into a real breakout with demand behind it, flipping this to a possible long; rejection there confirms the fade toward VWAP."
+  },
+  "transcript": {
+    "macro": "Regime MIXED. BTC ~$66.5k, structurally weak regime. COIN is genuine crypto-beta (BTC corr 0.64). COIN lean: neutral/mildly-supportive-long with contrarian caution - composite +0.22 but a 4h BEARISH DIVERGENCE flagged, RSI 75.7, ADX 82.7, vwap +4.2% = blow-off after a +3.8% 15m spike. Balanced L/S (0.96, bias +0.007 - the one un-crowded name). Prefer fade-the-extension or wait.",
+    "sentiment": "COIN Q2 2026 earnings Jul 30 after close - not in the 24-48h window. JPMorgan reaffirmed Buy (Jul 15, low-weight). Near-term driver is BTC beta (corr 0.64) and crypto sentiment, both mildly improving. No fundamental catalyst to override the bearish 4h divergence inside 48h; sentiment neutral.",
+    "analyst": "Vertical +2.4% spike into 169.44 resistance, wicked-rejected, >4% above VWAP with a flagged 4h bearish divergence - textbook exhaustion. Balanced structure means no flow edge; chase-long or stretched-short both get taken by noise. HOLD; reconsider on a hold above 169.44 (breakout) - rejection confirms the fade.",
+    "portfolio": "COIN - HOLD (size 0): blow-off into resistance; wait for a 169.44 reclaim or a fade toward VWAP."
+  },
+  "timestamp": "2026-07-21T13:04:13.987807+00:00"
+}

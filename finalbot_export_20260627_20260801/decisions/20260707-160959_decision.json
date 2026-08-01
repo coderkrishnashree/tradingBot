@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "SNDK/USDT:USDT",
+  "size": 0.0,
+  "entry": 1578.57,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Coiling higher-lows (1491>1535>1560) under 1585 resistance on drying volume; expect chop between 1548 and 1585 next 2-4 bars, then a resolution \u2014 a reclaim of 1585 opens a squeeze toward 1660, a loss of 1548/1491 resumes the flush toward 1450.",
+  "expectancy_note": "Fresh short at -7.75% VWAP into RSI-13 + bid-heavy book = negative expectancy, violent snapback risk; counter-trend long lacks a confirmed reclaim. No edge either way now \u2014 HOLD is highest EV.",
+  "rationale": "SNDK just capitulated -14% into 1491 support (RSI 13, %B -0.01, 7.75% below VWAP) and is now stabilizing on higher-lows with drying volume and a +0.32 bid-heavy book \u2014 the worst spot to short and an unconfirmed spot to catch. Funding only mildly long-crowded (+0.0009), no clean squeeze fuel yet. Wait for the market to pick a side: 1585 confirms the squeeze, 1491 confirms continuation.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 1491.0,
+    "expires_min": 240,
+    "note": "Losing the 1491 capitulation low proves seller exhaustion failed and reopens the downtrend for a lower-risk short toward 1450."
+  },
+  "transcript": {
+    "macro": "RISK-OFF / semis-led unwind \u2014 memory-glut scare. SNDK (1579): epicenter, -14% one day, -20.7% RS, RSI 13 extreme oversold, ATR 4.4%. Trend fully down but stretched; violent mean-reversion risk. Smallest size.",
+    "sentiment": "SNDK the story stock \u2014 up ~850% YTD, down hard again today (RSI 13, ATR 4.4%). NAND/AI memory narrative souring on Samsung's warning. Momentum violently bearish but extremely oversold and headline-driven \u2014 squeeze risk both ways.",
+    "analyst": "Post-capitulation stabilization: waterfall into 1491 then higher-lows (1499/1535/1546/1548/1560/1566) on collapsing volume. Shorting an RSI-13, VWAP -7.75% flush into a bid-heavy book is negative expectancy with extreme squeeze risk; catching the knife long has no confirmed reclaim. HOLD with triggers at 1585 (squeeze long) and 1491 (breakdown short).",
+    "portfolio": "SNDK: HOLD (0.60) \u2014 epicenter chop; 1585 = squeeze long, 1491 break = short."
+  },
+  "timestamp": "2026-07-07T16:09:59.726858+00:00"
+}

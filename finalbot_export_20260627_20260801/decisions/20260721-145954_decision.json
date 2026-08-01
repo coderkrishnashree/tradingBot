@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "XAUT/USDT:USDT",
+  "size": 0.0,
+  "entry": 4066.4,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.55,
+  "playbook": "none",
+  "forecast": "Price stalls in the 4060-4070 zone below 4094.6 resistance; likely chop with a mild fade risk back toward 4044-4052 as the crowded-long/bearish-divergence unwinds over the next 2-6 bars. No clean edge either way.",
+  "expectancy_note": "No entry clears R:R>=1.5 to a close TP1: long is extended (bb%b 1.08, stoch 88, +1.05% VWAP) into resistance and max-crowded (L/S 2.60); short lacks a confirmed rejection and would chase a live bounce in an ADX-35 uptrend. p(win) on either is ~50/50 \u2014 HOLD is highest expectancy.",
+  "rationale": "XAUT is stretched (RSI 67-71, above upper Bollinger, stoch 88, bearish divergence) and max-crowded long (L/S 2.60, structure_bias -0.30) against softening macro (firmer DXY, 30Y 4.90%, Mideast de-escalation) \u2014 a classic fade setup, but price just V-recovered off 4044 back to 4066 with no confirmed rejection at 4094.6, so a short here chases a live bounce. A long is buying the extended top into resistance. Neither offers 1.5R to a realistic first exit; wait for either a clean rejection at resistance or a range break.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 4094.6,
+    "expires_min": 240,
+    "note": "A decisive push through 4094.6 resistance would break the consolidation top and validate a fresh breakout long, flipping the fade thesis."
+  },
+  "transcript": {
+    "macro": "Regime RISK-ON but fragile, headline-driven/gappy, tech earnings week. XAUT gold spot ~$4,040-4,050, +0.3% today but DOWN ~4% on the month \u2014 narrative shifted from breakout to defensive consolidation. Headwinds: 30Y yield 4.90%, 10Y real yield ~1.9%, firmer DXY, Mideast de-escalation cutting safe-haven bid. Positioning stretched: L/S 2.60 (max-crowded long), stoch 88, bb_pctb 1.08, bearish divergence. Smaller size / fade-risk.",
+    "sentiment": "Neutral-to-cautious near term. Gold consolidating $4,000-4,070 after pullback from ~$4,200. Dominant catalyst FOMC July 29 (outside 48h, ~85% priced hold). No fresh shock inside 48h; Mideast tension a lingering not-new safe-haven bid. Near-term news NEUTRAL, momentum-driven not catalyst-driven.",
+    "analyst": "XAUT stretched and max-crowded long against softening macro \u2014 classic fade setup, but price V-recovered off 4044 back to 4066 with no confirmed rejection at 4094.6, so a short chases a live bounce and a long buys the extended top into resistance. Neither offers 1.5R. HOLD; reconsider on a decisive break above 4094.6.",
+    "portfolio": "XAUT/USDT:USDT \u2014 HOLD (conf 0.55): stretched, crowded-long, no 1.5R edge either way; wait for resistance break or clean rejection."
+  },
+  "timestamp": "2026-07-21T14:59:54.554143+00:00"
+}

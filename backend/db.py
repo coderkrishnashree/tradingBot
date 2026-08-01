@@ -115,6 +115,27 @@ def init_db():
                 "INSERT INTO settings (key, value) VALUES (?, ?)",
                 ("trading_config", json.dumps(config.DEFAULT_TRADING_CONFIG)),
             )
+        # --- One-time tuning migration (2026-08-01 losing-month fixes) ------
+        # Fee churn was 19 of the month's 32.6 USDT net loss: turn maker
+        # entries ON, add a per-symbol cooldown, and lift the auto-trade
+        # confidence floor back to 40. Runs once; the UI stays in control
+        # afterwards (re-saving config keeps whatever the user sets).
+        cur = conn.execute("SELECT value FROM settings WHERE key='migration_2026_08_01'")
+        if cur.fetchone() is None:
+            row = conn.execute("SELECT value FROM settings WHERE key='trading_config'").fetchone()
+            if row:
+                try:
+                    cfg = json.loads(row["value"])
+                    cfg["maker_entries"] = True
+                    cfg["min_minutes_between_trades"] = max(
+                        45.0, float(cfg.get("min_minutes_between_trades") or 0))
+                    cfg["auto_trade_confidence"] = max(
+                        40.0, float(cfg.get("auto_trade_confidence") or 0))
+                    conn.execute("UPDATE settings SET value=? WHERE key='trading_config'",
+                                 (json.dumps(cfg),))
+                except Exception:
+                    pass
+            conn.execute("INSERT INTO settings (key, value) VALUES ('migration_2026_08_01', 'done')")
 
 
 # --- settings ---------------------------------------------------------------
@@ -267,6 +288,14 @@ def close_trade_feature(row_id: int, pnl: float, closed_at: str | None = None):
             "UPDATE trade_features SET outcome=?, pnl=?, closed_at=? WHERE id=?",
             ("win" if pnl > 0 else "loss", pnl, closed_at or _now(), row_id),
         )
+
+
+def delete_trade_feature(row_id: int):
+    """Remove a feature snapshot that never became a real trade (entry limit
+    expired unfilled). Leaving these as 'open' forever was starving the learner:
+    100 of 176 rows were stale, so it trained on barely half the real closes."""
+    with get_conn() as conn:
+        conn.execute("DELETE FROM trade_features WHERE id=? AND outcome IS NULL", (row_id,))
 
 
 def closed_trade_features(limit: int = 500, mode: str | None = None) -> list[dict]:

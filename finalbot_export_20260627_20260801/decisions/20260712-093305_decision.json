@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "TSLA/USDT:USDT",
+  "size": 0.0,
+  "entry": 409.18,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.4,
+  "playbook": "none",
+  "forecast": "Weekend coil continues in the 408.4-409.7 range for the next several bars; no clean directional resolution until US cash reopens or a level breaks. Bias is a slow drift, not an impulse.",
+  "expectancy_note": "No edge: weak long composite (47%) directly opposed by a heavily offered book (-0.71); LTF (15m/1h/5m) all flat = no momentum. Long here chases +1.07% above VWAP into sellers on thin tape. p(win) ~0.45, sub-1.5 R:R to first stall. HOLD beats a low-quality chase.",
+  "rationale": "Composite leans long on 4h/30m strength but 15m/1h/5m are flat and the orderbook is -0.71 offered (structure_bias -0.41) - the classic long-price/offered-book conflict flagged by macro. Price is coiling in a 1-point weekend range already +1.07% above VWAP with RSI 60, so a market long is a chase with no LTF confirmation and poor R:R (resistance 420 far, but realistic flush target is VWAP ~405/support 391). Account learner shows the trend playbook bleeding (44% win, -2.89 avg). Thin, gappy weekend tape with US cash closed argues for no size until price proves direction.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 410.5,
+    "expires_min": 360,
+    "note": "Reclaiming and holding above the coil high 410.5 absorbs the offered book and confirms the 4h uptrend resuming toward 420 - that flips this to a long."
+  },
+  "transcript": {
+    "macro": "Regime MIXED/risk-cautious, choppy. Tokenized equities thin/gappy over the weekend (US cash closed) -> orderbook low-confidence, size down. TSLA composite LONG +0.42 but structure_bias -0.41 with orderbook -0.71 = CONFLICT (price wants up, book offered). Earnings Jul 22 (outside 48h). Smaller-than-normal size.",
+    "sentiment": "TSLA mixed: Q2 deliveries beat (480,126, +25% YoY, ~18% above est) but stock FELL ~7.5% on the print (sell-the-news). Q2 earnings Wed Jul 22 after close - just outside 48h, positioning may build. No fresh <=48h shock. Weekend thin off-hours tape can gap Monday.",
+    "analyst": "Genuine conflict: weak long composite vs heavily offered book, all LTF flat. Price coiling +1.07% above VWAP with RSI 60 - a market long chases into sellers with poor R:R; no short either without an 408 break. NO valid entry.",
+    "portfolio": "HOLD TSLA/USDT:USDT (conf 0.40) - long-vs-offered-book conflict; long trigger armed above 410.5."
+  },
+  "timestamp": "2026-07-12T09:33:05.538340+00:00"
+}

@@ -1,0 +1,27 @@
+{
+  "symbol": "EWY/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.6,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "none",
+  "expectancy_note": "Oversold bounce edge (p~0.55) is real but a binary Samsung Q2 print TODAY can gap through any ATR stop both ways; skip until price confirms, event risk swamps the mean-reversion edge.",
+  "rationale": "EWY is a tokenized equity so crypto structure is noise; the read is technicals + event. Deeply oversold (RSI 34.7, %B -0.34 below lower band, stoch 12, 2.5% below VWAP, ADX 7 = chop) \u2014 textbook mean-reversion long, and RS -10.9% is its own weakness not BTC beta. But Samsung Q2 preliminary earnings drop TODAY (Samsung+SK Hynix ~half the ETF), expectations stretched (KOSPI -1.5% on foreign selling into the print), so gap risk both ways makes a defined-risk long uninvestable now and the 4h bearish divergence argues against catching the knife pre-event. Wait: a post-print reclaim of the VWAP zone confirms the bounce with far less gap uncertainty, while a break of 174.61 support kills the bull thesis.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 189.4,
+    "expires_min": 240,
+    "note": "Reclaiming the VWAP zone post-Samsung print confirms the oversold bounce is underway and lets me enter the mean-reversion long without pricing a blind gap."
+  },
+  "transcript": {
+    "macro": "2026-07-07 RISK-ON/NEUTRAL. DXY soft = tailwind for EM/Korea. EWY best macro STORY: KOSPI +86% YTD on memory-chip supercycle. BUT scan weak now: RSI 34.7, below-band, short all TFs, RS -10.9%. Structural bull, near-term oversold -> mean-reversion long candidate. FOMC minutes Wed July 8 = event risk.",
+    "sentiment": "EWY HARD CATALYST TODAY. Samsung Q2 preliminary earnings release July 7 \u2014 Samsung+SK Hynix ~half of EWY weight. Op profit forecast ~86-90T KRW (~17-18x y/y surge on AI-memory). SK Hynix Nasdaq ADR listing July 10. KOSPI fell >1.5% July 6 on foreign selling ahead of print; HIGH GAP RISK BOTH WAYS.",
+    "analyst": "Deeply oversold (RSI 34.7, %B -0.34, stoch 12, -2.5% VWAP, ADX 7 chop) = textbook mean-reversion long, but Samsung Q2 preliminary print TODAY is a genuine binary that can gap through any ATR stop; 4h bearish divergence argues against pre-event knife-catch. HOLD; reconsider on post-print VWAP reclaim above 189.4; 174.61 break kills the thesis.",
+    "portfolio": "HOLD EWY \u2014 oversold but binary Samsung print today swamps the mean-reversion edge; reconsider armed above 189.4 post-print."
+  },
+  "timestamp": "2026-07-07T00:57:48.771697+00:00"
+}

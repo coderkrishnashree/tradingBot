@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "EWJ/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Illiquid weekend drift keeps EWJ pinned 92.1-92.5 into Monday; real direction only prints on the cash-open gap. Base case: chop below 93.34 resistance, dominant risk a Monday gap either way.",
+  "expectancy_note": "Long is capped by 93.34 resistance (~1.1% up) vs Monday gap-down tail = negative expectancy; p(win) on a chase here ~0.45, R:R <1.2 to a capped target. HOLD beats both a chase-long and a countertrend short.",
+  "rationale": "EWJ is a tokenized equity trading on a dead Sunday perp (OI ~2.5k, mostly 0.0-volume bars); RSI 68.6 / %B 0.956 / ADX 90.7 mean it is extended and pinned at the top band just under 93.34 resistance, with structure_bias -0.18 (crowded-long 1.40, orderbook -0.20 against). A market-long here is exactly the 'chase into thin, extended tape' pattern that gets stopped, and the honest hazard is a Monday-open gap after Friday's risk-off close (Nasdaq -2% wk, FOMC 7/29, heavy earnings). No edge in either direction until real liquidity returns, so flat is highest expectancy; size 0.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 93.34,
+    "expires_min": 240,
+    "note": "A clean break and hold above 93.34 resistance on Monday's real volume confirms the exporter-tailwind long and clears the extended-in-thin-tape objection; losing 91.95 instead would open a mean-revert short toward 89.53."
+  },
+  "transcript": {
+    "macro": "Regime MIXED-to-HOSTILE. Sunday 2026-07-26, US cash markets closed -> tokenized perps thin/gappy weekend synthetic; Monday-open gap risk dominant, size down. Fri 7/24: Nasdaq -0.64%/-2% week, risk-off-leaning. Heavy earnings week 7/29-7/31. DXY firm. EWJ $92.31 (Japan ETF): composite long but structure_bias -0.18 (long/short 1.40 crowded-long, orderbook -0.20 against), RSI 68.6, ADX 90.7 = extended, volume near-dead. A long here is chasing an extended move on no liquidity. Environment HOSTILE for fresh long / thin.",
+    "sentiment": "No idiosyncratic catalyst inside strict 24-48h. EWJ constructive tone: Nikkei rebounded hard (+3.3% 7/22, reclaimed 67k, fresh record-high) on stable US semis + weak yen (~163) exporter tailwind; offsetting BoJ rate-hike repricing (2yr JGB ~1.475%, highest since 1995) slow-burn headwind. No imminent binary; mildly bullish/supportive of scan's long but thinly-traded perp (OI ~2.5k) that gaps. FOMC 7/29.",
+    "analyst": "Composite says long but this is textbook 'chasing an extended move on no liquidity' - RSI 68.6 / %B 0.956 / ADX 90.7 pinned at the top band under 93.34 resistance (~1.1% up caps the target), structure_bias -0.18 against. A long is capped-upside vs a Monday gap-down tail after Friday's risk-off close; no clean short either into a possible Monday melt-up. HOLD until real liquidity returns; flip to a long only on a clean break/hold above 93.34, or a mean-revert short on losing 91.95.",
+    "portfolio": "EWJ: HOLD (conf 0.60) - chase into thin extended tape has negative EV; wait for the 93.34 break on real volume."
+  },
+  "timestamp": "2026-07-26T13:05:52.416229+00:00"
+}

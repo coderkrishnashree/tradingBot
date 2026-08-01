@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "QQQ/USDT:USDT",
+  "size": 0.0,
+  "entry": 695.01,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Dead Sunday tape: price micro-drifts in a 694.8-695.9 range on near-zero volume into Monday's cash open; no thrust either way until the equity session reprices the Fri semi selloff.",
+  "expectancy_note": "Short p_win_learned only 0.432 (historically loses) and price already in lower third of a squeezed range below VWAP; no edge fading an exhausted micro-move on thin closed-market tape. HOLD beats chasing.",
+  "rationale": "QQQ is comatose on Sunday with US cash CLOSED (range <1pt over 20 bars, ATR 0.43%, volume 0.5-6 units), structure near-neutral (bias -0.02, no crowding), and the learner flags this short signal as a net loser (p_win 0.43). The bearish regime is a slow multi-day headwind, not a 48h catalyst, and price is already below VWAP near the lower band, so a market short here chases a stale move into gap risk with no confirmation. Want Monday's open to either break support 688 with real volume or reclaim VWAP; until then no honest R:R exists.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 688.09,
+    "expires_min": 240,
+    "note": "Losing range-low support 688 on Monday-open volume confirms the regime short with a real catalyst and clean target toward the next leg down."
+  },
+  "transcript": {
+    "macro": "Regime HOSTILE-to-MIXED, risk-off. Sunday 2026-07-19: US cash equities CLOSED, tokenized-stock perps thin/gappy, gap risk into Monday. Fri 7/17 tech selloff: Nasdaq -1.4% (-2.9% wk) on semi rout. Crypto risk-off, Extreme Fear. FOMC July 28-29 (outside window). Funding ~0. QQQ line: direct Nasdaq proxy, structure near-neutral (bias -0.02, L/S 1.02), edge is regime-driven; low ATR/tight range, thin while cash closed.",
+    "sentiment": "QQQ mildly BEARISH into a quiet window. No macro binary inside 48h (FOMC July 29, month-end CPI outside). Hawkish Fed (Chair Warsh), sticky 4.2% inflation - slow headwind not 48h catalyst. Closed cash market = thin tape. Neutral-to-slightly-negative.",
+    "analyst": "Comatose Sunday tape, cash closed (range <1pt/20 bars, ATR 0.43%, volume 0.5-6). Structure near-neutral, learner flags this short as net loser (p_win 0.43). Bearish regime is a slow multi-day headwind not a 48h catalyst; price already below VWAP near lower band - a market short chases a stale move into gap risk with no confirmation. No honest R:R.",
+    "portfolio": "HOLD QQQ - dead closed-market tape, neutral structure, losing short stat; armed short trigger below 688.09."
+  },
+  "timestamp": "2026-07-19T15:42:46.943040+00:00"
+}

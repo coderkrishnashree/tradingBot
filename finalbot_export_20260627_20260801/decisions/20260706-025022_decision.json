@@ -1,0 +1,24 @@
+{
+  "action": "hold",
+  "symbol": "MU/USDT:USDT",
+  "size": 0.0,
+  "entry": 996.67,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.34,
+  "playbook": "none",
+  "rationale": "MU is a tokenized equity, so crypto structure metrics are noise; it LED the semis crash (RS -4.88%, weakest on the board) and is now pinned on support 993.12 at the lower Bollinger band, oversold across every timeframe (RSI 23-36) with bullish divergence and stoch 10.5 \u2014 classic crowded-oversold. Macro flags a US-open (today, post-holiday) gap/bounce as the primary threat to fresh shorts and says fade strength, not breakdowns. There is no valid R:R here: a short at 996 risks an immediate reflex bounce with only 3.5 pts to support, and a long has no confirmation against an ADX 63.5 downtrend. Size 0 \u2014 the highest-expectancy action is to wait.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 992.0,
+    "expires_min": 240,
+    "note": "A decisive break and hold below support 993.12 (past the divergence low) proves the oversold buyers failed and reopens a trend-continuation short away from the level rather than into it."
+  },
+  "transcript": {
+    "macro": "Regime MIXED-to-HOSTILE. US cash reopens Mon Jul 6 after holiday \u2014 gap/repricing, SIZE DOWN. Tech/semis in hard reversal (memory glut, ~$1T wiped, SK Hynix HBM capex-slowdown). Fed hawkish but weak NFP cooled hike bets; rotation OUT of tech/semis; BTC soft, mildly risk-off. MU tilt: HEADWIND / short-supportive but CROWDED-OVERSOLD \u2014 led the crash (~-13% session), RSI ~26.8 regime, weak RS; dead-cat bounce at US open is the primary threat to fresh shorts. Fade strength.",
+    "sentiment": "MU NEUTRAL-to-BEARISH \u2014 already reported (Q3 June 24, beat, guided Q4 ~$50B, record margins). Earnings catalyst SPENT; now trading purely on sector glut tape. Strong fundamentals cushion downside; caught in same selloff. No <=48h binary.",
+    "analyst": "Price sits directly on support 993.12 at the lower BB, oversold across all TFs (RSI 23-36) with bullish divergence, stoch 10.5. Shorting sells the hole into a likely US-open dead-cat bounce (only 3.5 pts to support); longing is countertrend vs ADX 63.5 with no trigger. Both sides negative-EV. HOLD; short on break/hold < 993.",
+    "portfolio": "HOLD MU (conf 0.34) \u2014 crowded-oversold at support, no R:R; re-arm short on break < 993."
+  },
+  "timestamp": "2026-07-06T02:50:22.898344+00:00"
+}

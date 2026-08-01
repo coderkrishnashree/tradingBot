@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "SOL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.4,
+  "playbook": "none",
+  "forecast": "Price is oversold at 75.59 support (15m RSI 21.7, %B below band, 1.8% under VWAP); last bar bounced to 76.56. Most likely a dead-cat bounce toward 77.8-78.2 that fails, OR a clean loss of 75.59 that opens 74-73. No confirmed direction yet.",
+  "expectancy_note": "Short here = chasing into RSI 21 / below-band tape (account's trend-short bucket 44% win, -2.89 avg - the #1 loss pattern); long = knife-catch vs risk-OFF regime. HOLD beats both until 75.59 breaks or VWAP reclaims.",
+  "rationale": "SOL is deeply oversold and stretched below VWAP right at the 75.59 support that just held - exactly the extended condition where an honest short stop gets bounced, and account history proves trend-shorts into this tape lose ~2.9R. A long is a counter-regime knife-catch with crowded longs (L/S 2.47) as overhead supply. Wait: a break of 75.59 gives a clean trend-aligned short; a VWAP reclaim flags the bounce.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 75.59,
+    "expires_min": 240,
+    "note": "Losing the held 75.59 support on volume confirms the waterfall resumes - clean trend/regime-aligned short toward 74-73."
+  },
+  "transcript": {
+    "macro": "2026-07-12 (Sun, US equity/oil underlyings CLOSED -> Mon gap risk). Regime mildly risk-OFF, hawkish Fed (~61-63% Sept HIKE odds), firm dollar, event-heavy. June CPI Tue Jul 14 08:30 ET = dominant <=48h binary. Gold in downtrend (XAU ~$4100, ADX 73, crowded longs L/S 2.66); oil the mirror (WTI ~$73-74 on Hormuz supply premium but longs extremely crowded L/S 4.08 -> squeeze-prone). Crypto soft (BTC chop ~$58-64k, Fear 31) -> SOL/MSTR BTC-beta weak. L/S ratios contrarian-bearish across the book. Bottom line: short bias on equity/gold/crypto-beta names with reduced size + Mon-gap awareness; CL the lone fundamental long but positioning-risky.",
+    "sentiment": "2026-07-12. Whole book short-biased into a hot-button June CPI print Tue Jul 14 08:30 ET (shared <=48h risk). AAPL earnings Jul 30 (outside window). MU fiscal Q3 already reported ~Jun 24 (blowout, catalyst spent, digesting). XAUT bearish, Goldman cut YE target to $4900. EWY chip-driven volatility, tightly corr MU (0.81). CL the only independent live catalyst (Hormuz/US-Iran, two-sided; OPEC+ +188kbpd = bearish structure). MSTR turned net BTC seller Jun29-Jul5, Mizuho cut target; BTC-beta bearish. SOL oversold at 75.6 support, ETF-inflow 'paradox', no hard <=48h catalyst.",
+    "analyst": "SOL is deeply oversold and stretched below VWAP right at the 75.59 support that just held - exactly the extended condition where an honest short stop gets bounced, and account history proves trend-shorts into this tape lose ~2.9R. A long is a counter-regime knife-catch with crowded longs (L/S 2.47) as overhead supply. Wait: a break of 75.59 gives a clean trend-aligned short; a VWAP reclaim flags the bounce. | Forecast: Price is oversold at 75.59 support (15m RSI 21.7, %B below band, 1.8% under VWAP); last bar bounced to 76.56. Most likely a dead-cat bounce toward 77.8-78.2 that fails, OR a clean loss of 75.59 that opens 74-73. No confirmed direction yet. | Short here = chasing into RSI 21 / below-band tape (account's trend-short bucket 44% win, -2.89 avg - the #1 loss pattern); long = knife-catch vs risk-OFF regime. HOLD beats both until 75.59 breaks or VWAP reclaims.",
+    "portfolio": "HOLD - deeply oversold at 75.59 support, no confirmation either way; arm short below 75.59."
+  },
+  "timestamp": "2026-07-12T01:31:33.937601+00:00"
+}

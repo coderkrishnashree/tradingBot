@@ -1,0 +1,28 @@
+{
+  "symbol": "NVDA/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.6,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "none",
+  "forecast": "Price is pinned on the 201.35 support after a 2-bar flush (208->201.7) with selling volume collapsing on the last doji (vol 38 vs 2600). Expect a coil at 201.35-203; a reclaim of ~203.1 opens a mean-reversion bounce toward VWAP ~205.5, while a clean break of 201.35 flushes to new lows ~198.",
+  "expectancy_note": "p(win) too low to enter blind: market-long into RSI-6 knife risks the 201.35 break; late-short into single-digit RSI at support is the account's #1 loss pattern. Waiting for the reclaim converts a coin-flip into a ~1.8R mean-reversion long.",
+  "rationale": "Tokenized equity - crypto funding/OI/LS are noise; this is a live semi-complex flush with RSI single digits on every TF, %B -0.44, 3.1% below VWAP, sitting exactly on 201.35 support. The tape is exhausted (volume dried up on the last doji) but has NOT confirmed a reversal, and FOMC Wed adds gap risk, so a blind long is a falling knife and a fresh short is chasing into support. No confirmed edge in either direction right now, so size 0 and wait for the trigger.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 203.1,
+    "expires_min": 180,
+    "note": "Reclaiming the 203.1 breakdown shelf confirms the flush is exhausting and opens a mean-reversion long toward VWAP ~205.5; below 201.35 instead means continuation to new lows."
+  },
+  "transcript": {
+    "macro": "Semiconductor complex in an ACTIVE intraday flush inside an up-market (NVDA 209->202 on 15m) + confirmed sector bear market (SOX >20% off highs; DeepSeek own-chip story, soft Samsung) = hostile for longs, knife-catch only. Tokenized equity on US cash-session clock -> gappy off-hours. DOMINANT SHARED RISK: FOMC Wed Jul 29.",
+    "sentiment": "NVDA earnings NOT until Aug 26 (no earnings binary now). Sector risk-off; NVDA has shown relative resilience (held ~$197 on selloff days) but sits in a heavy tape.",
+    "analyst": "NVDA 201.74 pinned on support 201.35 after a 2-bar flush 208->201.7; RSI single digits/teens every TF (15m 6.3, 4h 26.4), %B -0.44, -3.1% below VWAP. Last bar a tiny doji (vol 38 vs 2600) = selling exhausted but NO reversal confirmation. Blind long = knife; late short = #1 loss pattern. HOLD; mean-reversion long only on reclaim >203.1.",
+    "portfolio": "NVDA/USDT:USDT - HOLD (conf 0.60): oversold knife at support, unconfirmed; arm bounce long on reclaim >203.1."
+  },
+  "timestamp": "2026-07-27T14:09:07.529940+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "SOL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Price is oversold on LTF (15m/30m RSI ~28), %B 0.138, sitting 1.14 above support 75.59 after a heavy-volume flush; expect a mean-revert bounce toward VWAP/77.3-77.8 over the next 2-4 bars before the trend can resume. Last bar closed green (76.72) confirming a near-term bid.",
+  "expectancy_note": "Short-here R:R fails: reward to 75.59 is ~1.1 vs a needed ~1.4 (1.5xATR) stop; oversold LTF + 2.39 crowded-long squeeze fuel = high counter-bounce risk. Waiting for a VWAP retest short or a support break has far better expectancy than chasing.",
+  "rationale": "Composite is short and structure_bias -0.30 with crowded longs supports a downside lean, but price is already stretched: -1.41% below VWAP, %B near the lower band, LTF RSI ~28, and just 1.14 above support 75.59. Market-shorting into that is the account's proven loser (late short into stretched tape, stopped by the relief bounce). Better expectancy is to short a bounce into VWAP or a confirmed break of 75.59, so I hold and arm the break trigger.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 75.55,
+    "expires_min": 240,
+    "note": "A decisive close below support 75.59 breaks the range floor and opens continuation toward the next leg down, validating a fresh short with a stop back inside the range."
+  },
+  "transcript": {
+    "macro": "RISK-OFF lean; defensive macro (US-Iran, DXY soft, Sep hike odds ~67%). SOL structure_bias -0.30, L/S 2.39 VERY crowded long (contrarian short support), BTC-corr 0.795 (largely BTC-beta) but RS +6.95% outperforming BTC \u2014 lagging short candidate if BTC leads down, but strong RS warns of hardest snap-back on a BTC bounce. Supportive short but watch crowded-long snapback; moderate size. Crypto trades live.",
+    "sentiment": "Risk-cautious; June CPI + Warsh July 14 = dominant 48h binary. SOL catalysts Q3-weighted (Alpenglow, Firedancer, possible spot-ETF staking) \u2014 narrative not dated 48h binary. Fundamentals soft (users 2yr low, TVL -56%). High-beta BTC; beta amplifies any risk-off. Near-term neutral, follows BTC/CPI.",
+    "analyst": "Last 76.73, support 75.59, ATR ~$0.93. VWAP dist -1.41%, %B 0.138 near lower band, 15m/30m RSI ~28 oversold, ADX 37.6 trend. Heavy-volume flush to 76.42 then last 3 bars 76.68->76.56->76.72 (closed green). Shorting here fails R:R (reward to 75.59 ~1.1 vs ~1.4 stop) into oversold LTF + crowded-long squeeze fuel. HOLD, armed to short a break below 75.55 or a VWAP-retest rejection.",
+    "portfolio": "SOL \u2014 HOLD, conf 0.50: downside lean intact but price oversold just above support; armed to short a 75.55 break."
+  },
+  "timestamp": "2026-07-12T23:04:50.826755+00:00"
+}

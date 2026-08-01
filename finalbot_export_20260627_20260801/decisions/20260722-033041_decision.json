@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "XAUT/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.62,
+  "playbook": "none",
+  "forecast": "Price pinned at resistance 4131.7 with %B>1 and stoch 98.8; likely stall/rejection back toward 4110-4090 VWAP zone, or a clean breakout only if 4131.7 is reclaimed and held.",
+  "expectancy_note": "Long here (p_win ~0.35): buying %B>1 / stoch 98.8 into hard resistance with L/S 2.60 crowded-long = negative expectancy. Short lacks a rejection candle (ADX 62, higher highs bar-by-bar) = knife-catch. HOLD is highest expectancy.",
+  "rationale": "XAUT just ran vertically from 4073 to 4130 into resistance 4131.7, printing RSI 86 on 15m/30m/1h, stoch 98.8, bb_pctb 1.21 (above the band) and vwap +2.23% - maximally extended into the wall. Positioning is the most crowded-long on the board (L/S 2.60, structure_bias -0.31) with a bearish 4h divergence, so both a blind chase-long and an unconfirmed short are negative-expectancy. No trade with acceptable R:R exists at this exact price; I wait for the level to resolve.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 4132.0,
+    "expires_min": 180,
+    "note": "A 15m close and hold above 4131.7 confirms a genuine breakout (measured move ~4150-4160), turning the setup into a valid retest-long rather than a chase into the wall."
+  },
+  "transcript": {
+    "macro": "Regime RISK-ON but late-stage/extended and crowded; rising yields + US-Iran energy risk = reversal catalyst. XAUT MIXED/two-sided: fresh 15m breakout to ~$4,130 on vol/bbw expansion, spot gold ~$4,080-4,100 holding >$4,000 on Iran safe-haven bid; softer DXY supportive. Against: near 9-month low, rising-yields headwind, MOST crowded-long on board (L/S 2.60, structure_bias -0.31), bearish 4h divergence, RSI 75-88 all TFs, stoch 98.8. Size down.",
+    "sentiment": "XAUT soft/heavy: gold down ~28% from Jan record; rate-cut hopes flipped - ~85% chance Fed HOLDS in July, ~47% chance of a HIKE in Sept. GS cut year-end target to $4,900, warns $4,400 on a hike. No <=48h gold-specific binary (no FOMC/CPI inside 48h). ~0.86 corr with XAG. Neutral-to-bearish backdrop, no imminent catalyst.",
+    "analyst": "Vertical run 4073->4130 into resistance 4131.7; RSI 86 (15m/30m/1h), stoch 98.8, bb%B 1.21 above band, +2.23% VWAP - maxed into the wall with most-crowded-long positioning and bearish 4h div. Blind chase-long and unconfirmed short both negative-EV. HOLD; reconsider breakout-long only on 15m close/hold above 4132.",
+    "portfolio": "XAUT: HOLD (conf 0.62) - maximally extended into resistance, crowded long; wait for confirmed reclaim above 4132 or a rejection to fade."
+  },
+  "timestamp": "2026-07-22T03:30:41.192175+00:00"
+}

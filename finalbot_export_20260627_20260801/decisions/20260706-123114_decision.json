@@ -1,0 +1,27 @@
+{
+  "action": "hold",
+  "symbol": "NVDA/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.55,
+  "playbook": "none",
+  "expectancy_note": "Short scores (1h RSI 22, 4h -0.65) are stale illiquid pre-open pricing vs a strongly-bid semis tape into 13:30 UTC open; both a short (fade into strength) and a long (no reclaim yet, gappy print) are low-p here. Waiting for the open dominates.",
+  "rationale": "NVDA is a QQQ-beta equity perp (0.81 QQQ corr, 0.34 BTC) scanned at 12:27 UTC, ~1h before US cash open, on a thin book (OI 21.6k, ATR only 0.44%). The bearish composite is manufactured by 1h/4h oversold prints (RSI 22 on 1h) that reflect overnight illiquidity, while 5m/15m/30m are already flat-to-up and SMH +2.4%/NDX +1% argue for an upside reprice at the open. Crowded-long positioning (L/S 2.03, elevated funding) is a real caution against fresh longs, but shorting at RSI 22 into a strong tape is a donation. No trade with edge until the open resolves direction inside the 190.16-200.68 range.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 196.8,
+    "expires_min": 150,
+    "note": "Reclaiming/holding above VWAP into the cash open confirms the bullish semis reprice and opens a trend-long toward 200.68 resistance."
+  },
+  "transcript": {
+    "macro": "NVDA/USDT \u2014 tokenized equity perp. Thin book, small OI ~21.6k. Funding positive/elevated (bias -0.55), long/short 2.03 crowded long (contrarian bearish). Order book bid-skewed. Net structure_bias -0.43 short-leaning on positioning. BUT equity backdrop bullish and just turned up: semis rebounding hard (SMH +2.4%, NDX futs +1%), NVDA Strong-Buy consensus, Blackwell sold out through mid-2026, rate-cut path reinforced by soft NFP (57k vs 117k est). Underlying fundamentals + this-session tape favor LONGS. CRITICAL: scan is 12:27 UTC, BEFORE US cash open (13:30 UTC); perp gapping/thin, 1h/4h short scores (RSI 22 on 1h) partly stale/illiquid overnight pricing. Expect repricing at open toward strong semis tape. NVDA barely tracks BTC (0.34), really a QQQ/semis play (QQQ corr 0.81). VERDICT: NEUTRAL/conflicted \u2014 biggest risk is a liquidity gap at open repricing against a stale short; smaller size / wait for cash open.",
+    "sentiment": "NVDA (tokenized equity perp) \u2014 MIXED, no near-term catalyst. Treat as equity. Constructive longer-term but directionless this week: big binary \u2014 Q2 FY2027 earnings \u2014 dated Aug 26 2026 (after close), well outside 48h. Guidance strong (Q2 rev ~$91.0B \u00b12%, ~75% GM). China export picture a tailwind: BIS now approving H200/similar to vetted China customers case-by-case, removing old H20 ban overhang. US index tone drives it more than any headline; off-hours perp pricing thin/gappy. No dated \u226448h catalyst; near-term news NEUTRAL. VERDICT: Neutral \u2014 trade as index-beta short not a news short.",
+    "analyst": "Classic conflict/trap. Short scores driven by 1h/4h with RSI 22 on 1h \u2014 deeply oversold pre-open illiquid pricing, exactly the stale-print flag. 5m/15m/30m flat-to-up (freshest ticks stabilizing). Equity/semis backdrop strongly bid into the 13:30 UTC open (SMH +2.4%, NDX +1%); NVDA is really a QQQ play (0.81 corr). Chasing a short at RSI 22 into a bullish repricing open is the donation trade. ATR only 0.44%, range 190.16-200.68 intact. Longing here has no confirmation and pre-open print is unreliable. Best expectancy is to WAIT for the cash open: VWAP/mid-range reclaim confirms bullish reprice; losing 190.16 validates bears. HOLD, arm long trigger above 196.8 (150 min).",
+    "portfolio": "NVDA: HOLD (conf 0.55) \u2014 conflicted pre-open perp; short prints are stale illiquid, semis bid into the open; wait for the 13:30 UTC open, watch a VWAP reclaim above 196.8."
+  },
+  "timestamp": "2026-07-06T12:31:14.312959+00:00"
+}

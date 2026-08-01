@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "QQQ/USDT:USDT",
+  "size": 0.0,
+  "entry": 700.0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.62,
+  "playbook": "none",
+  "forecast": "Thin off-hours grind: price chops 696.4-700.4 into Monday US open; the low-volume recovery to 700 is decelerating and likely stalls, fading toward 697-698 before any directional resolution needs the US session / Wed earnings.",
+  "expectancy_note": "No side clears 1.5 R:R: long is a chase into daily bb_pctb 0.96 / RSI 70 / stoch 85 during a semis selloff; short fights ADX 51.8 uptrend on a 0.27% ATR with support at 688 close by. p(win) ~0.5 either way = negative expectancy after costs.",
+  "rationale": "QQQ is pinned to the top of its range (700 vs 727.69 resistance) but daily-overbought and a -14.7% RS laggard in a RISK-OFF chip-drawdown macro; last bars are tiny on collapsing off-hours volume (last close 700.0 on 0.03 vol) \u2014 no conviction, gappy liquidity. Longing overbought QQQ is the account's #1 loss pattern; shorting into a 51.8-ADX uptrend with only 0.27% ATR gives no room for 1.5 R:R before 688 support. With Alphabet + Tesla earnings Wed set to gap the index, the honest edge is to wait for a real trigger. Size 0.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 696.1,
+    "expires_min": 240,
+    "note": "Losing the intraday 696.4 low breaks the low-volume recovery and opens a clean measured move toward 688 support \u2014 a valid short trigger with real R:R."
+  },
+  "transcript": {
+    "macro": "Broad regime RISK-OFF/defensive: semis-led equity selloff (SOX -20% off peak). Monday futures modestly firm (Nasdaq +0.4%, ~68% up-open) but counter-trend. Long into an overbought equity index during a chip drawdown is a chase. Rates easing, DXY neutral.",
+    "sentiment": "QQQ neutral-to-cautious, EVENT-HEAVY week. Fell -1.5% Fri (3rd straight down day), compressing in a symmetrical triangle off June ~$755 peak. Mega-cap earnings week: Alphabet (Wed Jul 22 AMC) and Tesla report \u2014 top holdings, will set semis/AI tone. Expect chop/positioning into Wed, then a directional gap. Caution/two-way risk, not a clean long.",
+    "analyst": "Daily-overbought (bb_pctb 0.96, RSI 70, stoch 85), ADX 51.8 uptrend, ATR% 0.27 (tight). Thin off-hours grind back to 700 on collapsing volume. Long = chase (account's #1 loss pattern); short has no R:R room before 688 support. NO-TRADE; wait for breakout above 700 shelf or loss of 696.4 low.",
+    "portfolio": "HOLD QQQ \u2014 overbought RS laggard on thin off-hours tape into event-heavy earnings week; no edge either side."
+  },
+  "timestamp": "2026-07-20T09:44:49.072811+00:00"
+}

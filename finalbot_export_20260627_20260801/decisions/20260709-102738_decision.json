@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "HOOD/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.58,
+  "playbook": "none",
+  "forecast": "Choppy 114.2-114.9 into the US open; on a risk-off gap HOOD (highest-beta name) likely flushes toward VWAP/113.5 first, on a hold it reclaims 114.9 and extends toward 116.3.",
+  "expectancy_note": "p(win) ~0.5 on a mid-range long into hostile open; TP1 116.3 vs stop 113.6 is only ~1.7R and a routine flush hits stop first.",
+  "rationale": "HOOD's 4h trend is strong-long (score 0.868) and it's the clear group RS leader (+7.11%), but macro is HOSTILE for fresh longs into the July 9 US open (10Y 4-week high, hyperscalers sold, futures lower) and HOOD is the highest-beta risk-proxy (0.635 BTC, 0.81 COIN corr) with the group crowded-long. Price sits mid-range (114.6 between 99.45/120.12) with no clean level to lean on. HOLD and wait for a 114.9 reclaim or a flush into VWAP support.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 114.95,
+    "expires_min": 240,
+    "note": "Reclaim + hold above 114.89 through the US open flips this to a trend-continuation long toward 116.3/120.1."
+  },
+  "transcript": {
+    "macro": "Regime MIXED tilting HOSTILE for fresh longs into July 9 US open. 10Y ~4.58% (4wk high), inflation jitters, oil bid on US-Iran tension. AI hyperscalers sold Jul 8. Catalyst cluster Jul 14-16 (CPI/PPI/retail). Crowded-long across group; funding ~0. HOOD: last 114.61, L/S 1.30, OB +0.02, structure_bias -0.085 (least stretched), BTC corr 0.635 (highest), rel-strength +7.11% (leader). Earnings Jul 29 (out of window).",
+    "sentiment": "Tech tape cautious-to-heavy; June CPI is THE <=48h binary. HOOD: constructive tone, strongest RS (+7%), NO earnings until Jul 29. High-beta crypto/risk proxy (0.81 COIN, 0.64 BTC) driven by BTC+CPI not company news. Near-term neutral-to-supportive, macro/beta-driven.",
+    "analyst": "4h uptrend strong-long (0.868) and group RS leader, but buying highest-beta name into a risk-off US open with group crowded-long is a chase. Mid-range location (114.6 vs 99.45/120.12), no clean level to lean on. TP1 116.3 vs stop 113.6 only ~1.7R and a routine open-flush likely hits stop first. Wait for reclaim of 114.9 to confirm 4h trend resumption, or let a flush to VWAP/support come.",
+    "portfolio": "HOOD: HOLD (0.58) \u2014 strong 4h trend but no clean entry into hostile open; wait for 114.9 reclaim."
+  },
+  "timestamp": "2026-07-09T10:27:38.255556+00:00"
+}

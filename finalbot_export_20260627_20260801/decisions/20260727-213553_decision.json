@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "CL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price based at 81.68-81.79 and coiling on dried-up volume; expect a relief bounce toward the 83.0-83.5 VWAP/broken-support zone where the bearish OPEC+/DXY structure should reassert \u2014 that retest is the short entry, not this stretched low.",
+  "expectancy_note": "Shorting here (RSI20, -4.4% below VWAP, L/S balanced with no crowd to squeeze) is the account's #1 loss pattern \u2014 a routine bounce hits any honest stop first. No clean long either (counter-trend). Best expectancy = wait for the rally to short into.",
+  "rationale": "CL just crashed 7% and is deeply oversold (4h RSI 20, stoch 5.7, %B 0.07, -4.43% from VWAP) \u2014 chasing fresh lows short is negative expectancy given elevated squeeze risk and balanced positioning (L/S 0.914). Structural bias stays bearish (OPEC+ adding supply, DXY 13-mo high, FOMC Wed), so a long is only a fade with no trend backing. The right trade is to short a bounce into VWAP/broken support near 83.0-83.5, which hasn't materialized yet, so HOLD.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 83.2,
+    "expires_min": 360,
+    "note": "A bounce to the VWAP / broken-support zone puts price at a favorable short-on-rally entry with the bearish OPEC+/DXY trend, instead of chasing the stretched low."
+  },
+  "transcript": {
+    "macro": "Regime mildly risk-on; ~7% oil crash on US-Iran de-escalation + Hormuz reopening; DXY softer. CL ~$82 bearish momentum, RSI 20 (4h) deeply oversold, bounce/squeeze risk elevated after one-way move; no crowded positioning (L/S 0.91). Favor shorts on rallies, not fresh lows.",
+    "sentiment": "DESK-WIDE FOMC Wed Jul 29 hawkish hold, DXY 13-mo high (bearish commodities). CL data conflict/high vol: ~-8.7% drop to ~$82.6 Jul 27 vs others $88-92+ on Houthi/Hormuz fear. OPEC+ adding supply (5th monthly hike), meets Aug 2 (likely +188k bpd) \u2014 bearish structurally. Two-sided.",
+    "analyst": "Crashed 7%, deeply oversold (RSI 20, stoch 5.7, %B 0.07, -4.43% from VWAP), based ~81.68 on dried volume. Shorting fresh lows = #1 loss pattern (squeeze risk, balanced L/S). Long = counter-trend fade. Wait to short a bounce into 83.0-83.5.",
+    "portfolio": "CL: HOLD (conf 0.60) \u2014 oversold post-crash, short the bounce not the low."
+  },
+  "timestamp": "2026-07-27T21:35:53.808842+00:00"
+}

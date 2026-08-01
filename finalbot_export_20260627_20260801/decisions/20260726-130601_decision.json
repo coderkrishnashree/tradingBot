@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "NVDA/USDT:USDT",
+  "size": 0.0,
+  "entry": 208.0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Low-volume weekend drift keeps NVDA pinned 207.5-208.9 around VWAP; no impulse either way until Monday cash open. Near-term 5m RSI 14.8 means the next 2-4 bars more likely see a small bounce back toward 208.4 than a clean breakdown.",
+  "expectancy_note": "No edge: short entry at VWAP with 5m RSI 14.8 (washed out) invites a stop-hunting bounce; long fights a risk-off/semis-fading tape and crowded longs. p(win) either way ~0.5, negative expectancy after weekend gap risk.",
+  "rationale": "NVDA is coiling (bb_width 1.88%, %B 0.476) right at VWAP (-0.18%) with near-term momentum already washed out (5m RSI 14.8) - the exact 'don't chase the drift' setup. The composite short has ADX 95 backing but no clean pullback entry, positive RS +5.13% works against a short, and the account's short book is losing (0.47 win / -0.78 avg). Weekend thinness plus Monday gap risk make any entry a coin flip; HOLD is the highest-expectancy call and size stays 0.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 201.93,
+    "expires_min": 240,
+    "note": "Losing the 4h support box confirms the ADX-95 short with real downside room, turning the drift into a tradable breakdown; until then it's chop at VWAP."
+  },
+  "transcript": {
+    "macro": "Regime MIXED-to-HOSTILE. Sunday 2026-07-26, US cash markets closed -> tokenized perps thin/gappy; Monday-open gap risk dominant, size down. Fri 7/24: Nasdaq -0.64%/-2% week, semis faded Friday; risk-off-leaning (AI-capex anxiety). Heavy earnings week 7/29-7/31. NVDA $208: composite short, structure_bias -0.134 (long/short 1.61 crowded-long), RS +5.13% (leading), low BTC corr 0.184 (own equity story). Own earnings NOT until 8/26 (out of horizon) but chip-sentiment is Nasdaq's swing factor and semis faded Friday. MIXED, leans SHORT.",
+    "sentiment": "NVDA neutral on idiosyncratic news, no imminent binary. Own earnings 8/26 (well outside window). Nearer read-through: MSFT earnings Wed 7/29 (NVDA's largest customer) - indirect signal, 3 days out. Recent flow positive (BofA Buy 7/8) but long-horizon. No <=48h catalyst -> scan's short is a technical/tape trade, not news-driven.",
+    "analyst": "Coiling (bb_width 1.88%, %B 0.476) right at VWAP (-0.18%) with near-term momentum washed out (5m RSI 14.8) - the exact 'don't chase the drift' setup. Composite short has ADX 95 backing but no clean pullback entry; positive RS +5.13% works against a short and the account's short book is losing (0.47/-0.78). Weekend thinness + Monday gap risk make any entry a coin flip. HOLD; a decisive loss of the 201.93 support box confirms the ADX-95 short with real downside room.",
+    "portfolio": "NVDA: HOLD (conf 0.50) - coiling at VWAP with no clean edge; arm a short on a break below 201.93."
+  },
+  "timestamp": "2026-07-26T13:06:01.442985+00:00"
+}

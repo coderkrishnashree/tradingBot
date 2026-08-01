@@ -1,0 +1,28 @@
+{
+  "symbol": "META/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.5,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "none",
+  "forecast": "Thin-weekend bounce just ripped 638.8->641.3 with 5m RSI 91.7; expect chop/mean-revert in the 636-645 band next few bars, not a clean directional leg - likely a fade of this spike back toward 638 before higher-TF downtrend can resume.",
+  "expectancy_note": "Short = chasing a fresh squeeze at 4h/1h RSI 26 oversold into a +9.9% relative-strength name on a closed/thin market = the account's exact late-short loss pattern; long = fighting ADX 74 + risk-off with 5m RSI 91.7 already stretched. Neither clears R:R 1.5.",
+  "rationale": "META higher TFs are in a strong downtrend (ADX 74, 1h/4h RSI ~26) but the last three 15m bars ripped +2.5 handles on rising volume with 5m RSI 91.7 - shorting into that is chasing a squeeze at oversold, exactly the loss pattern to avoid, and it is a tokenized equity with US cash closed (thin, Monday gap risk). Composite short conf is only 43 and misaligned (0.87). No 48h binary (earnings Jul 29). Wait for the bounce to fail and structure to resume before committing size.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 636.0,
+    "expires_min": 240,
+    "note": "Losing 636 breaks the bounce base and confirms the ADX-74 downtrend has resumed, giving a clean continuation short toward support 626.46 with the squeeze exhausted."
+  },
+  "transcript": {
+    "macro": "Risk-off, tech/semis selling off. Scan 07:01 UTC weekend - US cash CLOSED, thin/gappy, Monday gap risk. No FOMC/CPI in 72h. Short-favorable but LATE-STAGE, squeeze risk; cut size. META: ADX 74 downtrend BUT last two 15m candles ripped +2 handles on thin volume (RSI 76 on 15m); choppy/thin, MIXED.",
+    "sentiment": "Risk-off tape, crypto Fear. META earnings Wed Jul29 (outside 48h). Recent tape mixed: +15% pop on Meta Compute launch, but Q1 raised 2026 AI capex to $125-145B (spending worry). NEUTRAL-to-slightly-constructive underlying (rel strength +9.9%), which cuts against a clean short.",
+    "analyst": "Higher TFs strong downtrend (ADX 74, RSI ~26) but last three 15m bars ripped +2.5 handles, 5m RSI 91.7 - shorting = chasing a squeeze at oversold. Long fights ADX 74 + risk-off with 5m RSI stretched. Neither clears R:R 1.5. Wait for the bounce to fail below 636.",
+    "portfolio": "HOLD META - fresh squeeze at oversold; re-arm short on loss of 636."
+  },
+  "timestamp": "2026-07-18T07:09:30.118811+00:00"
+}

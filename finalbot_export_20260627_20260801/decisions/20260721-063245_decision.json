@@ -1,0 +1,26 @@
+{
+  "symbol": "GOOGL/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.4,
+  "size": 0.0,
+  "entry": 356.79,
+  "stop_loss": 341.86,
+  "take_profit": 379.97,
+  "playbook": "none",
+  "forecast": "Extended grind at the upper band (357.6 high rejected); into tomorrow's earnings expect chop 354-360, but the real move is the post-print gap that no intraday stop survives \u2014 direction unknowable pre-event.",
+  "expectancy_note": "p(win) ~0.5 either way; no honest R:R exists \u2014 a stop that survives an earnings gap is >5x ATR, so both long and short are negative-expectancy. Flat beats both.",
+  "rationale": "Q2 earnings tomorrow (~4:30pm ET) is a binary INSIDE the 48h window, and price is already extended (RSI 73.4, %B 1.025, VWAP +1.45%) and the single most crowded long in the book (funding +0.000285, L/S 1.66, structure_bias -0.23) on only 36% composite conviction. A fresh long chases stretched crowded tape; a fresh short fights an ADX ~100 uptrend \u2014 both are coin-flips into an event where any honest stop gets gapped through. Size 0: stand aside and let the print resolve.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 360.0,
+    "expires_min": 240,
+    "note": "A decisive reclaim/break of round 360 pre-print shows momentum overpowering the crowding \u2014 re-debate a small with-trend continuation; otherwise stay flat through earnings."
+  },
+  "transcript": {
+    "macro": "Regime MIXED/cautious risk-on, geopolitical overhang; VIX 18.65; equity-perp longs crowded/late. GOOGL: MIXED, crowded long \u2014 strong uptrend (ADX ~100) but positive funding (+0.000285) + L/S 1.66 = most crowded long in the book (structure_bias -0.23); chase risk high, prefer pullback entries.",
+    "sentiment": "GOOGL ~$357, RSI 73-76, ADX ~100. BINARY HIGHEST PRIORITY: Q2 earnings TOMORROW Wed 7/22 ~4:30pm ET (~$116.9B rev / $2.90 EPS; Cloud growth + capex focus) \u2014 INSIDE 48h. Overhang EU \u20ac4.1B Android fine (7/2) + DMA orders, reported Gemini delays. Tilt BULLISH momentum but STAY FLAT/size down into the print.",
+    "analyst": "Extended at upper band with an upper-wick rejection at 357.6; earnings binary tomorrow inside window, crowded long, weak 36% conviction. No honest R:R \u2014 a stop that survives the gap is >5x ATR. HOLD; only a decisive break above 360 pre-print re-opens debate.",
+    "portfolio": "GOOGL: HOLD (0.4) \u2014 flat into tomorrow's earnings binary; no stop survives the gap."
+  },
+  "timestamp": "2026-07-21T06:32:45.971475+00:00"
+}

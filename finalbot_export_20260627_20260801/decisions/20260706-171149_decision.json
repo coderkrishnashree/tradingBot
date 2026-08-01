@@ -1,0 +1,25 @@
+{
+  "symbol": "MSFT/USDT:USDT",
+  "action": "hold",
+  "size": 0.0,
+  "entry": 386.47,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.55,
+  "playbook": "none",
+  "expectancy_note": "Short is directionally right (30m/1h -0.9, structure_bias -0.376, crowded longs) but price sits at %B -0.078 / RSI 28.6 \u2014 shorting the lower band into support 367.68 against a firm risk-on tech tape is negative-expectancy chasing; wait for a fresh break of support or a bounce into VWAP.",
+  "rationale": "MSFT is internally weak and positioned short, but at 386.47 it is pinned below the lower Bollinger band (%B -0.078) with RSI 28.6 and 4h MACD already positive \u2014 a classic oversold/divergence spot where a squeeze is more likely than a clean continuation, and the broad Nasdaq/AI tape is up hard overhead (bounce/squeeze fuel from the 1.92 long/short crowd). Rules explicitly bar selling %B<0.05 in the trade direction, and support at 367.68 is ~4.8% away giving a poor entry. No <=48h catalyst forces a hold-through either way; the clean momentum short only re-arms on a decisive loss of 367.68 support or a rejection back at VWAP/resistance. Sit flat until then.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 367.68,
+    "expires_min": 240,
+    "note": "Losing the 367.68 swing support proves the downtrend resumed with fresh downside room, converting the oversold read into a valid momentum short rather than fading the band."
+  },
+  "transcript": {
+    "macro": "Regime RISK-ON but late-stage/chip-fragile. US equities firm (Nasdaq +1.5%, S&P +0.68%, Dow record), cash market open today. USD/rates a headwind (DXY 1yr+ highs, 2yr >4.2%, hawkish June dot plot). MSFT (386.47): structure_bias -0.376, L/S 1.92 (crowded long, contrarian bearish), orderbook imbalance -0.212, RSI 28.6 (4h) oversold, under VWAP, 30m/1h down. Broad tech tape fights a short; crowded longs = squeeze fuel. No earnings in 48h.",
+    "sentiment": "MSFT: no <=48h binary. Earnings ~Jul 28-29 (unconfirmed), not near-term. Last print strong (EPS $4.27 vs $4.07, Azure +40%). Constructive but stale tone. Live risk is last week's US semi/AI selloff; oversold price is a tech-tape function, not MSFT-specific. Lean NEUTRAL/mildly bearish \u2014 no catalyst to fade the oversold bounce.",
+    "analyst": "Short is directionally right but price is pinned below the lower Bollinger band (%B -0.078, RSI 28.6, 4h MACD positive) \u2014 an oversold/divergence spot where a squeeze is likelier than continuation, with a firm risk-on tech tape overhead. Rules bar selling %B<0.05 in trade direction; support 367.68 is ~4.8% away (poor entry). Momentum short re-arms only on a decisive loss of 367.68 or a rejection into VWAP/resistance. HOLD.",
+    "portfolio": "MSFT: HOLD (0.55) \u2014 right-direction short but oversold at the band into a risk-on tape; no entry until 367.68 breaks."
+  },
+  "timestamp": "2026-07-06T17:11:49.767461+00:00"
+}

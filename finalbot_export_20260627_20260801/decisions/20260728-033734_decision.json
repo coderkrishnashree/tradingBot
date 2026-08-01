@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "EWJ/USDT:USDT",
+  "size": 0.0,
+  "entry": 89.45,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price is basing 89.32-89.45 on near-zero volume, pinned on support 89.12 with 30m RSI 17.6 and %B -0.39 - expect chop/small oversold bounce toward 89.9-90.5 before any clean break; a decisive volume break of 89.12 opens 88.4-88.0.",
+  "expectancy_note": "Short p(win) low here: shorting RSI 17 into support in illiquid tape invites the counter-bounce stop (account's #1 loss pattern); no bullish divergence to justify a long. Waiting for the break beats both.",
+  "rationale": "Structure is genuinely short-tilted (bias -0.362, long-crowded 1.82, heavy offers), but price is already deeply oversold and sitting ON support 89.12, below the lower band, on <1-unit overnight volume with a live BOJ presser (Jul 30-31) in the window - textbook chase-into-exhaustion with treacherous execution. The last 6-7 bars have flattened at support rather than breaking, so momentum has stalled, not extended. HOLD until price either loses 89.12 on real volume (clean continuation short into 88.4/88.0) or reclaims the shelf; size 0 given illiquidity and event risk.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 89.0,
+    "expires_min": 240,
+    "note": "Losing 89.12/89.00 on expanding volume confirms the support break and reopens the short into fresh air toward 88.4-88.0, no longer chasing."
+  },
+  "transcript": {
+    "macro": "Regime risk-off/hostile to longs into hawkish FOMC (Wed) + Big Tech earnings + BOJ gauntlet; scan 03:31 UTC = US cash CLOSED, thin/gappy, size down. EWJ: funding flat, long/short 1.82 (long-crowded, contrarian bearish), orderbook -0.386 (heavy offers), structure_bias -0.362 - most clearly short-tilted structure of the group. Downtrend, 30m RSI 17.6 / 15m RSI 25.8 oversold, right on support 89.12 (last 89.45); volumes near-zero (many candles <1 unit) - execution treacherous. BOJ decides Jul 30-31, expected hold at 1%, GDP upgrade, but Ueda presser a live catalyst for yen (~163-164, 40-yr low) and Nikkei; carry-unwind risk. Structure supports shorts but oversold + illiquid + BOJ event = hostile; if traded, small size, flat before presser.",
+    "sentiment": "EWJ risk-off tilt driven by BOJ + US semis. BOJ gradual-hiking (rate 1.0%, 2Y JGB ~1.475% highest since 1995, more hikes priced) - headwind for Japanese equities. Yen near multi-decade lows (~163-164), intervention chatter. Recent shock already in scan: Nikkei -1,800 pts (~-2.7%) Jul 24 on US semiconductor selloff; EWJ last ~$89.5, RSI ~30, oversold. US-listed ETF gaps with overnight Nikkei + US tech tone. No unique 48h Japan binary but 0.71 corr to QQQ/US tech - any US mega-cap earnings wobble (incl. AAPL Jul 30) bleeds in. Mildly bearish tone supports short lean; main risk a US-tech relief bounce.",
+    "analyst": "Structure short-tilted (bias -0.362, long-crowded 1.82, heavy offers) but price deeply oversold ON support 89.12, below the lower band, on <1-unit overnight volume with a live BOJ presser in the window. Last 6-7 bars flattened at support (89.32-89.45), momentum stalled not extending. Shorting RSI 17 here is chasing into exhaustion (book's #1 loss pattern); no bullish divergence for a long. HOLD until 89.12 breaks on real volume or the shelf reclaims.",
+    "portfolio": "HOLD EWJ (size 0, conf 0.60) - short-tilted structure but oversold, illiquid and BOJ-event-gated; arm the short only on a volume break below 89.0."
+  },
+  "timestamp": "2026-07-28T03:37:34.047697+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "SOL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "SOL just ripped 77.3->79.0 in 4 bars on huge volume, tagged upper BB (%b 0.965), stoch 92.8, 5m RSI 80.5, and the last bar closed weak at 78.65 off the 79.01 high \u2014 first exhaustion tick. Expect a mean-reverting fade/pullback toward the 77.4-77.6 breakout ledge / VWAP (~76.5) over the next 2-6 bars before any continuation.",
+  "expectancy_note": "No positive-expectancy entry NOW: chasing long has p(win)<0.45 at -2R per learner (vwap_dist +2.74%, structure_bias -0.30, stoch 92.8 all negatively-weighted losers); waiting for the 77.4-77.6 retest gives a ~1xATR-stop trend-long with far better R:R.",
+  "rationale": "SOL is a high-beta BTC proxy (corr 0.76) stretched >2xATR above VWAP into a 2.58x crowded-long book with structure_bias -0.30 \u2014 the exact chase pattern this account loses on (model_weights: vwap_dist -0.47, structure_bias -0.37, high_adx trades 45%/-1.97R). The move is real but exhausted intrabar, so the honest play is to wait for the pullback-to-retest long rather than market-buy the top or short a strong uptrend. Size 0; no valid tight-stop entry exists at 78.65.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 77.6,
+    "expires_min": 240,
+    "note": "A pullback into the 77.4-77.6 breakout ledge / VWAP zone is the trend-continuation long entry with a ~1xATR stop below 76.5 toward 82.75; crossing it triggers the re-debate for a proper non-chasing long."
+  },
+  "transcript": {
+    "macro": "Environment MIXED, tilted risk-on on soft June CPI. BTC reclaimed ~$65k; alts riding beta not leading. Board-wide red flag: L/S long-skewed, funding ~flat -> squeeze risk. SOL note: long-biased high-beta BTC proxy (corr 0.759), rel-strength +8.7%, just broke higher (79 print) but RSI 66/stoch 92.8 extended; L/S 2.58 VERY crowded long -> structure_bias -0.30.",
+    "sentiment": "SOL weak-to-neutral, high-beta to BTC. Constructive medium-term narrative (Firedancer v1.0 testnet, Alpenglow upgrade Q3/Q4, SOL ETF inflows >$1B) but NONE is \u226448h \u2014 all Q3+. Near-term a leveraged BTC/risk proxy; BTC ETF flows just turned positive (+$221.7M), supportive.",
+    "analyst": "The account's learner is decisive: bleeds on chasing (win_rate 0.47, avg -1.76R; vwap_dist weight -0.468, structure_bias -0.367, high_adx trades 45%/-1.97R; trend-chase playbook -2.62R). SOL right now is the toxic combo: vwap_dist +2.74%, structure_bias -0.30, stoch 92.8. Move is real but exhausted intrabar (last bar closed weak off 79.01 high). HOLD and arm a pullback-retest long at 77.4-77.6 / VWAP ~76.5, stop below 76.5, target 82.75.",
+    "portfolio": "HOLD SOL \u2014 extended high-beta chase into a crowded long book; wait for the 77.4-77.6 breakout-ledge retest to go long."
+  },
+  "timestamp": "2026-07-15T13:38:05.701005+00:00"
+}

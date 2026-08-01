@@ -1,0 +1,27 @@
+{
+  "action": "hold",
+  "symbol": "SNDK/USDT:USDT",
+  "size": 0.0,
+  "entry": 1836.96,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.3,
+  "playbook": "none",
+  "expectancy_note": "p(win)~0.45 at best; price mid-Bollinger (%B 0.56) exactly at VWAP with no near level for a tight stop, so R:R is poor. HOLD beats a low-conviction long into a chip-sector selloff.",
+  "rationale": "SNDK's composite long is only 31% conviction with structure_bias slightly negative (-0.101), OI a razor-thin 5.6k, and the sector tape (MU corr 0.82, chip de-risking) cutting against the long. Price sits exactly at VWAP and mid-Bollinger with no clean structural level nearby - support ~7.6% below, resistance ~24% above - so any stop is either inside July 6's $1,693-$2,113 whipsaw noise or gives terrible R:R. In a hostile risk-off regime with a gappy tokenized-equity book and no <=48h binary catalyst, there is no edge; highest-expectancy action is to stand aside.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 2113,
+    "expires_min": 240,
+    "note": "A decisive push back above the 2113 July 6 intraday high would prove the chip-sector rebound is dragging SNDK into a genuine trend-continuation long rather than mid-range chop."
+  },
+  "transcript": {
+    "macro": "Overall regime HOSTILE / risk-off crypto; size down; thin tokenized-equity books (gappy). SNDK (weakest signal, thinnest data): funding 0.0, L/S 1.4 (mildly long), orderbook +0.062; structure_bias only -0.101 (near neutral); OI 5.6k - VERY thin; composite LONG but only 31% confidence - low conviction; btc_corr 0.126 (independent); rel strength -2.27%. Memory/storage name, high corr to MU (0.82) and semis - rides the same AI/chip tape rebounding today (modest tailwind). Sandisk-specific catalysts: none found (data unavailable). Treat as noise-prone, size accordingly.",
+    "sentiment": "SNDK mixed/volatile, sector-selloff risk cuts against the long. Very volatile: July 6 range $1,693-$2,113 intraday - huge swings, wide slippage risk. Plunged >10% July 1 in chip-sector selloff hitting NVDA/MU. Bull thread (long-horizon, do NOT trade on): Bernstein hiked PT $1,700->$3,000 on multi-year memory shortage - narrative not a 48h catalyst. Earnings Aug 24 - outside window. Net: no <=48h binary; near-term tape is sector-wide chip de-risking cutting against the scan long; given intraday whipsaw treat the long cautiously.",
+    "analyst": "SNDK is the weakest, thinnest signal on the board - a 31.4% composite long with structure_bias actually slightly negative (-0.101), OI of only 5,579, near-zero BTC correlation but 0.82 correlation to MU, tying it to a chip sector that is de-risking. The tell is location: price (1836.96) is glued to VWAP (dist -0.01%) and sits at mid-Bollinger (%B 0.557), the definition of no-edge chop. The scan's own levels span an absurd 1696.97-2279.72 (~34% band born of the July 6 $1,693-$2,113 whipsaw), so there is no level near price to anchor either a tight mean-reversion stop or a trend-pullback entry - any survivable stop yields sub-1.5 R:R, any tight stop gets shredded by the intraday range. Higher-TF MACD is deeply negative despite positive per-TF scores, so the 'long' is really a 5m momentum blip (RSI 65.5) that reverses in a thin book. Hostile macro, gappy liquidity, no <=48h catalyst -> expectancy on the long is not positive. HOLD. Only a decisive reclaim of the 2113 swing high flips me.",
+    "portfolio": "HOLD SNDK - 31% conviction long sitting at VWAP mid-band with no clean level and a chip-sector selloff cutting against it; stand aside, armed for a long only above the 2113 swing high."
+  },
+  "timestamp": "2026-07-06T12:48:26.818614+00:00"
+}

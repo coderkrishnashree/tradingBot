@@ -1,0 +1,28 @@
+{
+  "symbol": "XAUT/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.55,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "none",
+  "forecast": "After the flush to 4024 and a green reclaim to 4028 with 15m/30m RSI at 23/25, expect a dead-cat bounce toward broken support/VWAP 4046-4052 over the next 2-5 bars; that lower-high retest is the honest short entry back toward 4000/3981, not a market short into oversold here.",
+  "expectancy_note": "Fresh short at 4028 into RSI 23 + green reclaim = the account's classic late-short-into-oversold trap (bounce stops it for ~2R). Waiting for the 4048+ retest lifts p(win) to ~0.6 with R:R ~2.0 to 4000; HOLD-with-trigger beats chasing.",
+  "rationale": "4h trend and macro/sentiment strongly favor shorts (score -0.748, lopsided retail longs 2.80, USD/rates headwind), but the 15m tape just capitulated to 4024 and printed a green reclaim with 15m/30m RSI deeply oversold at 23/25 - market-shorting here invites the reflex bounce that has stopped this book's late shorts. No long either against a hard downtrend. The right trade is a short on the bounce into 4048-4052 supply; arm that as the reconsider trigger and stay flat until then.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 4048,
+    "expires_min": 240,
+    "note": "A bounce back into broken support/VWAP at 4048-4052 offers a lower-high short entry with the downtrend, targeting 4000/3981 on tight risk."
+  },
+  "transcript": {
+    "macro": "Regime moderately risk-on this session but narrow/fragile (semi rotation), FOMC July 29 gates multi-day conviction. Softer June CPI (3.5%)/PPI eased hike odds, mildly USD-negative = small tailwind; structural USD/rates a cycle headwind for gold. XAUT ~$4,028, structure_bias -0.256, holding just above key $4,000 (WGC fair value ~$4,100). Clean intraday downtrend: 4h -0.748, 15m/30m RSI oversold 23/25, composite SHORT conf 57.9%, aligned. XAG twin (0.897 corr) rolling over. Funding flat/neutral. long_short_ratio 2.797 = lopsided retail-long into downtrend = contrarian short tailwind / squeeze risk for longs. Orderbook mildly bid +0.134, RS vs BTC -6.73%, OI 33.1k. Environment SUPPORTIVE for SHORT / HOSTILE for fresh long; biggest risk = safe-haven gap-up on any Hormuz/risk-off headline.",
+    "sentiment": "Overall risk-off, macro-driven. US Hormuz blockade standoff (July 13) spiked oil ~5%, flipping Fed HAWKISH (CME ~71% Sept hike). 'Safe-haven paradox': gold fell ~3% July 13 and grinds lower (~$4,030) as higher-for-longer rates outweigh the geopolitical bid - supports the short. No <=48h hard catalyst (FOMC July 28-29 outside window). Tether Gold token specifics BENIGN (reserves 707,747 oz +36% QoQ; June 27 Ledn bullion-loan is utility, no depeg/delisting). XAUT tracks spot cleanly. Near-term news LEANS SHORT but a fresh Hormuz headline can violently reverse it - keep stops disciplined.",
+    "analyst": "XAUT 4028.5, clean 15m/4h downtrend (4h -0.748) and macro/sentiment (higher-for-longer rates, lopsided 2.80 retail longs, USD headwind) all lean short. BUT price just flushed to 4024 and printed a green reclaim to 4028 with 15m/30m RSI at 23/25 (deeply oversold) and VWAP dist only -0.25% - a fresh market short here is the exact late-short-into-oversold trap that has bled this account, where a routine dead-cat bounce hits the stop before the trend resumes. Best expectancy is HOLD/flat now and short the bounce: arm a trigger at 4048-4052 (broken support/VWAP supply) for a lower-high short back toward 4000/3981. Won't go long against a -0.748 4h. Watch Hormuz safe-haven gap risk.",
+    "portfolio": "HOLD XAUT/USDT:USDT - flat now, armed short trigger at 4048 (conf 0.55)."
+  },
+  "timestamp": "2026-07-16T02:34:16.405059+00:00"
+}

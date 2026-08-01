@@ -1,0 +1,23 @@
+{
+  "symbol": "INTC/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.6,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "rationale": "INTC is mid-air: 2.4% below VWAP, below the lower Bollinger band (%B -0.14), RSI 32, stoch 18 after an extended down-leg, sitting ~2.4% above hard support at 117.70 with the 5m already flipping long (RSI 49.6). Shorting here means selling a 1.5x-ATR stretch into support (poor expectancy), while going long at 120.61 is catching a knife before confirmation given bearish divergence, mild long crowding (l/s 1.45) and higher-TF (15m-4h) still pointing down. Best expectancy is to wait for the 117.70 support test: a tag-and-hold there is a high-probability mean-reversion long toward the 128-130 mid-range, whereas a clean break below flips this into a continuation short. Tokenized equity with negligible BTC correlation and earnings (Jul 23) outside the window, so no catalyst to force a mid-range entry now.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 117.7,
+    "expires_min": 240,
+    "note": "Tagging 117.70 support arms the decision: a reject/hold there is a mean-reversion long; a decisive break confirms continuation short."
+  },
+  "transcript": {
+    "macro": "SUPPORTS risk with a hard timing caveat. AAPL/INTC are tokenized US equities - judge as equity longs, BTC correlation negligible. Tape risk-on Mon Jul 6: Nasdaq +1.12% ~26,121, S&P +0.72%, Dow record on renewed AI/semi optimism - but a fragile rebound off a late-June AI-valuation scare. No FOMC/CPI in next 48h. Earnings OUTSIDE hold window: INTC Jul 23 - do NOT hold into it. INTC is the weaker/conflicting name: composite short (blended -0.20) yet longer TF and structure muddled; RSI 32, near support 117.70, l/s 1.45 (mild long crowding), bearish divergence. Up ~72% since April earnings - extended on higher timeframe, mean-reverting lower short-term. Two-sided, lower conviction than AAPL. Env risk: thin/gappy tokenized-equity liquidity when US cash closed.",
+    "sentiment": "INTC BULLISH but fragile/high-beta; no scheduled catalyst inside 48h but binary single-headline risk on Apple-deal status. Up ~250-260% in 2026, ~$117-142, +3.2% Mon Jul 6, driven by foundry story - Trump's Jun 18 comment that Apple will build chips with Intel in US (NOT formally confirmed), plus reported engagements with Nvidia, SpaceX, Tesla, possibly Google TPUs. Analyst upgrades (HSBC $100->$200, BofA to $160) long-horizon. Real near-term binary = Q2 earnings Jul 23 after close (outside 48h) - tests whether foundry engagements convert to revenue vs ~$2.4B Q1 foundry operating loss. Whole move rests on unconfirmed Apple deal => elevated two-way headline risk: confirmation spikes it, denial/walk-back gaps it down.",
+    "analyst": "INTC last 120.61, support 117.70, resistance 142.45. RSI 32.2, stoch 17.9, BB %B -0.143 (below lower band), ADX 26.7 (mild), vwap_dist -2.42%, ATR% 1.61%. Bearish divergence, composite short but not aligned (conf 19.7%). Per-TF: 15m/30m/1h/4h down, but 5m flipped LONG (+0.438, RSI 49.6) - early bounce signal. l/s 1.452 (mild long crowding), structure bias -0.149. Stretched short-term selloff just above hard support 117.70 (~2.4% away). Mean-reversion setup, not a fresh short (selling into support after 2x-ATR extension); not a clean long either (divergence, crowding, higher TFs down). Neither trigger met at 120.61 mid-air. HOLD with reconsider armed at support 117.70.",
+    "portfolio": "INTC: HOLD (conf 0.60) - mid-range and two-sided; wait for 117.70 support test to arm a bounce long or breakdown short."
+  },
+  "timestamp": "2026-07-07T02:11:38.171123+00:00"
+}

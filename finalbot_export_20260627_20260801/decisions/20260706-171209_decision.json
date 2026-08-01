@@ -1,0 +1,27 @@
+{
+  "symbol": "CL/USDT:USDT",
+  "action": "short",
+  "size": 0.06,
+  "entry": 69.6,
+  "stop_loss": 71.1,
+  "take_profit": 65.6,
+  "take_profit_1": 67.2,
+  "take_profit_2": 65.6,
+  "confidence": 0.6,
+  "playbook": "trend",
+  "expectancy_note": "p(win)~0.55, R:R ~2.6 (risk 1.5 to 4.0). Sell-the-bounce beats shorting spot: 5m RSI 20 into support 67.17 is a chase; a limit at VWAP/69.6 gives a real edge on the most-bearish structure on the board.",
+  "rationale": "CL is the cleanest macro short: structure_bias -0.451 (most bearish), L/S 4.244 (trapped crowded longs) and positive funding = fuel lower, 4h/15m/5m trending down. But ADX 24.2 is a weak trend and 5m RSI 20 at support 67.17 means shorting spot chases an oversold flush into a level \u2014 so I place a limit short into a relief bounce toward VWAP ~69.6, stop 71.1 (beyond structure, ~1.9x ATR cushion for Wed EIA noise), scaling out at support 67.17 (tp1, SL ratchets there) then 65.6. Size kept modest at 6% because ADX<25 and the Wed July 8 EIA print is a live 48h binary that can squeeze an oversold short.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 67.17,
+    "expires_min": 240,
+    "note": "Losing support 67.17 confirms breakdown; re-debate to short the break directly instead of waiting for the bounce that may not come."
+  },
+  "transcript": {
+    "macro": "Regime RISK-ON but late-stage; USD strong. CL is a pure macro play (BTC corr -0.13). CL/WTI (68.41) SHORT-biased, cleanest macro fit. WTI ~$68.6, lowest since late Feb. Bearish drivers: OPEC+ +188k bpd next month; Strait of Hormuz normalized (geo premium bleeding out). structure_bias -0.451 (most bearish on board), L/S 4.244 (very crowded long = trapped-longs risk), positive funding, 4h/5m down. Watch oversold bounce (5m RSI 20).",
+    "sentiment": "CL: fundamentals align with the short. WTI near lowest since late Feb, pressured by OPEC+ +188kbpd and geo risk premium bleeding out as Hormuz normalizes. Narrative flipped from shortage to potential glut. Near-term calendar risk: API Tue ~4:30pm ET and EIA Wed Jul 8 \u2014 a surprise draw could squeeze the oversold short. Lean BEARISH; respect the Wed EIA bounce risk.",
+    "analyst": "Cleanest short: most-bearish structure, trapped crowded longs (L/S 4.244), positive funding, multi-TF down. But ADX 24.2 (weak trend) and 5m RSI 20 at support 67.17 mean shorting spot chases an oversold flush into a level. Place a limit short into a relief bounce to VWAP ~69.6, stop 71.1 (~1.9x ATR cushion for Wed EIA), scale at 67.17 then 65.6. R:R ~2.6. Size modest 6% for ADX<25 + Wed EIA binary.",
+    "portfolio": "CL: SHORT (0.60) \u2014 sell-the-bounce limit at 69.6, stop 71.1, targets 67.2/65.6; modest 6% size for weak ADX + Wed EIA event risk."
+  },
+  "timestamp": "2026-07-06T17:12:09.712439+00:00"
+}

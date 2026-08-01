@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "ORCL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Thin weekend drift coiling at 127.2-127.3 on near-zero volume; no directional impulse into Monday. Expect continued flat chop unless the 126.67 coil base breaks, then a flush toward VWAP/121 support opens up.",
+  "expectancy_note": "No edge now: shorting a dead flat coil on a closed/gappy tape has ~0.5 p(win) and no confirmation; the 4h 'long' is stretched RSI-84.9/ADX-81 exhaustion, not a buyable trend. Best expectancy is to wait for the coil to break down.",
+  "rationale": "ORCL is the most crowded long (L/S 2.56), rel-strength -20.8%, with an actively deteriorating fundamental story (S&P downgrade, OpenAI-liability repricing, 14-month low) \u2014 the bias is clearly bearish, but the 15m tape is a low-liquidity Sunday coil at 127.2 with no rejection and no momentum, and Monday-open gap risk is a coin flip. Learner stats show shorts here have bled (47% win, -0.87 avg) while structure_bias and rel-strength carry the heaviest negative weights, so I want confirmation, not a blind fade of a flat drift. No honest R:R>=1.5 short exists until the coil base gives way.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 126.67,
+    "expires_min": 240,
+    "note": "Losing the 126.67 coil base confirms the weekend drift is rolling over, aligning a short with the crowded-long unwind and bearish repricing toward 121 support."
+  },
+  "transcript": {
+    "macro": "Cycle 2026-07-19 RISK-OFF/DEFENSIVE. US cash equity markets CLOSED (Sunday) \u2014 proxies gappy/thin, Monday gap risk. QQQ leaning DOWN. ORCL: RSI 84.9 (4h), ADX 81, L/S 2.56 (most crowded long in set), rel-str -20.8%. Extremely extended and crowded; late-stage move \u2014 HOSTILE for fresh longs.",
+    "sentiment": "ORCL: bearish, ACTIVELY deteriorating \u2014 worst story in the basket. Down ~47% from June, 14-month low, S&P downgraded to BBB-, market flipped the $300B OpenAI contract from asset to LIABILITY (OpenAI ~half of $638B RPO = counterparty risk), plus delayed-OpenAI-IPO reports + Iran risk-off. Live negative repricing.",
+    "analyst": "Bias clearly bearish (crowded long unwind + deteriorating fundamentals) but the 4h 'long' is stretched RSI-84.9/ADX-81 exhaustion, and the 15m tape is a dead Sunday coil at 127.2 with no rejection/momentum. Shorting a nothing drift on a thin gappy tape has no edge; shorts bleed this account. HOLD; short trigger on loss of 126.67 coil base.",
+    "portfolio": "HOLD ORCL/USDT:USDT \u2014 bearish story but no confirmed short in a flat coil; wait for 126.67 break. conf 0.50"
+  },
+  "timestamp": "2026-07-19T13:15:12.607229+00:00"
+}

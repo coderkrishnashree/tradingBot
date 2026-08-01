@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "AAPL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Coils flat 335-336 under the 338.53 blow-off high with fading volume; either rejects again at 337.5-338.5 or loses the 334.8 shelf and rolls toward VWAP ~332. No clean entry until one of those levels resolves.",
+  "expectancy_note": "Long is dead: 1h RSI 87 blow-off, 5m flipped short, +1% over VWAP, into Thu earnings binary, p_win 0.44 weakest of book. Short here needs a ~2.4xATR stop above 338.53 -> R:R < 1.5, and structure hasn't broken (chasing). No edge either way now.",
+  "rationale": "Overbought AAPL into a Thursday earnings print with a hostile macro for crowded longs is a no-touch on the long side, and I will not carry through the report. A short is the right bias but there is no trigger: price is still holding the 335 shelf, only 5m has rolled, and a valid stop above the 338.53 rejection is too wide for acceptable R:R from here. HOLD is highest expectancy until either the shelf breaks (short the roll) or price retests 337.5-338.5 for a lower-risk fade.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 334.8,
+    "expires_min": 240,
+    "note": "Losing the 334.8 shelf confirms the post-blow-off roll and opens a short toward VWAP ~332 with a tight stop back above 336."
+  },
+  "transcript": {
+    "macro": "2026-07-27: Mixed-to-hostile, event-gated. FOMC Wed 7/29 2pm ET; MSFT/META Wed close, AAPL/AMZN Thu close. Equities off two losing weeks, Sunday relief bounce (not confirmed risk-on). Oil >$100. Crowd lopsided-long, maxed funding -> fade crowded longs. AAPL: composite long but not aligned (p_win 0.44 weakest), 1h RSI 87 blow-off, 5m flipped short; BTC-uncorrelated.",
+    "sentiment": "AAPL reports Q3 FY26 Thu 7/30 after close - binary looming; consensus ~$108.9B rev/$1.89 EPS; reportedly Tim Cook's last earnings call (headline risk). Overbought into a binary; fade candidate at best, do not carry through earnings.",
+    "analyst": "Overbought into a Thursday earnings print in a hostile macro - no-touch on the long side, will not carry the report. Short bias is right but no trigger: 335 shelf still holds, only 5m rolled, valid stop above 338.53 too wide for R:R. HOLD; reconsider short on losing the 334.8 shelf.",
+    "portfolio": "AAPL: HOLD - blow-off overbought into Thu earnings; wait for shelf break to short."
+  },
+  "timestamp": "2026-07-27T03:07:38.434190+00:00"
+}

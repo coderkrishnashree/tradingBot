@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "HOOD/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.58,
+  "playbook": "trend",
+  "forecast": "Blowoff spike to 117.48 just got rejected \u2014 current 15m bar dumped to 114.12 and closed weak at 115.48. Expect the pullback to continue toward the 113.8-114.0 breakout-retest shelf (also ~VWAP) over the next 2-4 bars; that is the long reload, not here.",
+  "expectancy_note": "Buying 115.48 under a fresh rejection wick needs a stop <112.1 (>3pt) into 120 resistance = R:R <1.2 and is the exact chase-after-move loss pattern. Waiting for the 113.9 retest turns it into ~1x-ATR stop, R:R ~2.5, p(win)~0.6.",
+  "rationale": "HOOD is the only real long-side RS leader (+8.3% vs BTC, 1h/4h up), so the higher-TF thesis is long \u2014 but the last bar is a bearish rejection of a crowded (L/S 1.25) blowoff spike, so entering now is chasing. The high-expectancy move is a limit-style entry on the retest of the 113.8-114.0 breakout shelf near VWAP, stop under 112.1, targeting the 117.5 spike high then 120.1 resistance. Holding until price offers that level; no size committed at the spike.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 114.0,
+    "expires_min": 240,
+    "note": "Tag of the 113.8-114 breakout-retest/VWAP shelf completes the pullback and arms the long-continuation entry with a tight stop under 112.1."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF-LEANING/MIXED, defensive. Oil gapped up (US-Iran), yields up. No CPI/FOMC in 48h; two-sided oil tape. Crypto soft-neutral: BTC ~$62.7k, no tailwind. L/S crowded LONG while price bleeds. Favors shorts/fades; any oil de-escalation can rip a violent short-squeeze. HOOD: only real long-side RS leader among crypto-proxies (+8.3% vs BTC), 1h/4h up, but L/S 1.25 crowded and just printed 111->117->115 blowoff wick \u2014 entry matters.",
+    "sentiment": "Overall NEUTRAL-to-BEARISH tech. HOOD: active newsflow \u2014 Robinhood Chain L2 (Arbitrum) + 24/7 tokenized Stock Tokens (Jul 1), Trump Accounts, Earn 7% APY. Q2 earnings Jul 29 (not near-term). Bullish product momentum but multi-week narrative; near-term high-beta crypto proxy.",
+    "analyst": "Higher-TF thesis is long (RS leader, 1h/4h up) but the last 15m bar is a bearish rejection of a crowded blowoff spike (117.48 -> 114.12 -> 115.48 weak). Buying now is a chase (stop <112.1 = >3pt, R:R <1.2). HOLD, armed to reload long on a retest of the 113.8-114 breakout shelf/VWAP with stop <112.1 toward 117.5 then 120.1. No size at the spike.",
+    "portfolio": "HOOD: HOLD (conf 0.58) \u2014 RS leader but don't chase the spike; long reloads on a 114 retest."
+  },
+  "timestamp": "2026-07-09T14:32:40.560031+00:00"
+}

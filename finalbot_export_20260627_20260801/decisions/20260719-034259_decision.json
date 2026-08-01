@@ -1,0 +1,23 @@
+{
+  "action": "hold",
+  "symbol": "CRCL/USDT:USDT",
+  "size": 0.0,
+  "entry": 61.08,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.35,
+  "rationale": "CRCL is weak and idiosyncratically bearish (4h down, rel-strength -25.6%), and the scan's own book is crowded LONG (L/S 2.341, structure_bias -0.409) = downside fuel, not the squeeze risk the shared note assumed. But the intraday fade to 61.08 has already largely played out into a stretched 5m (RSI 26.7), price sits only ~$0.30 above the 60.67/60.75 support cluster, on a thin headline-whippy weekend tape with Monday gap risk. A market short here is chasing; no >=1.5R at market. HOLD.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 60.67,
+    "expires_min": 240,
+    "note": "Losing the 60.67/60.75 intraday support cluster confirms the fade turned into continuation, opening the short toward 59.9 then structural 58.76 with a stop just above 61.85."
+  },
+  "transcript": {
+    "macro": "2026-07-19 regime MIXED-to-HOSTILE; US weekend dead/synthetic tape, Monday gap risk. CRCL HOSTILE/idiosyncratic: ~$60, downtrend intact after Mizuho downgrade to Underperform (July 14) and Visa/'Open USD' threat to USDC, only partly offset by OCC bank approval. Moderate BTC corr 0.45 (crypto-beta + single-name headline risk). NOTE: shared note said L/S 0.66 short-heavy but the actual scan shows L/S 2.341 crowded LONG (bias -0.409) \u2014 favors downside continuation, not squeeze.",
+    "sentiment": "CRCL bearish, catalyst fresh but a few days old. Stock broken down (~$60, below all major EMAs) after Coinbase/BlackRock 'Open USD' stablecoin launch threatening USDC (shares fell ~16-17%) and July 14 Mizuho downgrade. OCC trust-bank approval (July 10) already digested. No dated <=48h binary \u2014 momentum/competitive-narrative driven; high beta to BTC/COIN (~0.58) is the intraday driver. Supports the short/weak side.",
+    "analyst": "15m ran 60.69->61.80 (peak) then faded with lower highs to 61.08 near its low; 5m RSI 26.7 already stretched, price ~$0.30 above 60.67 support. Market-shorting a stretched 5m after a completed fade is a chase \u2014 a bounce to 61.4/VWAP would stop me. Proper short is selling a bounce into 61.4-61.6 with stop above 61.85, targets 59.9/58.76. HOLD; short trigger armed below 60.67.",
+    "portfolio": "CRCL: HOLD (0.35) \u2014 bearish bias but the fade is stretched and thin; short only on a clean break below 60.67."
+  },
+  "timestamp": "2026-07-19T03:42:59.663932+00:00"
+}

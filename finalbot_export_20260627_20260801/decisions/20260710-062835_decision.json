@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "SNDK/USDT:USDT",
+  "size": 0.0,
+  "entry": 1802,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price just fell ~4% in 7 bars into 15m/5m RSI ~10 at 1802; expect a reflex bounce/stabilization toward the broken 1813.86 level over the next 2-4 bars, not a clean continuation lower from here. Either it reclaims 1814 (squeeze) or rejects there and resumes down after RSI resets.",
+  "expectancy_note": "Short at 1802 = chasing a stretched flush (LTF RSI 9.6, 4h still long, funding 0, short-tilted crowd = squeeze fuel); any honest stop >1830 makes R:R <1 into a knife. Long a mid-flush knife with orderbook -0.394 has no edge. HOLD/wait for the retest is highest expectancy.",
+  "rationale": "15m short breakout is real (vol 2.88x, BBW 1.9x) but price is already 4% down in 7 vertical bars into deeply oversold LTF RSI (~10) while 4h remains RSI 64.7/long and funding is flat with a short-tilted crowd (0.756) \u2014 the exact stretched-tape setup where this account's late shorts get stopped by the bounce. Off-hours thin/gappy pre-US-open with 5.45% 4h ATR adds gap risk. No edge to enter either side now; the informative trade is the retest into 1814.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 1814,
+    "expires_min": 180,
+    "note": "Reclaiming the broken 1813.86 breakout level proves the flush is being bought back and the short-tilted crowd is squeezing \u2014 flips me toward the squeeze/long or kills the short thesis; a rejection there instead sets up the cleaner short after RSI resets."
+  },
+  "transcript": {
+    "macro": "Equities constructive but choppy (Nasdaq +1.30%, S&P +0.81% Jul 9, semi bounce), but memory sub-sector in violent unwind. SNDK BTC-corr only 0.163 \u2014 trades as equity. Scan 06:25 UTC = pre-US-cash-open, thin/gappy off-hours, gap risk at 13:30 UTC open. SNDK down ~30% from Jun 22 ATH ($2,335), fell ~11% to ~$1,802, group bounced +6% Jul 9. Funding 0.0, OI 5,831, L/S 0.756 (short-tilted \u2192 squeeze fuel), orderbook -0.394 (sell pressure), structure_bias -0.046 (flat), RS vs BTC -19.45%. 15m SHORT breakout at 1813.86, vol 2.88x, LTF RSI ~9-13 oversold while 4h RSI 64.7 long \u2014 timeframes in conflict, huge ATR (4h atr_pct 5.45%). MACRO BIAS: neutral \u2014 squeeze risk too high to lean short with size; trade small, fade extremes.",
+    "sentiment": "Tokenized equity perp. Parabolic H1 2026 (high $2,354 Jun 22), dragged into memory bear market early July on Samsung miss + Asian chip rout, bottomed ~$1,617 Jul 7. Jul 9 +12.6% on Reuters multi-year NAND supply deal with Meta + Bernstein PT $3,000. Perp last ~$1,802 below ~$1,880 equity \u2014 token fading the Meta pop; fresh 15m short breakout <$1,814 on 2.9x vol. Meta deal = only <=48h driver but fade-prone (terms unconfirmed). Memory rout = dominant risk (MU corr 0.82), Asian chip session overnight. No earnings in window (next Aug 5, Investor Day Aug 13), no unlocks. SENTIMENT BIAS: NEUTRAL-to-BEARISH next 24-48h \u2014 news doesn't argue for a long, mildly supports short-fade; technicals/sector-tape trade.",
+    "analyst": "15m short breakout is real (vol 2.88x, BBW 1.9x) but price already 4% down in 7 vertical bars into deeply oversold LTF RSI ~10 while 4h remains RSI 64.7/long, funding flat, short-tilted crowd 0.756 = squeeze fuel \u2014 the stretched-tape setup where late shorts get stopped by the bounce. Off-hours thin/gappy pre-US-open with 5.45% 4h ATR adds gap risk. No edge either side now; informative trade is the retest into 1814. Reclaim of 1814 flips toward squeeze/long; rejection sets up cleaner short after RSI resets.",
+    "portfolio": "SNDK/USDT:USDT \u2014 HOLD (conf 0.6): no edge to chase a stretched flush; wait for the 1814 retest to decide direction."
+  },
+  "timestamp": "2026-07-10T06:28:35.542703+00:00"
+}

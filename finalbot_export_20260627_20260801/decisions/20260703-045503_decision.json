@@ -1,0 +1,25 @@
+{
+  "action": "hold",
+  "symbol": "CRCL/USDT:USDT",
+  "size": 0.0,
+  "entry": 65.77,
+  "stop_loss": 66.9,
+  "take_profit": 62.5,
+  "confidence": 0.58,
+  "playbook": "none",
+  "expectancy_note": "Thin/gappy holiday tape + hot RSI74/stoch86 into resistance 65.86 = poor R:R either way now; short only pays after support 64.57 breaks (p~0.6, R:R~2). Waiting beats chasing.",
+  "rationale": "CRCL is an equity trading on a US-market-closed holiday, so perps are thin/gappy with no underlying price discovery and the crypto structure metrics (crowded 3.88 long) are only weak squeeze tells. The scan's long tilt is a low-liquidity bounce into resistance (RSI 74.6, stoch 86.2, %B 0.84) that runs directly against a fresh, structural bearish catalyst (Open USD launch threatening Circle's Treasury-float take-rate; Goldman PT cut to $96, Jefferies 'don't buy the dip') and a hawkish macro headwind for high-multiple fintech. I refuse to chase the long, and shorting the exact bounce with ATR only 0.17 into a gappy tape is a donation; the edge appears when the bounce fails. Flip short on a decisive break of the 64.57 range low, which proves the fundamentally-driven downtrend has resumed and the crowded longs are getting flushed.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 64.57,
+    "expires_min": 240,
+    "note": "Losing support 64.57 confirms the holiday bounce failed and the Open-USD gap-down is resuming \u2014 arms a short toward 62.5."
+  },
+  "transcript": {
+    "macro": "2026-07-03: Cautious risk-on but HAWKISH regime shift under new Fed Chair Warsh \u2014 market now prices 1-2 HIKES in 2026, CPI at 3-yr high, firm USD = headwind for high-multiple fintech. BTC soft/rangey (~61.4k), no crypto tailwind; CRCL BTC-corr 0.44. US cash market CLOSED Fri Jul 3 (Independence Day) \u2014 thin/gappy perps, no underlying price discovery. CRCL earnings Aug 11 (no near-term event).",
+    "sentiment": "2026-07-03: Live BEARISH catalyst. June 30 launch of Open USD (OUSD) by Stripe/Visa/Mastercard/Coinbase/BlackRock/Google/Ripple/Solana + 140 partners. CRCL sold off 15-17% to a 4-month low. >90% of Circle revenue is USDC Treasury float yield; OUSD returns yield to distributors at zero fees, repricing Circle's take-rate. Goldman cut PT to $96 (Neutral); Jefferies warned against buying the dip; Bernstein still bullish (~203% upside). Net: argues AGAINST a long despite the scan's long tilt.",
+    "analyst": "Scan tilts long on momentum, but it's a low-liquidity holiday bounce into resistance (65.86) against a fresh bearish structural catalyst and a crowded-long book (L/S 3.88, structure_bias -0.42) that fuels a squeeze DOWN. ATR% only 0.17 and gappy holiday tape make both a chase-long and a blind short poor R:R at 65.77. Edge appears when the bounce fails: flip short on a decisive break of 64.57 toward 62.5.",
+    "portfolio": "CRCL: HOLD (conf 0.58) \u2014 no chase into a bearish catalyst; arm short below 64.57."
+  },
+  "timestamp": "2026-07-03T04:55:03.682433+00:00"
+}

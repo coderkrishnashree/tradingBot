@@ -1,0 +1,23 @@
+{
+  "symbol": "CRCL/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.62,
+  "size": 0.0,
+  "entry": 67.29,
+  "stop_loss": 67.29,
+  "take_profit": 67.29,
+  "rationale": "Stand aside. CRCL's US cash market is closed Fri Jul 3 through Mon Jul 6 09:30 ET, so the perp has no price discovery this window and re-anchors on a hard weekend gap \u2014 fresh risk is a coin-flip, not a setup. Positioning is maximally crowded long (funding 0.00146 extreme, L/S 4.0, OI elevated) into a ~25% OUSD-driven downtrend, biasing toward a long-liquidation squeeze, so no buying the relief bounce; but shorting a thin synthetic at a +1.4% premium into an oversold Nomura/Ark bounce is poor gappy R:R too. Wait for Monday's cash open; a loss of ~63.5 would open a with-the-trend short.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 63.5,
+    "expires_min": 240,
+    "note": "Losing the Jul 1 low / recent range floor confirms the crowded-long liquidation cascade and would open a with-the-trend short even with the underlying closed."
+  },
+  "transcript": {
+    "macro": "Asset class: CRCL is a tokenized equity (Circle Internet Group, NYSE:CRCL) as a Bybit perp \u2014 judge as a stock (btc_corr 0.419). DOMINANT: US underlying market CLOSED all Fri Jul 3 (Independence Day observed), no reopen until Mon Jul 6 09:30 ET \u2014 perp is a thin, gappy synthetic with no cash price discovery for the hold window; re-anchors on a hard gap Monday. Equity backdrop hostile for a long: ~-25% mid-$80s to low-$60s (Jun 8-Jul 1) on Stripe's Open USD (OUSD) rival; last cash ~$65.92, perp ~67.29. Compass Point upgraded to Neutral, target cut to $55. Positioning crowded-long/contrarian-bearish: funding 0.00146 extreme positive, L/S ratio 4.0 lopsided long, orderbook +0.03 flat, structure_bias -0.692 (most crowding-heavy in scan), OI 36,608 = squeeze/liquidation fuel into the holiday gap. relative_strength +2.12% vs BTC is an oversold intraday bounce, not real strength. Regime: crypto risk-off-to-transitional, BTC ~$61.3k, dominance ~58%, no altseason. VERDICT: HOSTILE for a fresh long over hours-to-days; biggest risk is a long-liquidation squeeze / adverse weekend gap. Cleanest action: stand aside until US cash reopens Monday.",
+    "sentiment": "CRCL is an EQUITY (USDC issuer); catalysts are earnings/regulatory/competitive. BEARISH fresh shock: Jun 30 a 140-firm consortium (Stripe, Visa, Mastercard, BlackRock, Coinbase) unveiled Open USD (OUSD), a yield-sharing USDC rival \u2014 CRCL cratered ~16-18% to a 4-month low; dominant, headline-sensitive narrative. NEAR-TERM BULLISH stabilizer (Jul 1-2): +3.5% on Nomura instant-FX Japan deal + Ark ETF buying; Compass Point upgrade to Neutral (PT cut to $55); retail flipped to 'extremely bullish' dip-buy \u2014 relief-bounce tape, not a trend reversal. KEY BINARY not in 48h: Coinbase USDC distribution deal renews ~Aug 18 (same day as Q2 earnings) \u2014 the valuation overhang, ~6 weeks out. Regulatory: GENIUS Act final stablecoin rules ~Jul 18, Circle well-positioned (mild/diffuse bullish). Bearish drip: director sold $3.13M shares Jul 1. VERDICT: MIXED with bearish structural tilt but a short-term bullish bounce in play; no scheduled hard binary in next 24-48h; main asymmetric downside is OUSD headline risk.",
+    "analyst": "CRCL is a tokenized equity and its US cash market is closed all of Fri Jul 3 through Mon Jul 6 09:30 ET, so the perp has no price discovery for the entire hold window and re-anchors on a hard gap Monday \u2014 fresh risk here is a coin-flip on a weekend gap, not a technical setup. Positioning is maximally crowded long (funding 0.00146 extreme, L/S 4.0, OI elevated) into a ~25% news-driven downtrend, which biases toward a long-liquidation squeeze rather than a sustainable bounce, so I will not buy the relief tape. But shorting a thin synthetic at a +1.4% premium into an oversold Nomura/Ark relief bounce with no cash reference offers poor, gappy R:R too. Cleanest expectancy is to stand aside until Monday's cash open restores real price discovery; the only actionable trigger before then is a break of the local range (a loss of ~63.5 would confirm the liquidation cascade and open a with-the-trend short).",
+    "portfolio": "CRCL: HOLD / stand aside \u2014 closed underlying + weekend gap risk + maximally crowded long; revisit Monday cash open."
+  },
+  "timestamp": "2026-07-03T12:29:37.223289+00:00"
+}

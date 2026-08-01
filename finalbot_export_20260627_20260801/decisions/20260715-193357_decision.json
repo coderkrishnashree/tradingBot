@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "SOL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.34,
+  "playbook": "none",
+  "forecast": "Price coils 77.0-77.6 near VWAP for the next 2-4 bars; a bounce toward 78.0-78.2 sets up a crowded-long fade, while losing 76.99 opens a flush toward 74.0. Neither is confirmed yet.",
+  "expectancy_note": "No 1.5R at 77.18: market short into 5m RSI 14.7 gets stopped by the reflex bounce; weak-long (conf 29%, align 0.7) buys BTC-beta into heavy BTC with a crowded book overhead. Wait for the level.",
+  "rationale": "SOL is 0.756 BTC-correlated into a heavy BTC tape with the most crowded-long book on the board (L/S 2.618), which is structurally bearish, but price sits right at VWAP (+0.67%) with 5m RSI 14.7 flushed \u2014 shorting here means shorting into intraday exhaustion where a bounce hits any honest stop first (the desk's #1 loss pattern). The long side has no edge either: 29% confidence, align 0.7, flat intraday TFs. No 1.5R setup in either direction from 77.18, so HOLD and wait for the crowded longs to actually start unwinding.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 76.99,
+    "expires_min": 240,
+    "note": "Losing the swing/probe low at 76.99 confirms the flush is extending and crowded longs are unwinding \u2014 arms the contrarian/momentum short toward 74.04 support with the crowded book as fuel."
+  },
+  "transcript": {
+    "macro": "Regime MIXED, cautious risk-on; crypto is the weak link (BTC ~$64.5k, ETF outflows, dominance >50%). SOL scan weak-long (blended +0.224, align 0.7, conf 29%, 5m RSI 14.7 fresh flush). Structure the concern: L/S 2.618 = most crowded-long book on the board; funding flat. Highly BTC-correlated (0.756) \u2014 mostly BTC-beta into a heavy tape. Crowded longs + weak BTC = liquidation-flush vulnerability; a contrarian fade is structurally cleaner than chasing longs.",
+    "sentiment": "NEUTRAL-to-mildly-bearish near-term. No 48h binary. Sentiment Fear/extreme fear (~25-35). Pinned near $77 defending $72-75 vs $79-85 resistance. Follows BTC (reclaimed $65k on soft CPI, mild positive). Dated overhang: July token unlocks (~$124M PUMP), supply drag. Longer-horizon positives (MS spot-SOL ETF S-1 amend, Clearstream custody, Alpenglow) not 48h tradeable.",
+    "analyst": "Mostly BTC-beta into heavy BTC = bearish lean, but price at VWAP (+0.67%) with 5m RSI 14.7 flushed \u2014 shorting here means shorting into intraday exhaustion where a reflex bounce stops the trade (the desk's #1 loser). Long has no edge (conf 29%, flat intraday TFs). No 1.5R either way from 77.18 -> HOLD. Losing 76.99 arms the momentum/contrarian short toward 74.04.",
+    "portfolio": "SOL: HOLD (conf 0.34) \u2014 crowded-long BTC-beta at VWAP, no clean R:R; wait for 76.99 break."
+  },
+  "timestamp": "2026-07-15T19:33:57.978440+00:00"
+}

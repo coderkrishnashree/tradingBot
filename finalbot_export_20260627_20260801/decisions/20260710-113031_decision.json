@@ -1,0 +1,23 @@
+{
+  "action": "hold",
+  "symbol": "TSM/USDT:USDT",
+  "confidence": 0.3,
+  "size": 0.0,
+  "entry": 440.26,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "rationale": "TSM is in chop regime (ADX 11.7, composite 10.5% flat, regime_blocked) grinding higher on microscopic overnight volume \u2014 the 15m RSI 87 is an artifact of thin tape, not real momentum. Price sits mid-range (~33% up the 425.7-461.8 band) with no level to fade or break at, so any entry carries a wide stop and weak R:R. Best sector fundamental story (Citi PT, AI wafer hikes) but the Q2 earnings + analyst meeting July 16 is a binary inside the hold window \u2014 wait for a clean range resolution rather than chase stretched, illiquid tape.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 461.82,
+    "expires_min": 240,
+    "note": "Clearing the 461.8 range high on real US-session volume is the directional resolution that turns the bullish AI-semis story into a tradeable trend-continuation long."
+  },
+  "transcript": {
+    "macro": "Regime MIXED, constructive for tech longs this session, hostile rates undertone. Tech-led melt-up on AI capex; semis rebounding. Offset: May CPI 4.2%, 10Y ~4.46%, 1-2 hikes priced. July US CPI due in-window; TSM Q2 earnings + analyst meeting July 16 inside a multi-day hold (binary, size down). TSM: funding flat, OI very thin ~3.5k (gappy fills), orderbook +0.278, L/S 1.95 long-skewed (bias -0.20), composite flat/chop 10.5% conf, 15m RSI stretched 87, price 440.3 mid-range 425.7-461.8, RS -5.1. Cleanest fundamental setup but scan says no edge now.",
+    "sentiment": "TSM bullish tone, HARD binary ~6 days out. Q2 earnings July 16 (Street ~$3.81/ADR up from $2.47 y/y, ~$40B rev, 65.5-67.5% GM); analysts strongly bullish into print on robust AI demand. May revenue record ~NT$417B (+30% y/y); June monthly due imminently. Tail risk: Taiwan/China geopolitics + US-Taiwan tariff headlines can gap it any time. Nearest 48h risk is a geopolitical/tariff or June-revenue headline.",
+    "analyst": "Textbook NO TRADE. ADX 11.7 chop, price dead-center of a 36-point range on 0.5-6 unit overnight bars (US cash closed) \u2014 the grind up is noise, 15m RSI 87 an artifact. No level to fade (not near support nor resistance), earnings binary looming July 16. Entering mid-range = poor R:R either way. HOLD; armed price_above 461.82 for a real up-break of the range.",
+    "portfolio": "HOLD TSM 0.30 \u2014 chop regime, mid-range on thin overnight tape, earnings binary July 16; wait for 461.8 break."
+  },
+  "timestamp": "2026-07-10T11:30:31.180350+00:00"
+}

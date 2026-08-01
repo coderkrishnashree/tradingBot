@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "AAPL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Spent overnight impulse: last 6 bars drift 317.3-317.7 on dying volume after the 319.3 spike faded. Expect chop/slight fade toward VWAP ~316.5 into the 09:30 ET open; a pullback to 315.5-316 is the buy, a hold above 319.3 confirms continuation.",
+  "expectancy_note": "Long here is chasing: %B 0.92 at band top, +0.29% over VWAP post-spike, asks stacked (OB -0.343), realistic TP1 (319.3) gives R:R <1.5 vs a 314.5 structural stop. p_win_learned 0.445. Wait for retest or breakout.",
+  "rationale": "Trend is up on 15m/30m/4h (ADX 54) but the overnight pop is exhausted and momentum is fading bar-by-bar into thin PRE-cash-open liquidity with a PPI print due today. Entering long at band top after the move is the account's #1 loss pattern (chasing). No high-expectancy entry until price either pulls back to VWAP/315-316 (buy the trend) or reclaims and holds 319.3 on real volume. HOLD is the best-expectancy call this session.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 316.0,
+    "expires_min": 240,
+    "note": "A pullback to VWAP/base at 315.5-316 offers a trend-continuation long with a tight stop below 314.5 and clean R:R to resistance 323; crossing back down into that zone is the entry trigger."
+  },
+  "transcript": {
+    "macro": "Regime SUPPORTIVE for multi-day AI/semis longs but NEUTRAL-to-cautious for immediate entries; soft June CPI, semis leading, but scan is PRE US cash open (thin/gappy, re-prices 09:30 ET) and PPI print due today. AAPL last 317.47, RS vs BTC +5.53%, composite long 64.7% aligned, structure near-neutral (funding 0, L/S 0.941, OB -0.343 -> bias -0.085). Defensive megacap, cleanest/lowest-vol of the three (ATR 0.93%). Q3 earnings Jul 30 (outside 48h).",
+    "sentiment": "AAPL NEUTRAL: mild bullish drift near $317, 'Moderate Buy' consensus but avg PT ~$315 = little fundamental upside. Only hard catalyst = Q3 FY26 earnings Jul 30 after close (>48h out, not an event trade). Trades on market beta this cycle.",
+    "analyst": "Trend up on 15m/30m/4h (ADX 54) but overnight impulse to 319.3 is spent and fading bar-by-bar on dying volume; price sits at band top (%B 0.92), +0.29% over VWAP, asks stacked (OB -0.343), p_win_learned 0.445, PPI risk. Entering long here is chasing (account's #1 loss pattern). Wait for pullback to 315.5-316 (buy trend) or hold above 319.3 on volume.",
+    "portfolio": "HOLD AAPL - no high-expectancy long; wait for VWAP pullback (~316) or breakout reclaim of 319.3."
+  },
+  "timestamp": "2026-07-15T10:33:38.795325+00:00"
+}

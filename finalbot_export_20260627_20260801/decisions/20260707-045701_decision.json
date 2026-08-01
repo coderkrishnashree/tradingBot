@@ -1,0 +1,27 @@
+{
+  "action": "hold",
+  "symbol": "INTC/USDT:USDT",
+  "confidence": 0.6,
+  "entry": 0,
+  "size": 0.0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "none",
+  "expectancy_note": "Both sides negative EV now: short chases a -4.84% VWAP, RSI21/stoch1.5 washout INTO support 117.31 (squeeze fuel); long is a knife-catch with zero confirmation (divergence is bearish, ADX41.9 down). Overnight US-closed gap risk caps any edge.",
+  "rationale": "INTC is a tokenized equity and US cash is closed (~00:52 ET) \u2014 thin/gappy until the 09:30 reprice, so I will not commit capital into overnight illiquidity. Price sits exactly on 117.31 support, maximally oversold (RSI21, stoch1.5, bb%B -0.24, -4.84% from VWAP) in a 216%-YTD name that squeezes on any semi headline (Samsung memory earnings Tue), which makes shorting the extension terrible R:R and longing an unconfirmed knife-catch equally poor. No confirmed <48h catalyst; composite confidence is 2.6% and aligned=false. Wait for the level to resolve rather than guess the gap.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 117.31,
+    "expires_min": 240,
+    "note": "A clean break/hold below 117.31 breaks the last support and confirms the downtrend continuation with real room to 97.92 \u2014 that turns the oversold read from squeeze-fuel into a valid short."
+  },
+  "transcript": {
+    "macro": "Risk-ON, tech-led regime. US equities near record highs (Jul 6). Semis are the high-volatility node \u2014 BofA flagged 'bubble risk' Jul 1 (Intel -7%, AMD -5%, TSM -6%). Samsung memory earnings due Tue expected +18x YoY \u2014 positive semi catalyst. INTC derivs: funding 0, OI 24,976 (meaningful), L/S 1.46 (mildly long), orderbook -0.079, structure_bias -0.16. Technicals washed-out DOWN: RSI 21, stoch 1.5, bb%B -0.24, price 117.46 ON support 117.31, all TFs down, bearish divergence; composite 'flat', conf 2.6%, aligned=false. News tape loudly BULLISH (INTC +216% YTD, HSBC PT $200). Scan ~00:52 ET, US cash CLOSED \u2192 overnight gap risk. Verdict: FLAT or small.",
+    "sentiment": "INTC NEUTRAL, high-volatility, headline-risk-heavy. Earnings Q2 July 23 (~2 wks out, large binary on horizon; margins still negative, net income ~-$3.7B). Euphoric momentum on Apple foundry deal + reported Google ~3M AI-chip deal + Nvidia/SpaceX buzz (none formally confirmed). Divergent positioning: consensus HOLD (~9 buy/19 hold/2 sell), avg PT BELOW spot (~$82-101), HSBC lone outlier $200. No confirmed <=48h catalyst; near-term risk is headline whipsaw + profit-taking into July 23 earnings. Let technicals lead next 1-2 days.",
+    "analyst": "INTC price 117.46 sitting exactly ON support 117.31, maximally oversold (RSI 21, stoch 1.5, bb%B -0.24, -4.84% from VWAP), all TFs down, ADX 41.9 down-trend, bearish divergence, composite conf 2.6% aligned=false. Short = chasing a deeply extended washout into support in a 216%-YTD name that rips on any semi headline (Samsung print Tue) \u2192 terrible R:R, squeeze risk. Long = knife-catch with zero bullish confirmation into overnight open-gap risk. Neither side has confluence \u2192 HOLD. Armed trigger: clean break/hold below 117.31 confirms breakdown with room to 97.92 and turns the oversold read into a valid short.",
+    "portfolio": "INTC: HOLD (conf 0.60) \u2014 oversold into support, conflicted signal, high headline + gap risk; armed short trigger below 117.31."
+  },
+  "timestamp": "2026-07-07T04:57:01.200041+00:00"
+}

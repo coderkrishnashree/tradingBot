@@ -1,0 +1,27 @@
+{
+  "action": "hold",
+  "symbol": "EWY/USDT:USDT",
+  "size": 0.0,
+  "entry": 181.58,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "expectancy_note": "Short is directionally right (bearish divergence, rel-strength -10.5%) but price is already oversold (1h RSI 26, %B -0.05, -3.17% vs VWAP) and only ~3.9% above support 174.61 \u2014 chasing here gives poor R:R (~0.5). Wait for a confirmed break or a bounce to fade; HOLD beats a stretched entry.",
+  "rationale": "EWY prints a weak short (conf 28%, ADX 25.5) into a deeply extended, oversold tape sitting on the lower Bollinger band just above 174.61 support. Selling now is chasing a move already stretched into support with limited downside room and high gap risk on this thin, rollercoaster ETF wrapper (+5.76% Friday). Better expectancy from either a confirmed breakdown below 174.61 (momentum short) or a relief bounce toward VWAP that restores a favorable fade R:R. No <=48h binary forces the hand.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 174.61,
+    "expires_min": 240,
+    "note": "Losing support 174.61 on a closing basis confirms breakdown and turns the extended short into a valid momentum continuation entry."
+  },
+  "transcript": {
+    "macro": "OVERALL REGIME: RISK-ON, late-stage and thin. VIX low 15.9. KOREA (EWY): risk-on YTD (Kospi +101% H1) on semis; recent circuit-breaker up-move (SK Hynix +10%, Samsung +8%). Scan has EWY weak SHORT: rel strength -10.5% with bearish divergence. US-listed ETF wrapper \u2014 gappy/thin outside US hours; underlying ran hard. Narrow AI leadership is the biggest cross-asset risk \u2014 one semi wobble drags NVDA/EWY/EWJ together.",
+    "sentiment": "EWY (S. Korea) \u2014 net NEUTRAL-to-BEARISH, HIGH VOLATILITY risk. Kospi roughly doubled 2026 but a semiconductor/AI rollercoaster: -10% June 23, -7.9% July 2, then +5.76% rebound Friday. Dominated by SK Hynix/Samsung memory-AI demand; correlates tightly with NVDA/MU (0.64/0.81 in scan). President Lee pushing AI/chip (governance-reform tailwind). No specific <=48h event but expect outsized daily moves; CSIS flags bubble concerns.",
+    "analyst": "EWY at 181.58: composite short (28.1% conf), ADX 25.5 (weak trend), 4h RSI 33.6 / 1h RSI 26 oversold, bb_pctb -0.05 (below lower band), stoch 23.1, vwap_dist -3.17%, BEARISH divergence, rel strength -10.52%. Support 174.61 only ~3.9% below; ATR 2.22% with high gap risk on a thin ETF wrapper (+5.76% Friday). Short is directionally right but the entry is a chase into oversold at the low band just above support \u2014 poor R:R. HOLD; arm short on a clean break of 174.61, or wait for a bounce to VWAP to fade.",
+    "portfolio": "EWY: HOLD (conf 0.50) \u2014 short thesis intact but entry is a chase; wait for break of 174.61 or a VWAP bounce."
+  },
+  "timestamp": "2026-07-07T11:17:29.630969+00:00"
+}

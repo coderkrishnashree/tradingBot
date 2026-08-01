@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "INTC/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.4,
+  "playbook": "none",
+  "forecast": "Chop between 97.9 and 99.4 over next few bars; the 101 pop has already faded and volume is drying, so no clean directional move at spot. A break under 97.2 opens the sell-the-news fade toward 95-93; reclaim of 99.5 re-arms the melt-up.",
+  "expectancy_note": "No entry clears R:R: fresh long chases RSI 81.5 / bb%b>1 / +3.6% above VWAP into a ~15% earnings binary (the account's classic late-continuation loss); a naked short fights the intact 30m/1h uptrend with confirmation not yet given. Best expectancy is to wait for the break.",
+  "rationale": "INTC is a euphoric, stretched tokenized-equity long (RSI 81.5, above upper Bollinger, +163% YTD, crowded l/s 1.96 with negative structure bias) coiling below 99.4 after failing at 101 on fading volume. With a two-sided ~15% earnings binary Thursday July 23 after close sitting inside the hold window, carrying naked directional risk is unjustified and there is no clean structural level at spot for either side. HOLD is the highest-expectancy call; I want price to pick a side first.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 97.2,
+    "expires_min": 240,
+    "note": "Losing the recent 15m swing low breaks the coil and confirms the sell-the-news / distribution fade off the 101 rejection \u2014 a valid pre-earnings short trigger toward 95."
+  },
+  "transcript": {
+    "macro": "Regime MIXED, cautious risk-on after rough week (semi rout on AI-capex fears). 10Y 4.55%, DXY ~101, ~53% odds Sept Fed HIKE. Tokenized equities, near-zero BTC corr (INTC 0.062), funding flat, thin/gappy. INTC HOSTILE to hold into window: structure_bias -0.337, L/S 1.96, orderbook -0.165. STRETCHED: RSI 81.5, bb_pctb >1, ADX 68.8, +163% YTD. CRITICAL: earnings Thu July 23 after close, ~15% implied move inside hold window \u2014 no naked directional carry.",
+    "sentiment": "INTC HIGH-RISK BINARY: earnings after close July 23 2pm PT (rev $13.8-14.8B, adj EPS ~$0.20, GM ~39%). Overbought into print, vulnerable to sell-the-news fade even on OK number. Tailwinds price can't see: US govt 10% stake, foundry deals reportedly with Apple & Google, 18A-P in risk production \u2014 raise the bar. Lean neutral-to-cautious; flat or hedged into the print.",
+    "analyst": "Euphoric stretched long coiling below 99.4 after failing at 101 on fading volume. ~15% earnings binary Thu July 23 inside the hold window = naked directional risk unjustified; no clean level at spot for either side. HOLD is highest expectancy; want price to pick a side first.",
+    "portfolio": "HOLD INTC \u2014 no carry through the July 23 earnings binary; short only on loss of 97.2, no fresh long into the print."
+  },
+  "timestamp": "2026-07-20T17:42:29.169363+00:00"
+}

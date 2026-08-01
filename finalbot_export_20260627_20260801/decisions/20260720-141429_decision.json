@@ -1,0 +1,24 @@
+{
+  "symbol": "EWY/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.55,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "rationale": "EWY spiked to 167.6 on a volume climax and was immediately rejected back to 165.5 \u2014 a failed breakout, not a base. Macro is hostile to chasing long (semis drawdown, EWY a badly-lagging SK Hynix proxy at RS -27.7%, Intel print Thu as beta risk) and 30m RSI 72.7 is hot; but price sits mid-range so a bare short gets stopped by a routine bounce. Structure is neutral (LSR 1.09, funding 0), no directional fuel. Best expectancy is to wait for the range to resolve rather than force a sub-1.5R trade.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 164.8,
+    "expires_min": 240,
+    "note": "Losing 164.8 (below the last bars' lows and VWAP band) confirms the failed-breakout rollover toward 163.3/162 \u2014 arms a macro-aligned short."
+  },
+  "transcript": {
+    "macro": "Regime mixed-to-hostile for chasing longs; semis in active July drawdown (AI-capex fears). Hawkish Fed (Warsh), ~53% odds Sept hike; Middle East war lifting oil/inflation; USD a headwind. Every target lags BTC and LSRs crowded-long (structure_bias negative) \u2014 favor mean-reversion/shorts over trend-longs; smaller size, tight stops if long.",
+    "sentiment": "Heavy earnings week. Live <=48h binaries: TSLA Wed Jul 22, INTC Thu Jul 23. EWY mildly bullish flows (record >$1.1B inflows on SK Hynix ADR debut) but headline-driven SK Hynix/HBM proxy; US Commerce fab-relocation pressure a swing risk; event-exposed to Intel print as beta.",
+    "analyst": "Failed-breakout: 167.6 volume-climax spike rejected to 165.5. Mid-range between VWAP ~163.3 and the failed high; long chases a rejected breakout into hostile semi tape (p~0.45), short mid-range eats the natural bounce. Neutral structure gives no fuel. HOLD dominates until a level breaks.",
+    "portfolio": "HOLD EWY \u2014 failed 167.6 climax; short on loss of 164.8, no chase here."
+  },
+  "timestamp": "2026-07-20T14:14:29.088107+00:00"
+}

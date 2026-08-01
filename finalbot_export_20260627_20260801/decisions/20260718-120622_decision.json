@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "TSLA/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Stalled LTF bounce drifts sideways in the 381-383 zone below VWAP on dead weekend volume; likely chops here into Monday unless it reclaims ~395 (VWAP) or loses 377.78 support.",
+  "expectancy_note": "Long chases a stalled bounce mid-air below VWAP (no follow-through); short fights the winning-long learner stat (shorts n=36 win 0.47 vs longs n=8 win 0.75) and fades 4h RSI 15.7 into crowded longs (squeeze fuel). No side clears R:R 1.5 in thin weekend tape \u2014 HOLD is highest expectancy.",
+  "rationale": "TSLA shows a green LTF bounce (15m/1h/5m long, p_win 0.77) off 377.78 support, but it has stalled dead-flat near 382 on collapsing volume, still 3.3% below VWAP, while 4h remains a downtrend (RSI 15.7). US cash is closed (Saturday) so the tape is thin/gappy, and Q2 earnings hit Wed Jul 22 after close \u2014 event-driven, elevated risk. Learner says shorts are bleeding (avg -0.87) and structure/rel-strength weights are heavily negative, so a short is low-quality; a long is chasing a stalled bounce with no momentum. Neither offers 1.5R cleanly, so wait.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 395.0,
+    "expires_min": 240,
+    "note": "Reclaiming VWAP ~395 would confirm the bounce has real momentum and flip to a long with the LTF trend instead of chasing a stalled drift."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF, tech-led but TSLA MIXED. BTC-corr 0.23, trade Nasdaq tape. Fri Jul 17 Nasdaq -1.4%, -2.9% week. Funding 0.0; long/short 1.95 (crowded long). Short-term long bounce (5m/15m/1h green, p_win 0.77) BUT 4h down, RSI 15.7 \u2014 counter-trend scalp only. Weekend illiquidity; size down.",
+    "sentiment": "TSLA CATALYST IMMINENT \u2014 Q2 earnings call Wed Jul 22 after close (hard binary just outside 48h); expect vol build-up. Q2 deliveries (~Jul 2) blowout: 480,126 vs ~406k consensus, best-ever Q2, energy strong. Tone constructive but the earnings/guidance event is the real driver \u2014 elevated-risk, event-driven.",
+    "analyst": "Green LTF bounce off 377.78 has stalled flat near 382 on dying volume, still 3.3% below VWAP; 4h remains downtrend (RSI 15.7). Long chases a stalled bounce; short fights winning-long learner stat and fades deep oversold into crowded longs. Earnings Wed adds event risk. No 1.5R. HOLD; long only on VWAP ~395 reclaim.",
+    "portfolio": "TSLA: HOLD (conf 0.60) \u2014 stalled bounce, earnings Wed; wait for 395 VWAP reclaim."
+  },
+  "timestamp": "2026-07-18T12:06:22.805150+00:00"
+}

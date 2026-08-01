@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "COIN/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price grinds sideways-to-slightly-lower around 161-162 into the next few bars; deeply oversold (RSI 25, lower BB) with crowded shorts (L/S 0.75) means a chase-short is dangerous, but no reversal candle yet means no long. Expect a coil, then resolution on BTC's lead.",
+  "expectancy_note": "Short = chasing 2.76% below VWAP into RSI 25 + crowded shorts (squeeze risk, R:R < 1.5); long = countertrend into ADX 62 with no confirmation. Neither clears the 1.5R bar; HOLD is highest expectancy.",
+  "rationale": "COIN is pure BTC-beta (corr 0.735) and BTC is neutral/mid-range, giving no directional lead. 4h is a strong downtrend (ADX 62) yet deeply oversold (RSI 25, %B 0.06) with shorts crowded (L/S 0.75) \u2014 a textbook no-trade zone where a short chases and a long fights the trend without a trigger. Candles still making lower-lows on fading volume with no reversal bar; wait for confirmation.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 163.9,
+    "expires_min": 240,
+    "note": "Reclaiming the 163.8 micro-swing on rising volume confirms the oversold + crowded-short squeeze is starting, flipping to a long toward 168-170."
+  },
+  "transcript": {
+    "macro": "Regime MIXED, cautious risk-on with a rare hawkish-Fed tail (~56% odds of a HIKE by Sept, 10y ~4.48%); soft NFP (+57k) softened DXY (~101) supporting metals/risk near-term. US cash market CLOSED at timestamp -> tokenized stocks (EWJ/META/ORCL/COIN/MU) gappy/thin. Crowded-long positioning (high L/S) across the book into a tape near equity highs = contrarian downside risk; favor smaller size, sell bounces on shorts rather than chase. BTC ~62.7k perp, dominance ~58%, funding barely positive, no leverage blow-off. Correlation warning: COIN~BTC 0.735, MU~QQQ 0.71, XAG~gold 0.87 - not independent bets.",
+    "sentiment": "No tier-1 US data inside 48h (next CPI Jul 14, FOMC Jul 29). Live catalyst: overnight US airstrikes on Iran (Strait of Hormuz) lifting oil, stoking inflation/rate-hike fears = risk-off tilt; broad AI/semiconductor sentiment wobble (Samsung -10%, Nikkei -2.1%). BTC neutral-to-mildly-positive, ETF flows flipped +$46.6M. META positive but stretched (Meta Compute launch), earnings Jul 29. XAG bearish near-term, Iran fear hurting silver via rate-hike odds. ORCL negative AI-capex/cash-drain narrative, no fresh trigger. COIN neutral BTC-beta. MU high event risk: SK Hynix (SKHY) Nasdaq listing Jul 10 could rotate flows out; Burry disclosed short; semis selloff.",
+    "analyst": "COIN is pure BTC-beta (corr 0.735) and BTC is neutral/mid-range, giving no directional lead. 4h is a strong downtrend (ADX 62) yet deeply oversold (RSI 25, %B 0.06) with shorts crowded (L/S 0.75) \u2014 a textbook no-trade zone where a short chases and a long fights the trend without a trigger. Candles still making lower-lows on fading volume with no reversal bar; wait for confirmation.",
+    "portfolio": "HOLD COIN \u2014 BTC-beta with no lead; oversold + crowded shorts = no-trade zone, arm the long on a 163.9 reclaim."
+  },
+  "timestamp": "2026-07-08T05:01:03.178601+00:00"
+}

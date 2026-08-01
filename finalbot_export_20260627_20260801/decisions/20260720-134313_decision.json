@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "MSFT/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Two-bar rip from 389.45 to 393.31 (last bar closed on its high, 5m RSI 68) likely extends to retest VWAP/broken-supply near 394.5-396 within 2-4 bars, then the 1h/30m downtrend (RSI 35) should reassert and fade it back toward 391 then 389.",
+  "expectancy_note": "p(win) ~0.5 either way now; shorting the fresh +$3.5 pop gets stopped by continuation (account shorts avg -0.77R, late shorts are the #1 loss pattern), and no long confluence exists in a 1h downtrend \u2014 best EV is to wait for the 395 rejection.",
+  "rationale": "Composite is short (-0.434, 1h RSI 35) but the last two 15m candles ripped +0.9% into VWAP with a close on the high and 5m RSI 68 \u2014 a live counter-trend bounce, exactly the stretched tape that stops out this account's late shorts. There is no long setup either (1h/30m down, no bullish divergence). A market short here has poor R:R against continuation; the honest trade is to short the retest into resistance, not chase. HOLD and let the bounce show its hand.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 395.0,
+    "expires_min": 240,
+    "note": "A tag of 395 completes the VWAP/broken-supply retest \u2014 reject there = high-EV short into the intact 1h downtrend; a decisive reclaim/hold above 397 instead breaks the downtrend and opens a bounce-long."
+  },
+  "transcript": {
+    "macro": "Cautiously risk-on, low-conviction; Big Tech earnings gauntlet this week (GOOGL/TSLA/INTC 7/22); no FOMC in 48h; BTC chop; funding near-zero equity perps; L/S lopsided-long board-wide. MSFT: mild short (blended -0.43, 1h down RSI 35) but 5m ticking up (RSI 68) \u2014 possible bounce within a downtrend; orderbook bid (+0.52); choppy, no strong edge.",
+    "sentiment": "Crypto F&G 36. MSFT: no catalyst inside 48h; earnings 7/29 (outside window); neutral-to-soft AI-capex/cloud beta; treat as technical.",
+    "analyst": "Composite short but last two 15m candles ripped +0.9% into VWAP closing on the high (5m RSI 68) \u2014 a live counter-trend bounce; shorting it is the account's late-short loss pattern. No long confluence in a 1h downtrend. HOLD; short the retest into 395, flip-long only above 397 reclaim.",
+    "portfolio": "HOLD MSFT \u2014 wait for the 395 rejection; no chase either way."
+  },
+  "timestamp": "2026-07-20T13:43:13.188304+00:00"
+}

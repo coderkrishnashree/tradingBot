@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "BTC/USDT:USDT",
+  "size": 0.0,
+  "entry": 64681.2,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Mid-range chop: BTC likely oscillates 64500-64950 over the next few bars. The 15m rollover off 64948 points slightly lower toward 64500-64600, but with 1h/4h still up and price mid-range there is no clean edge until it reaches 65.4-65.6k resistance (short the fade) or loses 64.3k support (momentum short).",
+  "expectancy_note": "No edge mid-range: shorts have negative expectancy this book (47% win, -0.87 avg over 36) and price sits +1.26% VWAP mid-range, not at the 65.5k resistance where a crowded-long fade actually pays; a short here needs a stop above 64950 for a range-low target = poor R:R into a losing pattern. HOLD beats forcing it.",
+  "rationale": "BTC is rangebound 61.8-65.6k and currently mid-range at 64.7k after rolling over from 64948 under resistance. Timeframes conflict (15m/30m/5m short-flat vs 1h/4h long, ADX only 28.6), structure is crowded-long (bias -0.252) which favors fades but only AT the extreme, not here. The learner shows this account's shorts bleed (47% win) so I will only short at the resistance retest or on a confirmed range-low break, not into the muddy middle. Zero size until price defines itself.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 65400,
+    "expires_min": 360,
+    "note": "A push into 65.4-65.6k resistance with crowded-long structure and overbought RSI/stoch is the high-edge fade setup \u2014 re-debate for a short there."
+  },
+  "transcript": {
+    "macro": "Mildly risk-off, tech-led. Nasdaq -2.9% on the week, semiconductor rout on AI-capex-cut fears. Crypto neutral-to-heavy: BTC ~$63.9-64.7k flat 24h, dominance high ~56.3% (BTC-led, alts not leading). Funding benign (0.0001) but structure long-heavy: BTC L/S 1.44, orderbook imbalance -0.265, structure_bias -0.25 (crowded-long, contrarian headwind for fresh longs). BTC rangebound $61.8-65.6k, long-crowded into resistance. Cycle bias: favor shorts/fades over fresh longs.",
+    "sentiment": "Risk-off, 'sell crypto beta' tape. BTC: fragile \u2014 just bounced off a 21-month low (~$58K) to ~$64.7K on soft CPI, but June saw record $4.5B spot-ETF outflows, Citi cut its target to $82K, Fear & Greed = 11 (extreme fear). FOMC late-July (~Jul 29-30) next big binary. Near-term: unstable, downside risk if ETF flows relapse.",
+    "analyst": "Rangebound 61.8-65.6k, mid-range at 64.7k after rolling over from 64948. TFs conflict (15m/30m/5m short-flat vs 1h/4h long, ADX 28.6), crowded-long (bias -0.252) but the fade only pays at the 65.5k extreme, not mid-range. Account shorts bleed (47% win) so no mid-range short. Zero size; reconsider a fade at 65.4k resistance or a momentum short on losing 64.3k support.",
+    "portfolio": "BTC \u2014 HOLD (size 0): mid-range chop with conflicting TFs; only trade the fade at 65.4-65.6k resistance or a break of 64.3k support."
+  },
+  "timestamp": "2026-07-19T06:12:26.811203+00:00"
+}

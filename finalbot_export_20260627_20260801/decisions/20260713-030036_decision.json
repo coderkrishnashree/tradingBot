@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "ORCL/USDT:USDT",
+  "size": 0.0,
+  "entry": 139.72,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.58,
+  "playbook": "none",
+  "forecast": "Oversold (1h RSI 24, %B 0.08) and pinned to lower band ~1.5% above support 137.63; the last bounce to 140.15 just got rejected but tape is stretched \u2014 base case is a chop/relief bounce toward VWAP ~143 over the next several bars before the downtrend can resume; a clean break of 137.63 is the alternative that opens the next leg down.",
+  "expectancy_note": "Market-short here ~55% at best but into oversold tape a routine bounce hits any honest stop first (this account's #1 loss pattern; trend-short playbook 0.45 win / -2.51 avg). Better short is a limit into a bounce or a fresh-low break \u2014 neither triggerable now, so HOLD wins on expectancy.",
+  "rationale": "4h downtrend (ADX 38, L/S 2.52 crowded-long = contrarian bearish) makes short the right DIRECTION, but the entry is wrong: price is at the bottom of the Bollinger band, 1h RSI 24, only 1.5% above support 137.63 \u2014 chasing a market short here is exactly the late-into-stretched-tape setup that has been losing. US cash equities are CLOSED, so this tokenized-equity perp is thin and gap-prone into Monday, adding uncontrolled risk. No trade: wait for either a bounce to fade near VWAP ~143 or a confirmed break of support.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 137.63,
+    "expires_min": 240,
+    "note": "Losing 137.63 support breaks the base and confirms trend continuation \u2014 that is a clean fresh-low short entry with a real structural stop, unlike chasing the current oversold low."
+  },
+  "transcript": {
+    "macro": "Scan 2026-07-13 ~02:57 UTC = Sunday night ET; US cash equity markets CLOSED until Monday \u2014 tokenized equity perps thin/wide/gap-prone (dominant fact). Broad tape mildly risk-on but choppy (S&P +0.4%/Nasdaq +0.3% Fri, ~+1% wk); hawkish FOMC-minutes tail + oil bid on Iran ceasefire 'over' = weekend gap risk; no CPI/FOMC in 48h. ORCL last ~139.72, funding ~0, OI 14.2k, long/short 2.52 (crowded long -> contrarian bearish), orderbook -0.08, RS -18.8% vs BTC (real laggard), downtrend all TFs (4h RSI ~40, ADX 38); next earnings Sept 14. Verdict: MIXED-to-HOSTILE for fresh entries \u2014 short bias coherent but illiquid weekend gap; size smaller.",
+    "sentiment": "ORCL bearish/risk-off. Stock ~$143, -27% YTD, >50% off ~$346 high; just logged worst week since 2001 dot-com bust (~19%) on AI-capex/debt fears. Balance-sheet panic: ~$130B debt, ~$56B FY26 capex, ~-$24B FCF, ~$40B FY27 raise (~5% dilution); $638B RPO but ~$300B is OpenAI = concentration; cutting ~21k jobs. No imminent scheduled binary (earnings June 10, next ~Sept). Move extended \u2014 watch oversold bounce; tape drives next 48h.",
+    "analyst": "4h structure confirms the short DIRECTION (ADX 38 downtrend, L/S 2.52 crowded long, RS -18.8%), but the entry is wrong: 1h RSI 24, %B 0.08, pinned to lower Bollinger band only ~1.5% above support 137.63, and the bounce to 140.15 just got rejected. Chasing a market short into oversold tape is this account's #1 loss pattern (trend-short playbook 0.45 win / -2.51 avg). US cash equities CLOSED = thin/gappy weekend perp into Monday. HOLD; reconsider on a clean break of 137.63 (fresh-low short) or a fade near VWAP ~143.",
+    "portfolio": "ORCL/USDT:USDT \u2014 HOLD (conf 0.58): right direction, wrong entry; oversold at band bottom + illiquid weekend gap. Reconsider on break of 137.63."
+  },
+  "timestamp": "2026-07-13T03:00:36.354739+00:00"
+}

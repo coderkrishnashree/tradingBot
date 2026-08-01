@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "HOOD/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Price coils 116.4-117.2 under the 117.5 rejection high; most likely it chops here or fades toward VWAP/114 before the next real move. A clean 15m close above 117.5 opens 120.1; failure sees a retest of 114.1 higher-low.",
+  "expectancy_note": "Long here is chasing: stoch 91, +2.8% above VWAP, into a wall that already rejected 117.5->114.1. Stop below 113.9 (~2.6%) vs 120.1 target (~2.7%) is ~1:1 with the wall in the way \u2014 fails R:R. Short fights a clean uptrend + strongest RS + neutral positioning. Best EV is waiting for the break or the pullback.",
+  "rationale": "HOOD is mid-air under intraday resistance (117.5 rejected once to 114.1) and stretched (stoch 91, VWAP +2.8%), so neither side offers 1.5R now. Structure is the cleanest/least-crowded of the pair (bias -0.058) and RS leads at +9.45%, so the uptrend deserves respect \u2014 but I want it CONFIRMED by a 117.5 reclaim-and-hold, not chased into the wall. A dip to 114 would give a far better long entry against structure. HOLD until one of those triggers; no size justified in the coil.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 117.55,
+    "expires_min": 240,
+    "note": "A 15m close above the 117.5 rejection high clears the intraday wall and opens the 120.1 swing target \u2014 that flips this to a continuation long with a stop back inside 116."
+  },
+  "transcript": {
+    "macro": "Cautiously risk-on but geopolitically fragile (US-Iran escalation, intraday gap risk). Megacap tech holding up supports longs; breadth weak. HOOD: last ~117 (equity ~$115-116, day range 111.6-117.5). Strongest RS of the pair +9.45% vs BTC (leading), BUT btc_corr 0.632 \u2014 trades as crypto-beta (moves with COIN 0.81, MSTR 0.65), so a crypto risk-off hits it harder than META. Derivs cleanest of the two: funding 0.0, OI 8104, LSR 1.352 (mild long lean), orderbook +0.156 (bid-supported), structure_bias -0.058 (near-neutral, least crowded). All TFs up (5m/4h long, 15m-1h flat-to-up) but stoch 91 / 5m RSI 73 stretched. Earnings Jul 29 (outside window). Verdict: longs mixed-to-supportive but overbought; shorts hostile-to-mixed; biggest risk is 0.63 BTC correlation; normal/smaller size, tight stops.",
+    "sentiment": "HOOD near-term MIXED (bullish momentum, but stretched/above PT). Earnings Jul 29 (outside window); Street EPS ~$0.41 (down YoY), focus on crypto margins/options take rates. Fresh catalyst Jul 1: London launch \u2014 Robinhood Chain (Arbitrum L2) mainnet, tokenized stock tokens in 120+ countries, Robinhood Earn (~7% yield), agentic AI crypto trading, new perps; stock +5% on news; also Trump Accounts. Technicals: closed ~$117.55 Jul 6, RSI ~70, above upper Bollinger \u2014 extended. Analysts mixed: 17/25 Strong Buy but consensus PT (~$107) BELOW current price; FY EPS seen down ~12%.",
+    "analyst": "HOOD is coiling at 116.99 directly under the 117.5 level that already rejected it hard to 114.12, while stretched (stoch 91.2, VWAP +2.8%). 15m: impulse from 112.14 to 117.48, sharp rejection to 114.12, then higher-lows rebuilding into a 116.4-117.2 coil. A long here chases into that wall with only ~1:1 R:R to the 120.12 target (stop below 113.9 ~2.6% vs target ~2.7%) \u2014 fails R:R and is the account's #1 loss pattern. A short fights the pair's cleanest structure (bias -0.058) and strongest relative strength (+9.45%). High-expectancy move is to wait: a 15m close above 117.55 confirms continuation toward 120.1, or a dip to VWAP/114 gives a lower-risk long against structure. HOLD; reconsider armed at price_above 117.55.",
+    "portfolio": "HOLD HOOD/USDT:USDT \u2014 no size; coiling under a rejected wall with stretched momentum offers no 1.5R either way, wait for the 117.55 breakout or a 114 pullback."
+  },
+  "timestamp": "2026-07-09T15:59:08.289310+00:00"
+}

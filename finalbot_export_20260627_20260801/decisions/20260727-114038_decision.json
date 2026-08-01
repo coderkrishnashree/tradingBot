@@ -1,0 +1,25 @@
+{
+  "symbol": "BTC/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.6,
+  "size": 0.0,
+  "entry": 65138.1,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "forecast": "Drift/grind lower from 65,138 toward the 64,500-63,678 support band; either bounces off 63.7k or reclaims the 65,400 lower-high pivot. Until then, chop.",
+  "rationale": "Composite reads 'long' (0.249) but carried entirely by the stale 4h/1h scores (4h RSI 74, overheated); every lower TF that forecasts the next bars is flat-to-down (5m -0.78, RSI 27). The 15m sequence is lower highs / lower closes with the last bar shutting at its low near 65,093 \u2014 momentum bleeding into support, not basing. A fresh long is a chase into a falling knife with funding+ and orderbook -0.235; a short into the near 63,678 support two days before FOMC is equally low-quality. No entry clears R:R 1.5. Wait for the tape to pick a side.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 65400,
+    "expires_min": 240,
+    "note": "Reclaiming the 65,400 lower-high pivot confirms the higher-TF long bias -> continuation toward 66,900."
+  },
+  "transcript": {
+    "macro": "REGIME: RISK-ON but event-capped. US futures gapped up post US-Iran ceasefire (ES +0.8%, NQ-100 +1.6%); WTI down ~5-7% to ~$85 (relief bid, not trend restart). BTC dominance high ~58.7%, funding modest/neutral -> no crypto froth, alts no independent tailwind. Hard event gates inside 48h: FOMC Wed 7/29 (hold ~86% priced) PLUS a wall of Mag-7 earnings the same window. Clean risk-on window is essentially today's US session; anything held past Tue close carries binary gap risk. Per-name lean: BTC neutral-to-constructive; SOL neutral/crowded (worst laggard, L/S 2.72); MSTR constructive-with-caveat (0.73 BTC-corr, now selling BTC for dividends); HOOD/COIN risk-on beta; META/MSFT supported today but binary earnings gap risk; NVDA/MU/INTC semis weak (shorts better supported); QQQ/EWY index beta, FOMC-capped, thin off-hours; XAUT two-sided (crowded long, FOMC is the swing); CL bearish momentum but RSI ~20 washed-out, mean-revert bounce risk on shorts. Biggest cross-book risk: FOMC + Mag-7 earnings cluster inside the 2-day hold horizon -> smaller size, no naked overnight equity into earnings.",
+    "sentiment": "Loaded 48h window: FOMC Wed 7/29 2pm ET (~86% priced hold) lands the SAME day as a wall of mega-cap earnings. Treat all equities/ETFs as event-risk landmines through 7/30. XAUT neutral-to-bullish (off 9-mo lows, now rates-driven, FOMC binary); META BEARISH event risk (Q2 AMC Wed 7/29); SOL mildly bullish (Morgan Stanley spot SOL ETF MSOL approved 7/24) but 0.85 BTC-corr dominates; CL bearish momentum (RSI ~20, Iran de-escalation, OPEC+ Aug 2, oversold bounce risk); NVDA neutral (earnings Aug 26); QQQ bearish event risk (GOOGL Tue / MSFT+META Wed earnings + FOMC); TSLA bearish residual (reported 7/22, -15%, catalyst spent); GOOGL BEARISH event risk (Q2 AMC Tue 7/28, imminent binary); MU neutral (earnings ~Sept 23); MSFT BEARISH event risk (AMC Wed 7/29 same day as FOMC, RSI ~74); BTC neutral-cautious (Fear&Greed ~30, coiled on FOMC); MSTR BEARISH event risk (AMC Thu 7/30, leveraged BTC proxy); HOOD BEARISH event risk (Q2 AMC Wed 7/29); EWY neutral-to-cautious (+100%+ YTD, KOSPI sold-the-news on 'fading chip momentum', overbought/fragile). DESK-CRITICAL: GOOGL(Tue 7/29 close), MSFT+META+HOOD(Wed 7/29)+FOMC, MSTR(Thu 7/30). Avoid overnight equity size into these prints.",
+    "analyst": "Composite reads 'long' (0.249) but carried entirely by the stale 4h/1h scores (4h RSI 74, overheated); every lower TF is flat-to-down (5m -0.78, RSI 27; 15m/30m flat). 15m is lower highs / lower closes with the last bar shutting at its low near 65,093 \u2014 momentum bleeding into support, not basing. A fresh long is a chase into a falling knife; a short into 63,678 support pre-FOMC is equally low-quality. Wait for the tape to pick a side.",
+    "portfolio": "HOLD \u2014 composite long is stale 4h only; intraday bleeding into support pre-FOMC. Size 0."
+  },
+  "timestamp": "2026-07-27T11:40:38.446942+00:00"
+}

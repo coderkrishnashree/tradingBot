@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "CL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price is stalling at 73.7-73.94 under the ~74.1 macro resistance with upper-wick rejection and a fading close; expect chop 73.3-73.9 next few bars, then resolution \u2014 a headline-driven flush toward 72.5/72.0 OR a clean break >74.1 toward 76. No clean edge mid-air.",
+  "expectancy_note": "p(win) too low both ways here: chasing a +1.63% VWAP-extended, 1h-RSI-72, %B-0.88 long into the account's #1 loss pattern (late trend-continuation, 44% win) has poor R:R; shorting a 53-ADX uptrend into live Hormuz gap risk is a coin flip. Waiting for a retest long or a structure-break short beats both.",
+  "rationale": "CL is the most crowded long on the board (L/S 4.07, positive funding, structure_bias -0.342 AGAINST the long) and is extended into the $74 resistance the macro flagged, with the last two 15m bars showing upper-wick rejection and a lower close \u2014 classic chase trap given deflating geopolitical premium and event-heavy 48h (OPEC/CPI/EIA) gap risk. I won't market-buy an extended move (the documented #1 loser) nor short a strong ADX uptrend into two-way headline risk. Size 0: no honest entry at 73.63 mid-air; wait for a pullback-to-VWAP long or a confirmed break of the higher-low structure.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 72.9,
+    "expires_min": 240,
+    "note": "Losing 72.9 breaks the recent higher-low structure and confirms the crowded-long flush / premium deflation \u2014 arms a short toward 72.0/71.3."
+  },
+  "transcript": {
+    "macro": "2026-07-12 (Sunday) regime cautious/mixed, USD/rates higher, oil the wildcard. CL trades ~24/7 (energy reopens Sunday evening) \u2014 the one live macro name. Geopolitics-driven: Strait of Hormuz / US-Iran premium; benchmarks +5-6% on week but FADING on interim US-Iran deal + returning Iranian barrels. WTI ~$72, resistance ~$74, support ~$70. Scan long (+0.407) but structure_bias -0.342 against; L/S 4.07 (EXTREMELY crowded long \u2014 strongest contrarian flag), positive funding, negative BTC corr (-0.26). Biggest single risk: crowded-long into a deflating premium.",
+    "sentiment": "CL: event-heavy week \u2014 OPEC meeting, June CPI, EIA crude inventories, U-Mich inflation, several inside 48h. Live geopolitical risk: renewed Gulf/Hormuz exchanges vs Iran-negotiation easing. Brent ~$76 but IEA/EIA see H2 surplus (3Q Brent ~$74) \u2014 structural bear vs tactical bid. Two-sided, headline-driven; respect stops, can gap either way.",
+    "analyst": "Most crowded long on the board (L/S 4.07, positive funding, structure_bias -0.342 against) and extended into ~$74 resistance; last two 15m bars show upper-wick rejection and a lower close \u2014 classic chase trap given deflating premium and event-heavy 48h gap risk. Won't market-buy the extended move (documented #1 loser) nor short a 53-ADX uptrend into two-way Hormuz gap risk. No honest entry at 73.63 mid-air. HOLD; short arms on losing the 72.9 higher-low structure, long on a pullback-to-VWAP retest.",
+    "portfolio": "CL: HOLD \u2014 no size; short trigger on break of 72.9, else await VWAP retest long."
+  },
+  "timestamp": "2026-07-12T08:33:06.180263+00:00"
+}

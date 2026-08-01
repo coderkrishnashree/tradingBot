@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "COIN/USDT:USDT",
+  "size": 0.0,
+  "entry": 158.23,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.35,
+  "playbook": "none",
+  "forecast": "Price is rolling down into the close (last 15m bar shut on its low at 158.23) and likely probes 155-156 / support 154.97 over the next few bars; the bullish divergence argues the down-leg is late, so I expect a base near support then a bounce back toward 159-160 - but there is no reversal print yet, so I wait.",
+  "expectancy_note": "Short = chasing RSI 29.8 + bullish divergence into support 154.97 (account's proven loser: 16 shorts 50%/-2.8 avg); long = knife-catch with no confirmation, bar closed on its low. Neither clears 1.5 R:R with real p(win); HOLD has best expectancy.",
+  "rationale": "COIN is a leveraged BTC proxy in a strong ADX-76 downtrend but now deeply oversold (15m RSI 29.8) with a flagged bullish divergence only ~2% above support 154.97 - the textbook trap where shorting gets bounced and longing catches a falling knife. Thin tokenized-equity liquidity, soft crypto beta (BTC $62-64k), and CPI in 4 days all argue for smaller/no risk. I want confirmation: a reclaim of the 159.3 rollover ceiling validates the divergence long; a clean break of 154.97 opens the continuation short. Size 0 until price picks a side.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 159.3,
+    "expires_min": 240,
+    "note": "Reclaiming the 159.3 ceiling where the rollover began confirms buyers defended oversold/support and validates the bullish-divergence long back toward 162-163."
+  },
+  "transcript": {
+    "macro": "Regime cautiously risk-on but fragile/headline-driven (Nasdaq +1.30%, S&P +0.81% July 9, chip-led bounce off Iran/oil selloff). Biggest event risk June CPI July 14 into a hawkish Fed -> smaller size/shorter holds. Crypto beta SOFT: BTC ~$62-64k, dominance ~55-56%, US spot demand weak (Coinbase Premium ~50-day negative streak). COIN trades as leveraged BTC proxy (corr 0.734), rel strength -3.6%. Funding ~0.0, L/S 1.10 balanced, structure_bias -0.069. Verdict: NEUTRAL for longs, lean cautious.",
+    "sentiment": "COIN neutral-to-slightly-bullish momentum, no <=48h binary. Ripped ~19% early July (to ~$165 July 2) on System Update event (tokenized stocks, on-platform options, US equity access, AI advisor) - multi-quarter narrative, not next-candle catalyst. Pullback to ~$158 with bullish 15m divergence. Q2 earnings July 30 (outside window); Q1 badly missed. Near-term = bet on BTC holding $64K. US markets open normal hours (no off-hours gap risk).",
+    "analyst": "COIN 158.23, support 154.97, resistance 175.05; RSI 32.9(4h)/29.8(15m) deeply oversold; ADX 76.3 strong downtrend; bullish divergence flagged. Last 4 15m bars rolled over, final bar closed AT its low with no bounce. Short = chasing oversold+divergence into support (account's #1 loser). Long = knife-catch, no confirmation. HOLD; arm long trigger on reclaim of 159.3, short opens on clean break of 154.97.",
+    "portfolio": "COIN -> HOLD (conf 0.35): stand aside; wait for 159.3 reclaim (long) or 154.97 break (short)."
+  },
+  "timestamp": "2026-07-10T00:58:51.215619+00:00"
+}

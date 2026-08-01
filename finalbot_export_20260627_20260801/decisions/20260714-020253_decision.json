@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "XAG/USDT:USDT",
+  "size": 0.0,
+  "entry": 57.47,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price bounced off defended support 56.93 and closed the last 15m at its high (57.47); expect chop/relief drift toward 57.7-58.0 VWAP into the CPI print, with a decisive close under 56.93 only later re-opening the downtrend toward 55.5.",
+  "expectancy_note": "Short here is negative-EV: 4h RSI 12.3 + %B 0.016 at just-defended support means an honest stop (>57.75) is ~$0.9 vs a ~$0.5 move to target = <1.0 R:R, and a CPI/Hormuz safe-haven squeeze can gap it against a short. HOLD beats a coin-flip short.",
+  "rationale": "XAG is maximally oversold (4h RSI 12.3, ADX 72, %B 0.016) sitting ON support 56.93, which the tape just defended with a V-bounce closing at candle highs on peak volume. Long/short 4.05 is crowded long but only pays if 56.93 BREAKS; entering short now is the textbook late-short-into-stretched-tape loss, and a sub-24h CPI + Hormuz safe-haven binary can squeeze it up violently. No long either into a hard downtrend against a hot-CPI headwind. Wait for the level to resolve.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 56.9,
+    "expires_min": 240,
+    "note": "A decisive 15m close below the just-defended 56.93 support re-opens the trend-continuation short with the crowded 4.05 longs as fuel and a clean stop above 57.5."
+  },
+  "transcript": {
+    "macro": "RISK-OFF/hostile to longs. US-Iran/Hormuz, DXY broke 100, Fed hike tail, CPI+bank earnings <48h. XAG lean SHORT but do NOT chase: down ~44% from Jan peak, last 57.47, 4h RSI 12.3 extreme oversold, ADX 72, long/short 4.05 wildly long, at $56.93 support defended repeatedly \u2014 highest bounce-risk name.",
+    "sentiment": "Risk-OFF; Hormuz shock; June CPI Tue Jul 14 AM ET (~+3.8%), hawkish Fed. XAG mixed/two-sided, HIGHEST event risk: safe-haven bid from Hormuz + Fed-cut hopes could snap it UP; hot CPI is a headwind. The one name where the <=48h catalyst can cut AGAINST a short via a safe-haven squeeze.",
+    "analyst": "Violent mature 4h downtrend (ADX 72) now maximally stretched (RSI 12.3, %B 0.016) pinned to lower band on 56.93 support; heavy-volume flush tagged 56.93 then reflexed higher, last 15m closed at range high 57.47, 5m gone flat \u2014 active bounce off defended support, not a fresh breakdown. Short = chasing; honest stop >57.75 (~$0.9) vs ~$0.5 target = sub-1.0 R:R. No long into a downtrend vs hot-CPI dollar. HOLD, arm short on decisive break below 56.93.",
+    "portfolio": "HOLD XAG \u2014 maximally oversold at defended support with two-sided CPI/safe-haven risk; arm short below 56.90."
+  },
+  "timestamp": "2026-07-14T02:02:53.940340+00:00"
+}

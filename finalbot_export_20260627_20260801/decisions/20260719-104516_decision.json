@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "ORCL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Thin Sunday tape: chops 126.4-127.1 around VWAP; a clean break below 126.4 targets 124.5 then support 120.79, while a reclaim of 127.5 squeezes the crowded shorts of an already-flushed 5m.",
+  "expectancy_note": "No edge now: price sits AT VWAP (+0.44%), mid-band (bb%b 0.52) \u2014 not extended enough to fade, and 5m already flushed to RSI 22 (chasing a short = bounce risk). p(win) of a market entry <0.5; wait for the level.",
+  "rationale": "Tokenized equity, US cash CLOSED (thin/gappy indicative pricing) => execution/gap risk. Setup muddy: 4h trend strong (ADX 61) but RSI 74 stretched with 4h MACD rolling negative, composite long NOT aligned (conf 57.9%), L/S 2.70 the most crowded-long in the book (contrarian short fuel) \u2014 yet price is parked at VWAP with no proximate target, so neither side offers R:R>=1.5. Hostile risk-off/AI-capex macro biases down, so short a break, not fade mid-range. Wait.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 126.35,
+    "expires_min": 240,
+    "note": "Losing the 126.4 intraday shelf confirms the fade off 127.14 and opens a crowded-long flush toward 124.5/120.79 \u2014 arms a trend-short with the macro."
+  },
+  "transcript": {
+    "macro": "RISK-OFF regime (2026-07-19). AI-capex fear dragging mega-cap software/semis lower. Fed hawkish (25bp hike priced). US cash CLOSED (Sunday) => thin/gappy indicative pricing. Funding ~0 uninformative; L/S 2.70 = most lopsided-long in book => structure_bias -0.29 (contrarian short). ADX 61 strong trend but RSI 74 stretched; corr to BTC 0.11, RS -23%. Crowded long into a hostile AI tape \u2014 smaller size, long is contrarian to flow.",
+    "sentiment": "ORCL bearish tilt/caution. Despite record FY26 (OCI +93%, RPO +363% to $638B), stock fell ~6% on debt/capex fears ($70B FY27 capex, $40B financing), slid below $135 then $130 support. No <=48h catalyst; 'quality of growth' skepticism argues against fresh longs.",
+    "analyst": "Price sits AT VWAP (+0.44%), mid-band, not extended \u2014 5m already flushed to RSI 22 so shorting now chases a bounce; composite long unaligned (conf 57.9%). No proximate target either way. Macro biases down so short a break, not fade. HOLD; short arms on loss of 126.35 toward 124.5/120.79.",
+    "portfolio": "HOLD ORCL \u2014 crowded long into weak AI tape but parked at VWAP; short the break, not mid-range."
+  },
+  "timestamp": "2026-07-19T10:45:16.044050+00:00"
+}

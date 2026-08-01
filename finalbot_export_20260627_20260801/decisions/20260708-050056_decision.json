@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "META/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.55,
+  "playbook": "none",
+  "forecast": "Price coiling in tiny dojis at 613-614 under the 617 ceiling on fading volume with 5m already rolling short; expect a fade toward 608 over next 2-6 bars \u2014 if 608 holds it chops, if lost it opens the 603-605 VWAP zone for a cleaner long entry.",
+  "expectancy_note": "Chase-long here p(win)<0.45 (RSI77, bb%b0.89, +1.83% VWAP, crowded L/S 1.80, cash closed); shorting the strongest-RS leader into intact 1h/4h uptrend is knife-catching. HOLD is highest expectancy until a real level breaks.",
+  "rationale": "META is the strongest name in the book (+9.3% RS) but stretched: RSI 77, bb%b 0.89, +1.83% above VWAP, L/S 1.80 crowded long into a CLOSED thin US session. 15m tape shows momentum dead \u2014 dojis stalling under 617, 5m already short. Chasing a long is the flagged trap; fading against the intact 1h/4h uptrend is low-expectancy. Wait for a pullback to the 603-605 VWAP/SMA20 zone to buy WITH the trend.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 608.0,
+    "expires_min": 240,
+    "note": "Losing 608 confirms the stall became a breakdown, opening 603-605 VWAP for a with-trend long re-entry or short continuation."
+  },
+  "transcript": {
+    "macro": "Regime MIXED, cautious risk-on with a rare hawkish-Fed tail (~56% odds of a HIKE by Sept, 10y ~4.48%); soft NFP (+57k) softened DXY (~101) supporting metals/risk near-term. US cash market CLOSED at timestamp -> tokenized stocks (EWJ/META/ORCL/COIN/MU) gappy/thin. Crowded-long positioning (high L/S) across the book into a tape near equity highs = contrarian downside risk; favor smaller size, sell bounces on shorts rather than chase. BTC ~62.7k perp, dominance ~58%, funding barely positive, no leverage blow-off. Correlation warning: COIN~BTC 0.735, MU~QQQ 0.71, XAG~gold 0.87 - not independent bets.",
+    "sentiment": "No tier-1 US data inside 48h (next CPI Jul 14, FOMC Jul 29). Live catalyst: overnight US airstrikes on Iran (Strait of Hormuz) lifting oil, stoking inflation/rate-hike fears = risk-off tilt; broad AI/semiconductor sentiment wobble (Samsung -10%, Nikkei -2.1%). BTC neutral-to-mildly-positive, ETF flows flipped +$46.6M. META positive but stretched (Meta Compute launch), earnings Jul 29. XAG bearish near-term, Iran fear hurting silver via rate-hike odds. ORCL negative AI-capex/cash-drain narrative, no fresh trigger. COIN neutral BTC-beta. MU high event risk: SK Hynix (SKHY) Nasdaq listing Jul 10 could rotate flows out; Burry disclosed short; semis selloff.",
+    "analyst": "META is the strongest name in the book (+9.3% RS) but stretched: RSI 77, bb%b 0.89, +1.83% above VWAP, L/S 1.80 crowded long into a CLOSED thin US session. 15m tape shows momentum dead \u2014 dojis stalling under 617, 5m already short. Chasing a long is the flagged trap; fading against the intact 1h/4h uptrend is low-expectancy. Wait for a pullback to the 603-605 VWAP/SMA20 zone to buy WITH the trend.",
+    "portfolio": "HOLD META \u2014 strongest RS but overbought/extended into closed session; buy only a pullback to 603-605, not here."
+  },
+  "timestamp": "2026-07-08T05:00:56.929711+00:00"
+}

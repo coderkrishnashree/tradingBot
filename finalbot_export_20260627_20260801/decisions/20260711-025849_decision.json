@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "CRCL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price is stalling at the 67.00 round number after a +1% bounce off 66.30 - twin upper-wick rejections at 67.00 on the highest-volume bar closing back at 66.94. Expect a fade back toward 66.55/66.30 (VWAP) over the next 2-4 bars; only a decisive reclaim of 67.7-68 keeps the squeeze alive.",
+  "expectancy_note": "p(win) ~0.5 either way; no >=1.5 R:R clean entry - long chases stretched 5m/30m RSI into resistance (account #1 loss pattern), market short fights an active squeeze with no confirmed rejection. HOLD beats both until a level resolves.",
+  "rationale": "CRCL is a fundamentally damaged tokenized equity (worst RS -18.1%, Compass Point $55) in a violent oversold bounce that has run straight into 67.00 and stalled with two upper-wick rejections and stretched short-TF RSI (5m 79, 30m 71.7). Long/short 2.70 is crowded-long (contrarian-bearish) and US cash is closed (gappy) - a market entry either way is low-expectancy. Size 0: wait for the level to pick a side.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 66.3,
+    "expires_min": 240,
+    "note": "Losing 66.30 confirms the oversold bounce failed at 67.00 resistance and opens the fundamentally-backed tactical short with crowded longs trapped."
+  },
+  "transcript": {
+    "macro": "Regime MIXED, cautious risk-on; hot inflation lid, Fed on hold; US cash closed (weekend) -> perps thin/gappy. CRCL: highest BTC corr 0.53, worst RS -18.1%; violent oversold bounce inside a downtrend (-40% in a month on Stripe/Visa Open USD competition, Compass Point $55). Long/short 2.70 crowded-long (contrarian short flag), orderbook +0.04. Tactical long only, not a trend long.",
+    "sentiment": "CRCL bullish short-term but most headline-whippy. Fresh catalyst: won final OCC national trust bank charter, +7-12% Jul 9-10 (spiked $73.80 pre-mkt); USDC record ~$1.2T June volume. Offsetting: -17.5% crash Jul 1 on Open USD. No earnings until Aug 18. A single rival/regulatory headline can gap it either way.",
+    "analyst": "At 66.94, stalling exactly at 67.00 round number after +1% bounce off 66.30. Last three 15m bars twice tagged 67.00 and got rejected; biggest-volume bar (599.85) closed lower half at 66.94 = stall not breakout. Short-TF momentum stretched (5m RSI 79, 30m 71.7), long/short 2.70 crowded (contrarian-bearish), worst-RS fundamentally-impaired name. Long chases stretched pop into resistance (#1 loss pattern); market short fights active squeeze with no confirmed rejection + gap risk. Neither clears 1.5 R:R. HOLD; armed flip below 66.30.",
+    "portfolio": "CRCL: HOLD (0.60) - dead-cat bounce stalling at 67.00 resistance; no clean edge either side; arm short below 66.30."
+  },
+  "timestamp": "2026-07-11T02:58:49.693831+00:00"
+}

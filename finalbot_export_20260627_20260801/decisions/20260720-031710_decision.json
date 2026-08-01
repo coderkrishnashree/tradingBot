@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "SOL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Coiling under 77.0-77.2 after a run to 77.39; expect a fade/pullback toward VWAP ~75.6-75.9 over the next 3-6 bars before the trend can resume. No clean long entry at 76.83 (extended), no clean short (ADX 62.8 uptrend, BTC-supported).",
+  "expectancy_note": "p(win) too low both ways here: chasing long at %b>1.0/RSI73/+1.94% VWAP into crowded L/S 2.745 fails the no-chase rule; a short fights a 62.8 ADX BTC-beta trend. Wait for the pullback to buy with-trend R:R>=1.5.",
+  "rationale": "SOL is a stretched BTC-beta long (0.80 corr, RSI 72.9, stoch 80.9, %b 1.073, +1.94% above VWAP) with a very crowded long book (L/S 2.745) - textbook late-continuation that a routine counter-bounce would stop out. The candles show momentum fading under 77.0-77.2 resistance rather than accelerating, so the higher-probability play is to buy the pullback toward VWAP/support ~75.6, not chase here. Holding flat with a reconsider trigger is the best expectancy; a short is uninvestable against ADX 62.8 and BTC support.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 75.8,
+    "expires_min": 240,
+    "note": "A dip to ~75.8 (VWAP/support zone) resets the extension and offers a with-trend long entry with stop under 73.3 support and target back at 78-79 resistance; crossing it flips this to a buy."
+  },
+  "transcript": {
+    "macro": "Crypto SUPPORTIVE-but-EXTENDED. SOL RSI 72.9, stoch 80.9, bb %b 1.07 - overbought, above upper band. L/S 2.745 (very long-crowded), funding negligible. 0.80 correlation to BTC - largely BTC-beta with extra torque; a long is late/extended, any BTC stall hits SOL harder. Best as pullback-buy not breakout-chase. BTC itself supportive-but-extended into ~$65.5k resistance; FOMC 7/28-29 hawkish-tail overhang.",
+    "sentiment": "SOL high BTC-beta (0.80), RSI stretched. Constructive flows - US spot SOL ETFs posted net inflows every July trading day; fee cuts + Firedancer/Alpenglow upgrades are Q3 catalysts (not <=48h). No imminent binary; follows BTC. Mild-positive but watch overbought.",
+    "analyst": "Stretched BTC-beta long: RSI 72.9, stoch 80.9, %b 1.073, +1.94% above VWAP, ADX 62.8, crowded L/S 2.745. Candles ran to 77.39 then faded, momentum stalling under 77.0-77.2 - textbook late-continuation a counter-bounce would stop out. No clean long at 76.83, no clean short vs a 62.8 ADX BTC-supported trend. HOLD; buy the pullback to VWAP/support ~75.8 with stop under 73.3.",
+    "portfolio": "HOLD SOL - extended, crowded BTC-beta; wait to buy the pullback to ~75.8 rather than chase the band (conf 0.6)."
+  },
+  "timestamp": "2026-07-20T03:17:10.219247+00:00"
+}

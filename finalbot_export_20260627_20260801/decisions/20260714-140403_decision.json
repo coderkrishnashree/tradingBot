@@ -1,0 +1,26 @@
+{
+  "symbol": "CRCL/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.5,
+  "size": 0.0,
+  "entry": 61.08,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "forecast": "Price flushed to support 59.44 and buyers reclaimed +1.6 to close 61.08 on heavy volume; expect a relief bounce toward VWAP ~63.0 or a retest of 59.44. Shorting the 61 hole into 4h RSI 13 invites the counter-bounce that stops late shorts.",
+  "expectancy_note": "Short at 61 has negative expectancy (RSI 13, just bounced off support, crowded but flushed). Best short is a fade into ~63 VWAP or a confirmed break below 59.44 \u2014 neither actionable at 61. HOLD.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 59.44,
+    "expires_min": 240,
+    "note": "A 15m close below 59.44 breaks the support that just held, re-arming the short toward ~57.5."
+  },
+  "rationale": "Last 15m candle tagged support 59.44 exactly and reclaimed to 61.08 on heaviest volume \u2014 bullish exhaustion reversal with 4h RSI 13.2 (extreme oversold). Selling here is 'selling the hole' (the account's #1 loss pattern). Valid short is a rally-fade into VWAP ~63 or a break of 59.44 \u2014 neither exists at 61, so no entry offers R:R>=1.5. Size 0; re-debate on a 59.44 break.",
+  "transcript": {
+    "macro": "Regime MIXED-to-RISK-OFF, event-heavy (2026-07-14). Equities soft (S&P -0.79%, Nasdaq -1.55% Jul13); Iran/Hormuz oil shock +9% (WTI ~$78) = risk-off + inflation scare, cushioned by soft June CPI (3.5% vs 3.8%) + record big-bank earnings. BTC ~$63.8k bouncing off 21-mo low, dominance 56.3%, funding tame, regime \"chop\", risk-on fragile. Tokenized equities (CRCL/TSM/MSTR/META) pricing pre-US-cash-open into a rare CPI+bank-earnings+Iran convergence \u2014 thin/gappy, size for gap risk. Cleanest trend+positioning setups were shorts in CRCL/TSM (fade bounces); SOL long crowded/overbought (buy dips); META/MSTR confirm-at-open. Biggest cross-book risk: event/gap risk at the US cash open.",
+    "sentiment": "Shared sentiment 2026-07-14. CRCL: OCC national-trust-bank approval (Jul10, +13% to ~$70) now priced in and being sold off; Compass Point PT cut to $55 (Stripe stablecoin competition); earnings ~Aug11 (outside window); near-term neutral-to-slightly-bearish, no <=48h binary. TSM: EARNINGS THU JULY 16 2:00pm ET \u2014 hard binary inside window; guidance rev $39.0-40.2B, GM 65.5-67.5%, FY growth >30%; elevated vol/gap risk, avoid naked directional over the print. SOL: mildly bullish structurally \u2014 spot SOL ETF inflows every July trading day (>$1B cumulative), Clearstream custody; Alpenglow upgrade late Q3/Q4 (not imminent); heavily BTC-correlated, follows BTC over 48h; no unlock/hack. MSTR: bearish lean \u2014 raised $467M selling MSTR shares and bought NO BTC (Jul 6-12), sold ~3,588 BTC for preferred dividends (shift from accumulation, cautious read); $1B buyback framework mild positive; earnings outside window; trades as leveraged BTC. META: earnings WED JULY 29 after close (~2wk out, not a <=48h catalyst); consensus EPS ~$7.18; no near-term stock-specific shock; trades on Nasdaq tape next 48h.",
+    "analyst": "Capitulation flush into marked support 59.44 followed by an immediate heavy-volume reclaim to 61.08; 4h RSI 13, ADX 89 downtrend with crowded longs (L/S 2.9, funding +0.034%). Environment supports SHORT on rallies, not at 61. HOLD, armed to short a bounce into ~63 VWAP or a decisive break below 59.44.",
+    "portfolio": "CRCL \u2014 HOLD (0.50): oversold flush + reclaim off 59.44 support; no honest short entry at 61, re-arm on 59.44 break."
+  },
+  "timestamp": "2026-07-14T14:04:03.118088+00:00"
+}

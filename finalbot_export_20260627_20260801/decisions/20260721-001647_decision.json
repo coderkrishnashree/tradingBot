@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "GOOGL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.68,
+  "playbook": "none",
+  "forecast": "Coils in the 352-354 band on thin off-hours volume into the Q2 print; the real move is a binary overnight gap (earnings), not a tradeable intraday path.",
+  "expectancy_note": "No entry has honest R:R: ATR 0.74% with a binary earnings gap inside 48h makes any position a coin-flip. Shorts have bled for this account (0.48 win, -0.73 avg); best expectancy is standing aside.",
+  "rationale": "GOOGL reports Q2 after the close within 48h; holding into the print is an earnings gamble and the engine's tight ATR-based SL/TP would be blown through by the overnight gap. Tape is dead and coiling (bars <5 contracts, last close 352.98 back at VWAP after a failed 353.95 poke), 5m flipped short, orderbook imbalance -0.333; macro rotating out of tech, RS -11.6%. Size 0; re-engage only on a clean post-earnings structural break.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 356.5,
+    "expires_min": 240,
+    "note": "A decisive reclaim above the 354-356 pre-event ceiling on real volume would signal a genuine breakout, but earnings gap risk keeps size small."
+  },
+  "transcript": {
+    "macro": "MIXED-to-HOSTILE. Risk-off, hawkish Fed, rising yields, rotation OUT of tech. GOOGL RS vs BTC -11.6%. CRITICAL: GOOGL Q2 earnings AFTER THE CLOSE within 48h - a same/next-session BINARY. Est ~$2.90 EPS +25.5% YoY, rev $116.9B; focus Cloud growth & AI capex. Tokenized equity: thin/gappy off-hours.",
+    "sentiment": "GOOGL HIGH ALERT: Q2 earnings after US close within 48h. Expect overnight gap and elevated vol. Focus Cloud growth (~60%+) and AI capex. Do NOT hold naked size through the print unless that IS the thesis.",
+    "analyst": "Decisive factor is the binary Q2 earnings within 48h - tight ATR-based SL/TP would be blown through by the gap. Tape dead/coiling, 5m short, orderbook -0.333, macro rotating out of tech, RS -11.6%. No honest R:R that isn't an earnings coin-flip. Event-avoidance HOLD, size 0.",
+    "portfolio": "HOLD GOOGL - avoid the binary earnings event; size 0."
+  },
+  "timestamp": "2026-07-21T00:16:47.858460+00:00"
+}

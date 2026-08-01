@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "AAPL/USDT:USDT",
+  "size": 0.0,
+  "entry": 332.44,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.2,
+  "playbook": "none",
+  "forecast": "Dead weekend tape with the underlying equity market closed; AAPL grinds sideways in the 332.1-333.2 pocket into Monday, no clean directional move until US cash reopens. The 4h overbought reading (RSI 84, stoch 88) at resistance 335.34 means the next real move is more likely a fade than a breakout, but there is no tradable trigger now.",
+  "expectancy_note": "p(win) ~0.40, no honest R:R available; a long is chasing an extended move into resistance and a short has no confirmation/level yet \u2014 both negative expectancy vs flat, especially with FOMC Wed + AAPL earnings Thu inside the window.",
+  "rationale": "Weakest signal on the board (conf 21.5%, blended 0.107, aligned=false, p_win 0.405) and the highest event risk (FOMC Wed, AAPL earnings Thu AH inside the hold window). Price is extremely extended (4h RSI 84.2, ADX 78.7, stoch 88.2, VWAP +1.34%) right under resistance 335.34, and the 15m tape is flat chop with fading volume on a closed US-market Sunday \u2014 the +0.251 structure_bias is purely a thin-orderbook artifact, not real demand. No entry offers R:R >= 1.5 without either chasing into resistance or shorting without a level, so flat is the highest-expectancy call; wait for the cash market and a clean reclaim/rejection at 335.34.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 335.34,
+    "expires_min": 240,
+    "note": "A decisive reclaim of resistance 335.34 on real (cash-session) volume would confirm the 4h uptrend is resuming rather than exhausting, converting this from extended-into-resistance to a possible continuation long."
+  },
+  "transcript": {
+    "macro": "Regime risk-OFF, sentiment stretched (BofA Bull&Bear highest since 2021). Oil/Iran => hawkish Fed repricing; real yields + USD headwind. Wall of event risk 48-72h: FOMC Wed 7/29, MSFT Wed AH, AAPL Thu AH \u2014 inside hold window. AAPL: lowest conviction of four (conf 21.5%, blended 0.107, aligned=false, p_win 0.405). 4h RSI 84.2/ADX 78.7/stoch 88 extremely extended at resistance 335.34 (last 332.44). structure_bias +0.251 is a thin-orderbook artifact (imbalance 0.858) \u2014 gappy tokenized book. Near-zero BTC corr => own equity tape, shut for earnings 7/30. Highest event risk, weakest signal.",
+    "sentiment": "AAPL neutral-to-firm but pre-event. FQ3 after close Thu 7/30 (call 5pm ET), consensus ~$109B rev / ~$1.89 EPS; focus on Services, iPhone demand, capital-light on-device AI. Expected to be Tim Cook's last earnings call as CEO \u2014 leadership-transition wildcard. Exposed to Wed FOMC + Big-Tech AI-earnings tape. Neutral next 24-48h, then hard binary Thursday evening; a directional trade held past Thu close is an earnings bet.",
+    "analyst": "Weakest signal on the board (conf 21.5%, aligned=false, p_win 0.405) on highest event risk (FOMC Wed, AAPL earnings Thu inside window). Extremely extended (4h RSI 84.2, ADX 78.7, stoch 88.2, VWAP +1.34%) under resistance 335.34; 15m flat chop with fading volume, US market closed. +0.251 structure_bias is a thin-orderbook artifact, not demand. No R:R >= 1.5 without chasing or shorting blind. HOLD; flip on decisive reclaim of 335.34 on cash-session volume.",
+    "portfolio": "HOLD AAPL/USDT:USDT \u2014 weakest signal, extended into resistance on dead weekend tape, earnings Thu inside window; wait for 335.34 on real volume."
+  },
+  "timestamp": "2026-07-26T04:35:05.714210+00:00"
+}

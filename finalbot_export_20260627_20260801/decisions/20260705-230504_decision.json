@@ -1,0 +1,25 @@
+{
+  "action": "hold",
+  "symbol": "CRCL/USDT:USDT",
+  "size": 0.0,
+  "entry": 69.37,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "expectancy_note": "Long: overbought (4h RSI 76) into resistance 70.23, extreme +0.84% funding, L/S 2.79, structure_bias -0.653 (worst in group) = negative expectancy chase. Short: fighting live ADX 40.8 up-trend on thin holiday tape, no reversal confirmation = squeeze risk. Neither clears R:R 1.5 today; flat is best EV.",
+  "rationale": "CRCL is a fresh-wounded name (OUSD -16% shock) bouncing on a CLOSED-equity holiday tape with Monday gap risk, and the bounce is carried by maximally crowded longs paying the hottest funding of the group (structure_bias -0.653). That is momentum I don't trust and won't chase, but ADX 40.8 with every TF pointed up makes a naked short into a thin illiquid weekend equally hazardous without a confirmed lower-high. No setup meets my R:R bar, so I stand aside and let the crowded-long resolution declare itself. Zero size preserves capital and avoids reopen-gap risk.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 70.23,
+    "expires_min": 240,
+    "note": "A clean reclaim/hold above resistance 70.23 proves the crowded-long squeeze is extending momentum and would justify a tactical trend-continuation long; losing 68.31 instead would activate the crowded-long-unwind short."
+  },
+  "transcript": {
+    "macro": "Regime MIXED. Equities bifurcated, rates a headwind (May CPI 4.2%, Fed on hold to 2027). CRITICAL: US equity market CLOSED (post-July-4 weekend) -> thin/gappy tokenized liquidity + Monday reopen-gap risk. CRCL corr to BTC 0.60. CRCL carries HOTTEST funding of group +0.837% (funding bias -1.0, maximally crowded/expensive to hold longs) AND heavy long crowding L/S 2.79 (structure_bias -0.653, worst in scan), orderbook +0.16. RS vs BTC +0.16% (flat). Longs = momentum-with-crowding + expensive funding -> smaller size / respect gap.",
+    "sentiment": "CRCL the one with a live fresh shock. June 30 a 140+ partner coalition launched Open USD (OUSD) -- zero-fee yield-sharing USDC rival incl Circle distributors -- CRCL cratered ~16-17% to 4-month low (~$62-64), worst day since listing. Perp bouncing (~$69), hot funding, stretched L/S 2.8 = crowded longs into a wounded name. Some call selloff overreaction (William Blair Outperform, Bernstein Buy), Goldman cut PT to $96 Neutral. Near-term a RISK: off-hours bounce + fundamental wound + crowded longs argues AGAINST chasing long. Broad F&G 15, fragile bounce.",
+    "analyst": "CRCL 69.37, support 68.31 / resistance 70.23, VWAP -0.21%, ATR% 0.49. RSI 60.6 (15m) climbing to 71.8/70.3/75.9 on 30m/1h/4h (overbought higher TFs), ADX 40.8, all TFs long-aligned +0.327. Funding +0.837% (bias -1.0), L/S 2.785, structure_bias -0.653 (worst of group). Momentum-with-crowding+expensive-funding trap: long = buying overbought into resistance paying extreme funding on a wounded name / thin holiday tape; short = fighting rising ADX 40 with no lower-high. HOLD, arm 70.23 reclaim (long) / 68.31 break (short).",
+    "portfolio": "HOLD CRCL/USDT:USDT \u2014 conf 0.60, won't chase a crowded, expensive-funding bounce in a fundamentally wounded name on a closed-market tape; wait for 70.23 reclaim or 68.31 break."
+  },
+  "timestamp": "2026-07-05T23:05:04.557963+00:00"
+}

@@ -1,0 +1,27 @@
+{
+  "symbol": "MSTR/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.6,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "none",
+  "forecast": "Corrective grind higher stalls into VWAP/93.75 shelf over next 2-4 bars, then chops 92.5-93.8; no clean edge until it loses 91.92 support (short) or reclaims ~95.8 VWAP (bounce has legs).",
+  "rationale": "Composite reads short but price is already 2.5% below VWAP with 1h RSI washed to 18 and the 15m tape is actively grinding higher off 92.46 - shorting now is exactly the late-into-stretched-tape entry that has bled this account. MSTR is pure BTC-beta (corr 0.80) underperforming hard (RS -13.4%), so there is no independent edge, and it is pre-US-open on thin liquidity with gap risk. A short only becomes high-expectancy on a clean break of 91.92 support; until then flat is highest-expectancy.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 91.92,
+    "expires_min": 240,
+    "note": "Losing 91.92 support confirms the 15m bounce failed and re-opens a trend-continuation short that is NOT stretched."
+  },
+  "transcript": {
+    "macro": "2026-07-13 08:57 UTC pre-US-open. Broad tape mildly risk-on (S&P +1% wk, Nasdaq 26,281) but violent semiconductor selloff (~$1.3T chip mcap wiped, AI-capex fears); two-tier (mega-cap AI up, memory/foundry bear market). Rates a headwind: FedWatch ~85% odds of a hike by year-end; Iran/oil inflation fears pressure gold. Equity perps (MSTR/MSFT/INTC/MU) on thin overnight liquidity, gap risk at 13:30 UTC open - size down. MSTR is BTC-beta proxy (corr 0.80/COIN 0.84), RS -13.4%, L/S 1.47 lean-long = mild contrarian short fuel; trade as leveraged crypto not equity.",
+    "sentiment": "MSTR: cautiously bullish, sold 3,588 BTC Jul5 to cover STRC dividends but launched $1B common-buyback 'Digital Credit Capital Framework' -> ~29% bounce off late-June lows into mid-$90s. Q2 earnings July 30 (outside 48h). Near-term = leveraged bitcoin, no binary in next 24-48h.",
+    "analyst": "Price bottomed ~92.46 then ground higher in a staircase to 93.75, now coiling 93.15-93.75, last 93.36. Composite short (blended -0.336, ADX 35.9) but 1h RSI washed to 18 and price -2.5% below VWAP = already stretched DOWN into a live 15m bounce. Shorting here is the book's #1 loser (23 shorts, 48% win, -1.54 avg; trend playbook -2.51). Longing an RS -13% BTC-proxy into VWAP resistance ~95.8 pre-open is low quality. HOLD beats both; short re-arms only on loss of 91.92.",
+    "portfolio": "MSTR -> HOLD (conf 0.60): no clean edge; short only on a clean break of 91.92 support."
+  },
+  "timestamp": "2026-07-13T09:03:13.987970+00:00"
+}

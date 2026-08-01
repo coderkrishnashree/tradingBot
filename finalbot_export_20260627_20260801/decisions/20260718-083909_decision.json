@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "TSM/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.34,
+  "playbook": "none",
+  "forecast": "Price stays pinned near 400-401 on near-zero weekend volume, drifting inside the 386.81-442.87 range with no directional resolution until US cash reopens; the only real print (dip to 400.05) was instantly bought back to 400.74, showing a bid under the tape.",
+  "expectancy_note": "No edge: p(win) ~0.40 on any entry, R:R indeterminate on an untradeable-thin book; HOLD dominates because slippage on zero-volume 15m bars destroys any small structural edge.",
+  "rationale": "TSM is the epicenter of the semi de-rate but earnings are already digested and there is no fresh 48h binary; the 4h is short (RSI 31.9, ADX 52) yet price sits only -1.9% from VWAP mid-range with a supportive orderbook (+0.419) and contaminated structure_bias, so a short would be chasing a completed move into a bid on a HOSTILE, near-zero-volume weekend tape the macro explicitly flags as untradeable. There is no clean pullback for a trend entry and no range extreme to fade, so no honest R:R >= 1.5 exists. Sizing zero; wait for real volume and a structural break.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 386.81,
+    "expires_min": 720,
+    "note": "Losing the 386.81 swing support on real volume confirms 4h trend continuation and would flip me short toward the next leg down."
+  },
+  "transcript": {
+    "macro": "Regime HOSTILE, weekend US cash CLOSED (TSM 15m candles near-ZERO volume = untradeable-thin). Fri Jul 17 semis bear market on AI-capex fears. TSM: already reported Q2 (rev +34% YoY to $40.2B beat, raised FY capex, outlook >40%) yet SOLD OFF on 'great quarter, scary spend' capex fears - poster child for the semi de-rating. Scan short blended -0.37 but structure_bias -0.174 contaminated (L-S 2.385 long-heavy vs orderbook +0.419). No fresh binary. Do NOT size up.",
+    "sentiment": "SEMICONDUCTOR/AI-CAPEX RISK-OFF theme ('DeepSeek-moment 2.0' Moonshot AI). TSM: reported Q2 Jul 16 - clean beat ($40.2B rev, 67.7% gross margin, HPC +20% q/q, raised FY26 capex). Earnings binary BEHIND us, no fresh scheduled catalyst in 48h. Trading on sector risk-off / Moonshot fear, not its own good numbers. Bias bearish-to-neutral (good print already digested, dragged by sector).",
+    "analyst": "Last 400.74, ATR% 2.16. Composite short blended -0.37 (conf 42.6%). 4h RSI 31.9, ADX 52.2 (strong trend), VWAP -1.93%. But 30m/1h flat with RSI 64.9/69.1 (short-term already bounced). Structure: L-S 2.385 long-heavy contrarian-bearish but orderbook +0.419 bid support. Decisive tell: 15m candle volumes near ZERO (0.0-0.3) = untradeable-thin weekend; only real print was a dip to 400.05 instantly bought back. No trend-entry pullback, no range extreme to fade, no breakout (zero volume). Short = chasing a completed de-rate into a bid you can't get filled against. HOLD; arm short on loss of 386.81 with real volume.",
+    "portfolio": "HOLD TSM - completed de-rate, no fresh binary, untradeable near-zero weekend volume with a supportive bid; no honest edge. Armed short at 386.81."
+  },
+  "timestamp": "2026-07-18T08:39:09.063238+00:00"
+}

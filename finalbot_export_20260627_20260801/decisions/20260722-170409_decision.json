@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "HOOD/USDT:USDT",
+  "size": 0.0,
+  "entry": 105.91,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.55,
+  "playbook": "none",
+  "forecast": "Price coils 105.0-106.9 on declining volume; expect continued chop into US equity earnings tonight. A loss of 105.0 opens a slide toward VWAP/103.2; a reclaim of 106.9 restarts the long. Neither confirmed at spot 105.91 (mid-range).",
+  "expectancy_note": "No edge at mid-range: long is +2.7% over VWAP with bearish divergence + crowded 1.89 L/S (chase risk); short lacks momentum (TFs neutral, just held 105). p(win) for either <0.5 here \u2014 HOLD is highest expectancy until the range breaks.",
+  "rationale": "HOOD is a tokenized equity in a RISK-OFF, hawkish tape (DXY 13-mo high), lagging peers (RS -13%), crowded long (L/S 1.89, structure_bias -0.27) with a bearish divergence and price extended +2.7% above VWAP. Mid-TFs read neutral and the last 10 bars are a tight coil after the 106.9 spike was rejected \u2014 no directional edge and no clean R:R at spot. GOOGL/TSLA earnings tonight add overnight gap risk to a thin token, so stay flat and let the range resolve.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 105.0,
+    "expires_min": 240,
+    "note": "Losing the coil floor with crowded longs + bearish divergence confirms a breakdown-short toward VWAP/103.2 \u2014 the actionable trigger given the risk-off backdrop."
+  },
+  "transcript": {
+    "macro": "RISK-OFF/hawkish; DXY 13-mo high. Equities drifting; GOOGL/TSLA tonight = overnight Nasdaq vol. HOOD crowded long (negative structure_bias), lags BTC. Tokenized equities thin/gappy off-hours. Smaller size, fade breakout-longs.",
+    "sentiment": "HOOD neutral near-term, earnings OUTSIDE window. Q2 Jul 29 after close (same day as FOMC) \u2014 double event risk but 7 days out. Last print dropped -13% then rallied +62% (high realized vol). No fresh <=48h catalyst. Tradable on technicals now, flag Jul 29 stack for holds into next week.",
+    "analyst": "Tight coil after 106.9 rejection, extended above VWAP, bearish divergence, neutral mid-TFs. No R:R at mid-range. HOLD, short a 105.0 break.",
+    "portfolio": "HOOD -> HOLD (conf 0.55): mid-range coil, no edge \u2014 wait for 105.0 loss or 106.9 reclaim."
+  },
+  "timestamp": "2026-07-22T17:04:09.437589+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "MU/USDT:USDT",
+  "size": 0.0,
+  "entry": 975.58,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.55,
+  "playbook": "none",
+  "forecast": "1h RSI 21 deeply oversold after a fresh 15m leg to 974.4 and the last bar a small green recovery off the low; base case is a relief bounce toward VWAP ~986-990 over the next 2-6 bars before the downtrend can resume.",
+  "expectancy_note": "Trend-short playbook is 44% win / -2.89 avg PnL for this book and 1h RSI 21 kills R:R on a market short; waiting to fade the bounce toward VWAP flips p(win) and R:R decisively vs chasing the low.",
+  "rationale": "MU is the worst laggard (rel -16%) with an intact downtrend, so the bias is short, but price is 1.07% below VWAP with 1h RSI 21 and a fresh micro-bounce off 974 - the textbook late-short trap. No 48h company binary; near-term risk is TSMC Jul 16 read-through. The high-expectancy short is a fade of the relief rally into VWAP/broken support (~986-990), not a market short into oversold.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 986.0,
+    "expires_min": 240,
+    "note": "A bounce back to VWAP ~986 offers a clean short entry (stop above 995, target 960/876) with proper R:R instead of chasing the oversold low."
+  },
+  "transcript": {
+    "macro": "Regime MIXED, risk-cautious. Semiconductor valuation wobble is the dominant force (Jul 7 chip rout, Micron -13%, AI-capex-payback skepticism, SK Hynix HBM slowdown). Fed on hold, hawkish lean. Event stack: June CPI + Warsh testimony Tue Jul 14; TSMC Q2 earnings Thu Jul 16 (sector swing factor). MU: epicenter of the chip selloff, short-biased across TFs, relative_strength -16.4% (worst laggard), tied to memory/AI-capex narrative (corr 0.70 QQQ). Downtrend intact but deeply oversold on 1h (RSI 21) - bounce risk; fade rallies rather than chase lows.",
+    "sentiment": "Risk-off tilt into a semi-heavy week. MU: blowout Q3 already reported late June (rev +346% YoY, ~$50B next-Q guide, AI/memory demand locked via long-term agreements); next earnings Sep 23 - no company binary in 48h. Near-term risk entirely read-through from TSMC Jul 16; scan shows MU deeply oversold short-term (RSI ~21). Lean: short works only as momentum, watch for a snapback.",
+    "analyst": "15m tape grinding lower to 974.38 with a small green recovery bar; 1h RSI 21 extreme oversold makes a snapback the higher-probability next move. Chasing a short at 975 (-1.07% vs VWAP, RSI 21) is the late-short-into-stretched-tape pattern the book keeps losing (trend playbook 44% win, -2.89 avg). Disciplined play is to fade a bounce toward VWAP (~986-990), not market-short the low. Hold now, arm the retest.",
+    "portfolio": "MU: HOLD, size 0 - short bias but oversold; arm short on bounce to ~986 VWAP."
+  },
+  "timestamp": "2026-07-12T07:33:45.447061+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "SNDK/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.4,
+  "playbook": "none",
+  "forecast": "Immediate leg already crashed ~3% in 2 bars (5m RSI 16.9, oversold); expect a dead-cat bounce back toward the broken 1867-1876 shelf over the next 2-4 bars, then likely resumption lower into 1820/1800 as the memory complex stays heavy. Shorting the bounce, not the flush.",
+  "expectancy_note": "No clean entry now: market-short at 1840 with 5m RSI 16.9 gets stopped by the reflex bounce; long is a chase +8.9% over VWAP into distribution. Best expectancy is to wait for the retest and short into it, ~p(win) 0.55 vs negative EV chasing here.",
+  "rationale": "Signals are genuinely conflicted (composite aligned:false, 4h/1h long vs 30m/15m/5m rolling over) and the last two 15m bars are heavy distribution off 1897 on expanding volume, so trend is down but the immediate leg is already exhausted. Off-hours near-zero liquidity plus 5.3% ATR makes any market entry a whipsaw lottery, and the learner shows this book bleeds from exactly this kind of stretched-tape entry. Holding flat is the highest-expectancy choice until price offers a bounce to short into or reclaims strength.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 1875.0,
+    "expires_min": 240,
+    "note": "A bounce back to the broken 1867-1876 shelf (prior support turned resistance, nearer VWAP) is the honest short entry: reject there and I go short toward 1820/1800 with a stop above 1905."
+  },
+  "transcript": {
+    "macro": "CRITICAL: scan ~00:25 UTC, US closed -> SNDK trades off-hours, near-zero liquidity, whippy. Underlying SanDisk popped +7.6% on the semi rally (strong bullish cash session) yet scan reads long and very extended -> fade-the-extension risk both ways. High realized vol. Smaller size. June CPI Jul 14.",
+    "sentiment": "Strong multi-quarter NAND narrative (contract prices +~30% QoQ, BiCS10 1Tb sampling Jul 3) but earnings NOT until Aug 24 \u2014 no imminent binary. Richly extended (RSI ~65, VWAP +8.9%), highly correlated to memory complex (MU 0.82) selling off (SK Hynix HBM slowdown, Samsung miss). Bearish-tilted for a short but no news anchor; could snap back either way.",
+    "analyst": "Last 1840.79, down from ~1905. Composite conf 21.6%, aligned:false \u2014 4h/1h long but 30m/15m/5m rolling over (5m RSI 16.9 crashing). Last two 15m bars heavy distribution on expanding volume. Long = chase +8.9% over VWAP into distribution; short = front-runs a reflex bounce off oversold in near-zero off-hours liquidity + 5.3% ATR. Honest short belongs on a bounce to the broken 1867-1876 shelf, not here. HOLD; arm short trigger on a retest of 1875.",
+    "portfolio": "HOLD SNDK \u2014 trend down but leg exhausted; short the 1875 retest, don't chase the flush."
+  },
+  "timestamp": "2026-07-10T00:30:45.662029+00:00"
+}

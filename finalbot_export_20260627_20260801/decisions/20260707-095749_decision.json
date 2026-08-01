@@ -1,0 +1,27 @@
+{
+  "symbol": "TSLA/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.58,
+  "size": 0.0,
+  "entry": 415.66,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "none",
+  "expectancy_note": "Long entry here is a chase: RSI 69.6, %B 0.87, stoch 84 into a fading pre-open tape (NDX fut -0.9%) and FOMC minutes Wed (binary <48h). No pullback level and no breakout trigger yet \u2014 best expectancy is wait, not pay up.",
+  "rationale": "TSLA is a tokenized equity in a genuine 4h uptrend (ADX 42, RS +7.35%), but price is extended +1.69% above VWAP against the upper band with no clean pullback to buy and 5.3% of headroom to resistance at 437.73. Shorting a 42-ADX uptrend with strong relative strength is a losing fight, and chasing long into an event-risk fade offers sub-1.5 R:R. I want either a pullback into the 405-408 VWAP/SMA20 zone or a confirmed reclaim above 437.73 to act; until then no edge justifies risk.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 437.73,
+    "expires_min": 240,
+    "note": "A clean break and hold above the 437.73 4h resistance confirms breakout continuation and flips me to a trend-long with a measured-move target."
+  },
+  "transcript": {
+    "macro": "Cautiously risk-on but hawkish-Fed overhang. S&P/Nasdaq at records on AI-trade revival Mon (TSLA/META/GOOGL up); Jul 7 futures fading (NDX -0.9%). Warsh Fed flipped to implied 2026 HIKE; weak June payrolls (+57k) eased 10y to ~4.46%, DXY ~101. Key event risk: FOMC minutes Wed Jul 8 (<48h). No CPI/major earnings this week. Bias: LONG AI leaders (TSLA/META) only if US-open tape confirms.",
+    "sentiment": "TSLA Q2 deliveries beat (480k, +18% vs cons) but stock fell 7.5% Jul 2 then bounced ~6% \u2014 'sell the news' vol. Q2 earnings after close Wed Jul 22 (outside 48h). No 48h binary; near-term momentum/macro-driven. Neutral-to-slightly-constructive.",
+    "analyst": "Real 4h uptrend (ADX 42, RS +7.35%) but extended: RSI 69.6, %B 0.87, stoch 84, +1.69% above VWAP with no clean pullback and 5.3% of room to 437.73 resistance. Shorting the trend is a losing fight; chasing long into fading tape + FOMC is sub-1.5 R:R. Wait for pullback to 405-408 VWAP/SMA20 or reclaim of 437.73.",
+    "portfolio": "TSLA \u2014 HOLD (conf 0.58): extended uptrend, no entry edge; arm breakout-long trigger above 437.73."
+  },
+  "timestamp": "2026-07-07T09:57:49.622913+00:00"
+}

@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "MSTR/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.55,
+  "playbook": "none",
+  "forecast": "Price just faded from 100.96 to 99.35 into the close with 5m RSI ~20 (short-term oversold); expect a dead-cat bounce toward VWAP/100.2-100.4 over the next 2-4 bars, and THAT is the clean short entry, not chasing the range low here.",
+  "expectancy_note": "Short bias is real (1h/4h short, bearish div, RS -10%, BTC-proxy weak) but account shorts win only 0.46 / avg -0.97, and entering at 99.35 with 5m RSI 20 is the exact 'late short bounced out' loss pattern; wait for the retest.",
+  "rationale": "Structure and macro align short (structure_bias -0.12, RS -10%, BTC 0.70 corr and heavy), but a market short at the range low with the fast frame already oversold has poor expectancy given this book's short bleed, plus off-hours illiquidity and July 30 earnings event risk. The high-quality short is a bounce into VWAP ~100.3 with a stop above 100.96 targeting 97.5 then support 95 \u2014 I want that retest, not the chase.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 100.3,
+    "expires_min": 240,
+    "note": "A bounce back to VWAP/100.3 offers the clean short retest (stop above 100.96, ~2.5R to 97.5) instead of chasing the current stretched low."
+  },
+  "transcript": {
+    "macro": "RISK-OFF/DEFENSIVE. Hawkish Fed, FOMC July 29. US cash CLOSED => thin/gappy. BTC weak ~$65.7k. MSTR: BTC-proxy (0.70 corr) inheriting BTC weakness AND crypto beta; bearish divergence, structure_bias -0.12, RS -10%. HOSTILE for longs; cleanest short-side alignment of the group.",
+    "sentiment": "MSTR bearish/high-beta to weak BTC. Leveraged BTC proxy; BTC soft (extreme fear, ETF outflows) => MSTR scans short (below VWAP, bearish divergence). Q2 earnings July 30 after close (outside 48h but approaching); holds 843,775 BTC so any BTC move amplified. No catalyst inside 48h beyond BTC itself.",
+    "analyst": "Price ran to 100.96 then faded bar-by-bar to 99.35 (close at low), now at VWAP (-0.43%), 5m RSI 19.8, 15m RSI 37.9. Move NOT extended from VWAP (room to fall to support 89.95). But learner: shorts n=50, 46% win, -0.97R \u2014 book bleeds on shorts, and entering at the range low with 5m RSI 20 is the 'late short bounced out' pattern. Off-hours illiquidity + July 30 earnings add risk. Clean short is a bounce into VWAP ~100.3 (stop above 100.96, ~2.5R to 97.5). HOLD and wait for the retest.",
+    "portfolio": "HOLD MSTR \u2014 cleanest short-side alignment but fast frame oversold at the low; wait for the VWAP ~100.3 retest to short."
+  },
+  "timestamp": "2026-07-23T02:32:48.335805+00:00"
+}

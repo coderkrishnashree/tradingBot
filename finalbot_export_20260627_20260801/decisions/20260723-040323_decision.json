@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "HOOD/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.32,
+  "playbook": "none",
+  "forecast": "Price drifts/chops in the 103.6-104.8 pocket on thin off-hours volume; lower-TF momentum leans slightly down toward 103.6, but with no support until 96.68 and no resistance until ~105.3/116.66, there is no honest entry within 1xATR of price.",
+  "expectancy_note": "No edge: only 4h is long (0.883) while 1h/30m/15m fade (aligned:false); mid-range, crowded long (L/S 1.94, structure_bias -0.273), thin tape, earnings 7/29 risk. Any entry here is high-noise/low-p(win); HOLD beats a coin-flip.",
+  "rationale": "The single bullish input (stale 4h score) contradicts every faster clock, which is printing lower highs off the 105.27 pop and bleeding to 104.04 on dying volume. Price is stuck mid-range (support 96.68 / resistance 116.66) with nothing to lean on inside 1xATR, crowded-long positioning is a headwind, and it is off-hours thin/gappy tape into a 7/29 earnings binary. Relative strength is weakest in the peer group (-13.26). No R:R>=1.5 setup exists here, so size is zero.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 105.3,
+    "expires_min": 240,
+    "note": "Reclaiming the 105.27 swing high on volume would let the lower TFs confirm the 4h long thesis, turning this into a valid trend-continuation long toward 108+."
+  },
+  "transcript": {
+    "macro": "MIXED regime, cautious risk-off into next-week mega-cap earnings (MSFT/HOOD 7/29, MSTR 7/30 - outside 48h window). Oil spiked (Brent ~$94) = risk-off nudge. Scan struck outside US cash hours = thin/gappy tape, cash-open gap risk. Every name crowded long, several oversold = squeeze risk. HOOD internals conflicted (aligned:false).",
+    "sentiment": "HOOD neutral now, big binary next week. No catalyst today. Q2 earnings Wed 7/29 after close, options pricing ~12.6% post-earnings move - large binary but 6 days out, irrelevant to this cycle AND a strong reason NOT to carry HOOD into 7/29. Scan internally conflicted (4h long, 1h/lower-TF short). No near-term news edge.",
+    "analyst": "HOOD last 104.04, conflicted: composite long 40% but aligned=false - 4h screams long (0.883) while 1h/30m/15m fade; structure_bias -0.273, L/S 1.94 crowded-long. Last 15m bars print lower highs off the 105.27 pop, bleeding to 104.04 on dying volume. Mid-range (support 96.68 / resistance 116.66), nothing to lean on inside 1xATR, weakest rel strength (-13.26), 7/29 earnings binary. Textbook no-trade. HOLD; reconsider at 105.3 (reclaim = lower TFs confirm the 4h long).",
+    "portfolio": "HOLD HOOD - conflicted internals (only stale 4h is long), mid-range, no edge; reclaim of 105.3 would flip it long (reconsider armed)."
+  },
+  "timestamp": "2026-07-23T04:03:23.074298+00:00"
+}

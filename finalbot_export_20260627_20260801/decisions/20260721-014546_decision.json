@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "CL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Choppy two-way churn 81.9-83.0 around VWAP; the 4090-vol flush to 82.14 already bounced to 82.31, so no clean directional edge until price resolves out of this shelf. Headline-driven whipsaw expected.",
+  "expectancy_note": "No edge: price mid-band (%B 0.37, at VWAP, RSI 41) so neither a fade-long nor a fade-short; scan-short (-0.30) contradicted by 1h long (RSI 69.8) and a live geopolitical bid with two-sided gap risk. p(win) ~0.5 with fat binary tails = negative expectancy.",
+  "rationale": "CL is a headline-driven geopolitical bid (US-Iran day 10, Hormuz disrupted, possible 10-day ceasefire circulating) - a de-escalation gaps it down, an escalation gaps it up, and price sits mid-range at VWAP with no technical extreme to fade. The scan short-bias fights the bid and the 1h has flipped long, so no confluence. Precisely the 'trade small / don't fade oil aggressively while Iran headlines live' condition.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 81.85,
+    "expires_min": 240,
+    "note": "Losing the 82.14/81.97 flush low confirms the scan short bias with real structure and opens 81.0 -> 80.0; arm a short on the retest."
+  },
+  "transcript": {
+    "macro": "MIXED, leaning RISK-OFF for fresh longs (2026-07-21). Indices stalling just off highs (S&P 7,443, Nasdaq Comp 25,508), rising 10Y yields (4.55%) = headwind for tech multiples, DXY ~100.8. Earnings gauntlet inside 48h: GOOGL + TSLA after close Wed 7/22, INTC after close Thu 7/23 (no position carried through those). Tech names uniformly long-crowded (negative structure_bias). Chips are the relative-strength pocket but on a bounce, not a confirmed leg. Crude has the only fresh macro tailwind (US-Iran, Hormuz) but it's binary headline risk. Metals capped by yields (gold rejected $4,000, silver crowded-long/extended). BTC cleanest tape (benign funding, no earnings gate) but heavy overhead offers. EWJ pure QQQ/EWY beta, no independent driver. FOMC 7/29, BOJ 7/30 outside window. Size stance BELOW NORMAL - elevated gap risk into next 2 sessions.",
+    "sentiment": "Only true <=48h binaries are GOOGL (Q2 earnings 7/22 after close, elevated IV, gap expected) and INTC (Q2 earnings 7/23, options pricing ~15% move, RSI ~76). MSTR flipped to SELLING BTC (~$216M, largest since 2022) to fund dividends, stock -79% YoY - modest sentiment negative, BTC-dependent. BTC low-$65k, coiled bet on 7/28-29 FOMC ($2.5B call spreads target $72k); record June ETF outflows. XAG near 8-month lows after -6%, Sept-hike fears a headwind, no 48h catalyst. CL ~$82-83 five-week highs on US-Iran day 10 / Hormuz disruption - two-sided gap risk (possible 10-day ceasefire circulating). AAPL record ~$334 on China Apple Intelligence approval, +24% China iPhone units; earnings 7/30 (outside). MSFT earnings 7/29 (outside). TSM already reported 7/16 (rev +36% YoY, strong guide) - catalyst behind. ORCL no near-term catalyst. EWJ driver is BOJ 7/30 (outside). Everything except GOOGL/INTC/CL is pre-positioning ahead of the 7/28-30 FOMC/BOJ/MSFT/AAPL cluster - no fresh 48h mover.",
+    "analyst": "CL is a headline-driven geopolitical bid (US-Iran day 10, Hormuz disrupted, possible 10-day ceasefire circulating) - a de-escalation gaps it down, an escalation gaps it up, and price sits mid-range at VWAP with no technical extreme to fade. The scan short-bias fights the bid and the 1h has flipped long, so no confluence. Precisely the 'trade small / don't fade oil aggressively while Iran headlines live' condition.",
+    "portfolio": "HOLD (0.60) - live Iran/Hormuz headline tape, two-sided gap risk, mid-range no edge."
+  },
+  "timestamp": "2026-07-21T01:45:46.558534+00:00"
+}

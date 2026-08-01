@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "HOOD/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price is coiling on low volume just above 96.68 support after a deep 4h capitulation (RSI 3.3, -9.46% vs VWAP); over the next few candles expect either a violent oversold bounce back toward 102-104 or a clean volume-break of 96.68 \u2014 no clean edge either direction yet.",
+  "expectancy_note": "p(win) on a fresh short here ~0.30 (learner p_win 0.293, shorts 0.47/-0.87 avg); shorting RSI 3.3 into a due bounce is the account's #1 loss pattern, and a valid stop above 100 vs first target 96.68 barely clears 1R \u2014 negative expectancy. Long has no confirmation in risk-off tape. HOLD is +EV.",
+  "rationale": "HOOD is the most STRETCHED short in the group (4h RSI 3.3, ADX 90, -9.46% from VWAP) and the model penalizes exactly this (vwap_dist and atr_pct strongly negative predictors); mid-TF candles show low-volume coiling/exhaustion above support 96.68, not fresh momentum \u2014 a mean-reversion bounce is the highest-probability next move. US cash closed (thin/gappy) plus weekend Iran headline risk make both a chase-short and a knife-catch long negative expectancy. Size 0; wait for a fade of the bounce at a real level or a confirmed break of support.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 96.68,
+    "expires_min": 240,
+    "note": "A decisive break of the 96.68 support with volume voids the oversold-bounce thesis and opens a fresh continuation short toward the next leg; a reclaim/bounce would instead set up a fade of the rally near VWAP."
+  },
+  "transcript": {
+    "macro": "RISK-OFF tape: Fri Jul 17 tech-led selloff (Nasdaq -1.40%, week -2.9%) on semi rout + China AI (Moonshot) scare + US/Iran escalation. Rates a mild tailwind, DXY cooling. Supportive of shorts, hostile to longs, but confirmed shorts deeply oversold. US cash CLOSED Sat Jul 18 \u2014 thin/gappy perps, weekend gap risk. All five scored short by scan, near-zero funding. HOOD strongest short by positioning (structure_bias -0.296, orderbook -0.397 offered) but already a capitulation candle (RSI 3.3, ADX 90, -9.46% vs VWAP) sitting on support 96.68; biggest risk a violent oversold bounce. Half size, don't chase.",
+    "sentiment": "No fresh 24-48h catalyst; earnings Jul 29 (outside window). HOOD down ~27% YTD after Q1 crypto-revenue miss. Robinhood Chain (L2) launched Jul 1, eye-catching volume ($878M DEX) but memecoin-dominated (revenue-quality snag). Crypto-beta like MSTR; soft-BTC backdrop a headwind. Bias neutral, downside tilt if crypto rolls.",
+    "analyst": "Most stretched short in the group (RSI 3.3, ADX 90, -9.46% vs VWAP); learner p_win 0.293 (lowest), model penalizes high vwap_dist/atr_pct. 15m coiling/exhaustion on low volume above 96.68 support = mean-reversion bounce most likely. Shorting the hole into a due bounce is the account's #1 loss pattern; stop above 100 vs target 96.68 barely clears 1R. No long confirmation in risk-off tape. HOLD; short only on a confirmed break of 96.68 or a fade of the bounce.",
+    "portfolio": "HOLD HOOD \u00b7 conf 0.60 \u2014 most stretched short, bounce due; short only on confirmed break of 96.68."
+  },
+  "timestamp": "2026-07-18T05:37:36.347806+00:00"
+}

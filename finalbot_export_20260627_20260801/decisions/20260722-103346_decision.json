@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "GOOGL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.8,
+  "playbook": "none",
+  "forecast": "Coiling around 350 / VWAP with BB compressed to 3.4% width; expect low-conviction chop 348-351 into US close, then a large binary gap on tonight's Q2 print that no honest intraday stop can survive.",
+  "expectancy_note": "No edge: composite confidence 5%, %B 0.49 mid-range, conflicted TFs (4h short vs 1h/5m long). Any entry is a coin-flip through an earnings gap \u2014 negative expectancy vs flat.",
+  "rationale": "GOOGL reports Q2 tonight after US close, a binary event inside the window, and the tokenized perp will gap/thin overnight \u2014 holding naked is uninvestable. Technically there is nothing to trade anyway: price sits on VWAP (dist +0.06%), BB %B 0.49 dead-center, composite direction flat at 5% confidence, and the book is the most crowded-long/negative-bias name (L/S 1.90, funding +0.00044, structure_bias -0.414), fuel for a squeeze but not a setup. Correct play is flat into the print; size 0.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 341.86,
+    "expires_min": 120,
+    "note": "Losing range support 341.86 on volume before US close would be the only pre-earnings breakdown worth a fast short scalp; otherwise stay flat through the print."
+  },
+  "transcript": {
+    "macro": "Regime MIXED, tilting hostile for fresh longs; 7/22 Nasdaq futures lower pre-open, earnings caution. GOOGL positioning most crowded of equities: funding +0.00044 (mildly hot), L/S 1.90, structure_bias -0.414 (most negative in book). Tokenized equity: thin/gappy outside US hours. TSLA also reports after close same day.",
+    "sentiment": "GOOGL neutral but EARNINGS TONIGHT (Jul 22 after close) \u2014 do not hold naked. Consensus ~$2.89 EPS on ~$116.8B rev. Focus: Google Cloud growth (~60%+), $190B 2026 capex. Anthropic stake mark-up could distort reported EPS sharply (headline beat may be noise). Overhang: EU DMA order, $4.67B EU fine, Gemini 3.5 Pro delay (long-horizon). Tradable event is tonight's print \u2014 expect a large post-close gap.",
+    "analyst": "Binary earnings tonight after US close + tokenized perp gaps/thins overnight = holding naked is uninvestable. And there is nothing to trade anyway: price on VWAP (+0.06%), BB %B 0.49 dead-center, composite flat at 5% confidence, most crowded-long/negative-bias name (L/S 1.90, structure_bias -0.414). Flat into the print.",
+    "portfolio": "HOLD GOOGL \u2014 do-not-hold-naked into tonight's Q2 print; flat, no edge."
+  },
+  "timestamp": "2026-07-22T10:33:46.031948+00:00"
+}

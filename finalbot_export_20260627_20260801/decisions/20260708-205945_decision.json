@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "TSM/USDT:USDT",
+  "size": 0.0,
+  "entry": 436.27,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.34,
+  "playbook": "none",
+  "forecast": "Coiling dojis at 436 on dead volume after 440 rejection; most likely chops 434-438 for the next 2-4 bars until either 425.7 support breaks (resume down) or 440 reclaims (divergence plays out).",
+  "expectancy_note": "Short into oversold RSI 28.6 + 4h bullish divergence + only ~2.4% above support = low p(win) chop, and trend-shorts are this account's worst bucket (58% wr, -2.31 avg). No edge either side; HOLD is best expectancy.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 425.72,
+    "expires_min": 240,
+    "note": "Losing the 4h support with volume confirms the downtrend resumes and gives a short clean room toward the next leg; a reclaim of 440 would instead validate the bullish divergence."
+  },
+  "rationale": "TSM sits ~1.5% above 425.7 support with a bullish divergence flagged on 4h and RSI oversold at 28.6 \u2014 a momentum short here fights the reversal signal and the losing trend-short playbook, while a long fights the 4h downtrend and risk-off macro with no reclaim trigger. Volume is essentially dead (last bars 0.08-1.9 units, thin Asian name) so any move is gap-prone; the 440 rejection then flat coil is exhaustion, not fresh direction. Size zero \u2014 neither side clears R:R and probability. Wait for a decisive break of structure.",
+  "transcript": {
+    "macro": "RISK-OFF regime, rewards short risk-beta. TSM: mild short, LOW CONVICTION + liquidity/gap caveat \u2014 semis pressured by AI-capex worries and risk-off; in 4h downtrend. BUT bullish divergence flagged, near support (~426), very thin token volume (Asian name), low BTC corr (0.15). Mild headwind for longs, but the oversold/divergence setup makes a clean short lower-conviction \u2014 trade small, respect support.",
+    "sentiment": "TSM CAUTION: earnings July 16 (outside 48h but approaching \u2014 pre-earnings positioning risk building). No catalyst inside 48h; June monthly revenue print next. Strong fundamentals (Q2 guide $39.0-40.2B, 2026 rev +30% USD) but priced/long-horizon. Scan shows 4h bullish RSI divergence at oversold \u2014 near-term news NEUTRAL, no shock to trade on.",
+    "analyst": "TSM is oversold (RSI 28.6, stoch 30.7) with a 4h bullish divergence, sitting only ~2.4% above 425.7 support after rejecting 440 and coiling on near-zero volume. A momentum short into that setup is low-probability and matches the account's worst-performing bucket (trend shorts), while a long fights risk-off macro and the 4h downtrend with no reclaim yet. No clean edge in a thin, gappy book \u2014 HOLD and let a break of 425.7 (short) or reclaim of 440 (long) decide.",
+    "portfolio": "TSM/USDT:USDT \u2014 HOLD (conf 0.34): oversold with bullish divergence into support on dead volume; no-trade until structure breaks."
+  },
+  "timestamp": "2026-07-08T20:59:45.257566+00:00"
+}

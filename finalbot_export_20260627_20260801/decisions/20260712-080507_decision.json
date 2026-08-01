@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "TSM/USDT:USDT",
+  "size": 0.0,
+  "entry": 437.42,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.34,
+  "playbook": "none",
+  "forecast": "No tradable path: 0.00-volume weekend bars pinned in a 436.5-437.5 band, last five closes identical at 437.42; price stays frozen until cash-session liquidity returns, then real direction sets up around the Jul 16 earnings gap.",
+  "expectancy_note": "No edge: illiquid tape (can't fill/exit), weak ADX 24, short-bias contradicted by bullish divergence + 15m long, and a hard binary gap Thu \u2014 any entry is negative expectancy.",
+  "rationale": "The recent candles are near-zero volume with price frozen in a ~1-point band, so there is no real move to forecast and no liquidity to enter or exit cleanly. The 38% short composite is unaligned and rests on structure metrics that are meaningless at this volume, while a flagged bullish divergence and 15m-long cut against it. TSMC earnings Thursday Jul 16 is a dominant binary gap inside the horizon that no honest stop survives, so size stays zero until liquidity and the event clear.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 425.72,
+    "expires_min": 240,
+    "note": "Losing the 425.72 support on real cash-session volume would confirm the short thesis and justify re-debating a downside entry (still respecting Jul 16 event risk)."
+  },
+  "transcript": {
+    "macro": "Regime NEUTRAL. TSM effectively untradeable/avoid until event and cash liquidity clear. Earnings Thursday Jul 16. Near-zero weekend volume (0.00-vol candles). Composite short only conf 38%, aligned=false, structure_bias -0.42 but on meaningless volume.",
+    "sentiment": "TSM = BEARISH scan into a HARD BINARY (highest-priority event this cycle). TSMC reports Q2 earnings THURSDAY JUL 16 (~2pm Taipei) \u2014 inside the desk's multi-day horizon. High expectations (EPS ~$3.81 vs $2.47 y/y, GM 65.5-67.5%) after a +40% quarter = genuine event-risk gap either direction. Near-zero off-hours volume + bullish divergence flagged. Caution against holding size through the print.",
+    "analyst": "TSM last 437.42, composite short conf 38.2%, aligned=false, ADX 24.1 (no trend), RSI 44, %B 0.376. Support 425.72, resistance 460.54. Mixed TFs (15m long +0.46, 30m/1h short -0.90, 4h short -0.17), bullish divergence flagged. recent candles near-all 0.00 volume, price frozen 436.5-437.5, last five closes identical at 437.42. No liquidity to enter/exit, weak conviction contradicted by divergence, and a hard binary gap Thu Jul 16 no stop survives. HOLD; reconsider on loss of 425.72 at real volume.",
+    "portfolio": "HOLD TSM \u2014 dead illiquid tape into Jul 16 earnings binary; no edge, reconsider armed at 425.72."
+  },
+  "timestamp": "2026-07-12T08:05:07.836779+00:00"
+}

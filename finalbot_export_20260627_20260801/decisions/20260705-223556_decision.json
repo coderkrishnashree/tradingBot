@@ -1,0 +1,25 @@
+{
+  "action": "hold",
+  "symbol": "CRCL/USDT:USDT",
+  "size": 0.0,
+  "entry": 70.01,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "expectancy_note": "Long is negative-EV (RSI 86, +0.91% vs VWAP, funding +0.65% crowded-long L/S 2.785, Stripe overhang). Short into ADX-84 breakout (vol x11) without rejection is a coin-flip. Wait for failure below 69.43 pivot to short with edge.",
+  "rationale": "CRCL is euphoric and maximally crowded-long: RSI ~86, price pinned at resistance 70.11 and +0.91% above VWAP, punitive +0.65%/8h funding and L/S 2.785 give the most negative structure_bias (-0.664) on the board, plus a live asymmetric downside catalyst (Stripe Open USD / Compass Point PT to $55). That makes chasing the long clearly negative expectancy. But ADX 83.8 with a genuine vol-ratio-11 breakout means shorting into strength before a rejection is a coin-flip on thin cash-closed weekend tape. Highest-EV action is to stand aside and arm a short trigger on breakout failure rather than knife-catch either side.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 69.43,
+    "expires_min": 240,
+    "note": "Losing the 15m breakout pivot (and VWAP ~69.4) confirms the crowded-long breakout has failed - flips to a short with the funding/crowding/overhang tailwind toward support 68.26 and below."
+  },
+  "transcript": {
+    "macro": "Regime: cautiously risk-ON but thin weekend tape (Sun Jul 5, US cash CLOSED till Monday). CRCL/USDT $70.01 (Circle stock, corr-BTC 0.652): THE MOST DANGEROUS ON THE BOARD - funding +0.65% (pinned extreme, -1.0) and L/S 2.785 (extreme crowded-long, -1.0) -> structure_bias -0.664, most negative of all targets. RSI 85.6, ADX 84, +0.9% above VWAP after 15m breakout. Euphoric, over-levered, maximally crowded-long. Stock-specific: Circle fell ~22% in 48h on Open USD stablecoin-competitor news (Visa/Mastercard/BlackRock/Coinbase). HOSTILE for new longs; primed for long-squeeze. If long taken: half size, tight stop.",
+    "sentiment": "CRCL headline risk sharpest of the group. Dominant story: competitive shock from Stripe's 'Open USD' stablecoin (Visa/BlackRock) - drove Compass Point to cut target to $55 from $97, already pressuring the stock. Offsets: Nomura/Japan FX deal (~2027), potential Coinbase USDC renewal August (not this cycle). Breaking out on huge volume but extreme funding (+0.65%/8h), RSI ~86 - crowded long into a name with genuine negative fundamental overhang. Read: two-sided/elevated risk, Stripe narrative can reprice it violently.",
+    "analyst": "RSI 85.6/84.2/88.2 across short TFs, %B 1.085, +0.91% above VWAP, stoch 94.3, ADX 83.8. Structure: funding +0.651% (-1.0 pinned), L/S 2.785 (-1.0), structure_bias -0.664 (most negative on board). Price basically at resistance 70.11, breakout level 69.43 (vol 11.18x). Textbook hostile-for-longs: paying punitive funding into a primed long-squeeze with a live asymmetric downside catalyst = negative EV. But shorting a live ADX-84 breakout on thin weekend tape without a rejection is a coin-flip. HOLD, arm a short on failure below 69.43.",
+    "portfolio": "HOLD CRCL - chasing the long is negative-EV; armed to short on a breakout failure below 69.43."
+  },
+  "timestamp": "2026-07-05T22:35:56.471660+00:00"
+}

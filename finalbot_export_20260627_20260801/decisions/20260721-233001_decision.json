@@ -1,0 +1,23 @@
+{
+  "symbol": "XAUT/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.55,
+  "size": 0.0,
+  "entry": 4076.5,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "rationale": "XAUT is a metals move (btc_corr 0.40, silver-corr 0.85), trend intact on 30m/1h/4h but tired: RSI 68.9, stoch 93.2, %B 0.97, bearish divergence right under resistance 4094.6, and the most lopsided long book of the complex (L/S 2.58, structure_bias -0.305) \u2014 squeeze risk if it fails. Last several candles are tight low-volume chop (4072-4081), no breakout trigger and no exhaustion rejection, so neither direction offers a clean 1.5+ R:R with a <=1.5xATR ($23.6) stop. Sit flat and let the 4094 test pick the direction rather than chase a stretched long or fade a strong uptrend blind.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 4072.0,
+    "expires_min": 240,
+    "note": "Losing the 4072-4073 coil floor confirms the divergence is playing out and the crowded longs are unwinding \u2014 triggers a short toward VWAP ~4029/support 3962. A clean reclaim+hold above 4094.6 would separately flip long on breakout continuation."
+  },
+  "transcript": {
+    "macro": "Regime RISK-ON; XAUT is a metals-complex move (0.40 BTC-corr, 0.85 silver-corr), not crypto beta, and gold trades ~24h so no market-hours gap risk \u2014 cleaner than the equities. Spot gold ~$4,059-4,098, up from ~$4,009 Monday. SUPPORTIVE for longs but crowded: funding negligible, L/S 2.58 (most lopsided long book, bias maxed -1.0), structure_bias -0.305, OI large (33,915), orderbook flat; trend intact 30m/1h/4h but RSI 68.9 with bearish divergence near resistance 4094 (last 4076). Biggest risk: long-squeeze if it fails 4094.",
+    "sentiment": "XAUT choppy, two-sided; catalyst beyond window. Gold ~$4,050-4,076, bounced ~$65 off ~$4,008 on safe-haven bids (US-Iran / Strait of Hormuz tension), but trend capped by hawkish Fed (rates held 3.50-3.75%, some hike odds priced) and dollar strength; gold down ~25% from Jan peak. Bearish 4h divergence, RSI 68.9 near resistance $4,094 = tired uptrend. FOMC July 29 OUTSIDE 48h and near-certain hold. NEUTRAL/two-sided \u2014 range/vol play, not a directional catalyst trade.",
+    "analyst": "Coiling chop just under resistance 4094.6, tired crowded-long uptrend. Long = chasing an extended (RSI 68.9, stoch 93.2, %B 0.97) book into resistance with bearish divergence and L/S 2.58; short = fading three aligned long TFs and ADX 50 with no rejection candle. No side clears 1.5 R:R with a <=1.5xATR stop. HOLD and let the 4094 test resolve; break below 4072 triggers a short toward VWAP ~4029/support 3962, reclaim above 4094.6 flips long.",
+    "portfolio": "HOLD XAUT (0.55) \u2014 tired crowded-long coil under resistance; no acceptable R:R yet, armed at 4072 (breakdown short) / 4094.6 (breakout long)."
+  },
+  "timestamp": "2026-07-21T23:30:01.972609+00:00"
+}

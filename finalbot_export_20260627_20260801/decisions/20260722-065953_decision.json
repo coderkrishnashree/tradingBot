@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "GOOGL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Slow grind is stalled with 15m stoch 14 / RSI 31 deeply oversold; expect a mean-reversion bounce back toward the 350.5-351 VWAP/prior-support shelf over the next 2-4 bars before any continuation \u2014 a market short here chases into that bounce.",
+  "expectancy_note": "Short drift is real (all TFs short, laggard, retail net long) but LTF oversold means p(win) on a market short is <0.5 with negative R:R once the bounce hits a stop; and the same-day after-close earnings (~5.3% priced move) turns any carried position into a coin-flip. HOLD beats both a chased short and a hold-through-print.",
+  "rationale": "Trend is genuinely soft (4h -0.786, composite short 64.7%, rel strength -9.84%), but price sits AT VWAP with 15m stoch 14 and RSI 31 \u2014 the clean short already ran and a market entry here would be chasing into a likely bounce, the account's #1 loss pattern. Decisively, Alphabet reports Q2 earnings TODAY after US close with ~5.3% priced move and thin off-hours perp liquidity, so any position can't be safely carried and the intraday window is too compressed for good expectancy. Best action is to stand aside and re-engage a short only on a bounce into resistance, well before the close.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 351.0,
+    "expires_min": 240,
+    "note": "A bounce to reclaim the 350.5-351 VWAP/prior-support shelf gives a clean, non-chasing short entry into resistance with a tight stop above 352 \u2014 re-debate for a short there (still flat well before the after-close print)."
+  },
+  "transcript": {
+    "macro": "Regime cautiously risk-on but earnings-week event risk dominates; Wed Jul 22 futures soft as tape de-risks into Big Tech earnings. GOOGL: DECISIVE \u2014 Alphabet reports Q2 earnings TODAY after US close; options price ~5.3% move; any hold-through = coin-flip. Trend soft (last 349.22, rel strength -9.84% vs BTC, 4h -0.786, composite short 64.7%). Derivatives neutral: funding 0.0, OI ~6,911, LSR 1.567 (retail net long = mild contrarian short support), orderbook +0.183, structure_bias -0.116. Biggest risk: post-close earnings gap, thin off-hours perp liquidity. Guidance: HOSTILE for hold-through; intraday & flat before close or half-size with wide stops.",
+    "sentiment": "GOOGL: IMMINENT BINARY \u2014 earnings TODAY after close (~4:30pm ET), confirmed. Street ~$2.87 EPS / ~$116.9B rev; watch Cloud + AI capex. Wildcard: ~14% Anthropic stake marked up sharply, GAAP EPS could print far above est (one bank ~$8) = gappy print either direction. Regulatory backdrop NET POSITIVE/de-risked (July remedies ruling rejected harshest DOJ asks). Near-term NEUTRAL-to-cautionary on direction, HIGH event risk; news argues AGAINST carrying through the after-close print.",
+    "analyst": "Short drift is valid (all TFs short, laggard, retail net long to squeeze) but price sits AT VWAP with 15m stoch 14 / RSI 31 deeply oversold \u2014 the clean short already ran; a market short chases into a likely bounce toward 350.5-351, the account's #1 loss pattern. R:R marginal (first support 341.86 ~2.1% away vs stop above 351). Decisive overlay: same-day after-close earnings (~5.3% priced move) + thin off-hours liquidity makes any carried position a coin-flip and compresses the intraday window below acceptable expectancy. HOLD; armed a price_above 351 reconsider for a clean non-chasing short into resistance, flat well before the print.",
+    "portfolio": "GOOGL \u2014 HOLD @ conf 0.60: valid short drift but oversold LTF (no clean entry) and same-day after-close earnings landmine; stand aside, reconsider short on a bounce >351."
+  },
+  "timestamp": "2026-07-22T06:59:53.425643+00:00"
+}

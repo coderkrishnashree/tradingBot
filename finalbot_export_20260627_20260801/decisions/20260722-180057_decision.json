@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "SOL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.55,
+  "playbook": "none",
+  "forecast": "Chop 78.1-78.6 under 79.01 resistance; most likely reject and fade toward 77.4 as stretched longs bleed, unless BTC leads a reclaim of 79.01.",
+  "expectancy_note": "No clean entry: long is extended into 79.01 resistance (stoch 81, 5m short, crowded L/S 2.49) so R:R <1.5; short needs 78.10 loss to confirm. HOLD beats forcing either.",
+  "rationale": "SOL is a lagging BTC-beta (corr 0.815, relStr -10.3%) pinned under 79.01 with a heavily crowded long book (L/S 2.49) and 5m already rolling short (-0.577); last bar closed weak in-range with stoch pinned at 81. BTC itself is capped at 66,938 with 4h bearish divergence, so no independent leader to power a breakout. Buying here chases into resistance and shorting has no trigger yet - waiting for 78.10 to break gives a real fade, otherwise a 79.01 reclaim flips it long.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 78.1,
+    "expires_min": 240,
+    "note": "Losing 78.10 breaks the intraday shelf/VWAP and starts the crowded-long unwind toward 77.4/73.3 - arms a short."
+  },
+  "transcript": {
+    "macro": "Regime RISK-ON but stretched, chip/semi-led equity rally (Nasdaq100 +1.9%). Fed is a HAWKISH tail risk: market prices ~14-24% July hike, ~64-69% by Sept (Warsh Fed); oil >$92 reviving inflation, firm DXY. Long-crowding across nearly the whole book (contrarian structure_bias negative on most names) -> size DOWN, favor located entries over chasing. BTC $66,026, dominance ~56-59%, funding flat, L/S 1.31 (uncrowded), 4h bearish divergence, capped under 66,938. Tokenized-equity tapes (EWJ, TSM) are THIN with near-zero-volume 15m candles -> wider stops, smaller size. FOMC July 28-29 is the dominant binary but sits just OUTSIDE the 24-48h window -> positioning overhang, not an immediate trigger.",
+    "sentiment": "No instrument has a clean tradeable catalyst INSIDE 24-48h; big binaries (FOMC Jul 28-29, SNDK earnings Aug 5) are just outside the window. EWJ neutral/mild-bull, broad Japan basket on Nikkei/yen/semi cycle, near 52wk-range top, no 48h binary. SNDK bullish momentum but headline-risk high & NOT news-clean: +17.5% Jul-21 snap-back after -24.5% Jul13-17 China-AI scare = whipsaw; earnings Aug 5. SOL neutral-to-constructive: structural positives (5 spot ETFs ~$1.12B inflows, possible SEC staking-ETF, Alpenglow Q3) offset by MAU 2yr-low, TVL -56%; trades as high-beta BTC into the Fed. XAUT neutral, two-sided into the Fed: safe-haven bid (Mideast/US-Iran) vs strong dollar; CB buying ~60t/mo = floor; watch DXY. BTC cautiously bullish: two-week high on 5 straight days spot-ETF inflows (>$600M), F&G ~53, $2.5B Deribit call spreads target $72k by Jul-31; caveat flows fragile + 4h divergence; Fed-gated. TSM bullish fundamentals but catalyst fired Jul-16 (Q2 beat, guide raise, muted reaction); now trades on AI-demand tape, priced.",
+    "analyst": "Lagging BTC-beta (corr 0.815, relStr -10.3%) pinned under 79.01 resistance; heavily crowded long (L/S 2.49), 5m rolling short (-0.577), stoch 81, last bar weak in-range. BTC itself capped at 66,938 w/ 4h divergence = no leader for a breakout. Long chases resistance; short lacks a trigger until 78.10 breaks. HOLD; armed price_below 78.10 (short).",
+    "portfolio": "SOL: HOLD (0.55) - stalling laggard under 79.01 in a crowded long book; fade arms on loss of 78.10, else needs BTC-led reclaim."
+  },
+  "timestamp": "2026-07-22T18:00:57.850702+00:00"
+}

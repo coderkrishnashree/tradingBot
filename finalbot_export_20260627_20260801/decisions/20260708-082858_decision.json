@@ -1,0 +1,26 @@
+{
+  "symbol": "EWJ/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.35,
+  "size": 0.0,
+  "entry": 91.6,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "forecast": "Price pinned on support 91.6 at RSI 27 / stoch 0 with a bullish divergence but no reversal bar (last candle closed on its low); on near-zero volume it likely chops 91.4-92.5 and only a volume reclaim of 92.45 confirms a bounce - absent that it can gap lower toward 91 on Tokyo-hours illiquidity.",
+  "expectancy_note": "p(win) ~0.45 either way; thin tape (1-unit prints move price ~1%) makes any stop/target unreliable, so no direction clears R:R>=1.5 - flat is highest expectancy.",
+  "rationale": "EWJ is an untraded tokenized ETF (last bar moved ~1% on 1.12 volume) deep oversold at support 91.6 with bullish divergence, but ADX 80 confirms a dominant downtrend and the last candle closed on its low with zero bounce confirmation. Macro/sentiment adds a fresh Nikkei -2.1% tech selloff plus BoJ tightening headwind and gap risk to Tokyo hours. Fading the knife without confirmation or shorting into RSI 27/stoch 0 with crowded longs both carry poor expectancy in this illiquidity, so stay flat and wait for a volume reclaim.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 92.45,
+    "expires_min": 240,
+    "note": "Reclaiming the broken 92.45 shelf on real volume confirms the bullish divergence and turns oversold-at-support into a long."
+  },
+  "transcript": {
+    "macro": "Risk-on globally but intraday wobble; DXY<102. EWJ +18.6% YTD, Nikkei near records, weak yen (USD/JPY ~162) boosts exporters - constructive medium-term, BUT tokenized/thin and gaps to Tokyo hours. STAY-OUT unless clean setup; small size.",
+    "sentiment": "EWJ bearish-leaning short-term. Nikkei just dropped ~2.1% to a 3-week low on heavy tech/semiconductor selloff (Kioxia -11%, Murata -10%); May household spending -0.4%. BoJ tightening bias (yen-supportive, ETF-negative). No dated binary in 48h; follows Japan tech tape.",
+    "analyst": "Near-zero-volume tokenized name (1.12 vol moved ~1%) deep oversold at support with bullish divergence but ADX 80 downtrend and no reversal candle; stops/targets unreliable. Wait for a 92.45 volume reclaim.",
+    "portfolio": "HOLD EWJ - illiquid knife at support with conflicting timeframes; long trigger armed on a 92.45 volume reclaim."
+  },
+  "timestamp": "2026-07-08T08:28:58.656289+00:00"
+}

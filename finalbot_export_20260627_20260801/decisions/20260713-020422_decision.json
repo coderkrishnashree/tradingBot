@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "QQQ/USDT:USDT",
+  "size": 0.0,
+  "entry": 720.17,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Thin weekend chop 719-725; price is pinned to the lower band (%B 0.028, 1h RSI 13.6, stoch 5.7) so the next few bars more likely mean-revert up toward VWAP ~724-726 than extend cleanly lower before Monday's CPI/Warsh binary resolves direction.",
+  "expectancy_note": "Short into %B 0.028 / stoch 5.7 / 1h-RSI 13.6 is chasing an exhausted move on thin Sunday tape into a CPI binary - a routine bounce hits any honest stop first; no long edge (trend down, sellers stacked). HOLD is highest expectancy.",
+  "rationale": "QQQ is the macro barometer, not a standalone setup: composite short is only 22.7% confidence and the weakness is momentum, not positioning (L/S 0.986, no crowd to squeeze). Price is already stretched to the lower Bollinger band on Sunday-thin, gap-prone tokenized tape directly into Monday's CPI + Warsh testimony - the sentiment note explicitly says do not hold a QQQ short blind through CPI. A market short here risks getting stopped by a mean-reversion bounce to VWAP before any continuation; no valid long given the hostile-for-longs regime and stacked sell-side orderbook. Size 0 until the print resolves.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 718.0,
+    "expires_min": 240,
+    "note": "Losing 718 (below the current lower-band low ~719.56) on real volume proves the oversold bounce failed and the downtrend is extending with room to support 698, re-opening a cleaner short entry."
+  },
+  "transcript": {
+    "macro": "Regime HOSTILE for longs / cautiously supportive for shorts but MIXED execution. Broad semi-led risk-off flush. Hawkish Fed, month-end FOMC. BIGGEST risk = Sunday-night snapshot, US cash CLOSED, thin/gap-prone perps re-rate Monday on June CPI + Warsh. Funding neutral. QQQ 720 (RSI 32 4h), orderbook -0.507 (sellers stacked), long/short ~0.99 (balanced, no crowd to squeeze), structure_bias only -0.149 = weakness is price/momentum not positioning. Nasdaq broke lower on AI/chip rotation. It's the barometer/macro trade.",
+    "sentiment": "QQQ is the barometer, not the story - it IS the macro trade. No product/regulatory event. Single most important near-term catalyst for the whole book: June CPI + Warsh testimony Monday Jul 14 pre-market, plus bank earnings starting Q2 season. Tape firm into weekend (Nasdaq 100 +0.3%, healthy breadth). Scan short (-0.18) is a low-conviction fade of a strong tape into a binary macro print. Do NOT hold a QQQ short blind through CPI.",
+    "analyst": "Composite short only 22.7% confidence; price stretched to lower band (%B 0.028, 1h RSI 13.6, stoch 5.7) on thin Sunday tape directly into a CPI binary. A market short gets stopped by a bounce to VWAP ~724-726 first; no long edge with sellers stacked and hostile regime. HOLD, arm short on loss of 718.",
+    "portfolio": "QQQ: HOLD (conf 0.60) - low-conviction macro fade into CPI; don't short blind through the print, wait for loss of 718."
+  },
+  "timestamp": "2026-07-13T02:04:22.756067+00:00"
+}

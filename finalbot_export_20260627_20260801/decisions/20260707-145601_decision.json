@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "NVDA/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price is basing ~192, ~2pts above 190.16 support, with 15m already bouncing off 191.0; expect chop between 191 and 193.5 near-term. A short only pays on a retrace toward 196-198 resistance, or on a decisive break under 190.16 toward 187-185.",
+  "expectancy_note": "Shorting at 4h-RSI 24.3 into support with retail-long squeeze fuel and a live China-H200-shipment gap risk is negative expectancy; no long vs ADX 49 downtrend. p(win) on either entry here <0.5 \u2014 HOLD beats both.",
+  "rationale": "Trend and macro favor shorts (ADX 49, all TFs down, bias -0.38), but price is deeply oversold (4h RSI 24, %B -0.05, stoch 15.6) sitting 2pts ABOVE 190.16 support with the 15m candles bouncing off 191.0 \u2014 this is a chase, not an edge. Retail L/S 2.05 is squeeze fuel and an unconfirmed China-shipment headline is an asymmetric upside gap risk. Best expectancy is to wait for either a retrace to 196-198 (short with trend) or a clean 190.16 break; size 0 until then.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 190.16,
+    "expires_min": 240,
+    "note": "Losing 190.16 support on a 15m close proves the oversold bounce failed and reopens trend-continuation short toward 187-185."
+  },
+  "transcript": {
+    "macro": "Overall risk-ON but fragile AI-led tape. Chips led rebound but AI-capex 'compute glut' scare LIVE (semis ETF -6% on META-reselling-compute report) \u2014 NVDA two-sided/event-sensitive. Rates easing, DXY firm. Derivatives caveat: near-zero funding + pinned L/S>2 is a token-perp artifact; US cash thin/gappy until 13:30 ET. NVDA: OI 19,903, L/S 2.05, OB -0.03 -> bias -0.38; composite SHORT -0.26, ADX 49 (strong trend) but RSI 4h 24.3 (deeply oversold), %B -0.05, stoch 15.6, RelStr -4.6%, near support 190.2. Read: supportive-for-shorts by trend/macro BUT oversold + retail-heavy-long = high bounce risk chasing at RSI 24; favor shorts on retrace, smaller size.",
+    "sentiment": "NVDA bullish long-term but momentum-negative now; scan SHORT into RSI 24 aligns with near-term drift. Stock ~192, -17% from May $236 high, worst major semi of 2026. Swing factor China H200: licenses/POs approved (Alibaba, ByteDance, Tencent) w/ 25% tariff + 50%-of-US-volume cap but NOT ONE CHIP SHIPPED yet \u2014 'restart imminent' could flip to a bullish shock on any confirmed-shipment headline. No earnings in window (Q2 late Aug). Two-sided: short aligns w/ weak momentum but China-shipment headline is the obvious squeeze risk; RSI 24 stretched.",
+    "analyst": "15m fell to 191.34, based and bounced to 192.88/193.17, faded to 191.68, now ~192.14 \u2014 sitting ~2pts ABOVE 190.16 support, NOT at it, with 15m momentum turned up (RSI 59.4). Trend/macro favor shorts but chasing at 4h RSI 24 into support with squeeze fuel + asymmetric China-shipment gap risk is a donation. HOLD; armed a continuation-short trigger on a 15m close below 190.16.",
+    "portfolio": "NVDA: HOLD (conf 0.60) \u2014 trend short but too oversold to chase; short only on 190.16 break or 196-198 retrace."
+  },
+  "timestamp": "2026-07-07T14:56:01.027768+00:00"
+}

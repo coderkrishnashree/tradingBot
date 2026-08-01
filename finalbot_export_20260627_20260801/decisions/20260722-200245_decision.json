@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "INTC/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price just cracked to 102.79 on max volume closing at the low; next few bars likely a dead-cat bounce toward VWAP/broken-support 104.0-104.5 before another leg lower toward 100.5-101. Chasing the short here (15m RSI 23) risks the bounce stopping me out.",
+  "expectancy_note": "Bearish structure (RS -22%, L/S 1.83 crowded-long, orderbook -0.29) but LTF oversold = late-short trap; market entry has negative expectancy. Best short is a limit on the 104.3 bounce, and a 12% earnings binary tomorrow caps any hold-through swing, so wait, don't chase.",
+  "rationale": "The path is genuinely bearish (worst RS in cohort, unsupported crowded longs, session -3%, last bar dumped on highest volume closing at range low). But price is stretched short with 15m RSI 23.4 after a one-bar 1.3pt drop, a market short here is exactly the account's late-short-into-oversold loss pattern, and a routine bounce to VWAP would hit an honest stop. Q2 earnings tomorrow after close (~12% implied) also forbids holding a directional swing through the print. Wait for a rejection at the 104.3 retest to short with a tight stop and clean R:R before the binary; if it never bounces and keeps sliding, stay out rather than chase.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 104.3,
+    "expires_min": 240,
+    "note": "A bounce back to VWAP/broken-support 104.3 offers a low-risk short-the-rejection entry (stop 105.7, target 101) with proper R:R before the earnings binary; crossing it re-arms the short setup."
+  },
+  "transcript": {
+    "macro": "Regime RISK-ON but event-heavy. AI memory supercycle live. GOOGL earnings after close; Brent >$92 on Iran. Perps funding=0.0; equity beta. INTC weakest, RS -22% vs BTC, structure_bias -0.34, L/S 1.83 crowded-long, price rolling over (-3% session). Longs unsupported, short-side has more room.",
+    "sentiment": "INTC neutral/cautious, HIGH RISK. Reports Q2 TOMORROW July 23 after close (~$14.4B rev, $0.22 EPS); options implying ~12% swing; 18A foundry yields / Apple-Microsoft design wins are the swing factor. Imminent binary. Sector euphoric-but-jumpy; event-heavy two-sided next 48h.",
+    "analyst": "Genuinely bearish path (worst RS, crowded unsupported longs, session -3%, last bar dumped on max volume closing at range low) but LTF oversold (15m RSI 23.4) = late-short trap; market short has negative expectancy and a VWAP bounce would hit an honest stop. 12% earnings binary tomorrow forbids a hold-through swing. Wait for a 104.3 rejection to short before the print, else stay out.",
+    "portfolio": "HOLD INTC (conf 0.60) - bearish but oversold late-short + 12% earnings binary tomorrow; wait for 104.3 rejection."
+  },
+  "timestamp": "2026-07-22T20:02:45.467649+00:00"
+}

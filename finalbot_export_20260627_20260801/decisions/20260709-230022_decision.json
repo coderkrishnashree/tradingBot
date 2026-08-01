@@ -1,0 +1,23 @@
+{
+  "symbol": "MSTR/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.6,
+  "size": 0.0,
+  "entry": 94.19,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "rationale": "MSTR is down across all TFs but stretched: 3.5% below VWAP, RSI ~31, stoch 19, right on top of 91.92 support after a volume flush that has stalled and drifted up (last 11 bars coiling 93.9-94.3 on dwindling volume). Market-shorting here is the account's classic late-short-into-oversold pattern - a routine bounce would tag any honest stop before continuation, and the dominant macro risk is a BTC short-squeeze given 0.78 correlation and no idiosyncratic 48h catalyst. No long either: rally would be pure BTC-beta into a thin US-closed tape with the worst relative strength in the group (-17.3%). Wait for a cleaner entry.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 91.92,
+    "expires_min": 240,
+    "note": "Losing 91.92 support on volume confirms trend continuation and opens a clean short toward the next leg down; a reclaim/bounce to VWAP ~97 would instead set up a rejection short."
+  },
+  "transcript": {
+    "macro": "Equities RISK-ON but CRYPTO RISK-OFF/bearish: BTC ~$62.8k slid from ~$74k to sub-$58k last week. MSTR has REVERSED its playbook and is now a forced BTC seller (~3,588 BTC / $216M raised to cover >$1.5B/yr preferred dividends), booking an $8.3B Q2 loss - a specific overhang. Scan @22:55 UTC, US cash CLOSED = thin/gappy.",
+    "sentiment": "MSTR bearish-mixed, credibility overhang: Jun 29 unveiled 'Digital Credit Capital Framework' (USD reserve, up to $1B buybacks, selective BTC monetization) then SOLD 3,558 BTC (~$216M) - break from pure accumulation; $8.32B Q2 digital-asset loss. Sold 7x more BTC than initially disclosed = trust dented. Reclaimed $100 early Jul but rally entirely BTC-dependent (corr 0.78). No hard 48h catalyst; $1B buyback a supportive backstop but BTC direction dominates.",
+    "analyst": "Down across all TFs but stretched 3.5% below VWAP, RSI 31, stoch 19, sitting on 91.92 support after a flush that stalled and drifted up on dwindling volume. Fresh short is chasing (~2.5% to support, R:R <1.5, high BTC-squeeze risk); no long thesis in a thin US-closed tape with worst rel-strength -17.3%. HOLD; short only on a VWAP-rejection ~97 or a confirmed break of 91.92.",
+    "portfolio": "HOLD MSTR - stretched into support, squeeze risk; armed short reconsider on break below 91.92."
+  },
+  "timestamp": "2026-07-09T23:00:22.117838+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "action": "short",
+  "symbol": "ORCL/USDT:USDT",
+  "size": 3.0,
+  "entry": 126.55,
+  "stop_loss": 127.6,
+  "take_profit": 122.6,
+  "take_profit_1": 124.1,
+  "take_profit_2": 122.6,
+  "confidence": 0.58,
+  "playbook": "trend",
+  "forecast": "Last 15m bar was a high-volume bullish reversal off the 123.80/124.11 low; expect a relief bounce back to the 126.4-127.0 broken-support/VWAP band over the next 2-4 bars, where the 30m/4h downtrend (score -0.9/-0.5, RS -24.8%) resumes and rolls price back toward 124.1 then 122.6.",
+  "expectancy_note": "p(win)~0.55, R:R to TP1 ~2.3 (reward 2.45 vs risk 1.05); limit-short the bounce beats a market chase at the flushed low and beats a long into a down-trending, weakest-RS name.",
+  "rationale": "ORCL is the sleeve's cleanest short (blended -0.42, 30m -0.9 & 4h -0.5 downtrends, RSI 41, RS -24.8%, crowded-long L/S 2.41 = squeeze-down fuel, low BTC corr 0.075 so idiosyncratic). But the tape just printed a strong reversal bar off 123.80 on the biggest volume, so I refuse to chase at the low \u2014 instead place a LIMIT short at 126.55 into the VWAP/broken-support retest, stop 127.60 (~1.15xATR, above the swing pivot). Risk 1.05 for 2.45 to TP1 and 3.95 to TP2; size 3% given decent (not exceptional) confluence and counter-trend bounce risk before fill.",
+  "transcript": {
+    "macro": "Regime cautiously risk-on but low-conviction bounce off an ugly week; Big Tech earnings gauntlet (GOOGL/TSLA/INTC 7/22); no FOMC in 48h; BTC chop, dominance ~58.6%. Funding near-zero across equity perps, L/S lopsided-long board-wide, whole board lagging BTC on RS. ORCL: cleanest technical short \u2014 blended -0.42, 30m/4h downtrends, RSI 41, RS -24.8% (weakest large-cap), low BTC corr 0.075 (idiosyncratic), no imminent earnings.",
+    "sentiment": "Crypto Fear&Greed 36. Only \u226448h binaries are TSLA & GOOGL (7/22). ORCL: bearish backdrop, next earnings ~Sept 8 (no \u226448h binary). ~40%+ off highs on AI-capex/FCF fears; S&P cut to BBB- (one notch above junk), Moody's negative outlook; New Mexico data-center permit denial. Tape/sentiment clearly DOWN \u2014 consistent with scan short bias.",
+    "analyst": "Direction (short) and structure align, but the last 15m bar was a high-volume bullish reversal off the 123.80/124.11 low, so a market short at the flush is the account's #1 loss pattern. Placing a LIMIT short at 126.55 into the VWAP/broken-support retest, stop 127.60, TP1 124.10, TP2 122.60.",
+    "portfolio": "SHORT ORCL \u2014 limit-short the bounce, conf 0.58, size 3%."
+  },
+  "timestamp": "2026-07-20T13:42:39.214220+00:00"
+}

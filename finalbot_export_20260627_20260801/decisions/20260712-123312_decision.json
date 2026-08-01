@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "EWY/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Thin off-hours grind: price likely oscillates 183.2-183.8 for the next several bars; only a decisive break and hold above 184.0 on real volume opens continuation toward 185-186, while a slip under 182.9 negates the coil.",
+  "expectancy_note": "No clean entry: long at VWAP with RSI 66 into a 2.18% BB squeeze is a chase, and a weekend/Korea-gap-proof stop is far wider than any nearby TP, so R:R to a realistic first exit is <1.5 - HOLD beats a low-p, gappy chase.",
+  "rationale": "EWY is a tokenized KOSPI ETF, so I ignore the crypto funding/OI/L-S metrics and read it as an equity on thin Sunday liquidity with US cash closed and doubly-gappy weekend/Korea timing. The composite is genuinely bullish (all TFs long-aligned, ADX 57.8, real Korea/semis tailwind) but the mid-TF candles are a near-flat ~1% grind coiling right at VWAP with RSI already at 66 and a squeezed 2.18% BB - no pullback entry, no breakout trigger, and a gap-proof stop would blow past any nearby target on R:R. The real catalyst (TSM July 16) sits outside the 48h window, so the highest-expectancy action is to wait for the coil to resolve rather than chase drift into gap risk. Size zero.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 184.0,
+    "expires_min": 240,
+    "note": "A decisive break and hold above the 183.7 micro-high toward 184 on real volume confirms the squeeze resolving up and converts this correct-but-early bullish hold into a continuation long."
+  },
+  "transcript": {
+    "macro": "2026-07-12: Risk-off-leaning/mixed. Hawkish Fed (~61% Sept HIKE), USD firm. Sunday scan, US cash CLOSED -> foreign ETF, DOUBLY gappy (US weekend + Korea timing). EWY directly boosted by SK Hynix $26.5bn listing + semis strength - genuine Korea/semis tailwind supporting the long composite. Macro lean mildly LONG-supportive; execution/liquidity is the main risk.",
+    "sentiment": "EWY bullish trend, high volatility, chip-driven. Up ~87% YTD, entirely a Samsung/SK Hynix HBM story tied to NVIDIA/AI demand. Extremely whippy: KOSPI fell ~5.35% one day then rallied 2.5%+ into July 10 as global semis bounced; SK Hynix US ADR offering 7x oversubscribed. No single 48h binary, but EWY = leveraged proxy on Nasdaq semis and TSM's July 16 print. Directional lean bullish but swings violent; off-hours gaps likely.",
+    "analyst": "Read as an equity on thin Sunday liquidity (ignore crypto structure metrics). Composite genuinely bullish (all TFs aligned, ADX 57.8, real Korea/semis tailwind) but mid-TF candles are a near-flat ~1% grind at VWAP with RSI 66 and a squeezed 2.18% BB - no pullback entry, no breakout trigger, and a gap-proof stop blows past any nearby target on R:R. Real catalyst (TSM July 16) is outside the window. Wait for the coil to resolve; size zero.",
+    "portfolio": "HOLD EWY - bullish but coiled/extended into heavy gap risk; take the break-and-hold above 184 instead of chasing drift."
+  },
+  "timestamp": "2026-07-12T12:33:12.715985+00:00"
+}

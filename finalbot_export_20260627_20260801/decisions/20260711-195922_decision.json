@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "SNDK/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.62,
+  "playbook": "none",
+  "forecast": "Last two 15m bars rejected 1975-1977 under the 1987.8 wall; expect chop/fade toward 1955-1960 over the next few bars, but on a Saturday with the underlying closed the decisive move is Monday's gap, not the next candle.",
+  "expectancy_note": "No side clears 1.5 R:R: long is a blow-off chase (VWAP +9.24%, 1h RSI 91.4) into resistance; short fights ADX-58 uptrend + net-short squeeze fuel + weekend gap-up risk. p(win) ~even both ways; flat is highest expectancy.",
+  "rationale": "SNDK is an equity proxy and the US cash market is CLOSED (Saturday) \u2014 Monday-open repricing can jump 5%+ through any stop, so risk/reward is uncontrollable now. Price is deeply extended (+9.24% VWAP, 1h RSI 91.4, stoch 90.9) and pinned just under hard resistance 1987.8, with the last two 15m candles already rejecting \u2014 a fresh long is textbook chasing and the account's top loss pattern. Shorting into an ADX-58 uptrend with a net-short crowd (0.694, squeeze fuel) and a real NAND-shortage sector tailwind is low-quality. Stand aside; size 0.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 1988.0,
+    "expires_min": 240,
+    "note": "A clean hold above resistance 1987.8 (ideally during live US hours) would confirm a breakout/squeeze and justify a long entry on the retest; until then the move is a stretched blow-off into a wall."
+  },
+  "transcript": {
+    "macro": "Scan 2026-07-11 19:56 UTC \u2014 SATURDAY, US cash equity market (SNDK underlying) CLOSED = dominant fact. Equities constructive but extended (S&P +9.6%/Nasdaq +12.8% H1; semis SMH +80% H1). Fed no H2 cuts. Memory/NAND acute shortage, contract prices up double-digits; SNDK rev +251% YoY, ~78% GM \u2014 real current sector tailwind. SNDK is a semi/Korea-memory proxy (corr MU 0.81, EWY 0.73, QQQ 0.67; BTC corr 0.15 \u2192 crypto beta irrelevant). Last 1968.1, pinned near resistance 1987.8; ATR 3.05% high vol. Deeply overbought: 4h RSI 73.4, 1h RSI 91.4, stoch 90.9, ADX 58.6, VWAP dist +9.24%. Funding 0.0 neutral; OI 5764.6 thin; long/short 0.694 (crowd net SHORT into uptrend \u2192 contrarian-bullish squeeze fuel). VERDICT: MIXED, leaning HOSTILE for SIZE not direction. Biggest risk = weekend gap on CLOSED thin underlying (Monday-open repricing can jump through stops) plus overbought into hard resistance. If acting, favor long/squeeze over short, small size, prefer waiting for US session.",
+    "sentiment": "Tilt BULLISH structurally but STRETCHED and event-light in <=48h; near-term risk is two-sided sector whipsaw. ~800% 2026 run on structural NAND/AI shortage; Q3 rev +251% YoY; +50% NAND price hikes; Citi NAND avg +186% YoY 2026; consensus Buy \u2014 but multi-quarter narrative, not 48h catalyst. No hard binary in 48h (earnings ~Aug 14). Recent pop = Bernstein PT hike to $3,000 from $1,700 (Jul 9), ~10-12% pop already IN price \u2192 don't chase. Real <=48h risk = SECTOR whipsaw both ways: Samsung Jul 7 earnings triggered memory selloff (SNDK/MU/WDC -7%), group briefly into 'bear market'; SNDK rebounded ~3% Jul 10. 3-7% intraday swings common; SK Hynix US IPO oversubscribed (bullish but new competitor). Technicals: jammed at resistance, RSI 73-91 overbought, lagging BTC (-11.87% RS). Net: neutral-to-slightly-supportive of a long but does NOT justify chasing; catalyst already priced, memory-sector headline can gap 5%+ either way.",
+    "analyst": "SNDK is an equity proxy on a SATURDAY \u2014 US cash market CLOSED, so Monday gap risk on a stock that swings 3-7% intraday is the dominant hazard and stops can jump. Price +9.24% above VWAP, 1h RSI 91.4 (blow-off), pinned into hard resistance 1987.8; last two 15m bars ran to 1976.79 then rejected (1973->1967.9 with long upper wick, then 1968.1) \u2014 momentum fading at the top of a stretched move. A fresh LONG is textbook chasing (>1.5xATR above VWAP, RSI blow-off) \u2014 the account's #1 loss pattern. A SHORT fights an ADX-58 uptrend with a net-short crowd (squeeze fuel) and a structural bull sector tailwind, plus weekend gap-up risk. Neither side offers >=1.5 R:R with an honest <=1.5xATR stop given 3% ATR and a closed underlying. Correct expectancy play is HOLD; re-engage on a controlled pullback to VWAP-ish support or a clean breakout hold above 1987.8 during live US hours.",
+    "portfolio": "HOLD SNDK/USDT:USDT \u2014 stand aside (size 0, conf 0.62): closed weekend underlying + blow-off into resistance means no side clears 1.5 R:R; reconsider on a clean hold above 1988 in live US hours."
+  },
+  "timestamp": "2026-07-11T19:59:22.686135+00:00"
+}

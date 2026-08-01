@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "TSLA/USDT:USDT",
+  "size": 0.0,
+  "entry": 408.86,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.62,
+  "playbook": "none",
+  "forecast": "Frozen weekend proxy: price stays pinned 407.5-409.5 in a dead, illiquid book through the weekend; no directional move resolves until Monday's cash open, which carries gap risk into Tue CPI.",
+  "expectancy_note": "No edge: p(win) sub-0.5 either way. Long into RSI 73.6 overbought stale proxy and short into crowded-long/frozen tape both negative expectancy; account's trend/high-ADX chases run 44% win / -2.89R. HOLD beats both.",
+  "rationale": "TSLA is a tokenized equity and US cash markets are closed until Mon Jul 13, so the 408-409 price is a stale, thin proxy - the last 18 15m bars barely moved and the final 2-bar pop is illiquid noise, not a tradeable trend. 4h RSI 73.6 overbought with price mid-range (391 support / 420.22 resistance, +1.84% VWAP) and structure crowded long (LS 1.61, bias -0.185) - no honest R:R >= 1.5 setup, and a market-wide CPI binary Tue plus Jul 22 earnings argue against carrying size. Size 0.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 420.22,
+    "expires_min": 240,
+    "note": "Clean reclaim/break of range resistance 420.22 on Monday's live open confirms breakout continuation worth a with-trend long."
+  },
+  "transcript": {
+    "macro": "Cycle 2026-07-11 (Sat, US cash equities CLOSED, reopen Mon Jul 13). Broad regime RISK-ON but late-stage/overbought. Tokenized-stock pairs thin/gappy off-hours - size down, expect slippage, stale proxies until Monday.",
+    "sentiment": "TSLA NEUTRAL now, EVENT AHEAD - Q2 earnings Jul 22 (5:30pm ET), outside 48h window but avoid holding size into it. No fresh 48h catalyst; overbought (RSI 73). June CPI Tue Jul 14 08:30 ET is a market-wide binary.",
+    "analyst": "HOLD. Tokenized equity, US cash closed until Mon Jul 13 - 408-409 is a stale thin proxy; last 18 15m bars barely moved, final 2-bar pop is illiquid noise. 4h RSI 73.6 overbought, price mid-range (391 / 420.22), crowded long (LS 1.61, bias -0.185). No R:R >= 1.5; CPI Tue + Jul 22 earnings argue against size. Reconsider above 420.22.",
+    "portfolio": "HOLD TSLA/USDT:USDT - conf 0.62, size 0."
+  },
+  "timestamp": "2026-07-11T07:32:45.352778+00:00"
+}

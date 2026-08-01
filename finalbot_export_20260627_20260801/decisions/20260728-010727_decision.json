@@ -1,0 +1,25 @@
+{
+  "symbol": "MU/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.6,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "forecast": "Price is basing at 869-872 below the lower BB after a -4% VWAP flush; expect either a squeeze bounce toward the 879-882 broken-support shelf as crowded shorts (extreme neg funding) cover, or a fresh leg to 847 support. Last bar's green absorption on peak volume at the 869.87 low hints downside is drying up, but no reversal is confirmed.",
+  "rationale": "MU is deeply oversold in a strong downtrend with a bullish divergence and extreme crowded-short funding \u2014 a classic squeeze-vs-continuation coin-flip where both a fresh short (chasing, the account's worst pattern) and a blind long (catching a knife on a closed-cash, thin tape into Wed FOMC) are negative-expectancy. The single green absorption bar at the lows is not yet a reversal. I'd flip long only on a reclaim of the 879-882 broken-support shelf, which would prove shorts are covering.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 882.0,
+    "expires_min": 240,
+    "note": "Reclaiming the 879-882 broken-support shelf confirms the crowded-short squeeze \u2192 low-risk long toward VWAP (~908)."
+  },
+  "transcript": {
+    "macro": "Cautious risk-off / event-gated. FOMC Wed Jul 30 hawkish tail. Scan stamped Sun 9pm ET \u2192 US cash CLOSED, thin/gappy. MU: last 872.28, hard downtrend (VWAP -4.0%, RSI 33.7, bullish divergence). EXTREME NEGATIVE funding (-0.0025) vs long/short 1.67 \u2192 structure_bias +0.18. Epicenter of the semi selloff (MU -2% Fri); rel-strength -5.3%, btc_corr +0.32.",
+    "sentiment": "MU bullish (structural), no imminent binary. ~$1T valuation; entire 2026 HBM capacity SOLD OUT, HBM4 revenue >$1B, DRAM/NAND/HBM prices +80-90%, bookings into 2028. Next earnings not until Sep 29 \u2192 no company catalyst in 48h, but trades as a high-beta proxy on MSFT/AAPL AI-capex commentary this week.",
+    "analyst": "Stretched -4% below VWAP, %B negative, stoch 15, 4h RSI 33.7 = extended short. Chasing a short is the account's #1 loss pattern (shorts win 0.44, -1.02R); extreme neg funding = squeeze fuel UP; learner weights (structure_bias -0.265, rel_strength -0.302, vwap_dist -0.211) favor the bounce. But a blind long into a Sunday-thin knife pre-FOMC has no confirmation (one absorption bar). HOLD with long-reconsider on a 882 reclaim.",
+    "portfolio": "HOLD MU \u2014 oversold + crowded-short squeeze trap; wait for an 882 reclaim to go long, don't chase the short."
+  },
+  "timestamp": "2026-07-28T01:07:27.956207+00:00"
+}

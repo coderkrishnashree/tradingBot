@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "EWY/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price is stalling at 164.4-164.7 after a 15m RSI-89 blow-off from 161.5; expect a fade back toward the 163.0-162.8 shelf within 2-6 bars. A clean loss of 162.8 confirms the blow-off failed and opens the short toward 161.5/154 into the semi-bear tape; a sustained reclaim of 165.1 would mean continuation instead.",
+  "expectancy_note": "Long chases an RSI-89 exhaustion top into RISK-OFF chip-bear tape (bad location); short has no reversal confirmation yet and the last bars still hold highs. Both sides ~coin-flip with poor entry on a thin Sunday perp with Monday gap risk - HOLD is the highest-expectancy choice; wait for the 162.8 break.",
+  "rationale": "EWY just spiked to a 15m RSI 89.2 blow-off (+1.2% VWAP dist) and is now consolidating at the highs, but it is the worst-laggard (rel-strength -28%) leveraged semi proxy in a fresh chip bear market with KOSPI -4.5% and a hostile Monday cash open ahead. Chasing the long here is exactly the account's #1 loss pattern (entering after the move); shorting now fights a still-live uptrend with no roll-over. No honest R:R exists at this price, so I stay flat and arm the shelf break at 162.8.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 162.8,
+    "expires_min": 240,
+    "note": "Losing the 162.8 higher-low shelf proves the 15m blow-off failed and opens a confirmed short into the semi-bear tape."
+  },
+  "transcript": {
+    "macro": "RISK-OFF/MIXED. SOX bear market. US cash CLOSED (Sunday) - perps thin/gappy, Monday gap risk into hostile chip tape. Korea/EWY: extreme two-way vol, KOSPI -6.37% July 16 after +6.24%; Samsung ~22% + SK Hynix ~25% of EWY = leveraged semi bet. EWY rel-strength -28% (worst-lagging), 15m RSI hit 89 (blow-off), funding rich. Smallest size of equity group.",
+    "sentiment": "EWY high volatility, two-sided, event-driven. Fresh KOSPI -4.5% (~July 20) AI-stock selloff. BoK hiked to 2.75% (~July 16). Won down ~6% YTD = FX headwind for USD holders. Near-term bearish momentum; tightly coupled to semi tape.",
+    "analyst": "Textbook don't-chase: 15m RSI-89 blow-off from 161.5 into hostile macro on thin Sunday perp with Monday gap risk. Long chases exhaustion top; short has no reversal confirmation (bars still holding highs). No honest R:R either side. HOLD, arm short trigger on loss of 162.8 shelf.",
+    "portfolio": "HOLD EWY - blow-off top, no location; armed short below 162.8."
+  },
+  "timestamp": "2026-07-20T10:45:53.744984+00:00"
+}

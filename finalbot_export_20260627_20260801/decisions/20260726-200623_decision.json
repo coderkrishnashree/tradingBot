@@ -1,0 +1,25 @@
+{
+  "action": "hold",
+  "symbol": "COIN/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.34,
+  "playbook": "none",
+  "forecast": "Thin weekend tape holds 160.5-161.3 flat-to-drifting; likely fades back toward VWAP/158-159 rather than extending, but no clean short trigger yet.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 158.5,
+    "expires_min": 240,
+    "note": "Losing the pop base/VWAP zone opens a cleaner short toward 154.16 support instead of chasing a flat overbought grind."
+  },
+  "rationale": "COIN is a tokenized equity and US markets are closed (Sunday) - flat zero-volume tail bars confirm a thin, gappy tape with weekend gap risk. The intraday pop is exhausted (RSI 75.7, stoch 90.5, +1.05% above VWAP) and composite conf only 48.4, so a long is late-continuation chasing; a valid stop to real support at 154.16 is ~4% away, blowing R:R. Q2 earnings July 30 is a binary inside any multi-day hold. Stand aside.",
+  "transcript": {
+    "macro": "Regime CAUTIOUS/risk-off (2026-07-26, weekend). US equity markets CLOSED Sunday -> thin/gappy, gap risk. FOMC Wed July 29 inside hold window. BTC ~$64.5k capped, RSI 69 bearish 4h divergence. COIN BTC-beta, lags, short-crowded but overbought on the pop. Bias: cautious for longs.",
+    "sentiment": "July 30 after-close earnings cluster (MSTR, COIN, AAPL) = imminent binary, avoid holding into Thursday. COIN down ~36% YTD, near 52-wk low (~$139), soft Q2 volumes; Q2 EPS est ~$0.31. F&G 50 neutral.",
+    "analyst": "Overbought intraday (RSI 75.7, stoch 90.5, +1.05% VWAP), conf 48.4 weak, zero-volume bars = illiquid. Long chases into closed market with earnings in 4 days; stop to 154.16 ~4% away. No mean-reversion trigger; shorts are the account's losing book. HOLD.",
+    "portfolio": "HOLD COIN - overbought pop into closed market + July 30 earnings binary; wait for a level to resolve."
+  },
+  "timestamp": "2026-07-26T20:06:23.724001+00:00"
+}

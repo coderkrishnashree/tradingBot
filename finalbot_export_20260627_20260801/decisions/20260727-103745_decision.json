@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "BTC/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Chop between 65.0k and 65.7k; the last 15m sequence rejected 65.75k, drifted to 65.06k and is bouncing weakly to 65.34k with no thrust - expect a coil under 66.5k until FOMC, not a break.",
+  "expectancy_note": "No edge: price mid-range (63.7k-66.9k), ~1% above VWAP so no trend-pullback entry, and no range extreme to fade. p_win_learned 0.546 ~ coin flip; FOMC Wed is binary. HOLD beats a crowded long into 4h RSI 78.",
+  "rationale": "BTC is coiling mid-range with a compressed BB width (3.12%) and 4h RSI 78 overbought while short-TF momentum has cooled - a late continuation long chases a stalled bounce, and there is no range edge to fade from the middle. Long side crowded and FOMC Wed the only near-term mover, so expectancy favors waiting. No trade until a break of the 66.5k range top.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 66500,
+    "expires_min": 240,
+    "note": "Reclaim/hold above 66.5k breaks the multi-week range top (macro-cited trigger) -> real trend-continuation long; below it stays chop."
+  },
+  "transcript": {
+    "macro": "MIXED regime, risk-cautious into a heavy-event week. FOMC Wed Jul 29 + MSFT/META/HOOD earnings Wed after-close = event wall. Crypto the weaker complex: BTC ~$64-65k rangebound $62-68k, Fear&Greed ~29-33, dominance ~56%, no altcoin rotation. Long side crowded broadly -> longs SMALL, tight stops. Oil collapse + Iran de-escalation near-term supportive.",
+    "sentiment": "FOMC Jul 29 is the dominant <=48h binary. BTC ~$65k, reclaimed mid-July on softer CPI + ETF inflows but Fear&Greed Neutral-to-Fear (33-44), dominance ~56% (capital hiding in BTC, not risk-on). No BTC-specific catalyst <=48h; lean neutral, event-gated.",
+    "analyst": "Mid-range coil, compressed BB (3.12%), 4h RSI 78 overbought while LTF momentum cooled; ~1% above VWAP so no pullback entry and no range extreme to fade. p_win 0.546 ~ coin flip, FOMC binary. HOLD; only a 66.5k break earns a long.",
+    "portfolio": "HOLD BTC (conf 0.60) - rangebound coil; long only on a confirmed 66.5k breakout."
+  },
+  "timestamp": "2026-07-27T10:37:45.059653+00:00"
+}

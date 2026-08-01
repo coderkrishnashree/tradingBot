@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "TSLA/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Post-capitulation coil: 4h RSI 4.2 is a mechanical extreme, low 377.78 held and price bounced to ~383 then stalled at 381. Expect a relief squeeze toward broken-support-turned-resistance 385-386 over the next few bars; the honest short is the FAILURE there, not chasing 381 into the weekend.",
+  "expectancy_note": "No positive-expectancy market entry now: fresh short at 4.2 RSI = the account's proven loser (shorts 0.47 win / -0.87 avg, and late-into-stretched-tape is the #1 death). A short only earns R:R>=1.5 after a bounce to 385-386. p(win) on a chase here <0.45.",
+  "rationale": "TSLA has the strongest short structure of the desk (bias -0.279, crowded-long L/S 1.86) but is the most stretched (4h RSI 4.2, 1h 18.5, %B negative) right after an 1100-vol capitulation flush that held 377.78 and is now bouncing. Shorting here chases directly into the mechanical squeeze that macro flags as the day's biggest risk, into a Friday weekend gap and a Jul 22 earnings binary. I hold and arm a short trigger on a rejection back at 385-386 (pre-flush floor now resistance) where stop above 387 gives ~1x ATR and target back to 378 gives R:R ~2; below that level there is no honest entry.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 385.5,
+    "expires_min": 240,
+    "note": "A relief bounce back into broken-support-turned-resistance 385-386 is where a non-chasing short gets honest R:R (stop >387, target 378); crossing it means re-debate the short entry."
+  },
+  "transcript": {
+    "macro": "RISK-OFF, hostile to fresh longs. Nasdaq -1.5%, S&P -0.5%. Friday weekend-gap risk for tokenized equities. TSLA: last 381.14, funding 0.0, L/S 1.86 (crowded long), orderbook -0.07, structure_bias -0.279 (MOST short-supportive of the four), BTC-corr 0.23 (its own equity story). Extremely oversold: 4h RSI 4.2, 1h RSI 18.5 \u2014 strongest short trend but stretched.",
+    "sentiment": "SHORT bias but a HARD BINARY looms: Q2 2026 earnings call Wed Jul 22, 5:30pm ET (~5 sessions). Q2 deliveries already printed strong (480,126, best-ever, energy 13.5 GWh) \u2014 delivery number known/good; the CALL (margins/guidance/Musk) is the swing factor. Extremely oversold in risk-off tape. Do NOT hold shorts blind into Jul 22.",
+    "analyst": "HOLD. Strongest short structure of the desk (bias -0.279, crowded-long 1.86) but most stretched (4h RSI 4.2, an extreme) right after an 1100-vol capitulation flush that held 377.78 and is now bouncing to ~383. Shorting here chases into the mechanical squeeze macro flags as the day's biggest risk, into a Friday weekend gap and the Jul 22 earnings binary. A long is an unconfirmed knife-catch in risk-off. Honest short is a rejection back at 385-386 (pre-flush floor now resistance) \u2014 no edge at 381.",
+    "portfolio": "TSLA: HOLD (conf 0.60) \u2014 arm short on a rejection at 385-386; don't chase 381 into the weekend/earnings; no size now."
+  },
+  "timestamp": "2026-07-17T14:35:59.022473+00:00"
+}

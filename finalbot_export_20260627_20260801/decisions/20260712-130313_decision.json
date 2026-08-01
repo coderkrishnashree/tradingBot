@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "EWY/USDT:USDT",
+  "size": 0.0,
+  "entry": 183.46,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.55,
+  "playbook": "none",
+  "forecast": "Coiling 183.3-183.7 at VWAP after a bounce; chop within band next 2-4 bars. A loss of 183.0 opens a flush toward 182.4 then support; a reclaim of 183.75 on volume keeps the stale uptrend alive.",
+  "expectancy_note": "No edge either way: p(win) ~0.5 both directions. Long fights fresh KOSPI bear-market/chip scare in its own market; short has no LTF break yet. Thin gappy tape kills R:R until price picks a side.",
+  "rationale": "Mild composite long (56.4%) conflicts with a fresh, dominant bearish fundamental read: KOSPI just entered a bear market on the AI/chip derating that directly hits EWY's Samsung/SK Hynix top holdings, and rel-strength -15.39% marks EWY a laggard. Price sits flat at VWAP mid-Bollinger with tight BB width (no squeeze trigger) and huge volume-spike bars signal thin/gappy liquidity ahead of CPI (Jul 14) and TSMC earnings (Jul 16) inside the window. No honest R:R mid-range; waiting for the coil to resolve is highest expectancy.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 183.0,
+    "expires_min": 240,
+    "note": "Losing the 183.0 coil base confirms bearish sentiment is winning; opens a short toward 182.4 then support with the dominant catalyst behind it."
+  },
+  "transcript": {
+    "macro": "Environment MIXED, caution on size. Firm DXY/rates = EM headwind. EWY: composite LONG 56.4%, structure_bias -0.075 (L/S 1.19), rel-strength -15.39% vs BTC (weak absolute), huge 15m volume-spike bars = thin/gappy. Korea is ground-zero for the Samsung AI-demand scare - direct negative sector read; a long fights the freshest bad news in its own market. Tokenized ETF thin/gap-prone when underlying closed.",
+    "sentiment": "EWY NET BEARISH. KOSPI briefly entered BEAR MARKET (Jul 9, -20% from June record) on AI/chip selloff; heavily weighted Samsung + SK Hynix. Modest bounce Jul 10 on oversubscribed SK Hynix ADR offering, tape fragile. SK Hynix HBM slowdown reports epicenter of global chip derating. Corr TSM 0.62 / QQQ 0.76 so TSMC Jul 16 earnings spills in. Middle East/oil risk-off overlay.",
+    "analyst": "Mild composite long conflicts with dominant fresh bearish read (KOSPI bear market hitting top holdings). Price flat at VWAP, tight BB (no squeeze trigger), thin gappy tape. No LTF short break yet, no R:R for a long into bad news. HOLD, arm short below 183.0.",
+    "portfolio": "HOLD EWY - long fights fresh Korea/chip bear market, no short trigger yet; short armed below 183.0."
+  },
+  "timestamp": "2026-07-12T13:03:13.223318+00:00"
+}

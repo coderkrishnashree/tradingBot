@@ -1,0 +1,25 @@
+{
+  "symbol": "CRCL/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.3,
+  "size": 0.0,
+  "entry": 69.37,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "expectancy_note": "Short fade of crowded longs (funding +0.77%, L/S 2.79, bias -0.66) is tempting, but fights an active up-trend (ADX 58, all TFs long) and takes un-handicappable Monday cash-open gap risk on a thin, untethered tokenized-equity perp. No clean edge either way; expectancy ~flat, so flat is best.",
+  "rationale": "CRCL is a tokenized equity with US cash closed until Mon Jul 6 \u2014 the perp is thin/gappy with real two-way gap risk I cannot handicap, which dominates any technical read. Positioning screams squeeze fuel (hot funding +0.0077, L/S 2.79, most-negative structure_bias -0.66 in the scan) favoring a short, but price is in a strong intraday uptrend (ADX 58.2, every TF long-biased) and the Open USD shock already dumped -17.5% five days ago and is largely priced. Fighting the trend to short, or fighting extreme funding + bearish overhang to long, both have poor expectancy over the 48h window \u2014 stand aside at zero size.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 68.31,
+    "expires_min": 240,
+    "note": "Losing intraday support at 68.31 confirms crowded longs unwinding and the up-trend rolling over \u2014 validates the contrarian short thesis with the tape finally aligned."
+  },
+  "transcript": {
+    "macro": "Regime NEUTRAL-to-MIXED. Fear & Greed 22 (Extreme Fear). Fed HAWKISH. Main near-term risk = Monday equity reopen gap. CRCL tracks Circle Internet (NYSE) as a tokenized equity; US cash CLOSED since Thu Jul 3 (Independence Day), reopen Mon Jul 6 \u2014 perp UNTETHERED, thin, gappy, real gap risk on Monday open. Funding HOT +0.0077 (~0.77%/interval, component pinned -1.0), L/S 2.79 heavily long-crowded (pinned -1.0), structure_bias -0.66 (most negative target). Classic squeeze fuel. HOSTILE for fresh longs; positioning skews contrarian-short but weekend gap risk argues for smallest size or standing aside.",
+    "sentiment": "CRCL (equity): MAJOR FRESH SHOCK \u2014 Jun 30 Open USD (OUSD) consortium (Stripe, Coinbase, Mastercard, Visa, BlackRock): zero mint/redeem fees, no size limits, 100% reserve interest to partners \u2014 attacks Circle's core revenue. CRCL crashed ~17.5%, closed below $63, down ~55% from mid-May highs; still repricing. Coinbase distribution deal renewal up in August (overhang). Goldman PT cut to $96 (Neutral); Bernstein Buy ~$137 (low weight). Earnings ~Aug 10 (outside horizon). Net near-term BEARISH bias but two-sided \u2014 rallies are fade candidates; crowded longs into bad news = squeeze risk.",
+    "analyst": "CRCL 69.37. Funding +0.0077 extreme, L/S 2.79, structure_bias -0.66 \u2014 squeeze fuel favoring a short. But strong intraday uptrend (ADX 58, all TFs long), the -17.5% Open USD shock is 5 days old and largely priced, and US cash closed until Monday makes the perp thin/gappy with un-handicappable two-way gap risk. Neither side has clean expectancy \u2014 stand aside at zero size. Flip level: decisive loss of support 68.31 validates the contrarian short.",
+    "portfolio": "HOLD CRCL \u2014 no clean edge; squeeze-short setup blocked by Monday cash-open gap risk. Armed short below 68.31."
+  },
+  "timestamp": "2026-07-05T22:48:41.994463+00:00"
+}

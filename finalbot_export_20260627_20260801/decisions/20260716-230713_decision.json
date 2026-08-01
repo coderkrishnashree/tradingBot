@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "SOL/USDT:USDT",
+  "size": 0.0,
+  "entry": 75.27,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Choppy: price hovers 74.5-76 near 74.04 support after the 228k-volume flush bar; either 74.04 holds and it grinds back to 76.3 VWAP, or 74.04 breaks and cascades to ~72. No edge until one side resolves.",
+  "expectancy_note": "Shorting now = selling into 5m RSI 20 / 30m RSI 23 oversold with ADX 2.7 (no trend) just $1.2 above 74.04 support = the account's classic late-short-into-support loss (R:R ~0.8). No clean bounce trigger AT the level yet. HOLD beats both.",
+  "rationale": "SOL is in a dead-flat chop regime (ADX 2.7, composite regime_blocked, raw_direction flat) and is 0.79-correlated BTC-beta into risk-off, with BTC showing a 4h bullish divergence = bounce risk against a short. The last bar was a 228k-volume flush into oversold LTF RSI, leaving price ~$1.2 above 74.04 support and ~$4.4 below 79.63 resistance, so no honest entry: a short's R:R to support is <1 and there's no confirmed bounce trigger at the level. Crowd is heavily long (LSR 2.69), a mild contrarian-bearish tilt but not enough edge to chase. Flat is the highest-expectancy stance until 74.04 resolves.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 74.04,
+    "expires_min": 240,
+    "note": "A decisive loss of 74.04 support breaks the range floor and traps the heavily-long crowd, opening a clean with-regime short toward ~72."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF. Crypto risk-off: BTC dominance rising, SOL/ETH failing at resistance. Fear index 34, lowest 2026 volume. SOL: SHORT bias aligned with risk-off (~$76, failing $79-85) BUT 0.79 BTC-beta and BTC soft (<$64k) yet with a 4h bullish divergence = bounce risk. Really short BTC-beta into thin liquidity.",
+    "sentiment": "SOL NEUTRAL-to-slightly-bullish CATALYST path but weak tape. Fear index 34, lowest 2026 volume, defending $72-75, capped $79-85. LIVE catalyst: Morgan Stanley amended SOL ETF filing July 15 (Coinbase custody/staking, 0.14% fee); analysts flag possible SEC decision 'as soon as July 2026' = genuine <=days binary IF it lands. Fresh institutional plumbing (SBI, Clearstream). No unlock cliff.",
+    "analyst": "Dead-flat chop regime (ADX 2.7, regime_blocked). Last bar a 228k-volume flush into oversold LTF RSI (5m 20, 30m 23), price ~$1.2 above 74.04 support. Short = late-short-into-support (R:R <1) into oversold with no trend, BTC 4h bullish divergence adds bounce risk. No confirmed bounce-long trigger at the level. HOLD; arm with-regime short on a decisive loss of 74.04.",
+    "portfolio": "SOL HOLD (0.50): chop regime, BTC-beta; no honest entry until 74.04 breaks (short) or a bounce confirms at the level."
+  },
+  "timestamp": "2026-07-16T23:07:13.076279+00:00"
+}

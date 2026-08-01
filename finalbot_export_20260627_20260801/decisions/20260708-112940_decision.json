@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "TSM/USDT:USDT",
+  "confidence": 0.5,
+  "size": 0.0,
+  "entry": 428.83,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "none",
+  "forecast": "Price basing 427-430 just above support 425.72 after the 11:00 flush from 439.6 to 426.0; stoch 8.9 / RSI 39.7 washed out. Expect chop 426-433 next 2-6 bars - a relief bounce toward 433-437 or a clean break of 425.72 resuming the downtrend.",
+  "expectancy_note": "Shorting the low into stoch 8.9 / -3.5% VWAP with support 3pts away gives R:R<1; long needs a support-reclaim not yet present. HOLD beats both until a level breaks.",
+  "rationale": "TSM took the semi-selloff flush and is consolidating on top of support 425.72 with deeply oversold short-TF stochastics (8.9) and RSI recovering - the down-move is completed, not fresh. Structure bias is bearish (crowded net-longs L/S 1.77, offered book) but offset by squeeze risk into a washed-out tape, and a short here sells the low with no room to next support. As a pure equity (btc_corr 0.17) with the Q2 print 07/16 outside the window, no 48h catalyst forces a move. Best expectancy is to wait for either a bounce to short from higher or a confirmed break of support.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 425.72,
+    "expires_min": 240,
+    "note": "Losing 425.72 (flush low/support) on a 15m close confirms the downtrend resumes and arms a fresh short toward 418-420; a reclaim/bounce toward 434+ sets up a short from higher."
+  },
+  "transcript": {
+    "macro": "RISK-OFF regime supportive of shorts: S&P -0.5%, Nasdaq -1.2%, SEMICONDUCTOR-LED selloff on fresh US-Iran escalation; WTI/Brent +6%, firms USD. Coordinated flush ~11:00-11:15 UTC. No top-tier US macro print inside 48h - tape risk headline/geopolitical. Funding ~0 on tokenized-equity perps. Every name oversold intraday with 5m bounces firing - favor selling reflex rallies. TSM-specific: semis, KEY EVENT Q2 earnings Thu 07/16 (outside 48h but approaching, strong guide +32% YoY), btc_corr 0.17, rel_strength -5.2, structure_bias -0.35 (L/S 1.77 net long, book -0.41). Supportive for shorts intraday, watch pre-earnings drift.",
+    "sentiment": "TSM: Q2 earnings 7/16 (dominant near-term binary). Consensus $3.81/ADR on ~$40B rev, GM 65.5-67.5%, FY26 rev +30%. Citi hiked target pre-print on AI demand. +4.8% 7/6, +97% 12mo. Bullish AI tone, pre-earnings drift risk building.",
+    "analyst": "Post-flush base on top of 425.72 support with washed-out stochastics (8.9); the down-move is completed not fresh. Short sells the low with support ~3pts away = R:R<1; long needs a reclaim confirmation. HOLD; arm a short on a loss of 425.72 or a bounce to 434+.",
+    "portfolio": "HOLD TSM - bearish structure but oversold on support; wait for a 425.72 break or a bounce to short higher, mindful of the 7/16 print."
+  },
+  "timestamp": "2026-07-08T11:29:40.630109+00:00"
+}

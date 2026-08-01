@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "TSM/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.34,
+  "playbook": "none",
+  "forecast": "Overnight illiquid drift; the 404.12 print came on 20 units of volume off near-zero overnight candles and is not a real move. Expect price to mean-revert back toward 400-401 VWAP zone once real liquidity returns; no reliable next-candle path until US cash reopens.",
+  "expectancy_note": "No edge either way: long = chasing stoch 100 / bb%b 0.875, the book's most crowded long (L/S 2.43) in a risk-off semis bear market; short = fading a green print into overnight gap risk. Both negative expectancy; HOLD dominates.",
+  "rationale": "TSM is a tokenized equity trading overnight with US cash CLOSED \u2014 candles show near-zero volume and a lone 20-unit spike to 404.12, which is untradeable ghost liquidity, not structure. Composite 'long' is stale, and every quality gate fails: stoch 100, RSI 69, bb%b 0.875 = extended; L/S 2.43 = most crowded long in the book; rel-strength -20% in a semis bear market; catalyst (Q2 earnings) already passed with a sell-the-news -5% reaction, so no <48h edge. Sizing zero because gap risk on the reopen and lack of a clean level make any entry a coin flip.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 386.81,
+    "expires_min": 240,
+    "note": "Losing the 386.81 4h support on real US-session volume would confirm the risk-off/sell-the-news breakdown and open a genuine short with defined structure, flipping this from HOLD to a trade."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF/defensive, semis in a bear market (SMH -9%, group in bear territory). FOMC Jul 28-29 caps upside. Scan 00:07 UTC Monday = US cash CLOSED; TSM shows near-zero-volume overnight candles, gap risk, low confidence. TSM: SHORT-to-NEITHER \u2014 ground-zero semiconductor name, MOST crowded long in the book (L/S 2.43), stoch 100, illiquid overnight prints. Environment does not support longs.",
+    "sentiment": "TSM strong fundamentals but catalyst just PASSED (mild bearish tell). Reported Q2 Jul 16: record revenue $40.2B (+33.7% YoY), beat, raised FY2026 guidance twice, AI ~61% of revenue \u2014 but stock fell ~5% pre-market on the print (sell-the-news). Binary behind us, no scheduled <=48h catalyst. Near-term neutral-to-slightly-cautious.",
+    "analyst": "Tokenized equity, US cash CLOSED \u2014 the 404.12 print is a lone 20-unit spike off near-zero overnight candles = ghost liquidity, not structure. Composite 'long' is stale and every gate fails (stoch 100, RSI 69, %B 0.875 extended; L/S 2.43 most crowded long; RS -20%; catalyst passed with -5% sell-the-news). No honest edge either way; HOLD, short-trigger on a real-volume break of 386.81 support.",
+    "portfolio": "HOLD TSM \u2014 untradeable overnight ghost-liquidity spike into most-crowded-long; wait for real-session structure."
+  },
+  "timestamp": "2026-07-20T00:14:48.833171+00:00"
+}

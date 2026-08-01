@@ -1,0 +1,22 @@
+{
+  "action": "short",
+  "symbol": "MSTR/USDT:USDT",
+  "size": 1.5,
+  "entry": 92.5,
+  "stop_loss": 93.65,
+  "take_profit": 90.4,
+  "take_profit_1": 90.4,
+  "take_profit_2": 89.6,
+  "confidence": 0.58,
+  "playbook": "trend",
+  "forecast": "Bounce off the 90.30 flush low carries back toward the broken 92.3-92.6 lower-high shelf within 1-3 bars; sellers reload there and roll it back down to retest 90.40, then probe support 89.95-89.60.",
+  "expectancy_note": "p(win)~0.58, reward-to-TP1 2.10 vs risk 1.15 = 1.83:1; limit-sell-strength beats market-shorting the oversold flush (avoids the account's late-short-into-bounce loss pattern flagged by vwap_dist and rel-strength weights).",
+  "rationale": "RISK-OFF, BTC broken near lows, crowded positive funding (+0.00044) and structure -0.27 make MSTR the cleanest crypto-beta short by direction, but RSI 18 / -4.9% below VWAP / +3.6% rel-strength / a fresh bounce off 90.30 make market-chasing the exact way this book bleeds. So I fade the bounce: limit at 92.50 into the broken shelf, tight 1.15-wide stop above the 92.43 swing, first target the 90.40 flush retest. Size trimmed to 1.5% for oversold-squeeze risk into Friday close and the weak 36.9% composite; if 89.95 support breaks before the bounce fills, the setup is void.",
+  "transcript": {
+    "macro": "RISK-OFF regime. BTC broken ~$62.9k near 21-mo low, dominance 56.3%. Uniformly short scan but deeply oversold \u2014 dominant risk is a mean-reversion SQUEEZE into Friday close. MSTR: highest-conviction crypto-beta short (0.72 corr BTC, funding +0.00044 crowded longs, structure -0.27) BUT rel-strength +3.6% (outperforming), RSI 18, on support 89.95 \u2014 supportive short, smaller size.",
+    "sentiment": "MSTR NEUTRAL/mildly bearish. Digital Credit Capital Framework w/ up to $1B buybacks (supportive) BUT Strategy SOLD 3,588 BTC (~$216M), raised $466.7M stock, bought NO bitcoin \u2014 departure from accumulation. No unlock/earnings inside 48h; a 0.72-beta BTC proxy.",
+    "analyst": "Direction right (crowded funding short fuel, structure -0.27) but oversold (RSI 18, -4.9% VWAP) and outperforming with a fresh bounce off 90.30 \u2014 market-chasing = the account's loss pattern. Fade the bounce: limit short 92.50, stop 93.65, TP1 90.40 / TP2 89.60, R:R 1.83:1, size 1.5. Void if 89.95 breaks first.",
+    "portfolio": "MSTR: SHORT (limit 92.50, size 1.5, conf 0.58) \u2014 sell the bounce into the broken shelf, not the flush."
+  },
+  "timestamp": "2026-07-17T13:36:46.308899+00:00"
+}

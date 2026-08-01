@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "SOL/USDT:USDT",
+  "size": 0,
+  "entry": 76.91,
+  "stop_loss": 75.3,
+  "take_profit": 79.01,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "After the 77.22 volume-spike got rejected (last 15m bar closed 76.91 off its 77.13 high with a lower wick), expect a pullback toward VWAP/75.7-75.9 over the next 2-5 bars; a controlled higher-low there would be the real long entry, whereas a failure loses 75.85 back toward 75.3.",
+  "expectancy_note": "p(win) on a market long here ~0.45: overbought (RSI 73.6/stoch 83.6/%B 0.92, +1.73% VWAP) into a rejection wick with crowded longs (L/S 2.69, bias -0.35) and hostile risk-off macro; R:R to 79.01 is only ~1.3 vs an honest sub-76 stop. Waiting for the 75.7-75.9 pullback gives a far better entry with the intact ADX 44.8 uptrend.",
+  "rationale": "SOL is in a strong uptrend (ADX 44.8, composite long, p_win 0.62) but just spiked to 77.22 on a 245k-vol bar and got rejected, closing 76.91 while overbought on every oscillator and +1.73% above VWAP. Chasing here is the account's #1 loss pattern, and macro is risk-off with crowded longs (squeeze risk). Highest-expectancy move is to hold and buy the pullback to VWAP/75.7-75.9 or a decisive breakout. Size 0.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 75.85,
+    "expires_min": 240,
+    "note": "A dip into the 75.7-75.9 VWAP zone is the pullback that sets up a proper trend-continuation long entry with a tight stop below 75.3."
+  },
+  "transcript": {
+    "macro": "RISK-OFF, fragile regime. Last week clean risk-off (S&P -1.6%, Nasdaq -2.9%) on a chip-led selloff; rotation out of chips into financials/industrials/energy - treat rips as suspect. Crypto soft: BTC ~$62-64k, weak demand, BTC.D ~54-56% one-month low. Long/short broadly crowded-long (squeeze risk): SOL 2.69 (bias -0.35). SOL high-beta to BTC (corr 0.806), lagging (rel strength -5.94%); soft BTC caps upside. FOMC Jul 28-29 (outside window). Net: MIXED-to-HOSTILE for fresh longs.",
+    "sentiment": "Crypto Fear & Greed ~23 (Extreme Fear); BTC ~$62.5k, ETF outflows, defensive into month-end. SOL neutral-to-constructive: record 96% on-chain tokenized-equity share, ETF inflows >$1.12B, low-fee filings; ~800k unlock overhang but no in-window cliff. Testing $74-75 support; crypto risk-off dominates near-term.",
+    "analyst": "SOL is in a strong uptrend but just spiked to 77.22 and got rejected, closing overbought on every oscillator +1.73% above VWAP. Chasing a rejected spike into resistance with crowded longs and risk-off macro is negative-expectancy; R:R to 79.01 is thin. Not a clean short either (ADX 44.8 uptrend intact). Best expectancy is to wait for the 75.7-75.9 VWAP pullback for a trend-continuation long.",
+    "portfolio": "HOLD SOL - trend intact but chasing a rejected overbought spike into crowded-long risk-off tape; wait for the VWAP pullback."
+  },
+  "timestamp": "2026-07-20T12:16:15.401125+00:00"
+}

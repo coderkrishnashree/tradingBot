@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "EWY/USDT:USDT",
+  "size": 0.0,
+  "entry": 164.11,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.58,
+  "playbook": "none",
+  "forecast": "Bounce is stretched into 164 overhead supply (15m RSI 89, 5m RSI 72); expect a push toward the 165.3-165.7 band over 2-6 bars, then a rejection back toward the 162.4-162.6 coil. That retest of 165.3-165.7 is the fade entry, not 164.11.",
+  "expectancy_note": "Shorting now: stop ~166 (1.4%) vs first support 162.5 (~1R) fails 1.5R; account short book already bleeds (49% win, -0.84 avg). Waiting for the 165.3+ retest gives a tighter stop and real R:R \u2014 higher expectancy than chasing.",
+  "rationale": "ADX 22.9 = no trend; a low-conviction recovery bounce grinding back into the distribution zone where the session's big red bar started, with micro RSI overbought and EWY the weakest-RS name in a semis-led risk-off tape (corr MU 0.79, QQQ 0.72). Fresh short at 164.11 has thin R:R to nearest support and fights 8 straight higher closes; long is a chase into overbought resistance with crowded long funding. Best expectancy is to wait for the bounce to exhaust into 165.3-165.7 supply, then fade with a stop above 166.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 165.3,
+    "expires_min": 240,
+    "note": "Tag of 165.3-165.7 supply after an overbought micro RSI push is the high-quality short entry; if it instead reclaims and holds above 165.7 the bounce has legs toward 167-169 and the short is off."
+  },
+  "transcript": {
+    "macro": "Broad regime RISK-OFF/defensive: semis-led equity selloff is the epicenter, and EWY (~55% SK Hynix + Samsung) sits ON the fault line. Long bias unsupported. Rates easing, DXY neutral but EWY is a USD/KRW + memory-semis trade.",
+    "sentiment": "EWY BEARISH/volatile, macro-driven \u2014 the landmine name. KOSPI recently plunged ~8% below 7,000; even Samsung's record Jul 7 prelim earnings triggered semiconductor profit-taking, not a rally. Worst RS on the board. No single dated <=48h binary but whippy on Fed/dollar headlines and semi sentiment; correlates 0.72 to QQQ so Alphabet earnings (Wed) bleed through.",
+    "analyst": "Low-conviction recovery bounce into 164 overhead supply, micro RSI overbought (15m 89, 5m 72), ADX 22.9 no trend, weakest RS name. Short now fails 1.5R (stop ~166 vs support 162.5 ~1R); long chases overbought resistance. HOLD; arm a short-side fade on a push into 165.3-165.7.",
+    "portfolio": "HOLD EWY \u2014 stretched bounce into supply, no trend; wait to fade the 165.3-165.7 retest, not chase 164.11."
+  },
+  "timestamp": "2026-07-20T09:44:57.429431+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "AAPL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Coiled 332.5-333.7 on thin weekend tape; most likely keeps chopping into Monday's open, then resolves on the cash gap. A reclaim/hold above ~334.3 opens the run to 339.2; loss of 331 flips it back toward VWAP/312 support.",
+  "expectancy_note": "No trigger, mid-range entry with bb_width 1.74% squeeze + bearish divergence gives sub-1.5 R:R; weekend gap risk on a closed cash market makes any market-entry negative expectancy. Best EV is waiting for the break.",
+  "rationale": "AAPL is the genuine contrarian standout \u2014 leader (+11.8% rel-strength), own bid (BTC corr 0.15), crowd short (L/S 0.835), only positive structure_bias (+0.14), RSI 38 so not extended. But price is dead-center in a 1.74%-wide squeeze with bearish divergence and a 30m short lean, US cash market is CLOSED (gappy Monday open), and a mid-range market entry offers no honest R:R. The setup wants a trigger, not a chase, so I hold flat and arm the breakout level.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 334.3,
+    "expires_min": 240,
+    "note": "Reclaiming the top of the coil confirms the contrarian-long squeeze is firing toward 339.17 resistance; that is the entry, not this mid-range chop."
+  },
+  "transcript": {
+    "macro": "Cycle 2026-07-19 RISK-OFF/DEFENSIVE. US cash equity markets CLOSED (Sunday) \u2014 proxies gappy/thin, Monday gap risk. QQQ leaning DOWN (headwind for long-tech). AAPL: contrarian standout \u2014 L/S 0.835 (crowd SHORT), orderbook +0.29, structure_bias +0.14 (only positive in set), rel-str +11.8% (leader, BTC corr 0.15 = own bid), RSI 38 not extended. Least hostile backdrop; supportive-leaning for longs if it holds Monday's open.",
+    "sentiment": "AAPL: neutral near-term. Earnings July 30 (OUTSIDE 48h window). No fresh company shock. Relatively insulated from the semi selloff (positive relative strength). Drifts with tape until the print.",
+    "analyst": "Setup genuinely constructive (leader, contrarian-bullish structure, own bid, coiled squeeze) but NO trigger yet \u2014 price dead-center in a 1.74% squeeze with bearish divergence and 30m short lean, closed cash market, gap risk. Mid-range entry = poor R:R. HOLD with armed breakout trigger above 334.3.",
+    "portfolio": "HOLD AAPL/USDT:USDT \u2014 best contrarian long in the book but needs the 334.3 breakout to confirm; no chase. conf 0.50"
+  },
+  "timestamp": "2026-07-19T13:15:10.000888+00:00"
+}

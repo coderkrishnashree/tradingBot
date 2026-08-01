@@ -1,0 +1,21 @@
+{
+  "action": "short",
+  "symbol": "SOL/USDT:USDT",
+  "size": 2.5,
+  "entry": 81.6,
+  "stop_loss": 84.3,
+  "take_profit": 76.0,
+  "take_profit_1": 78.0,
+  "take_profit_2": 74.5,
+  "confidence": 0.58,
+  "playbook": "trend",
+  "expectancy_note": "p(win)~0.55, R:R ~2.3 (risk 2.7 to entry-stop, reward ~7 to tp2); shorting a bounce into VWAP beats chasing the oversold low and beats a naked market short.",
+  "rationale": "Fully-aligned down-trend (ADX 33, all 5 TFs short, blended -0.478) plus crowded longs (L/S 2.05) and risk-off macro make SOL the cleanest short of the book. But price is already extended (%B 0.13, 4h RSI 30.8, -1.44% under VWAP) with BTC itself deeply oversold (1h RSI 15, stoch 5.7) and prone to a relief bounce that would squeeze longs and lift SOL near-term - so I fade a bounce back to VWAP ~81.6 rather than sell the low. Stop sits above 4h resistance 83.95 at 84.3 (survives noise, >1 ATR). Targets: tp1 78.0 (ratchets stop to lock the leg), tp2 74.5 toward the 69.65 support pocket. Size 2.5% - trimmed for BTC-beta (corr 0.82) and squeeze risk in a hostile tape.",
+  "transcript": {
+    "macro": "Overall regime HOSTILE / risk-off: BTC ~$61,950 chop (ADX 2.2), mid-range support $57.8k / resistance $64k. BTC dominance ~60%, altcoins no bid. Fed higher-for-longer, possible hike, June CPI July 14 looming. 7 straight weeks BTC ETF outflows (~$1.79B). Backdrop favors shorts/fades over longs; size down. SOL: funding flat (negligible); L/S 2.05 heavily long-skewed -> contrarian downside risk (supports short; composite dir -0.478); OI 7.46M; orderbook flat; btc_corr 0.817 (mostly BTC-beta); rel strength +14.4% vs BTC (outperformed - crowded longs vulnerable if BTC rolls); structure_bias -0.307. Cleanest of the four for a short; risk = BTC relief bounce squeezing crowded longs.",
+    "sentiment": "SOL bearish tone, macro-driven. Risk-off: F&G 11 (extreme fear), BTC broke $60K on ETF outflows + forced deleveraging. SOL ~0.82 corr to BTC - dragged, not leading. No SOL-specific shock (no hack/delisting). Spot SOL ETFs modest inflows (slow bid, not a 48h mover). Alpenglow upgrade & VC unlocks are Q3+ narratives, not tradable in 24-48h. Net: near-term mildly bearish/neutral, dominated by broad crypto de-risking; supports short, driver is macro BTC not Solana itself.",
+    "analyst": "SOL is the standout short candidate - a strong, fully TF-aligned downtrend (ADX 33.3, blended -0.478, every timeframe 5m-4h reading short) reinforced by a heavily long-skewed crowd (L/S 2.05, structure bias -0.307) and a hostile risk-off macro with BTC below $60K. The one real problem is timing: at 80.26 the move is already stretched (BB %B 0.13, 4h RSI 30.8, price 1.44% below VWAP) and BTC itself is deeply oversold (1h RSI 15, stoch 5.7), so a relief bounce that squeezes crowded longs is the highest-probability near-term hazard. Selling the low here would be chasing. The disciplined expression is to short a bounce back into VWAP (~81.6) with the stop parked just above the 83.95 4h resistance at 84.3, ~2.3:1 R:R toward the 69.65 support pocket via a two-leg target (78.0 then 74.5, SL ratcheting to 78.0 once tp1 prints). Size held to 2.5% because SOL is largely BTC-beta (corr 0.82) and the hostile chop tape plus squeeze risk argue for restraint.",
+    "portfolio": "SHORT SOL 2.5% - fade a bounce to VWAP ~81.6, stop 84.3, targets 78.0/74.5; cleanest short of the book but timed to avoid chasing the oversold low."
+  },
+  "timestamp": "2026-07-06T12:48:23.989837+00:00"
+}

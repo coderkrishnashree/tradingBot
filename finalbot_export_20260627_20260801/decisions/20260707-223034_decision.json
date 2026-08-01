@@ -1,0 +1,28 @@
+{
+  "symbol": "MU/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.55,
+  "size": 0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "none",
+  "forecast": "Price bounced ~+3.5% off the 909 low to 946 then rolled back to 927; expect chop between 909 and 942 next 2-4 bars. A retest of 936-942 that fails is the clean short trigger toward 909 then 894.",
+  "expectancy_note": "Shorting at mid-range 927 gives R:R <0.7 (stop must sit above 946 = ~2 ATR, target only to 909); learner shows trend-shorts avg -3.05 pnl. Wait for a level.",
+  "rationale": "Direction is bearish (ADX 72, RS -13.3%, crowded long 2.1), but price is deeply oversold (4h RSI 22) and just printed a violent +3.5% reversal bar off 909, now stuck mid-range at 927 -- the definition of chasing. An honest short here needs a stop above the 946 bounce high (~2 ATR) against a target only ~18pts down: sub-1 R:R. Live FOMC minutes tomorrow add gap risk. Far better expectancy to wait for a failed retest of the 936-942 breakdown/VWAP zone. Hold with an armed re-short trigger.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 938,
+    "expires_min": 240,
+    "note": "A push back into the 936-942 breakdown/VWAP zone sets up a with-trend short at the level with a tight stop above 946 toward 909/894."
+  },
+  "transcript": {
+    "macro": "2026-07-07 RISK-OFF. Memory/AI complex is the epicenter of today's selloff: Samsung blowout Q2 but -8%, MU/SNDK/WDC/Intel -6-10%; DeepSeek building own AI chip. USD/DXY firm. MU is the center of the rout (Micron -4.7%/-7% cash), ADX 72 very strong downtrend, RS -13.3%, crowded long 2.1 (contrarian bearish). BUT RSI 22 on 4h, ATR 3.4%, already bounced ~+2% off lows -- whippy. FOMC minutes Wed Jul 8 2pm ET -> trim size. Macro favors SHORT, highest-conviction directionally but volatile.",
+    "sentiment": "MU NEUTRAL-to-bearish, no fresh binary: Q3 FY26 already reported Jun 24 (blowout $41.5B rev, guided ~$50B next Q on AI/HBM) -- the big binary is BEHIND us, no earnings in 48h. Sector structurally bullish (HBM4 for Nvidia Vera Rubin) but multi-quarter, not a 24-48h mover. Risk to a short: strong-fundamentals name gapped into deeply oversold (RSI 22, VWAP -4%); any AI-memory headline or Korea rebound could trigger a violent bounce. Fundamentals argue against overstaying a short.",
+    "analyst": "ADX 72.7, RSI 22.2 (4h), ATR% 3.36, VWAP -4.07%, crowded long 2.123, RS -13.3%. 15m tape: sold 939->908.92 low, then a 1727-vol green bar spiked to 946.8, faded back to ~927 -- price is mid-range between the 908 low and 946 bounce high, not at an extreme. Shorting 927 needs a stop >946 (~2 ATR) vs target ~909 = R:R <0.7; learner trend-shorts avg -3.05 pnl warn against a chase. HOLD, arm re-short on a failed retest of 936-942.",
+    "portfolio": "HOLD MU (conf 0.55) -- strongest downtrend of the set but oversold/mid-range; arm short on a failed 936-942 retest."
+  },
+  "timestamp": "2026-07-07T22:30:34.429636+00:00"
+}

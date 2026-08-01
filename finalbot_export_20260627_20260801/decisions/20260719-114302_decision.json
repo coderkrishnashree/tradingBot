@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "TSLA/USDT:USDT",
+  "size": 0.0,
+  "entry": 382.04,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.34,
+  "playbook": "none",
+  "forecast": "Dead Sunday tape coils 381.7-382.5 near VWAP/support 377.78 with near-zero volume; expect continued low-vol chop into the Monday reopen, no clean directional resolution before the Wed earnings binary.",
+  "expectancy_note": "No intraday edge: 15m/30m/5m scores ~0, ATR 0.07%; only live signal is stale 4h RSI-28 (already stretched, shorting = chasing the counter-bounce this book loses on). Any entry carries through Wed binary earnings - negative expectancy, HOLD wins.",
+  "rationale": "Intraday timeframes are flat with dead Sunday volume, so there is no honest R:R>=1.5 setup right now. The only directional read is a 4h oversold downtrend, but RSI 28 means a short here chases into the bounce zone, and a long fights a crowded-long book (1.98) into a high-variance earnings print Wed Jul 22 that sits inside any hold window. Best expectancy is zero size until either the range breaks or the event passes.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 377.78,
+    "expires_min": 240,
+    "note": "Losing the 4h support flips the flat intraday tape into a live continuation short with a real target toward the next 4h shelf - the only setup worth risking pre-earnings, and only if it triggers with volume."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF/defensive. Fed hawkish. Funding ~0; long/short LONG-skewed (TSLA 1.98). BTC corr low. TSLA: EARNINGS Wed Jul 22 after close - HARD event risk inside any hold window; avoid carrying size through it. 4h trend down, RSI 28 oversold. Sunday gap risk.",
+    "sentiment": "TSLA bullish setup but HIGH-weight binary Wednesday. Q2 earnings Wed Jul 22 after close. Backdrop constructive: Q2 deliveries 480,126 +25% y/y, ~74k above consensus, ending two years of declines. High-variance move on guidance/margins/robotaxi Wed. Near-term neutral-to-bullish into a binary print; don't hold naked size through it.",
+    "analyst": "Intraday 15m/30m/5m flat (score ~0), ATR 0.07% dead tape. Only directional read is stale 4h oversold downtrend - RSI 28 means short chases the bounce zone; long fights crowded book (1.98) into Wed binary. Event risk dominates. Textbook HOLD; arm continuation short below 377.78 support with volume.",
+    "portfolio": "HOLD TSLA - dead intraday tape, Wed 7/22 earnings binary dominates; no pre-event entry."
+  },
+  "timestamp": "2026-07-19T11:43:02.797190+00:00"
+}

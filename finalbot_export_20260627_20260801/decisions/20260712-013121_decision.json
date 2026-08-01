@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "AAPL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price coils 313.7-315.2 around VWAP; last 15m bar bounced off 314.05 to close 314.64 near its high, so chop between swing low 313.73 and 315.7 rather than a clean directional leg into the weekend.",
+  "expectancy_note": "No edge: short bias real (ADX 45.5, 4/4 TFs short) but price mid-Bollinger at VWAP, not extended; short needs stop above 316.77 (~$2) vs far 305 support = R:R<1.5 into a 0.47% ATR tape. Weekend gap + CPI Tue = coin-flip.",
+  "rationale": "AAPL is a tokenized equity with US market closed (weekend gap risk) and June CPI Tue Jul 14 the dominant 48h binary. Composite is short-biased but price is mid-range at VWAP with tight Bollinger and a fresh bounce off 314.05 - no extreme to fade, no level to break. Best expectancy is to wait for a rally into 316.77 to short or a decisive loss of 313.73.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 313.73,
+    "expires_min": 240,
+    "note": "Losing the 15m swing low 313.73 confirms the short trend resumes toward 311/support with structure behind the stop."
+  },
+  "transcript": {
+    "macro": "2026-07-12 (Sun, US equity/oil underlyings CLOSED -> Mon gap risk). Regime mildly risk-OFF, hawkish Fed (~61-63% Sept HIKE odds), firm dollar, event-heavy. June CPI Tue Jul 14 08:30 ET = dominant <=48h binary. Gold in downtrend (XAU ~$4100, ADX 73, crowded longs L/S 2.66); oil the mirror (WTI ~$73-74 on Hormuz supply premium but longs extremely crowded L/S 4.08 -> squeeze-prone). Crypto soft (BTC chop ~$58-64k, Fear 31) -> SOL/MSTR BTC-beta weak. L/S ratios contrarian-bearish across the book. Bottom line: short bias on equity/gold/crypto-beta names with reduced size + Mon-gap awareness; CL the lone fundamental long but positioning-risky.",
+    "sentiment": "2026-07-12. Whole book short-biased into a hot-button June CPI print Tue Jul 14 08:30 ET (shared <=48h risk). AAPL earnings Jul 30 (outside window). MU fiscal Q3 already reported ~Jun 24 (blowout, catalyst spent, digesting). XAUT bearish, Goldman cut YE target to $4900. EWY chip-driven volatility, tightly corr MU (0.81). CL the only independent live catalyst (Hormuz/US-Iran, two-sided; OPEC+ +188kbpd = bearish structure). MSTR turned net BTC seller Jun29-Jul5, Mizuho cut target; BTC-beta bearish. SOL oversold at 75.6 support, ETF-inflow 'paradox', no hard <=48h catalyst.",
+    "analyst": "AAPL is a tokenized equity with US market closed (weekend gap risk) and June CPI Tue Jul 14 the dominant 48h binary. Composite is short-biased but price is mid-range at VWAP with tight Bollinger and a fresh bounce off 314.05 - no extreme to fade, no level to break. Best expectancy is to wait for a rally into 316.77 to short or a decisive loss of 313.73. | Forecast: Price coils 313.7-315.2 around VWAP; last 15m bar bounced off 314.05 to close 314.64 near its high, so chop between swing low 313.73 and 315.7 rather than a clean directional leg into the weekend. | No edge: short bias real (ADX 45.5, 4/4 TFs short) but price mid-Bollinger at VWAP, not extended; short needs stop above 316.77 (~$2) vs far 305 support = R:R<1.5 into a 0.47% ATR tape. Weekend gap + CPI Tue = coin-flip.",
+    "portfolio": "HOLD - short bias but mid-range at VWAP, no edge; arm short below 313.73."
+  },
+  "timestamp": "2026-07-12T01:31:21.430649+00:00"
+}

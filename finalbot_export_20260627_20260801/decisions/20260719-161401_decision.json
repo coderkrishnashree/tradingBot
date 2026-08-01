@@ -1,0 +1,26 @@
+{
+  "symbol": "SOL/USDT:USDT",
+  "action": "hold",
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "size": 0.0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Rejected at 76.5-76.66 and rolling over; expect chop drift 75.7-76.4 next few bars. A clean loss of 75.7 opens a crowded-long flush toward 74.5/73.3; a reclaim of 76.9+ opens a run at the 79 resistance. Neither confirmed yet from mid-range 76.09.",
+  "expectancy_note": "No level-based edge from mid-range: long chases 4h RSI 71.8 / %B 0.80 / stoch 83 into most-crowded L/S 2.79 (account's #1 loser), short lacks a higher-TF driver with BTC flat. R:R sub-1.5 either way to 73.3/79. HOLD beats both.",
+  "rationale": "SOL is a weak, NOT-ALIGNED long composite (score +0.16) that is simultaneously overbought on 4h and already short on 5m/30m after a rejection at 76.66 \u2014 a mid-range chop between support 73.3 and resistance 79. It is 0.80-correlated to a flat BTC with high dominance, so there is no fuel for a trend leg and no clean 1.5R entry from 76.09. Highest-expectancy action is to wait for price to declare at a real level rather than pay the spread in the middle of the range.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 75.7,
+    "expires_min": 240,
+    "note": "Losing the session base 75.7 confirms the crowded L/S 2.79 long is unwinding, opening a short toward 74.5/73.3 support with a clean stop back above 76.4."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF / weekend. SOL the ONLY truly-live liquid market this cycle. BTC ~$64.5k flat, dominance ~56.5% (no altseason). SOL: scan LONG (+0.16, weak, NOT ALIGNED align_factor 0.7, p_win 0.71); 4h RSI 71.8 extended, 5m short; L/S 2.79 (most crowded long, bias -0.31); BTC corr 0.80 (mostly BTC-beta, flat BTC = no fuel); rel-strength -5.8%. MIXED: liquid but crowded long + flat BTC = limited upside. Modest size.",
+    "sentiment": "SOL mildly constructive, no hard catalyst in window. ~$74-75 support, tracking BTC's ETF rebound; strong fundamentals (96% of on-chain tokenized-equity volume June, Circle $250M USDC mint July 15, SBI/Coinhako stake July 18, active addresses near yearly highs). Firedancer/Alpenglow upgrades are Q3, not 48h. Main risk broad crypto beta / ETF-flow reversal. Hold $74-75 favors a $78 retest.",
+    "analyst": "Weak not-aligned long composite that is simultaneously overbought on 4h (RSI 71.8, %B 0.80, stoch 83) and already short on 5m/30m after a 76.66 rejection \u2014 mid-range chop between 73.3 and 79. 0.80-correlated to a flat BTC with high dominance, so no trend fuel and no clean 1.5R from 76.09. Long chases into most-crowded L/S 2.79 (account's #1 loser). HOLD; short trigger on a loss of 75.7.",
+    "portfolio": "SOL \u2014 HOLD, size 0.0, conf 0.50: overbought, crowded-long, BTC-beta into a flat BTC \u2014 mid-range with no 1.5R; wait for 75.7 break or 76.9 reclaim."
+  },
+  "timestamp": "2026-07-19T16:14:01.972637+00:00"
+}

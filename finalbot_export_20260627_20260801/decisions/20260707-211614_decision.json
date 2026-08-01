@@ -1,0 +1,28 @@
+{
+  "symbol": "EWJ/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.3,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "none",
+  "forecast": "Price micro-drifts in 92.9-93.6 on near-zero volume; the tiny 92.90 dip already bounced to 93.23. No directional edge until real flow returns; a reclaim of 93.59 would signal the divergence bounce toward 94-96.65, a loss of 92.14 opens carry-unwind downside.",
+  "expectancy_note": "No honest R:R computable on a dead book (candles print 0.0-0.5 units, multiple zero-volume bars); ADX 67.8 is an illiquidity artifact, not trend. Execution/gap risk >> any edge.",
+  "rationale": "Dead, gappy, off-hours book makes any fresh position pure execution risk with no measurable R:R; the oversold/divergence bounce is real but untradeable at these volumes, and yen-intervention / earnings tail risk skews downside. Zero size is the highest-expectancy choice.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 93.59,
+    "expires_min": 240,
+    "note": "Reclaiming the session high 93.59 on genuine volume would confirm the oversold bullish divergence and open a long toward 94-96.65 with executable fills."
+  },
+  "transcript": {
+    "macro": "Regime risk-OFF, global tech selloff. EWJ: Japan macro constructive medium-term (Nikkei +39% ytd, weak-yen tailwind) but that's cycle-level/out of scope. Near-term: global tech risk-off + a DEAD overnight book (near-zero volume, ADX 67.8 on illiquid prints NOT trustworthy) + BOJ Jul 30 and Fast Retailing earnings Jul 9 event risk. HOSTILE for any fresh position purely on liquidity \u2014 the pair barely trades this session. Price ~$93.13.",
+    "sentiment": "EWJ NEUTRAL/cautious, carry-trade tail risk. Nikkei near record ~69,700 but stalling as money rotates OUT of tech/AI (SoftBank -3.1%, Taiyo Yuden -10.6%) on AI-bubble concerns. Real flag: yen at 40-year low (~162) with Japan MOF repeatedly warning of intervention \u2014 a sudden yen spike could unwind the yen-funded carry trade and force selling of Japanese equities. BOJ at 1% (June hike). No scheduled <=48h binary but headline/intervention risk is live, asymmetric downside. Very thin off-hours liquidity \u2014 expect gappy fills.",
+    "analyst": "EWJ is a tokenized Japan ETF in a near-dead off-hours session (0.0-0.5 units per 15m bar, several zero-volume prints) so crypto structure metrics are meaningless and ADX 67.8 is a liquidity artifact. There IS a mild bullish tell (RSI 35, stoch 9, %B ~0 at lower band, bullish divergence, above 92.14 support) but it's untradeable \u2014 a single market order gaps ~0.6%, so no stop/target is honest and R:R collapses. Add yen-intervention + Fast Retailing earnings ~2 days out + risk-off = negative expectancy. HOLD until liquidity + a directional trigger return.",
+    "portfolio": "HOLD EWJ/USDT:USDT \u2014 untradeable dead off-hours book (execution/gap risk dominates); reconsider only on a 93.59 reclaim with real volume; conf 0.30."
+  },
+  "timestamp": "2026-07-07T21:16:14.904458+00:00"
+}

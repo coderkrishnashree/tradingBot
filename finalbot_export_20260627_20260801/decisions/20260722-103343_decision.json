@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "XAG/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Coiling 59.4-59.6 just under the 60.08 cap; expect a probe of 59.9-60.08 most likely rejected back toward 59.2-59.4 within 2-4 bars, or a clean break/hold above 60.08 that opens 61+.",
+  "expectancy_note": "Chase-long p(win) ~0.45 (RSI69/stoch87/bear-div/L-S 3.32 into resistance, macro headwind) = negative expectancy; a fade needs a confirmed rejection AT 60.08, not at 59.58 mid-air. Waiting for the level is the +EV play.",
+  "rationale": "Crowded long (long/short 3.32, max contrarian penalty) pressing a hard 60.08 resistance with bearish RSI divergence, RSI 69, stoch 87 and price +2.9% over VWAP, into a hawkish-Fed/strong-DXY macro headwind \u2014 chasing here is the account's classic late-into-stretched-tape loss. But strong ADX 58.9 and 1h/4h uptrend make a blind fade at 59.58 (mid-air) equally poor R:R. The decisive move is at 60.08: rejection = clean short, hold above = breakout long. No trade until price reaches the level. Size 0.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 60.08,
+    "expires_min": 240,
+    "note": "Tag of 60.08 forces the decision: wick-rejection = short at the level; decisive close above = breakout long."
+  },
+  "transcript": {
+    "macro": "Regime MIXED, tilting hostile for fresh longs. Hawkish Fed, DXY near 13-mo highs = headwind for non-yielders; macro a net headwind for metals longs. Silver ~$58.55, ~52% off Jan high, right at resistance (~59.58 vs 60.08). XAG very crowded long (L/S 3.32, max contrarian penalty), bearish divergence, RSI ~69, structure_bias -0.325. XAUT/XAG ~0.85 correlated \u2014 treat as ONE position. Reduce size, counter-trend to macro.",
+    "sentiment": "XAG bullish but extended. Rallying toward $60 resistance (~$59.6); bulls eye breakout on AI/solar industrial demand + 6th straight annual supply deficit + softer dollar. Near-term a clean technical level: $60.00 pivot. Dollar bounce this week is the main risk capping it. No earnings binary. Bearish RSI divergence, RSI ~69 \u2014 extended, chase risk real. Highly correlated to XAUT (0.85).",
+    "analyst": "Crowded long at hard 60.08 resistance with bearish divergence, RSI 69, stoch 87, +2.9% VWAP into a hawkish-Fed/strong-DXY headwind \u2014 chasing is the late-into-stretched-tape loss. But ADX 58.9 uptrend makes a mid-air fade at 59.58 poor R:R. The real trade lives at 60.08: rejection = short, hold above = breakout long. No edge at current price.",
+    "portfolio": "HOLD XAG \u2014 pinned under 60.08, crowded long, no edge until price tags the level; flat."
+  },
+  "timestamp": "2026-07-22T10:33:43.031460+00:00"
+}

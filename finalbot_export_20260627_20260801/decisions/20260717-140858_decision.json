@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "QQQ/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.55,
+  "playbook": "none",
+  "forecast": "Sharp reflex bounce off 688 already ran to 695.6 on heavy volume; expect a stall/chop in the 695-702 zone over the next 2-4 bars, then either a failed-bounce rollover or a break of 688 that resumes the downtrend toward ~680.",
+  "expectancy_note": "No positive-expectancy entry now: shorting RSI 13.6 into a live squeeze is the account's #1 loser (bounce hits the stop), and the bounce itself is a countertrend pop into a risk-off tape with NFP gap risk - neither side clears R:R>=1.5 with an honest stop.",
+  "rationale": "QQQ is deeply oversold (4h RSI 13.6, ADX 93) and just V-bounced off 688.09 on the two largest green bars of the window, so a market-short would be chasing into the snap-back and a long would be fading a risk-off downtrend into overhead resistance near VWAP. The dominant trend is down (1h/4h short, rel-strength -6.8%, orderbook -0.831) but the immediate impulse is up, so the clean trade is to wait for the bounce to resolve. Losing the 688 low reasserts the downtrend with room to ~680 and is the highest-information trigger to re-engage the short; a reclaim above ~700 would instead argue the oversold bounce has legs.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 688.0,
+    "expires_min": 240,
+    "note": "Losing the 688.09 bounce low fails the oversold V and resumes the semis-led downtrend with room toward 680 - re-engage short there."
+  },
+  "transcript": {
+    "macro": "RISK-OFF, semis-led. Nasdaq -1.6%, chip-led selloff, 'sell the AI trade'. QQQ RSI 13.6 (4h) extreme oversold, orderbook imbalance -0.831, rel-str -6.8%, ADX 93. Favors shorts/fading bounces; size smaller. Thin tokenized-equity books, gap/slippage risk. NFP Thu Jul 18 08:30 ET overnight gap.",
+    "sentiment": "QQQ pure expression of chip-led Nasdaq selloff (TSMC capex shock). RSI 13.6, ADX 93 deeply oversold. Direction tied entirely to whether semi rout stabilizes. BEARISH tone but extended. F&G 27.",
+    "analyst": "QQQ deeply oversold (RSI 13.6, ADX 93) just V-bounced off 688.09 on the two largest green bars; a market-short chases the snap-back, a long fades a risk-off downtrend into VWAP resistance. Dominant trend down but immediate impulse up - wait for the bounce to resolve. Losing 688 resumes the downtrend toward 680 (re-engage short); reclaim above 700 says the bounce has legs.",
+    "portfolio": "QQQ \u2014 HOLD (0.55): extreme-oversold reflex bounce off 688; no +EV entry, re-short on 688 loss."
+  },
+  "timestamp": "2026-07-17T14:08:58.003325+00:00"
+}

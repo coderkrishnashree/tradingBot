@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "SOL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.34,
+  "playbook": "none",
+  "forecast": "Fresh 3.9x-volume pop to 76.46 into RSI ~86 on every intraday TF; expect it to stall near 76.6-77.0 and mean-revert back toward the 75.6 breakout pivot / VWAP within 2-5 bars. No clean edge at spot: chasing long is buying extension, shorting mid-pop gets run before it stalls.",
+  "expectancy_note": "No entry clears R:R>=1.5 from spot: long is extended (chase = account's #1 loss), short lacks a rejection yet. p(win) at spot ~0.45; wait for the level to define the fade.",
+  "rationale": "SOL is a pure BTC-beta pop (corr 0.782, rel_strength -3%) into overbought RSI 81-86 across 15m/30m/1h/5m, stoch 96.6, in a chop/regime-blocked tape (ADX 0.8, conf 3.4%) with longs maximally crowded (L/S 2.893, structure_bias -0.345) and a risk-off macro. That combination favors a fade of the push, not a chase, but the fade only has honest R:R on a rejection back at the 75.6 pivot - at 76.46 mid-move there is no edge. Size 0: the highest-expectancy action is to wait for the level.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 75.6,
+    "expires_min": 240,
+    "note": "Losing the 75.6 breakout pivot / VWAP confirms the volume pop failed and the crowded-long fade is live toward 74.0 support."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF/defensive. Crypto soft: BTC ~$60-63k, ETF outflows, BTC.D ~56.3%, pinned $56-62k until end-of-month Fed meeting - no crypto tailwind, slow bleed. SOL scan flat/regime-blocked (chop, ADX 0.8, conf 3.4%). structure_bias -0.345: funding flat, L/S 2.893 (VERY crowded long -> contrarian short lean). RSI 57-86 overbought intraday. rel_strength -3% vs BTC, corr 0.782 (pure BTC beta). MIXED-to-HOSTILE for a fresh long; fade of overbought push aligns better; keep size modest given chop.",
+    "sentiment": "Crypto Fear & Greed ~27 (Fear) on Jul 17. SOL ~$81-82 testing $74 support, RWA/USDC inflows offset. Catalysts (Firedancer v1.0 testnet, Solana ETF fee wars 0.14%, Alpenglow upgrade) are multi-week/Q3, NOT <=48h movers. No major unlock this window. Near-term NEUTRAL-to-bearish - macro risk-off argues against fresh longs; watch $74.",
+    "analyst": "SOL last 76.46, up from ~75.3. 15m breakout flagged (level 76.26, bbw_ratio 2.56, vol_ratio 3.9 - genuine volume pop) but RSI overbought on every intraday TF (15m 86.2, 30m 86.3, 1h 81.5), stoch 96.6, %B 0.792, VWAP +1.19%. Regime chop/blocked (ADX 0.8, conf 3.4%). L/S 2.893 max-crowded long. Chasing the breakout long = account's #1 loss pattern; fresh short mid-pop gets stopped. Honest fade only exists on a rejection at 75.6 pivot. HOLD.",
+    "portfolio": "HOLD SOL (conf 0.34) - overbought BTC-beta pop in chop/risk-off; wait for 75.6 loss to activate the crowded-long fade."
+  },
+  "timestamp": "2026-07-19T02:42:25.756151+00:00"
+}

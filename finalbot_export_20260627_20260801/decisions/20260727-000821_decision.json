@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "BTC/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price is stalling 65.3k-65.5k after an impulsive run; expect a mild pullback toward 64.6k-64.9k VWAP/breakout-retest over the next few bars rather than an immediate break of 66.9k. A dip to ~64.65k would offer a clean trend-long; loss of 63.68k would open a real short.",
+  "expectancy_note": "No positive-expectancy entry: long is +1.15% over VWAP with RSI 79-82 and %B 0.92 (chasing into resistance before FOMC); short into ADX-59 uptrend is the account's proven loser (shorts 46% win, -0.82 avg). Best EV is waiting for the pullback.",
+  "rationale": "BTC is in a strong but stretched uptrend (RSI 78-82 all TFs, stoch 89, %B 0.92) parked 1.15% above VWAP just under 66.9k resistance, with FOMC Jul 28-29 inside the window as binary risk. Funding is flat and L/S only 1.53 so this is not a blowoff to fade, but it is too extended to chase long and shorting a 59-ADX trend is this account's dominant loss pattern. Wait: buy a pullback to VWAP/64.6k or reassess a short only on a clean loss of 63.68k.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 64650,
+    "expires_min": 240,
+    "note": "A dip into the 64.6k VWAP/breakout-retest zone is a much better trend-long entry than chasing 65.4k into resistance."
+  },
+  "transcript": {
+    "macro": "REGIME: RISK-OFF/MIXED, defensive. FOMC Jul 28-29 inside window (binary). BTC ~$65.4k, dominance 56.3% (capital consolidating in BTC, alts not running). Firm but overheated - RSI 78-82, into resistance 66.9k. Funding flat (+0.00005), OI moderate - not a crowded-long blowoff, but stochastics maxed.",
+    "sentiment": "RISK-OFF/EVENT-GRIDLOCKED. BTC ~$65k, rebuilt above $60k on softer inflation + ETF inflows, but Fear & Greed ~26 (Fear) and Fed is the pivot. Overbought on scan (RSI ~79). Neutral-to-cautious; Fed-driven.",
+    "analyst": "Strong but stretched uptrend (RSI 78-82, stoch 89, %B 0.92, +1.15% VWAP) under 66.9k resistance into a binary FOMC. Funding flat / L/S 1.53 so not a blowoff to fade, but too extended to chase; shorting ADX-59 is the account's proven loser. HOLD; buy a pullback to ~64.65k VWAP, short only on loss of 63.68k.",
+    "portfolio": "HOLD BTC - extended into resistance pre-Fed; buy the dip to ~64.65k VWAP retest."
+  },
+  "timestamp": "2026-07-27T00:08:21.124000+00:00"
+}

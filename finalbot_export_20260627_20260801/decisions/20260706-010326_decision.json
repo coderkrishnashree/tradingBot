@@ -1,0 +1,25 @@
+{
+  "action": "hold",
+  "symbol": "NVDA/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.34,
+  "playbook": "none",
+  "expectancy_note": "Short at RSI 17.6 on support 195.33 has ~0.6R to target and high bounce odds; crowded-long squeeze risk + weekend thinness make chasing negative-expectancy. Wait for break-and-hold below support.",
+  "rationale": "NVDA is in a genuine strong downtrend (ADX 62.5, weakest RS -2.42) but 5m RSI 17.6 / stoch 18.2 is deeply oversold and price is pinned exactly on support 195.33 (0.3% below spot), leaving no room for a fresh short before the next level. Structure is contrarian-bullish (funding +0.041% longs paying, L/S 1.93 crowded long, bias -0.433) which is squeeze fuel for a violent short-cover bounce off this level. On a thin weekend with US cash closed, chasing the short here is a classic bear-trap; the edge only appears on a decisive break-and-hold below 195.33 (opens room to ~192) or a relief bounce to resell into 198.55.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 194.9,
+    "expires_min": 240,
+    "note": "Losing 195.33 support on a hold (below 194.9) confirms the breakdown continues and re-arms the short with real room to the next level (~192)."
+  },
+  "transcript": {
+    "macro": "Broad regime MIXED, tilting risk-off. Q3 opened with a semiconductor profit-taking unwind (PHLX Semi -7% to start Q3). Fed on hold 3.50-3.75%, hawkish drift. Weekend (Jul 6, Sun) \u2014 US cash markets closed, perps thin/gap-prone until Monday. NVDA: DEEPLY OVERSOLD/one-sided \u2014 RSI 17.6 5m, ADX 62.5 strong downtrend, price pinned at support 195.33 vs last 195.90. Positioning contrarian-bullish/squeeze risk (funding +0.041% longs paying, L/S 1.93 crowded long -> structure_bias -0.433). Crowd long into a selloff: vulnerable to more downside but also to a violent short-cover bounce.",
+    "sentiment": "Violent AI/semiconductor selloff drives all three. NVDA BEARISH but stretched \u2014 epicenter, worst major semi performer of 2026 (~+3.6% YTD vs SMH ~+70%), China data-center revenue effectively zeroed by export controls. AI-valuation-reset / HBM-glut + hawkish Fed argue continued downside (supports short). Caveat: RSI 17.6 deeply oversold, sharp relief bounce is the main near-term risk; no NVDA earnings/scheduled event inside 48h. Net leans FOR the short but entry chases an oversold move.",
+    "analyst": "Genuine strong downtrend (ADX 62.5, weakest RS) but RSI 17.6/stoch 18.2 deeply oversold and price pinned exactly on support 195.33 \u2014 no room for a fresh short. Contrarian-bullish structure (funding +, L/S 1.93 crowded long, bias -0.433) is squeeze fuel for a short-cover bounce. Thin weekend, US cash closed \u2014 chasing the short here is a classic bear-trap. Edge only on a decisive break-and-hold below 195.33 (room to ~192) or a relief bounce to resell into 198.55. HOLD with armed trigger below support.",
+    "portfolio": "NVDA \u2014 HOLD (conf 0.34): strongest bearish thesis but too oversold at support to chase into a weekend squeeze setup; short re-arms on a break-and-hold below 195.33."
+  },
+  "timestamp": "2026-07-06T01:03:26.030161+00:00"
+}

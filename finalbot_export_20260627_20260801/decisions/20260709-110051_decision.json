@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "EWJ/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.32,
+  "playbook": "none",
+  "forecast": "Frozen tape at ~92.2-92.95 with near-zero volume; price stair-steps sideways until the cash market reopens, then GAPS on the Wall St / Nikkei print. No tradeable intraday move inside my window \u2014 reopen direction is a coin-flip (Nikkei bounced +1.65% last Asia session vs 4h downtrend).",
+  "expectancy_note": "p(win) ~0.45 either way; a short into a dead orderbook fills poorly and dies on a reopen gap that slips the stop \u2014 negative expectancy vs waiting for a real break below 90.27 with volume.",
+  "rationale": "EWJ is a tokenized equity with the underlying market CLOSED: 15m candles show 0.0-0.11 volume and a flat 92.53-92.95 stair-step, so ADX 64.8 / RSI reads are illiquid artifacts, not a live trend. The genuine bias is short (4h -0.83, RS -2.5%, crowded long/short 1.92), but price sits only ~1% below VWAP with support at 90.27 intact and no confirmation \u2014 entering means executing into no liquidity with gap-slip stop risk on reopen. Highest-expectancy move is to wait; size 0.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 90.27,
+    "expires_min": 360,
+    "note": "Losing the 90.27 support floor on real volume confirms the 4h downtrend resuming with genuine supply \u2014 that is the clean short trigger, not the frozen intraday tape."
+  },
+  "transcript": {
+    "macro": "RISK-OFF/defensive (cycle 2026-07-09 ~10:55 UTC): US futures lower, 10Y ~4.58%, hawkish Fed, oil up. Favors short side / small size. EWJ is a tokenized equity with underlying Japan/US cash markets CLOSED -> thin, gappy, stair-step tape (15m candles near-zero volume, flat ~92.95); structure/orderbook signals LOW-confidence, moves gap-prone at reopen. Scan: short bias (4h -0.83, ADX 64.8, RS -2.5% vs BTC, long/short 1.92 crowded-long) but intraday reads are noise. Size: reduced.",
+    "sentiment": "Nikkei fell ~2% tracking Wall St semiconductor selloff + Middle East tension \u2014 imported weakness, not domestic shock. BOJ hiked to 1% in June (already priced). No new BOJ meeting/major Japan data in 48h. Scan candles largely stale/illiquid \u2014 lean on macro. Near-term supports short bias but driver is external US-chip/geopolitics; pivots on Wall St's next move. No 48h binary catalyst.",
+    "analyst": "Candles confirm a dead, closed-market tape: EWJ frozen 92.53-92.95 on 0.0-0.11 volume then one tick to 92.23 \u2014 intraday ADX 64.8 / RSI reads are illiquid artifacts. Genuine bias is short (4h -0.83, RS -2.5%, crowded 1.92) but price is only ~1% below VWAP, support 90.27 intact, no confirmation. Can't execute a clean short into a frozen orderbook where the next real move is a reopen GAP (Nikkei bounced +1.65% last session) \u2014 stop slips, TP1 can't fill. Negative expectancy either way. HOLD with an armed short trigger on a decisive break below 90.27 with volume.",
+    "portfolio": "EWJ/USDT:USDT \u2014 HOLD (size 0, conf 0.32): short bias intact but frozen closed-market tape with reopen gap risk = no-trade; arm short below 90.27 on real volume."
+  },
+  "timestamp": "2026-07-09T11:00:51.946987+00:00"
+}

@@ -1,0 +1,23 @@
+{
+  "action": "hold",
+  "symbol": "AAPL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.62,
+  "rationale": "AAPL is the best RS in the group but exhausted: RSI 75.4, bb %B 0.999, ADX 90, bearish 4h divergence, right under resistance 339.51 with the last ~10 15m bars stalling on dead volume. Chasing a long buys the top of the band into a live FOMC (Wed) and earnings (Thu after close); shorting a still-uptrending tape without a reversal trigger gets stopped by any bounce, especially thin/gappy off-hours with only 0.56% ATR. No honest R:R here. HOLD; want a confirmed loss of the 335.1 shelf to short the divergence, or a genuine reclaim of 339.51 for a breakout.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 335.1,
+    "expires_min": 240,
+    "note": "Loses the 20-bar shelf/base; confirms the bearish 4h divergence resolving down and gives a real short entry with structure overhead."
+  },
+  "transcript": {
+    "macro": "RISK-OFF LEANING, event-dominated. FOMC Wed Jul 28-29 with LIVE hike risk. DXY ~106.3, 10y >4.6%. US cash equity CLOSED -> tokenized equities off-hours: thin/gappy, size down. Positioning lopsidedly LONG (contrarian-bearish). AAPL $336.96 scan-long but STRETCHED: RSI 75, ADX 90, %B 0.999 (upper band), bearish 4h divergence, at resistance 339.5 - chase risk high.",
+    "sentiment": "AAPL HARD BINARY: earnings Thu Jul 30 after close, Tim Cook's final call as CEO. Consensus ~$108.9B rev/$1.88 EPS; key risk gross-margin guidance given AI-driven DRAM shortage. RSI ~75 + bearish 4h div into a known event. Don't hold naked size through the print - neutral-to-cautious.",
+    "analyst": "Best RS but exhausted at the band top under 339.51; last ~10 bars stalling on dead volume. Long chases the top into FOMC + earnings; short lacks a reversal trigger and razor 0.56% ATR stops get gapped. HOLD; short only on a confirmed loss of 335.1, breakout only on a reclaim of 339.51.",
+    "portfolio": "AAPL: HOLD (0.62) - no trade into earnings/FOMC; armed short below 335.1."
+  },
+  "timestamp": "2026-07-27T22:36:57.886372+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "CRCL/USDT:USDT",
+  "size": 0.0,
+  "entry": 65.28,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.34,
+  "playbook": "none",
+  "forecast": "Choppy hold ~64.8-65.5; the 66.9 spike was rejected and given back. Most likely path is a fade of the crowded-long book back toward 63.4-64.0 (VWAP catch-up), but ADX 17.8 = no trend and headline gap risk both ways, so no clean entry now.",
+  "expectancy_note": "No edge: shorting into RSI 52/ADX 17.8 chop risks a headline gap up; longing chases a rejected +3.3%-above-VWAP spike into the most crowded-long book. R:R < 1.5 either way; HOLD is highest expectancy.",
+  "rationale": "CRCL is regime-BLOCKED chop (ADX 17.8) with a fresh rejected spike to 66.9 and price still stretched +3.27% above VWAP on the most crowded-long book of the group (L/S 2.88, bias -0.32). That structure biases a mean-reversion fade lower, but the tape is event-driven and headline-whippy (Stripe threat, OCC approval, Coinbase renewal overhang) so a gap can override any tight technical stop. No level offers R:R >= 1.5 with an honest ATR-sized stop right now, so I wait for confirmation.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 64.0,
+    "expires_min": 240,
+    "note": "Losing 64.0 (base of the run, below VWAP-magnet) confirms the crowded-long squeeze/mean-reversion is underway and opens a higher-probability short toward 61-59.4 support."
+  },
+  "transcript": {
+    "macro": "Risk-ON today but a one-day relief bounce. June CPI soft cut Fed hike odds ~42%->17%; Nasdaq +0.67%. BTC 65,075 +1.4% but bouncing within a downtrend; dominance ~56%. Crowd long across the board. CRCL last 65.3, regime flagged CHOP/BLOCKED, rel-str -15%. Funding +6.2e-5 with L/S 2.88 -> structure_bias -0.32, the MOST crowded-long of the group; just spiked to 66.9 and gave it back. High squeeze/mean-reversion risk.",
+    "sentiment": "Overall MIXED. CRCL: high headline-risk, two-sided, fresh news still moving it. July 10 OCC trust-bank approval spiked +13% to ~$70, since faded to low-$60s on Stripe 'Open USD' threat (Compass Point cut to $55; Baird $138->$100). Coinbase/USDC renewal (expected August) is next overhang, not in 48h. Mixed/volatile; any stablecoin-competition or regulatory headline can gap it - elevated risk, news argues neither long nor short cleanly.",
+    "analyst": "Regime-BLOCKED chop (ADX 17.8), rejected 66.9 spike, price still +3.27% over VWAP on the most crowded-long book (L/S 2.88). Structure biases a fade lower, but event-driven headline gap risk overrides tight stops. No R:R >= 1.5 with an honest stop - HOLD; short opens on a loss of 64.0.",
+    "portfolio": "CRCL: HOLD (conf 0.34) - blocked chop + headline-whip; wait for loss of 64.0 to arm a mean-reversion short."
+  },
+  "timestamp": "2026-07-15T14:07:49.556887+00:00"
+}

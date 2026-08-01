@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "EWJ/USDT:USDT",
+  "size": 0.0,
+  "entry": 91.45,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.34,
+  "playbook": "none",
+  "forecast": "Frozen weekend tape: price drifts on 0-volume single prints between 91.0 and 91.45 with no follow-through; no directional move is executable until Monday US-cash reopen restores liquidity.",
+  "expectancy_note": "p_win_learned 0.41 (<coin-flip) on shorts here; OI ~2.1k and near-zero volume mean spread+slippage on entry and exit exceed any ATR edge, so expectancy is negative despite the risk-off/4h-down bias.",
+  "rationale": "The 4h is down and RS is -10.43%, fitting the broad risk-off short lean, but the recent candles are almost entirely 0-volume prints and OI is only ~2,178 - the tape is effectively frozen. Price sits mid-band (%B 0.49, not at resistance 95.44) and the last prints are ticking UP against a short with orderbook imbalance +0.514 bid-heavy, so there is no clean entry, no honest 1.5R structure, and execution cost alone would eat the ATR-sized stop. Size 0: liquidity, not direction, is the binding constraint until Monday.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 88.16,
+    "expires_min": 240,
+    "note": "Losing support at 88.16 on real (non-zero) volume confirms the 4h downtrend has resumed with liquidity present, re-arming the risk-off short toward the range low."
+  },
+  "transcript": {
+    "macro": "2026-07-18 (Sat, US cash CLOSED until Mon 7/20). Broad tape RISK-OFF led by a semiconductor rout; weekend thin/gappy tape. EWJ: SHORT-leaning but nearly UNTRADEABLE here - Japan/Nikkei worst day since March, RS -10.43%, 4h down, but the tape is essentially FROZEN (0-volume prints, OI only ~2,178). Direction fits risk-off; execution is the problem. Stay-out unless liquidity returns Monday.",
+    "sentiment": "EWJ: NEUTRAL, one macro binary at far edge of window. No stock-specific catalyst; driver is Japan macro. BOJ meeting concludes JULY 30-31 (outside 48h). Policy rate already 1% (highest since 1995), hawkish bias toward ~2% neutral - yen strength on hawkish BOJ is a headwind for EWJ exporters. Liquidity EXTREMELY thin (many zero-volume candles). Nothing inside 48h; thin tape is the real risk.",
+    "analyst": "The 4h down-trend fits the risk-off short bias, but the tape is frozen: near-zero volume, OI ~2.1k, single-print candles, 5m RSI 100.0 a nonsense artifact. Any short pays spread/slippage on entry AND exit larger than the honest ATR stop (~0.75). p_win_learned 0.41 confirms shorts on this profile have lost. Price is mid-band (%B 0.49), not at resistance 95.44, and last prints drift UP against a short. No R:R edge survives execution cost. HOLD; re-arm short only below support 88.16 on real Monday volume.",
+    "portfolio": "EWJ: HOLD (conf 0.34) - direction fits risk-off but the frozen/illiquid tape makes it untradeable; wait for liquidity Monday, short trigger below 88.16."
+  },
+  "timestamp": "2026-07-18T17:08:56.187974+00:00"
+}

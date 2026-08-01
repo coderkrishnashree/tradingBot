@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "HOOD/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.7,
+  "playbook": "none",
+  "forecast": "Choppy drift 96.2-97.3 on thin volume into the Jul 29 earnings binary; last 15m bar rejected 97.35 and closed on its low, so a minor fade toward 96.2 is likely, but no clean directional move worth sizing before the ~12.6% print.",
+  "expectancy_note": "No edge either side: long chases RSI71/ADX85 exhaustion into a 12.6% earnings binary + FOMC; short fights an 85-ADX trend with no exhaustion at a level. p(win) ~0.5 both ways, negative expectancy after event gap risk - HOLD dominates.",
+  "rationale": "HOOD is an extended, crowded-long (L/S 2.32, orderbook -0.24, worst rel-strength -20.5) overbought move (RSI 71, ADX 85) sitting mid-range at VWAP with %B 0.51 - no clean level to fade or to enter continuation with honest 1.5R. Q2 earnings Wed after close (~12.6% implied) plus FOMC both fall inside the window, turning any swing into a coin-flip with gap risk on a thin tape. Highest-expectancy play is no position.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 96.19,
+    "expires_min": 240,
+    "note": "Losing the 96.19 recent-swing / VWAP shelf would be the first sign the crowded long is unwinding, opening a cleaner short toward support 93.21 before the earnings print."
+  },
+  "transcript": {
+    "macro": "REGIME: RISK-OFF/MIXED, defensive. FOMC Jul 28-29 inside window. HOOD strong momentum (ADX 85, RSI 71) but very crowded long (L/S 2.32, orderbook -0.24) and worst rel-strength (-20.5) - contrarian squeeze risk into an extended move. Thin book.",
+    "sentiment": "RISK-OFF/EVENT-GRIDLOCKED. HOOD Q2 earnings Wed Jul 29 AFTER CLOSE - INSIDE window; options implying ~12.6% move. HIGH - scan shows it long/overbought (RSI 71, ADX 85), high reversal risk into the print.",
+    "analyst": "Extended crowded long (L/S 2.32, orderbook -0.24, RS -20.5) at VWAP mid-range (%B 0.51) - no clean level to fade or to continue with 1.5R. Last bar rejected 97.35 to its low. ~12.6% earnings binary + FOMC inside window = coin-flip with gap risk on a thin tape. HOLD; short arms on loss of 96.19.",
+    "portfolio": "HOOD - HOLD; crowded overbought into a ~12.6% earnings print; wait for 96.19 loss."
+  },
+  "timestamp": "2026-07-27T00:08:24.978873+00:00"
+}

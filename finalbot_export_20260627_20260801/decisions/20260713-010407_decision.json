@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "EWY/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.34,
+  "playbook": "none",
+  "forecast": "Capitulation waterfall: last two 15m bars 181.9->179.2->177.6 closed on the low with RSI 22.5, stoch 0, %B -0.40, price 2.8% (3.5x ATR) below VWAP. Expect a brief further probe toward ~176-177 then a sharp oversold snapback toward 179.5-181; no confirmation yet, so I wait for the reclaim rather than short the flush or knife-catch the bounce.",
+  "expectancy_note": "Late short into RSI-22/stoch-0/below-band tape = the account's #1 loss pattern (22 shorts, 45% win, -1.81 avg; trend playbook -2.87); knife-catch long has no reversal candle and CPI <48h. HOLD is highest-expectancy until price confirms.",
+  "rationale": "EWY is a memory-proxy equity (SK Hynix/Samsung ~47%) mid-capitulation, already >3x ATR below VWAP with RSI 22.5 and stoch 0 across every timeframe. Composite is genuinely weak (flat, 10 conf) and the pair is redundant with the semi/memory short complex. Shorting the flush gets stopped by the reflex bounce; longing the knife has no trigger and fights a RISK-OFF regime with CPI inside 48h. No honest R:R:1.5 setup exists at this print, so I stand aside and arm a level.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 179.6,
+    "expires_min": 180,
+    "note": "Reclaiming the broken 178.68 breakout / VWAP zone proves the capitulation is exhausting and a tradeable oversold bounce toward 181-182 is underway."
+  },
+  "transcript": {
+    "macro": "REGIME: RISK-OFF / HAWKISH \u2014 tilts SHORT. New Fed Chair Warsh held rates but flagged rising HIKE odds (~61% Sept hike priced); firm USD/yields, rising oil, US-Iran tension. Headwind for long-duration equities (big-tech/semis) and precious metals. All target names are equity/commodity-tracking perps (low BTC corr) \u2014 judge as equities/commodities, not crypto. CRITICAL EVENT RISK inside 48h: June CPI ~July 14-15 coincides with Q2 bank-earnings kickoff (JPM/BofA/Citi/Wells/GS before open Jul 14) = binary vol cluster; reduce/flat size into Jul 14 US cash open. Tokenized equities are thin/gappy off US hours \u2014 treat overnight moves skeptically. Per-theme: Big-tech/Nasdaq (GOOGL,QQQ) neutral-to-SHORT, Nasdaq rolling over into CPI; GOOGL long-crowded (L/S 2.02, squeeze risk). Semis/memory (TSM,MU,INTC,SNDK) SHORT-favorable but LATE/squeeze-prone \u2014 memory just entered bear market after Samsung Jul-7 selloff, still up huge YTD so crowded/violent bounces; TSM/MU/INTC/SNDK/EWY are effectively ONE correlated memory-beta trade, do not stack. Korea (EWY) short-leaning memory-proxy (~47% Samsung/SK Hynix), redundant with semis. Silver (XAG) SHORT bias but EXTREMELY oversold (RSI 24, ADX 85, long-crowded 3.33) \u2014 sell rallies toward $60, don't chase lows. Bottom line: environment broadly SHORT-friendly but crowded/oversold on several names and sitting in front of the CPI+earnings cluster \u2014 longs unsupported, reduce size, flat-or-hedged into Jul 14.",
+    "sentiment": "OVERALL TECH/SEMI: RISK-OFF / FRAGILE. Dominant force is a sharp semiconductor selloff that started ~Jul 2 on a Samsung earnings AI miss + SK Hynix HBM-slowdown reports, extended on valuation fears + a hawkish Fed (Warsh). Worst day: Nasdaq -2.2%, SMH -5%, MU -13%, INTC -9%, AMD -7% \u2014 broad de-risk of the AI/memory trade after a parabolic H1; supports short bias on TSM/MU/EWY/QQQ/INTC/SNDK. Biggest scheduled catalyst: TSM Q2 earnings July 16 pre-market (sector-wide binary; ~3 days out, just OUTSIDE 48h horizon but the key event risk if size is carried). Per-name: GOOGL \u2014 not part of chip selloff, earnings Jul 22 (OUT of window), DOJ antitrust overhang is multi-month; near-term NEUTRAL, trades on Nasdaq beta. MU \u2014 epicenter, -22% off highs despite record Q3/HBM sold out through 2027/Anthropic deal; pure momentum/valuation unwind, snap-back risk. SNDK \u2014 best S&P 500 stock 2026 (+707% YTD); bull narrative intact (Goldman PT $2,200) but LOW-weight long-horizon notes; high-beta NAND proxy vulnerable to de-risk. INTC \u2014 -21% in 7 days on 18A yield-delay + AMD overtaking data-center; earnings Jul 23 (OUT of window). EWY \u2014 ~47% SK Hynix+Samsung, Kospi -4.91% Jul 7 (Samsung -9%, SK Hynix -14.6%); SK Hynix ADRs began Nasdaq trading Jul 10. QQQ \u2014 aggregate semi weakness + hawkish Fed, biased weak. XAG \u2014 silver collapsed ~$121\u2192$58-59 (halved in 6mo) on hawkish-Fed repricing; bullish structural story is long-horizon; near-term Fed/DXY-driven, deeply oversold. Oversold across MU/INTC/XAG/EWY/SNDK means shorts must respect snapback risk.",
+    "analyst": "Memory-proxy equity (SK Hynix/Samsung ~47%) mid-capitulation waterfall (184->177.62, last 15m bar closed on its low), >3x ATR below VWAP, RSI 22.5, stoch 0 on every TF, %B -0.40. Composite genuinely weak (flat, 10 conf) and redundant with the semi/memory short. Shorting the flush gets stopped by the reflex bounce; knife-catch long has no reversal candle; CPI <48h. HOLD; re-debate on a reclaim above 179.6.",
+    "portfolio": "HOLD EWY - weak signal, deeply oversold memory-proxy redundant with the semi complex; no honest entry, armed above 179.6."
+  },
+  "timestamp": "2026-07-13T01:04:07.032477+00:00"
+}

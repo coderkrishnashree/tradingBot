@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "MU/USDT:USDT",
+  "confidence": 0.55,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "none",
+  "forecast": "Price pinned between the 914.64 high-volume shelf (defended on last flush, long lower wick) and the 934-940 VWAP/flush zone; last bar closed near its low pointing at 914.64, but RSI 17 / ADX 69.9 makes a snap short-squeeze equally live. Expect chop/retest of 914.64 over next 1-3 bars, then a bounce toward 935 or a clean breakdown.",
+  "expectancy_note": "Fresh short at 922 targets 914 (~0.9%) with stop above 934-937 (~1.5%) = R:R < 1 into a defended shelf and RSI 17 squeeze risk. No clean edge until the shelf breaks or a squeeze offers a high entry to fade.",
+  "rationale": "MU is the most extreme instrument on the board: 4h RSI 17, ADX 69.9, -6% under VWAP, sitting on a huge-volume defended shelf at 914.64. Downtrend intact but entering here means chasing into oversold at a level buyers just defended \u2014 poor R:R and severe squeeze risk (crowded long 2.05 unwinding cuts both ways). High-expectancy short is a decisive break-and-hold below 914.64, or a fade of a squeeze back into 935-940; mid-shelf offers no edge, and macro explicitly says smallest clip / highest event risk on MU.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 914.64,
+    "expires_min": 240,
+    "note": "A decisive close below the 914.64 high-volume defended shelf proves flush-low buyers failed and opens trend continuation \u2014 the timely short entry with a stop back above the shelf."
+  },
+  "transcript": {
+    "macro": "Regime MIXED, tilting cautious. Multi-day trend risk-on/semi-led but active intraday semi flush. Fed on hold, mild headwind. Crowd lopsided LONG everywhere = contrarian caution. MU is MOST EXTREME, highest event risk: structure_bias -0.317, L/S maxed 2.05 crowded long, reported fiscal Q3 June 24, -22% off post-earnings highs. Violent instrument (4h ATR 2.93%, ADX 69.9, RSI 17.0, -6% under VWAP) on support 914.64 after huge-volume flush. Down-trend intact but deeply oversold + crowded-long unwinding; biggest risk is a snap squeeze off 914 \u2014 SIZE DOWN.",
+    "sentiment": "MU is the EPICENTER: down ~22% from post-earnings highs, dragged by Korea memory rout + Apple-China/SK Hynix headlines \u2014 a real, still-active shock supporting short bias short-term. Counter-risk: buy-the-dip sentiment (Strong Buy, guidance ahead, HBM allocated through 2026, Anthropic AI deal), and at RSI 17 a violent mean-reversion bounce is a live squeeze risk. No MU-specific dated binary in 48h. Riskiest of the three to press.",
+    "analyst": "Price defended 914.64 on a huge-volume flush (long lower wick) then the last bar rolled back over near its low. Deeply oversold, sitting just above a defended shelf, crowded-long unwinding. A fresh short at 922 into 914 is R:R < 1 with severe RSI-17 squeeze risk. Clean trades are at the edges \u2014 short a decisive break below 914.64 or fade a squeeze into 935-940. Mid-shelf = no edge. HOLD.",
+    "portfolio": "MU: HOLD (conf 0.55) \u2014 down-trend intact but chasing a defended, deeply oversold shelf is negative-expectancy; wait for a break below 914.64."
+  },
+  "timestamp": "2026-07-07T13:54:54.298001+00:00"
+}

@@ -1,0 +1,26 @@
+{
+  "symbol": "BTC/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.5,
+  "size": 0.0,
+  "entry": 65776.6,
+  "stop_loss": 64900.0,
+  "take_profit": 66700.0,
+  "playbook": "none",
+  "forecast": "Price is pinned at session-high resistance 65,930 with stoch 93 and 15m RSI 81 after a rejection wick; expect a 15m-30m fade/consolidation toward 65,450-65,550 VWAP zone before the next attempt, so no clean market entry now.",
+  "expectancy_note": "p(win) on a chase here ~0.45; buying stoch-93 at the upper band into an offer-heavy book (OB imbalance -0.46) is the account's exact late-entry loss pattern. Better EV to wait for a break of 65,930 or a VWAP retest.",
+  "rationale": "BTC is the cleanest long environment in the book (funding flat, longs win 69% for this account) but price is stretched right into resistance 65,929.7 with bb_pctb 1.01, stoch 93.2 and vwap_dist +1.51%, and the last bar left a rejection wick \u2014 buying here means chasing overextension the model penalizes. Orderbook imbalance -0.458 warns of near-term supply; no short edge either. Highest expectancy is to hold flat and buy either a break-and-hold above 65,930 or a dip-reclaim of the 65,450-65,550 VWAP zone.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 65930.0,
+    "expires_min": 240,
+    "note": "A decisive break and hold above session-high resistance 65,929.7 confirms continuation and flips to a long for a fresh leg toward 66,700."
+  },
+  "transcript": {
+    "macro": "Regime MIXED/cautious risk-on, geopolitical overhang; VIX 18.65; BTC ~$65.3-65.8k +~1%, dominance high ~56.5%, crypto firm but not leading. BTC: LONG-OK/neutral, cleanest environment in the book \u2014 funding flat, no crowding flag; supports small-to-normal long, no edge for shorts; equity beta is the risk.",
+    "sentiment": "BTC ~$65.8k, rebounded above $65k 7/15. Flows turning: BlackRock +$132M ETF inflow Fri, +$75.6M weekly (2nd straight) \u2014 but July still net -$253.5M, June record outflows/21-month low ~$58k. SEC added 3 crypto rulemaking items (7/7, medium-term). No fresh hack/unlock in window. Macro swing hawkish Fed/rising yields. Tilt NEUTRAL-to-mildly-bullish, macro-capped.",
+    "analyst": "Price at session-high resistance 65,930 with stoch 93, 15m RSI 81, vwap_dist +1.51% and a rejection wick; offer-heavy book (OB -0.46). Directional bias favors longs (win 69%) but not a chase into resistance. HOLD; buy a break-hold above 65,930 or a VWAP-reclaim dip.",
+    "portfolio": "BTC: HOLD (0.5) \u2014 cleanest env but stretched into resistance; buy a break of 65,930 or a VWAP dip, don't chase."
+  },
+  "timestamp": "2026-07-21T06:32:48.247406+00:00"
+}

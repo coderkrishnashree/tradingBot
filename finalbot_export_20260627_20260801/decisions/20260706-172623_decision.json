@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "MSTR/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.34,
+  "playbook": "none",
+  "rationale": "MSTR is pure BTC beta (corr 0.82, RS -12.94%) on a crypto risk-off day with company-specific overhang ($8.3B Q2 loss, BTC sales, shares -6%), which biases drift down but there is no clean short trigger: at $103.74 price is right at VWAP (-0.18%), RSI 47, %B 0.205 (not an extreme), and lower TFs are bouncing. Shorting here means chasing a -6% move into a dip-buy; going long fights the overhang. Neither meets R:R>=1.5, so no trade. Wait for a reclaim of resistance to trade with a BTC bounce, or a clean break of the mid-range shelf to trade the overhang down.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 108.96,
+    "expires_min": 240,
+    "note": "Reclaiming resistance despite the loss/BTC-sale news proves the dip is being bought and flips this from avoid to a long-with-BTC-beta setup."
+  },
+  "transcript": {
+    "macro": "2026-07-06 (current) RISK-ON in equities BUT crypto is the risk-off exception today. BTC ~$61.8k -3%, under key MAs. Strategy sold 3,588 BTC and booked an $8.3B Q2 loss; MSTR shares -6% at open. MSTR read: NEUTRAL/AVOID or small. BTC corr 0.82 = pure crypto beta; broad risk-on does NOT help; RS -12.94%. Reduced size on any MSTR exposure.",
+    "sentiment": "(July 2 data, stale-bullish) MSTR +7.9% to ~$100.77, 'Digital Credit Capital Framework' (USD reserve, up to $1B buyback), added 520 BTC. Predates today's crypto selloff / $8.3B loss - macro note (current-bearish) governs.",
+    "analyst": "Last $103.74, flat composite (conf 6.6%, blended -0.094, align 0.7 misaligned). RSI 47, ADX 26.5, BB %B 0.205, VWAP -0.18%. Support 79.93 / resistance 108.96 (wide). Per-TF conflict: 15m/5m long vs 1h/4h short. Structure neutral. Pure BTC beta into crypto risk-off with overhang = down bias but no confirmed short trigger; shorting after -6% at VWAP with lower-TF bounce = knife-catch. Textbook NO TRADE. HOLD, arm reclaim of 108.96.",
+    "portfolio": "HOLD/AVOID MSTR - conflicted tape, pure BTC beta into crypto risk-off, no clean R:R; conf 0.34."
+  },
+  "timestamp": "2026-07-06T17:26:23.065021+00:00"
+}

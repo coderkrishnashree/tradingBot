@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "AAPL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Coiling 331.6-332.2 into the weekend; most likely a flat/thin drift with Monday-gap risk. A clean long only sets up on a break-and-hold above 336.18 (measured move toward ~340) or a pullback to VWAP/support ~328-329 that gives real room back to 336.",
+  "expectancy_note": "No 1.5R long here: chasing 331.95 into resistance 336 leaves only ~1.4R and buys an overbought (4h RSI 70) top in a CLOSED, thin, gappy market ahead of Thu 7/30 earnings \u2014 negative expectancy despite longs' 69% historical win rate.",
+  "rationale": "AAPL has the cleanest structure of the book (aligned LONG +0.26, orderbook bid +0.386, RS +5.2%, own equity story with ~zero BTC corr), but it is overbought under resistance 336 with the 15m tape stalling and fading, not accelerating. Saturday with the US underlying closed means thin/gappy perps and Monday-gap risk, and earnings Thu 7/30 is an imminent multi-day binary. The honest move is to wait: buy the breakout reclaim of 336.18 (momentum confirmed) rather than chase the weekend high into a wall.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 336.2,
+    "expires_min": 240,
+    "note": "A break and hold above resistance 336.18 confirms trend continuation and opens a measured move higher, flipping this to a long with real room to run."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF/defensive; SATURDAY 2026-07-25 so US equity underlyings CLOSED -> perps thin, gappy, Monday-gap risk. FOMC Wed 7/29 caps risk. AAPL: only bullish-leaning name \u2014 composite LONG +0.26 aligned, 4h RSI 69.8 near overbought, orderbook +0.386 (real bid), structure_bias +0.11, L/S ~1.02 balanced, OI tiny 5.3k, RS +5.2% vs BTC, ~zero BTC corr, sitting just under resistance 336. Verdict: lean LONG is cleanest structure BUT stay out here \u2014 overbought under resistance in a closed thin market; prefer Monday/pullback over the weekend high.",
+    "sentiment": "AAPL NEUTRAL now, EARNINGS RISK in 5 days. Little fresh company news; quiet into the print. KEY: Apple reports Thursday July 30 2026 after close \u2014 consensus ~$108.9B rev / ~$1.89 EPS, implied ~$260B market-cap swing. Outside 24-48h but any multi-day hold must respect it. Scan LONG with 4h RSI ~70 overbought into event -> caution / tight risk on longs.",
+    "analyst": "AAPL 331.95, res 336.18 (~1.3% away), support 319.54; 4h RSI 69.8, stoch 85.2, bb_pctb 0.786, ADX 36.4, vwap_dist +1.43%, atr% 0.76 (~2.5pts). Structure orderbook +0.386, L/S 1.02, OI 5.3k, funding 0, RS +5.2%; composite LONG +0.262 but conf 36.8%, p_win_learned 0.453. 15m drifted down from ~332.2 to 331.95, coiling 331.6-332.2 for ~12 bars, momentum faded at the top on light volume. Buying 331.95 stop <329 TP 336 = only ~1.4R, chasing overbought into resistance in a closed thin tape ahead of earnings -> HOLD; long on break-and-hold above 336.18.",
+    "portfolio": "AAPL: HOLD (conf 0.50) \u2014 cleanest structure but overbought under 336 in a closed market ahead of 7/30 earnings; reconsider long on breakout above 336.2."
+  },
+  "timestamp": "2026-07-25T15:04:37.017399+00:00"
+}

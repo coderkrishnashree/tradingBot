@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "MU/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Rejection at 881/882 is fading: last 6 bars step lower-high/lower-close (880-871-869-862-862-861-858), last bar closed near its low at 858 with 5m already short (RSI 37.8). Expect drift toward the 853-850 shelf.",
+  "expectancy_note": "No edge either way: p(win) ~0.5 both directions. Long fights a -0.886 offer wall + semi de-rate + thin weekend tape; short fights still-long 30m/1h/4h composites and crowded 1.95 L/S (squeeze fuel) above 805.8 support with bullish 4h divergence.",
+  "rationale": "The scan-long is contradicted by the actual path: price was rejected at 882 and is bleeding lower on a heavy -0.886 orderbook offer, with the 5m/15m rolling over into a closed, gappy weekend market and a -34% rel-strength semi group in de-rating. But shorting a name with crowded 1.95 long structure, bullish 4h divergence, and price still holding above 805.8 risks a squeeze, so neither side clears a 1.5R hurdle. Size 0 \u2014 wait for the market to pick a side.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 850.0,
+    "expires_min": 240,
+    "note": "Losing the 853-850 intraday shelf breaks the higher-low structure and opens a clean short toward 805.8 support."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF (2026-07-20 Mon), semiconductor de-rating, rotation OUT of chips. US equity market CLOSED (weekend) \u2014 thin/gappy, gap risk. MU: rel-strength -34.4%, semi group headwind. Scan says LONG but orderbook imbalance -0.886 (heavy offer). Fighting the tape.",
+    "sentiment": "MU earnings already passed; sold-out HBM through 2026, Anthropic/Qualcomm deals 7/16 (PT hikes, low weight). -18% in a month. No fresh 48h binary; sentiment structurally bullish but caught in the chip selloff.",
+    "analyst": "Bullish-scan long but mid-TF candles show rejection at 881/882 and a steady bleed lower, orderbook -0.886 (overwhelming offer), semi de-rating, rel-strength -34%, market closed/thin. The long thesis is contradicted by the actual path; 5m/15m rolling over. Won't go long into an offer wall and hostile semi tape, won't short while 30m/1h/4h still long above 805.8 with bullish 4h divergence (squeeze risk). Two-sided conflict, no clean edge. HOLD.",
+    "portfolio": "HOLD \u2014 two-sided conflict (scan-long vs offer wall/semi tape); watch 850 break."
+  },
+  "timestamp": "2026-07-20T01:48:17.943961+00:00"
+}

@@ -1,0 +1,26 @@
+{
+  "symbol": "NVDA/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.5,
+  "size": 0.0,
+  "entry": 203.66,
+  "stop_loss": 202.9,
+  "take_profit": 208.5,
+  "playbook": "none",
+  "forecast": "Price coils 203.3-204.6 near 15m support; either bounces toward VWAP ~206-208 on the bid-heavy book, or loses 202.9 to resume the leg toward 200. No clean entry mid-air.",
+  "expectancy_note": "Shorting into stoch 7.3 / -2.32% below VWAP with bid-heavy book + crowd-long = chasing the #1 loss pattern (bounce stops out late shorts). Long fights RISK-OFF thin after-hours tape. Neither clears R:R>=1.5 with an honest stop; HOLD is highest expectancy.",
+  "rationale": "NVDA is stretched to the downside (stoch 7.3, bb%b -0.085, -2.32% vs VWAP) right at 15m support ~203.3, with mildly positive funding, long/short 1.585 and +0.223 book = squeeze fuel that punishes fresh shorts. But 4h trend is neutral with MACD turning up while 15m/5m still print -0.9 fresh selling, and the regime is RISK-OFF in thin/gappy after-hours - a two-sided, mid-air tape. No entry offers a clean >=1.5R with an honest sub-1.5xATR stop, so I stand aside and let the level pick a side.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 202.9,
+    "expires_min": 240,
+    "note": "Losing today's low / 15m support confirms the down-leg resumes toward 200 and validates a bounce-retest short; a reclaim of 206 VWAP would flag the squeeze-long - 202.9 is the more imminent break."
+  },
+  "transcript": {
+    "macro": "REGIME RISK-OFF/MIXED, hostile to longs. AI/semi de-risking; equity tokens in after-hours (thin, gappy). NVDA short-biased blended -0.303 but weaker conviction (RSI 34.6, ADX 37, 4h neutral, MACD turning up). RS +2.0%. Mildly positive funding + bid-heavy book (+0.22) = squeeze risk. Two-sided near-term.",
+    "sentiment": "NVDA bullish tone, no near-term binary. Tailwinds: UAE AI-chip export easing (July 10, +4%), Kyber NVL144 delay rumors denied. Next hard catalyst Q2 FY27 earnings Aug 25 (outside 48h). Watch AI-sector risk sentiment.",
+    "analyst": "Stretched down (stoch 7.3, bb%b -0.085, -2.32% vs VWAP) at 15m support ~203.3 with squeeze fuel (L/S 1.585, book +0.223, positive funding). 4h neutral/MACD up but 15m/5m fresh selling in a risk-off thin tape. No clean >=1.5R either way. HOLD; reconsider on loss of 202.9.",
+    "portfolio": "NVDA: HOLD - two-sided mid-air tape with squeeze risk; let 202.9 support pick the side."
+  },
+  "timestamp": "2026-07-13T23:33:40.423550+00:00"
+}

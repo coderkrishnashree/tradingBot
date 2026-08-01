@@ -1,0 +1,27 @@
+{
+  "symbol": "GOOGL/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.6,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "none",
+  "expectancy_note": "Long here = chasing (RSI 77.5, %B 1.07, +1.27% VWAP, jammed on 368 resistance, bearish div); short fights ADX 39 uptrend with no reversal confirm. Neither clears R:R 1.5, so wait for pullback or confirmed break.",
+  "rationale": "GOOGL is strong but stretched: pinned against 368.1 resistance with 4h RSI 77.5, stoch 88.8, %B >1 and a bearish divergence, while longs are crowded (L/S 1.80) and order-book leans sell (-0.16) \u2014 squeeze risk both ways. No clean pullback level to buy yet (VWAP/SMA20 ~362-360) and no confirmed hold above 368, so any entry now donates R:R into resistance plus Wed FOMC minutes event risk. Stand aside and let it pull back to the mean for a trend-long or break-and-hold 368 to confirm continuation.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 368.1,
+    "expires_min": 240,
+    "note": "A decisive break and hold above the 368.1 resistance resolves the squeeze upward and turns this into a valid breakout-continuation long."
+  },
+  "transcript": {
+    "macro": "2026-07-07 RISK-ON/NEUTRAL. Big tech leading on AI demand but OVERBOUGHT \u2014 favor pullback entries. VIX ~15.6; DXY soft. Fed hawkish lean; FOMC minutes Wed July 8 = event risk. GOOGL scan strong but stretched: RSI 77.5, bearish divergence, jammed against ~368 resistance; L/S 1.80 crowded long.",
+    "sentiment": "GOOGL NEUTRAL-to-BULLISH. Earnings late July (outside 48h). Constructive: Cloud >45%, capex raised $180-190B, Berkshire $10B placement. Overhang: DOJ antitrust appeal (slow-moving). No imminent binary; mildly constructive drift.",
+    "analyst": "Price pinned at 368.1 resistance, RSI 77.5, stoch 88.8, %B>1, bearish divergence, crowded longs (1.80) with order-book selling. Long = chasing into resistance (bad R:R); short fights ADX 39 uptrend with no reversal. No clean pullback level yet. HOLD; reconsider on break-and-hold above 368.1.",
+    "portfolio": "HOLD GOOGL \u2014 extended into 368 resistance, squeeze risk both ways; reconsider armed above 368.1."
+  },
+  "timestamp": "2026-07-07T00:57:44.600245+00:00"
+}

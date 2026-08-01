@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "TSLA/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Active snapback off 354.05 support: last bar closed on its high (362.16) on rising volume; expect grind toward the 365-367.7 VWAP / broken-support zone over the next 2-4 candles, where the bounce likely stalls.",
+  "expectancy_note": "Shorting now chases into 1h RSI 26 / 30m RSI 17 oversold + active bounce off support = the account's proven losing pattern (shorts 46% win, -0.97 avg); a long fights hostile macro + live bearish earnings + worst RS (-16.3). No edge either way now.",
+  "rationale": "TSLA's earnings gap already resolved (374->354) and price is mid-snapback, bouncing off 354.05 support with the last bar closing at its high on rising volume while 1h/30m RSI sit deeply oversold. A fresh short here is exactly the late-into-stretched-tape entry that has been bleeding this book; a long fights a MIXED-to-HOSTILE tape, a live bearish print, and the weakest relative strength in the set. The high-expectancy short is a rejection at VWAP/broken-support, not a chase into the low. Wait.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 367.0,
+    "expires_min": 240,
+    "note": "Reclaiming the VWAP / broken-support zone; a stall-and-reject there (bounce exhausted) is the proper short entry, while a clean reclaim would flip the near-term bias off the lows."
+  },
+  "transcript": {
+    "macro": "2026-07-23 regime MIXED-to-HOSTILE. Overnight session after megacap earnings: GOOGL -5% AH, TSLA -4% AH, IBM cut outlook. Fading tape, Nasdaq -0.57%. June CPI soft; FOMC Jul 28-29. Oil rising on Iran = risk-off. Crowded-long basket (contrarian negative); RS negative for ALL vs BTC. Size DOWN. TSLA gap ALREADY happened (375->356 in a couple 15m candles); easy short gone, snapback risk high (already bounced ~2% off lows on 5m). Funding mildly positive (crowd paying to be long a gapped-down name).",
+    "sentiment": "TSLA HIGH / FRESH SHOCK. Reported last night: record revenue $28.2B but big profit miss ($0.33 vs $0.53 est; operating income -57%, margin 1.4%). ~4% lower AH despite record 480k deliveries. Live negative catalyst, still digesting today. News BEARISH/against longs but the move already happened.",
+    "analyst": "TSLA 362.16: gap crash 374.47->356.84 done; bottomed 354.05, last ~8 bars grind UP closing at high 362.16 on rising volume = active snapback. Composite short (-0.393, p_win 0.431), but 30m RSI 17.2 / 1h RSI 26 deeply oversold, 5m long RSI 84.8. L/S 2.171 crowded long, structure_bias -0.479, RS -16.29 (weakest). Learner: shorts 46% win (-0.97). No clean short (chasing oversold bounce off support), no clean long (hostile macro, live bad catalyst, worst RS). HOLD; proper short is a rejection at 365-367.7 VWAP.",
+    "portfolio": "TSLA -> HOLD (conf 0.60): don't chase the oversold snapback; fade only on a VWAP rejection near 367."
+  },
+  "timestamp": "2026-07-23T00:35:58.546255+00:00"
+}

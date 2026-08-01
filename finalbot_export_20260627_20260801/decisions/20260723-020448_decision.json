@@ -1,0 +1,23 @@
+{
+  "symbol": "TSLA/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.55,
+  "size": 0,
+  "entry": 360.3,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "rationale": "The EPS-miss flush already bottomed at 354.05 three candles ago; since then 15m price has stabilized and coiled 359-362, holding above the low - momentum is fading, not extending. 30m/1h RSI 18-22 with price -2% below VWAP and at the lower Bollinger band means shorting now chases a completed move into a 2.24x-crowded long book (squeeze fuel) - the classic late-short loss pattern. Longing an EPS loser with 4h trend still down and no VWAP reclaim is equally premature; no honest R:R either way, so wait for the range to break.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 354.0,
+    "expires_min": 240,
+    "note": "Losing the 354.05 flush low ends the oversold-bounce stabilization and reopens fresh downside momentum for a valid short entry."
+  },
+  "transcript": {
+    "macro": "Regime neutral-to-cautious (VIX 16.6, oil spiking on Iran strikes). Two-sided tape. TSLA: EPS miss ($0.33 vs $0.50), down ~4% AH, -16.8% YTD; scan aligned short but STRETCHED (30m/1h RSI ~18-22). Long-side crowding (TSLA L/S 2.24) - contrarian risk. FOMC Jul 28-29. Bias: shorts on earnings losers momentum-supported but watch oversold bounce; fade extensions, modest size.",
+    "sentiment": "TSLA: reported Q2 last night (Jul 22). Record $28.2B revenue but big EPS miss ($0.33 vs $0.51 est), op income -57%, negative FCF; shares fell ~3% AH. Near-term bearish - fresh earnings shock still digesting, no margin support; scan already short, news confirms.",
+    "analyst": "The EPS flush bottomed at 354.05 three candles ago; price since coiled 359-362 above the low, poked 362.35 - post-flush stabilization, not fresh downside. 30m/1h RSI ~18-22, price -2% below VWAP, at lower band: shorting now chases a completed move into a 2.24x-crowded long book (squeeze fuel) = late-short loss pattern. Longing an EPS loser with 4h down and no reclaim is premature. HOLD; short on clean loss of 354.05, long on VWAP reclaim (~367).",
+    "portfolio": "HOLD TSLA - post-earnings flush already stabilizing; short trigger on loss of 354."
+  },
+  "timestamp": "2026-07-23T02:04:48.104238+00:00"
+}

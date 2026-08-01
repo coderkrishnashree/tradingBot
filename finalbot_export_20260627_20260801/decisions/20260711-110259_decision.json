@@ -1,0 +1,26 @@
+{
+  "symbol": "QQQ/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.62,
+  "size": 0.0,
+  "entry": 729.34,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "forecast": "Price coils flat under 730.3 on dead weekend volume; expect chop 727.5-730.3 into Monday. Either it rejects 730.3 and loses 727.5 (exhaustion short trigger) or breaks/holds above 730.3 on real volume (continuation) \u2014 neither confirmed yet.",
+  "expectancy_note": "No confirmed edge either way: long R:R < 1.5 chasing into resistance+CPI; short lacks reversal confirmation vs ADX 61. HOLD beats both stretched entries on thin tape.",
+  "rationale": "QQQ is the most overbought name in the set (4h RSI 85.5, 1h 81.1, stoch 94.8) grinding on near-zero weekend volume directly into hard resistance 730.3, with support 698.42 far below. A fresh long chases a stretched index into a ceiling with a June CPI binary Tue Jul 14 (hawkish tilt, 61% Sept-hike odds) \u2014 poor R:R and the late-continuation entry that bleeds this account. A short is tempting on exhaustion but there is NO reversal confirmation: ADX 61 says the uptrend is intact, no divergence, no lower-high/rejection bar yet. US cash closed, so structure resolves Monday. No trade justifies risk here.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 727.5,
+    "expires_min": 240,
+    "note": "Losing weekend intraday support 727.5 after rejecting 730.3 confirms exhaustion off the ceiling and opens a mean-reversion short toward VWAP; a clean reclaim/hold above 730.3 would instead be the continuation trigger."
+  },
+  "transcript": {
+    "macro": "2026-07-11 Sat, US cash/ETF CLOSED. Regime moderately risk-on but late-cycle/stretched/overbought. Weekend perps thin/gappy. EVENT: Tue Jul 14 June CPI (last before Jul 28-29 FOMC) + bank earnings = heavy vol; QQQ is the direct macro proxy. Composite long only 43.8% (weak), most overbought in set (RSI 85.5), pinned at resistance 730.3.",
+    "sentiment": "Risk-on but stretched into Jul 14 CPI binary. QQQ: macro proxy; CPI Jul 14 + Warsh testimony Jul 14-15 is THE event, markets pricing hawkish risk (61% odds Sept HIKE). Extremely overbought on AI/semi leadership; risk/reward for fresh longs poor into that print \u2014 event-risk not event-support.",
+    "analyst": "Most overbought name in the set grinding on dead weekend volume into hard resistance 730.3 with a CPI binary Tue \u2014 no honest long R:R. Short tempting on exhaustion but no reversal confirmation (ADX 61 trend intact, no lower-high/rejection bar). HOLD; flip level at 727.5 (loss = exhaustion short off 730.3; reclaim of 730.3 = continuation).",
+    "portfolio": "HOLD QQQ \u2014 most overbought in the set, pinned at resistance into CPI; armed short trigger below 727.5."
+  },
+  "timestamp": "2026-07-11T11:02:59.215366+00:00"
+}

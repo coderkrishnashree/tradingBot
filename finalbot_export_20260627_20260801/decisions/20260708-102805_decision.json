@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "AAPL/USDT:USDT",
+  "size": 0.0,
+  "entry": 308.75,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Slow bearish grind likely continues to chop 308.5-309.5 until the 18:00 UTC FOMC minutes; a clean break of the 308.3 floor on that catalyst opens 306.5-307.0, while a bounce back to VWAP ~310.5 sets up a cleaner short entry.",
+  "expectancy_note": "Short bias is right but entry at the low of a $0.20/bar grind into an FOMC vol event gives R:R ~1.3 (below 1.5); thin off-hours venue = gap risk both ways. Waiting for 308.3 break or 310.5 rejection improves p(win) and R:R.",
+  "rationale": "All TFs align short with risk-off macro and +4.3% relative strength that is still rolling over, but price is already pinned at its intraday low on tiny off-hours volume, so a market short here chases a small extended move into today's 2pm ET FOMC-minutes binary with poor fills. The next real support is far and the honest stop above 310.3 leaves sub-1.5 R:R. Learner stats confirm high-ADX trend shorts have been bleeding (avg -2.26) because stops outrun the modest targets - I want a better price, not this one.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 308.3,
+    "expires_min": 240,
+    "note": "Losing the 308.3 grind floor (ideally on the FOMC-minutes catalyst) confirms the breakdown and opens 306.5-307.0 with a definable stop back above 309.5 for a valid short."
+  },
+  "transcript": {
+    "macro": "RISK-OFF/HOSTILE. Hawkish Fed hold, DXY ~99.9, 10Y ~4.2%. FOMC minutes ~July 8-9 biggest catalyst inside 48h. Whole risk complex skewing short. AAPL (equity): ~$308.75 near 52-wk high $317, analyst double-top/overbought daily RSI. Composite short (-0.26) largely intraday, not derivatives (funding 0, OI tiny 3300, L/S 1.15 near-neutral, thin venue). Low BTC corr 0.28, rel strength +4.3%. Broadcom chip deal positive; foldable-iPhone overhang. Q3 earnings July 30 OUTSIDE 48h. Biggest risk = US market hours: thin/gappy off-hours, size accordingly.",
+    "sentiment": "BIG shared catalyst: FOMC June minutes TODAY 2pm ET (~18:00 UTC), vol spike. AAPL: no imminent stock-specific binary - earnings July 30 outside 48h, no gap risk this cycle. Driver is index/sector: risk-off, semiconductor-led selloff (SOX -4.5%, Micron -4.7%), rising yields from oil spike, some rotation into non-tech. AAPL caught in broad tech weakness, not company-specific. US cash closed at scan (10:22 UTC ~6:22am ET), thin/gappy until 9:30am ET, reacts to 2pm minutes. Near-term news neutral-to-mildly-bearish; nothing contradicts a modest short.",
+    "analyst": "Last 308.75 near 52-wk high; 4h RSI 56 neutral, 15m RSI 24.9 oversold, 1h 33; ADX 29 trend; %B 0.352; VWAP -0.96%; composite short -0.259 aligned. Structure thin (funding 0, OI 3300, L/S 1.15, orderbook +0.346 mild bid). Candle path: flat ~311 then a sharp down-candle to 309.66, stair-step grind to 308.75 (last bar at its low) on tiny volume - controlled grind, not capitulation. Short bias valid but entering at the low of a $0.20/bar grind into an FOMC binary on an illiquid off-hours venue gives R:R ~1.3-1.4 (below 1.5 threshold), next real support far. Learner: high-ADX trend shorts bleeding (avg -2.26) as stops outrun targets - this exact profile has lost money. Want a better price (VWAP rejection ~310.5 or a 308.3 break post-catalyst).",
+    "portfolio": "HOLD AAPL - short bias but poor entry at the low into FOMC on a thin off-hours venue; wait for 308.3 break or a bounce to ~310.5 to short."
+  },
+  "timestamp": "2026-07-08T10:28:05.377309+00:00"
+}

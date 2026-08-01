@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "MSTR/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.58,
+  "playbook": "none",
+  "forecast": "Price is coiling under the 99.6 rejection high after fading from 99.63 to 98.62 and bouncing back to 99.34; expect chop between 98.6 and 100 over the next few bars, with a likely dip toward VWAP ~97 before any clean continuation, or a squeeze test of 102 resistance.",
+  "expectancy_note": "No positive-expectancy entry now: market long is a chase (+2.43% VWAP, bb%b 1.07, RSI 70, hottest funding +0.088% = crowded) with resistance 102 capping R:R below 1.5; shorting a 51-ADX uptrend is the account's losing pattern (shorts 0.49 win, -0.71 avg). Wait for the level.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 102.0,
+    "expires_min": 240,
+    "note": "A clean break and hold above the 102 resistance proves crowded longs are validated by fresh demand and the squeeze continues \u2014 flips to a trend-continuation long; a loss of 98.6 signals the pullback resumes toward VWAP ~97 as the preferred long entry."
+  },
+  "rationale": "MSTR is the most extended and most crowded name in the book (structure_bias -0.438, funding +0.088%, vwap +2.43%, bb%b >1.0) and a 0.73-beta leveraged BTC bet while BTC is itself pinned at resistance and MSTR sentiment turned net-seller/neutral-bearish. A market long here chases into that crowd with only ~2.6% to resistance 102 and a stop that must sit below the 98.62 pullback low (~1.75xATR), giving sub-1.5 R:R; the learner confirms late trend-chases and shorts both bleed. Best expectancy is to wait: go long only on a real pullback to VWAP or a confirmed break/hold above 102. Size 0 until price picks a side.",
+  "transcript": {
+    "macro": "Cautious risk-off, event-heavy week (2026-07-21). Crypto constructive but range-bound (BTC ~$65.5k, neutral funding); US-Iran conflict, oil spike; FOMC Jul 29. MSTR one-liner: LONG momentum but CROWDED \u2014 smaller size. Hottest funding in set (+0.088%, structure_bias -0.438), most extended (bb_pctb >1.0, vwap +2.4%, RSI 65-70), highest BTC beta (0.73) = leveraged BTC bet. The single biggest positioning/reversal danger in the book if BTC stalls or GOOGL/TSLA earnings sour sentiment.",
+    "sentiment": "MSTR holds 843,775 BTC (avg ~$66.4K \u2014 near cost basis, leverage cuts both ways). Notable shift: now a NET BTC SELLER \u2014 sold 3,588 BTC (~$216M) to build a $2.55B USD reserve under a new Digital Credit Capital Framework (12% STRC coupon, up to $1B buyback + $1.25B BTC monetization). High-beta BTC proxy. NEUTRAL-to-BEARISH tilt near-term \u2014 seller-not-buyer pivot + BTC near cost basis remove the reflexive bid.",
+    "analyst": "Most extended and most crowded name (structure_bias -0.438, funding +0.088%, vwap +2.43%, bb%b >1.0), a 0.73-beta leveraged BTC bet while BTC is pinned at resistance and sentiment turned net-seller/neutral-bearish. Market long chases the crowd with only ~2.6% to resistance 102 and a wide stop below 98.62 = sub-1.5 R:R; shorting a 51-ADX uptrend is the book's losing pattern. HOLD; go long only on a VWAP ~97 pullback or a confirmed break/hold above 102.",
+    "portfolio": "MSTR \u2014 HOLD (conf 0.58): most crowded/extended name, hottest funding; no chase \u2014 wait for 102 break or ~97 pullback."
+  },
+  "timestamp": "2026-07-21T03:18:06.264971+00:00"
+}

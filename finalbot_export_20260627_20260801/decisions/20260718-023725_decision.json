@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "QQQ/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.4,
+  "playbook": "none",
+  "forecast": "Near-term the 15m higher-low bounce off 694.7 keeps price pinned 695.7-696.5; a short only pays if 688 support breaks (leg-2 down toward ~682) or a failed push to ~697 rejects - neither confirmed inside a weekend vacuum.",
+  "expectancy_note": "p(win) ~0.45 on an immediate short; 4h RSI 22 + live 15m bounce = classic late-short trap (this book's #1 loss). No 1.5R entry with an honest stop; HOLD is highest expectancy.",
+  "rationale": "QQQ 4h is oversold (RSI 22) inside a strong down-ADX, but the mid-TF is mid-bounce: price absorbed heavy sell volume at 694.7 and ground back up to 696.2 with 15m flipping long (RSI 61.7). Shorting here means selling into the counter-bounce that stops out late shorts before the trend resumes; going long fights a risk-off tech tape and closed cash market. Structure neutral (L/S 1.05, funding 0), RS -8% is just a BTC-beta echo of tech weakness, weekend liquidity thin/gappy - no edge worth risking now.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 688.0,
+    "expires_min": 240,
+    "note": "Losing 688 support confirms the 4h downtrend resuming through the bounce - clean short trigger toward 682."
+  },
+  "transcript": {
+    "macro": "2026-07-18 Saturday - underlyings closed until Mon; weekend perp vacuum, thin/gappy. Regime RISK-OFF/tech unwind (Nasdaq -2.9% wk); rates a mild tailwind (soft June CPI, core 0% m/m). QQQ: last 696.2, RS -8.0% vs BTC, positioning NEUTRAL (L/S 1.05, structure_bias -0.009). Pure tech-tape proxy, corr ~0.66-0.74 with the semis - QQQ short and INTC short are the SAME macro bet (not diversified). Regime barometer: as long as QQQ heavy and Nasdaq down, short bias on the group has wind at its back. Scan short conf 38%, 4h RSI 22 (oversold, bounce risk).",
+    "sentiment": "QQQ/Nasdaq-100 risk-off this week on AI-spend anxiety + Netflix miss (-8%). Offsetting: soft June CPI slashed July hike odds to ~17% (already in tape). Watch oil >$80 on US-Iran tensions (mild vol wildcard). Big-tech earnings cluster is next week, not this 48h. No first-tier macro catalyst inside 48h. Broad tape risk-off = mildly SUPPORTIVE of a short, but thin weekend + oversold 4h argue bounce risk.",
+    "analyst": "4h oversold (RSI 22) in a strong down-ADX, but mid-TF is mid-bounce: heavy sell volume absorbed at 694.7, ground back to 696.2, 15m flipped long (RSI 61.7). Shorting sells into the counter-bounce that stops late shorts; long fights a risk-off tape + closed cash market. Neither offers 1.5R cleanly. HOLD; a break below 688 support re-arms a clean short toward 682.",
+    "portfolio": "HOLD QQQ - oversold 4h mid-bounce, no clean 1.5R either side on a thin weekend; a break of 688 re-arms the short."
+  },
+  "timestamp": "2026-07-18T02:37:25.341278+00:00"
+}

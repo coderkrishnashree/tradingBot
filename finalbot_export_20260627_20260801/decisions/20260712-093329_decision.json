@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "AAPL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.34,
+  "playbook": "none",
+  "forecast": "Price stays pinned to VWAP in the 313.4-314.2 coil on near-zero weekend volume; no clean directional move until Monday cash open or a break of 313.4. Expect chop, not trend.",
+  "expectancy_note": "No edge: p(win) ~0.4 for a short at VWAP mid-BB with nearest target (305) >6x ATR away and stop above 316.77 = R:R well under 1. Account history: trend-shorts 44% win / -2.89 avg. HOLD beats forcing it.",
+  "rationale": "AAPL sits exactly at VWAP, mid-Bollinger, BB width only 1.35% (coiled), with 15m/5m flat-to-up (RSI 60.9) contradicting the 1h/4h short bias and a positive 4h MACD. Weekend cash market is closed/thin so the -0.42 orderbook and any bar is low-confidence and gap-prone. There is no extension to fade nor momentum to follow, and a short from mid-range has no honest R:R (support 305 is >6x ATR away, stop must sit above 316.77 resistance). Standing aside is the highest-expectancy action.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 313.4,
+    "expires_min": 240,
+    "note": "Losing the base of the coil on volume confirms the 1h downtrend resuming, opening 310/305 and creating a valid short with real R:R."
+  },
+  "transcript": {
+    "macro": "Regime MIXED/risk-cautious, choppy mean-reverting. Equities volatile chop (semis selloff then SOXX +5% snapback); crypto heavy/risk-off, BTC ~$63.8k offered book. Hawkish Fed (3.50-3.75%, sticky inflation) caps multi-day upside. Tokenized equities trade thin/gappy over the weekend (US cash closed) -> orderbook signals low-confidence, size down. Catalysts in window: CPI Tue Jul 14, TSM earnings Wed Jul 16. Net: smaller-than-normal size.",
+    "sentiment": "Risk-nervous, event-heavy week (CPI Jul 14, big-bank earnings Jul 14). Weekend -> equity tokens off-hours, can gap Monday. AAPL neutral, NO <=48h catalyst (earnings Jul 30); constructive long-horizon tone (JPM PT $345, Broadcom deal) but do not trade on it. Only driver is macro spillover / Monday equity open.",
+    "analyst": "Coiled chop at VWAP, tight BB (1.35%), mixed timeframes (1h/4h short vs 15m/5m flat-up, 4h MACD positive). No extension to fade, no momentum to follow, thin gappy weekend tape, and no honest R:R for a mid-range short (support 305 >6x ATR away). Textbook NO TRADE.",
+    "portfolio": "HOLD AAPL/USDT:USDT (conf 0.34) - stand aside; short trigger armed below 313.4."
+  },
+  "timestamp": "2026-07-12T09:33:29.342335+00:00"
+}

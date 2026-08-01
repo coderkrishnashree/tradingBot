@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "AAPL/USDT:USDT",
+  "size": 0,
+  "entry": 333.64,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price pinned 333.3-334.4 under 339 resistance on fading volume; likely chops/drifts and rejects 339, or pulls back toward the 328-329 higher-low base before any continuation.",
+  "expectancy_note": "No positive-expectancy entry: fresh long = chasing RSI 73-76 into resistance 339 in risk-off tape (account's #1 loser); short fights the only strong up-trend (long win-rate 0.75 vs short 0.47). Wait for pullback or confirmed breakout.",
+  "rationale": "AAPL is the outlier strength (+12% RS, ADX 43.6, 4h up) but overbought and stalling right under 339.17 resistance with dying volume and negative orderbook imbalance -0.33, while the 1h TF prints short (-0.191) and composite is not aligned. Buying here chases an extended move into resistance against a risk-off, pre-FOMC macro - the exact late-continuation setup this account keeps losing on. No range edge with resistance only 1.6% away and no short justified against the strongest horse, so HOLD until price offers a pullback long near 328-329 or a clean breakout above 339.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 339.17,
+    "expires_min": 240,
+    "note": "A decisive break and hold above 339.17 resistance on volume confirms trend continuation and turns this into a valid breakout long rather than a chase into a wall."
+  },
+  "transcript": {
+    "macro": "Risk-OFF and deteriorating (2026-07-17). S&P -1.0%, Nasdaq -1.4%; semiconductor/AI-capex scare. Rates unhelpful: 10Y 4.57%, Fed pause, June dots skew HIKES into July 28-29 FOMC. Bybit funding flat. Long/short AAPL 0.87 (least crowded long). Structure_bias AAPL -0.06. AAPL is the OUTLIER: RSI 73 (only strong name), +12.1% RS, long-leaning tape - but crowded-long broader positioning and orderbook imbalance -0.33 argue caution on fresh longs. Earnings 7/30 (outside window). Keep size modest into FOMC.",
+    "sentiment": "AAPL - no near-term catalyst; earnings Jul 30 (outside window). Tone modestly constructive: reclaimed $300+ on China memory-sourcing and AI-service approval headlines; offset by soft China smartphone market (-4.2% H1) and surging memory costs. Neutral for <=48h; scan's long bias not supported or contradicted by fresh news.",
+    "analyst": "AAPL overbought (RSI 73-76), pinned under 339 resistance on collapsing volume with orderbook imbalance -0.33 and 1h printing short; composite not aligned. Fresh long = chasing extended move into resistance against risk-off macro (account's #1 loser). Short fights the only strong up-trend (long 0.75 win vs short 0.47). No range edge with resistance 1.6% away. HOLD with armed price_above 339.17 breakout trigger.",
+    "portfolio": "AAPL: HOLD (conf 0.60) - strongest horse but overbought under 339 resistance; armed breakout long above 339.17."
+  },
+  "timestamp": "2026-07-17T20:36:30.413041+00:00"
+}

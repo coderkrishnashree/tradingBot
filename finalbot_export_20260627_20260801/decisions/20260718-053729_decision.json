@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "META/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Dead 15m tape pinned at 638-639 on near-zero volume; likely a small mean-revert bounce toward VWAP ~656-658 OR a slow grind lower toward support 626.46 into the weekend \u2014 no clean directional move near-term.",
+  "expectancy_note": "Short here chases a stretched move (RSI 24, -2.89% vs VWAP, %B 0.14) into bid-heavy orderbook \u2014 the account's proven loss pattern; no confirmed edge either way, p(win) < 0.5 on any entry. HOLD is highest expectancy.",
+  "rationale": "The 4h down-trend is real (ADX 75) but already extended and oversold, and the mid-TF candles are flatlined at 639 on 0.01-1.5 volume with zero continuation momentum. Structure is flat-to-contrarian (L/S 1.088, orderbook +0.257 bid-heavy) so a market short chases into support with no confirmation, and buying fights RISK-OFF macro. Thin OI (2,957), US-closed weekend and Iran gap risk add tail risk with no offsetting edge.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 626.46,
+    "expires_min": 240,
+    "note": "Losing support 626.46 with the oversold conditions reset on a retest would confirm a fresh short leg with a real level to lean the stop against, rather than chasing mid-air."
+  },
+  "transcript": {
+    "macro": "RISK-OFF tape: Fri Jul 17 tech-led selloff (Nasdaq -1.40%, week -2.9%) on semi rout + China AI (Moonshot) scare + US/Iran escalation. Rates a mild tailwind, DXY cooling. Supportive of shorts, hostile to longs, but confirmed shorts are deeply oversold. US cash CLOSED Sat Jul 18 \u2014 thin/gappy perps, weekend gap risk. All five scored short by scan, near-zero funding. META thin & stretched: structure_bias flat +0.05, orderbook +0.257 bid-heavy (mild contrarian AGAINST shorts), comm-services worst sector but positioning doesn't confirm.",
+    "sentiment": "No fresh 24-48h binary today; earnings Jul 29 (outside window). META real mover this month was Meta Compute AI-cloud launch (+8-10% intraday) & Iris chip \u2014 multi-quarter narrative, not 48h catalyst. Latest tone a fade: failed at resistance, Wedbush prefers Amazon, 2026 capex raised to $125-145B stoking AI-monetization worry. Bias neutral.",
+    "analyst": "Down-move already exhausted/stretched (RSI 24, -2.89% vs VWAP, %B 0.14). Shorting = chasing into extended oversold move + bid-heavy orderbook = account's #1 loss pattern. 15m tape completely dead (volume 0.01-1.5, pinned at 639), no continuation, no clean level to fade. Thin OI (2,957) gappy weekend. No honest edge either way. HOLD; arm short below 626.46.",
+    "portfolio": "HOLD META \u00b7 conf 0.60 \u2014 stretched & dead tape, no edge; re-arm short on loss of 626.46."
+  },
+  "timestamp": "2026-07-18T05:37:29.200120+00:00"
+}

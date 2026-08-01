@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "HOOD/USDT:USDT",
+  "size": 0.0,
+  "entry": 99.75,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.34,
+  "playbook": "none",
+  "forecast": "Frozen weekend tape (last 2 candles 0-volume at 99.75); price coils at the $100 psych level just above 96.68 support. Into Monday's open the crowded net-long book (L/S 1.599) + bid-heavy orderbook (+0.362) skew the first move toward a bounce/squeeze rather than a clean break down.",
+  "expectancy_note": "p(win) ~0.35 short; a short here risks the Monday-open squeeze and stops on a bounce off 96.68 support \u2014 negative expectancy. HOLD beats forcing a fade into frozen liquidity.",
+  "rationale": "HOOD is a tokenized equity and US cash market is CLOSED for the weekend \u2014 the tape is frozen/thin (last two candles are literally 0 volume) and the 4h RSI 2.7 / ADX 90 are stale artifacts, not real washout. The composite short is the model's weakest (p_win 0.319), and the crowded net-long book plus bid-stacked orderbook make any short entry squeeze-prone right on the $100 psych level above 96.68 support. No <=48h binary catalyst (earnings Jul 29). Best expectancy is to wait for real Monday liquidity: size 0.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 96.68,
+    "expires_min": 240,
+    "note": "A decisive break of 96.68 support on real (non-weekend) volume confirms downtrend continuation and clears the squeeze/bounce risk, validating a short."
+  },
+  "transcript": {
+    "macro": "Scan 2026-07-18 03:01 UTC = WEEKEND; US cash market CLOSED until Monday \u2014 tokenized-equity perps on stale/thin liquidity, frozen candles produce fake-extreme readings. Regime RISK-OFF: Fri S&P -1.01%, Nasdaq -1.4%, weekly Nasdaq -2.9% (semis + Netflix -11% led). Crypto soft: BTC ~$62.7k, Fear&Greed 27, dominance ~60%. HOOD: composite SHORT (-0.395, p_win 0.319, model's worst), L/S 1.599 net-long into downtrend = squeeze risk, orderbook +0.362 bid-heavy, btc_corr 0.517, rel_strength -5%. Weekend liquidity = size down or wait.",
+    "sentiment": "HOOD BEARISH near-term: -9% on week (-8.24% 7/16, -5.68% 7/17), grinding toward $100 support (96.68). Driver: crypto/fintech risk-off + Bloomberg report of $400-500M ABS (credit-card receivables) sale, balance-sheet scrutiny. Goldman Buy PT $137 (long-horizon only). NO <=48h binary; RSI washed out into support, crowded short = bounce risk.",
+    "analyst": "Textbook NO-TRADE. Frozen weekend tape (last 2 candles 0-volume), stale RSI 2.7/ADX 90. Composite short is weakest of the group (p_win 0.319). Crowded net-long book + bid-heavy orderbook make a short squeeze-prone right on the $100 psych level above 96.68 support \u2014 the account's exact late-short-into-support loss pattern. HOLD; flip to short only on a decisive break of 96.68 on real Monday volume.",
+    "portfolio": "HOOD: HOLD (conf 0.34) \u2014 no trade into frozen weekend tape; squeeze risk into $100."
+  },
+  "timestamp": "2026-07-18T03:06:01.337859+00:00"
+}

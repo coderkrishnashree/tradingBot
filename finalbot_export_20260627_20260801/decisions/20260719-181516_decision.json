@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "MSTR/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Washed-out on LTF (15m RSI 21) after a volume-flush 96->94.7; expect a mean-reversion bounce toward 95.4-95.8 within 2-4 bars before the risk-off/weak-BTC bias can press lower again.",
+  "expectancy_note": "Fresh short at 94.69 into RSI 21 is a chase (bounce hits stop first); learner shows shorts win only 0.47 / avg -0.87. Better to short the retrace where R:R and structure line up.",
+  "rationale": "MSTR is an equity tracker on a Sunday with US cash closed (thin, gappy) -- crypto structure muted, macro/sentiment lean bearish into weak BTC. But the last several 15m bars close at lows with LTF RSI 21-25, over-extended DOWN; a market short here enters right before a routine counter-bounce that trips any honest stop (the account's #1 loss pattern). No long either -- 4h overbought (RSI 70.4). Wait to short a bounce toward VWAP/broken support ~95.8.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 95.8,
+    "expires_min": 240,
+    "note": "A bounce back to ~95.8 resets LTF oversold and offers a clean short entry with stop above 96.3 toward 92-90."
+  },
+  "transcript": {
+    "macro": "Cycle 2026-07-19 (Sunday). Regime RISK-OFF/defensive, low-conviction. BTC ~$64.4k (3-wk high ~$65.1k on soft CPI + ETF inflows), Fear&Greed ~22-26 (extreme fear), BTC dominance ~58-60% elevated. Equities took a semiconductor-led hit (Nasdaq -1.5%), rotation OUT of chips. June CPI soft (3.5%) but market prices one 25bp HIKE in 2026. US cash equity market CLOSED (Sunday) -> all equity-tracking perps (META/MU/COIN/GOOGL/MSTR/SNDK/ORCL/CRCL) thin/gappy/mean-reverting. Earnings inside horizon: GOOGL Wed Jul 22 (hard avoid); META Jul 29, COIN/MSTR Jul 30 loom. Crowded-long SOL/CRCL/ORCL/MU -> squeeze risk. Backdrop favors reduced size, shorts/fades over fresh longs.",
+    "sentiment": "Fear&Greed extreme-fear crypto tape governs BTC/MSTR/COIN/CRCL/SOL. Per-name: META BEARISH near-term (earn Jul 29); MU bullish fundamentals (Q3 blowout) but extended/reversion risk; COIN neutral/two-sided BTC-beta; GOOGL CAUTION earnings Wed Jul 22 (~3d); MSTR bearish-leaning (BTC sale, liquidity engineering); BTC neutral fragile bounce, RSI 71 4h; SNDK bullish fundamentals (+707% YTD) but parabolic, earn Aug 5; ORCL neutral, badly overbought; CRCL bearish-leaning (USDC rev-share headwind, -27% YTD); SOL neutral, strong fundamentals vs weak lagging price.",
+    "analyst": "MSTR equity tracker, Sunday thin. Last 15m bars close at lows w/ LTF RSI 21-25 = over-extended DOWN; a market short enters right before a counter-bounce (account's #1 loss pattern). 4h overbought so no long. Short the bounce to ~95.8.",
+    "portfolio": "HOLD MSTR/USDT -- bearish bias but LTF washed out; short the bounce to ~95.8, not the flush low."
+  },
+  "timestamp": "2026-07-19T18:15:16.031245+00:00"
+}

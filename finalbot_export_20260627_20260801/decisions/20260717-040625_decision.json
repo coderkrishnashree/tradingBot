@@ -1,0 +1,22 @@
+{
+  "action": "short",
+  "symbol": "TSM/USDT:USDT",
+  "size": 2.5,
+  "entry": 405.6,
+  "stop_loss": 408.3,
+  "take_profit": 397.55,
+  "take_profit_1": 397.55,
+  "take_profit_2": 393.4,
+  "confidence": 0.58,
+  "playbook": "trend",
+  "forecast": "Price closed at its 15m low (403.52) in an accelerating downtrend; expect a short-covering bounce toward the broken 405.5-406 shelf within 1-3 bars, which fails there, then a leg down to retest support 397.55 and extend toward 393.",
+  "expectancy_note": "p(win)~0.55, R:R ~3.0 to TP1. Limit-on-retest beats a market short because the account's short/trend trades bleed (-0.74/-1.14 avg pnl) precisely from chasing extended tape; entering the bounce, not the hole, flips the edge.",
+  "rationale": "Strong multi-TF downtrend (1h ADX 47.7, RSI 30; 4h RSI 33.5), rel-strength -12.2% laggard, crowded L/S 2.20 longs (contrarian bearish) and structure_bias -0.248 all favor short into a hostile 'sell-the-good-news' semi tape. But last bar closed AT its low and RSI is stretched, so a market short chases into likely short-covering \u2014 the exact pattern that has lost on this book. I place a LIMIT at the 405.6 broken-shelf/VWAP-lean retest with a tight 2.7-wide stop above 408 congestion, targeting support 397.55 then 393.4 for ~3R. Size 2.5% for thin tokenized-equity tape and gap risk into US cash open.",
+  "transcript": {
+    "macro": "RISK-OFF, tech-led (Jul16: S&P -0.51%, Nasdaq -1.47%). Semi sector actively HOSTILE for longs / TAILWIND for shorts: TSMC blowout Q2 (profit +77% YoY, EPS 4.31 vs 3.80) but SOLD OFF ~4% on raised 2026 capex ($60-64B) = 'AI capex sustainability' fear; SMH -3.7%; 'sell the good news' tape. Premarket TSM ~-4%, semi complex trading as one correlated short. Rates mildly supportive (soft June CPI, July hike odds ~17%) but overwhelmed by sector story. TSM positioning: structure_bias -0.248, L/S 2.20 crowded-long (contrarian bearish), all higher TFs down, rel-strength -12.2% vs BTC. Funding=0, thin tokenized-equity tape, gap risk into US open. Env SUPPORTS short, blocks long; caution short-covering bounce given RSI 33 + real beat.",
+    "sentiment": "Semis in active risk-off unwind (SOX ~-15% from June22 peak, memory hit hardest, Chinese CXMT ~$10B memory-fab IPO oversupply scare). TSM: Q2 reported Jul16 (binary BEHIND us), fundamentals excellent (AI ~61% of rev, 3nm sold out, raised node pricing 5-10%) but shares fell >4% = 'sell the news' after +40% Q2 run. No fresh binary in 48h. TSM now trades as sector-beta short; news argues FOR the short / against longs.",
+    "analyst": "Learner: account shorts n=35 win 0.49 avg_pnl -0.74 (net losing); trend playbook n=31 avg_pnl -1.14 (bleeding); model_weights negative on vwap_dist/atr \u2014 chasing extended shorts LOSES. So express the bearish thesis via a patient LIMIT short on a retest, not a market entry into the hole. Limit 405.6 (broken shelf), stop 408.3, TP1 397.55, TP2 393.4; R:R to TP1 ~2.98.",
+    "portfolio": "TSM: SHORT (limit 405.6 retest) \u00b7 conf 0.58 \u00b7 size 2.5%"
+  },
+  "timestamp": "2026-07-17T04:06:25.418089+00:00"
+}

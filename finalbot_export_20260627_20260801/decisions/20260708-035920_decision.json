@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "META/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Illiquid off-hours drift; the bounce off 608 is on near-zero volume and the last 15m bar closed red at its low. Expect chop between 608-619 until the ~13:30 UTC US open, which sets the real direction with gap risk either way.",
+  "expectancy_note": "No trade beats both sides: long chases RSI-77 into 628 resistance with crowded L/S 1.8 (poor R:R); short fights the 4h uptrend/leadership on thin book with gappy-open risk. p(win) either <0.5.",
+  "rationale": "META is stretched (RSI 77 4h, %B 0.94) and pressed under 628 resistance with crowded longs and structure_bias -0.181 leaning against fresh longs \u2014 a bad long. But the recovery to 613 is illiquid off-hours drift, so shorting the exhaustion risks a gappy US open (~13:30 UTC) that could squeeze the packed shorts. No clean R:R either way; wait for the open to confirm. Size 0 \u2014 capital preservation in a hostile, thin tape.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 608.0,
+    "expires_min": 240,
+    "note": "Losing the 608 intraday low breaks the bounce structure and arms a short back toward VWAP/552 support."
+  },
+  "transcript": {
+    "macro": "Cycle 2026-07-08 03:55 UTC. Risk-OFF/defensive; BTC near 21-month low, dominance ~55.5%, Fear&Greed 27. Equities two-sided (Nasdaq +1.12% Jul6 then -1.16% Jul7 on chip scare). US cash CLOSED at scan \u2014 META tokenized-equity proxy, thin/gappy until ~13:30 UTC. META last 613.28, genuine tech name (BTC corr 0.353), LEADING (rel-str +9.24%) but STRETCHED: RSI 77, bb_pctb 0.94, under resistance 628, L/S 1.798 (crowded long), orderbook +0.195, structure_bias -0.181, thin OI 2,225. Regime: HOSTILE for fresh longs.",
+    "sentiment": "META (non-crypto relative safe-haven). Earnings July 29 (outside 48h). Q2 guide $58-61B rev; Q1 selloff was AI-capex raise to $125-145B. Sentiment 'Strong Buy,' recently +~8% on AI monetization/ad demand + India buildout. No <=48h binary; benefits from rotation OUT of crypto INTO AI/mega-cap; move risk Nasdaq beta. Lean: BULLISH on tape, technicals overbought/crowded.",
+    "analyst": "Bad long: RSI 77 / %B 0.94 under 628 resistance, crowded L/S 1.8, structure_bias -0.181. But recovery to 613 is illiquid off-hours drift (last 15m bar red at its low), so fading risks a gappy ~13:30 UTC open squeezing packed shorts. No clean R:R. HOLD, size 0. Trigger: losing 608 arms a short toward VWAP/552.",
+    "portfolio": "META \u2014 HOLD (conf 0.60): overbought/crowded long into resistance but bounce is illiquid; wait for US open."
+  },
+  "timestamp": "2026-07-08T03:59:20.169229+00:00"
+}

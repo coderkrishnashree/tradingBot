@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "COIN/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "After a +1.4% one-bar spike into resistance 168.65 with every TF RSI 90+ and stoch 98, expect a stall/pullback toward 164.6-165.0 (VWAP/breakout retest) over the next 2-4 bars before direction resolves; no clean edge to enter mid-air.",
+  "expectancy_note": "Chasing the long is negative-EV (extended >3.6% above VWAP, %B 1.16, bearish divergence, resistance 1.4% away); shorting a fresh high-vol breakout is the account's proven loser (shorts 46% win, -1.09). Best EV is wait.",
+  "rationale": "COIN just printed its strongest-volume 15m breakout of the set but into extreme exhaustion: RSI 72.7 (15m 93.8, 1h 91.7), stoch 98, %B 1.157, +3.65% above VWAP, bearish divergence, and hard resistance at 168.65 only ~1.4% overhead. A market long here is exactly the late-chase pattern that has bled this book, and a short into a fresh momentum spike on a flat 6.8%-confidence composite has no confirmation and shorts have been losing. Crypto-equity that will gap on the thin pre-US-open into a risk-off macro adds gap risk. No honest 1.5R setup exists right now, so HOLD is the highest-expectancy call.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 168.65,
+    "expires_min": 240,
+    "note": "A clean break and hold above resistance 168.65 proves continuation past the exhaustion and would justify re-debating a pullback long toward VWAP."
+  },
+  "transcript": {
+    "macro": "Regime: RISK-OFF / HAWKISH. Fed rate HIKE being priced, yields rising on oil-driven inflation (US-Iran), firmer dollar. Crypto cautious: BTC ~$66k capped, dominance high, soft crypto tape. Derivatives lopsided long (crowded, contrarian negative). Pre-US-open: tokenized equities thin/gappy, reprice on US open. Size guidance: REDUCE. COIN-specific: 15m breakout (166.28, vol_ratio 4.39 - strongest volume confirmation in the set), corr 0.63 BTC. Crypto-equity, will gap on US open. Momentum there but levered to a soft crypto tape; high-beta, size down.",
+    "sentiment": "Binaries cluster 7/28-30. COIN reports Q2 July 30 after close (outside 48h). COIN: event-flagged, neutral into it; leveraged crypto beta until earnings 7/30. No imminent binary this cycle.",
+    "analyst": "Strongest-volume breakout of the set but into extreme exhaustion (RSI 90+ every TF, stoch 98, %B 1.157, +3.65% VWAP, bearish divergence) with resistance only 1.4% overhead - market long is the late-chase loss, short of a fresh spike on a flat composite has no confirmation and shorts lose. Plus US-open gap risk. HOLD; reconsider a pullback long only on a clean break/hold above 168.65.",
+    "portfolio": "COIN: HOLD (0.60) - high-vol breakout but exhausted into resistance/gap; wait for 168.65 hold."
+  },
+  "timestamp": "2026-07-21T08:34:23.220858+00:00"
+}

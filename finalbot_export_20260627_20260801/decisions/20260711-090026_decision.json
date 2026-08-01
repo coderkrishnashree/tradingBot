@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "BTC/USDT:USDT",
+  "size": 0.0,
+  "entry": 64227.2,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Fading momentum near 64,286 into resistance 64,703; expect a stall/pullback toward VWAP ~63,600-63,800 over the next 2-6 bars before any retest of 64,703. No clean long entry until either a decisive break-hold above 64,703 or a flush to the pullback zone.",
+  "expectancy_note": "Long here: ~+476 to resistance vs ~-380 honest stop = R:R ~1.25, below 1.5 floor, and RSI 80/ADX 75/+1.96% VWAP = chasing (account's #1 loser). Short fights ADX 74.9 + strong bid. HOLD is best expectancy.",
+  "rationale": "BTC is a stretched bounce, not a fresh trend: RSI 79.9, ADX 74.9, stoch 83.3, +1.96% over VWAP, pressing resistance 64,703 with fading volume and a rejection wick on the last bar. Market-entering a long here is exactly the late-into-stretched-tape pattern that has bled this book (trend playbook 44% win, -2.89 avg PnL); R:R to a likely-rejecting resistance is only ~1.25. With hot-skewed June CPI Tuesday as a 24/7 air-pocket, the disciplined move is to wait for either a confirmed breakout above 64,703 or a pullback to VWAP for a proper R:R.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 64703.2,
+    "expires_min": 240,
+    "note": "A decisive break and hold above resistance 64,703 converts the stretch into a real breakout, justifying a long with a measured-move target and stop back inside the base."
+  },
+  "transcript": {
+    "macro": "Regime MIXED-to-RISK-OFF, hawkish Fed (61% Sept hike odds), end-July FOMC binder. BTC ~$64.2k is a recovery off a fresh 21-month low; ETFs worst month ever (-$4.5B June), Coinbase Premium negative 50 straight days = weak US spot demand. BTC.D 56.3%. Structure near-neutral (bias +0.025), funding flat, L/S 1.336 (mild long crowd), orderbook +0.505 (strong bid) carrying the bias. Overbought/extended: RSI 79.9, ADX 74.9, at resistance 64,703 \u2014 stretched bounce, smaller size / quick management.",
+    "sentiment": "Dominant <=48h binary for all three: June CPI Tue July 14 8:30 ET, hawkish-skewed (May CPI hot 4.2%). BTC tone cautiously improving off washed-out base: +10-15% in July, ETF flows flipped positive (+$46.6M), weak 57k payrolls revived rate-cut hopes under new Fed Chair Warsh, but Fear & Greed only 26. Near-term news mildly SUPPORTS the long, but hot CPI Tuesday is a real 24/7 air-pocket.",
+    "analyst": "Stretched bounce, not fresh trend. Long at 64,227 to resistance 64,703 (+476) vs honest stop ~63,850 (-377) = R:R ~1.25, fails 1.5 floor into likely-rejecting resistance; RSI 80/ADX 75/+1.96% VWAP = chasing (book's #1 loser). Short fights ADX 74.9 + strong bid. HOLD with reconsider armed on a break-hold above 64,703 (breakout) or a flush to VWAP pullback zone for proper R:R.",
+    "portfolio": "BTC: HOLD (conf 0.60) \u2014 no honest R:R at RSI-80 into resistance; wait for breakout above 64,703 or a VWAP pullback."
+  },
+  "timestamp": "2026-07-11T09:00:26.908242+00:00"
+}

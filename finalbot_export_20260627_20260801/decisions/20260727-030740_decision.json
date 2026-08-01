@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "XAG/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.4,
+  "playbook": "none",
+  "forecast": "Coil 59.2-60.2 into FOMC; sellers defended 60/61 (rejection then bleed to 59.41), but no clean break - expect chop, then a directional resolution only on the Wed 2pm ET print.",
+  "expectancy_note": "Both sides ~0.45-0.5 p(win) with sub-1.5R: long chases RSI 87.5 into 61 resistance pre-binary; short fights ADX 93 uptrend + crowded-long that hasn't capitulated (the exact late-fade pattern this account's short book loses on). HOLD is highest expectancy.",
+  "rationale": "Silver is at the top of its range under $60/$61 resistance, 4h RSI 87.5 overbought, pure XAUT beta (corr 0.87, no relative strength), directly gated to FOMC Wed. The candles show a rejection at 60.18 and a steady bleed to 59.41 but no honest short entry that clears 1.5R before the 58 shelf, and a long is chasing into resistance ahead of a two-sided event. No edge, no size - wait for the FOMC resolution or a clean level break.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 61.0,
+    "expires_min": 240,
+    "note": "A reclaim and hold above 61.0 clears the rejection high / range top and turns the coil into a breakout-continuation long; losing it keeps price trapped in the 59-61 range with no edge."
+  },
+  "transcript": {
+    "macro": "2026-07-27: Mixed-to-hostile, event-gated. FOMC Wed 7/29 2pm ET is the dominant catalyst for metals. Oil >$100, yields near 2026 highs, DXY ~101 softer on day. Crowd lopsided-long, maxed funding across gold/equity complex -> smaller size. XAG: composite long but weak/not aligned, corr XAUT 0.87 (pure metals beta), L/S 2.58 crowded; Fed hold largely priced.",
+    "sentiment": "Silver ~$58-60, one of 2026's strongest commodities, tested $60 then sellers stepped in, ~50% of ATH. Direct FOMC sensitivity Wed 7/29; hold largely priced (~80% Sept hike odds still), hawkish surprise a headwind; supply deficit + AI demand support dips. Two-sided into Wed.",
+    "analyst": "Top of range under $60/$61, 4h RSI 87.5 overbought, pure XAUT beta, gated to FOMC Wed. Rejection at 60.18 then bleed to 59.41 but no short that clears 1.5R before the 58 shelf; long chases into resistance pre-binary. No edge - HOLD, reconsider long on a reclaim/hold above 61.0.",
+    "portfolio": "XAG: HOLD - coiling under $61 into FOMC, no edge either side."
+  },
+  "timestamp": "2026-07-27T03:07:40.515994+00:00"
+}

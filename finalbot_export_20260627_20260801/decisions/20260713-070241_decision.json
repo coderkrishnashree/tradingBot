@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "META/USDT:USDT",
+  "size": 0.0,
+  "entry": 661.63,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.3,
+  "playbook": "none",
+  "forecast": "Choppy basing 658-663 near VWAP; recent bars (658.5->659.8->661.2->661.6, higher lows) favor a drift up toward 664-666 into thin off-hours, no clean directional leg before CPI.",
+  "expectancy_note": "No edge: shorting into 1h RSI 23.5 + a live oversold bounce = chasing (account's #1 loser); not at a BB extreme (%B 0.40, at VWAP) so no fade; balanced book + RS-leader + closed US tape + CPI in ~12h all cut expectancy below the 1.5R bar.",
+  "rationale": "META is the weakest short of the group: RS +17.45% leader mid-pullback, balanced L/S 0.943, structure_bias -0.065 near-neutral, and price is already bouncing off the 657.85 low back to VWAP rather than breaking down. With US cash closed, thin gappy off-hours, and June CPI ~12h out as the dominant binary, there is no honest 1.5R setup either way; standing aside is the highest-expectancy choice. Size 0.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 657.85,
+    "expires_min": 240,
+    "note": "Losing the basing low breaks the oversold-bounce structure and opens a real short toward the 650s; a clean loss of it (not a wick) would flip me short."
+  },
+  "transcript": {
+    "macro": "Timing: scan ~06:57 UTC = ~02:57 ET Monday pre-dawn; US cash CLOSED, perps thin off-hours, gap risk into 09:30 ET. Regime RISK-ON equities (S&P +>1% on week, META best week since 2024 ~+15%); crypto offered BTC 62,757, RSI 22-28, ADX ~75. META BTC corr 0.36. Catalysts: June CPI Tue 7/14 08:30 ET (~12h out) dominant; Q2 earnings opens 7/14; META earnings ~7/29 (outside 48h); FOMC 7/28-29 hold. Positioning: funding 0, L/S 0.943 (only BALANCED book of the three), OB imbalance -0.28, structure_bias -0.065 near-neutral, RS +17.45% (strongest leader), 1h RSI 23.5 oversold. Read: pullback in a strong uptrend, NOT broken \u2014 weakest short case. Verdict: MIXED tilting short but META weakest short; low-conviction, smaller size, don't carry into CPI.",
+    "sentiment": "META MIXED/choppy; headline risk is AI-spend skepticism. Earnings 7/29 (outside 48h). Whippy tape: Zuckerberg 7/2 town-hall said AI bets 'haven't come to fruition yet' dropped shares ~5%; then Meta Compute cloud/AI push popped it ~8-10% on 7/10. Still +~19% on month. Overhang: capex guided $125-145B (~88% higher YoY) keeps 'spending-without-payoff' narrative alive. No \u226448h binary. Scan short bias (1h RSI 23, 4h short) but strong RS argues against pressing shorts. Tilt: NEUTRAL.",
+    "analyst": "Weakest short of the group: RS +17.45% leader mid-pullback, balanced L/S 0.943, structure_bias -0.065, and price already bouncing off 657.85 back to VWAP (higher lows 658.5->659.8->661.2->661.6) rather than breaking down. Shorting into 1h RSI 23.5 + a live bounce is chasing (account's #1 loser); not at a BB extreme so no fade edge. Closed US tape + CPI ~12h out = no honest 1.5R setup either way. HOLD; short only on a clean loss of 657.85.",
+    "portfolio": "META: HOLD (size 0, conf 0.30) \u2014 RS leader, no edge shorting strength; reconsider short only below 657.85."
+  },
+  "timestamp": "2026-07-13T07:02:41.035203+00:00"
+}

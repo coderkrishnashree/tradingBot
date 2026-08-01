@@ -1,0 +1,25 @@
+{
+  "action": "hold",
+  "symbol": "NVDA/USDT:USDT",
+  "size": 0.0,
+  "entry": 195.97,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "expectancy_note": "Short into RSI 14.2 at support off-hours = squeeze donation; long bounce has no confirmation (no bull div, 5m still -0.536). Neither clears R:R 1.5 with ATR 0.21%. HOLD is highest expectancy.",
+  "rationale": "NVDA is in an extreme oversold flush (RSI 14.2, ADX 78.9) pinned at support 195.33 with US cash CLOSED, so both directions are traps: shorting chases an exhausted move into a level with high squeeze risk, and buying a falling knife lacks any reversal signal on thin, gappy liquidity. Tiny ATR (0.21%) means any structure-respecting stop crushes R:R below 1.5. Crowded-long structure (L/S 1.93, funding +0.0003) into weakness argues against a naive long, while the exhaustion argues against a fresh short \u2014 I wait for real price discovery at the 13:30 UTC open.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 195.33,
+    "expires_min": 240,
+    "note": "A clean break of support 195.33 (ideally into/after the cash open) validates trend continuation and reopens a momentum short; holding above keeps the oversold-bounce thesis alive instead."
+  },
+  "transcript": {
+    "macro": "Regime MIXED, hawkish Fed = headwind for high-multiple names. STRUCTURAL FLAG: scan taken 00:44 UTC while US cash market CLOSED \u2014 tokenized-equity perps thin/gappy off-hours, gap risk at ~13:30 UTC open \u2192 smaller size. NVDA: last 195.97, composite SHORT 35.7%, EXTREME oversold RSI 14.2 (5m), ADX 78.9, bb %b 0.21, at support 195.33. Funding +0.0003 (longs paying), L/S 1.93 crowded long into weakness (structure_bias -0.41). Low BTC corr 0.14. AI/semis fundamentals strong; no stock-specific catalyst in 48h; pullback looks technical. Read: MIXED / caution on shorts \u2014 high squeeze/gap risk; long mean-reversion plausible.",
+    "sentiment": "NVDA NEUTRAL on news, oversold; no near-term catalyst. Next earnings Aug 26 2026 (outside cycle). Scan shows sharp intraday flush (RSI 14.2, pinned near support 195.33) \u2014 technical washout, NOT a news event. Direction news-neutral. Short bias purely technical; oversold + no bad news = bounce risk against shorts. No scheduled event risk in 48h.",
+    "analyst": "Conflict setup: momentum short aligns with the tape but RSI 14 at support in a closed-cash thin book is a squeeze donation; the oversold-bounce long has zero confirmation (5m still -0.536, no bull div). Tiny ATR (0.21%) makes any structure-respecting range trade sub-1.5 R:R. Highest expectancy is to wait for real price discovery at the 13:30 UTC open; a clean loss of 195.33 reopens the momentum short.",
+    "portfolio": "NVDA/USDT:USDT \u2014 HOLD (conf 0.60); no-trade, wait for cash-open discovery, short trigger below 195.33."
+  },
+  "timestamp": "2026-07-06T00:49:23.943857+00:00"
+}

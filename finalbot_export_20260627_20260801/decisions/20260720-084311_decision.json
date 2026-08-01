@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "QQQ/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.58,
+  "playbook": "none",
+  "forecast": "Thin pre-open chop 697-700; the bounce is stalling right under the 700.4 swing high (last bar closed 698.93 at its low), likely a small fade to retest 696-697 before the 09:30 cash open sets real direction.",
+  "expectancy_note": "No edge at a level: price mid-range (688 sup / 727 res), RSI 63.9 not extreme, %B 0.84 off the band; shorting the thin bounce = account's worst playbook (short win 0.49, -0.84 avg pnl), chasing the fading long risks the standard counter-bounce stop-out. Best EV is to wait for the cash-open resolution.",
+  "rationale": "US equities are closed and this tokenized perp is thin/gappy until 09:30 ET, so any pre-open move is low-conviction and a cash-open gap dominates the next few hours. Price is stalling under 700 mid-range with no extreme and near-neutral structure (bias -0.078, L/S balanced, funding flat), so neither a mean-reversion fade nor a trend entry clears R:R 1.5 to a real level. With shorts bleeding this account and chasing being the #1 loss pattern, sitting flat and letting the 09:30 print pick a side is the highest-expectancy choice.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 696.1,
+    "expires_min": 240,
+    "note": "Losing the recent 696.14 swing low breaks the pre-open bounce and confirms the fade resuming toward 688 support \u2014 a clean short setup with a defined level."
+  },
+  "transcript": {
+    "macro": "Regime MIXED/cautious. US cash closed pre-open; tokenized perps thin/gappy until 09:30 ET. Semi slide drove last week's selloff; Mon futures modestly green = bounce-in-downtrend. Rates supportive (cool CPI, HOLD priced). Crypto weak (BTC low-$60k, Fear=36). Positioning CROWDED LONG across equity perps. QQQ cleanest: funding ~flat, L/S 1.041 balanced, structure_bias -0.078, but rel-strength -14.4% vs BTC, semis-heavy into semi selloff + tech-earnings week.",
+    "sentiment": "QQQ cautious-to-soft, off ~2.4% over two weeks, hawkish Fed capping upside. Warsh testimony + CPI this week are macro binaries that can gap the index; front edge of Mag-7 AI earnings. No QQQ-specific \u226448h event but headline-driven. Net mildly AGAINST fresh longs.",
+    "analyst": "Price 698.93 stalling under 700 / 700.4 swing high, closed at range low; mid-range 688 support / 727 resistance. RSI 63.9, %B 0.84 \u2014 no extreme, no edge at a level. Shorting a thin bounce = account's worst playbook; chasing the fade risks counter-bounce stop-out. Neither clears R:R 1.5. HOLD; 09:30 cash open sets direction. Flip short on loss of 696.1.",
+    "portfolio": "QQQ: HOLD (conf 0.58) \u2014 no edge pre-open; wait for 09:30 cash-open resolution."
+  },
+  "timestamp": "2026-07-20T08:43:11.219905+00:00"
+}

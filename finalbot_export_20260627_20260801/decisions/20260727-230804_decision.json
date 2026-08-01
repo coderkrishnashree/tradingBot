@@ -1,0 +1,23 @@
+{
+  "symbol": "BTC/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.5,
+  "size": 0,
+  "entry": 63712,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "rationale": "Regime is chop (ADX 0.9, composite regime_blocked flat) and price is maximally oversold on LTF (15m RSI 5.6, 5m RSI 2.7, stoch 4.1) right on 63,626 support with a strong defending bid (orderbook +0.70) \u2014 the worst spot to initiate either direction. A market short faces an imminent counter-bounce (the account's #1 loss pattern); a market long faces continuation risk with no confirmation. FOMC Wed keeps the tape in a pre-Fed holding pattern. Best expectancy is to wait for the level to break or reclaim; size zero.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 63625,
+    "expires_min": 240,
+    "note": "Losing 63,626 on a 15m close breaks the defended support/bid wall, confirming continuation toward 63,300/63,000 \u2014 arm a short on the retest rather than chasing the flush."
+  },
+  "transcript": {
+    "macro": "Regime risk-OFF. BTC ~63,712, fresh 15m breakdown short, funding barely positive (+2.7e-5), L/S 2.80 (crowded long->contrarian, supports downside), orderbook +0.70 (strong bid defending 63,626 support), structure_bias +0.07 (mixed), chop ADX 0.9, dominance ~57%, Extreme Fear. Verdict: SHORT-biased but bid defending support \u2014 no chase, wait for break or reclaim.",
+    "sentiment": "The ONE catalyst is FOMC Wed Jul 29 \u2014 pre-Fed holding pattern; also Coinbase/Strategy earnings + protocol upgrades mid-week, CLARITY Act recess deadline. Consolidating mid-$64k, recovered from ~$58k lows, rejecting $66.8-67k, F&G ~29. Verdict: NEUTRAL \u2014 no pre-Fed directional edge.",
+    "analyst": "3-bar waterfall into 63,626 support, LTF maximally oversold (RSI 5.6/2.7) into a heavy bid wall (+0.70). Shorting = late-short-into-stretched-tape; longing a knife with no reversal bar = premature. HOLD until 63,626 breaks (short the retest) or 64,184 reclaims (bounce long).",
+    "portfolio": "HOLD BTC \u2014 oversold on defended support; wait for the level to break or reclaim."
+  },
+  "timestamp": "2026-07-27T23:08:04.077945+00:00"
+}

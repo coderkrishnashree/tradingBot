@@ -1,0 +1,25 @@
+{
+  "action": "hold",
+  "symbol": "ORCL/USDT:USDT",
+  "entry": 144.45,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "size": 0.0,
+  "confidence": 0.55,
+  "playbook": "none",
+  "expectancy_note": "Long-at-support bounce is plausible (RSI 29.9, %B 0.015, best RS +2.42%) but pre-open gappy tape + crowded long (L/S 2.21, +funding) + rolled-over 5m/15m = wait-for-confirm; blind entry is negative expectancy.",
+  "rationale": "ORCL sits on support 143.78 (0.46% away), oversold, into a risk-on tech open with dovish payrolls tailwind and top-of-group relative strength - a real bounce candidate. But this is a thin pre-cash-open scan with gap risk, short-term momentum still rolling over, and crowded long positioning (L/S 2.21 + positive funding) working against a fresh long. Better to wait for the 09:30 open to confirm a support hold/VWAP reclaim rather than guess the open print; no size until then.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 145.5,
+    "expires_min": 240,
+    "note": "Post-open reclaim above VWAP/the rolled-over 5m-15m zone confirms the oversold bounce with risk-on tape - flips to a long; a break of 143.78 instead kills the thesis."
+  },
+  "transcript": {
+    "macro": "Tokenized US equities - judge on Nasdaq/tech tape, not BTC. Scan taken ~07:15 ET, pre-09:30 cash open; wrappers thin/gappy, structure low-conviction. Regime modestly RISK-ON for tech (Nasdaq futures +1.1%, chips/AI leading; June payrolls missed 57k vs 115k = dovish). ORCL: scan long (+0.236) but NOT aligned (0.8); structure_bias -0.442 (most negative) from crowded long L/S 2.21 + positive funding; OI healthy 9173; HTF long (4h +0.489) but 5m/15m rolled over (RSI 29.9, near support 143.78). No earnings inside 48h. Favor smaller size, wait for cash open.",
+    "sentiment": "ORCL neutral-to-constructive, NO near-term binary catalyst. Q4 FY2026 already reported June 10 (big beat, cloud +47%, FY27 ~$90B reaffirmed); next earnings Sep 14 - outside window. Trades on broad tech/AI-capex sentiment. Near-term news neutral; let price/technicals lead.",
+    "analyst": "Last 144.45, on support 143.78 (0.46% away), RSI 29.9 oversold, %B 0.015, VWAP -0.74%. 5m/15m rolled over hard while 4h/30m lean long. Crowded long (L/S 2.21) + positive funding is fuel against a fresh long; momentum still rolling over; pre-open gap risk. A short makes no sense against risk-on tape at oversold support. HOLD, armed to flip long on a support reclaim/hold above ~145.5 post-open, stand down if 143.78 breaks. Learner stats too thin (4 samples).",
+    "portfolio": "HOLD ORCL - wait for cash-open confirmation of the oversold support bounce; conf 0.55."
+  },
+  "timestamp": "2026-07-06T11:19:48.179308+00:00"
+}

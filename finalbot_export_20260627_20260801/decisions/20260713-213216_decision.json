@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "SOL/USDT:USDT",
+  "size": 0.0,
+  "entry": 74.42,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.34,
+  "playbook": "none",
+  "forecast": "Price pinned on 74.37 support after a 616k-volume flush; stoch 1.2 / RSI 25 / %B<0 mean the next 2-4 bars likely chop or dead-cat bounce toward 75.1-75.3 before direction resolves. Either a decisive hourly close below 74.37 opens the next leg down toward ~72.5, or it holds and squeezes shorts (funding negative) back to VWAP ~76.7.",
+  "expectancy_note": "Shorting at stoch 1.2 on support into negative funding = the account's proven loser (late short, ~0.44 win rate high-ADX); longing knife into ADX 72 downtrend + CPI is worse. No 1.5R either way at spot, so wait for the level to break or reclaim.",
+  "rationale": "SOL sits exactly on 74.37 support, maximally oversold (RSI 25.4, stoch 1.2, price 2.97% below VWAP, below lower BB) inside a strong ADX-72 downtrend. Funding is negative and retail is net-long 2.6x (crowd already short-fuel / long-trapped), so a fresh short here has terrible expectancy - a routine bounce hits any honest stop first. Bearish catalysts (BonkDAO/exploit) and CPI tomorrow argue against a long knife-catch. HOLD until the tape confirms a break or reclaim; no clean R:R exists at 74.42.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 74.2,
+    "expires_min": 240,
+    "note": "A decisive hourly close below the 74.37 support proves the flush is continuing, not exhausting - reactivates the short toward ~72.5 with the trend."
+  },
+  "transcript": {
+    "macro": "Risk-OFF. SOL mixed/neutral: ~$74-78, +~20% on the month but stalling under $80; BTC soft ~$62k and SOL BTC-corr 0.79 (mostly BTC-beta). No crypto risk-on tailwind; funding flat-to-negative. Scan composite ~flat (conf 6.8). June US CPI tomorrow Jul 14 08:30 ET.",
+    "sentiment": "Bearish/heavy, fresh negative catalysts already moving price. SOL ~$74, -7.6% on the week. Live overhangs: BonkDAO $20M governance attack (Jul 7), separate $14.2M genesis-wallet exploit, Phantom wallet degraded performance, lingering SEC litigation. Offsetting: spot SOL ETF decision could land 'as soon as July' (Morgan Stanley, 0.14% fee) - real but UNDATED binary. Near-term supports shorts unless ETF prints.",
+    "analyst": "Scan: last 74.42, support 74.37 / resistance 83.77, ADX 72.3, RSI 25.4, stoch 1.2, %B -0.10 (below band), vwap -2.97%, funding negative, long/short 2.589. Price pinned ON support, maximally oversold; shorting here into negative funding = account's #1 loss pattern; long is a knife-catch into ADX-72 downtrend + CPI + bearish catalysts. HOLD; reconsider short on a decisive close below 74.2.",
+    "portfolio": "SOL: HOLD (conf 0.34) - pinned on support, maximally oversold with negative funding; no clean R:R either way. Reconsider short below 74.2 or squeeze back to VWAP ~76.7."
+  },
+  "timestamp": "2026-07-13T21:32:16.538547+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "action": "short",
+  "symbol": "XAUT/USDT:USDT",
+  "size": 2.5,
+  "entry": 4033,
+  "stop_loss": 4046,
+  "take_profit": 3985,
+  "take_profit_1": 4008,
+  "take_profit_2": 3985,
+  "confidence": 0.6,
+  "playbook": "trend",
+  "forecast": "Lower-highs grinding under VWAP ~4036; expect one more bounce toward 4033-4036 that fails, then a roll back through the 4021 low toward 4008 and on to 3985 within 4-8 bars.",
+  "expectancy_note": "p(win)~0.6, R:R 1.9 to TP1 / 3.7 to TP2; trend-continuation beats a fade because all 4 TFs are short-aligned (ADX 32) and the 2.789 L/S crowded-long book above VWAP is short fuel.",
+  "rationale": "XAUT is the cleanest short on the board: composite -0.501, structure_bias -0.356, price below 21DMA (4098) with a 2.789 L/S long book overhead and sell-lean orderbook (-0.188). Rather than chase the current dip (only -0.28% vs VWAP, not stretched), I sell the VWAP retest at 4033, stop 4046 above the 4040 swing/VWAP reclaim (~$13 risk), targeting the 4008 shelf then 3985 above hard support 3981. Size held to 2.5% because shorts have lagged for this account and a Middle-East safe-haven bid is the tail risk; a decisive VWAP reclaim invalidates it.",
+  "transcript": {
+    "macro": "Overall RISK-OFF/DEFENSIVE, countertrend BTC bounce; crowded longs + flat/negative funding = mean-reversion/squeeze, fade extension. XAUT is the outlier - only target where structure AND composite both lean SHORT: composite -0.501, structure_bias -0.356, funding ~0, OI 33,383, L/S 2.789 (very long-crowded - contrarian short fuel), orderbook -0.188 (sell-lean); XAUT last 4024.8, below 21DMA ~4098; rising yields + firmer USD are headwinds, the CPI pop is countertrend. btc_correlation 0.453, rel-strength -9.53% (worst-lagging, on own gold drivers). Desk lean SHORT over hours-to-days - cleanest contrarian setup; risk = safe-haven bid on a risk reversal.",
+    "sentiment": "Relief rally off Jul 15 CPI/PPI miss; live <=48h wildcard Warsh. Spot gold ~$4,024-4,038, holding above $4,000; tug-of-war between safe-haven bid (Middle East risk) and dollar/real-rate headwinds. Soft CPI weakened DXY (gold-supportive) but Fed ~66% hold July and ~50% Sep hike priced (gold-negative). Sentiment leaning bearish short-term; JPMorgan cut Q4 2026 gold target ~25% (from $6,000 to $4,500). No dated gold-specific <=48h binary; Middle-East flare-up is the tail risk that flips it.",
+    "analyst": "XAUT is the board's cleanest short: all 4 TFs short-aligned (ADX 32), price sub-21DMA/VWAP, crowded 2.789 L/S long book overhead as fuel, sell-lean book. Not extended (-0.28% vs VWAP) so no chase - sell the VWAP retest at 4033, stop 4046 (~$13 risk), TP1 4008 / TP2 3985. Size 2.5% given shorts have lagged for this account and a safe-haven bid is the tail risk.",
+    "portfolio": "SHORT XAUT/USDT:USDT @ 4033, stop 4046, TP 4008/3985 - cleanest contrarian short, size 2.5%."
+  },
+  "timestamp": "2026-07-16T06:05:55.796483+00:00"
+}

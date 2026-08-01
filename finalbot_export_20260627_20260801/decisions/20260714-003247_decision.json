@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "AAPL/USDT:USDT",
+  "size": 0.0,
+  "entry": 317.4,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.62,
+  "playbook": "none",
+  "forecast": "Coils 316.5-318.2 into the 8:30am CPI print, then a binary spike either way; base case is a shallow drift toward VWAP/317 with rejection at the 318.2 upper band unless CPI cools and momentum reclaims 318.2 for a run at 323.2.",
+  "expectancy_note": "p(win) ~0.5 both ways: long chases RS strength into a hot-CPI binary + risk-off tape (neg EV), short fades an intact ADX-45 uptrend with RSI 58 and orderbook bid support (no exhaustion) \u2014 no R:R>=1.5 setup, so flat beats both.",
+  "rationale": "AAPL is the relative-strength name (RS +8.4%, btc-corr 0.22, 4h up ADX 45) but sits stalled at the upper band with the last two 15m bars rejecting 318.2 on a weaker close \u2014 no fade edge (RSI 58, not overbought, VWAP-flat, orderbook +0.47) and no long edge into a binary June CPI at 8:30am ET on a RISK-OFF tape with tokenized-equity gap risk. Structure is soft, not crowded, so there is no crowded-long fuel to fade either. The single decision-relevant event is inside the window and binary; sitting flat until it resolves is the highest-expectancy play. Size 0.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 318.25,
+    "expires_min": 240,
+    "note": "Reclaiming and holding the coil high post-CPI turns the upper-band stall into a fresh momentum leg toward 323.2, making the RS name a long worth taking."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF/defensive: Jul 13 S&P -0.79%, Nasdaq -1.55% on US-Iran escalation, oil surging. DXY firm >101, 10yr ~4.57%, Fed hawkish (~62% odds of a Sept HIKE, no 2026 cuts). LIVE EVENT: June CPI drops TODAY Jul 14 8:30am ET \u2014 binary for rates/USD. Positioning broadly long-skewed into a falling tape. AAPL verdict: STAY-OUT (lean short-only, small) \u2014 rare relative-strength name but environment (risk-off, semis cratering, CPI today) is the problem, not the chart; structure soft not crowded, no clean edge.",
+    "sentiment": "AAPL tone strongly bullish/euphoric: fresh record high Jul 13 (+~16% since Jun 25) on Broadcom chip-supply deal (to 2031), iPhone 17 supercycle, record Services, 'AI restraint' narrative. Dominant binary is Q3 FY2026 earnings after close Thu Jul 30 \u2014 ~16 days out, OUTSIDE the hours-to-2-day window. Inside 48h no Apple-specific binary; rides broad tape + CPI. Stock extended/overbought into a crowded long \u2014 chasing has poor risk/reward. Near-term tilt: mildly BULLISH momentum but extended.",
+    "analyst": "Last 317.4 at upper BB (%B 0.907), ADX 45 up-trend, RSI 58.6 (not overbought), VWAP-flat, orderbook +0.47 bid-supported, long/short 0.90 (mildly short-skewed, NOT crowded long). 15m coiled 317.0-317.6 then popped to 318.25 and rejected on weaker closes (317.85 -> 317.40). Not a clean short (uptrend intact, no exhaustion) and not a clean long into a binary CPI at 8:30am ET on a risk-off tape with gap risk. Both directions negative-expectancy \u2014 HOLD is highest EV. Flip trigger: reclaim/hold above 318.25 toward 323.2.",
+    "portfolio": "AAPL/USDT:USDT \u2014 HOLD, size 0, conf 0.62: relative-strength name stalled at upper band into a binary CPI on a risk-off tape; no edge either way, wait for the 318.25 breakout."
+  },
+  "timestamp": "2026-07-14T00:32:47.325993+00:00"
+}

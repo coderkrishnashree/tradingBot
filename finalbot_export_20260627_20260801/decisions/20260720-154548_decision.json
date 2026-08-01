@@ -1,0 +1,28 @@
+{
+  "symbol": "MSFT/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.6,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "none",
+  "forecast": "Overbought lower-TF grind (RSI 77, stoch 88) stalls into 398-400; expect chop/small fade back toward VWAP ~395 over the next 2-4 bars rather than a clean run at 406. No directional edge until 406.14 breaks or 378 support/VWAP is lost.",
+  "expectancy_note": "ADX 5.6 chop, regime-blocked, composite flat 5.1%; a long chases stoch 88/RSI 77 into thin equity tape (the account's #1 loss pattern), a short fights an intact drift with no reversal signal \u2014 no setup clears R:R >= 1.5.",
+  "rationale": "MSFT is in a low-ADX chop, mid-range between support 378 and resistance 406, melting up into short-term overbought (15m RSI 77.4, stoch 88.6) with crowd already long (L/S 1.99). There is no honest 1.5R entry: a long chases a stretched move with a distant target, and a short has no exhaustion/divergence trigger. Macro says MSFT is only a lower-beta relief-bounce vehicle with no 48h catalyst, and earnings Jul 29 argues against building naked size here \u2014 HOLD is the highest-expectancy action.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 406.14,
+    "expires_min": 240,
+    "note": "A 15m close above 406.14 resistance turns this chop into a real breakout with a measured-move long; below that there is no edge."
+  },
+  "transcript": {
+    "macro": "Regime MIXED, relief bounce 2026-07-20 into event risk. ~53% odds Sept Fed HIKE, oil ~$90 on Iran. MSFT: defensive mega-cap, low crypto-corr, least semi-exposed of the group. Neutral-to-supportive for longs as a lower-beta way to play an up tape; no near-term binary in the 48h window (earnings Jul 29 is OUTSIDE window but the dominant upcoming event \u2014 do not hold naked size over Jul 29). Smaller size.",
+    "sentiment": "MSFT NEUTRAL now, HIGH binary Jul 29 (earnings after close, outside 48h). Guidance was Azure +39-40% cc, rev $86.7-87.8B (midpoint slightly below consensus). Nothing MSFT-specific to trade in the next two days; riding the AI-tape risk-off today. Neutral into the print.",
+    "analyst": "Low-ADX chop (ADX 5.6, regime-blocked, composite flat 5.1%), mid-range between 378 and 406, melting up into short-term overbought (15m RSI 77.4, stoch 88.6) with crowd long 1.99. No honest 1.5R entry: long chases a stretched move with a distant target, short has no reversal trigger. No 48h catalyst, earnings 7/29 argues against naked size. Hold until a 406.14 break turns chop into a real breakout.",
+    "portfolio": "HOLD MSFT \u2014 low-ADX chop, no edge; a 406.14 break is the only trigger."
+  },
+  "timestamp": "2026-07-20T15:45:48.076388+00:00"
+}

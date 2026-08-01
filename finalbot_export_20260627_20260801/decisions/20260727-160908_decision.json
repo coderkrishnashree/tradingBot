@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "TSM/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.55,
+  "playbook": "none",
+  "forecast": "Bounce off 389.34 support / below-band extreme continues 1-3 bars toward the 398-401 broken-support-turned-resistance (VWAP overhead ~+2.7%); either it stalls there for a clean trend-short re-entry, or 389.34 breaks and the waterfall resumes toward the low-380s.",
+  "expectancy_note": "Short is directionally right but entry is wrong: price is oversold (1h RSI 19.8, %B<0), on support, printing higher-low + two green bars into L/S 2.71 crowded-long squeeze fuel ahead of FOMC. Learner: shorts 0.45 win/-0.85 pnl, rel_strength weight -0.346 \u2014 chasing weak names has bled. Waiting for the retest beats a ~40% market short.",
+  "rationale": "TSM is the epicenter of the semis rout and trend is clearly down (ADX 47.5, all TFs short), but price sits ON 389.34 support below the lower Bollinger band with 1h RSI at 19.8 and a fresh higher-low bounce underway \u2014 market-shorting here shorts directly into the counter-bounce the account keeps dying to. With L/S at 2.71 (squeeze fuel) and FOMC Wed as a relief catalyst, the honest edge is to SHORT the retest of 398-401 (broken support/VWAP), not chase the low. HOLD until price either offers that bounce entry or breaks 389.34 to confirm continuation.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 389.34,
+    "expires_min": 240,
+    "note": "Losing 389.34 support voids the bounce thesis and confirms the waterfall resumes \u2014 re-debate for a trend-continuation short toward the low-380s."
+  },
+  "transcript": {
+    "macro": "RISK-OFF, event-gated. Semis in freefall. TSM SHORT (with caution): epicenter of today's semis rout \u2014 RSI 19-33 across TFs, rel-strength -10%, AI-capex fear. Direction right but ALREADY deeply oversold and L/S 2.71 crowded long (squeeze risk on Fed relief). Tighten size.",
+    "sentiment": "TSM fresh weakness, no imminent binary. Already reported (Jul 16-17): record Q2 (net profit +77%, raised FY26 guide >40%) yet stock fell ~15% on the month on margin/capex concerns + broad SOX ~20% correction. Earnings already out \u2014 no new binary inside 48h. Supports the scan's SHORT bias.",
+    "analyst": "Trend clearly down (ADX 47.5, all TFs short) but price sits ON 389.34 support below the lower band (1h RSI 19.8) with a fresh higher-low bounce underway \u2014 market-shorting shorts into the counter-bounce the account keeps dying to. L/S 2.71 squeeze fuel + FOMC relief risk. Short the retest of 398-401, not the low. HOLD; reconsider on a break below 389.34.",
+    "portfolio": "HOLD TSM \u2014 right trend, wrong price on support; short the bounce to 398-401 or a break of 389.34."
+  },
+  "timestamp": "2026-07-27T16:09:08.271048+00:00"
+}

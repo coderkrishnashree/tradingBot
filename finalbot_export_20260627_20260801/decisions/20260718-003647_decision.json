@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "INTC/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.4,
+  "playbook": "none",
+  "forecast": "Price is stalling near 93.99 on fading volume after a tired down-leg; over the next few bars either a dead-cat bounce back toward VWAP ~97-98, or a clean break of 89.76 support that opens the next leg to ~85. Neither a market short here (stretched -4.3% below VWAP, 30m RSI 13.6) nor a long has edge yet.",
+  "expectancy_note": "Market short at 93.99 is the account's #1 loss pattern: oversold laggard (RS -32.68 penalized -0.414, vwap -4.3% penalized -0.292) stopped by the counter-bounce; short win-rate here 0.47/-0.87R, p_win 0.31. Waiting for the support break or a VWAP retest gives a real 1.5R+ setup.",
+  "rationale": "INTC is the deepest semi laggard with trapped longs (L/S 2.185) and a clean bearish structure, so the directional bias is down, but it is already stretched 4.3% below VWAP with 30m RSI 13.6 and 4h RSI 25.4 into fading volume near the low of the leg. Chasing a short here into a thin/closed US market invites the bounce that hits a 3% ATR stop before 89.76 support (4.5% away) is reached, and the earnings wall Wed 7/23 (~15% implied) caps how long I can safely hold. HOLD and arm a support-break trigger so a fresh continuation leg re-enters with room, rather than paying up mid-air on the worst-performing signal profile for this book.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 89.76,
+    "expires_min": 240,
+    "note": "Losing 89.76 support confirms a fresh continuation leg (not a stretched mid-air entry), re-arming a short toward ~85 with a stop back above the level for real R:R."
+  },
+  "transcript": {
+    "macro": "RISK-OFF for tech, semis leading the selloff. Nasdaq -2.9% on the week, SOX bear market. Macro backdrop supportive (soft CPI, Fed hike odds ~17%, FOMC outside window). Funding ~0. Scan taken while US cash CLOSED -> thin/gappy, gap risk at open. INTC: 93.99, RS -32.68% (WORST laggard), highest OI of group (37,510), most liquid, L/S 2.185 heavily long into falling price = TRAPPED LONGS, structure_bias -0.313, 4h RSI 25.4, ATR 3% -> size for volatility. Highest-conviction bearish STRUCTURE of the group.",
+    "sentiment": "Overall RISK-OFF semis (SOX bear market, Chinese Moonshot AI). INTC Q2 earnings AFTER CLOSE Wed July 23 (~2pm PT), options pricing ~15% move - a hard EVENT-RISK WALL. INTC down ~17-21% in the last week on the semi rout -> downside momentum favors the short RIGHT NOW, but the horizon runs toward a coin-flip earnings print (18A yield / foundry commentary can gap violently either way). Near-term = bearish tape but keep size tight; do NOT hold a short blind into the print.",
+    "analyst": "Directional bias down (deepest laggard, trapped longs, clean bearish structure) but already stretched -4.3% below VWAP, 30m RSI 13.6, 4h RSI 25.4 into fading volume near the low of the leg. Chasing a short into a thin/closed market invites the bounce that hits a 3% ATR stop before 89.76 support (4.5% away). Learner p_win 0.307 (worst in set) confirms this profile bleeds. HOLD; arm a short on a clean loss of 89.76 for a with-trend continuation entry.",
+    "portfolio": "HOLD INTC - highest-conviction structure but stretched into fading volume + earnings wall 7/23; reconsider short on loss of 89.76."
+  },
+  "timestamp": "2026-07-18T00:36:47.262660+00:00"
+}

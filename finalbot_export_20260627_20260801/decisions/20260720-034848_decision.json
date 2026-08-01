@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "MSTR/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.55,
+  "playbook": "none",
+  "forecast": "Coil 95.5-95.9 likely drifts down to retest VWAP/94.0 as the 96.64 spike unwinds; only a volume reclaim of 96.65 reopens upside toward 98-100.",
+  "expectancy_note": "No positive-expectancy entry: long is +2.03% above VWAP into a rejected spike (vwap_dist, structure_bias, rel_str all negative in the account model) = chase; short fights bullish divergence + the account's long-edge with no confirmed breakdown. p(win) either side <0.5.",
+  "rationale": "MSTR is a 0.74-BTC-beta equity proxy and BTC is capped/chopping under 65,566 with no fuel, while MSTR printed a 96.64 spike that was immediately rejected and has rolled into lower highs with net-offered orderbook (imbalance -0.154) and mild bearish structure bias. Buying now chases +2% above VWAP pre-cash-open with double gap risk. Highest expectancy is to wait for a dip into VWAP (~94) where the bullish 15m divergence and the account's long edge (0.73 win) would pay, or a volume reclaim of the spike high.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 94.2,
+    "expires_min": 240,
+    "note": "A pullback into the VWAP zone unwinds the extension and turns the bullish divergence into a long-able discount rather than a chase."
+  },
+  "transcript": {
+    "macro": "Environment MIXED, HOSTILE for tech/chip longs. Semiconductor-led equity selloff (Nasdaq -2.9% wk). Crypto cautious/range-bound: BTC ~$64.8k capped at 65,566, Fear&Greed 26. Mon Jul 20, US cash open 13:30 UTC; equity perps thin/gap-prone pre-open. Funding flat; L/S crowded-long across the book. MSTR: corr 0.74 to BTC, rel-strength -3.0%, L/S 1.36 (only mildly crowded). Trades as levered BTC-beta AND a US equity -> double-exposed (weekend gap + BTC direction), size down.",
+    "sentiment": "US tech RISK-OFF, chip-led bear market. Crypto in FEAR, no <=48h catalyst (FOMC Jul 28-29 out). MSTR NEUTRAL/mixed regime-shift: Strategy PAUSED bitcoin buying and is SELLING (~3,588 BTC, raised $467M, building $3B cash reserve) -> removes the reliable bid narrative, mildly bearish structurally. Really a levered BTC play; no unlock/hack.",
+    "analyst": "Composite long is thin confluence (only 30m TF strong, and that's stale from a rejected 96.64 spike). Price +2% above VWAP after the spike rolled into lower highs with net-offered orderbook; learner model penalizes exactly this stretched-above-VWAP long profile. BTC itself capped with no fuel. No clean entry; HOLD armed to buy a pullback to VWAP ~94 or a volume reclaim of 96.65.",
+    "portfolio": "MSTR -> HOLD (conf 0.55): rejected spike, extended above VWAP, BTC proxy with no fuel; wait for the dip to ~94."
+  },
+  "timestamp": "2026-07-20T03:48:48.040491+00:00"
+}

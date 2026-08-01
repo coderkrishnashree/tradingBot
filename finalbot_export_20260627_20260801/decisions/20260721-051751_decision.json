@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "GOOGL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Thin-liquidity grind stalling at 356; expect chop/fade back toward 353.2-354, but no clean directional edge before Wed AMC earnings.",
+  "expectancy_note": "No positive-expectancy entry: long overbought (bb%b 0.93, 4h RSI 70, +1% VWAP) chasing into a 48h earnings binary; short fights multi-TF long alignment + bid-heavy book. Best EV is flat.",
+  "rationale": "GOOGL reports Wed Jul 22 AMC \u2014 a hard binary within the holding window with gap risk, and price is extended near the upper Bollinger band into it while US cash is closed (thin, unreliable ticks). Multi-TF is long-aligned (30m/1h/4h) so a fresh short is counter-trend against a +0.66 orderbook bid, while a fresh long is exactly the late-continuation chase that has bled this account. Standing aside preserves capital until a clean structure break or post-print clarity; size 0.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 353.2,
+    "expires_min": 240,
+    "note": "Losing the intraday base/VWAP support breaks the grind-up structure and opens a day-trade short toward 350 closable before the Wed print."
+  },
+  "transcript": {
+    "macro": "Risk-OFF/defensive, hawkish Fed (holds 4.25-4.50%, hike chatter, ~2% cut odds now/~62% Sep). Active multi-day semiconductor rout (SOX technical bear market) from TSMC capex guide-up + Chinese AI-model fears. BTC ~$65k soft (Fear&Greed 29), trading with equities. CL geopolitical bid (US-Iran/Hormuz, Brent>$90), headline-whippy. Equity-tracker liquidity thin while US cash closed (scan @05:08 UTC). Calendar: GOOGL+TSLA earnings Wed Jul 22 AMC. Backdrop favors shorts/smaller size/quick holds; long tech is counter-trend.",
+    "sentiment": "Two drivers: US-Iran war (Brent>$90, ~20% MTD, two-way gap risk) + Big Tech earnings week. GOOGL is a hard 48h binary \u2014 reports Wed Jul 22 AMC (~4:30pm ET call), consensus ~+21% rev/~+26% EPS, focus Cloud margins + AI capex. Do NOT hold naked directional over the print; day-trade only, flatten before Wed close.",
+    "analyst": "GOOGL 355.04: 4h RSI 70.3 overbought, bb_pctb 0.926 near upper band, +1% VWAP; multi-TF long-aligned (30m 0.86, 1h 0.4, 4h 0.41) but structure_bias -0.109 and last 15m bars fading (356.07 high rolling to 355.04). L/S 1.612 (crowded long), orderbook +0.66 bid-heavy. Decisive factor = Wed AMC earnings binary + risk-off rout; long is a chase into overbought+gap risk (the book's #1 loss pattern), short fights the long alignment/bid book. No clean EV either way. HOLD, armed to short a loss of 353.2.",
+    "portfolio": "GOOGL \u2014 HOLD (conf 0.60): flat into Wed AMC earnings binary; short trigger below 353.2."
+  },
+  "timestamp": "2026-07-21T05:17:51.977729+00:00"
+}

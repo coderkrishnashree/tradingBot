@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "GOOGL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.55,
+  "playbook": "none",
+  "forecast": "Slow low-volume bleed to 357.07 with 5m RSI 29 and 30m RSI 31 leaves the tape stretched short-term over a +0.41 bid; expect a mean-revert bounce toward VWAP/prior-support 359.5-360.5 within 2-6 bars before the 4h downtrend can resume, so a fresh short here gets bounced into any honest stop.",
+  "expectancy_note": "Short at 357 gives R:R only ~1.35 to support 351.78 with a noise-safe stop, and 5m/30m RSI ~30 is peak bounce-risk; waiting to short a bounce to ~360 lifts R:R above 2 and resets momentum \u2014 far better expectancy than chasing.",
+  "rationale": "GOOGL is the only bearish name (4h -0.895, ADX 62, composite short) but is already stretched to the downside on 5m/30m RSI ~30 with buyers stacked underneath (+0.41 orderbook), and the account's ledger shows late trend-shorts are the #1 loss pattern (shorts 0.47 win, trend playbook -2.89 avg). Market is closed this weekend into a CPI Tuesday landmine, so the honest move is to wait for the bounce to short with proper R:R rather than chase a low-volume flush into support. Size 0 \u2014 no edge at this price.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 359.8,
+    "expires_min": 300,
+    "note": "A bounce back to VWAP/broken-support ~360 resets RSI and offers a short with R:R>2 down to 351.78 \u2014 the high-expectancy re-entry for the intact 4h downtrend."
+  },
+  "transcript": {
+    "macro": "MIXED. GOOGL only bearish-tilted name (composite short -0.35, 4h down, RSI 39, ADX 62). Lowest BTC correlation (0.127) so moves on own equity story, -2.27% vs BTC. Orderbook flipped +0.41 (buyers under it) vs L/S 1.8 crowded long = mixed micro. Closed market (Saturday) + July 23 earnings drift + CPI Tuesday. Shorts have the trend but on a thin weekend book keep size modest, don't fade the +0.41 bid blindly.",
+    "sentiment": "GOOGL neutral-to-soft, catalyst out of window. ~$357, down ~12% from May ATH (~$408) on AI-capex/margin worries ($80B AI infra raise) and antitrust risk (DOJ cross-appeal, Chrome divestiture). Analysts still Strong Buy (~$382 avg PT, long-horizon). THE binary is Q2 earnings Thu July 23 \u2014 well outside 48h. Near-term news NEUTRAL/slightly negative; scan direction short, no <=48h positive catalyst to fight it.",
+    "analyst": "GOOGL genuinely has the bearish trend (4h -0.895, ADX 62, lowest BTC corr so its own equity story), but entering short at 357.07 is textbook chasing: 5m RSI 29.3, 30m 31.3, 15m 36.1 all stretched, price bleeding on collapsing volume (last bar 0.18), +0.41 orderbook bid underneath \u2014 a counter-bounce is the highest-prob next move and would stop out any honest short before the trend resumes. R:R to support 351.78 with a noise-safe stop (~361) is only ~1.35, below the 1.5 floor. Learner confirms account bleeds on this pattern (late trend shorts, 0.44 win / -2.89 avg). Closed weekend + CPI Tuesday argue patience. HOLD with a price_above 359.8 trigger to short the bounce with clean R:R.",
+    "portfolio": "GOOGL: HOLD (conf 0.55) \u2014 bearish trend but short-term stretched short into a bid; armed short trigger on a bounce to ~359.8."
+  },
+  "timestamp": "2026-07-11T14:30:35.159987+00:00"
+}

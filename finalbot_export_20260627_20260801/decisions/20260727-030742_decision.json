@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "QQQ/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Coils 690-694 chopping around VWAP into FOMC/mega-cap earnings; failed 696 pop already retraced, no directional edge. Expect two-sided whipsaw, not a clean move, until 683.9 or 696.3 breaks.",
+  "expectancy_note": "No entry clears R:R 1.5 with an honest stop: composite long 47.7% is too weak to buy into crowded-long maxed funding + binary events, and account shorts bleed (46% win, -0.82 avg) with orderbook stacked bid and price already off lows. Best expectancy is flat into event risk.",
+  "rationale": "QQQ is the most event-exposed name this cycle (FOMC Wed, MSFT/META Wed, AAPL/AMZN Thu, all <48h) in an explicitly mixed/hostile regime. Price is mid-range coiling around 692 after a failed 696 spike, MTF is conflicted (15m flat/RSI40, 1h barely long), and funding is maxed against a lopsided-long crowd. No structural setup offers positive expectancy versus the whipsaw risk, so flat is the highest-EV position.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 683.88,
+    "expires_min": 240,
+    "note": "Losing support 683.88 confirms the crowded-long flush and validates a short with trapped longs; a reclaim of 696.3 conversely would prove bulls bought the dip into the events."
+  },
+  "transcript": {
+    "macro": "2026-07-27: Mixed-to-hostile, event-gated. FOMC Wed 7/29 2pm ET; MSFT/META Wed close, AAPL/AMZN Thu close. Nasdaq lost 2.1% last week on chip selloff + Iran/oil. Sunday relief bounce. Oil >$100. Crowd lopsided-long, maxed funding -> fade crowded longs. QQQ is the Nasdaq proxy - eats both the FOMC and the entire megacap cluster; most event-exposed name.",
+    "sentiment": "QQQ = pure Mag-7 earnings + FOMC proxy. Off a -2.1% weekly Nasdaq drop on chips + Iran/oil; with MSFT/META Wed and AAPL/AMZN Thu plus FOMC it has maximal two-sided event risk in 48h. Reduced size / expect whipsaw, not a clean lean.",
+    "analyst": "Most event-exposed name this cycle in a mixed/hostile regime. Mid-range coiling ~692 after a failed 696 spike, MTF conflicted, funding maxed against a lopsided-long crowd. No structural setup beats the whipsaw risk. HOLD; reconsider on losing 683.88 (short) or reclaiming 696.3 (bulls).",
+    "portfolio": "QQQ: HOLD - most event-exposed name, mid-range chop; stay flat."
+  },
+  "timestamp": "2026-07-27T03:07:42.591363+00:00"
+}

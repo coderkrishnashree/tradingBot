@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "MU/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.35,
+  "playbook": "none",
+  "forecast": "Last bar is a high-volume upper-wick rejection (open 866.7, high 867.3, close 859.1, low 857.2) at the top of a +2% bounce; expect chop between the 853 launch base and the 867 rejection high over the next few thin weekend bars, resolving down toward 853/VWAP only if 853 breaks.",
+  "expectancy_note": "Two-sided: 4h bullish divergence (bounce) vs crowded longs 2.14 + RS -33% + semi bear market (fade). Learner: shorts 0.46 win/-0.91 avg here vs longs 0.70/+3.16 \u2014 shorting into thin gappy weekend tape is negative-expectancy; no clean level touch for a long either.",
+  "rationale": "MU bounced +2% on the 4h bullish divergence but the final, highest-volume bar decisively rejected 867 and closed near mid-range (support 805.8 / resistance 1006), so neither a countertrend long into a hostile semiconductor sector nor a short into thin, gap-prone weekend liquidity has clean R:R. The account's shorts have been losing (0.46 win, -0.91 avg) and structure/RS are bearish while a live divergence keeps the bounce alive \u2014 a genuine two-sided coin. Best expectancy is to wait for the 853 base to break (confirms the rejection fade) before committing size.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 853.0,
+    "expires_min": 240,
+    "note": "Losing the 853 launch base voids the bounce and confirms the 867 rejection is rolling over \u2014 arms a short with the bearish sector, crowded longs, and negative RS."
+  },
+  "transcript": {
+    "macro": "2026-07-19 Sun ~23:07 UTC \u2014 WEEKEND, US cash equities CLOSED; all tokenized-equity pairs on thin weekend liquidity and will GAP at Monday open \u2014 size DOWN across the board. Tape = semiconductor bear market (SOX >20% off June peak, chips shed ~$3.3T on 'AI-needs-less-compute' fears from Kimi K3); Nasdaq -2.9% wk, S&P -1.5%. Backdrop favors fading crowded semi longs over fresh longs. Crypto weak/risk-off: BTC ~$64.5k relief bounce off a 21-month low, dominance ~56-60%, June record -$4.5B BTC ETF outflows; BTC 4h RSI72/ADX71 extended but funding flat & OI not confirming (bounce, not durable trend). TSM beat + raised guide yet sold off (crowded-long unwind, L/S 2.47). INTC/MU/SNDK = epicenter of the rout, crowded longs (L/S 2.1-2.6) into a falling knife, deeply negative RS. META is the relative outperformer (RS +4.9%). EWY (Korea) whipsaw, BoK first hike since Jan-2023 (+25bp to 2.75%), semi-heavy/gappy. MSTR = BTC-beta (0.74 corr). Net: environment does NOT broadly support fresh longs; only META + a tactical BTC/MSTR bounce lean small-long; weekend gap risk overrides all.",
+    "sentiment": "2026-07-19 \u2014 Friday 7/17 closed risk-off on a semiconductor rout (SOX ~-13% in a month); FOMC Jul 28-29 (hold expected). US markets CLOSED (Sunday), equity pairs thin/gappy. HARD catalysts: INTC Q2 earnings Jul 23 (~4 days \u2014 do NOT hold size into it); META Q2 Jul 29; FOMC Jul 28-29. Per name: META bearish/caution tilt; TSM bullish fundamentals (Q2 beat Jul 16, +36% YoY) but sell-the-news + sector-contagion risk, lean neutral/cautious-long; QQQ neutral (heavy earnings week, GOOGL/TSLA Jul 22); BTC bullish tilt / cleanest long (ETF inflow reversal +$191M ending 10-day outflow streak, CLARITY Act optimism); EWY HIGH caution two-sided (Samsung+SK Hynix ~half of KOSPI, swinging 6-9%/day); SNDK bearish/caution (NAND +200% in 3mo then -15% on the month, RSI 21 = knife-catch); INTC hard-catalyst high caution; MU bearish/caution (memory, record DRAM ASPs but -10%+, 4h bullish divergence = bounce signal); MSTR neutral BTC-proxy (started SELLING BTC ~$216M, booked $8.3B Q2 digital-asset loss).",
+    "analyst": "Bounced +2% on 4h bullish divergence but the final, highest-volume bar rejected 867 (close 859 near mid-range). Two-sided coin: divergence keeps the bounce alive vs crowded longs 2.14, RS -33%, semi bear market. Account shorts bleed (0.46 win) so fading thin weekend tape is negative-EV; no clean long level either. Wait for a 853 base break to confirm the fade.",
+    "portfolio": "HOLD MU \u2014 two-sided (live divergence vs bearish structure); no clean R:R; short on a 853 break."
+  },
+  "timestamp": "2026-07-19T23:15:09.354210+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "action": "buy",
+  "symbol": "XAG/USDT:USDT",
+  "size": 2.5,
+  "entry": 58.35,
+  "stop_loss": 57.75,
+  "take_profit": 59.85,
+  "take_profit_1": 59.05,
+  "take_profit_2": 59.85,
+  "confidence": 0.6,
+  "playbook": "trend",
+  "forecast": "Shallow dip to retest the 58.35-58.45 base/VWAP shelf, then resume the 4h uptrend toward the 59.0 pivot and on to 59.8 over the next 4-10 bars; base holds above 57.9.",
+  "expectancy_note": "p(win)~0.6, R:R to TP1 = (59.05-58.35)/(58.35-57.75)=1.17 base but ratchet+TP2 lift blended; longs win 65%/+1.6R for this book vs shorts bleeding. Trend-pullback beats fading a genuine ADX 39 uptrend.",
+  "rationale": "4h is a genuine aligned uptrend (score 0.9, ADX 39.4, RSI 65) and price is NOT extended: at VWAP (+0.26%), mid-Bollinger (%B 0.56), 5m RSI pulled back to 37.5 - the healthy pullback the trend playbook wants, not a chase. I use a limit at 58.35 (base/VWAP retest) rather than market to avoid buying the 58.57 wick, stop below the 57.9 base (~1.5x ATR), first target the 59.0 pivot with ratchet then 59.8. Size trimmed to 2.5% because L/S 3.968 is extremely crowded long (flush risk, structure_bias -0.297) and FOMC July 29 is a ~48h binary - respect the event, but longs are this account's proven edge (65% win).",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 57.75,
+    "expires_min": 240,
+    "note": "loses the base/stop; invalidates the pullback-in-trend thesis and confirms a crowded-long flush is underway"
+  },
+  "transcript": {
+    "macro": "Broad regime: cautiously risk-on, low-conviction, gated by FOMC July 29 (no dot plot -> tone risk). FedWatch ~34% odds of a HIKE. DXY ~101.4 stalling (tailwind for metals). XAG ~$58.51. Scan 4h long (score 0.9, RSI 65.2, ADX 39.4 genuine uptrend); multi-TF aligned long. L/S 3.968 - VERY lopsided long, OB imbalance +0.011. structure_bias -0.297 (crowding = contrarian risk). OI large (457k). Structural bull story: silver up ~144% into 2026, LBMA consensus $79.57, JPM base $81, industrial/AI/solar demand. Near-term swing = real yields/DXY; dovish/hold FOMC eases real-yield pressure & supports silver; hawkish is main downside. Cleanest structural long of the three but crowded -> size discipline, don't chase, respect FOMC gate.",
+    "sentiment": "FOMC July 28-29 decision Wed 2pm ET = biggest ~48h binary. June CPI cooled (3.5%), weak jobs -> dovish/hold lean. Wall St sold off Fri July 24 (AI-capex, US tariffs, Brent >$100 Middle East) = risk-off/inflation-scare. XAG: 6th consecutive annual supply deficit (~46Moz), 58% industrial demand, 2026 consensus $79-81 well above spot ~$58 (long-horizon). Near-term driver entirely FOMC + real yields; soft CPI/jobs pushed real yields down, lifted silver above $62 earlier July. Safe-haven bid from Middle East tensions/oil >$100 - supportive now. Net: near-term neutral-to-supportive for a long; FOMC binary is the swing - size for event risk.",
+    "analyst": "Genuine aligned 4h uptrend (ADX 39.4, RSI 65) and price NOT extended - at VWAP (+0.26%), mid-BB (%B 0.56), 5m RSI 37.5 = the healthy pullback the trend playbook wants. Limit buy 58.35 (base/VWAP retest) to avoid the 58.57 wick, stop below 57.9 base (~1.5x ATR), TP1 59.05 pivot with ratchet, TP2 59.85. Size trimmed to 2.5% because L/S 3.968 is extremely crowded long (flush risk) and FOMC July 29 is a 48h binary - but longs are this book's proven edge (65% win).",
+    "portfolio": "XAG/USDT:USDT -> BUY/long (conf 0.60): trend-pullback long, limit 58.35, stop 57.75, TP 59.05/59.85, size 2.5% for FOMC + crowded-long risk."
+  },
+  "timestamp": "2026-07-26T07:04:20.593230+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "QQQ/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.55,
+  "playbook": "none",
+  "forecast": "Price is pinned at stoch 2 / 1h RSI 15.5 just 6 pts above 701.84 support; base case is a relief bounce toward the 709.5-710.5 shelf (VWAP ~719) over the next few bars before the downtrend can resume \u2014 shorting 707.7 here is chasing into exhaustion, and a break of 701.84 is the real continuation trigger.",
+  "expectancy_note": "p(win) on a fresh 707.7 short ~0.45 \u2014 bounce risk into stoch 2 above support kills honest stops; better to wait for a reject at 709-710 or a break under 701.84. HOLD beats chasing.",
+  "rationale": "All-TF down and heavy, but the move is over-extended (1h RSI 15.5, stoch 2.0, %B 0.02) sitting only ~0.83% above 701.84 support \u2014 the account's #1 loss pattern is late shorts into stretched tape stopped by the routine bounce. Structure is near-neutral (long_short 0.807, not crowded long) and CPI-cool sentiment is a genuine equity bull tailwind in US hours, so a fade lower from here lacks edge. No long either: trend is down with no reclaim. Wait for either a bounce-reject at the 709-710 shelf or a decisive break of 701.84 to short with real R:R.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 701.84,
+    "expires_min": 240,
+    "note": "Losing 701.84 support on a 15m close confirms downtrend continuation (no longer oversold-into-support), opening a clean short toward the next leg with support flipped to resistance."
+  },
+  "transcript": {
+    "macro": "REGIME mixed, risk-off in tech. Nasdaq rolling over on semis weakness (TSM -4% despite 77% beat, AI-capex skepticism). US cash equities OPEN. QQQ: LEAN SHORT (best-aligned macro short) \u2014 last 707.7, all TFs down, RSI 15-37, at support 701.8, low BTC corr 0.25 (own driver). Modest size short with support 702 as line; watch oversold bounce (stoch 2).",
+    "sentiment": "QQQ (Nasdaq-100): BULLISH tailwind, catalyst already fired. June CPI cool (headline -0.4% m/m), July Fed hike odds collapsed to ~17% from 42%; Nasdaq rallied +0.62% Jul 15, money into mega-cap tech. Equity proxy \u2014 thin/gappy outside US cash hours. No fresh <=48h binary (next Sept Fed). News argues mildly FOR longs / against shorts. NOTE: macro (weak tape) and sentiment (CPI tailwind) conflict.",
+    "analyst": "QQQ last 707.69, steady 15m grind down 712.79->707.69, ADX 30 trending, all TFs down. BUT extremely oversold fast TFs: 1h RSI 15.5, stoch 2.0, %B 0.02; only ~5.85pts (0.83%) above support 701.84. Shorting here chases into exhaustion right above support. Structure near-neutral (L/S 0.807), CPI-cool sentiment is a bull tailwind in US hours. No long (no reclaim). HOLD; reconsider on decisive break of 701.84.",
+    "portfolio": "QQQ: HOLD (0.55) \u2014 heavy but over-extended into support with a CPI tailwind; wait for break of 701.84 or a 709-710 reject."
+  },
+  "timestamp": "2026-07-16T18:08:41.759760+00:00"
+}

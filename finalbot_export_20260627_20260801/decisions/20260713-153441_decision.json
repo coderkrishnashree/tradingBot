@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "SOL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Price coiling 75.9-76.3 just above 75.05 support after a 5m bounce; likely chops/drifts toward VWAP ~76.9 over next few bars. A clean break-and-hold below 75.05 opens 74.0; a reject at 76.9-77.5 is the honest short entry \u2014 neither is triggered yet.",
+  "expectancy_note": "Short p(win) ~0.45 here (learner: shorts 46%/-1.67, trend 45%/-2.51). Market-shorting into a bounce off support = the account's #1 loser (late short, stopped by bounce). No R:R>1.5 setup at spot; wait for retest or breakdown.",
+  "rationale": "Higher-TF is short (1h -0.9, 4h -0.47) but 5m flipped +0.9 bouncing off 75.05 and price reclaimed 76.1 \u2014 immediate momentum is up, not down, so a market short is chasing into a bounce. Highest BTC corr in book (0.79) means this is pure BTC-beta with CPI tomorrow (48h binary) \u2014 no independent edge worth risking size on. The clean short is a rejection at VWAP/77.5 or a decisive loss of 75.05; both are pending, so no honest R:R>=1.5 exists at spot. HOLD until the level resolves.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 75.0,
+    "expires_min": 240,
+    "note": "Losing the 75.05 support that just held on a closing basis breaks the bounce and confirms the higher-TF short \u2014 re-debate for a short toward 74.0."
+  },
+  "transcript": {
+    "macro": "RISK-OFF tape (2026-07-13 15:28 UTC). US\u2013Iran strikes, Hormuz closed -> oil spiking, rate-HIKE fears, firm DXY. Equities/crypto down. June CPI TOMORROW (July 14) = major 48h event risk. Funding ~0, L/S lopsidedly long (weak contrarian tell). Basket is one macro trade -> smaller size, tight risk. SOL: supports SHORT but it's the crypto risk proxy (MIXED); HIGHEST BTC corr (0.79) \u2014 really trading BTC direction.",
+    "sentiment": "US\u2013Iran/Hormuz shock; broad crypto drawdown. SOL: NEUTRAL. Catalysts (Firedancer v1.0 testnet, Morgan Stanley low-fee ETF filings, Alpenglow upgrade) are Q3+ multi-week narratives, NOT <=48h. No unlock cliff or hack in window. Near $76; near-term a beta-to-BTC play \u2014 no catalyst to lean on.",
+    "analyst": "Higher-TF short (1h -0.9, 4h -0.47) but 5m flipped +0.9 bouncing off 75.05 and price reclaimed 76.1 = immediate momentum up, so a market short chases into a bounce (account's #1 loser). Highest BTC corr (0.79) = pure BTC-beta with CPI tomorrow binary \u2014 no independent edge. No honest R:R>=1.5 at spot. HOLD; short a reject at VWAP/77.5 or a decisive loss of 75.05.",
+    "portfolio": "HOLD SOL \u2014 bouncing off support as BTC-beta into CPI; no independent edge, re-arm on loss of 75.0."
+  },
+  "timestamp": "2026-07-13T15:34:41.762103+00:00"
+}

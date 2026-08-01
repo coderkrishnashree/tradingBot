@@ -1,0 +1,23 @@
+{
+  "action": "hold",
+  "symbol": "INTC/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.34,
+  "rationale": "INTC is dead-money chop: 4h ADX 9.9, composite flat/regime-blocked, and the last bar just dumped 1.3% on a 560-vol spike leaving lower TFs oversold (RSI ~20) right where a counter-bounce would stop any honest short. US markets closed => thin, gappy token with Monday-open and Tue CPI risk inside 48h. No structural level is close enough to give R:R>=1.5 with a survivable stop, so I stand aside and let the equity session define the next real move.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 104.25,
+    "expires_min": 240,
+    "note": "Losing the 104.25 support on volume breaks the multi-week base and opens a clean trend short toward 100 with room the current chop can't offer."
+  },
+  "transcript": {
+    "macro": "RISK-OFF/defensive. Dominant 48h risk: Tue Jul 14 June CPI + Warsh testimony. Semis: violent early-July selloff (Intel -21%, Micron -13% intraday) partially recovered Friday (SOX +5%, Nasdaq +1.7% on week). INTC: $109.87, relative_strength -19.2% (WEAKEST in scan), regime chop/flat, ADX 9.9 (no trend), long/short 1.77 (longs crowded). Turnaround overhang after -21% July drubbing. HOSTILE - dead-money chop with gap risk.",
+    "sentiment": "INTC bearish tilt. Earnings Jul 23 after close (just outside 48h). Volatile, down sharply (-21% run) on 18A-yield/valuation worries. No confirmed <=48h binary, but a semis/AI headline or guidance leak could gap it. Mild bearish support for short; watch pre-earnings drift.",
+    "analyst": "No side clears R:R 1.5. Short chases a fresh volume-spike flush into 15m/30m RSI ~20 (bounce risk = account's classic loser); long fights the weakest name in the scan with weekend gap + CPI risk. ADX 9.9 chop, engine regime-blocked. Flat is best expectancy. HOLD, size 0.",
+    "portfolio": "INTC: HOLD (conf 0.34) - dead-money chop, gap+CPI risk, no R:R>=1.5; stand aside pending break of 104.25."
+  },
+  "timestamp": "2026-07-13T00:02:09.138330+00:00"
+}

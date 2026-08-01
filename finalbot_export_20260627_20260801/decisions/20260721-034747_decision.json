@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "MSFT/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.55,
+  "playbook": "none",
+  "forecast": "Stalling ~402 under 406 resistance with fading volume and bearish divergence; likely chops 401-403, then rejects at ~406 (fade short) or slips under 401.4/VWAP toward 398. No confirmed trigger yet.",
+  "expectancy_note": "No entry: short mid-air (+1.17% over VWAP, stoch 89.8, ADX 23) is the account's late-short-bounce trap; long into a bearish divergence at resistance has p(win)<0.5. Wait for the level to print a signal.",
+  "rationale": "MSFT is overbought (stoch 89.8, %B 0.98) with a flagged bearish divergence, crowded longs (L/S 1.841) and negative orderbook imbalance - bearish lean - but ADX 23 means no trend and price sits at 402, not at the 406 resistance, so neither a clean fade nor a break is confirmed. Thin overnight tokenized-equity tape adds gap risk. Highest-EV move is to wait: fade a rejection at 406, or a loss of 401.4 to confirm rollover.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 405.8,
+    "expires_min": 240,
+    "note": "A tag/rejection of 406 resistance sets up the high-probability divergence fade short; a clean break-and-hold above flips the bear thesis to long-continuation."
+  },
+  "transcript": {
+    "macro": "NEUTRAL tilting risk-off. US-Iran conflict spiking oil (WTI ~$83-85) reviving inflation/hike fear; higher long-end yields + firm dollar pressure equity multiples & metals. US indices digesting near highs (S&P -0.19%, Nasdaq -0.05%). Key events <48h: GOOGL earnings Wed Jul 22 AC, TSLA Jul 22 AC, INTC Jul 23 AC; FOMC Jul 28-29 (market pricing hike RISK, not cuts). BTC ~$65.5k pinned under $65.8k resistance, dominance ~56.5%, Fear & Greed 25 (Extreme Fear), funding benign; crypto-beta names crowded long -> squeeze risk to downside if BTC stalls. Semis (NVDA/MU/INTC/SNDK) move as a pack, headline-fragile. CL structurally bid on Hormuz supply fear (hostile to shorts). XAG near 8-month lows, capped by dollar/yields. Tokenized-equity perps thin/gappy overnight (scan 03:38 UTC).",
+    "sentiment": "Risk-off/cautious. Only tradable <=48h binaries are GOOGL (Jul 22 AC) and INTC (Jul 23 AC, ~15% implied move), both casting a shadow over beta names (QQQ, NVDA, MU, SNDK, crypto). MSFT (Jul 13) & MU (blowout Q3) already reported - no fresh binary. COIN Jul 30, HOOD Jul 29, SNDK Aug 5 all OUTSIDE the window (don't hold into next week). MSTR flipped to SELLING BTC (largest since 2022) - sentiment negative. CL live geopolitical gap risk both ways, supply-shock skew up. XAG coiled in a triangle (breakout >61 / breakdown <55.7), no dated catalyst. No hacks/exploits/large delistings flagged.",
+    "analyst": "MSFT 401.79, composite long conf 46.1%, ADX 23.2 (weak), stoch 89.8, %B 0.976, VWAP +1.17%, bearish divergence, L/S 1.841 (crowded), orderbook -0.211, structure_bias -0.315. Already reported Jul 13 (no binary). Stalling under 406 - no confirmed fade or break => HOLD, reconsider at the 406 resistance tag.",
+    "portfolio": "MSFT: HOLD - bearish divergence stalling under 406, wait for the level."
+  },
+  "timestamp": "2026-07-21T03:47:47+00:00"
+}

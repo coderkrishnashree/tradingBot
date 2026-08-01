@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "QQQ/USDT:USDT",
+  "size": 0.0,
+  "entry": 709.16,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.55,
+  "playbook": "none",
+  "forecast": "Price is stalling at the top of the range (710.6 high) with fading 15m momentum and a 5m RSI of 24.7; expect a drift/pullback toward the 706-704 VWAP zone over the next 2-6 bars rather than an immediate break of 711.",
+  "expectancy_note": "No positive-expectancy entry: chasing long at RSI 73 / %B ~1.0 / +0.85% VWAP is this book's #1 loss pattern, and shorts here (0.45 win, -1.21 avg) fight the risk-on tape. Wait for pullback or confirmed breakout.",
+  "rationale": "QQQ is the cleanest risk-on carrier (p_win 0.615, balanced structure, ~zero funding) but it is stretched: RSI 73.2, stoch 90.9, %B 1.008, and the last 7 15m bars are lower-highs on drying volume with 5m already exhausting (RSI 24.7). A market long chases into exhaustion where a routine bounce/pullback stops it; a short fights the trend and the account's short book bleeds. GOOGL earnings tomorrow after close adds building event risk with no offsetting 48h edge.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 711.2,
+    "expires_min": 240,
+    "note": "A 15m close above the 710.6 stall high proves the coil resolved up (continuation, not exhaustion) and re-opens a momentum long toward 726.99."
+  },
+  "transcript": {
+    "macro": "Regime MIXED, tilting risk-on but fragile. QQQ rides today's Nasdaq +1.3% directly, balanced structure (long/short 0.84, near-neutral orderbook, ~zero funding = not crowded), p_win 0.615 - cleanest of the group and best expression of the risk-on tape. Caveat: RSI 73 stretched, and it's the purest carrier of Alphabet-print risk into Wed (July 22 after close). Hawkish Fed, Middle East tensions. Size smaller than normal.",
+    "sentiment": "QQQ constructive but extended. No stock-specific catalyst; it's the tape. Record highs on ceasefire risk-on, but it's the delivery vehicle for this week's megacap earnings (GOOGL tomorrow starts it) and FOMC is July 28-29 (expected hold). No macro print inside 48h. Near-term neutral-to-mildly-bullish on momentum, RSI ~73 overbought, event risk building late next week.",
+    "analyst": "Cleanest risk-on carrier (p_win 0.615, balanced structure) but stretched: RSI 73.2, stoch 90.9, %B 1.008; last 7 15m bars lower-highs on drying volume, 5m exhausting (RSI 24.7). Long chases into exhaustion; short fights the tape (book's shorts bleed). GOOGL earnings tomorrow adds event risk with no 48h edge. HOLD; reconsider long on a 15m close above 711.2.",
+    "portfolio": "HOLD QQQ - stretched risk-on carrier, no edge to chase into GOOGL print; wait for pullback or breakout."
+  },
+  "timestamp": "2026-07-21T19:31:25.658446+00:00"
+}

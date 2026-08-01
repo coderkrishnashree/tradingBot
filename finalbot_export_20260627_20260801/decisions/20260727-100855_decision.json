@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "ORCL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Post-spike digestion: price drifts/chops between 117.5 and 118.9; the single-candle 119.17 pop has stalled (7 bars of lower highs into a zero-volume doji). Expect a pullback to retest the 117.5 spike-base before any real continuation.",
+  "expectancy_note": "No side clears 1.5 R:R: long is chasing a stretched (RSI 72.9), crowded-long (L/S 2.17) laggard into FOMC with resistance 8%+ away at 129; short fights ADX 83 uptrend with no confirmation.",
+  "rationale": "ORCL just printed one big spike candle and is now fading on drying volume into a MIXED-to-HOSTILE macro window (FOMC Wed + Mag-7 earnings, DXY 13-mo high, today is a relief pop not a trend). RSI 72.9 and structure_bias -0.30 (crowd already long) mean a fresh market long is the account's proven late-entry loss pattern, while resistance at 129 makes the R:R poor. Wait for a pullback: a bounce holding the 117.5 spike-base near VWAP is a far cleaner long than chasing 118.5 here.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 117.5,
+    "expires_min": 240,
+    "note": "A dip to the 117.5 spike-base that holds/bounces gives a low-risk long near VWAP; losing 117.3 voids the intraday long thesis."
+  },
+  "transcript": {
+    "macro": "Regime: MIXED-to-HOSTILE for fresh longs. Binary event risk (FOMC Wed Jul 29 2pm ET + four Mag-7 earnings this week: MSFT/META Wed AC, AAPL/AMZN Thu AC) sits inside the hold window; hawkish Warsh Fed with a live rate-hike tail (~34-38%); DXY at 13-month highs, 10y ~4.5%. Today's tape is a relief pop (oil -7%, US-Iran de-escalation) into event risk, not a trend. Almost every name long-crowded (negative structure_bias), RSI/stoch stretched. Size DOWN. ORCL: strongest composite (conf 64.9), ADX 83, but RSI 72.9 + spike candle, L/S 2.17 crowded, rel-strength -17.6% vs BTC, no earnings this week.",
+    "sentiment": "Cautiously RISK-ON but event-heavy; biggest <=48h catalyst FOMC Wed 7/29 (85%+ priced HOLD) + busiest Big Tech earnings week. Equity-mirror perps thin/gappy off US hours. ORCL: no near-term binary (next earnings ~Sept 7); recent tape heavy; only low-weight analyst noise (Mizuho Buy/$320). NEUTRAL <=48h; trades on QQQ/tech beta + the Fed.",
+    "analyst": "Price 118.51, last bar a zero-volume doji after a single 119.17 spike that stalled over 7 lower-high bars. RSI 72.9/stoch 76.2 stretched, 4h MACD negative, ADX 83 reflects the prior move not fresh momentum. L/S 2.17 crowded long, structure_bias -0.30. Long chases into hostile FOMC window with resistance 8%+ away at 129; short fights the uptrend with no confirmation. Neither clears 1.5R. Best expectancy is wait for the 117.5 retest.",
+    "portfolio": "HOLD ORCL \u2014 stretched, crowded-long spike stalling into FOMC; wait for the 117.5 spike-base retest."
+  },
+  "timestamp": "2026-07-27T10:08:55.839081+00:00"
+}

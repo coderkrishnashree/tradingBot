@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "CRCL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.62,
+  "playbook": "none",
+  "forecast": "Rejected 64.2 pop faded back on lower-highs (64.3>64.0>63.8>63.7); expect drift/chop 63.7-62.8 retesting the pre-spike base over the next few bars, with 60.11 the pivot below and 64.3 the reclaim above.",
+  "expectancy_note": "ADX 5.2 pure chop, price mid-range not at an extreme, 5m rolled over + stoch 84.6 = negative-expectancy long (chasing faded spike); no fade edge here either. Best EV is flat.",
+  "rationale": "Regime_blocked chop (ADX 5.2) with the model itself vetoing the raw long; the 15m candles show a high-volume 64.2 pop fully retraced on fading momentum, so LTF 'long' scores are stale. Price sits +6% above 60 support (not off it) into overbought stoch, crowded longs (L/S 3.13, structure_bias -0.29) and net-bearish news (Mizuho Underperform, Open USD threat) on a thin weekend/FOMC-window tape. No level to fade and no trend to ride, and a long here is the account's classic chase pattern, so flat is the highest-expectancy call.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 60.11,
+    "expires_min": 240,
+    "note": "Losing 60 support confirms the breakdown macro flagged and opens a clean short toward the low-50s; that is the setup worth acting on, not the current mid-range chop."
+  },
+  "transcript": {
+    "macro": "Regime MIXED-to-HOSTILE: weekend, US cash closed, thin/gappy tape. FOMC Jul 28-29 + BOJ Jul 30 in window. CRCL scan regime=chop, ADX 5.2, regime_blocked=TRUE \u2014 model vetoes raw long. LTF momentum up (15m/30m/1h 0.59-0.87, RSI ~61, price 63.66 off 60.1 support) but 4h flat, 5m rolled over. Crowded long: L/S 3.13, structure_bias -0.29, funding ~0. Two-sided tape: OCC national-trust approval vs Compass Point $55 target cut on Stripe Open-USD threat. Macro lean: NEUTRAL, cautious-long ONLY intraday off $60, no swing hold; short needs break <$60.",
+    "sentiment": "Circle BEARISH lean: severe downtrend ~$60-80, down ~40% on month, below all key EMAs. Driver: Open USD (OUSD) backed by Visa/Mastercard/BlackRock + 140 partners targeting $300B market; renewed Visa push mid-July. Mizuho downgraded to Underperform (Jul 14). Offsetting: OCC national trust-bank charter (Jul 8) regulatory moat. GENIUS Act deadline missed Jul 18 (overhang). NO <=48h binary; Q2 earnings Aug 5 (outside window). Near-term bearish momentum + competitive headlines dominate; news flow argues against longs.",
+    "analyst": "ADX 5.2 pure chop, regime_blocked. 15m shows high-volume 64.2 pop fully retraced on lower-highs/fading momentum \u2014 stale LTF long scores. Price +6% above $60 support (chasing, not off support) into overbought stoch 84.6 with 5m rolled over; crowded longs + bearish news. No fade edge, no trend. HOLD; reconsider as short on loss of 60.11.",
+    "portfolio": "CRCL/USDT:USDT \u2014 HOLD (conf 0.62): chasing a faded pop in chop; short only below $60."
+  },
+  "timestamp": "2026-07-26T06:03:55.547966+00:00"
+}

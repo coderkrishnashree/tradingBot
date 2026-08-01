@@ -1,0 +1,26 @@
+{
+  "symbol": "QQQ/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.35,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "forecast": "Just bounced 696.4->699.8 back to the top of range; expect a stall/rejection at 700.2-702 over the next 2-4 bars rather than clean continuation, with risk of a fade back toward 697-696.",
+  "expectancy_note": "Long chases RSI69/%b0.94 at 700 resistance (poor R:R to distant 727); short fights ADX51 uptrend + long-only-intraday macro with no funding edge. No side clears R:R 1.5; flat is best.",
+  "rationale": "QQQ is extended (RSI 69, %b 0.94, stoch 82) pressing 700 resistance in a thin pre-US-open, gappy tape and a bearish-tilt week (GOOGL+TSLA earnings Wed, hawkish Fed). The 5-bar green bounce is a recovery INTO resistance, not a fresh breakout, and 0.26% ATR gives no room for a favorable R:R either direction. Structure is balanced (L/S 1.04, bias -0.14), offering no edge, so I stand aside.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 700.25,
+    "expires_min": 180,
+    "note": "A clean hold above 700.2 turns the extended stall into a confirmed intraday breakout toward 705+."
+  },
+  "transcript": {
+    "macro": "MIXED-to-HOSTILE, defensive tilt (2026-07-20). Risk-off tape from a semiconductor/AI-capex unwind + hawkish Fed (FOMC Jul 29; Dallas Fed Logan floated a hike). PHLX Semi index in a bear market (SOX -10.8%, SMH -13% over 10 sessions); S&P -1.5% / Nasdaq -2.9% on the week. Crowded-long L/S ratios across the equity perps (ORCL 2.59, TSM 2.75, MU 2.17, CRCL 2.25) = contrarian short signal; funding ~flat. GOOGL & TSLA earnings Wed 7/22 after close = binary gap in-window. Tokenized equities are thin/gappy pre-US-open. CL (crude): fresh high-volume downside liquidation flush off a headline-inflated level, two-sided vs a live geopolitical Hormuz bid; API inventories 7/21, EIA 7/22 are in-window binaries. Biggest book risk: being long crowded semi/AI names into a semi bear market with GOOGL/TSLA gaps mid-window. Backdrop argues smaller size, flat-into-print for GOOGL/TSLA, and a preference for fades/shorts where trend and positioning agree.",
+    "sentiment": "Tech in a 3-day selloff, semis leading; TSMC's Jul 16 capex guide-up to $60-64B triggered the chip selloff (~$1.3-1.4T off the semi complex). GOOGL + TSLA both report Wed 7/22 after close = gap risk across QQQ/tech. US-Iran / Strait of Hormuz hostilities live (blockade + 20% cargo fee, 3rd+ day) -> crude bid, risk-off for equities, two-way tail on any de-escalation. Per name: SNDK bullish fundamentals (rev +251% YoY, 78% GM), no near binary (earns Aug 5), trades with the semi tape. GOOGL neutral into a high binary (Wed print). QQQ bearish short-term, 3 down days, binary-heavy week. CRCL bearish (Mizuho Underperform Jul 14, Coinbase/BlackRock Open USD competition; OCC charter already priced). MU mixed (record DRAM/HBM sold out CY2026, but stock -27-29% off highs on the AI-chip reset). ORCL bearish (debt/capex fears, S&P to BBB-, FY26 FCF ~-$23.7B). TSLA neutral into a high binary (Wed print, implied ~7.6% swing; Q2 deliveries beat already priced). CL bullish short-term geopolitical spike, two-way tail. TSM bearish short-term, epicenter of the AI-capex fear.",
+    "analyst": "QQQ is extended (RSI 69, %b 0.94, stoch 82) pressing 700 resistance in a thin pre-US-open, gappy tape and a bearish-tilt week (GOOGL+TSLA earnings Wed, hawkish Fed). The 5-bar green bounce is a recovery INTO resistance, not a fresh breakout, and 0.26% ATR gives no room for a favorable R:R either direction. Structure is balanced (L/S 1.04, bias -0.14), offering no edge, so I stand aside.\n\nForecast: Just bounced 696.4->699.8 back to the top of range; expect a stall/rejection at 700.2-702 over the next 2-4 bars rather than clean continuation, with risk of a fade back toward 697-696.\n\nExpectancy: Long chases RSI69/%b0.94 at 700 resistance (poor R:R to distant 727); short fights ADX51 uptrend + long-only-intraday macro with no funding edge. No side clears R:R 1.5; flat is best.",
+    "portfolio": "HOLD QQQ -- extended at 700 resistance into a binary-heavy week (GOOGL+TSLA Wed); recovery into resistance, not a breakout. No edge; arm long on a clean hold >700.25."
+  },
+  "timestamp": "2026-07-20T08:14:17.321767+00:00"
+}

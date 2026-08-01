@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "SNDK/USDT:USDT",
+  "size": 0.0,
+  "entry": 1956.85,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Weekend thin drift; the 1976.79 spike was rejected under 1987.8 resistance and the last bar closed near its low - expect chop/fade between ~1945 and 1975 into Monday, no clean edge either way until US cash reopens.",
+  "expectancy_note": "No positive-expectancy entry: long is +7% above VWAP with 1h RSI 74 / stoch 85 into resistance (the account's -2.89 avg losing pattern), short lacks LTF breakdown confirmation in a 49-ADX uptrend on a thin weekend tape. Best EV is to wait.",
+  "rationale": "SNDK is a tokenized semi (near-zero BTC corr) stretched +7% above VWAP, pressing under 1987.8 resistance that just rejected the 1976.79 spike, with fast-TF RSI already rolling to ~45 - chasing this long is precisely the stretched-continuation setup that has lost for this book. Sentiment is near-term bearish (NAND selloff) but there is no <=48h binary and no confirmed breakdown to short, and with US cash CLOSED the weekend price is thin, wide, gappy placeholder drift. Mild +0.20 structure long-tilt is not enough to justify entering an extended name into resistance on a low-liquidity weekend; wait for Monday direction or a decisive level break.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 1987.8,
+    "expires_min": 240,
+    "note": "A decisive break/hold above 1987.8 resistance clears overhead supply and would flip me to a breakout long with a measured-move target; until then price is capped and chasing is the losing trade."
+  },
+  "transcript": {
+    "macro": "Risk-ON but frothy; semis leadership but two-sided/headline-sensitive (Micron/SK Hynix rip, then Samsung + DeepSeek-chip scare selloff). Tokenized US semi, near-zero BTC corr (SNDK 0.14). SNDK: Funding 0.0, OI 5,761, Long/short 0.695 (net SHORT skew, mild contrarian long support), orderbook +0.36 bid-heavy, structure_bias +0.20 long-tilt. RelStr -13.7% vs BTC; corr MU 0.81, INTC 0.62. Earnings ~Jul24-Aug13, no earnings landmine in hold window. CRITICAL: scan Sat 2026-07-11 21:26 UTC, US cash CLOSED -> thin/wide/gappy weekend drift, low-confidence until Monday. Trim size.",
+    "sentiment": "MIXED, leaning cautious near-term. Earnings ~Aug 5 (no <=48h binary). Active risk: memory selloff -- Samsung July 7 prelim sparked broad NAND selloff, SK Hynix/Samsung -12%, SNDK/Micron/WDC ~7-14% down; SNDK slid from ~$2,354 highs toward $1,500 support. Momentum DOWNSIDE on peak-memory-pricing fears despite strong fundamentals (Q3 rev +251% YoY, 78.4% GM, AI NAND prices rising, Kioxia 10th-gen 3D NAND). Consensus Strong Buy long-horizon. Near-term news bias bearish/volatile, argues against fresh longs into weakness.",
+    "analyst": "SNDK last 1956.85, stretched +7.02% above VWAP, 1h RSI 74.2 / stoch 85.7 / %B 0.796 into 1987.8 resistance that just rejected the 1976.79 spike; fast TFs (15m/5m RSI ~45) already rolling over, last bar closed near its low. ADX 49.4 strong trend but overbought. Chasing this long is the stretched-continuation pattern the book loses on (trend playbook 44% win, -2.89 avg). No confirmed LTF breakdown to justify a short into a 49-ADX uptrend on a thin weekend. Mild +0.20 structure long-tilt insufficient. Best EV = HOLD; watch the 1987.8 break as the flip level.",
+    "portfolio": "SNDK: HOLD (conf 0.60) -- extended into resistance on a closed-market weekend, no positive-EV entry either side."
+  },
+  "timestamp": "2026-07-11T21:30:02.645394+00:00"
+}

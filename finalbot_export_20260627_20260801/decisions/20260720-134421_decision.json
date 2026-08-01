@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "SNDK/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price likely chops 1396-1451 for the next few bars digesting the huge distribution whipsaw; a break above 1451 resumes the parabola, a loss of 1396 opens the distribution short.",
+  "expectancy_note": "No positive-expectancy entry: a market long is a textbook chase (RSI 75, %B 0.89, bearish divergence, crowded funding, weakest RS -47%); a market short fights an ADX-60 trend with no exhaustion close (last bar closed strong at 1426). R:R only becomes >1.5 after a level breaks.",
+  "rationale": "SNDK is parabolic and divergence-warned with the highest funding of the group, sell-side orderbook (-0.23), and the weakest relative strength on the entire board (-47%) \u2014 the exact profile of the account's late-continuation losers. The final 15m bar is a 55-point two-way whipsaw on ~7000 vol closing mid-range: distribution at the highs, not a clean signal. With price mid-range between the 1451 whipsaw high and 1396 low, no honest stop-and-target gives 1.5R yet, so the highest-expectancy action is to wait. Zero size until a level is proven.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 1451.45,
+    "expires_min": 240,
+    "note": "A reclaim above the whipsaw exhaustion high proves buyers absorbed the distribution and gives a with-trend long entry instead of a chase; losing 1396 would instead open the distribution short."
+  },
+  "transcript": {
+    "macro": "Cautiously risk-on, low-conviction; semis leading today's bounce; no FOMC in 48h. SNDK: top scan candidate (conf 36.2, long, blended +0.43, 4h +0.44, ADX 60) BUT bearish divergence flagged, highest funding of group (+3.3e-04), L/S crowded long, RS -47% (weakest on entire board), RSI 75 \u2014 parabolic & extended, late and divergence-warned.",
+    "sentiment": "Crypto F&G 36. SNDK most news-driven: parabolic +707% YTD on NAND shortage/pricing supercycle (GM ~78%) but already ~40% off recent peak \u2014 extreme two-way volatility. Next catalysts earnings ~Aug 5 + investor day Aug 13 (outside window). No \u226448h binary but violent, headline-sensitive \u2014 size accordingly.",
+    "analyst": "Parabolic, divergence-warned, weakest RS on the board, sell-side orderbook. Final 15m bar a 55-pt two-way whipsaw closing mid-range (distribution). Long = chase, short = fighting ADX-60 with no exhaustion close. No 1.5R either way. HOLD; reconsider above 1451, short flip below 1396.",
+    "portfolio": "HOLD SNDK \u2014 parabolic distribution, wait for range to resolve; armed above 1451."
+  },
+  "timestamp": "2026-07-20T13:44:21.256078+00:00"
+}

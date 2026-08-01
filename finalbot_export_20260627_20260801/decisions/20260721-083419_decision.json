@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "HOOD/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.62,
+  "playbook": "none",
+  "forecast": "Price is vertical into the US open (102.2, 15m RSI 92.8, +1.6% VWAP, above upper BB). Expect a stall/mean-revert back toward VWAP ~100.5-101 within the next few bars before any trend can safely be joined; a thin-tape gap either way on the open is the real risk.",
+  "expectancy_note": "Chasing long here = buying the top tick of a parabola (account's #1 loss pattern); fading a 44.8-ADX aligned uptrend with no divergence = low p(win). No R:R>=1.5 entry exists at spot; wait for the pullback. HOLD is highest expectancy.",
+  "rationale": "HOOD is maximally extended (15m RSI 92.8, stoch 86.5, %B 1.04, +1.6% VWAP) at the top of a vertical volume-expanding push, into a risk-off/hawkish macro and a thin pre-US-open tape that reprices on the open. A market long chases the exact extreme; a short fights a strong, fully-aligned uptrend with no exhaustion signal. LSR 1.64 (crowded long) and rel-strength -15.88% (a laggard, not a leader) add caution. No honest entry with R:R>=1.5 exists here, so I wait for either a pullback to VWAP to buy the trend cleanly or a break of the base to reassess.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 100.5,
+    "expires_min": 240,
+    "note": "Losing the 100.5 breakout base proves the parabolic pop was a thin-tape fakeout and reopens the trade in either direction."
+  },
+  "transcript": {
+    "macro": "Regime: RISK-OFF / HAWKISH. Fed rate HIKE being priced, yields rising on oil-driven inflation (US-Iran), firmer dollar. Equities heavy/choppy. Crypto cautious, BTC dominance high. Derivatives lopsided long (crowded, contrarian negative), squeeze-lower risk. Pre-US-open: tokenized equities thin/gappy, reprice on US open. Size guidance: REDUCE. HOOD-specific: EXTENDED (15m RSI 92.8, stoch 86.5, +1.6% VWAP), corr 0.47 BTC, orderbook +0.368 supportive but LSR 1.64 crowding. Overbought.",
+    "sentiment": "Binaries cluster 7/28-30. HOOD reports Q2 July 29 after close - just OUTSIDE 48h. HOOD: event-flagged, neutral into it; high-beta crypto/risk proxy until then; tokenization tailwind is long-horizon. No near-term catalyst.",
+    "analyst": "Maximally extended at the top of a vertical volume-expanding push into a thin pre-open tape; market long buys the top tick (account's #1 loss), short fights a fully-aligned 44.8-ADX uptrend with no divergence, and it is a rel-strength laggard. No 1.5R entry at spot; HOLD and wait for a VWAP pullback (buy trend) or a loss of the 100.5 base (fakeout, reassess).",
+    "portfolio": "HOOD: HOLD (0.62) - parabolic into US open, no honest R:R; wait for pullback or 100.5 base break."
+  },
+  "timestamp": "2026-07-21T08:34:19.396275+00:00"
+}

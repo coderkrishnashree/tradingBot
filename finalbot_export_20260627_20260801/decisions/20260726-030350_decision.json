@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "XAG/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price stays pinned in the 58.3-58.9 coil, drifting on VWAP with dried-up volume, until the FOMC print (Jul 28-29) forces a directional resolution; no clean 2-4 bar move to trade before then.",
+  "expectancy_note": "No trade beats both alts: price is mid-band (bb %B 0.52, at VWAP) so no fade/breakout level to lean on, and a fresh long is negative-expectancy - crowded L/S 4.07 into a coin-flip Fed is squeeze bait, not edge.",
+  "rationale": "XAG is coiled dead-flat at 58.49 on VWAP with volume drying to nothing - no structural edge for a fade or breakout, and it is the most crowded long in the group (L/S 4.07) heading into a binary FOMC (Jul 28-29). Also a laggard (-8.58% vs BTC) and 0.877-correlated to XAUT, a diluted metals-beta echo. R:R for any entry fails: no honest stop level nearby, and a naked crowded long into a coin-flip Fed is the account's loss pattern. Wait for a washout to 55.6 support or a reclaim of the 60-61 pivot before committing risk.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 55.64,
+    "expires_min": 240,
+    "note": "A flush into 55.6 support with crowded longs capitulating sets up a high-probability mean-reversion long off a real level; a reclaim of 60-61 instead flips to a breakout long."
+  },
+  "transcript": {
+    "macro": "Regime MIXED/cautious into a 3-day binary event cluster inside the hold window: FOMC Jul 28-29, MSFT earnings Jul 29, BOJ Jul 30-31. All three tokenized names funding 0, crowded-long, lag BTC, low BTC corr. XAG: ~$58, down 52% from Jan ATH ~$121; bull=softer CPI/easing real yields/safe-haven, bear=firmer DXY/higher real yields; $55.6 support / $60-61 pivot. FOMC Jul 28-29 is THE catalyst; very crowded long + binary Fed = squeeze risk if Fed disappoints.",
+    "sentiment": "Stacked catalyst calendar Jul 28-31; anything held past Wed 2pm ET is an event bet. XAG bruised/choppy ~52% below Jan peak; FOMC Jul 29 is THE driver - DXY 13-mo high, 10y real yields ~4.5% are clean headwinds, dovish tilt sparks relief pop; sharp move expected 2pm ET Wed. XAG-XAUT ~0.88 corr - one macro-metals bet. Net NEUTRAL-to-CAUTIONARY; don't hold fresh long naked into 2pm ET Wed.",
+    "analyst": "Coiled dead-flat at 58.49 on VWAP with volume gone; mid-band, no fade/breakout level; most crowded long in group (L/S 4.07) into binary FOMC; laggard and XAUT echo. No honest R:R - HOLD. Re-engage on a flush to 55.6 or a reclaim of 60-61.",
+    "portfolio": "HOLD XAG - mid-coil, crowded-long into a coin-flip Fed; conf 0.60."
+  },
+  "timestamp": "2026-07-26T03:03:50.655355+00:00"
+}

@@ -1,0 +1,26 @@
+{
+  "symbol": "GOOGL/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.5,
+  "size": 0.0,
+  "entry": 357.58,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "forecast": "Thin weekend chop 357-359 on near-zero volume; genuine resolution waits for Monday reopen. LTF RSI 27 means immediate downside is spent \u2014 a mechanical bounce toward VWAP/359 is more likely than a clean break next bars.",
+  "expectancy_note": "Short bias is real (4h -0.9, crowded 1.88 L/S, orderbook -0.44) but 15m/5m RSI 26-28 = stretched micro; entering here is the classic late-short-stopped-by-bounce loss. Zero-volume Saturday = untradeable R:R.",
+  "rationale": "GOOGL prints 4h-down structure with crowded longs and heavy offer, but entry is only 0.53% below VWAP while 15m/5m RSI sit at 27 \u2014 too stretched to chase, too far from support (351.78) to short cleanly. Volume near-zero (US cash closed, Saturday) so any move is noise and gappy; CPI+Warsh Tue 7/14 is the real catalyst. Highest-expectancy play is to wait for a loss of 351.78 on real volume; do not carry any short into 7/22 earnings.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 351.78,
+    "expires_min": 240,
+    "note": "Losing 351.78 support flips this to an active short \u2014 confirms the 4h downtrend resuming, rather than the current oversold micro-chop."
+  },
+  "transcript": {
+    "macro": "Risk-on, low-vol. CRITICAL: Sat 2026-07-11 US cash CLOSED \u2014 thin/gappy weekend tape, GOOGL candles with 0 vol. Tue 7/14 CPI + Warsh = hawkish risk. GOOGL: mildly supportive for shorts / not longs; scan bias -0.40, 4h down, RSI 41; earnings 7/22 + DOJ antitrust overhang \u2014 do NOT carry size into 7/22.",
+    "sentiment": "GOOGL NEUTRAL near-term/constructive \u2014 earnings 7/22 (outside 48h), expect $2.86 EPS; added to Dow June 29 (+5%). Short-side technical bias but no fresh news catalyst; macro/index-driven.",
+    "analyst": "4h-down/crowded-long structure supports a short, but entry only 0.53% below VWAP with 15m/5m RSI 27 (stretched micro) on zero weekend volume \u2014 late-short trap. HOLD, short armed below 351.78.",
+    "portfolio": "GOOGL \u2014 HOLD (short bias valid but micro oversold + dead tape; trigger below 351.78)."
+  },
+  "timestamp": "2026-07-11T11:31:42.579279+00:00"
+}

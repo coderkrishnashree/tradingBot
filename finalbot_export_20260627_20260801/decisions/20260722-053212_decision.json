@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "CRCL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Micro-oversold (5m RSI 27) after fading 71.1->69.58; expect a dead-cat bounce toward 70.2-70.6 (broken support/VWAP shelf) over the next 2-4 bars, then likely resume lower \u2014 but a market short here into that bounce is the account's classic late-short loss.",
+  "expectancy_note": "Market short R:R only ~1.1 (69.58->stop 70.7 vs VWAP ~67.8); shorts win just 45% (avg -1.21R) in this book, so expectancy is negative here. Better short entry is on the bounce, not the breakdown \u2014 HOLD beats a sub-1.5R chase.",
+  "rationale": "CRCL is HOSTILE: RSI 79.7 / ADX 70.8 / ATR 2.86% single name, crowded long (L/S 2.0), event-driven, right under 72.66 resistance. The 15m tape is rolling over (lower highs, weak close on volume) so bias is down, but price already fell ~0.75x ATR into 5m oversold, making a market short a chase with only ~1.1 R:R to VWAP and a wide honest stop. No 48h catalyst forces action. Wait for a bounce to ~70.4-70.6 to short with proper R:R, or a decisive loss of the 69.45 low.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 70.6,
+    "expires_min": 240,
+    "note": "Reclaiming the 70.6 broken-support/VWAP shelf invalidates the intraday fade and reopens a 72.66 test \u2014 flips off the short bias; a rejection there is instead the better short entry."
+  },
+  "transcript": {
+    "macro": "CRCL HOSTILE / event-driven high-vol single name. Bull: OCC national trust-bank approval (Jul 8, USDC ~$73B, 67-70% share). Bear: Mizuho downgrade to Underperform Jul 14; Visa Open USD + consortium targeting $300B. Below all major EMAs (20/50/200) \u2014 structural downtrend despite pop. last 69.58, RSI 79.7, ADX 70.8, L/S 2.007, bb_width 24.6%, atr_pct 2.86, at resistance 72.66, structure_bias -0.295. HOSTILE for size \u2014 small with wide stops or skip.",
+    "sentiment": "Choppy/high-beta headline risk. Q2 earnings Aug 5 (pre-market) \u2014 OUTSIDE 48h. Tape event-driven both ways: OCC approval positive; stablecoin competition (Coinbase/BlackRock Open USD, Stripe) drove ~17.5% plunge; Tarbert insider sales Jul 20 (~$30.8M) mild negative. Margins negative (build mode). Headline-sensitive high-ATR \u2014 vulnerable to news shocks.",
+    "analyst": "Tape rolling over (bias down) but price already fell 0.75x ATR into 5m oversold; market short only ~1.1 R:R with wide stop, shorts are the book's losing pattern. Wait for a bounce to 70.4-70.6 for a proper short entry, or a decisive break of 69.45.",
+    "portfolio": "CRCL: HOLD (conf 0.50) \u2014 hostile high-ATR name, short R:R too thin at spot; wait for bounce."
+  },
+  "timestamp": "2026-07-22T05:32:12.797034+00:00"
+}

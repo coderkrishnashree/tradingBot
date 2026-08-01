@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "ORCL/USDT:USDT",
+  "size": 0.0,
+  "entry": 129.31,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Chop 128.8-129.9 above 127.65 support for the next 2-4 bars; either a reflex bounce toward VWAP ~134 or a support break to 126-127. No directional edge until one side resolves.",
+  "expectancy_note": "Short into 4h RSI 20.6 + bullish divergence + price 3.6% below VWAP = the account's proven loser (shorts 46% win, -1.75 avg; aligned weight -0.49; p_win 0.29). Long fights the tape with no reclaim trigger yet. HOLD has best expectancy.",
+  "rationale": "ORCL is deeply oversold and capitulating (BBB- cut, AI-capex scare) but the 15m tape has STALLED just above 127.65 support with bullish divergence and a coil, exactly the reflex-bounce setup both notes flag. A fresh aligned high-ADX short here is this account's #1 loss pattern (a routine bounce hits any honest stop before the trend resumes), and a long fights momentum in thin off-hours liquidity with no confirmation. Size 0 - wait for the level to declare.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 134.1,
+    "expires_min": 240,
+    "note": "Reclaiming VWAP proves the selloff-overdone reflex bounce is underway -> flip long; conversely losing 127.65 re-opens a lower-risk trend short."
+  },
+  "transcript": {
+    "macro": "Regime: risk-on, tech-led melt-up. Jul 14 close Nasdaq +0.90%, semis ripped (Micron/Lam ~+5%) on soft June CPI (+3.5% YoY vs 3.8% exp), easing Fed hike bets. US cash CLOSED at scan (~04:00 ET) -> thin, gappy pre-market perp tape until 09:30 ET; tiny funding/OI/orderbook prints are low-conviction. ORCL: LONG=headwind (crowded longs, RS laggard -24%); SHORT=mildly supportive (weak tape + long_short 2.20 to squeeze) BUT contrarian, not trend, and risk-on backdrop can bounce it. Structure_bias -0.47. Trade the equity narrative + technicals, not perp funding.",
+    "sentiment": "ORCL BEARISH (fresh, still bleeding). Fell ~6% below $130 (last 129.31) on post-earnings AI-capex/debt panic: FY27 capex up to $95B, ~$40B new debt+equity, negative FCF ~-$24B, S&P cut to BBB- (one notch above junk). Extra pressure from Apple suing OpenAI (ORCL ~$300B OpenAI compute concentration). Technicals capitulating (4h RSI 20.6, ADX 71.9, RS -24%). No scheduled event risk (last earnings Jun 10, next Sept) - pure momentum/sentiment unwind; watch for selloff-overdone reflex bounce.",
+    "analyst": "Deeply oversold/capitulating but 15m tape STALLED above 127.65 with bullish divergence and a coil - the reflex-bounce setup both notes flag. Learner: aligned high-ADX shorts are the #1 loss pattern (shorts 0.46 win/-1.75 avg, aligned weight -0.49, p_win 0.29). Shorting 4h RSI 20.6 = chasing an extended move into a bounce. Long fights the tape with no VWAP reclaim yet. HOLD; reclaim ~134.1 flips long, losing 127.65 re-opens a lower-risk short.",
+    "portfolio": "ORCL: HOLD (conf 0.60) - no side declared; wait for VWAP reclaim (134.1) or 127.65 break."
+  },
+  "timestamp": "2026-07-15T08:04:24.839043+00:00"
+}

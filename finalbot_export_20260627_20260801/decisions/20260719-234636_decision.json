@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "BTC/USDT:USDT",
+  "size": 0.0,
+  "entry": 64620,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Extended push into 65,566 has stalled; last 15m bars roll over (5m RSI 40, closed on low). Expect a pullback to retest 64,300-64,400 VWAP zone; only a decisive reclaim/hold above 65,566 reopens the continuation long.",
+  "expectancy_note": "No positive-expectancy entry: long into 4h RSI 72 / +1.24% VWAP / stacked asks (imbalance -0.72) is chasing; short lacks a confirmed rejection vs ADX 71 uptrend. Wait = highest EV.",
+  "rationale": "BTC is 4h-overbought (RSI 72.7, stoch 80.4) and pressed +1.24% above VWAP right under 65,566 resistance, with orderbook imbalance -0.72 showing sellers stacked and the last 15m bar closing on its low as 5m momentum turns down. Macro RISK-OFF and F&G 25, so a fresh long is the late-continuation chase this book bleeds on, while shorting a strong ADX-71 uptrend without a clean rejection is low-probability. No honest R:R>=1.5 at this price.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 65566,
+    "expires_min": 240,
+    "note": "Decisive break and hold above 65,566 clears stacked asks and confirms continuation, turning the chase into a valid breakout-continuation long."
+  },
+  "transcript": {
+    "macro": "RISK-OFF regime, crypto trading on its own (low equity corr). BTC healthiest structure of liquid names but extended at resistance (65,566), 4h RSI 72, funding flat, L/S 1.44 imbal -0.72 (bias -0.36) = lopsided long into resistance; tactical only.",
+    "sentiment": "Crypto Extreme Fear (F&G 25). No fresh hack/listing/reg shock; negative = macro risk-off. Neutral-to-bearish tone. (Scan feed ~64.6k vs spot reports ~94k; scan used as execution ref.)",
+    "analyst": "Cleanest liquid name but not a clean trade. Overbought into 65,566 resistance, +1.24% VWAP, asks stacked (imbal -0.72), last 15m bar closed on low with 5m momentum negative. Long = late-continuation chase; short = fading ADX-71 uptrend with no rejection. HOLD.",
+    "portfolio": "HOLD BTC (conf 0.6) \u2014 extended into resistance, stand aside for reclaim (long) or VWAP loss (short)."
+  },
+  "timestamp": "2026-07-19T23:46:36.208102+00:00"
+}

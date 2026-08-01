@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "ORCL/USDT:USDT",
+  "size": 0.0,
+  "entry": 141.58,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Coiling higher-lows on drying volume above the 141.1 micro-floor; likely a small oversold bounce toward VWAP ~144 over the next few bars, OR a clean break of 141.10 that opens a flush to support 137.63. Neither edge is armed yet at 141.58.",
+  "expectancy_note": "Fresh short = late-continuation trap: -1.8% below VWAP, RSI 33-35 across TFs, into the MOST crowded-long name (L/S 2.17) = high squeeze risk; a routine bounce stops it before 137.63. Long fades a live NET-BEARISH downtrend on an unconfirmed coil. Both sides <1.5R here; HOLD is best expectancy.",
+  "rationale": "ORCL is trend-short but deeply oversold and stretched below VWAP, sitting on the single most crowded-long book in the equity set - exactly the setup that squeezes late shorts. The last 15m bars are stabilizing (higher-lows, drying volume, close at bar high 141.58), so momentum has stalled, but there is no VWAP reclaim to justify a long into a -25% YTD downtrend with CPI/bank earnings Jul 14 inside horizon. Mid-air R:R is poor both ways; wait for the bounce-to-strength short or the support-break short.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 141.1,
+    "expires_min": 240,
+    "note": "Losing the 141.10 micro-floor proves the oversold bounce failed and opens the 137.63 support flush - trigger a proper trend-short with a tight stop back above 142.4."
+  },
+  "transcript": {
+    "macro": "Environment MIXED, caution on size. AI-spend-doubt narrative live, CPI + bank earnings Jul 14, TSMC Jul 16. ORCL: composite SHORT 54.7%, RSI 35 (near oversold), structure_bias -0.264 - MOST crowded long in equity set (L/S 2.17) = strong contrarian squeeze risk vs shorts. Rel-strength -18.69% (weakest name), btc_corr 0.37. Cloud/AI-infra in same AI-spend-doubt narrative; no imminent single-name catalyst.",
+    "sentiment": "ORCL NET BEARISH drift, no fresh catalyst in 48h. Q4 FY26 reported Jun 10: revenue beat (+21%) but market punished it - shares fell >10% on cloud-revenue miss vs hype and alarming capex (+162% to $55.7B). Down ~25% YTD. No earnings in window. Only near item $0.50 dividend pays Jul 24 - not a price catalyst. Sentiment heavy/oversold.",
+    "analyst": "Trend-short but deeply oversold and stretched below VWAP into the most crowded-long book (L/S 2.17) = late-short squeeze trap. 15m stabilizing (higher-lows, drying volume) but no VWAP reclaim to justify a long into a -25% YTD downtrend. Poor R:R both ways. HOLD, arm short below 141.1.",
+    "portfolio": "HOLD ORCL - oversold + most crowded long makes a fresh short a squeeze trap, no reclaim for a long; short armed below 141.1."
+  },
+  "timestamp": "2026-07-12T13:03:18.118712+00:00"
+}

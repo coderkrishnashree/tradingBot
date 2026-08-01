@@ -1,0 +1,26 @@
+{
+  "symbol": "TSLA/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.6,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "forecast": "Thin weekend drift: price coils 407-410 under the 410.5/420 resistance; most likely a slow fade toward VWAP ~402-404 rather than a fresh breakout, so no honest entry now. Monday's cash open sets direction.",
+  "expectancy_note": "No positive-expectancy trade: long is extended (RSI 71.6, %B 0.76, +1.8% VWAP) and crowded (L/S 1.67) into a closed-market weekend = chasing; no short setup with 30m/1h/4h all long. Wait for a VWAP pullback to buy the trend.",
+  "rationale": "TSLA is the least-bad equity long (rel-strength +1.5, low BTC corr 0.28, multi-TF up) but price is stretched and just got flushed on the 5m (RSI 21.8) while pinned to Friday's close on thin Saturday liquidity with Monday gap risk and a documented sell-the-news reflex. A market long chases an extended move into the weekend; there is no structural short. Wait for a pullback toward VWAP (~402-404) to buy the uptrend against 391 support. Zero size until then.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 403.0,
+    "expires_min": 240,
+    "note": "A dip into the VWAP/402-403 zone lets the multi-TF uptrend be bought against 391 support without chasing, flipping this to a trend long."
+  },
+  "transcript": {
+    "macro": "Sat Jul 11 2026 ~12:00 UTC. Regime MIXED-to-HOSTILE. US equity markets CLOSED; tokenized-equity perps pinned to Friday close, no discovery, Monday gap risk. TSLA: only pair with positive rel-strength vs BTC (+1.5) and 30m/1h/4h long, but 5m RSI 21.8 (just got sold), L/S 1.67 crowded long, weekend thin. Macro: MU and TSLA are the least-bad longs.",
+    "sentiment": "TSLA NEUTRAL-to-cautious. Q2 deliveries out (480,126, ~18% beat) yet stock dropped 7.5% on the print (July 2) then recovered to ~$420 (good news being sold). Q2 earnings July 22 (outside 48h). Nothing company-specific next two days; note the sell-the-news reflex if traded long.",
+    "analyst": "Least-bad equity long (rel-strength +1.5, low BTC corr) but stretched (RSI 71.6, +1.8% VWAP), just flushed on 5m, crowded (L/S 1.67), pinned to Friday close with Monday gap + sell-the-news reflex. Market long = chasing into the weekend; no structural short. Wait for a VWAP pullback (~402-404) against 391 support. HOLD.",
+    "portfolio": "HOLD TSLA -- best of the equity book but extended into a thin weekend; buy the ~402-404 VWAP dip, don't chase."
+  },
+  "timestamp": "2026-07-11T12:03:12.306763+00:00"
+}

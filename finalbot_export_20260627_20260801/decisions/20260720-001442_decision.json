@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "QQQ/USDT:USDT",
+  "size": 0.0,
+  "entry": 699.52,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.34,
+  "playbook": "none",
+  "forecast": "Thin overnight grind stalls near 699.7-700; expect chop between 697.2 and 700 until US cash open, when a gap resolves direction. No clean move to trade before then.",
+  "expectancy_note": "No honest R:R: ATR 0.23% but gap risk is multiples of that; nearest structure (688/729) too far, overbought LTFs (RSI 74-87) argue against a long, but shorting a pinned thin tape with no rejection is a knife-catch \u2014 HOLD has the best expectancy.",
+  "rationale": "QQQ is melting up on synthetic overnight liquidity (US market closed) into RSI 74-87 across 15m-1h during a documented bear week, exactly the stretched-tape-late-entry trap. Shorting now risks the routine squeeze; a nearby honest stop can't survive US-open gap risk, so no setup clears 1.5R. Wait for the cash-open print to confirm whether the overbought unwind begins.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 697.2,
+    "expires_min": 240,
+    "note": "Losing the overnight grind base confirms overbought unwind starting; opens a short toward VWAP/688 support."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF/defensive, semis in a bear market (Nasdaq -2.9% on the week, SMH -9%). FOMC Jul 28-29 caps upside. Scan 00:07 UTC Monday = US cash CLOSED; QQQ overnight prints thin/synthetic, gap risk at open, low-confidence overnight structure. QQQ: SHORT-to-NEITHER \u2014 overbought into weakness, -12.6% vs BTC, fade-able bounce but respect US-open gap.",
+    "sentiment": "QQQ constructive drift on cooling CPI/PPI + chip-earnings tailwind, but heavy mega-cap earnings season (MSFT Jul 29, FOMC Jul 29) with nothing binary next 48h. Single-name blowups live (IBM -25% on print). Neutral for a pure 24-48h trade absent a scheduled event.",
+    "analyst": "Thin overnight grind-up into RSI 74-87 across LTFs during a bear week; ATR only 0.23% so no honest stop survives US-open gap risk, and nearest structure (688/729) is far. Long fights the bear week; shorting a pinned thin tape with no rejection is a knife-catch. HOLD; re-engage short on a break below the 697.2 grind base.",
+    "portfolio": "HOLD QQQ \u2014 overbought thin overnight tape, wait for US-open print; short trigger below 697.2."
+  },
+  "timestamp": "2026-07-20T00:14:42.560418+00:00"
+}

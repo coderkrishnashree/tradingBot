@@ -1,0 +1,28 @@
+{
+  "action": "buy",
+  "symbol": "AAPL/USDT:USDT",
+  "size": 4.0,
+  "entry": 316.6,
+  "stop_loss": 315.1,
+  "take_profit": 319.3,
+  "take_profit_1": 319.3,
+  "take_profit_2": 321.8,
+  "confidence": 0.6,
+  "playbook": "trend",
+  "forecast": "Bull-flag after the high-volume 314.8-319.3 impulse; expect a shallow dip to retest the breakout shelf/VWAP near 316.6 within 1-3 bars, then resume toward the 319.3 prior high and on to 321.5+.",
+  "expectancy_note": "p(win)~0.58, R:R 1.8 to TP1 (2.7 reward vs 1.5 risk); limit-into-flag beats market-chasing the extended bb_pctb 0.954 top, and beats fading a 54-ADX aligned uptrend.",
+  "rationale": "Cleanest long of the group: ADX 54 strong trend, all TFs long-aligned, RS +5.59% own-momentum (BTC-corr 0.11), risk-on macro after cool CPI. Price is extended at the top of the bands after a sharp volume-expansion breakout, so I refuse to market-chase (the account's signature loss) and instead set a limit at the 316.6 breakout/VWAP retest the flag pullback should reach; stop 315.1 sits below the impulse origin (~1.5x 15m-ATR, honest), TP1 the 319.3 spike high. Normal 4% size given clean confluence but extended entry requiring the pullback fill; earnings Jul 30 is well outside the window.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 319.3,
+    "expires_min": 240,
+    "note": "A close above the 319.3 spike high without filling my limit confirms the flag resolved up and I would reassess a breakout-continuation entry rather than wait for the retest."
+  },
+  "transcript": {
+    "macro": "Regime risk-on after cooler June CPI (headline +3.5% y/y vs 3.8% exp); July Fed hike odds collapsed to ~17%, yields lower, semis/tech leadership. Favorable for tech-adjacent longs this session/next. AAPL positioning clean/neutral (funding 0, long/short 0.97, structure_bias +0.007); RSI 60.8, ADX 54 strong trend, bb_pctb 0.954 (extended), RS +5.59% vs BTC, BTC-corr 0.11 (own momentum). Earnings Jul 30, outside 48h. Cleanest long; warrants normal size.",
+    "sentiment": "Mildly bullish, no imminent binary. Broadcom chip-supply extension through 2031 (~Jul 6) cut supply-chain risk; 4 straight EPS beats. Earnings Jul 30 after close (~15d out). Strongest technical long (56.5% conf, aligned uptrend). No scheduled event inside 48h.",
+    "analyst": "Bull-flag after a high-volume 314.8->319.3 impulse then pullback to ~317.4 shelf. bb_pctb 0.954 = top of bands, so refuse to market-chase (account's #1 loss). Set limit long at 316.6 (breakout-candle body / VWAP retest), stop 315.1 below impulse origin (~1.5x 15m ATR), TP1 319.3 spike high (R:R 1.8), TP2 321.8. Normal 4% size on clean confluence but requires the pullback fill.",
+    "portfolio": "BUY AAPL limit 316.6, stop 315.1, TP 319.3 \u2014 cleanest long of the group, conf 0.60."
+  },
+  "timestamp": "2026-07-15T10:04:01.091944+00:00"
+}

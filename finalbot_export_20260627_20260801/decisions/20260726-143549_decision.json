@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "META/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Thin weekend tape frozen in a 598.6-601.0 coil off stale Friday close; expect chop around 599-600 for the next several bars, resolving lower toward 592.5 only on a confirmed break of 598.6.",
+  "expectancy_note": "No honest >=1.5R short available: price mid-range and only ~7pts above support 592.5 with 4h RSI already 33; realized 15m range (~$0.4) too small for a stop that survives weekend gaps. HOLD beats chasing a stretched short into support.",
+  "rationale": "META is genuinely bearish on the 4h (score -0.80, RSI 33, ADX 48, below VWAP), but it is NOT a clean short entry: price sits mid-range having just probed 598.6 support, RSI is already stretched-low, US cash is closed so quotes are stale/gappy, and the tiny realized range makes a structurally-valid stop impossible without swamping the target. Correlation to BTC is low (0.29) so this is its own horse, but there is no edge to press today, and the Wed AMC print caps any swing. Wait for the level to pick a side; a break of 598.6/592.5 opens the aligned short, a reclaim of 601 kills the bearish coil.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 598.6,
+    "expires_min": 240,
+    "note": "Losing the 598.6 coil low confirms the 4h downtrend is resuming and opens a clean short toward 592.5 with a defined stop back inside the range."
+  },
+  "transcript": {
+    "macro": "2026-07-26 Sunday. Regime NEUTRAL tilting risk-OFF for equities. US cash markets CLOSED -> tokenized-equity perps quote off stale Friday closes, thin/gappy weekend liquidity. Catalyst wall: FOMC Wed 7/29, META+MSFT earnings Wed 7/29 AMC, AAPL+MSTR Thu 7/30, HOOD Wed. Tape has been selling AI/semis with violent double-digit earnings gaps. Positioning crowded-long across the board (silver L/S 4.0, HOOD 2.46, NVDA 1.63, MSTR 1.50) -> contrarian favors fades/shorts over chasing longs. Cut size on all equity legs; avoid carrying META/AAPL/HOOD directional into prints.",
+    "sentiment": "META Q2 reports Wed 7/29 AMC (~$7.13 EPS, ~$60.2B rev, +26.6% y/y); narrative 'can AI ads pay off.' No hard catalyst inside next ~48h but any short must be closed/hedged before Wed close (5-10%+ gaps routine). Near-term NEUTRAL for a Sun/Mon scalp, HIGH event-risk Wednesday.",
+    "analyst": "META bearish on 4h (score -0.80, RSI 33, ADX 48, below VWAP) but no clean short entry: price mid-range having just probed 598.6 support, RSI already stretched-low, US cash closed (stale/gappy), tiny realized 15m range (~$0.4) makes a valid stop impossible. Wed AMC caps swings. HOLD; armed short trigger below 598.6.",
+    "portfolio": "HOLD META - bearish 4h but no clean entry, event-capped into Wed earnings; short trigger armed below 598.6."
+  },
+  "timestamp": "2026-07-26T14:35:49.648050+00:00"
+}

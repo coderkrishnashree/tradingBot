@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "INTC/USDT:USDT",
+  "size": 0.0,
+  "entry": 112.42,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.7,
+  "playbook": "none",
+  "forecast": "Flat drift 112.0-112.5 through the weekend; the real move comes at Monday US open. Below 110 support confirms the bearish 18A-yield momentum toward 108/104; above ~114 the crowded-long squeeze resumes upside. Until then, placeholder chop with no tradable path.",
+  "expectancy_note": "No edge: no extreme to fade, price pinned on VWAP mid-range, weekend perp thin/gappy; every playbook here is a coin-flip and trend chasing has bled (0.44 win/-2.89R). HOLD is highest expectancy.",
+  "rationale": "US cash closed and the 15m candles are a flat line coiling 112.0-112.5 with erratic thin volume - no momentum, no level within reach, VWAP dist only 0.79%. Composite long (0.398) directly conflicts with crowded-long fade risk (L/S 1.60, structure_bias -0.16), -20.8% relative weakness, and bearish near-term foundry momentum. Jul 23 earnings is a violent binary just outside horizon - no reason to carry weekend size into a placeholder tape. Size 0 until Monday's open resolves direction against a real level.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 110.0,
+    "expires_min": 240,
+    "note": "Losing 110 confirms bears taking the $108-110 support - opens a clean short toward 108/104 with momentum and crowded-long fuel behind it."
+  },
+  "transcript": {
+    "macro": "Risk-ON but frothy; semis leadership but two-sided/headline-sensitive. Tokenized US semi, near-zero BTC corr (INTC 0.17). INTC: Funding 0.0, OI 27,945 (deeper than SNDK), Long/short 1.60 (crowded LONG), orderbook +0.055, structure_bias -0.16 (contrarian-bearish, fade risk on longs). RelStr -20.8% vs BTC (weakest). Corr TSM 0.67, MU 0.62. CATALYST: INTC earnings Jul 23 2026 after close -- inside plausible multi-day hold, historically violent (prior report gapped +23.6%); avoid holding through. CRITICAL: scan Sat 2026-07-11 21:26 UTC, US cash CLOSED -> thin/wide/gappy weekend drift.",
+    "sentiment": "MIXED-to-bearish near-term, big binary looming. KEY CATALYST Q2 earnings July 23 2026 (outside 24-48h but drift risk builds). Live pressure: stock -~21% in 7 days to ~$110; -3.64% July 10 on reports 18A yields trailing internal targets; testing $108-110 support, bears eye $100. Active story bearish on foundry execution doubts. Structural bull items long-horizon only (US govt 10% CHIPS stake; Google/Tesla/Apple headlines; HSBC PT $200; BofA upgrade -- offset by BofA bubble caution). Tail risk: Commerce revoked Huawei export licenses -> China retaliation. No <=48h binary; near-term tape bearish.",
+    "analyst": "INTC last 112.42; 15m candles a flat line coiling 112.0-112.5, erratic thin weekend volume, no directional info. ADX 27.3 borderline, RSI 46 neutral, %B 0.614 mid-band, VWAP dist only 0.79% (not extended). Support 104.25, resistance 127.4 -- mid-range, no level to lean on. Composite long 0.398 conflicts with crowded-long fade (L/S 1.60, structure_bias -0.16), -20.8% rel weakness, bearish foundry momentum. Jul 23 earnings a violent binary outside horizon. Shorts 0.47 win/-1.65 avg, trend 0.44 win/-2.89 avg. No honest edge -> HOLD; short triggers on loss of 110.",
+    "portfolio": "INTC: HOLD (conf 0.70) -- flat weekend placeholder, crowded-long fade risk into Jul 23 earnings; short only on a break of 110 at Monday's open."
+  },
+  "timestamp": "2026-07-11T21:30:07.839601+00:00"
+}

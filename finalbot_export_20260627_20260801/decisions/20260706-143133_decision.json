@@ -1,0 +1,27 @@
+{
+  "action": "hold",
+  "symbol": "MSFT/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "expectancy_note": "Fresh short has poor expectancy: RSI 14-23 multi-TF, %B -0.32 (below lower band), 1.1% under VWAP into support 367.68, crowd already long (L/S 1.89 = bounce fuel), against a rising Nasdaq/US cash open. Long lacks any reversal trigger vs live ADX 45.5 downtrend. Wait.",
+  "rationale": "Tokenized MSFT equity: supportive index tape argues against chasing a short, yet price is deeply oversold and extended below the lower Bollinger band into support with no bullish divergence or VWAP reclaim to confirm a bounce. Shorting here is chasing (extended move mid-air, R:R poor with support only ~4% away); buying is catching a falling knife against a strong-ADX downtrend. Both edges are weak -> highest-expectancy action is to stand aside until price proves direction.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 388.7,
+    "expires_min": 240,
+    "note": "Reclaiming VWAP (~388.7) confirms the oversold bounce has legs and opens a long toward 394.19 resistance; below it the falling knife has no confirmation."
+  },
+  "transcript": {
+    "macro": "Broad risk/equity SUPPORTIVE (S&P +1.8%, Nasdaq +2.1% last wk, semis leading); index tape favors longs and fights the scan's short leans. Rates/USD CAUTION (hawkish repricing, ~56% odds Fed hike by Sept, DXY>100 = slow drag on long-duration tech). No FOMC/CPI/earnings inside 48h (June CPI July 14). MSFT crowded long L/S 1.89. Lean MIXED-to-CAUTION for shorts: deeply oversold vs rising Nasdaq, bounce risk high, favor patience.",
+    "sentiment": "No earnings in window (next July 28). Last print strong (rev $82.9B +18%, Cloud +29%). No fresh idiosyncratic shock; weakness is broad tech/AI de-rating on mega-cap. As software (not chip) name, less in Burry's crosshairs. Net neutral-to-mildly-bearish, no <=48h binary; oversold is a tape story not a news story -> NEUTRAL to the trade.",
+    "analyst": "MSFT 384.45: composite short 31.5% conf, ADX 45.5 strong trend, RSI deeply oversold (4h 23.4/1h 18.8/30m 13.8/15m 14.0), %B -0.32 below lower band, -1.1% vs VWAP, support 367.68 / resistance 394.19, L/S 1.89 crowded long, btc_corr 0.31. Bear: strong-ADX downtrend + seller orderbook, but shorting RSI 14 below lower band into support against a rising Nasdaq with crowd already long = chasing extended move mid-air, poor R:R. Long: oversold bounce tempting but no reversal trigger, ADX shows live downtrend, VWAP not reclaimed = falling knife. Best expectancy: HOLD until a VWAP reclaim (~388.7) proves direction.",
+    "portfolio": "MSFT -> HOLD (conf 0.60): no fresh short into extended oversold against tape; no long without a VWAP reclaim confirmation."
+  },
+  "timestamp": "2026-07-06T14:31:33.564096+00:00"
+}

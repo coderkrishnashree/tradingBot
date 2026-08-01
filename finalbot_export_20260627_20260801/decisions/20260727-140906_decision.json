@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "XAUT/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.34,
+  "playbook": "none",
+  "forecast": "Coiling 4061-4090 at VWAP; likely chops in this band next few bars - a loss of 4040 opens 3984 support, a reclaim of 4090 revives the 4h uptrend. No clean edge before FOMC.",
+  "expectancy_note": "No fade at an extreme (price mid-band %B 0.56, at VWAP) and no trend pullback entry; ATR 0.26% makes any honest stop give sub-1.5 R:R. HOLD beats forcing a coin-flip into a binary Fed event.",
+  "rationale": "XAUT is consolidating, not trending: 4h up but 1h/30m/15m rolling over (RSI 26-32), price pinned at VWAP mid-range between 3984 support and 4155 resistance with tiny 0.26% ATR. Long-crowded (L/S 2.43, bias -0.31) and silver (0.87 corr) rolling over are mild bearish tells but not enough to short a coil, and directional risk is squarely the Wed Jul 29 FOMC. No structural extreme to fade and no pullback-to-trend entry means expectancy favors waiting - size 0.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 4040,
+    "expires_min": 240,
+    "note": "Losing 4040 breaks the 4061 intraday base and confirms the short-TF rollover, opening a clean short toward 3984 support."
+  },
+  "transcript": {
+    "macro": "Ceasefire removed the safe-haven bid -> gold consolidating ~$4,050-4,090 (+~0.9%), DXY mid-90s range-bound. XAUT is the MOST FOMC-sensitive target: hawkish surprise -> downside, dovish tone -> break toward $4,100. DOMINANT SHARED RISK: FOMC Wed Jul 29.",
+    "sentiment": "Structural central-bank buying underpins gold; July 29 hold is priced so directional near-term risk is squarely the Wed Fed decision. Silver (proxy) rolling over - a mild bearish tell.",
+    "analyst": "XAUT 4063, composite flat (8.5% conf): 4h uptrend intact but 1h/30m/15m rolling over (RSI 26-32), price pinned at VWAP mid-range (%B 0.56) between support 3984 and resistance 4155, tiny 0.26% ATR. No extreme to fade, no pullback-to-trend long; long-crowded L/S 2.43. Textbook NO TRADE into a binary Fed. HOLD; short opens on loss of 4040.",
+    "portfolio": "XAUT/USDT:USDT - HOLD (conf 0.34): mid-range coil, no edge into FOMC; arm short on loss of 4040."
+  },
+  "timestamp": "2026-07-27T14:09:06.222210+00:00"
+}

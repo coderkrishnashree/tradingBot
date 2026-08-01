@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "TSLA/USDT:USDT",
+  "size": 0,
+  "entry": 384.81,
+  "stop_loss": 382.0,
+  "take_profit": 389.5,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Choppy drift 383-386 near-term; last 15m bar pushed to 386.3 then closed weak at 384.81 into the upper band with negative orderbook imbalance, so expect a fade/consolidation rather than a clean breakout before the Jul 22 print.",
+  "expectancy_note": "No trade beats a fresh long here: p(win) mediocre with entry near upper BB, ~$3 honest stop vs capped pre-earnings upside gives sub-1.5 R:R, and any hold risks the ~7.6% binary Wed after close.",
+  "rationale": "Strong uptrend (ADX 61, all TFs long) but price is extended at the upper Bollinger band (%B 0.91), stoch 76, crowded long (L/S 1.87, bias -0.30) with negative orderbook imbalance and the last bar closing weak off its high - a chase here has poor R:R. The dominant factor is the Jul 22 after-close earnings (~7.6% implied) sitting inside the hold window; carrying any TSLA position past Tue close is a coin-flip, so size is zero. Rel strength -18.8% means it is a laggard, not a leader.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 387.5,
+    "expires_min": 240,
+    "note": "A clean 15m close above 387.5 reclaims the intraday high, opening a small trend-continuation long toward 392 - but only as a same-day scalp to be flat before Tue close, not a hold into earnings."
+  },
+  "transcript": {
+    "macro": "RISK-OFF, fragile, chip-led selloff; rips suspect. DOMINANT CATALYST: TSLA reports earnings Jul 22 (Wed) after close - INSIDE a hours-to-2-day hold. Binary event risk: any TSLA long carried past Tue close is a gamble. Crowded-long L/S 1.87 (bias -0.30), rel strength -18.8% (lagging). FOMC Jul 28-29 (outside window). Net: HOSTILE - avoid holding through the print.",
+    "sentiment": "TSLA HIGH near-term risk. Q2 2026 earnings Wednesday Jul 22 after close (5:30pm ET), options implying ~7.6% swing. Deliveries already known (480,126, Q2 record). Binary event ~2 days out; elevated vol/positioning into it.",
+    "analyst": "Strong uptrend but extended at the upper band with a weak-closing last bar, crowded long, negative orderbook imbalance - a chase with poor R:R. Dominant factor is the ~7.6% Jul 22 after-close earnings binary inside the hold window; carrying any position past Tue close is a coin-flip. Size zero.",
+    "portfolio": "HOLD TSLA - event-gated: ~7.6% earnings binary Jul 22 inside the window; do not carry a position into the print."
+  },
+  "timestamp": "2026-07-20T12:16:19.606451+00:00"
+}

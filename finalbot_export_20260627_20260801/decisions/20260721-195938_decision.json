@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "XAUT/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Stalled just under 4094.6 after a spike to 4083; RSI 71 / stoch 95.7 / bb%b 1.08 with bearish divergence favor a pullback to the 4062-4065 base (rising VWAP) over the next 2-6 bars, then a with-trend long attempt; a clean break/hold above 4094.6 instead signals continuation.",
+  "expectancy_note": "p(win) on a chased long here ~0.45 given overbought + divergence + crowded 2.55 L/S; account loses shorts (0.45 win, -1.21 avg) so fading the trend is negative-EV. Best EV is waiting for the dip-long (0.69 win historically) or a confirmed breakout.",
+  "rationale": "Strong gold-supportive uptrend (ADX 50.9, all TFs long, p_win_learned 0.619) but price is stretched into 4094.6 resistance with bearish divergence, stoch 95.7 and bb%b 1.08, into a very long-crowded book (L/S 2.55) \u2014 chasing here is the account's #1 loss pattern (late continuation stopped by a routine counter-move). No 48h binary (FOMC July 29 is outside window). I want the pullback-to-support long, not the top of a stalled spike; size 0 until the level triggers.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 4066,
+    "expires_min": 240,
+    "note": "A dip into the 4062-4066 base/VWAP zone offers a with-trend long entry (stop <4055, target 4094+); crossing it is the pullback I'm waiting for."
+  },
+  "transcript": {
+    "macro": "RISK-ON but headline-fragile. US equities firm (Nasdaq +1.36%); Big Tech earnings start Wed Jul 22 night (binary gap risk). DXY sub-102, negative 10y real yields (~-0.45%) = gold-supportive, risk tailwind. CRYPTO: BTC $66.4k, dominance 56.3%; HTF up (4h RSI 70.9) but 15m rolled over near resistance $66.9k; positioning NOT crowded (funding flat, L/S 1.206). Long-crowded books on XAUT (L/S 2.55) and GOOGL (1.81) = squeeze/reversal risk. US-hours gap risk on tokenized stocks (MSTR, GOOGL). FOMC Jul 28-29 outside 48h.",
+    "sentiment": "Risk-on drift \u2014 BTC/AI-tech firm on returning ETF inflows (BTC ~$727M over 5 days, flipped positive), gold bid on Middle East risk; the one live 48h landmine is GOOGL earnings Wed Jul 22 after close (FOMC Jul 29 is next week). MSTR: reclaimed $100, raised ~$263.5M ATM, HALTED BTC buys + $1B buyback \u2014 softer posture, trades as leveraged BTC proxy. XAUT/gold: safe-haven bid but stretched (RSI 71, bearish divergence).",
+    "analyst": "Strong gold-supportive uptrend (ADX 50.9, all TFs long, p_win_learned 0.619) but stretched into 4094.6 resistance with bearish divergence, stoch 95.7, bb%b 1.08, into a very long-crowded book (L/S 2.55). Chasing = the account's #1 loss pattern. No short (losing side). Wait for a pullback to the 4062-4066 base for a with-trend long.",
+    "portfolio": "XAUT: HOLD \u2014 gold uptrend but overbought/divergent into crowded longs; wait for 4066 dip, conf 0.6."
+  },
+  "timestamp": "2026-07-21T19:59:38.372392+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "QQQ/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Oversold-bounce in progress: price grinds from 714.0 toward the falling VWAP ~717-720 over the next 2-6 bars, then likely stalls; a failure there (or a CPI-driven flush back under 711) is where the short lives. No clean edge into the 08:30 CPI binary.",
+  "expectancy_note": "Short = chasing 4h-RSI-23.6 oversold into an accelerating LTF bounce (5m up, higher lows/closes last 7 bars) = the account's classic late-short-stopped-by-bounce loss; long fights ADX-71 downtrend + risk-off + CPI gap. p(win) too low both ways; HOLD has best expectancy.",
+  "rationale": "The 4h is deeply oversold (RSI 23.6) and the last seven 15m bars print higher lows and higher closes off 709.28 with the final bar closing at 714.02 (top of range), while orderbook imbalance +0.447 gives near-term bid support - a counter-bounce is underway, so a market short here sells straight into it. A long fights a strong downtrend, a risk-off regime and an overhead falling VWAP, and June CPI is a live two-way binary this session that I will not carry size into. Better expectancy is to wait for the bounce to fail at VWAP/resistance or for the CPI reaction to define direction.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 710.9,
+    "expires_min": 240,
+    "note": "Losing 710.9 kills the oversold bounce (breaks the higher-low sequence from 709.28) and reopens the ADX-71 downtrend toward 705/698 support - the point to re-short with the trend rather than into the bounce."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF, hostile to fresh longs. Nasdaq -1.55% into July 14; Fed dot plot flipped to a HIKE (~61% Sept odds) = valuation headwind for long-duration tech. LIVE EVENT RISK: June CPI today July 14 + Warsh testimony + bank earnings = gap-risk session. QQQ structure: funding flat, OI light, L/S 1.02 balanced, orderbook imbalance +0.447 (bid support), structure_bias +0.10; tape 1h/4h down, 4h RSI 23.6 oversold, ADX 71, ~0.8% below VWAP. Macro verdict: SUPPORTS SHORT / not longs, but reduced size given oversold + CPI gap.",
+    "sentiment": "QQQ NEUTRAL-to-BEARISH near-term. Nasdaq-100 futures down ~0.8%, US-Iran escalation, oil near $80; narrative shifted to demanding AI ROI, Mag-7 underperforming. Hard dated catalysts: June CPI Tue 8:30am ET (headline ~3.9%, core ~2.9%), PPI Wed, Warsh testimony; 61% odds Sept HIKE; bank earnings July 14, ASML/TSM/NFLX later in week. CPI is a two-way binary - do not carry size blind into it.",
+    "analyst": "Composite reads short, but the executable question is the next move: last seven 15m bars are a clean higher-low/higher-close bounce off 709.28, final bar closed 714.02 at top of range; 5m/15m momentum flipped up while 4h RSI 23.6 deeply oversold, orderbook imbalance +0.447 bid support. Market-shorting here = the account's documented late-short-into-bounce loser. A long fights ADX-71 downtrend, risk-off regime, falling VWAP overhead (~717-720), and the live CPI binary. HOLD is highest expectancy; armed a re-short trigger at 710.9 where the bounce breaks and the downtrend reopens toward 705/698.",
+    "portfolio": "QQQ: HOLD (conf 0.60) - no clean edge; wait for bounce failure at VWAP/resistance or the CPI reaction; re-short trigger armed at 710.9."
+  },
+  "timestamp": "2026-07-14T01:32:34.876804+00:00"
+}

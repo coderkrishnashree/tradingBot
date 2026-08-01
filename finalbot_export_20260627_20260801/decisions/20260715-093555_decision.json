@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "EWJ/USDT:USDT",
+  "size": 0.0,
+  "entry": 94.17,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.34,
+  "playbook": "none",
+  "forecast": "Illiquid pre-market drift inside 93.87-94.49; expect continued near-zero-volume chop with no clean directional move \u2014 nothing tradable until real Tokyo/US-session volume returns.",
+  "expectancy_note": "No edge: ADX 24 (no trend), price mid-range far from both 90.27 support and 95.44 resistance, and recent 15m candles are mostly 0.0-volume \u2014 any entry has negative expectancy from spread/gap slippage alone.",
+  "rationale": "EWJ is a thinly-traded tokenized Japan-equity ETF and the tape confirms it \u2014 most recent 15m bars print 0.0-0.9 volume, so quotes are stale and gappy. It lags (-8.5% rel-strength), shows no trend (ADX 24), sits mid-range, and has no catalyst inside 48h (BOJ Jul 30). No level to lean on and no honest 1.5R structure; the dominant risk is execution/liquidity, not direction.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 95.44,
+    "expires_min": 240,
+    "note": "A volume-backed reclaim of 95.44 would signal real session participation and a genuine breakout worth a long."
+  },
+  "transcript": {
+    "macro": "RISK-ON but early/thin. EWJ MIXED/LOWEST-CONVICTION \u2014 trade small or stand aside. Liquidity near-zero (many 0.0-volume 15m candles), ADX 24 (no trend), rel-strength -8.5% (lagging). Thin/gappy tokenized Japan ETF off US/JP hours. Real risk is execution/liquidity, not direction.",
+    "sentiment": "Nikkei strong +37% YTD, up ~0.9% mid-week led by AI/semis; weak yen supporting exporters. Key event BOJ decision Jul 30 (outside 48h). EWJ thinly traded here, gappy. Near-term NEUTRAL, mildly constructive on trend but no <=48h catalyst, poor liquidity.",
+    "analyst": "EWJ tape confirms near-zero liquidity (most 15m bars 0.0-0.9 volume), no trend (ADX 24), lagging (-8.5%), mid-range, no 48h catalyst. Dominant risk is execution/liquidity. Textbook NO TRADE. HOLD, size 0.",
+    "portfolio": "EWJ: HOLD (conf 0.34) \u2014 untradable illiquid pre-market; stand aside."
+  },
+  "timestamp": "2026-07-15T09:35:55.047788+00:00"
+}

@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "HOOD/USDT:USDT",
+  "size": 0.0,
+  "entry": 97.1,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Chop 96.5-97.6 on thin weekend tape; no thrust either way until Monday equity open. Break of 96.25 opens a slide toward 95; reclaim of 97.6 resumes the parabolic leg.",
+  "expectancy_note": "No edge: p(win) ~0.5 at best. Long is chasing a mature RSI-82/ADX-86 parabola (account's #1 loser), short faces gap-up risk into thin tape + earnings binary Wed; HOLD beats both.",
+  "rationale": "HOOD is a tokenized equity on a closed-market weekend with a ~9% implied earnings binary Wed 7/29 - thin, gappy, and event-loaded. Price is mid-Bollinger (%B 0.56) after a rejection off 97.59 to 96.25 then a low-volume coil, so it's neither a clean trend pullback nor a fade extreme, and 4h RSI 81.9 / ADX 86 make a long a late chase into a mature move. Relative strength -20.36 flags it as the weakest horse. No positive-expectancy entry here; size 0.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 96.25,
+    "expires_min": 240,
+    "note": "Losing the recent swing low breaks the weekend coil and confirms downside momentum for a short."
+  },
+  "transcript": {
+    "macro": "Regime: risk-on but into event wall, lean defensive. S&P near highs, Nasdaq -0.64% AI/chip selloff, 10Y ~4.69%. HARD CATALYSTS in 48-72h: FOMC Wed 7/29 2pm ET + mega-cap earnings MSFT+META Wed, AAPL+AMZN Thu. SUNDAY: US cash equity closed -> all stock proxies gap Monday, thin weekend liquidity, size down. BTC ~65.3k consolidating, only clean 24/7 book. Oil in bearish selloff (US-Iran de-escalation + surplus). Reduce size across board; crowded-long positioning pervasive (CRCL 3.52, SOL 2.76, XAUT 2.56, EWY, INTC, HOOD).\n\nMacro stance HOOD: stay out (parabolic + laggard)",
+    "sentiment": "Dominant fact: binary catalyst wall Wed 7/29 (FOMC + MSFT/HOOD earnings AMC) & Thu 7/30 (AAPL/COIN/MSTR earnings AMC). FOMC hawkish-hike surprise risk. Crypto soft: BTC ~65k, Fear&Greed 28, stablecoin outflows. EWY: live US 12.5% tariff + KOSPI/chip selloff (bearish). INTC: 7/23 blowout beat (bullish, established). CRCL: no 48h catalyst (earnings 8/5), bearish narrative. SOL: SOL ETF inflows constructive but Fed-tethered. CL: WTI ~$85 two-sided geopolitics vs OPEC+ supply.\n\nSentiment stance HOOD: HIGH EVENT RISK, earnings Wed 7/29 ~9% implied, flat into print",
+    "analyst": "HOOD is a tokenized equity on a closed-market weekend with a ~9% implied earnings binary Wed 7/29 - thin, gappy, and event-loaded. Price is mid-Bollinger (%B 0.56) after a rejection off 97.59 to 96.25 then a low-volume coil, so it's neither a clean trend pullback nor a fade extreme, and 4h RSI 81.9 / ADX 86 make a long a late chase into a mature move. Relative strength -20.36 flags it as the weakest horse. No positive-expectancy entry here; size 0.\n\nForecast: Chop 96.5-97.6 on thin weekend tape; no thrust either way until Monday equity open. Break of 96.25 opens a slide toward 95; reclaim of 97.6 resumes the parabolic leg.\n\nExpectancy: No edge: p(win) ~0.5 at best. Long is chasing a mature RSI-82/ADX-86 parabola (account's #1 loser), short faces gap-up risk into thin tape + earnings binary Wed; HOLD beats both.",
+    "portfolio": "HOLD HOOD/USDT:USDT - no positive-expectancy entry (size 0), conf 0.5. Reconsider: Losing the recent swing low breaks the weekend coil and confirms downside momentum for a short."
+  },
+  "timestamp": "2026-07-27T04:08:14.688671+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "EWJ/USDT:USDT",
+  "size": 0.0,
+  "entry": 93.35,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.3,
+  "playbook": "none",
+  "forecast": "Thin, near-zero-volume drift; price likely chops between support 91.84 and the 93.9 opening cluster with gap risk on the Japan open.",
+  "expectancy_note": "p(win) ~0.5 either way with gappy fills that can blow through any tight ATR-based stop (ATR only 0.67%); no edge, so HOLD has higher expectancy.",
+  "rationale": "EWJ is a Japan ETF with Japan market closed \u2014 recent candles show 0.0-0.1 volume, so ADX 69 and structure metrics are noise. Bullish divergence and 1h oversold (RSI 25), but no liquidity to confirm and real gap risk into the open. Least-conviction, gappiest name; stand aside.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 93.94,
+    "expires_min": 240,
+    "note": "Reclaiming the 93.9 opening cluster on returning volume validates the bullish divergence for a long toward 96.65; below 91.84 confirms the risk-off leg."
+  },
+  "transcript": {
+    "macro": "RISK-OFF / semis-led unwind. EWJ (93): thin (near-zero vol, Japan closed) \u2014 gappy, avoid or tiny size. Bullish divergence flagged.",
+    "sentiment": "EWJ neutral/bearish: Nikkei only -0.4% (SoftBank resilient, Kioxia the drag). Yen near 4-decade low. Mildest of the group, least conviction.",
+    "analyst": "No tradeable liquidity (Japan closed), tiny ATR, oversold with bullish divergence but zero confirmation and gap risk. Best expectancy is to wait; arm a reclaim of 93.94 to re-debate.",
+    "portfolio": "EWJ: HOLD (0.30) \u2014 no liquidity, stand aside; reclaim 93.94 to re-debate."
+  },
+  "timestamp": "2026-07-07T16:09:53.482866+00:00"
+}

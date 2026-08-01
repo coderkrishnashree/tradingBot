@@ -1,0 +1,28 @@
+{
+  "symbol": "XAUT/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.6,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "none",
+  "forecast": "Price rejected 4152.7 (last 15m bar closed near its low at 4137.8 after tagging 4152.7); expect a pullback/consolidation toward 4108-4115 over the next 2-6 bars. A clean pullback-and-hold there is the long entry; a decisive close above 4152.7 reopens continuation.",
+  "expectancy_note": "p(win) on a chase-long here ~0.4: RSI 76.7 / stoch 90 / %B 1.01 / +2% VWAP into 4152.7 wall with crowded L/S 2.56 = routine counter-bounce hits any honest stop first. HOLD beats a late long or a short into ADX 83.",
+  "rationale": "XAUT is EXTREMELY extended (RSI 76.7, ADX 83, stoch 90, %B just above upper band, +2% VWAP) and the final 15m candle rejected the 4h resistance 4152.7, closing near its low \u2014 the account's #1 loss pattern is exactly this late continuation entry. Crowded longs (L/S 2.56) into strong DXY add reversal risk with no <48h catalyst to force the break. Wait for a 4108-4115 pullback or a confirmed break-and-hold above 4152.7.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 4153.5,
+    "expires_min": 240,
+    "note": "A decisive 15m close above 4152.7 proves the wall broke and reopens a continuation long on a controlled retest."
+  },
+  "transcript": {
+    "macro": "Regime MIXED. Strong DXY (13-mo high) and elevated real yields cap gold, but tape shows XAUT ripping intraday. L/S 2.56 crowded, RSI 76.7 / ADX 83 / stoch 90 at 4h resistance 4152. Momentum real and outperforming (RS -6.3%) but EXTREMELY extended \u2014 chase risk. Prefer pullbacks.",
+    "sentiment": "XAUT BULLISH bias, macro-driven. Near record (~$4,140). Driver is Fed rate-cut bets vs sticky 4.2% June CPI and firm DXY \u2014 two-sided. No fixed <48h data print this window; momentum can continue but overbought, risk is a sharp macro-headline reversal.",
+    "analyst": "Gold stretched into 4152.7 resistance with a rejection bar and crowded longs \u2014 the textbook late-continuation trap. No positive-expectancy trade at spot. HOLD; armed breakout trigger above 4153.5, otherwise wait for the 4108-4115 dip.",
+    "portfolio": "XAUT: HOLD (0.60) \u2014 extended into resistance, rejection bar; wait for pullback or confirmed breakout."
+  },
+  "timestamp": "2026-07-22T14:31:43.320099+00:00"
+}

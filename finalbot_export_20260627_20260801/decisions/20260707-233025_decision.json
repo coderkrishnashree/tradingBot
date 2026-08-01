@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "SNDK/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Choppy overnight two-way action between the 1574 flush low and 1620-1650 supply; likely a dead-cat bounce toward 1615-1640 before the next directional resolve, not a clean continuation from here.",
+  "expectancy_note": "Both sides negative expectancy now: shorting an RSI-18.8, -6.6% below-VWAP extreme into flagged squeeze risk is chasing; longing a knife in a bearish memory tape fights macro. 4.88% ATR forces wide stops that wreck R:R until price returns to a level.",
+  "rationale": "SNDK is the weakest, most volatile name (RS -20.9%, ATR 4.88%) but is deeply stretched: 4h RSI 18.8, bb_pctb 0.055 at the lower band, 6.6% below VWAP, in a thin/gappy post-cash-close tape with Asia gap and short-squeeze risk explicitly flagged. Recent 15m bars show a failed bounce off 1654 and a fresh flush to 1574 that closed back up near 1586 \u2014 momentum down but no clean entry either way. No fresh binary catalyst inside the 48h window; the disciplined move is to wait for a better short at supply or confirmation on a support break rather than chase the extreme.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 1642,
+    "expires_min": 240,
+    "note": "A push back into the 1620-1650 supply zone that then rejects offers a low-risk short near VWAP with structure above; reclaim there re-arms the short thesis at a proper price."
+  },
+  "transcript": {
+    "macro": "Regime HOSTILE for semis longs / supportive for shorts but mechanically risky on timing. July 7 chip/memory risk-off: Nasdaq -1.16%, Philly Semi -5%+, from Samsung record-Q2-but-priced-in + DeepSeek unveiling own AI inference chip. Memory is epicenter (MU/SNDK/WDC 'bear market'). Counter-narrative: UBS/BofA 'healthy reset' in a memory supercycle, HBM bottleneck into 2027 -> positioning washout raising squeeze risk on crowded shorts. Scan ran 23:25 UTC, ~3.5h after US cash close \u2014 thin/gappy overnight books, Asia-open gap risk; size down. BTC correlation low. SNDK (short cand., score -0.38): moves with MU (corr 0.82), down ~7%, ADX 61.5, 4h RSI 18.8 deeply oversold, RS -20.9% (weakest), bb_width 22%, ATR 4.88%, structure_bias -0.30, funding slightly positive \u2014 extended + thin overnight, mean-reversion snapback risk real.",
+    "sentiment": "Overall tech/semis RISK-OFF, near-term bearish \u2014 memory correction after H1 run; trigger Samsung July 2 prelim Q2 (record profit but ~6% ahead -> profit-taking + supply-glut fears). SNDK bearish/high-risk, MOST volatile of the group: up ~635-858% YTD, highest-beta memory name, led July 2 decline (-11-14%), swinging violently $1,680-$1,845 intraday July 7. Bullish long-term (NAND contract prices up into 2026, Goldman PT +83%, Gartner NAND +up to 234% in 2026) but hours-to-2-day horizon is a profit-taking/rebalancing tape where sentiment dominates. Outsized moves both directions; riskiest of four; no earnings inside window.",
+    "analyst": "Macro/sentiment bearish and SNDK is the weakest name (RS -20.9%), but counter-signals are loud: 4h RSI 18.8 extreme oversold, 6.6% below VWAP, at the lower Bollinger band, ATR 4.88% enormous, thin overnight (~3.5h after cash close) with Asia gap risk and flagged short-squeeze risk (crowded shorts, HBM supercycle counter-narrative). 15m shows a failed bounce off 1654 and a fresh flush to 1574 that closed back up near 1586 \u2014 no clean entry either side; 4.88% ATR forces stops so wide they blow R:R. NO TRADE. HOLD and wait for a lower-high rejection near 1620-1650 supply to short, or a loss of 1491 support to confirm continuation.",
+    "portfolio": "HOLD SNDK \u2014 weakest/most volatile memory name but far too stretched and thin to short here; wait for a rip into 1620-1650 supply or a support break."
+  },
+  "timestamp": "2026-07-07T23:30:25.041785+00:00"
+}

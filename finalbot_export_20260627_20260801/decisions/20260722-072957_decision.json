@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "SOL/USDT:USDT",
+  "size": 0.0,
+  "entry": 77.1,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Tight ledge 77.08-77.29 above the 76.95 swing low with volume drying (168k flush bar down to 21k) - either a small VWAP-reversion bounce toward 77.6-78.0 or a fresh break of 76.95 that opens 76.4 then 75.8; next 2-4 bars decide.",
+  "expectancy_note": "Fresh short from 77.1 has LTF RSI 29.8 into a dried-up flush (chase risk, ~0.45 p-win); honest stop above 77.9 vs 76.4 target is sub-1.5 R:R. Waiting for the 76.95 break beats entering mid-consolidation.",
+  "rationale": "Crowded net-longs (L/S 2.484), high BTC-dominance risk-off tape and SOL lagging BTC -13.7% all lean short, but price just flushed 1.3 units into VWAP with 15m RSI at 29.8 and selling volume collapsing - entering here is the account's classic late-short-into-stretched-tape mistake, where the counter-bounce stops me before continuation. No clean R:R>=1.5 short from 77.1 (stop must sit above 77.9, target 76.4). Better to wait: a decisive close below 76.95 confirms the down-leg resumes and I take the short with the crowd trapped; a bounce to 77.9-78.0 sets up a cleaner fade at the level.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 76.9,
+    "expires_min": 240,
+    "note": "Losing the 76.95 consolidation low on volume confirms the flush resumes toward 76.4/75.8 - take the short with trapped longs, not before."
+  },
+  "transcript": {
+    "macro": "Crypto cautious/risk-off. BTC ~$65.8k, dominance high 56.3% (capital NOT rotating into alts), F&G 29, BTC soft. SOL structure leans short (5m -0.84, 15m -0.34 rolling over, 4h neutral), RSI 57, ADX 24.9 (weaker trend), support 73.30 / resist 79.01. Derivatives: funding flat, OI 6.45M, L/S 2.484 (heavily net-long crowd, max contrarian-bearish), orderbook +0.112, structure_bias -0.258 -> supports SHORT. High BTC corr 0.791, rel strength -13.72% vs BTC. SUPPORTIVE for SHORT; biggest risk is a BTC bounce off support squeezing the short - watch BTC not SOL alone.",
+    "sentiment": "No imminent scheduled binary in next 24-48h. F&G ~28 fear, SOL-specific gauges neutral ~51-52, SOL chopping ~$77. Contained: ~$20M BonkDAO governance-attack exploit hit ecosystem memecoin BONK not the L1; network clean; SOL didn't break range - minor negative overhang. July heavy unlock month (pump.fun ~$124M) mild SOL-negative bleed. Mild positives: BSOL ETF small daily inflows, Grayscale fee cut, tokenized-stock analytics platform (structural, not 48h). Directional NEUTRAL, slight bearish tilt; trade on price/structure not news.",
+    "analyst": "SOL last 77.10. Tape flushed from ~78.38 to a 77.08 low on expanding volume (168k on the 77.25 bar), now consolidating a tight ledge 77.08-77.29 just above the 76.95 swing low with volume drying (114k->21k). Price AT VWAP (-0.04%) so not extended, but LTF stretched down: 15m RSI 29.8 / 5m RSI 41. Fresh short here would enter after a clean flush into a dried-up move - classic late-short-into-stretched-tape loss pattern where a counter-bounce hits an honest stop before continuation. Crowded L/S 2.484 supports shorts but don't chase into the flush. HOLD; take the short on a decisive break of 76.95 with volume, or fade a bounce to 77.9-78.0.",
+    "portfolio": "SOL: HOLD (conf 0.50) - short bias real but LTF flushed and stretched; wait for a 76.95 break with volume or a bounce to fade, don't chase."
+  },
+  "timestamp": "2026-07-22T07:29:57.914571+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "MSFT/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Spike to 391 was fully rejected (last 15m bar closed 387.79 after tagging 391); expect chop 386.5-390 near-term, more likely a fade toward 384-385 than a reclaim of 391, but no clean trigger yet and CPI tomorrow caps conviction.",
+  "expectancy_note": "Long = chasing overbought (1h RSI 77), offered OB -0.28, crowded L/S 1.50 into a rejected spike: negative expectancy. Short = no level at price, mid-range, VWAP flat +0.37%, CPI risk overnight. Neither clears R:R 1.5; HOLD is highest expectancy.",
+  "rationale": "MSFT is a genuinely mixed tokenized equity: composite long is a lagging momentum read while the last 15m bar printed a hard rejection of the 391 spike back to 387.79, and structure (OB -0.28 offered, L/S 1.50 crowded long) argues against fresh longs. Shorting has no clean level at price (mid-range 373.78-395.85, VWAP only +0.37%) and June CPI hits tomorrow 08:30 ET where macro mandates no overnight equity-token size. No setup clears R:R 1.5, so stand aside and let a level pick direction.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 386.5,
+    "expires_min": 240,
+    "note": "Losing 386.5 (last bar's low / spike-base) confirms the failed-breakout fade with macro short bias; opens a short toward 384/383 with the rejection high 391 as stop."
+  },
+  "transcript": {
+    "macro": "Env MIXED-to-SHORT-biased; fade bounces over fresh longs, small size. June CPI Tue Jul 14 08:30 ET + earnings kickoff Jul 14-15 inside 48h. Crypto risk-OFF (BTC ~$62.3k, Extreme Fear ~23). MSFT: composite long (score +0.45, 1h RSI 77 hot) but structure_bias -0.234 (L/S 1.50 crowded long, OB -0.28 offered) \u2014 conflict, size small either way. Hard rule: trim/close before CPI, no overnight equity-token size.",
+    "sentiment": "MSFT worst mega-cap performer H1 (-11 to -23%) on $190B capex worry/valuation; cheapest P/E in cloud group. UK cloud financial-sector supervision starts today Jul 13 (regulatory, not a price catalyst). Earnings Jul 29 (far off). Near-term news neutral; the scan's long lean is not news-supported.",
+    "analyst": "Last 15m bar is a full bull-trap: spiked to 391 then closed 387.79. 1h RSI 77 overbought, OB -0.28 offered, L/S 1.50 crowded long all say upside exhausted \u2014 but short has no level at price (mid-range, VWAP flat) and CPI is tomorrow. Neither side clears R:R 1.5. HOLD; short opens only on loss of 386.5.",
+    "portfolio": "HOLD MSFT \u2014 mixed; no clean level, CPI risk. Short armed on loss of 386.5."
+  },
+  "timestamp": "2026-07-13T14:07:36.362549+00:00"
+}

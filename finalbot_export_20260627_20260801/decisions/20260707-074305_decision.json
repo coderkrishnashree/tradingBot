@@ -1,0 +1,27 @@
+{
+  "action": "hold",
+  "symbol": "QQQ/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "expectancy_note": "Bearish 30m/1h (~-0.9, RSI 34-40) but price sits AT lower band (bb%b -0.011, stoch 26.6) into support 705.83 in a CLOSED, thin US-cash tape; shorting the low here is chasing = poor entry expectancy. Better to short a bounce to ~721 or a clean break of 705.83.",
+  "rationale": "Tokenized Nasdaq-100 ETF, so crypto structure (thin OI 4,179, neutral L/S) is noise; judge on technicals + macro. Momentum is genuinely down on meaningful TFs, but I'd be initiating a short at the lower Bollinger band with oscillators oversold and cash market closed (07:37 UTC) \u2014 a donation entry into support with gap risk. No 48h binary. Highest-expectancy action is to wait: fade a bounce back to VWAP/mid (~721) or join a break of support 705.83. Size 0 until one triggers.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 705.83,
+    "expires_min": 240,
+    "note": "Losing support 705.83 turns the pullback into a downside continuation leg and makes the short entry-ready with a clean stop back above the level."
+  },
+  "transcript": {
+    "macro": "Regime cautiously risk-on at index level but bifurcated; Jul 7 AM futures soft, tech/semis lead down (NDX futures -0.9%). Hawkish Fed (Warsh), inflation ~4.2% = not buy-every-dip. US cash CLOSED at 07:37 UTC = thin/gappy perps, 5m green flips noise. QQQ MIXED, mild short lean: index tape fine but momentum down (1h/30m ~-0.88, RSI 34-40, bb%b -0.011), ~50% tech weight inherits semi selloff. Neutral positioning (L/S 1.09, orderbook +0.12), OI thin 4,179 = gap risk. Lower conviction than single-name semis.",
+    "sentiment": "No single-name catalyst; QQQ = the tape. Consolidating below recent highs, momentum mildly bearish, long-term trend up. SpaceX added to Nasdaq-100 effective Jul 7 \u2014 minor rebalance flow, non-directional. Watch hawkish Fed; Mag-7 earnings none inside 48h. Tilt: neutral-to-bearish near-term, consistent with scan short.",
+    "analyst": "Momentum is down on the meaningful TFs (30m/1h ~-0.9, RSI 40) but price 717.42 sits AT the lower Bollinger band (bb%b -0.011), stoch 26.6, -0.56% vs VWAP, with support 705.83 only ~1.6% below. Shorting the low of the band in a closed, thin tape is chasing into support = poor entry expectancy. Prefer fading a bounce toward VWAP/mid (~721) or joining a clean break of 705.83. HOLD, size 0; reconsider on a break below 705.83.",
+    "portfolio": "HOLD QQQ \u2014 bearish tilt but shorting the lower band into support is a chase; wait for a bounce or a break of 705.83."
+  },
+  "timestamp": "2026-07-07T07:43:05.241725+00:00"
+}

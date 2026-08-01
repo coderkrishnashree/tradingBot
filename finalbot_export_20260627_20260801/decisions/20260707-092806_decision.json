@@ -1,0 +1,27 @@
+{
+  "action": "hold",
+  "symbol": "QQQ/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "expectancy_note": "Short at %B 0.01 / 1h RSI 23 into positive orderbook & up underlying trend = low-p fade; long pre-open into thin/gappy vacuum = negative EV. Best EV is waiting for US open + VWAP reclaim.",
+  "rationale": "US cash market is CLOSED so this tokenized-equity perp is thin/gappy, mean-reverting Monday's up-close on a stale oversold 1h RSI 23 with price pinned to the lower band (%B 0.01). Structure is near-neutral to mildly bullish (bias +0.02, orderbook +0.18, longs not crowded at 1.103, rel strength +1.41), and the underlying trend is UP into a risk-on tape \u2014 so shorting the exhaustion print is poor expectancy while chasing a long into the pre-open vacuum invites gap risk. The high-EV play is to wait for the 13:30 UTC open and a VWAP/pivot reclaim to confirm the long thesis. No 48h binary catalyst forces a trade now.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 721.0,
+    "expires_min": 300,
+    "note": "Reclaiming the ~721 VWAP/pivot after the US open confirms the pre-open dip is exhausted and buyers are stepping in for the risk-on tape \u2014 flips me to the long side macro flagged as best R/R."
+  },
+  "transcript": {
+    "macro": "Regime RISK-ON at index level but timing HOSTILE intraday: US cash CLOSED (~09:23 UTC, opens 13:30) so perps thin/gappy, trading off Monday's close; all four fading the up-close on stale oversold 1h prints. Fed on hold, no cut coming, no Tier-1 data/FOMC in 48h; BTC chop/dead. QQQ (last 716.5): cleanest proxy for the risk-on tape (Nasdaq +1.12% Mon, corr 0.82 to NVDA), structure near-neutral (bias +0.02, orderbook +0.18) but composite short on stale 1h RSI 23; underlying trend UP, perp mean-reverting pre-open. Best long-side R/R of the four once US opens; premature to short into strength.",
+    "sentiment": "Overall tech-equity NEUTRAL-to-BEARISH; hawkish Fed valuation headwind. QQQ BEARISH-leaning technically but NO binary catalyst: broke below 50-day Jul 2 on hawkish-Fed repricing, May CPI hot 4.2% y/y; next trigger June CPI Jul 14 (outside window). Downtrend momentum/rate-driven, no scheduled shock in 48h; short lean is a chart call not a headline.",
+    "analyst": "QQQ last 716.52, support 705.83, resistance 737.88, ATR% 0.49. Composite short (blended -0.394, aligned), RSI 39.2 4h / 1h RSI 23 (stale oversold), ADX 29.8, BB %B 0.01 (pinned lower band), width tight 1.4%, stoch 19.3, VWAP -0.67%. Structure mildly bullish: bias +0.02, orderbook +0.18, long/short 1.103 (not crowded), funding ~0, rel-strength +1.41. Chart short-aligned but oversold-exhausted vs a mildly bullish micro-structure and UP underlying trend into risk-on tape. Shorting exhaustion into buy-side support = low-p; longing pre-open vacuum = gap risk. HOLD; arm 721 VWAP reclaim post-open to flip long.",
+    "portfolio": "HOLD QQQ \u2014 best long-side R/R of the basket but must wait for the US open + ~721 VWAP reclaim to confirm; no clean short into the oversold, mildly-bullish micro-structure."
+  },
+  "timestamp": "2026-07-07T09:28:06.557168+00:00"
+}

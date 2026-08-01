@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "COIN/USDT:USDT",
+  "size": 0,
+  "entry": 166.58,
+  "stop_loss": 171.67,
+  "take_profit": 160.1,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.34,
+  "playbook": "none",
+  "forecast": "Into/after the 16:00 ET cash close COIN likely drifts sideways-to-lower in thin overnight liquidity, chopping between the defended $160.10 low and $171.67 high; no clean directional path until BTC resolves its $64.7k rejection or COIN loses $160.",
+  "expectancy_note": "p(win) ~0.5 at best with no COIN ATR/structure to anchor a stop; naked short into a thin, gap-prone close = poor R:R. HOLD beats a low-conviction fade with no verifiable levels.",
+  "rationale": "COIN was rate-limited out of this scan \u2014 no funding/OI/ATR/structure rows exist, so I cannot size a stop that survives noise or an overnight gap. Both macro and sentiment lean short but only weakly, and the tape is genuinely two-sided: price sold to $160.10 then bought back +4% to close $166.58, so buyers defended the low rather than a one-way breakdown. Entering a naked short minutes before the US cash close, after which the perp goes thin and gappy, is negative expectancy on missing data. Size 0; wait for either a clean $160 loss (confirms breakdown) or better data next cycle.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 160.1,
+    "expires_min": 240,
+    "note": "Losing the defended day-low reclaim zone confirms sellers regained control and justifies re-debating a short with a real breakdown level."
+  },
+  "transcript": {
+    "macro": "COIN is a US-listed crypto-exchange equity traded as a perp; drivers = Nasdaq/crypto-equity beta + BTC beta, subject to US market hours. Scan snapshot ~15:50 ET, US cash close minutes away (thin/gappy overnight after 16:00 ET). Broad regime leans risk-off: Nasdaq ~-1.4%, S&P ~-0.6% on a Samsung semis miss (semis ~-5.5%), a pullback within an otherwise firm tape. Crypto soft-but-stable: BTC ~$63-64k, chop (ADX 8.1), pinned under resistance ~64,703 with bearish divergence, orderbook_imbalance -0.558. COIN rate-limited OUT of this scan \u2014 no COIN-specific funding/OI/L-S/orderbook/ATR data. Proxies: MSTR composite short, RS -16.63% vs BTC (crypto-equity basket lagging); HOOD composite short, orderbook -0.476, 15m RSI 22.5. COIN closed $166.58, bounced +4% off day low $160.10, high $171.67 = two-sided. MACRO BIAS: COIN short-lean but LOW conviction, small size, avoid holding naked through the cash close; broad market neutral-to-risk-off.",
+    "sentiment": "Tone bearish/risk-off near-term, driven by crypto selloff not COIN-specific news (Extreme Fear, record June crypto-ETF outflows ~$4.06B). Fundamentals soft: Q1 2026 miss (EPS -$1.49 vs +$0.29 exp). NO COIN-specific binary catalyst inside 48h; next earnings July 30, 2026 (outside window). Longer-horizon bullish inputs (US Tiger upgrade PT $200, ~$229 avg target, stablecoin/AI narrative) but should not override short-term risk-off read. Overhang: NY AG lawsuit (slow-burn). Watch BTC $60k reclaim vs rejection. SENTIMENT BIAS: BEARISH (near-term).",
+    "analyst": "Short-lean but no COIN-specific structure to anchor entry/stop/target, and the +4% intraday reclaim off $160.10 shows two-way flow rather than a clean breakdown. Entering a naked short into the cash close with no ATR/structure and overnight gap risk is negative expectancy \u2014 cannot place a stop that survives a gap on data you don't have. Textbook NO TRADE / HOLD. Reconsider trigger armed: losing $160.10 confirms the breakdown and justifies re-debating a short.",
+    "portfolio": "COIN \u2014 HOLD, size 0, conf 0.34: bearish lean but missing data + two-sided close + cash-close gap risk = no trade; reconsider on a clean loss of $160.10."
+  },
+  "timestamp": "2026-07-07T19:53:13.168201+00:00"
+}

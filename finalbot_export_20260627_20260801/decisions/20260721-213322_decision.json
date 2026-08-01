@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "CRCL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price digests in a 70.7-71.3 box under resistance 72.66; next few bars either spike into 72.66 (fade zone) or lose the 69.9 shelf and flush toward 68.8-VWAP. Mid-box at 70.79 offers no honest R:R either way.",
+  "expectancy_note": "No entry clears R:R>=1.5: long is a chase (RSI 88, +4.6% VWAP, MAX-crowded, model weights all negative) and account shorts win only 45%. Waiting for the 72.66 fade or 69.9 breakdown is higher expectancy than a mid-range guess.",
+  "rationale": "CRCL is a hyper-extended blow-off-prone tape: RSI 88, ADX 84, +4.6% VWAP, long/short 2.08 (max-crowded) with structure_bias -0.31 - the exact profile the account's model flags for losses on longs. Candles show momentum stalling at 71.3-71.9 with drying volume, but no breakdown yet, so a short is premature (account shorts bleed at 0.45 win). Best expectancy is to stand aside and let price resolve to a real level.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 69.85,
+    "expires_min": 240,
+    "note": "Losing the 69.9 shelf that held earlier confirms the blow-off has topped and opens a momentum short toward 68.8/VWAP."
+  },
+  "transcript": {
+    "macro": "CRCL ~$71, corr 0.46 to BTC - hottest tape: RSI 88, ADX 84, long/short 2.08 (MAX-crowded), bias -0.31. Trend intact w/ BTC risk-on but BLOW-OFF-PRONE. Smallest size. Regime risk-on but late after-hours thin/gappy.",
+    "sentiment": "CRCL BULLISH bias, fresh but not binary. Jul 20 jumped ~8-9% after OCC greenlit its Circle National Trust bank charter (core USDC custody/reserve plumbing). Offsetting risk: Visa/Stripe competing stablecoin rails. Extremely overbought (RSI 88, +4.6% VWAP). No scheduled <=48h catalyst; OCC pop largely digested -> momentum-vs-exhaustion, roughly neutral.",
+    "analyst": "Hyper-extended blow-off: RSI 88, ADX 84, +4.6% VWAP, max-crowded long - every relevant model weight is negative, so longing is the #1 loss pattern. Momentum stalling at 71.3-71.9 with drying volume, but no breakdown yet, so a short is premature (account shorts win only 45%). No honest R:R mid-box; HOLD and arm a 69.85 breakdown short.",
+    "portfolio": "CRCL: HOLD (conf 0.60) - hyper-extended blow-off digesting; short only if it cracks the 69.85 shelf."
+  },
+  "timestamp": "2026-07-21T21:33:22.829019+00:00"
+}

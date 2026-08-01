@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "HOOD/USDT:USDT",
+  "size": 0.0,
+  "entry": 99.68,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Price pinned at 99.5-99.7 on dead off-hours volume (most 15m bars <1 unit traded); no directional impulse to forecast. Expect flat drift until US cash reopens; the real move waits on a break of support 96.68 (downtrend resumes) or a reclaim above VWAP.",
+  "expectancy_note": "No edge either way: shorting is chasing a move already -6.5% below VWAP with 4h RSI 6 (a bounce would stop me = account's #1 loser); longing fights bearish risk-off macro + crowded 1.79 long on zero-volume tape. p(win) near coinflip, no R:R worth taking.",
+  "rationale": "HOOD had a sharp 4h selloff (RSI 6, MACD -3.39, -6.5% vs VWAP) that has stabilized on 15m/30m/1h, but only via dead-flat drift on near-zero off-hours volume, not a genuine bid. Shorting now chases a fully-extended, deeply-oversold move into a probable counter-bounce; longing fights a risk-off macro, crowded long ratio (1.79), and lagging RS (-7.2%). With thin/gappy tape and no move to express, the highest-expectancy action is to stand aside. Size 0.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 96.68,
+    "expires_min": 360,
+    "note": "Losing support 96.68 proves the 4h downtrend has resumed with a real supply push (not dead drift), giving a clean trend-continuation short aligned with the bearish macro."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF/defensive. HOOD: macro BEARISH/CAUTIOUS. Highest BTC beta of group (corr 0.52; 0.77 to COIN) so inherits equity risk-off + soft crypto tape (crypto rev ~-47% y/y). RS -7.2% vs BTC (lagging). Long/short 1.79 = crowded long into weak tape (supports fade/short). Event risk: Q2 earnings after close Wed July 29 \u2014 outside window. Thin off-hours.",
+    "sentiment": "HOOD NEUTRAL near-term, positive lean into the event. No imminent 48h binary: Q2 earnings Wed July 29 after close (~$0.40-0.41 EPS, $1.23B rev est), 11 days out. Tone constructive (Moderate/Strong Buy consensus, prediction-markets + crypto-volume tailwind) but long-horizon narrative, not tradeable now. HOOD mostly moves with broad tech/QQQ risk sentiment until the print.",
+    "analyst": "Last 99.68. Sharp 4h selloff (RSI 6, MACD -3.39, -6.5% vs VWAP) stabilized on LTFs but only via dead-flat drift on near-zero off-hours volume. Shorting chases an extended oversold move into a likely bounce; longing fights bearish macro + crowded 1.79 long. Dead tape, no move to trade. HOLD, size 0.",
+    "portfolio": "HOOD: HOLD (conf 0.50) \u2014 dead off-hours tape, no edge; short only on a break of 96.68."
+  },
+  "timestamp": "2026-07-18T22:41:11.817336+00:00"
+}

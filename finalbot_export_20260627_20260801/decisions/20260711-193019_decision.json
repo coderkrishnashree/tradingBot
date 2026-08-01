@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "QQQ/USDT:USDT",
+  "size": 0.0,
+  "entry": 729.17,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price coils in the 728-730 band under hard resistance 730.3; most likely it either fails and fades toward VWAP ~717/support 726 on a rejection wick, or needs a clean volume-backed break above 730.3 to extend toward 735. Neither trigger is present, so next few bars stay range-bound chop.",
+  "expectancy_note": "No edge: long chases 80-RSI/stoch-92 index into resistance before CPI (the account's late-continuation loss pattern); short has no rejection/divergence in an ADX-47 uptrend. p(win) on either sub-0.5 with negative expectancy; HOLD dominates.",
+  "rationale": "QQQ is extremely stretched (4h RSI 80.1, stoch 91.9, %B 0.79, +1.61% vs VWAP) and pinned at resistance 730.3 with thin, drifting volume and no rejection candle yet. Structure is only mildly positive and this is a tokenized equity with June CPI Jul 14 plus weekend gap risk - carrying size into an overbought record high before a binary is poor risk. Best expectancy is to wait for either a confirmed breakout-and-hold above 730.3 (momentum long) or a clean rejection back under 726/VWAP (short); size 0 until one prints.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 730.5,
+    "expires_min": 240,
+    "note": "A decisive volume-backed reclaim and hold above resistance 730.3 turns the coil into a breakout, flipping this to a momentum long toward 735."
+  },
+  "transcript": {
+    "macro": "Regime: risk-on but late-stage/stretched. Nasdaq/QQQ record highs, VIX ~16 (complacent). Fed hawkish under Warsh (funds 3.50-3.75%, June dots showed 9 seeing a hike, PCE proj 3.6%). June CPI Mon Jul 14 = biggest cross-asset event risk, inside hold window. Tokenized US equities: perps 24/7 but underlyings closed off-hours - thin/gappy overnight & weekend tape. QQQ (729.17): at resistance 730.3, RSI 80.1 (4h)/stoch 91.9 - very extended. structure_bias mildly POSITIVE (+0.126): orderbook +0.44 real bid, long/short 1.02 balanced (NOT crowded), funding flat. Cleaner positioning than TSLA. rel strength -2.26% vs BTC (index lag, fine). OI 5,123 modest.",
+    "sentiment": "QQQ: fragile/nervous at highs. Dominant near-term driver is MACRO: June CPI Tue Jul 14 8:30am ET (consensus ~3.8% vs prior 4.2%) - genuine imminent binary, just past tightest 48h window. Hot number revives Fed rate-hike risk under Chair Warsh (his first Congressional testimony also Tue; June FOMC minutes Wed); VXN ~18. Megacap earnings (NVDA/MSFT/AMZN) weeks out. Index just under record ~29,500, extreme stretch (4h RSI ~80, stoch ~92). No <48h catalyst today but CPI Jul 14 large scheduled risk - caution on chasing longs. Tokenized equity: weekend gap risk before Mon/Tue catalysts.",
+    "analyst": "Long = chasing an 80-RSI index into hard resistance at record highs right before CPI (the 'enter continuation after the move' loss pattern) - a routine counter-bounce/rejection off 730.3 hits any honest stop. Short = strong ADX-47 uptrend, positive orderbook, no bearish divergence or rejection candle yet = low-expectancy. Coiled under resistance with no trigger and extreme stretch. HOLD; reconsider armed at 730.5 breakout - a decisive volume-backed reclaim flips to a momentum long, else a rejection under 726/VWAP opens a short.",
+    "portfolio": "QQQ/USDT:USDT - HOLD (conf 0.60), size 0; wait for breakout/hold above 730.3 or rejection under 726."
+  },
+  "timestamp": "2026-07-11T19:30:19.237106+00:00"
+}

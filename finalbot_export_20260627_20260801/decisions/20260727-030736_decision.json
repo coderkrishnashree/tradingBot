@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "HOOD/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price coils 96.25-97.33 over the next few bars; the 15m has stalled flat (RSI 48) after rejecting 97.59 on heavy volume, so I expect chop into the FOMC/earnings wall rather than a clean directional leg. Only a decisive reclaim of 97.6 would signal momentum resumption.",
+  "expectancy_note": "No edge: a long near 97 with an honest stop <96.25 is only ~1:1 to the 97.6-98 cap, and HOOD reports Q2 after close Wed (fell 13.2% on Q1) - swinging into that gap is negative expectancy. p(win) on any entry here ~0.5 with fat gap tails.",
+  "rationale": "HOOD is a maxed-crowded-long (L/S 2.15, funding+), RSI-74 stretched laggard (-20% vs BTC) coiling under 97.3 with the mid-TF momentum flat - precisely the extended/crowded chase this account loses on. The dominant factor is the hard binary earnings print Wed 7/29 after close plus FOMC Wed, inside the holding window; there is no R:R>=1.5 setup that survives that gap risk. Correct action is to stand aside and wait for either a confirmed range break or the event to clear.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 97.6,
+    "expires_min": 240,
+    "note": "Reclaiming the 97.59 swing high on volume breaks the 96.25-97.33 coil upward and would justify a small, tight-stop momentum long - but only if triggered well before the Wed earnings print."
+  },
+  "transcript": {
+    "macro": "2026-07-27: Mixed-to-hostile, event-gated. FOMC Wed 7/29 2pm ET; MSFT/META Wed close, AAPL/AMZN Thu close. Equities off two losing weeks, Sunday relief bounce. Oil >$100. Crowd lopsided-long, maxed funding -> fade crowded longs. HOOD: ADX 86 strong trend but RSI 74 stretched, rel-strength -20% vs BTC, funding+L/S maxed crowded; high-beta risk name.",
+    "sentiment": "HOOD reports Q2 2026 Wed 7/29 after close - hard binary inside window; fell 13.2% after Q1 miss; consensus ~$0.43 EPS/$1.28B rev; high crypto/retail beta. Do not swing through the print unhedged.",
+    "analyst": "Maxed-crowded-long, RSI-74 stretched laggard coiling under 97.3 with mid-TF momentum flat - the extended/crowded chase this account loses on. Hard earnings+FOMC binary Wed dominates; no R:R>=1.5 setup survives the gap. HOLD, reconsider only on a reclaim of 97.6 before the print.",
+    "portfolio": "HOOD: HOLD - stretched crowded long into Wed earnings; stand aside."
+  },
+  "timestamp": "2026-07-27T03:07:36.360970+00:00"
+}

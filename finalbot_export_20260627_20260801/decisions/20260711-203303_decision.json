@@ -1,0 +1,26 @@
+{
+  "symbol": "MU/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.62,
+  "size": 0,
+  "entry": 987.61,
+  "stop_loss": 968.0,
+  "take_profit": 1010.0,
+  "playbook": "none",
+  "forecast": "Weekend cash-closed tape stays pinned 984-990 on near-zero volume; no directional resolution until Monday's US open.",
+  "expectancy_note": "No edge: nearest structure (S 876 / R 1049) is 6-11% away, honest stop >1.5xATR with no target inside R:R 1.5; crowded-long book + bear-market label cancel the trend regime.",
+  "rationale": "MU is a tokenized equity with US cash CLOSED Saturday - price pinned near Friday close on dead volume, 15m only micro-drift with no momentum or nearby level. Structure conflicted: composite says trend (ADX 38.7) but book crowded long (L/S 1.57, bias -0.18), MU entered a bear market with good news faded, lags BTC -15.6%, CPI binary Tuesday. No R:R>=1.5 setup near price, so stand aside and let Monday's open define direction.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 992.0,
+    "expires_min": 240,
+    "note": "Decisive Monday reclaim above the weekend pin ~992 confirms semi/memory bid re-engaging and justifies a momentum long."
+  },
+  "transcript": {
+    "macro": "Cycle 2026-07-11. Scan taken Saturday, US cash equity CLOSED - targets thin/gappy/pinned near Friday close, funding 0.0. Regime RISK-ON but late-stage/stretched: Fri S&P 7,575, Nasdaq 26,281 near records, VIX 15 calm; 10Y 4.56% mild headwind. BIG event risk inside 48h: CPI Tue Jul 14, PPI Wed, Retail Sales Thu, bank earnings Tue-Wed - argues smaller size / don't chase. Semis/memory (MU, SNDK) hottest theme ('supercycle', DRAM +62%/NAND +75% 2026), memory selloff reversed Wed +6%. But parabolic (MU +300% YTD), crowded-long books (MU L/S 1.57). MU rel strength vs BTC -15.6% (laggard). Verdict: cautious longs on semi/memory theme but overbought + crowded + CPI binary in window.",
+    "sentiment": "MU (Micron): Blowout Q3 FY26 already reported (rev $41.5B +346% YoY; guided ~$50B next Q). No earnings catalyst near-term (next ~Sept 23). BUT MU officially entered a bear market mid-July - momentum rolled over, good news priced/faded. Neutral-to-bearish short-term. Broader: Nasdaq fragile, hawkish FOMC (dot-plot projecting a hike before year-end), June CPI the primary binary.",
+    "analyst": "Price 987.61 on dead weekend tape, US cash closed. 15m micro-drift 983->988, tapering volume, no momentum. RSI 38.7 (4h), ADX 38.7 (the trend that already ran +300% YTD), %B 0.587, vwap_dist +0.96%, ATR% 1.75. Support 876 / resistance 1049 both >6% away - nothing actionable near price. L/S 1.573 crowded long, bias -0.181. Rel strength -15.6%. No honest R:R>=1.5 exists; short into crowded flat weekend tape with CPI Tuesday is a coin flip. Textbook HOLD; armed upside trigger at 992.",
+    "portfolio": "MU: HOLD (conf 0.62) - no edge on a pinned weekend tape; re-debate on a Monday reclaim above 992."
+  },
+  "timestamp": "2026-07-11T20:33:03.069456+00:00"
+}

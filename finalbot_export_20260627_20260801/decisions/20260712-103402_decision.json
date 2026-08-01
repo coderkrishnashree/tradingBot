@@ -1,0 +1,27 @@
+{
+  "action": "hold",
+  "symbol": "NVDA/USDT:USDT",
+  "size": 0.0,
+  "entry": 210.45,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.6,
+  "leverage": 0,
+  "playbook": "none",
+  "forecast": "Price stays pinned in the 209.9-211.3 pocket into the Monday cash open; most likely chops flat over the next few 15m bars. A clean 4h close above 211.26 opens 214-215; a rejection below 209.5 with the crowded-long book unwinding opens a fade toward VWAP ~206 / support cluster.",
+  "expectancy_note": "No honest entry: long = chasing +1.95% over VWAP into resistance with stoch 92 (bounce hits any stop first); short lacks a trigger and fights a +0.32 buy book on a Sunday gap-risk token. p(win) on either forced entry <0.5 \u2014 HOLD has the best expectancy.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 211.5,
+    "expires_min": 240,
+    "note": "A 4h close/hold above 211.26 resistance turns the pin into a real breakout with buy-book support, opening a long toward 214-215 on a valid trigger rather than a chase."
+  },
+  "rationale": "NVDA is a tokenized equity (crypto structure metrics muted; US cash closed Sunday = thin/gappy, Monday-open gap risk). It is extended and capped: pinned at 211.26 resistance, RSI 70 / stoch 92 / +1.95% over VWAP, with the last ~20 15m bars grinding sideways on drying volume \u2014 a stall, not a confirmed breakout (no rising-OI thrust). Longing here chases into the cap (the book's proven loss pattern); shorting has no rejection trigger and fights the +0.32 buy-side book. No \u226448h catalyst, so wait for the level to resolve rather than pay for a coin-flip. Size 0.",
+  "transcript": {
+    "macro": "Regime NEUTRAL. Risk-on tape but late-cycle/jittery after a ~$1T semi selloff (AI-capex scare) then Mag-7 rebound; Sunday = US cash closed, equity tokens thin/gappy off Friday closes, Monday-open gap risk. NVDA -13% over 30d despite ~70-80% GPU share \u2014 momentum cooled. Scan: 4h RSI 70.3, stoch 92, price 210.45 pinned at resistance 211.26 with a bullish-divergence flag \u2014 extended and capped. Funding ~0; L/S crowded long 1.55; structure_bias -0.07; orderbook is the exception, buy-side +0.32. Scan bias long 35%.",
+    "sentiment": "NVDA neutral \u2014 choppy, no imminent binary. Next earnings late Aug \u2014 nothing in window. Laggard of chip group in 2026 (~-18% from June high), ~$195-210. Two-sided low/medium weight: bearish \u2014 Reuters DeepSeek building own AI chip (NVDA -2%); bullish \u2014 NVIDIA denied Kyber NVL144 delay rumors (roadmap on track, +1%). Analysts 'Strong Buy' ~$300 PT (long-horizon). No \u226448h catalyst.",
+    "analyst": "Extended and capped at 211.26 (RSI 70, stoch 92, +1.95% VWAP) on drying weekend volume \u2014 a stall, not a breakout. Long chases into the cap (loss pattern); short has no trigger and fights the +0.32 buy book. Hold; valid long only on a 4h close above 211.5.",
+    "portfolio": "HOLD NVDA \u2014 extended/capped at resistance on drying tape; arm long above 211.5, no chase."
+  },
+  "timestamp": "2026-07-12T10:34:02.617126+00:00"
+}

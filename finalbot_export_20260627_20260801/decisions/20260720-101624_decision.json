@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "TSLA/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price stays coiled 380-383 around VWAP on thin pre-market volume; squeezed BB (width 1.11%) will eventually expand but the direction is a coin-flip pinned to Wed's earnings, so no tradable next move over the next few bars.",
+  "expectancy_note": "No edge: not a trend pullback (price at VWAP, %B 0.52), no range extreme to fade, and any breakout is a gamble into a ~7.6% earnings binary inside the window \u2014 negative expectancy on all four playbooks vs a clean HOLD.",
+  "rationale": "TSLA is pinned at VWAP (dist +0.07%) with a squeezed 1.11% BB width and RSI 50.7 \u2014 pure chop with no level to trade against and no directional edge. Structure is hostile to longs (crowded L/S 1.924, negative book -0.247, structure_bias -0.35, RS -18%) yet not extended enough to short cleanly. Decisively, Q2 earnings Wed 7/22 after close sit inside the ~48h hold window with ~7.6% implied swing; macro and sentiment both mandate no naked hold into the print, so initiating any position now is negative expectancy. HOLD is the highest-expectancy action.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 377.78,
+    "expires_min": 240,
+    "note": "Losing range/structure support at 377.78 breaks the coil to the downside and confirms the bearish structure_bias, opening a clean short setup toward the next support before earnings."
+  },
+  "transcript": {
+    "macro": "Overall NEUTRAL-to-HOSTILE for fresh longs. Semiconductor-led drawdown. Tokenized-equity pairs thin until 09:30 ET. TSLA: do NOT initiate a hold \u2014 earnings Wed 7/22 after close INSIDE the hold window; structure_bias -0.35 (crowded longs, negative book), RS -18%. Any long must be closed before the print; no overnight holds into 7/22.",
+    "sentiment": "Risk-off, AI/semi unwind. TSLA: HIGH, binary in <48h \u2014 Q2 earnings call Wed Jul 22, 5:30pm ET (after close), options imply ~7.6% swing. Deliveries already known and strong (480,126, ~19% above est.), so the trade is on margins/guidance, not deliveries. Do NOT hold naked into the print \u2014 two-sided event risk, not a directional argument.",
+    "analyst": "TSLA is pinned at VWAP with a squeezed 1.11% BB width (pure chop, no level to trade), structure hostile to longs but not extended enough to short. Decisively, Q2 earnings Wed 7/22 sit inside the hold window with ~7.6% implied swing and a mandate of no naked hold \u2014 initiating anything now is negative expectancy.",
+    "portfolio": "HOLD TSLA \u2014 flat into the Wed 7/22 earnings binary; a break below 377.78 opens a pre-print short."
+  },
+  "timestamp": "2026-07-20T10:16:24.264000+00:00"
+}

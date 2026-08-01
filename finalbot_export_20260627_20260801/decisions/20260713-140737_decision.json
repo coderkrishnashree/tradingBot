@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "EWY/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Live oversold bounce off 168.45 is carrying up; expect price to press toward VWAP ~173.0 over the next 2-6 bars, which is the short-on-rally zone. Below 168.4 would reopen the 166.0 support test.",
+  "expectancy_note": "Market-short now (170.97, 4h RSI 23, LTF RSI 62-66 rising, -1.29% below VWAP) is the exact late-short-into-bounce pattern that bled this book (trend/short/high_adx all ~44-46% win, avg -2.5R); waiting to short the rally into VWAP flips R:R positive. HOLD is highest expectancy.",
+  "rationale": "EWY is an equity token in a strong 4h downtrend (ADX 70) but deeply oversold (RSI 23) and actively bouncing on the 15m/5m (RSI 62-66, higher lows off 168.45, last bar closed near session highs 170.97). Macro is explicit: short rallies not breakdowns, small, no overnight size. Chasing a short here gets run over by the very bounce in progress; the honest short entry is a rally into VWAP ~173. Add binary Wednesday BoK decision + Tuesday CPI inside 48h (both-ways risk) and the account's proven bleed on late trend shorts, and the edge is to wait. Size 0.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 173.0,
+    "expires_min": 240,
+    "note": "Rally into VWAP/resistance ~173 is the short-on-rally entry the macro bias wants; a rejection there sets up a low-risk short with the trend."
+  },
+  "transcript": {
+    "macro": "Env MIXED-to-SHORT-biased; short rallies not breakdowns, small, no overnight size. June CPI Tue Jul 14 08:30 ET inside 48h. EWY: bias -0.173, rel-strength -10.94 (laggard), ADX 70, RSI 23.1 deeply oversold, -1.3% below VWAP; equity-specific (btc_corr 0.36), gaps hard overnight on Korea/semis headlines. Lean SHORT on rallies only.",
+    "sentiment": "EWY bearish but has a \u226448h catalyst: KOSPI in freefall (~6,560, ~26% off highs), BoK rate decision Wednesday expected +25bp to 2.75% into a falling market \u2014 bearish/volatile, event risk both ways. 15% US tariff overhang on autos/steel. Deeply oversold; watch hike-driven bounce or capitulation.",
+    "analyst": "4h deeply oversold (RSI 23, ADX 70) but 15m/5m RSI 62-66 rising off a live bounce from 168.45, last bar closed near highs 170.97. Market-shorting into a live oversold bounce is the account's proven loser; the honest short is a rally into VWAP ~173. BoK Wed + CPI Tue are both-ways binaries. HOLD; short armed on rally into 173.",
+    "portfolio": "HOLD EWY \u2014 deeply oversold mid-bounce; short only a rally into VWAP ~173, BoK Wed event risk."
+  },
+  "timestamp": "2026-07-13T14:07:37.647145+00:00"
+}

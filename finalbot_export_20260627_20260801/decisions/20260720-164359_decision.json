@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "GOOGL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.62,
+  "playbook": "none",
+  "forecast": "Chop/drift between 355 and 360 for the next few bars; the 15m has rolled off the 359.9 high and is pinned near lows, so mild downside pressure toward 353-354, but no clean trend-continuation entry and no structural short trigger yet. Stays range-bound into the July 22 print.",
+  "expectancy_note": "No entry: long = chasing an overbought/extended tape into a confirmed 2-day earnings binary; short = fighting ADX 83.5 uptrend with support (341.86) far off. Both are negative expectancy vs waiting; account data shows shorts (0.47 win, -0.94 avg) and late continuation longs bleed.",
+  "rationale": "GOOGL is a tokenized equity with earnings CONFIRMED Wed July 22 4:30pm ET - a hard binary inside the ~48h window, so no naked directional hold is justified (gap risk dominates any technical edge). The 15m tape just faded a spike from 359.9 back to 355.8 with bars pinned at the lows, so there is no fresh long momentum, while 4h RSI 76.5 / %B 1.16 says extended into resistance. R:R for any entry here is unfavorable relative to simply waiting; size 0.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 349.0,
+    "expires_min": 240,
+    "note": "Losing 349 (base of today's volume spike) confirms the fade has legs and opens a pre-earnings short toward VWAP/support before the binary; above it it is just noise."
+  },
+  "transcript": {
+    "macro": "Mixed, cautiously risk-on session (S&P +0.63%, Nasdaq +1.02%); chips bouncing after a brutal week. Soft June CPI supports risk; Fed 3.50-3.75%. Funding ~0, L/S uniformly crowded-long -> downside squeeze risk. Event risk inside hold window: INTC 7/23, GOOGL 7/22 or 7/28, MSFT 7/28, FOMC 7/28-29. GOOGL strong uptrend (ADX 83.5) but overbought/extended into resistance 379.97; long only intraday/small, stay out of any 2-day hold - pre-earnings gap risk real.",
+    "sentiment": "GOOGL event risk / neutral-into-binary. Q2 earnings CONFIRMED Wed July 22, 4:30pm ET (~2 days out) - hard binary, debate = AI capex vs Cloud growth. Overhang from ~$4.67B EU Android antitrust ruling (July 2) and Gemini 3.5 Pro delays but those priced/long-horizon. Do NOT hold naked directional into the print; lean neutral until Wednesday.",
+    "analyst": "HOLD GOOGL - confirmed July 22 earnings binary plus an overbought/extended tape that just rolled over off its high means no positive-expectancy directional entry; re-debate a short if 349 breaks.",
+    "portfolio": "HOLD GOOGL - respect the confirmed 7/22 earnings binary; no naked directional bet, re-debate a short below 349."
+  },
+  "timestamp": "2026-07-20T16:43:59.221190+00:00"
+}

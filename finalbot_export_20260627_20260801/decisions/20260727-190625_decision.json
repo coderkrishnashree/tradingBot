@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "GOOGL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Choppy drift 325-329 under the 330.5 rejection into FOMC; lower-highs staircase suggests a probe of 324.7 next - a clean break there opens 320/315, while a reclaim of 330 revives the 1h uptrend.",
+  "expectancy_note": "No positive-expectancy entry: long is a chase (RSI 73, %B>1.0, crowded L/S 2.64) = account's #1 loss pattern; short lacks confirmed structure break with 1h still up (0.82). HOLD beats both until 324.7 breaks or 330 reclaims.",
+  "rationale": "GOOGL is stretched (4h RSI 73, bb_pctb 1.047, 4h MACD negative) and a crowded-long laggard (-13.1% rel strength, L/S 2.64, bias -0.30) into a heavy event week (FOMC Wed + mega-cap capex earnings with high sympathy risk). The 15m path is a fading staircase of lower highs under 330.5 - not a base for a fresh long, but not yet a broken structure for a short (support 315 is far). No <48h edge justifies risking capital into that binary; wait for confirmation. Size 0 - the highest-expectancy action here is to stand aside.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 324.69,
+    "expires_min": 240,
+    "note": "Losing the intraday swing low confirms the lower-high fade and flips me short toward 320/315; a reclaim of 330 instead would revive the 1h long."
+  },
+  "transcript": {
+    "macro": "Regime MIXED leaning cautious-risk-off into a heavy event week; chip-led AI/hyperscaler-capex selloff dragging Nasdaq; FOMC Wed 7/29 hawkish-hold risk; mega-cap earnings all week (MSFT, META, AAPL, AMZN) with capex focus = high sympathy risk for GOOGL. GOOGL ~327.8, RSI hot (4h 73, bb_pctb >1.0 extended), structure_bias -0.304 (L/S 2.64 crowded long), rel strength -13.1% vs BTC (laggard), 1h momentum strong (0.82) but 4h MACD negative. Smaller size, respect crowding flag.",
+    "sentiment": "Q2 reported 7/22 - binary PASSED. Revenue $119.8B (+24% beat), EPS ~$2.85 beat, Cloud +82%, op income +30%, BUT stock sold off on 2026 capex hike to ~$205B. No new company-specific <=48h catalyst; trades on Nasdaq/mega-cap tape + FOMC. Scan shows stretched (RSI 73, %B>1.0, rel strength -13%) - mean-reversion risk. NEUTRAL, earnings risk cleared; driver = index beta + Wed FOMC.",
+    "analyst": "Stretched crowded-long laggard: 4h RSI 73, bb_pctb 1.047, 4h MACD negative, rel strength -13.1%. 15m is a fading staircase of lower highs under the 330.5 rejection - not a long base, not yet a broken structure for a short (support 315 far). Longing = the account's #1 loss pattern (chase after the move); short unconfirmed with 1h still up. Stand aside; arm short on loss of 324.69.",
+    "portfolio": "HOLD GOOGL (conf 0.60) - stretched crowded laggard into event week, no edge; reconsider on break <324.69."
+  },
+  "timestamp": "2026-07-27T19:06:25.241722+00:00"
+}

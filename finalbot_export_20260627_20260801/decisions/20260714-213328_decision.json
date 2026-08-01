@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "TSLA/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.58,
+  "playbook": "none",
+  "forecast": "Thin overnight drift keeps TSLA pinned 395-397 near the 391 shelf; either it grinds sideways into support or bounces toward VWAP ~400/405 over the next several bars \u2014 the tradeable event is that bounce, not the current pin.",
+  "expectancy_note": "Shorting 395.88 into 391 support (RSI 26, only ~1.2ATR of room) gives R:R ~1.2 and matches the account's #1 losing pattern (late aligned shorts, win_rate 0.46, aligned weight -0.49); waiting to fade a bounce at ~400 offers far better expectancy.",
+  "rationale": "Structure/positioning favor a short (long/short 2.05, +funding, bias -0.329), but price is glued to the 391 shelf with 4h RSI 26.6 and ADX only 24 \u2014 chasing new lows here catches the bounce that stops honest shorts, exactly how this book bleeds (short win_rate 0.46, trend playbook -2.62 avg). Volume on the last bars is near-zero thin overnight drift, no conviction. Better to wait: a bounce toward VWAP/~400 gives a clean fade WITH the crowded-long flush thesis and proper R:R.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 400.0,
+    "expires_min": 240,
+    "note": "A bounce back through VWAP-area 400 rebuilds room to short the crowded-long positioning with real R:R toward 391; that is the setup worth entering."
+  },
+  "transcript": {
+    "macro": "Regime risk-on 7/14/26 on cool June CPI (headline -0.4% m/m, annual 3.5% vs 3.8% exp); Nasdaq +0.9%, semis led; July Fed hike odds ~20%. Scan stamped ~21:29 UTC = after US cash close \u2014 TSLA 5m/15m are thin overnight tokenized-equity drift. BTC chop/regime_blocked; TSLA BTC-corr 0.27 \u2014 trade mostly as equity. TSLA: last 395.88 (on support 391, resistance 420), funding +0.000241 (longs paying), OI 7968, long/short 2.05 (lopsided long, contrarian-bearish), orderbook imbalance +0.222, structure_bias -0.329 (supports shorts), 4h RSI 26 (oversold), ADX 24 (weak trend), rel_strength -0.74. Below 200-DMA, mid-range; Q2 earnings 7/22 after close (outside 48h window but approaching), deliveries already strong (480k +25% y/y). Read: positioning favors SHORT but price is AT support with RSI 26 \u2014 best expressed as a FADE of bounces toward VWAP/resistance, NOT chasing new lows; mind 7/22 earnings clock + overnight gap risk.",
+    "sentiment": "TSLA BULLISH-leaning but two-sided, hard binary just ahead. Crushed Q2 2026 deliveries (480,126, +25% YoY, best-ever Q2, ~60k above most bullish est) reported 7/2; launched Miami robotaxi 7/5 \u2014 positive catalysts fueled ~6% rally 7/6, UBS PT hike to $442 (7/9). Robotaxi/Optimus optimism + doubled European registrations driving tape. Key catalyst/risk: full Q2 financials after close Tue 7/22 \u2014 focus on margins/guidance, expectations elevated (200x+ P/E, 'fully-priced'). Note delivery report already produced a counterintuitive ~7.5% single-day DROP despite the beat \u2014 name can sell the news. Risk headlines: NJ legislation that could ban robotaxis; data showing robotaxis crash rate ~4x human drivers \u2014 regulatory overhang that can hit intraday.",
+    "analyst": "TSLA 395.88 just above support 391, well below resistance 420; recent 15m candles grinding down on tiny volume (0.84-80 units) \u2014 classic thin overnight drift, no seller conviction. Bear case (long/short 2.05, +funding, structure_bias -0.329, short composite -0.325) vs exhaustion case (4h RSI 26.6, at 391 shelf, vwap_dist only -0.93%, ADX 24, bb_width compressed 5.89%). Learner damning for the obvious trade: shorts n=28 win 0.46 avg -1.75; trend playbook 22 trades 0.45 win -2.62; aligned weight -0.492 (aligned shorts LOSE). Short at 395.88 has only ~1.2ATR to 391 support -> R:R ~1.2 shorting INTO support at RSI 26 = the account's losing pattern. A short only works as a FADE of a bounce toward VWAP ~399.6 or 405-410; no bounce to fade yet. Long off 391 is a knife-catch vs crowded-long + earnings clock. HOLD, armed to short a bounce through 400.",
+    "portfolio": "TSLA/USDT:USDT \u2014 HOLD (conf 0.58): positioning favors a short but price pinned on 391 support with no bounce to fade; flat until a rally through ~400 gives a clean fade entry."
+  },
+  "timestamp": "2026-07-14T21:33:28.130035+00:00"
+}

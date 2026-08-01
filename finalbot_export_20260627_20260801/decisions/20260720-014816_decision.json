@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "SNDK/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Price coils 1351-1373 just above the recent low; expect a chop/small bounce toward VWAP (~1398) OR a break of 1351 that opens the flush to support 1311.",
+  "expectancy_note": "Short p(win)~0.35 here: learner p_win 0.315, already -2.7% below VWAP into thin CLOSED-market weekend tape, funding flipped positive (squeeze fuel) \u2014 classic account loss pattern of chasing extended continuation.",
+  "rationale": "Trend and structure are genuinely bearish (ADX 48, structure_bias -0.61, orderbook -0.84, rel-strength -44%), but price sits mid-band (%B 0.46, RSI 51) already stretched below VWAP into a thin weekend session, and the learner flags this exact short as a net loser (p_win 0.315). Shorting here is chasing; the honest edge is a confirmed break of the 1351 recent low toward 1311 support. Size 0 until the tape confirms.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 1351.0,
+    "expires_min": 240,
+    "note": "Loss of the 1351 recent low confirms the flush is resuming and opens a clean short toward 1311 support."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF (2026-07-20 Mon), semiconductor de-rating, rotation OUT of chips. US equity market CLOSED (weekend) \u2014 thin/gappy, gap risk. SNDK is the WEAKEST of the set: rel-strength -43.9% vs BTC, scan direction SHORT, structure_bias -0.61. Semi unwind favors the short but it's extended (-28% off highs).",
+    "sentiment": "SNDK earnings Aug 5 (outside 48h). NAND shortage story intact (Goldman PT $1,200->$2,200 7/5, long-horizon, low weight). Top S&P performer YTD but -28% off highs; momentum/vol name, no 48h catalyst.",
+    "analyst": "p_win_learned 0.315 \u2014 the learner says this exact short setup has been a LOSER for the account. Already extended -2.7% below VWAP, weekend/closed thin gappy market, -28% off highs. Mid-band (%B 0.46), not at an extreme. Shorting here is chasing the continuation the book bleeds on; the clean trigger is a break-and-hold below the 1351 recent low into 1311 support. HOLD with armed trigger.",
+    "portfolio": "HOLD \u2014 bearish but extended, learner flags short as loser; watch 1351 break."
+  },
+  "timestamp": "2026-07-20T01:48:16.525548+00:00"
+}

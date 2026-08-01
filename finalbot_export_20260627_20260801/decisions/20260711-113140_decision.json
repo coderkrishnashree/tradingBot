@@ -1,0 +1,26 @@
+{
+  "symbol": "CRCL/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.6,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "forecast": "Price coils 66.90-67.55 at VWAP; likely tests the 66.90 base low within a few bars. Only a break of 66.90 opens the crowded-long unwind toward 65.5/61.78; a reclaim of 67.55 negates the fade.",
+  "expectancy_note": "No edge mid-coil at VWAP: not at support for a long, not at resistance for a short, not extended for continuation. R:R to any honest target with 1xATR (~2.30) stop is sub-1.5. Learner shows trend/high-ADX shorts bleeding.",
+  "rationale": "CRCL sits exactly at VWAP mid its 61.78-73.72 range with composite un-aligned (15m flat, 5m already short RSI 34.9) \u2014 near-term momentum fading while higher TFs still read long, i.e. no clean trigger. Structure is bearish (L/S 2.7 max-crowded, bias -0.316, RS -18%) favoring an eventual short, but entering a max-crowded book mid-coil on thin weekend/US-closed tape risks a squeeze against the stop, and the book's trend/high-ADX entries have been losing (-2.89 avg). Wait for a decisive loss of 66.90 to re-engage short.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 66.9,
+    "expires_min": 240,
+    "note": "Losing the 66.90 coil base breaks the VWAP distribution and confirms the crowded-long (L/S 2.7) unwind toward 65.5/61.78 \u2014 where a short earns R:R."
+  },
+  "transcript": {
+    "macro": "Risk-on, low-vol. CRITICAL: Sat 2026-07-11 US cash CLOSED \u2014 thin/gappy weekend tape. Tue 7/14 CPI + Warsh = hawkish risk. CRCL macro HOSTILE for longs: -40% on month, ~74% off highs on Open USD/OUSD threat (Visa/MC/Coinbase), Goldman cut to $96, L/S 2.7 dangerously crowded-long into a falling knife \u2014 favors short/avoid.",
+    "sentiment": "CRCL BULLISH/mixed \u2014 USDC 67% of June stablecoin volume (2x Tether), OCC national trust-bank charter, Nomura Japan FX partnership; +4% Fri. Overhang: Compass Point PT cut to $55 on Stripe. Coinbase deal renewal AUGUST, not this window. No 48h binary.",
+    "analyst": "Macro/sentiment conflict; price mid-coil at VWAP with no trigger. Bearish structure favors an eventual short but not from mid-range into a max-crowded book on thin weekend tape (squeeze risk). HOLD, armed short below 66.90.",
+    "portfolio": "CRCL \u2014 HOLD (conflicted; no mid-coil edge, short trigger armed below 66.90)."
+  },
+  "timestamp": "2026-07-11T11:31:40.476148+00:00"
+}

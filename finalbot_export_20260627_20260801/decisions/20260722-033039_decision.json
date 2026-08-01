@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "EWY/USDT:USDT",
+  "size": 0.0,
+  "entry": 174.32,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Parabola (RSI 75, ADX 86, +4.5% vs VWAP) just rolled over 176.6->172.95 and bounced $1.35; expect chop 172.95-175.5 while the extended move digests. No clean level to lean on.",
+  "expectancy_note": "Both sides negative EV: long chases a stretched parabola the model penalizes (high vwap_dist/atr), short fights a strong uptrend + bid-heavy book in a squeeze-prone name where this account's shorts lose (45% win, -1.21 avg). HOLD beats both.",
+  "rationale": "EWY is the most extended of the four (bb%B 0.97, +4.47% vs VWAP, ATR 2.32%) and just printed its first sharp reversal down ~2% into a reflex bounce. Learner shows shorts are this book's bleeding trade (49 trades, 45% win) and the model docks extended/high-ATR longs, so there is no honest R:R either way mid-air. Wait for a controlled pullback to buy the uptrend, or a break of the swing low to confirm the parabola is done.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 172.95,
+    "expires_min": 240,
+    "note": "Losing this reversal swing low fractures the parabola and opens a short with a real structural stop; until then the uptrend is intact and shorting it is the account's proven loss."
+  },
+  "transcript": {
+    "macro": "Regime RISK-ON but late-stage/extended and crowded. EWY is the STRONGEST macro tailwind of the four: KOSPI +5.95% Jul 22, exports +52% (semis +180%), repeated short-squeeze sessions, Korea is tone-setter for global risk (own-driver, BTC corr 0.34). But most extended: RSI 75, ADX 86, bb_width 10%, +4.5% vs VWAP, RS -14%. Size down.",
+    "sentiment": "EWY HIGH-volatility whipsaw: KOSPI crashed ~23% in July, fell below 7,000 on chip rout + geopolitics (record circuit breakers), snapped back. BOK hiked 25bp to 2.75% Jul 16 (first in 3.5yrs), sent KOSPI -6% that day. Market high-beta headline-driven (Samsung/SK Hynix, AI-semi). Most gap-prone/dangerous of the four; trade small.",
+    "analyst": "Most extended name (bb%B 0.97, +4.47% VWAP, ATR 2.32%); first sharp reversal down ~2% into a reflex bounce, mid-air with no clean level. Learner: shorts bleed this book (49 trades, 45% win, -1.21 avg); model docks extended/high-ATR longs. No honest R:R either way. HOLD; reconsider short on break below 172.95 swing low.",
+    "portfolio": "EWY: HOLD (conf 0.60) - strongest tailwind but most extended/parabolic mid-air; wait for 172.95 break or controlled pullback."
+  },
+  "timestamp": "2026-07-22T03:30:39.094291+00:00"
+}

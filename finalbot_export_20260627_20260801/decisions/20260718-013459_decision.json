@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "META/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Oversold flush is exhausting: last 4 bars carved higher lows (638.27/638.28) and 5m flipped long \u2014 expect a mean-reversion bounce off ~638 back toward VWAP/658 over the next 4-8 bars before the downtrend can resume.",
+  "expectancy_note": "Shorting here (RSI 4h 23.7 / 15m 17.4, %B 0.11, vwap -2.85%) is the account's proven loser (shorts 47% win, -0.87 avg); a bounce hits any honest stop first. No clean long into risk-off + weekend gap. Best expectancy = wait.",
+  "rationale": "META is a rel-strength leader (+9.22 vs BTC) getting flushed into deep oversold on a risk-off tech week, but the recent candles show higher lows and a 5m long flip \u2014 a counter-bounce is the immediate path, which would stop out a fresh short (the exact late-short-into-stretched-tape pattern that bleeds this book). Model weights (vwap_dist -0.29, atr -0.25, rel_strength -0.41) all penalize shorting this stretched leader. Structure is clean/uncrowded so no fade edge either, and it's Friday close with weekend gap risk \u2014 no market entry justified. Wait for either a VWAP-area bounce to short into or a decisive break of 626.46 to confirm a fresh, non-stretched down-leg.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 626.46,
+    "expires_min": 240,
+    "note": "Losing the 626.46 support after the oversold bounce fails proves the downtrend resumed with fresh room \u2014 a non-stretched short entry rather than chasing the flush at 639."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF / defensive tech tape (Fri Jul 18 down week: Nasdaq -2.9% wk, semis SMH -9% 4wk, Netflix -11% on guidance; hostile-to-mixed for longs, mixed-to-supportive for shorts/fades). META last 639.43: positioning neutral/clean, NOT crowded (funding 0.0, L/S 1.119 balanced, OI thin 2949, structure_bias +0.081, only long tilt orderbook +0.39 shallow). Underlying rallied ~15-16% past month, ~9% wk, reclaimed ~$669 \u2014 a leader (rel strength +9.22 vs BTC). Perp oversold intraday: RSI 23.7, 4h ADX 75, %B 0.11, vwap_dist -2.85%. Catalysts: earnings Jul 29 (11d out, outside 48h); FOMC Jul 28-29; nothing inside 48h. Weekend gap risk on tokenized perp (underlying market closed) \u2014 size smaller, don't carry size into weekend.",
+    "sentiment": "META tone bearish, short-favorable near-term but stretched. No confirmed <=48h binary catalyst. Tape driven by sector selloff + AI-ROI overhang (2026 capex guided $125-145B ~2x last yr, investors nervous) + regulatory/child-safety tail risk (lost addiction trial, $375M NM penalty, 40+ state AG suits, EU probe). 'Meta Compute' cloud unit (Jul 1) is longer-horizon, not a 48h mover. Lean short-favorable but flat-to-cautious given how stretched; main risk to a short is oversold mean-reversion bounces, not a scheduled event.",
+    "analyst": "META/USDT 639.43. RSI 23.7 (4h) / 15m 17.4 deeply oversold, ADX 75.2 strong down-trend, %B 0.108 pinned at lower band, vwap_dist -2.85%. Support 626.46, resistance 689.72. Candles: sharp flush 644.95->638.34 (capitulation on the 105.94-vol bar at 640.1) then last 4 bars stabilized 639.62/638.42/638.28/639.05/639.43 \u2014 higher lows and 5m score flipped +0.105 (long). Immediate path is UP toward VWAP ~658, which would stop out a fresh short \u2014 the account's proven loser (shorts 47% win, -0.87 avg). Model weights vwap_dist -0.29, atr -0.25, rel_strength -0.41 all penalize shorting this stretched leader. No clean long into risk-off + Friday weekend gap. Best expectancy = HOLD, zero size; arm reconsider on a close below 626.46 for a fresh non-stretched short.",
+    "portfolio": "META/USDT:USDT \u2014 HOLD (conf 0.60): oversold-into-risk-off leader; neither chase the short nor buy the knife; wait for VWAP bounce to fade or a break of 626.46."
+  },
+  "timestamp": "2026-07-18T01:34:59.453978+00:00"
+}

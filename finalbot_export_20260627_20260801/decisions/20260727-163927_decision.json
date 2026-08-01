@@ -1,0 +1,28 @@
+{
+  "symbol": "MSTR/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.6,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "none",
+  "forecast": "Post-impulse chop between 96.1-98.4 continues; most likely a pullback toward the 94 breakout shelf / VWAP over the next few bars before any resumption. No new-high push is coming from here while RSI 82.9 / VWAP +4.1% bleed off.",
+  "expectancy_note": "No R:R>=1.5 at spot: long is chasing (VWAP +4.1%, RSI 82.9 -> bounce-stops the late entry), short lacks a broken level or divergence on a firm-BTC green day into FOMC. HOLD is highest expectancy.",
+  "rationale": "MSTR is pure BTC-beta (corr 0.70, rel-strength 0.08 = the echo, not a leader) that just went vertical 94.6->98.4 and is now consolidating with momentum fading bar-by-bar. RSI 82.9, stoch 82.8, %B 1.14 and VWAP +4.1% make a market long the account's classic late-chase loss; there is no clean fade level at mid-range 97.6 and BTC is firm into FOMC. Wait for either a pullback into the 94 breakout retest to buy with the trend, or a loss of the 96 range low to confirm exhaustion for a short.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 96.1,
+    "expires_min": 240,
+    "note": "Losing the post-impulse range low breaks the consolidation and confirms the overbought unwind has begun, opening a short toward the 94 shelf / a cleaner long-retest entry."
+  },
+  "transcript": {
+    "macro": "Environment HOSTILE-to-MIXED risk-off tech tape, but crypto is the one GREEN corner today (BTC ~$65.4k firm, dominance 56.6%). FOMC Jul 28-29 inside the holding window. Tokenized-equity perps thin/gappy overnight. MSTR is pure crypto-beta (BTC-corr 0.697), RSI 82.9 / stoch 82.8 = very overbought, vwap +4.1% extended; momentum long but LATE - a BTC-proxy leveraged play, not an independent signal.",
+    "sentiment": "MSTR: no earnings imminent (Q2 flagged an $8.32B digital-asset loss). Key near-term item: a fifth straight week with NO bitcoin buys, raising $544.5M via ATM share sales and pivoting to a 'Digital Credit Capital Framework' with buybacks. Highest BTC correlation on the board (0.70) - trades as leveraged bitcoin beta, so crypto tape > company news next 48h. Overall: risk-off tech tape but crypto firm (ETH leading higher).",
+    "analyst": "MSTR last 97.6. RSI 82.9, stoch 82.8, %B 1.14, VWAP +4.09% - very extended. Pure BTC-beta (corr 0.697, rel-strength 0.08 = the echo). ADX 82 reflects the just-completed impulse, not a fresh trend. Composite conf only 32.7, p_win_learned 0.47 (below coin-flip). Massive impulse 94.63->97.8 then chop 96.1-98.4 with momentum fading. Chasing long here is the account's #1 loss pattern; a short lacks a broken level or divergence on a firm-BTC day into FOMC. No R:R>=1.5 at spot. HOLD; armed trigger on a loss of 96.1.",
+    "portfolio": "MSTR: HOLD (conf 0.60) - extended BTC-proxy, post-impulse chop; armed short/re-debate on a break of 96.1."
+  },
+  "timestamp": "2026-07-27T16:39:27.939155+00:00"
+}

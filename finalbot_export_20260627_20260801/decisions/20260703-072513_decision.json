@@ -1,0 +1,25 @@
+{
+  "action": "hold",
+  "symbol": "EWJ/USDT:USDT",
+  "confidence": 0.34,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "size": 0.0,
+  "playbook": "none",
+  "expectancy_note": "No edge: p(win) on a blind fade ~0.45 with poor R:R (ATR% 0.03, survivable stop dwarfs target); vertical ADX=100 move with no divergence + closed Tokyo cash + BoJ/JPY gap risk = negative expectancy vs waiting.",
+  "rationale": "EWJ is an equity ETF trading as a thin perp on a stale, closed-Tokyo underlying \u2014 crypto structure metrics are near-meaningless and RSI/ADX/stoch pinned at 100 with %B 1.18 mark full exhaustion, not a signal. regime_blocked=true and confidence 3.5% confirm no directional edge; price sits exactly at resistance 96.45 mid-air after a hard run (+3.18% vs BTC). Fading vertical strength without divergence into live BoJ/intervention gap risk, with an ATR so tiny (0.03%) that any survivable stop kills R:R, is negative expectancy. Stand aside; small tactical short only becomes viable once momentum actually rolls over and structure cracks.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 95.2,
+    "expires_min": 240,
+    "note": "Losing support 95.2 confirms the exhaustion has rolled over and the vertical move is unwinding \u2014 the trigger for a tactical mean-reversion/momentum short with a definable stop back above the range."
+  },
+  "transcript": {
+    "macro": "HOSTILE for long Japan. Broad regime risk-off: Nasdaq100 -1.87% (AI/semis unwind), S&P -0.37%, VIX 16.7, rates sticky (10y 4.49%), DXY ~100.9, crypto risk-off (BTC ~$61.7k, F&G 36, BTC.D 55.5%). Japan: Nikkei -1.85% led by semis; BoJ hiked to 1.0% (highest since 1995), path to ~2%, JPY-supportive/equity headwind; yen +1% on intervention talk near 160. EWJ USD-denominated -> two-way gap risk; Tokyo cash closed -> thin/gappy perp. Perp: structure bias -0.211, long/short 1.43, OI tiny 1565; exhaustion loud (RSI/ADX/stoch=100, %B 1.18, RS +3.18% vs BTC); composite conf 3.5%, regime squeeze, regime_blocked=true. Preferred stance FLAT, small tactical short only.",
+    "sentiment": "NEUTRAL-to-BEARISH for fresh long here. Japan structurally constructive medium-term (record-high Nikkei ~69,600, governance reform, buybacks, underweight foreigners) but near-term tape volatile/headline-driven \u2014 1.85% drop led by AI/semis, partial bounce, two-sided risk. Dominant swing factor USD/JPY + intervention near 160 (MOF spent ~$73B, BoJ at 1.0%, yen still weak); intervention surge cuts both ways. Imminent event risk: July BoJ meeting (~Jul 30-31), further ~25bp hikes supported. News does not support chasing stretched EWJ long \u2014 wait for a pullback.",
+    "analyst": "Fully exhausted, pinned tape. Equity ETF as thin perp on stale closed-Tokyo underlying -> crypto structure metrics near-meaningless. RSI/ADX/stoch=100 all timeframes, %B 1.182, price exactly at resistance 96.45 mid-air after hard run. ATR% ~0.03 -> any survivable stop dwarfs target; wide stop on a fade against a vertical move into live BoJ/JPY event risk is a donation. regime_blocked=true. Textbook NO TRADE: extended move, no confirmed divergence, thin OI, closed cash market, hostile macro both directions. Short fade tempting (exhaustion + structure_bias -0.211) but no divergence, ADX pinned 100 (no rollover), poor R:R, asymmetric gap risk. Wait for structure to break (below 95.2) rather than fading a wall.",
+    "portfolio": "EWJ/USDT:USDT -> HOLD (conf 0.34): stand aside on exhausted, regime-blocked tape into live BoJ/JPY event risk; tactical short only if it breaks below 95.2."
+  },
+  "timestamp": "2026-07-03T07:25:13.251166+00:00"
+}

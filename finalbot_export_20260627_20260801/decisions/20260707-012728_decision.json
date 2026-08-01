@@ -1,0 +1,27 @@
+{
+  "action": "hold",
+  "symbol": "MU/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "expectancy_note": "Short = chasing a >2xATR extended breakdown INTO support (947.52) on thin overnight liquidity: negative expectancy. Long = knife-catch with no divergence and crowded longs (L/S 2.07) above as fuel. Neither clears R:R; wait for confirmation.",
+  "rationale": "MU is mid-flush overnight: RSI 13.7-19.8 across every TF, stoch 1.4, %B -0.20 (below lower band), price -5.74% under VWAP and pinned exactly on support 947.52 after a 3.8x-volume breakdown through 952.06. ADX 52 confirms a powerful DOWN trend, so this is not a range to fade blindly, yet price is far too extended (>2xATR) to chase short into support. The bullish macro/fundamental story (HBM sold out, blowout Q3) has NO <=48h catalyst and the scan composite is ~2.3 flat, so it only sets a mild long drift bias, not a trade. With US cash closed (reopen gap risk 13:30 UTC) and crowded longs (L/S 2.07) as downside fuel, the disciplined call is to stand aside. I'd flip long only on a reclaim of the 952.06 breakdown level, which would prove the oversold flush is absorbed and turn trapped-long fuel into a squeeze.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 952.06,
+    "expires_min": 240,
+    "note": "Reclaiming the 3.8x-volume breakdown level confirms the deep-oversold flush is absorbed and validates an oversold-bounce long with the bullish macro/semis tape."
+  },
+  "transcript": {
+    "macro": "Regime SUPPORTIVE/risk-on (Jul 6: Nasdaq +1.12%, S&P + Dow records; semis rallied \u2014 AMD +6.6%, MU/NVDA green). VIX 15.6 falling. Fed on hold, dovish tilt, weak dollar; no FOMC/CPI in 48h. TIMING CAVEAT: scan 01:22 UTC, US cash CLOSED, tokenized-equity overnight prints thin/gappy until 13:30 UTC. MU scan composite ~2.3 flat, weak per-TF signals. Trades with semi complex (corr TSM 0.58, NVDA 0.62, SNDK 0.82), only 0.33 to BTC. Fundamentals strongest of the three (HBM sold out through 2026-27, ~$100B binding contracts, Q3 blowout, next earnings ~Sept 29 \u2014 no near-term event risk). Macro + fundamentals support LONGS but up ~240% YTD, crowded/volatile.",
+    "sentiment": "MU. No imminent binary: fiscal Q3 reported Jun 24 (blowout), catalyst already behind; next earnings months away. Narrative strongly BULLISH: entire 2026 HBM output sold out under fixed-price contracts, certified for NVIDIA HBM4 (Vera Rubin), Jensen reiterated multi-year memory shortage. Up ~240-250% YTD but ~22% off post-earnings highs. Analyst PT hikes $1,200-2,000 are low-weight noise. Near-term BULLISH tone but NO fresh <=48h catalyst; moves dictated by broad chip tape.",
+    "analyst": "MU is mid-flush overnight: RSI 13.7-19.8 all TFs, stoch 1.4, %B -0.20, -5.74% under VWAP, pinned on support 947.52 after a 3.8x-volume breakdown through 952.06. ADX 52 = powerful downtrend, but >2xATR extended so shorting into support is chasing; longing is a knife-catch with no divergence and crowded longs (L/S 2.07) as fuel above. Bullish fundamentals have no <=48h catalyst; scan ~2.3 flat. With US cash closed and reopen gap risk, stand aside. Flip long only on reclaim of 952.06.",
+    "portfolio": "MU: HOLD (conf 0.6) \u2014 no knife-catch into an overnight flush; arm long trigger on reclaim of 952.06 breakdown level after US open."
+  },
+  "timestamp": "2026-07-07T01:27:28.850938+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "HOOD/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Coiling 97.5-98.2 with fading momentum; likely chops sideways-to-lower into the NY session, but no clean break yet - a loss of 97.5 opens 97.0/96.4, a reclaim of 98.30 re-arms the trend long.",
+  "expectancy_note": "No edge: fresh long chases RSI-85/ADX-93 extended tape into crowded longs + Wed earnings binary (account's worst loss pattern); short fights a 93-ADX uptrend mid-range with no <1.5R target. HOLD is highest-expectancy.",
+  "rationale": "HOOD is deeply overbought (4h RSI 85.5, ADX 93) and mid-range (support 93.21 / resistance 108.25) with the 15m frame rolling over (score -0.22, RSI 42.6) on drying volume - lower highs 98.27->97.93 stalling. Crowded longs (L/S 1.92) and -17% relative strength vs BTC in a cautious macro make a chase-long poor R:R, and there is no structural extreme to fade for a short. Binary earnings Wed after close means no carry and there is no clean intraday setup now, so I wait for the 97.5 break or 98.30 reclaim.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 97.5,
+    "expires_min": 240,
+    "note": "Losing the 97.5 intraday shelf confirms the 15m rollover and opens a short toward 97.0/96.4 with a stop above 98.2."
+  },
+  "transcript": {
+    "macro": "MIXED regime, risk-cautious into a heavy-event week. Crowded longs + RSI extremes broadly -> longs SMALL, tight stops. Crypto complex soft (BTC rangebound, fear). HOOD lean: crypto/retail-flow beta (0.44 BTC corr) moving with crypto risk-on, which is soft now; cautious.",
+    "sentiment": "HOOD IMMINENT EARNINGS Wed Jul 29 after close (~$0.43 EPS / $1.28B rev est). High-beta, crypto-correlated; binary Wed night. Neutral pre-event. Do NOT carry a position through the print.",
+    "analyst": "Deeply overbought (4h RSI 85.5, ADX 93), mid-range (93.21/108.25), 15m rolling over (RSI 42.6) on drying volume, lower highs stalling. Crowd 1.92 long, RS -17%. Long chases into binary earnings; short has no near target. HOLD; a 97.5 break arms a short, a 98.30 reclaim re-arms the long.",
+    "portfolio": "HOLD HOOD (conf 0.60) - extended into binary earnings; no carry, short only below 97.5."
+  },
+  "timestamp": "2026-07-27T10:37:57.878101+00:00"
+}

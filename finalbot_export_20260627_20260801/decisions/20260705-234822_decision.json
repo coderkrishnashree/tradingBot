@@ -1,0 +1,25 @@
+{
+  "action": "hold",
+  "symbol": "MSTR/USDT:USDT",
+  "size": 0.0,
+  "entry": 107.3,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.34,
+  "playbook": "none",
+  "expectancy_note": "Mid-range at VWAP, no level to lean on; long fights hot funding + bearish divergence, short has no edge with 4h/1h still up. Both R:R < 1.5. Closed cash market = gap risk. HOLD is highest expectancy.",
+  "rationale": "Sunday post-holiday with US cash markets closed makes this equity perp thin and gappy; price is dead-center a 2% box (106.16/108.22) at VWAP with neutral RSI and only 33.4% unaligned long conf, while structure_bias -0.596 (hot crowded-long funding, resting sell) plus bearish divergence and a rolling 5m argue against chasing long. No level = no edge either way, so size is zero and I wait for Monday's open and a range break. Largely BTC-beta (corr 0.616), so BTC's $60k defense is the real driver.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 106.16,
+    "expires_min": 240,
+    "note": "Losing range support with BTC pressuring $60k confirms contrarian-bearish structure and opens the retest toward $81-82 \u2014 arms the macro-preferred short."
+  },
+  "transcript": {
+    "macro": "2026-07-05 23:44 UTC. CRITICAL: Sunday post-July 3-4 holiday, US cash equity markets CLOSED \u2014 perp prices with no underlying tape, thin liquidity, real Monday-open gap risk. Regime: crypto fragile/risk-off, BTC ~$63.7k defending high-$50k/low-$60k, BTC.D 55.5% defensive; momentum names seeing profit-taking. MSTR positioning: last 107.3, composite long but only 33.4% conf, structure_bias -0.596 (contrarian-bearish). Funding HOT +0.00155/8h (crowded long paying up), L/S 1.41, orderbook_imbalance -0.244 (resting sell). BTC corr 0.616 \u2014 largely BTC-beta. $100 is the line; lose $60k BTC and it retests $81-82. Verdict: stay-out, lean short over long; wait for Monday open + BTC hold/loss of $60k.",
+    "sentiment": "MSTR: constructive/improving. July 1-2 rallied ~8% (4th straight up day, first close above $100 in two weeks) on new Digital Credit Capital Framework (~$2.55B USD reserve + up to $1B buybacks + selective BTC monetization) read as balance-sheet de-risking; Citi reaffirmed Buy $260. Still a leveraged BTC proxy (~847,363 BTC, avg ~$66k, ~break-even). Biggest <=48h driver is BTC direction, not company news. No earnings in window (next ~Aug 4). Verdict: leans bullish CONDITIONAL on BTC holding.",
+    "analyst": "MSTR is a leveraged-BTC equity proxy and it's Sunday with US cash markets closed after July 3-4 \u2014 thin, gappy, real Monday-open gap risk. Price 107.3 sits dead-center a ~2% box (support 106.16 / resistance 108.22), right at VWAP (-0.2%), RSI 53 neutral. No level to trade from and no directional edge: composite nominally long but only 33.4% conf and not aligned, while structure is strongly contrarian-bearish (bias -0.596, hot crowded-long funding, resting sell) plus bearish divergence and a rolling 5m. Long fights hot funding + divergence + gap risk; short has no level with 4h/1h still up. Both low-expectancy. Wait for Monday cash open. Flip trigger: losing $106.16 with BTC pressuring $60k arms the macro-preferred short toward $81-82.",
+    "portfolio": "MSTR/USDT:USDT \u2014 HOLD (conf 0.34), size 0: no level, contrarian structure vs unaligned long, closed cash market gap risk; wait for Monday open."
+  },
+  "timestamp": "2026-07-05T23:48:22.584631+00:00"
+}

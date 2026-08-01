@@ -1,0 +1,25 @@
+{
+  "action": "hold",
+  "symbol": "COIN/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.35,
+  "playbook": "none",
+  "expectancy_note": "p(win)~0.45 on a blind weekend bounce; theoretical 2.5:1 R:R is fake because the stop is gap-vulnerable on a CLOSED equity tape \u2014 no positive expectancy without NYSE liquidity.",
+  "rationale": "COIN is a tokenized equity trading Sunday-night/early-Monday UTC with US cash market closed: thin, stale, gap-prone. The 5m RSI-7/ADX-83 flush is illiquid weekend noise, structure is dead-neutral (funding 0, L/S 1.0, bias +0.011), and semis weakness (0.86 corr to NVDA, which just broke down) is a mild drag with no 48h catalyst. Price sits exactly on 170.04 support with no confirmation it holds and the 4h is the only bullish TF; not worth risking a stop that a Monday gap can leap. Wait for the equity open.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 175.05,
+    "expires_min": 240,
+    "note": "reclaiming the 175.05 resistance proves the oversold flush is being bought and the 4h uptrend is resuming \u2014 flips me long once real liquidity returns."
+  },
+  "transcript": {
+    "macro": "HOSTILE-to-NEUTRAL regime. Fed hawkish (funds 3.50-3.75%, market prices 1-2 HIKES not cuts), May CPI 4.2% (3yr high), USD firm, rates sticky. Equities soft to open H2. BTC ~$60-61k but these are tokenized equities (COIN BTC-corr 0.23 \u2014 trades as a stock). CRITICAL: Sunday night / early Monday UTC, US cash market CLOSED -> perps thin, gap-prone, signals stale until NYSE open. COIN positioning dead-neutral (funding 0, L/S 1.0, bias +0.011); no edge. Size smaller, wait for the US open, favor mean-reversion over trend-chasing.",
+    "sentiment": "Risk-on H1 but a LIVE AI/semiconductor profit-taking selloff (SOX -6.7%, SMH -4.5% Jul 1-2), nervous/rotational. COIN mildly bearish/neutral near-term: NO hard 48h catalyst (next earnings Jul 30). Last print ugly (EPS -$1.49 vs +$0.29, rev miss, $394M loss), screens overvalued (P/E ~62), ~$165-170. Tight correlation to tech/semis (0.86 NVDA, 0.72 TSM) means it likely gets dragged by the AI-sector selloff rather than its own news.",
+    "analyst": "COIN last 170.04, sitting exactly on 170.04 support (resistance 175.05). 4h is the only bullish TF (score 0.897, RSI 58); 1h/30m/15m flat/weak; 5m deeply flushed (RSI 7, ADX 83, %B 0.054) = illiquid weekend blowoff. Structure dead-neutral. A long-bounce R:R looks ~2.5:1 on paper (entry 170, stop ~168, target 175) but the stop is meaningless on a gap-prone closed-market tape and 'support = last price' is unconfirmed. No positioning edge, no catalyst, thin liquidity -> wait-for-the-open HOLD. Trigger to flip long: a reclaim above 175.05 with real liquidity.",
+    "portfolio": "COIN \u2014 HOLD (conf 0.35): no edge on a thin, closed-equity weekend tape; revisit above 175.05 at the US open."
+  },
+  "timestamp": "2026-07-06T00:35:58.715568+00:00"
+}

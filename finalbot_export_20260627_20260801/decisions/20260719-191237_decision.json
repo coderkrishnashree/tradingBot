@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "TSM/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Dead weekend tape: last several 15m bars frozen at 399.65 with zero volume, coiling 399.3-400.6. Expect continued drift/chop until US cash open (Mon 13:30 UTC); no directional edge from here.",
+  "expectancy_note": "Short from 399.65 gives R:R ~0.25 to TP1 398.8 vs ~3.3 risk to an honest 403 stop -- fails 1.5 hard. p_win_learned 0.383 says this exact signal LOSES for this book; 4h bullish divergence + zero-volume coil = no trigger.",
+  "rationale": "TSM reads short on the composite (blended -0.45) and crowded longs (L/S 2.45) give downside fuel, but price is at VWAP (-0.56%), not extended, in a tight 3.65% BB coil on flatlined weekend volume -- no breakdown to sell and no honest stop that keeps R:R >= 1.5 this close to the level. Entering a fresh short into dead, gap-prone weekend tape against a 4h bullish divergence on a losing signal (p_win 0.383) is negative expectancy. HOLD until a volume-backed break of intraday support.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 398.5,
+    "expires_min": 240,
+    "note": "Losing the 398.8 intraday support base with volume validates the short (crowded longs 2.45 unwinding toward 397/386.81); re-debate to enter on the breakdown."
+  },
+  "transcript": {
+    "macro": "RISK-OFF/defensive regime (2026-07-19 19:07 UTC). US cash equities CLOSED until Mon 13:30 UTC -> these tokenized-equity perps trade thin MM-quoted liquidity, funding=0.0 across all six, weekend-gap risk dominant; size down, best executions intraday US hours. Chip-sector selloff (Nasdaq -1%+, semis leading down), WTI +14% on US-Iran strikes, Netflix -10%. Crypto weak (BTC ~$62-64k, -18% MoM, BTC.D 56.3%, spot-ETF outflows) -> drag on crypto-beta names. Late-July earnings cluster: HOOD/META 29 Jul, COIN 30 Jul, CRCL ~10-18 Aug; TSM already reported 16 Jul; Alphabet 22 Jul is an AI-capex read-through for semis+META. Best-supported shorts: META (own-trend, uncrowded) and TSM (pure equity beta, sector-led down). Most caution: MU and CRCL 'long' flags fight crowded long books + hostile tape.",
+    "sentiment": "Sunday 19 Jul, US markets closed, thin weekend tape, Monday-gap risk. No name has a genuine <=48h catalyst; big binaries cluster 29-30 Jul. META: neutral, no fresh news, clean technical short. MU: bullish fundamentals (~$100B AI-memory contracts, Anthropic partnership) but -18% MoM post-earnings unwind -> technical dip-buy not news-driven. TSM: catalyst spent (Q2 16 Jul, rev +36% YoY), mild bearish post-earnings digestion. CRCL: bearish -- Mizuho downgrade 14 Jul + stablecoin-competition (Open USD, Visa) pressure, well below EMAs; fade the long. COIN: neutral, crypto-beta (Fear&Greed 28), mixed analyst views. HOOD: bullish momentum (+37% MoM, Agentic Trading) but stretched/crypto-linked, chase-risk high.",
+    "analyst": "TSM reads short on the composite (blended -0.45) and crowded longs (L/S 2.45) give downside fuel, but price is at VWAP (-0.56%), not extended, in a tight 3.65% BB coil on flatlined weekend volume -- no breakdown to sell and no honest stop that keeps R:R >= 1.5 this close to the level. Entering a fresh short into dead, gap-prone weekend tape against a 4h bullish divergence on a losing signal (p_win 0.383) is negative expectancy. HOLD until a volume-backed break of intraday support. | Forecast: Dead weekend tape: last several 15m bars frozen at 399.65 with zero volume, coiling 399.3-400.6. Expect continued drift/chop until US cash open (Mon 13:30 UTC); no directional edge from here. | Expectancy: Short from 399.65 gives R:R ~0.25 to TP1 398.8 vs ~3.3 risk to an honest 403 stop -- fails 1.5 hard. p_win_learned 0.383 says this exact signal LOSES for this book; 4h bullish divergence + zero-volume coil = no trigger.",
+    "portfolio": "HOLD -- dead weekend coil, R:R fails, losing signal (p_win 0.38); short only on volume break <398.5."
+  },
+  "timestamp": "2026-07-19T19:12:37.412381+00:00"
+}

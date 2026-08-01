@@ -1,0 +1,26 @@
+{
+  "symbol": "AAPL/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.5,
+  "size": 0.0,
+  "entry": 316.6,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "forecast": "After the volume-burst pop stalled at 317.6 with a ~1.0 upper-wick rejection (close 316.6), expect a fade/consolidation back toward 315.0-315.4 (VWAP/prior base) over the next 2-4 bars before direction resolves at US cash open (13:30 UTC).",
+  "expectancy_note": "p(win) on a chase-long here ~0.42 (matches p_win_learned 0.429); a market long into 5m RSI 79 / 15m RSI 67.5 with orderbook -0.36 and a fresh wick rejection gets a routine pullback that hits any honest ~2.1-wide stop before 323.2 - negative expectancy vs waiting.",
+  "rationale": "4h trend is up (score 0.9, ADX 49, RS +5.19% vs BTC, own equity beta) so the bias is long, but the tape just did the exact thing that kills this account: a thin pre-open volume pop to 317.6 that got rejected on the last bar, with LTF momentum stretched (5m RSI 79) and sellers stacked above (orderbook -0.36). Chasing at 316.6 gives sub-1.5 R:R to the 323.2 target against a stop that must sit below 314.5. Want a pullback that HOLDS 315 into cash open, or a decisive reclaim of the 317.6 pop high on volume, before paying up; size 0 until then.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 317.8,
+    "expires_min": 240,
+    "note": "A close back above the 317.6 rejection high (ideally post-13:30 cash open, on volume) proves the pop held - confirms trend continuation toward 323.2 and turns this into a long."
+  },
+  "transcript": {
+    "macro": "Regime RISK-ON, mildly supportive. Cooler June CPI (-0.4% m/m, 3.5% y/y) drove a broad rally: S&P +0.38% to 7,543, Nasdaq +0.9% to 26,107, chips leading; futures firm again Wed pre-market. CRITICAL: scan is 08:29 UTC = PRE US cash open (13:30 UTC) - every equity name (AAPL/INTC/MSFT/MU/SNDK) is on thin overnight liquidity, gappy prints, wider slippage; the single biggest structural risk this session, argues reduced size until cash open. No megacap earnings in the 48h window (MSFT Jul 29, AAPL Jul 30, INTC Jul 23). Board-wide crowded-long L/S with flat funding = mild contrarian caution, not a red light. Chip/memory complex (INTC/MU/SNDK) is rolling over intraday and crowded long - momentum longs there fight the tape. AAPL is the cleanest long; CL the cleanest non-equity trend but overbought/extended.",
+    "sentiment": "Dominant story: a violent two-way MEMORY trade. After a monster 2026 run (SNDK +707% YTD, MU +240%+), the memory complex fell into a technical bear market on SK Hynix's largest-ever single-day drop (-15%, Q2 profit ~8% below consensus, slow HBM4); ~$1.5T of semi cap erased since Jun 25. Bull thesis (NAND/DRAM undersupply, HBM sold out through 2027) intact but the fear side is now live; dip-buyers keep stepping in. US earnings super-week is NEXT week: MSFT Jul 29, AAPL Jul 30, INTC Jul 23 - all outside the trade horizon. AAPL: memory-cost victim (hiked Mac/iPad prices), cautious, no imminent catalyst. MSFT: no fresh idiosyncratic catalyst, moves with megacap tech tape. INTC: Jul 23 earnings nearest binary but likely just outside horizon; minor + from Ireland foundry expansion. MU: blowout fiscal Q3 (Jun 24) but caught in the sector pullback, net-bullish sentiment. SNDK: highest-beta, whipsawing hard. CL: the only LIVE price-moving catalyst - Strait of Hormuz ceasefire collapsed Jul 14 (US naval blockade + CENTCOM strikes, Iran disabled two supertankers), WTI +~2.3% to ~$80, war-risk premiums spiking, two-sided gap risk on any escalation headline.",
+    "analyst": "4h trend is up (score 0.9, ADX 49, RS +5.19% vs BTC, own equity beta) so the bias is long, but the tape just did the exact thing that kills this account: a thin pre-open volume pop to 317.6 that got rejected on the last bar, with LTF momentum stretched (5m RSI 79) and sellers stacked above (orderbook -0.36). Chasing at 316.6 gives sub-1.5 R:R to the 323.2 target against a stop that must sit below 314.5. Want a pullback that HOLDS 315 into cash open, or a decisive reclaim of the 317.6 pop high on volume, before paying up; size 0 until then. || Forecast: After the volume-burst pop stalled at 317.6 with a ~1.0 upper-wick rejection (close 316.6), expect a fade/consolidation back toward 315.0-315.4 (VWAP/prior base) over the next 2-4 bars before direction resolves at US cash open (13:30 UTC). || Expectancy: p(win) on a chase-long here ~0.42 (matches p_win_learned 0.429); a market long into 5m RSI 79 / 15m RSI 67.5 with orderbook -0.36 and a fresh wick rejection gets a routine pullback that hits any honest ~2.1-wide stop before 323.2 - negative expectancy vs waiting.",
+    "portfolio": "HOLD AAPL - cleanest long on the board but chasing a rejected pre-open pop is negative-EV; armed to go long on a 317.8 reclaim."
+  },
+  "timestamp": "2026-07-15T08:36:02.111989+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "TSLA/USDT:USDT",
+  "size": 0.0,
+  "entry": 408.95,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.55,
+  "playbook": "none",
+  "forecast": "Frozen weekend tape: price stays pinned ~407-411 on near-zero volume until Monday's US open; no directional move to trade inside my window, and Monday carries gap risk into Tue CPI.",
+  "expectancy_note": "No entry clears R:R: flat dead tape offers no momentum to forecast, RSI 68.7 sits just under 420 resistance (limited room), and weekend gap + CPI make any market entry a coin flip - HOLD is highest expectancy.",
+  "rationale": "TSLA is the cleanest long structure of the set (composite 64% long, rel strength +1.7% vs BTC, low BTC corr, moderate L/S 1.68), but the 15m candles show a dead Saturday market coiling in a ~$2 range on negligible volume - there is no next move to express and any fill risks a Monday gap into June CPI Tuesday. Entering now near stretched 4h RSI 68.7 just below 420 resistance would put a stop into weekend noise for a low-probability push; the honest trade is to wait for the market to reopen and confirm direction. Size 0 - no edge until price and liquidity return.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 420.5,
+    "expires_min": 240,
+    "note": "A break and hold above the 420.22 resistance confirms trend continuation on live volume and would flip this to a long entry."
+  },
+  "transcript": {
+    "macro": "Regime MIXED, risk-cautious into June CPI Tue Jul 14. DXY 13-mo highs, 10Y ~5%, hawkish Fed. Equities stretched. Saturday - US cash closed, tokenized-stock perps on closed underlying (thin, gap-prone until Monday). Reduced size + short holds. TSLA cleanest long structure of the set (64% long, L/S 1.68 moderate, RS +1.7% vs BTC, low BTC corr 0.28) but respect weekend + CPI.",
+    "sentiment": "TSLA BULLISH near-term but EARNINGS BINARY looms. Q2 deliveries (~Jul 2) major beat 480,126 vs ~406k consensus, +25% y/y - largely digested, underpins momentum. Earnings JULY 22 after close = key binary (auto gross margin, Cybercab, capex). Elevated realized vol into that date.",
+    "analyst": "Cleanest long structure of the set, but Saturday dead tape coiling ~407-411 on negligible volume - no next move to express, Monday gap risk into CPI Tue. RSI 68.7 just under 420 resistance = limited room. Wait for reopen. Armed reconsider above 420.5 breakout.",
+    "portfolio": "HOLD TSLA - best long structure but frozen weekend tape; wait for 420.5 breakout on live volume."
+  },
+  "timestamp": "2026-07-11T13:03:17.933474+00:00"
+}

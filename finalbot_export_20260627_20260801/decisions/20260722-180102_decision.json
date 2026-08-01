@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "BTC/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.55,
+  "playbook": "none",
+  "forecast": "Price stalls in the 65,900-66,240 zone, repeatedly rejected under 66,364/66,938 resistance with a 4h bearish divergence; expect a drift/pullback toward VWAP ~65,500 rather than a clean breakout. No edge either way until resistance breaks or support gives.",
+  "expectancy_note": "No entry with R:R>=1.5: long into resistance+divergence is the late-chase trap; short a shallow -0.8% pullback in an up-regime is low p(win) with support 3,500 below. HOLD is highest expectancy pre-Fed.",
+  "rationale": "BTC is mid-range at 66,026, ~0.8% above VWAP, RSI 64, ADX 44 but stalling under 66,364 with a confirmed 4h bearish divergence and the last 15m bar closing in the lower third of its range - momentum fading, not resuming. Funding flat and L/S 1.31 mean no crowded fuel for a squeeze, and the decisive catalyst (Fed) is >48h out. Neither a clean trend-continuation pullback nor an extreme worth fading exists, so wait for the range to resolve.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 66938,
+    "expires_min": 240,
+    "note": "A clean reclaim/break of range resistance 66,938 on volume opens a trend-continuation long toward 68k+; that is the trigger to buy the breakout retest."
+  },
+  "transcript": {
+    "macro": "Regime RISK-ON but stretched, chip/semi-led equity rally (Nasdaq100 +1.9%). Fed is a HAWKISH tail risk: market prices ~14-24% July hike, ~64-69% by Sept (Warsh Fed); oil >$92 reviving inflation, firm DXY. Long-crowding across nearly the whole book (contrarian structure_bias negative on most names) -> size DOWN, favor located entries over chasing. BTC $66,026, dominance ~56-59%, funding flat, L/S 1.31 (uncrowded), 4h bearish divergence, capped under 66,938. Tokenized-equity tapes (EWJ, TSM) are THIN with near-zero-volume 15m candles -> wider stops, smaller size. FOMC July 28-29 is the dominant binary but sits just OUTSIDE the 24-48h window -> positioning overhang, not an immediate trigger.",
+    "sentiment": "No instrument has a clean tradeable catalyst INSIDE 24-48h; big binaries (FOMC Jul 28-29, SNDK earnings Aug 5) are just outside the window. EWJ neutral/mild-bull, broad Japan basket on Nikkei/yen/semi cycle, near 52wk-range top, no 48h binary. SNDK bullish momentum but headline-risk high & NOT news-clean: +17.5% Jul-21 snap-back after -24.5% Jul13-17 China-AI scare = whipsaw; earnings Aug 5. SOL neutral-to-constructive: structural positives (5 spot ETFs ~$1.12B inflows, possible SEC staking-ETF, Alpenglow Q3) offset by MAU 2yr-low, TVL -56%; trades as high-beta BTC into the Fed. XAUT neutral, two-sided into the Fed: safe-haven bid (Mideast/US-Iran) vs strong dollar; CB buying ~60t/mo = floor; watch DXY. BTC cautiously bullish: two-week high on 5 straight days spot-ETF inflows (>$600M), F&G ~53, $2.5B Deribit call spreads target $72k by Jul-31; caveat flows fragile + 4h divergence; Fed-gated. TSM bullish fundamentals but catalyst fired Jul-16 (Q2 beat, guide raise, muted reaction); now trades on AI-demand tape, priced.",
+    "analyst": "Mid-range at 66,026, ~0.8% over VWAP, RSI 64, ADX 44 but stalling under 66,364 with a confirmed 4h bearish divergence; last 15m bar closed in the lower third of range = fading. Funding flat, L/S 1.31 (no squeeze fuel). Decisive catalyst (Fed) >48h out. No clean pullback and no extreme to fade. HOLD; armed price_above 66,938 (breakout).",
+    "portfolio": "BTC: HOLD (0.55) - range-bound under 66,938 with a 4h divergence pre-Fed; buy only a volume-backed breakout."
+  },
+  "timestamp": "2026-07-22T18:01:02.011338+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "symbol": "AAPL/USDT:USDT",
+  "action": "short",
+  "size": 1.5,
+  "entry": 310.3,
+  "stop_loss": 311.65,
+  "take_profit": 307.6,
+  "take_profit_1": 307.6,
+  "take_profit_2": 306.0,
+  "confidence": 0.6,
+  "playbook": "trend",
+  "forecast": "Weak bounce retests broken 310.3-310.9 shelf, gets rejected, then continuation down toward 307.6 then 306 within 3-6 bars.",
+  "expectancy_note": "p(win) ~0.6, R:R to TP1 = 2.70/1.35 = 2.0; trend-continuation beats fade because ADX 29, all TFs short-aligned, and account shorts win 73%.",
+  "rationale": "AAPL coiled 14 bars under 311.5 then broke down decisively (311.13->308.53) on the strongest volume of the sequence, closing weak; the last bar is a feeble bounce stalling at 309.92, classic breakdown-retest. I short the retest of broken support ~310.3 rather than chase, stop 311.65 above the pre-break swing (~1.35pts), targeting 307.6 then 306. Low BTC-corr (0.27) and +5% rel-strength make this the cleanest independent short; size held to 1.5% given pre-US-open thin/gappy tape and universal short-crowding snapback risk.",
+  "transcript": {
+    "macro": "Risk-off/defensive: semiconductor sell-off (Samsung results + DeepSeek building own AI chip), S&P -0.5% / Nasdaq -1.2%, VIX ~18 (+13%). Rotation OUT of megacap tech/semis. Soft June jobs (57k). BTC ~61.8k pulling back from 64k, BTC.D 55.5%, funding flat, not euphoric. Universal short-crowding (retail long into falling tape, L/S >1.5) supports continuation-down but raises snapback/squeeze risk. Data pre-US-open (thin/gappy for equity tokens); best execution after 13:30 UTC. Trade smaller. AAPL: rel-strength +5% vs BTC, low BTC corr 0.27, cleanest independent short-momentum name.",
+    "sentiment": "No name has a hard dated catalyst inside 24-48h \u2014 earnings wall (INTC 7/23, TSLA 7/22, MSFT 7/28, META 7/29, AAPL 7/30) + FOMC 7/28-29 all beyond window; trade on price/flow not headlines. AAPL neutral near-term, near 52-wk high with overbought/double-top setup; slow-burn negatives (iPhone 18 memory costs, foldable delay, India antitrust). Edge is stretched technical positioning, not headlines.",
+    "analyst": "Coiled 14 bars under 311.5 then decisive breakdown on the strongest volume of the sequence, weak close; last bar a feeble bounce stalling at 309.92 back into broken structure = breakdown-retest. Short the retest ~310.3 (not chase 309.66), stop 311.65 above pre-break swing, TP1 307.6 / TP2 306. R:R ~2.0; account shorts win 73%. Size held to 1.5% for thin pre-open tape and snapback risk.",
+    "portfolio": "AAPL: SHORT the breakdown-retest ~310.30, conf 0.60, size 1.5%."
+  },
+  "timestamp": "2026-07-08T09:29:31.708477+00:00"
+}

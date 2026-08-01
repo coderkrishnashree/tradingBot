@@ -1,0 +1,23 @@
+{
+  "symbol": "MSTR/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.6,
+  "size": 0.0,
+  "entry": 99.96,
+  "stop_loss": 108.96,
+  "take_profit": 84.0,
+  "rationale": "MSTR is a pure BTC-beta (corr 0.83) in a strong 1h downtrend (RSI 29, ADX 40) but is now extended: 3.7% below VWAP and printing below the lower Bollinger band with an oversold bounce starting on 15m (RSI 55). Shorting here chases exhaustion into support; going long fights the trend, the -13.6% relative-strength laggard status, and a soft BTC tape. Best expectancy is to wait for either a bounce toward VWAP/resistance (~104-109) to short with better R:R, or a decisive fresh breakdown that confirms continuation past the oversold bounce. Size 0 until one of those prints.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 96.0,
+    "expires_min": 240,
+    "note": "Losing 96 after the current oversold stretch shows the bounce failed and the ADX-40 downtrend is re-asserting \u2014 re-engage short with the trend toward support ~80 rather than chasing the first sub-30 RSI candle."
+  },
+  "transcript": {
+    "macro": "Risk tone SUPPORTIVE for equity-tech but BTC/crypto CAUTIONARY: BTC ~$62.3k chopping near 21-month lows, regime chop, 1h RSI 28.9, bearish divergence, longs crowded. MSTR CAUTIONARY \u2014 btc_correlation 0.83, trades as pure BTC-beta and BTC is the soft spot; relative_strength_pct -13.6 (worst laggard), scan direction short, 1h RSI 29. Equity risk-on does NOT rescue MSTR if BTC leaks. Size down.",
+    "sentiment": "MSTR BEARISH. Dominant driver is BTC (corr 0.83), not company news. BTC ~$58-62k, down ~53% from Oct 2025 peak; Crypto Fear & Greed at extreme fear (~11-15) today. Jul 2 popped ~+10% on new Digital Credit Capital Framework (USD reserve, up to $1B buyback, $42B equity + $42B fixed-income plan); holdings record ~847k BTC (~$64B cost) \u2014 pop now 4 days stale, price bled since. No Q2 earnings inside 48h. Buyback is a downside cushion, not an imminent bull catalyst.",
+    "analyst": "BULL: buyback framework floor, oversold 1h RSI 29, %B below lower band, 15m already flipping long \u2014 oversold bounce is the higher-probability near-term move. BEAR: strong ADX-40 1h downtrend, worst RS at -13.6%, BTC (the driver) leaking near 21-mo lows with its own bearish divergence and 1h RSI 29, orderbook -0.245. RISK: shorting 3.7% below VWAP / below lower band into support 79.93 is chasing and vulnerable to a violent short-cover bounce; longing a strong downtrend laggard with BTC soft is catching a knife. No proper R:R entry at 99.96 \u2014 HOLD, arm short trigger below 96 (continuation after bounce resolves), otherwise fade a bounce back to VWAP/resistance. Conf 0.6.",
+    "portfolio": "HOLD MSTR (conf 0.60) \u2014 extended oversold, no clean R:R; short trigger armed below 96, size kept 0/down per macro."
+  },
+  "timestamp": "2026-07-06T15:41:34.378729+00:00"
+}

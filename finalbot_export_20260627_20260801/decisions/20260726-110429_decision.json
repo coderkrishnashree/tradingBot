@@ -1,0 +1,25 @@
+{
+  "action": "hold",
+  "symbol": "EWJ/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Stale weekend tape drifts sideways in 92-93.3 on near-zero volume; real price discovery waits for Monday open, which risks a gap either way around FOMC (Jul 28-29) and hawkish BOJ (Jul 30-31).",
+  "rationale": "EWJ is an equity ETF trading on a dead weekend tape - multiple 0-volume candles, prints of 0.06 size, tape stale and unreliable. It is maximally overbought (1h RSI 94, stoch 100, bb_pctb 0.98) and pinned against resistance 93.34, so a long is a textbook chase into a ceiling; the account's #1 loss pattern is entering continuation after a stretched move. A hawkish-BOJ yen snap-back (2y JGBs at 30-yr highs) plus FOMC both sit inside/near the ~48h window, and Monday's open carries gap risk. There is no valid R:R here, so the highest-expectancy action is to stand aside and let real volume set the level.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 93.34,
+    "expires_min": 240,
+    "note": "A clean break and hold above resistance 93.34 on real Monday-session volume confirms a genuine breakout worth a trend long; until then the current push is illiquid weekend noise."
+  },
+  "transcript": {
+    "macro": "Regime MIXED, risk-cautious into event wall. FOMC July 28-29. Analyze EWJ as EQUITY. US-listed ETF, WEEKEND - essentially NO volume (several 0-volume candles), tape STALE. EWJ: last 92.34. Nikkei firm, weak yen ~163-164 (40-yr low) supporting exporters. BUT BOJ July 30-31 with bond market pricing more hikes (2y 1.475%, 30-yr high) - hawkish BOJ / yen snap-back would hit Japanese equities and this ETF. RSI 74 (4h)/94 (1h), stoch 100, bb_pctb 0.98 - OVERBOUGHT/pinned at upper band. funding 0, long/short 1.41 (near neutral). relative_strength -4.5% vs BTC. Scan long but only 35% confidence, momentum exhausted. Constructive weak-yen backdrop but overbought + BOJ inside window + closed-market gap risk.",
+    "sentiment": "FOMC July 29 overriding catalyst. EWJ bullish backdrop but pinned at resistance (RSI 73-94, stoch 100, near-zero token volume = stale/illiquid). Nikkei record highs, BOJ hiked to 1.00% mid-June yet USD/JPY still weak ~160-162, supporting exporters. Yen level + FOMC-driven USD move are real drivers; extremely thin token liquidity + weekend = unreliable prints, wide gaps at Mon open. NEUTRAL-to-mildly-constructive but treat the technical signal with caution given near-zero volume; does not argue for aggressive entry.",
+    "analyst": "BULL: weak yen (~163-164, 40-yr low) and record Nikkei support exporters; 4h uptrend intact, structure_bias near neutral. BEAR: extreme overbought (RSI 94 1h, stoch 100), pinned at upper BB and resistance 93.34, relative_strength -4.5% vs BTC, momentum exhausted. RISK: near-zero token volume / stale weekend prints make signal unreliable; FOMC Jul 28-29 and BOJ Jul 30-31 are live binaries inside the window with a hawkish-BOJ yen snap-back a direct downside threat; Monday gap risk. No honest favorable-R:R entry - HOLD and wait for real volume to confirm a break of 93.34 or a rejection.",
+    "portfolio": "HOLD EWJ - overbought, illiquid weekend tape into BOJ/FOMC; long only on real-volume break of 93.34."
+  },
+  "timestamp": "2026-07-26T11:04:29.549650+00:00"
+}

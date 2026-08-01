@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "SNDK/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.62,
+  "playbook": "none",
+  "forecast": "Post-blow-off chop between ~1937 and ~1950 continues on drying volume; most likely next move is a fade back toward VWAP (~1780) rather than a fresh leg up. A clean reclaim of 1987.8 would flip it long; losing 1937 opens mean-reversion down.",
+  "expectancy_note": "No positive-expectancy entry: long here is a +9.2%-VWAP chase (account's #1 loss pattern; trend playbook 0.44 win/-2.89 avg) with no honest tight stop; short fights +0.28 structure bias and squeeze fuel. HOLD beats both.",
+  "rationale": "SNDK spiked to 1987.8 on one 660-vol bar then immediately faded and has coiled 1937-1950 on drying volume for 14 bars - distribution after a vertical +857% move, not a base. 4h RSI 74.8 and +9.2% above VWAP mean any market long gets stopped by a routine reversion bounce; the only structural stop (below 1937) is ~0.4% away and noise-thin, so R:R fails. Saturday, US cash closed, gappy tokenized-stock perp on a closed underlying = reduced/zero size. Wait for either a 1987.8 reclaim (squeeze confirmed) or a 1937 break (reversion trigger).",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 1987.8,
+    "expires_min": 240,
+    "note": "Reclaiming the blow-off high proves the short-squeeze fired and buyers absorbed the fade - the only clean long trigger; a break of 1937 would instead arm the reversion short."
+  },
+  "transcript": {
+    "macro": "Regime MIXED, risk-cautious into June CPI Tue Jul 14. DXY 13-mo highs, hawkish Fed. Semis/NAND tailwind live. Saturday - US cash closed, tokenized-stock perp on closed underlying; SNDK the thinnest/gappiest name. SNDK PARABOLIC (4h RSI 74.8, vwap_dist +9.2%, blow-off spike to 1987 then fade). Uniquely L/S 0.709 (crowd net short) + order book +0.63 = only long-supportive positioning, but extreme mean-reversion risk. Smallest size.",
+    "sentiment": "SNDK BULLISH but EXTENDED / high reversal risk. Parabolic +857% H1 2026, then -24% in July (sharp pullback). Rising NAND ASPs, multi-year Meta NAND supply deal, PT hikes (BofA $2,500, Susquehanna $3,250). BUT RSI ~75, VWAP +9.2%, ATR 3.2% - dangerously overbought after a vertical move. Sharpest volatility of the group.",
+    "analyst": "Spiked 1987.8 then faded, coiling 1937-1950 on drying volume = distribution after +857%, not a base. Long = +9.2%-VWAP chase with no honest tight stop; short fights +0.28 structure bias + squeeze fuel. Saturday closed underlying, gappiest name. HOLD. Armed reconsider above 1987.8 reclaim (else 1937 break arms reversion short).",
+    "portfolio": "HOLD SNDK - parabolic blow-off; no positive-expectancy entry either way. Wait for 1987.8 reclaim or 1937 break."
+  },
+  "timestamp": "2026-07-11T13:03:26.418630+00:00"
+}

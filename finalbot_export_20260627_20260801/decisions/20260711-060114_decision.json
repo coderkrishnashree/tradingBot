@@ -1,0 +1,26 @@
+{
+  "symbol": "CRCL/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.55,
+  "size": 0.0,
+  "entry": 67.03,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "forecast": "Thin weekend grind $66.4-$67.2 around VWAP into Monday; real move is a gap on Monday open / Tuesday CPI. No directional edge mid-range in the next few 15m candles.",
+  "expectancy_note": "No R:R>=1.5 entry from mid-range; account history shows high-ADX trend entries win only 44% at -2.9R. Waiting for support test or $69 reclaim has far better expectancy than a market long into weekend gap risk.",
+  "rationale": "CRCL is coiling flat at VWAP in the dead-center of a wide $61.78-$73.72 range: 4h is uptrend (+0.9) but 15m/1h/5m are flat, so there is no clean level to enter against and any stop wide enough to survive weekend noise kills the R:R. Crowded longs (L/S 2.64), structure bias -0.31 and -17.7% relative strength vs BTC all lean against chasing the long here, and it is Saturday with US cash closed, Monday gap risk and Tuesday CPI as two-sided binaries inside the window. Best expectancy is to stand aside and let price come to support ~$62-63 for a lower-risk long, or prove itself by reclaiming the $69 charter-momentum level before committing size.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 69.0,
+    "expires_min": 240,
+    "note": "Reclaiming $69 recovers the OCC-charter momentum shelf and confirms the 4h uptrend resuming, turning this into a valid continuation long toward $73.72."
+  },
+  "transcript": {
+    "macro": "Broad regime MIXED, hawkish-leaning; ~62% chance of Fed HIKE in Sep, June CPI Tue Jul 14. DXY firm ~101. Saturday, US cash CLOSED - tokenized/synthetic exposure thin/gappy over weekend; real price discovery and CPI reaction hit Monday/Tuesday, respect weekend illiquidity and Monday gap. BTC firm ~$64.1k; CRCL corr +0.53. CRCL MIXED, event-heavy: treat as equity; just had huge week (OCC national trust-bank charter approval +~16% Thu to ~$72.85, closed ~$63 Fri, now ~$67; 4h ATR 3.4%). Two-sided catalysts: bullish (OCC charter, Nomura/Japan FX, expected USDC-Coinbase renewal Aug) vs bearish (Compass Point cut target to $55 on Stripe competition; negative margins). structure_bias -0.31, L/S 2.64 contrarian, composite long 47.2%, rel strength -17.7% vs BTC. Support $61.78, resistance $73.72. Read MIXED - smaller size.",
+    "sentiment": "CRCL volatile, headline-driven; round-tripped from late-June ~$85 high to ~$63, bounced ~12% Jul 10. Positive drivers: final OCC approval for national trust bank; Nomura partnership for instant FX settlement in Japan. Overhang: Stripe's 'Open USD' stablecoin prompted Compass Point upgrade to Neutral but target cut to $55 (long-horizon). No imminent binary - Q2 earnings Aug 18 (outside window), IPO lockup already expired (Dec 2025), no unlock overhang. Thin/gappy off-hours; BTC-correlated 0.53. Net: no hard <=48h catalyst; near-term momentum-driven, tilts mildly for the long on OCC+Nomura but fragile and headline-reversible.",
+    "analyst": "CRCL coiling flat at VWAP in dead-center of wide $61.78-$73.72 range; 4h uptrend (+0.9) but 15m/1h/5m flat - no clean level to enter against, any stop wide enough to survive weekend noise kills R:R. Crowded longs (L/S 2.64), structure -0.31, -17.7% rel strength vs BTC lean against chasing. Saturday US cash closed with Monday gap + Tuesday CPI two-sided binaries. High-ADX trend entries lose on this account (44% win, -2.9R). HOLD; let price come to $62-63 support to buy, or reclaim $69 charter shelf to confirm continuation.",
+    "portfolio": "HOLD CRCL/USDT:USDT - mid-range with no edge into weekend gap + CPI; wait for $62-63 support or $69 reclaim (conf 0.55)."
+  },
+  "timestamp": "2026-07-11T06:01:14.041294+00:00"
+}

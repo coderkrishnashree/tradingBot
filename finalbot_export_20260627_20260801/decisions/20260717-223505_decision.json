@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "INTC/USDT:USDT",
+  "size": 0.0,
+  "entry": 94.45,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Slow bleed near 94.4 on fading volume after the 94.31 flush; next 2-4 bars likely hold 94.3-95.2 or mean-revert toward VWAP ~98 given crowded longs - not a clean fresh short.",
+  "expectancy_note": "Short here is a chase: price -4.1% below VWAP, 4h RSI 34 / 5m RSI 20.7, ATR 3.3%; a routine bounce stops it. Account shorts win only 47% (avg -0.87R); model weights punish neg rel-strength/stretched-VWAP - negative expectancy at spot.",
+  "rationale": "INTC is the weakest name (rel strength -31.9%, 4h trend down) but already deeply extended below VWAP into oversold on lower TFs, with L/S 2.13 crowded longs = squeeze fuel; market-shorting here is the exact late-short-into-stretched-tape pattern that has bled this book. 30m/1h are flat, no reversal or divergence to go long, and Q2 earnings 7/23 add tail risk. Best expectancy is to wait: short a bounce toward VWAP ~98, or confirm continuation on a clean break of the 94.31 flush low.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 94.3,
+    "expires_min": 240,
+    "note": "Losing the 94.31 flush low with volume confirms downside continuation toward support 89.76 and justifies a fresh short."
+  },
+  "transcript": {
+    "macro": "RISK-OFF into a weekend; deepening semiconductor selloff. Tokenized equity perps judged as stocks. US cash market CLOSED into a weekend gap -> thin liquidity, Monday-gap risk -> size down. INTC short-biased but EVENT-LANDMINE: rel strength -31.9% vs BTC (worst), structure_bias -0.28, L/S 2.13 (crowded longs = downside fuel but squeeze risk), ADX 58.9, 4h trend down, VWAP -4.1%, last 94.45. Q2 earnings July 23 after close, options pricing ~15% move; already -21% this month. Biggest risk = violent squeeze/relief bounce. Smaller size, fast stops.",
+    "sentiment": "INTC bearish into an imminent binary. Weakest name (down ~21% in 7 days), sits in the semi bear market. Hard catalyst Q2 earnings 7/23 after close - binary on 18A yields/foundry revenue; any hold past Tuesday carries event risk. Bullish analyst PTs (HSBC $200, BofA $160) are long-horizon noise. Near-term bearish-but-choppy; treat 7/23 as hard flatten date.",
+    "analyst": "Price -4.08% below VWAP, 4h RSI 34, 5m RSI 20.7 = extended in the short direction; hard rule forbids market-entering a short here - a counter-bounce hits any honest stop. Shorting is the account's proven bleed pattern (structure_bias/rel_strength/vwap weights negative; shorts 0.47 win, -0.87 avg). L/S 2.13 crowded longs = squeeze fuel. No clean long thesis. HOLD; short a bounce to VWAP ~98 or confirm a break of 94.31.",
+    "portfolio": "HOLD INTC (size 0) \u2014 direction is short but too extended to chase and earnings 7/23 add tail risk; reconsider short on a break below 94.30 or a bounce toward VWAP ~98."
+  },
+  "timestamp": "2026-07-17T22:35:05.138217+00:00"
+}

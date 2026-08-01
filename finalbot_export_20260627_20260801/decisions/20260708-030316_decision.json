@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "EWY/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.32,
+  "playbook": "none",
+  "forecast": "Coils 180-182 near-term after the 187 spike-and-fade; two-way chop until it either loses 179.9 (leg down to 177 then 174.6) or reclaims 185 (session downside voided). No directional edge mid-range right now.",
+  "expectancy_note": "p(win) on a mid-range short ~0.45 with 3% ATR + off-hours gap risk = negative expectancy; snapback to 185 = full ~2R stop. Best EV is to wait for the 179.9 break or a fade at 185.",
+  "rationale": "EWY is a tokenized equity in chop regime (ADX 13, composite conf 4.9%, regime_blocked) with US cash closed off-hours so tape is thin/gappy. The 15m candles show a violent whipsaw (dumped to 177.4, ripped to 187.1, faded back to 180) \u2014 exactly the two-way crash volatility the notes warn about, and price now sits mid-range with no level to lean on. Bearish bias (weakest RS -12.98, bearish 4h divergence, semis/Kospi rout epicenter) favors a short only on a clean break of 179.9, not a chase here where a snapback = 2R loss. Sitting flat is the highest-EV choice until the range resolves.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 179.9,
+    "expires_min": 240,
+    "note": "Losing 179.9 (last two bars' lows / consolidation floor) confirms the spike-fade rolled over and opens the next leg toward 177 then 174.6 support \u2014 the short trigger."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF. Global chip/AI selloff (Samsung Q2 miss); Asia hit hardest: Kospi ~-5% (circuit breaker). US cash equities closed off-hours \u2014 tokenized equity pairs thin/gappy until 13:30 UTC. EWY read: short-supportive, elevated caution \u2014 epicenter of the Samsung/Kospi rout, high corr to semis/QQQ. Momentum with shorts but crash-level moves mean whipsaw/gap risk \u2014 smallest size of the group. Scan composite conf low (~4.9), action flat.",
+    "sentiment": "EWY is the most volatile name: KOSPI -5% Jul 7, -8% Jul 2, Samsung & SK Hynix swinging 8-15% intraday on AI-buildout doubts. Two-way risk extreme; direction down but expect violent snapbacks. Net bearish but high-variance.",
+    "analyst": "EWY at 181.43. Composite conf 4.9%, direction flat, regime chop, regime_blocked TRUE. RSI 36.3, ADX 13.0 (no trend), BB %b 0.195, bb_width 9.35%, vwap_dist -2.25%, ATR% 2.96 (crash vol), bearish 4h divergence, RS -12.98 (weakest), support 174.61, resistance 202.9. 15m: violent V \u2014 dumped to 177.39, spiked to 187.09, faded to 179.98, now ~181.43 coiling mid-range. No level to lean on; mid-range short with 3% ATR + off-hours gap risk = negative expectancy (snapback to 185 = ~2R stop). HOLD; short only on a break of 179.9.",
+    "portfolio": "HOLD EWY \u2014 chop regime, blocked, violent whipsaw off-hours; no edge mid-range, arm short on loss of 179.9."
+  },
+  "timestamp": "2026-07-08T03:03:16.226223+00:00"
+}

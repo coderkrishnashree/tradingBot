@@ -1,0 +1,25 @@
+{
+  "symbol": "TSLA/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.5,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "expectancy_note": "Long here chases: stoch 85.8 / %B 0.88 / +1.76% over VWAP into resistance 437.73 (~5%, ATR only 1.04%) = poor R:R; short vs ADX 44 uptrend is a knife-catch. Best EV is wait.",
+  "rationale": "TSLA is a strong-trend equity perp (ADX 44, all higher TFs long, RS +7.5%) but extended and mid-air: RSI 69.9, stoch 85.8, %B 0.88, price +1.76% above VWAP with the delivery catalyst already digested (stock fell 7.5% on it) and no fresh binary inside 48h. Long/short 1.545 is crowded-long (structure_bias -0.20), a soft contrarian flag. A clean continuation long needs either a pullback toward VWAP (~409) or a decisive break of resistance 437.73 \u2014 chasing here or fading a 44-ADX trend both have negative expectancy, so flat is the highest-EV position.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 437.73,
+    "expires_min": 240,
+    "note": "Breaking 4h resistance 437.73 resolves the extended readings upward and confirms trend continuation, justifying a breakout/continuation long with a measured-move target."
+  },
+  "transcript": {
+    "macro": "Regime mixed, leaning cautious risk-on. Nasdaq +1.12% Jul 6 near records, tech-led. Rates/USD headwind: Fed held 3.50-3.75% hawkish, May CPI hot 4.2%. No FOMC/CPI in 48h window. TSLA scan long conf 76%; Q2 deliveries (480k, +25% beat) already out Jul 2 but stock fell 7.5% on it \u2014 catalyst behind us; next binary Q2 earnings Jul 22 (outside window). structure_bias -0.20 (long/short 1.55 crowded-long) into RSI 69.9 / stoch 85.8 extended. RS +7.5%. Trim size given hawkish-Fed/hot-CPI + extended readings.",
+    "sentiment": "TSLA constructive but no fresh <=48h catalyst. Delivery beat (~480k vs ~406k consensus) digested. Next binary Q2 earnings after close Jul 22 (outside window). Near-term neutral-to-mildly-bullish, supports long tilt.",
+    "analyst": "Strong-trend equity perp (ADX 44, higher TFs long, RS +7.5%) but extended and mid-air (RSI 69.9, stoch 85.8, %B 0.88, +1.76% over VWAP), catalyst digested, crowded-long (L/S 1.545). Long here chases into resistance 437.73 (~5% away, ATR 1.04%) = poor R:R; shorting a 44-ADX uptrend is a knife-catch. Highest-EV is flat; arm a break of 437.73 for a continuation long.",
+    "portfolio": "HOLD TSLA \u2014 strong but overbought/extended, no fresh catalyst; wait for pullback-to-VWAP or break of 437.73."
+  },
+  "timestamp": "2026-07-07T10:42:36.042350+00:00"
+}

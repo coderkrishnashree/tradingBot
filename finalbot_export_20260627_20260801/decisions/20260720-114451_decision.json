@@ -1,0 +1,28 @@
+{
+  "symbol": "GOOGL/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.6,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "none",
+  "forecast": "Thin pre-open tape chops 348.0-349.4; last 91.66-vol pop to 349.40 (close 348.93) is thin liquidity, not confirmed. Expect a fade toward VWAP/348.2 into the cash open unless real buyers reclaim 349.4 on volume.",
+  "expectancy_note": "No clean R:R: honest stop ~347.6 (1.3 wide) but nearest resistance 379.97 is far, so no TP1 in reach; muddy composite (only 4h long, LTFs flat) + sellers stacked (orderbook -0.316) + crowded longs = negative expectancy.",
+  "rationale": "GOOGL composite is weak (36% conf, blended 0.211) driven solely by the 4h; 15m/30m/1h/5m all flat and the move is a thin pre-open pop, exactly the false-strength macro flagged. Orderbook -0.316 (sellers stacked) vs crowded longs (L/S 1.615) = bearish structure, and no structural TP near enough to build 1.5R off a ~1.3 ATR stop. Decisively, earnings Wed Jul 22 after close is a binary gap inside the hold window. Flat is highest-expectancy; wait for the cash session.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 349.4,
+    "expires_min": 240,
+    "note": "Reclaiming the pre-open range high on real post-open volume justifies a tactical intraday long (still flat before the Jul 22 print)."
+  },
+  "transcript": {
+    "macro": "Regime MIXED, leaning risk-off (2026-07-20, scan 11:38 UTC pre-US-open). Nasdaq -5% off June high on a chip-led semiconductor selloff; DXY soft ~100.7; FOMC Jul 29 (outside window). Scan is pre-cash-open so strong last candles are thin liquidity, not confirmed trend. Nearly every candidate overbought and long-crowded (negative structure_bias = crowded longs = contrarian risk). Cleanest read: SOL (24/7). Most treacherous to chase: EWY/QQQ/NVDA (overbought chip proxies in the active chip selloff). GOOGL earnings Wed Jul 22 after close is a binary inside the hold window.",
+    "sentiment": "Mood cautiously risk-on but rate-nervous; mega-cap earnings season starts this week. GOOGL reports Wed Jul 22 after close (only true <=48h binary; read-through to QQQ/NVDA/EWY). NVDA earnings Aug 26; HOOD Jul 29; FOMC Jul 28-29. SOL constructive structural backdrop (spot ETFs >$1.12B inflows, ~96% RWA volume share) but no <=48h binary, flow-dependent, highest BTC corr. XAG best fundamental tailwind (6th straight supply deficit, LBMA $79.57 target) but RSI ~82 stretched. EWY strongest momentum (SK Hynix/AI-memory proxy, Goldman KOSPI target 12,000) but a chip proxy into the semis selloff and the most extended name in the scan.",
+    "analyst": "GOOGL: HOLD. Weak long composite (only 4h scores long; LTFs flat). Apparent strength is one thin pre-open candle (349.40 pop). Structure bearish: orderbook -0.316 vs crowded longs (L/S 1.615). No structural TP near enough for 1.5R. Earnings Wed Jul 22 after close is a binary inside the window. Flat = best expectancy.",
+    "portfolio": "HOLD - flat into Jul 22 earnings; no clean R:R on a thin pre-open pop."
+  },
+  "timestamp": "2026-07-20T11:44:51.594643+00:00"
+}

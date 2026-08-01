@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "EWY/USDT:USDT",
+  "size": 0.0,
+  "entry": 171.64,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Coiling 171.2-172.0 on collapsing volume just under the 172.1 swing high; likely a shallow drift/chop toward VWAP ~167.5 before the next impulse \u2014 no clean edge until 172.1 breaks or 170.35 gives way.",
+  "expectancy_note": "p(win)~0.5 either way; long is a chase (+2.42% >VWAP, 15m RSI 72, dying volume) and short fights ADX 35 uptrend with no divergence \u2014 HOLD has best expectancy.",
+  "rationale": "EWY completed its impulse from 167 to 172.11 on two big-volume bars, then stalled 8 bars on collapsing volume just under 172 resistance \u2014 post-move exhaustion, not a fresh entry. Chip-beta laggard (rel strength -12.69%) into a risk-off/hawkish tape with INTC earnings tomorrow as an overhang; won't chase the extended long nor knife-fade a live ADX-35 uptrend. Wait for 172.1 reclaim (continuation) or 170.35 loss (fade). Size 0.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 172.11,
+    "expires_min": 240,
+    "note": "Break of swing high on renewed volume flips to a trend long; losing 170.35 opens a mean-reversion short toward VWAP."
+  },
+  "transcript": {
+    "macro": "RISK-OFF/hawkish. Warsh Fed edging toward a HIKE (~24% Jul, ~69% by Sep), inflation 3yr high; Brent +2% >$93 on Iran strikes; DXY 13-mo high, 10Y ~4.5% = headwind for all risk. Equities drifting; GOOGL/TSLA report tonight = overnight Nasdaq vol. Every target has negative structure_bias (crowded long) and lags BTC -> smaller size, fade breakout-longs. Tokenized ETFs trade thin/gappy off-hours.",
+    "sentiment": "EWY neutral/cautious: semiconductor-heavy (Samsung, SK Hynix), KOSPI in local bear (-21% from YTD high). No <=48h catalyst; trades as INTC/memory/AI beta -> INTC Q2 earnings Thu Jul 23 after close is the indirect risk. FOMC Jul 28-29 hawkish tilt building outside window.",
+    "analyst": "Extended post-impulse stall on dying volume under 172 resistance; chip-beta laggard into risk-off + INTC overhang. No honest R:R either direction. HOLD, wait for 172.1 break or 170.35 loss.",
+    "portfolio": "EWY -> HOLD (conf 0.50): no-chase / no-knife, wait for the 172.1 break."
+  },
+  "timestamp": "2026-07-22T17:03:54.771716+00:00"
+}

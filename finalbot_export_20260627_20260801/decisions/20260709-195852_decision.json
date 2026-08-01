@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "XAUT/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price is fading off the 4121.8 high in a clean 6-bar lower-high/lower-low sequence into the 4106-4108 shelf; expect it to grind sideways-to-down and test 4106 within 2-4 bars. A clean break and hold below 4106 opens a slide toward ~4090/4080; failure to break keeps it chopping 4106-4118.",
+  "expectancy_note": "No confirmed level break at spot; a mid-range short (p~0.5) or a chase-long into a rolled-over move both lose money per account history (trend longs 47% / -3.0R). HOLD until 4106 breaks (short) or 4122 reclaims (long).",
+  "rationale": "The composite 'long' rests on a stale 30m/1h push that has clearly rolled over on the 15m - six down bars, fading volume, closing mid-range at 4108.6, into a macro backdrop where gold fell every day this week (safe-haven bid going to oil, firmer DXY, rising real yields) and positioning is crowded long (2.6x L/S, structure_bias -0.331 = squeeze fuel down). No exhaustion or level break exists right at spot, so both a chase-long and a mid-range short have negative expectancy; the honest edge is to wait for the 4106 floor to break to short, or 4122 to reclaim to flip long. Size 0.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 4106.0,
+    "expires_min": 240,
+    "note": "Losing the 4106 two-bar floor with follow-through confirms the LTF fade and macro headwind, opening a clean short toward 4090/4080 with a stop back above 4118."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF/defensive, event-heavy (US-Iran conflict, oil climbing, gap risk). XAUT last 4108.6, composite long 48.5% but structure contrarian-bearish: long_short 2.606 (crowded long), structure_bias -0.331. Momentum split 30m/1h up (1h RSI 70.7) vs 4h neutral / 5m-15m fading. Two down sessions + rising yields/DXY vs Iran safe-haven bid = two-way. Long only on strength holding >4107; flat defensible; smaller size.",
+    "sentiment": "Safe-haven bid flowing to OIL not gold, stoking inflation fear, real yields elevated. Fed hawkish risk (9-8 split on a hike). CPI July 14, FOMC July 29 (both outside 48h). Gold opened lower again, fell each day this week; firmer USD capping. Near-term news NEUTRAL-to-slightly-AGAINST a long; any long is a technical bounce play, not news-supported.",
+    "analyst": "Composite 'long' rests on a stale, now-rolled-over 30m/1h push; 15m shows six down bars fading into the 4106-4108 shelf. Macro against gold + crowded 2.6x long = squeeze fuel down. No exhaustion or level break at spot, so both chase-long and mid-range short have negative expectancy. Wait for 4106 break (short) or 4122 reclaim (long).",
+    "portfolio": "XAUT: HOLD (conf 0.60) - no confirmed level break; arm short below 4106."
+  },
+  "timestamp": "2026-07-09T19:58:52.734821+00:00"
+}

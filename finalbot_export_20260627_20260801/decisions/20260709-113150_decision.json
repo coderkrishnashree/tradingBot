@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "EWJ/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.3,
+  "playbook": "none",
+  "forecast": "No tradeable path: 15+ of last 20 15m bars printed 92.95 at 0.0 volume (cash market closed/frozen); the only real prints are a single 92.95->92.23 tick and a 92.23->92.28 recovery. Next candles are gap-risk noise, not a forecastable move until the underlying reopens with volume.",
+  "expectancy_note": "Any entry on a frozen book has p(win)~coinflip with unbounded slippage/gap risk; HOLD has strictly higher expectancy than trading an artifact tick.",
+  "rationale": "EWJ is a tokenized Japan ETF and the tape is dead \u2014 long stretches of zero-volume flat candles confirm the cash market is closed at 11:25 UTC, so perp moves are gappy and unreliable. The 4h is a genuine downtrend (score -0.843, ADX 64.8, RSI 36) but price sits mid-range (%B 0.27) between support 90.27 and resistance 96.65 with no level to lean on, so there is no honest R:R short here. Size 0: execution risk dominates a merely-neutral near-term thesis.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 90.27,
+    "expires_min": 240,
+    "note": "A break of 90.27 support on real (non-zero) volume confirms the 4h downtrend resuming with a live cash market \u2014 the point to press the short with a defined stop back inside the range."
+  },
+  "transcript": {
+    "macro": "Regime HOSTILE/RISK-OFF: Fed hawkish (year-end median 3.8%, hike floated), 10Y ~4.5%; Middle East escalation dominant (Iran strikes, Hormuz), oil +5%; equities heavy, AI-trade rotation; crypto Extreme Fear (F&G 22), BTC dominance 56.6%. Scan-wide crowding: most names lopsidedly long into a rolling-over tape. EWJ: 4h trend down, scan short, L/S 1.94 crowded long, funding ~0, low BTC corr 0.28. CRITICAL: off-hours illiquidity \u2014 near-zero-volume frozen candles; size down hardest.",
+    "sentiment": "EWJ (iShares MSCI Japan ETF): Nikkei +37% YTD but consolidating ~7% off highs, no fresh shock. BoJ decision 7/30 (outside 48h). Japan earnings season starting (Fast Retailing, Seven & i 7/9) \u2014 no single <=48h ETF catalyst. Weak yen tailwind to exporters, rising JGB yields mild headwind. Net NEUTRAL near-term, macro-driven.",
+    "analyst": "Frozen tape \u2014 15+ of last 20 bars at 92.95 with 0.0 volume; only real prints are one 92.95->92.23 tick and a 92.23->92.28 recovery. 4h downtrend is genuine (ADX 64.8) but price is mid-range with no level to lean on and no honest R:R. Textbook no-trade: execution risk dominates. Armed reconsider at a 90.27 support break on real volume.",
+    "portfolio": "HOLD EWJ \u2014 frozen off-hours book, no tradeable path; wait for a 90.27 break on real volume."
+  },
+  "timestamp": "2026-07-09T11:31:50.027416+00:00"
+}

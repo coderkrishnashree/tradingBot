@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "SNDK/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Parabola has stalled: rejected ~1959, flushed to 1944, bounced to 1956 then closed back at 1953 on a lower high \u2014 expect chop/digestion 1944-1960 over the next few bars, likely a drift lower toward VWAP unless 1987.8 is reclaimed on volume.",
+  "expectancy_note": "No side clears 1.5R: long = chasing RSI 81.5 / +4.5% above VWAP into resistance on a closed cash market (the exact late-trend pattern losing 41%/-3R in this book); short = knife-catch against +0.73 bid and 1h/4h uptrend. Wait for a confirmed level.",
+  "rationale": "SNDK is extremely extended after a +12% earnings/Meta-deal/PT shock \u2014 RSI 81.5, ADX 92, +4.49% above VWAP, sitting under resistance 1987.8 with Monday-gap risk and CPI Tuesday inside the window. The 15m/5m tape is flat and rolling over (lower high, close in lower range), so a momentum-long here is chasing into the stall and a short fights the strong bid \u2014 neither is honest R:R. Holding is the highest-expectancy call; a clean reclaim of 1987.8 turns this into a real pullback-buy.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 1987.8,
+    "expires_min": 240,
+    "note": "A break and hold above resistance 1987.8 confirms the breakout is real, converting the extended tape into a valid trend-continuation buy on the first pullback rather than a chase."
+  },
+  "transcript": {
+    "macro": "Regime NEUTRAL, cautiously risk-on into CPI. Weekend/Sunday \u2014 tokenized equities off a CLOSED cash market: thin, gappy, Monday-gap risk -> smaller size. US June CPI Tue Jul 14 biggest book risk; TSMC earnings Jul 16 bleeds into SNDK via semi correlation. SNDK = the one long-biased equity: structure_bias +0.30, orderbook +0.73 (strong bid), 1h/4h long. BUT RSI 81.5, ADX 92, +4.5% above VWAP, at resistance 1987.8 = extremely extended after semi-bounce; RS -14% vs BTC. Momentum-long ONLY, high reversal risk, thin. MIXED (chase risk).",
+    "sentiment": "SNDK BULLISH but stretched. Stock jumped ~12%+ on strong report; Bernstein hiked PT to $3000 from $1700 (long-horizon, discount); SNDK signed multi-year NAND supply deal with Meta \u2014 explains the parabolic scan. NAND pricing MODERATING: Q3 contract +10-15% QoQ vs +70-75% Q2 (medium-term headwind). Next earnings Aug 5 (outside window). Bullish trend intact but overbought into resistance; chase risk high; no <=48h binary.",
+    "analyst": "Data lines 949-1173; learner stats /decisions/_learner_stats.json. Parabola stalled: rejected ~1959, flushed to 1944, bounced 1956, closed 1953 on a lower high. 15m/5m flat (15m RSI only 48) \u2014 overbought reading lives on 4h/daily. Long = chasing RSI 81.5 / +4.5% above VWAP into resistance on a closed market (account's #1 loss pattern; trend playbook 41% win -3.01R); short = knife-catch vs +0.73 bid + 1h/4h uptrend. Neither clears 1.5R. HOLD; arm long on a reclaim of 1987.8.",
+    "portfolio": "HOLD SNDK \u2014 extended parabola stalling under 1987.8 resistance; no honest 1.5R either way; long armed on a confirmed reclaim of 1987.8."
+  },
+  "timestamp": "2026-07-12T19:03:23.830577+00:00"
+}

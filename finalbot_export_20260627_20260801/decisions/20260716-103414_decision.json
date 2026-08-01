@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "TSLA/USDT:USDT",
+  "size": 0.0,
+  "entry": 394.75,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Price is basing just above 391 support after a bounce off 393.37; over the next 2-4 bars expect chop between 393.5 and 396 rather than a clean directional move. A market short here rides straight into the 391 shelf with 5m already oversold (RSI 30.9) \u2014 likely a bounce first.",
+  "expectancy_note": "Short into 391 support with 5m oversold gives poor entry; p_win_learned 0.459 (<50%), thin book (OI 7.9k, vols <40) means gap/slippage risk. Best short is a break of 391 OR a bounce to ~396 VWAP/resistance to sell \u2014 neither is live now, so HOLD is highest expectancy.",
+  "rationale": "4h trend is strongly down (ADX 65) and rel strength -4%, but price sits only ~1% above 391 support, near VWAP (-0.63%), with orderbook bid-heavy (+0.46) and 5m oversold \u2014 shorting the lows here is exactly the chase-late pattern that stops out on the bounce. Long-crowd (1.84) is only mildly contrarian, not an extreme worth fading, and July 22 earnings caps multi-day conviction. Thin off-hours liquidity adds gap risk; no size warranted until price either loses 391 (trend resumes) or bounces to ~396 to offer a real short entry.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 391.0,
+    "expires_min": 240,
+    "note": "Losing 391 support breaks the base and confirms trend continuation \u2014 that is the clean short trigger, entering on the break rather than chasing the lows."
+  },
+  "transcript": {
+    "macro": "Equities risk-ON (Nasdaq firm, AI mega-caps leading, soft CPI -> Fed on hold) but tokenized-equity perps thin/gappy pre-US-open. TSLA: funding 0.0, OI tiny (7,923), 15m vols <40 = very thin. L/S 1.84 (long-skewed), orderbook +0.46 bid, structure_bias -0.11, BTC corr 0.23 (equity-driven). Scan short across TFs (4h -0.61, ADX 65) against a rising Nasdaq; RS -4.04%. Q2 earnings Jul 22 (6d). Verdict: MIXED, lean cautious-short / stay-small; avoid holding size into the print.",
+    "sentiment": "TSLA bearish into an event. Q2 earnings after US close Wed Jul 22 (~6d) is the dominant multi-day risk. Record Q2 deliveries (480,126 beat) already public and stock FELL ~7% on the beat \u2014 'good news being sold', market wants margins/FSD/robotaxi. Robotaxi Miami live = narrative not 48h mover. Off-hours perp gaps/thin. Net: sell-the-good-news tape, no positive 48h catalyst before earnings.",
+    "analyst": "Strong down-trend (ADX 65) with weak RS favors shorts, but price coils in a tight 393.4-396.4 box on the 391 support with tiny 15m ATR (0.15%), not extended, orderbook bid-heavy, 5m oversold (RSI 30.9). Mid-range market short is only ~1.45R to the 391 magnet with bounce/gap/earnings-drift risk and p_win_learned 0.459. HOLD, armed for the 391 break or a VWAP-bounce fade.",
+    "portfolio": "TSLA/USDT:USDT \u2014 HOLD (conf 0.50): short bias but no clean entry; armed short reconsider on break below 391."
+  },
+  "timestamp": "2026-07-16T10:34:14.089911+00:00"
+}

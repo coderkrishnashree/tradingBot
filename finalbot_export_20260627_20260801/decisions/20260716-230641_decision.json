@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "NVDA/USDT:USDT",
+  "size": 0.0,
+  "entry": 206.46,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.55,
+  "playbook": "none",
+  "forecast": "Quiet drift continues in the 206-208 zone near VWAP; expect chop between the 205.9-206.1 intraday base and 207.6 rather than a clean directional break. Only a loss of 197.4 opens real downside.",
+  "expectancy_note": "No positive-expectancy entry: shorting mid-range (bb%b 0.30, VWAP -0.74%) needs a ~$3.6 stop above 210 while first real target (support 197.4) is ~9pts away; p(win) low as buyers (orderbook +0.38) offset the crowded-long L/S. Long is worse (RSI 42, sector risk-off). HOLD beats a coin-flip chop trade.",
+  "rationale": "NVDA is the least-committed short in a risk-off semis tape: rel-strength flat (+0.43%), structure_bias only -0.05, and orderbook +0.38 buyers are offsetting the crowded 1.54 long ratio. Price sits mid-range near VWAP with no breakdown trigger and no NVDA binary inside 48h, so a market short here is exactly the account's late-entry-into-noise loss pattern. Want confirmation via a support break, not a mid-range guess; size 0 until the tape commits.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 197.43,
+    "expires_min": 240,
+    "note": "Losing 4h support 197.43 confirms NVDA is breaking down on its own with the semi selloff, validating a fresh short with the trend."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF, tech/semis leading downside, bias SHORT. US closed weak (Nasdaq -1.2%). Semi selloff from TSMC capex + soft margin guide; hawkish-Fed risk live. Equity perps trade with US cash CLOSED = thin/gappy -> smaller size. NVDA: LEAST-committed short (rel-str ~flat +0.43%, holding up better than EWY/TSM), structure_bias only -0.05, orderbook +0.38 offsets crowded L/S 1.54. Guilty-by-sector but not breaking down on its own.",
+    "sentiment": "NVDA BEARISH near-term. Fell 2.6% today, dragged by TSMC margin guide. Fresh export-control friction (July 14): H200 China shipments 'very limited', whitelist regime cut Asian buyers >half. No earnings until Aug 25 = no binary inside 48h; moves sector/macro-driven.",
+    "analyst": "Quiet low-vol drift near VWAP, mid-range (bb%b 0.30), ~4.4% above 197.4 support. Shorting mid-range needs a wide stop above 210 while buyers (orderbook +0.38) offset the crowded long ratio = low p(win), late-entry-into-noise loss pattern. Long worse (RSI 42). HOLD, size 0, arm short on a loss of 197.43.",
+    "portfolio": "NVDA HOLD (0.55): bearish bias but no breakdown trigger; short only on a loss of 197.43."
+  },
+  "timestamp": "2026-07-16T23:06:41.434041+00:00"
+}

@@ -1,0 +1,26 @@
+{
+  "symbol": "GOOGL/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.62,
+  "size": 0.0,
+  "entry": 357.6,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "forecast": "Weekend dead tape: price stays pinned in the 356.5-358.8 drift band on near-zero volume through the weekend; a Monday gap is the real event, direction unknown.",
+  "expectancy_note": "No tradable edge: shorting into already-oversold LTF RSI on zero-volume pinning is the account's #1 loss pattern; no honest stop survives a Monday gap. Negative expectancy -> HOLD.",
+  "rationale": "GOOGL is a tokenized equity with US markets CLOSED (Saturday); 15m candles show 0.3-2.4 volume and a 0.4% range all session -- Friday-close pinning, not a trend to trade. The scan's SHORT is into already-stretched LTF RSI on no liquidity, and any weekend position risks gapping through the stop Monday. Size 0: wait for Monday liquidity and real price discovery.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 351.78,
+    "expires_min": 240,
+    "note": "Losing Friday support 351.78 on restored Monday volume validates the 4h downtrend short with a real stop."
+  },
+  "transcript": {
+    "macro": "Sat Jul 11 2026 ~12:00 UTC. Regime MIXED-to-HOSTILE for fresh longs. US equity markets CLOSED (weekend); tokenized-equity perps pinned to Friday cash close on thin liquidity, no price discovery, Monday gap risk. GOOGL: weekend dead tape (near-zero volume), scan SHORT (blended -0.57), L/S 1.88 crowded long into weakness, lowest BTC corr 0.13.",
+    "sentiment": "GOOGL NEUTRAL near-term. No fresh 48h catalyst. Q2 earnings Wed July 22 after close (~11 days out, outside window). Nothing company-specific pushing next 48h.",
+    "analyst": "Tokenized equity, Saturday, no liquidity; scan short is into oversold LTF RSI (5m 25.7/15m 32.4) on zero-volume pinning -- the account's proven loss pattern. No honest stop survives a Monday gap. HOLD with a reconsider trigger at Friday support 351.78 on restored volume.",
+    "portfolio": "HOLD GOOGL -- no tradable edge on a closed-market weekend; revisit on a Monday break of 351.78."
+  },
+  "timestamp": "2026-07-11T12:03:03.814128+00:00"
+}

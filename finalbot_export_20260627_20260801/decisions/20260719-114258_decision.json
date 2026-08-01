@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "EWJ/USDT:USDT",
+  "size": 0.0,
+  "entry": 89.97,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Thin Sunday tape churns 89.8-90.2 near-frozen; genuine move waits for cash reopen or a BOJ headline. 1h RSI 22 / 5m RSI 20 mean any near-term push likely produces a dead-cat bounce toward VWAP ~92 before the downtrend can resume.",
+  "expectancy_note": "Short is late (RSI 22/20 oversold, -2.23% below VWAP) with p_win_learned 0.405 and Sunday gap risk; no long thesis in a live downtrend. Best expectancy is to wait.",
+  "rationale": "EWJ is in a multi-TF downtrend but is deeply oversold (1h RSI 22, 5m RSI 20) and 2.23% under VWAP on near-zero Sunday volume - a market short here chases the move into the exact bounce that kills late shorts, and the model's own p_win is 0.405. No long is justifiable against the trend and BOJ event risk. Highest-expectancy action is HOLD; size 0.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 88.16,
+    "expires_min": 300,
+    "note": "Losing 88.16 support on real volume confirms trend continuation and clears a clean short entry; a bounce back above ~91.9 (VWAP retest) would instead set up a lower-risk short into strength."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF/defensive; S&P -1.6% wk, rotation out of tech into value/defensives. Fed hawkish (~60% odds hike by Oct), DXY ~101 fading. Semis in active selloff (dominant driver, not EWJ's story). Funding ~0 all perps; long/short skewed heavily LONG (crowded-long squeeze risk). BTC corr low. EWJ: different driver - yen ~162, USD/JPY grinding to 164-165, hawkish-BOJ-Sept speculation; EWJ down hard (1h RSI 22, rel-strength -11%) tracking global risk-off. Sunday US cash closed, gap risk, reduced size.",
+    "sentiment": "EWJ NEUTRAL/event-risk. ~$94, +45% trailing 1yr, fwd P/E ~17.8. Live catalyst July BOJ meeting (normalization/rate path) + Japan Q2 earnings season. Stronger yen = headwind for exporters, tailwind for heavy bank weighting. Lower single-name beta than US chips; off-hours tokenized trading thin/gappy. Net near-term: neutral, BOJ is the swing factor.",
+    "analyst": "Multi-TF downtrend but deeply oversold (1h RSI 22, 5m RSI 20), -2.23% below VWAP, p_win_learned 0.405. Short is late and chases into the bounce zone; no long thesis vs live downtrend + BOJ event risk. No clean entry on thin Sunday tape. HOLD; arm short below 88.16 or on a VWAP bounce to ~91.9.",
+    "portfolio": "HOLD EWJ - late short / no long edge on thin Sunday tape; wait for 88.16 break or VWAP retest."
+  },
+  "timestamp": "2026-07-19T11:42:58.561992+00:00"
+}

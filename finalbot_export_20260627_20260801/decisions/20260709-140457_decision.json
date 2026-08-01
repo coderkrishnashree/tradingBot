@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "QQQ/USDT:USDT",
+  "size": 0.0,
+  "entry": 723.14,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.35,
+  "playbook": "none",
+  "forecast": "Price is a stretched 15m breakout (stoch 99, RSI 80, bb%b 0.83) pinned just under 723 into resistance 734. Base case: stall/mean-revert back toward the 719 base and VWAP (~712) rather than clean continuation. A break under 719 opens a failed-breakout slide toward 712; reclaim above 726 with fresh volume would extend toward 730-734.",
+  "expectancy_note": "No positive-expectancy entry: chasing long at 723 with LTF stoch 99 into resistance risks the routine pullback stopping a tight stop (R:R < 1.5); shorting a fresh confirmed volume breakout above VWAP fights momentum with no rejection yet. HOLD beats both.",
+  "rationale": "QQQ is an equity beta proxy in a chop regime (ADX 5.7, 4h score 0.0), just popped on a 15m volume breakout but LTF is overbought/stretched (stoch 99, 15m RSI 80, bb%b 0.83) right into resistance 734, while macro tilts risk-OFF into CPI and flags QQQ to amplify mega-cap downside. That makes a long a chase and a short premature without a rejection. No clean R:R >= 1.5 at 723; wait for a failed breakout below 719 (short toward VWAP) or a genuine hold/extension above 726.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 719.0,
+    "expires_min": 240,
+    "note": "Losing the 719 breakout base fails the pop and opens a short back to VWAP ~712 / support 698, aligning with the risk-off macro lean."
+  },
+  "transcript": {
+    "macro": "US equity risk tone MIXED, tilting risk-OFF near-term. Mon 7/6 record highs, Tue 7/7 tech-led pullback (Nasdaq -1.16%) with rotation OUT of mega-cap tech/semis; scan shows AAPL/MSFT/META/GOOGL/TSLA/ORCL negative composites, RSI 25-38, downtrend 15m-1h (wobble, not breakdown). Fed HAWKISH: dot plot year-end 3.8%, ~36% tail for a July hike, cuts off the table. June CPI drops Jul 14 (binary event risk if carried). Positioning: crowded longs everywhere (L/S: MSFT 1.89, META 1.93, GOOGL 1.76, ORCL 2.15, CL 2.73, SOL 2.36), funding ~zero on equity perps -> downside air-pockets favored, rallies fade-able, but snap-back squeeze risk from oversold RSIs. Environment MIXED-to-HOSTILE for LONGs, modestly SUPPORTIVE for tactical SHORTS/fades in mega-cap tech. Smaller size / faster targets. CL is own driver (choppy-to-soft, Iran/Hormuz two-way tail, negatively correlated to equities). SOL: BTC dead-flat, no crypto impulse, crowded longs; trades on weak drift.",
+    "sentiment": "Key near-term driver macro: June CPI (~7/14) main event, Fed hawkish (hike risk), index rangebound ~30,000. Off-hours perps thin/gappy. NEUTRAL-to-bearish lean into CPI.",
+    "analyst": "QQQ is an equity beta proxy in a chop regime (ADX 5.7, 4h score 0.0), just popped on a 15m volume breakout but LTF is overbought/stretched (stoch 99, 15m RSI 80, bb%b 0.83) right into resistance 734, while macro tilts risk-OFF into CPI and flags QQQ to amplify mega-cap downside. That makes a long a chase and a short premature without a rejection. No clean R:R >= 1.5 at 723; wait for a failed breakout below 719 (short toward VWAP) or a genuine hold/extension above 726.",
+    "portfolio": "HOLD QQQ/USDT:USDT (conf 0.35)"
+  },
+  "timestamp": "2026-07-09T14:04:57.716181+00:00"
+}

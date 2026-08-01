@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "EWJ/USDT:USDT",
+  "size": 0,
+  "entry": 92.01,
+  "stop_loss": 88.16,
+  "take_profit": 94.82,
+  "confidence": 0.34,
+  "playbook": "none",
+  "forecast": "No tradable path: last 20 bars are near-zero volume synthetic prints (vol 0.0-0.8) drifting 92.08->92.01; price chops in a dead 91.9-92.3 pocket until Japan reopens, with gap risk either direction.",
+  "expectancy_note": "p(win) undefinable when the book doesn't trade; SL/TP can't be reliably filled, so any R:R is illusory. HOLD dominates.",
+  "rationale": "EWJ is effectively untraded on this scan (15m volumes 0.0-0.8), Japan cash is closed, and BOJ 7/30 is a live tail risk. The composite long is unaligned (39% conf, 15m RSI 21.4 short vs 4h long) and the snapshot is already overbought (RSI 73, %B 0.93, stoch 88, +1.6% vs VWAP) into the MOST BEARISH near-term sentiment (Nikkei -4% Friday, semi selloff). No honest entry, stop or target survives this microstructure, so the highest-expectancy action is to stand aside.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 88.16,
+    "expires_min": 240,
+    "note": "Losing range-support 88.16 on real volume would confirm the bearish Nikkei tape breaking through and open a genuine, fillable short."
+  },
+  "transcript": {
+    "macro": "Regime: MIXED / cautiously risk-on into event risk. US indices near records but digesting US-Iran tensions; soft June CPI (3.5%) supportive; DXY firm ~105.4, 10Y ~4%. FOMC 7/29 and BOJ 7/30 loom, Big Tech earnings begin this week. Crowded long/short ratios (1.6-2.6) across nearly every name into rising event risk -> trade small. Per-name: NVDA cautiously supportive (chip leadership bid, RS -6.6% vs BTC, earnings landmines) size down; HOOD mixed (fading internals, RS -17%); AAPL stretched short (RSI 18, ADX 74, bounce risk); XAUT range/neutral (~$4,020, firm DXY headwind, crowded L/S 2.57); EWJ hostile microstructure (near-zero volume, BOJ 7/30); SOL mixed (BTC-beta corr 0.78, OI contracting, funding negative, crowded long).",
+    "sentiment": "Dominant tape: violent AI-chip/semiconductor selloff in July (SOX -10-17%, >$1T chip cap erased) from custom-silicon competition, HBM slowdown, compute-surplus fears; risk-off rotation out of AI beta. FOMC July 28-29. No name has a hard catalyst inside 24-48h. NVDA: relatively resilient in selloff, no earnings until Aug 26. HOOD: earnings Wed 7/29 (outside window). AAPL: earnings Thu 7/30 (Cook's final call), oversold into strong YTD run. XAUT: defending $4,000, Goldman/JPM cut targets, $3,960 critical support. EWJ: MOST BEARISH - Nikkei -4% Fri on semi selloff, BOJ 'behind the curve'. SOL: constructive - testing $73-75 support, +4% wk, ETF assets >$1B, but venture unlock supply caps upside; above $80 = trend start.",
+    "analyst": "HOLD. Effectively untraded (15m vol 0.0-0.8), Japan cash closed, BOJ 7/30 tail risk. Composite long unaligned + overbought into MOST BEARISH tape (Nikkei -4% Fri). Hostile microstructure -> no fillable entry/stop/target. Stand aside.",
+    "portfolio": "EWJ: HOLD (conf 0.34) - illiquid/untradeable this cycle; no honest R:R."
+  },
+  "timestamp": "2026-07-21T12:32:04.476031+00:00"
+}

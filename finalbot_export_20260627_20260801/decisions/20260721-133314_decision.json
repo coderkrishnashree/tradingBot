@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "XAUT/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.4,
+  "playbook": "none",
+  "forecast": "Choppy 4048-4062 range; weak close at 4052 near bar low tilts toward a retest of 4048; a clean break there opens 4020, else it churns mid-range with no edge for the next few bars.",
+  "expectancy_note": "No side clears R:R 1.5 here: short fights HTF uptrend + the account's proven short-losing pattern (46% win) with price only +0.75% off VWAP (not extended enough to fade); long fights hostile macro, crowded L/S 2.58, %B 0.94 into resistance and an LTF rollover. p(win) both ~0.5 \u2014 expectancy favors waiting.",
+  "rationale": "XAUT is mid-range (4052 between 3961 support / 4094 resistance) with conflicting TFs: 1h/4h long but 15m rolling over (RSI 33) and a weak last-bar close at 4052.2 near its low. Structure is a very crowded long (L/S 2.58, bias -0.33) and macro is hostile to gold longs (firm DXY, 10Y 4.52%, near 9-mo low), so there is downside risk but price is not yet extended enough to short cleanly, and shorts have been the account's losing trade. No location edge, no confirmed break \u2014 HOLD until 4048 gives way (short trigger) or 4065 reclaims (long).",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 4048,
+    "expires_min": 240,
+    "note": "Losing the 4048 swing low (the high-volume rejection low) confirms the LTF rollover and aligns with the crowded-long + hostile-macro bias, opening a clean short toward 4020/3990."
+  },
+  "transcript": {
+    "macro": "Cautiously risk-on with hawkish-rates overhang. VIX 17.85. Rate-HIKE-fear tape (10Y ~4.52%, firm DXY). XAUT (gold) ~$4,052, near a 9-month LOW \u2014 pressured/downtrend tape, not the old safe-haven bid. Firm DXY, high yields and rising Fed-hike odds all cap gold. L/S 2.58 = very crowded long (structure_bias -0.33, most lopsided in the book) = contrarian downside risk. Only offset is Iran energy-inflation flows. Environment mixed-to-hostile for fresh longs; better as a fade/short-side name.",
+    "sentiment": "Slightly bearish-to-neutral near-term. Gold ~$4,050 in a $3,960 support / $4,300 resistance range. Hawkish Fed / firmer yields / stronger DXY are the headwind (OCBC sees gold declining into year-end); Iran/Middle East safe-haven flows partially offset. No 48h binary; direction hinges on rates/DXY drift + geopolitics.",
+    "analyst": "Conflicting TFs: 1h/4h long but 15m rolling over (RSI 33) with a weak last-bar close (4052.2 near low) after fading off 4065. Very crowded long (L/S 2.58, bias -0.33) + hostile gold macro = downside risk, but +0.75% off VWAP is not extended enough to short cleanly, and the account's shorts lose (46% win). Composite low-conviction (43%, not aligned) and price mid-range. No location edge \u2014 HOLD; arm a short on loss of 4048.",
+    "portfolio": "HOLD XAUT \u2014 hostile-macro crowded-long gold but not extended enough to fade; short armed below 4048."
+  },
+  "timestamp": "2026-07-21T13:33:14.884874+00:00"
+}

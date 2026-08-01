@@ -1,0 +1,26 @@
+{
+  "symbol": "ORCL/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.55,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "rationale": "ORCL composite long is weak (40.8%) and the tape is a low-volume grind while price is extended above VWAP (+2.39%), stochastic near overbought, longs crowded 2.52 and structure bias -0.24 in a post-earnings overhang name that lags BTC by 24%. Chasing long here is the account's classic late-continuation loss and there is no confirmed rejection to short yet, so neither side offers 1.5R. Wait for a base break.",
+  "forecast": "Low-volume grind 127.2->127.5 but +2.39% above VWAP with stoch 79.6 and crowded 2.52 longs; expect a stall near 127.7-128.0 then a fade toward 126.6 / VWAP.",
+  "expectancy_note": "No entry clears R:R: a market long chases an extended laggard into resistance; a short has no rejection yet with 5m/15m up.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 126.6,
+    "expires_min": 240,
+    "note": "Losing the 126.6 base flips the weak extended long into a VWAP/support-reversion short (target ~125.5-124.8)."
+  },
+  "playbook": "none",
+  "transcript": {
+    "macro": "Cycle 2026-07-20 (BTC ~$64.7k, QQQ ~699). Regime NEUTRAL, leaning risk-off in equities/semis, mildly constructive crypto. US indices closed red last week (Nasdaq -2.9%); semis are the epicenter (SOX -20% off highs) on AI-capex-cut fears. No major data Mon 7/20; thin drifting tape. Catalysts: GOOGL Q2 earnings 7/22 after close (event risk for GOOGL/QQQ); FOMC 7/28-29 (outside window). BTC neutral/constructive, reclaimed $65k on soft CPI, funding ~+4.7% ann = neutral, BTC.D ~56.3%, but book ask-heavy (-0.54) and longs crowded (L/S 1.47) into ~65.5k resistance. Crowded-long contrarian risk on MU/TSM/SOL/ORCL (L/S >2). Silver hostile: fresh 8-month low ~$55-56, higher-for-longer headwind, coiled triangle (bear <55.71, bull >61). Verdict: NEUTRAL, risk-off equities/semis, mildly constructive crypto - favor BTC-beta over semis, treat semi/silver longs as counter-trend, size down into thin Monday tape + GOOGL 7/22.",
+    "sentiment": "Shared sentiment 2026-07-20. Two near-term binaries dominate: GOOGL earnings Wed 7/22 ~4:30pm ET (biggest event, ripples to QQQ/tech) and FOMC 7/28-29 (soft June CPI -0.4% m/m, markets price a hold). QQQ neutral/bull. BTC neutral/bull (reclaimed $65k, under $65.5k resistance; ETF flow mixed). MU bull but no catalyst until ~Sep 29. MSTR neutral/bearish overhang (selling BTC ~3,588, $466.7M share issuance, $8.32B Q2 digital-asset loss). TSM neutral, catalyst passed (strong Q2 7/16, +33.7% YoY, AI 61% of rev). SOL neutral/bull (spot ETFs live, Firedancer upgrades - multi-week; trades as BTC beta). ORCL neutral/bearish (post-earnings hangover below $130-135, debt/capex fears, 21k job cuts). COIN neutral, Q2 earnings 7/30 (Q1 missed). GOOGL bull into print but HIGH event-risk - coin-flip binary, don't hold naked through 7/22. XAG neutral/bearish near-term (down ~15% on month, coiled triangle, bias lower).",
+    "analyst": "HOLD. Weak 40.8% composite, low-volume grind, +2.39% VWAP, stoch 79.6, crowded 2.52 long, post-earnings overhang laggard (-24% vs BTC). Trigger: lose 126.6 base for a VWAP-reversion short.",
+    "portfolio": "ORCL - HOLD (conf 0.55): extended low-conviction laggard with an overhang; short only on a 126.6 base break."
+  },
+  "timestamp": "2026-07-20T04:16:08.893533+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "AAPL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.58,
+  "playbook": "trend",
+  "forecast": "Quiet coil at 333 just under 335.34 resistance; expect a fade to VWAP/support 332.0-332.3 (buyable dip) or a break above 335.34 opening 337+. Both cleaner than chasing mid-range at 333 into the ceiling with 5m RSI 77.6.",
+  "expectancy_note": "Trend real (ADX 36.6, TFs aligned long, only net-positive name) but entry at 333 into 335.34 resistance = poor R:R and late-chase stop-out risk; a pullback to 332.0 lifts reward:risk to ~3:1. Wait, don't chase.",
+  "rationale": "AAPL is the single constructive name (composite 78.7% long, structure +0.14, BTC-uncorrelated) but price is pinned mid-range under 335.34 with tiny 0.3% ATR and stretched 5m momentum. Chasing here is the account's #1 loss pattern; the honest trade is a pullback-buy toward 332.0 VWAP or a confirmed break of 335.34. HOSTILE macro and Thursday earnings argue for patience and small size only on a clean trigger.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 332.2,
+    "expires_min": 240,
+    "note": "Dip into 332.0-332.3 VWAP/support is the clean long entry (stop 331.3, target 335.34, ~3:1); a reclaim/break of 335.34 also warrants breakout re-entry."
+  },
+  "transcript": {
+    "macro": "HOSTILE window (2026-07-26). Broad tech/AI-capex selloff (Nasdaq ~-2% on week). Hawkish rates: June CPI 3.5%, oil>$100, ~34% chance of a HIKE next week, Sep hike ~81%. Event minefield <48h: FOMC Wed Jul29 2pm ET, MSFT/META earnings Wed AH, AAPL/AMZN Thu, GDP+PCE Thu 8:30am. Crypto weak: BTC ~$64.6k off 21-mo low, $4.5B June spot-ETF outflows. Precious metals the one bright spot (DXY<103, safe-haven bid). Crowded longs across the board = squeeze fuel. Cut size hard; prefer flat before Wed; equity-perp funding ~0. | AAPL: Only net-positive name (structure +0.14, BTC-uncorrelated, RS +3.8%) but earnings Thu -> long-only intraday, out before Thu.",
+    "sentiment": "Event-heavy pre-earnings cycle. HARD earnings flags: META (Wed Jul29 AH), AAPL/COIN/MSTR (Thu Jul30). FOMC + GDP/PCE + BOJ (Jul29-30) = desk-wide landmines. Crypto Fear&Greed ~33-39 (fear). Cleanest names without single-name binaries: TSLA (bearish drift post -14.5% earnings), ORCL (bearish, -50% since Jun), XAG (mild bull, safe-haven), CRCL/SOL (sentiment/technical). | AAPL: Neutral-to-cautious; EARNINGS IMMINENT Thu Jul30. Flat/de-risk before the print.",
+    "analyst": "AAPL is the single constructive name (composite 78.7% long, structure +0.14, BTC-uncorrelated) but price is pinned mid-range under 335.34 with tiny 0.3% ATR and stretched 5m momentum. Chasing here is the account's #1 loss pattern; the honest trade is a pullback-buy toward 332.0 VWAP or a confirmed break of 335.34. HOSTILE macro and Thursday earnings argue for patience and small size only on a clean trigger.",
+    "portfolio": "HOLD AAPL/USDT:USDT @ conf 0.58"
+  },
+  "timestamp": "2026-07-26T20:36:18.848030+00:00"
+}

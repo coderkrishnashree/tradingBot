@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "MSTR/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price is jammed into resistance 102.0 at +4.35% over VWAP with RSI 77-84 on every TF; most likely path is a stall/rejection back toward 100.2 then VWAP (~97.3) over the next 4-8 bars unless BTC clears 66,333. No clean entry at 101.55.",
+  "expectancy_note": "p(win) on a chase-long ~40% (extended into 102.0, RSI extreme, BTC capped) and R:R negative to the 102 cap; shorting live upward momentum on ADX 56.8 is also low-EV. Best EV is to wait for a failure/break trigger. HOLD.",
+  "rationale": "MSTR is a late-stage 15m breakout (101.51) pressed against resistance 102.0 while maximally extended: +4.35% over VWAP, %B 1.099, RSI 71-84 across all timeframes, stoch 97. It is 0.72 BTC-beta and BTC is itself capped/stretched at 66,333 into a hawkish risk-off tape with 'reduce' size guidance. Buying here is the account's classic chase-the-extension loss; shorting fights strong-ADX momentum. Neither side offers >=1.5 honest R:R at 101.55, so I wait for confirmation.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 100.2,
+    "expires_min": 240,
+    "note": "Losing 100.2 (base of the final push candles / breakout retest) confirms the breakout failed and opens a fade toward VWAP ~97.3; a break-and-hold above 102.0 would instead reopen the long side."
+  },
+  "transcript": {
+    "macro": "Regime: RISK-OFF / HAWKISH. Fed rate HIKE being priced, yields rising on oil-driven inflation (US-Iran), firmer dollar. Crypto cautious: BTC ~$66k capped at resistance, dominance high. Derivatives lopsided long (crowded, contrarian negative). Pre-US-open: tokenized equities thin/gappy, reprice on US open. Size guidance: REDUCE. MSTR-specific: 15m breakout flagged (101.55, level 101.51, vol_ratio 1.94) but BTC proxy (0.72 corr) and BTC capped. RSI 71-78 all TFs, +4.35% over VWAP = extended. Funding mildly positive, LSR 1.22. Breakout real but LATE-STAGE.",
+    "sentiment": "Binaries cluster 7/28-30. No imminent binary for MSTR. MSTR: neutral, fragile bounce; ~29% off June lows to ~$101 on FADING volume + negative money flow. Regime shift: Strategy is now SELLING bitcoin (~3,588 BTC) + approved BTC Monetization Program to raise up to $1.25B - negative for the 'never sells' thesis. Pure BTC beta; direction follows BTC.",
+    "analyst": "Late-stage breakout pressed into 102.0 resistance, maximally extended (+4.35% VWAP, %B 1.099, RSI 71-84 all TFs) and dependent on a capped/stretched BTC into a reduce-size regime. Chase-long is the classic extension loss; short fights 56.8-ADX momentum. No >=1.5R at 101.55; HOLD and fade only on a loss of 100.2 (breakout failure toward VWAP ~97.3).",
+    "portfolio": "MSTR: HOLD (0.60) - late extended breakout on a capped BTC; fade arms below 100.2."
+  },
+  "timestamp": "2026-07-21T08:34:21.953025+00:00"
+}

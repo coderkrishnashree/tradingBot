@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "MSTR/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.4,
+  "playbook": "none",
+  "forecast": "Price is coiling at 96 after twice holding 95.3-95.4; deeply oversold (RSI 23, -5.7% vs VWAP) invites a relief bounce toward 99-102 over the next few bars rather than a clean fresh leg down from here.",
+  "expectancy_note": "Shorting into RSI 23 / bottom-of-BB with ETF-inflow squeeze risk is negative-expectancy chasing; a bounce to ~100.5 gives a far better short entry with room to 90/83. Wait, don't chase.",
+  "rationale": "Trend and narrative are bearish (Saylor BTC sales, RS -16.8%, ADX 61) but price is 1.5x ATR extended below VWAP, RSI 23, %B 0.08, and buyers defended 95.3-95.4 twice \u2014 chasing a short here has poor R:R (nearest TP barely 1.2R off a valid >97.5 stop) and real squeeze risk given BTC ETF inflows snapping the outflow streak. No fresh long is justified against this trend without a divergence. The high-expectancy short is a pop back into VWAP/broken support near 100-102, not the lows.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 100.5,
+    "expires_min": 240,
+    "note": "A bounce into the VWAP / prior-support-turned-resistance zone offers a proper trend-continuation short entry with room down to 90 then 83.45 support."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF. Crypto soft: BTC ~$62.9k chopping lower after Strategy(MSTR) sold 3,588 BTC ($216M), $8.32B Q2 loss. US cash equities closed off-hours \u2014 tokenized equity pairs thin/gappy until 13:30 UTC. MSTR read: short-supportive (highest-conviction environment): corr 0.80 to BTC, RS -16.8%, direct negative catalyst (Saylor BTC sales, $8.3B loss). BUT deeply oversold (RSI 23) => squeeze risk on any BTC bounce; BTC ETFs snapped a 10-day outflow streak (+$221.7M) = relief-bounce risk.",
+    "sentiment": "MSTR is the live wire: Saylor actively SELLING bitcoin (3,588 BTC / ~$216M raised Jul 6) under a new capital framework to rebuild USD reserves, booked ~$8.31B Q2 unrealized BTC loss, highest BTC corr (0.80). With BTC soft, a fresh, price-moving bearish narrative. Watch for further sale headlines. Net bearish.",
+    "analyst": "MSTR at 96.26. RSI 23.2 (deeply oversold), stoch 10.9, %B 0.076, vwap_dist -5.73% (extended), ADX 61.5, ATR% 3.94, support 83.45, resistance 108.96. Composite short 35.9%, BTC corr 0.80, RS -16.8% (weakest horse), L/S 1.349 (crowd still net long = downside fuel). 15m: fell to 95.30, bounced to 97.51, faded to 95.41, coiling ~96 (95.3-95.4 held twice). Shorting the lows into RSI 23 with a >97.5 stop = ~1.2R and squeeze risk; no divergence to justify a long. Best-expectancy short is a pop into VWAP/100-102. HOLD.",
+    "portfolio": "HOLD MSTR \u2014 most bearish narrative but deeply oversold at support; don't chase the lows, arm short on a bounce to ~100.5."
+  },
+  "timestamp": "2026-07-08T03:03:14.818816+00:00"
+}

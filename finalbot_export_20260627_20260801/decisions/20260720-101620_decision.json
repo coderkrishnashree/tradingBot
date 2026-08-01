@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "HOOD/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price just ran ~1.6% (nearly 3x ATR) from 99.7 to a 101.35 rejection high and is stalling; over the next 2-4 bars I expect a mean-revert dip back toward VWAP/100.1-100.3 rather than a clean extension, given LTF RSI 71-76 stretched and the upper-wick rejection on the last bar.",
+  "expectancy_note": "A market-long here chases an extended move (the account's #1 loss pattern); est p(win) of a fresh long <0.5 with a routine counter-bounce likely to hit any honest stop. Waiting for either a pullback entry near VWAP or a confirmed reclaim of 101.35 gives far better R:R than chasing mid-air.",
+  "rationale": "HOOD has a genuinely strong trend (ADX 47.5, bullish divergence, +orderbook, near-zero funding) but it just spiked ~3 ATR into LTF RSI 71-76 and printed an upper-wick rejection at 101.35 \u2014 chasing it now is exactly how this book's late longs get stopped by the bounce. It's also a laggard (RS -10.5%) tied 0.77 to the soft COIN cluster, into a NEUTRAL-to-HOSTILE tokenized-equity macro with a thin pre-market book and no <48h catalyst. Best expectancy is to wait: enter long only on a confirmed reclaim/hold above the 101.35 rejection high (trend resumes) or a clean pullback to VWAP ~100.1; nothing forces a trade right now.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 101.35,
+    "expires_min": 240,
+    "note": "A 15m close reclaiming and holding above the 101.35 rejection high proves buyers absorbed the pullback and the strong ADX trend is resuming \u2014 flips me to an intraday half-size momentum long rather than chasing mid-air."
+  },
+  "transcript": {
+    "macro": "Overall NEUTRAL-to-HOSTILE for fresh longs, esp. tokenized equities. US in a semiconductor-led drawdown. Earnings cluster this week: TSLA+GOOGL Wed 7/22, INTC Thu 7/23 \u2014 no naked holds into prints. Tokenized-equity pairs thin until 09:30 ET (scan ~06:08 ET pre-market, book quality low). Crypto soft-but-stabilizing. Nearly all pairs show crowded longs and negative RS vs BTC. HOOD: mixed-to-weak, small long acceptable intraday only, half size or less.",
+    "sentiment": "Risk-off, active AI/semiconductor unwind \u2014 KOSPI -4.5% today. HOOD: MEDIUM, catalyst OUTSIDE window \u2014 Q2 earnings Wed Jul 29 after close (~9 days out, not this cycle). Q1 (Apr 28) missed and dropped -13%, so an overhang exists but no <48h trigger. NEUTRAL near-term, driven by crypto/beta tape.",
+    "analyst": "HOOD has a strong trend (ADX 47.5, bullish divergence) but just spiked ~3 ATR into LTF RSI 71-76 with an upper-wick rejection at 101.35 \u2014 chasing is the book's #1 loss pattern. Laggard (RS -10.5%) tied to the soft COIN cluster, thin pre-market book, no <48h catalyst. Wait for a reclaim of 101.35 or a pullback to VWAP ~100.1.",
+    "portfolio": "HOLD HOOD \u2014 don't chase the ~3-ATR spike; flip to an intraday half-size long only on a confirmed reclaim of 101.35."
+  },
+  "timestamp": "2026-07-20T10:16:20.116667+00:00"
+}

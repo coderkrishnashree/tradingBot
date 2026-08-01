@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "MU/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Coiling just under the 876-877 intraday high after a V-recovery off 851; next few bars likely chop 866-877, then either a pullback toward VWAP ~857 (buyable) or a clean break above 877 to extend toward 885+. No edge chasing the middle here.",
+  "expectancy_note": "Market-long at 870.9 is a chase: RSI 78, +1.98% above VWAP, %B 0.85, L/S 2.13 crowded long, funding 0 \u2014 a routine counter-bounce hits any honest ~1.5xATR stop before trend resumes; short fights ADX 75. p(win) on either immediate entry <0.5, so HOLD/wait beats both.",
+  "rationale": "MU is in a violently strong uptrend (ADX 75) but stretched and heavily long-crowded into a risk-off Fed/earnings week, on a thin pre-US-open book where stops are unreliable until ~13:30 UTC. There is no honest entry at 870.9 that yields R:R>=1.5 with a stop that survives ATR noise yet stays <=1.5xATR \u2014 a pullback to VWAP ~857 would give a real trend-continuation long, and a confirmed break of 877 would give a breakout. Wait for one of those rather than pay the extension.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 858.0,
+    "expires_min": 300,
+    "note": "A pullback into the 855-858 base / VWAP resets the extension and offers a trend-continuation long near support with a tight stop under 851."
+  },
+  "transcript": {
+    "macro": "2026-07-20 09:08 UTC, pre-US-open. Regime NEUTRAL leaning cautious risk-off into a heavy earnings/Fed week. Higher-for-longer Fed, Jul 29 hike odds ~10%. Thin overnight book \u2014 fills/stops unreliable until ~13:30 UTC. Basket uniformly long-crowded, funding ~0 (contrarian caution). MU L/S 2.13 (heavily crowded long), structure_bias -0.20; lags BTC -34%; near-zero BTC corr (0.081, semi/Nasdaq beta). GOOGL capex Wed can swing the semi tape. Event cluster: TSLA+GOOGL Wed Jul 22, INTC Thu Jul 23.",
+    "sentiment": "Cautious/risk-off into a huge earnings week. MU already reported Q3 (late June) with blowout AI-driven guidance; next print Sep 29 \u2014 OUTSIDE window. No <=48h binary. Moves sympathetically with the semi tape and GOOGL capex commentary Wed. Momentum/RS story (RSI ~78, ADX ~75), not a news story.",
+    "analyst": "MU in a violently strong uptrend (ADX 75) but stretched (RSI 78, +1.98% above VWAP, %B 0.85) and heavily long-crowded (L/S 2.13, funding 0) into a risk-off week on a thin pre-open book. No honest entry at 870.9 yields R:R>=1.5 with a stop that survives ATR noise yet stays <=1.5xATR; shorting fights ADX 75. Wait for a pullback to VWAP ~857 (trend-continuation long) or a confirmed break of 877 (breakout) rather than pay the extension.",
+    "portfolio": "HOLD MU \u2014 strong trend but extended and crowded; buy a VWAP pullback or a 877 break, not the middle."
+  },
+  "timestamp": "2026-07-20T09:17:16.987337+00:00"
+}

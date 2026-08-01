@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "AAPL/USDT:USDT",
+  "size": 0.0,
+  "entry": 332.41,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price coiling 331.8-332.7 just under resistance 335.34 with offers stacked and 5m momentum cooled (RSI 41); expect a rejection/mean-reversion dip toward VWAP ~327.5 rather than a clean breakout here. Honest long entry is a pullback to ~327-328.",
+  "expectancy_note": "No entry clears R:R 1.5 here: long stop under structure ~330 (-2.4) vs only +2.9 to resistance = <1R; short is countertrend into ADX 78. Best expectancy is waiting for a VWAP pullback where the strong uptrend offers a real 2.5R.",
+  "rationale": "Parabolic late-stage uptrend (4h RSI 83.8, ADX 78, stoch 88) stalling directly beneath resistance 335.34 with orderbook offers stacked (-0.212) and near-term momentum fading (5m RSI 41). Entering long here buys extension into supply, the exact chase that killed prior trades; a short is countertrend and shorts lose on this account (47% win). Risk-off tech macro plus an un-hedgeable July 30 earnings gap argue for patience. HOLD and wait for a cleaner pullback long or confirmed breakout.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 328.0,
+    "expires_min": 240,
+    "note": "A pullback into the VWAP zone (~327-328) resets the overbought reading and gives a trend-continuation long with real 2.5R toward 335."
+  },
+  "transcript": {
+    "macro": "Overall regime NEUTRAL-to-RISK-OFF (tech-led): equities soft (2nd down week, Nasdaq -0.64% day/-2% month, chip sell-off), sentiment stretched (BofA Bull&Bear highest since 2021 - contrarian caution), DXY ~101.5 firm, 10Y easing, VIX down. Event risk in window: FOMC Jul 29, BOJ Jul 31, live Middle-East supply risk - reduce size. Funding stale on synthetics; use L/S ratio + orderbook. AAPL: last 332.41, rel-str +6.9% vs BTC, composite long conf 66.7% but overcooked (4h RSI 83.8, ADX 78, near resistance 335.34, +1.5% VWAP); positioning mildly contrarian-bearish (L/S 1.09, orderbook -0.212, structure_bias -0.091). Lean cautious-long only on pullbacks.",
+    "sentiment": "AAPL: HARD 48h catalyst - Q3 FY2026 earnings after close Thu Jul 30 (5pm ET), Tim Cook's final call before Ternus handoff = extra gap risk. Consensus ~$1.89 EPS / ~$109B rev. Tone into print BULLISH: +3% Jul 24 on upgrades + China AI approval; Morgan Stanley target $364, expects modest beat. Longer-term ~$200 iPhone price hike Sept (narrative). Verdict: bullish tone but Jul 30 earnings is an un-hedgeable coin-flip; fine long over 24-36h, flat/size-down before Thursday close.",
+    "analyst": "Parabolic late-stage uptrend stalling under resistance with offers stacked and momentum cooling. Chasing a long here is the account's #1 loss pattern (buying extended into resistance, structure_bias/rel_strength/vwap_dist all negatively weighted by learner); a short is suicidal countertrend vs ADX 78. No clean R:R at this price (<1R to resistance). Risk-off tech macro + un-hedgeable Jul 30 earnings gap approaching argue for patience. Only long wanted is a VWAP/support pullback (~327.5) - not here. HOLD with reconsider trigger below 328.",
+    "portfolio": "AAPL: HOLD (conf 0.60) - wait for a pullback to VWAP ~327-328; do not chase the overbought breakout into July 30 earnings."
+  },
+  "timestamp": "2026-07-25T20:34:18.709308+00:00"
+}

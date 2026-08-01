@@ -1,0 +1,26 @@
+{
+  "symbol": "XAUT/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.55,
+  "size": 0,
+  "entry": 4058.0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "rationale": "Blended bias is mildly short (-0.30) and LSR crowded long (2.43), but the down-move is already extended on LTF (15m RSI 24, stoch 16) sitting on VWAP, so a fresh market short is chasing - the account's dominant loss pattern (late shorts stopped by the bounce). ATR tiny (0.26%) and FOMC Wed is a binary. Highest-expectancy action is to wait for a bounce to the 4076 broken-support/VWAP retest to short with real R:R, or a break of 4040 to ride continuation into 3984.",
+  "playbook": "none",
+  "forecast": "Dead-cat bounce toward 4075-4078 likely before the downtrend resumes; a clean loss of 4040 opens 3984.",
+  "expectancy_note": "Shorting 4058 at RSI 24 chases a stretched move into 1.8%-away support; R:R sub-1.5. The 4076 retest gives ~2R.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 4076,
+    "expires_min": 240,
+    "note": "A bounce into 4076 retests broken support/VWAP from below - the clean, non-chasing short entry."
+  },
+  "transcript": {
+    "macro": "MIXED-to-HOSTILE for fresh risk. Event wall: FOMC Wed Jul 29 (hawkish tail, market now pricing a real tail of a 2026 HIKE), MSFT+META+HOOD earnings Wed after close, AAPL+COIN+MSTR Thu after close, Q2 GDP+PCE Thu. Equities constructive but fragile - a relief bounce on oil -5% (Iran de-escalation) into a Fed leaning hawkish. Crypto neutral: BTC defends $65k, range $64-66.8k a week, funding near-zero and least-crowded (LSR 1.44) - the one structurally clean corner. Every equity/crypto long is crowded-long into the Fed (GOOGL LSR 2.85, ORCL 2.32, MSFT 2.21, SOL 2.67, XAUT 2.43); the pain trade is a hawkish flush of that lopsided book. Gold firm ~$4077 but rolling over. Crude deeply oversold (4h RSI 20.7, -3.75% below VWAP) - fade-the-short, not fresh short. Guidance: trade intraday, size down, be flat MSFT/META before Wed close and AAPL before Thu close; don't stack correlated bets (SOL~BTC, MSTR/COIN/HOOD crypto-beta, MU/SNDK/TSM/INTC semis basket).",
+    "sentiment": "Biggest event week of the quarter. FOMC Wed Jul 29 2pm (consensus hold, ~31% hike odds priced), then mega-cap earnings after Wed close (MSFT, META, HOOD) and Thu close (AAPL, COIN, MSTR), plus GDP/PCE mid-week. Only clean already-moving catalyst is CL short (oil -5.4% on US-Iran pause), though stretched. Per-name: GOOGL bearish overhang (2026 capex hike), no this-week print; ORCL neutral momentum; BTC neutral/binary on Fed; XAUT neutral event-gated, no safe-haven bid; SOL neutral BTC-beta; CL bearish momentum-shock but oversold bounce risk; MSFT/META/HOOD bullish-into-binary Wed print; MSTR/COIN event-gated Thu print; AAPL bullish drift into Thu print; MU/SNDK bearish (Korea-led memory selloff); INTC bearish (~21% July semi selloff); TSM mixed/cautious in semi selloff; TSLA neutral, earnings behind it. Treat all equity-perp longs as do-not-carry-through-print.",
+    "analyst": "Down-move stretched on LTF (RSI 24), on VWAP; short here chases into 1.8%-away support with FOMC 2 days out.",
+    "portfolio": "HOLD XAUT - wait for 4076 bounce to short, or 4040 break; no chase."
+  },
+  "timestamp": "2026-07-27T14:38:13.812081+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "ORCL/USDT:USDT",
+  "size": 0.0,
+  "entry": 126.47,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.34,
+  "playbook": "none",
+  "forecast": "Thin Sunday tape coiling flat at VWAP (~126.4); expect continued chop in the 126.0-126.7 pocket over the next few bars with no directional thrust until Monday equity open reprices it.",
+  "expectancy_note": "No edge: price mid-range (%B 0.48, VWAP +0.07%) so nothing to fade; TFs conflict (30m/1h long vs 4h/5m short, aligned=false); negative funding argues against a fresh short, bearish macro/RS argues against a long. Any entry here is ~50/50 with R:R that can't clear 1.5 \u2014 HOLD is the highest-expectancy line.",
+  "rationale": "ORCL is the weakest name (RS -26%) into an AI-capex/semiconductor rout, but the tape is a dead, thin Sunday session (US cash closed) coiling exactly at VWAP with no momentum and conflicting timeframes. Funding is negative (shorts already pay) with L/S 2.49 crowded long \u2014 a messy setup that could squeeze up or flush down, so neither side has a clean edge. Sizing zero: there is no honest 1.5R structure from 126.47 with a stop that survives noise; I want price to first pick a side. Reconsider armed below intraday support ~125.4 \u2014 losing that confirms the bearish 4h resolving lower and opens a with-trend short toward 124.0/122.0 as crowded longs get flushed.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 125.4,
+    "expires_min": 300,
+    "note": "Loses the intraday coil floor and confirms the bearish 4h/5m taking control \u2014 arms a with-trend short into the crowded-long stops toward 124/122."
+  },
+  "transcript": {
+    "macro": "Mildly risk-off, tech-led. Nasdaq -2.9% on the week, semiconductor rout on AI-capex fears. Sunday Jul 19 \u2014 US cash equities closed; equity tokens thin/gappy/stale until Monday open. Crypto neutral-to-heavy, crowded-long across the board. ORCL: RS -26% vs BTC, mixed TFs, L/S 2.49 (very crowded long) but funding negative \u2014 messy, low conviction. Cycle bias: favor shorts/fades over fresh longs.",
+    "sentiment": "Risk-off, bearish tilt. ORCL: bearish, the weakest name \u2014 down ~29% YTD, fell ~6% Jul 16 on AI-capex fears; S&P cut its rating to BBB- (one notch above junk) on soaring capex ($55.7B, rising to $70B '27) and debt. Momentum and sentiment firmly negative despite a $638B backlog.",
+    "analyst": "Weakest name (RS -26%) into the AI-capex rout, but a dead thin Sunday session coiling exactly at VWAP with conflicting TFs (30m/1h long vs 4h/5m short, aligned=false). Negative funding argues against a fresh short; bearish macro/RS argues against a long. No honest 1.5R structure from 126.47. HOLD size 0; reconsider a with-trend short on a break below 125.4.",
+    "portfolio": "ORCL \u2014 HOLD (size 0): weakest name but stuck mid-range on dead weekend tape with conflicting signals; short only on a break below 125.4."
+  },
+  "timestamp": "2026-07-19T06:12:30.989332+00:00"
+}

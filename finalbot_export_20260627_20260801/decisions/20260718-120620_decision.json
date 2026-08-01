@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "TSM/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Deeply oversold near-term (15m RSI 12, 5m RSI 22) after the earnings selloff; last 15m bars dead/flat on ~0 volume into weekend illiquidity. Expect a mean-revert bounce toward VWAP/prior support ~406-410, or a fresh flush only if 386.81 support cracks.",
+  "expectancy_note": "Shorting here = chasing a stretched down-move (p(win) low); account shorts run 0.47 win / -0.87 avg and TSM p_win_learned 0.348. Better R:R shorting a bounce into ~406-410 or a 386.81 breakdown; HOLD beats a late chase.",
+  "rationale": "Macro/sentiment are bearish and the composite is short, but every short-timeframe RSI is washed out (15m 12, 5m 22) and price sits 2.3% below VWAP with support 386.81 only ~1.6 ATR away \u2014 classic late-short-into-exhaustion setup the account's record punishes. Weekend cash-closed illiquidity makes fills gappy and stops unreliable. No entry offers 1.5R cleanly, so wait: short strength into ~406-410 (VWAP/broken support) or short a decisive loss of 386.81.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 406.5,
+    "expires_min": 240,
+    "note": "A bounce back to VWAP / broken-support-turned-resistance ~406-410 gives a clean, non-extended short entry aligned with the bearish macro thesis; below 386.81 instead triggers a breakdown short."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF, tech-led; supportive for tactical shorts/fades on TSM. TSM BTC-corr -0.04, trade Nasdaq tape. Fri Jul 17 Nasdaq -1.4%, -2.9% week; SOX/SMH -7-10% intra-week. TSMC reported Jul 16 (record ~77% profit jump, capex raised $52-56B) yet sector STILL sold off = distribution/exhaustion. TSM rel-strength -16%. Funding 0.0; long/short 2.52 (crowded long = squeeze fuel). Weekend illiquidity; size down.",
+    "sentiment": "TSM BEARISH short-term despite the beat. Q2 Jul 16 revenue $40.2B (+33.7% y/y), EPS beat, RAISED guidance/capex, yet shares dropped ~6-7% (~$422 to ~$397) on capex/margin-dilution fears = sell-the-news. Earnings binary behind us; residual momentum negative; epicenter of AI-spend fear.",
+    "analyst": "Directionally bearish but LTF washed out (15m RSI 12, 5m 22), price -2.3% vs VWAP, support 386.81 only ~1.6 ATR below \u2014 late-short-into-exhaustion the book punishes (shorts 47% win/-0.87, TSM p_win 0.348). No clean 1.5R. HOLD; short a bounce into 406-410 or a 386.81 breakdown.",
+    "portfolio": "TSM: HOLD (conf 0.50) \u2014 bearish bias but too stretched to short here; wait for 406-410 or 386.81 break."
+  },
+  "timestamp": "2026-07-18T12:06:20.025156+00:00"
+}

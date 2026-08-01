@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "COIN/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.55,
+  "playbook": "none",
+  "forecast": "Price just bounced off 162.9 to 164.7 and is now fading (last bar closed 163.96 at its low). Next few bars likely chop 163.0-164.3; a clean break of 162.9 opens the next short leg toward 161.5, while a reclaim of 164.7 flips it back up.",
+  "expectancy_note": "Short-the-fade R:R only ~1.2 to first support (162.9 is just ~$1 away), below my 1.5 gate; crowd already net-short (L/S 0.783) = squeeze risk into a fresh short. Best expectancy is to wait for the breakdown trigger rather than chase mid-air.",
+  "rationale": "Multi-TF is short-aligned (30m/1h/4h RSI 33-35, ADX 46) and the rally into 164.7 failed, but first support at 162.9 sits only ~$1 below spot, so a same-price short earns R:R <1.5 and the account's history shows ADX-trend shorts bleed (avg -2.67R) because losers outgrow the tight TP1. With the crowd already net-short (squeeze fuel) and 5m turning up, the honest move is to wait: a decisive loss of 162.9 confirms the next leg lower and offers a clean entry toward 161.5 with the shelf as the stop reference. No size until then.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 162.9,
+    "expires_min": 240,
+    "note": "Losing the 162.9 bounce shelf proves the failed-rally short is live and opens the leg toward 161.5."
+  },
+  "transcript": {
+    "macro": "Regime: modestly risk-on but late-cycle fragile. Fed dot-plot flipped toward possible HIKE; July FOMC hike odds ~20%. Crypto backdrop WEAK/heavy: BTC ~$64K, BTC.D ~55.5%, Coinbase Premium negative 50 straight days = soft US demand, sellers in control. No crypto tailwind for COIN beta. COIN: FLAT/short-lean, btc_corr 0.74 (pure crypto beta), RS -1.1%, structure_bias +0.05 (L/S 0.783 short-tilted). No earnings near-term (Q2 Jul 30). MIXED - trade the tape.",
+    "sentiment": "COIN NEUTRAL near-term, bearish overhang. No earnings inside 48h (Q2 Jul 30; last Q1 big miss -$1.49 vs +$0.29). Risk: biggest stock exchanges lobbying regulators to crack down on 'fake' tokenized stocks; Coinbase awaiting SEC permission - slow-burn overhang, not 48h shock. High BTC corr (0.74) means crypto tape drives it. NEUTRAL to the short unless crypto rolls over.",
+    "analyst": "Multi-TF short-aligned (30m/1h/4h RSI 33-35, ADX 46) and the rally into 164.7 failed (last bar closed 163.96 at its low). But first support 162.9 is only ~$1 below spot, so a same-price short earns R:R <1.5, and account history shows ADX-trend shorts bleed (avg -2.67R). Crowd already net-short (L/S 0.783) = squeeze risk; 5m turning up. Wait for a decisive loss of 162.9 to confirm the leg toward 161.5. HOLD, arm short trigger below 162.9.",
+    "portfolio": "HOLD COIN - failed-rally short is valid but R:R <1.5 at spot; wait for a break of 162.9. Conf 0.55, size 0."
+  },
+  "timestamp": "2026-07-08T01:30:18.427778+00:00"
+}

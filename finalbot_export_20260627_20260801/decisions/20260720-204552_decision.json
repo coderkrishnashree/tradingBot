@@ -1,0 +1,28 @@
+{
+  "symbol": "ORCL/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.6,
+  "size": 0.0,
+  "entry": 122.05,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "none",
+  "forecast": "Price is pinned on support 120.36, RSI 25.9 / %B -0.06 / -2.43% below VWAP - a stretched-down state that most often produces a relief bounce toward 123.5-124 (VWAP zone) over the next few bars before the downtrend can resume; the last 3 bars already carved a small higher-low base at 121.6.",
+  "expectancy_note": "Shorting here is a late short into oversold-at-support (account's #1 loss pattern) - a routine bounce hits any honest stop first; buying a falling knife against ADX 63 in risk-off tape has poor edge. HOLD until price bounces to VWAP to short into strength or breaks 120.36.",
+  "rationale": "ORCL 4h is a strong downtrend (ADX 63.9, weakest name at RS -28%) but price is deeply extended: RSI 25.9, Bollinger %B negative (below lower band), -2.43% below VWAP, and sitting only ~1.4% above hard support 120.36 with a stacked bid book (+0.493) - the crowded 2.58x long ratio is bearish fuel but not enough to justify chasing a short into this exhaustion. No fresh catalyst inside 48h; the highest-expectancy action is to wait for a better location. Short a bounce into 123.5-124 (VWAP/broken-support-as-resistance) or a decisive loss of 120.36 - not market-enter mid-air.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 120.36,
+    "expires_min": 240,
+    "note": "Losing 120.36 support confirms downtrend continuation and opens a clean short with a real breakdown level, rather than chasing into oversold air."
+  },
+  "transcript": {
+    "macro": "Risk-neutral-to-defensive equity tape on Iran/oil shock, VIX ~18.6. No FOMC this week. Big Tech earnings (GOOGL 7/22, MSFT 7/29) whipsaw the software/AI-capex complex. Backdrop argues smaller size. NOTE crowded long/short on ORCL (2.58x) is a contrarian SQUEEZE flag; scan shows ORCL 4h short lean.",
+    "sentiment": "Overall risk-off, near-term bearish AI-valuation unwind. ORCL no fresh company catalyst; trading with the broader software/AI-capex derating. Neutral-to-negative on tape.",
+    "analyst": "Strong 4h downtrend (ADX 63.9, RS -28% weakest) but deeply extended: RSI 25.9, %B negative, -2.43% VWAP, ~1.4% above hard support 120.36 with stacked bids (+0.493). Crowded 2.58x long = fuel but not enough to chase a short into exhaustion. HOLD; short a bounce to 123.5-124 or a break of 120.36.",
+    "portfolio": "HOLD ORCL - oversold at support, don't chase the short; arm short below 120.36."
+  },
+  "timestamp": "2026-07-20T20:45:52.032605+00:00"
+}

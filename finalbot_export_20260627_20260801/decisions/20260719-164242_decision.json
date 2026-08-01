@@ -1,0 +1,28 @@
+{
+  "symbol": "ORCL/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.4,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "none",
+  "forecast": "Thin Sunday chop pinned 127.0-127.4; no directional trigger until Monday cash open. Break below 126.5 likely accelerates the bearish freefall toward 124.5/122; a reclaim of 128.4 would revive the 30m/1h long.",
+  "expectancy_note": "No entry: composite long is a crowded (LS 2.5), stretched (4h RSI 84) chase into the weakest-vs-peers name with bearish news; and 15m is dead-flat with no level to fade. HOLD has best expectancy.",
+  "rationale": "ORCL 'long' is a 30m/1h momentum artifact fighting a bearish 4h (MACD -1.14, RSI 83.7 exhausted), crowded longs (L/S 2.50, structure_bias -0.256) and strongly bearish sentiment (down ~31%/mo, no catalyst, weakest of group at -21.7% rel-strength). Chasing it into a closed-cash Sunday is the account's textbook late-continuation loss. 15m candles are pure low-volume chop closing at range lows with no structural level nearby to fade, so there's no honest short entry either. Waiting for Monday's open to give direction is the highest-expectancy call; size 0.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 126.5,
+    "expires_min": 240,
+    "note": "Losing the weekend consolidation floor confirms bearish continuation aligned with crowding + negative sentiment; re-debate for a short toward 124.5/122."
+  },
+  "transcript": {
+    "macro": "Constructive-but-choppy US tech tape. June CPI cooled (3.5% headline). Rotation OUT of chips/semis (SMH -9%/month) INTO mega-cap software/platforms. July 29 FOMC expected HOLD. Sunday = US cash equities closed, perps thin/gappy, size down. ORCL: long candidate (blended +0.281, conf 42%), funding flat, OI ~15.6k, L/S 2.50 very crowded-long (structure_bias -0.256), 4h RSI 83.7/ADX 80 stretched, weakest-vs-BTC at rel-strength -21.7%. Environment for a fresh long: MIXED, lean smaller. No earnings inside 48h.",
+    "sentiment": "ORCL BEARISH, active momentum. Reported Q4 July 17, beat (EPS $2.11 vs $1.97) yet shares fell ~6% and kept sliding, down ~31% over past month to ~$126 (lowest since early 2025) on AI-datacenter capex fears, rising debt, credit rating one notch above junk. Overhang: regulators rejected gas pipeline for New Mexico Project Jupiter datacenter a 2nd time. No positive near-term catalyst before next earnings. Near-term news argues AGAINST longs / supports bearish drift.",
+    "analyst": "ORCL screens 'long' only on 30m/1h momentum, but the 4h is stretched-and-rolling (RSI 83.7, ADX 80, MACD -1.14), longs are crowded (L/S 2.50, structure_bias -0.256), it's the weakest name vs BTC/peers (-21.7%), and sentiment is outright bearish (freefall, no catalyst). Buying here is the classic late-continuation chase the book keeps losing on. The mid-TF 15m tape is dead-flat weekend chop (127.05-127.44) closing at lows with no level to fade, so there's no clean short trigger either. HOLD, size 0; re-debate a short on a break below 126.5 (or a long only if it reclaims 128.4 with volume on Monday's open).",
+    "portfolio": "ORCL/USDT:USDT: HOLD (conf 0.40) - crowded, stretched long vs bearish news; no clean short trigger on thin Sunday tape."
+  },
+  "timestamp": "2026-07-19T16:42:42.592781+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "symbol": "NVDA/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.6,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "none",
+  "forecast": "Thin pre-market grind: price coils 204.9-205.4 for the next few bars; no honest edge until the 13:30 UTC cash open resolves the gap. Above 205.4 opens 208; below 204.4 opens 202 then 198.1.",
+  "expectancy_note": "No R:R I can honestly build: too near mid-air to fade, not extended to short, pre-market gap risk makes any market fill a coin-flip. HOLD beats a forced entry.",
+  "rationale": "NVDA sits at the upper Bollinger band (%B 0.86) but only +0.37% from VWAP with compressed 2.38% BB width - coiling flat under 205.3 with decelerating momentum, no rejection wick and no support nearby to fade. US cash market is CLOSED (03:25 ET), so ADX 46 is a thin pre-market artifact and gap risk into the 13:30 UTC open makes any fill a coin-flip. Crowded-long (L/S 1.63) with RS -9.4% argues against chasing the grind up, while the flat coil gives no short trigger; the account's realized short book also bleeds, so I will not force a short mid-air. Wait for the cash open to reveal real direction.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 204.4,
+    "expires_min": 240,
+    "note": "Losing the pre-market grind base confirms the AI-deleveraging short tilt and opens 202 then 198.1 support."
+  },
+  "transcript": {
+    "macro": "Regime MIXED/defensive-lite. Choppy pullback off mid-month AI-tech deleveraging scare; Asia V-rebound into 7/21 (bounce that can fail, not trend). Rates/USD headwind: 10y ~4.5-4.55%, DXY 13-mo high, Fed HIKE bets priced, FOMC 7/29. CRITICAL: scan 07:25 UTC (~03:25 ET) - US cash CLOSED (pre-market), equity-proxy signals gappy/provisional until 13:30 UTC open. Book crowded-long (gap risk). Favor smaller size, mean-reversion and macro-aligned shorts over trend-longs. NVDA tilt MIXED/short-lean: epicenter of AI-deleveraging scare, crowded-long L/S 1.63, RS -9.4%, no earnings until Aug 26.",
+    "sentiment": "AI-capex/valuation selloff is the dominant theme (bearish NVDA/ORCL/EWJ/EWY sympathy). NVDA neutral-to-bearish near-term: no own earnings until Aug 26 (no binary of its own) but epicenter of the sector selloff, dragging semis. Kyber NVL144 delay rumor denied (mild positive); MSFT earnings 7/29 an indirect read-through. Sympathy risk > company catalyst.",
+    "analyst": "Coiling flat under 205.3 at the upper band but only +0.37% from VWAP with compressed BB width; no rejection wick, no nearby support to fade, no short trigger. US cash closed makes ADX 46 a thin artifact and any fill a gap coin-flip. Crowded-long + weak RS argues against chasing up; account short book bleeds so no forced mid-air short. NO-TRADE / wait for the open.",
+    "portfolio": "HOLD NVDA - no honest edge in thin pre-market coil; re-debate on loss of 204.4."
+  },
+  "timestamp": "2026-07-21T07:32:34.816337+00:00"
+}

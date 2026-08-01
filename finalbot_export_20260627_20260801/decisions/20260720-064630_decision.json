@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "HOOD/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.34,
+  "playbook": "none",
+  "forecast": "Thin off-hours grind; price likely chops 99.4-100.7 into Monday cash open. A push to 96.68 support would set up a clean breakdown short; a VWAP reclaim (~101.2) argues the divergence bounce is playing out.",
+  "expectancy_note": "Fresh short here has ~40% p_win: already -1.46% below VWAP, 5m RSI 24.7 oversold, bullish divergence flagged, support only 3% off = negative expectancy (account shorts win 47% and bleed on late-trend chases). No long edge in risk-off downtrend either. HOLD is best EV.",
+  "rationale": "HOOD is a weak crypto-equity beta (btc_corr 0.52, rel_str -10.3%) in a stretched, oversold, off-hours grind with a bullish divergence and support 96.68 just 3% below \u2014 the exact late-short-into-stretched-tape setup that has lost money for this account (shorts 47% win, -0.88 avg). Composite short confidence is only 31% and p_win_learned 0.379, so there is no edge to press either way now. Wait for a decisive break of 96.68 to short a real breakdown, or a VWAP reclaim to flag the bounce; no size until one resolves.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 96.68,
+    "expires_min": 240,
+    "note": "Losing 96.68 support ends the range and confirms a fresh downside leg, turning this into a clean momentum short instead of a chase."
+  },
+  "transcript": {
+    "macro": "RISK-OFF/defensive, fragile. HOOD is a levered crypto-equity play \u2014 double exposure to weak Nasdaq AND weak BTC (corr to BTC ~0.52, to COIN ~0.77). Scans SHORT (structure_bias -0.246). Crypto weak (BTC ~$65k, negative CB premium, record June ETF outflows). Posture: smaller size, favor short/mean-reversion fades.",
+    "sentiment": "US equities closed (Sunday) \u2014 thin/gappy until Monday cash open. HOOD: neutral, earnings 7/29 (outside 48h). Memory of a -13% post-earnings drop in Q1 keeps sentiment jumpy, but near-term it's just crypto/risk beta. No <=48h catalyst.",
+    "analyst": "Weak crypto-equity beta in a stretched oversold off-hours grind (-1.46% below VWAP, 5m RSI 24.7) with a bullish divergence and support 96.68 only 3% below \u2014 the exact late-short-into-stretched-tape loser. Composite short conf only 31%, p_win_learned 0.379 = no edge either way. Wait for a break of 96.68 (short) or VWAP reclaim (bounce).",
+    "portfolio": "HOLD HOOD \u2014 stretched/oversold, no edge (p_win 0.38); arm short on break of 96.68."
+  },
+  "timestamp": "2026-07-20T06:46:30.751470+00:00"
+}

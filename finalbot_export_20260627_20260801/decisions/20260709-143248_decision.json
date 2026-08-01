@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "NVDA/USDT:USDT",
+  "size": 0.0,
+  "entry": 200.03,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.32,
+  "playbook": "none",
+  "forecast": "Fresh flush from 205 to a 199.26 low; last bar stabilized at 200 on lighter volume. Expect chop/basing between 199 and 202 next 2-4 bars \u2014 either a dead-cat bounce toward the broken 204-205 shelf or a fresh break of 199 toward the 191 support. No edge at 200 mid-range.",
+  "expectancy_note": "p(win) ~0.45 either direction; shorting RSI-13/24 washed LTF into a fresh break is the proven loser (late short, bounce-stopped), and no bounce confirmation exists to go long into a semis sector-rout. HOLD beats both.",
+  "rationale": "NVDA is regime-BLOCKED chop (ADX 17.5, composite conf 3.7%, lowest in book) mid-range at 200 right after a sharp flush off 205, with LTF RSI washed (5m 13, 15m 24, 30m 22) \u2014 market-shorting here is the late-into-stretched-tape entry that bleeds, while the fresh break plus active semis rout removes any long edge. L/S 1.727 crowded long (contrarian bearish) and 4h still up leave the two sides balanced. No honest R:R>=1.5 at this price, so I wait for the market to resolve the 199-202 coil.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 198.9,
+    "expires_min": 240,
+    "note": "Losing the 199.26 flush low on a candle close confirms continuation toward 191 support; a retest bounce into ~201-202 then becomes a valid short entry rather than a chase."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF-LEANING/MIXED, defensive. Oil gapped up (US-Iran), yields up. SEMIS IN ACTIVE ROUT. No CPI/FOMC in 48h; oil tape. Crypto soft-neutral, no tailwind. L/S crowded LONG while price bleeds (contrarian-bearish). Favors shorts/fades; semis carry active sector-rout risk (down-weight longs). NVDA: chop/flat, regime-BLOCKED, slid 204->200, RSI 13-24 on lower TFs (washed), L/S 1.73 crowded long. Mild positive China-H200 headline vs sector rout \u2014 conflicted, LOWEST conviction.",
+    "sentiment": "Overall NEUTRAL-to-BEARISH tech. NVDA: no earnings near-term (next ~late Aug). Standing positives: H200 China sales approved, strong Q2 print/Q3 guide (~$54B). AI-sentiment bellwether; near-term swing is macro (rates/CPI) and China tape-bombs. Neutral into 48h.",
+    "analyst": "Regime-blocked chop (ADX 17.5, conf 3.7%) mid-range at 200 after a flush off 205, LTF RSI washed (5m 13, 15m 24, 30m 22). Shorting the wash is the account's loser; no bounce confirmation to long into the semis rout. Sides balanced (L/S 1.73 crowded, 4h up). HOLD, size 0. A close below 198.9 confirms continuation to 191 and sets up a retest short (not a chase).",
+    "portfolio": "NVDA: HOLD (conf 0.32) \u2014 lowest-conviction chop; wait for the 199-202 coil to break, short only below 198.9 on a retest."
+  },
+  "timestamp": "2026-07-09T14:32:48.991389+00:00"
+}

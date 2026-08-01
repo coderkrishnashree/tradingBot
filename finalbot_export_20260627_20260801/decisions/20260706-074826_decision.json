@@ -1,0 +1,24 @@
+{
+  "symbol": "META/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.6,
+  "size": 0.0,
+  "entry": 593.15,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "rationale": "META is at resistance 593.3 on a genuine 15m breakout (level 592.96, vol 2.3x), but every non-price signal says the fuel is spent: RSI 81.7 (15m 91.8), stoch 96.3, bearish divergence, structure_bias -0.523, long_short 1.999 (maxed crowded long), orderbook_imbalance -0.742 (heavy asks capping 593.3). Longing here chases an exhausted move into a wall for only ~1R to next resistance = negative expectancy. Shorting is the more attractive structural idea (fade the crowded extreme) but the up-breakout is still live on 2.3x volume with no rejection/roll yet, and thin OI (2003) makes the perp gappy. No <=48h binary (earnings July 29) means no penalty for patience. Highest-expectancy move is to WAIT: a loss of the 592.96 pivot (below ~590.5) arms the high-probability crowded-long-unwind short toward 587 support; a reclaim/hold above ~594.5 on volume validates continuation.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 590.5,
+    "expires_min": 240,
+    "note": "Losing the 592.96 breakout pivot / back under 590.5 confirms failed breakout and triggers the crowded-long-unwind short toward 587 support."
+  },
+  "transcript": {
+    "macro": "MIXED environment, leaning cautious. META is a tokenized US EQUITY (trade as equity beta, not crypto; BTC corr ~0.05). Split tape: Dow record highs but Nasdaq weak as AI/semis (NVDA/AMD/AVGO/MU) pressured into July 3 close. Weak June jobs (57k vs 115k) eased 2Y to ~4.13% and took Sept hike off table, but CPI hot 4.2% y/y; Fed on hold, Oct-hike wildcard. Risk-on but fragile. No FOMC/CPI in 48h; Mon Jul 6 liquid in US hours, gappy overnight. META ~$560 Jun 30 (-29% from 2026 peak on AI capex shock $125-145B) now bounced to 593.15 on a 15m breakout into stretched conditions (RSI 81.7). Biggest risk: crowded-long unwind (long_short 1.999, orderbook -0.742, structure_bias -0.523) into RSI-82 breakout = textbook squeeze-lower. Guidance: tactical long-side risk only, reduced size, tight stop under 586.99, quick TP; if short, wait for RSI-82 to roll.",
+    "sentiment": "Bullish-but-cooling / two-sided. Catalyst (Jul 1): Meta building 'Meta Compute' cloud to rent excess AI compute; stock spiked ~10% to ~$619-628 (cited deals Anthropic ~$1.25B/mo, Google ~$920M/mo). Pop partially reversed (Jul 2) on Asian semi selloff / AI-bubble fears + lower cloud margins vs ads. No scheduled binary <=48h; Q2 earnings Jul 29 (outside window). Live driver is momentum/headline follow-through on Meta Compute + AI-sector risk appetite. Background: Wells Fargo Overweight PT $767, consensus ~$827; legal overhang (29-state youth-safety suits, $375M NM penalty). Read: near-term neutral-to-slightly-bearish for a fresh long; catalyst 5 days old and half faded, pullback toward ~$587 at least as likely as continuation.",
+    "analyst": "META pinned at resistance 593.3 on a real 15m volume breakout (2.3x), but firing into fully exhausted oscillators (RSI 81.7, 15m 91.8, stoch 96.3, bearish divergence) and a book decisively hostile to longs (structure_bias -0.523, long_short 1.999 maxed, orderbook -0.742 heavy asks at 593.3). Longing chases an RSI-82 move into a wall for only ~1R = negative expectancy. Shorting is the better structural idea (fade crowded extreme) but the breakout is live and unbroken, so premature without a rejection; OI 2003 makes it gappy. No 48h binary, so patience carries no event risk. Decision HOLD with an armed short trigger on loss of the 592.96 pivot (below ~590.5) toward 587; a reclaim/hold above ~594.5 on volume reopens continuation.",
+    "portfolio": "META/USDT:USDT \u2014 HOLD (conf 0.60): breakout is real but exhausted into a hostile crowded-long book; wait for the 592.96 pivot to fail (short) or ~594.5 reclaim (long) before acting."
+  },
+  "timestamp": "2026-07-06T07:48:26.405767+00:00"
+}

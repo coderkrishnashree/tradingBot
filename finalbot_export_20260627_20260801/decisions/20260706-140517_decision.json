@@ -1,0 +1,27 @@
+{
+  "action": "hold",
+  "symbol": "TSLA/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.35,
+  "playbook": "none",
+  "expectancy_note": "Breakout is real (4.4x vol, +0.59 bid-stack) but entry at 402.58 is a chase: %B 1.086 above upper band, stoch 93 pinned, crowded long 1.86 + positive funding, structure_bias -0.17. Chasing here R:R<1.5 with exhausted bulls; wait for pullback-and-reclaim of 400.87.",
+  "rationale": "TSLA has a genuine 15m breakout above 400.87 on 4.4x volume with strong bid-stacking, but price is already ~1.7pt above the trigger, printing %B 1.086 (above the upper band) with stoch pinned at 93 \u2014 an extended, chase-risk entry, not a level. Sentiment is decisive: Q2 deliveries crushed estimates yet the stock fell 7% ('good news sold'), signaling exhausted bulls near-term, and structure_bias is net -0.17 despite the supportive orderbook. Best expectancy is to wait: a pullback that retests and reclaims the 400.87 breakout pivot gives a clean momentum long with a real sub-400 stop and room to 437 resistance; losing 400.87 confirms a failed breakout / good-news-sold fade.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 400.87,
+    "expires_min": 240,
+    "note": "Losing the 400.87 breakout pivot confirms the good-news-sold failure (flip to short-watch); a pullback that holds/reclaims 400.87 instead is the clean momentum-long entry."
+  },
+  "transcript": {
+    "macro": "RISK-ON for momentum/semis, dovish Fed. TSLA pure equity-beta, low BTC corr. Live BREAKOUT (long, level 400.87, vol 4.4x, 15m), price 402.6, ADX 54, stoch 93 overbought, orderbook +0.59 bid-stacked. Offsetting: long/short 1.86 crowded, positive funding -> structure_bias -0.17. Momentum SCALP not a hold; earnings after close July 22 (outside 48h).",
+    "sentiment": "TSLA net NEUTRAL: Q2 deliveries (July 2) crushed 480,126 (+25% YoY) yet stock FELL ~7% ('good news sold'), signals exhausted bulls. Real binary Q2 earnings July 22 (outside 48h). Trade the technicals, not the news.",
+    "analyst": "Genuine 15m breakout but entry 402.58 is a chase \u2014 %B 1.086 above upper band, stoch 93 pinned, crowded long + positive funding, structure_bias -0.17. Good-news-sold delivery reaction = exhausted bulls. Chasing R:R<1.5. HOLD; arm pullback-and-reclaim of 400.87 pivot as the clean long, losing 400.87 confirms failure.",
+    "portfolio": "HOLD TSLA \u2014 real breakout but chase-risk entry; wait for 400.87 retest/reclaim."
+  },
+  "timestamp": "2026-07-06T14:05:17.332926+00:00"
+}

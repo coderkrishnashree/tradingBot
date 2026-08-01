@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "QQQ/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.62,
+  "playbook": "none",
+  "forecast": "Selling has stalled: after the 694.84 low, 15m coiled tight at 695.7-696.5 for ~11 bars with zero downside follow-through, buyers stacking bids (orderbook +0.688) just above support 688. Expect chop/mild snapback between 695-702 into the weekend rather than fresh downside; a clean break below 688 is what unlocks the next leg down.",
+  "expectancy_note": "Shorting here = account's proven losing pattern (shorts n=36 win 47% avg -0.87; model penalizes high ADX/neg vwap/high atr) - selling RSI 25 / ADX 79.5 / -2.17% vs VWAP into a closed weekend invites the snapback that stops late shorts. No confirmed reversal to buy either. HOLD is the +EV choice; wait for the 688 break to short with follow-through.",
+  "rationale": "QQQ is hyper-extended oversold (4h RSI 25, ADX 79.5) and already -7.8% RS, so the short thesis is fully priced and chasing it is exactly the late-short-into-stretched-tape trade this book keeps losing on. Macro says fade rallies, not sell the hole; scan is post-cash-close into a full weekend with thin books and Monday gap risk both ways, and orderbook imbalance +0.688 shows bids being defended at support. No R:R-clean entry exists in either direction right now, so I stand aside and arm the 688 break - losing that level proves the oversold bounce failed and reopens a lower-risk continuation short.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 688.09,
+    "expires_min": 240,
+    "note": "Losing 4h support 688 breaks the coil and proves the oversold bounce failed - clean trigger for a continuation short with follow-through rather than selling the hole."
+  },
+  "transcript": {
+    "macro": "Cycle @ 2026-07-17 23:01 UTC (~19:01 ET Fri, AFTER US cash close, into full weekend). Risk-OFF tape: week Nasdaq -2.9%, semis smoked on AI-capex fears. Tokenized perps trade with NO underlying price discovery until Mon 9:30 ET - thin books, stale/gappy marks, Monday gap risk. Fed on hold 3.50-3.75%, no scheduled macro binary inside 48h. QQQ last 695.73: cleanest read - index proxy, IS the risk-off tape. Deeply oversold (RSI 25, 4h down, ADX 79 strong trend), -7.8% RS vs BTC. Short thesis aligns with macro BUT chasing a hyper-extended oversold move into a closed weekend invites a mean-revert snapback. Fade rallies rather than sell the hole; small size.",
+    "sentiment": "Overall bearish/risk-off: semiconductor rout (SMH ~-9% wk) after China Moonshot AI Kimi K3 open-source model stoked AI-monetization fears; US-Iran re-escalation, Brent +4.6% to ~$88. Momentum DOWN into weekend but extremely oversold - tactical risk is a bounce. QQQ: direct expression of today's shock (semi selloff + Moonshot AI + Iran), cleanest fundamental-vs-technical fit, already down hard (last ~695, RSI 25). News argues WITH continued weakness/against fresh longs, but extremely oversold so tactical risk is a bounce; momentum/positioning govern the weekend.",
+    "analyst": "Learner decisive: shorts n=36 win 0.47 avg -0.87 (bleeding); longs n=8 win 0.75 avg +3.44. Model weights penalize high ADX (-0.174), negative vwap_dist (-0.292), high atr (-0.252) - exactly this setup (RSI 25, ADX 79.5, vwap_dist -2.17). Shorting = selling the hole below VWAP into a closed weekend with buyers stacking bids (OB +0.688) = the account's #1 loss pattern. 15m selling stalled: after 694.84 low, coiled 695.7-696.5 for 11 bars, buyers absorbing at support 688. Not a fresh short; exhaustion. No confirmed reversal to buy either. HOLD; arm break below 688 for a continuation short.",
+    "portfolio": "QQQ - HOLD (conf 0.62): don't sell the oversold hole; arm 688 breakdown for a continuation short."
+  },
+  "timestamp": "2026-07-17T23:06:12.224777+00:00"
+}

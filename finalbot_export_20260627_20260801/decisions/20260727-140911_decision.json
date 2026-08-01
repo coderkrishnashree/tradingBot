@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "TSLA/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price is pinned on support 307.12 with LTF momentum washed out (15m/5m RSI ~17, stoch 1.5, %B 0.08); expect a coil/small dead-cat bounce toward 312-314 OR a clean break of 307 that unlocks the next leg toward ~300 - I want the level to pick first, not to guess into it.",
+  "expectancy_note": "No honest R:R>=1.5 entry: shorting here chases a >1.5xATR-stretched, RSI-17 tape into hard support (bounce stops me); longing a crowded (L/S 3.17, OB -0.39) falling knife post-earnings has negative expectancy. HOLD beats both.",
+  "rationale": "Regime chop/blocked, ADX 7, composite flat (conf 1.1%): there is no trend to follow and price is sitting exactly on structural support 307.12 while LTF oscillators are pinned at the floor. Extremely long-crowded L/S 3.17 with orderbook -0.39 and worst-in-scan structure_bias -0.42 argue against a knife-catch long, while stretched-below-VWAP oversold argues against a fresh continuation short. With LIVE FOMC Wed and a gappy tokenized-equity clock, the disciplined play is to let 307 resolve; size 0.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 306.8,
+    "expires_min": 240,
+    "note": "A decisive break/close below the 307.12 support shelf ends the coil and confirms downside continuation toward ~300, arming a with-trend short entry on the retest of broken support."
+  },
+  "transcript": {
+    "macro": "Risk-on equity tape overall but TSLA is idiosyncratic - worst structure_bias in scan (-0.42), L/S 3.17 extremely long-crowded, orderbook -0.39, weakest name (-25% rel str). Tokenized equity on US cash-session clock -> gappy off-hours. DOMINANT SHARED RISK: FOMC Wed Jul 29.",
+    "sentiment": "FRESH NEGATIVE SHOCK: TSLA reported Jul 22 and stock crashed 14.5% Jul 23 (worst day in a year) - EPS $0.33 missed ~$0.53, operating margin collapsed to 1.4%, negative FCF, ~2/3 of profit a one-off equity gain. Sentiment decidedly NEGATIVE; post-earnings downdraft is the live bias.",
+    "analyst": "TSLA 309.1, regime chop/blocked (ADX 7, composite flat), pinned on support 307.12 with LTF RSI ~17 / stoch 1.5 / %B 0.08. Extremely long-crowded L/S 3.17, orderbook -0.39 = crowded longs are fuel if 307 cracks. Short chases stretched tape into support; long catches a post-earnings knife. HOLD; with-trend short on decisive break <306.8.",
+    "portfolio": "TSLA/USDT:USDT - HOLD (conf 0.60): post-earnings knife at support, no trend; arm continuation short on break <306.8."
+  },
+  "timestamp": "2026-07-27T14:09:11.430844+00:00"
+}

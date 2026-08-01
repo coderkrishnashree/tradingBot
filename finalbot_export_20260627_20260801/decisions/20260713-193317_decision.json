@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "MSFT/USDT:USDT",
+  "confidence": 0.55,
+  "size": 0.0,
+  "entry": 391.58,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "forecast": "Momentum stalled at 394 upper band; last 4 bars rolled over (393.5 to 391.6, closing on the low). Expect a drift toward 388-389 VWAP/gap zone, but from 391.6 a market short's honest stop above 394 only pays ~1R to first exit, and thin closed-cash pre-CPI tape risks a gappy bounce.",
+  "expectancy_note": "Short exhaustion is the right bias but R:R from 391.6 is ~1.0 to TP1 (fails 1.5 gate); a retest of 394 would give ~2R. Account trend-shorts bleed (-2.51 avg) when chased mid-move. HOLD until a cleaner level prints.",
+  "rationale": "MSFT is the lone-green, crowded-long (L/S 1.884, bias -0.25) name pushing the upper band (bb_pctb 1.13, RSI 64) in a risk-off tape with CPI tomorrow and cash markets closed. The 15m sequence shows a clean rejection off 394 with the last bar closing on its low, so the fade bias is correct - but entering a short at 391.6 with an honest stop above the 394 swing pays under 1.5R to the first realistic exit, so wait rather than chase. Arm a trigger: a pop back to ~394 reactivates the short at ~2R; a decisive reclaim above 395.85 kills the fade.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 393.9,
+    "expires_min": 240,
+    "note": "A retest of the 394 rejection zone offers a clean short entry with stop above 395.85 resistance and ~2R to the 388-389 target; a decisive hold above 395.85 instead kills the fade and resumes the momentum long."
+  },
+  "transcript": {
+    "macro": "Broad regime RISK-OFF (US-Iran escalation, WTI +4%, tech selling off). Rates hawkish, Fed held 3.50-3.75%, ~62% odds of Sept HIKE; core CPI July 14 inside hold window. All four cash markets CLOSED (off-hours, thin/gappy - size down). MSFT: MIXED / LONG-fade. Only name still green (rel-strength +5.65% vs BTC, 1h/30m up, RSI 64, bb_pctb 1.13). Lone-standout long in risk-off tape; L/S 1.884 crowded long (structure_bias -0.25). Prefer fade-strength/short-the-exhaustion over fresh longs. No MSFT earnings imminent.",
+    "sentiment": "MSFT BULLISH tilt, no dated 48h catalyst. Q4 FY26 earnings late July (not yet dated, OUTSIDE window). Momentum strong: last print Azure +40%, AI run-rate $37B (+123%). HSBC (7/10) sees Q4 rev +16.8%. Multi-week narratives, not tradable today - trade the tape, not a catalyst.",
+    "analyst": "15m shows clean rejection off 394 with last bar closing on its low - fade bias correct. But market short at 391.6 with honest stop above 394 pays under 1.5R to first realistic exit (388-389), in thin closed-cash pre-CPI tape. HOLD; arm reconsider at 393.9 for a ~2R short retest, or above 395.85 the fade is dead.",
+    "portfolio": "MSFT: HOLD (conf 0.55) - fade bias right but R:R too thin from 391.6; wait for 394 retest short."
+  },
+  "timestamp": "2026-07-13T19:33:17.044208+00:00"
+}

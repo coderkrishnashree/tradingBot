@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "ORCL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price coils on support 127.65 (last bars 128.30-128.61, momentum decelerating); next few bars either lose 127.65 on a volume expansion to open the trend-continuation short toward 125.5, or snap back off the RSI-16.9 extreme toward VWAP-reclaim 130.5-131. No high-expectancy entry until one of those resolves.",
+  "expectancy_note": "Market-short here is negative expectancy: RSI 16.9 / stoch 6.6 / VWAP -4.3% right on support = the account's proven late-short loss pattern (p_win_learned 0.278); a routine snapback would hit any honest stop before 127.65 breaks. Better to wait for the break/retest.",
+  "rationale": "Structure favors a short (ADX 78 downtrend, funding +0.051% longs paying, L/S 2.23 crowded longs, all TFs down, IBM read-through), but price is extreme-oversold and pinned on support 127.65 in thin after-hours tape, so market-entry is chasing into snapback risk. The clean trade is a break of 127.65 then short the retest, not a market short at the low. I hold and arm the trigger rather than size into a coin-flip.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 127.65,
+    "expires_min": 240,
+    "note": "A decisive 15m close below 127.65 confirms support failure and opens a break/retest short toward 125.5 with a stop back above 128.7."
+  },
+  "transcript": {
+    "macro": "Tokenized US equities, judge off Nasdaq/tech tape not BTC (ORCL BTC corr 0.26). Regime risk-ON: soft June CPI, Nasdaq +0.9%. ~20:29 UTC just past cash close -> perps thinner/gappier. IBM -25% on enterprise-software warning = negative read-through for legacy enterprise software (ORCL). ORCL: strongest short structure of trio (funding +0.051%, L/S 2.23 crowded longs, bias -0.45, ADX 78, VWAP -4.3%, all TFs down) BUT RSI 16.9/stoch 6.6 extreme oversold pinned on support 127.65 -> high snapback risk. Favor short only on break/retest of 127.65.",
+    "sentiment": "Risk-on tech tape post-cool-CPI. ORCL: no imminent scheduled catalyst (next earnings ~Sept). Sentiment broken: fell ~35% in June (worst month in 30+ yrs) after June 11 Q4 print \u2014 fear over $130B debt, ~-$24B FY26 FCF, ~$56B capex, plans to raise $40-50B for AI, 21,000 job cuts (~13%). Still bleeding. Analysts bullish long-term (LOW weight). Net near-term flow negative-to-neutral, argues WITH a short, though oversold extreme raises bounce risk on any tech-wide relief rally.",
+    "analyst": "15m: 130 -> 128.60, last bars 129.65/129.14/128.71/128.30/128.61/128.60 rolling into support 127.65, now ~0.95 above it; momentum decelerating, small bounce off 128.30. p_win_learned 0.278 (account losing these ORCL shorts). Extreme oversold on support in thin after-hours = the account's #1 loss pattern (late chase short, snapback hits stops). No confirmed breakdown yet; break/retest of 127.65 not triggered. HOLD with reconsider armed at 127.65; won't fade long without a reclaim.",
+    "portfolio": "HOLD ORCL \u2014 best short structure of the three but pinned on 127.65 at RSI 16.9; wait for a decisive break/retest rather than chase the low."
+  },
+  "timestamp": "2026-07-14T20:33:48.326253+00:00"
+}

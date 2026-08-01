@@ -1,0 +1,27 @@
+{
+  "action": "hold",
+  "symbol": "CRCL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "expectancy_note": "Long: buying +2% above VWAP, %B 0.93, stoch 84, bearish 4h div, worst RS (-12%), max long-crowding (L/S 2.68) = negative expectancy chase. Short here: mid-range (69 vs 61/77), squeeze risk into risk-on macro, no clean level = poor R:R. Best EV is wait for the level.",
+  "rationale": "CRCL is stretched to the top of a wide range with a bearish 4h divergence, elevated stochastic (84) and +2.05% VWAP distance, so a fresh long is a chase of the worst relative performer in the set into extreme long-crowding (L/S 2.68, bias -0.30) plus a live 'Open USD' competitive overhang. But price sits mid-range at 69 between support 61 and resistance 77 with risk-on macro fueling squeeze risk, so a blind short has no tight stop or clean R:R either. No positive-expectancy trade at spot; the edge only appears once the crowded longs start unwinding.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 66.0,
+    "expires_min": 240,
+    "note": "Losing 66 breaks the post-crash bounce base and turns the crowded longs into sellers, opening a clean short toward support 61 with the bearish divergence and worst-RS thesis confirmed."
+  },
+  "transcript": {
+    "macro": "Regime RISK-ON overall but tokenized equities in illiquid overnight window (thin, gap-prone). CRCL most treacherous: up ~107% in a month but crashed 17% on July 1 on Stripe/Visa/BlackRock 'Open USD' rival \u2014 live overhang. Highest long-crowding (L/S 2.68, bias -0.30), highest BTC corr 0.63, yet RS -12% (worst performer). High ATR 2.19%, bearish 4h divergence. Mixed-to-fragile, biggest squeeze candidate \u2014 smaller size warranted.",
+    "sentiment": "CRCL bearish tone, fresh shock still bleeding. Open USD unveiled June 30 with 140+ backers (Visa, Mastercard, Stripe, BlackRock, Coinbase, Google, BNY). Cratered ~17%, down ~28% over 30d, weak bounce $62->$66, RSI ~36. Bull counter: USDC still ~67% of June stablecoin volume, OUSD doesn't launch until later 2026. Q2 earnings ~Aug 10 (no sub-48h binary). Argues against fresh longs, favors continued volatility.",
+    "analyst": "Price +2% above VWAP, %B 0.93, stoch 84, bearish 4h div, worst RS -12%, extreme long-crowding 2.68 with a live competitive overhang \u2014 a long is a chase of the weakest name at its extreme = negative EV. But a fresh short is also risky: squeeze candidate into risk-on macro, mid-range at 69 (61/77) with no clean level for a tight stop. HOLD; the edge appears only when crowded longs unwind \u2014 armed short below 66 toward 61.",
+    "portfolio": "HOLD CRCL \u2014 stretched, weakest RS with live overhang, but mid-range squeeze risk blocks a clean short; re-debate short below 66."
+  },
+  "timestamp": "2026-07-06T21:41:27.622133+00:00"
+}

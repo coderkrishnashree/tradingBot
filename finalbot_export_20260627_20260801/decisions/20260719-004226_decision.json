@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "INTC/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.4,
+  "playbook": "none",
+  "forecast": "Oversold coil above 89.76 support: likely a dead-cat bounce toward VWAP ~95.5 or a stall in 92.5-93.5; a clean break of 89.76 opens continuation toward the high-80s.",
+  "expectancy_note": "p(win) on a fresh market short ~0.35 (learner 0.334); 1h RSI 21.6 + price -3.17% below VWAP = late/stretched, a routine bounce stops any honest tight stop \u2014 negative expectancy.",
+  "rationale": "INTC is short-aligned (structure_bias -0.31, L/S 1.995 crowded long, RS -36.4% worst laggard) but deeply oversold (1h RSI 21.6, 4h 29.5) and already 3.17% below VWAP into a thin, US-cash-closed weekend tape with squeeze risk. Last 15m bar closed green off the 92.63 low \u2014 a counter-bounce that would stop a fresh chase-short. No size until price loses 89.76 (continuation) or bounces to VWAP for a proper fade. Earnings Thu Jul 23 is a landmine to respect.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 89.76,
+    "expires_min": 360,
+    "note": "Losing 89.76 support breaks the oversold coil and confirms continuation, arming a clean short toward the high-80s."
+  },
+  "transcript": {
+    "macro": "RISK-OFF / defensive. Nasdaq -2.9% on the week on an AI-capex scare hitting semis + hyperscalers; 10Y 4.55% (tech-multiple headwind), Fed hold expected with a hawkish tail, USD easing. Weekend: US cash market CLOSED, perps thin/gap-prone into Monday's reopen \u2014 size down. Long/short ratios are crowded long across the basket (contrarian short fuel) but RSIs of 18-29 flag heavy oversold-bounce risk. Earnings inside the horizon: GOOGL/TSLA Jul 22, INTC Jul 23. Verdict: short-biased tape but stretched \u2014 trade smaller.",
+    "sentiment": "Risk-off. Friday AI/semiconductor selloff (US + Japan Nikkei -4%) into a make-or-break week \u2014 GOOGL/TSLA earnings Jul 22, INTC Jul 23, then FOMC Jul 29. The only hard near-term catalysts are Monday's reopen gap and the Wed-after-close earnings cluster. Bias: cautiously short beta (QQQ/EWJ/ORCL), earnings-blackout discipline on INTC/GOOGL/TSLA, neutral on TSM (Q2 beat already spent Jul 16) and HOOD (crypto-beta, earnings Jul 29).",
+    "analyst": "INTC is short-aligned (structure_bias -0.31, L/S 1.995 crowded long, RS -36.4% worst laggard) but deeply oversold (1h RSI 21.6, 4h 29.5) and already 3.17% below VWAP into a thin, US-cash-closed weekend tape with squeeze risk. Last 15m bar closed green off the 92.63 low \u2014 a counter-bounce that would stop a fresh chase-short. No size until price loses 89.76 (continuation) or bounces to VWAP for a proper fade. Earnings Thu Jul 23 is a landmine to respect.",
+    "portfolio": "HOLD INTC \u2014 short-aligned but stretched-oversold on support; earnings Jul 23 landmine. Wait for 89.76 break."
+  },
+  "timestamp": "2026-07-19T00:42:26.454005+00:00"
+}

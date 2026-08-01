@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "GOOGL/USDT:USDT",
+  "size": 0.0,
+  "entry": 348.63,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.7,
+  "playbook": "none",
+  "forecast": "Price stays coiled in the 347.4-349 pocket under broken support-turned-resistance for the next several bars; no directional edge until the Wed Jul 22 AMC earnings print, which will gap the tokenized share and override any technical setup.",
+  "expectancy_note": "No trade beats both alternatives: a long carries binary earnings-gap tail risk with negative RS (-12.5%) and a seller-heavy book; a short has no momentum trigger and fights a long-skewed L/S 1.63 into the same gap. p(win) ~0.5 with a fat tail against \u2014 negative expectancy.",
+  "rationale": "GOOGL is a tokenized equity with Alphabet earnings Wed Jul 22 AMC squarely inside the 48h hold horizon \u2014 the highest-conviction binary on the board; treat as event-driven, not technical, until it resolves. The 15m tape is dead flat (~0.1% ranges, drying volume) coiling just under 349 with no breakout trigger, ADX 44 but zero follow-through, structure_bias -0.295 and RS -12.5% giving no clean directional edge. Holding through a binary gap for a marginal technical read is negative expectancy; stand aside. Size 0.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 341.86,
+    "expires_min": 240,
+    "note": "Losing the 341.86 support (a clean level break with volume, distinct from the earnings gap) would confirm the risk-off selloff has taken over and open a momentum short with a real structural stop above the level."
+  },
+  "transcript": {
+    "macro": "Broad regime RISK-OFF/defensive: semis-led equity selloff. Monday futures modestly firm but counter-trend. HARD FLAG: Alphabet earnings Wednesday Jul 22 (AMC) is INSIDE the hold horizon \u2014 any multi-hour-to-2-day long carries binary earnings-gap risk. Size down / avoid holding through the print.",
+    "sentiment": "GOOGL neutral with a HARD BINARY in 48h \u2014 highest-conviction event on the board. Earnings Wed Jul 22 AMC; consensus ~$116.9B rev / $2.90 EPS, focus Google Cloud/TPU/Gemini. Headwinds: EUR4.1B EU antitrust fine finalized Jul 2, DMA compliance orders, Gemini 3.5 Pro delay. Post-print the tokenized share will gap.",
+    "analyst": "15m tape dead flat coiling under 349, ADX 44 but zero follow-through, structure_bias -0.295, RS -12.5%. No technical edge worth the earnings-gap tail. Long = binary gap risk; short = no trigger + same gap. Textbook NO-TRADE; stand aside until Wed resolves.",
+    "portfolio": "HOLD GOOGL \u2014 binary earnings gap Wed Jul 22 inside horizon; no technical edge worth the tail. Stand aside."
+  },
+  "timestamp": "2026-07-20T09:44:51.161673+00:00"
+}

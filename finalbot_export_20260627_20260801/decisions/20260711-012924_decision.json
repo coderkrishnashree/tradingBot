@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "AAPL/USDT:USDT",
+  "size": 0.0,
+  "entry": 316.01,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.4,
+  "playbook": "none",
+  "forecast": "Coiling under 316.77 in thin weekend tape; most likely chops 315.0-316.5 into Monday's cash open, where it gaps. No clean next-move edge without a confirmed break of 316.77 or a reset to 315/VWAP.",
+  "expectancy_note": "Long-at-resistance in a closed-cash weekend = chase into overbought (stoch 90.9, %B 0.83) with room to TP1 < 1.5x the honest stop; negative expectancy. HOLD beats forcing it.",
+  "rationale": "AAPL is pinned right under resistance 316.77, overbought (stoch 90.9, RSI 61, %B 0.83) with a distributive orderbook (-0.162) and fading 15m momentum after the spike bar rejected. Nasdaq is CLOSED (Saturday) so this perp is thin and carries Monday gap risk; a market long here chases an extended move with a wide honest stop and almost no room to a first target, exactly the account's losing trend-chase pattern. Wait for either a confirmed breakout hold above 316.77 or a pullback reset to 315/VWAP before committing.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 316.77,
+    "expires_min": 240,
+    "note": "A decisive 15m close and hold above resistance 316.77 confirms breakout continuation and would justify a long with a stop back inside the base."
+  },
+  "transcript": {
+    "macro": "Regime MIXED - constructive equity tape (Nasdaq +1.3% last session, chip/AI led) on a hawkish higher-yield backdrop (10Y ~4.6% toward 5%, 63% Sept hike odds, DXY ~100.9). CRITICAL: Saturday 2026-07-11, Nasdaq cash CLOSED - thin liquidity, wide spreads, Monday gap risk. AAPL on own equity beta (+6.87% rel strength, low BTC corr 0.265) is a plus but overbought at resistance 316.77 with mildly distributive orderbook; avg analyst PT ~$314.94 below spot (extended). No earnings/FOMC inside 48h; live event = Monday cash re-open gap. Smaller size warranted.",
+    "sentiment": "AAPL constructive/bullish longer-term (record Q2 FY26, iPhone 17 +22%, PTs $365-400) but long-horizon, NOT <=48h drivers. Key catalyst = Q3 FY2026 earnings Thu July 30 after close (~19 days out, OUTSIDE window). Regulatory overhang (EU DMA loss, DOJ antitrust) slow-burn, nothing dated in 48h. Net: no near-term catalyst; sentiment neutral-to-slightly-supportive; price action technically driven.",
+    "analyst": "AAPL last 316.01 sitting right under resistance 316.77. RSI 61, stoch 90.9 (overbought), bb_pctb 0.83 - extended. 15m shows a spike bar (315.02->316.68) that stalled then rejected back to 316.00 with a doji - momentum fading at resistance, not accelerating. Orderbook distributive (-0.162), structure_bias negative. ATR% 0.65 (~$2.05) so an honest stop past the swing low is wide vs the tiny room to resistance. Decisive problem: Saturday, Nasdaq cash CLOSED - tokenized equity gaps Monday, off-hours perp thin/gappy. A market long chases an extended move into resistance in dead liquidity = the account's #1 loss pattern (trend plays 44% win, -2.89 avg). R:R fails. HOLD; wait for a confirmed break-and-hold above 316.77 or a reset to 315/VWAP.",
+    "portfolio": "AAPL/USDT:USDT -> HOLD (conf 0.40), size 0; chase into resistance on thin weekend tape, no edge."
+  },
+  "timestamp": "2026-07-11T01:29:24.551295+00:00"
+}

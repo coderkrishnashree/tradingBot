@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "XAG/USDT:USDT",
+  "size": 0.0,
+  "entry": 59.14,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price coiling 58.9-59.1 just under resistance; over the next few bars it likely chops in this shelf and either pushes to test 61.00 or fails and mean-reverts toward VWAP ~58.1. No confirmed edge yet.",
+  "expectancy_note": "Long chases +1.69% above VWAP into 61 resistance with only ~$1.8 headroom and huge squeeze risk (L/S 4.03, stoch 100); short has no exhaustion/divergence trigger vs ADX 90. Neither clears R:R 1.5, so flat.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 61.0,
+    "expires_min": 240,
+    "note": "Clean break/hold above 61.00 confirms breakout and flips to momentum long; a rejection that loses 58.60 re-opens the squeeze-short debate."
+  },
+  "rationale": "XAG is the most crowded-long, most overbought name in the book: stoch 100, 1h RSI 79, VWAP +1.69%, L/S 4.03 with structure_bias -0.288 \u2014 classic squeeze setup, but with no bearish divergence or exhaustion candle it is unsafe to short a parabola with ADX 90, and equally unsafe to chase a fresh long into 61 resistance with FOMC Jul 30 overhang. Mechanical edge thin both ways (composite conf only 44.6%), so stand aside. Size 0 until a real trigger prints.",
+  "transcript": {
+    "macro": "Silver ~$59. Supported earlier by easing rate bets, but hawkish Fed + firm USD is a headwind. XAG EXTREMELY crowded-long (L/S 4.03, stoch 100, ADX 90) \u2014 highest squeeze/reversal risk in the book. Safe-haven bid intact from ongoing US-Iran conflict. FOMC next week is the swing factor.",
+    "sentiment": "XAG bullish tone, no dated binary. One of 2026's strongest commodities; supply deficit + AI/solar demand. Headwind: rising US yields + hawkish Fed cap upside; FOMC Jul 30 is the swing factor. Supportive but very stretched (stoch 100).",
+    "analyst": "Stoch 100, 1h RSI 79, VWAP +1.69%, L/S 4.03 = textbook squeeze, but no bearish divergence/exhaustion candle to short a parabola (ADX 90), and chasing a long into 61 with ~$1.8 headroom is the #1 loss pattern. Composite conf only 44.6%. HOLD; arm the 61.00 breakout.",
+    "portfolio": "HOLD XAG \u2014 most crowded-long/overbought name; no safe entry, wait for 61.00 to resolve."
+  },
+  "timestamp": "2026-07-26T16:37:52.993491+00:00"
+}

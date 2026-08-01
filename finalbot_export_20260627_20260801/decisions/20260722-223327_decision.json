@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "EWJ/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.28,
+  "playbook": "none",
+  "forecast": "No concrete next move: near-zero-volume overnight drift from 92.45 to 92.04 with US cash closed; price likely chops in the 91.5-92.6 pocket on stale quotes until Tokyo/US flow returns. No tradeable path.",
+  "expectancy_note": "p(win) ~0.5 at best in dead illiquid tape; no level within ~1 ATR (0.7%), conflicting TFs (30m -0.89 vs 4h +0.68), flat composite 7.2 -- expectancy of any entry is negative vs a costless HOLD.",
+  "rationale": "EWJ is a tokenized equity, so funding/OI/long-short are noise; the 15m candles are mostly 0-volume synthetic prints -- there is no order flow to trade and gap risk is high with US markets closed. Composite is flat (conf 7.2), TFs conflict, and price sits mid-range between 88.16 support and 94.49 resistance with no extreme to fade or coil to break. Risk-off macro plus a losing short record (46% win) argues against forcing a bearish poke; HOLD is the highest-expectancy call until a real level breaks.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 88.16,
+    "expires_min": 240,
+    "note": "Losing the 88.16 support on real volume confirms the risk-off / 30m-bear thesis and opens a clean short; until then the drift is noise."
+  },
+  "transcript": {
+    "macro": "2026-07-22 RISK-OFF tilt. Nikkei -0.18% (open-high/close-low), oil spike pressuring. Fear&Greed 33. EWJ composite conf LOW (~7.2, 'flat' bias); per-TF mixed (15m -0.29, 30m -0.89, 4h +0.68). US cash CLOSED -> thin/gappy. NET: MIXED-to-HOSTILE, no clear edge; favor smaller size or standing aside.",
+    "sentiment": "EWJ: off its 'Takaichi-trade' highs (~$92.80), pressured by oil/Middle East. Watch BOJ decision July 30-31 (OUTSIDE 48h) -- next big Japan catalyst; Kioxia/Tokyo Electron/Advantest holdings tie it to memory/semis. NEUTRAL near-term. No <=48h binary.",
+    "analyst": "Tokenized equity -> crypto structure metrics are noise; OI tiny (2125), 15m candles mostly 0-volume synthetic prints = dead illiquid overnight tape, not tradeable. Composite flat (7.2), TFs conflict (30m -0.89 vs 4h +0.68), price mid-range (support 88.16 / resist 94.49) with no extreme to fade or coil to break, gap risk high. Textbook NO-TRADE. HOLD; arm short only on a real-volume loss of 88.16.",
+    "portfolio": "EWJ: HOLD (conf 0.28) -- dead illiquid tape, flat composite, no edge; wait for real break of 88.16 or 94.49."
+  },
+  "timestamp": "2026-07-22T22:33:27.034877+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "EWJ/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.32,
+  "playbook": "none",
+  "forecast": "Illiquid drift: price pinned on 90.09 support, deeply oversold (4h RSI 12.3, %B -0.196) with a bullish 4h divergence but NO reversal bar and near-zero volume; most likely it chops 89.9-90.9 until real flow returns, with high risk of a gap on the Asia/US open rather than a clean intraday move I can trade.",
+  "expectancy_note": "No triggered setup: short = chasing a stretched move into support (account's #1 loss pattern); long = unconfirmed knife-catch. On 2.2k OI with cash markets closed, slippage/gap risk exceeds any edge -> flat is highest expectancy.",
+  "rationale": "EWJ is the least liquid name on the board (OI 2,265; last bar 0.06 units) and Tokyo + US cash are closed, so structure_bias (-0.145) is noise and the dominant risk is mechanical: thin fills and open-gap. Price is deeply oversold sitting exactly on 90.09 support with a bullish 4h divergence but no confirming bounce, so neither a fade-short nor a knife-catch long has an honest R:R here. No <=48h catalyst (BOJ is ~13d out); waiting for confirmation is the disciplined call.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 91.0,
+    "expires_min": 240,
+    "note": "Reclaiming the 90.9/91.0 pivot that price broke down from, on real volume, confirms the oversold bullish-divergence bounce and turns this into a long toward 92.6/93.5."
+  },
+  "transcript": {
+    "macro": "Regime risk-OFF, chip-led selloff bleeding into Japan tech (Nikkei -2.6% on renewed semi selling); oil/geopolitics background risk-off. Scan @02:00 UTC, US+Tokyo cash CLOSED -> HIGH open-gap risk. EWJ funding 0.0, OI 2.27k (TINY, least liquid on board), L/S 1.41, orderbook -0.073, structure_bias -0.145 (noise given OI); RS -8.29% (lagging), DEEPLY oversold (4h RSI 12.3, ADX 91) sitting ON support 90.09. Dominant risk is MECHANICAL (illiquidity/gap), not directional. BOJ hiked to 1% June; next BOJ 7/30-31 (tail).",
+    "sentiment": "EWJ BOJ meeting 7/30-31 is dominant catalyst but ~13d out (not 24-48h); two-sided (higher yields help banks, stronger yen hurts exporters). Near-term driver is risk-off/global semis, not Japan-specific. Thin/gappy off-hours - US-listed ETF can gap on Asia session. Up ~45% 12M, ~9% off Feb ATH, extended. NO <=48h scheduled catalyst; tone mildly supports short but illiquidity overrides.",
+    "analyst": "Least liquid name on board with both cash markets closed -> structure_bias is noise, dominant risk mechanical. Deeply oversold on 90.09 support w/ bullish 4h divergence but no confirming bounce; neither fade-short nor knife-catch long has honest R:R. HOLD; flip to long only on reclaim of 91.0 on real volume.",
+    "portfolio": "EWJ: HOLD (0.32) - untradeable illiquid tape; watch 91.0 reclaim."
+  },
+  "timestamp": "2026-07-17T02:05:56.803948+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "HOOD/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Bounce has stalled: flat, sub-1-volume drift pinned 99.5-99.65 for the last ~8 bars after the spike to 99.84 faded. Expect continued low-conviction chop 99.4-99.9 into the weekend close; no directional edge until either 101.5 reclaims (bounce real) or 96.68 breaks (4h washout resumes).",
+  "expectancy_note": "p(win)~0.5 either way, R:R sub-1.5 with an honest stop. Long chases a dead-cat into weekend gap risk; short into 4h RSI 5.6 / -6.6% below VWAP is chasing an extended move a bounce will stop. HOLD beats both.",
+  "rationale": "HOOD is a tokenized equity with US cash CLOSED (thin/gappy weekend, Monday gap risk). Short-TF 'long' composite is just a dead-cat bounce off the 4h washout (RSI 5.6, ADX 84, -6.57% below VWAP), and the recent 15m tape shows that bounce already stalled into flat near-zero-volume drift at 99.6 with no fresh buying. Crowded longs (L/S 1.72, structure_bias -0.19) add contrarian downside risk. No R:R>=1.5 entry exists in either direction; the highest-expectancy play is to wait for the weekend gap to resolve.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 96.68,
+    "expires_min": 240,
+    "note": "Losing 96.68 support confirms the 4h washout is resuming through the stalled bounce, opening a with-trend short."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF / defensive. US cash market CLOSED (weekend) -> tokenized-equity prints thin/gappy, weekend/Monday gap risk. HOOD CONFLICTED/MIXED: short-TF momentum long (5m/30m/1h positive) but 4h is a washout (RSI 5.6, ADX 84, -6.6% below VWAP). structure_bias -0.19 from crowded longs (L/S 1.72) = contrarian downside risk. Highest BTC corr of the four (0.518) -> partly crypto/risk-beta. Knife-catch: any long is a mean-reversion bounce fighting a broken 4h trend into a weekend gap. Funding stale/0.",
+    "sentiment": "Single-name equity risk. Q2 2026 earnings confirmed Wed July 29 after close (~5pm ET) - outside a 48h horizon but front-runs positioning by late next week. Cautionary: HOOD tumbled 13.2% after Q1 on a profit miss (weak options/crypto take rates, crypto revenue -47%); consensus EPS ~$0.41 (~flat YoY), full-year EPS seen -12%. High-beta name tied to retail/crypto risk appetite - amplifies the broad Nasdaq tape. No imminent (<=48h) HOOD-specific binary, but flag July 29 print.",
+    "analyst": "Short-TF 'long' composite is just a dead-cat bounce off the 4h washout (RSI 5.6, -6.57% below VWAP) and it has already stalled into flat near-zero-volume drift at 99.6 with no fresh buying. Crowded longs (L/S 1.72) add contrarian downside fuel. Long chases a stalled bounce into weekend gap risk; short into RSI 5.6 is chasing an extended move a routine bounce stops out. No R:R>=1.5 entry either way. HOLD.",
+    "portfolio": "HOOD/USDT:USDT -> HOLD (conf 0.60): stalled dead-cat bounce vs broken 4h into weekend gap risk; no edge either way, wait for 101.5 reclaim or 96.68 break."
+  },
+  "timestamp": "2026-07-18T21:10:44.134153+00:00"
+}

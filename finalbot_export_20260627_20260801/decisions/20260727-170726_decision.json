@@ -1,0 +1,25 @@
+{
+  "symbol": "TSM/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.6,
+  "size": 0.0,
+  "entry": 393.23,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "forecast": "Price coils 389.34-397.5 near support after the 410->389 waterfall; likely chop/small relief squeeze toward 397-400 before the next directional move. A clean short only triggers on losing 389.34 (toward ~382) or a failed retest at VWAP ~405.",
+  "rationale": "All timeframes short and semis are being hit into FOMC, but price already waterfalled 410->389 and is deeply oversold (1h RSI 18.7, %B -0.17, 2.9% below VWAP) and bouncing off support 389.34 \u2014 a routine relief squeeze would stop out any short entered here, and the learner's 0.39 p_win confirms late shorts in this condition lose. The crowded-long 2.63 is a structural tailwind for shorts but not a 48h catalyst, so wait: a decisive break of 389.34 opens the next leg with a stop safely above the 397.5 bounce high. Size 0.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 389.34,
+    "expires_min": 240,
+    "note": "Losing the 389.34 support that just held confirms the downtrend's next leg and gives a valid short entry with a stop above 397.5."
+  },
+  "transcript": {
+    "macro": "2026-07-27 NEUTRAL-to-RISK-OFF, event-gated. FOMC July 28-29. Tape in revolt over AI capex; semis hit hard (VanEck Semis -3%+, AMD -7%). Tokenized equities HOSTILE. TSM: RS -11.2%, VWAP dist -2.9%, all-TF short, deeply crowded long (L/S 2.63, structure_bias -0.28). Thin/gappy outside US cash hours.",
+    "sentiment": "TSM neutral/constructive but STALE \u2014 TSMC reported July 16: rev ~$39.6B (+36% YoY), GM 65.5-67.5%, AI ~61% of revenue, robust demand. Earnings catalyst spent; no TSM-specific <=48h event. Trades on semi sector + Nasdaq into FOMC. Correlated to INTC 0.65 / MU 0.71.",
+    "analyst": "Market-short now is the account's #1 loser: 1h RSI 18.7, %B -0.17, -2.9% below VWAP, just bounced off support, p_win_learned 0.39. No honest R:R for a chase; wait for a break of 389.34 or a retest at VWAP ~405.",
+    "portfolio": "HOLD TSM \u2014 all-TF downtrend but deeply oversold and bouncing off support; don't chase the hole, stand aside."
+  },
+  "timestamp": "2026-07-27T17:07:26.405851+00:00"
+}

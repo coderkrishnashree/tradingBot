@@ -1,0 +1,28 @@
+{
+  "symbol": "HOOD/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.34,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "none",
+  "forecast": "Grinding drift near 99.6 just above 15m lows; either a quiet basing/snapback toward VWAP (~104-105) or a Monday-gap continuation to test 96.68 - no clean next move to trade from here.",
+  "expectancy_note": "p(win) on a fresh short here ~0.30 (learner p_win 0.297); chasing RSI 3.3 / ADX 90 / -9.5% VWAP is the account's #1 loss pattern (counter-bounce stops late shorts). Long has no confirmation. HOLD beats both.",
+  "rationale": "HOOD is a tokenized equity with US cash market CLOSED (weekend) - thin, gappy, Monday gap risk - so treat as equity, not crypto structure. Price is statistically EXTREME oversold (RSI 3.3, ADX 90, -9.53% VWAP): a fresh market short chases directly into snapback risk with no honest stop, and the learner's 0.297 win rate confirms this exact pattern bleeds. A counter-trend long has no reversal trigger. The recent 15m bars show the decline stalling into a low-volume drift, not a fresh leg - flat is highest-expectancy until price retraces to a real short entry near VWAP or reclaims structure.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 104.5,
+    "expires_min": 240,
+    "note": "A retrace back toward VWAP/broken-support (~104-105) unwinds the oversold stretch and offers a proper high-R:R short re-entry with the ADX-90 downtrend, instead of chasing into exhaustion here."
+  },
+  "transcript": {
+    "macro": "Risk-off, tech under pressure. Scan 07:01 UTC weekend - US cash CLOSED, thin/gappy, Monday gap risk. Short-favorable but LATE-STAGE, squeeze risk; cut size. HOOD: crypto-adjacent (0.77 COIN corr), risk-off supportive, BUT RSI 3.3 / ADX 90 / -9.5% VWAP = statistically EXTREME oversold; HOSTILE for fresh shorts (snapback risk), wait for retrace.",
+    "sentiment": "Risk-off tape, crypto Fear. HOOD earnings Jul29 (outside 48h). Technically capitulating (RSI 3.3, VWAP -9.5%, ADX 90) - extremely oversold. History of violent earnings moves (-13% last quarter). High beta to weak crypto (0.77 COIN corr). Near-term leans bearish but oversold extreme = high snap-back risk; a short here is LATE.",
+    "analyst": "Statistically extreme oversold (RSI 3.3, ADX 90, -9.53% VWAP): fresh short chases into snapback with no honest stop; learner 0.297 win rate confirms this pattern bleeds. Long has no reversal trigger. Decline stalling into low-volume drift = no tradable move. Flat until a retrace toward VWAP (~104-105) for a proper short.",
+    "portfolio": "HOLD HOOD - extreme oversold, snapback risk; re-arm short on retrace to 104.5."
+  },
+  "timestamp": "2026-07-18T07:09:59.830127+00:00"
+}

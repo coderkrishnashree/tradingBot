@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "META/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Coils 638-641 for the next few bars; the 641.8 bounce already failed on fading volume, so no clean push either way. A reclaim of the 640.6-641.3 shelf turns buyers on toward 645+; loss of 638 support opens 634/626.",
+  "expectancy_note": "Shorting 4h-RSI-24/ADX-73 oversold with +0.16 structure bias, +8.5% rel-strength and a bid-heavy book is the exact setup the learner punishes (shorts 47% win, -0.87 avg). No long trigger yet. p(win) on any market entry <0.5 - HOLD is highest expectancy.",
+  "rationale": "META is an oversold LEADER (rel-str +8.5% vs BTC, low corr 0.39) with positive structure bias and bid-heavy orderbook - chasing the scan short into weekend US-closed illiquidity risks a squeeze, and the learner shows this account bleeds exactly these late shorts. The intraday bounce to 641.85 already faded back to 638.7 on light volume, so there's no clean long either; price is mid-range between 638 support and 641 shelf. No 48h catalyst (earnings Jul 29). Wait for a decisive break rather than fading chop; size 0.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 641.35,
+    "expires_min": 240,
+    "note": "Reclaiming the 640.6-641.3 shelf that just rejected proves buyers back in control of this oversold leader - flips this to a long toward 645-650 with a stop under 638."
+  },
+  "transcript": {
+    "macro": "Regime HOSTILE-to-MIXED, weekend US cash CLOSED (thin/gappy perps). Fri Jul 17 risk-off (S&P -1.01%, Nasdaq -1.4%), semis bear market on AI-capex fears. Scan short-tilted but RSIs washed out -> shorts into oversold weekend illiquidity = squeeze risk. META: scan short blended -0.389 but structure_bias +0.158, 4h RSI 23.9/ADX 72.9 extremely stretched down, rel-strength +8.5% vs BTC (leader). Crowded short into oversold; MIXED. No earnings this week.",
+    "sentiment": "SEMICONDUCTOR/AI-CAPEX RISK-OFF theme ('DeepSeek-moment 2.0' Moonshot AI, Netflix -10%, Iran). META: no company-specific 48h catalyst; earnings Jul 29 (after close, same day as FOMC) is the real binary but 11 days out. Large-cap comm-services, follows the broad tape. Near-term bias neutral, watch pre-earnings positioning next week.",
+    "analyst": "15m tape shows the down-move paused and a bounce to 641.85 already failed and faded back to 638.71 on light volume, holding above the 638 base. Signals conflict: scan short is a 4h echo (15m/30m flat), structure_bias POSITIVE +0.158 (bid-heavy book), rel-strength +8.5% (leader, not following semis). Learner is decisive: shorts bleed (47% win, -0.87 avg), structure_bias & rel_strength weights heavily penalize shorting a bid-supported relatively-strong name. No clean long yet (bounce failed, no divergence). Weekend thin/US-closed. HOLD; arm reclaim of 641.35 for a long.",
+    "portfolio": "HOLD META - oversold leader with bid support; refuse to chase the crowded short, no long trigger yet. Armed long reconsider at 641.35."
+  },
+  "timestamp": "2026-07-18T08:39:00.543160+00:00"
+}

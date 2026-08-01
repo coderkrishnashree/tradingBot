@@ -1,0 +1,27 @@
+{
+  "action": "hold",
+  "symbol": "EWY/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "expectancy_note": "No edge either way ahead of a binary Samsung gap: composite 'long' is contradicted by -4.37% RS (only laggard), bearish 4h divergence, ADX 78.7 (exhausting), worst structure_bias -0.113, crowded long 1.372. Naive long = chasing a lagging horse into an event; short into a still-strong uptrend lacks a rejection trigger. E[hold] > E[either trade].",
+  "rationale": "EWY is the weakest leg of the set and carries the biggest event risk: Samsung + SK Hynix are >50% of KOSPI and preliminary earnings are imminent, an uncontrolled binary gap the tokenized perp won't price smoothly. Technicals are internally contradictory (long tag but negative relative strength, bearish divergence, stretched/tiring ADX, crowded-long positioning that is downside fuel). There is no entry with a stop that survives noise AND a clean R:R into that gap, so cash is the highest-expectancy position. I want either a confirmed momentum breakdown or a post-print reclaim before committing.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 186.0,
+    "expires_min": 240,
+    "note": "Loses the recent 15m/30m consolidation shelf with MACD already rolling negative on lower TFs \u2014 confirms the bearish 4h divergence and flips this into a tradeable momentum short toward 174.61 support."
+  },
+  "transcript": {
+    "macro": "Overall regime MIXED-to-SUPPORTIVE for longs July 6 but EWY is the WEAKEST of the set. Regime=trend, direction=long, but ONLY laggard vs BTC (RS -4.37%), divergence=bearish, ADX 78.7 (strong trend possibly losing momentum), composite conf 29.7%. Structure soft: funding 0, orderbook -0.005, l/s 1.372 crowded long, worst structure_bias -0.113. KOSPI long-term story huge (~doubled YTD, Goldman 9000) but near-term tape turned: July 6 KOSPI -1.5%, ~15% below June high, foreigners selling ahead of Samsung earnings. DOMINANT RISK: Samsung + SK Hynix >50% of KOSPI, Samsung preliminary earnings IMMINENT = binary gap risk. Argue for smaller size or wait for the print.",
+    "sentiment": "EWY negative/high-risk near-term. ~45% weighted to Samsung + SK Hynix, the epicenter: July 2 SK Hynix -14%, Samsung -9%, ~$290B wiped, emergency Kospi halt. Scan shows bearish 4h divergence, negative RS, ADX ~79 (stretched/exhausting). Fresh shock actively moving the index. Catalyst risk: further HBM/AI-demand headlines out of Korea + overnight US chip spillover; Korean cash gaps drive EWY. Near-term news argues AGAINST a naive long / favors caution or short bias. Higher-beta, more-damaged leg. TSM|EWY corr 0.65.",
+    "analyst": "Composite says long but internals contradict it: negative RS, bearish 4h divergence, exhausting ADX 78.7, worst structure bias, crowded-long 1.372 = downside fuel. Naive long = chasing a lagging horse into a binary Samsung gap the perp won't price smoothly. Short is tempting on the divergence but ADX 78.7 means prevailing trend is still UP and there's no lower-high rejection trigger yet; the gap could go either way. No high-expectancy entry either direction ahead of the event \u2014 cash is the best position. Flip level: break below ~186 (loses the 15m/30m shelf, MACD already rolling on lower TFs) confirms a momentum short toward 174.61.",
+    "portfolio": "EWY \u2014 HOLD (0.60 conf); weakest leg into an imminent Samsung binary gap, no clean edge either way; wait for a break of ~186 to arm a short or a post-print reclaim of 202.9 to arm a long."
+  },
+  "timestamp": "2026-07-06T19:25:16.067248+00:00"
+}

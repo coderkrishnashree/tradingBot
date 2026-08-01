@@ -1,0 +1,28 @@
+{
+  "symbol": "ORCL/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.6,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "none",
+  "forecast": "Price bottomed at 120.36, printed higher lows (120.36 to 121.13 to 121.18) and is curling back toward 122.6; expect a relief bounce toward the broken-support-turned-resistance / VWAP zone ~124.5-125.3 over the next several bars before the downtrend can resume.",
+  "expectancy_note": "Shorting fresh lows here: est p(win) ~0.35 (learner p_win 0.332), R:R poor because a routine bounce hits any honest stop first; waiting to short the rally into VWAP flips p(win) toward ~0.55 with a tight stop above resistance \u2014 far better expectancy than chasing.",
+  "rationale": "ORCL is in a strong 4h downtrend (ADX 61, all TFs negative) but deeply oversold and stretched: RSI ~25 on every TF, %B -0.23, stoch 22, price -2.3% below VWAP, sitting on freshly broken support 120.36 with bids stacking (orderbook +0.24) and crowd still net-long 2.5x. Chasing a market short into fresh lows is the account's proven #1 loser (late short into stretched tape, stopped by the counter-bounce) \u2014 the learner confirms p_win 0.332. The high-expectancy plan is to short the RALLY into 124.5-125.3 (broken support / VWAP retest), not fresh lows; no fresh-low entry offers R:R >= 1.5.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 124.8,
+    "expires_min": 240,
+    "note": "A bounce into 124.8-125.3 broken-support/VWAP retest is the low-risk short entry the trend and crowded longs favor \u2014 crossing it arms the rally-short with a stop just above 125.6 targeting a retest of 120.4."
+  },
+  "transcript": {
+    "macro": "Regime MIXED, relief bounce 2026-07-20 into event risk. ~53% odds Sept Fed HIKE, oil ~$90 on Iran. ORCL is the one clean SHORT setup: all timeframes down, RSI 25, price -2.3% below VWAP, broke support ~120.36. BUT long_short_ratio 2.52 = crowd still long into the fall (bias -0.23, contrarian bounce risk). Supports shorts on RALLIES, not fresh lows; watch for a squeeze. Smaller size.",
+    "sentiment": "ORCL BEARISH. Worst selloff in years: -24% over nine sessions, still leaking (-3.6% today). Real concerns: -$23.7B FCF from data-center capex, 'margins will step down' (CFO), S&P rating one notch above junk, OpenAI concentration risk, cloud price-war fears. Only SHORT-direction name in the scan. News CONFIRMS the bearish/short lean, though oversold \u2014 watch for violent relief bounces.",
+    "analyst": "Strong 4h downtrend (ADX 61) but deeply oversold: RSI ~25 all TFs, %B -0.23, stoch 22, -2.3% below VWAP, sitting on freshly broken 120.36 with bids stacking (+0.24) and crowd net-long 2.5x. Higher lows curling up off 120.36 = relief bounce forming. Shorting fresh lows is the #1 loss pattern (learner p_win 0.332). Hold and short the RALLY into 124.5-125.3 (broken-support/VWAP retest); no fresh-low entry clears R:R >= 1.5.",
+    "portfolio": "HOLD ORCL \u2014 bearish but don't chase fresh lows; arm a rally-short at 124.8-125.3."
+  },
+  "timestamp": "2026-07-20T15:45:45.999226+00:00"
+}

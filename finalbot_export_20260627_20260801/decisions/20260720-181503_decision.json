@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "QQQ/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Thin Sunday tape chops 699-704 with slight lower highs off the 706 spike; expect continued coil into Monday's US open where the real gap/repricing happens, direction unresolved until then.",
+  "expectancy_note": "No honest R:R here: ATR only 0.41% (~2.9pts), so any structural stop (below 699/697) vs next level gives sub-1.5 R:R; shorts have bled in the learner (47% win, -0.94 avg over 43 trades) and market is CLOSED with two-sided gap risk. Flat is highest expectancy.",
+  "rationale": "QQQ is a mid-band index proxy in a tight squeeze (BB width 1.64%, ATR 0.41%) with the US cash market closed on Sunday \u2014 marks are proxy and real repricing waits for Monday's open with elevated gap risk plus GOOGL/TSLA earnings Wed. Structure is near-flat/short-tilted (L/S 0.83, orderbook -0.345) and the composite is unaligned at 39% confidence, so there is no edge and no honest stop that survives the gap. Zero size: trading thin off-hours liquidity into a binary event window is negative expectancy.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 706.4,
+    "expires_min": 240,
+    "note": "Reclaiming and holding above the 706 spike high proves the Monday-recovery bid is real and turns the squeeze into a breakout long toward 727 resistance."
+  },
+  "transcript": {
+    "macro": "Environment MIXED, cautiously risk-on but event-heavy. Sun Jul 20 = US cash CLOSED; tokenized perps trade thin off-hours, marks are proxy, real repricing at Mon Jul 21 open, elevated gap risk. Funding 0.0 (uninformative); L/S + orderbook live positioning. Index momentum choppy (Fri Jul 17 Nasdaq -1% on chips then rebound). Rates/USD mildly supportive (~65% Fed hold Jul 29, DXY ~100.9). US-Iran + oil weekend wildcard. QQQ: cleanest macro proxy, near-flat positioning (L/S 0.83 \u2014 only sub-1/short-tilted name; orderbook -0.345, bias -0.052); low ATR (0.41%), tight bands, index-level lower idiosyncratic risk. Straight bet on Mon-open recovery vs continuation of Friday's chip wobble. Neutral, macro-driven.",
+    "sentiment": "Risk-on but jumpy, Big Tech earnings storm (GOOGL/TSLA Wed Jul 22, INTC Thu Jul 23); AI-capex vol next 48h; US-Iran + oil ~$90 tail. QQQ: high indirect event risk, no single binary \u2014 it's the AI-earnings beta; Monday tone constructive (+1%) but '86% beat yet sold anyway' this season = beats aren't safe; ~701, ~6% below Jun 2 ATH 745. Neutral-to-two-sided, size for volatility.",
+    "analyst": "Mid-band index proxy in a tight squeeze (BB width 1.64%, ATR 0.41% ~2.9pts) chopping 699-704 with slight lower highs off the 706 spike. US cash closed \u2014 proxy marks, Monday-open gap risk + GOOGL/TSLA Wed. Structure near-flat/short-tilted (L/S 0.83, book -0.345), composite unaligned at 39%. ATR too small for an honest stop to give 1.5R; shorts bled in learner (47%, -0.94R). No edge \u2014 HOLD size 0; re-debate breakout long on hold above 706.4.",
+    "portfolio": "HOLD QQQ \u2014 squeezed mid-band index proxy, no honest R:R on tiny ATR into closed market; re-debate on >706.4 breakout."
+  },
+  "timestamp": "2026-07-20T18:15:03.074101+00:00"
+}

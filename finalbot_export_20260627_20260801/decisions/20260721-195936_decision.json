@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "GOOGL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Last 15m bar closed on its low at 347.9 with momentum down, but 1h RSI 20 / stoch 10 are washed out just 1.7pts (0.5 ATR) above support 341.86 \u2014 expect a choppy bounce or grind toward 350-351 VWAP before any clean move; no decisive next candle to trade.",
+  "expectancy_note": "Short into deeply oversold LTFs right above support = the account's classic late-short-stopped-by-bounce loss; long fights an intact 4h downtrend on a -14% laggard. Both sub-1.5 R:R, and Wed earnings gap poisons any carried size. HOLD is highest expectancy.",
+  "rationale": "4h is bearishly aligned (-0.802) but the lower timeframes are exhausted-oversold (1h RSI 20, stoch 10) sitting barely half an ATR above real support at 341.86 \u2014 a fresh market short chases into a likely bounce and honest stops get hit first. Long-heavy L/S (1.812) adds squeeze risk against a short with no confirmed breakdown yet. Decisive factor: GOOGL Q2 earnings Wed July 22 after close is inside the 48h hold window on a thin, gappy tokenized name \u2014 carrying directional size is a coin-flip, not a setup. Stand aside until support breaks or price reclaims VWAP.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 341.86,
+    "expires_min": 240,
+    "note": "Clean loss of 4h support 341.86 confirms the 4h short with a fresh breakdown (LTF oversold can reset lower) \u2014 reopens a short toward 338, but only if still comfortably pre-earnings."
+  },
+  "transcript": {
+    "macro": "RISK-ON but headline-fragile. US equities firm (Nasdaq +1.36%); Big Tech earnings start Wed Jul 22 night (binary gap risk). DXY sub-102, negative 10y real yields (~-0.45%) = gold-supportive, risk tailwind. CRYPTO: BTC $66.4k, dominance 56.3%; HTF up (4h RSI 70.9) but 15m rolled over near resistance $66.9k; positioning NOT crowded (funding flat, L/S 1.206). Long-crowded books on XAUT (L/S 2.55) and GOOGL (1.81) = squeeze/reversal risk. US-hours gap risk on tokenized stocks (MSTR, GOOGL). FOMC Jul 28-29 outside 48h.",
+    "sentiment": "Risk-on drift \u2014 BTC/AI-tech firm on returning ETF inflows (BTC ~$727M over 5 days, flipped positive), gold bid on Middle East risk; the one live 48h landmine is GOOGL earnings Wed Jul 22 after close (FOMC Jul 29 is next week). MSTR: reclaimed $100, raised ~$263.5M ATM, HALTED BTC buys + $1B buyback \u2014 softer posture, trades as leveraged BTC proxy. XAUT/gold: safe-haven bid but stretched (RSI 71, bearish divergence).",
+    "analyst": "4h bearishly aligned (-0.802) but LTFs exhausted-oversold (1h RSI 20, stoch 10) barely 0.5 ATR above support 341.86 \u2014 a market short chases into a likely bounce and gets stopped. Long-heavy L/S 1.812 = squeeze risk against a short. Decisive: Q2 earnings Wed Jul 22 after close inside 48h on a thin gappy tokenized name = coin-flip. HOLD until 341.86 breaks or VWAP reclaimed.",
+    "portfolio": "GOOGL: HOLD \u2014 oversold above support into Wed earnings binary; stand aside, conf 0.6."
+  },
+  "timestamp": "2026-07-21T19:59:36.702308+00:00"
+}

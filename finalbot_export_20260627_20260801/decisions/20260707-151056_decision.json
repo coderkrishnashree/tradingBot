@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "GOOGL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.34,
+  "playbook": "none",
+  "forecast": "Price rejected hard at resistance 373.49 and has faded bar-by-bar to 368.32; expect chop between 367.4 support and 371 over the next 2-4 bars, resolving down only if 367.4 breaks toward VWAP ~365.",
+  "expectancy_note": "No edge: long is dead after the 373.49 rejection (crowded-long, structure_bias -0.41, RSI 74); a short into a still-up 4h trend with ATR only 0.77% and support 28pts away is poor R:R (<1.2). Flat is highest expectancy.",
+  "rationale": "GOOGL just tested and got cleanly rejected at resistance 373.49 on the 15m, invalidating the momentum-long into an already crowded book (long/short 2.02, RSI 74.4, structure_bias -0.41). But the 4h/1h trend is still up and ATR is tiny, so a short here has no room and weak R:R. Near-zero BTC correlation means this trades on its own tape with no catalyst inside 48h; earnings are outside the window. Best to wait for a decisive level break rather than force a low-conviction trade.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 367.39,
+    "expires_min": 240,
+    "note": "Losing the 367.4 pivot low confirms the resistance rejection is a real reversal and opens a short toward VWAP ~365; conversely a reclaim of 373.49 would resume the long."
+  },
+  "transcript": {
+    "macro": "Equity risk-ON near record highs supports a long bias broadly; no CPI/FOMC inside 48h. GOOGL weakest signal (raw LONG score but composite aligned=FALSE, conf 11%). Price momentum up (4h/1h long, RSI 74.4 OVERBOUGHT) but positioning contradicts: L/S 2.02 very crowded long, funding +0.00015, orderbook -0.16, structure_bias -0.41 (most bearish of the four). Crowded-long into resistance 373.49. Uncorrelated to BTC (0.048), pure idiosyncratic. Wait for pullback or stay flat.",
+    "sentiment": "GOOGL neutral now; earnings on the horizon (Jul 22 vs 'confirmed' Jul 28 after-close) OUTSIDE 48h \u2014 no stay-flat mandate but don't hold multi-day into it. Most idiosyncratic name. Overhangs: DOJ antitrust appeal, $84.75B equity raise for AI capex (long-horizon). Consensus Strong Buy background only. No near-term catalyst = neutral.",
+    "analyst": "Price spiked to resistance 373.49, rejected, and faded bar-by-bar to 368.32 (5m RSI 24.7). Rejection kills the long; short into still-up 4h with tiny ATR and support 28pts away = poor R:R. HOLD, armed reconsider on 367.4 break (or 373.49 reclaim for long).",
+    "portfolio": "GOOGL: HOLD \u2014 crowded-long rejected at resistance; long invalidated, short has no room; wait for 367.4 break or 373.49 reclaim."
+  },
+  "timestamp": "2026-07-07T15:10:56.471481+00:00"
+}

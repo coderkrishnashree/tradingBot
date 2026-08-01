@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "SNDK/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Price is mid-bounce off the 1348-1351 lows, last bar closing at its high (1360.46) on rising volume \u2014 near-term it likely probes 1365-1375 (toward VWAP) before the down-trend can resume; only a fresh break under 1348 confirms continuation lower toward 1311.",
+  "expectancy_note": "Fresh short here (3.7% below VWAP, stoch 18.6, into a 3-bar recovery) is the account's proven loser: shorts 47% win / -0.87 avg, and an honest stop above the bounce dwarfs the ~12-pt path to support (R:R <1). Waiting for 1348 loss or a VWAP rejection gives a real edge.",
+  "rationale": "Macro + structure + rel-weakness (-41%) all favor shorting SNDK, but the 15m tape has bounced off 1348-1351 with the last three bars higher and the final candle closing on its high \u2014 shorting into that stretched, oversold recovery is chasing, exactly how this book's late shorts died. 15m even ticked long (composite aligned=false). No honest R:R short exists at 1360; the trade is a breakdown continuation below the 1348 swing low, not a market short here. Thin weekend tape adds gap risk, so I stay flat and arm the trigger.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 1348.0,
+    "expires_min": 240,
+    "note": "Losing the 1348 swing low proves the bounce failed and the 30m/4h downtrend has resumed \u2014 the clean macro-aligned short with structure at its back, targeting 1311 support."
+  },
+  "transcript": {
+    "macro": "Sun Jul 19 2026, US cash equities CLOSED (weekend) \u2014 tokenized-equity perps thin/gap-prone, de-weight trend until Monday. Tape RISK-OFF, semiconductor/memory-led selloff (SMH ~-9% wk). Crypto cautious-stabilizing. Desk tilts SHORT this basket. SNDK-specific: cleanest macro-aligned short \u2014 rel-strength -41.4% (weakest name), 4h -0.47, 30m -0.90, below VWAP -3.7%, orderbook -0.73 (heavy offer), structure_bias -0.43 (most bearish). Caveat: composite aligned=false (15m ticked long), thin/gappy, high ATR 2.55%.",
+    "sentiment": "BULLISH structural tone but STRETCHED and headline-fragile. Year's monster (+~707% YTD) on NAND super-cycle, BUT fell 8% Jul 16 and sits ~36% below high \u2014 violently two-way. Fiscal Q4 earnings Aug 5 (outside 48h). Direction up structurally but whippy off-hours; don't chase.",
+    "analyst": "Macro/structure/rel-weakness all favor shorting, but the 15m tape bounced off 1348-1351 with three higher bars and the final candle closing on its high (stoch 18.6, 3.7% below VWAP) \u2014 shorting here chases a stretched oversold recovery, how this book's late shorts died. Honest stop above the bounce dwarfs the ~12-pt path to support (R:R <1). HOLD, arm short on a break below the 1348 swing low.",
+    "portfolio": "HOLD SNDK \u2014 macro-aligned short but mid-bounce, R:R<1; arm short below 1348."
+  },
+  "timestamp": "2026-07-19T17:44:07.040672+00:00"
+}

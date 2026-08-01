@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "TSM/USDT:USDT",
+  "size": 0.0,
+  "entry": 407.09,
+  "stop_loss": 413.5,
+  "take_profit": 398.0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.4,
+  "playbook": "none",
+  "forecast": "Price is stair-stepped down to 407 into 15m RSI 20.7 and -2.36% below VWAP with the last bar a low-volume doji at the lows; expect a mean-reversion bounce toward 409-411 (broken support turned resistance) over the next few bars before the downtrend can resume \u2014 a market short here gets stopped by that bounce into thin, closed-market tape.",
+  "expectancy_note": "Short chase here p(win)~0.4 (learner shorts 0.49/-0.74, TSM p_win 0.37, vwap -2.36% extended, support 397.5 only ~2.3% away) \u2014 negative expectancy; better to short the bounce or wait for a support break with momentum.",
+  "rationale": "The 4h/1h downtrend and crowded-long L/S 2.218 favor shorts, but price is already stretched: 15m RSI 20.7, -2.36% below VWAP, only ~2.3% above support 397.55, into a closed/gappy US session with highest post-earnings headline risk. That is the account's #1 loss pattern (late short into stretched tape, stopped by the counter-bounce), and the learner flags extended structure/vwap as losing. Size 0 now; I want either a bounce to short from ~409-411 back toward VWAP, or a clean break of 397.55 with momentum to join continuation.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 397.5,
+    "expires_min": 240,
+    "note": "Losing the 397.55 support flushes the crowded longs and opens the next leg down \u2014 join the short on that break rather than chasing the oversold bounce here."
+  },
+  "transcript": {
+    "macro": "REGIME: HOSTILE-to-MIXED for longs, SUPPORTIVE for shorts. Semiconductor/AI-led risk-off tape. TSM is the catalyst stock: beat Q2 but raised FY capex to $60-64B, reigniting AI-spend/valuation worries. Oil spiking. Hawkish rate tail (FOMC Jul 29). BTC correlation LOW \u2014 equity beta. Funding 0.0. US cash CLOSED overnight \u2014 thin/gappy until 09:30 ET. TSM: short-aligned (-0.38), L/S 2.218 heavily crowded-long (contrarian short), RS -11.8% (lagging hard), neg BTC corr. Capex-hike reaction fresh/negative. SUPPORTIVE for shorts but headline/gap risk highest \u2014 smaller size, wide stops.",
+    "sentiment": "OVERALL: Risk-off in semis/AI. TSM (short): Reported Q2 Jul 16 \u2014 big beat (rev +36% YoY, EPS +77%, 61% AI) but stock FELL (6th straight loss, ~-1.5% after-hours) on raised capex and 2nm margin dilution. Epicenter of the semi selloff, dragging peers. Event risk already passed; momentum-short favored, near-term BEARISH.",
+    "analyst": "4h/1h downtrend and crowded-long L/S 2.218 favor shorts, but price is stretched: 15m RSI 20.7, -2.36% below VWAP, only ~2.3% above support 397.55, closed/gappy session, highest post-earnings headline risk. TSM p_win 0.37. That's the account's #1 loss pattern (late short stopped by counter-bounce). HOLD; short a bounce from 409-411, or join a clean break below 397.55.",
+    "portfolio": "TSM: HOLD (conf 0.40) \u2014 trend down but too stretched to chase; short the bounce or the 397.5 break."
+  },
+  "timestamp": "2026-07-17T00:05:42.260949+00:00"
+}

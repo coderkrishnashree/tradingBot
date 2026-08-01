@@ -1,0 +1,24 @@
+{
+  "symbol": "XAUT/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.62,
+  "size": 0.0,
+  "entry": 4087.7,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "forecast": "Price stays pinned in the tight 4076-4093 coil (ATR only ~$8.6, bb_width 1.23%) chopping around 4085-4090 into the FOMC/PCE window; no directional edge until it resolves the $4,100 break or loses ~4076.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 4100,
+    "expires_min": 240,
+    "note": "A clean reclaim/hold above the $4,100 pivot on rising OI turns the coil into a breakout toward 4155; a loss of 4076 opens a short toward VWAP/3984."
+  },
+  "rationale": "XAUT is coiling in a razor-tight range (4076-4093, bb_width 1.23%, ATR only ~$8.6) right before FOMC Wed and Core PCE Thu, structurally overbought (RSI 83, ADX 92, bb%b>1) yet short-TF cooled to RSI ~54. Macro is genuinely two-sided (Hormuz safe-haven bid vs firm DXY/hostile real yields capping gold), crowd already max-long (L/S 2.35). Nearest structure (S 3984 / R 4155) is >10 ATR away, so no honest 1.5R setup; shorting stretched tape is the account's worst bucket (short win 0.45, -0.85 R). HOLD is highest expectancy \u2014 wait for the range to resolve.",
+  "transcript": {
+    "macro": "Cycle 2026-07-27: regime MIXED, day-of risk-on relief bounce into a heavy event week. 48h landmines: FOMC Wed Jul 29 (expected hold, hawkish-surprise risk), Core PCE Jul 30. 10Y >4.6%, DXY firm, real yields sticky = persistent headwind for non-yielding gold. Crowd already long; funding not extreme. XAUT ~$4,088, ~28% below Jan-2026 blowoff high (~$5,600); very overbought (RSI 83, ADX 92, bb%b>1.0), crowded long (L/S 2.35, bias -0.30), only 0.38 BTC-correlated.",
+    "sentiment": "XAUT (gold): MEDIUM \u2014 FOMC + geopolitics. ~$4,050-4,090/oz. Caught between US-Iran/Hormuz safe-haven bid and the resulting oil spike reviving inflation/Fed-hike fears (lifts USD/yields, caps gold). RSI extremely stretched. Two-sided into FOMC; watch $4,100 breakout vs pullback.",
+    "analyst": "Last 4087.7 in a tight 4076-4093 range all window (bb_width 1.23% very compressed). Composite/4h RSI 83, ADX 92, bb%b>1.0 = extremely overbought, but 15m/5m RSI only ~54 (coiling). ATR% just 0.21% (~$8.6). Support 3984 / resistance 4155 both >2.5% (>10 ATR) away = no near structure for honest R:R. L/S 2.35 crowded long. Learner: shorts are the account killer (n=53, win 0.45, -0.85 R); longs 0.58/+1.18. Coil into FOMC/PCE with no reachable level and a two-sided macro -> HOLD, armed with a >4100 / <4076 trigger.",
+    "portfolio": "XAUT: HOLD (conf 0.62) \u2014 overbought coil, two-sided into FOMC, no reachable R:R; flat."
+  },
+  "timestamp": "2026-07-27T11:10:12.388083+00:00"
+}

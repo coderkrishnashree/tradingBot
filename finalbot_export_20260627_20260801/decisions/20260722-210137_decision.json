@@ -1,0 +1,23 @@
+{
+  "symbol": "EWJ/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.34,
+  "size": 0.0,
+  "entry": 92.3,
+  "stop_loss": 90.9,
+  "take_profit": 94.49,
+  "rationale": "EWJ is a tokenized Japan-ETF perp trading in the US-closed / pre-Tokyo dead zone \u2014 the recent 15m candles show it frozen at 92.30-92.45 with repeated zero-volume bars, so the ADX 42 / 4h long score are stale higher-TF artifacts, not live momentum. Crypto structure is not meaningful for an equity, and what there is (L/S 1.60 crowd-long, orderbook -0.19, structure_bias -0.24) leans mildly against chasing the bounce. The only real catalyst (BOJ Jul 30) is outside the 48h window and sentiment flags this as the lowest-conviction, quietest name, so there is no honest short-term setup. Size 0 \u2014 wait for the Asia session to bring liquidity and a directional break.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 92.57,
+    "expires_min": 240,
+    "note": "Reclaiming the top of the dead micro-range with volume would confirm the 4h long bias is actually activating and justify re-debating a long toward 94.49."
+  },
+  "transcript": {
+    "macro": "Regime risk-ON but two-way. Asia ripping (Nikkei +1.76%). Headwind: Fed hikes narrative, DXY ~100.9, FOMC Jul 29. EWJ L/S 1.60 crowd long (contrarian caution).",
+    "sentiment": "EWJ: BOJ decision July 30 key catalyst \u2014 OUTSIDE 48h. BOJ hiked to 1% (June); Nikkei record highs. Market-cap-weighted EWJ slight headwind vs DXJ. Lowest-conviction of group, NEUTRAL, no <=48h catalyst.",
+    "analyst": "EWJ 92.30: dead illiquid tape in US-closed/pre-Tokyo hours, frozen 92.24-92.57 with zero-volume bars. ADX 42/4h long are stale artifacts. Structure leans mildly bearish. Only catalyst BOJ Jul 30 (outside window). No edge \u2014 HOLD, wait for Asia liquidity.",
+    "portfolio": "HOLD EWJ \u2014 dead illiquid tape, no catalyst in window, no honest edge."
+  },
+  "timestamp": "2026-07-22T21:01:37.051431+00:00"
+}

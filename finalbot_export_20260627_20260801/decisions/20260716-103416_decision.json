@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "ORCL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.0,
+  "playbook": "none",
+  "forecast": "No live price/ATR/structure for ORCL this cycle (Bybit rate-limit fetch error) and pre-13:30-UTC thin overnight tape; no concrete next move can be projected, so no entry can be placed.",
+  "expectancy_note": "Blind entry with no stop anchor or ATR in thin overnight liquidity has undefined R:R and negative expectancy; HOLD until data re-fetches beats guessing.",
+  "rationale": "ORCL was dropped from this scan (fetch_errors ~line 4277) with zero price, ATR, support/resistance, funding or OI data, so a stop cannot be honestly placed nor a size responsibly chosen. The short-side lean (below broken $130 support, capex/debt overhang, OpenAI concentration, laggard in a strong tape) is directionally valid but there is no near-term binary forcing a trade and it is before the 13:30 UTC cash open, making the perp thin and gappy. Sizing or stopping blind is precisely the un-anchored trade that produces oversized losses; wait for live derivatives data.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 128.0,
+    "expires_min": 240,
+    "note": "Once live data returns, a clean rejection/loss of the ~130 broken-support-turned-resistance zone (trading below ~128) confirms the short with a placeable stop above 130; re-debate then."
+  },
+  "transcript": {
+    "macro": "Equities risk-ON but ORCL is a laggard. ORCL had NO derivatives data this scan (Bybit rate-limit fetch error) \u2014 no funding/OI/structure/price. Equity backdrop a headwind: fell ~6% after strong FY-Q4 (Jun 10) on debt + AI-capex fears; slid below $135 then $130 support (Jul 13-14); 21,000-job restructuring overhang. Next earnings ~September. Verdict: LEAN SHORT with the equity downtrend but STAY OUT until structure is re-fetched.",
+    "sentiment": "ORCL bearish, no imminent binary. Down ~25-29% YTD; OpenAI IPO delay triggered ~9% single-week drop (concentration risk \u2014 ~$300B of $600B+ RPO backlog is OpenAI), plus capex/debt fears ($43B raised FY26). Last earnings (Jun 10) beat on cloud (+47%) yet stock fell 7.4% \u2014 'sell strength'. Analyst PTs $240-260 and William Blair add are long-horizon, low weight. Heavy overhang, negative drift, no near-term rescue.",
+    "analyst": "ORCL absent from the scan (OHLCV rate-limited): zero price/ATR/structure/funding/OI. Cannot construct an honest entry, stop, target or R:R. Narrative bearish but no <=48h binary and it is pre-US-cash-open (thin/gappy). Blind entry with no stop anchor is negative-expectancy. Mandatory HOLD until data re-fetches.",
+    "portfolio": "ORCL/USDT:USDT \u2014 HOLD (conf 0.0): no data this scan; armed short reconsider on confirmed break below 128 once structure returns."
+  },
+  "timestamp": "2026-07-16T10:34:16.180212+00:00"
+}

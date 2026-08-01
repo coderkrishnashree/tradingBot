@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "XAUT/USDT:USDT",
+  "size": 0.0,
+  "entry": 4137.0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Rejected at 4155 resistance; expect a 4118-4125 pullback (VWAP/prior breakout shelf) over the next 3-6 bars before gold's safe-haven bid can retest 4155. No clean long until that dip holds or a 15m close reclaims 4155.",
+  "expectancy_note": "Chasing long at RSI73/bb0.93 into exact resistance = the account's #1 late-entry loss; shorting gold's macro tailwind = the account's losing short book (46% win). Neither clears R:R>=1.5, so HOLD is best expectancy.",
+  "rationale": "XAUT is stretched (RSI 73.3, ADX 82.5, bb_pctb 0.93, stoch 88.6) and pinned right under 4155 resistance, last 4 candles fading bar-by-bar from the 4155 high (4155->4137) with 5m RSI 11.9 \u2014 a micro-rollover, not an entry. Crowded long (L/S 2.473, structure_bias -0.262) = fuel for a dip. A long only becomes valid on a controlled pullback to ~4120 that holds, or a decisive 15m close above 4155; until then no honest R:R either side.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 4155.0,
+    "expires_min": 240,
+    "note": "A 15m close above 4155 breaks the capping resistance and confirms the safe-haven bid resuming \u2014 reopens a valid trend-continuation long."
+  },
+  "transcript": {
+    "macro": "RISK-OFF/hawkish; DXY 13-mo high, 10Y ~4.5%. XAUT has the ONLY genuine macro tailwind of the group: safe-haven bid from US-Iran conflict, gold >$4,000 (~2-wk high). But same shock strengthens DXY and lifts real yields = direct gold headwind -> choppy 2-sided. Scan shows XAUT stretched and crowded long \u2014 poor spot to chase.",
+    "sentiment": "XAUT mildly bullish, macro-driven. Gold ~2-wk high on safe-haven demand (Iran, Red Sea, softer dollar). Rate-cut bets support but Jul 29 FOMC (hawkish) headwind building outside window. No <=48h binary; flows-driven. Direction supportive of longs but watch DXY.",
+    "analyst": "Best relative-strength story but stretched and rejected at 4155; micro-rollover underway. No chase long, no fade against macro bid + losing short record. HOLD, buy a ~4120 pullback or a 4155 reclaim.",
+    "portfolio": "XAUT -> HOLD (conf 0.60): strongest structural bid but overextended at resistance \u2014 wait for the dip/reclaim."
+  },
+  "timestamp": "2026-07-22T17:03:58.962918+00:00"
+}

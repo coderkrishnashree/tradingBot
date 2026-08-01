@@ -1,0 +1,25 @@
+{
+  "action": "hold",
+  "symbol": "INTC/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.62,
+  "playbook": "none",
+  "expectancy_note": "Every fresh entry has negative expectancy: cash market closed all weekend (un-hedgeable gap), price washed-out (RSI 14, stoch 2, %B 0.10) sitting ON support 123.72 \u2014 shorting = chasing extended move at the level, longing = countertrend catch vs active semi de-risk with no 48h catalyst. HOLD is highest-EV.",
+  "rationale": "INTC underlying equity is shut (Sat Jul 4, reopens Mon Jul 6) so there is no cash price discovery and any perp position carries a blind Monday gap I cannot hedge. Technically it is a knife into oversold: RSI 14.3, stoch 2.4, %B 0.10, price 123.75 pinned to support 123.72 after a 3x-volume 15m breakdown \u2014 the worst spot to short (extended, at the level) and no confirmed reversal to justify a countertrend long against active sector selling. Faint contrarian-long tell (negative funding, shorts paying) is not enough to override slammed momentum plus weekend gap risk. Stand aside; re-engage only after Monday liquidity and a clean structural break/reclaim.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 124.98,
+    "expires_min": 240,
+    "note": "Reclaiming resistance 124.98 fails the 3x-volume breakdown and confirms buyers stepped in \u2014 flips me toward the contrarian mean-reversion long the negative funding hints at."
+  },
+  "transcript": {
+    "macro": "Underlying cash equity CLOSED (Sat Jul 4, reopens Mon Jul 6 09:30 ET) \u2014 no price discovery, thin gappy perp, un-hedgeable weekend gap. Broad regime mildly risk-off: S&P -0.22%, Nasdaq -0.66% Jul 1, semis hit hard (INTC -6/-8%, AMD -5%), ~80% of Nasdaq longs offside. Scan: fresh 15m short breakout at 123.94 on 3.09x vol, RSI 14.3, ADX 87.9, vwap_dist -0.48%; funding -0.000185 (shorts paying, faint contrarian-long), OI 23,297, L/S 1.502, orderbook -0.158, structure_bias -0.121, btc_corr 0.039 (idiosyncratic). No event risk in 48h; earnings Jul 23 (outside window). Verdict: HOSTILE to fresh directional risk.",
+    "sentiment": "Sharp momentum-unwind. INTC +~250% YTD on Apple/MSFT foundry optimism, hit record ~$140, now near $121 after ~9% drop into Jul 1-2 amid broad AI-chip selloff (MU -13%, AMD -7%, SOX/SMH -5%). Tape driven by sector fear (SK Hynix HBM slowdown, AI-ROI skepticism, hawkish Fed/Warsh), not Intel-specific. No Intel-specific <=48h catalyst; foundry deal + PT hikes (HSBC $200, Cantor $150) are long-horizon, do NOT trade on. US markets closed Jul 4. Net: near-term news NEUTRAL-to-BEARISH; a long is a countertrend catch, only on clean technical reversal.",
+    "analyst": "HOLD, confidence 0.62. Dominant disqualifier: cash equity closed all weekend = blind un-hedgeable Monday gap. Momentum fully washed out (RSI 14.3, stoch 2.4, %B 0.10) with price 123.75 pinned to support 123.72 after a 3x-volume breakdown \u2014 worst spot to short (extended, at the level) and no confirmed reversal for a countertrend long against active sector de-risking. Negative funding is too faint to override. Stand aside; re-engage after Monday liquidity. Triggers: reclaim of resistance 124.98 = failed breakdown -> contrarian long; decisive loss of ~123.40 -> arm momentum short on Monday reopen.",
+    "portfolio": "INTC/USDT:USDT \u2014 HOLD (conf 0.62): no fresh risk into a closed-market weekend; watch reclaim of 124.98 or loss of 123.40 Monday."
+  },
+  "timestamp": "2026-07-04T13:01:02.284544+00:00"
+}

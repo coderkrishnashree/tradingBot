@@ -1,0 +1,28 @@
+{
+  "symbol": "COIN/USDT:USDT",
+  "action": "hold",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "LTF is overbought (15m RSI 81.9) after a grind from 157.3 to 158.3; the last bar spiked to 158.33 and was rejected back to 157.90. Expect a shallow pullback/chop toward 157.3-157.5 over the next 2-4 bars; a clean break and hold above 158.33 would confirm the short-covering squeeze can extend toward 160.",
+  "expectancy_note": "p(win) ~0.55 but market-entry at 157.9 into 15m RSI 81.9 is chasing, and a non-chasing pullback long yields only ~1.26 R:R to TP1 against a 4h downtrend (RSI 20.1) and risk-off crypto tape \u2014 below the 1.5 hurdle, so wait for confirmation rather than force a sub-standard long.",
+  "rationale": "COIN is the one long-tilted name (composite +0.217, p_win_learned 0.674, L/S 0.605 = crowded shorts as squeeze fuel) and this account's longs win 75% vs shorts 47%, so I favor the long side here. But short-term momentum is already stretched (15m RSI 81.9, last bar rejected at 158.33) while the 4h remains a downtrend (RSI 20.1) in a RISK-OFF macro with COIN 0.643 correlated to a soft BTC \u2014 a market long chases and a clean pullback long doesn't clear 1.5 R:R. HOLD and let the tape prove the squeeze: a break and hold above 158.33 arms a momentum long toward 160/168; otherwise no edge worth the risk.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 158.4,
+    "expires_min": 240,
+    "note": "Reclaiming and holding above the 158.33 rejection high proves the short-covering squeeze has strength to extend past resistance, justifying a momentum long toward 160-168 with fresh R:R."
+  },
+  "transcript": {
+    "macro": "RISK-OFF regime; crypto backdrop weak/unsupportive (BTC ~$63k, worst ETF month on record, dominance ~56.3%) \u2014 'don't fight gravity' crypto tape. No FOMC/CPI inside 48h. #1 risk: chasing oversold shorts into a squeeze; smaller size. COIN: last 157.9, the ONE long-tilted name (composite +0.217, structure_bias +0.087, L/S 0.605 = shorts crowded -> short-covering pop support). BTC corr 0.643 \u2014 but with BTC soft a COIN long fights the crypto tape; 4h RSI 20.1 shows higher-TF trend still down.",
+    "sentiment": "COIN earnings later \u2014 Aug 6, 2026 \u2014 so NO earnings risk this cycle or next. Constructive medium-term regulatory tailwinds (SEC openness to stock-token trading; trust charter expansion) but slow-burn, not <=48h. Near-term COIN is pure crypto-beta (corr BTC 0.64), caught between soft crypto sentiment (Fear ~36) and its own scan showing short-term long momentum (15m/30m/1h up, 4h down). No fresh 48h catalyst to override technicals \u2014 sentiment neutral, trade as BTC/risk proxy.",
+    "analyst": "COIN 157.9 is the best long candidate on the board (composite +0.217, p_win_learned 0.674, crowded shorts L/S 0.605 = squeeze fuel) and the account's longs win 75% vs shorts 47%, so directionally I lean long. But the immediate move is stretched: 15m RSI 81.9, and the last 15m bar spiked to 158.33 then rejected back to 157.90 (sellers overhead). Market-entering at 157.9 chases into that overbought push, and a disciplined pullback long toward 157.3 only yields ~1.26 R:R to a realistic TP1 near 160 \u2014 below the 1.5 hurdle \u2014 because the 4h is still a downtrend (RSI 20.1) inside a RISK-OFF macro with COIN 0.643 correlated to a soft BTC. Rather than force a sub-1.5 R:R long or fight the crypto tape, I HOLD with an armed trigger at 158.4.",
+    "portfolio": "HOLD COIN \u2014 best long-tilted name but LTF overbought and R:R sub-1.5; arm a momentum long on a hold above 158.4."
+  },
+  "timestamp": "2026-07-18T12:39:49.248277+00:00"
+}

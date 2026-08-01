@@ -1,0 +1,28 @@
+{
+  "symbol": "EWJ/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.4,
+  "size": 0.0,
+  "entry": 92.85,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "none",
+  "forecast": "Thin, illiquid grind: price likely drifts/chops between 92.0 and 93.3 into the Asia open; either a slow test of 90.27 support or a mean-reversion snap back toward 94 VWAP \u2014 no clean edge either way in the next few bars.",
+  "expectancy_note": "No positive-expectancy entry: short is a late chase into 9.9 RSI / negative %B (bounce hits any honest stop), long has zero reversal confirmation; thin OI (1850) + closed US cash = gap risk that swamps the ~2.7% to support.",
+  "rationale": "EWJ is a barely-traded Japan ETF perp (OI ~1850, many zero-volume candles) in a low-conviction 9.7% flat composite; the tape is a slow one-way bleed with lower-TF RSI at single digits (15m 9.9, 30m 8.5) \u2014 textbook stretched, so shorting now invites the counter-bounce that kills this book's late shorts, while no bullish divergence or reversal candle justifies a fade-long. With US cash CLOSED, RISK-OFF macro, and a binary CPI/Fed Tuesday, the highest-expectancy action is to stand aside. Size 0.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 90.27,
+    "expires_min": 240,
+    "note": "A break-and-hold below 90.27 support on real volume opens a fresh short leg rather than chasing the exhausted one; a reclaim of 94.13 flags exhaustion for a long."
+  },
+  "transcript": {
+    "macro": "RISK-OFF/defensive; US cash CLOSED, tokenized-equity/ETF perps thin/gappy. Japan EWJ softer/milder than Korea (-1.5% RS); scan flagged FLAT. Thin on the perp (OI ~1850), hostage to the global chip trade and oil at the Asia open. Binary: Tuesday CPI/Fed.",
+    "sentiment": "EWJ NEUTRAL, macro-driven. Nikkei whippy in early July on the AI/semi valuation sell-off; SoftBank spiked ~10% on OpenAI product news, offset by higher oil and Iran-strike geopolitical tension. No Japan-specific <=48h binary; moves driven by global chip trade and oil.",
+    "analyst": "Barely-traded perp on a slow one-way bleed with LTF RSI single digits \u2014 shorting invites the counter-bounce, no reversal to justify a long. Thin OI + closed cash + CPI binary = stand aside. Reconsider on break below 90.27 or reclaim of 94.13.",
+    "portfolio": "HOLD EWJ \u2014 illiquid stretched bleed, no edge; flat."
+  },
+  "timestamp": "2026-07-13T01:37:08.571932+00:00"
+}

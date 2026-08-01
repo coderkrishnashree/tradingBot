@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "TSM/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.4,
+  "playbook": "none",
+  "forecast": "Dead weekend tape: price grinds in the 397.8-399.3 band on near-zero volume until Monday cash open; no concrete directional move is forecastable in the next few candles, and the real move is a Monday gap that cuts both ways.",
+  "expectancy_note": "Short here is a late chase: 1h RSI 29.5 and 5m RSI 33.6 already oversold, price -2.46% below VWAP, rel-strength -16.4% (move already spent); support 386.81 only ~2.8% away gives poor R:R and any bounce stops the short. Learner p_win 0.383 confirms this condition loses. HOLD beats shorting into an oversold, illiquid, gap-risk tape.",
+  "rationale": "TSM is a tokenized equity with cash markets closed, so the crowded-long L/S is noise not fuel; the 20-bar mid-TF sequence shows no order flow (volumes 0.0-2.8) and no momentum. The bearish thesis is real directionally but already priced in on the lower TFs (1h RSI 29.5), so entering now is the account's #1 loss pattern - a late short into stretched tape that a routine bounce stops out before continuation. No trade until price confirms the flush by breaking structure or bounces to a cleaner short entry.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 386.81,
+    "expires_min": 240,
+    "note": "Losing the 386.81 4h support confirms the flush is resuming with momentum rather than into oversold noise, re-opening the short with a measured move toward the next level instead of chasing mid-air."
+  },
+  "transcript": {
+    "macro": "RISK-OFF, short lean, low-conviction due to weekend illiquidity. Sat Jul 18 scan, US+Tokyo cash closed until Monday -> thin/gappy perps, Monday-open gap risk. Semiconductor complex is the epicenter of the selloff; NVDA -3.78% Fri; path of least resistance for chip names is lower. TSM most bearish of set (blended -0.355), L/S 2.45 (very crowded long), worst rel strength -16.4%. Cleanest short alignment in set: TSM/QQQ. Funding ~0.",
+    "sentiment": "Broad AI/semiconductor-led tech selloff Fri Jul 17. TSM bearish near-term: earnings already dropped Jul 16 (beat - rev $40.2B, GM 67.7%, EPS +77% YoY, raised capex) but a strong print is being SOLD as the market de-rates AI/chip valuations; post-earnings + sector rout = negative momentum. News argues WITH shorts, but the move is largely spent.",
+    "analyst": "Cash markets closed so crowded-long L/S is noise; 20-bar tape shows zero order flow (vol 0.0-2.8) and no momentum. Bearish thesis is directionally real but already priced into LTFs (1h RSI 29.5, 5m 33.6, -2.46% VWAP, rel-strength -16.4%); support 386.81 only ~2.8% away = poor R:R, and learner p_win 0.383. Shorting here is the account's #1 loss (late short into stretch, stopped by a bounce). HOLD; reconsider short on a break below 386.81.",
+    "portfolio": "TSM: HOLD - bearish but already oversold/spent on a dead weekend book; wait for a support break, no trade."
+  },
+  "timestamp": "2026-07-18T16:38:50.737841+00:00"
+}

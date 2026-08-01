@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "INTC/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Choppy fade continuation: price likely grinds 104.2-105.9 into vol compression today; a break below 104.2 opens 102.5-101.5, but 5m RSI 31.9 already stretched means a bounce to 105.7 VWAP-area is the more immediate risk before any clean break.",
+  "expectancy_note": "No side clears R:R>=1.5: crowded long (L/S 1.75) blocks fresh longs; LTF already oversold (5m RSI 31.9) makes a market short a chase into a likely bounce; earnings tomorrow (~12-15% implied gap) caps the holding window and makes any carried swing a coin flip. HOLD is highest expectancy.",
+  "rationale": "INTC is +168% YTD, extended 3.8% over VWAP and rolling intraday (106.9->104.9) with lower highs closing near lows, but the 5m is already oversold (RSI 31.9), so a fresh short here chases into bounce risk while a long fights a crowded book and hostile macro. Dominant factor is the binary earnings after close tomorrow with a 12-15% implied move; sizing a directional swing into that is negative-expectancy gambling per the explicit do-not-carry-unhedged guidance. Flat now, wait for the 104.2 shelf to break with room before committing size, which also keeps me off the extended-continuation-chase pattern.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 104.2,
+    "expires_min": 240,
+    "note": "Losing the intraday 104.2 shelf that has held on the last several bars would confirm the roll-over and open a cleaner momentum short toward 102.5-101.5 with room from the entry, no longer a chase into oversold."
+  },
+  "transcript": {
+    "macro": "Regime MIXED-to-HOSTILE, defensive. Hawkish Fed (2026 hike risk, DXY firm). Books crowded LONG, structure_bias negative. Reduce size. Asia/semis violent two-way. INTC: rode the semi rebound but 5m already rolling; uptrend intact but near-term exhausting - fade strength or wait for a pullback long, no fresh chase.",
+    "sentiment": "INTC HIGH-conviction event: earnings TOMORROW Thu Jul 23 after close, options pricing ~12-15% swing. Consensus ~$14.4B rev / ~$0.20-0.22 EPS; focus 39% gross margin, Data Center, 18A foundry (Apple/Microsoft). Stock extended into it. Expect vol compression today then a gap on the print. KEY: do NOT carry unhedged size into Thursday's close. Lean neutral directionally but HIGH near-term catalyst risk.",
+    "analyst": "Last 104.88, +168% YTD, RSI 66, ADX 66.7, +3.79% over VWAP, L/S 1.746, structure_bias -0.217, RS -20.6% (weakest in set). 15m rolling over 106.9->104.9, lower highs closing near lows, but 5m already oversold (RSI 31.9 = bounce risk against a short). Earnings tomorrow AMC with 12-15% implied gap dominates - carrying directional size is negative-expectancy gambling. No side clears 1.5R. HOLD; clean momentum short only on a break below 104.2.",
+    "portfolio": "INTC/USDT:USDT -> HOLD (conf 0.60): earnings Thu AMC (~12-15% gap) dominates, do-not-carry; short only below 104.2 shelf."
+  },
+  "timestamp": "2026-07-22T17:33:50.050969+00:00"
+}

@@ -1,0 +1,26 @@
+{
+  "symbol": "COIN/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.6,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "forecast": "Rejected at 178.2, fading; expect a pullback toward the VWAP/1h shelf near 172-173 to reset the +5% stretch, OR a decisive break of 181.70 to extend. No low-risk entry at 177.3 mid-air.",
+  "expectancy_note": "Chasing long is the account's #1 loss pattern (RSI 75, %B 0.95, +5% VWAP); shorting a 93-ADX uptrend where shorts win only 45% is negative expectancy.",
+  "rationale": "COIN is in a raging uptrend (ADX 93.5) but stretched: 4h/1h RSI ~75, %B 0.953, +5.03% above VWAP, with a fresh 15m rejection at 178.2 and 30m/5m rolling flat (RSI 41/40). Market long buys the top; short fights a near-max-ADX trend the account loses on. No R:R-1.5 entry at 177.3 mid-air; wait for a pullback into 172-173 (with-trend long) or a clean break of 181.70. COIN reports Jul 30 (outside 48h).",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 173.0,
+    "expires_min": 360,
+    "note": "A dip into the 172-173 1h/VWAP shelf resets the overbought stretch and sets up a low-risk with-trend long."
+  },
+  "transcript": {
+    "macro": "Regime cautiously risk-on but event-gated. Nasdaq +1.9% Tue on semi bounce; FOMC Jul 28-29 next week. Crypto soft: BTC ~$66.6k, dominance 56.3%. Funding flat, most names RSI 74-89 4h. HARD EVENTS: GOOGL+TSLA earnings after close TODAY, INTC Thu. COIN moving on its own (BTC corr 0.51), only name with positive RS (+0.42%), crypto-sentiment-levered.",
+    "sentiment": "24/7 tokenized perps tracking underlying equities. Hard <=48h binaries: GOOGL tonight, INTC Thu. COIN reports Jul 30 after close (outside 48h), neutral/bullish, no hard <=48h binary.",
+    "analyst": "Extended raging uptrend (ADX 93.5, RSI 4h 75.7, %B 0.953, +5% VWAP) with a 15m rejection at 178.2 and lower TFs rolling flat. Chasing long is the book's top loss pattern; shorting a 93-ADX trend where shorts win only 45% is negative expectancy. HOLD, re-debate on a pullback to 172-173 for a proper with-trend long.",
+    "portfolio": "HOLD COIN \u2014 extended raging uptrend rejected at 178.2, no clean entry; watch 172-173 for with-trend long."
+  },
+  "timestamp": "2026-07-22T01:05:52.202865+00:00"
+}

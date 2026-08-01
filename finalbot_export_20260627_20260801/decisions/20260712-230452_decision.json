@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "COIN/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price just flushed to 158.17 and the last 15m bar closed green off the low (158.72); over next 2-4 bars expect a dead-cat bounce back toward VWAP ~161.5 rather than immediate continuation \u2014 shorting now sells the hole.",
+  "expectancy_note": "Late short into 15m RSI 22 / stoch 14 / -1.86% (>2xATR) below VWAP with structure_bias 0.00 and orderbook +0.18 buying = negative expectancy; trend-short bucket is this book's worst (42% win, -2.87R). Wait for the bounce-and-reject.",
+  "rationale": "COIN's short is pure BTC-beta (corr 0.74, RS -2.27), and it is the one pair where structure does NOT support a short (bias ~0.00, buyers in the book). Price is already extended and oversold with a green recovery bar printing, so a short here gets stopped by the routine bounce \u2014 the exact way this account bleeds. Thin/gappy Sunday tokenized-equity pricing adds gap risk. No 48h catalyst; HOLD until a rejection sets up a proper entry.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 154.97,
+    "expires_min": 240,
+    "note": "Losing support 154.97 on a real close breaks the base and reopens continuation-short with structure backing; a bounce-reject near VWAP ~161.5 would be the cleaner short entry instead."
+  },
+  "transcript": {
+    "macro": "RISK-OFF lean. Sunday \u2014 US cash CLOSED, COIN perp on stale/thin/gappy prices \u2192 smaller size. Defensive macro (US-Iran, DXY soft, Sep hike odds ~67%). COIN structure_bias ~0.00 (NEUTRAL \u2014 the one pair where structure does NOT support a short; L/S 1.18, orderbook +0.18 buyers). BTC-corr 0.74 high-beta proxy, RS -2.27 lagging. Short thesis rests on BTC-beta, not own structure; keep small.",
+    "sentiment": "Risk-cautious; June CPI + Warsh July 14 = dominant 48h binary. COIN earnings ~Aug 1 (OUTSIDE window). Q1 ugly (rev -31% y/y), crypto-beta proxy. No 48h idiosyncratic catalyst; near-term driven by BTC+CPI.",
+    "analyst": "Last 158.72, ATR% 0.84. Composite short only 49.9%, structure_bias ~0.00 NEUTRAL, orderbook +0.18 buyers. VWAP dist -1.86% (>2xATR extended down), 15m RSI 22.7 / stoch 14.2 deeply oversold. 5-bar flush 159.57->158.17 low, last bar green recovery to 158.72. Shorting here is late into a bounce with no structure support \u2014 book's worst bucket. HOLD, armed on a 154.97 break or a VWAP-reject short.",
+    "portfolio": "COIN \u2014 HOLD, conf 0.60: neutral structure + extended/oversold + green recovery bar; no edge, armed on a 154.97 break."
+  },
+  "timestamp": "2026-07-12T23:04:52.904298+00:00"
+}

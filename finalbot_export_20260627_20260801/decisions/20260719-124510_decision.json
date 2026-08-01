@@ -1,0 +1,26 @@
+{
+  "symbol": "COIN/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.4,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "forecast": "Thin weekend tape chops 158-159.5; several zero-volume bars show a frozen market. Expect drift/gap on Monday cash open rather than a clean directional move now; no honest entry until 152.88 breaks or 159.7 reclaims.",
+  "expectancy_note": "p(win) ~0.45 on a short here; 5m RSI 18.5 = oversold, price already below VWAP, so any short gets bounced before support 152.88 \u2014 negative expectancy. Learner shorts 47% win / -0.87 avg.",
+  "rationale": "US equities CLOSED (Sunday) \u2014 tokenized COIN perp is illiquid, candles show multiple zero-volume flat prints and will gap Monday. Composite short is weak (46% conf, p_win 0.485) and 5m already deeply oversold, so market-shorting is chasing into exhaustion, the account's proven loss pattern. structure_bias ~flat and 0.64 BTC-corr means this is just crypto-beta noise with no independent edge; no valid R:R>=1.5 either way, so hold with zero size.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 152.88,
+    "expires_min": 240,
+    "note": "Losing range support 152.88 on volume confirms a real downside break \u2014 a momentum short rather than an oversold chase; re-debate then."
+  },
+  "transcript": {
+    "macro": "Regime: RISK-OFF. Crypto weak (BTC ~$60-63k, printed 21-mo low ~$57.8k late June on ETF outflows + hawkish Fed, BTC.D 56.3%). US equity market CLOSED (Sunday) \u2014 tokenized-stock perps thin, will gap Monday. COIN: structure_bias ~flat (+0.007), highest BTC-corr of the equity names (0.64) = crypto-beta proxy so weak BTC is a headwind, rel-strength -2%. Verdict: RISK-OFF.",
+    "sentiment": "COIN: earnings July 30 after close (Q2), ~11 days out, outside 48h. Prior quarter ugly (Q1 EPS -$1.49 miss, net loss $394M) so the print is a real binary \u2014 but not this cycle. Day-to-day trades as high-beta crypto proxy (BTC corr 0.64). No scheduled 48h catalyst; possible Circle/USDC renewal (Aug) spillover. Neutral idiosyncratically; direction is crypto-beta.",
+    "analyst": "Weekend-frozen thin tape, weak coin-flip short signal, 5m oversold, no R:R edge, high BTC-beta with no relative strength. Flat is highest-expectancy; armed a short trigger on a clean support break.",
+    "portfolio": "HOLD COIN/USDT:USDT \u2014 weak coin-flip short on frozen tape; armed trigger below 152.88."
+  },
+  "timestamp": "2026-07-19T12:45:10.581748+00:00"
+}

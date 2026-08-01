@@ -1,0 +1,27 @@
+{
+  "symbol": "TSM/USDT:USDT",
+  "action": "hold",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Intraday bounce off 395.76 continues to grind toward VWAP ~408-410 into the weekend close; only a break back below 395.76 reopens the slide toward 386.8 support.",
+  "rationale": "TSM is the epicenter of the semis rout, down -13.9% rel-strength with 4h RSI 36 and price 2.6% below VWAP - but the last 5 candles (395.76 to 399.01 on rising volume) are a clean stair-step bounce off intraday support with a stacked bid book (+0.52), so chasing the short now risks the reflex bounce that has killed this book's late shorts (p_win_learned 0.357). It is also not a long: 4h trend down, RISK-OFF macro, crowded 2.29 longs overhead, weekend gap risk. Mid-range at 399 with no clean R:R either way - HOLD.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 395.76,
+    "expires_min": 240,
+    "note": "Losing the intraday bounce low fails the reflex-rally thesis and reopens the down-leg toward 386.8 support - a clean, non-chasing short trigger."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF, semis-led rout (Nasdaq -1.8%, VIX +11% to ~18.5) on AI-capex fears. Rates a headwind (~52% odds Sept HIKE). US cash open Fri; weekend gap risk. TSM at the EPICENTER: post-earnings weakness, rel-str -13.9% vs BTC (worst of group), 4h trend down RSI 36, long/short 2.29 (crowded long = contrarian short fuel) but orderbook +0.52 (bids stacked). Thin book (OI 5k) - chop/squeeze risk high.",
+    "sentiment": "TSM bearish/mixed: TSMC reported Q2 Jul 16 (beat EPS $4.31, rev $40.2B, guided Q3 up, hiked FY capex $60-64B) yet fell ~5% on 'beat-and-raise isn't enough / capex too high'. Binary now BEHIND us; residual is sentiment bleed supporting short lean, but snap-back/dip-buy is the main risk. No further catalyst inside 48h.",
+    "analyst": "TSM last 399.01, ATR% 2.45, support 386.81, resistance 445.14; 4h RSI 36.3 trend down, 30m RSI 62.2, vwap_dist -2.61%, long/short 2.294, orderbook +0.521. 15m path spiked 405 -> bled to 395.76 low -> stair-step bounce 395.76/397.04/398.31/398.72/399.01 on the biggest volume bar. Short = late short into a stretched, bouncing tape with a stacked bid book (account's #1 loser); no long edge into a RISK-OFF semis rout. Mid-range, no clean R:R - HOLD.",
+    "portfolio": "HOLD TSM - epicenter name bouncing intraday; short only on loss of 395.76 toward 386.8."
+  },
+  "timestamp": "2026-07-17T20:06:06.919491+00:00"
+}

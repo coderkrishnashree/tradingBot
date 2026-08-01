@@ -1,0 +1,24 @@
+{
+  "symbol": "BTC/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.6,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "rationale": "ADX 68 downtrend is intact but price is stretched: RSI 31 (15m 27.7, 5m 26.6), stoch 19, bb%b 0.001 pinned to the lower band, ~1.7x ATR below VWAP \u2014 textbook do-not-market-enter-an-extended-move. Macro/sentiment (ETF inflows resumed, recent rally was a squeeze, 24h skewed to short liquidations) actively argue against fresh shorts, and there's no reclaim to justify a long. Wait: a VWAP reclaim confirms a long; only a clean break of 62,726 toward 61,272 reopens a non-mid-air short.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 63100,
+    "expires_min": 240,
+    "note": "Reclaiming the 63,100 VWAP/intraday shelf confirms the oversold reflex bounce and flips toward a long into squeeze-prone tape."
+  },
+  "transcript": {
+    "macro": "RISK-OFF / hostile to longs. US/Iran exchanging fire, oil spiking, Fed priced to HIKE (hawkish, oil-driven inflation), DXY at 13-month highs. Nasdaq-100 futures -0.8%, chips leading down (SK Hynix -10% Seoul). June CPI + Q2 earnings both land this week. Retail crowded LONG across equities/metals/oil (L/S 1.9-3.7) so the desk edge is short, but squeeze risk on any positive CPI/de-escalation surprise. EXECUTION: scan 12:27 UTC, US cash open 13:30 UTC \u2014 tokenized equities/ETFs (TSM, CRCL, INTC, GOOGL, NVDA, QQQ, EWJ) are in thin/gappy PREMARKET; real repricing happens at the open into the -0.8% gap. Metals NOT catching a haven bid (higher rates/DXY dominate); XAUT/XAG deeply oversold. CL is the one long but overbought at resistance with the most crowded long book (L/S 3.695). BTC/SOL tone recovering (ETF inflows, recent short squeeze) \u2014 argues against fresh crypto shorts despite the scan's short lean.",
+    "sentiment": "Only hard <=48h binary in the basket: TSM Q2 earnings Thu Jul 16 (back edge of the horizon). US cash market closed -> gap risk on all equity/ETF tokens at the 13:30 open (esp. thin EWJ/GOOGL). Biggest unscheduled shock: a Strait of Hormuz re-escalation -> spikes CL, pressures gold via the rates channel. Gold/silver are extremely oversold (XAUT 4h RSI 18) with a possible Jul 14 inflection \u2014 fresh shorts fight stretched conditions. Crypto (BTC/SOL) tone is recovering, not breaking down. No FOMC/CPI/OPEC lands inside the window (FOMC Jul 28-29, INTC/GOOGL earnings Jul 23, BOJ Jul 30). CRCL OCC bank-charter catalyst already digested; INTC oversold-and-bleeding with no catalyst; NVDA next earnings Aug 26.",
+    "analyst": "ADX 68 downtrend is intact but price is stretched: RSI 31 (15m 27.7, 5m 26.6), stoch 19, bb%b 0.001 pinned to the lower band, ~1.7x ATR below VWAP \u2014 textbook do-not-market-enter-an-extended-move. Macro/sentiment (ETF inflows resumed, recent rally was a squeeze, 24h skewed to short liquidations) actively argue against fresh shorts, and there's no reclaim to justify a long. Wait: a VWAP reclaim confirms a long; only a clean break of 62,726 toward 61,272 reopens a non-mid-air short.",
+    "portfolio": "HOLD BTC \u2014 oversold/band-pinned into recovering tape; short is a chase, long has no trigger. Armed 63,100 reclaim."
+  },
+  "timestamp": "2026-07-13T12:35:23.702290+00:00"
+}

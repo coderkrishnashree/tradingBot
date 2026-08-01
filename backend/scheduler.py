@@ -442,6 +442,10 @@ class Scheduler:
         if new:
             db.set_setting("last_closed_alert_ms", newest)
             self._close_trade_features(new)   # label outcomes for the learner
+        # Always sweep for rows whose close event was missed (restarts reset
+        # the alert baseline) or whose entry never filled — both used to pile
+        # up as permanently-open rows and starve the learner.
+        self._backfill_stale_features(closed)
 
     def _reconcile_filled(self):
         """A 'resting' limit that later fills becomes a real position — flip its
@@ -694,6 +698,56 @@ class Scheduler:
                 learner.refit()
             except Exception:
                 pass
+
+    def _backfill_stale_features(self, closed_trades):
+        """2026-08 fix: label or purge trade_features rows stuck 'open'.
+
+        Two leak paths produced 100/176 stale rows last month:
+          1. The service restarted → `last_closed_alert_ms` re-baselined → the
+             closes that happened while it was down were never matched.
+          2. `execute_decision` records the feature snapshot when the ORDER is
+             placed, so a resting limit that expired unfilled leaves a row
+             that will never close.
+        For each open row with no live position: match it to the earliest
+        closed-pnl record after its entry (consuming each close once). If no
+        close ever arrives and the row is older than the order TTL + 48h, it
+        was an unfilled entry — delete it so the learner isn't starved."""
+        try:
+            open_rows = db.open_trade_features(mode=mode_manager.mode)
+            if not open_rows:
+                return
+            open_syms_now = self._open_symbols()
+            from datetime import datetime
+            import time as _time
+            used = set()
+            now_ms = _time.time() * 1000
+            for row in open_rows:
+                sym = row["symbol"]
+                if sym in open_syms_now:
+                    continue
+                try:
+                    entry_ms = datetime.fromisoformat(row["ts"]).timestamp() * 1000
+                except Exception:
+                    continue
+                if now_ms - entry_ms < 2 * 3600 * 1000:
+                    continue          # fresh — its close may simply not exist yet
+                cands = sorted(
+                    [t for t in (closed_trades or [])
+                     if t.get("symbol") == sym and (t.get("closed_at") or 0) > entry_ms
+                     and (sym, t.get("closed_at")) not in used],
+                    key=lambda t: t.get("closed_at") or 0)
+                if cands:
+                    t = cands[0]
+                    used.add((sym, t.get("closed_at")))
+                    from datetime import timezone as _tz
+                    iso = datetime.fromtimestamp((t.get("closed_at") or now_ms) / 1000,
+                                                 _tz.utc).isoformat()
+                    db.close_trade_feature(row["id"], float(t.get("realized") or 0),
+                                           closed_at=iso)
+                elif now_ms - entry_ms > 48 * 3600 * 1000:
+                    db.delete_trade_feature(row["id"])
+        except Exception:
+            pass
 
     # --- gate exceptions (breakout promotion / fired HOLD trigger) ----------
     def _grant_gate_exception(self, sym: str, why: str):

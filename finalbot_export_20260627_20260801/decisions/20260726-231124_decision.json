@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "CRCL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.4,
+  "playbook": "none",
+  "forecast": "Price just spiked +1.2% on heavy volume into the upper band (%B 0.98, stoch 90, +2.6% above VWAP) and the last bar rejected 64.40 with an upper wick; expect a fade toward VWAP ~62.6-63.0. A clean pullback holding 63.6-63.8 sets up a long; losing 63.5 opens 62.5.",
+  "expectancy_note": "No positive-expectancy entry: a fresh long is a chase into %B 0.98 / stoch 90 / +2.6% VWAP (account's #1 loss pattern), and a short fights ADX 83 with a losing short win-rate (46%). Best EV is waiting for the pullback.",
+  "rationale": "CRCL is extended mid-air right after a volume spike into the upper Bollinger band, with extreme crowded-long positioning (L/S 3.20) and a hostile Sunday macro. Model weights (vwap_dist -0.27, rel_strength -0.33, structure_bias -0.27) all penalize a long here, and rel_strength -8.1 says it's a laggard. No honest 1.5R entry exists at 64.16 - a long's stop would sit below VWAP (>1.5x ATR away) and a short fights an ADX-83 trend. Wait for the pullback.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 63.55,
+    "expires_min": 240,
+    "note": "Losing the 63.6-63.8 breakout base confirms the upper-band spike failed, opening a pullback toward VWAP/62.5 and a cleaner long re-entry or fade setup."
+  },
+  "transcript": {
+    "macro": "2026-07-26 Sun: MIXED / risk-off into a heavy event week. Nasdaq -2.1% on the week (chip-led selloff); crypto the relative bright spot, BTC ~$65k pressing $68k resistance on thin summer volume. Sunday night = every tokenized US stock/ETF (AAPL, QQQ, MU, NVDA, MSTR, TSLA, CRCL, MSFT, HOOD, TSM, COIN, EWY) trades with its cash market CLOSED -> thin, gappy, pinned. Calendar: FOMC Wed 7/29; MSFT/META earnings Wed AC; AAPL/AMZN Thu AC. Derivatives book is crowded LONG (contrarian-bearish) with funding near-flat and RSIs stretched. Argues for smaller size and no directional swings held through Wed/Thu. The only two environments that actually support a trade this cycle: CL short (real 24h liquidity, clean supply catalyst) and BTC / BTC-proxy longs on a PULLBACK, not chasing the vertical.",
+    "sentiment": "Heavy earnings gauntlet inside the window: FOMC 7/28-29 (hold at 3.50-3.75% expected) plus MSFT+HOOD earnings Wed 7/29 AC and AAPL+COIN Thu 7/30 AC -> overnight gap risk on those names and index-level on QQQ. CL: bearish (OPEC+ output expansion, IEA/EIA cut 3Q26 Brent to ~$74). MU: very bullish narrative (HBM sold out through 2027) but no imminent catalyst. NVDA: earns ~Aug 26 (no near-term print). EWY: highest idiosyncratic risk (KOSPI -23% in July, 7 circuit breakers, bounced ~40% off lows). MSTR: sentiment deteriorating - Strategy now selling BTC + stock to fund preferred dividend. TSLA: reported 7/22, big EPS miss still digesting. CRCL: earns Aug 5, constructive USDC flow. TSM: reported 7/16 big beat, catalyst passed. BTC: cautious/Fear tone, ETF outflows into the Fed. SOL: best idiosyncratic catalyst (spot SOL ETF NYSE Arca approval 7/24) but pinned by broad crypto / FOMC risk-off (0.85 corr to BTC).",
+    "analyst": "CRCL is extended mid-air right after a volume spike into the upper Bollinger band, with extreme crowded-long positioning (L/S 3.20) and a hostile Sunday macro. Model weights (vwap_dist -0.27, rel_strength -0.33, structure_bias -0.27) all penalize a long here, and rel_strength -8.1 says it's a laggard. No honest 1.5R entry exists at 64.16 - a long's stop would sit below VWAP (>1.5x ATR away) and a short fights an ADX-83 trend. Wait for the pullback.",
+    "portfolio": "HOLD - extreme crowded long (L/S 3.2) extended into upper band; wait for pullback."
+  },
+  "timestamp": "2026-07-26T23:11:24.856260+00:00"
+}

@@ -1,0 +1,24 @@
+{
+  "symbol": "CL/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.55,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "rationale": "Composite/structure are genuinely short (blended -0.45, L/S 4.03 crowded long = downside fuel) but the intraday is oversold and BELOW VWAP (RSI 35, stoch 18, -2.29% vs VWAP), and 4h MACD has ticked positive \u2014 a bounce/consolidation phase, not a fresh breakdown. Market-shorting 71.55 mid-range risks the late-short-into-a-bounce loss that has bled this book (trend-short 44% win / -2.89 avg). No 48h binary forces action and Saturday is thin. Wait to reload short on a bounce into the ~72.6 VWAP/resistance zone or a clean break of 71.40.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 72.6,
+    "expires_min": 240,
+    "note": "Bounce into VWAP/resistance zone offers high-R:R short with the downtrend + crowded-long fuel."
+  },
+  "transcript": {
+    "macro": "REGIME: MIXED/risk-off tilt; hawkish, 61% Sept Fed HIKE odds, 10Y ~4.6%, inflation 3-yr highs. CL short-friendly: US-Iran deal reopened Hormuz, OPEC+/UAE record output, Brent $74 3Q26. Scan short -0.45, structure_bias -0.35, L/S 4.03 (crowded long). RSI 35 stretched. Neg BTC corr -0.25.",
+    "sentiment": "CL (WTI ~$71.5): bearish structural tilt but geopolitically twitchy. OPEC+ July 5 added ~188k bpd from Aug + resuming Iranian exports; offsetting US-Iran ceasefire strains + Hormuz worries drove ~3.5% weekly gain. No 48h binary; Hormuz escalation is main upside tail. Net modestly supports SHORT, keep small.",
+    "analyst": "Structurally short but tactically stretched: 15m shows a rejected push to 71.96 then drift back to a coil ~71.5. Shorting mid-range now is a late entry into likely bounce territory (this account's worst pattern). Highest-EV move is HOLD and arm a reconsider to reload the short on a bounce into ~72.6 VWAP/resistance, or a clean break of 71.40.",
+    "portfolio": "CL: HOLD (0.55) \u2014 short thesis intact but wait to fade a bounce into 72.6, don't chase stretched tape."
+  },
+  "timestamp": "2026-07-11T06:31:10.196947+00:00"
+}

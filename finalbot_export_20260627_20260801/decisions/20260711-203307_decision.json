@@ -1,0 +1,26 @@
+{
+  "symbol": "TSLA/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.32,
+  "size": 0,
+  "entry": 408.84,
+  "stop_loss": 391.0,
+  "take_profit": 420.22,
+  "playbook": "none",
+  "forecast": "Frozen weekend tape: US cash closed, last 20 15m bars pinned in 408.3-409.2 on near-zero volume. Expect continued dead-range drift around 405-412 into Monday open; no forecastable next-candle move.",
+  "expectancy_note": "No edge: long chases RSI 70.8 + crowded L/S 1.66 with -0.43 book offer into a closed/gappy tape; short fights +3.1% rel-strength with no trigger. Neither clears R:R>=1.5. Learner shows trend-chasing at 44% win / -2.89R.",
+  "rationale": "TSLA is the cleanest relative-strength name (+3.07 vs BTC) but overbought (RSI 70.8), crowded-long (L/S 1.66), and shows heavy orderbook sell pressure (-0.43) into a CLOSED, thin, gappy weekend session with CPI Tue and earnings Jul 22 as the real drivers. 15m candles are flat-lined with no momentum, so there is no next move to trade. Buying here is precisely the late-continuation-into-stretched-tape pattern the account's learner stats punish. Wait; size 0.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 420.22,
+    "expires_min": 240,
+    "note": "A clean break and hold above 420.22 resistance proves the crowded-long resolves upward as a real breakout, converting the overbought read into a momentum long trigger."
+  },
+  "transcript": {
+    "macro": "Cycle 2026-07-11. Scan Saturday, US cash CLOSED - thin/gappy, funding 0.0. Regime RISK-ON but late-stage/stretched; Nasdaq near records, VIX 15 calm; 10Y 4.56% mild headwind. BIG event risk inside 48h: CPI Tue Jul 14, bank earnings Tue-Wed - smaller size, don't chase. TSLA is the one target with POSITIVE relative strength vs BTC (+3.1%) - cleanest relative-strength long. But crowded-long (L/S 1.66, bias -0.33, orderbook -0.43), RSI 71 overbought.",
+    "sentiment": "TSLA (Tesla): Q2 earnings July 22 (consensus ~$0.47 non-GAAP) - approaching but NOT inside 48h. Record 480K Q2 deliveries (+25% YoY, beat 18%) already reported; stock fell 7% then rallied to ~$420. Focus now auto gross margin + Optimus/Cybercab. Neutral near-term, building vol into earnings. Broader: Nasdaq fragile, hawkish FOMC, CPI binary Tuesday.",
+    "analyst": "US cash CLOSED, funding 0.0, last 20 15m candles pinned 408.3-409.2 on microscopic volume - no next move to forecast. RSI 70.8 overbought, crowded long (L/S 1.66), orderbook -0.43 (real sell pressure), composite weak 43.5%. Long chases overbought/crowded into a closed gappy weekend; short has no trigger and fights +3.1% rel strength. No honest R:R. Textbook HOLD; flip above 420.22.",
+    "portfolio": "TSLA: HOLD (conf 0.32) - cleanest name of the set but frozen overbought weekend tape; re-debate on a hold above 420.22."
+  },
+  "timestamp": "2026-07-11T20:33:07.955166+00:00"
+}

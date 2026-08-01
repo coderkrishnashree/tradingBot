@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "COIN/USDT:USDT",
+  "size": 0.0,
+  "entry": 157.72,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Fresh oversold bounce bar (157.15->157.99 on volume) already gave back most gains, closing 157.72 back below VWAP; over the next few 15m bars expect chop 157-158 that either confirms up through 158.3 or fades back toward support 152.88 in the thin weekend tape.",
+  "expectancy_note": "Long squeeze setup (4h RSI 21.9, L/S 0.606 crowded short, longs 0.75 WR in learner) is real but unconfirmed; entering the just-failed spike bar into risk-off weekend BTC-correlated tape is chasing with ~50/50 odds and no R:R edge - waiting for a reclaim beats a coin-flip.",
+  "rationale": "Lower-TF composite leans long (+0.24) and the crowded-short L/S plus deep 4h oversold argue for a squeeze bounce, but the composite is NOT aligned, macro is risk-off crypto with US cash closed (thin/gappy), and the bounce candle just failed its retest closing near its low. btc_corr 0.643 ties COIN to weak weekend BTC and the model weights punish this long's negative structure_bias/rel_strength. No honest entry here: a market long chases the failed spike (the account's #1 loser), so I wait - a reclaim of 158.3 confirms the squeeze and would flip me long toward VWAP ~162.5.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 158.3,
+    "expires_min": 240,
+    "note": "Reclaiming the spike-bar high / intraday supply at 158.3 confirms the oversold squeeze has follow-through, turning the aborted bounce into a valid long toward VWAP ~162.5 (target resistance 168.65)."
+  },
+  "transcript": {
+    "macro": "2026-07-18 (Sat, US cash CLOSED until Mon 7/20). Broad tape RISK-OFF led by a semiconductor rout (TSMC capex fears spread to broad tape). SPX -1.02% Fri to 7,457, Nasdaq -1.40%, SMH ~-17% MTD. Rates supportive (soft June CPI, July Fed hike odds ~17%, DXY 100.7, 10y 4.58%) but overwhelmed by AI/semi de-risk + US-Iran geopolitics. Crypto soft: BTC ~$63-64k, Coinbase Premium negative 50 straight days. Weekend thin/gappy tape - reduce size. COIN: MIXED, lean stay-out/small; scan long (bias +0.05, L/S 0.61 crowded SHORT = contrarian squeeze) but risk-off crypto and btc_corr 0.643 ties it to weak weekend BTC.",
+    "sentiment": "COIN: BEARISH lean, near-term neutral-to-negative. Stock ~-34% YTD; scan $157.7 with 4h RSI 21.9 (deeply oversold, bounce-prone). Imminent binary: Q2 earnings THURSDAY JULY 30 after close (outside 48h but looming - don't carry size blind). CLARITY Act Senate crypto bill is the live regulatory swing factor this week. No catalyst inside 48h; oversold bounce is the main near-term driver.",
+    "analyst": "4h RSI 21.9 with L/S crowded short is a classic squeeze-bounce setup and a green volume-spike bar just fired, but macro is risk-off crypto, US cash closed (thin/gappy), btc_corr 0.643 ties it to weak weekend BTC, and the composite is NOT aligned. The bounce bar (157.15->157.99) gave back most gains, closing 157.72 near its low - a failed retest. Entering long here chases the failed spike (the account's #1 loss pattern) with ~50/50 odds and no R:R edge. HOLD with armed long trigger on a reclaim of 158.3; deeper buy-the-level at support 152.88.",
+    "portfolio": "COIN: HOLD (conf 0.50) - unconfirmed squeeze into risk-off weekend tape; arm long on reclaim of 158.3."
+  },
+  "timestamp": "2026-07-18T17:08:52.029401+00:00"
+}

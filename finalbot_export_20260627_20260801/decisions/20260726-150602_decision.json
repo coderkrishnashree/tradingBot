@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "XAG/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.58,
+  "playbook": "trend",
+  "forecast": "Momentum has stalled at the 59.10 top; expect a drift/pullback toward the 58.30-58.50 VWAP/breakout zone over the next few bars before the uptrend can resume toward 61; entering here chases a stretched move that a routine bounce-back-down would stop out.",
+  "expectancy_note": "Trend is up (ADX 91.9, 30m/1h/4h long) but price is extended (1h RSI 76, stoch 87.5, %B 0.86, +1.33% VWAP) into crowded max-long positioning (L/S 4.0); a chase entry has R:R < 1.5 to the 61 cap and poor p(win). Waiting for the 58.3-58.5 retest yields a clean 1.5R+ trend entry.",
+  "rationale": "Silver is in a powerful uptrend but the last 4 candles fade off the 59.13 high back to 58.98, and short-TF scores (15m/5m) have gone flat while 1h RSI sits at 76 - classic stall at the top. With positioning pinned max-long (L/S 4.0, structure_bias -0.316) and FOMC 2 days out as a two-way binary, chasing at the highs is the exact late-entry pattern that bleeds this account. Better to wait for a pullback into the 58.3-58.5 VWAP/breakout retest for a tighter stop and 1.5R+ to the $61 resistance; no position while extended.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 58.45,
+    "expires_min": 240,
+    "note": "A dip into the 58.3-58.5 VWAP/prior-breakout zone offers a low-risk trend re-entry with a stop under 58.0 and 1.5R+ toward the $61 cap; crossing down into it is the trigger to buy the pullback."
+  },
+  "transcript": {
+    "macro": "Regime MIXED-to-RISK-OFF, event-gated. FOMC Wed Jul 29 (~64% hold, live two-way). US-Iran strikes = safe-haven bid + war premium; gold ~$4,130 (2-wk high); DXY strength a headwind. XAG lens: LEAN LONG but watch the FOMC; trend intact (ADX 91.9, 4h/1h/30m long, price 58.98 near 61 resistance). Key risk: DXY strength + hawkish-hold Fed lift real yields; positioning crowded (L/S 4.0).",
+    "sentiment": "~$58/oz, pulled back below $59 from 2-wk highs. HARD CATALYST FOMC Jul 28-29 (Jul hold ~90% priced, Sept live); silver more rate/growth-sensitive than gold (~58% industrial demand). Gold-silver ratio ~70:1 (relative undervaluation, not a 48h trigger). Net mixed-to-cautious; hawkish Fed/stronger DXY pressures silver, dovish surprise = upside.",
+    "analyst": "Uptrend intact (ADX 91.9) but extended: last 4 candles fade off 59.13, 15m/5m scores flat, 1h RSI 76 / stoch 87.5 / %B 0.86 / +1.33% VWAP - stall at the top into crowded max-long (L/S 4.0). Chasing is the account's late-entry loss pattern with FOMC two-way binary 2 days out. Wait for the 58.3-58.5 VWAP/breakout retest for a clean 1.5R+ long.",
+    "portfolio": "HOLD XAG - uptrend respected but too extended to chase; buy the 58.3-58.5 pullback, not the highs."
+  },
+  "timestamp": "2026-07-26T15:06:02.189379+00:00"
+}

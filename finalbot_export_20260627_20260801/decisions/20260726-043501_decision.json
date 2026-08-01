@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "XAG/USDT:USDT",
+  "size": 0.0,
+  "entry": 58.52,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.34,
+  "playbook": "none",
+  "forecast": "Price coils around 58.4-58.6 with drying volume near-term; next real directional move is FOMC-driven Wed, not a clean pre-event technical path. Expect chop between 57.8 and 59.6 until the event.",
+  "expectancy_note": "No edge: mid-range (55.6-61.0), no pullback-to-level for a trend entry and no band extreme for a fade; crowded long 4.0 L/S is squeeze fuel and FOMC is a binary within 48-72h. Any close-to-price SL gets whipped pre-event; EV of a directional bet here is negative vs. flat.",
+  "rationale": "XAG bounced off a >3% drop and is now dead sideways at 58.5 on drying 15m volume, sitting in the middle of the 55.64-61.0 range with no structural edge to trade. The single most lopsided long book in the scan (L/S 4.015, bias capped -1.0) plus a firm DXY / rising-real-yield headwind and a wall of binary event risk (FOMC Wed 7/29, MSFT/AAPL earnings) make a leveraged pre-event directional entry negative expectancy. There is no honest close-to-price stop/target that expresses a real next move, so flat is the highest-EV position; size 0.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 59.6,
+    "expires_min": 240,
+    "note": "A decisive reclaim toward the 61.0 resistance band shows the bounce has continuation and the crowded book isn't the top - re-debate for a momentum long with a stop under 58.5."
+  },
+  "transcript": {
+    "macro": "Regime risk-OFF, sentiment stretched (BofA Bull&Bear highest since 2021 = sell signal). Oil spiked on Iran => hawkish Fed repricing; rising real yields + firm USD headwind. Wall of event risk 48-72h: FOMC Wed 7/29, MSFT Wed AH, AAPL Thu AH. XAG: decent signal (conf 56.5%, 4h 0.9) but RED FLAG long/short 4.015 \u2014 most crowded long in scan (bias -1.0 capped) => squeeze risk. Silver ~58.5 bounced off >3% drop; DXY/real-yield/oil-hawkish repricing are near-term headwinds vs strong structural bull case (out of scope). Lagging BTC (-9.32%). FOMC Wed is the binary. XAG/XAUT 0.877 correlated.",
+    "sentiment": "XAG constructively bullish but stretched. One of 2026's strongest commodities ~$58, sixth straight annual supply deficit + AI/clean-energy demand (~55% of use). Most important <=48h catalyst is FOMC Wed 7/29 \u2014 hold expected but ~36% July hike odds; hawkish tilt hits silver via stronger dollar/higher real rates; dovish hold extends rally. Two-sided, event-driven binary Wednesday.",
+    "analyst": "Silver bounced off a >3% drop and is now dead sideways at 58.5 on drying 15m volume, mid-range (55.64-61.0) with no structural edge. Most lopsided long book in scan (L/S 4.015, bias -1.0 capped) = squeeze fuel; firm DXY / rising real yields + FOMC binary inside window make a leveraged pre-event entry negative EV. No honest close-to-price SL/TP. HOLD; flip on decisive reclaim of 59.6 toward 61.0 with stop under 58.5.",
+    "portfolio": "HOLD XAG/USDT:USDT \u2014 mid-range chop, crowded-long squeeze risk, FOMC binary Wed; wait for 59.6 reclaim."
+  },
+  "timestamp": "2026-07-26T04:35:01.512827+00:00"
+}

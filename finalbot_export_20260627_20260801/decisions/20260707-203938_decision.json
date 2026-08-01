@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "EWJ/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.2,
+  "playbook": "none",
+  "forecast": "No real path to forecast: last ~7 15m candles printed 0.0-1.3 units volume with several flat o=h=l=c bars, so price is a stale ~93.2 quote that will jump erratically on the next thin fill rather than trend. Expect gappy, uninformative moves inside the 92.14-93.59 stale band until Tokyo/US liquidity returns.",
+  "expectancy_note": "p(win) indeterminate on ~zero-volume tape; brutal spread + slippage makes any fill negative-EV before direction is even known. Best expectancy is no trade.",
+  "rationale": "EWJ perp is effectively untradeable on this venue right now: 15m volumes of 0.0-1.33 units, multiple flat prints, and a nonsense 5m RSI 100.0 / ADX 67.8 built from stale data make every technical signal unreliable. The composite 'short' is contradicted by a flagged bullish divergence, and Japan's tape (TOPIX +0.9%, rotation out of tech) does not confirm a clean short anyway. No <=48h catalyst (BOJ later 2026, CPI Jul 14 outside window). Size is zero because the spread/slippage alone is negative expectancy regardless of direction.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 92.14,
+    "expires_min": 240,
+    "note": "A clean break of stale support 92.14 on genuine, non-zero volume would confirm real sellers stepping in and re-open a short thesis; absent that, the illiquidity keeps this a no-trade."
+  },
+  "transcript": {
+    "macro": "Regime: RISK-OFF (tech-led). Nasdaq -1.16%, S&P -0.45%. DeepSeek in-house AI-chip report + Samsung results gutted semis (SMH -3%+, Micron -4.7%) - AI trade questioned, money rotating OUT of tech. Oil +5% (Brent >$76) on US revoking Iran oil license = inflationary headwind. Gold & silver did NOT act as havens - sold off with a firmer dollar. Broad de-risking/DXY-up session; backdrop favors SHORTS/defense over fresh longs. Long/short ratios lopsidedly LONG nearly everywhere (crowded longs into falling tape = squeeze fuel lower); funding flat. Equity-style perps gap when US cash closed - thin after-hours liquidity, size down.",
+    "sentiment": "Weak US June jobs (+57k) unwound Fed HIKE bets (this cycle Fed debating hikes under Chair Warsh); DXY rebounded Mon; 10Y ~4.48%. June CPI July 14 (outside 48h); no FOMC in 48h. META: NEUTRAL, earnings Jul 29 (outside window), technically extended not news-driven. XAG: mid-term BULLISH but volatile/extended, no <=48h catalyst, dollar/CPI sensitive. COIN: BEARISH/weak, earnings Jul 30, poor fundamentals (Q1 miss, near 52wk low), BTC-beta proxy. XAUT: mildly BULLISH mid-term, near-term choppy dollar/yield pullback, CPI Jul 14 next catalyst. EWJ: NEUTRAL, thin/illiquid on venue (zero-volume candles), no <=48h catalyst.",
+    "analyst": "EWJ perp is effectively untradeable on this venue right now: 15m volumes of 0.0-1.33 units, multiple flat prints, and a nonsense 5m RSI 100.0 / ADX 67.8 built from stale data make every technical signal unreliable. The composite 'short' is contradicted by a flagged bullish divergence, and Japan's tape (TOPIX +0.9%, rotation out of tech) does not confirm a clean short anyway. No <=48h catalyst (BOJ later 2026, CPI Jul 14 outside window). Size is zero because the spread/slippage alone is negative expectancy regardless of direction.",
+    "portfolio": "HOLD - illiquid/untradeable on venue; stand aside."
+  },
+  "timestamp": "2026-07-07T20:39:38.794162+00:00"
+}

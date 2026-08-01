@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "COIN/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.55,
+  "playbook": "none",
+  "forecast": "Bounce/stabilization off the 157.25 flush low is underway (higher lows 157.29->157.46->158.27->158.51, volume drying, 5m score flipped long); expect a grind back toward 160.3-161.7 broken-support/VWAP zone over the next 3-6 bars before the 4h downtrend can resume \u2014 no clean edge at 158.66.",
+  "expectancy_note": "Shorting here (RSI 28.9 4h, -3% vs VWAP, %B 0.18, just above a flush) is the account's classic late-short-into-oversold loser; p(win) on a fresh short <0.45. Better expectancy is to wait for the retest of 161 to short, or 157.25 break to confirm continuation.",
+  "rationale": "COIN is a crypto-beta equity (treat as equity; L/S 0.974 balanced, funding 0, structure near-neutral -0.027 give no crowding edge). The 4h is a strong downtrend (ADX 61) but deeply oversold and stretched; the recent 15m candles show a stabilizing bounce off 157.25 on drying volume with 5m turning up, so any market-short now gets run over by the counter-bounce before continuation. RISK-OFF macro keeps the bias down, but the honest R:R only appears on a retest into 161-162 or on a fresh break of 157.25 \u2014 neither is present at 158.66, so HOLD is the highest-expectancy call.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 157.2,
+    "expires_min": 240,
+    "note": "Losing the 157.25 flush low ends the bounce and confirms trend continuation, arming a short toward 155/151."
+  },
+  "transcript": {
+    "macro": "RISK-OFF, geopolitics-driven. Crypto Extreme Fear (F&G 22), BTC dominance 56.6%. Environment favors SHORTS/defense. COIN: crypto-beta equity (exchange proxy), funding 0, L/S 0.974 (BALANCED \u2014 not crowded), OB -0.119, structure_bias -0.027 (near neutral); but composite deeply bearish \u2014 4h RSI 28.9, ADX 61, VWAP -3.0%, already sold off hard. Double headwind (crypto Extreme Fear + equity risk-off). Env: SHORT bias but stretched/oversold -> smaller size, prefer pullback entries.",
+    "sentiment": "COIN mixed, momentum-positive but scan is short. COIN +19% in 5 sessions to ~$165 (Jul 2) on analyst upgrades + 'System Update'; scan snapshot lower ~158.66, deeply oversold (RSI 28.9 4h) after a pullback \u2014 rally faded. Biggest catalyst: CLARITY Act vote (crypto market-structure bill) expected June/early July \u2014 a headline this window moves COIN hard (binary). Caution: Barclays Underweight $107 target; director sold Jul 1. Next earnings early August. Flat BTC removes the tailwind.",
+    "analyst": "Balanced positioning (L/S 0.974, bias -0.027) gives no crowding edge. Strong 4h downtrend (ADX 61) but deeply oversold/stretched; recent 15m candles show a stabilizing bounce off 157.25 on drying volume with 5m flipping long, so a market-short gets run over by the counter-bounce \u2014 the account's classic late-short-into-oversold loser. Honest R:R only appears on a retest into 161-162 or a fresh 157.25 break; neither present at 158.66. Hold.",
+    "portfolio": "COIN: HOLD (conf 0.55) \u2014 armed to short a 157.2 break toward 155/151."
+  },
+  "timestamp": "2026-07-09T12:31:52.470917+00:00"
+}

@@ -1,0 +1,25 @@
+{
+  "action": "hold",
+  "symbol": "META/USDT:USDT",
+  "size": 0.0,
+  "entry": 625,
+  "stop_loss": 598,
+  "take_profit": 660,
+  "confidence": 0.34,
+  "playbook": "none",
+  "expectancy_note": "Long here is chasing: RSI 77, %B>1.25 (above band), +7.7% move already extended, thin CLOSED-market holiday liquidity, composite regime-blocked. p(win) on a fresh chase ~0.45 with poor R:R after the run; HOLD carries higher expectancy than either side.",
+  "rationale": "META (trade as equity, BTC-corr 0.18) is deep into overbought territory after a +7.7% rip into the mid-$620s, with %B above the upper band and the scan's own composite regime-blocking the stale $589 breakout flag. US cash is CLOSED for Independence Day, so perps are thin and gappy \u2014 the worst conditions to chase a stretched breakout, and hawkish macro is a headwind for high-multiple growth. I want a controlled pullback that reclaims a structural level (~$612) before paying up for a long, and I won't short a strong uptrend on RSI alone with no reversal confirmation; size 0 until the tape gives a non-chasing entry. (Entry $625 assumes current spot vs the stale $589 scan print.)",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 612,
+    "note": "A dip that holds and reclaims ~$612 offers a non-chasing long entry with a real stop below, vs. buying extended above the band at $625.",
+    "expires_min": 240
+  },
+  "transcript": {
+    "macro": "2026-07-03: Cautious risk-on but HAWKISH regime shift under Fed Chair Warsh \u2014 market prices 1-2 HIKES in 2026, CPI 3-yr high, firm USD = headwind for high-multiple growth. META BTC-corr very low 0.18 (trade as equity). US cash CLOSED Fri Jul 3 (Independence Day) \u2014 thin/gappy perps. META earnings Jul 29 (outside this week).",
+    "sentiment": "2026-07-03: BULLISH momentum but stretched. Stock ripped from mid-$580s into mid-$620s (+7.7% Jul 1) on AI-spend/product news; scan's $589 print is stale vs cash near $625. Catalysts: ~1.6GW AI compute from Crusoe, $900M into India's Cred (~20%, WhatsApp payments), $299+ AI Meta Glasses, Instagram-for-TV on Samsung. Overhang: Q1 raised 2026 capex to $125-145B (read positively). Q1 strong ($56.3B rev +33% YoY, 40%+ op margin). News is a tailwind, not a fresh trigger; RSI very hot (77).",
+    "analyst": "META deep overbought after +7.7% rip; %B above upper band, composite regime-blocked the stale $589 breakout flag. US cash CLOSED = worst conditions to chase a stretched breakout; hawkish macro a headwind. Won't chase long at $625 nor short a strong uptrend on RSI alone. Want a controlled pullback that reclaims ~$612 for a non-chasing long. Size 0.",
+    "portfolio": "META: HOLD (conf 0.34) \u2014 no chase into extended tape; arm long on reclaim of ~$612."
+  },
+  "timestamp": "2026-07-03T04:55:39.382636+00:00"
+}

@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "NVDA/USDT:USDT",
+  "size": 0,
+  "entry": 205.76,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price is stalling at 206.3 after a clean grind; expect either a shallow drift/pullback toward VWAP ~203 or a stall-and-fade. Last 3 bars printed a rejection at 206.32 then lower closes (205.92, 205.76) - momentum cooling at the band top, not yet rolling over.",
+  "expectancy_note": "No edge either way now: long = chasing an overbought (RSI 74.6, %B 1.04, +1.25% VWAP) top into risk-off chip selloff (the account's #1 late-entry loss pattern); short lacks a trigger vs ADX 72 uptrend. p(win) on any market entry <0.5 - HOLD is highest expectancy.",
+  "rationale": "NVDA is extended and overbought (RSI 74.6, stoch 86.7, above upper BB) after a strong ADX-72 run, in a hostile RISK-OFF chip-led selloff with crowded-long positioning (L/S 1.69) and negative relative strength -7.39%. Buying here chases the top; shorting a trend this strong needs a confirmed structure break I don't yet have. Waiting for either a VWAP pullback (better long entry) or a support break (short trigger) is the only positive-expectancy move.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 204.0,
+    "expires_min": 240,
+    "note": "Losing the 204 shelf / VWAP would confirm the overbought fade is starting, opening a short toward 202-198 support in the risk-off tape."
+  },
+  "transcript": {
+    "macro": "RISK-OFF, fragile, CHIP-LED selloff (semis smoked on AI capex fears, cheaper Chinese AI models); rips suspect. NVDA at the center of the chip rotation. Crowded-long L/S 1.69, rel strength negative. RSI ~75 overbought. FOMC Jul 28-29 outside window. Net: HOSTILE sector backdrop; composite ranks mid (~35.5).",
+    "sentiment": "NVDA bullish drift, no in-window binary (earnings late Aug). China H200 licensing thaw (second wave of approved buyers Jul 14) is a sentiment/policy signal, not yet revenue - few chips shipped. RSI ~75 overbought. Tone positive, catalyst soft.",
+    "analyst": "NVDA is extended/overbought (RSI 74.6, stoch 86.7, above upper band) after a strong ADX-72 run, in a hostile chip-led risk-off tape with crowded longs and negative RS. Buying chases the top (the account's #1 late-entry loss); shorting a trend this strong needs a structure break not yet present. Wait for a VWAP pullback (long) or a 204 loss (short).",
+    "portfolio": "HOLD NVDA - overbought at the band top into a hostile chip selloff; no trigger, wait for a VWAP dip or a 204 break."
+  },
+  "timestamp": "2026-07-20T12:16:32.207574+00:00"
+}

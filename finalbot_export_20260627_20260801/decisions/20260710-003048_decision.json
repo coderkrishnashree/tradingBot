@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "EWY/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.34,
+  "playbook": "none",
+  "forecast": "Two capitulation 15m bars just dumped ~3% into deep oversold (15m RSI 25, 5m RSI 17) closing 179.96; next 2-4 bars most likely a relief bounce/consolidation back up toward the broken 180.88 level rather than immediate continuation.",
+  "expectancy_note": "Market-shorting 179.96 into RSI<25 with honest stop ~182 and far support 168.8 = R:R<1 and high chance a routine bounce clips the stop first; waiting to fade the 180.88 retest is the higher-expectancy path.",
+  "rationale": "The breakout is real (5.52x vol spike, level 180.88 broken) but price is already extended two wide-range bars into oversold on every short-term frame \u2014 chasing here is the account's #1 loss pattern. Blended conf 1.9, composite regime chop/blocked, ADX 7.6, and near-zero live volume on a thin tokenized proxy all argue false-move / whipsaw risk. No clean fade level below (support 168.8 far), so the correct action is to wait for a bounce to retest broken 180.88 and short the rejection, or a fresh accelerating break below 179.5.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 180.88,
+    "expires_min": 240,
+    "note": "A bounce back to the broken breakout level sets up the proper short-the-retest entry with a tight stop above; rejection there is the high-expectancy short."
+  },
+  "transcript": {
+    "macro": "CRITICAL: scan ~00:25 UTC, US closed -> EWY (tokenized Korea ETF) trades off-hours, thin. Fresh 15m short breakout on a real 5.52x volume spike. Korea cash hours differ; thin tokenized proxy. KOSPI a roller-coaster (down ~5% intraday on chip profit-taking, recovering on SK Hynix ADR demand). Momentum present but volatile/headline-whipped \u2014 keep size modest. June CPI Jul 14.",
+    "sentiment": "EWY is essentially a leveraged play on Samsung/SK Hynix memory sentiment \u2014 same selloff hitting SNDK/INTC (KOSPI -6% Jul 2, +5% Jul 3, chip weakness post Samsung's Jul 7 miss). Supportive undercurrents (ADB raised Korea 2026 GDP to 2.6%, SK Hynix US ADR >7x oversubscribed, Goldman KOSPI target 9,000) are macro/narrative not <=48h. Near-zero live volume -> thin liquidity can produce FALSE moves. Neutral, high-vol.",
+    "analyst": "Price sat 185-186 then two wide-range down bars broke 180.88 on a real 5.52x volume spike, closing 179.96 (small tail off the 179.57 low). But it's already ~3% extended into deep oversold (15m RSI 25, 5m 17, 30m 21.5); ATR% 3.14 huge; blended conf 1.9, regime chop/blocked, ADX 7.6; near-zero normal volume = false-move risk. Honest short stop ~182 vs far support 168.8 = R:R<1. HOLD; short the 180.88 retest rejection or a fresh break below 179.5.",
+    "portfolio": "HOLD EWY \u2014 real volume-spike break but extended/thin; fade the 180.88 retest, don't chase the low."
+  },
+  "timestamp": "2026-07-10T00:30:48.400773+00:00"
+}

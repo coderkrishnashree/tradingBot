@@ -1,0 +1,26 @@
+{
+  "symbol": "BTC/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.55,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "forecast": "Price failed at 65,100 under the 65,566 cap and last two bars are fading (65,100 high to 64,844 to 64,809); expect a pullback to retest the 64,300-64,400 breakout base/VWAP over 3-6 bars where a low-risk trend long sets up, or a stall-and-chop under 65,566.",
+  "expectancy_note": "Long is the account's edge (70% win vs 47% short) but a market long here chases an extended move (RSI 66, %B 0.81, +1.54% VWAP) into a capped resistance ~$750 away \u2014 R:R under 1.5 and the #1 loss pattern. Best EV is the pullback long.",
+  "rationale": "Strong uptrend (ADX 60.7) but price is stretched into the 65,566 cap and rolling over on the last two candles, so a chase long has poor R:R and a short fights both the trend and this account's losing short record. No 48h catalyst; F&G extreme fear with tentative ETF inflows keeps it range-bound. Highest-EV move is hold and buy the dip toward the 64,300 base rather than pay the top tick.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 64350,
+    "expires_min": 240,
+    "note": "Pullback into 64,300-64,400 (breakout base/VWAP) offers a low-risk trend-continuation long with stop under 64,000 back to the 65,566 cap."
+  },
+  "transcript": {
+    "macro": "REGIME RISK-OFF in tech/semi, NEUTRAL elsewhere. BTC cleanest long-side structure on the board \u2014 real grind higher not a squeeze. Last ~64.8k, dominance 56.3%, funding flat, OI 53.6k, L/S 1.446, orderbook +0.282 (bias -0.07 near neutral), ADX 60.7, RSI 66.4, price near resistance 65,566. Verdict: favored long (small), capped at 65.5k.",
+    "sentiment": "BTC cautious/weak \u2014 clinging to low-$60Ks after failing low-$70Ks. Extreme Fear (F&G 22-28) BUT ETF flows flipped to 2 days inflows (+$191M). No crypto-specific <=48h catalyst; July 29 FOMC outside window. Range-bound, no clear directional edge next 48h.",
+    "analyst": "Trend up but extended into the 65,566 cap and rolling over on last 2 bars; chase long = poor R:R and top-tick risk, short fights trend + losing short record. HOLD; buy the dip toward the 64,300 base.",
+    "portfolio": "BTC: HOLD 0.55 \u2014 favored long but capped/extended; buy the 64.3k pullback."
+  },
+  "timestamp": "2026-07-20T00:46:52.470217+00:00"
+}

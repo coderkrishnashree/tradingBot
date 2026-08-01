@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "XAUT/USDT:USDT",
+  "size": 0.0,
+  "entry": 4054.6,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Dead coil at VWAP 4054; expect continued 4052-4057 chop into FOMC with tiny 0.2% ATR \u2014 no directional move worth trading in the next few bars.",
+  "expectancy_note": "No 1.5R path: ATR ~$8 means any honest stop below the 4052 coil is ~$6-8 while overhead supply caps TP1 at ~4057-4067 (<1R); best expectancy is flat into the Jul 28-29 FOMC binary.",
+  "rationale": "XAUT is glued to VWAP in a 5-point coil (BB width 1.0%, ATR 0.2%) with RSI 56 and no divergence \u2014 momentum absent both ways. Crowd is maxed long (L/S 2.534) into overhead supply at 4155 with rel-strength lagging -3.95%, which is squeeze-down risk, but there is no volatility or level to trigger a fade here, and the primary driver (real yields / FOMC 2-3 days out) argues against pre-positioning. Flat is highest expectancy; size 0.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 4048.0,
+    "expires_min": 240,
+    "note": "Losing 4048 breaks the coil and crowded-long support, opening the squeeze toward 3984 support \u2014 a valid short trigger; a break above 4090 overhead supply would instead argue a long."
+  },
+  "transcript": {
+    "macro": "Regime MIXED-TO-HOSTILE. 10y 4.69% (highest since Jan 2025) + strong-ish USD = clean HEADWIND for non-yielding metals. FOMC Jul 29 directly drives real yields. XAUT: last 4,054, in overhead-supply zone ($4,090 bear target). Gold fell ~28% from Jan 2026 high. long/short 2.534 (crowded long maxed), orderbook +0.291, net structure_bias -0.233 = lopsidedly long into resistance = contrarian/squeeze risk. rel_strength -3.95%. ADX 88 but crowd already long. Treat XAUT+XAG as ONE correlated FOMC bet (corr 0.876).",
+    "sentiment": "Gold ~$4,130, +4.8% off Jul 9 low ($3,941). Hawkish Fed repricing (Goldman YE $5,400->$4,900). NEAR CATALYST FOMC Jul 28-29 (~20% hike odds), 2-3d out \u2014 primary gold vol driver. Hawkish hold/hike = headwind; dovish surprise = pop. 48h read: NEUTRAL/range into FOMC; safe-haven bid partly offsets hawkish Fed. No 48h binary until FOMC.",
+    "analyst": "Textbook no-trade state. Scan ADX 88 is a lagging-trend artifact \u2014 live tape is a razor-thin 5-point coil (4052-4057) pinned to VWAP with 0.2% ATR and RSI 56, no momentum, no volatility. Structure bearish-leaning (crowd maxed long L/S 2.534 into 4155 overhead supply, rel-strength -3.95%, macro real-yield headwind) = squeeze-down fuel, but too compressed for an honest entry: nearest structural stop only ~$6-8 while overhead supply caps a long TP1 inside 1R. Layer FOMC binary 2-3d out \u2014 pre-positioning is negative-EV. Hold flat; arm reconsider at 4048 (break below flips to squeeze short toward 3984).",
+    "portfolio": "XAUT \u2014 HOLD (conf 0.60): dead VWAP coil, crowded long into FOMC binary, no 1.5R; flat until 4048 breaks."
+  },
+  "timestamp": "2026-07-26T16:08:17.962531+00:00"
+}

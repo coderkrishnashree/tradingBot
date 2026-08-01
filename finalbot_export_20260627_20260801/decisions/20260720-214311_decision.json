@@ -1,0 +1,23 @@
+{
+  "symbol": "SOL/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.55,
+  "size": 0.0,
+  "entry": 77.99,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "rationale": "SOL is the most crowded long in the set (L/S 2.63, structure_bias -0.32), extended above the upper Bollinger (%B 1.016, RSI 79.5, +2.24% from VWAP) and stalling just under 79.01 resistance on fading volume. As pure BTC beta (0.806) with BTC flat, there is no fresh fuel to chase the long and no rejection yet to justify a market short \u2014 both negative expectancy. Wait: losing 77.30 opens the crowded-long unwind, reclaiming 78.40 confirms squeeze-continuation.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 77.3,
+    "expires_min": 240,
+    "note": "Losing the coil support flips this to a crowded-long-unwind short toward 76.5/75.5 as the over-owned position sheds."
+  },
+  "transcript": {
+    "macro": "MIXED regime, headline-fragile. Crypto range-bound, BTC flat ~64.5-65.4k, dominance ~57%. SOL 0.81 BTC-correlated (pure beta), most crowded long in set: L/S 2.63, RSI 79.5, at resistance 79.0, structure_bias -0.32. Crowded-long into flat BTC = squeeze risk. Least environment support; smaller size / contrarian caution.",
+    "sentiment": "Overall risk-off tilt, crypto in 'fear'. SOL mildly bullish narrative, no confirmed <=48h catalyst. Spot ETF decision a live 'could-come-as-soon-as-July' event and Alpenglow upgrade Q3 \u2014 catalysts but not date-certain inside 48h. Mostly tracks BTC. Neutral/slightly supportive.",
+    "analyst": "Coil under 78.4 on drying volume after a 78.36 spike; extended (RSI 79.5, %B>1, +2.24% VWAP) and most crowded long (L/S 2.63) just under 79.01. No fuel to chase long, no rejection yet for a short \u2014 both negative expectancy. HOLD; short-bias trigger on losing 77.30.",
+    "portfolio": "SOL/USDT:USDT -> HOLD (conf 0.55), no size; crowded-long-unwind short armed below 77.30."
+  },
+  "timestamp": "2026-07-20T21:43:11.317275+00:00"
+}

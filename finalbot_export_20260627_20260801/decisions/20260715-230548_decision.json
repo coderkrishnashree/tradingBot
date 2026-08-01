@@ -1,0 +1,24 @@
+{
+  "action": "hold",
+  "symbol": "XAUT/USDT:USDT",
+  "size": 0.0,
+  "entry": 4052.6,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.5,
+  "rationale": "Higher TFs (30m-4h) are up but the 5m is fading and the 15m candles show a stalled, drying-volume coil glued to VWAP after rejection at 4074 \u2014 no thrust, no level to trade against. Macro (firm DXY, higher real yields, Fed-hike repricing) caps gold and the book is crowded long (L/S 2.78, structure_bias -0.31), so no chasing the bounce; the learner also shows structure_bias strongly negative and account shorts bleeding, so no forcing a short into the stall either. Wait for the range to resolve.",
+  "transcript": {
+    "macro": "OVERALL risk-on tech-led but tokenized book crowded LONG (L/S 2-3.5) overbought -> contrarian caution. TSMC earnings Thu Jul 16 binary chip gap. Off-hours thin. XAUT: neutral-to-slightly-long, LOW conviction \u2014 uptrend 30m-4h (RSI 60-64, ADX 43.8) but 5m fading, -6.25% on the month, L/S 2.78 heavily crowded long, structure_bias -0.31; macro headwind (firm DXY, higher real yields on rate-hike repricing).",
+    "sentiment": "OVERALL risk-off, event-heavy (US-Iran/Hormuz, oil 1-mo highs feeding Fed-hike odds & USD). XAUT: NEUTRAL-to-BEARISH near-term \u2014 counterintuitively soft despite war (~$4,035-4,075, down ~27% from Jan high); oil/inflation boosting Fed-hike odds & USD capping gold's safe-haven bid. Key <=48h risk: Iran de-escalation (bearish) or Hormuz supply shock (mixed). FOMC Jul 28-29 bigger catalyst, outside window.",
+    "analyst": "15m shows pop to 4074, rollover to 4042.7, then dead chop 4049-4056 for ~13 bars on collapsing volume \u2014 a coil/stall, not momentum; 5m fading, last close 4052.6 near micro-range low. BB width 2.38%, 15m ATR ~2.4pts \u2014 any market stop sits inside noise, R:R<1.5. Crowded-long book + macro headwind cap upside; learner: shorts bleeding, structure_bias weight -0.598 argues against a long too. Textbook NO-TRADE coil. HOLD, arm upside trigger on reclaim of 4067-4074 shelf.",
+    "portfolio": "XAUT: HOLD (0.50) \u2014 compressed VWAP coil, macro headwind + crowded long; no edge until 4074.5 reclaim or 4042 support break."
+  },
+  "forecast": "Price coils in the dead 4042-4067 band on drying volume; most likely it chops sideways near 4052 VWAP for the next few bars. Edge only appears on a reclaim of the 4067-4074 rejection shelf (higher-TF long confirms) or a loss of 4042 support (short with macro/crowd tailwind).",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 4074.5,
+    "expires_min": 240,
+    "note": "A 15m close back above the 4067-4074 rejection shelf revives higher-TF-aligned momentum over the fading 5m and re-arms a tactical long toward 4100+."
+  },
+  "timestamp": "2026-07-15T23:05:48.662490+00:00"
+}

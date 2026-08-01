@@ -1,0 +1,23 @@
+{
+  "symbol": "BTC/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.4,
+  "size": 0.0,
+  "entry": 64726.8,
+  "stop_loss": 0.0,
+  "take_profit": 0.0,
+  "rationale": "BTC is mid-range at 64.7k after fading from the 64,948 high, with stoch 91 and 1h RSI 82 flashing overbought right under resistance 65,566 and price +1.34% over VWAP. Recent candles show the up-leg exhausting (64,948 -> 64,595 low) then a weak bounce \u2014 no momentum, no divergence, only 43% composite conviction into an FOMC-gated chop range. Chasing a long into overbought at resistance is the account's classic late-entry trap, and a short has no confirmed rejection to lean on, so neither side clears R:R >= 1.5. HOLD is highest expectancy; wait for a real trigger.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 64580.0,
+    "expires_min": 240,
+    "note": "Losing the 64,595 swing low breaks the intraday shelf and confirms rejection from resistance, opening a short toward VWAP/62k support."
+  },
+  "transcript": {
+    "macro": "Regime MIXED, cautious risk-off. BTC ~$64.7k, reclaimed $65k on softer CPI + ETF inflows. Funding barely positive (~9e-5) \u2014 not crowded. Base case $56-62k chop until FOMC Jul 28-29. Not a strong risk-on tailwind. BTC: long score +0.32, conf 43%, orderbook +0.86 but stoch 91 near resistance. MIXED \u2014 no strong edge.",
+    "sentiment": "BTC neutral / two-sided. Reclaimed $65K Jul 15 on softer CPI + first ETF inflow week ($197M) after 8 weeks of outflows. BUT Fear & Greed collapsed to 34 (Fear) from 67; Iran/Hormuz a risk-off drag. No 48h binary; FOMC + CLARITY Act vote next-week items. Net neutral near-term.",
+    "analyst": "Mid-range after fading from 64,948; stoch 91, 1h RSI 82, +1.34% over VWAP, 43% conviction into FOMC-gated chop. No momentum, no divergence. Chasing a long into overbought at resistance is the late-entry trap; a short has no confirmed rejection. Neither side clears R:R 1.5.",
+    "portfolio": "HOLD BTC \u2014 overbought at range top into FOMC; wait for loss of 64,595 to consider a short."
+  },
+  "timestamp": "2026-07-19T04:43:58.340263+00:00"
+}

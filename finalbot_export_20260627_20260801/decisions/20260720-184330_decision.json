@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "GOOGL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price at 352.1 after a 20-bar flush with 15m RSI 15.8 (deeply oversold); expect a small counter-bounce toward 354-355 VWAP retest within 2-4 bars OR a slow grind to test 348, but no clean directional edge from here mid-range.",
+  "expectancy_note": "Short = chasing an RSI-15.8 flush (account's losing direction, 0.48 win) that a routine bounce stops out; long = fading a live downtrend against -0.31 structure/-13.3% RS with no bottom confirmation. Neither clears R:R 1.5 with an honest stop; HOLD beats both.",
+  "rationale": "Tokenized equity into the biggest per-name event of the week (GOOGL earnings Wed AC) \u2014 intraday only, no overnight, reduced size mandated. 15m tape is a decelerating downtrend flushed to RSI 15.8 sitting mid-range (support 341.86 / resistance 379.97) with compressed 0.7% ATR \u2014 no structural level to trade against and no confirmation of either a bottom or continuation. Shorting the flush is precisely this account's #1 loss pattern (late entry into stretched tape); fading it long has no trigger yet. Wait for a level.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 354.8,
+    "expires_min": 180,
+    "note": "Reclaiming the broken 354.8 shelf/VWAP would confirm the oversold flush is reversing into a mean-reversion bounce, setting up an intraday long toward 357-358 (still exit before Wed close)."
+  },
+  "transcript": {
+    "macro": "Megacap earnings week \u2014 GOOGL reports Wed Jul 22 AC, the single biggest per-name event risk in the basket. HEADWIND for holds: structure_bias -0.31 (L/S 1.62 crowded long, orderbook -0.43 offered), RS -13.3%, 15m RSI 15.8 flush. Do NOT carry through Wed close; intraday only, reduced size.",
+    "sentiment": "GOOGL NEUTRAL into binary. IMMINENT Q2 earnings Wed Jul 22 ~4:30pm ET AC; focus Cloud growth and $190B AI capex. Do NOT hold into Wed close. Week's first megacap print \u2014 sets tone for QQQ/AAPL.",
+    "analyst": "GOOGL at 352.1. 20-bar downtrend to RSI 15.8 deeply oversold, ADX 83.5, ATR 0.7% compressed, mid-range (support 341.86 / resistance 379.97). Structure bearish but momentum stretched; short = late-flush chase (account's loser), long = fading downtrend with no bottom yet. No level to trade. HOLD; exit-before-Wed rule anyway.",
+    "portfolio": "HOLD GOOGL \u2014 oversold flush mid-range, no edge; long trigger on reclaim of 354.8, intraday only pre-earnings."
+  },
+  "timestamp": "2026-07-20T18:43:30.634912+00:00"
+}

@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "MU/USDT:USDT",
+  "size": 0.0,
+  "entry": 849.15,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Price coiling 848-851 at VWAP; last 4 bars fade off the 852.6 peak on light volume. Expect chop inside 846-852 until it resolves - a hold above 852.6 opens 858+, a loss of 846 opens 840 then toward support.",
+  "expectancy_note": "No clean entry: market long buys into a -0.92 offer wall + crowded-long book in a risk-off semi crash; short mid-range at VWAP vs strong 1h/4h up-structure + bullish divergence is a coin-flip with a 20pt ATR. p(win) ~0.5 either way, R:R < 1.5. HOLD beats both.",
+  "rationale": "MU is genuinely two-sided: bullish fundamentals and 30m/1h/4h up-scores vs a hostile risk-off semi selloff, heavy sell-side orderbook (-0.92), crowded 2.18 long/short (squeeze risk), -30% rel-strength, and thin Sunday gap risk. Price sits right at VWAP mid-range with ATR% 2.36 (~20pt), so any honest stop is wide and a mid-range entry is a coin flip. No trade until a structural level resolves the fight; size 0.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 845.5,
+    "expires_min": 240,
+    "note": "Losing the 846 intraday base confirms semi-selloff pressure and offer wall winning - arms a short toward 840/support with the trend and the crowd trapped long."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF/defensive; rotation out of tech. Fed hawkish. Semis in ACTIVE SELLOFF (SOX -10.8%, iShares Semi -8% wk, >$1T wiped) - dominant driver. Funding ~0; long/short heavily LONG (MU 2.18 - crowded-long squeeze risk). BTC corr low. MU center of AI-memory strength (blockbuster Q3 +15%, huge Q4 guide) but caught in semi selloff; rel-strength -30% vs BTC, orderbook imbalance -0.92 (heavy offer). Fundamentally intact, tape hostile. Sunday gap risk.",
+    "sentiment": "MU BULLISH fundamentals, BEARISH near-term tape. Blowout FQ3, ~$100B binding multi-year AI/HBM contracts sold out through 2026, new Anthropic partnership; consensus Buy, raised targets. No earnings catalyst inside 48h, down ~18-22% from post-earnings highs as capex fears bite. High-beta proxy for semi tape.",
+    "analyst": "Two-sided mess: composite long but not aligned, orderbook -0.92 offer wall, crowd heavily long into hostile semi tape, last 15m bars fading off 852. Long chases into offer wall; short mid-range at VWAP vs strong up-structure + bullish divergence is a coin flip with 20pt ATR. No >=1.5 R:R entry here. HOLD; short below 845.5.",
+    "portfolio": "HOLD MU - two-sided at VWAP, no clean R:R; arm short below 845.5 base."
+  },
+  "timestamp": "2026-07-19T11:42:59.975105+00:00"
+}

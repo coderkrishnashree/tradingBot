@@ -1,0 +1,26 @@
+{
+  "symbol": "NVDA/USDT:USDT",
+  "action": "hold",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.34,
+  "playbook": "none",
+  "rationale": "NVDA is dead-center of a 190.16-200.68 range with ADX 7.8 (no trend), RSI 50.9 and price sitting exactly on VWAP (+0.08%) \u2014 no edge from here. Macro favors an AI/chip long THESIS but positioning is the most crowded-long of the trio (funding +0.0003, long/short 1.99, structure_bias -0.464), so a fresh mid-range long is low-expectancy; the contrarian short has no trigger and fights a risk-on equity open plus Wed FOMC minutes. Also 0.81-correlated QQQ beta with only +0.75% relative strength, so no reason to force the echo. Wait for a range-edge resolution.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 200.68,
+    "expires_min": 240,
+    "note": "Reclaiming/breaking resistance 200.68 proves the AI-chip rebound is lifting NVDA as a leader, turning crowded-long risk into a trend-continuation long on confirmed strength."
+  },
+  "transcript": {
+    "macro": "Regime MIXED, cautiously risk-on; Nasdaq +0.8%, S&P +0.5% driven by semi rebound (SMH +2.7%) \u2014 backdrop favors AI/chip names. NVDA essentially crypto-independent (QQQ corr 0.81 is the driver). BEST macro alignment of the trio BUT most crowded-long: long/short 1.99, funding +0.0003 (highest), structure_bias -0.464 (most contrarian-bearish). Scan flat/chop (conf 2.6%). Supportive for a long thesis but chase risk high; favor longs on pullbacks.",
+    "sentiment": "NVDA mildly positive longer-term narrative (Blackwell sold out through mid-2026, Rubin pulled ~2 quarters early, hyperscaler capex >=$30B, Strong Buy) \u2014 but long-horizon, not 48h drivers. NVDA only +5% YTD and LAGGING; chip stocks fell two straight sessions on AI-valuation de-rating, so short-term momentum soft. No earnings in window (next late Aug). 48h swing risk is macro: FOMC minutes Wed Jul 8 + tech-rotation. Near-term neutral-to-slightly-negative for a long / mildly supportive of the scan's short bias.",
+    "analyst": "NVDA scores near-zero (conf 2.6%, regime_blocked chop). Tape genuinely trendless \u2014 ADX 7.8, %B 0.51 (dead middle), price on VWAP, inside a tight 190-201 range. Neither playbook has an edge: mean-reversion needs a band extreme (it's mid-band), trend-continuation needs a trend (none). Macro favors an AI/chip long bias but that's not a mid-range entry \u2014 positioning maximally crowded long (funding +0.0003, long/short 1.99), so a fresh long chases the crowd while a short lacks a trigger and fights a risk-on Monday plus Wed FOMC minutes. It's 0.81 QQQ beta with +0.75% rel strength (the echo, not the strongest horse). HOLD is highest-expectancy; the informative flip is a reclaim of 200.68 confirming NVDA leads the rebound.",
+    "portfolio": "NVDA: HOLD (0.34) \u2014 trendless mid-range, crowded long; wait for a 200.68 breakout to go long on confirmed strength."
+  },
+  "timestamp": "2026-07-06T14:17:04.243705+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "QQQ/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price is pinned under 730.3 after an instant rejection of that exact level; expect it to stall/chop 727-730 in thin weekend tape, with a mean-revert toward VWAP (~715) the likely path once real liquidity/CPI arrive, but no clean trigger yet.",
+  "expectancy_note": "Short here: ADX 64 uptrend + thin weekend book + tiny 0.52% ATR gives sub-1.5R to the mid-band and high stop-out odds on a bounce; long: chasing RSI 84.6 at resistance is the account's #1 loss pattern. HOLD is highest expectancy.",
+  "rationale": "QQQ is violently overbought (4h RSI 84.6, stoch 92.7) and pinned at hard resistance 730.3, which was tapped and instantly rejected on the last big bar; offer-heavy book (-0.513) confirms sellers stacked there. But US cash is closed (thin/gappy Saturday perp), ADX 64 shows a firm uptrend, and the July 14 CPI + Warsh testimony is a live binary inside the window that can gap either way. Neither a chase-long (RSI 84.6 at resistance = the account's #1 loss pattern) nor a late-short (sub-1.5R on tiny 0.52% ATR, high stop-out odds) clears the R:R bar, so wait for the level to break. Reconsider trigger: price_below 727 (mean-revert short toward VWAP ~715) within 240 min.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 727.0,
+    "expires_min": 240,
+    "note": "Losing the 727 coil floor after the 730.3 rejection confirms the overbought fade is underway and opens the mean-revert short toward VWAP ~715."
+  },
+  "transcript": {
+    "macro": "Regime: NEUTRAL tilting risk-off. Equity tape firm but stretched; Fed hawkish (CME ~61% Sept HIKE odds, inflation 3yr high); US-Iran/Strait-of-Hormuz geopolitics live. Scan Sat 2026-07-11 07:56 UTC \u2014 US cash closed, so CRCL/MU/TSLA/QQQ perps are thin/gappy with Monday gap risk (CL trades continuously). QQQ violently overbought (RSI 84.6 4h) pinned at resistance 730.3, offer-heavy book. MU strongest momentum, no earnings risk \u2014 cleanest long but on pullbacks not chases. TSLA only positive-RS name (+1.84% vs BTC) with real bid support, but 5m blown off. CRCL high-beta, most crowded-long book (L/S 2.69) \u2014 smallest size. CL rolling over: ADX 67.6 downtrend, L/S 4.17 (squeeze-lower fuel), OPEC+ supply \u2014 short-favored with a Hormuz upside tail. Verdict: NEUTRAL, risk-off tilt; smaller size, favor MU-on-pullback / CL shorts over chasing QQQ/TSLA.",
+    "sentiment": "CRCL: OCC approved Circle National Trust (bank charter) July 10 (+~7% premarket after +12% Jul 9), USDC/stablecoin regulatory tailwind; overhang = Compass Point PT cut to $55 on Stripe 'Open USD'. No earnings until ~Aug 11. Lean BULLISH. MU: blowout fiscal Q3 ~Jun 24, guided ~$50B, popped 15% then pulled back 14-22% off high \u2014 catalyst spent, no 48h binary; Anthropic memory-supplier narrative supportive multi-quarter. Lean NEUTRAL. TSLA: Q2 earnings July 22 (EPS ~$0.47-0.48); deliveries beat (480,126, +18%) but stock trades margins/robotaxi (auto GM ex-credits the key number); overbought into the event. Lean NEUTRAL. CL: OPEC+ July 5 keeps unwinding cuts (+188k bpd Aug), UAE record output caps rallies, WTI ~$71-72 heavy; swing factor = fragile US-Iran/Hormuz ceasefire (upside tail, can spike within hours). Lean BEARISH. QQQ: +28%/3mo AI boom, call demand highest since 2007, SpaceX added Jul 7; real catalyst = June CPI July 14 + new Fed Chair Warsh testimony (hot 4.2% YoY print = downside risk); extremely overbought. Lean NEUTRAL.",
+    "analyst": "QQQ is violently overbought (4h RSI 84.6, stoch 92.7) and pinned at hard resistance 730.3, which was tapped and instantly rejected on the last big bar; offer-heavy book (-0.513) confirms sellers stacked there. But US cash is closed (thin/gappy Saturday perp), ADX 64 shows a firm uptrend, and the July 14 CPI + Warsh testimony is a live binary inside the window that can gap either way. Neither a chase-long (RSI 84.6 at resistance = the account's #1 loss pattern) nor a late-short (sub-1.5R on tiny 0.52% ATR, high stop-out odds) clears the R:R bar, so wait for the level to break. Reconsider trigger: price_below 727 (mean-revert short toward VWAP ~715) within 240 min.",
+    "portfolio": "QQQ: HOLD (0.6) \u2014 overbought at resistance 730.3 into July 14 CPI; no R:R either way, wait for a 727 break."
+  },
+  "timestamp": "2026-07-11T08:01:04.047998+00:00"
+}

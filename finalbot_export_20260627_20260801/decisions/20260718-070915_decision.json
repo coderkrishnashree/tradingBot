@@ -1,0 +1,28 @@
+{
+  "symbol": "INTC/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.5,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "none",
+  "forecast": "Price is -4.4% below VWAP with RSI 24 (11.6 on 1h) and a fresh green bounce bar closing at range-high; base case is a relief/short-cover bounce toward 95-98 (VWAP) over the next 4-12 bars before the downtrend can resume, so chasing a short at 93.69 sells the low.",
+  "expectancy_note": "Short here p(win) ~0.35: honest stop above 94.3 is ~1 ATR and gets clipped by the oversold bounce before 89.76 prints; learner shows extended/aligned shorts have bled. Waiting for a failed bounce or a support break has far better expectancy.",
+  "rationale": "INTC is maximally extended: -4.4% under VWAP, RSI 24/11.6, most-crowded-long name (L/S 2.30), -33% rel strength, into a July 23 earnings binary that adds squeeze/short-cover risk within the window. Last 15m bar is a green bounce at range-high on fading down-volume - momentum decelerating, not accelerating. This is the account's proven loss pattern (late short into stretched tape), so no entry; a clean short needs a bounce-and-fail at ~96-98 VWAP or a decisive loss of 89.76 support.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 89.76,
+    "expires_min": 240,
+    "note": "Losing 89.76 support voids the oversold-bounce thesis and confirms trend continuation with room to run - a short then no longer chases the low."
+  },
+  "transcript": {
+    "macro": "Risk-off, tech/semis selling off - semis are the epicenter. Scan 07:01 UTC weekend - US cash CLOSED, thin/gappy, Monday gap risk. No FOMC/CPI in 72h. Short-favorable but LATE-STAGE, squeeze risk; cut size. INTC: most macro-supportive short (semis epicenter) BUT most crowded-long (L/S 2.30), RSI 24, -33% rel strength = maximally extended; don't chase.",
+    "sentiment": "Risk-off tape, crypto Fear. INTC most catalyst-loaded: Q2 earnings Jul23 after close (~5d out). Crashed ~21% in 7 days on 18A-yield-delay fears; scan short aligns with a genuine fundamental fade, but oversold into a binary = relief-bounce / short-cover risk. Do NOT hold short blindly into the 23rd.",
+    "analyst": "Maximally extended: -4.4% under VWAP, RSI 24/11.6, most-crowded-long (L/S 2.30), -33% rel strength, into Jul23 earnings. Last 15m bar green at range-high on fading down-volume - decelerating. Account's proven loss pattern. Clean short needs a failed bounce at 96-98 VWAP or a loss of 89.76 support.",
+    "portfolio": "HOLD INTC - extended/oversold into earnings; re-arm short on loss of 89.76 support."
+  },
+  "timestamp": "2026-07-18T07:09:15.557137+00:00"
+}

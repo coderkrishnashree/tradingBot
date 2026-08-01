@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "TSM/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price stays pinned in the 421.4-425 coil on near-zero volume; most likely drifts sideways-to-slightly-down toward 421 over the next few bars until GOOGL/INTC/US-session flow forces a directional resolution.",
+  "expectancy_note": "No edge either way: extended (%B 0.80, stoch 83.8) at mid-range on dead volume, crowded long (L/S 2.17, bias -0.32) argues against chasing up while 4h uptrend blocks a clean short; event-gap risk tonight makes both sides negative-expectancy.",
+  "rationale": "TSM is coiling in a tight illiquid range with fading 5m/15m momentum but an intact higher-TF uptrend, offering no clean level to trade from. Structure is heavily crowded long (L/S 2.17, bias -0.32), so chasing the extended tape up is the account's classic late-entry loss, and there's no rejection setup for a short mid-range. With GOOGL after the close and INTC tomorrow into a thin off-hours tape, gap risk dwarfs any 1.5R structural target, so HOLD is the highest-expectancy call.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 421.4,
+    "expires_min": 240,
+    "note": "Losing the coil floor breaks the tight range and opens a fade toward VWAP/386.8 as crowded longs unwind; that would flip this to a short setup."
+  },
+  "transcript": {
+    "macro": "Regime RISK-ON but event-heavy. AI memory supercycle live. GOOGL earnings after close; Brent >$92 on Iran. Perps funding=0.0; equity beta. TSM L/S 2.17 = crowded long (biggest contrarian flag in cohort), structure_bias -0.32; trend up but thin volume. Fade-the-crowd risk; long low-conviction.",
+    "sentiment": "TSM bullish but catalyst already spent (beat July 16, rev +36% YoY, raised FY26 >40%, hiked capex). No new binary in 48h; trades as AI-chip beta/sentiment proxy. Sector euphoric-but-jumpy; event-heavy two-sided next 48h.",
+    "analyst": "Coiled in tight 421.4-425 range on near-zero volume, extended near range top (%B 0.80, stoch 83.8) with fading 5m/15m momentum but intact higher-TF uptrend. Heavily crowded long (L/S 2.17) so chasing up = late-entry loss; no rejection setup for a short mid-range. Gap risk from GOOGL/INTC dwarfs any structural target. No-trade.",
+    "portfolio": "HOLD TSM (conf 0.60) - mid-range illiquid coil, crowded long, gap risk; no clean level."
+  },
+  "timestamp": "2026-07-22T20:02:43.400108+00:00"
+}

@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "SNDK/USDT:USDT",
+  "size": 0.0,
+  "entry": 1759.98,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.35,
+  "playbook": "none",
+  "forecast": "Whippy: 15m tape is accelerating up (RSI 75, close at top of range) into CPI 08:30 ET with US cash closed \u2014 expect either a stretched grind toward 1,800/1,860 resistance or a sharp CPI/open gap. No clean entry; wait for either a failed rally back below 1,715 (short trigger) or a controlled pullback to VWAP.",
+  "expectancy_note": "Composite short (p_win 0.36) contradicts a live accelerating bounce; account bleeds on high-ADX trend shorts (45% win, -1.85R). Long chases RSI-75 into a CPI binary. Neither side clears R:R 1.5 \u2014 HOLD is highest expectancy.",
+  "rationale": "The composite 'short' is driven purely by a stale 4h RSI-32 snapshot of Monday's -14% drop; the actual 15m sequence has reversed and is grinding higher (1,625 to 1,760, higher-lows, top-of-range close, RSI 75). Shorting an accelerating recovery bounce is this account's exact loss pattern, and going long chases a parabolic name at RSI 75 into CPI with the underlying not trading and gap risk into the 09:30 open. With 3.3% ATR and 25% BB width there is no honest sub-1.5x-ATR stop that survives, so size is zero.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 1715,
+    "expires_min": 240,
+    "note": "Losing the 1,715 rising-consolidation shelf proves the recovery bounce failed and the SK Hynix sector-shock downtrend has resumed \u2014 that flips this to a valid trend short with structure to lean on."
+  },
+  "transcript": {
+    "macro": "Risk-OFF tilt. July 13 S&P 500 -0.79% to 7,515, Nasdaq -1.55%; futures slipping early July 14. Live catalysts inside 48h: June CPI due July 14 (08:30 ET), big-bank earnings. US-Iran tensions, oil bid. Crypto risk-off: BTC ~$62.6k -2%, Extreme Fear, dominance ~56%. CRITICAL: scan @ 08:28 UTC \u2248 04:28 ET, US cash market CLOSED (pre-market) \u2014 perps thin/gappy, prone to snap at 09:30 ET open and at CPI. SNDK high-beta/high-danger: up ~700-767% YTD on AI/NAND squeeze, ATR 3.3%, bb_width ~25%, ADX 58.9 \u2014 extreme vol is dominant risk. Orderbook +0.686 (bid), structure_bias +0.20, L/S 1.024, funding flat \u2014 no leverage crowding. Two-sided knife: short TFs overbought (15m RSI 75, 1h RSI 67) while 4h oversold (RSI 32) after a ~14% intraday drop. Earnings Aug 5, Investor Day Aug 13 (outside window).",
+    "sentiment": "SNDK the live one. Fell ~12.6% Mon July 13 and slid after-hours as SK Hynix's weak outlook (~8% miss, faster NAND ASP declines) rattled the memory group (Micron, WD -6%). Fresh sector-wide shock repricing NOW \u2014 real catalyst, aligns with scan short flag (~$1,760 after 800% H1 run, extended). Counter-risk: Wall Street stayed bullish through the drop (Citi $2,500, Evercore $3,100), NAND-shortage narrative intact \u2192 violent snapback bounces possible; those PTs are long-horizon, don't anchor the trade. Dated binaries Aug 5/Aug 13 outside 48h. NET: near-term news BEARISH-leaning / supportive of the short \u2014 memory-group shock live this session \u2014 but expect high volatility and sharp mean-reversion; size for the beta.",
+    "analyst": "Last 1,759.98. The 15m sequence is a strong recovery rally off 1,625 (+7.2%, higher-highs/higher-lows), last two bars accelerating up (1,730\u21921,745\u21921,760) closing at top of range. Short TFs green/overbought (15m RSI 75.2, 1h 67); the composite 'short' is driven ENTIRELY by a stale 4h RSI-32 snapshot of Monday's drop. Learner: shorts 46% win avg -1.6R, high_adx 45% win avg -1.85R, p_win_learned 0.36 \u2014 account bleeds on high-ADX trend shorts. Shorting the accelerating bounce is the #1 loss pattern; longing chases RSI-75 into a CPI binary with the underlying not trading. No honest R:R \u22651.5 with 3.3% ATR / 25% BB width. HOLD, size 0, armed to short on a break back below 1,715.",
+    "portfolio": "HOLD SNDK/USDT:USDT \u2014 composite short contradicts a live accelerating bounce, long chases RSI-75 into CPI; re-debate short on break below 1,715."
+  },
+  "timestamp": "2026-07-14T08:33:13.043256+00:00"
+}

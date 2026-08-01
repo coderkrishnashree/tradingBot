@@ -1,0 +1,28 @@
+{
+  "symbol": "QQQ/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.6,
+  "size": 0.0,
+  "entry": 698.93,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "none",
+  "forecast": "Chop 696.4-701.0 in thin off-hours tape; last bar bounced off 696.4 support back to VWAP (~698.9) but no momentum to break 701. Range-bound drift until US cash open and the Jul 22 TSLA/GOOGL prints.",
+  "expectancy_note": "No trade beats both: long R:R fails (honest stop ~695 = 2.2xATR vs nearest TP only ~701-703, sub-1.5), short has no trigger vs up-trend and just-bounced support.",
+  "rationale": "QQQ is an equity index proxy in a thin off-hours session with tiny ATR (0.25%, ~1.75pts) and a two-sided binary in the window: constituents TSLA & GOOGL report Jul 22 and the index gaps on their prints. Tape ran to 701, rejected, faded to 696.4 support and just bounced to VWAP \u2014 mid-range with no edge. Macro risk-off/tech-heavy while structure_bias mildly negative (-0.097) and rel-strength lags BTC -12.7%; long has poor R:R and short fights the 30m/1h up-trend. Wait; size 0.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 701.0,
+    "expires_min": 240,
+    "note": "A clean reclaim/hold above the 701 rejection high re-opens a trend-continuation long toward 705+ with a stop back under VWAP."
+  },
+  "transcript": {
+    "macro": "Near-term RISK-OFF; tech tape heavy (Nasdaq lower every session prior week, -1.4% Friday). QQQ ~698.9 holding longer uptrend (ADX 44.9) but mid-range, structure_bias -0.097, lagging BTC -12.7%. Cleanest structure of the set, long_short 1.08 (not crowded), lowest ATR. Index proxy. Catalysts: mega-cap earnings week \u2014 constituents TSLA & GOOGL print Jul 22; index gaps on prints. FOMC Jul 28-29.",
+    "sentiment": "Bullish backdrop \u2014 June CPI cool (3.5% vs 3.8% exp), July Fed hike odds collapsed to ~17%, rate held 3.50-3.75%. BUT mega-cap earnings week: QQQ constituents (TSLA, GOOGL Jul 22) are the <=48h catalyst; index gaps on their prints.",
+    "analyst": "Equity index proxy in thin off-hours (Sunday ~10pm ET). ATR tiny (0.25%, ~1.75pts). Tape ran to 701, rejected, faded to 696.4 support, just bounced to VWAP \u2014 mid-range. Long stop must sit ~695 (2.2xATR) vs nearest TP ~701-703 = sub-1.5 R:R; short has no trigger vs up-trend. Binary earnings gap risk (TSLA/GOOGL Jul 22) inside window. HOLD.",
+    "portfolio": "QQQ \u2014 HOLD (conf 0.60): thin off-hours mid-range chop with binary constituent-earnings gap risk; long re-arms above 701."
+  },
+  "timestamp": "2026-07-20T02:13:29.663280+00:00"
+}

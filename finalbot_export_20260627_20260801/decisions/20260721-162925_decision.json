@@ -1,0 +1,22 @@
+{
+  "action": "hold",
+  "symbol": "EWJ/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.3,
+  "playbook": "none",
+  "forecast": "Illiquid drift: price likely chops between 92.5 and the 94.82 resistance on near-zero volume; no reliable directional move to trade inside the next few bars.",
+  "expectancy_note": "No positive-expectancy entry: chasing RSI 91/stoch 100 long invites a noise-bounce stop (the book's #1 loss pattern); fading has no confirmed level and OI 2,127 makes slippage/gaps eat any edge.",
+  "rationale": "The '15m breakout' is a low-liquidity artifact \u2014 recent candles show repeated 0.0-volume prints and single-digit sizes, OI only 2,127. Tape is maximally extended (RSI 80.9, ADX 77.6, stoch 100, %B 1.06, +2.64% vs VWAP) and rel_strength is -11% vs BTC, so this is a stretched laggard, not a leader. No honest R:R >= 1.5 exists either long (chasing into exhaustion) or short (no confirmed level, gap risk); BoJ Jul 30 is outside the 48h window. HOLD with zero size is the highest-expectancy call.",
+  "transcript": {
+    "macro": "Regime MIXED, cautiously risk-on (fragile equity relief rally); crypto structurally soft. EWJ (Japan ETF proxy): flagged 15m breakout (level 92.94, vol_ratio 8.97) but almost NO liquidity (OI 2,127; several zero-volume candles). RSI 80.9/ADX 77.6/stoch 100 \u2014 maximally extended. Tracks Tokyo session; thin and gappy when Japan closed. rel_strength -11% vs BTC. MIXED-to-HOSTILE \u2014 breakout is a low-liquidity artifact, size must be tiny.",
+    "sentiment": "EWJ bullish momentum with a dated macro binary just outside 48h. Nikkei +3.26% to 66,231 on Jul 21 (Topix +2.44%) on easing semi selloff + weaker yen; index +37% YTD. Key event BoJ decision Jul 30 (outside 48h). Scan extremely overbought; ETF prints gappily off-hours. Near-term news supportive but overbought/thin tape + US-session dependency argues caution on chasing; no <=48h binary.",
+    "analyst": "The '15m breakout' is a low-liquidity artifact \u2014 repeated 0.0-volume prints, single-digit sizes, OI 2,127. Tape maximally extended (RSI 80.9, stoch 100, %B 1.06, +2.64% vs VWAP), rel_strength -11% (stretched laggard). No honest R:R>=1.5 long (chasing exhaustion) or short (no confirmed level, gap risk). HOLD zero size; reconsider only on a 15m close above resistance 94.82 on genuine volume.",
+    "portfolio": "HOLD EWJ/USDT:USDT \u2014 untradeable thin/gappy tape, maximally overbought; no entry, stand aside."
+  },
+  "timestamp": "2026-07-21T16:29:25.174817+00:00"
+}

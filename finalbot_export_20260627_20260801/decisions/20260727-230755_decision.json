@@ -1,0 +1,23 @@
+{
+  "symbol": "INTC/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.35,
+  "size": 0,
+  "entry": 90.69,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "rationale": "INTC is non-aligned (30m long vs 15m/1h/4h/5m short), deeply lagging peers (-19.7% rel str), crowded long (L/S 2.14 = squeeze risk against a short), and stretched down on the 1h (RSI ~29) with a 4h bullish divergence \u2014 shorting now chases the late-into-oversold pattern that kills this book. Buying is equally poor: active bleed, capex/foundry overhang, US cash closed (Monday gap risk). No entry offers 1.5R to a near structural target, so stand aside until the 90.0-91.6 box resolves.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 91.6,
+    "expires_min": 240,
+    "note": "Reclaiming 91.6 aligns 30m-long + 4h bull-div into a possible long; below 90.0 toward 87.12 sets up a cleaner short."
+  },
+  "transcript": {
+    "macro": "Regime HOSTILE-to-MIXED. US cash CLOSED, thin/gappy, Monday gap risk. INTC: L/S 2.14 (crowded long->contrarian), orderbook flat +0.02, structure_bias -0.30, composite short but NOT aligned (30m long), 4h bullish divergence, rel str -19.7% (deeply lagging), idiosyncratic earnings risk highest. Verdict: STAY OUT.",
+    "sentiment": "Biggest catalyst FOMC Wed Jul 29. INTC earnings already reported Jul 23 (record 25% rev growth, 18A yields ~85%, sold off ~8% on capex hike then rebounding toward $95). Up ~170% YTD -> crowded/volatile. No new <48h binary. Verdict: NEUTRAL/slightly BEARISH.",
+    "analyst": "Non-aligned signal, deeply lagging, crowded long (squeeze fuel), 1h RSI ~29 with 4h bull divergence -> short is a chase; long fights an active bleed with earnings/gap overhang. No 1.5R with an honest near stop -> flat. HOLD; box 90.0-91.6 must resolve.",
+    "portfolio": "HOLD INTC \u2014 non-aligned, crowded, earnings landmine; stand aside."
+  },
+  "timestamp": "2026-07-27T23:07:55.765824+00:00"
+}

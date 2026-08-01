@@ -1,0 +1,27 @@
+{
+  "action": "hold",
+  "symbol": "AAPL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "expectancy_note": "Chasing at 313.92 (%B 0.985, stoch 86.8, RSI 70.5) into 315.25 pin gives <0.5R before resistance; p(win) poor. Better EV to wait for a confirmed 317 breakout (opens 340, clean ~2.5R) or a 308 VWAP pullback than buying the extended pin at a closed cash session.",
+  "rationale": "Environment supports longs (structure_bias +0.12, orderbook +0.48, funding ~0, RS +7.5%, ADX 53) but price is stretched: %B 0.985, stoch 86.8, RSI 70.5, pinned 1.3 below 315.25 with US cash CLOSED and re-pricing due at 13:30 UTC. Entering here is a mid-air chase with almost no room before resistance and no valid R:R. Wait for the triangle to resolve: a decisive reclaim of 317 confirms a breakout toward 340; short of that a pullback to ~308 VWAP is the trend-continuation long. Size 0 until the level triggers.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 317.0,
+    "expires_min": 600,
+    "note": "Clearing 317 breaks triangle resistance on volume, confirms the breakout that opens 340 and removes the overbought-into-resistance chase risk - re-debate for a long entry then."
+  },
+  "transcript": {
+    "macro": "Regime RISK-ON broadly (S&P +0.72% to 7,537, Nasdaq +1.12%, VIX ~15.6, AI/semis revival). These are tokenized-equity perps; US cash CLOSED at scan (04:37 UTC) so de-rate overnight signals, expect re-pricing at 13:30 UTC open. BTC in chop, decoupled (AAPL corr 0.27). AAPL cleanest name: underlying constructive +1.3%, Broadcom partnership extension; ~$313 vs $317 triangle resistance, break opens $340. Funding ~0 (no crowding), long/short 1.08, orderbook +0.48, structure_bias +0.12 (only positive-bias name), RS +7.5% on own legs. Caution: stretched RSI 70.5/stoch 86.8/bb_pctb 0.985 pinned under 315.25. Environment SUPPORTS longs but stretched into resistance; prefer confirmation over chasing.",
+    "sentiment": "AAPL NET NEUTRAL-to-mildly-BULLISH. Q3 FY2026 earnings Thu July 30 5pm ET (~23 days out, OUTSIDE near-term window - no pre-earnings trade). Consensus ~$1.89 EPS / ~$108.9B rev. Scan strong uptrend (composite long 63.6%, ADX 53, RSI 70.5, price 313.92 pressing resistance 315.25) - extended/overbought, chase risk into a stalling level. Analyst PT ~$315 (~at spot, capped upside). Rising DRAM/NAND cost = long-horizon margin headwind. No scheduled <=48h catalyst; clean technical trade with earnings-gap risk building for late July.",
+    "analyst": "AAPL is the best-positioned name (only positive structure_bias, buyers stacked +0.48 orderbook, funding neutral, RS +7.5%, strong multi-TF trend ADX 53) but overbought and pinned 1.3 pts under 315.25 with US cash closed. Buying at 313.92 offers no room before resistance and no valid R:R - a chase into a stall. Correct play is HOLD with an armed breakout trigger at 317 (opens 340); alternatively a ~308 VWAP pullback would offer a trend-continuation long. Holding is highest-expectancy until the triangle resolves.",
+    "portfolio": "AAPL: HOLD (conf 0.60) - supportive but extended into resistance; armed long trigger on 317 breakout."
+  },
+  "timestamp": "2026-07-07T04:41:15.165371+00:00"
+}

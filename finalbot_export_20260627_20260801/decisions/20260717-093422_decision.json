@@ -1,0 +1,23 @@
+{
+  "symbol": "AAPL/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.58,
+  "size": 0.0,
+  "entry": 333.19,
+  "stop_loss": 339.6,
+  "take_profit": 320.0,
+  "rationale": "AAPL is a tokenized equity (btc_corr 0.167) trading on a defensive Nasdaq tape (semis dumping, AI-valuation jitters) into a stretched 4h RSI 85 / ADX 92 right under resistance 339.17 after +14.75% RS vs BTC \u2014 the classic fade-strength backdrop, and the last 10 15m bars show a clean bar-by-bar roll-over off the 337.08 high into the close (lower highs, drying volume). But the immediate downdraft is already extended (5m RSI 4.4), so a market short here chases into a probable counter-bounce \u2014 precisely this account's #1 loss pattern \u2014 and structure is not crowded-long (funding slightly negative, orderbook bid-heavy +0.366), so there's little squeeze fuel for a fast flush; the July 30 earnings cliff is well outside the 48h window, so no binary forces my hand. A short from 333.19 to support ~308-320 needs a stop above 339.17 (~6.4 pts risk) which is too wide relative to the realistic first target off thin off-hours liquidity, so R:R fails right now \u2014 the higher-expectancy play is to wait for a bounce into the 336.5-337 supply zone that offers a tight-risk short against 339.17, or a reclaim/close above 339.17 that kills the fade thesis outright. Size 0 until price comes back to me.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 337.0,
+    "expires_min": 240,
+    "note": "A bounce back into the 336.5-337 supply zone (broken intraday support / VWAP retest) is the honest short entry against 339.17 resistance with ~1x ATR risk; crossing it re-arms the fade-strength short at proper R:R. A close above 339.17 instead would flip this to breakout-continuation."
+  },
+  "transcript": {
+    "macro": "Defensive equity tape (not risk-on): Nasdaq 100 -1.5/1.6%, S&P 500 -0.5% on Jul 16, semiconductor sell-off (Micron, AMD -5%+ on AI-valuation jitters), Netflix -8% AH; Nasdaq futures lower into the 17th. AAPL decoupled from crypto (btc_corr 0.167) \u2014 trades on equity beta. Positioning clean/not crowded-long: funding slightly negative, OI thin ~4,807, long_short 0.849 (more shorts), orderbook +0.366 (bid-heavy), structure_bias +0.175. But tape extreme: 4h RSI 85.2, ADX 92, price 333.19 under resistance 339.17 after +14.75% RS vs BTC; stalling on 30m/1h. Bias MIXED, lean fade-strength / don't chase longs; favors mean-reversion short or waiting for 308-320 pullback. July 30 earnings = hard event cliff. Argue smaller size; off-hours thin/gappy.",
+    "sentiment": "BULLISH but stretched. Jul 15-16 China approved Apple Intelligence (Alibaba Qwen/Baidu), removing major China overhang \u2014 drove AAPL to fresh ATH ~$327, +20% YTD, cap toward $5T; fresh directionally-positive catalyst into Jul 17. Secondary: Broadcom supply extension to 2031, Citi PT $365 (noise). Apple fiscal Q3 2026 earnings after close Thu Jul 30 (~13d out, OUTSIDE 24-48h window) \u2014 no binary event inside desk horizon; consensus ~$108.9B rev / ~$1.88 EPS (4 straight EPS beats). Near-term driver is momentum/afterglow (mildly FOR long / against fresh shorts), but record-high name into thin off-hours print carries mean-reversion/pullback risk.",
+    "analyst": "Directionally a short is correct with the defensive macro + lower-TF roll-over (15m lower highs off 337.08 into the close), but the immediate downdraft is already extended (5m RSI 4.4) so a market short chases into a likely counter-bounce \u2014 this account's #1 loss pattern. Structure isn't crowded-long (little squeeze fuel), and a fresh short from 333.19 with stop above 339.17 (~6.4 pts risk) to distant support fails R:R off thin off-hours liquidity. Cleanest play: HOLD, size 0, arm a short trigger on a bounce into the 336.5-337 supply zone (tight risk vs 339.17); a close above 339.17 kills the fade and flips to breakout-continuation.",
+    "portfolio": "AAPL/USDT:USDT \u2014 HOLD (conf 0.58, size 0.0): no trade; fade-strength short only on a bounce into 336.5-337, invalidated above 339.17."
+  },
+  "timestamp": "2026-07-17T09:34:22.881602+00:00"
+}

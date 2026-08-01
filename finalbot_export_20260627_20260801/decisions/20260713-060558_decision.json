@@ -1,0 +1,26 @@
+{
+  "symbol": "ORCL/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.6,
+  "size": 0.0,
+  "entry": 139.36,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "forecast": "Oversold bounce off the 138.47 capitulation low continues: price grinds up toward the VWAP / broken-support-turned-resistance zone 141.0-142.0 over the next few bars, where the downtrend (4h/1h short, RS -19%, credit overhang) should reassert for a fresh short.",
+  "expectancy_note": "Shorting 139 into 1h RSI 15 + 5m long = the account's classic late-short-stopped-by-bounce loss; p(win) low. Fresh long into a genuine downtrend and a CPI wall is negative expectancy too. Best EV is waiting to sell the bounce at 141-142.",
+  "rationale": "ORCL is deeply oversold (1h RSI 15, VWAP -2.46%, %B 0.08) and the 5m has flipped long - the 138.47 capitulation low held and the last candles are coiling higher, so a counter-bounce is the near-term path, not more downside. That makes selling here a chase into the exact stop-out pattern this book bleeds on, while a fresh long fights a real credit/FCF downtrend (RS -19%) into Tuesday's CPI. Hold flat and re-short strength at the VWAP retest; US equities closed so signals are thin/gappy.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 141.4,
+    "expires_min": 240,
+    "note": "Tag of the VWAP / broken-support resistance zone is where the oversold bounce exhausts and the downtrend can be re-shorted with favorable R:R instead of chasing the hole."
+  },
+  "transcript": {
+    "macro": "Regime MIXED-to-cautious, event-gated (2026-07-13). S&P 7,575 (+0.42%)/Nasdaq 26,282 (+0.29%) Fri close after a volatile semi sell-off week. New Fed Chair Warsh testifies Jul 14-15 (hawkish overhang; ~61% odds of a Sept HIKE priced). Dominant near-term catalyst: Tue Jul 14 08:30 ET June CPI (~3.8-3.9% YoY) + big-bank earnings - high-vol event wall <48h. US cash equities CLOSED now (Monday off-hours) so perps are thin/gappy, reprice at the 09:30 ET open. Environment favors short/range-fade over fresh longs, but washed-out 1h RSIs + long-skewed L/S (ORCL 2.33 = upward squeeze fuel) + CPI wall argue for smaller size and selling strength not the hole.",
+    "sentiment": "News modestly SUPPORTS the short: record $523B AI backlog (OpenAI/Meta deals) vs a brutal balance sheet - -$23.7B FCF FY26, capex +162%, $122B+ debt, S&P cut rating toward junk. New buy rating + Bernstein defense Jul 9 (stock +3.4% that day). No earnings in the 48h window. The credit-downgrade/FCF overhang backs the deep negative relative strength and the bearish technicals - but no fresh 48h catalyst and price is stretched/oversold on 1h.",
+    "analyst": "Composite short 47% but NOT aligned - 1h RSI 15 (extremely oversold), VWAP -2.46%, %B 0.08, and 5m flipped LONG. The 138.47 capitulation low held and last bars coil higher = counter-bounce underway. L/S 2.33 crowd is squeeze fuel. Shorting 139 is chasing; a fresh long fights a real credit downtrend into CPI. HOLD and re-short strength at the 141-142 VWAP retest.",
+    "portfolio": "HOLD - credit/FCF overhang backs the short but 1h RSI 15 + 5m long = bounce risk; re-short strength at VWAP ~141.4."
+  },
+  "timestamp": "2026-07-13T06:05:58.428794+00:00"
+}

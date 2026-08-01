@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "META/USDT:USDT",
+  "size": 0.0,
+  "entry": 670.06,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.62,
+  "playbook": "none",
+  "forecast": "Low-volume weekend drift; price coils in the 667-671 band under 678.67 resistance with no momentum either way over the next several bars. No clean directional move available.",
+  "expectancy_note": "Long is chasing RSI-80 / +4.24% above VWAP (the account's #1 loss pattern); short has no reversal confirmation vs an intact ADX-40 uptrend. Both negative expectancy in dead thin tape \u2014 flat is the highest-EV choice.",
+  "rationale": "META is the strongest RS name (+16%) but is badly stretched (RSI 80.3, stoch 91.4, +4.24% above VWAP) and grinding in a tight 667-671 band on vanishing weekend volume, ~1.3% under 678.67 resistance. It trades as an equity, so crypto structure is noise, and US cash is closed with CPI Mon/Tue = Monday gap risk. There is no honest R:R here: a long chases an extended move into resistance, a short fights an intact trend with zero rollover signal. Size 0 \u2014 wait for either a confirmed breakout retest or a rollover.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 678.67,
+    "expires_min": 240,
+    "note": "A clean break and hold above 678.67 resistance clears the overhead and turns continuation into a retest-buyable setup rather than a chase into a ceiling."
+  },
+  "transcript": {
+    "macro": "Regime MIXED, cautiously risk-on but thin. Wall St closed Fri higher (S&P +0.42%, Nasdaq +0.29%), Big Tech led (NVDA +4%, META +6%). Higher-for-longer Fed (rates 3.50-3.75%, CPI >4% y/y, ~63% odds Sept hike). DXY soft ~100.8. BTC ~$64.1k. WEEKEND: US cash equities closed until Mon 13:30 UTC \u2014 stale underlyings, thin books, Monday gap risk; US CPI ~Jul 14-15. META: strongest fundamentally \u2014 jumped ~6-7% Fri on 'Meta Compute' AI-cloud + Iris chip news; RS +16.35% (clear leader). But stretched: RSI 80.3, bb_pctb 0.86, price near resistance 678.67, 4h vwap_dist +4.24%. Structure near-neutral (L/S 0.86 balanced). SUPPORTIVE trend / MIXED entry.",
+    "sentiment": "Market cautiously positive but nervous; hawkish Fed (~61-77% odds HIKE). June CPI 7/14 key binary. META BULLISH but EXTENDED/risk: spiked ~6-10% Fri on 'Meta Compute' AI-cloud unit + in-house Iris chips; strong RS but RSI ~80 overbought. HARD catalyst Q2 earnings 7/29 (outside 48h); live risk is raised $125-145B AI capex forecast. Near-term momentum bullish but overbought into thin weekend tape; fade-risk if CPI sours mega-cap tone.",
+    "analyst": "Strongest RS name (+16%) but badly stretched (RSI 80.3, stoch 91.4, +4.24% above VWAP) and grinding in a tight 667-671 band on vanishing weekend volume, ~1.3% under 678.67 resistance. Trades as an equity so crypto structure is noise; US cash closed + CPI Mon/Tue = gap risk. Long chases an extended move into resistance (account's #1 loss pattern); short fights an intact ADX-40 uptrend with no rollover signal. HOLD; long only on a confirmed break/hold above 678.67 retest.",
+    "portfolio": "META \u2014 HOLD, size 0; leader but too extended to chase \u2014 wait for a 678.67 breakout retest."
+  },
+  "timestamp": "2026-07-11T05:00:53.098430+00:00"
+}

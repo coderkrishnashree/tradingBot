@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "ORCL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.34,
+  "playbook": "none",
+  "forecast": "Fresh break of 126.99 but 15m RSI 11 / 30m RSI 29 is deeply oversold at the level; expect a mean-revert bounce toward 126.99-127.4 (broken support = resistance) or a brief flush to 126.0-125.5 within 2-4 bars before direction resolves. No clean entry at 126.72.",
+  "expectancy_note": "p(win) ~0.45 for a spot short into RSI-11 chop (ADX 5.3) with no R:R edge; waiting for a 127.0 retest-reject (tight stop >127.5) or a range reclaim beats chasing the breakdown now.",
+  "rationale": "Composite is chop/flat (ADX 5.3, regime_blocked, conf 6.7%) and the 15m/30m RSI (11/29) are already washed out right at the 126.99 break, so a market short here is the classic late-into-stretched-tape trap this account keeps losing on, while a long fade has zero confirmation and crowded longs (L/S 2.39) can still capitulate lower. No honest 1.5R exists at spot either way, so the highest-expectancy action is to wait for a retest. Size 0.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 127.45,
+    "expires_min": 240,
+    "note": "Reclaiming 127.45 puts price back inside the pre-break range, failing the short breakout and flipping the near-term bias toward a bounce to 128/VWAP; below that the bear structure stands and a 127.0 reject becomes the short entry."
+  },
+  "transcript": {
+    "macro": "Regime MIXED, leaning risk-on but event-charged. Heavy single-stock earnings tonight (GOOGL/TSLA/IBM). FOMC Jul 29. Environment supports short-side intraday fades but hostile to carrying risk into tonight's earnings. ORCL: structure_bias -0.361 (L/S 2.03 crowded long, orderbook -0.20). Near-zero BTC corr (0.09), near-flat rel-strength \u2014 trading on its own, not index beta. No earnings today (Oracle ~Sep), cleaner than GOOGL for holding, but thin liquidity + heavy crowded-long positioning argue smaller size.",
+    "sentiment": "Oracle next earnings ~Sep 9-14 2026 \u2014 no company-specific binary inside 48h; cleanest of the four for a pure technical trade. Drifts with the Nasdaq/AI tape; correlates modestly with QQQ (0.40). Scan mildly short (28% conf, RS ~-14.6%) with 4h RSI 69 bearish divergence. Near-term news neutral \u2014 trade the levels, but a big GOOGL beat/miss can spill into AI-software.",
+    "analyst": "Fresh break of 126.99 support (last bar 127.07->126.51, close 126.72, rising volume) but 15m RSI 11 / 30m RSI 29 deeply oversold right at the level, composite chop (ADX 5.3, regime_blocked). Market short = late-into-stretched-tape trap; long fade has no confirmation and crowded longs (L/S 2.39) can capitulate further. No honest R:R at spot. HOLD; arm range-reclaim trigger at 127.45.",
+    "portfolio": "ORCL: HOLD (conf 0.34) \u2014 fresh breakdown but LTF washed out in chop; reconsider on a 127.45 reclaim (fail) or 127.0 reject (short)."
+  },
+  "timestamp": "2026-07-22T08:00:19.206326+00:00"
+}

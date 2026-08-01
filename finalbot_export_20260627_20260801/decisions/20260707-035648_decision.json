@@ -1,0 +1,25 @@
+{
+  "action": "hold",
+  "symbol": "EWJ/USDT:USDT",
+  "size": 0.0,
+  "entry": 94.36,
+  "stop_loss": 91.43,
+  "take_profit": 96.65,
+  "confidence": 0.5,
+  "playbook": "none",
+  "expectancy_note": "Short = chasing into 91.43 support with %B 0.00, RSI22 + bullish divergence (poor R:R, exhaustion risk); Long = knife-catch vs ADX-53 downtrend, no reclaim yet. Both < 1.5 R:R here; wait for resolution.",
+  "rationale": "Genuine conflict with no edge at spot: scanner/higher-TF momentum is short (ADX 53.5, all per-TF scores negative) but price is pinned to the lower Bollinger band (%B -0.004), 1h RSI 22.1 with a flagged bullish divergence and mild bid-side orderbook (+0.175) only 0.59% under VWAP. Shorting now chases an oversold move into support at 91.43 (~3% away = weak R:R); longing fights a strong downtrend with no reversal confirmation, into thin Tokyo-hours liquidity and a neutral-to-bearish macro (toppy Nikkei, hawkish BOJ). No dated <=48h catalyst forces action. Highest-expectancy move is to stand aside until price picks a side.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 91.43,
+    "expires_min": 240,
+    "note": "Losing support 91.43 kills the oversold-bounce thesis and confirms trend continuation, opening a clean short with real downside target rather than a chase into support."
+  },
+  "transcript": {
+    "macro": "Regime MIXED, cautiously risk-on into a hard event wall. US equities record highs on AI optimism; hawkish Fed under Warsh, sticky inflation, firm USD. June CPI July 14 (outside 48h). Tokenized-equity perps: thin books/gap risk outside cash hours, funding ~0. EWJ $94.36: Nikkei near record highs (~69,700, off June 72,831 peak) but directionless last two sessions. Scan has it oversold short-term (1h RSI 22, bullish divergence) \u2014 a countertrend short into a strong-but-toppy Nikkei with thin Tokyo-hours liquidity. Neutral-to-mixed backdrop.",
+    "sentiment": "EWJ Net NEUTRAL-to-mildly-BEARISH near-term. Nikkei +37% YTD, hit ATH (~72,700) in June, now profit-taking and tech-led sector rotation as global AI/semi selloff (Samsung/SK Hynix -7-9%) drags Japanese tech \u2014 consistent with scanner short lean. Hawkish BOJ: hiked to 1% in June (highest since 1995), signaled more hikes toward ~2%, yen-supportive but equity-negative. NO BOJ meeting inside 48h, no imminent binary. Politics stable.",
+    "analyst": "EWJ presents a textbook conflict. Composite short lean driven by a strong higher-TF downtrend (ADX 53.5, every per-TF score negative, structure_bias -0.08). But price sits at the lower Bollinger band (%B 0.00), 1h RSI 22.1 with an explicit bullish divergence, stoch 24.8, only 0.59% below VWAP with a mildly positive orderbook imbalance (+0.175) \u2014 classic bounce-setup ingredients. Shorting here chases an already-oversold move into support 91.43 (~3% away, poor R:R). Longing catches a knife against an ADX-53 downtrend with no reclaim confirmation, in thin Tokyo-hours liquidity and neutral-to-bearish macro. Neither side clears 1.5 R:R, no dated <=48h catalyst, btc_correlation low (0.275) so an independent name to pass on. HOLD with an armed short trigger on a clean break below 91.43.",
+    "portfolio": "HOLD EWJ/USDT:USDT \u2014 oversold vs downtrend standoff, no edge at spot; wait for a break of 91.43 (short) or VWAP reclaim (long). Confidence 0.50."
+  },
+  "timestamp": "2026-07-07T03:56:48.457107+00:00"
+}

@@ -1,0 +1,26 @@
+{
+  "symbol": "TSLA/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.62,
+  "size": 0.0,
+  "entry": 404.77,
+  "stop_loss": 389.91,
+  "take_profit": 437.73,
+  "playbook": "trend",
+  "forecast": "After a vertical 395->405.7 run, expect a stall/pullback toward the 397-399 breakout shelf (near VWAP) within 3-6 bars; that retest is the honest long entry, not 405 at the top of the spike.",
+  "expectancy_note": "Chasing here: lower-TF RSI 76-79, price at range high into US-close gap risk = a routine counter-bounce hits any honest stop first (this account's #1 loss pattern). Long-on-pullback ~397 offers ~1.5R+ with p(win) ~0.6; entering now is negative expectancy. Shorting a 49-ADX fresh-catalyst uptrend is worse.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 399.0,
+    "expires_min": 240,
+    "note": "A dip into the 397-399 breakout/VWAP retest that holds gives a clean trend-continuation long with proper R:R; slicing through toward 389.91 weakens the trend thesis and I re-debate."
+  },
+  "rationale": "TSLA is in a genuine idiosyncratic uptrend (robotaxi + deliveries beat, ADX 49, composite LONG, 4h aligned up), but it is extended: the 15m candles show a near-vertical run into 405.7 with 15m/1h RSI 76-79 and price at the top of its range. Buying this news spike late, into a thin US-close liquidity cliff with overnight gap risk, is exactly the late-continuation chase that has bled this account (trend playbook 0.47 win / -3.0 avg). The high-expectancy trade is to wait for a pullback to the 397-399 breakout shelf near VWAP, so I hold flat now with size 0.",
+  "transcript": {
+    "macro": "Overall MIXED-to-CAUTIOUS, risk-off undertone; equity perps face US-close liquidity cliff. TSLA: MIXED-to-SUPPORTIVE for long but crowded/extended \u2014 standout mover +~6% on Miami driverless Robotaxi launch + Q2 deliveries (480k, +25% y/y). Scan LONG (5m/1h/4h up) but 15m/1h RSI 76-79, price 405 after vertical run, L/S 1.59 (longs loaded). Momentum can continue intraday but chase-risk high, will gap on US close.",
+    "sentiment": "TSLA most catalyst-heavy. Live binary Q2 earnings Jul 22 (outside 48h but approaching). Digesting Q2 deliveries beat (vs ~406k consensus) that earlier triggered ~7.5% drop on margin fears, plus Jul 3 robotaxi launch and Jul 7 product announcement \u2014 fresh and moving price. Tone momentum-positive but stretched into event-heavy tape \u2192 two-sided WATCH; flags overbought exhaustion risk.",
+    "analyst": "Genuine idiosyncratic uptrend (ADX 49, 4h aligned up) but extended: near-vertical run into 405.7, 15m/1h RSI 76-79, price at range top. Chasing the news spike late into a thin US-close liquidity cliff = the account's #1 loss pattern (trend playbook 0.47 win, -3.0 avg). Honest trade is a pullback long to the 397-399 breakout/VWAP shelf; HOLD flat now, armed to re-debate a long on the retest.",
+    "portfolio": "TSLA \u2014 HOLD (conf 0.62), size 0; armed pullback-long on dip to 397-399 (re-debate below 399)."
+  },
+  "timestamp": "2026-07-09T17:30:10.156242+00:00"
+}

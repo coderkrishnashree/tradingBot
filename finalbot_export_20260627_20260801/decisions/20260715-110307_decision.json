@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "AAPL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Coiling 317.2-317.7 under the 319.29 impulse high with heavy offers overhead; expect drift/rejection back toward VWAP ~316 / 315 support over the next 2-6 bars rather than an immediate breakout. A clean volume reclaim above 319.3 would open 323; loss of 315 flips near-term bias down.",
+  "expectancy_note": "p(win) ~0.45 for a market long here; buying an aligned/high-ADX/upper-band (bb%b 0.88) setup into -0.625 orderbook offers and a fresh KeyBanc downgrade is exactly the account's losing profile (trend playbook 0.45win/-2.62). Better expectancy waiting for a 315 pullback-buy or a confirmed 319.3 breakout.",
+  "rationale": "Genuine uptrend (RS +5.4%, 4h/30m long, ADX 54) but price is stalled at the upper band with the last bar closing on its low on rising volume and -0.625 resting offers overhead \u2014 a market long chases into supply just as a downgrade caps record highs. Thin pre-open (US cash closed until 13:30 UTC) adds gap risk, and R:R to 323 through the offer wall is unattractive versus a tight stop below 315. No range extreme to fade, so the highest-expectancy action is to wait for a defined trigger rather than pay up here.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 319.4,
+    "expires_min": 240,
+    "note": "A volume-backed reclaim/hold above the 319.29 impulse high clears the offer stack and confirms trend continuation toward 323.2 \u2014 that is the entry, not chasing 317."
+  },
+  "transcript": {
+    "macro": "Mildly risk-on for tech but hawkish-tail: cooler June CPI cut July Fed hike odds to ~17% (still ~60% by Sept FOMC); S&P/Nasdaq up, semis leading. Crypto decoupled/weak; AAPL/BTC corr ~0.11 so crypto beta irrelevant. US cash thin until 13:30 UTC \u2014 pre-open moves low-conviction. AAPL: trend up/clean (15m/30m/4h long, ADX 54, RSI 59, RS +5.4% vs BTC), composite long 69%; positioning benign (funding 0, OI 3,545, L/S 0.94); CAUTION orderbook_imbalance -0.625 / structure_bias -0.17 \u2014 near-term flow offered. No macro event inside 48h (earnings Jul 30). Supportive for a long but supply overhead.",
+    "sentiment": "Mildly bullish trend but fresh KeyBanc UNDERWEIGHT initiation (Jul 14) knocked AAPL off its ATH ($323.45) to ~$313.55 \u2014 a live price-moving headwind at record highs. Countered by Evercore Outperform/$365 and Citi $365; consensus still Buy (28 analysts). Binary catalyst OUTSIDE window: Q3 earnings Jul 30 after close. Low-weight narrative: OpenAI trade-secret suit (Jul 11), Q2 smartphone shipments -11% YoY, CEO transition Cook\u2192Ternus Sept 1. Near-term: slight 1-2 day headwind, no positive binary before Jul 30 \u2014 argues mildly against chasing longs; neutral-to-cautious.",
+    "analyst": "Uptrend is real but the tape has stalled right at the upper Bollinger band (bb%b 0.88, 15m RSI 70 hot) with the last bar closing on its low on rising volume and -0.625 resting offers overhead, just as a fresh downgrade caps record highs. Buying here chases an aligned/high-ADX/upper-band setup \u2014 precisely the account's #1 loss profile (trend playbook 0.45 win / -2.62 avg; model penalizes aligned, structure_bias, vwap_dist, adx). Thin pre-open adds gap risk; R:R to 323 through the offer wall is poor vs a tight stop below 315, and there is no range extreme to fade. HOLD and wait for a 315 pullback-buy or a confirmed volume reclaim above 319.3.",
+    "portfolio": "AAPL/USDT:USDT \u2014 HOLD (conf 0.60). No entry; armed reconsider trigger at 319.4 to catch a genuine breakout instead of chasing into overhead supply."
+  },
+  "timestamp": "2026-07-15T11:03:07.335407+00:00"
+}

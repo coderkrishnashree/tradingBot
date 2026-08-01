@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "CL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Choppy pullback: price is grinding lower-highs from 87.81 toward the 85.8 pivot, but the 4h/1h uptrend and live Iran bid keep it supported; expect two-way chop between ~85.8 and ~87.6 over the next few bars until a headline or a clean 85.8 break resolves it.",
+  "expectancy_note": "No edge: composite flat (conf 5.4%), TF directions split (4h/1h long vs 15m/30m/5m short), price +2% over VWAP so a long chases an already-fading extended move while a short fights a live geopolitical bid with 2-3% up-gap risk. p(win) on either side ~0.5, no favorable R:R; HOLD beats forcing it.",
+  "rationale": "CL is the headline-driven macro fulcrum on the 11th night of Iran strikes with high two-way gap risk in BOTH directions, exactly the tape where market-chasing loses. Recent 15m candles show a lower-high pullback from 87.81 into 85.82, but the 4h/1h remain up and price sits +2.07% above VWAP \u2014 neither a clean trend-pullback long nor a confirmed short. With a flat 5.4%-confidence composite and no favorable R:R to a nearby structural target, the highest-expectancy action is to stand aside and let a level resolve it.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 85.8,
+    "expires_min": 240,
+    "note": "Losing the 85.8 swing low confirms the short-TF roll-over (15m/30m already short) is extending into a leg toward the 84 handle - flips me to a short setup with a defined stop back above 86.9."
+  },
+  "transcript": {
+    "macro": "CL is the macro FULCRUM and odd one out \u2014 Brent >$92 / WTI >$84 on Iran strike escalation (11th consecutive night of US strikes). CL NEGATIVELY correlated to the whole book (-0.25 BTC, -0.38 QQQ, -0.44 gold-proxy) \u2014 a long-oil view is a geopolitical/risk-off hedge. HEADLINE-DRIVEN: high gap risk both directions on Iran de-escalation/escalation. FOMC Jul 28-29 hold.",
+    "sentiment": "No scheduled <=48h binary. WTI caught between Middle East tension (supportive, keeping it bid) and OPEC+ adding 548k bpd in August plus bearish bank forecasts (Goldman $52 WTI FY26). Headline-driven both ways on Iran/Israel news. The one NEGATIVELY correlated asset \u2014 natural risk-off hedge. NEUTRAL with geopolitical two-way risk.",
+    "analyst": "Headline-driven fulcrum on the 11th night of Iran strikes, high two-way gap risk \u2014 the tape where chasing loses. 15m lower-high pullback from 87.81 into 85.82, but 4h/1h remain up and price +2.07% over VWAP \u2014 neither a clean trend-pullback long nor a confirmed short. Flat 5.4%-confidence composite, no favorable R:R to a nearby target. Stand aside; let a level resolve it.",
+    "portfolio": "HOLD CL/USDT:USDT \u2014 flat/muddy composite with two-way Iran gap risk; wait for the 85.8 break."
+  },
+  "timestamp": "2026-07-22T16:05:43.219046+00:00"
+}

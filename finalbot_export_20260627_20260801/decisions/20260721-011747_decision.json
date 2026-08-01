@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "QQQ/USDT:USDT",
+  "size": 0.0,
+  "entry": 699.88,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Price just ran 695 to 699.88 closing on the high; expect a stall/pullback toward VWAP ~697 over the next 1-3 bars before it can attack 704-708. A clean long sets up on that dip, not here on the closing-high bar.",
+  "expectancy_note": "Market long here = chasing a 5-pt impulse into an earnings-week binary; honest stop below 694.7 is ~5.2 pts vs ~4 pts to first resistance = R:R < 1. Waiting for the 697 retest flips R:R positive. p(win) on a chased entry ~0.45.",
+  "rationale": "QQQ is mid-range (688 support / 727 resistance) with a weak-but-long composite (43.5%) and just printed four green bars closing on the high at 699.88 - buying now is the documented late-entry loss pattern into heavy earnings-week binaries (GOOGL 7/22, INTC 7/23). The learner strongly favors longs (69% win) over shorts (49%), so a short is off the table, but the entry must come on a pullback. Want a retest of VWAP ~697 to go long with a stop under 694.7 and targets 704/708; absent that dip, HOLD.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 697.2,
+    "expires_min": 240,
+    "note": "A dip back to VWAP ~697 offers a clean long entry off support with a tight stop under 694.7 and R:R > 1.5 toward 704-708 - flips to a buy."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF/defensive; hawkish Fed (~60% Sept hike odds), rising yields, firm DXY. QQQ carries the semiconductor factor (part of the TSM/MU/INTC/EWY/QQQ cluster). Equity names ~zero BTC corr. Heavy tech-earnings week ahead.",
+    "sentiment": "Cautious/mixed, event-driven. QQQ flat (~$696), technically heavy into a heavy tech-earnings week (GOOGL 7/22, INTC 7/23 are live binaries within the index). No single QQQ catalyst but the index absorbs earnings-week risk.",
+    "analyst": "Mid-range (688/727), weak-but-long composite (43.5%), four green bars closing on the high 699.88 = chasing the impulse into an earnings-week binary (#1 loss pattern). Honest stop <694.7 (~5.2pts) vs ~4pts to resistance = R:R <1. Learner favors longs (no short). Want a VWAP ~697 retest to go long. HOLD.",
+    "portfolio": "HOLD QQQ - closing-high chase into earnings week; armed to buy a VWAP ~697 pullback."
+  },
+  "timestamp": "2026-07-21T01:17:47.788815+00:00"
+}

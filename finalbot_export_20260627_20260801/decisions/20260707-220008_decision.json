@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "XAUT/USDT:USDT",
+  "confidence": 0.35,
+  "size": 0.0,
+  "entry": 4099.3,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "none",
+  "forecast": "Price is basing 4097-4099 just under 4100 after a 50pt flush to 4084; 15m RSI 22.8 deeply oversold on a tight BB (width 1.98%) sitting on the lower band. Expect chop/small mean-revert bounce toward 4110-4116 over the next 2-4 bars rather than clean continuation lower; a fresh short here chases an already-spent move into oversold with a crowded long book (L/S 2.6) as squeeze fuel.",
+  "expectancy_note": "No edge: short = chasing a done flush into oversold with squeeze/safe-haven crosswind; R:R to next support poor with stop above 4116. Two-sided FOMC-minutes binary Wed 2pm ET argues wait.",
+  "rationale": "ADX 23.7 = no trend; this is range/pullback and price already flushed to 4084 and is basing oversold under 4100, only 1% from VWAP. A short now is chasing with stop needed above 4106-4116 against a heavily crowded long book (2.6 L/S) that is squeeze fuel if the equity/chip selloff bids gold as a safe haven, plus a two-sided FOMC-minutes binary Wednesday. Neither a clean short nor a long has expectancy here; wait for the breakdown of the flush low or a reclaim to define the move.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 4084.0,
+    "expires_min": 240,
+    "note": "Losing the 4084 flush low confirms the base failed and re-opens trend-continuation short toward 3941 support with the crowded long book capitulating; a reclaim of 4116 instead would kill the short thesis."
+  },
+  "transcript": {
+    "macro": "RISK-OFF, chip-led equity selloff. XAUT is the weakest-conviction short of the group. Gold ~4,140-4,150 off ~0.4%, pressured by stronger DXY + higher yields ahead of Fed minutes. Scan bias -0.327 entirely from L/S 2.606 (contrarian crowd long), ADX only 23.7 (no trend), RSI 4h 31 oversold \u2014 range/pullback, not a trend. SAFE-HAVEN CROSSWIND: a deepening equity/chip selloff can bid gold and squeeze the crowded longs.",
+    "sentiment": "Just bounced; calendar is the risk. Gold rallied to a ~2-week high ~4,150-4,175 into Jul 6 after four down weeks on weak June payrolls (57k) that cut Sept hike odds ~67%->~50%. KEY BINARY IN WINDOW: FOMC minutes Wed Jul 8 2:00pm ET \u2014 dovish = gold up (bad for short), hawkish = gold down. Two-sided event risk argues caution/reduced size; do not be blind short into Wed 2pm.",
+    "analyst": "Sharp drop from 4136 to 4084 then bounce to 4106, now basing flat ~4097-4099 on the lower BB with a tight 1.98% width; 15m RSI 22.8 deeply oversold. Short here chases an already-spent flush into oversold with a crowded long book (squeeze fuel) and a two-sided FOMC binary. Hold; short only on a break of 4084, abandon on a reclaim of 4116.",
+    "portfolio": "HOLD XAUT \u2014 lowest-conviction short, already flushed & oversold into a two-sided FOMC binary."
+  },
+  "timestamp": "2026-07-07T22:00:08.635349+00:00"
+}

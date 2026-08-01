@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "CRCL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.58,
+  "playbook": "none",
+  "forecast": "Fresh oversold bounce in progress: price grinding 64.2 -> 65.27 (closed near bar high), likely to probe 65.9-66.3 shelf/VWAP path over next 2-6 bars; only a failure back below 64.2 confirms downtrend resumption for a short.",
+  "expectancy_note": "Market-short now = chasing into 1h RSI 23.5, -4.16% below VWAP, mid-bounce; a routine counter-bounce hits any honest stop first (account's #1 loss pattern). p(win) on a chase ~0.4, negative expectancy. HOLD and re-short on failure below base has far better R:R.",
+  "rationale": "Composite/structure lean short (crowded long 2.55, rel-strength -15.5%, ADX 65) but price is actively bouncing off deeply oversold (1h RSI 23.5) and is already 4.16% below VWAP \u2014 the exact stretched-tape setup that stops late shorts on the bounce. No <=48h catalyst; thin/gappy pre-market before US 09:30 open adds gap risk. Best expectancy is to wait: re-short only if the bounce fails and price loses the 64.2 session base, or stand down if it reclaims 66.3.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 64.2,
+    "expires_min": 240,
+    "note": "Losing the bounce base at 64.2 confirms the oversold pop failed and the downtrend is resuming \u2014 trigger for a lower-risk short with the composite/structure bias."
+  },
+  "transcript": {
+    "macro": "Regime HOSTILE-to-MIXED, risk-OFF. Fed (Warsh) held but hawkish, 61% Sept HIKE odds. Scan ~04:27 ET Mon, pre US cash open \u2014 thin/gappy. CRCL: structure_bias -0.404 (most negative of four), long/short 2.55 (crowded long -> contrarian bearish), composite SHORT 62.4% conf, ADX 65, 1h RSI 23.5 deeply oversold (bounce risk), rel strength -15.5% vs BTC, BTC corr 0.55 with BTC soft. Lean cautious-SHORT, respect gap/headline risk. Size smaller this cycle.",
+    "sentiment": "Weekend Hormuz strikes -> risk-off equities. CRCL NET NEUTRAL/mixed, NO <=48h catalyst. Q2 earnings + Coinbase USDC renewal both mid-August (~Aug 18). OCC trust-bank approval already popped/faded. Overhang: 'Open USD' rival consortium (Visa/Stripe/Mastercard/BlackRock+Coinbase). Highest crypto-beta (corr 0.548), BTC soft. Slight bearish lean driven by BTC/risk, not Circle-specific news.",
+    "analyst": "Last 65.27. Tape bottomed ~64.2 and is grinding higher (64.8->65.27, closed near bar high) \u2014 a fresh low-conviction oversold bounce toward VWAP (~68), not trend resumption. Shorting a -4.16%-below-VWAP laggard with 1h RSI 23.5 mid-bounce is the classic late-short trap; a market short gets stopped on the pop. No <=48h catalyst, thin/gappy pre-open. Highest expectancy is HOLD; re-short only on a failure below the 64.2 session base.",
+    "portfolio": "HOLD CRCL \u2014 cautious-short bias but mid oversold bounce; wait for failure below 64.2 to re-short."
+  },
+  "timestamp": "2026-07-13T08:33:20.857967+00:00"
+}

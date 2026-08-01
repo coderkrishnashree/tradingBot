@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "EWY/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.4,
+  "playbook": "none",
+  "forecast": "Price basing 165-166.5 with higher lows off the 164.48 climax low; likely chops/mean-reverts back toward 167-168 VWAP over the next few bars rather than making fresh lows, so a market short here gets bounced.",
+  "expectancy_note": "Short p(win) ~0.42 (learned), chasing 15m RSI 30 / -1.57% below VWAP into stacked bids (OB +0.65) and a 3-day KOSPI rebound = negative expectancy; no confirmed reversal for a long either. HOLD beats both.",
+  "rationale": "EWY already flushed 170->164.48 in a few bars on climax volume (7405) and is now basing with higher lows while orderbook bids stack - a fresh short is exactly this book's late-entry loss pattern (stopped by the counter-bounce), and the composite short is only 40.6% confidence with learned p_win 0.42. The supportive near-term tape (KOSPI +1.73%, 3 up sessions) and FOMC Wed argue against forcing a directional bet into stretched, thin conditions. Wait for either a clean retest of resistance to sell or a lower-low break of support to re-arm the short.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 164.4,
+    "expires_min": 240,
+    "note": "Losing the 164.48 climax low confirms the base has failed and re-arms the short toward 160.15 support on a proper continuation rather than a chase."
+  },
+  "transcript": {
+    "macro": "2026-07-27: Mixed-to-hostile, event-gated. FOMC Wed 7/29 2pm ET. Chip-led selloff last week. Oil >$100. Crowd lopsided-long, maxed funding -> fade crowded longs. EWY: composite SHORT aligned, broke down hard 15m (170->164), funding maxed long (trapped longs); semis/Korea proxy.",
+    "sentiment": "EWY news IMPROVING near-term: KOSPI opened +1.73% Jul 27, rallied 3 straight sessions on eased Iran tensions + big AI/semi deals (SK, Nvidia, Samsung, Naver); Citi KOSPI 10k target. Overhang: US auto tariffs on Korea raised 15%->25%. A fresh short fights the 3-day rebound; also thin/gappy when cash markets closed.",
+    "analyst": "Already flushed 170->164.48 on climax volume, now basing with higher lows while bids stack - a fresh short is the account's late-entry loss pattern, and the short signal is only 40.6% conf / p_win 0.42. Supportive KOSPI tape + FOMC argue against forcing it. HOLD; re-arm short only on losing 164.4.",
+    "portfolio": "EWY: HOLD - short signal but already flushed into a 3-day rebound; do not chase."
+  },
+  "timestamp": "2026-07-27T03:07:46.744271+00:00"
+}

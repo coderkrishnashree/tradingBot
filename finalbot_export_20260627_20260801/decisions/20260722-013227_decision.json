@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "CL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price just spiked vertically 84.63->85.72 and got wicked back to 85.62 (upper-wick rejection at the 85.72 ceiling); with stoch 98.4, %B 0.968, RSI 81 and ADX 11, next 2-4 bars most likely fade/consolidate 85.6->85.2, retesting the 85.31 breakout shelf before it can decide. Only a decisive 15m close ABOVE 85.72 opens the measured move toward ~86.3-86.6.",
+  "expectancy_note": "No entry beats both alternatives: market-buy chases +3.53% vwap/stoch-98 into rejection (learner penalizes vwap_dist -0.26, atr -0.22); shorting a live Iran/Hormuz supply shock with negative funding on EIA-print day is negative-EV. Wait for retest-buy or breakout confirm.",
+  "rationale": "Fresh breakout bar (vol 2.13x) but the very next bar was rejected at 85.72 highs and closed mid-range while every intraday RSI is 79-81 and ADX is 11 (chop, regime_blocked) - the classic don't-chase setup that has bled this account's late entries. CL is the strongest horse (+15.5% RS, -0.26 BTC corr) with war-premium bias and squeeze-fuel funding, so I want to be LONG (account longs win 71%) but only on a clean 85.72 breakout close or a pullback to the 85.31 shelf, not stretched at the ceiling. Two-sided headline gap risk (EIA today, any Hormuz de-escalation) further argues for waiting for the market to pick a side.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 85.72,
+    "expires_min": 240,
+    "note": "A decisive 15m close above 85.72 confirms the breakout through the highs and turns the war-premium bias into a tradeable long (measured move toward ~86.3-86.6); until then it is just a rejected spike."
+  },
+  "transcript": {
+    "macro": "Regime RISK-ON equity tape but capped by a LIVE US-Iran oil shock, firm DXY ~100.6, rising yields (10y ~4.6%). CL: cautious LONG-bias but CHOP-BLOCKED. WTI ~$84-85 rallying on Iran/Hormuz war premium. Scan CL index 85.62, breakout long 85.31, sitting AT resistance 85.72 (highs). Momentum up all TFs (RSI 60-81) but ADX only 11.3, regime 'chop' / regime_blocked=true, composite flat. Structure bias ~-0.05: funding NEGATIVE (-0.019%, shorts paying, squeeze fuel) but L/S 1.38 crowded long. CL negatively correlated to BTC (-0.26) and equities (-0.36) - the geopolitical hedge. War-premium trade: size small, two-sided gap risk.",
+    "sentiment": "CL POSITIVE/bullish, live geopolitical shock. Active US-Iran conflict over Strait of Hormuz (~20% of global oil flows); shipping ground to a halt, strikes 6th+ consecutive day, Houthi threats to Saudi/Red Sea as of Jul 22. Fresh supply shock - bullish & headline-sensitive; any de-escalation/ceasefire = sharp downside gap. Near-term catalysts: EIA crude inventories today Jul 22, OPEC+ meeting next week.",
+    "analyst": "Breakout bar (vol 2.13x, 84.63->85.31) then next bar pushed to 85.72 resistance but closed 85.62 - upper-wick rejection at the ceiling. Stoch 98.4 maxed, %B 0.968, RSI 79-81, vwap_dist +3.53%, ADX 11 (no trend). Learner penalizes chasing extended/high-ATR (vwap_dist -0.26, atr -0.22); longs win 71% but not stretched at the ceiling. Not a short either - live war premium, negative funding, EIA day. HOLD; buy only a clean 85.72 breakout close or a pullback to the 85.31 shelf.",
+    "portfolio": "HOLD CL - bullish war-premium bias but rejected at the highs in chop; wait for 85.72 breakout close or 85.31 retest; conf 0.6."
+  },
+  "timestamp": "2026-07-22T01:32:27.652345+00:00"
+}

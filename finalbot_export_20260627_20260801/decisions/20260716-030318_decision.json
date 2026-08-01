@@ -1,0 +1,26 @@
+{
+  "symbol": "EWY/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.4,
+  "size": 0.0,
+  "entry": 170.02,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "forecast": "Price just bounced off 166.50 to 170.02 (last bar closed on its high) and is now stalling at VWAP ~170.7; expect chop between 168 and 171 over the next few bars until US open resolves direction \u2014 no clean edge either way.",
+  "expectancy_note": "p(win) ~0.5 both directions, R:R < 1.5: any honest stop is ~5pt (3% ATR) on a thin closed-underlying, so neither the late-bounce long nor the fade short clears the bar; HOLD beats a coin-flip with slippage risk.",
+  "rationale": "Timeframes openly conflict (5m long +0.28 vs 1h short -0.87, composite aligned=false) and the recent candles show a fresh bounce off 166.50 into VWAP resistance \u2014 shorting now chases into a rising green bar, longing buys a weak horse (rel strength -21% vs BTC) at resistance. US cash market is CLOSED so the token is thin and gappy (3.5% intraday range, 3.1% ATR); no <=48h catalyst. No setup clears R:R 1.5 with an honest wide stop, so size is zero.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 166.5,
+    "expires_min": 240,
+    "note": "Losing today's 166.50 low breaks the bounce structure and confirms the 1h/4h downtrend, flipping this toward a short."
+  },
+  "transcript": {
+    "macro": "Regime mildly RISK-ON but late-session/thin (scan ~02:59 UTC, US cash closed) \u2014 treat EWY intraday structure as LOW-conviction, expect gaps at US open. Underlying risk-on but STRUCTURALLY HOSTILE: KOSPI +6% Wed to ~7,300 on chip rally (SK Hynix +12%, Samsung +5%), Korea raised 2026 GDP to 3%. But token thin/gappy (172.48 high to 166.50 low, ~3.5%; atr_pct 3.1%). Positioning balanced: funding +0.00022, long/short 1.23, orderbook -0.148, structure_bias -0.201; timeframes CONFLICT (5m long +0.279 vs 1h short -0.872). rel_strength -21.31% vs BTC, low corr.",
+    "sentiment": "EWY strongly risk-on but EXTENDED/volatile; KOSPI +6% mid-July, won firmed to ~1,488/USD (tailwind). No <=48h binary catalyst (Samsung Q2 earnings Jul 30, ~2wk out). Risk: index stretched after 6% two-day rip; chip sentiment whipsaws (early-July -9% Samsung/Hynix rout). Watch US overnight Nasdaq tone (EWY|QQQ corr 0.68). Bias NEUTRAL near term, two-sided. No token flags.",
+    "analyst": "EWY is a HOLD. Underlying US ETF closed (scan 02:59 UTC) \u2192 token thin/gappy (3.5% intraday range, 3.1% ATR). Timeframes conflict hard (5m long vs 1h short, aligned=false) and last 3 candles show a fresh bounce off 166.50 to a strong 170.02 close right into VWAP resistance \u2014 a short chases a rising bar, a long buys a weak horse (rel strength -21% vs BTC) at resistance. Neither side clears R:R 1.5 with an honest ~5-point stop. Watching 166.50 (loss flips to short) and a 172.48 reclaim (confirms bounce).",
+    "portfolio": "HOLD EWY \u2014 no clean edge; conflicting TFs + thin closed-underlying, watch 166.50 break for a short."
+  },
+  "timestamp": "2026-07-16T03:03:18.905554+00:00"
+}

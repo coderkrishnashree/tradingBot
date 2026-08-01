@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "SOL/USDT:USDT",
+  "size": 0.0,
+  "entry": 76.6,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price bounced ~$1.15 off 75.46 back to 76.6 and now sits at %B 0.90 / RSI 66 / +1.5% above VWAP into the 77-79 supply zone; expect it to stall and either fade toward 74.5-75.0 or chop under 79 over the next 4-8 bars.",
+  "expectancy_note": "Long here chases into upper band+resistance with crowded L/S 2.72 and weak RS -5.2% (model-penalized); short fights a rising 4h/1h trend where account shorts win only 49%. Both negative expectancy; wait.",
+  "rationale": "SOL is pure BTC-beta (corr 0.80) into a RISK-OFF tape with BTC near 21-month lows and record ETF outflows \u2014 least attractive fresh long of the group. Current price is a stretched intraday bounce into resistance (%B 0.90, +1.5% VWAP) with crowded longs (structure_bias -0.328); buying now is chasing and a routine pullback hits any honest stop first. Want a pullback toward 74.5-75.0 to join the 4h uptrend, or a decisive reclaim of 79 to confirm continuation \u2014 neither exists yet, so no trade.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 74.5,
+    "expires_min": 240,
+    "note": "A pullback into 74.5 toward VWAP/support 73.3 gives a low-chase, tight-stop long entry to join the 4h/1h uptrend."
+  },
+  "transcript": {
+    "macro": "Broad regime RISK-OFF/defensive: semis-led equity selloff (SOX -20% off peak), oil +4% on Mideast escalation. Monday futures modestly firm (Nasdaq +0.4%, ~68% up-open) but counter-trend. Rates easing (10Y ~4.55%), DXY ~101 neutral. CRYPTO BACKDROP POOR: BTC ~$60-64k near 21-month low, record June ETF outflows. SOL is pure BTC-beta into a weak BTC with crowded long positioning (L/S 2.72) \u2014 least attractive fresh long of the group.",
+    "sentiment": "SOL neutral-to-mildly-bullish, NO hard <=48h binary. Fear&Greed ~50. Structural positives (5 spot SOL ETFs live ~$1.12B inflows, Alpenglow/Firedancer) but not dated events. No unlock/hack/delisting in 1-3 days. Trades as BTC-beta this session.",
+    "analyst": "Price rallied ~$1.15 back to 76.6, now at %B 0.90 / RSI 66 / +1.51% above VWAP into resistance below 79. Learner edge is on LONGS but SOL here has weak RS, crowded longs, negative structure_bias \u2014 all model-penalized. Long = chasing; short into a rising 4h/1h trend has negative expectancy (short WR 0.49). HOLD; want pullback to 74.5-75.0 or clean break above 79.",
+    "portfolio": "HOLD SOL \u2014 stretched bounce into resistance with crowded longs and weak RS; no clean entry at 76.6."
+  },
+  "timestamp": "2026-07-20T09:44:46.988297+00:00"
+}

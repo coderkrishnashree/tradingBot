@@ -1,0 +1,24 @@
+{
+  "symbol": "META/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.6,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "rationale": "META is the strongest name (+15.8% RS) but stretched: RSI 74.7, stoch 80.5, %B 0.82, +2.55% over VWAP, pressed into 689.72 resistance after a 666-low washout-and-bounce. In RISK-OFF with no <48h catalyst, chasing the long into resistance is negative-expectancy (stop must sit below 666, R:R<1) and market-shorting the leader mid-bounce is exactly the late-short-into-strength pattern the book bleeds on. Hold and let the 689.72 test resolve \u2014 rejection arms a fade toward 668, reclaim arms continuation.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 689.72,
+    "expires_min": 240,
+    "note": "A hold/reclaim above 4h resistance 689.72 proves the leader trend resumed \u2014 re-debate a continuation long on the retest; a rejection instead sets up the mean-reversion short toward 668."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF. META: rel-strength +15.8% (strongest in set) but RSI 74.7 / stoch 80 / bb%b 0.82 extended. Sharp 4h drop ~684->668 then recovered. L/S 1.04 neutral. Leader but overbought/choppy; long-chasing risky, mean-reversion risk high. Earnings Jul 29 outside window. US cash open.",
+    "sentiment": "META NEUTRAL, avoid fading strength on fundamentals. No fresh <=48h headline. Hot/overbought momentum read only; no near-term news catalyst to justify long. Pre-earnings drift + CPI risk-on tone the only positives.",
+    "analyst": "Bounce off 666 washout stalling under 689.72 while extended. No clean entry: long chases into resistance (R:R<1); short fades the leader mid-bounce (#1 loser). Hold for the 689.72 decision.",
+    "portfolio": "HOLD META/USDT:USDT (conf 0.6) \u2014 overbought leader at resistance; trigger at 689.72."
+  },
+  "timestamp": "2026-07-16T15:06:17.329009+00:00"
+}

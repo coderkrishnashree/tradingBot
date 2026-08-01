@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "COIN/USDT:USDT",
+  "size": 0.0,
+  "entry": 163.18,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Choppy 160-166 range persists off-hours; expect price to oscillate 162-165 with thin volume until US cash open (~13:30 UTC), no directional resolution in the next few candles.",
+  "expectancy_note": "No edge: ADX 24 (no trend), mid-band %B 0.59 / stoch 56 (no extreme to fade), 4h-long vs 30m/1h-short conflict, US market CLOSED = gappy thin tape. Any entry here has R:R < 1.5 with high slippage risk; HOLD is highest expectancy.",
+  "rationale": "COIN is a tokenized equity trading in thin off-hours (single-digit contract volumes, OI 8,254) with US cash market closed, so gap/slippage risk is severe. The tape is directionless chop between 160-166 after a sharp rejection off 166.7 then a grind back to mid-range; ADX 24 confirms no trend and price sits mid-band with no support/resistance to lean on. Timeframes conflict (4h long RSI 68 vs 30m/1h firmly short) and the crowded-short cushion (L/S 0.641) argues against a fresh short while RSI 68 + gappy tape argues against a chase-long. No clean setup, so no trade.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 168.65,
+    "expires_min": 300,
+    "note": "Reclaiming range resistance 168.65 (likely only on US cash open) confirms the 4h uptrend resuming and the crowded-short squeeze, flipping me to a momentum long."
+  },
+  "transcript": {
+    "macro": "RISK-OFF/fragile bounce. BTC ~$64,200, dominance ~56.2%, Fear & Greed 25, spot ETF outflows ~$2.73B/10d, Coinbase Premium negative 50 days. COIN is a tokenized equity \u2014 analyze as US equity. Underlying closed 7/15 at $167.21 (+3.54%); token 163.18 (below cash close, US market CLOSED at 17:30 UTC pre-open). Liquidity thin (OI 8,254). Q2 earnings after close Jul 30 (outside 48h). RS leader +2.61 vs BTC, crowded-short cushion (L/S 0.641), structure near-neutral. 4h up (RSI 68) vs 30m/1h short \u2014 stalling pullback. Macro bias: neutral-to-mildly-constructive but thin equity, gap/liquidity risk, small size.",
+    "sentiment": "COIN as equity: Q2 earnings Jul 30 after close (~2 weeks, not <=48h). Recent flow bearish/soft: Piper Sandler PT cut to $155 (Jul 14), JPMorgan trimmed COIN/Circle (Jul 13), CLO Paul Grewal departing Jul 31 \u2014 all long-horizon. Trades on BTC beta + US hours (gappy off-hours); BTC soft + Fear 25 -> near-term lean down. No <=48h binary; neutral-to-mildly-bearish; main caveat stretched RSI 68 + bullish 4h.",
+    "analyst": "COIN last 163.18, US market CLOSED (thin, single/double-digit contract volumes, OI 8,254). ADX 24 (weak trend), RSI 68, %B 0.59, stoch 56, VWAP +0.93% \u2014 mid-range chop 160-166 after a sharp rejection off 166.7. No support/resistance to lean on, timeframes conflict (4h long vs 30m/1h short), crowded-short cushion argues against fresh short while RSI 68 + gappy tape argues against chase-long. Textbook NO-TRADE: HOLD is highest expectancy. Reconsider on reclaim of range resistance 168.65 (likely only on US cash open) -> flip to momentum long.",
+    "portfolio": "HOLD COIN \u2014 thin off-hours chop, no honest R:R; reconsider on 168.65 reclaim."
+  },
+  "timestamp": "2026-07-16T17:33:42.932649+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "MU/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Thin weekend tape: price likely chops 845-852 into Monday. The 15m pop to 852.6 was rejected back to 848 (weak close), so near-term drift is sideways-to-down toward VWAP/843; a reclaim of 852.6 would re-arm the long, a loss of 843 opens 837/830.",
+  "expectancy_note": "No honest ~1.5R setup: crowded-long laggard on a closed, gap-prone tokenized-equity tape; long fights deeply negative 4h MACD, short fights squeeze + Monday gap risk. Best expectancy is flat.",
+  "rationale": "MU is a tokenized equity, so funding/OI/L-S are not tradeable signals; it is frozen over the weekend with a hard Monday-open gap risk into a hostile semi bear market. The 15m momentum that produced the long composite just rejected 852.6 and closed weak at 849, while the dominant 4h MACD (-20) is still bearish and rel-strength is -30% - a muddy, conflicted picture. Longing a beaten chip into a closed risk-off tape is the wrong side, and shorting a crowded-long laggard invites a squeeze with no confirmation; neither clears R:R, so I stay flat and let a level pick the side.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 843.0,
+    "expires_min": 240,
+    "note": "Losing 843 (below VWAP and last swing lows) confirms the 852.6 rejection is a real fade and opens a clean short toward 837/830 with structure to lean on."
+  },
+  "transcript": {
+    "macro": "Risk-off/hostile weekend (Sun Jul 19); US equity/futures/oil CLOSED, tokenized equities thin/gap-prone, hard Monday 13:30 UTC gap risk. Week risk-off (S&P -1.6%, Nasdaq -2.9%, semis SOXX ~-17%/mo AI-chip rout). Hawkish new Warsh Fed (~60% odds higher rates by Oct). Crypto Fear (F&G 25-26), BTC ~$64.5k, BTC.D 56.3%. Funding ~0 on tokenized names; long/short crowded-long everywhere (squeeze risk). Bias: size down, prefer shorts/fades over fresh longs, respect Monday gap. MU: epicenter of AI/memory selloff, L/S 2.19 crowded long, rel-strength -30%, 4h MACD deeply negative - fade rallies at most, small size.",
+    "sentiment": "Risk-off. Semiconductor bear market (PHLX Semi in bear market on AI-capex-cut fears). US-Iran conflict re-escalating (Hormuz blockade) bidding oil. Crypto Extreme Fear (25). Key catalyst: Jul 22 (Wed after close) TSLA + GOOGL Q2 earnings. MU: bearish/volatile, caught in semi wipeout (-7% Jul 15) on China CXMT $8.5B DRAM IPO + mooted US HBM export curbs; high-beta semi proxy, risk of another leg down.",
+    "analyst": "Tokenized equity frozen on the weekend; funding/OI/L-S not tradeable. 15m popped to 852.6 then rejected to 848 (weak close) while dominant 4h MACD -20 stays bearish and rel-strength -30%. Long chases into a closed risk-off tape against the 4h; short a crowded-long laggard invites a squeeze with no confirmation. Neither clears R:R, so flat and let a level (loss of 843 = short toward 837/830) pick the side.",
+    "portfolio": "MU HOLD - conflicted, weekend-frozen chip laggard; no R:R-valid entry, watch 843 break for a short."
+  },
+  "timestamp": "2026-07-19T09:46:40.511136+00:00"
+}

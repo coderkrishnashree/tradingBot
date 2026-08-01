@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "XAUT/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Rejection off 4131.7 is playing out: last two 15m bars reversed from the 4126.7 high, final bar closed on its low (4109.4). Expect continuation of the flush toward VWAP/prior breakout 4092-4098 over the next 2-5 bars; a bounce there is the honest long entry, not up here at RSI 72 into resistance.",
+  "expectancy_note": "Buying now: entry 4109, honest stop ~4090 (>1xATR), TP at 4131 res = ~$22 reward vs ~$19 risk -> R:R ~1.1 and buying the rejection bar = negative expectancy. Waiting for the 4092-4098 retest gives a clean 1.5R+ long with macro tailwind; HOLD is highest expectancy here.",
+  "rationale": "Macro (soft DXY, negative real yields, safe-haven bid) favors gold longs, but price is extended (RSI 72, ADX 80, bb%B 0.88, +1.48% over VWAP) and just got rejected at 4131.7 with the last 15m bar closing on its low on rising volume \u2014 the crowded long (L/S 2.499, structure_bias -0.285) is exactly the fuel for a quick profit-taking flush. Chasing here fails both the anti-chase rule and R:R (~1.1 to the first resistance). The disciplined play is to wait for the pullback into the 4092-4098 breakout/VWAP zone and buy the retest with the macro tailwind, so I hold and arm a trigger.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 4098,
+    "expires_min": 360,
+    "note": "Tag of the 4092-4098 breakout/VWAP retest zone completes the pullback and sets up a clean long entry with 1.5R+ into the supportive gold macro; re-debate for a buy there."
+  },
+  "transcript": {
+    "macro": "Overall regime RISK-OFF/neutral. XAUT: gold ~$4,082-4,109 up ~1.9% on day; DXY soft (~101, near 2024 lows), 10y real yield negative (-0.45%) \u2014 supportive for gold longs; safe-haven/oil-tension bid. But crowded long (L/S 2.499, funding +0.00005, structure_bias -0.285) and technically extended (RSI 72, ADX 80, bb_pctb 0.88) just under $4,131 resistance. btc_correlation 0.386 \u2014 trades on DXY/yields. FOMC July 28-29 (~6-7 days out, Fed expected HOLD). Best macro fit of the three but chase risk high \u2014 size for a pullback.",
+    "sentiment": "Mildly BULLISH near-term. Two-week high on safe-haven buying + Middle East geopolitical risk. No fresh 48h binary \u2014 momentum/flow story. RSI 72 overbought, vulnerable to fast pullback if geopolitics cools or DXY firms.",
+    "analyst": "15m tape shows active rejection off 4131.7: ran to 4126.7 peak, then last two bars reversed hard; final bar a 9.6-pt red closing on its low (4109.4) on biggest down-volume of the up-leg. RSI 72/ADX 80/bb%B 0.88, +1.48% over VWAP \u2014 extended into resistance with support far below at 3961.8. ATR only ~0.6% (~$24.6). Buying now = entry 4109, honest stop ~4090 (>1x ATR), TP 4131 = ~$22 reward -> R:R ~1.1 while buying the exact rejection bar. Fails anti-chase and R:R checks. Highest-expectancy play is HOLD and wait for pullback into 4092-4098 breakout/VWAP retest for a clean 1.5R+ long with the macro tailwind. Armed reconsider trigger price_below 4098.",
+    "portfolio": "XAUT: HOLD (conf 0.60) \u2014 supportive gold macro but overbought/crowded into resistance; wait for the 4092-4098 retest rather than chase RSI-72."
+  },
+  "timestamp": "2026-07-22T12:59:32.014452+00:00"
+}

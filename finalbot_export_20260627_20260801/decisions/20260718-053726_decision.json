@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "MSTR/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Coils in a tight 94.95-95.35 band; price sits right at VWAP with 1h up vs 4h/5m down, no directional edge until the range resolves. Clean loss of 94.95 opens a slide toward 89.95 support; reclaim of 95.35 resumes the 1h grind higher.",
+  "expectancy_note": "Shorting here is negative-EV: account shorts run 0.47 win / -0.87 avg PnL, model punishes shorting the outperformer (rel_strength weight -0.414) with weak structure_bias (-0.082); no long edge into risk-off + weekend gap risk.",
+  "rationale": "MSTR is the ONLY name outperforming (+6.74% rel-strength, 1h trend up) sitting exactly at VWAP with the weakest structure_bias in the basket (-0.082, neutral orderbook) \u2014 the textbook bad short. Timeframes conflict (1h long vs 4h/5m short), thin Saturday liquidity plus weekend Iran-headline gap risk make a mid-range entry a coin-flip. No trade beats a negative-expectancy short of the strongest name.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 94.95,
+    "expires_min": 240,
+    "note": "Losing the 15m range floor that held on high volume confirms the 4h/5m short over the 1h long and opens the BTC-beta slide toward 89.95 support."
+  },
+  "transcript": {
+    "macro": "RISK-OFF tape: Fri Jul 17 tech-led selloff (Nasdaq -1.40%, week -2.9%) on semi rout + China AI (Moonshot) scare + US/Iran escalation. Rates a mild tailwind (10Y 4.55%), DXY cooling. Supportive of shorts, hostile to longs, but confirmed shorts are deeply oversold. US cash CLOSED Sat Jul 18 \u2014 thin/gappy perps until Mon open, weekend gap risk. All five scored short by scan, near-zero funding. MSTR is BTC-beta (corr 0.713), positioning neutral, the group's only outperformer \u2014 weakest short case.",
+    "sentiment": "No fresh 24-48h binary for any of the five today; earnings cluster Jul 29 (META/MSFT/HOOD) + MSTR Jul 30, TSLA Jul 22 first into window. MSTR/HOOD crypto-beta with soft-BTC headwind (BTC low-$60k, worst-ever ETF outflow month). Saylor now SELLING BTC ($216M) \u2014 regime change. Trade the tape not earnings.",
+    "analyst": "Mixed/conflicted: 4h/5m short vs 1h long, price AT VWAP (not extended), weak structure_bias, the group's outperformer holding up while everything falls. No edge to short (shorting the strongest horse into neutral positioning), no edge to long into risk-off + weekend gap. Learner: shorts 0.47 win/-0.87 avg PnL; rel_strength weight -0.414 punishes shorting the outperformer. NO-TRADE; arm short below 94.95.",
+    "portfolio": "HOLD MSTR \u00b7 conf 0.60 \u2014 no edge, stand aside; re-arm short on loss of 94.95."
+  },
+  "timestamp": "2026-07-18T05:37:26.576321+00:00"
+}

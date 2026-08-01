@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "QQQ/USDT:USDT",
+  "size": 0.0,
+  "entry": 695.72,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.34,
+  "playbook": "none",
+  "forecast": "Compressed drift between 694 and 696.3; the real move is the Wed FOMC + MSFT/META gap, not a tradeable intraday swing now. Expect continued coil, then a binary gap Wed-night/Thu.",
+  "expectancy_note": "No edge: long chases stoch 93.9 / %B 0.915 into a -0.83 offer wall; short has no reversal trigger in a 1.9% squeezed band. Event-hostage into FOMC+earnings = negative expectancy either way.",
+  "rationale": "QQQ is a direct proxy for FOMC (Wed) and MSFT+META earnings (Wed after-close) with orderbook -0.83 (heavy offer overhead) and price pinned near the top of a squeezed band (stoch 93.9, RSI 73, %B 0.915). ATR is only ~0.31% so any honest stop consumes the room to the 683.9/710.7 structure while the true move is a Wed gap I can't position for now. Standing aside is highest-expectancy; size 0.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 710.65,
+    "expires_min": 240,
+    "note": "A clean break of resistance 710.65 proves buyers absorbed the offer wall -> a fresh momentum long; below it it's chop into the event."
+  },
+  "transcript": {
+    "macro": "MIXED regime, risk-cautious into a heavy-event week. FOMC Wed Jul 29 + MSFT/META earnings Wed after-close = event wall. Crowded longs + RSI extremes broadly -> longs SMALL, tight stops. QQQ macro lean: AVOID fresh risk into Wed; index proxy sits directly under the events, orderbook -0.83.",
+    "sentiment": "QQQ event-driven neutral. Its constituents MSFT + META report Wed night and FOMC is Wed - QQQ is a direct proxy for both. Expect a compressed range then a Wed-night/Thu gap. Lean neutral into the events.",
+    "analyst": "Proxy for FOMC + MSFT/META, orderbook -0.83 offer wall, price pinned at top of a 1.9% squeezed band (stoch 93.9). ATR ~0.31% so stops eat all the room; the real move is a Wed gap. Event-hostage - stand aside; only a >710.65 break earns a long.",
+    "portfolio": "HOLD QQQ (conf 0.34) - event-hostage into FOMC + tech earnings; no tradeable edge now."
+  },
+  "timestamp": "2026-07-27T10:37:48.912244+00:00"
+}

@@ -1,0 +1,25 @@
+{
+  "symbol": "EWY/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.5,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "forecast": "After the 183.05->182.20 flush, LTF RSIs are washed out (5m 19, 30m 23, 15m 27) and the last bar closed green off the low; expect a dead-cat bounce back toward 183.5 VWAP/broken-support over the next 2-4 bars before the downtrend can resume \u2014 chasing a short here gets bounced.",
+  "rationale": "EWY is a semi/chip beta proxy (MU 0.807, QQQ 0.748) in a valid down-trend (ADX 70.8, RS -14.8%, risk-off + CPI Tue), so the directional bias is short \u2014 but the composite is only -0.30 at 36.9% confidence and the tape just flushed to 182.2 with LTF RSIs at 19/23/27. Entering a market short into that stretch is exactly the account's #1 loss pattern (late short bounced out before continuation), and there is no clean structural level to short from mid-range. I want either a bounce to ~183.5 (VWAP/broken support) to short with the trend, or a decisive break of 182.2 to confirm continuation \u2014 so HOLD with an armed trigger, not a chase.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 183.5,
+    "expires_min": 240,
+    "note": "A bounce back to the 183.5 VWAP/broken-support zone gives a proper with-trend short entry against a defined level instead of chasing the flush."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF, hawkish-Fed + oil-shock. Event risk 48-72h: June CPI Tue Jul 14. Korea market closed over weekend \u2192 gap risk; thin book (OB -0.29). EWY MIXED/thin: Korea/KOSPI hit when Samsung's 19x profit jump still missed most bullish estimates, spilling into semis. RS -14.8% vs BTC, scan short (-0.30) LOW conviction, ADX 70.8 (down-trend intact). Highly correlated to semi complex (MU 0.81, QQQ 0.75) \u2014 a semi/Asia-risk proxy, not standalone.",
+    "sentiment": "EWY equity/semis proxy, mildly BEARISH short-term. ~50% SK Hynix + Samsung, moves with the exact memory-chip selloff hitting MU/INTC (corr 0.81). Up ~112% YTD, now rolling over with the group (scan short, RS -14.8%). No Korea-specific stock event in 48h; driver is global semis + CPI Tuesday. Off-hours Korean market closed \u2192 thin/gappy.",
+    "analyst": "EWY 182.51, composite short -0.30 at only 36.9% conviction, ADX 70.8 (strong downtrend) but %B 0.475 mid-band, mid-range 168.8-196.23. Tape just flushed 183.05->182.20 on 282 vol then a small green recovery; LTF RSIs washed out (5m 19, 30m 23, 15m 27). Market short = late chase that gets bounced; no clean level mid-range. HOLD; armed price_above 183.5 (VWAP/broken-support retest) for a proper with-trend short.",
+    "portfolio": "Hold EWY \u2014 valid short bias but flushed/oversold mid-range, no clean entry; armed a 183.5 bounce-to-short trigger. Conf 0.50."
+  },
+  "timestamp": "2026-07-12T00:03:03.363934+00:00"
+}

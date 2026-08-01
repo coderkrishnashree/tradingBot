@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "MU/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Two rejections at 979-980 and the last 15m bar closed on its low at 962 on expanding volume; expect follow-through wobble toward the 950-955 shelf, but price is still +4.84% above VWAP (~917) with a live ADX-58 4h uptrend, so a bounce back toward 970-975 is equally likely. No clean entry into the GOOGL/INTC event wall.",
+  "expectancy_note": "Long = chasing extended (+4.84% VWAP, bearish div, crowded L/S 1.41) into events; short = chasing a bar that closed on its low with the 4h trend still up. Neither clears R:R 1.5; HOLD is highest expectancy.",
+  "rationale": "MU is a tokenized equity mid AI-memory supercycle with a strong 4h uptrend (ADX 58) but showing short-term exhaustion: bearish divergence, double rejection at 979-980, and a decisive down-close at 962. Too extended above VWAP to buy and the trend/event risk make it too dangerous to short the low-close. Wait for either a 980 reclaim (re-arm long) or a bounce into 975-980 to short the retest; thin off-hours tape plus GOOGL/INTC binaries argue for standing aside.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 980.5,
+    "expires_min": 240,
+    "note": "Reclaiming the 979-980 double-rejection zone would void the short-term topping read and re-open the ADX-58 trend long."
+  },
+  "transcript": {
+    "macro": "Regime RISK-ON but late-cycle/event-heavy. AI memory supercycle (Micron FQ3 rev +346% YoY). Memory names +200% in 3mo, extended. GOOGL earnings after close; Brent >$92 on Iran. Perps funding=0.0; equity beta. MU long-supportive on trend (ADX 58) but RS -8.8%, 4h RSI 63 bearish div, L/S 1.41 lopsided-long. Long OK, smaller size.",
+    "sentiment": "MU bullish, no imminent earnings (guided Q4 rev $11.2B, HBM sold out through 2027, Anthropic deal). Near-term driver is sector tape + Iran risk, not a dated catalyst. Sector euphoric-but-jumpy; event-heavy two-sided next 48h.",
+    "analyst": "Strong 4h uptrend but short-term exhaustion: double rejection 979-980, last 15m bar closed on its low at 962 on expanding volume. Still +4.84% above VWAP so too extended to buy; shorting the low-close fights the live uptrend into GOOGL/INTC event wall. No clean R:R. Wait for 980 reclaim (long) or bounce to 975-980 (short the retest).",
+    "portfolio": "HOLD MU (conf 0.60) - strong trend but extended/exhausting into event wall; stand aside for reclaim or retest."
+  },
+  "timestamp": "2026-07-22T20:02:37.190528+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "action": "buy",
+  "symbol": "META/USDT:USDT",
+  "size": 2.5,
+  "entry": 671.5,
+  "stop_loss": 667.4,
+  "take_profit": 685.0,
+  "take_profit_1": 678.5,
+  "take_profit_2": 685.0,
+  "confidence": 0.57,
+  "playbook": "trend",
+  "forecast": "5m RSI-13 washout flushes the pullback into the 671-673 shelf (prior breakout base), buyers defend, then rebound toward 678.5 and retest 685-686 within 3-6 bars.",
+  "expectancy_note": "p(win)~0.58; limit-fill risk 4.1 to TP1 7.0 = 1.7R, TP2 13.5 = 3.3R; long is this account's proven edge (longs +1.68 avg vs shorts -1.59), 15m-4h uptrend intact, avoids chasing by buying the shelf not mid-air.",
+  "rationale": "Higher TFs (30m 0.86, 1h 0.90) are firmly long and price only pulled back after tagging 686 resistance; the last 3 candles are tiny-range on drying volume just above the 671-673 shelf, and 5m RSI 13 marks a short-term washout ripe to bounce. I do NOT market-chase at 674 into 686 resistance with +15% RS and a heavy sell-side book (structure -0.278); instead a resting limit at the 671.5 shelf gives a clean 1.7R to TP1 with stop below the 668 pivot. Modest 2.5% size because negative orderbook and extended RS are real headwinds, but longs are the account's only profitable bucket so this is the highest-expectancy play.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 667.4,
+    "expires_min": 240,
+    "note": "losing the 668 pivot voids the shelf-defense long thesis and confirms the 686 rejection is a real reversal, not a pullback."
+  },
+  "transcript": {
+    "macro": "Regime MIXED-to-SUPPORTIVE: soft June CPI (headline 3.5% y/y, core 2.6%, PPI -0.3%) -> ~83% no-hike July, weaker USD, risk-on (S&P +0.39%, Nasdaq +0.67%, semis rebound). BTC ~$65K 3-week high but toppy (4h RSI 69 at resistance 65.5k). META: uptrend 15m-4h but 5m RSI 13 exhausted, structure_bias -0.278 (heavy sell-side book -0.567, L/S 1.36), rel-strength +14.98% leading/extended, low btc_corr 0.417. Supportive for equity trend intraday; earnings not until Jul 29 (no 48h event risk); equity token thins after US close.",
+    "sentiment": "Meta constructive, no binary within 48h (Q2 earnings Jul 29 after close). Ran ~+15% on Meta Compute/Iris AI-chip cloud narrative; Jul 13 announced >$50B 5GW Louisiana data center. Counterweight: AI-capex anxiety, FTC antitrust appeal - both slow-burn. Near-term mildly supportive/neutral.",
+    "analyst": "Trend-continuation long is this account's proven edge (longs +1.68 avg vs shorts -1.59). Rejected at 686, pulling back on drying volume to the 671-673 shelf with 5m RSI 13 washout. Rather than chase mid-air at 674 into resistance with extended RS and a heavy sell book, rest a limit long at 671.5, stop 667.4 (below 668 pivot), TP1 678.5 (1.7R), TP2 685. Modest size for the structure headwind.",
+    "portfolio": "META: BUY limit 671.5 on the pullback-to-shelf, size 2.5, conf 0.57."
+  },
+  "timestamp": "2026-07-15T17:36:14.426696+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "GOOGL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Coils 348.5-349.9 in thin overnight tape; no clean directional resolution before the after-close earnings print, which can gap it ~5% either way. Below 348.3 the LTF base fails and the 4h downtrend resumes toward 346.",
+  "expectancy_note": "With-trend short has only 0.42 learned p_win and price sits AT vwap (no fade edge, no chase edge); a binary earnings gap tonight makes any carried direction a coin-flip. Flat = highest expectancy.",
+  "rationale": "GOOGL is a laggard (RS -12.96%) with crowded-long positioning (L/S 1.59, funding +0.039%) favoring a with-trend short, but 15m/30m/5m are all flat and price is mid-band at VWAP (dist -0.36%, %B 0.43, RSI 53) - there is no extended level to fade and no momentum trigger to chase, so any entry is arbitrary. The decisive factor is tonight's after-close Q2 earnings (~5% implied move): a naked swing into that is a coin-flip, and account history shows shorts bleeding (45% win, avg -1.21R). Hold flat; the only honest short is a clean loss of the session base, and that is best taken as a fresh setup, not carried through a binary.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 348.3,
+    "expires_min": 180,
+    "note": "Losing the overnight base (348.3) with the 4h downtrend intact reopens a with-trend short toward 346; re-debate then, but still size for the earnings gap risk."
+  },
+  "transcript": {
+    "macro": "Regime RISK-ON but capped by live US-Iran oil shock (WTI ~$84-85), firm DXY ~100.6, 10y ~4.6%, Fed blackout ahead of next week's FOMC (hold expected), Sep hike odds ~55%. GOOGL: lean SHORT with-trend. Structure bias -0.34: funding +0.039% (longs pay), L/S 1.59 crowded long, orderbook ~flat. Price 349.34, 4h/1h trend down, RS -12.96% vs BTC (laggard), low BTC corr 0.35. Risk-on tape fights the short; overnight liquidity thin. Modest size.",
+    "sentiment": "GOOGL POSITIVE lean but BINARY EVENT RISK TODAY: Alphabet reports Q2 2026 earnings today Jul 22 after US close (~4:30pm ET), consensus ~$116.9B rev / ~$2.89 EPS, options pricing ~5% move - can gap the token hard overnight. Regulatory overhang (EU DMA Android order Jul 16, EUR4.1B fine) slow-burn negative, not a mover. Do not carry a naked directional position into the print.",
+    "analyst": "Price at VWAP, mid-band (%B 0.43, RSI 53, stoch 15), LTF flat - no extended level to fade and no momentum trigger to chase. With-trend short only 0.42 learned p_win; learner shows shorts bleeding (45% win, avg -1.21R). Decisive issue is tonight's after-close earnings (~5% binary) - any carried direction is a coin-flip. No honest entry; HOLD flat, arm a short trigger below the session base 348.3.",
+    "portfolio": "HOLD GOOGL - no edge into tonight's after-close earnings binary; conf 0.6."
+  },
+  "timestamp": "2026-07-22T01:32:21.430151+00:00"
+}

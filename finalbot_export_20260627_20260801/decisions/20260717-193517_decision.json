@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "HOOD/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Thin doji at 100.98 after a full retrace of the 100.2->104.1 pop; expect chop/basing between 100.2 support and 101.7 broken-support-resistance over the next 2-4 bars, no clean directional edge until one side breaks.",
+  "expectancy_note": "Fresh short = chasing (4h RSI 14, %B 0.06, VWAP -9%, GREEN cash equity, weekend squeeze risk) = account's #1 loss pattern; counter-trend long has no bounce confirmation yet. Neither clears RR 1.5, so HOLD is highest expectancy.",
+  "rationale": "The 15m path fully round-tripped the up-move into a thin, drying-volume doji at the lows - momentum is down but exhausting near 100.2 support, not a confirmed trend. Higher-TF is deeply oversold (4h RSI 14, VWAP -9%) while the underlying cash equity is green today, so a market short is a late chase into squeeze risk (the exact way this book bleeds), and a long lacks any reversal candle. On a thin Friday-into-weekend tape with structure_bias only -0.22 and p_win_learned 0.32, the disciplined play is to wait for the flush to resolve.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 101.75,
+    "expires_min": 240,
+    "note": "Reclaiming the 101.7 broken-support-turned-resistance proves the oversold flush is over and green cash equity is dragging the perp back up - arms an oversold-bounce long toward 103."
+  },
+  "transcript": {
+    "macro": "RISK-OFF regime, tech/semis leading down (Nasdaq -1.4%, SOX ~20% drawdown/bear territory). HOOD last ~100.98, funding flat, OI ~9460, L/S 1.58 (retail net-long, contrarian headwind for longs), orderbook imbalance -0.167, structure_bias -0.224. BTC corr 0.529, rel-strength -4.3%. DATA DISCREPANCY: perp deeply oversold (4h RSI 14, %B 0.06, VWAP -9%) while cash equity is GREEN ~+1.8% intraday on a $400-500M ABS funding headline -> oversold reading likely a thin-book flush, not confirmed downtrend. Verdict MIXED: short only on a bounce, squeeze risk; longs only as oversold-bounce scalp. Size down for Friday-into-weekend gap risk.",
+    "sentiment": "HOOD bullish tone but earnings-gap risk building. Up ~40% over past month on UK event catalysts (commodity perps, agentic AI trading, 24/7 stock tokens, Robinhood Chain mainnet on Arbitrum) plus PT hikes (Mizuho $130, MS $124, Barclays $122). Q2 2026 earnings = Wed July 29 after close, OUTSIDE 48h window (no binary event before then). Near-term lean mildly bullish/momentum-positive with no imminent catalyst; risk is an extended stock unwinding if risk-off rotation spreads.",
+    "analyst": "15m path fully round-tripped 100.2->104.1 pop into a thin drying-volume doji at the lows near 100.2 support. 4h deeply oversold (RSI 14, %B 0.06, VWAP -9%) but cash equity green today -> a market short is a late chase into squeeze risk (account's #1 loss pattern); a long has no reversal candle yet. Neither clears RR 1.5. HOLD with armed reconsider: reclaim of 101.75 flips to an oversold-bounce long toward 103; losing 100.24 on volume would confirm a beta short but prefer the retest over a chase.",
+    "portfolio": "HOOD/USDT:USDT -> HOLD (conf 0.50): no clean edge on a thin oversold tape with green cash equity; wait for 101.75 reclaim to arm a bounce long."
+  },
+  "timestamp": "2026-07-17T19:35:17.447030+00:00"
+}

@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "TSLA/USDT:USDT",
+  "size": 0.0,
+  "entry": 408.19,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Thin off-hours coil 407.8-408.3 likely idles or micro-drifts; no clean directional move until cash reopens or a range edge breaks. Bias is that structure (crowded longs + offered book, 4h RSI 73) resolves lower toward 405 then 400 IF momentum appears.",
+  "expectancy_note": "No edge now: long is extended/not-aligned/offered-book; short has no momentum/level and this account bleeds late shorts (47% win, neg avg). p(win) on either market-entry <0.5 vs a clean armed trigger.",
+  "rationale": "TSLA is idling in a dead, near-zero-volume off-hours coil ~1.7% above VWAP between 391 support and 420 resistance, with a bearish structure lean (long/short 1.60 crowded, book offered -0.306) but zero active momentum and 4h RSI stretched at 73. Neither side offers R:R >= 1.5 into a thin gappy weekend tape, and the learner data confirms late trend/short entries have been the account's loss leaders. Best expectancy is to wait: arm a short trigger on a decisive loss of 405 (VWAP zone) which would confirm the offered structure is finally driving price, targeting 400/391.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 405.0,
+    "expires_min": 240,
+    "note": "Losing 405 breaks the coil and VWAP support, confirming the crowded-long / offered-book structure is resolving down toward 400 then 391 - that is the honest short entry, not chasing the flat tape now."
+  },
+  "transcript": {
+    "macro": "Regime MIXED, cautious risk-on; hot inflation lid, Fed on hold; US cash closed (weekend) -> perps thin/gappy. TSLA: mixed/lower-conviction - composite long but NOT aligned, structure_bias -0.272: long/short 1.60 (crowded long, contrarian risk) AND orderbook offered -0.306. 4h RSI 73 (extended). RS only +1.43%. Weakest long setup; fade has structural support if tape rolls.",
+    "sentiment": "TSLA mixed/event-heavy. Q2 deliveries blew out 480,126 (+25% YoY, ~18% above consensus) but stock initially fell ~7.5% then rallied ~6.7% to ~$420. Robotaxi expanded to Miami Jul 3 (driverless). Key binary is Q2 earnings ~Jul 22 (some ambiguity) - outside 48h. Delivery beat already priced; no scheduled <=48h mover.",
+    "analyst": "At 408.19, idling in a dead near-zero-volume off-hours coil 407.8-408.3, ~1.7% above VWAP, mid-range between 391 support and 420 resistance. Structure bearish-leaning (crowded longs + offered book) and 4h RSI stretched at 73, but no active momentum, no level being tested. Long is extended/not-aligned/offered; short has no momentum and account bleeds late shorts. Neither clears 1.5 R:R. HOLD; armed short trigger below 405.",
+    "portfolio": "TSLA: HOLD (0.60) - weakest long setup, idling mid-range in dead tape; arm short below 405 if structure resolves down."
+  },
+  "timestamp": "2026-07-11T02:59:23.504846+00:00"
+}

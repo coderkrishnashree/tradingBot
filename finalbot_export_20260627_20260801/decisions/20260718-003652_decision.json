@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "AAPL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.55,
+  "playbook": "none",
+  "forecast": "Price coils 333-334 on dying volume just under 339.17 resistance; next few bars likely chop-to-drift back toward VWAP ~329-331 before any real move, with gap risk at US open. No clean long entry until it either pulls back to VWAP/support or breaks and holds above 339.17.",
+  "expectancy_note": "p(win) ~0.5 at best from here: long is extended +1.3% over VWAP into overbought 4h RSI 70.6 and resistance 339.17 with near-term 15m/5m rolled short - chasing gives ~1.8 R:R but the realistic path is a fade/chop, so waiting for a VWAP retest or breakout confirmation has far higher expectancy than entering mid-coil.",
+  "rationale": "AAPL is the only long-structured, positively-selected name (RS +12.21%, orderbook +0.426 bid, 30m/1h/4h all long) and the right horse in a risk-off semi tape given its negative correlation to chip laggards. But the entry is bad: price is pinned under 339.17 resistance, 4h RSI 70.6 overbought, +1.3% above VWAP, and the last ~20 15m bars are a flat, volume-drying coil with 15m -0.59 / 5m -0.9 rolling short - no long momentum trigger. US cash market is CLOSED so any position carries gap risk. I'd rather buy a pullback to VWAP/support ~329-331 or a confirmed break above 339.17 than chase into resistance; neither exists yet, so flat is the highest-expectancy stance.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 339.17,
+    "expires_min": 240,
+    "note": "A break and hold above 339.17 clears the capping resistance and confirms trend continuation, turning the bullish structure into a valid long entry with a stop back under the level."
+  },
+  "transcript": {
+    "macro": "RISK-OFF for tech, semis leading the selloff. Nasdaq -2.9% on the week, SOX bear market. Macro backdrop supportive (soft CPI, Fed hike odds ~17%, FOMC 7/28-29 outside window). Funding ~0. Scan taken while US cash CLOSED -> thin/gappy, gap risk at open. Environment MIXED-to-HOSTILE for longs generally, but AAPL is the exception. AAPL: 333.46, RS +12.21% (BEST performer), the ONLY long-structured name, structure_bias +0.173 (L/S 0.852, orderbook +0.426 bid), 30m/1h/4h all long, 4h RSI 70.6 OVERBOUGHT, pinned at resistance 339.17, lowest semi-beta (negatively correlated to chip laggards). MIXED-to-supportive for a long; overbought + resistance caps upside.",
+    "sentiment": "Overall RISK-OFF semis, but AAPL is the relative SAFE-HAVEN. Earnings July 30 (Q3 FY26) - WELL OUTSIDE 48h, no imminent binary. At record highs (~$327, +20% YTD), least chip-cyclical mega-cap, led the Dow mid-July while semis sold off - classic rotation-into-Apple that fits the long read. Only caveat: RSI ~70 (4h) stretched. iPhone 18 (Sept) is long-horizon. Near-term news NEUTRAL, mildly supportive of the long.",
+    "analyst": "Bullish structure and relative strength are genuine, but the entry is extended: pinned under 339.17 resistance, 4h RSI 70.6 overbought, +1.3% above VWAP, last ~20 15m bars a flat volume-drying coil with 15m/5m rolled short - momentum spent, not pulling back for a clean re-entry. Buying now chases into resistance on a thin/closed gap-prone tape (learner p_win ~0.42). No fade extreme either. HOLD; arm a breakout long on a clean break/hold above 339.17.",
+    "portfolio": "HOLD AAPL - the right (only) long candidate but overbought into resistance with no pullback; buy only a clean break above 339.17."
+  },
+  "timestamp": "2026-07-18T00:36:52.498769+00:00"
+}

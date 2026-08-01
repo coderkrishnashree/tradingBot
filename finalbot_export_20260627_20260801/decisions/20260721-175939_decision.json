@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "EWJ/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.62,
+  "playbook": "none",
+  "forecast": "Illiquid drift stalling under 93.0; last 6 near-zero-volume bars fade 93.01->92.76. Expect chop/slow bleed toward 91.8-92.2 VWAP-ward; no edge until 94.82 breaks or 88.16 fails.",
+  "expectancy_note": "No positive-EV entry: long is ~3.2 ATR extended (RSI 78.7, stoch 92.8, %B>1.0, L/S 1.64) into risk-off/FOMC + yen tail; short into ADX 77.6 uptrend on zero-volume tape is a coin-flip with gap risk. HOLD > both.",
+  "rationale": "EWJ is deeply overbought at the top of its 88.16-94.82 range, above the upper Bollinger band, on near-zero 15m volume (gappy, unreliable fills). Longs crowded (L/S 1.64) into a hostile risk-off tape with FX-intervention tail risk that hits the Nikkei two ways. No honest 1.5R entry: a market long chases an exhausted move, a short fights a 77 ADX trend. Wait for a pullback-and-reclaim or a decisive break.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 91.8,
+    "expires_min": 240,
+    "note": "Losing 91.8 breaks the intraday uptrend and opens a mean-reversion short on this stretched, crowded long."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF/hostile into FOMC Jul 28-29 (~36% hike odds, hawkish Warsh Fed, 10y ~4.57%), US-Iran/oil tension. BTC ~66.1k uptrend losing near-term momentum. Tokenized equity/ETF perps crowded LONG with offered orderbooks (GOOGL L/S 1.73, CRCL 2.11, EWJ 1.64) -> squeeze/flush risk favors shorts; AAPL is the exception (L/S 1.06, bid book, structure_bias +0.14). EWJ pair-catalyst = the yen (USD/JPY ~162.5, four-decade lows, BOJ intervention tail). Correlations to BTC low (GOOGL 0.34, EWJ 0.38, AAPL 0.10, CRCL 0.47). US cash session open now; equity-perp liquidity degrades after 20:00 ET. Argue reduced size across the board.",
+    "sentiment": "GOOGL: Alphabet Q2 earnings TOMORROW Wed Jul 22 after close (~4:30pm ET) \u2014 major binary, unhedgeable gap risk; avoid naked directional hold into the print. CRCL: live BULLISH catalyst \u2014 OCC final approval for Circle National Trust (+~8%) plus Standard Chartered institutional USDC deal; Mizuho downgrade (Visa 'Open USD') is a longer-horizon overhang; already extended (RSI ~86). AAPL: earnings Jul 30 (outside 48h window), near-term neutral, trades on broad tape/QQQ. EWJ: BOJ Jul 30-31 (outside window), no near-term Japan catalyst, follows global equity tape. BTC: supportive flows \u2014 5-day spot-ETF inflow streak (~$227M Mon) \u2014 but Fear&Greed in 'fear' (~22-29); no scheduled 48h binary, main risk is a headline-driven Iran/oil risk-off flush.",
+    "analyst": "Deeply overbought/extended (RSI 78.7, stoch 92.8, %B>1.0, ~3.2 ATR above VWAP) at range top, on near-zero 15m volume (gappy fills), crowded long (L/S 1.64) into risk-off + yen-intervention tail. No positive-EV entry either way \u2014 long chases exhaustion, short fights a 77.6 ADX trend. HOLD; reconsider short below 91.8.",
+    "portfolio": "HOLD EWJ \u2014 3+ ATR extended, illiquid, crowded long into risk-off; no EV entry, reconsider a mean-reversion short below 91.8."
+  },
+  "timestamp": "2026-07-21T17:59:39.910442+00:00"
+}

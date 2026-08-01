@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "INTC/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.66,
+  "playbook": "none",
+  "forecast": "Parabolic exhaustion: price stalls between 101.9-103.2 into earnings, chopping under the 103.22 rejection high with fading 5m momentum; no clean directional move before the Jul 23 binary.",
+  "expectancy_note": "No honest R:R exists - a long chases a +5.1% VWAP-extended blowoff (RSI 82.5), a short needs a stop above 103.22 vs a distant VWAP target ~97, and a 12% implied earnings gap dominates any 48h edge. HOLD beats both.",
+  "rationale": "INTC is parabolic (ADX 86.8, RSI 82.5, +5.12% above VWAP, bb_width 13.3%) with composite flagged NOT-aligned and the 5m already rolling short (rsi 36.2, trend down). Chasing the long is buying the top; market-shorting a crowded-long parabola (L/S 2.03) is the account's proven death by counter-bounce. Earnings Jul 23 (<48h, ~12% implied swing) makes any held direction a gap gamble, so the highest-expectancy action is no exposure.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 101.9,
+    "expires_min": 240,
+    "note": "Losing the recent swing low breaks the parabolic support and opens a clean VWAP-reversion short with an honest stop under 103.22 - the only setup here with real R:R, and even then earnings caps size."
+  },
+  "transcript": {
+    "macro": "Regime MIXED, cautious risk-on into an event-heavy week. Chip bid leads Tue's tape but capped by US-Iran escalation; 10Y elevated. EVENT WALL: Tesla+Alphabet Wed Jul 22, INTC Jul 23. INTC lean: NEUTRAL / avoid new risk - composite +0.27 but flagged NOT-aligned; RSI 82.5, ADX 86.8, vwap +5.1% = massively extended/parabolic, L/S 2.03 crowded long. Earnings inside 48h = gap-risk gamble; do not add.",
+    "sentiment": "INTC is the ONE live <=48h binary: Q2 2026 earnings Thursday Jul 23 after close, options imply ~12% swing. INTC ripped ~160% YTD but just dropped ~21% in seven days on fears its 18A process won't hit profitable yields until 2027; foundry losses (>$2.4B/qtr) are the swing factor. Argues AGAINST holding fresh directional risk into Jul 23.",
+    "analyst": "Parabolic (ADX 86.8, RSI 82.5, +5.1% VWAP) with the 5m rolling short; no honest R:R either way and a 12% implied earnings gap dominates. HOLD, size 0; reconsider a VWAP-reversion short only on a break below 101.9.",
+    "portfolio": "INTC - HOLD (size 0): parabolic into a <48h ~12% earnings binary; no exposure."
+  },
+  "timestamp": "2026-07-21T13:04:09.485458+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "MSTR/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "The 15m sell-off is decelerating right at VWAP (99.3-99.5) with 15m RSI 20.5 oversold; expect a mean-revert bounce toward 100.3-100.6 (broken-support-turned-resistance) over the next 2-4 bars before the downtrend can resume. The honest short is on the retest into 100.3-100.6.",
+  "expectancy_note": "Short at 99.45 poor p(win): 15m RSI 20.5 oversold into VWAP, nearest real target (support 89.95) ~10% away so any <=1.5xATR stop gives sub-1.5 R:R and a routine BTC-beta bounce (corr 0.70) stops it first. Waiting for the 100.3-100.6 retest gives a cleaner entry.",
+  "rationale": "MSTR is short-biased (composite short 48%, bearish divergence, 1h/30m/15m all short) but price sits AT VWAP (-0.33%), not extended, with 15m RSI 20.5 signalling a near-term bounce - the setup where this account's late shorts get squeezed. ADX 33 confirms a live downtrend so the edge is real but the ENTRY is wrong: chasing the low gives negative expectancy vs fading a bounce into 100.3-100.6. It is pure BTC-beta (corr 0.70) with BTC chopping, so a BTC pop squeezes a low-entry short. Hold and arm the retest.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 100.5,
+    "expires_min": 240,
+    "note": "A bounce into 100.3-100.6 (broken support turned resistance, just under the 100.96 swing) is the honest short entry - fade with a stop above 101 and the downtrend/divergence intact."
+  },
+  "transcript": {
+    "macro": "MIXED regime, cautious risk-off into next-week mega-cap earnings (MSFT/HOOD 7/29, MSTR 7/30 - outside 48h window). Oil spiked (Brent ~$94) = risk-off nudge. Scan struck outside US cash hours = thin/gappy tape, funding ~0, cash-open gap risk. Every name crowded long, several oversold = squeeze risk. MSTR is crypto-beta (btc_corr 0.698) - a BTC bounce squeezes shorts.",
+    "sentiment": "MSTR neutral/soft, follows BTC (corr 0.70). Bitcoin chopping ~$65-66K, Fear&Greed neutral-to-cautious - indecision, no fresh shock. Q2 earnings 7/30 (outside horizon). Bullish-ish long-horizon news (buyback authorization, digital-credit capital plan) is narrative, not a 48h mover. Trades as a BTC-beta vehicle; neutral to the short bias.",
+    "analyst": "MSTR last 99.45, short-tilted (composite short 48%, bearish divergence, sub-100 breach, 1h/30m/15m short) but price sits AT VWAP (-0.33%), not extended, and 15m RSI 20.5 signals a near-term bounce. l/s 1.29 (least crowded). Nearest target (support 89.95) ~10% away so a fresh short here has sub-1.5 R:R and gets squeezed by a routine BTC-beta bounce. HOLD; reconsider at 100.5 to fade a bounce with a stop above 101.",
+    "portfolio": "HOLD MSTR - short bias real but at VWAP into 15m oversold + BTC-beta squeeze risk; fade a bounce into 100.3-100.6 (reconsider 100.5)."
+  },
+  "timestamp": "2026-07-23T04:03:10.678950+00:00"
+}

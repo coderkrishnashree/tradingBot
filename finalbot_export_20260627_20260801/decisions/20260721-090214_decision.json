@@ -1,0 +1,22 @@
+{
+  "action": "buy",
+  "symbol": "NVDA/USDT:USDT",
+  "size": 3.0,
+  "entry": 204.6,
+  "stop_loss": 203.35,
+  "take_profit": 208.0,
+  "take_profit_1": 206.6,
+  "take_profit_2": 208.0,
+  "confidence": 0.58,
+  "playbook": "trend",
+  "forecast": "Price ground straight up to 205.8 into overbought 15m/30m RSI (76/88); expect a shallow pullback to retest the 204.5-204.7 base where buyers repeatedly stepped in, then continuation toward 206.6 and 208 within 4-8 bars as the 4h uptrend (ADX 50) resumes.",
+  "expectancy_note": "p(win)~0.60 (MTF long-aligned, p_win_learned 0.62, longs +2.28 avg in learner); limit entry at the retest gives R:R 1.67 to tp1 (reward 2.0 / risk 1.25) vs chasing at the top which the account's loss history punishes.",
+  "rationale": "NVDA is in a genuine 4h uptrend (ADX 50, 1h/4h long, rising 15m higher-highs) and the learner strongly favors longs (69% win, +2.28) over shorts. But price is pinned at the top of a micro-push with LTF RSI 76-88 and BB %B 0.93, so a market entry chases the move \u2014 instead bid the 204.6 retest of the breakout base with a stop below 203.4, keeping stop ~0.6% and R:R 1.67 to the first structural target. Size trimmed to 3% because macro is risk-off/hawkish, structure is crowded-long (bias -0.22) and NVDA lags BTC (-5.8%): a supportable-but-not-size-up continuation, not a conviction trade.",
+  "transcript": {
+    "macro": "Regime MIXED, leaning risk-off/defensive; ~53% odds of a Fed HIKE in Sept caps high-beta tech; tokenized perps thin/gappy, crowded-long. NVDA macro: neutral/cautious long \u2014 4h uptrend intact but funding + / L/S 1.56 crowded (structure_bias -0.22), RSI 66 stretched, lags BTC -5.8%; no earnings until Aug 26 (no binary). Supportable, not a size-up.",
+    "sentiment": "NVDA bullish lean, no <48h binary \u2014 earnings Aug 26. Riding semi recovery, RSI stretched (66-88) but trend intact. Main risk is a sympathy move if GOOGL/QQQ roll over into the GOOGL print + FOMC week.",
+    "analyst": "Valid 4h uptrend (ADX 50, MTF long, learner longs +2.28) but price at the top of a micro-push, LTF RSI 76-88, %B 0.93 \u2014 market entry = chase. Bid the 204.6 base retest, stop 203.35 (under consolidation), tp 206.6 then 208; R:R 1.67. Size 3% given risk-off/hawkish macro + crowded-long structure + BTC lag.",
+    "portfolio": "BUY NVDA on the 204.6 pullback, tight stop, 3% size \u2014 trend-continuation, non-chase, conf 0.58."
+  },
+  "timestamp": "2026-07-21T09:02:14.691851+00:00"
+}

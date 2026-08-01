@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "XAG/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Stalling at 59.0-59.13 after tag; 5m already rolling (RSI 36). Expect a drift/pullback toward 58.3-57.6 (VWAP zone) over the next several bars before the uptrend can resume; a shallow-basing bounce off that zone is the buyable spot, not here.",
+  "expectancy_note": "Chasing +1.4% over VWAP with %B 0.88, stoch 91 and L/S 4.07 (most crowded long in book) is the account's #1 loser; model weights on vwap_dist/structure_bias/rel_strength all veto entry now. HOLD until a real pullback gives R:R>=1.5.",
+  "rationale": "Structural trend is up (4h 0.748, safe-haven + supply-deficit squeeze) so I won't short a metal into Hormuz risk, but price is stretched and lopsidedly long right into FOMC July 28-29 inside the window. Learner shows longs win 65% here, but only good-entry longs; a market buy at the top hands a routine counter-bounce my stop. Waiting for a VWAP-area pullback (~57.6-58.3) to buy the trend, or a decisive reclaim above 59.5 on volume, is far higher expectancy than chasing.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 58.0,
+    "expires_min": 240,
+    "note": "A pullback into the 57.6-58.0 VWAP/structure zone offers a proper trend-continuation long entry with a tight stop under 57.0 toward 59-61; crossing it triggers re-debate for the buy."
+  },
+  "transcript": {
+    "macro": "Regime MIXED->HOSTILE for new longs; hawkish Fed, FOMC July 28-29 inside window. XAG stretched long: 4h strong (score 0.75, RSI 66, stoch 91) but very crowded (L/S 4.07, most lopsided in book). High-beta into hawkish Fed; longs = chase risk; $61 resistance / $55.6 support.",
+    "sentiment": "Overall RISK-OFF; Hormuz conflict supports safe-havens. XAG bullish: structural squeeze intact (6th supply deficit, China export curbs, solar/AI demand), tagged ~$60. More industrial beta than gold - vulnerable if AI-spend selloff deepens. No fresh <=48h catalyst beyond FOMC; trend favors longs.",
+    "analyst": "Extended, crowded long into hawkish FOMC = the account's #1 loss pattern. Just rejected ~59.13, 5m rolling over (RSI 36). Won't short a squeezing metal into Hormuz risk either. Right play is a pullback-to-VWAP buy (~57.6-58.3) or a reclaim >59.5 on volume, not a chase. Hold.",
+    "portfolio": "HOLD XAG (conf 0.60) - trend up but too stretched/crowded to chase; buy the pullback <58."
+  },
+  "timestamp": "2026-07-26T15:37:28.171393+00:00"
+}

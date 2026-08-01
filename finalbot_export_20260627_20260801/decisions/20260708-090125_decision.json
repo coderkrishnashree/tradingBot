@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "SOL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "SOL flushed through $78 on a 496k-vol climax to 76.85 and is bouncing (77.48); expect a relief pop to retest broken support 78.0-78.3 within 2-4 bars - the high-probability short entry into the risk-off downtrend toward 76.0 then 74.",
+  "expectancy_note": "Shorting the hole at 77.48 (price outside lower BB, 1h RSI 4.8, stoch 9) is chasing with squeeze risk and R:R<1.5; waiting for the ~78.2 retest gives ~1x ATR stop above 78.9 and 2R to 76.0. Longs rejected: against trend, macro risk-off, rising BTC dominance.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 78.2,
+    "expires_min": 240,
+    "note": "Reclaim/retest of broken $78 sets up the high-probability short with tight stop above 78.9 and 2R to 76.0."
+  },
+  "rationale": "Fresh breakdown of $78 on climactic volume with the last bar already recovering - oversold and stretched below the lower Bollinger band, so shorting at market means a poor fill and real dead-cat/squeeze risk (crowded L/S 2.21 cuts both ways). Clean setup is to short the retest of broken $78 with stop above 78.9, not chase the flush. HOLD; size 0.",
+  "transcript": {
+    "macro": "RISK-OFF/defensive tape (2026-07-08 08:52 UTC snapshot): synchronized down-leg across equities+crypto. ACTIVE semiconductor de-rating is the dominant theme (SOX -4.5%, Micron -4.7%; Samsung spook + DeepSeek own-chip). Treat semis (MU/SNDK/INTC) as ONE correlated basket (MU/SNDK 0.83, MU/INTC 0.64). Mega-cap tech (AAPL +4.3%, META +5.8%, MSFT) holding up far better - weakness concentrated in chips, not broad tech. BTC ~$62k at 21-month low, structurally weak; BTC dominance 55-56% rising = no altseason. BTC L/S 1.49, SOL L/S 2.21 (crowded long into downtrend = squeeze-both-ways). MSTR is a leveraged BTC proxy (corr 0.79), not an independent equity. Silver ~$60-62, down 8.2% on the month, rolling over on hawkish-Fed repricing. Tokenized stocks were PRE-OPEN/thin at snapshot with a US-open re-pricing gap ahead - size down. June CPI Jul 14 is the biggest scheduled risk; earnings season opens late July (all in-scope names report Jul 23-30, outside the 48h window).",
+    "sentiment": "Risk-off. Crypto Fear&Greed ~20 (Extreme Fear). BTC broke $60k to 21-month low, Coinbase premium negative 50 straight days (record), ~$6B YTD spot-ETF outflows, Strategy sold 3,588 BTC (~$216M) this week, EU signaling tighter crypto regulation - freshest, still-moving bearish news is in BTC/SOL/MSTR. SOL stuck near $80 with Q3 token-unlock overhang; Alpenglow upgrade is Q3, not <48h. Semis: MU down ~22% from post-earnings highs, SNDK up ~635% YTD now unwinding, INTC -21%/7d on 18A yield doubts. Only hard dated <=48h catalyst is the SK Hynix (SKHY) ~$28B Nasdaq IPO on Jul 10 - a headwind for MU and the memory group (SNDK). All equity earnings (AAPL/META/MSFT/INTC/MSTR) sit a week-plus out, so those are macro/beta-driven this cycle, no imminent binary. Markets pricing a possible year-end Fed HIKE - pressures metals (XAG) and risk.",
+    "analyst": "Fresh $78 breakdown on climax volume, last bar recovering. Chasing short = squeeze risk; wait for the ~78.2 retest. Armed reconsider on reclaim of 78.2.",
+    "portfolio": "HOLD SOL - short the $78 retest, don't chase the flush."
+  },
+  "timestamp": "2026-07-08T09:01:25.593876+00:00"
+}

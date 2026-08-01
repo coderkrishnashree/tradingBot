@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "TSM/USDT:USDT",
+  "size": 0.0,
+  "entry": 425.0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Thin overnight tape pins TSM 421-425 under the 431.6 wall; most likely path is a stall/drift with an air-pocket risk on GOOGL earnings, not a clean impulse either way within the next few bars.",
+  "expectancy_note": "No edge: long chases an extended move (stoch 93.5, RSI 69, +3.1% vs VWAP) into resistance on dead volume and a crowded long book; short fights a 45-ADX uptrend with gap risk. R:R < 1.5 both ways, so HOLD is the best expectancy.",
+  "rationale": "TSM is a tokenized equity with the US cash market closed \u2014 15m volume is near-zero (0.02-7 units), making the perp thin and gap-prone, and GOOGL earnings tonight is a complex-wide landmine. Price sits only ~1.5% below resistance 431.64 with stoch pinned at 93.5, RSI 69 and 3.1% above VWAP, while the 15m/5m composites have gone flat \u2014 momentum is fading into a wall, the exact chase pattern that bleeds this account. L/S 2.18 flags a very crowded long book (structure_bias -0.15). No honest R:R long (no pullback to VWAP ~412) or short (uptrend ADX 45, not yet at resistance), so I wait.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 418.0,
+    "expires_min": 240,
+    "note": "Losing 418 (below the overnight 421-425 coil and toward VWAP) breaks the grind-up and opens a pullback long entry near VWAP ~412 with real room to resistance, or confirms momentum has rolled over."
+  },
+  "transcript": {
+    "macro": "Regime MIXED / late-cycle risk-off. US tape soft, oil +3%. US cash market CLOSED after ~21:00 UTC \u2192 perps thin/gap-prone overnight. TSM: uptrend intact (ADX 45, RSI 69, price at resistance 431.6, ~$425) but into a semi bear tape (SOX >20% below June high) and a VERY crowded long book (L/S 2.18, structure_bias -0.15). Momentum long only with tight stops; sector is a squeeze risk, not a clean trend.",
+    "sentiment": "Overall RISK-OFF/cautious \u2014 AI-chip trade in drawdown, VIX ~18.8, GOOGL earnings tonight a landmine for the whole complex. TSM already reported July 16 \u2014 big beat (rev +36% YoY, GM 67.7%, Q3 guide $44.6-45.8B), but the raised capex plan triggered an AI-chip selloff into July 20; catalyst is SPENT and now a headwind to sentiment. No new binary in next 48h; trades on chip-sector risk appetite.",
+    "analyst": "Strong daily uptrend (ADX 45) but price pinned ~1.5% under resistance 431.64, stoch 93.5, RSI 69, +3.1% vs VWAP, and 15m/5m composites gone flat \u2014 momentum fading into a wall on near-zero overnight volume. Crowded long book (L/S 2.18). No honest R:R long (no pullback to VWAP ~412) or short (uptrend too strong, not at resistance). HOLD; wait for a VWAP pullback or a confirmed rejection at 431.6.",
+    "portfolio": "HOLD TSM \u2014 extended under resistance on thin tape, spent catalyst, crowded longs; wait for a pullback or clean rejection."
+  },
+  "timestamp": "2026-07-22T21:31:17.376995+00:00"
+}

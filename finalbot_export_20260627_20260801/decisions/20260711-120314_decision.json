@@ -1,0 +1,26 @@
+{
+  "symbol": "EWJ/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.34,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "forecast": "Illiquid weekend chop pinned near 95.2-95.3 on mostly zero-volume prints; no genuine move until Monday cash reopen, when a gap either extends toward 96.65 or mean-reverts toward VWAP ~93.2.",
+  "expectancy_note": "No positive-expectancy entry: long = chasing a blow-off (RSI 78.7 / 15m 97.5 / stoch 97.8, %B 0.88, +2.32% over VWAP) into resistance 96.65; short = fading a supportive uptrend into Monday gap risk on zero liquidity. Both coin flips; HOLD dominates.",
+  "rationale": "EWJ is a tokenized Japan ETF trading Saturday with US markets closed -- recent candles are dominated by 0.0-volume flat prints and sub-1-unit trades, i.e. no price discovery and severe Monday gap risk. Momentum is a blow-off (RSI 78.7, 15m RSI 97.5, stoch 97.8) already stretched +2.32% above VWAP and pressed against resistance 96.65, so a fresh long is a textbook chase and a short fights a supportive fundamental tape with no edge. Best expectancy: stand aside and let Monday's real liquidity define the move.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 96.65,
+    "expires_min": 240,
+    "note": "A decisive break of resistance 96.65 on real (non-zero) volume would confirm continuation worth re-debating; absent that, the overbought illiquid tape offers no edge."
+  },
+  "transcript": {
+    "macro": "Sat Jul 11 2026 ~12:00 UTC. Regime MIXED-to-HOSTILE. US equity markets CLOSED; tokenized-equity perps pinned to Friday close, no discovery, Monday gap risk. EWJ: AVOID as a fresh long -- RSI 78.7 / 15m RSI 97.5 / stoch 97.8, blow-off extended, almost no weekend volume. Macro explicitly flags CRCL and EWJ as the ones to avoid.",
+    "sentiment": "EWJ BULLISH momentum, no adverse 48h catalyst, but STRETCHED. Japan record-high rally (Nikkei ~68,500) on political stability post-LDP win under Takaichi, expected fiscal expansion, gradual BOJ path (~0.75%, no imminent hike). Overbought is price not news; thin off-hours liquidity on the tokenized wrapper.",
+    "analyst": "Tokenized Japan ETF, Saturday, US closed -- candles dominated by 0.0-volume flat prints, no discovery, severe Monday gap risk. Blow-off overbought (RSI 78.7 / 15m 97.5 / stoch 97.8), +2.32% over VWAP into 96.65 resistance: long = chase, short = fights supportive tape. No edge. HOLD; reconsider on a break of 96.65 on real volume.",
+    "portfolio": "HOLD EWJ -- illiquid weekend blow-off with no price discovery; stand aside until Monday liquidity."
+  },
+  "timestamp": "2026-07-11T12:03:14.442969+00:00"
+}

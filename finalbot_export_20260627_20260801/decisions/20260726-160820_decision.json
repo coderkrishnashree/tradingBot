@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "XAG/USDT:USDT",
+  "size": 0.0,
+  "entry": 58.96,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Chop 58.79-59.13 for the next few bars; no clean edge either way. Extended +1.29% over VWAP, overbought (RSI 65/stoch 86) into FOMC. Two-way drift until 59.13 breaks up or 58.79 breaks down.",
+  "expectancy_note": "Fresh long = chasing the most-crowded-long-in-book (L/S 4.074, bias -0.312) into FOMC; short fights a 91.9-ADX uptrend. No setup clears R:R 1.5 with an honest stop; HOLD is highest expectancy.",
+  "rationale": "Silver is extremely stretched: ADX 91.9, RSI 65, stoch 85.8, %B 0.85, +1.29% over VWAP, and the single most lopsided long book in the entire scan (L/S 4.074, structure_bias -0.312) \u2014 that crowding is fuel for a squeeze DOWN, not a reason to add longs. 15m is flat and 5m already flipped short (RSI 35), while higher TFs are overbought-long, so the tape is coiling 58.79-59.13 with no directional momentum. With FOMC Jul 29 a direct catalyst and XAG=XAUT correlated (0.876), a fresh entry here is the account's classic late-chase-into-crowded-tape loss; size 0 until the coil resolves.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 59.13,
+    "expires_min": 240,
+    "note": "Reclaiming/breaking the 59.13 rejection zone on volume proves the coil resolves up and a momentum long toward 60.2/61.0 becomes viable despite crowding."
+  },
+  "transcript": {
+    "macro": "Regime MIXED-TO-HOSTILE. 10y 4.69% + USD = HEADWIND for metals. XAG last 58.96, long/short 4.074 (VERY crowded long \u2014 most lopsided book in scan), structure_bias -0.312 (worst in book = biggest positioning risk). Silver ~52% below Jan high. FOMC Jul 29 direct catalyst (hold=relief, hike=extends real-yield pain). Extremely crowded long + FOMC = any long reduced size, flat/tiny into FOMC. Treat XAUT+XAG as ONE bet (corr 0.876).",
+    "sentiment": "Silver ~$58-58.60, choppy. Sixth straight annual supply deficit (Silver Institute), AI/solar demand tailwind. Resistance $59.00/$60.23, support ~$56.80. Fell ~6% prior week then rebounded \u2014 volatile. Shares gold's FOMC Jul 28-29 risk; sensitive to oil/US-Iran. Very overbought higher TFs (ADX 92, RSI 65-74). 48h read: NEUTRAL two-way; FOMC + overbought argue caution on fresh longs.",
+    "analyst": "Technicals one-directional-overbought (ADX 91.9, RSI 65.3, stoch 85.8, %B 0.854, +1.29% over VWAP) while positioning is the worst in the book \u2014 L/S 4.074, structure_bias -0.312 = dangerously crowded long, fuel for a downside squeeze not a reason to buy more. 15m candles confirm the stall: tight 58.79-59.13 coil, repeated 59.1 rejections, 15m gone flat and 5m flipped outright short (RSI 35). A fresh long chases an extended crowded metal into Jul 29 FOMC (the account's late-entry loss pattern); a short fights a 91.9-ADX higher-TF uptrend. Neither clears 1.5R with an honest stop. Stand aside; re-engage only on a 59.13 reclaim on volume.",
+    "portfolio": "XAG \u2014 HOLD (conf 0.60): most-crowded-long in book, overbought into FOMC, no 1.5R; wait for 59.13 reclaim."
+  },
+  "timestamp": "2026-07-26T16:08:20.047255+00:00"
+}

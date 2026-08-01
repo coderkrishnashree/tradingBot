@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "SOL/USDT:USDT",
+  "size": 0.0,
+  "entry": 76.74,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.4,
+  "playbook": "none",
+  "forecast": "Bounce off 75.59 support is ~5 bars old with 5m RSI 88.6 (exhausting); expect a grind/fade up toward the 77.8-78.2 VWAP zone over the next 2-4 bars, then either a fresh rejection (short setup) or a reclaim; right here (76.74, mid-range, 15m/30m RSI oversold) there is no clean edge.",
+  "expectancy_note": "Fresh short = chasing the capitulation low (1.56% below VWAP, RSI oversold) - the account's proven -1.65R loss pattern; fresh long fights all-down higher TFs into VWAP supply. Waiting for the bounce to reach ~78 resistance offers a far better short R:R than market-selling the low.",
+  "rationale": "SOL just capitulated to 75.59 on 573k volume and is 5 bars into a relief bounce with 5m RSI 88.6 - shorting now sells the hole (bb_pctb 0.008, -1.56% VWAP) and would get squeezed by any BTC bounce (corr 0.79, longs crowded 2.47x). Longing fights a fully-down higher-TF stack into VWAP supply. No 48h binary catalyst; the honest move is to wait for the bounce to reach the 78 VWAP/broken-support zone (short with edge) or for 75.59 to fail on a close (continuation short). Learner stats reinforce avoiding late trend shorts (44% win, -2.89R).",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 77.9,
+    "expires_min": 240,
+    "note": "A push into the 77.9-78.2 VWAP/broken-support zone would let the bounce complete and offer a high-expectancy short at resistance with a tight stop above 78.6 - versus chasing the low here."
+  },
+  "transcript": {
+    "macro": "Cycle 2026-07-12 ~01:56 UTC. Regime mildly risk-on but choppy/rotational; rates a headwind. BTC dominance rolling over to ~1-month low near 54% (from ~58%), capital rotating into alts - nominally alt-supportive but US spot BTC demand weak. SOL (76.74): all HTFs down (30m -0.87), on support 75.59 with bb_pctb 0.008 (pinned to lower band, stretched, squeeze-prone). Funding flat. L/S 2.47 -> structure_bias -0.305 (long-crowded, contrarian bearish but bounce squeeze risk). btc_corr 0.786 (mostly BTC-beta), RS +3.76% modest.",
+    "sentiment": "Trades 24/7 - only name with no weekend gap. Spot ~$76-77, recovered off June ~$66-70 lows, battling $80 pivot. Catalysts constructive but NOT <=48h binaries: Firedancer v1.0.0 testnet, Alpenglow eyed Q3, Morgan Stanley SOL-ETF filings (0.14% fee), Clearstream added SOL for EU institutions, network activity near ATH. No unlock/hack/delisting. Near-term mildly constructive medium-term but no <=48h catalyst; driven by broad crypto risk + BTC. Watch a risk-on BTC bounce as squeeze risk.",
+    "analyst": "SOL just capitulated to 75.59 on 573k volume, now 5 bars into a relief bounce with 5m RSI 88.6. Shorting now sells the hole (bb_pctb 0.008, -1.56% VWAP) and would get squeezed by any BTC bounce; longing fights a fully-down HTF stack into VWAP supply. No 48h binary. Wait for the bounce to reach ~78 VWAP/broken-support (short with edge) or a close below 75.59 (continuation). HOLD with price_above 77.9 trigger.",
+    "portfolio": "SOL: HOLD (conf 0.40) - post-capitulation bounce, no clean edge; armed short at ~78 resistance via price_above 77.9."
+  },
+  "timestamp": "2026-07-12T02:04:32.243175+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "TSLA/USDT:USDT",
+  "confidence": 0.4,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "none",
+  "forecast": "Coils 309-313 above the 307.12 support into the weekend; no fresh leg without a clean break of 307. Most likely path is chop or a short-cover bounce toward 320+ into Monday reopen, not immediate continuation.",
+  "expectancy_note": "Short here is negative-EV: RSI 15.2 / stoch 8.9 / vwap -6.1% is maximally oversold and >2.5x ATR extended \u2014 a routine snapback hits any honest stop before the trend resumes. p_win_learned 0.384 and closed/stale book (funding 0.0) confirm low conviction. No valid long either (falling knife into support).",
+  "rationale": "TSLA is the weakest name and macro is a clean short tailwind, but the trade is late: a 2-3 day old shock now sitting maximally oversold on support 307, markets closed with weekend gap risk. Shorting into RSI 15 with the primary hazard being a violent short-cover bounce is precisely this account's worst loss pattern (late short, stopped by the bounce). The 15m tape is coiling above support with drying volume \u2014 no fresh downside trigger. Wait for a decisive break of 307 to confirm a new leg (stop-run through trapped longs) before re-engaging the short; size 0 until then.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 306.5,
+    "expires_min": 240,
+    "note": "A clean 15m close below the 307.12 support flips the falling knife into a fresh breakdown leg (stop-run on trapped longs, L/S 2.53) and re-arms the short with a defined stop back above 307."
+  },
+  "transcript": {
+    "macro": "OVERALL REGIME: RISK-OFF, tech-led \u2014 favors SHORTS on tech tokens. Nasdaq -2% week (capex-panic / growth-punishment). DXY 13-mo high, 10y ~4.5%. CRITICAL: equity tokens CLOSED until Mon 09:30 ET \u2014 thin, gappy, weekend gap risk; funding 0.0 / stale L/S = dormant books, LOW-conviction. TSLA SHORT-supportive, strongest conviction of the equity names: Q2 (Jul 22) big profit MISS (EPS $0.33 vs $0.54), record revenue but FCF NEGATIVE (-$1.1B), capex +142%, op profit -57% ex-SpaceX. Stock crashed ~12%, ~$140B wiped. Token $311.6 on support $307. Aligned short, ADX 93.7 (extreme), 4h RSI 15.2, vwap_dist -6.1%, RS -24.4% vs BTC (weakest), L/S 2.53, orderbook -0.19. Biggest risk: RSI 15/stoch 8.9 maximally oversold \u2014 violent short-cover snapback into Monday reopen. Sell strength, tight stops, small size.",
+    "sentiment": "TSLA BEARISH near-term (post-earnings margin-miss selloff, fresh). Q2 Jul 22: record 480,126 deliveries (+25% y/y) and record rev $28.24B BUT non-GAAP EPS $0.33 badly missed ~$0.47. Margin miss the driver: auto gross margin ex-credits 16.3%, opex +47%, reg-credit -67%. Stock -5.6% AH Jul 22, >7% pre-market Jul 23. Confirms extreme reading (RSI 15.2, ADX 93.7). No new 48h binary. Deep-oversold \u2014 bounce risk into crowded short. Read: near-term negative confirms short bias, but shock 2-3 days old and RSI 15 signals exhaustion; fresh downside needs a new leg.",
+    "analyst": "last 311.58 on support 307.12 (only 1.4% below); 4h RSI 15.2 / stoch 8.9 maximally oversold; ADX 93.7 = very mature/exhausted trend; vwap_dist -6.09% (>2.5x ATR extended). 15m coiling flat 311-312 on tiny volume, holding above 307 \u2014 no fresh downside leg. Shorting here chases a stretched move = account's #1 loss pattern (late short, stopped by bounce). p_win_learned 0.384. HOLD; arm short on decisive break of 307 (stop-run through trapped longs).",
+    "portfolio": "HOLD TSLA/USDT:USDT \u2014 weakest name but maximally oversold; short only on a clean break of 307."
+  },
+  "timestamp": "2026-07-25T16:05:17.513574+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "BTC/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Chop 64,870-65,240 near-term; either a reclaim of 65,560 revives the aligned uptrend toward 66,900, or a loss of 64,868 opens a flush to 63,680 support where a better long forms.",
+  "expectancy_note": "No edge now: long here chases extended tape (VWAP +0.79%, HTF RSI 70) into an offered book and Wed-FOMC overhang; short fights the 1h/4h uptrend and the learner (shorts 46% win, -0.82 avg). p(win) of either sub-1.5R, so wait.",
+  "rationale": "15m has rolled over short (RSI 39.5) while 1h/4h stay up but stretched - the impulse leg is spent and price is consolidating mid-range, not at a support extreme, with sellers stacked in the book (imbalance -0.48) and the crowd already long (L/S 1.51). Entering either side now is a coin-flip below the 1.5R bar; the account's longs win and shorts bleed, so I want a clean long trigger, not a chase. Zero size until the consolidation resolves.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 65560,
+    "expires_min": 240,
+    "note": "Reclaiming the 65,560 swing high revives the aligned 1h/4h uptrend and clears the 15m rollover, opening a continuation long toward 66,900."
+  },
+  "transcript": {
+    "macro": "2026-07-27: Mixed-to-hostile, event-gated. FOMC Wed 7/29 2pm ET is the main crypto-relevant catalyst. Crypto trades 24/7 and does NOT face the equity earnings gap - cleanest tape in the book. Oil >$100, risk-off undertone. BTC ~$65k: 1h up but 15m rolled over, funding benign, no liquidation crowding.",
+    "sentiment": "BTC cautious/soft: Fear & Greed ~27 (Fear), recent $225M spot-ETF outflow, June drawdown memory. No crypto-specific 48h binary but reacts to Wed FOMC risk-sentiment; no fresh bullish catalyst.",
+    "analyst": "15m rolled over short while 1h/4h stay up but stretched - impulse leg spent, price consolidating mid-range (not a support extreme), sellers stacked in book, crowd already long. Either side is a sub-1.5R coin-flip; account longs win, shorts bleed, so wait for a clean long trigger. HOLD; reconsider long on reclaim of 65,560.",
+    "portfolio": "BTC: HOLD - cleanest tape but mid-range and spent; wait for 65,560 reclaim."
+  },
+  "timestamp": "2026-07-27T03:07:44.663435+00:00"
+}

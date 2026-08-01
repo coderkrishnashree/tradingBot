@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "META/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.55,
+  "playbook": "none",
+  "forecast": "Dead-flat coil 638-640 above support 626.46; deeply oversold (30m RSI 17, 4h RSI 24, ADX 75 exhausted) argues the next real move is a mean-reversion bounce toward VWAP ~658, but the tape shows no trigger yet \u2014 expect chop 636-642 for the next few bars until either a reclaim ignites the bounce or support cracks.",
+  "expectancy_note": "p(win) on a short here ~0.40 (account shorts 0.47 win / -0.87 avg pnl, chasing a washed-out ADX-75 move); a long has no trigger yet, so HOLD with an armed reclaim beats both \u2014 waiting for confirmation is +EV vs entering flat mid-range.",
+  "rationale": "META is the strongest name (RS +9.56%) with balanced positioning (L/S 1.08, funding 0), bid-heavy book (+0.22) and mildly long structure_bias (+0.04) \u2014 shorting a deeply oversold exhausted downtrend into a risk-off weekend is exactly the late-chase pattern that has bled this account (shorts -0.87 avg pnl). But there is no bounce trigger yet: tape is dead-flat on near-zero volume, price sits mid-range below VWAP, and soft Nasdaq caps upside. No honest R:R exists here now, so I hold and arm a VWAP-area reclaim as the long trigger, with support-loss as the short re-open.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 648.0,
+    "expires_min": 240,
+    "note": "Reclaiming ~648 (toward VWAP) confirms the oversold mean-reversion bounce is underway and turns this into a tactical long toward 658-668; below support 626.46 would instead reopen the short."
+  },
+  "transcript": {
+    "macro": "RISK-OFF tilt, tech epicenter. Tokenized US equities (Nasdaq matters). Fri Jul 17 Nasdaq -1.4%; week -2.9%. Driver = AI-capex/semi de-rating. FOMC Jul 29 (outside window). Everything short-term washed-out (RSI 24-39) into thin pre-US-hours weekend book \u2014 high mean-reversion/gap odds; favor fading rallies over selling new lows. META: last 639.09, composite short but NOT aligned (-0.31, conf 42%), p_win_learned 0.65 (model likes reversion). RSI 24, 30m RSI 17 \u2014 deeply oversold; ADX 75 (exhausted downtrend); 5m flipping long. Price 2.9% below VWAP. L/S 1.08 (balanced), orderbook +0.22, structure_bias +0.04 (mildly long). Rel-strength +9.56% \u2014 STRONGEST name. Short is late/chasing; bounce is primary risk. Verdict MIXED, smaller size either way.",
+    "sentiment": "Tech RISK-OFF/defensive, SOX bear market, China AI (Moonshot/Kimi) AI-ROI skepticism. META: bullish momentum but stretched. Best week since 2024 (~+15%) on new 'Meta Compute' AI-cloud push + in-house 'Iris' chip (Sept). RS standout (+9.6%). Risk: capex raised $125-145B, AI-ROI uncertainty \u2014 vulnerable if sector risk-off deepens. Key catalyst: Q2 earnings after close Wed Jul 29 (outside 48h). Net bias: bullish trend intact but overbought and macro-fragile; no imminent in-window single-name catalyst.",
+    "analyst": "Learner decisive: shorts 0.47 win / -0.87 avg pnl (losing), longs 0.75 win / +3.44. Structure_bias +0.04 and RS +9.56 both weight AGAINST shorting. Deeply oversold exhausted downtrend (30m RSI 17, ADX 75) = mean-reversion LONG candidate, not a short \u2014 but tape is dead-flat on near-zero volume, no bounce trigger, price mid-range below VWAP, soft Nasdaq caps upside. No honest R:R now. HOLD; arm long on ~648 VWAP-area reclaim, short re-opens only below 626.46 support.",
+    "portfolio": "HOLD META \u2014 strongest/oversold name; shorts bleed here, no long trigger yet. Long on 648 reclaim, short only below 626.46."
+  },
+  "timestamp": "2026-07-18T04:36:53.951038+00:00"
+}

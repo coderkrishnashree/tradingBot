@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "TSM/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Thin off-hours drift near VWAP 399-400; price just rejected 403 and faded back to VWAP. Expect chop 399-402 until Monday cash open, then a directional resolve; a bounce toward 402-403 offers a cleaner short entry than chasing at VWAP now.",
+  "expectancy_note": "Short at VWAP has no near TP (support 386.8 is ~13pts away) so an honest ~1.5xATR stop above 403 yields R:R < 1.5; aligned trend-shorts are this account's losing pattern (47% win, -0.88 avg), so wait for a retest edge.",
+  "rationale": "TSM is bearish (4h down, ADX 40, semis epicenter, RS -20%) but price sits exactly at VWAP mid-band (%B 0.49) with no extension, no divergence and no nearby structural target for a short \u2014 first support (386.8) is ~3.3% away while an honest stop must sit above the 403 rejection high, killing R:R. Off-hours/thin/gappy until Monday cash open, and crowded-long (L/S 2.63) adds squeeze risk to any bounce. Best expectancy is to wait for a bounce into 402-403 (VWAP-turned-resistance retest) to short with a tight stop, or a decisive break lower with follow-through; size 0 now.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 402.5,
+    "expires_min": 240,
+    "note": "A bounce back into 402.5-403 retests the rejected VWAP/resistance zone and offers a clean short entry with a tight stop above 403.1 and room toward VWAP/support \u2014 flipping this HOLD into an actionable fade."
+  },
+  "transcript": {
+    "macro": "RISK-OFF/defensive, fragile. Last week semis rout (S&P -1.6%, Nasdaq -2.9%) on AI-capex-cut fears; Monday futures marginally green (bounce in downtrend). Hawkish Fed, DXY ~1yr highs, US-Iran/oil risk. Long/short ratios lopsidedly long across board = squeeze fuel into a falling tape. Semis cluster (TSM, INTC) BEARISH \u2014 epicenter of the selloff, TSM crowded long L/S 2.63. Posture: smaller size, favor short/mean-reversion fades, respect crowded-long squeeze risk on bounces.",
+    "sentiment": "US equities closed (Sunday) \u2014 tokenized stocks thin/gappy until Monday cash open. TSM: catalyst spent \u2014 Q2 reported 7/16, big beat (EPS $4.31 vs $3.77, rev $40.2B +36% YoY). No fresh <=48h binary; near-term is post-earnings digestion + AI-chip sentiment.",
+    "analyst": "Bearish trend but price mid-band at VWAP with no extension/divergence and no nearby short target (support 386.8 ~3.3% away vs honest stop above 403). Off-hours thin, crowded-long squeeze risk. Aligned trend-shorts are the account's losing pattern. Wait for a bounce into 402-403 to fade, or a decisive break lower. Size 0.",
+    "portfolio": "HOLD TSM \u2014 bearish but no clean R:R at VWAP; arm short on a bounce to 402.5-403."
+  },
+  "timestamp": "2026-07-20T06:46:21.718435+00:00"
+}

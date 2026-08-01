@@ -1,0 +1,23 @@
+{
+  "symbol": "MSFT/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.42,
+  "size": 0,
+  "entry": 386.47,
+  "stop_loss": 396.5,
+  "take_profit": 368.0,
+  "rationale": "Structure and momentum favor shorts (ADX 45, 30m/1h downtrend, crowded-long LSR 1.97, orderbook -0.246, sentiment net short), but price is pinned AT/below the lower Bollinger band (bb_pctb -0.078) with 4h RSI washed out at 28.6 and only -0.55% from VWAP. Shorting here is chasing an extended move into the hole against a mildly risk-ON tape and weekend/overnight gap risk \u2014 poor R:R with high bounce risk. Best expectancy is to wait: fade a rally into ~392-394 resistance (target 375 then support 368) for a clean ~3:1, or short a decisive loss of 367.68 support for a fresh breakdown leg. Not pressing new lows on RSI 28.6.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 392.5,
+    "expires_min": 360,
+    "note": "A bounce into the 392-394 resistance zone lets me short the crowded-long positioning at a real level with tight stop above 394.19 and ~3:1 to support."
+  },
+  "transcript": {
+    "macro": "MSFT is a tokenized EQUITY (btc_correlation 0.293 \u2014 not BTC-beta). Broader regime mildly risk-ON July 6 (S&P +0.9%, Nasdaq +1.3%, Dow ATH) but tech rotation is a cross-current. Fed holds 3.50-3.75%, CPI hot 4.2%, soft June NFP; light data week (FOMC minutes only), next FOMC July 29. MSFT price heavy: last 386.47, near lower Bollinger (bb_pctb -0.078), 4h RSI washed 28.6, vwap_dist -0.55%, 30m/1h downtrend, composite short (blended -0.268, conf 35%), ADX 45. Derivatives crowded-long/contrarian-bearish: LSR 1.97 (~2:1 longs), orderbook_imbalance -0.246, structure_bias -0.393, OI moderate 5152 (no squeeze). Risks: US market-hours gappiness on overnight/weekend holds; earnings July 28 (outside window). Support 367.68 / resistance 394.19. Verdict: MIXED with a SHORT lean \u2014 favor selling rallies into ~394 vs new lows; trade smaller; don't carry naked through closed hours.",
+    "sentiment": "Near-term tone decidedly negative: MSFT worst month in 25+ years, ~$570B mcap lost (down 8%+) on sticker-shock over ~$190B 2026 AI capex. NO discrete <=48h binary \u2014 earnings ~July 28 (don't trade on it). Bullish items all long-horizon (Strong Buy, $561 avg PT, Frontier/enterprise-AI). Backdrop defensive: Nasdaq -2.4% in July on rotation OUT of megacap tech \u2014 MSFT fighting a sector headwind. Macro hawkish/stagflationary (CPI 4.2%, Warsh Fed no pivot, Goldman risk-appetite 99th pct). Net SUPPORTIVE of a SHORT bias; main two-sided risk is a CPI/Fed print landing this week.",
+    "analyst": "Structure/momentum favor shorts but price is pinned at/below the lower Bollinger band with 4h RSI 28.6 and only -0.55% from VWAP \u2014 shorting here chases an extended move into the hole against a mildly risk-ON tape and weekend gap risk. Poor timing/R:R with high bounce risk. Highest-expectancy play is to HOLD and arm a short trigger on a rally into ~392-394 resistance (stop above 394.19, target 375 then 368 for ~3:1), or on a decisive loss of 367.68 support. Not pressing new lows on RSI 28.6.",
+    "portfolio": "MSFT/USDT:USDT \u2014 HOLD (conf 0.42): short-biased setup but oversold; wait to fade a bounce into 392-394 rather than short the hole."
+  },
+  "timestamp": "2026-07-06T19:40:21.251033+00:00"
+}

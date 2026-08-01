@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "MSFT/USDT:USDT",
+  "size": 0.0,
+  "entry": 391.26,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price coils 390-393 under rejected 395 resistance; expect a probe toward the 390 shelf. Losing 390 opens 386-387 (short); holding it and reclaiming 395.85 opens continuation. No clean edge until one side breaks.",
+  "expectancy_note": "No entry clears R:R 1.5 without front-running an unbroken level; a short pre-breakdown gets stopped by the bounce (this account's #1 loss pattern), a long chases a rejection into CPI. HOLD is highest expectancy.",
+  "rationale": "MSFT rejected off ~395 resistance and is bleeding on 15m (394->390.4) but still defending the 390 shelf; composite is only 38% 'long', structure_bias -0.31 with crowded 1.99 longs argues against chasing continuation. Risk-OFF tape, US cash closed (thin/gappy), and June CPI tomorrow inside the 48h window make any market entry a coin-flip. Wait for 390 to break (short) or 395.85 to reclaim (long) rather than guess mid-range.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 390.0,
+    "expires_min": 240,
+    "note": "Losing the 390 shelf the last bounce is defending confirms the rejection is following through - short the crowded-long unwind toward 386-387."
+  },
+  "transcript": {
+    "macro": "Risk-OFF. MSFT mixed: composite long (rel-str +5.4%) BUT structure_bias -0.31 with long/short 1.99 (crowded longs) and price just rejected off resistance ~395. Tech-beta into a risk-off tape + CPI. US cash closed. June CPI tomorrow Jul 14 08:30 ET. Lean cautious.",
+    "sentiment": "Bullish, event pending OUTSIDE window. Azure +31%, AI run-rate ~$37B (+123%); ~$190B 2026 capex overhang debated. Q4 FY26 earnings Jul 29 (after close) - outside 48h. Near-term neutral-to-supportive; nothing should move price next 24-48h beyond tape/beta.",
+    "analyst": "Scan: last 391.26, resistance 395.85 / support 373.78, bb%b 0.998, Stoch 77, RSI 62.6, vwap +0.92%, long/short 1.99, structure_bias -0.31, composite only 38% long. 15m rejected off 394 and bleeding but defending 390 shelf. Neither a clean continuation long (extended, crowded, rejected) nor a confirmed short (390 not broken, cash closed). HOLD; reconsider short on losing 390.",
+    "portfolio": "MSFT: HOLD (conf 0.60) - rejected at 395 resistance, crowded longs, risk-off tape into CPI; reconsider short on break of 390."
+  },
+  "timestamp": "2026-07-13T21:32:14.437348+00:00"
+}

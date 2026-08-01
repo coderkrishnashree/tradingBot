@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "QQQ/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Illiquid Saturday tape coiling 695.1-696.2 just above 688 support; 4h RSI 21 oversold with a 5m relief bounce (RSI 78) underway. Expect chop between 688 and 698 for several bars \u2014 no clean short until 688 breaks or price rallies back to 700-702 to fade.",
+  "expectancy_note": "A fresh short here has ~45% p(win) and poor R:R (only ~$7 to 688 support with a >$3 stop above 698); account learner shows shorts win just 47% (avg -0.87R) and shorting oversold/low-RS names has been a net loser. HOLD beats chasing.",
+  "rationale": "Macro/sentiment favor shorts, but the actual tape contradicts a fresh entry: 4h RSI 21 is deeply oversold, price sits only ~$7 above 688 support, 5m RSI 78 shows a bounce already running, and US markets are closed (thin/gappy weekend). This is the exact late-short-into-stretched-tape pattern that produced this account's losers. Better to wait for a decisive break below 688 (momentum short) or a rally into 700-702 to fade with room; size 0.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 688.0,
+    "expires_min": 240,
+    "note": "Losing the 688 support flips this to a momentum-continuation short with room to run toward the next leg down."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF, tech-led; supportive for tactical shorts/fades on QQQ. QQQ BTC-corr 0.26, trade Nasdaq tape. Fri Jul 17 Nasdaq -1.4%, -2.9% week on semiconductor AI-capex-throttle selloff. QQQ orderbook imbalance -0.87 (heavy offers), ADX 82 strong down-trend. Funding 0.0. Weekend illiquidity = biggest risk; size down.",
+    "sentiment": "QQQ (Nasdaq-100 proxy) bearish/vulnerable. Closed ~$705.94 Jul 16 (-1.64%), testing critical $700-702 support after the chip selloff. Whole complex trading on AI-spend anxiety. Key level: hold of $700 vs break lower; caution/downside risk over chasing longs.",
+    "analyst": "Macro wants shorts but tape contradicts a fresh entry: 4h RSI 21 oversold, only ~$7 above 688 support, 5m RSI 78 bounce running, cash closed. Late-short pattern that bled the book (shorts 47%/-0.87). HOLD; short a break of 688 or a fade from 700-702.",
+    "portfolio": "QQQ: HOLD (conf 0.50) \u2014 bearish bias but oversold at support; wait for 688 break or 700-702 fade."
+  },
+  "timestamp": "2026-07-18T12:06:21.401146+00:00"
+}

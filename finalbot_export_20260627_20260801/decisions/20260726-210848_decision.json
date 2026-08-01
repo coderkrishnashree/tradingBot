@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "EWJ/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Dead, near-zero-volume off-hours tape pinned 92.3-92.5 inside the 89.5-93.3 range; no directional move is readable until cash reopens or the BoJ print moves it.",
+  "expectancy_note": "No edge: illiquid gappy ETF perp into a Friday BoJ+CPI binary and weekend gap; any entry here is a coin-flip with gap risk, so HOLD has the best expectancy.",
+  "rationale": "EWJ is an equity-style ETF perp trading off-hours on essentially zero volume (last ~20 bars are stale synthetic prints), so the candles give no forecastable next move and crypto structure metrics don't apply. Higher TFs lean long (4h 0.87) but 15m/5m are extreme-oversold noise, and the macro backdrop is explicit risk-off with a BoJ decision + Japan CPI Friday plus weekend gap risk into a crowded-long book -- exactly the condition to stay flat. R:R can't be honestly measured on a thin gappy tape, so no size is warranted.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 89.53,
+    "expires_min": 240,
+    "note": "Losing range-support 89.53 on real volume confirms the risk-off breakdown and would open a short thesis; a hold/reclaim above 93.34 would instead validate the higher-TF long."
+  },
+  "transcript": {
+    "macro": "RISK-OFF/cautious tape 2026-07-26: EWJ (Japan) direct event risk Friday = BoJ decision + Japan CPI. Weekend gap before Monday cash open; ETF perps thin/gappy off-hours. Crowded-long book into risk-off. Verdict: CAUTIOUS/FLAT-to-lean-SHORT; avoid holding into BoJ window.",
+    "sentiment": "Crypto EXTREME FEAR; risk-off tone in Asia. EWJ: Nikkei fell 2.7% Jul 24 on AI-spend worries; down >10% from June peak, yen slumping, Korean investors net-selling Japan. Macro/BoJ-driven, no single-name binary.",
+    "analyst": "ETF perp on essentially zero off-hours volume (last ~20 bars stale synthetic prints) \u2014 no forecastable move, crypto structure metrics don't apply. Higher TFs lean long (4h 0.87) but 15m/5m are extreme-oversold noise; explicit risk-off with BoJ+Japan CPI Friday plus weekend gap into a crowded-long book. R:R can't be measured on a thin gappy tape \u2014 stay flat.",
+    "portfolio": "EWJ: HOLD 0.60 \u2014 dead illiquid tape into BoJ event; armed to short on loss of 89.53."
+  },
+  "timestamp": "2026-07-26T21:08:48.321665+00:00"
+}

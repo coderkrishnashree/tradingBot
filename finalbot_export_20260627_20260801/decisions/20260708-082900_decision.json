@@ -1,0 +1,26 @@
+{
+  "symbol": "CL/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.6,
+  "size": 0.0,
+  "entry": 73.87,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "forecast": "Blow-off spike just tagged 73.99 resistance (close 73.87, RSI 83.5, %B 1.10, stoch 98, +4.6% from VWAP). Next few bars either fail here and mean-revert toward 72.9/72.0, or squeeze marginally through on the geopolitical headline; no confirmed reversal candle yet, so no clean entry.",
+  "expectancy_note": "Long at RSI 83.5 / %B 1.10 into hard resistance with bearish fundamentals = negative expectancy (chasing); short into a strong-closing up-spike with no rejection bar = coin-flip. Waiting for confirmation raises p(win) on the fade meaningfully.",
+  "rationale": "CL is maximally extended after a 21x-volume, +2.4% breakout bar into the 73.99 resistance; RSI 83.5, stoch 98, %B 1.10, +4.6% above VWAP, and the crowd is 3.6:1 long into the spike - every quant check screams 'do not chase the long.' Fundamentals, macro and sentiment are all bearish (OPEC+ 5th hike, glut, Hormuz normalized), which favors fading rallies, but the spike bar closed strong with no rejection wick, so a naked short now is catching momentum with no confirmation. The high-expectancy trade is a fade AFTER confirmed failure of 73.99 or a loss of the 72.90 breakout base - hence HOLD with an armed short trigger.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 72.9,
+    "expires_min": 240,
+    "note": "Losing the 72.90 breakout base proves the geopolitical up-spike failed; with bearish fundamentals underneath that opens a high-expectancy short toward VWAP ~70.6."
+  },
+  "transcript": {
+    "macro": "Risk-on equities, intraday wobble; DXY<102. CL bearish fundamentals - OPEC+ 5th monthly hike (+188k b/d Aug), Hormuz flows restored, demand cut ~1.1M b/d, oversupplied curve. Macro favors short/fade rallies. L/S extremely crowded long (3.6:1) into the spike.",
+    "sentiment": "CL bearish tone. WTI near 5-month lows on the fundamentals; OPEC+ added 188k bpd for August, Saudi cut Arab Light pricing sharply, 2M+ bpd 2026 glut projected; easing Hormuz/US-Iran tensions stripping risk premium (JPM sees Brent ~$60 avg). Only upside risk = fresh Strait of Hormuz shipping attacks. FOMC minutes today adds two-way DXY risk.",
+    "analyst": "Violent 21x-volume +2.4% breakout tagged 73.99 resistance and closed strong - maximally extended (RSI 83.5, %B 1.10, stoch 98) with crowd 3.6:1 long; do-not-chase long, and short lacks a rejection bar. Fade only after 73.99 fails or 72.90 base is lost.",
+    "portfolio": "HOLD CL - exhaustion spike into resistance against bearish fundamentals; short trigger armed on a loss of 72.90."
+  },
+  "timestamp": "2026-07-08T08:29:00.763977+00:00"
+}

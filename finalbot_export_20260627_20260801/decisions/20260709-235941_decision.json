@@ -1,0 +1,26 @@
+{
+  "symbol": "QQQ/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.34,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "forecast": "Price stays pinned in the 722-724 coil overnight on near-zero volume; the real move waits for the July 10 US open, where bearish semi headlines risk a gap-down toward 715 while a strong tape could squeeze the 731.5 resistance.",
+  "expectancy_note": "No positive-expectancy entry: long is extended (stoch 95, %B 0.86) into resistance 731.5 in a CLOSED illiquid session with bearish overnight semi news; chasing = the account's #1 loss pattern. HOLD beats a gap-risk market entry.",
+  "rationale": "US cash session is closed (19:55 ET) and the 15m tape confirms it \u2014 five hours frozen in a 1.4-point range on ~0.5-36 unit volume, so funding/OI/L-S are pure noise. The scan's long is a lagging read of the uptrend, but live semiconductor selling (Samsung, DeepSeek chip) and Nasdaq -5% off highs argue against a fresh long into 731.5 resistance while RSI 67.7/stoch 95 are already stretched. No clean short either (fighting the multi-TF uptrend on off-hours noise). Wait for real liquidity and price discovery at the July 10 open \u2014 size 0.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 731.53,
+    "expires_min": 900,
+    "note": "A clean break/reclaim of the 731.5 resistance at the US open proves the uptrend is resuming on real volume and would flip me long with a trend-continuation entry; until then the long is just an extended, illiquid chase."
+  },
+  "transcript": {
+    "macro": "Scan @ 2026-07-09 23:55 UTC = ~19:55 ET, US cash session CLOSED; tokenized equities thin/gappy off-hours, funding 0, tiny OI -> positioning is noise, real repricing at July 10 open. Regime MIXED-to-cautious risk-on: S&P +7.7% YTD on AI capex but tape defensive (Fed dot-plot 9/18 see a 2026 HIKE, inflation 3-yr high, 'Fed edging closer to rate hike', Strait of Hormuz risk). Q2 earnings start July 13. QQQ: composite long (score +0.34, 41.6% conf), aligned uptrend 30m/1h/4h, RSI 67.7, stoch 95 extended into resistance 731.5 (last 723.5), BTC-corr 0.46 (own equity beta). Cleanest of the set but overbought into a closed pre-earnings session \u2014 modest edge, don't chase.",
+    "sentiment": "QQQ near-term BEARISH: live semiconductor sell-off (Samsung Q2 print + Reuters DeepSeek building own AI chip) spooking mega-cap tech; Nasdaq-100 ~5% off highs. Macro overhang: fresh Strait of Hormuz attacks lifting crude/yields = gap risk over next 1-2 sessions. SpaceX joined Nasdaq-100 July 7 at ~0.5-1% weight (minor). Scan flags LONG but live tape bias is bearish \u2014 news argues AGAINST a fresh long.",
+    "analyst": "The bull case (aligned 30m/1h/4h uptrend, composite long) conflicts with a bearish live tape (semi sell-off, Nasdaq -5% off highs) and a stretched, overbought reading (stoch 95, %B 0.86, +1.46% over VWAP) pressed against 731.5 resistance. Critically the US session is closed and the candles prove it \u2014 frozen range, ~zero volume \u2014 so any market entry is a bet on an overnight gap, not a technical edge, and buying extended into resistance is exactly this account's dominant loss pattern. Expectancy favors waiting: no positive-R:R entry exists into a closed, illiquid, headline-vulnerable session. Armed 731.5 as the flip level because a clean reclaim on real volume at the open would validate the long without chasing.",
+    "portfolio": "QQQ: HOLD (conf 0.34) \u2014 extended long into resistance in a closed, bearish-headline session; no positive-expectancy entry, wait for July 10 open / 731.5 reclaim."
+  },
+  "timestamp": "2026-07-09T23:59:41.030741+00:00"
+}

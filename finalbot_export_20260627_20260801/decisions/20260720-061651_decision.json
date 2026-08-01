@@ -1,0 +1,23 @@
+{
+  "symbol": "SNDK/USDT:USDT",
+  "action": "hold",
+  "entry": 0,
+  "size": 0.0,
+  "confidence": 0.6,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "rationale": "SNDK is a tokenized memory/semi equity in a risk-off, semi-led selloff with ugly structure (orderbook -0.92, crowded-long 1.61, bearish divergence) \u2014 will not buy. But price sits dead-center of a very wide 9% band after rejecting 1380, with no extreme to fade and support 26pts away, so a short here is a wide-stop, low-probability trade into thin Sunday liquidity. Size 0: wait for the 1340 breakdown to short with structure overhead.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 1340,
+    "expires_min": 300,
+    "note": "Losing 1340 (base of the 2-day range) confirms the memory-group breakdown resumes and gives a clean short with 1380 resistance overhead and a tight structural stop."
+  },
+  "transcript": {
+    "macro": "RISK-OFF, hawkish-Fed tape (Fed leaning HIKE; FOMC Jul 28-29). Equity selloff LED BY SEMICONDUCTORS / memory (AI-capex fear). DXY firm ~100.8. Hostile for fresh longs. Funding near-zero \u2014 read L/S + orderbook. SNDK: rel strength -43.9% vs BTC (most beaten-down), orderbook -0.92 (overwhelming sell pressure), crowded long 1.61, bearish divergence, structure_bias -0.49 (most negative on board), bb_width 9% (whippy/illiquid). MU corr 0.85.",
+    "sentiment": "SNDK BULLISH narrative but STRETCHED + no near-term catalyst. Best S&P 500 stock of 2026 (+~700-850% YTD) on AI/NAND boom; last print monster (rev +251% YoY, GM 78%). BUT next earnings Aug 5 (Investor Day Aug 13) \u2014 NO <=48h binary. At ~64x P/E after a parabolic run, acute near-term risk is profit-taking/technical correction, not news.",
+    "analyst": "Price rejected 1380 and is fading; mid-band (bb_pctb 0.51), weak ADX 26.7, 9% band width = whippy/illiquid, Sunday cash-closed gappy. Composite 'long' at only 35.6% conf, not aligned. Won't buy (ugly structure); but a mid-range short needs a ~16pt stop with support 26pt away = sub-1.6 R:R low-prob chase. HOLD; short the 1340 breakdown with structure overhead.",
+    "portfolio": "SNDK: HOLD (conf 0.60) \u2014 ugly structure but mid-band/whippy; short only on a 1340 breakdown."
+  },
+  "timestamp": "2026-07-20T06:16:51.251587+00:00"
+}

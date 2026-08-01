@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "QQQ/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.55,
+  "playbook": "none",
+  "forecast": "Slow grind toward 688 support then a relief bounce back toward VWAP ~705-711 within the next several bars; fresh short here would be stopped by that bounce, so I wait to short the bounce or a clean break of 688.",
+  "expectancy_note": "Shorting now: p(win)~0.4, R:R poor (only ~7pts to support 688 before first exit, strong +0.72 orderbook bid, 5m RSI 15.9 / 4h RSI 24.9 primed to bounce). Waiting to fade a bounce into 705-711 flips R:R to >2 with room to 688/676 - higher expectancy than chasing.",
+  "rationale": "QQQ is the Nasdaq proxy in a violent downtrend (ADX 79.5, all TFs down) and macro/sentiment strongly favor shorts, but price is deeply extended: 4h RSI 24.9, 5m RSI 15.9, %B 0.128, -2.24% below VWAP, and sitting only ~1% above hard support at 688.09 with a strong +0.72 orderbook bid. Market-shorting here is the account's classic late-short-into-stretched-tape loss; a relief bounce to VWAP would stop it before the trend resumes. I hold and wait to short a bounce into 705-711 resistance (best R:R) or a decisive break of 688.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 705.0,
+    "expires_min": 360,
+    "note": "A bounce back to ~705 (toward VWAP / prior support-turned-resistance) unwinds the oversold stretch and sets up a high-R:R short into strength with the intact downtrend and bearish macro."
+  },
+  "transcript": {
+    "macro": "RISK-OFF/hostile for longs. Nasdaq100 -1.5% Fri (week -2.9%) on a semiconductor selloff + geopolitical/inflation risk. Late-Friday US cash closed -> thin/gap-prone until Monday. FOMC Jul 28-29 + PCE/GDP Jul 30 loom. QQQ lean: supports SHORT (highest-conviction environment fit) - ADX 79.5, 4h RSI 24.9, every TF down; it IS the Nasdaq proxy leading the decline. Funding slightly positive, orderbook +0.72 hints near-term dip-buy, so expect chop but the trend is down.",
+    "sentiment": "QQQ: bearish. Pure proxy for the broad tech selloff; closed at the lows of a -2.9% weekly slide with semi/AI-capex fear front and center (Chinese 'Moonshot AI' model + US-Iran re-escalation). No single QQQ catalyst inside 48h, but it gaps with index futures on Sunday-night reopen; near-term news argues WITH a short / against longs.",
+    "analyst": "Violent downtrend (ADX 79.5, all TFs down) and macro/sentiment favor shorts, but price is deeply extended (4h RSI 24.9, 5m RSI 15.9, %B 0.128, -2.24% vs VWAP) and only ~1% above hard support 688.09 with a strong +0.72 orderbook bid. Market short = late-into-stretched-tape loss; a bounce to VWAP stops it. HOLD; short a bounce into 705-711 (best R:R) or a decisive break of 688.",
+    "portfolio": "HOLD QQQ - strongest short environment but too oversold to chase; short a bounce into ~705."
+  },
+  "timestamp": "2026-07-17T23:37:13.721645+00:00"
+}

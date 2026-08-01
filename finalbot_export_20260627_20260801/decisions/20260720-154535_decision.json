@@ -1,0 +1,28 @@
+{
+  "symbol": "NVDA/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.58,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "none",
+  "forecast": "Stalled below the 207.77 spike high on collapsing volume; likely chops 205-206.5 then dips to retest the 204.5-204.7 shelf / rising VWAP within 2-4 bars, where a trend-continuation long becomes buyable. No clean edge at 206 mid-air.",
+  "expectancy_note": "p(win) ~0.5 chasing here vs ~0.6 on a pullback entry; buying at 206 gives R:R <1.5 into an extended 4h top-of-band and crowded longs. Waiting has higher expectancy.",
+  "rationale": "Uptrend intact (30m/1h scores 0.75-0.89, ADX 77) but 4h is extended (RSI 76.8, %B>1, negative 4h MACD) and the 15m move stalled just under the 207.77 spike high on dying volume \u2014 a classic late-chase trap into TSLA/GOOGL/INTC earnings week with longs crowded 1.65 and structure_bias -0.17. No pullback to VWAP yet and price isn't at a fade level, so there is no positive-expectancy entry at 206. Want a dip into 204.5/VWAP to join the trend or a shelf break to invalidate before committing size.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 204.6,
+    "expires_min": 240,
+    "note": "Losing the 204.7 15m shelf/VWAP zone offers a clean pullback-continuation long or signals the extended trend is unwinding \u2014 re-debate."
+  },
+  "transcript": {
+    "macro": "Regime MIXED \u2014 risk-on relief bounce 2026-07-20 but into heavy event risk. ~53% odds of a Sept Fed HIKE (hawkish Warsh Fed), oil ~$90 on US-Iran, semi complex in correction (SMH -9%/4wk). Earnings binaries: TSLA/GOOGL 7/22, INTC 7/23, MSFT 7/29. Smaller size across the board; tokenized equities thin/gappy off US RTH. NVDA trend intact but 4h extended (RSI 76.8, %B>1), crowded long 1.65; no own catalyst until Aug 26 \u2014 longs only on pullback/continuation, don't chase top of band.",
+    "sentiment": "NVDA NEUTRAL-to-cautious near-term: no company catalyst until earnings Aug 26. Live driver is today's macro AI selloff and read-through from MSFT's Jul 29 print (MSFT is NVDA's largest hyperscaler customer). Long-term bullish (Strong Buy, PT ~$302) but not tradable now; today's tape argues slightly against fresh longs \u2014 treat as beta-to-semis proxy.",
+    "analyst": "Uptrend intact (ADX 77) but 4h extended (RSI 76.8, %B>1, negative MACD); 15m stalled just under 207.77 spike high on dying volume \u2014 a late-chase trap into earnings week, longs crowded 1.65. No pullback to VWAP and not at a fade level, so no positive-expectancy entry at 206. Hold; want a dip to 204.5/VWAP for a continuation long or a shelf break to invalidate.",
+    "portfolio": "HOLD NVDA \u2014 no edge chasing the extended top; wait for the 204.5/VWAP pullback."
+  },
+  "timestamp": "2026-07-20T15:45:35.596868+00:00"
+}

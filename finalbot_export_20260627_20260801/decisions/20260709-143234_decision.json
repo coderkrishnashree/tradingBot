@@ -1,0 +1,22 @@
+{
+  "action": "short",
+  "symbol": "AAPL/USDT:USDT",
+  "size": 3.0,
+  "entry": 311.9,
+  "stop_loss": 312.95,
+  "take_profit": 308.6,
+  "take_profit_1": 310.2,
+  "take_profit_2": 308.6,
+  "confidence": 0.58,
+  "playbook": "trend",
+  "forecast": "Bounce off the 308.43 flush retests broken 312/VWAP band (311.9-312.3), rejects, then rolls back toward 310.2 and the 308.5 flush low within 3-6 bars.",
+  "expectancy_note": "p(win)~0.55, R:R to tp1 = 1.7/1.05 = 1.6R; fading a retest into a live multi-TF downtrend beats market-shorting mid-range at VWAP.",
+  "rationale": "Composite short across 15m-4h with ADX 45 and 30m RSI 33.5 confirms a live downtrend, but price just flushed to 308.43 and is bouncing back to VWAP (-0.19%), 5m flipped long \u2014 market-shorting here gets stopped by the bounce. Instead I fade the retest of broken 312/VWAP resistance with a tight 1.05pt stop above the 312.8 swing, targeting the flush low. Idiosyncratic leader (BTC corr 0.26), balanced L/S; risk-off macro and oil-driven gappy tape favor the short. Size trimmed to 3% given the defensive regime and equity gap risk.",
+  "transcript": {
+    "macro": "Regime RISK-OFF-LEANING/MIXED, defensive. Mixed cash close (Dow -1%, Nasdaq +0.2%); swing factor US-Iran re-escalation, oil +5% (~$78), yields up. Semis in active rout. No CPI/FOMC in 48h \u2014 driver is gappy two-sided geopolitical/oil tape. Crypto soft-neutral: BTC ~$62.7k chopping, no tailwind. Cross-sectional tell: L/S ratios lopsidedly LONG while price bleeds (contrarian-bearish). Favors shorts/fades over fresh longs; size down. AAPL: RS LEADER (+5.5% vs BTC), low BTC corr (0.26), composite short 15m-4h, broke 312->310, L/S balanced 0.97.",
+    "sentiment": "Overall NEUTRAL-to-BEARISH tech (hawkish Fed, CPI swing). No name reports earnings inside 24-48h. AAPL: Q3 FY26 earnings Jul 30 (~3wk out), guided +14-17% YoY rev, likely Tim Cook's final call. No <=48h catalyst; trades on beta.",
+    "analyst": "Live downtrend (ADX 45, multi-TF short, 30m RSI 33.5) but price flushed to 308.43 and is bouncing to VWAP with 5m long \u2014 market-short would be stopped by the bounce. Fade the retest of broken 312/VWAP: limit short 311.9, stop 312.95 above the 312.8 swing (1.05pt), tp1 310.2, tp2 308.5 flush low (~1.6R). Idiosyncratic leader, balanced positioning; risk-off/oil tape supports the short. Size 3%.",
+    "portfolio": "AAPL: SHORT limit 311.9 on the VWAP retest (conf 0.58, size 3%) \u2014 fade the bounce, don't chase."
+  },
+  "timestamp": "2026-07-09T14:32:34.230906+00:00"
+}

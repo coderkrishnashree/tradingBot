@@ -1,0 +1,25 @@
+{
+  "action": "hold",
+  "symbol": "TSM/USDT:USDT",
+  "size": 0.0,
+  "entry": 454.5,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.7,
+  "playbook": "none",
+  "expectancy_note": "No trade: chasing a vertical RSI-90 upper-band-buster (bb%b 1.506, stoch 100, +0.54% VWAP) at resistance on a CLOSED-market weekend with 2.8k OI = negative expectancy long; shorting a 33x-vol thin-tape breakout risks a Monday gap. p(clean win) low either way, no R:R justifies it.",
+  "rationale": "TSM is an equity (US cash shut till Monday); the eye-catching 33x-vol 15m breakout over 450 is unreliable on ~2.8k OI weekend liquidity, and price is blown out (RSI 83-92 across TFs, stoch 100, bb%b 1.51, +0.54% above VWAP) sitting right AT resistance 454.5 with the book already crowded-long (L/S 1.999, structure_bias -0.20). No catalyst inside 48h (earnings Jul 16), rel-strength -0.1 means this is just tape beta with no edge. A long here buys the exact top with no room to next resistance; a short fights a fresh momentum spike into a potential Monday gap. Sit out and let it come back to the level.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 449,
+    "expires_min": 240,
+    "note": "Losing 449 fails the breakout retest and voids the long thesis; a controlled pullback that HOLDS 449 (not this extended top) is the real long entry."
+  },
+  "transcript": {
+    "macro": "Regime: cautiously risk-ON but thin weekend tape (Sun Jul 5, US cash CLOSED till Monday - equity perps thin/gappy); Nasdaq was the soft spot Friday (-0.8%). TSM/USDT $454.50 (Taiwan Semi stock, semis, corr-BTC 0.411): funding 0, OI 2.8k (VERY thin), L/S 1.999 (crowded-long, -1.0), orderbook +0.33, structure_bias -0.201. 15m breakout with HUGE 33x vol spike but 30m/15m RSI 90-92 - vertical, overextended. MIXED/caution: breakout unreliable on closed-market weekend + thin OI, RSI blown out, book crowded-long. Do NOT chase; wait for Monday cash confirmation. Long only on pullback holding ~449, small size.",
+    "sentiment": "TSM clean tape now, hard binary building. Strong Q1 (rev $35.9B, GM 66.2%), FY26 guide >30% growth on AI demand - fundamental backdrop firmly positive. The one thing that matters: Q2 earnings Jul 16 (outside 48h but key binary; expect vol compression into it). NO catalyst inside 48h. US markets closed weekend so off-hours tape thin/gappy. Read: neutral, drift-with-Nasdaq until Jul 16.",
+    "analyst": "15m breakout over 450.07 on a 33x vol spike but on closed-market weekend with only 2.8k OI - unreliable. RSI blown out everywhere (15m 90, 30m 92.6), stoch 100, bb%b 1.506, +0.54% above VWAP, sitting AT resistance 454.5. L/S 1.999 (bulls all-in), structure_bias -0.201. Composite direction flat, conf 6.2%, no catalyst in 48h (earnings Jul 16), rel_strength -0.1 (pure tape beta). Chasing a vertical RSI-90 top = donation; shorting a 33x-vol thin breakout risks a Monday gap. Clear NO TRADE; the flip level is a pullback that HOLDS 449.",
+    "portfolio": "HOLD TSM - no trade; vertical/overextended top on thin OI, wait for a Monday pullback that holds 449."
+  },
+  "timestamp": "2026-07-05T22:35:58.548458+00:00"
+}

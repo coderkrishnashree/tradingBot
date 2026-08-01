@@ -1,0 +1,27 @@
+{
+  "action": "hold",
+  "symbol": "AAPL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.55,
+  "playbook": "none",
+  "expectancy_note": "Long at spot has negative R:R (target 315.4 only 0.5% up, stop must sit >1ATR below at ~311); breakout not yet confirmed and pre-open tape is gappy. Best expectancy is wait.",
+  "rationale": "AAPL is the strongest horse in the book (RS +8.9% vs BTC, ADX 57, all higher-TFs long, low BTC-corr 0.27) but pressed right into resistance 315.4 while RSI 68 / %B 0.94 / stoch 84 flag an extended, overbought candle into the US open. Chasing here risks the mean-revert gap the macro note warns about, and the immediate target sits above the required ATR-based stop, giving sub-1 R:R. No 48h binary (earnings Jul 30) forces action. Want either a confirmed hold above resistance to buy continuation, or a pullback to VWAP \u2014 neither present now.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 315.6,
+    "expires_min": 240,
+    "note": "A clean break and hold above resistance 315.4 on US-hours volume confirms trend continuation and opens a measured-move long; until then price is chasing an extended candle into stiff resistance."
+  },
+  "transcript": {
+    "macro": "RISK-ON but late-stage. US closed higher Jul 6 (semis/AI leading). Tokenized proxies \u2014 scan pre-US-open, gappy. Fed on hold 3.50-3.75%, CPI hot 4.2%, hawkish; FOMC Jul 29 (no 48h risk). AAPL ($313.79): strong momentum (RS +8.9%, ADX 57, up all TFs) but stretched \u2014 RSI 68, %B 0.94, right at resistance 315.4. Structure neutral (L/S 1.06). Argues for SMALLER SIZE; risk is a mean-revert gap.",
+    "sentiment": "AAPL mixed, no <=48h binary. Earnings Jul 30 after close (outside window). Only fresh item: Broadcom chip-supply deal extension through 2031 (Jul 6, +1%) \u2014 long-horizon positive, not a tradable catalyst. Consensus PT ~$315 vs spot ~$313 (limited upside). NEUTRAL near-term.",
+    "analyst": "Strongest horse in the book but jammed into resistance 315.4 with RSI 68 / %B 0.94 / stoch 84 \u2014 extended overbought candle into the open. Long has sub-1 R:R (target = resistance, above ATR-based stop ~311); shorting the leader against ADX 57 is wrong. Wait for confirmed hold above resistance or a pullback to VWAP (~310-311).",
+    "portfolio": "HOLD AAPL \u2014 don't chase the extended candle into resistance; arm the 315.6 breakout-continuation long."
+  },
+  "timestamp": "2026-07-07T08:26:18.182823+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "HOOD/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Thin off-RTH grind stalls near round-100 into 15m RSI 82 / 5m RSI 89; expect a stall-and-fade back toward the 99.6-99.8 VWAP shelf over the next 2-4 bars before any clean continuation \u2014 not a chase-worthy entry here.",
+  "expectancy_note": "No positive-expectancy entry: long = chasing stretched thin melt-up into resistance (account's #1 loss pattern); short has no reversal trigger vs 4h uptrend. Best EV is wait for the pullback.",
+  "rationale": "HOOD is a tokenized equity in a risk-off/thin off-RTH tape (04:08 UTC, futures -1%), grinding into the 100 round number with 15m/30m/5m RSI 80-89 and crowded long (L/S 1.71, structure_bias negative, RS -11.7% vs BTC). The 4h trend is still up (RSI 55.7, room), so shorting has no edge, but market-buying stretched-and-crowded into thin liquidity is precisely how this book bleeds. Want the pullback to the 99.6-99.8 VWAP/broken-resistance shelf for a with-trend long, or a break of 99.3 to invalidate.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 99.6,
+    "expires_min": 240,
+    "note": "A dip back to the 99.6 VWAP/prior-breakout shelf resets RSI and offers a with-4h-trend long entry with a tight stop under 99.3."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF/defensive (2026-07-21): S&P -0.28%, futures ~-1%, VIX firming. Geopolitics (Iran/Hormuz) headline-gap tape; size down. Tokenized equity thin off US RTH. HOOD reports Wed Jul 29 after close \u2014 OUTSIDE 48h (cleaner than GOOGL). HOOD crowded long L/S 1.71, structure_bias negative; scan 15m RSI 82 / stoch stretched, lagging BTC (RS -11.7%).",
+    "sentiment": "HOOD neutral: Q2 earnings Wed Jul 29 after close (outside 48h). Structural: Robinhood Chain live Jul 1 with tokenized Stock Tokens (debt securities, no equity rights) \u2014 long-horizon narrative, not a 48h mover. No near-term binary; Jul 29 is a hard event boundary.",
+    "analyst": "HOLD HOOD. Tokenized equity in risk-off, thin off-RTH tape grinding into round-100 with 15m/5m RSI 80-89 and crowded-long positioning (L/S 1.71, RS -11.7%). 4h trend still up so no short edge; but chasing a stretched melt-up into thin liquidity is the account's #1 loss pattern. Wait for a pullback to the 99.6-99.8 VWAP shelf for a clean with-trend long, or a loss of 99.3 to reassess. Earnings Jul 29 outside the 48h window.",
+    "portfolio": "HOLD HOOD \u2014 stretched thin melt-up into round-100; wait for the 99.6 VWAP pullback, don't chase."
+  },
+  "timestamp": "2026-07-21T04:16:07.069228+00:00"
+}

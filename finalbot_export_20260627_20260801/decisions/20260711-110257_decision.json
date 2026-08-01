@@ -1,0 +1,26 @@
+{
+  "symbol": "SNDK/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.6,
+  "size": 0.0,
+  "entry": 1946.51,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "forecast": "Chop in the 1937-1952 digest band for the next few bars; a break under 1937 opens a reversion toward VWAP/1900, while a reclaim of 1987.8 resumes the parabola. No edge until one side breaks.",
+  "expectancy_note": "Long is chase (RSI79, +9.8% VWAP, blow-off rejected at 1987.8) = negative expectancy; short is a knife-catch vs ADX60 uptrend + positive structure bias, no confirmed lower-high. Both fail R:R with an honest ~1xATR ($69) stop. HOLD wins.",
+  "rationale": "SNDK is violently extended after a parabolic run: 4h RSI 79, ADX 61, +9.8% above VWAP, ATR 3.54%, and the 1987.8 spike was rejected and sold into a 1937-1952 digest. Saturday = underlying equity CLOSED, perp thin/gappy, into a Tue CPI binary; chasing the long is the account's classic late-entry loser and shorting the trend has no confirmed reversal. No setup offers 1.5R with a sub-1.5xATR stop, so stand aside and let price declare direction at a level.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 1937.0,
+    "expires_min": 240,
+    "note": "Losing the 1937 digest floor confirms the blow-off top is failing and opens a short toward VWAP/1900."
+  },
+  "transcript": {
+    "macro": "2026-07-11 Sat, US cash CLOSED. Regime moderately risk-on but stretched. Weekend perps thin/gappy. EVENT: Tue Jul 14 June CPI + bank earnings. Sector: AI/memory semis leadership; SK Hynix IPO +12.8% Jul 10 tailwinds SNDK. But SNDK violently extended (RSI 79, ADX 60.9, +9.8% VWAP, ATR 3.54%), highest reversion risk in set; positive structure bias +0.14.",
+    "sentiment": "Risk-on but stretched into Jul 14 CPI binary. SNDK: hot momentum (BiCS10 1Tb NAND sampling Jul 3, multi-year Meta NAND deal), catalysts already priced, next earnings Aug 5 (not this window); some notes flag insider/smart-money trimming. News bullish but stale; near-term risk is momentum unwind. Over-extended long.",
+    "analyst": "Textbook over-extension: RSI 79, +9.8% VWAP, blow-off to 1987.8 rejected and sold into a 1937-1952 digest. Chasing long into closed weekend cash = the book's #1 loser; shorting a parabola with ADX 61 and aligned multi-TF longs = knife-catch with no confirmed lower-high. Neither clears 1.5R with an honest ~$69 stop. HOLD; short trigger on loss of 1937.",
+    "portfolio": "HOLD SNDK \u2014 parabolic blow-off digesting, no confirmed direction; armed short trigger below 1937."
+  },
+  "timestamp": "2026-07-11T11:02:57.135982+00:00"
+}

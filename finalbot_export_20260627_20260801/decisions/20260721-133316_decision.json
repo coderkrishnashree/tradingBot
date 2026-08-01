@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "COIN/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price rejected 169.46 resistance and closed the last 15m bar on its low (168.21->167.94 after tagging 169.46); expect a pullback toward 165.2-166.0 VWAP reversion over the next 2-6 bars unless bulls reclaim 169.46, in which case the ADX-82 trend extends toward 172.",
+  "expectancy_note": "No positive-expectancy entry: long is a chase (RSI 75.7, %B 1.16, VWAP +4.1%, extended >2xATR) and short into ADX 82 is the exact late-short-into-stretched-tape pattern that lost this account 48 trades at 46% win / -1.09R. Wait for the level to resolve.",
+  "rationale": "COIN is a stretched crypto-beta echo (BTC corr 0.64, rel strength -5.3%) sitting +4.1% above VWAP with %B>1.0, RSI 75.7 and a fresh bearish 4h divergence, having just rejected 169.46 resistance on a wick and closed the 15m bar on its low. Both directions are traps here: a long chases a vertical spike into resistance, and a short fights ADX 82.7 momentum in exactly the setup the learner shows loses money (shorts 46% win, -1.09 avg). The highest-expectancy action is to stand aside and let 169.46 decide direction. BTC is coiled ~64K awaiting a decisive move, so wait for that signal rather than pre-position the echo.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 169.6,
+    "expires_min": 240,
+    "note": "A 15m close and hold above 169.46 resistance invalidates the divergence/rejection and confirms trend continuation, arming a pullback-buy toward 172; losing 165.16 would instead confirm the exhaustion reversal."
+  },
+  "transcript": {
+    "macro": "Cautiously risk-on with hawkish-rates overhang. VIX 17.85 calm. COIN is a high-BTC-corr (0.64) crypto-beta name \u2014 check BTC before sizing. Earnings July 30 (outside 48h, building not immediate). Just ripped +2% on the last candle; extended. BTC coiled ~$64K in a tight range preceding a decisive move.",
+    "sentiment": "COIN neutral now; earnings July 30 after close is the looming binary (just outside 48h \u2014 flag, don't gap-trade). Q1 was ugly (EPS -$1.49 vs +$0.29, revenue miss, $394M net loss); sentiment skittish. Near-term trades as a high-beta crypto proxy; 48h path driven by BTC direction more than headlines. Scan flags bearish divergence after a sharp intraday spike.",
+    "analyst": "Stretched crypto-beta echo (+4.1% VWAP, %B>1.0, RSI 75.7, fresh bearish 4h divergence) that just rejected 169.46 on a wick and closed the 15m bar on its low = exhaustion after a vertical spike. Both sides are traps: long chases into resistance; short fights ADX 82.7 in exactly the late-short-into-stretched-tape pattern that lost the account 48 trades (46% win). Stand aside and let 169.46 decide; BTC coiled ~$64K awaiting a break.",
+    "portfolio": "HOLD COIN \u2014 exhaustion wick at 169.46 but ADX-82 trend too strong to fade; long armed above 169.6."
+  },
+  "timestamp": "2026-07-21T13:33:16.158469+00:00"
+}

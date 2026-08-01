@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "EWY/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.55,
+  "playbook": "none",
+  "forecast": "Price stalling at 168.2-168.4 just under the 168.79 swing high on fading volume after a ~2 ATR run off 165.3; expect chop/small pullback toward 167 into the Fed rather than a clean continuation. A decisive break and hold above 168.8 opens 170-171.",
+  "expectancy_note": "p(win) on a market long here ~0.45: chasing a stretched bounce (RSI 66, +2 ATR off low) into a binary FOMC in a lagging semi-heavy ETF (rel-str -10.8) has poor R:R; no fadeable extreme either. HOLD beats both.",
+  "rationale": "EWY is mid-range (160.15 support / 177.38 resistance) after a stretched intraday grind now stalling on drying volume right below the 168.8 swing high, with a binary FOMC ~24-48h out and a sharp semi-sector overhang dragging this name (rel-strength -10.8). There is no honest continuation entry that isn't a chase and no clean level to fade, so expectancy favors waiting. Thin/gappy off-hours liquidity adds risk.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 168.8,
+    "expires_min": 240,
+    "note": "A decisive reclaim/hold above the recent swing high confirms continuation toward 170-171, turning this from a chase into a valid momentum long."
+  },
+  "transcript": {
+    "macro": "Regime MIXED-to-HOSTILE. FOMC Jul 28-29 binary event; fragile US-Iran truce; SEMI selloff sharp (SOXX -17% MTD). Cross-cutting: crowded-long book, positive/extreme funding, RSI 70s-80s, flush risk. EWY: heavily semis/memory-weighted (SK Hynix/Samsung dragged KOSPI); corr 0.77 to QQQ; funding -0.76, rel-strength -10.8 (lagging). Thin/gappy outside Korea+US hours. Verdict: skip or half-size.",
+    "sentiment": "FOMC Wed biggest \u226448h catalyst. EWY: pure regional beta; tracks the semi/AI complex (high corr to MU/QQQ) and Samsung earnings this week. Event-risk high; direction driven by FOMC/mega-cap prints. Thin/gappy.",
+    "analyst": "Price is a stretched intraday bounce (up ~2 ATR off 165.3, RSI 66) stalling on fading volume just under the 168.8 swing high, mid-range between 160.15 support and 177.38 resistance. Semi-sector overhang (SOXX -17% MTD, rel-strength -10.8) plus a binary FOMC ~24-48h away and thin/gappy off-hours liquidity make a fresh long a chase and offer no clean fade. Best expectancy is to wait; arm a re-entry trigger on a decisive break above 168.8.",
+    "portfolio": "HOLD flat \u2014 stretched bounce, semi overhang, thin/gappy; long only on a break >168.8."
+  },
+  "timestamp": "2026-07-27T06:41:35.222371+00:00"
+}

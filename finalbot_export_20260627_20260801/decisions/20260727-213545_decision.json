@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "XAUT/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price stays pinned around 4065-4078 VWAP; tight BB squeeze (width 1.16%) resolves only after fresh flow or the FOMC catalyst.",
+  "expectancy_note": "No R:R>=1.5 setup: price mid-range (3984/4155), glued to VWAP, ADX high but 4h trend neutral = exhausted not directional; any entry is a coin-flip into an FOMC whipsaw.",
+  "rationale": "XAUT is chopping in a ~15pt band right at VWAP with a squeezed Bollinger (1.16% width) and no confirmation either way; ADX 44 reflects a spent prior move, not a live trend. Crowded long positioning (L/S 2.49, structure_bias -0.36) and the Wed FOMC hawkish-hold lean cap upside, while the account's short book bleeds and price is nowhere near 3984 support to justify a mean-revert long. No edge with acceptable R:R, so stand aside.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 4062.0,
+    "expires_min": 240,
+    "note": "Losing the 4062 shelf breaks the VWAP chop lower and opens a momentum short toward 4040/support."
+  },
+  "transcript": {
+    "macro": "Regime mildly risk-on but rotational; ~7% oil crash on US-Iran de-escalation eased inflation fears; 10y 4.65%, DXY softer. XAUT ~$4,081 mild bullish/neutral, safe-haven bid fading but softer DXY/yields cushion; range-bound, crowded long (L/S 2.49), structure_bias -0.36.",
+    "sentiment": "DESK-WIDE FOMC Wed Jul 29 (Warsh) consensus hawkish HOLD, DXY 13-mo high = dominant 48h binary whipsawing XAUT/EWY/CL. XAUT bearish/neutral: ~28% below Jan high, broken lower on Fed repricing + strong dollar + 4.5% 10Y; only offset Middle East safe-haven. Near-term news leans against longs.",
+    "analyst": "Chop in ~15pt band at VWAP, tight BB squeeze 1.16%, ADX 44 but 4h trend neutral (spent move), mid-range 3984/4155, crowded longs, FOMC binary in 48h. No R:R>=1.5 setup either direction. Textbook no-trade.",
+    "portfolio": "XAUT: HOLD (conf 0.60) \u2014 VWAP squeeze mid-range into FOMC binary, no edge."
+  },
+  "timestamp": "2026-07-27T21:35:45.487090+00:00"
+}

@@ -1,0 +1,27 @@
+{
+  "symbol": "XAUT/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.55,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "none",
+  "forecast": "Bounce off 4038-4045 support continues toward the 4085-4100 retest zone (broken minor support / prior 4h supply) over the next 2-6 bars; that retest is where a lower-high rejection would offer a clean trend-continuation short. Absent that, price coils 4050-4085 into CPI.",
+  "rationale": "The 4h/1h downtrend is strong (ADX 70) but RSI is deeply oversold and the 15m candles show clear higher-lows (4039 to 4068) with 5m RSI 75 and 15m MACD flipping positive - price is bouncing INTO the composite short, not confirming it. Entering short here is chasing a stretched move with crowded-long squeeze fuel (L/S 2.72), which is exactly how this book's shorts have bled. A short only becomes high-expectancy on a failed retest of 4085-4100; a long fights both the trend and tomorrow's CPI binary. HOLD is highest-expectancy until the bounce shows its hand.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 4090,
+    "expires_min": 240,
+    "note": "A push into 4085-4100 lets me re-debate a clean lower-high rejection short at real resistance instead of chasing oversold spot; if it reclaims and holds the short thesis is voided."
+  },
+  "transcript": {
+    "macro": "2026-07-13 08:57 UTC pre-US-open. Broad tape mildly risk-on but rates a headwind: FedWatch ~85% odds of a hike by year-end; Iran/oil inflation fears pressure gold. XAUT (tracks spot gold) slipped below $4,100 under rising-yield/hike-fear + firmer DXY (~101) - genuinely unsupportive macro for longs near-term. Structure_bias -0.30 is entirely L/S 2.72 (VERY crowded long -> contrarian short fuel + squeeze risk); funding ~flat. 4h downtrend (RSI 28.4, ADX 70). Not a safe-haven bid despite Iran; oil/inflation channel dominating.",
+    "sentiment": "XAUT/gold: bearish tilt with TWO imminent macro catalysts. Gold ~$4,075-4,200, down ~26% from Jan highs, pressured by hawkish Warsh Fed (9-8 split leaning hike), firm DXY, oil-driven inflation fears. HARD <=48h catalyst: June CPI July 14 - hot print pressures gold lower / cool print relieves. Fed decision July 29. Near-term news argues against long gold.",
+    "analyst": "Last 4067.9, support 4018.4, VWAP dist -0.49% (at VWAP, not extended). Composite short but misaligned (align 0.87, conf 36%). 4h RSI 28.4 / 1h 36.5 (down, oversold), ADX 70, but 5m RSI 75.1 and 15m MACD +0.63 flipping up - 15m higher-lows 4039->4068. BB width tight 1.52% = compression. Shorting oversold spot into a live bounce with L/S 2.72 squeeze fuel is the book's -2.51R loss pattern; a long fights ADX-70 downtrend + tomorrow's CPI binary. No positive-expectancy entry at spot. HOLD; re-debate a short only on a failed retest of 4085-4100.",
+    "portfolio": "XAUT -> HOLD (conf 0.55): no clean edge; CPI (Jul 14) is the real driver. Short only on a failed 4085-4100 retest."
+  },
+  "timestamp": "2026-07-13T09:03:22.449465+00:00"
+}

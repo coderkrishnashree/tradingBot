@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "BTC/USDT:USDT",
+  "size": 0.0,
+  "entry": 64142.9,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Mid-range chop 63940-64280 into CPI; the last two 15m bars rejected 64280 and faded to VWAP (~64040), so I expect two-sided drift pinned under 64703 rather than a clean directional move over the next few bars.",
+  "expectancy_note": "Long here: entry 64142, TP1=resistance 64703 (~$560) vs honest structure stop ~$500 = ~1.1 R:R, fails 1.5 min; account's high-ADX trend book is -2.11 avg / 43% win. No edge, HOLD beats chasing into the ceiling pre-CPI.",
+  "rationale": "Price is stuck mid-range under 64.7k resistance with only ~1.2xATR of headroom and a genuine CPI binary <48h away; a market long has sub-1.5 R:R to the natural TP1 and would be chasing a move whose 30m RSI (71.8) is already stretched and whose last two candles are fading. The account's trend/high-ADX playbook has been bleeding (-3.01 avg), reinforcing not chasing this composite. I wait for either a confirmed break above 64703 (continuation with room) or a flush to 61.3k support (long with real R:R), rather than pay full price mid-range into the print.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 64703,
+    "expires_min": 240,
+    "note": "A 15m close reclaiming/holding above 64.7k resistance confirms the breakout, opens clean upside room and flips this to a trend long with valid R:R."
+  },
+  "transcript": {
+    "macro": "Overall regime broadly risk-on but thin. BTC ~$64.1k mid-range, dominance ~58% softening (mild alt rotation), no crypto stress but US spot demand weak (Coinbase premium negative ~50 days). BTC is the cleanest, most tradable name this cycle \u2014 genuine 24/7 liquid market, can carry normal size. Scan LONG (blended +0.46, 55% conf, ADX 52, funding benign 0.007%, L/S 1.34 not crowded, orderbook strongly bid +0.67); LONG bias into resistance, watch break/hold of $64.7k vs rejection toward $61.3k.",
+    "sentiment": "Macro overlay: June CPI Tue July 14 8:30am ET = <=48h binary; soft print extends ETF-inflow bid, hot print risks unwinding it. BTC cautiously improving off brutal June: spot ETFs flipped positive early July (~$510M inflows over 3 days ending a 10-day/$2.7B outflow streak) on weak payrolls + dollar weakness, but YTD flows ~-$5.4B and sentiment Fear/Extreme Fear (F&G ~15-36) = relief bounce not confirmed trend. Net bias mildly CONSTRUCTIVE but CPI-gated \u2014 don't fade or chase hard ahead of Tuesday.",
+    "analyst": "Price pinned mid-range between 61.3k support and 64.7k resistance (~$560 below resistance, ~$2870 above support). 30m RSI 71.8 shows the recent push already stretched; last two 15m candles rejected 64280 and faded to VWAP. Long now: entry ~64142, TP1 resistance 64703 (~$560) vs honest structure stop ~$500 = ~1.1 R:R, fails the 1.5 minimum, and the account's high-ADX trend book is bleeding (-2.11 avg, 43% win). No edge chasing into a ceiling with a CPI binary <48h. HOLD; wait for a clean break/hold above 64703 or a flush to 61.3k support for real R:R.",
+    "portfolio": "HOLD BTC \u2014 cleanest name but no edge mid-range into resistance pre-CPI; long only on a 64.7k break or a flush to 61.3k."
+  },
+  "timestamp": "2026-07-12T16:32:09.031513+00:00"
+}

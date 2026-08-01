@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "CL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Coiling 81.5-82.3 just above 79.65 support; expect either a relief bounce to retest VWAP/82.6-83.2 (fade-short entry) or a flush into 79.65 where oversold RSI 21/stoch 5 sets up a mean-reversion bounce. No clean entry at 81.8 mid-air.",
+  "expectancy_note": "Shorting here is the account's proven loser (shorts 0.44 win, -1.02 avg): only $2.1 to support, RSI 21/stoch 5, -4.2% below VWAP = bounce stops out any honest short. Best EV is to wait for a level, not chase.",
+  "rationale": "CL is the cleanest down-trend (ADX 72, non-crowded funding) but it is deeply oversold and 4.2% below VWAP at 81.8 with support only $2 away at 79.65 - pressing a short here is exactly the late-into-stretched-tape pattern that has bled this account. No bounce confirmation for a mean-reversion long yet either, and FOMC Wed + OPEC+ Sunday load two-way gap risk. Size 0: highest-expectancy move is to arm triggers and strike on a defined level.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 79.65,
+    "expires_min": 240,
+    "note": "Losing 79.65 support opens fresh downside (short continuation) OR sets a capitulation mean-reversion long off exhaustion; a reclaim above 83 would instead flag the relief bounce for a fade-short."
+  },
+  "transcript": {
+    "macro": "Oil collapsed ~5-8% on US-Iran de-escalation (war premium removed); WTI ~$82, genuine trend-down driver, negative BTC correlation. CL is the cleanest short-trend in the set: aligned down, ADX 72, funding flat, L/S neutral (0.93) = healthiest/non-crowded positioning. BUT RSI 21/stoch 5 deeply oversold at support 79.6 = late to press shorts; watch for relief bounce. Broad backdrop: FOMC Wed Jul 29, risk tone defensive.",
+    "sentiment": "CL net bearish near-term but HIGH two-way headline risk. ~$82, deeply oversold (RSI 21) after US-Iran halted strikes over weekend and diplomacy revived - geopolitical risk premium deflating (the fresh driver). BUT calendar loaded: API/EIA inventories midweek, US Q2 GDP, FOMC, OPEC+ meeting Sun 8/2 (expected +188kbpd Sept). Any Strait of Hormuz / Red Sea / Houthi re-escalation spikes it violently; shorts carry real gap risk into the weekend OPEC meeting.",
+    "analyst": "Snapshot last 81.8: RSI 21.1/stoch 5.0 deeply oversold, ADX 72.4 very strong down-trend, bb %B 0.092 near lower band, VWAP dist -4.19% very extended, ATR% 1.79 ~$1.46, support 79.65/resistance 93.43, funding flat, L/S 0.93 neutral. Last 20 bars flat/consolidating 81.5-82.3 just above support - a soft roll-over, not a fresh impulse. Textbook 'too late to press the short into support': only ~$2.1 room, bounce toward VWAP ~82.6-83 stops fresh shorts; account shorts bleed (0.44 WR). No bounce confirmation for a long yet. HOLD, arm triggers.",
+    "portfolio": "HOLD CL - cleanest down-trend but oversold/late into support with FOMC+OPEC gap risk; arm on a break of 79.65 or a bounce fade above 83."
+  },
+  "timestamp": "2026-07-28T00:37:39.460627+00:00"
+}

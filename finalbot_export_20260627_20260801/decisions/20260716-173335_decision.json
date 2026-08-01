@@ -1,0 +1,22 @@
+{
+  "action": "short",
+  "symbol": "SOL/USDT:USDT",
+  "size": 3.0,
+  "entry": 76.35,
+  "stop_loss": 77.05,
+  "take_profit": 75.2,
+  "take_profit_1": 75.4,
+  "take_profit_2": 74.6,
+  "confidence": 0.58,
+  "playbook": "trend",
+  "forecast": "Bounce/retest up toward 76.35-76.5 (VWAP + broken 76.1-76.3 shelf) within 1-3 bars, then rejection and roll back down to retest 75.4 and extend toward 74.6 as the 4h downtrend and crowded 2.65 longs resume pressure.",
+  "expectancy_note": "p(win) ~0.55, R:R ~1.6 to TP1 (1.15/0.70); limit-retest short beats a market chase here because LTF RSI ~35 / stoch 18 make an immediate market short vulnerable to the counter-bounce that killed prior late shorts.",
+  "rationale": "All five TFs short, composite 62.3%, 4h score -0.828, ADX 43 confirm a live downtrend; 15m candles faded from 76.86 back to 75.75 closing on the lows, and crowded 2.65 long ratio plus negative structure_bias (-0.243) supply downside fuel. Rather than chase price already 1% below VWAP with stoch at 18, I set a LIMIT short at the 76.35 VWAP/broken-shelf retest with stop above the 76.86 swing (77.05), giving ~1.6R to TP1 at 75.4 and TP2 at 74.6 above the 74.04 support. Main risk is a BTC-led squeeze (corr 0.789, BTC 4h up) \u2014 the 77.05 stop caps it; size kept moderate at 3% for that reason.",
+  "transcript": {
+    "macro": "RISK-OFF/fragile bounce. BTC ~$64,200, dominance ~56.2% (BTC-led, not alt-favorable). Fear & Greed 25, spot ETF outflows ~$2.73B/10d, Coinbase Premium negative 50 straight days. Rally reads as relief/short-cover \u2014 treat rallies as sellable. SOL: btc_corr 0.789 (BTC-beta), RS -1.35 laggard; funding slightly negative but long/short 2.65 (crowded long -> downside fuel), structure_bias -0.243, all 5 TFs short (4h -0.828), composite 62.3%. Elevated OI ~$4.9B + stretched funding -> 'precarious, long-squeeze-prone.' Macro bias: lean short/cautious, size moderate, respect BTC-squeeze risk.",
+    "sentiment": "SOL social sentiment most negative of 2026, low volume, stuck below $79-85 supply. Bullish narrative slow-horizon not <=48h: Morgan Stanley refreshed Solana ETF filing (Jul 15), Grayscale cut fees, possible SEC decision 'as soon as July' \u2014 genuine tail risk to short if approval/leak hits, but no confirmed 48h date. Net: no hard binary 24-48h; tape dominated by BTC beta + weak sentiment -> mildly supports short; flag open-ended ETF-approval headline risk.",
+    "analyst": "SOL last 75.85, ATR% 1.56. 15m ran to 76.86 then faded back to 75.75 closing near lows; last bar tiny doji. LTF RSIs low-to-mid 30s, stoch 18, ADX 43 (strong trend). Price already ~1% below VWAP so a market short risks chasing a stretched tape into a counter-bounce. Chose a LIMIT short at 76.35 (VWAP + broken 76.1-76.3 shelf retest), stop 77.05 above 76.86 swing, TP1 75.4 / TP2 74.6, ~1.6R. Main risk BTC squeeze (corr 0.789); stop caps it; size 3% moderate.",
+    "portfolio": "SOL: LIMIT short 76.35, stop 77.05, TP 75.2 \u2014 moderate-confidence continuation-fade (0.58)."
+  },
+  "timestamp": "2026-07-16T17:33:35.150749+00:00"
+}

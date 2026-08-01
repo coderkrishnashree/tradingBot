@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "AAPL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Price coils just under 316.77 in dead off-hours volume; the 316.68 breakout probe already rolled back to ~315.8-316.1, so expect chop between the 315.0 support-shelf and 316.77 for the next several bars until US cash reopens - no clean directional edge yet.",
+  "expectancy_note": "p(win) on a chase here ~0.45 (stoch 91.6 stretched, failed breakout, ATR only 0.65% so honest stop below 314.5 gives R:R <1.3 to a distant 318.5 target); waiting for a confirmed reclaim of 316.77 raises p(win) materially. Trend-chase playbook is 44% win / -2.89 avg on this account.",
+  "rationale": "AAPL is the cleanest positioning (strong +0.653 book bid, balanced L/S, +7% rel strength, independent of BTC) but it is a tokenized equity with US cash CLOSED, near-zero volume, and price sitting AT 316.77 resistance after a breakout probe already failed and faded. Stoch 91.6 and bb squeeze mean any market-long here is a chase into stretched, gappy tape - precisely the late-entry pattern that has been losing. The trade is a confirmed break-and-hold of 316.77 on real volume, not a blind poke at the level; until then HOLD is the highest-expectancy choice.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 316.9,
+    "expires_min": 240,
+    "note": "A hold above 316.77/316.9 confirms the breakout the failed probe couldn't, opening the low-vol grind toward 318.5+ and flipping me long."
+  },
+  "transcript": {
+    "macro": "Regime MIXED, cautious risk-on; hot inflation lid, Fed on hold; US cash closed (weekend) -> perps thin/gappy. AAPL: cleanest positioning - orderbook +0.653 (strong bid), balanced long/short 1.03, tight ATR 0.65%, independent of BTC (corr 0.265). Low-vol grind higher; longs favored on a BREAK of 316.77 but volume thin off-hours.",
+    "sentiment": "AAPL neutral, low-vol drift. Quietest name (ATR sub-1%). Catalyst is Q3 earnings Jul 30 after close (outside window, implied ~+/-5.4%, Tim Cook's expected last call as CEO). Broadcom chip-supply deal extended to 2031 (Jul 6) - mild tailwind already absorbed. Trade on technicals not headlines.",
+    "analyst": "At 316.07, right at 316.77 resistance. The 316.68 breakout probe already failed and faded - last 8 bars drifted down to 315.8-316.1, now 316.07 on a 0.07-volume dead print. Stoch 91.6 stretched with price not making new highs (mild exhaustion), bb squeezed. Market-long here chases into stretched, gappy, dead-liquidity tape = the account's late-entry loss pattern. The trade is a confirmed break-and-hold of 316.77 on real volume. HOLD; armed reconsider above 316.9.",
+    "portfolio": "AAPL: HOLD (0.50) - cleanest name but failed breakout probe in dead off-hours volume; wait for confirmed reclaim of 316.77."
+  },
+  "timestamp": "2026-07-11T02:59:07.341190+00:00"
+}

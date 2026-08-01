@@ -1,0 +1,28 @@
+{
+  "symbol": "TSLA/USDT:USDT",
+  "action": "hold",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.34,
+  "playbook": "none",
+  "forecast": "Thin pre-open chop: price just bounced off the 391 support/393.4 sweep low and closed near the bar high (394.56); expect drift/chop between 393 and 396 into the 09:30 ET cash open, with real direction only set by the gap on the open.",
+  "expectancy_note": "Short p(win) ~0.45 (learner: shorts 0.48 win/-0.7 avg, trend playbook -1.49) against a 5m long flip and a fresh bounce off support = negative expectancy; no confirmed long trigger yet. Best EV is flat and wait for the gap.",
+  "rationale": "Composite short is weak (35.4%) and NOT aligned; the 5m timeframe already flipped long (+0.248) and the last 15m bar is a bullish reversal off the 391 support / 393.4 sweep, so a market short here fights immediate momentum and the account's #1 loss pattern (late shorts into a bounce, stopped out). ADX 65.6 is noise-inflated by thin closed-market bars (0.1-37 contracts) and gap risk on the 09:30 ET cash open makes any tight stop unreliable. No long either: it's a low-volume bounce with resistance ~19 pts away and no reclaim confirmation. Size 0 - highest-expectancy action is to wait for the cash open to set direction.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 391.0,
+    "expires_min": 240,
+    "note": "Losing 391 support ends the current bounce and re-validates the short lean with real structure behind it; a decisive break there is the cleaner short trigger than chasing here."
+  },
+  "transcript": {
+    "macro": "Wed Jul 16 2026 ~08:30 UTC (04:30 ET) - PRE-US-MARKET-OPEN, US cash market CLOSED. TSLA tokenized perp thin/gappy against a closed underlying (15m bars 0.1-37 contracts); any short can GAP on the 09:30 ET cash open. Funding 0.0, OI tiny (7,850), long/short 1.71, orderbook -0.10 -> structure_bias -0.244 (mild bearish). btc_corr only 0.231 - NOT a BTC-beta trade, judge off Nasdaq. 5m already flipped long (+0.248) = early mean-reversion. rel_strength -3.97%. Index strong (S&P ~7,572, Nasdaq ~26,269) but concentrated; hawkish Warsh Fed. Environment only WEAKLY supports a TSLA short. FOMC Jul 28-29 (outside 48h).",
+    "sentiment": "TSLA dominant catalyst = EARNINGS Wed Jul 22 4:30pm ET (~6 days out, outside 48h but large looming binary). Q2 deliveries reported Jul 2: record 480,126 (+25% y/y, beat ~406k) - priced in; stock still ~-8% YTD. Tone into print skeptical: Musk says material robotaxi revenue unlikely before 2027, tiny Austin driverless fleet, '>200x P/E fully-priced' calls. No imminent <=48h binary. Tokenized equity -> thin/gappy off-hours. Near-term news neutral-to-mildly-bearish.",
+    "analyst": "Composite short weak (35.4%) and NOT aligned; 5m flipped long (+0.248) and last 15m bar is a bullish reversal off 391 support / 393.4 sweep - market short fights momentum and the account's #1 loss pattern (late shorts into a bounce). ADX 65.6 noise-inflated by thin closed-market bars; gap risk on 09:30 ET open makes tight stops unreliable. No long either (low-vol bounce, resistance ~19 pts away, no reclaim). Best EV = flat, wait for the cash open. Reconsider short on a decisive break below 391.",
+    "portfolio": "HOLD TSLA/USDT:USDT - no positive-expectancy entry into a thin closed-market bounce; wait for 09:30 ET gap, re-arm short below 391. Confidence 0.34."
+  },
+  "timestamp": "2026-07-16T08:35:13.337744+00:00"
+}

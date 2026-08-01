@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "XAUT/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Coiling 4108-4122; last three 15m bars rejected 4122 and closed at the low (4111). Expect chop/small fade toward 4090-4095 over next 2-4 bars before the range resolves; no clean edge at spot.",
+  "expectancy_note": "No trade beats both a chase-long (resistance 4122 only ~$11 up vs a needed ~$55 stop = R:R <1) and a fresh short (fighting supportive safe-haven macro + flat funding). p(win) on either <0.5; HOLD is highest expectancy.",
+  "rationale": "ADX 24 borderline, composite only 40% confidence, price pinned at VWAP mid-Bollinger with 1h RSI 77.6 stretched and L/S 2.75 max-crowded-long. Neither a spot long (tiny target vs wide stop) nor a short (against supportive real-yield/safe-haven backdrop) clears R:R 1.5. Wait for a clean break of 4123 to join the trend, or a flush to ~4075-4080 for a proper pullback long.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 4123.5,
+    "expires_min": 240,
+    "note": "A decisive close above the 4122-4123 rejection shelf confirms the 30m/1h uptrend resuming with real buying absorbing the crowded-long overhang."
+  },
+  "transcript": {
+    "macro": "Risk-off tilt (Middle East flare-up + oil spike); hawkish Fed, 2026 cuts priced out; DXY soft (<102, not a headwind for gold). XAUT/gold: SUPPORTIVE backdrop (real yield ~-0.45%, soft DXY, safe-haven bid) BUT crowded long (L/S 2.75, orderbook imbalance -0.179, structure_bias -0.358); 1h RSI 77.6 stretched; XAG even more crowded (corr 0.88). Verdict: MIXED, lean supportive for LONG but SIZE DOWN, buy pullbacks not chase; hostile for fresh shorts.",
+    "sentiment": "Bearish-to-neutral near-term. June FOMC minutes (Jul 8) showed 9-to-8 split leaning toward a HIKE, futures toward ~4% by year-end; CME Sep hike odds ~55-63%; spot pulled back from a two-week high on stronger dollar. No XAUT/Tether token news (clean gold proxy). Watch US CPI. Verdict: BEARISH near-term.",
+    "analyst": "Price mid-Bollinger, at VWAP, coiling 4108-4122; last three 15m bars rejected 4122 and closed at the range low (4111). 1h RSI 77.6 stretched, ADX 24 borderline, composite 40% conf, L/S 2.75 max-crowded-long. Fresh long R:R <1; short fights supportive safe-haven macro. HOLD and arm trigger on break >4123 or flush to 4075-4080.",
+    "portfolio": "XAUT/USDT:USDT \u2014 HOLD, conf 0.60; no trade at spot, reconsider on break >4123.5 within 240m."
+  },
+  "timestamp": "2026-07-09T18:28:18.243123+00:00"
+}

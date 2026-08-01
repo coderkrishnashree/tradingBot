@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "META/USDT:USDT",
+  "size": 0.0,
+  "entry": 648.82,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.55,
+  "playbook": "none",
+  "forecast": "Chop 646-651 for the next several bars; the 656 blowoff wick capped the move and price is coiling under it. A clean loss of 644 opens 640/626 for shorts; a reclaim of 652 with volume re-arms the 1h uptrend toward 656 then 660.",
+  "expectancy_note": "p(win) ~0.5 either way; no side offers R:R >=1.5 \u2014 long buys the upper band into a bearish 15m divergence (chasing), short has no honest sub-1.5xATR stop above the 656 swing. Flat is highest expectancy.",
+  "rationale": "META is pure equity (BTC corr 0.26 noise) on thin off-hours tape with only 1h/4h weakly long while 15m/30m/5m are flat and a bearish 15m divergence prints at the upper Bollinger band (%B 0.86). The 656.37 high was rejected hard on volume and price now chops mid-range near 648 \u2014 no clean level to fade and no 1.5R setup. Q2 earnings July 29 is the dominant binary; no reason to carry risk into a directionless, gappy tape now. Size 0.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 644.0,
+    "expires_min": 240,
+    "note": "Losing 644 breaks the post-rejection base and confirms sellers, opening a clean short toward 640/626."
+  },
+  "transcript": {
+    "macro": "Regime RISK-ON but fragile; heavy tech earnings week (event risk). META pure equity, near-zero BTC corr (0.26), rides Nasdaq risk-on (Nasdaq +1% on US-Iran ceasefire push + chip rebound). Neutral positioning (L/S 1.16, structure_bias ~0) but bearish 15m divergence and thin book.",
+    "sentiment": "HIGH-weight binary ahead: Meta Q2 2026 earnings Wed July 29 after US close (~4:30pm ET) \u2014 OUTSIDE 48h but the single most important event; do NOT hold size into it blind. Consensus ~$60.2B rev / $7.18 EPS; trades on Q3 guidance + AI capex. Nothing inside 48h; analyst tone constructive (long-horizon). Off-hours = thin/gappy tape. Near-term NEUTRAL until the 29th.",
+    "analyst": "Only 1h/4h weakly long, 15m/30m/5m flat, bearish 15m divergence at upper Bollinger. 656.37 high rejected hard on volume; price chops mid-range near 648 with no clean fade level and no 1.5R setup. Earnings overhang July 29. HOLD; reconsider on loss of 644.",
+    "portfolio": "META/USDT:USDT \u2014 HOLD (conf 0.55): mid-range chop post-rejection, no 1.5R edge, earnings binary July 29; stay flat."
+  },
+  "timestamp": "2026-07-21T14:59:56.636317+00:00"
+}

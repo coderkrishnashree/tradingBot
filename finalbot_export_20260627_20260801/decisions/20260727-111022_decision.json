@@ -1,0 +1,24 @@
+{
+  "symbol": "META/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.4,
+  "size": 0.0,
+  "entry": 606.94,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "forecast": "Thin pre-market grind at 606-607 on fading volume; expect chop 603-608 until US cash opens (13:30 UTC), with overbought LTF (RSI 76, stoch 91, %B 0.93) risking a fade toward VWAP/593 rather than a clean continuation.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 601.4,
+    "expires_min": 240,
+    "note": "Losing the pre-market base (601.4, the 15m higher-low shelf) with real volume on the US open flips this to a tradable short toward 592.5 support; a reclaim/hold above 601.4 keeps it a no-trade grind."
+  },
+  "rationale": "META reports Q2 after Wednesday's close, a hard binary INSIDE the hold window, so no naked directional carry is allowed. Current tape is pre-market thin (last bars 2-9 contracts) grinding to 606-607 while RSI ~70, stoch 91 and %B 0.93 flag overbought extension into resistance-less air \u2014 chasing long here is the account's classic late-entry loss, and there is no structural level to fade a short at. Size 0; wait for US cash open to reveal a real level, and stay flat/tiny into the print.",
+  "transcript": {
+    "macro": "Cycle 2026-07-27: regime MIXED, day-of risk-on relief bounce into a heavy event week. Crowd already long; funding not extreme. Equity names pre-market at scan (11:00 UTC, US opens 13:30) \u2014 thin/gappy. META HARD BINARY: reports Q2 after close Wed Jul 29 \u2014 inside the typical hold window.",
+    "sentiment": "META: HIGH, imminent binary. Reports Q2 after close Wed Jul 29 (4:30pm ET, consensus ~$7.18 EPS on ~$60B revenue). Same hard binary as MSFT; stock recovered from a ~20% drawdown to near flat YTD, so expectations elevated and capex-guidance sensitive. Long side has run. Do NOT hold through the print blind.",
+    "analyst": "Last 606.94, RSI ~70 (4h 69.8, 15m 76.6), ADX 50, stoch 91, bb_pctb 0.93, vwap +0.76%, ATR% 0.56. Support 592.52, resistance 656.37 (far). Structure bias -0.32, orderbook -0.80 (offers stacked), L/S 1.28, funding 0. 15m: quiet drift 602->607 on THIN fading volume (last bars 2-9 contracts) = pre-market low-liquidity grind, not a real impulse. Long extended/overbought into empty air; short has directional structure but no level to fade (resistance 8% away, support 2.4% below). Earnings binary caps hold time. p(win) ~0.5, R:R<1.5 -> HOLD.",
+    "portfolio": "META: HOLD (conf 0.40) \u2014 overbought thin grind, binary earnings Wed close; no naked carry, flat."
+  },
+  "timestamp": "2026-07-27T11:10:22.865591+00:00"
+}

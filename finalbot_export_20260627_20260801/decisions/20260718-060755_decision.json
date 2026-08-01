@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "MSFT/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.3,
+  "playbook": "none",
+  "forecast": "Price stays pinned near 394.0 on zero-volume flat candles through the weekend; no real move until Monday US cash open, where macro RISK-OFF favors a drift toward 393.5 then 378 support \u2014 outside this dead-liquidity window.",
+  "expectancy_note": "No tradable edge: ADX 25 (trend floor), price on VWAP mid-band, last 5 candles 0.0 volume at 394.0 = trading air; any entry faces a Monday-gap coin-flip. HOLD beats shorting into a closed market.",
+  "rationale": "MSFT is an equity-mirror and US cash is CLOSED (Saturday) \u2014 the tape is non-existent: repeated 0.0-volume flat prints at exactly 394.0, 5m long-flip on an RSI-0 garbage print, ADX at the weakest-trend floor, price on VWAP with %B 0.426 (no extreme to fade, no impulse to follow). Positioning is nominally bearish (L/S 1.67, orderbook -0.354) but cannot be honestly traded without liquidity, and Monday-gap risk cuts both ways with no <48h catalyst (earnings Jul 29 outside window). Size zero \u2014 textbook no-trade until real flow returns.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 393.5,
+    "expires_min": 240,
+    "note": "A break below the recent traded-range floor on real (non-zero) volume would confirm the favored bearish structure is being expressed with live flow."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF, US venues CLOSED (Saturday). Semis rout, BTC ~$63.9k flat/chop. Board favors SHORT. MSFT: short-lean but DEAD liquidity, only tangentially chip-exposed. L/S 1.67, orderbook -0.354, structure_bias -0.307, but tape non-existent (0.0-volume flat candles at 394.0, ADX 25 weakest, 5m RSI-0 garbage). Effectively neutral/untradeable until Monday open.",
+    "sentiment": "MSFT neutral-to-soft. Q4 FY26 earnings Wed Jul 29 after close (outside window). No stock-specific <=48h catalyst; moves macro/rate/AI-sentiment beta. Lower-beta megacap, less exposed to semis rout -> neutral to slightly-against.",
+    "analyst": "Price 394.0, ADX 25.3 trend floor, ATR% 1.02, vwap_dist -0.73% (at VWAP), %B 0.426 mid-band, BB width 4.57% compressed. Last 5+ candles dead flat at 394.0 with 0.0 volume (market closed). Support 378.08 / resistance 406.14. Untradeable air, Monday-gap coin-flip either way. HOLD; short on break below 393.5 with real volume.",
+    "portfolio": "HOLD MSFT \u2014 no liquidity, no-trade; arm short below 393.5 on real flow."
+  },
+  "timestamp": "2026-07-18T06:07:55.483830+00:00"
+}

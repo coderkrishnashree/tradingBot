@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "GOOGL/USDT:USDT",
+  "size": 0,
+  "entry": 357.56,
+  "stop_loss": 351.78,
+  "take_profit": 351.78,
+  "confidence": 0.62,
+  "playbook": "none",
+  "forecast": "Choppy bounce/stabilization between 355.5 and 360.3 into the 09:30 ET open; a clean break under the 355.5 shelf opens 351.78 support, while reclaiming 360.3/VWAP flips the near-term bias up. Neither has triggered yet.",
+  "expectancy_note": "p(win) on a market short here ~0.45 with only ~1.6% to support 351.78 = R:R < 1.5; account's high-ADX trend shorts run -2.02 avg PnL. Waiting for a level beats chasing an oversold, mature move.",
+  "rationale": "GOOGL is already stretched down (4h RSI 31.7, -1.55% vs VWAP, ADX 71 = late/mature trend) and the last 15m bar bounced off the 356.00 low to close strong at 357.56 \u2014 exactly the counter-bounce that stops the account's late high-ADX shorts (proven -2.02 avg). Support at 351.78 is only ~1.6% away, so a fresh short has sub-1.5 R:R, while a long fights structure_bias -0.457 / orderbook -0.319 with no confirmation. Pre-09:30 ET Friday on a thin, gappy tokenized perp adds open + weekend gap risk; best expectancy is flat until a level resolves. Size 0.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 355.5,
+    "expires_min": 240,
+    "note": "Losing the 355.5 shelf breaks the current bounce and opens clean air to 351.78 support, giving a short real room and R:R >= 1.5 to justify entry."
+  },
+  "transcript": {
+    "macro": "Regime MIXED, mildly risk-on. Thu 7/9 closed green (S&P +0.8% to 7,543, Nasdaq +1.3%, semis led); Fri futures only ~+0.2%, tape tired after chip-led run; 10Y ~4.6% caps multiples. TIMING FLAG: scan stamped ~08:55 ET, before 09:30 ET US cash open \u2014 tokenized perps thin/gappy, gap risk into open. GOOGL: scan says short but fundamentals lean long -> hostile-for-shorts. structure_bias -0.457, RSI 31.7 4h, ADX 71, vwap -1.55% (oversold, chasing short late). btc_corr 0.127 (pure equity beta), rel_strength -2.7% vs BTC. Q2 earnings July 22 (outside 48h). Bullish narrative \u2014 MS PT $415, cloud backlog $460B+, strong-buy consensus.",
+    "sentiment": "GOOGL NEUTRAL near-term, mild bearish tail risk. Q2 earnings Wed July 22 4:30pm ET \u2014 12 days out, NOT a 24-48h catalyst. Q1 (Apr 29) was blowout (+~10%). Overhang: DOJ+states antitrust appeal (Feb 2026) \u2014 slow legal, long-horizon risk not a 48h event. Scan shows GOOGL leaking with NO news catalyst \u2014 looks technical/flow-driven, no fundamental reason to fade the down-move. Friday: US session closes tonight, reopens Monday, thin/gappy over weekend.",
+    "analyst": "GOOGL is already stretched down (4h RSI 31.7, -1.55% vs VWAP, ADX 71 = late/mature trend) and the last 15m bar bounced off 356.00 to close strong at 357.56 \u2014 the counter-bounce that stops the account's late high-ADX shorts (proven -2.02 avg PnL; learner stats: 18 shorts 50% win but -1.67 avg, high-ADX n=21 net -2.02, 'trend' playbook worst -3.0). Support 351.78 only ~1.6% away -> short has sub-1.5 R:R. A long fights structure_bias -0.457 / orderbook -0.319 with no confirmation. Pre-09:30 ET Friday on thin gappy tokenized perp adds open + weekend gap risk. No edge -> HOLD, size 0.",
+    "portfolio": "HOLD GOOGL/USDT:USDT \u2014 oversold, mature down-move with sub-1.5 R:R either way; wait for a level (short only on loss of 355.5 shelf). conf 0.62."
+  },
+  "timestamp": "2026-07-10T12:59:33.174565+00:00"
+}

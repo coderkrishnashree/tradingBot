@@ -1,0 +1,26 @@
+{
+  "symbol": "TSM/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.5,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "forecast": "Thin off-hours tape oscillates 400-403 into Monday US open where it GAPS. Failed 404.4 spike faded to 401.78 (closed on low) = no buyer follow-through; retest 400 flat-base, if lost drift to 386.81.",
+  "expectancy_note": "No R:R>=1.5 either way: long is a chase into risk-off semis with 2.4x crowded longs and -20.5% RS; short is the book's proven losing side. HOLD beats both until the gap resolves.",
+  "rationale": "Composite reads long (66.9%, aligned, ADX 40.5) but every context filter fights it: macro RISK-OFF in semis, TSMC sold a clean beat, L/S 2.429 very long-crowded, structure_bias -0.237, RS -20.5%. 15m tape rejected 404.4 back to the 400-401 base on a red close at the low. Tokenized equity in thin off-hours that GAPS at Monday open into a two-sided semi tape; no honest R:R mid-range, wait for the gap.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 404.4,
+    "expires_min": 240,
+    "note": "Reclaim/hold above the failed-spike high 404.4 validates the aligned long toward 408-410; losing 400 opens short toward 386.81."
+  },
+  "transcript": {
+    "macro": "REGIME RISK-OFF in tech/semi, neutral elsewhere; trade smaller. Week to 7/17: S&P -1.6%, Nasdaq -2.9%, semis SMH ~-9% on AI-capex-scaleback + cheap Chinese models. Tokenized US equities gap at Monday US open. TSM: L/S 2.429 very long-crowded, structure_bias -0.237, RS -20.5%; TSMC beat 7/16 (+77% NI, raised guide) still fell ~7% (selling good news). Verdict: unfavorable long / lean short-or-avoid.",
+    "sentiment": "TSM neutral, catalyst just passed (TSMC reported 7/16, clean beat, no fresh <=48h driver). Only genuine <=48h catalyst is Alphabet+Tesla earnings 7/20-24 gapping the whole tech/semi complex; FOMC 7/29 (~89% hold) outside window.",
+    "analyst": "Long is a chase into a hostile crowded-long semi tape; short is the account's losing side and price is mid-range with no level to fade. 15m rejected 404.4 to the 400-401 base on a red close at the low. Tokenized equity gaps Monday. No honest R:R -> HOLD, arm reconsider above 404.4 / below 400.",
+    "portfolio": "TSM: HOLD 0.50 \u2014 flat into Monday-open gap; no R:R mid-range."
+  },
+  "timestamp": "2026-07-20T00:46:46.229620+00:00"
+}

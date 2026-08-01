@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "SOL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price is rolling off the failed 77 shelf back toward the 75.59 flush low; either it bounces off 75.59 again (crowded-long squeeze into a VWAP retest ~77.5) or it slices through \u2014 both need to develop before a clean entry exists. Next 2-4 bars: chop 76.0-76.6 into support.",
+  "expectancy_note": "Short here at 76.44 targets 75.59 (~1.1%, <1 ATR) with stop above 77.2 (~1%) = R:R <1 into a level that already produced a 573k-vol bounce; negative expectancy. Better: fade a rally to 77.5 or short a decisive 75.59 break with room to run.",
+  "rationale": "SOL is deeply oversold (1h/30m/5m RSI ~28-30, %B below the lower band, -1.93% under VWAP) and sitting ON the 75.59 support that just capitulated and bounced on huge volume. Macro/sentiment explicitly say fade rallies, not chase the hole, and crowded long/short 2.505 + extreme fear means a BTC bounce squeezes shorts hard. A market short down here is the exact late-short-into-stretched-tape pattern that has bled this account. CPI Tue argues for patience. No long either into a fresh downtrend under the band. Wait for the higher-expectancy rally-fade.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 77.6,
+    "expires_min": 240,
+    "note": "A push back into the failed 77 shelf / VWAP zone gives a clean, non-chasing short entry with the trend and room down to 75.6, unwinding the oversold stretch first."
+  },
+  "transcript": {
+    "macro": "Crypto risk-OFF (BTC ~$60-66k, 21-month low, worst ETF month on record $4.5B out, negative Coinbase premium ~50 days). June CPI Tue Jul 14 \u2014 trim size. SOL: only pure-crypto name, 0.79 BTC-corr = mostly BTC-beta in risk-off tape; oversold (1h RSI 28, at support 75.59), long/short 2.505 (crowded long = short fuel), funding flat. Environment supports short bias but stretched; a BTC bounce squeezes it \u2014 fade rallies, don't chase the hole.",
+    "sentiment": "SOL: Bearish tilt, macro-driven. High-beta risk asset dragged by geopolitical selloff (Iran ceasefire collapse), below $77 near 12-month lows, sentiment in Fear (F&G ~23-26). No SOL-specific <=48h binary (Alpenglow/Firedancer Q3/Q4). Near-term news reinforces short, but extreme-fear raises squeeze risk.",
+    "analyst": "HOLD, armed to short a rally. Price rolling off the failed 77 shelf into the 75.59 flush low that already bounced on 573k vol; market short here is <1R into support \u2014 negative expectancy and the account's late-short loss pattern. Wait for a rally-fade at 77.6 (VWAP/broken shelf) rather than chase the hole.",
+    "portfolio": "SOL \u2014 HOLD (conf 0.60): don't chase the hole; arm a short on a rally back to 77.6."
+  },
+  "timestamp": "2026-07-12T05:33:17.562348+00:00"
+}

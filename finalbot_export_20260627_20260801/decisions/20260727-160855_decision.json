@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "CL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.58,
+  "playbook": "trend",
+  "forecast": "Oversold bounce/consolidation between 83.0 and 84.2 next 2-6 bars; a clean 15m close below 83.05 opens continuation toward 82.0 then 81.4, while a reclaim of 84.2 signals war-premium reversal risk.",
+  "expectancy_note": "Short thesis is right directionally (ADX 77, clean downtrend, war-premium unwind) but 4h RSI 19 / %B 0.12 / VWAP -3.8% = extended into support 79.65; market-shorting here chases the move and a routine bounce hits any honest stop first \u2014 negative expectancy. Wait for the break or the retest.",
+  "rationale": "CL is the best macro-aligned short (own driver, BTC-corr -0.22, ADX 77), but price is deeply oversold and only ~2.2 ATR above support 79.65 after a 6% drop \u2014 exactly the late-short-into-stretched-tape trap that bleeds this book. A market entry offers weak R:R (TP1 stalls near support before a bounce) with Iran-reversal and FOMC Wed as violent snap-back tails. I want either a fresh break of 83.05 to ride continuation, or a bounce to the 84.2 shelf to short the retest with a tight stop \u2014 not a chase.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 83.05,
+    "expires_min": 240,
+    "note": "Losing 83.05 (the recent swing low) breaks the oversold consolidation and confirms downtrend continuation toward 82.0/81.4 \u2014 a clean, non-chasing short entry."
+  },
+  "transcript": {
+    "macro": "RISK-OFF, event-gated. FOMC Wed 7/29 2pm ET + Big Tech earnings wall inside hold window. CL SHORT-supported: oil is the macro villain today, ADX 77, clean multi-TF downtrend, balanced positioning (L/S 0.88), own driver (BTC-corr -0.22). Best macro-aligned short.",
+    "sentiment": "CL fresh bearish shock \u2014 WTI fell ~6% today to ~$83.8 as US paused Iran airstrikes and Tehran halted retaliation; war premium unwinding. OPEC+ meets Aug 2 (+188kbpd, supply overhang). Caveat: any Iran headline reversal could snap it back violently.",
+    "analyst": "Direction is right but price is deeply oversold (4h RSI 19, %B 0.12, VWAP -3.8%) only ~2.2 ATR above support 79.65 after a 6% drop. Market-shorting chases a stretched tape into support; a routine bounce hits any honest stop first \u2014 negative expectancy. Disciplined play is to wait for a break of 83.05 (continuation) or a bounce to 84.2 (retest short).",
+    "portfolio": "HOLD CL \u2014 right thesis, wrong price; armed short trigger on a break of 83.05."
+  },
+  "timestamp": "2026-07-27T16:08:55.271437+00:00"
+}

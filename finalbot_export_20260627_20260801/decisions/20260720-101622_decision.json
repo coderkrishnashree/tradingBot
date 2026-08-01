@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "QQQ/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.52,
+  "playbook": "none",
+  "forecast": "Price coils 698-702; last bar rejected the 702.46 spike back to 700.5. Expect chop between 696 support and 702.5 resistance for the next few bars; a clean 15m close >702.5 opens 706+, while losing 696 confirms the hostile-tape fade toward 691-688.",
+  "expectancy_note": "p(win) on either market entry ~0.5 with poor R:R \u2014 long chases RSI71/%B>1 into resistance during a macro-hostile bounce; short fights ADX60 uptrend only +0.55% off VWAP (the account's classic late-short loss). No edge either way now; wait for the break.",
+  "rationale": "Very strong uptrend (ADX 60, all TFs long, bid-heavy book +0.74) argues against shorting, but RSI 71 / %B 1.01 into resistance plus a hostile macro read (fade rallies, Wed megacap earnings, thin tokenized book pre-09:30 ET) argues against chasing longs. Price is coiled mid-range at 700.5 with a fresh rejection wick off 702.46 \u2014 no honest 1.5R entry exists here. Better to let the 702.5 / 696 range resolve than pay to enter mid-air into event risk.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 702.6,
+    "expires_min": 240,
+    "note": "a 15m close reclaiming the 702.46 rejection high breaks the coil and confirms trend continuation for a long entry"
+  },
+  "transcript": {
+    "macro": "Overall NEUTRAL-to-HOSTILE for fresh longs. US semiconductor-led drawdown \u2014 QQQ IS the index in that downtrend. Earnings cluster: TSLA+GOOGL Wed 7/22, INTC Thu 7/23 \u2014 QQQ carries megacap-earnings risk directly. Tokenized-equity pairs thin until 09:30 ET. QQQ: hostile-leaning \u2014 bb_pctb 1.01 / RSI 71 stretched into resistance on a bounce. Fade rallies rather than chase longs.",
+    "sentiment": "Risk-off, active AI/semiconductor unwind \u2014 KOSPI -4.5% today. QQQ: NEUTRAL to cautious \u2014 no single catalyst but it aggregates the week's megacap earnings (GOOGL/TSLA Wed) plus today's AI selloff; stretched (RSI ~71, bb_pctb ~1.0). Event-heavy and extended \u2014 chop/gap risk into Wed, then FOMC 7/29.",
+    "analyst": "QQQ has a very strong uptrend (ADX 60, bid-heavy book) so shorting a +0.55%-off-VWAP tape is the classic late-short loss, yet RSI 71 / %B 1.01 into resistance plus hostile macro and Wed megacap earnings argue against chasing longs. Coiled mid-range with a rejection off 702.46 \u2014 no honest 1.5R entry. Let the 702.5/696 range resolve.",
+    "portfolio": "HOLD QQQ \u2014 no mid-air entry into a stretched, event-heavy tape; long only on a 15m close above 702.6."
+  },
+  "timestamp": "2026-07-20T10:16:22.877944+00:00"
+}

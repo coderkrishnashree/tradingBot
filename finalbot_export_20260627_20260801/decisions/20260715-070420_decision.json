@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "TSM/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.62,
+  "playbook": "none",
+  "forecast": "Chop 428-432 near VWAP into a low-liquidity US-closed window; last three 15m bars rolled over from 431.6 to 429.55 (closed on low), so a drift back toward 426-428 is likely before the TSMC earnings gap tomorrow ~06-07 UTC decides direction.",
+  "expectancy_note": "No positive-expectancy trade: a binary earnings gap sits inside the 48h window, book is thin/gappy (US closed), tape is stretched short-TF (30m/1h RSI 74) into a weak 4h (MACD -3.1) and heavily crowded long (L/S 1.97, bias -0.41). Any honest stop gets coin-flipped by the print.",
+  "rationale": "TSMC reports Q2 tomorrow (~06-07 UTC), a binary event squarely inside the hold window, and it's the US-closed thin-liquidity window now. TSM is aligned=false, the weakest name vs peers (rel strength -11%), and crowded long (structure_bias -0.406) with the last 15m bars rejecting 431.6 and closing on their low. The learner shows this account bleeds exactly here. No R:R survives the event \u2014 flat is the highest-expectancy choice; size 0.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 419.88,
+    "expires_min": 240,
+    "note": "Losing support 419.88 confirms the 4h-down + crowded-long unwind and would open an intraday short (still flat-before-print); until then the mixed/stretched tape stays no-trade."
+  },
+  "transcript": {
+    "macro": "Risk-on backdrop (cooler June CPI 3.5% eased Fed hike bets, semis rallied) but overnight/US-closed thin/gappy window; basket crowded-long on derivatives. TSM HOSTILE for a swing: TSMC Q2 earnings tomorrow Jul 16 ~06-07 UTC is a binary gap inside the hold window; stretched long (L/S 1.97, bias -0.41), weakest vs BTC (rel strength -11%), 15m/30m/1h up but 4h down (MACD -3.1).",
+    "sentiment": "TSM net bullish into event but high-risk binary. Earnings tomorrow Jul 16; strong guidance + AI/CoWoS narrative lean bullish, but already ripped 30m/1h (RSI ~74) into weak 4h (RSI 41) \u2014 can gap either way.",
+    "analyst": "Textbook no-trade: binary TSMC earnings inside the 48h hold window + thin US-closed book + stretched short-TF into weak 4h + crowded-long positioning + learner shows account bleeds on trend-longs into stretched tape. No honest R:R survives the print. HOLD, size 0.",
+    "portfolio": "HOLD TSM \u2014 stand aside ahead of tomorrow's earnings binary."
+  },
+  "timestamp": "2026-07-15T07:04:20.392230+00:00"
+}

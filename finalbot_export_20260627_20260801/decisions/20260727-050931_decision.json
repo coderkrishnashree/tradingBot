@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "MSTR/USDT:USDT",
+  "confidence": 0.4,
+  "size": 0.0,
+  "entry": 94.47,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "forecast": "Fading-volume grind stalls under 94.6-94.8; expect chop between 93.5 and 94.8 next 2-4 bars with downside risk toward 90-91 support if the bounce rolls over, no clean directional edge until a level breaks.",
+  "expectancy_note": "p(win) ~0.45 either way; long here at +1.47% VWAP / RSI 78.7 is late-continuation into stretched tape (the book's #1 loser), no range/breakout trigger, so HOLD is highest expectancy.",
+  "rationale": "MSTR is a BTC-proxy (corr 0.72) LAGGING BTC (rel strength -9.52) with a weak long composite (conf 41.8%, blended 0.27) yet 4h RSI 78.7 and price +1.47% above VWAP - overbought and extended. The 15m recovery to 94.6 is on visibly fading volume and stalling under the 94.79 high, matching the fragile/negative-money-flow sentiment read, and BTC itself is overbought into FOMC Wed. No honest 1.5R long exists from here without chasing, and there is no range or confirmed breakout, so I stand aside.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 93.47,
+    "expires_min": 240,
+    "note": "Losing the intraday higher-low base flips the fragile bounce into a short toward the 90-91 / 89.85 support and warrants a re-debate."
+  },
+  "transcript": {
+    "macro": "Regime MIXED, risk-on into event week. FOMC Wed Jul 29. BTC constructive near highs (~$65.3k). Funding broadly rich, crowded longs. Smaller size everywhere. MSTR: BTC-proxy (corr 0.72), RSI 78.7, crowded; trades off BTC and crypto risk appetite. Mild LONG but overbought + crypto-beta, small.",
+    "sentiment": "MSTR: leveraged BTC proxy (843,775 BTC). New capital plan/buyback lifted it but the bounce is on fading volume/negative money flow. No dated catalyst inside 48h; tracks BTC and amplifies any FOMC risk-off. LEAN CAUTIOUS/fragile.",
+    "analyst": "BTC-proxy lagging BTC (RS -9.52), weak long composite (conf 41.8%) yet RSI 78.7 and +1.47% VWAP - overbought/extended. 15m recovery to 94.6 on fading volume, stalling under 94.79, matching fragile/negative-money-flow read; BTC overbought into FOMC Wed. No 1.5R long without chasing, no confirmed breakout. HOLD. Reconsider on a break below 93.47.",
+    "portfolio": "HOLD - fragile fading-volume bounce, overbought BTC-proxy into FOMC, no edge; conf 0.4."
+  },
+  "timestamp": "2026-07-27T05:09:31.519699+00:00"
+}

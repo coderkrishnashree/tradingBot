@@ -1,0 +1,27 @@
+{
+  "action": "hold",
+  "symbol": "TSM/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "trend",
+  "expectancy_note": "Trend is real (ADX 30, multi-TF long, RS +9.32%, orderbook +0.41) but chasing here at 456.6 above the upper BB (%b 1.08), +1.38% VWAP, 1h RSI ~76 gives only ~1.5R into 479 with donation-risk stops; better p(win) on a pullback to ~445-448 mean.",
+  "rationale": "TSM is the cleanest semi long (real relative strength, low BTC correlation, bid orderbook) but the entry is a chase into an extended move \u2014 above the upper Bollinger band, stretched over VWAP, lower-TF RSI mid-70s, crowded long positioning (l/s 1.74), and a two-sided AI-chip headline tape with weekend gap risk. Buying now sits inside the noise band with poor R:R; the disciplined play is to wait for a pullback into the VWAP/SMA20 zone (~445-448) where a 1.5x-ATR stop below ~438 targets 479 for a clean 2R+. No 48h binary forces the trade (earnings July 16). HOLD and let it come to me.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 448.0,
+    "expires_min": 240,
+    "note": "A pullback into the VWAP/SMA20 buy zone resets the extension and offers a proper trend-continuation long entry with favorable R:R toward 479."
+  },
+  "transcript": {
+    "macro": "Overall regime MIXED-to-SUPPORTIVE for longs July 6 (risk-on, semis leading SMH +2.7%). TSM regime=trend, direction=long, RS +9.32% vs BTC, low BTC corr 0.15 \u2014 trades on semi story. Hawkish Fed (DXY ~100, 10y 4.48%, ~50% chance Sept HIKE) but FOMC Jul 28-29 out of window. Tokenized equity = gap risk. Crowded long (l/s 1.74, structure_bias -0.106) but funding flat. TSM cleanest long but EXTENDED: bb_pctb 1.077, vwap_dist +1.38%, 1h RSI ~76 \u2014 better on a pullback than a chase. TSMC raised 2026 guidance, +40% YTD, CoWoS sold out. Earnings July 16 (out of window). Supports long, normal-to-slightly-reduced size.",
+    "sentiment": "TSM mixed-to-cautious. Structurally bullish (Q2 rev guide $39-40.2B ~32% YoY, FY26 >30%, favorable US-Taiwan tariff framework). Live driver: sector-wide AI-chip rout since late June, hard July 1-2 (Nvidia -4%, Micron/Arm -10%+) on AI-capex-sustainability fears. Jensen Huang called it a buying opportunity; two-sided headline tape. No TSM-specific binary inside 48h (earnings July 16). Near-term NEUTRAL-to-slightly-negative for a fresh long; sector headlines drive next 2 days. TSM|EWY corr 0.65.",
+    "analyst": "Trend is real (ADX 30, multi-TF long, RS leader, orderbook +0.41 bid) but price is a CHASE right here \u2014 above upper BB (%b 1.08), +1.38% over VWAP, 1h RSI ~76, stoch 82, crowded long l/s 1.74. Buying at 456.6 into resistance 479 with a structural stop = only ~1.5R into a two-sided AI-chip tape with weekend gap risk = poor expectancy. Disciplined play: HOLD now, arm a pullback entry into the VWAP/SMA20 buy zone ~445-448 where a 1.5x-ATR stop below ~438 targets 479 for a clean 2R+. No 48h binary forces the trade.",
+    "portfolio": "TSM \u2014 HOLD (0.60 conf); wait for pullback into ~448 buy zone for a trend-continuation long, don't chase the extension."
+  },
+  "timestamp": "2026-07-06T19:25:09.197129+00:00"
+}

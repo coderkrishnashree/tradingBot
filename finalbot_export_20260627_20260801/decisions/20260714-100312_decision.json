@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "TSLA/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Dead pre-CPI tape grinding 395-396 just above 391 support; expect a CPI-driven whipsaw at 8:30 ET \u2014 either a flush into/through 391 or an oversold bounce reclaiming ~400. No directional edge until that resolves.",
+  "expectancy_note": "Short into 391 with 4h RSI 24.7 is a late-short-into-oversold trap (only ~4.5pt to support, sub-1.0 R:R, learned p_win 0.415); long lacks any bounce confirmation before CPI. HOLD beats both.",
+  "rationale": "TSLA is pinned above 391 support with 4h RSI 24.7 (deeply oversold) into a CPI print today and risk-off macro \u2014 shorting is chasing a stretched move the account repeatedly loses on, and the long has no confirmation in the near-dead thin 15m tape (last bar 0.65 units). Tokenized-perp gap/liquidity risk off US hours compounds the coin-flip. No trade until price picks a side around the 391/400 pivots; wait for CPI to resolve the whipsaw.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 390.5,
+    "expires_min": 240,
+    "note": "Losing 391 support on volume confirms the downtrend's next leg and opens a clean short toward the lower structure; a reclaim back above 400 would instead validate the oversold bounce."
+  },
+  "transcript": {
+    "macro": "Risk-OFF, equity futures soft/mixed pre-CPI (Dow -0.3%, S&P -0.2%, Nasdaq100 +0.2%); AI/chip names pressured. CPI 8:30 ET today = whipsaw. TSLA (tokenized equity) ~395.49: structure_bias -0.323, funding positive (crowded-long -0.24), L/S 1.83, OB slightly bid. Low BTC corr 0.295 (ignore crypto funding/dominance). 4h RSI 24.7 very oversold, pinned at support 391 vs resistance 420. Q2 earnings after close Jul 22 (~8 days, outside 48h). Biggest risk: tokenized perp thin/gappy off US hours (sub-100 unit candles). US-hours entries, smaller size.",
+    "sentiment": "No dated <=48h catalyst. Record Q2 deliveries (480,126) + Miami robotaxi launch Jul 5 drove +6.7% pop to ~$420, since faded to ~$395. Overhangs: Musk says meaningful robotaxi revenue unlikely before 2027; independent data flags robotaxi crash rates ~4x human. Earnings Jul 22 is a building risk, not same-cycle. Near-term news neutral.",
+    "analyst": "TSLA pinned above 391 support, 4h RSI 24.7 deeply oversold, into CPI + risk-off. Composite short but learned p_win 0.415 (poor). Short 395.49\u2192391 = only ~4.5pt room, routine bounce stops it, poor R:R = the account's late-short trap. Oversold-bounce long tempting but no reclaim/volume confirmation in the dead 15m tape (last bar 0.65 units), thin tokenized gap risk into a binary. Hold; wait for a 391 break (short next leg) or a ~400 reclaim (confirm bounce).",
+    "portfolio": "TSLA \u2014 HOLD (conf 0.60): oversold into support + CPI, thin tokenized tape; no confirmed side. Wait for 391/400 pivot."
+  },
+  "timestamp": "2026-07-14T10:03:12.411006+00:00"
+}

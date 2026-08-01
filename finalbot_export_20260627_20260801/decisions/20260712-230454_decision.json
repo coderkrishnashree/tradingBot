@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "HOOD/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.35,
+  "playbook": "none",
+  "forecast": "Price is dripping into the low (112.10, near bar low) with 15m RSI 16.9 washed out; over the next 2-4 bars expect a mean-reversion bounce back toward VWAP ~113.7-113.9 rather than clean continuation to support 106.88.",
+  "expectancy_note": "Short here has p(win)~0.4 and negative expectancy: weak composite (36.5%, ADX 26.8), price already 1.56% below VWAP with oversold LTF, and HOOD is +9.77% RS = squeeze-prone. A fresh short into the low pays <1.5R before a routine bounce hits stop.",
+  "rationale": "The only signal is a weak short composite, and it fires exactly where the account bleeds: chasing an already-extended, LTF-oversold drop on the board's STRONGEST relative outperformer, on a thin weekend equity perp with a bullish multi-week narrative (L2 launch, BTIG Buy) and buyers in the book (+0.133). No long edge either on stale weekend prices. Better expectancy is to short a bounce INTO 116-117 resistance/VWAP-reclaim-fail rather than sell the low \u2014 so I stand aside.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 112.9,
+    "expires_min": 240,
+    "note": "Reclaiming the 112.9 coil/broken-support proves the down-drip failed and an oversold bounce is underway, setting up a cleaner short from higher (into VWAP/resistance) instead of selling the washed-out low."
+  },
+  "transcript": {
+    "macro": "RISK-OFF lean. Sunday \u2014 US cash CLOSED, HOOD perp on stale/thin/gappy prices \u2192 smaller size. Defensive macro. HOOD structure_bias only -0.07 (WEAKEST short structure), L/S 1.38, orderbook +0.13 buyers. BTC-corr 0.64, RS +9.77% = STRONGEST relative outperformer on the board \u2192 most vulnerable to short-squeeze. Least supportive short here; small or PASS.",
+    "sentiment": "Risk-cautious; June CPI + Warsh July 14 = dominant 48h binary. HOOD earnings July 29 (OUTSIDE window). Recent tone BULLISH: Robinhood Chain L2 launch ~8% pop, fresh BTIG Buy + bullish initiations \u2014 supportive multi-week narrative that argues AGAINST aggressive shorting despite bearish scan. Treat short cautiously.",
+    "analyst": "Last 112.10, composite short only 36.5% (blended -0.299, ADX 26.8 borderline). RSI 4h 42, but 15m RSI 16.9 washed out, 5m 32. VWAP dist -1.56%. Coiled ~112.7-112.9 then stepped down to 112.10 near bar low. Weak signal firing into an oversold drop on the top RS outperformer with bullish news + buyers in book = the account's #1 loss pattern. Support 106.88 far. HOLD, armed to short a bounce (reclaim 112.9 then fail into resistance).",
+    "portfolio": "HOOD \u2014 HOLD, conf 0.35: weakest short structure + squeeze-prone outperformer + bullish news; stand aside, armed to short a bounce."
+  },
+  "timestamp": "2026-07-12T23:04:54.984213+00:00"
+}

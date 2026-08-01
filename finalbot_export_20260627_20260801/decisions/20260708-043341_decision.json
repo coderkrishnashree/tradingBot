@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "META/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.34,
+  "playbook": "none",
+  "forecast": "Momentum has stalled: price faded from 617.7 to 613-614 on near-zero volume and is pinned ~1.9% above VWAP with RSI ~77-79 and %B 0.90. Over the next few bars I expect chop/drift 610-616 rather than a clean directional move; a genuine trade only appears on a rejection wick at 628 resistance or a flush back toward VWAP (~602).",
+  "expectancy_note": "No side clears 1.5 R:R: long is stretched/overbought chasing into 628 with a far stop, short lacks a confirmed reversal trigger with 1h/4h trend still up and thin holiday liquidity. HOLD is highest expectancy.",
+  "rationale": "META is a tokenized equity in a thin/off-hours window; blended long but aligned=false with RSI 77, %B 0.90 and +1.9% VWAP - extended mid-air, not a level. Crowded longs (1.80, structure_bias -0.22) plus bearish sentiment into Jul-29 earnings warn against chasing, but there is no confirmed rejection candle to short yet. Best expectancy is to wait for either a resistance test at 628 to fade or a VWAP reset to buy the trend.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 628.23,
+    "expires_min": 240,
+    "note": "A test/tag of the 628 resistance is the level where a high-probability short fade (crowded longs, overbought, bearish sentiment) sets up with a tight stop above the high."
+  },
+  "transcript": {
+    "macro": "Regime MIXED, risk-off intraday. Fed on hold, hawkish Warsh -> firmer USD, no FOMC/CPI inside 48h. META $614 the ONLY long-biased name in the scan (blended +0.35) BUT RSI 77 (overbought), at resistance 628, and L/S 1.80 crowded -> structure_bias -0.22 flags contrarian short risk. Long is stretched.",
+    "sentiment": "META Bearish tilt into a catalyst. Down ~12% YTD; Zuckerberg (Jul 2) admitted AI reorg disappointing/agents slower than hoped. Capex raised to $125-145B pressuring margins. KEY: Q2 earnings Jul 29 (outside 48h) - a large scheduled event but no imminent binary. RSI 77 overbought, stretched long.",
+    "analyst": "Blended long but aligned=false; RSI 77-79, %B 0.90, +1.9% VWAP - extended mid-air. The up-impulse already happened; last ~10 bars fading on near-zero (off-hours) volume, 5m already flipped short. Crowded longs + bearish sentiment argue against chasing long, but no confirmed rejection to short. HOLD; fade a 628 resistance test or buy a VWAP reset.",
+    "portfolio": "HOLD META/USDT:USDT \u2014 stretched long stalling under resistance; no trade."
+  },
+  "timestamp": "2026-07-08T04:33:41.074630+00:00"
+}

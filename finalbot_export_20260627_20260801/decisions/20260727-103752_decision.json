@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "MSTR/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Price is stretched at 95.05 (VWAP +2%, RSI 80, stoch 94) on a fading bounce off the 94.30 base; expect it to stall and roll back toward 94.30 - a clean break of 94.30 opens 92.5 then 89.85 for the fundamentally-favored short.",
+  "expectancy_note": "No entry clears R:R: long chases a stretched bounce (loss pattern); short into a live ADX-79 bounce needs a stop above resistance = poor R:R. Waiting for the 94.30 break gives a clean ~1.5R+ short.",
+  "rationale": "MSTR is a high-beta BTC laggard (corr 0.73, rel-str -7.63) with negative flows (Strategy selling BTC, mNAV ~1.0) into FOMC Wed - fundamentally a short, but price just bounced and sits stretched mid-range (RSI 80, stoch 94, VWAP +2%) with weak composite confidence (35.6%). Shorting the live bounce needs a stop clearing distant resistance (poor R:R) and longing chases the extreme; neither passes the R:R/no-chase checks. Best expectancy is to wait for the 94.30 base to break, confirming the bounce failed and arming the down-move.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 94.3,
+    "expires_min": 240,
+    "note": "Losing the 94.30 base proves the bounce failed -> the fundamentally-favored short toward 92.5 / 89.85, stop just above the bounce high (~95.5)."
+  },
+  "transcript": {
+    "macro": "MIXED regime, risk-cautious into a heavy-event week. FOMC Wed Jul 29. Crypto weaker complex, BTC rangebound $62-68k. Crowded longs broadly -> longs SMALL, tight stops. MSTR lean: 0.73 BTC-correlated leveraged-BTC proxy amplifying BTC's chop both ways; high-beta, size down.",
+    "sentiment": "MSTR negative. Company (now 'Strategy') stopped buying BTC a 2nd straight week and is SELLING BTC/shares to fund dividends; mNAV collapsed to ~1.00x - the leveraged-BTC premium is gone, so MSTR falls faster than BTC on down moves. High-beta short candidate into any FOMC risk-off.",
+    "analyst": "High-beta BTC laggard (corr 0.73, RS -7.63) with negative flows into FOMC - fundamentally a short, but price is stretched on a fading bounce (RSI 80, stoch 94, VWAP +2%), weak composite (35.6%). Live-bounce short = poor R:R; long chases. HOLD; a 94.30 break arms the short toward 92.5/89.85.",
+    "portfolio": "HOLD MSTR (conf 0.50) - short bias but no clean entry; trigger a short below 94.30."
+  },
+  "timestamp": "2026-07-27T10:37:52.753576+00:00"
+}

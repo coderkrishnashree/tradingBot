@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "TSM/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.32,
+  "playbook": "none",
+  "forecast": "Illiquid pre-US-open chop between ~413.8 and ~420; last three green ticks printed on near-zero volume so the drift is not real. Expect continued sideways grind until US cash open, then direction resolves on the semis tape.",
+  "expectancy_note": "No edge: TFs conflict (30m/1h short vs 4h long), composite flat 3.5%, price mid-range far from any fade level, crowded longs into a hostile pre-open. p(win) on any entry ~0.5 with poor R:R \u2014 HOLD is highest expectancy.",
+  "rationale": "TSM sits mid-range (417.5 between support 386.8 and resistance 433.7), RSI 65 with no actionable extreme, and the timeframes are in open conflict \u2014 1h RSI 24 rolled over short while 4h stays up. Regime is MIXED-hostile with Nasdaq futures lower and thin/gappy tokenized-equity liquidity pre-US-open; the recent up-ticks are on essentially zero volume. No clean trend to ride, no extreme to fade, and crowded longs (L/S 2.11) add downside risk to a fresh long, so no valid setup exists. Wait for US cash hours and a structural break to define direction.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 420.0,
+    "expires_min": 240,
+    "note": "Reclaiming the intraday range top ~420 on real volume would confirm the 4h uptrend resuming through the pre-open chop and set up a continuation long toward 433.7."
+  },
+  "transcript": {
+    "macro": "TSM the cleaner equity from an event standpoint \u2014 earnings ALREADY reported (Jul 16, stock soared Jul 17 on strong AI/capex guidance), event risk BEHIND it. Rides semiconductor momentum that led Tuesday's rally. Low BTC-beta (corr 0.19). Regime MIXED-hostile for fresh longs; Nasdaq futures lower pre-open. TSM structure_bias mildly negative, blended conf modest, 15m flat. Tokenized equity: thin/gappy outside US hours, trade inside US cash hours only. Semis correlation high to MU/QQQ.",
+    "sentiment": "TSM bullish (post-earnings). Q2 revenue $40.2B at high end, gross margin 67.7%, HPC +20% q/q = 66% of revenue. Raised FY26 guide to slightly above +40% y/y. Q3 guide $44.6-45.8B. AI/2nm demand outpacing supply, capex $60-64B + new $100B Arizona expansion. No fresh earnings binary next 48h \u2014 trades on AI-sector tape and semis correlation. Tone positive/momentum.",
+    "analyst": "Mid-range (417.5 between 386.8/433.7), RSI 65, no actionable extreme, and TFs in open conflict \u2014 1h RSI 24 rolled short vs 4h up. MIXED-hostile regime, thin/gappy pre-open liquidity, recent up-ticks on near-zero volume (not a real trend). Crowded longs (L/S 2.11) add downside to a fresh long. No trend to ride, no extreme to fade \u2014 no valid setup.",
+    "portfolio": "HOLD TSM \u2014 bullish story but conflicted TFs and dead pre-open liquidity; flat until a 420 break."
+  },
+  "timestamp": "2026-07-22T10:33:47.032134+00:00"
+}

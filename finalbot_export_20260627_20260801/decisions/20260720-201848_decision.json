@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "SOL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "range",
+  "forecast": "Price is stalling mid-range at 77.62 under 79.01 resistance after a failed push to 78.36; expect chop 77.3-78.4, then either a rejection at 78.9-79.0 (short fuel) or a break of 77.3 confirming the roll-over toward 76/73.3.",
+  "expectancy_note": "Short is the right side (max-crowded L/S 2.65, RSI 78, +1.78% VWAP, BTC-beta fading) but shorting mid-range at 77.62 is a chase; wait for the resistance retest to short at p~0.6 with 2R+ to support, not a wide-stop entry now.",
+  "rationale": "SOL is extended and max-crowded-long into Extreme Fear, the classic contrarian short, but at 77.62 it sits mid-range with no edge and the recent bars are only just rolling over. Market-shorting here invites the counter-bounce to 78.3-79.0 that stops late shorts (this account's #1 loss pattern). I want the short at the 78.9-79.0 rejection or on a confirmed break of 77.3, not now.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 77.3,
+    "expires_min": 240,
+    "note": "Losing 77.3 (below the recent micro-support and the coil lows) confirms momentum has turned down from the stretched top and arms the contrarian short toward 76 then 73.3 support."
+  },
+  "transcript": {
+    "macro": "2026-07-20 RISK-OFF/DEFENSIVE. Crypto risk-off BTC-led, BTC ~$64-65k, Extreme Fear, dominance ~56.3% = alts pure BTC-beta, no independent bid. Funding ~0; crowded-long board = contrarian-short tilt. SOL line: avoid longs / short-the-crowd \u2014 max-crowded L/S 2.65, RSI 78 at resistance 79.0, structure_bias -0.35. Best contrarian short on a rejection.",
+    "sentiment": "SOL: crypto in Fear. Bullish STRUCTURAL news (low-fee Solana ETFs Morgan Stanley 0.14%/Grayscale; Alpenglow upgrade late-Q3; Firedancer v1.0; record tokenized-equity volume) but multi-week narratives, not <=48h catalysts. Near-term trades as high-beta BTC (0.81 corr). Neutral-to-mildly-bullish structurally, ETF-outflow risk is swing factor.",
+    "analyst": "Extended + max-crowded-long (L/S 2.65, RSI 78, +1.78% VWAP, %B 0.94, stoch 79) into Extreme Fear, BTC fading \u2014 the contrarian short. But price is mid-range 77.62 under 79.01 resistance, only just rolling over; market-shorting here chases into the 78.3-79.0 bounce that stops late shorts. HOLD, arm short on the resistance rejection or a break below 77.3 toward 76/73.3.",
+    "portfolio": "HOLD SOL \u2014 right side is short but it's mid-range; wait for the 79 rejection or a break of 77.3."
+  },
+  "timestamp": "2026-07-20T20:18:48.183386+00:00"
+}

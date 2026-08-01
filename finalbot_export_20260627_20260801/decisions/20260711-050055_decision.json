@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "XAG/USDT:USDT",
+  "confidence": 0.36,
+  "size": 0.0,
+  "entry": 59.96,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "none",
+  "forecast": "Dead-flat coil pinned 59.92-59.99 right under the $60 wall; expect continued sub-$0.10 chop into the 7/14 CPI, then a directional break either reclaiming 60.2+ (toward 61) or losing 59.5 (toward 57.3). No clean move to trade in the next few bars.",
+  "expectancy_note": "Coin-flip CPI binary 2 days out + most-crowded-long book (L/S 3.34) into $60 resistance = negative expectancy both ways; account bleeds on trend/long-into-extended setups (learner 44%/-2.89). Waiting for the coil to resolve beats guessing the print.",
+  "rationale": "The last 20 bars show a total volatility collapse (~7c range) coiling under the $60 psychological wall \u2014 the 'trend' regime/ADX 29.8 is a stale higher-TF artifact, the real tape is dead-flat consolidation. With the most crowded-long book in the set (structure_bias -0.31), a hot-vs-soft June CPI coin-flip Monday/Tuesday, and this account losing money on exactly this kind of extended/crowded long, there is no positive-expectancy entry now. Size 0 until the coil breaks and confirms a side; a break gives a far better risk-defined entry than fading a 5c range into a binary.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 60.25,
+    "expires_min": 240,
+    "note": "A decisive reclaim/hold above the $60 wall (clearing $60-61 resistance) converts the crowded-long book into fuel toward $61-62.5 and validates a long; conversely, watch for a $59.5 loss to arm the rejection short."
+  },
+  "transcript": {
+    "macro": "Regime MIXED, cautiously risk-on but thin. Higher-for-longer Fed (rates 3.50-3.75%, CPI >4% y/y, ~63% odds Sept hike). DXY soft ~100.8 (supports metals). BTC ~$64.1k. US CPI ~Jul 14-15. XAG (silver): commodity not equity \u2014 soft DXY and safe-haven Mideast flows mildly constructive; trades ~24/5. But stalled at the $60 wall, set for a lower weekly close; some forecasters flag Strong-Sell/pullback toward ~$57. L/S 3.34 = most crowded-long book in the set, structure_bias -0.31. Environment MIXED, watch $60 rejection, size down.",
+    "sentiment": "Market cautiously positive but nervous; hawkish Fed (~61-77% odds HIKE). June CPI 7/14 08:30 ET key binary. XAG NEUTRAL-to-bearish tactically: ~$59.96 sitting on pivotal $60-61; structural bull story intact (6th yr supply deficit, solar demand) but long-horizon. Near-term driver is 7/14 CPI + hawkish Fed/strong USD = headwind. Hot CPI likely pushes toward $55-57 YTD lows; only a soft print/weak USD reopens $62.50-65. Coin-flip on the print.",
+    "analyst": "Last 20 bars are a volatility collapse (~7c range) coiling right under the $60 wall; 'trend'/ADX 29.8 is a stale higher-TF artifact. Most crowded-long book in the set (L/S 3.34, structure_bias -0.31) into $60-61 resistance, plus a coin-flip June CPI Mon/Tue, and the account bleeds on exactly this extended/crowded long. No positive-expectancy entry. HOLD; long only on a decisive 60.25 wall reclaim, watch 59.5 loss for a rejection short.",
+    "portfolio": "XAG \u2014 HOLD, size 0; CPI-hostage coil under $60 \u2014 wait for a 60.25 reclaim or 59.5 breakdown."
+  },
+  "timestamp": "2026-07-11T05:00:55.190417+00:00"
+}

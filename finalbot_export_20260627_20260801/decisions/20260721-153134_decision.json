@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "XAUT/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.4,
+  "playbook": "none",
+  "forecast": "Price recovered off 4044 support to 4073 and is pressing toward 4094.6 resistance while overbought (stoch 95.5, %B 1.13) with bearish divergence and crowded longs (L/S 2.56). Expect a tag of 4090-4095 then a rejection/pullback back toward 4055-4045 over the next 2-6 bars; a fade only becomes tradeable AT the resistance, not here at 4073 mid-air.",
+  "expectancy_note": "No trade beats both alternatives: a fresh short at 4073 is mid-air (poor R:R, and this account's shorts bleed at 0.45 win/-1.21 pnl); a long chases an overbought push into resistance with 2.56 crowded longs above. Wait for the level.",
+  "rationale": "XAUT is flat/no-edge (composite 0.094, conf 11%): overbought into 4094.6 resistance with bearish divergence and an extremely crowded long book (L/S 2.56) argues for a fade, but only AT the level, not at 4073 where R:R is under 1.5 and the $22 ATR would chop any honest stop. The account's short book is a proven loser, so I will not short mid-air; a range fade at 4094.6 (stop ~4102, target 4045) is the setup worth waiting for, or a clean reclaim above flips it long. Size 0 until price reaches a level where the trade actually expresses the edge.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 4092,
+    "expires_min": 240,
+    "note": "A push into 4090-4095 resistance while overbought + crowded long sets up a high-quality fade (or, if it decisively reclaims above, a squeeze-driven long) \u2014 either way that level is where a real trade exists."
+  },
+  "transcript": {
+    "macro": "Regime MIXED, tilting risk-on. XAUT two-sided: near 9-month lows, pinned between Iran safe-haven demand and firm real yields (10y mid-4%) + strong DXY (~105.4). No clean edge; slight bearish drift. FOMC 7/28-29 ~75% hold/25% HIKE (hawkish) \u2014 markets pricing OUT cuts, a headwind for non-yielding gold. Funding ~zero. Iran/oil is the two-way wildcard.",
+    "sentiment": "XAUT BEARISH-lean: spot ~$4,000-4,100, near 9-month lows; rising Treasury yields, firmer DXY, markets pricing OUT Fed cuts (~50% odds of a HIKE by year-end) are headwinds. No gold-specific catalyst inside 48h; Middle-East risk is the only two-way wildcard. Bias: mildly bearish, no imminent trigger.",
+    "analyst": "Flat/no-edge (composite 0.094, conf 11%): overbought into 4094.6 resistance (stoch 95.5, %B 1.13) with bearish divergence and an extremely crowded long book (L/S 2.56) \u2014 argues for a fade but only AT the level, not at 4073 mid-air where R:R<1.5 and the $22 ATR chops stops. Account's short book is a proven loser (0.45 win/-1.21 pnl), so no mid-air short. Want the 4094.6 fade (stop ~4102, target 4045) or a clean reclaim for a long. HOLD, size 0.",
+    "portfolio": "XAUT: HOLD (conf 0.40) \u2014 no edge mid-range; armed fade/breakout trigger at 4092-4095 resistance."
+  },
+  "timestamp": "2026-07-21T15:31:34.813348+00:00"
+}

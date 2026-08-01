@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "EWY/USDT:USDT",
+  "size": 0.0,
+  "entry": 183.59,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.34,
+  "playbook": "none",
+  "forecast": "Price sits pinned at VWAP (183.6) after a small late-15m bounce off the 182.9 shelf into a 5m RSI of 82; expect chop 182.8-184.0 over the next few bars, likely fading back toward 183.0 as the stretched intraday pop cools rather than extending cleanly.",
+  "expectancy_note": "No edge: mid-band (%B 0.54, at VWAP) with flat 15m/30m/5m and only a weak 4h tilt (+0.58) \u2014 no range extreme to fade, no pullback to buy, no squeeze to break; any entry here is chasing a 5m-overbought pop with sub-1.5 R:R, so HOLD dominates.",
+  "rationale": "EWY is the weakest-edge name in the book (RS -15% vs BTC, composite conf 36%, structure bias +0.03 neutral) and a tokenized ETF trading off a CLOSED weekend cash market \u2014 thin, gappy, Monday-gap risk with CPI Tue Jul 14 the real book risk and direction merely imported from semis/TSMC (Jul 16, outside window). The tape shows only a minor late bounce into a 5m RSI of 82 with no clean structural entry and no honest 1.5:1 R:R to resistance (196) without a wide stop. Standing aside is the highest-expectancy choice; I'll re-engage only on a confirmed break.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 184.1,
+    "expires_min": 240,
+    "note": "A decisive reclaim and hold above the intraday minor high ~184.0-184.1 would turn the flat 15m/30m up and confirm the 4h long tilt has follow-through, making a with-trend long tradeable instead of chasing a stretched pop."
+  },
+  "transcript": {
+    "macro": "Regime NEUTRAL, cautiously risk-on into CPI. Weekend/Sunday \u2014 tokenized ETFs off a CLOSED cash market: thin, gappy, Monday-gap risk -> smaller size. US June CPI Tue Jul 14 biggest book risk. EWY: structure_bias +0.03 (neutral), mild long tilt (4h +0.58, orderbook +0.22), RSI 60. BUT KOSPI weak on week (-3.4%)/month (-5.4%), RS -15% vs BTC. Weakest thesis; drifting. NEUTRAL/DISFAVORED \u2014 no clear edge; direction imported from semis, TSMC Jul 16 spills in.",
+    "sentiment": "EWY NEUTRAL/BULLISH. Rides Samsung + SK Hynix (AI memory), highly correlated to memory/semi complex (EWY|SNDK 0.74, EWY|TSM 0.62). TSMC Jul 16 print + memory-price narrative spill into EWY. KOSPI on big run (+~34% YTD, Goldman top APAC pick); soft dollar / ~78% Fed-cut-priced backdrop supportive. BUT recent tape volatile \u2014 rare ~12% single-day drop \u2014 two-way risk elevated. No Korea-specific <=48h binary; overbought short-term (5m RSI 82).",
+    "analyst": "Data lines 1632-1857. Price 183.59 pinned at VWAP (dist +0.16), mid-band (%B 0.54); 4h only meaningfully-scored TF (+0.58), 15m/30m/5m flat, 5m RSI 82 (stretched). Minor late 15m bounce off the 182.9 shelf on largest volume of the sequence, but no range extreme / pullback / squeeze. Buying 183.6 = chasing a 5m-overbought pop with sub-1.5 R:R to resistance 196. HOLD; arm a with-trend long on a reclaim above ~184.1.",
+    "portfolio": "HOLD EWY \u2014 weakest-edge name, neutral structure, no clean R:R into a closed-market/gap-risk weekend; long armed on a reclaim above ~184.1."
+  },
+  "timestamp": "2026-07-12T19:03:25.406312+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "GOOGL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.34,
+  "playbook": "none",
+  "forecast": "Thin Sunday coil between 347.3 and 348.8 likely persists into Monday cash open; no directional edge until liquidity returns \u2014 expect chop, then a gap on Monday open that resolves direction.",
+  "expectancy_note": "No entry clears the bar: est p(win) ~0.45 on any market entry into dead tape; R:R undefined because levels (support 341.9, resistance 380) are far and the 20-bar range is only ~0.4% \u2014 nothing to trade to. HOLD beats forcing a chop trade into a gap.",
+  "rationale": "US cash equities are CLOSED, so this perp is thin, stale and gap-prone into Monday open \u2014 near-zero volume across the last 20 bars confirms it. Timeframes conflict: 15m/30m/1h read long but the 4h is short (-0.573, trend down) and composite is NOT aligned, so there is no clean trend to ride. Price sits -1.81% below VWAP inside a 0.4% coil with stoch already 85.7, and Alphabet earnings Wed Jul 22 is a live binary near the window edge with long/short crowded 1.58 \u2014 carrying size here is a coin-flip against a gap. Highest-expectancy action is to wait for liquidity and a VWAP reclaim before committing.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 349.7,
+    "expires_min": 240,
+    "note": "Reclaiming VWAP/the 349.7 area on real Monday-open volume would confirm the lower-TF longs are overpowering the 4h downtrend and open a trend-continuation long toward 353-356."
+  },
+  "transcript": {
+    "macro": "REGIME: RISK-OFF/cautious. Friday equity selloff on semiconductor rout + Middle East risk. Crypto soft: BTC ~$64.5k. CRITICAL: Sunday 21:07 UTC \u2014 US cash equities CLOSED; GOOGL perp thin/gappy off Friday stale reference; Monday-open gap risk. GOOGL: Alphabet reports Wed Jul 22 \u2014 event risk near the window edge; L/S crowded long 1.58.",
+    "sentiment": "GOOGL \u2014 Event risk imminent-ish. Q2 earnings after close ~Jul 22 (sources split Jul 22-28; likely Jul 22) \u2014 treat as LIVE binary if Jul 22. Strong Q1 (Cloud +63%); tone bullish. DESK FLAG: verify exact date before holding overnight size; binary risk argues against large exposure into the print.",
+    "analyst": "Near-zero volume across last 20 bars; 0.4% coil (347.3-348.8). TFs conflict: 15m/30m/1h long but 4h short (-0.573), composite NOT aligned. Price -1.81% below VWAP, stoch 85.7. Earnings Jul 22 binary near window edge, crowded long 1.58 \u2192 carrying size = coin-flip against a gap. HOLD; long only on a VWAP reclaim >349.7 with real volume.",
+    "portfolio": "HOLD GOOGL \u2014 dead coil, conflicting TFs, earnings binary near edge; wait for 349.7 reclaim."
+  },
+  "timestamp": "2026-07-19T21:14:36.396614+00:00"
+}

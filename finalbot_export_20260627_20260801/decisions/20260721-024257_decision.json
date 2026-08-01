@@ -1,0 +1,23 @@
+{
+  "symbol": "AAPL/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.6,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "rationale": "Composite reads short but only 40.8% conf and price is already exhausted to the downside: 1h/4h RSI 27-28, %B at/below the lower band (-0.007), stoch 17.3, price 1.45% below VWAP (~1.8x ATR). Shorting here is precisely the account's #1 loser \u2014 chasing continuation into stretched tape where a counter-bounce stops you before the trend resumes. The 15m candles show the down-move stalled (volume dried to 0.34, price basing 325.13-326.62). No bullish divergence yet to justify a long fade, plus thin overnight equity tape and GOOGL/INTC earnings sympathy risk. No honest R:R>=1.5 either direction; HOLD.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 326.7,
+    "expires_min": 240,
+    "note": "Reclaiming the swing high that capped the bounce confirms the oversold snap-back and opens a long mean-reversion toward VWAP; below 325.13 on volume re-opens the short."
+  },
+  "transcript": {
+    "macro": "Cautiously risk-on but fragile: Nasdaq +1.02% Jul 20 on chip rebound, 'sell-the-news' theme (86%+ beat yet sold). Mega-cap AI earnings THIS WEEK: GOOGL Jul 22 AC, INTC Jul 23 AC (TSLA, IBM too) = binary gap risk. Fed FOMC Jul 28-29 (outside 48h), mildly hawkish ~63% hold, June CPI cooled. US-Iran conflict day 10: bullish for crude, equity tail risk. Crude (CL) firm at 5-week highs on Strait of Hormuz supply shock. Precious metals (gold/silver) corrective-to-soft, no fresh safe-haven surge despite Iran. Net: mixed-to-supportive for equity longs ex-earnings names; crude best-supported; metals weakest.",
+    "sentiment": "GOOGL: HIGH imminent catalyst, Q2 Jul 22 after close (cons ~$2.87-2.89 EPS, cloud +~60%), big binary gap; +2.9% Jul 20 on Gemini-chip report. INTC: HIGH catalyst, Jul 23 after close, already extended (RSI ~77). MSFT: no <48h catalyst (earns Jul 29). AAPL: no <48h catalyst (earns Jul 30). ORCL: no <48h catalyst (next ~Sept), only low-weight PT-trim noise. QQQ: index proxy, event-driven via GOOGL/INTC prints + Iran headlines, two-way gap risk. CL: HIGH, actively moving ~$82-83 on Iran/Hormuz/Houthi/Russia CPC supply shock, upside-skewed but whippy. XAG/XAUT: mildly supportive on Iran haven bid, offset by hawkish Fed; no hard <48h catalyst (FOMC Jul 28-29 outside window).",
+    "analyst": "Short composite but deeply oversold: 1h/4h RSI 27-28, %B -0.007, stoch 17.3, -1.45% VWAP. Down-move stalled/basing on dried volume. Chasing short = #1 loss pattern. No confirmed reversal for a long.",
+    "portfolio": "HOLD AAPL (conf 0.60) \u2014 oversold, don't chase the short; no reversal trigger for a long."
+  },
+  "timestamp": "2026-07-21T02:42:57.653676+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "SOL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.55,
+  "playbook": "none",
+  "forecast": "Bounce off 75.6 still has legs: price likely tags 76.7-77.0 (VWAP/minor supply) within 2-4 bars; only a fresh loss of 75.6 opens the trend-continuation short toward 74.9/74.0.",
+  "expectancy_note": "Short p(win) here ~0.45: composite is bearish but tape is bouncing and last bar closed at range-high \u2014 market-selling now sells the low. Account shorts already net -0.52 avg_pnl on trend; better to wait for 75.6 break or 77+ fade. HOLD beats a chased short.",
+  "rationale": "Composite/structure lean short (blended -0.593, ADX 40.8, L/S 2.64, rel strength -2.81%) but the last 4 candles bounced from the 75.63 volume-dump low back to a range-high close at 76.46, sitting right at VWAP with 5m/15m flat-to-up. Selling this exact spot is the account's proven loss pattern (late short into a live bounce, avg short pnl -0.52). No <=48h catalyst and SOL is 0.77 BTC-beta, so I want the tape to confirm rollover before committing size.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 75.6,
+    "expires_min": 240,
+    "note": "Losing 75.6 (the high-volume dump low) breaks the bounce and confirms the trend-continuation short toward 74.9/74.0."
+  },
+  "transcript": {
+    "macro": "Regime MIXED, risk-off into hawkish-Fed/strong-dollar. BTC ~$64.7k in Fear (F&G 26), capped near $65k. SOL last 76.46, structure_bias -0.30, funding flat, L/S 2.64 retail-long, OI ~6.24M. BTC corr 0.77 \u2014 SOL is mostly BTC-beta; SOL short = bet on BTC staying heavy; risk is a BTC bounce dragging SOL up.",
+    "sentiment": "SOL mildly bearish, NO hard <=48h catalyst. 'Fear', lowest 2026 volume, stuck below $79-85 supply. News constructive but LONG-horizon only (MS spot Solana ETF refiled Jul 15, Grayscale fee cut, SBI+Clearstream rails). Network clean. Spot-ETF flows flipped to mild daily outflows. Moves macro/BTC-driven.",
+    "analyst": "Composite/structure lean short but last 4 candles bounced from 75.63 volume-dump low to range-high close 76.46 at VWAP with 5m/15m flat-to-up (RSI 61-64). Market-selling here sells the bounce low \u2014 account's proven loss pattern (shorts net -0.52 avg_pnl). Honest short is a 77+ fade or a 75.6 break, neither triggered. HOLD with short reconsider at 75.6.",
+    "portfolio": "SOL \u2014 HOLD (conf 0.55); short only arms on a 75.6 break, don't chase the live bounce."
+  },
+  "timestamp": "2026-07-16T13:35:04.759325+00:00"
+}

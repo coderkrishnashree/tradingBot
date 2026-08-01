@@ -1,0 +1,22 @@
+{
+  "action": "short",
+  "symbol": "MU/USDT:USDT",
+  "size": 2.0,
+  "entry": 985.0,
+  "stop_loss": 992.5,
+  "take_profit": 968.0,
+  "take_profit_1": 968.0,
+  "take_profit_2": 958.0,
+  "confidence": 0.58,
+  "playbook": "trend",
+  "forecast": "Price just flushed 979->975 with 5m RSI ~26 (oversold) and L/S 1.62 crowded long, so expect a mean-reversion squeeze back to the VWAP/broken-support retest near 984-986 within 2-5 bars; that bounce is where the downtrend (RS -16%, short all TFs) resumes toward 968 then 958.",
+  "expectancy_note": "p(win)~0.58, R:R 2.3 to tp1 (reward 17 vs risk 7.5). Limit-at-retest beats a market short here: chasing the extended LTF-oversold flush would get stopped by the crowded-long squeeze bounce (account's #1 loss pattern); waiting for VWAP gives a with-trend entry with an honest ~1.5xATR stop.",
+  "rationale": "MU is the weakest horse (RS -16.2%) in a genuine semis bear market, short-biased across all TFs with ADX 38.6 trending. But it just broke down 4 bars into oversold LTF (5m RSI 26) and L/S 1.62 means a bounce is likely imminent, so a market short now chases into a squeeze. I place a limit short at the ~985 VWAP/broken-support retest, stop 992.5 above the pre-breakdown shelf (risk 7.5, ~1.5xATR), targeting 968 then 958 for 2.3R. Size kept modest at 2% given heavy Jul 14 CPI/earnings event risk and the crowded-long squeeze hazard.",
+  "transcript": {
+    "macro": "Fragile/mixed, risk-off in tech. Heavy imminent event risk Jul 14 CPI/earnings \u2014 keep size modest. SEMIS actively hostile: memory names (Micron, Samsung, SK Hynix) in a BEAR MARKET, -20%+ off highs, ~$1.5T semi cap erased since Jun 25; Samsung blowout still sold off on oversupply \u2014 a real downtrend. MU RS -16.2% vs BTC, RSI ~37, short-biased across TFs. Crowded-long L/S 1.62 = squeeze risk on any bounce. Environment supports MU shorts.",
+    "sentiment": "Neutral/mildly bullish long-horizon. Blockbuster Q3 FY2026 (record revenue, +15% after-hours) Jun 24, guided next quarter ~$50B \u2014 catalyst spent, no new binary inside 48h. AI-memory narrative strong (+~700% y/y, >$1T mcap) but long-horizon, not a 48h mover.",
+    "analyst": "MU is the weakest horse (RS -16.2%) in a genuine semis bear market, short across all TFs, ADX 38.6. But it just flushed 979->975 into oversold LTF (5m RSI 26) with L/S 1.62 crowded long \u2014 a squeeze bounce is likely, so a market short chases into it (account's #1 loss pattern). Limit short at the ~985 VWAP/broken-support retest, stop 992.5 (risk 7.5, ~1.5xATR), targets 968/958 for 2.3R. Size 2% given Jul-14 event risk and squeeze hazard.",
+    "portfolio": "SHORT MU \u2014 limit 985, stop 992.5, targets 968/958, 2% size, conf 0.58."
+  },
+  "timestamp": "2026-07-12T07:03:29.901834+00:00"
+}

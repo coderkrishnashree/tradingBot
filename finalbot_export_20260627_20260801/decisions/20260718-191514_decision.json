@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "HOOD/USDT:USDT",
+  "size": 0.0,
+  "entry": 99.54,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.32,
+  "playbook": "none",
+  "forecast": "Choppy consolidation 99.3-100.0 near support; 4h is extreme-oversold (RSI 3.9, -7.1% vs VWAP) so a downside continuation short would get bounce-stopped, while the 15m bounce off 96.68/99.42 lacks confirmation for a long. Expect range-bound drift into the weekend with Monday gap risk.",
+  "expectancy_note": "p(win)~0.45 either side; short is the account's proven loser into stretched tape (36 shorts, 47%, -0.87 avg) and a long is an unconfirmed dead-cat; no R:R >=1.5 setup with an honest stop -> HOLD is highest expectancy.",
+  "rationale": "Muddy composite (24% conf, unaligned, align 0.87) with conflicting timeframes: 15m long, 30m short, 4h short but RSI at a 3.9 extreme. Shorting a tape this stretched below VWAP is exactly how this book's shorts died to counter-bounces, and the 15m pop to 99.84 shows buyers are already defending 96.68 support. Add risk-off regime, weekend thin/gappy perp liquidity, Monday gap risk, and crypto-tailwind vs equity-headwind cross-current that cancel out -> no edge worth sizing. No trade until price commits.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 100.3,
+    "expires_min": 240,
+    "note": "Reclaiming above the intraday pop high / 30m short structure confirms the oversold bounce has legs, turning this into a long-side mean-reversion setup toward the VWAP gap; below 96.68 instead would resume the clean downtrend for a retest short."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF; HOOD = highest crypto-beta equity name (BTC corr 0.517, COIN corr 0.767), behaves like a risk-on crypto proxy - hit if BTC OR Nasdaq rolls; tied to overall risk tone, currently negative. US cash CLOSED Sat, reopen Mon Jul 20 - thin/gappy, Monday gap risk; reduce size on equity tokens. Scan HOOD short bias but weak; cross-current: strong crypto tape is a tailwind, broad equity risk-off a headwind - pulled both ways.",
+    "sentiment": "HOOD neutral-to-cautious, crypto-beta cross-current. Q2 earnings July 29 (Q&A opens July 22) - outside 48h, not tradable now. Correlates with BTC/COIN so a strong crypto tape is a tailwind, but broad equity risk-off is a headwind - pulled both ways. No fresh single-name catalyst.",
+    "analyst": "Muddy composite (24% conf, unaligned) with conflicting TFs: 15m long, 30m short, 4h short but RSI 3.9 extreme. Shorting a tape this stretched below VWAP (-7.1%) is how this book's shorts died to counter-bounces; the 15m pop to 99.84 shows buyers defending 96.68. Risk-off + weekend thin/gappy + Monday gap + crypto-tailwind vs equity-headwind cancel out. No trade until price commits.",
+    "portfolio": "HOLD HOOD (conf 0.32) - muddy, conflicting TFs and extreme-oversold 4h; crypto-vs-equity cross-currents cancel. Flip long above 100.30, short below 96.68."
+  },
+  "timestamp": "2026-07-18T19:15:14.753175+00:00"
+}

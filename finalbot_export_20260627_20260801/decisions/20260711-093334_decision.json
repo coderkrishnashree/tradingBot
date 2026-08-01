@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "TSLA/USDT:USDT",
+  "size": 0.0,
+  "entry": 408.68,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.55,
+  "playbook": "none",
+  "forecast": "Coiling 408.0-408.7 after the 410.5 rejection; likely chops in this band 1-3 bars, then resolves on a break of 410.5 (long) or 407.8 (flush toward VWAP ~401 then 391). No clean edge until it picks a side.",
+  "expectancy_note": "p(win) ~0.5 either way from here: RSI 71 + fresh 410.5 rejection kills long expectancy (chasing overbought into CPI gap), while 5m RSI 32.6 means an immediate short fades into a bounce and stop to 391 is >4x ATR away. Waiting for the break beats both.",
+  "rationale": "TSLA is a tokenized equity (ignore funding/OI); it's overbought (mid/4h RSI ~71, +1.8% above VWAP) and just got rejected hard at 410.5 back to 408.5. Chasing the trend-long here is exactly the account's late-entry loss pattern into an RSI-71 print with a CPI gap Tuesday, while shorting now fights a 5m-oversold bounce with no honest sub-1.5xATR stop to a real level. Best expectancy is to wait for the consolidation to resolve rather than force a trade with gap risk into Monday's open.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 410.6,
+    "expires_min": 240,
+    "note": "Reclaiming the 410.5 rejection high proves buyers absorbed the pullback and revives the trend-continuation long toward resistance 420.22."
+  },
+  "transcript": {
+    "macro": "Regime risk-ON but late-stage & event-gated (2026-07-11). Fri Jul 10 closed green led by AI/semis; nearly everything overbought. CATALYST inside 48h: June CPI Tue Jul 14 8:30am ET + Warsh testimony 10am + bank earnings start - live binary in a 2-day hold window; Monday opens carry CPI gap risk. TSLA idiosyncratic, rel-strength +1.35% vs BTC; tokenized equities gap around the CPI/earnings open. Size DOWN into Monday.",
+    "sentiment": "TSLA: constructive but headline-heavy. Q2 deliveries crushed estimates (480k vs 406k consensus), yet stock fell 7.5% Jul 2. HIGH-weight binary: Q2 earnings Jul 22 after close (EPS ~$0.47, focus margins/Cybercab) - outside 48h but the dominant upcoming event. Overall tone: cautiously risk-on, hinges on mid-July CPI.",
+    "analyst": "Composite 41.8% long but aligned=false. RSI 71.3, ADX 51.7, stoch 78.3, VWAP +1.8%, ATR% 1.09. Just rejected 410.51 -> low 408.04, coiling ~408.5; 5m oversold (RSI 32.6). Support 391 far, resistance 420.22. Overbought + fresh rejection kills a long; 5m-oversold means a short fades into a bounce with no honest stop. Verdict: HOLD; reclaim of 410.5 revives the trend-long, loss of 407.8 opens a flush.",
+    "portfolio": "HOLD TSLA - overbought, just rejected 410.5, no honest R:R into a CPI gap; wait for the coil to resolve."
+  },
+  "timestamp": "2026-07-11T09:33:34.825304+00:00"
+}

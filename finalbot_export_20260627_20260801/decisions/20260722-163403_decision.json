@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "SOL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Price fading under 79.01 resistance on drying volume (78.65 high rejected, lower highs into 78.15); expect a dip to retest 77.4 then 77.1 base over next 2-6 bars before direction resolves.",
+  "expectancy_note": "Long into a fade under resistance: only ~0.86 to 79.01 vs ~0.9-1.0 stop = R:R <1; crowded longs (L/S 2.47) + BTC-beta laggard (-10.3%) + earnings whip risk. HOLD beats chasing.",
+  "rationale": "Strong ADX-38 uptrend but the last 4 bars roll over just under 79.01 resistance with volume collapsing (44-46k vs 200-285k on the push) \u2014 classic stall, not a fresh entry. Long R:R to resistance is sub-1.5 and I'd be buying crowded longs into a risk-off-lean macro with GOOGL/TSLA earnings tonight; a short fights a 0.9-scored 15m/30m uptrend. No edge either way, so I wait for the break to confirm.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 79.15,
+    "expires_min": 240,
+    "note": "A hold above 79.01 resistance clears the ceiling that's currently rejecting price and opens continuation toward 80+, turning this into a valid trend long."
+  },
+  "transcript": {
+    "macro": "Regime risk-off-leaning mixed. Crypto Fear&Greed ~29; BTC stuck low-$60Ks after failing low-$70Ks; BTC.D ~56% flat (no rotation into alts) = headwind for SOL, a BTC-beta long (corr 0.815, rel-strength -10.3%). Fed not easing (~60% odds higher rates by Oct). Crowded longs L/S 2.47, funding neutral. Lowest-conviction macro setup this cycle; keep small/tight. GOOGL+TSLA earnings after today's close can whip the tape.",
+    "sentiment": "Cautiously risk-on: crypto flipped fear->neutral, BTC reclaimed ~$65k on ETF inflows, SOL spot ETFs still seeing inflows (~$1.14B cumulative). Live but undated catalyst: possible SEC decision on staking-enabled SOL ETFs 'as soon as July' \u2014 binary, nothing confirmed inside 48h. Near-term mildly bullish/supportive of a long, driven by the improving tape not a dated event.",
+    "analyst": "Strong ADX-38 uptrend but the last 4 bars roll over just under 79.01 resistance with volume collapsing (44-46k vs 200-285k on the push) \u2014 a stall, not a fresh entry. Long R:R to resistance is sub-1.5 while buying crowded longs (L/S 2.47) into a risk-off-lean macro with earnings tonight; a short fights the 0.9-scored 15m/30m uptrend. No edge either way. Reconsider a long only on a hold above 79.15.",
+    "portfolio": "HOLD SOL \u2014 stall under 79.01 resistance, sub-1.5 R:R, crowded BTC-beta laggard; wait for a break above 79.15."
+  },
+  "timestamp": "2026-07-22T16:34:03.331775+00:00"
+}

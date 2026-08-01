@@ -1,0 +1,26 @@
+{
+  "symbol": "AAPL/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.6,
+  "size": 0.0,
+  "entry": 316.31,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "forecast": "Thin overnight chop 314.8-317.5 with no edge; the real move is the CPI 8:30 ET / US-open break of the 1.46% BB squeeze \u2014 direction is a coin flip until the print, likely a gappy expansion toward 323 or 305 that only resolves after 13:30 UTC.",
+  "expectancy_note": "No positive-expectancy setup: p(win) ~50/50 into a binary CPI, price mid-range (VWAP -0.34%, %B 0.69) with no extreme to fade and no clean trend (15m/30m/1h short vs 4h up), illiquid book (OI 3.7k) = slippage/gap risk. HOLD beats forcing a chase.",
+  "rationale": "AAPL is a tokenized equity in the dead overnight window with near-zero volume and a severely squeezed Bollinger (width 1.46%), sitting mid-range between 305.19 support and 323.2 resistance right on VWAP. Timeframes conflict (short-term bearish, 4h bullish) and today's June CPI + Warsh is a binary intraday catalyst that will dictate the next real move \u2014 entering now is a coin flip into a gappy, illiquid tape, the account's worst expectancy profile. Wait for the squeeze to resolve on real US-session volume; size 0.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 305.19,
+    "expires_min": 240,
+    "note": "Losing 305.19 support on US-session volume confirms the 15m/30m/1h downtrend takes over and greenlights re-debating a short; reclaiming 323.2 would instead confirm the 4h bull and flip to long."
+  },
+  "transcript": {
+    "macro": "Risk-OFF, US-Iran/Hormuz inflation shock; rates hawkish (~60% Sept HIKE). June CPI 8:30 ET + Warsh + bank earnings today = binary whipsaw. AAPL = equity, thin overnight (OI 3,764, near-zero vol) wide/gappy until 13:30 UTC. RS +7.29%, mixed structure (15m/30m/1h short, 4h up RSI 55), low BTC corr 0.21. Positioning is thin-book noise. Earnings July 30 (outside window).",
+    "sentiment": "AAPL neutral near-term: Q3 FY26 earnings July 30 after close (~$108.9B rev, $1.89 EPS, Tim Cook's last call) is ~16 days out, not tradeable now. No AAPL-specific catalyst inside 48h; trades on CPI + broad tech sentiment. Scan tone slightly soft. Neutral, macro-driven.",
+    "analyst": "Dead overnight tape, severe BB squeeze (1.46%), mid-range on VWAP, conflicting TFs. Binary CPI will set the real move; entering now is a coin flip into a gappy illiquid book \u2014 the account's worst expectancy profile. HOLD; reconsider short below 305.19 / long above 323.2.",
+    "portfolio": "HOLD AAPL \u2014 squeezed illiquid overnight tape into a binary CPI, no edge; wait for the US-session break."
+  },
+  "timestamp": "2026-07-14T04:32:55.663073+00:00"
+}

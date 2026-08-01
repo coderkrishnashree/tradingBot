@@ -1,0 +1,26 @@
+{
+  "symbol": "EWJ/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.5,
+  "size": 0,
+  "entry": 92.62,
+  "stop_loss": 93.15,
+  "take_profit": 90.27,
+  "playbook": "none",
+  "forecast": "Dead after-hours tape: price flatlined at 92.62 on near-zero volume after tracking Nikkei's chip-led drop. RSI 26, %B 0.11, -1.68% below VWAP; likely a low-conviction drift/mean-reversion bounce toward VWAP ~94 over 2-4 bars, not a fresh leg down.",
+  "expectancy_note": "Shorting now = late entry into stretched, oversold, illiquid tape (RSI 26, lower BB); a routine bounce stops it before support 90.27. Preferred fade-the-rally needs price back at ~94.2 VWAP first. HOLD has best expectancy.",
+  "rationale": "EWJ is deep oversold (RSI 26.3, stoch 18, %B 0.11) sitting 1.68% below VWAP in after-hours dead liquidity (OI 1,815, zero-volume bars, price frozen at 92.62). Trend/macro are short-biased, but shorting here is the account's #1 loss pattern - chasing a stretched move a bounce will stop out. No long thesis in a risk-off gappy book. Wait for a rally to VWAP ~94.2 to fade with trend, or a decisive break of 90.27. Size 0.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 94.2,
+    "expires_min": 240,
+    "note": "A bounce to VWAP ~94.2 offers a with-trend short into resistance with a tight stop above 95.45 - the preferred fade-the-rally setup."
+  },
+  "transcript": {
+    "macro": "REGIME RISK-OFF/MIXED, hostile to longs. AI/semi de-risking wave; US cash close just passed so EWJ in after-hours (thin, gappy). EWJ short-biased -0.115, RSI 26, tracking Nikkei -1.76% chip-led drop; thin OI 1,815. Prefer fading rallies to chasing breakdowns.",
+    "sentiment": "US-Iran escalation, oil higher, broad risk-off. EWJ bearish/neutral near-term; Nikkei lowest since June, ~7% off high. Real binary is BoJ July 30 (outside 48h). No immediate positive catalyst.",
+    "analyst": "Deep oversold (RSI 26.3, stoch 18, %B 0.11), 1.68% below VWAP, dead after-hours liquidity, price frozen at 92.62 on near-zero volume. Shorting here chases a stretched move a bounce will stop out; no long thesis. HOLD; arm rally-fade at VWAP ~94.2 or a break of 90.27.",
+    "portfolio": "EWJ: HOLD - too extended to short into dead tape, no long thesis; wait for VWAP ~94.2 rally-fade or 90.27 break."
+  },
+  "timestamp": "2026-07-13T23:33:36.171080+00:00"
+}

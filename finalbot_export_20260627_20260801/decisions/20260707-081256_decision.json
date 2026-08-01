@@ -1,0 +1,27 @@
+{
+  "symbol": "INTC/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.34,
+  "size": 0.0,
+  "entry": 118.26,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "none",
+  "expectancy_note": "Fresh short into RSI 23 / %B -0.06 / stoch 13 sitting on support 116.9 (only -1.15%) is negative-expectancy: ~1.15% to target vs squeeze risk from crowded longs (L/S 1.61) = R:R well under 1. No confirmed bounce long either. p(clean move)~0.4, best to wait.",
+  "rationale": "INTC is the most oversold name (RSI 23, stoch 13, %B -0.056, -4% vs VWAP) yet still crowded long (L/S 1.61) \u2014 classic setup where a fresh short has poor R:R because price is pinned on support 116.9 (only 1.15% below) with squeeze fuel and an idiosyncratic foundry/turnaround narrative that can override the semis tape. No confirmed reclaim exists for a mean-reversion long, and macro is rate-hostile with QQQ correlation 0.685 making this partly correlated-basket beta (NVDA/QQQ). Highest-expectancy action is HOLD flat: let the 116.9 support break decide whether this is a trend short or an oversold bounce. Size 0 pending that trigger.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 116.9,
+    "expires_min": 240,
+    "note": "Losing 4h support 116.9 on a close proves the oversold read is failing and turns this into a real trend short (next support ~113); above it, oversold+crowded-long = bounce risk, no short."
+  },
+  "transcript": {
+    "macro": "Regime MIXED, leaning cautious. Rates hostile (~19% HIKE risk Jul 28-29 FOMC, hot CPI). INTC is the most oversold name (RSI 23, 4h down, bearish divergence, -4% vs VWAP) yet still crowded long (L/S 1.61). Contrarian turnaround story (18A node, foundry customers) = idiosyncratic squeeze fuel. Macro desk: do NOT press shorts here \u2014 oversold + crowded long = poor R:R for new downside; mean-reversion-only, not a trend short.",
+    "sentiment": "Sector tone fragile/two-sided: late-June AI-chip selloff (INTC -9% in the rout) then Jul 6 bounce. INTC is the highest headline-risk name; earnings Jul 23 after close (outside 24-48h) but nearest hard catalyst, margins still negative (~-$3.7B qtr) so guidance = large gap risk when it lands. Two-sided fresh flow: bullish foundry/AI narrative (HSBC PT $100->$200, BofA $135->$160 \u2014 low weight; foundry pipeline >$15B w/ MSFT & AMZN) vs the June rout. Correlated to the NVDA/QQQ basket (QQQ corr 0.69).",
+    "analyst": "Do not press a short into a maximally oversold, crowded-long name resting on support \u2014 negative expectancy with real squeeze/bounce risk. No long trigger yet (no VWAP reclaim, bearish divergence, hostile rates). HOLD; wait for a decisive break of 116.9 to short (toward ~113), or a reclaim of ~120 to reassess long. Correlated to QQQ (0.69) \u2014 also basket-beta, not a clean idiosyncratic edge.",
+    "portfolio": "INTC: HOLD (conf 0.34) \u2014 oversold + crowded-long on support, poor short R:R; armed breakdown trigger at 116.9."
+  },
+  "timestamp": "2026-07-07T08:12:56.647257+00:00"
+}

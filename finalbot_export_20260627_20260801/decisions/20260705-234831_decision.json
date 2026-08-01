@@ -1,0 +1,25 @@
+{
+  "action": "hold",
+  "symbol": "INTC/USDT:USDT",
+  "size": 0.0,
+  "entry": 122.74,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "expectancy_note": "Both sides negative EV now: shorting RSI 17 / %B -0.26 pinned ON support 122.67 is chasing a flush; longing a semi-unwind knife into closed US tape risks a Monday gap-down. No funding/OI edge, thin weekend liquidity \u2014 wait for the open to pick a side.",
+  "rationale": "INTC is deeply oversold (RSI 17, %B below the lower band) and glued to support 122.67 after a 12x-volume 15m flush, with US cash markets CLOSED (Sunday post-July 4) so the perp prices with no underlying tape and real Monday gap risk. Structure is neutral (funding 0.0, orderbook ~flat, mild bias -0.157) \u2014 a price-action binary, not a positioning trade, and BTC corr 0.303 means this trades as a semi, not crypto. There is no positive-expectancy entry either direction over the weekend: shorting here chases the extreme at the worst level, and fading needs stabilization confirmation that only the cash open provides. Size 0 \u2014 the highest-EV action is to let the Monday open resolve the flush-vs-bounce.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 122.67,
+    "expires_min": 240,
+    "note": "A decisive break below support 122.67 on real (US-open) volume confirms short continuation and flips this from wait to a valid trend-short entry."
+  },
+  "transcript": {
+    "macro": "2026-07-05 23:44 UTC. CRITICAL: Sunday post-July 3-4 holiday, US cash equity markets CLOSED \u2014 perp prices with no underlying tape, thin liquidity, real Monday-open gap risk. Regime: crypto fragile/risk-off, BTC ~$63.7k; equities two-speed, SEMIS the weak leg (Micron -10%+, chips led lower July 2), momentum names seeing profit-taking. INTC positioning: last 122.74, composite short but very low 14.5% conf, structure_bias -0.157 (mildly bearish). Funding 0.0 (not crowded either way), L/S 1.53, orderbook ~flat +0.006. NOT a positioning story \u2014 a PRICE-ACTION story: RSI 17 (deeply oversold), ADX 69.9, price under VWAP -0.78%, sitting ON support 122.67 after a 15m downside breakout on ~12x volume (thin-liquidity flush). BTC corr 0.303 \u2014 trade as equity/semi. Verdict: stay-out, two-sided into Monday open; only then consider short continuation on break below 122.67 on real volume, or fade if semis stabilize.",
+    "sentiment": "INTC: tone flipped from euphoric to sharply risk-off \u2014 fresh shock already in tape. After ~250-270% YTD on 18A foundry ramp + AI-foundry buzz (Apple/Google/SpaceX chatter), fell ~9% Wed, ~5% Thu to ~$120, further ~5% July 4 on broad semis selloff (BofA flagged AI 'bubble risk'; AMD/TSM also down; hawkish Fed under Warsh). Profit-taking cascade is dominant <=48h force. Bullish counter: HSBC doubled PT to $200 July 2 (long-horizon, low weight). KEY hard catalyst: Q2 earnings July 23 (OUTSIDE 24-48h window \u2014 flag not trade). Watch oversold snap-back (RSI 17). NYSE closed until Monday \u2014 token can gap on reopen. Verdict: bearish/against a long near-term.",
+    "analyst": "HOLD (conf 0.5). This is the exact two-sided-into-closed-US-tape situation. Deeply oversold (RSI 17, 30m RSI 16, %B -0.26 below lower band) and pinned ON support 122.67 with US cash markets CLOSED (Sunday post-July 4) \u2014 thin, real Monday gap risk. Shorting RSI 17 right at support is chasing a flush at the worst spot; longing a falling knife on a semi-unwind risks a Monday gap-down. No funding/OI edge (funding 0.0, orderbook flat). BTC corr 0.303 \u2014 trades as a semi, not crypto. Best expectancy is to wait for Monday's US open to resolve the binary: clean break of 122.67 on real volume = short continuation, or a reclaim/stabilization = fade. Size 0.",
+    "portfolio": "INTC/USDT:USDT \u2014 HOLD (conf 0.5), size 0: two-sided oversold flush pinned on support into closed cash market; wait for Monday open to pick a side."
+  },
+  "timestamp": "2026-07-05T23:48:31.864245+00:00"
+}

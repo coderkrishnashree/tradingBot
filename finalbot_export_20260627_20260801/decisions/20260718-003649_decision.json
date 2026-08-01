@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "TSM/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.35,
+  "playbook": "none",
+  "forecast": "Frozen quote ~398 on near-zero volume (US cash closed); no tradable intraday path until the open, where a GAP resolves the direction. Below 386.81 = sector-continuation short; back above ~399.5/VWAP kills the bearish tilt.",
+  "expectancy_note": "Short here is a chase: price -2.69% under VWAP, RSI 32.9, aligned=false (1h long vs 30m/4h short), maxed-long book is squeeze fuel; account shorts run 47% win / -0.87R. No edge until the gap prints.",
+  "rationale": "TSM's -5% post-earnings drop is already behind it and the scan is a snapshot of a closed, illiquid market - the candles are flat zero-volume prints, so there is no honest next-candle move to trade, only an unforecastable US-open gap. Structure bias is bearish (-0.374) but the timeframes disagree (aligned=false) and price is extended below VWAP with an over-long book that is squeeze fuel, exactly the late-short trap the account keeps losing on. Size 0: wait for the open to confirm direction via the support break rather than guess the gap.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 386.81,
+    "expires_min": 240,
+    "note": "Losing the 386.81 support after the US open confirms the semi de-rating is continuing and re-opens a clean trend short toward the next leg; a hold back above ~399.5 would instead invalidate the bearish tilt."
+  },
+  "transcript": {
+    "macro": "RISK-OFF for tech, semis leading the selloff. Nasdaq -2.9% on the week, SOX bear market. Macro backdrop supportive (soft CPI, Fed hike odds ~17%, FOMC outside window). Funding ~0. Scan taken while US cash CLOSED -> thin/gappy, gap risk at open. TSM: 398.24, RS -14.38%, THE catalyst name (cash stock fell ~5% post-earnings on margin worry despite beat/raise). Extremely thin overnight (candle volumes near zero, 1h flips long while 30m/4h short = noise). L/S 2.342, MOST lopsided long book (maxed long_short -1.0), structure_bias -0.374. SUPPORTIVE of shorts on the catalyst BUT liquidity is the biggest risk - expect a GAP not a glide.",
+    "sentiment": "Overall RISK-OFF semis (SOX bear market, Chinese Moonshot AI). TSM already reported July 16: record Q2, profit +77%, raised FY revenue guide to >40%, +$100B more Arizona capex - yet stock FELL ~5% because raised capex ($60-64B) spooked FCF bulls. 'Sell the news' on a blowout beat = bearish tell, TSM is the epicenter of the semi de-rating. Earnings risk now BEHIND it -> path of least resistance short-term is lower with the sector. Cleanest short setup of the group.",
+    "analyst": "Short is directionally right (structure_bias -0.374, RS -14.38% laggard, bearish earnings-fade catalyst) BUT the last ~10 candles are flat at ~398-399.5 on ZERO volume (US cash closed, gap-prone) - no readable next move, only an unforecastable open gap. Already -2.69% below VWAP (not a fade level) into a 2.34 long-crowded book (squeeze fuel), timeframes disagree (aligned=false), and the account's short book bleeds (learner 47% win, -0.87 avg). HOLD; short only on a volume-backed break below 386.81 after the open.",
+    "portfolio": "HOLD TSM - cleanest bearish thesis but a dead zero-volume tape with an unforecastable gap; short only on a volume-backed break below 386.81."
+  },
+  "timestamp": "2026-07-18T00:36:49.612831+00:00"
+}

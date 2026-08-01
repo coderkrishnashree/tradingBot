@@ -1,0 +1,27 @@
+{
+  "symbol": "EWJ/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.34,
+  "size": 0.0,
+  "entry": 93.07,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "none",
+  "forecast": "Price chops 92.6-93.5 on near-zero volume; likely defends support 92.14 near-term given the bullish divergence, but no clean directional move until Jul-9 earnings; expect a coin-flip drift, not a tradeable leg.",
+  "rationale": "EWJ is untradeable right now: the scan shows many zero-volume candles and sub-1-unit real bars, so ADX 81 downtrend is a print artifact, not real momentum. Price is pinned just above support 92.14 with a bullish divergence flagged and Jul-9 corporate earnings inside the 48h window (gap risk), so there is no clean short entry near a level and no reason to buy into a RISK-OFF Nikkei down 2% before a reclaim. Zero size preserves capital; re-engage only on a decisive break of the box.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 92.14,
+    "expires_min": 240,
+    "note": "Losing support 92.14 on real volume confirms the down-leg and opens a clean short; a reclaim of 93.5 validates the bullish-divergence bounce for a long."
+  },
+  "transcript": {
+    "macro": "Regime (2026-07-08): RISK-OFF, hawkish Fed, US-Iran conflict. EWJ drivers = Nikkei/yen/BoJ (ignore crypto). btc_corr 0.234, RS -0.87%. Nikkei fell 2.12% to a 3-week low on tech selloff; ADX 81 (very strong downtrend) BUT bullish divergence flagged and THIN tape (many zero-volume candles - liquidity/gap risk real). Event risk: Fast Retailing/Seven&i earnings Jul 9 (INSIDE window). Thin-liquidity - conservative sizing, gap awareness.",
+    "sentiment": "EWJ: no <=48h binary besides Jul 9 corporate earnings. Nikkei +~30% YTD near record (briefly cleared 70,000). BoJ hiked to 1% Jun 16 (highest since 1995), market split on further hikes. Key risk: hawkish BoJ / sharp yen move - carry-trade unwind (tail risk). EWJ is a thin/illiquid contract in the scan - price data unreliable. Near-term NEUTRAL; no strong catalyst inside window.",
+    "analyst": "EWJ scan tape is dominated by zero-volume candles (10 consecutive frozen 93.35 prints, then sub-1-unit real bars), so the ADX-81 very strong downtrend is a data artifact rather than tradeable momentum. Price is pinned just above support 92.14 with a bullish divergence flagged, so any short sits too close to support for a valid R:R >= 1.5, while the RISK-OFF macro (Nikkei -2% to a 3-week low) plus Jul-9 corporate earnings make a long premature and gap-risky. Flat is highest-expectancy; armed trigger at 92.14 (break = short, reclaim of 93.5 = divergence long).",
+    "portfolio": "EWJ: HOLD (conf 0.34) - untradeable thin/illiquid tape; stand aside pending a real break of the 92.14/93.5 box."
+  },
+  "timestamp": "2026-07-08T02:32:52.746978+00:00"
+}

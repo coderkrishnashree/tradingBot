@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "GOOGL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Stalled after topping at 329.99; base holding ~326-327 with drying volume. Expect choppy drift in a 326-330 box into US close; no clean directional edge until it breaks either the 326 base (down toward VWAP/320) or reclaims 330 (trend resumes).",
+  "expectancy_note": "Fade is tempting (RSI 72.7, above upper BB, crowded long 2.64, weak RS -13%) but nearest support 315 / resistance 360 are far, so no tight-stop honest R:R; learner shows shorts bleed this account (44% win, -1.02R). Chasing the long into an extended stretch is the account's #1 loss pattern. Both edges < 1.5 R:R -> HOLD is highest expectancy.",
+  "rationale": "GOOGL is extended and stretched post-move (RSI 72.7, bb_pctb 1.036, ADX 57) but rolling over into a low-volume base at 326-327 near/after US close in a thin, gappy tape ahead of FOMC Wed. A short has the technical case yet no nearby structural target and the account's shorts have been losing; a long chases a stretched move into the upper band. Neither clears the 1.5 R:R bar, so I wait for the box to resolve.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 325.9,
+    "expires_min": 240,
+    "note": "Losing the 326 base low that held all afternoon confirms mean-reversion has legs, opening a clean short toward VWAP/320 with a stop back above the base."
+  },
+  "transcript": {
+    "macro": "Risk-off crypto, wobbly equities, Nasdaq -0.2%. FOMC Wed Jul 29. Tokenized equities thin/gappy outside US hours. GOOGL (Alphabet): price ~$327.6, extended \u2014 RSI 72.7, bb_pctb 1.036 (above upper band), ADX 57, up hard on 1h/5m. L/S 2.643 (crowded long). Stretched post-move \u2014 chase risk high, mean-reversion risk elevated. btc_corr only 0.291 (own equity story). Reduce size hard.",
+    "sentiment": "GOOGL post-earnings. Q2 reported Jul 22: revenue beat (+24% to $119.8B, EPS crushed) BUT stock SANK on a 2026 capex hike \u2014 recent (5 days) mildly bearish overhang price may still be absorbing. No new scheduled catalyst in 48h beyond Fed/Nasdaq tape. Slightly negative residual sentiment from capex reaction; watch off-hours thinness.",
+    "analyst": "GOOGL extended/stretched (RSI 72.7, bb_pctb 1.036, ADX 57) but rolling into a low-volume base 326-327 near/after US close, thin gappy tape into FOMC Wed. A short has the technical case but nearest support 315 / resistance 360 are far (no tight-stop R:R) and shorts bleed this account (44% win, -1.02R). A long chases into the upper band \u2014 the account's #1 loss pattern. Neither clears 1.5 R:R. Wait for the 326-330 box to resolve.",
+    "portfolio": "HOLD GOOGL/USDT \u2014 extended but no tight-stop edge; armed a break-of-base short reconsider at 325.9."
+  },
+  "timestamp": "2026-07-27T19:36:40.710819+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "QQQ/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.55,
+  "playbook": "none",
+  "forecast": "Price just punched a fresh low to 721.07 with 1h RSI at 20 and stoch 6.6 - stretched. Expect a mean-reversion squeeze/bounce toward the broken 722.35 level and VWAP ~724.5 over the next 2-4 bars before the downtrend can resume; that retest into resistance is the clean short entry, not this extended low.",
+  "expectancy_note": "p(win) on a short here ~40%: fresh low at RSI 20 = the account's #1 loser (late trend short, 42% win / -2.87 avg). R:R shorting 721.68 to 718 with an honest stop above 726 is <1. Waiting for the 724-725 retest gives R:R ~2 and avoids the squeeze - higher expectancy than chasing.",
+  "rationale": "QQQ is in a valid risk-off downtrend (macro hawkish, CPI/earnings tilt short, broke 722.35 on 6.6x vol) but is now short-term over-extended: 1h RSI 20, stoch 6.6, price making a fresh low into the window close. Composite conviction is thin (27%, blended -0.23) and the L/S book is balanced (0.91). Shorting the low here invites the exact counter-bounce that stops this account's late shorts. I want to sell strength into the 722.35/VWAP retest with a tight stop, not the low - so HOLD and arm the trigger.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 720.5,
+    "expires_min": 180,
+    "note": "A decisive break/hold below 720.5 (through the 721.07 low) after this stretch confirms sellers absorbed the oversold reading and the leg toward 715/698 support is live - re-debate for a continuation short."
+  },
+  "transcript": {
+    "macro": "REGIME: RISK-OFF / HAWKISH \u2014 tilts SHORT. New Fed Chair Warsh held rates but flagged rising HIKE odds (~61% Sept hike priced); firm USD/yields, rising oil, US-Iran tension. Headwind for long-duration equities (big-tech/semis) and precious metals. All target names are equity/commodity-tracking perps (low BTC corr) \u2014 judge as equities/commodities, not crypto. CRITICAL EVENT RISK inside 48h: June CPI ~July 14-15 coincides with Q2 bank-earnings kickoff (JPM/BofA/Citi/Wells/GS before open Jul 14) = binary vol cluster; reduce/flat size into Jul 14 US cash open. Tokenized equities are thin/gappy off US hours \u2014 treat overnight moves skeptically. Per-theme: Big-tech/Nasdaq (GOOGL,QQQ) neutral-to-SHORT, Nasdaq rolling over into CPI; GOOGL long-crowded (L/S 2.02, squeeze risk). Semis/memory (TSM,MU,INTC,SNDK) SHORT-favorable but LATE/squeeze-prone \u2014 memory just entered bear market after Samsung Jul-7 selloff, still up huge YTD so crowded/violent bounces; TSM/MU/INTC/SNDK/EWY are effectively ONE correlated memory-beta trade, do not stack. Korea (EWY) short-leaning memory-proxy (~47% Samsung/SK Hynix), redundant with semis. Silver (XAG) SHORT bias but EXTREMELY oversold (RSI 24, ADX 85, long-crowded 3.33) \u2014 sell rallies toward $60, don't chase lows. Bottom line: environment broadly SHORT-friendly but crowded/oversold on several names and sitting in front of the CPI+earnings cluster \u2014 longs unsupported, reduce size, flat-or-hedged into Jul 14.",
+    "sentiment": "OVERALL TECH/SEMI: RISK-OFF / FRAGILE. Dominant force is a sharp semiconductor selloff that started ~Jul 2 on a Samsung earnings AI miss + SK Hynix HBM-slowdown reports, extended on valuation fears + a hawkish Fed (Warsh). Worst day: Nasdaq -2.2%, SMH -5%, MU -13%, INTC -9%, AMD -7% \u2014 broad de-risk of the AI/memory trade after a parabolic H1; supports short bias on TSM/MU/EWY/QQQ/INTC/SNDK. Biggest scheduled catalyst: TSM Q2 earnings July 16 pre-market (sector-wide binary; ~3 days out, just OUTSIDE 48h horizon but the key event risk if size is carried). Per-name: GOOGL \u2014 not part of chip selloff, earnings Jul 22 (OUT of window), DOJ antitrust overhang is multi-month; near-term NEUTRAL, trades on Nasdaq beta. MU \u2014 epicenter, -22% off highs despite record Q3/HBM sold out through 2027/Anthropic deal; pure momentum/valuation unwind, snap-back risk. SNDK \u2014 best S&P 500 stock 2026 (+707% YTD); bull narrative intact (Goldman PT $2,200) but LOW-weight long-horizon notes; high-beta NAND proxy vulnerable to de-risk. INTC \u2014 -21% in 7 days on 18A yield-delay + AMD overtaking data-center; earnings Jul 23 (OUT of window). EWY \u2014 ~47% SK Hynix+Samsung, Kospi -4.91% Jul 7 (Samsung -9%, SK Hynix -14.6%); SK Hynix ADRs began Nasdaq trading Jul 10. QQQ \u2014 aggregate semi weakness + hawkish Fed, biased weak. XAG \u2014 silver collapsed ~$121\u2192$58-59 (halved in 6mo) on hawkish-Fed repricing; bullish structural story is long-horizon; near-term Fed/DXY-driven, deeply oversold. Oversold across MU/INTC/XAG/EWY/SNDK means shorts must respect snapback risk.",
+    "analyst": "Valid risk-off downtrend (broke 722.35 on 6.6x vol) but short-term over-extended: 1h RSI 20, stoch 6.6, fresh low into the window close. Composite thin (27%, blended -0.23), L/S balanced 0.91. Shorting the low invites the counter-bounce that stops this account's late shorts; R:R from 721.68 to 718 with stop above 726 is <1. HOLD; sell strength into the 722.35/VWAP ~724.5 retest, or re-debate on a break below 720.5.",
+    "portfolio": "HOLD QQQ - downtrend intact but 1h RSI 20 is squeeze-prone; sell a bounce into 724-725, not the low. Armed below 720.5."
+  },
+  "timestamp": "2026-07-13T01:04:05.619027+00:00"
+}

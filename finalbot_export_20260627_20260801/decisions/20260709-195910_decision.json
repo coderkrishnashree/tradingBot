@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "COIN/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Slow bleed near 158.6 likely to base or squeeze-bounce toward VWAP ~163 within the next hours given 4h RSI 24.7 + bullish divergence; a fresh short only sets up ON that bounce, not here at the lows.",
+  "expectancy_note": "Shorting a stretched breakdown (ADX 80.5, vwap -2.77%, bullish div, Reg-Crypto squeeze binary) is the account's proven loser: high_adx shorts 0.47 win / -3.0R. No confirmed long either. Best expectancy = wait for the bounce to short into strength.",
+  "rationale": "Bias is genuinely bearish (orderbook -0.421, RS -4.07%, risk-off macro, 1h score -0.9), but entering short at the session low into a flagged bullish divergence with an imminent Reg-Crypto squeeze binary is exactly the late-short-stopped-by-bounce pattern that has bled this book. A bounce-long has no confirmation (last bar closed on its low, still leaking, no higher-low). Highest-expectancy action is to wait: short into a VWAP/resistance retest with a tight stop, or trade a confirmed loss of the base. No size until the tape offers a real entry.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 162.5,
+    "expires_min": 240,
+    "note": "A bounce to VWAP/resistance ~162.5 is where a proper short-into-strength sets up with a tight stop above 165 and downside toward 152/145 - re-debate to arm that short."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF/defensive. COIN last 158.59, composite SHORT 42.7%; structure mildly bearish (orderbook -0.421 real sell pressure, structure_bias -0.195). High crypto-beta (BTC corr 0.733), RS -4.07% (lagging), down 29% YTD. CAUTION for shorts: 4h RSI 24.7 + bullish divergence, ADX 80.5 (stretched -> bounce risk), vwap -2.77%. Prefer shorts on a BOUNCE toward VWAP/resistance, not a breakdown chase; smaller size.",
+    "sentiment": "Deeply oversold (RSI ~25). Positive fundamentals (UK license, tokenized US stocks, Cantor Overweight) but tape falling. Near-term: SEC 'Regulation Crypto' overhaul expected THIS MONTH (COIN-positive, any day); CLARITY hearing July 17. Earnings July 30 (not a factor). Oversold + bullish div = squeeze risk; news leans mildly AGAINST pressing a fresh short.",
+    "analyst": "Bearish bias is right but the entry is wrong: shorting the session low into a flagged bullish divergence + imminent Reg-Crypto squeeze binary is the account's proven high-ADX-short loser. Bounce-long has no confirmation (closed on its low, still leaking). Wait to short a VWAP/resistance retest ~162.5 or a confirmed loss of base.",
+    "portfolio": "COIN: HOLD (conf 0.60) - bearish bias, wrong entry; arm short into bounce above 162.5."
+  },
+  "timestamp": "2026-07-09T19:59:10.134020+00:00"
+}

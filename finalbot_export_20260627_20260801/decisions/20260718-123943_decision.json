@@ -1,0 +1,28 @@
+{
+  "symbol": "EWJ/USDT:USDT",
+  "action": "hold",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.4,
+  "playbook": "none",
+  "forecast": "No tradable next move: the entire 15m window is pinned at 91.04-91.00 with ~0.0 volume, a stale weekend quote. Price will sit until Japan/US reopen, then gap to wherever the tape prints \u2014 unforecastable from here.",
+  "expectancy_note": "p(win) undefined on a book that doesn't trade; a short would fill against an empty orderbook at a stale mark with no manageable stop, and squeeze risk into reopen is high. HOLD is the only positive-expectancy choice.",
+  "rationale": "EWJ is effectively untradeable right now: nearly every recent 15m candle is 0.0 volume with price frozen at 91.0, and 30m/1h actually read up (RSI 68/61) against a 4h that only reflects Friday's already-printed Nikkei -4% selloff. The bear thesis (yen weakness, chip rout, snap-election risk) is medium-term and not a >48h binary; with markets closed, execution is gappy and any stop is unenforceable. Poor liquidity plus mixed intraday structure = size 0.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 88.16,
+    "expires_min": 240,
+    "note": "A break of support at 88.16 on real volume confirms the bear leg resuming and gives a tradable momentum short with a definable stop above 88.16."
+  },
+  "transcript": {
+    "macro": "RISK-OFF regime; chips epicenter. No FOMC/CPI inside 48h. #1 risk: chasing oversold shorts into a squeeze; smaller size across board. EWJ: Japan proxy, effectively NO volume in scan candles (many zero-volume 15m bars) -> thin/illiquid, gappy. Correlates with QQQ (0.646) so rides the US tech tape, but execution risk HIGH; size down purely on liquidity.",
+    "sentiment": "EWJ bearish tone. Nikkei -4.0% Fri (one-month low) as the global chip selloff hit Japanese AI names hard (Kioxia -16%, SoftBank -9%, Advantest -7%, Tokyo Electron -8%). Overhang: yen weakness (Goldman 12-mo USD/JPY to 165), record-high JGB yields, snap-election political risk. No single <=48h binary but momentum + macro lean negative. EWJ still +18.6% YTD (pullback within uptrend). Weekend perp thin/gappy.",
+    "analyst": "EWJ short bias is directionally defensible (Nikkei -4% Fri, yen to 165, JGB yields, snap-election overhang, 0.646 corr to a risk-off US tape) but NOT actionable now. The candles are the tell: ~18 of 20 bars are 0.0 volume with price frozen at 91.04-91.00 \u2014 a stale weekend mark on a dead book (OI just 2178). Intraday structure is mixed (4h short -0.797 but 30m/1h up, RSI 68/61, positive MACD). Shorting means filling against an empty orderbook at a stale price with no defensible stop, into the exact squeeze-on-reopen risk macro flagged. HOLD, size 0; re-arm a momentum short only on a real-volume break below 88.16.",
+    "portfolio": "HOLD EWJ \u2014 untradeable dead weekend book; no trade until a real-volume break of 88.16."
+  },
+  "timestamp": "2026-07-18T12:39:43.661490+00:00"
+}

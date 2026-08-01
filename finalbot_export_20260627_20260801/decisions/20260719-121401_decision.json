@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "HOOD/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Quiet oversold drift near 99.6 into the weekend; most likely a small mean-reversion bounce toward the 100.3-100.8 VWAP band over the next few bars, or a shallow continued grind \u2014 neither offers clean R:R from here.",
+  "expectancy_note": "Short is late: RSI 4h=20, -5% below VWAP, only ~3% to support 96.68 = R:R <1.5 and high bounce risk (p_win_learned 0.318). No long trigger yet. Best expectancy is standing aside.",
+  "rationale": "HOOD is deeply oversold (RSI 20 on 4h/30m) and stretched -5% below VWAP after an ADX-63 down leg; the 15m tape is a slow, thin drift lower with no capitulation and no reversal signal. Chasing the short here into support 96.68 on thin closed-cash weekend liquidity is the account's proven losing pattern (late short stopped by the bounce), and there is no fresh long setup. HOLD is the highest-expectancy call; size zero.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 96.68,
+    "expires_min": 240,
+    "note": "Losing support 96.68 on real volume proves the downtrend has fresh legs (not exhausted), warranting a momentum-short re-debate."
+  },
+  "transcript": {
+    "macro": "Env HOSTILE-to-MIXED, tilted to SHORTS/defense. Sunday 19 Jul, US cash CLOSED until Monday \u2014 all names except SOL are tokenized equity/commodity perps on thin, gappy weekend liquidity (Monday mean-revert/gap risk). Cash backdrop risk-off/tech-down: S&P -1.6% wk, Nasdaq -2.9%, semis SMH ~-9%, NFLX -10%. Mega-cap earnings gauntlet inside horizon (TSLA Wed 22 Jul, Alphabet 22-28, META/MSFT/AAPL next wk) \u2014 any position into a print is a binary gap. BTC low-$60Ks, dominance ~56%, weak crypto tape caps SOL/MSTR/HOOD. Funding reads 0.0 across the board (unavailable, not neutral-bullish) \u2014 lean on L/S crowding + orderbook; most names crowded-long L/S 2.3-2.8 (contrarian short tailwind). Best alignment: QQQ short, TSLA short (close before Wed earnings), CRCL short, CL exhaustion-fade short; MU & SOL longs the most hostile.",
+    "sentiment": "Overall RISK-OFF/event-heavy (live US-Iran conflict spiking oil/safe-havens; mega-cap earnings wall next week). TSLA: Q2 earnings Wed 22 Jul AH \u2014 hard binary inside 48h, do-not-hold-through. MU: blowout FQ3 already reported, catalyst behind, momentum-negative. SOL: multi-week bullish narratives (ETF fee cuts, Firedancer) but no <=48h catalyst, follows BTC (corr 0.80). MSTR: no 48h binary, leveraged BTC proxy; sold ~3,588 BTC Jul 6-12. CRCL: earnings ~Aug 10, tone mixed/heavy (Stripe 'Open USD' threat vs OCC trust-bank/Nomura/ARK). ORCL: no 48h catalyst, sentiment deteriorating (S&P cut to BBB-, pipeline rejection). QQQ/AAPL/META/HOOD: earnings Jul 29-30 (outside 48h), near-term neutral. CL: WTI ~$82-83, +14% wk on live US-Iran/Hormuz conflict \u2014 genuine two-way <=48h headline risk in both directions.",
+    "analyst": "HOOD is deeply oversold (RSI 20 on 4h/30m) and stretched -5% below VWAP after an ADX-63 down leg; the 15m tape is a slow, thin drift lower with no capitulation and no reversal signal. Chasing the short here into support 96.68 on thin closed-cash weekend liquidity is the account's proven losing pattern (late short stopped by the bounce), and there is no fresh long setup. HOLD is the highest-expectancy call; size zero.\n\nForecast: Quiet oversold drift near 99.6 into the weekend; most likely a small mean-reversion bounce toward the 100.3-100.8 VWAP band over the next few bars, or a shallow continued grind \u2014 neither offers clean R:R from here.\n\nExpectancy: Short is late: RSI 4h=20, -5% below VWAP, only ~3% to support 96.68 = R:R <1.5 and high bounce risk (p_win_learned 0.318). No long trigger yet. Best expectancy is standing aside.",
+    "portfolio": "HOLD \u2014 short is exhausted (RSI 20, -5% below VWAP); re-debate only on a 96.68 break."
+  },
+  "timestamp": "2026-07-19T12:14:01.448793+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "SOL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Coiling 74.5-75.4 just above 74.04 support into the 08:30 ET CPI print; expect a violent directional resolution ON the print, not before. Downside only opens up on a decisive 4h close below 74.04; otherwise a relief bounce back toward VWAP ~76.4 on any CPI cooperation.",
+  "expectancy_note": "Short p(win) ~0.45 here: trend is down but price is stretched (VWAP -2%, %B 0.09, RSI 35) and sitting ON support into a binary, a counter-bounce hits the stop before the trend resumes. No positive-expectancy entry until support breaks; HOLD beats chasing.",
+  "rationale": "SOL is in a strong 4h downtrend (ADX 62) which biases short, but every entry rule says NOT here: price is only 1.2% above support 74.04, already ~1.25xATR below VWAP with %B 0.094 and RSI 35 (short is chasing the low), and this is BTC-beta (corr 0.79) into an 08:30 ET CPI binary with an unconfirmed SOL-ETF approval as asymmetric squeeze risk. L/S 2.591 is short fuel but funding is flat so longs aren't crowded-paying. The account's #1 loss pattern is exactly this: late shorts into stretched tape stopped by the bounce. Wait for a clean support break to short with room.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 73.9,
+    "expires_min": 240,
+    "note": "Losing 74.04 support on a sustained basis confirms trend continuation and opens a short with real room to the next level; a decisive break turns the setup from chasing-the-low into a valid breakdown short."
+  },
+  "transcript": {
+    "macro": "Regime MIXED-to-HOSTILE. Crypto risk-OFF: BTC ~$62.5k -2%, total cap -1.5%, Fear&Greed 22 (Extreme Fear), dominance ~56-60% elevated (money hiding in BTC not alts) = headwind for SOL. SOL structurally cleanest SHORT of the four: structure_bias -0.287, L/S 2.591 heavily long-crowded (strongest contrarian-short signal), ADX 62 strong 4h downtrend, price $74.91 on support $74.04. btc_corr 0.789 = BTC-beta into a hostile crypto tape. But price on support and BTC oversold (4h RSI 33) = squeeze risk on CPI relief. Size for a bounce.",
+    "sentiment": "Risk-off macro; CPI 08:30 ET binary; Warsh 10:00 ET; bank earnings today. SOL NEUTRAL, headline risk skews bullish tail: crypto Fear (~36), BTC heavy (0.79 corr = follows majors), no unlock/hack. Live wildcard: SEC Solana-ETF decision could come as soon as July 2026 (staking-inclusive filings) = sharp upside gap / short-squeeze risk, but timing UNCONFIRMED. Longer-horizon low weight: Firedancer v1.0 testnet, Alpenglow Q3, Clearstream custody.",
+    "analyst": "Price $74.91 ~1.2% above support $74.04; 4h ADX 62 (strong downtrend) but %B 0.094, stoch 21, VWAP dist -2.02% (~1.25xATR below, stretched). L/S 2.591 short fuel but funding flat (longs not paying). btc_corr 0.789 = BTC-beta; BTC also oversold (4h RSI 33). Composite only -0.269, conf 40.2%, p_win 0.505 = weak edge. Recent 15m ran up 74.69 to 75.45 then chopped, faded to 74.91 = range not accelerating downside. Classic account-killer: short into stretched tape sitting ON support into a CPI binary with ETF squeeze risk. Wrong location to short; long is hostile. HOLD until support breaks.",
+    "portfolio": "HOLD SOL, zero size, conf 0.50 - downtrend biases short but price sits on 74.04 support, stretched, BTC-beta into CPI; re-debate on sustained break below 73.90."
+  },
+  "timestamp": "2026-07-14T08:04:13.537906+00:00"
+}

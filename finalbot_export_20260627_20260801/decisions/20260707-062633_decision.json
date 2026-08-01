@@ -1,0 +1,27 @@
+{
+  "action": "hold",
+  "symbol": "AAPL/USDT:USDT",
+  "size": 0.0,
+  "entry": 312.73,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "expectancy_note": "Long into resistance 0.85% away with %b 0.887/stoch 73.9 = R:R < 1 to the level; short against a +0.727 4h and RS leader = negative edge. Flat overnight tape + gap risk makes HOLD the highest-expectancy line.",
+  "rationale": "AAPL is a momentum-up equity perp pressed right into resistance 315.39 (last 312.73), overbought on the 4h that carries the composite (RSI 65.7, %b 0.887, stoch 73.9) with structure flat (funding 0.0, L/S 1.045, bias ~neutral) \u2014 no positioning fuel to force the breakout. Lower TFs already rolled (30m/5m short, 5m RSI 10.4), and US cash is closed ~7h out so the dominant risk is a two-sided open gap, not a clean intraday swing. Chasing long here offers sub-1 R:R to the wall and fading the RS leader (+7.23% vs BTC) into a mildly risk-on tape is a negative-edge trade, so size is zero.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 315.39,
+    "expires_min": 240,
+    "note": "A hold above the 315.39 resistance confirms the breakout and turns this into a trend-continuation long with a measured-move target; below it there is no edge."
+  },
+  "transcript": {
+    "macro": "Environment MIXED, leaning cautious for long tech. Scan stamped ~02:22 ET \u2014 US cash CLOSED (~7h to 09:30 open); overnight tokenized-equity perps thin/wide/gap-prone, dominant risk is a two-sided open gap. Mon Jul 6 close mildly risk-on (S&P +0.72%, Nasdaq +1.12%, Dow record) led by Big Tech + chip rebound (Foxconn AI-demand trade) but a bounce off a wobble. Rates a headwind: June FOMC hawkish hold 3.50-3.75%, May CPI +4.2% y/y, soft June payrolls (+57k) \u2014 stagflation-tinged, caps multiples. No FOMC/CPI in 48h (next FOMC Jul 28-29). AAPL earnings Jul 30 (out of horizon). Derivatives clean: funding 0.0, OI ~3,052, L/S 1.045, structure ~neutral; composite 'long' (+0.341, 4h +0.727, RSI 65.7) but aligned:false \u2014 stretched, unconfirmed at resistance, rel_strength +7.23% vs BTC. Chasing long = poor R:R.",
+    "sentiment": "AAPL lean NEUTRAL (mild long OK on momentum). Reclaimed $300 Jul 2 (+4.6%), relative-strength leader. Key catalyst Q3 earnings Jul 30 \u2014 OUTSIDE 24-48h window, should not anchor a fast trade. Memory-cost/margin story is multi-quarter. No fresh <=48h catalyst; technical/momentum trade pressing resistance ~$315 into overbought 4h RSI. Fed hawkish + tech rotation = headwind.",
+    "analyst": "AAPL last 312.73, resistance 315.39 (0.85% above), overbought on the 4h that carries the composite (RSI 65.7, %b 0.887, stoch 73.9) with flat structure/no positioning fuel; lower TFs already rolled (30m/5m short). Long into the wall is sub-1 R:R; fading the RS leader into a risk-on tape is negative edge; thin overnight tape has two-sided gap risk. HOLD, size 0. Flip level: a hold above 315.39 confirms breakout -> trend-continuation long toward ~322-325.",
+    "portfolio": "AAPL \u2014 HOLD (conf 0.60): overbought at resistance with no fuel, wait for a confirmed break/hold above 315.39."
+  },
+  "timestamp": "2026-07-07T06:26:33.698697+00:00"
+}

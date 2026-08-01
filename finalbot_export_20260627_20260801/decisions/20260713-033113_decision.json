@@ -1,0 +1,23 @@
+{
+  "symbol": "GOOGL/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.3,
+  "size": 0.0,
+  "entry": 355.52,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "rationale": "GOOGL is a tokenized equity (btc_corr 0.13) drifting lower on near-zero overnight volume (ATR 0.35%, bb_width 1.2%) and is pinned on support 351.78 with stoch 4.5 and price at the lower Bollinger band \u2014 shorting here chases into oversold with the book thin until the 13:30 UTC NYSE open. Structure is mildly bearish (crowded long_short 1.96, bias -0.39) but conviction is only 26% and the 15m/30m/1h all read flat, so this is drift not trend. With Q2 earnings 9 days out biasing constructive and rel_strength +3.8% (a leader sold gently, not broken), the edge to press a short is absent; I want confirmation before committing.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 351.6,
+    "expires_min": 240,
+    "note": "A decisive break of support 351.78 on real volume post-open turns the drift into a downtrend and validates the short toward the next level; until then oversold-at-support favors chop/bounce."
+  },
+  "transcript": {
+    "macro": "Regime MIXED-to-HOSTILE for risk-on longs. Tokenized equities (BTC corr ~0). Index firm but toppy; Fed HAWKISH (~61% odds Sept HIKE), inflation 3-yr high, oil spiking = gap risk. Overnight perps thin until 13:30 UTC. GOOGL ~355.5 quietly grinding lower; 4h/5m short but 15m/30m/1h FLAT (drift, not trend; bb_width 1.2%, ATR 0.35% very low vol). On support 351.8. RS +3.8% (leader sold gently, not broken). Small OI 4558, tiny +funding. L/S 1.96, orderbook -0.13, structure_bias -0.39. Q2 earnings July 22 after close (~9d out). Fundamentals strong -> tape weakness = broad de-risking, argues AGAINST pressing shorts. MIXED/mildly short, low conviction; short = mean-reversion scalp only.",
+    "sentiment": "GOOGL MIXED, leaning constructive into a binary. Scan flags short but weak (blended -0.192, conf 26%). Fundamentals strong (Q1 rev +22%, Cloud +63%). Analyst tone bullish (54 analysts, 44 Strong Buy, avg PT ~$433). DOMINANT CATALYST: Q2 earnings July 22 after close, hard binary ~9d out; 4 straight beats \u2014 do not hold a short into that print. July 2 EU \u20ac4.1B Android fine upheld but known/provisioned/priced. No clean fresh 24-48h shock; near-term news broadly constructive/neutral, does NOT reinforce short. Treat as quick technical scalp only, flat well before July 22.",
+    "analyst": "Oversold drift on dead overnight volume, sitting on support, thin book, low conviction (26%). ATR only 0.35% (~$1.24); support 351.78 is ~3 ATR away \u2014 a big move for a tape moving $1/hr on dead volume. Stoch 4.5 / bb_pctb -0.03 = pinned at lower band, so realistic next move is bounce/chop before any slide; a short here chases oversold at the bottom of a tight range with support just below and the book unreliable until 13:30 UTC. No long trigger either. HOLD; reconsider on a decisive break of 351.78 post-open.",
+    "portfolio": "GOOGL/USDT:USDT \u2014 HOLD (conf 0.30): low-conviction oversold drift at support, thin overnight tape, earnings binary July 22. Reconsider short on break of 351.6."
+  },
+  "timestamp": "2026-07-13T03:31:13.485023+00:00"
+}

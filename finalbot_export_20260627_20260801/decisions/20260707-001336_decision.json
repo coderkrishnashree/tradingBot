@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "MSFT/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 391.0,
+    "expires_min": 240,
+    "note": "Bounce to VWAP/mid-band ~391 gives low-risk short with stop above 394.19, target 375/368 (~1.8 R:R)."
+  },
+  "rationale": "MSFT is in a real downtrend with bearish structure (crowded long/short 1.92, negligible funding, own-name not BTC-beta at corr 0.29), so the directional edge is short. But at 386.59 the tape is oversold (RSI 32) and glued to the lower Bollinger band (%b 0.03), only 0.48% under VWAP; a short here needs a stop above 394.19 resistance (~3.5 ATR) against a first target near 380 support = sub-1 reward:risk and squeeze-prone. The high-expectancy version fades a mean-reversion bounce back toward ~391 where a tight stop over 394 yields ~1.8 R:R into 375 then 368. No 48h catalyst (earnings ~3 weeks out) forces action. HOLD, short trigger armed on a bounce to 391.",
+  "transcript": {
+    "macro": "Regime 2026-07-07: MIXED, tilting cautious-risk-off for tech. US equities near record highs but semis sliding; Warsh-led Fed hawkish (market pricing possible year-end HIKE) = headwind for high-multiple tech. Next FOMC Jul 28-29 (outside 48h). Venue-wide long/short heavily long-skewed (contrarian-bearish). MSFT: dir SHORT (conf 54.9%), structure_bias -0.295, long/short 1.92 = crowded long (dominant bearish signal), funding negligible, own-name (btc_corr 0.29). RSI 32 oversold, pinned to lower BB, support 367.68 / resistance 394.19, downtrend ADX 36. SUPPORTIVE for a tactical short with tight management but bounce risk into 394; best positioning tailwind of the four.",
+    "sentiment": "MSFT 2026-07-07: NEUTRAL leaning cautious. No earnings in 48h (Q4 FY2026 ~Jul 28-29, ~3 weeks out, caps upside conviction). Last print beat (Azure +31%), narrative intact but priced. No fresh shock; constructive-but-stretched. No headline contradicts a technical short, but nothing catalyzes one either.",
+    "analyst": "MSFT screens short on trend (ADX 36, all TFs aligned) and structure (long/short 1.92 crowded long, bias -0.295, not BTC-beta). Problem is location: at 386.59 price is oversold (RSI 32), pinned to lower BB (%b 0.03), only 0.48% under VWAP. Shorting here is selling the hole into an unwind that can squeeze toward 394 resistance. A valid short needs its stop above 394.19 = ~3.5 ATR of risk vs a first target near 380 = R:R < 1. HOLD and arm a short trigger on a mean-reversion bounce to ~391, where the same bearish thesis executes with stop over 394 and targets 375 then 368 for ~1.8 R:R (smaller-than-normal size given squeeze risk). No 48h catalyst demands action.",
+    "portfolio": "HOLD MSFT/USDT:USDT \u2014 correct short bias but oversold at band bottom; wait for a bounce to ~391 to short with better R:R."
+  },
+  "timestamp": "2026-07-07T00:13:36.436599+00:00"
+}

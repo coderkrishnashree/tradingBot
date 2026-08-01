@@ -1,0 +1,24 @@
+{
+  "symbol": "QQQ/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.5,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "rationale": "QQQ is a stretched, low-ATR (0.35%) uptrend that just got its 706.40 spike fully rejected, sitting mid-range at 702 into a hostile macro tape (RSI 72, upper band, hawkish Fed, semis drawdown) and an earnings-week binary (TSLA/GOOGL Wed, INTC Thu). Chasing the ADX-69 long here at the upper band is the account's #1 loss pattern, and fading a 69-ADX trend is equally negative-EV given shorts have been losing (0.49 win). No pullback-to-VWAP long and no confirmed reversal yet, so there is no honest R:R >= 1.5 setup \u2014 HOLD is the highest-expectancy choice.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 700.0,
+    "expires_min": 240,
+    "note": "Losing the 700 round number / VWAP zone after the failed 706 push confirms the rejection is turning into a real fade, opening the path toward 688 support."
+  },
+  "transcript": {
+    "macro": "Regime mixed-to-hostile for chasing longs; semis in active July drawdown. Hawkish Fed (Warsh), ~53% odds Sept hike; Middle East war lifting oil/inflation; USD a headwind. LSRs crowded-long (structure_bias negative) \u2014 favor mean-reversion/shorts; smaller size, tight stops.",
+    "sentiment": "Heavy earnings week. QQQ neutral-to-cautious \u2014 no index binary but it IS the earnings-week aggregate: Nasdaq 100 down >5% from highs on AI-capex jitters; Tesla + Alphabet (Wed Jul 22) and Intel (Thu Jul 23) prints will drive it. RSI ~72 extended.",
+    "analyst": "Stretched low-ATR uptrend (RSI 72, %B 0.996 at upper band, ADX 69) that just rejected the 706.40 spike; mid-range at 702. Long chases the account's #1 loss pattern; fading ADX-69 is negative-EV (learner shorts 0.49/-0.77). No pullback long, no confirmed reversal, ATR 0.35% kills R:R. HOLD.",
+    "portfolio": "HOLD QQQ \u2014 extended into earnings week; short only on loss of 700."
+  },
+  "timestamp": "2026-07-20T14:14:39.520285+00:00"
+}

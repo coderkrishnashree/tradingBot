@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "ORCL/USDT:USDT",
+  "size": 0.0,
+  "entry": 118.75,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price coils 118.3-118.9 after the volume pop; a clean push through 118.9 opens continuation to ~119.5; a fade back under 118.0 rolls it to retest 117.4. No edge until one side resolves.",
+  "expectancy_note": "Long here = chasing RSI 73.7 / stoch 81 / VWAP +1.14% after the pop, into crowd 2.16-long + FOMC (negative expectancy). Short has no trigger vs ADX 83.7 uptrend. Best EV is wait.",
+  "rationale": "Scan reads long (composite 0.489, p_win 0.617) but this collides with the fundamentals: worst relative strength in the set (-17.6%), YTD lows, crowded 2.16 longs (structure_bias -0.332), and negative 4h MACD - a lower-TF bounce inside a broken daily, already extended after a volume pop, right before FOMC Wed. That is a chase, not a setup; a routine pullback would hit any honest long stop first. No confirmed short trigger, so HOLD; size 0.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 118.9,
+    "expires_min": 240,
+    "note": "A clean break/hold above the 118.87 coil-high on volume proves the pop is extending -> a small trend-continuation long."
+  },
+  "transcript": {
+    "macro": "MIXED regime, risk-cautious into a heavy-event week. FOMC Wed Jul 29 + MSFT/META earnings Wed after-close. Crowded longs + RSI extremes broadly -> longs SMALL, tight stops, prefer pullbacks over breakout-chasing. US equity markets open this week.",
+    "sentiment": "ORCL negative overhang: at YTD low (~$118-120), down ~40% since Jun 10 earnings on capex/debt/customer-concentration/FCF worries. No <=48h catalyst (next earnings far off). Weak-hands tape; fundamental lean negative despite the scan's long read.",
+    "analyst": "Scan-long vs fundamental-negative tension. Worst RS in set (-17.6%), YTD lows, crowd 2.16 long, 4h MACD negative - a lower-TF bounce in a broken daily, extended after a volume pop into FOMC. Long is a chase; short has no trigger vs ADX 83.7. HOLD; only a clean break >118.9 earns a small long.",
+    "portfolio": "HOLD ORCL (conf 0.60) - fundamentally weak; only a >118.9 breakout justifies a small long."
+  },
+  "timestamp": "2026-07-27T10:37:46.344423+00:00"
+}

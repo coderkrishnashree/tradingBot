@@ -1,0 +1,27 @@
+{
+  "action": "hold",
+  "symbol": "EWY/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "expectancy_note": "Trend+macro favor short (p~0.55) but a positive-skewed binary (Samsung record-guidance July 7) sits inside the 48h window, and 5m RSI 23 at lower BB is short-term extended \u2014 R:R distorted by event gap risk; HOLD until the print resolves.",
+  "rationale": "The technicals are a clean short (blended -0.311, ADX 37.7 aligned down, retail net-long 1.428 as fuel, orderbook -0.187, rel-strength -7.44%), but I refuse to short a stretched name into a fresh +5.8% reflex bounce and a known record-earnings catalyst tomorrow that skews surprise risk to the upside. Price is already at the lower band (%B -0.017, 5m RSI 23) so the immediate downside is spent and overnight perp liquidity is thin \u2014 a snapback can run stops. Waiting for the July-7 print removes the binary and lets me short the resumption or fade a failed pop with a real edge.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 183.0,
+    "expires_min": 240,
+    "note": "Losing 183 (below the current 5m/15m consolidation shelf, VWAP well overhead) proves the reflex bounce failed and the downtrend toward 174.61 support is resuming \u2014 the clean short-entry trigger post-event."
+  },
+  "transcript": {
+    "macro": "Overall: two-sided late-cycle tape, near-term rotation OUT of AI/semis. Fed chair Warsh held rates, flagged rising hike odds; inflation 3-yr high (hawkish, toxic for high-multiple tech). Soft June payrolls (57k) trimmed hike bets; Dow at record highs, Nasdaq lags. PHLX Semi -6.3% then -5.4%. Environment favors shorts in AI-hardware bucket, not fresh broad longs. EWY: scan lean SHORT (blended -0.311, aligned, RSI 43.9, ADX 37.7); short TFs decisively down. L/S 1.428 (retail net-long = downside fuel), orderbook -0.187, funding ~0. EWY ~half Samsung+SK Hynix = leveraged HBM/memory bet, exactly what market is dumping; correlates with semis. Risks: most stretched YTD (+87%), conditioned dip-buyers, violent snapbacks, thin overnight perp. Verdict: MIXED-to-SUPPORTIVE for short; smaller size; respect support ~174.6.",
+    "sentiment": "EWY: violently two-sided, event-driven. KOSPI roller-coaster \u2014 Samsung/SK Hynix -9%/-14.6% July 2 on AI/chip selloff, then +5.8% index snapback July 3. HARD <=48h CATALYST: Samsung prelim Q2 guidance July 7 (tomorrow), op profit expected ~17-18x YoY to record ~86T KRW on HBM/AI boom \u2014 binary inside window skewing surprise risk UP. SK Hynix ADR (SKHY) listing adds vol. Read vs scan SHORT: CAUTION/borderline against \u2014 shorting into fresh reflex bounce AND record-earnings print; wait for July-7 print or keep size tight/quick.",
+    "analyst": "EWY 188.03. Technicals support the short but the decisive factor is the binary event tomorrow: EWY ~half Samsung+SK Hynix, record op-profit guidance expected, consensus primed for a blowout \u2014 a coin-flip inside my holding window while I'd be shorting a fresh +5.8% reflex bounce in the most stretched YTD name (+87%). 5m RSI 23 at lower band means immediate downside is spent; snapback can run thin overnight perp liquidity. Best expectancy is to WAIT for the July-7 print; short the resumption on a loss of ~183 toward 174.61, or the thesis dies if it reclaims 195+.",
+    "portfolio": "EWY/USDT:USDT \u2014 HOLD (conf 0.60): right short thesis, wrong timing; wait for Samsung July-7 binary to resolve, re-arm short below 183."
+  },
+  "timestamp": "2026-07-06T23:41:34.520532+00:00"
+}

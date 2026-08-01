@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "XAG/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Silver stalls in a 59.2-59.5 coil just under the 59.6-59.86 shelf; likely two-way chop pinned near 59.4 into FOMC Wed, no decisive break until the event.",
+  "expectancy_note": "No entry clears R:R>=1.5 from mid-range: long is crowded (L/S 3.62) and stretched (RSI 74) into a binary FOMC; short is the account's proven loss pattern (0.45 win) fading a 76-ADX uptrend with no confirmation.",
+  "rationale": "XAG is mid-range (55.64/61.0) with higher-TF trend up (4h 0.72, ADX 76) but short-TF momentum rolled flat-to-down (15m -0.05, 5m -0.14) after a rejected pop to 59.86 \u2014 a coil, not a signal. It is the most crowded long in the book with RSI stretched into a binary FOMC inside the hold window, so a fresh long chases into event risk; a short fades a strong uptrend on the account's losing side with no exhaustion trigger. Wait for the event or a level break.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 59.86,
+    "expires_min": 240,
+    "note": "Reclaiming the rejected swing high shows buyers pressing toward 61.0 despite crowding \u2014 flips to a momentum long."
+  },
+  "transcript": {
+    "macro": "Regime: MIXED-to-HOSTILE for fresh longs. FOMC Wed Jul 29 + Mag-7 earnings inside the hold window; hawkish Warsh Fed, hike tail ~34-38%; DXY 13-mo high, 10y ~4.5%. Metals fight a 13-mo-high dollar. XAG: conf 43.1 NOT aligned; same metals headwind as gold (0.87 corr to XAUT), RSI 74, L/S 3.62 (most crowded long in book); higher-beta gold proxy. Reduce size.",
+    "sentiment": "Cautiously RISK-ON but event-heavy; FOMC Wed the biggest <=48h catalyst. XAG: trades tightly with gold (0.87 corr). Same driver = FOMC Wed. Gold/silver ratio ~66.9. Modestly BULLISH-to-neutral into the Fed; higher-beta than gold \u2014 expect amplified two-way moves around 2pm ET Wed.",
+    "analyst": "XAG 59.38, RSI 74.1, ADX 76 (higher-TF up: 4h 0.72, 1h 0.58) but 15m -0.05 / 5m -0.14 rolled flat-to-down. Popped 59.86 then lower highs to 59.18, coiling 59.28-59.49. L/S 3.62 most crowded long, rel-str -4.24. Support 55.64 / resistance 61.0. Long chases crowded+stretched into FOMC; short is the late-fade loss pattern fighting a 76-ADX uptrend with no confirmation. HOLD; long trigger on a 59.86 reclaim.",
+    "portfolio": "HOLD XAG \u2014 most crowded long in book, coiling under 59.86 into FOMC; act only on a 59.86 reclaim."
+  },
+  "timestamp": "2026-07-27T10:09:08.424292+00:00"
+}

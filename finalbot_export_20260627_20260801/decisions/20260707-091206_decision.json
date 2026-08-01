@@ -1,0 +1,27 @@
+{
+  "action": "hold",
+  "symbol": "QQQ/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "expectancy_note": "Fresh short here is chasing: %B 0.03, 1h RSI 24, stoch 21 into support 705.8 only ~1.5 ATR away \u2014 squeeze risk high, R:R poor. Long has no reclaim yet. Waiting has higher expectancy than either extreme.",
+  "rationale": "QQQ is very oversold near-term (%B 0.03, 1h RSI 24) sitting just above support 705.83 in a low-VIX bull uptrend, so selling into the hole risks the squeeze the tension flags; entry-to-target is only ~11pts. A long lacks confirmation with orderbook -0.51 still showing sell pressure and a live 2-day selloff. No trade at 716.8 \u2014 I want either a support break for a clean momentum short with room to ~700, or a reclaim to confirm the bounce, before committing size.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 705.83,
+    "expires_min": 240,
+    "note": "Losing support 705.83 confirms the breakdown out of the oversold coil and opens a clean short toward 698/690 with real room below \u2014 flips me from wait to sell the break/retest."
+  },
+  "transcript": {
+    "macro": "2026-07-07: RISK-ON but late-stage/consolidating. VIX ~16.5, low-vol bull. Nasdaq off April lows, tagged ~750 highs, now corrective consolidation \u2014 'digest the rally,' not regime break. Extreme concentration: QQQ short and NVDA short are effectively the same trade (corr 0.82); keep aggregate size modest. CPI July 14 (holds carried to end-of-week run into it), FOMC July 28-29 (ignore). QQQ: composite short -0.37, RSI 24 (1h) very oversold near support 705.8, funding benign, L/S 1.10 balanced, orderbook -0.51 near-term sell pressure. Controlled pullback in an uptrend. SpaceX added to Nasdaq-100 today \u2014 rebalance flow risk.",
+    "sentiment": "Active catalyst = ongoing AI/semi profit-taking selloff (Nasdaq -2.2% then -1.3%, chips ran +80% H1). AI-trade tone turned 'a little sour' but Jul 7 saw intraday chip bounce. QQQ down ~1.6% on week; NVDA + semis dragging, offset by AAPL/MSFT/META strength (Meta +9%). >50% tech concentration hits QQQ directly; MACD turned negative early June. Near-term tone bearish/heavy but breadth mixed \u2014 rotation, not broad collapse.",
+    "analyst": "Scan bias short and 30m/1h/4h trend down, but this is a very oversold near-term reading (1h RSI 24, %B 0.03 at lower band, stoch 21) into support 705.8 in a low-VIX bull. Shorting at 716.8 sells into the hole with only ~11 pts to support \u2014 TP only ~1.5 ATR away while squeeze risk is elevated (15m RSI already recovering to 53). %B<0.05 in trade direction is a no-trade flag. A long is premature: no reclaim, orderbook -0.51 shows sell pressure. Best expectancy = HOLD with armed trigger: short the break/retest of 705.83 (room to 698/690), or wait for a reclaim to confirm the bounce.",
+    "portfolio": "QQQ: HOLD (conf 0.60) \u2014 oversold into support, no clean edge; armed short trigger below 705.83."
+  },
+  "timestamp": "2026-07-07T09:12:06.665397+00:00"
+}

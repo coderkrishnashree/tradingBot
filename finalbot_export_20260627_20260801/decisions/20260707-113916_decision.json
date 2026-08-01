@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "AAPL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Low-volume coil pinned under 315.39 resistance; expect continued sideways grind 313.5-315.4 over the next few bars. A clean 15m close above 315.4 opens continuation toward ~317-318; loss of 313.5 opens a pullback to VWAP ~311.",
+  "expectancy_note": "Long into RSI 70 / %B 0.99 / stoch 92 with negative orderbook (-0.29) gives ~0.8R to resistance = R:R fails; fresh short vs ADX-57 record-high uptrend on a rel-strength leader into a supportive tape is low-probability. HOLD is highest expectancy.",
+  "rationale": "AAPL is drifting sideways on drying volume directly beneath 315.39 resistance - overbought (RSI 70), top of Bollinger (%B 0.99), extended +1.14% over VWAP, with sellers stacked on the book (imbalance -0.29). Chasing the long here is negative R:R and shorting a strong ADX-57 uptrend on a leading equity into a supportive macro/news tape has no reversal confirmation. Learner stats also show longs and trend-playbook trades bleeding recently, so I wait for a confirmed break rather than pay up at the ceiling.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 315.4,
+    "expires_min": 240,
+    "note": "A decisive 15m close above 315.39 proves buyers absorbed the offer stack and confirms the breakout, turning this from a chase into a valid trend-continuation long toward the measured move."
+  },
+  "transcript": {
+    "macro": "Regime risk-on but hawkish Fed + thin off-session risk; net mixed-to-supportive for longs, hostile to fresh shorts on US names. US closed strong 7/6 (records); AI-trade optimism back. Fed held 3.50-3.75%, hawkish; no cut priced. Next catalysts July CPI + July 28-29 FOMC (outside 48h). Funding ~0. AAPL overbought/extended into resistance ~315 (RSI 70, %b 0.99), orderbook imbalance negative (-0.29). Low BTC correlation - trade as equity. Prefer reduced size / pullback entries over breakout chases.",
+    "sentiment": "US open, constructive; no earnings inside 48h. AAPL mildly positive: fresh catalyst Broadcom chip-supply deal extended through 2031 (7/6) - supportive; offset by surging memory costs (~+270% iPhone 18 Pro) pushing toward Chinese suppliers CXMT/YMTC. Q3 earnings July 30 (outside 48h). Pinned at ~315 resistance, stretched into the level.",
+    "analyst": "15m tape is a flat low-volume coil directly beneath 315.39 resistance; volume drying hard (4-10 vs earlier 20-44). No breakout thrust, no rejection wick - grinding sideways at the ceiling. Long = chasing into resistance at RSI 70/%B 0.99/stoch 92 with negative orderbook (~0.8R). Short = fighting an ADX-57 record-high uptrend on a rel-strength leader (+9.2%) into a supportive tape, no reversal confirmation. HOLD; reconsider on a decisive 15m close above 315.4.",
+    "portfolio": "AAPL HOLD (conf 0.60) - coil at resistance on drying volume; wait for a confirmed break above 315.4."
+  },
+  "timestamp": "2026-07-07T11:39:16.447803+00:00"
+}

@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "TSM/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Frozen weekend/illiquid equity tape pinned at 409.9 on VWAP; expect drift/chop 405-412 with no directional resolution until US cash reopens.",
+  "expectancy_note": "No edge: p(win) ~0.5, price mid-range on VWAP with no extreme to fade and no squeeze/trigger to break; any entry here is negative-expectancy vs waiting for a range break.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 426.72,
+    "expires_min": 240,
+    "note": "Break/reclaim above range resistance 426.72 on real volume confirms a momentum long; loss of 397.8 support opens a short."
+  },
+  "rationale": "TSM is a tokenized equity on a dead weekend tape \u2014 last ~20 15m bars near-zero volume, price pinned at 409.92 exactly on VWAP, mid-range between support 397.8 and resistance 426.72. ADX 23.9 with a soft/negative 4h (RSI 35, MACD -1.18) means no trend to ride, and %B 0.545 offers no extreme to mean-revert. RS -10.3 laggard plus hawkish-FOMC USD headwind gives no reason to chase a high-beta long; crowded-long L/S 2.25 is squeeze fuel against late longs. No honest R:R >= 1.5, so HOLD is highest expectancy.",
+  "transcript": {
+    "macro": "Mixed/late-cycle risk-on, fragile. FOMC next week hawkish (firm USD, headwind for high-beta longs). AI sentiment revived after TSM record profit + capex guide; SOX still ~20% below June peak (choppy). TSM lagging (RS -10.3), L/S very crowded-long at 2.25 = squeeze risk. Funding ~0.",
+    "sentiment": "TSM mildly bullish, no fresh catalyst. Q2 already reported Jul 16; guidance strong (>30% FY26 rev growth, June rev +68% YoY, AI/CoWoS demand). Post-earnings drift, no <=48h binary. Neutral-to-supportive.",
+    "analyst": "Zero-volume weekend equity tape, price pinned on VWAP mid-range, no squeeze, no extreme, mixed TF alignment (soft 4h), laggard RS, hawkish-FOMC drift risk. Textbook NO TRADE; flip level is a real range break of 426.72 (long) or 397.8 (short).",
+    "portfolio": "HOLD TSM \u2014 dead illiquid tape pinned on VWAP; wait for a range break."
+  },
+  "timestamp": "2026-07-26T16:37:48.822987+00:00"
+}

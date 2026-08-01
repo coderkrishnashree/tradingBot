@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "AAPL/USDT:USDT",
+  "confidence": 0.55,
+  "size": 0.0,
+  "entry": 314.93,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "none",
+  "forecast": "Price just tapped 315.58 and got rejected on fading volume (102 to 8), stalling at 314.93; expect chop/drift in the 313.8-315.6 band over the next 2-4 bars, resolving only on a decisive break of 315.6 (join trend) or a slip under 313.8 toward VWAP.",
+  "expectancy_note": "Long here is chasing into a fresh rejection at 315.58 with RSI 69.5/stoch 94/%B 0.95 (poor R:R into a wall); fading the strongest RS name in a live uptrend is low-p. HOLD until the breakout confirms \u2014 better expectancy than either forced entry.",
+  "rationale": "AAPL is the strongest name (RS +7.63%), aligned long with ADX 57, but it is pressing hard resistance 315.58 and just got rejected there on drying volume while overbought (RSI 69.5, stoch 93.7, %B 0.95). No clean pullback level is nearby (VWAP +1.16%, support 279.96 far), so there's no acceptable-R:R long yet and no basis to fade a live uptrend. Best expectancy is to wait: a clean reclaim/hold above 315.6 arms the momentum long into open space; a fade back under 313.8 signals the exhaustion pullback to buy lower.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 315.7,
+    "expires_min": 240,
+    "note": "A decisive 15m close above 315.7 breaks the rejection ceiling and confirms the momentum continuation into open space above prior resistance \u2014 the trigger to go long."
+  },
+  "transcript": {
+    "macro": "Regime RISK-ON but HAWKISH undertow (10Y ~4.5%, CPI 4.2%, DXY high); FOMC minutes Wed July 8. Scan 12:49 UTC = US cash closed, thin/gappy. AAPL macro: LONG mildly supported, stretched into resistance \u2014 RS +7.63% (strongest), clean multi-TF uptrend, RSI 69.5/stoch 94, pressing resistance 315.58 (last 314.9). Catalyst: +5% on expanded iPhone lineup, ~4% from overtaking NVDA as most valuable co. L/S 1.005 balanced. Favor pullback entries, size down; breakout 315.6 is trigger.",
+    "sentiment": "AAPL leans mildly BULLISH, no imminent catalyst. Broadcom chip-supply deal extended through 2031 (July 6), AAPL +1% \u2014 long-horizon story not a 48h mover. Extended at resistance (RSI ~69, stoch 94). Earnings ~July 30 (est.) outside window, options imply ~\u00b15.4%. Watch overbought exhaustion more than headlines.",
+    "analyst": "Strongest RS name, aligned long (ADX 57), but pressing hard resistance 315.58 and just rejected there on drying volume while overbought (RSI 69.5, stoch 93.7, %B 0.95). No clean nearby pullback level and no basis to fade a live uptrend. Wait: reclaim >315.6 arms momentum long; fade <313.8 signals pullback to buy lower. HOLD.",
+    "portfolio": "AAPL: HOLD (0.55) \u2014 overbought at resistance after a rejection; wait for breakout >315.7 or a pullback under 313.8."
+  },
+  "timestamp": "2026-07-07T12:55:17.815809+00:00"
+}

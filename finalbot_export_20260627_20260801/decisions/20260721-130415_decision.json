@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "HOOD/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.34,
+  "playbook": "none",
+  "forecast": "Price just ripped ~1% off 101.6 to 102.85 in two bars and the last bar faded off its high; most likely it digests/pulls back toward the 101.6-101.9 breakout shelf before deciding, rather than extending cleanly from this stretched (+1.96% VWAP, %B>1.0, stoch 94, 1h RSI 87.5) spot.",
+  "expectancy_note": "A market long here is a late chase into a crowded 1.67 L/S book at band-extreme; ~p(win) 0.4, an honest 1x-ATR stop gets tagged by the routine post-spike fade before continuation - negative expectancy. Wait for a retest or a confirmed reclaim.",
+  "rationale": "HOOD is the book's lowest-conviction long (composite +0.16) and its weakest horse (RS -16.4%), and price is extended right at the top of a two-bar spike with %B>1.0, stoch 94 and 1h RSI 87.5 - no honest R:R exists buying here. Orderbook (+0.47) and the uptrend keep the bias long, so I want the pullback-into-shelf or a clean hold above the spike high, not this print. No <48h catalyst (earnings Jul 29) forces action.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 102.85,
+    "expires_min": 240,
+    "note": "Reclaiming and holding above the spike high proves buyers absorbed the post-spike fade and continuation toward 104+ is live - re-debate a long entry there."
+  },
+  "transcript": {
+    "macro": "Regime MIXED. HOOD is a high-beta risk proxy (BTC corr 0.47, COIN corr 0.71). BTC ~$66.5k weak regime; equities thin/defensive into earnings. HOOD lean: neutral-to-mild-long - composite +0.16 (lowest conviction in book), uptrend but 1h RSI 87.5 extended, L/S 1.67 crowded (bias -0.06), RS -16.4%. Orderbook supportive (+0.47), thin 15m volume. Small long or pass.",
+    "sentiment": "HOOD Q2 2026 earnings Wednesday Jul 29 after close (~$0.40 EPS, $1.23B rev expected) - outside 24-48h but close; prediction-markets growth is a tailwind narrative. No <=48h binary; trades as a high-beta crypto/risk proxy. Sentiment neutral-to-slightly-constructive for the long lean, but print risk builds late in the cycle.",
+    "analyst": "Lowest-conviction long and weakest horse (RS -16.4%), extended at the top of a two-bar spike (%B>1.0, stoch 94, 1h RSI 87.5) - no honest R:R buying here. Bias stays long on the orderbook/uptrend, but I want a pullback-into-shelf or a hold above 102.85, not this print. HOLD.",
+    "portfolio": "HOOD - HOLD (size 0): stretched low-conviction long; re-engage on a hold above 102.85 or a shelf retest."
+  },
+  "timestamp": "2026-07-21T13:04:15.471514+00:00"
+}

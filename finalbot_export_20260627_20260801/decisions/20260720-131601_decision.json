@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "SOL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.58,
+  "playbook": "none",
+  "forecast": "Post-spike fade: after tagging 77.22 on a volume burst, five lower closes on drying volume point to a drift back toward VWAP/75.8; expect chop 76.1-76.9 near-term, and only a break of 75.85 opens the door to 74-73.3.",
+  "expectancy_note": "No clean R:R at spot - long is a stretched, crowded (L/S 2.70) BTC-beta bet into risk-off (chase = #1 loss pattern); short lacks confirmation with support 4.4% away. p(win) of either market entry <0.5. HOLD until 75.85 breaks (short trigger) or 77.22 reclaims (long).",
+  "rationale": "SOL is pure BTC-beta (corr 0.81, RS -5.9%) and BTC is heavy in a risk-off regime, so the composite 'long' is really a leveraged BTC-up bet with structure_bias -0.34 and crowded longs against it. The 15m tape just spiked to 77.22 on 245k volume then printed five consecutive lower closes on fading volume - a classic exhaustion fade, but price sits mid-air (+1.42% over VWAP) with support 73.3 too far for a clean short and resistance 79.01 too far for a long. Neither direction offers 1.5R from here, so the highest-expectancy action is to wait for the level to pick a side. Size 0.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 75.85,
+    "expires_min": 240,
+    "note": "Losing 75.85 (pre-spike consolidation low / last swing low) confirms the post-spike fade is extending toward VWAP and 74-73.3, arming a short."
+  },
+  "transcript": {
+    "macro": "Cycle 2026-07-20 (scan 13:08 UTC). Regime RISK-OFF leaning; session is PRE-US-OPEN so tokenized-equity perps (EWY/HOOD/COIN/TSLA/NVDA/QQQ/CRCL/SNDK/GOOGL) are thin/gappy and re-rate ~13:30 UTC (gap risk). Equity tape soft, semiconductor-led sell-off on AI-capex worries (TSMC capex guide up); rates offer no tailwind (~60% odds higher by Oct); FOMC July 28-29 is OUTSIDE the 48h window. Crypto heavy: BTC ~$62-64k after failing low-$70k, record June ETF outflows (-$4.5B), dominance ~56-60% so alts bleed vs BTC (caps SOL, corr 0.81). Precious metals the one independent bid (silver ~$56.9 +1.5%). DOMINANT POSITIONING THEME = CROWDED LONGS: negative structure_bias almost everywhere, lopsided long/short ratios (XAG 3.99, SOL 2.70, CRCL 2.17), and the WHOLE basket lags BTC (all relative_strength negative, -1% to -48%). Argues for smaller size on high-beta longs and elevated long-squeeze risk. COIN is the least-crowded (L/S 0.80, net-short crowd); QQQ the only positive structure_bias (+0.15, orderbook bid, but likely pre-open thinness).",
+    "sentiment": "Hot earnings week. Soft June CPI (July 14, coolest since Apr 2020) broadly risk-supportive; FOMC July 28-29 is outside the 48h window. IMMINENT <=48h BINARIES: TSLA Q2 earnings Wed July 22 after close (~7-8% implied swing; Q2 deliveries ~480K record already spent, call is about margins/guidance) and GOOGL/Alphabet Wed July 22 4:30pm ET (consensus ~$2.86 EPS/$116.5B rev, focus AI capex $175B + Cloud) - both spill into QQQ. EWY = LIVE BEARISH MACRO SHOCK: Bank of Korea surprise +25bp hike to 2.75% (July 16, first in 3.5yrs) + KOSPI crash (-6.4% July 16, -4.5% today) on AI/chip rout (Samsung -4.7%, SK Hynix -4.5%). HOOD (Jul 29), COIN (Jul 30), SNDK (Aug 5), CRCL (~Aug 10) earnings all OUTSIDE this cycle. NVDA bullish headline flow (US resumed H20/H200 China licenses, ~$200B CPU/Vera TAM) but no 48h binary; reports late Aug. SOL constructive medium-term (5 spot ETFs live >$1.12B inflows, Firedancer v1.0 testnet) but crypto-beta with no dated catalyst. XAG structural supply deficit (6th straight annual), two-sided, macro-flow-dependent. CRCL got a Mizuho DOWNGRADE to Underperform, PT cut to $50 from $85 (July 17), competitive overhang from Visa/Stripe.",
+    "analyst": "SOL is pure BTC-beta (corr 0.81, RS -5.9%) and BTC is heavy in a risk-off regime, so the composite 'long' is really a leveraged BTC-up bet with structure_bias -0.34 and crowded longs against it. The 15m tape just spiked to 77.22 on 245k volume then printed five consecutive lower closes on fading volume - a classic exhaustion fade, but price sits mid-air (+1.42% over VWAP) with support 73.3 too far for a clean short and resistance 79.01 too far for a long. Neither direction offers 1.5R from here, so the highest-expectancy action is to wait for the level to pick a side. Size 0.",
+    "portfolio": "HOLD - stretched crowded BTC-beta long into risk-off after a post-spike fade; no clean R:R. Short trigger <75.85."
+  },
+  "timestamp": "2026-07-20T13:16:01.737461+00:00"
+}

@@ -1,0 +1,25 @@
+{
+  "symbol": "COIN/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.55,
+  "size": 0.0,
+  "entry": 163.93,
+  "stop_loss": 167.6,
+  "take_profit": 158.0,
+  "playbook": "none",
+  "forecast": "Price coiling 163.3-164.5 after rolling off 167.5; expect a bounce toward 166-167 VWAP (short-the-rip setup) or loss of 163.3 on volume flushing toward 160/158. Next 2-4 bars likely chop before resolving.",
+  "rationale": "COIN is in a strong aligned downtrend (ADX 47, blended -0.34) but price is pinned to the lower band at extreme short-TF oversold (15m RSI 25.3, %B 0.04) and has stalled 8 bars at 163.3-164.5 with volume drying up. Chasing a short at the lows into that condition, with BTC squeezing higher off $450M short liquidations (corr 0.739, the stated tail risk), is negative expectancy. Better entries are a bounce to VWAP ~166.5 or a volume break of 163.3; neither present now.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 163.3,
+    "expires_min": 240,
+    "note": "Losing 163.3 on volume confirms downtrend resumption, opens a short toward 160/158 with stop above 165."
+  },
+  "transcript": {
+    "macro": "Regime risk-OFF; oil +5% headwind; choppy/reversing tape. Crypto Fear&Greed 23 (Extreme Fear), BTC ~$63-64k +6% wk off sub-$60k lows, bounce liquidation-driven ($450M shorts), BTC.D ~55%. COIN trades as BTC proxy (corr 0.739), multi-TF down (RSI 32.8), RS -1.07%, structure_bias -0.081. Short supported by tape + risk-off but BTC snapback is the tail; smaller size.",
+    "sentiment": "COIN neutral-to-bearish near-term. Earnings NOT this week (late July/Aug). Regulatory backdrop stable. Only real <=48h driver is crypto beta: BTC recovering off short liquidations w/ positive ETF inflows, but sentiment still Extreme Fear and COIN's own tape weak (RSI ~33). No listing/hack/unlock catalyst. Tilts BEARISH if BTC recovery stalls - mildly FOR a short but with crypto-bounce risk.",
+    "analyst": "Trend down/aligned (ADX 47, blended -0.34) but price pinned to lower band at extreme short-TF oversold (15m RSI 25.3, %B 0.04), basing 8 bars at 163.3-164.5 with volume drying up. Shorting at the lows into 15m RSI 25 with BTC squeezing higher off $450M short liquidations (corr 0.739) = poor R:R / negative expectancy. Wait for a rip to ~166.5 or a confirmed 163.3 break. HOLD with live breakdown trigger.",
+    "portfolio": "COIN: HOLD (conf 0.55) - aligned downtrend but oversold/basing into BTC-squeeze tail; short only on 163.3 break or 166.5 rip."
+  },
+  "timestamp": "2026-07-07T20:54:32.901315+00:00"
+}

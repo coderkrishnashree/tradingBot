@@ -1,0 +1,28 @@
+{
+  "action": "short",
+  "symbol": "INTC/USDT:USDT",
+  "size": 3.0,
+  "entry": 95.1,
+  "stop_loss": 96.6,
+  "take_profit": 92.0,
+  "take_profit_1": 92.0,
+  "take_profit_2": 91.4,
+  "confidence": 0.6,
+  "playbook": "trend",
+  "forecast": "Price is coiling 93.9-94.4 after a high-volume flush to 93.30; expect a dead-cat bounce back toward the broken 95.1-95.4 shelf / VWAP over the next 2-5 bars, which fails and rolls into a fresh leg down toward 92.0 then support 91.35 within the holding window.",
+  "expectancy_note": "p(win) ~0.58, R:R 2.07 to TP1 (3.10 reward / 1.50 risk); LIMIT-on-bounce beats market-chasing here because 15m RSI 33.8 and vwap_dist -7.9% mean an immediate market short would be stopped by the routine bounce first.",
+  "rationale": "Cleanest aligned short in the book: 4h downtrend, bearish divergence, worst laggard (rel-str -23.8%), and crowded-long L/S 2.03 into a falling tape provides squeeze-down fuel. But the big down-candle already printed and price sits -7.9% below VWAP with 15m RSI 33.8, so I refuse to chase the low of a coil; instead I fade the bounce with a limit at the broken shelf, honest 1.4x-ATR stop above the pre-drop candles, targeting the 92.0/91.35 support. Modest 3% size given FOMC Wed adds event risk and the entry depends on the bounce actually filling.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 93.3,
+    "expires_min": 240,
+    "note": "Losing the 93.30 flush low with momentum confirms no bounce is coming and the breakdown is resuming; would justify a breakdown short instead of waiting for the retest fill."
+  },
+  "transcript": {
+    "macro": "2026-07-27: Mixed-to-hostile, event-gated. FOMC Wed 7/29 2pm ET. Chip-led selloff last week. Oil >$100. Crowd lopsided-long, maxed funding -> favor shorts where aligned. INTC: composite SHORT aligned, 4h downtrend, bearish divergence, vwap_dist -7.9%, rel-strength -23.8% worst laggard, L/S 2.03 crowded-long into downtrend = short fuel. Best/cleanest short in the book.",
+    "sentiment": "INTC earnings ALREADY PASSED (Q2 reported Wed 7/23): beat (rev $16.1B vs $14.4B, EPS $0.42 vs $0.21) but $11B loss + raised capex; stock spiked +12-13% AH then round-tripped/gave back over half - post-earnings drift now bearish. No 48h binary.",
+    "analyst": "Cleanest aligned short in the book (4h downtrend, bearish divergence, worst laggard, crowded-long fuel). But the big down-candle already printed and price is -7.9% below VWAP with 15m RSI 33.8, so refuse to chase the low of the coil - fade the bounce with a LIMIT at the broken 95.1 shelf, stop 96.6 (~1.4xATR), TP1 92.0 / TP2 91.4 (R:R ~2.07). Modest 3% size given FOMC event risk. Reconsider a breakdown short if 93.3 gives way first.",
+    "portfolio": "INTC: SHORT (limit 95.1, stop 96.6, TP 92.0/91.4, size 3%) - cleanest aligned short, fade the bounce."
+  },
+  "timestamp": "2026-07-27T03:07:50.891532+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "BTC/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Blow-off 15m spike to 65,749 was rejected and faded to 65,452; expect a stall/pullback toward VWAP (~64,650) or the 65,150-65,250 shelf before any retest of 66,937 resistance, with FOMC Wed capping conviction.",
+  "expectancy_note": "No positive-EV entry: chasing long is RSI 78 / %B 0.90 / +1.2% over VWAP into resistance (classic late-entry loser); shorting an intact ADX-65 uptrend with crowded L/S 1.50 (squeeze fuel) pre-FOMC is low p(win). HOLD beats both.",
+  "rationale": "BTC is the cleanest structure of the group but extended: 4h RSI 78, stoch 85, %B 0.90, +1.23% over VWAP, and a climactic spike into 66,937 resistance that was immediately sold. Funding/orderbook are benign-to-supportive so there is no short edge either, and FOMC Wed 2pm is a binary inside the window. p_win_learned is only 0.544. The positive-expectancy move is to wait for a pullback to VWAP/support to buy the trend or a confirmed breakout; size stays 0 until then.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 66937,
+    "expires_min": 240,
+    "note": "Break-and-hold above 66,937 confirms continuation and justifies a momentum long; a loss of 63,678 support would open a short."
+  },
+  "transcript": {
+    "macro": "Regime MIXED-to-HOSTILE for fresh risk. FOMC Jul 28-29 (Wed 2pm ET, consensus hold) is a binary vol event inside the hold window; mega-cap earnings week; US-Iran truce (fragile) drove a Monday risk-on gap. Equities off a losing week, sharp semi selloff (SOXX -17% MTD). Crypto downtrend, BTC ~65k (-18% MTD), dominance ~56-57% (no alt rotation), F&G ~29 fear. Cross-cutting: nearly the entire long book is crowded-long with negative structure_bias, positive/extreme funding, RSI 70s-80s \u2014 stretched one-sided book, flush risk into the Fed. BTC and the CL short are the least-bad setups; verdict is smaller size, avoid fresh full-size longs held through FOMC. BTC-specific: funding benign, OI moderate, L/S 1.50, orderbook +0.735, structure neutral +0.047 but RSI 78 / ADX 65 extended into 66,937.",
+    "sentiment": "Wed Jul 29 is an event wall: FOMC 2pm ET, then MSFT+HOOD earnings after close, COIN+MSTR after close Thu; Q2 GDP+PCE this week; US-Iran/Hormuz safe-haven flows on a 10-day cessation proposal. Crypto F&G ~50 neutral. BTC: neutral-to-cautiously-constructive, ETF inflows, range-bound, pinned by FOMC; no BTC-specific \u226448h binary \u2014 cleaner than the event-heavy names for a short-horizon technical trade, subject to FOMC beta.",
+    "analyst": "BTC is the least-bad setup in a hostile tape but not entry-ready. 15m path shows a climactic volume spike to 65,749 instantly rejected back to 65,452, with 4h RSI 78 / stoch 85 / %B 0.90 and +1.23% above VWAP, just under 66,937 resistance before Wednesday's FOMC. Chasing the long is the late-into-stretched-tape pattern that has bled the book; shorting an intact ADX-65 uptrend with benign funding, +0.735 orderbook bid support and crowded longs (squeeze fuel) has no edge either. p_win_learned a coin-flip 0.544. Highest-EV action is HOLD flat, armed to re-debate on a break above 66,937 (long) or loss of 63,678 (short).",
+    "portfolio": "HOLD flat \u2014 cleanest structure in the group but stretched into resistance ahead of FOMC; re-debate on a break above 66,937."
+  },
+  "timestamp": "2026-07-27T06:41:27.439534+00:00"
+}

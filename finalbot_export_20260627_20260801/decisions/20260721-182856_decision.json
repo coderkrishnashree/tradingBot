@@ -1,0 +1,23 @@
+{
+  "symbol": "GOOGL/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.55,
+  "size": 0,
+  "entry": 349.35,
+  "stop_loss": 341.86,
+  "take_profit": 341.86,
+  "rationale": "GOOGL reads structurally short (4h -0.867, all-TF aligned, ADX 44, rel-strength -13.5% vs BTC), but this is not a tradable short here: the 15m tape has gone flat on dead volume drifting 349.5-350.2 just below VWAP, while 30m RSI 21.2 and 1h RSI 24.3 are already oversold - a fresh short chases into exhaustion and a routine bounce would hit any honest stop. Decisively, Alphabet reports earnings tomorrow (Jul 22) after close, a binary gap inside the 48h window with p_win_learned only 0.426; both a fresh long and a fresh short become an earnings coin-flip. No R:R>=1.5 entry exists on this coil, so the highest-expectancy action is to stand aside.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 341.86,
+    "expires_min": 240,
+    "note": "Losing 341.86 support on real volume confirms the 4h downtrend resuming; until then price is coiling on dead volume ahead of a binary earnings print."
+  },
+  "transcript": {
+    "macro": "MACRO BRIEFING 2026-07-21: Risk-on but headline-sensitive. S&P +0.9%, Nasdaq +1.3% on chip revival; 10y ~4.52% on cooler CPI; ongoing US-Iran strikes (oil swing factor). GOOGL reports after close Jul 22 (binary gap). AAPL reports Jul 30 (outside window). EWJ extended (RSI 79.9, ADX 77) with BOJ hiking overhang. EWY very extended (RSI 72, +4.7% VWAP) into fresh BOK hike (2.75%) and KOSPI drop. Tokenized names trade 24/7 but underlying is US-hours only -> thin/gappy tape. Verdict: mixed; every named long is either extended (EWJ/EWY) or facing a binary earnings gap (GOOGL). Smaller size, no fresh longs held through Jul-22 GOOGL close.",
+    "sentiment": "SENTIMENT BRIEFING 2026-07-21: GOOGL BEARISH into a binary event -> Alphabet Q2 earnings Wed Jul 22 after close, outsized gap/elevated IV likely; DOJ search-remedy appeal slow-burn. AAPL MILDLY BULLISH -> record ~$328 on iOS 27 / new LLM Siri beta + China approval, but earnings Jul 30 (outside 48h) and price already run. EWJ BEARISH/uncertain -> Jul 20 upper-house election: LDP-Komeito lost majority; BOJ Jul 30-31 overhang; caution on longs. EWY BEARISH -> KOSPI mid-crash (~-23% MTD), SK Hynix HBM-slowdown hammering semis, foreign outflows; argues against longs. Cross-cutting July AI-chip valuation reset gives EWJ/EWY/GOOGL shared downside beta.",
+    "analyst": "GOOGL reads structurally short (4h -0.867, all-TF aligned, ADX 44, rel-strength -13.5% vs BTC), but this is not a tradable short here: the 15m tape has gone flat on dead volume drifting 349.5-350.2 just below VWAP, while 30m RSI 21.2 and 1h RSI 24.3 are already oversold - a fresh short chases into exhaustion and a routine bounce would hit any honest stop. Decisively, Alphabet reports earnings tomorrow (Jul 22) after close, a binary gap inside the 48h window with p_win_learned only 0.426; both a fresh long and a fresh short become an earnings coin-flip. No R:R>=1.5 entry exists on this coil, so the highest-expectancy action is to stand aside.",
+    "portfolio": "HOLD - structurally short but coiling on dead volume ahead of a binary Jul-22 earnings gap; no R:R>=1.5 entry, stand aside."
+  },
+  "timestamp": "2026-07-21T18:28:56.037434+00:00"
+}

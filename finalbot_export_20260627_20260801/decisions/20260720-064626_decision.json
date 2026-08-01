@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "COIN/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Price is pinned at the lower band, deeply oversold (stoch 0.7, 5m RSI 20.7) after a slow bleed to 157.07 on the biggest down-volume bar; next few bars most likely chop/relief-bounce toward VWAP 157.7-158.9 rather than a clean impulse either way. A decisive break of 152.88 support would open continuation to the downside; a reclaim of 158.9 would confirm the oversold bounce.",
+  "expectancy_note": "Shorting here is the account's #1 losing pattern (late into stretched tape; shorts 47% win, -0.88 avg) with no squeeze fuel (crowd already short, L/S 0.782); longing a downtrend knife off-hours is low-p. No R:R>=1.5 setup at the level; flat is highest expectancy.",
+  "rationale": "COIN is a weak crypto-equity in a risk-off tape, but it's now extremely oversold on 5m/15m/stoch and sitting at VWAP with a slightly positive structure bias and the crowd already positioned short, so a fresh short would be chasing into exhaustion and get stopped on a routine bounce. There is no clean level right at price to fade from, and it's equity off-hours (thin/gappy until Monday). Waiting for either a support break (retest short) or a VWAP reclaim (bounce) gives a far better entry than acting now.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 152.88,
+    "expires_min": 240,
+    "note": "Losing 152.88 support breaks the range low and validates a downside continuation short on the retest; a reclaim of 158.9 would instead confirm the oversold bounce."
+  },
+  "transcript": {
+    "macro": "RISK-OFF/defensive, fragile. Crypto weak: BTC ~$65k after failing $70k, BTC.D 56.3%, Coinbase Premium negative 50 straight days, June ETF outflows record ~$4bn. COIN is a levered crypto-equity play (corr to BTC ~0.64) \u2014 double exposure to weak Nasdaq AND weak BTC; scans SHORT. Posture: smaller size, favor short/mean-reversion fades.",
+    "sentiment": "US equities closed (Sunday) \u2014 thin/gappy until Monday cash open. COIN: neutral, high-beta to BTC. Earnings 7/30 (outside 48h). No standalone <=48h catalyst; BTC direction dominates.",
+    "analyst": "Weak crypto-equity but now extremely oversold (stoch 0.7, 5m RSI 20.7) at VWAP with slightly positive structure bias and crowd already short (L/S 0.782 = no squeeze fuel for a short). A fresh short chases exhaustion; a long is a downtrend knife off-hours. No clean level to fade. Wait for a break of 152.88 (retest short) or a 158.9 reclaim (bounce).",
+    "portfolio": "HOLD COIN \u2014 oversold-at-VWAP, no squeeze fuel; arm on break of 152.88 or reclaim of 158.9."
+  },
+  "timestamp": "2026-07-20T06:46:26.863404+00:00"
+}

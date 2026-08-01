@@ -1,0 +1,25 @@
+{
+  "action": "hold",
+  "symbol": "NVDA/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "expectancy_note": "Coiled squeeze: 0.6% range, ATR% 0.1%, price pinned to VWAP, 5m-long vs 1h/4h-short conflict. No stop survives noise with positive R:R; wait for the break. HOLD is highest-EV.",
+  "rationale": "NVDA is dead-center in a razor-thin 194.97/196.18 range with BB width 0.38% and ATR% 0.1% - the scan blocked it as a squeeze and timeframes openly conflict (5m +0.69 vs 1h -0.78). Structure is the most crowded-long of the group (funding +0.00056, L/S 2.03, bias -0.476), which favors the funding-squeeze short the scan flags, but there is zero confirmation and no room: any noise-surviving stop kills R:R. With the US semi-leadership open at 13:30 UTC likely to resolve the coil, the +EV play is to wait for the break rather than guess inside the chop. Size 0.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 196.18,
+    "expires_min": 240,
+    "note": "Clean break above range-high resistance on the risk-ON semi open converts the crowded-long squeeze into a real trend-continuation long; losing 194.97 instead confirms the funding-squeeze short."
+  },
+  "transcript": {
+    "macro": "US equities risk-ON (AI/semi leadership today's theme into 13:30 UTC open); crypto risk-OFF. No FOMC/CPI in next 48h. NVDA: rel_strength +2.61%, idiosyncratic (btc_corr 0.177). Structure MOST stretched of the group: funding +0.00056 (longs paying) AND long_short 2.03 -> structure_bias -0.476, most crowded-long/contrarian. Scan BLOCKED it (squeeze; raw short on 1h RSI 24.5). Most positioning-vulnerable name: crowded longs + positive funding into a market open. Mixed - good regime, bad crowding; size down any long.",
+    "sentiment": "NVDA: explicit 'news vacuum' - last real catalyst (~$85B bond order book) ~15 days old, next earnings Aug 26 (~55 days out). Recent items low-weight (July 4 cloud-financing, July 13 board expansion). Main 24-48h risk is exogenous: NVDA is the epicenter of AI-sentiment swings hitting Korea's chipmakers. Analyst tone 'Strong Buy' PT ~$302 (long-horizon noise). Neutral: no NVDA-specific catalyst; trade is macro/technical-driven.",
+    "analyst": "Textbook no-trade: price pinned to VWAP dead-center of a 0.6%-wide coil (194.97/196.18), ATR% 0.1%, BB width 0.38%, timeframes in direct conflict (5m +0.69 long vs 1h/4h short). Scan blocked as squeeze. Crowded-long structure (funding +0.00056, L/S 2.03) mildly favors the funding-squeeze short but there's no confirmation and no room - any noise-surviving stop kills R:R. Wait for the US open to break the coil. HOLD with armed trigger above 196.18.",
+    "portfolio": "HOLD NVDA - coiled squeeze pinned to VWAP, conflicted TFs; armed to go long on a break above 196.18 (or short on loss of 194.97)."
+  },
+  "timestamp": "2026-07-06T12:23:32.469391+00:00"
+}

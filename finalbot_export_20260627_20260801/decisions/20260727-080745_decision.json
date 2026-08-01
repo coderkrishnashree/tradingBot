@@ -1,0 +1,23 @@
+{
+  "symbol": "ORCL/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.55,
+  "size": 0,
+  "entry": 117.7,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "rationale": "ORCL is a tokenized equity trading thin off US hours with structure_bias -0.30 (very crowded long, L/S 2.25) and -18% relative strength, yet price sits mid-Bollinger (pctB 0.58) coiling just under 117.8 on fading volume \u2014 no extended extreme to fade and no pullback to buy. The bull case (AI-infra backlog, PTs $240+) is multi-quarter and untradable in 48h, no imminent catalyst. Size 0 until price picks a side.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 116.9,
+    "expires_min": 240,
+    "note": "Losing the intraday base at 116.9 confirms the crowded-long unwind and opens a short toward 116.3/113 support."
+  },
+  "transcript": {
+    "macro": "ORCL read: LONG-lean but weak. Trend intact but structure_bias -0.30 (L/S 2.25, very crowded long) and rel-strength -18% (badly lagging BTC). AI-infra bid supports but crowding = contrarian risk. Small only, US-hours only.",
+    "sentiment": "ORCL BEARISH momentum, NO <=48h catalyst. Down ~29% YTD off June peak, fresh 52-week low (~$115) in July on AI-capex/debt worries \u2014 worst relative strength (-18%). Bull case is multi-quarter, not tradable in 48h. Trades heavy on any risk-off Fed reaction.",
+    "analyst": "Mid-band coil under 117.8 on drying volume; long chases a crowded -18% laggard with no pullback, short fights ADX-79 uptrend with no trigger. Both <1.5 R:R into thin off-hours tape. HOLD.",
+    "portfolio": "HOLD ORCL \u2014 crowded-long laggard coiling mid-band; no edge, wait for a side."
+  },
+  "timestamp": "2026-07-27T08:07:45.101914+00:00"
+}

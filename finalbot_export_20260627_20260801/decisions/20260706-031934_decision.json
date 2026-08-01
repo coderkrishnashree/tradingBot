@@ -1,0 +1,25 @@
+{
+  "action": "hold",
+  "symbol": "TSM/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "expectancy_note": "Short bias real (trend ADX 39.6, crowded longs 1.535, RS -2.81%) but price 441.74 sits only 0.67% above support 438.76 with 15m RSI 25.9 already oversold; shorting here is chasing into a level in a thin closed-market session; p(win) on a fresh short <0.5, R:R poor. Wait for break or bounce.",
+  "rationale": "The directional lean is short and the trend regime is genuine, but entry timing is bad: last is jammed against support 438.76 (only 3 pts room) while lower TFs are oversold (15m RSI 25.9), so a short now risks a support bounce / crowded-long squeeze with almost no reward before the level. US cash closed (~03:14 UTC) means thin, gappy liquidity and open-gap risk. Best expectancy is hold: short a decisive break of 438.76 (targets 428) or reassess on a bounce toward VWAP. Same-session tactical wait, not a position.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 438.76,
+    "expires_min": 240,
+    "note": "Losing 438.76 support confirms trend continuation and opens clean downside room to short with proper R:R instead of chasing into the level."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF, semis rolling over. BTC ~$63.4k after -20% June, Extreme Fear (F&G 22); crypto neutral/drag. Semi sentiment cracked on memory-glut scare (Wall St->Asia). Tokenized equities: scan ~03:14 UTC (US cash closed), thin/gappy, open-gap risk at NYSE reopen. TSM last 441.74 leans SHORT: composite short 37.8%, only clean TREND regime (ADX 39.6), lower TFs uniformly short (15m RSI 25.9), RS vs BTC -2.81%, L/S 1.535 crowded long (contrarian short support), structure_bias -0.163, BTC corr only 0.24. Best short setup of the three; risk = Strong-Buy consensus near earnings, semis bounce squeezes longs.",
+    "sentiment": "TSM near-term NEUTRAL-to-bearish; hard binary just OUTSIDE window: Q2 earnings Thu Jul 16 (~10d out). Guidance already high. Sector tone is the driver not TSM news; AI-chip complex sold off early July (SMH -14%) then bounced Friday. TSM ~0.78 corr to NVDA, trades as AI-beta proxy. Mild positive: $20B Arizona fab US approval Jul 2 (long-horizon). Taiwan/China export controls = tail risk. No TSM-specific 48h catalyst; don't carry blind into Jul 16.",
+    "analyst": "Short bias real (ADX 39.6 trend, crowded longs 1.535, RS -2.81%) but entry timing poor: price 441.74 only 0.67% above support 438.76 with 15m RSI 25.9 oversold. Shorting into support in a thin closed-market session = chasing; squeeze/bounce risk with no reward before the level. Hold; short a confirmed break of 438.76 or reassess on bounce toward VWAP.",
+    "portfolio": "HOLD TSM/USDT:USDT (conf 0.50) \u2014 valid short bias but jammed against support, wait for break of 438.76."
+  },
+  "timestamp": "2026-07-06T03:19:34.102708+00:00"
+}

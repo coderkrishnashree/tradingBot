@@ -1,0 +1,23 @@
+{
+  "symbol": "EWJ/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.34,
+  "size": 0.0,
+  "entry": 91.93,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "rationale": "Untradeable off-hours tape: tokenized MSCI-Japan ETF did not trade over the weekend, most 15m candles print 0.0 volume with the last locked at 91.90/91.93 and OI only ~2,485 \u2014 the 91.93 'last' is stale/fictional, so any entry gets gap-and-slippage killed. Directional read is bearish into Monday (Nikkei -2.7% Fri, SoftBank -7.6%, yen at 40yr lows, hawkish BoJ meeting 7/30-31, EWJ 5-day outflows) but momentum is simultaneously extended/exhausted (1h RSI 80.6, 5m RSI 100, stoch 88, all short TFs flat at 0.0 score) \u2014 no clean intraday entry either way, and a Monday gap would jump straight through any honest stop. Best expectancy is flat: wait for the cash session to print real two-sided volume before shorting a confirmed gap-down.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 89.53,
+    "expires_min": 240,
+    "note": "Losing weekend support 89.53 on real (non-zero) volume confirms the bearish Monday gap-down and opens a clean risk-off short with structure to lean on."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF/defensive, event-gated. Hawkish USD/rates, sticky inflation. BINARY: FOMC 7/28-29. EWJ: thin, tired-extended, ticks as a US-hours equity. LIQUIDITY RED FLAG \u2014 tape near-dead (most 15m candles 0.0 volume, OI ~2,485, prints frozen ~91.90/91.93); gaps and untradeable outside US cash hours. Momentum extended (1h RSI 80.6, 5m RSI 100), ADX 65.6 mature/overbought, res 93.34/sup 89.53. Live catalyst BoJ tightening (2yr JGB ~1.475% highest since 1995, USD/JPY ~163-164, intervention risk); hawkish BoJ/stronger yen = drag on Japanese equities.",
+    "sentiment": "Japan bearish near-term/risk-off with high-impact binary ahead. HARD dated catalyst: BoJ meeting 7/30-31, market split on further hike after June move to 1.00%. Tape heavy: Nikkei -2.7% Fri 7/24 to ~64,584 on AI-capex scare (SoftBank -7.6%, Renesas -7.2%). Added pressure: fresh US tariffs 10-12.5%, yen near 40yr lows, oil >$100. EWJ 5-day net outflows (~-$42M). EWJ US-listed ETF did NOT trade weekend \u2192 expect Monday GAP tracking Fri Wall St/Asia selloff.",
+    "analyst": "Frozen off-hours tape \u2014 91.93 'last' is fictional, slippage/gap risk enormous. Directional read is bearish gap Monday but can't be executed cleanly off-hours without gapping through any honest stop; momentum simultaneously exhausted (1h RSI 80, 5m RSI 100) so a long chases a frozen top. Textbook NO TRADE / HOLD until cash session prints real two-sided liquidity. Flip: lose 89.53 on real volume = Monday short.",
+    "portfolio": "EWJ/USDT:USDT \u2014 HOLD (conf 0.34): untradeable frozen weekend tape, bearish-but-exhausted, Monday gap risk + BoJ 7/30-31; wait for real volume below 89.53 to short."
+  },
+  "timestamp": "2026-07-26T02:03:10.884651+00:00"
+}

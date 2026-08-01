@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "GOOGL/USDT:USDT",
+  "size": 0.0,
+  "entry": 349.42,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.4,
+  "playbook": "none",
+  "forecast": "Thin overnight grind chops 348.5-350.1 into the US open; the real move is a binary gap tonight on Alphabet Q2 earnings (~20:30 UTC) that no intraday structure can front-run. No clean level within 1.5R either way right now.",
+  "expectancy_note": "p_win_learned 0.432 (sub-coinflip), composite muddy short at mid-band (%B 0.44, at VWAP) with no extreme to fade and no level within an honest 1.5R; holding through a binary gap has negative expectancy vs any playbook here.",
+  "rationale": "GOOGL prints Q2 earnings tonight after the US close - a pure coin-flip gap inside my 48h window that would blow through any honest ATR stop, so a new directional swing is hostile. The tape itself gives no edge: composite is short but only 49.7% confident and NOT aligned, per-TF is conflicting (30m long vs 1h/4h short), price sits at VWAP mid-Bollinger with stoch 15.7 but no divergence and no reclaimable level, all on dust volume. There is no setup with positive expectancy here; size 0 is the correct trade until the event resolves.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 347.5,
+    "expires_min": 240,
+    "note": "Losing 347.5 breaks the overnight grind base and confirms sellers engaging toward support 341.86, giving the muddy short thesis a real level to trade - worth re-debating (still respecting the earnings clock)."
+  },
+  "transcript": {
+    "macro": "REGIME: RISK-ON (equities) but GOOGL HOSTILE/event-blocked. Broad tape constructive July 22 (S&P +0.89%, Nasdaq Comp +1.29%, semis leading). Alphabet reports Q2 2026 earnings TODAY July 22 after close (~20:30 UTC); consensus ~$2.87 EPS on ~$116.9B rev; Cloud growth (~60%) and $190B capex margin debate. Any hold straddles a binary gap event. Scan structure_bias -0.407 (funding +0.0004 mild long-crowding, long/short 1.56 lopsided long, orderbook -0.263). BTC-corr only 0.35, rel-strength -12.9% vs BTC. Composite short (-0.526) but earnings can violently reverse. No FOMC this session (Fed July 28-29). Tokenized-equity thinness = gappy overnight fills.",
+    "sentiment": "GOOGL BEARISH/HIGH-RISK (binary tonight). Q2 earnings TODAY after US close (~20:30 UTC), confirmed multiple sources. Consensus ~$2.87 EPS/~$116.9B rev; market wants proof $190B AI capex generates cloud revenue. Pure coin-flip binary within 24h; large post-close/overnight gap in thin tracker token. Cautious-to-heavy going in: EU overhang (ECJ upheld ~4.1B EUR Android antitrust fine July 2; DMA forces opening 11 Android features + search-data sharing) + reported Gemini 3.5 Pro delays. Do NOT hold a directional swing through the print blind. BofA Buy but long-horizon, not tradable.",
+    "analyst": "GOOGL 349.42. Composite short blended -0.526 but only 49.7% confident, p_win_learned 0.432 (sub-coinflip), NOT aligned. Per-TF conflict: 15m flat, 30m LONG (rsi 68.3), 1h short (rsi 36), 4h short rsi 53.2, 5m short - muddy. ADX 38.9, RSI 53.2 neutral, BB %B 0.44 mid-band, stoch 15.7, VWAP dist -0.34% (at VWAP). ATR% 0.98 (~$3.42). Support 341.86 / resistance 379.97 both far. Structure bias -0.407 (mild long-crowding = contrarian short fuel) but funding +0.0004. Price grinding up quietly 348.5->350.07, last bar 349.42 mild fade off highs on dust volume. Decisive factor: Q2 earnings tonight = binary gap inside 48h window. Textbook NO-TRADE/HOLD: event blocks directional swing, composite lacks conviction, price mid-range. Reconsider on loss of 347.5 (confirms sellers toward 341.86).",
+    "portfolio": "GOOGL/USDT:USDT -> HOLD (size 0, conf 0.40): no edge, blocked by tonight's Alphabet Q2 earnings gap."
+  },
+  "timestamp": "2026-07-22T02:59:11.024396+00:00"
+}

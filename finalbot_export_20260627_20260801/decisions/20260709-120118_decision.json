@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "HOOD/USDT:USDT",
+  "size": 0.0,
+  "entry": 114.64,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.58,
+  "playbook": "none",
+  "forecast": "Thin pre-market VWAP-hug near 114.6; likely chops 113.6-115.0 until the 09:30 ET open, where red NDX futures + Extreme Fear risk a gap-down toward 112/support rather than a clean push to 120.",
+  "expectancy_note": "No edge: long p(win) ~0.45 into risk-off gap risk; price mid-band (%B 0.56, at VWAP), not at support 99.45 for a fade nor breaking resistance 120 for a trend-add. HOLD beats a chased upstream long.",
+  "rationale": "HOOD is a tokenized equity, so crypto structure is muted; the 4h uptrend (+0.86, rel_str +7.4%) is real but the mid-band VWAP-hugging tape offers no honest entry \u2014 a market long here risks the exact gap-down the macro flags (NDX -1.2%, Extreme Fear, thin pre-market, btc_corr 0.64). Recent 15m candles show only a tepid recovery (113.6 low back to 114.6), not a momentum impulse, and there's no support-level fade available. Sitting flat until price reclaims the 115.0 minor cap is higher-expectancy than chasing into open gap risk.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 115.05,
+    "expires_min": 240,
+    "note": "Reclaiming the 15m cap at 115 confirms the recovery survived the open and opens a clean trend-continuation long toward 118-120 with a stop under 113.6."
+  },
+  "transcript": {
+    "macro": "RISK-OFF regime (rates + Iran), Extreme Fear (22), NDX futures -1.2%. Equity tokens pre-market/thin (~07:54 ET), gap risk at 09:30. HOOD is the ONE long candidate but the environment is against it: composite long (4h +0.86, rel_str +7.4%) yet structure_bias -0.03 (L/S 1.26 leaning other way); longing a high-beta crypto-brokerage name (btc_corr 0.64) into risk-off = swimming upstream. Smallest size if taken.",
+    "sentiment": "HOOD neutral-to-cautious. Q2 earnings July 29 (outside window); analysts bullish long-horizon only. Scan shows it as the lone long candidate = technicals, not news. No <=48h catalyst.",
+    "analyst": "Tokenized equity so crypto structure is muted; the 4h uptrend is real but the tape is mid-band, hugging VWAP (%B 0.56, RSI 48.6), with only a tepid 113.6->114.6 recovery, not an impulse. No support-level fade (99.45 far below) and resistance 120 ~4.7% away. A market long risks the exact gap-down the macro flags into the 09:30 open. HOLD; engage only on a reclaim of the 115.0 15m cap that proves the recovery survived the open.",
+    "portfolio": "HOOD: HOLD (conf 0.58) \u2014 the lone long candidate but swimming upstream into risk-off gap risk; wait for a 115 reclaim."
+  },
+  "timestamp": "2026-07-09T12:01:18.033360+00:00"
+}

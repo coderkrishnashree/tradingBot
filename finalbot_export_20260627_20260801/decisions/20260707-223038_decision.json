@@ -1,0 +1,28 @@
+{
+  "symbol": "XAG/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.55,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "none",
+  "forecast": "Choppy basing near 59.8-60.4 next 2-4 bars: the dead-cat bounce to 60.37 already failed and price is rolling back toward the 59.53 flush low; either it loses 59.53 to extend the flush, or it snaps back toward 60.5 VWAP on oversold relief.",
+  "expectancy_note": "Short at 59.88 is chasing: RSI 23.7 / stoch 9 / %B -0.07, -3.2% below VWAP, into FOMC minutes tomorrow = high snapback risk, R:R poor with support 56.66 far below. Best expectancy is wait, not press.",
+  "rationale": "Macro favors the short side and ADX 57.9 confirms a strong downtrend, but the tape is deeply oversold at the lows (RSI 23.7, stoch 9.1, below lower Bollinger band, -3.2% vs VWAP) and the bounce to 60.37 already failed once. Selling here is chasing an extended move mid-air right before Wed's FOMC minutes -- the exact NO-TRADE condition -- and a fresh long against an ADX-58 downtrend has no reversal confirmation. Wait to short a failed retest of ~60.5 VWAP or a clean break of the 59.53 flush low.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 59.53,
+    "expires_min": 240,
+    "note": "Losing the 59.53 flush low confirms the downtrend is resuming, giving a non-chasing momentum-short entry with 56.66 support as the objective."
+  },
+  "transcript": {
+    "macro": "2026-07-07 RISK-OFF. USD/DXY firm (targeting 104-106) -> gold/silver pressured. Silver is the weakest link: strong-dollar breakdown, SLV -19% YTD/-21% June, ETF outflows, RS -12.3%, long/short 3.0 (most crowded-long = contrarian bearish), trend down, VWAP -3.2%. FOMC minutes Wed Jul 8 2pm ET = DXY reversal risk -> trim size. RSI 23 oversold -> mean-reversion snap risk. Macro favors SHORT but the only risk is the oversold snapback and FOMC DXY reversal.",
+    "sentiment": "XAG bearish near-term but macro tailwind is a SNAPBACK risk: silver rallied ~6% last week (to ~$62) on the weak June jobs report (57k vs 110k), softer DXY, reduced Fed-hike odds -- yet scan shows XAG crashing to ~$59.9. Price is fading a bullish macro backdrop = a sharp technical flush against the fundamental grain. No fresh silver-specific shock in 48h (FOMC meeting Jul 28-29 outside window). Dollar-down/fading-hike-odds argues FOR metals = AGAINST pressing the short too far. XAG & XAUT correlated 0.88.",
+    "analyst": "Last 59.88; support 56.66, resistance 63.36. RSI 23.7, stoch 9.1, %B -0.07, VWAP -3.17%, ADX 57.9, crowded long 3.003. 15m tape: flush 61.08->59.53 low, dead-cat bounce to 60.37, now rolling back to 59.88 near the lows. Shorting here is chasing an extended oversold move into an FOMC binary with support 56.66 far below = poor R:R; no long edge against ADX-58 downtrend. HOLD, arm a momentum short on a clean break of the 59.53 flush low.",
+    "portfolio": "HOLD XAG (conf 0.55) -- weakest metal and short-biased but oversold at the lows into FOMC; arm short on losing 59.53."
+  },
+  "timestamp": "2026-07-07T22:30:38.020496+00:00"
+}

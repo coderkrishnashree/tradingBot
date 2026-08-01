@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "AAPL/USDT:USDT",
+  "size": 0.0,
+  "entry": 332.77,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Price coils flat 332.6-333.6 just under 335.34 resistance on collapsing volume; likely chop, then either reject 335 or bleed to 331 VWAP as RSI-84 overbought unwinds into weak Nasdaq tape.",
+  "expectancy_note": "No edge either way: long into RSI 84 / stoch 89 at resistance is the account's #1 loss pattern (p_win_learned 0.422); short has no rejection trigger yet and fights +5.4% rel strength. R:R < 1.5 both directions.",
+  "rationale": "AAPL is an equity (BTC corr -0.09) extremely stretched (RSI 84.2, stoch 89.4, ADX 82.9) parked 0.8% under hard resistance 335.34 on dead volume in a risk-off, weak-Nasdaq regime. Learned stats show longs here losing (p_win 0.422); a naked short lacks a rejection candle and earnings Thu Jul 30 plus FOMC Jul 28-29 make new risk unattractive. Wait for the overbought unwind.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 331.0,
+    "expires_min": 240,
+    "note": "Losing 331 breaks the coil/VWAP support and confirms the RSI-84 overbought unwind, arming a fade short toward 329/327."
+  },
+  "transcript": {
+    "macro": "Risk-off/defensive, weak Nasdaq tape. FOMC Jul 28-29 inside horizon = vol event. Book-wide crowded-long = contrarian downside risk. AAPL: least crypto-linked (corr -0.09); VERY overbought (RSI 84, stoch 89) into weak Nasdaq; best rel strength (+5.4%) but stretched; fade risk near resistance 335.",
+    "sentiment": "AAPL ELEVATED: fiscal Q3 earnings Thu Jul 30 after close (binary). Consensus ~$109-110B rev, EPS ~$1.89. Best Mag-7 YTD (+~20%). Tim Cook's final earnings call (Ternus succeeding) adds headline sensitivity. Do NOT carry naked through Thu.",
+    "analyst": "Extremely stretched equity parked under 335 resistance on dead volume; longs here lose per learner (p_win 0.422), short has no rejection trigger and fights rel-strength. Earnings Thu + FOMC make new risk unattractive. Hold; fade trigger below 331.",
+    "portfolio": "HOLD AAPL - overbought under resistance, wait for unwind below 331; do not carry into Thu earnings."
+  },
+  "timestamp": "2026-07-26T19:39:15.674154+00:00"
+}

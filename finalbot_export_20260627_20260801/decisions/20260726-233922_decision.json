@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "SOL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Extended print >upper BB (%B 1.04, 15m RSI 88, +2.23% vs VWAP); last two bars rejected 77.0 and closed lower - expect a mean-reversion pullback toward the 75.0-75.2 shelf/VWAP over the next 3-6 bars, which is where a trend-continuation long becomes buyable.",
+  "expectancy_note": "No entry: chasing long here is the #1 loss pattern (stretched tape, RSI 88, crowd 2.8x long); shorting a strong ADX-68 uptrend has negative edge (shorts 46% win, -0.82). Best EV is to wait for the 75.2 retest for a ~1:2.5 long.",
+  "rationale": "Pure BTC-beta (corr 0.85, RS -8.8%) into BTC RSI 78 and FOMC Wed - no independent edge and both stretched. Price above the upper band with fading momentum, so any market long buys the top and gets stopped by a routine bounce-back; any short fights a 68 ADX trend far from support 73.39. Hold for a pullback to 75.0-75.2 (VWAP/broken shelf) for a clean 1.5x+ long against 73.4 support; size 0 until then.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 75.2,
+    "expires_min": 240,
+    "note": "Pullback into the broken shelf/VWAP is the trend-continuation long entry I want, with a stop under 73.4 and target back to 78.9."
+  },
+  "transcript": {
+    "macro": "NEUTRAL tilting RISK-OFF for equity-proxies into mid-week. Two event risks INSIDE 48h: FOMC Wed Jul 29 2pm ET (hawkish-hold risk) and a Big-Tech earnings wall (MSFT Wed; AAPL/AMZN/META Wed-Thu). Equities toppy/mixed, VIX ~18.6, 10y ~4.6%, DXY firm ~101.4, Sep hike odds ~50-60%. US-Iran/Hormuz keeps an oil bid + safe-haven bid (tail escalation risk). Crypto is the cleanest longs (BTC $65.3k, funding benign, no crowding) but short-term overbought (RSI 78) - don't chase. Cut size / avoid multi-day holds on ALL equity proxies (QQQ, MSFT, AAPL, TSM, EWJ, EWY, COIN, HOOD) through the Wed FOMC + earnings gauntlet. Avoid crowded longs in TSLA (L/S 2.67, worst RS) and XAG (L/S 3.69, squeeze-prone). Favor quick tactical trades over swings; longs>shorts only in crypto, longs neutral-to-unfavorable in equities.",
+    "sentiment": "Risk-OFF and event-heavy. A bruised, AI-capex-ROI-spooked tech tape (Mag7 shed ~$797B on Jul 23; Nasdaq -2.15% Thu) heading into an FOMC + mega-cap-earnings gauntlet Jul 29-30. Imminent binaries: MSFT+HOOD earnings Wed Jul 29 after close; AAPL+COIN earnings Thu Jul 30 after close. Asia fragile: KOSPI -5.72% Jul 24 (circuit-breaker), Nikkei -2.73%, US tariffs live. CL bearish short-term (fell ~4% Fri on US-Iran talk, two-sided war premium, weekend gap risk). XAG neutral ~$58 consolidating. BTC cautious/range-bound, Fear&Greed 27, $225M ETF outflows Jul 25. TSLA bearish (-14% on Q2 miss). TSM already reported Jul 16 (beat). Favor caution/short bias on tech-index and Asia names; avoid new pre-earnings directional bets; crypto macro-tethered and defensive.",
+    "analyst": "SOL 76.65 above the upper BB (%B 1.04), 15m RSI 88, +2.23% VWAP, crowd 2.8x long (structure_bias -0.286), pure BTC-beta (0.85) into BTC RSI 78 + FOMC. Last two bars rejected 77.0. Chase long = #1 loss pattern; short a 68-ADX uptrend loses. Want the 75.0-75.2 retest.",
+    "portfolio": "HOLD SOL - extended BTC-beta long; buy the pullback to ~75.2, don't chase. Re-debate below 75.2."
+  },
+  "timestamp": "2026-07-26T23:39:22.309190+00:00"
+}

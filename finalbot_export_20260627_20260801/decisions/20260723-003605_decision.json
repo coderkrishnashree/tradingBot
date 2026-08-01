@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "EWJ/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.2,
+  "playbook": "none",
+  "forecast": "Price stays pinned near 92-93 on near-zero volume until a real US session reopens; the 92.92 print and RSI 72/stoch 87 are stale-tick noise, not momentum. No tradeable next move exists in this window.",
+  "expectancy_note": "No edge: illiquid flat prints, indicators are noise; any entry pays severe slippage/gap risk vs no real directional signal. HOLD is highest expectancy.",
+  "rationale": "EWJ is essentially untradeable overnight - recent 15m candles are flat prints with volume of 0.0-0.5 and the last bar has zero volume, so RSI 72 / stoch 88 are artifacts, not a real long setup. Mid-timeframe scores (15m/30m/1h) are all flat; only a stale 4h reading looks bullish. Macro and sentiment both flag severe slippage/gap risk with no Japan binary inside 48h, so there is no honest entry, stop or target to construct. Size 0.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 94.49,
+    "expires_min": 240,
+    "note": "A real-volume break above the 94.49 resistance (i.e. once liquidity returns in cash session) would confirm genuine demand and justify re-debating a long."
+  },
+  "transcript": {
+    "macro": "2026-07-23 regime MIXED-to-HOSTILE. Overnight session after megacap earnings. Fading tape. FOMC Jul 28-29. Oil up on Iran = risk-off. LIQUIDITY FLAG: EWJ essentially UNTRADEABLE overnight - flat prints, ~0 volume, RSI prints of 96/72 are noise. Price stale/gappy; severe slippage/gap risk.",
+    "sentiment": "EWJ NEUTRAL. Nikkei essentially flat (-0.18%) into 7/22. No imminent Japan-specific binary; US-Japan tariff talks (Bessent visit next week) slow-burn, low <=48h impact. Extremely illiquid in the scan. Neutral, low-conviction.",
+    "analyst": "EWJ 92.92: recent 15m candles almost all flat prints with volume 0.0-0.23, last bar 92.92->92.92 zero volume = dead. RSI 72.4 / stoch 87.7 are stale-tick noise. 15m/30m/1h scores all flat; only a stale 4h reading looks bullish. No honest entry/stop/target possible; slippage and gap risk severe. HOLD, size 0.",
+    "portfolio": "EWJ -> HOLD (conf 0.20): untradeable overnight, near-zero volume; no position until liquidity returns."
+  },
+  "timestamp": "2026-07-23T00:36:05.020123+00:00"
+}

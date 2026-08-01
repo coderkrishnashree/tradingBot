@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "ORCL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Price exhausted at lows (5m RSI 16.7, VWAP -1.82%, flat 116.2-116.6 on fading volume). Expect a mean-revert bounce toward VWAP ~118, or a grind into 113 support \u2014 neither offers a clean market short now. A bounce to ~118 is the honest short-entry retest.",
+  "expectancy_note": "Trend/macro/crowding favor shorts, but a market short here is a late chase into stretched tape (the #1 loser); the counter-bounce hits any honest stop first. Selling the ~118 bounce gives R:R ~2+ to 113 vs sub-1.5 chasing now.",
+  "rationale": "ORCL is the cleanest trend-with-macro short (4h down, RS -21%, L/S 2.56 squeeze fuel), but price is already 1.82% below VWAP with 5m RSI 16.7 and the last several 15m bars flattening on dying volume \u2014 a fresh short enters mid-air just above 113 support and gets stopped by the routine bounce. Better to sell a VWAP retest (~118) or a decisive break of 113. Event minefield (FOMC Wed, GDP/PCE Thu) argues for patience; no market entry justified now.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 118.0,
+    "expires_min": 240,
+    "note": "A bounce to VWAP ~118 offers the clean short-into-strength retest (tight stop above, 113 target); alternatively a loss of 113 triggers continuation short."
+  },
+  "transcript": {
+    "macro": "HOSTILE window (2026-07-26). Broad tech/AI-capex selloff (Nasdaq ~-2% on week). Hawkish rates: June CPI 3.5%, oil>$100, ~34% chance of a HIKE next week, Sep hike ~81%. Event minefield <48h: FOMC Wed Jul29 2pm ET, MSFT/META earnings Wed AH, AAPL/AMZN Thu, GDP+PCE Thu 8:30am. Crypto weak: BTC ~$64.6k off 21-mo low, $4.5B June spot-ETF outflows. Precious metals the one bright spot (DXY<103, safe-haven bid). Crowded longs across the board = squeeze fuel. Cut size hard; prefer flat before Wed; equity-perp funding ~0. | ORCL: Weakest equity RS (-21%), 4h/5m downtrend, L/S 2.56 crowded. Macro SUPPORTS SHORTS.",
+    "sentiment": "Event-heavy pre-earnings cycle. HARD earnings flags: META (Wed Jul29 AH), AAPL/COIN/MSTR (Thu Jul30). FOMC + GDP/PCE + BOJ (Jul29-30) = desk-wide landmines. Crypto Fear&Greed ~33-39 (fear). Cleanest names without single-name binaries: TSLA (bearish drift post -14.5% earnings), ORCL (bearish, -50% since Jun), XAG (mild bull, safe-haven), CRCL/SOL (sentiment/technical). | ORCL: Bearish structurally (-50% since Jun, S&P downgrade, layoffs); no imminent binary; favors continuation-short.",
+    "analyst": "ORCL is the cleanest trend-with-macro short (4h down, RS -21%, L/S 2.56 squeeze fuel), but price is already 1.82% below VWAP with 5m RSI 16.7 and the last several 15m bars flattening on dying volume \u2014 a fresh short enters mid-air just above 113 support and gets stopped by the routine bounce. Better to sell a VWAP retest (~118) or a decisive break of 113. Event minefield (FOMC Wed, GDP/PCE Thu) argues for patience; no market entry justified now.",
+    "portfolio": "HOLD ORCL/USDT:USDT @ conf 0.5"
+  },
+  "timestamp": "2026-07-26T20:36:25.079055+00:00"
+}

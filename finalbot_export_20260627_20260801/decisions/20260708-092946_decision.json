@@ -1,0 +1,28 @@
+{
+  "symbol": "MSFT/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.6,
+  "size": 0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "none",
+  "forecast": "After a 5-bar ~1.7% waterfall into 5m RSI 11.9 / 15m RSI 22, the last bar (382.77, closing mid-range on lighter vol) shows deceleration; next few candles likely chop/bounce toward VWAP ~386-389 on thin pre-open tape rather than an immediate leg lower.",
+  "expectancy_note": "Fresh short at 382.77 chases an exhausted, deeply-oversold move (ADX 12.6 chop, snapback risk) \u2014 negative expectancy; the edge is re-shorting the bounce into 386, so wait.",
+  "rationale": "MSFT has the cleanest bearish structure of the megacaps (bias -0.42, L/S 2.0, orderbook -0.40) and a valid 15m short breakout, so the bias is down \u2014 but price just dumped straight into 5m RSI ~12 at the 382.8 breakout level with ADX only 12.6 and vwap only -1.6% away, pre-US-open on thin/gappy liquidity. Selling the low tick here is R:R-negative with high snapback risk; the high-expectancy trade is a lower-high rejection short on a bounce into 386-388 (VWAP/broken support) after the 13:30 UTC open. No long \u2014 structure is against it and there is no trend. HOLD and wait for the retest.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 386.0,
+    "expires_min": 300,
+    "note": "A bounce back to 386 (VWAP/broken-support retest) sets up the ideal lower-high short entry with the -0.42 structure bias and 2R downside toward 380/376."
+  },
+  "transcript": {
+    "macro": "Risk-off/defensive: semi sell-off, Nasdaq -1.2%, VIX ~18. Rotation OUT of megacap tech. Universal short-crowding (retail long into falling tape, MSFT L/S 2.0) supports continuation-down but snapback risk. Trade smaller; equity tokens best after US open ~13:30 UTC. MSFT: strongest structure_bias short (-0.42) of megacaps, 15m short breakout (bbw 5.3x, vol 2.9x), orderbook -0.40, but regime-blocked chop; 5m RSI ~24 oversold short-term.",
+    "sentiment": "MSFT neutral. Solid last print (EPS $4.27 vs $4.06), OpenAI rev-share revision known positive. Earnings Jul 28 + FOMC same window but beyond 48h. Nothing dated inside horizon; neutral on news.",
+    "analyst": "Cleanest bearish structure of megacaps and valid short breakout, but just dumped into 5m RSI ~12 at the 382.8 level, ADX 12.6 chop, vwap only -1.6% away, thin pre-open. Selling the low is R:R-negative; edge is re-shorting a bounce into 386. HOLD, size 0.",
+    "portfolio": "MSFT: HOLD \u2014 bearish structure but oversold at trigger; arm lower-high short on bounce to 386. Conf 0.60."
+  },
+  "timestamp": "2026-07-08T09:29:46.782295+00:00"
+}

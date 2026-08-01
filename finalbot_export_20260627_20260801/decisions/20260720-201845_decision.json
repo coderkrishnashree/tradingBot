@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "NVDA/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Price is coiling on a 202.5-203.5 shelf after a completed down-leg; LTF stoch 19 / 30m RSI 31 are oversold, so the next move is likely a bounce toward VWAP ~204.2-204.8 before any continuation, OR a break of 202.4 that opens the door to 200/198.",
+  "expectancy_note": "Market-short here (~0.55% below VWAP, LTF oversold, coiling above support) chases into a probable bounce \u2014 negative expectancy, the account's classic late-short loss. Support 198 is ~3.6x ATR away, too far for clean R:R. Better to wait for the retest or the breakdown.",
+  "rationale": "NVDA is 4h-down with crowded longs (L/S 1.55) and macro short-bias, but the intraday down-leg is stalled and LTF-oversold on a tight shelf, so a market short would enter right before a mean-reversion bounce that hits any honest stop. NVDA trades as semis/QQQ beta (btc_corr 0.21), and GOOGL/INTC earnings Jul 22-23 add headline whip. I'd rather short the bounce into VWAP-resistance or the confirmed break of 202.4 than chase the low. Holding is the higher-expectancy choice until one of those triggers.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 202.4,
+    "expires_min": 240,
+    "note": "Losing the 202.4 shelf confirms the down-leg resumes with clean room toward 200/198 support \u2014 flips me to an aligned short with the 4h trend and crowded-long fuel."
+  },
+  "transcript": {
+    "macro": "2026-07-20 RISK-OFF/DEFENSIVE. Nasdaq soft, semis hit last week. Crypto Extreme Fear. Earnings landmines GOOGL/INTC Jul 22-23 (NVDA rides sympathy). Funding ~0; crowded-long board = contrarian-short tilt. NVDA line: SHORT-biased but CAUTION, small size \u2014 headline-whippy semis.",
+    "sentiment": "NVDA: no company catalyst until earnings Aug 26 (outside horizon). Worst performer in its chip group 2026, ~18% off June high. July driven by external items only (Jul 7 Kyber delay report denied). Neutral fundamentally; trades as QQQ/semis beta. Mild bearish drift.",
+    "analyst": "4h down + crowded longs L/S 1.55 support a short, but price coils on a 202.5-203.5 shelf, ~0.55% below VWAP, LTF stoch 19 / 30m RSI 31 oversold after a completed down-leg. Market-short here chases a due bounce (account's #1 loss); support 198 is ~3.6x ATR away = poor R:R. HOLD, armed reconsider on a break below 202.4 to re-debate an aligned short.",
+    "portfolio": "HOLD NVDA \u2014 no clean edge, LTF oversold; re-debate short on a break below 202.4."
+  },
+  "timestamp": "2026-07-20T20:18:45.600577+00:00"
+}

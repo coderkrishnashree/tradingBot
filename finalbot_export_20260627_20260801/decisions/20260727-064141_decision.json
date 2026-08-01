@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "MU/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.4,
+  "playbook": "none",
+  "forecast": "Price is pinned near the fresh local high ~957-961 after a clean 15m grind up; most likely path is a shallow pullback toward the 945-948 VWAP/prior-consolidation shelf over the next few bars, then either a continuation bid (strong orderbook +0.85) or a stall into the Fed. No clean entry at the top of an extended move.",
+  "expectancy_note": "p(win) on a chase here ~0.45 with poor R:R (resistance 1012 is 5.7% away vs a stop that must sit below 940); waiting for a VWAP pullback or a range break beats market-entering an RSI-78/stoch-91 extension into a hostile Fed week.",
+  "rationale": "MU is a crowded-long (L/S 1.57) semi catching a falling-sector knife into a binary FOMC (Wed), and it is already stretched: 4h RSI 77.9, stoch 90.9, sitting at a fresh high just under resistance 1011.96. The single genuine bull tell is the +0.85 orderbook bid, but that alone is a reason to debate, not to chase a continuation after the run. p_win_learned is 0.51 (coin-flip) and composite confidence only 41.5%, so there is no edge to size into.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 947.0,
+    "expires_min": 240,
+    "note": "A dip into the 945-948 VWAP/prior-consolidation shelf gives a proper trend-continuation long with a tight stop under 940 and room toward 1000+, instead of chasing the extended high."
+  },
+  "transcript": {
+    "macro": "Regime MIXED-to-HOSTILE. FOMC Jul 28-29 binary event; SEMI selloff sharp (SOXX -17% MTD). Cross-cutting: crowded-long book, positive/extreme funding, RSI 70s-80s, flush risk. Semis (NVDA/TSM/MU/SNDK) weakest sector tone. MU orderbook +0.85 (strong bid support) but L/S 1.57 (crowded long). Monday bounce could be a dead-cat. Verdict: skip or half-size.",
+    "sentiment": "FOMC Wed biggest \u226448h catalyst. MU/SNDK: memory pair, tightly correlated (corr 0.88), no near-term earnings (Micron ~Sep 29). Sector took ~4-8% hit mid-July on TSMC capex fears \u2014 sentiment fragile and headline-sensitive. Neutral-to-cautious, no \u226448h binary.",
+    "analyst": "MU is a crowded-long semiconductor knife (L/S 1.57, orderbook +0.85 the only bull tell) sitting at a fresh high with 4h RSI ~78 and stoch ~91 \u2014 extended \u2014 into a binary FOMC Wednesday and a HOSTILE macro/semi tape. p_win_learned 0.51 and composite confidence 41.5% mean no edge to chase. HOLD: wait for a pullback to the 945-948 VWAP shelf for a clean continuation long, or a break below 940 that voids the uptrend.",
+    "portfolio": "HOLD flat \u2014 crowded-long semi at a fresh high into FOMC; long on a pullback to ~947."
+  },
+  "timestamp": "2026-07-27T06:41:41.709513+00:00"
+}

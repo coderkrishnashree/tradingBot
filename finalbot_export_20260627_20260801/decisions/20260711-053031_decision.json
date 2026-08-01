@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "CRCL/USDT:USDT",
+  "size": 0.0,
+  "entry": 66.96,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.55,
+  "playbook": "none",
+  "forecast": "Price is coiling 66.6-67.0 at VWAP after the +12.6% bounce; last bar is a low-volume doji stalling at the top of the coil. Most likely it chops 66.3-67.2 over the next few bars with no clean directional edge; a decisive push needs a break of 67.5 or a flush back toward 61.7 support.",
+  "expectancy_note": "No trade: mid-range entry (nearest structure 73.7 up / 61.8 down both far), ATR 3.43% forces a wide stop while any near target is <1R away, so R:R fails. Crowd already 2.64x long and rel-strength -17.8% cap the upside.",
+  "rationale": "CRCL is long-aligned on the composite but sits dead at fair value with no proximate level to trade against and a fading, low-volume doji at the top of its coil - chasing a long here is the account's classic late-continuation loss. Huge 3.43% ATR makes an honest stop wide relative to any nearby target, so R:R to a realistic first exit is below 1.5. Crowd is heavily long (2.64x), the name badly lags peers (-17.8%), and a July-18 GENIUS Act binary makes the tape news-fragile off-hours; sitting flat is the highest-expectancy call until a real level prints.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 67.75,
+    "expires_min": 240,
+    "note": "A hold above 67.75 breaks the 66.6-67.0 coil and confirms momentum continuation, giving a clean long entry with resistance 73.72 as the target."
+  },
+  "transcript": {
+    "macro": "Regime: mildly risk-on but two-sided. DXY ~100.5, Fed split (~63% Sept hike odds), BTC ~64.2k crowded. CRCL (last 66.96) MIXED/tactical LONG: +12.6% bounce off the $63 washout (was ~$85 late-June); Nomura/Japan and Coinbase-renewal catalysts vs Stripe/Open-USD and Compass Point PT cut to $55. High-beta crypto-equity (BTC corr 0.53, COIN 0.66), rel-strength -17.8%. Momentum long intraday but headline-driven; smallest size, tight risk.",
+    "sentiment": "CRCL BULLISH momentum but a hard binary at July 18. July 10: OCC granted Circle a national trust bank charter (Circle National Trust) to manage USDC reserves in-house; stock spiked ~16% intraday toward ~$72.85 (Mizuho calls reaction overdone). KEY CATALYST July 18, 2026 GENIUS Act rule-implementation deadline - genuine binary (bulls eye clarity, bears warn stricter standards + big-bank competition; support ~$61.70, downside risk to ~$49). Off-hours = thin/gappy.",
+    "analyst": "Composite long (61%, ADX 58.7) but price stuck mid-range at VWAP (66.96) with no proximate structural level (73.72 up / 61.78 down both far). Last bar a low-volume doji stalling at top of a tight 66.6-67.0 coil - exhaustion, not launch. ATR 3.43% (~$2.30) forces a wide honest stop while nearest target is <1R, breaking R:R. Crowd 2.64x long, rel-strength -17.8%, July-18 binary makes tape news-fragile. Chasing a long here = the account's late-continuation loss pattern. HOLD, re-arm long on a hold above 67.75.",
+    "portfolio": "CRCL/USDT:USDT - HOLD (conf 0.55): long-aligned but mid-range with poor R:R and a July-18 binary; wait for a 67.75 coil breakout."
+  },
+  "timestamp": "2026-07-11T05:30:31.853909+00:00"
+}

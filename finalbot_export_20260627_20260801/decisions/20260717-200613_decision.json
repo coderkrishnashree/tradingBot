@@ -1,0 +1,27 @@
+{
+  "symbol": "SNDK/USDT:USDT",
+  "action": "hold",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.7,
+  "playbook": "none",
+  "forecast": "Whippy chop/basing: after the -2.4% capitulation candle to 1349 low, expect a dead-cat bounce toward 1385-1410 into the vacuum, then a re-test of 1311 support over the next hours; no clean directional edge until one side breaks.",
+  "rationale": "SNDK is the weakest horse in the universe (RS -41.6%) in a steady 15m staircase down that just waterfalled to 1349 on the largest-volume bar, now deeply oversold on fast TFs (15m RSI 12, stoch 14) and stretched -7.94% from VWAP. Composite is genuinely FLAT (conf 11.7). With 6.41% ATR, orderbook -0.63 sell-imbalance, Friday cash open and weekend gap risk, any entry needs a huge stop and gets whipsawed - no edge, so stand aside. HOLD.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 1311.52,
+    "expires_min": 240,
+    "note": "Losing the 1311 support (the only structural floor below) confirms the downtrend resuming with room to run, turning a chase into a clean structural short entry on the retest."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF, semis-led rout (Nasdaq -1.8%, VIX +11% to ~18.5) on AI-capex fears. Rates a headwind (~52% odds Sept HIKE). US cash open Fri; weekend gap risk. SNDK: semi/memory, moves with TSM (0.55) and MU (0.85). Same risk-off downdraft; THINNEST book of the group, gappy. Scan composite FLAT (conf ~11.7).",
+    "sentiment": "SNDK bullish momentum but NO catalyst inside 48h: NAND/AI-memory darling (+707% YTD), riding Bernstein PT $3,000 / Goldman $2,200 (analyst moves, low weight). No imminent binary: Q4 earnings Aug 5, investor day Aug 13 (both outside 48h). Momentum-only; trades with the broader memory/AI-chip tape (corr MU 0.85, NVDA 0.64).",
+    "analyst": "SNDK last 1359.62, ATR% 6.41, BB width 40.55%, support 1311.52, resistance 1987; 15m RSI 12.2, 5m RSI 13.0, stoch 14, vwap_dist -7.94%, orderbook -0.63, RS -41.55%. 15m staircase down waterfalled 1389 -> 1357 on the biggest-volume bar, low 1349.94, last bar a tiny doji. Shorting chases a name already 8% below VWAP (a bounce stops any honest short); longing is a knife-catch in a risk-off rout with no reversal bar. Both sub-1.5 R:R with a huge stop - HOLD.",
+    "portfolio": "HOLD SNDK - falling knife, deeply oversold, thinnest book; short only on loss of 1311 support."
+  },
+  "timestamp": "2026-07-17T20:06:13.599848+00:00"
+}

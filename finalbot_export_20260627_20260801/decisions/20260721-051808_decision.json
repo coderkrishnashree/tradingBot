@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "MU/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.55,
+  "playbook": "none",
+  "forecast": "Price stalled at the top of a +3% VWAP-stretched countertrend bounce (RSI 74.8, stoch 89, %B 0.98, ADX 86); last 4 bars printed lower highs off 909 and a dip to 899 bought back to 901.5 \u2014 a coin-flip pivot. Expect either one more failing push to retest 905-909 (fade the retest) or a break of 899 that rolls it back toward VWAP ~875.",
+  "expectancy_note": "Short bias (crowded longs funding +0.107%, L/S 2.16, RS -31.5%, sector rout, extended) but market-shorting at 901 right after a 899 bounce risks the stop on a retest push; waiting for the 899 break gives ~2R fade to 875 with p~0.6 vs a chase with negative expectancy. Long is a chase into a rout \u2014 rejected.",
+  "rationale": "MU is the weakest name in a chip complex in an active bear-market rout, riding a stretched countertrend intraday bounce with crowded, heavily-paying longs (funding 0.107%, L/S 2.16) \u2014 the fade setup is there but momentum has only stalled, not reversed, and the last bar bounced off 899, so a market short now would likely be stopped by a retest of 905-909. Holding for a confirmed rollover below the 899 pivot avoids chasing and gives a clean short back toward VWAP ~875 / support 806. No long: chasing an extended bounce into a rout is this book's #1 loss pattern.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 899.0,
+    "expires_min": 180,
+    "note": "Losing the 899 pivot low confirms the countertrend bounce has topped and opens the fade back toward VWAP ~875."
+  },
+  "transcript": {
+    "macro": "Risk-OFF/defensive, hawkish Fed, ACTIVE chip rout (SOX technical bear market). MU is a chip-complex name caught in the sector selloff (corr 0.66 TSM, 0.87 SNDK), deep RS weakness. Long is counter-trend into the rout. Equity-tracker liquidity thin while US cash closed.",
+    "sentiment": "MU already reported fiscal Q3 Jun 24 (record rev, HBM sold out through 2027, $100B contracted) \u2014 NO fresh binary. Overhangs: chip-sector bear market + Jun 25 class-action alleging DRAM price-fixing (slow-burn, low near-term weight). Sentiment NEGATIVE via sector; broke $898 support per one source.",
+    "analyst": "MU 901.75: funding 0.00107 (extreme, crowded longs paying up), L/S 2.156 (very crowded long), orderbook -0.293, structure_bias -0.788 (very bearish positioning). RSI 74.8, stoch 89, bb_pctb 0.977, vwap_dist +3.03%, ADX 86, rel-strength -31.49% (worst in complex). Support 805.8 / resistance 1006. Last bars: lower highs off 909, dip to 899 bought back to 901.5 \u2014 stalled but not reversed. Fade setup but market short risks a retest-push stop; long is a chase. HOLD; short on loss of 899 pivot.",
+    "portfolio": "MU \u2014 HOLD (conf 0.55): extended, crowded-long weakest-in-complex fade setup; short below 899, no chase."
+  },
+  "timestamp": "2026-07-21T05:18:08.624043+00:00"
+}

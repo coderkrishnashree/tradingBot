@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "TSM/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Low-volume bounce to 403 is fading; last bar closed at its low (402.0). Expect a drift/retest toward 399-400 over the next few bars, with weekend/gap risk into Mon US open.",
+  "expectancy_note": "No edge: crowded-long lagging semi (RS -20.7%) into a selloff, fading low-vol bounce, mid-range with no fade extreme or clean pullback. HOLD has best expectancy.",
+  "rationale": "TSM is nominally MTF-up (30m/1h strong) but 4h is rolling over, 5m already short (RSI 31), and the bounce to 403 came on near-zero volume before the last two bars turned down into the low. Crowded long/short 2.63, negative orderbook, and RS -20.7% vs BTC in an AI-capex-scaleback semi selloff make a long a chase; a short lacks confirmation into a nominal uptrend. Price sits mid-range (402 vs 386.8 support / 440.9 resistance) with no fade extreme, no clean pullback, plus weekend gap risk \u2014 no trade is the highest-expectancy call.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 404.0,
+    "expires_min": 240,
+    "note": "Reclaiming the 403.9 swing high on volume proves the MTF uptrend resumed; flip to a long with a stop under 400."
+  },
+  "transcript": {
+    "macro": "Risk-off tilt, semis-led selloff (AI-capex-scaleback fears hit NVDA/TSM/SNDK). S&P -1.0%, Nasdaq -1.5% Fri Jul 17; VIX ~16.7; Fed on hold 3.50-3.75%. Equity-tracked pairs face weekend GAP RISK (US cash closed at scan). Complex crowded-long and uniformly lagging BTC. TSM lean long only intraday/small; stay out into US-open gap.",
+    "sentiment": "TSM NEUTRAL/slightly stale-bullish. Reported strong Q2 Jul 16 (rev $40.2B high end, 67.7% GM, raised FY26 growth >40%, capex $60-64B) but it's priced in \u2014 binary behind us, no fresh <=48h catalyst. AI-demand narrative intact.",
+    "analyst": "Nominally MTF-up but 4h rolling, 5m short, bounce to 403 on near-zero volume now fading into the low. Crowded long 2.63, negative orderbook, RS -20.7% in a semi selloff. Mid-range, no fade extreme, no clean pullback, weekend gap risk. HOLD; reconsider long above 404.",
+    "portfolio": "TSM \u2014 HOLD (no clean setup; trend-resumption long armed above 404)."
+  },
+  "timestamp": "2026-07-20T05:15:01.054911+00:00"
+}

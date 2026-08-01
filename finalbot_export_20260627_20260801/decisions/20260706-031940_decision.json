@@ -1,0 +1,25 @@
+{
+  "action": "hold",
+  "symbol": "SNDK/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.34,
+  "playbook": "none",
+  "expectancy_note": "No edge: p(win) ~0.45 either side, R:R <1.3. Scan long is weakest name (28.8%), 1h/30m/15m all flat, structure_bias -0.113 fights the long, and correlated complex (MU/EWY/INTC corr 0.79-0.84) is all bearish. Mid-range at VWAP = nothing to fade, nothing to chase.",
+  "rationale": "SNDK sits at 1830.7, dead-center of a wide 1782/1924 range and right at VWAP (+0.28%) with bb_pctb 0.543; no extreme to fade, no pullback to buy. The nominal 4h long is contradicted by flat 1h/30m/15m, negative structure bias, an offered order book (-0.137), and a memory/Korea complex it moves with (MU/INTC/EWY corr ~0.8) that is uniformly bearish amid a live SK Hynix-driven selloff. With the widest ATR here (0.91%, ~1.4-1.8% intraday), US cash closed and gap risk into NYSE open, this is a two-sided knife-catch; highest-expectancy position is flat. Size 0.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 1782,
+    "expires_min": 240,
+    "note": "Losing 1782 range-support with the bearish complex and negative structure confirms trend-continuation down and flips me to a short re-debate."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF, semis rolling over. BTC ~$63.4k, Extreme Fear; crypto drag/neutral. Memory-glut scare cracked semis. Tokenized equities: scan ~03:14 UTC (US cash closed), thin/gappy, open-gap risk. SNDK last 1830.7 MESSY/highest-risk: composite long 28.8% (lowest) but per-TF mixed (4h long, 1h/30m/15m flat). atr_pct ~0.9%, bb_width 3.7% = most volatile. +781% YTD but dropped ~26% this week on glut fears. Funding flat, L/S 1.24, OB -0.137 (offered), structure_bias -0.113 (tilts AGAINST scan long). Corr SNDK/EWY +0.79, SNDK/MU +0.84 \u2014 trades with Korea/memory complex, not TSM. If traded: half size, tight stops.",
+    "sentiment": "SNDK MIXED; momentum-bull narrative but tape just cracked. Structural bull intact (Q3 FY26 rev +251% y/y ~$6B, GM 78.4%, ~$42B backlog, NAND pricing rising). RISK (fresh, moving price): SNDK epicenter of July memory selloff \u2014 trigger SK Hynix HBM report; Micron (0.84 corr) -13% in a day. Continuation hits SNDK hardest. No earnings inside 48h. Analyst PT/split chatter = low-weight. High-beta memory, headline-driven, not clean.",
+    "analyst": "Textbook no-trade. Scan long weakest (28.8%), 1h/30m/15m all flat, structure_bias -0.113 fights the long, correlated complex (MU/EWY/INTC) all bearish amid live SK Hynix selloff. Mid-range at VWAP: nothing to fade or chase. Widest ATR + US-closed gap risk = two-sided knife-catch. Flat is best; flip to short on losing 1782.",
+    "portfolio": "HOLD SNDK/USDT:USDT (conf 0.34) \u2014 weakest signal, mid-range, structure against the long; stay flat."
+  },
+  "timestamp": "2026-07-06T03:19:40.005211+00:00"
+}

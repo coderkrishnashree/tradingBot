@@ -1,0 +1,26 @@
+{
+  "symbol": "EWJ/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.28,
+  "size": 0.0,
+  "entry": 95.26,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "forecast": "No real move to forecast: Saturday, US cash closed, perp is a zero-volume flatline pinned ~94.95-95.40. Price drifts on near-zero volume until Monday's cash open; any intraweekend tick is noise, not signal.",
+  "expectancy_note": "No edge: extended long (RSI 78, ADX 81, stoch 96) means chasing = the account's losing late-trend pattern (trend playbook 44% win, -2.89 avg); no range to fade in a squeezed 5% BB. HOLD has the best expectancy.",
+  "rationale": "EWJ is illiquid and detached \u2014 the last 20 bars are almost entirely 0.0-volume flat prints, so every indicator is unreliable. It is simultaneously extremely overbought (4h RSI 78.4, ADX 80.9, stoch 95.6, %B 0.87) with no range structure (BB width 5%, ATR 0.65%), so neither a continuation long nor a mean-reversion fade has an honest setup or confirmation. Learner stats show high-ADX trend longs have been this book's bleed, and CPI + bank earnings hit Tue. Wait for Monday's cash session and real volume.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 96.65,
+    "expires_min": 240,
+    "note": "A volume-backed reclaim of the 96.65 resistance on a live session would signal genuine breakout continuation worth entering; until then all prints are dead-tape noise."
+  },
+  "transcript": {
+    "macro": "2026-07-11 Sat, US cash/ETF CLOSED. Regime moderately risk-on but stretched. Weekend perps thin/gappy. EVENT: Tue Jul 14 June CPI + bank earnings. EWJ extremely extended (RSI 78.4, ADX 80.9, stoch 95.6) AND near-zero real volume \u2014 illiquid, signals unreliable; Japan/Asia beta needs its own cash session. Low-confidence.",
+    "sentiment": "Risk-on but stretched into Jul 14 CPI binary. EWJ: no stock-specific catalyst, macro/FX driven; near 52-wk high, very extended; supportive backdrop (Japan chip export strength, memory up-cycle) but sensitive to US CPI/rates spillover + USD/JPY. Neutral-to-mildly-long but overbought.",
+    "analyst": "Untradeable now: last 20 bars almost all zero-volume flatlines, so indicators are meaningless. Simultaneously extremely overbought with no range structure \u2014 neither continuation long nor fade has confirmation. High-ADX trend longs bleed this book. HOLD; only a volume-backed reclaim of 96.65 on a live session revives a long thesis.",
+    "portfolio": "HOLD EWJ \u2014 illiquid zero-volume weekend flatline, no tradeable edge; revisit on Monday's cash session."
+  },
+  "timestamp": "2026-07-11T11:02:55.049930+00:00"
+}

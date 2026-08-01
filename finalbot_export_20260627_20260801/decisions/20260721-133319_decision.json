@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "HOOD/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.55,
+  "playbook": "none",
+  "forecast": "After the sharp bounce off 101.6, price is stretched (%B 1.11, stoch 97.7, +2.23% over VWAP) into the 103.0 swing high; expect a stall/pullback toward 101.8-100.6 over the next 2-4 bars before any resolution rather than a clean immediate breakout.",
+  "expectancy_note": "No edge: composite flat 10%, longing here chases %B>1.1/stoch 97.7 (account's #1 loss), shorting a fresh impulsive bounce with OB bid +0.481 and crowded longs is the low-probability side. Both R:R < 1.5 at a mid-range price.",
+  "rationale": "HOOD just printed a 4-bar impulsive reversal off 101.6 support closing near session highs, but that leaves it extended above the upper Bollinger band and pinned stochastic with the composite signal dead flat (10%). Longing into this is the exact chase pattern that has bled this book; shorting a fresh bid-backed bounce mid-range (support 96.7 / resistance 116.7) has no confirmation and fights a heavy bid book. This is mostly COIN/BTC beta (corr 0.72/0.47) with no 48h catalyst \u2014 best expectancy is to wait for either a VWAP pullback to buy or a clean breakout, so size 0.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 103.05,
+    "expires_min": 240,
+    "note": "A hold above the 103.0 swing high confirms the bounce as continuation and opens a lower-risk long toward 104.3-105 with the stop back under 102.2."
+  },
+  "transcript": {
+    "macro": "Cautiously risk-on with hawkish-rates overhang. VIX 17.85. HOOD composite conf only ~10% (flat). Earnings July 29 (outside 48h). Crypto/retail-brokerage beta, correlated with COIN (0.72), BTC corr 0.47 \u2014 a risk-on proxy, fine while VIX is low, first to bleed if the tape rolls. BTC coiled ~$64K.",
+    "sentiment": "HOOD neutral now; earnings July 29 after close (outside 48h). Q1 disappointed (stock fell 13.2% on the April 28 print; crypto revenue -47%), market wary. Near-term moves as a crypto/retail-risk proxy; no 48h catalyst; direction tied to the crypto tape and broad risk appetite. Scan shows a weak/flat signal.",
+    "analyst": "Fresh 4-bar impulsive reversal off 101.6 closing near session highs, but that leaves it extended (%B 1.11, stoch 97.7, +2.23% VWAP) with the composite dead flat (10%). Longing chases the #1 loss pattern; shorting a fresh bid-backed bounce (orderbook +0.481, crowded longs) mid-range has no confirmation. Mostly COIN/BTC beta, no 48h catalyst. HOLD; arm a continuation long only on a hold above 103.05.",
+    "portfolio": "HOOD \u2014 HOLD; flat signal, stretched bounce into 103, long armed above 103.05."
+  },
+  "timestamp": "2026-07-21T13:33:19.992281+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "SOL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price is pinned just under 79.01 resistance after a 76.08->78.36 run; last 3 bars fading (78.18->78.04->77.97) with drying volume. Expect a stall/pullback toward 77.0-76.1 (VWAP/prior breakout) over the next 2-5 bars unless BTC clears 65.7k and drags SOL through 79.0.",
+  "expectancy_note": "Fresh long p(win) poor: RSI 81, stoch 90, +2.65% above VWAP, price above upper BB, only ~1.3% to resistance = chasing with <1.5 R:R. Short = fading ADX-62 uptrend and shorts are this account's losers (0.48 win). Both negative EV; HOLD is highest expectancy.",
+  "rationale": "SOL is extended and one-sided long (L/S 2.65, bias pinned -1.0) right into 79.01 resistance, and it is pure BTC-beta (corr 0.81, RS -5.9%) while BTC is capped at 65.7k with dominance rising. A fresh long here buys the top with a routine counter-bounce set to stop me; a short fades a powerful trend and matches the account's worst-performing bucket. No 48h binary catalyst forces a hand. Waiting for either a confirmed break-and-hold above resistance (for a retest long) or a range break down is the disciplined, positive-expectancy path.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 79.1,
+    "expires_min": 240,
+    "note": "A 15m close and hold above 79.01 resistance (ideally with BTC clearing 65.7k) proves the squeeze extends and sets up a pullback-buy on the retest of 79 rather than a chase."
+  },
+  "transcript": {
+    "macro": "Crypto weaker regime: BTC ~$64-65k capped at 65.7k resistance, dominance 56.4% rising, Fear&Greed 29 \u2014 alts underperform. SOL MIXED, contrarian-crowded: corr 0.81 BTC (BTC-beta), RS -5.9%, L/S 2.65 one-sided long, RSI 81/stoch 90, bb_pctb>1.0 overbought, squeeze risk if BTC fails 65.7k. Trim size.",
+    "sentiment": "SOL NEUTRAL-to-BULLISH, no <=48h binary. Testing $74-80 zone, strong fundamentals; catalysts (Alpenglow, ETF fee cuts) are Q3/longer. Near-term = macro/BTC beta.",
+    "analyst": "SOL pinned under 79.01 resistance after 76.08->78.36 run, last 3 bars fading on drying volume. RSI 81, stoch 90, above upper BB, +2.65% VWAP. Fresh long = chasing top <1.5R; short = fading ADX-62 trend and account's losing direction. Both negative EV. HOLD.",
+    "portfolio": "HOLD SOL \u2014 extended into resistance; buy only on confirmed break-and-hold above 79."
+  },
+  "timestamp": "2026-07-20T18:42:27.431947+00:00"
+}

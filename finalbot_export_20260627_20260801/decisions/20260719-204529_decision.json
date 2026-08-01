@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "MSFT/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.34,
+  "playbook": "none",
+  "forecast": "Dead weekend tape: MSFT likely oscillates 395-397 into Monday; the 396.71->395.98 drip is 18-unit-volume noise, not a real break. No follow-through expected inside window; needs a decisive loss of 394.5 to confirm downside.",
+  "expectancy_note": "p(win)~0.40 on a counter-trend short; learner p_win 0.467 (<0.5) says this exact short has been losing, and no clean level/RR at mid-range VWAP. HOLD has higher expectancy than fighting sector inflow in illiquid tape.",
+  "rationale": "MSFT short is counter-trend against the very sector rotation making it new highs, composite confidence is only 37% and the learner's p_win_learned is 0.467 (below breakeven) for this condition. Price sits mid-range at VWAP with no extreme to fade and near-zero weekend volume, so there is no honest R:R>=1.5 setup; a structure stop above 406 is >6x ATR away. Stand aside and let Monday's real liquidity reveal direction.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 394.5,
+    "expires_min": 240,
+    "note": "Losing 394.5 on real volume confirms the weekend drip is genuine downside follow-through, validating the divergence short toward 388/378."
+  },
+  "transcript": {
+    "macro": "Rotation OUT of semis INTO software - MSFT just made new highs on the rotation inflow, so the scan SHORT FIGHTS the sector inflow (counter-trend, low conviction). Bearish divergence flagged. rel-strength -1.5% (in line). Funding ~0. Weekend/market-closed gap risk; smaller size. FOMC Jul 28-29 outside window.",
+    "sentiment": "MSFT RISK: earnings Jul 29 after close (OUTSIDE 48h). EPS consensus ~$4.21; solid Q1 (+23% YoY). No same-session catalyst; tone neutral-constructive. Not a near-term trade driver yet.",
+    "analyst": "Counter-trend short vs the sector inflow making MSFT new highs; composite conf only 37% and learner p_win 0.467 (<0.5) - this exact short has been losing. Price mid-range at VWAP, near-zero weekend volume, the 396.71->395.98 drip is 18-unit noise. No honest 1.5R setup (stop above 406 is >6x ATR). HOLD; re-debate short only on a real-volume loss of 394.5.",
+    "portfolio": "HOLD MSFT - weak counter-trend short with negative learner edge in dead tape; armed short trigger below 394.5."
+  },
+  "timestamp": "2026-07-19T20:45:29.987167+00:00"
+}

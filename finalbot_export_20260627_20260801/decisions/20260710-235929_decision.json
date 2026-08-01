@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "ORCL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.55,
+  "playbook": "none",
+  "forecast": "Flatline drift at 141.0-141.4 on near-zero volume; oversold 30m/1h RSI (16.9/24.4) resolves either as a mean-revert bounce toward VWAP ~143.4 or a fresh break of 137.63 support. Neither confirmed yet, so next few bars likely stay pinned 140.6-141.6.",
+  "expectancy_note": "p(win) on a fresh short here ~0.45, R:R ~1.4 to 137.63 support with stop above VWAP - the deeply oversold intraday RSI makes a counter-bounce more likely to hit the stop first (the account's textbook late-short loss). Waiting for VWAP retest or 137.63 break beats chasing.",
+  "rationale": "Momentum (multi-TF short) and crowded long/short 2.608 favor downside, but 30m RSI 16.9 and 1h RSI 24.4 are deeply oversold and orderbook imbalance +0.284 plus support 137.63 cushion the downside - shorting -1.64% below VWAP into that is chasing, exactly how this book bleeds. ADX 23 is a weak trend, the tape is a dead flatline on microscopic volume, and it is Friday-night thin/gappy with US cash closed. HOLD and let it come to me: short a bounce into VWAP strength or a clean support break, not this stretched middle.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 137.6,
+    "expires_min": 240,
+    "note": "Losing the 137.63 support flips this to a confirmed short-continuation with fresh downside room rather than an oversold-middle chase."
+  },
+  "transcript": {
+    "macro": "Overall regime modestly risk-on into weekend close (S&P +0.42%, Nasdaq +0.29%, AI/semis-led). CRITICAL: Friday night UTC, US cash CLOSED for weekend -> tokenized equity perp, thin/gappy, size down. Crypto separate/weaker; ORCL BTC-corr low 0.362 -> equity-driven. ORCL: sector mixed-to-heavy (OCI RPO $638B +363% but stock -25% YTD, S&P downgrade BBB-, FY26 FCF -$23.7B, $40B FY27 raise overhang). Positioning leans short: structure_bias -0.215, L/S 2.608 crowded-long (contrarian bearish), orderbook +0.284 bid cushion. Momentum weakest: below VWAP -1.64%, 4h/1h/30m all SHORT, 30m RSI 16.9 & 1h RSI 24.4 deeply oversold, ADX 23 weak, RS -23.49% worst laggard. Read: momentum+positioning favor SHORT but oversold-bounce risk into bid support; MIXED-to-supportive shorts / hostile longs, weekend gap on top.",
+    "sentiment": "FRESH CATALYST: ~Jul 8-9 S&P downgraded Oracle to BBB- (one notch above junk), AI-capex cash-flow squeeze - FY27 capex $90-95B, FY27 FOCF deficit ~-$42B on ~$167B debt. Reason ORCL down ~25-35% YTD, key headline risk. Mixed reaction: shares rose ~2.7% on downgrade day; sell-side split (Bernstein/Piper defending). Minor: $0.50 dividend ex-date today (mechanical). No imminent earnings. Tilt BEARISH/cautious - fresh downgrade + cash-burn overhang, corroborated by weak scan; but downgrade days old (shock partly absorbed), ~$20B equity raise keeps negative tail live.",
+    "analyst": "Last 141.1, VWAP dist -1.64%, composite SHORT (blended -0.279, conf 35.1%), ADX 23 weak. 30m RSI 16.9 / 1h RSI 24.4 deeply oversold but 4h RSI 57.7 neutral. Support 137.63, resistance 149.29. Structure L/S 2.608 crowded-long (contrarian bearish), orderbook +0.284 bid cushion, structure_bias -0.215. 15m tape: dead-flat 141.0-141.4 for ~20 bars on microscopic volume - flatline drift, not active downtrend; selling stalled. Short at 141.1: stop above ~143.5 VWAP (~2.4 wide), target 137.63 (~3.5), R:R ~1.45 but deeply-oversold means bounce likely triggers stop first - the textbook late-short trap this book bleeds on. Long is against every higher-TF signal + fresh downgrade. HOLD - wait for VWAP retest ~143 to short strength, or clean break of 137.63 for short-continuation.",
+    "portfolio": "ORCL/USDT:USDT -> HOLD (conf 0.55): oversold-middle short is a chase; arm 137.63 break as short-continuation trigger."
+  },
+  "timestamp": "2026-07-10T23:59:29.869774+00:00"
+}

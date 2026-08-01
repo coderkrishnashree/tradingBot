@@ -1,0 +1,28 @@
+{
+  "symbol": "TSM/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.6,
+  "size": 0.0,
+  "entry": 401.0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "none",
+  "forecast": "Price is pinned at the 400-401 pivot/VWAP, coiling between the 399.12 flush low and the 404 snap-back high; chop in this box until it resolves through 399 (breakdown toward 386.8) or back above 404.",
+  "expectancy_note": "No edge: price at VWAP (+0.23%) and mid-Bollinger (%B 0.58); long fights hostile semis tape + crowded 2.61 longs (weakest RS -20.76), short lacks a fresh trigger after the 400 reclaim.",
+  "rationale": "TSM sits on the freshly-broken sub-$400 pivot in a risk-off, rotate-out-of-chips tape, and is the weakest relative-strength name in the group. Composite reads long but that is the trapped crowd (long_short 2.61) while 4h MACD is deeply negative. Price at VWAP/mid-band offers no honest entry either direction, so wait for the range to break. Weekend equity gappiness adds reason not to force size.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 399.0,
+    "expires_min": 240,
+    "note": "Losing 399 confirms the sub-400 breakdown resuming, opening a short toward support 386.8 in a hostile semis tape."
+  },
+  "transcript": {
+    "macro": "Near-term RISK-OFF; week Jul 13-17 ugly for tech (Nasdaq -2.9%), rotation OUT of chips. Semis smoked (SOXX worst week in a year, AI-capex-cut fears). TSM fell >5% to a two-month low below $400, at sector-breakdown pivot; weakest relative alongside MU; long_short 2.61 crowded long, structure_bias -0.24. Catalysts: Alphabet Jul 22, FOMC Jul 28-29. Tokenized equities thin/gappy on weekend.",
+    "sentiment": "TSM already reported Q2 Jul 16 (rev $40.2B beat, EPS $4.31 beat, +36% YoY, strong AI guide) \u2014 binary is behind us. Now trades as AI-chip momentum/sympathy name (corr MU 0.62, QQQ 0.65). No scheduled <=48h catalyst of its own; sector tape actively hostile at the sub-$400 pivot.",
+    "analyst": "Knife on a broken pivot in a hostile semis tape. Weakest RS, crowded long (fuel for a squeeze down), sub-$400 broken first time since May. ADX 40 high but 4h MACD deeply negative \u2014 higher-frame trend down while 15m flat. Price at VWAP (no edge) and mid-Bollinger (no mean-reversion edge). Long chases the weakest horse into crowded longs; short lacks a fresh trigger after the 400 reclaim. No clean R:R either way \u2014 HOLD with armed triggers.",
+    "portfolio": "TSM \u2014 HOLD (conf 0.60): no edge at the sub-$400 pivot/VWAP; short arms on a loss of 399."
+  },
+  "timestamp": "2026-07-20T02:13:25.470287+00:00"
+}

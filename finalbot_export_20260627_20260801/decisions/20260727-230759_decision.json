@@ -1,0 +1,23 @@
+{
+  "symbol": "MU/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.4,
+  "size": 0,
+  "entry": 881.3,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "rationale": "MU has the most bearish structure in the set (structure_bias -0.45, orderbook -0.91), but at 881 it is extended below the lower Bollinger band, 3.46% under VWAP, with 1h/5m RSI ~22 and a 4h bullish divergence \u2014 a market short here gets shaken out by the mechanical oversold bounce before the trend resumes (p_win_learned 0.38, the account's #1 loser). The high-expectancy version is to short a retest of broken support/VWAP near 890, not the low. HOLD until that bounce or a clean break of 846.7 support; size down for earnings/macro sensitivity.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 890,
+    "expires_min": 240,
+    "note": "Bounce to 890 = VWAP/broken-support retest; the honest short entry into the -0.91 offered book rather than chasing 881."
+  },
+  "transcript": {
+    "macro": "Regime HOSTILE-to-MIXED. US cash CLOSED, thin/gappy, Monday gap risk. Chip earnings live. MU: L/S 1.59, orderbook -0.91 (heavily offered, strongest bearish in set), structure_bias -0.45 (most bearish structure), composite short aligned, but 4h bullish divergence + support 847 near, cyclicality-short narrative crowded. Verdict: LEAN SHORT but size down.",
+    "sentiment": "Biggest catalyst FOMC Wed Jul 29. MU: no earnings inside 48h (next late Sept). Live risk: MSFT/META/AMZN report this week \u2014 AI-capex wobble hits AI-memory read-through. HBM sold out through 2026-27 (~$100B, long-horizon). Verdict: NEUTRAL/slightly BEARISH.",
+    "analyst": "Most bearish structure/orderbook in set but price extended below lower BB, -3.46% VWAP, LTF RSI ~22, 4h bull div -> market short is late-into-oversold; p_win_learned 0.38. Sell the retest at ~890 (p(win)~0.6, R:R>2 to 860) or a clean break of 846.7. HOLD.",
+    "portfolio": "HOLD MU \u2014 strongest bearish structure but short the ~890 retest, don't chase the low."
+  },
+  "timestamp": "2026-07-27T23:07:59.921298+00:00"
+}

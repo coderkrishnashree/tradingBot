@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "MSTR/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "1h/4h uptrend intact but the 15m just dropped from 100.8 to 97.2 and is only weakly bouncing; expect chop/further dip toward 96.5-95 (VWAP catch-up) before the next real leg. No edge buying mid-pullback at +1.56% above VWAP with 5m/15m rolling down and BTC soft.",
+  "expectancy_note": "Long at spot 97.9 has support ~90 far away and a falling 15m; honest stop below 97.2 gives only ~1.5R to 100 while momentum is against \u2014 negative edge now. Waiting for a 100 reclaim turns it into a clean trend-continuation long.",
+  "rationale": "MSTR is the cleanest BTC-beta long (least-crowded L/S 1.29, +0.99% RS, structure_bias only -0.09) and 1h/4h are firmly up, but this is a chase mid-pullback: price faded 3.5% off 100.8 on rising volume, 15m -0.415 and 5m short, still +1.56% above VWAP with BB %B 0.92 \u2014 not a discount entry, and BTC itself just slipped 65.7k to 65.0k. Best expectancy is to wait: a reclaim of the ~100.0 broken level confirms the pullback is done and the trend resumes for a clean long with tight risk. Holding until then; no size committed into a falling knife with far-away support.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 100.1,
+    "expires_min": 240,
+    "note": "Reclaiming 100 (top of the pullback zone / recent swing) proves the 15m dip is over and the 1h/4h uptrend has resumed \u2014 that flips me to a trend-continuation long targeting 102/103."
+  },
+  "transcript": {
+    "macro": "2026-07-20 RISK-OFF/DEFENSIVE. Crypto Extreme Fear, BTC ~$64-65k. Funding ~0; crowded-long board = contrarian-short tilt. MSTR line: best crypto-beta LONG \u2014 least crowded of BTC-beta trio (L/S 1.29), structure_bias -0.09, btc_corr 0.73, only name with positive RS (+0.99%). Cleanest crypto-beta long IF BTC holds; a ~1.5x BTC bet, not independent.",
+    "sentiment": "MSTR (Strategy): new 'Digital Credit Capital Framework' (USD reserve, up to $1B buyback, selective BTC monetization) drove +29% bounce off late-June lows; added 520 BTC (holdings 847,363) but also confirmed selling ~3,588 BTC. Citi reaffirmed Buy $260. Caveat: bounce on fading volume/negative money flow \u2014 'fragile.' Highest BTC beta in book (0.73), no standalone <=48h catalyst. Lean neutral.",
+    "analyst": "1h/4h firmly up but 15m dropped 3.5% off 100.8 to 97.2 on rising volume, 5m/15m short, still +1.56% above VWAP (%B 0.92) \u2014 not a discount entry, and BTC slipped 65.7k->65.0k. Long at spot has support ~90 far away, only ~1.5R with momentum against = chase. HOLD; reconsider on a reclaim above 100.1 for a clean trend-continuation long.",
+    "portfolio": "HOLD MSTR \u2014 cleanest BTC-beta long but mid-pullback chase; wait for a reclaim above 100."
+  },
+  "timestamp": "2026-07-20T20:18:55.868855+00:00"
+}

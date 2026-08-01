@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "XAG/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.62,
+  "playbook": "none",
+  "forecast": "Weekend tape stays pinned 58.3-58.9 into Monday; no directional break until FOMC Wed. Range likely drifts slightly lower toward 57.8-58.0 given USD/Fed headwind.",
+  "expectancy_note": "No setup: price mid-range at VWAP (dist 0.08%), not at support/resistance, 15m/5m flat, thin gappy weekend tape. p(win) ~0.5, no edge; HOLD is highest expectancy.",
+  "rationale": "XAG is coiling dead-flat at 58.5 with sub-$0.05 candle ranges and drying volume on a thin weekend, sitting exactly at fair value (VWAP dist 0.08%) so neither a mean-reversion fade nor a trend pullback exists. The crowd is maxed long (L/S 4.07, bias -0.292) into a hawkish-Fed/firmer-USD headwind, which biases risk lower, but the real move is a Wed FOMC binary \u2014 chasing into that on a gappy weekend has no edge. No honest R:R here, so size zero.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 57.8,
+    "expires_min": 240,
+    "note": "Losing the 57.8 consolidation floor confirms the crowded-long flush toward the $57 target and opens a short with the macro headwind."
+  },
+  "transcript": {
+    "macro": "Regime HOSTILE-to-MIXED for fresh risk. Hawkish Fed, oil-driven inflation, firmer USD. WEEKEND: cash markets CLOSED \u2014 thin, gap-prone until Monday. Leans shorts/defensive; reduce size. XAG-specific: silver ~$58.5, DOWN 2.8% on 7/23, drifting toward $57; hawkish-Fed/firmer-USD is a near-term headwind despite structural supply deficit; scan shows extreme L/S 4.07 = crowded long, contrarian-negative.",
+    "sentiment": "Most event-loaded week of the quarter. XAG price is Fed-hostage into Jul 29 FOMC + Powell presser (dovish=pop, hawkish=flush); high corr to XAUT 0.877; bullish structural tone but event-driven, not trend-driven, next two days.",
+    "analyst": "Coiling dead-flat at 58.5 at VWAP, drying volume, thin weekend. Crowd maxed long into softening tape and a Wed FOMC binary. Price mid-range so no fade or pullback entry exists. HOLD; reconsider short on loss of 57.8.",
+    "portfolio": "XAG: HOLD 0.62 \u2014 crowded long, mid-range, Fed-hostage; stand aside."
+  },
+  "timestamp": "2026-07-26T04:05:53.601191+00:00"
+}

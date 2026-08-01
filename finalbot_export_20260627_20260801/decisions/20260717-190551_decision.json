@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "SNDK/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.4,
+  "playbook": "none",
+  "forecast": "Relief bounce to 1497 is spent; price fading in lower-highs back to 1419 near session lows. Expect chop/coil 1408-1481 next few bars; a clean break of 1406 opens 1360 then 1311, while reclaim of 1481 revives the bounce.",
+  "expectancy_note": "Short here R:R<1: honest stop above 1481 (~4.4%) vs TP1 at 1388 (~2.2%); +0.946 orderbook imbalance and account's -0.491 structure-bias/-0.87R short record kill the edge on a chase into lows.",
+  "rationale": "SNDK sits mid-range at 1419 after an already-completed dead-cat bounce, with 6.94% ATR bars and no structural level between here and 1311 support. Shorting into stacked dip-buyers near the lows is precisely the late-short-stopped-by-bounce pattern that has bled this account; a long fights a live 4h downtrend in a memory bear market into an illiquid weekend close. No location and negative expectancy either way, so wait for the base to break or the bounce to reclaim before committing size.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 1406,
+    "expires_min": 240,
+    "note": "Losing the 1406 session floor confirms the bounce failed and opens a clean trend-continuation short toward 1360/1311 with structure to stop against."
+  },
+  "transcript": {
+    "macro": "Regime HOSTILE/risk-off, chip/AI-capex unwind; memory names in bear market. Tokenized equity perp ~19:00 UTC Fri -> weekend gap risk. Funding 0. SNDK (1419.05): MOST DANGEROUS/two-sided. Plunged 12%+ at cash close on TSM-capex spillover; trend down (4h RSI 31, rel_strength -39.35% vs BTC, deep laggard). BUT structure_bias +0.239 from orderbook imbalance +0.946 and L/S 1.15 -- dip-buyers stepping in, shorts NOT crowded. ATR 6.94% (highest), ADX 62 = violent both ways. Knife-catch/squeeze zone -> smallest size. Conviction rank short HOOD>NVDA>SNDK.",
+    "sentiment": "SNDK most news-active, cleanest short STORY but violent. Cratered ~15% Jul 15 (closed $1,615, now ~1,411-1,439) on double hit: Argus initiated Hold (post-spinoff rally priced in) + report CoreWeave exploring derivatives to hedge falling memory prices (demand red flag). +707% YTD (top S&P performer) -> crowded momentum unwind, high vol. Next binary earnings Aug 5 + investor day Aug 13 (outside window). Sell-side PTs bullish (Goldman $2,200, Bernstein $3,000) but stale.",
+    "analyst": "15m: dead-cat bounce to 1497 already spent, fading in lower-highs back to 1419 near lows. 4h down (RSI 31, MACD deeply negative, rel_strength -39%). But entry location is bad: price already at session lows, only real level below is 1311 (~7.6% away), ATR 6.94%/bar, orderbook +0.946 (dip-buyers stacked). Honest short stop above 1481 (~4.4%) vs TP1 1388 (~2.2%) = R:R<1, fails the gate and matches account's late-short-stopped losing signature. HOLD, arm break of 1406.",
+    "portfolio": "HOLD SNDK -- no location, R:R<1 into stacked bids; arm a break below 1406 to reopen the short."
+  },
+  "timestamp": "2026-07-17T19:05:51.505925+00:00"
+}

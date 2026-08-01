@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "MSFT/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.66,
+  "playbook": "none",
+  "forecast": "Pinned Sunday-night tape: price chops in a 383.8-385.2 micro-range around VWAP; no directional resolution expected before the cash market reopens. 15m ATR is 0.05% - nothing tradable moves inside the next few bars.",
+  "expectancy_note": "No setup clears 1.5R: honest stop sits below 383/378 (>1.5x mid-ATR) while any target is unreachable in a pinned tape; p(win) on a chase-long into stretched LTF RSI (76/86) is negative expectancy. HOLD is the highest-expectancy line.",
+  "rationale": "MSFT is a tokenized equity with the US cash market CLOSED - thin, gappy, pinned, and facing a hard event wall (earnings Wed AC + FOMC Wed) inside the 48h window; macro explicitly says do not carry size into 7/29. L/S 1.865 is crowded long and the fast frames are already stretched (5m RSI 86), so a market long is chasing a pin with no reachable target and a far, dishonest stop. No edge, no size.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 378.0,
+    "expires_min": 240,
+    "note": "Losing the 378 support base breaks the compressed range and confirms distribution off the crowded-long book - opens an intraday short with a real level to lean on."
+  },
+  "transcript": {
+    "macro": "2026-07-26 Sun: MIXED / risk-off into a heavy event week. Nasdaq -2.1% on the week (chip-led selloff); crypto the relative bright spot, BTC ~$65k pressing $68k resistance on thin summer volume. Sunday night = every tokenized US stock/ETF (AAPL, QQQ, MU, NVDA, MSTR, TSLA, CRCL, MSFT, HOOD, TSM, COIN, EWY) trades with its cash market CLOSED -> thin, gappy, pinned. Calendar: FOMC Wed 7/29; MSFT/META earnings Wed AC; AAPL/AMZN Thu AC. Derivatives book is crowded LONG (contrarian-bearish) with funding near-flat and RSIs stretched. Argues for smaller size and no directional swings held through Wed/Thu. The only two environments that actually support a trade this cycle: CL short (real 24h liquidity, clean supply catalyst) and BTC / BTC-proxy longs on a PULLBACK, not chasing the vertical.",
+    "sentiment": "Heavy earnings gauntlet inside the window: FOMC 7/28-29 (hold at 3.50-3.75% expected) plus MSFT+HOOD earnings Wed 7/29 AC and AAPL+COIN Thu 7/30 AC -> overnight gap risk on those names and index-level on QQQ. CL: bearish (OPEC+ output expansion, IEA/EIA cut 3Q26 Brent to ~$74). MU: very bullish narrative (HBM sold out through 2027) but no imminent catalyst. NVDA: earns ~Aug 26 (no near-term print). EWY: highest idiosyncratic risk (KOSPI -23% in July, 7 circuit breakers, bounced ~40% off lows). MSTR: sentiment deteriorating - Strategy now selling BTC + stock to fund preferred dividend. TSLA: reported 7/22, big EPS miss still digesting. CRCL: earns Aug 5, constructive USDC flow. TSM: reported 7/16 big beat, catalyst passed. BTC: cautious/Fear tone, ETF outflows into the Fed. SOL: best idiosyncratic catalyst (spot SOL ETF NYSE Arca approval 7/24) but pinned by broad crypto / FOMC risk-off (0.85 corr to BTC).",
+    "analyst": "MSFT is a tokenized equity with the US cash market CLOSED - thin, gappy, pinned, and facing a hard event wall (earnings Wed AC + FOMC Wed) inside the 48h window; macro explicitly says do not carry size into 7/29. L/S 1.865 is crowded long and the fast frames are already stretched (5m RSI 86), so a market long is chasing a pin with no reachable target and a far, dishonest stop. No edge, no size.",
+    "portfolio": "HOLD - dead pinned tape (15m ATR 0.05%), earnings + FOMC Wed wall; nothing tradable."
+  },
+  "timestamp": "2026-07-26T23:11:26.931648+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "CRCL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price capitulated 65.8->62.84 on huge volume and the last 15m bar stabilized at 63.40 just above 61.78 support; expect a mean-reversion bounce toward 65-66 (VWAP/broken-support) OR a support flush through 61.78 toward 55 \u2014 either way spot is a no-touch: 6.6% below VWAP, RSI 19, crowded-long squeeze fuel.",
+  "expectancy_note": "Shorting the hole here is negative expectancy: late-short-into-stretched-tape is this account's proven loser (trend shorts 45% win, -2.51 avg); a routine bounce hits any honest stop first. Best EV is wait for the bounce to short strength or the breakdown to confirm.",
+  "rationale": "ADX 83 downtrend but price is deeply extended (-6.6% VWAP, 15m RSI 19, %B negative) and just printed a capitulation flush that the next bar bought back, sitting on 61.78 support with L/S 2.66 crowded long = prime squeeze risk. Composite is only -0.106/15% confidence, so no fresh short strength to sell, and no bullish divergence to buy the squeeze. GENIUS Act binary Jul 18 and CPI tomorrow add two-sided event risk into thin equity-token hours. No positive-expectancy market entry exists; wait for either a bounce to short into or a clean support break.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 61.78,
+    "expires_min": 240,
+    "note": "Losing 61.78 support proves the capitulation isn't finished and opens 55/49 (Compass Point target / disappoint case) \u2014 that breakdown is a fresh short trigger to re-debate."
+  },
+  "transcript": {
+    "macro": "Env MIXED-to-SHORT-biased; enter shorts on rallies not breakdowns, small size. June CPI Tue Jul 14 08:30 ET inside 48h. Crypto risk-OFF (BTC weak). CRCL: bias -0.335, L/S 2.66 (extremely crowded long), ADX 83 violent downtrend, RSI 28.7, -6.6% below VWAP, rel-strength -16.13, btc_corr 0.55. Prime squeeze candidate \u2014 short only strength, do not chase down.",
+    "sentiment": "CRCL event-heavy: OCC national trust-bank charter granted Jul 10 (+16% intraday to ~$72.85, partly priced) vs GENIUS Act implementation-rules deadline Jul 18 \u2014 a two-sided binary; chart support ~$61.70, downside toward $49 if rules disappoint. High-beta to crypto (corr to SOL 0.475). Expect volatility into Jul 18.",
+    "analyst": "Violent ADX-83 downtrend but wildly extended (-6.6% VWAP, 15m RSI 19, %B<0); a 9400-volume capitulation flush was immediately bought back, resting on 61.78 support with L/S 2.66 crowded long = prime squeeze. Composite only -0.106/15% (no fresh short strength) and no bull divergence. Late-short-into-stretched-tape is the book's core loss pattern. HOLD; re-debate a short on a confirmed break of 61.78.",
+    "portfolio": "HOLD CRCL \u2014 no-touch extended flush at support; short only strength or a clean 61.78 break, Jul 18 GENIUS event."
+  },
+  "timestamp": "2026-07-13T14:07:40.235675+00:00"
+}

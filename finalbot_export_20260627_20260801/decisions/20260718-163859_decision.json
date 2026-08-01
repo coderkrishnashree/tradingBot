@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "QQQ/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.34,
+  "playbook": "none",
+  "forecast": "Dead weekend drift continues in the 694.5-696.5 pocket with US cash closed; no directional move to trade until Monday liquidity. The real event is the Monday gap, direction unknown given 4h RSI 22.8 oversold vs risk-off tape.",
+  "expectancy_note": "Fresh short here is negative expectancy: p_win_learned 0.358, account shorts win 0.47/-0.87R, price only ~1% above 688 support, 4h RSI 22.8 = chasing extended down-move into a likely relief bounce.",
+  "rationale": "QQQ is deeply oversold on 4h (RSI 22.8) after ~-2.9% on the week, sitting just ~1% above support 688.09 with only dead ~1pt weekend drift on the tape and US cash closed until Monday. Shorting into that gives thin downside room, high gap risk, and the learner shows this exact short condition losing (0.358) with the account's shorts bleeding overall. No live move to forecast means the highest-expectancy action is to wait; a decisive break of 688.09 confirms the next down-leg with real liquidity, otherwise this is a bounce-prone extended short to avoid.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 688.09,
+    "expires_min": 240,
+    "note": "Losing the 4h support 688.09 on real volume confirms a fresh down-leg and makes a momentum continuation short valid rather than chasing mid-air."
+  },
+  "transcript": {
+    "macro": "RISK-OFF, short lean, low-conviction due to weekend illiquidity. Sat Jul 18 scan, US cash closed until Monday -> thin/gappy perps, Monday-open gap risk. QQQ SHORT (blended -0.278), L/S 1.01 (balanced), funding ~0, orderbook imbalance -0.82 (heavy offer -> supports short but thin-book unreliable), rel strength -10.2%. Cleanest short alignment in set: TSM/QQQ.",
+    "sentiment": "Broad AI/semiconductor-led tech selloff Fri Jul 17. QQQ IS the macro overlay: Nasdaq -1.4% Fri, ~-2.9% week, chip-led, second straight down session, rotation out of AI, Iran risk-off. Mega-cap earnings cluster begins next week (GOOGL 7/22). Momentum + sentiment negative into this cycle.",
+    "analyst": "Deeply oversold on 4h (RSI 22.8) after a -2.9% week, only ~1% above support 688.09, and just dead ~1pt weekend drift with US cash closed. Fresh short = thin downside room + high gap risk; learner p_win 0.358 and the account's shorts bleed (0.47/-0.87R). No live move to forecast. HOLD; reconsider a momentum short only on a decisive break below 688.09.",
+    "portfolio": "QQQ: HOLD - aligned bearish but oversold and ~1% above support on a dead book; wait for the 688 break, no trade."
+  },
+  "timestamp": "2026-07-18T16:38:59.058234+00:00"
+}

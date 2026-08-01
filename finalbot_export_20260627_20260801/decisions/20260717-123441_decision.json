@@ -1,0 +1,28 @@
+{
+  "symbol": "BTC/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.55,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "none",
+  "forecast": "Relief bounce from 62.6k to 63.33k is fading on lower-high/lower-close bars into mid-range under VWAP; expect chop 62.9k-63.3k next few bars, resolving DOWN toward 62.6k, then 61.78k only if the 62.6k higher-low breaks \u2014 otherwise the heavy bid book squeezes it back to VWAP 63.3k.",
+  "expectancy_note": "Short here p(win)~0.5 but R:R<1.5: honest ~1ATR stop (63.8k, above resistance/into bid book) vs only ~550pt to first support 62.6k = sub-1.5 R:R; chasing a not-yet-extended faded bounce into a +0.842 bid book is the account's #1 loss pattern. HOLD until structure breaks has higher expectancy.",
+  "rationale": "HTF is short (1h RSI 32.5, 4h short) and the intraday bounce is rolling over on lower highs just under VWAP, so bias is down \u2014 but price sits mid-range, not extended, and a market short here into the +0.842 bid book at 61,777 support plus fresh ETF inflows would get wicked by a routine bounce before it pays. R:R to the first real target (62,600) does not clear 1.5x with an honest ATR stop. Best expectancy is to wait: either a break of the 62,600 higher-low (confirms failure, opens 61,777 with room) or a bounce back into 63,320-63,470 to short with clean R:R. No size until then.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 62600,
+    "expires_min": 240,
+    "note": "Losing the intraday higher-low (62,600) confirms the relief bounce failed and opens a clean short toward 61,777 with real room below."
+  },
+  "transcript": {
+    "macro": "RISK-OFF session. Broad crypto -1.6%, BTC -1.2%, F&G 27 (fear). Driver external: semi-led equity selloff + Middle East tensions. DXY firm ~100.75, gold >$4,000. BTC dominance elevated ~56.3% (defensive). No CPI/FOMC in next 48h (FOMC 7/28-29). BTC derivs: funding flat/neutral, OI stable ~$49B (no squeeze fuel), L/S mildly long ~1.18x (less than 30d norm, retail de-risked), order book strong bid-side +0.842 at support 61,777, structure_bias ~+0.069. Scan: $63,156, lower third of range (bb_pctb 0.13, RSI 36, VWAP -1.7%). Support 61,777 / resistance 65,567. Verdict: MIXED-to-HOSTILE for longs, modest edge to SHORT/fade, LOW conviction. Biggest risk: risk-off reversal spike toward 65.5k on bid-heavy book. Trade smaller (weekend liquidity).",
+    "sentiment": "Tone flipped from washed-out to cautiously stabilizing over 2 weeks, NOT euphoric. BTC bottomed ~$58-60k ~July 1 (extreme fear 12-16), rebounded >$65k by July 15 (index only ~35), faded to ~$63,150 \u2014 'relief bounce fading', fits short bias. Catalyst: FOMC July 29 (~12d out, outside 48h). Nothing on calendar inside 48h. Flows: ETFs worst-ever June (~$4.5B out) but 10-day outflow streak ENDED early July with ~$510M inflows over 3 sessions (BlackRock-led) \u2014 main argument AGAINST pressing shorts, caps downside if it continues. Security week July 5-11 (~$35M, altcoin/DeFi-specific, NOT BTC). Regulation mildly benign. Net: near-term news NEUTRAL, slightly two-sided for a short; no \u226448h binary forces the trade.",
+    "analyst": "BULL: heavy bid book +0.842 at 61,777, structure_bias +0.069, funding neutral, ETF inflow streak (~$510M/3 sessions) and defensive BTC-dominance bid cap downside and threaten a risk-off reversal spike toward 65.5k; 15m score flipped long (+0.9, RSI 63) on the bounce. BEAR: 1h (-0.76, RSI 32.5) and 4h (-0.38) still short; faded relief bounce (62.6k->63.33k) rolling over on lower highs/closes under VWAP (-1.73%); F&G 27; macro risk-off; learner p_win 0.595 for short. RISK: mid-range entry means a short chases a not-yet-extended move into a strong bid book + ETF-inflow headwind \u2014 a counter-bounce to VWAP 63.3k (just tagged) stops an honest short first; R:R to first support 62.6k is sub-1.5. VERDICT: bias down but no clean entry now \u2014 HOLD, arm a short trigger on a 62,600 break (or a bounce into 63.3k-63.5k); weekend-thin liquidity argues for patience.",
+    "portfolio": "BTC/USDT:USDT \u2014 HOLD (conf 0.55): bias down but no clean R:R short at mid-range; wait for 62,600 break or a bounce to 63.3k-63.5k."
+  },
+  "timestamp": "2026-07-17T12:34:41.804248+00:00"
+}

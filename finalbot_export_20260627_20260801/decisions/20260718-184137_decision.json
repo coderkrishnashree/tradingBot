@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "SNDK/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.62,
+  "playbook": "none",
+  "forecast": "Violent oversold chop 1311-1354; price basing above 1311.52 support, rejected 1354. Expect continued weekend chop inside this band with no clean directional edge until 1311 breaks or 1354 reclaims.",
+  "expectancy_note": "Short is late/stretched (vwap -7.74%, 1h RSI 26.8, stoch 13.6) into a closed-market gap-squeeze - the account's proven loss pattern (shorts 0.47 WR, -0.87 avg). Long fights a live -14% crash. Both sub-1.5 R:R; flat is highest expectancy.",
+  "rationale": "SNDK is the epicenter of the memory/AI-chip crash, worst rel-strength in scan (-44.85%), ATR 4.73%, isolated equity story (btc_corr 0.004). Price is already 7.74% below VWAP and deeply oversold, so a market short chases the knife into likely squeeze/Monday-gap risk; a long fights the dominant bearish catalyst with no reclaim trigger. Learner p_win 0.355 and short-book bleed both argue against forcing a trade. Mid-range in a thin weekend tape = no edge; wait for the level to resolve.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 1311.52,
+    "expires_min": 240,
+    "note": "Losing the 1311.52 support (base low) confirms the knife resuming lower and opens a clean short with structure above the stop, rather than chasing mid-range."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF/DEFENSIVE. Sat Jul 18, US cash closed until Mon Jul 20 -> tokenized stocks thin & gappy, Monday gap risk. Equities closed Fri on lows on AI/semi rotation; memory names epicenter. SNDK-specific HOSTILE for longs: -14% Thursday, broke <$1,500, off a ~858% H1 run in violent profit-taking; Philly Semi -6%. Scan: rel_strength -44.85% (worst), composite short, 1h RSI 26.8 oversold, ATR 4.73%, btc_corr 0.004. orderbook +0.767 is a thin-weekend artifact - ignore.",
+    "sentiment": "SNDK bearish and the one LIVE <=48h catalyst: broke below key $1,500, huge intraday range Jul 16 (high $1,551 low $1,353, ~-12%) on NAND price-weakness fears + China memory-supply competition. Earnings Aug 5 (outside window). Near-term news argues for downside bias; tape broken, momentum negative, but oversold so expect violent chop.",
+    "analyst": "Both sides fail expectancy. Short is late/stretched (vwap -7.74%, 1h RSI 26.8, stoch 13.6) into a closed-market gap-squeeze - matches the account's short-book bleed (0.47 WR, -0.87 avg). Long fights a live -14% crash with no reclaim trigger. Learner p_win 0.355. Price basing 1311-1354 in thin weekend tape = no edge. Arm a short only if 1311.52 support breaks with structure.",
+    "portfolio": "HOLD SNDK - falling-knife epicenter; no honest R:R either way, arm short on a 1311.52 break."
+  },
+  "timestamp": "2026-07-18T18:41:37.368541+00:00"
+}

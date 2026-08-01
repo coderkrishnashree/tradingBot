@@ -1,0 +1,26 @@
+{
+  "symbol": "ORCL/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.58,
+  "size": 0.0,
+  "entry": 129.8,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "forecast": "Post-flush coil: price bounced off 127.65 support and is chopping 129.0-130.7. Expect a grind toward the 131.5-132.2 supply shelf over the next few bars; a rejection there is the clean short back toward 127.6, whereas a loss of 127.65 opens the next leg down. Right here at 129.8 mid-range there is no edge either way.",
+  "expectancy_note": "Shorting mid-range at 129.8 with a $2.57 ATR: a routine bounce to 132 (the account's classic late-short stop-out) kills it before 127.65 pays - R:R < 1.5. Fading up at 131.5-132 gives ~1x ATR stop above 132.8 for a 3.5-point target to 127.6 (R:R ~2). Waiting has higher expectancy than chasing.",
+  "rationale": "The -6% capitulation candle already fired and held 127.65; price is now coiled 129-130.7 with the 5m score flipping long (+0.197) against deeply oversold 4h RSI 20.4 - classic bounce-brewing zone, wrong spot to initiate a fresh short and too counter-trend (ADX 79, -35% month) to buy. Best short is a rally into the 131.5-132 supply / toward VWAP, not this mid-range breakdown chase. Size 0 until the tape offers either a rejection at resistance or a confirmed break of support.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 131.6,
+    "expires_min": 240,
+    "note": "A bounce into the 131.6+ supply shelf / VWAP approach is the high-expectancy short entry: fade the rally with a tight stop above 132.8 targeting 127.6, the R:R this mid-range chase lacks."
+  },
+  "transcript": {
+    "macro": "ORCL is a tokenized Oracle EQUITY perp - trade as equity (Nasdaq/AI-capex, CPI, US hours), NOT BTC-beta (corr 0.282). June CPI 3.5% vs 3.8% exp -> modestly risk-on but choppy (oil/US-Iran, AI-chip profit-taking). Cash session, real liquidity now. Next earnings Sept 14 2026 - no event risk. ORCL in severe fundamentally-driven downtrend: -6.27% Jul 13, -35% June (worst since 1990), 14mo low, pinned near 52wk low 130.76, perp last 129.8. Driver: AI-capex blowout, FCF ~-$24B FY26, capex +162%, OpenAI-concentration fears. Rel strength -25.2% vs BTC. Derivatives: funding +0.00043 (crowded-long, bearish tilt), L/S 2.72 (trapped longs=squeeze fuel down), OB imbalance ~0, OI 16,102, RSI 20.4 (4h), ADX 79, bb_pctb 0.064 (lower band), vwap_dist -3.8%, 5m +0.197 vs all higher TFs short -> oversold bounce brewing. structure_bias -0.472 (most bearish in scan). Read: supports SHORT directionally but MIXED to initiate a fresh short HERE; best short = fade a bounce into resistance/VWAP. Smaller size.",
+    "sentiment": "Net BEARISH near-term - tape and news agree, downside momentum fresh. Active selloff dominant catalyst: -6% Jul 13, -28% in a month, fresh 52wk low ~$132 (support 127.65). Fundamental: punishing AI-capex/debt despite strong Q4 (rev +21% $19.2B, cloud +47%); FY26 FCF ~-$24B, capex +162% to ~$56B. Two fresh shocks last week: (1) S&P downgraded Oracle credit to BBB- (one notch above junk); (2) Jul 13 leg tied to Apple suing OpenAI -> re-ignited OpenAI concentration fear (>half of $638B RPO backlog). Bull case entirely long-horizon (avg 12mo PT ~$247-261) - not a 48h catalyst. No binary catalyst inside 48h -> near-term driver is momentum + headline risk, cuts bearish. Only flip = oversold technical bounce.",
+    "analyst": "The -6% capitulation candle already fired early in the 15m window, hit and held support 127.65, then bounced ~$2 and coiled tightly 129.0-130.7 for the last ~8 bars; final bar closed mid-range 129.8 on tiny volume. With 4h RSI 20.4, bb_pctb 0.064 (pinned lower band), and 5m score flipping long (+0.197) against all higher-TF shorts, this is the bounce-brewing zone flagged as MIXED for a fresh short. Shorting mid-range fails the R:R gate - a routine bounce to ~132 (the account's documented late-short stop-out) would stop the trade before 127.65 pays. High-expectancy short is a fade of a rally into 131.6+ supply/VWAP, which the reconsider trigger arms. Too counter-trend (ADX 79, -35% month) to buy. HOLD, size 0.",
+    "portfolio": "HOLD ORCL/USDT:USDT (conf 0.58) - no edge mid-range at 129.8; short trigger armed on a bounce into 131.6+."
+  },
+  "timestamp": "2026-07-14T15:32:14.456507+00:00"
+}

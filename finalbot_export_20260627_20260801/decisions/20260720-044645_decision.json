@@ -1,0 +1,26 @@
+{
+  "symbol": "TSM/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.6,
+  "size": 0.0,
+  "entry": 402.99,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "forecast": "Thin, illiquid drift up into the 404 upper-band zone on near-zero volume with 5m RSI 81; expect a stall/rejection, chopping 399-404 until real US-session volume returns. A clean short only opens if 399 breaks toward 396/387.",
+  "expectancy_note": "No edge either way: long is stretched (%B 0.865, 5m RSI 81) into resistance vs hostile semis macro; short into an up-drift risks the exact squeeze/late-short loss the book bleeds on. Wait for the 399 break.",
+  "rationale": "TSM is crowded long (L/S 2.59, orderbook -0.305, bias -0.391) and the worst relative-strength name (-20.9%) into a risk-off semis selloff, but the intraday tape is drifting UP on near-zero volume (multiple 0.0-vol prints) into the upper band with 5m RSI 81 - chasing the long is the account's #1 loss pattern and market-shorting an up-drift is the account's proven loser (shorts 47% win). Gappy liquidity: HOLD until 399 breaks to confirm the squeeze-lower.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 399.0,
+    "expires_min": 240,
+    "note": "Losing the 399 intraday shelf confirms the crowded-long unwind and opens a clean short toward 396/387 without chasing a stretched tape."
+  },
+  "transcript": {
+    "macro": "RISK-OFF/defensive 2026-07-20. Semiconductors are the EPICENTER of the selloff after TSMC's Q2 capex hike ($60-64B) revived AI-overspend/margin fears (MU -6%, NVDA -2%, SOX correcting). TSM L/S 2.59, orderbook -0.305 (bias -0.39) = crowded longs into weakness, squeeze risk. Rallies here are counter-trend into a hostile tape; shorts have the macro wind. VIX ~16.7 rising.",
+    "sentiment": "2026-07-20. TSM bearish/cautious near-term: reported 7/16 (strong - rev guide $39-40.2B, GM ~66%, June rev +68% YoY) so the catalyst is BEHIND us; stock now caught in the semis selloff. No new 48h catalyst; momentum negative.",
+    "analyst": "HOLD (conf 0.60). Crowded long into hostile semis tape, worst rel-strength (-20.9%), but intraday drifting UP on near-zero volume into the upper band (5m RSI 81). Chasing long = #1 loss pattern; market-shorting an up-drift = proven loser. Gappy liquidity. Short only on a 399 break.",
+    "portfolio": "TSM - HOLD (conf 0.60): shorts have the macro wind but wait for a 399 break; don't chase the thin up-drift either way."
+  },
+  "timestamp": "2026-07-20T04:46:45.989053+00:00"
+}

@@ -1,0 +1,27 @@
+{
+  "action": "hold",
+  "symbol": "TSLA/USDT:USDT",
+  "confidence": 0.58,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "trend",
+  "expectancy_note": "Strong uptrend (ADX 44.7, rel-str +7.5%) but chasing at band top (RSI 70, stoch 86, %B 0.88, +1.76% over VWAP) gives poor R:R; better to buy the pullback to VWAP ~409.",
+  "rationale": "TSLA is the clear equity leader with a powerful trend, but it is stretched into overbought right after leading, structure bias is negative from crowded-long positioning (L/S 1.545) plus order-book sellers (-0.134), and FOMC minutes hit tomorrow 2pm ET. Buying 416 at the top of the Bollinger band means a stop must sit ~1.5xATR under a real level, killing R:R, while shorting a 44-ADX leader is a donation. The high-expectancy trade is a trend-continuation long on a cooling pullback into the VWAP/SMA20 zone (~408-410), not a chase here.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 410,
+    "expires_min": 240,
+    "note": "A pullback into the VWAP zone (~409) unwinds the overbought stretch and offers a trend-continuation long with a stop under 405 and clean run toward resistance 437.73."
+  },
+  "transcript": {
+    "macro": "2026-07-07 RISK-ON but late-stage/event-vulnerable. Nasdaq +1.1%, QQQ ~722 near ATH. Megacaps overbought-then-cooling; TSLA stretched (RSI ~70, stoch 86) after leading (+7.5% rel-str). Hawkish backdrop: May CPI +4.2% y/y, Fed 3.50-3.75%, ~66% odds of a hike by year-end caps overbought megacaps. TSLA L/S 1.55 crowded-long -> mild squeeze risk. No FOMC/CPI inside 48h except FOMC minutes Wed Jul 8 2pm ET.",
+    "sentiment": "TSLA mixed/cautious. Q2 deliveries (Jul 2) smashed at 480,126 (+25% YoY) yet stock fell ~7.5% on profit-taking/BYD/~200x fwd P/E. Robotaxi expanding (Miami). Overhang: Q2 earnings Wed Jul 22 (outside 48h). No hard <=48h binary; momentum/positioning driven.",
+    "analyst": "TSLA is genuinely strong (ADX 44.7, leader, btc-corr 0.33 so not mere beta), ruling out a short. But every entry-quality check fails for a long right here: RSI ~70, stoch 86, upper Bollinger (%B 0.88), +1.76% over VWAP. Chasing 416 forces a bad stop and sub-1.3 R:R. Disciplined move is to wait for the cool-off into VWAP ~408-410 and take the trend-continuation long there. HOLD with armed trigger at 410.",
+    "portfolio": "HOLD TSLA (0.58) \u2014 strong trend but extended; wait for pullback to VWAP ~409-410."
+  },
+  "timestamp": "2026-07-07T10:57:40.463548+00:00"
+}

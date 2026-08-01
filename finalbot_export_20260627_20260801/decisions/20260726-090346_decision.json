@@ -1,0 +1,28 @@
+{
+  "symbol": "EWJ/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.6,
+  "size": 0.0,
+  "entry": 92.07,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "none",
+  "forecast": "Price is pinned ~92.07 on near-zero volume; expect it to chop between 91.9 and 93.3 until the Jul 29-30 FOMC/BOJ event cluster resolves - no clean directional next move to trade.",
+  "expectancy_note": "No trigger either way: long is stretched (RSI 71/94/100, stoch 98, %B 0.83) and fights risk-off; short has no momentum yet and gap/slippage risk on dead volume. HOLD beats a coin-flip entry with poor R:R.",
+  "rationale": "EWJ is an illiquid equity-beta ETF printing multiple zero-volume 15m candles - the composite LONG is a stale, overbought reading into resistance 93.34, contrarian-negative positioning (L/S 1.38, OB -0.091, bias -0.14) and a hawkish risk-off regime. Chasing this extended move is the account's #1 loss pattern; there is no honest 1.5R setup with the last bar flat and unreadable, and an FOMC+BOJ event cluster sits inside the 48h window. Size 0 - wait for real volume and a level break rather than trade a synthetic trend into binary events.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 91.9,
+    "expires_min": 240,
+    "note": "Losing the 91.9 congestion floor on real volume breaks the stale uptrend and opens a short toward support 89.53; a clean reclaim above 93.34 instead would revive the long."
+  },
+  "transcript": {
+    "macro": "Regime: RISK-OFF / hawkish rate re-pricing (~60% odds of a HIKE by Oct; firm USD, higher oil). EWJ last ~92.07, composite LONG 56.9%. Problems for a fresh long: stretched/overbought (RSI 71 4h, ~94 1h, stoch ~98) and contrarian-negative positioning (L/S 1.38, OB -0.09, bias -0.14) into risk-off, lags BTC -4.71%. Liquidity thin/gappy (zero-volume 15m candles) - stale prices, elevated slippage/gap risk.",
+    "sentiment": "Event cluster Jul 29-30 (FOMC, Meta earnings, BOJ Jul 30). EWJ bullish trend, event-driven risk: Nikkei +37% YTD but sold off hard Fri Jul 23 (Nikkei -2.7%, SoftBank -7.6%) on AI-capex worries (same tech de-rating hitting NVDA). Key catalyst BOJ Jul 30: weak yen supports exporter earnings unless BOJ sharply strengthens JPY. Japan earnings season + BOJ make it event-heavy; watch tech/AI beta contagion.",
+    "analyst": "Illiquid equity-beta ETF printing multiple zero-volume 15m candles - composite LONG is stale/overbought into resistance 93.34 with contrarian-negative positioning and a hawkish risk-off regime. Chasing is the account's #1 loss pattern; no honest 1.5R either direction with the last bar flat and unreadable, and FOMC+BOJ sit inside the window. HOLD, wait for real volume + level break.",
+    "portfolio": "HOLD EWJ (conf 0.60) - no trade into thin liquidity + event cluster; short arms below 91.9, long revives above 93.34."
+  },
+  "timestamp": "2026-07-26T09:03:46.032769+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "symbol": "MU/USDT:USDT",
+  "action": "short",
+  "confidence": 0.58,
+  "size": 2.5,
+  "entry": 867.0,
+  "stop_loss": 882.5,
+  "take_profit": 831.0,
+  "take_profit_1": 844.0,
+  "take_profit_2": 831.0,
+  "playbook": "trend",
+  "forecast": "Current bounce off 847/851 pushes up to retest the broken 866-868 shelf/VWAP; sellers reassert there and roll price back toward 844 then 831 within 3-6 bars.",
+  "expectancy_note": "p(win)~0.57; limit-short at retest avoids chasing the -14pt drop already done; reward to TP1 ~24pt vs ~15.5pt risk = 1.55R, TP2 extends to ~2.3R; most-bearish structure + offered book beat a stale long composite.",
+  "rationale": "MU has the most bearish structure of the set (structure_bias -0.47, orderbook imbalance -0.574, crowded long 1.99 as downside fuel) and is the single worst laggard (rel-strength -34%) inside an actively-smoked semis tape. The 881.6 spike was distributed on huge volume and price is stepping down in lower-highs toward the 847 low. Rather than chase, set a LIMIT short into the 867 retest of the broken shelf with a stop above the 882 spike high (~1.7x ATR); reward to TP1 (844) clears 1.5R and TP2 (831) extends the ratchet. Size kept modest at 2.5% given 1.1% ATR and 6.7% BB-width whipsaw risk.",
+  "transcript": {
+    "macro": "Near-term RISK-OFF; semis actively smoked (SOXX worst week in a year, AI-capex-cut fears). MU ~859, extremely volatile (4h ATR 1.1%, bb_width 6.7%), single worst laggard vs BTC (-34.4%). Orderbook heavily offered (-0.574), structure_bias -0.47 (most bearish of set), long_short 1.99 (crowded long). TSM/MU corr 0.62 \u2014 one semis bet, sector tape hostile. Tokenized equities thin/gappy on weekend.",
+    "sentiment": "Bullish narrative but EXTREMELY extended/volatile \u2014 up ~259% YTD, ~$1T valuation, HBM sold out through 2026, $22B commitments. No scheduled <=48h catalyst, but tape violent: dropped 8% Jul 16 and ~18% on the month in a semi selloff. High whipsaw; $1,750 KeyBanc PT is long-horizon noise; one analyst issued a fresh Sell.",
+    "analyst": "The 881.6 spike (huge 3648 vol) was distributed then rejected hard; price stepped down in lower-highs to the 847 low and bounced to 859. Most bearish structure of the set + heavily offered book + worst RS + hostile semis tape favors a short. Rather than chase the -14pt drop mid-range, set a LIMIT short at the 867 retest of the broken shelf/VWAP, stop above the 882 spike (~1.7xATR), TP1 844 (1.55R), TP2 831 (~2.3R). Modest 2.5% size given 1.1% ATR and 6.7% BB-width whipsaw.",
+    "portfolio": "MU \u2014 SHORT (conf 0.58, size 2.5%): limit short 867 into the broken-shelf retest; stop 882.5, TP1 844, TP2 831."
+  },
+  "timestamp": "2026-07-20T02:13:35.980735+00:00"
+}

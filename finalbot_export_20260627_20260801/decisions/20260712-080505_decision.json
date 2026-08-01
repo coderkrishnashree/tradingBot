@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "AAPL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.3,
+  "playbook": "none",
+  "forecast": "Dead weekend drift: price pins 313-314 on sub-1-contract candles (last bar 0 volume) until US cash open Monday; no honest directional move is executable inside this tape.",
+  "expectancy_note": "No edge: weak 52% short composite, price mid-range near 305 support with 1h RSI already 26.8 (oversold) and %B 0.23 at lower band \u2014 shorting here is the account's classic chase-into-stretched-tape loss; R:R to any target is under 1.5 and fills are unreliable on zero-volume bars.",
+  "rationale": "US equity markets are closed (Sunday) so AAPL's tape is essentially non-existent \u2014 the last 15m bar printed 0.0 volume and the composite is a low-conviction 52% short with a neutral +0.009 structure bias. Price is mid-channel (313.5 between 305.2 support and 316.8 resistance) but the trend TF (1h RSI 26.8) is already oversold, so a short would be fading into support with no room and no R:R, while a long has no trigger. With CPI Tuesday as event risk and this name leading (+7.2% rel-strength), the highest-expectancy action is to wait for the cash open and a real structural break; size 0.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 316.77,
+    "expires_min": 240,
+    "note": "Reclaiming the 316.8 resistance on cash-open volume kills the short thesis and confirms the leader breaking out \u2014 re-debate for a long."
+  },
+  "transcript": {
+    "macro": "Regime NEUTRAL. US equity markets CLOSED (Sunday) \u2014 extremely thin AAPL tape (sub-2-contract candles). June CPI Tue Jul 14 event risk. Low conviction; composite short conf 52% but structure_bias ~neutral (+0.009), rel-strength +7.2% (leading).",
+    "sentiment": "US cash closed \u2014 thin gappy tape. AAPL neutral, earnings out of window: Q3 earnings Jul 30 (Tim Cook's reportedly last call as CEO \u2014 narrative not a 48h mover). No catalyst inside 24-48h; stock +49% 52wk. News neutral to the scan's short.",
+    "analyst": "AAPL last 313.54, support 305.19, resistance 316.77, ATR% 0.48. Composite SHORT 52.1% (weak), structure_bias +0.009 (neutral), RSI 40.3, ADX 47.5, %B 0.229 (lower band), VWAP dist -0.25%. 1h RSI 26.8 (oversold), 4h MACD +0.92 \u2014 conflicting. rel-strength +7.2% (leading), L/S 1.079 (balanced). Candles: dead drift 314.0->313.54 on sub-2-contract volume, last bar 0.0 volume \u2014 no tape. Shorting into oversold near support on a dead weekend tape has no R:R edge. HOLD; reconsider on 316.77 reclaim at cash open.",
+    "portfolio": "HOLD AAPL \u2014 no tape, no edge; wait for cash open, reconsider armed at 316.77."
+  },
+  "timestamp": "2026-07-12T08:05:05.026097+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "symbol": "MSFT/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.34,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "none",
+  "forecast": "Tape is frozen: 8+ consecutive 0-volume 394.0 prints on 15m. No live price path to trade; the next real move is a Monday-open gap. Range 378-406 holds until real volume returns.",
+  "expectancy_note": "No extreme to fade (BB %B 0.426, VWAP -0.73%), no clean trend/breakout trigger (ADX 25, tight BB), dead liquidity + weekend gap risk; account shorts run 47% win / -0.87 avg - negative expectancy, HOLD beats a coin-flip short.",
+  "rationale": "MSFT is a tokenized equity with US cash closed; the mid-TF candles are literally flat zero-volume prints, so there is no forecastable next move and any entry is a bet on a Monday gap. Price sits mid-band (not extended, not at support/resistance) so neither trend nor mean-reversion has an edge, and the tight BB squeeze lacks a live breakout trigger. Learner shows shorts bleed (47% win, -0.87 avg) while the short conviction here is marginal (composite 49%, rel_strength only -1.14) - wait for real liquidity and a structural break.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 393.6,
+    "expires_min": 240,
+    "note": "Losing the recent 15m floor on real Monday volume confirms the 1h down-structure and opens a live short toward 378 support."
+  },
+  "transcript": {
+    "macro": "Risk-off, tech/semis selling off. Scan 07:01 UTC weekend - US cash CLOSED, thin/gappy, Monday gap risk. No FOMC/CPI in 72h. Short-favorable but LATE-STAGE, squeeze risk; cut size. MSFT: thin overnight (flat 0-vol candles), tape supportive but low liquidity + late-July earnings risk; MIXED, small size.",
+    "sentiment": "Risk-off tape, crypto Fear. MSFT earnings Wed Jul29 after close (~11d out, outside 48h), no imminent binary, consensus Strong Buy. Weekend/thin trading only; NEUTRAL - short is a pure technical play.",
+    "analyst": "Frozen tape (8+ consecutive 0-volume 394.0 prints); no forecastable move, any entry bets on a Monday gap. Mid-band price = no extreme to fade and no trend/breakout trigger. Account shorts bleed (47% win, -0.87 avg); marginal short conviction. Wait for real liquidity + structural break.",
+    "portfolio": "HOLD MSFT - dead/frozen tape; re-arm short on loss of 393.6 with real volume."
+  },
+  "timestamp": "2026-07-18T07:09:01.195489+00:00"
+}

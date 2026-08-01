@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "GOOGL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.4,
+  "playbook": "none",
+  "forecast": "Frozen weekend book: price pinned 346.7-347.6 on near-zero volume with the US cash market closed; no tradable move until Monday's open, which is a gap I cannot position for. Real risk sits at the Monday reopen and the Tue/Wed earnings print.",
+  "expectancy_note": "No honest next-candle move to trade; taking the scan long means fighting a risk-off tape, crowded long (L/S 1.64) with negative structure_bias, into an un-hedgeable earnings window at 47% conf. Expectancy of any entry here is negative; HOLD is the highest-EV action.",
+  "rationale": "The 15m candles are a dead flatline because the tokenized-equity cash market is closed - the LTF 'long' scores and RSI 55 are noise, while the 4h RSI 11.4 / -5.9% VWAP reflects Friday's real risk-off selloff that hasn't been retraced. Composite is only +0.321, NOT aligned, conf 47%, and the learner penalizes exactly this profile (aligned=false, negative structure_bias, crowded long). Add the Alphabet earnings landmine (~4 days) and Monday gap risk, and there is no positive-expectancy trade - size 0.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 355.0,
+    "expires_min": 240,
+    "note": "Reclaiming ~355 (recovering the near-term breakdown shelf, ~1 ATR up) would show buyers absorbing Friday's risk-off leg and give the LTF long real fuel - re-debate a long, still capped by the Tue earnings window."
+  },
+  "transcript": {
+    "macro": "RISK-OFF, short lean, low-conviction due to weekend illiquidity. Sat Jul 18 scan, US+Tokyo cash closed until Monday -> thin/gappy perps, Monday-open gap risk. Fri Jul 17 Nasdaq -1.4% (week -2.9%), VIX +12% to 18.77, AI/semiconductor de-rating; NVDA -3.78%. Scan bias short across set (GOOGL only long, unaligned). Crowded longs (TSM 2.45, GOOGL 1.64, EWJ 1.61, HOOD 1.50) = flush fuel; COIN L/S 0.60 net-short = squeeze risk. Funding ~0. COIN/HOOD trade as BTC-beta over weekend. META lone rel-strength leader +7.5%. Earnings landmine: GOOGL Tue Jul 21/22. Cleanest short alignment: TSM/QQQ. Fade/avoid: COIN short, META short, GOOGL long.",
+    "sentiment": "Broad AI/semiconductor-led tech selloff Fri Jul 17 (Nasdaq -1.4%/week -2.9%, SOX ~-20% off record, Nikkei -4%) on AI valuation fear + Moonshot frontier model + US/Iran tension. GOOGL: neutral-to-slightly-bullish idiosyncratic but bearish tape; Q2 earnings confirmed Wed Jul 22 after close (~4 days out); relatively insulated from chip-specific rout (hyperscaler/ad) but AI-capex story vulnerable in a de-rating; no <=48h idiosyncratic catalyst.",
+    "analyst": "The 15m tape is a frozen weekend flatline (bars <1 unit vol) pinned 346.7-347.6; LTF long scores are noise, 4h RSI 11.4 / -5.9% VWAP reflects Friday's unretraced selloff. Composite +0.321 but NOT aligned, conf 47%; learner penalizes aligned=false + negative structure_bias + crowded long. Alphabet earnings ~4 days out is un-hedgeable, plus Monday gap risk. No positive-expectancy entry. HOLD. Reconsider a long only on reclaim of ~355.",
+    "portfolio": "GOOGL: HOLD - unaligned scan long fighting a risk-off tape, frozen weekend book, earnings landmine; no trade."
+  },
+  "timestamp": "2026-07-18T16:38:48.643961+00:00"
+}

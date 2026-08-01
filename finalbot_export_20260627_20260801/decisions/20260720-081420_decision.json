@@ -1,0 +1,26 @@
+{
+  "symbol": "MU/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.5,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "forecast": "Chop between 851 and 872; price at 868 pressing the 872 rejection high. Likely another rejection back toward 855-851; only a clean break of 851 opens the flush toward 805 that the bearish structure predicts.",
+  "expectancy_note": "No edge now: long is against hostile semi macro + structure_bias -0.53 and RSI 76.8/ADX 72.8 extension; short mid-range at 868 into a just-bounced tape is a coin flip and matches the account's #1 loser (late shorts stopped by a bounce).",
+  "rationale": "MU is the most bearish structure on the board (orderbook -0.766, crowded L/S 2.17) inside a risk-off semi selloff, but it is also wildly extended (RSI 76.8, ADX 72.8) and just bounced 17 points off 851 on strong volume back to 868 under the 872 rejection. Longing here chases into hostile macro and a heavy sell wall; shorting mid-range risks another leg up before rolling. No 1.5R setup at this price -- wait for a loss of 851 to short toward 805.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 851.0,
+    "expires_min": 240,
+    "note": "Losing 851 breaks the range low, confirming the crowded-long flush -- triggers a short toward 805."
+  },
+  "transcript": {
+    "macro": "MIXED-to-HOSTILE, defensive tilt (2026-07-20). Risk-off tape from a semiconductor/AI-capex unwind + hawkish Fed (FOMC Jul 29; Dallas Fed Logan floated a hike). PHLX Semi index in a bear market (SOX -10.8%, SMH -13% over 10 sessions); S&P -1.5% / Nasdaq -2.9% on the week. Crowded-long L/S ratios across the equity perps (ORCL 2.59, TSM 2.75, MU 2.17, CRCL 2.25) = contrarian short signal; funding ~flat. GOOGL & TSLA earnings Wed 7/22 after close = binary gap in-window. Tokenized equities are thin/gappy pre-US-open. CL (crude): fresh high-volume downside liquidation flush off a headline-inflated level, two-sided vs a live geopolitical Hormuz bid; API inventories 7/21, EIA 7/22 are in-window binaries. Biggest book risk: being long crowded semi/AI names into a semi bear market with GOOGL/TSLA gaps mid-window. Backdrop argues smaller size, flat-into-print for GOOGL/TSLA, and a preference for fades/shorts where trend and positioning agree.",
+    "sentiment": "Tech in a 3-day selloff, semis leading; TSMC's Jul 16 capex guide-up to $60-64B triggered the chip selloff (~$1.3-1.4T off the semi complex). GOOGL + TSLA both report Wed 7/22 after close = gap risk across QQQ/tech. US-Iran / Strait of Hormuz hostilities live (blockade + 20% cargo fee, 3rd+ day) -> crude bid, risk-off for equities, two-way tail on any de-escalation. Per name: SNDK bullish fundamentals (rev +251% YoY, 78% GM), no near binary (earns Aug 5), trades with the semi tape. GOOGL neutral into a high binary (Wed print). QQQ bearish short-term, 3 down days, binary-heavy week. CRCL bearish (Mizuho Underperform Jul 14, Coinbase/BlackRock Open USD competition; OCC charter already priced). MU mixed (record DRAM/HBM sold out CY2026, but stock -27-29% off highs on the AI-chip reset). ORCL bearish (debt/capex fears, S&P to BBB-, FY26 FCF ~-$23.7B). TSLA neutral into a high binary (Wed print, implied ~7.6% swing; Q2 deliveries beat already priced). CL bullish short-term geopolitical spike, two-way tail. TSM bearish short-term, epicenter of the AI-capex fear.",
+    "analyst": "MU is the most bearish structure on the board (orderbook -0.766, crowded L/S 2.17) inside a risk-off semi selloff, but it is also wildly extended (RSI 76.8, ADX 72.8) and just bounced 17 points off 851 on strong volume back to 868 under the 872 rejection. Longing here chases into hostile macro and a heavy sell wall; shorting mid-range risks another leg up before rolling. No 1.5R setup at this price -- wait for a loss of 851 to short toward 805.\n\nForecast: Chop between 851 and 872; price at 868 pressing the 872 rejection high. Likely another rejection back toward 855-851; only a clean break of 851 opens the flush toward 805 that the bearish structure predicts.\n\nExpectancy: No edge now: long is against hostile semi macro + structure_bias -0.53 and RSI 76.8/ADX 72.8 extension; short mid-range at 868 into a just-bounced tape is a coin flip and matches the account's #1 loser (late shorts stopped by a bounce).",
+    "portfolio": "HOLD MU -- most bearish structure on the board but wildly extended and just bounced to 868 under the 872 rejection; short only on a clean loss of 851, do not chase the composite long."
+  },
+  "timestamp": "2026-07-20T08:14:20.116015+00:00"
+}

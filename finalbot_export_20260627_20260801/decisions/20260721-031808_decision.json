@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "MU/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.4,
+  "playbook": "none",
+  "forecast": "Extended: price at 893 is 2.47% above VWAP on RSI 74 into hot funding; expect a stall/pullback toward the 875-877 VWAP zone over the next few bars before any trend can resume \u2014 no clean entry at current print.",
+  "expectancy_note": "Long here chases an extended ADX-84 run into +0.16% funding and stacked offers (structure_bias -0.79) \u2014 a routine pullback hits any honest stop first; shorting a trend closing on its highs has no exhaustion trigger. p(win) for either sub-0.5, R:R poor. HOLD beats both.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 877.0,
+    "expires_min": 240,
+    "note": "A pullback into the 875-877 VWAP/prior-base zone de-stretches RSI and offers a proper trend-continuation long with a stop under 872 and room back toward the highs."
+  },
+  "rationale": "MU is a QQQ-beta chip name (corr 0.76, BTC-corr only 0.12) riding a very strong uptrend (ADX 84.3) but now stretched: RSI 74.2, bb_%b 0.99 on the upper band, 2.47% above VWAP, up ~2.6% intraday with the last bar closing on its high. Funding is extremely hot (+0.163%/8h, penalty maxed) and long_short 2.19 with negative orderbook imbalance \u2014 a crowded, expensive long, i.e. the account's classic late-continuation trap. There is no clean level at 893 (support 805 / resistance 1006 both ~2.5x ATR away), so the honest trade is a pullback-buy into the 875-877 VWAP zone, not a market chase; size 0 until price offers that entry.",
+  "transcript": {
+    "macro": "Cautious risk-off, event-heavy week (2026-07-21). Tape propped by a chip rebound (Micron +1.9% Mon, Broadcom +2%, AMD, Intel); US-Iran conflict, oil spike; FOMC Jul 29; tokenized equities gap overnight. MU one-liner: LONG-lean, sector tailwind \u2014 rides the chip rebound, high QQQ corr (0.76); vulnerable if AI-capex fears resurface on the GOOGL print Wed. Scan conf only 9.4%, action flat \u2014 weak/neutral signal.",
+    "sentiment": "MU NO near-term catalyst. Last reported Jun 24 (blowout: $25.11 EPS vs $20.20 est, record $41.5B rev); next earnings not until late September. Trades on semiconductor/AI-memory sentiment and QQQ beta \u2014 exposed to chip-sector softness and GOOGL/MSFT read-throughs but no company-specific event in the 48h window. NEUTRAL; a semis-sentiment vehicle, not a catalyst play.",
+    "analyst": "QQQ-beta chip name (corr 0.76, BTC-corr 0.12) in a very strong uptrend (ADX 84.3) but stretched: RSI 74.2, bb_%b 0.99, +2.47% VWAP, up ~2.6% intraday, last bar on its high. Funding extremely hot (+0.163%/8h, penalty maxed), L/S 2.19, negative orderbook = crowded, expensive long \u2014 the classic late-continuation trap. No clean level at 893 (support 805 / resistance 1006 ~2.5x ATR away). Honest trade is a 875-877 VWAP pullback-buy, not a chase; size 0.",
+    "portfolio": "MU \u2014 HOLD (conf 0.40): weak 9.4% scan signal, extended into hot funding; buy the 875-877 pullback, don't chase."
+  },
+  "timestamp": "2026-07-21T03:18:08.344830+00:00"
+}

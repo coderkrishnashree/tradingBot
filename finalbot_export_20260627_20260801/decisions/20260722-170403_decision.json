@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "SNDK/USDT:USDT",
+  "size": 0.0,
+  "entry": 1607.09,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price stretched 8.2% above VWAP with 15m RSI ~78 after tagging 1620 and getting rejected (close 1601.9); expect chop/pullback toward the 1560-1575 shelf rather than clean continuation. A tap-and-hold there sets up a trend-buy; a break below 1560 opens a flush toward 1520.",
+  "expectancy_note": "No positive-expectancy entry now: chasing long into RSI 78 / +8% VWAP is the account's #1 loss pattern, and fading ADX 68 uptrend blindly is low p(win). Best EV is to wait for the pullback level.",
+  "rationale": "SNDK is a crowded, whippy semi laggard (rel strength -16.5%) trading 8.2% above VWAP with 15m RSI ~78 and a rejection wick at 1620 into heavy asks (orderbook -0.525) \u2014 no honest R:R either direction. INTC earnings tomorrow (0.74 corr) plus GOOGL/TSLA tonight in a RISK-OFF semi tape means overnight gap risk on a thin tokenized equity. HOLD and let it return to the 1560-1575 VWAP/shelf zone for a cleaner trend-long, or lose 1560 to confirm the pullback.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 1560,
+    "expires_min": 240,
+    "note": "Losing the 1560 shelf confirms the 1620 rejection is turning into a real pullback \u2014 sets up a better trend-long lower or a momentum short into 1520."
+  },
+  "transcript": {
+    "macro": "RISK-OFF/hawkish; DXY 13-mo high. Semi tape fragile after early-July selloff (~$1.3-1.4T wiped); jumpy/headline-driven. GOOGL/TSLA tonight = overnight Nasdaq vol. SNDK crowded long, lags BTC (-16.5%), low BTC corr \u2014 lives/dies by Nasdaq tape + INTC print. Tokenized equities thin/gappy off-hours. Smaller size.",
+    "sentiment": "SNDK bullish trend, very volatile, no <=48h catalyst. Earnings Aug 5. +857% H1 then -29% week then rebound >$1,600 on TSMC price-hike/AI-memory read-through. Tightly correlated to INTC (0.74) & TSM (0.59) \u2014 INTC earnings Thu Jul 23 is a shared catalyst; same-direction semi longs not diversified.",
+    "analyst": "Stretched runner rejected at 1620 into heavy asks; INTC binary tomorrow. No R:R either way. HOLD, buy the 1560-1575 pullback or short a 1560 break.",
+    "portfolio": "SNDK -> HOLD (conf 0.60): overextended runner into INTC-binary overhang \u2014 wait for the pullback."
+  },
+  "timestamp": "2026-07-22T17:04:03.137527+00:00"
+}

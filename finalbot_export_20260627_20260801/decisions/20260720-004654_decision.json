@@ -1,0 +1,26 @@
+{
+  "symbol": "SNDK/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.6,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "forecast": "Continued whipsaw in the 1360-1406 box; expect price to oscillate around VWAP (~1399) and the 1365-1380 zone over the next 2-4 bars with no clean directional resolution until a range edge breaks.",
+  "expectancy_note": "No edge: a fresh long fights crowded positive funding (structure_bias -0.383) and overhead that rejected 1406 three times (R:R ~1.7 into low-prob supply); a short is the account's proven loser and a stretched-but-choppy late-short trap. Flat = highest expectancy.",
+  "rationale": "SNDK is the worst rel-strength name on the board (-42.85%), aligned=false, structure crowded long (longs paying funding) into a RISK-OFF semi tape with Monday equity gap risk and Alphabet/Tesla earnings that can gap the complex. Candles show violent chop 1360-1406 with repeated failed pushes and mid-range closes \u2014 no honest level within 1.5xATR, no clean R:R. ATR 1.39% + 9% BB width means any tight stop gets knifed by noise. Size 0: wait for the box to resolve.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 1407,
+    "expires_min": 240,
+    "note": "Decisive reclaim/close above the 1406-1407 upper edge that rejected 3x flips this to a trend-continuation long toward the next air pocket."
+  },
+  "transcript": {
+    "macro": "REGIME RISK-OFF in tech/semi. Tokenized equity gaps at Monday open; semis ~-9% on the week. SNDK worst rel-strength on the board (-42.9%), only positive funding (longs paying), structure_bias -0.383, ATR 1.39% (gappy). Highest learned p_win (0.739) but structure and macro both against a long. Verdict: HOSTILE for a long.",
+    "sentiment": "SNDK bullish structurally (+857% H1 on NAND shortage, prices +75% QoQ) but earnings 8/5 (outside 48h) and stock whippy (fell ~8% on 7/16, ~36% off high). No <=48h binary; Alphabet+Tesla 7/20-24 can gap the semi complex. Near-term neutral, high-vol.",
+    "analyst": "Violent chop between 1360-1406, no clean level within 1.5xATR, crowded long funding, worst RS on board. Long = fade into 3x-rejected supply, short = the book's losing late-short. HOLD; watch a break of the box edges.",
+    "portfolio": "SNDK: HOLD 0.60 \u2014 high-vol chop, no level; flat until the box resolves."
+  },
+  "timestamp": "2026-07-20T00:46:54.548707+00:00"
+}

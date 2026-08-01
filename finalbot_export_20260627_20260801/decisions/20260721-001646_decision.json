@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "SOL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price coils 77.4-78.0 just under resistance; most likely chops sideways-to-slightly-down over next 2-6 bars. A tag of 79.01 with rejection/exhaustion candle is the clean short; a hold above 79.01 opens breakout toward 80.5+.",
+  "expectancy_note": "No edge at mid-range 77.81. Short = counter-trend fade into ADX 58 with NO divergence (learner shorts 48% win, -0.73 pnl); long = chasing RSI 76.6/bb 0.92 while SOL lags BTC -6.95% into hostile macro. Both sub-1.5R here; wait for the level.",
+  "rationale": "SOL is overbought (4h RSI 76.6, %B 0.92), crowded long (L/S 2.61, structure_bias -0.35) and LAGGING BTC (rel strength -6.95%) in a weak alt tape with BTC dominance holding and hostile macro. Shorting a 58-ADX uptrend with neutral funding and NO confirming divergence is the late-fade pattern that has been losing for this account (shorts 48% win). At 77.81, mid-range between 73.3 support and 79.01 resistance, there is no honest 1.5R setup either direction. Wait: a rejection at 79.01 arms a short into the crowded-long unwind; a reclaim/hold above 79.01 flips to a breakout long.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 79.01,
+    "expires_min": 240,
+    "note": "Tagging resistance sets up the crowded-long fade short on rejection, or a breakout long if it holds above."
+  },
+  "transcript": {
+    "macro": "MIXED-to-HOSTILE for fresh risk. Risk-off tilt, hawkish Fed (Warsh, hike-risk), rising yields, oil-driven inflation, rotation OUT of tech. Crypto WEAK/OVERSOLD, no alt bid: BTC ~$64k range-bound, Fear&Greed 29, BTC dominance 56.4% holding (headwind for SOL). Favors range/mean-reversion. SOL is high-beta BTC follower, extended/crowded (RSI 76.6, L/S 2.61) into a weak alt tape.",
+    "sentiment": "SOL: constructive medium-term narrative but NO confirmed <=48h binary. Spot SOL ETFs already live (~$1.12B inflows); additional ETF decision rumored 'as soon as July' but no firm date. Alpenglow upgrade Q3, not imminent. High-beta BTC proxy (corr 0.80).",
+    "analyst": "Overbought, crowded long, lagging BTC into weak alt tape + hostile macro = poor spot to chase long. Shorting 58-ADX uptrend with no confirming divergence is the losing late-fade pattern. At 77.81 mid-range (S 73.3 / R 79.01) no honest 1.5R setup. Wait for a 79.01 tag.",
+    "portfolio": "HOLD SOL - no edge mid-range; arm reconsider at 79.01."
+  },
+  "timestamp": "2026-07-21T00:16:46.441320+00:00"
+}

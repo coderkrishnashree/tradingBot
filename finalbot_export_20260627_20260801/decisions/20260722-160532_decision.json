@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "SOL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price stalls under 79.01 resistance after a ~2% run; likely chops 77.6-79.0 over the next few bars. A volume break above 79.01 opens 80.5; failure and loss of 77.6 opens 76 then support 73.3.",
+  "expectancy_note": "Long chases into resistance w/ stoch 87 & worst crowding in basket (L/S 2.51); short fights ADX 42 uptrend with no rejection yet. Both ~<1.5 R:R from mid-range \u2014 best EV is wait for the 79.01 resolution.",
+  "rationale": "SOL is jammed against 79.01 resistance, overbought (stoch 87, 5m RSI 75) and the most crowded long in the set (structure_bias -0.335, L/S 2.51), on a soft BTC tape with dominance rising and 0.81 BTC correlation \u2014 a long is late BTC-beta chasing and a short lacks a confirmed rejection. Momentum is fading bar-by-bar into the level (78.85 high then 78.5, 78.46) but no trigger has fired, so R:R from mid-range is sub-1.5 either way. Highest-expectancy play is to hold flat and let the 79.01 break/reject define the trade.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 79.01,
+    "expires_min": 240,
+    "note": "A volume-backed reclaim of 79.01 resistance turns the crowded-but-trending tape into a real breakout continuation toward 80.5 and flips me long; conversely a rejection here plus loss of 77.6 arms the short."
+  },
+  "transcript": {
+    "macro": "MIXED, crypto in mild risk-off rotation-into-BTC. BTC ~low-$60Ks after losing $70K; BTC dominance 56.3% and RISING (capital rotating out of alts \u2014 headwind for SOL). SOL ~$78, long-biased but OVERBOUGHT & VERY CROWDED (RSI 69, stoch 87, L/S 2.51, structure_bias -0.335). SOL 0.81 correlated to BTC \u2014 a SOL long is essentially a soft BTC-beta bet.",
+    "sentiment": "SOL no imminent binary. ~$77-78, still ~74% below ATH. Supportive longer-term flows (spot SOL ETFs >$1.12bn cumulative inflows, Alpenglow upgrade) are Q3+ narratives. Near-term BTC-correlated (0.81), Fear&Greed NEUTRAL (49). No <=48h catalyst; direction set by BTC (currently soft).",
+    "analyst": "SOL jammed under 79.01 resistance, overbought (stoch 87, 5m RSI 75), most crowded long in set (L/S 2.51, structure_bias -0.335), soft BTC tape with rising dominance and 0.81 BTC correlation. Long is late BTC-beta chasing; short lacks a confirmed rejection. Momentum fading into the level but no trigger fired, R:R sub-1.5 either way. Hold flat and let the 79.01 break/reject define the trade.",
+    "portfolio": "HOLD SOL/USDT:USDT \u2014 mid-range under 79.01 on a soft BTC tape; wait for the level to resolve."
+  },
+  "timestamp": "2026-07-22T16:05:32.743881+00:00"
+}

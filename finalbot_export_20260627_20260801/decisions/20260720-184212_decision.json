@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "QQQ/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Low-vol chop between 699 and 705 for the next few bars; last 15m bar closed 700.2 near its low on almost no volume, momentum flat on 5m/15m/30m while 1h/4h stay up \u2014 coiling under 704-706 with no thrust either way.",
+  "expectancy_note": "ATR only 0.41% makes any honest ~1x stop (~2-3pts) larger than the reachable target inside the 699-705 chop, so R:R < 1.5; no clean pullback-to-support or breakout trigger. Best expectancy is to wait for the range to resolve.",
+  "rationale": "Higher-TF uptrend (ADX 70, 1h/4h long) but near-term momentum is flat and price is chopping right at VWAP with a squeezed Bollinger and tiny ATR, so there is no low-risk entry: a noise-proof stop swamps the reachable target. Structure is flat (bias +0.01), orderbook slightly negative, RS -16.7%, and this is the direct index proxy for GOOGL/TSLA earnings Wed/Thu \u2014 macro explicitly warns against sizing an index bet into that. No edge; wait for the 699-705 range to break.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 705.0,
+    "expires_min": 240,
+    "note": "Reclaiming the 704-706 chop ceiling with the intact 1h/4h uptrend would confirm a breakout continuation toward resistance 727, giving a tradable long with a stop back inside the range."
+  },
+  "transcript": {
+    "macro": "Regime MIXED/mild supportive. QQQ is the index proxy: uptrend 1h/4h, ADX 70, but flat structure_bias +0.01, RS -16.7%, thin book, tiny OI. Direct expression of megacap earnings week (GOOGL/TSLA Wed). Fine intraday; don't hold a big index bet across Wed close.",
+    "sentiment": "QQQ NEUTRAL/event-heavy \u2014 pure proxy for Big Tech earnings week (GOOGL Wed, TSLA/INTC this week). Chip recovery lifting it today. Direction is a basket bet on the prints; elevated index-level event risk all week.",
+    "analyst": "QQQ at 700.21. ADX 70, 1h/4h long but 15m/5m short, 30m flat. RSI 63, bb_width tiny 1.61%, ATR 0.41%, at VWAP (+0.28%). Low-vol chop 699-705; noise stop swamps target so R:R<1.5. No pullback-to-support (688 far) or breakout trigger. Event overhang. HOLD.",
+    "portfolio": "HOLD QQQ \u2014 coiled at VWAP, no honest R:R; wait for 705 break or 699 loss."
+  },
+  "timestamp": "2026-07-20T18:42:12.340385+00:00"
+}

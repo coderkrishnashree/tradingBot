@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "XAG/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Grind sideways in a 60.54-61.30 base over the next few bars; shorting into RSI 33 near the lows risks a squeeze, and the FOMC minutes Wed are a binary. Expect chop until the base resolves - a loss of 60.54 re-opens the short toward 60.0/56.66; a reclaim of 61.78 confirms the oversold bounce.",
+  "expectancy_note": "No edge: shorting near the lows into oversold + a crowded 3.16 L/S (squeeze fuel) is negative-expectancy chasing; the long-bounce lacks confirmation and faces a binary FOMC catalyst. Waiting for the base to break beats a coin-flip entry.",
+  "rationale": "Silver is stabilizing in a tight 60.5-61.3 base after a multi-day washout: RSI 33, stoch 24, bb_pctb 0.13, last bars small-green on drying volume - an oversold coil, not a fresh breakdown to sell. Structure is crowded long (L/S 3.16, most lopsided in the book) which is squeeze fuel against a short, while the 4h down-trend and hawkish DXY argue against a long here; with FOMC minutes tomorrow as a two-sided binary, neither side has R:R >= 1.5. HOLD until the base resolves.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 60.54,
+    "expires_min": 240,
+    "note": "Losing the 60.54 base low proves the oversold bounce failed and re-opens the with-trend short toward 60.0 then the 56.66 support; a decisive break is the entry trigger."
+  },
+  "transcript": {
+    "macro": "Environment MIXED, tilting risk-off intraday on an AI/chip-led rotation (Samsung miss + DeepSeek). Firm dollar (DXY ~100.9) and hawkishly-split Fed (~56% Sept hike odds) drag non-yielding metals. XAG crowded long (long_short_ratio 3.16, most lopsided), structure_bias -0.234 contrarian-bearish; near support 56.66, below VWAP -1.4%, RSI 33 (4h). 0.88 correlated to gold - one metals book.",
+    "sentiment": "Silver off a sharp multi-day selloff, ~$61, -1.5% day / -9.7% month (still +67% YoY). Driver macro not fundamentals (firmer rates + multi-month-high DXY). July 7 Strait of Hormuz attack lifted oil (inflationary + haven risk). Concrete <=48h risk: FOMC minutes Wed July 8 - hawkish extends the short; dovish/haven bid squeezes the oversold bounce. Two-sided.",
+    "analyst": "Silver stabilizing in a tight 60.5-61.3 base after a multi-day washout: RSI 33, stoch 24, bb_pctb 0.13, small-green bars on drying volume - oversold coil, not a fresh breakdown to sell. Crowded long (L/S 3.16) is squeeze fuel against a short; 4h downtrend + hawkish DXY argue against a long. FOMC minutes tomorrow are a two-sided binary. Neither side has R:R >= 1.5 -> HOLD until the base resolves. Trigger: loss of 60.54 re-opens short; reclaim of 61.78 confirms bounce.",
+    "portfolio": "XAG/USDT: HOLD (conf 0.60) - oversold coil into a binary FOMC event, no edge either side."
+  },
+  "timestamp": "2026-07-07T17:39:17.289181+00:00"
+}

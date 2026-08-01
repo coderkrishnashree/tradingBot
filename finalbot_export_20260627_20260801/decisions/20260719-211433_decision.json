@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "SOL/USDT:USDT",
+  "confidence": 0.55,
+  "size": 0.0,
+  "entry": 76.15,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "none",
+  "forecast": "Price is stalling at the 76.16-76.21 shelf it already rejected twice; expect a fade back toward 75.3-75.5 VWAP/support over the next 2-4 bars unless BTC pushes through 65.5k. No clean entry mid-band.",
+  "expectancy_note": "Long into %B 0.879 / RSI 70.9 / VWAP +1.22% / L/S 2.75 is chasing a stretched, crowded move (structure_bias weight -0.49 predicts losses); short into ADX 58 uptrend with no rejection confirmation is the account's proven bleed (shorts 0.47 win). No R:R>=1.5 setup here \u2014 HOLD is highest expectancy.",
+  "rationale": "SOL is pure BTC beta (corr 0.80, rel-str -5.5%) sitting at the top of its 73.3-79.0 range: extended above VWAP, RSI 71, upper band, and dangerously crowded long (L/S 2.75) into a risk-off tape while BTC stalls at its own resistance with a 15m rollover. Neither direction offers an honest >=1.5R entry from here \u2014 a long needs a pullback to VWAP/support to be cheap, a short needs 75.3 to break with BTC rolling. Sit flat and let the armed triggers do the work.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 75.3,
+    "expires_min": 240,
+    "note": "Losing 75.3 (recent swing low / VWAP support) with BTC rolling confirms the crowded-long flush \u2014 flips this to a short toward 74.0/73.3."
+  },
+  "transcript": {
+    "macro": "REGIME: RISK-OFF/cautious. Friday equity selloff on semiconductor rout + Middle East risk. Crypto soft in sympathy: BTC ~$64.5k, dominance elevated ~56-59% (alts pressured). SOL is genuinely liquid now. SOL: high BTC-corr (0.80), pure beta; VERY crowded long (L/S 2.75) \u2014 contrarian short-squeeze/flush risk if BTC rolls.",
+    "sentiment": "SOL \u2014 Neutral/constructive. Spot SOL ETFs live (~$1B AUM), Firedancer v1.0 + Alpenglow upgrades pending (Q3/Q4, not imminent). Bounced then testing $74-75 support; no <=48h binary. Trades with BTC (corr 0.80).",
+    "analyst": "Price 76.15 at top of 73.3-79.0 range: %B 0.879, RSI 70.9, VWAP +1.22%, ADX 58.6, crowded long L/S 2.75 (structure_bias weight -0.49 predicts losses). BTC stalling at its own resistance with a 15m rollover, risk-off tape. Neither side offers >=1.5R: long needs pullback to VWAP, short needs 75.3 break with BTC rolling. HOLD.",
+    "portfolio": "HOLD SOL \u2014 stretched, crowded beta at range top; short trigger on 75.3 break with BTC rolling."
+  },
+  "timestamp": "2026-07-19T21:14:33.638891+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "META/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.4,
+  "playbook": "none",
+  "forecast": "Last bar was a violent 20-pt whipsaw (spike 613.3, flush 593.3, close 593.92) on 43x volume in a thin off-hours tape; expect messy two-way chop 593-600 over the next few bars as the flush digests, no clean directional edge yet.",
+  "expectancy_note": "No edge: ADX 13 chop, composite conf 1.1%, LTF deeply oversold (stoch 1.9, 5m RSI 10) right after a 10-pt flush \u2014 shorting here is the account's proven late-short-into-stretched-tape loser, and a long is knife-catching; both fail the 1.5R test with a ~1.5xATR ($15) stop needed on a 43x-vol thin book.",
+  "rationale": "META just printed a single spike/liquidity-grab bar on 43x volume during thin off-hours trading \u2014 unstable, gappy conditions. Regime is chop (ADX 13) with a near-zero composite and no timeframe alignment; the flush left 5m/15m RSI and stoch deeply oversold, so any honest short would be stopped by a routine counter-bounce, while a long has no reclaim to lean on. Risk-off macro biases the drift lower but not enough to chase into an oversold flush. Size 0 \u2014 no location, no R:R.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 600.0,
+    "expires_min": 180,
+    "note": "Reclaiming 600 (round number + breakout level 599.38) proves the flush was a fake-out and reopens a mean-reversion long back toward 604-608; failing to reclaim keeps the risk-off short bias intact for a cleaner re-entry."
+  },
+  "transcript": {
+    "macro": "Regime HOSTILE/RISK-OFF: Fed hawkish (10Y ~4.5%), Middle East escalation, equities heavy with tech/AI-trade rotation. META btc_corr 0.395 (equity-driven), tape risk-off/tech-rotation. Earnings 7/29 (outside 48h \u2014 not an immediate block, but no multi-day hold into it). Off US-hours thinness. Environment does not support fresh longs; short tilt aligns with heavy tape but scan composite is near-flat (conf ~1.1).",
+    "sentiment": "META: earnings 7/29 AMC = outside 48h, NOT tradable this cycle. Q2 guide rev $58-61B; raised 2026 capex $125-145B (long-horizon AI narrative). Only recent items analyst noise (Erste upgrade, WF PT $767, RBC $810) \u2014 low weight. Net NEUTRAL near-term, follows Nasdaq/mega-cap tech beta.",
+    "analyst": "No-edge tape: chop (ADX 13), composite conf 1.1%. Last 15m bar a violent 20-pt whipsaw (613.3 spike -> 593.3 flush, close 593.92) on 43x volume off-hours, leaving 5m RSI 10 / stoch 1.9 deeply oversold. Shorting the flush is the book's loser; a long is knife-catching \u2014 neither passes 1.5R with a ~$15 stop. HOLD, armed reconsider at a 600 reclaim.",
+    "portfolio": "HOLD META \u2014 no edge; a single 43x-volume whipsaw bar in chop, wait for a 600 reclaim or cleaner short entry."
+  },
+  "timestamp": "2026-07-09T11:31:55.717214+00:00"
+}

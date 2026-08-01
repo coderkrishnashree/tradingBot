@@ -1,0 +1,21 @@
+{
+  "action": "short",
+  "symbol": "TSM/USDT:USDT",
+  "size": 2.5,
+  "entry": 408.4,
+  "stop_loss": 411.6,
+  "take_profit": 398.2,
+  "take_profit_1": 402.9,
+  "take_profit_2": 398.2,
+  "confidence": 0.58,
+  "playbook": "trend",
+  "forecast": "Price bounced off 402.99 and should retest the failed-bounce/VWAP zone at 408-409 within 1-3 bars; that lower-high is the honest short entry, then trend resumes down through 405 toward 402.9, and if support at ~400 gives way, on to 398.2.",
+  "rationale": "TSM is in a strong, macro-supported downtrend (ADX 47.7, all TFs down, semis selling the TSMC capex hike, rel-strength -11.8%), but price just tagged 402.99 and bounced, so a market short now chases into 397.55 support with a bounce forming. A LIMIT short at 408.4 (the VWAP / failed-bounce lower-high the current bounce should reach) with stop 411.6 above the 410.3 swing gives a clean 1.7R to TP1 and 3.2R to TP2. Size held to 2.5% for tokenized-equity thin/gappy tape and squeeze risk from the crowded 2.21 long ratio; if 411.6 breaks the short thesis is wrong.",
+  "transcript": {
+    "macro": "HOSTILE for longs / SUPPORTIVE for shorts. Active semiconductor selloff is the driving story (Jul 16: SMH -3.7%, Nasdaq-100 ~-1.6%; Jul 17 pre-market semis still soft). Catalyst is a 'good news is bad news' reaction to TSMC's record Q2 (rev +33.7% to ~$40.2B, net +77%, raised guidance) but market sold off on capex hike to $60-64B, sparking AI-overbuild/margin fears. Rising yields + higher oil mild extra headwind. Macro calendar quiet next 48h (no FOMC until Jul 29, CPI already printed). Trades as equity, decoupled from BTC (TSM btc_corr -0.05). Funding 0.0. Long/short 2.21 (crowded retail longs into falling tape = contrarian-bearish fuel, squeeze risk on bounce). Structure_bias -0.258. Trend all 5 TFs down, RSI 37, ADX 47.7, rel-strength -11.8% vs BTC. OI thin (4,769). Tokenized equity = thin/gappy tape; size smaller.",
+    "sentiment": "TSM FRESH CATALYST: earnings reported Jul 16. Q2 rev $40.20B (+33.7% YoY), GM 67.7%, net +77.4%, EPS $4.31/ADR \u2014 a beat driven by 2nm/N2 ramp + AI demand, still being digested; today is the reaction print. Stock weak into the print (~$419, -5% on month, gave back ~10% from $474 high). Market selling the capex hike rather than the beat. No idiosyncratic negatives; main structural risk geopolitical (Taiwan/China export policy). Overall semi sentiment constructive but choppy.",
+    "analyst": "TSM in a strong macro-supported downtrend (ADX 47.7, all TFs down, RSI 37.5, structure_bias -0.258, rel-strength -11.8%). Price fell to 405, failed a bounce to ~409.5, then broke to a fresh low tagging 402.99 and closed 405.16 (doji recovery). A market short now chases into 397.55 support with a bounce forming (the book's #1 loser: late-short-into-support). Higher-expectancy play is a LIMIT short at 408.4 into the retest of the failed-bounce/VWAP lower-high, stop 411.6 above the 410.3 swing, TP1 402.9 / TP2 398.2 = 1.7R/3.2R. Size 2.5% for thin-tape gap + crowded 2.21 long squeeze risk.",
+    "portfolio": "TSM: SHORT (limit 408.4) conf 0.58 \u2014 sell the bounce in a macro-backed semi downtrend, reduced size for gap/squeeze risk."
+  },
+  "timestamp": "2026-07-17T03:04:41.137436+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "EWY/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.62,
+  "playbook": "none",
+  "forecast": "Down-leg exhausting: last 15m bar closed near its high on collapsing volume with 30m RSI 26 and price below the lower BB. Expect a snapback bounce toward 181.9-183.0 (VWAP/broken shelf) over the next 2-6 bars, which is where a lower-risk short sets up toward 174.6.",
+  "expectancy_note": "Shorting 179.5 into RSI-26/stoch-12 with support 174.6 only 2.7% away is ~0.6R and low p(win); waiting for a bounce to 182-183 lifts R:R above 2 to the 174.6 target. HOLD beats both a knife-catch long and a chase short.",
+  "rationale": "EWY is a genuine risk-off Samsung casualty (RS -10.6%, corr only 0.32, not BTC beta), so the bias is short, but it is deeply extended: 30m RSI 26, stoch 12, below the lower Bollinger, VWAP -3.95%, sitting on support 174.61. The last flush bar dried up in volume and closed at the top of its range, signaling an imminent snapback that would gut a fresh short's R:R. Macro, sentiment (imminent Samsung Q2 prelim / SK Hynix listing gap risk) and the account's own history (shorts win but chasing extended moves loses avg_pnl) all say wait for a bounce rather than sell the low.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 182.0,
+    "expires_min": 300,
+    "note": "A bounce into the 182 broken shelf/VWAP restores short R:R toward 174.6 support with a stop above 184; that is the entry to fade."
+  },
+  "transcript": {
+    "macro": "RISK-OFF, tech-led. Samsung fell up to 11% in Seoul (biggest KOSPI weight). EWY 179.53 direct Samsung casualty: 30m RSI 26, bearish divergence, RS vs BTC -10.6%. Clean risk-off short but already extended. Macro bias SHORT but wait for a bounce, don't chase the low; snapback squeeze risk, smaller size.",
+    "sentiment": "EWY high headline risk, two-sided. KOSPI extremely volatile (-6% then +5% last week; slid Jul 6 as foreigners sold ahead of Samsung). Live catalysts: Samsung Q2 preliminary earnings imminent + SK Hynix ~$29B Nasdaq DR listing \u2014 both can gap EWY overnight. Chip-heavy, tracks SOX. Expect outsized moves; wide stops.",
+    "analyst": "Deeply extended short (30m RSI 26, stoch 12, below lower BB, VWAP -3.95%) sitting on support 174.61 (~2.7% away). Last flush bar dried up on volume and closed top-of-range \u2014 imminent snapback. Account history: shorts win but chasing extended moves loses avg_pnl. HOLD; short the bounce into 182-183, not the flush low.",
+    "portfolio": "EWY: HOLD (conf 0.62) \u2014 short bias intact but wait to fade a bounce into 182-183 toward 174.6; do not sell the flush low into gap-risk catalysts."
+  },
+  "timestamp": "2026-07-07T14:25:14.775024+00:00"
+}

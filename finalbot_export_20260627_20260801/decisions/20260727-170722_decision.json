@@ -1,0 +1,25 @@
+{
+  "symbol": "INTC/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.6,
+  "size": 0.0,
+  "entry": 89.82,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "forecast": "Oversold bounce off the 87.39 low is underway (5m RSI 62.7, held above 87.12 support); expect a grind/relief toward the 91.5-93 VWAP zone before the downtrend can resume. Chasing a short here at -5.2% below VWAP gets run over by that bounce.",
+  "rationale": "INTC is the weakest name (RS -19.5%) and all TFs point short, but it just waterfalled 93.5->87.39 and is bouncing off support with 30m/1h RSI at 25-28 and price 5.2% below VWAP \u2014 the textbook stretched-tape short this account keeps losing (p_win_learned 0.369). A market short here is a chase the relief bounce toward 91-93 will stop out; a long is countertrend into an all-short structure with FOMC tomorrow. Wait for a VWAP bounce to short or a loss of 87.12 to confirm the next leg. Size zero.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 87.12,
+    "expires_min": 240,
+    "note": "Losing the 87.12 swing low breaks the oversold-bounce structure and confirms trend continuation \u2014 a clean short trigger."
+  },
+  "transcript": {
+    "macro": "2026-07-27 NEUTRAL-to-RISK-OFF, event-gated. FOMC July 28-29. Tape in revolt over AI capex; semis hit hard. INTC WORST in the book: RS -19.5% vs BTC, price broke down 93.5->89.8, all TFs short, RSI oversold across the board. Trend clearly DOWN but extended; L/S 2.05 (crowded long fading into weakness). Thin/gappy outside US cash hours.",
+    "sentiment": "Intel ALREADY reported Q2 (July 23): rev $14.4B/EPS $0.22 in-line, GM slightly light, foundry $5.8B (+31%). Stock sold off hard (price ~$90 vs $142 late-June). Post-earnings de-risking/profit-taking, not a fresh catalyst \u2014 momentum down, no new binary in 48h. Bearish near-term.",
+    "analyst": "Short p(win) low: price >1.5xATR below VWAP, RSI oversold, learned p_win 0.369 \u2014 the classic late-short loss. No clean R:R either way; HOLD until price reaches a fadeable level or loses 87.12 support.",
+    "portfolio": "HOLD INTC \u2014 genuine downtrend but oversold and bouncing off support; don't chase the hole, stand aside."
+  },
+  "timestamp": "2026-07-27T17:07:22.547443+00:00"
+}

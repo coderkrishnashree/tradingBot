@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "META/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Vertical recovery from 578 to 606 is exhausted at 606-607 (5m/15m RSI 83/88, last bar a rejection doji); expect a stall and pullback toward the 596-598 breakout shelf over the next 2-5 bars, from which a with-4h-trend long sets up with a tight stop under 590.",
+  "expectancy_note": "Buying 605.82 into RSI 83/88 + offer-heavy book (imbalance -0.129, 2:1 longs) is chasing \u2014 a routine dip hits any honest stop first (p_win low). Waiting for the 596-598 retest gives ~2:1 R:R with the 4h up-trend; better expectancy than chasing or shorting an up-tape.",
+  "rationale": "META has round-tripped the day's flush and is back at highs, but the last 8 15m bars are a one-way vertical run now printing a doji rejection at 606-607 with 5m/15m RSI at 83/88 \u2014 classic near-term overbought. 4h is up but 30m/1h are flat and the derivs book is crowded-long/offer-heavy (structure_bias -0.324), so fresh longs at the high have poor expectancy and a short fights the up-tape. Best expectancy is to wait for a pullback into the 596-598 shelf to buy with the trend, or a clean reclaim of 608 highs; no size until then.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 598,
+    "expires_min": 240,
+    "note": "A pullback into the 596-598 breakout shelf that holds re-arms a with-4h-trend long with a tight stop under 590 and ~2:1 R:R toward the 628 resistance \u2014 the entry I actually want instead of chasing 606."
+  },
+  "transcript": {
+    "macro": "Cautiously risk-on but geopolitically fragile (US-Iran escalation, two-sided intraday gap risk). Nasdaq green, megacap tech leadership supports META longs; breadth weak (Russell -0.88%). META: last 605.82, rel_strength +5.21% vs BTC (leading), btc_corr 0.383 (own equity beta). Derivs mildly crowded-long: funding 0.0, OI 2125, LSR 1.95 (~2:1 longs), orderbook -0.129 (offer-heavy), structure_bias -0.324 (tilts against fresh longs). 4h up (+0.571), 30m/1h flat, 15m/5m RSI 83/88 overbought. Earnings Jul 29 (outside window). Verdict: longs mixed-to-supportive but overbought/crowded; shorts hostile-to-mixed; normal/smaller size, tight stops, no naked overnight holds.",
+    "sentiment": "META near-term BULLISH. Earnings Jul 29 (not near-term). Fresh risk Jul 6: federal filing, CA/CO/KY/NJ seeking unprecedented $1.4T penalties in an August youth-safety trial + India child-safety warning \u2014 headline-grade but August, not a 48h binary. Bullish driver: 'Meta Compute' cloud plan lifted shares, +3.2% Jul 7, +3%+ on the week. Erste upgraded to Buy, avg PT ~$823, retail firmly bullish.",
+    "analyst": "META round-tripped the day's flush and sits back at day highs, but the last 8 15m bars are a one-way vertical +4.5% run off the 578 low now printing a doji rejection at 606-607 with 5m/15m RSI at 88/83 \u2014 classic near-term overbought. Market-buying here is chasing (the account's #1 loss pattern); a routine pullback would hit any honest stop before the trend resumes. Shorting fights a 4h up-tape and green megacap-tech day (weak intraday fade only). Offer-heavy book (imbalance -0.129) and 2:1 crowded longs (structure_bias -0.324) add caution. Best expectancy is patience: wait for a pullback into the 596-598 breakout shelf to buy with the 4h trend (tight stop under 590, ~2:1 R:R toward 628); reconsider armed at price_below 598.",
+    "portfolio": "HOLD META/USDT:USDT \u2014 no size; chasing a vertical run at the highs is negative-EV, wait for the 596-598 pullback to buy with the 4h trend."
+  },
+  "timestamp": "2026-07-09T15:58:37.401407+00:00"
+}

@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "EWJ/USDT:USDT",
+  "size": 0.0,
+  "entry": 92.96,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price stays pinned in the 92.7-93.4 noise band on near-zero volume; no directional move until CPI (Tue) forces a gap. Most likely drifts flat-to-slightly-lower toward 92.5 with no follow-through worth trading.",
+  "expectancy_note": "No edge: thin OI 1,809 + zero-volume candles make ATR-honest stops (~0.75%) wider than the actual noise, and mixed TFs (1h/30m flat, rsi 58 vs 4h rsi 28) give p(win)~0.5 \u2014 negative expectancy after fees/slippage. HOLD beats any coin-flip entry.",
+  "rationale": "EWJ is a phantom perp: last 20 bars show repeated 0.0-volume prints and price glued to 92.9-93.3, so there is no real order flow to trade. Signals are internally contradictory (4h oversold-short vs 1h/30m flat with rsi 58), relative strength is +0.87% (pure drift, low 0.25 BTC corr), and the June-CPI binary tomorrow with a closed underlying creates overnight gap risk that no tight stop survives. Best expectancy is to wait for the range to actually resolve; size 0.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 90.27,
+    "expires_min": 240,
+    "note": "Losing range-support 90.27 on real volume confirms the macro bearish tilt and opens a genuine trend short; until then it is noise-band chop."
+  },
+  "transcript": {
+    "macro": "RISK-OFF/defensive. S&P/Nasdaq heavy, oil spiking (Hormuz), semi-led selloff. DXY ~101, 10Y ~4.56% backing up, possible Fed HIKE by Sept. June CPI Tue Jul 14 + bank earnings = binary. SOX ~11% below June peak. Korea/Japan rolling over from euphoric highs; Nikkei choppy. EWJ is THIN (OI 1,809, near-zero candle volume), only -0.87% RS -> coin-flip drift, not a clean trend. Low conviction, smallest size. Gap risk on CPI. Bias: mildly bearish, illiquid.",
+    "sentiment": "EWJ: Nikkei near record highs, semi names (Advantest, Tokyo Electron) leading; BoJ hiking (+25bp), yen firm ~161.5 but volatile with intervention risk. PPI +7.1% sticky inflation. Least chip-pure of the four, thin perp liquidity. No idiosyncratic <=48h binary; drifts with global tech and yen. Net: NEUTRAL.",
+    "analyst": "Phantom perp: zero-volume prints, price glued 92.9-93.3. Signals contradict (4h oversold-short vs 1h/30m flat rsi 58), RS +0.87% pure drift, low BTC corr 0.25. Tiny ATR makes an honest stop wider than the noise; CPI gap risk on a closed underlying. No clean trend/range-extreme/breakout trigger \u2014 any entry is guessing on noise. HOLD; reconsider on a real-volume break of 90.27 support.",
+    "portfolio": "EWJ: HOLD (conf 0.60) \u2014 illiquid phantom perp with contradictory signals; no tradeable edge, wait for a 90.27 break."
+  },
+  "timestamp": "2026-07-13T17:32:57.701472+00:00"
+}

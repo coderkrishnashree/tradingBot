@@ -1,0 +1,26 @@
+{
+  "symbol": "META/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.35,
+  "size": 0.0,
+  "entry": 165.02,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "forecast": "META has no live scan row this cycle (5m fetch rate-limited, symbol skipped) so no fresh S/R, ATR or candles exist to anchor a next-move path; on stale reads it sits RSI ~29 oversold near 165 in a risk-off tape where every peer's 5m is ticking up on short-covering \u2014 a coin-flip between a mechanical bounce and continuation, no clean edge.",
+  "expectancy_note": "p(win) ~0.5 either way; shorting RSI ~29 into flagged squeeze risk is negative-EV chasing, longing against risk-off with no catalyst is equally weak; learner shows trend playbook avg_pnl -3.05, so forcing a trade loses. No-trade is the highest-expectancy line.",
+  "rationale": "The live scan lacks a META row (fetch_errors: META 5m rate-limited, skipped_symbols=2), so there is no current support/resistance, ATR% or recent candles to size a stop that survives noise or define a concrete forecast \u2014 a disciplined entry is impossible. Fundamentally META is a mild laggard in a risk-off tech/semi selloff but deeply oversold (RSI ~29) with peer 5m timeframes bouncing on short-covering, so risk is two-sided with no <=48h catalyst (earnings Jul 29, CPI Jul 14 both outside window). Size 0 until fresh data arrives or price picks a side at a real level.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 162.0,
+    "expires_min": 240,
+    "note": "A decisive break of ~162 breaks the oversold shelf and confirms fresh downside momentum (risk-off continuation), turning the balanced tape into a valid trend-short entry rather than a chase into oversold."
+  },
+  "transcript": {
+    "macro": "RISK-OFF regime, hostile to fresh longs, supportive for shorts. Equities risk-off (S&P -0.5%, Nasdaq -1.2%) on semi sell-off. Rates in HIKE regime (~56% Sept hike); Fed June minutes this week = event risk. BTC ~$64k +6.3% on short-covering but Fear&Greed=23 Extreme Fear (fragile mechanical bounce). L/S lopsidedly LONG while price falls = trapped-long short fuel, but many names RSI sub-30 = squeeze risk. META: corr BTC 0.35 (trade as equity), RS -2.25%, L/S neutral 0.98, funding negligible; caught in tech/semi risk-off, US-hours liquidity only.",
+    "sentiment": "META mixed, NO <=48h catalyst. Q2 earnings July 29 (3+ weeks out). Deeply oversold, moving with QQQ/index beta; July 14 CPI is the real near-term driver. Neutral-to-short \u2014 a technical/macro trade, not a news trade.",
+    "analyst": "No live META scan row this cycle (5m rate-limited, skipped_symbols=2) => no fresh S/R, ATR or candles to anchor a disciplined stop. Fundamentally a mild laggard in risk-off but deeply oversold (~RSI 29) with peers bouncing on short-covering (squeeze risk). No <=48h catalyst. Both sides are coin-flips; learner trend playbook avg_pnl -3.05. HOLD, size 0.",
+    "portfolio": "HOLD META \u2014 no live data + two-sided oversold tape; re-debate on a decisive break of 162."
+  },
+  "timestamp": "2026-07-07T20:27:24.254589+00:00"
+}

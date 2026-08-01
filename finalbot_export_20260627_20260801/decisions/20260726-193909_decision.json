@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "COIN/USDT:USDT",
+  "size": 0.0,
+  "entry": 160.78,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.55,
+  "playbook": "none",
+  "forecast": "Coiling dead-flat 160.55-160.85 on drying volume after a stretched run (30m RSI 81); likely a shallow pullback to 159.5-160.0 VWAP or a volume break above 161.3 to 162.5+.",
+  "expectancy_note": "p(win) on a market-long ~0.45 - chasing 30m RSI 81 into flat tape invites the counter-bounce stop; no range extreme to fade, no breakout trigger yet.",
+  "rationale": "COIN is strong-trend (ADX 45) with 4h bullish divergence and account longs winning (65%), but lower TFs overbought (30m RSI 81, 1h 72) and last 12 candles a stalling coil on drying volume under 161.3. Crowded long (L/S 1.51) in risk-off macro plus FOMC Jul 28-29 and earnings Jul 30 argue for patience. No R:R>=1.5 entry at 160.78; wait for a dip to VWAP/154 or a volume reclaim of 161.3.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 161.3,
+    "expires_min": 240,
+    "note": "Break of the micro-coil high on volume resolves the stall up, valid trend-continuation long toward 162.5+."
+  },
+  "transcript": {
+    "macro": "Risk-off/defensive late Jul 2026. Nasdaq underperforming, rotation out of tech. FOMC Jul 28-29 inside horizon = vol event. BTC ~$64.7k range-bound, dominance 56.4%, Fear&Greed 29. Book-wide crowded-long = contrarian downside risk. COIN: BTC corr 0.49; 4h bullish divergence but 30m RSI 81 stretched; lagging BTC (-6.5%), crowded long (L/S 1.51); soft.",
+    "sentiment": "Event cluster inside 48h: FOMC Wed Jul 29, then Thu Jul 30 (MSTR/COIN/AAPL earnings + BOJ). COIN ELEVATED: Q2 earnings Thu Jul 30 after close (binary); watch derivatives/prediction-market traction; CLO Paul Grewal departing. Do NOT carry naked through Thu.",
+    "analyst": "Strong trend + 4h divergence but lower TFs overbought and a stalling coil on drying volume under 161.3; market-long chases RSI 81, no extreme to fade. Crowded long + risk-off + FOMC/earnings = patience. Hold; long trigger above 161.30.",
+    "portfolio": "HOLD COIN - overbought coil, wait for 161.30 break or VWAP dip; do not carry into Thu earnings."
+  },
+  "timestamp": "2026-07-26T19:39:09.405873+00:00"
+}

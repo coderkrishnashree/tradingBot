@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "GOOGL/USDT:USDT",
+  "size": 0.0,
+  "entry": 358.07,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.2,
+  "playbook": "none",
+  "forecast": "Price is coiled 355-358.6 in a squeeze (BBW 1.18%, ADX 17.6) sitting on VWAP mid-range; expect continued chop 355-359 over the next few bars, with the thin 24-contract pop to 358.6 likely fading back toward 356 rather than extending. No directional edge until it clears the range on real volume.",
+  "expectancy_note": "No playbook qualifies: no trend (ADX 17.6), price mid-range not at a fadeable extreme, and the 'breakout' is a 1-bar illiquid spike on a chop/regime_blocked composite. p(win) coin-flip, R:R undefined; HOLD dominates by avoiding the pre-open whipsaw.",
+  "rationale": "GOOGL is the thinnest name in the set (OI 4.5k, 0.5-24 contracts/15m) scanning pre-open, gappy. Composite is FLAT/regime_blocked chop at 10.8% confidence, ADX 17.6 = no trend, and structure conflicts (rich funding + 1.86 L/S bearish vs +0.534 bid-heavy orderbook). Q2 earnings 7/22 is outside the 48h window so it's not tradable now. There is no honest R:R>=1.5 setup here; risking capital in this liquidity for a coin-flip is negative expectancy, so size 0.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 373.49,
+    "expires_min": 240,
+    "note": "A push through the range top toward resistance 373.49 on real volume would confirm a genuine breakout worth a long; until then it is squeeze chop with no edge (a break below support 351.78 would flip me short instead)."
+  },
+  "transcript": {
+    "macro": "Regime HOSTILE-to-MIXED, risk-OFF, hawkish Fed. GOOGL HOSTILE for a clean directional trade. Composite FLAT / regime_blocked (chop), ADX 17.6 (NO trend), conf 10.8%. Conflict trap: funding rich +0.00045 and long/short 1.86 bearish vs orderbook +0.534 bid-heavy, nets bias -0.278. LIQUIDITY the killer: OI just 4.5k, 15m volumes 1-6 contracts \u2014 thinnest of the four, pre-open. Near-zero BTC corr 0.14. Avoid or trade tiny.",
+    "sentiment": "GOOGL NET NEUTRAL, event risk flagged. Q2 earnings 2026-07-22 after close \u2014 ~9 days out, OUTSIDE 48h window (sentiment 80% bullish into it, cloud backlog >$460B). Do NOT trade the earnings now. Near-term only macro risk-off applies; the binary is next week, not this cycle.",
+    "analyst": "Last 358.07. Ground sideways 355-356.5 for ~18 bars then one 24-contract pop to 358.6 immediately rejected \u2014 a thin illiquid spike, not a trend. Mid-range (support 351.78 / resistance 373.49), at VWAP, BBW 1.18% squeeze, ADX 17.6. Every hard check fails: no trend, not at a fadeable extreme, breakout would chase a 1-bar illiquid spike on a chop composite. Pre-open, gappy. Textbook NO TRADE: HOLD, size 0. Reconsider long above 373.49 / short below 351.78 on real volume.",
+    "portfolio": "HOLD GOOGL \u2014 regime-blocked chop, thinnest liquidity, no edge; earnings 7/22 outside window."
+  },
+  "timestamp": "2026-07-13T08:33:28.315454+00:00"
+}

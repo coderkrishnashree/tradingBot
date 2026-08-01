@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "ORCL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.32,
+  "playbook": "none",
+  "forecast": "Thin Sunday chop: price likely oscillates 126.4-128.0 into Monday open; the last bar rejected 128 and closed at the low on rising volume, so a probe of 126.4-126.6 is likely next, but no clean level sits at spot to trade - a decisive break of 126.6 opens 124/120.79, a reclaim of 128 flips it neutral-up.",
+  "expectancy_note": "No edge: composite conf 7.0, ADX 25 marginal, price mid-range with support 4.6% away; shorting into 5m RSI 28 is the account's late-short loss pattern. HOLD beats a coin-flip thin-tape entry.",
+  "rationale": "ORCL composite is essentially dead (blended 0.058, all TFs near zero) and price sits mid-range with no structural level at spot, so there is no honest 1.5R setup. The tape is bearish-leaning (fresh rejection of 128, close on the low on the biggest down-volume, crowded 2.57 long ratio, rel-strength -23%) but 5m is already short-term oversold and US cash is closed with Monday chip-tape gap risk - chasing a short here invites the routine bounce that stops late shorts. Wait for the 126.6 shelf to break (short trigger) or 128 to reclaim before committing risk.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 126.6,
+    "expires_min": 240,
+    "note": "Losing today's 126.6 low breaks the local shelf and confirms downside continuation toward 124/120.79 support, validating a short entry."
+  },
+  "transcript": {
+    "macro": "RISK-OFF/MIXED. SOX bear market, Nasdaq selloff epicenter. US cash CLOSED (Sunday), Monday gap risk. ORCL scan composite very weak (conf ~7.0, all TF signals near zero/negative, action flat), L/S 2.57 crowded-long, structure_bias -0.30, rel-strength -23%, btc_corr 0.09 (idiosyncratic).",
+    "sentiment": "ORCL bearish/cautious, no 48h binary. No earnings imminent (next Sept). Down ~25% YTD near $140 despite huge AI backlog; overhangs: negative FCF, ~$40-50B new debt/equity raise, ~21k job cuts, fresh July 17 New Mexico pipeline block for the 2.5GW data-center project. Idiosyncratic bad-news drip, no positive near-term catalyst.",
+    "analyst": "Composite near-dead (blended 0.058), ADX 25, no structural level at spot (support 4.6% below). Last bar rejected 128 and closed at the low on the biggest down-volume - bearish lean - but 5m RSI 28 already oversold, thin Sunday, Monday gap risk. Chasing a short is the late-short loss pattern. HOLD, arm short on loss of 126.6.",
+    "portfolio": "HOLD ORCL - dead composite, weak but oversold near-term; armed short below 126.6."
+  },
+  "timestamp": "2026-07-20T10:46:01.710366+00:00"
+}

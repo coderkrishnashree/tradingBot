@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "EWY/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Thin weekend drift: price grinds/chops between VWAP ~181.8 and the 183.2 shelf into Monday open; 15m RSI 89.8 / 5m RSI 87 are exhausted so the most likely next few bars are a stall or shallow fade off 183.2 rather than a clean breakout, with real direction deferred to Monday's cash open and Tue CPI.",
+  "expectancy_note": "Long = buying LTF RSI ~90 exhaustion on drying volume into resistance (negative expectancy, the account's #1 loss pattern); short fights ADX 82 uptrend with positive 1h/4h scores. Neither side clears 1.5R now \u2014 HOLD is the highest-expectancy action.",
+  "rationale": "EWY is a tokenized equity (btc-corr 0.34), a -14.45% laggard being marked up on thin, fading-volume weekend tape into 15m RSI 89.8 and 5m RSI 87 \u2014 a market long here is chasing exhaustion, exactly the pattern that has bled this book. Underlying Korea is closed (illiquid, Monday gap risk two-sided) and June CPI Tuesday is a live downside catalyst, so structure gives no clean 1.5R entry either way. I stand aside and arm a trigger for confirmation on real liquidity rather than pay up for an over-extended off-hours drift.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 184.5,
+    "expires_min": 240,
+    "note": "Clean break/hold above the 183.2 shelf toward 184.5 on Monday's live tape (not thin weekend prints) proves the ADX-82 uptrend is resuming on real demand, turning this from an exhausted chase into a valid with-trend long."
+  },
+  "transcript": {
+    "macro": "Equities risk-ON but wobbly at highs. June CPI Tue Jul 14 \u2014 trim size; underlying Korea market closed (weekend) = illiquid, gappy. EWY (Korea ETF): tokenized equity, low BTC-corr 0.34; scan long (+0.375) but rel-strength -14.45% (big laggard) and 15m RSI 89.8 = overextended micro-bounce into ADX 82 downtrend. Mixed \u2014 long chases a lagging name into resistance; small size only.",
+    "sentiment": "EWY: Bullish structurally, watch Monday gap. Korea ETF on a monster run (+109% YTD) on the Samsung/SK Hynix AI-memory boom; macro tailwinds (Fed cut expectations, softer dollar). No <=48h binary while US closed; live risk is a Monday-open gap + any Korea chip-export tariff headline. Off-hours pricing unreliable.",
+    "analyst": "HOLD. A -14.45% laggard drifted up on thin, fading weekend volume into 15m RSI 89.8 / 5m RSI 87 \u2014 a market long buys exhaustion (the book's #1 loss pattern); a short fights ADX 82 with positive 1h/4h. Neither side clears 1.5R. Korea cash closed (gappy Monday) + CPI Tue. Stand aside; arm an upside-confirmation trigger at 184.5 on live tape.",
+    "portfolio": "EWY \u2014 HOLD (conf 0.50): don't chase the exhausted off-hours bounce; re-debate a long only above 184.5 on Monday's real tape."
+  },
+  "timestamp": "2026-07-12T05:33:26.357763+00:00"
+}

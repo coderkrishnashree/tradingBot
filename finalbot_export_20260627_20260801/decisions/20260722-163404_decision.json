@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "EWY/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price is stalling at 171.4-172.1 on collapsing volume (last bars 297->93->100->44 units) after a sharp +2.9% impulse; expect a fade/chop back toward the 170.3 shelf or VWAP ~167.6 over the next 2-4 bars before any resumption \u2014 no clean long entry at spot.",
+  "expectancy_note": "Long at 171.4 is a chase: 15m RSI 75.9, +2.29% above VWAP, orderbook -0.33, rel-strength -12.4% (laggard echo). p(win) of a market long here ~0.45; a routine dip to 170/VWAP stops it before continuation. Waiting for the retest or a clean 172.1 breakout is higher expectancy than entering into the stall.",
+  "rationale": "4h trend is up (ADX 35, RSI 58.8) so I won't short a live semi rebound on US-open risk-on with GOOGL/TSLA earnings tonight, but volume is drying at the highs with repeated 172.1 rejections and the tape is stretched intraday \u2014 a market long is precisely the late-into-extended-move pattern that bleeds this book. Better to wait: buy a pullback into the 170.3 shelf / VWAP ~167.6 where R:R resets, or a genuine volume breakout over 172.1. Size 0 until price offers one of those.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 170.15,
+    "expires_min": 240,
+    "note": "Losing the 170.3 shelf opens a clean pullback to VWAP ~167.6 where a trend-continuation long has proper R:R; also re-debate if 172.1 breaks on real volume for a breakout long."
+  },
+  "transcript": {
+    "macro": "Regime risk-off-leaning mixed but risk carriable this US-open session. Semiconductor complex (INTC/TSM/EWY/SNDK) has the best environmental support on today's chip rebound but all are stretched/lagging = chase-the-bounce longs (smaller size, tight, no adds). EWY: last 171.4, strong 4h uptrend RSI 58.8, helped by strong Korea/Taiwan chip export data, but rel-strength -12.4%, 15m RSI 75.9 (stretched), orderbook -0.33, crowded. Tokenized equities thin \u2014 size down. GOOGL+TSLA earnings after close can whip semi sentiment.",
+    "sentiment": "Whippy but risk-on today. KOSPI is a volatile AI/chip proxy (Samsung, SK Hynix); 3%+ rally July 21 then open-high/close-low July 22, index still ~25% off June peak. No dated catalyst in 48h; effectively a leveraged bet on semi sentiment \u2014 any Samsung/SK Hynix headline moves it fast. Neutral-to-supportive intraday but two-sided; high-beta chip risk, not a clean trend.",
+    "analyst": "Volume collapsing at the highs (297->93->100->44) with repeated 172.1 rejections after a +2.9% impulse; +2.29% over VWAP, 15m RSI 75.9. A market long is the late-into-extended-move pattern this book bleeds on; won't short a live semi rebound with earnings tonight. Wait for a pullback to the 170.3 shelf/VWAP ~167.6 or a volume breakout over 172.1.",
+    "portfolio": "HOLD EWY \u2014 stalling stretched semi chase, drying volume; buy a pullback to 170/VWAP or a clean 172.1 breakout, not spot."
+  },
+  "timestamp": "2026-07-22T16:34:04.730977+00:00"
+}

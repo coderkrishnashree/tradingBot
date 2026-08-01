@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "MU/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.55,
+  "playbook": "none",
+  "forecast": "Coiling under 855.5 intraday resistance after a grind off 847; expect either a shallow dip to retest 850 (defended by the +0.81 bid) or a break above 855.5 toward 861. No honest 1.5R entry exists right now.",
+  "expectancy_note": "p(win)~0.55 but R:R to the only nearby TP (855.5) is <0.8 from any honest stop; chasing at resistance into a weekend gap on a -33% laggard is negative expectancy.",
+  "rationale": "MU is a valid oversold-bounce candidate: 4h RSI 28 with bullish divergence, 1h/15m turned up, heavy real bid (orderbook +0.81) that the learner's long-side edge favors. But price is pinned under 855.5 after a 15m up-run, it's a -33% rel-strength laggard into crowded longs (L/S 2.18), weekend gap risk argues smaller size, and no entry clears 1.5R to the single nearby target. HOLD until a break above 855.5 or a defended flush toward 845.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 855.7,
+    "expires_min": 240,
+    "note": "Reclaiming/breaking the intraday high the last 3 bars rejected confirms the bounce has legs toward 861+, opening a valid continuation long."
+  },
+  "transcript": {
+    "macro": "Rotation OUT of semis on TSMC Jul 16 capex scare (fresh <72h); Micron fell 8% in one session on it. Semis HOSTILE-to-MIXED for fresh longs. MU rel-strength -33.4%, L/S 2.18 crowded long. Funding ~0. Weekend gap-down hits oversold semi longs hardest; smaller size. FOMC Jul 28-29 outside window.",
+    "sentiment": "MU BULLISH, no imminent binary. Blockbuster fiscal Q3 (Jun 24): record rev, Q4 guide ~$50B vs $43.6B consensus, HBM sold out through 2026, Anthropic supply deal. News backs long lean but catalyst is stale (~1 month old).",
+    "analyst": "Valid oversold-bounce setup (4h RSI 28 bullish divergence, 1h/15m up, orderbook +0.81 real bid, favorable long-side learner edge) BUT price pinned under 855.5 after a 15m up-run; -33% laggard into crowded longs + weekend gap risk; no entry clears 1.5R to the sole nearby target. Wait for a 855.5 break or a defended flush toward 845.",
+    "portfolio": "HOLD MU - constructive bounce but no honest 1.5R entry under resistance; armed long trigger above 855.7."
+  },
+  "timestamp": "2026-07-19T20:45:19.593822+00:00"
+}

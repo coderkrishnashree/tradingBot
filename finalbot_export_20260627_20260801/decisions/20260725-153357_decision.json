@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "GOOGL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.4,
+  "playbook": "none",
+  "forecast": "Price is coiling 317.5-319.9 just above support 315.61 on dead weekend volume; most likely next few bars chop sideways or dead-cat bounce toward VWAP (~329) rather than break down cleanly from 4h RSI 22.5.",
+  "expectancy_note": "Short here is a chase into oversold (4h RSI 22.5) ~1% above support with <1.5R to TP1; account shorts already bleed (0.47 win, -0.78 avg). Best short is a bounce to VWAP, not this base. HOLD is highest expectancy.",
+  "rationale": "GOOGL scan reads short but price is deeply oversold and basing just above support 315.61 on thin, gap-prone weekend tape \u2014 the exact late-short-into-stretched-tape pattern this account loses on. Crowded-long positioning (L/S 2.482) is as likely to fuel a short-covering bounce as a flush from RSI 22.5. No honest entry offers 1.5R to a realistic first exit, so I wait: sell a bounce back to VWAP, or a decisive break of support with volume.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 315.4,
+    "expires_min": 240,
+    "note": "A decisive close below support 315.61 confirms the downtrend resuming with room to run, flipping this to a valid short entry rather than a chase."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF, hawkish Fed, oil-shock dominant, equities selling off led by TECH specifically. GOOGL: cleanest short of the three \u2014 scan (blended -0.277, conf 38%, ADX 51.7, 4h RSI 22.5, price -3.2% vs VWAP) and macro align (Alphabet -7% Jul 23 on AI-capex worry; tape punishing that theme). Positioning lopsided-long: L/S 2.482 (most crowded), structure_bias -0.266 (supports short/squeeze-of-longs). Caveats: catalyst 2 days old, deeply oversold (chase risk); US-cash instrument closed weekend, thin/gap-prone.",
+    "sentiment": "GOOGL lean bearish drift, shock already in the tape. Q2 Jul 22 beat broadly (rev +24% to $119.8B, Cloud +82%, EPS $9.11) yet sold off hard (-3.7% AH, >6% next day) on FY26 capex guide hike to $195-205B (vs ~$186B expected) and FCF -$5.9B. Jul 25 is day-2/3 post-earnings drift \u2014 continued weakness or dead-cat bounce as funds reposition. Edge is trading the unwind, not anticipating a catalyst.",
+    "analyst": "Best macro/scan/positioning alignment of the three, but price is oversold and basing ~1% above support 315.61 on dead weekend volume; no honest entry clears 1.5R to TP1, and account shorts bleed on exactly this late-chase pattern. Sell a bounce to VWAP (~329) or a confirmed break of support, not this base. HOLD; arm short reconsider below 315.4.",
+    "portfolio": "GOOGL/USDT:USDT \u2014 HOLD (conf 0.40): cleanest bear case but oversold base above support, sub-1.5R entry; wait for a bounce or support break."
+  },
+  "timestamp": "2026-07-25T15:33:57.018976+00:00"
+}

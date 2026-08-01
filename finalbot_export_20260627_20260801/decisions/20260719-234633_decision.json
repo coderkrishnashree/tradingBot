@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "TSM/USDT:USDT",
+  "size": 0.0,
+  "entry": 400.97,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.66,
+  "playbook": "none",
+  "forecast": "Dead Sunday tape: price chops 399-402 on near-zero volume into Monday cash open; real direction resolves at the open, likely gapping with the risk-off semi complex.",
+  "expectancy_note": "No level to lean on + gappy off-hours + honest ~2.5pt ATR stop lives in noise -> negative expectancy; HOLD preserves capital.",
+  "rationale": "TSM is a tokenized equity in an active semiconductor de-rating (sector -20%+, RS -19.9%), trading a dead Sunday off-hours tape with near-zero volume and no genuine price discovery. Indicators conflict (30m/1h lean long, 4h MACD -4.54 neutral-bearish, 5m washed) and retail is crowded long (L/S 2.47) into a falling knife (contrarian-bearish). No structural level near price to anchor a stop, and Monday's cash open carries gap risk that would run any honest ATR stop before the thesis plays out.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 403.5,
+    "expires_min": 240,
+    "note": "Volume reclaim above 402 congestion would show buyers stepping ahead of Monday."
+  },
+  "transcript": {
+    "macro": "RISK-OFF semiconductor unwind (SOX -20%+ in 3wk). Off-hours Sunday, equity perps thin/gappy. TSM reported 7/16 (spent). Retail crowded long semis into de-rating (contrarian bearish). No fresh equity longs into illiquid tape.",
+    "sentiment": "TSM spent catalyst post 7/16 strong AI guidance; now trades on sector drift + Korea (BoK hawkish shock, KOSPI -6.4%) read-through. No <=48h binary of its own.",
+    "analyst": "Tokenized equity, crypto structure metrics not meaningful. Dead Sunday tape (near-zero/0.0 volume bars), mid-range price, conflicting indicators (30m/1h long-lean vs 4h MACD -4.54 vs 5m RSI 18.8), retail crowded long L/S 2.47, RS -19.9% in de-rating sector. No positive-expectancy setup; honest ATR stop lives in noise Monday can gap through. HOLD.",
+    "portfolio": "HOLD TSM (conf 0.66) \u2014 crowded-long falling knife in illiquid off-hours tape, no edge."
+  },
+  "timestamp": "2026-07-19T23:46:33.463932+00:00"
+}

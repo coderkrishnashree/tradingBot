@@ -1,0 +1,24 @@
+{
+  "action": "hold",
+  "symbol": "HOOD/USDT:USDT",
+  "size": 0.0,
+  "entry": 100.66,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "rationale": "HOOD sits exactly at VWAP (+0.11%) mid-range between support 96.68 and distant resistance 116.66, with contradictory TFs (5m rolling over short -0.44 but 15m/30m stretched long RSI ~82) and composite flagged not-aligned. US cash closed = thin, gappy; macro risk-off and crowded-long positioning (L/S 1.65) offer no clean confirmed setup and no structural level to lean on for favorable R:R. Highest-expectancy action is to wait for the base to break; a market entry here is the mid-air chase the account bleeds on.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 99.6,
+    "expires_min": 240,
+    "note": "Losing the 99.6 intraday base confirms the 5m rollover into a real short with room to 96.68 support."
+  },
+  "transcript": {
+    "macro": "RISK-OFF/defensive, thin overnight (US cash CLOSED). HOOD is BTC-proxy (corr 0.54); BTC ~$65.5k, funding benign, mildly constructive \u2014 defer to BTC tape. Crowded long (L/S 1.65). Favors shorts/fades.",
+    "sentiment": "HOOD NEUTRAL into a near binary: earnings Jul 29 after close (outside 48h; consensus EPS $0.41, slight YoY decline), near ~$107 consensus target, mostly Strong-Buy. No <=48h catalyst; don't hold size into the Jul 29 print. BTC mildly constructive, no fresh crypto shock in 48h.",
+    "analyst": "At VWAP mid-range, contradictory TFs (5m short vs 15m/30m stretched long), composite not-aligned, thin closed-market tape; no fadeable extreme, long fights crowded positioning. HOLD; wait for the 99.6 base to break for an actionable short.",
+    "portfolio": "HOLD HOOD \u2014 mid-air at VWAP; short armed below 99.6."
+  },
+  "timestamp": "2026-07-21T05:45:44.274698+00:00"
+}

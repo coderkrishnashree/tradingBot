@@ -1,0 +1,26 @@
+{
+  "symbol": "COIN/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.5,
+  "size": 0.0,
+  "entry": 162.17,
+  "stop_loss": 0.0,
+  "take_profit": 0.0,
+  "playbook": "none",
+  "rationale": "Tokenized equity, US cash market closed (Sunday) so tape is thin/gappy and the low-volume bounce off 160.8 is not tradable size. Price is extended: 4h RSI 73.9, stoch 84.6, %B 0.78, +1.78% above VWAP - a market long here is exactly the chase-into-stretched-tape pattern that bleeds this account, and structure bias -0.41 shows crowded longs already leaning my way. A short fights an ADX-50 uptrend with fresh bullish divergence and a higher-low base, no edge. Neither side clears 1.5R to an honest structural target (resistance 181.7 far, we sit at prior swing 162.2). Earnings Thu Jul 30 is a hard binary at the edge of the hold window - no reason to pre-position through a coin-flip print. Wait for a clean reclaim to confirm the divergence bounce with liquidity.",
+  "forecast": "Thin weekend chop 160.8-162.5; a decisive reclaim and hold above 162.9 would confirm the divergence bounce toward 164.5-165, at which point a long with a stop under 161 becomes valid.",
+  "expectancy_note": "p(win) both directions ~0.5 with sub-1.5 R:R into a closed market and a 48h-edge earnings binary; flat is the highest-expectancy line until price proves the reclaim.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 162.9,
+    "expires_min": 240,
+    "note": "Reclaim and hold above the 162.9 swing cluster confirms the bullish-divergence bounce resuming; long with stop under 161 toward 164.5-165 becomes valid R:R."
+  },
+  "transcript": {
+    "macro": "Regime MIXED, risk-on into event week. FOMC Wed Jul 29. BTC firm (~$65.3k, RSI 76). Funding broadly rich, crowded longs. Smaller size everywhere. COIN: crypto-beta broker, BTC corr 0.48, RS -6.8%, RSI 73.9, bullish divergence; mild LONG lean but crowded (bias -0.41), small.",
+    "sentiment": "Wall of binary catalysts next 48-72h. COIN: EARNINGS Thu Jul 30 AC - hard binary; stock down ~36% YTD into a soft crypto quarter, consensus ~$0.31 EPS. Expect outsized move; scan flags bullish divergence but coin-flip event. NEUTRAL/high-risk - avoid carrying through the print.",
+    "analyst": "Tokenized equity, US cash closed (thin/gappy), low-volume bounce off 160.8. Extended: RSI 73.9, stoch 84.6, %B 0.78, +1.78% VWAP - a long chases the account's losing pattern; a short fights an ADX-50 uptrend with bullish divergence. Neither clears 1.5R. Earnings Thu at edge of hold window. HOLD. Reconsider on reclaim/hold above 162.9.",
+    "portfolio": "HOLD - extended into thin tape, earnings Thu binary, no edge; conf 0.5."
+  },
+  "timestamp": "2026-07-27T05:09:27.660058+00:00"
+}

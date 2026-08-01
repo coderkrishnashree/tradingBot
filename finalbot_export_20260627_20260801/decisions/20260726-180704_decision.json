@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "TSLA/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.58,
+  "playbook": "none",
+  "forecast": "Slow weekend bleed with lower highs, but 4h RSI 31 / 5m RSI 26.8 = oversold; likeliest next move is a low-volume mean-reversion bounce toward VWAP ~322 before the downtrend resumes. Either that bounce (fade at 320-322) or a clean break of 307.12 support gives a real short entry.",
+  "expectancy_note": "Macro/structure are bearish (LS 2.64 crowded long, RS -25.5%, structure_bias -0.34) but learner shows shorts 47% win / -0.78 avg pnl and RS-weight -0.326 = shorting the weakest name late has LOST; chasing an oversold weekend bleed is the account's #1 loss pattern. HOLD until a bounce to fade or a support break confirms.",
+  "rationale": "The thesis is correct (short-tilt, weakest RS in book, sellers in the book, risk-off into FOMC) but the ENTRY is wrong right now: price sits mid-band on the 15m yet oversold on 4h/5m, in thin gappy weekend liquidity, ~2.3% below VWAP already. A routine counter-bounce would hit any honest short stop before continuation - precisely how this account's late shorts have died. Better expectancy is to wait: fade a bounce back to VWAP/broken-support 320-322, or short a decisive loss of 307.12 support.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 307.12,
+    "expires_min": 240,
+    "note": "Losing 307.12 support on volume confirms downtrend continuation rather than an oversold bounce - that break is a clean continuation short (target next leg ~300) instead of chasing the current mid-range bleed."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF/defensive; Fed not easing, hike live risk at FOMC 7/28-29 = supportive for macro-aligned shorts. TSLA: SHORT tilt (macro-aligned). Already -14% on earnings, RS -25.5% (weakest in scan), 4h/5m trend down, RSI 31. Earnings are OUT (7/22) so no binary ahead - overhang is directional and risk-off reinforces the short. Watch oversold bounce risk.",
+    "sentiment": "Overall mood fragile, AI-capex selloff; FOMC 7/29 in window; weekend illiquid/gap-prone. TSLA bearish: Q2 reported 7/22 - record 480k deliveries but operating margin collapsed to 1.4% (from 4.1%), clear miss; stock crashed ~14.5% on 7/23; analysts cut targets on margin pressure + cautious robotaxi/autonomy guidance. Fresh, still-digesting negative catalyst; momentum + sentiment firmly downside.",
+    "analyst": "Thesis is genuinely bearish (LS 2.64 crowded long, RS -25.5%, structure_bias -0.34, sellers in book) but the entry is wrong: price mid-band on 15m yet oversold on 4h/5m (RSI 31/26.8), ~2.3% below VWAP, thin gappy weekend. A routine counter-bounce would stop any honest short first - the account's #1 loss pattern. Wait to fade a bounce into VWAP ~320-322 or short a decisive loss of 307.12. HOLD.",
+    "portfolio": "HOLD TSLA (conf 0.58) - right short thesis, wrong entry (oversold); wait for bounce-to-fade or 307.12 break."
+  },
+  "timestamp": "2026-07-26T18:07:04.688757+00:00"
+}

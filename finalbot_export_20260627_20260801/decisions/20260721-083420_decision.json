@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "BTC/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.55,
+  "playbook": "none",
+  "forecast": "Price stalled at 66,333 resistance with a heavy ask wall (orderbook -0.648) and stretched oscillators (15m RSI 93.5, %B 1.067, VWAP +2.14%); most likely it chops/fades back toward 66,000 then 65,700 over the next 2-5 bars, but a break-and-hold above 66,333 would squeeze crowded shorts higher. First pause after a clean grind is not a confirmed rejection.",
+  "expectancy_note": "Long = chasing into a wall (RR negative here); short needs a confirmed rejection I don't yet have. Waiting for the 66,000 break gives p(win)~0.6 on the fade vs a coin-flip now.",
+  "rationale": "BTC is extended into hard resistance 66,333 with sellers stacked above (imbalance -0.648) and overbought LTF oscillators - a market long is the account's proven loss pattern (chasing a stretched move). But the 4h trend is still up and I only have one hesitation candle, not a rejection, so shorting now risks a resistance break running me over. Best expectancy is to wait: losing 66,000 confirms the fade toward 65,700/65,400; that is the trade to take, not this. Size 0 until the level resolves.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 66000,
+    "expires_min": 240,
+    "note": "Losing 66,000 confirms rejection at 66,333 and opens the short toward 65,700/65,400 with the ask wall and bearish macro backing it."
+  },
+  "transcript": {
+    "macro": "Regime: RISK-OFF / HAWKISH. Fed rate HIKE being priced, yields rising on oil-driven inflation (US-Iran), firmer dollar. Crypto cautious: BTC ~$66k, Fear&Greed ~50, BTC dominance HIGH (capital hiding in BTC). Derivatives lopsided long (crowded, contrarian negative), squeeze-lower risk. Size guidance: REDUCE. BTC-specific: price grinding up (66,275, RSI 67.9, 4h up) BUT structure_bias -0.34 from orderbook imbalance -0.648 (heavy ask-side) and LSR 1.36. Composite FLAT (conf 7.8%). Tired push into resistance ~66,333 with sellers stacked above.",
+    "sentiment": "Binaries cluster 7/28-30 (FOMC 7/28-29, GDP 7/30) - outside 48h. ETF flows are the live swing factor (June worst outflow month on record) but no dated catalyst this cycle. BTC: neutral, stabilizing (F&G recovered to ~50 from extreme fear). No 48h binary; trades on flow/tape.",
+    "analyst": "Extended into hard resistance 66,333 with a heavy ask wall and overbought LTF oscillators - market long is the proven chase loss; but only one hesitation candle (no confirmed rejection) so shorting now risks a breakout running me over. Coin-flip at the level -> HOLD; the tradeable fade arms only on a loss of 66,000 toward 65,700/65,400.",
+    "portfolio": "BTC: HOLD (0.55) - tired push into 66,333 ask wall, no confirmed rejection; short arms below 66,000."
+  },
+  "timestamp": "2026-07-21T08:34:20.674633+00:00"
+}

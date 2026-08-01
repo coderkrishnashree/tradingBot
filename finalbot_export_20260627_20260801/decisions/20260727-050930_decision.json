@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "XAUT/USDT:USDT",
+  "size": 0.0,
+  "entry": 4079.3,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.35,
+  "playbook": "none",
+  "forecast": "Coiled 4076-4090 with ATR just 0.17%; expect continued drift/chop into FOMC Wed, most likely a slow bleed toward 4055 unless 4103 reclaims - no clean directional edge in the next few candles.",
+  "expectancy_note": "p(win)~0.4 either side; no R:R justifies entry - RSI 79/4h + L/S 2.58 crowded long kills a fresh long, and account shorts are 46% win (-0.82 avg) so fading into a rising higher-TF trend at 0.17% ATR is negative expectancy. NO-TRADE beats both.",
+  "rationale": "Gold bounced to 4103 then faded to 4076 and is now flatlined at 4079 directly under a binary FOMC Wed - micro ATR (0.17%), tight BB (1.26% width), and macro/sentiment both NEUTRAL with the ceasefire a headwind. Long is chasing an overbought (RSI 79) crowded (L/S 2.58) bounce that's already stalling; short is the exact late-fade-into-trend pattern that has lost this account money. No honest R:R greater than 1.5 exists into a two-day-out event, so size is zero.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 4103.0,
+    "expires_min": 240,
+    "note": "reclaiming the failed 4103 swing high proves the bounce resumed and reopens 4155 - flips to a continuation long"
+  },
+  "transcript": {
+    "macro": "Regime MIXED, risk-on into event week. US/Iran ceasefire = safe-haven bid unwinding, a GOLD HEADWIND. FOMC Wed Jul 29. Firm dollar hurts gold. XAUT: recovered to ~$4,090 off 9-month lows as safe-haven bid unwinds; recovery fragile in risk-on tape + firm dollar; RSI 79 4h, L/S 2.58 crowded. NEUTRAL; ceasefire a headwind even as price bounces.",
+    "sentiment": "XAUT: ~$4,050-4,080 coiled directly under FOMC Jul 29. Hold largely priced; hawkish surprise/hike-tail bearish, dovish tilt reopens $4,100+. Safe-haven Mideast bid provides a floor. NEUTRAL into the decision, then binary.",
+    "analyst": "Bounced to 4103, faded to 4076, flatlined at 4079 under a binary FOMC Wed; micro ATR 0.17%, tight BB 1.26%. Long chases overbought (RSI 79) crowded (L/S 2.58) stalling bounce; short is the account's losing late-fade pattern. No 1.5R into a two-day-out event. HOLD. Reconsider on reclaim above 4103.",
+    "portfolio": "HOLD - coiled under FOMC, overbought + crowded, micro ATR, no edge; conf 0.35."
+  },
+  "timestamp": "2026-07-27T05:09:30.234879+00:00"
+}

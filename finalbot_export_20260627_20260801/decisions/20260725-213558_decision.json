@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "EWJ/USDT:USDT",
+  "size": 0.0,
+  "entry": 91.9,
+  "stop_loss": 89.5,
+  "take_profit": 93.34,
+  "confidence": 0.33,
+  "playbook": "none",
+  "forecast": "No readable path: 15m tape is mostly 0.0-volume prints frozen at 91.64 with a single thin 8.46-vol lift to 91.90; price likely drifts/chops 91.5-92.0 on noise until Monday cash open, not a tradeable move.",
+  "expectancy_note": "p(win)~0.45 at best; entry on a thin weekend print faces stacked offers (ob -0.162), a modestly-long crowd (L/S 1.38) and laggard rel-strength (-3.97%) \u2014 negative expectancy vs waiting for Monday liquidity.",
+  "rationale": "Japan cash is closed and the 15m candles are dominated by zero-volume bars with RSI spiking to 100 on single prints, so there is no genuine price discovery to trade \u2014 the 4h uptrend is intact but the mid TFs are all flat and Bollinger width is compressed to 2.0%. Structure leans against fresh longs (orderbook imbalance -0.162, offers stacked; crowd already 1.38 long) and sentiment is near-term bearish (Nikkei -2.7%, yen 40-yr low, BOJ Jul 30-31 hawkish risk). Best expectancy is standing aside over the illiquid weekend; size 0 until Monday liquidity confirms a real move.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 93.34,
+    "expires_min": 240,
+    "note": "A clean reclaim of 4h resistance 93.34 on real (non-zero) volume would confirm the uptrend resuming and justify a long entry with the 4h trend."
+  },
+  "transcript": {
+    "macro": "2026-07-25 21:29 UTC. WEB FEEDS DOWN (529s). BIGGEST RISK: US & Tokyo cash CLOSED until Monday; tokenized equities no true price discovery, weekend tape thin/gappy. EWJ 91.9: structure_bias -0.163, L/S 1.38, orderbook imbalance -0.162 (offers stacked); 4h uptrend intact but crowd modestly long into offers; rel-strength -3.97% (laggard); thinnest of the three (Japan cash closed), multiple 0.0-volume bars. Smaller size / wait for Monday.",
+    "sentiment": "EWJ sentiment BEARISH/cautious near-term. Nikkei just fell ~2.7% on AI-spend tech retreat; yen at fresh 40-yr low (~164/USD) with intervention warnings ignored. Key binary: BOJ meeting July 30-31 (Outlook Report), officials open to faster hikes than priced \u2014 ~5 days out so no <=48h trigger but headline/intervention risk elevated; a hawkish surprise or FX intervention would hit EWJ. US-Japan trade deal supportive but priced.",
+    "analyst": "Japan cash closed; 15m dominated by 0-volume bars, RSI to 100 on single prints = no genuine price discovery. 4h uptrend intact but mid TFs flat, BB width compressed 2.0%. Structure against fresh longs (ob -0.162, crowd 1.38 long) and sentiment near-term bearish (BOJ Jul 30-31 risk). Stand aside; size 0 until Monday confirms a real move above 93.34.",
+    "portfolio": "EWJ: HOLD (0.33) \u2014 no price discovery on a closed, thin Japan tape into BOJ-week risk; wait for Monday."
+  },
+  "timestamp": "2026-07-25T21:35:58.708719+00:00"
+}

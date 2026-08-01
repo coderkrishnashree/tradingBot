@@ -1,0 +1,25 @@
+{
+  "symbol": "MSFT/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.6,
+  "size": 0,
+  "entry": 386.93,
+  "stop_loss": 367.68,
+  "take_profit": 394.19,
+  "playbook": "none",
+  "expectancy_note": "Both sides negative-to-marginal EV: short is stretched (RSI 30.5, %b<0) into support 367.68 (~R:R<1); oversold long fights an unsupportive hawkish macro with a Fed-minutes gap risk Wed. Best EV is flat.",
+  "rationale": "MSFT is in a real downtrend (ADX 45.5, 1h -0.90/RSI 37, 30m down) but already stretched below the lower Bollinger band with RSI 30.5, sitting only ~$19 above support 367.68 - shorting here chases an extended move into a level and yields sub-1.5 R:R. The counter-trend oversold bounce is the other option, but macro is explicitly unsupportive for MSFT longs, the 5m up-tick is unconfirmed, crowded-long L/S (1.95) caps squeeze fuel, and first Warsh-era Fed minutes Wed 7/8 sit inside the window and can gap the thin token session. No clean-R:R entry with a binary 2 days out, so flat is the highest-expectancy call; size 0.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 367.68,
+    "expires_min": 240,
+    "note": "Losing support 367.68 confirms the down-leg continuation and gives a with-trend short with room to run - the stretched-oversold objection is resolved once support breaks."
+  },
+  "transcript": {
+    "macro": "Broad regime: fragile risk-on with hawkish overhang. Nasdaq lagged -0.8% on 7/2 on AI-semi weakness - rotation OUT of megacap tech. New Fed chair Warsh hawkish shock (June 17): 2026 hike on dots, 2yr yield spiked ~16bp to 4.21%; July hike ~1-in-3, Sept ~67%. Higher real yields compress long-duration megacap tech - structural headwind for MSFT. LIVE EVENT RISK: first Warsh-era Fed minutes Wed 7/8 inside the hold window. MSFT positioning: composite SHORT (34.5% conf, blended -0.346); 1h/30m down (1h -0.90, RSI 37), 4h neutral, 5m ticking up; price near lower Bollinger (%b -0.03), RSI 30.5 oversold; crowded LONG (L/S 1.95) = long-squeeze risk; funding mildly positive; orderbook imbalance +0.365 (bids stacked); low BTC corr 0.29. Stance: UNSUPPORTIVE for long MSFT; if overridden, treat as intraday oversold-bounce scalp, cut size, do not carry through Wed minutes.",
+    "sentiment": "Next earnings FY26 Q4 Wed July 28 after close (~22 days out - outside 24-48h window, not a near-term binary). Dominant narrative bearish/structural: worst June since 2000, one-year low on AI-capex fear, FY26 capex ~$190B (+61% YoY), FCF down to $15.8B, valuation ~21x (3yr low). OpenAI concentration risk (~45% of $625B backlog), slow burn. Fresh positive: +4% July 1 on 5-yr Haleon M365 Copilot/Azure deal (already priced in). Analyst consensus Buy avg PT ~$565; Stifel Hold $400. Stance: NEUTRAL (bearish structural tilt); no 24-48h MSFT-specific event risk; earnings 7/28 is the hard catalyst.",
+    "analyst": "MSFT is in a real downtrend (ADX 45.5, 1h -0.90/RSI 37, 30m down) but stretched below the lower Bollinger band with RSI 30.5, only ~$19 above support 367.68. Short here chases an extended move into a level with sub-1.5 R:R. The oversold long fights an unsupportive hawkish macro, unconfirmed 5m tick, and crowded-long L/S (1.95) that caps squeeze fuel, with Fed-minutes gap risk Wed 7/8 in the thin token session. Neither side has clean R:R with a binary 2 days out - flat is highest-EV. Re-arm a with-trend short on a clean loss of 367.68 within 4h.",
+    "portfolio": "HOLD MSFT/USDT:USDT - no clean-R:R entry, flat into Wed Fed minutes; re-arm short below 367.68."
+  },
+  "timestamp": "2026-07-06T18:55:13.847256+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "BTC/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Selling has stalled at 64,256; price is coiling 64,315-64,409 above 63,679 support with a heavy bid stack (+0.471). Expect chop 64,200-64,700 into FOMC unless 63,679 breaks; only a clean loss of 63,679 opens the next leg to ~63,000.",
+  "expectancy_note": "Short here = chasing oversold BTC (4h RSI 29.9) into support with bid support and mid-TF conflict (aligned=false); account shorts run 47% win / -0.78 avg = negative expectancy. No long-side edge into risk-off + FOMC. HOLD is highest EV.",
+  "rationale": "BTC is oversold on the 4h (RSI 29.9), sitting just above 63,679 support with a strong orderbook bid imbalance (+0.471) and stalled downside momentum \u2014 a textbook spot to get stopped by a bounce if I short late, which is this account's #1 loss pattern (shorts -0.78 avg PnL). The composite is short but aligned=false with the 1h reading long, so there is no clean trend edge, and FOMC Wed is a binary I won't front-run. I'd rather wait for a decisive break of support to short into confirmed weakness than fade a bid-supported oversold level with no edge.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 63678,
+    "expires_min": 240,
+    "note": "Losing 63,679 support breaks the bid-supported base and confirms bearish continuation \u2014 that removes the mean-reversion edge and opens a clean short toward 63,000."
+  },
+  "transcript": {
+    "macro": "REGIME: RISK-OFF/HOSTILE for fresh longs. Equities broke down Fri Jul 23 (S&P -1.21%, Nasdaq -2.15%) on AI-capex fears + oil spike. Fed hawkish under new Chair Warsh \u2014 CME FedWatch ~34% odds of a HIKE at the next meeting, ~60% higher by Oct. FOMC Jul 28-29 (statement Wed Jul 29, 2pm ET) sits inside the hold window = binary gap risk. Crypto weak/decoupled: BTC ~$64.3k, F&G 29 (fear), BTC.D 56.4% (no alt rotation), ETF outflows. WEEKEND: all equity-tracking perps (EWJ/NVDA/META/MSTR) track CLOSED US/Japan cash markets \u2014 prices stale/gappy, reprice Monday's open. Cross-book broadly crowded-LONG into a falling tape (XAG L/S 4.05, XAUT 2.49, NVDA 1.63, MSTR 1.53, BTC 1.59) \u2014 pain trade is DOWN; favor short/neutral over longs.",
+    "sentiment": "Overall: RISK-OFF/cautious. Crypto F&G ~27-29 (fear). De-risking into the Jul 29 event cluster: FOMC + META Q2 earnings + MSFT Q4 earnings ALL Wed Jul 29 after close (MSTR earnings Thu Jul 30). US equities CLOSED Sat/Sun so tokenized-stock perps trade thin/gappy and reprice Monday. EWJ: BOJ hike to 1% behind us, no fresh Japan binary in 48h, beta-driven. NVDA: no own earnings in-window (Q2 Aug 26), indirect MSFT read-through Jul 29, mildly negative-neutral. META: HIGHEST event risk \u2014 Q2 earnings Wed (cons ~$7.13 EPS, rev ~$60.2B), hard binary, large post-print gap expected. XAG: constructive (6th straight supply deficit, AI/solar demand, inflation bid) but Fed-dependent, capped ~$60/$62.50. MSTR: leveraged BTC proxy, fragile ~29% bounce on fading volume, triple event exposure. BTC: $225M ETF outflow Jul 24 broke a 7-day inflow streak, Iran tension the live swing factor, neutral-to-slightly-negative. Long-horizon analyst PTs are noise, not tradable same-day.",
+    "analyst": "Oversold 4h (RSI 29.9) sitting on 63,679 support with a heavy bid stack (+0.471) and stalled downside; composite short but aligned=false (1h long) = no clean edge. Shorting late here is the account's #1 loss pattern; won't front-run FOMC. HOLD; short only on a clean break of 63,679.",
+    "portfolio": "BTC \u2014 HOLD (conf 0.60): oversold on support with bid support, unaligned signal, FOMC ahead; short only below 63,679."
+  },
+  "timestamp": "2026-07-26T08:35:40.092316+00:00"
+}

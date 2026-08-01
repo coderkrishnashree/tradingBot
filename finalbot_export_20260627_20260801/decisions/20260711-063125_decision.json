@@ -1,0 +1,24 @@
+{
+  "symbol": "QQQ/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.62,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "rationale": "QQQ is a tokenized ETF (treat as equity) and US cash is closed Saturday, so no follow-through fuel and gap risk into Monday. Maximally overbought (RSI 83.8, stoch 95.8) right at resistance 728.38, mildly positive structure but exhausted, with June CPI a high-weight binary against fresh longs inside 48h. No honest R:R>=1.5 setup either way in this 0.5% ATR chop, so stand aside; size 0.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 728.4,
+    "expires_min": 240,
+    "note": "A decisive close and hold above 728.38 confirms a genuine breakout (not an overbought stall) and re-opens a momentum continuation debate."
+  },
+  "transcript": {
+    "macro": "REGIME: MIXED/risk-off tilt; hawkish, 61% Sept Fed HIKE odds, inflation 3-yr highs. Saturday = closed cash market, no follow-through fuel. QQQ most overbought, avoid fresh longs: RSI 83.8, stoch 95.8, right at resistance 728.4. Structure mildly positive but exhausted; mean-reversion risk.",
+    "sentiment": "QQQ (~$727.6): fragile despite strength; overbought RSI ~84. Macro risk elevated: inflation surged 4.2%, Fed dot-plot flipped cut->HIKE, VXN rising, put/call 1.15. Key risk: June CPI print is primary near-term focus \u2014 a hot number reopens rate-hike odds and pressures tech; if inside 48h it's a high-weight binary against fresh longs.",
+    "analyst": "15m tapped 728.38, got rejected, coiling 727.5-728, closed mid-range \u2014 a stall, not a break. Fresh long = chasing RSI 84 into resistance with a CPI binary <48h (worst loss pattern). Short = fading a strong ADX-61 uptrend on thin weekend tape with 0.5% ATR and no confirmed rejection, sub-1.5 R:R. HOLD dominates; arm reclaim of 728.4.",
+    "portfolio": "QQQ: HOLD (0.62) \u2014 maximally overbought at resistance into a CPI binary; no honest R:R, stand aside."
+  },
+  "timestamp": "2026-07-11T06:31:25.304464+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "SNDK/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.62,
+  "playbook": "none",
+  "forecast": "Stall bar at the 1632-1651 resistance shelf after a bounce off 1593; expect chop between 1593 and 1651 next 2-6 bars. A clean break >1651 opens continuation toward 1700+; loss of 1593 flips it to a momentum-short toward 1560/1500 VWAP.",
+  "expectancy_note": "p(win) on either entry here ~0.45; long chases +8.9% VWAP extension (account's #1 loss pattern), short knife-catches a 72-ADX uptrend with green reclaiming bars = no confirmation. No RR>=1.5 to a clean level with an honest <=1.5xATR stop. HOLD is the highest-expectancy line.",
+  "rationale": "SNDK is the most extended name in the scan: +8.88% vs VWAP, RSI 78 / ADX 72, 5m RSI 85 blow-off, into a hostile overnight tape after megacap earnings. Recent 15m candles bounced from 1593 to 1631 but the last bar is a doji stalling exactly at the 1632-1651 shelf it already rejected three times, with the order book heavily offered (-0.684). Chasing long here is the account's classic late-entry stop-out; shorting a 72-ADX uptrend with no rollover is a knife-catch. Wait for a decisive break of the shelf or a clean loss of 1593.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 1593.0,
+    "expires_min": 240,
+    "note": "Losing the 1593 bounce low proves the overnight-tape reversal is taking hold on the most extended name, arming a momentum short toward 1560/1500 VWAP with a stop back above 1620."
+  },
+  "transcript": {
+    "macro": "2026-07-23 regime MIXED-to-HOSTILE. Overnight session after megacap earnings (GOOGL -5%, TSLA -4% AH). Fading tape. FOMC Jul 28-29. Oil up on Iran = risk-off. SNDK is the MOST EXTENDED name in the scan - RSI 78, ADX 72, +8.9% vs VWAP, blow-off 5m RSI 85. Momentum-long only with tight risk; high reversal risk. Semi/memory sympathy to tonight's INTC print.",
+    "sentiment": "SNDK NEUTRAL near-term, structurally hot. No catalyst inside 48h; earnings Aug 5. Backdrop very bullish (NAND contract prices +70-75% q/q, record Q4 guided ~$8B rev, ~80% GM) but multi-week narrative, not a <=48h mover. The scan spike is momentum not fresh news. Watch memory sympathy off Intel.",
+    "analyst": "SNDK 1631.57: bounced 1593->1631 but last bar doji stalling at the 1632-1651 shelf rejected 3x, order book heavily offered (-0.684). Most extended name: +8.88% vs VWAP, RSI 78, ADX 71.6, 5m RSI 85 blow-off. L/S 0.916 (not crowded), RS +17.87 (strongest), BTC corr 0.103 (independent). Long chases extension (#1 loss pattern); short knife-catches ADX-72 uptrend with green bars = no confirmation. HOLD; wait for >1651 break or <1593 loss.",
+    "portfolio": "SNDK -> HOLD (conf 0.62): most extended name stalling at resistance; no chase, trade the break of 1651/1593."
+  },
+  "timestamp": "2026-07-23T00:36:02.417282+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "CL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Two-sided coil 86.6-87.3 after the geopolitical spike; expect chop/whippy consolidation for the next 2-4 bars \u2014 a bounce toward VWAP 88-89.5 OR a flush below 86.57 toward 85. No clean edge until it picks a side.",
+  "expectancy_note": "Short here = late entry into RSI 25.5/stoch 13.8, VWAP -3.35%, vs net-short crowd = the account's exact loss pattern (bounce stops the late short). Long = chasing a spike into a 3.7-4.0mbpd surplus with FOMC/BOJ <48h. Neither clears R:R 1.5; HOLD is highest expectancy.",
+  "rationale": "CL is deeply oversold on 1h/4h (RSI 25.5, stoch 13.8) and stretched -3.35% below VWAP, so a fresh short risks being stopped by a routine counter-bounce; but the structural supply glut and bearish fundamentals make chasing the geopolitical spike long equally poor. Price is mid-range (support 79.65 / resistance 93.43) with no clean level to fade and violent two-sided headline risk into FOMC/BOJ. With ATR 1.87% and fat-tail gap risk, no setup clears R:R 1.5 to a realistic first target, so size is zero.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 86.57,
+    "expires_min": 240,
+    "note": "Losing 86.57 breaks the post-spike coil low and confirms the downtrend is resuming with room toward 85/84 \u2014 that would turn this into a valid trend-continuation short on the retest rather than a chase into oversold."
+  },
+  "transcript": {
+    "macro": "Regime MIXED tilting risk-off. CL most tradeable target (live/liquid, deepest book OI 276k, own drivers btc_corr -0.18). Oil surging on Middle East supply disruption (~$87) BUT structural bear overhang \u2014 IEA 3.7-4.0 mbpd surplus. Long/short 0.57 = crowd net SHORT (contrarian squeeze-UP risk). Scan short (blended -0.327), RSI 25.5/stoch 13.8 deeply oversold. Size down; ATR 1.87%, headline gap risk.",
+    "sentiment": "RISK-OFF/defensive, hawkish tape. CL ~$87-90. Middle East risk premium (Red Sea/Hormuz) supporting vs OPEC+ +548k bpd August hike + US-Iran Qatar diplomacy pressuring; JPM Brent avg $86 Q3/$80 Q4. Scan short aligns w/ bearish supply-glut fundamentals but any Hormuz/Red Sea headline can spike crude and squeeze shorts. Neutral-to-bearish with FAT TAILS.",
+    "analyst": "Textbook trap: shorting into RSI 25.5/stoch 13.8, VWAP -3.35%, against a net-short crowd during a live geopolitical bid = account's #1 loss pattern (late short stopped by bounce). Chasing long into structural surplus with FOMC/BOJ <48h equally poor. Price mid-range, no clean level to fade, two-sided violent. NO-TRADE. Reconsider short on loss of 86.57 (coil low) with room toward 84.",
+    "portfolio": "HOLD CL/USDT:USDT \u2014 two-sided coil, no clean edge; arm trend-short below 86.57."
+  },
+  "timestamp": "2026-07-25T23:03:48.520652+00:00"
+}

@@ -1,0 +1,25 @@
+{
+  "action": "hold",
+  "symbol": "CRCL/USDT:USDT",
+  "size": 0.0,
+  "entry": 61.1,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Dead Sunday coil 60.84-61.37 on drying volume; price pinned at VWAP with no momentum. Expect chop until Monday's cash open reprices the Visa/Open-USD shock; a break of 60.84 opens the flush toward 60.0 then support 58.76.",
+  "rationale": "CRCL screens bearish (worst laggard RS -26.6%, most crowded longs L/S 2.24, structure_bias -0.32, fresh Visa/Mizuho overhang), but the 15m tape is a low-volume Sunday coil (BB width 3.98%) glued to VWAP with no directional momentum and US cash closed \u2014 chasing a short into a flat 61.0-61.3 band gives an honest stop above 61.4 against range noise while the real move waits for Monday's repricing. Learner shows this account's shorts bleeding (0.47 win, avg -0.87), so take the short only WITH confirmation. Holding flat is higher-expectancy until the range floor gives way.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 60.84,
+    "expires_min": 240,
+    "note": "Losing the 20-bar range floor 60.84 confirms crowded longs capitulating into the bearish catalyst \u2014 that flush is the short entry, targeting 60.0 then support 58.76 with stop back above 61.4."
+  },
+  "transcript": {
+    "macro": "2026-07-19 Sun, US equities CLOSED, tokenized perps thin/gappy, Monday gap risk. Risk-OFF. CRCL composite LONG +0.254 unaligned but L/S 2.24 EXTREME crowded longs, bias -0.32 (most bearish structure of set). RSI 73.6, ADX 80. RS -26.6% biggest laggard. Crowded long into a laggard \u2014 favor fade/short.",
+    "sentiment": "CRCL BEARISH, fresh shock. Fell ~5-8% Jul 16 on Visa's stablecoin platform around rival Open USD; compounded by Mizuho downgrade to Underperform (Jul 14, PT to $50) and Compass Point cut. Structural USDC-competition overhang. Potential positive (USDC/Coinbase renewal) is an August item, not this window. Near-term tone bearish.",
+    "analyst": "Bearish thesis real (crowded longs + worst laggard + negative catalyst) but no entry edge: price glued to VWAP in a dead low-volume Sunday coil, no momentum/extreme to fade. Market-short R:R poor vs range noise; account shorts bleed. HOLD; short on loss of 60.84 range floor.",
+    "portfolio": "CRCL: HOLD \u2014 right direction (short) but no confirmed entry; arm the short below 60.84."
+  },
+  "timestamp": "2026-07-19T19:41:35.284325+00:00"
+}

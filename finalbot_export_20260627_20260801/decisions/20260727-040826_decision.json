@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "CL/USDT:USDT",
+  "size": 0.0,
+  "entry": 85.17,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Bounce off 83.98 is stalling at 85.5-85.66; expect chop 84.6-85.7 for the next few bars, then either a rally into 86.5-87 (broken-support/VWAP retest) that offers a clean short, or a roll-over back toward 84 and the 79.65 support.",
+  "expectancy_note": "No edge at 85.2 mid-bounce: 4h RSI 22 + VWAP -3.39% make a market short a chase into the classic counter-bounce, while a long fights the 72.5-ADX 4h/1h downtrend and bearish crude macro. Waiting for the rally-retest short beats forcing either now.",
+  "rationale": "CL is deeply oversold (4h RSI 22, %B 0.19, VWAP -3.39%) and mid-bounce off 83.98 with higher-lows coiling under 85.6 resistance; crowd is net-short (L/S 0.63) so squeeze risk cuts both ways. The sentiment playbook is 'short rallies, don't chase' - the clean short is at the 86.5-87 retest, not here, and a long contradicts the dominant downtrend.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 86.7,
+    "expires_min": 240,
+    "note": "A rally into the broken-support/VWAP retest zone (86.5-87) with the 4h downtrend intact is the clean short-the-rally entry."
+  },
+  "transcript": {
+    "macro": "Regime: risk-on but into event wall, lean defensive. S&P near highs, Nasdaq -0.64% AI/chip selloff, 10Y ~4.69%. HARD CATALYSTS in 48-72h: FOMC Wed 7/29 2pm ET + mega-cap earnings MSFT+META Wed, AAPL+AMZN Thu. SUNDAY: US cash equity closed -> all stock proxies gap Monday, thin weekend liquidity, size down. BTC ~65.3k consolidating, only clean 24/7 book. Oil in bearish selloff (US-Iran de-escalation + surplus). Reduce size across board; crowded-long positioning pervasive (CRCL 3.52, SOL 2.76, XAUT 2.56, EWY, INTC, HOOD).\n\nMacro stance CL: short on rallies, oversold don't chase",
+    "sentiment": "Dominant fact: binary catalyst wall Wed 7/29 (FOMC + MSFT/HOOD earnings AMC) & Thu 7/30 (AAPL/COIN/MSTR earnings AMC). FOMC hawkish-hike surprise risk. Crypto soft: BTC ~65k, Fear&Greed 28, stablecoin outflows. EWY: live US 12.5% tariff + KOSPI/chip selloff (bearish). INTC: 7/23 blowout beat (bullish, established). CRCL: no 48h catalyst (earnings 8/5), bearish narrative. SOL: SOL ETF inflows constructive but Fed-tethered. CL: WTI ~$85 two-sided geopolitics vs OPEC+ supply.\n\nSentiment stance CL: NEUTRAL two-sided, geopolitics vs OPEC+ supply, watch inventories",
+    "analyst": "CL is deeply oversold (4h RSI 22, %B 0.19, VWAP -3.39%) and mid-bounce off 83.98 with higher-lows coiling under 85.6 resistance; crowd is net-short (L/S 0.63) so squeeze risk cuts both ways. The sentiment playbook is 'short rallies, don't chase' - the clean short is at the 86.5-87 retest, not here, and a long contradicts the dominant downtrend.\n\nForecast: Bounce off 83.98 is stalling at 85.5-85.66; expect chop 84.6-85.7 for the next few bars, then either a rally into 86.5-87 (broken-support/VWAP retest) that offers a clean short, or a roll-over back toward 84 and the 79.65 support.\n\nExpectancy: No edge at 85.2 mid-bounce: 4h RSI 22 + VWAP -3.39% make a market short a chase into the classic counter-bounce, while a long fights the 72.5-ADX 4h/1h downtrend and bearish crude macro. Waiting for the rally-retest short beats forcing either now.",
+    "portfolio": "HOLD CL/USDT:USDT - no positive-expectancy entry (size 0), conf 0.5. Reconsider: A rally into the broken-support/VWAP retest zone (86.5-87) with the 4h downtrend intact is the clean short-the-rally entry."
+  },
+  "timestamp": "2026-07-27T04:08:26.292510+00:00"
+}

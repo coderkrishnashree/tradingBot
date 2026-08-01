@@ -1,0 +1,26 @@
+{
+  "symbol": "SNDK/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.4,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "forecast": "Choppy drift just under the 1987.8 blow-off high; likely range 1937-1955 for the next few bars, then either fail toward VWAP (~1774) or a fresh push through 1987.8. No clean edge until one side breaks on thin weekend tape.",
+  "expectancy_note": "No entry has R:R>=1.5: long chases +9.5% above VWAP into a rejected spike high; market short fights ADX-60 uptrend with crowd already short (squeeze fuel). p(win) either <0.5.",
+  "rationale": "SNDK is a tokenized equity on a CLOSED, thin weekend market, sitting +9.54% above VWAP with RSI 78.8 right after a parabolic blow-off to 1987.8 that was instantly rejected (-42 pts) and has been grinding down since, closing at the bar low. This is the #1 loss-pattern zone (chasing an extended move); a counter-bounce or a violent weekend mean-reversion both punish a market entry. Composite conf is only 40% and aligned=false \u2014 no confluence for size. Wait for a decisive reclaim of the spike high (trend resumes) or loss of the consolidation floor (mean-reversion short).",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 1936.5,
+    "expires_min": 240,
+    "note": "Losing the 1937 consolidation floor after the rejected 1987.8 blow-off confirms mean-reversion, opening a short toward VWAP (~1774)."
+  },
+  "transcript": {
+    "macro": "Risk-on, low-vol; memory/storage theme leads (SK Hynix listing). CRITICAL: Sat 2026-07-11 US cash CLOSED \u2014 thin/gappy weekend tape. Tue 7/14 CPI + Warsh = hawkish risk. SNDK: supportive theme but BLOW-OFF risk \u2014 +635% YTD, RSI 78.8, +9.5% above VWAP, spike to 1987 then fade; parabolic, small size only.",
+    "sentiment": "SNDK BULLISH but HIGH-RISK/whippy \u2014 +635% YTD, rev +251% YoY, Meta NAND deal, Gen-10 3D NAND ramp with Kioxia. Extremely headline-sensitive (dropped 7-9% July 7 on Samsung earnings). No 48h catalyst; competitor NAND headlines can gap it violently.",
+    "analyst": "Parabolic blow-off to 1987.8 instantly rejected (-42 pts), now grinding down at +9.5% above VWAP, RSI 78.8, conf 40% aligned=false. Chasing is the #1 loss pattern; short is premature vs ADX-60 trend. HOLD, mean-reversion short armed below 1936.5.",
+    "portfolio": "SNDK \u2014 HOLD (parabolic/extended blow-off; no chase, short armed below 1936.5)."
+  },
+  "timestamp": "2026-07-11T11:31:46.791744+00:00"
+}

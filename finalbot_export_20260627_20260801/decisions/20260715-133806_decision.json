@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "COIN/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Vertical 30x-volume blow-off closed at its high (165.05, %B>1.0, +3.58% over VWAP); expect a mean-revert wick/pullback toward the 164.45 breakout level and the 163.0-163.2 base over the next 2-5 bars before any trend resumes. A dip that holds 163 offers a clean with-trend long; failure to hold reopens 159 VWAP.",
+  "expectancy_note": "No entry beats a chase: p(win) on this setup ~0.40. Market-long at the spike top risks the routine counter-bounce hitting stop first; short into ADX 62.8 with no divergence is a knife-catch. Best EV is to wait for the retest.",
+  "rationale": "COIN is the most overheated name on the board: RSI 80, stoch 100, ADX 62.8, %B 1.05 (outside upper band), 3.58% above VWAP after a single 30x-volume vertical candle into thin pre-cash-open tape with crowded-positive funding (long-squeeze risk). The account's learner is decisive: breakout playbook 0/1 (-4.67R), model weights on adx (-0.34), vwap_dist (-0.47) and atr (-0.29) all negative \u2014 high-ADX/extended/high-ATR entries are consistent losers, exactly what a market order here would be. Wait for the mean-revert wick to 163-164.45 to buy the trend at a real level; size 0.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 163.2,
+    "expires_min": 240,
+    "note": "Pullback into the 164.45 breakout retest / 163 base \u2014 if it holds, arms a with-trend long at a proper level instead of chasing the spike; losing 163 points toward the 159 VWAP fill and keeps me flat."
+  },
+  "transcript": {
+    "macro": "Environment MIXED, tilted risk-on; BTC reclaimed ~$65k. Board-wide red flag: crowded long / flat funding -> asymmetric squeeze risk. Tokenized equities thin off-hours, scan pre-cash-open -> gap risk. COIN note: long momentum but EUPHORIC/thin \u2014 fresh 15m breakout on ~30x volume, BTC-corr 0.673, but RSI 80.1/stoch 100/ADX 62.8, 3.6% above VWAP, funding notably positive (crowd paying). Most overheated name on the board.",
+    "sentiment": "COIN bearish/beaten-down tone, ~64% below 52-wk high, off ugly Q1 (net loss $394M). HARD BINARY: Q2 earnings July 30, clustered with FOMC/BOJ same window = dense late-July risk for the crypto-equity complex. No \u226448h catalyst; rides BTC and risk sentiment. BTC ETF flows just turned positive (+$221.7M), supportive.",
+    "analyst": "Learner confirms strongly: breakout playbook 0/1 avg -4.67R (worst); trend chases 0.45 win / -2.62R; adx/vwap_dist/atr weights all negative. COIN scores maximally bad on every one (ADX 62.8, vwap +3.58%, atr 1.65%, %B>1.0). Chasing this 30x-volume blow-off is the single worst-expectancy action available. HOLD; wait for the mean-revert wick to the 163-164.45 breakout retest for a with-trend long.",
+    "portfolio": "HOLD COIN \u2014 most overheated/euphoric name on the board; chasing the blow-off is textbook negative EV. Wait for a 163-164.45 retest."
+  },
+  "timestamp": "2026-07-15T13:38:06.990447+00:00"
+}

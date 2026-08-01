@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "SOL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.58,
+  "playbook": "none",
+  "forecast": "Choppy grind inside 77.26-79.01; low-volume drift up stalls under 79.01 supply and likely fades back toward 77.5-77.8 within 2-4 bars before the range resolves.",
+  "expectancy_note": "No 1.5R path: long into 79.01 resistance is a crowded chase (L/S 2.57, rel-str -10.7%), short is the account's proven loser (46% win, -0.97) and 5m RSI 74 would squeeze it. HOLD is highest expectancy until the range breaks.",
+  "rationale": "SOL is pure BTC-beta (corr 0.81) laggard with hostile structure (crowded 2.57 long ratio, risk-off macro) and is coiling mid-range near VWAP with a tight BB. The recent recovery is low-volume and stalling under 79.01, giving no honest 1.5R target either way. Learner stats show shorts bleeding and breakouts 0% -- so I wait for a confirmed reclaim of 79.01 to buy the break toward the 80 bull-trigger with room, rather than chase or fade with no edge.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 79.01,
+    "expires_min": 240,
+    "note": "Reclaiming 79.01 resistance on volume flips the coil into a real breakout with room to the 80 bull-trigger, justifying a long."
+  },
+  "transcript": {
+    "macro": "2026-07-22 RISK-OFF tilt. Fear&Greed 33. Crypto: BTC ~$65,987 soft (low-$60Ks after failing $70K), ETF outflows, BTC.D 56.3%. Funding flat/slightly negative (SOL +9e-6) but L/S ratios heavy: SOL 2.57 -> structure_bias -0.30 (crowded retail longs = contrarian caution). SOL high-beta to BTC (corr 0.81), lagging (rel-strength -10.7%) -- follows BTC, little idiosyncratic edge. NET: MIXED-to-HOSTILE for fresh longs; favor smaller size / mean-reversion.",
+    "sentiment": "SOL: constructively supported, no imminent binary. Every US July trading day closed with net Solana spot-ETF inflows (BSOL cum ~$1.14B), active addresses near yearly highs; holds $73 support, $80 bull trigger. Firedancer v1.0 / Alpenglow are Q3 narrative not <=48h. High BTC corr -> trades with BTC. Mildly supportive tone.",
+    "analyst": "Price 78.04 coiling mid-range between 73.3 support and 79.01 resistance, near VWAP (+0.78%), tight BB. Recovery is tepid/low-volume, stalling under resistance. Crowded 2.57 L/S + risk-off + BTC soft + laggard = a long is a chase into resistance with no room (TP1 can't clear 1.5R). A short is the account's poison (shorts 46% win, 5m RSI 74 squeeze risk). HOLD; arm long-flip on reclaim of 79.01 toward the 80 bull-trigger.",
+    "portfolio": "SOL: HOLD (conf 0.58) -- coiling mid-range, no edge; wait for reclaim of 79.01."
+  },
+  "timestamp": "2026-07-22T22:33:21.933175+00:00"
+}

@@ -1,0 +1,26 @@
+{
+  "symbol": "MSTR/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.5,
+  "size": 0.0,
+  "entry": 94.81,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "forecast": "Thin Saturday drift: price coils 94.70-95.35 near VWAP; no clean push to support 89.95 until a range break. Expect chop/small bounce risk from the 1h uptick before any real leg.",
+  "expectancy_note": "Short entry at 94.81 has no near target (next structure 89.95, ~5% away) and only ~0.6% honest risk to 95.40 \u2014 target unreachable in weekend window, so realistic R:R < 1. HOLD beats forcing it.",
+  "rationale": "MSTR leans short on macro/sentiment (risk-off, levered BTC proxy, BTC ~$60-63k) but it is a tokenized equity on a CLOSED-market Saturday: thin, gappy, ATR% inflated/stale, and price is already sagging into the weekend range low near VWAP with the 1h ticking up (squeeze risk). There is no near structural target for a short between 94.81 and support 89.95, so any short is a distant-target/tight-stop trade with sub-1 R:R and Monday gap risk. Highest expectancy is to wait for the range to resolve rather than chase into thin liquidity.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 94.55,
+    "expires_min": 240,
+    "note": "Losing the weekend range low breaks the coil and opens the momentum path toward support 89.95 with a clean short stop above 95.35."
+  },
+  "transcript": {
+    "macro": "RISK-OFF/hostile for longs. Fri equities sold off, semi rout. BTC ~$60-63k, BTC dominance 56.3% elevated. DXY ~101, hawkish Fed (FOMC Jul 28-29). Saturday: US equity markets CLOSED; MSTR tokenized-equity perp thin/gappy, weekend-gap risk into Monday. MSTR bias: SHORT-leaning/MIXED, corr to BTC 0.713 (levered BTC proxy), risk-off crypto + weak equity argue short, but 1h ticking up + weekend thinness. Small size.",
+    "sentiment": "MSTR tracks MicroStrategy/Strategy. MILDLY BEARISH, BTC-beta driven. Jul 13: Strategy HALTED BTC buying, sold 4.8M shares (~$466.7M) to cash, approved $1.25B BTC Monetization Program (can SELL BTC) \u2014 read as mild negative/de-risking; MSTR slipped. BTC ~$63.9k, Fear&Greed 25 (Extreme Fear) => crypto beta dominant this weekend. Leans bearish/neutral, supports short but watch BTC-bounce squeeze.",
+    "analyst": "Price sagging into weekend range low ~94.81 near VWAP (-0.94%) after a sell flush; support 89.95 is ~5% away, resistance 102. 4h ATR% 1.97 is weekend-inflated vs tiny realized 15m range. No near structural target for a short => distant-target/tight-stop trade with sub-1 R:R, and 1h ticking up (RSI 57) is squeeze risk. Macro/sentiment lean short but expectancy isn't there on thin Saturday tape. HOLD, size 0. Trigger: loss of 94.55 range low opens momentum path to 89.95 with stop above 95.35.",
+    "portfolio": "HOLD MSTR \u2014 short lean but no near target + weekend thinness = sub-1 R:R; wait for range break below 94.55."
+  },
+  "timestamp": "2026-07-18T06:37:01.458223+00:00"
+}

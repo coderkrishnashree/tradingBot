@@ -1,0 +1,25 @@
+{
+  "symbol": "XAG/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.6,
+  "size": 0.0,
+  "entry": 58.72,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "forecast": "Price chops in the 58.3-59.1 micro-range; last two bars faded off 58.99 to 58.72 on drying volume, so expect continued sideways drift into the FOMC rather than a clean directional break.",
+  "rationale": "XAG sits dead-center of both its 58.3-59.1 micro-range and 55.6-61.0 macro-range with a weak trend (ADX 26) and neutral %B/RSI \u2014 no extreme to fade nor trend to ride. The record-crowded long (L/S 3.47) is squeeze fuel but funding is flat and price is not at an extreme, so no trigger yet. With FOMC July 28-29 the dominant higher-beta driver and sentiment urging smaller/shorter, sitting flat mid-range is highest-expectancy; want a range break to define the next trade.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 58.29,
+    "expires_min": 240,
+    "note": "Losing the 58.29 micro-range floor opens the crowded-long flush toward 57.0/55.64 and validates the composite short."
+  },
+  "transcript": {
+    "macro": "2026-07-27 NEUTRAL-to-RISK-OFF, event-gated. FOMC July 28-29 (live hike risk). Silver ~$59 bid on softer dollar/lower real yields (constructive) BUT very crowded long (XAG L/S 3.47, structure_bias -0.33) into the Fed; silver is higher-beta than gold to the outcome. A hold eases real-yield pressure, a hawkish surprise squeezes crowded longs harder.",
+    "sentiment": "XAG neutral, higher-beta version of gold \u2014 more sensitive than gold to the Fed (recent 5% swings). 0.87 correlated to XAUT. Same FOMC binary Wed, amplified. NFP later in week a secondary risk. Trade smaller, shorter, don't carry across the Fed.",
+    "analyst": "Mid-range, ADX 26, %B 0.47 = no edge either way; either-direction R:R ~1:1 from center and a binary Fed in <48h caps expectancy. HOLD beats a coin-flip entry.",
+    "portfolio": "HOLD XAG \u2014 mid-range chop, record-crowded long, higher-beta into FOMC; stand aside."
+  },
+  "timestamp": "2026-07-27T17:07:21.237280+00:00"
+}

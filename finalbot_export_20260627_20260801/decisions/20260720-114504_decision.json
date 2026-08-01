@@ -1,0 +1,28 @@
+{
+  "symbol": "NVDA/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.5,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "none",
+  "forecast": "Pre-open drift: NVDA just tagged 206.21 on a thin 15m breakout of 205.43; expect it to stall/chop 205-207 into the US open, then either retest 205.4/VWAP ~203 (better long) or fail back into the 198-206 range if the chip selloff resumes.",
+  "expectancy_note": "No edge to chase: composite flat (10%), 5m RSI 84.5 / stoch 96.7 / %B>1 = extended into a thin pre-open breakout in the epicenter of an active AI-chip selloff. Buying here trips the account's #1 loser; a retest entry has far better R:R.",
+  "rationale": "Strong ADX (64) uptrend but price is stretched above the upper band pre-open on thin liquidity, and the composite gives no directional edge. NVDA is the least-weak chip name (rel str beats MU/TSM/SNDK/EWY) which argues against shorting, but the risk-off sector backdrop and overbought stretch argue against chasing the breakout at 206. Best expectancy is to wait for a retest of the 205.4 breakout / VWAP ~203 to go long without chasing, or a clean failure back into range. No trade now.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 204.5,
+    "expires_min": 240,
+    "note": "Losing 204.5 fails the pre-open breakout back into the 198-206 range, flipping the long thesis and opening a risk-defined short into the active chip selloff; a hold-and-reclaim above it on US-open volume is instead the clean long-retest entry."
+  },
+  "transcript": {
+    "macro": "Regime MIXED, leaning risk-off (2026-07-20, scan 11:38 UTC pre-US-open). Nasdaq -5% off June high on a chip-led semiconductor selloff; DXY soft ~100.7; FOMC Jul 29 (outside window). Scan is pre-cash-open so strong last candles are thin liquidity, not confirmed trend. Nearly every candidate overbought and long-crowded (negative structure_bias = crowded longs = contrarian risk). Cleanest read: SOL (24/7). Most treacherous to chase: EWY/QQQ/NVDA (overbought chip proxies in the active chip selloff). GOOGL earnings Wed Jul 22 after close is a binary inside the hold window.",
+    "sentiment": "Mood cautiously risk-on but rate-nervous; mega-cap earnings season starts this week. GOOGL reports Wed Jul 22 after close (only true <=48h binary; read-through to QQQ/NVDA/EWY). NVDA earnings Aug 26; HOOD Jul 29; FOMC Jul 28-29. SOL constructive structural backdrop (spot ETFs >$1.12B inflows, ~96% RWA volume share) but no <=48h binary, flow-dependent, highest BTC corr. XAG best fundamental tailwind (6th straight supply deficit, LBMA $79.57 target) but RSI ~82 stretched. EWY strongest momentum (SK Hynix/AI-memory proxy, Goldman KOSPI target 12,000) but a chip proxy into the semis selloff and the most extended name in the scan.",
+    "analyst": "NVDA: HOLD. Fresh but thin pre-open 15m breakout of 205.43 into a strong ADX-64 uptrend, yet deeply overbought (5m RSI 84.5, stoch 96.7, %B 1.19) with a flat composite (10.2% conf). Epicenter of the active AI-chip selloff. Chasing is the classic late-continuation loser; not shorting (no reversal signal, least-weak chip name). Wait for a 205.4/VWAP retest.",
+    "portfolio": "HOLD - don't chase the stretched breakout in the chip selloff; armed at 204.5 for retest-long or breakdown-short."
+  },
+  "timestamp": "2026-07-20T11:45:04.117908+00:00"
+}

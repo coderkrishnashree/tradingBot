@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "CRCL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "LTF is oversold (5m RSI 30, 15m 42.9) and price is mid-band at 60.78 after a slow grind; expect a corrective bounce toward 61.3-61.5 (VWAP/broken support) over the next 2-4 bars before the down-leg can resume. A clean break of the 60.70 absorption low is what opens the next leg to 58.76.",
+  "expectancy_note": "Market short here = chasing mid-range into oversold LTF; account shorts win only 0.47 / avg -0.87 and p_win_learned 0.382 - negative EV. Waiting for a break of 60.70 (or a bounce to 61.4 to sell) is the only positive-EV path.",
+  "rationale": "Scan is SHORT/ADX 57 and aligns with risk-off tape, but the 1h is flat (0.0), price sits mid-Bollinger (%b 0.46) 1% below VWAP with 5m RSI 30 - a bounce is due, and a market short would enter exactly the stretched-mid-range spot this account keeps losing on. Support 58.76 is 3.3% away while an honest stop must sit above 61.3, so a routine counter-bounce stops the trade before the trend resumes. Weekend thin liquidity plus Monday gap risk argue against a fresh chase; size stays zero until price either breaks the 60.70 floor or offers a higher retest to short.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 60.7,
+    "expires_min": 240,
+    "note": "Losing the 60.70 absorption low on continuation confirms sellers broke the floor and the leg toward 58.76 is live - reopens the short with a tighter, better-located stop."
+  },
+  "transcript": {
+    "macro": "Risk-off/hostile weekend (Sun Jul 19); tokenized equities thin/gap-prone, hard Monday gap risk. Week risk-off (S&P -1.6%, Nasdaq -2.9%, SOXX -17%/mo). Hawkish Warsh Fed. Crypto Fear (F&G 25-26), BTC ~$64.5k. Long/short crowded-long. Bias: size down, prefer shorts/fades. CRCL: scan SHORT (aligned, ADX 57) lines up with risk-off; OI large, L/S 2.34 still crowded LONG (squeeze fuel down); BTC-corr 0.45 so a BTC bounce is main short risk. Best alignment of the equity names but weekend liquidity applies.",
+    "sentiment": "Risk-off. Semi bear market. US-Iran re-escalating. Crypto Extreme Fear. Catalyst: Jul 22 TSLA+GOOGL earnings. CRCL: two-sided but net cautious - bullish OCC bank approval Jul 10 (+14%) offset by Mizuho underperform/$50 target, stablecoin competition, -20% YTD. Scan short direction consistent with tape.",
+    "analyst": "Scan short aligns with risk-off but 1h is flat, price mid-Bollinger (%b 0.46) ~1% below VWAP with 5m RSI 30 - a bounce is due. Market short = chasing the stretched-mid-range the book keeps losing on (shorts 0.47 win / -0.87, p_win 0.382); support 58.76 is 3.3% away vs honest stop above 61.3. Flat until price breaks the 60.70 absorption low or retests 61.4 to sell.",
+    "portfolio": "CRCL HOLD - short thesis is right-direction but wrong-location (oversold LTF, bounce due); wait for a 60.70 break or a bounce to fade."
+  },
+  "timestamp": "2026-07-19T09:46:43.276148+00:00"
+}

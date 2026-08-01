@@ -1,0 +1,23 @@
+{
+  "symbol": "TSLA/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.58,
+  "size": 0.0,
+  "entry": 384.07,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "rationale": "TSLA is deeply washed out on the 4h (RSI 3.2, %B -0.086, -3.15% below VWAP, stoch 5.1) and sitting directly ON 4h support 382.84 - the recent 15m candles show buyers defended that level and bounced it to 385.78 before this shallow pullback to 384.07. Market-shorting here is the classic late-short-into-stretched-tape chase that stops out on the mechanical bounce; R:R to any target below the support we're already touching is poor. A counter-trend mean-reversion long has some support-defense logic but fights the risk-off macro and every short TF, so conviction is too low to knife-catch. With earnings Jul 22 (~5 days) demanding small size and off-hours thin/gappy liquidity, the highest-expectancy action is to wait for either a decisive break of support (clean trend short with room) or a VWAP reclaim (confirmed bounce), not to enter mid-air.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 382.5,
+    "expires_min": 240,
+    "note": "A decisive 15m/1h close below the 382.84 4h support (not just a wick) breaks the floor buyers have been defending and opens a clean trend-continuation short with real room down, rather than the poor-R:R chase of shorting at support itself. (Inverse: a reclaim back above ~390/VWAP would instead confirm the oversold bounce and flip me to the long side.)"
+  },
+  "transcript": {
+    "macro": "Risk-OFF session. US equities rolling over (Nasdaq 100 -1.5% Thu close, futures -1.9% pre-open, semiconductor rout). Yields up, crude firm. Nearly every tokenized equity scored short. Crypto soft but largely irrelevant to TSLA (btc_correlation 0.234 - trades on equity beta). TSLA: price 384.07 on 4h support 382.84, 4h RSI 3.2 washed out, VWAP dist -3.15%, downtrend all TFs. Funding +0.0001 (neutral, not crowded), OI 8228, L/S 1.68 (retail longs offside -> contrarian bearish), OB imbalance -0.048, rel strength -2.88% vs BTC, structure_bias -0.258 -> leans short. Caveats: scan pre US cash open, thin/gappy off-hours; earnings Jul 22. Verdict: supportive-SHORT but oversold and off-hours - favor smaller size and bounce-to-sell over chasing.",
+    "sentiment": "Dominant catalyst: Q2 2026 earnings Wed Jul 22 after close (~5 days out) - hard binary. Record Q2 deliveries 480,126 already faded (stock sold off ~7% on report, -12% YTD). Consensus ~$0.50-0.52 EPS on ~$25.3B rev; expect elevated IV / gappy into and out of print. Tone mixed-to-soft, not a fresh shock; cash equity closed ~$391 Jul 16 (-0.86%), token 384 roughly in line. Fresh-ish risk: NTSB findings on June 19 fatal FSD crash (mildly negative, driver overrode). Analyst flow neutral-constructive (Jefferies Hold PT $400, consensus ~$407 Hold) - not tradable directionally. Verdict: NEUTRAL with bearish tilt near-term, dominated by binary earnings event risk within ~5 days; any short-horizon position should size for a large earnings gap and ideally be flat before Jul 22 close.",
+    "analyst": "TSLA deeply washed out on 4h (RSI 3.2, %B -0.086, -3.15% below VWAP) sitting ON 4h support 382.84; recent 15m candles show buyers defended and bounced it to 385.78 before pulling back to 384.07. Market-shorting here is the classic late-short-into-stretched-tape chase that stops on the mechanical bounce; poor R:R to any target below support we're already on. Counter-trend long has support-defense logic but fights risk-off macro and every short TF - conviction too low to knife-catch. Earnings in 5 days + thin off-hours liquidity argue for no position. Highest-expectancy action: HOLD and arm triggers - decisive break of 382.84 opens a clean trend short; VWAP reclaim (~390+) confirms the bounce and flips to long.",
+    "portfolio": "TSLA/USDT:USDT: HOLD (conf 0.58, size 0) - wait for a decisive break of 382.84 support (short) or VWAP reclaim ~390 (long); no clean R:R mid-air here."
+  },
+  "timestamp": "2026-07-17T10:34:00.766954+00:00"
+}

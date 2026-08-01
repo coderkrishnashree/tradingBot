@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "HOOD/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price coils dead-flat on support 93.21 in near-zero volume; most likely a small oversold bounce back toward 96-98 (VWAP relief) over next 4-12 bars, OR a support break to 91-90 if sellers press. No clean directional edge either way from here.",
+  "expectancy_note": "Short here = classic late-short-into-stretched-tape: RSI 17.7 (4h), ADX 94 exhausted, -6.3% vs VWAP, sitting ON support 93.21 (first TP <1R away) while a mean-revert bounce risks 3-4% = negative expectancy. No long trigger yet. HOLD is highest-EV; earnings 7/29 caps any carry.",
+  "rationale": "HOOD is extremely oversold and extended 6.3% below VWAP, pinned against support 93.21 in dead low-volume chop with the 5m already flipping long (RSI 66.7) \u2014 a fresh short risks the exact counter-bounce that stops this account's late shorts, and the nearest target sits <1R away. No long setup exists (1h/4h still down, no reclaim, no volume). With Q2 earnings after close Tue 7/29 pricing a ~9% binary move inside the hold window, initiating size now is uncompensated event risk. Wait for a clean level break.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 93.21,
+    "expires_min": 240,
+    "note": "Losing support 93.21 on real volume confirms the next leg down and would justify a small short on the retest of broken support (kept tiny, closed before 7/29 print); reclaiming above VWAP ~101 would kill the short thesis."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF/defensive, AI-capex + crypto weakness, fade-strength tape favors shorts. HOOD $94.64: crypto-beta (BTC corr 0.44) hit by crypto selloff + tech weakness. L/S 2.40 (crowded long), ADX pinned 94 (exhausted downtrend), RSI 17.7 (extreme oversold), VWAP -6.3%, structure_bias -0.28. BIGGEST FLAG: Q2 earnings after close WED JUL 29, options pricing ~9.2% move \u2014 inside hold window = overnight gap risk. Macro leans SHORT but earnings binary caps conviction; stay flat or tiny into 7/29.",
+    "sentiment": "HOOD NEUTRAL + HARD CAUTION: Q2 2026 reports TUE JUL 29 AMC. Consensus EPS $0.41 (down YoY), rev $1.28B (+45% YoY). Q1 stock tumbled 13% on crypto-revenue miss (crypto rev -47%); subdued crypto volumes remain the swing factor. BINARY EVENT PENDING \u2014 do NOT carry size into 7/29; a same-cycle short must be closed/hedged before the print.",
+    "analyst": "Extremely oversold (RSI 17.7 4h), ADX 94 exhaustion, -6.3% below VWAP, pinned on support 93.21 with 5m flipping long (RSI 66.7) \u2014 a fresh short is the account's late-short-into-bounce loss pattern and first TP is <1R away while a mean-revert bounce risks 3-4%. No long trigger (1h/4h down, no reclaim, dead volume). Q2 earnings 7/29 is uncompensated binary event risk inside the window. HOLD; wait for a break of 93.21.",
+    "portfolio": "HOOD/USDT:USDT \u2014 HOLD (conf 0.60): oversold + earnings 7/29 event risk; no compensated edge, wait for break of 93.21."
+  },
+  "timestamp": "2026-07-25T17:04:11.648800+00:00"
+}

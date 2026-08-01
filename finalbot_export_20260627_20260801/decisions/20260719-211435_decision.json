@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "SNDK/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.4,
+  "playbook": "none",
+  "forecast": "Thin Sunday tape: 15m bounce from ~1348 has carried price to ~1370 on fading volume; likely chops 1360-1372 into Monday cash open, with real direction (and gap risk) resolving only when US equities reopen.",
+  "expectancy_note": "p(win) ~0.5 either way; long is crowded (L/S 1.59, OB -0.149, bias -0.326) and already extended off the low into a closed thin market with Monday gap risk \u2014 no honest R:R >=1.5 available now, HOLD is highest-expectancy.",
+  "rationale": "SNDK is deeply washed on 4h (RSI 21) and the 15m has bounced, but US cash equities are CLOSED and this perp trades thin/gappy off stale Friday reference with material Monday-open gap risk in the exact sector that was routed. Structure is a headwind for a long (crowded longs, negative orderbook, bias -0.33) and the intraday bounce is already extended on fading volume \u2014 chasing it here is the classic late-entry loss. No size until Monday-open confirms direction or a clean level breaks.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 1348.0,
+    "expires_min": 240,
+    "note": "Losing the intraday swing low 1348 invalidates the bounce and opens a fresh leg toward support 1311 \u2014 flips this to a short/continuation-down thesis."
+  },
+  "transcript": {
+    "macro": "REGIME: RISK-OFF/cautious. Friday equity selloff on a semiconductor/memory rout (SMH -4%) + Middle East risk. Crypto soft: BTC ~$64.5k. CRITICAL: Sunday 21:07 UTC \u2014 US cash equities CLOSED; SNDK perp thin/gappy off Friday stale reference; Monday-open gap risk. SNDK: chip/memory name in the routed sector; 4h RSI 21 (washed out); crowded long + negative funding tilt; biggest laggard (rel-str -42%).",
+    "sentiment": "SNDK \u2014 Bullish narrative, no near catalyst. Top S&P 500 name YTD on NAND supply tightness; Goldman PT hiked to $2,200. Earnings Aug 5 + investor day Aug 13 (both outside window). Stock -28% off highs, choppy; long-horizon bull, near-term neutral.",
+    "analyst": "4h deeply washed (RSI 21) and 15m bounced ~1348\u21921370 on fading volume. Market closed, thin/gappy, routed sector, Monday-gap risk. Structure a long headwind (L/S 1.59, OB -0.149, bias -0.33) and bounce already extended \u2192 chasing = classic late entry. HOLD; short if 1348 swing low fails toward 1311.",
+    "portfolio": "HOLD SNDK \u2014 washed-out bounce on thin closed-market tape; no size until Monday confirms."
+  },
+  "timestamp": "2026-07-19T21:14:35.014704+00:00"
+}

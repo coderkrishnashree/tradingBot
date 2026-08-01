@@ -1,0 +1,25 @@
+{
+  "action": "hold",
+  "symbol": "SNDK/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.34,
+  "playbook": "none",
+  "expectancy_note": "No edge: US cash closed (July 4 wknd), quote stale in 1823-1832 vacuum, real driver is exogenous overnight Korea prints. Any entry is a coin-flip gap bet, not a structural edge.",
+  "rationale": "SNDK is a tokenized equity but the underlying Nasdaq is CLOSED for the July 4 weekend, so the ~1829 print sits in a starved 1823-1832 band with near-zero live ATR while the true 4h ATR is ~1.8% - the next real move is a gap on US reopen driven by Korea/Samsung/SK Hynix headlines I can't see. Structure leans mildly bearish (structure_bias -0.28, RS -0.75, 4h trend down) and the name is mid-unwind from a parabolic +781% run, which argues against longs, but a strong structural NAND shortage tailwind and dip-buyers make pressing a short into a thin, gappy tape a low-expectancy donation. With no 48h binary catalyst and no clean R:R survivable stop in this vacuum, flat is the highest-expectancy position.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 1762.0,
+    "expires_min": 240,
+    "note": "Losing the Jul-2 rebound low (~1762) confirms the semi-unwind is resuming with real supply, flipping this to a valid short with defined structure below the broken level."
+  },
+  "transcript": {
+    "macro": "SNDK is a tokenized US EQUITY, not crypto (btc_correlation 0.302). CRITICAL: underlying Nasdaq CLOSED for July 4 holiday weekend - token thin, gap-prone, price-discovery-starved until US cash open. Broad regime risk-off, hostile to semis - active rotation OUT of semiconductors (+80% H1) into defensives, AI sentiment sour. SNDK was #1 S&P YTD (+781%, ~$2,050 Jun 29) then -14% Jul 2 to ~$1,762; scan prints ~1,829 (stale bounce). Derivatives: funding +0.00034 (longs paying), OI 6,147 modest, long_short_ratio 1.256, orderbook_imbalance -0.22, blended structure_bias -0.28 (leans against longs), RS -0.75 vs BTC. Technicals RSI 74, ADX 72, bb_pctb 0.82, 4h trend down, regime squeeze, composite conf 5.8%. Verdict: HOSTILE for long over hours-to-days; MIXED-to-hostile for short only due to gap risk. Favor short/mean-revert if trading, size down materially or stand aside.",
+    "sentiment": "Tone violently two-sided, near-term unstable. SNDK ~6-7x since WD spinoff, peaked ~$2,354; first real gut-punch -14% Jul 1-2 in historic Korean chip selloff (SK Hynix/Samsung -12%, KOSPI -10%), broke below $2,000 and $1,730, now ~$1,760-1,830 dead-cat rebound. High-beta/high-ATR, can gap 10%+ on sector headlines. Fundamental backdrop STRONG TAILWIND (argues against shorts): NAND shortage structural, contract prices +70-75% QoQ, 2026 capacity sold out, no fab relief until late 2027 - long-horizon, not a 48h mover. NO binary catalyst inside 48h; earnings Aug 13 (outside window). Real 1-2 day driver EXOGENOUS: whether Korean/global semi selloff continues or stabilizes; SNDK trades as proxy for SK Hynix/Samsung/Micron. Analyst PTs bullish (Bernstein $3,000, BofA/Citi $2,500) vs Seeking Alpha overheated/sell - low weight. Verdict: NEAR-TERM NEUTRAL, cautious on direction; US closed July 4 = thin/gappy hazard, size down.",
+    "analyst": "Classic no-trade. SNDK's price-discovery engine (Nasdaq) is shut for the holiday weekend, so ~1829 is a thin off-hours mark in a 1823-1832 micro-band - short-TF ATR% collapse (0.08-0.24%) vs 4h 1.81% shows real vol is switched off and returns as a gap, not a tradable trend. Only genuine 24-48h driver is exogenous overnight Korea/Asia chip sentiment with no live read, making any entry a blind gap bet. Tape leans bearish (structure_bias -0.28, RS -0.75, 4h down, parabolic name in early unwind) and in a normal session a small short on the failed bounce would be considered, but pressing a short into a thin, gap-prone, dip-buyer-supported name with a strong NAND-shortage floor is negative expectancy. Flat is highest-expectancy. Reconsider armed at 1762 (Jul-2 rebound low): losing it proves the unwind is resuming and converts HOLD to a clean structured short.",
+    "portfolio": "HOLD SNDK/USDT:USDT - stand aside; July 4 price-discovery vacuum + gap risk means no edge either direction. Reconsider short only if price loses 1762."
+  },
+  "timestamp": "2026-07-04T23:01:22.779956+00:00"
+}

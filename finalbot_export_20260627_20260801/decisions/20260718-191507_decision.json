@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "TSM/USDT:USDT",
+  "size": 0.0,
+  "entry": 398.0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Dead-volume weekend coil around 397.8-398.8; most likely drifts sideways to a small bounce toward VWAP (~408) into Monday's cash open. A real short only sets up on either a bounce-and-reject near 408 or a decisive break of 386.81 support.",
+  "expectancy_note": "Short bias is right (semi rout, crowded longs L/S 2.38, weakest RS -17%, orderbook -0.28) but price is already -2.47% below VWAP with 1h RSI 28.8 / 5m RSI 32.1 = extended; a market short into thin weekend tape gets bounced into any honest stop. p(win) on chase ~0.40, negative expectancy. Wait for the retest or the breakdown.",
+  "rationale": "TSM is the epicenter of the fresh chip/capex scare and structurally set up for shorts, but the down leg already ran: -2.47% under VWAP, oversold on 1h/5m, and the last ~10 bars are near-zero-volume coil around 398 (weekend liquidity vacuum, US cash closed). Chasing here is exactly this account's #1 loss pattern (late short into stretched tape, stopped by the bounce), and support at 386.81 is only ~$11 away so downside room is thin versus a required ~1x ATR ($6.6) stop. No fresh binary (earnings already printed). Highest-expectancy move is to wait: short the bounce into VWAP or the confirmed break of 386.81.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 386.5,
+    "expires_min": 240,
+    "note": "Loss of 386.81 support confirms breakdown continuation and clears the way for a clean trend short; also re-debate on a bounce back to ~408 VWAP to short the retest."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF, semiconductor/AI-capex scare the driver; 'sell rallies in tech' tape, shorts better aligned than longs. US cash CLOSED Sat, reopen Mon Jul 20 - tokenized equities thin/gappy, Monday gap risk; reduce size on all equity tokens. TSM Q2 (Jul 16) record profit, rev +36% YoY, raised FY guide >40%, BUT hiked capex $60-64B; stock -2.3% on capex/margin fears. Scan short, all TFs down, L/S 2.383 (crowded long = contrarian short support, squeeze risk), orderbook -0.281. Corr to BTC ~0.",
+    "sentiment": "TSM bearish/at-risk, epicenter of the chip rout. Q2 beat big (rev +36%, EPS +77%, GM 67.7%, FY guide >30%) but print steamrolled by the sector-wide AI-capex fear trade; caught in the semi bear market (chips -20% from record, worst week since Apr 2025). Earnings already out = no fresh binary; trades with chip sentiment, negative and fresh.",
+    "analyst": "Short bias correct but the down leg already ran: -2.47% under VWAP, 1h RSI 28.8 / 5m 32.1 oversold, last ~10 bars near-zero-volume weekend coil ~398. Support 386.81 only ~$11 away vs ~1x ATR ($6.6) stop = thin R:R; market short into thin tape gets bounce-stopped (account's #1 loser). No fresh binary. Wait: short the bounce into VWAP (~408) or the confirmed break of 386.81.",
+    "portfolio": "HOLD TSM (conf 0.50) - right short bias but stretched/thin weekend coil; arm short on loss of 386.5 or a bounce-reject near VWAP."
+  },
+  "timestamp": "2026-07-18T19:15:07.829236+00:00"
+}

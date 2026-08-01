@@ -1,0 +1,28 @@
+{
+  "symbol": "META/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.6,
+  "size": 0.0,
+  "entry": 614.57,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "none",
+  "forecast": "15m tape flat, coiling 613.3-614.6 on fading volume under 628 resistance; expect chop between VWAP (~602) and 628 rather than a clean directional leg.",
+  "expectancy_note": "Long into 4h RSI 77.8/pctB 0.92/+1.99% VWAP with L/S 1.80 crowded long is a chase (~1.6 R:R to 628, low p(win)); no exhaustion/divergence to short an intact uptrend. HOLD best expectancy.",
+  "rationale": "META is the only constructive equity but extended on 4h (RSI 77.8, pctB 0.916, +1.99% VWAP) and crowded long (L/S 1.80, structure_bias -0.184), while the 15m sequence stopped trending and chops 613-615 on drying volume \u2014 no pullback to buy, no exhaustion to short, thin off-hours liquidity. Wait for a confirmed hold above 628 or a reset to VWAP.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 628.23,
+    "expires_min": 240,
+    "note": "Clean break/hold above 628.23 resolves the coil up and turns the stalled tape into a breakout long."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF (shallow). AI/semiconductor rout (Samsung results, DeepSeek in-house chip reports) pulled Nasdaq -1.2%/S&P -0.5% off record highs; equity tape fragile, chip/AI-led lower. Crypto resilient: BTC +~6% wk to ~$62.7k, dominance ~54-55%. Bybit perp funding ~ZERO (not a usable crowding signal); L/S ratios are the live tell, several lopsidedly long (contrarian-bearish). Environment MIXED-to-HOSTILE for risk-taking; through-line is the AI/chip unwind \u2014 favors caution on equity/chip longs, rewards trend-shorts, but oversold+crowded-long crypto (SOL, COIN) carry squeeze risk. Reduce size across the board.",
+    "sentiment": "US equity perps (META, COIN, EWJ) thin/gappy off US hours. META: neutral, no <48h catalyst (Q2 earnings Jul 29). BTC: cautious-bullish, soft June jobs (57k vs 113k) feeding rate-cut hopes, spot-ETF inflows returned (+$221M Jul 2) vs Strategy $216M sale overhang; F&G 24 (Extreme Fear) improving; no hard binary <48h. COIN: bullish momentum (+19% in 5 sessions to ~$165 on upgrades/System Update) but a crypto-beta proxy, no <48h binary. SOL: mildly bullish (spot-SOL ETF inflows, >1B weekly txns), coiling $80 pivot, no <48h binary. EWJ: structurally bullish but near-term neutral; BOJ (Jul 30) out of window; thin off-hours.",
+    "analyst": "HOLD @0.6. Only constructive equity but 4h-overbought (RSI 77.8) & crowded-long; 15m coiling on fading volume under 628 resistance. No level to buy, no exhaustion to short. Trigger: break/hold >628.23.",
+    "portfolio": "HOLD META/USDT:USDT \u2014 no clean R:R this cycle (conf 0.60); no qualifying entry, armed trigger set."
+  },
+  "timestamp": "2026-07-08T06:56:39.529704+00:00"
+}

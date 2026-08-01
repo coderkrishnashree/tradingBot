@@ -1,0 +1,23 @@
+{
+  "symbol": "META/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.6,
+  "size": 0.0,
+  "entry": 617.82,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "rationale": "META is dramatically overbought (RSI 90 on 30m/5m, pinned to upper Bollinger, +2.5% above VWAP) into a risk-off tech tape, and flows lean bearish (crowded longs L/S 1.79, sell-side orderbook -0.306, structure_bias -0.33) \u2014 so a fade is the eventual play, not a long. But price is still grinding to new highs on thin volume with no rejection candle or divergence yet, and FOMC minutes at 2pm ET is a binary I won't initiate into. Best expectancy is to wait for the overbought to actually crack (loss of the 613 shelf). Size 0.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 613.0,
+    "expires_min": 240,
+    "note": "Losing the 613 consolidation shelf breaks the low-volume up-grind and confirms the overbought unwind \u2014 trigger to short the fade toward VWAP/552."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF/NEUTRAL into 2026-07-08. Tech tape weak after semiconductor rout; Nasdaq -1.16% 7/7. FOMC June minutes 2pm ET (binary). DXY soft ~100.6. META the outlier strength RS +9.85% but RSI 79-91 blown out, orderbook -0.306, longs crowded L/S 1.79 \u2014 overbought into weak tape; short only on rejection; avoid initiating into 2pm.",
+    "sentiment": "META NEUTRAL-to-BULLISH but stretched: +10%+ early July on Bloomberg report Meta building cloud business to sell excess AI compute; Q1 beat rev +33%. Drag: heavy 2026 capex $125-145B, Street-rotating-to-Google chatter. RSI ~79-90, up ~10% relative \u2014 extended, high chase risk. Q2 earnings Jul 29 (outside 48h). No <=48h binary.",
+    "analyst": "Classic overextension (RSI 90, %B 0.98, +2.5% VWAP) into risk-off with bearish flows, but no rejection/divergence yet and price still printing highs on thin volume \u2014 shorting a +9.85% RS name here is a knife-catch. Wait for a 613 break to short the fade; won't initiate into 2pm FOMC.",
+    "portfolio": "META: HOLD; fade-short trigger on a break below 613."
+  },
+  "timestamp": "2026-07-08T07:56:47.169538+00:00"
+}

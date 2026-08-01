@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "TSLA/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Thin weekend tape: price coils in the 380.7-382.7 pocket at VWAP; expect continued low-volume chop, not a directional resolution, until US cash reopens. Only a decisive break of 377.78 support opens the 4h-short leg toward 373-370.",
+  "expectancy_note": "No edge: price dead-center (VWAP dist -0.07, %B 0.42, RSI 57), 4h-short the only signal while 15m/30m/1h/5m flat; learned p_win 0.39 (losing condition). Shorting at VWAP into support on illiquid weekend tape + Wed earnings binary is negative expectancy.",
+  "rationale": "TSLA is a tokenized equity with US cash CLOSED (candles show ~0-3 contract volume = untradeable weekend liquidity), and EARNINGS WED Jul 22 is inside the 48h window making any carry a binary gamble. Price is glued to VWAP mid-band with no extreme to fade and no pullback-in-trend to join, and the composite short has a learned p_win of only 0.39 \u2014 the account's exact late-short-into-support loss pattern. Best expectancy is flat: wait for a 377.78 breakdown or liquidity to return, and flatten well before the print regardless.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 377.78,
+    "expires_min": 240,
+    "note": "Losing support turns the flat faster TFs into a live trend-continuation short aligned with the 4h -0.9 down."
+  },
+  "transcript": {
+    "macro": "Risk-off tilt. Equity-pair weekend GAP RISK. TSLA composite SHORT (-0.34), 4h down, L/S 1.98 crowded long. EARNINGS WED JUL 22 ~5:30pm ET \u2014 INSIDE 48h; any hold into Wed is a binary event bet. Short bias tactically but flatten before the print; no multi-day carry.",
+    "sentiment": "TSLA HIGH-IMPACT BINARY. Record Q2 deliveries (480,126, +25% YoY; energy +41%), robotaxi live Miami + Cybercab Austin. Stock sliding into print (~$382 toward $368) \u2014 market not buying the delivery beat, focused on GM, FSD/robotaxi economics, ~$25B capex. Elevated IV, large post-earnings gap expected.",
+    "analyst": "Price glued to VWAP mid-band on ~0-3 contract weekend volume; 4h-short is the only signal, learned p_win 0.39 (losing condition). No extreme to fade, no pullback to join, earnings Wed a binary. HOLD; reconsider short on a decisive break below 377.78, and flatten before the print regardless.",
+    "portfolio": "TSLA \u2014 HOLD (illiquid weekend tape + Wed earnings binary; breakdown short armed below 377.78)."
+  },
+  "timestamp": "2026-07-20T05:15:05.053793+00:00"
+}

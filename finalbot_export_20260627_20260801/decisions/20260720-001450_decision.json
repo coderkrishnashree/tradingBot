@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "MSFT/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "US cash closed: 19 dead overnight bars pinned 396-398, then one thin 394-vol flush to 394.33 closing 395.3. Expect illiquid chop 394.5-397.5 into the US open; the honest short is a bounce-and-reject near 396.5-397, not chasing this flush with 30m/1h RSI already ~34.",
+  "expectancy_note": "Short here is a late entry into stretched LTFs (RSI 33-35), ADX 24.6 (range not trend), price AT VWAP; a routine bounce stops any honest ~1.8xATR stop before 378 target. p(win) on chase <0.45 \u2014 no edge. Better to wait for the retest.",
+  "rationale": "The 15m 'breakdown' is a low-liquidity artifact: the vol_ratio 67.9 comes from a single overnight flush candle after 19 near-zero-volume bars while US cash is closed, and price closed 395.3 (right at VWAP, above the flush low) \u2014 not a confirmed trend. ADX 24.6 and mid-range %B/stoch say chop, and LTF RSIs are already 33-35, so market-shorting now chases into oversold with support 17 points away and no honest tight stop (R:R fails). The real short triggers on a bounce that rejects the broken 395.98-397 shelf; the real long-invalidation is a reclaim of the 4h/resistance shelf. HOLD with armed triggers is the highest-expectancy call.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 394.3,
+    "expires_min": 240,
+    "note": "A clean break of the flush low 394.33 on real (US-session) volume confirms the breakdown is genuine and not an overnight liquidity artifact \u2014 re-debate the short toward 378 support with momentum, not a chase."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF/defensive, semis/tech weak. FOMC Jul 28-29 caps upside. Scan 00:07 UTC Monday = US cash CLOSED; MSFT shows near-zero-volume overnight candles, gap risk. MSFT: SHORT supported \u2014 the ONLY clean short structure in the set (15m breakdown flagged level 395.98, bearish divergence, short aligned across 30m/1h/4h/5m). Macro (tech weakness) backs it.",
+    "sentiment": "MSFT is the one name with a hard binary Jul 29 (outside 48h). Tone mixed: down ~20% YTD, scan shows fresh 15m downside breakout with bearish divergence, yet the setup into Q4 FY2026 earnings (after close Wed Jul 29) is bullish-leaning on Street ests (Azure ~+39.6%, GPU-shortage pricing tailwind). Earnings ~9d out so near-term driver is momentum/tape not news. Neutral with a bearish micro-structure tilt.",
+    "analyst": "The 15m breakdown is a low-liquidity artifact \u2014 vol_ratio 67.9 is a single overnight flush after 19 near-zero-volume bars while US cash is closed, and price closed 395.3 (at VWAP, above the flush low). ADX 24.6 = chop, LTF RSIs already 33-35 = stretched down, support 17pts away = no honest tight stop. Market-shorting now chases into oversold; wait for a real-volume break of 394.33 or a bounce-reject of 396-397. HOLD.",
+    "portfolio": "HOLD MSFT \u2014 cleanest short bias in the set but the breakdown is an overnight artifact; short trigger below 394.3."
+  },
+  "timestamp": "2026-07-20T00:14:50.922389+00:00"
+}

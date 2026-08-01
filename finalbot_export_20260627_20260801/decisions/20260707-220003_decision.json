@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "META/USDT:USDT",
+  "size": 0.0,
+  "entry": 615.94,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Flat coil at 615-616 (rejected 625, holding 614) resolves within a few bars: a break below 613.5 confirms the blowoff-top exhaustion and opens a slide toward VWAP ~602; holding above 614 keeps the melt-up alive toward 628. No clean edge inside the coil right now.",
+  "expectancy_note": "No trade beats both alts: short lacks a trigger (uptrend ADX 45, macro/sentiment against, FOMC minutes tomorrow) and long is a chase at RSI 83 / %B 1.1 / +2.3% VWAP under 628 resistance \u2014 negative expectancy either way until the flag breaks.",
+  "rationale": "META blew off to 625.45 on a huge volume spike then faded to 615 and has gone dead-flat on collapsing volume \u2014 classic exhaustion stall, but no confirmed lower-high breakdown yet. Shorting a strong all-TF uptrend into a flat coil with FOMC June minutes as a gap risk tomorrow is knife-catching; chasing long at RSI 83 above the upper Bollinger band under 628 resistance is a textbook bad entry. Best expectancy is to wait for the coil to resolve; size 0.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 613.5,
+    "expires_min": 240,
+    "note": "Losing the flag low confirms the 625 blowoff-top reversal and opens a clean exhaustion short toward VWAP ~602."
+  },
+  "transcript": {
+    "macro": "RISK-OFF, chip-led selloff (Nasdaq -1.2%, semis >-4.5% on Samsung Q2 + DeepSeek). But META is the ODD ONE OUT \u2014 not a chip name (btc_corr 0.35, low semi corr), so the selloff does not drag it. Scan direction LONG (blended +0.429), 4h RSI 83.2, ADX 45, +8% rel-strength. structure_bias -0.265 is purely long/short 1.838 crowding, not a downtrend. Fed leans HIKE; FOMC June minutes Wed Jul 8 = gap risk.",
+    "sentiment": "Constructive/expensive. AI-capex poster child; Q1'26 beat, raised FY26 capex to $125-145B. Q2 earnings Jul 29 (outside 48h, does not gate trade). No near-term company binary; risk is a risk-on tape extending the melt-up against a short. Net neutral-to-slightly-against a short.",
+    "analyst": "Blowoff to 625.45 on huge volume then faded to 615 and went dead-flat on collapsing volume \u2014 exhaustion stall, no confirmed lower-high breakdown yet. Short lacks a trigger inside a strong all-TF uptrend into FOMC gap risk; long is a chase at RSI 83 / %B 1.1 / +2.3% VWAP under 628 resistance. Hold with best expectancy; arm short reconsider on losing flag low 613.5 (\u2192 VWAP ~602).",
+    "portfolio": "HOLD META \u2014 coiled blowoff top, no trigger; wait for 613.5 break to short."
+  },
+  "timestamp": "2026-07-07T22:00:03.013585+00:00"
+}

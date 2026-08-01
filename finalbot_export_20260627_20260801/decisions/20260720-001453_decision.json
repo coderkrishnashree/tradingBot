@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "MU/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Blow-off spike to 879.56 just printed on huge volume, closing back at 876.6 with an upper wick; next 2-4 bars most likely chop/digest 872-879 then fade toward the 856-860 breakout base as the overnight thin-liquidity spike unwinds.",
+  "expectancy_note": "No trade: long is a chase (RSI 73, %B 0.99, +3% over VWAP) = the book's #1 loss pattern; short has no confirmed lower-high yet and per-TF trend still up. p(win) either side ~0.45 with poor R:R into thin closed-cash tape.",
+  "rationale": "MU is a tokenized semi with US cash CLOSED, so crypto structure (L/S, OI, funding) is noise and gap risk is high. Price just spiked vertically to 879.56 on a 10x-volume 15m bar, RSI 73, stoch 93, bb %B 0.988, +3.02% above VWAP \u2014 textbook extended blow-off; buying here chases and a routine counter-bounce would hit any honest stop, while shorting now (my macro bias) lacks a confirmed reversal and fights still-rising momentum. Highest-expectancy action is to wait: either a pullback into the 850-856 base for a with-trend long, or a clean break below 856 to confirm the fade for a short.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 856.0,
+    "expires_min": 240,
+    "note": "Losing 856 breaks the base of this breakout leg and confirms the overbought spike failed, opening the macro-aligned short toward 830/806."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF/defensive, semis in a bear market. FOMC Jul 28-29 caps upside. Scan 00:07 UTC Monday = US cash CLOSED, gap risk, low-confidence overnight prints; MU scan composite was very low (~4.0, flat) with weak per-TF signals. MU: SHORT bias / avoid longs \u2014 semi, tightly correlated to SNDK (0.85) and INTC (0.69); same bear-market thesis. No long support.",
+    "sentiment": "MU very bullish fundamentals but catalyst PASSED, no <=48h event. Blowout Q3 reported Jun 24 (rev quadrupled to ~$41.5B; guided next quarter ~$50B; HBM/DRAM/NAND tight into 2027). Binary well behind, next print quarters away. Strong long-horizon AI-memory bid but neither-for-nor-against a 24-48h trade. Neutral; sympathy-mover with SNDK.",
+    "analyst": "Tokenized semi, US cash CLOSED so crypto structure is noise and gap risk high. Price just spiked vertically to 879.56 on a 10x-volume bar, RSI 73, %B 0.988, +3.02% above VWAP = extended blow-off. Long chases (account's #1 loss pattern); short lacks a confirmed lower-high and fights still-up momentum. Wait for a pullback to the 850-856 base (long) or a break below 856 (short). HOLD.",
+    "portfolio": "HOLD MU \u2014 extended overnight blow-off, no confirmed reversal; macro-aligned short trigger below 856."
+  },
+  "timestamp": "2026-07-20T00:14:53.016544+00:00"
+}

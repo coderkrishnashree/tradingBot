@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "AAPL/USDT:USDT",
+  "size": 0.0,
+  "entry": 332.19,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Thin weekend chop between ~331.8 support-of-session and 332.7 resistance; last 15m bars rolled over to close on the low (332.19), so a drift toward 331.5-331.8 is likely before Monday's cash open decides direction near 335.3.",
+  "expectancy_note": "No positive-expectancy entry: long = chasing 4h RSI 82.7/ADX 78 into 335.3 resistance on 0-volume bars; short = fighting a violent uptrend; range-fade has no clean level and weekend prints are unreliable. Standing aside beats both.",
+  "rationale": "AAPL is the tape leader (rel-strength +6.95%, BTC-independent) but the 4h is extremely extended (RSI 82.7, ADX 78, +1.43% over VWAP) and US cash is CLOSED until Monday, so every print here is thin and gappy. Buying continuation into 335.3 resistance is the classic late-entry stop-out; shorting an ADX-78 uptrend is worse. No structural level lines up for a mean-reversion fade within noise, and Thursday's earnings makes multi-day holds risky. HOLD with zero size until Monday liquidity confirms a break of 335.34 or a proper pullback to VWAP/support.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 335.34,
+    "expires_min": 240,
+    "note": "A clean reclaim/break of resistance 335.34 (ideally on Monday cash volume) confirms trend continuation and turns this into a valid long-breakout entry instead of a chase."
+  },
+  "transcript": {
+    "macro": "2026-07-25 21:29 UTC. WEB FEEDS DOWN (529s) \u2014 macro headlines unconfirmed; leaned on derivatives + calendar. BIGGEST RISK: US & Tokyo cash markets CLOSED until Monday; tokenized equities have no true price discovery now, weekend tape thin/gappy. AAPL 332.19: structure_bias -0.017 (near-neutral), L/S 1.10, funding slightly negative, OI ~5.3k; 4h RSI 82.7 / ADX 78 = extremely overbought/extended; BTC-independent, rel-strength +6.95% (leader). Environment HOSTILE-to-MIXED for fresh risk; recommend smaller size / wait for Monday.",
+    "sentiment": "AAPL sentiment NEUTRAL now, HIGH-risk into next week. Hard binary: fiscal Q3 earnings after Nasdaq close Thu July 30 (Tim Cook's final call before John Ternus takes over \u2014 extra vol). Consensus ~$108.9B rev / $1.89 EPS. Event ~5 days out, OUTSIDE 24-48h horizon so no imminent scheduled catalyst; tone is slow grind higher but any multi-day hold runs into the print.",
+    "analyst": "AAPL leader but 4h extremely extended (RSI 82.7, ADX 78, +1.43% over VWAP) into 335.3 resistance with US cash closed = thin gappy prints. Long = classic late-entry chase / #1 loss pattern; short = fighting ADX-78 uptrend; no clean level for a fade. HOLD zero size until Monday liquidity confirms a break of 335.34 or a proper pullback.",
+    "portfolio": "AAPL: HOLD (0.60) \u2014 leader but overbought into resistance on a closed-market weekend tape; stand aside for Monday."
+  },
+  "timestamp": "2026-07-25T21:35:55.978597+00:00"
+}

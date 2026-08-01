@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "MSFT/USDT:USDT",
+  "size": 0.0,
+  "entry": 390.34,
+  "stop_loss": 373.78,
+  "take_profit": 395.85,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Tight flat coil 389.3-390.5 persists into 8:30am ET CPI (~7h out); the print, not structure, decides the next real move - hot CPI gaps MSFT toward VWAP/support, soft print thrusts at 395.85. No directional edge before the number.",
+  "expectancy_note": "No honest R:R: price is mid-air (RSI 65.9, %B 0.846, +0.55% VWAP) - not at support to buy nor at resistance 395.85 to fade - and a stop wide enough to survive a CPI whipsaw kills any 1.5R setup. HOLD beats a coin-flip bet into a binary.",
+  "rationale": "MSFT is extended near the top of its range in a RISK-OFF regime with a June CPI binary inside the window (8:30am ET); the candles show a flat, low-volume coil with no thrust, so there is no continuation or clean fade to trade. Mild retail long-crowding (L/S 1.854, bias -0.226) and a fresh Copilot legal headline tint bearish but offer no edge mid-air; a sized-down bet here is negative expectancy versus waiting for the print to define direction. Stand aside; re-engage only on a confirmed post-CPI resistance reclaim.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 395.85,
+    "expires_min": 240,
+    "note": "A post-CPI break and hold above resistance 395.85 confirms a soft-print relief thrust and validates a long continuation entry on the retest."
+  },
+  "transcript": {
+    "macro": "REGIME: RISK-OFF/NEUTRAL - STAND-ASIDE into CPI (bias SHORT over LONG if forced). June CPI drops TODAY Jul 14 8:30am ET - binary event inside the holding window, single biggest driver. Last session risk-off (S&P -0.79%, Nasdaq Comp -1.55%, AI/mega-cap under pressure). Fed hawkish (FOMC Jul 28-29 under Chair Warsh). Oil/US-Iran risk-off overhang. MSFT $390.34: funding flat (no crowding), OI 4,724, L/S 1.854 (retail long = mild contrarian short), structure_bias -0.226, RSI 65.9/bb_pctb 0.846 (extended, resistance 395.85), rel_strength +5.29% vs BTC, BTC corr 0.284. Scan composite weak LONG 48.3%. MSFT earnings Jul 29 (outside 48h). Risk is directional CPI event risk, not a squeeze.",
+    "sentiment": "MSFT NEUTRAL next 24-48h. Constructive long-term (53/56 analysts Buy, PT ~$561, ~$190B AI capex) but own binary catalyst is Jul 29 earnings, not this cycle. Rough 2026 (-23% H1, -30% off highs) on Jan Azure slowdown + Copilot miss; bounced ~3% Jul 1. Fresh Jul 13 negative headline: securities-fraud class action over Copilot/Azure misrepresentations (legal noise, bearish tint). Near-term driver is the macro CPI print, not fundamentals.",
+    "analyst": "Decisive factor: CPI at 8:30am ET (~7.5h out), squarely inside a 48h window - a binary directional event, not a technical setup. MSFT extended (RSI 65.9, %B 0.846, upper Bollinger, +0.55% VWAP) with mild long-crowding to fade, in RISK-OFF regime biasing short if forced. Candles show a flat low-volume coil 389.3-390.5, no thrust. Price is mid-air: not at support to buy, not at resistance 395.85 to short. A stop wide enough to survive a CPI whipsaw kills any 1.5R setup - negative expectancy. Standing aside is the honest, highest-EV call. Trigger to flip: clean break/hold above 395.85 (post-CPI relief thrust confirming long).",
+    "portfolio": "MSFT/USDT:USDT -> HOLD (stand aside into CPI), conf 0.60, size 0."
+  },
+  "timestamp": "2026-07-14T05:01:53.620786+00:00"
+}

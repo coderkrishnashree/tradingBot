@@ -1,0 +1,28 @@
+{
+  "symbol": "QQQ/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.55,
+  "size": 0.0,
+  "entry": 696.7,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "trend",
+  "forecast": "Small dead-cat bounce toward 699-700 (broken support, VWAP) over next 2-4 bars, then trend resumes down toward 692 and 688 support; alternatively a clean loss of 695.8 sends it straight to 692.",
+  "expectancy_note": "Short bias is correct (4h -0.9, ADX 43, aligned, risk-off tape) but 5m RSI 29.8 / stoch 20.9 at the intraday low = market-short-now is the account's late-chase loss pattern; a bounce hits any honest stop first. Best expectancy is to short the retest ~700 (2.5R to 692).",
+  "rationale": "Multi-TF aligned short with strong ADX and a risk-off backdrop into GOOGL earnings argues for downside, but price is pinned at intraday lows with oversold LTF momentum and near VWAP (only -0.35%), so there's no clean, non-chasing entry now and R:R on a market short is poor (bounce stops it). Thin tokenized-equity liquidity (2-14 unit candles) adds gap/whipsaw risk. Wait for the bounce to 700 to short into strength, or a decisive break of 695.8 to confirm continuation. Size 0 until one of those triggers.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 700.0,
+    "expires_min": 240,
+    "note": "A bounce back to 700 (broken support / VWAP retest) offers the non-chasing short entry into strength with stop above 703 and target 692/688 for ~2.5R."
+  },
+  "transcript": {
+    "macro": "Risk-neutral-to-defensive equity tape on Iran/oil shock, VIX ~18.6; not clean risk-on. Scan shows broad 4h short lean on QQQ/NVDA/EWY. No FOMC this week. Dominant catalyst = Big Tech earnings (GOOGL 7/22, MSFT 7/29). Backdrop argues smaller size.",
+    "sentiment": "Overall risk-off, near-term bearish AI-valuation unwind. QQQ down 3 days, ~-1.5% Fri, sell signals across MAs; headwind into NVDA/MSFT earnings + FOMC. Near-term bearish tilt.",
+    "analyst": "Multi-TF aligned short (4h -0.9, ADX 43) in a risk-off tape, but price pinned at intraday lows with 5m RSI 29.8/stoch 20.9 near VWAP (-0.35%) = no non-chasing entry; market short = account's late-chase loss pattern. HOLD size 0; arm short on a bounce to 700 (2.5R to 692) or a break of 695.8.",
+    "portfolio": "HOLD QQQ - short bias but no non-chasing entry; arm short on a bounce to 700."
+  },
+  "timestamp": "2026-07-20T20:45:46.032826+00:00"
+}

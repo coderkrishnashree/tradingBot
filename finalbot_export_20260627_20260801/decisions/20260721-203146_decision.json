@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "MSTR/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.55,
+  "playbook": "none",
+  "forecast": "Bounce off 100.0 has run +1.9% into the 102 shelf and is stalling (last two bars 101.94/102.06 with fading volume); expect a stall/pullback toward VWAP ~98.9 before the next real leg. A push through 102.3 tags 103-104.6 where bearish divergence lives.",
+  "expectancy_note": "p(win) ~0.5 either way; long chases +3% above VWAP into resistance w/ 4h RSI74 + 5m RSI83 + bearish divergence (account's #1 loss), short fights a constructive BTC tape and the account's losing short record (0.45 WR, -1.21). No edge > 1.5R.",
+  "rationale": "MSTR is pure BTC-beta (corr 0.72, rel_strength -3.72) mid-air on a stretched bounce: +3.04% above VWAP, 4h RSI 74, bearish divergence, 5m RSI 83, crowded long 1.31. Chasing the long is the late-continuation entry that bleeds this book; shorting a firm BTC tape has a 0.45 win rate here. No 1.5R at spot; wait for a VWAP pullback (long the winning side) or a failure of 100.5 (confirmed short).",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 100.4,
+    "expires_min": 240,
+    "note": "Losing 100.4 breaks the bounce structure / 100.0-100.5 shelf, opening a clean short toward VWAP/95 with divergence backing it."
+  },
+  "transcript": {
+    "macro": "Regime MIXED/cautious (2026-07-21). US equity tape choppy, headline-driven; hawkish-Fed (market pricing a possible HIKE by Oct) is a headwind for high-multiple tech. Crypto tape constructive short-term (BTC ~$66.5k, 5-wk high, +ETF inflows) -> helps MSTR/CRCL crypto-proxies only. BIGGEST RISK: earnings inside the hold window -- GOOGL reports Wed 7/22 after close, INTC Thu 7/23 after close; do NOT carry either through the print. Several longs (INTC, CRCL, EWY, EWJ, MSTR) already RSI-extended/crowded-long -> smaller size, prefer intraday over multi-day until earnings clear.",
+    "sentiment": "Overall risk-OFF: Nasdaq-100 down 5 straight weeks on AI-capex anxiety + Iran/oil spike; heavy earnings + macro week (GOOGL/TSLA 7/22, INTC 7/23, FOMC 7/28-29, BOJ 7/30). GOOGL bearish/event-risk (earnings 7/22). AAPL neutral-slightly bearish (earnings 7/30, outside window). QQQ bearish tilt, extended into weak macro week. MSTR neutral fragile bounce on fading volume. INTC bearish/event-risk, ~12% swing priced into 7/23 print, RSI88 extended. CRCL neutral-cautious: OCC bank-charter catalyst spent, Mizuho downgrade + Visa overhang, RSI89. EWJ neutral/mildly bullish but Nikkei record already priced, BOJ 7/30 caps runway. EWY bearish: KOSPI in a record -23% crash w/ circuit breakers -- scan long tilt fights a violent country downtrend.",
+    "analyst": "Pure BTC-beta (corr 0.72) mid-air on a stretched bounce: +3.04% above VWAP, 4h RSI 74, 5m RSI 83, bearish divergence, crowded long 1.31. Long chases into resistance (bleeds), short fights a constructive BTC tape (account shorts 0.45 win). No 1.5R at spot; HOLD, long a VWAP pullback or short a 100.4 failure.",
+    "portfolio": "HOLD MSTR -- stretched BTC-beta bounce; size 0, short only below 100.4."
+  },
+  "timestamp": "2026-07-21T20:31:46.422250+00:00"
+}

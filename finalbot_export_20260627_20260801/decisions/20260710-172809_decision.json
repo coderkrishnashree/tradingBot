@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "GOOGL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.58,
+  "playbook": "none",
+  "forecast": "Low-volume drift around 355 after the bounce off 353.6 stalled at 356.43; expect chop between support 351.78 and the 357.6-358 VWAP zone over the next few bars \u2014 either a weak retest higher toward 357.6-358 (clean short entry) or a fresh break of 351.78 that opens the next leg down.",
+  "expectancy_note": "Short at market has only ~1R to support 351.78 (3.5 pts) vs a 2.5-3 pt stop above 356.43 -> R:R <1.5, and 30m RSI 25.4 oversold invites another bounce (late-short trap). No entry clears the bar; wait for the level.",
+  "rationale": "Strong down-trend (ADX 67, all TFs down) and crowded-long structure (bias -0.411) favor shorts, but price is already -1.97% below VWAP with 30m RSI 25.4 oversold and sitting just above support 351.78 \u2014 a market short here has poor R:R and high bounce risk. The clean trade is either a limit short on a retest of the 357.6-358 VWAP zone (room down to 351.78) or a fresh short on a decisive break of 351.78. Weekend liquidity thinning after 4pm ET adds gap risk, arguing to wait rather than chase. Holding with an armed trigger is the highest-expectancy choice.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 351.78,
+    "expires_min": 240,
+    "note": "Losing support 351.78 confirms the downtrend's next leg and opens a clean short with room lower; a reclaim toward 357.6-358 would instead be the limit-short retest."
+  },
+  "transcript": {
+    "macro": "GOOGL is a tokenized EQUITY (Alphabet), not crypto (btc_correlation 0.132). Regime: constructive-but-cautious risk-on; S&P/Nasdaq up ~0.3%/0.2% Fri Jul 10, winning week, chip strength + record SK Hynix IPO support tech; headwind is 10Y yield ~4.6% capping megacap tech. GOOGL perp: funding +0.00032 (mild long), L/S ratio 1.835 (crowded long, contrarian bearish), orderbook imbalance -0.115 (sellers heavier), structure_bias -0.411. Price 355.31, RSI 35.6, ADX 67.2, 15m/30m/1h/4h all down, near support 351.78; 30m RSI 25.4 oversold (bounce risk). Earnings Jul 22 (outside hold window). Verdict: MIXED-to-modestly-SHORT-supportive; macro risk-on is a headwind; weekend liquidity thinning = gap risk; argue smaller size.",
+    "sentiment": "Long-horizon tone bullish (Strong Buy consensus, near record highs on AI/Gemini/cloud) \u2014 not tradable near-term. Q2 earnings Jul 22 after close (~12d out, just outside 24-48h horizon; expect pre-earnings drift/vol compression). Fresh price-relevant risk = regulatory: EU upheld \u20ac4.1B Android fine (Jul 2), binding EU DMA orders due ~Jul 27 (18-day clock) \u2014 negative overhang, possible headline dips next 1-2 weeks. US DOJ case a non-event this horizon. No 24-48h binary catalyst. Net near-term mildly bearish-to-neutral, loosely supports scan short bias. Avoid holding naked into Jul 22 print.",
+    "analyst": "Trend strongly down (ADX 67, all TFs) and crowded-long structure favor shorts, but price -1.97% below VWAP, 30m RSI 25.4 oversold, sitting right on support 351.78. Market short has only ~1R to 351.78 (3.5 pts) vs 2.5-3 pt stop above 356.43 -> R:R <1.5, and oversold invites another bounce (late-short trap). Bounce off 353.62 stalled at 356.43 and is fading on tiny volume. Cleaner trade is a limit short on a 357.6-358 VWAP retest or a fresh short on a decisive break of 351.78. Weekend liquidity thinning reinforces patience. HOLD with an armed short trigger below 351.78 is highest expectancy.",
+    "portfolio": "GOOGL/USDT:USDT \u2014 HOLD (conf 0.58), armed short trigger below 351.78; no clean R:R at market, wait for the level."
+  },
+  "timestamp": "2026-07-10T17:28:09.202875+00:00"
+}

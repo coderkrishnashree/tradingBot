@@ -1,0 +1,26 @@
+{
+  "symbol": "XAG/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.62,
+  "size": 0.0,
+  "entry": 59.97,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "forecast": "Weekend tape is frozen: 15m candles have coiled in a 5-cent box (59.92-59.97) for ~5 hours on collapsing volume. Expect continued drift/chop near 59.9-60.1 through the weekend, with the real directional move deferred to Monday open and Tuesday's CPI print; no tradable impulse over the next few candles.",
+  "expectancy_note": "p(win) ~0.5 on a stretched long (stoch 73, 30m RSI 70, VWAP +1.15%) with no impulse; RR cannot clear 1.5 into a dead tape, and CPI binary + crowd very long (L/S 3.26) skews risk against. HOLD beats a coin-flip entry.",
+  "rationale": "Momentum reads long on the composite but the actual recent candles show a lifeless weekend flatline with near-zero ATR (15m 0.02%) - there is no next-move to express, so any stop honest enough to survive would blow RR below 1.5. Silver is also fighting a firm DXY/real-rates headwind, is a -8% laggard vs BTC, and the crowd is heavily long (L/S 3.26) into a genuine binary CPI print Tue Jul 14 inside the hold window. Best expectancy is to wait for either a confirmed post-weekend breakout or the CPI resolution rather than pay the spread on a frozen, crowded, event-risked tape.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 60.6,
+    "expires_min": 240,
+    "note": "A break above the weekend stall toward $63.36 resistance would prove the long momentum is real post-weekend (not a flatline), turning the tactical long live with room to a genuine target."
+  },
+  "transcript": {
+    "macro": "Broad regime MIXED, hawkish-leaning; ~62% chance of Fed HIKE in Sep, June CPI Tue Jul 14 inside hold window - dominant near-term event risk; DXY firm ~101 (headwind for silver); Saturday thin tape. XAG MIXED, momentum-long vs macro headwind: sharp pullback to ~$60, down ~10.4% over past month (still +~57-65% YoY), gold/silver ratio compressed to ~68. Pullback tracking oil/Iran inflation scare lifting real yields; higher real yields + firm DXY are a one-two headwind. Fed-hike repricing (Sep ~62%) is core macro risk to a long; hot CPI would extend the drop. structure_bias -0.30 (L/S 3.26 crowd very long, contrarian), composite long 43.7% with 15m/30m up-momentum (30m RSI 70, stoch 73), coiling on very low ATR. Rel strength -8.0% vs BTC. Support $57.31, resistance $63.36. XAG 0.88 corr to XAUT (gold) - real-rates play.",
+    "sentiment": "XAG constructive but stretched; rode safe-haven/precious-metals bid alongside gold (~$4,000) on softer US macro, easing yields, weaker dollar, industrial demand - but sits ~42% off Jan 2026 ATH (~$121) and had ~19% monthly drawdown before last week's bounce (SLV +5% on week). Trades tightly with gold (corr 0.88); near-term direction is a macro/rates trade. Key 48h catalyst is macro: June CPI Tue Jul 14 8:30 ET - last major inflation read before Jul 29 FOMC. Soft CPI (lower yields/weaker USD) is a clear tailwind; hot print is main risk. Net: leans for the long into a likely-soft CPI, but Tuesday's print is a genuine binary - size/timing should respect it.",
+    "analyst": "Composite reads long but recent candles show a lifeless weekend flatline (15m coiled in a 5-cent box ~5 hours, near-zero ATR 0.02%) - no next-move to express, so any honest stop blows RR below 1.5. Setup stretched (stoch 73, 30m RSI 70, VWAP +1.15%). Silver fighting firm DXY/real-rates headwind, -8% laggard vs BTC, crowd heavily long (L/S 3.26) into a binary CPI print Tue Jul 14 inside the window. HOLD; wait for a confirmed post-weekend breakout above $60.6 toward $63.36, or CPI resolution, rather than pay spread on a frozen crowded event-risked tape.",
+    "portfolio": "HOLD XAG/USDT:USDT - long bias but frozen weekend tape + binary CPI; arm breakout trigger at $60.6 (conf 0.62)."
+  },
+  "timestamp": "2026-07-11T06:01:18.632711+00:00"
+}

@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "CRCL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price is mid-range (61.8 support / 73.7 resistance) after a fresh 15m/5m overbought thrust to 67.44 on the biggest recent bar; expect a stall/pullback into 66.5-66.9 over the next 2-4 bars rather than a clean directional move worth chasing.",
+  "expectancy_note": "No edge either side: long = chasing an LTF-overbought thrust into crowded longs (L/S 2.80) and a thin weekend gap; short lacks a trigger against a bullish OCC-charter catalyst and squeeze risk. Flat is highest expectancy.",
+  "rationale": "CRCL sits mid-range with 15m RSI 73.8 / 5m RSI 76.9 overbought after a strong push bar, badly lagging BTC (RS -17.3%) with crowded long structure (bias -0.325) into a Saturday closed-underlying, gappy tape. No clean level to trade off: a long chases the stretched-continuation setup that has bled this book, and a short has no confirmation into a fresh regulatory catalyst. Wait for a rejection at resistance or a loss of the 66.5 shelf.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 66.5,
+    "expires_min": 240,
+    "note": "Losing the 66.5 higher-low shelf confirms the overbought thrust failed and opens a crowded-long flush toward 61.8 - the cleaner short entry."
+  },
+  "transcript": {
+    "macro": "2026-07-11 (Sat): cautious risk-on/mixed. Saturday - equity underlying weekend-closed, thin/gappy. CRCL environment unsupportive: high ATR (3.45%), crowded long (long/short 2.80, structure_bias -0.325), badly lagging BTC (RS -17.3%), 15m/5m RSI 74-77 overbought on thin tape. Reduced size across board.",
+    "sentiment": "CRCL bullish catalyst just hit - Circle won final OCC national trust-bank charter, spiked ~16% intraday Jul 10 before settling (~$66-67, +4% Fri close). Concrete regulatory win. Overhang: Stripe 'Open USD' competition (Compass Point cut PT to $55), Coinbase USDC partnership renewal expected August. May be partly priced after the pop - watch for fade.",
+    "analyst": "Mid-range with 15m/5m RSI 73-77 overbought after a strong thrust bar, RS -17.3% vs BTC, crowded long (bias -0.325) into a closed-underlying weekend tape. Long chases the account's stretched-continuation loss pattern; short has no confirmation into a fresh bullish OCC-charter catalyst. HOLD with an armed short trigger on losing the 66.5 shelf.",
+    "portfolio": "HOLD CRCL/USDT:USDT - overbought thrust vs bullish charter catalyst = no clean edge; arm short below 66.5 (conf 0.6)."
+  },
+  "timestamp": "2026-07-11T07:02:55.791440+00:00"
+}

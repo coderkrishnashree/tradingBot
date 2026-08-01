@@ -1,0 +1,26 @@
+{
+  "symbol": "MU/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.6,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "forecast": "Price rejected the 882.5 blow-off top and wicked to 862 before recovering to 871; expect a coil between 862 and 883 next few bars. A close/break below 862 confirms the dead-cat is expiring and opens a slide to VWAP ~851 then 840; a reclaim above 883 resumes the squeeze toward 900+.",
+  "expectancy_note": "Short is directionally right (RSI 70-77, %B 0.92, +2.4% VWAP, retail L/S 1.97 crowded long, rel-str -33%) but a market short into a still-bid orderbook (+0.84) after only one rejection bar is the exact late-short-into-stretched-tape pattern that has lost this account. Waiting for 862 to break turns a 47% chase into a confirmed ~1.7 R:R fade.",
+  "rationale": "MU is a textbook dead-cat: overbought across all TFs, pinned to the upper band, +2.4% over VWAP, retail crowded long into a -32% crash bounce, macro flagged HOSTILE to the long. But the tape has only produced one rejection candle off 882.5 and is still bid (orderbook +0.84); shorting here risks the squeeze back to 883 before the roll-over. The learner shows late shorts into stretched tape are this book's #1 leak, so hold and arm a short trigger below the 862 intraday pivot rather than chase. A break of 862 confirms the flip; a reclaim of 883 invalidates the short.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 862.0,
+    "expires_min": 240,
+    "note": "Losing the 862 intraday pivot confirms the dead-cat bounce is exhausted and momentum flipped down, enabling a confirmed short toward VWAP 851/840 instead of a chase into a still-bid book."
+  },
+  "transcript": {
+    "macro": "REGIME RISK-OFF in tech/semi; semis ~-9% on the week, MU epicenter (-32% in 3 weeks). MU L/S 1.971 + orderbook +0.84 (retail piled long into a +40%-range dead-cat bounce), RSI 70-77 across TFs, rel-strength -33%. Tokenized equity gaps Monday. Verdict: HOSTILE \u2014 fade the long.",
+    "sentiment": "MU bullish tone (record Q3, HBM sold out for 2026, new Anthropic memory-supply deal) but next earnings weeks away \u2014 no <=48h company catalyst. Long-horizon tailwind, neutral-to-supportive short-term. Risk: sympathy move if TSLA/GOOGL (7/20-24) sour the semi tape.",
+    "analyst": "Textbook dead-cat: overbought all TFs, +2.4% VWAP, retail crowded long. But only one rejection bar off 882.5 and book still bid; a market short risks the squeeze to 883 and is the account's #1 leak. HOLD; arm short below the 862 pivot, invalidate on reclaim of 883.",
+    "portfolio": "MU: HOLD 0.60 \u2014 dead-cat, no long; short only on a confirmed break of 862."
+  },
+  "timestamp": "2026-07-20T00:46:58.710939+00:00"
+}

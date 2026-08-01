@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "HOOD/USDT:USDT",
+  "size": 0.0,
+  "entry": 97.32,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Low-volume grind into the 108 area is exhausted at RSI 83 / stoch 91; expect chop 96.5-98 over the next few bars with no clean thrust either way ahead of Wed earnings.",
+  "expectancy_note": "No entry clears R:R>=1.5 with an honest ~0.85 (1.5xATR) stop: a long chases a deeply overbought move into a binary print, a short fights ADX 86 with zero exhaustion. HOLD has the best expectancy.",
+  "rationale": "HOOD is a tokenized equity trading deeply overbought (RSI 83, stoch 91, ADX 86) with crowded longs (L/S 2.0) and a hard earnings binary Wed Jul 29 inside the 48h window - both macro and sentiment say do NOT chase and do NOT hold through the print. The last 20 15m bars are a thin, low-volume grind at highs with no pullback to buy and no reversal to short, so there is no honest 1.5xATR stop yielding R:R>=1.5. Sitting flat and waiting for a VWAP/support pullback (long) or a structure break preserves capital ahead of the event.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 93.21,
+    "expires_min": 240,
+    "note": "Losing support 93.21 breaks the uptrend structure and opens a momentum short; a reclaim/pullback toward support would instead offer a non-chase long entry."
+  },
+  "transcript": {
+    "macro": "Regime MIXED, risk-on into event week. FOMC Wed Jul 29. Funding broadly rich, crowded longs. Smaller size everywhere. HOOD: crypto/retail-broker beta (corr 0.42), RSI 83 and stoch 91 deeply overbought, L/S 2.02 crowded. Momentum strong but extended. LONG-only-with-tight-risk; do NOT chase.",
+    "sentiment": "HOOD: EARNINGS Wed Jul 29 AC (call Jul 30) - hard binary. Rev consensus $1.28B (+45% YoY) but EPS ~$0.41 (down YoY); Q1 showed 47% crypto-rev drop, so crypto/options take-rates are the risk. RSI ~83 extended. NEUTRAL/high-risk - do NOT hold through the print.",
+    "analyst": "Deeply overbought (RSI 83, stoch 91, ADX 86), crowded longs (L/S 2.0), hard earnings binary Wed inside the 48h window. Thin low-volume grind at highs - no pullback to buy, no reversal to short, no honest 1.5xATR stop. HOLD, wait for a VWAP/support pullback (long) or structure break. Reconsider on loss of 93.21.",
+    "portfolio": "HOLD - deeply overbought into Wed earnings binary, do-not-chase; conf 0.6."
+  },
+  "timestamp": "2026-07-27T05:09:34.085171+00:00"
+}

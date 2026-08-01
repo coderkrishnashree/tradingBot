@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "NVDA/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price just tagged 205.06 with 15m RSI 79 stretched and is fading to 204.66; into a -1% E-mini pre-open and risk-off tape I expect a pullback toward VWAP/coil at 203.4-203.8 before the uptrend can resume \u2014 buying here chases the late-continuation extreme.",
+  "expectancy_note": "p(win) on a chased long here ~0.45 (stretched 15m RSI, -1% futures gap, RS -9.3%); waiting for the 203.5 pullback lifts it to ~0.6 with a tighter stop.",
+  "rationale": "Uptrend is real (ADX 44.8, multi-TF long, longs are this account's winning side at 69%), but price is at a stretched 15m/5m RSI (79/72) intraday high while E-mini futures are ~-1% pre-open in a risk-off tape, NVDA lags BTC by 9.3% and is crowded long (L/S 1.65). No honest entry with R:R>=1.5 exists at 204.66; a pullback to 203.4-203.8 offers a ~1xATR stop under 202.5 toward 205/207, so wait rather than chase.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 203.7,
+    "expires_min": 240,
+    "note": "A dip into 203.4-203.8 that holds is the VWAP/coil retest to buy the uptrend with a tight stop below 202.5; also re-debate if it reclaims 205.1 on volume."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF/defensive (2026-07-21): S&P 7,437 -0.28%, E-mini ~-1% pre-open, VIX 18.65 firming; 10Y ~4.5% easing, DXY ~100.7 soft. Dominant driver geopolitics \u2014 US airstrikes on Iran 10th night, Hormuz disruption; headline-gap tape, size down. Event risk <=48h: GOOGL+TSLA report Wed Jul 22 after close (binary; semis NVDA/TSM sympathy). Tokenized equities thin/gappy off US RTH 13:30-20:00 UTC. Crowded long across equities (NVDA L/S 1.65), funding ~0; RS vs BTC broadly negative. Mixed-to-hostile for fresh longs \u2014 smaller size, intraday bias.",
+    "sentiment": "NVDA neutral-to-positive: no earnings this week (reports Aug 26); China H200 exports started but 'very small' volumes (25% surcharge) \u2014 incremental positive/overhang. Trades as AI-sector beta; watch read-through from TSM (already beat) and MSFT/GOOGL mid-week prints.",
+    "analyst": "HOLD NVDA. Genuine uptrend (ADX 44.8, multi-TF long, longs winning 69% for this book) but price is at a stretched 15m RSI 79 intraday high into a -1% E-mini pre-open, risk-off geopolitics tape, RS -9.3% vs BTC and crowded long 1.65 \u2014 market-buying 204.66 is the late-continuation chase this account bleeds on. Wait for the 203.4-203.8 VWAP/coil pullback (stop <202.5, targets 205/207) or a confirmed reclaim of 205.1; no clean R:R>=1.5 entry exists right here.",
+    "portfolio": "HOLD NVDA \u2014 real uptrend but stretched intraday into a -1% gap; wait for the 203.5 pullback, don't chase."
+  },
+  "timestamp": "2026-07-21T04:16:01.421829+00:00"
+}

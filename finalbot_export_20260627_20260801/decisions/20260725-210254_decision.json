@@ -1,0 +1,23 @@
+{
+  "symbol": "EWJ/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.34,
+  "size": 0.0,
+  "entry": 91.9,
+  "stop_loss": 89.4,
+  "take_profit": 93.34,
+  "rationale": "The 15m tape is dominated by stale zero-volume candles (stuck at 91.64 before a lone print to 91.9) \u2014 real liquidity is absent and gap risk is high. Only the 4h leans long (0.576) while 15m/30m/1h are flat, stochastic is already elevated at 85.9, and long/short 1.366 flags crowded-long (contrarian-negative). With BOJ (Jul 30-31) and FOMC both inside the ~48h window and no concrete next-candle direction, there is no honest R:R here, so I stay flat at zero size.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 93.34,
+    "expires_min": 240,
+    "note": "A break and hold above 93.34 resistance would confirm the 4h long with real momentum and volume, turning the flat lower timeframes constructive."
+  },
+  "transcript": {
+    "macro": "Risk-off, FOMC inside ~48h. EWJ mixed-to-cautious: Nikkei -2.69% Friday on tech/AI-spend selloff + oil inflation worry. Yen 40-year low ~163.8 supports exporters structurally but immediate tape risk-off. Scan long only on 4h (0.576), 15m/30m/1h flat, structure_bias -0.07, L/S 1.37 (crowded long, contrarian-negative). Stale/zero-volume candles \u2014 thin liquidity, gap risk when Tokyo closed.",
+    "sentiment": "Japan neutral-to-cautious. BOJ hiked to 1.00% in June (highest since 1995), 2Y JGB ~1.475%, markets price further hikes possibly October. Nikkei grinding on chips but capped by rate-hike overhang; weak yen + high oil raise import-inflation risk. Key event BOJ meeting Jul 30-31 \u2014 no move expected but hawkish guidance could jolt JPY/equities.",
+    "analyst": "Essentially untradeable: 15m candles stale zero-volume prints, most timeframes flat, only 4h weakly long. Stoch 85.9 elevated, price mid-range (91.9 between 89.53 support and 93.34 resistance), crowded-long contrarian-negative. BOJ + FOMC binary/gap risk into thin liquidity. No honest R:R \u2014 HOLD.",
+    "portfolio": "EWJ: HOLD (conf 0.34) \u2014 no entry; reconsider on break/hold above 93.34."
+  },
+  "timestamp": "2026-07-25T21:02:54.013336+00:00"
+}

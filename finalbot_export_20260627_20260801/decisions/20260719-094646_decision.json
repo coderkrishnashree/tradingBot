@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "EWJ/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.3,
+  "playbook": "none",
+  "forecast": "No concrete next move: last ~15 bars are frozen/stale (0-volume prints, price flatlined at 89.87 for the final 3 bars). Weekend-closed tape stays glued near 89.9 until Japan/US reopen, with a hard unmodelable Monday gap.",
+  "expectancy_note": "Negative expectancy: 40.8% conf short on a 0.387 learned-win condition, into a non-trading illiquid tape near the lower BB (%B 0.205) with gap risk - no edge, HOLD dominates.",
+  "rationale": "EWJ is a tokenized Japan ETF and it is Sunday with Japan/US markets closed - the candles show near-zero volume and stale, flatlined prints, so RSI 15/0 readings are data artifacts not momentum. ADX 24 = no trend, price is already 2.34% below VWAP and pinned to the lower band, so a market short here would be chasing into an untradeable, gap-prone market with a proven losing win rate (0.387). Zero size: there is no honest R:R when the tape isn't moving and Monday's open is an unhedgeable gap.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 88.16,
+    "expires_min": 240,
+    "note": "Losing stated support at 88.16 on real (non-zero) volume would confirm a genuine breakdown and justify re-debating the short on a live tape."
+  },
+  "transcript": {
+    "macro": "Risk-off/hostile weekend (Sun Jul 19); US/Japan markets CLOSED, tokenized equities thin/gap-prone, hard Monday gap risk. Week risk-off (S&P -1.6%, Nasdaq -2.9%, SOXX -17%/mo). Hawkish Warsh Fed. Crypto Fear. Bias: size down, prefer shorts/fades. EWJ: weekend-frozen and BARELY trades (near-zero volume, stale prints); scan short low-conf (40.8%). Essentially untradeable this session - avoid or minimal size.",
+    "sentiment": "Risk-off. Semi bear market. US-Iran re-escalating. Crypto Extreme Fear. Catalyst: Jul 22 TSLA+GOOGL earnings. EWJ: bearish near-term - Nikkei -4% Friday to 1-month low on global semi selloff; yen 4-decade lows (USD/JPY ~162). Structural Takaichi trade bullish but multi-month; immediate tape is chip-driven selloff. No 48h binary.",
+    "analyst": "Tokenized Japan ETF, Sunday, Japan/US closed - last ~15 bars are 0-volume stale prints flatlined at 89.87, so RSI 15/0 are data artifacts. ADX 24 = no trend, already 2.34% below VWAP pinned to lower band. Market short = chasing an untradeable gap-prone tape with a proven losing win rate (0.387). Zero size; re-debate only on a real-volume break of 88.16.",
+    "portfolio": "EWJ HOLD - untradeable frozen tape (stale zero-volume prints); no honest R:R, avoid until liquidity returns."
+  },
+  "timestamp": "2026-07-19T09:46:46.094979+00:00"
+}

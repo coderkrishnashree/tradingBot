@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "ORCL/USDT:USDT",
+  "size": 0.0,
+  "entry": 145.48,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Fade of the failed squeeze in progress: price rolled 149.3->145.5 and should chop 144-147; a dead-cat bounce toward the 147-148 VWAP/supply zone is the short entry, or a rejection continues down toward 143/142 support.",
+  "expectancy_note": "No honest R:R now \u2014 4 pts already dropped, mid-range (S137.6/R150.2), ADX 4.2 chop; market-shorting here risks the bounce stop. Wait for the retest; p(win) on a 147.5 fade ~0.6 with tight stop over 149.3.",
+  "rationale": "ORCL is the most crowded long in the book (L/S 2.24, top funding) with the worst RS (-20%), and it just ripped 142->149 then faded straight back to 145 \u2014 a squeeze, not a trend. The clean contrarian short is a bounce back into the 147-148 supply/VWAP reload with a stop above the 149.3 spike high, not a market entry into the middle of the range after the drop. HOLD with a trigger; only the high-quality retest fill.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 147.5,
+    "expires_min": 240,
+    "note": "A bounce into the 147.5 VWAP/supply zone reloads the failed-squeeze short with a tight stop above the 149.3 spike high; that is the high-R:R contrarian entry against the crowded long."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF-LEANING/MIXED, defensive. Oil gapped up (US-Iran), yields up. No CPI/FOMC in 48h; oil tape. L/S crowded LONG while price bleeds (contrarian-bearish). Favors shorts/fades; size down. ORCL: MOST crowded long in book (L/S 2.24) and highest funding tick, yet worst RS (-20% vs BTC). Just ripped 142->147->145 on huge volume then faded \u2014 SQUEEZE, not trend. Regime chop, blocked. Contrarian-short on failure, not a long.",
+    "sentiment": "Overall NEUTRAL-to-BEARISH tech. ORCL: fundamental overhang is the story \u2014 despite record Q4 (rev +21%, $638B backlog), stock ~-25% YTD on CASH-FLOW fears (FY26 FCF -$23.7B, FY27 capex up to $95B, ~$40B planned debt/equity raises incl $20B ATM). Dilution overhang caps rallies; rallies suspect.",
+    "analyst": "Squeeze-not-trend: crowd max long (L/S 2.24), worst RS, price ripped 142->149 then faded to 145. ADX 4.2 chop and 4pts already dropped = no edge for a market short (bounce back to VWAP stops it). HOLD, zero size. Short the retest into 147-148 supply/VWAP with stop above 149.3 spike; only the high-quality fill against the crowded long.",
+    "portfolio": "ORCL: HOLD (conf 0.60) \u2014 fade the failed squeeze on a bounce to 147.5, not a mid-range chase."
+  },
+  "timestamp": "2026-07-09T14:32:44.777765+00:00"
+}

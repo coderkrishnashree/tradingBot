@@ -1,0 +1,27 @@
+{
+  "action": "hold",
+  "symbol": "NVDA/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "expectancy_note": "Short chases RSI 11 into support 190.16 (donation); long is a knife vs weak QQQ with no divergence. Neither clears R:R>=1.5 at a good price. HOLD wins.",
+  "rationale": "NVDA is deeply oversold across every TF (4h RSI 22, 1h RSI 14, 15m RSI 11, stoch 2.6, %B -0.29, VWAP -2.7%) and pressed onto support 190.16 in a hard flush. Shorting here chases the extreme with no room to the level; longing is a falling-knife bounce against a rolling-over QQQ (corr 0.79, QQQ short-biased) with NO bullish divergence to confirm exhaustion. It is a QQQ-beta name in a news vacuum (next catalyst Aug 26 earnings) \u2014 no idiosyncratic edge and no clean setup, so flat is the highest-expectancy stance.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 190.16,
+    "expires_min": 240,
+    "note": "Losing support 190.16 on a retest confirms the flush has legs and offers a real short-continuation entry with structure below, rather than chasing RSI 11 mid-air."
+  },
+  "transcript": {
+    "macro": "OVERALL REGIME: RISK-ON, late-stage and thin. S&P +0.7%, Nasdaq +1.2%, VIX low 15.9. Rally narrow, semis/AI led (Broadcom +3.7%, AMD +6.6%, Nvidia). NVDA rides the semi bid; scan shows it moving with QQQ (corr 0.794) \u2014 index/AI beta, not idiosyncratic; lives/dies with Nasdaq tape. NVDA scan composite is flat/weak (conf ~4.2%, mild negative cells). Fed holds July, Sept-hike tail. One semi wobble drags NVDA/EWY/EWJ together.",
+    "sentiment": "NVDA \u2014 net NEUTRAL, NEWS VACUUM. Fundamentals strong (65% rev growth, buyback, Argus Focus List add) but last real catalyst (~$85B bond book) is stale; next binary is earnings Aug 26 (~50 days out). No <=48h scheduled catalyst; near-term macro/AI-sentiment driven (Fed, hyperscaler capex, export-control headlines). Board expands to 11 July 13 (immaterial). Trades with QQQ (0.79) and Korea semis.",
+    "analyst": "NVDA at 191.17: deeply oversold every TF (4h RSI 22.4, 1h RSI 13.7, 15m RSI 11.1, stoch 2.6, %B -0.287, VWAP -2.72%) pressed onto support 190.16 in a hard flush; ADX 46.7 (strong down move). 15m breakdown flagged at 192.31 on huge volume (8.52x), long_short 1.943 (crowded longs), structure_bias -0.325. Shorting into RSI 11 at support is a donation; longing a knife against a weak short-biased QQQ (corr 0.79) with NO bullish divergence is premature. News vacuum, QQQ-beta, no idiosyncratic edge. HOLD; arm short on a loss/retest of 190.16.",
+    "portfolio": "NVDA: HOLD (conf 0.50) \u2014 oversold flush with no clean setup; wait for a loss/retest of 190.16."
+  },
+  "timestamp": "2026-07-07T11:17:33.443567+00:00"
+}

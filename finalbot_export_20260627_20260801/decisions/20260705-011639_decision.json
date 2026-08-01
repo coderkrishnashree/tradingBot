@@ -1,0 +1,25 @@
+{
+  "symbol": "SNDK/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.6,
+  "size": 0,
+  "entry": 1840.6,
+  "stop_loss": 1861,
+  "take_profit": 1800,
+  "playbook": "none",
+  "expectancy_note": "No edge either way: long p(win) low (RSI 76/Stoch 87/ADX 77 exhausted, crowded +0.164% funding, offered book, stalled at 1842.5 resistance); short blocked by weekend gap risk with no ability to manage. HOLD > both.",
+  "rationale": "SNDK is a ~5% dead-cat bounce inside a violent 3-day semi/memory unwind (-10/-13/-14%), now pinned into resistance 1842.5 at RSI 76 / Stoch 87 / ADX 77 with %B 0.91 and price +0.21% over VWAP \u2014 deeply extended and exhausted. Structure is hostile for a long (extreme positive funding, orderbook -0.288, structure_bias -0.57, 4h score -0.9) yet a fresh short at these levels fights still-bullish NAND fundamentals and, critically, the US cash market is closed until Mon Jul 6 so any perp position eats an unmanageable Monday gap. Best expectancy is flat and let the reopen resolve direction; size 0.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 1823.55,
+    "expires_min": 240,
+    "note": "Losing VWAP/support 1823.55 confirms the bounce has failed and reopens a tactical short with the semi-unwind trend."
+  },
+  "transcript": {
+    "macro": "SNDK is a tokenized SanDisk (Nasdaq) EQUITY \u2014 judge on semi/memory tape, not BTC. Scan stamped ~Sat 2026-07-05 01:13 UTC; US cash market CLOSED over weekend/holiday \u2192 token gaps Monday open, no risk mgmt over the gap. Nasdaq fell Jul 1 on a semiconductor dump; memory/semi complex unwinding (Micron -10%+). SNDK correlated 0.56 MU / 0.55 NVDA / 0.54 INTC. Violent blow-off/reversal: ran ~$37\u2192>$2,000, cracked to ~$1,745 Jul 2 (-14% day). Structure HOSTILE for long: funding +0.00164 (crowded longs paying), orderbook -0.288, long_short 1.28, structure_bias -0.57, RSI 76.2/Stoch 86.6/ADX 77 (exhausted), 4h score -0.9, regime=squeeze/blocked, composite conf 11.9%, aligned=false. VERDICT: OPPOSE a fresh position now; if forced, only small tactical short on failure below VWAP/1823 with tight risk. Do not chase the long.",
+    "sentiment": "Tokenized equity; US cash closed over holiday/weekend \u2192 perp pricing with no underlying reference, whippy, gaps Monday. Fresh <48h shock: violent 3-day selloff ~-10% Jul1 / -13% Jul2 / ~-14% Jul3 (peak ~$2,354\u2192~$1,745) on sector-wide AI/memory unwind (supply-glut fears + valuation exhaustion). Scan $1,840 = ~5% dead-cat bounce. Longer-term fundamentals still bullish (NAND shortage, +70-75% QoQ contract prices, 78% GM) \u2014 correction inside uptrend, not broken story. No positive binary before earnings Aug 24, 2026. Near-term event risk: Mon Jul 6 cash reopen \u2192 gap + whipsaw. VERDICT: NEUTRAL-to-BEARISH near-term; counter-trend bounce-scalp only, no fresh short at these levels either.",
+    "analyst": "Both bull and bear cases are unattractive: chasing the long fights a fresh semi-unwind momentum shock into overbought exhaustion (RSI 76 / Stoch 87 / ADX 77, %B 0.91, stalled at resistance 1842.5) with crowded positive funding and an offered book; a fresh short here fights still-bullish NAND fundamentals and risks an unmanageable Monday gap-up squeeze with the US cash market closed. HOLD is the highest-expectancy call. Trigger: a decisive break below VWAP/support 1823.55 confirms the failed bounce and reopens a tactical short.",
+    "portfolio": "HOLD SNDK/USDT:USDT \u2014 flat, size 0, conf 0.60; stand aside over the weekend gap and let Monday's cash reopen resolve direction (watch 1823.55)."
+  },
+  "timestamp": "2026-07-05T01:16:39.974256+00:00"
+}

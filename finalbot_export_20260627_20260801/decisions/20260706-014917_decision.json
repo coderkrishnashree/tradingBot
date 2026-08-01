@@ -1,0 +1,25 @@
+{
+  "symbol": "HOOD/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.6,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "expectancy_note": "No edge: price pinned under $115.63 resistance, 4h RSI 73 overbought and 1h cooling to flat (extended, not a pullback long); short has poor p(win) into a clean uptrend w/ neutral structure; US market CLOSED so overnight print is thin/gappy w/ Monday gap risk. Best EV = wait for real 09:30 ET discovery.",
+  "rationale": "HOOD is a tokenized equity trading on a thin Sunday session \u2014 first real price discovery is Monday 09:30 ET open, so any fill now is a donation to gap risk. Structurally it's coiled directly under $115.63 resistance with an overbought 4h (RSI 73) and cooling 1h momentum, which is neither a clean pullback-with-trend long nor a valid short (no bearish divergence, structure near-neutral at -0.078). ATR is tight (~0.24%) so a noise-surviving stop plus a real level isn't available until the cash session prints. Hold and let the level resolve on real liquidity.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 115.63,
+    "expires_min": 240,
+    "note": "A confirmed break above the $115.63 resistance on real Monday-open liquidity would validate a breakout long with the 4h uptrend; until then it's a thin-session fake."
+  },
+  "transcript": {
+    "macro": "Regime MIXED, hawkish-Fed overhang on tech (Warsh biased to 1-2 2026 hikes), BTC-led crypto w/ firm dominance ~55-60%. HOOD: price ~$115.04 uptrend on token (4h RSI 73, 4h +0.60) but 1h flat near resistance $115.63; positioning clean (funding 0.0, L/S 1.288, structure_bias -0.078); btc_corr 0.46 (not crypto-beta), lagging (rel str -1.25). CRITICAL: US market CLOSED at scan \u2014 overnight print thin/gappy, first real discovery Mon 09:30 ET, gap risk; size modest.",
+    "sentiment": "HOOD Q2 earnings Wed Jul 29 (after close) \u2014 OUTSIDE 24-48h, not a tradeable binary. Fresh positive narrative already in tape (Jul 1: Robinhood Chain L2, tokenized stocks 120+ countries, EU perps, Earn) \u2014 stock popped 3-4% but days old (momentum not new binary). Analyst PT hikes, low near-term weight. Correlated w/ INTC (0.63) \u2014 avoid stacking. Net: mildly constructive, no <=48h binary, do NOT trade earnings yet.",
+    "analyst": "Price pinned under $115.63 resistance with 4h RSI 73 overbought and 1h cooling to flat = extended-into-resistance, not a pullback long. Short into a clean 4h uptrend w/ neutral structure (-0.078) and no bearish divergence has poor expectancy. Tight ATR (~0.24%) means no room for a noise-surviving stop + real level until cash session prints. US market closed => thin/gappy overnight, Monday gap risk. Highest-EV call is HOLD; reconsider a breakout long on a confirmed reclaim of $115.63 on real Monday liquidity.",
+    "portfolio": "HOOD \u2014 HOLD (conf 0.60): extended under resistance on a thin closed-market tape; wait for Monday-open confirmation above $115.63."
+  },
+  "timestamp": "2026-07-06T01:49:17.010614+00:00"
+}

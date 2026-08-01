@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "CRCL/USDT:USDT",
+  "size": 0.0,
+  "entry": 67.45,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price coils 67.0-67.5 just under the intraday high; expect grind sideways into the CPI print. A clean break/hold above 67.55 opens a run to 68.6/69.5; a loss of 66.76 flushes toward VWAP-low ~66.0.",
+  "expectancy_note": "p(win) on a fresh long here ~0.5 at best: ATR 3.4% but nearest structure is either ~0.5% (noise-stops) or 8% away (kills R:R), and a CPI binary lands inside the 48h hold. Waiting for a confirmed 67.55 break beats chasing a mid-range coil into an event.",
+  "rationale": "CRCL is a tokenized equity (crypto long/short 2.7 is noise) in a genuine 4h/1h uptrend (ADX 59, aligned, not extended, VWAP +0.87%), so directional bias is up - but price is mid-consolidation with no tight honest stop, ATR is 3.4%, and June CPI Tue Jul 14 is a live binary inside my hold window carrying gap risk. This account's trend playbook is currently bleeding (44% win, -2.89 avg), reinforcing patience. I want price to prove the coil resolves up before committing.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 67.55,
+    "expires_min": 240,
+    "note": "Breaking and holding above the big-volume intraday high confirms the coil resolves upward with a defined base under 67.0, turning this into a valid trend-continuation long toward 68.6/69.5."
+  },
+  "transcript": {
+    "macro": "Regime risk-ON but late-stage & event-gated (2026-07-11). Fri Jul 10 closed green (S&P 7,575 +0.42%, Nasdaq 26,282 +0.29%), 2nd straight weekly win led by AI/semis; nearly everything overbought. CATALYST inside 48h: June CPI + Core CPI Tue Jul 14 8:30am ET + new Fed Chair Warsh's first Congressional testimony 10am + JPM/GS Q2 earnings kick off bank season - a live binary inside a 2-day hold window; Monday opens carry CPI gap risk. BTC 64.2k, funding near-flat, L/S 1.34, orderbook +0.39 bid-heavy, 4h RSI 80/ADX 75 extended; BTC.D 56.3% (no alt rotation). Silver +100% YTD ~$60 but crowded-long (L/S 3.29). EWJ pure QQQ-beta, thin/gappy. Net: supportive for longs today but SIZE DOWN into Monday; favor trades that survive a gap; avoid crowded-long chases.",
+    "sentiment": "CRCL: bullish, +12.6% Jul 10 on OCC final national trust-bank charter approval + Nomura Japan FX-settlement deal; analysts split (GS cut to $96/Neutral, Bernstein Buy - low weight); earnings ~Aug 10, no <48h binary. Overall tone: cautiously risk-on, whole tape hinges on mid-July CPI + Jul 29 FOMC.",
+    "analyst": "Strong 4h/1h trend (4h score 0.855 RSI 59.5, 1h 0.723 RSI 71, ADX 59.4), NOT extended (VWAP +0.87%, %B 0.786). Support 61.78 far, resistance 73.72 far; ATR% 3.41 leaves no honest tight stop (nearest structure ~0.5% = noise, or 8% = kills R:R). Crypto long/short 2.7 meaningless for a tokenized equity. CPI Tuesday is a live binary inside the 48h window. Verdict: HOLD; want a confirmed break/hold above 67.55 before committing to a trend-continuation long.",
+    "portfolio": "HOLD CRCL - genuine uptrend but mid-coil with no honest stop into a CPI gap; wait for a 67.55 break."
+  },
+  "timestamp": "2026-07-11T09:33:26.489384+00:00"
+}

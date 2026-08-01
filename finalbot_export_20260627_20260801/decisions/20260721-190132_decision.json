@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "XAUT/USDT:USDT",
+  "size": 0.0,
+  "entry": 4075.9,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "range",
+  "forecast": "Spike to 4083 already rejected and faded to 4075.9; expect chop 4062-4083 next few bars, then either a retest of 4090-4094 resistance (best short entry) or a break of 4060 range support that confirms the crowded-long unwind toward 4045.",
+  "expectancy_note": "p(win) on a mid-air short here ~0.45 (account shorts lose, -1.21 avg) and R:R is poor vs the 4094 stop; waiting for a resistance retest or support break turns a ~0.45 fade into a ~0.6 setup \u2014 HOLD is the higher-expectancy play.",
+  "rationale": "XAUT is overbought into resistance 4094.6 (RSI 70.5, stoch 92.5, %B 1.058, 4h bearish divergence) with an extremely crowded long book (L/S 2.591, structure_bias -0.176) \u2014 a genuine fade backdrop, but the 4083 spike already faded to 4075.9 so shorting mid-air here offers weak R:R against a 4094 stop and the account's shorts have been net losers. I want either a retest of 4090-4094 to short the level with a tight stop, or a loss of 4060 range support to confirm the unwind; until one prints, expectancy favors no position.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 4060.0,
+    "expires_min": 240,
+    "note": "losing 4060 range support breaks the coil and confirms the crowded-long unwind is starting \u2014 arms a short toward 4045/3961 support."
+  },
+  "transcript": {
+    "macro": "Regime RISK-ON but gold heavy/defensive; firm DXY ~105.4/real yields cap non-yielding gold, live hawkish tail into July 28-29 FOMC, Iran safe-haven bid the only support. XAUT last 4,075.9 env MIXED mild-bearish: composite LONG (+0.288) but 4h bearish RSI divergence, RSI 70.5, stoch 92.5, overbought into resistance 4,094.6, structure_bias -0.176, L/S 2.591 (very crowded long, contrarian red flag). Prefer fade/mean-revert over trend-long, small size.",
+    "sentiment": "Gold consolidating after correction from Jan 2026 ATH ($5,600), still ~50% above year-ago. Mixed: weak June NFP softened Fed-hike odds (supportive) but rising oil/inflation + hawkish Fed cap it. No gold-specific binary inside 48h; FOMC July 29 next real trigger (out of window). Acts as risk-off hedge if GOOGL earnings spark equity de-risk. Tilt neutral/range-bound; watch DXY and equity risk-off.",
+    "analyst": "Overbought into resistance with crowded-long book = genuine fade backdrop, but the 4083 spike already faded to 4075.9 so a mid-air short has weak R:R vs a 4094 stop, and account shorts are net losers. Want a retest of 4090-4094 to short the level, or a loss of 4060 to confirm the unwind. Until one prints, no position.",
+    "portfolio": "HOLD XAUT (conf 0.6) \u2014 fade setup not yet triggered; arm short on 4094 retest or below 4060."
+  },
+  "timestamp": "2026-07-21T19:01:32.938466+00:00"
+}

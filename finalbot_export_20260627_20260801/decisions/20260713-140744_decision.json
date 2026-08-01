@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "TSM/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price just flushed 434.95->426.31 in two high-vol bars and is pinned on support 425.72 with RSI 19-24 / stoch 8.7; next few bars most likely chop 425.7-430 as the oversold flush stabilizes, not a clean continuation. A dead-cat bounce toward 429-431 or a support break under 425.7 resolves it \u2014 neither is tradeable yet.",
+  "expectancy_note": "Shorting the breakout flag = chasing a 1.9% flush into hard support + deep-oversold, ~40% p(win) with a bounce that stops fresh shorts; no long trigger either. HOLD beats both; a retest short only earns positive expectancy AFTER 425.72 breaks.",
+  "rationale": "Composite is flat (8.2% conf, score -0.068) and every per-TF score is tiny; the only 'signal' is a vol-3.14 breakdown that already spent itself \u2014 RSI 19-24, stoch 8.7, %B -0.296, price 2 pts off support 425.72. That is the exact late-short-into-stretched-tape pattern this book loses on, and TSMC earnings Jul 16 plus CPI tomorrow are binary landmines. No honest R:R exists here; stand aside and let 425.72 decide direction.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 425.72,
+    "expires_min": 240,
+    "note": "Losing support 425.72 confirms the flush has legs and opens a valid continuation short on any weak retest toward 428; holding above it keeps this dead-oversold chop untradeable."
+  },
+  "transcript": {
+    "macro": "Env MIXED-to-SHORT-biased. June CPI Tue Jul 14 08:30 ET inside 48h. TSM: the outlier \u2014 structure_bias +0.188 (only meaningfully positive name), OB +0.568 (strong bid), L/S 0.94 (balanced), BUT ADX 8.4, regime=CHOP, regime_blocked=TRUE, RSI 45.9, rel-strength +18.09 (top performer). Macro verdict: NO TRADE \u2014 dead chop + TSMC earnings landmine. Stand aside.",
+    "sentiment": "TSM bullish setup INTO a hard binary: TSMC Q2 earnings Thu Jul 16 2:00 ET (week's marquee event). Q1 guide set bar high: Q2 rev $39-40.2B (~10% QoQ), GM 65.5-67.5%, FY growth >30% on robust AI demand; watch CoWoS/advanced-packaging + N2. Any position held into earnings carries direct gap risk \u2014 size down or flatten before Jul 16. Taiwan geopolitical tail-risk (background).",
+    "analyst": "Composite flat (8.2% conf), per-TF tiny; only 'signal' is a vol-3.14 breakdown that already spent itself (RSI 19-24, stoch 8.7, %B -0.296) with price 2 pts off support 425.72. Shorting the flag chases into hard support + deep-oversold = the book's loss pattern; no long trigger either. TSMC earnings Jul 16 + CPI tomorrow are binary landmines. HOLD; short only on a confirmed break of 425.72.",
+    "portfolio": "HOLD TSM \u2014 regime_blocked chop + earnings landmine; no tradeable R:R, short only on a 425.72 break."
+  },
+  "timestamp": "2026-07-13T14:07:44.125848+00:00"
+}

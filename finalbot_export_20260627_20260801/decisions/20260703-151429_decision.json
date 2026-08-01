@@ -1,0 +1,25 @@
+{
+  "action": "hold",
+  "symbol": "INTC/USDT:USDT",
+  "size": 0,
+  "entry": 123.76,
+  "stop_loss": 125.3,
+  "take_profit": 120.0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "expectancy_note": "p(win) on chasing the 123.8 breakout is low (extended, %B 1.10, RSI 68 + bearish div, regime-blocked squeeze, sector risk-off); short-fade is better-aligned but no rejection yet and US cash closed = thin/gappy holiday tape w/ Monday gap risk. HOLD has the best expectancy; wait for confirmation.",
+  "rationale": "INTC is pinned at resistance 123.8 with %B 1.10, stoch 93, RSI 68 and a bearish divergence on a 5.8x-volume holiday pop that the composite regime-blocks as a squeeze \u2014 a classic chase trap, and the 4h score is -0.41. Macro and sentiment are both bearish into an active semi rout, and crowd is net long (1.78 L/S), which is fade fuel not trend fuel. But US cash markets are CLOSED (July 3), so this weekend tape has no price discovery, is thin and gappy with real Monday gap risk both ways, and price has not actually rejected yet \u2014 shorting blind here is a donation. Sit flat; arm a short on confirmed failure of the pop (lose 122.7 support) and stand aside on a clean reclaim/hold above 123.8.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 122.7,
+    "expires_min": 240,
+    "note": "losing 122.7 support confirms the 5.8x-volume pop into resistance failed and opens a cleaner short-fade aligned with the risk-off semi tape"
+  },
+  "transcript": {
+    "macro": "INTC/USDT tokenized Intel perp \u2014 judged as a semiconductor equity (BTC corr 0.26). REGIME: RISK-OFF for chips + US cash markets CLOSED July 3 holiday, reopen Mon July 6 09:30 ET \u2014 weekend tokenized tape has NO underlying price discovery, thin/gappy, Monday gap risk. July 2 close: SOX -6.7%, Micron ~-10%, Intel ~-9% on AI/chip unwind (valuation + Fed-hike fears); Nasdaq-100 -0.8%, money rotating out of high-beta semis. Derivatives: funding 0.0 (neutral), OI 25,983, long/short 1.78 (crowd net LONG = contrarian headwind), structure_bias -0.213, orderbook +0.06. Scan flags 15m long breakout (123.66, vol 5.81x) but composite regime-blocked 'squeeze', RSI 68 hot with bearish divergence, 4h score -0.41, resistance ~123.8. Low-liquidity holiday pop into resistance, not a clean trend. 24-48h lean: FLAT / fade rallies, do NOT chase breakout long; prefer WAIT for July 6 reopen.",
+    "sentiment": "Net sentiment 24-48h: BEARISH. Next earnings July 23, 2026 (3 weeks out, not same-cycle). Fresh price shock: after ~270% H1 rally to 52wk high ~$140, INTC rolled over \u2014 down ~9% Wed to ~$127, another ~5-6% Thu to ~$120; active multi-day sector-wide selloff. Bearish live drivers: broad semi rout (Micron -13%, AMD -7%, TSMC -6%), hawkish Fed under new Chair Warsh, BofA 'bubble risk' flag, INTC ~147x fwd earnings valuation reset. Bullish narrative is LONG-horizon only (Apple US foundry deal, 18A-P risk production, ~10% US govt stake, PT hikes Cantor $150 / Citi $130). Analyst consensus: Hold (19 Hold/7 Buy/2 Sell), consensus target ~$96-101 BELOW spot.",
+    "analyst": "Tokenized Intel, judged as a semiconductor equity into a risk-off sector rout. The scan's 15m long breakout at 123.66 on 5.81x volume is a low-liquidity holiday pop into resistance 123.8, not a clean trend: composite is regime-blocked 'squeeze' with a slightly negative blended score, price is above the upper Bollinger band (%B 1.10), stochastic 93 and RSI 68 are overbought, and there is a bearish divergence, while the 4h score is -0.41. Structure leans short (long/short 1.78 with the crowd net long = contrarian headwind, structure_bias -0.21). Directionally a fade is better aligned than a chase, but with US cash markets closed for July 3 there is no underlying price discovery \u2014 the weekend tape is thin, gappy, and carries Monday-July-6 gap risk in both directions, and price has not yet rejected the level. The highest-expectancy action is to stay flat and let the tape confirm: a decisive loss of 122.7 support proves the pop failed and opens a cleaner short, while a genuine reclaim and hold above 123.8 would invalidate the bearish fade and warrant standing aside.",
+    "portfolio": "INTC \u2192 HOLD (conf 0.60): flat into thin holiday tape; arm short on loss of 122.7, stand aside on reclaim/hold above 123.8."
+  },
+  "timestamp": "2026-07-03T15:14:29.827636+00:00"
+}

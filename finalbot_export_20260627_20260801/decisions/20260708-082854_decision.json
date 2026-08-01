@@ -1,0 +1,26 @@
+{
+  "symbol": "BTC/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.55,
+  "size": 0.0,
+  "entry": 62230.0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "forecast": "Fresh high-volume flush closed at 62,230 lows; next 1-3 bars likely a reflex bounce toward 62,600-62,800 (short-cover) OR continuation to 62,000/61,700. No edge either way until price picks a side; FOMC minutes pending today.",
+  "expectancy_note": "p(win) ~0.5 either direction; R:R poor because no structural level near entry (support 57,755 far below) and a binary catalyst is live - HOLD dominates.",
+  "rationale": "Price flushed on the heaviest volume of the sequence and closed on its lows, but it is mid-range (support 57,755 / resistance 64,703), lower-TF RSI is 26-28 (oversold - bad short entry, no long confirmation), and FOMC minutes hit today. Learner stats show shorts win often but bleed avg PnL by chasing oversold flushes that bounce, so I won't add to that. Wait for a 62,700 reclaim (flush was a stop-run -> long) or a confirmed lower-high rejection below 62,200 (-> short toward range low).",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 62700,
+    "expires_min": 240,
+    "note": "Reclaiming the pre-flush 62,700 shelf proves the flush was a stop-run and opens a long toward 63,000."
+  },
+  "transcript": {
+    "macro": "Risk-on w/ intraday wobble; DXY<102; Fed on hold, first cut ~Sept; BTC.D 55.5%, crypto funding moderate (~0.009%), no euphoria. BTC ~62,230 intraday flush, RSI 26-41, structure_bias -0.16; bounce to ~64k was short-covering not trend. Near-term MIXED-to-SHORT, downside capped by weak DXY; L/S long-skewed (squeeze risk down).",
+    "sentiment": "Catalyst TODAY: June FOMC minutes (Jul 8) is the swing factor. Crypto F&G fearful-to-neutral. ETF flows flipped to net inflows early July (+$221M single-day, ending 10-day/$2.73B outflow streak); MSTR sold 3,588 BTC (~$216M) Jul 6 - already priced. No imminent binary; macro is swing factor. Neutral.",
+    "analyst": "Heavy-volume flush closing on lows but mid-range with oversold lower-TF RSI and a live FOMC binary; no clean long or short. Wait for 62,700 reclaim or a lower-high rejection under 62,200.",
+    "portfolio": "HOLD BTC - mixed structure into today's FOMC minutes, no edge; long trigger armed on 62,700 reclaim."
+  },
+  "timestamp": "2026-07-08T08:28:54.448990+00:00"
+}

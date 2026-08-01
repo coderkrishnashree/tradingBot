@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "SOL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.55,
+  "playbook": "none",
+  "forecast": "Price stalled at 76.6-76.7 after a push off 75.6; next few 15m bars likely chop 76.1-76.6 and drift toward VWAP/75.9, no clean edge either way until 76.7 reclaims or 75.3 breaks.",
+  "expectancy_note": "Long chases fading momentum at range-top (BB %B 0.84, +1.27% VWAP) into risk-off + crowded 2.70 L/S; short fights ADX 36.8 uptrend above 73.3 support and shorts are this account's losers (49% win, -0.84 avg). Neither clears R:R 1.5, so HOLD is highest expectancy.",
+  "rationale": "SOL is BTC-beta (corr 0.80), lagging (-5.55%), crowded long (structure_bias -0.30) into a RISK-OFF tape - a poor long chase near 76.7 resistance with momentum fading bar-by-bar, and shorts have consistently bled this book. The tape is mid-range chop between 73.3 support and 79.0 resistance with no confirmed trigger. No size until price picks a side.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 76.72,
+    "expires_min": 240,
+    "note": "A volume reclaim of the 76.7 swing high resolves the stall upward and validates a trend-continuation long toward 78-79; below it, the fade/lag thesis stands."
+  },
+  "transcript": {
+    "macro": "RISK-OFF/MIXED tape into July 20. SOX bear market on AI-capex angst. Crypto is beta-follower of equities; BTC dominance ~56% (1-mo low ~54% intraweek, mild alt rotation), Coinbase Premium negative ~50 days = weak US spot demand. SOL: L/S 2.70 crowded-long (structure_bias -0.30), funding benign, lagging BTC (rel strength -5.55%), 0.80 BTC-corr. Biggest risk: Monday cash-open gap-down continuation of chip selloff.",
+    "sentiment": "SOL bearish/neutral. ~$76, technically weak, pinned on $74-75 support; breakdown to $68-70 is near-term risk if support cracks. Network clean; Alpenglow upgrade + ETF fee war are Q3+, not 48h catalysts. No near-term catalyst to force a move.",
+    "analyst": "Composite long 58.6% but conflicting: BTC-beta, lagging, crowded-long into risk-off, RSI/%B elevated near range-top with fading momentum. Long chases into fading momentum (bad expectancy); short fights intact ADX 36.8 uptrend and shorts bleed this account (49% win, -0.84 avg). Mid-range chop 73.3-79.0. HOLD, arm bullish reclaim of 76.72.",
+    "portfolio": "HOLD SOL - no clean edge; armed to re-debate a 76.72 reclaim."
+  },
+  "timestamp": "2026-07-20T10:45:52.130981+00:00"
+}

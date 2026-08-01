@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "TSM/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "trend",
+  "forecast": "15m RSI 19.3 (deeply oversold) with price sitting right at VWAP argues for a dead-cat bounce toward 440-441 over the next 2-6 bars; that retest of broken support / VWAP is the honest short entry, not chasing 437.79 into the low.",
+  "expectancy_note": "Shorting now: RSI 19 LTF + 0% VWAP dist = high odds a counter-bounce stops me before 425.72 support (2.7 ATR away). Waiting to short the ~440-441 retest gives ~1.8R with the 4h downtrend; better expectancy than chasing.",
+  "rationale": "The 4h/1h structure is genuinely bearish (blended -0.447, ADX 30.8, structure_bias -0.47, RS -5.8%, heavy offer -0.766) so the bias is short, but the 15m is deeply oversold (RSI 19.3) and price is exactly at VWAP - not extended - so a market short here is the account's classic late-short-into-a-bounce loss. The correct trade is to short a rebound into 440-441 (broken support / VWAP turned resistance) with a stop above 442.8 and a target back toward 431/425.72, which I can only take once price rebounds. Holding flat until that retest; any short must also be fully closed before the July 16 earnings binary - no carry into the print.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 440.2,
+    "expires_min": 240,
+    "note": "A bounce back to ~440 (VWAP/broken-support retest) with LTF oversold relieved is the honest short entry into the 4h downtrend; crossing it re-arms the short with a tight stop above 442.8."
+  },
+  "transcript": {
+    "macro": "Regime MIXED/risk-cautious: higher-for-longer Fed (~69% odds Sept HIKE), DXY firm ~100.7-101, May CPI 4.2%. TSM low BTC corr (0.15). Semis fundamentals constructive (AI/chip demand robust, TSMC guided Q2 rev $39-40.2B, raised FY26 growth >30%, held up vs NVDA -13% 30d) BUT scan flags 4h downtrend, structure_bias -0.47 (L/S 1.8 crowded-long, orderbook -0.77 heavy offer), tape ~437.8. DECISIVE: Q2 earnings July 16 - do NOT carry into it. Tokenized equity gappy overnight. Catalysts: US June CPI July 14, TSMC Q2 July 16. Backdrop argues smaller size, tight time-stops, no carry into July 16.",
+    "sentiment": "TSM BULLISH fundamentals but HIGH near-term BINARY event risk. TSMC Q2 earnings Wed July 16 (~$3.80 EPS/ADR, ~$40.0B rev); May rev +30% YoY; Citi/UBS raised targets. Price heavy (short bias, RS -5.8%) = pre-earnings de-risking. A fresh short runs INTO an earnings binary that can gap +/-5-8% overnight; guidance-raise could squeeze shorts. Taiwan geopolitics = background noise. Favor smaller size/faster horizon, be flat before the print.",
+    "analyst": "4h/1h structure genuinely bearish (blended -0.447, ADX 30.8, structure_bias -0.47, RS -5.8%, heavy offer -0.766) so bias is short, but 15m is deeply oversold (RSI 19.3) and price exactly at VWAP (dist -0.03%) - not extended below it. Support 425.72 is 2.7 ATR away. A market short at 437.79 into RSI 19 is the account's classic late-short-into-a-bounce loss. Honest entry is to short a rebound into 440-441 (broken support / VWAP turned resistance) with stop above 442.8, target 431/425.72. HOLD-for-better-entry; earnings July 16 is not the direct blocker (a short today closes well before) - the LTF oversold + at-VWAP is.",
+    "portfolio": "TSM/USDT:USDT -> HOLD (conf 0.50): bearish structure but 15m oversold at VWAP; wait to short the 440-441 retest, no carry into July 16 earnings."
+  },
+  "timestamp": "2026-07-10T07:58:52.727770+00:00"
+}

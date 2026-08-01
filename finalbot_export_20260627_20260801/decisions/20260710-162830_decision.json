@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "GOOGL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price is basing just above 351.78 support after a fading down-impulse; last 7 bars printed higher-lows (353.6 to 355.5) on shrinking ranges with 5m flipping long. Expect chop 353.5-356.6 into US open, resolving on a break of 351.78 (down) or VWAP ~362 reclaim (up) rather than a clean next-candle move.",
+  "expectancy_note": "Short here (RSI34, stoch22, -1.94% vs VWAP, into support, risk-on tech open) is the account's classic late-short-stopped-by-bounce loss; counter-trend long fights ADX67 + orderbook -0.711. Neither clears R:R>=1.5 with an honest stop; HOLD is highest expectancy.",
+  "rationale": "Strong 15m-1h down impulse (ADX 67) but price is now stretched and basing on shrinking ranges just above 351.78 support with 5m momentum flipping long and volume drying \u2014 wrong spot to chase a short, wrong tape (risk-on mega-cap open) to fade a quality name. A counter-trend bounce long into heavy ask imbalance (-0.711) and a down-trend is low-probability. Wait for the base to resolve. No size until a level confirms direction.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 351.78,
+    "expires_min": 240,
+    "note": "Losing 351.78 support breaks the base and confirms continuation of the down-impulse \u2014 re-debate to short the retest of broken support rather than chase; a VWAP ~362 reclaim would instead argue the bounce long."
+  },
+  "transcript": {
+    "macro": "Regime mildly RISK-ON, tech-led (Nasdaq near records, AI/semis leading). GOOGL crypto-irrelevant (btc_corr 0.13). Q1 blowout, favored AI mega-cap. Earnings 2026-07-22 after-close (~12d out, do NOT hold swing into it). Derivs: funding +0.00045, OI 4715, L/S 1.735 (long-skewed), orderbook -0.711 (heavy ask), structure_bias -0.615. Price pressing lows, RSI ~36, ADX 67 down impulse, rel-strength -2.2% vs BTC. Verdict: MIXED, lean STAY-OUT / small tactical short only; snapback risk high.",
+    "sentiment": "Mixed, leaning cautious. Dominant catalyst = Q2 earnings Wed Jul 22 after close (~12d out, outside horizon). Tape soft: down ~5% on week to ~$345, ~12% off May high on AI-capex-return worries + 'AI researchers leaving Google' narrative. Overhangs structural not imminent (DOJ appeal, ad-tech ruling, EU Android fine already priced). No clean <=48h catalyst; neutral-to-slightly-bearish drift, not a shock. Verdict: MIXED / mild-bearish drift \u2014 trade the tape, not the news.",
+    "analyst": "Strong 15m-1h down impulse (ADX 67) but price now stretched/basing on shrinking ranges just above 351.78 support; last 7 bars printed higher-lows (353.6->355.5), 5m flipped long (RSI 65.7), volume drying. Wrong spot to chase a short (RSI34/stoch22/-1.94% VWAP/into support/risk-on open = classic late-short-stopped-by-bounce). Counter-trend long fights ADX67 + orderbook -0.711. Neither clears R:R>=1.5 with honest stop. HOLD highest expectancy; trigger = break of 351.78 (short retest) or VWAP ~362 reclaim (bounce long).",
+    "portfolio": "GOOGL: HOLD (conf 0.60) \u2014 base-vs-breakdown unresolved at 351.78 support; no size until a level confirms."
+  },
+  "timestamp": "2026-07-10T16:28:30.763423+00:00"
+}

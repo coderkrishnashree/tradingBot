@@ -1,0 +1,25 @@
+{
+  "symbol": "SOL/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.5,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "rationale": "SOL 4h trend is up (RSI 64, ADX 40, best RS on board +7.9%) and macro is risk-on, so I won't short a leader - but the 15m tape just rejected 79 twice on fading volume and is drifting lower while extended (+2% vs VWAP, stoch 83, %B 0.875). Market-buying here has poor R:R; the honest stop must sit below 77 and price is near the top of the move. Learner stats penalize exactly this (high vwap_dist, crowded L/S 2.58, extreme RS). Disciplined play: wait for the pullback to the 77.3-77.4 breakout base and buy the hold/reclaim there. Size 0.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 77.3,
+    "expires_min": 240,
+    "note": "A dip into the 77.3-77.4 breakout shelf/VWAP is the buyable pullback - re-debate to go long on a hold/reclaim there; if it slices toward 76.4 the long thesis weakens instead."
+  },
+  "transcript": {
+    "macro": "RISK-ON, BTC ~$63.7k, dominance ~59-60% (mild alt headwind). SOL lean LONG/SUPPORTIVE-to-MIXED: scan long (blended +0.363), 4h up, RSI 64, strongest RS +7.9% vs BTC. Highest BTC-corr 0.76 = a BTC-beta long that lives/dies with BTC ~$63-64k. L/S 2.58 crowded-long (contrarian caution).",
+    "sentiment": "SOL mildly BULLISH tone / no hard 48h catalyst. ETF cumulative inflows crossed $1B, Firedancer v1.0.0 testnet, Alpenglow finality upgrade progressing (mainnet late Q3/Q4 - long horizon). Network fundamentals healthy (~7M active addresses). No unlock/delisting in window. Momentum/crypto-beta trade, not a news trade.",
+    "analyst": "Strongest horse (RS +7.9%, 4h uptrend, RSI 64, ADX 40) with a constructive backdrop, so shorting a leader is wrong. But this BTC-beta long (corr 0.757) is currently extended: +2.04% above VWAP, stoch 83, %B 0.875, and the 15m sequence is rolling over - spiked to 79.01 on 426k vol, then a heavy red bar back to 78.07 and lower highs under 79 on fading volume. Buying 78.17 into that fade with L/S crowded 2.58 is the 'enter continuation after the move' pattern the account keeps losing on. Higher-expectancy path: let the pullback come to the 77.3-77.4 breakout base/VWAP for a tight ~1xATR stop under 76.9 and a clean 2.5R+ run at 79 then 82.75. Armed reconsider at 77.30.",
+    "portfolio": "SOL: HOLD, size 0 - strongest leader but extended/crypto-beta; armed to buy the 77.3 pullback. conf 0.5."
+  },
+  "timestamp": "2026-07-15T15:07:00.025282+00:00"
+}

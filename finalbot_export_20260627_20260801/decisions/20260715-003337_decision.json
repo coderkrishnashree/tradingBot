@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "MU/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.62,
+  "playbook": "none",
+  "forecast": "Price is a vertical 15m spike into the $1,000 round handle: stoch 99.9, 5m RSI 89.8, +5.3% above VWAP (~1.8xATR). Base case is a pullback/mean-revert to the 990-994 breakout retest within 2-6 bars, not immediate continuation; a clean reclaim/hold of 994 on a pullback is the long trigger.",
+  "expectancy_note": "Chasing here has p(win)~0.4 and negative expectancy (routine bounce/fade hits any honest stop first); waiting for the 994 retest turns a bad chase into a ~2R trend-pullback long. 4h ADX 1.1 = chop, no trend to ride.",
+  "rationale": "MU just printed a stretched 15m breakout into $1,000 with stoch pegged 99.9 and 5m RSI 89.8, +5.3% over VWAP with 4h ADX 1.1 (no higher-TF trend) \u2014 exactly the extended-chase setup this account keeps losing on (model weights punish high vwap_dist/atr/aligned). Fresh short is wrong direction into a strong leader with flat funding and no exhaustion signal. US market closed + Warsh testimony + 5yr-high SOX vol add gap risk. Best expectancy is to wait for the pullback to the 990-994 breakout retest and buy the reclaim, so I hold with that trigger armed.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 994.0,
+    "expires_min": 180,
+    "note": "A pullback into the 990-994 breakout-retest zone that holds/reclaims offers a real trend-pullback long entry with a tight stop under 988 instead of chasing the extended spike."
+  },
+  "transcript": {
+    "macro": "RISK-ON, tech-led (2026-07-15 00:29 UTC). Soft June CPI 3.5% (vs 3.8%) cut hike odds to ~15%; semis led July 14 (SMH +2.5%, SOXX +3%), MU jumped. SOXX vol at 5yr high, MU flagged top swinger. MU/USDT 1000.87: funding 0.0 (no crowding), OI 14,330 healthy, L/S 1.467 (mild long), orderbook +0.12, structure_bias -0.105 (near neutral). Fresh 15m breakout (996.97, vol_ratio 1.72) into $1,000 but stoch 99.9 / 5m RSI 89.8 very extended; 4h ADX 1.1 (chop); vwap_dist +5.3%; ATR 2.9%. Fundamentals strong ($1T mkt cap, sold out through 2026-27, Anthropic HBM deal, KeyBanc PT raise 7/14). Env: supportive-to-mixed for longs, hostile for shorts; biggest risk = event/session (US cash closed, thin/gap-prone, Warsh testimony 10am ET). Size smaller; buy pullbacks not the extension.",
+    "sentiment": "MU tilt BULLISH (leader). Surging 7/14 on multi-year Anthropic AI-memory partnership (primary HBM/storage supplier), 'sold out' HBM through 2026, >$250B US fab investment. PTs raised (KeyBanc $1,750, Citi $1,400, avg ~$1,486; 29-analyst Buy) \u2014 long-horizon, low weight. No <=48h dated catalyst; driver is momentum + sector flow. Risk: extended after Anthropic pop, crowded long, 'prices cooling' headline or chip sell-off could snap back (recent ~22% pullback). Sector prices still rising but decelerating; CEO expects shortage through 2027.",
+    "analyst": "MU ~2% vertical over last ~5 bars into the $1,000 handle, fresh 15m breakout above 996.97 but stoch 99.9 / 5m RSI 89.8 / +5.3% over VWAP (~1.8xATR) = classic chase-into-round-number. 4h ADX 1.1 = no trend, regime_blocked. Learner weights punish high vwap_dist/atr/aligned \u2014 exactly this setup. Fresh short fights a strong leader with flat funding and no exhaustion candle. Best expectancy: wait for the 990-994 breakout retest and buy the reclaim with a stop under 988.",
+    "portfolio": "HOLD MU/USDT:USDT \u2014 no clean entry; armed pullback-buy trigger below 994 (conf 0.62)."
+  },
+  "timestamp": "2026-07-15T00:33:37.730900+00:00"
+}

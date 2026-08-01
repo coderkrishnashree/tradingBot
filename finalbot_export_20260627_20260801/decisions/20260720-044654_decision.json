@@ -1,0 +1,26 @@
+{
+  "symbol": "QQQ/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.6,
+  "size": 0.0,
+  "entry": 699.99,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "forecast": "Coiling flat 697-700 just under the 701 rejection; expect it to keep chopping until it either loses the 696.4 shelf (opens a slide toward 688 support) or the tape stabilizes. No directional edge until 696.4 breaks.",
+  "expectancy_note": "No trade beats both: long is chasing RSI 72.9/%B 0.95 into a risk-off leadership rout (account's #1 loss pattern); short has no trigger yet and ATR 0.25% gives no room until 696.4 gives way. Neither clears R:R>=1.5.",
+  "rationale": "QQQ is a tokenized equity extended into a documented RISK-OFF session (Nasdaq -1.5% Fri, VIX rising) with GOOGL 7/22 AMC as a binary read-through for the whole complex. RSI 72.9, %B 0.948, stoch 85.3 all overbought while the last ~12 bars just chop 697-700 under the 701 rejection with fading volume - no momentum to buy, no confirmed breakdown to short. Buying is the late-chase-into-weak-tape pattern that bleeds this book; want 696.4 to lose before shorting the risk-off slide toward 688.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 696.4,
+    "expires_min": 240,
+    "note": "Losing the 696.4 intraday shelf confirms the overbought rollover in a risk-off tape and opens a short toward 688 support."
+  },
+  "transcript": {
+    "macro": "RISK-OFF/defensive 2026-07-20. Fri 7/17 ugly (Nasdaq -1.5%), VIX ~16.7 rising. QQQ RSI 72.9 / %B 0.95 - EXTENDED into a down tape, thin OI (7779). Index-beta long fighting risk-off. Semis rout + AI-capex fears pressuring Nasdaq leadership.",
+    "sentiment": "2026-07-20. QQQ bearish near-term tone: Nasdaq leadership under pressure on AI-capex angst; GOOGL 7/22 AMC print is the swing event for the whole complex. RSI stretched into a weak tape.",
+    "analyst": "HOLD (conf 0.60). Overbought (RSI 72.9, %B 0.95, stoch 85.3) into a risk-off leadership rout while chopping 697-700 under the 701 rejection. Long is the late-chase loss pattern; short has no trigger and ATR 0.25% gives no room until 696.4 breaks. Short the rollover on a 696.4 loss toward 688.",
+    "portfolio": "QQQ - HOLD (conf 0.60): overbought into risk-off; short on a 696.4 break, GOOGL 7/22 is the read-through."
+  },
+  "timestamp": "2026-07-20T04:46:54.364008+00:00"
+}

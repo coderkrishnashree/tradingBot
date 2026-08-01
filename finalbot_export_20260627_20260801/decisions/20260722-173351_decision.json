@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "HOOD/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.58,
+  "playbook": "none",
+  "forecast": "Price is coiling ~106.0 mid-range after the 106.9 impulse; expect a push to retest the 106.7-107.0 bearish-divergence rejection high within 2-6 bars, which in this risk-off/crowded-long tape should fail and roll back toward VWAP ~103.1. I want to short that retest, not chase the current 106 mid-range.",
+  "expectancy_note": "Fade-at-resistance short from ~106.9 to VWAP 103.1 vs stop 107.5 = ~3.7R at ~55% p(win); beats a market short at mid-range 106 (would get chopped by live 5m momentum score 0.9) and beats any long (bearish 4h divergence + hostile hawkish-Fed, F&G 29, crowded long 1.89).",
+  "rationale": "HOOD is a high-beta risk/crypto proxy sitting +2.81% above VWAP with RSI 60/stoch 77 and a fresh 4h bearish divergence at ~106, in a risk-off hawkish-Fed tape with books crowded long (L/S 1.89) - a textbook fade backdrop, but price is mid-range, not yet at the level, and 5m momentum is still up (score 0.9), so a market short here risks the noise poke to the highs. The clean, high-expectancy trade is a fade of the 106.7-107.0 retest, so I hold and arm the trigger rather than chase. No size committed until price reaches the level.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 106.9,
+    "expires_min": 240,
+    "note": "A push back into the 106.7-107.0 bearish-divergence rejection high is my short entry zone - re-debate to fade toward VWAP ~103.1 with stop above 107.5; conversely a decisive 4h close above there would kill the short thesis."
+  },
+  "transcript": {
+    "macro": "Regime MIXED-to-HOSTILE, defensive. Hawkish Fed under Warsh (2026 hike risk, DXY ~101). Crypto risk-off: F&G 29. GOOGL/TSLA/IBM earnings after close today. Books crowded LONG, structure_bias negative. Reduce size. HOOD: high-beta risk proxy (corr COIN 0.72) in a risk-off tape, 4h bearish divergence, crowded long - lean short/fade, avoid fresh longs.",
+    "sentiment": "HOOD neutral now; earnings Jul 29 AMC (just outside 48h window), analysts ~$0.41 EPS (-2.4% y/y), sell-side Strong Buy (17/25). Shareholder Q&A window opens today (Jul 22) - can generate headlines. Trades as a high-beta risk/crypto proxy into FOMC. Scan flags bearish divergence at ~$106. Lean neutral, drifts with crypto/risk beta.",
+    "analyst": "Last 106.05, ATR% 1.98, support 96.68 / resistance 116.66, RSI 60.2, stoch 77, VWAP +2.81%, 4h bearish divergence, L/S 1.889, orderbook +0.217. Impulse to 106.67 then coil 104.6-106.0 for ~15 bars. Textbook fade backdrop (extended over VWAP into divergence, risk-off, crowded long) but price is mid-range and 5m momentum still up (score 0.9) - a market short here risks a noise poke to the highs. Clean trade is a fade of the 106.7-107.0 retest. HOLD; arm short on a push above 106.9.",
+    "portfolio": "HOOD/USDT:USDT -> HOLD (conf 0.58): fade backdrop but price mid-range, 5m still up; arm short on retest above 106.9 toward VWAP 103.1."
+  },
+  "timestamp": "2026-07-22T17:33:51.323835+00:00"
+}

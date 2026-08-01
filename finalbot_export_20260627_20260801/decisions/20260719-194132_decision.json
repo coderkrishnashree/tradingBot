@@ -1,0 +1,25 @@
+{
+  "action": "hold",
+  "symbol": "COIN/USDT:USDT",
+  "size": 0.0,
+  "entry": 158.26,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.4,
+  "playbook": "none",
+  "forecast": "Dead, pinned tape: last three 15m bars printing 158.26 on ~zero volume, coiled 157.7-158.97. Expect low-volume chop until Monday US open; real direction (tracking soft BTC) only resolves on the cash reprice, with two-sided gap risk.",
+  "rationale": "COIN is a tokenized equity with US cash CLOSED (Sunday) \u2014 near-zero volume, price frozen at 158.26, Monday gap risk. Setup is genuinely two-sided (4h short vs 5m long, both at RSI extremes) with low unaligned conviction (composite short -0.341, aligned 0.95, 40% conf), and the learner shows this account bleeds on unaligned shorts while structure tilt is mildly long (crowded shorts, bias +0.081). No <=48h binary forces action. Sitting flat is highest-expectancy; size 0.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 157.7,
+    "expires_min": 600,
+    "note": "Losing the intraday base low 157.7 on returning Monday liquidity confirms the 4h/15m/30m short into soft crypto and turns the coil into a real breakdown toward support 152.88."
+  },
+  "transcript": {
+    "macro": "2026-07-19 Sun, US equities CLOSED, tokenized perps thin/gappy, Monday gap risk. Risk-OFF, crypto soft BTC low-$60Ks. COIN composite SHORT -0.341 NOT aligned; L/S 0.767 (shorts crowded, mild long tilt bias +0.081). 4h short vs 5m long mixed. High BTC corr 0.64 caps upside. Two-sided, lowest conviction of group.",
+    "sentiment": "COIN neutral/slightly bearish. Dragged with CRCL after Visa backed rival stablecoin Open USD (Jul 16); crypto-equity pressure as BTC struggles near $65k. Offsetting positives longer-horizon (System Update suite). No hard <=48h binary; tracks BTC/crypto-equity sentiment \u2014 soft.",
+    "analyst": "Dead pinned tape, near-zero volume, price frozen 158.26. Composite short unaligned/low conf, contradicted by hot 4h RSI 75.6 and 5m long RSI 89. Account shorts lose; structure mildly long. No forced binary. HOLD; arm short below 157.7 on returning liquidity.",
+    "portfolio": "COIN: HOLD \u2014 no edge, dead illiquid two-sided tape; short only on a break below 157.7."
+  },
+  "timestamp": "2026-07-19T19:41:32.911083+00:00"
+}

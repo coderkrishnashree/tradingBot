@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "TSM/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.3,
+  "playbook": "none",
+  "forecast": "Weekend chop pinned at VWAP ~437.5 on near-zero volume; expect continued 437-438.5 drift into Monday's gap-reset. No directional edge until price either loses 434 (sellers confirmed, path to 425.7) or reclaims 440.5.",
+  "expectancy_note": "No entry with R:R>=1.5 exists mid-range at VWAP; fading nothing and chasing a thin-liquidity short into a green-semis Monday gap is negative expectancy. HOLD beats both.",
+  "rationale": "TSM is dead-center of its range (BB %B 0.44, RSI 47.5, price AT VWAP) on microscopic weekend volume \u2014 no extreme to fade and no pullback-to-level for a trend entry, so any short here is a mid-air chase. The bear tells (4h down, orderbook -0.77 offered, structure_bias -0.47) are real but need price to break structure first. Add Monday gap risk from firm Friday semis and the Jul 16 upside-skewed TSMC earnings binary, and the highest-expectancy action is to wait for the 434 break to short with defined risk toward 425.7.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 434.0,
+    "expires_min": 240,
+    "note": "Losing 434 breaks the weekend micro-range and confirms the offered book, opening a clean short toward the 425.7 support with proper R:R."
+  },
+  "transcript": {
+    "macro": "Overall (2026-07-12): cautiously risk-on but thin; Wall St closed Fri green, semis firm (Nvidia +3.9%, strong SK Hynix listing); crypto rebound weak conviction, Fear&Greed ~23, BTC dom ~55%. Hard catalysts in 2-day window: US CPI Tue Jul 14, TSMC Q2 earnings Thu Jul 16 (2:00 ET). US equity CLOSED weekend -> TSM token thin/gappy off Friday close, gap-reset at Monday open -> smaller size. TSM: structure_bias -0.47 (most bearish of set), L/S 1.80, orderbook heavily OFFERED (-0.77) real sell pressure, OI very thin 3.5k, corr to BTC negligible 0.13, mixed intraday (30m/1h flat, 4h down). Biggest risk: do NOT hold size into Jul 16 print; semis strong Friday -> Monday open could gap against a short.",
+    "sentiment": "Overall tone risk-off, Fear&Greed ~23, hawkish Fed, CPI Tue Jul 14. TSM: HARD near-term binary \u2014 Q2 2026 earnings Thu Jul 16 pre-market (~4 days out). Guidance $39-40.2B rev / 65.5-67.5% GM, AI demand 'extremely robust', 4-quarter beat streak, Street 'Strong Buy'. Stock ran +40% last quarter, enters earnings extended. Near-term news argues CAUTION on a short: event risk upside-skewed; any position must respect Jul 16 print.",
+    "analyst": "TSM trades on semis/Nasdaq (BTC corr 0.13 negligible). Tape is a flat weekend drift pinned at VWAP (437.4-438.4) on near-zero volume, mid-Bollinger with neutral RSI 47.5 \u2014 no extreme to mean-revert and no pullback-to-structure for a trend entry, so any position now is a mid-air chase with sub-1.5 R:R. Genuine bearish edge (4h down -0.854, orderbook -0.77 offered, structure_bias -0.47) only pays on a range break; with Monday gap-up risk from strong Friday semis and the upside-skewed Jul 16 TSMC earnings binary, HOLD is highest-expectancy. Armed price_below 434 -> clean short toward 425.7 support.",
+    "portfolio": "HOLD TSM (conf 0.30) \u2014 mid-range at VWAP, no R:R; armed short trigger on loss of 434 toward 425.7."
+  },
+  "timestamp": "2026-07-12T18:01:55.169483+00:00"
+}

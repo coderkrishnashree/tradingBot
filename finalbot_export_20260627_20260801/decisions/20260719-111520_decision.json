@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "MSTR/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Extended into 4h RSI 75 / stoch 92 with a late-session bounce just rejected at 96.6; on thin Sunday tape expect chop 95.9-96.6 with real fade risk toward VWAP/95.0 before any clean continuation.",
+  "expectancy_note": "Long is extended (+2.36% VWAP, stoch 92) into crowded-long L/S 1.31 on a Sunday gap-risk tape; short fights ADX 43 uptrend. Both sub-1.5R; HOLD until a value pullback or confirmed breakout prints.",
+  "rationale": "MSTR is a BTC-beta echo (corr 0.745, RS only +0.77) trading extended into resistance while crowded long into a risk-off, US-cash-closed weekend \u2014 no market entry justified. A dip toward the 94.0-94.5 breakout base / VWAP would offer a clean trend-continuation long, or a decisive reclaim above 96.6 on volume would validate fresh momentum; neither is present. Size 0.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 96.62,
+    "expires_min": 240,
+    "note": "Clearing the just-rejected intraday high breaks the coil and reopens a trend-continuation long debate."
+  },
+  "transcript": {
+    "macro": "RISK-OFF, semiconductor-led selloff (Fri Jul 17: Nasdaq wk -2.9%), AI-capex confidence wobble; rates a mild tailwind (10Y ~4.55%, CPI 3.5%). SUNDAY \u2014 US cash closed, tokenized perps thin/gappy, gap-reconcile Monday; size down. Funding ~0 + heavily long-skewed L/S = crowded long into falling tape (contrarian bearish). Heavy earnings week (TSLA Jul 22, INTC Jul 23). MSTR: crypto-beta proxy (BTC corr 0.745), extended (RSI 75/stoch 92), neutral-to-cautious long only if BTC holds; no equity-tape support over weekend.",
+    "sentiment": "Disinflation tailwind (CPI +3.5%) vs semiconductor rout; earnings-gauntlet week, headline-heavy; Sunday off-hours thin/gappy. MSTR bullish-leaning, high BTC beta \u2014 bounced ~29% off late-June lows, holds 843,775 BTC, shrugged off small ~3,588 BTC sale, but volume fading. No hard <=48h catalyst; trades as 0.75-corr BTC proxy.",
+    "analyst": "Extended into 4h RSI 75/stoch 92, VWAP +2.36% into crowded-long L/S 1.31 while risk-off and US-cash-closed. Late bounce rejected at 96.6, last bar closed off its high. No pullback-to-value long entry and no clean short (strong ADX 43 uptrend). Chasing an extended long on thin Sunday tape is the account's #1 loss pattern. Highest-expectancy action: HOLD, arm reclaim-above-96.62 trigger for continuation long.",
+    "portfolio": "HOLD MSTR \u2014 extended BTC-proxy long into crowded, risk-off, off-hours tape; no clean entry, wait for pullback or 96.62 reclaim."
+  },
+  "timestamp": "2026-07-19T11:15:20.093740+00:00"
+}

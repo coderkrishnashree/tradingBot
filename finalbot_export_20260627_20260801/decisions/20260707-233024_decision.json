@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "META/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.55,
+  "playbook": "none",
+  "forecast": "Overnight thin-book drift; the last up-ticks to 617 came on near-zero volume after a fade from 624 to 615 \u2014 expect chop/mean-reversion toward VWAP ~602-605 over the next several bars rather than a clean break of 628.23 resistance.",
+  "expectancy_note": "No positive-expectancy entry: fresh long chases 4h RSI 83.7 / bb%B>1.0 / +2.5% above VWAP into offer-heavy crowded-long book (R:R<1.5 to 628 cap); shorting a strong ADX-45 uptrend into thin tape with no divergence is a knife-catch.",
+  "rationale": "META is the cleanest fundamental long in the scan (rotation beneficiary, RS +7.9%, uptrend all TFs, low BTC-corr) but the entry is terrible: extended into euphoria, jammed against the upper Bollinger band with resistance 628.23 only ~1.8% away, structure_bias -0.39 (crowded long, offer-heavy), and the 15m candles show momentum fading to a low-volume stall in a thin post-close book with Asia gap risk. Best expectancy is to wait for a pullback toward VWAP ~602-605 to buy the trend, or a confirmed breakdown; no honest 1.5R trade exists at 617. Size 0.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 604.0,
+    "expires_min": 300,
+    "note": "A controlled pull back to VWAP/prior shelf ~602-605 without breaking the uptrend gives a trend-continuation long with proper R:R toward 628+."
+  },
+  "transcript": {
+    "macro": "Regime HOSTILE for semis longs / supportive for shorts but mechanically risky on timing. July 7 chip/memory risk-off: Nasdaq -1.16%, Philly Semi -5%+, from Samsung record-Q2-but-priced-in + DeepSeek unveiling own AI inference chip; rotation OUT of semis INTO healthcare/financials/select big-tech (MSFT green). Memory is epicenter (MU/SNDK/WDC 'bear market'). Counter-narrative: UBS/BofA 'healthy reset' in a memory supercycle, HBM bottleneck into 2027 -> positioning washout raising squeeze risk on crowded shorts. Scan ran 23:25 UTC, ~3.5h after US cash close \u2014 thin/gappy overnight books, Asia-open gap risk; size down. BTC correlation low. META odd one out: rotation winner, RS +7.9%, uptrend intact but overbought (4h RSI 83.7, +2.5% above VWAP) and derivatives contrarian-bearish (long/short 1.93, orderbook -0.38, structure_bias -0.39).",
+    "sentiment": "Overall tech/semis RISK-OFF, near-term bearish \u2014 memory/storage mid-correction after H1 run; trigger Samsung July 2 prelim Q2 (record profit but ~6% ahead -> profit-taking + supply-glut fears). META neutral-to-bullish: Q2 earnings July 29 (outside 48h) but extreme options IV; fresh + catalyst July 1 +8.8% on selling surplus GPU/compute to third-party devs; AI capex overhang ($125-145B 2026) long-horizon not a 48h mover; least exposed to memory rout; no hard catalyst inside 48h.",
+    "analyst": "META is the cleanest fundamental long (rotation beneficiary, strongest RS +7.9%, uptrend all TFs) but every quant check for a fresh long fails: 4h RSI 83.7, bb_pctb>1.0, +2.5% above VWAP = chasing an overbought extreme; structure crowded long / offer-heavy (bias -0.39); resistance 628.23 only ~1.8% overhead capping R:R below 1.5; 15m candles show momentum fading to a low-volume stall (final up-ticks on <1 unit volume) in a thin post-close book with Asia gap risk. A short is also unattractive \u2014 genuine ADX-45 uptrend, no bearish divergence, no rejection candle = knife-catch. Neither side offers >=1.5R cleanly. HOLD; wait for a pullback to VWAP ~602-605 to buy the trend, or a confirmed breakdown.",
+    "portfolio": "HOLD META \u2014 cleanest long thesis but a euphoric, capped, thin-tape entry; stand aside for a VWAP pullback (~602-605) or a confirmed breakdown."
+  },
+  "timestamp": "2026-07-07T23:30:24.768406+00:00"
+}

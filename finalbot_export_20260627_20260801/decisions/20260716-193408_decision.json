@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "META/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Frozen zero-volume print at 662.53 (off-hours). Next real session likely either a mean-revert bounce toward 668-671 VWAP/prior-support from 23-31 RSI oversold, or a continuation break of 662.34 on volume. No honest entry at the current low.",
+  "expectancy_note": "Short at 662.5 into 5m-RSI 23 / frozen liquidity = the late-short-into-stretched-tape that this account's shorts lose on (52% wr, -0.52 avg); no R:R>=1.5 exists at the low and a bounce hits any honest stop first. Long fights ADX-45 downtrend + risk-off Nasdaq. HOLD has best expectancy.",
+  "rationale": "META flushed 668->662.5 on the largest bar, but the last print is a zero-volume off-hours freeze and lower-TF RSI is 23-31 (deeply oversold), while 4h RSI 59.8 / MACD +5.67 shows no confirmed higher-TF breakdown. Selling the lowest thin print is exactly the chase pattern that bleeds this book; a valid short needs a bounce to 668-671 to fade, and a valid long needs the trend to break. Neither exists now, so I stand aside and arm triggers.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 662.34,
+    "expires_min": 240,
+    "note": "Losing the 662.34 flush low on real (non-zero) volume when the cash market is open confirms continuation and opens a clean momentum short instead of chasing the frozen print."
+  },
+  "transcript": {
+    "macro": "2026-07-16: Equities risk-off (Nasdaq -1.3%, chip-led AI/valuation jitters) backs the short side this session. META (tokenized Meta equity) last 662.53, structure_bias -0.21, orderbook_imbalance -0.503 (heavy sell-side), long/short 1.20, funding 0. ADX 45.5 strong down trend, RSI 26-31 lower TFs (stretched). Rel_strength +13.15% vs BTC, BTC-corr 0.39 \u2014 moves on its own equity story, trades with Nasdaq. Caveat: thin/gappy tokenized equity, illiquid off-hours; perp 662.5 is ~$18 below cash ~681. Keep intraday/market-hours. Earnings Jul 29 after-close (13 days out, outside window, don't carry into it).",
+    "sentiment": "Bullish underlying stock (cash +3.1% to $681 Jul 15, analysts Strong Buy avg PT ~$820) but longer-horizon, not a <=48h catalyst; a bounce back toward $681 cash is the main risk against a short. Earnings Jul 29 too far to trade. Tiny OI (~2,675) \u2014 treat perp levels with caution. Net near-term neutral; US equity direction drives the perp.",
+    "analyst": "Shorting here means selling the lowest print into 5m RSI 23 on frozen off-hours liquidity \u2014 the textbook late-short-into-stretched-tape that kills this book's losers, with a mean-revert bounce toward VWAP/cash-681 the obvious counter. 4h RSI 59.8 / MACD +5.67 shows no confirmed HTF breakdown. Long fights an ADX-45 downtrend + risk-off Nasdaq. HOLD until the market reopens with a continuation break of 662.34 on real volume, or a bounce to 668-671 to fade.",
+    "portfolio": "META/USDT:USDT \u2014 HOLD (0.6): frozen off-hours print, no honest entry at the low; wait for volume break of 662.34 or a bounce to fade."
+  },
+  "timestamp": "2026-07-16T19:34:08.371474+00:00"
+}

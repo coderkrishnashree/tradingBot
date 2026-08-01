@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "TSLA/USDT:USDT",
+  "size": 0.0,
+  "entry": 408.91,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Dead-volume stall at 408.4-409.7 just under resistance; expect chop/mild fade back toward VWAP ~402-404 over next few bars, not a clean breakout. No edge to enter mid-air here.",
+  "expectancy_note": "No entry clears R:R: long is +1.85% VWAP-extended into 420 resistance with crowded L/S 1.68 + sell-side orderbook -0.34 (chase = account's #1 loss pattern, trend-longs 44% win/-2.89); short lacks a rejection trigger in an ADX-46 uptrend. Wait beats both.",
+  "rationale": "TSLA is stretched (RSI 68.7, stoch 79, %B 0.75, +1.85% VWAP) and stalling on collapsing volume right under 420.22 resistance \u2014 a late continuation long is exactly the stretched-tape chase that has been bleeding this book, and structure (long-heavy L/S 1.68, orderbook -0.34, bias -0.31) argues the crowded side is the wrong side. There is no rejection candle to justify a fresh short into a strong ADX-46 uptrend, and US cash is closed (thin/gappy). Highest-expectancy action is to hold and let price come to a level: a rejection at 420 (short) or a pullback to VWAP ~403 (long).",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 404.0,
+    "expires_min": 240,
+    "note": "Losing 404 (VWAP/mid-range reclaim) confirms the crowded-long unwind has begun, opening a clean short toward 391 support instead of chasing mid-air."
+  },
+  "transcript": {
+    "macro": "Regime: broadly risk-on but semiconductor-driven and choppy; US cash equities CLOSED at 12:26 UTC scan (thin/gap-prone). Funding ~0 across all five. TSLA long-heavy (L/S 1.68, structure_bias -0.31) with NEGATIVE orderbook (-0.34) = crowded-long contrarian downside flag; no fresh delivery catalyst.",
+    "sentiment": "TSLA \u2014 mixed/bearish into a hard catalyst. Q2 deliveries 480,126 crushed ~406K consensus (+25% YoY) on July 2, yet stock fell ~7.5% \u2014 'good news, sell the fact' on BYD competition, weak margins (net income -47% YoY), stretched ~200x+ forward P/E. BIG binary: Q2 earnings July 22 (after debate window but looming) \u2014 focus on auto gross margin, regulatory credits, Cybercab. Sentiment polarized; near-term price action skews jittery/negative.",
+    "analyst": "Price 408.91, stalling in a dead-volume band 408.4-409.7 right under 420.22 resistance after a run; +1.85% above VWAP, RSI 68.7, stoch 79, %B 0.75 = extended/overbought. Composite long only 60% and structure contradicts it (L/S 1.68, orderbook -0.34, bias -0.31). Chasing this stretched long is the account's #1 loss pattern (trend-longs 44% win, -2.89 avg); no rejection candle for a fresh short into ADX-46 uptrend. HOLD; armed reconsider short below 404.",
+    "portfolio": "HOLD TSLA/USDT:USDT \u2014 extended, dead-volume stall under resistance; no edge either side; armed short trigger below 404."
+  },
+  "timestamp": "2026-07-11T12:30:55.044385+00:00"
+}

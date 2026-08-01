@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "TSLA/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Weekend thin tape: price keeps grinding the 408.4-409.7 band, drifting mid-range between 391 support and 420.22 resistance until Monday's cash open sets direction; no clean edge to either side before then.",
+  "expectancy_note": "Long fights structure_bias -0.367 (crowded L/S 1.67, orderbook -0.31) with no level to lean on; short fights a 4-TF uptrend (ADX 52). Neither clears R:R>=1.5 mid-range on near-zero volume \u2014 flat is best expectancy.",
+  "rationale": "TSLA is in a genuine multi-TF uptrend but sits mid-range (+1.11% VWAP, %B 0.69) with no pullback-to-level long entry and no range extreme to fade, on a weekend with US cash closed (thin/gappy, Monday gap risk). Structure bias (-0.367) and rate-hike macro headwind argue against chasing the crowded long; the delivery beat is already priced. No honest tight stop exists here, so R:R fails for both directions \u2014 wait for a real level.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 420.22,
+    "expires_min": 240,
+    "note": "A break/hold above 420.22 resistance confirms trend continuation and justifies a long on strength with a stop back inside the range; until then it's mid-range chop."
+  },
+  "transcript": {
+    "macro": "2026-07-12 (Sunday) regime cautious/mixed: Fed HELD Jul 8, signaled HIKE risk into year-end \u2014 headwind for long-duration growth; rotation OUT of AI names. WEEKEND: US cash CLOSED, equity perps thin/gappy, Monday gap risk. L/S lopsidedly long. TSLA: high-beta discretionary hurt by rate-hike repricing; earnings Wed Jul 22 (outside 48h). Scan direction long (+0.499) BUT structure_bias -0.367 against it, L/S 1.67 crowded long, orderbook -0.31. Biggest risk = crowded-long unwind.",
+    "sentiment": "TSLA: Q2 deliveries 480,126 +25% YoY, crushed ~406k consensus (Jul 2) \u2014 bullish shock ALREADY digested/priced. Q2 earnings Wed Jul 22 (outside window). No fresh <=48h binary. NEAR-TERM NEUTRAL-to-slightly-constructive; deliveries beat supports dips but no catalyst before Monday.",
+    "analyst": "Genuine multi-TF uptrend (ADX 52) but price mid-range at +1.11% VWAP / %B 0.69 \u2014 no pullback-to-level long, no range extreme to fade. Weekend/thin, Monday gap risk. Structure_bias -0.367 (crowded L/S 1.67, orderbook -0.31) + rate-hike headwind argue against chasing the crowded long; delivery beat already priced. No honest tight stop \u2192 R:R fails both ways. HOLD; long only on break/hold above 420.22.",
+    "portfolio": "TSLA: HOLD \u2014 no size; long trigger on reclaim of 420.22."
+  },
+  "timestamp": "2026-07-12T08:32:59.779635+00:00"
+}

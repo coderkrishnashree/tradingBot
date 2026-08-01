@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "SNDK/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Post-crash stabilization: price chops 1745-1785 for the next few bars; a fresh short only pays on either a bounce into 1793-1815 (VWAP/broken shelf) to fade, or a clean break of the 1707 crash-low to resume down. Right here (RSI 27, -4.5% below VWAP, at lower BB) a counter-bounce is more likely than immediate continuation.",
+  "expectancy_note": "Shorting here = late-short into stretched tape (RSI 27, lower BB, buy-side OB +0.37, shorts already crowded) = account's #1 loser (short-trend 45% win, -2.5R). No nearby level to fade long. Best EV is wait for the retest short or the breakdown confirm.",
+  "rationale": "SNDK just flushed -5% on huge volume and is now stabilizing mid-range at 1760, extended -4.5% below VWAP with RSI 27 and price at the lower Bollinger. Macro/theme favor short but the entry is chase territory: orderbook is +0.37 buy-side and L/S 0.85 means shorts are already crowded here, prime squeeze fuel, and CPI tomorrow is binary gap risk with 2.5% ATR. No clean structure to fade long. HOLD is highest-EV; I want a short on a bounce into 1793-1815 or on a confirmed break of the 1707 crash-low, not into the hole.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 1707,
+    "expires_min": 240,
+    "note": "Losing the 1707 crash-low confirms downtrend resumption (not a bounce) and opens a clean continuation short with the crash low as the pivot."
+  },
+  "transcript": {
+    "macro": "RISK-OFF tape (2026-07-13 15:28 UTC). US\u2013Iran strikes, Hormuz closed -> oil spiking, rate-HIKE fears, firm DXY. Equities down led by Nasdaq, memory/semis the epicenter. June CPI TOMORROW (July 14) = major 48h event risk. Funding ~0, L/S lopsidedly long (weak contrarian tell). Basket is one macro trade -> smaller size, tight risk. SNDK: supports SHORT thematically but MIXED on structure (structure_bias +0.16, shorts crowded HERE, orderbook +0.37 buy-side, 4h flat) \u2014 very high vol (ATR 2.5%), smallest size, widest stop.",
+    "sentiment": "US\u2013Iran/Hormuz shock + AI-bubble/glut fears = memory-stock selloff. SNDK: NEUTRAL, high-vol, bearish tilt short-term. Up ~635-767% YTD, extremely volatile; gapped down 7%+ on AI-spending-sustainability + Samsung/SK Hynix glut worries even as memory pricing stays strong. Earnings Aug 5 (outside window). No <=48h binary; parabolic + chip selloff -> near-term risk skews down.",
+    "analyst": "Just flushed -5% on huge volume, now stabilizing mid-range at 1760, -4.5% below VWAP, RSI 27, at lower BB. Macro/theme short but entry is chase territory: orderbook +0.37 buy-side and L/S 0.85 (shorts already crowded) = squeeze fuel; CPI tomorrow binary; 2.5% ATR. No clean level to fade long. HOLD (highest EV); short a bounce into 1793-1815 or a confirmed break of the 1707 crash-low, not into the hole.",
+    "portfolio": "HOLD SNDK \u2014 post-crash stabilization with squeeze fuel; short the retest or the 1707 break, not the flush."
+  },
+  "timestamp": "2026-07-13T15:34:44.529314+00:00"
+}

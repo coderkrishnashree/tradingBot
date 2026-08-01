@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "TSLA/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.35,
+  "playbook": "none",
+  "forecast": "After a sharp 3-bar flush (419.8 to 408.1) into 15m RSI 22 / 5m RSI 25, price prints a pause doji at VWAP near 409; expect a choppy oversold bounce/stabilization toward 412-414 over the next 2-4 bars rather than clean continuation, with no clean edge either way.",
+  "expectancy_note": "Shorting now chases a ~2xATR extended flush into deep oversold (poor p(win)); nearest fade support is 380 (~7% away, no level to lean on); longing a knife under risk-off macro is negative EV. Flat is highest expectancy.",
+  "rationale": "TSLA just broke down intraday but is deeply oversold on 15m/5m (RSI 22-25) and sitting exactly at VWAP with the last bar a pause doji, so an immediate short is late and mean-reversion risk is high; meanwhile 4h is still neutral-up (RSI 58.7) making the signal conflicting exactly as macro (short-lean, LOW conviction, chop) warns. There is no precise structure to fade against (support 380 far below) and no 48h catalyst. Sit out until price picks a side.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 407.5,
+    "expires_min": 240,
+    "note": "Losing the flush low with momentum confirms breakdown continuation toward 400/support and reopens a short; a reclaim back above 413 would instead argue the flush was exhaustion."
+  },
+  "transcript": {
+    "macro": "RISK-OFF, tech-led, but TSLA less semis-exposed \u2014 more its own thing. TSLA 409.07 rolled over intraday (from 418), 4h still neutral-up (RSI 58.7), structure_bias -0.10. Softer/messier signal than the semis. Macro bias SHORT-lean but LOW conviction, choppy, small only.",
+    "sentiment": "TSLA event risk ~2 weeks out, not 48h. Q2 deliveries (Jul 2) blowout 480,126 (+25% YoY, ~18% above consensus) yet stock fell 7.49% (sell-the-news), then bounced +6.6% Jul 6. Next hard binary Q2 earnings Wed Jul 22 after close (outside cycle). No 48h catalyst; momentum/tape-driven. Neutral.",
+    "analyst": "Sharp 3-bar flush 419.8->408.1 into 15m RSI 22 / 5m RSI 25, last bar a pause doji at VWAP ~409. Short is late (~2xATR extended, nearest support 380 far away); long is a knife under risk-off macro; 4h neutral-up conflicts with intraday roll. No edge. HOLD until a side resolves (below 407.5 short / above 413 exhaustion).",
+    "portfolio": "TSLA: HOLD (conf 0.35) \u2014 conflicted, oversold flush at VWAP, no clean level; flat until price picks a side."
+  },
+  "timestamp": "2026-07-07T14:25:18.989665+00:00"
+}

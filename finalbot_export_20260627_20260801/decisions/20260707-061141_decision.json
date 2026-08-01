@@ -1,0 +1,23 @@
+{
+  "symbol": "EWJ/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.34,
+  "size": 0,
+  "entry": 94.13,
+  "stop_loss": 96.65,
+  "take_profit": 91.43,
+  "rationale": "Composite tilts short (35% conf, blended -0.285, ADX 57.6) but this is a chase, not a setup: price sits at the lower Bollinger band (%B -0.08), 1h RSI printed 16 (extreme oversold) with a flagged BULLISH divergence on 4h, only ~0.6xATR above 91.43 support. Structure is mild-bearish but NOT crowded (funding flat, L/S 1.41, orderbook -0.017), so there is no fuel to force a break lower, and a short's stop would have to sit above VWAP/96.65 resistance, crushing R:R below 1.5. OI of just 1,267 makes this an illiquid gap/slippage trap and a yen-intervention headline is a live two-way tail. HOLD has the best expectancy; a fresh short only becomes valid on a clean loss of 91.43, not into this stretched oversold move.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 91.43,
+    "expires_min": 240,
+    "note": "Losing 91.43 support confirms trend continuation and lets a short enter on a break instead of chasing oversold; a reclaim would instead validate the bullish divergence."
+  },
+  "transcript": {
+    "macro": "Overall regime MIXED, tilting cautious-risk-on. Hawkish-Fed/sticky-inflation (CPI 4.2% y/y), DXY >100, 10Y ~4.47%, market pricing a rate-hike path; visible rotation OUT of tech/momentum. EWJ: trade as Japan equity; BOJ hiked to 1% in June (highest since 1995), members guiding toward ~2% neutral. Nikkei near record highs (~69,400). Live tail = yen carry-trade unwind, but no BOJ meeting inside 48h. Positioning mild-bearish but NOT crowded (funding flat, L/S 1.41, structure_bias -0.128). OI tiny (1,267) - thin illiquid tokenized name, slippage/gap risk dominates. 1h RSI 16 (deeply oversold) + flagged bullish divergence on 4h - a fresh short is chasing. MIXED-to-hostile for a short; if traded, small size, respect 91.43 support.",
+    "sentiment": "EWJ NEUTRAL-to-cautiously-bearish near-term. Yen at ~39-yr low near 162/USD, past the ~160 intervention trigger; surprise MOF/BOJ yen-buying intervention is a live two-way tail that could gap EWJ within hours. No BOJ meeting inside 48h. Underlying tape strong: Nikkei near records, EWJ +~16% YTD. Net: broadly NEUTRAL for the tokenized ETF; the one asymmetric risk (yen intervention headline) is a two-way gap-maker, so it does NOT cleanly confirm a short. Headline-sensitive, not catalyst-driven.",
+    "analyst": "Composite says short but this is a textbook do-not-chase: price at lower BB (%B -0.08), 1h RSI 16 extreme oversold, flagged bullish divergence on 4h, only ~0.6xATR above 91.43 support. Mild-bearish structure not crowded enough to fuel a fade; a short's stop above VWAP/96.65 resistance crushes R:R below 1.5. OI 1,267 = slippage/gap trap; yen-intervention is a two-way tail. No trade beats a stretched short. A fresh short only becomes valid on a clean loss of 91.43; a reclaim of ~94.9 would validate the bullish divergence for a long.",
+    "portfolio": "EWJ: HOLD (conf 0.34) - no trade; short only on a clean break below 91.43, else stand aside into stretched oversold."
+  },
+  "timestamp": "2026-07-07T06:11:41.090292+00:00"
+}

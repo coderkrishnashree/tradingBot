@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "CL/USDT:USDT",
+  "size": 0.0,
+  "entry": 84.83,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Oversold flush found a floor at 84.48; over the next 2-4 bars expect chop/small bounce between 84.5 and 85.6. A reclaim of the 85.6 shelf confirms the oversold-bounce long; a break of 84.48 re-opens the slide toward 83/79.65. Neither confirmed yet.",
+  "expectancy_note": "Short: chasing RSI-21, -3.75% VWAP, shorts crowded L/S 0.61 - the account's proven losing pattern (shorts 46% win, -0.82 avg). Long: knife-catch against ADX 72 downtrend into FOMC. No entry clears R:R 1.5 with an honest stop; HOLD is highest expectancy.",
+  "rationale": "CL is deeply oversold (4h RSI 21, %B 0.15, -3.75% from VWAP) inside a violent ADX-72 downtrend, with shorts crowded (L/S 0.61) and positioning bias mildly bullish - a two-way trap where fading down and chasing down both have poor edge. Learner stats confirm this account bleeds on shorts (46% win, -0.82) and wins on longs (61%, +1.33) and penalizes high relative_strength (CL +19.76), so a fresh continuation short is worst-expectancy, but a naked long needs the 84.48 floor to hold. With FOMC Wed and headline-driven two-way supply risk, wait for a structural trigger. Size 0.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 85.66,
+    "expires_min": 240,
+    "note": "Reclaiming the 85.6-85.66 shelf turns the oversold flush into a confirmed bounce, validating a mean-reversion long toward VWAP with the crowded-short squeeze as fuel."
+  },
+  "transcript": {
+    "macro": "Regime MIXED, risk-on into event week. US/Iran ceasefire gapped tape risk-on Mon; OIL SOLD OFF HARD. FOMC Wed Jul 29. Smaller size everywhere. CL: the clean macro standout - oil dumped on the ceasefire, RSI 21, VWAP -3.75%, negative BTC corr; positioning supports a bounce (bias +0.15, shorts crowded L/S 0.61) but trend and headline flow DOWN. SHORT-side tailwind but OVERSOLD.",
+    "sentiment": "CL: elevated on Middle East supply shocks (Houthi tanker attacks, CPC/Kazakh disruption); OPEC+ meets Aug 2 (~188kbpd Sep hike). Headline-driven two-way - supply risk bullish, OPEC supply + de-escalation bearish. Deeply oversold bounce setup. LEAN BULLISH/volatile. Macro (short tailwind) and sentiment (oversold bounce) conflict - marginal setup.",
+    "analyst": "Deeply oversold (RSI 21, %B 0.15, -3.75% VWAP) inside violent ADX-72 downtrend; shorts crowded L/S 0.61, bias +0.15. Two-way trap: shorting chases the flush (account's losing pattern), longing knife-catches a 72-ADX downtrend into FOMC. 2-bar bounce off 84.48 not yet confirmed. HOLD. Reconsider on reclaim above 85.66 for a squeeze long.",
+    "portfolio": "HOLD - conflicted oversold-into-downtrend two-way trap, wait for 85.66 reclaim; conf 0.5."
+  },
+  "timestamp": "2026-07-27T05:09:25.052672+00:00"
+}

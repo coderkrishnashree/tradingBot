@@ -1,0 +1,25 @@
+{
+  "action": "hold",
+  "symbol": "TSM/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.55,
+  "playbook": "trend",
+  "expectancy_note": "Uptrend intact but price extended above upper BB (%B 1.27, RSI 74-81, VWAP +1.46%); chasing here = poor R:R, and L/S 1.89 + negative structure_bias flags crowded longs. Best-expectancy trend entry is a pullback, not this blow-off tick.",
+  "rationale": "TSM is the strongest name (RS +12%) with multi-TF long alignment and supportive chip tape, but it is stretched above the upper Bollinger band with crowded long positioning and negative orderbook \u2014 a fresh long here fails the not-chasing and crowding checks, and a short fights the trend with terrible expectancy. I want to buy this trend on a pullback that resets momentum toward VWAP/SMA20 (~448), stop below the 445 shelf, targeting a run at resistance 479. Two binary catalysts (revenue Jul 10, earnings Jul 16) sit just outside my 48h window, so I would keep any entry tight and avoid holding blindly into next week.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 448.5,
+    "expires_min": 240,
+    "note": "A pullback that holds ~448 (VWAP zone) unwinds the overbought stretch and gives a proper trend-continuation entry with a stop below the 445 shelf and room to 479."
+  },
+  "transcript": {
+    "macro": "Regime risk-ON, tech-selective. Dow record, S&P +0.6%/Nasdaq +1.2% intraday 7/6; chip leadership. Rates/USD mild headwind \u2014 higher-for-longer caps high-multiple names. Derivatives: all targets crowded LONG (L/S 1.7-1.9) + negative structure_bias \u2014 contrarian caution for fresh longs. Low BTC corr. TSM (456.3): strongest name, RS +12% vs BTC, RSI 74/stretched; KEY EVENT earnings July 16 (outside 48h); chip tape supportive.",
+    "sentiment": "Overall cautiously risk-on; AI/chip slump reversing (Foxconn beat). Overhang: weak June NFP growth scare. No FOMC/CPI inside 48h. TSM: constructive; TWO binary catalysts near horizon edge \u2014 June monthly revenue July 10 and Q2 earnings July 16 (both just OUTSIDE 48h). May revenue +30% YoY confirms AI demand; +45% YTD, extended. Near-term news mildly SUPPORTS long but flag July 10/16 event risk if held into next week.",
+    "analyst": "TSM is the strongest name (RS +12%) with multi-TF long alignment and supportive chip tape, but stretched above the upper Bollinger band (%B 1.27, RSI 74-81, VWAP +1.46%) with crowded long positioning (L/S 1.89) and negative orderbook \u2014 a fresh long fails not-chasing/crowding checks; a short fights the trend with terrible expectancy. Want to buy the trend on a pullback toward VWAP/SMA20 (~448), stop below 445 shelf, target 479. Catalysts Jul 10/16 just outside 48h window \u2014 keep entries tight, don't hold blindly into next week.",
+    "portfolio": "HOLD TSM \u2014 strong trend but extended/crowded; buy the pullback to ~448, not this blow-off tick."
+  },
+  "timestamp": "2026-07-06T15:17:31.741347+00:00"
+}

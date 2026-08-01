@@ -1,0 +1,22 @@
+{
+  "action": "short",
+  "symbol": "TSM/USDT:USDT",
+  "size": 3.0,
+  "entry": 401.5,
+  "stop_loss": 405.3,
+  "take_profit": 387.5,
+  "take_profit_1": 391.5,
+  "take_profit_2": 387.5,
+  "confidence": 0.58,
+  "playbook": "trend",
+  "forecast": "Last 15m bar bounced off 395.76 with a 400.11 wick; expect the relief bounce to tag the 401-403 broken-support/VWAP zone within 1-3 bars, stall there, then roll over back toward 391 and the 387 support shelf as the semis rout resumes.",
+  "expectancy_note": "p(win)~0.55, R:R 2.6 to TP1 (reward 10.0 vs risk 3.8); selling the bounce beats chasing the 395 low into a 2.39 L/S squeeze, and beats a HOLD given the clean sector-wide short bias.",
+  "rationale": "TSM is the cleanest short in a semis bear rout (structure_bias -0.361, rel-strength -14.7%, uncorrelated to BTC), printing a 2-month low on record earnings - a classic 'great print, sold anyway' de-rate with no fresh 48h catalyst. But price is already 3.1% below VWAP with 4h RSI 31 and just bounced off 395.76, so market-selling here invites the squeeze that a 2.39 long/short ratio threatens; instead I short the retest into 401-403 (VWAP/broken support) with a tight 405.3 stop above the bounce high, targeting 391.5 then 387. Size kept modest at 3% for thin weekend liquidity and squeeze risk.",
+  "transcript": {
+    "macro": "RISK-OFF regime, tech/semis leading down; SOX in ~20% drawdown (bear territory), worst week in over a year on AI-capex fears + China Kimi K3 shock. TSM last ~397.98, funding flat, OI ~4995 (thin), L/S 2.39 (very lopsided long -> squeeze fuel), orderbook imbalance -0.202, structure_bias -0.361 (clearest short of the two). BTC corr ~-0.04 (pure equity/semis play), rel-strength -14.7%. TSMC just reported record Q2 (EPS +77% YoY), raised FY26 guidance >40%, PT hikes - yet fell to a 2-month low ('great print, sold anyway'). Earnings behind, no fresh 48h event. Verdict: MOST SUPPORTIVE name for a SHORT but prefer selling bounces over pressing new lows; keep size modest.",
+    "sentiment": "TSM fresh negative shock, bearish near-term despite a beat. Q2 reported July 16: rev +36% YoY, EPS $4.31 vs ~$3.77 est, raised FY26 guidance >40%, capex lifted to $60-64B - yet stock SOLD OFF ~6-7% (gapped ~$422 toward ~$397, holding just above $400) on AI/semi deleveraging rotation. Dominant driver next 24-48h; residual post-earnings vol + rotation favor two-way/downside. Tail risk: US 25% advanced-chip tariff, Taiwan/China friction (nothing new this week). Lean BEARISH.",
+    "analyst": "15m: ran to 405, faded steadily to a 395.76 low, last bar bounced with a 400.11 wick closing 397.98. Price 3.1% below VWAP, 4h RSI 31, near lower band -> extended, don't chase new lows. Express as a SHORT into the bounce: limit 401.5, stop 405.3 above bounce high (risk 3.8), TP1 391.5 support shelf, TP2 387.0 structural support. Reward 10.0 to TP1 = 2.6R. Size 3% for thin weekend liquidity and the 2.39 L/S squeeze risk.",
+    "portfolio": "TSM/USDT:USDT -> SHORT (conf 0.58): sell the 401-403 retest, stop 405.3, targets 391.5/387.5, size 3%; cleanest short in a semis bear rout, fading the bounce not the low."
+  },
+  "timestamp": "2026-07-17T19:35:26.047511+00:00"
+}

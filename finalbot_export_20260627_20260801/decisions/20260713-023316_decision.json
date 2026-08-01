@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "TSLA/USDT:USDT",
+  "size": 0.0,
+  "entry": 403.76,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Deeply oversold (30m RSI 16.7, 1h 19) grinding on 403.2 support; expect a mean-reversion bounce toward the 407-408 VWAP/broken-support zone before the downtrend can safely resume \u2014 not a clean entry either way now.",
+  "expectancy_note": "Short here chases washed-out RSI into the account's worst setup (trend shorts 0.45 win, -2.51 avg); long is a falling-knife with no reclaim. p(win) on any fresh entry < 0.5 \u2014 HOLD has best expectancy.",
+  "rationale": "TSLA is in a strong 15m/30m/1h downtrend (ADX 42) but RSI is washed out (16.7-19) and price sits on the 403.2 shelf, only -1.0% from VWAP \u2014 too oversold to short cleanly and no bullish reclaim to buy. Learner stats confirm late high-ADX trend shorts have been bleeding. US cash closed (thin/gappy) and CPI inside 48h; avoid carrying fresh risk through it. Wait for an oversold bounce to give a proper short retest, or a confirmed break of 400.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 408.0,
+    "expires_min": 240,
+    "note": "Reclaiming 408 (VWAP / the level this leg broke from) proves the oversold bounce has legs and sets up a clean short-the-retest instead of chasing the washed-out low."
+  },
+  "transcript": {
+    "macro": "MIXED, tilting risk-off intraday; US cash equities CLOSED (thin/gappy). Dominant catalyst: June CPI July 14 08:30 ET (inside 48h). Whole book long-crowded into weakness; reduced size; avoid fresh risk through CPI. TSLA: L/S 1.51 (least lopsided/most balanced), bias -0.18, rel-strength +1.4% vs BTC (only name beating BTC), BTC corr 0.28; most headline-sensitive, highest-beta name.",
+    "sentiment": "TSLA mixed/volatile. Record Q2 deliveries (480,126, 18% beat) but stock fell ~7.5% on print (profit-taking, BYD competition, ~200x fwd P/E) then rallied ~6.7% to ~$420 \u2014 elevated volatility. Q2 earnings Jul 22 (EPS ~$0.47), OUTSIDE 48h. Watch Cybercab/robotaxi/Optimus headlines. Balanced book + outperforming + oversold cut against a clean short.",
+    "analyst": "Strong downtrend name but RSI washed out (30m 16.7, 1h 19), price on 403.2 shelf only -1.0% from VWAP \u2014 no clean edge. Shorting chases the account's worst-performing setup; buying is a knife-catch with no reclaim. HOLD with a short-the-retest trigger armed at a 408 reclaim, or watch for a confirmed break of 400.",
+    "portfolio": "HOLD TSLA, conf 0.60 \u2014 no fresh risk; reconsider short on a 408 reclaim (240m)."
+  },
+  "timestamp": "2026-07-13T02:33:16.911664+00:00"
+}

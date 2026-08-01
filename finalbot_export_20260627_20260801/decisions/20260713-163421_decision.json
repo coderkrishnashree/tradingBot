@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "INTC/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Price is pinned on 103.11 support after grinding from 107; RSI ~7-20, stoch 2.5, -4.95% below VWAP. Expect either a mean-reversion bounce toward 105.5-106 (broken support / VWAP) over the next 3-8 bars, OR a capitulation flush through 103.11. The bounce is the high-quality short entry; entering short AT support now is chasing a knife into CPI-eve whipsaw.",
+  "expectancy_note": "Short-at-support here: entry 103.36 with support 103.11 immediately below and a ~2.5x-ATR stop above 106 = R:R well under 1.0 and the classic 'late short stopped by the bounce' loss. Better expectancy waiting for the bounce to fade or the break to confirm.",
+  "rationale": "INTC is the strongest short thesis (rel strength -21.65%, own weakness not BTC beta, retail 2.05x long into a downtrend) but it is maximally stretched: ADX 80, 4h RSI 19.8, 5m RSI 6.7, price 5% below VWAP and sitting on 103.11 support. The macro note itself says short on bounces, not at lows. Shorting now offers negative expectancy; a market long into RSI-7 is also a knife-catch. HOLD until price either bounces into the 105.8-106 supply zone (fade it) or loses 103.11 on volume (continuation). CPI pre-market tomorrow adds gap/whipsaw risk that further argues against a naked entry at this level.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 105.8,
+    "expires_min": 240,
+    "note": "A bounce back to broken support / VWAP ~105.8-106 is the high-expectancy short entry the trend thesis wants; reclaiming it lets me re-short into supply with a tight stop above 107 instead of chasing at 103 support."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF/defensive. Semiconductor-led drawdown, Intel the poster child. Fed hawkish; DXY firm ~100.6. Funding benign (no squeeze). Retail leaning long into downtrend (contrarian bearish). BTC correlation low \u2014 trade as equities. INTC: headwind/short-favored (STRONGEST short case) \u2014 down 20%+, -4% today on SK Hynix rout + oil spike, proxied via TSM (ADX 87 extreme downtrend, corr 0.71); caveat: very stretched, short entries better on bounces than at lows.",
+    "sentiment": "Market-wide: June CPI Tue 7/14 pre-market \u2014 gap/whipsaw. INTC ~$110, just fell 21% in 7 days on 18A-yield-profitability doubts + semi valuation concerns. Nearest hard catalyst: Q2 earnings Thu 7/23 after close (outside 48h) \u2014 expect pre-earnings de-risking. Foundry sore spot (<$200M external rev). Mixed: falling knife short-term, Street constructive longer-term. High-beta semi into CPI. Tag: BEARISH (near-term downtrend) ahead of 7/23.",
+    "analyst": "Strongest short thesis (rel strength -21.65%, own weakness, retail 2.05x long) but maximally stretched: ADX 80, 4h RSI 19.8, 5m RSI 6.7, -5% below VWAP, sitting on 103.11 support. The macro note itself says short on bounces not at lows; a market short = R:R under 1.0 and the classic late-short stop-out; a long into RSI-7 is a knife-catch. Hold until a bounce into 105.8-106 to fade, or a 103.11 break on volume. CPI adds gap risk.",
+    "portfolio": "HOLD INTC \u2014 cleanest aligned short thesis but too stretched at support; wait for a bounce into 105.8-106 to fade, not a chase at the lows."
+  },
+  "timestamp": "2026-07-13T16:34:21.676436+00:00"
+}

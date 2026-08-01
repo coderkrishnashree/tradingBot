@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "SNDK/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.55,
+  "playbook": "none",
+  "forecast": "Choppy digestion 1590-1625 near the top: the current bounce to 1611 likely fades back toward 1596-1590 within 2-4 bars unless buyers reclaim the 1620-1628 swing high; no clean entry either way.",
+  "expectancy_note": "No edge: extended parabola (RSI71, +8.3% vs VWAP, ATR 3.77%) means an honest ~1xATR stop (~60pts) gets tagged by a routine counter-move before trend resumes; long here chases, short fights ADX 68.8 with no reversal confirmation. p(win)<0.5 on any market entry.",
+  "rationale": "SNDK is vertically extended (+707% YTD, RSI 70.8, ADX 68.8, +8.31% above VWAP, BB width 25%) and the 15m path shows a lower high (1628 peak, dip to 1590, weak bounce to 1611) - distribution, not a fresh breakout. With ATR 3.77% any valid stop is far and gap risk is live (US cash closed, hawkish FOMC leash), so R:R on a chase is poor. Highest-expectancy move is to wait: re-debate a smaller with-trend long only if 1628 is reclaimed with force.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 1628.84,
+    "expires_min": 240,
+    "note": "Reclaiming the 1628 swing high proves buyers absorbed the pullback and the uptrend is resuming - the only condition to consider a smaller with-trend long."
+  },
+  "transcript": {
+    "macro": "Regime MIXED, risk-on but hawkish-Fed tail (FOMC July 28-29). Tokenized equities, US cash CLOSED at scan - thin/gappy, gap risk on next open. SNDK: SUPPORTIVE catalyst (memory rebound, +9.3% Jul 21 back above $1,600, TSMC price-hike read-through). Positioning cleanest of set (L/S 0.93 balanced, structure_bias -0.02) but RSI 70.8, ADX 68.8, ATR 3.77% = violent moves. RS -15.74% (weakest in set) + high ATR argue smaller size.",
+    "sentiment": "SNDK BULLISH momentum but LATE-STAGE/high-risk. Parabola +707% YTD, ~8% above VWAP on NAND-shortage euphoria + PT hikes (Bernstein $3,000, Goldman $2,200, long-horizon not 48h). Real binary (fiscal Q4 earnings) Aug 5, investor day Aug 13 - both outside 48h. Near-term risk is a momentum unwind, not a news gap. Chasing here is stretched.",
+    "analyst": "Parabolic and extended; 15m path shows a lower high (1628 peak -> 1590 dip -> weak 1611 bounce) = distribution, not breakout. ATR 3.77% forces a far stop that a routine counter-move tags before trend resumes - the account's chase-late loss trap. No clean pullback-to-VWAP entry (~8% below), no confirmed reversal to short. HOLD; smaller with-trend long only on a forceful reclaim of 1628.",
+    "portfolio": "HOLD SNDK - extended parabola/distribution near top; wait for a forceful reclaim of 1628 before any smaller long."
+  },
+  "timestamp": "2026-07-22T19:01:38.664665+00:00"
+}

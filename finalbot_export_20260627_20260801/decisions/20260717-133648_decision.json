@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "QQQ/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.4,
+  "playbook": "none",
+  "forecast": "Price coils 692-694 just above 691.4 support; base case is a bounce/squeeze toward VWAP ~700-702 into cash open, or a clean break of 691.4 that flushes toward 685. Neither edge is entryable at 693.5.",
+  "expectancy_note": "Short here: ~2pt downside to 691.4 vs ~4.6pt stop above 697.6 = R:R <0.5; p(win)~0.35 per learner. Waiting for a break-retest or a squeeze-to-VWAP short both beat market-selling stretched oversold tape.",
+  "rationale": "QQQ has the strongest bear tailwind but RSI 12.9 / stoch 6.2 / %B 0.02 is maximally oversold sitting only ~2pts above 691.4 support, with squeeze risk explicitly flagged into Friday cash open. A market short now has target 691.4 barely below entry while an honest stop above the 697.6 fade-high is >1.5x that distance \u2014 negative expectancy, and precisely the late-short-into-stretched-tape pattern the learner shows losing (shorts 0.49 WR, -0.74 avg; QQQ p_win 0.35). No size until price either loses 691.4 on a close (short the retest) or squeezes to VWAP ~700 (sell strength).",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 691.4,
+    "expires_min": 240,
+    "note": "A 15m close below 691.4 breaks the last support shelf and opens the measured flush toward 685, converting the oversold short into a real break-retest entry with room."
+  },
+  "transcript": {
+    "macro": "RISK-OFF regime. Nasdaq futures -1.6%, chip-led rout, Netflix miss -10%. Uniformly short scan but deeply oversold \u2014 dominant risk is mean-reversion SQUEEZE into Friday close. QQQ: strongest macro tailwind but deeply oversold at support 691.4 into cash open; funding positive (crowded longs), orderbook -0.49 (sellers), structure -0.22, RSI 12.9/ADX 93. SUPPORTIVE short but manage tight.",
+    "sentiment": "QQQ BEARISH near-term catalyst risk. TSM beat (+77%) yet fell >4%, dragging semis/Nasdaq \u2014 'sell the good news.' Heaviest tech earnings week (GOOGL, TSLA Jul 22). Overnight gap risk elevated, off-RTH prints thin/gappy.",
+    "analyst": "Maximally oversold (RSI 12.9, stoch 6.2, %B 0.02) only ~2pts above 691.4 support with squeeze risk flagged. Market short R:R <0.5; learner p_win 0.35. HOLD until a close below 691.4 (short the retest) or a squeeze to VWAP ~700 (sell strength).",
+    "portfolio": "QQQ: HOLD \u2014 strongest bear case but no room; wait for a break of 691.4 or a squeeze to ~700."
+  },
+  "timestamp": "2026-07-17T13:36:48.400917+00:00"
+}

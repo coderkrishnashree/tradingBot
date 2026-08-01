@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "SNDK/USDT:USDT",
+  "size": 0.0,
+  "entry": 1774.87,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Choppy: price is bouncing off the 1763 shelf (last bar closed green at 1774.87) but 15m/5m momentum still down; likely churns 1763-1795 into the US open, no clean edge either way in this 4%-ATR off-hours tape.",
+  "expectancy_note": "No setup clears R:R 1.5 to a near TP; a short here is a late fade AFTER a 40pt drop into a bounce (the account's proven loss pattern, shorts 0.46/-1.75), and a long has no pullback entry vs a 4% ATR. HOLD beats both.",
+  "rationale": "SNDK is a richly-extended, +707% YTD momentum leader; the scan's short lean fights a live 1h uptrend and has no macro trigger, while US cash is closed making the perp thin and gappy. ATR is ~4% (~72pts), so any honest short stop above 1795-1803 gives sub-1R geometry against a target, and price already bounced off 1763 into a green close - shorting now is the exact late-fade the learner shows losing. No clean long pullback exists either. Wait for a decisive break of the 1763 shelf (momentum short) or reclaim of 1803 (trend long).",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 1762,
+    "expires_min": 240,
+    "note": "Losing the 1763 shelf on the 3-bar base confirms momentum breakdown and opens a clean continuation short toward 1720; a reclaim of 1803 instead would flip to a trend long."
+  },
+  "transcript": {
+    "macro": "Regime: risk-on, tech-led melt-up on soft June CPI; semis were the leadership group in Jul 14's rally (real, strong sector tailwind). US cash CLOSED at scan -> thin, gappy off-hours perp tape until 09:30 ET; crypto structure metrics (funding 0, OI 7.1k, L/S 0.87) low-signal, BTC corr ~0.03 (own story). SNDK: LONG=supportive on regime/sector (NAND/AI, semis leading, buy-the-dip) BUT extreme 4%+ ATR; SHORT=HEADWIND (fighting the strongest momentum name on a risk-on day), only a fast countertrend scalp. Two-sided, no macro edge. Structure_bias ~0.",
+    "sentiment": "SNDK BULLISH momentum, but near-term news is all LOW-weight (PT hikes) and it's extended. Best-performing S&P name 2026 (+707% YTD); huge last earnings beat ($23.41 vs $14.62). This week = analyst PT chasing only (Bernstein $3,000, Wedbush $2,000, Cantor $2,900, Susquehanna $3,250) - narrative, not a 24-48h binary. No earnings until Aug 5 (investor day Aug 13) -> no imminent event risk. Near-term neutral; a short fights a strong uptrend - mean-reversion/exhaustion play at best.",
+    "analyst": "NO-TRADE. Tape chopping down into a bounce off the 1763 shelf (last bar green at 1774.87) with contradictory timeframes (5m/15m/30m short, 1h LONG) and a huge ~4% ATR into thin off-hours liquidity. A short is a late fade after a 40pt drop - the account's proven loser (shorts 0.46/-1.75, trend playbook 0.45/-2.62); any honest stop above 1795-1803 is sub-1R. A long has no pullback entry. HOLD; lose 1762 for a continuation short, reclaim 1803 for a trend long.",
+    "portfolio": "SNDK: HOLD (conf 0.60) - richly-extended leader, no honest R:R either way; wait for 1762 break or 1803 reclaim."
+  },
+  "timestamp": "2026-07-15T08:04:31.465819+00:00"
+}

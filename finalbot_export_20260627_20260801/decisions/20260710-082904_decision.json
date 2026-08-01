@@ -1,0 +1,28 @@
+{
+  "symbol": "XAUT/USDT:USDT",
+  "action": "hold",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.58,
+  "playbook": "none",
+  "forecast": "Price is basing at 4092 with 15m RSI 22 / 5m RSI 26 (washed out); expect a mean-revert bounce toward the 4100-4102 rejected shelf over the next 2-5 bars, then the 4h downtrend resumes lower. A market short here gets stopped by that bounce; the edge is to sell the bounce into 4101 or the fresh break of 4090.",
+  "expectancy_note": "p(win) ~0.5 for a chase-short at RSI22 vs ~0.6 selling the 4101 retest; account's trend-shorts are its worst bucket (47%, -3.0R). Waiting for the level beats market-entering the oversold.",
+  "rationale": "The 4h trend is genuinely down (ADX 37.8, score -0.544) and crowded longs (L/S 2.587) are contrarian fuel lower, so the bias IS short \u2014 but every fast timeframe is oversold (15m RSI 22, 5m 26) with price stalling on drying volume at the low, which is precisely the setup where this account's late trend-shorts get bounced into their stops (learner: trend shorts 47% win, -3.0R). Entering now offers ~1:1 into a probable counter-bounce; a limit short on a retest of the 4100-4102 broken shelf gives a clean stop above 4106 for a 2.5x+ ATR ride toward 4060/4040. Hold and arm the bounce trigger; CPI/Middle-East gap risk further argues against a mid-range market entry.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 4101.5,
+    "expires_min": 300,
+    "note": "A bounce into the 4100-4102 rejected shelf/VWAP retest is the high-expectancy short entry: sell strength into resistance with a stop above 4106, targeting the trend resumption toward 4060/4040."
+  },
+  "transcript": {
+    "macro": "Regime MIXED, lean-constructive intraday (BTC dom ~54-55%, bear-bounce not confirmed reversal; equities risk-on, semis leading). Event risk: June CPI + Warsh testimony Jul 14, 63% odds Sep rate hike (hawkish tail). XAUT: gold rolling over near-term (~$4,111, -0.30% day, -2.4% month off ATH); headwind of rising yields, firmer USD, hawkish Fed; only offset is Middle East safe-haven bid. Crowded long (L/S 2.587) into a real downtrend (ADX 37.8) = contrarian fuel lower. Verdict: environment supports SHORT, normal size, guard around Jul-14 CPI.",
+    "sentiment": "Neutral-to-bearish near term. Gold tug-of-war: US-Iran/Middle East airstrikes give safe-haven bid, but hawkish Fed (FOMC minutes debated a HIKE, ~63% Sep-hike odds) keeps DXY firm (~101) and caps bullion. Spot fell ~$4,140 -> ~$4,092/$4,076 over two sessions. Concrete <=48h catalyst: US CPI + Middle East headlines (two-way gap risk). No XAUT-specific issues. Verdict: neutral-to-bearish, supports short bias but headline-driven, size for gap risk.",
+    "analyst": "XAUT is a genuine 4h downtrend (ADX 37.8, 4h score -0.544, MACD -6.7) and the crowded-long L/S of 2.587 gives contrarian fuel for continuation lower \u2014 directional bias is unambiguously short and macro/sentiment agree. The problem is timing, not direction: the 15m tape ground from 4111 to 4092 and is now basing at the lows with 15m RSI 22, 5m RSI 26 and drying volume \u2014 textbook near-term oversold exhaustion. Market-shorting here is exactly the 'chase into stretched tape' pattern killing this account's trend-shorts (learner: 47% win, -3.0R), because a routine counter-bounce toward the 4100-4102 rejected shelf hits any honest stop before the downtrend resumes. High-expectancy expression is to sell the bounce: limit short into 4100-4102 with stop above 4106 for a 2.5x-ATR+ ride toward 4060/4040. Hold and arm price_above 4101.5. Jul-14 CPI and live Middle East headline/gap risk reinforce not committing size mid-range.",
+    "portfolio": "XAUT: HOLD (conf 0.58) \u2014 bias short but oversold; arm a short-on-bounce trigger at 4101.5, no market entry."
+  },
+  "timestamp": "2026-07-10T08:29:04.029652+00:00"
+}

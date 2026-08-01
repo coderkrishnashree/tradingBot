@@ -1,0 +1,28 @@
+{
+  "symbol": "QQQ/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.6,
+  "size": 0.0,
+  "entry": 710.0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "none",
+  "forecast": "Low-volume melt-up stalling at the upper Bollinger band (%B 1.04, stoch pegged 100); expect a small mean-reversion dip toward 703-705 VWAP zone over the next 2-6 bars rather than a clean breakout, with the real move deferred to GOOGL earnings tomorrow.",
+  "expectancy_note": "p(win) on a chase-long ~0.45 (RSI74/stoch100 into resistance = bounce hits stop first); short fights ADX61 uptrend + clean L/S 0.88. Neither clears R:R 1.5, so HOLD has best expectancy.",
+  "rationale": "QQQ is grinding higher on fading volume into the upper Bollinger band with stoch pegged at 100 and 1h RSI 82.7 \u2014 a textbook overbought melt-up, exactly the extended tape the account's rule forbids market-entering. GOOGL (top-5 weight) reports after close tomorrow, a binary gap inside the 48h window that no honest intraday stop survives. Buy the trend on a pullback to VWAP/688 support, not chase 710 mid-air, and don't knife-catch a short into an ADX-61 uptrend with clean positioning.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 703.75,
+    "expires_min": 240,
+    "note": "Losing the recent swing low breaks the intraday grind and opens a proper pullback toward 688 support where a trend-continuation long sets up with a tight stop."
+  },
+  "transcript": {
+    "macro": "Regime MIXED/cautious-defensive into a heavy catalyst week. Nasdaq -0.05% (25,508); chop not trend, DXY recovered. QQQ: structure clean-ish (L/S 0.88 \u2014 the ONLY pair not crowded long, slightly supports upside), BUT RSI 74 / stoch 100 overbought, rel-strength -12.95% vs BTC. It IS the Nasdaq -> inherits the full earnings-week + FOMC overhang; GOOGL earnings tomorrow (Jul 22) kicks it off. Micro bias flat-to-long intraday only; no multi-day conviction longs into the catalyst wall.",
+    "sentiment": "QQQ BULLISH tone but GOOGL-gapped. Near record highs (~$705, +1.3% Jul 21) on risk-on + AI-capex tailwinds. Dominant near-term catalyst = GOOGL Jul 22 after-close earnings (GOOGL top-5 QQQ weight) \u2014 a beat/miss gaps the whole index Thursday. Constructive underlying trend but event risk concentrated Wed evening; some models flag near-term overbought/weak signals despite the uptrend.",
+    "analyst": "Last 710.0, support 688.09, resistance 726.99. RSI 74, stoch 100 pegged, 1h RSI 82.7, %B 1.04 above the upper band, ADX 61.5 strong uptrend, L/S 0.88 (clean). Low-volume melt-up stalling at the upper band \u2014 a chase-long has ~0.45 p(win) into resistance right before GOOGL's earnings gap; a short knife-catches an ADX-61 uptrend with clean positioning. Neither clears 1.5R. HOLD; buy a pullback to VWAP/688, re-look if 703.75 swing low breaks.",
+    "portfolio": "QQQ \u2014 HOLD (conf 0.60), overbought melt-up into GOOGL's earnings gap; buy the pullback, not the chase."
+  },
+  "timestamp": "2026-07-21T17:02:22.219205+00:00"
+}

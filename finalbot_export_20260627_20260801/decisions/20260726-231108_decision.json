@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "CL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "After the 109k-vol capitulation flush to 83.15, price reclaimed ~1.6 handles and is basing at 84.7-84.8; expect a relief bounce toward broken support/VWAP 86.0-86.5 before the downtrend can resume - shorting 84.78 here gets stopped by that bounce.",
+  "expectancy_note": "Market-short now: p(win) ~0.42, bounce hits stop before target (account shorts 0.46 win, -0.82 avg). Waiting to short the retest into 86.3 gives ~0.55 p(win) and clean R:R; HOLD beats chasing.",
+  "rationale": "CL is cleanly bearish (all TFs short, ADX 50, RS +19%) but RSI 31 / %B 0.09 / stoch 20 / VWAP -4.62% say the move is already stretched and the last bars show a violent flush-and-reclaim off 83.15, not fresh breakdown. Shorting here is the account's proven #1 loser (late shorts into oversold tape stopped by the bounce). Sell the retest into 86.0-86.5, not chase mid-air; no long either, into a bearish structure with oil/FOMC headline risk. Size 0 until price gives a real entry.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 86.3,
+    "expires_min": 240,
+    "note": "A bounce back to broken support/VWAP 86.3 is the high-quality short entry the flush denied; reclaim there re-arms the trend-continuation short with a tight stop above 87.0."
+  },
+  "transcript": {
+    "macro": "2026-07-26 Sun: MIXED / risk-off into a heavy event week. Nasdaq -2.1% on the week (chip-led selloff); crypto the relative bright spot, BTC ~$65k pressing $68k resistance on thin summer volume. Sunday night = every tokenized US stock/ETF (AAPL, QQQ, MU, NVDA, MSTR, TSLA, CRCL, MSFT, HOOD, TSM, COIN, EWY) trades with its cash market CLOSED -> thin, gappy, pinned. Calendar: FOMC Wed 7/29; MSFT/META earnings Wed AC; AAPL/AMZN Thu AC. Derivatives book is crowded LONG (contrarian-bearish) with funding near-flat and RSIs stretched. Argues for smaller size and no directional swings held through Wed/Thu. The only two environments that actually support a trade this cycle: CL short (real 24h liquidity, clean supply catalyst) and BTC / BTC-proxy longs on a PULLBACK, not chasing the vertical.",
+    "sentiment": "Heavy earnings gauntlet inside the window: FOMC 7/28-29 (hold at 3.50-3.75% expected) plus MSFT+HOOD earnings Wed 7/29 AC and AAPL+COIN Thu 7/30 AC -> overnight gap risk on those names and index-level on QQQ. CL: bearish (OPEC+ output expansion, IEA/EIA cut 3Q26 Brent to ~$74). MU: very bullish narrative (HBM sold out through 2027) but no imminent catalyst. NVDA: earns ~Aug 26 (no near-term print). EWY: highest idiosyncratic risk (KOSPI -23% in July, 7 circuit breakers, bounced ~40% off lows). MSTR: sentiment deteriorating - Strategy now selling BTC + stock to fund preferred dividend. TSLA: reported 7/22, big EPS miss still digesting. CRCL: earns Aug 5, constructive USDC flow. TSM: reported 7/16 big beat, catalyst passed. BTC: cautious/Fear tone, ETF outflows into the Fed. SOL: best idiosyncratic catalyst (spot SOL ETF NYSE Arca approval 7/24) but pinned by broad crypto / FOMC risk-off (0.85 corr to BTC).",
+    "analyst": "CL is cleanly bearish (all TFs short, ADX 50, RS +19%) but RSI 31 / %B 0.09 / stoch 20 / VWAP -4.62% say the move is already stretched and the last bars show a violent flush-and-reclaim off 83.15, not fresh breakdown. Shorting here is the account's proven #1 loser (late shorts into oversold tape stopped by the bounce). Sell the retest into 86.0-86.5, not chase mid-air; no long either, into a bearish structure with oil/FOMC headline risk. Size 0 until price gives a real entry.",
+    "portfolio": "HOLD - clean downtrend but oversold post-flush; wait to short the bounce into 86.3, don't chase 84.8."
+  },
+  "timestamp": "2026-07-26T23:11:08.134997+00:00"
+}

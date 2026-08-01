@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "SOL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Stalled at 77.08; 15m printing lower highs/closes (76.78 down to 75.95) with a weak fading bounce now rolling back to 76.40 near bar low. Expect chop/drift in the 75.9-77.0 band into FOMC, most likely a pullback toward 75.4-75.6 VWAP before any decision on direction.",
+  "expectancy_note": "No edge either way: long is chasing RSI 77 / %b 0.92 / +1.9% VWAP (only ~1R to res 78.86, stopped by routine dip); short fights ADX-68 uptrend + fresh ETF catalyst and learner shows shorts lose (46%, -0.82R). HOLD beats both until price resolves.",
+  "rationale": "SOL is a stretched, crowded-long (L/S 2.78, bias -0.32) BTC-beta laggard (corr 0.85, rel-str -9.5%) into Wednesday's FOMC - chasing this extension is precisely the account's top loss pattern. The 15m sequence shows momentum rolling over off 77.08 with a failing bounce, so there is no clean continuation entry and no confirmed reversal level either. Sizing zero; wait for either a pullback to the 75.4-75.6 retest or a decisive breakout hold above 78.86.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 78.86,
+    "expires_min": 240,
+    "note": "A decisive reclaim/hold above resistance 78.86 turns the ETF-catalyst overbought tape into a valid momentum breakout long instead of a chase."
+  },
+  "transcript": {
+    "macro": "2026-07-27: Mixed-to-hostile, event-gated. FOMC Wed 7/29 2pm ET drives crypto risk-sentiment. Crypto 24/7, cleaner than equities but tone cautious (BTC Fear & Greed ~27). Oil >$100. SOL: high BTC beta (corr 0.85), rel-strength -9.5% laggard, RSI 77 / bb%b 0.92 stretched, L/S 2.78 very crowded-long.",
+    "sentiment": "SOL best near-term crypto story: Morgan Stanley spot Solana ETF (MSOL) got NYSE Arca approval Jul 24 (0.14% fee, up to 100% staking) - fresh structural positive. Network metrics strong (>1B weekly txns). $80/resistance ~78.9 key breakout. Mildly FOR longs on ETF catalyst but 0.85 BTC-correlated so FOMC/risk-off can override.",
+    "analyst": "Stretched, crowded-long BTC-beta laggard into FOMC - chasing this extension is the account's top loss pattern. 15m momentum rolling over off 77.08 with a failing bounce; no clean continuation entry, no confirmed reversal level. HOLD; reconsider long only on a decisive reclaim/hold above 78.86.",
+    "portfolio": "SOL: HOLD - ETF catalyst but overbought/crowded into FOMC; wait for 78.86 break."
+  },
+  "timestamp": "2026-07-27T03:07:48.819145+00:00"
+}

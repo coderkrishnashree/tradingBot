@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "SOL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.34,
+  "playbook": "none",
+  "forecast": "SOL keeps coiling 77.3-78.2 near-term; most likely it drifts to retest 77.28 coil-low, and only a decisive break there opens the flush toward 74.2 support. Mid-range now with no edge.",
+  "expectancy_note": "No level, no edge: mid-range chop, composite flat, 4h RSI already 30 and -2.5% below VWAP so shorting here chases the move (account's #1 loss pattern); p(win) on a market entry <0.5, R:R unattractive. Waiting for the coil-low break beats forcing it.",
+  "rationale": "SOL @77.72 sits mid-range between 74.21 support and 83.95 resistance with composite flat (conf 0.7%), ADX ~28 but 4h RSI already 30.2 and price -2.48% under VWAP - shorting now is chasing a stretched leg into a routine bounce, exactly how this book's late shorts died. Crowded longs (L/S 2.37) plus the July SOL-unlock overhang give a mild bearish drift, but btc_corr 0.786 into dead BTC chop means no independent edge and no next-bar catalyst. Best expectancy is to wait: a clean break of the 77.28 coil-low turns this into an at-the-level short toward 74.2 rather than a chase.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 77.28,
+    "expires_min": 240,
+    "note": "Losing the 20-bar coil low confirms the crowded-long flush is underway, opening a clean short toward 74.21 support entered AT the break instead of chasing mid-range."
+  },
+  "transcript": {
+    "macro": "Cycle 2026-07-09, RISK-OFF/defensive. Oil/Iran risk-off, hawkish Fed minutes. BTC ~$62.9k slow grind off 21-mo low near $58k, dominance elevated - alts (SOL) are the funding-drain leg, NOT leadership. Env favors shorts/mean-reversion; size modest. Fed end-of-month next big binary. SOL: btc_corr 0.786 (HIGHEST in set - leveraged BTC-beta, little independent lift), ~$80 area soft (-4% recent day), rel-strength ~flat vs BTC. Crypto grind/chop not trend; direction BTC-dependent. L/S 2.37 crowded long.",
+    "sentiment": "SOL near-term MIXED with one real <=48h supply catalyst. July is one of the largest SOL-ecosystem unlock months - headlined by pump.fun ($PUMP) unlock ~86.65B tokens (~$124M, 21.35% of supply), persistent ecosystem sell pressure this month. Offsetting: Clearstream added SOL custody (Jul 8), spot SOL ETFs net-positive (+$5.75M) vs BTC/ETH outflows, on-chain activity at highs (>1B non-vote tx). Alpenglow upgrade is Q3, not <=48h. Net: unlock overhang argues against aggressive longs; ETF/on-chain strength cushions downside.",
+    "analyst": "SOL @77.72 (below the ~$80 shared context), coiling tight 77.28-78.47 for the whole window, drifting slightly lower. Composite flat (conf 0.7%), no directional edge; ADX ~28 but 4h RSI already 30.2 and -2.48% vs VWAP. Mid-range between 74.21 support and 83.95 resistance - a short here chases a stretched leg (account's #1 loss pattern), a long needs a confirmed bounce off 74.21. Crowded longs (L/S 2.37) + July unlock overhang tilt bearish but that's drift not a next-bar catalyst, and btc_corr 0.786 into dead BTC chop means no independent edge. HOLD; arm short on a break of the 77.28 coil-low toward 74.2.",
+    "portfolio": "SOL: HOLD (conf 0.34) - mid-range chop, no edge; short armed on break below 77.28."
+  },
+  "timestamp": "2026-07-09T15:01:16.537109+00:00"
+}

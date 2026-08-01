@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "MSFT/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price stays coiled in the 384-385.5 band over the next few bars; no impulse either way while the tape waits on Wed FOMC + MSFT earnings. Expect continued chop, not a directional resolution, inside the pre-print window.",
+  "expectancy_note": "No entry has R:R >= 1.5: resistance 403 is ~4.7% away (no near TP1), funding maxed against a long, RSI 71-72 stretched, and a Wed binary caps hold. p(win) on any forced entry <0.5 -> HOLD has best expectancy.",
+  "rationale": "Strong clean uptrend (ADX 35, MTF long, p_win 0.67) collides with a maxed-long crowd (structure_bias -0.51) and a hard earnings+FOMC binary Wed inside the hold window - a naked long through that is the one thing to avoid. The 15m tape is coiling flat at 385 with no pullback to VWAP to buy and no near level to fade, so there is no honest 1.5R setup right now. Waiting for either a coil breakout on the trend or a flush to 378 support is higher expectancy than forcing a stretched, crowded, event-gapped long.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 378.0,
+    "expires_min": 240,
+    "note": "A flush into 378 support flushes the crowded funding and offers a mean-reversion long with a real level and tight stop - the missing structure for an honest R:R entry."
+  },
+  "transcript": {
+    "macro": "2026-07-27: Mixed-to-hostile, event-gated. FOMC Wed 7/29 2pm ET + megacap earnings (MSFT/META Wed close, AAPL/AMZN Thu close) are two binaries inside the hold window. Equities off two losing weeks (chip selloff + US/Iran), Sunday relief bounce (not confirmed risk-on). Oil >$100, yields near 2026 highs, DXY ~101. Crowd lopsided-long, maxed funding across equity complex -> fade crowded longs, smaller size. MSFT: clean uptrend but structure_bias -0.51, reports Wed after close (same day as FOMC) - do not carry a naked long through it.",
+    "sentiment": "MSFT reports Q4 FY26 Wed 7/29 after close (inside 48h, same day as FOMC) - hard binary; guidance $86.7-87.8B rev, Azure ~39-40% cc focus. Do not swing through the print unhedged; pre-print drift is the only tradable window.",
+    "analyst": "Strong clean uptrend collides with a maxed-long crowd and a hard earnings+FOMC binary Wed inside the hold window. 15m coiling flat at 385, no pullback to VWAP, no near level to fade; resistance 403 is ~4.7% away giving no honest 1.5R setup. HOLD, reconsider on a flush to 378 support.",
+    "portfolio": "MSFT: HOLD - strong trend but no R:R setup and earnings+FOMC binary Wed; stand aside."
+  },
+  "timestamp": "2026-07-27T03:07:34.287486+00:00"
+}

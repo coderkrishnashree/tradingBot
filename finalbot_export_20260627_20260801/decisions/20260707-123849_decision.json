@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "NVDA/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Oversold snapback in progress off the 190.97 low: price reclaimed 192.5 and likely grinds toward 193.6-194.0 (broken support / flush origin) over the next 2-6 bars before the ADX-49 downtrend reasserts and rolls it back toward 190-191.",
+  "expectancy_note": "Shorting here (RSI 27, %B 0.001, 5m flipped long, -1.9% vs VWAP) is chasing into a bounce = poor R:R; the high-p(win) short is a retest of ~194 resistance, which price hasn't offered yet. No long either - fighting a genuine ADX-49 downtrend.",
+  "rationale": "NVDA is the weakest name (rel-strength -4.9%), crowded long (1.95 = short fuel), and in a real 1h/4h downtrend, so the bias is short - but price just flushed to 190.97 and is bouncing, deeply oversold across all TFs with the 5m already turned up. Selling the hole here has negative expectancy (macro flags snapback risk). I want to short the retest into broken support ~194.0 where R:R becomes ~2:1 against the 195 structure, not here at 192.65. Chip-rotation risk-off tape (Nasdaq-100 -0.9%) keeps the drift bearish, so a bounce into resistance is the entry to wait for.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 193.9,
+    "expires_min": 240,
+    "note": "Reclaim of broken support ~194 offers the high-quality short entry into resistance with the downtrend intact; below 190.16 instead confirms fresh breakdown to short the retest."
+  },
+  "transcript": {
+    "macro": "Regime: NEUTRAL, leaning cautious. July 7 rotation OUT of AI/chip names (Nasdaq-100 -0.9%) - key headwind. No FOMC/CPI inside 48h. NVDA $192.65: structure_bias -0.39, long/short 1.95 (crowded long = short fuel), OI 20.3k. RSI 27-34, ADX 49 - genuine downtrend, weakest name (rel-str -4.9%). Chip-rotation victim, but extended/oversold - snapback risk.",
+    "sentiment": "NVDA neutral/mildly bullish. ~$195, flat YTD, 21.7x forward (Goldman 'compelling'). NVIDIA denied Kyber NVL144 2028-slip report, says on schedule (nudged shares up). Next earnings Aug 26 - no near-term binary. Premarket July 7 AI names rotating lower. Broad AI-rotation risk-off pressures all four.",
+    "analyst": "Bias is short (weakest name, crowded long, real downtrend) but price just flushed to 190.97 and is bouncing, deeply oversold with the 5m turned up - selling the hole here is negative expectancy. Wait to short the retest into broken support ~194 (R:R ~2:1). HOLD with reconsider armed above 193.9.",
+    "portfolio": "NVDA: HOLD (0.50) - short bias but too oversold to chase; wait to short a bounce into ~194 resistance."
+  },
+  "timestamp": "2026-07-07T12:38:49.395712+00:00"
+}

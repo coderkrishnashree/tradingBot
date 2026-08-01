@@ -1,0 +1,25 @@
+{
+  "symbol": "SOL/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.4,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "expectancy_note": "Short lean is structural (crowded 2.1 L/S, weak macro, LTF down, lagging BTC) but entry at 80.41 is on support with RSI 29.7 oversold + active squeeze -> ~1.4:1 R:R shorting into a bounce = negative expectancy. Wait for 80.09 break or 81.70 failed retest.",
+  "rationale": "SOL is pinned at support 80.09 with RSI 29.7 oversold and a short-squeeze relief bounce in progress, so a fresh short here is entered into the worst location (into the level, into oversold) with only ~1.4:1 R:R and high snap-bounce risk given 0.777 BTC correlation. The genuine edge (crowded longs to flush, weak macro, LTF momentum down) only pays if support cracks or a rally to 81.70 fails; neither has happened yet. Fresh long is hostile (macro risk-off, alt weakness, lagging BTC). No in-window binary catalyst forces action, so HOLD is the highest-expectancy stance until price resolves the 80.09/81.70 range.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 80.09,
+    "expires_min": 240,
+    "note": "Losing 80.09 support confirms the down-continuation and flushes crowded longs -> clean short entry on the breakdown with room toward ~78.5, giving the 1.5+ R:R this setup lacks at current price."
+  },
+  "transcript": {
+    "macro": "Cautious risk-off, weak bounce underway. Fed held 3.50-3.75% with hawkish dot-plot pivot (2026 PCE up to 3.6%). BTC dominance elevated ~55-60% (altcoin-unfriendly); SOL among weakest majors. Near-term relief bounce is short-covering (~$281M shorts liquidated) not new trend; SOL weekly +14% on 29% LOWER volume. SOL derivatives: funding benign/neutral (~0.0036%/8h); long/short ratio CROWDED LONG 2.099 (contrarian bearish, drives structure_bias -0.334); OI flat-to-declining (squeeze, not conviction); order-book imbalance -0.061. RSI 29.7 oversold, price ~80.41 pinned at support 80.09 vs resistance 81.70; all lower TFs short, 4h neutral; composite SHORT conf 39.2%. BTC correlation 0.777 (pure beta), rel strength -1.22% vs BTC (lagging). Verdict: HOSTILE for fresh long, mildly permissive for tactical short but better sold into a failed rally near 81.70 than at the lows. Half size at most. Biggest risk: crowded 2.1 L/S + 0.78 BTC corr squeezes SOL up as beta on any BTC bounce.",
+    "sentiment": "Broad crypto tape risk-off and dominant driver. Fear & Greed ~15 (Extreme Fear), BTC under $60k in some reads. SOL 0.777 BTC correlation = leveraged BTC proxy over 24-48h; supports short bias directionally, but extreme-fear raises contrarian-bounce risk. NO imminent (<48h) SOL-specific binary catalyst (Alpenglow/SIMD-0326 upgrade and ETF >$1B inflows are Q3/multi-week). Macro: FOMC June minutes Wed July 8 (edge of window) = modest volatility flag. No SOL-specific unlock/hack/outage in-window. Risk to short: SOL +12% on week, oversold into support (~80.09) = snap mean-reversion bounce is main hazard if BTC finds footing. Net: mildly BEARISH, macro-driven.",
+    "analyst": "The structural/macro short lean is real, but the entry at 80.41 is bad - price is pinned ON support (80.09) with RSI 29.7 oversold and an active short-squeeze bounce underway. Shorting the low into support with oversold momentum is negative expectancy; R:R only ~1.4:1 with the dominant hazard being a snap mean-reversion bounce. The disciplined play is to wait: short a failed retest of 81.70, or short the breakdown once 80.09 gives way (opens room to ~78.5 with the crowded-long flush as fuel). Losing 80.09 is the single level that turns this compromised setup into a clean short. Learner stats non-significant (3 samples).",
+    "portfolio": "HOLD SOL/USDT:USDT - structural short lean but entry at support/oversold is negative-expectancy; stand aside until 80.09 breaks or 81.70 rally fails."
+  },
+  "timestamp": "2026-07-06T06:03:21.502777+00:00"
+}

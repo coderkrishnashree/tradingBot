@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "COIN/USDT:USDT",
+  "size": 0.0,
+  "entry": 158.75,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Price coils 158.0-159.0 in low volume on a closed-market Sunday; most likely it drifts sideways/chops with Monday-gap risk rather than making a clean 2-3xATR move. A break and hold above 159.0 would open the run toward 160.5-162; loss of 157.7 opens 156/152.9.",
+  "expectancy_note": "p(win) ~0.5 for a chase-long here; RSI 71.7 extended + 0.64 BTC beta into risk-off crypto caps upside, and R:R to a realistic near target (~160) barely clears the stop. No confirmed trigger = negative expectancy vs waiting.",
+  "rationale": "COIN has the tape's only supportive structure (short crowd L/S 0.78, bid-stacked book +0.30) and longs have won 67% for this account, so I favor the long side - but not yet. RSI 71.7 with the 4h already stretched, a CLOSED cash market on Sunday (thin/gappy), and high BTC beta into an Extreme-Fear crypto tape make a market-buy here the exact late-continuation-into-stretched-tape pattern that has bled this book. I wait for the 158-159 coil to resolve: a hold above 159.0 confirms the squeeze and gives a clean long; otherwise structure/momentum don't yet justify size.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 159.0,
+    "expires_min": 240,
+    "note": "Reclaiming/holding above the 159 coil top confirms the short-crowd squeeze resolving up, turning the supportive structure into an actionable long toward 160.5-162."
+  },
+  "transcript": {
+    "macro": "OVERALL REGIME: RISK-OFF/defensive. Equities closed an ugly week (S&P -1.6%, Nasdaq -2.9%, SOX ~-10% into bear market on AI-capex fears). BTC ~$64.3K, Fear & Greed 25 (Extreme Fear), record June ETF outflows. It is Sunday - tokenized-equity perps' cash markets shut -> thin books, wide spreads, Monday gap risk; size down. Funding ~0.0 (thin). COIN (158.75): NEUTRAL. Only name with supportive structure (bias +0.16, L/S 0.78, book +0.30), but RSI 71.7 extended and high BTC beta (0.64) into a risk-off crypto tape. Longs live or die on BTC.",
+    "sentiment": "COIN - Neutral-to-bullish, but earnings risk building. Q2 report July 30 (outside 48h). Rallied ~19% early July on tokenized-stocks/options product launch; Street mostly bullish (Bernstein $330) vs Barclays Underweight $107. Prior quarter missed badly. Crypto Fear backdrop caps upside.",
+    "analyst": "Only name with supportive structure (L/S 0.78 short crowd, orderbook +0.30, bias +0.16) and longs win 67% for this account - so I favor long directionally. But RSI 71.7 (4h stretched), CLOSED cash market Sunday, and 0.64 BTC beta into Extreme-Fear crypto make a market-buy the late-continuation-into-stretched-tape loser. Recent candles grind 157.8->158.9 on weak volume, coiling under 159. R:R to realistic near target (~160) barely clears stop. Wait for 158-159 coil to resolve above 159.0. HOLD.",
+    "portfolio": "HOLD COIN - best long structure of the group but extended + no confirmed breakout; arm long above 159.0."
+  },
+  "timestamp": "2026-07-19T22:13:33.860824+00:00"
+}

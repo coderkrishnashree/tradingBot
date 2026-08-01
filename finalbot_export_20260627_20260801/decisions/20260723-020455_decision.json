@@ -1,0 +1,23 @@
+{
+  "symbol": "MSTR/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.34,
+  "size": 0,
+  "entry": 99.72,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "rationale": "Signal is a weak, UNALIGNED short (28.4% conf, blended -0.206, p_win_learned 0.462, and 4h still reads LONG) with price sitting exactly at VWAP (-0.07%), %B mid-band 0.529, and no range extreme or breakout trigger. The candles show a clean rejection off ~101 and steady fade to 99.72, but LTF is already stretched (5m RSI 24, stoch 28) so a market short chases into oversold and gets stopped by the routine bounce. MSTR is a pure BTC proxy (corr 0.70) and BTC is flat/rolling but has not decisively broken 65708, so there is no clean forecastable next move - wait for a fresh swing-low loss with BTC confirming, or a VWAP reject.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 99.43,
+    "expires_min": 180,
+    "note": "Losing the recent swing low (99.43) with BTC breaking 65708 confirms the 1h/5m short and opens 97-96; flips this to an active short entry."
+  },
+  "transcript": {
+    "macro": "Regime neutral-to-cautious (VIX 16.6, oil spiking on Iran strikes). Two-sided tape. MSTR/COIN = crypto proxies, follow BTC (corr 0.70/0.48). Scan shows MSTR short (30m/1h/4h mixed). FOMC Jul 28-29. Bias: two-sided; MSTR is BTC-beta, trade the crypto tape.",
+    "sentiment": "MSTR: pure BTC proxy (corr 0.70). BTC ~$66k, recovered off July lows. Company halted buys, sold BTC to fund dividends, building cash; $8.3B digital-asset loss looms but no dated event 48h. Watch BTC tape, not headlines.",
+    "analyst": "Weak, unaligned short (28.4% conf, blended -0.206, p_win 0.462, 4h still LONG) with price at VWAP (-0.07%), %B 0.529, no range extreme or trigger. Candles show rejection off ~101 and fade to 99.72, but LTF already stretched (5m RSI 24, stoch 28) - shorting chases into oversold, stopped by the bounce. BTC flat/rolling, hasn't broken 65708. HOLD; short on loss of 99.43 swing low with BTC confirming; reclaim above ~100.35 kills the thesis.",
+    "portfolio": "HOLD MSTR - weak unaligned short at VWAP, BTC undecided; short trigger below 99.43 with BTC confirming."
+  },
+  "timestamp": "2026-07-23T02:04:55.028461+00:00"
+}

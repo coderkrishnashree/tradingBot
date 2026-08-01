@@ -1,0 +1,25 @@
+{
+  "action": "hold",
+  "symbol": "EWY/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "expectancy_note": "No clean edge: 4h down but 1h/30m flat + bullish divergence at support 185.1 = mean-reversion tape, not trend. Short at 187 has ~1.1% to support (R:R < 1); SK Hynix ADR debut ~Jul10 is a 48-72h gap-both-ways binary on a currently-closed market. Flat is highest expectancy.",
+  "rationale": "EWY is oversold-in-a-downtrend (RSI 36, %B 0.30) with a flagged bullish divergence sitting just above support 185.1 while US/Korea cash are closed and the perp is thin/stale. A fresh short would be entered into support with a divergence against it and almost no room before the level (poor R:R), while a long has no trigger and fights the memory-glut backdrop. Add the ~Jul10 SK Hynix $29B ADR debut, a binary that can gap Korean memory names either way through a stop on a closed market, and taking directional risk here is negative-expectancy. Size 0.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 185.1,
+    "expires_min": 720,
+    "note": "Losing support invalidates the bullish divergence and confirms the 4h downtrend, opening a short with real room toward the next level."
+  },
+  "transcript": {
+    "macro": "Overall regime mixed, tilting risk-off. Nasdaq/semis in 2nd day of profit-taking; crypto soft (BTC ~$63k, dominance 55.5%, Fear&Greed 22). NOTE: at 02:59 UTC scan US cash CLOSED (opens 13:30 UTC), Korea session done \u2014 tokenized equity perps thin/gappy, gap on next Korea open dominates P&L. EWY: MIXED, lean flat-to-small-short \u2014 composite short (conf 33%, blended -0.28), 4h down, RSI 36, bullish divergence at support (185.1 vs 187.2). Structure mixed: funding -0.0004 (mild contrarian-long), L/S 1.33 (crowd long), net bias ~+0.08 flat. Really a Samsung/SK Hynix bet (KOSPI ~50% those names), very whippy in 2026. Environment does not cleanly support either side.",
+    "sentiment": "EWY ~46% Samsung + SK Hynix, moved in lockstep with the memory-glut selloff (fell ~12% single day late June, bounced ~2%). Oversold in a downtrend (RSI 36 + bullish divergence). Key catalyst price can't see: SK Hynix's ~$29B Nasdaq ADR listing (ticker SKHY) expected to begin trading ~July 10, 2026 \u2014 largest ADR offering ever, a 48-72h binary that can gap Korean memory names either way (dilution vs AI-memory demand validation). Net bearish-to-two-sided; sizeable headline risk into/around July 10.",
+    "analyst": "No clean edge either side: only 4h is trending down (1h/30m flat) with a bullish divergence at support \u2014 mean-reversion tape, not trend. A short at 187 has ~1.1% to support (R:R < 1) and fights the divergence; a long has no trigger and fights the glut backdrop. The ~Jul10 SK Hynix ADR debut is a gap-both-ways binary on a closed market. Highest expectancy is flat. Trigger: break below 185.1 opens a clean short.",
+    "portfolio": "EWY/USDT:USDT \u2014 HOLD (conf 0.60); stay flat, no directional risk into the SK Hynix ADR event; short only on a 185.1 support break."
+  },
+  "timestamp": "2026-07-06T03:04:00.768945+00:00"
+}

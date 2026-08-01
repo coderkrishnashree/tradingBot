@@ -1,0 +1,28 @@
+{
+  "action": "short",
+  "symbol": "GOOGL/USDT:USDT",
+  "size": 2.5,
+  "entry": 319.0,
+  "stop_loss": 320.2,
+  "take_profit": 315.5,
+  "take_profit_1": 315.5,
+  "take_profit_2": 313.2,
+  "confidence": 0.58,
+  "playbook": "trend",
+  "forecast": "Oversold-on-support (last 15m bar flushed to 315.34 then closed back to 317.99); expect a dead-cat bounce into the broken 318.8-319.2 shelf within 2-4 bars, which caps as resistance, then downtrend resumes back toward 315.5 support and a measured extension to ~313.2.",
+  "expectancy_note": "p(win)~0.58, R:R ~2.9 to TP1 (reward 3.5 / risk 1.2); selling the retest beats a market short into RSI 28.8 sitting on support, which is this account's documented late-short loss pattern (shorts 47% win, -0.78 avg).",
+  "rationale": "Real 4h downtrend (ADX 43.7), all 5 TFs short-aligned, structure_bias -0.42 with crowded L/S 2.44 and sellers pressing the book (-0.41), RS -12.8% laggard \u2014 the trend is short. But price is glued to support 315.34 with 4h RSI 28.8, so a fresh market short here has almost no room to TP1 before an oversold bounce stops it out. I place a LIMIT at the broken 318.8-319.2 shelf to sell the bounce with a tight honest stop (1.2 pts, ~0.4%, above the 319.89 swing), reduced size 2.5% into the FOMC-week / stretched tape.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 315.0,
+    "expires_min": 240,
+    "note": "A clean break of 315.34 support on volume confirms continuation and would justify a fresh short on the retest of broken support rather than waiting for the 319 bounce."
+  },
+  "transcript": {
+    "macro": "RISK-OFF/defensive; Nasdaq -0.64%, second weekly loss, rotation out of mega-cap AI tech. Sticky inflation, FOMC Jul 28-29 ~80% no-change. VIX 18.6. GOOGL macro SHORT (with-trend, post-event): structure_bias -0.42, L/S 2.44 crowded long (fade fuel), orderbook -0.41 sellers pressing, RS -12.8% laggard, all 5 TFs short, ADX 43.7, 4h RSI 28.8 stretched. Earnings already reported Jul 22, no binary ahead. Caution: sell bounces not new lows; trim into FOMC.",
+    "sentiment": "GOOGL net BEARISH near-term. Jul 22 earnings: blowout beat (rev +24% $119.8B, Cloud +82%, EPS $9.11 vs $2.88) but stock fell ~7% on 2026 capex $195-205B guide + first negative FCF. EU upheld ~\u20ac4.1B Android fine + DMA interop (secondary). No binary catalyst in 48h \u2014 residual post-earnings capex-scare drift. News + tape aligned SHORT, no offsetting catalyst.",
+    "analyst": "Trend is genuinely short (ADX 43.7, all TFs, structure -0.42, crowded L/S 2.44, sellers pressing). But price is glued to 315.34 support with 4h RSI 28.8 \u2014 a market short here has almost no room to TP1 before an oversold bounce stops it. Place a LIMIT short at the broken 318.8-319.2 shelf (sell the bounce) with a tight 1.2pt stop above the 319.89 swing; TP1 315.5, TP2 313.2. R:R ~2.9. Reduced size 2.5% into FOMC week. If 315.34 breaks on volume, short the retest of broken support instead.",
+    "portfolio": "GOOGL \u2014 SHORT (limit 319.0, stop 320.2, TP 315.5/313.2), size 2.5, conf 0.58: sell the dead-cat bounce in a real downtrend, don't chase new lows."
+  },
+  "timestamp": "2026-07-25T16:33:31.088817+00:00"
+}

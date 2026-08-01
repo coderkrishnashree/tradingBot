@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "SNDK/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.55,
+  "playbook": "none",
+  "forecast": "Price coils 1342-1348 just above support 1311 after the -8% flush; over the next few bars I expect either a dead-cat bounce toward VWAP (~1460+) or a fresh breakdown through 1311 - market-shorting the stretched, stoch-13/RSI-31 tape here gets stopped by any bounce.",
+  "expectancy_note": "p_win_learned 0.301, price ~1.6 ATR below VWAP and deeply oversold; shorting now is the account's classic late-entry-into-stretched-tape loss. Better to wait for 1311 breakdown (momentum short) or a failed VWAP retest; weekend gap + 5% ATR whipsaw kills a chased entry.",
+  "rationale": "SNDK is ground-zero of the chip rout and structurally weak (rel-strength -44%, orderbook -0.80), but it has ALREADY dumped -8% intraday and sits oversold (stoch 13, RSI 31) just above support 1311, grinding sideways not breaking down. A market short here chases the flush into an inevitable bounce; the learned p_win is 0.301. With US markets closed all weekend (stale prints, wide spreads, Monday gap risk both ways) and 5% ATR two-way vol, there is no honest R:R short at price and no reason to buy the falling knife - HOLD is highest expectancy.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 1311.0,
+    "expires_min": 240,
+    "note": "Losing 1311 support ends the consolidation and confirms a fresh momentum leg down - a clean breakdown short that is NOT chasing the current stretched candle."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF; broad SHORT lean, chip rout is the theme. SNDK (Sandisk, memory/semi proxy): tokenized equity, US CLOSED all weekend. Ground zero of chip rout - rel-strength -44% vs BTC, orderbook imbalance -0.80 (heavy offer). Macro tailwind for shorts strongest here, but extended and thin on weekend. Trend-supportive short, reduce size for gap risk.",
+    "sentiment": "Overall risk-off, semi selloff deepening. SNDK: fresh shock both ways - stock down ~28% from last month's high, ~12% in chip selloff, yet analysts hiking targets (Bernstein $3000, Wedbush $2000) off strong prior print. Next earnings Aug 5 (out of window) -> no <=48h binary, pure momentum/beta name. Sector selloff argues with a short, but violent two-way vol (ATR ~5%) is the real risk.",
+    "analyst": "Structurally weakest name (rel-strength -44%, orderbook -0.80) but ALREADY dumped -8% intraday, oversold (stoch 13, RSI 31), grinding sideways just above 1311 support - not breaking down. Market short chases the flush into a bounce; p_win_learned 0.301. Weekend closure + 5% ATR two-way vol = no honest R:R. HOLD; short only on a clean 1311 breakdown.",
+    "portfolio": "SNDK/USDT:USDT -> HOLD (conf 0.55): right short thesis but already -8% and oversold; weekend gap + 5% ATR whipsaw; wait for 1311 breakdown."
+  },
+  "timestamp": "2026-07-18T13:39:14.433223+00:00"
+}

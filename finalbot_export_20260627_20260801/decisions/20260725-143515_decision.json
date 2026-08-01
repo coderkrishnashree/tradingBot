@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "XAUT/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.34,
+  "playbook": "none",
+  "forecast": "Price stays coiled 4045-4060 near VWAP into FOMC; the 15m/5m RSI 90+ are illiquid single-tick prints, not momentum. No clean next-move edge until it breaks 3961.8 (hike-repricing leg down) or 4155 (safe-haven override up).",
+  "expectancy_note": "No fadeable extreme (%B 0.357 mid-band, stoch 44) and no trend pullback; only 'signal' is LSR 2.488 crowded-long fade, which the learner shows shorts win just 47% / -0.78 avg. Best expectancy is waiting for the FOMC-driven break rather than chasing a squeezed, two-sided tape.",
+  "rationale": "Timeframes contradict (4h short -0.885 vs 15m/1h flat-up), ATR 0.42% and BB width 3.35% show a frozen, squeezed tape with fake RSI extremes on micro-volume, and the dominant driver is the July 29 FOMC binary 4 days out. Firm DXY + hike risk (bearish) offsets the Iran safe-haven bid (bullish) \u2014 genuinely two-sided with no honest R:R at spot. Size 0: no edge, and the account's shorts (the only setup here) have been net losers.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 3961.8,
+    "expires_min": 240,
+    "note": "Losing the 3961.8 4h support confirms the rate-hike-repricing leg down and arms a with-trend short; until then the range holds and there is no trade."
+  },
+  "transcript": {
+    "macro": "Regime cautiously RISK-OFF/mixed (2026-07-25). Fed held 4.25-4.50%; ~60% odds of a hike by Oct (~38% live July 29 FOMC). USD firm (DXY ~101.5). US-Iran conflict = safe-haven bid. XAUT: last ~4,053, spot gold ~$4,052; scan short (bias -0.296) on crowded longs (LSR 2.488) \u2014 contrarian short support; 4h short but 15m/1h flat-to-up (15m RSI 96.8 = blow-off/illiquid print). Firm DXY + hike risk mild headwinds; Iran safe-haven bid cuts other way \u2014 two-sided.",
+    "sentiment": "RISK-OFF into FOMC July 29. XAUT cautious/neutral, event-gated. Spot gold ~$4,000 area, off January record as Fed-hike repricing + firmer USD drain safe-haven premium; Goldman cut end-2026 target to $4,900. FOMC July 29 is the swing factor \u2014 hold = muted, hike = sharp leg down. Do not commit directionally ahead of Wednesday.",
+    "analyst": "Frozen/squeezed tape: ATR 0.42%, BB width 3.35%, price at VWAP mid-band (%B 0.357), 15m/5m RSI 90+ are illiquid single-tick prints. Timeframes contradict (4h short vs LTF flat-up). Only signal is LSR 2.488 crowded-long fade, which the account's shorts (47% win, -0.78) don't support. FOMC binary 4 days out. No honest R:R \u2014 size 0.",
+    "portfolio": "HOLD XAUT \u2014 two-sided, frozen tape into the July 29 FOMC binary; no edge. Reconsider on a break below 3961.8."
+  },
+  "timestamp": "2026-07-25T14:35:15.796324+00:00"
+}

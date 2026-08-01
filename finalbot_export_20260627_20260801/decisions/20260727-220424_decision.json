@@ -1,0 +1,25 @@
+{
+  "symbol": "GOOGL/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.6,
+  "size": 0.0,
+  "entry": 327.66,
+  "stop_loss": 0.0,
+  "take_profit": 0.0,
+  "playbook": "none",
+  "forecast": "Price is coiling 326.4-328.2 on fading volume; likely chops in-band near-term. A clean break below 326.0 opens mean-reversion toward 324/322; else range-bound into FOMC.",
+  "rationale": "GOOGL crypto structure is a contrarian red flag: long/short 2.52 crowded longs into 4h RSI 75, %B 0.98, bearish 4h MACD divergence, -14% rel-strength. That argues against chasing a long at 327.7 near the highs (long only on a pullback). But the 15m tape is a tight low-volume coil (326.4-328.2) with flat 30m/5m scores and no downside trigger, so a short has no confirmation or R:R yet. FOMC Wed adds two-way event risk; highest-expectancy action is HOLD and arm a short trigger on loss of the 326.0 coil floor.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 326.0,
+    "expires_min": 240,
+    "note": "Losing the coil floor (326.0) confirms squeeze/mean-reversion off overbought 4h + crowded longs, opening a clean short toward 322 support."
+  },
+  "transcript": {
+    "macro": "Regime MIXED, cautious. FOMC Wed Jul 29 (surprise hike risk, tech headwind), size down. GOOGL last ~327.66, long bias but positioning a contrarian red flag: structure_bias -0.27 from L/S 2.52 (crowded longs), 4h RSI 75 / bb_pctb 0.98 overbought, bearish 4h MACD divergence, laggard -14% vs BTC. Relief: Alphabet already reported Jul 22 (huge beat), no earnings landmine. Long only on a pullback.",
+    "sentiment": "GOOGL bullish, event risk largely PASSED. Reported Q2 Jul 22, crushed it (EPS $9.11 vs $2.87, rev +24% to $119.8B, Cloud +82%). Overhang: EU antitrust Android loss Jul 2 (EUR4.1B fine + DMA orders) - known/priced, not a fresh 48h shock. No imminent binary; near-term news neutral-to-supportive.",
+    "analyst": "Crowded-long overbought = contrarian red flag against chasing a long; but 15m is a tight low-volume coil with no downside trigger, so short lacks confirmation/R:R. FOMC two-way risk. HOLD, arm short on loss of 326.0.",
+    "portfolio": "GOOGL: HOLD (conf 0.60) - crowded/overbought, no trigger; watch 326.0 breakdown."
+  },
+  "timestamp": "2026-07-27T22:04:24.953407+00:00"
+}

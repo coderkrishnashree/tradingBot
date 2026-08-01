@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "BTC/USDT:USDT",
+  "size": 0.0,
+  "entry": 63998.6,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price stays pinned in the 63,600-64,400 range, chopping around VWAP/64,000 over the next several candles; no directional resolution until it reclaims 64,703 or loses 63,600. Most likely path: rangebound oscillation, small dips to 63,800 bought, small pops to 64,100 sold.",
+  "expectancy_note": "No tradable edge: mid-range entry, neutral RSI 50.6/stoch 37, TFs conflict (1h down vs 4h up), ADX high but incoherent. Any continuation entry here gets chopped; no extreme to fade. p(win)~0.5, R:R undefined - HOLD is highest expectancy.",
+  "rationale": "BTC sits dead-center of a $63.6-64.4k range at VWAP with a weak 44.8% composite, neutral RSI/stoch, and contradictory timeframes (1h down, 4h up) - no clean trend or extreme to trade. Structure is balanced (funding flat, L/S mildly crowded long offset by slightly-bid book). With CPI Jul 14 two days out plus a hawkish-Fed backdrop and MSTR selling overhang, the asymmetric risk is a macro gap, not a technical breakout - entering the middle of the range is exactly the chase/chop that bleeds the book. Wait for a decisive level break.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 64703,
+    "expires_min": 240,
+    "note": "A clean reclaim/close above the 64,703 range top and 4h resistance would confirm a real breakout worth joining long; until then it is chop with a two-day CPI binary overhead."
+  },
+  "transcript": {
+    "macro": "Environment MIXED, caution on size. CPI Jul 14 (last inflation read before Jul 29 FOMC under hawkish Chair Warsh, dot-plot shifted toward possible 2026 HIKE) + bank earnings same morning = elevated gap/vol risk. BTC range-bound $63.6-64.4k, composite WEAK LONG 44.8%, mixed TFs, funding flat, structure_bias -0.093 (L/S 1.33 crowded long offset by slightly-bid book). Dominance ~56-58%, alts lagging - mild risk-off within crypto. No independent directional edge.",
+    "sentiment": "BTC NET NEUTRAL-to-CAUTIOUS, macro-driven. Fear & Greed recovering off extreme lows (~13 -> 30 Jul 10) but still in FEAR - fragile not euphoric. Chopping ~$62-64K. OVERHANG: Strategy/MicroStrategy now SELLING BTC - sold 3,588 BTC (~$216M, largest ever) Jun 29-Jul 5. Behavioral regime shift dampens bid. No crypto-specific 48h binary. Trades on macro: Jul 14 CPI + hawkish Fed dominant.",
+    "analyst": "Dead-center of range at VWAP, neutral RSI 50.6/stoch 37, TFs conflict (1h down vs 4h up). No trend or extreme to trade. CPI two days out + MSTR selling overhang make the asymmetric risk a macro gap, not a breakout. HOLD, arm long above 64,703.",
+    "portfolio": "HOLD BTC - low-conviction range/chop, no edge with CPI binary overhead; long armed on reclaim above 64,703."
+  },
+  "timestamp": "2026-07-12T13:03:20.716543+00:00"
+}

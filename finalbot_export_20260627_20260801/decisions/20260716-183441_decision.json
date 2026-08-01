@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "GOOGL/USDT:USDT",
+  "size": 0.0,
+  "entry": 360.94,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "After the vertical 371>359 capitulation flush (15m RSI 10, 5m RSI 19), the next few bars most likely mean-revert UP toward the broken 366-368 shelf before the downtrend can resume; a fresh short here gets run over by that reflex bounce.",
+  "expectancy_note": "No positive-expectancy entry now: shorting RSI-10 stretched tape is the account's proven loser (33 shorts 52% win, avg -0.52, structure_bias weight -0.50); longing a knife into a 6-day earnings binary is worse. Wait for the bounce to sell into.",
+  "rationale": "GOOGL just capitulated 2.5% on a single 15m candle to VWAP with every fast TF deeply oversold (15m RSI 10.1, 5m 19.1) \u2014 a market-entry short here is exactly the late-into-stretched-tape pattern that has bled this account, and the highest-probability next move is a reflex bounce that would hit any honest stop. Longing a falling knife with off-hours thin liquidity and Q2 earnings 6 days out is not justified either. Best expectancy is to wait: sell the bounce into the broken 366-368 shelf, or take a cleaner continuation short only if 359.50 breaks with momentum. Size 0.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 366.5,
+    "expires_min": 240,
+    "note": "Reclaim of the broken pre-flush shelf confirms the reflex bounce is live \u2014 then re-debate to sell strength back toward 358-360 with a tight stop above 368, a far better short entry than chasing RSI-10 now."
+  },
+  "transcript": {
+    "macro": "RISK-OFF/defensive. Nasdaq -1%, semis hit, Fed hawkish, 10y 4.58% rising, inflation 3-yr high. Environment favors shorts/fading rallies. GOOGL (equity perp) last 360.94, just gapped down hard (371->360 single 15m candle, RSI ~10 capitulation flush). Short bias, structure_bias -0.11, L/S 1.51 (mild long crowding), low BTC-corr 0.28 (trades on Nasdaq/rates). Just-flushed + oversold = bounce risk against fresh shorts; thin off US hours -> smaller size.",
+    "sentiment": "GOOGL (treat as EQUITY): standout catalyst is Q2 2026 earnings Wed July 22 4:30pm ET (~6 days out, biggest scheduled binary on horizon). Consensus EPS ~$2.86 (+24% YoY) on ~$116.5B rev; focus on AI capex ($175B) and cloud (~63%) vs last quarter's -47% YoY FCF drop = guidance-gap risk. Scan shows sharp intraday drop (15m/5m RSI ~10-19). Tokenized equity -> off-hours thin/gappy. No scheduled <=48h catalyst; do NOT carry size into the July 22 print.",
+    "analyst": "No positive-expectancy entry: GOOGL just capitulated 2.5% to VWAP with every fast TF deeply oversold (15m RSI 10.1, 5m 19.1). A market short here is the late-into-stretched-tape pattern that has bled this account (33 shorts, 52% win, avg -0.52); highest-probability next move is a reflex bounce that hits any honest stop. Longing a knife into a 6-day earnings binary with thin off-hours liquidity is worse. HOLD; sell the bounce into the broken 366-368 shelf, or short only if 359.50 breaks with momentum.",
+    "portfolio": "GOOGL: HOLD, conf 0.60, size 0 \u2014 oversold capitulation flush, wait for a bounce to sell; reconsider on reclaim above 366.5."
+  },
+  "timestamp": "2026-07-16T18:34:41.779891+00:00"
+}

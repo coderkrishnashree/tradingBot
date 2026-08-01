@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "MSFT/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.55,
+  "playbook": "none",
+  "forecast": "Thin low-volume grind back up toward the 401.5-403 rejection zone that just failed; likely stalls and rolls over toward 400/398 within 2-4 bars rather than breaking 406. No clean directional edge from 401 mid-range.",
+  "expectancy_note": "Neither side clears 1.5R from 401: long fights -0.83 offered book + bearish div into 406 res; short is this account's proven bleeder (0.48 win) and 401 is mid-range not the extreme. Best EV is waiting for a 406 tag to fade or a clean reclaim.",
+  "rationale": "MSFT is coiling mid-range (378 support / 406 resistance) with ADX 23 = no tradable trend, and the last 15m bars show a failed push to 403 rolling into a thin, fading-volume bounce back to 401. A long here chases an overbought (stoch 86, RSI 61 bearish div, 5m RSI 76) name into a -0.826 offered book and crowded long positioning while macro rotates out of tech; a short at 401 gives only ~5pts of room to resistance and shorts have lost money for this account. Size 0 until price reaches 406 where the divergence short becomes high-EV or reclaims it to prove a breakout.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 405.5,
+    "expires_min": 240,
+    "note": "Tag of 405.5-406 resistance arms the high-EV divergence short (crowded long + heavily offered book as fuel); a decisive volume reclaim above 406 instead flips to breakout-long."
+  },
+  "transcript": {
+    "macro": "MIXED-to-HOSTILE. Risk-off, hawkish Fed, rising yields, rotation OUT of tech. MSFT stretched: RSI 60.9 with bearish divergence, orderbook imbalance -0.83 and structure_bias -0.49 (heavy offer / crowded long) - a LONG here fights positioning. Resistance ~$406. Tokenized equity: thin/gappy off-hours.",
+    "sentiment": "MSFT: earnings Wed July 29 after close - OUTSIDE 48h this cycle, but do NOT open multi-day holds straddling the 29th. No fresh <=48h catalyst; AI/Azure narrative. Scan overbought short-term (RSI 5m ~76, stoch 86, bearish 4h divergence) into resistance ~$406, orderbook heavily offered (-0.83).",
+    "analyst": "Coiling mid-range (378/406) with ADX 23 = no tradable trend; failed push to 403 rolling into a thin fading-volume bounce to 401. A long chases overbought into a -0.826 offered book and crowded longs while macro rotates out of tech; a short at 401 gives only ~5pts to resistance and shorts have lost for this account. Size 0 until 406 tag (fade) or clean reclaim (breakout).",
+    "portfolio": "HOLD MSFT - mid-range, wait for 406 tag; arm reconsider above 405.5."
+  },
+  "timestamp": "2026-07-21T00:16:54.905275+00:00"
+}

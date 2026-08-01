@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "CL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price is grinding down in a stair-step, pressing 81.95-82.05; likely chops 81.9-82.5 over the next few bars, but a short here targets nothing (next real support 72.66 is miles away) and rides on top of live Hormuz/Iran shock risk that can gap it up violently.",
+  "expectancy_note": "Short p(win)~0.45 and negative-EV: chasing a stretched down-move (RSI 38.5, below VWAP, at recent lows) into no target and against a supply-shock long catalyst; account shorts are 0.48 win / -0.8 avg. Long fights an aligned down-trend with no trigger.",
+  "rationale": "4h composite is short (-0.322, ADX 44.9) but price is already down ~0.7 pressing 81.95 with RSI 38.5 and no structural target until 72.66 \u2014 a textbook late-short into stretched tape. The macro note flags extreme two-way Hormuz/Iran headline risk and says do not fade oil aggressively; rel_strength +6.36 shows the geopolitical bid is already resisting. No long trigger either (all TFs down, no VWAP reclaim). Standing aside is the disciplined, positive-EV choice.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 82.6,
+    "expires_min": 240,
+    "note": "Reclaiming the 82.5-82.6 shelf/VWAP that price keeps getting rejected at would prove the geopolitical bid is overpowering the down-grind, flipping the read away from short toward a long continuation."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF/defensive overall, but CRUDE has a genuine geopolitical BID: Hormuz disruption, Brent >$90, WTI ~$82. Scan shows SHORT bias (blended -0.32, 4h down) on price action \u2014 but that fights a hard fundamental long catalyst (Iran/Hormuz supply shock). Negative BTC corr (-0.30). Extreme two-way headline risk \u2014 do NOT fade oil aggressively into supply-shock headlines; smallest size / two-way.",
+    "sentiment": "CL neutral-to-positive: ~$82.4/bbl Jul 21. Middle East risk premium (US-Iran, Houthi maritime embargo threats, Hormuz disruption, Russia CPC terminal drone strike) offset by OPEC+ adding ~411kbpd for August. Headline-driven, two-sided: fresh escalation = upside shock; de-escalation = downside.",
+    "analyst": "HOLD CL. Scan short bias (blended -0.32, ADX 44.9, 4h RSI 38.5) is real but the setup is a late fade \u2014 price already down ~0.7 into recent lows (81.95) below VWAP with no structural target until 72.66, the exact stretched-tape chase that has lost this account money (shorts 0.48 win, -0.8 avg). Layered on top is live Hormuz/Iran supply-shock risk the macro desk says not to fade, and rel_strength +6.36 confirms the bid is absorbing selling. No long yet (all TFs down, no VWAP reclaim). Stand aside; re-engage only if price reclaims the 82.6 shelf.",
+    "portfolio": "HOLD CL \u2014 don't short a stretched oil dip into live Hormuz shock risk with no target; wait for a 82.6 reclaim."
+  },
+  "timestamp": "2026-07-21T04:16:04.227956+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "XAUT/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.4,
+  "playbook": "none",
+  "forecast": "Price basing above the 4021 flush low with rising higher-lows (4023>4025>4028>4030); expect chop 4025-4040 next 2-4 bars. A reclaim of 4040 confirms the bounce toward 4055-4060; a break of 4021 resumes the flush toward 3981.",
+  "expectancy_note": "No edge: HTF-short but 30m RSI 23 oversold + bounce off 4021 with bid support (+0.249) and CPI-supportive gold = shorting is the account's losing pattern (30 shorts, 47% win, -1.59R avg); long needs 4040 reclaim first. Waiting has higher expectancy than either entry.",
+  "rationale": "The 15m flush to 4021 has stalled and reversed into higher-lows with the heavy sell candle fully absorbed, so pressing a fresh short into oversold LTF RSI (30m 23) and a CPI-supportive, bid-heavy tape is exactly the late-short-stopped-by-the-bounce trade that has bled this book (short avg -1.59R, model weights punish high-ADX/structure_bias shorts). But the bounce hasn't reclaimed a level either - price is mid-range 4031 between support 3981 and resistance 4124. No trade until a level breaks; size zero.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 4040,
+    "expires_min": 240,
+    "note": "Reclaiming the 4040 broken shelf/VWAP zone confirms the 4021 bounce and absorption of the sell flush - flips me to a long toward 4055-4060; conversely a loss of 4021 would re-arm the HTF short toward 3981."
+  },
+  "transcript": {
+    "macro": "Broad regime risk-on: June US CPI 3.5% (soft, first monthly decline since 2020) killed near-term Fed hike fears, capping yields/dollar - supportive of gold. XAUT ~$4,050-4,060, holding CPI gains but easing. Funding flat (not crowded), but L/S 2.84 heavily long-skewed = contrarian headwind for longs / mild tailwind for shorts. Orderbook mild bid support (+0.249). Environment MIXED-to-supportive for a short/mean-revert lean, but safe-haven bid argues against pressing a big short; moderate size.",
+    "sentiment": "Spot gold ~$4,032, slipping from ~$4,130 earlier July; clean short trend 30m/1h/4h, corrective after failing above $4,100. Hawkish-leaning: ~20% odds July hike, ~60% odds >=1 hike by Sept - real-yield sensitivity capping gold. NO binding <=48h catalyst (next FOMC July 28-29, CPI baked in). No Tether Gold-specific news. JPMorgan cut Q4 target $6,000->$4,500 (long-horizon). Read: neutral-to-mildly-bearish next 24-48h, mildly supportive of the scan's short; main risk = sudden dollar/real-yield reversal.",
+    "analyst": "Composite short 58.7%, ADX 32, but 30m RSI 23 already oversold after the flush and the last 6 15m bars base with higher-lows off 4021 (heavy sell candle fully absorbed). Account short book bleeds (30 shorts, 47% win, -1.59R avg) and model weights punish high-ADX/structure_bias shorts, so a fresh short here is the account's proven loser. Long is premature - price mid-range 4031 between support 3981 and resistance 4124 with no level reclaimed. No clean edge either way; HOLD size 0 and watch 4040 (reclaim=long) / 4021 (loss=re-arm short).",
+    "portfolio": "XAUT: HOLD, conf 0.40 - no edge; stand aside, trigger long above 4040 / short below 4021."
+  },
+  "timestamp": "2026-07-16T04:03:43.955604+00:00"
+}

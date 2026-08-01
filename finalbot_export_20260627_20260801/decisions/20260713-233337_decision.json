@@ -1,0 +1,26 @@
+{
+  "symbol": "MU/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.55,
+  "size": 0.0,
+  "entry": 923.34,
+  "stop_loss": 944.0,
+  "take_profit": 895.0,
+  "playbook": "none",
+  "forecast": "Small bounce/stall from the 917.5 flush low toward the 934-940 broken-support shelf over the next 2-4 bars; that retest is the short entry, not this oversold dip at 923.",
+  "expectancy_note": "p(win) on a chased short here ~40% (oversold, longs crowded 1.96, bid-heavy +0.46 = bounce fuel); waiting to fade the 936-940 retest lifts p(win) to ~0.6 with R:R ~2 to 895 - HOLD-then-fade beats a market short into a 2.3% VWAP-extended flush.",
+  "rationale": "MU is the epicenter of the memory rout (RS -13.5%, ADX 67 downtrend) but is deeply oversold right now: 4h RSI 27.5, 5m RSI 21.8, %B 0.06, price 2.3% below VWAP and just flushed to 917.5 on 720-vol before bouncing. Longs are crowded (L/S 1.96) and the book is bid-heavy (+0.46) - exactly the setup where a counter-bounce runs any honest short stop before the trend resumes, this account's signature loser. High-expectancy trade is to fade the bounce into 936-940 broken-support/VWAP; a fresh short at 923 has poor R:R. Size 0 pending the retest.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 936.0,
+    "expires_min": 240,
+    "note": "A bounce into the 936-940 broken-support/VWAP shelf gives the honest short entry to fade the downtrend."
+  },
+  "transcript": {
+    "macro": "REGIME RISK-OFF/MIXED, hostile to longs. AI/semi de-risking wave; equity tokens in after-hours (thin, gappy). MU bearish structural fit for shorts: blended -0.384, ADX 67, RSI 27.5, -13.5% RS. BUT L/S 1.96 crowded longs and orderbook +0.46 bid-heavy = contrarian bounce risk; oversold - favor fading rallies over chasing lows.",
+    "sentiment": "US-Iran escalation, oil higher, risk-off. MU neutral/mildly-bullish fundamentals; next earnings Sep 29 (record Q3, strong Q4 guide ~$50B, 86% GM on AI memory). Trades as high-beta AI semi with NVDA/Nasdaq. No scheduled driver this cycle.",
+    "analyst": "Deeply oversold after a flush to 917.5 (4h RSI 27.5, 5m RSI 21.8, %B 0.06, -2.3% vs VWAP) into crowded longs (1.96) and bid-heavy book (+0.46). Chasing a short at 923 = signature loss pattern. Wait to fade the bounce into 936-940 broken-support/VWAP. HOLD, size 0; reconsider at 936.",
+    "portfolio": "MU: HOLD (armed short) - valid short thesis by trend/RS but too oversold to chase at 923; fade the bounce into 936-940."
+  },
+  "timestamp": "2026-07-13T23:33:37.600054+00:00"
+}

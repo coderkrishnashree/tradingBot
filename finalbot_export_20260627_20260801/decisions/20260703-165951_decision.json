@@ -1,0 +1,25 @@
+{
+  "action": "hold",
+  "symbol": "INTC/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.34,
+  "playbook": "none",
+  "expectancy_note": "Fresh short = chasing into support $122.35 with RSI 13.7/stoch 11.5, negative funding (squeeze fuel) and 1h already long; long fights daily semis downtrend. Both < 1.5 R:R with edge. HOLD is highest expectancy into a closed-market holiday weekend.",
+  "rationale": "INTC is a tokenized equity with US cash market CLOSED through the long weekend (reopens Mon Jul 6), so the perp has no underlying price discovery and gap/illiquidity risk dominates. Price is pinned on support $122.35, deeply oversold (RSI 13.7, stoch 11.5) with the 1h already flipped long and downside momentum decelerating, while funding -0.0023 (shorts pay longs) plus net-long crowd is classic squeeze fuel against a fresh short. No binary catalyst inside 48h (earnings Jul 23, FOMC minutes Jul 8 both outside window). Cleaner to wait for the Mon reopen than to donate a stop into a thin, gappy tape.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 123.85,
+    "expires_min": 240,
+    "note": "Reclaiming resistance confirms the 1h long-flip / oversold mean-reversion bounce and would set up a tactical long rather than a short."
+  },
+  "transcript": {
+    "macro": "Treat INTC as US tech/semi equity (btc_corr 0.19). US cash market CLOSED Fri Jul 3 (Independence Day), reopens Mon Jul 6 -> tokenized perp has no underlying price discovery, thin/gappy over long weekend. Jul 2 session: semis/AI sold off broadly on AI-valuation reassessment (bearish into holiday). BUT macro turned risk-ON: soft June payrolls (57k, unemp 4.2%) lifted rate-cut odds, favoring mean-reversion bounces. Positioning: structure_bias ~neutral (-0.002): funding -0.00231 (deeply NEGATIVE = crowded-short/squeeze risk) vs long_short_ratio 1.985 (crowd net-long, contrarian bearish); orderbook_imbalance -0.35. OI 25,660 elevated. relative_strength_pct -0.83 (weakest in scan). Composite conf only 9.3%, aligned=false; 1h flipped LONG (+0.209), only 4h & 5m still short. VERDICT: MIXED-to-HOSTILE for a fresh short; if short at all, size DOWN as a scalp, not hold-through-weekend. Biggest risk: holiday-liquidity short squeeze.",
+    "sentiment": "Tone bearish-but-exhausted. Intel ripped ~250-270% H1 2026 (peaked ~$142.37 Jun 30), unwinding hard: -9% Jul 1, -5% Jul 2, closing ~$120-122 (scan last $122.49). Driver NOT company-specific: sector-wide profit-taking / AI 'bubble risk' scare (BofA flagged valuation; AMD/TSM off 5-6%). RSI 13.7 / stoch 11.5 deeply oversold, prone to violent mean-reversion bounces. Concrete <=48h catalysts: essentially NONE binary for INTC. Q2 earnings Jul 23 and FOMC minutes Jul 8 both outside window. US markets closed Jul 4, thin -> perp can gap. Long-horizon news mixed (HSBC PT $200 Buy; consensus still Hold ~$98). VERDICT: LEANS SHORT but low-conviction, size down; treat any semis bounce (AMD/TSM/NVDA) as invalidation. No case for LONG inside 48h.",
+    "analyst": "Last $122.49, price pinned on support $122.35, resistance $123.85. RSI 13.7, stoch 11.5 = deeply oversold. 1h already flipped LONG (+0.209, RSI 62.3), momentum decelerating. Funding deeply negative (crowded short = squeeze fuel), long/short 1.985 (crowd net long), orderbook -0.35. Hostile for a fresh short: chasing an extended move into support with squeeze fuel underneath, over a closed-market holiday weekend with no price discovery. A long fights the sector-wide semis selloff and daily downtrend. Neither has edge -> HOLD is the honest, highest-expectancy call. Re-debate if price reclaims $123.85 (confirms bounce -> tactical long) within 4h.",
+    "portfolio": "HOLD INTC/USDT:USDT @ 0.34 conf - no edge either direction into a thin holiday tape; wait for Mon Jul 6 reopen or a $123.85 reclaim."
+  },
+  "timestamp": "2026-07-03T16:59:51.608637+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "META/USDT:USDT",
+  "size": 0.0,
+  "entry": 657.4,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.4,
+  "playbook": "none",
+  "forecast": "Choppy 655-664 into the US CPI print tomorrow 8:30am ET; last 15m bar flushed to 655.48 then closed back at 657.4 on the heaviest volume of the window (rejection), with a bid-stacked book (+0.92) and 4h RSI 24.9 oversold \u2014 expect a hold/small bounce toward 662 near-term, but the real move is the CPI gap I won't front-run.",
+  "expectancy_note": "No edge either way: shorting into 4h RSI 24.9 + bid-heavy book + best-in-group RS (+17.5%) is chasing (account's #1 loser); longing a downtrend the night before a high-beta CPI gap is a knife-catch. p(win) ~50/50 overnight = negative expectancy after gap variance. Flat wins.",
+  "rationale": "META composite is barely short (blended -0.119, 12% confidence) and the macro short thesis is contradicted by the tape \u2014 L/S 0.976 (not crowded long), orderbook +0.916 bid, relative strength +17.47% (strongest in group), 4h RSI 24.9 oversold. It is the highest-beta name to tomorrow's 8:30am CPI, so any overnight position is a coin-flip on a gap, not a technical trade. Size 0 \u2014 flat is the highest-expectancy position ahead of the binary; I want the CPI reaction to pick the direction.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 655,
+    "expires_min": 240,
+    "note": "Losing the 655.48 rejection low on volume breaks the coil and validates the short-continuation leg toward 4h structure; a clean break there is the first honest short entry with a stop back over 662."
+  },
+  "transcript": {
+    "macro": "Regime: risk-off/mixed. Hawkish-Fed tape \u2014 US CPI at 3yr high on energy (US-Iran), Fed (Warsh) prolonged pause with live HIKE risk H2 2026 (~58% odds Sept hike); strong USD, headwind for long-duration tech. June CPI + Warsh testimony Tue Jul 14 8:30am ET = gappy 24-48h risk. META Nasdaq tech, rate-sensitive, rolling over \u2014 structure_bias -0.18, scan short lean; highest-beta of the group to a hot/soft CPI given AI-spend rate sensitivity. Regime call: risk-off/mixed, size smaller into CPI.",
+    "sentiment": "ONE tradable catalyst: US June CPI Tue Jul 14 8:30am ET (+ Warsh). ~58% odds Sept hike; hot=risk-off, soft=relief. META neutral, high-variance \u2014 no earnings until Jul 29 (outside horizon); sentiment polarized on the AI capex bet ($125-145B 2026); Jul 1 'Meta Compute' cloud story real but priced/long-horizon; highest-beta to a hot/soft CPI; no confirmed <=48h binary, moves on macro tape.",
+    "analyst": "META last 657.4; composite barely short (blended -0.119, 12% conf) and the macro short thesis is contradicted by the tape \u2014 L/S 0.976 (not crowded), orderbook +0.916 bid, RS +17.47% (best in group), 4h RSI 24.9 oversold; last 15m bar flushed to 655.48 then closed 657.4 on heaviest volume (rejection wick). Highest-beta name to tomorrow's 8:30am CPI, so any overnight hold is a coin-flip gap. HOLD, size 0; short only on a clean loss of 655 that breaks the coil.",
+    "portfolio": "META \u2014 HOLD (conf 0.40): weak/contradicted short signal on the highest-beta CPI name; stand aside."
+  },
+  "timestamp": "2026-07-13T20:04:10.768606+00:00"
+}

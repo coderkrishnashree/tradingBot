@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "AAPL/USDT:USDT",
+  "size": 0.0,
+  "entry": 317.62,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.55,
+  "playbook": "trend",
+  "forecast": "Price spiked to 319.29 on volume then faded to 317.6; into thin pre-open tape expect a drift/pullback toward the 316.3-316.5 breakout shelf/VWAP over 2-4 bars before the uptrend resumes toward 319-323.",
+  "expectancy_note": "p(win)~0.5 chasing now vs ~0.6 buying the 316.3 retest; not chasing an extended thrust into thin pre-open beats a market entry at the band.",
+  "rationale": "AAPL is the cleanest long in the group (ADX 54, all TFs up, rel-strength +5.2% vs BTC, btc-corr 0.11, crowd-neutral L/S 0.97), but price just ran to 319.29 and faded, sitting at bb %B 0.94 in thin pre-US-open tape. Market-buying here is the account's #1 loss pattern (chasing a completed thrust into a pullback). Best expectancy is to wait for the 316.3-316.5 shelf/VWAP retest to hold, or a liquid reclaim of 319.3.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 319.3,
+    "expires_min": 300,
+    "note": "A liquid reclaim of 319.29 confirms the uptrend resuming and opens the run to 323.2."
+  },
+  "transcript": {
+    "macro": "RISK-ON but early/thin (scan 09:29 UTC, pre-US-open; tokenized equities thin till 13:30 UTC). June CPI cool (-0.4% m/m) drove relief rally, Nasdaq +0.9%, semis led. BTC ~$64.8k +3.6%, funding flat. Event risk 48h: ASML today, TSMC/Netflix Jul 16. AAPL cleanest long (rel-strength +5.2%, RSI 60, crowd-neutral) but supportive-on-dips, don't chase.",
+    "sentiment": "Risk-on on soft CPI. AAPL no <=48h catalyst; earnings Jul 30 (outside window), guidance +14-17% rev. Sentiment neutral-to-mildly-bullish, PT ~$315 vs price ~$317 (little analyst upside). Near-term NEUTRAL, rides broad tape.",
+    "analyst": "AAPL is the cleanest long but just spiked to 319.29 and faded to 317.6 at the upper band (bb %B 0.94) in thin pre-open tape. Chasing here is the book's #1 loss pattern. HOLD until a 316.3 shelf/VWAP retest holds or a liquid 319.3 reclaim; then long with ~1.5x-ATR stop below 314.5 into 319/323 for R:R>1.5.",
+    "portfolio": "AAPL: HOLD (conf 0.55) \u2014 cleanest long but no chase; armed reconsider on 319.3 reclaim."
+  },
+  "timestamp": "2026-07-15T09:35:42.469250+00:00"
+}

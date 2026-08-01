@@ -1,0 +1,28 @@
+{
+  "symbol": "EWY/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.5,
+  "size": 0.0,
+  "entry": 170.83,
+  "stop_loss": 0.0,
+  "take_profit": 0.0,
+  "take_profit_1": 0.0,
+  "take_profit_2": 0.0,
+  "playbook": "none",
+  "forecast": "Shallow VWAP grind, 170.6-171.9 chop, until the TSMC guidance print (7/16 ~02:00 ET) forces a directional gap; no clean move inside the next few bars.",
+  "expectancy_note": "p(win) ~0.45 for a mid-range short at VWAP; no honest sub-1.5xATR-stop R:R exists here and a binary event <30h away with off-hours gap risk makes any entry negative expectancy vs waiting.",
+  "rationale": "EWY is a TSMC read-through hostage: ~50% of KOSPI is Samsung/SK Hynix and direction is outsourced to tomorrow's guidance, so shorting now means holding through a two-sided gap on thin pricing. Price sits exactly at VWAP (0.01%), mid-Bollinger (%B 0.40), RSI 51, ADX only 26 - no clean level to short from and LTF RSI (5m 29.9, 1h 33.1) is already stretched, so a market short here is chasing into a bounce ahead of the event. The short bias is real but event-contingent; both macro and sentiment say size down / event-gate, so the highest-expectancy action is to wait for the print or a confirmed structure break.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 170.1,
+    "expires_min": 240,
+    "note": "Losing the 170.6/170.1 intraday shelf confirms the VWAP fade is resuming with room toward the 1h short structure - re-debate a short entry there rather than mid-range."
+  },
+  "transcript": {
+    "macro": "Regime risk-on but late-stage/fragile; Fed HOLD 3.50-3.75%, soft July CPI; risk appetite 99th pct. EWY (~170): KOSPI in fast local drawdown -21% to -25% off highs on chip profit-taking, won weak, ~50% index Samsung/SK Hynix, levered to TSM 7/16 print. Scan short bias -0.306. SHORT bias but event-contingent, size down. Regime: MIXED, semis event-gated into TSM 7/16.",
+    "sentiment": "EWY catalyst-linked to TSM; KOSPI +86% YTD but -21% off highs on chip profit-taking; direction outsourced to TSMC guidance 7/16 (~02:00 ET) read-through catalyst. Gap risk on TSMC reaction, thin off-hours pricing. No Korea-specific binary in 48h. Verdict: NEUTRAL-to-BEARISH (hostage to TSMC read-through).",
+    "analyst": "Composite short (-0.306, conf 40.6%, p_win 0.444), regime trend, ADX 26.3, RSI 51, %B 0.40, VWAP dist +0.01% (at VWAP), ATR% 2.87. Price drifting lower in shallow grind holding 170.6-170.7; chop not decisive move; LTF RSI (5m 29.9, 1h 33.1) already stretched short. Decisive fact: TSMC read-through hostage into 7/16 guidance <30h away with off-hours gap risk. No clean level to short mid-range at VWAP; shorting into two-sided event gap is negative expectancy. HOLD; re-debate on break below 170.6/170.1 shelf.",
+    "portfolio": "EWY: HOLD (conf 0.50) - event-gated into TSM 7/16, no clean mid-range short edge."
+  },
+  "timestamp": "2026-07-15T22:05:51.855705+00:00"
+}

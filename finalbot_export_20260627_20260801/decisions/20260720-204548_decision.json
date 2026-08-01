@@ -1,0 +1,28 @@
+{
+  "symbol": "BTC/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.5,
+  "size": 0.0,
+  "entry": 65358.5,
+  "stop_loss": 0.0,
+  "take_profit": 0.0,
+  "take_profit_1": 0.0,
+  "take_profit_2": 0.0,
+  "playbook": "none",
+  "forecast": "Price rebounded off the 65013-65030 higher-low base and is grinding back toward the 65769 resistance ceiling; expect a test/rejection of 65769 within 2-4 bars given the -0.81 orderbook imbalance, then either a clean breakout continuation or a fade back toward 65000.",
+  "expectancy_note": "No entry: long is extended (bb%b 0.94, RSI 64.6, +1.18% vs VWAP, stoch 80) into hard resistance with deep sell-side overhead - chasing gives ~0.6 ATR to ceiling, sub-1.5 R:R; short lacks exhaustion confirmation vs a live uptrend. HOLD until the ceiling resolves.",
+  "rationale": "Trend structure is long (30m/1h/4h up, p_win 0.616) and candles show a constructive higher-lows recovery, but price sits pinned under 65769 resistance while orderbook imbalance is -0.81 and macro/sentiment are risk-off (F&G 29, Iran/oil shock) - the chase-into-overhead trap this account bleeds on. R:R for a long here (~$410 to resistance vs a ~$670 ATR stop) fails the 1.5x test; wait for a decisive break of the ceiling to enter WITH the trend. Size 0 because neither side offers honest R:R now.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 65769.3,
+    "expires_min": 240,
+    "note": "A 15m/30m close above 65769 clears the sell-side overhead and confirms breakout continuation, turning the extended HOLD into a valid trend-long entry on the retest of 65769."
+  },
+  "transcript": {
+    "macro": "Risk-neutral-to-defensive tape on Iran/oil shock. Crypto constructive-not-euphoric: BTC ~$65k, funding neutral (~4e-5), OI flat (~$46-49B), long/short mildly long (~1.18x) - no crowded-leverage squeeze, real spot-led bid. BTC long-biased on trend BUT orderbook imbalance -0.81 into resistance ~$65.8k. No FOMC.",
+    "sentiment": "Overall risk-off near-term. BTC ~$64k, F&G 29 (Fear), structurally below EMA200; no specific 48h catalyst, sentiment cautious/soft, a drag on crypto-beta longs.",
+    "analyst": "Trend long (30m/1h/4h up, p_win 0.616) with a constructive higher-lows recovery, but pinned under 65769 resistance with -0.81 orderbook overhead and risk-off macro = chase-into-overhead trap. Long ~$410 to resistance vs ~$670 ATR stop fails 1.5x; short lacks exhaustion. HOLD; arm long on a decisive break above 65769.",
+    "portfolio": "HOLD BTC - extended into 65.8k resistance with heavy overhead; wait for a breakout to go long."
+  },
+  "timestamp": "2026-07-20T20:45:48.036108+00:00"
+}

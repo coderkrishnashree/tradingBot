@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "QQQ/USDT:USDT",
+  "size": 0.0,
+  "entry": 689.15,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.34,
+  "playbook": "none",
+  "forecast": "Quiet intraday grind continues in the 684-692 range; last 20 15m bars drift up on thin volume near support 683.88. Expect coiling/chop into Wed's FOMC+MSFT+META triple binary; only a break of 683.88 opens the next 4h-trend leg down toward ~678.",
+  "expectancy_note": "Short here (689, just above support, into an active intraday bounce with crowd already short 0.55 L/S) is the account's classic late-short-stopped-by-bounce loser: ~5pt to TP1 vs a wider honest stop = sub-1.5 R:R; long fights the 4h downtrend/macro. No positive-expectancy trade until structure breaks.",
+  "rationale": "QQQ is a tokenized equity, so crypto structure metrics carry little weight; I lean on technicals + macro. The 4h is clearly bearish (-0.88, RSI 41.9, MACD -3.75) with a firm macro/sentiment headwind, but price is grinding UP intraday off support 683.88 and sitting mid-range, so a market short is a chase into a bounce with poor R:R, and a long fights the trend into a compressed-vol event window. Best expectancy is to wait: a clean loss of 683.88 confirms the downtrend resuming and gives a real short, so I arm that trigger rather than force a trade before Wed's FOMC/MSFT/META binaries.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 683.88,
+    "expires_min": 240,
+    "note": "Losing intraday support 683.88 breaks the range low and confirms the 4h downtrend resuming - clean short entry on the retest with target toward ~678."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF leaning, USD firm (DXY ~101.5, 10y ~4.69%), Nasdaq -1.1% Fri on chip sell-off. QQQ lean HEADWIND for longs - worst macro setup of the four: rising yields, chip-led sell-off, firm DXY, inflation fear all against tech. QQQ lags BTC (-6.6%), 4h trend down (-0.88), structure_bias only mildly long (0.19) on short-skewed L/S 0.55. Smaller size / fade-the-rally bias.",
+    "sentiment": "BEARISH near-term. Nasdaq just slid ~4%, IT ~3.8%; Alphabet (Jul 22) beat revenue but raised capex to $195-205B, feeding AI-spend-with-negative-FCF jitters. MSFT + META report Wed Jul 29 after close, stacked on same-day FOMC - decisive binaries. Compressed vol into then, then a large move; until cleared, momentum/news flow lean risk-off. QQQ-EWJ corr 0.698.",
+    "analyst": "Tokenized equity - crypto structure metrics weak signal. 4h clearly bearish (-0.88, RSI 41.9, MACD -3.75) with macro headwind, but price grinds UP intraday off support 683.88, mid-range, crowd already short (L/S 0.55) = squeeze fuel. Shorting 689 is the late-short-into-bounce loss pattern; longing fights the trend into a triple binary (FOMC+MSFT+META Wed). Short R:R sub-1.5. HOLD; arm short trigger below 683.88.",
+    "portfolio": "HOLD QQQ - bearish 4h/macro but intraday grind up off support into Wed FOMC+MSFT+META binaries; no edge, arm short on break <683.88."
+  },
+  "timestamp": "2026-07-26T00:34:14.474717+00:00"
+}

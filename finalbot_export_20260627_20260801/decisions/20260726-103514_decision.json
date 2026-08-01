@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "TSLA/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Thin weekend pop to 316.4 (last 15m bar +2.2 on low volume, LTF RSI 80+) is a liquidity spike, not real discovery; expect it to stall and fade back toward the 313-314 breakout line over the next few bars, and if that fails, drift toward 311/307 into Monday's real open where gap risk is two-sided.",
+  "expectancy_note": "Directional edge is SHORT (4h down, RSI 39.9, weakest name -25% RS, crowded longs + positive funding bleeding), but shorting a 1-bar weekend spike at market with no exhaustion + Monday gap risk is negative-EV; waiting for 314 to fail turns a ~0.45 chase into a ~0.6 fade with tighter stop.",
+  "rationale": "TSLA is the least-supported name: post-earnings 4h downtrend, relative strength -25%, structure_bias -0.35 (elevated positive funding + 2.57 long/short = crowded longs paying up into weakness). But price just spiked +2.2 on thin Sunday liquidity with LTF RSI 80+, US cash closed, no price discovery until Monday and real gap risk both ways. Shorting into the fresh green pop at market is the account's proven loss pattern (late shorts stopped by the bounce; short bucket win-rate 0.47). Highest-expectancy action is to HOLD and arm the short for the moment the thin pop fails back under the 314 breakout line, confirming the fade toward 307 support.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 313.0,
+    "expires_min": 300,
+    "note": "Losing 313 fails the thin-weekend breakout (314.28) and reasserts the post-earnings 4h downtrend, arming a short toward 311/307 with a stop back above the pop high ~317."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF, Sunday July 26 2026 \u2014 US cash CLOSED, tokenized equity thin/gappy, gaps on Monday open. TSLA ~316. relative_strength -25.15 vs BTC \u2014 weakest name in the scan. structure_bias -0.347: funding positive/elevated (0.000198, longs paying) + long/short 2.57 crowded long \u2014 bad combo, longs bleeding into a 4h downtrend (RSI 39.9, -2.4% below VWAP). Q2 (July 22) big EPS miss, op profit -57%, negative FCF, -14.5% on print. Least-supported trade of the four; hostile either way.",
+    "sentiment": "Q2 2026 (July 22): deliveries beat (480k vs ~406k) but EPS missed hard (33c vs 51c), first cash burn in 2yrs (-$1.09B FCF), capex +142%. Stock -14.5% July 24, ~-18% on week. Piper cut PT to $450 (long-horizon, not a trade trigger). Binary event already fired \u2014 no scheduled catalyst next 48h. Remaining: negative post-earnings drift + short interest, Optimus start (undated). Near-term leans bearish/continuation but shock 2-4 days old, partly digested.",
+    "analyst": "Directional edge is SHORT (4h down, weakest RS -25%, crowded longs + positive funding). But price just spiked +2.2 on thin Sunday liquidity (LTF RSI 80+), US closed, no discovery until Monday, two-sided gap risk. Shorting a 1-bar green pop at market with no exhaustion is the account's proven loss pattern (short bucket win 0.47). HOLD and arm the short below 313 where the thin breakout fails and the 4h downtrend reasserts toward 307.",
+    "portfolio": "TSLA: HOLD (conf 0.60) \u2014 short is the right side but won't chase a thin weekend pop; armed short below 313."
+  },
+  "timestamp": "2026-07-26T10:35:14.036806+00:00"
+}

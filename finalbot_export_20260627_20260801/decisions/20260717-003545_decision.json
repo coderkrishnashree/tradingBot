@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "EWJ/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.32,
+  "playbook": "none",
+  "forecast": "Price is pinned on 90.51 support with RSI 13.5 and a bullish divergence on near-zero volume; most likely it chops/base-builds 90.5-91.9 into the Asia session rather than making a clean directional move in the next few bars.",
+  "expectancy_note": "No edge either way: short = chasing an exhausted, oversold breakdown at support (account's #1 loser); long = countertrend knife-catch in a risk-off regime with gap risk. p(win) ~0.5, no honest 1.5R structure, so HOLD is highest expectancy.",
+  "rationale": "EWJ is a semi-adjacent Asia risk-beta echo (composite conf 2.1, aligned=false, corr to QQQ 0.62) with no own-candle signal \u2014 per-TF scores are flat (-0.02 to -0.08). It sits directly on 90.51 support, RSI 13.5, %B below the band, stoch 1.3, bullish divergence: stretched to the downside, so a short risks a mean-reversion bounce into any honest stop, while a long fights a risk-off tape with real overnight gap risk on essentially zero volume. No clean level-to-target R:R justifies size; wait for the level to resolve.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 90.5,
+    "expires_min": 240,
+    "note": "A decisive break/close under 90.51 support ends the base and confirms the next downleg \u2014 enables a short on a retest of broken support rather than chasing here."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF / semis-led valuation selloff; HOSTILE for longs, supportive for trend-down but squeeze risk on the oversold cluster. Off-hours/Asia-session = gap/liquidity risk. EWJ: Japan/Nikkei fell in the same AI selloff with a mid-week V-recovery; corr EWY 0.55, semi/QQQ ~0.62 \u2014 Asia risk-beta / semi-adjacent. In market_scan EWJ composite conf LOW (2.1), mildly negative/flat per-TF signals \u2014 weak/mixed own-candle signal.",
+    "sentiment": "Same AI-bubble contagion. Nikkei slumped two straight days toward ~68,863 on tech-bubble fears after all-time highs (Kioxia/Advantest/Tokyo Electron/Keyence-led). EWJ ~$94. BOJ hiked to 0.75% (Dec 2025), inflation >2% for 44 months, appetite for steady hikes through 2026 \u2014 slow tightening drift, no scheduled <=48h BOJ binary. Unhedged EWJ carries yen risk (hedged DXJ beating it ~6pts YTD). Near-term neutral-to-negative, driven by the semi selloff, less violent than EWY.",
+    "analyst": "Price pinned on 90.51 support, RSI 13.5, %B below band, stoch 1.3, bullish divergence, on near-zero volume. Short = chasing an exhausted oversold breakdown at support; long = countertrend knife-catch in a risk-off regime with gap risk. No own-candle signal (per-TF flat), no honest 1.5R. HOLD; a decisive break below 90.51 arms a retest short.",
+    "portfolio": "HOLD EWJ \u2014 illiquid semi-beta echo pinned on support, no edge; wait for a break of 90.51."
+  },
+  "timestamp": "2026-07-17T00:35:45.029047+00:00"
+}

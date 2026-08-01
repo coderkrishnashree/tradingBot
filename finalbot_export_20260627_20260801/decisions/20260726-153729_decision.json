@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "AAPL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.62,
+  "playbook": "none",
+  "forecast": "Thin weekend tape: price coils 332.4-333.0 just under 335.34 resistance with no momentum; most likely drifts sideways/small until Monday cash open, no clean directional edge over the next few candles.",
+  "expectancy_note": "No positive-expectancy setup: long into 85.9 RSI at resistance is chasing (account's #1 loser), short lacks reversal confirmation vs ADX 83 uptrend; weekend gap/mispricing risk + FOMC 7/28 + earnings 7/30 skew EV negative.",
+  "rationale": "AAPL is extremely overbought (4h RSI 85.9, stoch 90) pinned under $335.34 resistance on a dead, low-volume weekend tape while US equities are closed (thin/gappy/mispricing-prone). Macro is HOSTILE for fresh longs and there is no divergence or exhaustion candle to justify a fade short into a strong ADX-83 uptrend. Learned p_win is only 0.426 and there is no concrete next-move to express, so the highest-expectancy action is to stand aside; size 0.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 335.34,
+    "expires_min": 240,
+    "note": "A clean break/hold above the 335.34 resistance proves buyers absorbed the overbought reading and momentum is resuming - re-debate for a breakout-continuation long or a blow-off fade setup."
+  },
+  "transcript": {
+    "macro": "Regime MIXED->HOSTILE; Sunday, US equities CLOSED, tokenized AAPL thin/gappy until Monday open. AAPL hostile for fresh longs: RSI 85.9 (4h) extremely overbought at resistance $335.3; earnings July 30 post-close; near-zero BTC corr (-0.09). Weekend-closed + overbought + earnings = do not chase.",
+    "sentiment": "Overall RISK-OFF. AAPL neutral near-term, event risk looming: no fresh catalyst; earnings July 30 after close (Tim Cook's last call; ~$1.89 EPS). Do NOT hold into the print without intent. RSI stretched (85).",
+    "analyst": "Pinned under $335.34 resistance, 4h RSI 85.9 / stoch 90 on dead-volume weekend tape, US equities closed (gap/mispricing risk). No reversal confirmation to fade short against ADX-83 uptrend; no concrete next move on coiling 15m candles. Learned p_win 0.426. Hold; reconsider on break above 335.34.",
+    "portfolio": "HOLD AAPL (conf 0.62) - overbought at resistance, thin weekend + earnings 7/30; no edge."
+  },
+  "timestamp": "2026-07-26T15:37:29.868153+00:00"
+}

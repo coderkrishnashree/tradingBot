@@ -1,0 +1,25 @@
+{
+  "action": "hold",
+  "symbol": "SOL/USDT:USDT",
+  "size": 0.0,
+  "entry": 80.44,
+  "stop_loss": 82.55,
+  "take_profit": 77.5,
+  "confidence": 0.4,
+  "playbook": "trend",
+  "expectancy_note": "Short bias is right (multi-TF short, ADX 34 trend, crowded 2.07 longs = liquidation fuel, structure_bias -0.318) but entry is wrong: price is jammed ON support 80.09 at 80.44 \u2014 shorting here risks only ~0.35 to support with a stop that must sit >1xATR away, giving negative R:R, plus F&G 15 extreme-fear bounce risk and the July 8 FOMC binary in-window. Wait to short a bounce into 81.5-82 (VWAP/resistance) or a confirmed support break; no edge chasing here.",
+  "rationale": "SOL is directionally short (5m/15m/30m/1h short, 4h flat, RSI 42, ADX 34 trend, heavily lopsided 2.07 long/short = downside liquidation risk, structure_bias -0.318) and BTC-beta (corr 0.775) into a risk-off Bitcoin-Season tape \u2014 but it's sitting right on support (80.09) at 80.44, a poor place to initiate a short: the natural stop above the 81.66/82.5 shelf is ~2.5-3% away while the immediate downside to support is tiny, so R:R at this exact spot is unattractive. Add the July 8 FOMC-minutes binary inside the 48h window and extreme-fear (F&G 15) oversold-bounce risk, and there's no reason to carry naked risk from a bad entry. Best expectancy is to wait: a bounce into 81.5-82 offers a clean short into the crowded longs, while a reclaim of 82.5 invalidates the short thesis entirely.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 81.66,
+    "expires_min": 240,
+    "note": "A bounce back to the 81.66 resistance gives a proper short entry into the lopsided-long structure (stop above 82.5, target back toward 78-77.5); crossing it is the re-debate trigger. A decisive reclaim/hold above 82.5 would flip the short thesis toward neutral/long."
+  },
+  "transcript": {
+    "macro": "Regime: BTC.D ~55.5-58%, Bitcoin Season (Altcoin Season Index ~46) \u2014 capital in BTC, headwind for alt longs. Risk-off/corrective lean, hawkish Warsh Fed (easing bias dropped, some officials projecting a hike). Dated catalysts in-window: FOMC minutes Jul 8 2pm ET, June CPI Jul 14. SOL derivs: funding ~+0.003% (near-flat), OI high but flat-to-down (~$5.4B, -1.2%/day = consolidation), long/short ~2.07-2.22 (heavily lopsided long = downside liquidation risk, loudest signal), book imbalance -0.019 (neutral), structure_bias -0.318 (net short-supportive). btc_corr 0.775 (BTC-beta), rel_strength -1.21 (lagging BTC). Verdict: RISK-OFF \u2014 if positioned, favor short over long and cut size; don't carry naked over Jul 8.",
+    "sentiment": "Tone bearish-to-fragile risk-off. BTC broke <$60K, opened July ~$58K (>50% off Oct-2025 peak) on hawkish macro (9/18 Fed officials signaling a 2026 hike, hot May PCE 4.1%, BoJ to 1%). Fear & Greed ~15 (extreme fear); crypto ETFs bled ~$4.4B over ~13 sessions. SOL 0.78-corr to BTC \u2014 trades the macro tape. Near-term binary: FOMC minutes Wed Jul 8 2pm ET (options call-heavy, so not-as-hawkish surprise = upside squeeze risk). SOL-specific news longer-horizon (ETFs ~$1.1B inflows / MS low-fee filing = slow-burn 'ETF paradox'; Alpenglow Q3, Kazakhstan MOU = multi-week). No fresh hack/unlock. SOL reclaimed $80 on -29% volume; $82.49 is the resistance to break to validate a bounce. Verdict: event-risk / lean-bearish; stop above ~$82.5 respects the oversold-bounce hazard.",
+    "analyst": "Directional read is short (5m/15m/30m/1h short, 4h flat, RSI 42, ADX 34 trend regime, crowded 2.07 longs = liquidation fuel, structure_bias -0.318, BTC-beta corr 0.775) into a risk-off Bitcoin-Season tape \u2014 but the entry is the problem: price is pinned ON support (80.09) at 80.44, so a short here risks only ~$0.35 to support while the natural stop above the 81.66/82.5 shelf sits ~2.5-3% away = unattractive negative R:R. Add the July 8 FOMC-minutes binary in-window and F&G 15 extreme-fear bounce risk and there's no edge chasing a short at the level. HOLD with an armed reconsider: a bounce into 81.66 offers a clean short into the crowded longs (stop >82.5, target 78-77.5); a decisive reclaim of 82.5 invalidates the short thesis.",
+    "portfolio": "SOL/USDT:USDT \u2014 HOLD (conf 0.40): short bias correct but entry pinned on support with poor R:R + July 8 FOMC binary; wait for a bounce to 81.66 to short into crowded longs."
+  },
+  "timestamp": "2026-07-06T06:18:19.251870+00:00"
+}

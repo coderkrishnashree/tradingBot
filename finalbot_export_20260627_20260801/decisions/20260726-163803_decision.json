@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "XAUT/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Fresh micro-breakout of a very tight coil (BBW 0.78%) \u2014 last two 15m bars popped 4053->4059 on 3x volume, but 15m RSI is already 89 and the move is unconfirmed. Expect a stall/small fade back toward 4053-4054 VWAP over 1-3 bars; a hold there or a clean push through 4066 confirms; failure back under 4053 kills it.",
+  "expectancy_note": "Chasing a $6 pop into 15m RSI 89 with only 0.18% ATR (~$7 stop room) has poor R:R \u2014 a routine bounce-back stops it before resistance 4155; wait for pullback-hold or confirmed extension.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 4066.0,
+    "expires_min": 240,
+    "note": "Holding above 4066 (clear of the coil top and initial breakout exhaustion) confirms real continuation and justifies a long toward 4090+/resistance rather than a chase into overbought."
+  },
+  "rationale": "XAUT is in a squeeze (regime_blocked) with a genuine but micro breakout at 4057; the tiny ATR ($7) leaves no room to place an honest stop beyond structure without being knocked out by normal noise, and entering now means buying at the most stretched LTF reading (15m RSI 89) into crowded longs (L/S 2.54) \u2014 the account's classic late-entry loss. Two-sided macro (safe-haven bid vs hawkish Fed) with FOMC Jul 30 not yet a 48h binary offers no directional edge. Best expectancy is to wait for a reclaim/hold above 4066.",
+  "transcript": {
+    "macro": "Gold ~$4,066-4,130 (+21% YoY). Supported by safe-haven bid (ongoing US-Iran conflict) but hawkish Fed + firm USD is a headwind. FOMC next week is the swing factor.",
+    "sentiment": "XAUT neutral, two-sided. ~$4,130, safe-haven demand vs dollar strength/hawkish Fed; banks CUT year-end targets (GS $4,900, JPM $4,500). FOMC Jul 30 is the catalyst. No <=48h binary. Neutral.",
+    "analyst": "Squeeze (regime_blocked) with a genuine but micro breakout at 4057; ATR only ~$7 so no room for an honest structural stop, and entry is at 15m RSI 89 into crowded longs (L/S 2.54) = classic late-entry loss. Two-sided macro, FOMC not yet a 48h binary. HOLD; arm 4066 reclaim.",
+    "portfolio": "HOLD XAUT \u2014 micro-breakout already stretched (15m RSI 89), tiny ATR; wait for a hold above 4066."
+  },
+  "timestamp": "2026-07-26T16:38:03.419223+00:00"
+}

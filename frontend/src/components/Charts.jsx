@@ -12,16 +12,58 @@ import { fmt } from "../api";
 
 ChartJS.register(LineElement, PointElement, LinearScale, CategoryScale, Filler, Tooltip);
 
+// Neon glow for the line itself — drawn with a canvas shadow, restored after.
+const glowPlugin = {
+  id: "holoGlow",
+  beforeDatasetDraw(chart, args) {
+    const c = chart.ctx;
+    c.save();
+    const ds = chart.data.datasets[args.index] || {};
+    c.shadowColor = typeof ds.borderColor === "string" ? ds.borderColor : "rgba(0,229,255,0.8)";
+    c.shadowBlur = 8;
+  },
+  afterDatasetDraw(chart) {
+    chart.ctx.restore();
+  },
+};
+ChartJS.register(glowPlugin);
+
 const baseOpts = {
   responsive: true,
   maintainAspectRatio: false,
-  plugins: { legend: { display: false }, tooltip: { mode: "index", intersect: false } },
-  scales: {
-    x: { ticks: { color: "#64748b", maxTicksLimit: 6 }, grid: { color: "#161f2e" } },
-    y: { ticks: { color: "#64748b" }, grid: { color: "#161f2e" } },
+  plugins: {
+    legend: { display: false },
+    tooltip: {
+      mode: "index",
+      intersect: false,
+      backgroundColor: "rgba(4,16,26,0.92)",
+      borderColor: "rgba(0,229,255,0.35)",
+      borderWidth: 1,
+      titleColor: "#7df9ff",
+      bodyColor: "#e2e8f0",
+      titleFont: { family: "'Share Tech Mono', monospace" },
+      bodyFont: { family: "'Share Tech Mono', monospace" },
+    },
   },
-  elements: { point: { radius: 0 } },
+  scales: {
+    x: { ticks: { color: "#5b7a8c", maxTicksLimit: 6 }, grid: { color: "rgba(0,229,255,0.05)" } },
+    y: { ticks: { color: "#5b7a8c" }, grid: { color: "rgba(0,229,255,0.05)" } },
+  },
+  elements: { point: { radius: 0, hoverRadius: 4, hoverBackgroundColor: "#00e5ff" } },
 };
+
+// Vertical gradient fill under a line: color → transparent.
+function gradientFill(rgb) {
+  return (ctx) => {
+    const { chart } = ctx;
+    const { ctx: c, chartArea } = chart;
+    if (!chartArea) return `rgba(${rgb},0.1)`;
+    const g = c.createLinearGradient(0, chartArea.top, 0, chartArea.bottom);
+    g.addColorStop(0, `rgba(${rgb},0.28)`);
+    g.addColorStop(1, `rgba(${rgb},0.0)`);
+    return g;
+  };
+}
 
 // Turn the equity snapshots into an equity line + a drawdown line.
 function derive(equityRows) {
@@ -54,10 +96,10 @@ export default function Charts({ equity }) {
                 datasets: [
                   {
                     data: eq,
-                    borderColor: "#3b82f6",
-                    backgroundColor: "rgba(59,130,246,0.12)",
+                    borderColor: "#00e5ff",
+                    backgroundColor: gradientFill("0,229,255"),
                     fill: true,
-                    tension: 0.25,
+                    tension: 0.3,
                     borderWidth: 2,
                   },
                 ],
@@ -80,10 +122,10 @@ export default function Charts({ equity }) {
                 datasets: [
                   {
                     data: drawdown,
-                    borderColor: "#ef4444",
-                    backgroundColor: "rgba(239,68,68,0.15)",
+                    borderColor: "#ff3b5c",
+                    backgroundColor: gradientFill("255,59,92"),
                     fill: true,
-                    tension: 0.25,
+                    tension: 0.3,
                     borderWidth: 2,
                   },
                 ],

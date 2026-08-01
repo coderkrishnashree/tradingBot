@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "SNDK/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Parabolic blow-off: price 5.5% above VWAP with %B 1.23, stoch 99, LTF RSI pinned 87-99. Expect either a few more melt-up ticks toward 1475-1490 then a sharp mean-reversion, or a rejection back to the 1457 breakout pivot within 2-4 bars.",
+  "expectancy_note": "Long = chasing a vertical +5.5% VWAP extension (account's #1 loss pattern); short = knife-catching ADX 70 momentum that just closed at highs with no reversal. Both negative-expectancy now; HOLD wins.",
+  "rationale": "SNDK just ran ~5% in 20 bars into a blow-off (bb %B 1.23, stoch 99.3, all LTF RSI near max, vwap +5.5%, ATR 2.57%). Composite is flat/unaligned (conf 3.3, align 0.7) and no catalyst inside 48h (earnings Aug 5). Chasing the long risks a routine counter-bounce stopping any honest stop; fading a parabola closing at highs with ADX 70 has no confirmation. Orderbook is heavy sell-side (-0.635), hinting an eventual pullback, but wait for price to break the base before committing.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 1457.74,
+    "expires_min": 240,
+    "note": "Losing the breakout pivot proves the parabola failed and opens a short-the-reversal setup on this stretched tape."
+  },
+  "transcript": {
+    "macro": "NEUTRAL tilting risk-off. US-Iran conflict spiking oil (WTI ~$83-85) reviving inflation/hike fear; higher long-end yields + firm dollar pressure equity multiples & metals. US indices digesting near highs (S&P -0.19%, Nasdaq -0.05%). Key events <48h: GOOGL earnings Wed Jul 22 AC, TSLA Jul 22 AC, INTC Jul 23 AC; FOMC Jul 28-29 (market pricing hike RISK, not cuts). BTC ~$65.5k pinned under $65.8k resistance, dominance ~56.5%, Fear & Greed 25 (Extreme Fear), funding benign; crypto-beta names crowded long -> squeeze risk to downside if BTC stalls. Semis (NVDA/MU/INTC/SNDK) move as a pack, headline-fragile. CL structurally bid on Hormuz supply fear (hostile to shorts). XAG near 8-month lows, capped by dollar/yields. Tokenized-equity perps thin/gappy overnight (scan 03:38 UTC).",
+    "sentiment": "Risk-off/cautious. Only tradable <=48h binaries are GOOGL (Jul 22 AC) and INTC (Jul 23 AC, ~15% implied move), both casting a shadow over beta names (QQQ, NVDA, MU, SNDK, crypto). MSFT (Jul 13) & MU (blowout Q3) already reported - no fresh binary. COIN Jul 30, HOOD Jul 29, SNDK Aug 5 all OUTSIDE the window (don't hold into next week). MSTR flipped to SELLING BTC (largest since 2022) - sentiment negative. CL live geopolitical gap risk both ways, supply-shock skew up. XAG coiled in a triangle (breakout >61 / breakdown <55.7), no dated catalyst. No hacks/exploits/large delistings flagged.",
+    "analyst": "SNDK 1473.69, composite flat conf 3.3, not aligned, ADX 70.1, RSI 74.7/5m 99.4, stoch 99.3, %B 1.234, VWAP +5.5%, ATR 2.57%, orderbook -0.635 (heavy sell-side). Near-vertical blow-off, no catalyst <48h (Aug 5). No honest R:R either way => HOLD, reconsider on loss of 1457.74.",
+    "portfolio": "SNDK: HOLD - parabolic +5.5%-over-VWAP blow-off, flat composite; wait for a break of 1457.74."
+  },
+  "timestamp": "2026-07-21T03:47:57+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "EWY/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Price is mid-range (~168) fading off 168.20 in lower-highs; expect chop between the 167.6 intraday shelf and 168.2 over the next few bars, then likely a drift toward support 167.6/160 area if risk-off persists, but no clean entry mid-range.",
+  "expectancy_note": "No edge: composite long is weak/unaligned (0.288, MACD neg) while macro is bearish \u2014 bull and bear roughly cancel; shorting mid-air ~7pts above support is <1.5R and thin/gappy off-hours kills expectancy.",
+  "rationale": "EWY is a semis-heavy Korea ETF (treat as equity; crypto structure irrelevant) sitting at VWAP mid-range with a weak, timeframe-unaligned long composite and negative near-term MACD \u2014 no level to lean on for either side. Risk-off macro (Nasdaq -2%, chip sell-off, crowded-long book) argues down, but with support 160.15 seven points below and thin weekend/off-hours gappy liquidity, a mid-air short has poor R:R and a mid-range long fights the tape. Highest-expectancy action is to wait for a decisive break of the intraday shelf.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 167.6,
+    "expires_min": 240,
+    "note": "Losing the recent intraday swing low confirms the risk-off fade is extending \u2014 arms a short toward 160.15 support"
+  },
+  "transcript": {
+    "macro": "RISK-OFF/cautious tape 2026-07-26: Nasdaq -2% wk, chip sell-off. EWY (S.Korea) rides chip/Asia-tech beta. China PMIs Fri, BoJ Fri. Weekend gap before Monday cash open; ETF perps thin/gappy off-hours. Crowded-long book into risk-off. Verdict: CAUTIOUS/FLAT-to-lean-SHORT.",
+    "sentiment": "Crypto EXTREME FEAR; equities risk-off in Asia tech on AI-capex worries. EWY semis-heavy (Samsung/SK Hynix); rallied then faded with regional tech late July; SK Group-NVDA AI deal a tailwind. Choppy risk-sentiment proxy; no single-name binary.",
+    "analyst": "Semis-heavy Korea ETF at VWAP mid-range with a weak, TF-unaligned long composite (0.288) and negative near-term MACD \u2014 no level to lean on. Risk-off macro argues down, but support 160.15 is 7pts below and off-hours liquidity is thin/gappy, so a mid-air short is <1.5R and a mid-range long fights the tape. Wait for a decisive break of the 167.6 shelf.",
+    "portfolio": "EWY: HOLD 0.50 \u2014 bull/bear cancel mid-range; armed to short on loss of 167.6."
+  },
+  "timestamp": "2026-07-26T21:08:42.027538+00:00"
+}

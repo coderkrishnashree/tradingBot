@@ -1,0 +1,28 @@
+{
+  "symbol": "AAPL/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.6,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "none",
+  "forecast": "Base at 324.3-325.3 for a few bars; either a divergence bounce reclaims VWAP ~328.3 (long) or 324.3 gives way to resume the downtrend toward 320. Off-hours dead tape (last bar vol 1.35).",
+  "expectancy_note": "Short = chasing a -0.92% below-VWAP flush into RSI 32 + bullish divergence = the account's classic late-short bounce-out. Long has no confirmation vs ADX 55 downtrend. HOLD + armed trigger is highest expectancy.",
+  "rationale": "Strong downtrend (ADX 55, all TFs short) but price is stretched to the downside with a bullish divergence, RSI 32, stoch 26 and stabilizing at 324-325 -- the setup that has repeatedly stopped this account's late shorts on the bounce. No clean support test to fade long either (312 far below), and it's a thin tokenized stock off US hours with near-dead last-bar volume. R:R unfavorable both directions; wait for the tape to declare.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 328.3,
+    "expires_min": 240,
+    "note": "Reclaiming VWAP confirms the bullish divergence and kills the short thesis -- flips to a long-the-bounce toward 333-339."
+  },
+  "transcript": {
+    "macro": "OVERALL REGIME (2026-07-22): RISK-OFF/defensive, geopolitically driven. Hawkish Fed into FOMC July 29 (CME ~24% July hike odds, ~69% by Sept), DXY 13-mo high, 10yr ~4.5%. Middle East escalation (11th night of US strikes on Iran, Hormuz tanker risk) bidding oil + safe-havens, pressuring equities/crypto. Semis leading the selloff (SOX -1.7%, Nasdaq-100 ~-1%). GOOGL+TSLA earnings tonight, INTC tomorrow AC, FOMC next week = event cluster. Recurring flag: L/S ratio lopsidedly long (2.1-3.4x) across most names = crowded/squeeze risk; funding ~0 (tokenized equities) so crowding read comes from L/S + orderbook. Cleanest tailwind: CL long (geopolitical, NOT crowded, L/S 0.87, rel_strength +19.6%). Metals (XAG/XAUT) long supported by safe-haven flow but technically overextended + DXY headwind. Crypto proxies (SOL/MSTR/COIN) unsupportive for longs; short side has the wind. Do not initiate directional GOOGL over tonight's print. Tokenized equities thin/gappy off US hours.",
+    "sentiment": "SENTIMENT (2026-07-22): Dominant risk = mega-cap earnings cluster Jul 28-30 + FOMC Jul 29; binary-heavy week. MEMORY/SEMI cluster (MU 0.88 SNDK, 0.72 INTC, 0.64 TSM): MU bullish, catalyst passed (blowout Q3 Jun 24), no <48h event. SNDK very bullish narrative (NAND +234%) but no <48h catalyst (earnings Aug 5). TSM bullish, record Q2 Jul 16, no fresh event. INTC HIGH-WEIGHT BINARY -- Q2 AC Jul 23 (tomorrow), ~12-15% implied swing, +163% YTD, Fortinet foundry win -- do NOT hold naked. GOOGL HIGH-WEIGHT BINARY -- Q2 AC TODAY Jul 22, print overrides technicals. AAPL earnings Jul 30 (outside 48h). SOL constructive but weak tape (~$77), ETF inflows, no <48h catalyst, crypto-beta risk. MSTR bearish/deteriorating -- halted BTC buys, first BTC sale in years, building cash, diluting via ATM; earnings Jul 30; levered-BTC (corr 0.70). COIN earnings Jul 30 (outside 48h), OCC trust-bank approval constructive, BTC-beta near-term. XAUT/XAG riding strong up-move, both extended (RSI 76/72), FOMC Jul 29 key risk (hawkish hurts). CL firm/bid on geopolitics (WTI ~$86.8 +3%), live supply-side shock. EWY HIGH-VOL -- KOSPI worst month on record (-23%) on Samsung/SK Hynix chip selloff; whippy, semi-correlated, moves with INTC print.",
+    "analyst": "Strong downtrend (ADX 55, all TFs short) but price is stretched to the downside with a bullish divergence, RSI 32, stoch 26 and stabilizing at 324-325 -- the setup that has repeatedly stopped this account's late shorts on the bounce. No clean support test to fade long either (312 far below), and it's a thin tokenized stock off US hours with near-dead last-bar volume. R:R unfavorable both directions; wait for the tape to declare.",
+    "portfolio": "HOLD -- oversold flush with bullish divergence; shorting late is the account's classic bounce-out trap."
+  },
+  "timestamp": "2026-07-22T15:06:17.412168+00:00"
+}

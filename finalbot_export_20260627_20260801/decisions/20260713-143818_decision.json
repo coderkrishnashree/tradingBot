@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "XAUT/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.55,
+  "playbook": "none",
+  "forecast": "Climax down-bar just tagged 4001 support on 30x volume and closed +12 off the low (4013.5) with RSI 10.5 / 5m RSI 4.5 - a short-term exhaustion print. Expect a relief bounce toward 4025-4040 (VWAP/broken level) over the next 2-4 bars, or a flush through 4001 if sellers reload; neither is a clean high-expectancy entry ahead of CPI.",
+  "expectancy_note": "No trade: chasing short into RSI ~10 at support is the book's classic loser (bounce hits the stop); a long needs a 4025 reclaim, not a knife-catch, especially with binary CPI tomorrow.",
+  "rationale": "XAUT is deeply extended DOWN - RSI 10.5, %B -0.26, price 1.5% below VWAP, and the last 15m bar plunged to the exact 4001 support then recovered $12 on 30x volume, an exhaustion signature that makes a fresh short a low-quality chase (the account keeps dying shorting stretched tape into the bounce). A long is equally premature: macro has the dollar, not gold, as the haven and CPI Tuesday is a two-sided binary, so buying a knife below reclaimed structure has poor odds. Flat is the highest-expectancy call; I want either a reclaim of 4025 (broken breakout level -> bounce confirmed) or a clean break/hold below 4001 to define the next move.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 4025.6,
+    "expires_min": 240,
+    "note": "Reclaiming the 4025.6 broken-breakout level confirms the 4001 exhaustion bounce and opens a long toward 4040-4060; below 4001 instead resumes the downtrend."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF/defensive, event-gated. Fresh Strait-of-Hormuz oil shock (WTI +3%) hit risk 2026-07-13 ~14:30 UTC; synchronized intraday down-legs across equities/semis/crypto. DXY firm ~101 => the DOLLAR is the safe-haven, NOT gold; real yields up. BTC ~$62.5k in a strong downtrend (ADX 74), SOL high-beta to it; gold DOWN ~0.9% despite the geopolitics. Environment favors the SHORT side but conviction is capped by a wall of event risk: CUT SIZE, and do NOT carry tokenized-equity risk naked through Tue 2026-07-14 8:30 ET CPI. Biggest shared risk: an oversold bounce / short-squeeze (many names RSI 23-29, several long-heavy L/S ratios) into the CPI + bank-earnings gap.",
+    "sentiment": "Hawkish / risk-off; Fed now priced for possible HIKES after hot prior CPI. The only <=48h catalyst that moves ALL of these names is CPI (Tue 7/14 8:30 ET) + PPI (Wed 7/15). Single-name earnings binaries are OUTSIDE the window (TSM 7/16; TSLA & GOOGL 7/22) -> trade them as tape, not news. Everything is deeply oversold = squeeze risk on any soft CPI print; SNDK/MU/EWY are violent two-way chip names; AAPL is the lone relative-strength long; gold (XAUT) is NOT hedging risk here -- it trades on rate fear.",
+    "analyst": "XAUT is deeply extended DOWN - RSI 10.5, %B -0.26, price 1.5% below VWAP, and the last 15m bar plunged to the exact 4001 support then recovered $12 on 30x volume, an exhaustion signature that makes a fresh short a low-quality chase (the account keeps dying shorting stretched tape into the bounce). A long is equally premature: macro has the dollar, not gold, as the haven and CPI Tuesday is a two-sided binary, so buying a knife below reclaimed structure has poor odds. Flat is the highest-expectancy call; I want either a reclaim of 4025 (broken breakout level -> bounce confirmed) or a clean break/hold below 4001 to define the next move.",
+    "portfolio": "HOLD XAUT - climax flush into 4001 support with RSI ~10; too extended to short, too early to long; watch 4025.6 reclaim."
+  },
+  "timestamp": "2026-07-13T14:38:18.984658+00:00"
+}

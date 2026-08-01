@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "ORCL/USDT:USDT",
+  "confidence": 0.6,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "none",
+  "forecast": "After the session-open spike stalling at 122.17, expect a sideways-to-lower drift: either a fade back toward VWAP ~118 / support 113, or a failed retest of 122 highs over the next 2-6 bars. No clean entry until it either rolls over from a lower high or pulls back and resets.",
+  "expectancy_note": "p(win) too low both ways: long into RSI 84.8 / +2.64% above VWAP is the account's proven late-chase loss pattern; naked fade of a fresh vertical session-open spike is knife-catching with no rejection confirmed. R:R not clearing 1.5 on either side right now.",
+  "rationale": "ORCL just repriced +3% on US session open (117.78 to 122.17), an equity-clock gap move, not a clean trend; 1h RSI 84.8, %B ~1.0, +2.64% above VWAP = extended, and structure_bias -0.382 with crowded L/S 2.32 longs. A market long chases the stretch into the exact setup that has stopped this account out on the counter-bounce; a fade needs a confirmed lower-high rejection that has not printed. Highest-expectancy action is to wait. Size 0.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 117.6,
+    "expires_min": 240,
+    "note": "Losing VWAP/session-open base (~117.8) after the spike confirms the fade - crowded longs trapped, opens a short toward 113 support with a clean rejection structure."
+  },
+  "transcript": {
+    "macro": "Regime MIXED, risk-on equity tape (ceasefire). Tokenized equities on US cash-session clock -> gappy off-hours/weekend; big single-15m moves are session-open repricings, not clean trend. DOMINANT SHARED RISK: FOMC Wed Jul 29 hawkish/hike tail.",
+    "sentiment": "ORCL no imminent earnings (next ~September). Awarded up to $7B DoD software contract (Jul 23, modest positive) offset by a July 1 warning on data-center cost/margin risk. Net near-term: mild positive headline, no <=48h binary.",
+    "analyst": "ORCL 120.87 spiked +3% on session open (117.78->122.17) then stalled; 1h RSI 84.8, %B ~1.0, +2.64% above VWAP, worst structure_bias in group -0.382 (L/S 2.32 crowded, orderbook -0.15), lagging BTC -16.9%. Long = late-chase loss pattern; fade needs a confirmed lower-high that hasn't printed. HOLD; short opens on loss of VWAP base <117.6.",
+    "portfolio": "ORCL/USDT:USDT - HOLD (conf 0.60): chased crowded session-open spike; arm fade short on loss of ~117.6."
+  },
+  "timestamp": "2026-07-27T14:09:04.917845+00:00"
+}

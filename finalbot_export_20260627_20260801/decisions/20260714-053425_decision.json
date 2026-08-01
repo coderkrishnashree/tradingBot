@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "MSFT/USDT:USDT",
+  "size": 0.0,
+  "entry": 390.42,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Price is coiling tightly between 389.3-390.6 just under 395.85 resistance, holding above VWAP; expect it to keep grinding sideways-to-up over the next 2-6 bars, either pulling back to 388.5 coil support or pressing 395.85. No clean edge at 390.4 mid-coil.",
+  "expectancy_note": "Long is the right bias (1h/4h aligned, ADX 34, RS leader +5.1%) but entry mid-range gives only ~5.4pt room to 395.85 cap vs ~2.6pt risk while L/S 1.85 crowded-long and CPI/Fed headline risk in thin tape cut p(win); waiting for a pullback to 388.5 or a 395.85 breakout is higher-expectancy than chasing here.",
+  "rationale": "MSFT is the best-positioned megacap-software long (1h score 0.787, 4h 0.673, all TFs aligned, RS +5.1% vs BTC, low BTC-corr) but at 390.42 it is mid-coil with resistance only 5.4pts away, so a market entry offers a poor R:R into a capped move. Long crowding (L/S 1.85, structure_bias -0.24) and a heavy 48h event slate (CPI today, Fed testimony, PPI Wed) in a thin overnight tokenized market raise the odds a routine dip stops a chased long. I want either a pullback into 388.5 coil support (better entry, ~1xATR stop below 388) or a decisive reclaim of 395.85 that opens room toward 400+ before committing size.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 395.85,
+    "expires_min": 240,
+    "note": "Clearing 4h resistance 395.85 confirms trend continuation with open room toward 400+, flipping this to a long-breakout entry."
+  },
+  "transcript": {
+    "macro": "Cycle scan 2026-07-14 05:28 UTC (US cash market not yet open \u2014 tokenized prints thin/gappy overnight). Regime modestly RISK-ON but two-tiered: megacap software (MSFT, ORCL) has wind at back, semis are the drag on a Samsung AI-capex scare (SanDisk -7%, Micron -6%, Intel -3%). S&P +0.73%, NDX +1.08% led by Mag-7. Funding ~zero on all four tokenized perps (no signal). Long/short skew uniformly long-heavy (contrarian caution): MSFT L/S 1.85, structure_bias -0.24. MSFT relative strength vs BTC +5.1% (leader of the four); low BTC-corr 0.28 (trades on equity beta). Event-heavy 48h: CPI today, Fed Warsh testifies today/tomorrow, PPI Wed, Retail Sales Thu -> headline-gap risk high in thin overnight tape. Lean: megacap-software longs best-supported, MSFT best-positioned; smaller size due to crowded-long + headline risk.",
+    "sentiment": "MSFT constructive but NOT a near-term mover. No earnings this cycle \u2014 next print July 29 2026. Last quarter beat: Azure +40%, Copilot >20M paid seats; guidance fine (Azure ~37-38%), capex ramping ~$190B FY26 with a flagged cost drag. Multi-quarter narratives, not 24-48h catalysts. Net near-term NEUTRAL; moves come from broad Nasdaq/AI beta, not stock-specific news.",
+    "analyst": "MSFT snapshot: last 390.42, support 373.78, resistance 395.85, ATR% 0.66, 4h RSI 66.1, ADX 34, bb_pctb 0.852, vwap_dist +0.57%. All TFs aligned long (1h 0.787, 4h 0.673). L/S 1.854, structure_bias -0.24, funding zero, orderbook +0.063. Last ~15 15m bars coiled tightly 389.6-390.5, last close 390.42 near its high \u2014 tight consolidation just under 395.85 resistance, holding above VWAP. Trend-continuation bias is real but entry is mid-coil, not a pullback low; resistance only ~5.4pts up caps reward vs ~2.6pt risk. Crowded-long (L/S 1.85) plus CPI/Fed headline risk in thin tape argues against chasing. Higher-expectancy: buy a pullback into 388.5 or trigger a breakout reclaim above 395.85. Decision HOLD, breakout reconsider armed at 395.85.",
+    "portfolio": "MSFT \u2014 HOLD (conf 0.50): best long bias of the four but no edge mid-coil; armed breakout reconsider at 395.85."
+  },
+  "timestamp": "2026-07-14T05:34:25.028361+00:00"
+}

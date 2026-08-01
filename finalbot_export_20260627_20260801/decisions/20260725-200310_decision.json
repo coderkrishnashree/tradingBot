@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "AAPL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Grinding melt-up stalls just under 335.34 resistance; over next 2-6 bars expect either a rejection/fade back toward VWAP ~327.3 or a clean break above 335.34. No clean entry until one resolves.",
+  "expectancy_note": "Long into 335.34 with RSI 75/stoch 90 is chasing (p_win ~0.45, learned p_win 0.455); short has no divergence and ADX 47.9 confirms trend + neutral funding = no fade fuel. Waiting has higher expectancy than either forced entry.",
+  "rationale": "AAPL is a stretched, idiosyncratic leader (RS +6.63%, btc_corr -0.01) melting up on thin 15m volume into resistance 335.34, with 4h RSI 75.5, stoch 90.2 and +1.63% above VWAP \u2014 the account's #1 loss pattern is exactly this kind of late continuation entry that a routine bounce stops out. Macro is risk-off/tech distribution with FOMC Wed and earnings 7/30 as overhangs, and structure is neutral (funding flat, L/S balanced) so there is no positioning tailwind for a long nor fade fuel for a short. Best expectancy is to wait for either a breakout-retest above 335.34 (base to lean on) or a pullback to VWAP ~327.3; neither is present now, so no size is justified.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 335.34,
+    "expires_min": 240,
+    "note": "A clean break/hold above 335.34 flips resistance to support and confirms continuation with a defined base for a long entry on the retest."
+  },
+  "transcript": {
+    "macro": "RISK-OFF/defensive tape; tech under distribution on AI-capex indigestion (Nasdaq -0.64% to 24,976, ~-2% wk), rotation OUT of growth into RE/financials. Hawkish Fed hold 3.50-3.75%, PCE up 3.6%, 2y ~4.35% (cycle high), 10y ~4.69%, DXY ~101 = headwind for long-duration tech multiples. FOMC Wed July 29 2pm ET inside window. AAPL last 332.67, scan long but WEAK (composite 40%, p_win 0.455), OVERBOUGHT (4h RSI 75.5, ADX 47.9, stoch 90.2, +1.63% VWAP) just under resistance 335.34; funding flat, L/S 1.074 balanced, structure_bias +0.034 neutral; idiosyncratic (btc_corr -0.01), RS +6.63%.",
+    "sentiment": "Tone bullish/constructive: last qtr beat hard (rev +17%, iPhone +22% y/y), stock +3.5% on 7/23-24. HARD catalyst = fiscal Q3 2026 earnings Thu July 30 after close (~$108.8B rev, EPS ~$1.88) \u2014 just outside 24-48h but event risk on any swing held into 7/29-7/30. Cook->Exec Chairman, Ternus CEO Sept 1 (well-telegraphed, non-disruptive). Near-term: mildly supportive of long but momentum stretched into an event; no fresh 24-48h shock.",
+    "analyst": "Stretched melt-up (RSI 75, stoch 90) pressing into resistance 335.34 with weak composite and sub-50% learned p_win. Long here is textbook chasing an overbought late-stage move into resistance \u2014 the flagged loss pattern. Short also unattractive: no divergence, ADX 47.9 confirms strong uptrend, neutral funding/positioning (no fade fuel), fighting a leader with +6.63% RS. Best expectancy is to wait: buy the breakout retest above 335.34 or a pullback to VWAP ~327.3. Neither trigger present now.",
+    "portfolio": "HOLD AAPL \u2014 no chase into overbought resistance ahead of FOMC/earnings; arm long on reclaim of 335.34."
+  },
+  "timestamp": "2026-07-25T20:03:10.772036+00:00"
+}

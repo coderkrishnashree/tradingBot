@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "EWY/USDT:USDT",
+  "size": 0.0,
+  "entry": 172.5,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Capitulation candle into support 168.8; next few bars likely a small dead-cat bounce toward 174-175 (broken breakout level / VWAP magnet) OR a stall-and-grind sideways above 168.8 before Monday's CPI re-rate. No clean directional edge from 172.5 right now.",
+  "expectancy_note": "Both sides fail: short into RSI 15 / -4.8% below VWAP is the account's #1 loss pattern (bounce stops the late short); long knife-catch against ADX 72.5 with US markets closed + CPI gap risk. R:R to nearest support 168.8 only ~1:1. HOLD beats both.",
+  "rationale": "EWY is the weakest tape on the board but the move is already extended and vertical: RSI 15.2 (4h), price -4.84% below VWAP, bb %B -0.525, sitting only ~2% above support 168.8 after a 183->172.5 waterfall. Chasing the short is the closed-market-weekend low-quality trade macro flagged, and a routine counter-bounce toward 175 would hit any honest stop before the trend resumes. Monday pre-market CPI + Warsh is a binary gap risk into a thin tokenized perp. No entry justified; wait for a bounce to short into strength or a confirmed reversal off support.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 174.86,
+    "expires_min": 240,
+    "note": "A bounce reclaiming the broken breakout level lets us short the retest into strength (VWAP/resistance) instead of chasing an RSI-15 waterfall; re-debate the short there."
+  },
+  "transcript": {
+    "macro": "Regime HOSTILE for longs / cautiously supportive for shorts but MIXED execution. Broad semi-led risk-off flush. Hawkish Fed, month-end FOMC. BIGGEST risk = Sunday-night snapshot, US cash CLOSED, thin/gap-prone perps re-rate Monday on June CPI + Warsh. Secondary risk: shorts chasing extreme oversold into support inviting sharp bounces. EWY is the WEAKEST tape (RSI 15, ADX 72.5, vwap_dist -4.8%, short breakout vol_ratio 5.56) but massively oversold; chasing shorts into RSI 15 on a closed-market weekend gap is the LOW-QUALITY version of the trade.",
+    "sentiment": "EWY (iShares South Korea ETF): no stock-specific catalyst; pure macro/semi beta play. Up ~120-150% past year on Samsung + SK Hynix AI-memory leverage. No fund-level event in next 48h - moves on Monday CPI/Warsh and semi complex (corr MU 0.80, QQQ 0.73). Neutral fundamentally, macro-hostage. A CPI beat / dovish Warsh would squeeze any short.",
+    "analyst": "Move already extended and vertical (RSI 15.2, -4.84% below VWAP, sitting ~2% above support 168.8 after a 183->172.5 waterfall). Shorting here = account's #1 loss pattern; a bounce toward 175 stops any honest stop first. Long knife-catch against ADX 72.5 into a CPI gap is reckless. R:R ~1:1 both ways. HOLD, arm retest short at 174.86.",
+    "portfolio": "EWY: HOLD (conf 0.60) - weakest tape but blown-out oversold; wait for a bounce to 174.86 to short into strength."
+  },
+  "timestamp": "2026-07-13T02:04:20.678416+00:00"
+}

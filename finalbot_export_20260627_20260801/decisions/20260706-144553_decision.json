@@ -1,0 +1,25 @@
+{
+  "symbol": "MSFT/USDT:USDT",
+  "action": "hold",
+  "size": 0.0,
+  "entry": 384.41,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "expectancy_note": "Short = chasing 15m RSI 14.9 / price below lower BB; snap-back bounce risk kills R:R. Long = fighting ADX 45.5 downtrend. Neither edge > cost; HOLD is highest expectancy.",
+  "rationale": "MSFT is in a strong intact downtrend (ADX 45.5, all TFs short) with crowded trapped longs (L/S 1.892, structure_bias -0.301) which argues short, but price is deeply oversold and printing below the lower Bollinger band (bb_pctb -0.322, RSI 23 composite / 14.9 on 15m), so a fresh short here is chasing the low into likely reflex-bounce fuel with poor R:R (support a distant ~4.3% / ~8 ATR away). No sub-48h binary catalyst (earnings ~July 28). Best expectancy is to wait: fade a bounce back toward resistance for a lower-risk continuation short, or flip to a mean-revert long only on a confirmed VWAP/structure reclaim above ~390.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 390.0,
+    "expires_min": 240,
+    "note": "Reclaiming ~390 (back through VWAP toward resistance 394.19) confirms the oversold bounce has legs; flips to a tactical mean-reversion long rather than HOLD."
+  },
+  "transcript": {
+    "macro": "Regime: equity-led risk-on, tech/semis rebounding; crypto soft, so lean on equity tape not BTC (MSFT btc_corr 0.315). Rates/USD stable (10Y ~4.48%), no FOMC/CPI in 48h. MSFT-specific: down ~1.7% today on 4,800 job-cut reports overriding the broad tech-up tape; deeply oversold (RSI 23.4, 15m 14.9), all TFs short, ADX 45.5 downtrend intact. Positioning crowded LONG into falling price (L/S 1.892, structure_bias -0.301) = contrarian-bearish, but oversold argues size down and don't chase the low. Earnings July 28 (outside window).",
+    "sentiment": "MSFT near-term skew bearish-to-neutral, no sub-48h binary. 52-week low last week, ~24% YTD (worst start since 2000) on AI-capex revolt (~$190B CY2026 capex, FCF -10%); Azure ~40% but first deceleration. Multi-quarter narrative, not a 48h event. Analyst chorus (Strong Buy, ~$561-592 avg PT, cheapest multiple since 2023) + oversold = reflex-bounce risk against a fresh short. No concrete near-term catalyst; caution chasing shorts into the low.",
+    "analyst": "Strong downtrend + crowded trapped longs support a short, but price is below the lower Bollinger band with 15m RSI 14.9 \u2014 shorting = chasing the low into snap-back fuel, poor R:R (support ~8 ATR away). Long = fighting ADX 45.5. Neither edge beats cost; HOLD highest expectancy. Armed trigger: reclaim above ~390 flips to a tactical mean-reversion long.",
+    "portfolio": "HOLD MSFT flat (conf 0.50); no positive-expectancy entry into an oversold downtrend, armed long trigger above 390."
+  },
+  "timestamp": "2026-07-06T14:45:53.922067+00:00"
+}

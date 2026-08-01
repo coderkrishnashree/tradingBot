@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "TSM/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Thin weekend tape; price grinds/chops 396-402 until Monday's gap. Deeply oversold LTF (15m RSI 13, 5m RSI 24, -2.41% below VWAP) sets up a snapback toward VWAP ~408-410 before any trend resumption. A clean bounce to VWAP is the honest short entry, not chasing 398.75.",
+  "expectancy_note": "p_win_learned 0.338 says this exact short condition has been LOSING; shorting extended/oversold into a weekend gap = negative expectancy. Waiting for a bounce (short at VWAP) or a support break offers far better R:R than a market short here.",
+  "rationale": "Bearish structure is real (LSR 2.50 crowded long, structure_bias -0.35, rel str -14.9%, ADX 53 down) and sentiment argues with the short \u2014 but price is already 2.41% below VWAP with 15m RSI 13 and 5m RSI 24, the classic 'late short into stretched tape' setup that has bled this account. US markets are closed, the tokenized book is thin, and TSM WILL gap Monday \u2014 market-entering either direction is reckless. HOLD and let it either bounce into a better short (VWAP ~408) or break support 386.81 with confirmation.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 386.81,
+    "expires_min": 240,
+    "note": "Losing 4h support 386.81 on volume confirms trend continuation and opens a clean short toward the next leg down, without chasing from mid-air."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF, semiconductor-led equity selloff. Fri 7/17: Nasdaq -1.40%. US EQUITY MARKETS CLOSED \u2014 TSM trades a thin tokenized book and WILL gap on the Monday 7/20 open. Funding ~0. TSM ($398.75) is the EPICENTER: reported 7/16, BEAT + raised guidance but stock fell ~7% on capex/margin worry; whole semi complex in a $1.3T+ selloff. Composite short, rel str -14.9% vs BTC, crowded long (LSR 2.50, structure_bias -0.35). Earnings event risk behind it; post-earnings + closed market = wide gap risk both ways.",
+    "sentiment": "TSM (~$399): reported Q2 Jul 16 \u2014 a BEAT (rev $40.2B, GM 67.7%, net +77% record, raised FY26 growth >40%, +$100B Arizona). Yet stock/sector SOLD OFF into 7/17 on AI-capex-ceiling fears + Chinese AI competition \u2014 a 'sell the good news' tape. Post-earnings momentum negative despite strong fundamentals; near-term argues WITH the short, watch for a snapback.",
+    "analyst": "Composite short only 40.5% conf, p_win_learned 0.338 (this condition has been LOSING). RSI 30.9 (4h) but 15m RSI 13.1, 5m RSI 24.8 \u2014 deeply oversold LTF; ADX 53.4, ATR 2.2%, -2.41% below VWAP. Support 386.81 ~3% away, snapback flagged. Market-shorting extended/oversold into a thin weekend gap = negative EV. Short a bounce to VWAP ~408 or a clean break of 386.81.",
+    "portfolio": "HOLD TSM \u2014 most fundamentally-supported short but deeply oversold with p_win 0.34; short a bounce to VWAP ~408 or a break of 386.81."
+  },
+  "timestamp": "2026-07-18T10:10:09.061278+00:00"
+}

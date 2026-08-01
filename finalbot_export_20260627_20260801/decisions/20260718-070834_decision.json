@@ -1,0 +1,28 @@
+{
+  "symbol": "MSTR/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.5,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "none",
+  "forecast": "Coils 94.8-95.4 near VWAP; likely chops sideways next 2-4 bars. A clean loss of 94.80 opens 94.0 then 93.0; a reclaim of 95.40 resumes the up-drift toward 96.5.",
+  "expectancy_note": "Short here is p(win) ~0.5 at best: shorting the relative-strength LEADER (+6.4%) into LTF-oversold (5m RSI 26, 15m RSI 31), only -0.88% from VWAP with no extension and no fade level, on a thin weekend tape with Monday gap-up risk. 1h trend is actually up.",
+  "rationale": "MSTR is mid-VWAP chop (BB %B 0.43, vwap -0.88%) with conflicting TFs (15m/4h short but 1h long) and lower-TF RSI already stretched oversold, so a market short risks the routine counter-bounce hitting stop before continuation. It is the crypto-proxy leader and only mildly crowded (L/S 1.33), the weakest short candidate in the group, and US cash is closed (thin, gappy) with real Monday gap risk. Best expectancy is to wait for a decisive break of the 94.80 coil, or stand aside if 95.40 reclaims.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 94.7,
+    "expires_min": 240,
+    "note": "Losing the 94.80 coil low with follow-through confirms the short toward 94.0/93.0; until then it is chop with LTFs oversold."
+  },
+  "transcript": {
+    "macro": "Risk-off, tech/semis selling off (Fri Nasdaq100 -1.5%, week -2.9%). Scan 07:01 UTC weekend - US cash CLOSED, tokenized equities thin/gappy, Monday gap risk. Rates neutral-to-hawkish. Crypto risk-off, BTC dominance rising. No FOMC/CPI in 72h. Short-favorable but LATE-STAGE (many names deeply oversold -> squeeze risk); cut size. MSTR: crypto-beta (0.71 BTC), rel-strength LEADER +6.4%, only mildly crowded (L/S 1.33) -> weakest short.",
+    "sentiment": "Risk-off tape, crypto Fear (idx ~25-27, BTC ~$63.9k soft). Mega-cap earnings wall Jul21-29 (GOOGL ~Jul21, INTC Jul23, MSFT/META/HOOD Jul29, MSTR Jul30). US markets closed weekend -> thin/gappy till Monday. MSTR: crypto-proxy, capital framework already priced, bounced ~29% off June lows to ~$95, leans mildly bearish as leveraged BTC.",
+    "analyst": "Mid-VWAP chop with conflicting TFs (15m/4h short, 1h long), LTF RSI already oversold, relative-strength leader and only mildly crowded = weakest short candidate. No clean trigger either way; thin weekend/Monday gap risk. Wait for a decisive break of the 94.80 coil.",
+    "portfolio": "HOLD MSTR - no edge; re-arm short on loss of 94.80 coil."
+  },
+  "timestamp": "2026-07-18T07:08:34.899585+00:00"
+}

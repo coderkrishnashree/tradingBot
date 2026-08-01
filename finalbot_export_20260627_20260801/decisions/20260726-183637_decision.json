@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "MSTR/USDT:USDT",
+  "confidence": 0.6,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "forecast": "Price stalled/fading mid-range (93.6-94.1) on dead weekend volume; expect low-vol chop between 93.5 and 94.1 into the Monday equity open, direction dictated by BTC (soft) rather than any MSTR-specific driver.",
+  "expectancy_note": "No edge: mid-range (%B 0.62, no extreme to fade), no clean trend pullback, no squeeze. Laggard BTC-proxy (rel_str -9.2%) into thin holiday liquidity + Jul30 earnings IV build. Account shorts win only 47% (-0.78R); a chase either way is negative expectancy.",
+  "rationale": "MSTR is a high-beta BTC proxy (corr 0.73) lagging even a soft BTC (rel_str -9.2%), with the 15m tape quietly bleeding off the 94.10 high on drying weekend volume - no structural entry. US market closed means thin/gappy tape and Monday gap risk, and earnings Jul 30 is building IV. Neither a chase-short (account shorts bleed) nor a proxy-long into weak BTC clears the R:R bar, so flat is the highest-expectancy call.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 94.1,
+    "expires_min": 240,
+    "note": "Reclaiming today's 94.10 high on real volume would confirm BTC-led momentum resuming and open an intraday proxy-long."
+  },
+  "transcript": {
+    "macro": "Regime MIXED-to-CAUTIOUS. US market CLOSED Sunday -> thin/gappy, Monday gap risk. Crypto soft (BTC ~$64.7k). MSTR: AVOID/size-down; hard event risk. EARNINGS JULY 30 landmine. -6.4% Jul 23 to ~$93.6 on BTC weakness + news it started SELLING bitcoin to fund itself. btc_corr 0.726 pure high-beta BTC proxy, rel_str -9.2%. Analyst targets slashed (TD Cowen 400->260). Only a very short intraday scalp, small.",
+    "sentiment": "MSTR NEUTRAL near-term, earnings risk building. Reports Jul 30 after close. Recovered from June ~$82 low into low-$90s on upbeat guidance + new Digital Credit Capital Framework ($1B buyback, $3B cash reserve). BTC proxy so 24-48h path tracks bitcoin. Avoid holding size through the print.",
+    "analyst": "ADX 28.5 mild trend but 15m tape is a stalled/fading range 93.6-94.1 on dead weekend volume. Laggard echo of soft BTC (rel_str -9.2%). No trend pullback, no range extreme to fade, no squeeze. Thin holiday liquidity + 4-day-out earnings binary = textbook NO TRADE.",
+    "portfolio": "MSTR/USDT: HOLD (conf 0.60) - fading BTC-proxy laggard, no edge, Jul30 earnings ahead."
+  },
+  "timestamp": "2026-07-26T18:36:37.556208+00:00"
+}

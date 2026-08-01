@@ -1,0 +1,27 @@
+{
+  "action": "hold",
+  "symbol": "AAPL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.34,
+  "playbook": "none",
+  "expectancy_note": "p(win)~0.4 either way; price pinned at resistance 311.3 with stoch 100 + bearish divergence = worst long entry, but ADX 17.6 chop + supportive index tape = low-p fade too. No <=48h catalyst. HOLD beats both chased entries.",
+  "rationale": "AAPL is the lowest-conviction name (composite 1.3%, chop regime, regime_blocked). It is glued to resistance at 311.32 with %B 1.26, stochastic 100, RSI 78-86 on sub-4h TFs and a bearish divergence -- fully extended and momentum-exhausted, so buying here is chasing the exact top and there is no rejection candle yet to justify a short into a supportive equity tape. Structure is neutral (L/S 1.065, funding flat, low BTC beta 0.24) and there is no binary inside 48h (earnings July 30). Better to wait: a clean hold above resistance converts the extended print into a genuine breakout worth buying the retest of, with the index tape behind it.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 312.5,
+    "expires_min": 240,
+    "note": "A decisive reclaim/hold above the 311.3 resistance validates the 15m breakout (bbw 2.96x, vol 5.94x) into a real trend-continuation long with the supportive index tape -- buy the retest, not the exhaustion spike."
+  },
+  "transcript": {
+    "macro": "Broad risk/equity SUPPORTIVE -- index tape favors longs. AAPL MIXED: low BTC beta (~0.24), moves on its own; crowded long (L/S 2.0) but strong index tape; NO edge for aggressive positioning either way. Rates/USD CAUTION (slow drag on long-duration tech). No FOMC/CPI/earnings inside 48h.",
+    "sentiment": "Earnings OUTSIDE 48h: fiscal Q3 reports Thursday July 30 (Tim Cook's expected last call) -- next hard binary, not tradable this cycle. Recent tone modestly positive: rally on Bloomberg report of Apple talks with Chinese memory suppliers (CXMT/YMTC) for China iPhones. Offsetting: iPhone 18 Pro memory costs reportedly up sharply (margin question for July 30; JPM ~$50 ASP uplift). Least chip/AI-levered of the four, most insulated from the semi rotation/Burry theme. Net: neutral-to-slightly-constructive, NO <=48h catalyst -> NEUTRAL to any trade.",
+    "analyst": "AAPL 311.32 sitting exactly AT resistance 311.32, %B 1.26 (above upper band), stoch 100 (pinned), RSI 4h 60.7 but 78-86 on lower TFs (deeply overbought), bearish divergence, vwap +1.01%, ADX 17.6 (chop/regime_blocked), composite 1.3% (lowest name). 15m breakout tag at 309.92 with vol_ratio 5.94 but now fully extended. Not a clean short (supportive tape, weak ADX, no rejection yet), not a long (buying the exact top with stoch 100 + divergence). HOLD; arm long trigger on a decisive hold above 312.5 (buy the retest, not the spike).",
+    "portfolio": "AAPL -> HOLD (conf 0.34): extended at resistance, chop regime, no 48h catalyst; long armed on a hold above 312.5."
+  },
+  "timestamp": "2026-07-06T14:31:37.727543+00:00"
+}

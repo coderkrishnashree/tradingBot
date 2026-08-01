@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "TSLA/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Momentum fading at 386 resistance (lower highs 386.3->385.29->385.0, closing at bar low 384.83); expect drift/pullback toward VWAP ~382.5 then chop 383-386 into Wed's earnings binary - no clean directional path pre-event.",
+  "expectancy_note": "p(win) on any directional hold ~0.5 given a 7-8% implied-vol binary inside 48h dwarfing the 0.48% ATR stop; HOLD has higher expectancy than a coin-flip through earnings.",
+  "rationale": "TSLA has a strong ADX (61) uptrend but is a crowded long (L/S 1.93), structure_bias -0.31, and a major laggard (rel strength -18.5%) - momentum is stalling at 386 with lower-high bars closing on their lows. Decisively, Q2 earnings Wed 7/22 after close is INSIDE the 48h window with ~7-8% implied swing, so any directional stop (~1x ATR = ~0.5%) is meaningless event risk, and pre-US-open tape is thin/gappy. Learner shows the book bleeds on shorts (0.49 win, -0.77) and structure_bias/rel-strength weights argue against a fresh long here too, so no side offers positive expectancy. HOLD until a clean structural break defines direction.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 377.78,
+    "expires_min": 240,
+    "note": "Losing 377.78 support breaks the intraday uptrend structure and would open a clean short toward the next level, worth re-debating even with earnings ahead."
+  },
+  "transcript": {
+    "macro": "Cycle 2026-07-20 (scan 13:08 UTC). Regime RISK-OFF leaning; session is PRE-US-OPEN so tokenized-equity perps (EWY/HOOD/COIN/TSLA/NVDA/QQQ/CRCL/SNDK/GOOGL) are thin/gappy and re-rate ~13:30 UTC (gap risk). Equity tape soft, semiconductor-led sell-off on AI-capex worries (TSMC capex guide up); rates offer no tailwind (~60% odds higher by Oct); FOMC July 28-29 is OUTSIDE the 48h window. Crypto heavy: BTC ~$62-64k after failing low-$70k, record June ETF outflows (-$4.5B), dominance ~56-60% so alts bleed vs BTC (caps SOL, corr 0.81). Precious metals the one independent bid (silver ~$56.9 +1.5%). DOMINANT POSITIONING THEME = CROWDED LONGS: negative structure_bias almost everywhere, lopsided long/short ratios (XAG 3.99, SOL 2.70, CRCL 2.17), and the WHOLE basket lags BTC (all relative_strength negative, -1% to -48%). Argues for smaller size on high-beta longs and elevated long-squeeze risk. COIN is the least-crowded (L/S 0.80, net-short crowd); QQQ the only positive structure_bias (+0.15, orderbook bid, but likely pre-open thinness).",
+    "sentiment": "Hot earnings week. Soft June CPI (July 14, coolest since Apr 2020) broadly risk-supportive; FOMC July 28-29 is outside the 48h window. IMMINENT <=48h BINARIES: TSLA Q2 earnings Wed July 22 after close (~7-8% implied swing; Q2 deliveries ~480K record already spent, call is about margins/guidance) and GOOGL/Alphabet Wed July 22 4:30pm ET (consensus ~$2.86 EPS/$116.5B rev, focus AI capex $175B + Cloud) - both spill into QQQ. EWY = LIVE BEARISH MACRO SHOCK: Bank of Korea surprise +25bp hike to 2.75% (July 16, first in 3.5yrs) + KOSPI crash (-6.4% July 16, -4.5% today) on AI/chip rout (Samsung -4.7%, SK Hynix -4.5%). HOOD (Jul 29), COIN (Jul 30), SNDK (Aug 5), CRCL (~Aug 10) earnings all OUTSIDE this cycle. NVDA bullish headline flow (US resumed H20/H200 China licenses, ~$200B CPU/Vera TAM) but no 48h binary; reports late Aug. SOL constructive medium-term (5 spot ETFs live >$1.12B inflows, Firedancer v1.0 testnet) but crypto-beta with no dated catalyst. XAG structural supply deficit (6th straight annual), two-sided, macro-flow-dependent. CRCL got a Mizuho DOWNGRADE to Underperform, PT cut to $50 from $85 (July 17), competitive overhang from Visa/Stripe.",
+    "analyst": "TSLA has a strong ADX (61) uptrend but is a crowded long (L/S 1.93), structure_bias -0.31, and a major laggard (rel strength -18.5%) - momentum is stalling at 386 with lower-high bars closing on their lows. Decisively, Q2 earnings Wed 7/22 after close is INSIDE the 48h window with ~7-8% implied swing, so any directional stop (~1x ATR = ~0.5%) is meaningless event risk, and pre-US-open tape is thin/gappy. Learner shows the book bleeds on shorts (0.49 win, -0.77) and structure_bias/rel-strength weights argue against a fresh long here too, so no side offers positive expectancy. HOLD until a clean structural break defines direction.",
+    "portfolio": "HOLD - Q2 earnings Wed 7/22 (~7-8% implied) inside 48h; no positive-expectancy directional trade. Short trigger <377.78."
+  },
+  "timestamp": "2026-07-20T13:16:07.960367+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "CL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Price coils 86.8-87.5 after the flush; the 5-bar bounce (86.29->87.41) has stalled and faded (last bar 87.31). Expect chop between the 86.3 flush base and 87.5 cap over the next few bars until a headline resolves the two-way Iran tail.",
+  "expectancy_note": "p(win)~0.5 coin-flip; shorting here chases washed-out LTFs (30m/1h RSI 15) into contrarian-long structure (crowded short, neg funding) = the account's losing late-short pattern (shorts 0.47 win, -0.78 pnl). Buying is a knife-catch into weekend binary. No edge either way = HOLD is highest expectancy.",
+  "rationale": "CL just took a violent stop-run flush 89.3->85.8 on 60x volume, then bounced 1.5pts and stalled at 87.3-87.4 (last two bars fading). Momentum LTFs are deeply oversold (30m/1h RSI ~15) so a short chases the move and gets stopped by any counter-bounce; structure_bias +0.40 (crowded short, shorts pay funding) is contrarian-long fuel, but a naked long into two-way Iran ceasefire/escalation headline risk over the weekend is a coin-flip knife-catch. ATR ~1.8pts and hostile headline tape mean no honest tight-stop trade has R:R >= 1.5 right now. Size 0 \u2014 wait for structure.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 87.55,
+    "expires_min": 240,
+    "note": "Reclaiming the 87.5 bounce-high (which capped the last 5 recovery bars) confirms the flush was a stop-run and opens a tactical long back toward VWAP ~89.3 with a stop under 86.3."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF/defensive; SATURDAY 2026-07-25. CL is the ONLY genuinely live/liquid instrument here (near-24h). Violent flush ~89.3->86.3 on massive volume (117,978 vs ~2k) \u2014 stop-run on Iran peace-talk headlines; still +~10% on the week. structure_bias +0.40 (funding -0.074% shorts pay, L/S 0.539 crowded short = contrarian long fuel) but momentum tfs hard short (15m/30m/1h RSI 15-31). Highest learned p_win in set (0.62). Verdict: MIXED, tradeable but headline-hostile; small tight-stop tactical shorts into momentum only, do NOT hold naked over a strike/ceasefire headline.",
+    "sentiment": "CL (WTI) NEUTRAL-to-BEARISH short-term. Crude -4% July 24 (biggest 1-day fall in weeks) on easing Middle East risk premium (Iran/US peace talks), profit-taking after overbought rally, OPEC+ glut fears (Aug +548k bpd). Still +~10% on week \u2014 violent two-way geopolitical tape; any Hormuz/Red Sea escalation can gap it back up hard. Immediate momentum sides with short, but HIGH headline risk; a single overnight print can invalidate.",
+    "analyst": "CL 87.31. 14 quiet 15m bars ~89.3-89.5, then flush bar (high 89.31 -> low 85.8 -> close 86.29, vol 117,978), then 5-bar recovery to 87.4 stalling/fading (last bars 87.41 then 87.31). ADX 22 weak/transitional, 4h RSI 41.9 neutral, vwap_dist -2.48, atr_pct 2.07% (~1.8pts). LTFs washed out (30m RSI 15.2, 1h 15.6). Structure funding -0.074%, L/S 0.539 = contrarian long fuel; RS +24.67%, btc_corr -0.19. Learner: shorts bleed (0.47/-0.78). Mid-range between 85.8 and 89.3 with live two-way Iran binary = coin-flip, no honest R:R>=1.5 -> HOLD; long trigger on reclaim of 87.5.",
+    "portfolio": "CL: HOLD (conf 0.50) \u2014 post-flush coin-flip with hostile two-way Iran headline risk; reconsider tactical long on reclaim above 87.55."
+  },
+  "timestamp": "2026-07-25T15:04:34.371432+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "EWJ/USDT:USDT",
+  "size": 0.0,
+  "entry": 91.86,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.34,
+  "playbook": "none",
+  "forecast": "Price stays pinned in the 91.6-92.0 pocket on zero-volume prints; no directional move to trade until a real-volume candle breaks 93.34 up or loses 89.53 down.",
+  "expectancy_note": "No honest R:R on a flat-lined, ~zero-volume book (OI 2,501); ADX 65 is a mirage. Fading a squeezed mid-range or chasing a synthetic ADX both have negative expectancy vs waiting.",
+  "rationale": "The last ~20 candles are almost all zero-volume flat prints (91.90 held a dozen bars, last 91.86) - an illiquid, gappy tape, not price discovery, so any stop can be leapt by a synthetic fill. Composite is a weak 0.39 with 30m/1h scoring flat; the 'trend' is a lone 4h read. BB width squeezed 1.92% with %B 0.63 leaves price mid-range between 89.53 and 93.34 with no confirmed edge, and a binary BOJ meeting (Jul 30-31) plus FOMC Wed sit inside the holding window. HOLD is the highest-expectancy action; size 0.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 93.34,
+    "expires_min": 240,
+    "note": "A real-volume reclaim of 93.34 resistance would confirm the squeezed base breaking with the 4h uptrend, turning this into a tradable long; below 89.53 flips it bearish."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF leaning, USD firm. EWJ lean NEUTRAL, event-capped: Nikkei strong (near ATH, +5.6% MTD, weak yen 162 helping exporters), structure clean (L/S 1.36), but EWJ lags BTC (-5.3%), book near-flat/thin (OI 2,501; near-zero volume = gappy fills), and July 31 BOJ meeting is the dominant risk (hawkish tone unwinds the carry trade EWJ rides).",
+    "sentiment": "NEUTRAL/cautious. Live catalyst is BOJ meeting concluding Jul 30-31. BOJ hiked to 1% in June (first in ~30yr), market expects staged normalization, yet USD/JPY weak near 162 keeps supporting Nikkei exporters (range 69,000-70,500). BOJ headline risk builds into end of week; thin/gappy pair. FOMC Wed Jul 29 shared overhang. QQQ-EWJ corr 0.698.",
+    "analyst": "Textbook NO-TRADE. Last ~20 candles almost all zero-volume flat prints (91.64->91.90->pinned->91.86); synthetic/illiquid tape. ADX 65 is a mirage on a flat-lined book; BB width squeezed 1.92% with price pinned mid-range (%B 0.63) between 89.53 support and 93.34 resistance - no edge, gappy fills risk jumping the stop. Binary BOJ event in-window with no way to size safely. HOLD; reconsider on a real-volume break of 93.34.",
+    "portfolio": "HOLD EWJ - frozen zero-volume tape, no honest R:R, binary BOJ Jul 30-31 in window; re-debate on real-volume break of 93.34."
+  },
+  "timestamp": "2026-07-26T00:34:10.303989+00:00"
+}

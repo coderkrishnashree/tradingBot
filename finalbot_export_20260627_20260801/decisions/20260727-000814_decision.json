@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "EWJ/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Price just fell 2 ATR in one bar to 91.89 (day low) on the breakout impulse; next few bars likely see a dead-cat bounce back toward the broken 92.27 level rather than clean continuation. A short chased here gets stopped by that bounce.",
+  "expectancy_note": "p(win) ~0.45 on a chased short at the impulse low; R:R poor because honest stop must sit above 92.27 (~2x ATR) while first target ~90.5 is barely 1.5x - fresh short here is negative EV. Retest short is the only positive-EV version.",
+  "rationale": "EWJ printed a 15m short breakout, but the last candle IS the breakout bar (92.56 to 91.89, ~2x ATR) into the low, in a near-dead illiquid book (mostly zero-volume candles) with FOMC binary tomorrow. Market-selling the low invites a mean-revert bounce to 92.27 that stops any honest short, and composite/4h actually lean long. Thin/gappy tape + Fed risk argue for flat.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 89.53,
+    "expires_min": 240,
+    "note": "Losing 89.53 support confirms the downside breakout is real continuation (not a one-bar liquidity flush), justifying a short with the trend into weakness."
+  },
+  "transcript": {
+    "macro": "REGIME: RISK-OFF/MIXED, defensive. FOMC Jul 28-29 inside the hold window. DXY 13-mo high. EWJ/EWY are tokenized foreign-equity ETFs - thin/gappy, illiquid books, cash markets closed off-hours; avoid holding blind through gaps.",
+    "sentiment": "RISK-OFF/EVENT-GRIDLOCKED. EWJ directly hit by new US tariffs (10-12.5% incl. Japan) + AI-demand fears; Nikkei -1,800 Jul 24. Added risk: US pressuring BOJ to hike, yen at 40-yr low (FX intervention risk). Bearish/defensive; scan breakout is to the downside.",
+    "analyst": "The last candle IS the breakout bar (92.56->91.89, ~2x ATR) into the low on a near-dead book. A chased short gets mean-reverted to broken support 92.27 (honest stop ~2x ATR, target barely 1.5x = negative EV); composite/4h actually lean long. Thin/gappy + FOMC binary = flat. Short arms only on a decisive loss of 89.53.",
+    "portfolio": "HOLD EWJ - thin/gappy breakout bar; wait for 89.53 loss to confirm real continuation."
+  },
+  "timestamp": "2026-07-27T00:08:14.606350+00:00"
+}

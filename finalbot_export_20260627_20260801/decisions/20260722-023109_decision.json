@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "SOL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price stalls/chops in 78.0-78.6 just under 79.01 resistance for the next few bars; either fades toward VWAP ~77.1 or breaks and holds 79.01. At 78.36 mid-range there is no clean entry.",
+  "expectancy_note": "Market-buy at 78.36 leaves only ~0.65 to resistance (R:R<1 to TP1) and is a chase into RSI74/+1.66% VWAP extension \u2014 negative expectancy. Waiting for a 79.01 break-and-hold (or a VWAP dip-buy) is the higher-EV path; longs are the account's edge (71% win) but only from a good level.",
+  "rationale": "SOL is in a genuine 4h uptrend (ADX 48) but stretched into 79.01 resistance with RSI 74, stoch 85, +1.66% above VWAP, and 2.5x crowded longs in a fearful F&G-21 BTC-beta tape \u2014 the classic setup where a routine counter-bounce stops a chased long. The 15m tape is stalling (78.55 high rejected, now coiling 78.3-78.4), giving no honest close-to-price entry with R:R>=1.5. Long remains the preferred side given the account's long edge, but only on a confirmed 79.01 reclaim.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 79.01,
+    "expires_min": 240,
+    "note": "A 15m close reclaiming/holding above 79.01 resistance confirms the breakout with room toward 80.5+, turning a stalled chase into a valid trend-continuation long."
+  },
+  "transcript": {
+    "macro": "Regime: RISK-ON, tech/semi-led. S&P +0.89%, Nasdaq +1.29% Tue 7/21 close; Micron +12%, SanDisk +14%. US cash CLOSED overnight \u2014 equity tokens (GOOGL/EWY/CRCL) trade thin/gappy until ~13:30 UTC; only SOL has a true 24h book. Size DOWN this cycle. GOOGL: funding +0.00046, OI 6922, L/S 1.56 (crowded long, contrarian -0.28), RS vs BTC -13%, 1h/4h down; Alphabet Q2 earnings TODAY ~20:30 UTC = binary landmine, no swing size. EWY: funding 0, L/S 1.25 (~neutral), deeply extended (RSI77/ADX86/%b1.01/+5% VWAP) at resistance 181.6; Korea/semi beta supportive but thin & stretched \u2014 lean long-with-trend, high chase risk. CRCL: funding 0, L/S 2.03 (crowded long -0.30), parabolic (RSI88/ADX81) new highs, RS vs BTC +2.8% (only outperformer), OCC bank approval catalyst 7/20; momentum-long only, high squeeze risk. SOL: funding -0.0000143 (flat, healthy), L/S 2.49 (long-skewed -0.30), 4h up RSI74/ADX48 into resistance 79.01, BTC-corr 0.77 (BTC-beta), RS -9.9%; supportive-to-mixed long, needs BTC firm. Biggest calendar risk: Alphabet earnings after today's close moves the whole Nasdaq complex.",
+    "sentiment": "GOOGL \u2014 BEARISH/HIGH-RISK BINARY: earnings TODAY after close (20:30 UTC), consensus ~$2.87 EPS / ~$116.9B rev; story = $190B AI capex + Google Cloud growth, big gap risk either way; tokenized GOOGL gaps on the after-hours print. Do NOT carry a naked position through the release. EWY \u2014 BEARISH, elevated vol: KOSPI in historic crash (~-23% MTD, 7 circuit breakers, broke below 7,000 from 9,114 in June), Samsung/SK Hynix rout; Bank of Korea HIKED to 2.75% July 16 (tightening into selloff); US Section 122 10% tariff baseline sunsets ~July 24 (headline wildcard). EWY bounce candle is chasing exhaustion inside a broken tape; illiquid/gappy. CRCL \u2014 BULLISH momentum, no imminent binary: earnings ~Aug 10 (outside window), fresh OCC national-trust approval (7/20) +8-13%, Nomura/Japan USDC deal, expected Coinbase-USDC renewal in Aug; parabolic RSI88 \u2014 snapback the main risk; correlated to a FEARFUL crypto tape (Fear&Greed ~21). SOL \u2014 NEUTRAL: crypto sentiment fearful (F&G ~21), BTC-led selling; SOL spot ETFs live since Oct 2025, small positive daily inflows; staking-ETF/SEC decisions repeatedly PUNTED (no \u226448h binary); overbought & crowded longs (L/S 2.49) \u2192 fade-strength risk if BTC rolls. Direction is a BTC-beta call.",
+    "analyst": "Right side (long) but wrong price. Genuine 4h uptrend (ADX48) but stretched into 79.01 resistance (RSI74, stoch85, +1.66% VWAP) with 2.5x crowded longs in a fearful F&G-21 BTC-beta tape. Market-buy at 78.36 leaves only ~0.65 to resistance (R:R<1) \u2014 a chase. 15m stalling under 79.01. Long is the account's edge (71% win) but only from a good level. HOLD, arm long trigger on a 79.01 reclaim.",
+    "portfolio": "HOLD SOL (conf 0.60) \u2014 uptrend intact but chase-risk at resistance; wait for 79.01 breakout."
+  },
+  "timestamp": "2026-07-22T02:31:09.060355+00:00"
+}

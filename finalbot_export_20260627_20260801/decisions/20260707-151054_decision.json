@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "NVDA/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.34,
+  "playbook": "none",
+  "forecast": "Coils 191.4-192.9 near-term; 15m higher-lows lean toward a poke at 192.9/193.7, but 1h/4h down-pressure caps it. No clean directional edge inside the 190.16-193.7 box until a break.",
+  "expectancy_note": "Short p(win)~0.45 (knife-catch into risk-on, 15m turning UP, stale print below live tape); long p(win)~0.45 (fighting 1h -0.9/4h down). Neither clears R:R>=1.5 with ATR only 0.88% and squeezed book \u2014 HOLD beats both.",
+  "rationale": "Timeframes are in open conflict (15m LONG +0.56 / RSI 64 vs 1h -0.9 / 4h -0.39 RSI 29.6, aligned=false, composite conf just 34%). NVDA is the best-in-class semi merely LAGGING a +2.7% SMH rip with live price ABOVE the stale scan print \u2014 shorting that into a buy-the-dip session is negative expectancy, and going long at a stale token print in a thin/gappy book with squeezed BB (3.47%) offers no clean R:R. Structure_bias -0.375 favors an eventual short but only on confirmation, so wait for a decisive break of the 190.16-193.7 box.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 190.16,
+    "expires_min": 240,
+    "note": "Losing 190.16 support breaks the coil to the downside and confirms the 1h/4h short (structure_bias -0.375, funding long-crowded) rather than knife-catching mid-range; that flips me to short."
+  },
+  "transcript": {
+    "macro": "Equity risk-ON near record highs, SMH semis +2.7% open, buy-the-dip = headwind for fresh shorts. No CPI/FOMC inside 48h. NVDA short candidate but composite NOT aligned: positioning leans short (L/S 1.95, funding +0.00018, structure_bias -0.375) and 1h/4h down (RSI 4h 29.6) BUT 15m +0.56 LONG \u2014 TF conflict, knife-catch. Live NVDA ~$195.8 ABOVE scan print 192.94, merely LAGGING the semis rip. Small size only.",
+    "sentiment": "NVDA neutral, no imminent binary (no earnings until ~Aug 26). Mild-positive micro: denied Kyber/NVL144 delay reports (+1%), Goldman calls 21.7x forward compelling. Offsetting: semi rotation + rate-hike macro. Board expands Jul 13 (non-market-moving). Fundamentals neutral; scan short is pullback/sector-rotation, not news-driven.",
+    "analyst": "Sharp leg down early then ~2.5h basing/coiling 191.4-193.2 with 15m turning up (RSI 64). Shorting a knife into risk-on best-in-class semi with 15m up = low EV; long at stale token print in thin book = no R:R. HOLD, armed reconsider on 190.16 break.",
+    "portfolio": "NVDA: HOLD \u2014 timeframes conflict, low conviction; short only on a 190.16 break, no long at stale print."
+  },
+  "timestamp": "2026-07-07T15:10:54.093055+00:00"
+}

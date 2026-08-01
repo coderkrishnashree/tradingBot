@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "CL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.58,
+  "playbook": "none",
+  "forecast": "Basing 84.4-85.0 after the 83.15 capitulation flush; expect chop until it either reclaims 85.1 (squeeze bounce toward VWAP ~88) or loses 83.15 (downtrend resumes).",
+  "expectancy_note": "No edge market-entering: shorting RSI-21 / -4% below VWAP into crowded-short squeeze risk is the account's proven losing pattern (short win 46%, -0.82R); long lacks reclaim confirmation. Wait for the 85.1 break.",
+  "rationale": "CL crashed on Iran de-escalation but has stabilized above 83.15 with a mild higher-low drift and fading volume - not fresh downside momentum. Deeply oversold (4h RSI 21, %B 0.13, -4% vs VWAP) plus negative funding and L/S 0.62 make a market short a chase into squeeze fuel. A long needs a 85.1 reclaim; without it, and into FOMC/GDP/OPEC event risk, HOLD is the highest-expectancy call.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 85.12,
+    "expires_min": 240,
+    "note": "Reclaiming the 85.0-85.1 shelf confirms the short-squeeze is underway, opening a long toward the VWAP retest."
+  },
+  "transcript": {
+    "macro": "MACRO (2026-07-27, shared): Cautiously RISK-ON but into a wall of event risk. Sunday futures rallied (NDX +1.2%) on US-Iran de-escalation + oil pullback, but FOMC Wed Jul 29 is a live HIKE tail (~34% CME) with CPI at a 3-yr high on energy. Busiest megacap earnings night: MSFT+META Wed after close, AAPL+AMZN Thu after close. BTC.D ~56%, crypto firm but range-bound (BTC reclaimed $65k). Treat longs into Wed as smaller-size; anything held through FOMC or a name's own print is gap coin-flip. Tokenized equities (MSFT/AAPL/NVDA/TSLA/TSM/QQQ/INTC/EWY/MSTR/CRCL) are thin/gappy when US cash is closed; Nasdaq tape + rates/DXY drive them, not crypto funding. Biggest cross-book risk: a hawkish FOMC or megacap miss re-prices equities, semis, gold and crypto together.",
+    "sentiment": "SENTIMENT (2026-07-27, shared): Busiest macro+earnings week of the quarter. FOMC Wed Jul 29 2pm ET (hold ~85% priced; hawkish risk on $100 oil). MSFT+META earnings Wed AC; AAPL+AMZN Thu AC; COIN Thu. CL: positive/volatile, US-Iran risk premium, two-way headline-driven. XAG: positive, 7.5% 4-day rally, softer USD + AI/industrial demand + supply deficit; FOMC swing risk. MSFT: neutral-positive into Wed binary earnings. BTC: neutral-cautious ~$64K, F&G 27 (Fear), ETF outflows. AAPL: neutral into Thu binary (Cook's final call). TSLA: negative, Q2 miss (EPS $0.33 vs $0.53, op income -57%), -11% MTD. NVDA: neutral-positive, no own catalyst <48h, AI-capex read-through. SOL: positive, MSOL ETF approval Jul 24, inflows, $80 breakout level. TSM: neutral post-earnings (record rev but -4% on print). XAUT: neutral-positive ~$4,050-4,200, FOMC swing. MSTR: neutral-cautious, halted BTC buying, high BTC beta. QQQ: neutral-cautious into events, expect gaps. INTC: negative/volatile, Q2 foundry -$2.1B op loss, -28% MTD. EWY: positive/volatile, KOSPI +15% off lows, heavy SK Hynix weight. CRCL: positive, OCC trust-bank charter Jul 8, USDC +19%; Visa/Mizuho offsets, COIN Thu read-through.",
+    "analyst": "CL crashed on Iran de-escalation but has stabilized above 83.15 with a mild higher-low drift and fading volume - not fresh downside momentum. Deeply oversold (4h RSI 21, %B 0.13, -4% vs VWAP) plus negative funding and L/S 0.62 make a market short a chase into squeeze fuel. A long needs a 85.1 reclaim; without it, and into FOMC/GDP/OPEC event risk, HOLD is the highest-expectancy call. | Forecast: Basing 84.4-85.0 after the 83.15 capitulation flush; expect chop until it either reclaims 85.1 (squeeze bounce toward VWAP ~88) or loses 83.15 (downtrend resumes). | Expectancy: No edge market-entering: shorting RSI-21 / -4% below VWAP into crowded-short squeeze risk is the account's proven losing pattern (short win 46%, -0.82R); long lacks reclaim confirmation. Wait for the 85.1 break. | Reconsider: {\"condition\": \"price_above\", \"level\": 85.12, \"expires_min\": 240, \"note\": \"Reclaiming the 85.0-85.1 shelf confirms the short-squeeze is underway, opening a long toward the VWAP retest.\"}",
+    "portfolio": "HOLD - basing post-flush; arm long on 85.1 reclaim"
+  },
+  "timestamp": "2026-07-27T01:07:53.012142+00:00"
+}

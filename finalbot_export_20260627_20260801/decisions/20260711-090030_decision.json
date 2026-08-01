@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "CRCL/USDT:USDT",
+  "size": 0.0,
+  "entry": 67.2,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Coils 67.0-67.5 in thin weekend off-hours; most likely chops sideways-to-slightly-lower toward 66.6-67.0 into Monday cash reopen. A clean reclaim/hold above 67.55 opens 68.2; a break under 67.0 confirms the fade toward 66.0 / 65.0.",
+  "expectancy_note": "No edge at mid-range 67.20: p(win) ~0.5 either way. Long is crowded (L/S 2.715 maxed) beta-laggard (RS -17.99%) into thin closed-cash weekend + CPI Tue \u2014 chasing it is the account's #1 losing pattern (trend/high_adx 0.44-0.45 win). Short has no extreme/rejection yet. HOLD until a level resolves.",
+  "rationale": "CRCL is coiling 67.0-67.5 near VWAP with ADX 59 but extreme long crowding (long_short 2.715, structure_bias -0.304) and -17.99% relative strength \u2014 a fade-the-spike tape, not a clean trend, and it is a tokenized equity trading thin off-hours (US markets closed Sat) with Monday reopen gap + Tue CPI risk. A market long here chases a crowded laggard on 3.4% ATR into binary event risk; a short has no confirmed rejection or extreme. Both sides fail the honest R:R / no-chase checks, so HOLD is the highest-expectancy call with triggers armed at the range edges.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 66.95,
+    "expires_min": 240,
+    "note": "Losing the 67.0 higher-low base confirms the crowded-long fade is unwinding \u2014 arms a short toward 66.0/65.0 with the extreme crowding as fuel."
+  },
+  "transcript": {
+    "macro": "CRCL HOSTILE-to-MIXED, treat as equity. btc_correlation 0.533 (COIN-cluster beta) but real driver is CRCL the stock: closed ~$63 on 7/09, spiked to $72.86 intraday 7/10 then faded to ~$67.5. atr_pct 3.4% (highest of three) \u2014 gappy, headline-driven. CONTRARIAN FLAG: long/short 2.715 (maxed) = lopsided long crowding, dominant negative in structure_bias -0.304. RS -17.99% vs BTC \u2014 heavy laggard. Overhang: Compass Point PT $55 (Stripe 'Open USD'). Fade-the-spike, longs materially smaller.",
+    "sentiment": "Dominant <=48h binary: June CPI Tue July 14, hawkish-skewed. CRCL choppy-but-stabilizing: bounced ~12% to ~$70.82 on 7/09 (Nomura Japan FX-settlement + OCC national-trust-bank charter) offsetting Stripe threat. NO company-specific binary inside 48h (earnings ~Aug 11). Last $67.2 already below Thursday's $70.82 close \u2014 bled over weekend. Near-term news NEUTRAL; event-risk skews to CPI + Monday cash reopen gap. A long rides beta, not a catalyst.",
+    "analyst": "Mid-range near VWAP, no edge either way. Long is crowded (L/S 2.715 maxed) beta-laggard (RS -17.99%) on 3.4% ATR into thin closed-cash weekend + CPI Tue \u2014 the account's #1 losing pattern. Short has no confirmed rejection/extreme yet (price grinding up, ADX 59, composite long). Both fail honest R:R / no-chase. HOLD, short armed on a break below 66.95.",
+    "portfolio": "CRCL: HOLD (conf 0.60) \u2014 crowded-long laggard, no edge at mid-range; short arms only on loss of 66.95."
+  },
+  "timestamp": "2026-07-11T09:00:30.434648+00:00"
+}

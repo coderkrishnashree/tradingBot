@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "TSLA/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price coils in the 317.4-318.5 box; last 6 bars printed lower highs off the 318.55 top with fading volume. Likely a drift/fade back toward 316.3-315 unless buyers reclaim 318.5. No clean edge until the box resolves.",
+  "expectancy_note": "Long here chases stoch 92 / worst rel-strength (-24%) into FOMC = negative expectancy; naked short into 307 support with shorts at 45% win is worse. HOLD beats both until the box breaks.",
+  "rationale": "TSLA is a stretched relief pop (stoch 92, RSI 68) stalling under a distant resistance (386), crowded long (L/S 2.76, structure_bias -0.34) and the weakest laggard in the book (-24% rel-strength) into a Wed FOMC + Mag-7 binary. No honest R:R either way: a long chases into event risk mid-air, a short has no structure until 307 nearly 3.4% away. The tight 317.4-318.5 box with fading momentum is a coin flip; waiting is highest-expectancy. Size 0.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 316.3,
+    "expires_min": 240,
+    "note": "Losing 316.3 breaks the pop base / origin of the high-vol thrust bar, confirming the relief rally failed and opening a momentum short toward 307."
+  },
+  "transcript": {
+    "macro": "Regime: MIXED-to-HOSTILE for fresh longs. FOMC Wed Jul 29 + Mag-7 earnings inside the hold window; hawkish Warsh Fed, hike tail ~34-38%; DXY 13-mo high. Relief pop into event risk. TSLA: autos/high-beta tech, RSI 68/stoch 92, L/S 2.76 crowded (bias -0.34), rel-strength -24% = worst laggard; already reported but moves on Mag-7 sympathy + FOMC. Thin off US hours. Reduced size.",
+    "sentiment": "Cautiously RISK-ON but event-heavy; FOMC Wed the biggest <=48h catalyst. TSLA: earnings ALREADY OUT \u2014 Q2 after close Wed Jul 22, record 480K deliveries (beat) but PROFIT MISS (~$1.1B deficit), stock slid ~4% after-hours. Binary passed; no scheduled <=48h catalyst. Tone mixed/bearish (down ~17% YTD). NEUTRAL-to-bearish drift; moves on QQQ/tech beta + the Fed.",
+    "analyst": "TSLA 317.93, RSI 68.5/stoch 92.1 (stretched), ADX 75.4, vwap_dist +0.82%. Popped 315->318.48 on a high-vol bar then stalled \u2014 last 6 bars lower highs off 318.55 on fading volume. L/S 2.76 crowded, orderbook -0.138 (sellers above), rel-strength -24% (worst in book). Support 307 / resistance 386 (far). Long chases stoch 92 into FOMC; short has no level until 307 and shorts bleed. HOLD; short trigger below 316.3.",
+    "portfolio": "HOLD TSLA \u2014 weakest laggard, stretched pop stalling into FOMC; short only on a 316.3 break."
+  },
+  "timestamp": "2026-07-27T10:09:06.327136+00:00"
+}

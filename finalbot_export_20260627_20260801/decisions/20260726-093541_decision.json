@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "COIN/USDT:USDT",
+  "size": 0.0,
+  "entry": 159.89,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.34,
+  "playbook": "none",
+  "forecast": "Thin weekend chop 159.4-160.5 near VWAP; the 1h/15m bounce is real but stalls into offer-heavy orderbook with 4h still downtrending \u2014 no clean directional edge before it either reclaims ~161.5 or loses 158.",
+  "expectancy_note": "p(win) ~0.45 either way; nearest scalp target (~161) vs ~1.5pt stop gives R:R <1.2, below threshold \u2014 HOLD beats a low-quality bounce-chase into earnings.",
+  "rationale": "COIN is a divergence-bounce candidate but the setup is low-expectancy: 4h remains a downtrend (RSI 38, MACD -1.56), orderbook leans offer (-0.234) with longs already crowded (L/S 1.535), RS -7.2% shows it's the weak horse, and US markets are closed so the tape is thin/gappy. Any honest scalp target sits inside 1.5x ATR while a valid stop below 158 makes R:R <1.5. A hard earnings binary Thu 7/30 caps holding time and adds gap risk. No edge to justify size \u2014 wait for the bounce to prove itself by reclaiming the intraday shelf, or fade a break of range.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 161.6,
+    "expires_min": 240,
+    "note": "Reclaiming the 161.5 micro-shelf on volume would confirm the 1h divergence bounce has legs, upgrading it from chop to a tradeable long toward 165+ with VWAP support underneath."
+  },
+  "transcript": {
+    "macro": "REGIME: RISK-OFF/mixed-hostile with a hard event wall (FOMC 7/29). Tokenized names thin/gappy off US hours. COIN: crypto-equity; BTC soft (~$64.5k 4h downtrend, some notes cite BTC broke to ~$58k 21-month low on ETF outflows). ~0.49 BTC correlation inherits crypto weakness on top of equity risk-off. Scan: RS -7.2% (lagging), bullish 4h divergence \u2014 bounce candidate, not a trend.",
+    "sentiment": "COIN BEARISH near-term; double binary (crypto tape + earnings 7/30). HARD BINARY: Q2 earnings Thu 7/30 AMC. Crypto shock live/negative: BTC broke $60k to ~21-month low ~$58k on ETF outflows (~$4.5B June), chip selloff, Hormuz tensions; Fear & Greed Extreme Fear (10-22). COIN weak (RS -7%, 4h short), BTC-corr ~0.49. 4h bullish divergence is a bounce setup fighting a negative tape into the 7/30 print. Lean: against longs; any bounce is a quick scalp only, flat before 7/30.",
+    "analyst": "4h downtrend (RSI 38, MACD -1.56) vs 1h/15m divergence bounce. Orderbook offer-heavy (-0.234), longs crowded (L/S 1.535), RS -7.2% (weak horse), US closed => thin/gappy. Scalp target ~161 vs ~1.5pt stop => R:R <1.2, below threshold. Earnings 7/30 caps holding time. HOLD; upgrade to long only on a volume reclaim of 161.6.",
+    "portfolio": "HOLD COIN (conf 0.34) \u2014 low-expectancy divergence bounce into a hostile crypto tape + 7/30 earnings; needs a 161.6 reclaim to trade."
+  },
+  "timestamp": "2026-07-26T09:35:41.458531+00:00"
+}

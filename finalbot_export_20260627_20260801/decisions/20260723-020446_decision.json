@@ -1,0 +1,23 @@
+{
+  "symbol": "MSFT/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.55,
+  "size": 0,
+  "entry": 389.73,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "rationale": "MSFT is deeply oversold (4h RSI 23, 1h RSI 27, stoch 19, bb%b 0.09) inside a very strong ADX-62 downtrend, and the last ~12 candles show a small, thin bounce already underway off 386.6 up to 389.9 holding above 384.31 support. Shorting here is the account's worst pattern - chasing stretched-oversold tape a routine counter-bounce would stop out. But longing a low-volume bounce against a dominant downtrend into 406 resistance, with earnings Jul 29 as looming binary risk, is not clean enough (no divergence, thin volume) to size. Wait for a reclaim confirming the reversal or a support break confirming continuation.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 384.0,
+    "expires_min": 240,
+    "note": "Losing 384.31 support voids the oversold bounce and confirms the ADX-62 downtrend resumes - flips to a short with a stop back above VWAP."
+  },
+  "transcript": {
+    "macro": "Regime neutral-to-cautious (VIX 16.6, oil spiking on Iran strikes). Two-sided stock-pickers tape. MSFT reports Jul 29 - binary event risk approaching; keep size modest, don't hold naked into print. Scan has MSFT oversold-short (RSI 23). Long-side crowding (MSFT L/S ~1.9). FOMC Jul 28-29. Bias: shorts on earnings losers better supported than crowded longs; fade extensions.",
+    "sentiment": "MSFT: earnings Wed Jul 29 after close - the big binary, nothing inside 48h. Currently oversold on scan (RSI 23). No fresh catalyst before then; drift/no-news.",
+    "analyst": "Composite says short but that's a lagging read of the 1h/4h downtrend; candles show an oversold bounce already underway (386.6 -> 389.9, holding above 384.31 support, 5m up). Shorting into RSI 23 / stoch 18 / bb%b 0.09 with price bouncing off VWAP = late short, stopped by the bounce. But the bounce is thin/low-volume against ADX-62 downtrend into 406 resistance, no divergence - not a clean long either. HOLD; short on loss of 384.31, long only on a ~392-393 reclaim.",
+    "portfolio": "HOLD MSFT - oversold thin bounce inside strong downtrend, earnings Jul 29; short trigger below 384."
+  },
+  "timestamp": "2026-07-23T02:04:46.711621+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "EWJ/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.7,
+  "playbook": "none",
+  "forecast": "Price stays pinned near 95.1-95.3 on zero-volume weekend prints; no real move until Japan reopens Monday, which risks a gap through either 96.65 resistance or 94.9 support that no intraday stop could survive.",
+  "expectancy_note": "No edge: 4h RSI 74.6 / ADX 80.9 / stoch 93.1 is exhaustion-hot into 96.65 resistance while 5m flips short (RSI 34.8) - conflicting, illiquid, and any entry faces uncapped weekend gap risk. Standing aside is the positive-expectancy choice.",
+  "rationale": "EWJ is an equity ETF with the Japan underlying and US cash both CLOSED (Saturday), and the recent_candles are almost entirely 0.0-volume synthetic marks - this is untradeable tape, not a setup. Extended +2.14% above VWAP into resistance 96.65 with %B 0.816 leaves no room for a long, and the illiquidity plus Monday gap risk (and CPI Tue) make a short equally unsafe; the composite is unaligned at 47.7% confidence. Zero size is correct.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 96.65,
+    "expires_min": 240,
+    "note": "A clean break of the 96.65 resistance on real (non-zero) volume once markets reopen would signal genuine continuation worth a fresh trend read; below that this is just weekend noise."
+  },
+  "transcript": {
+    "macro": "Regime MIXED, risk-cautious into June CPI Tue Jul 14. Saturday - US + Japan cash closed. EWJ 4h RSI 74.6, ADX 80.9 (exhaustion-hot), candles almost all zero-volume prints (barely trading). Positioning balanced (L/S 1.40, order book +0.39). Corr QQQ 0.67. Read: AVOID / stand aside - extended, illiquid, Japan underlying closed, no edge worth the gap risk.",
+    "sentiment": "EWJ NEUTRAL-to-BULLISH but BOJ event caps. Nikkei firm (+37% YTD, briefly cleared 70,000), tech-led. Weak yen supports exporters. BOJ decision JULY 30 = key vol driver (outside 48h). JGB yields jumping on BOJ-independence concerns. Thinly traded on Bybit (many zero-volume 15m candles) - gappy/illiquid.",
+    "analyst": "Japan + US underlying both closed; recent candles almost entirely 0.0-volume synthetic marks = untradeable tape. Extended +2.14% above VWAP into 96.65 resistance (no long room) while 5m flips short - conflicting, illiquid, uncapped Monday gap risk. Composite unaligned 47.7%. Stand aside. Armed reconsider above 96.65 on real volume.",
+    "portfolio": "HOLD EWJ - illiquid weekend synthetic tape, no edge; stand aside until real volume returns."
+  },
+  "timestamp": "2026-07-11T13:03:29.777354+00:00"
+}

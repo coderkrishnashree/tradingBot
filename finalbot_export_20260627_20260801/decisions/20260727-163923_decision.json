@@ -1,0 +1,28 @@
+{
+  "symbol": "XAUT/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.5,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "none",
+  "forecast": "Price just V-recovered from 4056 back to VWAP/4077 on higher-lows; expect chop 4066-4085 into FOMC. A pullback holding 4066 or a decisive break above 4085 is the entry - not this mid-range top-of-bounce print.",
+  "expectancy_note": "Long p(win)~0.55 but entering at top of a bounce into VWAP with ATR only 0.28% gives poor R:R (target ~4090 vs stop ~4064); crowded L/S 2.48 + two-way FOMC in <48h cap edge. Waiting for squeeze resolution beats chasing.",
+  "rationale": "4h uptrend (RSI 69.6, score +0.872) and safe-haven bid favor longs, and the book's longs win (60%, +1.35) while shorts bleed - so no short. But price has already run +0.5% off the 4056 low back to VWAP into a squeezed bb_width of 1.2%, so a market long here chases the bounce into the account's #1 loss pattern with sub-1.5 R:R and crowded-long fuel against it. FOMC Jul 28-29 is a two-way binary inside the window. Hold and let the squeeze resolve; re-enter long on a reclaim of the 4085 swing.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 4085.0,
+    "expires_min": 240,
+    "note": "Reclaiming the 4085 pre-drop swing high proves the squeeze resolves up (not a fade) and confirms the safe-haven bid, turning the 4h uptrend into a clean continuation long toward 4155."
+  },
+  "transcript": {
+    "macro": "Environment HOSTILE-to-MIXED risk-off tech tape. FOMC Jul 28-29 is a TWO-WAY gold catalyst (hawkish hold pressures gold, neutral hold supports). XAUT is the ONLY true 24h asset in the book and the cleanest / lowest equity-beta vehicle. Near record highs (RSI 69.6 on 4h) but higher oil -> 'higher-for-longer' rate expectation is capping gold near-term, and L/S 2.48 = very crowded long (structure_bias -0.29).",
+    "sentiment": "XAUT (gold) holding ~$4,050-4,080. The Jul 29 FOMC is the near-term driver: hawkish hold pressures gold, neutral hold supports; also exposed to end-of-week NFP + Middle East risk. Direction hinges on Fed tone. Neutral-to-mildly-bullish safe-haven bid. Overall: risk-off tape supports the safe-haven bid but positioning is crowded-long and oil-capped.",
+    "analyst": "XAUT last 4077.7. RSI 69.6 (4h), ADX 45.9, %B 0.829, bb_width 1.2% (squeezed), VWAP +0.24%, ATR% 0.28% (very low). Support 3984 / resistance 4155. L/S 2.476 (very crowded long), structure_bias -0.29, p_win_learned 0.595. Clean V-recovery 4056->4077 on higher-lows, now back at VWAP/range-top. 4h uptrend + safe-haven bid favor long and the book's longs win (60%) while shorts bleed - so no short. But this is a mid-range top-of-bounce entry into a squeeze ahead of a two-way FOMC: R:R sub-1.5. HOLD; long trigger on a reclaim above the 4085 swing.",
+    "portfolio": "XAUT: HOLD (conf 0.50) - bullish bias, but wait for the squeeze to resolve above 4085 rather than chase mid-range into FOMC."
+  },
+  "timestamp": "2026-07-27T16:39:23.794422+00:00"
+}

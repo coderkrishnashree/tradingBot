@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "SOL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Chop between 75.2 and 76.2 continues near-term; price is mid-range at 75.77 with no clean level to lean on. Expect more sideways coiling into FOMC; a flush toward 73.4 support or a reclaim of 76.2/78.86 is what resolves it.",
+  "expectancy_note": "No edge mid-range: long has no tight stop here, short fights winning-long bias + negative funding + crowd already positioned; p(win)~0.5, wait for a real level.",
+  "rationale": "SOL is consolidating mid-range (support 73.39 / resistance 78.86) at 75.77, VWAP +0.8%, %B 0.71 \u2014 not at any actionable extreme, so any entry now carries a wide, dishonest stop. Mid-TFs (30m/1h) are neutral-to-down while only 4h is bull, and SOL is 0.85 BTC-beta with -8.5% rel-strength into a hawkish-tail FOMC Wed, so it is a leveraged BTC long, not an idiosyncratic setup. Learner stats show shorts bleeding (-1.02 avg) and longs winning (+1.35), which argues for buying a DIP at support rather than chasing here or shorting. Best expectancy is to wait: buy 73.4-74 support on a flush, or engage a clean break of 76.2/78.86.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 74.0,
+    "expires_min": 240,
+    "note": "A dip to 74/73.4 support offers a high-probability long entry with a tight stop below the range low and target back to the 76+ mid-range."
+  },
+  "transcript": {
+    "macro": "Risk-off crypto; BTC dominance 56.3% (alts underperforming, every alt negative rel-strength vs BTC). FOMC decision Wed Jul 29 \u2014 HOLD expected, live hawkish tail risk. SOL book: price ~$75.76, structure_bias -0.294, funding -0.0022% (negative, mildly contrarian-bullish), L/S 2.705 (retail crowded long \u2014 contrarian risk if BTC rolls), orderbook flat, btc_corr 0.854 (high-beta BTC), rel-strength -8.5%. Treat SOL longs as leveraged BTC longs into FOMC; keep size small.",
+    "sentiment": "FOMC Jul 28-29 dominates. SOL bullish undertone, high beta to BTC. Fresh positive: Morgan Stanley spot Solana ETF (MSOL) NYSE Arca approval Jul 24 with staking; network activity surge (>1B weekly txns). Mild overhang: PUMP token unlock (~$124M, ~21% float) in July (ecosystem, not SOL directly). Near-term modestly bullish idiosyncratic tailwind, but SOL trades FOMC through BTC.",
+    "analyst": "SOL mid-range at 75.77 (support 73.39 / resistance 78.86), VWAP +0.8%, %B 0.71 \u2014 no actionable extreme, so any entry has a dishonest wide stop. Mid-TFs neutral-to-down, only 4h bull; 0.85 BTC-beta + -8.5% rel-strength into FOMC = leveraged BTC long, not idiosyncratic. Shorts bleed this account (-1.02 avg), longs win (+1.35). Wait to buy the 73.4-74 support flush or a clean 76.2/78.86 break.",
+    "portfolio": "HOLD SOL/USDT \u2014 mid-range, high BTC-beta into FOMC; armed a buy-the-dip reconsider at 74.0."
+  },
+  "timestamp": "2026-07-27T19:36:34.468589+00:00"
+}

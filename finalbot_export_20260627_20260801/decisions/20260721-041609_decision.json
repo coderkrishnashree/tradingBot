@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "AAPL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.34,
+  "playbook": "none",
+  "forecast": "Price coils 325.7-326.7 on dead volume; most likely it keeps chopping this 1-pt band near-term. The 4h is deeply oversold (RSI 24.6, %B 0.09) so the ASYMMETRIC risk is a mean-reversion bounce toward 328-330, not fresh downside \u2014 but there is no reclaim yet to trigger it.",
+  "expectancy_note": "No edge either way: composite 'short' is flagged NOT aligned, structure_bias is +0.08 (long-lean), and RSI 24.6 makes a short a late chase into exhaustion \u2014 the account's #1 loser. p(win) ~0.5 both directions.",
+  "rationale": "AAPL is a tokenized equity (crypto structure metrics irrelevant), thin off US RTH, into risk-off macro with earnings ~10 days away (no 48h binary). The only strong signal is 4h oversold, which argues AGAINST shorting here, but there is no bounce confirmation and no clean long trigger \u2014 the 15m tape is flat with sub-10 volume bars. Shorting RSI 24.6 at the lower band is exactly the stretched-tape short that gets stopped by a bounce; standing aside preserves capital until a real level breaks.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 328.0,
+    "expires_min": 240,
+    "note": "Reclaiming 328 breaks the coil upward off a deeply oversold 4h \u2014 confirms the mean-reversion bounce and opens a long toward 330-333; losing 322 instead would be the mirror short trigger toward support 312."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF/defensive (2026-07-21): geopolitics (Iran/Hormuz) headline-gap tape; size down. Tokenized equity thin off US RTH. AAPL scan shows SHORT bias (composite ~30, not aligned) with no strong signal \u2014 not really in play. Reports next week (~Jul 31, no 48h binary).",
+    "sentiment": "AAPL neutral: earnings expected end of July (~Jul 31, not in tightest confirmed set) \u2014 likely NO binary inside 48h. No fresh product/regulatory shock last week. Trades as index/sector beta into Mag-7 prints.",
+    "analyst": "HOLD AAPL. Conflicted low-conviction picture \u2014 composite leans short but is explicitly NOT aligned (align_factor 0.87), and structure_bias is actually positive (+0.084). The one strong reading is 4h RSI 24.6 with %B 0.094, i.e. deeply oversold \u2014 a reason NOT to short into the lower band (the account's classic late-short-into-stretched-tape loser). No bounce confirmation and no long trigger either: 15m candles are a dead-flat 325.7-326.7 coil on tiny volume. Thin off-RTH, risk-off tape, earnings ~10 days out. Neither side offers R:R >= 1.5. Upside reconsider at 328 (coil break off oversold), mirror short below 322 toward 312.",
+    "portfolio": "HOLD AAPL \u2014 conflicted signals, 4h oversold argues against shorting, no long trigger; flat coil, stand aside."
+  },
+  "timestamp": "2026-07-21T04:16:09.858311+00:00"
+}

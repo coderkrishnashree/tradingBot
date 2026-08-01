@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "QQQ/USDT:USDT",
+  "size": 0.0,
+  "entry": 697.61,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.55,
+  "playbook": "none",
+  "forecast": "Price rejected 701, faded to VWAP ~697.6; with 5m rolling over (RSI 33) it likely chops 696.5-699 rather than trending \u2014 no clean move in a 0.24% ATR tape.",
+  "expectancy_note": "No entry has R:R>=1.5 to a real near level: nearest resistance 729 is ~19 ATR away, support 688 ~9pts down; thin weekend/risk-off tape makes any 1.67pt-ATR entry a low-expectancy chase.",
+  "rationale": "QQQ is a tokenized EQUITY with US markets CLOSED (thin/gappy) into a RISK-OFF, chip-de-rating tape where QQQ is -12.9% rel-strength. The 30m/1h uptrend just stalled: price rejected 701 and faded back to VWAP while 15m went flat and 5m flipped short (RSI 33), so buying chases a fading move with no near target, and shorting fights the higher-TF uptrend with no structural downside level. ATR only 0.24% so nothing is far enough for 1.5R; size 0, especially with TSLA/GOOGL earnings Wed raising mid-week gap risk.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 701.0,
+    "expires_min": 240,
+    "note": "Reclaiming/holding above the 701 swing high proves the 30m/1h uptrend resumed."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF (2026-07-20 Mon), semiconductor de-rating, rotation OUT of chips/tech INTO financials/energy. US equity market CLOSED (weekend) \u2014 thin/gappy, gap risk. FOMC 7/28-29 (outside 48h). QQQ tech-heavy, rel-strength -12.9%, dragged by chips \u2014 mild headwind.",
+    "sentiment": "QQQ no single catalyst but hostage to TSLA + GOOGL earnings Wed 7/22 (after close) and FOMC 7/29. Elevated gap risk mid-week; US market hours only. De-risk into Wednesday.",
+    "analyst": "Tokenized equity, crypto structure metrics irrelevant, US market closed/thin. 30m/1h scores show recent uptrend but 15m gone flat, 5m flipped short (RSI 33) \u2014 momentum fading right at VWAP. ATR% 0.24 = ~1.67pt ATR; resistance 729 is ~19 ATR away, no clean intraday target. Long into a fading, thin, weekend, risk-off, tech-underperforming tape is the chase-after-the-move trap; short has no structural target and fights 30m/1h uptrend. HOLD.",
+    "portfolio": "HOLD \u2014 fading move at VWAP, tiny ATR, earnings gap risk Wed; watch 701 reclaim."
+  },
+  "timestamp": "2026-07-20T01:48:12.269041+00:00"
+}

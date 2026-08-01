@@ -1,0 +1,23 @@
+{
+  "symbol": "AAPL/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.3,
+  "size": 0.0,
+  "entry": 326.11,
+  "stop_loss": 312.0,
+  "take_profit": 339.17,
+  "rationale": "Scan flags SHORT but the tape says the down-move is already DONE, not starting: RSI 28.8, stoch 18.6, and %B 0.003 (price literally pinned to the lower Bollinger band) at -1.41% below VWAP, while the last candles stopped falling at 325.13 and are basing 325.7-326.6 with the 5m score flipping +0.60 long. Shorting here is the exact 'late short into stretched tape' pattern that has bled this account (shorts 0.49 win / -0.71 avg pnl vs longs 0.69 / +2.28), and structure is near-neutral (LS 1.02, funding 0) with AAPL a thin illiquid perp at ATHs into FOMC/earnings week - no clean R:R either direction. Standing aside; a genuine short only earns its edge on a decisive loss of support 312, otherwise this oversold reading favors a mean-reversion bounce toward VWAP.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 312.0,
+    "expires_min": 240,
+    "note": "losing the 312 support flushes the base and validates fresh downside - the only condition that turns this oversold read into a real short"
+  },
+  "transcript": {
+    "macro": "Regime MIXED - risk-on relief bounce in tech/semis inside a fragile risk-off tape. Chips/Big Tech rebounding on peace-talk hopes after last week's semi selloff, but the backdrop is hostile underneath: US-Iran escalation pushing WTI ~+14%/week, long-end yields up, derivatives pricing ~53% odds of a Sept Fed HIKE. Megacap-earnings week (TSLA/IBM/GM) -> QQQ/MSFT/GOOGL gap risk. Cleanest structural long = QQQ (structure_bias +0.15, orderbook +0.61, l/s 0.80 not crowded). Crowded/stretched longs = MU (funding maxed, l/s 2.13, RSI 72), INTC (RSI 76/82, l/s 1.9), XAG (l/s 4.0), MSTR (crowded funding, 0.73 BTC-beta). Silver ~$57 rebounding but -12.7%/month near 8-mo lows. Oil short a valid hedge but binary (Hormuz gap risk) - keep small. BTC ~$65k mixed/soft, dominance high. FOMC Jul 29 looming. Net: smaller size, quick management; biggest shared risk is a crowded-long unwind in semis/metals if the oil/inflation impulse revives hike bets.",
+    "sentiment": "Cool June CPI (3.5% YoY, -0.4% MoM) -> ~80% priced no hike at FOMC Jul 28-29 (note: derivatives positioning implies rising Sept-hike odds - rate path genuinely uncertain). Hard <=48h binaries: GOOGL Q2 earnings after close Wed Jul 22 (Cloud + AI capex), INTC Q2 after close Thu Jul 23 (~15% implied swing). TSM already beat Jul 16 (+36% YoY, raised FY26 >40%, AI 'extremely robust') - supportive semi read-through, no new binary. AAPL earnings ~Jul 30 (outside window), near ATH ~$334. MSFT earnings ~Jul 29. MU no earnings but two-sided China/HBM export-control headline risk (fell 7% Jul 15 on CXMT IPO). ORCL bearish (down ~6% Jul 16, S&P cut to BBB-, AI-capex/funding fears) but oversold + high bounce risk. BTC cautious recovery, ETF inflows +$124M offsetting Strategy's active BTC selling; double-bottom neckline ~$67.1k. MSTR high-beta BTC proxy w/ self-selling overhang. XAG narrative-driven triangle (bull >$61 / bear <$55.7). CL ~$82-83 5-week high, US-Iran/Hormuz bull vs OPEC+ supply bear - trade headlines.",
+    "analyst": "Scan flags SHORT but the tape says the down-move is already DONE, not starting: RSI 28.8, stoch 18.6, and %B 0.003 (price literally pinned to the lower Bollinger band) at -1.41% below VWAP, while the last candles stopped falling at 325.13 and are basing 325.7-326.6 with the 5m score flipping +0.60 long. Shorting here is the exact 'late short into stretched tape' pattern that has bled this account (shorts 0.49 win / -0.71 avg pnl vs longs 0.69 / +2.28), and structure is near-neutral (LS 1.02, funding 0) with AAPL a thin illiquid perp at ATHs into FOMC/earnings week - no clean R:R either direction. Standing aside; a genuine short only earns its edge on a decisive loss of support 312, otherwise this oversold reading favors a mean-reversion bounce toward VWAP.",
+    "portfolio": "Hold - scan says short but AAPL is deeply oversold pinned to the lower band; the late-short pattern loses, wait for a decisive break <312."
+  },
+  "timestamp": "2026-07-21T02:17:07.888606+00:00"
+}

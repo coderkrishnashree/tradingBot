@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "BTC/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price is coiling 62400-62880 just above support 61272 after the leg down; RSI 28 and below-band favor a relief bounce toward VWAP/63700 next few bars rather than an immediate new low \u2014 I want either that bounce or a clean break of 61272 before committing, not a chase here.",
+  "expectancy_note": "Market-short into RSI 28 / below lower BB / 2.3% above real support is the exact late-short chase that bled this book (trend playbook 45% win, avg -2.51R); no edge either way now, so HOLD is highest expectancy.",
+  "rationale": "ADX 74.9 downtrend is real but stretched (RSI 28, bb_pctb -0.225, stoch 13) and price stopped making new lows over the last 5 bars with bid-heavy orderbook (+0.43) absorbing dips into support 61272 \u2014 a routine bounce would stop any honest short here. CPI tomorrow adds binary risk inside 48h. My own trend/high-ADX shorts are losing, so I refuse to chase; I want a confirmed break of 61272 (short the continuation) or a bounce to VWAP/63700 (short the retest) for real R:R. Size 0 until one of those prints.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 61272,
+    "expires_min": 240,
+    "note": "Losing support 61272 proves dip-buyers failed and confirms trend continuation, giving a clean short entry with room down rather than a stretched mid-air chase."
+  },
+  "transcript": {
+    "macro": "Crypto RISK-OFF. BTC ~$62.7k, down ~15% MTD, recently hit 21-month low, below 200-week MA. F&G 24 (Extreme Fear). BTC.D ~56% NOT rolling over \u2014 capital fleeing to stablecoins ('hide, don't chase'). EVENT: US June CPI Tue Jul 14 08:30 ET inside 48h; FOMC Jul 28-29 out of window. BTC is 24/7 (no closed-session gap), cleanest of the three to trade now. Structure: funding flat (no crowded-long premium), OI ~57.7k holding, orderbook +0.43 (bid-heavy dip-buy), L/S 1.41 (net long, contrarian downside), structure_bias ~0. ADX 74.9 with RSI 28 / bb_pctb -0.22 = strong, extended, oversold downtrend \u2014 real but stretched. Verdict: environment supports shorts/continuation over fresh longs, but oversold + CPI caps conviction; MIXED-bearish, reduced size.",
+    "sentiment": "BTC ~$62.7k, rally faded, grinding lower, F&G ~26 (Fear), risk-off. Only real catalyst FOMC Jul 28-29 (~2 weeks out, OUTSIDE window). No fresh hacks/delistings/unlock shocks. Soft June jobs (57k) fueled rate-cut hopes but inflation hot (4.2% YoY) \u2014 mildly bearish tension, not imminent trigger. No catalyst to force a move; sentiment supports short only insofar as tape is fearful/heavy.",
+    "analyst": "Strong downtrend (ADX 74.9) but stretched/oversold (RSI 28, %B -0.225, stoch 13), price stopped making new lows over last 5 bars with bid-heavy book (+0.43) absorbing dips just ~2.3% above support 61272 \u2014 a routine bounce stops any short here, and my own trend/high-ADX shorts are bleeding (45% win, -2.51R). CPI tomorrow adds binary risk. Refuse to chase: want a confirmed break of 61272 (short continuation) or a bounce to VWAP/63700 (short retest). Size 0 until one prints.",
+    "portfolio": "HOLD BTC @ conf 0.60 \u2014 no chase into oversold/CPI; armed to short a break below 61272."
+  },
+  "timestamp": "2026-07-13T05:32:34.919417+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "XAG/USDT:USDT",
+  "size": 0.0,
+  "entry": 57.27,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price is pinned on support 57.13 after a high-volume capitulation flush (bar tagged 57.13, closed back at 57.39, last bar higher-low 57.15) \u2014 expect two-way chop 57.13-57.55 into the 8:30am ET CPI, then a directional resolution ON the print: a hot CPI cracks 57.13 toward 56.6/56.3, a soft CPI squeezes the 3.71x long book back toward 57.7-58.0.",
+  "expectancy_note": "No edge either way: short p(win) low because RSI 11.6 / stoch 5.0 / %B -0.03 are washed out ON support that just held, so any honest 1x-ATR stop (~57.8) gets tagged by a routine bounce before continuation; long is against ADX 71 downtrend and all TFs down. Binary CPI in hours makes both a coin-flip \u2014 waiting for the break-retest is +EV vs chasing.",
+  "rationale": "XAG is in a strong 4h downtrend (ADX 71, all TFs down, RS -6.5%) with a max-crowded 3.71x long book that is squeeze-lower fuel, BUT price is sitting right on 57.13 support after a high-volume flush that tagged the level and bounced (57.13 low -> 57.39 close), RSI 11.6 and stoch 5.0 are deeply oversold, and June CPI drops today 8:30am ET \u2014 a soft print gaps metals higher and torches the long book. The macro/sentiment mandate is explicit: short ONLY on a clean break-and-retest of 57.13, which we do NOT have; long is unsupported. Chasing a short into stretched-into-support tape ahead of a binary is the account's signature loser, so size is zero and I wait for the level to actually break.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 57.13,
+    "expires_min": 240,
+    "note": "A decisive 15m close below 57.13 (ideally on a failed retest back up into 57.2-57.3) confirms the crowded-long flush is resuming and opens a clean trend-continuation short toward 56.6/56.3 with a stop back above the level."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF/defensive: Jul 13 S&P -0.79%, Nasdaq -1.55% on US-Iran escalation, oil surging. DXY firm >101, 10yr ~4.57%, Fed hawkish (~62% odds of a Sept HIKE, no 2026 cuts). Safe-haven flows going into USD, NOT metals. LIVE EVENT: June CPI drops TODAY Jul 14 8:30am ET \u2014 binary for rates/USD/metals. XAG verdict: STAY-OUT to small SHORT \u2014 downtrend flush, crowded-long 3.71x = squeeze-lower fuel, but deeply oversold on support; short ONLY on a clean break-and-retest of 57.13, else wait; long NOT supported.",
+    "sentiment": "XAG tone bearish/deteriorating: spot silver fell ~2.9% to ~$58 as US-Iran escalation pushed oil higher, reviving inflation/rate-HIKE fears, lifting DXY and yields (headwind for non-yielding metal). Fed hawkish (no 2026 cuts, 9 of 18 open to a hike). Gold-silver ratio widened 55:1 -> ~70:1 (silver underperformance). Concrete <=48h catalyst: June CPI Jul 14 8:30am ET \u2014 hot extends sell-off, soft revives rate-cut bets / bounce. Near-term tilt: BEARISH into CPI, two-way event risk; size/stops must respect the print.",
+    "analyst": "Last 57.27, support 57.13, RSI 4h 11.6 (extreme oversold), ADX 70.9, long/short 3.713 (max crowded-long), %B -0.026, vwap_dist -2.06%, all TFs down. 15m: high-volume flush tagged 57.13 exactly and closed off the low (57.39), last bar higher-low 57.15 holding above support \u2014 NOT a clean break-and-retest down. Short into washed-out RSI on support that just held, ahead of a binary CPI, is the account's signature loser; long is against the trend. HOLD, size 0. Armed trigger: decisive 15m close below 57.13 opens a trend-continuation short to 56.6/56.3.",
+    "portfolio": "XAG/USDT:USDT \u2014 HOLD, size 0, conf 0.60: bearish bias but stretched into support that just held on a capitulation flush, into a binary CPI; wait for a clean break of 57.13 to short."
+  },
+  "timestamp": "2026-07-14T00:32:50.879641+00:00"
+}

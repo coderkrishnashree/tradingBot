@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "QQQ/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Frozen weekend tape: price drifts in a ~695-696 dead zone on near-zero volume until Monday cash open; no meaningful move inside the holding window. Real direction resolves at the open - a break of 688 support extends the selloff, a reclaim of ~702 relieves it.",
+  "expectancy_note": "Shorting a 4h-RSI-21 index into a closed, zero-volume tape is chasing an already-done move; support 688 is only ~1% away (poor R:R) and Monday gap risk is two-sided. Waiting has higher expectancy than entering a stale short.",
+  "rationale": "QQQ is a tokenized Nasdaq-100 index and US equities are closed all weekend - the 15m candles confirm a frozen, sub-1-unit range on 0.5-16 volume that won't move until Monday. The bearish thesis already played out Friday (RSI 21, price only 1.96% under VWAP, hugging 688 support), so a fresh market short here would be entering a deeply oversold, extended move with capped downside and a two-sided Monday gap as the only catalyst. No concrete next-move exists inside ~48h while closed, so the honest call is HOLD and let the cash open reveal direction.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 688.09,
+    "expires_min": 240,
+    "note": "Losing 688 support on real Monday volume confirms the risk-off continuation and re-arms the short with a defined level."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF; broad SHORT lean. QQQ: tokenized Nasdaq-100 index, US CLOSED all weekend - stale prices, near-zero volume, won't move until Monday cash open. RSI 4h 21, ADX 81.6, balanced positioning (long/short 1.0). Clean broad-risk-off short thesis, but the index already fell Friday. Small size, event risk = Monday gap.",
+    "sentiment": "Overall risk-off, Nasdaq-100 selloff - semis dragging, AI-capex fears, geopolitical/oil inflation risk. QQQ: bearish near-term; it IS the Nasdaq-100 selloff. No single <=48h binary, but cluster of mega-cap earnings starting Jul 22 (GOOGL, TSLA) looms. Near-term news argues with a short, consistent with risk-off tape.",
+    "analyst": "Tokenized index, US closed all weekend - 15m candles a frozen sub-1-unit range on 0.5-16 volume until Monday. Bearish thesis already played out Friday (RSI 21, only 1.96% under VWAP, hugging 688). Fresh short = deeply oversold/extended move, capped downside, two-sided Monday gap the only catalyst. No concrete next move in ~48h; HOLD and let the cash open reveal direction.",
+    "portfolio": "QQQ/USDT:USDT -> HOLD (conf 0.60): clean risk-off short but stale weekend index already oversold; wait for a 688 breakdown on Monday volume."
+  },
+  "timestamp": "2026-07-18T13:39:32.059784+00:00"
+}

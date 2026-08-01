@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "ORCL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.34,
+  "playbook": "none",
+  "forecast": "Price sits at session low 141.88 mid-range with RSI-15m 13.6; next few bars likely a shallow dead-cat bounce toward 143.5-145 that fades, OR a probe of 137.63 support \u2014 direction not resolvable yet, no confirmation either way.",
+  "expectancy_note": "Short into 13.6 RSI = account's #1 loss pattern (bounce stops late shorts); long oversold bounce has zero confirmation, closed at low. No R:R>1.5 setup either side in chop/ADX10.5 with CPI Tue.",
+  "rationale": "ORCL is no-trend chop (ADX 10.5, composite flat, regime_blocked), just air-pocketed 2.7% and closed AT its session low on the follow-through bar \u2014 momentum is still down but RSI-15m 13.6 is deeply washed out, so shorting chases into a vacuum a routine bounce would punish, while an oversold long has no exhaustion/divergence trigger and floats mid-range. Lopsided-long L/S 2.45 and worst-in-scan RS -24% keep the drift bearish, but not enough edge to force a trade before CPI Tuesday. HOLD is the highest-expectancy call; I arm both structural triggers.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 137.63,
+    "expires_min": 240,
+    "note": "A clean break of the 137.63 support flushes the crowded longs and opens a trend-short with real room; conversely a reclaim of 145.5 would flip me to the oversold-bounce long."
+  },
+  "transcript": {
+    "macro": "Regime RISK-ON but late-stage/stretched (Nasdaq +1.3% Fri, AI/megacap led, complex overbought). Trade as EQUITIES not crypto. KEY EVENT RISK: June CPI Tue July 14 inside hold window. Scan ~1h before US cash open \u2192 thin/gappy pre-open air-pockets. ORCL: chop regime, composite flat, ADX 10.5 no trend, dumped 2.7% pre-open on 899-vol spike, RSI-15m 13.6 washed out, L/S 2.45 most lopsided-long (contrarian-bearish), structure_bias -0.245, weakest RS in scan -24.3%; earnings Sep 14 (no near-term catalyst). Environment does NOT support a clean directional trade.",
+    "sentiment": "ORCL (Oracle): bruised. Longest losing run since 2021 (~-24% over 9 days) despite record FY2026 (rev +21%, cloud +47%, RPO $638B). Market fixated on negative FCF (-$23.7B), debt; S&P cut to BBB-. Ex-dividend TODAY July 10 ($0.50) \u2192 small mechanical gap-down, not a real catalyst. No earnings inside 48h. 48h read: NEUTRAL-to-slightly-negative; momentum broken, headline flow stale. Watch $140 support.",
+    "analyst": "ORCL is the textbook no-trade. Tape fell through 145.5 intraday support on an 899-vol air-pocket and the next 15m bar closed at the session low 141.88 with no lower wick \u2014 sellers still in control. Yet RSI-15m is 13.6 and 5m/1h RSIs are 25/31, so it's deeply oversold on fast frames: shorting here is the late-into-a-hole entry that has been killing this account (a normal dead-cat bounce toward 143.5-145 would hit any honest short stop first). The bearish structural case is real (L/S 2.45 most lopsided-long, structure_bias -0.245, RS -24.3% dead last) but with ADX 10.5, composite flat, row regime_blocked, plus June CPI Tuesday, there's no R:R\u22651.5 setup. Floating mid-range between 137.63 support and the broken 145.5 shelf. HOLD flat, arm both levels.",
+    "portfolio": "HOLD ORCL (conf 0.34) \u2014 no-trade chop; arm trend-short below 137.63, bounce-long on reclaim of 145.5."
+  },
+  "timestamp": "2026-07-10T14:01:16.327330+00:00"
+}

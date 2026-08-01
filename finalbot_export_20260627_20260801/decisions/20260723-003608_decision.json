@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "XAUT/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.55,
+  "playbook": "none",
+  "forecast": "Price recovered from the 4098 flush and is climbing back into the 4127-4130 supply shelf; expect it to stall/chop 4116-4135 over the next 2-4 bars, capped by 4155 resistance ~0.7% above with 4h RSI 74 stretched.",
+  "expectancy_note": "Long into 4155 wall gives only ~30pt reward vs ~15pt honest stop (~1.5R) but crowded L/S 2.516 + RSI74 + tiny ATR make a clean break unlikely; waiting for the break yields far better expectancy than chasing.",
+  "rationale": "XAUT has the best relative strength (-8.2%) and a strong 4h uptrend (ADX 75.6), but price sits only ~0.7% under 4155 resistance with 4h RSI 74 stretched, mixed per-TF (30m score -0.599), and a very crowded long_short 2.516 that caps upside. Reward-to-resistance is too thin and buying the bounce back into freshly-rejected 4127-4130 supply is the account's classic late-entry trap. Prefer to wait: a decisive break above 4155 unlocks a measured continuation, a dip toward support 3961/VWAP offers a clean-room long.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 4155.0,
+    "expires_min": 240,
+    "note": "A 15m/1h close above 4155 clears the range top and confirms trend continuation with room to run toward 4180+ - flips to a buy."
+  },
+  "transcript": {
+    "macro": "2026-07-23 regime MIXED-to-HOSTILE for equities, but gold is the ONE genuinely SUPPORTIVE long backdrop. Gold ~$4,125-4,150, +1.8% on the day, bid on oil-driven inflation scare + Middle East safe-haven flow (below Jan record $5,542). XAUT best RS in the list (-8.2% vs -12 to -22%) and tight ATR. Cleanest long-side environment - though 4h RSI 74 stretched. FOMC Jul 28-29 is the real catalyst (hawkish surprise = tail risk); weak June payrolls (57k) supportive.",
+    "sentiment": "XAUT NEUTRAL/macro-driven. No <=48h binary. Fed on hold (3.50-3.75%). Drifts on DXY/rates. Screened overbought (RSI 74, ADX 76) - momentum, not news.",
+    "analyst": "XAUT 4125.1: dumped to 4098.3 (vol 1247), based 4111-4116, last 3 bars recovered to 4125.1 back into the 4127-4130 supply that just rejected. Strong 4h uptrend (ADX 75.6, RSI 74.3), best RS (-8.21), BTC corr 0.401. But resistance 4155 only ~0.7% (30pt) above, tiny ATR (0.67%), mixed TFs (30m -0.599), L/S 2.516 very crowded long. Long-into-wall only ~1.5R with crowded longs = poor EV; buying the bounce into rejected supply = late-entry trap. HOLD; break >4155 or dip to 3961/VWAP.",
+    "portfolio": "XAUT -> HOLD (conf 0.55): best RS but capped ~0.7% under 4155; buy the breakout or the dip, not this bounce."
+  },
+  "timestamp": "2026-07-23T00:36:08.901732+00:00"
+}

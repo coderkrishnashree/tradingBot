@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "CL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price bounced $1.6 off the 85.8 crash low and is consolidating 87.0-87.5, closing near its high on fading volume; expect chop 86.3-87.6 over the next few bars until a headline resolves it either direction.",
+  "expectancy_note": "No edge: shorting a completed 4% crash into oversold LTF RSI (15m 31, 1h 18) + crowded shorts (LSR 0.54) + negative funding is squeeze bait and the account's #1 loss pattern (shorts 47% win, -0.78 avg); longing mid-consolidation with no reclaim is a knife-catch. Sub-1.5 R:R either way.",
+  "rationale": "CL just gapped down ~4% on de-escalation headlines then bounced and is coiling 87.0-87.5 near its high. The move is done for now: LTF RSI deeply oversold, structure_bias +0.422 with negative funding and crowded shorts flags violent squeeze risk on any Hormuz re-escalation \u2014 a hostile, pure-geopolitical binary where I have no directional edge inside 48h. Learner data confirms shorts on this account bleed and positive structure_bias correlates with short losses, so I stand aside rather than chase. Size 0.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 87.6,
+    "expires_min": 240,
+    "note": "Reclaiming the post-crash bounce highs at 87.6 confirms crowded-short squeeze is underway (negative funding + LSR 0.54 fuel), opening a long toward the 89 gap-fill; failing here keeps price pinned in post-crash chop."
+  },
+  "transcript": {
+    "macro": "Regime cautiously RISK-OFF/mixed (2026-07-25). USD firm. Dominant driver: US-Iran naval conflict / Strait of Hormuz \u2014 swing factor for oil, headline-driven, gappy, two-way. CL: last 87.43 \u2014 just gapped down ~4% in one 15m candle (89.3->85.8, 118k vol) on headlines Pakistan/China push to revive US-Iran talks. Scan short (comp 42.6%, p_win 0.625) but structure_bias +0.422 (funding -0.0008 shorts paying, LSR 0.539 crowded SHORT = contrarian long/squeeze support). RS +25% (best relative performer). HOSTILE for conviction directional holds \u2014 pure geopolitical binary; size down, expect gaps.",
+    "sentiment": "CL two-sided, elevated but wobbling. WTI fell ~4.7% to ~$87.9 on July 24 after trading near $90 on Middle East (Hormuz/Red Sea) risk and low US inventories. OPEC+ adds 548k bpd in August, feeding a 2026 supply-glut narrative that caps rallies. Geopolitical spike risk vs supply-unwind drift \u2014 no clean bias; weekly EIA inventory is the recurring near-term mover.",
+    "analyst": "The 4% crash already happened; price bounced $1.6 off 85.8 and coils 87.0-87.5 near its high on fading volume. LTF RSI deeply oversold (15m 31, 1h 18), so a short chases a completed move into crowded-short + negative-funding squeeze fuel (the account's #1 loss pattern); a long mid-consolidation with no reclaim is a knife-catch against the OPEC+ glut. Pure geopolitical binary \u2014 no edge inside 48h. Size 0.",
+    "portfolio": "HOLD CL \u2014 completed crash into squeeze-risk chop; no directional edge on a geopolitical binary. Reconsider on a reclaim above 87.6."
+  },
+  "timestamp": "2026-07-25T14:35:17.874761+00:00"
+}

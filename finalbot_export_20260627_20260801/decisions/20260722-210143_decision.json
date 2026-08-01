@@ -1,0 +1,23 @@
+{
+  "symbol": "GOOGL/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.7,
+  "size": 0.0,
+  "entry": 340.22,
+  "stop_loss": 330.65,
+  "take_profit": 358.0,
+  "rationale": "GOOGL reports Q2 earnings TONIGHT (after close) \u2014 a high-weight binary inside my 48h window with unknown direction, so any pre-print position is a gap gamble, not a trade. The tape is already stretched short: 4h RSI 21.5, all TFs short-aligned into a capitulation wick to 330.65 (the 20k-volume bar spiked down then reclaimed to 350 before fading), with a supportive book (orderbook +0.77, long-short 1.93) \u2014 shorting here risks the exact bounce-stops-out pattern, and the learner p_win for this short is only 0.43. Both sides have negative expectancy pre-earnings, so HOLD (flat) is the highest-expectancy call; I trade the reaction, not the print.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 330.65,
+    "expires_min": 240,
+    "note": "A clean break/close below the 330.65 capitulation low (post-print or on continued pre-print selling) confirms support has failed and reopens a momentum short toward the next leg down; until then the oversold-at-support + earnings binary keeps me flat."
+  },
+  "transcript": {
+    "macro": "Regime risk-ON but two-way. Headwind: Fed hikes, DXY ~100.9, FOMC Jul 29. GOOGL in freefall (RSI 21.5, 4h down, on 330.65 support) INTO earnings \u2014 scan flags SHORT, but orderbook +0.77 and earnings binary make shorts dangerous.",
+    "sentiment": "GOOGL: HIGH-weight BINARY \u2014 Q2 earnings TONIGHT July 22 (after close). Est rev ~$116.8B (+21% YoY), EPS ~$2.86; focus Cloud + $180-190B capex. Fell ~4% on week into print; EU antitrust overhang known. Event-risk name, direction unknown.",
+    "analyst": "GOOGL 340.22: RSI 21.5 deeply oversold, ADX 68 downtrend, capitulation wick to 330.65 support with supportive book. Earnings TONIGHT = binary gap risk. Short = bounce-stop risk (p_win 0.43); long = falling knife. Both negative EV pre-print. HOLD, trade the reaction.",
+    "portfolio": "HOLD GOOGL \u2014 earnings binary tonight, oversold at support; flat until print clears."
+  },
+  "timestamp": "2026-07-22T21:01:43.348984+00:00"
+}

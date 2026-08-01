@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "TSM/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.4,
+  "playbook": "none",
+  "forecast": "Thin coil 426-429; likely a small CPI-driven pop toward 430-432 (30m/1h RSI 63-74 overbought, long-crowd relief-squeeze risk) OR a flush that breaks 420.29 support. I won't front-run either into two binaries.",
+  "expectancy_note": "p(win)~0.45 on a short here; strong structure (-0.598 bias, long-crowd fade) but composite align only 0.8 and 30m/1h are overbought-LONG against me - event risk (CPI now, TSMC earnings <48h, off-hours gap) makes any pre-print entry negative-EV vs waiting for the 420.29 break to confirm.",
+  "rationale": "TSM has the board's strongest structural short (funding +, L/S 1.95 crowded long, orderbook -0.577 sell pressure, 4h -0.821) but it is conflicted (mid-TFs overbought-long, align 0.8, conf 35.8%) and THIN with sub-3-contract candles. Two binaries sit inside my window: CPI at 8:30am ET today and TSMC Q2 earnings ~2am ET Thu (off-hours, gap risk) - macro warns of a cool-CPI relief-squeeze and sentiment explicitly argues against a conviction short into the print. Best expectancy is to wait: a clean loss of 420.29 support confirms the breakdown and aligns the TFs, turning this into a real short entry rather than a gamble across two events.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 420.29,
+    "expires_min": 240,
+    "note": "Losing 420.29 support confirms the 4h short thesis (breaks the coil, aligns TFs) - that's the level to enter the short instead of front-running CPI/earnings."
+  },
+  "transcript": {
+    "macro": "Regime HOSTILE-to-MIXED, tape favors shorts. Nasdaq -1.55% yesterday. Binary CPI 8:30am ET today; Fed HIKE bets rising into Jul 28-29 FOMC. Oil shock compounds inflation. TSM BTC corr 0.18 (low). Thin/gappy perps around CPI -> size smaller. TSM structure_bias -0.598 (strongest short): funding +0.035%, L/S 1.95 heavily long-crowded, orderbook -0.577 real sell pressure; but NOT aligned (align 0.8) - 30m/1h LONG while 4h/5m short. Semiconductor-linked, doubly exposed to AI-capex/rates. Very thin.",
+    "sentiment": "TSM bullish-into-print but BINARY - highest near-term risk. TSMC Q2 earnings THU Jul 16 ~2:00am ET (14:00 Taiwan), INSIDE 48h window, off-hours (worse gap). Guidance $39.0-40.2B rev, ~65.5-67.5% GM, consensus ~$3.81/ADR, AI-chip demand. Argues AGAINST holding a conviction short into the print - event risk dominates the short 4h read.",
+    "analyst": "TSM is the strongest structural short on the board (structure_bias -0.598, L/S 1.95 crowded-long contrarian fuel, orderbook -0.577, 4h -0.821 RSI 33) - but conflicted (30m RSI 74 and 1h RSI 63.6 overbought-LONG against me, align 0.8, conf 35.8%) and THIN (sub-3-contract candles, one 0-vol bar). Decisive factor is event risk: CPI today plus TSMC earnings ~2am ET Thu (off-hours, gap-prone) both inside 48h; macro flags cool-CPI squeeze, sentiment warns against a conviction short into the print. Front-running two binaries on an illiquid perp is negative-EV. HOLD with a short trigger on a clean break of 420.29.",
+    "portfolio": "HOLD TSM - strongest structure but two binaries in-window; short only on break of 420.29."
+  },
+  "timestamp": "2026-07-14T10:33:02.035254+00:00"
+}

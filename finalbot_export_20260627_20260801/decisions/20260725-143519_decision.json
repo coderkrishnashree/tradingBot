@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "SNDK/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.62,
+  "playbook": "none",
+  "forecast": "15m tape is dead-flat chop around 1436-1440 with no trigger; on thin Saturday liquidity expect continued rangebound drift 1432-1448, no clean directional move to trade until the underlying reopens or a level breaks.",
+  "expectancy_note": "Short is chasing an already-stretched move (VWAP -8%, 4h RSI 23, stoch 9) into squeeze risk; long has no bounce trigger/divergence into ADX 59.5 downtrend. Both are negative-expectancy on a closed-underlying weekend; flat is best.",
+  "rationale": "SNDK underlying is CLOSED all weekend, so the token tape is thin, gappy and untradeable \u2014 the +0.882 orderbook_imbalance is a thin-book artifact, not signal. Price is deeply oversold and 8% below VWAP, so I will NOT chase the composite short into a Goldman-PT-hike squeeze risk, and there is no bounce confirmation to justify a long. Highest-risk name in the book; correct expectancy move is zero size until either a level breaks or the underlying reopens.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 1400.0,
+    "expires_min": 240,
+    "note": "Losing the 1400 round/consolidation floor with momentum confirms the downtrend is resuming rather than basing, making a short honest (no longer mid-air) \u2014 re-debate for a with-trend entry toward 1311 support."
+  },
+  "transcript": {
+    "macro": "Regime cautiously RISK-OFF/mixed (2026-07-25, Sat), tech heavy. USD firm; hike risk. Saturday: US equity underlyings (ORCL, SNDK) CLOSED all weekend \u2014 thin, gappy tokens, distrust orderbook_imbalance & intraday wicks, size down hard. SNDK: last 1438, scan short (comp 36.6%) but structure_bias +0.22 driven by huge orderbook_imbalance +0.882 (thin-book artifact); LSR 1.15 near neutral; 4h RSI 23, ADX 59.5 strong prior downtrend; RS -24.8% worst laggard; ATR% 3.67 gappy. Highest-risk name.",
+    "sentiment": "SNDK bullish momentum but earnings >48h out (Aug 5, 1:30 PM PT). Explosive NAND/AI story: +707% YTD, last quarter revenue $5.95B (+251% YoY). Fresh PT hikes (low weight): Goldman $1,200->$2,200 (Jul 5), Bernstein $1,700->$3,000. High intraday vol. Near-term trades on semi-sector momentum and Fed risk; Aug 5 print is the real binary but outside the window.",
+    "analyst": "Underlying closed all weekend -> thin, gappy, untradeable; the +0.882 orderbook_imbalance is a thin-book artifact. Price is 8% below VWAP, 4h RSI 23, stoch 9 \u2014 will not chase the composite short into Goldman-PT-hike squeeze risk, and there is no bounce confirmation for a long into an ADX 59.5 downtrend. Both sides negative-expectancy on a closed-underlying weekend. Zero size.",
+    "portfolio": "HOLD SNDK \u2014 closed-underlying weekend, thin/gappy tape; oversold can't be chased short, no long trigger. Reconsider on a break below 1400."
+  },
+  "timestamp": "2026-07-25T14:35:19.967553+00:00"
+}

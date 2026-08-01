@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "MU/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Chop 846-853 near-term; expect a relief bounce toward the 862-868 VWAP/broken-structure zone that fails, OR a break of 846 that opens 830.",
+  "expectancy_note": "Mid-range short p(win)~0.45 with thin R:R; account shorts run 0.47 win / -0.87 avg. No fade extreme now, so best EV is wait.",
+  "rationale": "Macro correctly vetoes longs (MU is the memory-bear epicenter, crowded L/S 2.16, -32.5% rel strength), but price sits mid-range at 851 (RSI 65 not stretched, bullish divergence, 1h/4h still long, just bounced off 846) - shorting here is the late/mid-air pattern the book keeps losing on. Sunday thin tape + Monday gap risk argue for patience. Short only a failed bounce into 862-868 or a confirmed breakdown below 846.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 846.0,
+    "expires_min": 300,
+    "note": "Losing the 846 support cluster confirms the sector-driven leg down; clean trend-continuation short toward 830."
+  },
+  "transcript": {
+    "macro": "SUN 2026-07-19, US cash markets CLOSED -> thin weekend liquidity + Monday cash-open gap risk, cut size / tight stops. Regime MIXED-to-HOSTILE for risk; violent semiconductor/memory unwind (~$1.5T chip cap gone since Jun 25, MU/SNDK/SK Hynix/WD all -20%+). Funding flat everywhere. Crowded retail LONGS (L/S>2 on MU 2.16, CRCL 2.35) into a tape that just punished longs -> structure_bias negative on longs. Environment favors SHORTS in semis + index, genuinely SUPPORTIVE only for AAPL longs. No FOMC/CPI inside 48h; earnings build late next week (GOOGL/TSLA 7/22).",
+    "sentiment": "Equity backdrop constructive but jittery: June CPI cooler (July hike odds ~17%, Sept ~60%), Fed/Middle East headlines drive Nasdaq chop. Crypto tape weak/risk-off (BTC ~$64.8k, Fear&Greed 28) -> headwind for MSTR/CRCL/HOOD. NO earnings for any target inside 48h (HOOD 7/29, AAPL 7/30, SNDK 8/5, MU 9/29). CRCL bearish (Mizuho Underperform 7/14, Coinbase/BlackRock+Visa stablecoin threat, below all EMAs). MSTR bearish/high-risk (pure BTC proxy, Saylor sold ~3,588 BTC + ~$467M shares). MU/SNDK strong long-term (HBM sold out / NAND up-cycle) but bearish near-term momentum. AAPL mildly bullish at record high, low BTC corr, insulated from crypto weakness.",
+    "analyst": "Macro correctly vetoes longs (MU is the memory-bear epicenter, crowded L/S 2.16, -32.5% rel strength), but price sits mid-range at 851 (RSI 65 not stretched, bullish divergence, 1h/4h still long, just bounced off 846) - shorting here is the late/mid-air pattern the book keeps losing on. Sunday thin tape + Monday gap risk argue for patience. Short only a failed bounce into 862-868 or a confirmed breakdown below 846.",
+    "portfolio": "HOLD MU - no longs (fights sector+crowding); short only a failed bounce or a break of 846."
+  },
+  "timestamp": "2026-07-19T14:43:30.746853+00:00"
+}

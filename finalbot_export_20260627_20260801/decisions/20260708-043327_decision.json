@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "EWJ/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.34,
+  "playbook": "none",
+  "forecast": "Dead-volume coil between 92.14 support and ~93.5; price likely drifts sideways 92.8-93.5 for the next several bars with no directional resolution until support breaks or macro forces a gap.",
+  "expectancy_note": "No edge either way: short fights oversold RSI 31 + bullish divergence + crowd-long fade fuel near support; long fights bearish macro/sentiment and 1h/4h downtrend. On OI 1,248 with ~zero-volume candles, slippage alone kills any sub-1.5R setup. Best expectancy is flat.",
+  "rationale": "EWJ is a thin tokenized Japan ETF (OI 1,248, most recent 15m bars trade 0-1 contract) so ADX 81 is a liquidity artifact, not a tradable trend. Price already bounced off the 92.36 low and is coiling flat around 93.2 just above 92.14 support, with oversold RSI/stoch and a flagged bullish divergence contradicting the bearish 1h/4h scores and the bearish macro/sentiment. Signals split and the book too illiquid to enter or exit without eating the R:R; flat is the highest-expectancy call, size 0.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 92.14,
+    "expires_min": 240,
+    "note": "A clean break/close below 92.14 support voids the bounce and confirms the carry-unwind/tech-selloff leg lower, re-opening a momentum short aligned with macro."
+  },
+  "transcript": {
+    "macro": "Regime MIXED, leaning risk-off. Fed on hold, hawkish Warsh -> firmer USD, no FOMC/CPI inside 48h, semis key swing factor. EWJ $93 Japan ETF; KOSPI/Nikkei just had historic 70% quarter on memory supercycle, now profit-taking + semi-driven drops. EWJ 1h down, ADX 81 but thin (OI 1,248) = low-conviction, illiquid. BOJ hike risk (rate 0.75%, hawkish) adds carry-unwind tail risk.",
+    "sentiment": "EWJ (Japan) Bearish near-term. Nikkei hit 3-week low (-2.1%), tech-led selloff (Kioxia -11%, Murata -10%). Contagion from Korea/Samsung AI wobble. Risk-off.",
+    "analyst": "Thin illiquid book; ADX 81 is an artifact. Oversold (RSI 31, %B 0.12, bullish divergence) sitting just above 92.14 support after bouncing off 92.36; conflicts with bearish 1h/4h and bearish macro. No honest 1.5R trade on this liquidity. HOLD flat; re-arm short only on a clean break below 92.14.",
+    "portfolio": "HOLD EWJ/USDT:USDT \u2014 thin/illiquid, no edge; flat."
+  },
+  "timestamp": "2026-07-08T04:33:27.245994+00:00"
+}

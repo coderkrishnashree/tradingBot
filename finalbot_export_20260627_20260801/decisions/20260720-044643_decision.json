@@ -1,0 +1,26 @@
+{
+  "symbol": "GOOGL/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.7,
+  "size": 0.0,
+  "entry": 348.75,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "forecast": "Price stays coiled in the 348-350 band on dead volume into Wed AMC earnings; the real move is a binary gap on the print, not a tradeable pre-event trend.",
+  "expectancy_note": "No trade: p(win) ~coin-flip through the binary; SL/TP (~1x ATR = $1.2) sit inside the earnings-gap zone and get blown out regardless - negative expectancy either direction.",
+  "rationale": "GOOGL Q2 earnings Wed 7/22 AMC is inside 48h - first Mag-7 print with binary gap/vol-expansion risk that no short-term SL/TP can survive. Tape is a textbook vol-compression coil (bb_width 1.84%, ATR 0.34%, flat drift on tiny volume). A long fights risk-off + crowded positioning (L/S 1.73, bias -0.28) and 11% underperformance; a short fights bullish-leaning sentiment into the print. Stand aside and let the event resolve.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 352.0,
+    "expires_min": 240,
+    "note": "A pre-print break above the 348-350 coil/VWAP cluster to 352 would show real accumulation and reopen a momentum long debate - but earnings risk still argues for caution into Wed AMC."
+  },
+  "transcript": {
+    "macro": "RISK-OFF/defensive 2026-07-20. Fri 7/17 ugly (Nasdaq -1.5%, VIX ~16.7 rising). Semiconductor rout on TSMC capex reviving AI-overspend fears. Warsh testimony this week; FOMC 7/28-29 outside window. Crowded-long positioning broadly. GOOGL funding +0.00021, L/S 1.73 (bias -0.28) = crowded longs; index-beta long fighting a risk-off tape.",
+    "sentiment": "2026-07-20. GOOGL HIGH near-term risk: Q2 earnings Wed 7/22 AMC (INSIDE 48h), first Mag-7 report, EPS ~$2.87, focus Cloud/TPU/Gemini + AI capex. Binary gap/vol-expansion risk. Sentiment into it bullish-leaning (28/33 buys) but capex commentary can cut either way. It is the index/QQQ swing event.",
+    "analyst": "HOLD (conf 0.70). Earnings 7/22 AMC inside 48h = binary; SL/TP sit inside the gap zone and get blown out regardless. Dead-flat vol-compression coil, no momentum. Long fights risk-off + crowding + 11% underperformance; short fights bullish sentiment into print. Textbook no-trade; stand aside.",
+    "portfolio": "GOOGL - HOLD (conf 0.70): no naked position through the 7/22 earnings binary; let it resolve."
+  },
+  "timestamp": "2026-07-20T04:46:43.899458+00:00"
+}

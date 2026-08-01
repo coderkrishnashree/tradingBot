@@ -1,0 +1,28 @@
+{
+  "symbol": "MU/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.62,
+  "size": 0.0,
+  "entry": 948.66,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "none",
+  "forecast": "After a relentless 983->948 flush the last 15m bar closed at its low (948.66) on the sequence's highest volume with 1h RSI 11.8 / stoch 0.2 / -2.88% below VWAP; over the next 2-6 bars I expect either a dead-cat bounce toward the broken 953.6 breakout / VWAP ~975-977, or a brief continuation stab toward 876 support before mean-reversion. Neither offers an honest >=1.5R entry from here.",
+  "expectancy_note": "Short into RSI 11.8/stoch 0.2 is a late chase (account's #1 loss pattern: 22 shorts 45% win, high-ADX trend -2.08 avg); long a knife with no divergence into a bear/risk-off tape is negative EV. HOLD beats both.",
+  "rationale": "MU is in a violent ADX-60 downtrend but so oversold (1h RSI 11.8, stoch 0.2, 2.88% below VWAP, price already 0.5% past the 953.6 15m short-breakout) that any counter-bounce spikes an honest short stop before the trend resumes \u2014 exactly how this book's late shorts died (learner stats: high-ADX trend shorts avg -2.08 to -2.87 PnL). Thin closed-weekend equity tape adds gap/whipsaw risk, and there is no fresh <=48h positive catalyst either way (Tuesday CPI/Fed is the binary). No entry clears >=1.5R, so I wait for a bounce into resistance to short strength.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 976,
+    "expires_min": 240,
+    "note": "Reclaiming VWAP / the broken 969-977 shelf ends the oversold flush and offers a short re-entry into strength with a tight stop above 990."
+  },
+  "transcript": {
+    "macro": "RISK-OFF/defensive; US cash CLOSED, tokenized-equity perps thin/gappy. Memory officially in a bear market (MU/Samsung/SK Hynix -20%+); sentiment flipped chase to get-me-out. MU -16.7% RS, RSI 12 on 1h, fresh 15m short breakout. Scan flagged MU FLAT. Deeply oversold and thin \u2014 high whipsaw. Binary: Tuesday CPI/Fed.",
+    "sentiment": "MU BULLISH fundamentals but catalyst spent. Blockbuster fiscal Q3 (rev $41.5B, +346% YoY) reported June 24; guided Q4 ~$50B rev / $30.73 EPS; HBM sold out for 2026, new Anthropic memory-supply partnership. +284% YTD. Earnings behind us \u2014 near-term driver now SK Hynix read-through (~July 29). Conflict: bullish fundamentals vs oversold short-breakout technicals.",
+    "analyst": "ADX-60 downtrend but 1h RSI 11.8 / stoch 0.2 / -2.88% VWAP = late-chase short (learner stats confirm high-ADX trend shorts are this account's worst bucket); knife-long has no divergence. Thin weekend tape + CPI binary. Reconsider on reclaim of 976 to short strength.",
+    "portfolio": "HOLD MU \u2014 proven loss pattern to chase this short; wait for a bounce to 976."
+  },
+  "timestamp": "2026-07-13T01:37:10.674799+00:00"
+}

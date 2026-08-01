@@ -1,0 +1,23 @@
+{
+  "action": "hold",
+  "symbol": "MU/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.55,
+  "rationale": "The directional edge is clearly bearish (structure_bias -0.34, orderbook -0.59, crowded L/S 1.56), but a fresh short at 883.25 is chasing a stretched, oversold move (5m RSI 6.5, %B negative, -3.3% from VWAP) with bullish divergence flagged and off-hours/FOMC gap risk - the account's signature late-short loss pattern. No honest 1.5R short exists at the low: a stop above 895 vs next support at 846 only works if entered on a bounce. HOLD and let the reconsider re-arm a high-quality short into a retest of broken support/VWAP.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 893.0,
+    "expires_min": 240,
+    "note": "A bounce back to ~893 (broken support turned resistance, toward VWAP) is where a with-trend short sets up with proper R:R toward 860/846; below 846 also confirms continuation but that entry is worse."
+  },
+  "transcript": {
+    "macro": "RISK-OFF LEANING, event-dominated. FOMC Wed Jul 28-29, LIVE hike risk. DXY ~106.3, 10y >4.6%. US cash equity CLOSED -> tokenized equities off-hours: thin/gappy, size down. Positioning lopsidedly LONG (contrarian-bearish). MU $883.25 short bias, orderbook -0.589, L/S 1.56; semis soft (tracks TSM r=0.71); bullish divergence + RSI 24 on 1h = oversold bounce risk.",
+    "sentiment": "MU fundamentally bullish, no imminent binary. Sold out of HBM through 2026-2027, $22B non-cancellable contracts, last earnings blowout (rev +37% YoY); tagged ~$1,000 then pulled back to ~$883. No earnings inside 48h - trades on AI-memory tape + hyperscaler capex. Near-term neutral (correcting within intact bull story); watch Korean memory-peer earnings this week.",
+    "analyst": "Trend/flows short but price is 3.3% below VWAP, below the lower BB, 5m RSI 6.5 with bullish divergence - a market short chases the exact bounce that stops late shorts. HOLD; re-arm a with-trend short on a bounce to ~893, downside continuation below 846.",
+    "portfolio": "MU: HOLD (0.55) - no trade; short the bounce above 893."
+  },
+  "timestamp": "2026-07-27T22:37:03.498214+00:00"
+}

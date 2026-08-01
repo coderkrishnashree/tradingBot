@@ -1,0 +1,25 @@
+{
+  "symbol": "CL/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.5,
+  "size": 0.0,
+  "entry": 83.46,
+  "stop_loss": 82.1,
+  "take_profit": 85.5,
+  "playbook": "none",
+  "forecast": "Oversold bounce off the 82.17 low underway; chops 82.9-84.5 and stalls at the 84.3-84.6 breakdown shelf. Reclaim of 84.55 opens 85.5-86; failure resumes downtrend to 79.65.",
+  "rationale": "CL deeply oversold (RSI 19.9, %B 0.04, VWAP -4.56%, 5m turning up) so shorting into this washout is the late-entry mistake that bleeds the account. But the bounce is counter to a strong ADX-75 downtrend and runs into the 84.3-84.6 breakdown shelf ahead of FOMC, so a blind long has poor R:R. Stand aside and let the tape prove the bounce (reclaim 84.55). Size 0.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 84.55,
+    "expires_min": 240,
+    "note": "Reclaiming the 84.55 breakdown pivot confirms the bounce has legs -> long toward VWAP/85.5-86."
+  },
+  "transcript": {
+    "macro": "REGIME: RISK-ON but event-capped. US futures gapped up post US-Iran ceasefire (ES +0.8%, NQ-100 +1.6%); WTI down ~5-7% to ~$85 (relief bid, not trend restart). BTC dominance high ~58.7%, funding modest/neutral -> no crypto froth, alts no independent tailwind. Hard event gates inside 48h: FOMC Wed 7/29 (hold ~86% priced) PLUS a wall of Mag-7 earnings the same window. Clean risk-on window is essentially today's US session; anything held past Tue close carries binary gap risk. Per-name lean: BTC neutral-to-constructive; SOL neutral/crowded (worst laggard, L/S 2.72); MSTR constructive-with-caveat (0.73 BTC-corr, now selling BTC for dividends); HOOD/COIN risk-on beta; META/MSFT supported today but binary earnings gap risk; NVDA/MU/INTC semis weak (shorts better supported); QQQ/EWY index beta, FOMC-capped, thin off-hours; XAUT two-sided (crowded long, FOMC is the swing); CL bearish momentum but RSI ~20 washed-out, mean-revert bounce risk on shorts. Biggest cross-book risk: FOMC + Mag-7 earnings cluster inside the 2-day hold horizon -> smaller size, no naked overnight equity into earnings.",
+    "sentiment": "Loaded 48h window: FOMC Wed 7/29 2pm ET (~86% priced hold) lands the SAME day as a wall of mega-cap earnings. Treat all equities/ETFs as event-risk landmines through 7/30. XAUT neutral-to-bullish (off 9-mo lows, now rates-driven, FOMC binary); META BEARISH event risk (Q2 AMC Wed 7/29); SOL mildly bullish (Morgan Stanley spot SOL ETF MSOL approved 7/24) but 0.85 BTC-corr dominates; CL bearish momentum (RSI ~20, Iran de-escalation, OPEC+ Aug 2, oversold bounce risk); NVDA neutral (earnings Aug 26); QQQ bearish event risk (GOOGL Tue / MSFT+META Wed earnings + FOMC); TSLA bearish residual (reported 7/22, -15%, catalyst spent); GOOGL BEARISH event risk (Q2 AMC Tue 7/28, imminent binary); MU neutral (earnings ~Sept 23); MSFT BEARISH event risk (AMC Wed 7/29 same day as FOMC, RSI ~74); BTC neutral-cautious (Fear&Greed ~30, coiled on FOMC); MSTR BEARISH event risk (AMC Thu 7/30, leveraged BTC proxy); HOOD BEARISH event risk (Q2 AMC Wed 7/29); EWY neutral-to-cautious (+100%+ YTD, KOSPI sold-the-news on 'fading chip momentum', overbought/fragile). DESK-CRITICAL: GOOGL(Tue 7/29 close), MSFT+META+HOOD(Wed 7/29)+FOMC, MSTR(Thu 7/30). Avoid overnight equity size into these prints.",
+    "analyst": "CL deeply oversold (RSI 19.9, %B 0.04, VWAP -4.56%, 5m already turning up) so shorting into this washout is the exact late-entry mistake that bleeds the account. But the bounce is counter to a strong ADX-75 downtrend (1h/4h short) and runs into the 84.3-84.6 breakdown shelf ahead of FOMC, so a blind long has poor R:R. Stand aside (reclaim 84.55). Size 0.",
+    "portfolio": "HOLD \u2014 RSI-20 washout, don't short the hole nor chase the bounce into resistance. Size 0."
+  },
+  "timestamp": "2026-07-27T11:40:28.799078+00:00"
+}

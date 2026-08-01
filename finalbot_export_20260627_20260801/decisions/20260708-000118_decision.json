@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "COIN/USDT:USDT",
+  "size": 0.0,
+  "entry": 163.17,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.34,
+  "playbook": "none",
+  "forecast": "Low-volume overnight drift pinned to the lower BB (%B~0) near 163; likely a shallow mean-revert bounce toward 164.5 or continued sideways chop within 2-4 bars, not a clean impulsive breakdown.",
+  "expectancy_note": "Short p(win)~0.45 with no target inside 1.5R (support 142 is 13% away) and no crowding fuel; long has no reclaim trigger yet. HOLD beats both until a level breaks.",
+  "rationale": "Scanner short is weak (29.7%) and fights a fresh 19% catalyst rally; structure is neutral (funding 0, L/S 0.986, orderbook flat), COIN is ~0.74 BTC-beta with flat BTC and -1.1% rel strength, so it's an echo not a leader. Price is pressed to the lower Bollinger band with drying volume and oversold stoch (21.7) \u2014 a poor place to initiate a short (chasing into the band) and no long trigger yet. US market CLOSED means thin/gappy tape; best expectancy is to wait for a real break. Size 0.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 165.1,
+    "expires_min": 240,
+    "note": "Reclaiming the 164.5-165 shelf/VWAP confirms the oversold bounce and flips this toward a long; failure to reclaim keeps the drift intact."
+  },
+  "transcript": {
+    "macro": "Risk-OFF for tech/semis, but COIN is NOT a semi \u2014 trades on crypto/BTC (corr 0.74, to MU only 0.12), BTC ~63.3k flat, so the chip rout doesn't directly apply. Scanner flags COIN short (~29.7%, #2). Tokenized equity (crypto funding=noise). US CLOSED = thin/gappy, gap risk at open.",
+    "sentiment": "COIN separate crypto-beta story, decoupled from semis. Rallied ~19% to ~$165 early July on its 'System Update' (tokenized stocks, options, Coinbase Advisor). Analysts split (Bernstein Buy $330 vs Barclays UW $107). Earnings Jul 30 (outside window). No <=48h binary; near-term driver is the BTC/crypto tape. NEUTRAL to the chip thesis.",
+    "analyst": "COIN last 163.17. RSI 31.6, ADX 47.6 (on down leg), %B -0.004 AT lower band, stoch 21.7, VWAP -2.3%, support 142.48 (13% away), resistance 175.05. Structure neutral: funding 0, long/short 0.986, orderbook +0.076. BTC corr 0.739, rel strength -1.13. Candles: controlled low-volume drift 164.5 -> 163.17, volume drying up. Fresh short fights a 19% catalyst rally with no crowding fuel, no target inside 1.5R, pinned to the band (bad short entry). No long trigger yet. HOLD; watch reclaim of 165.1 for a long.",
+    "portfolio": "HOLD COIN \u2014 weak short fighting a fresh 19% rally, neutral structure, no target in range; wait for a 165.1 reclaim."
+  },
+  "timestamp": "2026-07-08T00:01:18.491580+00:00"
+}

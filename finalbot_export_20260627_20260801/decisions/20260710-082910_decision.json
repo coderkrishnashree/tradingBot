@@ -1,0 +1,28 @@
+{
+  "symbol": "SNDK/USDT:USDT",
+  "action": "hold",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Deeply oversold flush (15m/30m/1h RSI 14-19) into 1773 low with no near support until 1491; expect a small dead-cat bounce toward 1800-1815 over 2-4 bars, but the last bar closed near its low with heavy sell-side book (-0.68), so continuation lower is equally likely \u2014 no clean edge either way.",
+  "expectancy_note": "p(win) ~0.5 both directions; shorting RSI-14 invites the bounce-stop that kills this book, longing a knife with no confirmed reversal bar is a coin-flip \u2014 best expectancy is no trade until 1815 reclaim or 1773 retest.",
+  "rationale": "Live price 1778 is already ~5% below the macro's 1858 assumption \u2014 SNDK is in an active parabolic breakdown, not a fadeable range. Lower-TF RSI is washed out (14-19) so a market short is chasing the exact late-into-stretched-tape setup that produces this account's worst losers, while a long is catching a falling knife with no confirmed reversal and no structure until 1491. Composite confidence 3.1%, both macro and sentiment say NEUTRAL, US-hours gap risk on a name that moves +/-7% a day \u2014 expectancy favors standing aside.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 1815,
+    "expires_min": 180,
+    "note": "Reclaiming the 1815 shelf that broke on the final flush would confirm the oversold bounce has legs for a tactical intraday long; below it the knife is still falling."
+  },
+  "transcript": {
+    "macro": "Regime MIXED, lean-constructive intraday. Equities risk-on, semis LEADING (MU +4.5%, SNDK +7.6% Thursday). Event risk: June CPI + Warsh testimony Jul 14, 63% odds Sep rate hike (hawkish tail) \u2014 hits high-multiple momentum semis hardest; TSM earnings Jul 16 moves whole memory complex. SNDK: underlying red-hot but whippy (+635% YTD, ATH ~$2,335 Jun 25). Cautions: US market-hours gap risk (thin/gappy off-hours, +/-7% daily range, no overnight carry); CPI hits momentum semis hardest. Verdict: NEUTRAL, tactical-long-only intraday, smaller size.",
+    "sentiment": "Structurally very bullish but stretched/overheated. +635% YTD, last quarter revenue +251% YoY, 78% gross margins; analysts hiking targets \u2014 but long-horizon narrative, don't trade on target raises. NO earnings inside 48h (next ~Aug 13-14). Near-term: stock took ~14% drop off highs (parabolic name mean-reverting) \u2014 favors a short-horizon fade. US equity off-hours thin/gappy. Verdict: neutral near term, no <=48h catalyst.",
+    "analyst": "SNDK printed a clean one-directional 15m breakdown over the last 20 bars, from ~1873 to a 1773 low, closing the final bar weak at 1778.84 on the two biggest-volume down candles of the sequence. This diverges from the shared brief (which assumed ~1858 after Thursday's +7.6% pop) \u2014 the live tape shows the parabolic name mean-reverting hard, ~5% below reference. Lower TFs deeply oversold (15m RSI 13.9, 30m 17.7, 1h 19.2) while 4h is the lone constructive frame (RSI 58.8, +0.28). No tradable edge either way: a short chases RSI-14 into the exact late-into-stretched-tape entry behind this account's biggest stop-outs; a long is a falling-knife catch with no confirmed reversal, orderbook -0.68 (sellers stacked), and no support until 1491 (~6 4h-ATR away). Composite confidence 3.1%, structure bias -0.14, both macro and sentiment NEUTRAL with US-hours gap-risk cautions on a +/-7%-daily name. Textbook HOLD; only flip tactically long on a reclaim of the 1815 shelf.",
+    "portfolio": "SNDK: HOLD (conf 0.60) \u2014 active breakdown, no edge either way; arm a long-only reclaim trigger at 1815, no market entry."
+  },
+  "timestamp": "2026-07-10T08:29:10.002275+00:00"
+}

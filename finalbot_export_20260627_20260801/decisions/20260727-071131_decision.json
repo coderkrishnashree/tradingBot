@@ -1,0 +1,23 @@
+{
+  "symbol": "XAUT/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.6,
+  "size": 0.0,
+  "entry": 4086.8,
+  "stop_loss": 4155.0,
+  "take_profit": 3984.0,
+  "rationale": "No-trade is best expectancy: XAUT is a violently extended bounce (RSI 83.4, ADX 92.2, %B 1.05) against a hawkish-Fed backdrop with FOMC Wed inside the window. Buying chases a stretched move into an event; shorting a 92-ADX uptrend with no exhaustion is a knife-catch. Crowded long (L/S 2.58) is the only fade fuel but ATR is a tiny 0.18% so no honest structure stop gives 1.5R before Wed's vol spike. Wait out the binary.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 4076.0,
+    "expires_min": 240,
+    "note": "Losing the 4076 base breaks compression and confirms the crowded-long unwind, enabling a short toward 3984."
+  },
+  "transcript": {
+    "macro": "FOMC decision Wed Jul 29 sits INSIDE the hours-to-2-day hold window (~61-85% priced HOLD at 3.50-3.75%, ~19% hike tail; hawkish Warsh Fed, June CPI 3.5% YoY). Four Mag-7 report this week (Meta/MSFT/AMZN/AAPL) = gap risk for QQQ + tech names. Regime cautiously risk-ON into the event but fragile (US futures +0.8-1.3% Mon on US/Iran pause, oil retreating). US cash equities were CLOSED at the 07:00Z scan, so every tokenized equity/ETF (EWY,TSM,ORCL,MSTR,QQQ,MU,HOOD,COIN,NVDA,SNDK) is thin/gappy synthetic pricing until 13:30Z open. Crypto: BTC ~$65.4k above $65k but RSI hot (4h 77); derivatives NOT crowded on majors (BTC bias ~-0.03 neutral) but SOL L/S 2.75 lopsided long. Tokenized equities carry crowded-long funding red flags (TSM bias -0.46, ORCL -0.65 worst/weakest RS, QQQ -0.32); cleanest structure BTC/MU/COIN. Gold/silver in a hawkish-Fed downdraft, violently overbought (XAUT RSI 83, XAG RSI 79) and crowded long into FOMC. Oil (CL) -6% today on Iran de-escalation. Dominant pattern this cycle: overbought + crowded-long into a binary event -> bias smaller size / wait out the event.",
+    "sentiment": "Risk-ON snapback into a huge macro week; last week ugly (Nasdaq -2.1% Fri). Two binaries: FOMC Wed Jul 29 (hawkish-surprise risk) + Mag-7 earnings. Crypto tone cautious - Fear & Greed still FEAR, BTC ~$65k below highs. HOOD reports Wed Jul 29 after close (imminent binary - no naked hold into print); COIN reports Thu Jul 30 (elevated pre-earnings IV). MSTR elevated idiosyncratic risk ($8.3B Q2 loss, sold BTC for dividends, 2wks no buys, fragile 29% bounce). ORCL mixed: Nvidia-OpenAI pop + $7B DoD deal vs S&P cut to BBB- and record CDS (credit-stress tail). NVDA positive flow (OpenAI $250B backstop, SK $500B HBM) but no report this week. TSM already reported Jul 16 (beat), catalyst behind it. MU/SNDK structurally bullish (NAND/HBM tightness) but no 48h catalyst. EWY biggest uncontrolled gap risk (KOSPI sidecars, Samsung/SK Hynix earnings, FSC rule change Jul 31). XAUT/XAG capped by firm DXY + hawkish Fed. CL: fresh -6% shock today on Iran attack-suspension. Whole book hostage to Wed FOMC + Mag-7 prints.",
+    "analyst": "XAUT violently extended (RSI 83.4, ADX 92.2, %B 1.05 above band), crowded long L/S 2.58 (bias -0.356) into a stretched bounce vs hawkish Fed + firm DXY + 10Y ~4.5%. Recent 15m ground orderly 4076->4087 on fading volume - no exhaustion. Tiny ATR (0.18%) kills R:R before Wed FOMC. No-trade.",
+    "portfolio": "HOLD XAUT/USDT:USDT (conf 0.6) - no-trade into Wed FOMC; extended/crowded, no >=1.5R edge."
+  },
+  "timestamp": "2026-07-27T07:11:31.302542+00:00"
+}

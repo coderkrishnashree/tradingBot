@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "CL/USDT:USDT",
+  "size": 0.0,
+  "entry": 86.28,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Fresh +1.2 vertical thrust into 86.28 on 20k+ vol leaves 5m/15m RSI ~83 (extended); expect a pullback to retest the 85.4-85.6 breakout shelf over the next 2-4 bars - buy the hold there, not the spike.",
+  "expectancy_note": "Chasing long at 86.28 after a vertical bar = the account's #1 loss pattern; shorting into fresh geopolitical momentum with crowd already short (L/S 0.60, squeeze fuel) is a bad fade. HOLD beats both until a clean pullback entry.",
+  "rationale": "CL just ripped up hard on heavy volume (candles override the stale short composite and lagging snapshot), is the strongest asset in the book (RS +24%, negative BTC corr - a standalone geopolitical mover). But price is now ~1.5x ATR above VWAP and short-term overbought, and FOMC (Jul 28-29) plus two-sided headline gap risk sit inside the 48h window. No honest R:R entry at 86.28. Wait for the retest.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 85.5,
+    "expires_min": 240,
+    "note": "A pullback that holds the 85.4-85.6 breakout shelf (broken resistance turned support) is the clean long entry; losing 85.0 would void the bounce thesis."
+  },
+  "transcript": {
+    "macro": "Risk-off/defensive equity regime. FOMC Jul 28-29 inside horizon. CL: WTI ~$90-92; the one asset with a bid (Middle East risk premium); NEGATIVE correlation to equities/metals (-0.19 to -0.52) = useful hedge/diversifier; purely geopolitical headline driver so gap risk both ways.",
+    "sentiment": "CL volatile, headline-driven. Middle East risk premium elevated (Houthi attacks on Saudi tankers, Strait of Hormuz disruption) vs OPEC+ adding 548k bpd in August. Low US inventories/peak summer demand supportive. Two-sided geopolitical gap risk.",
+    "analyst": "Candles just ripped +1.2 on 20k+ vol (overrides stale short composite); strongest asset in the book (RS +24%, standalone geopolitical mover). But ~1.5x ATR above VWAP, 5m/15m RSI 83 = extended; chasing long is the book's loss pattern, shorting fights momentum + short-crowd squeeze. Hold; buy the 85.4-85.6 retest.",
+    "portfolio": "HOLD CL - strongest asset but overextended after a vertical thrust; buy the pullback to 85.5, not the spike."
+  },
+  "timestamp": "2026-07-26T19:39:23.980213+00:00"
+}

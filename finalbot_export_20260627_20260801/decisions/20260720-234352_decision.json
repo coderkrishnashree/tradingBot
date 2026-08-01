@@ -1,0 +1,25 @@
+{
+  "action": "hold",
+  "symbol": "SOL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Coiling 77.4-77.9 mid-range; likely chops then either fades off the 79.0 resistance or loses the 77.3 shelf toward 76.5/75.",
+  "rationale": "SOL is the most crowded long in the set (L/S 2.60, structure_bias -0.354) with 4h RSI 78, bb%b 0.95, stoch 81 and price +1.81% over VWAP into the 79.01 resistance - squeeze/exhaustion risk is real but price is stalling MID-range at 77.68 (lower highs off 78.03), not at a tradable level. Chasing the long here is the exact late-entry trap; shorting mid-air invites the counter-bounce. Wait for a rejection at 79.0 to fade or a break of 77.3 to confirm the unwind.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 77.3,
+    "expires_min": 240,
+    "note": "Losing the 77.3 shelf breaks the coil and confirms the crowded-long unwind - flips to a short toward 76.5/75 with stop above 77.9."
+  },
+  "transcript": {
+    "macro": "Crypto SOFT (BTC below EMA200, Fear 29). SOL ($77.68) MOST CROWDED LONG: L/S 2.60, structure_bias -0.354, RSI 78 / bb%b 0.95 stretched. 0.81 BTC corr, RS -7.2%. Squeeze risk - favor fading strength over chasing. Regime MIXED, risk-off tilt.",
+    "sentiment": "SOL constructive, best-performing major (+~30% off June low). Morgan Stanley SOL ETF filing, cumulative inflows >$1B. Big catalysts (Firedancer/Alpenglow) Q3/Q4, NOT <=48h. Stretched (4h RSI ~78 at $79 resistance). Follows BTC beta.",
+    "analyst": "Most crowded long, stretched RSI 78 into resistance, but stalling mid-range (lower highs), not at a tradable level. Long is the classic late-entry trap; short mid-air invites a bounce. HOLD, arm a short on loss of 77.3.",
+    "portfolio": "SOL -> HOLD (crowded/stretched long stalling mid-range, no level yet)."
+  },
+  "timestamp": "2026-07-20T23:43:52.924751+00:00"
+}

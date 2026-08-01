@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "NVDA/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Deeply oversold 15m/1h (RSI ~22, stoch 2.5, %B 0.21, -1.2% below VWAP) after a slow bleed to 205.55; expect a counter-bounce toward VWAP/broken-support 207.5-208.5 within 2-6 bars before the 4h downtrend can resume \u2014 that bounce is the short entry, not here.",
+  "expectancy_note": "Fresh short here p(win) ~0.4: a routine bounce hits any honest stop first. This account's shorts avg -0.74 PnL and model weights punish aligned/stretched-below-VWAP shorts. Waiting for the 208 retest flips R:R in favor; HOLD beats chasing.",
+  "rationale": "4h ADX 82 gives a genuine downtrend and crowded L/S 1.52 favors more downside, but 15m/1h are washed out (stoch 2.5, RSI ~22) and price sits 1.2% under VWAP \u2014 the exact late-short-into-oversold pattern that has been bleeding this book. Orderbook +0.19 shows bid support that can fuel the bounce. Best expectancy is to wait for the retest into 207.5-208.5 to short with a tight stop above resistance; no position now.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 207.8,
+    "expires_min": 240,
+    "note": "A bounce into VWAP/broken-support 207.8 sets up the high-expectancy short: stop above 209/213.96 resistance, targets 205 then 202/199.26, with momentum no longer oversold-stretched against the entry."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF / semis-led valuation selloff; supportive for shorts/trend-down but squeezes are the main short risk. No FOMC in window. NVDA: 205, RS +0.6% vs BTC, corr 0.15, squarely in the semi crosshairs; 4h ADX 82 powerful downtrend but 15m RSI ~22 / stoch 2.5 deeply oversold; L/S 1.52 crowded-long (contrarian bearish) yet orderbook +0.19 bid support. Supportive for short continuation but oversold \u2014 biggest risk a sharp mean-reversion bounce.",
+    "sentiment": "NVDA earnings Q2 FY2027 Aug 26 after close \u2014 OUTSIDE window. Live: H200 shipments to China begun under case-by-case US licenses (positive, tiny volumes). Counter: Bernstein sees China share 66%->8% (Huawei), DeepSeek own chip, hyperscaler custom silicon. ~$211, >$5T cap, slips despite record revenue on valuation/competition. Two-sided, headline-sensitive; mostly hostage to broad AI selloff.",
+    "analyst": "Slow bleed to 205.55, stretched -1.2% below VWAP, stoch 2.5, RSI ~22. Learner: shorts n=35 avg_pnl -0.74; model weights on structure_bias/vwap_dist/aligned/atr all negative \u2014 aligned stretched-below-VWAP shorts are the losing pattern. Chasing a short here gets stopped by a routine bounce to ~208. HOLD; arm short on a retest into 207.5-208.5.",
+    "portfolio": "HOLD NVDA \u2014 genuine 4h downtrend but too oversold to chase; short the 207.8 bounce, not here."
+  },
+  "timestamp": "2026-07-17T00:35:40.852491+00:00"
+}

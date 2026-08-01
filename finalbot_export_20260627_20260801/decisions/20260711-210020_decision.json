@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "MU/USDT:USDT",
+  "size": 0.0,
+  "entry": 986.71,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.34,
+  "playbook": "none",
+  "forecast": "Chop 982-989 near VWAP; last bars fading off the 988.7 top into a mild pullback, no thrust. Expect continued low-volume Saturday drift inside the range rather than a clean directional move into Monday's gap.",
+  "expectancy_note": "No nearby level: support 876 / resistance 1049 both ~6% away, ATR 1.76%/bar. Any honest stop (>=1xATR ~$17) with no proximate target yields R:R <1.5. Best expectancy = wait.",
+  "rationale": "MU sits mid-range with no proximate structure to trade against; composite is unaligned (0.87) and 4h RSI is only 38 despite a long score, a stalling not-a-clean-pullback picture. Structure_bias -0.30 (crowded-long 1.57 + orderbook -0.43 sellers stacked), RS -15.8% laggard, epicenter of chip volatility, US cash closed Saturday with CPI Tuesday inside the window, and macro explicitly favors QQQ/TSLA over MU. A long is contrarian into stacked sellers; a short has no level and fights the still-up 1h. Zero-edge tape -> HOLD.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 989.0,
+    "expires_min": 240,
+    "note": "Reclaiming the 988.7-989 intraday top on volume confirms the 1h/4h long bias resuming and gives a runway toward 1000+; that would justify a trend long with a stop back under VWAP."
+  },
+  "transcript": {
+    "macro": "Regime risk-on but stretched; semis volatile. June CPI Tue Jul 14 08:30 ET inside the 2-day hold window; hot CPI hits tech hardest. Saturday Jul 11 US cash CLOSED \u2014 perps drift on low volume, gap risk into Monday. MU: memory strong, no imminent earnings (next ~Sep 23) so no event risk, BUT epicenter of chip volatility. RS -15.8% laggard; long/short 1.57 + orderbook -0.43 => structure_bias -0.30 (crowded-long + sellers stacked). Macro favors QQQ/TSLA over MU/INTC.",
+    "sentiment": "MU bullish fundamentals but earnings already passed (no <=48h binary). Record fiscal Q3 Jun 24; guided monster Q4 (~$50B rev, ~86% GM, ~$31 EPS); HBM sold out, tightness past 2027 \u2014 supply-constrained bull case. Caveat: caught in the AI-capex-doubt selloff; can meet only 50-66% of memory demand. Long-horizon bullish, near-term dragged by chip sentiment.",
+    "analyst": "Price 986.71 mid-range between support 876 and resistance 1049 (both ~6% away); ATR 1.76%/bar (~$17 noise). Composite long but unaligned (0.87); 4h RSI only 38 despite long score = stalling, not a clean pullback. Last bars fading off the 988.7 top. Structure_bias -0.30 (crowded long + stacked sellers), RS -15.8% laggard. No proximate level for an honest R:R>=1.5 in either direction; long is contrarian into sellers, short fights the still-up 1h. HOLD, re-debate on a reclaim above 989 confirming the 1h/4h long.",
+    "portfolio": "MU/USDT:USDT \u2014 HOLD (conf 0.34): mid-range no-edge tape, crowded-long with stacked sellers, laggard into CPI; wait for a 989 reclaim."
+  },
+  "timestamp": "2026-07-11T21:00:20.607118+00:00"
+}

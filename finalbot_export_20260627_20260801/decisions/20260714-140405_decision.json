@@ -1,0 +1,26 @@
+{
+  "symbol": "TSM/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.34,
+  "size": 0.0,
+  "entry": 424.72,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "forecast": "Oversold-bounce underway: last 15m bar reversed off 420.29 support and closed on its high; expect a grind toward VWAP/broken-shelf 427-429; short re-activates only if 420.29 breaks.",
+  "expectancy_note": "Shorting here = chasing a fresh reversal off support with 4h RSI 30 (account's #1 loss pattern). p_win_learned 0.339, R:R negative. No clean long (4h trend down). HOLD beats both.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 420.29,
+    "expires_min": 240,
+    "note": "Losing 420.29 ends the bounce and resumes the ADX-55 downtrend, re-validating a short with structure."
+  },
+  "rationale": "TSM in a strong 4h downtrend (ADX 55.8) but mid-tf tape just printed a hard oversold reversal off 420.29 support (RSI 30.4, last bar closed on its high +3.3pts off the low) \u2014 a market short chases into the counter-bounce that hits stops first. TSMC earnings Thu Jul16 2:00pm ET is a hard binary inside the window and today's US open is gappy, so a naked directional swing carries unwanted event risk. No clean long either (crowded L/S 2.126). Wait; re-arm short if 420.29 fails.",
+  "transcript": {
+    "macro": "Regime MIXED-to-RISK-OFF, event-heavy (2026-07-14). Equities soft (S&P -0.79%, Nasdaq -1.55% Jul13); Iran/Hormuz oil shock +9% (WTI ~$78) = risk-off + inflation scare, cushioned by soft June CPI (3.5% vs 3.8%) + record big-bank earnings. BTC ~$63.8k bouncing off 21-mo low, dominance 56.3%, funding tame, regime \"chop\", risk-on fragile. Tokenized equities (CRCL/TSM/MSTR/META) pricing pre-US-cash-open into a rare CPI+bank-earnings+Iran convergence \u2014 thin/gappy, size for gap risk. Cleanest trend+positioning setups were shorts in CRCL/TSM (fade bounces); SOL long crowded/overbought (buy dips); META/MSTR confirm-at-open. Biggest cross-book risk: event/gap risk at the US cash open.",
+    "sentiment": "Shared sentiment 2026-07-14. CRCL: OCC national-trust-bank approval (Jul10, +13% to ~$70) now priced in and being sold off; Compass Point PT cut to $55 (Stripe stablecoin competition); earnings ~Aug11 (outside window); near-term neutral-to-slightly-bearish, no <=48h binary. TSM: EARNINGS THU JULY 16 2:00pm ET \u2014 hard binary inside window; guidance rev $39.0-40.2B, GM 65.5-67.5%, FY growth >30%; elevated vol/gap risk, avoid naked directional over the print. SOL: mildly bullish structurally \u2014 spot SOL ETF inflows every July trading day (>$1B cumulative), Clearstream custody; Alpenglow upgrade late Q3/Q4 (not imminent); heavily BTC-correlated, follows BTC over 48h; no unlock/hack. MSTR: bearish lean \u2014 raised $467M selling MSTR shares and bought NO BTC (Jul 6-12), sold ~3,588 BTC for preferred dividends (shift from accumulation, cautious read); $1B buyback framework mild positive; earnings outside window; trades as leveraged BTC. META: earnings WED JULY 29 after close (~2wk out, not a <=48h catalyst); consensus EPS ~$7.18; no near-term stock-specific shock; trades on Nasdaq tape next 48h.",
+    "analyst": "Downtrend ADX 55.8 but oversold reversal off 420.29 (RSI 30.4, last bar closed on high). Dominant consideration: TSMC earnings binary Thu Jul16 2:00pm ET \u2014 a directional swing would carry into the print. Shorting the bounce = chasing; no clean long. HOLD, re-arm short on loss of 420.29.",
+    "portfolio": "TSM \u2014 HOLD (0.34): oversold bounce off 420.29 + Thu-Jul16 earnings binary; won't chase short into the print, re-arm below 420.29."
+  },
+  "timestamp": "2026-07-14T14:04:05.222770+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "symbol": "INTC/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.6,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "none",
+  "forecast": "Price stalls in the 97.5-99.5 zone after the rejected 101.02 spike; most likely chop/drift with a fade back toward VWAP (~95.3) over coming bars, but no clean trigger yet and Thursday's after-close earnings (~15% implied gap) sits inside the hold window.",
+  "expectancy_note": "No entry clears the bar: long is a chase (RSI 83, +4.2% vs VWAP, #1 account loss pattern) into an earnings gamble; short fights a strong uptrend with no confirmed lower-high and shorts are the losing book (0.49 win). Highest-expectancy action is to wait.",
+  "rationale": "INTC is the most extended name in the book (RSI 83, %B 1.09, +4.22% vs VWAP) and just got rejected off a 101 blow-off spike that closed back below 99. Buying here is chasing into stretched tape and, worse, would carry into Thursday's after-close earnings (~15% implied move) - an earnings gamble, not a swing. A short lacks a confirmed structure break and fights a 163%-YTD uptrend. No trade justifies risking capital; wait for either a VWAP retest to buy the pullback or a shelf break to short.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 97.05,
+    "expires_min": 240,
+    "note": "Losing the 97.05 shelf that has held all 20 bars confirms the blow-off top is failing and opens a short toward VWAP ~95.3, exitable before Thursday's earnings."
+  },
+  "transcript": {
+    "macro": "Regime risk-on but cautious/mixed; DXY ~100.8; FOMC 7/29 outside 48h. Basket crowded long into extended names = squeeze risk. INTC (last ~99.3) NEUTRAL with a hard catch: EARNINGS THURSDAY after close INSIDE the desk's 2-day hold window if entered now. Most extended name in the book (RSI 83, +4.2% vs VWAP), crowded long L/S 1.85. Any long must be sized to be OUT before Thursday, or it's an earnings gamble. Reduce size / short leash.",
+    "sentiment": "INTC NEUTRAL-to-CAUTIOUS, hard binary Thursday. Q2 2026 earnings after close, consensus ~$14.4B rev / $0.10 EPS, options pricing ~15% swing. Stock up 163% YTD on 18A yield optimism but pulled back ~17% on sector rotation. Coin-flip event, highest single-name gap risk in the basket; direction unknown, size for a large move.",
+    "analyst": "Spiked to 101.02 and rejected, now fading in 97.5-99.5 on dead volume; 4h RSI 83, %B 1.09, +4.22% vs VWAP = most extended in book. Earnings Thursday (~15% move) vetoes any directional swing. Long chases exhaustion into an event; short lacks a confirmed lower-high and shorts are the losing book. Hold; a break of the twice-defended 97.05 shelf confirms rollover for a scalp toward VWAP ~95, exitable pre-print.",
+    "portfolio": "HOLD INTC - earnings binary Thursday vetoes swings; wait for a 97.05 break to scalp short, exit before the print."
+  },
+  "timestamp": "2026-07-20T16:12:54.167348+00:00"
+}

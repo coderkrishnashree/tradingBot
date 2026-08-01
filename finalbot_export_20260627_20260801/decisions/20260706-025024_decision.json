@@ -1,0 +1,24 @@
+{
+  "action": "hold",
+  "symbol": "GOOGL/USDT:USDT",
+  "size": 0.0,
+  "entry": 359.56,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.34,
+  "playbook": "none",
+  "rationale": "GOOGL is fully compressed on support (359.56) under resistance (361.96) in a squeeze regime the scanner itself blocked; composite confidence 1.3%, all TFs flat, tiny ATR (0.04-0.3%) makes every stop a donation and every target a rounding error. It is the cleanest, least-directional of the five (btc_corr 0.234, RS -1.5%), and US cash reopens today after the Jul 3 holiday, so overnight thin-book crypto structure (crowded longs 1.92 vs buyer-heavy book +0.41) will be overwritten at the gap. No edge either way \u2014 size 0.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 361.96,
+    "expires_min": 240,
+    "note": "Reclaiming/holding above the 361.96 resistance on US-open volume breaks the squeeze upward and would arm a long; until then the range is untradeable."
+  },
+  "transcript": {
+    "macro": "Regime MIXED-to-HOSTILE. US cash reopens Mon Jul 6 after holiday \u2014 gap/repricing risk, SIZE DOWN. Tech/semis in hard reversal but money rotating WITHIN tech. Fed hawkish but weak NFP cooled hike bets, DXY ~101. BTC soft, mildly risk-off. GOOGL tilt: NEUTRAL / relative safe-haven \u2014 lowest chip-contagion beta (corr to MU 0.10, SNDK 0.05), RS only -1.6%, holding up better than semis. Structure mildly negative, no funding extreme. Cleanest of the five; LEAST directional edge.",
+    "sentiment": "GOOGL NEUTRAL now \u2014 Q2 2026 earnings July 28 after close (OUTSIDE 48h, not this cycle's catalyst). Recent $84.75B AI-capex equity raise (mildly heavy/dilution-ish) and ongoing DOJ antitrust appeal are slow-burn risks. No <=48h catalyst; trade on tape.",
+    "analyst": "Compressed on support 359.56 under resistance 361.96 in a blocked squeeze regime; composite conf 1.3%, all TFs flat, ATR 0.04-0.3% so any stop is inside noise and range is only 0.67% wide. Overnight thin-book structure gets overwritten at the Jul 6 US open. No R:R clears 1.2 \u2014 HOLD; long only on reclaim > 361.96.",
+    "portfolio": "HOLD GOOGL (conf 0.34) \u2014 dead squeeze on support, untradeable until US-open repricing; long on reclaim > 361.96."
+  },
+  "timestamp": "2026-07-06T02:50:24.986086+00:00"
+}

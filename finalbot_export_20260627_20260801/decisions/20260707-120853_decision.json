@@ -1,0 +1,28 @@
+{
+  "symbol": "META/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.6,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "none",
+  "forecast": "After the 611.73 blow-off rejection and the 599.85 flush, price is chopping mid-range ~602. Expect a dead-cat bounce toward 605-607 (VWAP) that likely fails; a clean break/close below 599.85 opens the squeeze-unwind toward 595-593. No edge until one of those resolves.",
+  "expectancy_note": "Immediate short at 602 has poor R:R (bounce risk to 606 VWAP); long fights RSI 73.8 + L/S 2.26 crowding + soft tape. p(win) on a level-triggered short below 599.85 is far higher - wait for it.",
+  "rationale": "META just printed a failed breakout: pushed to 611.73 on rising volume, then a large reversal bar to 599.85 (biggest bar of the set) and a weak bounce to 602 - classic overbought, most-crowded-long (L/S 2.26) exhaustion into soft Nasdaq futures. But price is mid-range now with 15m flat, so both an immediate short (bounce risk to VWAP 606) and a long (chasing into RSI 73.8, structure_bias -0.33) have weak R:R. The high-expectancy move is to arm a short trigger on loss of the rejection low; size 0 until then.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 599.85,
+    "expires_min": 240,
+    "note": "Losing the rejection-candle low confirms the failed-breakout / long-squeeze unwind and turns a mid-range chop into a clean short toward 595-593."
+  },
+  "transcript": {
+    "macro": "2026-07-07: Tokenized equities, treat as equities. Tape constructive but stretched; Jul 7 futures softening (Nasdaq100 -0.9%). Rates a headwind (Fed hawkish, May CPI +4.2%). META earnings Jul 29. Most crowded long of group (L/S 2.26) funding flat = squeeze risk. META strong-RS long (+7.3% vs BTC) but overbought (RSI 68-79, stoch >90). Biggest risk: long-squeeze unwind if soft futures follow through.",
+    "sentiment": "MIXED-to-risk-off; AI-chip rotation down on DeepSeek report; FOMC minutes Wed Jul 8 = <=48h binary. META bullish structural but catalyst spent: surged >10% above $600 Jul 1 on 'Meta Compute' cloud/AI-compute-leasing launch; consolidating ~$602. Jul 1 pop digested; next binary Jul 29 earnings (outside 48h). Lowest chip-selloff correlation, relatively insulated today; near-term news neutral-to-supportive.",
+    "analyst": "HOLD. META printed a failed breakout at 611.73 with a sharp rejection to 599.85 into overbought (RSI 73.8) and the most-crowded-long positioning of the group (L/S 2.26), amid soft Nasdaq futures - bearish lean, but price is now chopping mid-range ~602 with 15m flat, so neither an immediate short (VWAP-bounce risk) nor a long (chasing crowded/overbought) offers good R:R. Waiting for a break below 599.85 to short the squeeze-unwind.",
+    "portfolio": "META: HOLD (0.60) - failed breakout, chopping mid-range ~602; short the squeeze-unwind on a break below 599.85."
+  },
+  "timestamp": "2026-07-07T12:08:53.292275+00:00"
+}

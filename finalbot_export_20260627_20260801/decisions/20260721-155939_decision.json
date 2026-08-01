@@ -1,0 +1,23 @@
+{
+  "action": "hold",
+  "symbol": "MSTR/USDT:USDT",
+  "size": 0.0,
+  "entry": 102.54,
+  "stop_loss": null,
+  "take_profit": null,
+  "confidence": 0.55,
+  "rationale": "MSTR is a stretched BTC proxy that just got rejected at 104.64 and is fading bar-by-bar on the 5m (flipped short) and 15m. Chasing a long +4% above VWAP into resistance is precisely this account's #1 loss pattern, and shorting a BTC-bid proxy in the account's worst-performing direction has negative expectancy. I want either a pullback into 99.5-100.5 to buy with the trend at honest R:R, or a confirmed breakout hold above 104.64 \u2014 neither is present now, so no trade.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 104.64,
+    "expires_min": 240,
+    "note": "A 15m close reclaiming/holding above the 104.64 rejection high proves BTC is driving a fresh breakout and flips to a long-continuation with a stop back under the level."
+  },
+  "transcript": {
+    "macro": "2026-07-21 modestly RISK-ON but fragile. MSTR tilt: MIXED \u2014 trade as a BTC proxy, NOT a stock. Reclaimed $100 on bitcoin bid; company halted BTC buys, building cash. High BTC corr (0.728) \u2014 BTC is the real driver. Crowded-ish long (L/S 1.35), stretched (RSI 73, 4h), 5m flipped short. Momentum long only with BTC cooperating; squeeze risk if BTC fades.",
+    "sentiment": "MSTR neutral, pure BTC proxy \u2014 no bitcoin transactions for second straight week; no company catalyst pending. <=48h driver is BTC direction; BTC bouncing ~$66.5k supports tape. Caveat: recent ~29% rebound off ~$82 running on fading volume/negative money flows \u2014 bounce fragile. Low-conviction.",
+    "analyst": "Stretched BTC proxy rejected at 104.64, fading on 5m (flipped short) and 15m. Long is a chase (+4% above VWAP, %B>1.1, RSI73, not aligned); short is account's losing direction and fights BTC bid. No honest R:R>=1.5 near price. HOLD; reconsider on breakout hold above 104.64.",
+    "portfolio": "MSTR: HOLD \u2014 stretched BTC proxy rejected at resistance; no clean entry, wait for pullback or confirmed breakout above 104.64."
+  },
+  "timestamp": "2026-07-21T15:59:39.778911+00:00"
+}

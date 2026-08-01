@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "GOOGL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.62,
+  "playbook": "none",
+  "forecast": "Thin off-hours drift keeps GOOGL pinned to the upper band near 356-357 into US open; likely a shallow fade toward VWAP ~351.5 or stall, with NO clean directional edge before the Wed post-close earnings binary.",
+  "expectancy_note": "Long here is chasing (%B 0.98, +1.27% VWAP, 5m RSI 90.9) on tiny off-hours volume; short fights ADX-99 uptrend with no reversal; both negative-expectancy vs waiting.",
+  "rationale": "Price is extended at the top of its range (BB %B 0.98, VWAP +1.27%, LTF RSI 75-91) on near-zero off-hours volume \u2014 the classic late-continuation trap. The raging ADX-99 trend makes a naked short reckless without confirmation. Decisively, GOOGL prints Q2 earnings Wed after close (a binary inside the holding window), so no swing should ride blind through it and off-hours liquidity is too thin/gappy for a clean intraday setup. HOLD; wait for a VWAP retest during RTH.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 351.5,
+    "expires_min": 240,
+    "note": "A pullback to VWAP/prior support relieves the overbought stretch and offers a with-trend long entry with a real stop under structure (still intraday-only, must be flat before Wed close)."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF/defensive (2026-07-21): S&P -0.28%, E-mini ~-1% pre-open, VIX firming; DXY soft. Geopolitics (Iran/Hormuz) headline-gap tape; size down. GOOGL reports Wed Jul 22 AFTER CLOSE \u2014 binary inside the ~48h window; do not hold through it, intraday-only. Tokenized equity thin/gappy off US RTH. GOOGL crowded long L/S 1.61, RS vs BTC -12.5%.",
+    "sentiment": "GOOGL HIGH event risk: Q2 2026 earnings CONFIRMED Wed Jul 22 after US close. Same-window binary \u2014 expect large after-hours gap on the token. Focus Cloud growth ~60%+ and AI capex. Neutral pre-print; volatility guaranteed, direction unknowable.",
+    "analyst": "HOLD GOOGL. Extreme ADX-99 uptrend but price pinned at the upper Bollinger band (%B 0.98, +1.27% above VWAP, 5m RSI 90.9) on near-zero off-hours volume \u2014 market-longing is the account's classic late-chase trap, and shorting a trend that strong without a reversal is reckless. Decisive veto: confirmed Q2 earnings Wed Jul 22 after close (binary inside the window) on a thin/gappy token. Wait; reconsider trigger armed at a VWAP retest (351.5) for an intraday-only long if RTH liquidity cooperates.",
+    "portfolio": "HOLD GOOGL \u2014 extended + earnings-Wed binary landmine; no swing through the print, wait for a VWAP retest."
+  },
+  "timestamp": "2026-07-21T04:16:02.833103+00:00"
+}

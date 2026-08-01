@@ -1,0 +1,25 @@
+{
+  "action": "hold",
+  "symbol": "SNDK/USDT:USDT",
+  "size": 0.0,
+  "entry": 1798.17,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.34,
+  "playbook": "none",
+  "expectancy_note": "Short is chasing into support 1792 (0.34% away) with stop above 1856 = R:R <1; long is a knife-catch, no bullish divergence, pre-open gap risk. Both ~coin-flip; HOLD has best expectancy.",
+  "rationale": "SNDK sits almost on support (1792 vs 1798 spot) after a violent ~14% two-day memory-sector selloff, 15m RSI 18 deeply oversold but composite RSI 37.9 and divergence null - no confirmed exhaustion. Scan is pre-09:30 ET open with thin/gappy wrappers and a low-trust orderbook (-0.426), so structure read is unreliable and open gap risk is real on the highest-ATR name. Neither a fresh short into support nor a knife-catch long clears R:R 1.5; size 0 until a level resolves the two-sided setup.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 1792.0,
+    "expires_min": 240,
+    "note": "Losing support 1792 on the cash open confirms continuation lower and gives a clean short with a defined structural stop; a reclaim of 1856 would instead confirm the relief-rally long."
+  },
+  "transcript": {
+    "macro": "Tokenized US equities - judge on Nasdaq/tech tape, not BTC. Scan pre-09:30 ET open; thin/gappy. Regime modestly RISK-ON for tech (Nasdaq futures +1.1%, chips/AI leading; dovish payrolls). SNDK: AI/NAND supercycle name ~166% YTD, dropped ~14% July 3-4 on profit-taking/valuation. Scan SHORT (-0.127); 15m RSI 18 oversold. Structure least crowded of trio: L/S 1.24 balanced, structure_bias -0.20 mostly bearish orderbook (-0.426, low-trust pre-open). Highest BTC corr (0.439), worst rel strength. No earnings inside 48h. Most volatile name - keep size small.",
+    "sentiment": "SNDK HIGH attention. Violent memory-sector selloff (down ~10-11% July 1 extending), driven by profit-taking, supply-glut fears (Samsung/SK Hynix), hawkish Fed - not company-specific. Continued high volatility, sharp two-way swings over 24-48h; moves as pack with MU/WDC/STX. Low-weight positive: BofA raised PT (Buy) on NAND tightness - long-horizon. Direction tied to whether memory selloff finds a floor; rebound plausible but not confirmed.",
+    "analyst": "Last 1798.17, support 1792 (0.34% below), resistance 1856 (3.3% above). RSI 37.9 composite / 15m RSI 18. Very high ATR (1h 1.95%, 4h 1.57%). Shorting chases into support with stop above 1856 = R:R <1; longing is a knife-catch with divergence null and gap risk. No clean edge either way. HOLD; let 1792 (short trigger) or 1856 (long trigger) resolve direction.",
+    "portfolio": "HOLD SNDK - two-sided trap resting on support; stand aside until a level breaks; conf 0.34."
+  },
+  "timestamp": "2026-07-06T11:19:55.054717+00:00"
+}

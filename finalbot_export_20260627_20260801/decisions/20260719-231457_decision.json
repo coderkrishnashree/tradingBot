@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "QQQ/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "After a vertical weekend spike to 698.23 on outsized volume, the last two bars faded to 697.0; expect mean-reversion back toward the 694.5-695.3 consolidation shelf / VWAP over the next 2-4 bars before any renewed push.",
+  "expectancy_note": "Long bias is real (comp +0.52, ADX 42, learner longs 0.70 win) but entering at 697 after a spike with ATR only 0.28% gives a fragile <1.5R and invites the routine pullback stop; better to buy the dip or the reclaim.",
+  "rationale": "QQQ is a tokenized equity on thin CLOSED-market weekend liquidity that will gap Monday, so I size down/wait. The trend is up but price just ran vertically to 698.23 on a 387-unit volume spike and is now fading at 697 into resistance far away (729); chasing here is the account's #1 loss pattern. I want either a pullback to the 694.5-695 shelf to go long with a tight structural stop, or a decisive reclaim above 698.23 confirming continuation. No clean entry now = hold.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 695.3,
+    "expires_min": 240,
+    "note": "A dip back into the 694.5-695.3 shelf near VWAP offers the honest long entry with a stop under 693 and room toward 700+, restoring R:R the spike-top entry lacks."
+  },
+  "transcript": {
+    "macro": "2026-07-19 Sun ~23:07 UTC \u2014 WEEKEND, US cash equities CLOSED; all tokenized-equity pairs on thin weekend liquidity and will GAP at Monday open \u2014 size DOWN across the board. Tape = semiconductor bear market (SOX >20% off June peak, chips shed ~$3.3T on 'AI-needs-less-compute' fears from Kimi K3); Nasdaq -2.9% wk, S&P -1.5%. Backdrop favors fading crowded semi longs over fresh longs. Crypto weak/risk-off: BTC ~$64.5k relief bounce off a 21-month low, dominance ~56-60%, June record -$4.5B BTC ETF outflows; BTC 4h RSI72/ADX71 extended but funding flat & OI not confirming (bounce, not durable trend). TSM beat + raised guide yet sold off (crowded-long unwind, L/S 2.47). INTC/MU/SNDK = epicenter of the rout, crowded longs (L/S 2.1-2.6) into a falling knife, deeply negative RS. META is the relative outperformer (RS +4.9%). EWY (Korea) whipsaw, BoK first hike since Jan-2023 (+25bp to 2.75%), semi-heavy/gappy. MSTR = BTC-beta (0.74 corr). Net: environment does NOT broadly support fresh longs; only META + a tactical BTC/MSTR bounce lean small-long; weekend gap risk overrides all.",
+    "sentiment": "2026-07-19 \u2014 Friday 7/17 closed risk-off on a semiconductor rout (SOX ~-13% in a month); FOMC Jul 28-29 (hold expected). US markets CLOSED (Sunday), equity pairs thin/gappy. HARD catalysts: INTC Q2 earnings Jul 23 (~4 days \u2014 do NOT hold size into it); META Q2 Jul 29; FOMC Jul 28-29. Per name: META bearish/caution tilt; TSM bullish fundamentals (Q2 beat Jul 16, +36% YoY) but sell-the-news + sector-contagion risk, lean neutral/cautious-long; QQQ neutral (heavy earnings week, GOOGL/TSLA Jul 22); BTC bullish tilt / cleanest long (ETF inflow reversal +$191M ending 10-day outflow streak, CLARITY Act optimism); EWY HIGH caution two-sided (Samsung+SK Hynix ~half of KOSPI, swinging 6-9%/day); SNDK bearish/caution (NAND +200% in 3mo then -15% on the month, RSI 21 = knife-catch); INTC hard-catalyst high caution; MU bearish/caution (memory, record DRAM ASPs but -10%+, 4h bullish divergence = bounce signal); MSTR neutral BTC-proxy (started SELLING BTC ~$216M, booked $8.3B Q2 digital-asset loss).",
+    "analyst": "Real long bias (comp +0.52, ADX 42, learner longs 0.70 win) but price just spiked vertically to 698.23 on a 387-unit weekend volume burst and is now fading at 697. ATR only 0.28% makes any entry-at-the-high a fragile <1.5R that the routine pullback stops. Buy the 694.5-695 dip or a 698.23 reclaim \u2014 not the spike top.",
+    "portfolio": "HOLD QQQ \u2014 don't chase the weekend volume spike; wait for the pullback to the 695 shelf or a reclaim."
+  },
+  "timestamp": "2026-07-19T23:14:57.780816+00:00"
+}

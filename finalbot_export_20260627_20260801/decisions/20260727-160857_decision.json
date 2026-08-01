@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "AAPL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price is fading off the 339.51 resistance (339.5->338.1->336.9) with 4h bearish divergence and %B>1.1; likely chops 336-339 and drifts toward VWAP ~332.9 over the next hours, but no clean edge from 337 mid-air.",
+  "expectancy_note": "Long forbidden (RSI76, %B1.12, earnings Thu); short fights ADX89 trend + learner (shorts 45% WR, -0.85R) and would be a late short into stretched tape \u2014 negative expectancy either way.",
+  "rationale": "AAPL is the strongest tape (ADX 89, up all TFs) but stretched above the Bollinger upper band with 4h bearish divergence, and it reports Thursday AH inside the window with FOMC Wed \u2014 the macro/sentiment mandate explicitly forbids carrying a fresh long into earnings. A short here is the account's proven loss pattern (late short into a powerful uptrend, stopped by the routine bounce; shorts run 45% WR / -0.85R). With ATR only 0.5%, no honest stop-and-target from 337 mid-air clears R:R>=1.5, so HOLD is the highest-expectancy action.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 339.51,
+    "expires_min": 240,
+    "note": "A clean break/hold above the 339.51 resistance proves the trend is extending and would flip this toward a momentum breakout re-evaluation (still weighed against the Thu earnings risk)."
+  },
+  "transcript": {
+    "macro": "RISK-OFF, event-gated. FOMC Wed 7/29 + Big Tech earnings wall inside hold window. AAPL LONG-lean but FADE INTO EVENT: strongest tape (RSI 76, ADX 89) yet 4h bearish divergence; reports Thu 7/30 AH \u2014 do NOT carry a fresh long into earnings. Short-scalp only.",
+    "sentiment": "AAPL earnings Thu Jul 30 AH. Binary event approaching; RSI 76 + bearish divergence (stretched long). Momentum long here is a pre-earnings crowd trade; don't hold into Thursday.",
+    "analyst": "Long forbidden (RSI 76, %B 1.12, earnings Thu); short fights ADX 89 uptrend and the account's losing short record (45% WR, -0.85R) \u2014 a late short into stretched tape. ATR only 0.5%, so no honest stop/target from 337 mid-air clears R:R. HOLD; reconsider on a clean break above 339.51.",
+    "portfolio": "HOLD AAPL \u2014 stretched into Thu earnings, no clean R:R either side."
+  },
+  "timestamp": "2026-07-27T16:08:57.839438+00:00"
+}

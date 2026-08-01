@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "TSLA/USDT:USDT",
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "size": 0.0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Grind is stalling below 419-420 on fading volume (419.29 rejected, last bars 83->30->12 vol); expect a 411-414 pullback toward VWAP over the next 4-8 bars rather than a clean break of 437. Chasing 418 at RSI 82 / stoch 93 has no R:R.",
+  "expectancy_note": "Long here (VWAP +2.1%, %B 0.88, crowded 1.61 long, risk-off tape) = buying the top, negative expectancy; fading a fresh ADX-48 uptrend with bid support +0.37 and no divergence is also low-p. HOLD is highest expectancy until price offers a level.",
+  "rationale": "TSLA is the strongest name (rel-str +6.6%) with an intact 4h uptrend, but it is stretched and overbought into resistance 437 while the July 7 AI-rotation tape pressures all four names and longs are crowded (1.61). The 15m tape shows exhaustion - a 419.29 rejection and shrinking volume - so the next move is likelier a pullback than a breakout. No trade offers R:R >= 1.5 here; wait for a controlled dip toward VWAP (~411-414) to buy the trend, or a break of the 414 base to confirm the top is in.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 414.0,
+    "expires_min": 240,
+    "note": "Losing 414 (the last swing base) breaks the grind structure and confirms the near-term top is in, opening either a with-trend re-entry on a deeper VWAP retest or a momentum short."
+  },
+  "transcript": {
+    "macro": "Regime: NEUTRAL, leaning cautious. Equity perps trade off Nasdaq tape. July 6 risk-on (Nasdaq +1.1%) but July 7 futures reversed (Nasdaq-100 -0.9%) on rotation OUT of AI/chip names. No FOMC/CPI inside 48h; TSLA earnings July 22 (outside horizon). TSLA $418: structure_bias -0.07, long/short 1.61 (crowded long), funding 0, orderbook +0.37 (bid support). Strongest name (rel-str +6.6%) but RSI 72-82, stoch 93 - overbought into resistance 437, late/crowded.",
+    "sentiment": "TSLA bullish/volatile. Q2 deliveries 480,126 (+25% YoY) beat ~406K consensus; stock dropped 7.5% on print (July 2) then rebounded ~6.6% July 6 into low-$420s. Q2 earnings July 22 (outside 48h). Delivery catalyst already priced/faded; most volatile of the four. Broad July 7 AI-rotation risk-off pressures all four.",
+    "analyst": "Overbought into resistance on a crowded long, exhaustion showing on the 15m tape (419.29 rejection, fading volume). Chasing long here = buying the top with no R:R; fading a strong ADX-48 uptrend with bid support and no divergence is a donation. HOLD is highest-expectancy; arm a reconsider below 414 (swing base) that confirms the top is in.",
+    "portfolio": "TSLA: HOLD (0.60) - strongest name but overbought/crowded into risk-off tape; wait for a VWAP pullback or a break of 414."
+  },
+  "timestamp": "2026-07-07T12:38:47.306581+00:00"
+}

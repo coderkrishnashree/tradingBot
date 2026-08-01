@@ -1,0 +1,25 @@
+{
+  "action": "hold",
+  "symbol": "XAG/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price is mid-blow-off, last 15m bars pushed 58.50 to 59.02 on expanding volume and closed 58.98 near the high; likely grinds/chops 58.6-59.4 into FOMC. No clean reversal candle yet, so the mean-reversion short only becomes valid on a decisive break back below the 58.50 shelf with fading momentum.",
+  "rationale": "XAG is the most overheated pair in the scan (RSI 75/87, stoch 95, %B 0.86, +1.21% above VWAP) and the crowd is 4.04 long - a textbook exhaustion setup, but the last three 15m candles ACCELERATED higher on rising volume with no divergence, so there is no reversal confirmation to short and no honest stop that survives the blow-off. Fresh longs into a vertical move 2 days before an FOMC with ~70% Sept-hike odds carry gap and reversal risk with sub-1.5 R:R. The account's history shows shorts bleed (0.47 win, -0.78R) precisely from late counter-trend entries into stretched tape, so I wait rather than pick a low-expectancy side. Size zero.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 58.5,
+    "expires_min": 240,
+    "note": "Losing the 58.50 breakout shelf with fading momentum confirms the blow-off has topped and turns the crowded-long into fuel for a mean-reversion short toward VWAP/57."
+  },
+  "transcript": {
+    "macro": "Regime MIXED, risk-cautious into event wall. Driver = oil -> inflation -> higher real yields. DXY firm ~100.6. FOMC July 28-29 (~70% Sept hike priced). XAG: last 58.98, HOSTILE-to-MIXED. Silver down ~52% from Jan $121 high; highest-beta, most yield-sensitive metal. MOST OVERHEATED pair in scan: RSI 75 (4h)/87 (15m), stoch 95, bb_pctb 0.86. Long/short 4.04 EXTREMELY lopsided long (structure_bias -0.29). relative_strength -6.22% vs BTC. Scan says long (+0.32) but chasing a blow-off. HOSTILE for fresh longs; environment favors mean-reversion short but blow-off momentum + high ATR (0.64%) means size down hard.",
+    "sentiment": "FOMC July 29 overriding catalyst. Silver hottest of the four: jumped ~4.5% on Jul 22 to ~$58.86, extended/overbought. Sixth straight annual supply deficit + bullish street targets (JPM ~$81, HSBC ~$75, GS $85-100) give strong structural tailwind. Coiled $55.71-$61 range. Momentum LONG but stretched into an event; overbought + FOMC = elevated reversal risk on a hawkish print.",
+    "analyst": "BULL: sixth straight supply deficit + bullish street targets, ADX 93 trend intact, momentum accelerating on the last bars, longs the winning direction for this account (0.65 win, +1.6R). BEAR: most overheated pair (RSI 87 15m, stoch 95, %B 0.86, +1.21% vs VWAP), crowd 4.04 lopsided long (structure_bias -0.29), relative_strength -6.22% vs BTC, highest yield-sensitivity into hawkish-risk FOMC. RISK: chasing a stretched crowded long into the event wall is the macro-flagged trap; the fade has no reversal confirmation and fights an ADX-93 trend plus this account's proven short-loss pattern. No side offers >=1.5 R:R with a binary FOMC inside the window - HOLD, re-engage short only if 58.50 breaks.",
+    "portfolio": "HOLD XAG - overbought crowded blow-off but no reversal confirmation; short armed below 58.50."
+  },
+  "timestamp": "2026-07-26T11:04:25.400629+00:00"
+}

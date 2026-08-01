@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "EWY/USDT:USDT",
+  "size": 0.0,
+  "entry": 181.92,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Price coils at 181.6-182.1 after last green bar defended 181.65 on peak volume; expect a shallow oversold bounce toward 182.6-183.0 VWAP over 2-4 bars, then trend risk resumes lower - no clean edge either way pre-Monday.",
+  "expectancy_note": "Short = chasing 30m RSI 16.5 / 1h 21.6 into extreme oversold (account's #1 loser: late short stopped by bounce); long = fading a 72-ADX downtrend into thin Sunday book + Monday gap. Both sub-1.5R; HOLD is highest expectancy.",
+  "rationale": "ADX 72 confirms a violent downtrend but every LTF is deeply oversold (30m RSI 16.5) and the last 15m bar closed green defending 181.65 on the largest volume of the run - a bounce is brewing, so shorting here is chasing. Longing that bounce means fighting the dominant trend into a closed-cash-market weekend with Monday gap risk and only ~0.6% to VWAP resistance - reward too small for the risk. structure_bias -0.03 shows no crowding to fade, and EWY is 0.75/0.81 correlated to QQQ/MU (same semis bet). Stand aside until price picks a side.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 182.75,
+    "expires_min": 240,
+    "note": "Reclaiming 182.75 (VWAP/local resistance the last bars keep rejecting) confirms the oversold bounce has legs and opens a long re-look; until then the 72-ADX downtrend controls and shorting is chasing oversold."
+  },
+  "transcript": {
+    "macro": "Cycle 2026-07-12 ~01:56 UTC, SUNDAY - US cash equity CLOSED; EWY token trades with underlying shut (thin books, Monday gap risk). Semis are the epicenter of volatility; EWY (~48% SK Hynix + Samsung) is an AI-memory proxy. EWY (181.92): badly lagging, RS -15.25%, DEEPLY OVERSOLD (30m RSI 16.5, 1h 21.6), ADX 72.6 strong downtrend, structure_bias -0.032 (NOT crowded). Bearish trend intact but oversold/bounce-prone. Correlated to QQQ 0.75 / MU 0.81 - same semis bet, avoid stacking.",
+    "sentiment": "~48% SK Hynix + Samsung -> AI-memory proxy. KOSPI volatile this week: -5.35% Wed on chip sell-off then bounced on SK Hynix's oversubscribed US ADR offering; ADB raised Korea 2026 growth to 2.6%. Won weak (-6% YTD); Korea launched 24h won trading July 6. No dated <=48h binary but tethered to global semis sentiment; will gap on Monday Asia open. Near-term NEUTRAL/two-sided - momentum down but oversold and bounce-prone.",
+    "analyst": "ADX 72 violent downtrend but every LTF deeply oversold (30m RSI 16.5) and last 15m bar closed green defending 181.65 on peak volume - a bounce is brewing, so shorting is chasing. Longing the bounce fights the trend into a closed-cash weekend with Monday gap and only ~0.6% to VWAP resistance (reward too small). No crowding to fade. HOLD with price_above 182.75 trigger for a long re-look.",
+    "portfolio": "EWY: HOLD (conf 0.50) - violent downtrend but deeply oversold/bouncing, no clean edge; armed long re-look above 182.75."
+  },
+  "timestamp": "2026-07-12T02:04:28.089607+00:00"
+}

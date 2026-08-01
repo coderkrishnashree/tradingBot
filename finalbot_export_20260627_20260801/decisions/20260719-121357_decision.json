@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "SOL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "SOL just rolled over from a rejected 76.49 spike; expect chop/drift 75.7-76.2 over next 2-4 bars, likely a probe toward 75.3 before direction resolves \u2014 no clean edge until it either reclaims 76.5 or loses 75.3.",
+  "expectancy_note": "p(win) ~0.5 either way: long fights L/S 2.82 crowding + stretched 4h RSI 72.9 + weak BTC-beta (corr 0.80); short fights a losing short book (0.47 win) and isn't at an extreme yet \u2014 no setup clears R:R 1.5.",
+  "rationale": "Composite long is aligned:false with 5m/15m/30m flat-to-short and 4h RSI 72.9 stretched \u2014 a distrust-worthy long into extreme crowded-long positioning (structure_bias -0.31, L/S 2.82) and a soft BTC. Candles show fresh distribution off 76.49, not a buyable dip, but 75.95 is mid-range above 73.3 support with no short trigger. Model weights punish exactly this profile (negative bias, unaligned, negative rel-strength), so best expectancy is to wait for the level break.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 75.3,
+    "expires_min": 240,
+    "note": "Losing 75.3 breaks the intraday floor and opens a crowded-long flush toward 73.3 support \u2014 the high-expectancy short trigger; a reclaim of 76.5 would revive the long."
+  },
+  "transcript": {
+    "macro": "Env HOSTILE-to-MIXED, tilted to SHORTS/defense. Sunday 19 Jul, US cash CLOSED until Monday \u2014 all names except SOL are tokenized equity/commodity perps on thin, gappy weekend liquidity (Monday mean-revert/gap risk). Cash backdrop risk-off/tech-down: S&P -1.6% wk, Nasdaq -2.9%, semis SMH ~-9%, NFLX -10%. Mega-cap earnings gauntlet inside horizon (TSLA Wed 22 Jul, Alphabet 22-28, META/MSFT/AAPL next wk) \u2014 any position into a print is a binary gap. BTC low-$60Ks, dominance ~56%, weak crypto tape caps SOL/MSTR/HOOD. Funding reads 0.0 across the board (unavailable, not neutral-bullish) \u2014 lean on L/S crowding + orderbook; most names crowded-long L/S 2.3-2.8 (contrarian short tailwind). Best alignment: QQQ short, TSLA short (close before Wed earnings), CRCL short, CL exhaustion-fade short; MU & SOL longs the most hostile.",
+    "sentiment": "Overall RISK-OFF/event-heavy (live US-Iran conflict spiking oil/safe-havens; mega-cap earnings wall next week). TSLA: Q2 earnings Wed 22 Jul AH \u2014 hard binary inside 48h, do-not-hold-through. MU: blowout FQ3 already reported, catalyst behind, momentum-negative. SOL: multi-week bullish narratives (ETF fee cuts, Firedancer) but no <=48h catalyst, follows BTC (corr 0.80). MSTR: no 48h binary, leveraged BTC proxy; sold ~3,588 BTC Jul 6-12. CRCL: earnings ~Aug 10, tone mixed/heavy (Stripe 'Open USD' threat vs OCC trust-bank/Nomura/ARK). ORCL: no 48h catalyst, sentiment deteriorating (S&P cut to BBB-, pipeline rejection). QQQ/AAPL/META/HOOD: earnings Jul 29-30 (outside 48h), near-term neutral. CL: WTI ~$82-83, +14% wk on live US-Iran/Hormuz conflict \u2014 genuine two-way <=48h headline risk in both directions.",
+    "analyst": "Composite long is aligned:false with 5m/15m/30m flat-to-short and 4h RSI 72.9 stretched \u2014 a distrust-worthy long into extreme crowded-long positioning (structure_bias -0.31, L/S 2.82) and a soft BTC. Candles show fresh distribution off 76.49, not a buyable dip, but 75.95 is mid-range above 73.3 support with no short trigger. Model weights punish exactly this profile (negative bias, unaligned, negative rel-strength), so best expectancy is to wait for the level break.\n\nForecast: SOL just rolled over from a rejected 76.49 spike; expect chop/drift 75.7-76.2 over next 2-4 bars, likely a probe toward 75.3 before direction resolves \u2014 no clean edge until it either reclaims 76.5 or loses 75.3.\n\nExpectancy: p(win) ~0.5 either way: long fights L/S 2.82 crowding + stretched 4h RSI 72.9 + weak BTC-beta (corr 0.80); short fights a losing short book (0.47 win) and isn't at an extreme yet \u2014 no setup clears R:R 1.5.",
+    "portfolio": "HOLD \u2014 distrust-worthy long into crowding and soft BTC; short a 75.3 break or re-long above 76.5."
+  },
+  "timestamp": "2026-07-19T12:13:57.283588+00:00"
+}

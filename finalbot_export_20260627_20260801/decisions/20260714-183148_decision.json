@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "INTC/USDT:USDT",
+  "size": 0,
+  "entry": 108.25,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Low-volume, tiny-bodied bounce stalling at 108.25 into the flush origin with 15m/1h/5m RSI 70-73; expect a stall/fade back toward 105.9-104 over the next few bars unless volume returns to reclaim 110.",
+  "expectancy_note": "No edge at mid-range 108.25: long = chasing RSI-73 into a broken 4h chart (the account's #1 loser); short = fighting a fresh 4h oversold bounce with no rejection yet. p(win) either way ~0.5, sub-1.5 R:R \u2014 HOLD is highest expectancy.",
+  "rationale": "INTC sits mid-range between 101.34 support and 127.4 resistance with a weak ADX 23.8 and mixed TFs (4h RSI 40.7/MACD -1.75 bearish vs 15m/1h/5m RSI 70-73 stretched bull). The relief bounce is running on drying volume (last bars 76-180 vs 1000-3000 into the flush) right into overhead supply \u2014 no confirmed rejection to short and too extended to chase long. Earnings binary July 23 caps swing conviction. Zero size; wait for the tape to pick a side at a real level.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 105.5,
+    "expires_min": 240,
+    "note": "Losing 105.5 fails the bounce and confirms rejection at 108, opening a short back toward 101.34 support; conversely I'd only turn long on a volume reclaim of 110."
+  },
+  "transcript": {
+    "macro": "2026-07-14 mixed-to-supportive tape: cooler CPI = mild risk-on for tech (Nasdaq +0.44%) but choppy/headline-driven (Iran overhang, oil up). Dominant risk: semiconductor/AI-capex sector in violent repricing (>$1T wiped early July), now fragile dead-cat stabilization \u2014 two-way tape; any long fights a broken sector chart, any short fights a fresh oversold bounce. INTC: down ~21% over 7 days, last ~108.25, just above ~101 support (scan 101.34). 4h RSI ~40.7, MACD ~-1.75, but 15m/1h RSI 70-73 = intraday bounce stretched. Pure sector/index beta (TSM 0.68, MU 0.69, QQQ 0.73), rel strength -27.7% (weakest). CRITICAL: Q2 earnings July 23 binary \u2014 do NOT hold a swing into it. Funding ~0, long/short 1.83.",
+    "sentiment": "INTC NEUTRAL-to-cautiously-constructive near-term. Fell ~21% in 7 days (~$140 to ~$110) on triple hit \u2014 18A yield delay (profitable yields late 2026/2027), AMD overtaking Intel in data-center revenue, broad chip selloff. Now stabilizing ~$108-110. Fresh mildly positive: 18A-P entered risk production on schedule; CEO says external customers 'actively engaging,' yields improving ~7-8%/mo. Analysts polarized (HSBC $200 vs BofA 'bubble'/Hold). KEY CATALYST: Q2 earnings July 23 \u2014 caps upside, raises headline risk. Nothing forces a move in 24-48h.",
+    "analyst": "INTC mid-range between 101.34 support and 127.4 resistance, weak ADX 23.8, mixed TFs (4h RSI 40.7/MACD -1.75 bearish vs 15m/1h/5m RSI 70-73 stretched). Relief bounce on drying volume (last bars 76-180 vs 1000-3000) right into overhead supply \u2014 no confirmed rejection to short, too extended to chase long. Earnings binary July 23 caps swing conviction. No positive-expectancy entry; HOLD, zero size.",
+    "portfolio": "HOLD INTC \u2014 no edge mid-range; wait for a 105.5 rejection (short) or 110 volume reclaim (long)."
+  },
+  "timestamp": "2026-07-14T18:31:48.234253+00:00"
+}

@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "META/USDT:USDT",
+  "size": 0.0,
+  "entry": 671.19,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.4,
+  "playbook": "none",
+  "forecast": "Thin Sunday tape: price stalls/chops 668-674 under 678.67 resistance; likely a weekend mean-reversion drift toward VWAP (~652-655) before Monday's cash open, not a clean breakout. Last bars show lower-highs and rising down-volume = local exhaustion, not fresh thrust.",
+  "expectancy_note": "No positive-expectancy entry: long is extended (+2.94% VWAP, RSI72) with only ~1.1% to resistance (R:R to 678.67 <1), short fights the strongest leader (RS +18.8%) with no LTF reversal. Wait for pullback or confirmed break.",
+  "rationale": "META is the strongest RS name but overbought and extended into a CLOSED US cash market on a thin, gappy Sunday \u2014 exactly the tape where chasing a leader gets wicked. Composite LONG is weak (43% conf, unaligned) and 15m/5m already rolling flat/short after lower-highs and rising down-volume near the top of the range. No honest long R:R with only ~$7 to resistance and a wide structural stop; no clean short into a bullish leader with a Monday gap-up risk. Best expectancy is patience \u2014 enter long only on a confirmed reclaim above 678.67 or a pullback to VWAP.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 678.67,
+    "expires_min": 240,
+    "note": "A decisive break of the 678.67 resistance (ideally on Monday cash open) confirms the leader is extending and flips this to a momentum long with clear room to run."
+  },
+  "transcript": {
+    "macro": "Overall regime broadly risk-on but thin; Nasdaq/S&P firm on AI optimism (Meta +6% on positive AI-compute report). CRITICAL: Sunday July 12, US cash equity markets CLOSED \u2014 META is a tokenized-equity perp, thin/gappy/mean-reverting until Nasdaq reopens Monday; size down. Scan LONG but only 43% conf and unaligned; overbought RSI 4h 72, RS +18.8% vs BTC (strongest leader), price near resistance $678.7, L/S 0.91 (no crowded-long risk). Overbought/extended into closed cash market \u2014 prefer pullback entries, small size.",
+    "sentiment": "Macro overlay: June CPI Tue July 14 8:30am ET = <=48h binary; hot print = pullback risk. META strongly bullish momentum-driven; stock ran ~20% in weeks (~$550->$670+) on 'Meta Compute' AI-cloud pivot, in-house Iris chip (production Sept), 14GW capacity plan; Wolfe reiterated Outperform $800 PT (long-horizon). Key hard binary = Q2 earnings Wed July 29 after close \u2014 OUTSIDE 48h window, flag for later. Near-term only mover = Monday cash open + CPI. Very overbought/crowded. Net bias news POSITIVE but no <=48h catalyst; CAUTION chasing longs.",
+    "analyst": "Composite LONG but weak (43% conf, unaligned); RSI 4h 72.1, +2.94% above VWAP, ~1.1% under resistance 678.67 after a +6% AI-pop and ~20% multi-week run. 15m path = lower highs (673.45->672->671) with rising down-volume near range top = mild distribution, not a fresh breakout. Long here has R:R <1 to resistance with a wide structural stop into a closed thin tape (weekend wick risk); no clean short into the strongest leader with Monday gap-up risk. Best expectancy = HOLD; long only on a confirmed reclaim above 678.67 or a pullback toward VWAP ~652-655.",
+    "portfolio": "HOLD META \u2014 strongest leader but overbought/extended into a closed, gappy weekend tape; long only on a 678.67 break or a VWAP pullback."
+  },
+  "timestamp": "2026-07-12T16:32:14.926086+00:00"
+}

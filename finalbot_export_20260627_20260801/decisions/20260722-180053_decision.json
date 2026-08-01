@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "EWJ/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "No live next-candle move to forecast: last ~7 15m bars are frozen at 92.45 on 0.0 volume, a stale quote.",
+  "expectancy_note": "p(win) undefined on a frozen tape; no honest R:R. HOLD beats forcing a trade into a dead, illiquid quote at 82 RSI / top-of-range with a mixed (1h short) composite.",
+  "rationale": "EWJ is the thinnest name in the book with a literally flatlined price (0.0-volume candles pinned at 92.45), so there is no live price discovery to trade. Price is stretched: +1.35% over VWAP, 15m RSI 82.4, near the top of the 52wk range (92-95), while the 1h is outright short and structure is long-crowded (bias -0.175). No stock-specific catalyst inside 48h and FOMC (Jul 28-29) is an outside-window overhang. Nothing here offers 1.5R with an honest stop; wait for volume-backed direction.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 92.55,
+    "expires_min": 240,
+    "note": "A volume-backed reclaim of the last live high (92.55) toward 94.82 resistance would confirm the 4h long resuming with real liquidity."
+  },
+  "transcript": {
+    "macro": "Regime RISK-ON but stretched, chip/semi-led equity rally (Nasdaq100 +1.9%). Fed is a HAWKISH tail risk: market prices ~14-24% July hike, ~64-69% by Sept (Warsh Fed); oil >$92 reviving inflation, firm DXY. Long-crowding across nearly the whole book (contrarian structure_bias negative on most names) -> size DOWN, favor located entries over chasing. BTC $66,026, dominance ~56-59%, funding flat, L/S 1.31 (uncrowded), 4h bearish divergence, capped under 66,938. Tokenized-equity tapes (EWJ, TSM) are THIN with near-zero-volume 15m candles -> wider stops, smaller size. FOMC July 28-29 is the dominant binary but sits just OUTSIDE the 24-48h window -> positioning overhang, not an immediate trigger.",
+    "sentiment": "No instrument has a clean tradeable catalyst INSIDE 24-48h; big binaries (FOMC Jul 28-29, SNDK earnings Aug 5) are just outside the window. EWJ neutral/mild-bull, broad Japan basket on Nikkei/yen/semi cycle, near 52wk-range top, no 48h binary. SNDK bullish momentum but headline-risk high & NOT news-clean: +17.5% Jul-21 snap-back after -24.5% Jul13-17 China-AI scare = whipsaw; earnings Aug 5. SOL neutral-to-constructive: structural positives (5 spot ETFs ~$1.12B inflows, possible SEC staking-ETF, Alpenglow Q3) offset by MAU 2yr-low, TVL -56%; trades as high-beta BTC into the Fed. XAUT neutral, two-sided into the Fed: safe-haven bid (Mideast/US-Iran) vs strong dollar; CB buying ~60t/mo = floor; watch DXY. BTC cautiously bullish: two-week high on 5 straight days spot-ETF inflows (>$600M), F&G ~53, $2.5B Deribit call spreads target $72k by Jul-31; caveat flows fragile + 4h divergence; Fed-gated. TSM bullish fundamentals but catalyst fired Jul-16 (Q2 beat, guide raise, muted reaction); now trades on AI-demand tape, priced.",
+    "analyst": "Thinnest name in the book; last ~7 15m candles frozen at 92.45 on 0.0 volume (stale quote, no live price discovery). Stretched: +1.35% over VWAP, 15m RSI 82.4, near 52wk-range top (92-95); 1h TF outright short; structure long-crowded (bias -0.175). No honest 1.5R stop available and no 48h catalyst. HOLD; armed price_above 92.55 reconsider.",
+    "portfolio": "EWJ: HOLD (0.60) - frozen/illiquid tape, no tradable edge; re-trigger on volume-backed break >92.55."
+  },
+  "timestamp": "2026-07-22T18:00:53.690332+00:00"
+}

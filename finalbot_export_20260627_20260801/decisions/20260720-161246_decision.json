@@ -1,0 +1,28 @@
+{
+  "symbol": "NVDA/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.4,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "none",
+  "forecast": "Price coils 205.0-207.8 at the highs; most likely churns sideways over the next 2-6 bars. Either it dips to retest 204/200 support (best long entry) or clears the 207.77 session high on volume and runs toward 213.96. Right now it's mid-range chop.",
+  "expectancy_note": "p(win) on a 206.4 chase ~0.45; stop below 205 coil (~1.4) to 207.8 first ceiling gives R:R <1.5 into a rejection level. No entry beats a late continuation buy here.",
+  "rationale": "NVDA is the cleanest long of the group (RS +8, low BTC corr) but it's mechanically extended: RSI 80, ADX 80, %B >1.0, +1.19% over VWAP, and a 207.77 volume-rejection with orderbook imbalance -0.22 (sellers stacked above) plus L/S 1.575 crowded long. That is the account's #1 loss pattern - chasing continuation into stretched tape where a routine bounce/dip takes out any honest stop first. Better expectancy comes from either a pullback-buy at the 204/200 pivot or a confirmed break of the session high, neither of which is present now. Size 0 until price picks a side.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 207.8,
+    "expires_min": 240,
+    "note": "A 15m close above the 207.77 session high proves buyers absorbed the stacked offers and opens the trend leg toward 213.96 - re-debate for a long on the breakout retest."
+  },
+  "transcript": {
+    "macro": "Regime risk-on but cautious/mixed, megacap-tech-led. DXY ~100.8; FOMC 7/29 outside 48h. Basket crowded long into extended names = squeeze risk. NVDA (last ~206) SUPPORTIVE - best of the group: chipmakers led Monday's rip, NO earnings until 08/26 (no event risk this cycle), best relative strength, low BTC corr 0.19. Caveat: RSI 80 / ADX 80 extended, L/S 1.58 crowded long. Cleanest long of the cycle but expect chop at highs.",
+    "sentiment": "NVDA BULLISH bias, headline-driven. No earnings in window. Fresh positive catalyst: US began issuing licenses for H20/H200 sales to ~10 approved Chinese firms (Alibaba, Tencent, ByteDance, JD) = incremental upside; $200B CPU ambitions reported. Stock churning ~$200-212 (mkt cap >$5.1T), $200 acting as support amid AI-valuation and Huawei-competition jitters. Constructive tone but respect $200 as pivot.",
+    "analyst": "Uptrend intact but mechanically extended (RSI 80, ADX 80, %B>1.0, +1.19% vs VWAP); 15m stalled just under the 207.77 spike high with orderbook -0.22 (sellers above), longs crowded 1.58. No pullback to VWAP and not at a fade level, so no positive-expectancy entry at 206. Hold; want a dip to 204/200 for a continuation long or a confirmed break of 207.8.",
+    "portfolio": "HOLD NVDA - cleanest long but extended; wait for the 204/VWAP pullback or a 207.8 breakout."
+  },
+  "timestamp": "2026-07-20T16:12:46.453149+00:00"
+}

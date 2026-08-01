@@ -1,0 +1,23 @@
+{
+  "action": "hold",
+  "symbol": "MSFT/USDT:USDT",
+  "confidence": 0.5,
+  "size": 0.0,
+  "entry": 387.11,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "rationale": "MSFT is in a strong downtrend (ADX 45.5, all of 15m/30m/1h/4h short, 1h -0.9) with bearish structure (L/S 1.743 trapped longs, orderbook -0.458 selling pressure), so directionally I lean short. But price is stretched at the lows: RSI 28.5 oversold, %B -0.116 below the lower band, and 5m has flipped long (RSI 80.8) = a live oversold bounce. Shorting here at the band lows is chasing a mid-air move with poor R:R, and going long fights the trend plus the macro rotation OUT of crowded mega-cap AI. No 48h catalyst (earnings ~July 28-29 is outside horizon). Best expectancy is to wait for the bounce to fade and re-short from a better level near VWAP.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 383.0,
+    "expires_min": 240,
+    "note": "A bounce into the ~383 VWAP/broken-support zone offers a high-quality short entry back with the dominant downtrend, instead of chasing the oversold lows near 387."
+  },
+  "transcript": {
+    "macro": "Overall regime: mildly RISK-ON, low-vol (VIX ~16.4); US indices up Jul 6. Every tokenized name here is crowded-long. FOMC Jul 28-29 + mega-cap earnings wall \u2014 nothing safe held into month-end; keep trades hours-to-days. Tokenized equity perps thin/gappy off-hours. MSFT MIXED, short-aligned but bounce risk: last 387.11, composite SHORT (41% conf, blended -0.385), but 5m flipped long (RSI 80.8) = bounce inside a downtrend. RSI 28.5 oversold, below VWAP. structure_bias -0.359 (funding 0, L/S 1.743 heavily long, orderbook -0.458 selling pressure). Catalyst: MSFT FY26 Q4 earnings ~Jul 28-29 (outside 48h, do NOT carry into it). AI story strong (Azure +31%, $37B AI run-rate) = fundamental tailwind capping shorts. Keep tactical, smaller size.",
+    "sentiment": "Overall: broadening-but-jittery; rotation OUT of crowded AI/mega-cap tech (Nasdaq-100 fell >2% last week) INTO equal-weight/small caps. MSFT sits squarely in the group being SOLD; macro rotation is a HEADWIND. MSFT NEUTRAL-to-slightly-BEARISH near term; weakest name in scan (short bias, RSI ~28, below VWAP). Key dated catalyst outside horizon: earnings ~Jul 28-29. No fresh MSFT-specific catalyst in 48h; direction driven by tech-rotation tape which leans against longs. Background slow-burn (do not trade on): OpenAI/MSFT ended exclusive rev-share, antitrust probes.",
+    "analyst": "Tension: strong downtrend (ADX 45.5, all higher TFs short) BUT price stretched below lower Bollinger band (%B -0.116) with RSI 28.5 oversold and a 5m bounce firing. Shorting at %B<0 into oversold with a live squeeze is chasing; a fresh short belongs on a bounce toward VWAP/resistance, not at the lows. Long fights a strong downtrend + rotation headwind. Neither has clean expectancy now. HOLD and arm trigger: re-short a bounce into ~383 VWAP/broken-support zone. Support 367.68, resistance 394.19, ATR ~$2.01.",
+    "portfolio": "MSFT: HOLD, conf 0.50, size 0 \u2014 short-biased but stretched at the lows; wait to re-short a bounce to ~383 (trigger armed, 240min)."
+  },
+  "timestamp": "2026-07-06T15:56:46.432927+00:00"
+}

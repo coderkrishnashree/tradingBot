@@ -1,0 +1,26 @@
+{
+  "symbol": "MSTR/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.34,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "expectancy_note": "No positive-expectancy entry: fresh short is chasing RSI 23/%B -0.136 into support 102.32 with 36k-OI squeeze fuel (poor R:R, high fade risk); no long without $100 reclaim on OI expansion against ETF-outflow/mNAV-broken backdrop. Wait for the break.",
+  "rationale": "MSTR is pinned on support 102.32 while deeply oversold intraday (5m RSI 23.4, stoch 6.5, %B -0.136, vwap -1.06%) \u2014 shorting here is chasing an extended down-move into a level, and BTC holding $58k at a 2-week high plus 36,031 OI make a mean-revert squeeze the primary risk. But there is no clean long: mNAV flywheel broke (Digital Credit framework = active BTC sales), 8th straight week of ETF outflows, crowded longs paying +0.000335 funding (structure_bias -0.218), and no bullish 48h catalyst. Best expectancy is flat until the tape resolves; a decisive loss of $100 is the real short trigger, not this knife.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 100.0,
+    "expires_min": 240,
+    "note": "Losing the $100 psychological/mNAV pivot on OI expansion confirms crowded-long capitulation and opens $95 then $81-82 \u2014 that's the clean momentum short, not fading into 102.32 support."
+  },
+  "reasoning": "Oversold knife on support in a hostile-but-two-way tape; neither a fresh short (squeeze risk, extended) nor a long (broken flywheel, ETF outflows) has R:R >= 1.5. HOLD with a short trigger armed on a decisive $100 break.",
+  "transcript": {
+    "macro": "MSTR = leveraged BTC proxy (Strategy ~818k BTC), driven by Bitcoin not the scan's semis. Regime mixed-to-fragile but stabilizing off lows: BTC ~$62.6k, 2-week high ~$63.9k after brutal June (-20%, ~652-day low $57.7k Jul 1); $58k is the line, break risks $50k. Dominant headwind = spot BTC ETF outflows (8th straight week, June ~$4.06B record, 2026 cumulative now negative). Fear & Greed 24 (extreme fear) = washed out, tactical-bounce support not a green light. Equity risk-off: SOX -12% over two days; Fed 3.50-3.75%, CPI hot 4.2%, weak June jobs (57k) \u2014 no easy cut. 48h event risk: ISM Services (Jul 6), FOMC minutes (Jul 8). Token thin/gappy outside US cash hours. Derivs (scan): funding +0.000335 (longs paying, not extreme), OI 36,031 (highest in set, squeeze fuel either way), L/S 1.28 (long-tilted, contrarian negative), book imbalance -0.008 flat, net structure_bias -0.218 leans SHORT. Tape last 102.46, RSI 23.4 (5m), stoch 6.5, %B -0.136, vwap_dist -1.06%, ADX 49 down 1h/15m \u2014 oversold/extended down. Levels: $100 pivot / $105.99 resistance / $81-82 breakdown; BTC $58k must hold / $60k reclaim / $50k capitulation. Verdict: MIXED-leaning-HOSTILE; no clean long, no clean fresh short here; trade small/scalp, flat defensible.",
+    "sentiment": "Decisively bearish/mixed-fearful, fundamentally driven. MSTR -46% over 30 days, two-year low. Structural break: June 29 Digital Credit Capital Framework authorizes up to $1.25B BTC monetization (active SALES) + $2B buybacks; mNAV collapsed to ~1.03x \u2014 accretive flywheel evaporated. STRC preferred ~$74 vs $100 par, freezing cheap raises. Schiff 'death spiral' calls, but no forced liquidations / no near-term maturity wall on $6.75B convert book \u2014 panic is narrative-driven. BTC macro dominant and ugly (record June ETF outflows) \u2014 argues short/against longs. No hard 48h binary; Q2 earnings July 30 (outside horizon). Two-way risk for shorts: RSI 23, +7% bounce Jul 2 on capital-plan reveal, live $2B buyback + dip-buy headline history could squeeze. Net: news supports bearish bias but it's a crowded, deeply-oversold short; treat rallies as the risk.",
+    "analyst": "MSTR at 102.46 pinned on support 102.32, deeply oversold intraday (RSI 23.4, stoch 6.5, %B -0.136, vwap -1.06%) \u2014 a knife into a level. Fresh short = chasing extended down-move into support with 36k OI squeeze fuel and BTC at a 2-week high (mean-revert squeeze is the primary risk). No clean long either: broken mNAV flywheel, 8th week of ETF outflows, crowded longs paying funding (structure_bias -0.218), no bullish 48h catalyst. Neither side has R:R >= 1.5, so HOLD is highest-expectancy with a short trigger ARMED on a decisive loss of the $100 psych/mNAV pivot on OI expansion (opens $95 then $81-82). A reclaim of 105.99 would be the long re-debate, but bear backdrop makes the downside break the higher-expectancy watch.",
+    "portfolio": "MSTR/USDT:USDT \u2014 HOLD (conf 0.34), flat; short trigger armed on decisive $100 break within 240 min."
+  },
+  "timestamp": "2026-07-06T12:03:53.266569+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "BTC/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price is coiling 64100-64260 pressing 64703 resistance while VWAP-extended (+1.98%) into a heavily-offered book (OB imbalance -0.62); most likely path is a friction/rejection or shallow pullback toward 63500-63700 VWAP over the next 2-6 bars before the trend can resume higher.",
+  "expectancy_note": "p(win) on a chase-long here ~0.4: reward to 64703 is only ~0.7% vs a honest stop below 64050 (~0.3%+), R:R < 1.5, and RSI80/stoch83 into offers invites the counter-bounce that kills late longs; waiting for a breakout-hold or a VWAP dip is higher expectancy.",
+  "rationale": "BTC is the cleanest trend of the set (ADX 74, 1h/4h up) but it is stretched (RSI 80, stoch 83.6, +1.98% above VWAP) directly into 64703 resistance with a heavy offered book (-0.62), so a market-buy chases the move with sub-1.5 R:R and high odds of getting shaken by a routine pullback. Funding is benign and not crowded, so I want the trend long \u2014 just at a better price. I'll take a long on either a clean breakout and hold above 64703 (measured continuation) or a dip into 63500-63700 VWAP support; neither trigger is armed now, so HOLD.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 64703,
+    "expires_min": 240,
+    "note": "A 15m close above 64703 resistance clears the offered book and confirms breakout continuation, turning the stretched-into-resistance HOLD into a valid trend long toward the next leg."
+  },
+  "transcript": {
+    "macro": "Regime mildly risk-on but stretched. BTC leading a cautious tape, dominance high ~56.4% (BTC is the leader). Best-defined trend of the set \u2014 strong ADX (74), 1h/4h up, RSI 80 on 4h (stretched but trending), price ~$64k pressing resistance ~$64.7k. Funding benign (+0.5bp), long/short only 1.34 (NOT crowded), but orderbook imbalance -0.62 (heavy offers overhead) -> structure_bias -0.31. Environment SUPPORTIVE (mildly) for longs on trend, but respect the offered book and RSI-80. Crypto trades the weekend (no closure gap). Biggest risk = failure at $64.7k / overbought pullback.",
+    "sentiment": "BTC sentiment improving off a washed-out base. ~$64,200, +~6% on the week recovering from high-$50Ks. ETF flows flipped positive (~+$46.6M) after a brutal June (~$4.5B outflows). Whales accumulated ~270K BTC near lows, >$450M shorts liquidated above $62K. Fear&Greed 23 (Extreme Fear) but RISING \u2014 bullish divergence. No crypto binary next 48h; next FOMC Jul 28-29, CPI Jul 14 nearer swing. News modestly supports long but momentum stretched into resistance.",
+    "analyst": "Cleanest trend of the set (ADX 74) but stretched (RSI 80, stoch 83.6, +1.98% above VWAP) directly into 64703 resistance with a heavy offered book (-0.62). Last 20 15m bars are coiling 64100-64260 with repeated rejections near 64260, not impulsive continuation. A market-buy chases with sub-1.5 R:R (reward to 64703 ~0.7% vs honest stop below 64050) \u2014 the account's #1 loss pattern. Funding benign/not crowded so I want the trend long at a better price: on a breakout-hold above 64703 or a dip into 63500-63700 VWAP. Neither armed now -> HOLD.",
+    "portfolio": "HOLD BTC \u2014 cleanest trend but overbought into 64703 resistance; long arms on a 15m close above 64703 or a VWAP dip."
+  },
+  "timestamp": "2026-07-11T08:32:18.337706+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "XAG/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Price is at the lower Bollinger band (%B 0.10) with 4h RSI 31 and stoch 19.5 \u2014 oversold. Expect a small relief bounce toward the 61.3-61.5 broken shelf/VWAP over the next 2-4 bars, then resolution lower into Wed FOMC minutes; no clean entry right now.",
+  "expectancy_note": "Fresh short into oversold lower band = chasing (poor R:R, target 56.66 far, stop tight above); no level to fade long. Best entry is a short on a bounce to 61.5, so wait.",
+  "rationale": "XAG is aligned-short and crowded long (L/S 3.25 = downside fuel), but price is already extended down at the lower band with 4h RSI 31 / stoch 19.5 and the last two 15m bars printed a weak higher-low bounce \u2014 shorting here is late and R:R is poor with support 56.66 far away. Learner shows shorts hit often (83%) but the book is bleeding on entries/exits, arguing for a higher-probability short from a bounce rather than chasing the band. HOLD and wait for a retest of the 61.4-61.5 shelf to short with room, or a clean breakdown/retest below 60.5.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 61.5,
+    "expires_min": 240,
+    "note": "Reclaiming the 61.4-61.5 shelf/VWAP relieves the oversold read and offers a cleaner short-from-strength (or flips the immediate-down thesis) ahead of Wed FOMC minutes."
+  },
+  "transcript": {
+    "macro": "Regime MIXED-to-RISK-OFF. Fed hawkish lean; DXY ~100.8 soft after cooler jobs. Silver ~$61.2, pulled back ~1.4% from two-week highs on firmer dollar but still +~6% on the week off the cooler jobs print. Constructive but overbought/extended. Positioning: L/S 3.25 = very lopsided long (contrarian downside risk); scan short-biased (4h RSI 31), price near lower band.",
+    "sentiment": "Two-sided with supportive macro undertone. Off explosive multi-quarter rally (ATH ~$120, now ~$61); popped ~3% Mon Jul 6 on soft June jobs. Countervailing: Warsh nomination firmed USD. No silver-specific catalyst inside 48h; reacts to Wed Jul 8 FOMC minutes via USD/rates. Scan the one name flagged 'aligned' short.",
+    "analyst": "Controlled bleed lower (61.95 -> 60.7 area) on higher down-volume, then a weak light-volume higher-low bounce (dead-cat/pause). 4h RSI 31 / stoch 19.5 = oversold at lower band, so a fresh short here is chasing with support 56.66 far. No clean fade level now. HOLD; short trigger on a reclaim of 61.4-61.5 shelf for room, or breakdown-retest below 60.5.",
+    "portfolio": "HOLD XAG \u2014 aligned-short but oversold at the band, poor R:R to chase; short trigger on a bounce back to 61.5 (conf 0.5)."
+  },
+  "timestamp": "2026-07-07T16:25:55.483384+00:00"
+}

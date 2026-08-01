@@ -1,0 +1,28 @@
+{
+  "symbol": "CL/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.5,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "none",
+  "forecast": "Deep-oversold flush already bottomed at 86.43 and snapped +1.3% back to 87.26; over the next few bars expect chop between 86.4 support and 87.8 with an upward squeeze bias toward VWAP ~89.6, NOT further downside \u2014 so no short here.",
+  "expectancy_note": "Shorting now (1h RSI 26.4, stoch 19, -2.66% vs VWAP, crowd already net-short 0.554) is the account's proven losing pattern: late short into a stretched tape gets squeezed. No clean long entry mid-bounce either. HOLD beats both; wait for a pullback long at 86.4 or a fresh breakdown.",
+  "rationale": "CL is deeply oversold on 30m/1h with a completed flush low at 86.43 and an active reversal bounce (5m now long, big-volume 86.76->87.78 candle), while the crowd sits net short (L/S 0.554) and macro is structurally bid with fat geopolitical tail risk \u2014 all argue against chasing the short. But price is mid-air (+1.3% off the low, still below VWAP) so there's no clean long yet either. HOLD with an armed trigger is highest-expectancy; size 0 until the 86.43 low either holds for a long or breaks for a fresh short.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 86.43,
+    "expires_min": 240,
+    "note": "Losing the 86.43 flush low invalidates the oversold-bounce thesis and opens a fresh momentum short leg toward ~85; a hold of it instead sets up a long."
+  },
+  "transcript": {
+    "macro": "RISK-OFF/defensive regime; oil shock is THE dominant macro force \u2014 Brent >$100 (settled ~100.69) on July 23 after Houthi strikes on Saudi tankers + Iran escalation, thin Strait of Hormuz traffic. CL structurally BID but extended/headline-whipsaw: single de-escalation headline can trigger $3-5 unwind; OPEC+ adding 548kbpd in August (bearish offset). Scan internals argue near-term SHORT/pullback vs macro uptrend (composite short -0.30, p_win 0.584, 1h RSI 26.4 oversold, -2.66% vs VWAP) BUT crowd net short (L/S 0.554 \u2192 squeeze risk UP), ATR 2.0% (most volatile). Fade-the-extreme, do not fight fresh headlines.",
+    "sentiment": "CL bearish-to-neutral base case (OPEC+ supply glut, EIA +2.0M bbl build last week) with fat geopolitical tail risk. OPEC+ meeting Sat Aug 2 key supply catalyst; weekly EIA (Weds) recurring. US-Iran Hormuz hostilities spiked prices mid-July but easing flows + US-Iran talks draining the risk premium \u2014 live two-way: re-escalation gaps up fast, de-escalation bleeds down. Near-term news argues WITH a short but demands tight risk.",
+    "analyst": "Deep-oversold flush bottomed at 86.43 with active reversal bounce (5m long, big-volume 86.76->87.78) and crowd net short \u2014 chasing a short here is the account's proven losing pattern (late short gets squeezed). No clean long mid-bounce either (price +1.3% off low, still below VWAP). HOLD with armed trigger; long on a 86.4 pullback that holds, fresh short only on a break below 86.43.",
+    "portfolio": "CL: HOLD (conf 0.50) \u2014 oversold flush bottomed, no chasing the short; armed at 86.43 for break (short) or hold (long)."
+  },
+  "timestamp": "2026-07-25T19:03:28.459087+00:00"
+}

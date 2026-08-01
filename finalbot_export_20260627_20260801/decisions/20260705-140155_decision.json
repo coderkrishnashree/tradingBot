@@ -1,0 +1,25 @@
+{
+  "action": "hold",
+  "symbol": "SNDK/USDT:USDT",
+  "confidence": 0.6,
+  "size": 0.0,
+  "entry": 1856.93,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "expectancy_note": "Fresh long p(win)~0.4, R:R poor: price at resistance 1865, 1h RSI 82 extended, bearish divergence, structure_bias -0.621 vs a long. Short has edge but initiating on a frozen weekend tape with Monday gap risk is a coin-flip on fill/slippage. Flat = highest expectancy.",
+  "rationale": "Scanner 'long' is a dead-cat bounce off ~1831 into resistance 1865 with bearish divergence, 1h RSI 82 (overbought/extended), hot funding +0.16% and net-long retail (1.44) that fuels a squeeze-then-fade, not continuation. Nasdaq is CLOSED (Sun Jul 5), so no cash price discovery and real gap-down risk Monday through frozen support amid an active memory-chip selloff (MU corr 0.47). No positive <=48h catalyst; both a fresh long (chasing into resistance, R:R<1.5) and a fresh short (executing blind on a frozen tape) are low-quality here, so size stays 0 until Monday's open clarifies direction.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 1831.63,
+    "expires_min": 240,
+    "note": "Losing frozen support 1831 confirms the bounce failed and opens the fade-short toward the next leg of the memory selloff."
+  },
+  "transcript": {
+    "macro": "HOSTILE-to-MIXED for a long. Tokenized EQUITY, not crypto \u2014 driver is the US semiconductor/memory tape; Nasdaq CLOSED (Sun Jul 5; also Fri Jul 3 for July 4). Perp thin/gappy, no cash discovery until Monday. Nasdaq back below 50-day SMA; SOX broke uptrend. SNDK BTC-corr only 0.20 (not crypto beta). Name in active memory-chip selloff, sank ~11% Jul 2 (Seagate -7%, Micron -4%) on supply-glut fears. Derivatives: funding +0.16%/interval (crowded-long), long/short 1.44 (retail net long, contrarian-negative), orderbook -0.296 (offered), structure_bias -0.621 (against a fresh long). Momentum long everywhere (1h RSI 82, ADX 48.7) but bearish divergence \u2014 squeeze-then-fade. Biggest risk: Monday gap-down through frozen support ~1831. Size materially smaller or wait for Monday open.",
+    "sentiment": "Risk-off / momentum broken. SNDK fell ~14% Jul 2-3 on Nasdaq semi sell-off + profit-taking after huge YTD melt-up + supply-glut fears. Scanner 'long' (RSI 68-82, ADX 48) is a dead-cat bounce off ~$1,830 with bearish 4h/1h divergence. Catalysts <=48h: NONE binary; next earnings Aug 13, 2026. Memory names (MU, Seagate) trade as one basket; SNDK/MU corr 0.47 \u2014 a single Micron/NAND headline can gap SNDK. Net: cautious-to-AGAINST the long; if taken, mean-reversion scalp with tight risk below $1,830, not conviction. Broad market: CNN Fear & Greed ~32 (Fear).",
+    "analyst": "Scanner 'long' is a dead-cat bounce off ~1831 into resistance 1865 with bearish divergence and 1h RSI 82 (extended). Hot funding +0.16% and net-long retail 1.44 set up a squeeze-then-fade, not continuation. Nasdaq closed = no cash discovery and real Monday gap-down risk through frozen support amid an active memory-chip selloff. No positive <=48h catalyst. Fresh long chases into resistance (R:R<1.5); fresh short means executing blind on a frozen tape. Both low-quality \u2014 flat = highest expectancy. Flip level: losing 1831 confirms the fade-short.",
+    "portfolio": "SNDK/USDT:USDT \u2014 HOLD (size 0), stand aside until Monday cash open; reconsider a fade-short if price loses 1831 within 4h."
+  },
+  "timestamp": "2026-07-05T14:01:55.223304+00:00"
+}

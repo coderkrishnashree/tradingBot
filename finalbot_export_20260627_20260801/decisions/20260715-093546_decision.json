@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "HOOD/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Thin pre-US-open drift 113.6-114.6; chop pinned near VWAP until 13:30 UTC. Only a volume-backed reclaim of 114.6 opens a clean trend-continuation long; absent that a fade toward 113.5/VWAP is higher-odds.",
+  "expectancy_note": "No edge: long chases extended (RSI66/stoch90, +2% VWAP, L/S1.64 crowded) into thin pre-market; short fights ADX66 uptrend. p_win_learned 0.406.",
+  "rationale": "HOOD is the crowded, high-BTC-beta cluster flagged 'first to flush' \u2014 stretched (RSI 66, stoch 90.6, +2% VWAP) and crowded long (L/S 1.64) into a thin, gappy pre-US-open tape. Two huge-volume bars near 114.5 faded (distribution), and intraday composites are flat \u2014 momentum stalled, so a long chases and a short fights a strong uptrend. No 48h catalyst (earnings Jul 29). No honest 1.5R entry.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 114.66,
+    "expires_min": 300,
+    "note": "Reclaim of the 114.6 distribution shelf on real post-open volume arms a clean long toward 116-118."
+  },
+  "transcript": {
+    "macro": "RISK-ON but early/thin (scan 09:29 UTC pre-US-open). BTC ~$64.8k +3.6%, funding flat. Crypto-proxy equities (HOOD/MSTR/COIN) supportive but MOST crowded cluster, treat rallies as extended; high-beta to BTC (HOOD corr 0.54). HOOD ADX 66 (late), RSI ~66-70, L/S 1.64 crowded \u2014 prefer pullbacks, smaller size, first to flush.",
+    "sentiment": "HOOD earnings Jul 29 (outside window); Motley Fool flags overhang, expected double-digit EPS decline. Fresh: Robinhood Chain L2 mainnet + tokenized stock trading 120+ countries \u2014 bullish but slow-burn. Sentiment bullish-but-stretched. Near-term NEUTRAL, lean cautious.",
+    "analyst": "HOOD stretched (RSI 66/stoch 90.6/+2% VWAP) and crowded (L/S 1.64) in thin pre-open tape. Big-volume bars near 114.5 faded (distribution), intraday composites flat. Long chases, short fights ADX 66. No 48h catalyst. HOLD; volume-backed 114.6 reclaim arms the long.",
+    "portfolio": "HOOD: HOLD (conf 0.50) \u2014 crowded/extended, first-to-flush; wait for post-open confirmation."
+  },
+  "timestamp": "2026-07-15T09:35:46.691261+00:00"
+}

@@ -1,0 +1,27 @@
+{
+  "action": "hold",
+  "symbol": "QQQ/USDT:USDT",
+  "confidence": 0.55,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "none",
+  "expectancy_note": "Coiled squeeze (BB width 1.43%) mid-range at 716 into FOMC minutes tomorrow; short is at oversold lows (stoch 15.5, 1h RSI 20), long is mid-range \u2014 neither clears R:R 1.5. Best EV is waiting for the break.",
+  "rationale": "Tokenized Nasdaq-100 ETF, read as equity \u2014 crypto structure de-emphasized. Price is squeezed between support 705.83 and resistance 737.88, oversold on lower TFs but only mid-range, with bid-heavy orderbook (+0.338) and cash tape near ATH arguing against fresh shorts at the lows. FOMC minutes Wed 2pm ET is a binary catalyst inside 48h on a hawkish backdrop, so chasing a tight coil now is poor expectancy. Zero size; wait for the range to resolve.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 705.83,
+    "expires_min": 240,
+    "note": "Losing support 705.83 breaks the coil to the downside and turns the oversold read into a real momentum short toward the range low."
+  },
+  "transcript": {
+    "macro": "2026-07-07 RISK-ON but late-stage. QQQ ~722 near ATH (+1.4% Mon). Perp reads short-term overbought-then-cooling: RSI 38, just above support 705.8, resistance 737.9. SpaceX added to Nasdaq-100 (<1% weight). Hawkish backdrop: May CPI +4.2% y/y, Fed 3.50-3.75%, ~66% odds of a hike by year-end. QQQ L/S 1.12 mildly crowded-long. No FOMC/CPI inside 48h except FOMC minutes Wed Jul 8 2pm ET.",
+    "sentiment": "QQQ bullish tilt with froth risk. ~720, off ~1.6% on week. SpaceX add negligible. Real near-term driver macro: FOMC minutes Wed Jul 8 2pm ET (first under Chair Warsh) plus Q2 earnings season kicking off (PepsiCo, Delta). Hot 4.2% CPI vs weak June payrolls (57K) keeps rates two-sided.",
+    "analyst": "Tokenized Nasdaq-100 ETF. Price coiled in tight Bollinger squeeze (width 1.43%) between 705.83 support and 737.88 resistance, oversold on lower TFs (stoch 15.5, 1h RSI 20.1) but only mid-range at 716, bid-heavy (+0.338). Cash near ATH argues against shorting the lows; long is mid-range with poor R:R. FOMC minutes tomorrow is a binary event \u2014 don't chase the coil. HOLD, arm downside break trigger at 705.83.",
+    "portfolio": "HOLD QQQ (0.55) \u2014 coiled squeeze into FOMC minutes; wait for the range to break."
+  },
+  "timestamp": "2026-07-07T10:57:44.928605+00:00"
+}

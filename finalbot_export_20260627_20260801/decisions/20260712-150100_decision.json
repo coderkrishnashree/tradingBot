@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "CRCL/USDT:USDT",
+  "size": 0.0,
+  "entry": 67.15,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Quiet weekend coil just under 67.2-67.4; likely chops 66.7-67.4 with fading volume until a headline or Monday open forces a directional break. No clean next-candle move to trade.",
+  "expectancy_note": "Long p(win) ~0.5 at best: honest ~1xATR stop (~$1.9) needs TP ~70 with only air between, R:R <1.5; weekend gap + crowded 2.63 L/S + Open USD headline tail kill expectancy.",
+  "rationale": "Composite is long and aligned but it is a slow low-volume grind offering no entry trigger, CRCL is a -15.5% laggard vs BTC (echo, not the strong horse), the book is heavily crowded long (structure_bias -0.29), and 2.88% ATR on a thin weekend session with Monday gap and Tuesday CPI/Warsh makes any honest stop either too wide for 1.5 R:R or too tight to survive noise. No concrete next move to express, so HOLD is the highest-expectancy choice; wait for the coil to resolve on volume.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 67.45,
+    "expires_min": 240,
+    "note": "A decisive volume break above the 67.2-67.4 coil cap confirms the continuation trigger for a run toward 68-69 with a stop back under the base."
+  },
+  "transcript": {
+    "macro": "2026-07-12 Sunday, US cash equities CLOSED (thin weekend tokenized session, Monday gap risk). Regime: cautious risk-off tilt; Warsh-led Fed hawkish, possible H2 2026 hike, May core CPI 2.9% / headline 4.2%. Event risk: June CPI + Warsh testimony Tue 7/14 + big-bank earnings start. S&P +11% YTD, Nasdaq firm but stretched. BTC ~64k mild long, benign funding. CRCL: composite LONG 55.5%, blended +0.482, aligned 30m/1h/4h/5m, ADX 69, 4h ATR 2.88% (very high vol), below VWAP -0.47%, rel strength vs BTC -15.55% (laggard). Positioning: OI thin ~42.8k, L/S 2.63 (heavily crowded long), structure_bias -0.29. Real catalyst: OCC national trust-bank charter final approval 7/9-7/10. Headwind: Open USD rival consortium overhang, Russell index removal. Environment mixed/cautious; CRCL better-supported long of the two but trim size.",
+    "sentiment": "CRCL constructive but headline-driven, HIGH two-way vol. OCC charter (+12.6% Fri 7/10, ARK bought 218k) is dominant near-term bullish driver; USDC ~67% of $1.78T June volume defends moat. Open USD consortium (Stripe/Coinbase/Mastercard/Visa/BlackRock) can gap it down double-digits on a single headline; Compass Point PT cut to $55. No dated catalysts within 48h; earnings ~Aug 10. Desk takeaway: long-biased on charter momentum but headline-whip \u2014 tight stops, size down for 2.88% ATR + crowded book + weekend illiquidity + CPI Tuesday.",
+    "analyst": "Slow low-volume weekend grind coiling under the 67.2-67.4 minor cap; not extended (below VWAP, stoch 35) but no momentum thrust. A structurally honest long needs ~1xATR stop (~$1.9 -> ~65.2) with only air up to ~70, so R:R <1.5; a -15.5% BTC laggard, crowded-long book (structure_bias -0.29) and Monday gap + Tuesday CPI/Warsh make it a coin-flip binary, not an edge. No concrete next-candle move to express -> HOLD. Flip: decisive volume break above 67.45 confirms continuation toward 68-69; loss of 66.7 kills the bid.",
+    "portfolio": "CRCL -> HOLD (conf 0.50): aligned long composite but no entry trigger, crowded/laggard, weekend gap + CPI risk; wait for a >67.45 volume break."
+  },
+  "timestamp": "2026-07-12T15:01:00.696734+00:00"
+}

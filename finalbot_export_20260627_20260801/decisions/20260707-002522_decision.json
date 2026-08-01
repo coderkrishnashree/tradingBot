@@ -1,0 +1,27 @@
+{
+  "action": "hold",
+  "symbol": "SNDK/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.34,
+  "playbook": "none",
+  "expectancy_note": "Both sides negative EV now: short chases a -26%/wk move that's -5.9% from VWAP, RSI 19, %B<0, resting on 1677 support (squeeze risk into semis rip); long is an unconfirmed knife-catch (no bullish divergence, momentum still down all TFs, ask-heavy book, thin off-hours gap risk). Wait for the level to resolve.",
+  "rationale": "SNDK is a tokenized equity (BTC-corr 0.108) that's textbook washed-out: RSI 19.2/stoch 8.2/%B -0.148/-5.92% VWAP, sitting on support 1677 with resistance a mile away at 2280 and 4h momentum score flattening at the low (-0.019). Structure still leans short (orderbook -0.425, funding +0.00043, L/S 1.262 overhang) but that's not enough edge to short into support this stretched, and there's no bullish trigger to catch the knife. Scan is off-hours (US closed, thin/gap-prone) right after semis ripped (SMH +2.7%, AMD +6.6%), so both a squeeze and a fresh flush are live. Highest-expectancy action is to wait: fundamentals (NAND pricing, MU blowout) favor an oversold bounce IF 1677 holds and reclaims, but losing 1677 reopens the downtrend.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 1677,
+    "expires_min": 240,
+    "note": "Losing 1677 support on a close kills the oversold-bounce thesis and confirms downtrend resumption into an open air pocket \u2014 re-debate for a short; conversely a hold-and-reclaim of the local pivot would be the bounce long."
+  },
+  "transcript": {
+    "macro": "Regime risk-ON but memory sub-sector stressed. Jul 6/7 2026: S&P +0.72%, Nasdaq +1.12%, SMH +2.7%, AMD +6.6%, Broadcom +3.7% (AI demand reignited). BUT memory hit: SNDK -26%/wk, -14% Jul 2 on 'memory glut'; MU RSI 24.1; SNDK-MU corr 0.819. SNDK BTC-corr 0.108 (trade as equity). SNDK positioning: structure_bias -0.378, funding +0.00043 (longs paying), L/S 1.262 (retail overhang), orderbook -0.425 (ask pressure). Deeply oversold: RSI 19.2/stoch 8.2/VWAP -5.9%, price 1697 on support 1677, ATR 2.81%. Off-hours (US closed, thin/gap-prone); next open just rallied semis (squeeze vs shorts / chase vs longs). Macro stance: NEUTRAL (two-sided).",
+    "sentiment": "Sharp near-term vol, NOT company-specific bad news. SNDK -14% Jul 1-2 breaking $1,730 support & $2,000 psych after peak ~$2,354; driver was broad Nasdaq/AI-chip selloff (Korean semis SK Hynix/Samsung) + profit-taking after ~4,885% post-relisting run. Bounced ~4% Jul 6. Fundamentals strong: NAND contract prices surging (TrendForce Q2 2026 +70-75% QoQ; top-4 ~92% capacity; relief not until late 2026/2027). Micron blowout (rev $41.5B, GM ~85%, sold out of HBM 2026) confirms pricing power flowing to SNDK. Analysts bullish (Bernstein $3,000, BofA/Citi $2,500 \u2014 long-horizon). Q4 FY2026 earnings ~Aug 13 2026 (est.) \u2014 OUTSIDE 24-48h window. Stance: BULLISH fundamentals, NEAR-TERM NEUTRAL-to-choppy; no confirmed catalyst inside 48h.",
+    "analyst": "SNDK washed-out oversold sitting ON 1677 support with resistance a mile away at 2280 and 4h momentum flattening (-0.019). Short = chasing -26%/wk move already -5.9% from VWAP, %B<0, RSI 19, into support with squeeze risk after semis ripped \u2014 terrible R:R. Long = unconfirmed knife-catch (no bullish divergence, momentum down all TFs, ask-heavy book, thin off-hours gap risk) with no trigger. Both sides negative EV now. 1677 is the deciding line: hold-and-reclaim = oversold-bounce long (favored by NAND/MU fundamentals + semi tailwind); lose 1677 on a close = downtrend resumes, short valid. HOLD, armed on the 1677 break.",
+    "portfolio": "HOLD SNDK/USDT:USDT \u2014 no edge either side at support 1677; conf 0.34; reconsider on close below 1677 (240m)."
+  },
+  "timestamp": "2026-07-07T00:25:22.472970+00:00"
+}

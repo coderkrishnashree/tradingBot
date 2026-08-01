@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "CL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price rejected 84.78 (session high, 44k-vol spike closed 84.11) and is rolling over; expect chop/pullback toward the 83.0-82.7 VWAP zone over the next few bars rather than an immediate new high. A clean break/hold above 84.78 would reopen upside toward ~86.",
+  "expectancy_note": "No positive-expectancy entry here: chasing long at RSI 82.7 / %b 0.957 / +4.1% VWAP into session-high resistance with crowded L/S 1.88 is the account's #1 loss pattern; shorting fights an aligned ADX 57.8 trend with orderbook +0.427 bid and live supply-shock headlines.",
+  "rationale": "CL is the regime's favored name but is stretched and pinned right under 84.78 with a fresh rejection wick and fading momentum (5m score -0.31). Two-sided violent headline risk (Hormuz strike = gap up, ceasefire chatter = gap down) makes a fresh directional market entry poor R:R. Prefer buying a dip retest of ~82.9 VWAP/broken-structure with a tight stop, or re-engaging long on a decisive break above 84.78 - not chasing mid-air.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 84.78,
+    "expires_min": 240,
+    "note": "A decisive break/hold above the 84.78 session high proves the supply-shock bid is resuming and reopens continuation toward ~86, justifying a fresh long."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF / defensive: semiconductor-led equity drawdown + live US-Iran conflict (Hormuz disruption). Energy UP. CL is the one name the regime FAVORS (long): momentum aligned 15m-4h (RSI 82.7 4h, ADX 57.8), best rel strength (+11.5% vs BTC). Risk: crowded long & stretched (L/S 1.88, %b 0.957) pinned at resistance 84.78; structure_bias -0.136 flags pullback risk on de-escalation. Trades 24h, headline-whippy. Funding stale/0.",
+    "sentiment": "HIGH-attention, event-driven live wire. June 17 ceasefire dead; 7th straight night of US strikes near Hormuz, Iran retaliating, threats of full-scale ops. WTI spiked ~$85. Two-sided violent 24-48h headline risk: Hormuz disruption gaps UP, ceasefire chatter gaps DOWN. Underlying fundamental bias BEARISH (EIA Brent ~$74 3Q26 to $65 in '27; OPEC+ unwinding +188k bpd). Geopolitics is the only thing holding prices up - fragile, treat every session as gap-risk.",
+    "analyst": "Extended-move-into-resistance: RSI 82.7, %b 0.957, VWAP +4.1%, rejection wick already printed at 84.78, crowded L/S 1.88, 5m score -0.31 fading. Chasing long here is the account's #1 loss pattern; shorting fights an aligned ADX 57.8 uptrend with orderbook +0.427 bid and live supply-shock headlines. Best expectancy is HOLD, armed to buy a dip retest (~82.9) or re-engage on a clean break above 84.78.",
+    "portfolio": "CL/USDT:USDT -> HOLD (conf 0.60): regime-favored but overbought at resistance with two-sided headline risk; wait for a dip or breakout."
+  },
+  "timestamp": "2026-07-18T21:09:46.205925+00:00"
+}

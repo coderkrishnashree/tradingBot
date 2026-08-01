@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "EWY/USDT:USDT",
+  "size": 0.0,
+  "entry": 174.11,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.4,
+  "playbook": "none",
+  "forecast": "Chop between 172.9 support and 175.6 broken shelf over the next 2-4 bars; a rejection off 175.6 or a break of 172.9 resolves it, but right now price sits mid-range at 174.1 with no edge.",
+  "expectancy_note": "Short bias (overbought 4h RSI 76.7, fast-TF rollover, RS -12.6%, bearish KOSPI/semis) but a market short here is a late chase into a bounce - the account's #1 loss pattern (shorts 45% win, -1.21 avg). Better to wait for the retest-into-resistance short or the confirmed breakdown; mid-range now = negative expectancy.",
+  "rationale": "EWY is a stretched, overbought equity proxy (4h RSI 76.7, ADX 83.3, +4.26% over VWAP) mid-correction, with fast timeframes rolled negative and worst-in-group relative strength (-12.6%), so the lean is bearish - but price has already pulled back from 176.67 to 174 and just bounced, leaving it in 173-175 chop with no clean entry. Shorting here risks the counter-bounce stopping me out, exactly how this account's late shorts die (49 shorts, 45% win, -1.21 avg). I'd rather short a bounce into 175.6-176 or a confirmed break of 172.9; at 174.11 mid-range the R:R is not there, so I hold flat with no capital at risk.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 172.9,
+    "expires_min": 240,
+    "note": "Losing the 172.9 intraday low confirms the fast-TF rollover has broken structure, flipping this from chop into a clean trend-continuation short with the bearish macro."
+  },
+  "transcript": {
+    "macro": "Overall: cautiously risk-on day but hawkish backdrop (~55% odds Sept Fed hike, CPI 4.2%, 10Y ~4.5%, DXY ~101); FOMC Jul 28-29 is the shared swing factor. BTC soft, crypto not leading; targets have low BTC correlation. Korea/Semis: NAND supercycle real (contract +75% q/q, Gartner +234%/yr) but sector in a violent headline-driven correction; KOSPI fell hard late July as Samsung/SK Hynix sold off, foreign institutions rotating out of large-cap memory. EWY scan: RSI 76.7, ADX 83.3, 4h flat, fast TFs (15m/30m) rolled negative, structure_bias -0.103 (mildly crowded long). EWY-SNDK corr 0.75, both ~0.75-0.82 to QQQ. Tokenized-equity proxy: thin/gappy off-hours, overnight gap risk. Read MIXED, overbought + mid-correction, reduce size, don't chase.",
+    "sentiment": "Overall risk-off tape, global semiconductor selloff erased >$2T chip mcap in July, Strait of Hormuz crisis (crude >$80), hawkish Fed; FOMC Jul 28-29 (~83% hold, ~25% hike tail, no cut). EWY BEARISH lean: KOSPI fell ~23% in July 2026 (worst month on record), 7 circuit breakers, ~250T won erased, led by Samsung/SK Hynix; foreigners dumped ~$108.5B Korean stocks YTD (heaviest since 2008). Counter: IBK broker flags foreign selling may be peaking, possible late-July rebound (unconfirmed catch-a-falling-knife). Near-term news argues against longs; any bounce is a countertrend squeeze.",
+    "analyst": "EWY stretched/overbought (4h RSI 76.7, ADX 83.3, +4.26% over VWAP) mid-correction, fast TFs rolled negative, worst-in-group RS -12.6%, bearish KOSPI/semis flow -> lean is short. But price pulled back 176.67->174 and just bounced, leaving 173-175 chop with no clean entry. A market short here chases into a bounce - the account's #1 loser (49 shorts, 45% win, -1.21 avg). Prefer a fade of a bounce into 175.6-176 or a confirmed break of 172.9. Mid-range 174.11 R:R absent -> HOLD flat, arm short-biased trigger below 172.9.",
+    "portfolio": "HOLD EWY - bearish lean but no clean entry in 173-175 chop; wait for break of 172.9 or bounce-into-resistance short (conf 0.40, size 0)."
+  },
+  "timestamp": "2026-07-22T04:31:56.616018+00:00"
+}

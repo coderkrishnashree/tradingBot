@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "SNDK/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Blow-off spike to 1987.8 was rejected; price gave back to ~1945 and is chopping between 1937 support and the failed 1988 high. Expect continued back-and-fill 1937-1957 near-term; a clean reclaim of 1988 opens the squeeze leg, losing 1937 opens mean-reversion toward VWAP (~1772).",
+  "expectancy_note": "No edge either way: RSI 79 + vwap +9.75% forbids a market long (chase = account's #1 loss pattern), and shorting a crowded-short squeeze with +0.46 bid + closed underlying is a coin-flip. p(win) on any market entry <0.5; wait for the 1988 break.",
+  "rationale": "SNDK is parabolic and extended (RSI 79, +9.75% from VWAP, ATR 3.54%) and just got its blow-off spike to resistance 1987.8 instantly rejected, closing back at 1945 \u2014 a market long here is precisely the late-into-stretched-tape entry that has bled this account (trend playbook 44% win, -2.89 avg). The only bull argument is the crowded-short book squeeze prop, which is not a reason to buy 6% below a freshly-rejected high; and a short into that squeeze on a thin weekend tape with a closed underlying and gap risk is equally poor expectancy. Best expectancy is to wait for confirmation: a decisive reclaim of the 1988 high validates the squeeze-long, otherwise no trade.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 1988,
+    "expires_min": 240,
+    "note": "Reclaiming the 1987.8 rejection high proves the blow-off is resuming and the crowded-short squeeze is firing \u2014 that is the only clean long trigger."
+  },
+  "transcript": {
+    "macro": "Regime: mixed-to-risk-off, weekend thin-liquidity tape. AI/semi rout is the theme (chips -$1T), broad indices holding. Macro neutral-to-hawkish: 10Y ~4.56%, DXY ~100.9, Fed higher-for-longer. No FOMC/CPI/earnings in 48h; June CPI Jul 14 ~3d out. SNDK: last 1945.45, MIXED-to-HOSTILE memory-complex + parabolic, 0.81 corr to MU (same HBM selloff). Only name with positive structure_bias +0.222 (L/S 0.719 crowded SHORT, orderbook +0.46 bid) -> squeeze prop; but RSI 79, vwap +9.75%, violent 1927->1988 spike bar = parabolic/extended, rel strength -12.59% vs BTC.",
+    "sentiment": "SNDK bullish narrative but stretched, event-light near term. Strong Q3 (rev $5.95B +251% y/y), multi-year multi-billion Meta flash deal, 10th-gen 3D NAND start with Kioxia. Earnings Aug 5 / Investor Day Aug 13 \u2014 NO binary in 48h. Near-term RISK real: up ~3,700% in a year, 4h RSI 79, Jul 7 wobble on Samsung prelims + 'smart money cashing out' + peak-memory-pricing chatter. Crowded long is the hazard.",
+    "analyst": "Blow-off spike to 1987.8 was instantly rejected, giving back to 1945 \u2014 a market long into RSI 79 / +9.75% VWAP is the account's #1 loss pattern (trend playbook 44% win, -2.89 avg). The crowded-short squeeze prop (bias +0.222) is not a reason to buy 6% below a freshly-rejected high, and shorting a live squeeze on a thin closed-underlying weekend tape is a coin-flip. HOLD; the only clean long trigger is a decisive reclaim of the 1988 high, else losing 1937 opens mean-reversion.",
+    "portfolio": "SNDK \u2014 HOLD (conf 0.60): rejected parabolic blow-off; squeeze-long only on a reclaim of 1988."
+  },
+  "timestamp": "2026-07-11T10:32:02.761995+00:00"
+}

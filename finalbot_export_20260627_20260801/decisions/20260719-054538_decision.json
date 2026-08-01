@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "TSM/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Thin weekend chop 400.4-401.5; more likely to keep bleeding toward 400.4 / prior 401.8 cap than to break out. No clean directional move to express until a reclaim of 401.8 or a loss of 400.4.",
+  "expectancy_note": "No setup clears R:R 1.5. Long = chasing most-crowded-long laggard (L/S 2.61, rel-str -16.7%, 4h down) into thin weekend tape with no confirmation; short fights 15m RSI 19 + bullish divergence + orderbook bid (+0.45) and account shorts lose (0.47). HOLD is highest-expectancy.",
+  "rationale": "TSM is a tokenized equity, US cash closed, weekend gap risk into Mon 7/20. The only bull tell (4h bullish divergence, 15m RSI 19) has NO price confirmation - last bars still print lower closes (401.43 to 400.63), a slow bleed, and the earnings beat 7/16 couldn't lift the sector (bearish tell). Longs are the most crowded in the scan (L/S 2.61) and rel-strength is -16.7% into a 4h downtrend, so a fresh long is a chase; a short fights oversold + divergence + bid-side orderbook. No edge clears R:R 1.5, so size 0.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 401.8,
+    "expires_min": 240,
+    "note": "Reclaiming the 401.8 intraday cap converts the 4h bullish divergence into real momentum and validates an oversold-bounce long."
+  },
+  "transcript": {
+    "macro": "2026-07-19 Sunday, US markets closed. RISK-OFF/hostile weekend, thin/gappy perps, Monday 7/20 gap risk. BTC ~$64.7k near lows. Funding ~zero; L/S lopsidedly long broadly. TSM: uncorrelated to BTC (-0.03), bullish divergence, BUT L/S 2.61 (MOST crowded long in scan), rel-strength -16.7%, 15m RSI 19. TSM cash closed - crowded and laggy, HOSTILE for fresh longs.",
+    "sentiment": "Risk-off. Fresh chip/AI-capex selloff Fri Jul 17. TSM: catalyst PASSED - fade/aftermath name. TSMC BEAT Jul 16 (EPS $4.31, rev $40.2B, +36% YoY) yet stock/sector selling off anyway on the AI-capex scare (bearish tell). No further binary in 48h. Bullish 4h RSI divergence but near-term NEUTRAL-to-negative; don't fight the sector tape on a long without price confirmation.",
+    "analyst": "Only bull tell (4h divergence, 15m RSI 19) has no price confirmation - last bars bleed lower. Earnings beat couldn't lift the sector. Most-crowded long (L/S 2.61), rel-str -16.7%, 4h down = fresh long is a chase; short fights oversold+divergence+bid. HOLD; long trigger on reclaim of 401.8.",
+    "portfolio": "TSM: HOLD - laggard chase with no confirmation; long only above 401.8."
+  },
+  "timestamp": "2026-07-19T05:45:38.084486+00:00"
+}

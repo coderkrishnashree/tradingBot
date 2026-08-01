@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "NVDA/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Price is at the top of a vertical +2% thrust (stoch 97, RSI 81, bb %B 1.26); over the next 1-4 bars I expect a stall and pullback to retest the 206.6 breakout level / VWAP ~203.5 rather than a clean continuation from here.",
+  "expectancy_note": "Chasing a market long at 207.6 has R:R <1.5 to a realistic TP1 (213.96 res is 6.4 away but stop must sit under 205 = ~2.6 risk, and a bounce-stop is highly likely from stoch 97); waiting for the 206.6 retest converts a p~0.45 chase into a p~0.6 pullback long \u2014 better expectancy is to wait.",
+  "rationale": "NVDA broke 206.64 on 5x volume with ADX 77, but the last 15m bar is a 2.3x-ATR vertical close into RSI 81 / stoch 97 / %B 1.26 and +1.98% over VWAP \u2014 textbook late-and-stretched, the exact tape this account gets stopped chasing. Composite conviction is only 9.2 (mostly flat), long/short 1.665 is crowded long (structure bias -0.135), and there is no reversal signal to justify a fade into ADX 77 either. Best expectancy is to stand aside and re-engage long on a pullback that holds the 206.6 retest with a tight stop under 205.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 206.2,
+    "expires_min": 240,
+    "note": "A dip into the 206.6/VWAP retest zone offers a proper trend-continuation long entry with a sub-205 stop; crossing below 206.2 means the retest is underway \u2014 re-debate for a cleaner long. Losing 205 outright negates the breakout."
+  },
+  "transcript": {
+    "macro": "Cautiously risk-on, low-conviction; AI/semis leading today's bounce (chips green pre-earnings); no FOMC in 48h; bleeds into GOOGL/TSLA/INTC earnings-risk sentiment this week. NVDA: breakout long (level 206.6, vol_ratio 5.1, price 207.6) but RSI 81/stoch 97 extremely extended, ADX 77; no own earnings this week; composite conf only 9.2, mostly flat.",
+    "sentiment": "Crypto F&G 36. NVDA: no imminent binary; earnings ~Aug 26. Modest positive drift from China H200 license approvals (~10 firms) but shipments 'very limited' \u2014 incremental upside, not thesis-changer. Mild positive undertone, no \u226448h shock. Technical.",
+    "analyst": "Breakout on 5x volume, ADX 77, but the last bar is a 2.3x-ATR vertical close into RSI 81 / stoch 97 / %B 1.26, +2% over VWAP \u2014 a late chase; composite conviction only 9.2 and no reversal signal for a fade. HOLD; re-engage long on a pullback holding the 206.6 retest, stop under 205.",
+    "portfolio": "HOLD NVDA \u2014 too extended to chase; armed pullback-long on retest below 206.2."
+  },
+  "timestamp": "2026-07-20T13:44:36.912908+00:00"
+}

@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "TSM/USDT:USDT",
+  "confidence": 0.35,
+  "size": 0.0,
+  "entry": 422.16,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "forecast": "Price pinned at 422.16 support after a controlled low-volume grind from 432; RSI 15 / ADX 90 into a CLOSED cash market means the next few bars most likely see a relief squeeze toward VWAP ~433, OR a thin gappy break of 422 toward 415-418 - no confirmed edge either way yet.",
+  "expectancy_note": "Short p(win)~0.4: chasing RSI 15 on support into a bounce is the account's #1 loss pattern; long p(win)~0.4: knife-catch, no reversal signal, earnings binary 7/16 inside window. Both sub-1.5 R:R - flat is highest expectancy.",
+  "rationale": "TSM is the most stretched short reading in the scan (4h RSI 15.3, ADX 90) and price is sitting EXACTLY on support 422.16 with the cash market closed (thin, gappy). Shorting here chases a deeply oversold extreme into likely squeeze risk; going long is a knife-catch with no confirmation and a two-sided earnings binary Thu 7/16 falling inside the 48h window. No honest R:R on either side, so stand aside and wait for either a confirmed break of 422.16 (tactical tight short) or a VWAP reclaim (bounce long).",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 422.16,
+    "expires_min": 240,
+    "note": "A decisive break-and-hold under the 422.16 support proves momentum continuation and opens the 415-418 path, justifying a tactical tight short on the retest rather than chasing mid-air."
+  },
+  "transcript": {
+    "macro": "Broad regime RISK-OFF (US-Iran escalation, WTI +4%, tech/semis leading losers). Rates hawkish, Fed held 3.50-3.75%, ~62% odds of Sept HIKE; core CPI July 14 inside hold window. All four cash markets CLOSED (off-hours, thin/gappy - size down). TSM: SHORT bias but STRETCHED; smaller size. Semis are the epicenter of today's sell-off. 4h RSI 7.5-15, ADX ~90, L/S ~3.08 (very crowded long -> contrarian short support), structure_bias -0.31 to -0.52, orderbook -0.66. MAJOR EVENT: TSM earnings Thu July 16 INSIDE 2-day hold window - do NOT hold a short blind into it. Deeply oversold = high squeeze risk.",
+    "sentiment": "TSM BEARISH-catalyst RISK, biggest binary this week. HARD catalyst: Q2 2026 earnings Thursday July 16 pre-market TW. Guide $39-40.2B rev, FY26 rev growth 30%+, AI demand 'extremely robust'; stock ran +40% in Q2 so bar is high - beat may be priced in, in-line can sell off. Geopolitical: US granted TSMC only 1-yr Nanjing license; Taiwan mulling AI-chip export curbs to China. Two-sided event risk into 7/16 - treat as straddle, not directional.",
+    "analyst": "Most stretched short reading in the scan sitting exactly on support 422.16, cash market closed. Fresh short chases RSI 15 into likely squeeze; long is a knife-catch with no reversal signal and earnings binary 7/16 inside window. No clean edge either side - HOLD. Reconsider on a break-and-hold below 422.16 for a tactical tight short.",
+    "portfolio": "TSM: HOLD (conf 0.35) - stretched both ways, earnings 7/16 inside window; stand aside pending a 422.16 break."
+  },
+  "timestamp": "2026-07-13T19:33:21.046855+00:00"
+}

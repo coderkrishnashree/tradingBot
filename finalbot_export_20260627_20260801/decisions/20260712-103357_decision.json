@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "EWY/USDT:USDT",
+  "size": 0.0,
+  "entry": 183.4,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Thin Sunday drift: price oscillates 182.4-183.9 on near-zero volume into the Monday open; no clean directional path until US cash reopens and resolves the gap.",
+  "expectancy_note": "p(win) ~0.45 on any intraday long; nearest real structure (168.8/196.2) too far for an honest 1.5R stop, so the trade lives on stale synthetic price with Monday gap risk \u2014 HOLD is the higher-expectancy line.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 182.4,
+    "expires_min": 240,
+    "note": "Losing the 182.4 higher-low shelf invalidates the only intraday bullish structure and opens a retest toward VWAP/lower \u2014 re-debate direction if that breaks."
+  },
+  "rationale": "EWY is a tokenized equity ETF quoting off Friday's close on Sunday with US cash shut \u2014 candle volumes single-digit and the 'trend' (ADX 58) is noise on a stale price prone to a Monday-open gap. Composite only mildly long (54.9%), rel-strength -14% (weakest horse), and headline risk (Iran/Hormuz oil, AI-capex debate) cuts both ways over the weekend. Intraday tape built higher-lows off 182.5 toward 183.5, but no nearby structural level to anchor a stop, so R:R for a swing is unfavorable; wait for the reopen.",
+  "transcript": {
+    "macro": "Regime NEUTRAL. Risk-on tape but late-cycle/jittery after ~$1T semi selloff then Mag-7 rebound. Sunday \u2014 US cash closed; equity tokens thin/gappy off Friday closes, Monday-open gap risk. EWY whippiest macro story: KOSPI ~10% two-day drop then +5-8% Samsung/SK Hynix-led rebound; SK Hynix record Nasdaq ADR (7x oversubscribed) tailwind; Samsung record Q2 profit. Constructive but extremely high-beta to AI-capex debate. Scan mild long bias (4h long, RSI 40) but rel-strength -14.3%. Funding ~0; structure_bias -0.06; books thin.",
+    "sentiment": "EWY neutral, headline-driven/volatile. KOSPI down 5.35% Wed to 1-month low then modest chip-led bounce \u2014 jumpy, not trending. Bullish: SK Hynix ADR 7x oversubscribed, ADB raised Korea 2026 GDP to 2.6% from 1.9%. Bearish: Middle East/Hormuz risk-off & oil spike weigh on this oil-importing high-beta market. No single \u226448h Korea catalyst; tracks global risk appetite + Iran headline tape.",
+    "analyst": "Mild-long composite is real but low-conviction (54.9%); the edge-destroyer is a synthetic equity into a weekend gap with no volume and two-sided headline risk. rel-strength -14% = weak horse. No nearby level to anchor a stop. Hold; re-debate on loss of the 182.4 base.",
+    "portfolio": "HOLD EWY \u2014 low-conviction long on stale weekend tape; no honest stop, wait for Monday reopen."
+  },
+  "timestamp": "2026-07-12T10:33:57.453956+00:00"
+}

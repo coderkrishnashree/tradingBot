@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "XAG/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.55,
+  "playbook": "none",
+  "forecast": "Chop 56.76-57.10 near-term; the rejected 57.59 blow-off and 4:1 long crowding bias the next real move DOWN toward 56.0-55.5, but LTF is mid-range with no clean trigger yet. Expect a decision only on a break of 57.6 (reclaim = up) or 56.76 (loss = flush).",
+  "expectancy_note": "No edge from mid-range: long chases a rejected high into the most crowded 4:1 longs in the set (flush fuel); short has no confirmation and fights 1h/4h up + bullish divergence. R:R < 1.5 both ways; HOLD beats a coin-flip.",
+  "rationale": "XAG is a knife-catch post-crash tape sitting +1.14% above VWAP with RSI 68 after being rejected at 57.59 on a big-volume bar, then dumped to 56.82 - LTFs (5m/15m/30m) are all rolling over short while 1h/4h remain (stale) long. The 3.99 long/short ratio is the most lopsided in the entire scan set = highest squeeze/flush risk against the longs, but orderbook +0.26 and the flagged bullish divergence prevent a clean short. From mid-range (support 54.85, resistance 59.90 both far) neither direction offers 1.5R with an honest stop, so the highest-expectancy action is to wait for the level that resolves the LTF-vs-HTF conflict.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 56.76,
+    "expires_min": 240,
+    "note": "Losing the intraday low confirms the crowded-long flush is underway, opening a short toward 55.5; a reclaim of 57.6 would instead re-arm the long."
+  },
+  "transcript": {
+    "macro": "Cycle 2026-07-20 (scan 13:08 UTC). Regime RISK-OFF leaning; session is PRE-US-OPEN so tokenized-equity perps (EWY/HOOD/COIN/TSLA/NVDA/QQQ/CRCL/SNDK/GOOGL) are thin/gappy and re-rate ~13:30 UTC (gap risk). Equity tape soft, semiconductor-led sell-off on AI-capex worries (TSMC capex guide up); rates offer no tailwind (~60% odds higher by Oct); FOMC July 28-29 is OUTSIDE the 48h window. Crypto heavy: BTC ~$62-64k after failing low-$70k, record June ETF outflows (-$4.5B), dominance ~56-60% so alts bleed vs BTC (caps SOL, corr 0.81). Precious metals the one independent bid (silver ~$56.9 +1.5%). DOMINANT POSITIONING THEME = CROWDED LONGS: negative structure_bias almost everywhere, lopsided long/short ratios (XAG 3.99, SOL 2.70, CRCL 2.17), and the WHOLE basket lags BTC (all relative_strength negative, -1% to -48%). Argues for smaller size on high-beta longs and elevated long-squeeze risk. COIN is the least-crowded (L/S 0.80, net-short crowd); QQQ the only positive structure_bias (+0.15, orderbook bid, but likely pre-open thinness).",
+    "sentiment": "Hot earnings week. Soft June CPI (July 14, coolest since Apr 2020) broadly risk-supportive; FOMC July 28-29 is outside the 48h window. IMMINENT <=48h BINARIES: TSLA Q2 earnings Wed July 22 after close (~7-8% implied swing; Q2 deliveries ~480K record already spent, call is about margins/guidance) and GOOGL/Alphabet Wed July 22 4:30pm ET (consensus ~$2.86 EPS/$116.5B rev, focus AI capex $175B + Cloud) - both spill into QQQ. EWY = LIVE BEARISH MACRO SHOCK: Bank of Korea surprise +25bp hike to 2.75% (July 16, first in 3.5yrs) + KOSPI crash (-6.4% July 16, -4.5% today) on AI/chip rout (Samsung -4.7%, SK Hynix -4.5%). HOOD (Jul 29), COIN (Jul 30), SNDK (Aug 5), CRCL (~Aug 10) earnings all OUTSIDE this cycle. NVDA bullish headline flow (US resumed H20/H200 China licenses, ~$200B CPU/Vera TAM) but no 48h binary; reports late Aug. SOL constructive medium-term (5 spot ETFs live >$1.12B inflows, Firedancer v1.0 testnet) but crypto-beta with no dated catalyst. XAG structural supply deficit (6th straight annual), two-sided, macro-flow-dependent. CRCL got a Mizuho DOWNGRADE to Underperform, PT cut to $50 from $85 (July 17), competitive overhang from Visa/Stripe.",
+    "analyst": "XAG is a knife-catch post-crash tape sitting +1.14% above VWAP with RSI 68 after being rejected at 57.59 on a big-volume bar, then dumped to 56.82 - LTFs (5m/15m/30m) are all rolling over short while 1h/4h remain (stale) long. The 3.99 long/short ratio is the most lopsided in the entire scan set = highest squeeze/flush risk against the longs, but orderbook +0.26 and the flagged bullish divergence prevent a clean short. From mid-range (support 54.85, resistance 59.90 both far) neither direction offers 1.5R with an honest stop, so the highest-expectancy action is to wait for the level that resolves the LTF-vs-HTF conflict.",
+    "portfolio": "HOLD - most lopsided 4:1 longs vs bullish divergence/HTF up; mid-range conflict. Short trigger <56.76."
+  },
+  "timestamp": "2026-07-20T13:16:18.339702+00:00"
+}

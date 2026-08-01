@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "AAPL/USDT:USDT",
+  "size": 0.0,
+  "entry": 334.74,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price rejected 339.17 resistance and stair-stepped down ~4.5pts to base at 334.5-335 on drying volume; next few bars likely chop 333-336 then either fade toward VWAP ~325 (buy zone for the rel-strength leader) or reclaim 339.17 for continuation. No clean edge at 334.7 mid-range.",
+  "expectancy_note": "Long here = chasing RSI-95/ADX-97.7 blow-off at resistance (poor p_win); short here = fading into 5m RSI-31.7 oversold with VWAP/support just below (R:R < 1.5, the account's late-short death pattern). Waiting for a real level beats both.",
+  "rationale": "AAPL is the genuine relative-strength leader (+13.7% vs BTC, negatively correlated to the semi wreck, orderbook +0.609 bid) and the right long vehicle \u2014 but it is dangerously extended (4h RSI 95.4, +3% above VWAP, just rejected 339.17) so I will not chase the top, and 5m already rolled to RSI 31.7 so shorting now is fading into support with sub-1.5 R:R. Current 334.7 is mid-range no-man's-land with dried-up volume; expectancy is best flat. Size 0 \u2014 I arm a pullback-buy at VWAP and a breakout-buy above 339.17 instead of forcing a trade into a stretched, thin, gap-risk tape.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 326.0,
+    "expires_min": 240,
+    "note": "A cool-off to ~326 (near VWAP, ~2.5% off the RSI-95 top) resets the overbought condition and offers a buyable pullback in the sector's relative-strength leader; that is the high-expectancy long entry."
+  },
+  "transcript": {
+    "macro": "RISK-OFF, tech-led (Jul16: S&P -0.51%, Nasdaq -1.47%). Semi sector HOSTILE for longs (TSMC capex-shock selloff, SMH -3.7%). Rates mildly supportive (soft June CPI, July hike odds ~17%) but overwhelmed by sector story. AAPL positioning: structure_bias +0.213 (ONLY bullish of the four), orderbook +0.609 bid, L/S 0.90 balanced. KEY: AAPL is NOT a semi, negatively correlated to all three (MU -0.39, NVDA -0.18, TSM -0.12), rel-strength +13.7% vs BTC = genuine RS leader diverging from the semi wreck. BUT dangerously stretched: 4h RSI 95.4, ADX 97.7, price at resistance 339.17, 5m rolled over. Env MIXED: right long vehicle but blow-off/exhaustion risk \u2014 do not chase; favor pullback entries. Funding=0, thin tape, gap risk into US open.",
+    "sentiment": "AAPL is the odd one out \u2014 least chip-exposed, best sentiment. At/near all-time highs (~327-335, +20% YTD), Citi PT raised to $365, services strength. Earnings July 30 (after close) \u2014 OUTSIDE 48h window, no binary yet, but looming event caps upside conviction. Least correlated to memory/AI-capex fear so can hold up while chips bleed. News neutral-to-supportive for a long, but price dangerously extended \u2014 near-term risk is a mean-revert pullback, not a fundamental catalyst.",
+    "analyst": "15m tape: rally peaked 339.17 on high volume then failed, stair-stepped down ~4.5pts, now basing 334.5-335 on drying volume. Not the moment to short (5m RSI 31.7 already oversold, VWAP/support just below, sub-1.5 R:R, the account's late-short loser) nor to chase long (RSI 95, +3% above VWAP, at resistance). HOLD size 0 with armed triggers: buy a pullback to VWAP ~326, or a breakout above 339.17. Reconsider armed at price_below 326.",
+    "portfolio": "AAPL: HOLD (mid-range no-man's-land; arm pullback-buy ~326) \u00b7 conf 0.60 \u00b7 size 0"
+  },
+  "timestamp": "2026-07-17T04:06:26.865473+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "MU/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price just tagged 954.16 and closed 954.01 on the largest volume of the window with stoch pinned at 99.7 and 15m RSI ~82 - near-term exhausted. Most likely path: a 1-2 bar cooldown/pullback toward the 948-950 breakout retest / VWAP; only a clean hold there and a fresh push through 954-957 confirms real continuation, while loss of 946 voids the breakout.",
+  "expectancy_note": "p(win) ~0.45 on a chase: breakout playbook is 0/2 (avg -3.83R) on this account, composite only 28.9%/ADX 25.5, LTF stretched into FOMC + risk-off - R:R doesn't clear the event/gap risk; HOLD beats both a late long and a bid-supported short.",
+  "rationale": "Tokenized equity into FOMC (Jul 28-29) and a fragile semi complex (SK Hynix/Samsung down hard), macro risk-off, MU crowded-long (L/S 1.64) with LTF RSI ~82 and stoch 99.7 - chasing the 954 breakout close buys the top of the immediate move on a muddy 28.9% composite, precisely the profile the learner shows losing (breakout 0/2). The lone bull tell is orderbook +0.841, not enough to justify size into a binary. No short either: fresh breakout with strong resting bid and price at VWAP. Wait for a controlled retest that holds, or a clean breakdown.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 946.0,
+    "expires_min": 240,
+    "note": "Losing the 946-947 breakout base confirms the 952.71 breakout failed into risk-off/FOMC - flips bias to a fade/short toward VWAP-lower and the 837 support shelf."
+  },
+  "transcript": {
+    "macro": "REGIME: RISK-OFF/MIXED, defensive. FOMC Jul 28-29 inside window. MU crowded-long (L/S 2.2, negative orderbook), RSI stretched; longs chasing into AI-capex jitters. MU/TSM tied to semi complex (corr 0.67) - one thin, gappy underlying. Smaller size.",
+    "sentiment": "RISK-OFF/EVENT-GRIDLOCKED. AI/HBM demand intact (MU sold out HBM for 2026) but in tariff/AI-capex crosshairs; SK Hynix -8.3%, Samsung -7.6% signal sector fragility. Elevated downside gap risk into Fed + big-tech capex prints. Risk, not fresh long catalyst.",
+    "analyst": "Fresh 954 breakout close on max volume into stoch 99.7 / RSI ~82 on a muddy 28.9% composite - and the account's breakout playbook is 0/2 (avg -3.83R), the worst profile. Lone bull tell is orderbook +0.841, not enough into a binary FOMC. No short either (fresh breakout, bid support, price at VWAP). HOLD; fade arms on loss of the 946 breakout base.",
+    "portfolio": "HOLD MU - breakout chase (0/2 playbook) into Fed; wait for 946 loss to fade."
+  },
+  "timestamp": "2026-07-27T00:08:30.132579+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "TSLA/USDT:USDT",
+  "size": 0.0,
+  "entry": 304.3,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price is pinned on 303.71 support with 30m RSI 9 / stoch 4 (deep exhaustion) and down-momentum flattening on the last 3 bars (304.4/304.4/304.3); most likely a relief bounce toward VWAP ~311-312 over the next 2-6 bars, OR a decisive volume break of 303.71 that opens the next leg down. Either path is better traded at its level than by shorting the hole now.",
+  "expectancy_note": "Shorting here = account's proven loser (late short into RSI 9 stretched tape, stopped by the bounce, p_win_learned 0.413). No long fade either: hostile risk-off regime + clean downtrend + closed cash markets. Best EV is wait for the bounce to sell or the break to confirm.",
+  "rationale": "Clean multi-TF downtrend and weakest name on the board (RS -25%) argue short bias, but price is sitting ON 303.71 support with extreme oversold readings (RSI 9, stoch 4) and momentum drying bar-by-bar - a market short now gets run by a routine counter-bounce before any downside, exactly how this book bleeds. Funding deeply negative shows shorts already crowded/aggressive, adding squeeze risk into thin closed-cash tape and FOMC Wed. No honest R:R short exists from the hole and a counter-trend long against a risk-off regime is not worth it, so HOLD and arm the level.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 303.71,
+    "expires_min": 240,
+    "note": "Decisive loss of 303.71 support ends the exhaustion stall and confirms trend continuation - re-debate a continuation short on the breakdown/retest rather than fading into oversold."
+  },
+  "transcript": {
+    "macro": "Regime risk-off/hostile to longs into hawkish FOMC (Wed) + Big Tech earnings + BOJ gauntlet; scan 03:31 UTC = US cash CLOSED, thin/gappy, size down. TSLA: funding deeply neg (-0.00169, shorts paying), long/short 2.83 (very long-crowded, contrarian bearish), orderbook -0.65 (heavy offer wall), structure_bias -0.095. Clean downtrend every TF but exhausted: 30m RSI 9.1, 15m RSI 19.3, 4h RSI 32, stoch 4.0, right on support 303.71 (last 304.3); bounce risk high. Group's biggest laggard - rel-strength -25% vs BTC, weakest name; mildly BTC-correlated (0.36). Hawkish-Fed/chip-selloff/risk-off keeps high-beta growth heavy - macro backs the short, but deeply oversold on support with crowded short-funded book = high squeeze risk; sell bounces not the hole, small size into FOMC.",
+    "sentiment": "TSLA post-earnings drift, sentiment bearish, aligns short. Earnings Jul 22 were a downside shock: record rev ($28.2B +26% YoY), record 480K deliveries, but adj EPS ~$0.33 missed ~$0.49 by ~33%, operating income -57%, FCF negative. Stock fell ~14.5% Jul 23, kept bleeding (last ~$304, RS -25%, RSI ~19-32 deep oversold). No fresh binary next 48h - catalyst spent, post-earnings drift not event risk. Cybercab/robotaxi + $25B capex are multi-quarter. Risk to short: deeply oversold, could mean-revert bounce; funding negative (crowded shorts). Fundamental tone clearly negative, supports short lean with oversold-bounce caution.",
+    "analyst": "Relentless 15m downtrend (308->304.3) with the last bars wicking 303.71 support then stalling (304.4/304.4/304.3). Extreme exhaustion: 30m RSI 9.1, stoch 4.0, vwap_dist -2.6%. Shorting the hole at 303.71 is the book's #1 loss pattern (late short stopped by the bounce; p_win_learned 0.413); funding deeply negative shows shorts already crowded/squeezy into thin closed-cash tape and FOMC Wed. No honest R:R short from here, counter-trend long not worth it. HOLD; re-debate a continuation short on a decisive loss of 303.71.",
+    "portfolio": "HOLD TSLA (size 0, conf 0.60) - short bias but sitting on 303.71 support at deep exhaustion with squeeze risk; arm the continuation short on a decisive break of 303.71."
+  },
+  "timestamp": "2026-07-28T03:37:36.123544+00:00"
+}

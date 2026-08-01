@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "TSM/USDT:USDT",
+  "size": 0.0,
+  "entry": 444.04,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.32,
+  "playbook": "none",
+  "forecast": "Low-volume pre-market drift; likely chops 441-445 into the 09:30 cash open, then resolves on the gap. No clean next-move edge until real volume arrives.",
+  "expectancy_note": "p(win) ~0.45 on any market entry; thin pre-market bounce into stoch 78.7 / 1h RSI ~70 with red-futures gap risk = negative expectancy. HOLD beats chasing.",
+  "rationale": "TSM is an equity token trading thin pre-market (~07:54 ET) into a RISK-OFF tape with red Nasdaq futures and 09:30 gap risk. The push to 444 is a low-volume bounce (single-digit bar volume) with short-TF momentum already stretched (stoch 78.7, 1h RSI ~70) and L/S 1.59 crowded long against a weak +0.205 composite. No clean level to fade and price is ~35 below resistance 478.94, so no confirmed breakout \u2014 a market long here chases into the exact gap/liquidity trap that produces the account's worst losers. Wait for the cash-open print and real volume.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 439.4,
+    "expires_min": 180,
+    "note": "Losing the bounce base at 439.4 breaks the pre-market recovery and opens a short toward support 425.72; re-debate on the break."
+  },
+  "transcript": {
+    "macro": "RISK-OFF regime, hostile to fresh longs. Equity tokens pre-market/thin (~07:54 ET), gap risk at 09:30. TSM mild long, mixed: composite +0.205, 4h uptrend, orderbook +0.211 buyers, but L/S 1.59 crowded pulls structure_bias to -0.11. Low btc_corr 0.16 = pure semis/AI-sentiment name (AI is the one bid in the tape). Broad risk-off + red Nasdaq futures cap it. Modest size.",
+    "sentiment": "TSM watch item \u2014 Q2 earnings July 16 (~1 week out, just outside 48h window but the nearest real binary). Expect pre-earnings drift/positioning, rising AI-demand attention (Citi flagged catalyst watch). Neutral now; flag Jul 16 print if holding into next cycle.",
+    "analyst": "The push to 444 is a low-volume pre-market bounce (single-digit bar volume) into stretched short-TF momentum (stoch 78.7, 1h RSI ~70) with L/S 1.59 crowded long against a weak +0.205 composite (conf 23.6%). No clean level to fade, ~35 below resistance 478.94 so no confirmed breakout. A market long chases straight into 09:30 gap/liquidity risk. HOLD until the cash open and real volume; short trigger on loss of the 439.4 bounce base.",
+    "portfolio": "TSM: HOLD (conf 0.32) \u2014 thin pre-market bounce into stretched momentum; no edge until the cash open, watch Jul 16 earnings."
+  },
+  "timestamp": "2026-07-09T12:01:22.266864+00:00"
+}

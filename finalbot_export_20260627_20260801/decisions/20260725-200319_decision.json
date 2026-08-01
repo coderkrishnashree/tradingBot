@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "CL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.58,
+  "playbook": "none",
+  "forecast": "Oversold flush is exhausting: after tagging 86.43 the tape reclaimed to 87.78 on the highest-volume bar of the window and is now coiling 86.9-87.4. Expect a mean-reversion bounce toward VWAP/89-90 over the next 4-12 bars before the down-trend can resume; a straight short here gets run over by that bounce.",
+  "expectancy_note": "Short p(win) only ~0.45 here (account shorts 47% / avg -0.78; late shorts into 1h RSI 22.9, -2.87% VWAP are the #1 loss pattern); no long trigger yet. Best EV is to wait and short the retest, not chase.",
+  "rationale": "All TFs are deeply oversold (1h RSI 22.9, 30m 28.8, %B 0.175, stoch 16.5) and price is 2.87% below VWAP after a violent high-volume reclaim off 86.43 \u2014 a market short would be chasing into a bounce and getting stopped, exactly the account's proven losing pattern (structure_bias weight -0.32 says fading crowded shorts wins). Crowded-short L/S 0.568 adds squeeze fuel up, and FOMC Wed plus two-way Iran/Hormuz headline risk make set-and-forget shorts dangerous. HOLD for a bounce-and-fail: a rally back to VWAP (~89.5-90) that stalls restores an honest R:R short with a stop above 90.8 and target back toward 84-85; if instead price loses 86.4 with momentum I re-debate the trend-continuation short.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 89.5,
+    "expires_min": 360,
+    "note": "A bounce to VWAP/89.5 that fails is the honest short entry; reclaiming it also tests whether the oversold squeeze is running, so either way it flips the read from wait to act."
+  },
+  "transcript": {
+    "macro": "RISK-OFF/defensive; hawkish Fed hold, firm USD ~101 = mild oil-demand headwind; FOMC Wed July 29 inside window. CL last 87.06, scan SHORT decent (composite 38.7%, p_win_learned 0.59, aligned); momentum rolling over (1h RSI 22.9, 30m 28.8, 4h 34, -2.87% VWAP) but STRETCHED down (bounce risk). Positioning wrinkle: L/S 0.568 CROWDED SHORT (squeeze risk), structure_bias +0.114 supports longs on crowded-short read. WTI ran +10-12% wk on Middle East/Hormuz premium vs OPEC+ +548kbpd Aug + soft demand (JPM Brent $80 Q4); decoupled from crypto (btc_corr -0.18, RS +26%).",
+    "sentiment": "THE live-wire name \u2014 active geopolitical driver, high two-way headline risk. WTI settled ~$89.31 on 7/24 (-3%) but still +12% wk on Iran/Hormuz conflict (US ~13th day of strikes, tanker attacks, Red Sea threats). The 7/24 drop was headline-driven: Pakistan (backed by China) pushing to restart US-Iran talks = de-escalation hope, can reverse on one wire. Escalation = violent gap UP; concrete talks = further flush DOWN. OPEC+ +548k bbl/d Aug bearish. Short aligns with current fade but is a headline-hostage trade \u2014 size for gap risk, not set-and-forget.",
+    "analyst": "15m score now flat/neutral (RSI 45.1) \u2014 intraday down-momentum already exhausted into the oversold flush; the immediate short is spent. After tagging 86.43 the tape reclaimed to 87.78 on the highest-volume bar and is coiling 86.9-87.4. A market short chases into a mean-reversion bounce and gets stopped (the account's losing pattern; structure_bias -0.32 favors fading crowded shorts). HOLD and arm a short on a failed bounce back to VWAP ~89.5-90 with stop above 90.8, target 84-85.",
+    "portfolio": "HOLD CL \u2014 oversold flush spent; don't chase the short, arm it on a failed bounce to ~89.5."
+  },
+  "timestamp": "2026-07-25T20:03:19.127838+00:00"
+}

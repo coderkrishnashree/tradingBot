@@ -1,0 +1,28 @@
+{
+  "symbol": "META/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.55,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "none",
+  "forecast": "Bases 636-637 just above support 626.46; next bars likely chop / small oversold bounce toward VWAP (~657) rather than a clean fresh breakdown. Thin weekend tape = gappy.",
+  "expectancy_note": "Fresh short is a chase: RSI 23.4, VWAP -3.2%, stoch 16.5, only ~1xATR (10pts) to support 626 - a routine counter-bounce hits any honest stop first.",
+  "rationale": "META deeply oversold (4h RSI 23.4, %B 0.144, -3.2% below VWAP) after a sharp drop, now flatlining on tiny volume just above support 626.46 - the late-short-into-stretched-tape pattern. It is also the relative outperformer (+8.2%), the weakest short of the group, and US cash is closed. No room for a proper R:R short and no long confirmation in risk-off, so HOLD.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 626.46,
+    "expires_min": 240,
+    "note": "Losing 626.46 on volume breaks the base and reopens a clean trend-continuation short with room."
+  },
+  "transcript": {
+    "macro": "RISK-OFF regime, favor shorts/selectivity. Nasdaq -1.4% to 25,520 (weekly -2.9%) on a semiconductor rout (China Moonshot AI shock) + re-escalating US-Iran conflict. Rates dovish (soft June CPI, July hike odds ~17%) but overwhelmed by geopolitics/AI shock. Tokenized equities (QQQ/TSM/META/MSFT/ORCL/SNDK) track a CLOSED US cash market over the weekend -> thin, gappy, low-volume tape, Monday gap risk; size down and treat oversold RSI as unreliable. SOL: crypto Extreme Fear (F&G 25), BTC dominance rising, crowded long L/S 2.78, BTC-beta 0.79. CL: the only long-friendly name, WTI +4.5% (Brent +12%) on US-Iran/Hormuz supply shock, but extremely overbought (RSI 76.6, stoch 93, %B >1.0) pinned at resistance 82.99. Bottom line: shorts on the semis/equity complex (reduced size) and cautious momentum-long on CL only; stay selective on SOL.",
+    "sentiment": "Only two names have a real <=48h news driver: CL (BULLISH - geopolitical oil spike, overbought) and ORCL (BEARISH - S&P cut to BBB-, ~$42B FY27 FCF deficit, 13%/~21k layoffs, OpenAI ~half of backlog). TSM Q2 beat July 16 (binary past); MSFT earnings ~July 13 (past); META July 29 & SNDK Aug 5 (outside window). SOL/MSTR trade on crypto Extreme Fear as BTC-beta with no 48h binary. Net: risk-off momentum across the equity names; semi/AI-capex selloff + oil geopolitics are the two macro threads.",
+    "analyst": "META deeply oversold (4h RSI 23.4, %B 0.144, -3.2% below VWAP) after a sharp drop, now flatlining on tiny volume just above support 626.46 - the late-short-into-stretched-tape pattern. It is also the relative outperformer (+8.2%), the weakest short of the group, and US cash is closed. No room for a proper R:R short and no long confirmation in risk-off, so HOLD. | Forecast: Bases 636-637 just above support 626.46; next bars likely chop / small oversold bounce toward VWAP (~657) rather than a clean fresh breakdown. Thin weekend tape = gappy. | Expectancy: Fresh short is a chase: RSI 23.4, VWAP -3.2%, stoch 16.5, only ~1xATR (10pts) to support 626 - a routine counter-bounce hits any honest stop first.",
+    "portfolio": "HOLD META - relative outperformer, oversold on support; weakest short of the set, no room."
+  },
+  "timestamp": "2026-07-18T11:07:56.693845+00:00"
+}

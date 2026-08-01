@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "HOOD/USDT:USDT",
+  "confidence": 0.55,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "trend",
+  "forecast": "After the 114.84 volume-climax bar the last two candles stalled in a tight 114.70-114.89 range; expect a pullback to retest the 113.3-113.6 breakout shelf over the next 2-5 bars, from which the 4h uptrend/leadership should resume \u2014 that dip, not spot, is the long.",
+  "expectancy_note": "p(win)~0.5 buying spot into 5m RSI 82 / 1h RSI 77 with a crowded-long book (L/S 1.54) and US cash closed = chasing; honest stop below 112.4 is >2pts while near-term stall caps upside, so R:R<1.5. Waiting for the 113.4 retest flips R:R positive.",
+  "rationale": "HOOD is the best-supported long in the group (4h score 0.845, rel strength +6.6% vs BTC, bid-heavy book) but price just ran ~2pts into a volume-climax stall with lower-TF RSI stretched (5m 82, 1h 77) and the market closed/gappy. Buying here is a chase with sub-1.5 R:R and the exact crowded-long unwind risk the macro flags; learner stats show longs and the trend playbook currently bleeding, so no edge to force it. I want the pullback into 113.3-113.6 to go long with a tight structural stop, or a clean reclaim of 114.9 highs to confirm continuation.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 113.6,
+    "expires_min": 240,
+    "note": "A dip into the 113.3-113.6 breakout shelf/VWAP retest is the high-R:R long entry where a stop under 112.4 fits and the 4h uptrend resumes; that's the level I'll buy."
+  },
+  "transcript": {
+    "macro": "Regime MIXED, leaning risk-off (2026-07-09). Jul 8 close: S&P -0.3%, Dow -577pts, Nasdaq-100 barely green. Hawkish Fed (June FOMC minutes floated a possible 2026 HIKE), CPI 4.2% y/y hot, yields rising. Oil shock: Brent +5.4% ~$78. Vol bid. BTC ~$62.8k soft, funding ~0 (no directional edge). US cash market CLOSED at snapshot (~02:53 ET) \u2192 perps thin/gap-prone; intraday RSI spikes are low-liquidity artifacts. Crowded-long L/S ratios \u2192 longs on dips not breakouts. Overnight headline gap risk biggest threat. HOOD: best-supported long, rel strength +6.6% vs BTC, 4h 0.845, but L/S 1.54 crowded-long and RSI stretched lower TFs \u2014 favor pullbacks.",
+    "sentiment": "HOOD: earnings July 29 (outside window); last print fell 13.2% after Q1 Apr 28 \u2014 capable of violent moves but 3wk out. No <=48h catalyst. 'Moderate Buy' (17/25 Strong Buy). Strongest technical in basket, highest crypto corr 0.63 \u2192 tracks BTC/COIN risk appetite. Verdict: NEUTRAL-to-slightly-constructive near term; trades on price/risk-sentiment, not news.",
+    "analyst": "4h score strong 0.845, RSI 43.8 with room; genuine leader (rel strength +6.61%). Lower TFs stretched (5m RSI 82, 1h 77) \u2014 chase risk high. ADX 59.7, OB imbalance +0.32 (bid-heavy). 15m candles: staircase higher off 112.43 to a 114.84 volume-climax bar then a tight 114.70-114.89 stall \u2014 post-thrust consolidation just under highs. Buying spot chases into short-term overbought with crowded-long book (L/S 1.54); honest stop below 112.4 is >2pts, R:R<1.5. HOLD for the 113.3-113.6 pullback (armed trigger).",
+    "portfolio": "HOLD HOOD \u2014 best long thesis in the set but at a bad price; arm a dip-buy at 113.3-113.6."
+  },
+  "timestamp": "2026-07-09T06:59:08.301175+00:00"
+}

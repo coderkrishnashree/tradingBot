@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "SOL/USDT:USDT",
+  "size": 0.0,
+  "entry": 76.23,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price is coiling 75.95-76.29 on drying volume just above 74.04 support after an impulsive drop; LTF RSI ~31 is oversold, so I expect either a dead-cat bounce toward VWAP/76.9-77.2 (the ideal short retest) or a fresh flush through 75.55 to test 74.04 over the next 2-6 bars.",
+  "expectancy_note": "Structure/regime favor short (L/S 2.63 crowded longs, all TFs down, ADX 40), but shorting now into oversold LTF RSI 31 mid-Bollinger is the account's #1 loss pattern (late short, bounce stops it); waiting for the retest gives ~0.6 p(win) at 2R vs a chase's negative expectancy.",
+  "rationale": "The impulsive down-leg (488k/355k volume bars) is already spent and price is now in a low-volume pause below VWAP, not at resistance and not extended enough to short cleanly. A market short risks a routine counter-bounce to VWAP hitting any honest stop before continuation. The high-expectancy trade is to short the retest into 76.9-77.2, so I hold and arm that trigger; size 0 until price gives a proper entry.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 76.95,
+    "expires_min": 240,
+    "note": "A bounce back above VWAP (~76.9) into the downtrend is the low-risk short retest entry, selling strength with a stop above 77.6 targeting 74.5 rather than chasing the flush."
+  },
+  "transcript": {
+    "macro": "Crypto = fragile CPI-driven oversold bounce inside a downtrend; BTC ~$65k but short-TF scores deeply negative, June record BTC-ETF outflows, BTC dominance 56.3% (alt beta not rewarded). SOL: funding negligible, OI 6.21M, L/S ratio 2.63 heavily long-skewed (crowded longs = squeeze fuel down), structure_bias -0.29, BTC corr 0.75, all lower TFs short (RSI 31-35). Verdict: environment supports SHORT / hostile to longs.",
+    "sentiment": "SOL neutral-to-bearish near-term. No <=48h binary. US spot SOL ETFs logging inflows every July session yet price still bleeding ('flows without price' divergence); social sentiment most negative of 2026 at lowest volume. Network health fine (no outage risk). Broad crypto in Fear (~26). Does not fight the scan short bias.",
+    "analyst": "Impulsive down-leg (488k/355k vol bars) already spent; price coiling 75.95-76.29 on drying volume just above 74.04 support, below VWAP, LTF RSI ~31 oversold. Trend/structure/macro favor short but ENTRY is wrong now \u2014 shorting into oversold mid-Bollinger consolidation is the account's #1 loss pattern. Higher-expectancy trade is to short the retest into VWAP 76.9-77.2. Hold, size 0, arm price_above 76.95 trigger.",
+    "portfolio": "SOL/USDT:USDT \u2014 HOLD (conf 0.60): short bias intact but no clean entry; wait for VWAP retest ~76.95 to short."
+  },
+  "timestamp": "2026-07-16T10:34:11.987852+00:00"
+}

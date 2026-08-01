@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "TSLA/USDT:USDT",
+  "size": 0.0,
+  "entry": 409.15,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.62,
+  "playbook": "none",
+  "forecast": "Price stays pinned in the 407.9-409.6 coil into the weekend; most likely it drifts sideways, then either tags resistance ~420 (fade setup) or slips back toward VWAP/415 area. No clean directional edge from 409 mid-range right now.",
+  "expectancy_note": "No entry clears R:R at 409 mid-coil: too far from 420 to fade, not pulled into VWAP to buy the trend, and weekend+CPI gap risk taxes any hold. p(win) on a market entry here <0.5 \u2014 HOLD is the highest-expectancy line.",
+  "rationale": "4h RSI 76 / ADX 48 is a strong but LATE trend, and the 15m tape has gone flat for ~5h (407.96-409.56) \u2014 momentum has stalled under 420 rather than accelerating. Structure_bias -0.247 (L/S 1.65 crowded long + orderbook -0.173) argues against chasing a long, but price sits mid-coil at 409, not at a fade extreme, so there is no honest short entry either. With CPI Tue and US cash closed through Monday (gap risk), the disciplined move is to wait for price to reach a real level rather than pay up in the middle. Size 0.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 415.5,
+    "expires_min": 240,
+    "note": "A push back up toward 415.5-420 puts price at the resistance extreme where a crowded-long + orderbook-sell fade becomes actionable (or, if it clears 420.22 on volume, confirms a genuine breakout to trade long instead)."
+  },
+  "transcript": {
+    "macro": "Regime MIXED, leaning cautious for fresh longs. Sat Jul 11 2026 \u2014 US cash equity markets CLOSED through Monday open, so these tokenized-equity perps trade in a vacuum: thin books, gappy fills, Monday-open re-pricing gap risk. Funding 0.0/stale across all three \u2192 no funding crowding signal; positioning read off long/short ratio + orderbook only. Equity backdrop constructive (semis/AI bid; S&P 7575 / Nasdaq 26282 Fri close) but overbought. TSLA: last 409.15, L/S 1.65 (crowded long) + orderbook -0.173 \u2192 structure_bias -0.247 (most contrarian-bearish of the three despite a 'long' composite). Overbought 4h RSI 76 / ADX 48, ~1.8% above VWAP near resistance 420. Earnings 7/22 (outside 48h). Trim size, prefer fading strength over chasing.",
+    "sentiment": "Overall risk-off tilt into a binary: June CPI Tue Jul 14 8:30am ET (~24-36h out); hawkish Fed Jun 17, hot May CPI 4.2%; VXN ~18, QQQ put/call 1.15 \u2014 hot CPI puts a Jul 29 FOMC hike back in play, hits long-duration tech hardest. TSLA neutral-to-bullish but binary risk ahead: no stock-specific \u226448h catalyst; Q2 earnings after close Wed Jul 22 (outside window). Supportive fundamentals \u2014 Q2 deliveries Jul 2 blew out 480,126 vs ~397k exp (+25% YoY), robotaxi/Optimus momentum, ~$409. Only fresh negative is long-horizon (Citizens initiated Market Perform Jul 10, cut 2027/28 rev est 4%/12% below consensus). Net near-term neutral to a long; CPI is the real risk.",
+    "analyst": "4h RSI 76 / ADX 48 = strong but LATE trend; 15m tape flat for ~5h (407.96-409.56), momentum stalled under 420. Structure_bias -0.247 argues against chasing a long, but price is mid-coil at 409, not at a fade extreme, so no honest short entry either. No entry clears R:R: too far from 420 to fade, not pulled into VWAP to buy the trend, weekend + CPI gap risk taxes any hold. HOLD is highest-expectancy. Armed reconsider: price back above 415.5 toward 420 = actionable fade (or clean breakout of 420.22 = trade long).",
+    "portfolio": "TSLA \u2014 HOLD, size 0, confidence 0.62. Wait for 415.5-420 rejection to fade or a confirmed 420.22 breakout."
+  },
+  "timestamp": "2026-07-11T18:31:54.800345+00:00"
+}

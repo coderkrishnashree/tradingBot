@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "QQQ/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.55,
+  "playbook": "none",
+  "forecast": "Price is coiling mid-range 715-718 after a bounce off 714.87 that already faded from 717.9; expect chop between 714 and 718 until it either flushes to support 705-706 or breaks the 714.87 low. Bullish divergence + oversold Stoch fight the -0.9% AI-rotation gap, leaving no clean edge from mid-range.",
+  "expectancy_note": "Both directions <1.5 R:R from mid-range (support 705.8 / resistance 737.9 both far, price near VWAP so no fade edge); HOLD has higher expectancy than a low-conviction entry into a gappy tech-rotation session.",
+  "rationale": "QQQ sits mid-range at 716.94 with tight BB (1.52%), near VWAP (-0.55%), so it is neither extended for a mean-reversion fade nor at a level for a trend/breakout entry. The bullish 4h divergence and oversold Stoch conflict with the July 7 AI-rotation headwind (Nasdaq-100 futures -0.9%), leaving the tape balanced. No entry justifies risk here; wait for a level to be tested. Size 0.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 714.87,
+    "expires_min": 240,
+    "note": "Losing today's 15m swing low confirms the AI-rotation sellers regained control, opening a short toward 705.83 support with the macro tailwind."
+  },
+  "transcript": {
+    "macro": "Regime: NEUTRAL, leaning cautious. July 7 rotation OUT of AI/chip names (Nasdaq-100 -0.9%) - key headwind. No FOMC/CPI inside 48h. QQQ $716.94: structure_bias -0.12, long/short 1.13 (balanced), orderbook -0.28. Mid-range, RSI 38, bullish divergence noted, ADX 31 - cleanest read on broad tape; weak/soft but not trending hard.",
+    "sentiment": "QQQ neutral, slight bearish tilt. Broke below 50-DMA July 2; up ~11% over 30 days, now consolidating. July 7: AI-rotation out of tech, Nasdaq-100 futures -0.9% premarket, plus Microsoft 4,800 job cuts and SpaceX joining Nasdaq-100 today. Near-term risk is a tech-led pullback pressuring all four correlated names.",
+    "analyst": "Mid-range with tight BB coil, near VWAP - neither extended for a fade nor at a level for a breakout. Bullish divergence + oversold Stoch conflict with the -0.9% rotation headwind, leaving no edge. HOLD; reconsider armed below the 714.87 swing low for a short toward 705.83.",
+    "portfolio": "QQQ: HOLD (0.55) - balanced mid-range coil into a gappy rotation session; wait for a break of 714.87 or a flush to support."
+  },
+  "timestamp": "2026-07-07T12:38:53.619531+00:00"
+}

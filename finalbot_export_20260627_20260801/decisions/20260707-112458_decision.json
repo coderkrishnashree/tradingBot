@@ -1,0 +1,26 @@
+{
+  "symbol": "TSLA/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.58,
+  "size": 0.0,
+  "entry": 418.01,
+  "stop_loss": 407.5,
+  "take_profit": 428.0,
+  "playbook": "none",
+  "forecast": "Extended into the print; expect a stall/minor fade from ~418 back toward the 411-413 shelf over the next 2-4 bars. A pullback that holds 411-412 is the buy; a bounce there targets 425-428. Losing 408 opens a deeper flush toward 402-400.",
+  "expectancy_note": "p(win) on a chase here ~0.45 with R:R <1; waiting for a 411-413 reclaim lifts p(win) to ~0.6 with cleaner R:R. HOLD beats both a late long and a triggerless counter-trend short.",
+  "rationale": "TSLA is a strong multi-TF long (ADX 46.9, +8.1% rel-strength leader, low BTC corr) but massively extended: +2.18% above VWAP, RSI 71.4, stoch 92.4, %B 0.93, into a crowded-long structure (L/S 1.524, bias -0.176). No pullback to buy and no reversal trigger to short. Learner shows longs/trend as the weakest bucket (50% win, -2.72 avg pnl). Size 0 - wait for a dip that holds support in a fragile AI tape.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 412.0,
+    "expires_min": 240,
+    "note": "A dip into 411-413 that holds (higher-low on the 15m shelf) is the low-risk long entry with room to 425-428; re-debate the moment price tags this zone."
+  },
+  "transcript": {
+    "macro": "Cautiously risk-on, headline-driven AI tape. Record highs Mon 7/6 (Nasdaq 26,121 +1.12%). VIX ~15.95 low but gap risk elevated post late-June AI-chip washout. Event-light next 48h, event-heavy beyond (TSLA earnings 7/22, banks 7/14, FOMC late July). TSLA is the leader today (+8.1% rel-strength) but crowded long (L/S 1.524, structure_bias -0.176) and overbought (stoch 92) \u2014 chasing is late; favor long only on a pullback that holds support. Low BTC corr (0.33) \u2014 trades on its own equity story.",
+    "sentiment": "TSLA MIXED/two-sided. Q2 deliveries 480,126 (+25% YoY, best-ever Q2, crushed ~406K consensus) on 7/2 but stock DROPPED ~7.5% that day on profit-taking/BYD/~200x P/E, then bounced ~6.6% July 6. Q2 earnings after close Wed July 22 (~2wks out, not same-week). Narrative shifted cars->AI/autonomy, so delivery beats no longer reliably lift the stock. Expect momentum/volatility rather than a clean trend into the quiet pre-earnings window.",
+    "analyst": "TSLA is the day's leader and technically a clean multi-timeframe long, but it's arriving fully extended - price grinding up into the close at 418, RSI 71, stoch pinned at 92, +2.18% above VWAP with %B 0.93. Buying strength here is a chase with sub-1 R:R into resistance at 437, and the structure is crowded-long (L/S 1.524, negative bias) so a shakeout is likely before continuation. A short is pure knife-catching against ADX 47 with no reversal signal, and learner data flags long/trend setups as the losing bucket. I'd rather sit flat and buy a pullback that holds the 411-413 shelf, with 408 as the line that invalidates the intraday long.",
+    "portfolio": "HOLD TSLA - strong but overextended/crowded long; no clean entry, arm to buy a 411-413 pullback that holds."
+  },
+  "timestamp": "2026-07-07T11:24:58.014569+00:00"
+}

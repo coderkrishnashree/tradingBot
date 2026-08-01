@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "META/USDT:USDT",
+  "size": 0.0,
+  "entry": 663.4,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Thin after-hours: price likely chops 662-665 with dip-buyers (orderbook +0.08) defending 659, possibly a mean-revert bounce toward 668-670 given 30m RSI 13.6 oversold; the real directional move waits for tomorrow's US open. A clean break/close below 659 opens 655; a bounce to 668-670 offers a far better short entry.",
+  "expectancy_note": "Trend is down but 30m RSI 13.6 / 5m RSI 29.9 = deeply oversold into thin illiquid tape; a market short here (the account's #1 loss pattern: chasing an extended move) risks a counter-bounce stop before the next leg. No rally to sell (price at VWAP), R:R to 659 sub-1.5 vs an honest stop above 669. Waiting for a retest-short or a break trigger beats a chase.",
+  "rationale": "The 15m short is directionally correct (ADX 29.6, aligned, structure_bias -0.025, retail net-long into a falling tape) but the immediate entry is bad: LTF is washed-out oversold, price sits right at VWAP (no extension to short), the last bars coil on near-zero after-hours volume, and orderbook is bid so a dip-buy bounce is the higher-odds next move. Best expectancy is to arm a trigger and short either a bounce toward 668-670 or a decisive break of the 659 flush low, when R:R and momentum align. Holding costs nothing over the illiquid off-hours; the real repricing is tomorrow's US open.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 659.0,
+    "expires_min": 240,
+    "note": "Losing 659 (today's high-volume flush low) confirms the downtrend resuming with momentum rather than an oversold bounce \u2014 that break is the clean short trigger toward 655."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF/defensive; Nasdaq -1.3%, 2nd day of semi selling, AI-trade jitters + US-Iran escalation. Favors tech shorts, argues against fresh longs. US cash closed ~90m ago -> META after-hours (thin/gappy). Funding ~flat (no crowding). L/S net-long 1.16 (mildly supportive of shorts). Orderbook +0.08 bid (dip-buy risk). META: last 663.4, BTC corr 0.39, RS +13% (strongest of three), NEGATIVELY correlated to semis -> not in chip-selloff epicenter. No event <48h (earnings Jul 29). Cleanest name but strong RS = weaker short than chip names.",
+    "sentiment": "META neutral-to-slightly-bearish near term. No earnings in 48h (Q2 Jul 29). EU antitrust overhang (forced to reopen WhatsApp API to third-party AI; probe, fines up to 10% turnover) - slow-burn, not a same-day shock. Low/negative correlation to chips -> shouldn't get dragged by semi rout. Clean multi-TF short setup but purely technical; size for pre-earnings drift, not a trigger. US cash closed -> thin off-hours flow.",
+    "analyst": "Directionally-correct 15m short but bad entry: LTF deeply oversold (30m RSI 13.6, 5m 29.9), price AT VWAP (no extension to short), last bars coil on near-zero after-hours volume, orderbook bid = dip-buy bounce is higher-odds next move. R:R to 659 sub-1.5 vs honest stop above 669. Best expectancy = wait: short a bounce to 668-670 or a decisive break of the 659 flush low. Holding costs nothing off-hours; real repricing at tomorrow's US open.",
+    "portfolio": "HOLD META/USDT:USDT \u2014 trend down but oversold-into-thin-tape; arm short trigger below 659, no position now."
+  },
+  "timestamp": "2026-07-16T21:35:07.168876+00:00"
+}

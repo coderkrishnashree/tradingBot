@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "GOOGL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.4,
+  "playbook": "none",
+  "forecast": "Post session-open pop is fading: expect 327-329 chop then a drift back toward VWAP ~322-323 over the next few bars; a decisive reclaim of 329.5 would reopen upside toward 332-334.",
+  "expectancy_note": "No positive-expectancy entry: long here is late (1h RSI 79.6, %B 1.24, stoch 89, L/S 2.85 crowded) = the account's classic chase-and-stop loss; mean-reversion short unclean into a fresh up-repricing with FOMC/gap risk. Wait.",
+  "rationale": "GOOGL rode a single session-open 15m repricing (325->329.5 on huge volume) and is already fading on tiny volume; entering long at 327.97 into extended/crowded conditions with catalyst spent and thin off-session tape has poor R:R (a routine counter-bounce/fade would stop any honest long). No confirmed reversal for a short either. Best expectancy is to stand aside and let it either pull back to VWAP for a cleaner long or reclaim the pop-high with volume. Size 0.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 322.5,
+    "expires_min": 300,
+    "note": "A pullback to VWAP (~322.5) unwinds the extension and offers a with-trend long entry near structure rather than chasing the extended pop."
+  },
+  "transcript": {
+    "macro": "Regime MIXED, risk-on equity tape (S&P +0.8%, Nasdaq +1%, ceasefire). Tokenized equities on US cash-session clock -> thin/gappy off-hours & weekend; big single-15m moves are session-open repricings, not clean trend. DOMINANT SHARED RISK: FOMC Wed Jul 29 hawkish/hike tail + Mag-7 earnings this week.",
+    "sentiment": "GOOGL already reported Jul 22 (rev +24% to $119.8B, cloud +82%, EPS beat) but fell ~3.7% AH on raised 2026 capex to $195-205B -> capex overhang. Catalyst SPENT; now post-earnings drift, no new <=48h binary.",
+    "analyst": "GOOGL 327.97 rode a single session-open 15m pop 325->329.5 on huge volume, now fading on tiny volume. Extended: 1h RSI 79.6, %B 1.237 (above upper band), stoch 89.3; L/S 2.85 crowded (bias -0.30), low BTC-corr 0.32. Chasing here = classic chase-and-stop loss; no confirmed reversal to short. HOLD, prefer a VWAP pullback (~322.5) for a with-trend long.",
+    "portfolio": "GOOGL/USDT:USDT - HOLD (conf 0.40): extended/crowded post session-open pop, catalyst spent; wait for VWAP pullback ~322.5."
+  },
+  "timestamp": "2026-07-27T14:09:02.248282+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "HOOD/USDT:USDT",
+  "size": 0.0,
+  "entry": 109.71,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Choppy recovery grind between 108.2 and 110.0 into the 09:30 ET open; the cash-open gap resolves direction. A rally to the 111.5-112.1 supply shelf sets up a clean short-on-rally; loss of the 106.88 base low resumes the 1h/4h downtrend.",
+  "expectancy_note": "No level at spot (109.7 is mid-range), thin off-hours liquidity + gappy 09:30 open = coin-flip; a fresh short here chases a stabilizing tape and a long fights the 1h/4h downtrend. Neither offers R:R>=1.5 to real structure. HOLD until price reaches a level.",
+  "rationale": "15m candles show higher-lows coiling up off the 106.88 low into a recovery, so this is NOT a fresh breakdown to short at the lows, and desk guidance explicitly favors shorts on rallies over fresh shorts at lows. But US cash market is CLOSED and tokenized HOOD is thin/gappy with a re-rate risk at 09:30 ET, and spot sits mid-range with support (99.18) and resistance (120.12) both far away \u2014 no honest stop-and-target within 1.5x ATR. The high-expectancy action is to wait for either a rally into the 111.5-112.1 supply shelf (short-on-rally with the 1h/4h trend and risk-off macro) or a loss of the 106.88 base (trend-resumption short). Zero size until a level is reached.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 111.7,
+    "expires_min": 240,
+    "note": "Reclaiming the 111.5-112.1 supply shelf where the selloff began offers a clean short-on-rally aligned with the 1h/4h downtrend and risk-off tape; that is the setup to re-debate."
+  },
+  "transcript": {
+    "macro": "REGIME: MIXED, tilted SHORT/risk-off. Risk-off tape (memory-chip selloff + US-Iran flare-up); crypto soft. US cash equities CLOSED (pre-open) \u2014 tokenized HOOD thin/gappy, 09:30 ET open can re-rate instantly. HOOD: RSI 4h 36.1, 1h down, RS vs BTC +2.7% (mild OUTperformer). funding 0, L/S 1.287 (mildly long), orderbook -0.064, structure_bias -0.106 (mild short). Crypto-fintech beta \u2014 btc_correlation 0.628, tied to COIN (0.82) \u2014 carries BOTH soft-crypto tape AND equity risk-off; least idiosyncratic of the trio. Sizing: SMALLER; favor shorts on rallies over fresh shorts at lows.",
+    "sentiment": "Overall cautious/risk-off; hawkish-Fed. FOMC minutes TODAY (July 8) shared swing factor via QQQ/Nasdaq beta; no name earnings inside 48h. HOOD: NEUTRAL-to-cautious, event risk building. Recently strong (ran to ~$117 July 6, RSI near 70) on Robinhood Chain mainnet / stock-token / DeFi / 7% USDG 'Earn' push from London keynote \u2014 multi-quarter narrative, not a 48h mover. Q2 earnings July 29 (after close) \u2014 not imminent but analysts model EPS $0.41 (-2.4% YoY), a double-digit decline that could puncture optimism priced in at elevated levels. High BTC (0.63) / very high COIN (0.82) correlation. No <=48h binary; lean neutral, downside risk if crypto/tech rolls over.",
+    "analyst": "HOOD is a high-beta risk proxy (BTC 0.63, COIN 0.82) \u2014 least idiosyncratic of the fintech trio. The 15m tape has stabilized and is grinding higher-lows off 106.88 back to 109.7, so shorting the lows is exactly what desk guidance warns against, while going long fights an intact 1h/4h downtrend into a risk-off backdrop and a closed cash market. With support 99.18 and resistance 120.12 both far from 109.7, there is no location for an honest <=1.5x-ATR stop paired with a >=1.5 R:R target \u2014 plus the 09:30 ET open is a gap-risk binary I can't size around in thin liquidity. HOLD with an armed short trigger at 111.7 (supply shelf where the selloff began) is the highest-expectancy choice; a break below 106.88 would separately reopen a trend-resumption short.",
+    "portfolio": "HOOD/USDT:USDT \u2014 HOLD (conf 0.60): mid-range, no honest R:R level and a gappy 09:30 open; wait to short a rally into 111.7 or a break of 106.88."
+  },
+  "timestamp": "2026-07-08T12:57:48.647880+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "MU/USDT:USDT",
+  "size": 0.0,
+  "entry": 989.01,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.34,
+  "playbook": "none",
+  "forecast": "Low-energy drift 985-990 continues; fading volume on the creep to 989 favors a stall/small fade back toward VWAP (~961) rather than an immediate breakout. No clean next move to trade.",
+  "expectancy_note": "p(win) on a fresh long ~0.45; ADX 23.6 is borderline-chop not a trend, price +2.86% over VWAP with 1h RSI 78, US cash closed + ASML/TSMC swing risk. No level-based fade edge either \u2014 HOLD beats a low-conviction chase.",
+  "rationale": "MU is coiling on drying volume near intraday highs, +2.86% above VWAP with 1h RSI at 78 and only 47% composite confidence \u2014 not extended enough at a level to fade, not a clean ADX trend to ride. It is the semiconductor laggard (rel strength -13.5%) into a holiday-thin, gap-prone tape with ASML/TSMC earnings as two-sided swing risk. Account history shows trend longs bleeding (44% win, -2.89 avg), so I want a confirmed break, not a mid-range guess. No trade until structure resolves.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 995.0,
+    "expires_min": 240,
+    "note": "A decisive hold above 995 clears the 985-990 shelf on real volume and opens the run toward 1049 resistance \u2014 that would justify a trend long entry."
+  },
+  "transcript": {
+    "macro": "Regime: broadly risk-on but semiconductor-driven and choppy; US cash equities CLOSED at 12:26 UTC scan (thin/gap-prone). MU in parabolic HBM-driven run (sold out through 2027). Funding ~0. MU mixed positioning (L/S 1.58 long-heavy BUT orderbook +0.35, structure_bias -0.07). Rel strength vs BTC -13.5% (sector lag). RSI neutral ~51-56. EVENT RISK: ASML/TSMC earnings this week swing semis; MU-SNDK corr 0.81.",
+    "sentiment": "MU \u2014 strongly bullish, no imminent binary. Blowout Q3 (June 24): EPS $25.04, rev $41.5B, guided Q4 ~$50B/$30.73 EPS on HBM/AI demand. HBM presold through 2027, 16 long-term supply deals, >$250B US investment plan. Shares +240% YTD. Next earnings Sep 29 \u2014 no near-term catalyst; MU is momentum/sentiment leader for memory complex. Tone very bullish but extended.",
+    "analyst": "Price 989.01. ADX 23.6 = borderline chop not a trend; +2.86% above VWAP, 1h RSI 78 (hot), composite only 47.2%. 15m candles a low-energy creep on fading volume (30->9->6.5) near intraday highs \u2014 coiling, not impulsing. Sector laggard (RS -13.5%), thin closed-market tape, ASML/TSMC two-sided swing risk. No fade edge, no clean trend to ride. HOLD; reconsider long above 995 (clears 985-990 shelf toward 1049).",
+    "portfolio": "HOLD MU/USDT:USDT \u2014 borderline-chop, extended over VWAP on fading volume, sector laggard; armed long trigger above 995."
+  },
+  "timestamp": "2026-07-11T12:30:59.239398+00:00"
+}

@@ -1,0 +1,25 @@
+{
+  "symbol": "QQQ/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.35,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "expectancy_note": "Short p(win)~0.35, R:R negative \u2014 selling the lower BB (%B -0.005) into support 705.83 (~2 ATR) with 1h RSI 20.7 oversold, against a record tape. No fade fuel (bias -0.07). HOLD beats a bad short.",
+  "rationale": "QQQ is a tokenized equity; crypto structure is noise (bias -0.066, near-neutral). The scan's 35% short is a counter-trend fade into a +1.12% record Nasdaq day, and price is pinned AT the lower Bollinger band with bb_width squeezed to 1.41% and 1h RSI at 20.7 \u2014 that is oversold/extended in the SHORT direction, exactly where you don't add shorts. Shorting here targets only ~10 pts to support 705.83 while risking a snap-back squeeze, giving sub-1 R:R with the tape against it. Wait for structure to resolve rather than chase the low.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 705.83,
+    "expires_min": 240,
+    "note": "A 1h close below support 705.83 breaks the range floor and converts this from an oversold fade into a momentum-short with room to the next level, flipping HOLD to short."
+  },
+  "transcript": {
+    "macro": "Regime mixed, leaning cautious risk-on. QQQ scan short conf 35%. Shorting the index the day after a +1.12% Nasdaq rebound to records \u2014 fighting the tape. structure_bias -0.07 (not crowded). Counter-trend short; environment UNFRIENDLY. Fed held 3.50-3.75% hawkish, May CPI hot 4.2%. No confirmed FOMC/CPI in 48h. Favor trend-aligned longs over this short.",
+    "sentiment": "QQQ mixed. Up ~11% over 30 days on AI/chip rally but broke below 50-DMA Jul 2 (near-term softening) \u2014 consistent with short lean. Fed on hold, two cuts priced 2026, CPI sticky ~2.9-3.2%. NFP already landed Jul 2. Could not confirm exact June CPI date in 48h \u2014 if a CPI print lands it's a HIGH-weight binary for QQQ. Absent that, momentum/technicals drive.",
+    "analyst": "Tokenized equity; crypto structure noise (bias -0.066). Scan's 35% short is a counter-trend fade into a record Nasdaq day; price pinned AT lower BB, bb_width squeezed 1.41%, 1h RSI 20.7 \u2014 oversold/extended in the SHORT direction, where you don't add shorts. Only ~10pts to support 705.83 vs snap-back squeeze risk = sub-1 R:R with tape against it. HOLD; break of 705.83 flips to momentum short.",
+    "portfolio": "HOLD QQQ \u2014 counter-trend short into a record tape at oversold lower band; wait for a break of 705.83."
+  },
+  "timestamp": "2026-07-07T10:42:42.428199+00:00"
+}

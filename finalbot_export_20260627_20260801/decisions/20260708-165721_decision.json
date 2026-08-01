@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "AAPL/USDT:USDT",
+  "size": 0.0,
+  "entry": 313.14,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.5,
+  "playbook": "breakout",
+  "forecast": "Price is coiling in higher-lows (307.1 -> 313.1) and pressing resistance 315.69; next few bars likely test 315.69 \u2014 either it breaks with a follow-through candle (long trigger) or wicks and mean-reverts toward the 312.3 breakout retest. Entering here mid-air (only 0.8xATR below resistance) risks buying the top of the move.",
+  "expectancy_note": "Long-now R:R fails: TP1 315.69 is only ~$2.55 up but a valid stop below 312.3 structure is ~$1.8, giving ~1.4R into resistance in a risk-off tape \u2014 sub-threshold. Waiting for a confirmed break above 315.69 opens measured-move room and flips R:R favorably.",
+  "rationale": "AAPL is the board's relative-strength leader (+6.74%) with genuinely clean positioning (funding 0, L/S 1.02) and real bar-by-bar momentum into resistance, so the bias is long \u2014 but price at 313.14 sits mid-air only ~0.8xATR under resistance 315.69, extended (RSI 63, %B 0.73), into a risk-off session (Dow -1.6%) with thin OI. A long here can't clear the 1.5R hurdle to the first structural target and would be chasing. The high-expectancy move is to wait: buy the confirmed reclaim of 315.69 (proves buyers absorbed the level, opens measured-move room) rather than pay up into the wall.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 315.9,
+    "expires_min": 180,
+    "note": "A 15m close above resistance 315.69 proves buyers absorbed the level and opens measured-move continuation \u2014 that is the clean long trigger vs. chasing mid-air now."
+  },
+  "transcript": {
+    "macro": "Tokenized US-equity perps \u2014 trade as equities; crypto funding/BTC-dominance irrelevant. Regime risk-OFF this session (Dow -1.6%, S&P -1%, Nasdaq -0.9%) on Trump declaring US/Iran MOU 'over,' oil surging, Middle-East re-escalation; follows Jul 7 chip rout. Calendar: June CPI Tue Jul 14, FOMC Jul 28-29. AAPL: last 313.14, fresh 15m breakout (level 312.3, vol 1.87x, bbw 1.59x), composite mildly long (+0.11, 13.3% conf), RS leader (+6.74% vs BTC), clean positioning (funding 0, L/S 1.02, orderbook +0.048, structure flat), RSI 63, pressing resistance 315.69, low BTC corr 0.27, tiny OI 3,271. Environment supports a SMALL LONG lean but fade-prone into red tape and resistance \u2014 reduced size.",
+    "sentiment": "AAPL tone MIXED, no <=48h binary. Q3 FY2026 earnings July 30 (~3 weeks out, not in play). Live driver: Chinese memory-chip sourcing story (CXMT/YMTC talks) drove AAPL back above $300 Jul 2, ~$305 by Jul 6/7 \u2014 fresh-but-fading positive. Longer overhangs (foldable iPhone cuts, JPM PT $345) narrative not tradeable in 48h. Near-term neutral-to-mildly-bullish on residual momentum; US off-hours gap risk on the perp.",
+    "analyst": "Bias is long (RS leader, clean positioning, real bar-by-bar momentum: 307.1 dip bought back to 313.14 on rising volume, higher lows). But price sits mid-air only ~0.8xATR below resistance 315.69, extended (RSI 63, %B 0.73), into a risk-off tape with thin OI. TP1 315.69 is only ~$2.55 up while a valid stop below the 312.3 breakout structure is ~$1.8 \u2192 ~1.4R, sub-threshold. Worst spot to enter (between breakout level and the wall). Highest-expectancy move is HOLD and arm a long trigger on a confirmed 15m close above 315.69.",
+    "portfolio": "AAPL \u2014 HOLD (conf 0.50): bullish bias but no clean entry mid-air under resistance in a risk-off tape; wait for a break above 315.9."
+  },
+  "timestamp": "2026-07-08T16:57:21.308167+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "SOL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Price stalling at 76.4 after tagging 76.66 on fading volume; expect chop 75.9-76.7 near-term. A rejection lower toward VWAP/75.3 is the higher-probability next move given RSI 77.7 / stoch 91.7 / crowded 2.79 L/S, but no confirmed lower-high yet, so no clean entry.",
+  "expectancy_note": "Long = chasing an overbought (%B 0.907, +1.34% VWAP), crowded-long, pure-BTC-beta name into resistance = the account's #1 loss pattern; rules forbid extended market-entry. Short lacks a rejection candle and account shorts run 47% win / -0.87R. Both sub-1.5 R:R \u2192 HOLD highest expectancy.",
+  "rationale": "SOL is extended and lopsidedly long (L/S 2.79, structure_bias -0.35) into a high-dominance, soft-BTC tape with corr 0.80 and negative relative strength -6.3% \u2014 BTC's echo, not a leader. Learner weights punish exactly these conditions. No pullback for a long, no rejection for a short: wait for the level to declare.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 75.3,
+    "expires_min": 240,
+    "note": "Losing the 75.30 shelf breaks the recent 15m base and confirms the crowded-long unwind toward VWAP/73.3 \u2014 re-debate as a squeeze-short with confirmation."
+  },
+  "transcript": {
+    "macro": "Sunday Jul 19 2026 \u2014 US equities CLOSED; tokenized stocks thin/gappy, size DOWN. Backdrop HOSTILE/risk-off (Fri Nasdaq -1.4%, semi-led -9% SMH). Crypto neutral-fragile: BTC ~$64.5k downtrend, dominance HIGH ~58.8% (capital hiding in BTC, not rotating to alts), FOMC Jul 28-29 ~70% HOLD. SOL: only high-BTC-beta name (corr 0.80), L/S 2.79 VERY crowded long, RSI 77.7/stoch 91.7, structure_bias -0.35 \u2014 extended/lopsided into soft-BTC tape; squeeze risk is the concern.",
+    "sentiment": "SOL mildly constructive \u2014 five spot SOL ETFs live (~$1.12B cumulative inflows), possible SEC staking-ETF decision 'as soon as July' but no confirmed date, no imminent unlock \u2192 sentiment tailwind not a 48h catalyst; crypto mood Fear (~34). Overall no target catalyst inside 48h.",
+    "analyst": "No clean entry either way. Long = chasing overbought crowded tape (forbidden). Short = no rejection/lower-high yet and account shorts lose (47% / -0.87R). Learner penalizes SOL's every current condition. HOLD; arm downside re-debate at 75.30 (loss of 15m base = crowded-long unwind toward VWAP/73.3).",
+    "portfolio": "HOLD SOL \u2014 extended/crowded long with no pullback and no short confirmation; armed re-debate below 75.30."
+  },
+  "timestamp": "2026-07-19T15:13:50.220310+00:00"
+}

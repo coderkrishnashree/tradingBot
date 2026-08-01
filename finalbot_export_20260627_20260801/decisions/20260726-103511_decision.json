@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "EWJ/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.0,
+  "playbook": "none",
+  "forecast": "No real forecast possible: weekend Tokyo-closed tape prints zero volume, price pinned 92.07-92.25 on fumes; expect it to sit/drift illiquidly until Monday Tokyo open, then gap on BOJ (July 30) headline risk. No tradable next-candle move.",
+  "expectancy_note": "No honest R:R on a 0-volume book; long chases RSI 92-100/%B 0.93 blow-off with only 1.2% to resistance, fade has no confirmation and no liquidity \u2014 expectancy negative both ways, HOLD is highest-EV.",
+  "rationale": "Underlying Japan cash market is closed with no price discovery until Monday; the EWJ token is printing zero-volume, gappy Sunday bars so every support/resistance level is fictional and stops cannot survive an open gap. Indicators are maximally exhausted (1h RSI 92.7, 5m RSI 100, stoch 100, %B 0.933) \u2014 a long is a late chase into a blow-off with only ~1.2% to resistance, and a fade has zero confirmation or liquidity to fill. Add binary BOJ (July 30) gap risk inside the window: no setup here clears the 1.5R bar, so size is zero.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 93.34,
+    "expires_min": 240,
+    "note": "A clean break of resistance on real (non-zero) volume would signal genuine post-open demand worth re-debating; anything below that is dead weekend tape."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF, Sunday July 26 2026 \u2014 Tokyo cash CLOSED, no price discovery until Monday. EWJ 92.25, OI only 2,482, long/short 1.41, funding 0. Recent candles ZERO-volume prints \u2014 dead gappy Sunday tape. JP225 -2.73% July 24. BOJ July 30 = binary catalyst inside window. Indicators euphoric/exhausted (1h RSI 92.7, 5m RSI 100, stoch 100, bb_pctb 0.93). Environment does NOT support a fresh trade; minimum size only if taken.",
+    "sentiment": "No dated <=48h Japan catalyst. Hidden risk: yen at multi-decade lows, MoF already intervened hard (Y11.7T Apr-May, ~$20.7B July 11); wide Fed/BOJ rate gap keeps USD/JPY pressured. Surprise intervention or BOJ hawkish leak = real gap risk (intervention/yen-strength is a HEADWIND for EWJ exporters). Near-zero token volume = fragile signal. Neutral; intervention headline risk both ways.",
+    "analyst": "Textbook NO-TRADE: weekend Tokyo-closed, zero-volume gappy prints make every level fictional and stops can't survive an open gap. Indicators maximally exhausted (RSI 92-100, %B 0.93, stoch 100) \u2014 long is a blow-off chase with ~1.2% to resistance, fade has no confirmation/liquidity. Binary BOJ (July 30) gap risk. No honest R:R on a 0-volume book. HOLD, conf 0.0; armed a resistance-break trigger at 93.34 on real volume.",
+    "portfolio": "EWJ: HOLD (conf 0.0) \u2014 dead weekend tape, no price discovery + BOJ gap risk; no trade."
+  },
+  "timestamp": "2026-07-26T10:35:11.945592+00:00"
+}

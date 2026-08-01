@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "QQQ/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.55,
+  "playbook": "none",
+  "forecast": "Price is coiling in a stair-step bounce off the 704.0 low (last bars 706.1->706.9) and defending support 703.26; over the next 2-6 bars expect chop between 703.3 and ~710, with a fresh directional leg only on a break of either edge.",
+  "expectancy_note": "Shorting here (706.9, ~0.5 ATR above support, 1h RSI 18.7, %B 0.05) is chasing a stretched move into support with squeeze-back risk = negative expectancy; long into ADX-62 downtrend + Warsh hawkish risk has no edge either. HOLD-and-wait for the level is the +EV play.",
+  "rationale": "QQQ is deeply oversold (1h RSI 18.7, BB %B 0.052) sitting only ~3.6 pts above support 703.26 while the recent 15m candles show a steady bounce off 704.0 back to 706.9 \u2014 buyers are defending the level, so a fresh short is chasing a falling knife into support with real squeeze-back risk. The composite short is unaligned (0.95x, 36% conf, p_win 0.508 coinflip) and R:R to any honest target is poor. Want either a clean break of 703.26 to re-arm the short, or a reclaim of ~712 to flip bullish; until one prints, no trade is highest-expectancy.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 702.5,
+    "expires_min": 240,
+    "note": "A decisive 15m close below 702.5 breaks the defended 703.26 support, re-arming a trend-continuation short toward ~695."
+  },
+  "transcript": {
+    "macro": "RISK-OFF; QQQ is the cleanest expression of the tape: heavy multi-TF short (30m -0.89, 1h -0.42), 1h RSI 18.7 oversold, ADX 62 strong downtrend, sitting on support 703.26. Funding positive, long/short 0.80 \u2014 crowd already short, so a fresh short chases a stretched move into support; squeeze-back risk on any bounce.",
+    "sentiment": "QQQ neutral. Perp last 706.9. Rebounded intraday on soft CPI + chip strength earlier. Dominant 24-48h catalyst = hawkish Warsh testimony; could unwind CPI bounce given stretched valuations (Goldman 'triple pain').",
+    "analyst": "QQQ deeply oversold ~3.6 pts above support 703.26 with a stair-step bounce off 704.0 \u2014 buyers defending. Short = chasing falling knife into support with squeeze-back risk; long = no edge into ADX-62 downtrend + Warsh risk. Unaligned composite, coinflip p_win. HOLD; re-arm short below 702.5, flip long above 712.",
+    "portfolio": "QQQ: HOLD \u2014 do not chase a stretched short into defended support; wait for 702.5 break or 712 reclaim."
+  },
+  "timestamp": "2026-07-16T22:04:22.010639+00:00"
+}

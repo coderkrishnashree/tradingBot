@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "QQQ/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.58,
+  "playbook": "none",
+  "forecast": "Price coils around the 700 round number just above VWAP after fully retracing the 694.7 dip; expect chop 696-702 until the BB squeeze (width 1.55%) resolves. A close above ~703 opens 707-710; loss of 694.7 reopens 688.",
+  "expectancy_note": "Long-at-market gives R:R ~0.75 (tp ~704 vs stop 694.5 = 1.5xATR) - fails the 1.5 gate; flat 30m/1h and 4h MACD -1.84 kill trend conviction, so HOLD has higher expectancy than a chased continuation.",
+  "rationale": "QQQ sits mid-range (support 688 / resistance 727) right on VWAP with a tight coiling BB and conflicting timeframes (15m long, 30m/1h flat, 4h long but MACD deeply negative). Macro leans risk-off, QQQ lags BTC -15.8%, and event risk (GOOGL 7/22, FOMC, index gap risk) builds all week with thin off-hours liquidity. No level to buy against with 1.5 R:R and no breakout trigger yet.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 703.0,
+    "expires_min": 240,
+    "note": "A 15m close above 703 breaks the 700-coil/BB squeeze with momentum, opening a run toward 707-710 with a stop under 698."
+  },
+  "transcript": {
+    "macro": "MIXED, leaning RISK-OFF for fresh longs (2026-07-21). Indices stalling just off highs (S&P 7,443, Nasdaq Comp 25,508), rising 10Y yields (4.55%) = headwind for tech multiples, DXY ~100.8. Earnings gauntlet inside 48h: GOOGL + TSLA after close Wed 7/22, INTC after close Thu 7/23 (no position carried through those). Tech names uniformly long-crowded (negative structure_bias). Chips are the relative-strength pocket but on a bounce, not a confirmed leg. Crude has the only fresh macro tailwind (US-Iran, Hormuz) but it's binary headline risk. Metals capped by yields (gold rejected $4,000, silver crowded-long/extended). BTC cleanest tape (benign funding, no earnings gate) but heavy overhead offers. EWJ pure QQQ/EWY beta, no independent driver. FOMC 7/29, BOJ 7/30 outside window. Size stance BELOW NORMAL - elevated gap risk into next 2 sessions.",
+    "sentiment": "Only true <=48h binaries are GOOGL (Q2 earnings 7/22 after close, elevated IV, gap expected) and INTC (Q2 earnings 7/23, options pricing ~15% move, RSI ~76). MSTR flipped to SELLING BTC (~$216M, largest since 2022) to fund dividends, stock -79% YoY - modest sentiment negative, BTC-dependent. BTC low-$65k, coiled bet on 7/28-29 FOMC ($2.5B call spreads target $72k); record June ETF outflows. XAG near 8-month lows after -6%, Sept-hike fears a headwind, no 48h catalyst. CL ~$82-83 five-week highs on US-Iran day 10 / Hormuz disruption - two-sided gap risk (possible 10-day ceasefire circulating). AAPL record ~$334 on China Apple Intelligence approval, +24% China iPhone units; earnings 7/30 (outside). MSFT earnings 7/29 (outside). TSM already reported 7/16 (rev +36% YoY, strong guide) - catalyst behind. ORCL no near-term catalyst. EWJ driver is BOJ 7/30 (outside). Everything except GOOGL/INTC/CL is pre-positioning ahead of the 7/28-30 FOMC/BOJ/MSFT/AAPL cluster - no fresh 48h mover.",
+    "analyst": "QQQ sits mid-range (support 688 / resistance 727) right on VWAP with a tight coiling BB and conflicting timeframes (15m long, 30m/1h flat, 4h long but MACD deeply negative). Macro leans risk-off, QQQ lags BTC -15.8%, and event risk (GOOGL 7/22, FOMC, index gap risk) builds all week with thin off-hours liquidity. No level to buy against with 1.5 R:R and no breakout trigger yet.",
+    "portfolio": "HOLD (0.58) - coiling mid-range at VWAP, sub-1.5 R:R, building event risk."
+  },
+  "timestamp": "2026-07-21T01:45:44.464815+00:00"
+}

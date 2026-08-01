@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "GOOGL/USDT:USDT",
+  "size": 0.0,
+  "entry": 327.12,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Coiling under 328.5-330.5 with a clear lower-high sequence and drying volume; expect a grind toward VWAP ~323.3, but until it loses the 326.2 minor shelf the tape can chop 326-329 into FOMC.",
+  "expectancy_note": "Fresh short p(win)~0.5 but TP1 at VWAP (~323.3) is only ~1.0R vs an honest stop above the 330.6 swing (~1.2xATR) - fails the 1.5R gate; short book is the account's losing side (45% wr). Best expectancy is waiting for the breakdown trigger.",
+  "rationale": "GOOGL is rolling over from the upper Bollinger band (bb_pctb ~1.00, RSI 70.9) with the most negative structure_bias in the group (-0.321, maxed contrarian longs) and 5m already short - a genuine fading top. But this is an equity trading on Nasdaq-beta into a Wed FOMC on a thin off-hours tape, nearest real support (315.3) is ~3.6% away, and a fresh short's honest stop above 330.6 leaves TP1 at VWAP under 1.5R. I will not chase a long into overbought with the worst relative strength (-13.5). Wait for confirmation of the breakdown; no size here.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 326.2,
+    "expires_min": 240,
+    "note": "Losing the 326.2 minor shelf confirms the lower-high rollover is breaking down, opening a clean short toward VWAP 323.3 then 321.5 with an honest stop above 329.5 - that flips this to a short entry."
+  },
+  "transcript": {
+    "macro": "Regime MIXED/cautious, event-gated. Dominant risk = FOMC Wed Jul 29 (inside 48h); smaller size. GOOGL last 327.12, RSI 70.9, bb_pctb ~1.00 (at upper band). structure_bias -0.321 (most negative of the group) from long/short 2.7 (maxed contrarian) plus slightly negative orderbook (-0.071). Composite aligned=false; 5m rolled short (-0.281). relative_strength -13.5 vs BTC (laggard). No GOOGL earnings this week but inside the Fed/Big-Tech blast radius and tech/semis weakness. MIXED-to-HOSTILE for fresh longs - better as a fade than a chase.",
+    "sentiment": "GOOGL already reported Jul 22: cloud beat, slight search miss, rev +24% to $119.8B, but shares fell ~6% on a capex hike to ~$205B. Carrying a $4.67B EU antitrust fine (Android) and Gemini 3.5 Pro delays. Earnings binary is BEHIND us - no scheduled stock-specific catalyst in the next 48h; trades on Nasdaq beta + Fed. NEUTRAL stock-specifically with residual downward post-earnings/capex overhang; Fed is the swing factor. Off-hours thin/gappy.",
+    "analyst": "Genuine fading top (rolling off upper band, 5m short, most negative structure bias) but a fresh short into FOMC on a thin off-hours equity tape has poor R:R - honest stop above 330.6 leaves TP1 at VWAP under 1.5R, and the short book is the account's losing side. Won't chase a long into overbought with the worst rel-strength. HOLD; reconsider on loss of 326.2.",
+    "portfolio": "HOLD GOOGL/USDT:USDT - fading top but short R:R fails the gate into FOMC, wait for breakdown (conf 0.50)."
+  },
+  "timestamp": "2026-07-27T17:36:05.566581+00:00"
+}

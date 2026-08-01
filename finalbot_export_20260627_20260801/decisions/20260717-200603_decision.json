@@ -1,0 +1,27 @@
+{
+  "symbol": "META/USDT:USDT",
+  "action": "hold",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.55,
+  "playbook": "none",
+  "forecast": "Price coils 642-648 after the 4h flush; expect chop between the 642 base and 648-652 rejection over the next 2-4 bars. Resolution comes on either a VWAP reclaim toward ~658 (squeeze long) or loss of 638 opening the path to 620/608 (trend short).",
+  "rationale": "META is the relative-strength leader (+10.3% vs BTC) and deeply oversold on 4h (RSI 24.8, ADX 72) - a textbook squeeze-risk setup this account has repeatedly lost by shorting late into stretched tape. The 15m has already stabilized (score +0.12, base holding 642) so a fresh short isn't confirmed, while a long fights the still-down 1h/4h and a risk-off macro with no reclaim yet. No clean R:R either way, so HOLD. Earnings 7/29 is outside the window, so no rush.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 638.0,
+    "expires_min": 240,
+    "note": "Losing the 642 base and 638 turns the 4h downtrend back on with air to 620/608, validating a trend short; a reclaim of VWAP ~658 would instead argue the squeeze long."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF, semis-led rout (Nasdaq -1.8%, S&P -1.15%, VIX +11% to ~18.5) on AI-capex-justification fears (TSMC capex guide up + Chinese AI model Kimi K3). Rates a headwind (~52% odds Sept HIKE, no cut cushion). US cash open Fri; no earnings inside 48h for these names; weekend gap risk. META holding up best (rel-str +10.3% vs BTC) but 4h RSI 24.8 deeply oversold, orderbook offers-heavy.",
+    "sentiment": "META bearish near-term: -3.5% Jul 17 on aggressive AI capex (FY26 $125-145B) + EU DMA/antitrust overhang. Dominant risk is Q2 earnings Wed Jul 29 after close (outside 48h). News argues FOR short, but do NOT hold a short into the Jul 29 binary.",
+    "analyst": "META snapshot last 645.30: 4h RSI 24.8, ADX 72.3, BB %B 0.148, vwap_dist -2.07%, support 608.44, resistance 689.72; long/short 1.58, orderbook -0.355, per_tf 15m +0.12 / 1h -0.18 / 4h -0.52, p_win_learned 0.624 (highest of equities). 15m base forming 642-648 after the 4h flush. Shorting a deeply oversold leader into support is the account's classic late-short loser; long fights 1h/4h downtrend + risk-off macro. Neither side clears R:R 1.5 with an honest stop - HOLD.",
+    "portfolio": "HOLD META - squeeze-risk on the group's strongest name; wait for a 638 loss (short) or VWAP ~658 reclaim (long)."
+  },
+  "timestamp": "2026-07-17T20:06:03.174503+00:00"
+}

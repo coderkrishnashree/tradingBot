@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "COIN/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Vertical 15m spike to 165.85 into RSI 94/stoch 98 pre-open is exhausted; expect a mean-reversion pullback toward the 162.5-161.6 breakout/VWAP retest zone over the next 2-6 bars. A hold above ~163 that then reclaims 165.6 sets a clean long; failure back under 161 kills the pop.",
+  "expectancy_note": "No positive-expectancy entry now: market long = chasing RSI 94 pre-open (account's proven -3.0R trend-chase pattern); short = knife-catch vs +0.497 bid and bullish divergence. Best EV is wait for the retest.",
+  "rationale": "COIN just printed a thin, vertical pre-open breakout (163.05->165.85) that leaves 15m RSI 94.6 / stoch 98.3 and price +2.14% over VWAP \u2014 a classic exhaustion print, not an entry. Composite regime is chop and regime_blocked=true, and with btc_correlation 0.73 this is mostly BTC-beta while BTC is itself stretched (RSI 66, stoch 96.9) into resistance 64,703, so the pop's fuel is fading. A market long has poor R:R (honest stop below the 163 base is ~1.4xATR while first mean-reversion runs against it), and the account's history shows late continuation chases bleed ~3R; a valid long only exists as a limit on a retest that holds, which isn't in place yet.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 166.0,
+    "expires_min": 240,
+    "note": "A post-open reclaim/hold above the 165.62 breakout high (with BTC holding) confirms the breakout is real rather than a thin pre-open spike, arming a long on the retest."
+  },
+  "transcript": {
+    "macro": "MIXED, leaning cautious. Heavy pre-US-open tape (S&P fut -0.1 to -0.22%, Nasdaq fut -0.41%). Rates headwind: 10Y ~4.54%, DXY ~101, ~64% Sept-hike odds, CPI 4.2%. Event risk CPI July 14. Scan 10:25 UTC, ~3h pre-cash-open (gappy). COIN: composite conf 2.3%, direction flat, regime=chop and regime_blocked=TRUE \u2014 engine NOT endorsing directional trade. Structure surface-friendly (bias +0.036, orderbook +0.497 heavy bid, funding +0.014%, L/S 1.19 not crowded), 15m breakout over 165.62 on 2.9x vol + bullish divergence. BUT BTC corr 0.73 \u2192 BTC-beta; BTC stretched into resistance ~64,703. 15m RSI 94 / stoch 98 very overbought. Only a long if BTC holds AND confirms post-open; small size.",
+    "sentiment": "COIN (Coinbase): bullish momentum +19% over five sessions into July 2 (~$165) on System Update event (tokenized stocks non-US, on-platform options, ETF access, SEC-registered advisor). Bernstein Buy $330; US Tiger Buy $200; Barclays UW $107 (muted volumes, low weight). On winning side of Open USD (retains USDC interest; Aug 18 renegotiation favors COIN). No earnings inside 48h (Q2 early Aug). Near-term driver is BTC direction. Fear&Greed ~23 (Extreme Fear) ticking up. Net neutral-to-positive; downside crypto-beta is main risk.",
+    "analyst": "COIN last 165.66, just printed a vertical 15m breakout (163.05->165.62 on 693 vol, 165.85 high). 15m RSI 94.6, stoch 98.3, 30m RSI 82, 1h RSI 88.3 \u2014 extreme overbought every fast TF; +2.14% over VWAP, %B 0.832, ATR% 1.96. Fresh vertical spike into overbought on a tokenized equity ~3h pre-open (thin/gappy). Composite conf 2.3%, regime=chop, regime_blocked=true. BTC corr 0.73 and BTC itself stretched (RSI 66, stoch 96.9) into resistance 64,703 \u2014 the pop's fuel is fading. Chasing RSI 94 pre-open is the account's #1 loss pattern (0.47 win, -3.0 avg). Market long R:R poor (stop below ~163 base ~1.4xATR while first move mean-reverts). No short either \u2014 fresh breakout with +0.497 bid and bullish divergence = knife-catch. Valid long is a limit on the retest, not yet in place; HOLD with armed reconsider above 166.",
+    "portfolio": "COIN \u2014 HOLD (conf 0.6), regime-blocked + overbought pre-open spike; arm long only on a post-open reclaim/hold above 166 with BTC holding."
+  },
+  "timestamp": "2026-07-10T10:29:54.964824+00:00"
+}

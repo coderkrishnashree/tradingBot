@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "TSM/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.34,
+  "playbook": "none",
+  "forecast": "Thin weekend chop between 425.7 support and 460.5 resistance; last bar rejected 438 and closed near range lows, likely drifts sideways 434-439 into Monday with gap risk, no clean directional move before the Jul 16 print.",
+  "expectancy_note": "No edge: oversold 1h RSI 29.9 + 4h bullish divergence argue against a short, but weak structure and illiquid weekend tape argue against a long; neither clears R:R 1.5 into an imminent binary earnings gap.",
+  "rationale": "Tokenized equity on a closed-cash weekend - orderbook LOW confidence, gappy fills, and crypto structure metrics are noise. Price sits mid-band (%B 0.34) with no level to fade and a washed-out mixed read (composite only 50.4%, bullish 4h divergence vs -5.47% relative strength). TSMC Q2 earnings Wed pre-market is a dominant binary with elevated IV - any position toward Thu carries un-hedgeable gap risk, so the highest-expectancy call is to stand aside. Size 0.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 425.72,
+    "expires_min": 240,
+    "note": "Losing 4h support voids the bullish divergence and opens a clean momentum short with a defined level; that would flip me to short before the earnings window."
+  },
+  "transcript": {
+    "macro": "Regime MIXED/risk-cautious. Semis are the volatility epicenter this week (Samsung/DeepSeek shock then SOXX +5% snapback). Tokenized equities thin/gappy over the weekend (US cash closed) -> orderbook low-confidence, size down. TSM structure_bias -0.43, RS -5.47% (lagging), 1h RSI 29.9 oversold, bullish 4h divergence = washed-out mixed. TSMC reports Wed Jul 16 pre-market = imminent BINARY inside the hold window + semis read-through.",
+    "sentiment": "TSM HIGH-attention binary: Q2 earnings Wed Jul 16 pre-market, consensus ~$3.80 EPS / ~$40B rev, analysts expect FY26 guide RAISED; elevated IV, expect a gap. Scan shows bullish 4h divergence into it. Any short carries event risk into Jul 16. Weekend thin off-hours tape can gap Monday.",
+    "analyst": "Mid-band, no level to fade, mixed washed-out read (oversold + bullish divergence vs weak structure). Dominant, un-hedgeable earnings gap risk Jul 16 inside the hold window. No R:R>=1.5 either side. NO TRADE.",
+    "portfolio": "HOLD TSM/USDT:USDT (conf 0.34) - earnings gap risk Jul 16; short trigger armed below 425.72."
+  },
+  "timestamp": "2026-07-12T09:33:45.096703+00:00"
+}

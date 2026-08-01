@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "BTC/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.5,
+  "playbook": "trend",
+  "forecast": "Near-term short-cover bounce likely: 15m RSI 23.9 deeply oversold, last bar closed off its low (62858 vs 62767), F&G 23 extreme fear + short liqs > long liqs = squeeze fuel. Expect a pop toward 63000-63200 (VWAP/broken shelf); that failing rally is the clean short back toward 62500 then 62050.",
+  "expectancy_note": "Shorting here at 62858 into RSI 23.9 with squeeze risk is chasing (p~0.45, poor R:R selling the lows). Waiting to sell strength at ~63200 with stop above 63650 gives ~1.5R+ to 62500; higher expectancy than pressing now.",
+  "rationale": "Trend is genuinely down (ADX 27.8, all TFs short, structure_bias -0.197, longs trapped) so the bias is short, but price is at short-term oversold extreme with extreme-fear contrarian risk and short-liq squeeze fuel. Entering here means selling into a probable bounce with a bad entry; the disciplined play is to arm and short the retrace into 63000-63200 rather than chase the low. No entry justifies size right now.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 63200,
+    "expires_min": 240,
+    "note": "A bounce into 63200 (VWAP / broken 63000-63200 shelf) is the spot to sell strength with a tight stop above 63650 back toward 62500; crossing it sets up the higher-quality short entry."
+  },
+  "transcript": {
+    "macro": "Regime MIXED, leaning risk-off intraday. S&P near ATH, Fed on hold 3.50-3.75%, ~2 cuts priced; new Fed Chair Warsh hawkish -> firmer USD; no FOMC/CPI inside 48h; semis key swing factor. BTC $62.9k downtrend 15m-1h, RSI 43, ADX 27.8 (real trend), dominance ~54-55%, funding barely positive (not crowded), L/S 1.45, OI ~55k with price falling = longs trapped, structure_bias -0.20. Fear&Greed 23 (extreme fear) = contrarian caution against pressing shorts; short liqs already > long liqs = squeeze risk on bounce.",
+    "sentiment": "BTC Neutral/cautiously bearish. ~$63-64K chopping in $55-70K range after brutal June. Catalysts all >48h out (FOMC Jul 28-29; CLARITY Act Senate vote in July; ETF flows stabilizing not yet net-positive). No <=48h binary. Trump anti-crypto-tax + SEC neutral ETF tone mild positives, already priced. Tape follows risk sentiment.",
+    "analyst": "Trend clearly down and structure supports shorts, but 15m RSI 23.9 deeply oversold, F&G 23, short liqs > long liqs. Shorting at 62858 into the lows is chasing with squeeze risk. Cleanest short is a failed bounce into 63000-63200 (VWAP/broken shelf), stop above 63650, targeting 62500 then 62050. Losing 62496 swing low on volume would also confirm continuation. HOLD, armed to short a bounce.",
+    "portfolio": "HOLD BTC/USDT:USDT \u2014 bias short but oversold; arm to short a bounce into 63200."
+  },
+  "timestamp": "2026-07-08T04:33:24.784301+00:00"
+}

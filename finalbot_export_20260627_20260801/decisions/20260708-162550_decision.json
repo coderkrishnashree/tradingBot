@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "XAUT/USDT:USDT",
+  "size": 0.0,
+  "entry": 4035.4,
+  "stop_loss": 4018.0,
+  "take_profit": 4062.0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Relief bounce in progress off the 4018 low: higher-lows (4018 to 4025 to 4029 to 4033) coiling with bullish divergence and RSI 28 across all TFs; expect a grind toward 4050-4062 (VWAP / broken support) over next 2-4 bars, then likely stall into FOMC minutes.",
+  "expectancy_note": "Shorting here chases an oversold, divergent, higher-lows bounce (bad p-win); longing fights ADX 41 downtrend + bearish macro + FOMC minutes today. Neither side clears R:R 1.5 at a clean level, so flat is highest expectancy.",
+  "rationale": "XAUT is deeply oversold (1h RSI 27.9, 4h 28.3, %B -0.03, stoch 11) with a flagged bullish divergence and a visible dead-cat bounce off 4018 \u2014 the last 5 bars print higher lows on fading volume. That kills a fresh short (chasing) while the ADX-41 downtrend, crowded longs (L/S 2.87), firmer DXY/yields and today's FOMC minutes kill a confident long. Best expectancy is to wait: a bounce that stalls at 4050-4062 and rolls over gives a far cleaner short entry, and a clean loss of 4018 confirms trend resumption. Size 0 until one side resolves.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 4018.0,
+    "expires_min": 240,
+    "note": "Losing the 4018 divergence/swing low invalidates the oversold bounce and confirms downtrend resumption \u2014 reopens the short toward support 3957."
+  },
+  "transcript": {
+    "macro": "Regime choppy, mildly risk-off. BTC soft ~$61.9k below VWAP; DXY firm ~100.9-101; 10Y yields ~4.48-4.50% (2wk high) on oil-driven inflation fears; Fed on hold, market pricing possible HIKES later 2026 \u2014 headwind for gold. Spot gold fell >1% to ~$4,050 (lowest since Jul 2) after Trump declared Iran peace deal 'over', spiking oil +5% and lifting inflation/rate fears \u2014 safe-haven unwind + higher real yields. XAUT structure_bias -0.338, crowded long/short 2.87 favors continuation lower; funding neutral, OI moderate (trend real, not squeeze). XAG confirms (corr 0.881); XAUT btc_corr only 0.31 (gold-specific). Caveat: XAUT 15m RSI 32 / 1h RSI 27.9 with BULLISH DIVERGENCE at support ~3957 \u2014 oversold, mean-reversion bounce risk. Verdict: NEUTRAL-to-BEARISH (favors SHORT), size modestly.",
+    "sentiment": "Choppy-to-mildly-bearish near term. Gold sold ~1.3% to ~$4,050 after Trump declared US-Iran ceasefire 'over', threatening strikes \u2014 oil spiked 7-8%, reviving higher-rates fears; markets price at least one Fed HIKE by year-end. Live geopolitical flashpoint pushing gold DOWN via rates channel; actual US strike is a two-way <=48h binary. Catalysts: FOMC minutes TODAY (Jul 8) = biggest <=48h event risk (hawkish tone pressures gold); June CPI Jul 14 outside window. XAUT-specific news benign (Tether-Ledn loan deal, clean 7.66t audit). Fear & Greed 45 (Neutral). Bias: NEUTRAL-to-SHORT; offsetting risk = military-escalation safe-haven spike; respect stops near $4,050.",
+    "analyst": "XAUT deeply oversold (1h RSI 27.9, 4h 28.3, %B -0.03, stoch 11) with flagged bullish divergence and a dead-cat bounce off 4018 \u2014 last 5 bars print higher lows on fading volume, killing a fresh short (chasing). ADX-41 downtrend, crowded longs (L/S 2.87), firmer DXY/yields and today's FOMC minutes kill a confident long. Best expectancy is to wait: a bounce that stalls at 4050-4062 and rolls over gives a cleaner short; a clean loss of 4018 confirms downtrend resumption toward 3957. Size 0 until one side resolves.",
+    "portfolio": "XAUT \u2014 HOLD (conf 0.50): oversold relief bounce; too extended to short, macro too weak to long. Reconsider short on loss of 4018."
+  },
+  "timestamp": "2026-07-08T16:25:50.021560+00:00"
+}

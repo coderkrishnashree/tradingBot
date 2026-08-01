@@ -1,0 +1,25 @@
+{
+  "symbol": "ORCL/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.5,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "size": 0.0,
+  "playbook": "none",
+  "forecast": "Low-volume drift; price coils 141.4-142.0 off-hours, then at US open either bounces off support 137.9 or rallies to a lower-high near 143-144 (the real short entry). Selling 141.6 now just sells into support with no room.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 137.7,
+    "expires_min": 360,
+    "note": "A clean break of support 137.94 confirms the downtrend resuming and opens the measured move toward ~135/133 - flips to an active short-the-breakdown."
+  },
+  "rationale": "ORCL is the weakest name in the group (worst rel strength -20.2%, maxed crowded longs 1.999 = contrarian fuel, 4h/30m down) so the directional read is short, but at 141.64 price sits only ~1.4xATR above support 137.94 after fading back into the lower range on drying volume with no lower-high. Shorting here sells into support off-hours with US-open gap risk - the 'sell the hole' chase - and the learner shows trend-chase shorts bleeding (avg -2.71). Waiting for either a lower-high rally toward 143-144 to short with room, or a decisive break of 137.9 to short the breakdown.",
+  "transcript": {
+    "macro": "RISK-OFF / defensive equity tape, semi/AI-capex rout. Fed projecting a 2026 hike; no buy-the-dip cushion. Tokenized equities - US cash closed, thin/gappy, gap risk at open - size down. ORCL bias SHORT: composite short (-0.251), 4h down, RSI 42, worst rel strength (-20.2% vs BTC), long/short 1.999 (maxed crowded long), structure_bias -0.303. Main risk: already down a lot, near support 137.9 (last 141.6) - a chase; prefer a lower-high at US open.",
+    "sentiment": "ORCL NEUTRAL-to-BEARISH (post-earnings drift). Blowout Q4/FY2026 on Jun 10 (rev +21% to $19.2B, cloud +47%, IaaS +93%, FY27 EPS $8.05) - catalyst spent, now bleeding. Digesting heavy $40B FY27 debt/equity financing. Only dated near item = ex-div/record Jul 10 ($0.50, minor). Weak tape argues path of least resistance = lower.",
+    "analyst": "Short bias is correct (weakest name, maxed crowded longs, 4h/30m downtrends) but the entry is wrong: at 141.64 price is only ~1.4xATR above 137.94 support after fading into the lower range on thin drying volume with no lower-high. Shorting into support off-hours with US-open gap risk is the 'sell the hole' chase macro warned against, and learner stats confirm trend-chase shorts bleed (avg -2.71 despite 70% raw win rate - losers outsize winners). Higher-EV: wait for a lower-high rally to 143-144 (VWAP/prior supply) for a short with room to 137.9, or short a decisive break below 137.7 toward the ~135/133 measured move.",
+    "portfolio": "HOLD ORCL - short bias, wrong entry; re-arm on break of 137.7 or a lower-high near 143-144."
+  },
+  "timestamp": "2026-07-08T06:28:36.503356+00:00"
+}

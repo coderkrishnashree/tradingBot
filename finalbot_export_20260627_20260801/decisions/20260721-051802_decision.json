@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "CL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.35,
+  "playbook": "none",
+  "forecast": "Price coils at VWAP (82.36) between 81.95 and 82.60; expect chop in this band for the next few bars until a geopolitical headline resolves it. A close under 81.95 opens 30m/4h short toward 81.4; a reclaim of 82.60 revives the 1h long / geo bid.",
+  "expectancy_note": "Mid-range at VWAP with conflicting TFs (30m/4h short vs 1h long) and the board's highest two-way gap risk = negative expectancy; no honest 1.5R stop survives a headline here.",
+  "rationale": "CL sits exactly at VWAP (dist -0.06%), RSI 40.6, %B 0.38 \u2014 not extended either way and with no nearby structural level to lean a stop on (support 72.66 / resistance 84.78 both >2.9% away). The 30m (-0.9) and 4h (-0.594) lean short but 1h popped long (+0.265) and it carries a live geopolitical bid, so direction is unresolved. As the single most headline-whippy name on the board, any 1.3%-ATR stop gets run by a peace/attack gap before structure plays out \u2014 HOLD is the highest-expectancy call. Size 0.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 81.95,
+    "expires_min": 240,
+    "note": "Losing the 81.95 intraday low confirms sellers (30m/4h short) win over the geo bid and opens a clean short toward 81.4."
+  },
+  "transcript": {
+    "macro": "CL has a live GEOPOLITICAL BID \u2014 WTI ~$82-83, Brent >$90, driver = US-Iran conflict (US bombing Iran 9 straight nights, Hormuz disruption, Houthi Red Sea threats). Extremely headline-whippy \u2014 de-escalation headlines cause 2% down days. Scan: structure_bias -0.24, 4h/30m short, 1h popped long (mixed). Negatively correlated to BTC/equities (-0.30), natural risk-off hedge. Event-driven: fast stops, no swing conviction.",
+    "sentiment": "CL is THE hottest event name. Brent >$90, ~20% MTD. Two-way headline risk is enormous \u2014 any peace-talk gaps DOWN, any attack gaps UP. Highest event-risk name on the board. Trade with wide stops / small size, or stand aside.",
+    "analyst": "CL 82.36: composite SHORT (blended -0.295), structure_bias -0.239, RSI 40.6, ADX 44.9, bb_pctb 0.38, vwap_dist -0.06% (AT VWAP), ATR% 1.28. Per-TF conflict: 30m -0.9 / 4h -0.594 short vs 1h +0.265 long; 15m/5m flat. Support 72.66 / resistance 84.78 both far. Mid-range at VWAP, conflicting TFs, board's highest two-way gap risk -> any 1.5R stop gets run by a headline. HOLD; arm downside below 81.95.",
+    "portfolio": "CL \u2014 HOLD (conf 0.35): mid-range at VWAP, highest headline gap-risk name; short only below 81.95."
+  },
+  "timestamp": "2026-07-21T05:18:02.383304+00:00"
+}

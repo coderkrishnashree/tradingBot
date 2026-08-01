@@ -1,0 +1,28 @@
+{
+  "symbol": "QQQ/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.4,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "none",
+  "forecast": "Price stalls 706-709 below the 708.79 spike high, likely chops 703-709 into the close; the real move is the overnight gap on GOOGL/TSLA earnings, not this pre-event drift.",
+  "expectancy_note": "p(win) ~0.5 either way but the binary earnings gap tonight makes any 1xATR (~5pt) stop meaningless \u2014 no edge justifies carrying risk into an unhedgeable gap; HOLD is highest expectancy.",
+  "rationale": "QQQ just ran +0.7% in three 15m bars into stretched 5m RSI 73.5 / stoch 77.9 and a flagged bearish divergence, with the last bar fading off the 708.79 high \u2014 chasing this long is the account's late-entry loss pattern. GOOGL + TSLA report after the close (sector-wide gap event), and the macro desk explicitly says do not hold QQQ long over the close. Orderbook (+0.33) and non-crowded L/S 0.87 keep the intraday bias mildly constructive, removing conviction for a short into support 688. Stand aside.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 702.7,
+    "expires_min": 180,
+    "note": "Losing the 703 pre-rally base confirms the bearish divergence and rejection, opening an intraday short toward 688 before the earnings-gap window."
+  },
+  "transcript": {
+    "macro": "Regime MIXED, cautious; Nasdaq -0.3%, tech soft. Hawkish Fed, DXY 13-mo high, 10Y ~4.5%. CRITICAL: GOOGL + TSLA report after close \u2014 sector-wide vol/gap event for QQQ tonight. QQQ structure_bias +0.14 (L/S 0.87 not crowded, OB +0.33) but bearish divergence. Do NOT hold long over the close.",
+    "sentiment": "QQQ NEUTRAL/mild BULLISH tilt. It IS the earnings tape \u2014 GOOGL tonight then MSFT/META/AAPL next week. Broad tone constructive (AI optimism), near-term leans mildly supportive, but expect index whip around each mega-cap print starting tonight.",
+    "analyst": "QQQ ran +0.7% into stretched 5m readings with bearish divergence, last bar fading off 708.79. Binary earnings gap tonight makes any stop meaningless; the desk says don't hold long over the close. Stand aside. HOLD, armed short below 702.7.",
+    "portfolio": "QQQ: HOLD (0.40) \u2014 no edge into tonight's GOOGL/TSLA earnings gap; do not carry over close."
+  },
+  "timestamp": "2026-07-22T14:31:46.408710+00:00"
+}

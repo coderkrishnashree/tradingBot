@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "MSFT/USDT:USDT",
+  "size": 0.0,
+  "entry": 392.26,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.66,
+  "playbook": "none",
+  "forecast": "Choppy grind in the 388-394 box over the next few bars; no clean directional edge until the box breaks. Most likely a stall/fade off the 394 rejection back toward 388-390 VWAP, but too shallow and event-blocked to trade.",
+  "expectancy_note": "Both directions <1.5R honest: long chases RSI 82 into earnings+FOMC (gap risk), short fades ADX 89 with no reversal confirm. No-trade beats a coin-flip with binary-event tail risk.",
+  "rationale": "MSFT is deeply overbought (4h RSI 82.2, bb_pctb 1.19, +1.37% over VWAP) after a strong ADX-89 run, sitting mid-range between support 378 and resistance 403 with the 15m tape stalling and rejecting 394 on fading volume - no clean pullback entry for a long and no reversal trigger for a short. Dominant factor is the DOUBLE binary inside 48h: MSFT earnings Wed Jul 29 after close plus FOMC same day, on a thin/gappy tokenized perp (OI 4,742) - any directional bet is exposed to an overnight gap that blows through any honest stop. Crowded-long structure (-0.20) argues against joining the long but is not a short setup into an uptrend and an event. Stand aside.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 388.0,
+    "expires_min": 240,
+    "note": "Losing 388 breaks the 388-394 coil and confirms the 394 exhaustion top, opening a clean short toward VWAP/378 with structure to lean on - worth re-debating (still event-sized)."
+  },
+  "transcript": {
+    "macro": "Regime MIXED/cautious, event-gated. Dominant risk = FOMC Wed Jul 29 (inside 48h); smaller size. MSFT: 4h RSI 82.2, ADX 89, bb_pctb 1.19 - deeply overbought/extended; structure_bias -0.20 from lopsided long/short 1.862 (contrarian). Thin perp (OI 4,742). MSFT reports earnings this week - a long buys an extended name into a binary event AND the Fed. Environment HOSTILE for a hours-to-days directional trade; if traded, size down hard, expect a gap. Tokenized perp thin/gappy when cash equity closed.",
+    "sentiment": "MSFT earnings Wednesday Jul 29 after US close - the single biggest stock-specific risk, same day as FOMC (double binary). Guidance Q4 rev $86.7-87.8B (13-15% growth); Azure/AI monetization vs rising capex the focus. Extremely stretched into the report (4h RSI 82, ADX 89). Direction-neutral until the print; off-hours thin/gappy.",
+    "analyst": "Extended equity mid-air into a double binary (earnings + FOMC same day) on a thin/gappy perp. 15m shows exhaustion: pushed 394, rejected to 390.5, grinding back on tiny volume. Long chases RSI 82 into earnings; short fades ADX 89 with no reversal confirm and pays gap risk. Neither has honest expectancy. HOLD; reconsider on loss of 388.",
+    "portfolio": "HOLD MSFT/USDT:USDT - extended into earnings+FOMC double binary, stand aside (conf 0.66)."
+  },
+  "timestamp": "2026-07-27T17:36:00.163404+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "ORCL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.58,
+  "playbook": "none",
+  "forecast": "Bounce off 120.36 is in progress; price grinds up from 123.36 toward the 125.3-126.1 rejection zone over the next 3-8 bars, where the downtrend should resume back toward 122/120.4.",
+  "expectancy_note": "Market-shorting 123.36 mid-bounce = the account's proven loser (shorts n=43, win 0.47, avg -0.94); waiting to short 125-126 gives ~1.5x better R:R to 120.4 vs a stop above 126.5.",
+  "rationale": "ORCL is a broken downtrend (ADX 60, all TFs down, crowded-long L/S 2.544) but near-term OVERSOLD (RSI 31-35) and actively BOUNCING off 120.36 support with a bid-heavy book (+0.536) - the last 6 candles are higher-lows closing near range highs. Shorting into this bounce is exactly the late-short-into-stretched-tape pattern the learner shows loses money. The high-expectancy trade is to sell the retest of 125-126 (VWAP/broken-support-turned-resistance), not to chase the low here, and no <48h catalyst forces the entry (earnings ~Sep).",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 125.5,
+    "expires_min": 240,
+    "note": "Reaching the 125-126 rejection zone gives a proper short entry with stop above 126.5 and target back to 120.4 - the R:R the downtrend deserves."
+  },
+  "transcript": {
+    "macro": "Mixed, cautiously risk-on session (S&P +0.63%, Nasdaq +1.02%); chips bouncing after a brutal week. Soft June CPI (headline 3.5%, core 2.6%) supports risk; Fed 3.50-3.75%. Funding ~0 across all six, but L/S uniformly crowded-long -> squeeze risk to downside. Event risk inside hold window: INTC 7/23, GOOGL 7/22 or 7/28, MSFT 7/28, FOMC 7/28-29. US-Iran weekend tension pushed oil ~$90. Tokenized equities move on equity beta, low BTC corr. ORCL = only clean short in set (composite -0.487, downtrend, ADX 60, most crowded-long L/S 2.544), but near-term stretched, expect bounces into 125-126.",
+    "sentiment": "ORCL bearish/broken: down ~43%, cratering on AI-datacenter capex fears, credit rating one notch above junk, and New Mexico blocked the pipeline for Oracle's 2.5GW data center project on July 17. No near-term earnings (next ~Sep 14). Decisively negative, no positive <=48h catalyst -> near-term news argues WITH a short.",
+    "analyst": "ORCL is a real downtrend but mid-bounce off oversold support - don't chase the short at 123.36 (the account's losing pattern); HOLD and arm a short on the retest into 125-126.",
+    "portfolio": "HOLD ORCL - clean downtrend but oversold/bouncing; arm a short into 125-126, don't chase the low."
+  },
+  "timestamp": "2026-07-20T16:43:56.314334+00:00"
+}

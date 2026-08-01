@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "XAUT/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Chop in the 4050-4068 band right at VWAP for the next few bars; the 4037->4068 spike has stalled and 5m momentum turned negative, so expect a drift/retest of 4050 before direction resolves \u2014 no clean 1.5R setup either way from here.",
+  "expectancy_note": "p(win) on a fresh long ~0.45 into the most crowded-long name (L/S 2.88, structure_bias -0.29) with resistance far at 4167; entry at VWAP with no edge fails the R:R test \u2014 HOLD is highest expectancy.",
+  "rationale": "XAUT just spiked 4037->4068 then faded and is coiling in a tight 4050-4068 range at VWAP (dist +0.33%, ADX 23.4 borderline-range, BBW 2.91% squeezed). It is the most crowded-long name in the set (L/S 2.883, structure_bias -0.286), so chasing the pop into that positioning is exactly the late-entry trap; yet price is not extended enough (only +0.33% from VWAP, RSI 48.9) to short cleanly. No structural level is close enough to give 1.5R, so I wait for the squeeze to resolve rather than force a mid-range trade.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 4068.5,
+    "expires_min": 240,
+    "note": "reclaiming and holding above the 4068 spike-high proves the pullback is done and opens continuation toward 4100+, flipping this to a trend long"
+  },
+  "transcript": {
+    "macro": "2026-07-15 14:29 UTC. Cautiously RISK-ON tape. Gold ~$4,032, down from Jan $5,595 high (-28%). Soft CPI/PPI + easing DXY gave a bounce toward $4,080 then faded. Real yields (10y 4.56%) still the headwind. L/S 2.88 = MOST crowded-long name in the set (contrarian caution). Risk-hedge muted in risk-on tape. Gold 24/7 (no session gap). Hormuz safe-haven bid provides a floor.",
+    "sentiment": "2026-07-15. Only <=48h binary is TSM. XAUT (gold): mildly bullish, macro-driven \u2014 soft CPI (Jul14) lifted gold ~2% to ~$4,080, safe-haven bid from Hormuz; no scheduled <=48h data, any Fed-speak/geopolitical headline moves it; ~28% below Jan highs, rangebound. Neutral-to-bullish.",
+    "analyst": "XAUT last 4053.3, ADX 23.4 (borderline range), RSI 48.9 neutral, BB %B 0.578, BBW 2.91% (tight/coiling), vwap_dist +0.33%, ATR% 0.72%, support 3981 / resistance 4167.9. L/S 2.883 most crowded long, structure_bias -0.286. p_win_learned 0.754. Tape: 4037->4068 spike then rolled over, now chopping 4050-4060 at VWAP; 5m momentum negative. Not extended enough to short, no fresh long trigger, resistance far. HOLD; re-arm trend long on hold above 4068.5.",
+    "portfolio": "HOLD XAUT \u2014 coiling at VWAP, most crowded-long name; no 1.5R setup. Reconsider long above 4068.5."
+  },
+  "timestamp": "2026-07-15T14:39:31.810871+00:00"
+}

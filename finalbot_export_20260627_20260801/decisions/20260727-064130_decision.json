@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "ORCL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Price likely keeps chopping in the 117.0-118.0 pocket around VWAP into FOMC; low-conviction upward drift with high odds of a flush if the crowded long book unwinds Wed. No clean directional move in the next few candles.",
+  "expectancy_note": "p(win) ~0.5 either way; no R:R edge \u2014 mid-range at VWAP, %B 0.54, ADX 34 gives neither a fade extreme nor a trend pullback. HOLD beats a crowded-long chase into a binary event.",
+  "rationale": "ORCL is the weakest long in the book: structure_bias -0.66 (funding 0.20% extreme, L/S 2.28 crowded long), rel-strength -22.5%, sitting exactly at VWAP mid-range between 113 support and 129 resistance with %B 0.54 \u2014 no fade extreme and no trend pullback to enter on. The 15m tape is a thin higher-low grind into an FOMC binary flagged as flush risk. A market long chases a tired move with the crowd already max-long; no short edge either with a mild uptrend and ADX 34. Size 0.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 118.6,
+    "expires_min": 240,
+    "note": "Clearing the 117.71 rejection and holding above 118.6 on volume proves real momentum, opening a trend-continuation long toward 120+."
+  },
+  "transcript": {
+    "macro": "Regime MIXED-to-HOSTILE for fresh risk. FOMC Jul 28-29 (Wed 2pm ET) binary event; mega-cap earnings week; fragile US-Iran truce; sharp semi selloff. Crypto downtrend, F&G ~29. Cross-cutting: crowded-long book, positive/extreme funding, RSI 70s-80s, flush risk into the Fed. Big tech (MSFT/ORCL/QQQ): ORCL structure_bias -0.66 (funding 0.20%, L/S 2.28 crowded long), rel-strength -22.5 (badly lagging). Verdict: smaller size, avoid fresh full-size longs held through FOMC.",
+    "sentiment": "Wed Jul 29 event wall (FOMC + mega-cap earnings). ORCL: NO near-term catalyst (next earnings Sep 14); long-horizon AI/cloud narrative only; moves as beta-to-Nasdaq into FOMC. Neutral \u2014 cleaner than the event-heavy names for a short-horizon technical trade, subject to FOMC beta.",
+    "analyst": "ORCL is the lowest-conviction long in the scan and structurally the most crowded (bias -0.66, funding 0.20%, L/S 2.28) while lagging peers 22%. Parked at VWAP mid-range (113 support / 129 resistance, %B 0.54) with a thin higher-low grind \u2014 no mean-reversion extreme to fade and no trend pullback to buy. Chasing this into Wed FOMC with the book already max-long is the classic late-long-into-a-flush trap. HOLD; re-engage long only on a volume reclaim above 118.6.",
+    "portfolio": "HOLD flat \u2014 weakest long in the book, mid-range at VWAP into FOMC; long only on a volume break >118.6."
+  },
+  "timestamp": "2026-07-27T06:41:30.070082+00:00"
+}

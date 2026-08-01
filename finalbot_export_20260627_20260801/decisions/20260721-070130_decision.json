@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "NVDA/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.58,
+  "playbook": "none",
+  "forecast": "Coiling under the 205.3-205.4 ledge after a clean 203.4->205.1 run; in thin US-closed tape with an ask-heavy book and 30m RSI ~88, most likely a shallow drift/pullback toward VWAP ~203.8-204.0 before the uptrend decides.",
+  "expectancy_note": "Market long here buys the stall into a crowded-long, ask-heavy, overbought-ST tape; RR poor without a pullback. Wait for a 203.9 retest OR a 205.4 volume break.",
+  "rationale": "NVDA is in a genuine uptrend (ADX 46, multi-TF long, at VWAP so not extended), which rules out shorting a strong trend in off-hours on a -0.23 structure_bias. But it's stalled under 205.4 with an ask-heavy book (-0.136), crowded long (L/S 1.59), 30m RSI 88, a -9.4% relative laggard in a thin, US-closed, mildly risk-off session - a market long buys the stall into the crowd. Highest-expectancy move is to wait. Size 0.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 205.45,
+    "expires_min": 240,
+    "note": "A volume-backed reclaim of the 205.4 ledge proves the coil resolved up, turning this into a long-with-trend entry."
+  },
+  "transcript": {
+    "macro": "Mildly risk-off, thin off-hours session (US cash CLOSED - tokenized-equity perps gappy). VIX 18.77. Fed priced ~90% HOLD Jul 28-29, dot plot flags possible HIKE later 2026 (no dovish rescue), yields up. Semis/AI complex fundamentally strong (SOX +47% YTD) but CROWDED-LONG and overbought; NVDA long/short 1.59, structure_bias -0.23. NVDA lags BTC -9.4%. SIZE DOWN. Dominant risk: GOOGL/TSLA earnings 7/22.",
+    "sentiment": "NVDA: no own earnings until 8/26 (not a 48h catalyst); MSFT 7/29 is a read-through only. AI-semi tape strong (TSM/MU blowouts, HBM sold out through 2027). Momentum-positive, no imminent binary, technically stretched.",
+    "analyst": "Healthy uptrend (ADX 46, at VWAP, not extended) so no short; but stalled under 205.4 ledge, ask-heavy book, crowded long, 30m RSI 88, off-hours thin -> a market long chases the stall into the crowd. Wait for 203.9 dip-retest or a 205.4 volume break. HOLD, size 0.",
+    "portfolio": "HOLD NVDA - no chase into a stalled, crowded-long ledge; armed long trigger at a 205.45 breakout."
+  },
+  "timestamp": "2026-07-21T07:01:30.194425+00:00"
+}

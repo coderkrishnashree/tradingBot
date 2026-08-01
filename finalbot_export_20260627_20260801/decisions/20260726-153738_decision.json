@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "SOL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price chops 74.7-75.4 around VWAP over the next few bars; no edge until it either reclaims ~76.5 toward the 78.86 resistance or loses the 73.39 shelf. Base case: range-bound drift into FOMC.",
+  "expectancy_note": "No 1.5R setup at 75.17 (VWAP-pinned, support 73.4 / resistance 78.9 ~equidistant); ADX 22.7 = no trend, crowded L/S 2.89 + rel_str -9.9% + FOMC in-window make a long negative-EV and shorts are the account's proven losing book.",
+  "rationale": "SOL is glued to VWAP mid-range with ADX 22.7 (no trend), a weak 0.229 composite, and is pure BTC-beta (corr 0.84) lagging -9.9% - no leadership. Crowded longs (L/S 2.89, bias -0.32) plus FOMC July 28-29 inside the 48h window and Extreme Fear make a fresh long negative-expectancy, while the learner shows shorts bleeding (47% win, -0.78 avg). No honest 1.5R entry exists here, so flat is the highest-expectancy stance.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 76.5,
+    "expires_min": 240,
+    "note": "Reclaiming 76.5 shows the ETF bid is beating BTC-beta drag and opens a run at 78.86 / the >80 trigger, converting this to a valid trend-continuation long."
+  },
+  "transcript": {
+    "macro": "Regime MIXED->HOSTILE for new longs; FOMC July 28-29 inside window. SOL most BTC-tethered (corr 0.84); modest long bias but crowded (L/S 2.89, bias -0.32) and lagging BTC -9.9% - underperforming, not leading. Pure BTC-beta long.",
+    "sentiment": "Overall RISK-OFF; crypto Extreme Fear (F&G 27), BTC ~$64k after $225M ETF outflow. SOL mildly bullish catalyst: Morgan Stanley spot SOL ETF won NYSE Arca approval July 24 (5 ETFs now live, >$1.12B inflows) - real fresh positive. But Extreme Fear + 0.84 BTC corr cap it; holding $73, needs >$80 to trigger.",
+    "analyst": "Glued to VWAP mid-range, ADX 22.7 (no trend), weak 0.229 composite; pure BTC-beta lagging -9.9%. Crowded longs + FOMC + Extreme Fear make a long negative-EV; learner shows shorts bleeding. No honest 1.5R entry. Hold; reclaim >76.5 opens the run.",
+    "portfolio": "HOLD SOL (conf 0.60) - VWAP-pinned no-trend BTC-beta laggard; wait for reclaim >76.5."
+  },
+  "timestamp": "2026-07-26T15:37:38.265776+00:00"
+}

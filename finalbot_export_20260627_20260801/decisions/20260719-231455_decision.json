@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "TSM/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Thin weekend drift between 399.6 and 402.2 with no momentum; last 15m bar rolled over at VWAP closing on its low. Expect continued low-liquidity chop into Monday's cash open, which will GAP and resolve direction \u2014 not tradeable now.",
+  "expectancy_note": "Aligned-long scores but crowded-long (L/S 2.47, maxed) + negative orderbook + structure_bias -0.37 + RS -19.8% are the two most loss-predictive features in the learner (weights -0.466, -0.389); no clean trigger and gap risk kill R:R either way.",
+  "rationale": "Technicals read cleanly long and aligned 15m-4h at VWAP, but this is a tokenized equity on a closed, thin weekend with Monday gap risk, sitting in a semiconductor bear market after a sell-the-news drop. The bullish 'trend' is manufactured on dead-volume weekend candles while structure (2.47 crowded long, negative orderbook, -0.37 bias) and -19.8% relative strength \u2014 the account's most loss-predictive conditions \u2014 argue the opposite. No honest R:R exists on either side into a gap, so flat is the highest-expectancy call.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 402.2,
+    "expires_min": 240,
+    "note": "Reclaiming the recent intraday high on real volume would prove genuine demand over crowded-long risk and justify re-debating a continuation long."
+  },
+  "transcript": {
+    "macro": "2026-07-19 Sun ~23:07 UTC \u2014 WEEKEND, US cash equities CLOSED; all tokenized-equity pairs on thin weekend liquidity and will GAP at Monday open \u2014 size DOWN across the board. Tape = semiconductor bear market (SOX >20% off June peak, chips shed ~$3.3T on 'AI-needs-less-compute' fears from Kimi K3); Nasdaq -2.9% wk, S&P -1.5%. Backdrop favors fading crowded semi longs over fresh longs. Crypto weak/risk-off: BTC ~$64.5k relief bounce off a 21-month low, dominance ~56-60%, June record -$4.5B BTC ETF outflows; BTC 4h RSI72/ADX71 extended but funding flat & OI not confirming (bounce, not durable trend). TSM beat + raised guide yet sold off (crowded-long unwind, L/S 2.47). INTC/MU/SNDK = epicenter of the rout, crowded longs (L/S 2.1-2.6) into a falling knife, deeply negative RS. META is the relative outperformer (RS +4.9%). EWY (Korea) whipsaw, BoK first hike since Jan-2023 (+25bp to 2.75%), semi-heavy/gappy. MSTR = BTC-beta (0.74 corr). Net: environment does NOT broadly support fresh longs; only META + a tactical BTC/MSTR bounce lean small-long; weekend gap risk overrides all.",
+    "sentiment": "2026-07-19 \u2014 Friday 7/17 closed risk-off on a semiconductor rout (SOX ~-13% in a month); FOMC Jul 28-29 (hold expected). US markets CLOSED (Sunday), equity pairs thin/gappy. HARD catalysts: INTC Q2 earnings Jul 23 (~4 days \u2014 do NOT hold size into it); META Q2 Jul 29; FOMC Jul 28-29. Per name: META bearish/caution tilt; TSM bullish fundamentals (Q2 beat Jul 16, +36% YoY) but sell-the-news + sector-contagion risk, lean neutral/cautious-long; QQQ neutral (heavy earnings week, GOOGL/TSLA Jul 22); BTC bullish tilt / cleanest long (ETF inflow reversal +$191M ending 10-day outflow streak, CLARITY Act optimism); EWY HIGH caution two-sided (Samsung+SK Hynix ~half of KOSPI, swinging 6-9%/day); SNDK bearish/caution (NAND +200% in 3mo then -15% on the month, RSI 21 = knife-catch); INTC hard-catalyst high caution; MU bearish/caution (memory, record DRAM ASPs but -10%+, 4h bullish divergence = bounce signal); MSTR neutral BTC-proxy (started SELLING BTC ~$216M, booked $8.3B Q2 digital-asset loss).",
+    "analyst": "Cleanly aligned long 15m-4h at VWAP, but the 'trend' is manufactured on dead weekend volume; last bar rolled over closing on its low. Crowded long (L/S 2.47 maxed), negative orderbook, structure_bias -0.37 and RS -19.8% are the account's most loss-predictive features. Sell-the-news drop + Monday gap = no honest R:R either side.",
+    "portfolio": "HOLD TSM \u2014 bullish print already faded; crowded-long structure + gap risk; re-debate long only on a 402.2 reclaim."
+  },
+  "timestamp": "2026-07-19T23:14:55.506891+00:00"
+}

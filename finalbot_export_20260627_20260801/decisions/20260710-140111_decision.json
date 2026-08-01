@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "GOOGL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Chop-to-slight-bounce between 355.1 and 358.4 over the next few bars: last bar recovered off the 356.0/355.1 flush and closed mid-range, so a knife-catch short here gets bounced and a long lacks 30m/1h confirmation. Expect price to test 351.78 support or reclaim 358.4 before a tradable leg develops.",
+  "expectancy_note": "p(win) on either mid-air entry ~0.45 with poor R:R; ADX 72 + RSI 28-31 + -1.65% vs VWAP = late-short trap (account's #1 loser: shorts 50% win, -1.67 avg), long is unconfirmed counter-trend. Waiting for the 351.78 break/retest or 358.4 reclaim beats both now.",
+  "rationale": "GOOGL composite is only weakly short (-0.40, 50% conf) and the down-move is exhausted (ADX 72, RSI 28-31, -1.65% below VWAP) with 30m/1h now flat \u2014 a short is chasing the account's documented late-short loss pattern, and a long into support without reversal confirmation is a knife-catch. Trapped-long funding + June CPI Tue add weekend duration risk to any carry. Highest-expectancy play is to stand aside and let price prove direction at the 351.78 support pivot; no size justifies a mid-air entry here.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 351.78,
+    "expires_min": 240,
+    "note": "Losing 351.78 support on volume confirms the down-leg is resuming (not exhausted), turning a valid short live on the break/retest rather than the current stretched knife-catch."
+  },
+  "transcript": {
+    "macro": "Regime RISK-ON but late-stage/stretched (Nasdaq +1.3% Fri to 26,207, AI/megacap led, complex overbought QQQ RSI 70, narrow leadership). Trade as EQUITIES not crypto (low BTC corr 0.13). KEY EVENT RISK: June CPI Tue July 14 inside hold window \u2014 hot print hits long-duration megacap tech hardest; carry smaller over weekend. FOMC Jul 28-29 priced HOLD, hawkish tilt. Scan ~1h before US cash open \u2192 thin/gappy pre-open air-pockets. GOOGL: weakest/most conflicted; composite short -0.40 but 30m/1h flat, ADX 72 exhausted, RSI 28-31 oversold, near support 351.78; funding +0.00023 (trapped longs), L/S 1.66; earnings July 22 outside 48h. Short is late, long is counter-trend \u2014 fade extremes only, small.",
+    "sentiment": "GOOGL (Alphabet): constructive but cautious. +15% YTD, ~12% off 52wk high on capex fears ($190B 2026 capex crushed FCF margin 21%\u2192~9%). Q2 earnings July 22 (~12 days out, OUTSIDE 24-48h window). Cloud +63% YoY is swing factor. 48h read: NEUTRAL \u2014 no dated catalyst in window, drifts with Nasdaq/AI tape.",
+    "analyst": "GOOGL is the most conflicted equity perp in the scan. Composite leans short but only weakly (-0.40, 50.1% conf) and the down-leg is exhausted not fresh \u2014 ADX 72, RSI 28-31 across lower TFs, price -1.65% below VWAP and ~1.5% above the 351.78 support shelf, 30m/1h flat. Shorting here is the late-into-stretched-tape pattern that has bled this account (18 shorts, 50% win, -1.67 avg; trend playbook -3.0 avg) because a routine counter-bounce hits any honest stop before continuation. A long has better location (oversold at support, trapped longs on positive funding could squeeze) but no 30m/1h confirmation and no bullish divergence \u2014 a knife-catch \u2014 and June CPI Tuesday plus weekend gap risk argue against carrying an unconfirmed counter-trend long. Neither entry clears a 1.5R hurdle from 357 mid-range, so HOLD is highest-expectancy with a reconsider armed at the decisive 351.78 support.",
+    "portfolio": "HOLD GOOGL (conf 0.60) \u2014 stand aside; arm short on a clean break/retest of 351.78 support."
+  },
+  "timestamp": "2026-07-10T14:01:11.774465+00:00"
+}

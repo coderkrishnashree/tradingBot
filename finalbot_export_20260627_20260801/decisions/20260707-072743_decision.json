@@ -1,0 +1,27 @@
+{
+  "action": "hold",
+  "symbol": "QQQ/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "expectancy_note": "Fresh short at 718 into oversold lower-band (%b 0.044) with stacked bids (+0.503) and 5m dead-cat bounce = selling the low; ~$12 to support vs ~$8 stop, R:R ~1.5 but low p(win) with cash CLOSED and zero funding tell. HOLD has higher expectancy than either a chase-short or a countertrend long.",
+  "rationale": "Downtrend is real on 30m/1h (score -0.9, RSI ~36) but price is pinned at the lower Bollinger band, near VWAP (-0.48%), with orderbook bids stacked underneath (+0.503) fighting the move \u2014 classic oversold-into-support setup that punishes fresh shorts. US cash market is CLOSED (scan 03:22 ET), so pricing is thin/stale, funding is 0.0 (no crowding read), and the only dated catalyst (CPI Jul 14) is outside my 48h window. No live edge in either direction; wait for the 09:30 open to confirm whether support breaks or bids defend.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 705.83,
+    "expires_min": 480,
+    "note": "Losing support 705.83 breaks the bids and confirms downtrend continuation \u2014 flips me to a live tactical short with real momentum instead of selling into the band."
+  },
+  "transcript": {
+    "macro": "Regime mildly risk-on but cooling: Wall St record Mon Jul 6, overnight NQ futures fading -0.9%. QQQ IS the Nasdaq-100 proxy so overnight NQ weakness bites here most; BTC corr 0.446 (highest of three) but still equity-driven, RS +0.22% neutral. CRITICAL: scan ~03:22 ET, US cash CLOSED (opens 09:30 ET) \u2014 thin/stale pricing, funding 0.0 (no crowding tell). QQQ last ~718.03, comp SHORT 42.5%. MIXED: 30m/1h/4h short (RSI ~36-42, %b0.044 pinned at LOWER band) but 5m popped long (RSI 81.7 dead-cat). Structure_bias +0.124 from stacked bids (OB +0.503) fighting downtrend; sitting near support 705.83. Verdict: MIXED \u2014 lean STAY OUT / small tactical short only; if forced, small short toward 705, not a fresh position into oversold.",
+    "sentiment": "QQQ NEUTRAL-to-BEARISH into July 14 CPI; macro is the only driver, no single-name catalyst. Hawkish Fed overhang (June dot plot leans toward a HIKE on 4.2% YoY May CPI). AI capex supercycle is a multi-quarter bull offset, not a 48h mover. No scheduled binary inside 48h; CPI July 14 (outside window) is the dated gap risk.",
+    "analyst": "Genuine downtrend on 30m/1h/4h but price is oversold at the lower band (%b0.044), near VWAP (-0.48%), with stacked bids (+0.503) underneath and a 5m dead-cat (RSI 81.7). ADX only 29. A fresh short at 718 sells the low: ~$12 to support 705.83 vs ~$8 stop above the bounce, R:R ~1.5 but low p(win) with cash CLOSED, zero funding tell, no confirmation. No long either \u2014 that's buying a confirmed multi-TF downtrend on a 5m pop. Highest EV = HOLD until the 09:30 open resolves the band; armed short trigger on a break below 705.83.",
+    "portfolio": "HOLD QQQ/USDT:USDT \u2014 genuinely mixed, oversold at support with stacked bids on closed-market tape; armed tactical short below 705.83."
+  },
+  "timestamp": "2026-07-07T07:27:43.903125+00:00"
+}

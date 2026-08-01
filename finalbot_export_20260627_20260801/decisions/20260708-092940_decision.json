@@ -1,0 +1,28 @@
+{
+  "symbol": "TSLA/USDT:USDT",
+  "action": "hold",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.55,
+  "playbook": "none",
+  "forecast": "Price is grinding lower into the 389.91 support shelf after a 15m flush from 403.7; lower-TF RSI (15m 24, 5m 15.7) is already oversold pre-US-open, so the next few bars likely either chop 396-399 or bounce off 389.9 before the real directional resolution at the 13:30 open.",
+  "expectancy_note": "Short here has p(win)~0.45 and only ~1.3 R:R with an honest stop above 402 vs the 389.9 target; chasing an oversold flush into support in thin pre-open tape is negative expectancy \u2014 better to wait for the support break or a reclaim.",
+  "rationale": "TSLA is composite regime-blocked (ADX 4, chop) with a 15m short-breakout that has already run ~1.7% into deeply oversold lower-TF RSI, sitting just ~1.7% above 389.91 support \u2014 a shorter's entry is mid-air with snapback risk into the US open. A valid short needs its stop above the 402 shelf, which collapses R:R below the 1.5 gate. Macro risk-off and orderbook -0.45 favor eventual downside, so I want the confirming break of 389.91 rather than to fade into support pre-open. No <=48h catalyst (earnings Jul 22) forces action.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 389.91,
+    "expires_min": 300,
+    "note": "Losing 389.91 support confirms the breakout continuation and opens a clean short with a stop back above the shelf; a reclaim of 402 would kill the short thesis."
+  },
+  "transcript": {
+    "macro": "Risk-off/defensive: semi sell-off, Nasdaq -1.2%, VIX ~18. Rotation OUT of megacap tech. Universal short-crowding (retail long into falling tape) supports continuation-down but snapback risk. Trade smaller; equity tokens best after US open ~13:30 UTC. TSLA: 15m short breakout (vol 2.71x), orderbook -0.45, L/S 1.51, BUT composite regime-blocked (chop, ADX 4).",
+    "sentiment": "TSLA neutral near-term. Q2 deliveries (~480k, released ~Jul 2) beat ~406k consensus \u2014 already priced/behind us. Next binary Jul 22 earnings (outside 48h). Treat as index/beta-driven this cycle. No <=48h catalyst.",
+    "analyst": "Short-breakout real but already ~1.7% into oversold lower-TF RSI, only ~1.7% above 389.91 support in thin pre-open tape; honest stop above 402 drops R:R below 1.5. Wait for confirming break of 389.91 or reclaim of 402. HOLD, size 0.",
+    "portfolio": "TSLA: HOLD \u2014 chop/oversold into support; arm continuation short on break of 389.91. Conf 0.55."
+  },
+  "timestamp": "2026-07-08T09:29:40.512041+00:00"
+}

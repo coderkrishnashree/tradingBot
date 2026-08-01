@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "CL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price basing 82.4-83.0 after the drop, volume dried up; most likely a relief bounce toward 83.8-84.2 (broken support/VWAP retest) over the next 4-8 bars before downtrend can resume.",
+  "expectancy_note": "Short here is a late chase: RSI 17.8, %B 0.057, VWAP -4.33%. Account shorts win only 0.44/-0.92R; stretched shorts get stopped by the bounce. Waiting for a bounce-to-retest short is far higher expectancy.",
+  "rationale": "All TFs align short but price is deeply stretched (RSI 17.8, stoch 7.6, -4.33% VWAP) and the last 6 bars are basing on dried-up volume, not breaking down \u2014 classic pre-bounce coil. FOMC (Jul 28-29) inside the window plus the supply-shock tail (any Hormuz/tanker headline gaps price up) make a market short low-expectancy, and this account bleeds precisely on late stretched shorts. Want to short a bounce into 84.2/VWAP or a clean break-and-retest of 79.65, not chase 82.63.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 84.2,
+    "expires_min": 240,
+    "note": "A bounce to 84.2 (broken support turned resistance / VWAP retest) unwinds the oversold stretch and offers a proper short entry with honest ~1x ATR risk."
+  },
+  "transcript": {
+    "macro": "Regime MIXED, event-gated. BTC ~$64.9k, dominance ~58%, no alt rotation. Equities soft, semis dumping on China DUV-lithography scare. Crude sold off ~$82-83 on Iran-truce unwind. Dominant catalyst: FOMC Jul 28-29 (hold priced 82-93%) INSIDE the 48h window. Big-tech earnings (MSFT et al.) next week. Funding ~0 across board (not a usable crowding signal) \u2014 lean on L/S skew and OI. Backdrop argues smaller size on all longs; crude short cleanest alignment but carries OPEC (Aug 2)/inventory risk. Biggest shared risk: hawkish FOMC hits all longs + crowded L/S books at once.",
+    "sentiment": "SOL constructive: rebounded ~16% to mid-$70s (1B+ weekly txns, E*TRADE spot SOL, MS NYSE Arca spot-SOL-ETF pending); no <=48h binary; 0.85 corr to BTC drives near term. CL standout: WTI choppy mid-$80s after >$92 spike on Mid-East supply fear then fell; HARD BINARY OPEC+ Aug 2 (~188kbpd Sept hike); Hormuz/tanker tail gaps price up \u2014 RISK to the short. COIN EARNINGS BINARY: Q2 Thu Jul 30 after close; Q1 badly missed (EPS -$1.49 vs +$0.29), CLO Grewal departing; elevated IV/gap risk. INTC: blowout Q2 fired Jul 23 (EPS $0.42 vs $0.20, rev $16.1B, DC +59%), now priced/fading; no further <=48h binary. MSFT BIGGEST 48h binary: Q4 tomorrow Wed Jul 29 after close; EPS ~$4.24, rev ~$87.6B; Azure vs >$40B CapEx the swing; options price ~7-8% move; stretched RSI 83.",
+    "analyst": "CL deeply oversold (RSI 17.8) and basing, not breaking down; late short = account's loss pattern into OPEC/FOMC tail risk. HOLD; short a bounce to 84.2 or a clean 79.65 break-retest.",
+    "portfolio": "HOLD CL \u2014 stretched short into OPEC/geopolitical tail, wait for bounce."
+  },
+  "timestamp": "2026-07-27T18:35:16.222862+00:00"
+}

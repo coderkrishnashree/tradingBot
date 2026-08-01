@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "MU/USDT:USDT",
+  "size": 0.0,
+  "entry": 977.94,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Price is coiling 976-980 after basing at 974.5; likely chops in this band or bounces toward 985-990 (VWAP reclaim) before the trend resolves. No clean directional edge in the next 2-4 bars.",
+  "expectancy_note": "Short here is a late trend-continuation into 1h RSI 29 oversold with no nearby target (support 876 is 10% away) and stop above 987 = negative R:R; range fade has no band extreme. HOLD beats both.",
+  "rationale": "MU is in a genuine downtrend (all TFs short, RS -16%) but is OVERSOLD on 1h/30m (RSI 29/32) and has stopped falling - the last 9 candles coil tightly 976-980 on fading volume, a base not a fresh impulse. Chasing a short here is exactly this account's #1 loss pattern (late shorts into stretched tape; trend-playbook win 44%, avg -2.89R), compounded by bullish HBM/AI fundamentals (squeeze risk), a closed underlying, and Monday gap risk. There is no honest R:R>=1.5: nearest short target (876) is 10% away while a valid stop sits above 987. Size 0 - wait for the base to break.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 974.4,
+    "expires_min": 240,
+    "note": "Losing the base low 974.51 confirms the down-leg resuming and opens a clean momentum short toward 960/876 with a tight stop back inside the base."
+  },
+  "transcript": {
+    "macro": "Cycle 2026-07-12 ~01:56 UTC, SUNDAY - US cash equity CLOSED; MU token trades with underlying shut (thin books, Monday gap risk). Q2 earnings season kicks off week July 13 - elevated single-name semis gap risk. Semis are the epicenter of volatility, big two-way swings, earnings-driven. MU (977.94): downtrend all TFs (1h RSI 29, 30m 32), RS very weak -16.18% vs BTC (genuine laggard), structure_bias -0.214. Short supported but OVERSOLD on 1h. MU 0.81 correlated to EWY/SNDK - same semis bet, avoid stacking.",
+    "sentiment": "Big binary ALREADY PASSED: reported June 24, blew out guidance (~$50B next-Q rev vs ~$43.6B est), ~$100B binding HBM/AI contracts, sold out through 2026, HBM4 for NVIDIA - fundamentally very bullish. But stock pulled back ~22% from highs, caught in this week's semi sell-off. No fresh <=48h catalyst; 'great story, weak tape, weekend' name. Fundamentals are a squeeze risk against a short - keep any short tight. Neutral-to-cautious.",
+    "analyst": "Genuine downtrend but OVERSOLD 1h/30m and price has stopped falling - last 9 candles coil 976-980 on fading volume (base, not impulse). Chasing a short is the account's #1 loss pattern (trend/short 44% win, -2.89R) plus bullish HBM squeeze risk, closed underlying, Monday gap. No honest R:R>=1.5 (target 876 is 10% away, valid stop above 987). HOLD with price_below 974.4 trigger.",
+    "portfolio": "MU: HOLD (conf 0.50) - real downtrend but oversold/basing, no R:R; armed momentum short below 974.4."
+  },
+  "timestamp": "2026-07-12T02:04:25.993668+00:00"
+}

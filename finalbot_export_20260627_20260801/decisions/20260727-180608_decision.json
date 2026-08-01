@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "GOOGL/USDT:USDT",
+  "size": 0.0,
+  "entry": 326.47,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.4,
+  "playbook": "none",
+  "forecast": "Low-momentum bleed continues to coil around 325-327 near-term; no clean impulse yet. A break under 325.0 turns the drift into a real leg toward 322/319; a reclaim of 330.5 flips it bullish.",
+  "expectancy_note": "No edge: long fights crowded 2.64 L/S, -13.7% rel-str, orderbook -0.155 and a -0.6 5m short read; short has structure tailwind but the learner shows shorts bleeding (0.45 win, -0.85 avg), price mid-range with no tight-stop level, and FOMC Wed + off-hours gap risk. Neither gives R:R >= 1.5 on a <=1.5xATR stop.",
+  "rationale": "GOOGL is grinding lower on shrinking volume (bars closing near lows) but only drifting, stuck mid-range between 315 support and 360 resistance with nothing to anchor a tight stop against. Structure (crowded longs, negative orderbook/bias, -13.7% rel-str, post-earnings capex overhang) leans short, but the account's shorts have been losing money and there's no confirmed impulse yet, so chasing here is low-expectancy. Size 0 until price picks a side of the 325-330.5 coil.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 325.0,
+    "expires_min": 240,
+    "note": "Losing 325 breaks the base of the coil and turns the low-momentum bleed into a real short leg toward 322/319; re-debate for a short entry then."
+  },
+  "transcript": {
+    "macro": "Regime MIXED-to-CAUTIOUS. FOMC Wed Jul 29 (hold, hawkish lean, ~73% Dec hike odds) + MSFT/META same day, AAPL/AMZN Thu; smaller size, tighter holds. Tech-heavy selloff today (Nasdaq -0.6%, SMH -3% AI/chip selloff), WTI -7%. No risk-on. GOOGL: Alphabet already reported (capex-driven selloff the live worry); rel-str -13.7% vs BTC, L/S 2.64 crowded longs, orderbook -0.155; AI-capex crosshairs; thin off US hours; longs unsupported by tape.",
+    "sentiment": "FOMC Jul 28-29 master catalyst, hawkish lean. GOOGL: earnings Jul 22 \u2014 revenue beat ($119.8B) but stock SANK on capex hike to $205B. Trading a post-earnings stock that reacted negatively; residual downside drift/volatility a live risk, off-hours tokenized trading can gap. Next equity-macro driver is FOMC. Near-term news argues cautiously against chasing a long.",
+    "analyst": "GOOGL popped to ~330.5 then bled lower in a quiet, low-volume coil (bars closing near lows), mid-range between 315 and 360 with no tight-stop level nearby. Composite 'long' only 40% confidence, aligned=false, 5m -0.6 (short). Structure leans short but shorts have bled this book and there's no impulse yet; FOMC Wed + off-hours gap risk. Neither side gives R:R>=1.5. Wait for a 325 break (short) or 330.5 reclaim (long).",
+    "portfolio": "HOLD GOOGL - low-momentum coil, no edge; wait for 325 break or 330.5 reclaim."
+  },
+  "timestamp": "2026-07-27T18:06:08.874544+00:00"
+}

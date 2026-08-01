@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "QQQ/USDT:USDT",
+  "size": 0.0,
+  "entry": 695.62,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Deeply oversold (RSI 21.7 4h / 26.7 5m, ADX 76.7 unsustainable) into thin weekend liquidity; base case is a mean-revert bounce off 695.5 toward VWAP ~710, then either a lower-high to short OR a clean break of 688.09 support that confirms continuation.",
+  "expectancy_note": "p(win) ~0.40 on a fresh short (learned p_win 0.37, RSI stretched, weekend proxy); market short is a chase with sub-1.5 honest R:R into oversold tape.",
+  "rationale": "QQQ is the cleanest short-aligned name directionally (ADX 76.7, orderbook -0.837, rel-strength -7.86%), but every timeframe RSI is deeply oversold (4h 21.7, 1h 27.9, 5m 26.7) and price sits -2.1% below VWAP - the extended-move-into-stretched-tape setup that gets stopped by a routine bounce, and learned p_win 0.37 confirms shorts here bleed. On a closed weekend market a market short is a chase. Wait for a bounce toward 700-710 to short, or a decisive break of 688.09 to short continuation.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 688.09,
+    "expires_min": 240,
+    "note": "Losing 688.09 support flushes the oversold coil into trend continuation - a break-and-retest is a clean short entry."
+  },
+  "transcript": {
+    "macro": "2026-07-18 Sat, US equities CLOSED weekend. Neutral-to-choppy with bearish tilt; stock perps trade thin/gappy weekend books, mean-revert into Monday - LOW conviction, size down. Tape favors shorts (chip-led risk-off, hawkish Fed/Warsh no cuts, Nasdaq -2.9% on week, BTC soft ~$62.7k). FOMC Jul 28-29 (>75% hold) outside horizon. QQQ cleanest short: RSI 21.7, ADX 76.7, rel-strength -7.86% vs BTC, orderbook -0.837, structure_bias -0.26.",
+    "sentiment": "QQQ neutral, mild bullish undertone but off-hours. No macro binary (no FOMC/CPI) in 48h. QQQ reclaimed 50-day, MACD turned positive ~Jul 13; Q2 tech earnings (NVDA/MSFT/AAPL) are a next-week+ driver, not weekend. No catalyst to override the technical short signal before Monday.",
+    "analyst": "Short is directionally correct but every TF RSI deeply oversold and price -2.1% below VWAP; learned p_win 0.37 shows shorts bleeding. Closed weekend market = thin/gappy/mean-reverting. Market short is a chase with poor honest R:R (tight stop above 696.9 gets noised, 1xATR stop kills the ratio). HOLD; arm reconsider at 688.09 break.",
+    "portfolio": "HOLD QQQ - directionally-right short but stretched into thin weekend tape; wait for bounce-to-short or 688.09 break."
+  },
+  "timestamp": "2026-07-18T07:38:11.643005+00:00"
+}

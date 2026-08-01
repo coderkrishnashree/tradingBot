@@ -1,0 +1,26 @@
+{
+  "symbol": "BTC/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.58,
+  "size": 0.0,
+  "entry": 64710,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "forecast": "Price stalls 64,650-64,880 under the 65,566 cap on fading volume; expect either a dip to retest 64,350-64,450 (a with-trend long setup) or a clean break >65,566. Mid-air chop for now.",
+  "expectancy_note": "A chased long here ~0.45 (RSI69/stoch69/%B.74, ~800 to resistance = R:R<1.5); a short is 47% historically and fights ADX60 trend. Waiting for a level beats both.",
+  "rationale": "Strong aligned 4h uptrend (ADX 60.7) but stalling under $65.5k resistance in a risk-off/crowded-long (L/S 1.47) session, 15m/5m rolled flat-to-short, volume drying - a market long chases into the cap for <1.5R, a short fights the trend the account loses on (47% win). Learner: longs win 73% (+2.89) vs shorts 47% (-0.88). Buy a dip WITH the trend, not chase or fade.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 64380,
+    "expires_min": 240,
+    "note": "A pullback into 64,380 (VWAP/recent swing-low) is the with-trend long entry the account historically wins; re-debate for a buy with stop under 64,000."
+  },
+  "transcript": {
+    "macro": "RISK-OFF/defensive 2026-07-20. Fri 7/17 ugly (S&P -1%, Nasdaq -1.5%, VIX ~16.7 rising). Semiconductor rout on TSMC capex; oil up on geopolitics. Warsh testimony this week (hawkish-tail); FOMC 7/28-29 outside window. Crowded-long positioning broadly. BTC ~64.7k capped at $65.5k resistance, Fear&Greed 25 (Extreme Fear), dominance one-month low. Funding benign (BTC +0.00003) but L/S lopsided long 1.47 (contrarian caution).",
+    "sentiment": "2026-07-20. BTC neutral/constructive: reclaimed ~$65k mid-month on softer CPI + ETF-flow reversal ($510M inflows/3d, IBIT leading), ending an 8-week/-$2.73B outflow streak. No \u226448h binary catalyst - flows are the swing factor. Broader complex: GOOGL 7/22 earnings the one true binary.",
+    "analyst": "HOLD (conf 0.58). Strong 4h uptrend but stalling ~800 under $65.5k cap in risk-off, crowded-long tape with mid-TF momentum fading. Long is a chase into the cap; short fights the trend the account loses on. Edge is buying a dip WITH the trend at 64,380; separately, a clean reclaim >65,566 confirms breakout.",
+    "portfolio": "BTC - HOLD (conf 0.58): don't chase into the 65.5k cap; buy a dip to 64,380 with the trend or a confirmed break >65,566."
+  },
+  "timestamp": "2026-07-20T04:46:41.812749+00:00"
+}

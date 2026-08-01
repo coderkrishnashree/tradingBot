@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "META/USDT:USDT",
+  "size": 0,
+  "entry": 643.48,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Price basing 642-646 after fading the 652 spike; chop 640-648 for 2-4 bars, resolving on a loss of 641 (opens 632/608) or a VWAP reclaim near 659 (squeeze crowded longs higher).",
+  "expectancy_note": "Market short = chasing RSI 24.2, -2.33% below VWAP, into the strongest-RS name (+9.96%) with crowded longs (L/S 1.58) = the account's proven loser (shorts 0.47 win, avg -0.87R). No clean long trigger yet.",
+  "rationale": "META is deeply oversold (4h RSI 24.2) and extended -2.33% below VWAP after fading the early 652 spike, now coiling 642-646 without making fresh lows. Shorting here is the exact late-into-stretched-tape pattern this account bleeds on (shorts 0.47 win, avg -0.87R), while a long needs a VWAP reclaim to confirm the squeeze - neither is present at spot. Best expectancy is to wait for the base to resolve: a break below 641 confirms downside toward 608; a reclaim of ~659 VWAP confirms the crowded-long squeeze higher.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 641.0,
+    "expires_min": 240,
+    "note": "Losing the 642-646 base flushes the coil and confirms fresh downside toward 632/608 - the clean short entry that avoids chasing the oversold print."
+  },
+  "transcript": {
+    "macro": "Risk-OFF and deteriorating (2026-07-17). S&P -1.0%, Nasdaq -1.4%; week ugly (Nasdaq -2.9%, SOX bear-market) on a semiconductor/AI-capex scare after TSMC hiked 2026 capex. Rates unhelpful: 10Y 4.57%, Fed extended pause, June dots skew toward HIKES into July 28-29 FOMC. Bybit funding flat all four names. Long/short lopsided LONG (META 1.58) = contrarian short tailwind + squeeze risk. Structure_bias META -0.16, RSI deeply oversold 24.2. META is the relative outperformer: +9.96% RS vs BTC, best p_win 0.55. Keep size modest, favor shorts/fades over fresh longs into FOMC.",
+    "sentiment": "META - no imminent binary; earnings Jul 29 after close, well outside 48h. Consensus ~$60B revenue; capex guide $125-145B is the swing factor. Nothing dated inside the window - near-term is macro/tape-driven, neutral to the trade.",
+    "analyst": "META oversold (RSI 24.2), -2.33% below VWAP, basing 642-646 after fading the 652 spike, not making fresh lows. Market short = account's #1 loss pattern (late short into stretched tape, stopped by bounce; shorts 0.47 win/-0.87R; model penalizes negative structure_bias -0.491 and high RS -0.414). Long needs a VWAP reclaim (~659) to confirm the squeeze. Both sides negative-expectancy at spot; HOLD with armed price_below 641 trigger for a clean non-chasing short.",
+    "portfolio": "META: HOLD (conf 0.50) - strongest-RS name but oversold/basing; armed short below 641."
+  },
+  "timestamp": "2026-07-17T20:36:28.320803+00:00"
+}

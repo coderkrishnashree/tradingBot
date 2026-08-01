@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "XAG/USDT:USDT",
+  "size": 0.0,
+  "entry": 58.5,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.58,
+  "playbook": "trend",
+  "forecast": "Price coils 58.44-58.55 at VWAP; if the aligned 4h/1h uptrend resumes it breaks 58.60 toward 59.2 then the 61.0 resistance over 1-2 days. Dovish FOMC lean is the likely catalyst; a hawkish Warsh flushes it to 57.5/56.8.",
+  "expectancy_note": "p(win)~0.60 on a confirmed break long (trend playbook wins 57% here, longs 69%); waiting for 58.60 gives ~1.7R to 61 vs stop under 58.10. Market entry now at a flat coil top into crowded long positioning + FOMC has no edge.",
+  "rationale": "Strong aligned XAG uptrend (ADX 45.6, all TFs long) and the account's winning long side favor a long, but price is coiling flat at VWAP with no pullback or breakout trigger, positioning is crowded long (L/S 4.05, structure_bias -0.30), and FOMC Wed is a two-way binary with firm DXY capping upside. No RR edge on a market fill; HOLD and take the long only on a confirmed reclaim above 58.62 targeting the 61 resistance, stop under 58.10.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 58.62,
+    "expires_min": 300,
+    "note": "Reclaiming the coil high with the aligned uptrend confirms the continuation break; enter long targeting 59.2 then 61.0, stop below 58.10."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF leaning, USD firm (DXY ~101.5, 10y ~4.69% on oil-led inflation scare). XAG lean NEUTRAL-to-supportive for longs: structural bull intact (G/S ratio ~69, supply deficit, $79 consensus), but silver $58.5 down ~52% from Jan high, lagging BTC (-8.5%), and very crowded long (L/S 4.05). Trend up 1h/4h; firm DXY caps upside.",
+    "sentiment": "NEUTRAL slight bullish tilt. Silver ~$58-59, one of 2026's strongest commodities (+53% YoY), 46Moz supply deficit, AI/clean-energy demand, but whipsawing on rates (dumped 3%+ intraweek then rebounded). FOMC Wed Jul 29 (hold ~80%) is the near-term two-way gate; dovish helps a yieldless asset, hawkish Warsh hurts. XAG-XAUT corr 0.877.",
+    "analyst": "Tight 5-hour coil (58.44-58.55) at VWAP, mid-Bollinger (%B 0.52) inside a strong aligned uptrend (ADX 45.6, all TFs long). Longs are the account's winning side (69% win). But no pullback/breakout trigger, crowded long positioning (L/S 4.05, model weights structure_bias -0.32), and FOMC two-way binary block a market entry. Highest-expectancy play: let the coil resolve and buy a decisive reclaim of the coil high toward 61. HOLD, arm trigger at 58.62.",
+    "portfolio": "HOLD XAG - aligned uptrend but flat coil into crowded longs + FOMC; buy only on confirmed break >58.62 toward 61."
+  },
+  "timestamp": "2026-07-26T00:34:08.218377+00:00"
+}

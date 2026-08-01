@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "COIN/USDT:USDT",
+  "size": 0.0,
+  "entry": 166.15,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Choppy stall in 165.4-166.8 into the 09:30 cash open; extended tape likely digests sideways or fades toward VWAP (~162) before its next real leg. No clean entry until it either breaks 166.8 on the open or loses 163.",
+  "expectancy_note": "p(win) on a chase-long here <0.45: RSI 1h 88.9, +19% in 5d, %B 0.87, BTC-beta echo \u2014 a counter-bounce hits any honest stop first. HOLD beats both a late long and a premature short into an up-grinding, thin pre-open tape.",
+  "rationale": "COIN is a tokenized equity (US cash closed, gappy pre-open) and pure BTC-beta (corr 0.733, rel-strength -0.51) \u2014 no unique edge, and it's badly extended after a 19% catalyst run with 1h RSI ~89 and stochastic ~95. Longing here is exactly the account's worst pattern (chasing overbought), and a short lacks any reversal confirmation as 15m/5m still grind up. No honest R:R setup near a level; wait for the open to resolve direction.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 166.8,
+    "expires_min": 180,
+    "note": "A hold above the 166.77 run high on the cash open confirms momentum continuation (long toward 175); below 163 flips it short toward 162 VWAP / 155 support."
+  },
+  "transcript": {
+    "macro": "Regime RISK-ON. BUT scan ~07:55 ET, US CASH CLOSED (pre-open ~1h35m); thin/gappy until 09:30. Whole book crowded long. COIN last 166.15, THE BTC-beta name: btc_corr 0.733, rel-strength -0.51 (tracks BTC ~1:1). BTC ~64.4k RSI 66 orderly grind-up, funding mild; crypto constructive but F&G ~23-30 (fear). COIN ran +19% in 5d on catalyst, EXTENDED: 1h RSI 88.9, 15m/30m RSI 73, bb_pctb 0.867, vwap_dist +2.39%, bearish divergence. Regime 'chop', composite blocked. Strongest tape but most stretched; poor entry timing, MIXED.",
+    "sentiment": "COIN (Coinbase): slightly constructive but FADING. +19% to ~$165 on 'System Update' event (tokenized stocks, options, ETF access, AI advisor) + joined 140-firm Open USD stablecoin consortium. Pop days old, reversal risk flagged. Analysts split (Bernstein $330 vs Barclays $107). Risks: high BTC corr, $394M Q1 net loss. Next earnings July 30 (outside window). No new <=48h binary.",
+    "analyst": "Tokenized equity, pure BTC-beta echo (no unique edge), badly extended after +19% (1h RSI ~89, stoch ~95). Longing = chasing overbought (account's #1 loss pattern); short lacks reversal confirmation, 15m/5m still grind up; regime chop, composite blocked. No honest R:R near a level. HOLD until the open resolves via a 166.8 break or 163 loss.",
+    "portfolio": "COIN \u2014 HOLD (0.60): extended BTC-beta echo, no edge; trade only on a 166.8 break-and-hold or 163 breakdown."
+  },
+  "timestamp": "2026-07-10T11:59:54.696433+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "MSTR/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.62,
+  "playbook": "none",
+  "forecast": "Price is stalling at 94.8-95.3 with fading momentum and upper wicks under the day high; over the next 2-6 bars I expect a pullback toward VWAP/93.0-93.5 rather than a clean break of 95.3, as RSI 78-80 and crowded longs unwind ahead of FOMC.",
+  "expectancy_note": "No side has edge: long p(win)~0.45 chasing RSI 80 into FOMC/earnings (account's #1 loss pattern); short p(win)~0.46 historically and fights ADX 66. Best expectancy is flat.",
+  "rationale": "MSTR is extended (RSI 77.8/80.3, %B 0.808, +1.87% over VWAP) with a weak composite (49.6%) and negative structure (long/short 1.58, orderbook -0.356) into FOMC Jul 28-29 and earnings ~Jul 30 - a crowded, stretched long is exactly the chase this book has bled on. Shorts have won only 46% here and would fight an ADX 66 uptrend, so no positive-expectancy entry. Size 0.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 95.35,
+    "expires_min": 240,
+    "note": "A break and hold above today's high 95.35 on volume confirms continuation from a defined base, giving a long with a tighter stop instead of chasing mid-air."
+  },
+  "transcript": {
+    "macro": "REGIME: RISK-OFF/MIXED, defensive. FOMC Jul 28-29 inside window. MSTR a long candidate but RSI 78-80 (extended), structure_bias -0.28, long/short 1.58 + negative orderbook = crowded long / contrarian caution. Decoupled from BTC (corr -0.03) - trades as a high-beta equity exposed to equity risk-off + FOMC.",
+    "sentiment": "RISK-OFF/EVENT-GRIDLOCKED. MSTR earnings ~Thu Jul 30. Bitcoin-beta name; 2nd straight week of NO BTC buys, raised cash to $3.2B, stock fell 6.4% Jul 23 on BTC softness. Long risk HIGH (RSI ~78, near resistance) + event overhang.",
+    "analyst": "Extended and crowded (RSI ~78-80, %B 0.808, +1.87% VWAP, weak 49.6% composite, orderbook -0.356) into FOMC + earnings. Stalling with upper wicks under the high; likely pullback to VWAP ~93. Long chases the extreme (#1 loss pattern); short fights ADX 66 and shorts win only 46% here. HOLD; long arms on break/hold above 95.35.",
+    "portfolio": "HOLD MSTR - extended/crowded into earnings + Fed; wait for 95.35 break or VWAP pullback."
+  },
+  "timestamp": "2026-07-27T00:08:18.528254+00:00"
+}

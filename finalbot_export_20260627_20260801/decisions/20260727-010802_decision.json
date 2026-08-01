@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "SOL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.58,
+  "playbook": "none",
+  "forecast": "Rolled over off 77.08 rejection with 6 straight lower closes; expect continued drift toward VWAP/74.0-73.4 support, where crowded longs flush and trend can resume. No clean entry mid-air.",
+  "expectancy_note": "Long here = chasing RSI75/stoch79/%B0.90 crowded (L/S 2.79) BTC-beta top; short = fading ADX68 uptrend into 73.4 support, and account shorts lose (46% WR). Neither clears R:R 1.5 now; HOLD.",
+  "rationale": "SOL is extended (+1.83% over VWAP, RSI 75.7, %B 0.90) and rolling over off the 77.08 rejection, with very crowded longs (L/S 2.79) and no relative strength (-9.56% vs BTC, corr 0.85 pure beta). Chasing a long is the account's #1 loss pattern; shorting a strong ADX-68 uptrend into 73.4 support with no divergence is the other bleed. FOMC Wed adds event risk. Wait for a pullback to VWAP/support to buy the trend.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 77.1,
+    "expires_min": 240,
+    "note": "Reclaiming the 77.08 rejection high proves the pullback is over and the uptrend is resuming - enter long on the retest."
+  },
+  "transcript": {
+    "macro": "MACRO (2026-07-27, shared): Cautiously RISK-ON but into a wall of event risk. Sunday futures rallied (NDX +1.2%) on US-Iran de-escalation + oil pullback, but FOMC Wed Jul 29 is a live HIKE tail (~34% CME) with CPI at a 3-yr high on energy. Busiest megacap earnings night: MSFT+META Wed after close, AAPL+AMZN Thu after close. BTC.D ~56%, crypto firm but range-bound (BTC reclaimed $65k). Treat longs into Wed as smaller-size; anything held through FOMC or a name's own print is gap coin-flip. Tokenized equities (MSFT/AAPL/NVDA/TSLA/TSM/QQQ/INTC/EWY/MSTR/CRCL) are thin/gappy when US cash is closed; Nasdaq tape + rates/DXY drive them, not crypto funding. Biggest cross-book risk: a hawkish FOMC or megacap miss re-prices equities, semis, gold and crypto together.",
+    "sentiment": "SENTIMENT (2026-07-27, shared): Busiest macro+earnings week of the quarter. FOMC Wed Jul 29 2pm ET (hold ~85% priced; hawkish risk on $100 oil). MSFT+META earnings Wed AC; AAPL+AMZN Thu AC; COIN Thu. CL: positive/volatile, US-Iran risk premium, two-way headline-driven. XAG: positive, 7.5% 4-day rally, softer USD + AI/industrial demand + supply deficit; FOMC swing risk. MSFT: neutral-positive into Wed binary earnings. BTC: neutral-cautious ~$64K, F&G 27 (Fear), ETF outflows. AAPL: neutral into Thu binary (Cook's final call). TSLA: negative, Q2 miss (EPS $0.33 vs $0.53, op income -57%), -11% MTD. NVDA: neutral-positive, no own catalyst <48h, AI-capex read-through. SOL: positive, MSOL ETF approval Jul 24, inflows, $80 breakout level. TSM: neutral post-earnings (record rev but -4% on print). XAUT: neutral-positive ~$4,050-4,200, FOMC swing. MSTR: neutral-cautious, halted BTC buying, high BTC beta. QQQ: neutral-cautious into events, expect gaps. INTC: negative/volatile, Q2 foundry -$2.1B op loss, -28% MTD. EWY: positive/volatile, KOSPI +15% off lows, heavy SK Hynix weight. CRCL: positive, OCC trust-bank charter Jul 8, USDC +19%; Visa/Mizuho offsets, COIN Thu read-through.",
+    "analyst": "SOL is extended (+1.83% over VWAP, RSI 75.7, %B 0.90) and rolling over off the 77.08 rejection, with very crowded longs (L/S 2.79) and no relative strength (-9.56% vs BTC, corr 0.85 pure beta). Chasing a long is the account's #1 loss pattern; shorting a strong ADX-68 uptrend into 73.4 support with no divergence is the other bleed. FOMC Wed adds event risk. Wait for a pullback to VWAP/support to buy the trend. | Forecast: Rolled over off 77.08 rejection with 6 straight lower closes; expect continued drift toward VWAP/74.0-73.4 support, where crowded longs flush and trend can resume. No clean entry mid-air. | Expectancy: Long here = chasing RSI75/stoch79/%B0.90 crowded (L/S 2.79) BTC-beta top; short = fading ADX68 uptrend into 73.4 support, and account shorts lose (46% WR). Neither clears R:R 1.5 now; HOLD. | Reconsider: {\"condition\": \"price_above\", \"level\": 77.1, \"expires_min\": 240, \"note\": \"Reclaiming the 77.08 rejection high proves the pullback is over and the uptrend is resuming - enter long on the retest.\"}",
+    "portfolio": "HOLD - extended/crowded; long on 77.10 reclaim"
+  },
+  "timestamp": "2026-07-27T01:08:02.982474+00:00"
+}

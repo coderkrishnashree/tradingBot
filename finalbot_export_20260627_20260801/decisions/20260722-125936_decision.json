@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "SOL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.58,
+  "playbook": "none",
+  "forecast": "SOL already flushed from 77.8 to 77.15 on the heaviest 15m volume of the session and is basing at VWAP with LTF RSI stretched (5m 31, 15m 38); BTC just printed its two largest red candles into 65.6k oversold. Next few bars most likely chop/relief-bounce toward 78-79 before the range decides \u2014 not a clean continuation lower from here.",
+  "expectancy_note": "Shorting mid-range at VWAP into LTF-oversold tape is the account's proven loser (short win-rate 0.45, avg -1.21); market-short R:R to 76 is ~1.4 with a squeeze in my face. A short AT 78.5-79 resistance flips R:R to ~2.0 with the crowd trapped above.",
+  "rationale": "SOL is bearish, weak (RS -11.29) and crowded-long \u2014 structurally a short \u2014 but price sits at VWAP mid-range after a completed intraday flush with LTF RSI 31-38, and BTC (corr 0.825) is oversold and prone to a relief bounce. Chasing a short here is exactly how this book's late shorts get stopped by the bounce; the disciplined entry is a fade of a bounce into 78.5-79 resistance, not a market short at 77.15. Hold and let the trigger arm the higher-expectancy short.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 78.6,
+    "expires_min": 240,
+    "note": "A bounce into 78.6-79 resistance (below 79.01 daily res) with crowded longs still trapped is the honest short entry \u2014 RS-weak SOL should reject there for a fade back to 75.5-76."
+  },
+  "transcript": {
+    "macro": "Overall regime RISK-OFF/neutral. SOL: structure supports shorts \u2014 L/S 2.476 (crowded long), funding +0.0000915, OB +0.20, structure_bias -0.276, SOL ~$77.15. btc_correlation 0.825 \u2014 pure BTC-beta; a SOL short is really a BTC-macro short. RS -11.29 = weakest of the three, already sold. $77 sits mid-range between $75-76/$70 support and $82-84 resistance. Ecosystem quietly constructive (ETF >$1B cumulative). Biggest risk: BTC relief bounce squeezes crowded longs and any fresh short. MIXED-to-supportive for a short, hostile for a long.",
+    "sentiment": "BEARISH, no near-term catalyst to save it. Crypto Fear & Greed in extreme fear (11-22). SOL ETF flows flipped to ~$700k net OUTFLOWS this week (reversing earlier inflow streak). Venture token UNLOCK pressure through Q3 2026 \u2014 persistent supply overhang, no dated cliff inside 48h. Uptime non-issue. Near-term news argues WITH the short/bearish bias.",
+    "analyst": "SOL 77.15-77.18. 15m ground up to 77.81 peak then rolled over; heavy 131k red dump to 77.15, now basing. Price AT VWAP (-0.09%), mid-range (%B 0.451, stoch 45.4); LTF RSI stretched DOWN (5m 31.1, 15m 38.5, 1h 38.0). BTC (corr 0.825) just printed its two biggest red candles into 65.6k, LTF RSI 31.5, oversold with squeeze risk. Account short win-rate 0.45 / avg -1.21 \u2014 shorting mid-range at VWAP is the proven loser. Market-short R:R to 76 ~1.4 with squeeze into face; honest short is a fade of a bounce to 78.5-79. No long (bearish/weak/crowded). HOLD, arm short trigger price_above 78.6.",
+    "portfolio": "SOL: HOLD (conf 0.58) \u2014 structurally a short but price is mid-range/VWAP after a flush with BTC oversold; wait to fade a bounce into 78.6-79, don't chase the short at 77.15."
+  },
+  "timestamp": "2026-07-22T12:59:36.182906+00:00"
+}

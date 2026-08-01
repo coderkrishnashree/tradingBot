@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "TSLA/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Thin weekend coil 408.4-409.7 likely drifts sideways/whippy into Monday cash open; no directional edge until real volume returns. Range 391-420 holds; CPI Tue is the binary that sets the next real move.",
+  "expectancy_note": "No clean R:R: long is +1% over VWAP mid-air on near-zero weekend volume (chase = account's #1 loss pattern), short fights an intact 4h uptrend (ADX 52) with no confirmation. p(win) sub-0.55 either way; HOLD has best expectancy.",
+  "rationale": "TSLA is a tokenized equity on a closed-cash Sunday - prints are thin/gappy and levels unreliable. 4h trend is up (score 0.827, RSI 60) but price is coiling +1.04% above VWAP on microscopic volume with offers stacked (-0.45 imbalance) and crowded longs (1.67), leaving it squeeze-vulnerable into session-defining CPI Tuesday. No entry offers 1.5R with an honest ~1xATR stop here, so no size - wait for volume and a real level.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 420.22,
+    "expires_min": 240,
+    "note": "Reclaiming/holding above 420 resistance on real volume confirms the 4h uptrend resuming and would flip this to a trend-long entry; absent that, weekend chop offers no edge."
+  },
+  "transcript": {
+    "macro": "Regime: mildly RISK-ON but late-stage and event-heavy; treat these five as EQUITY not crypto (low BTC corr). US indices grinding higher on AI optimism but tape jumpy (chip rout + KOSPI drop Jul 7). Rates/USD a headwind: DXY>100, negligible Fed-cut odds, sticky 4.2% CPI. Sunday Jul 12 -> US cash CLOSED, thin/gappy weekend perp prints, levels unreliable until Monday open. Hard events in window: June CPI Tue Jul 14 (session-defining, cross-asset); TSMC Q2 earnings Thu Jul 16 (direct binary for TSM, read-through to EWY via Samsung/SK Hynix). Crowded longs (ORCL 2.08, TSM 1.79, TSLA 1.67) squeeze-vulnerable into CPI -> smaller size, avoid fresh TSM/EWY longs pre-Jul16. Cleanest structural setups: ORCL short and AAPL as relative leader, both needing Monday's cash open to confirm the thin weekend prints.",
+    "sentiment": "Only <=48h binary is TSM Jul 16 earnings (also governs EWY via the chip complex). TSM: bullish but two-sided into the print (guide $39-40.2B rev / ~66% GM, AI demand 'extremely robust') - do not hold size blind through the 16th; scan technically heavy (4h/1h short). EWY: bullish chip-beta proxy (Samsung record prelim Q2 op profit ~89T KRW; SK Hynix Nasdaq ADR Jul 10, 7x oversubscribed) but hostage to the TSM print. TSLA: neutral/constructive - Q2 deliveries beat (~480k vs ~406k) already priced, next earnings Jul 22 (outside window). ORCL: bearish - down ~25-29% YTD on AI-datacenter capex/FCF drag ($40B raise planned) despite $638B backlog; fresh 15m short breakout; news+price agree to the downside. AAPL: neutral - Broadcom supply deal thru 2031 (multi-year, not a 48h mover), fiscal Q3 earnings Jul 30. Trade AAPL/TSLA on tape/macro.",
+    "analyst": "TSLA is a tokenized equity on a closed-cash Sunday - prints are thin/gappy and levels unreliable. 4h trend is up (score 0.827, RSI 60) but price is coiling +1.04% above VWAP on microscopic volume with offers stacked (-0.45 imbalance) and crowded longs (1.67), leaving it squeeze-vulnerable into session-defining CPI Tuesday. No entry offers 1.5R with an honest ~1xATR stop here, so no size - wait for volume and a real level.  Forecast: Thin weekend coil 408.4-409.7 likely drifts sideways/whippy into Monday cash open; no directional edge until real volume returns. Range 391-420 holds; CPI Tue is the binary that sets the next real move.  Expectancy: No clean R:R: long is +1% over VWAP mid-air on near-zero weekend volume (chase = account's #1 loss pattern), short fights an intact 4h uptrend (ADX 52) with no confirmation. p(win) sub-0.55 either way; HOLD has best expectancy.",
+    "portfolio": "HOLD - 4h uptrend but +1% over VWAP on near-zero volume, crowded long into CPI. Wait for a 420 break on real volume."
+  },
+  "timestamp": "2026-07-12T09:03:17.235825+00:00"
+}

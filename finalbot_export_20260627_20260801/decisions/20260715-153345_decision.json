@@ -1,0 +1,23 @@
+{
+  "symbol": "COIN/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.6,
+  "size": 0.0,
+  "entry": 164.65,
+  "stop_loss": 161.7,
+  "take_profit": 170.29,
+  "rationale": "COIN is a stretched BTC-beta proxy (corr 0.67) coiling under 165 after a vertical spike to 167.45 that rejected; BTC is simultaneously pinned at 65.5k resistance with RSI 73/stoch 96, so downside drag into crowded longs (L/S 1.50) is real. Both market entries are the historically losing kinds - chasing an extended long (RSI ~80, %B >1.0, +2.9% VWAP) or fading a strong ADX-68 trend. Highest-expectancy action is to hold flat and let the coil resolve into a buyable VWAP retest at 160-161 or confirm a breakdown.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 161.7,
+    "expires_min": 240,
+    "note": "Losing 161.7 (below the coil floor toward the 160-161 VWAP shelf) signals post-spike distribution resolving down - re-debate for a with-trend long dip-buy at support or a short if BTC is rejecting 65.5k."
+  },
+  "transcript": {
+    "macro": "Regime SUPPORTIVE but extended. Soft CPI+PPI, BTC broke $65k, risk-on tape. COIN high-beta BTC proxy (corr 0.67) riding breakout but most OVERBOUGHT of the three (RSI ~80, ADX 68), NEGATIVE structure_bias -0.09 / long-short 1.50 (crowded longs). Funding flat. Biggest risk: BTC rejection at $65k. No earnings in window (Jul 30). Prefer pullback entries; size down.",
+    "sentiment": "Tone neutral-to-slightly-soft. CLO Paul Grewal stepping down effective Jul 31 (modest overhang). Regulatory backdrop mixed: CA DFAL licensing live Jul 1; Senate Ag draft would give CFTC spot-crypto oversight (long-term constructive, no 48h impact). Earnings Jul 30 (outside window). Trades primarily off crypto beta now.",
+    "analyst": "Spiked to 167.45, rejected to 163, now chopping 161.7-165 unable to reclaim spike high - consolidation after vertical extension, not a fresh breakout. BTC stretched into resistance = drag risk. Long here is a chase (account's #1 loss pattern); naked short into ADX 68 is the losing late-short (short win 48%, -1.47). Hold; wait for 160-161 VWAP retest or breakdown.",
+    "portfolio": "COIN: HOLD, conf 0.60 - stretched coil, no positive-expectancy entry; wait for pullback to 160-161 or a break of 161.7."
+  },
+  "timestamp": "2026-07-15T15:33:45.445823+00:00"
+}

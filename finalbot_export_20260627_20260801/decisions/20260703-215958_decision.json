@@ -1,0 +1,25 @@
+{
+  "action": "hold",
+  "symbol": "MU/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.7,
+  "playbook": "none",
+  "expectancy_note": "No positive-expectancy side: long chases RSI76/stoch87 into resistance 1033.92 vs hostile structure (bias -0.364, crowded long, lagging BTC -1.55%); short fades ADX74 raging trend with no divergence into a closed/gappy underlying. Both < 1.5 R:R with real gap tail risk.",
+  "rationale": "MU is overbought (RSI 76.4, %B 0.90, stoch 87.1) pressed against resistance 1033.92 with only 0.24% ATR of room, while structure_bias -0.364 (long_short 1.618, offers stacked, longs paying funding) argues against chasing the long. The 4h is flat/down (RSI 45.4, negative MACD) so this is a stretched short-TF bounce, not a fresh trend leg. Decisively, the cash underlying is closed through Monday July 6 (Independence Day) leaving a thin, Fed-sensitive, gap-prone tape - no edge either direction justifies risking size into that. Stand aside at zero.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 1033.92,
+    "expires_min": 240,
+    "note": "A decisive break/hold above resistance 1033.92 proves the strong uptrend is extending and would flip this to a trend-long trigger rather than an overbought fade."
+  },
+  "transcript": {
+    "macro": "NEITHER/HOSTILE for a fresh MU position over 24-48h. US equity underlying CLOSED for Independence Day observance (July 3); cash MU does not reopen until Mon July 6 -> tokenized perp has NO underlying price discovery, thin/gappy, weekend/Monday-open gap risk. Semi/AI tape rotating out into the close (Micron named under pressure); weak June jobs -> live Fed rate event risk into Monday open. Crypto risk-off (BTC ~$61-62.7k, F&G 19 Extreme Fear) but MU btc_corr only 0.203 so crypto not the driver. Scan 21:57 UTC: last 1031.98, RSI 76.4, Stoch 87.1, ADX 74.2, bb_pctb 0.90 - overbought strong-trend into resistance 1033.92 (support 1018.86), composite long but low conviction 30.6%. structure_bias -0.364 (long_short 1.618, orderbook_imbalance -0.195, funding +0.03%) = crowded long. rel_strength -1.55 vs BTC (lagging). Verdict: stand aside, or at most sharply reduced size if forced.",
+    "sentiment": "NEUTRAL with mild bearish tilt. Fiscal Q3 already reported ~June 25 (record $41.46B rev, 85% GM, HBM sold out through 2026, ~$200B capex) - NO earnings inside the 24-48h window. Dominant recent driver is a sector pullback, not company news: MU fell ~10% July 1 (SNDK -11%, WDC -7-10%) in a memory-complex selloff with explicitly no company-specific bad news - H2 profit-taking/rebalancing after MU +305% YTD, hawkish rates impulse, and 'memory supply-glut' fear narratives. MU ~$1,032 vs June 25 ATH ~$1,255 (~18% off highs). Overhangs (not 48h triggers): new CA class-action alleging DRAM supply coordination; Michael Burry disclosed short. Long-horizon bull: Anthropic multi-year memory deal, GM agreement. In-window risk: US jobs/CPI print could whip the complex. Fresh intraday long bounce looks like a stretched dead-cat/mean-reversion move fighting negative structure; do not chase longs; surprises skew downside.",
+    "analyst": "Clear stand-aside. Long chases an overbought move (RSI 76.4, %B 0.90, stoch 87.1) into resistance 1033.92 with hostile structure (bias -0.364, crowded long, lagging BTC -1.55%) and a closed, gap-prone underlying; 4h is flat/down (RSI 45.4, negative MACD) so this is a stretched short-TF bounce not a fresh trend leg. A short is tempting on structure + overbought, but ADX 74 (extreme strong uptrend) with no bearish divergence into a thin/gappy weekend tape is a low-expectancy fade with two-sided gap risk. Neither side clears the expectancy bar -> HOLD at zero size. Reconsider: a decisive break/hold above 1033.92 (240 min) would flip to a trend-long trigger.",
+    "portfolio": "MU/USDT:USDT -> HOLD (stand aside, size 0) - no positive-expectancy side into a closed, overbought, crowded-long tape; re-arm long only on a break above 1033.92."
+  },
+  "timestamp": "2026-07-03T21:59:58.690970+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "XAG/USDT:USDT",
+  "size": 0.0,
+  "entry": 59.13,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.55,
+  "playbook": "none",
+  "forecast": "Rally rejected at 59.38 and fading toward 58.9; if 58.9 base holds it grinds 59.2-59.4, but a loss of 58.90 opens a squeeze flush toward VWAP ~58.2 then 57.4.",
+  "expectancy_note": "No clean entry: long is a crowded/stretched chase (L/S 3.92, %b 0.91, RSI 76.8, +1.6% VWAP) into FOMC; short has no confirmed breakdown vs ADX 92 uptrend. Wait for 58.90 break to short the squeeze.",
+  "rationale": "XAG is the most hostile long in the book: extremely crowded (L/S 3.916, structure_bias -0.30 max negative), stretched to the upper band and +1.62% above VWAP with 1h RSI 76.8, and FOMC Jul 28-29 inside horizon. But the ADX-92 uptrend is intact and no structure lost, so shorting here is knife-catching. Push to 59.38 rejected and fading; want the 58.90 base to break before committing. Hold and arm the trigger.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 58.9,
+    "expires_min": 240,
+    "note": "Losing 58.90 base flips the stretched crowded-long tape into a squeeze - short toward VWAP 58.2/57.4 with stop above 59.4."
+  },
+  "transcript": {
+    "macro": "Risk-off/defensive, higher-for-longer rates/USD pressuring metals. FOMC Jul 28-29 inside horizon = vol event. Book-wide crowded-long = contrarian downside risk. XAG: ~$58-59, ~52% below Jan ATH; EXTREMELY crowded long (L/S 3.92, max negative structure_bias -0.30) and stretched (bb %b 0.91, 1h RSI 76.8); highest contrarian squeeze risk in the book.",
+    "sentiment": "XAG ~$58/oz, one of 2026's strongest commodities (6th straight supply deficit, AI/solar demand). Near-term: rising Treasury yields + high oil capping below $60. FOMC Jul 29 is the swing factor - dovish=buying, hawkish=pressure. Event-driven into Wed.",
+    "analyst": "Most hostile long in the book (crowded 3.92, stretched, +1.6% VWAP) into FOMC, but ADX-92 uptrend intact so shorting is knife-catching. Push to 59.38 rejected/fading. Want 58.90 break to confirm squeeze. Hold; short trigger below 58.90.",
+    "portfolio": "HOLD XAG - crowded/stretched but no confirmed breakdown; short the squeeze only below 58.90."
+  },
+  "timestamp": "2026-07-26T19:39:13.585097+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "CL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Blow-off rejection at 84.78 (long upper wick on 44k-vol bar); price rolling off toward the 82.8-83.0 VWAP/dip zone over the next 4-8 bars, where a trend-long becomes clean. A reclaim above 84.78 would instead confirm breakout continuation toward 86.",
+  "expectancy_note": "Neither trend-pullback (needs ~82.8 retest) nor breakout (needs >84.78 reclaim) is triggered; entering now is a chase into RSI 83 / +4.3% above VWAP where any honest stop gets hit by the pullback. HOLD > forcing a trade.",
+  "rationale": "CL is in a genuine geopolitical supply spike (ADX 57.8, all TFs long) but is maximally overbought (4h RSI 83, 1h 79, %B 0.975) and just printed a rejection wick at 84.78 resistance with fading follow-through and a fresh 8.3k-vol down candle - the textbook chase trap this account bleeds on. Shorting a live Hormuz bid risks a weekend headline gap-up; buying here pays the top. No entry offers R:R >= 1.5 with an honest <=1.5xATR stop, so I wait: go long on a dip toward the 82.8-83.0 VWAP retest, or on a confirmed reclaim of 84.78.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 84.78,
+    "expires_min": 360,
+    "note": "A decisive reclaim/close above the 84.78 rejection high confirms the breakout continuation (not a failed spike) and justifies a trend-long toward 86 with a stop back under 84."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF, commodity-friendly. Master driver: US-Iran/Strait of Hormuz re-escalation (ceasefire collapsed 7/8, three nights of US strikes, IRGC declared strait closed, Iraqi terminals suspended loadings, tanker traffic 2-month lows). CL trades ~24/6 - the exception to the weekend-closed equities. Composite LONG (conf 39.9%, understates it): all TFs up, ADX 57.8, just tagged resistance 84.78, RSI 4h 83 / 1h 79 massively overbought, parabolic +4% Fri, long/short 1.92. Verdict: LONG trend but STAY OUT/wait for pullback; do not chase 84 resistance; shallow long on dip toward 82 is the clean expression. Highest headline/event risk of the four.",
+    "sentiment": "Oil +10% on the week, +4.5% Jul 17 on intensifying US-Iran hostilities (6th night of strikes, Gulf-base retaliation, Red Sea threat, blockade near Hormuz). Counterweight: OPEC+ +188kbpd for August, EIA/IEA model a 2026 surplus ($70/b Brent by Q4) - on hold while shooting continues. Verdict: bullish/headline-driven, weekend gap-up risk, fading fights a live geopolitical bid.",
+    "analyst": "Genuine supply-shock uptrend but maximally overbought (4h RSI 83, %B 0.975, +4.34% above VWAP) with a rejection wick at 84.78 and a fresh 8.3k-vol down candle - the exact 'chase the spike' trap the account loses on. Shorting a live Hormuz bid risks a weekend gap-up; buying pays the top. No entry with R:R>=1.5 on an honest stop. HOLD; long a dip into 82.8-83.0 VWAP, or on a confirmed reclaim of 84.78.",
+    "portfolio": "HOLD CL - real supply-shock uptrend but overbought at 84.78 rejection; don't chase, wait for 82.8-83.0 dip or >84.78 reclaim."
+  },
+  "timestamp": "2026-07-18T20:12:36.295488+00:00"
+}

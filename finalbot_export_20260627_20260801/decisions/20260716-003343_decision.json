@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "TSLA/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Price coiled 394.8-395.3 with a rejected spike to 395.7 closing weak at 394.71; expect a grind toward 391 support over the next several bars, but stoch already 23 and only ~$3.7 of room means 391 likely holds and bounces rather than breaks cleanly on this leg.",
+  "expectancy_note": "p(win) on a fresh short ~0.45 (learner: shorts 0.47 win / -1.59 avg pnl, the worst bucket); short into 391 with LTF stoch 23 already washed = ~1.5R at best into likely support bounce. No long edge (4h down, pre-earnings laggard). HOLD beats both.",
+  "rationale": "TSLA 4h is genuinely down (ADX 69, MACD -2.3) and structure is contrarian-short (LS 1.79, orderbook -0.125), but price is only ~$3.7 above firm 391 support with LTF stoch at 23 and already below VWAP - shorting here chases a mature intraday leg straight into support, the exact setup that has bled this account (shorts 0.47/-1.59 over 30 trades). No long thesis either into a lagging, pre-earnings name. Best expectancy is to wait: a decisive break of 391 opens real downside room, while a VWAP reclaim of ~396 kills the short. Thin OI and Wed 07/22 earnings gap risk further argue against a fresh marginal-edge position now.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 390.8,
+    "expires_min": 240,
+    "note": "Losing 391 support on a closing basis confirms the 4h downtrend resuming with open room toward 386-387, turning the short from a chase-into-support into a with-trend breakdown."
+  },
+  "transcript": {
+    "macro": "Overall: cautiously risk-on with a hawkish-Fed tail. Equities firm (S&P 7,572 +0.38%, Nasdaq 26,269 +0.62%, megacap tech led). Soft June CPI + soft PPI cooled rate-hike fears. Hiking Fed cycle (~60% odds hike by October). No FOMC/CPI in 48h. BTC soft/decoupled; TSLA corr to BTC only 0.26 - treat as TradFi. TSLA: underlying closed $394.46 (-0.43%), token 394.71 (at cash). Nasdaq bid but TSLA LAGGED the megacap rally (AAPL/GOOGL/META/MSFT +3-4%, TSLA red) - relative laggard. Earnings Wed 07/22/2026 after close (~6 days, just beyond 48h but inside hold+rollover horizon; pre-earnings drift + gappy tokenized liquidity = biggest positioning risk). Funding 0.0 neutral, OI 7,794 thin, LS 1.79 (contrarian favors shorts), orderbook -0.125. Momentum composite SHORT (-0.25); 4h down (-0.59, MACD -2.3), 15m down; RSI 47.6; ADX 69.4. Support 391, resistance 413. Bias: modest SHORT with-trend, LOW conviction, reduce size.",
+    "sentiment": "TSLA bullish momentum into an event but largely priced. Q2 delivery blowout (480,126 vs ~406k consensus, +34% q/q), Miami robotaxi live, Europe registrations +57% YoY - stock ran to ~$416-420 earlier July, now ~$395. Hard near catalyst: Q2 2026 earnings Wed July 22 ~5:30pm ET after close (~6 days out, looming not imminent). US markets open normal hours; token can gap/trade thin overnight & weekends. Low-weight: PT bumps (Jefferies $400, Barclays $370, Morningstar FV $450, MS EW $415); Musk says material robotaxi revenue not before 2027; NHTSA closed braking probe (mild positive, digested). NET: neutral-to-slightly-cautious for a fresh short-term position; scan SHORT bias fits a post-run pullback off ~$420 toward 391 support; nothing contradicts a short-term fade but pre-earnings drift can be sticky/upward.",
+    "analyst": "Last 394.71 sits only ~$3.7 above firm 391 support; 15m coiled 394.8-395.3 then rejected a spike to 395.7 closing weak (bearish micro-rejection). 4h genuinely down (ADX 69, MACD -2.3) and structure contrarian-short (LS 1.79, orderbook -0.125), but LTF stoch already 23 and price below VWAP (-0.73%) means the easy down-leg may be done - a fresh short chases a mature move straight into support (~1.5R into a likely bounce). Learner: shorts are the worst bucket (0.47 win, -1.59 avg over 30), the exact late-short-into-support loss pattern; no long thesis in a lagging pre-earnings name. HOLD, size 0. Armed short trigger on a clean break of 391 (opens 386-387); VWAP reclaim of ~396 kills it. Thin OI + 07/22 earnings gap risk add caution.",
+    "portfolio": "TSLA/USDT:USDT -> HOLD (conf 0.50): real 4h downtrend + contrarian-short structure, but price sits on 391 support with LTF already washed out (the account's proven late-short loss pattern) and 07/22 earnings gap risk looms; wait for a 391 break-down or a ~396 reclaim."
+  },
+  "timestamp": "2026-07-16T00:33:43.933920+00:00"
+}

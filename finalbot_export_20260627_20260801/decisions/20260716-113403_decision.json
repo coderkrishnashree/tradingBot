@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "ORCL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Price just rolled over from the 135.53 high on rising sell volume; expect it to probe 133.0-132.5 (VWAP/pre-runup base) over the next 2-4 bars. A hold of that base keeps the bullish-divergence long thesis alive; a reclaim of 135.00 confirms momentum resumed and is the trigger to go long.",
+  "expectancy_note": "No edge now: ADX 23.7 (no trend), price mid-range between 127.65/149.29, 5m momentum just flipped down (RSI 30.6) while 4h leans long with bullish divergence \u2014 conflicting. R:R undefined without a level at price; waiting for the 135 reclaim gives a cleaner long than chasing a fresh downturn.",
+  "rationale": "ORCL is a tokenized equity, so crypto structure (crowded L/S 2.31, orderbook -0.30) only sets a mild contrarian caution, not a trade. The tape is a snapshot conflict: mildly-long higher TFs plus 4h bullish divergence and the best p_win_learned in the scan (0.644, and account longs win 71%), versus a fresh 15m/5m rollover off 135 into elevated stoch (78.8) with no level right at price. Entering long now chases into a downturn; shorting fights the divergence and the learner (account shorts -0.7 avg). Best expectancy is to wait for the 135 reclaim before committing risk.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 135.0,
+    "expires_min": 240,
+    "note": "Reclaiming the 135.00 swing high proves the pullback was a shakeout and momentum resumed, activating the long with 4h bullish divergence and p_win 0.644 behind it."
+  },
+  "transcript": {
+    "macro": "Mild risk-ON but Jul 16 fragile, semis weak, US-Iran overhang. Equity perps gap/thin off US hours. ORCL ~133.86, no imminent catalyst, RSI 55.8, bullish divergence, but long/short 2.31 crowded long, orderbook -0.30. Scan 31.5% long, NOT aligned. Modest long-lean only.",
+    "sentiment": "ORCL no earnings until Sep 8-14 \u2014 nothing binary in 48h. Rebounding from a 3-day dip ($129-133) on retail buzz but lingering AI-bubble/capex-conversion skepticism. Mixed/choppy, no near-term catalyst \u2014 neutral.",
+    "analyst": "Snapshot conflict: mildly-long higher TFs + 4h bullish divergence + best p_win (0.644, longs win 71%) vs fresh 15m/5m rollover off 135 into elevated stoch (78.8), no level at price, ADX 23.7 (no trend). Long now chases a downturn; short fights divergence + learner. Wait for 135 reclaim. Hold, size 0.",
+    "portfolio": "HOLD ORCL \u2014 conflicted chop mid-range; arm long on 135.00 reclaim."
+  },
+  "timestamp": "2026-07-16T11:34:03.182623+00:00"
+}

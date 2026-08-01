@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "INTC/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Oversold grind into the lower BB (%B 0.07, LTF RSI ~27-30, -2% below VWAP) with shorts paying and crowd long - expect a mean-reversion bounce toward VWAP ~92.0-92.5 before the downtrend can resume; a fresh short here gets bounced into its stop.",
+  "expectancy_note": "p(win) on a fresh short ~0.40 - account shorts run 0.44 WR / -1.0R and this is the classic late-short-into-stretched-tape loss; better EV to wait for a bounce to short from VWAP or a break of 87.1 support.",
+  "rationale": "Downtrend is real (ADX 43.6, RS -18.8%, aligned short) but the entry is terrible: price already 2% below VWAP, %B 0.07, LTF RSI 27-30, funding -0.098% (shorts paying), L/S 2.26 (squeeze fuel) and bullish divergence forming - every ingredient of the counter-bounce that stops late shorts. No long into a FOMC + mega-cap-earnings wall with the primary trend still down. HOLD and arm the reconsider levels.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 92.1,
+    "expires_min": 240,
+    "note": "A bounce back to VWAP ~92.1 gives a proper short entry (retest of broken level, R:R restored toward support 87.1)."
+  },
+  "transcript": {
+    "macro": "FOMC Wed Jul 29 + mega-cap earnings week = two 48h event walls; GOOGL & TSLA capex triggered tech-sector meltdown, semis SMH -2%, AI-capex flipped tailwind->headwind. HOSTILE-to-MIXED for equity directional risk into Wed. L/S ratios lopsidedly long even as prices fall = squeeze risk. INTC: aligned short, -18.8% RS, but RSI 41 with bullish divergence and funding deeply negative (-0.098%, shorts paying); structure_bias +0.11 tilts against fresh shorts.",
+    "sentiment": "Busiest catalyst window compressed into 24-72h: FOMC Wed, MSFT+META Wed, AAPL+AMZN Thu, PCE Fri, OPEC+ Sun. Q2 pattern: beats but capex-driven selloffs. INTC net bearish lean but catalyst spent: reported Q2 7/23 big beat (EPS $0.42 vs $0.21, rev $16.1B) but sold off ~8% on foundry losses/capex fears, down ~28% in July despite +170% YTD; rebounded toward ~$95, now ~$90 below VWAP, RSI 41, bullish divergence forming; trades on semi tape and MSFT hyperscaler-capex read-through.",
+    "analyst": "Snapshot last 90.28: aligned short, composite -0.392, ADX 43.6, RSI 41.1 with bullish divergence, bb %B 0.072 pinned at lower band, VWAP dist -2.01% extended, 1h RSI 30.7 / 15m 27.1 deeply oversold. Funding -0.098% (shorts paying), L/S 2.256 (crowd long, squeeze fuel), structure_bias +0.106 tilts against fresh shorts. Last 20 bars a tired decelerating grind lower. This is the account's #1 loss pattern - late short into stretched oversold tape (shorts 0.44 WR, -1.02 avg). No long into FOMC/earnings with ADX 43 downtrend. HOLD, arm to fade a bounce.",
+    "portfolio": "HOLD INTC - real downtrend but stretched-oversold, squeeze fuel; arm short on a bounce back to VWAP ~92.1."
+  },
+  "timestamp": "2026-07-28T00:37:33.220788+00:00"
+}

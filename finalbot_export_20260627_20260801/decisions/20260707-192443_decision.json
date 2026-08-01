@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "HOOD/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.35,
+  "playbook": "none",
+  "forecast": "Rollover intact (lower highs 116.1->115.6->114.6, close 113.60 on the lows), but price already ~2.5pts off the high with 5m RSI 13 (near-term stretched). Expect grind/chop between 112.6 support and 114.5; a clean break of 112.60 opens 111.5 then 110, while a bounce stalls near 114.5-115.",
+  "expectancy_note": "p(win) ~0.5 but R:R only ~1.0 shorting here (stop must clear 115.6 shelf, targets capped by weak ADX 22.8 + 5m oversold) - below the 1.5 threshold, so no edge chasing; a 112.6 break restores a clean tighter-invalidation short.",
+  "rationale": "Multi-TF aligned short and a risk-off/high-beta headwind favor the bear case, but the clean entry is gone: price already fell ~2.2% into a close on the lows with 5m RSI 13, ADX only 22.8 (weak drift not strong trend), and the book is balanced (L/S 1.036) so no squeeze fuel either way. Shorting at 113.6 forces a stop above the 115.6 shelf for a sub-1.0 R:R - a donation. Bullish news flow (Mizuho $130, L2 launch, +5.3% Jul-6 rebound) adds snap-back risk. Best expectancy is to wait: short the break of 112.60 (invalidation back over 113.2) or a bounce to 114.5-115 with room.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 112.6,
+    "expires_min": 240,
+    "note": "Losing 112.60 (prior consolidation low) confirms the intraday down-leg has legs, opening 111.5/110 with a clean tighter-invalidation momentum short."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF, hawkish-Fed tape (Jul 7). US equities selling off (Nasdaq -1%, tech -2.2% on Samsung miss). CME FedWatch ~56% odds of a HIKE by Sept; USD tailwind, crypto quiet (BTC ~$63.5k). Favors shorts/fades. HOOD: scan last 113.6, composite SHORT (-0.25, conf 30%), aligned down; L/S 1.036 balanced (not crowded), momentum-driven short. High-beta (0.62 BTC / 0.81 COIN corr), sold hardest in downdrafts. Risk: earnings Jul 29 (outside window), Mizuho target $130 - snap-back risk; smaller size.",
+    "sentiment": "HOOD mildly bullish narrative, no <=48h binary. Earnings Jul 29 after close (not a driver). Jul 1 launched Arbitrum L2 'Robinhood Chain', tokenized stocks 120+ countries. Ran +5.3% off Jul 6 low - live momentum mover. Corr COIN 0.81 / BTC 0.62 so crypto risk-on/off dominates. Net: bullish tone/momentum, a short is fighting the news flow.",
+    "analyst": "Bear thesis directionally right (all TFs aligned short, risk-off tape, high-beta proxy) but entry already spent: ~2.2% off high into close on lows, 5m RSI 13, ADX weak 22.8, balanced book (no squeeze fuel). Shorting at 113.6 forces stop above 115.6 shelf for sub-1.0 R:R - fails discipline. HOLD with armed short trigger below 112.60.",
+    "portfolio": "HOOD: HOLD (conf 0.35) - right bias, spent entry, poor R:R; short armed on break of 112.60."
+  },
+  "timestamp": "2026-07-07T19:24:43.252161+00:00"
+}

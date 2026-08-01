@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "TSLA/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Thin pre-open drift; price coils 395-396 just above 4h support 391 on drying volume until US cash open (13:30 UTC) forces direction \u2014 either loses 391 (short continuation toward 388-385) or reclaims VWAP ~400 (oversold bounce).",
+  "expectancy_note": "No positive-expectancy entry now: shorting is a chase into RSI24.8/near-support with p_win_learned 0.41 (losing signal); longing has no confirmation and faces a gappy open. R:R undefined into a coin-flip gap \u2014 flat is highest expectancy.",
+  "rationale": "TSLA is a tokenized equity scanned PRE-US-OPEN where perps are thin/gappy and the cash open can gap through any stop. The 4h is a strong oversold downtrend (RSI 24.8, ADX 51) but LTF momentum has died (30m/1h/5m all flat, last bars are dojis on collapsing volume) with price only ~1.2% above 4h support 391 and already -1.3% below VWAP \u2014 shorting here is the account's classic late-short-into-stretched-tape loss (p_win 0.41), and longing lacks any bounce confirmation. Best to wait for the open to pick a side rather than pay the gap tax.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 390.9,
+    "expires_min": 300,
+    "note": "Losing 4h support 391 on the US open confirms downtrend continuation and opens a clean short toward 388/385; a VWAP reclaim above ~400 would instead flip me to the oversold-bounce long."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF/defensive (crypto side). Scan PRE-US-OPEN (~10:58 UTC; US equities open 13:30 UTC). TSLA perp thin & gappy while underlying closed \u2014 pre-open structure low-conviction; cash open can gap through stops. Higher-for-longer rates; US CPI this week = event risk. TSLA ~395.6, RSI 24.8 (4h oversold), ADX 51.5 (strong 4h downtrend), -1.3% below VWAP, near 4h support 391. Funding +0.00028; L/S 1.80 (crowded long) -> structure_bias -0.37. Orderbook neutral (-0.054). Low BTC corr (0.29); corr META 0.50, QQQ 0.55 \u2014 judge on Nasdaq/discretionary tape.",
+    "sentiment": "Earnings July 22 after close (~8 days out) \u2014 outside 48h window but approaching. Q2 deliveries already reported (~480k big beat vs ~406k est) + energy 13.5 GWh beat \u2014 positive delivery catalyst already spent. July 22 print hinges on auto GM, Cybercab timeline, robotaxi/capex \u2014 not in play yet. No concrete <=48h catalyst; lean neutral, high-beta risk-sentiment name.",
+    "analyst": "TSLA at 395.6 is deeply oversold on the 4h (RSI 24.8, ADX 51.5, score -0.56) but the sell pressure is a 4h story only \u2014 every lower timeframe (30m/1h/5m) prints flat and the last dozen 15m candles are tiny-range dojis on collapsing volume (down to 0.65-1.6 vs 40-90 earlier), so momentum is fading into support at 391, not accelerating through it. Crowded longs (L/S 1.80) + mildly positive funding give contrarian-bearish structure_bias (-0.37), but the signal's learned win-rate is only 0.41 \u2014 shorts on this exact profile have been bleeding, and shorting RSI 24.8 barely above support is the late-into-stretched-tape entry that gets run over by a routine bounce. This is a tokenized equity scanned before the US cash open where discovery is thin/gappy and can jump through stops, so neither side has clean R:R now. Highest-expectancy action = stay flat and let the 13:30 UTC open resolve: break below 391 arms a continuation short toward 385-388; a VWAP reclaim (~400) flips me long.",
+    "portfolio": "HOLD TSLA \u2014 oversold into a thin/gappy pre-open with a losing short signal (p_win 0.41). Armed short trigger on a loss of 391; VWAP reclaim ~400 flips long."
+  },
+  "timestamp": "2026-07-14T11:04:15.147005+00:00"
+}

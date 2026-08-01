@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "SOL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.55,
+  "playbook": "none",
+  "forecast": "Coil between 75.5 support and 76.7; last two bars failed at 76.71 and faded to 76.35 closing near range low. Expect a dip to retest 75.5-75.6 (VWAP reversion) over the next 2-6 bars before any push at 79 resistance.",
+  "expectancy_note": "No edge chasing here: entry at +1.17% VWAP, L/S 2.70 crowded, RS -5.5%, BTC-beta 0.80 into soft BTC. Learner punishes exactly this profile; the high-win-rate long (73%) is a DIP entry that relieves the extension, not this chase.",
+  "rationale": "SOL is a mildly-trending crypto-beta long (ADX 36.8, all TFs long) but it is extended (+1.17% VWAP, RSI 63.9, %B 0.82) and micro-momentum is stalling \u2014 the last two 15m bars rejected 76.71 and closed near their lows. A market long buys a crowded book (L/S 2.70) near 76.7 with the next real resistance at 79.01 too far to be a realistic TP1 and a valid stop below 75.0 (~1.4 ATR) giving sub-1.5 R:R. Macro is hostile to fresh longs and shorts have been the account's loser, so I wait: a dip into 75.4-75.6 support/VWAP gives a tight-stop, high-probability long with the trend intact.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 75.6,
+    "expires_min": 360,
+    "note": "Retest of the 75.5-75.6 support/VWAP shelf relieves the +1.17% extension and crowding \u2014 the spot to re-debate a long with a stop below 75.0 and target back toward 76.7/79."
+  },
+  "transcript": {
+    "macro": "Overall NEUTRAL-to-HOSTILE for fresh longs, esp. tokenized equities. US in a semiconductor-led drawdown (Nasdaq -1.5% Fri, Philly semi -20% from June peak). Earnings cluster this week ON the target list: TSLA+GOOGL Wed 7/22 after close, INTC Thu 7/23 \u2014 no naked holds into prints. Tokenized-equity pairs thin until 09:30 ET (scan ~06:08 ET pre-market). Crypto soft-but-stabilizing: BTC ~$64.7k, BTC.D 56.3%, Fear&Greed 26, funding mildly positive, recent liqs 82.6% shorts (short-covering bounce). Nearly all pairs show crowded longs (negative structure_bias) and negative RS vs BTC. Half size or less. SOL: marginal crypto-beta long only if BTC holds; size down.",
+    "sentiment": "Risk-off, active AI/semiconductor unwind \u2014 KOSPI -4.5% today. Crypto sentiment neutral (F&G ~50). SOL: LOW/NEUTRAL, no <48h binary. Constructive backdrop \u2014 US spot SOL ETF inflows >$1B cumulative, Morgan Stanley low-fee filing, SOL ~96% of on-chain tokenized-equity volume in June; Alpenglow upgrade is a Q3 (not imminent) catalyst. Price coiling $74-76, needs to break $80. Mildly supportive, follows BTC/crypto beta.",
+    "analyst": "SOL is extended (+1.17% VWAP, RSI 63.9, %B 0.82) into a crowded book (L/S 2.70) and micro-momentum is stalling (two 15m rejections at 76.71). A market long chases; a valid stop <75.0 vs far resistance 79.01 gives sub-1.5 R:R. Shorts have been the account's loser, so waiting for a dip into 75.4-75.6 VWAP/support is the higher-expectancy path.",
+    "portfolio": "HOLD SOL \u2014 extended/crowded; no chase. Re-debate a long on a dip to the 75.5-75.6 support/VWAP shelf."
+  },
+  "timestamp": "2026-07-20T10:16:18.734664+00:00"
+}

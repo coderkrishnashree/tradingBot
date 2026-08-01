@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "TSM/USDT:USDT",
+  "size": 0.0,
+  "entry": 428.17,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Relief bounce off 420.29 is still alive: 15m RSI 68 and rising, price coiling 427-429 under the 429.5 swing high; expect chop 427-431 next few bars, not a clean fresh leg down. A break and 15m close below 420.29 opens the resume toward 415/410.",
+  "expectancy_note": "p_win ~0.50, no edge now: shorting into a live 15m up-bounce (RSI 68) invites the squeeze to 430-432 that kills honest stops; longing fights a 4h ADX-51 downtrend; Jul 16 earnings binary caps any hold. Best expectancy = wait for the bounce to fail below 420.29.",
+  "rationale": "Structural bias is bearish (4h down, ADX 51, L/S 1.82 crowded longs, orderbook -0.87), but the immediate tape is bouncing UP off 420.29 with 15m score +0.66 / RSI 68, so a short now enters mid-rally into a resistance retest \u2014 exactly the late-entry trap this book bleeds on. With a two-sided Q2 earnings gap ~2 days out and p_win 0.499, there is no clean short until the bounce fails. HOLD until 420.29 breaks, then a short-dated, half-size short is the play; do not carry through the Jul 16 print.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 420.29,
+    "expires_min": 240,
+    "note": "Losing the 420.29 swing support kills the relief bounce and confirms the 4h downtrend resuming \u2014 the valid short trigger toward 415/410 (short-dated, half size ahead of Jul 16 earnings)."
+  },
+  "transcript": {
+    "macro": "RISK-OFF/defensive. Mon Jul 13 Nasdaq -1.55%, S&P -0.79%; CHIPS LED THE DOWNSIDE (SK Hynix -9%, Micron -4%, SanDisk -12%) \u2014 semis are the market's weakest sector, directly relevant to TSM. Trump Hormuz blockade, oil spiked. June CPI tonight after-hours (binary gap on thin book). TSM: last 428.17, structure_bias -0.506 (most bearish of three), L/S 1.82 (crowded long \u2192 contrarian short), orderbook -0.868, 4h RSI 32.8, ADX 51, RS vs BTC -1.59% (lagging). CRITICAL: TSMC Q2 earnings Jul 16 ~2 days out \u2014 do NOT carry TSM through the print; if short, half size and short-dated.",
+    "sentiment": "TSM bullish-but-loaded, LIVE binary in 48h. HARD CATALYST: Q2 2026 earnings Thu Jul 16 pre-market. Guidance $39.0\u201340.2B rev, consensus ~$39.8B (+32% y/y), GM 65.5\u201367.5%, EPS ~$3.77. June rev +67.9% y/y (filed Jul 13). AI-trade bellwether; guidance-raise vs AI-capex-ceiling worry gaps the whole semi complex. +52% YTD but slipped ~2% into print on AI de-risking \u2014 bar is elevated, asymmetric downside if it merely meets. No fresh export-control shock. Near-term news HIGH weight, TWO-SIDED. Do not hold naked short across the print.",
+    "analyst": "Last 428.17, support 420.29, resistance 460.54, ATR% 1.08. 4h RSI 32.8, ADX 51.2 (strong downtrend), score -0.88. BUT 15m score +0.656 (RSI 68.1, trend UP), 1h/30m flat \u2014 short-term is BOUNCING. bb_pctb 0.222, vwap_dist -0.48%. L/S 1.822, orderbook -0.868, structure_bias -0.506, p_win_learned 0.499 (coin-flip). Candles show a bounce off 420.29 to 429.51 now pulling back to 427-428 \u2014 relief rally, not fresh leg down. Shorting mid-bounce into 15m RSI 68 is the mirror of the late-continuation trap; long fights a 4h ADX-51 trend into event risk. HOLD; valid short only if 420.29 breaks (target 415/410, half size, don't carry through Jul 16).",
+    "portfolio": "TSM \u2014 HOLD (no clean entry; short mid-bounce is a squeeze trap, long fights the trend, and Jul 16 earnings binary caps any hold; armed to short below 420.29)."
+  },
+  "timestamp": "2026-07-14T07:33:04.980140+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "AAPL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.58,
+  "playbook": "none",
+  "forecast": "Price is basing at 325.1-326.6 after an exhausted down leg; expect it to chop in this zone 1-3 bars, then either reclaim 327.2 and squeeze toward VWAP/330 or lose 325.1 and probe 322. No edge until one side resolves.",
+  "expectancy_note": "Shorting RSI 27.6 at lower band into bullish news + bid-heavy book (imbalance +0.35) is the account's proven loser (late short, bounce stops it); long has no trigger yet and would need a stop under 325.1 with ADX 69 still down. HOLD has higher expectancy than either.",
+  "rationale": "The scan's SHORT is a stretched, lagging signal: RSI 27.6, stoch 16.5, %B below the band, -1.48% VWAP, and 15m candles already carving higher lows (325.13 -> 325.68) with orderbook +0.349 bid-heavy and balanced positioning - no fuel for continuation down and no crowded longs to flush. But down-ADX is 69 and price hasn't reclaimed anything, so a long is premature knife-catching. Wait for the 327.2 reclaim.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 327.2,
+    "expires_min": 240,
+    "note": "Reclaiming the top of the basing cluster / broken minor support confirms the oversold bounce is live, flipping the bias long toward VWAP and 330."
+  },
+  "transcript": {
+    "macro": "MIXED, leaning RISK-OFF for fresh longs (2026-07-21). Indices stalling just off highs (S&P 7,443, Nasdaq Comp 25,508), rising 10Y yields (4.55%) = headwind for tech multiples, DXY ~100.8. Earnings gauntlet inside 48h: GOOGL + TSLA after close Wed 7/22, INTC after close Thu 7/23 (no position carried through those). Tech names uniformly long-crowded (negative structure_bias). Chips are the relative-strength pocket but on a bounce, not a confirmed leg. Crude has the only fresh macro tailwind (US-Iran, Hormuz) but it's binary headline risk. Metals capped by yields (gold rejected $4,000, silver crowded-long/extended). BTC cleanest tape (benign funding, no earnings gate) but heavy overhead offers. EWJ pure QQQ/EWY beta, no independent driver. FOMC 7/29, BOJ 7/30 outside window. Size stance BELOW NORMAL - elevated gap risk into next 2 sessions.",
+    "sentiment": "Only true <=48h binaries are GOOGL (Q2 earnings 7/22 after close, elevated IV, gap expected) and INTC (Q2 earnings 7/23, options pricing ~15% move, RSI ~76). MSTR flipped to SELLING BTC (~$216M, largest since 2022) to fund dividends, stock -79% YoY - modest sentiment negative, BTC-dependent. BTC low-$65k, coiled bet on 7/28-29 FOMC ($2.5B call spreads target $72k); record June ETF outflows. XAG near 8-month lows after -6%, Sept-hike fears a headwind, no 48h catalyst. CL ~$82-83 five-week highs on US-Iran day 10 / Hormuz disruption - two-sided gap risk (possible 10-day ceasefire circulating). AAPL record ~$334 on China Apple Intelligence approval, +24% China iPhone units; earnings 7/30 (outside). MSFT earnings 7/29 (outside). TSM already reported 7/16 (rev +36% YoY, strong guide) - catalyst behind. ORCL no near-term catalyst. EWJ driver is BOJ 7/30 (outside). Everything except GOOGL/INTC/CL is pre-positioning ahead of the 7/28-30 FOMC/BOJ/MSFT/AAPL cluster - no fresh 48h mover.",
+    "analyst": "The scan's SHORT is a stretched, lagging signal: RSI 27.6, stoch 16.5, %B below the band, -1.48% VWAP, and 15m candles already carving higher lows (325.13 -> 325.68) with orderbook +0.349 bid-heavy and balanced positioning - no fuel for continuation down and no crowded longs to flush. But down-ADX is 69 and price hasn't reclaimed anything, so a long is premature knife-catching. Wait for the 327.2 reclaim.",
+    "portfolio": "HOLD (0.58) - scan-short is stretched (RSI 27.6, basing); no fresh short, no long trigger yet."
+  },
+  "timestamp": "2026-07-21T01:45:59.155185+00:00"
+}

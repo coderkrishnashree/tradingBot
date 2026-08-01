@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "BTC/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Oversold snap: after the 61,615 flush, expect a relief bounce toward VWAP/rejection zone 62,300-62,600 within 3-6 bars; that bounce is the short entry. If instead 61,600 gives way, price drifts to test 60k psychological/ETF support next.",
+  "expectancy_note": "Shorting here at 61,677 chases a bar already at the lower BB with 1h RSI 25 into defended 60k \u2014 poor entry (bounce risk), R:R < 1.5. Better expectancy waiting to short the bounce into VWAP; no long edge either (structure/orderbook -0.60 offered).",
+  "rationale": "Structure genuinely leans short (orderbook -0.602, bias -0.341, 1h/30m downtrend, ADX 35, funding flat), but the last bars dumped straight into oversold (1h RSI 25, stoch 12, bb_pctb -0.11, -2.3% under VWAP) right above the $60k ETF-defended line \u2014 chasing a short here has high bounce risk and thin R:R to the next support. No long: heavy sell-side orderbook and downtrend make a bounce a fade, not a trend change. Highest-expectancy move is to wait and short strength into VWAP.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 62300,
+    "expires_min": 240,
+    "note": "A bounce reclaiming 62,300 (rejection zone toward VWAP) offers a clean short-into-strength entry with a defined stop above the swing high, restoring R:R >= 1.5 in the dominant downtrend."
+  },
+  "transcript": {
+    "macro": "Overall crypto regime MODERATELY RISK-ON but BTC heavy near-term. BTC dominance ~56-57% stable. Weak US jobs report revived Fed rate-cut expectations, lifted crypto, BTC back above ~$61.8-62k. Counter-current: 10Y yield 1-month high 4.58%, equities sold off (Nasdaq -1.2%, SOX -4.7%), tape jittery; hawkish Fed Chair Warsh caps risk-on. BTC structure leans SHORT but stretched/oversold: $61,677, bb_pctb -0.108, RSI 39 (1h 25, 30m 29), vwap_dist -2.3%, downtrend 1h/5m, neutral 4h. Funding ~flat (no crowded long), OI 55,868 healthy, long/short 1.48, orderbook -0.602 (heavy sell-side), structure_bias -0.341. Support $57.8k, resistance $64.7k. Favor shorting bounces into VWAP, not breakdowns into support; longs = scalp only. Normal-to-slightly-reduced size.",
+    "sentiment": "Overall crypto sentiment NEUTRAL, cautious-constructive. Fear&Greed ~26-45. Spot BTC ETFs ended 10-day ~$2.7B outflow streak with +$221M inflow (Jul 2), framed as cautious re-entry at $60k support, not a trend flip. June brutal (~$4.1B outflows). Weak payrolls + softer dollar reduced rate-hike odds. BTC NEUTRAL to mildly BEARISH near-term, oversold on lower TFs, just above $60k ETF-defended support; orderbook offered -0.60. NO hard scheduled binary in next 48h. Loss of $60k invalidates institutional re-entry narrative and accelerates down \u2014 short works below it, fragile above.",
+    "analyst": "Last 15m bars ran 61,848->62,400 peak then rolled over hard: 62,252->62,073->61,923->61,889->61,931->61,677 close (last bar low 61,615, big red bar near lows). Structure leans SHORT (orderbook -0.602, bias -0.341, 1h/30m down, ADX 35, funding flat) but tape deeply oversold (1h RSI 25, 30m 29, stoch 11.8, bb_pctb -0.108, vwap -2.3%). Shorting HERE chases a bar already at lower BB into defended $60k \u2014 poor expectancy, high bounce risk, thin R:R. No long edge (heavy sell-side book, downtrend). Best expectancy: WAIT to short the bounce into VWAP. HOLD with armed trigger to short a reclaim of 62,300.",
+    "portfolio": "BTC/USDT:USDT \u2014 HOLD (conf 0.60); wait to short strength into VWAP, armed reconsider trigger above 62,300."
+  },
+  "timestamp": "2026-07-08T13:57:39.183423+00:00"
+}

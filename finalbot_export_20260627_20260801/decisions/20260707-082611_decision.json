@@ -1,0 +1,27 @@
+{
+  "action": "hold",
+  "symbol": "QQQ/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "expectancy_note": "Bearish trend (4h/1h short, ADX 30) but price pinned at lower BB (%B 0.095), 1h RSI 26 oversold, stoch 28, just above support 705.83 pre-US-open \u2014 shorting here chases into a bounce; R:R poor until support breaks or price bounces to VWAP.",
+  "rationale": "QQQ (tokenized equity) is in a clean downtrend on 1h/4h and sentiment is bearish, but this is a bad location to initiate: price is compressed at the lower Bollinger band, 1h RSI 26 and stoch 28 are oversold, and support 705.83 is only ~1.6% below, while 15m/5m have flattened up \u2014 high odds of a mean-reversion bounce first, and the scan is pre-US-open (thin/gappy). The trend-playbook has also been the worst performer for this account. Better to wait for either a decisive break of 705.83 to short continuation, or a bounce to VWAP (~$721) to short into strength.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 705.83,
+    "expires_min": 240,
+    "note": "Losing support 705.83 confirms trend continuation out of the oversold band and opens the next leg down \u2014 the valid momentum-short trigger."
+  },
+  "transcript": {
+    "macro": "RISK-ON but late-stage. US closed higher Jul 6 (Nasdaq +1.1%, semis/AI leading). Tokenized equity proxies \u2014 scan is pre-US-open, thin/gappy. Fed on hold 3.50-3.75%, CPI hot 4.2%, hawkish; next FOMC Jul 29 (no Fed risk inside 48h). Semis crowded long, funding ~0. QQQ ($717.58): near-neutral structure (L/S 1.11), mild positive orderbook, leads BTC slightly.",
+    "sentiment": "QQQ bearish/cautious \u2014 tone sour, Nasdaq below 50-DMA, SOX broke uptrend, rotation out of chips. Near-term catalyst: SpaceX added to Nasdaq-100 today Jul 7 (rebalance flows). Bigger risk: Mag-7 earnings late July. Near-term news leans NEGATIVE/neutral, consistent with a short.",
+    "analyst": "Clean downtrend on 1h/4h with bearish sentiment, but bad location: price compressed at lower BB (%B 0.095), 1h RSI 26 / stoch 28 oversold, support 705.83 only ~1.6% below, 15m/5m flattening up = mean-reversion bounce risk. Pre-US-open gappy. Trend playbook weakest performer. Wait for break of 705.83 or bounce to VWAP.",
+    "portfolio": "HOLD QQQ \u2014 no edge at the lower-band floor; arm the 705.83 breakdown short trigger."
+  },
+  "timestamp": "2026-07-07T08:26:11.085808+00:00"
+}

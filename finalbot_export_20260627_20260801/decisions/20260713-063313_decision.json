@@ -1,0 +1,23 @@
+{
+  "symbol": "ORCL/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.6,
+  "size": 0,
+  "entry": 139.08,
+  "stop_loss": 140.15,
+  "take_profit": 137.63,
+  "rationale": "ORCL is deeply oversold (1h RSI 13.9, stoch 15, %B 0.045, -2.65% below VWAP) and has STOPPED falling - the last ~12 15m candles chop sideways in a tight 138.75-139.71 range on drying volume after the 283-vol flush to 138.47, sitting only ~$1.45 above support 137.63. Shorting here is exactly the account's #1 loss pattern: selling the low of a stretched move with structural support immediately below and a July-14 CPI/FOMC binary that could snap it back; a short's first target (137.63) is <1.5x the required stop above 140, so R:R fails. A snap-back long is plausible given crowded longs at 2.40 L/S and oversold reads, but there is no reversal trigger yet (no VWAP reclaim, no bullish divergence), composite/trend and macro are both bearish, ORCL is a confirmed -19% laggard, and it's pre-US-open (thin/gappy). Highest-expectancy action is to wait: a break of 137.63 arms the short-continuation, a VWAP reclaim arms the snap-back long.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 137.63,
+    "expires_min": 240,
+    "note": "Losing support 137.63 on a 15m close breaks the multi-hour base and confirms short-continuation into open air with the crowd offside - re-debate for a short entry on the retest."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF/HAWKISH: Fed hike risk pressures high-multiple AI names, capex ROI under scrutiny (ORCL FY26 capex ~$50B). ORCL composite SHORT -0.29; standout rel_strength -19.3% vs BTC = major laggard. 1h RSI 13.9, below VWAP -2.65%, near support 137.63. L/S 2.40 (maxed) long-crowded into a falling laggard - contrarian-bearish continuation but DEEPLY OVERSOLD, snap-back risk. Pre-US-open thin/gappy. Trim size.",
+    "sentiment": "ORCL bearish momentum, NO near-term idiosyncratic catalyst. Q4 FY2026 already reported (hammered on $40B raise + capex overrun); ~-29% YTD from ~$248 to ~$139-140. NO earnings inside 48h (next FY2027-Q1, weeks out). Live narrative capex/debt fear vs ~$638B AI/OCI backlog - multi-quarter, not a 48h trade. Only <=48h driver is beta to July 14 CPI/FOMC tech-tape reaction. Net NEUTRAL/quiet.",
+    "analyst": "Deeply oversold and has stopped falling - chopping just above support 137.63 on drying volume. Shorting the low with support immediately below and a July-14 macro binary is the account's #1 loss pattern; short R:R fails (<1.5x). Snap-back long has no trigger yet. Hold; break of 137.63 arms the short, VWAP reclaim arms the long.",
+    "portfolio": "ORCL: HOLD (conf 0.60) - short bias on trend/crowding but oversold at support with no clean R:R; wait for break of 137.63 or a bounce to short into."
+  },
+  "timestamp": "2026-07-13T06:33:13.175880+00:00"
+}

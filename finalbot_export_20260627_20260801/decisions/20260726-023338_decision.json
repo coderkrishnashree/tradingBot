@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "XAG/USDT:USDT",
+  "size": 0.0,
+  "entry": 58.48,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.4,
+  "playbook": "none",
+  "forecast": "Coiling flat at VWAP ~58.5 in a tight 58.46-58.55 band; expect continued chop between 58 and 59 over the next few bars with no clean directional break until either the 60.5-61 resistance is retested (fade) or 56.5-57 shelf is revisited (trend-long dip-buy).",
+  "expectancy_note": "No edge: mid-range at VWAP, LTF (15m/5m RSI 30/25) fighting HTF up-trend, no level to lean on. A long here needs a wide stop (nearest support 55.64) killing R:R; crowded L/S 4.07 adds squeeze risk. HOLD > forcing sub-1.5R entry.",
+  "rationale": "XAG 4h/1h trend is up (score 0.9, ADX 45.6) but price is pinned mid-range at VWAP with 15m/5m rolling over - no honest entry: a long's nearest structural stop (55.64) is ~5% away, and there is no extreme at 61/55.64 to fade. Positioning is the most crowded long of the metals cluster (L/S 4.07, structure_bias -0.31) and it's a 0.88-correlated XAUT echo with the weakest relative strength (-8.52), so I want confirmation, not a mid-air chase. FOMC July 29 is a ~3-day binary that argues for patience over a marginal weekend entry.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 59.35,
+    "expires_min": 360,
+    "note": "A reclaim above the 59.3 minor pivot with LTF momentum turning up confirms HTF trend resumption off the VWAP coil and sets up a trend-continuation long toward 60.5-61."
+  },
+  "transcript": {
+    "macro": "Weekend RISK-OFF snapshot, precious-metals spot thin. AI-capex scare + oil spike. Fed held 4.25-4.50%, pricing one 25bp HIKE later 2026; USD firm = near-term cap on metals. XAG positioning: funding 0, OI ~458k, long/short 4.07 (extremely lopsided long), orderbook -0.04, structure_bias -0.31 (most crowded book of the three). Spot ~$58.9 off the $60.5 spike; rally real (supply deficit + AI/industrial demand + safe-haven) but positioning stretched. 4h/1h trend still up. Verdict: XAG = least-bad long but crowded -> half-size only, respect USD strength.",
+    "sentiment": "Silver ~$58.50, ~52% below Jan ATH ($121.62). Bulls defending $58-60 support. Structural bull intact: sixth consecutive supply deficit, 55%+ industrial demand (AI/clean energy). FOMC July 29 2pm ET key catalyst - hawkish hold/hike pressures silver's industrial engine, dovish tilt supports it (~35% odds priced for hike). Softer June CPI (July 14, -0.4% m/m, 3.5% y/y) reduces hike urgency = modest tailwind. Sentiment neutral-to-bullish at support; binary FOMC July 29 -> caution/smaller size.",
+    "analyst": "HTF trend up (4h/1h score 0.9, ADX 45.6) but price pinned mid-range at VWAP with 15m/5m rolling over (RSI 30/25); nearest structural stop 55.64 is ~5% away so a long's R:R is broken, and no extreme at 61/55.64 to fade. Most crowded long of the metals cluster (L/S 4.07) = squeeze risk; 0.88 XAUT echo, weakest rel strength -8.52. FOMC July 29 argues for patience. HOLD, size 0. Reconsider long on reclaim above 59.35 with LTF momentum.",
+    "portfolio": "XAG/USDT:USDT -> HOLD (conf 0.40): strong fundamentals but mid-range chop, crowded long, FOMC binary; wait for confirmation."
+  },
+  "timestamp": "2026-07-26T02:33:38.753278+00:00"
+}

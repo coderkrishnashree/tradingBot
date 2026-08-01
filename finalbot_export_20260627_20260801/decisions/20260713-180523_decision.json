@@ -1,0 +1,24 @@
+{
+  "symbol": "ORCL/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.5,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 135.6,
+    "expires_min": 240,
+    "note": "A bounce to 135.5-136 retests broken support/VWAP as resistance \u2014 the clean, non-chasing short entry into the crowded-long downtrend."
+  },
+  "rationale": "Structurally ORCL is the most bearish name (RS -18.7%, crowded long L/S 1.92, longs paying +0.00036 funding into an ADX-72 downtrend), so trend bias is down. But it's chasing to short 132.97 while RSI 17.7, %B -0.34 and price sits exactly on 132.25 support \u2014 orderbook imbalance is even +0.50 (bids defending). No reversal candle for a long either (last bar closed on its low). Highest-EV action: wait \u2014 short the bounce into 135.5-136 resistance, or a decisive loss of 132.25.",
+  "transcript": {
+    "macro": "RISK-OFF (US-Iran/Hormuz). Equities down, oil up, crypto risk-off. Broadly oversold, crowded long. Favors with-trend shorts on tech but squeeze risk on de-escalation. ORCL: weakest name (worst RS -18.7% vs BTC, RSI 17.7, crowded long L/S 1.92 AND positive funding) = clearest crowded-long-in-downtrend, but high squeeze risk given how extended.",
+    "sentiment": "ORCL negative lean, no fresh 48h catalyst: down ~25% YTD on cash-flow/capex fear (negative ~$24B FCF, +162% capex) \u2014 a multi-week narrative not a 48h event. Ex-div passed, next earnings ~Sep. June CPI Tue 8:30am ET is the shared macro binary.",
+    "analyst": "Relentless 15m staircase down, last bar closed near low on largest volume \u2014 but pinned ON support 132.25 with RSI 17.7, VWAP -4.5%, stoch 7; orderbook +0.50 bids defending. Shorting here is the #1 loss pattern; long is a knife-catch. HOLD; short the bounce into 135.5-136.",
+    "portfolio": "ORCL: HOLD (0.50) \u2014 most bearish structurally but terrible entry location; short-the-bounce trigger armed above 135.6."
+  },
+  "timestamp": "2026-07-13T18:05:23.405262+00:00"
+}

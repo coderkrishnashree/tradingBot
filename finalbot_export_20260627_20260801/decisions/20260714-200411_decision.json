@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "CRCL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.55,
+  "playbook": "none",
+  "forecast": "Price is grinding up off the 61.3 low; last 20 15m bars show recovery to 63.3-63.5 with repeated tests, not a fresh down-leg. Expect a further oversold bounce toward the 64.5-65.5 VWAP/broken-support zone over the next 4-8 bars, where the ADX-89 4h downtrend should re-assert; OR a roll-over that loses 62.3 and heads to retest 59.44 support.",
+  "expectancy_note": "p(win) on a mid-bounce short here ~0.42; account data: shorts 46% / -1.75R, high-ADX 45% / -1.97R, trend-playbook -2.62R, model adx-weight negative. Waiting for a retest short (better fill, honest stop) or a support-break beats chasing now.",
+  "rationale": "The 4h short thesis is real (RSI 27.5, ADX 89, trapped crowded longs at L/S 2.42, structure_bias -0.232), but every lower timeframe (5m/15m/30m/1h) has turned flat-to-up, price sits exactly at VWAP (+0.15%), orderbook is bid +0.227, and the recent candles are an active recovery bounce off 61.3 \u2014 shorting into this is the account's #1 loss pattern (late short into a stretched oversold pop, stopped by the bounce). No 48h binary forces a hand (earnings ~Aug 10). Best expectancy is to wait: sell the retest into 64.5-65.5 where the bounce exhausts, or sell a confirmed break of 62.3/59.44 \u2014 not the middle of a recovery. Size 0.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 62.3,
+    "expires_min": 240,
+    "note": "Losing the 62.3 intraday shelf ends the recovery bounce and reopens the 59.44 support test \u2014 that confirms the ADX-89 downtrend resuming and arms a continuation short; a reclaim/push into 64.5-65.5 instead would be the retest-short fade level."
+  },
+  "transcript": {
+    "macro": "Risk-on equity session on soft June CPI; Nasdaq +1.06%. Crypto risk-off (BTC ~$64.6k near 21-month lows, ETF outflows), edge skews to fading crowded longs. CRCL is a tokenized US equity but carries moderate crypto beta (btc_corr 0.503 \u2014 double negative in risk-off). Underlying in clear DOWNtrend: ~$61.7, -20% YTD, -40% past month. Overhang: Open USD (OUSD) launched June 30 with 140+ firms (Stripe/Coinbase/Visa/Mastercard/BlackRock), striking Circle's reserve-income economics (~99% of revenue). Offsetting positives (OCC trust-bank charter July 10, Standard Chartered/Nomura) have not stopped the bleed. Scan aligns SHORT (blended -0.178, RSI 27.5, ADX 89 extreme trend), crowded long L/S 2.42 (contrarian short), orderbook +0.227 bid + oversold RSI = near-term bounce risk. SUPPORTIVE-to-MIXED: don't sell the low, size normal-to-modest. No 48h binary (earnings ~Aug 10).",
+    "sentiment": "CRCL bearish/heavy tone, structural overhang. Dominant catalyst OUSD launch (~June 30) \u2014 rival stablecoin lets partners keep reserve interest, hits Circle's economics directly; stock bled to 4-month low ~$63. Offsetting but weaker: July 10 OCC trust-bank approval, Nomura Japan FX-settlement (2027 story). William Blair calls selloff 'overblown'; Compass Point upgraded Sell->Neutral but slashed PT $97->$55. Sentiment genuinely negative w/ real Open USD overhang = SUPPORTIVE of short bias, but acute shock ~2 weeks old, largely priced; risk to short is relief bounce. No 48h binary.",
+    "analyst": "CRCL is a tokenized equity in a genuine, structurally-driven downtrend (Open USD overhang, -40% on the month, 4h RSI 27.5, ADX 89, rel-strength -18.7% vs BTC, crowded longs at L/S 2.42 trapped offside) \u2014 supports a short bias. But the tape argues against pressing it now: every lower timeframe has flattened or turned up, price sits exactly on VWAP, order book mildly bid (+0.227), last 20 15m candles are a clear recovery bounce off 61.3 grinding to 63.3-63.5. Shorting a deeply oversold name mid-bounce is precisely the account's repeating loss pattern: learner stats show shorts 46%/-1.75R, high-ADX 45%/-1.97R, trend-playbook -2.62R, and negative model weights on both ADX and vwap_dist \u2014 exactly this configuration. No 48h binary. Higher-EV plan: wait for bounce-exhaustion retest into 64.5-65.5 to short with an honest stop, or a clean break of 62.3 toward 59.44 confirming continuation. HOLD, size 0, short-biased reconsider armed at 62.3.",
+    "portfolio": "CRCL: HOLD (conf 0.55) \u2014 short-biased but no-trade; real ADX-89 downtrend, wrong entry mid-bounce at VWAP. Reconsider armed at 62.3 (break) / 64.5-65.5 (retest fade)."
+  },
+  "timestamp": "2026-07-14T20:04:11.698186+00:00"
+}

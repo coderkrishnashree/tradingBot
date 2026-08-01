@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "INTC/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Price just flushed 112.75->111.1 in 2 bars, closing at the low with 5m RSI 15.6 / 15m RSI 20.4 \u2014 expect a mean-reversion bounce back toward the broken 111.56 level (now resistance) / VWAP ~111.5 over the next 2-4 bars before direction resolves; shorting here buys the exact low.",
+  "expectancy_note": "Short at 111.1 needs stop >112.2 (~1%) for TP only to ~110 => R:R <1 and it chases a washed-out 15.6 RSI print off-hours; p(win) on a fresh short is poor vs a likely counter-bounce. HOLD has higher expectancy than any entry here.",
+  "rationale": "Fresh 15m short breakout is real (vol 1.96, broke 111.56) but the move is only 2 candles old, price closed AT its low, and 5m/15m RSI (15.6/20.4) plus the composite 'bullish' divergence scream near-term exhaustion. ADX 7.7 = chop, US closed, semis rallied into the bell (bullish underlying), so a short here is the account's #1 loss pattern: late-short into stretched tape stopped by the bounce. A clean short only earns its keep on a bounce-and-fail retest of 111.56, and a long only on a confirmed reclaim; neither exists yet. Zero size.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 110.4,
+    "expires_min": 240,
+    "note": "Losing 110.4 after the oversold pause confirms breakdown continuation with room to 108/104.25 \u2014 validates a fresh short once the immediate exhaustion has worked off; a reclaim of 111.56 instead would flip toward a bounce-long."
+  },
+  "transcript": {
+    "macro": "CRITICAL: scan ~00:25 UTC, US closed -> INTC trades off-hours, thin. A fresh 15m short breakout exists but semis rallied into the US close (bullish underlying) \u2014 off-hours short fights that. Breakout real but low-conviction until US open confirms. June CPI Jul 14.",
+    "sentiment": "Hard catalyst: Intel Q2 earnings Thu Jul 23 (outside 48h). INTC fell ~21% past week on the sector selloff + renewed 18A yield/profitability doubts \u2014 most news-active mover. Bearish momentum intact / supportive of a short, but no <=48h binary, so risk is a sharp oversold BOUNCE rather than a fresh leg down.",
+    "analyst": "18 bars coiled 112.4-113.0 (ADX 7.7 chop), then 2 bars broke down to 111.1 closing AT the low, below the 111.56 level. 5m RSI 15.6 / 15m 20.4 deeply oversold; composite flags bullish divergence. Move only 2 candles old off-hours vs a bullish semi close -> textbook late-short-into-oversold, a bounce clips a tight stop (R:R<1). HOLD; short only on a fail-retest of 111.56 or a fresh break below 110.4.",
+    "portfolio": "HOLD INTC \u2014 breakdown real but washed-out; short a 111.56 fail-retest or a break below 110.4, not the low."
+  },
+  "timestamp": "2026-07-10T00:30:47.028785+00:00"
+}

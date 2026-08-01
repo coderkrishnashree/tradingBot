@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "QQQ/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.55,
+  "playbook": "none",
+  "forecast": "Price is stalling at 694.7 into the highs after a volume push; expect a small drift/chop 693-695 then either a shallow pullback toward the 692.5-693 VWAP shelf (buyable) or a stall.",
+  "expectancy_note": "Chasing long at RSI 71/%B 0.85 mid-air has poor R:R to 710 vs an honest stop below 693; p(win) ~0.45. Skip short: ADX strong, uptrend intact.",
+  "rationale": "QQQ extended (RSI 71.7, %B 0.851) grinding into highs on fading range. FOMC/Mag7 event epicenter (Wed 2pm) - do NOT carry size through the print, don't chase the top. No pullback touched, no reversal for a short into an ADX-strong uptrend. HOLD with re-entry trigger.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 692.9,
+    "expires_min": 240,
+    "note": "Dip to 692.5-693 VWAP shelf gives a clean higher-R long back toward 697/710."
+  },
+  "transcript": {
+    "macro": "MIXED, cautious into event risk. FOMC Wed Jul 29 2pm ET; META/MSFT/AAPL/AMZN earnings same week. Risk-on but fragile relief bounce (US-Iran pause, oil -6%) after back-to-back losing weeks. Crypto BTC ~$64-65k, dominance 56.3%, F&G 29. Crowding flag firing across book, stretched momentum. Default: reduced size, prefer intraday over overnight-into-Wed. QQQ: NEUTRAL/mild headwind, IS the FOMC/Mag7 epicenter.",
+    "sentiment": "Risk-on into open but knife's-edge. FOMC Wed, Core PCE Thu, megacap earnings wall. Semis in ~20% bear-market drawdown. Highest-conviction setup is CL short. QQQ: neutral-cautious, fine intraday, do NOT hold naked through Wed 2pm.",
+    "analyst": "QQQ 694.72 extended, grinding into highs on fading range after a big-volume push; structure near-balanced (LSR 0.95, bias +0.10). No pullback level touched, no short reversal into ADX-strong uptrend. Chasing the top into FOMC/Mag7 is the account's signature loser. Best EV: wait for pullback-to-VWAP long ~692.5-693.",
+    "portfolio": "QQQ - HOLD (0.55): stand aside at extended highs into FOMC; buy a pullback to the 692.5-693 VWAP shelf, not the chase."
+  },
+  "timestamp": "2026-07-27T08:41:00.837484+00:00"
+}

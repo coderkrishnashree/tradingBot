@@ -1,0 +1,28 @@
+{
+  "symbol": "XAUT/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.35,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "none",
+  "forecast": "Price coils in a 4093-4106 range just above the 4084 flush low; likely chops sideways-to-slightly-down into FOMC minutes, then resolves on the event. No clean edge until 4084 breaks (down-continuation) or 4116 reclaims (bounce).",
+  "expectancy_note": "Short p(win) ~0.4 only: RSI 19.5, %B -0.08 below band, ADX 23.7 weak, price already 1% under VWAP after a completed flush into imminent FOMC minutes = chasing the low. R:R poor at these levels. HOLD is highest expectancy.",
+  "rationale": "Scan is aligned short but the conviction lives only on 15m/5m momentum while 1h/4h are flat (-0.0/-0.09) and RSI is deeply oversold (15m 19.5, 4h 30.8) below the lower Bollinger band. The bounce off 4084 already failed at 4106 with no bullish divergence, so a mean-reversion long lacks confirmation too. Shorting the low sub-band into imminent FOMC minutes (July 8) on a safe-haven asset is negative expectancy; no clean setup either direction, so flat with zero size.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 4084,
+    "expires_min": 240,
+    "note": "Losing the 4084 flush low confirms down-continuation with fresh momentum, turning the short from a chase into a valid entry toward 4060/support."
+  },
+  "transcript": {
+    "macro": "Regime risk-OFF. USD firm (DXY ~100.9), ~56% odds of a Fed HIKE by Sept (hawkish) = headwind for gold near-term. Fed June minutes imminent (Jul 8) = event risk. XAUT: same macro as silver \u2014 DXY firm, hawkish repricing, gold slipped from ~$4,150 to ~$4,097.9; scan aligned short but RSI 19.5/30.8 deeply oversold, ADX only 23.7 (weak trend). Positioning crowded long (L/S 2.61). BIGGEST RISK: Fed minutes could flip gold on a dovish surprise, and gold is a safe-haven \u2014 the tech selloff/oil shock could spark haven bids. Highly correlated to XAG (0.88).",
+    "sentiment": "XAUT/gold bullish structural tone, event risk Wed. Gold ~$4,100-4,175, up ~2.5% on the week on soft jobs + safe-haven (Middle East) flows; banks target $4,900-6,300 year-end. Only <=48h catalyst is FOMC minutes Jul 8 plus geopolitical headlines. Downside risk = hawkish minutes, stronger dollar, de-escalation stripping haven premium. Treat XAG+XAUT as one macro bet.",
+    "analyst": "XAUT flushed 4135->4084 on heavy volume, bounced to 4106 and rolled back to 4098 on drying volume. Momentum short is stretched (RSI 19.5, below lower band, 1% under VWAP) and ADX weak (23.7); 1h/4h scores flat. Crowded longs (L/S 2.61) + safe-haven status + imminent FOMC minutes make both a chase-short and an unconfirmed fade-long low-expectancy. HOLD flat; re-debate on a break of 4084 (short) or reclaim of 4116 (bounce).",
+    "portfolio": "HOLD XAUT/USDT:USDT \u2014 short is a chase into a completed oversold flush before FOMC minutes on a safe-haven; wait for a break of 4084; conf 0.35."
+  },
+  "timestamp": "2026-07-07T21:16:16.277090+00:00"
+}

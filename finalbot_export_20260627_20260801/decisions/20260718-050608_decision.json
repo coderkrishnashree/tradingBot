@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "META/USDT:USDT",
+  "size": 0.0,
+  "entry": 638.91,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Dead weekend book coils in the 638-641 pocket with near-zero volume; no directional resolution until Monday's cash open. Real move only if 626.46 support cracks (continuation) or 4h RSI-24 oversold snaps back toward VWAP ~658 (bounce).",
+  "expectancy_note": "Shorting here is negative-EV: 4h/30m RSI 24/17.6, -2.9% below VWAP, orderbook +0.20 bid, and the book's shorts win only 47% (avg -0.87R) precisely on late-shorts-into-stretched-tape. No confirmed fade at support either. HOLD beats both.",
+  "rationale": "META is deeply oversold (RSI 24 on 4h, 17.6 on 30m) and already 2.9% below VWAP, and the last ~20 15m candles show the downmove has stalled into a flat, near-zero-volume coil rather than accelerating \u2014 a market short would get bounced before any resumption, exactly the loss pattern in this account's short book (aligned + high relative-strength shorts). US cash is closed (thin/gappy) so genuine discovery waits for Monday; there is no confirmed reversal at support 626.46 to fade either. Highest-expectancy action is to wait, sizing zero.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 626.46,
+    "expires_min": 240,
+    "note": "Losing the 626.46 support on real (Monday) volume confirms trend continuation and re-opens a short on the retest; until then the oversold, stalled, closed-market tape makes chasing negative-EV."
+  },
+  "transcript": {
+    "macro": "2026-07-18 05:01 UTC. Tokenized US equities; US cash market CLOSED (Sat pre-dawn) \u2014 thin/gappy, real discovery Monday open. Regime MIXED-to-cautious, hawkish Fed (~50% see a 2026 hike, ~60% odds higher rates by Oct). Twin event wall Wed Jul 29: FOMC + META & MSFT earnings after close \u2014 keep short-dated, flat before 7/29. META: last 638.91, composite SHORT 54.6% conf, 4h/1h/30m trending down, RSI 24 (4h) deeply oversold; structure near-flat (+0.03), L/S 1.09, orderbook +0.20 mild bid; relative strength +9.5% vs BTC (leader, low BTC corr 0.39). Trade SMALLER (gap risk).",
+    "sentiment": "Risk-off tech tape: Fri Jul 17 Nasdaq -1.4%, SOX entered bear market (chip sell-off, Gemini delay, Chinese Kimi K3 model, US-Iran tensions). META earnings Wed Jul 29 after close \u2014 11-day binary, won't move price this cycle. Constructive narrative (Meta Compute cloud launch ~+9% Jul 1, capex guide raised $125-145B) but multi-quarter. As a relative-strength leader (+9.5%) META is MORE exposed to mean-reversion/profit-taking if risk-off persists. Near-term neutral-to-slightly-bearish via macro only.",
+    "analyst": "Deeply oversold (RSI 24/17.6) and 2.9% below VWAP; last ~20 15m candles stalled into a flat near-zero-volume coil (638-641), not accelerating \u2014 a market short gets bounced, the account's losing short pattern. No confirmed fade at support 626.46. Closed cash market = discovery waits for Monday. Highest-EV action is HOLD; short re-opens only on a real break below 626.46.",
+    "portfolio": "META \u2014 HOLD (0.60): oversold, stalled weekend coil; short only on a Monday break below 626.46."
+  },
+  "timestamp": "2026-07-18T05:06:08.977725+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "symbol": "EWY/USDT:USDT",
+  "action": "hold",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.34,
+  "playbook": "none",
+  "forecast": "Price stays pinned at VWAP ~162.5 chopping in the 161.1-162.9 coil for the next few bars; no directional edge until it either loses the 160.7 intraday low (short leg to 158/154.4) or reclaims 164.6 (bounce continuation).",
+  "expectancy_note": "p(win) ~0.5 either way; nearest structure (154.4 / 184.6) is 5-13% away so no clean fade R:R, and shorting stabilized post-shock tape at VWAP invites the bounce-stop \u2014 expectancy of HOLD beats both directions.",
+  "rationale": "EWY is a thin Samsung/SK Hynix ETF proxy; composite confidence is 3.7% with badly split TFs (30m/1h short vs 4h long), RSI 53.6 and price dead-flat at VWAP in the center of a wide 154.4-184.6 range on drying volume. The KOSPI -4.5% shock has already been absorbed and price stabilized with a bullish divergence flagged, so a fresh short would be chasing a done move into a routine-bounce stop, while risk-off macro vetoes a long. No level-based edge in either direction, so no position.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 160.7,
+    "expires_min": 240,
+    "note": "Losing the intraday low breaks the coil and confirms the risk-off leg resuming, opening a short toward 154.4 support."
+  },
+  "transcript": {
+    "macro": "RISK-OFF / hostile for tech & crypto longs. Semiconductor rout the main event. EWY specifically HEADWIND \u2014 South Korea ETF = Samsung/SK Hynix memory beta, a semi-cycle proxy; Samsung's results were the trigger. RS -26% vs BTC, chop/low-conf (3.7%), thin/illiquid.",
+    "sentiment": "EWY: BEARISH near-term / event-driven today. CONCRETE FRESH SHOCK: KOSPI fell ~4.5% today (Jul 20) on an AI/memory-stock unwind \u2014 directly relevant since EWY is Samsung/SK Hynix dominated. Structurally bullish backdrop (semi exports +54%, BoK rebutting chip-peak) but immediate tape is risk-off; clearest active negative catalyst in the group.",
+    "analyst": "EWY last 162.54, composite conf 3.7% with badly split TFs (30m/1h short vs 4h long), RSI 53.6, price dead-flat at VWAP in the center of a wide 154.4-184.6 range on drying volume. KOSPI -4.5% shock already absorbed/stabilized with a bullish divergence flagged, so a fresh short chases a done move into a bounce-stop; risk-off macro vetoes a long. No level-based edge. HOLD; short trigger below the 160.7 intraday low.",
+    "portfolio": "HOLD EWY \u2014 thin, mid-range at VWAP, shock already absorbed; reconsider short below 160.7."
+  },
+  "timestamp": "2026-07-20T07:47:00.540706+00:00"
+}

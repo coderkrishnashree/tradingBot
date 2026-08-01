@@ -1,0 +1,25 @@
+{
+  "action": "hold",
+  "symbol": "INTC/USDT:USDT",
+  "size": 0.0,
+  "entry": 124.48,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "expectancy_note": "Long momentum is real (15m/5m up, RS +2.58% leading) but price sits ~0.5% under 125.12 resistance with asks stacked (ob -0.334) and a crowded long book (L/S 1.70); fresh long here = <1 R:R chasing into a wall. Best EV is to wait for the breakout confirm.",
+  "rationale": "INTC is a tokenized equity so crypto structure is only a crowding tell, and here it's a red flag: L/S 1.70 long-heavy plus stacked asks right after a -17% week. The lower-TF bounce is genuine and RS leads, but entering at 124.48 into resistance 125.12 with support only at 122.40 gives no reward:risk. I'd rather buy strength once the asks are cleared than chase into them; not shorting because the crowded long can still squeeze that book higher.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 125.2,
+    "expires_min": 240,
+    "note": "Clearing 125.12 resistance proves stacked asks got absorbed and the bounce has follow-through room; flips me long with the momentum and RS leadership."
+  },
+  "transcript": {
+    "macro": "Regime RISK-ON but fragile/whippy. Mon 7/6 US index futures higher (Nasdaq-100 +1.0%), AI/semiconductor trade reclaiming leadership after a violent late-June flush (Intel ~-17%/wk). Oversold semi bounce within intact H1-2026 uptrend (INTC +278% YTD); high-beta, headline-driven. BTC noise for these equities. Event risk 24-48h LOW/CLEAN (no FOMC until 7/28-29, no CPI). Live risk = US cash close: tokenized equities thin/gappy overnight/weekend. INTC best of the three on momentum but fighting a crowded long right after a -17% week. Lean smaller.",
+    "sentiment": "INTC MODERATELY BULLISH, but binary earnings risk just outside window. Positive: analyst doubled PT calling foundry story 'too good to ignore' (7/3); 18A traction (Microsoft wafer agreement, government equity stake, SoftBank investment). Negative micro: 'Intel sank as AMD discovered low-power cores' (7/2); mgmt DENIED Anthropic/govt-stake rumors (~7/2, don't trade the rumor). KEY DATE: Q2 earnings THU JULY 23 after close \u2014 OUTSIDE 24-48h horizon so no in-window binary risk, flag for holds into next week. Near-term news broadly supportive of the long.",
+    "analyst": "Lower-TF bounce genuine and RS leads (+2.58%), but price sits ~0.5% under 125.12 resistance with stacked asks (ob -0.334) and crowded long book (L/S 1.70) after a -17% week \u2014 fresh long = <1 R:R chasing a wall. Not shorting (crowded long can squeeze). Wait for a breakout confirm above 125.20 or a pullback to 122.40 support.",
+    "portfolio": "HOLD INTC \u2014 real momentum but no R:R buying into resistance/stacked asks; armed long trigger above 125.20 (conf 0.50)."
+  },
+  "timestamp": "2026-07-06T09:34:29.401922+00:00"
+}

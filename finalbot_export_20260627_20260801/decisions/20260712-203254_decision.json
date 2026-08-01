@@ -1,0 +1,26 @@
+{
+  "symbol": "INTC/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.5,
+  "size": 0,
+  "entry": 111.0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "forecast": "Thin Sunday tape pinned in a 110.76-111.46 coil; no momentum into Monday's real open, so price likely chops around 111 until cash-session discovery resumes.",
+  "expectancy_note": "Shorting a marginal-ADX (26) flat weekend tape is the account's proven loser (shorts 45% win -1.82R, trend 41% win -3.01R); no edge, no impulse to join, no extreme to fade = negative expectancy now.",
+  "rationale": "The structural bearish alignment (composite -0.476, RS -19%, L/S 1.82 crowded-long) is real, but the last 20 15m bars show zero momentum and near-zero volume in a 0.5% band around 111 \u2014 no impulse leg to join and no oversold extreme to fade. US cash is CLOSED (Sunday), so this is a thin, gappy tokenized equity with no follow-through until Monday's open, and CPI Tuesday is a binary. Forcing a 1.19%-ATR short here into a flat weekend tape is precisely the account's losing pattern; better to wait for Monday's break of the base with volume. Size 0.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 110.7,
+    "expires_min": 240,
+    "note": "Losing the intraday base/VWAP with volume on Monday's open confirms the bearish continuation and makes the short actionable toward 108 then support 104.25."
+  },
+  "transcript": {
+    "macro": "Scan 2026-07-12 20:27 UTC (Sun, US cash CLOSED \u2014 tokenized equities thin/gappy, discovery Mon). June CPI Tue 07/14 08:30 ET = binary headline risk. Strait of Hormuz oil-up/risk-off. Semis two-sided. Funding zero on tokenized equities. INTC: cleanest bearish alignment of the equities (composite short -0.476, 15m/1h/4h all short), structure_bias -0.251 (L/S 1.82 lopsided-long = contrarian short fuel), RS -19.0% (worst laggard). Short thesis supported but follow-through waits for Monday open; testing ~$108 area.",
+    "sentiment": "INTC: a real \u226448h binary is CLOSE but just outside window \u2014 Q2 earnings Wed Jul 23 (~11 days out), market fixated on foundry revenue/18A yields; stock fragile, down ~21% in 7 days into AI-chip selloff, testing ~$108. No earnings shock inside 48h, but most headline-sensitive name; thin weekend liquidity + semi selloff argue risk to downside \u2014 supportive of short bias, though tradeable binary (earnings) is next week.",
+    "analyst": "Structural bearish alignment (composite -0.476, RS -19%, L/S 1.82 crowded-long) is real, but last 20 15m bars show zero momentum / near-zero volume in a 0.5% band around 111 \u2014 no impulse to join, no extreme to fade. US cash CLOSED (Sunday), thin/gappy, no follow-through until Monday; CPI Tuesday a binary. A 1.19%-ATR short into a flat weekend tape is the account's proven loser (shorts 45% win -1.82R). Wait for Monday break of base with volume; size 0.",
+    "portfolio": "HOLD INTC \u2014 bearish structure but dead flat weekend tape, no impulse; arm a short on Monday break below 110.7."
+  },
+  "timestamp": "2026-07-12T20:32:54.846206+00:00"
+}

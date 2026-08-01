@@ -1,0 +1,22 @@
+{
+  "action": "short",
+  "symbol": "NVDA/USDT:USDT",
+  "size": 2.5,
+  "entry": 205.8,
+  "stop_loss": 208.15,
+  "take_profit": 201.2,
+  "take_profit_1": 201.2,
+  "take_profit_2": 199.4,
+  "confidence": 0.58,
+  "playbook": "trend",
+  "forecast": "Oversold 5m bounce carries price up to retest the 205.5-206.2 broken-support shelf (VWAP ~208 the hard cap) over the next 2-4 bars, then the 30m-4h downtrend resumes back toward 201.2 and support 199.3 within the session.",
+  "expectancy_note": "p(win)~0.55, R:R ~1.95 to TP1 (reward 4.6 / risk 2.35); limit-into-bounce beats a market short and beats HOLD because trend/macro/orderbook all lean down.",
+  "rationale": "Every TF 15m-4h is short with ADX 84.5 and macro is explicitly fade-the-bounce for chips, but price at 204.72 just put in a 3-bar bounce off 203.4 with 5m RSI flipped to 61.9, so a market short would be chasing into a snap-back. Instead a LIMIT at 205.8 sells the retest of the broken 205.5-206 shelf, stop 208.15 above VWAP (2.35pt risk, ~0.9x ATR), targeting 201.2/199.4 for ~1.95 R:R. Size kept small (2.5%) given oversold RSI 29.7, crowded longs (L/S 1.50) that fuel squeeze risk, and thin tokenized-equity liquidity; if the limit never fills price simply resumes lower.",
+  "transcript": {
+    "macro": "Regime risk-OFF for chips (Jul 16: Nasdaq -1.47%, Tech -2.28%, SOX ~15% off highs, 50-day vol ~4.2%). Sell-the-news across the complex. Trade as EQUITY not crypto (NVDA BTC corr 0.16, funding ~0). Long/short lopsidedly LONG into falling tape: NVDA L/S 1.50 = crowded longs / squeeze-lower fuel. NVDA RSI ~30 oversold, downtrending 30m-4h, rel strength ~flat (+0.44%). Catalysts <48h: Fri Jul 17 10:00 ET prelim UMich sentiment (minor); no NVDA earnings until Aug 26. Bottom line: favors SHORT side / fading bounces; biggest risk oversold snap-back squeeze; argues SMALLER SIZE, tight risk.",
+    "sentiment": "Semiconductor sentiment cautious/risk-off despite strong fundamentals. NVDA: no own catalyst until Aug 26 earnings. China overhang is the live risk \u2014 US official (Jul 14) said H200 shipments to China 'trivial'; Bernstein sees NVDA China share collapsing 66%->8% as Huawei fills gap; NVDA guided no near-term China AI revenue. NVDA lags peers YoY (~+5% vs Micron/AMD +100%+). China is a slow bleed not a 48h event; near-term news mildly negative/neutral, follows TSM-led sector tape. Risk: mean-reversion bounce given how oversold the group is.",
+    "analyst": "NVDA is in a clean strong multi-TF downtrend (15m/30m/1h/4h short, ADX 84.5, MACD negative) and macro is unambiguous fade-the-bounce for chips. Tokenized equity so ignore crypto structure except L/S 1.50 (crowded longs help the short as squeeze fuel); funding zero, BTC corr negligible. Problem: shorting 204.72 now chases a fresh 3-bar bounce off the 203.44 low (203.78->204.37->204.9) with 5m flipped long (RSI 61.9) and 4h RSI 29.7 oversold \u2014 the account's #1 loss pattern (late short into stretched-then-bouncing tape). So place a LIMIT at 205.8 to sell the retest of the 205.5-206 broken-support shelf, stop 208.15 just above VWAP (~2.35pt risk, <1x ATR), targeting 201.2 then support 199.3 for ~1.95 R:R. Size deliberately small (2.5%) \u2014 oversold conditions, crowded longs, thin tokenized liquidity all raise counter-squeeze odds; if price never bounces to the limit it simply continues lower.",
+    "portfolio": "NVDA \u2014 SHORT via limit 205.8, stop 208.15, TP 201.2/199.4, conf 0.58, size 2.5% (fade the retest, don't chase the bounce)."
+  },
+  "timestamp": "2026-07-17T03:34:54.178568+00:00"
+}

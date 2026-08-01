@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "XAUT/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price just flushed 4092->4063 and closed 4070 on a first bounce bar; next few bars likely chop/coil 4063-4092 into a possible squeeze up, but no confirmed reversal yet \u2014 expect two-way grind pinned to VWAP ~4092 ahead of CPI.",
+  "expectancy_note": "No positive-expectancy entry: short is squeeze-blocked + negative funding (crowd already short = squeeze fuel) and macro-hostile; long is a knife-catch with zero reversal confirmation. p(win) on either <0.5, R:R unproven \u2014 flat is highest EV.",
+  "rationale": "System forced FLAT (regime=squeeze) with raw short suppressed; RSI 16-26 and %B -0.32 across all TFs mean price is stretched below the lower band, and negative funding shows shorts are already crowded and paying \u2014 that is squeeze fuel UP, not a fresh short. Macro (Iran safe-haven bid, DXY 3-wk low) is hostile to shorts, while a long needs a VWAP reclaim it has not made. With CPI July 14 as an unresolved binary, there is no honest R:R>=1.5 setup, so no size is warranted.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 4092.0,
+    "expires_min": 240,
+    "note": "Reclaiming the 15m VWAP/pre-flush level confirms the oversold squeeze is turning up and would open a long into the bounce."
+  },
+  "transcript": {
+    "macro": "RISK-OFF lean; defensive macro (US-Iran, DXY soft ~100.6 3-wk low, Sep hike odds ~67%). XAUT regime_blocked = 'squeeze', composite FORCED TO FLAT (raw short suppressed). Funding NEGATIVE (-0.00004 = shorts paying), RSI 16-26 deeply oversold, ADX 62. Macro STRONGLY against a short: gold ~$4,140 +1.5%, safe-haven bid on Iran, DXY at 3-wk low. System itself blocked this \u2014 do NOT initiate a fresh gold short; squeeze/reversal risk high.",
+    "sentiment": "Risk-cautious; June CPI + Warsh July 14 = the binary. Same macro complex as silver (corr 0.877). Gold ~$4.1k, ~27% below Jan ATH, chopping on Fed 9-8 split; safe-haven bid partially offset by strong dollar. Soft CPI/dovish Warsh = up; hot CPI = down. Near-term neutral, two-way.",
+    "analyst": "Last 4070.2, ATR% 0.22 tight. RSI 4h 26.5 / 30m 16.6 / 5m 18.7 deeply oversold all TFs, ADX 62, %B -0.318 below lower band, stoch 14.8. regime=squeeze, regime_blocked=true, raw short forced flat. Funding NEGATIVE (shorts already crowded/paying = squeeze fuel UP). Flush 4092->4063 then close 4070 (first bounce bar). Short blocked+hostile; long has no reversal confirmation. HOLD, armed long on a reclaim above 4092.",
+    "portfolio": "XAUT \u2014 HOLD, conf 0.60: system squeeze-blocked, negative funding + safe-haven bid = no short; long unconfirmed. Armed long above 4092."
+  },
+  "timestamp": "2026-07-12T23:05:01.227332+00:00"
+}

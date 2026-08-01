@@ -1,0 +1,28 @@
+{
+  "symbol": "INTC/USDT:USDT",
+  "action": "hold",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.62,
+  "playbook": "none",
+  "forecast": "Price is pinned on 104.25 support after a straight-line drop from 110.7; last 15m bar bounced off 104.25 to close 104.83 (first deceleration). Expect a coil/chop around 104-106 next few bars until it either loses 104.25 (flush to ~100) or reclaims 107 (oversold snapback).",
+  "expectancy_note": "Both sides low-expectancy now: shorting RSI 19.7 / stoch 2.5 / %B~0 / -9.8% VWAP right ON support = chase into snapback; long has no reclaim/confirmation. ATR 3.76% forces stops far wider than nearby structure, so R:R fails either way. HOLD until the level resolves.",
+  "rationale": "INTC is ground-zero of the semi sell-off but is deeply oversold and sitting exactly on 104.25 support with a 9.8% VWAP stretch and the final bar showing a small bounce/deceleration. Shorting here is chasing into high snapback risk; a long has no trigger yet in a risk-off, pre-US-open thin tape. No entry offers R:R >= 1.5 with an honest ~1xATR stop, so the highest-expectancy move is to wait for a confirmed break of 104.25 (continuation short) or reclaim of ~107 (snapback long).",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 104.25,
+    "expires_min": 240,
+    "note": "A 15m close and hold below 104.25 breaks support and confirms continuation toward ~100 \u2014 arms a fresh short; conversely flip long only on a reclaim of ~107."
+  },
+  "transcript": {
+    "macro": "Risk-off/defensive: semiconductor sell-off, INTC is ground zero. Nasdaq -1.2%, VIX ~18. Universal short-crowding (retail long into falling tape, INTC L/S 1.65) supports continuation-down but snapback risk. Trade smaller; equity tokens best after US open ~13:30 UTC. INTC: rel-strength -20.4%, RSI 19.7, ADX 60, at support 104.25 \u2014 deeply oversold, chase risk high.",
+    "sentiment": "INTC bearish, most fragile name. Fell ~10% Jul 7, testing $110 support toward $100 on 18A-node delay + foundry losses ($2.4B Q1 operating loss, ~$174M external revenue). Foundry AI-deal headlines long-horizon, not tradable now. Earnings Jul 23 (outside 48h). Momentum/sentiment decisively negative but deeply oversold = chase/snapback risk.",
+    "analyst": "Deeply oversold (RSI 19.7, stoch 2.5, %B~0, -9.8% VWAP) sitting exactly on 104.25 support with the final bar decelerating. ATR 3.76% forces stops far wider than structure, R:R fails both ways. Wait for a confirmed break of 104.25 or reclaim of 107. HOLD, size 0.",
+    "portfolio": "INTC: HOLD \u2014 oversold on support, chase risk high; arm continuation short on break of 104.25. Conf 0.62."
+  },
+  "timestamp": "2026-07-08T09:29:48.860123+00:00"
+}

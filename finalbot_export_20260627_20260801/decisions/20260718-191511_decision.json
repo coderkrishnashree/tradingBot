@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "ORCL/USDT:USDT",
+  "size": 0.0,
+  "entry": 126.51,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.34,
+  "playbook": "none",
+  "forecast": "Price defended 125.96 and is bouncing (126.0 to 126.51 over last 4 bars) inside the 120.79-146.52 range; expect chop between ~125.9 and ~127.3 into the weekend, no clean directional move next few bars.",
+  "expectancy_note": "Short p(win)~0.42 (not-aligned, 4h RSI 29 oversold, chasing into a live bounce, weekend gap risk); shorts are this account's losing side (0.47 win, -0.87 avg). No R:R that clears 1.5 without chasing. HOLD is highest expectancy.",
+  "rationale": "Composite short is NOT aligned (5m long, 30m flat, 4h short but RSI 29.4 oversold) and the last four candles are a higher-low bounce off 125.96 defense, so a market short would chase into a counter-bounce exactly like this account's past late-short losers. L/S 2.626 crowded long argues against pressing shorts, and US cash is closed (thin/gappy). No long edge either with 4h still down. Size 0 until price picks a side.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 125.9,
+    "expires_min": 240,
+    "note": "A decisive break of the defended intraday low reopens the aligned 4h short continuation toward 124/122 support; until then it is range chop."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF, AI-infrastructure sentiment negative; reduce size on all equity tokens. US cash CLOSED Sat, reopen Mon Jul 20 - thin/gappy, Monday gap risk. ORCL scan short but signals CONFLICT (composite NOT aligned; 5m flipped long, 30m flat). L/S 2.626 crowded long. Choppy, low conviction. No earnings catalyst this window.",
+    "sentiment": "ORCL bearish near-term. Named a specific >5% loser in the July 17 rout (grouped with AMD/AVGO/SMCI/MRVL). Earnings past (Q4 June 2026); NEXT report Sept 14 - far outside horizon. Trades with AI-infrastructure sentiment, currently negative.",
+    "analyst": "Composite short NOT aligned (5m long, 30m flat, 4h short but RSI 29.4 oversold) and last 4 candles are a higher-low bounce off 125.96 - a market short chases into a counter-bounce (account's late-short loser). L/S 2.626 crowded long argues against pressing shorts; US cash closed/thin. No long edge with 4h down. Flat until price picks a side.",
+    "portfolio": "HOLD ORCL (conf 0.34) - conflicting/choppy signals and a live bounce off support; arm short on a decisive break below 125.9."
+  },
+  "timestamp": "2026-07-18T19:15:11.970759+00:00"
+}

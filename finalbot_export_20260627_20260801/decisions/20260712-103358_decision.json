@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "CL/USDT:USDT",
+  "size": 0.0,
+  "entry": 73.88,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.58,
+  "playbook": "none",
+  "forecast": "Price coiling 73.6-73.96 just under supply after the up-move; most likely a mean-revert dip toward VWAP/73.2-73.4 over the next 2-4 bars before any retest of 74+. A clean break and hold above 73.96/74.10 on volume would instead extend toward 74.6 then the 76 cap.",
+  "expectancy_note": "p(win) on a chase here ~0.4 (extended: %B 0.94, stoch 89, +1.95% VWAP, crowded long 4.28 into 76 cap); waiting for a 73.2 dip or a 74.10 breakout raises p(win) to ~0.6 with better R:R. HOLD beats both a late long and a Hormuz-gap-risk short.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 74.1,
+    "expires_min": 240,
+    "note": "Clears the 10-bar coil high (73.96) with follow-through, proving the squeeze resolves up toward 74.6/76 rather than fading \u2014 flips to a momentum long."
+  },
+  "rationale": "CL's up-move has already happened and is stretched into the $76 supply shelf with the most crowded long positioning on the board (L/S 4.28, structure_bias -0.43) and fading composite conviction (48%) \u2014 chasing the long here is the documented losing pattern. But shorting is wrong too: live Hormuz escalation makes weekend headline risk asymmetric to the upside, and 4h trend is up. No honest tight-stop entry exists at 73.88, so wait for either the dip to 73.2 support or a confirmed 74.10 breakout. Size 0.",
+  "transcript": {
+    "macro": "Regime NEUTRAL overall; CL is the one instrument with real liquidity (3k+ unit candles) and its own trend this session. Fundamentally SOFT-to-balanced: WTI ~$73-74 capped below $75-76; curve flattening to mild contango as OPEC+ unwinds cuts (+188 kb/d Jul, similar Aug). But scan shows live intraday uptrend (all TFs long, 1h RSI 75, 4h RSI 59.6), rel-strength +1.81%, diversifier (BTC corr -0.26), stretched (bb_pctb 0.94, stoch 89) into the $76 cap. Long/short crowded long (4.28, most on board), structure_bias -0.43.",
+    "sentiment": "CL bullish bias / event risk LIVE \u2014 the real catalyst this cycle. Active escalating Strait of Hormuz crisis: Jul 11 IRGC attacked a Cyprus-flagged ship & declared strait 'closed'; US ran a 3rd round of strikes (~140 targets). Live geopolitical shock can gap oil UP at weekly re-open \u2014 clear upside tail. Counterweight: OPEC+ +188k bpd Aug, UAE record production caps medium-term; Brent chopped $71-76 (near $76 Fri). Near-term news argues long/against fresh shorts.",
+    "analyst": "Momentum + geopolitics say long, but stretched into supply with crowded-long positioning = don't chase (this account's #1 loss pattern). Short is also wrong: Hormuz gap risk is asymmetric up. No honest tight-stop entry at 73.88. Hold; buy the 73.2 dip or a confirmed 74.10 breakout.",
+    "portfolio": "HOLD CL \u2014 bullish/geopolitical bias but extended into supply; wait for a 73.2 dip or 74.10 breakout, don't chase, don't short into Hormuz gap risk."
+  },
+  "timestamp": "2026-07-12T10:33:58.752110+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "symbol": "GOOGL/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.55,
+  "size": 0.0,
+  "entry": 328.33,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "none",
+  "forecast": "Coils 327-330 near-term; a clean break/close below 325 (last swing low) opens a slide toward VWAP/323 then 320; failure there means it grinds back to retest 330 resistance.",
+  "expectancy_note": "No honest entry: long is overbought/crowded (RSI 76, L/S 2.63) into FOMC + overnight gap; short has theme (structure_bias -0.326, RS -12.8%, capex overhang) but no structure break yet - fading an ADX-57 uptrend mid-range is negative expectancy. Wait for the 325 break.",
+  "rationale": "GOOGL is extended (%B 1.08, stoch 85, +1.57% over VWAP) at the top of a strong all-TF uptrend, but crowded long and thematically weak (worst structure_bias in book, RS -12.8%, fresh capex/FCF overhang dragging the AI complex). Chasing the long into overbought + FOMC + thin overnight equity gap is the account's #1 loss pattern; shorting a live ADX-57 uptrend before it breaks its 325 pivot is equally punished by the next impulse. HOLD is highest-expectancy until price picks a side - the crowded-long unwind is the trade, but only once 325 gives way.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 325.0,
+    "expires_min": 240,
+    "note": "Losing 325 breaks the last swing low and confirms the crowded-long unwind; that flips me to a short toward VWAP/320."
+  },
+  "transcript": {
+    "macro": "Environment HOSTILE-to-MIXED, risk-off tech-led. FOMC Jul 28-29 inside the holding window; active AI-capex/semiconductor selloff is the defining tape. Book structurally over-long into weakness. Tokenized-equity perps thin/gappy overnight. Prefer trend-aligned shorts in the AI complex over longs; cut size. GOOGL bucking the tape (uptrend all TFs) BUT L/S 2.63 = extremely crowded long, structure_bias -0.326 (most contrarian-bearish in book), RSI 75+, RS -12.8% - late/crowded, exhaustion risk high.",
+    "sentiment": "GOOGL already reported Jul 22: revenue beat (+24% YoY, Cloud +82%) but the stock SANK because 2026 capex was hiked to ~$195-205B and FCF went negative - a fresh, still-in-force negative catalyst dragging the whole AI-capex complex and the reference point for META's print. Overall: bearish/risk-off tech tape punishing AI-capex spenders.",
+    "analyst": "GOOGL last 328.33. Uptrend all TFs (ADX 57.2) but RSI 75.7, stoch 85.4, %B 1.084, VWAP +1.57% - overbought. L/S 2.627 (extremely crowded long), structure_bias -0.326 (worst in book), orderbook -0.085, RS -12.78%. Ran 324->330.55, rejected 330 twice, now coiling 328-329 - a stall at the top of an extended crowded-long move against a hostile AI-capex tape. Long = chase the late/crowded top into FOMC + overnight gap; short = premature without a break of the 325 pivot. HOLD with a short trigger on a break of 325.",
+    "portfolio": "GOOGL: HOLD (conf 0.55) - crowded-long unwind is the trade, but only once 325 breaks."
+  },
+  "timestamp": "2026-07-27T16:39:19.580943+00:00"
+}

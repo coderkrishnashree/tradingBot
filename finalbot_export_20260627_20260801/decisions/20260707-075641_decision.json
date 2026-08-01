@@ -1,0 +1,24 @@
+{
+  "symbol": "MU/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.6,
+  "size": 0.0,
+  "entry": 941.31,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "rationale": "MU is the most stretched name: 4h RSI 21.6, price 5.6% below VWAP (2.1x ATR), pinned to the lower BB just above support 917.85. Fresh short chases into nearby support with a crowded-long, squeeze-prone book (L/S 2.05) and Nasdaq -0.9% into a gappy open. Long against a violent ADX-64 downtrend has no divergence/reclaim confirmation. Best expectancy is to wait for a clean support break (continuation short) or a VWAP reclaim (reversal long). Size 0.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 917.85,
+    "expires_min": 240,
+    "note": "Losing support 917.85 breaks the base and arms a continuation short with real R:R."
+  },
+  "transcript": {
+    "macro": "Regime MIXED, tilting cautious: Mon Jul 6 closed risk-on (Nasdaq +1.1%, records) but overnight flipped, Nasdaq-100 futures -0.9% into Jul 7 cash open - digesting a rally. Tokenized equities; funding dead (0.0), positioning from L/S ratio + orderbook. Live 48h catalyst: Wed Jul 8 2pm ET FOMC minutes. US market-hours gap risk.",
+    "sentiment": "Cautiously risk-on but event-heavy (Wed FOMC minutes). QQQ: no single-name catalyst, macro-driven. MU: Q3 blowout Jun 24 already digested, next earnings ~Sept 22 (outside window), trades as AI/memory beta. AAPL: mildly positive (Broadcom deal Jul 6), earnings Jul 30 outside window. TSLA: catalyst-rich - Q2 deliveries beat Jul 2, +6% Jul 6 on Miami Robotaxi; earnings Jul 22 outside 48h.",
+    "analyst": "Extended >2 ATR below VWAP into support; short R:R ~0.9 (support ~1 ATR away), long is a knife-catch vs ADX 64. Both edges negative; HOLD. Trigger: decisive break below 917.85.",
+    "portfolio": "MU - HOLD (0.6): stretched mid-air, poor R:R both ways; wait for 917.85 break or VWAP reclaim."
+  },
+  "timestamp": "2026-07-07T07:56:41.296155+00:00"
+}

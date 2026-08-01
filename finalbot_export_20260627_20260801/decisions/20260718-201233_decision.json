@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "TSM/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Frozen weekend tape near 398 on ~0 volume; no real move until Monday's cash open. Directional bias down but price is oversold (1h RSI 30) only ~2.8% above support 386.81 - a mean-reversion bounce toward VWAP ~407 is as likely as continuation before any resumption.",
+  "expectancy_note": "Short p(win) ~0.40 here (account shorts run 0.47 win / -0.87 avg, model punishes high-ADX + stretched vwap + aligned); market-shorting an oversold frozen tape mid-air is the account's documented #1 loser. No fill-able non-chase entry on Saturday -> HOLD beats a negative-EV chase.",
+  "rationale": "TSM has the best short alignment of the group (4h/1h/30m down, ADX 39.7, rel_strength -15.76%, crowded longs), but the entry is bad: RSI 30 oversold, price 2.27% below VWAP and only 11pts above support, on a dead weekend tape with Monday gap risk. Chasing continuation here is exactly the late-short-into-stretched-tape pattern that has bled this account. Wait for either a bounce to VWAP ~407 for a clean short entry or a decisive loss of 386.81 to confirm breakdown; size stays 0 until price gives a real level.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 386.81,
+    "expires_min": 240,
+    "note": "Losing support 386.81 breaks the base and confirms trend resumption -> re-debate for a momentum short with the level as the pivot; a reclaim/bounce toward VWAP ~407 would instead offer the non-chased short entry."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF, equity-hostile. Fri 7/17 Nasdaq -1.40% on a semiconductor rout (AI-capex fears + cheaper Chinese AI models); US-Iran/Hormuz risk-off. Saturday = US cash closed, TSM perp thin/gappy, Monday gap risk. TSM composite SHORT conf 64.6% (best alignment of four): 4h/1h/30m down, ADX 39.7, rel_strength -15.76%, long/short 2.39 crowded longs; but RSI 1h 30 / 4h 33 oversold above support 386.81. Macro verdict: SHORT-supportive, size down.",
+    "sentiment": "TSM reported Q2 Jul 16: record quarter, net profit +77% YoY, raised FY26 guide >40%, +$100B Arizona capex - but stock fell ~3% Jul 17 (sell-the-news into the semis rout). Earnings binary is behind us, no fresh 48h catalyst; live risk is momentum. Verdict: bearish tone, watch for oversold bounce.",
+    "analyst": "Short thesis is directionally sound but the entry is a textbook chase: RSI 30 oversold, stretched 2.27% below VWAP, only ~2.8% above target support 386.81, on a frozen zero-volume Saturday tape with Monday gap risk. Account learner shows shorts bleeding (0.47 win / -0.87 avg) and the model penalizes exactly this profile (high ADX, stretched VWAP, aligned). No fill-able non-chase entry exists on a weekend standstill. HOLD; reconsider on loss of 386.81 (momentum short) or bounce to ~407 (clean short entry).",
+    "portfolio": "HOLD TSM - best short setup of the group but entry is a chase into oversold/weekend gap risk; wait for 386.81 break or VWAP ~407 bounce."
+  },
+  "timestamp": "2026-07-18T20:12:33.994210+00:00"
+}

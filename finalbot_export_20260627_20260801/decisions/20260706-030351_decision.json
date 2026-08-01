@@ -1,0 +1,25 @@
+{
+  "action": "hold",
+  "symbol": "SNDK/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "expectancy_note": "Mid-band short (%B 0.38, VWAP -0.36%, RSI 43.7) gives only ~1.2 R:R with mediocre p(win) ~0.45; thin closed-session equity proxy + dead-cat risk after -26% wk. Break of 1782 support upgrades to clean trend short with better R:R.",
+  "rationale": "SNDK is a tokenized EQUITY trading with US cash CLOSED (thin/gappy, re-prices at 13:30 UTC), and it's a memory-sector move (0.84 corr MU, 0.81 INTC, low 0.36 BTC corr) already down ~26% on the NAND glut scare. Momentum is bearish (5m -0.9, ADX 50, 4h -0.597) but price sits mid-range near VWAP with RSI 43.7 and %B 0.38 \u2014 not an edge, so a short here is chasing into possible oversold-bounce with only ~1.2 R:R and no crowding fuel (funding 0.0, structure_bias -0.04). Wait for support 1782 to break (confirms trend continuation into open air toward next leg) or stand aside if it bounces at US open.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 1782.0,
+    "expires_min": 720,
+    "note": "Losing 1782 support confirms trend-continuation short with clean air below and better R:R; covers through US open at 13:30 UTC."
+  },
+  "transcript": {
+    "macro": "Overall regime mixed, tilting risk-off. Nasdaq/semis in 2nd day of profit-taking after ~80% H1 run (Micron -7%, AMD -4.3%). Crypto soft: BTC ~$63k, -4.5% wk, dominance 55.5%, Fear&Greed 22. NOTE: at 02:59 UTC scan US cash CLOSED (opens 13:30 UTC) \u2014 tokenized equity perps thin/gappy, scan structure stale until underlying open. SNDK: supports a SHORT but size down \u2014 composite short (conf 40%, blended -0.33), clean-bearish lower TFs (5m -0.9, ADX 50), memory-sector move (MU 0.84, INTC 0.81, BTC 0.36), positioning benign (funding 0.0, OI 6.4k, L/S 1.26, bias -0.04). Biggest risk: oversold dead-cat bounce at US open after -7% Micron day.",
+    "sentiment": "SNDK sentiment flipped hard bearish \u2014 down ~26% on week on a sudden NAND/DRAM memory supply-glut scare (Jul 1-4, SNDK -11% to -14% single sessions) driven by Samsung/SK Hynix/Micron capacity expansion + DRAM price-fixing antitrust overhang. Tape is momentum-driven, not fundamentals (Q3 print was blowout, rev +251% YoY, analysts raising targets). Earnings not imminent (Aug 24) \u2014 no 48h binary. Glut shock argues with a short / against longs, but watch oversold snapback given the drop's magnitude.",
+    "analyst": "Momentum bearish but price sits mid-band (%B 0.38, VWAP -0.36%, RSI 43.7) \u2014 no edge; a short here is chasing into a possibly-oversold, closed, gap-prone equity proxy with only ~1.2 R:R and no crowding fuel. Best expectancy is HOLD now and arm a trigger: a break of support 1782 upgrades to a clean trend-continuation short.",
+    "portfolio": "SNDK/USDT:USDT \u2014 HOLD (conf 0.50); short-biased but wait for 1782 break, no fresh entry mid-range into a closed US session."
+  },
+  "timestamp": "2026-07-06T03:03:51.590819+00:00"
+}

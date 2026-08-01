@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "AAPL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Deeply oversold (4h RSI 21.9, 5m 25.2, %B 0.057, stoch 8.7) and 1.66% below VWAP after a stair-step down to 324.59; last 15m bar printed a small green bounce. Expect a reflex bounce toward the ~330-331 VWAP zone into/after US open before the downtrend can resume, so a fresh short here gets stopped by the bounce.",
+  "expectancy_note": "Short p(win) ~0.40 (p_win_learned 0.486, oversold, extended below VWAP, gappy pre-open) - negative expectancy chasing a 72-ADX move already at the low band; long against a 72-ADX downtrend with no reversal is a knife-catch. HOLD then short the bounce-fail is the +EV path.",
+  "rationale": "Composite is short but the tape is exhausted to the downside: RSI 21.9 / stoch 8.7 / %B 0.057 with price 1.66% under VWAP is the late-short-into-stretched-tape setup that has bled this account, and p_win_learned 0.486 confirms this condition loses. Thin, gappy tokenized equity pre-US-open with high bounce risk into the open. No honest short R:R exists (stop must sit above ~328-330 while first target is only ~5 handles away), so the highest-expectancy action is to wait for the reflex bounce to fail at VWAP.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 322.0,
+    "expires_min": 240,
+    "note": "Losing 322 (below the 324.59 swing low, no bounce materializing) confirms the downtrend resuming from a non-extended level, arming a proper trend-continuation short toward the 312 support without chasing the oversold extreme."
+  },
+  "transcript": {
+    "macro": "Regime: RISK-OFF / HAWKISH. Fed rate HIKE being priced, yields rising on oil-driven inflation (US-Iran); firmer dollar. Equities heavy/choppy. Derivatives lopsided long (crowded, contrarian negative), squeeze-lower risk. Pre-US-open: tokenized equities thin/gappy, reprice on US open. Size guidance: REDUCE. AAPL-specific: the cleanest short setup - composite short (conf 43%), RSI 21.9, ADX 72.3, all TFs down, near-zero BTC corr (0.086, own equity story), structure neutral (LSR 1.03) - BUT 4h RSI 21.9 deeply oversold = bounce risk into US open.",
+    "sentiment": "Binaries cluster 7/28-30 (mostly outside 24-48h). Only GOOGL has a catalyst inside window. Crypto neutral, gold bearish, oil bid. AAPL: neutral - earnings 7/30 (outside window), no company catalyst inside 48h; oversold is technical not news.",
+    "analyst": "Composite short but the move is exhausted (RSI 21.9, stoch 8.7, %B 0.057, -1.66% VWAP) with p_win_learned 0.486 - chasing it is the account's #1 loss pattern and bounce risk into the open is high. No honest short R:R at the low band; long into a 72-ADX downtrend is a knife-catch. HOLD, then short a bounce-fail; reconsider a trend-continuation short only on a loss of 322 from a non-extended level.",
+    "portfolio": "AAPL: HOLD (0.60) - regime-aligned short but too oversold to chase; wait for bounce-fail or 322 break."
+  },
+  "timestamp": "2026-07-21T08:34:13.019086+00:00"
+}

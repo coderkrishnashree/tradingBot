@@ -1,0 +1,22 @@
+{
+  "action": "buy",
+  "symbol": "XAG/USDT:USDT",
+  "size": 2.5,
+  "entry": 56.6,
+  "stop_loss": 56.2,
+  "take_profit": 57.45,
+  "take_profit_1": 57.2,
+  "take_profit_2": 57.45,
+  "confidence": 0.58,
+  "playbook": "trend",
+  "forecast": "Price is basing at 56.6-56.7 after a pullback off the 57.45 high; expect a bounce off this shelf back toward 57.2, then 57.45 within 3-6 bars as the 1h/4h uptrend and bullish divergence reassert; a limit fill at 56.6 avoids chasing the earlier extension.",
+  "expectancy_note": "p(win)~0.58-0.62 (learner p_win 0.712, longs 73%/+2.89), R:R 1.5 to TP1 and 2.1 to TP2; trend-pullback buy beats a fade because 1h/4h are firmly long with bullish divergence and ADX 47 \u2014 mean-reversion short into that is the account's losing pattern.",
+  "rationale": "Higher-TF trend is up (1h/4h long, bullish divergence, ADX 47) and price has pulled back ~1.4% into the 56.6 shelf with 15m RSI oversold at 21.7 \u2014 a continuation dip-buy, not a chase. R:R is 1.5 to TP1 with stop just below the 56.47 swing (~1.5xATR). Size kept modest (2.5%) because macro is a hostile USD/rates headwind and L/S at 3.94 is crowded-long (squeeze risk), so this is a tactical bounce trade, not a conviction position.",
+  "transcript": {
+    "macro": "RISK-OFF/defensive, fragile. Hawkish Fed, DXY ~1yr highs (101.4-101.6) = hostile for precious metals near-term. XAG L/S 3.94 = very crowded long into a falling metal = squeeze risk. Macro-agent read: BEARISH near-term (silver -12.7% on the month, near 8-month lows).",
+    "sentiment": "Sentiment-agent read: BULLISH tilt \u2014 soft June CPI rally (7/14), price ~$57-59 in a symmetrical triangle (breakout >$61 / breakdown <$55.71), sixth straight structural supply deficit, analyst consensus $79-81 far above spot. No <=48h binary; Fed 7/28-29 is next macro gate. NOTE: macro and sentiment DISAGREE on near-term direction.",
+    "analyst": "Higher-TF trend up (1h/4h long, bullish divergence, ADX 47); price pulled back ~1.4% into the 56.6 shelf with 15m RSI 21.7 = continuation dip-buy, not a chase. Entry 56.6 limit, stop 56.2 (below 56.47 swing, ~1.5xATR), TP1 57.2 (R:R 1.5), TP2 57.45 (R:R 2.1). Size kept modest at 2.5% due to hostile USD macro + crowded-long squeeze risk.",
+    "portfolio": "BUY XAG \u2014 tactical trend-pullback dip-buy at 56.6, modest 2.5% size given the USD macro cross-current."
+  },
+  "timestamp": "2026-07-20T06:46:24.284575+00:00"
+}

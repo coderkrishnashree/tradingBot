@@ -1,0 +1,28 @@
+{
+  "symbol": "TSLA/USDT:USDT",
+  "action": "hold",
+  "size": 0.0,
+  "entry": 394.32,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Price just dumped 395.7->394.3 on huge volume into support 391; with 30m RSI 11 and stoch 20.7, the likeliest next move is a bounce/chop off 391 rather than a clean slice \u2014 expect 391-395 oscillation for a few bars before direction resolves.",
+  "expectancy_note": "Short here is chasing into support only 0.85 ATR away (R:R ~0.9, fails 1.5); shorts in this account bleed (n=30, avg -1.59R). Best EV is waiting for either a 391 break-retest (short) or VWAP reclaim (long).",
+  "rationale": "TSLA is mid-air: a fresh high-volume breakdown just drove it into support 391 with 30m RSI at 11 and stoch 20.7 \u2014 deeply oversold, exactly the stretched-tape condition where late shorts get stopped by the bounce. A short into 391 gives R:R under 1, and the learner shows this book's shorts are net losers (-1.59R over 30 trades). US cash is closed (thin/gappy) and Q2 earnings loom July 22, so there's no clean edge now. Wait for a decisive break of 391 (retest short toward 385) or a VWAP reclaim (long); neither exists yet, so flat is the highest-expectancy stance.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 390.5,
+    "expires_min": 240,
+    "note": "A decisive close below 391 support (contrarian-bearish books confirming) opens a break-retest short toward 385, flipping HOLD to short."
+  },
+  "transcript": {
+    "macro": "Regime MIXED, cautiously risk-on: S&P +0.4%, Nasdaq +0.6% on soft June CPI (3.5% y/y); July Fed hike odds ~12%; DXY soft ~100.9. Overhang: Iran escalation, oil at 1-month highs = intermittent risk-off. Scan ~01:00 UTC, US cash CLOSED so thin/gappy tape. TSLA low BTC corr (0.26). Positioning SHORT-supportive but low-conviction: funding flat, long/short 1.79 (crowded long), orderbook -0.326, structure_bias -0.335 \u2014 books long into weak tape (contrarian-bearish). At-support entry on 391 in illiquid hour; squeeze risk toward 413 if 391 holds.",
+    "sentiment": "TSLA bullish-but-nervous: Q2 deliveries (Jul 2) beat ~480k vs ~406k exp; Robotaxi expanded to Miami; stock $390-420. KEY FLAG: Q2 2026 earnings Wed July 22 after US close (~6 days out) \u2014 binary just outside a 24-48h window; short-horizon trade opened now likely closes before it. Near-term news roughly NEUTRAL for hours-to-2-day trade, no <=48h binary. Overall risk-on tape, two-day moves stretched.",
+    "analyst": "Fresh high-volume breakdown drove price into support 391 with 30m RSI 11 / stoch 20.7 \u2014 deeply oversold; likeliest next move is a bounce, which stops a late short. Short into 391 = R:R ~0.9 (fails 1.5). Learner: shorts n=30, win 0.47, avg -1.59R (bleeding); longs 0.67/+1.68. No clean edge with US cash closed and July 22 earnings looming. HOLD; arm short on decisive break-retest of 391 (target 385) or long on VWAP reclaim.",
+    "portfolio": "TSLA/USDT:USDT \u2014 HOLD (conf 0.50): no-edge, at-support in thin tape; re-debate on a break below 390.5."
+  },
+  "timestamp": "2026-07-16T01:03:06.342885+00:00"
+}

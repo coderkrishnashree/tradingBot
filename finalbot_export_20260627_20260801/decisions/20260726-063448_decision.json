@@ -1,0 +1,26 @@
+{
+  "symbol": "MSFT/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.2,
+  "size": 0.0,
+  "entry": 382.81,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "forecast": "Dead Sunday tape drifts in a 378-385 micro-range on sub-2-contract prints; no directional edge until US cash opens Monday. Expect noise, not a trend, over the next several bars.",
+  "expectancy_note": "No tradable edge: p(win) ~coin-flip, R:R undefined on a closed/thin book. HOLD beats a short at 382.81 into support 378 (only 1.3% away, <1.5R) and beats any long into stacked offers (orderbook -0.61).",
+  "rationale": "US cash equities CLOSED (Sunday 06:29 UTC); this tokenized equity has a dead underlying with near-zero real volume, so prints are stale and unfillable. Composite is regime-blocked chop at 7% confidence, ADX 16 (no trend), and structure is heavily contrarian-long (L/S 1.96, orderbook -0.61 offers stacked). Decisively, MSFT Q4 earnings Wed Jul 29 after close COINCIDES with FOMC \u2014 a double binary; carrying directional risk into that on thin token liquidity is a gamble, not a setup. Size 0.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 378.0,
+    "expires_min": 240,
+    "note": "Losing the 378 support on real Monday-open volume would confirm the bearish 4h/structure lean and open a clean intraday short toward 372 with room for a proper 1.5R before earnings-week."
+  },
+  "transcript": {
+    "macro": "Critical: scan Sunday 06:29 UTC \u2014 US cash equities CLOSED. MSFT is a tokenized equity with a dead underlying: tape stale/thin (sub-2-contract prints), composite regime 'chop', regime_blocked, confidence 7%. Positioning heavily contrarian-long/bearish: structure_bias -0.47 (L/S 1.96 + orderbook -0.61, offers stacked). 4h trend down, bullish divergence but ADX 16 (no trend). Megacap/Nasdaq tape soft, rate-sensitive into hawkish Fed. Environment HOSTILE.",
+    "sentiment": "HARD BINARY: MSFT Q4 FY26 earnings Wed Jul 29 after US close (~4:30pm ET), same day as FOMC \u2014 double event risk. Guided FQ4 rev $86.7-87.8B (+13-15%); Azure/AI capex commentary is the swing factor. Any MSFT position held past Wed close is a coin-flip on earnings + gap on thin token liquidity. Do NOT carry directional MSFT risk into Jul 29 close; neutral until the print.",
+    "analyst": "MSFT tokenized equity, US markets closed Sunday \u2014 underlying dead, candles print sub-2 contracts and the 385->382.8 bleed is stale drift, not flow. Regime chop + regime_blocked, ADX 16, confidence 7%. A short is the only directional lean (4h down, structure_bias -0.47, offers stacked) but entry 382.8 sits just 1.3% above support 378, so no room for a 1.5R trade and the book won't fill. The hard blocker is the Wed Jul 29 earnings + FOMC double binary \u2014 no directional carry justified. Clean NO TRADE; re-look only if 378 breaks on real Monday volume.",
+    "portfolio": "MSFT \u2014 HOLD (0.20): weekend-closed/thin tape into a Wed earnings + FOMC double binary; nothing to do."
+  },
+  "timestamp": "2026-07-26T06:34:48.836041+00:00"
+}

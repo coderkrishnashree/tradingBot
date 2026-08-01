@@ -1,0 +1,27 @@
+{
+  "symbol": "MU/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.6,
+  "size": 0.0,
+  "entry": 927.78,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "none",
+  "expectancy_note": "Violent downtrend (ADX 68.9) but deeply oversold: RSI 16.7, stoch 7.6, %B -0.05, -6.6% below VWAP, ~1% above 917.85 support. Shorting = chasing into support with squeeze risk (fade rallies, don't chase lows); no long confirmation. Wait for a bounce to VWAP (~985-992) to short the rally.",
+  "rationale": "MU is a tokenized equity (crypto structure metrics like L/S 2.06 only weakly informative). It is in a violent downtrend (ADX 68.9) but deeply oversold: RSI 16.7, stoch 7.6, %B -0.05 below the lower band, -6.6% below VWAP, and parked ~1% above support 917.85. Shorting here means chasing into support with acute squeeze risk (guidance is fade rallies, not chase lows), while going long has no confirmation (no bullish divergence, structure still bearish, FOMC minutes Wed as a 48h wildcard). Neither side offers R:R >=1.5 from this location, so the highest-expectancy play is to wait: a bounce toward VWAP (~985-992) sets up a proper short-the-rally entry.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 985,
+    "expires_min": 240,
+    "note": "A rebound to the VWAP zone (~$985+) after this oversold flush is the rally to fade with the dominant downtrend; that is where a short gains real R:R instead of chasing the low."
+  },
+  "transcript": {
+    "macro": "Cautiously risk-on but hawkish-Fed overhang. FOMC minutes Wed Jul 8 (<48h). MU shed ~13%/$138B in a day on SK Hynix HBM-slowing reports + hawkish jitters. Scan: RSI 16.7, ADX 68.9, -6.6% below VWAP, L/S 2.06 (trapped longs) \u2014 momentum favors SHORT continuation but OVERSOLD/squeeze-prone; fade rallies, don't chase lows.",
+    "sentiment": "MU reported blowout Q3 (late June): rev quadrupled, guided ~$50B next Q (vs $43.6B est), 16 long-term contracts, +240% YTD, +15% AH then sharp pullback. RSI deeply oversold. No new 48h binary; 'sold-out AI memory' is narrative. Near-term neutral (mean-reversion possible).",
+    "analyst": "Violent downtrend (ADX 68.9) but deeply oversold (RSI 16.7, stoch 7.6, %B -0.05, -6.6% vs VWAP) ~1% above 917.85 support. Shorting = chasing into support w/ squeeze risk; no long confirmation. Wait for a bounce to VWAP ~985-992 to short the rally.",
+    "portfolio": "MU \u2014 HOLD (conf 0.60): oversold flush at support; arm short-the-rally trigger above 985."
+  },
+  "timestamp": "2026-07-07T09:57:57.931171+00:00"
+}

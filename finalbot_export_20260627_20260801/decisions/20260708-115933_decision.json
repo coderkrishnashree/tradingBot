@@ -1,0 +1,26 @@
+{
+  "symbol": "AAPL/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.4,
+  "size": 0,
+  "entry": 309.69,
+  "stop_loss": 312.2,
+  "take_profit": 304.0,
+  "playbook": "none",
+  "forecast": "Price coils 309.3-309.9 with higher lows on fading volume; likely chops in the 308.5-311.5 band next 2-4 bars until it resolves one side - no clean directional edge from mid-range.",
+  "expectancy_note": "p(win)~0.45 either way; short here is mid-BB/mid-range with book bid-heavy (+0.47) and AAPL the RS leader (+4.2%) - R:R to any real level is <1.5. Best expectancy is to wait for the break.",
+  "rationale": "AAPL sits mid-range (BB %B 0.43, RSI 58, VWAP -0.66%) with no nearby level: support 280 is 9% away, resistance 315.7 is 2% up. The 15m tape is basing with higher lows off 308.53 on light volume, not breaking down, and orderbook is bid-heavy while AAPL is the strongest equity in the book. Macro is risk-off short, but a mid-range trend short needs a >1.5xATR stop to no clear target - exactly the wide-stop trend loser the account has been bleeding on (learner trend avg_pnl -2.18). Wait for the base to break or the rebound to fail. Size 0.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 308.5,
+    "expires_min": 240,
+    "note": "Losing the 308.5 basing low confirms the risk-off breakdown resumed and arms a clean trend short toward 304/301 with a tight stop above 310."
+  },
+  "transcript": {
+    "macro": "REGIME: RISK-OFF / DEFENSIVE (2026-07-08). Nasdaq -1.2%, S&P -0.5% Jul 7, semis leading. Fed under Warsh hawkish: median dot now 1-2 HIKES in 2026 (funds 3.50-3.75%), no cuts. Rising yields + firm DXY (~101) is the dominant cross-asset driver; every equity/gold name in the scan is printing short/trend with RSI compressed. Live wire: fresh Iran / Strait-of-Hormuz escalation = headline gap risk into a thin, US-cash-closed session. No FOMC/CPI inside 48h; earnings season not yet live. GOLD (XAUT) weak (~$4,054, worst quarter since 2013) but crowded long/short 2.86 = trapped longs, downside continuation risk despite oversold bounce potential; fade rallies. Equity proxies (AAPL/TSM/ORCL/EWJ/META) trade as equities (crypto funding irrelevant), perps thin/gappy; TSM/ORCL/EWJ carry lopsided long/short (trapped longs) supporting short continuation but squeeze risk on relief. BTC $62.3k recovering off a $61k liquidation flush ($1.6bn wiped); dominance HIGH, funding ~neutral (genuine trend, not funding-crowded), short liquidations dominated Jul 7. MSTR/COIN/HOOD are high-beta BTC proxies (corr 0.79/0.74/0.63) - treat as leveraged BTC, don't double up. DESK GUIDANCE: environment favors SHORTS / fade-rallies over longs, but SIZE DOWN; longs are counter-trend and counter-regime.",
+    "sentiment": "OVERALL: Risk-off shock in progress, favors short bias (2026-07-08). Two fresh catalysts: (1) US airstrikes on Iran after Iranian forces hit six oil tankers in the Strait of Hormuz (Brent +1.9%, WTI +1.8%); (2) semiconductor selloff from weak Samsung results + reports DeepSeek building its own AI chip. Counterintuitive: gold/silver DOWN not up (energy-inflation keeps Fed hawkish, dollar bid). BOJ already hiked to 1% (yen/carry-trade risk live). Big earnings cluster July 29-30. Per-name: AAPL - earnings Jul 30 (Cook's last call as CEO), no <48h catalyst, neutral-to-short. BTC - ~$62.3K, rolling over on risk-off tape, no crypto-specific event, leans short with macro. TSM - EARNINGS Jul 16 (just outside 48h), guide strong but caught in Samsung/DeepSeek chip selloff, deeply oversold, short but size for event risk. ORCL - record Q4 FY26 (Jun 10), no imminent catalyst, -24.7% rel strength, neutral-to-short. XAUT - gold ~$4,050-4,200 DOWN despite Iran (Goldman cut YE target to $4,900), oversold with bullish divergence, two-way. EWJ - Nikkei -2.1% to 3-week low on chip selloff, BOJ carry-trade risk, oversold + bullish divergence, bearish backdrop but stretched. MSTR - Strategy now a NET BTC SELLER (sold 3,588 BTC ~$216M Jul 6), holdings underwater (avg $66,384 vs ~$62.3K), sentiment deteriorating, leans short. COIN - earnings Jul 30, constructive regulatory tone but no <48h catalyst, moves with crypto risk-off, neutral-to-short. HOOD - earnings Jul 29, Robinhood Chain mainnet launch (multi-quarter narrative), crypto-beta, neutral-to-short. META - earnings Jul 29, self-inflicted AI-capex overhang ($125-145B), down ~15% YTD, no <48h catalyst, neutral-to-short.",
+    "analyst": "Macro risk-off + 30m/1h short, but AAPL is the relative-strength leader (+4.2%), orderbook bid-heavy (+0.47), and 15m candles show a stabilizing base with higher lows - not a fresh breakdown. Mid-range, mid-BB, no clean level. Poor R:R either way; HOLD and wait for the 308.5 break or 311.5 reclaim.",
+    "portfolio": "AAPL/USDT:USDT: HOLD (conf 0.4) - no positive-expectancy entry in risk-off regime; armed reconsider trigger."
+  },
+  "timestamp": "2026-07-08T11:59:33.078639+00:00"
+}

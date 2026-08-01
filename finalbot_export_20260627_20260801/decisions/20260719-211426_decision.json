@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "BTC/USDT:USDT",
+  "size": 0.0,
+  "entry": 64486.8,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.4,
+  "playbook": "none",
+  "forecast": "Chop between 64230 and 64560 for the next few bars; low-volume drift-up is stalling under 64560, more likely to fade back toward 64300 than break out cleanly here.",
+  "expectancy_note": "No edge: mid-range near VWAP, 15m/1h down-flat vs stretched 4h RSI 71, composite only 36.6% and not aligned; learner shows shorts bleed (-0.87 avg) and no honest R:R>=1.5 setup exists at this price.",
+  "rationale": "BTC is dead-center in its 61777-65566 range, sitting +1.07% above VWAP with conflicting timeframes (15m short/RSI39, 4h long/RSI71) and a weak 36.6% composite. The recent candles show a hard flush to 64224 then a limp, low-volume drift back up that stalled at 64513 with the last bar closing red in the lower half of its range - no thrust, no clean level to lean on. Risk-off macro, Fear&Greed 26, crowd-long L/S, and the account's proven short-loss pattern all argue for standing aside; there is no location here where stop and target give me 1.5R, so I wait.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 64740,
+    "expires_min": 240,
+    "note": "Reclaiming the 64734 local high on volume proves the drift-up has real demand and opens a clean run at 65566 resistance - flips me to a long-continuation debate."
+  },
+  "transcript": {
+    "macro": "REGIME: RISK-OFF/cautious. Friday equity selloff on semiconductor rout + Middle East risk. Crypto soft in sympathy: BTC ~$64.5k, well off the low-$70k monthly open, ETF outflows, dominance elevated ~56-59%. Mildly constructive rates. BTC is genuinely liquid. BTC: mixed short-term tape (15m down, 4h up), mild positive funding, not extreme; anchor for SOL/COIN/MSTR risk.",
+    "sentiment": "BTC \u2014 Neutral, mild bullish bias. Reclaimed ~$64-65K on soft inflation data; Fear & Greed ~26 (Fear), thin social volume. No dated <=48h catalyst; geopolitical (US-Iran) headline risk is the swing factor. Range-bound.",
+    "analyst": "Dead-center of 61777-65566 range, +1.07% above VWAP; TFs conflict (15m short/RSI39.9, 4h long/RSI71.3), composite only 36.6% not aligned. Hard flush to 64224 then limp low-volume drift stalling at 64513, last bar red in lower half \u2014 no thrust. Risk-off, F&G 26, crowd-long L/S; no location gives 1.5R. HOLD; long-continuation only on a 64740 reclaim toward 65566.",
+    "portfolio": "HOLD BTC \u2014 mid-range chop, conflicting TFs, no 1.5R location; long trigger on 64740 reclaim."
+  },
+  "timestamp": "2026-07-19T21:14:26.759126+00:00"
+}

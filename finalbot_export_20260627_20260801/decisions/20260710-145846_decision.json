@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "MSFT/USDT:USDT",
+  "size": 0.0,
+  "entry": 382.93,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Price made a fresh session low at 382.62 on the last bar with 5m RSI at 25 (oversold); over the next 2-4 bars expect a mean-reversion bounce toward VWAP ~385.9 before the downtrend can resume, not clean continuation lower from here.",
+  "expectancy_note": "A market short now chases into 5m RSI 25 \u2014 p(win) low as a routine bounce hits any honest stop first; trend-short is this account's worst bucket (0.47 win, avg -3.0R). Waiting to short a bounce into ~386 or a confirmed break of support beats entering the stretched low.",
+  "rationale": "4h trend down, structure bias -0.358, crowded-long L/S 2.016 and orderbook -0.194 all favor a short DIRECTION, but the immediate tape is oversold (5m RSI 25, last bar a fresh low) and composite confidence is only 37.6% \u2014 exactly the late-short-into-stretched-tape entry the learner shows losing (~-2R). No <=48h catalyst before CPI 7/14, thin OI 5,334 adds gap risk. Higher expectancy to wait: short a bounce back toward VWAP ~386 (better R:R off the level) or a confirmed break of 373.78, rather than market-selling the low.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 386.0,
+    "expires_min": 240,
+    "note": "A bounce reclaiming VWAP ~386 gives a clean, non-chasing short entry into strength with the -0.358 structure bias and crowded longs as fuel \u2014 that is the setup worth taking."
+  },
+  "transcript": {
+    "macro": "MIXED regime, lean cautious. Nasdaq 26,207 (+1.3% 7/9), tech gave a little back early 7/10; defensive mega-cap-led tape. Fed 3.50-3.75%, ~79.5% no-change, Sept HIKE odds ~69% (market pricing hikes not cuts). DXY ~100-101. May CPI hot 4.2% YoY. JUNE CPI 7/14 sits inside any multi-day hold \u2014 hot print pressures long-duration tech. MSFT: structure bias -0.358, L/S 2.016 (crowded long -> short fuel), orderbook -0.194, thin OI ~5,334, RSI 39, 4h down, below VWAP -0.76%, mid-range (sup 373.78 / res 395.85). Corr QQQ 0.24 (idiosyncratic). Short environment MODESTLY SUPPORTIVE; risks: thin-OI gappiness, funding stale/unreliable.",
+    "sentiment": "MSFT mildly bullish/constructive but NO <=48h catalyst. Earnings 7/29 (~19d out), not a near-term driver. Slow-burn positives (Microsoft Frontier $2.5B AI unit, Azure Cobalt 200, Anthropic Claude + OpenAI GA on Azure); analysts overwhelmingly Buy (Wolfe Outperform 7/6) \u2014 long-horizon, don't trade next candle. Net near-term NEUTRAL; follows index beta. Overall social tone risk-on, US session open and firm.",
+    "analyst": "Direction favors a short (4h down, bias -0.358, crowded longs, sellers on book) but the immediate tape is oversold \u2014 5m RSI 25, last bar a fresh session low at 382.62, composite confidence only 37.6%. Market-selling here is the account's worst-performing pattern (trend-short 0.47 win, avg -3.0R). No <=48h catalyst before CPI 7/14; thin OI adds gap risk. HOLD and wait to short a bounce into VWAP ~386 or a confirmed break of support 373.78. Reconsider armed at price_above 386.",
+    "portfolio": "MSFT/USDT:USDT \u2014 HOLD (conf 0.50): short thesis directionally right but oversold entry; wait for bounce to ~386 or break of 373.78."
+  },
+  "timestamp": "2026-07-10T14:58:46.989166+00:00"
+}

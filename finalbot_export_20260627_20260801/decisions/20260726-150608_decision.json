@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "MSTR/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price stays trapped in the 92.9-93.6 coil over the next few bars, drifting with BTC; no clean directional move until BTC resolves and the earnings/FOMC event risk clears. Expect chop, not trend.",
+  "expectancy_note": "No edge either way: long is pure BTC-beta echo (corr 0.727, rel str -8.84) into weak BTC; short is crowded-long with poor account history (47% win, -0.78 avg). Mid-range, no level -> R:R < 1.5 and binary gap risk dominates. HOLD is highest expectancy.",
+  "rationale": "MSTR is a 2x-levered BTC proxy lagging badly (rel strength -8.84) into a risk-off, weak-BTC week with F&G 29, and it carries two overlapping binary events inside the window: FOMC Jul 29 and earnings ~Jul 30. Price is mid-range (89.85 support / 104.64 resistance) coiling in a tight 92.9-93.6 band with a muddy composite (4h RSI 37.9, MACD negative, but 30m RSI 72) - no clean trend to ride and no extreme to fade, and crowded-long structure removes any fade edge. Any honest long stop under 92.9 gives sub-1.5 R:R and the earnings gap risk swamps the setup, so size is zero.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 95.2,
+    "expires_min": 240,
+    "note": "Reclaiming the 95.2 congestion top on volume would show BTC-beta turning up with real momentum, converting the muddy composite into a tradeable trend-long."
+  },
+  "transcript": {
+    "macro": "Regime MIXED-to-RISK-OFF. Crypto weak: BTC ~$64.7k, dominance 56.3%, Fear&Greed 29 (fear). FOMC Wed Jul 29. MSTR lens: STAY OUT; scan nominally long (blended 0.233, conf 40%) but 2x-levered BTC proxy (corr 0.727) into weak-BTC risk-off week, rel strength -8.84 (lagging). Crowded-long (L/S 1.495). Double event exposure: crypto tape AND equity/FOMC tape.",
+    "sentiment": "HARD CATALYST earnings ~Jul 30. Fell ~6.4% to ~$93 Jul 23 on BTC weakness below $65K. Shifted to cash/capital-return: froze BTC buying 2nd straight week, SOLD ~3,588 BTC (~$216M), holds ~843,775 BTC, authorized up to $1B MSTR buybacks - regime change from pure accumulation. Net bearish-to-mixed; leveraged BTC proxy AND binary earnings gap inside 48h.",
+    "analyst": "2x-levered BTC proxy lagging (rel strength -8.84) into risk-off weak-BTC week; two overlapping binaries (FOMC Jul 29, earnings ~Jul 30). Mid-range (89.85/104.64) coiling 92.9-93.6, muddy composite (4h RSI 37.9, MACD neg, 30m RSI 72) - no trend to ride, no extreme to fade, crowded-long removes fade edge. Honest long stop <92.9 gives sub-1.5 R:R; gap risk swamps it. Zero size.",
+    "portfolio": "HOLD MSTR - lagging BTC-beta into a double event window; no edge, flat until a 95.2 reclaim."
+  },
+  "timestamp": "2026-07-26T15:06:08.233000+00:00"
+}

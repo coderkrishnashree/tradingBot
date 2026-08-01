@@ -1,0 +1,28 @@
+{
+  "symbol": "CRCL/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.5,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "none",
+  "forecast": "Dead-cat bounce into the 64.8-65.2 supply zone on fading volume; expect rejection and a roll back toward 63.0, then 62.7. A clean loss of 62.72 opens 61/60.11 as the crowded-long (L/S 3.24) unwinds. If instead 65.8 reclaims, the exhaustion/divergence read is wrong and 66.3 retests.",
+  "expectancy_note": "No high-expectancy entry now: shorting into a fresh 3-bar up-tick is the counter-bounce trap; longing fights the most crowded long + bearish divergence + sell-side book. Wait for the 62.72 break (p(win)~0.6, R:R ~2 to 60.1) or a clean 65 rejection.",
+  "rationale": "CRCL is a tokenized equity with crypto beta; the decisive factors are structural, not technical extremes: L/S 3.24 (most crowded long in book), structure_bias -0.368, orderbook -0.226 sell-side, and a flagged bearish divergence, all while composite conf is only 35.6. Price is mid-range (60.11-72.66), so no clean level to fade and no edge to chase the current bounce back into the 65 supply that just rejected it. FOMC Jul 28-29 sits inside the window on a hostile tech tape, adding gap risk. Best expectancy is to wait for confirmation rather than enter mid-range against a fresh up-tick.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 62.72,
+    "expires_min": 240,
+    "note": "Losing the last swing low confirms the bounce failed and the crowded long is unwinding toward 61/60.11 support - arm the short."
+  },
+  "transcript": {
+    "macro": "Environment HOSTILE-to-MIXED risk-off tech tape, lean cautious. FOMC Jul 28-29 inside the holding window. Tokenized-equity perps thin/gappy overnight. CRCL is crypto/stablecoin beta (BTC-corr 0.45) but L/S 3.24 - the single MOST crowded long in the entire book (structure_bias -0.368) plus a bearish divergence flag; contrarian downside risk elevated. Crypto is the one green corner today (BTC ~$65.4k firm).",
+    "sentiment": "CRCL (Circle): earnings Aug 5 (outside 48h). Down ~70% from its 2025 high after the June Open USD rival launch + index removal; BUT a fresh positive catalyst - OCC final approval for Circle National Trust bank (~Jul 20) which spiked the stock. Mixed - structurally battered, recent regulatory win supportive, no 48h binary. Overall: risk-off tape but crypto firm.",
+    "analyst": "CRCL last 64.34. RSI 62.8, ADX 64.5, %B 0.875, VWAP +2.19%, bearish divergence flagged. L/S 3.24 (most crowded long in book), structure_bias -0.368, orderbook -0.226 (sell-side). Composite conf only 35.6. Spike 63.77->66.28 then sold hard back below the launch, now a 3-bar dead-cat bounce into the 64.3-65 supply on drying volume. Bull case is weak; short is tempting but price is only mid-range (60.11-72.66) and the last candle ticked up - shorting a fresh up-tick is the counter-move trap. HOLD; armed short trigger on a loss of 62.72.",
+    "portfolio": "CRCL: HOLD (conf 0.50) - most crowded long in book, but mid-range with a live up-tick; armed short on a break of 62.72."
+  },
+  "timestamp": "2026-07-27T16:39:25.174099+00:00"
+}

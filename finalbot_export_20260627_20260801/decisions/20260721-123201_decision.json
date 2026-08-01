@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "AAPL/USDT:USDT",
+  "size": 0,
+  "entry": 324.52,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Coiling at 324.5 between support 312 and VWAP ~330; most likely a mean-reversion bounce toward 328-330 over the next 2-6 bars given RSI 18 / stoch 4.6, OR a base-then-break below 312.",
+  "expectancy_note": "Short p(win)~0.46 (account shorts avg -1.09R, learned p_win 0.477) chasing RSI 18 into bounce risk = negative expectancy; long fights ADX 74 downtrend with no reversal confirmation. HOLD beats both.",
+  "rationale": "AAPL is maximally oversold (4h RSI 18.2, stoch 4.6, %b 0.09) and 1.65% below VWAP inside a strong ADX-74 downtrend, so a fresh short is exactly this account's #1 loss pattern: entering continuation late into stretched tape where a routine bounce toward 330 stops you before the trend resumes. The learner confirms it - shorts win only 46% here (avg -1.09R) and the composite p_win is 0.477. No <48h catalyst (earnings 7/30 outside window) and idiosyncratic (BTC corr 0.08), so no edge to justify chasing; size 0 and wait.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 312.0,
+    "expires_min": 240,
+    "note": "Losing support 312 after this base confirms breakdown continuation and opens a fresh short with room to the next leg rather than chasing the current oversold extreme."
+  },
+  "transcript": {
+    "macro": "Regime: MIXED / cautiously risk-on into event risk. US indices near records but digesting US-Iran tensions; soft June CPI (3.5%) supportive; DXY firm ~105.4, 10Y ~4%. FOMC 7/29 and BOJ 7/30 loom, Big Tech earnings begin this week. Crowded long/short ratios (1.6-2.6) across nearly every name into rising event risk -> trade small. Per-name: NVDA cautiously supportive (chip leadership bid, RS -6.6% vs BTC, earnings landmines) size down; HOOD mixed (fading internals, RS -17%); AAPL stretched short (RSI 18, ADX 74, bounce risk); XAUT range/neutral (~$4,020, firm DXY headwind, crowded L/S 2.57); EWJ hostile microstructure (near-zero volume, BOJ 7/30); SOL mixed (BTC-beta corr 0.78, OI contracting, funding negative, crowded long).",
+    "sentiment": "Dominant tape: violent AI-chip/semiconductor selloff in July (SOX -10-17%, >$1T chip cap erased) from custom-silicon competition, HBM slowdown, compute-surplus fears; risk-off rotation out of AI beta. FOMC July 28-29. No name has a hard catalyst inside 24-48h. NVDA: relatively resilient in selloff, no earnings until Aug 26. HOOD: earnings Wed 7/29 (outside window). AAPL: earnings Thu 7/30 (Cook's final call), oversold into strong YTD run. XAUT: defending $4,000, Goldman/JPM cut targets, $3,960 critical support. EWJ: MOST BEARISH - Nikkei -4% Fri on semi selloff, BOJ 'behind the curve'. SOL: constructive - testing $73-75 support, +4% wk, ETF assets >$1B, but venture unlock supply caps upside; above $80 = trend start.",
+    "analyst": "HOLD. Maximally oversold (4h RSI 18.2, stoch 4.6) in an ADX-74 downtrend - shorting here is the account's #1 loss pattern (bounce risk to 330); learner shorts 46% win/-1.09R, p_win 0.477. Long has no reversal confirmation. Size 0. Reconsider short below 312.",
+    "portfolio": "AAPL: HOLD (conf 0.60) - don't chase a stretched short; wait for loss of 312 or VWAP reclaim."
+  },
+  "timestamp": "2026-07-21T12:32:01.664069+00:00"
+}

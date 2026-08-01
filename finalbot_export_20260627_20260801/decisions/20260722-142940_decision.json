@@ -1,0 +1,28 @@
+{
+  "symbol": "SOL/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.5,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "none",
+  "forecast": "SOL just got rejected at 78.40 (below resistance 79.01) and the last 15m bar closed back at 77.66 on heavy volume; expect chop 77.1-78.0 next few bars. A break/close under 77.10 confirms the pullback toward VWAP/73.3 support; a reclaim of 78.40 reopens the long.",
+  "expectancy_note": "No clean edge: contrarian short (best positioning read) is the account's proven loser (45% win, -1.21 avg) and squeeze-prone into L/S 2.48; long would be chasing a fresh rejection into 1h-down. HOLD beats both.",
+  "rationale": "SOL is max-crowded long (L/S 2.48), most-negative structure_bias in the scan (-0.37), -10.7% rel strength and 0.82 BTC-beta in a soft/risk-off crypto tape. The fresh spike got rejected at 78.40 without breaking 79.01, and 1h is already turning down. Shorting into a crowd this lopsided is squeeze-prone and shorts are this account's bleed. No confirmed BTC roll means the short isn't a standalone thesis, and a long into a rejection candle near resistance is a chase. Wait for the range to resolve; size 0.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 77.1,
+    "expires_min": 240,
+    "note": "Losing 77.10 confirms the failed-breakout pullback and would activate a structured short toward 73.3 support."
+  },
+  "transcript": {
+    "macro": "Regime MIXED, leaning risk-off intraday. Hawkish Fed repricing (~24% July hike, ~69% by Sept), DXY 13-mo high, 10Y ~4.5%. Crypto is the laggard: BTC low-$60Ks, ETF outflows, BTC.D 56.3%, soft risk appetite. SOL L/S 2.48 max-crowded, structure_bias -0.37 (most negative), 0.82 BTC corr, RS -10.7%. Cleanest contrarian-short on positioning but only if BTC rolls.",
+    "sentiment": "SOL NEUTRAL-to-BULLISH. No hard <48h binary. Five spot SOL ETFs live (~$1.12B inflows); SEC could rule on staking-inclusive spot ETF 'as soon as July' (un-dated). No major unlock this window. News mildly supports a long, no dated trigger.",
+    "analyst": "SOL spiked to 78.40 and got rejected without breaking 79.01, last 15m bar closed 77.66 on heavy volume, 1h turning down. Contrarian short is tempting on positioning but shorts are the account's money-loser and squeeze-prone into L/S 2.48; long into a rejection is a chase. HOLD with armed short trigger below 77.10.",
+    "portfolio": "SOL: HOLD (0.50) \u2014 rejected at resistance, no clean edge; armed short below 77.10."
+  },
+  "timestamp": "2026-07-22T14:29:40.611149+00:00"
+}

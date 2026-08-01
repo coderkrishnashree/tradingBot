@@ -1,0 +1,24 @@
+{
+  "action": "hold",
+  "symbol": "MSFT/USDT:USDT",
+  "size": 0.0,
+  "entry": null,
+  "stop_loss": null,
+  "take_profit": null,
+  "confidence": 0.55,
+  "playbook": "none",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 391.0,
+    "expires_min": 240,
+    "note": "A push back toward VWAP/mid-band ~391 offers the clean short entry (reject into range) with room down to 367.68; failure to reclaim keeps the squeeze-lower bias intact."
+  },
+  "rationale": "Structure and fundamentals favor short (long/short 1.985 crowded, orderbook -0.191, 1h/4h down, sentiment heavy), but with %B 0.07 and RSI 34 the price is stretched to the downside and ~8x ATR above the 367.68 support target - a fresh short here chases the low in thin US-closed hours with a 5m bounce already firing and FOMC minutes as a 48h wildcard. No long: bearish structure, no support level nearby. Wait for a retrace toward VWAP/mid-band to short with real room.",
+  "transcript": {
+    "macro": "Regime RISK-ON, tech-led (Jul 6 records: S&P 7537, Nasdaq +1.12%). MSFT MIXED, leans fade-the-crowd: structure_bias -0.446, long/short 1.985 (crowded LONG), funding 0.00023, orderbook -0.191; price weak (RSI 34, bb_pctb 0.07, support 367.7 / resistance 394.2). Crowded longs into soft tape = squeeze risk lower, but broad tape risk-on and no MSFT catalyst this week. FOMC minutes Wed Jul 8 = 48h wildcard; perps thin overnight (US cash closed at ~01:07 UTC scan).",
+    "sentiment": "MSFT bearish/heavy, NO imminent binary. Down ~23% H1 2026 on ~$190B capex squeezing cash flow; Jul 6 announced ~4,800 layoffs (mostly Xbox) - cost signal not growth. Earnings Jul 28 after close (out of 48h window) = no gap risk. Mild tailwind for SHORT but nothing forces a 24-48h move.",
+    "analyst": "Structure/fundamentals favor short (crowded longs 1.985, orderbook -0.191, 1h/4h down) but price stretched to downside: %B 0.07, RSI 34, sitting ~8x ATR above the 367.68 support target. A fresh short chases the low in thin overnight hours with a 5m bounce firing and FOMC minutes in 48h; no long support nearby either. High-expectancy entry is a bounce-and-reject near VWAP ~391 with room to 367.68. Reconsider on a push above 391.",
+    "portfolio": "HOLD MSFT/USDT:USDT - short bias correct but entry chases the lower band; wait for a bounce toward 391 to short with room. Confidence 0.55."
+  },
+  "timestamp": "2026-07-07T01:11:49.911858+00:00"
+}

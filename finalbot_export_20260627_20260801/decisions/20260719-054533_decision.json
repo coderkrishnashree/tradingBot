@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "CRCL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price is grinding back up off the 60.76 low into the 61.45-61.80 shelf that rejected it 4x this session; expect another rejection there, chopping between 60.7 and 61.8 near-term rather than a clean directional break in thin weekend tape.",
+  "expectancy_note": "Neither side clears R:R>=1.5: long entry sits directly under repeatedly-rejected 61.5-61.8 (target <1x ATR away) into crowded-long weakness; short into a fresh 5m/30m up-bounce (5m RSI 75.8) lacks rejection confirmation. HOLD beats forcing a coin-flip.",
+  "rationale": "CRCL is the worst-positioned name on the board: L/S 2.43 (max crowd-long) while -25.9% vs BTC over the window, structure_bias -0.365, on a thin weekend tokenized-equity perp with Monday 7/20 gap risk and RISK-OFF macro. Price sits mid-range (58.76 support / 67.55 resistance) pinned at the 61.45-61.8 micro-shelf with conflicting TFs (15m flat, 5m/30m/1h up but stretched, 4h neutral-long). No level offers >=1.5 R:R to a first target. The high-expectancy play is the crowd-fade SHORT, but only once price proves rejection at the shelf or loses the 60.7 low with momentum.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 60.7,
+    "expires_min": 240,
+    "note": "Losing the 60.7 intraday low breaks the bounce structure and confirms the crowded-long unwind, arming a short toward 58.76 support."
+  },
+  "transcript": {
+    "macro": "2026-07-19 Sunday, US markets closed. RISK-OFF/hostile weekend, thin/gappy perps, Monday 7/20 gap risk. BTC ~$64.7k near lows. Funding ~zero; L/S lopsidedly long; structure_bias negative broadly. CRCL: long composite but WORST positioning - L/S 2.43 (max crowd-long penalty), funding slightly positive, rel-strength -25.9% (deep laggard vs BTC). Crowded long into weakness - HOSTILE for longs.",
+    "sentiment": "Risk-off. Fresh chip/AI-capex selloff Fri Jul 17. Crypto Fear&Greed 25. CRCL: mixed/choppy, no clean 48h binary. Conflicting flow - federal bank charter approval + Nomura/Japan FX-settlement partnership vs Mizuho downgrade to Underperform (PT $50); stock bled ~$85 late-June to low-$60s. Earnings ~Aug 10 (out of window). Near-term NEUTRAL - technical/beta play.",
+    "analyst": "Worst-positioned name (L/S 2.43, rel-str -25.9%, structure_bias -0.365). Price pinned at repeatedly-rejected 61.45-61.8 shelf, TFs conflicting, no side clears 1.5 R:R. HOLD; crowd-fade short only on shelf rejection or loss of 60.7.",
+    "portfolio": "CRCL: HOLD - crowded-long bleeder, no clean R:R; short trigger below 60.7."
+  },
+  "timestamp": "2026-07-19T05:45:33.900744+00:00"
+}

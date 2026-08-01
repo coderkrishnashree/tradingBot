@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "INTC/USDT:USDT",
+  "size": 0.0,
+  "entry": 94.5,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.34,
+  "playbook": "none",
+  "forecast": "Price just bounced off the 93.4-91.35 support shelf; last 6 bars stair-stepped 93.49->94.56 into a strong green close, so near-term I expect chop between 93.5 and 95.2 (VWAP zone) rather than a clean directional leg. Shorting into this fresh reversal risks a violent mean-reversion bounce; the bounce itself is too young and macro too hostile to buy blindly.",
+  "expectancy_note": "Short p_win_learned 0.376 and account shorts win only 45%/-0.85R \u2014 fading a fresh reversal off support is negative expectancy; long bounce lacks confirmation (30m/1h still short, ADX 27.7, FOMC Wed). No side clears 1.5R, so flat is highest expectancy.",
+  "rationale": "The scan's short signal is a trap: price is already 2.9% below VWAP with 1h RSI 38.8 and the last six 15m candles are a clear higher-close reversal off the 91.35-93.4 support \u2014 chasing short here is the exact late-entry pattern that bleeds this book. But INTC is the ugliest semi (RS -16.53) into a hostile FOMC-Wed tape, so a 1-bar-old bounce isn't buyable yet either. Wait for confirmation: a VWAP/95.2 reclaim turns it into a long; losing 91.35 turns it into a clean continuation short. Neither offers 1.5R now, so hold.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 95.2,
+    "expires_min": 240,
+    "note": "Reclaiming 95.2 (pre-drop swing / VWAP zone) confirms the support bounce has legs and flips the read to a long toward 97-98."
+  },
+  "transcript": {
+    "macro": "Regime MIXED now, HOSTILE into midweek. 7/27 risk-on relief tape atop AI-capex-revolt backdrop. FOMC Wed 7/29 (hawkish). INTC structurally the ugliest name \u2014 fell 21% in 7 days on 18A-P yield-delay reports; semi-cluster correlations (INTC|MU 0.73, INTC|QQQ 0.76, INTC|EWY 0.60). Pure semi-beta into a bombed-out sector; two-sided and thin. Scan composite conf ~19, direction short, last ~94-95.",
+    "sentiment": "INTC catalyst ALREADY FIRED (Q2 reported Jul 23), now in fade/digest. Big beat: revenue +25% YoY to $16.1B, adj EPS $0.42 vs $0.21 est, data-center +59%; Q3 guide solid. Reaction messy \u2014 muted +4% AH, then ~8% selloff on capex/foundry worries, then rebound toward ~$94-95. Analysts mixed (Bernstein market-perform, PT $110). No further scheduled event in 48h \u2014 binary is behind us; tradeable dynamic is post-earnings mean-reversion.",
+    "analyst": "Composite wants SHORT but p_win_learned only 0.376 and everything argues against it: price 2.9% below VWAP (stretched down), 1h RSI 38.8 (oversold), and the last six 15m candles are a clear higher-close reversal off the 91.35-93.4 support into a strong green close on rising volume. Shorting = chasing a knife after the move (account's #1 loss pattern; shorts win 45%/-0.85R). Long is the counter-trend bounce but only ~1 bar old, 30m/1h still short, ADX 27.7 weak, and macro hostile into FOMC. No side clears 1.5R. HOLD; reclaim 95.2 (VWAP) flips long, loss of 91.35 flips clean short.",
+    "portfolio": "HOLD INTC \u2014 don't fade a fresh reversal off support; bounce too young to buy into a hostile FOMC tape. Watch 95.2 / 91.35."
+  },
+  "timestamp": "2026-07-27T13:06:12.389211+00:00"
+}

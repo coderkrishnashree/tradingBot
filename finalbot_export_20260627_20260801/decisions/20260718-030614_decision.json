@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "COIN/USDT:USDT",
+  "size": 0.0,
+  "entry": 157.09,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.4,
+  "playbook": "none",
+  "forecast": "Frozen weekend drift around 157 on near-zero volume; expect stale chop between 152.9 support and 168.7 resistance until Monday cash open re-prices it \u2014 no clean directional move to trade now.",
+  "expectancy_note": "p_win ~0.43 (below coinflip), no honest R:R on frozen tape; HOLD beats a short that leans into net-short crowd (squeeze fuel) with the group's highest BTC beta and live China headline risk.",
+  "rationale": "US equities are CLOSED (weekend) so COIN's tokenized-perp candles are stale/thin \u2014 the 4h RSI 15.3 is a fake-extreme from frozen prints, and recent bars are a dead flat 157.5->157.09 grind on ~0 volume with no tradeable rejection. Composite is SHORT but only p_win 0.428, while structure is contrarian-long (crowd net-short at 0.594 = squeeze fuel) and btc_corr 0.646 makes this a pure BTC-beta echo with an unconfirmed China-expansion headline as the biggest surprise risk of the group. Shorting here fails every hard check: chasing a sub-coinflip edge into squeeze-positioned, illiquid tape \u2014 the account's exact loss pattern \u2014 so HOLD is highest-expectancy until Monday liquidity confirms direction.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 152.88,
+    "expires_min": 240,
+    "note": "A decisive break of range support on real Monday volume confirms the downtrend, clears the stale-data problem, and validates a short entry."
+  },
+  "transcript": {
+    "macro": "Scan 2026-07-18 03:01 UTC = WEEKEND; US cash market CLOSED \u2014 tokenized-equity perps stale/thin, frozen candles produce fake-extreme readings. Regime RISK-OFF: Fri S&P -1.01%, Nasdaq -1.4%. Crypto soft: BTC ~$62.7k, Fear&Greed 27, dominance ~60%. COIN: composite SHORT (-0.292, p_win 0.428) but structure DIVERGES \u2014 L/S 0.594 crowd net-SHORT, structure_bias +0.127 (contrarian-long) = squeeze risk. btc_corr 0.646 (highest of group, crypto-beta echo), rel_strength -1.9%. Macro verdict: AVOID (bias/composite conflict, highest BTC beta into weak BTC).",
+    "sentiment": "COIN NEUTRAL-to-BEARISH, two-sided: ran to ~$167 on 7/15 on China-onboarding report + early-July product event (~+19%), gave back to ~$155 on 7/17 with BTC lower. Chief legal officer transition (minor). China-expansion narrative live but UNCONFIRMED = biggest squeeze/surprise risk of the three. Q1 ugly (rev -31% YoY, net loss $394M, long-horizon only). NO <=48h binary; tracks BTC.",
+    "analyst": "AVOID / HOLD. Frozen weekend tape, fake 4h RSI 15.3, dead-flat 157.5->157.09 on ~0 volume. Composite short only p_win 0.428 (sub-coinflip) while structure is contrarian-long (crowd net-short = squeeze fuel); highest BTC beta of the group plus a live unconfirmed China headline. Fails every hard check. HOLD; short valid only on a decisive break of 152.88 on real Monday volume.",
+    "portfolio": "COIN: HOLD (conf 0.40) \u2014 two-sided, squeeze-positioned; avoid into frozen tape and China headline risk."
+  },
+  "timestamp": "2026-07-18T03:06:14.928385+00:00"
+}

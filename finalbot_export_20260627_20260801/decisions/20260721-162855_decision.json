@@ -1,0 +1,22 @@
+{
+  "action": "hold",
+  "symbol": "MSTR/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Rejected hard at 104.64 (big upper-wick bar), now 8 consecutive lower 15m closes fading the vertical 1h push toward the 100.0-100.8 shelf/VWAP over the next 2-6 bars; there it either bounces with BTC or loses 100 and flushes.",
+  "expectancy_note": "No clean entry: shorting after ~1.4xATR already fell is the account's #1 loser (shorts 45% win); longing into 104.64 resistance with 5m RSI 27 rolled over has poor R:R. Best expectancy is waiting for the 100 shelf to resolve.",
+  "rationale": "MSTR is a 0.73-beta BTC proxy that spiked to resistance 104.64 and got sold, and BTC is itself stretched at its own 66937 resistance (RSI 73) \u2014 the pair is a leveraged read on the BTC range break with no independent edge (rel_strength -3%). The tape is mid-fade: too late to short cleanly, too high to buy. Better to let it reach the 100.0-100.8 support shelf and see whether BTC holds (bounce) or breaks (short trigger) than force a stop-in-noise entry now.",
+  "transcript": {
+    "macro": "Regime MIXED, cautiously risk-on (fragile equity relief rally); crypto structurally soft (BTC below 200-EMA, -18% MTD). MSTR pure BTC proxy, corr 0.73 (highest). Funding 0, L/S 1.24, OB +0.06, structure_bias -0.055 (un-crowded). But RSI 70.3/ADX 67/bb %b 0.94 at resistance 104.64 after a vertical 1h push; 5m rolled short; rel_strength -3%. Supportive only while BTC/equities hold; amplifies any crypto flush.",
+    "sentiment": "MSTR bullish tone, no hard <=48h binary. Reclaimed $100, raised ~$263.5M via ATM equity, 843,775 BTC untouched, new capital framework ($1B buyback authorization, 12% STRC preferred) sparked buyback hopes. But was a net BTC SELLER late June/early July (~3,588 BTC) before pausing \u2014 slight treasury-narrative negative. Next 24-48h move mostly a leveraged read on the BTC range break; hot into resistance 104.64.",
+    "analyst": "Hard rejection at 104.64 (upper-wick bar), 8 consecutive lower 15m closes fading the vertical push toward the 100.0-100.8 shelf/VWAP. Too late to short cleanly (~1.4xATR already gone, shorts are the account's bleed), too high to buy into resistance. HOLD; reconsider on losing the 100.0 shelf (paired with a BTC break) to arm a clean momentum short toward support 90.",
+    "portfolio": "HOLD MSTR/USDT:USDT \u2014 mid-fade BTC proxy, no clean entry; let the 100 shelf resolve with BTC."
+  },
+  "timestamp": "2026-07-21T16:28:55.560784+00:00"
+}

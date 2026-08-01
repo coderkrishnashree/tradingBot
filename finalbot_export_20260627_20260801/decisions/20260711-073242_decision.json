@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "META/USDT:USDT",
+  "size": 0.0,
+  "entry": 669.23,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Thin weekend chop 667-671 just under 678.67 resistance; no fresh thrust and stale prices until Mon open. Likely continued sideways drift, then a directional resolution Monday.",
+  "expectancy_note": "p(win) low both ways: long chases 4h RSI 79.7 / +4.08% above VWAP into 678.67 resistance; short fades a +16% RS leader with zero exhaustion. HOLD beats both until a level breaks.",
+  "rationale": "META is extremely stretched (4h RSI 79.7, stoch 90.6, %B 0.85, +4.08% above VWAP) after leading Friday's +6% melt-up, and higher-TF momentum is fading (1h score 0.0/flat, 4h score 0.16). Chasing the long is the account's #1 loss pattern; shorting a low-BTC-correlation (0.36) idiosyncratic leader with no reversal signal into a thin, gappy weekend is equally poor. No entry offers R:R >= 1.5 with an honest stop.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 667.24,
+    "expires_min": 240,
+    "note": "Losing the 667 shelf that held all session is the first sign the weekend froth is unwinding, opening a mean-reversion short toward VWAP ~643."
+  },
+  "transcript": {
+    "macro": "Cycle 2026-07-11 (Sat, US cash equities CLOSED, reopen Mon Jul 13). Broad regime RISK-ON but late-stage/overbought (AI/tech melt-up Fri). Tokenized-stock pairs thin/gappy off-hours - size down, expect slippage, stale until Monday. META led Friday's +6% melt-up, relative_strength +16% but RSI 79.7 (4h RSI ~80 extreme). LONG-friendly per macro but frothy.",
+    "sentiment": "META NEUTRAL - Q2 earnings Jul 29 (out of window). Extremely overbought. No near-term catalyst beyond June CPI Tue Jul 14 08:30 ET.",
+    "analyst": "HOLD. Extremely stretched (4h RSI 79.7, stoch 90.6, %B 0.85, +4.08% above VWAP) post +6% melt-up; higher-TF momentum fading. Chasing the long is the #1 loss pattern; shorting a +16% RS idiosyncratic leader (BTC corr 0.36) with no reversal signal into a thin weekend is equally poor. No R:R >= 1.5 with an honest stop. Reconsider on a break below the 667 shelf.",
+    "portfolio": "HOLD META/USDT:USDT - conf 0.60, size 0."
+  },
+  "timestamp": "2026-07-11T07:32:42.725820+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "action": "buy",
+  "symbol": "BTC/USDT:USDT",
+  "size": 2.5,
+  "entry": 64400,
+  "stop_loss": 63850,
+  "take_profit": 66200,
+  "take_profit_1": 65400,
+  "take_profit_2": 66200,
+  "confidence": 0.6,
+  "playbook": "trend",
+  "forecast": "Shallow pullback from the 64,880 spike toward the 64,400 reclaim shelf/VWAP within 1-3 bars, then resumption up to retest resistance 65,566, targeting 65,400 first and 66,200 on a break.",
+  "expectancy_note": "p(win)~0.6, R:R to TP1 = 1000/550 = 1.8; trend-continuation is the highest-expectancy play here (ADX 63.8, 4h up, bullish divergence, bid-heavy book, account longs 71% win) vs chasing the spike or fading a strong trend.",
+  "rationale": "BTC is the cleanest long: strong uptrend (ADX 63.8, 4h up), bullish divergence, orderbook imbalance +0.228 supportive, funding not extreme, ETF flows reversed to inflows. Price just ran ~500pts into 64,880 so I will NOT chase the top; a limit at the 64,400 reclaim shelf gives a 0.7xATR stop below structure (63,850) and a 1.8 R:R to the 65,400 target under resistance. L/S 1.383 mildly crowded-long is the one caution, hence moderate size and confidence 0.6.",
+  "transcript": {
+    "macro": "RISK-OFF/defensive tilt (hawkish Warsh Fed, Iran energy inflation), though June CPI/PPI soft; BTC dominance neutral-to-firming. BTC ($64.8k) is the best of the group \u2014 4h up, RSI 68, ADX 63, bullish divergence, recovering; funding/OI not extreme, L/S 1.38 mildly crowded-long. Constructive but ETF-outflow overhang; cleanest long-side venue.",
+    "sentiment": "BTC bullish/constructive: reclaimed ~$65k on soft CPI; ETF flows reversed (~$191M-$510M inflows over 2-3 days after June's record ~$4.5B outflow month) \u2014 flow is the key driver. Catalyst: CLARITY Act hearing Jul 17 (regulatory positive). Fed Jul 28-29 is the bigger later risk. Trades as high-beta risk asset, moves with QQQ.",
+    "analyst": "Cleanest long-side candidate: strong uptrend (ADX 63.8, 4h up), bullish divergence, bid-heavy book (+0.228), funding not extreme, ETF inflows. Price just ran ~500pts into 64,880 \u2014 do NOT chase; limit buy at the 64,400 reclaim shelf/VWAP, stop 63,850 (0.7xATR below structure), TP1 65,400 under resistance (R:R 1.8), TP2 66,200. L/S 1.383 mildly crowded is the one caution -> moderate size 2.5, conf 0.6. Account longs 71% win.",
+    "portfolio": "BTC: BUY limit 64,400 (conf 0.6) \u2014 trend-continuation long, stop 63,850, TP1 65,400/TP2 66,200; the cycle's only actionable entry."
+  },
+  "timestamp": "2026-07-16T15:36:30.256451+00:00"
+}

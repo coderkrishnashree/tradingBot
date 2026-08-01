@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "GOOGL/USDT:USDT",
+  "size": 0.0,
+  "entry": 352.19,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price is pinned on support 351.78 after grinding 361->352 all day, deeply oversold (30m RSI 13.9, 1h RSI 10.1, stoch 1.9, %B -0.25, -3.23% below VWAP). Next few bars most likely a relief bounce toward 354.9-357 OR a support break to 349; a fresh short here chases into the hole and a routine bounce stops it.",
+  "expectancy_note": "No positive-expectancy entry: short is chasing RSI~10/%B<0 (bounce risk stops it), long is an unconfirmed knife-catch against risk-off tech + bearish structure (bias -0.40). Wait for the level to resolve.",
+  "rationale": "GOOGL sold 361->352 and is now sitting exactly on 351.78 support, extremely oversold on every TF with price below the lower Bollinger band and 3.2% under VWAP. Chasing the short into RSI 10 is the account's #1 loss pattern (late short stopped by the bounce), and catching the long has no confirmation (last bar closed near its low, still lower-lows) against a bearish macro/structure backdrop. Highest-expectancy move is to wait: a support break gives a clean retest short, a reclaim gives a bounce long.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 351.5,
+    "expires_min": 240,
+    "note": "Decisive loss of 351.78 support ends the oversold-bounce hope and opens a fresh continuation leg down, setting up a retest short rather than a chase."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF-LEANING/MIXED, defensive. Oil gapped up (US-Iran), yields up. No CPI/FOMC in 48h; oil headline tape. Crypto soft-neutral, no tailwind. L/S crowded LONG while price bleeds. Favors shorts/fades; size down. GOOGL: idiosyncratic (BTC corr 0.12, lowest in book), sold 361->352, thin recent candles. Moves on its own equity story; clean directional-only name.",
+    "sentiment": "Overall NEUTRAL-to-BEARISH tech. GOOGL: earnings Jul 22 (~2wk, not 48h). Watch: massive capex guide raised to $180-190B (FCF margin compressed to ~9%), plus fresh EUR4.1B EU Android fine upheld and DOJ-appeal antitrust overhang. No <=48h binary; macro-beta near-term, Jul 22 next real event.",
+    "analyst": "Pinned on 351.78 support after a 361->352 grind, extremely oversold every TF (30m RSI 13.9, 1h RSI 10.1, stoch 1.9, %B -0.25, -3.2% VWAP). Shorting into RSI 10 is a chase (bounce stops it); the long is an unconfirmed knife-catch against bearish macro/structure (bias -0.40). No positive-expectancy entry. HOLD, size 0. A decisive break of 351.78 sets up a clean retest short; a reclaim sets up a bounce long.",
+    "portfolio": "GOOGL: HOLD (conf 0.60) \u2014 oversold on support, no edge; short only on a confirmed break below 351.5."
+  },
+  "timestamp": "2026-07-09T14:32:51.104806+00:00"
+}

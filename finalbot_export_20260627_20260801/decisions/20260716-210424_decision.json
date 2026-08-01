@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "NVDA/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Price is basing 205.9-207.5 after a minor bounce; last bars coil at 206.9 on drying volume. Expect chop 206-207.6 near-term. A fresh short is only valid on a failed retest of 207.5-208 (VWAP/broken-shelf resistance); a market short now enters straight into a 1h-RSI-27.8 oversold bounce and gets stopped by the counter-rally.",
+  "expectancy_note": "No clean edge: short = late into oversold/crowded-long squeeze risk (the account's #1 loss pattern); long = fighting ADX-42 downtrend in semi-led risk-off. HOLD + retest-fail trigger beats both.",
+  "rationale": "Bearish composite (4h -0.55, ADX 42 down) and crowded longs (L/S 1.583) argue for shorts, but 1h RSI 27.8 and stoch 12.5 say the down-leg is already stretched and VWAP is only -0.53% away, so no room to short a fresh leg without a bounce/retest first. Macro explicitly warns not to fade a genuine relief bounce in this headline-whippy leader, and the overnight tokenized window is thin/mean-reverting. Zero relative strength means NVDA offers no long edge either. Wait: a failed retest of 207.5-208 arms the short; a reclaim above 208.3 flips off the short bias as the crowded-long book squeezes up.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 208.3,
+    "expires_min": 240,
+    "note": "Reclaiming 208.3 clears the 207.5 pop and intraday shelf, proving the crowded-long squeeze is resolving upward and invalidating the short thesis; re-debate for a possible long or stand-down."
+  },
+  "transcript": {
+    "macro": "Broad regime: RISK-OFF, tech/semi-led (Jul 16 2026). S&P -0.5%, Nasdaq -1.3%; semi-specific bleed (TSM earnings disappointed, chip leaders -3%); US-Iran headline. Rates a headwind: 10y ~4.60% (2-month high), DXY ~100.9, ~56% odds of a Sept HIKE. Overnight tokenized-perp window is thin/mean-reverting; 5m readings are noise; size down. NVDA last 206.9 (crowded long l/s 1.583, structure_bias -0.155, tactically short-supportive but whippy leader). META last 663.22 (structure_bias ~neutral -0.002, bid-supported, oversold near-term, rel-strength +13% vs BTC, MIXED/prefer small). EWY last 164.63 (funding elevated positive, ADX 56 strong down-trend, rel-strength -23%, cleanest short lean but oversold + Korea closed overnight thin tape). Overall: reduced size, sell rallies rather than chase breakdowns into oversold thin overnight.",
+    "sentiment": "META BULLISH tilt: +15% on Jul 10 \"Meta Compute\" AI-cloud launch + Sept Iris chip narrative; no <=48h catalyst (Q2 earnings Jul 29 after close, capex $125-145B overhang). Near-term flow favors longs. EWY BEARISH near-term, FRESH shock today Jul 16: Bank of Korea surprise 25bp HIKE to 2.75% (first in 3.5yrs), signaled more; KOSPI off sharply on chipmaker selling; EWY gapped down; leveraged Samsung/SK Hynix proxy hit twice (BOK tightening + AI-hardware vol); highest-conviction <=48h catalyst, supports shorts. NVDA MIXED/mildly bullish: ~$212/$5.1T on H200-China reopening optionality + $80B buyback + blowout quarter; offset by valuation/competition + US-China export overhang; next earnings Aug 26, no <=48h binary; not fully decoupled from broad semi risk-off.",
+    "analyst": "Two-sided whippy tape. Bearish composite (4h -0.55, ADX 42 down) + crowded longs (L/S 1.583, squeeze fuel) argue short, but 1h RSI 27.8/stoch 12.5 = already oversold and VWAP only -0.53% away, no room for a fresh short leg; market-shorting enters straight into the bounce (account's #1 loss). No long edge either (zero RS, semi-led risk-off). HOLD; arm short on a failed 207.5-208 retest, stand down if 208.3 reclaims.",
+    "portfolio": "NVDA: HOLD (0.50) - bearish structure but oversold and headline-whippy; short only a failed retest into 208, don't fade a relief bounce."
+  },
+  "timestamp": "2026-07-16T21:04:24.437086+00:00"
+}

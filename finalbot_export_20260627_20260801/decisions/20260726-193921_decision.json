@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "ORCL/USDT:USDT",
+  "size": 0.0,
+  "entry": 116.39,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.4,
+  "playbook": "none",
+  "forecast": "Coiling 116.2-116.6 just above 113 support with RSI 19.7 deeply oversold; base case is a mean-reversion bounce toward VWAP ~119 before the 4h downtrend can resume, so a fresh short here gets stopped by the bounce.",
+  "expectancy_note": "Short is directionally aligned but chasing stretched tape (RSI 19.7, -2.15% vs VWAP); account shorts win only 47% avg -0.78R, and no bounce-failure confirmation yet - negative expectancy either way, so flat.",
+  "rationale": "4h downtrend and crowded-long unwind favor eventual shorts, but price is deeply oversold and coiling directly above 113 support - a market short chases into the exact stretched-tape setup that has bled this book. No reversal signal to justify a long. FOMC Jul 28-29 inside window adds vol; wait for a clean level break. Zero size.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 113.0,
+    "expires_min": 240,
+    "note": "Losing the 113 support flushes the oversold coil and re-opens the downtrend for a clean trend-continuation short with a defined base above."
+  },
+  "transcript": {
+    "macro": "Risk-off/defensive, weak Nasdaq tape. FOMC Jul 28-29 inside horizon = vol event. Book-wide crowded-long = contrarian downside risk. ORCL: 4h downtrend, RSI 19.7 deeply OVERSOLD, crowded long (L/S 2.60) unwinding; scan short aligned but watch oversold bounce; soft/bearish.",
+    "sentiment": "ORCL no imminent binary (earnings ~Sept). Fresh positive: $3.31B DoD contract win. But down ~38% YTD on debt/credit-downgrade rotation; mixed analyst tape (Mizuho $320 buy vs CLSA $145 hold). Neutral near-term.",
+    "analyst": "Downtrend + crowded-long unwind favor shorts, but RSI 19.7 and -2.15% vs VWAP coiling above 113 support = a short here chases stretched tape (book's losing pattern). No reversal for a long. Hold; short trigger on a 113 breakdown.",
+    "portfolio": "HOLD ORCL - aligned short but too oversold; short only on a clean break below 113."
+  },
+  "timestamp": "2026-07-26T19:39:21.905429+00:00"
+}

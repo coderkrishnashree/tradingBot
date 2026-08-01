@@ -1,0 +1,23 @@
+{
+  "symbol": "AAPL/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.55,
+  "size": 0.0,
+  "entry": 313.86,
+  "stop_loss": 309.0,
+  "take_profit": 320.0,
+  "rationale": "AAPL is a genuine own-name leader (+7.49% vs BTC, low corr 0.268, ADX 53.4, all TFs up, bid-heavy orderbook +0.533, flat funding = no crowding) but it is STRETCHED: 4h RSI 70.4, stoch 86.2, bb_%B 0.981 pinned to the upper band, and last 313.86 sits just under resistance 315.25 -- buying the top of the range with only ~0.44% headroom before the level. ATR ~0.62% ($1.95) means a non-noise stop must sit below VWAP/upper-band structure (~$309, -1.5%), giving barely 1:1 R:R into resistance -- not the 1.5 required. Macro is risk-off tech rotation (Nasdaq-100 -0.8%, money into value), no <=48h binary catalyst (earnings July 30 outside window), so there is no fuel to force a breakout tonight and mean-reversion gives back fast. HOLD; a decisive reclaim/hold above 315.25 proves buyers absorbed the resistance and opens a measured long toward ~320 with the stop moved up under the level.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 315.25,
+    "expires_min": 240,
+    "note": "clean break and hold above resistance 315.25 proves buyers absorbed the top and converts the stretched pin into a valid trend-continuation long"
+  },
+  "transcript": {
+    "macro": "MIXED, leaning cautious. Fed hawkish hold 3.50-3.75% (Warsh); 2026 cut odds collapsed, dot plot leans 1-2 hikes; elevated inflation. Soft June NFP (57k vs 115k) gave modest tech relief but 2yr ~4.2%. Tone = risk-off rotation: Dow record highs on value/defensives, Nasdaq-100 -0.8% -- money leaving mega-cap tech. Equity-token complex heavy (QQQ, NVDA, MU, TSM short/flat); BTC soft. AAPL: structure_bias +0.136 (orderbook +0.533 bid-heavy), funding flat (no crowding), L/S 1.082 neutral. Momentum strong but STRETCHED: conf 58.5%, ADX 53.4, all TFs up, 4h RSI 70.4, stoch 86.2, bb_pctb 0.981, last 313.86 at resistance 315.25. Relative strength bright spot: +7.49% vs BTC, low BTC-corr 0.268 -- genuine own-name leader. Analyst target ~$314.85 (at fair value). Q3 earnings July 30 (outside window). Thin off-hours token liquidity = gap risk. Verdict: trade-specific signal supports a hours-to-days long but macro does NOT confirm; size smaller than normal, tight stop.",
+    "sentiment": "Cautiously bullish but two-sided, low conviction. Recent +9% week driven by real catalyst: Apple negotiating Chinese memory suppliers (CXMT, YMTC) to offset DRAM/NAND cost shock + extended Broadcom partnership -> 52-wk highs. Double-edged: memory-cost story forced Mac/iPad/Vision Pro price hikes up to 20% (~6% down day in June); fiscal-Q3 gross margin guided down ~46.5-47.5%. Analyst consensus Buy but avg target ~$315 ~= current price (upside discounted). <=48h binary catalysts: NONE (earnings July 30 after close; Sept 1 Cook->Ternus transition priced). Only live thread = ongoing Chinese-memory-supplier headlines (positive if progress, sharply negative if stalls/US regulatory pushback). Net: neutral-to-mildly-supportive but headline-driven mean-reverting setup into stretched RSI at resistance; margin/memory overhang is live downside risk.",
+    "analyst": "Last 313.86, resistance 315.25 (~0.44% above), support 279.96 (far), ATR% 0.62 (~$1.95), bb_pctb 0.981 pinned upper band, RSI 70.4, stoch 86.2. Strong trend but buying the top of the range at resistance, overbought, into risk-off tech rotation with no <=48h catalyst. Long here has ~$1.4 to resistance vs a stop that must sit below VWAP structure (~$309) -> barely 1:1 R:R chasing an extended move. HOLD and arm a trigger on a clean breakout/hold above 315.25, which would prove buyers absorbed the top and open a measured long toward ~320.",
+    "portfolio": "AAPL/USDT:USDT -- HOLD (conf 0.55, size 0.0): strong own-name leader but stretched at resistance with poor R:R and no catalyst; re-arm long only on a hold above 315.25."
+  },
+  "timestamp": "2026-07-07T04:10:36.333670+00:00"
+}

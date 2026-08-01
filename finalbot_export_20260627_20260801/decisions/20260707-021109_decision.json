@@ -1,0 +1,23 @@
+{
+  "symbol": "AAPL/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.6,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "rationale": "AAPL is in a strong, aligned uptrend (ADX 53, RelStrength +7.5% vs BTC, orderbook +0.35) but is jammed right against resistance 315.25 (last 314.12) while badly extended: %B 1.083 above the upper band, stoch 88.8, 1h RSI 81, +1.39% above VWAP. Buying here is a chase - immediate upside is capped by 315.25 and any real long stop sits far below at VWAP/structure, killing R:R; there's no confirmed exhaustion divergence to justify a short against this trend either. Best expectancy is to wait: a clean break and hold above 315.25 flips this into a valid breakout long toward the ~320-322 measured move, otherwise a pullback toward VWAP (~309-310) offers a far better entry. News-driven momentum tape (China memory headline) with earnings Jul 30 outside the window, so no forced action.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 315.25,
+    "expires_min": 240,
+    "note": "A decisive break and hold above resistance 315.25 confirms breakout continuation and makes the momentum long valid rather than a chase into the level."
+  },
+  "transcript": {
+    "macro": "SUPPORTS risk with a hard timing caveat. AAPL/INTC are tokenized US equities - judge as equity longs, BTC correlation negligible. Tape risk-on Mon Jul 6: Nasdaq +1.12% ~26,121, S&P +0.72%, Dow record on renewed AI/semi optimism - but a fragile rebound off a late-June AI-valuation scare. No FOMC/CPI in next 48h (FOMC Jul 28-29). Earnings OUTSIDE hold window: AAPL Jul 30 - do NOT hold into it. AAPL is the stronger long (RelStrength +7.5%, aligned trend, orderbook +0.35) but stretched: RSI 70, 1h RSI 81, at resistance 315.25. Momentum long but chase risk high. Env risk: thin/gappy tokenized-equity liquidity when US cash closed; rebound tape can reverse on any AI-valuation headline.",
+    "sentiment": "AAPL BULLISH (momentum), no imminent scheduled catalyst. Constructive after sharp bounce - reclaimed $300, +4.6% to ~$308 Jul 2 on Bloomberg report of talks with Chinese memory makers CXMT/YMTC to offset DRAM/NAND cost surge. Back to top of symmetrical-triangle base, news-driven tape. Big binary = fiscal Q3 earnings + first iPhone 18-quarter guidance Jul 30 after close (outside 24-48h horizon). Analyst noise long-horizon (UBS $296, Evercore/JPM). Direction hinges on continued memory-cost/China-sourcing headline flow, leans positive. An Apple-Intel foundry deal confirmation would be net positive for both names.",
+    "analyst": "AAPL at 314.12, resistance 315.25 (price right at resistance), support 279.96. RSI 70, 1h RSI 81, stoch 88.8, BB %B 1.083 (above upper band), vwap_dist +1.39%, ADX 53.4, ATR% 0.63. RelStrength +7.51%, orderbook +0.352. Composite long but conf only 34.1%. Classic extended-into-resistance: chasing here has poor expectancy - upside capped by 315.25, nearest structural long stop is far below at VWAP/structure. No short either - fading a strong uptrend without confirmed exhaustion divergence is low-probability. HOLD with reconsider armed above 315.25 (breakout continuation long) or a pullback to VWAP ~309-310.",
+    "portfolio": "AAPL: HOLD (conf 0.60) - strong uptrend but extended into resistance 315.25; wait for breakout above or pullback to VWAP."
+  },
+  "timestamp": "2026-07-07T02:11:09.602758+00:00"
+}

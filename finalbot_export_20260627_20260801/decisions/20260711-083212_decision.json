@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "TSLA/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Frozen Friday tape ~408-410; no real intraday move until Monday's cash open. Price sits +1.78% over VWAP and RSI 71 (4h) into resistance 420.22 \u2014 extended, not a pullback entry, and Monday gaps on CPI (Tue) risk.",
+  "expectancy_note": "No tradeable move over closed weekend; p(win) undefined on static tape. Chasing an extended long into a gap = negative expectancy vs simply waiting for the live open.",
+  "rationale": "Underlying US market is closed (Saturday) so the perp only drifts thin \u2014 there is no honest next-candle move to trade, and the last 15m bar already rejected 410.5 back to 408.6. Signals are mixed (1h short vs 15m/30m/4h long, composite conf only 26%, aligned=false) and price is stretched +1.78% over VWAP with RSI 71 into resistance 420. Holding a static long straight into Monday's gap + Tue CPI + bank earnings is pure event risk with no edge; wait for the live open. Structure bias -0.31 (offered book) further argues against paying up here.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 420.22,
+    "expires_min": 240,
+    "note": "A clean break/hold above 420.22 resistance on live volume would confirm trend continuation and justify a fresh long entry; below that there is no edge on frozen weekend tape."
+  },
+  "transcript": {
+    "macro": "Regime mildly risk-on but stretched and event-front-loaded. Indices near highs, higher-for-longer (10Y ~4.56%, DXY firm). TSLA is an equity perp on a CLOSED weekend underlying -> gap risk into Monday open + CPI (Tue Jul 14) + big-bank earnings Tue. Funding negligible (+0.79bp), OI thin (~7.2k), long/short 1.55 (mild long lean), orderbook imbalance -0.365 -> structure_bias -0.31 (offered book). RS +1.35% vs BTC, low BTC corr 0.28. Environment MIXED-to-cautious: fine as small tactical long on merits, do NOT size up into closed tape + Tuesday event risk.",
+    "sentiment": "TSLA mildly constructive but binary risk looms. Q2 2026 deliveries (~Jul 2) strong at 480,126 units (+25% y/y) vs ~406K consensus, record 13.5 GWh storage. Earnings AFTER close July 22 (outside 48h window). No scheduled TSLA event next 48h. Whole complex hostage to Tue Jul 14 CPI.",
+    "analyst": "Underlying US market closed (Saturday) so the perp only drifts thin \u2014 no honest next-candle move; last 15m bar rejected 410.5 back to 408.6. Signals mixed (1h short vs 15m/30m/4h long, composite conf 26%, aligned=false), price stretched +1.78% over VWAP, RSI 71 into resistance 420. Holding a static long into Monday gap + Tue CPI + bank earnings is pure event risk with no edge. Structure bias -0.31 (offered book) argues against paying up. Wait for the live open / a break-hold above 420.22.",
+    "portfolio": "HOLD TSLA \u2014 no edge on frozen weekend tape into Monday gap + Tue CPI; arm long only on a break-hold above 420.22."
+  },
+  "timestamp": "2026-07-11T08:32:12.080936+00:00"
+}

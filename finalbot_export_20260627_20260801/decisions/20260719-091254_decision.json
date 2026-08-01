@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "EWJ/USDT:USDT",
+  "size": 0.0,
+  "entry": 90.1,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.4,
+  "playbook": "none",
+  "forecast": "Price stays pinned 89.9-90.4 on near-zero volume through the Sunday close; no real directional move until Monday cash open re-prices the Friday risk-off shock.",
+  "expectancy_note": "No tradeable edge: ~zero-volume stale prints, tiny OI (2248), 1h RSI 16.8 already oversold means a short is chasing a done move into a frozen tape \u2014 negative expectancy; wait for real liquidity.",
+  "rationale": "The recent candles are almost entirely flat/zero-volume prints frozen around 90.0-90.2 \u2014 a dead, illiquid Sunday tape with US cash equities closed, so the -0.388 short composite is stale-print noise, not momentum. Shorting here means entering deeply oversold (1h RSI 16.8, VWAP -2.09%) into no liquidity, precisely the late-short loss pattern; any real move waits for Monday's open.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 88.16,
+    "expires_min": 240,
+    "note": "Losing 88.16 support on real (non-stale) volume confirms Friday risk-off continuation and validates a short once liquidity returns."
+  },
+  "transcript": {
+    "macro": "Sunday Jul 19 2026, US cash equities CLOSED \u2014 tokenized-equity perps thin/gappy, high slippage. EWJ especially illiquid/stale prints. Fri Jul 17 risk-off globally. EWJ: short-lean but illiquid/stale -> low conviction.",
+    "sentiment": "EWJ near-term macro risk. Nikkei plunged 4% Friday to ~64,140 (1-month low) on the global semis selloff. BOJ already hiked to 1.00% (first since '95); next BOJ decision JULY 30 (outside 48h but looming). USD/JPY ~162 (4-decade weak-yen extreme) supports exporters. Fresh Friday risk-off shock is the dominant short-term signal; scan's short aligns \u2014 but liquidity is poor.",
+    "analyst": "Recent candles are near-zero-volume stale prints frozen ~90.0-90.2; tiny OI (2248); 1h RSI 16.8 already oversold. Short composite is stale-print noise. Shorting into a frozen oversold tape = late-short loss pattern. HOLD; arm short on a real-volume break below 88.16 once Monday liquidity returns.",
+    "portfolio": "HOLD EWJ \u2014 dead illiquid tape, already oversold; wait for 88.16 break on real volume."
+  },
+  "timestamp": "2026-07-19T09:12:54.773666+00:00"
+}

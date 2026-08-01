@@ -1,0 +1,28 @@
+{
+  "symbol": "SOL/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.55,
+  "size": 0.0,
+  "entry": 77.04,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "none",
+  "forecast": "SOL likely chops/bounces from ~77.0 back toward the 77.6-77.9 VWAP/spike-rejection zone over the next 2-4 bars (5m already oversold at RSI 30) before the short bias reasserts; only a clean loss of 75.59 support opens the direct downside path to 74.5.",
+  "expectancy_note": "p(win)~0.5 for a market short now vs ~0.6 for a bounce-retest short at 77.7; entering here into a 5m-oversold tape risks the counter-bounce stop (account's #1 loss pattern), so waiting is higher-expectancy than chasing.",
+  "rationale": "Composite/1h/4h lean short and crowded longs (L/S 2.51) plus risk-off into CPI favor downside, but funding is flat (no squeeze fuel), RS +8.8% (short fights relative strength), and price sits mid-range at 77.0 with 5m RSI already 30.4 \u2014 a market short here enters right before a probable bounce to VWAP/78. Better to short the retest into 77.6-77.9 or a confirmed break of 75.59. Poor R:R and chase risk now, so I wait.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 75.59,
+    "expires_min": 240,
+    "note": "Losing 75.59 support confirms the short breakout and opens 74.5-74.0 \u2014 the clean entry the current mid-range chop does not offer."
+  },
+  "transcript": {
+    "macro": "RISK-OFF/defensive into Tuesday CPI + Fed testimony. BTC soft 63.7k, structure neutral-to-weak. SOL 77.0 composite short (-0.33). Funding flat (0.0007%, NOT crowded) \u2014 no funding-squeeze. Bearish tilt from L/S 2.51 (crowded longs, contrarian downside) + 0.79 BTC corr \u2014 largely BTC-beta with hot-money long tail. RS +8.8% = outperforming BTC, so a short fights relative strength \u2014 MIXED.",
+    "sentiment": "SOL NEUTRAL, mild bullish undercurrent, no imminent binary. Constructive fundamentals (Firedancer v1.0 testnet, Alpenglow ~150ms finality Q3, five spot SOL ETFs $1.12B cumulative inflows, rising active addresses) but multi-week narratives. Near-term risk is broad crypto risk-off / ETF outflows, aligning with the scan short bias. No dated <=48h catalyst.",
+    "analyst": "Short bias real (crowded longs, risk-off, multi-TF down) but a market short at 77.0 into a 5m-oversold, mid-range tape is the chase-into-the-bounce pattern that bleeds this account. Better entry on a break of 75.59 or a bounce retest into 77.6-77.9.",
+    "portfolio": "HOLD SOL \u2014 right bias, wrong price; arm a short below 75.59."
+  },
+  "timestamp": "2026-07-13T01:37:00.101122+00:00"
+}

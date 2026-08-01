@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "CL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Price stalls in the 86.9-87.6 pocket over the next 2-4 bars after the 88.6 rejection; either reclaims 88.6 to resume the breakout, or loses 86.9 and mean-reverts toward VWAP ~84 - no clean edge until one side resolves.",
+  "expectancy_note": "Long into 88.6 resistance +3.5% above VWAP with RSI 72 and a fresh rejection is a chase; short fights ADX 45 uptrend with binary Iran/inventory headlines both ways. p(win) either side ~0.45, no R:R edge - HOLD is highest expectancy.",
+  "rationale": "CL is in a strong 4h uptrend (ADX 45, aligned 30m/1h/4h) but stretched: RSI 71.7, bb_pctb 0.92, +3.52% over VWAP, and it just printed a clean rejection at 88.6 (ran to 88.44/88.6, dumped to 87.02, faded again to 87.07 with fading 15m/5m momentum). Fundamentals lean bearish (Iran deal, OPEC+ 548k bpd, inventories this week) while orderbook imbalance -0.28 shows sellers, yet headline risk can gap it up any moment - a two-sided coin flip with no honest R:R. Stay flat and let the 88.6 level decide direction.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 88.6,
+    "expires_min": 240,
+    "note": "A clean reclaim/close above 88.6 proves the breakout is real - re-debate for a trend-continuation long."
+  },
+  "transcript": {
+    "macro": "Tone MIXED, cautious risk-off into tonight's mega-cap earnings (GOOGL/TSLA/INTC/IBM after close). S&P ~7505, Nasdaq futures soft. USD/DXY firm ~100.6, 10y ~4.0-4.1% (mildly restrictive); FOMC July 29 (split hold-vs-hike). Precious metals are the cleanest trend (silver broke $59, ADX 58.9); equities a coin-flip into the close. Oil ~$83-87 choppy/headline-driven (Iran de-escalation vs escalation). Korea/EWY heavy on firm DXY + chip-earnings overhang. Cross-cutting: tonight's after-close prints are the dominant near-term risk (GOOGL/AAPL/ORCL/EWY-via-chips can gap); off-hours tokenized-equity liquidity thin; crowded-long positioning (XAG 3.33, GOOGL 2.33) is a contrarian flag.",
+    "sentiment": "Calendar: FOMC July 28-29 (expected hold); US flash PMIs + weekly crude inventories this week; GOOGL earnings tonight 7/22, AAPL 7/30. CL: neutral-to-bearish - US-Iran interim deal removed war premium + OPEC+ adding 548k bpd Aug; inventories/Iran headlines = whipsaw. GOOGL: MAX catalyst risk - Q2 tonight after close (~$2.89 EPS/$116.8B rev), overnight gap highly likely. XAG: bullish trend but overbought - silver +4% to ~$59 on soft USD/safe-haven + AI/solar demand & 6th supply deficit; RSI ~70, at resistance, crowded 3.3 longs = fade-the-spike risk. EWY: high-vol two-sided - KOSPI worst month on record (-23% July, 7 circuit breakers) then violent Samsung/SK Hynix rebound on US semi bounce; gappy, headline-driven. AAPL: neutral near-term - earnings 7/30 (Cook's last call), no <48h catalyst, oversold-basing 4h RSI 37 w/ bullish divergence. ORCL: neutral-to-bearish, no <=48h catalyst - retraced ~40% from late-2025 high on AI-capex fears, credit one notch above junk, >$7B collateral overhang; 'oversold' is narrative not binary.",
+    "analyst": "Strong 4h uptrend (ADX 45, aligned 30m/1h/4h) but stretched: RSI 71.7, bb_pctb 0.92, +3.52% over VWAP, fresh rejection at 88.6 resistance (ran 88.44/88.6, dumped 87.02, faded to 87.07 on fading 15m/5m momentum). Fundamentals lean bearish (Iran deal, OPEC+ supply, inventories this week), orderbook imbalance -0.28 = sellers, but headline risk gaps both ways. No honest R:R either side (~0.45 p(win)). Flat; 88.6 reclaim is the flip trigger.",
+    "portfolio": "HOLD - stretched into 88.6 resistance with two-sided Iran/inventory headline risk; no edge."
+  },
+  "timestamp": "2026-07-22T12:31:30.599126+00:00"
+}

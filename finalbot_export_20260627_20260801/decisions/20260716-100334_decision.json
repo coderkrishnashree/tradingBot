@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "SOL/USDT:USDT",
+  "size": 0.0,
+  "entry": 75.99,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price coils in the 75.95-76.29 box on drying volume; most likely it chops 2-4 bars, then either loses 75.55 to resume the downtrend toward 74.0, or reclaims 76.65 VWAP on a BTC bounce and squeezes crowded shorts.",
+  "expectancy_note": "Fresh short at 75.99 sits ON 4x-tested support with 15m RSI 26 (oversold); a routine bounce hits any honest stop first, the account's #1 loser. Waiting for the 75.55 break gives a with-trend short with room.",
+  "rationale": "All 5 TFs short with ADX 40 is a real downtrend, but the impulse leg already fired (dump to 75.57) and LTF momentum is oversold (15m RSI 26, stoch 28), so price is coiling on the 75.95 shelf rather than extending. Shorting the shelf risks the bounce; buying fights a strong trend with no divergence. Highest-expectancy action is to hold and let the coil resolve.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 75.55,
+    "expires_min": 240,
+    "note": "Losing the 75.55 swing low breaks the coil and confirms the downtrend resuming with clear air to 74.04 support."
+  },
+  "transcript": {
+    "macro": "Regime risk-on but fragile. BTC ~$64.1k, reclaimed $60-65k on softer June CPI + ETF inflows; dominance >50%, alts still BTC-beta. FOMC Jul 28-29 outside 48h; no tier-1 crypto print inside 48h. SOL: last $75.99, all 5 TFs short, ADX 40, funding tiny-positive, OI 6.21M, long/short 2.64 (crowded longs), BTC corr 0.75, RS -0.77%. Risk: BTC bounce off $61.5k squeezes crowded longs.",
+    "sentiment": "SOL tone cautious/fear (F&G ~26). ~$76 defending $72-75 support, capped $79-85. High BTC corr means SOL follows BTC/macro. ETF momentum constructive but slow-drip, no dated approval inside 48h. No unlock/hack/delisting. Near-term NEUTRAL-to-slightly-bearish.",
+    "analyst": "Impulse leg done, LTF oversold (15m RSI 26.3, stoch 28), price coiling in 75.95-76.29 box on 4x-tested support at drying volume. Shorting the shelf risks the bounce; fading the strong trend with no divergence is low-expectancy. Best expectancy is to wait: with-trend short on a 75.55 break, or long only on a 76.6-76.9 reclaim. HOLD, short-biased.",
+    "portfolio": "SOL/USDT:USDT - HOLD, zero size; armed short reconsider on break below 75.55."
+  },
+  "timestamp": "2026-07-16T10:03:34.324031+00:00"
+}

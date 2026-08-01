@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "NVDA/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Last 15m bar tagged resistance 206.83 and closed 0.64 below it on stretched momentum (RSI 84, stoch 95, +2.96% vs VWAP); expect a stall/pullback toward 204.6-205.1 (retest of the breakout shelf) over the next 2-4 bars before the trend can resume. Only a decisive 15m close above 206.83 opens the measured move toward ~208.5.",
+  "expectancy_note": "p(win) on a fresh long here ~0.4: entry 206.19 sits 0.64 under hard resistance with RSI 84 and crowded longs (L/S 1.87, positive funding) \u2014 squeeze-prone, R:R < 1 to the level. Waiting for either a reclaim or a pullback beats chasing.",
+  "rationale": "NVDA is the strongest tape but the 15m just went vertical into 206.83 and got wicked back, with RSI 83.8 / stoch 95.4 / +2.96% VWAP \u2014 textbook extended-into-resistance where the account's #1 loss pattern (chasing) lives. Structure_bias -0.352 (longs paying funding, L/S 1.87) makes it squeeze-prone against a fresh long. No 48h event risk (earnings Aug 26), so no urgency; I hold and let price either reclaim 206.83 for a real breakout entry or pull back to the 205 shelf for a clean low-risk long. Size zero until one of those confirms.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 206.83,
+    "expires_min": 240,
+    "note": "A decisive 15m close above 206.83 proves the breakout absorbed the resistance and crowded-long squeeze risk, opening the measured move toward ~208.5 \u2014 that flips me to a trend long."
+  },
+  "transcript": {
+    "macro": "Regime RISK-ON but late-stage/stretched (Nasdaq +1.3% Fri, AI/megacap led, memory-chip melt-up, complex overbought). Trade as EQUITIES not crypto. KEY EVENT RISK: June CPI Tue July 14 inside hold window; carry smaller over weekend. Scan ~1h before US cash open \u2192 thin/gappy pre-open air-pockets. NVDA: strongest setup; fresh 15m breakout above 205.14 on 2.65x volume, new highs into resistance 206.83, RSI 68-84; BUT structure_bias -0.352 (funding +0.00021 longs paying, L/S 1.87 crowded long) \u2192 squeeze-prone; earnings Aug 26, no event risk. Chase into overbought breakout \u2014 size modestly, respect 206.8.",
+    "sentiment": "NVDA (Nvidia): mixed. Worst performer in own chip group 2026 (~-18% off June high) despite record revenue, Blackwell sold out through mid-2026, fwd P/E ~21.7x ('compelling' per Goldman). Fresh catalysts: Saudi HUMAIN GPU deal (18,000 GB300, path to ~600k chips) re-lit 'AI trade back on'; offsetting overhang DeepSeek building own chip (low weight). No earnings inside 48h; mega-cap capex commentary late July is real driver (outside window). 48h read: MODESTLY POSITIVE bias, choppy high-beta.",
+    "analyst": "NVDA is the best-looking name and macro/sentiment is modestly bullish, but the 15m just printed a two-bar vertical melt-up straight into 206.83 resistance and the final bar was rejected, closing 0.64 below its high. Every momentum gauge is pinned at exhaustion (15m RSI 83.8, 30m 80.2, 5m 81.8, stoch 95.4, %B 0.84, +2.96% above VWAP). A market long at 206.19 buys the top tick under resistance with R:R under 1 to the first obstacle, and the structure block (positive funding, L/S 1.87, structure_bias -0.352) flags a crowded-long book that is squeeze-prone when a counter-bounce comes \u2014 the exact late-chase pattern that has bled this account. No catalyst inside 48h (earnings Aug 26). HOLD and arm the reclaim of 206.83; otherwise re-engage on a pullback to the 205 shelf.",
+    "portfolio": "HOLD NVDA (conf 0.60) \u2014 don't chase into 206.83; arm trend-long on a decisive 15m close above 206.83."
+  },
+  "timestamp": "2026-07-10T14:01:20.873551+00:00"
+}

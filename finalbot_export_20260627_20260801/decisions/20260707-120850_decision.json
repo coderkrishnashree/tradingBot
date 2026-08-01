@@ -1,0 +1,28 @@
+{
+  "symbol": "NVDA/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.6,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "none",
+  "forecast": "Price coils 190.2-192.5 for the next 2-4 bars right above support 190.16; a clean loss of 190.16 opens a slide to ~187, while holding it sets up an oversold bounce back toward 194.3. No edge until one side resolves.",
+  "expectancy_note": "p(win) on a fresh short here ~0.45 with only ~1R to support then air = negative EV into RSI 16; long fights a live DeepSeek catalyst and all-TF downtrend. HOLD until a level breaks beats both.",
+  "rationale": "NVDA is deeply oversold (RSI 15m 21/1h 16/4h 21, %B -0.09, stoch 11) yet in a strong ADX-49 downtrend with a fresh negative chip catalyst (DeepSeek in-house-chip report). The last four candles based tightly (191.25-192.0) directly on support 190.16 after the 1695-vol flush - shorting into that basing at the level is chasing with poor R:R (~1R to support then air), and longing a knife against the tape and catalyst is premature. Best expectancy is to wait: a break of 190.16 reopens the short, a reclaim of the 194.3 breakdown pivot confirms the bounce for a long.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 190.16,
+    "expires_min": 240,
+    "note": "Losing the 190.16 support after four basing candles proves the oversold bounce failed and re-arms the trend-continuation short toward 187."
+  },
+  "transcript": {
+    "macro": "2026-07-07: Tokenized equities, treat as equities. Tape constructive but stretched; Jul 7 futures softening (Nasdaq100 -0.9%). Rates a headwind (Fed hawkish, May CPI +4.2%). NVDA earnings late Aug. Crowded-long (L/S 1.95) funding flat = squeeze risk. NVDA is the OUTLIER/divergent short: RSI 21, intraday flush to 191, structure_bias -0.40, lagging BTC (-5.1% RS), momentum DOWN.",
+    "sentiment": "MIXED-to-risk-off; AI-chip rotation down. NVDA bearish near-term, the live mover: DeepSeek in-house-chip report is today's fresh negative shock pressuring chips; broke down (last ~$191.8, lost $200 Jun 23, RSI ~21 oversold, 4h/1h down). No company catalyst until Aug 26; July trades on external forces, currently negative. Deeply oversold RSI raises bounce risk on any tape stabilization.",
+    "analyst": "NVDA is the divergent short but is mid-air between a strong downtrend/fresh DeepSeek catalyst and RSI 16-21 exhaustion, with the last 4 candles basing tightly on support 190.16. Shorting here chases into the level with ~1R of room; longing fights the tape and catalyst. HOLD with a break of 190.16 re-arming the short and a reclaim of 194.3 setting up the oversold bounce long.",
+    "portfolio": "NVDA: HOLD (0.60) - mid-air on support 190.16; short re-arms on a break below, oversold-bounce long on reclaim of 194.3."
+  },
+  "timestamp": "2026-07-07T12:08:50.135424+00:00"
+}

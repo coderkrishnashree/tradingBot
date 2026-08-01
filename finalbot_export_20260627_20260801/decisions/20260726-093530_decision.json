@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "XAG/USDT:USDT",
+  "size": 0.0,
+  "entry": 58.73,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Slow grind between 58.4 support and 59.0-59.5 continues into the FOMC wall; expect chop 58.3-59.2 over next 4-12 bars with no clean directional resolution before Wed 7/29 2pm ET.",
+  "expectancy_note": "No edge: 4h uptrend (ADX 92) blocks a fade while RSI 73 + crowded 4.05 L/S + negative orderbook (-0.21) into resistance blocks a fresh long; event risk caps any R:R. p(win) either side ~0.5, so HOLD is highest expectancy.",
+  "rationale": "XAG is creeping into the 60-61 resistance zone on drying volume with lower TFs (15m/30m/1h/5m) all flat while only 4h reads long \u2014 momentum has stalled. Structure is contrarian-bearish (long_short 4.05, orderbook -0.21) yet the strong high-ADX uptrend and lack of bearish divergence make a short low-probability; a fresh long here is a crowded chase into resistance +0.8% above VWAP with RSI 73. With FOMC 7/29 as the dominant <=48h driver and macro guidance to take no new risk into the Fed, there is no honest R:R>=1.5 setup \u2014 HOLD, size 0.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 58.0,
+    "expires_min": 240,
+    "note": "Losing the 58.0 higher-low support flushes the crowded longs and opens a fade toward the 57.0/55.6 support with structure (long_short 4.05, orderbook -0.21) confirming \u2014 the trigger that would flip this to a short."
+  },
+  "transcript": {
+    "macro": "REGIME: RISK-OFF/mixed-hostile with a hard event wall. FOMC Jul 28-29 (statement 7/29 2pm ET), Fed 3.5-3.75%, core CPI hot 2.6%, market priced OUT 2026 cuts. Smaller size, no new risk into Fed. XAG: precious-metals constructive on safe-haven flows (silver ~$58-59 pushing $60, gold >$4000) BUT fighting DXY at 13-month high and 10yr ~4.5% \u2014 two-sided. Scan: crowded long_short 4.05 + orderbook -0.21 => structure contrarian-bearish despite uptrend.",
+    "sentiment": "XAG MILDLY BULLISH tone but MACRO-GATED. No silver-specific binary. Dominant <=48h driver is FOMC 7/29 2pm ET; hawkish hold/tone is USD-positive, headwind for silver. Silver ~$58, collapsed from Jan record ~$121; still one of 2026's stronger commodities on AI/solar demand (>55% usage). Dovish FOMC surprise is upside trigger; absent that rallies stall at 200-DMA (~$68). Lean: two-sided into 7/29; do NOT carry directional conviction through the Fed.",
+    "analyst": "Grind into 60-61 resistance on drying volume; only 4h long, lower TFs flat. Contrarian-bearish structure (L/S 4.05, orderbook -0.21) but high-ADX uptrend + no bearish divergence make a short low-prob; fresh long is a crowded chase into resistance at RSI 73. No honest R:R>=1.5 into FOMC. HOLD; flip to short on loss of 58.0.",
+    "portfolio": "HOLD XAG (conf 0.60) \u2014 crowded-long grind into resistance, no edge either way ahead of FOMC."
+  },
+  "timestamp": "2026-07-26T09:35:30.955808+00:00"
+}

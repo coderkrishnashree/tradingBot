@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "SNDK/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Price pinned to lower band at 1576 after a 36-pt capitulation bar; over 2-6 bars expect a dead-cat bounce/short-cover toward the broken 1610-1620 shelf before the downtrend resumes. The edge is to sell the retest, not the low.",
+  "expectancy_note": "Fresh short at RSI-18, -7% below VWAP, thin US-closed tape = low p(win), high snapback risk; honest stop above 1620 vs target 1491 is decent R:R only from a bounce. Trend-shorts avg -3.05 in this book.",
+  "rationale": "Downtrend is real (weakest RS in the semi complex, ADX 61, trapped longs) but price is deeply oversold, pinned to the lower Bollinger band, 7% under VWAP after a big volume flush \u2014 a classic squeeze spot, especially overnight with US closed and gap risk. Chasing a short here has poor expectancy; the high-quality entry is a mean-reversion bounce into the 1610-1620 broken shelf with a tight stop above, target 1491. Holding flat until that arms or the low breaks with force.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 1612,
+    "expires_min": 240,
+    "note": "A bounce to the broken 1610-1620 support-turned-resistance / VWAP reversion is the high-expectancy short entry to resume the downtrend toward 1491."
+  },
+  "transcript": {
+    "macro": "Risk-OFF for tech/semis; tokenized equities (crypto funding=noise). US closed weak on a semiconductor rout (DeepSeek own chip; Samsung disappointing beat). Semi/memory names (SNDK, MU, TSM) = where the trend is REAL: SanDisk -4.6% on the day, RSI ~18 deeply oversold, orderbook negative (sellers in control), long/short lopsided LONG = trapped-long fuel but SQUEEZE risk on a bounce. US CLOSED = thin/gappy, gap risk at open.",
+    "sentiment": "SNDK same NAND/memory complex, HIGHEST-BETA name (up ~858% H1) so most exposed to the unwind. No company-specific catalyst; recent bullish long-horizon PT hikes (ignore). Trades with MU (0.82 corr). Near-term BEARISH via sector contagion; volatile.",
+    "analyst": "SNDK last 1576.38. Ran to 1654 then rolled over with lower highs into a big red 1610->1574 dump (huge volume), bounced to 1590, fading again to 1576 near lows. RSI 18.3, ADX 61.5 violent trend, ATR% 4.91 extreme vol, VWAP -7.17%, %B 0.035 pinned to lower band. Support 1491 (5.4% down), rel strength -20.96% weakest horse. Shorting here = chasing RSI-18 into first bounce attempt with squeeze fuel on thin overnight tape. Honest stop above 1620 vs 1491 target is good R:R only from a bounce. HOLD, arm short on retest of 1612.",
+    "portfolio": "HOLD SNDK \u2014 trend down but too oversold to chase; short the bounce into 1610-1620, not the low."
+  },
+  "timestamp": "2026-07-08T00:01:10.134584+00:00"
+}

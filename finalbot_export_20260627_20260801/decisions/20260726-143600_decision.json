@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "HOOD/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.62,
+  "playbook": "none",
+  "forecast": "Illiquid weekend drift: price chops 95.7-96.5 on near-zero volume into Monday; no clean directional move until real US-session flow returns. Oversold 4h (RSI 22) can bounce toward VWAP ~99.8 but only on real volume, not these ghost bars.",
+  "expectancy_note": "No honest R:R: a bounce scalp on zero-volume 15m bars gets gapped through any 1xATR ($1.21) stop; crowded L/S 2.46 caps upside; Wed earnings (12.6% implied) is uncapped tail risk. p(win) too low to size.",
+  "rationale": "HOOD's 15m tape is weekend ghost-liquidity - multiple literally-zero-volume bars and unreliable fills with US cash markets closed, the worst tape of the group. Deeply oversold 4h (RSI 22) argues for a bounce, but L/S 2.459 shows the crowd is already heavily long into it (contrarian bearish), RS is -19.6% (major laggard), and Wednesday earnings carry a ~12.6% implied move I refuse to be exposed to. No structural entry offers a real 1.5R here without the stop being gapped, so the highest-expectancy action is to stand aside and wait for real-volume confirmation.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 98.0,
+    "expires_min": 240,
+    "note": "A real-volume reclaim above 98 (toward VWAP ~99.8) would confirm the oversold bounce has genuine liquidity behind it and flip this to a long scalp with a defined stop under 95.7."
+  },
+  "transcript": {
+    "macro": "2026-07-26 Sunday. Regime NEUTRAL tilting risk-OFF. US cash markets CLOSED -> thin/gappy weekend tokenized-equity tape; HOOD has MULTIPLE literally-zero-volume weekend bars (lowest-quality tape of the group). HOOD RSI 22 on 4h (washed out), RS -19.6% vs BTC (major laggard), L/S 2.46 (VERY crowded long, contrarian bearish). Reports Wed 7/29. Oversold bounce possible but crowded + event-exposed + terrible liquidity.",
+    "sentiment": "HOOD Q2 reports Wed 7/29 AMC (~$0.43 EPS, ~$1.28B rev); options price ~12.6% post-earnings move, targets ~$125. Deeply oversold on 4h (RSI ~22), down hard on relative strength - fear/washout setup, not a fresh shock. No 48h catalyst; any position MUST be flat before Wed close given 12%+ implied move. NEUTRAL-to-bullish for a bounce scalp, MAX event-risk Wednesday.",
+    "analyst": "15m tape is weekend ghost-liquidity (multiple zero-volume bars, unreliable fills), worst of the group. Oversold 4h (RSI 22) argues bounce but L/S 2.459 crowd already heavily long (contrarian bearish), RS -19.6%, Wed earnings ~12.6% implied move. No 1.5R without the stop being gapped. HOLD; long scalp trigger armed above 98 on real volume.",
+    "portfolio": "HOLD HOOD - ghost-liquidity weekend tape, crowded long, Wed earnings tail risk; wait for real-volume reclaim above 98."
+  },
+  "timestamp": "2026-07-26T14:36:00.088855+00:00"
+}

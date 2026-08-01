@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "CRCL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.55,
+  "playbook": "none",
+  "forecast": "Price coils 66.0-66.47 on drying volume just under the local ceiling; next few 15m bars likely chop sideways. A volume-backed break >66.50 opens a run at 68-70 (OCC momentum resuming); loss of 65.15 flushes back toward 63.5 support.",
+  "expectancy_note": "No edge at spot: p(win)~0.5 coin-flip. Trend-long playbook is the account's worst (44% win, -2.89 avg) and this is a post-gap coil, not a clean VWAP pullback trigger; weekend/thin-liquidity + crowded L/S 2.91 add negative skew. Waiting for the break is higher-expectancy than chasing.",
+  "rationale": "CRCL popped +12-14% on fresh OCC-charter news and is now coiling at VWAP (-0.64%) under a 66.47 ceiling on fading volume \u2014 the catalyst is bullish but the impulse already fired, so a market long here is a chase into thin weekend liquidity on a wounded name (rel_str -18.5%) with crowded longs (L/S 2.91) that carry squeeze risk. The account is losing on exactly this trend-continuation setup (44% win, -2.89R). No exhaustion or level to fade for a short either. Highest-expectancy action is to wait: a confirmed break/hold above 66.50 proves buyers absorbed post-pop supply and flips me long; until then, flat.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 66.5,
+    "expires_min": 240,
+    "note": "Reclaiming/holding above the 66.47 coil ceiling confirms OCC-momentum continuation and buyers absorbing supply \u2014 flips me to a small long toward 68-70."
+  },
+  "transcript": {
+    "macro": "Mild RISK-ON but Friday Jul 10 2026 after US cash close \u2014 CRCL is a tokenized equity perp, NYSE closed until Monday: thin liquidity, gap risk, any new position = weekend hold, trim size. S&P +0.42% record, Nasdaq +0.29%, NVDA/META led AI optimism; BTC $64.1k +2%. CRCL last ~66.38, scan leans long (composite +43.8%, ADX 57.8) but crowded long L/S 2.91 (contrarian-bearish, structure_bias -0.31), funding flat, btc_corr 0.53. Down on Jul 1 Open-USD rival shock (-17%), rel_strength vs BTC -18.5%. Goldman PT cut to $96, US Tiger upgraded to Buy Jul 7 (mixed). Verdict: bounce-long is counter-trend scalp against a wounded name with crowded longs; MIXED-to-HOSTILE for longs; weekend hold. Resistance 73.72, support 61.78.",
+    "sentiment": "CRCL = FRESH BULLISH shock TODAY: final OCC approval Jul 10 to operate First National Digital Currency Bank / Circle National Trust (custody USDC reserves directly). Stock spiked +12-14% intraday; perp likely still digesting. Countervailing: ~Jun 30 Open USD rival consortium (Stripe/Coinbase/Visa/MC/BlackRock) -> CRCL -15-17%; Jefferies said don't buy dip, Compass Point PT $55/Neutral. Coinbase-Circle USDC revenue-share expires Aug 18 (future binary). Earnings ~Aug 11. Net: freshest catalyst (OCC charter) bullish and live -> favors longs into momentum, but sharp gap already happened (chase risk). L/S 2.9 crowded = squeeze risk both ways.",
+    "analyst": "15m tape: dip to 65.15, strong volume-backed recovery bar, then a low-volume coil between 66.06-66.47 closing 66.38 on tiny volume \u2014 consolidation after a pop, not fresh momentum. RSI 59.1 (not extended), stoch 38.5, price basically at VWAP (-0.64%), 30m flat. Learner: trend playbook 44% win / -2.89 avg (worst); account bleeding on trend-continuation longs. OCC catalyst is bullish but the +12-14% gap already fired -> chase risk high into thin weekend liquidity on a wounded name with crowded longs. No exhaustion level to fade for a short either. Coin-flip at VWAP -> HOLD; reconsider on volume-backed break/hold above 66.50 (flips long toward 68-70), invalidation on loss of 65.15.",
+    "portfolio": "CRCL \u2014 HOLD @ 0.55: post-catalyst coil at VWAP, no edge; arm long trigger on break >66.50."
+  },
+  "timestamp": "2026-07-10T22:59:59.250395+00:00"
+}

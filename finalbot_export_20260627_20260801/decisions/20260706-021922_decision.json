@@ -1,0 +1,23 @@
+{
+  "symbol": "QQQ/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.34,
+  "size": 0.0,
+  "entry": 718.77,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "rationale": "QQQ is flagged squeeze/regime_blocked on the thinnest, gappiest post-holiday reopen of the four proxies, pinned to support 718.38 with deeply oversold intraday RSI (15m 21.9). Shorting oversold-on-support needs a structural stop ~8x the tiny 0.1% ATR away (above 724.46 resistance), so R:R is unworkable and a bounce is as likely as continuation. No high-expectancy entry exists until the 718.38 support resolves; Jul 8 FOMC minutes is an added ~48h binary. HOLD is the best-expectancy call.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 718.0,
+    "expires_min": 240,
+    "note": "A decisive loss of 718.38 support confirms the breakdown, opening a clean trend-short with a stop back above the level rather than fading into it."
+  },
+  "transcript": {
+    "macro": "MIXED / mildly risk-off in tech. Jul 6 first session back from holiday -> QQQ is the thinnest, most gap-prone of the four. QQQ: SHORT lean but regime-blocked & thin. Raw short (-0.21), scan flags squeeze/regime_blocked (don't trust cleanly). RSI 22-29 (oversold), heavy offered orderbook (-0.62), L/S 1.13. Consistent with soft-Nasdaq/crowded-long-getting-hit theme. Bearish tilt matches tape; execute small.",
+    "sentiment": "QQQ NEUTRAL-to-bearish, macro-driven. Nasdaq slid Jul 1-2 (semis extending declines, Tesla sinking). Near-term calendar: Jul 6 ISM Services PMI; Jul 8 FOMC minutes - a real <=48h event for rate-sensitive megacap tech. Macro headwind: June jobs weak but May CPI hot 4.2% y/y, June dot-plot flipped hawkish (median implies a hike). QQQ vulnerable if minutes read hawkish.",
+    "analyst": "Post-holiday reopen on a broad-index proxy - thinnest, gappiest name. Regime-blocked (squeeze), pinned on support 718.38 with RSI deeply oversold across intraday TFs. Raw short exists but shorting into support at RSI 22 with 0.1% ATR needs a structural stop ~8x ATR away = unworkable R:R; oversold-into-support fade is a coin-flip. Wait for the 718.38 break; Jul 8 FOMC minutes is the added binary.",
+    "portfolio": "QQQ: HOLD (0.34) - regime-blocked squeeze on support in a thin reopen; no workable R:R until 718.38 resolves."
+  },
+  "timestamp": "2026-07-06T02:19:22.311638+00:00"
+}

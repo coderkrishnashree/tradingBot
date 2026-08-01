@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "MSTR/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Choppy consolidation 95.4-96.0 near-term; without a fresh BTC push, price drifts to retest 95.13/94.9 as the 5m rollover plays out; a reclaim of 96.65 would instead reopen 97.5-98 toward resistance.",
+  "expectancy_note": "No edge: composite 0.44 and NOT aligned, 5m rolling over short while price sits +1.82% above VWAP (extended for a long), and it's just lagging BTC-beta (corr 0.743, rel-strength -3.2%). No level+confirmation gives R:R>=1.5 right now.",
+  "rationale": "MSTR is genuinely two-way: firm-but-extended BTC into resistance vs soft Nasdaq and a material NEGATIVE micro-narrative (Strategy halted BTC buying, sold ~3,588 BTC, raising USD reserve) that argues against fresh longs. Price faded from the 96.65 volume-spike high into a 95.6-95.9 stall with 5m rolling over, so a long here would be chasing an extended, unaligned tape and a short lacks a confirmed break. Flat is the highest-expectancy choice until price picks a side.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 95.13,
+    "expires_min": 240,
+    "note": "Losing the consolidation floor confirms the 5m rollover and opens the VWAP/support path toward 94.9 for a short entry on the bearish sentiment tilt."
+  },
+  "transcript": {
+    "macro": "MIXED. MSTR is a BTC proxy (corr 0.743), not an independent equity story. L/S 1.358, funding benign, bullish divergence flagged but 5m rolling over; rel-strength -3.2% vs BTC (lagging its driver). Lives/dies by BTC holding $65k AND US equity tone - caught between soft Nasdaq and firm BTC, genuinely two-way. BTC itself supportive-but-extended into resistance; FOMC 7/28-29 hawkish-tail overhang.",
+    "sentiment": "MSTR material NEGATIVE shift - in July Strategy HALTED bitcoin buying, SOLD ~3,588 BTC (~$216M) and raised ~$467M via share sales to build a $3B USD reserve, a break from the accumulation playbook; MSTR slipped on the news. No dated binary, but selling headlines argue against fresh longs.",
+    "analyst": "Composite barely positive (0.44) and NOT aligned; RSI 58, ADX 30.4, +1.82% above VWAP (extended for a long), 5m short/rolling over. Candles faded from a 96.65 volume-spike high into a 95.6-95.9 stall. Just lagging BTC-beta (corr 0.743, rel-strength -3.2%) - the echo not the horse. No clean pullback, no range extreme, no breakout trigger. HOLD; losing 95.13 floor opens a short toward 94.9.",
+    "portfolio": "HOLD MSTR - two-way BTC-beta with a bearish micro-narrative and no aligned setup; flat until price picks a side (conf 0.5)."
+  },
+  "timestamp": "2026-07-20T03:17:07.641598+00:00"
+}

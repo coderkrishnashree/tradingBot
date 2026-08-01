@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "XAUT/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.35,
+  "playbook": "none",
+  "forecast": "Coil between 4076 and 4097 for the next several 15m bars; no clean directional move until price reclaims 4097-4100 (buyers back) or loses 4076 (flush toward 4050/3984). Tiny ATR (0.18%) keeps ranges compressed into FOMC.",
+  "expectancy_note": "No setup with R:R>=1.5 and honest stop: 4h parabolic (RSI 82.6/ADX 92.2) makes continuation a chase; mid-range price with no divergence/rejection makes a fade premature. p(win) ~coin-flip; best expectancy is flat into FOMC.",
+  "rationale": "XAUT is a macro/safe-haven asset (crypto structure metrics N/A); trend intact but the 4h is massively extended (RSI 82.6, ADX 92.2) after a ~20% correction, so a market long chases a parabola with a crowded long book (L/S 2.58) right into FOMC and Q2 GDP/PCE. The 15m tape is mid-range chop (4084 between support 3984 and resistance 4155) with tiny ATR and a slightly negative orderbook, offering no edge and no honest 1.5R stop. Weekend geopolitical de-escalation cuts both ways.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 4076,
+    "expires_min": 240,
+    "note": "Losing 4076 breaks the 15m higher-low structure and the crowded long book starts flushing toward 4050/3984 \u2014 opens a short."
+  },
+  "transcript": {
+    "macro": "Regime MIXED-to-HOSTILE for fresh risk. FOMC Jul 28-29 (Wed 2pm ET) binary event; US-Iran conflict PAUSED over weekend \u2192 mild safe-haven HEADWIND near-term. Cross-cutting: crowded-long book, positive/extreme funding, RSI 70s-80s, flush risk into the Fed. XAUT: funding trivial (spot-like), L/S 2.58 (crowded long), 4h RSI 82.6 / ADX 92.2 (parabolic). Gold corrected ~20% off the Jan ~5,000 high to ~4,050; DXY/real-yield driven. Trend intact but extended \u2014 chase risk high. Verdict: smaller size.",
+    "sentiment": "FOMC Wed + Q2 GDP/PCE this week are the movers. XAUT/XAG: safe-haven bid from US-Iran/Hormuz tension, capped by pre-FOMC caution and the weekend de-escalation. Gold ~$4,050-4,080 (below $4,080-4,140 resistance). RSI/ADX extremely stretched. Two-sided: geopolitics supports, FOMC/PCE is the risk.",
+    "analyst": "XAUT is safe-haven macro, not crypto-structure driven. Trend up but 4h parabolic (RSI 82.6/ADX 92.2) after a 20% correction \u2014 chasing longs into a crowded book (L/S 2.58) ahead of FOMC/PCE is a losing pattern. 15m is compressed chop (4076-4097, ATR 0.18%) with no divergence for a fade. No 1.5R setup; flat is the trade. Flip short on a clean loss of 4076; flip long only on reclaim of 4097-4100.",
+    "portfolio": "HOLD flat \u2014 parabolic 4h and crowded long into FOMC/PCE; short on a loss of 4076."
+  },
+  "timestamp": "2026-07-27T06:41:31.355291+00:00"
+}

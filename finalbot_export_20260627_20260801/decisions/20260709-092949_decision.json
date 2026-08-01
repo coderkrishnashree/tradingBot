@@ -1,0 +1,22 @@
+{
+  "action": "buy",
+  "symbol": "HOOD/USDT:USDT",
+  "size": 2.5,
+  "entry": 113.6,
+  "stop_loss": 112.5,
+  "take_profit": 118.2,
+  "take_profit_1": 115.8,
+  "take_profit_2": 118.2,
+  "confidence": 0.6,
+  "playbook": "trend",
+  "forecast": "Shallow pullback from 114.4 into the 113.6-113.8 launch shelf / VWAP over the next 2-5 bars (5m RSI 28.7 already oversold), then trend resumes toward 115.8 and on toward 118+ as the strongest relative-strength name catches the US open bid.",
+  "expectancy_note": "p(win)~0.58, reward to TP1 2.2 vs risk 1.1 = ~2.0R; limit-on-dip beats a market chase at the highs given ADX 51 uptrend + best RS but pre-open thinness.",
+  "rationale": "HOOD is the cleanest long: 4h +0.895, ADX 51 strong uptrend, +7.05% RS (only BTC outperformer), funding flat and only mildly crowded. Price is mid-band (%B 0.54) not extended (+0.63% VWAP), so I fade the shallow 5m-oversold dip via a LIMIT at the 113.6 shelf rather than chase 114.4 into a thin pre-open book. Stop 112.5 sits below the 112.82 launch base (~1.0% / ~0.45xATR of the 4h but honest for the 15m structure); size trimmed to 2.5% for pre-open gap risk and 0.64 BTC / 0.81 COIN beta that can drag it on any crypto wobble.",
+  "transcript": {
+    "macro": "Regime risk-ON but late-stage/stretched; record equity highs, VIX ~16.9, oil/Iran risk-off tail. Scan ~09:24 UTC PRE US cash open (13:30 UTC) -> thin/gappy, expect opening gap. HOOD: cleanest long tactically. Strongest rel-strength +7.05% vs BTC (only outperformer), ADX 51 (strong trend), 4h +0.895. Least crowded (funding flat, L/S 1.32, structure_bias -0.12). Earnings July 29 (not a blocker now). Highest BTC corr 0.64 - most risk-beta; size for a stretched-tape pullback. Rank for longs: HOOD > ORCL > TSM.",
+    "sentiment": "HOOD BULLISH momentum. Shares ~$111-114 after 8%+ rally, mkt cap >$100B, driven by July 1 'Robinhood Chain' L2 launch (tokenized-stock trading 120+ countries, 7%-yield Earn) plus EU perps, imminent UK crypto, Canada entry, Singapore license - genuine unfolding catalyst flow. Risk: Q2 earnings Wed July 29 (after close), 3 weeks out. High beta, 0.81 corr COIN / 0.64 BTC - trades off crypto sentiment; gains partly crypto-beta, can reverse fast if BTC rolls over.",
+    "analyst": "Price 114.42, 4h +0.895, ADX 51 very strong uptrend, RSI 48 (room), rel-strength +7.05% (only outperformer). Mid-band (%B 0.54), not extended (+0.63% VWAP). 5m oversold (RSI 28.7) - shallow pullback within uptrend on drying volume. Pre-open thin, so LIMIT long on the dip to the 113.6-113.8 shelf/VWAP, stop 112.5 below the 112.82 base, TP1 115.8, TP2 118.2 (~2.0R). Size 2.5% for pre-open gap + crypto-beta risk.",
+    "portfolio": "HOOD: BUY (conf 0.60) - cleanest long, limit 113.6 dip-entry, stop 112.5, TP1 115.8 / TP2 118.2, size 2.5%."
+  },
+  "timestamp": "2026-07-09T09:29:49.172081+00:00"
+}

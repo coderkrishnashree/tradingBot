@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "CL/USDT:USDT",
+  "size": 0.0,
+  "entry": 73.25,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Pullback continues toward 72.7-73.0 (VWAP/SMA20) as 5m oversold (RSI 30) unwinds the +0.82% VWAP extension; 1h/4h uptrend stays intact unless 72.7 breaks. Best long entry is on that dip, not up here.",
+  "expectancy_note": "No clean edge: long chases an extended MAXED-crowded-long (L/S 3.998) move under resistance 76.13 with positive funding; short fights ADX 49.8 uptrend into a 5m-oversold bounce and headline gap-up risk. p(win) either side <0.5.",
+  "rationale": "1h/4h strongly long (ADX 49.8) on Hormuz premium, but price +0.82% above VWAP with %B 0.717, stoch 70.6, structure_bias -0.336 (L/S MAXED 3.998, longs paying funding) - do-not-chase. The 15m/5m tape rolled over 74.25->73.25 with 5m RSI 30, so a long buys the fade and a short sells an oversold bounce. Wait for the pullback near VWAP 72.7-73.0 or a real 74.25 reclaim; size 0.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 74.25,
+    "expires_min": 240,
+    "note": "Reclaiming 74.25 proves buyers absorbed the pullback and the uptrend resumes - flips to a trend-continuation long toward 76.13."
+  },
+  "transcript": {
+    "macro": "Risk-ON but stretched/late-stage; S&P ~7575 near ATH, Mag-7 led. Key macro risk: hawkish Warsh Fed (9/18 pencil a hike), 10Y toward 5%, FOMC Jul 28-29. ~03:26 UTC Sunday: US CASH EQUITIES CLOSED -> tokenized equity perps (MU/TSM/EWY/AAPL/TSLA/CRCL) thin/gappy, low conviction until cash open. Crypto RISK-OFF & diverging: BTC ~$64K, dominance >50% rising, capital rotating out of alts; SOL crowded long. TSM Q2 earnings Jul 16 is the biggest event, drives MU/EWY read-through. Crude (CL) independent on Hormuz supply premium but very crowded long. Biggest recurring trap: crowded longs (SOL 2.5x, CRCL 2.76x, CL 4.0x L/S) into a stretched melt-up.",
+    "sentiment": "Cautiously risk-off/event-gated. Dominant near-term driver = TSM Q2 earnings binary Thu Jul 16 (drags MU/EWY/QQQ). MU: blowout Q3 Jun 24, news stale, next earnings ~Sep 22. SOL ~$77, best week of 2026 but crypto ETF ~$4.4B outflows/13 sessions, momentum fragile. EWY +112% YTD parabolic, geared to TSM print. CL=crude/WTI (not Colgate), whippy on US-Iran/Hormuz vs OPEC+ output hike. AAPL quiet into Jul 30 earnings (outside 48h). TSLA Q2 Jul 22 approaching, record deliveries digested, choppy. CRCL ~$67 down from mid-$80s: bank charter bullish vs Stripe 'Open USD' threat (PT cut to $55); most volatile name, headline-sensitive. Only CL and the TSM-complex have true <=48h catalysts.",
+    "analyst": "1h/4h strongly long (ADX 49.8) on Hormuz premium, but price +0.82% above VWAP with %B 0.717, stoch 70.6, structure_bias -0.336 (L/S MAXED 3.998, longs paying funding) - do-not-chase. The 15m/5m tape rolled over 74.25->73.25 with 5m RSI 30, so a long buys the fade and a short sells an oversold bounce. Wait for the pullback near VWAP 72.7-73.0 or a real 74.25 reclaim; size 0.",
+    "portfolio": "HOLD CL - crowded-long (L/S 4.0) extended under resistance, mid-tape fading; wait for 72.7-73.0 dip or 74.25 reclaim."
+  },
+  "timestamp": "2026-07-12T03:32:11.074168+00:00"
+}

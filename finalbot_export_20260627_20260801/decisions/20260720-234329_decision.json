@@ -1,0 +1,25 @@
+{
+  "action": "hold",
+  "symbol": "BTC/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Coil under 65,769 resolves within 1-2 days; near term price chops 65,000-65,400 after the rejected push to 65,423, with a slight downward drift toward 64,800.",
+  "rationale": "BTC is pinned just under range resistance (65,769) at the upper Bollinger band (bb%b 0.865), stoch 72.8, vwap +0.92% in a structurally bearish, Fear=29, below-EMA200 tape. The 15m candles show a rejected push to 65,423 then a fade to 65,056 and a weak low-volume stall near 65,200 - a failed resistance test, not a breakout, and not stretched enough to short mid-air. Neither direction offers 1.5R; wait for the coil to pick a side at a real level.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 64750,
+    "expires_min": 360,
+    "note": "Losing 64,750 confirms the rejection is turning into a range-low push toward 61,777 - arms a trend-short."
+  },
+  "transcript": {
+    "macro": "Crypto STRUCTURALLY SOFT: BTC ~$65,200, dominance ~56-60%, Fear 29, price BELOW EMA200 (~74,400). Funding flat, L/S 1.35, orderbook -0.066, structure_bias -0.137. Chop-to-soft tape; composite tags long/trend p_win ~0.60. Broad regime MIXED, risk-off tilt (US/Iran).",
+    "sentiment": "BTC cautious/fearful, range-bound $61.8k support / $65.8k resistance. MSTR accumulation = demand floor. No fresh shock, no <=48h binary. Tight coil before a decisive move - two-sided breakout risk.",
+    "analyst": "Pinned under range resistance in a bearish below-EMA200 fearful tape; rejected push then low-volume stall. Long buys near a resistance wall (<1.5R), short is mid-air with no level. HOLD until the coil resolves at 65,769 or 61,777.",
+    "portfolio": "BTC -> HOLD (coiling under resistance in soft tape, no 1.5R either side)."
+  },
+  "timestamp": "2026-07-20T23:43:29.522422+00:00"
+}

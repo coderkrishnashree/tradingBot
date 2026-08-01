@@ -1,0 +1,17 @@
+{
+  "symbol": "BTC/USDT:USDT",
+  "action": "short",
+  "confidence": 0.58,
+  "size": 3.0,
+  "entry": 64450,
+  "stop_loss": 64920,
+  "take_profit": 63720,
+  "rationale": "Trend-continuation short into a failing bounce. 4h/15m/5m all short, RSI 37.7, price below VWAP (-0.66%), order-book imbalance -0.599 (real live sell pressure); macro hostile-to-longs (risk-off, ETF outflows, F&G 27, bounces being sold). Candles rolled 64,540->64,256 low then a weak dead-cat bounce stalled at 64,410 closing near its low; expect a shallow retest toward VWAP/64,450 to be sold, grinding back to test 63,678 support/liquidation cluster. LIMIT 64,450 rather than chase into support, stop 470pts above VWAP structure (~1.1xATR), target 63,720 just above cluster for ~1.55 R:R. Size 3% because FOMC Wed is inside the wider window and support is close, capping runway.",
+  "transcript": {
+    "macro": "Regime MIXED-to-DEFENSIVE, hard FOMC gate Wed Jul 29 2pm ET inside 48h horizon (carry into Wed PM = de-facto FOMC bet; favor smaller size). Risk tone cautious, tech wobbling (Nasdaq -2.2% Thu chip selloff), Brent >$100, 10Y ~4.65% (higher-rates+oil pressures tech, supports metals). Crypto risk-off: BTC ~$64.3k, F&G 27, dominance 56.4%, spot ETFs bled $225M, long liqs clustered $63.4-63.7k; bounces sold. BTC scan: structure_bias -0.36, orderbook -0.599, 4h/15m short, RSI 37.7, below VWAP \u2014 favors short/fade into $63.7k support.",
+    "sentiment": "BTC flows constructive-but-fragile: ~7 straight ETF inflow days (~$1B, IBIT) through Jul 22 but $225M outflow Jul 24 = turning; 2026 flows still net negative (~-$5.2B). Regulatory tailwind (CLARITY Act clearance, SEC crypto rulemaking). No imminent unlock/hack. Off $66K Jul 21 high. Driver = FOMC risk-on/off; macro-gated.",
+    "analyst": "Short the failing dead-cat bounce; sellers control via orderbook -0.599; ~660pts to 63,678 support so limit at 64,450 for room, stop above VWAP, target 63,720. ~1.55 R:R, size capped for FOMC/proximity to support.",
+    "portfolio": "BTC: SHORT @64,450, conf 0.58, size 3% \u2014 trend-continuation into support, flat-by-Wed FOMC."
+  },
+  "timestamp": "2026-07-26T07:34:24.702619+00:00"
+}

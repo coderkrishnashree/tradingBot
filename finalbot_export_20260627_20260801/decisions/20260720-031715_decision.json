@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "EWY/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.4,
+  "playbook": "none",
+  "forecast": "Tape is grinding lower - lower highs (166.9>164.2>163.2) and last 15m bar closed on its low at 161.97, so 160-161.4 likely gets probed next; but stoch 18.7 + bullish divergence argue the downside is nearly spent, setting up a bounce back toward 164 rather than a clean trend.",
+  "expectancy_note": "No edge either way: shorting into stoch 18.7 / bullish-divergence / bullish inflow narrative is late-chase (account's #1 loser); a mean-revert long has no reversal confirmation yet (still making lower lows). p(win) on any entry <55%, so HOLD beats both.",
+  "rationale": "EWY composite is FLAT (conf 11.5%, score -0.096) with per-TF signals near zero and only a mild 4h-down tilt; price sits mid-range (support 154.4 far below, resistance 184.6 far above) with no level to trade against. The bullish inflow/KOSPI narrative conflicts with a down-grinding tape closing on its low, and stoch 18.7 makes a short a chase while divergence makes a long premature. FOMC 7/28 overhang and thin overnight book add no reason to force size - wait for the bounce to confirm.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 164.2,
+    "expires_min": 360,
+    "note": "Reclaiming 164.2 (the level the last 6 bars rejected at) confirms the bullish-divergence bounce and validates the record-inflow narrative - flips this to a long toward 166.5/168 with stop under 161.4."
+  },
+  "transcript": {
+    "macro": "MIXED-to-CAUTIOUS. EWY (Korea ETF) is a semiconductor/memory proxy (high corr to MU 0.786, QQQ 0.721) - inherits the chip-unwind headwind, but Korea/AI-memory has its own positive flow story. Scan composite for EWY is FLAT/weak (per-TF signals near zero/slightly negative). FOMC 7/28-29 overhang; thin overnight book.",
+    "sentiment": "EWY notable POSITIVE flow story - record inflows (>$1.1B in a day) as SK Hynix/Samsung AI-memory proxy; KOSPI rebounded ~15% off month lows; Goldman lifted 12-mo KOSPI target to 12,000. ~47% of fund is SK Hynix + Samsung. Tone bullish, supportive of longs, no adverse <=48h binary. But scan technicals are flat.",
+    "analyst": "Composite FLAT (conf 11.5%, blended -0.096), per-TF near zero with mild 4h-down tilt. Tape grinding down - lower highs 166.9>164.2>163.2, last bar closed on its low at 161.97 - but stoch 18.7 and bullish divergence say downside nearly spent. Bullish inflow narrative conflicts with the down tape; short is a late-chase, long is premature (still lower lows). Mid-range, no level to trade. HOLD; reclaim of 164.2 confirms the bounce and flips long.",
+    "portfolio": "HOLD EWY - flat composite, bullish narrative vs a down-grinding tape; wait for a 164.2 reclaim to confirm the bounce (conf 0.4)."
+  },
+  "timestamp": "2026-07-20T03:17:15.420906+00:00"
+}

@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "MSTR/USDT:USDT",
+  "size": 0.0,
+  "entry": 94.36,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.4,
+  "playbook": "none",
+  "forecast": "Price chops between ~93.3 and ~94.6 near VWAP over the next few bars; no decisive push until BTC or the Wed FOMC print resolves.",
+  "expectancy_note": "No edge: composite long is weak (39% conf, 0.25 score), price mid-range with 4h RSI 78 mildly extended long, rel strength -10% vs soft BTC. Fading mid-range or chasing a lagging weak long both sub-1.5 R:R; HOLD is best expectancy into double binary events.",
+  "rationale": "MSTR is a lagging levered-BTC proxy (rel strength -10%) with a soft underlying and DOUBLE binary risk this week (FOMC Wed, earnings Thu AMC). The mid-TFs are effectively flat (15m/30m ~0 score) and price sits mid-range between 89.85 support and 104.64 resistance, so there is no trend pullback to buy, no extreme to fade, and no breakout trigger. Risking into event week on a 39%-confidence signal is negative expectancy.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 96.0,
+    "expires_min": 240,
+    "note": "Reclaiming 96 would confirm buyers regaining control toward 104.64."
+  },
+  "transcript": {
+    "macro": "Regime: risk-on but into event wall, lean defensive. S&P near highs, Nasdaq -0.64% AI/chip selloff, 10Y ~4.69%. HARD CATALYSTS in 48-72h: FOMC Wed 7/29 2pm ET + mega-cap earnings MSFT+META Wed, AAPL+AMZN Thu. SUNDAY: US cash equity closed -> all stock proxies gap Monday, thin weekend liquidity, size down. BTC ~65.3k consolidating, only clean 24/7 book. Oil in bearish selloff (US-Iran de-escalation + surplus). Reduce size across board; crowded-long positioning pervasive (CRCL 3.52, SOL 2.76, XAUT 2.56, EWY, INTC, HOOD).\n\nMacro stance MSTR: marginal, small long as BTC proxy only",
+    "sentiment": "Dominant fact: binary catalyst wall Wed 7/29 (FOMC + MSFT/HOOD earnings AMC) & Thu 7/30 (AAPL/COIN/MSTR earnings AMC). FOMC hawkish-hike surprise risk. Crypto soft: BTC ~65k, Fear&Greed 28, stablecoin outflows. EWY: live US 12.5% tariff + KOSPI/chip selloff (bearish). INTC: 7/23 blowout beat (bullish, established). CRCL: no 48h catalyst (earnings 8/5), bearish narrative. SOL: SOL ETF inflows constructive but Fed-tethered. CL: WTI ~$85 two-sided geopolitics vs OPEC+ supply.\n\nSentiment stance MSTR: BEARISH, double event risk (Fed Wed + earnings Thu), soft BTC",
+    "analyst": "MSTR is a lagging levered-BTC proxy (rel strength -10%) with a soft underlying and DOUBLE binary risk this week (FOMC Wed, earnings Thu AMC). The mid-TFs are effectively flat (15m/30m ~0 score) and price sits mid-range between 89.85 support and 104.64 resistance, so there is no trend pullback to buy, no extreme to fade, and no breakout trigger. Risking into event week on a 39%-confidence signal is negative expectancy.\n\nForecast: Price chops between ~93.3 and ~94.6 near VWAP over the next few bars; no decisive push until BTC or the Wed FOMC print resolves.\n\nExpectancy: No edge: composite long is weak (39% conf, 0.25 score), price mid-range with 4h RSI 78 mildly extended long, rel strength -10% vs soft BTC. Fading mid-range or chasing a lagging weak long both sub-1.5 R:R; HOLD is best expectancy into double binary events.",
+    "portfolio": "HOLD MSTR/USDT:USDT - no positive-expectancy entry (size 0), conf 0.4. Reconsider: Reclaiming 96 would confirm buyers regaining control toward 104.64."
+  },
+  "timestamp": "2026-07-27T04:08:15.975005+00:00"
+}

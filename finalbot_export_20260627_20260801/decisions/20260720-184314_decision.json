@@ -1,0 +1,22 @@
+{
+  "action": "buy",
+  "symbol": "AAPL/USDT:USDT",
+  "size": 2.0,
+  "entry": 325.3,
+  "stop_loss": 323.8,
+  "take_profit": 330.8,
+  "take_profit_1": 328.4,
+  "take_profit_2": 330.8,
+  "confidence": 0.58,
+  "playbook": "range",
+  "forecast": "Price bottomed at 324.0-324.3 and is bouncing (last 3 bars 325.6->326.0->326.9 closing near highs); expect a shallow dip to retest 325.2-325.4 then a mean-revert bounce toward 328.4 and the VWAP zone ~330.8 over the next 4-8 bars.",
+  "expectancy_note": "p(win)~0.58, R:R ~2.1 to TP1; oversold-bounce fade beats shorting a stretched, already-turning tape (1h RSI 27.5, %B -0.17, 5m already up) which is this book's classic late-short loss.",
+  "rationale": "Composite reads short but it is a lagging echo of the selloff that just completed; 1h/4h RSI ~27-31, bb %B negative, price below VWAP and L/S 0.82 slightly short-crowded all set up a contrarian bounce, and the candle sequence confirms a higher-low turn off 324. Shorting here is the exact late-into-oversold pattern that loses; instead I buy the retest with a stop under the 324 swing low for a clean ~2.1 R:R to the first structural target. Size kept small (2%) given hawkish-Fed jittery tape, heavy megacap earnings week and thin overnight equity liquidity \u2014 AAPL itself has no binary until Jul 30.",
+  "transcript": {
+    "macro": "Regime MIXED/cautious, megacap earnings week, Fed hawkish. AAPL MIXED, mean-revert setup: composite SHORT but oversold (RSI 30.7, bb_pctb -0.17, 1h RSI 27.5), 5m already bouncing; positioning near-neutral (L/S 0.82 slightly short-crowded, contrarian bounce risk). No AAPL earnings this week (Jul 30). Small size; beware snap-back on a short.",
+    "sentiment": "AAPL BEARISH near-term tone but no <=48h binary (earnings Jul 30). Fell ~3% Monday below $325 on profit-taking after record ~$335 Friday; oversold after the drop = fade-of-selloff bounce risk. Today's weakness is positioning, not fresh bad news.",
+    "analyst": "AAPL at 326.89. Bottomed 324.0-324.3, higher-low turn, last 3 bars 325.6->326.0->326.9 near highs; 5m RSI 75.4 turning up. 1h/4h RSI 27-31 oversold, %B -0.17, below VWAP. Shorting the flush = account's #1 loss. Small long on the retest: entry 325.3, stop 323.8, TP1 328.4 (~2.1R), TP2 330.8. Size 2%.",
+    "portfolio": "BUY AAPL small \u2014 contrarian oversold-bounce, limit 325.3, stop 323.8, ~2.1R to 328.4."
+  },
+  "timestamp": "2026-07-20T18:43:14.779256+00:00"
+}

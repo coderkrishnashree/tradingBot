@@ -1,0 +1,27 @@
+{
+  "action": "hold",
+  "symbol": "SOL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "expectancy_note": "Short thesis valid (crowded 2.05 L/S, weak BTC tape, high dominance) but price is oversold at the lower band (RSI 30.5, %B 0.12, 4h MACD positive) \u2014 shorting here is chasing the low; fade a bounce instead for +R:R.",
+  "rationale": "Structure favors a mild short, but tactically SOL is pinned to the lower Bollinger band, RSI 30.5 with 4h not confirming (neutral, positive MACD) \u2014 the near-term risk is a snap-back bounce, and macro explicitly says fade rallies not breakdowns. A market short into $80.2 has ~1:1 R:R with the wrong entry; the high-expectancy version is to short a bounce into the $82.5-84 resistance/VWAP-reclaim-fail zone. Waiting for that trigger, or for a decisive loss of $79 support with room to run toward $77, is worth more than a chase here.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 82.6,
+    "expires_min": 240,
+    "note": "A bounce into the 82.6-84 resistance band offers a clean short entry with a stop above 84 (structure) and room toward 78-77 \u2014 the correct fade of crowded longs into weak BTC tape."
+  },
+  "transcript": {
+    "macro": "SOL/USDT \u2014 crypto, BTC-beta. Funding flat/neutral (no crowding). Long/short 2.05 \u2014 lopsidedly long, contrarian bearish, main positioning signal. Order book near-balanced. Blended structure_bias -0.29 (short-supportive) driven by crowded longs. Price ~$80.2, momentum down 15m/30m/1h, RSI 30-34 oversold (bounce risk). Relative strength +14.3% vs BTC \u2014 SOL leading, snap-back bounce is the main risk to a short. Broader: crypto soft/risk-off, BTC ~$62k chopping, bearish 4h divergence, no trend. BTC dominance high ~55.5-56% (headwind for alts). SOL rides BTC (corr 0.82). VERDICT: supports SHORT mildly \u2014 fade rallies not breakdowns; snap-back hazard; smaller size.",
+    "sentiment": "SOL \u2014 MIXED, tilting neutral-to-bearish near-term. Downtrend ~$80, weak broad crypto tape (Fear&Greed 53/neutral). ETF paradox: spot ETF inflows but price slides because venture token-unlock supply outpaces demand; unlock pressure tapers through Q3 2026 (passive weight, not dated binary). Network reliability a non-issue (700+ days uptime). Alpenglow upgrade is a Q3 narrative not a 48h event. No imminent \u226448h binary. Near-term news NEUTRAL, does not oppose a tactical short; slow-bleed unlock backdrop mildly supports short but won't be the trigger.",
+    "analyst": "Bear case is real (crowded longs, weak BTC tape, high dominance, lower-TF downtrend) but the tactical entry at $80.21 is poor for a fresh short: RSI 30.5 oversold, BB %B 0.117 hugging the lower band, 4h neutral with positive MACD \u2014 exactly where snap-back bounces originate. Nearest support $69.65 is 13% away; no clean near-term target. A market short here is ~1:1 R:R shorting the low with oversold oscillators = negative-to-flat expectancy. Correct trade is to fade a bounce into $82.5-84 / failed VWAP reclaim, or a decisive loss of $79 with room to $77. HOLD with an armed short trigger above 82.6 (240 min).",
+    "portfolio": "SOL: HOLD (conf 0.50) \u2014 short thesis valid but oversold at lower band; wait to fade a bounce into 82.6-84, no chase."
+  },
+  "timestamp": "2026-07-06T12:30:37.120929+00:00"
+}

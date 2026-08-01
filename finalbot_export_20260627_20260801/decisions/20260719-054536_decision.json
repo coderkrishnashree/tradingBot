@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "BTC/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Price is drifting off the 64948 intraday high toward VWAP/64600; expect chop between 64590 support and 64950 over the next 2-4 bars, no clean directional edge until one side breaks.",
+  "expectancy_note": "No entry clears R:R: 1h RSI 78.8 + stoch 88.4 make a long a chase (account's #1 loser), ADX 28.6 too weak to trend-follow, and price isn't extended enough down to fade. HOLD has higher expectancy than a forced trade in weekend risk-off chop.",
+  "rationale": "BTC is a chop-higher, not a trend: composite is weak (score 0.29, aligned false, align_factor 0.87) and the mid-TF is rolling over (15m short, 30m flat) while 1h momentum is stretched (RSI 78.8, stoch 88.4). The only bull anchor is the +0.774 orderbook bid, but buying here means chasing into overbought at +1.23% above VWAP with resistance 65566 overhead and support 61777 far below. Weekend risk-off, Extreme Fear (F&G 25), no 48h catalyst. No location for an honest 1.5R stop, so stand aside.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 64950,
+    "expires_min": 240,
+    "note": "Reclaiming the 64948 intraday high proves the 15m/30m rollover failed and momentum resumed, opening a continuation long toward 65566 with the orderbook bid behind it."
+  },
+  "transcript": {
+    "macro": "2026-07-19 Sunday. RISK-OFF/hostile weekend. BTC ~$64.7k near 21-mo lows, dominance ~56.3% (bearish alts), ETF outflows, hawkish-Fed. Funding ~zero. BTC: ONLY name with positive structure_bias (+0.057), driven by strong +0.774 orderbook bid; funding neutral, OI ~55.4k, L/S 1.45. 1h/4h trend up but 15m/30m rolling over and stoch 88 stretched - chop-higher not trend, modest long lean only.",
+    "sentiment": "Risk-off. Chip/AI-capex selloff Fri Jul 17, broad risk-off equity tape a mild headwind. BTC: neutral-to-cautious. Price flat ~$64k, Extreme Fear (F&G 25, down from 27) on regulatory uncertainty + weak risk appetite. No imminent binary (no FOMC/CPI in 48h; last CPI soft 3.5%). Near-term NEUTRAL - defer to price/structure.",
+    "analyst": "Weak/mixed composite, mid-TF rolling over while 1h stretched (RSI 78.8, stoch 88.4). Only bull anchor is orderbook bid; buying = chasing overbought +1.23% over VWAP with support far below. No honest 1.5R location. HOLD; continuation long only on reclaim of 64950.",
+    "portfolio": "BTC: HOLD - chop-higher, stretched short-term; long trigger on reclaim of 64950."
+  },
+  "timestamp": "2026-07-19T05:45:36.689116+00:00"
+}

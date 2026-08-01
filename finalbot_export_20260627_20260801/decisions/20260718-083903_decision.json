@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "GOOGL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price is coiling flat 346.7-347.7 just above support 341.86 after a deep washout (4h RSI 15.8, VWAP -5.31%). Most likely path over next few bars is chop-to-mild-bounce off the oversold low; a clean break below 341.86 would open the next leg down toward ~335.",
+  "expectancy_note": "Short here has p_win ~0.30 (learner) into 4h RSI 15.8 and VWAP -5.31% = chasing; account shorts avg -0.87 PnL. No long edge below VWAP in risk-off tape. HOLD is highest-expectancy.",
+  "rationale": "This is the account's #1 loss pattern: a short signal INTO a deeply oversold, sub-VWAP tape sitting just above support, on a thin weekend with squeeze risk and earnings binary approaching. Learner weights punish negative structure_bias/rel-strength/VWAP-distance for shorts and p_win_learned is only 0.302, so I refuse to chase. No long confirmation either (still below VWAP, hostile macro). Wait for a decisive break of 341.86 to short the breakdown or a VWAP reclaim to flip.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 341.86,
+    "expires_min": 240,
+    "note": "Losing 4h support 341.86 confirms trend continuation and lets me short the breakdown instead of chasing mid-air oversold."
+  },
+  "transcript": {
+    "macro": "Regime HOSTILE-to-MIXED, weekend US cash CLOSED. Scan short-tilted but RSIs washed out -> chasing shorts into oversold weekend illiquidity = squeeze risk. GOOGL: scan short blended -0.449, structure_bias -0.373 (L-S 1.643 long-heavy contrarian bearish, orderbook -0.44), rel-strength -5.2% (lagging), 4h RSI 15.8 deeply oversold. EARNINGS EVENT RISK approaching inside multi-day hold window (dates conflict Jul 22 vs Jul 28). HOSTILE for multi-day hold; if traded keep intraday/small.",
+    "sentiment": "SEMICONDUCTOR/AI-CAPEX RISK-OFF theme. GOOGL net negative near-term: fell Friday on reports Gemini 3.5 Pro launch DELAYED, feeding 'US AI losing edge to Moonshot' narrative. Earnings Jul 28 (after close) approaching -> pre-earnings drift. Antitrust = slow-burn appeal, not 48h. Bias bearish-lean, but deeply oversold RSI 15.8 = squeeze risk on shorts.",
+    "analyst": "4h RSI 15.8 deeply oversold, VWAP -5.31% (far below = short would be chasing), price 346.72 sitting ~1.4% above support 341.86. 15m candles are dead flat chop 346.7-347.7 (consolidation at lows, not fresh impulse down). Learner decisive: shorts bleed (47% win, -0.87 avg); p_win_learned only 0.302. Textbook late-short trap into washed-out tape + weekend illiquidity + approaching earnings binary. No long edge either (sub-VWAP, risk-off). HOLD; arm breakdown short on loss of 341.86.",
+    "portfolio": "HOLD GOOGL - classic late-short trap (RSI 15.8, sub-VWAP, above support, earnings risk); refuse to chase. Armed breakdown short at 341.86."
+  },
+  "timestamp": "2026-07-18T08:39:03.408509+00:00"
+}

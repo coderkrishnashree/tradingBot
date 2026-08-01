@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "MSTR/USDT:USDT",
+  "size": 0.0,
+  "entry": 96.27,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Choppy drift between VWAP-area ~94.1 and resistance 102 over the next several bars; 4h RSI 90 blowoff plus stalling 15m tape (rolled 96.47->95.73, weak recovery, tiny last candle) argues for digestion, not a clean impulse either way into the weekend.",
+  "expectancy_note": "No edge: too extended to chase long (RSI 90, VWAP +2.26%, the account's #1 loss pattern), and not AT resistance 102 to fade short; weekend thin/gappy + 0.74 BTC-beta into BTC 21-month-low makes both sides low-p(win). HOLD beats a forced R:R<1.5 entry.",
+  "rationale": "MSTR is pure BTC beta (corr 0.74, rel strength -3%) sitting mid-range between support 89.95 and resistance 102 with a 4h RSI 90 blowoff and price +2.26% over VWAP. Buying here chases a stretched move into risk-off; shorting here fades a live ADX-72 uptrend before it reaches the 102 level, in thin weekend liquidity. No honest 1.5R setup exists at 96.27 - wait for either a fade at resistance or a flush back to VWAP.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 102.0,
+    "expires_min": 240,
+    "note": "A tag/rejection of the 102 resistance is the clean level to fade the RSI-90 blowoff short; reaching it re-arms a high-probability mean-reversion setup."
+  },
+  "transcript": {
+    "macro": "RISK-OFF/defensive regime. 2026-07-19 WEEKEND - US cash markets CLOSED; equity proxies thin/gappy until Monday; size down. BTC ~$60-64k near 21-month LOW, BTC.D ~56.3% elevated (hostile for crypto beta). L/S ratios lopsided-long everywhere. MSTR is the highest-BTC-beta name here - watch spot BTC, not name news.",
+    "sentiment": "MSTR (Strategy): EVENT RISK building but >48h out - Q2 2026 earnings Jul 30. New Digital Credit Capital Framework - 12% STRC coupon live, authorized up to $1B MSTR buyback + $1B credit-securities repurchase (bullish undertone); but reports it sold ~7x more BTC than headline to fund dividends (mild negative). Trades as a leveraged BTC proxy; scan shows extreme stretch (4h RSI 90). Lean: momentum-bullish but overbought.",
+    "analyst": "MSTR 96.27: 4h RSI 90.1 (extreme blowoff), stoch 90.3, ADX 72.7 (strong up), vwap_dist +2.26% (extended), btc_corr 0.743, rel_strength -3.01, support 89.95 / resistance 102.0, ATR% 1.24. 15m rolled 96.47->95.73 then weak recovery, tiny last candle (vol 3.69) - stalling top, not fresh impulse. Too extended to chase long; not at 102 resistance to fade short. HOLD, fade-short armed at 102.",
+    "portfolio": "HOLD MSTR - RSI 90 blowoff mid-range; fade only on a tag/rejection of 102 resistance."
+  },
+  "timestamp": "2026-07-19T14:14:21.027470+00:00"
+}

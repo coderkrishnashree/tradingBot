@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "GOOGL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.62,
+  "playbook": "none",
+  "forecast": "Price just tagged 373.49 resistance and got rejected; last 4 bars stair-step down to 369.14 closing near its low. Expect chop/drift between 367.5 support and 373.5 resistance over next few bars.",
+  "expectancy_note": "Long = chasing RSI-76 into fresh rejection at resistance (thin pre-open, gappy) \u2014 negative expectancy. Short = fighting +0.9 30m/1h uptrend with no confirmation/level. HOLD beats both.",
+  "rationale": "30m/1h are strongly long but price was just rejected exactly at 373.49 resistance with RSI 4h at 75.7 and a weak close at 369.14 \u2014 the macro-flagged 'chasing overbought into resistance' trap, now confirmed by the tape. US cash pre-open (thin/gappy) worsens fill risk. Neither a long fade under resistance nor a short against a strong 1h trend clears my R:R>=1.5 bar. Standing aside is highest-expectancy until price resolves the 367.5-373.5 box.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 373.6,
+    "expires_min": 240,
+    "note": "A clean reclaim/hold above the 373.49 rejection high converts this into a confirmed breakout, aligning with the strong 30m/1h long score for a trend-continuation entry."
+  },
+  "transcript": {
+    "macro": "Overall risk-ON but fragile AI-led tape (S&P +0.72%, Nasdaq +1.12%, chips led). 10y ~4.48% easing, DXY ~101.3, soft June NFP (+57k) cut Sep hike odds ~50%. AI-capex 'compute glut' scare LIVE (semis ETF -6% on META-reselling-compute report) makes NVDA/GOOGL/META two-sided. Derivatives caveat: near-zero funding + pinned L/S>2 is a token-perp artifact, not fresh crowding; US cash thin/gappy until 13:30 ET. GOOGL: OI 4,825, L/S 2.02, OB -0.13 -> bias -0.40; RSI 4h 75.7 at resistance 373.5, RelStr +3.0%; 30m/1h strong long but 15m rolled short. Read: MIXED-supportive but chasing RSI-76 into resistance = poor risk; smaller size, only on pullback.",
+    "sentiment": "GOOGL tone constructive but NO near-term catalyst. Gemini ~750M MAU, Q1 beat (+10% pop); market worries $190B 2026 capex crushing FCF + DOJ antitrust appeal (slow-burn). Only dated catalyst Q2 earnings July 29 (3 weeks out, irrelevant to 24-48h trade), same day as FOMC \u2014 hard wall, don't carry into it. Near-term NEUTRAL; antitrust headline is a downside tail.",
+    "analyst": "Price tagged 373.49 resistance exactly and rejected; last 4 bars stair-step down to 369.14 on drying volume, weak close. Macro note (saw 373.5) is now confirmed by the tape as the 'chase into resistance' trap. 30m/1h are +0.9 long but no clean level anchors a long fade under fresh resistance, and shorting fights the trend with no confirmation. HOLD; armed a reclaim trigger above 373.6 to re-debate a breakout long.",
+    "portfolio": "GOOGL: HOLD (conf 0.62) \u2014 rejected at resistance, wait for 373.6 reclaim to arm a breakout long."
+  },
+  "timestamp": "2026-07-07T14:55:49.985452+00:00"
+}

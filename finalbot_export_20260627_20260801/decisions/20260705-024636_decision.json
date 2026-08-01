@@ -1,0 +1,23 @@
+{
+  "symbol": "TSLA/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.55,
+  "size": 0.0,
+  "entry": 401.07,
+  "stop_loss": 405.5,
+  "take_profit": 392.0,
+  "rationale": "Treat as an equity perp (BTC corr 0.382). The bearish thesis is real but untriggered: RSI 70 / 4h RSI 77.7 overbought, at resistance 401.12, structure_bias -0.371 with crowded longs (L/S 1.90) and sell-side orderbook (-0.203), plus sector de-rating and an active FSD probe. But price is PINNED at resistance holding, short-TF tape (30m/15m/5m) still drifts up, and ATR% is a microscopic 0.04% - there is no realized movement to short into and no roll-over confirmation. Decisive factor: it is Sunday, US cash is CLOSED, the token is thin/gappy, and a Monday-open gap I cannot exit is the dominant risk both ways. Shorting blind into that with the intraday trend still up is negative expectancy. Wait for confirmation (loss of 399.33 support = the roll begins) or reconsider a fade only on a failed push into ~405. Size 0.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 399.33,
+    "expires_min": 240,
+    "note": "Losing intraday support 399.33 breaks the pin at resistance and confirms the overbought roll-over - that flips this to a structure-backed short (target ~392, stop above 401.12)."
+  },
+  "transcript": {
+    "macro": "Treat TSLA/USDT:USDT as an EQUITY perp, not crypto (TSLA/BTC corr 0.382). Weekend tape risk-off for tech: Nasdaq -0.8% chip-led (Micron -7%, AMAT -7.4%, AMD -4.3%); rotation OUT of high-multiple growth tech (Dow +1.1% record). TSLA -7% Thursday despite Q2 delivery beat (480k) - 'sell the news', focus on margins/capex; stock ~$370-401. Soft June jobs (57k vs 113k) keeps Fed on hold (mild risk support), not enough to offset tech de-rating. CRITICAL: Sunday July 5, US equity markets CLOSED, reopen Mon July 6 - tokenized perp thin/gappy, degraded price discovery, un-hedgeable Monday-open gap risk. Derivatives: funding +0.000105 (mild, longs paying); OI 8,257 (thin); L/S 1.90 (crowded long, contrarian-short); orderbook -0.203 (sell-side); structure_bias -0.371 (leans short); RSI 70 (4h 77.7) overbought/rolling; RS vs BTC +0.68%. Verdict: hostile for fresh LONG, mild edge to SHORT but conviction capped by weekend closure, thin OI, earnings July 22 outside 48h. Size smaller either direction.",
+    "sentiment": "Cautiously bearish / 'sell-the-news'. Q2 2026 deliveries beat July 2 (480,126 vs ~406k, ~18% beat, +25% YoY) yet worst day in ~11 months (-6 to -7.5%) - good news sold, plus FRESH FEDERAL SAFETY PROBE into Tesla FSD/driver-assist and Mag-7/AI selloff. Post-beat exhaustion near $401. No major binary inside 24-48h; next hard catalyst Q2 earnings Wed July 22 5:30pm ET (outside horizon). Live wildcard: FSD/Autopilot federal probe - escalation could gap stock down. US cash market CLOSED (weekend) - token thin/gappy, no underlying price discovery until Monday open. Near-term bias mildly favors SHORT / against fresh longs; no bullish binary to fuel a squeeze before July 22.",
+    "analyst": "TSLA is a mixed-to-bearish setup: overbought (RSI 70, 4h 77.7) at resistance 401.12 with structure leaning short (crowded longs 1.90, sell-side book, structure_bias -0.371) and a soft tech tape, but short-TF momentum is still up and price is holding, not rolling. With US cash markets closed on Sunday, the token is thin and carries un-hedgeable Monday-open gap risk, and ATR% of 0.04% means there is no movement to trade yet. Best expectancy is HOLD (flat) and wait for the trigger: a loss of 399.33 support confirms the roll-over and arms a short toward 392 with a stop back above 401.12.",
+    "portfolio": "HOLD flat on TSLA/USDT:USDT - bearish structure untriggered; wait for loss of 399.33 to arm a short, no position into the weekend gap."
+  },
+  "timestamp": "2026-07-05T02:46:36.720047+00:00"
+}

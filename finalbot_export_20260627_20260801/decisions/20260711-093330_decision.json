@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "QQQ/USDT:USDT",
+  "size": 0.0,
+  "entry": 729.18,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.62,
+  "playbook": "none",
+  "forecast": "Thin weekend tape stalls in the 728.7-730.3 zone: expect chop pinned under the 730.30 cap with sell-side asks (-0.44 imbalance) blocking a clean break; no honest next-move edge until either 730.30 breaks on volume or the 727.3 shelf gives way.",
+  "expectancy_note": "p(win) ~0.45 either way; long chases RSI85 at resistance (account's worst pattern: high-ADX trend -1.98 avg), short fades ADX60 with no reversal into CPI gap risk. HOLD > both.",
+  "rationale": "Tokenized equity at hard resistance 730.30 with RSI 85.4 / stoch 93.9 on 1h-4h, +1.97% over VWAP, near-zero weekend volume and heavy sell-side orderbook imbalance -0.443. Chasing the long is the exact late-continuation-into-stretched-tape pattern that has bled this account (high_adx -1.98, trend playbook -2.89); shorting a strong uptrend with no reversal confirmation ahead of Tue CPI + new-Fed-Chair testimony is a coin-flip with gap risk. No R:R>=1.5 setup exists, so flat is highest expectancy; size 0.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 727.3,
+    "expires_min": 240,
+    "note": "Losing the 727.3 intraday shelf breaks the grind-up structure and confirms the overbought top is rolling, opening a short; a volume break above 730.30 would instead arm a breakout long."
+  },
+  "transcript": {
+    "macro": "Regime risk-ON but late-stage & event-gated (2026-07-11). Nasdaq 26,282 +0.29% Fri, 2nd weekly win led by AI/semis, QQQ 1h RSI 86 = deeply overbought. CATALYST inside 48h: June CPI Tue Jul 14 8:30am ET + Warsh testimony 10am + JPM/GS Q2 earnings start - a live binary inside a 2-day hold window; tokenized equities gap around the CPI/earnings open. Size DOWN into Monday; favor trades that survive a gap.",
+    "sentiment": "QQQ: fragile/cautious, retreated from June highs; VXN back to 18, put/call 1.15 (downside hedging). Inflation 4.2% (highest since 2023), hawkish Warsh signaling 1-2 more hikes. June CPI mid-July + FOMC Jul 29 are the binaries; mega-cap earnings season starting. Overall tone: cautiously risk-on, hinges on CPI.",
+    "analyst": "Pinned at resistance 730.30, RSI 85+/stoch 93.9 across TFs, +1.97% above VWAP, near-zero weekend volume, heavy sell-side orderbook -0.443. Long = account's #1 loss pattern (late continuation into stretched, capped tape); short = fading a strong ADX-60 uptrend with no reversal confirmation into thin liquidity ahead of the CPI gap. No R:R>=1.5. Verdict: HOLD; flip levels are a volume break >730.30 (long) or loss of 727.3 (short).",
+    "portfolio": "HOLD QQQ - overbought at resistance on thin weekend tape into a CPI gap; both sides sub-threshold."
+  },
+  "timestamp": "2026-07-11T09:33:30.650033+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "symbol": "QQQ/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.5,
+  "size": 0,
+  "entry": 694.9,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "none",
+  "forecast": "Price coils 694.2-695.2 on thin Saturday tape; likely chops/drifts sideways toward support 688 or a small mean-reversion bounce toward 697-698 (VWAP) rather than a clean directional break.",
+  "expectancy_note": "Short into 4h RSI 23.6 only ~7pts above support 688 = R:R ~1.3 with high bounce/gap risk; no long vs ADX-77 downtrend. Best expectancy is wait for a level break.",
+  "rationale": "QQQ is in a strong 4h downtrend (ADX 77) but deeply oversold (4h RSI 23.6) and coiling just 6.8 points above support 688 on a CLOSED-market Saturday with thin OI (8.2k) and weekend-gap risk. The 5m has flipped long (RSI 60.6), signaling near-term stabilization/bounce \u2014 shorting here is chasing a stretched move into support, the account's #1 loss pattern, with only ~1.3 R:R. No long is justified against the dominant downtrend either. Highest-expectancy move is to wait: a decisive break below 688 confirms trend continuation with room to run.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 688.0,
+    "expires_min": 240,
+    "note": "Losing support 688 breaks the oversold coil and confirms trend continuation with clear downside room \u2014 that is the short entry, whereas fading above it risks the bounce."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF/DEFENSIVE. Tech-led selloff (7/17 Nasdaq -1.8%, week -2.9%) on semiconductor/AI-capex scare + Middle East (Hormuz). DXY soft ~100.7, Fed hike odds low near-term. CRITICAL: Saturday \u2014 QQQ tracks a CLOSED market, thin/gappy perp (OI 8.2k), funding 0.0, weekend-gap risk into Monday. QQQ read: SHORT-leaning but 4h deeply oversold (RSI 23.6), bounce-prone, thin.",
+    "sentiment": "Risk-off. Friday chip rout (ARM/AMD/Oracle/Broadcom/Micron/Marvell -5%+) on AI-capex trim fears; tech-out/energy-in rotation. QQQ BEARISH near-term, down ~5% from June high, weekend gap risk leans down. No index-level catalyst inside 48h; FOMC Jul 28-29 outside window.",
+    "analyst": "4h downtrend powerful (ADX 77) but RSI 23.6 = exhaustion; price 1.15% below VWAP, 6.8pts above support 688. 5m flipped long (RSI 60.6) = bounce underway. Shorting into deep oversold on thin Saturday tape ~7pts above support = R:R ~1.3, high bounce/gap risk. Not a long vs ADX-77 downtrend. Best expectancy = wait; short on clean break below 688.",
+    "portfolio": "HOLD QQQ \u2014 wait for break below 688 to arm the short; fading here risks the oversold bounce."
+  },
+  "timestamp": "2026-07-18T22:10:16.452581+00:00"
+}

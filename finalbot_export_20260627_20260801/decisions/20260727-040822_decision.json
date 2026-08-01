@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "QQQ/USDT:USDT",
+  "size": 0.0,
+  "entry": 692.22,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.34,
+  "playbook": "none",
+  "forecast": "Coils 690-694 in a tight low-volume drift; no directional resolution until the underlying re-opens and the FOMC/MSFT/AAPL event cluster forces a break of 683.88 or 710.65.",
+  "expectancy_note": "No edge: mid-range coil (BB width 1.74%, price at VWAP), composite unaligned/37% conf, and shorts have bled on this book (0.46 win, -0.82 avg). Any weekend micro-move is noise vs the binary gap risk ahead.",
+  "rationale": "QQQ is a tokenized equity with US cash market closed (weekend) and the entire window loaded with binaries: MSFT Wed, AAPL Thu, plus FOMC. Price is dead-center between 683.88 support and 710.65 resistance, BB squeezed and volume drying - no continuation nor exhaustion signal, and funding is hot/crowded-long. Best expectancy is flat: a thin weekend perp coiling before a three-headed event cluster is gap risk without a setup.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 710.65,
+    "expires_min": 240,
+    "note": "A clean break of 710.65 resistance would justify a trend-continuation long; losing 683.88 flips to a short."
+  },
+  "transcript": {
+    "macro": "Regime: risk-on but into event wall, lean defensive. S&P near highs, Nasdaq -0.64% AI/chip selloff, 10Y ~4.69%. HARD CATALYSTS in 48-72h: FOMC Wed 7/29 2pm ET + mega-cap earnings MSFT+META Wed, AAPL+AMZN Thu. SUNDAY: US cash equity closed -> all stock proxies gap Monday, thin weekend liquidity, size down. BTC ~65.3k consolidating, only clean 24/7 book. Oil in bearish selloff (US-Iran de-escalation + surplus). Reduce size across board; crowded-long positioning pervasive (CRCL 3.52, SOL 2.76, XAUT 2.56, EWY, INTC, HOOD).\n\nMacro stance QQQ: small long at most, heavy event exposure",
+    "sentiment": "Dominant fact: binary catalyst wall Wed 7/29 (FOMC + MSFT/HOOD earnings AMC) & Thu 7/30 (AAPL/COIN/MSTR earnings AMC). FOMC hawkish-hike surprise risk. Crypto soft: BTC ~65k, Fear&Greed 28, stablecoin outflows. EWY: live US 12.5% tariff + KOSPI/chip selloff (bearish). INTC: 7/23 blowout beat (bullish, established). CRCL: no 48h catalyst (earnings 8/5), bearish narrative. SOL: SOL ETF inflows constructive but Fed-tethered. CL: WTI ~$85 two-sided geopolitics vs OPEC+ supply.\n\nSentiment stance QQQ: NEUTRAL coiled, MSFT/AAPL/Fed all inside window",
+    "analyst": "QQQ is a tokenized equity with US cash market closed (weekend) and the entire window loaded with binaries: MSFT Wed, AAPL Thu, plus FOMC. Price is dead-center between 683.88 support and 710.65 resistance, BB squeezed and volume drying - no continuation nor exhaustion signal, and funding is hot/crowded-long. Best expectancy is flat: a thin weekend perp coiling before a three-headed event cluster is gap risk without a setup.\n\nForecast: Coils 690-694 in a tight low-volume drift; no directional resolution until the underlying re-opens and the FOMC/MSFT/AAPL event cluster forces a break of 683.88 or 710.65.\n\nExpectancy: No edge: mid-range coil (BB width 1.74%, price at VWAP), composite unaligned/37% conf, and shorts have bled on this book (0.46 win, -0.82 avg). Any weekend micro-move is noise vs the binary gap risk ahead.",
+    "portfolio": "HOLD QQQ/USDT:USDT - no positive-expectancy entry (size 0), conf 0.34. Reconsider: A clean break of 710.65 resistance would justify a trend-continuation long; losing 683.88 flips to a short."
+  },
+  "timestamp": "2026-07-27T04:08:22.414316+00:00"
+}

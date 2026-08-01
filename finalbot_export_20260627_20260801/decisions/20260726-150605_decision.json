@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "EWJ/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.55,
+  "playbook": "none",
+  "forecast": "Illiquid drift between 92.0 and 93.34 on near-zero volume; pinned to upper band (bb_pctb 0.99) with no pullback, most likely chops sideways 92.1-92.6 into the FOMC/BOJ window rather than making a clean directional move in the next few candles.",
+  "expectancy_note": "No honest edge: a market long into 93.34 resistance is <1xATR of room vs a >2xATR honest stop (R:R <0.5) while overbought; shorting fights ADX 91. HOLD beats both until a level breaks.",
+  "rationale": "EWJ is a thin equity proxy pinned to its upper Bollinger band (bb_pctb 0.99, RSI 69, stoch 86) just under 93.34 resistance with essentially zero volume on recent bars - no pullback to buy and no exhaustion to fade. A market long here chases into resistance with wretched R:R and binary event risk (FOMC Wed, BOJ Jul 30-31); a short fights an ADX 91 uptrend. Best expectancy is to wait for either a clean 93.34 breakout (real continuation trigger) or a dip toward 89.53 support (real long entry), so size stays flat.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 93.34,
+    "expires_min": 240,
+    "note": "A hold above 93.34 confirms the breakout and gives a valid long entry with a measured target instead of chasing into resistance."
+  },
+  "transcript": {
+    "macro": "Regime MIXED-to-RISK-OFF, event-gated. FOMC Wed Jul 29. EWJ lens: LEAN LONG small but mind the tape/hours; uptrend (ADX 91.4, bb_pctb 0.99 pinned to upper band, near 93.34 resistance). Thin gappy proxy tracking global risk tape (corr 0.71 to QQQ) - inherits US risk-off and this week's event risk. Overbought and lagging BTC (rel strength -4.65). Size down.",
+    "sentiment": "HARD CATALYST BOJ meeting concludes Jul 30-31 with Outlook Report - single biggest near-term vol driver; ~96% no-change priced but Outlook can move yen/Nikkei hard. Nikkei +37% YTD; EWJ (unhedged) lags hedged peer (weak yen erodes USD returns). Net bullish underlying trend but event-capped; hawkish BOJ / sharp yen strengthening is key downside risk.",
+    "analyst": "Pinned to upper band (bb_pctb 0.99, RSI 69, stoch 86) just under 93.34 resistance on near-zero volume - no pullback to buy, no exhaustion to fade. Market long has R:R <0.5 into resistance with FOMC+BOJ event risk; short fights ADX 91 uptrend. Wait for a 93.34 breakout or a dip to 89.53 support.",
+    "portfolio": "HOLD EWJ - thin, overbought, pinned under resistance on dead volume; flat, armed to go long only on a 93.34 breakout."
+  },
+  "timestamp": "2026-07-26T15:06:05.208000+00:00"
+}

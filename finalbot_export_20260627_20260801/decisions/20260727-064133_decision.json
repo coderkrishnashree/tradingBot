@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "TSM/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Stalling doji at 410.6 under 410.9 on fading volume; expect a fade back toward the 408 bounce base over the next 3-6 bars. A clean break/close below 408 confirms the dead-cat and opens 405 then 402; a volumed reclaim of 412 instead says the bounce has legs.",
+  "expectancy_note": "No honest entry now: long = chasing an RSI-75 fade-volume bounce into crowded-long/extreme-funding (the book's #1 loser); short lacks rejection confirmation mid-push. p(win) on a blind entry <0.5 \u2014 HOLD and let 408 or 412 decide.",
+  "rationale": "TSM has fallen 7 straight days and is the weakest sector tone in the book, now printing a low-volume intraday bounce into a Fed week (funding 0.29% + L/S 2.05 confirm a crowded one-sided long book). Buying a stretched (RSI 75) bounce whose volume is already fading into resistance is the late-continuation trade that has bled this account; shorting mid-push before a rejection is equally undisciplined. Best expectancy is to wait.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 408.0,
+    "expires_min": 240,
+    "note": "Losing the 408 bounce base confirms the dead-cat / sector-downtrend resumption and arms a short toward 405/402 with crowded-long fuel."
+  },
+  "transcript": {
+    "macro": "Regime MIXED-to-HOSTILE. FOMC Jul 28-29 binary event; fragile US-Iran truce. SEMI selloff sharp (SOXX -12.9% 2-day, -17% MTD; TSM 7 straight down days). Cross-cutting: crowded-long book, positive/extreme funding, RSI 70s-80s, flush risk. Semis (NVDA/TSM/MU/SNDK) weakest sector tone. TSM funding 0.29% (extreme-positive), L/S 2.05 (crowded long). The Monday bounce could be a dead-cat. Verdict: skip or half-size.",
+    "sentiment": "FOMC Wed biggest \u226448h catalyst. TSM: no imminent binary; recent tape strong (Q2 beat, 36% sales jump, ~10% chip price hikes from 2027 \u2014 long-horizon positive) BUT TSMC's capex guide triggered a memory-stock selloff mid-July and the sector is in a sharp downtrend. Neutral-to-mildly-positive fundamentals fighting a hostile sector tape; no \u226448h binary of its own.",
+    "analyst": "Low-volume Monday dead-cat bounce off 408 into resistance, RSI 4h 75 stretched, crowded-long (L/S 2.05) with extreme +0.29% funding, weakest sector (-10.66% RS, 7 red days), FOMC Wed. Neither a long (chasing a fading bounce = the book's top loss pattern) nor a short (no rejection yet) has honest R:R here. Wait for 408 to break (short, targets 405/402) or 412 to reclaim on volume (bounce legs).",
+    "portfolio": "HOLD flat \u2014 low-volume dead-cat bounce in the weakest sector; short on a 408 break."
+  },
+  "timestamp": "2026-07-27T06:41:33.934525+00:00"
+}

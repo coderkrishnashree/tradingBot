@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "GOOGL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price coiling 333-335 after bouncing off the 324.44 gap-low; expect chop/mild drift over 2-6 bars, resolving on a clean loss of 324.44 (fresh leg down) or a reclaim of 336 that extends the relief bounce.",
+  "expectancy_note": "No positive-expectancy entry: shorting RSI 24 into a fresh bounce is the account's proven loser (50 shorts, 46% win, -0.97R avg); counter-trend long into a hostile RISK-OFF downtrend with US cash closed lacks confluence.",
+  "rationale": "GOOGL gapped down on earnings (capex guide up, low-quality EPS beat) to RSI 24 on 1h/4h with ADX 73, then bounced off 324.44 and is coiling 333-335 with 5m momentum reset (RSI 56). Shorting here chases an extended move into stretched oversold with the bounce underway \u2014 the late-short-stopped-by-bounce pattern that bleeds this book. R:R poor either direction inside the coil; the honest edge is to wait for a decisive break of 324.44 to short WITH momentum.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 324.44,
+    "expires_min": 240,
+    "note": "Losing the gap-low/support flushes trapped longs (L/S 2.58) and re-arms a trend-continuation short with momentum instead of into oversold."
+  },
+  "transcript": {
+    "macro": "RISK-OFF/DEFENSIVE. Hawkish Fed, FOMC July 29, live earnings season hitting these names. US cash CLOSED => thin/gappy off-hours. GOOGL: post-earnings gap DOWN, RSI 24 (deeply oversold), L/S 2.58 (trapped longs), below VWAP, ADX 73. HOSTILE for longs; shorts late.",
+    "sentiment": "GOOGL bearish near-term (fresh shock): Q2 after bell 7/22, rev +24% $119.8B, Cloud +82% (beats) BUT -4/5% AH on 2026 capex guide UP to $195-205B + one-off $99B equity gain (low earnings quality). Event risk now behind us => follow-through/mean-reversion rather than new surprise.",
+    "analyst": "Learner: shorts bleed (50 trades, 46% win, -0.97R avg); longs win 73% (n=15, +2.31R). Chasing a late short into RSI 24 with a fresh bounce is precisely the losing pattern; counter-trend long into a hostile downtrend with cash closed isn't the proven long setup either. Price coiling 333-335 above the 324.44 gap-low. Decisive level 324.44 \u2014 losing it flushes trapped longs and re-arms a momentum short. Until then HOLD.",
+    "portfolio": "HOLD GOOGL \u2014 post-earnings short is late (RSI 24 bouncing); wait for 324.44 break to short with momentum."
+  },
+  "timestamp": "2026-07-23T02:32:40.011571+00:00"
+}

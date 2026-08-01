@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "MSTR/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.58,
+  "playbook": "none",
+  "forecast": "Coiling 96.3-96.5 under the 96.6 minor cap on fading volume; most likely drifts back to retest 95.9-96.0 as BTC fades from 64,950 toward 64,600 over the next 2-6 bars rather than breaking out.",
+  "expectancy_note": "Long here = chasing RSI 70.6/stoch 92/+2.3% VWAP BTC-beta into risk-off, closed US market; p(win) ~0.42 per learner, negative R:R to a 1.4% ATR stop. HOLD beats both a chase-long and a triggerless short.",
+  "rationale": "MSTR is a stretched BTC-beta long (corr 0.71, RS +6.8%) trading overbought under 96.6 resistance while BTC stalls below 65,566 and fails $70K in a RISK-OFF tape with US cash markets CLOSED (thin/gappy). Structure_bias is negative and the crowd is already long (L/S 1.26), so a market long invites the routine counter-fade that hits any honest stop first. No <=48h binary and no clean short trigger yet, so the highest-expectancy action is to wait for either a confirmed breakout hold or a break of range support.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 96.7,
+    "expires_min": 240,
+    "note": "A 15m close/hold above 96.7 with BTC reclaiming 64,950 confirms breakout continuation past the coil and would justify a trend long toward 98-99; losing 95.80 instead opens the short."
+  },
+  "transcript": {
+    "macro": "RISK-OFF/defensive. Fri equities sold off on AI-capex/semi scare + US-Iran escalation. Crypto Fear (F&G 26), BTC low-$60Ks failing $70K, 10Y 4.56%, DXY 101. Sunday, US cash markets CLOSED \u2014 MSTR tokenized equity, thin/gappy. MSTR: long conf 54.0%, BTC-corr 0.71 (BTC-beta, moves on BTC). Stretched (RSI 70.6, stoch 92, +2.3% VWAP), L/S 1.26 crowded.",
+    "sentiment": "MSTR = leveraged BTC bet, lives/dies on Bitcoin (soft/fear now). Jul 10: Digital Credit Capital Framework \u2014 $1B buyback authorization, 12% STRC preferred dividend from July, AND BTC Monetization Program to SELL up to ~$1.25B BTC (structural overhang). $8.32B Q2 digital-asset loss shrugged off. Holds ~843,775 BTC (avg ~$66.4K ~at/above current BTC \u2014 mNAV cushion thin). No <=48h binary; direction = BTC. News-neutral-to-slightly-cautious.",
+    "analyst": "Bull: multi-TF long alignment, RS +6.8%, ADX 31.6 trend. Bear/risk (decisive): overbought (RSI 70.6, stoch 92, +2.3% VWAP) BTC-beta into risk-off closed-US-market Sunday; BTC fading under 65.5K/failing $70K; structure_bias negative, crowd already long (L/S 1.26); p_win_learned 0.415; late-continuation-into-stretched-tape is the account's worst pattern. HOLD; re-debate on 96.7 breakout hold (long) or 95.80 break (short).",
+    "portfolio": "MSTR \u2014 HOLD (conf 0.58): stretched BTC-beta long into risk-off, no honest R:R; re-arm long above 96.7 / short below 95.80."
+  },
+  "timestamp": "2026-07-19T06:43:15.508362+00:00"
+}

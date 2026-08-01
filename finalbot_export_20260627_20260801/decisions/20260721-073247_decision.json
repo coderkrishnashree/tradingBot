@@ -1,0 +1,28 @@
+{
+  "symbol": "XAUT/USDT:USDT",
+  "action": "short",
+  "confidence": 0.56,
+  "size": 2.5,
+  "entry": 4065.8,
+  "stop_loss": 4096.0,
+  "take_profit": 4021.0,
+  "take_profit_1": 4040.0,
+  "take_profit_2": 4021.0,
+  "playbook": "range",
+  "forecast": "Last two 15m bars rejected 4074-4077 and closed at the lows of their range; price is stretched (bb_pctb 1.35, +1.2% VWAP) with 4h bearish divergence. Expect a fade back toward VWAP/prior-consolidation 4045-4020 over the next 3-6 bars, capped below resistance 4094.6.",
+  "expectancy_note": "p(win)~0.55, R:R to TP1 ~0.8x but to TP2 ~1.5x; fade-at-upper-band beats a market trend-short because entry sits AT the extreme with divergence + crowded-long (L/S 2.66, bias -0.37) fuel, not chasing.",
+  "rationale": "Overbought fade at the top of a hostile-macro tape: RSI 68.7 / stoch 87.5, price above the upper Bollinger with fresh 4h bearish divergence, most crowded-long book in the scan (L/S 2.66, structure_bias -0.37, asks stacked -0.198), into rising DXY/yields and a live FOMC-hike bet. The two rejection bars off 4077 are the trigger. Stop is $30 (~1.5x ATR) just above hard resistance 4094.6; TP1 4040 covers the ratchet then rides toward 4021. Size kept minimal (2.5%) because this account's shorts have been net-losing (46% win) and ADX is still elevated, so I refuse to size up a counter-trend fade.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 4096.0,
+    "expires_min": 240,
+    "note": "A break and hold above resistance 4094.6 invalidates the fade (stop hit) - stand down, the crowded-long squeeze is extending, do not re-short until a fresh lower-high forms."
+  },
+  "transcript": {
+    "macro": "Regime MIXED/defensive-lite. AI-tech deleveraging pullback. Rates/USD headwind: 10y ~4.5-4.55%, DXY 13-mo high, Fed HIKE bets, FOMC 7/29 - hostile for gold. Gold trades ~24/5, less tied to US cash hours. Crowded-long book. Favor smaller size, fade extended longs. XAUT tilt MIXED/short-lean: ~4,066, off Jan ATH 5,602; rising yields + firm USD + hike pricing headwinds; scan shows bearish divergence, RSI 68.7, stoch 87.5, most crowded-long (L/S 2.66, structure_bias -0.37). Overbought into resistance 4,094 - fade the top.",
+    "sentiment": "XAUT neutral-to-bearish near-term, FOMC-driven. Gold near record highs (~$4,000-4,200) but clean headwinds: DXY ~13-month high, 10Y ~4.5%, hawkish Warsh Fed with a live ~20% hike probability at 7/29 FOMC. Scan flags bearish 4h divergence, stretched RSI (~69), consistent with a pullback. Safe-haven bid from Middle East partially offsets. Setup argues against fresh longs.",
+    "analyst": "Overbought fade at the top of a hostile-macro tape: RSI 68.7/stoch 87.5, above upper band with fresh 4h bearish divergence, most crowded-long book (L/S 2.66), asks stacked, into rising DXY/yields + live hike bet. Two rejection bars off 4077 are the trigger. Short 4065.8, stop 4096 (~1.5x ATR) above hard resistance 4094.6, TP1 4040 / TP2 4021. Size minimal (2.5%) given the account's net-losing shorts and elevated ADX.",
+    "portfolio": "SHORT XAUT 2.5% - fade the overbought, crowded-long top into hostile rates; stop 4096, targets 4040/4021."
+  },
+  "timestamp": "2026-07-21T07:32:47.290649+00:00"
+}

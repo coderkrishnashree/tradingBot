@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "MSTR/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price is grinding into 104.64 resistance while stretched +1.89% above VWAP with 5m RSI ~74 and a 4h bearish divergence; most likely next move is a stall/pullback toward the ~99.4-99.5 VWAP zone within 2-6 bars rather than a clean break of 104.64. A dip to VWAP that holds resets the still-strong 4h/5m uptrend and becomes the real long entry.",
+  "expectancy_note": "Market-long here chases an extended move into resistance (account's #1 loser: late entry stopped by the counter-bounce); no downside momentum for a short. HOLD until a VWAP pullback offers ~1.5R+ trend entry beats both.",
+  "rationale": "Strong ADX 64 uptrend but stretched: +1.89% above VWAP, 5m RSI 74 overbought, 4h bearish divergence, and price 3.2% under 104.64 resistance. Structure leans against a fresh long (bias -0.138, orderbook -0.169, sell-side) and macro is hostile (lower Nasdaq open, fearful crypto, MSTR lagging BTC by -5%). A market long is chasing; a short lacks momentum with zero funding and intact uptrend. Best expectancy is to wait for a pullback to VWAP (~99.5) that keeps the trend alive, so I hold and arm the trigger.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 99.5,
+    "expires_min": 240,
+    "note": "Pullback into VWAP zone resets overbought and offers a clean trend-continuation long entry with the 4h/5m uptrend intact; also alerts if the up-move is failing."
+  },
+  "transcript": {
+    "macro": "Crypto neutral-to-cautious, NOT risk-on. BTC ~$64.3k chopping, dominance ~56.3%, Fear&Greed 29 (fear), compressed BBs = vol expansion pending. Nasdaq is bigger MSTR driver and deteriorating: Jul 22 futures lower (-0.7%) into Alphabet/Tesla earnings tonight; Brent >$92 reviving inflation fear; FedWatch ~24% July hike. Derivatives: funding 0.0 (neutral), OI ~29,898 (uptrend unconfirmed, looks like drift), long/short 1.29 (mild long lean), orderbook -0.169 (sell-side), structure_bias -0.138 (against long). btc_corr 0.687, rel_strength -4.99% (LAGGING BTC). Earnings ~Jul 30 (outside 48h). Net: MIXED-to-HOSTILE for a long; short not cleanly supported either; flat-to-small is the honest call.",
+    "sentiment": "BTC ~$65.8K, -$450 on day but near 2-week high after 5 days of ETF inflows (>$600M) \u2014 fragile bounce. MSTR equity +29% off late-June low but on FADING volume and NEGATIVE money flows. Near-term binary: Q2 earnings Thu Jul 30 after close + FOMC Jul 28-29 \u2014 both cluster late-July, vol builds into month-end not today. No fresh <=48h shock (no ATM print, index inclusion, hack, or dated Saylor catalyst). Latent risk: earlier-July 'legal scrutiny fueling volatility'. Net: NEUTRAL with slight bearish tilt for hours-to-2-day horizon; caution/tighter sizing rather than pressing a fresh long.",
+    "analyst": "Strong ADX 64 uptrend but stretched: last 101.34, +1.89% above VWAP, 5m RSI 74 overbought, 4h RSI 68.7 with bearish divergence, price 3.2% under 104.64 resistance (support 89.95). Structure leans against a fresh long (bias -0.138, orderbook -0.169). A market long chases an extended move into resistance \u2014 the account's #1 loss pattern. A short isn't supported either (zero funding, ADX 64 uptrend intact, no downside momentum). HOLD and arm a reconsider trigger at ~99.5 (VWAP zone): a pullback that holds resets the overbought condition and offers a clean trend-continuation long entry.",
+    "portfolio": "MSTR/USDT:USDT \u2014 HOLD (conf 0.60): stretched into resistance in a hostile macro tape; wait for a VWAP pullback to ~99.5 for a clean long."
+  },
+  "timestamp": "2026-07-22T10:58:55.417761+00:00"
+}

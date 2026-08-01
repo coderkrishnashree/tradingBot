@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "SNDK/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.4,
+  "playbook": "none",
+  "forecast": "Choppy drift between 1400 support and 1442 VWAP-area resistance over the next few bars; last 3 bars printed lower-highs closing 1415 near-low, but no clean break yet \u2014 expect 1400-1445 chop until 1400 either holds (bounce) or breaks (flush toward 1311).",
+  "expectancy_note": "No edge either way: long fights deepest RS (-48.9%), offer-heavy book (OBI -0.50) and 4h bearish divergence; short lacks a broken level and risks whipsaw on 2.1% ATR. p(win) ~0.5, sub-1.5 R:R both directions \u2014 flat beats forcing it.",
+  "rationale": "SNDK is stretched after a huge run (4h RSI 71.4, bearish divergence) and rolling over bar-by-bar off the 1455 high, but mid-TFs are flat/neutral with no clean trend to join and support is far at 1311. A long collides with tape leadership, structure_bias -0.29 and a heavy offer stack; a short has no confirmed breakdown level yet and would get whipped by any VWAP-reversion bounce on a whippy 2.1% ATR name. Macro also says smaller size / no overnight into GOOGL/INTC earnings \u2014 HOLD is the highest-expectancy call until 1400 resolves.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 1400,
+    "expires_min": 240,
+    "note": "Losing the 1400 higher-low base (defended thrice) with the offer-heavy book behind it confirms the rollover and opens a short toward 1311 support."
+  },
+  "transcript": {
+    "macro": "Fragile chip rebound, megacap earnings week. SNDK HEADWIND: RS -48.9% deepest laggard in scan, 4h bearish divergence, structure_bias -0.29, orderbook_imbalance -0.50 heavy offer stack, ATR 2.1% whippy. Long fights tape leadership and its own book \u2014 smallest size or skip.",
+    "sentiment": "SNDK BULLISH tilt, no imminent binary (earnings Aug 5). NAND supply tight, Q3 rev +251% YoY, 78% margins; but 4h bearish divergence after huge run \u2014 stretched. Rides memory/chip sentiment.",
+    "analyst": "SNDK at 1415.43. RS -48.9%, 4h RSI 71.4 + bearish divergence, orderbook -0.50, ATR 2.1%. Rolled over off 1455 high, last 3 bars lower-highs closing near low; 5m short. Mid-TFs flat, support far at 1311. Long fights book/tape; short has no broken level and whipsaw risk. HOLD.",
+    "portfolio": "HOLD SNDK \u2014 rolling but no confirmed breakdown; short trigger on loss of 1400."
+  },
+  "timestamp": "2026-07-20T18:42:42.916148+00:00"
+}

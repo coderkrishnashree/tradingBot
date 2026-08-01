@@ -1,0 +1,28 @@
+{
+  "symbol": "TSLA/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.66,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "none",
+  "forecast": "Pre-open thin tape; last 4 bars stalled at 385-386 after the 382->386 ramp, so likely chop/small fade toward 382 VWAP support before the 09:30 cash open decides direction \u2014 no clean tradable edge until then.",
+  "expectancy_note": "Long = chasing RSI 78 / %B 0.97 extreme into risk-off = negative expectancy (account's #1 loser); short fights ADX 61 uptrend with no reversal print; HOLD is highest EV, especially with Wed earnings binary (~7.6% implied).",
+  "rationale": "TSLA is stretched into the upper Bollinger band (RSI 78, %B 0.97, stoch 83) with rel-strength -18.5% in a risk-off, hawkish-Fed tape, and the scan is pre-cash-open (08:38 ET) when the tokenized equity is thin and gappy \u2014 no pre-open entries. Chasing the long here is precisely the late-into-stretched-tape pattern that gets bounced through any honest stop, and Wednesday's earnings (~7.6% implied move) forbids carrying size. A short needs a confirmed reversal that hasn't printed. No positive-expectancy setup \u2014 stand aside.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 382.0,
+    "expires_min": 240,
+    "note": "Losing the 382 VWAP/15m-support after the cash open breaks the intraday uptrend structure and would open a mean-reversion short toward 377.78 support worth re-debating."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF; AI-capex/semi scare; hawkish Fed; pre-cash-open thin/gappy until 09:30 ET (no pre-open equity entries). TSLA headwind: RSI 78 (15m), stretched into resistance, ADX 61, rel-str -18.5%, negative 4h MACD. One of the most dangerous longs (overbought).",
+    "sentiment": "TSLA HIGH event risk: earnings Wed July 22, 5:30pm ET. Q2 deliveries already beat big (480k, +25%); options imply ~7.6% move on the print. Guidance/margins the swing factor. Bullish delivery setup but binary event risk; avoid carrying size through Wed's report.",
+    "analyst": "Stretched into upper BB (RSI 78, %B 0.97, stoch 83), rel-str -18.5%, risk-off, pre-open thin. Chasing the long = account's #1 loser; short fights ADX 61 with no reversal print. Earnings ~7.6% implied forbids carrying size. HOLD; arm mean-reversion short below 382 after the open.",
+    "portfolio": "TSLA: HOLD (conf 0.66) \u2014 overbought, no chase, earnings binary; arm short below 382."
+  },
+  "timestamp": "2026-07-20T12:44:15.640089+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "QQQ/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price stays pinned in the 704.7-707.4 coil for the next several bars; stretched 1h RSI 87 / stoch 93 / %B 0.97 favor a small mean-revert dip toward 704-705 before any resolution. No clean directional edge until it either breaks and holds >707.4 or flushes to the 688 support / VWAP shelf.",
+  "expectancy_note": "p(win) ~0.5 at best if forced; RR poor: long chases a fully-stretched top into resistance 3% away with only 0.58% ATR, short has no trigger against ADX 58 uptrend. HOLD is highest expectancy vs a coin-flip chase.",
+  "rationale": "QQQ is consolidating just under 707.4 resistance with momentum fully stretched (1h RSI 87, stoch 93, %B 0.97, VWAP +0.76%) \u2014 a long here is exactly the account's #1 loss pattern (buying continuation after the move, stopped by the counter-bounce), while tiny 0.58% ATR makes an honest range-beyond stop unprofitable to the next level. Macro/sentiment confirm range-bound with no catalyst inside 48h (earnings July 29-30 are outside the window). Wait for a pullback-to-support long or a confirmed hold above 707.4 rather than chase a mid-air, top-of-band tape.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 707.6,
+    "expires_min": 240,
+    "note": "A clean 15m close and hold above the 707.4 range/resistance ceiling breaks the coil and flips this to a breakout long toward 715+; losing 704.7 instead would open a mean-revert dip to the 688 support shelf for a better long entry."
+  },
+  "transcript": {
+    "macro": "Cautiously risk-on with hawkish-rates overhang. VIX 17.85 calm. QQQ broad Nasdaq-100 proxy, geared to this week's Big Tech earnings and the semi bounce. Slight positive funding (0.00014), near-balanced L/S (0.80) \u2014 least crowded, CLEANEST long structure of the group, but moves are index-sized (tiny ATR 0.58%).",
+    "sentiment": "QQQ neutral, range-bound near-term. Soft CPI supportive but hawkish Fed caps upside; base case consolidation. Real driver is the July 29-30 mega-cap earnings wall (outside window). No FOMC/data inside 48h. Watch risk-off spillover from KOSPI/Iran. Nothing news-driven to trade in the next 2 days.",
+    "analyst": "Consolidating just under 707.4 with momentum fully stretched (1h RSI 87, stoch 93, %B 0.97, +0.76% VWAP). A long here is the #1 loss pattern (continuation-buy stopped by the counter-bounce), and tiny 0.58% ATR makes an honest range-beyond stop unprofitable vs resistance ~3% away. No short trigger against ADX 58. Macro confirms range-bound, no 48h catalyst. HOLD; breakout long armed above 707.6, else buy a dip to the 688 shelf.",
+    "portfolio": "HOLD QQQ \u2014 cleanest structure in the book but stretched top-of-range with tiny ATR; breakout long armed above 707.6."
+  },
+  "timestamp": "2026-07-21T13:33:21.270668+00:00"
+}

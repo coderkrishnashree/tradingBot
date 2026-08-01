@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "ORCL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Illiquid weekend drift: price keeps grinding the 126.85-127.35 shelf with near-zero volume; no clean impulse either way in the next few bars. Edge only appears if it breaks 127.5 or loses 126.4 toward VWAP ~124.6.",
+  "expectancy_note": "No setup clears R:R>=1.5 with confirmation: long is crowded (L/S 2.73, most crowded in set), +1.85% above VWAP and 15m momentum is down; short fights up 1h/4h + strong ADX. p(win) of any market entry <0.5 into gappy weekend tape.",
+  "rationale": "ORCL is a rotation-destination software name but carries its own bearish overhang (-25% YTD, credit downgrade, -$23.7B FCF) and is the single most crowded-long name in the set (L/S 2.73, structure_bias -0.28), composite NOT aligned. The 15m tape is a dead near-zero-volume weekend drift with no level being tested, so any entry would be a chase or a knife-catch. HOLD; want a decisive shelf break plus real liquidity before size.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 126.4,
+    "expires_min": 240,
+    "note": "Losing the 126.85 base breaks the shelf and starts the crowded-long unwind toward VWAP ~124.6 - sets up a short with the structure_bias."
+  },
+  "transcript": {
+    "macro": "Rotation OUT of semis INTO software - ORCL is in the destination bucket (supportive) but has its own overhangs. Indices near highs, Fri -1.5% Nasdaq reversal. L/S 2.73 = most crowded-long name in set, structure_bias -0.28, composite NOT aligned. Funding ~0. Weekend gap risk; size down. FOMC Jul 28-29 outside window.",
+    "sentiment": "ORCL BEARISH/RISK tone, no imminent binary. Record Q4 (Jun 10) but stock -25% YTD, dragged by a credit downgrade and huge negative FCF (-$23.7B) from AI capex; $40B more financing planned. Sentiment heavy despite strong RPO backlog.",
+    "analyst": "Long p_win 0.71 offset by most-crowded-long (L/S 2.73), NOT-aligned composite, structure_bias -0.28, +1.85% above VWAP, bearish fundamentals, and 15m momentum down. Short fights up 1h/4h + ADX 50. 15m is a dead near-zero-volume weekend drift with no level tested. No honest edge; HOLD, re-debate as a short on a loss of 126.4.",
+    "portfolio": "HOLD ORCL - dead weekend drift, most-crowded-long with bearish overhang; armed short trigger below 126.4."
+  },
+  "timestamp": "2026-07-19T20:45:23.753237+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "HOOD/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Flat chop 98.8-100.3 just above 96.68 support; the 4h-RSI-6.2 washout bounce already spent its momentum on the LTFs (15m/30m/1h RSI 62-65), and Saturday thin tape offers no clean next leg either way.",
+  "expectancy_note": "Long = chasing a dead-cat that already ran (LTF no longer oversold) into a crowded-long book (L/S 1.786) on closed-market tape; short = late into 4h RSI 6.2 washout above support. Both sub-1.5 R:R with gap risk; flat is highest expectancy.",
+  "rationale": "Composite long is aligned:false - the 4h disagrees (score -0.212, RSI 6.2, structure_bias -0.255) while the LTF bounce has already faded to flat candles hovering at 99.7, so there is no momentum to forecast a continuation. Near-term fundamentals (ABS sale, credit-risk scrutiny, Meta Arena overhang) lean against the contrarian long, the book is lopsidedly long (contrarian-bearish), and it is a thin/gappy closed US market Saturday. No entry offers R:R >= 1.5 with an honest stop that survives noise, so I stand aside and arm triggers on the levels that would actually change the picture.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 106.0,
+    "expires_min": 240,
+    "note": "A VWAP-area reclaim (~106) proves the bounce has real legs beyond a dead-cat and validates a trend-continuation long toward 116.66."
+  },
+  "transcript": {
+    "macro": "Regime HOSTILE-to-MIXED, thin. Tech/semiconductor rout Thu-Fri. MARKET CLOSED (Sat) - thin/gappy. HOOD is the CONFLICT name: scan LONG conf 47.8 BUT structure_bias -0.255 (broken structure), L/S 1.786 lopsidedly long (contrarian short risk), 4h RSI 6.2 washout. Highest positioning risk of the four; size small if taken. HOOD Q2 earnings 7/29 outside window.",
+    "sentiment": "HOOD tone BEARISH near term, name-specific. Fell ~9% this week toward $100 support on real concerns: ~$500M ABS sale + consumer-credit/premium-card expansion raising credit-risk scrutiny. Tokenized-shares-on-Solana + prediction-market growth bullish long-horizon but little near-term impact. A bounce off oversold is a technical dead-cat, not news-supported.",
+    "analyst": "Composite long is aligned:false - 4h disagrees (score -0.212, RSI 6.2, bias -0.255) while the LTF bounce already faded to flat candles at 99.7 (15m/30m/1h RSI 62-65 = spent). Fundamentals lean against the contrarian long; book lopsidedly long (contrarian-bearish); thin/gappy closed market. Shorting = late into 4h RSI 6.2 washout above 96.68 support = classic loser. No R:R >= 1.5 either side. HOLD, arm long trigger on ~106 VWAP reclaim.",
+    "portfolio": "HOLD HOOD - genuine conflict resolves to no-trade; spent dead-cat bounce vs bearish fundamentals + crowded-long book; long only on ~106 reclaim."
+  },
+  "timestamp": "2026-07-18T23:12:07.482694+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "MSTR/USDT:USDT",
+  "size": 0.0,
+  "entry": 93.72,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.4,
+  "playbook": "none",
+  "forecast": "Price dead flat 93.6-93.8 on collapsing volume, pinned to VWAP; likely keeps chopping 93.4-94.1 into FOMC with no decisive next move.",
+  "expectancy_note": "No edge: mid-range, VWAP-pinned, volume dried up; 30m/1h long is a lagging BTC echo (corr 0.726, rel str -9.2%). R:R < 1.5, two binaries (FOMC + Thu earnings) inside window.",
+  "rationale": "MSTR is a crowded-long (L/S 1.50), lagging BTC-beta (rel str -9.18%) flat on VWAP with volume drying up after a failed pop to 94.10 - no pullback-to-support, no coil. Learner flags this profile as a loser. FOMC Jul 28-29 and binary earnings Thu Jul 30 both inside horizon; carrying naked risk has negative expectancy. Wait for a real level break.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 94.15,
+    "expires_min": 240,
+    "note": "Close above 94.10 pop high on real volume reasserts 30m/1h momentum long with 93.4 stop."
+  },
+  "transcript": {
+    "macro": "Risk-off/defensive late Jul 2026. Nasdaq -2% wk, rotation out of tech. FOMC Jul 28-29 inside horizon = vol event, smaller size. Higher-for-longer rates/USD. BTC ~$64.7k range-bound, dominance 56.4%, Fear&Greed 29, no alt rotation. Book-wide crowded-long = contrarian downside risk. MSTR: BTC-proxy (corr 0.726), momentum long 30m/1h but lagging BTC (rel str -9.2%), crowded (L/S 1.50); neutral-to-soft.",
+    "sentiment": "Event cluster inside 48h: FOMC Wed Jul 29, then Thu Jul 30 (MSTR/COIN/AAPL earnings + BOJ). MSTR ELEVATED: Q2 earnings Thu Jul 30 after close (binary); down ~44% since last report; restructured treasury now SELLING BTC (3,588 BTC/$216M) to buy back shares. Do NOT carry naked through Thu.",
+    "analyst": "Crowded-long, lagging BTC-beta flat on VWAP, volume drying up after a failed pop; no setup. Learner flags this as a loser; shorts have bled. FOMC + binary Thu earnings = negative expectancy naked. Hold; long trigger above 94.15.",
+    "portfolio": "HOLD MSTR - no edge, wait for 94.15 break; do not carry into Thu earnings."
+  },
+  "timestamp": "2026-07-26T19:39:07.317979+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "EWY/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Extended +3.66% over VWAP after a 3-bar 171.78->174.25 rip; 174.76 was rejected. Expect a fade/consolidation back toward the 171.0-171.4 shelf (or VWAP ~168) over the next 4-8 bars, especially into tonight's INTC semi-print risk, before any clean trend re-entry.",
+  "expectancy_note": "Chasing the long here (RSI 68.6, stoch 85.4, %B 0.84) has negative expectancy: a routine counter-bounce/fade hits any honest stop before continuation. Shorting a strong ADX-40 uptrend on bid support is also low-p. Best EV is waiting for the pullback to buy the trend at VWAP.",
+  "rationale": "EWY is a strong 4h uptrend (ADX 40.5, all TFs long) but is stretched >3.6% above VWAP with RSI 68.6 and stochastic 85 right at the highs, and it is pure semi-beta (0.81 to MU) inheriting tonight's INTC-print binary in a MIXED-to-HOSTILE equity tape. No favorable R:R exists at 174.25: a market long chases into exhaustion, and a short fights strong momentum plus orderbook bid support (+0.151). The high-expectancy move is to wait for a fade to the 171 shelf / VWAP where a with-trend long offers a tight stop and 1.5R+ into resistance 181.57.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 171.0,
+    "expires_min": 240,
+    "note": "Reclaiming/holding the 171.0-171.4 shelf on a pullback resets a with-trend long entry near VWAP with a tight stop; losing 170.0 instead would signal the extended move is unwinding and keep me flat."
+  },
+  "transcript": {
+    "macro": "2026-07-23 regime MIXED-to-HOSTILE for fresh equity risk. Overnight session after megacap earnings (GOOGL -5%, TSLA -4% AH). Fading tape, breadth soft. FOMC Jul 28-29. Oil up on Iran = risk-off. Crowded-long basket, RS negative vs BTC. Size DOWN. EWY is pure semi-beta (0.81 corr MU, 0.78 SNDK) - inherits tonight's INTC-print risk. Real volume but extended (RSI 68, +3.7% vs VWAP).",
+    "sentiment": "EWY NEUTRAL-to-constructive. No fresh company catalyst; KOSPI hit fresh record July 22 (+0.74%). The 25% US tariff hike was a JAN 2026 event, already priced. Trades as risk-beta/semis proxy; follows global tech tone (tonight's Intel print + TSLA/GOOGL hangover matter more than Korea news). Tape-driven, neutral.",
+    "analyst": "EWY 174.25: 3-bar rip 171.78->174.25, 174.76 rejected, last bar closed mid-range. Strong uptrend (ADX 40.5, 4h up, all TFs long) but extended: RSI 68.6, stoch 85.4, %B 0.842, +3.66% vs VWAP. L/S 1.432 crowded long, OB +0.151 bid support, RS -13.22. Pure semi-beta inheriting tonight's INTC binary. No R:R: long chases exhaustion (#1 loss pattern), short fights strong momentum + bid support. HOLD; with-trend long on a fade to 171 shelf/VWAP.",
+    "portfolio": "EWY -> HOLD (conf 0.60): extended semi-beta into INTC binary; buy a fade to 171, don't chase."
+  },
+  "timestamp": "2026-07-23T00:36:01.125553+00:00"
+}

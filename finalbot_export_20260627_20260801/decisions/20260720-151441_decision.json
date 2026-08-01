@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "GOOGL/USDT:USDT",
+  "size": 0.0,
+  "entry": 356.89,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Vertical spike into 359-360 is stalling; last 4 bars roll over (359.3>357.3>356.9) with 5m RSI 28 exhaustion. Expect a mean-reversion drift toward VWAP/350-351 over next 2-6 bars, then chop into Wed earnings \u2014 no clean directional edge either way.",
+  "expectancy_note": "Long = chasing +2.26% above VWAP, %B 1.48, RSI 82 (the account's #1 loss pattern); short = knife-catch into ADX 82 uptrend with support far at 341.9 (>2x ATR away, poor R:R). Neither clears 1.5R; earnings binary Wed caps holding window. HOLD is best expectancy.",
+  "rationale": "GOOGL is vertically extended (RSI 82, ADX 82, price outside upper Bollinger at %B 1.48, +2.26% vs VWAP) and the last candles are rolling over off the 360 spike \u2014 a market long is chasing into exhaustion and a short fights an extreme trend with no reversal confirmation. The Wed-after-close earnings binary means any swing risks a coin-flip gap, so I will not carry directional risk. No entry clears a 1.5R hurdle to a real level, so size is zero.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 360.11,
+    "expires_min": 240,
+    "note": "A decisive reclaim and hold above the 360 spike high proves the pullback failed and continuation is resuming \u2014 only then would a tight trend-continuation long be worth debating (still avoiding overnight-into-earnings carry)."
+  },
+  "transcript": {
+    "macro": "Regime MIXED/fragile-recovering (2026-07-20). US equities bouncing today after ugly week; SOX ~-13%/month on AI-capex reset. VIX ~18-19. Rates supportive: June CPI 3.5%/2.6% core, ~63% Fed hold; FOMC Jul 28-29. Longs favored only while today's bounce holds; failed rebound flips hostile. Trade smaller on gappy names.",
+    "sentiment": "GOOGL: EARNINGS BINARY Wed Jul 22 after close (~4:30pm ET) \u2014 marquee event of the week. Consensus ~$2.89 EPS on ~$117B rev (~21% YoY); focus Cloud margins, TPU/Gemini. Tone bullish/high-expectations. Scan shows GOOGL vertical/OVERBOUGHT (RSI ~82, +vwap). Any long held into Wed close is a coin-flip gap. Short-horizon trades must avoid carrying risk over the print. Near-term news = elevated risk, not directional edge.",
+    "analyst": "Vertically extended (RSI 82, ADX 82, %B 1.48, +2.26% vs VWAP) and rolling over off the 360 spike with 5m RSI 28. Long chases exhaustion; short knife-catches an extreme trend; support 341.9 is >2x ATR away (poor R:R). Wed-after-close earnings binary bars any carry. No 1.5R entry \u2014 size 0.",
+    "portfolio": "GOOGL \u2014 HOLD (conf 0.60): overbought spike into a Wed earnings binary; no carry, wait for 360.11 reclaim."
+  },
+  "timestamp": "2026-07-20T15:14:41.242281+00:00"
+}

@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "SOL/USDT:USDT",
+  "size": 0,
+  "entry": 76.23,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.62,
+  "playbook": "none",
+  "forecast": "Pinned 1% above hard support 75.38 after a volume breakdown from the 76.4-76.67 coil; probe/chop 75.38-76.7. Decisive 15m close below 75.38 opens next leg toward ~74.7; reclaim of 76.9 confirms alt-rotation bounce. Neither confirmed.",
+  "expectancy_note": "No honest R:R either way: short into 5m RSI 31.9 just above support = account's late-short loss pattern (shorts 0.48wr/-1.54, trend 0.45wr/-2.51); long fights downtrend + long-crowding + heavy BTC beta (0.79) with CPI <24h. p(win) <0.5.",
+  "rationale": "SOL is caught mid-range 1% above support 75.38 with 5m RSI stretched to 31.9 and only -1.6% from VWAP, so there is no clean level to lean on for a short (downside to support 0.85 vs a stop clearing the 76.9 coil = sub-1.5 R:R) and no reversal confirmation for a long. It is mostly BTC-beta (0.79) into a heavy BTC tape with binary CPI in under 24h. Best expectancy is to wait for the level to resolve rather than pay to enter mid-air.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 75.3,
+    "expires_min": 240,
+    "note": "A decisive break of 75.38 support proves the downtrend's next leg and enables a clean breakdown-retest short with structure below to lean on."
+  },
+  "transcript": {
+    "macro": "Overall MIXED/risk-off: CPI Tue 07-14 (<24h binary), BTC heavy (62,850, order-book offered -0.692), BTC dominance at 1-mo low ~54% with alts breaking out. SOL 76.23 downtrend, sitting on support 75.38, RS +10.06% vs BTC (alt-rotation standout), long/short 2.55 crowded, structure_bias -0.286. HIGHEST BTC corr of group (0.789) = mostly BTC-beta. Least-bad long candidate on BTC stabilization; no urgent squeeze signal. MIXED.",
+    "sentiment": "NEUTRAL/BEARISH near-term. Long-term constructive (5 spot SOL ETFs live, >$1.12B inflows, Firedancer v1.0 + Alpenglow Q3). Near-term on-chain deterioration (MAU 2-yr low, TVL -56%, fees -50%). SEC staking-ETF decision 'as soon as July' wildcard, no dated <=48h. Highest BTC corr (0.79) amplifies broad moves. Short-horizon skew down with market.",
+    "analyst": "Price coiled 76.4-76.67 then broke down on volume to 76.05 low, small bounce, no reversal. Fresh short = shorting into 5m RSI 31.9 1% above hard support, poor R:R. Long fights multi-TF downtrend + crowding + heavy BTC tape + CPI. Best expectancy HOLD; loss of 75.38 opens leg down, reclaim of 76.9 signals bounce.",
+    "portfolio": "HOLD SOL \u2014 least-bad long only on BTC stabilization; mid-air with no edge into CPI, wait for 75.38 resolution."
+  },
+  "timestamp": "2026-07-13T11:05:30.931031+00:00"
+}

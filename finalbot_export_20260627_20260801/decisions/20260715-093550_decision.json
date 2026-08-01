@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "COIN/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Overbought stall: after peaking 164.27, price rolled to lower highs and tagged 162.16; expect chop 162-164 into the 13:30 UTC US open, likely a pullback toward VWAP/158-159 rather than a clean breakout.",
+  "expectancy_note": "Long = chasing RSI 79.5 into thin pre-market (account's #1 loss pattern), short = fading intact 4h uptrend (ADX 53.7) with no divergence; both sub-1.5 R:R.",
+  "rationale": "COIN is a tokenized equity scanned pre-US-open (09:29 UTC) with 4h RSI 79.5 \u2014 the most stretched crypto-proxy and weakest rel strength (+2.69%) vs MSTR/HOOD. The 15m sequence shows a stalling, lower-high pullback on dying volume, not a continuation trigger, and there is no support-level fade to take yet. No honest 1.5 R:R exists in either direction.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 164.27,
+    "expires_min": 240,
+    "note": "Reclaiming the 164.27 swing high flips to a momentum long toward 170.29."
+  },
+  "transcript": {
+    "macro": "RISK-ON but early/thin. BTC ~$64.8k +3.6%, funding flat. Crypto-proxy equities supportive but MOST crowded cluster. COIN high BTC-beta (corr 0.67); RSI 79.5 overbought (most stretched in cluster) \u2014 prefer pullbacks, first to flush.",
+    "sentiment": "COIN ~$158-163, ~64% below 52-wk high after bad Q1 (net loss $394M). Earnings Jul 30 (outside window). Mild negative: CLO Paul Grewal stepping down eff Jul 31 (not a price mover). Near-term NEUTRAL, follows BTC/risk tape; scan flags overbought.",
+    "analyst": "COIN tokenized equity pre-open, 4h RSI 79.5 (most stretched, weakest rel-strength +2.69%). 15m is a lower-high pullback on dying volume, not a trigger; no support fade yet. No 1.5R either way. HOLD; reclaim 164.27 flips to momentum long.",
+    "portfolio": "COIN: HOLD (conf 0.60) \u2014 most overbought crypto-proxy, stalling pre-open; no edge."
+  },
+  "timestamp": "2026-07-15T09:35:50.875940+00:00"
+}

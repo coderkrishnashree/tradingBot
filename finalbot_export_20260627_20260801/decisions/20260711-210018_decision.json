@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "EWY/USDT:USDT",
+  "size": 0.0,
+  "entry": 183.57,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.34,
+  "playbook": "none",
+  "forecast": "Dead flat: price stays pinned 183.3-183.9 on near-zero Saturday volume until US cash reopens; no directional leg to trade until Monday, and CPI Tue is the real catalyst.",
+  "expectancy_note": "No edge: closed-market drift, illiquid fills, no near structure (support 168.8 / resistance 196.23 both ~15% away), crowded-long into a bearish CPI print. Any honest ~1xATR ($2) stop has no level to lean on \u2014 negative expectancy vs waiting.",
+  "rationale": "EWY is in a ~50-cent micro-range on single-digit volume \u2014 pure weekend perp drift with no forecastable move and gap risk into Monday. RS -15%, long_short 1.174 crowded, structure_bias -0.048, and June CPI (bearish for high-beta semis) lands Tue inside the window. There is no R:R-viable setup here; HOLD is the highest-expectancy action. Size 0.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 182.8,
+    "expires_min": 240,
+    "note": "Losing the consolidation floor on real volume would start a fresh downside leg and confirm the bearish semi/RS/CPI short thesis worth re-debating."
+  },
+  "transcript": {
+    "macro": "Regime risk-on but stretched; semis volatile (Jul 7-8 rout then bounce). June CPI Tue Jul 14 08:30 ET inside the 2-day hold window; hot CPI hits tech hardest. Saturday Jul 11 US cash CLOSED \u2014 perps drift on near-zero volume, gap risk into Monday. EWY neutral bias -0.05, RS -15%, essentially closed-market drift; crowded-long positioning across names.",
+    "sentiment": "EWY bearish-tilted, high semi beta (~25% Samsung + ~20% SK Hynix \u2014 memory/HBM proxy). Violent week: KOSPI -5.35% Wed on chip selloff, +2.52% Fri rebound, another session -8%. Bank of Korea (bullish) calls selloff temporary 'portfolio rebalancing,' says semis haven't peaked. No SK-specific <=48h binary \u2014 moves are second-derivative of the chip trade.",
+    "analyst": "Price 183.57 pinned in a ~50-cent micro-range (183.35-183.88) on single-digit volume; RSI 46.6, BB %B 0.59 mid-band, VWAP +1.24%. Support 168.8 / resistance 196.23 both ~15% away \u2014 no proximate level. Structure_bias -0.05, long_short 1.174 crowded, RS -15%. Pure weekend perp drift with gap risk and CPI Tuesday inside the window; any honest ~1xATR ($2) stop has nothing to lean on. NO TRADE \u2014 HOLD, re-debate on a break below 182.8 confirming the bearish leg.",
+    "portfolio": "EWY/USDT:USDT \u2014 HOLD (conf 0.34): closed-market micro-range drift, no structure within reach, bearish semi/CPI tilt; wait for Monday liquidity."
+  },
+  "timestamp": "2026-07-11T21:00:18.994920+00:00"
+}

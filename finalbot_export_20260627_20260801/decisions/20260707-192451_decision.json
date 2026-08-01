@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "EWJ/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.12,
+  "playbook": "none",
+  "forecast": "No concrete next move: tape is dead (near-zero volume, many 0.0-vol candles, OI 1,250), Tokyo cash closed so EWJ is a stale synthetic that will GAP on Tokyo open rather than trend candle-to-candle. Last drift 93.59->92.9 is meaningless on <1.5 vol/bar.",
+  "expectancy_note": "No honest R:R computable - illiquid fills + gap-jumped stops make any entry negative-expectancy despite soft short tilt; HOLD is highest-expectancy.",
+  "rationale": "EWJ here is an extremely thin, stale synthetic: volume ~0, OI 1,250, underlying Tokyo market closed. ADX 69 and the oversold/bullish-divergence flags are artifacts of micro-moves on no volume, not tradeable signals. The soft short tilt (structure_bias -0.23, L/S 1.67 crowded long) is real but tiny and cannot compensate for illiquidity + gap risk that would jump any stop. Size 0 - the risk here is structural, not directional, and the environment does not justify exposure.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 91.84,
+    "expires_min": 480,
+    "note": "A clean break of support 91.84 on real Tokyo-open volume would confirm the risk-off/carry-unwind short thesis and justify re-debating a minimum-size fade-with-structure short."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF, hawkish-Fed (Jul 7); global impulse = rotation OUT of tech. EWJ: scan last 92.9, composite FLAT (-0.067, conf 8%). 5m/15m volumes near ZERO (many 0.0-vol candles), OI only 1,250 - EXTREMELY THIN. Positioning: L/S 1.67 (moderately crowded long), structure_bias -0.23 soft short tilt but on almost no volume. Tokyo cash market CLOSED during scan - stale synthetic that will GAP on Tokyo open. KEY RISK STRUCTURAL not directional: illiquidity + gap risk. If traded at all, minimum size.",
+    "sentiment": "EWJ bullish trend but stretched. Nikkei ~69,700, +9.5% MoM, +77% YoY - strong momentum. Main risk BOJ tightening (~0.75%, split on hikes toward 1.0% late 2026); hawkish shift risks carry-trade unwind - but NO BOJ meeting inside 48h, background risk not scheduled catalyst. EWJ USD-denominated so yen strength caps gains. Net: bullish trend intact, no imminent binary - a short is countertrend unless a risk-off/carry-unwind shock hits.",
+    "analyst": "Textbook NO TRADE. Dominant fact is structural illiquidity (volume ~0, OI 1,250, Tokyo closed, gap risk) making every indicator an artifact and stops/fills unreliable - negative expectancy for any entry. Only genuine tilt is a soft structure-based short (bias -0.23), too small to overcome gap/fill risk. HOLD size 0; re-debate armed below support 91.84 on real Tokyo-open volume.",
+    "portfolio": "EWJ: HOLD (conf 0.12) - illiquid stale synthetic, gap risk; no exposure. Short re-debate armed below 91.84 on real volume."
+  },
+  "timestamp": "2026-07-07T19:24:51.992320+00:00"
+}

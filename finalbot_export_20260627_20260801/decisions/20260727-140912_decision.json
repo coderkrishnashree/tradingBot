@@ -1,0 +1,28 @@
+{
+  "symbol": "MU/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.6,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "none",
+  "forecast": "Active waterfall still in motion: last bar printed a fresh low 905.53 and closed near it with no reversal candle. Expect either continuation to test 846 support or an oversold snap-back - undetermined until a bounce confirms; likely chop 905-925 near-term while the flush exhausts.",
+  "expectancy_note": "No edge: longing a falling knife (LTF RSI 14, no divergence, no reversal bar) or shorting a >2xATR-extended move (vwap -3.65%, %B 0.016) both fail R:R; wait for confirmation.",
+  "rationale": "MU is mid-flush (953->906 on expanding volume), ADX 10.5 chop/regime-blocked, LTF fully washed out (RSI 12-15, stoch 1.3) but with NO reversal bar or bullish divergence yet - a classic falling knife in a confirmed chip bear tape ahead of live FOMC. The lone bull tell is the +0.645 orderbook bid (dip-buying), but long/short still crowded 1.45 long into a downtrend adds flush fuel. Shorting here chases a >2xATR-extended move mid-air (the account's #1 loss pattern); longing needs a bounce that hasn't printed. HOLD and let the orderbook bid prove itself via a reclaim before committing size.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 937.0,
+    "expires_min": 240,
+    "note": "Reclaiming the 937 breakdown shelf proves the dip-buyers (orderbook +0.65) absorbed the flush and the oversold snap-back is real - flips this to a long toward 960/985 with a stop under the 905 low."
+  },
+  "transcript": {
+    "macro": "Semiconductor complex in an ACTIVE intraday flush (MU flushed to 906) + confirmed sector bear market (SOX >20% off highs; DeepSeek own-chip story, soft Samsung) = hostile for longs, knife-catch only. Tokenized equity on US cash-session clock -> gappy off-hours/weekend. DOMINANT SHARED RISK: FOMC Wed Jul 29.",
+    "sentiment": "MU has the STRONGEST fundamentals of the group - fiscal Q3 rev quadrupled to $41.5B, guiding ~$50B next qtr, DRAM pricing surging on AI - but already reported (late June) and got hit 6-10% in the July semi selloff. No <=48h catalyst; high-quality name trapped in a risk-off chip tape.",
+    "analyst": "MU 906.25, regime chop/blocked (ADX 10.5), mid-waterfall 953->906 on expanding volume, LTF washed out (RSI 12-15, stoch 1.3), -3.65% below VWAP, %B 0.016, fresh low on the last bar with NO reversal candle. Lone bull tell = orderbook +0.645 (dip-buying), but L/S still 1.45 crowded long = flush fuel. Short chases >2xATR mid-air; long needs an unprinted bounce. HOLD; long only on reclaim >937.",
+    "portfolio": "MU/USDT:USDT - HOLD (conf 0.60): best fundamentals but mid-flush, dip-bid unconfirmed; arm long on reclaim >937."
+  },
+  "timestamp": "2026-07-27T14:09:12.715868+00:00"
+}

@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "AAPL/USDT:USDT",
+  "size": 0.0,
+  "entry": 315.68,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.4,
+  "playbook": "none",
+  "forecast": "Frozen weekend proxy: price stays pinned in the 315.2-316.0 band on near-zero volume into Monday's cash open; no directional edge until 316.77 resistance breaks or 315.2 base fails on real liquidity.",
+  "expectancy_note": "p(win) ~0.5 coin-flip; no honest R:R because ATR 0.66% gives a paper-thin stop that Monday's CPI-adjacent gap can leap over. HOLD is highest expectancy.",
+  "rationale": "US equities closed until Mon Jul 13; 15m candles show a dead sideways pin (315.2-316.0) with sub-1-unit volume, so the 1h 'long' score is a stale off-hours artifact, not tradeable momentum. bb_width squeezed (2.48%) but there is no trigger and no liquidity to express a breakout, and June CPI Tue creates gap risk that would blow through the wafer-thin 0.66% ATR stop. AAPL is a relative leader (+6.85%, btc-independent) so it earns a Monday watch, not a weekend entry.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 316.77,
+    "expires_min": 240,
+    "note": "Clean reclaim/break of 316.77 on real Monday-open volume flips this to a breakout long."
+  },
+  "transcript": {
+    "macro": "Cycle 2026-07-11 (Sat, US cash equities CLOSED, reopen Mon Jul 13). Broad regime RISK-ON but late-stage/overbought. Tokenized-stock pairs thin/gappy off-hours - size down, expect slippage, stale proxies until Monday. AAPL LONG-friendly per macro lean but no standout signal; general overbought backdrop.",
+    "sentiment": "AAPL NEUTRAL - Q2 earnings Jul 30 (out of window). No fresh 48h catalyst; June CPI Tue Jul 14 08:30 ET is the only near-term mover.",
+    "analyst": "HOLD. Weekend-closed tokenized equity trading as a stale, illiquid proxy in a dead 315.2-316.0 pin (sub-1-unit volume), so the 1h long score is a stale artifact. bb_width squeezed but no trigger/liquidity; 0.66% ATR stop too thin against Tue CPI gap risk. Relative leader (+6.85%, btc-independent) earns a Monday watch, not a weekend entry. Reconsider above 316.77.",
+    "portfolio": "HOLD AAPL/USDT:USDT - conf 0.40, size 0."
+  },
+  "timestamp": "2026-07-11T07:32:44.031556+00:00"
+}

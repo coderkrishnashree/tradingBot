@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "EWJ/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Thin oversold drift (RSI 27, %B 0.09) chops between 92.6 and ~93.3 into the US CPI print at 08:30 ET tomorrow, then gaps directionally on the Wall St lead; no clean pre-event path.",
+  "expectancy_note": "No edge: shorting into 4h RSI 27 / %B 0.09 is the account's #1 loss pattern (late short, bounce stops it; short trend playbook -2.51 avg pnl), and a long bounce has no confirmation and faces a binary CPI gap. p(win)~0.5 either way = negative expectancy before fees.",
+  "rationale": "EWJ is deeply oversold and stretched (4h RSI 27, stoch 21, %B 0.09, VWAP -1.56%) but sitting mid-air between support 90.27 and resistance 95.45 on near-zero volume, with the single biggest catalyst (US June CPI, ~58% Sept-hike odds) landing in ~13h off-hours \u2014 EWJ will gap on the US lead either way. Chasing the short here is exactly how this book's losers died (late short into stretched tape, stopped by the counter-bounce), and a mean-reversion long has no divergence/confirmation and no room before the binary. Highest-expectancy action is to stand aside through the whipsaw and let CPI define the level; no size justified into a coin-flip gap.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 90.27,
+    "expires_min": 240,
+    "note": "Losing the 90.27 4h support after CPI confirms the downtrend resumes with clean room to run toward the next leg, turning the oversold grind into a valid trend-continuation short with structure, not a chase."
+  },
+  "transcript": {
+    "macro": "Regime: risk-off/mixed. Hawkish-Fed tape \u2014 US CPI at 3yr high on energy (US-Iran), Fed (Warsh) shifted to prolonged pause with live HIKE risk H2 2026 (~58% odds Sept hike); strong USD, headwind for tech & gold. June CPI + Warsh first testimony land Tue Jul 14 8:30am ET = gappy 24-48h headline risk; US-Iran oil tail risk off-hours. EWJ: Nikkei +30% YTD but stretched; yen 40-yr low (USD/JPY ~162), BoJ Jul 30 carry-unwind tail; weak-yen FX drag on USD-priced EWJ. Scan short -0.48, RSI 27. Regime call: risk-off/mixed, size smaller into CPI.",
+    "sentiment": "ONE tradable near-term catalyst across all five: US June CPI Tue Jul 14 8:30am ET (+ Warsh testimony). ~58% odds Sept hike; hot=risk-off, soft=relief rally. All earnings Jul 29-30 (outside 48h). EWJ neutral-to-mildly-bullish but FX distortion \u2014 Nikkei near ATH (~70,000, strong Tankan/semis); weak yen flatters Nikkei but HURTS USD-denominated EWJ; no Japan <=48h binary, gaps on US CPI/Wall St lead given off-hours mismatch.",
+    "analyst": "EWJ deeply oversold/stretched (4h RSI 27, stoch 21, %B 0.09, VWAP -1.56%) sitting mid-air between support 90.27 and resistance 95.45 on near-zero volume, with US June CPI in ~13h off-hours guaranteeing a gap. Shorting here is the account's #1 loser (late short into stretched tape, stopped by counter-bounce; short trend playbook -2.51 avg pnl); a mean-reversion long has no confirmation and no room before the binary. HOLD, size 0; reconsider a trend-short only on a decisive loss of 90.27 support post-CPI.",
+    "portfolio": "EWJ \u2014 HOLD (conf 0.60): no edge, stand aside through the CPI whipsaw."
+  },
+  "timestamp": "2026-07-13T20:04:02.446933+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "AAPL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.4,
+  "playbook": "none",
+  "forecast": "Thin overnight drift stalling at 338 just under resistance 339.51 on dying volume; expect chop 336.5-339.5 until the 13:30 UTC cash open, then a decisive reaction at 339.51 - clean break-and-hold above opens continuation, rejection sends it back toward VWAP/336.",
+  "expectancy_note": "No 1.5R exists: long at 338 has only ~0.4% to resistance vs ~0.45% stop (R:R<1) and is a chase into RSI77/ADX90 extension; short fights the trend+contrarian-bullish crowd (learner: shorts 44% win, -1.02). HOLD is highest expectancy.",
+  "rationale": "AAPL is in a stretched overbought grind (4h RSI 77, ADX 90, bb_pctb 1.03, bearish divergence) pinned just under resistance 339.51 on drying overnight volume with US cash closed - the textbook 'don't chase the extended move into resistance' setup that has killed this account's late entries. There is no honest 1.5R here: a long is capped by resistance ~0.4% away, and a short fights both the trend and the contrarian-bullish net-short crowd. Earnings Thu after close is a binary I will not carry, so any entry must be a same-session reaction at the open, not on dead tape. Wait for the 339.51 test to resolve.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 339.7,
+    "expires_min": 240,
+    "note": "A break-and-hold above resistance 339.51 (into 339.7) on real cash-session volume confirms breakout continuation and would trigger a long with a stop back under 338; a rejection instead keeps this a HOLD."
+  },
+  "transcript": {
+    "macro": "Tokenized US equities, judge as EQUITY. Regime MIXED-to-HOSTILE for fresh risk into FOMC Wed Jul 29 + AAPL/AMZN earnings Thu Jul 30 after close; defensive tape, semiconductor selloff deepening; US cash closed at scan time (thin/gap-prone overnight). AAPL bias LONG per structure but do NOT hold naked into earnings. Price 338.03 at/above resistance 339.51, RS +8.1% vs BTC (leading), not BTC-beta (corr -0.11). Stretched: 4h RSI 77, ADX 90, bb_pctb 1.03, bearish divergence. Funding -0.00034, OI 6257, L/S 0.87 (net-short crowd, contrarian bullish), orderbook imbalance -0.45. structure_bias ~+0.039 (neutral). Favor intraday only, exit before Thu close, smaller size.",
+    "sentiment": "Market-wide risk-on into month-end but FOMC Wed Jul 29 2pm ET is the big <=48h binary; chip/AI-capex selloff dragging semis (not directly AAPL). AAPL EARNINGS THU JUL 30 after close - dominant binary; consensus ~$108.8B rev, EPS ~$1.89 (~+20% YoY). Tone BULLISH and extended: rallied ~3.5% Fri to ~$333, record ~$334-336 on China approving Apple Intelligence + pre-earnings optimism. Analyst PT raises (Citi $365/JPM $345/MS $360) low-weight/priced. Momentum bullish into the print but stretched; large overnight gap lands Jul 30 post-close.",
+    "analyst": "Low-volume overnight drift stalling at 338 right under resistance 339.51 with US cash closed. Long = chasing an extended, overbought move (4h RSI 77, ADX 90, bb_pctb 1.03, bearish divergence) into resistance = the account's #1 loss pattern. Short fights the trend and the contrarian-bullish net-short crowd (learner: shorts 44% win, -1.02 avg). No honest 1.5R: long has ~0.4% to resistance vs ~0.45% stop (R:R<1). Earnings Thu after close is a binary not to be carried. HOLD; the cleaner trade is a reaction at the 339.51 test at the US open.",
+    "portfolio": "AAPL - HOLD (0.40): no 1.5R on dead overnight tape; wait for the 339.51 test at the cash open, earnings Thu is a binary to avoid."
+  },
+  "timestamp": "2026-07-28T03:05:05.222459+00:00"
+}

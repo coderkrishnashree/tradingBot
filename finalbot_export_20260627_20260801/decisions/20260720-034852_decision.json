@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "GOOGL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Thin pre-open coil 348.4-349.1 persists into cash open; likely drift toward 347.9 support then a decision. No thrust yet on drying volume, so the next few bars stay range-bound.",
+  "expectancy_note": "No setup: chop at VWAP, ATR 0.36% too small vs any honest structural stop, R:R <1.5; shorts are a proven loser here (47% win, -0.88 avg) and a Wed earnings binary caps the hold.",
+  "rationale": "GOOGL is the weakest-conviction long in the group (comp 45%) yet structure is the most bearish (bias -0.37, funding highest and crowded-long 1.67, orderbook -0.295, bearish 4h divergence, RS -10.5%) \u2014 a classic crowded-long-into-a-binary trap, but the 15m tape shows only a dead 1-point coil at VWAP with drying volume, no breakdown to sell and no reclaim to buy. Shorting a coil pre-open into a thin, gap-prone equity with a Wed-after-close earnings binary (must not hold naked size into it) and an account whose short book bleeds is negative expectancy. Size zero; wait for the level to break.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 347.85,
+    "expires_min": 240,
+    "note": "Losing the coil base/347.9 support confirms the bearish structure resolving down \u2014 re-debate a short toward 345 with a stop over 349.1, provided it is not stranded into the Wed earnings window."
+  },
+  "transcript": {
+    "macro": "Environment MIXED-to-HOSTILE. GOOGL: corr 0.30, rel-strength -10.5%, struct_bias -0.37. Mega-cap, less chip-exposed but still inside the Nasdaq drawdown. Bearish divergence, orderbook -0.295, funding highest in group (0.0002), L/S 1.67 crowded-long. Low conviction long; wait for cash open (13:30 UTC). Thin/gap-prone pre-open.",
+    "sentiment": "US tech RISK-OFF, chip-led. GOOGL BEARISH-SKEW / HIGH event risk: reports Wed Jul 22 after close (cons ~$2.88 EPS, ~$117-120B rev; Cloud growth key). A <=48h binary landing right at cycle-end \u2014 expect vol compression then a gap. Scan flags bearish 4h divergence. Do NOT hold naked size into Wed close.",
+    "analyst": "Weakest-conviction long but most-bearish structure (crowded long into a binary), yet the 15m tape is a dead 1-point coil at VWAP with drying volume \u2014 no breakdown to sell, no reclaim to buy. ATR 0.36% too small for an honest stop; shorting a coil pre-open into a Wed earnings binary with a losing short book is negative expectancy. HOLD; watch a break of 347.85.",
+    "portfolio": "GOOGL -> HOLD (conf 0.60): crowded-long-into-earnings trap but no tape yet; wait, do not carry naked size into Wed."
+  },
+  "timestamp": "2026-07-20T03:48:52.037564+00:00"
+}

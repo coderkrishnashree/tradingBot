@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "SNDK/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Pre-open thin tape: the bounce to 1391 just got rejected and the last 15m bar closed on its low (1372.9); expect chop 1355-1385 into the 09:30 ET open, then direction resolves on the cash session \u2014 a break under 1354 opens 1311, a reclaim of 1391 restarts the squeeze.",
+  "expectancy_note": "No tight structural stop (support 1311 is ~4.5% away, resistance 1971 is stale) and US cash CLOSED = gappy thin tape; shorting the most-crowded name into a still-long 30m/1h composite pre-open is negative expectancy despite the bearish structure \u2014 wait for the level to resolve.",
+  "rationale": "SNDK is the most crowded/extended name (structure_bias -0.581, orderbook -0.498 real sell pressure, bearish divergence, rel-strength -46.7%) and the intraday bounce to 1391 was just rejected with the last bar closing on its low \u2014 a genuine bearish lean. But price sits below VWAP with no tight structural stop, ADX is only mid, and the tape is pre-open thin/gappy with the 30m/1h composite still strongly long, so a late short here risks the classic bounce-stop. A long is out of the question against the sector selloff and crowding. Highest-expectancy move is to hold flat and let the 09:30 open resolve direction.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 1354.0,
+    "expires_min": 240,
+    "note": "Losing the recent 15m swing low (1354) confirms the 1391 rejection and the crowded-long unwind, opening a short toward 1311 support with a stop back above 1382."
+  },
+  "transcript": {
+    "macro": "Regime MIXED/cautious. US cash closed pre-open; tokenized perps thin/gappy until 09:30 ET. Semi slide drove last week's selloff (direct headwind for memory/semis). Positioning CROWDED LONG. SNDK MOST crowded/extended: structure_bias -0.581 (funding +0.0006 hot, L/S 1.641, orderbook imbalance -0.498), bearish divergence, rel-strength -46.7% vs BTC. Highest squeeze/reversal risk in the set.",
+    "sentiment": "SNDK very strong tone \u2014 top S&P YTD (+700%+), NAND supply tightness; Goldman PT $2,200 (long-horizon). Earnings NOT until Aug 5 (investor day Aug 13) \u2014 OUTSIDE 48h, no imminent binary, but stock euphoric/extended, moves with MU on memory-pricing headlines. Risk is a sentiment/sympathy unwind, not a scheduled event.",
+    "analyst": "Bounce to 1391 rejected, last 15m bar closed on its low (1372.9), back below VWAP. Bearish lean but no tight structural stop (support 1311 ~4.5% away, resistance 1971 stale), ADX mid, 30m/1h composite still strongly long, thin pre-open. Late short risks bounce-stop; long is out vs sector selloff + crowding. HOLD; arm short on loss of 1354.",
+    "portfolio": "SNDK: HOLD (conf 0.60) \u2014 bearish lean but no tight stop pre-open; short arms below 1354."
+  },
+  "timestamp": "2026-07-20T08:43:13.298454+00:00"
+}

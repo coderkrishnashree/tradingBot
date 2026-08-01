@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "MU/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.55,
+  "playbook": "none",
+  "forecast": "After a -6% waterfall into 881.31 support, the last bar bounced off the low on lighter volume - expect a relief bounce toward the broken 905-908 shelf/VWAP over 2-6 bars, then the trend/catalyst likely reasserts down.",
+  "expectancy_note": "No clean R:R now: stop-below-support short chases a -6.9% VWAP extreme (support 881 only ~1% away = R:R<1); a long fights ADX 67 downtrend + bearish Jul-10 catalyst. Best EV is to wait for the bounce to reload a trend short at resistance.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 906.0,
+    "expires_min": 240,
+    "note": "A relief bounce into the broken 905-908 shelf/VWAP that stalls sets up a clean trend short with the semis de-rate and Jul-10 catalyst at a proper R:R."
+  },
+  "rationale": "MU is in a violent semis-de-rating downtrend (ADX 67, rel-strength -20.5%, all TFs short) but now capitulation-oversold (RSI 24.7, stoch 7.7, %B 0.08, -6.9% below VWAP) and just tapped 881.31 support with a buy-back candle - worst spot to initiate a short, dangerous to long against the tape/catalyst. Crowded longs (L/S 2.3) and the SKHY IPO Jul-10 keep bias bearish, so re-short the bounce, not the low. Size 0.",
+  "transcript": {
+    "macro": "RISK-OFF/defensive tape (2026-07-08 08:52 UTC snapshot): synchronized down-leg across equities+crypto. ACTIVE semiconductor de-rating is the dominant theme (SOX -4.5%, Micron -4.7%; Samsung spook + DeepSeek own-chip). Treat semis (MU/SNDK/INTC) as ONE correlated basket (MU/SNDK 0.83, MU/INTC 0.64). Mega-cap tech (AAPL +4.3%, META +5.8%, MSFT) holding up far better - weakness concentrated in chips, not broad tech. BTC ~$62k at 21-month low, structurally weak; BTC dominance 55-56% rising = no altseason. BTC L/S 1.49, SOL L/S 2.21 (crowded long into downtrend = squeeze-both-ways). MSTR is a leveraged BTC proxy (corr 0.79), not an independent equity. Silver ~$60-62, down 8.2% on the month, rolling over on hawkish-Fed repricing. Tokenized stocks were PRE-OPEN/thin at snapshot with a US-open re-pricing gap ahead - size down. June CPI Jul 14 is the biggest scheduled risk; earnings season opens late July (all in-scope names report Jul 23-30, outside the 48h window).",
+    "sentiment": "Risk-off. Crypto Fear&Greed ~20 (Extreme Fear). BTC broke $60k to 21-month low, Coinbase premium negative 50 straight days (record), ~$6B YTD spot-ETF outflows, Strategy sold 3,588 BTC (~$216M) this week, EU signaling tighter crypto regulation - freshest, still-moving bearish news is in BTC/SOL/MSTR. SOL stuck near $80 with Q3 token-unlock overhang; Alpenglow upgrade is Q3, not <48h. Semis: MU down ~22% from post-earnings highs, SNDK up ~635% YTD now unwinding, INTC -21%/7d on 18A yield doubts. Only hard dated <=48h catalyst is the SK Hynix (SKHY) ~$28B Nasdaq IPO on Jul 10 - a headwind for MU and the memory group (SNDK). All equity earnings (AAPL/META/MSFT/INTC/MSTR) sit a week-plus out, so those are macro/beta-driven this cycle, no imminent binary. Markets pricing a possible year-end Fed HIKE - pressures metals (XAG) and risk.",
+    "analyst": "Violent semi downtrend but capitulation-oversold at 881 support with a buy-back bar. Short here is R:R<1; long fights the Jul-10 SKHY catalyst. Reload the short on a bounce to ~906. Armed reconsider at 906.",
+    "portfolio": "HOLD MU - bearish into SKHY IPO, but re-short the ~906 bounce not the flush low."
+  },
+  "timestamp": "2026-07-08T09:01:30.795177+00:00"
+}

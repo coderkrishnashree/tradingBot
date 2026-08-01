@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "SOL/USDT:USDT",
+  "size": 0.0,
+  "entry": 77.65,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.35,
+  "playbook": "none",
+  "forecast": "Slow bleed continues: choppy drift 77.3-78.0 with a likely test of the 77.30 shelf over the next 2-6 bars; only a break of 77.30 opens 76 then support 74, while reclaim of 78.9-79.0 revives the 4h-long. No clean entry at mid-range now.",
+  "expectancy_note": "p(win)~0.5 coin-flip; no R:R>=1.5 setup at mid-range. Shorts have bled this book (0.47 win, -1.59 avg over 30); shorting a slow bleed near mid = chasing. HOLD beats both.",
+  "rationale": "Composite is flat (0.067, conf 5.8%) with conflicting TFs - 15m/1h micro-bearish vs 4h long - and price sits mid-range between 74.04 support and 82.75 resistance right at VWAP (+1.3%), offering no level to lean on. It's largely BTC-beta (corr 0.755) while BTC is toppy at 65.5k resistance (RSI 69), and positioning is heavily crowded long (L/S 2.61, structure_bias -0.333), so a BTC fade would unwind SOL longs. The recent 15m path is a low-volume drift lower, not a tradable impulse; no honest stop gives R:R>=1.5 here, and the account's shorts lose money - best expectancy is to wait.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 77.3,
+    "expires_min": 240,
+    "note": "Losing the 77.30 breakdown shelf confirms the micro-bleed and opens the path to 76 then support 74 - arms a short re-debate; conversely watch a reclaim of 78.9 for the long side."
+  },
+  "transcript": {
+    "macro": "Regime MIXED-to-SUPPORTIVE (soft CPI -> risk-on, alt rotation as BTC.D slips ~56% toward 1-month low). BTC ~$65K 3-week high but toppy at 65.5k (4h RSI 69). SOL: L/S 2.61 HEAVILY long-skewed (structure_bias -0.33, long-crowding is the whole story), btc_corr 0.755, rel-strength +5.97% - largely BTC-beta. Supportive for direction but crowded long into BTC resistance; a BTC fade unwinds SOL longs.",
+    "sentiment": "Solana tone cautiously improving, riding BTC/CPI short-squeeze (0.755 corr to BTC). Supportive flow: US spot SOL ETFs net inflows every July trading day (>$1.12B cumulative), Morgan Stanley filed record-low 0.14% fees. NO 48h binary - Alpenglow upgrade is Q3. Below ETF-launch levels; key hurdle break above ~$80. Neutral-to-mildly-supportive; a beta play on the crypto bounce.",
+    "analyst": "Composite flat with conflicting TFs (15m/1h micro-bearish vs 4h long), price mid-range at VWAP between 74 support and 82.75 resistance - no level to lean on. BTC-beta into a toppy BTC, crowded long (L/S 2.61). Recent path is a low-volume drift, not an impulse; no honest R:R>=1.5 stop and shorts lose money here. HOLD.",
+    "portfolio": "SOL: HOLD (size 0) - flat mid-range BTC-beta, crowded long, conf 0.35."
+  },
+  "timestamp": "2026-07-15T17:36:22.858324+00:00"
+}

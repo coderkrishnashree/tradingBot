@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "HOOD/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.34,
+  "playbook": "none",
+  "forecast": "After the 102.7->99.74 liquidation flush closing 100.87 at VWAP, next 2-4 bars likely chop 100.0-101.5 as the flush settles; no edge until price either reclaims 101.7 (buyers absorbed, run at 102.7) or loses 99.74 (continuation to 96.68).",
+  "expectancy_note": "p(win) ~0.4 either way; long has no confirmation (knife-catch), short chases a stretched -2/bar flush (5m RSI 33.9) = the account's proven late-short loser. HOLD until the flush resolves at a level.",
+  "rationale": "Composite is nominally long but internally disagreeing (align_factor 0.7, conf 31%), LTF momentum flat-to-short, and price just took a violent one-bar flush on 13x volume to 99.74 before bouncing to 100.87 at VWAP. No clean R:R: a long is catching a knife with only the 4h onside, and a short chases an already-stretched move into a likely counter-bounce (the exact pattern the learner shows shorts losing at -0.77 avg). Best expectancy is to wait for the flush to pick a side.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 101.7,
+    "expires_min": 240,
+    "note": "Reclaiming 101.7 proves buyers absorbed the liquidation flush and revives the 4h long for a run back to 102.7; a break below 99.74 instead confirms continuation toward 96.68 support."
+  },
+  "transcript": {
+    "macro": "Cautiously risk-on, low-conviction; BTC chop; no FOMC in 48h. HOOD: long composite but align_factor 0.7 (signals disagree); just sold hard on last two 15m candles (102.7 -> 100.9); fintech / high crypto-beta (BTC-corr 0.54); choppy, low conviction; funding near-zero.",
+    "sentiment": "Crypto Fear&Greed 36 \u2014 headwind for crypto-beta fintech. HOOD: earnings 7/29 (outside window); Q2 EPS ~$0.40 expected but double-digit y/y decline anticipated (fundamental risk building, not this cycle); growth story multi-quarter, low weight; no tradable news \u226448h.",
+    "analyst": "Fresh one-bar liquidation flush (102.7->99.74 on 13x volume) closing 100.87 at VWAP is unresolved; composite nominally long but disagreeing (align_factor 0.7, conf 31%), LTF flat-to-short. Long = knife-catch, short = chasing a stretched flush into a likely bounce. HOLD; reconsider on a reclaim of 101.7, downside flip at 99.74.",
+    "portfolio": "HOLD HOOD \u2014 unresolved flush, no clean R:R; armed long above 101.7."
+  },
+  "timestamp": "2026-07-20T13:44:05.749018+00:00"
+}

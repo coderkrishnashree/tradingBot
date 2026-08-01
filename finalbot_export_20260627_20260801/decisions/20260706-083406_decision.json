@@ -1,0 +1,23 @@
+{
+  "symbol": "MU/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.5,
+  "size": 0.0,
+  "entry": 1004.74,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "rationale": "Tape is bearish/trending (composite -0.354, all TFs down, ADX 25.9) but MU sits only ~0.7% above firm support at 998 with a deeply oversold 1h RSI (27.7), flat funding, and orderbook bid (+0.259) \u2014 a poor spot to initiate a short given the strong fundamental floor and elevated bounce risk. Distance to support caps a short's target so R:R is unattractive; a higher-EV short sets up on a bounce toward VWAP/resistance ~1015 or a decisive break of 998. No trade until one triggers.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 998.0,
+    "expires_min": 240,
+    "note": "Losing 998 support confirms downtrend continuation \u2014 flips me short."
+  },
+  "transcript": {
+    "macro": "Regime MIXED, leaning risk-off. S&P near ATHs but risk appetite 99th pct (downside asymmetry). Rates hostile: Fed on hold 3.50-3.75%, May CPI 4.2% (3yr high), ~50% odds of a HIKE by late Oct \u2014 headwind for long-duration AI/tech. MU/ORCL/META trade as equities not BTC-beta; perps gap/thin outside US cash hours. MU near-term tape bearish (composite -0.354, all TFs down, 1h RSI 27.7 oversold, rel-strength -2.9% vs BTC, L/S 1.47). Macro bias: SHORT with tape but SMALL given oversold RSI + fundamental floor.",
+    "sentiment": "MU bullish tilt, no imminent binary. Fiscal Q3 (late June) blowout: rev +196% YoY, GM 74.9%, HBM sold out through 2026, ~$100B binding AI memory contracts, Anthropic supply deal. Stock +211% over 90 days. Next earnings ~Sept 22-29 \u2014 outside 1-2wk window, no near-term binary. Main 24-48h risk: crowded extended-momentum name giving back gains on any AI/memory sector wobble.",
+    "analyst": "MU at 1004.74; support 998, resistance 1017.15. 1h RSI 27.7 oversold, no bearish divergence, price basically at VWAP, BB %B 0.217, structure_bias -0.063 (mild), orderbook +0.259 (buyers bidding). Shorting into a 998 support test with oversold RSI and strong fundamental floor is a poor entry with capped target (~7pts room, R:R < 1). Better short on a bounce to ~1015-1017 or a clean break below 998. Not-yet HOLD, armed to short on loss of 998.",
+    "portfolio": "MU: HOLD (conf 0.50) \u2014 no clean short entry; armed to flip short on a break below 998."
+  },
+  "timestamp": "2026-07-06T08:34:06.311070+00:00"
+}

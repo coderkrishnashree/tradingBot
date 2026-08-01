@@ -1,0 +1,24 @@
+{
+  "symbol": "CRCL/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.5,
+  "size": 0.0,
+  "entry": 61.07,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "rationale": "CRCL is flat at VWAP inside a tight, volume-drying box just under 61.3 resistance, with a compressed 3.97% BB width \u2014 coiling with no trigger. The composite long is weak (43.8%) and fights heavy crowded-long positioning (structure_bias -0.337), 4h overbought RSI 73, and the weakest relative strength in the set, while a short has no confirmed breakdown and support 58.76 is ~3.8% away (stop too wide). With US markets closed, thin weekend/Monday-gap risk, and the GENIUS Act milestone just expired, waiting for the box to break is the highest-expectancy call; no size until a level trades.",
+  "forecast": "Price coils in the 60.84-61.22 box at VWAP; continued chop for the next few bars. A loss of the 60.63 box floor opens 60.0 then support 58.76; a reclaim/hold above 61.40 with volume would extend the weak long.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 60.63,
+    "expires_min": 240,
+    "note": "Losing the box floor at 60.63 confirms the crowded long is unwinding and opens a tight-stop short toward 58.76."
+  },
+  "transcript": {
+    "macro": "Regime NEUTRAL tilting risk-off. CRCL: OI 65,168 (largest of set), L/S 2.231 (crowded long), structure_bias -0.337 (crowd offside), RS -27.01%, BTC corr 0.44 (meaningful crypto beta). Composite LONG but RSI 73.3 (overbought). Long fights crowding + stretch -> squeeze-down risk. Verdict: favors short/stand-aside; high-variance event name.",
+    "sentiment": "Sat Jul 19 \u2014 US market CLOSED, weekend thin/gappy. CRCL bearish/high-risk: down ~68-70% from June peak. Won first OCC national trust-bank charter Jul 8 (positive moat) BUT GENIUS Act stablecoin framework transition EXPIRED Jul 18 (headline-vol risk) and Coinbase/BlackRock 'Open USD' rival called existential threat (CRCL fell 16-17% on that news). Elevated headline risk both directions over 48h. Lean: bearish-tilted, event-risk name.",
+    "analyst": "Flat at VWAP in a tight volume-drying box under 61.3 resistance, BB width 3.97% compressed \u2014 coiling with no trigger. Weak long (43.8%) fights RSI 73 overbought + crowded-long (L/S 2.23) + worst RS. Short has no confirmed breakdown and support too far for an honest stop. No edge; wait for the box to break. Arm the bearish trigger since structure + sentiment + crowding all lean down.",
+    "portfolio": "CRCL: HOLD (conf 0.50) \u2014 coiling at VWAP, high headline risk, no trigger; arm short below 60.63."
+  },
+  "timestamp": "2026-07-19T17:14:13.137070+00:00"
+}

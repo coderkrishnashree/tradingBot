@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "GOOGL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price is capped at 370.72 after a clean rejection there; expect it to chop 367.4-370.4 pre-open, most likely fading toward 367-368 (VWAP) rather than breaking out on thin single-digit-volume bars. A decisive 15m close and hold above 370.72 would flip it to a continuation long toward 373-374.",
+  "expectancy_note": "Long into %B>1.0 at resistance with L/S 2.0 + positive funding is negative expectancy (chasing crowded/overbought); naked fade-short has p<0.5 under a live 30m/1h uptrend + thin pre-open book. HOLD until the 370.72 level resolves is the best-EV line.",
+  "rationale": "4h is deeply overbought (RSI 75.5, stoch 86.7, %B 1.02 above the band) and pinned at resistance 370.72, where the recent 15m tape already printed a rejection and fade to 367.4 before a weak 8-lot bounce. Positioning is crowded long (L/S 2.008, funding +0.015%) so late longs are paying up into the ceiling \u2014 poor spot to add, and the pre-open book is too thin (single-digit candle volume) to trust either a breakout print or a clean counter-trend short. With FOMC minutes as a live sub-48h vol event, the highest-expectancy action is to wait for 370.72 to resolve with real volume; size 0.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 370.9,
+    "expires_min": 240,
+    "note": "A 15m close and hold above the 370.72 resistance on real (post-open) volume proves the overbought condition is resolving by continuation, not fade \u2014 that flips this to a momentum-long toward 373-374 with a stop back under 368.5."
+  },
+  "transcript": {
+    "macro": "Risk-on uptrend but hawkish-Fed ceiling. Scan ~13:19 UTC pre US cash open -> thin/gappy, size down. GOOGL is a momentum long candidate but stretched and contrarian-flagged: comp +0.319 (34.9%), 4h RSI 75.5, stoch 86.7, bb_pctb 1.02 (above band), sitting right at resistance 370.72. structure_bias -0.42 AGAINST the long: L/S 2.01 (very crowded long) + funding +0.015% = late-longs-paying-up crowding. Near-zero BTC corr 0.047. Biggest risk: overbought fade at resistance; thinnest book pre-open \u2014 don't trust the pre-open print. Smaller size.",
+    "sentiment": "US open Tue. GOOGL momentum strong but stretched/overbought. Earnings ~Jul 29 (not near-term). Fresh overhang: EU top court UPHELD the \u20ac4.1B Android antitrust fine \u2014 real but known one-off, not a 48h mover. SpaceX joins Nasdaq-100 today ($7-10B passive QQQ bid) = mechanical rebalance. No imminent binary; a long here is momentum/technical into overbought with FOMC minutes Wed Jul 8 2pm ET as the swing risk. Overall risk-ON but stretched.",
+    "analyst": "Momentum-long candidate but stretched: at resistance 370.72, above the Bollinger band, crowded long with positive funding, 4h score flattening to 0.052, and thin pre-open tape that already rejected 370.72 and faded to 367.4. Chasing is bad EV; fading naked into a live 30m/1h uptrend on an illiquid book is low-probability. The clean edge is to let the 370.72 breakout/rejection resolve first \u2014 arm a continuation long only on a 15m close-and-hold above 370.9 on real post-open volume.",
+    "portfolio": "HOLD GOOGL \u2014 overbought at resistance with crowded longs; neither chase nor naked fade has edge pre-open. Flat, continuation long armed above 370.9 (conf 0.60)."
+  },
+  "timestamp": "2026-07-07T13:26:15.907638+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "XAG/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.58,
+  "playbook": "none",
+  "forecast": "Overextended 15m spike into 57.91; expect a pullback/consolidation toward VWAP ~56.9-57.1 over 3-6 bars before any continuation, rather than an immediate clean push to 59.7.",
+  "expectancy_note": "No positive-EV entry: buying is chasing (%B 1.15, +1.96% VWAP, stoch 94, 15m RSI 82) and the crowd is jammed long (L/S 4.0), so any honest stop gets tagged by the routine pullback; no confirmed fade at a major level either. HOLD beats both.",
+  "rationale": "Silver popped +2.7% off 56.29 into a 57.91 spike and is hovering under it, extended nearly 2x ATR above VWAP with stoch 94 and lower-TF RSI 82 - textbook late-chase territory the account keeps losing on. Macro is neutral/risk-off with the real triangle breakout only above ~61 and this level is mid-range, so there is no edge to buy the extension and no clean confirmed short. Wait for a pullback to VWAP to re-arm a long, or a decisive reclaim to prove continuation.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 57.05,
+    "expires_min": 240,
+    "note": "Losing the 57.12 breakout-candle base signals the spike is unwinding toward VWAP ~56.9, where a fresh higher-probability long (stop under 56.4, target 57.9/59.7) becomes viable."
+  },
+  "transcript": {
+    "macro": "NEUTRAL tilting risk-off. US-Iran conflict spiking oil (WTI ~$83-85) reviving inflation/hike fear; higher long-end yields + firm dollar pressure equity multiples & metals. US indices digesting near highs (S&P -0.19%, Nasdaq -0.05%). Key events <48h: GOOGL earnings Wed Jul 22 AC, TSLA Jul 22 AC, INTC Jul 23 AC; FOMC Jul 28-29 (market pricing hike RISK, not cuts). BTC ~$65.5k pinned under $65.8k resistance, dominance ~56.5%, Fear & Greed 25 (Extreme Fear), funding benign; crypto-beta names crowded long -> squeeze risk to downside if BTC stalls. Semis (NVDA/MU/INTC/SNDK) move as a pack, headline-fragile. CL structurally bid on Hormuz supply fear (hostile to shorts). XAG near 8-month lows, capped by dollar/yields. Tokenized-equity perps thin/gappy overnight (scan 03:38 UTC).",
+    "sentiment": "Risk-off/cautious. Only tradable <=48h binaries are GOOGL (Jul 22 AC) and INTC (Jul 23 AC, ~15% implied move), both casting a shadow over beta names (QQQ, NVDA, MU, SNDK, crypto). MSFT (Jul 13) & MU (blowout Q3) already reported - no fresh binary. COIN Jul 30, HOOD Jul 29, SNDK Aug 5 all OUTSIDE the window (don't hold into next week). MSTR flipped to SELLING BTC (largest since 2022) - sentiment negative. CL live geopolitical gap risk both ways, supply-shock skew up. XAG coiled in a triangle (breakout >61 / breakdown <55.7), no dated catalyst. No hacks/exploits/large delistings flagged.",
+    "analyst": "XAG 57.78, RSI 73.7/15m 82, stoch 93.9, %B 1.147 (above band), VWAP +1.96%, ADX 50.6, L/S 4.025 (heavily crowded long), resistance 59.72. Intraday spike into resistance well below the $61 triangle top; crowd jammed long = pullback fuel. No chase, no confirmed fade => HOLD, reconsider on a dip below 57.05.",
+    "portfolio": "XAG: HOLD - overextended spike, crowd jammed long, mid-triangle; wait for a VWAP pullback."
+  },
+  "timestamp": "2026-07-21T03:47:53+00:00"
+}

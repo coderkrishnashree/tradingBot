@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "COIN/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.4,
+  "playbook": "none",
+  "forecast": "Price is basing 159.9-161.3 after a 5pt selloff; expect chop in this band over next 2-4 bars. A reclaim of 161.4 reopens the 1h/4h uptrend toward 162.9/164.5; loss of 159.26 confirms the bearish-divergence continuation toward 157/152.9.",
+  "expectancy_note": "No clean R:R either way: fresh long fights just-rolled 15m momentum + earnings overhang; short would be chasing a completed 5pt drop into a stabilizing base (the account's proven losing pattern, shorts 48% win). p(win) on either <0.5, so HOLD is highest expectancy.",
+  "rationale": "COIN dropped from 164.75 to 159.26 then stabilized in a tight base under 161, with bearish 4h divergence flagged but 1h/4h still up and order book mildly bid - genuinely two-way. It is an equity proxy past US cash close (thin/gappy) and a near-pure BTC-beta echo (rel-str -0.32), so no independent edge. No entry offers >=1.5R to a real level without either chasing or fading blind; wait for the base to resolve.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 161.4,
+    "expires_min": 240,
+    "note": "Reclaiming 161.4 recaptures the shelf where the down-leg accelerated and confirms the 1h/4h uptrend has resumed for a long toward 162.9/164.5."
+  },
+  "transcript": {
+    "macro": "Regime MIXED, leaning risk-off. Equities soft, headline-driven. Equity proxies past US cash close - thin/gappy overnight. Fed on hold into Jul 28-29 FOMC. COIN: long trend on 1h/4h but BEARISH DIVERGENCE flagged, RSI rolling off 64, structure roughly neutral (bias +0.08, L/S 1.01 balanced). Corr 0.63 to BTC. Two-way; earnings Jul 30 not yet a factor but the divergence argues against chasing.",
+    "sentiment": "Q2 earnings Jul 30 after close; Street modeling a small EPS loss (~-$0.23) on ~$1.35B rev. Dominant event but just beyond 48h - treat COIN as increasingly headline-driven approaching month-end, gappy off-hours (tracks US session). No fresh listing/regulatory shock. Near-term neutral; the bearish 15m divergence + earnings overhang argue against pressing a fresh long into the print.",
+    "analyst": "COIN peaked 164.75, waterfalled to 159.26, then based sideways 159.9-160.9 under 161. 1h/4h still long but 15m rolled over (RSI ~40) with bearish 4h divergence. Pressing a long into just-rolled momentum with an earnings overhang and thin overnight tape is poor expectancy; shorting a completed 5pt drop into a stabilizing base is the account's late-short loss pattern. No >=1.5R either way - HOLD; reclaim of 161.4 reopens the long, loss of 159.26 confirms continuation lower.",
+    "portfolio": "HOLD COIN - two-way base with bearish divergence and earnings overhang; wait for 161.4 reclaim or 159.26 break."
+  },
+  "timestamp": "2026-07-20T21:16:33.664974+00:00"
+}

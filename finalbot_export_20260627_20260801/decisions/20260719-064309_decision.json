@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "BTC/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Price is chopping 64,590-64,780 after failing to hold 64,948; momentum on 15m/30m has gone flat under resistance 65,566. Expect continued coil; a break below 64,587 opens a fade toward VWAP/62.8-61.8K, while a reclaim of 65,566 reopens the 1h/4h uptrend.",
+  "expectancy_note": "No entry clears R:R>=1.5: long is stretched (stoch 90, +1.3% VWAP, crowded L/S 1.44 into risk-off) and capped 1.3% below at 65,566; short has no trigger yet and support sits 4.5% away. Best expectancy is waiting for the level to pick a side.",
+  "rationale": "BTC composite long conf is only 42.7% with blended 0.319 and structure_bias -0.198 (long-crowded 1.444 into a RISK-OFF, Fear tape). ADX 28.6 = weak trend; 1h RSI 77.5 and stoch 90.3 are stretched while 15m/30m have flattened, so the advance has stalled just under 65,566 resistance. Entering long here chases a capped, extended move; shorting has no confirmed breakdown and poor R:R to 61.8K. Highest-expectancy action is HOLD and let the compression resolve.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 64587,
+    "expires_min": 240,
+    "note": "Losing the 64,587 compression low confirms the stalled advance is rolling over, arming a short toward VWAP/62.8K in the risk-off tape."
+  },
+  "transcript": {
+    "macro": "RISK-OFF/defensive. Fri equities sold off (S&P -1.0%, Nasdaq -1.4%) on AI-capex/semi scare + US-Iran escalation. Crypto Fear (F&G 26), BTC low-$60Ks failing $70K, dominance 56-60%, 10Y 4.56%, DXY 101. Sell-the-rally. Sunday, US cash markets CLOSED \u2014 5 of 6 names tokenized equities pricing on-chain only (thin/gappy); BTC the only liquid 24/7 book. L/S net long nearly everywhere. No FOMC/CPI inside 48h (FOMC Jul 28-29, earnings Jul 29, BOJ Jul 30 all outside window). BTC: long conf 42.7%, RSI 62.7, near resistance 65,566 stoch 90 (stretched), L/S 1.44, bias -0.20.",
+    "sentiment": "Crypto Fear (F&G ~35). BTC range $62-65K, rebounded >$65K on softer CPI + small ETF inflow reversal, but 30-day ~$4B ETF outflow overhang + oil/Iran tension. Watch: Clarity Act hearing, Q2 options expiry, Iran geopolitics. No hard dated catalyst next 48h; fragile-neutral. No hacks/delistings.",
+    "analyst": "Stalled advance: 1h RSI 77.5/stoch 90.3 stretched while 15m/30m flattened right under 65,566 resistance in a risk-off, long-crowded (L/S 1.44) tape. Long chases a capped extended move; short has no breakdown and poor R:R to support 4.5% away. No >=1.5R entry. HOLD; short trigger arms below 64,587.",
+    "portfolio": "BTC \u2014 HOLD (conf 0.50): coiling under resistance, no clean edge; re-arm short below 64,587."
+  },
+  "timestamp": "2026-07-19T06:43:09.231406+00:00"
+}

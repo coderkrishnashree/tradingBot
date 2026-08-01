@@ -1,0 +1,23 @@
+{
+  "symbol": "ORCL/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.55,
+  "size": 0.0,
+  "entry": 139.39,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "rationale": "The downtrend is genuine (ADX 45.7, all 5 TFs short, structure_bias -0.35, RS -18.5%) and news/credit-shock flow favors the short \u2014 but price is deeply oversold RIGHT HERE (1h RSI 14.6, 30m 21, pinned to lower BB pctb 0.04, vwap -2.6%) and the final 15m bar just bounced off 138.47 on the largest volume in the sequence, closing near its high. Market-shorting 139.39 into a live bounce off support 137.63 is exactly the late-short-into-stretched-tape pattern that bleeds this book: an honest stop above the 141.3 shelf is ~2.9xATR while room to support is only ~1.3%, so R:R to first target is <1.0 and fails the 1.5 gate. Thin/gappy overnight (US cash closed until 13:30 UTC) adds squeeze risk. Best expectancy is to wait: short the oversold bounce into the 140.8-141.3 broken-shelf/VWAP reload, or on a clean loss of 137.6 (trend resumption), rather than chase mid-air.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 140.8,
+    "expires_min": 360,
+    "note": "A bounce back into the broken 140.8-141.3 shelf offers a high-R:R short reload (stop above 141.4, target back to 137.6) with the trend."
+  },
+  "transcript": {
+    "macro": "Regime MIXED-to-HOSTILE for risk-on longs. Tokenized equities (BTC corr ~0). Index firm but toppy; Fed HAWKISH (~61% odds Sept HIKE), inflation 3-yr high, oil spiking (Iran) = gap risk. Overnight perps thin until 13:30 UTC NYSE open. ORCL ~139.4 clear downtrend, all 5 TFs short, ADX 45.7, RS -18.5% (genuine laggard), funding flat, L/S 2.43 (crowded long into downtrend), structure_bias -0.35. Environment SUPPORTS short over hours-to-days; biggest risk oversold-bounce/long-liquidation squeeze; stop above ~141.3.",
+    "sentiment": "ORCL BEARISH, near-term news supports short. ~29% YTD drop, worst month since 1990 in June. AI capex overhang ($55.7B FY26; ~$20B equity issuance still to come). FRESH <=48h: July 10 S&P cut Oracle credit rating closer to junk; a follow-on Moody's downgrade could force IG-only fund selling. Counter-risk: stretched-bearish, analysts bullish 12-mo, washed-out RSI -> short-covering snapback is main hazard. No earnings next 2 weeks.",
+    "analyst": "Downtrend genuine and flow favors short, but price deeply oversold right here and last 15m bar bounced off 138.47 on largest volume, closing near high. Market-shorting 139.39 into a live bounce off support 137.63 is the late-short-into-stretched-tape pattern that bleeds this book; R:R to first target <1.0 fails the 1.5 gate. Thin/gappy overnight adds squeeze risk. Best expectancy: HOLD with armed trigger \u2014 short the bounce into 140.8-141.3 reload or on clean loss of 137.6.",
+    "portfolio": "ORCL/USDT:USDT \u2014 HOLD (conf 0.55): right direction, wrong entry; oversold at band bottom into thin overnight tape. Reconsider short-reload at 140.8."
+  },
+  "timestamp": "2026-07-13T03:30:41.359429+00:00"
+}

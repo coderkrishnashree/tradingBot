@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "MSFT/USDT:USDT",
+  "size": 0.0,
+  "entry": 396.82,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.4,
+  "playbook": "none",
+  "forecast": "Price just completed a ~1.9% intraday rally into the top of the 20-bar range with 5m RSI ~90 and stoch 80.9; expect a pullback/consolidation toward 393-394 (VWAP / broken minor level) over the next 2-4 bars before any push at the 406 resistance.",
+  "expectancy_note": "p(win) on a chase-long ~0.45, R:R only ~1.5 with a straight-up assumption that RSI~90 makes unlikely; waiting for the retest gives a far better entry and avoids the account's #1 late-entry loss pattern.",
+  "rationale": "MSFT is the strongest equity in the group (rel-str -3.78%) and 4h trend is up, so the bias is long, but price is buying-climax extended on the 5m/15m (RSI 89.8/72.4) right after a completed rally \u2014 a market long here is the classic chase into a stretched tape that gets stopped by the routine bounce-back. No fresh catalyst until Jul 29 earnings, gappy macro favors patience. I want to enter on a pullback to ~393 VWAP retest, not at the highs; short is unattractive against the trend and best-in-group strength. HOLD until price either pulls back for a clean long or reclaims/breaks 397.6 to prove continuation.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 393.2,
+    "expires_min": 240,
+    "note": "A pullback to the 393 VWAP/broken-level retest holding would give a clean higher-R long entry with stop under 391 base and target 406."
+  },
+  "transcript": {
+    "macro": "Regime MIXED/fragile-recovering (2026-07-20). US equities bouncing today after ugly week; SOX ~-13%/month on AI-capex reset. VIX ~18-19. Rates supportive: June CPI 3.5%/2.6% core, ~63% Fed hold; FOMC Jul 28-29. DXY soft, 10Y ~4.55%. Longs favored only while today's bounce holds. GOOGL/INTC/TSLA earnings THIS week reignite chip-rout risk. Trade smaller on gappy names.",
+    "sentiment": "MSFT: no earnings until Wed Jul 29 after close \u2014 just outside 48h but approaching, same day as FOMC. No fresh idiosyncratic catalyst this week; drifts with broad tape and Big Tech sentiment. Neutral on near-term news. Fine to trade now; don't build size to carry into next week.",
+    "analyst": "Strongest equity in the group (rel-str -3.78%), 4h trend up, so bias is long \u2014 but a completed ~1.9% intraday rally leaves 5m/15m RSI 89.8/72.4 (buying climax). A market long is the late-entry chase; short fights the trend. Wait for a ~393 VWAP retest for a clean higher-R long. Size 0.",
+    "portfolio": "MSFT \u2014 HOLD (conf 0.40): best-in-group but climax-extended; buy the 393 retest, don't chase the highs."
+  },
+  "timestamp": "2026-07-20T15:14:36.586162+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "MSFT/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price stalls in the 389.3-391.6 zone into Wed; the pop to 391.6 is already fading (doji close at 391.06). Expect chop, not a clean trend leg, until the FOMC/earnings binary resolves.",
+  "expectancy_note": "Both long and short have negative expectancy here: long chases RSI 74 / %B 0.92 at session highs into a ~7% binary; short fights ADX 84 with no divergence. p(win) < 0.5 either way; best EV is flat.",
+  "rationale": "MSFT is overbought (RSI 73.9, %B 0.923) at the intraday high, crowded long (L/S 1.544, structure_bias -0.156), and pinned against a binary event wall \u2014 earnings Wed AC (~7% implied) plus FOMC Wed 2pm. A fresh long is exactly the account's late-chase loss pattern; a short knife-catches an 84-ADX uptrend. No mean-reversion edge at the level and no reason to carry size through a print both macro and sentiment say to be flat for. Highest-expectancy action is HOLD.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 388.6,
+    "expires_min": 240,
+    "note": "Losing the 388.6-389.3 intraday support shelf would confirm the overbought top is rolling over into a fade, opening a tactical short back toward VWAP/378 \u2014 worth re-debating."
+  },
+  "transcript": {
+    "macro": "RISK-OFF/DEFENSIVE, event-gated. VIX 17.58 rising. Semiconductor selloff. FOMC Jul 28-29. MSFT+Meta earnings Wed AC \u2014 MSFT long carries binary event risk; be flat before the print. MSFT holding up vs chips (RSI ~74 overbought), low BTC corr 0.19 = pure equity beta.",
+    "sentiment": "MSFT HIGH-RISK BINARY, neutral-into-event. Q4 FY2026 Wed Jul 29 AC, ~7% implied move. Guided rev $86.7-87.8B; Street ~$87.4-87.6B, EPS ~$4.21-4.24. Reaction hinges on Azure vs >$40B/qtr AI capex + FY27 capex guide. Do NOT hold size through the print.",
+    "analyst": "Overbought (RSI 73.9, %B 0.923) at intraday high, crowded long, pop to 391.6 already fading to a doji \u2014 pinned against earnings Wed AC + FOMC. Long is a late-chase, short knife-catches ADX 84. No mean-reversion edge; HOLD.",
+    "portfolio": "MSFT: HOLD (conf 0.60) \u2014 overbought into a ~7% earnings binary; both sides negative EV, be flat for the print."
+  },
+  "timestamp": "2026-07-28T04:06:31.537279+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "TSM/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.42,
+  "playbook": "none",
+  "forecast": "Tape is frozen at 399.50 on zero volume (US cash closed, gap-prone). No readable next candle; on Monday liquidity return either flushes through support 386.81 (short continuation) or squeezes the 2.32 long-crowded book back toward VWAP ~409. Waiting for that resolution.",
+  "expectancy_note": "No entry: p(win) on a market-short here is poor - learner shows shorts 47% win / -0.87 avg, and this is a stretched (-2.48% vs VWAP), wide-ATR name on a dead tape; better to short a break of 386.81 or a bounce into VWAP than chase a frozen print.",
+  "rationale": "Short is directionally correct (4h down, MACD -8.19, RS -13.7% worst laggard, fresh bearish earnings-fade catalyst), but the last ~10 candles are flat at 399.50 with ZERO volume - US cash is closed and tokens are thin/gap-prone, so there is no honest next-move to trade and Monday open could gap either way. Price is already 2.48% below VWAP (not at a fade level) into a 2.32 long-crowded book that squeezes on any bounce, and this account's short book is bleeding (47% win, -0.87 avg). Highest-expectancy action is to wait for real volume: short a clean break of support 386.81, or fade a bounce back into VWAP ~409.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 386.81,
+    "expires_min": 720,
+    "note": "Losing support 386.81 on real (non-zero) volume confirms the semi-selloff continuation and opens a clean trend short with defined risk back above the level."
+  },
+  "transcript": {
+    "macro": "RISK-OFF/hostile for longs. Nasdaq100 -1.5% Fri (week -2.9%); TSM is the epicenter of the semiconductor selloff. Late-Friday US cash closed -> thin/gap-prone until Monday. TSM lean: supports SHORT (post-earnings Jul 16 fade, 4h down, RS -13.7% worst-lagging) BUT L/S 2.32 very long-crowded (structure_bias -0.31) -> squeeze risk on any bounce; size modestly.",
+    "sentiment": "TSM: bearish (fresh catalyst). Reported Q2 Thu 7/16: record rev $40.2B, EPS $4.31 beat, raised FY26 growth >40% and capex to $60-64B - yet stock FELL ~2.3% as investors punished rising capex/margin worries ('beat-and-raise no longer enough'). Exact catalyst still pressuring price; bearish momentum, no positive near-term trigger left. Argues WITH a short.",
+    "analyst": "Short is directionally right (4h down, MACD -8.19, RS -13.7% worst laggard, bearish earnings-fade) but the last ~10 candles are flat at 399.50 on ZERO volume (US cash closed, gap-prone) - no readable next move. Already -2.48% vs VWAP (not a fade level) into a 2.32 long-crowded book (squeeze fuel), and the account's short book is bleeding (learner 47% win, -0.87 avg). HOLD; short a break of support 386.81 on real volume or fade a bounce into VWAP ~409.",
+    "portfolio": "HOLD TSM - right direction, dead zero-volume tape; short only on a volume-backed break below 386.81."
+  },
+  "timestamp": "2026-07-17T23:37:12.324232+00:00"
+}

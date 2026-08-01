@@ -1,0 +1,25 @@
+{
+  "action": "hold",
+  "symbol": "MSTR/USDT:USDT",
+  "size": 0.0,
+  "entry": 107.61,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "expectancy_note": "Long here (107.61) is chasing into resistance 108.23 w/ 1h RSI 69 in thin off-hours liquidity; R:R to resistance <0.4. Waiting for a 108.50 reclaim gives a real breakout with measured-move room and BTC confirmation \u2014 higher expectancy than a jam-the-top entry.",
+  "rationale": "Clean multi-TF uptrend and best positioning of the three (funding flat, L/S 1.33, RS +1.41%), but price is pressed against tight resistance 108.23 with 1h/30m RSI ~68-69, only 0.6% below the breakout, in a CLOSED-cash-market thin/gappy window with gap risk at 13:30 UTC. The driver (BTC 63.5k) is in a dead squeeze (ADX 2.5) with no trend of its own, so a leveraged-beta long has no fuel yet. No edge buying the top or shorting a valid uptrend \u2014 wait for either a decisive 108.50 reclaim to go long into open space or a pullback to 106.16/VWAP for a cleaner entry.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 108.5,
+    "expires_min": 240,
+    "note": "Reclaiming 108.50 clears the 108.23 resistance/squeeze cap and confirms a breakout with measured-move room \u2014 flips this to a trend long."
+  },
+  "transcript": {
+    "macro": "Regime MIXED. STRUCTURAL FLAG: scan taken 00:44 UTC while US cash market CLOSED \u2014 thin/gappy off-hours, gap risk at ~13:30 UTC open \u2192 smaller size. MSTR: last 107.61, composite long 37.2%, clean multi-TF uptrend (all 5 TFs long, 1h RSI 69), RS +1.41% vs BTC. CLEANEST positioning: funding flat, L/S 1.33 (least crowded), structure_bias -0.10. BTC corr 0.64 \u2014 LEVERAGED BTC BETA; trade lives/dies on bitcoin. BTC ~60-63.5k holding; MSTR reclaimed $100 (4 up days). Read: SUPPORTIVE for longs CONDITIONAL on BTC; biggest risk = leveraged BTC beta on a risk-off flush.",
+    "sentiment": "MSTR BULLISH momentum but leveraged BTC proxy (HIGH beta risk). Bounced from ~$82 (Jun 26) through $100 into $102-108; last 107.61. Catalyst: Jul 1-2 Digital Credit Capital Framework (USD reserve, ~$2B buybacks, $1.25B BTC-monetization, STRC 12%) de-risked balance sheet. CRITICAL 48h risk: MSTR = leveraged bet on 847,363 BTC; BTC ~$62.8k after brutal June (-20%, ~$60k low), ETF outflows. Rally holds ONLY if BTC defends $60k. Levels: 108.50 breakout / 97.30 breakdown.",
+    "analyst": "Best structure of the three, but price is jammed under tight resistance 108.23 with 1h/30m RSI ~68-69 in a closed-cash thin window, and the driver (BTC) is in a dead squeeze with no trend to fuel a leveraged-beta long. Buying the top here is R:R <0.4; shorting a clean uptrend has no edge. Wait for a decisive 108.50 reclaim (breakout into open space) or a pullback to 106.16/VWAP.",
+    "portfolio": "MSTR/USDT:USDT \u2014 HOLD (conf 0.60); no-trade, armed breakout trigger above 108.50, conditional on BTC."
+  },
+  "timestamp": "2026-07-06T00:49:31.608677+00:00"
+}

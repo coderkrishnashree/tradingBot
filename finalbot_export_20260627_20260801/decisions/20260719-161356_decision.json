@@ -1,0 +1,26 @@
+{
+  "symbol": "CRCL/USDT:USDT",
+  "action": "hold",
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "size": 0.0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Choppy drift 60.6-61.4 near VWAP; recent 15m bars roll over (61.27 to 60.94 on rising volume) then a light bounce to 61.14 \u2014 expect it to stall under 61.40 and probe back toward 60.6 rather than break higher within the next few bars.",
+  "expectancy_note": "No side clears R:R>=1.5 to a near level: long chases an overbought (4h RSI 73.9) laggard (-26.8% RS) into bearish news on a closed/gappy weekend tape; short fights the composite/30m-long and gap risk. p(win) on either < 0.55 \u2014 HOLD is highest-expectancy.",
+  "rationale": "CRCL is a tokenized equity, so crypto funding/L-S metrics don't drive it; the real read is bearish news (Visa Open USD shock, Mizuho downgrade), price below all MAs, and a weekend oracle-priced/gappy book. The 15m sequence is a rejection off 61.40 with lower closes on rising volume \u2014 not fresh strength \u2014 so the composite long is a late chase into overbought, exactly the account's costliest pattern. No near structural target gives 1.5R either way, so stand aside with zero size.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 61.4,
+    "expires_min": 240,
+    "note": "Reclaiming and holding above the twice-rejected 61.40 intraday high proves buyers are back and validates the composite long; a decisive loss of 60.63 would instead open a cleaner short toward 58.76 support."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF / weekend, US cash CLOSED for equity perps. CRCL: scan LONG (+0.40, 52% conf) BUT 4h RSI 73.9 overbought; structure red flag L/S 2.30 (crowded long, bias -0.33), orderbook slightly negative; rel-strength a brutal -26.8% vs BTC (laggard being chased into overbought). MIXED-to-HOSTILE for a fresh long; contrarian squeeze risk; smaller size.",
+    "sentiment": "CRCL bearish tone, elevated headline risk. Stock sliding (~$60.6 Fri close, below all key MAs) on a genuine competitive shock: Visa launched 'Open USD' stablecoin platform (July 16) attacking Circle's ~$300B market; Mizuho downgraded to Underperform (July 14). Offsets longer-horizon (OCC charter, Nomura/Japan, Cathie Wood buying). No dated \u226448h binary; negative momentum argues against fresh longs.",
+    "analyst": "No clean long \u2014 chasing an overbought, laggard, bearish-news equity into an intraday down-leg is the account's #1 loss pattern. A short is tempting on the 61.40 rejection but the composite/30m are strongly long and it's a weekend oracle tape, so a short is low-conviction and gap-risky. Support 58.76 and resistance 67.38 both far \u2014 no 1.5R either way. HOLD, reconsider armed at price_above 61.40.",
+    "portfolio": "CRCL \u2014 HOLD, size 0.0, conf 0.60: overbought crowded-long laggard with bearish Visa/Mizuho news on a closed/gappy tape; no 1.5R long or short \u2014 stand aside."
+  },
+  "timestamp": "2026-07-19T16:13:56.395420+00:00"
+}

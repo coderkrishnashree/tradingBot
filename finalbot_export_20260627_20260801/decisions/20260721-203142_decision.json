@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "GOOGL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Bounced off the 347.64 flush low, closed 348.59 near range highs; expect a corrective drift/retest of 349.5-350 VWAP zone next 2-4 bars, not fresh downside (1h RSI 14.8 too stretched to short).",
+  "expectancy_note": "Shorting now = chasing oversold (1h RSI 14.8, stoch 9.8) into a bouncing tape; account shorts win only 45% (avg -1.21R) vs longs 69%. No entry clears 1.5R with an honest stop, and earnings tomorrow after close caps any hold.",
+  "rationale": "GOOGL is short-biased on the composite (-0.59) but deeply oversold on fast TFs, and the last three 15m candles bounced off 347.64 closing at the highs -- market-shorting here is the late-short-into-a-bounce pattern that bleeds this account. No clean long either (1% below VWAP, bearish blend). Q2 earnings Wed 7/22 after close is a binary that forbids naked exposure, so any position must be flat before 4pm ET 7/22 -- too little room for a continuation short. Waiting for the bounce to fail below the flush low is higher expectancy.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 347.6,
+    "expires_min": 240,
+    "note": "Losing 347.64 invalidates the oversold-bounce and opens a viable intraday short toward 345/341.86 (still exit before earnings)."
+  },
+  "transcript": {
+    "macro": "Regime MIXED/cautious (2026-07-21). US equity tape choppy, headline-driven; hawkish-Fed (market pricing a possible HIKE by Oct) is a headwind for high-multiple tech. Crypto tape constructive short-term (BTC ~$66.5k, 5-wk high, +ETF inflows) -> helps MSTR/CRCL crypto-proxies only. BIGGEST RISK: earnings inside the hold window -- GOOGL reports Wed 7/22 after close, INTC Thu 7/23 after close; do NOT carry either through the print. Several longs (INTC, CRCL, EWY, EWJ, MSTR) already RSI-extended/crowded-long -> smaller size, prefer intraday over multi-day until earnings clear.",
+    "sentiment": "Overall risk-OFF: Nasdaq-100 down 5 straight weeks on AI-capex anxiety + Iran/oil spike; heavy earnings + macro week (GOOGL/TSLA 7/22, INTC 7/23, FOMC 7/28-29, BOJ 7/30). GOOGL bearish/event-risk (earnings 7/22). AAPL neutral-slightly bearish (earnings 7/30, outside window). QQQ bearish tilt, extended into weak macro week. MSTR neutral fragile bounce on fading volume. INTC bearish/event-risk, ~12% swing priced into 7/23 print, RSI88 extended. CRCL neutral-cautious: OCC bank-charter catalyst spent, Mizuho downgrade + Visa overhang, RSI89. EWJ neutral/mildly bullish but Nikkei record already priced, BOJ 7/30 caps runway. EWY bearish: KOSPI in a record -23% crash w/ circuit breakers -- scan long tilt fights a violent country downtrend.",
+    "analyst": "Short-biased composite (-0.59) but 1h RSI 14.8 / stoch 9.8 deeply oversold; last three 15m bars bounced off the 347.64 flush low and closed near highs -> shorting here is the account's #1 loss pattern (late short into a bounce). No clean long (below VWAP, bearish blend). Q2 earnings Wed 7/22 after close is a binary inside the hold window -> no naked exposure, must be flat before print. HOLD, arm a short trigger below 347.6.",
+    "portfolio": "HOLD GOOGL -- oversold-bounce chase + earnings binary tomorrow; size 0, short only if 347.6 breaks."
+  },
+  "timestamp": "2026-07-21T20:31:42.309545+00:00"
+}

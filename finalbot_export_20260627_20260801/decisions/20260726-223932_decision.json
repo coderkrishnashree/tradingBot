@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "NVDA/USDT:USDT",
+  "size": 0.0,
+  "entry": 209.15,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.3,
+  "playbook": "none",
+  "forecast": "Thin Sunday tape: price likely chops 207.9-210.5 into Monday, with the real move deferred to the US cash open \u2014 no clean directional edge inside the next few bars.",
+  "expectancy_note": "No entry clears R:R>=1.5: long is mid-range/extended on LTF (RSI 75-85) into a stalled 213 ceiling with crowded 1.60 longs; short lacks rejection confirmation on an up 4h. p_win_learned 0.474 says this config loses.",
+  "rationale": "US market CLOSED (Sunday) makes this tokenized perp thin, gappy and stale with Monday gap risk; macro is neutral tilting risk-off and NVDA is crowded-long (L/S 1.60) and stalled under 213. The 15m candles show a flat low-vol drift into resistance, not a tradable pullback, and LTF RSI is overheated. No honest 1.5R setup exists in either direction, so size is zero.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 213.0,
+    "expires_min": 240,
+    "note": "A volume-backed reclaim of the multi-day 213 stall ceiling breaks the range and validates a continuation long toward 214.56; losing 207.9 instead would open a short toward 201.93."
+  },
+  "transcript": {
+    "macro": "REGIME: NEUTRAL tilting RISK-OFF. Nasdaq -0.64% Fri (chip-led weakness), VIX ~18.6. US market CLOSED (Sunday) \u2014 tokenized-equity perps thin/gappy, Monday gap risk. FOMC Jul 28-29 in window. NVDA crowded long (L/S 1.60), funding ~0.",
+    "sentiment": "NVDA: NEUTRAL \u2014 NO earnings this week (reports late Aug). Selling chips to China again + Physical-AI wins, but stock ~18% off June high, stalled under $213. Reads off MSFT/META/AMD prints next week rather than own news.",
+    "analyst": "Flat low-vol drift into resistance, not a tradable pullback; LTF RSI 75-85 overheated, crowded-long 1.60 contrarian red flag, p_win_learned 0.474 says config loses. No clean R:R either way. HOLD.",
+    "portfolio": "HOLD (0.30) \u2014 stand aside; stalled under 213, crowded long, thin closed-market tape."
+  },
+  "timestamp": "2026-07-26T22:39:32.682044+00:00"
+}

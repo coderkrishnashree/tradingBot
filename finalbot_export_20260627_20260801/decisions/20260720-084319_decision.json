@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "ORCL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Thin pre-open drift; price already rolling from the 128.01 stall (128.01 to 127.42 over last 3 bars) toward VWAP ~124.8. A dead-cat bounce back into 128.0-128.3 is the spot to short into; otherwise chop between 126.7 and 128.0 until the 09:30 ET cash open.",
+  "expectancy_note": "Short thesis is right (crowded long L/S 2.588, +2.1% VWAP-extended, stoch 71 rolling, heavy sentiment) but entry is mid-air with no near level and the down-move already started; chasing into thin/gappy pre-open tape is negative-expectancy. Wait for a bounce to fade with a tight stop.",
+  "rationale": "Composite is NOT aligned (conf 41.9%) and ADX 28 is a weak trend, so no clean long or momentum-short here. The real edge is fading the maximally-crowded long into a bounce, not chasing the roll-over that has already begun at 127.4 with nearest support 5% away at 120.8. US cash closed makes pre-open moves low-conviction and gappy, so I hold and arm a short on a retest of the 128.0-128.3 stall where risk is tight (stop above 128.3) and reward runs to VWAP ~124.8.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 128.0,
+    "expires_min": 240,
+    "note": "A bounce back into the 128.0-128.3 stall re-arms the crowded-long fade with a tight stop above 128.3 targeting VWAP ~124.8; that is the high-expectancy short entry rather than chasing the current roll-over."
+  },
+  "transcript": {
+    "macro": "Regime MIXED/cautious. US cash closed pre-open; tokenized perps thin/gappy until 09:30 ET. Positioning CROWDED LONG. ORCL: composite NOT aligned, L/S 2.588 (MOST lopsided long in the set), orderbook -0.217, structure_bias -0.429. Weakest structure support for a long. Bias toward going WITH crowd pain (shorts/mean-reversion).",
+    "sentiment": "ORCL tone deteriorating/heavy \u2014 stock roughly halved from Sept peak, credit rating one notch above junk on massive AI-datacenter capex ($90-95B, big debt raise), 21k layoffs; analysts split. OCI growth bullish but multi-quarter. No dated \u226448h catalyst. NEUTRAL on schedule but tape has bearish/fragile bias \u2014 headline risk skews down.",
+    "analyst": "Price +2.1% above VWAP, stoch 71 rolling over, 5m turning short, crowd maximally long (L/S 2.588) into deteriorating sentiment \u2014 crowded-long-into-fade setup. But entry is mid-air (nearest support 120.8 ~5% away), ADX 28 weak, move down already underway, thin pre-open. HOLD; arm short on a bounce-retest into 128.0-128.3 with a tight stop, target VWAP ~124.8.",
+    "portfolio": "ORCL: HOLD (conf 0.50) \u2014 fade thesis right but entry mid-air; short arms on bounce to 128.0+."
+  },
+  "timestamp": "2026-07-20T08:43:19.548839+00:00"
+}

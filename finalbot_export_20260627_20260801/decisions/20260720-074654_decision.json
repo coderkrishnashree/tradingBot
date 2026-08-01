@@ -1,0 +1,28 @@
+{
+  "symbol": "QQQ/USDT:USDT",
+  "action": "hold",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price just bounced off the 696.1 dip back to 699.4 into a very tight range (BB width 1.1%); expect chop between 696 and 700.3 until it resolves \u2014 no clean directional edge inside that box.",
+  "expectancy_note": "No trade beats both sides: long chases RSI 70.6 / %B 0.88 into a rolling-over, risk-off index; short has no breakdown yet (price reclaimed 699). ATR only 0.27% + off-hours gappy liquidity = R:R can't clear 1.5 without a wide gap-risk stop.",
+  "rationale": "QQQ is an extended tokenized index (ADX 51, RSI 70.6) coiled in a 1.1%-wide band during a hostile RISK-OFF week (Nasdaq -2.9%, SOX bear market). A long here is the account's #1 loss pattern \u2014 chasing a stretched tape into resistance; a short lacks confirmation with price back at the range top. Thin off-hours volume (single-digit units/bar) makes gap risk high and any 1xATR stop (~2 pts) fragile. Highest-expectancy action is to wait for the range to break.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 696.1,
+    "expires_min": 240,
+    "note": "Losing the 696.1 intraday swing low confirms the risk-off breakdown out of the coil and opens a short toward 688.09 support."
+  },
+  "transcript": {
+    "macro": "RISK-OFF / hostile for tech & crypto longs. Semiconductor rout the main event (SOX bear market Jul 17); Nasdaq -2.9% on the week. Oil supply shock (Hormuz). BTC ~64k at 21-month lows. No FOMC/CPI in next 48h (FOMC Jul 28-29). Tokenized equities off-hours thin/gappy. QQQ specifically HEADWIND/NEUTRAL \u2014 the index carrying the semi damage, extended and rolling over.",
+    "sentiment": "US tape risk-off; QQQ in a 3-day pullback, chip names leading lower, IBM ~25% earnings-warning gap souring software sentiment. No index binary in 48h, but GOOGL earnings Jul 22 after close and Fed Jul 28-29 loom. Near-term news argues against fresh longs.",
+    "analyst": "QQQ 699.37, RSI 70.6, ADX 51 (extended, rolling over), ATR% 0.27% (~1.9 pts), BB width 1.1% (compressed), %B 0.88. Bounced off 696.1 dip back to top of a tight range. Long chases a stretched tape into a hostile macro; short has no breakdown yet. Thin off-hours volume makes gap risk high and a 1xATR stop fragile vs a compressed target \u2014 no R:R>=1.5 either side. HOLD; short trigger below 696.1.",
+    "portfolio": "HOLD QQQ \u2014 extended, coiled, risk-off; no edge until the tight range breaks (short below 696.1)."
+  },
+  "timestamp": "2026-07-20T07:46:54.935829+00:00"
+}

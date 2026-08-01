@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "EWJ/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "On this thin overnight tape price stalls in a 92.6-93.3 chop after fading the 93.29 spike; the higher-probability tradeable move is a pullback toward VWAP ~91.4-91.8 (buy zone) OR a decisive break above 94.49 - neither is here now.",
+  "expectancy_note": "Chase-long here p(win) ~0.45: extended (4h RSI 72, stoch 85, +1.5% VWAP), tiny ATR 0.76% means TP barely clears a stop below the 92.6 low = R:R <1.5; the VWAP pullback entry (~91.6, stop 91.0, target 93.3) yields R:R ~2.5.",
+  "rationale": "Genuine 4h uptrend (ADX 43, composite long 61%, p_win 0.64) but price is stretched into overbought on a thin, zero-volume overnight tape with cash-open gap risk and crowded-long positioning (l/s 1.60) - chasing here is the account's late-into-stretched-tape loss pattern. No clean level to enter against and ATR too small for R:R from 92.82. Wait for the VWAP pullback or the 94.49 breakout.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 91.8,
+    "expires_min": 360,
+    "note": "A pullback into the VWAP/prior-breakout zone ~91.4-91.8 resets the extended condition and offers a high-R:R trend-continuation long back toward 93.3/94.5."
+  },
+  "transcript": {
+    "macro": "MIXED regime, cautious risk-off into next-week mega-cap earnings (MSFT/HOOD 7/29, MSTR 7/30 - all outside 48h window). Wed close: Dow +0.05%, S&P -0.1%, Nasdaq-100 -0.5%. Oil spiked (Brent ~$94) = mild risk-off/tech headwind. Scan struck outside US cash hours = thin/gappy tape, funding ~0, cash-open gap risk on all six. Every name crowded long (L/S 1.2-2.3), several deeply oversold = squeeze setup. Cleanest alignment on tech shorts (MSFT/TSLA/MSTR); Asia ETFs (EWJ/EWY) trend-supported but extended near resistance. Trade smaller; longs-only-on-pullback, tight stops.",
+    "sentiment": "Only clean same-cycle catalyst is TSLA's post-earnings miss (bearish). Everything else technical-only or macro-drift. Earnings cluster 7/29-30 all OUTSIDE the 48h window. EWJ: mildly constructive Japan backdrop, Nikkei firm (+61% YoY) but -4.7% on month, BOJ tightening (0.75%), tariff overhang - slow drift, no 48h binary. Neutral-to-mildly-positive.",
+    "analyst": "EWJ last 92.82, extended long: 4h RSI 71.9, stoch 84.8, +1.52% above VWAP, crowded long (l/s 1.60), lagging BTC (-9.98%). 15m tape thin/gappy, stalled after fading the 93.29 spike. ATR only 0.76% so a market-chase can't make R:R >=1.5 against an honest stop below the 92.60 pullback low - classic late-entry loss setup. HOLD; reconsider at 91.8 for a VWAP pullback-buy (stop ~91.0, target 93.3/94.5, R:R ~2.5).",
+    "portfolio": "HOLD EWJ - genuine 4h uptrend but extended on thin tape; wait for VWAP pullback (reconsider 91.8) or 94.49 breakout."
+  },
+  "timestamp": "2026-07-23T04:03:02.659275+00:00"
+}

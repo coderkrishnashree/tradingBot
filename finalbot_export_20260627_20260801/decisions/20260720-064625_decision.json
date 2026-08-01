@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "TSLA/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price is downside-exhausted (stoch 6.3, 5m RSI 20) pinned ~$2.5 above 377.78 support after a green reversal bar; expect a relief bounce toward VWAP/383-384 over the next 2-6 bars, OR a support break through 377.78 that opens 374. Neither edge is clean enough into thin off-hours tape and a Wed earnings gap.",
+  "expectancy_note": "p(win) on a chase-short here ~0.45 (learner: shorts 47%/-0.88, late-into-stretched is the #1 loser); waiting for a bounce to short at VWAP or a clean support break gives >0.6 and >1.5R. HOLD beats both live entries now.",
+  "rationale": "Downtrend and risk-off macro favor shorts, but every LTF is deeply oversold sitting right on 377.78 support with a fresh green bounce bar \u2014 market-shorting here fades myself into the exact bounce that has stopped this account's late shorts. A long is untradeable naked: TSLA reports Wed 7/22 after close with a ~7.6% expected move inside the window, and off-hours tape is thin/gappy. Best expectancy is to stand aside and let a bounce or a break define the entry; any position must be closed before Wed's print.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 383.5,
+    "expires_min": 240,
+    "note": "A bounce back to reclaim VWAP/prior support-turned-resistance (~383.5) offers a fresh short entry into the downtrend with a tight stop above 385 and room to 378; losing 377.78 instead would arm a continuation short toward 374."
+  },
+  "transcript": {
+    "macro": "RISK-OFF/defensive, fragile. Nasdaq drawdown, hawkish Fed, DXY 1yr highs. High-beta names hit hardest in risk-off; crowded longs into falling tape = squeeze fuel. TSLA: BEARISH \u2014 all timeframes down, stoch pinned near lows, rel-str -14.6%. Posture: smaller size, favor short/mean-reversion fades.",
+    "sentiment": "US equities closed (Sunday) \u2014 thin/gappy until Monday cash open. TSLA: neutral into a MAJOR binary \u2014 EARNINGS Wed 7/22 5:30pm ET after close, inside the 48h window. Q2 deliveries strong (480k, +34% QoQ). Options price a ~7.6% move = high overnight gap risk. Do NOT hold naked through the print.",
+    "analyst": "Bearish trend but every LTF deeply oversold sitting on 377.78 support with a fresh green bounce bar \u2014 a chase-short fades into the bounce (account's #1 loss pattern) and a long is untradeable naked into a ~7.6% earnings gap Wed. Stand aside; short a bounce to ~383.5 or a clean break of 377.78. Any position must close before Wed's print.",
+    "portfolio": "HOLD TSLA \u2014 oversold-at-support + ~7.6% earnings gap Wed; arm short on bounce to 383.5 or break of 377.78."
+  },
+  "timestamp": "2026-07-20T06:46:25.576535+00:00"
+}

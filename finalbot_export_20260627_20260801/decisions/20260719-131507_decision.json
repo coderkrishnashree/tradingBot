@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "QQQ/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Dead weekend tape: price drifts in a ~1pt band around 695 on near-zero volume until Monday, when a gap decides direction. No clean move to trade tonight; a break below 688.09 opens the next leg down, a reclaim of ~700 neutralizes the bearish lean.",
+  "expectancy_note": "No edge: mid-range (688-729), no level, weekend micro-liquidity, gap risk both ways; shorts are this book's losing side (47% win, -0.87 avg) and model punishes the exact structure/aligned/rel-strength confluence present here. HOLD > forced short.",
+  "rationale": "QQQ is bearish for the week (4h -0.70, rel-strength -10.6%, offered book) but there is no tradable short HERE: price sits mid-range on effectively zero weekend volume, US cash market is closed, and the -0.87 orderbook is thin-book noise per macro. Support (688) is ~17x the 15m ATR away and resistance (729) is far above, so any entry is a mid-air chase with Monday-gap risk that would blow through an honest ~1pt stop. Learner stats confirm shorts have been the account's bleed (0.47 win / -0.87 avg) while the punished weights are structure_bias/aligned/rel_strength \u2014 exactly this setup. Wait for confirmation.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 688.09,
+    "expires_min": 600,
+    "note": "Losing 688 support breaks the range low and confirms the bearish leg \u2014 that is the clean short trigger, versus chasing mid-range now."
+  },
+  "transcript": {
+    "macro": "Cycle 2026-07-19 RISK-OFF/DEFENSIVE. Hawkish Fed, stretched valuations, semis correcting (SOX -20% off peak). US cash equity markets CLOSED (Sunday) \u2014 gappy/thin, Monday gap risk. QQQ index proxy leaning DOWN \u2014 composite short -0.386, 4h -0.70, orderbook offered -0.87 (weekend thin-book noise as much as signal). Confirms defensive index tone + semis weakness.",
+    "sentiment": "QQQ: bearish near-term \u2014 epicenter of the selloff (AI-capex fear + semi carnage + IBM software warning). No single 48h scheduled binary, but mega-cap earnings gauntlet (TSLA Jul 22, then AAPL-cohort Jul 29-30) is event risk just past the window.",
+    "analyst": "Bearish lean real for the week, but no clean short entry on weekend micro-liquidity: price mid-range (688-729), no level, gap risk both ways, and shorts are the losing side of this book. HOLD; short trigger only on a clean loss of 688.09.",
+    "portfolio": "HOLD QQQ/USDT:USDT \u2014 bearish tone but no tradable level on dead tape; wait for 688 break. conf 0.50"
+  },
+  "timestamp": "2026-07-19T13:15:07.383245+00:00"
+}

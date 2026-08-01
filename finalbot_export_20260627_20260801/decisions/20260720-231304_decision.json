@@ -1,0 +1,23 @@
+{
+  "symbol": "COIN/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.6,
+  "size": 0.0,
+  "entry": 160.97,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "rationale": "The LONG composite is a lagging 4h read (RSI 64, %B 0.89 into 168.65) but the 15m candles show COIN already flushed 164->159.5 and is now coiling mid-range at 160.97 \u2014 not a fresh long pullback nor a clean short level. Offer-heavy book (-0.226), risk-off crypto tape (F&G 29, BTC soft), high BTC-beta (0.633) with flat RS, and a CLOSED/thin US session all argue against paying up for either side. No entry offers 1.5R to a real level from here, so the highest-expectancy action is to wait for the coil to resolve. Chasing a short is exactly the late-continuation pattern that bled the book (shorts 48% / -0.73).",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 162.9,
+    "expires_min": 240,
+    "note": "Reclaiming the breakdown origin / coil top reasserts the bullish composite and opens a long toward 165-168.65 with the flush low as a defined stop; below 159.5 flips short toward 152.88 instead."
+  },
+  "transcript": {
+    "macro": "2026-07-20, mixed-to-hostile for fresh risk-on longs; favors short/fade side. Tape mildly risk-off (US-Iran escalation = overnight gap risk). US CASH EQUITY MARKET CLOSED \u2014 tokenized perps thin/gappy. Crypto outright cautious: BTC ~$64.2k, dominance ~56.4% elevated, F&G 29 = risk-off consolidation into BTC, no altcoin rotation \u2014 matters directly for COIN. COIN reports Jul 30 (out of window). COIN long fights the crypto tape and orderbook; smallest size / tightest leash.",
+    "sentiment": "COIN mildly bearish near-term despite a strong story. No earnings until Thu Jul 30 after close (outside window). Bullish product narrative (System Update: tokenized stocks, on-platform options, Coinbase Advisor) + Bernstein $330 target already fired weeks ago, drove ~19% pop to ~$165 \u2014 long-horizon, not 48h. Barclays $107 Underweight is the counterweight. 48h driver is crypto beta; with F&G 29 / BTC soft, tape argues against chasing COIN long \u2014 consistent with the scan's bearish RSI divergence.",
+    "analyst": "Last 160.97; price dropped 164.44->159.50 then coiled 160.4-161.5 for ~15 bars (mid-range now). RSI 64 / %B 0.89 are the lagging 4h snapshot; 15m shows no upside extension. Support 152.88, resistance 168.65, VWAP dist +0.74%. Structure_bias -0.065 (offer-heavy -0.226), BTC-corr 0.633 into a risk-off tape. Learner: shorts 0.48 win / -0.73 avg; longs 0.69 but tiny n. No level to fade AT, no trend pullback, no breakout trigger = ~50/50 mid-coil, below the 1.5R bar. HOLD; reclaim 162.9 reasserts long, lose 159.5 opens short to 152.88.",
+    "portfolio": "COIN \u2014 HOLD (conf 0.60, size 0): textbook no-trade coil; wait for 162.9 reclaim or 159.5 break."
+  },
+  "timestamp": "2026-07-20T23:13:04.654486+00:00"
+}

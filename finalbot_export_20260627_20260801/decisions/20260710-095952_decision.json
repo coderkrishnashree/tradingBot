@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "HOOD/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Vertical 3-bar breakout (116.4->118.5) is exhausted on a thin pre-open tape: RSI 90/stoch 99/+4.67% above VWAP with the last bar closing mid-range. Expect a stall/fade back toward the 118.34 breakout retest or the 117.2 shelf over the next 2-4 bars; a clean continuation only comes if it clears 120.12 on cash-open volume.",
+  "expectancy_note": "Long into resistance 120.12 (~1.3% up) with a >1.5xATR structural stop = R:R < 1.0 and negative expectancy; short fights a +9.2% RS leader with no reversal confirmation. Learner: trend playbook 47% / -3.0 avg = chasing bleeds. HOLD is highest expectancy.",
+  "rationale": "HOOD is a tokenized equity trading thin/gappy pre-NYSE-open (opens 13:30 UTC), and it just went vertical into a fresh 15m breakout that is grossly extended (+4.67% vs VWAP, 15m RSI 90, stoch 99.1, bb_pctb 0.95). Chasing the top tick 1.3% below resistance 120.12 gives no room for a positive-R:R long, and the account's history shows late-continuation entries into stretched tape are the #1 loss pattern. Composite itself reads flat (conf 8.8%). I want either a pullback to retest the 118.34 breakout to join the trend at a real level, or a decisive cash-open break of 120.12 \u2014 neither is present now, so no size.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 120.12,
+    "expires_min": 300,
+    "note": "A clean break/hold above the 120.12 range-high resistance on cash-open participation validates the breakout and opens a measured-move long; until then this is an extended chase."
+  },
+  "transcript": {
+    "macro": "Regime: risk-on tape fighting a hawkish (hike-biased) Fed + Middle East tail; BTC ~$64.4k stretched (RSI 66, stoch 97, at resistance $64.7k). HOOD (treat as EQUITY/high-beta fintech): macro MIXED-to-supportive tactically but stretched; ~$115 underlying (tape 118.5), +31% past month, near range top, 52wk high $153.86; risk-on tape + semis help beta but hawkish-Fed regime is a headwind for rate-sensitive high-multiple brokerage. Earnings ~July 29 outside hold window. Derivatives clean: funding 0.000124, LSR 0.988 (balanced), OI 8,269, orderbook_imbalance +0.063, structure_bias -0.026 (neutral). Momentum hot/overbought: 15m RSI 90, 1h RSI 81, stoch 99.1, bb_pctb 0.95, +9.2% vs BTC (RS leader), fresh 15m breakout (level 118.34, vol_ratio 1.7). Moves with COIN (0.81), BTC (0.62). Verdict: LONG-biased intraday but badly overbought + Fed headwind => smaller size, favor pullback over chasing the vertical breakout.",
+    "sentiment": "HOOD as US equity; currently off-hours/pre-market (open 13:30 UTC) => thin/gappy. Tone strongly bullish/momentum; +31% past month; big catalyst already fired July 1 (Robinhood Chain L2 mainnet, 24/7 tokenized stock tokens, crypto perps, agentic AI trading, Morpho Earn ~7% APY) \u2014 largely in the price. Near-term binary: Q2 earnings July 29 after close (~$0.41 EPS, ~$1.2B rev) \u2014 ~19 days out, NOT in window. Low-weight: PT hikes this week (Barclays ->$122, Compass Point/Mizuho ->$130; ~88% Buy, zero sells) \u2014 positive backdrop only. 0.81 corr COIN / 0.62 BTC => high-beta; BTC + Nasdaq open are the real near-term drivers over HOOD-specific news. Bottom line: news mildly SUPPORTIVE of longs but NO fresh <=48h HOOD-specific catalyst; direction set by BTC/COIN and the cash open.",
+    "analyst": "Pre-cash-open (thin/gappy). Path: tight 115.5-116.5 base ~15 bars, then vertical 3-bar melt-up 116.36->117.17->118.34 (breakout bar vol 218)->118.52. Grossly extended: vwap_dist +4.67% (beyond ~1.5xATR chase threshold), 15m RSI 90 / 1h 81 / 5m 91.5, stoch 99.1, bb_pctb 0.951. Last bar (118.52) closed mid-range (H 118.63) \u2014 momentum stalling one bar after breakout. Resistance 120.12 only ~1.3% away; ATR ~$2.55 so a structural long stop below the 118.34/117 base is ~1.5+ ATR while TP1 into 120.12 is only ~$1.6 up => R:R < 1.0. Learner: trend playbook 47% win / -3.0 avg (chasing bleeds); composite direction flat (score 0.074, conf 8.8%). Long buys the top tick into resistance on a stretched stoch; short fights a +9.2% RS leader with no reversal confirmation \u2014 both negative expectancy. HOLD; want a pullback/retest of 118.34 to join the trend at a real level, or a clean cash-open break of 120.12 to chase a measured move.",
+    "portfolio": "HOOD: HOLD (conf 0.60) \u2014 vertical, exhausted breakout on a thin pre-open tape, R:R<1.0 chasing; flat until a 118.34 retest (pullback long) or a decisive 120.12 break on cash-open volume."
+  },
+  "timestamp": "2026-07-10T09:59:52.204098+00:00"
+}

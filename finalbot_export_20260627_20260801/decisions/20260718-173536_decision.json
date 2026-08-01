@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "GOOGL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Frozen weekend tape: price grinds in the 346.8-347.6 micro-range on near-zero volume into Monday; no tradeable intraday move exists, and the real move is a Monday reopen gap plus the Jul 22 earnings binary \u2014 neither is forecastable from these stale candles.",
+  "expectancy_note": "Both sides are traps: long = buying a lagging, offer-heavy name into risk-off + an earnings gap on a closed cash market; short = chasing a 4h RSI 11.6 / -5.85% VWAP washout (the account's exact late-short loss pattern). Negative expectancy either way; HOLD is the +EV choice.",
+  "rationale": "GOOGL is a tokenized equity with the cash market CLOSED (Saturday) \u2014 the last ~5h of 15m candles show a dead, thin, zero-volume drift (347.03->347.27), so the '0.9 long' short-TF scores are weekend noise, not momentum. The 4h is deeply washed out (RSI 11.6, 5.85% below VWAP) so a fresh short is a late-short chase, while a long fights a hostile/risk-off, semis-bear backdrop, an offer-heavy book (-0.17), and -6.8% relative strength. The trade-defining event is Q2 earnings Tue Jul 22 after close plus elevated Monday gap risk \u2014 unquantifiable binaries I will not pre-position into. No honest R:R exists on a frozen book, so size is zero.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 341.86,
+    "expires_min": 240,
+    "note": "Losing the 341.86 4h support on real (post-reopen) volume would confirm downtrend continuation and open a valid trend-short with a defined stop above the level; until then the washout is too stretched to chase and the book is stale."
+  },
+  "transcript": {
+    "macro": "HOSTILE/risk-off, tech-led. Fri Jul 17 closed hard down (Nasdaq -1.4%, week -2.9%). PHLX Semiconductor index in a bear market (AI-capex unwind). Cash equity market CLOSED Saturday \u2014 stale/thin prices, elevated Monday gap risk. Fed holds Jul 29, no FOMC event risk. BTC correlation low. GOOGL: structure_bias -0.216, orderbook -0.17 (offer-heavy), rel_strength -6.8%; 4h washout (RSI 11.6, -5.85% VWAP). L/S 1.55. Macro read: NEITHER / lean short-side risk.",
+    "sentiment": "GOOGL BEARISH near-term with HIGH-impact binary imminent. Jul 16 dropped ~4% on Gemini 3.5 Pro delay + Gemini-for-Assistant Android slip; rivals reportedly outperform Gemini on some enterprise benchmarks. Dominant catalyst: Q2 2026 earnings Tue Jul 22 after close (consensus ~$2.86 EPS, ~$116.5B rev). DOJ antitrust slow-burn. Near-term news argues against fresh longs into the print.",
+    "analyst": "Tokenized equity with cash market CLOSED \u2014 last ~5h of 15m candles are a dead, thin, zero-volume drift (347.03->347.27), so short-TF '0.9 long' scores are weekend noise. 4h deeply washed (RSI 11.6, -5.85% VWAP) so a fresh short is a late-short chase; a long fights a hostile/risk-off, semis-bear tape, offer-heavy book, and -6.8% rel strength. Trade-defining event is Jul 22 earnings + Monday gap \u2014 unquantifiable binaries. No honest R:R on a frozen book. HOLD, size zero.",
+    "portfolio": "GOOGL: HOLD (conf 0.60) \u2014 no tradeable edge on a frozen weekend book into an earnings binary."
+  },
+  "timestamp": "2026-07-18T17:35:36.165194+00:00"
+}

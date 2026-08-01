@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "XAUT/USDT:USDT",
+  "size": 0.0,
+  "entry": 4050.5,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.4,
+  "playbook": "none",
+  "forecast": "Price is drifting off 4056 back toward the 4045/4042 low in a tight low-vol grind (ATR ~0.67%, bb_width 2.38%); expect continued chop 4042-4058 over the next 2-6 bars with no clean thrust either way until it either reclaims 4058 or loses 4042.",
+  "expectancy_note": "p(win) ~0.45 on a forced long here; composite long is unaligned (align 0.8), confidence 40%, book crowded long (L/S 2.79 maxed, bias -0.30) = unwind fuel, and candles fading into VWAP - no R:R edge, HOLD is highest expectancy.",
+  "rationale": "XAUT is a low-vol safe-haven grind sitting right on VWAP (+0.28%) with a mid-band RSI 63/pctb 0.62 and a per-TF split (5m stretched short RSI 19.8, 15m short, 30m/1h/4h long) that gives no aligned entry. The book is maximally one-sided long (L/S 2.79, structure_bias -0.30), which is unwind risk on any DXY/yield bounce, and sentiment flags a Sept-hike headwind capping the haven bid. With price fading bar-by-bar toward 4042 and no rejection at a level, neither a long (chasing crowded/unaligned) nor a short (no trigger, mid-band) clears the 1.5R bar - wait for a decisive break.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 4058,
+    "expires_min": 240,
+    "note": "reclaiming 4058 (top of the current micro-range where the last bounce failed) would confirm the 30m/1h/4h long alignment and turn the crowded book into fuel for continuation toward 4076/4100 - that flips this to a trend-long."
+  },
+  "transcript": {
+    "macro": "Overall risk-ON but late-session/event-sensitive; US cash closed green on soft June PPI, VIX 15.67; ~49% odds Sept Fed HIKE, DXY ~100.5, 10y ~4.56%. BTC ~$62.6k, down. XAUT: Gold firm ~$4,060-4,076 (+0.16%), helped by soft PPI, softer DXY, lower real yields - safe-haven bid intact, cleanest 24/7 driver of the four. BUT positioning most one-sided: L/S 2.79 (bias maxed -1.0), structure_bias -0.303, trivial funding. Composite long only +0.36 and NOT aligned (align 0.8); low vol (bb_width 2.38%, atr 0.67%) = grind not thrust. Risk: crowded long unwinds on any DXY/yield bounce. Trim size.",
+    "sentiment": "XAUT NEUTRAL-to-mildly-bearish near-term; scan's long faces a headwind. Gold chopping $4,000-4,060. US-Iran conflict spiking oil (Brent +14% in 5 sessions) stoking inflation fears -> ~70% odds Sept Fed HIKE, lifting real yields and CAPPING gold's haven bid. Macro tug-of-war (haven vs rate-hike), rangebound. FOMC July 29 (outside 48h window). No clean <=48h catalyst; near-term news roughly neutral, slightly cautions against fresh long.",
+    "analyst": "Low-vol safe-haven grind at VWAP with mid-band RSI 63 and a per-TF split (5m/15m short, 30m/1h/4h long) = no aligned entry. Book maximally one-sided long (L/S 2.79, structure_bias -0.30) = unwind fuel on DXY/yield bounce; sentiment Sept-hike headwind caps the haven bid. Candles fading toward 4042 with no rejection at a level - neither long (chasing crowded/unaligned) nor short (no trigger) clears 1.5R. HOLD; arm long on reclaim of 4058.",
+    "portfolio": "XAUT: HOLD (conf 0.40) - crowded-long low-vol coil at VWAP, macro headwind; no edge until a 4058 reclaim or 4042 break."
+  },
+  "timestamp": "2026-07-15T23:34:16.828415+00:00"
+}

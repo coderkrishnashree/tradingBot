@@ -1,0 +1,24 @@
+{
+  "action": "hold",
+  "symbol": "SNDK/USDT:USDT",
+  "size": 0.0,
+  "entry": null,
+  "stop_loss": null,
+  "take_profit": null,
+  "confidence": 0.66,
+  "playbook": "none",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 1663.87,
+    "expires_min": 240,
+    "note": "A decisive break-and-hold below 1663.87 support removes the snapback cushion and confirms downtrend continuation - a clean short-the-retest trigger rather than selling the oversold hole."
+  },
+  "rationale": "SNDK is in live capitulation (RSI 16, stoch 5.4, bb %B -0.21, 6.8% below VWAP) sitting directly on support 1663.87 with resistance far away at 2279.7 - the single worst place to initiate either direction. It is a tokenized memory-glut equity (btc_corr 0.108) trading with US cash CLOSED, so slippage/gap risk is high and crypto structure metrics do not help. No entry offers a stop that survives a 2.9% ATR wick while keeping R:R >= 1.5, so size is zero. Short = chasing the hole on support (snapback risk); long = knife-catch with the richest funding carry on the board and no reversal confirmation.",
+  "transcript": {
+    "macro": "Regime RISK-ON broad tape BUT semis/AI-hardware being de-risked. SNDK HOSTILE, avoid both sides: funding 0.00054 = most extreme on board (longs paying up into a collapse). Freefall - RSI 16, bb_pctb -0.21, vwap_dist -6.83%, stoch 5.4, all TFs down, on support 1663.9, resistance distant 2279.7, rel-strength -15.98% (worst laggard). Fell ~26% this week on memory-glut fears + Korean semi selloff; ran $37->$2,000+ then reversed. ATR ~2.9% (highest). FOMC minutes Wed = 48h wildcard; perps thin overnight. If traded at all, minimal size.",
+    "sentiment": "SNDK bearish, LIVE shock (highest weight). Epicenter of memory selloff: after a +4,885% run and ~$2,354 peak, cratered >15%, down ~11-13% Jul 2 alone, breaking key support (~$1,730) as Samsung/SK Hynix capacity expansion sparks NAND supply-glut fears; hyperscaler AI capex may peak 2026. Scan confirms capitulation (RSI 16, 6.8% below VWAP, on support 1663). Bullish analyst PTs ($3,000) are long-horizon noise - do NOT trade on. Earnings Aug 24 (no binary). Momentum/news favor SHORT, but near-term risk is an oversold snapback off 1663.",
+    "analyst": "Both sides negative-expectancy: short = chasing RSI 16 / -6.83% VWAP right on 1663 support (snapback risk); long = knife-catch with the richest funding carry on the board and no reversal confirmation (still all-TF down). Thin overnight equity tape + FOMC 48h + top ATR (2.9%) = wide wicks that stop out either side. No stop survives a 2.9% ATR wick while keeping R:R >= 1.5, so size zero. Reconsider on a decisive break-and-hold below 1663.87 (short the retest, not the hole).",
+    "portfolio": "HOLD SNDK/USDT:USDT - no-trade; capitulation on support makes both directions negative-expectancy. Reconsider on a break below 1663.87. Confidence 0.66."
+  },
+  "timestamp": "2026-07-07T01:11:54.089765+00:00"
+}

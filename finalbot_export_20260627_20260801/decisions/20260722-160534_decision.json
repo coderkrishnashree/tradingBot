@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "EWJ/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.3,
+  "playbook": "none",
+  "forecast": "Dead tape (most 15m bars print 0-0.5 units) drifting 91.7-92.4 on stale quotes; expect continued low-volume chop between support 88.16 and resistance 94.82 with no coherent directional move over the next several bars.",
+  "expectancy_note": "No edge: thin/gappy wrapper, 1h (-0.9, RSI 35) fights 15m/5m (+0.88), price mid-range with no extreme to fade and no volume behind any breakout; any ATR-based stop is noise on stale prints. p(win) ~0.5, negative expectancy after slippage.",
+  "rationale": "EWJ is an extremely thin tokenized Japan ETF wrapper: 15m volumes are ~0 (0.06, 0.0, 0.49...) so the candle path is stale repricing, not tradeable flow, and the scan itself flags aligned:false with the 1h timeframe short against the shorter frames. Price sits mid-range (88.16/94.82), VWAP only +1.29% off, %B 0.73 \u2014 neither a trend pullback nor a fadeable extreme \u2014 while the crowd is already long (L/S 1.68), removing any crowd-follow edge. Macro says downsize hard and treat as low confidence; with FOMC Jul 28-29 outside the window and no <=48h catalyst, the highest-expectancy action is to stand aside. Size 0.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 94.82,
+    "expires_min": 240,
+    "note": "A decisive reclaim of range resistance 94.82 on real (non-stale) volume would confirm the weak-yen/AI-tech bid is actually being expressed here rather than just quoted, turning the drift into a tradeable breakout long."
+  },
+  "transcript": {
+    "macro": "MIXED regime tilting cautious. EWJ/EWY are EXTREMELY THIN/GAPPY tokenized wrappers (15m candles print 0-9 units) \u2014 moves stale vs the closed overnight cash session; DOWNSIZE HARD, treat any signal as LOW confidence. EWJ crowded long (L/S 1.68). FOMC Jul 28-29 hold; June CPI ~3.5% benign.",
+    "sentiment": "Nikkei +3.9% on Jul 21 on AI/chip strength; yen very weak (USD/JPY ~162, four-decade lows) flattering exporters. BOJ seen 'behind the curve' \u2014 a jawboning/intervention headline is the main tail risk but no scheduled <=48h event. Mildly constructive, driven by weak-yen + AI tech.",
+    "analyst": "Extremely thin wrapper: 15m volumes ~0, candle path is stale repricing not real flow; scan flags aligned:false (1h short vs 15m/5m long). Mid-range (88.16/94.82), VWAP +1.29%, %B 0.73 \u2014 neither trend pullback nor fadeable extreme; crowd already long (L/S 1.68). Any ATR stop is noise on stale prints. No <=48h catalyst. Stand aside, size 0.",
+    "portfolio": "HOLD EWJ/USDT:USDT \u2014 dead/stale tape, no tradeable edge; lowest confidence in the set."
+  },
+  "timestamp": "2026-07-22T16:05:34.831743+00:00"
+}

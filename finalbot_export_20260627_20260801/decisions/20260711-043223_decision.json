@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "CRCL/USDT:USDT",
+  "size": 0.0,
+  "entry": 66.94,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Coiling 66.3-67.0 into the weekend; expect continued chop with a bias to test 66.3 on drying up-volume. A clean break under 66.30 opens 65.5 then support 61.78; a reclaim of 67.0+ risks a squeeze of the crowded longs toward 69.",
+  "expectancy_note": "No edge at mid-range 66.94: %B 0.74 (not extreme), price at VWAP, negative structure but no trigger. Chasing long = account's proven loser (trend/high-ADX ~0.44 win). Fade needs an extreme or a breakdown - neither is here yet.",
+  "rationale": "CRCL ran +12.6% Fri on OCC news into the weekend with the most crowded long positioning in the set (L/S 2.72), negative structure_bias -0.31, offered book and weakest relative strength (-17.8%) - but price is mid-range at VWAP with no exhaustion signal and drying volume, so there is no honest R:R either way. Cash markets closed, thin/gappy, Monday repricing risk argue for patience over a mid-range guess. Waiting for the crowded longs to actually crack (lose 66.30) gives a far better short entry than fading blind here.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 66.3,
+    "expires_min": 300,
+    "note": "Losing the 66.30 coil-low proves the crowded longs are unwinding and opens a short toward 65.5/61.78 with structure and negative flow aligned."
+  },
+  "transcript": {
+    "macro": "Regime MIXED, lean cautious for RWA perps: Saturday weekend, US cash closed - thin/gappy tokenized perps with Monday gap risk, size down everywhere. Broad tape risk-on, mega-cap/tech-led (Fri SPX +0.42% 7,575, NVDA +4%, META +6%). US 10yr sticky ~4.6% = duration headwind. CRCL: highest BTC corr (0.53), weakest RS (-17.8%), closed Fri +12.6% on OCC trust-bank approval + Nomura Japan FX deal + ARK buying; violent mean-reverter ($87 Jun15 -> $66); sell-side split (Goldman $96 / Compass Point $55). RED FLAG positioning: L/S 2.72 (most crowded long), orderbook -0.047, structure_bias -0.31. Chase-longs dangerous; smallest size, fade-strength or wait.",
+    "sentiment": "Overall BULLISH/risk-on but weekend-thin, Monday-open repricing risk. CRCL BULLISH with active catalyst: Jul 10 OCC final approval for First National Digital Currency Bank (+13% pre-mkt), Nomura Japan FX-settlement tailwind. Overhang: Stripe 'Open USD' stablecoin threat (Compass Point PT cut to $55, long-horizon). Earnings Aug 11 (outside window). Most headline-sensitive name here - watch continuation vs exhaustion of the OCC pop.",
+    "analyst": "Price chopped 66.4-67.0, poked to 67.0 then rejected to 66.63, drifted back to close 66.94 on drying volume (46/28 vs prior 200-600) - weak bounce, 67.0 acting as resistance. Most crowded long in set (L/S 2.72), negative structure_bias, weakest RS, offered book. Long = account's #1 loss pattern (buy continuation into crowded longs; trend playbook 0.44 win, -2.89 avg). Short is tempting but price is mid-range (%B 0.74, RSI 58 - not extreme); fading mid-range with active positive headline risk is a bad fade. No honest R:R at 66.94 mid-range with Monday gap risk. HOLD; armed short trigger on loss of 66.30 coil-low.",
+    "portfolio": "HOLD CRCL - crowded-long into weekend, no edge at mid-range; short trigger armed below 66.30."
+  },
+  "timestamp": "2026-07-11T04:32:23.743448+00:00"
+}

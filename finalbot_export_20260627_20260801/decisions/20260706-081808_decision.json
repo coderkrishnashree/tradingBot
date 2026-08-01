@@ -1,0 +1,25 @@
+{
+  "action": "hold",
+  "symbol": "ORCL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "expectancy_note": "Chasing 144.82 at RSI 85 / %B 0.98 off-hours has p(win) ~0.4 with poor R:R (extended, thin, gappy); waiting for a VWAP/143.11 reclaim flips it to a high-prob trend entry \u2014 HOLD has better expectancy than a blow-off chase.",
+  "rationale": "Tokenized ORCL is mid-blowoff (RSI 85, stoch 90.7, riding upper band +0.39% above VWAP) on a 7x off-hours volume spike during a CLOSED US session \u2014 a thin, gappy print, not a fresh trend I can trust. Structure_bias is negative (-0.256) with crowded ~2:1 longs, so I'd be adding to the exhausted crowd with no news tailwind (news layer blind) and no <=48h catalyst. No trade here: the clean setup is a long on a controlled pullback toward VWAP/support ~143.11 that holds and reclaims, ideally confirmed at the 09:30 ET open, not a chase at the upper band.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 143.5,
+    "expires_min": 360,
+    "note": "A pullback that holds ~143.11 support and reclaims 143.5 with cooled momentum during the US session = clean trend-continuation long entry instead of an extended blow-off chase."
+  },
+  "transcript": {
+    "macro": "ORCL is a tokenized EQUITY perp judged on the Nasdaq/tech tape, not crypto (btc_correlation 0.202). Scan at 2026-07-06 08:15 UTC = ~04:15 ET, US cash session CLOSED -> thin/gappy off-hours; the 15m breakout (vol_ratio 7.04, bbw 1.55) may be a low-liquidity air-pocket, real test at 09:30 ET open. Crypto majors quiet/soft (no risk-on tailwind). Tech-perp peers (MSFT/GOOGL/META/NVDA) rich/overbought/late-stage. ORCL positioning: funding 0.0 neutral; L/S ratio 1.973 (crowded ~2:1 long, contrarian bias -0.97); OI ~8,985 thin (gap risk); orderbook imbalance +0.116. Blended structure_bias -0.256 (NEGATIVE) does NOT support adding longs. Momentum exhausted (RSI 85, stoch 90.7, %B 0.98, +0.39% vs VWAP); composite regime-blocked 'squeeze/flat'. RS vs BTC +0.77% (idiosyncratic, leading) but extended. VERDICT: MIXED, leaning HOSTILE for a fresh long 24-48h; pullback to VWAP/support 143.11 is cleaner. Earnings calendar unverifiable (WebSearch 529).",
+    "sentiment": "DATA CAVEAT: web-search down (HTTP 529 all attempts) -> news layer BLIND, not 'clear.' Do not count as a fundamental clear for a long. ORCL last 144.82, fresh 15m breakout long 144.57 on real volume-backed squeeze release BUT extremely overbought (RSI 85, stoch 90.7, %B 0.98, ADX 75) = LATE move. Oracle fiscal Q1 earnings typically mid-September -> almost certainly no earnings inside 24-48h (unconfirmed live). No confirmable <=48h binary catalyst. Net sentiment: NEUTRAL, leaning cautious on the long; technicals-only, no-news-tailwind, blow-off/exhaustion risk. No catalyst to chase long; no bad news to short into.",
+    "analyst": "Tokenized ORCL is mid-blowoff (RSI 85, stoch 90.7, riding upper band +0.39% above VWAP) on a 7x off-hours volume spike during a CLOSED US session -- a thin, gappy print, not a fresh trend to trust. Structure_bias negative (-0.256) with crowded ~2:1 longs = adding to an exhausted crowd with no news tailwind and no <=48h catalyst. No trade: clean setup is a long on a controlled pullback toward VWAP/support ~143.11 that holds and reclaims 143.5, ideally confirmed at the 09:30 ET open. Chasing at the upper band has p(win) ~0.4 with poor R:R; HOLD has better expectancy.",
+    "portfolio": "ORCL: HOLD (conf 0.60) - stand aside on the off-hours blow-off; revisit on a VWAP/143.11 reclaim at the US open."
+  },
+  "timestamp": "2026-07-06T08:18:08.781982+00:00"
+}

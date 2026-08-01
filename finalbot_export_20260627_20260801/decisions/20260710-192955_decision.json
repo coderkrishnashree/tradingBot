@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "EWJ/USDT:USDT",
+  "size": 0.0,
+  "entry": 94.67,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Frozen off-hours tape hovering 94.6-94.7 on near-zero volume; expect it to drift sideways in the 94.2-95.0 band until US cash re-engages, no clean directional impulse into the next few candles.",
+  "expectancy_note": "Long into RSI78/stoch97/%B0.92 near resistance 96.65 is the account's classic late-chase (bounce stops it before continuation); range-short fights an ADX-84 uptrend. Neither clears 1.5R honestly on an illiquid tape, so flat is highest expectancy.",
+  "rationale": "EWJ is a tokenized ETF trading off US cash hours on a frozen, zero-volume tape (repeated flat prints), stretched overbought (RSI ~78, stoch 97, %B 0.92) and extended +1.7% above VWAP just ~2% under resistance 96.65. A market long here is precisely the chase-after-the-move pattern that gets stopped by a routine bounce, and a mean-revert short fights a powerful uptrend with ADX 84 \u2014 no honest 1.5R setup either way, and no fresh catalyst inside 48h. Size 0: I want either a genuine pullback that reclaims VWAP as support or a volume-backed break of 96.65 before committing, especially given weekend/liquidity-gap risk.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 93.6,
+    "expires_min": 240,
+    "note": "Loses the coil floor / VWAP zone (~93.6) \u2014 an actual pullback that resets the overbought stretch and creates a real long entry off support 90.27 or a VWAP-reclaim; a clean break back above 96.65 on volume would instead be the breakout-long trigger."
+  },
+  "transcript": {
+    "macro": "Regime: risk-on but yield-fragile (net neutral-to-mildly-risk-on). US equities firm (semi-led rally), but 10Y ~4.54-4.56% two-month high, Fed hike-not-cut odds ~64-69% for Sep, firm USD (DXY ~101). EWJ underlying strongly bullish (Nikkei +40% YTD, near ATH), weak-yen exporter tailwind, but scan TOPPY \u2014 RSI ~77-80, ADX 84, bb_pctb 0.92, overbought near resistance 96.65, price 94.67. Crowded long/short ratio 1.47. BoJ Jul 30 outside 48h but yen-intervention tail risk. CRITICAL: tokenized ETF, thin/gappy off US cash hours. Macro verdict: lean LONG with trend, REDUCED SIZE, tight risk.",
+    "sentiment": "EWJ constructive/mixed. ~9% below Feb-2026 ATH. No BOJ binary this cycle (Jul 30-31, outside window). Live driver = yen: USD/JPY ~161.7 on Jul 10 (yen strengthening) \u2014 mild headwind for exporters, tailwind for financials, net near-term wash. Technically stretched (RSI ~78, stoch ~97, near upper Bollinger). No fresh un-priced catalyst inside 48h. Verdict: NEUTRAL to the long \u2014 momentum/positioning trade not news-driven; overbought.",
+    "analyst": "Frozen off-hours zero-volume tape (repeated flat prints 94.62/94.67), stretched overbought RSI ~78-80/stoch 97/%B 0.92, extended +1.7% above VWAP, ~2% under resistance 96.65. Market long = classic late-chase that a routine bounce stops; range-short fights ADX-84 uptrend. Neither clears 1.5R honestly on illiquid tape. No fresh catalyst in 48h. HOLD, arm trigger for real pullback (VWAP reclaim off support 90.27) or volume-backed break of 96.65.",
+    "portfolio": "EWJ/USDT:USDT \u2014 HOLD (conf 0.50): overbought, illiquid off-hours, no honest R:R either way; wait for pullback-to-support or volume breakout."
+  },
+  "timestamp": "2026-07-10T19:29:55.963790+00:00"
+}

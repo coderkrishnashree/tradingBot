@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "ORCL/USDT:USDT",
+  "size": 0.0,
+  "entry": 141.72,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.4,
+  "playbook": "none",
+  "forecast": "Oversold bounce off 137.6 support is in progress: last 6 bars carved higher-lows 141.12->141.72; expect a grind up toward VWAP/broken-support resistance 143.5-144.5 over the next few bars before the downtrend can resume. Shorting here at 141.7 (RSI 36, stoch 28, -1.7% under VWAP, sitting on support) chases into that bounce.",
+  "expectancy_note": "p(win) on a market short here ~0.4: honest stop above 143.6 gets tagged by the very bounce the candles are already printing before 137.6 support gives way; wait to sell the retest into 143.5-144.5 where R:R and probability both improve.",
+  "rationale": "Short thesis is structurally sound (crowd stubbornly long 2.17 L/S = squeeze fuel, -18.6% laggard, 30m/1h/4h all short) but location is poor: price is oversold and pinned on 137.6 support, 1.7% below VWAP, with 15m/5m already ticking up in a bounce. A fresh market short is exactly this book's late-short-into-stretched-tape loss pattern. Thin Sunday tape and a gappy CPI-driven Monday open add two-sided risk, so I wait for the bounce to sell the retest rather than chase.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 143.8,
+    "expires_min": 600,
+    "note": "A bounce back into VWAP / broken-support-turned-resistance 143.5-144.5 gives a high-probability short entry with a tight stop above 145 and the 137.6 support as target; that reclaim-then-fade is where the downtrend resumes with good R:R."
+  },
+  "transcript": {
+    "macro": "Regime MIXED. Sunday Jul 12 \u2014 US cash CLOSED, ORCL tokenized perp printing stale Friday-close, thin/gap-prone into Monday. Heavy 48h event risk: Tue Jul 14 June CPI + big-bank earnings + Warsh testimony (hawkish). No ORCL earnings this week (reported Jun 10). Clear underperformer: RS -18.6% vs BTC, RSI 36, price 141.7 near support 137.6, 30m/1h/4h all short. Composite short but NOT aligned (conf 37.2%). Structure mixed: L/S 2.17 (crowd long a falling name = squeeze fuel) but orderbook +0.13, structure_bias -0.261. Bounce risk into a risk-on Monday open \u2014 short has structural support but poor location.",
+    "sentiment": "ORCL weak/heavy, no <=48h binary. Laggard ~$140-141, -28% YTD, down ~2.5% last session. Overhang is fundamental not dated: massive AI capex (~$70B net capex FY2027, ~$40B debt/equity incl. $20B share sale) spooking investors despite Buy consensus and raised EPS guide ($8.05) \u2014 multi-quarter narrative, not a 48h mover. Bearish drift, no fresh dated catalyst. Overall market neutral-to-cautious.",
+    "analyst": "Short thesis structurally sound (squeeze fuel, laggard, downtrend) but location poor: oversold on 137.6 support, 1.7% below VWAP, 15m/5m already bouncing. A market short here chases into the bounce \u2014 book's late-short loss pattern. Wait to sell the retest into 143.5-144.5. Size 0.",
+    "portfolio": "HOLD ORCL \u2014 short bias right but oversold on support; sell the bounce into 143.5-144.5, not here."
+  },
+  "timestamp": "2026-07-12T13:32:50.126334+00:00"
+}

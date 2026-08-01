@@ -1,0 +1,25 @@
+{
+  "action": "hold",
+  "symbol": "BTC/USDT:USDT",
+  "confidence": 0.6,
+  "size": 0.0,
+  "entry": 62881.8,
+  "stop_loss": 0.0,
+  "take_profit": 0.0,
+  "playbook": "none",
+  "forecast": "Chop 62.5k-63.1k into the 08:30 ET CPI; the print, not structure, decides the next leg. Recent 15m bars grind up with a strong final green candle poking 63096 - mild relief-rally lean, not a short setup.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 63200,
+    "expires_min": 240,
+    "note": "A decisive 15m close above 63.2k (post-CPI relief reclaim) opens a run at 64.7k resistance and flips to a tactical long; losing 61.27k support on a hot print arms a clean trend short."
+  },
+  "rationale": "BTC sits mid-range (support 61.27k / resistance 64.70k) with a flat composite (conf 2.5%) and benign funding (+0.0058%) \u2014 no directional edge. The dominant driver is June CPI + Warsh testimony within hours, so any entry now is a pure macro coin-flip, not a technical read. Learner stats show this book bleeds on trend shorts into stretched tape; the recent bars actually lean mildly bullish (big final green candle to 63096), so a short is the wrong side and a long is premature. Size 0: wait for the print, then trade the reaction off a confirmed break.",
+  "transcript": {
+    "macro": "Cautious risk-off tilting HOSTILE on timing. June CPI 08:30 ET today + Warsh testimony; ~33% July HIKE odds, ~69% by Sep, inflation 3yr high. Hormuz escalation lifting oil, weighing equities. Book-wide risk: a COOL CPI (-0.2% m/m consensus) relief rally squeezing crowded/oversold shorts. BTC: MIXED (lean neutral) \u2014 structure_bias -0.20, funding benign (+0.0058%, no crowded-long squeeze fuel), L/S 1.53 net-long, composite flat, mid-range ($61.3k support / $64.7k resistance). Cleanest 'no edge into the event' name; any short is a macro-beta bet on a hot CPI. Correlation anchor for CRCL.",
+    "sentiment": "Risk-OFF; Crypto Fear & Greed 22 (Extreme Fear). BTC bearish tone, macro binary live. ~$62.5K, -2% today. FOMC minutes hawkish, rate-hike bets rising into CPI. ETF flows the swing factor (~45% of weekly moves): $2.7B June outflow briefly reversed with ~$510M early-July inflows but wobbling again; 'double top near $62.5K' flagged. CLARITY Act supportive but slow. Net: near-term news bearish/against longs \u2014 CPI/Fed is the whole game next 24-48h.",
+    "analyst": "BTC is genuinely no-edge mid-range tape: composite flat (2.5%), structure_bias -0.20, L/S 1.53 net-long, funding benign. Recent 15m bars grind up with a strong final green candle poking 63096 \u2014 mild relief-rally lean, not a short. CPI at 08:30 ET is a live binary within hours; a short here is a hot-CPI bet, a long a cool-CPI bet \u2014 negative expectancy either way (p(win) ~50/50, R:R undefined). Learner shows shorts bleeding (26 shorts, 46% win, -1.6 avg). HOLD; reconsider armed at 63.2k (relief reclaim -> long) / 61.27k (hot-print breakdown -> short).",
+    "portfolio": "BTC: HOLD (conf 0.60) \u2014 flat composite, no structural edge, macro coin-flip into CPI."
+  },
+  "timestamp": "2026-07-14T12:34:39.756128+00:00"
+}

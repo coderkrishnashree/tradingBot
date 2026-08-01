@@ -1,0 +1,23 @@
+{
+  "symbol": "EWY/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.4,
+  "size": 0.0,
+  "entry": 168.53,
+  "stop_loss": 171.2,
+  "take_profit": 164.0,
+  "rationale": "EWY is the weakest relative name (RS -22%) with all higher timeframes short (1h -0.74, 4h -0.469) and price below VWAP after a failed bounce to 170.3 \u2014 a genuine continuation-short bias. But three things block a market entry now: (1) ATR of 3.1% means an honest stop above the 170.5 bounce high is ~2.7pts while the nearest structural target (166.5) is only ~2pts away, so R:R to the realistic first exit is under 1x \u2014 the wide-stop-near-target trap that bleeds this account; (2) macro/sentiment are directly conflicted \u2014 technicals lean short but KOSPI just ripped +6.24% on chips and could gap EWY up overnight; (3) off-hours tokenized-equity tape is thin/gappy, so a stop is unreliable. Size 0. Arm a short trigger on a break of the 166.5 swing low, which confirms the down-leg resumes and lets me enter with tighter risk.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 166.5,
+    "expires_min": 240,
+    "note": "Losing the 166.5 recent swing low confirms the failed-bounce short and resumes the down-leg toward 164, letting me enter with compressed risk instead of a wide-stop chase."
+  },
+  "transcript": {
+    "macro": "Regime risk-on; off-hours equity proxies thin/gappy. EWY bias SHORT tactical but STAY-OUT if unattended: KOSPI two-way monster (ATH Jun 19, -27% to ~6,880 by Jul 13, now bouncing on Samsung/SK Hynix). EWY weakest name: RS -22% vs BTC, structure_bias -0.18, 1h/4h/5m short, ATR 3.1% very volatile; funding slightly positive, L/S 1.22 (not crowded).",
+    "sentiment": "Korea BULLISH momentum but extreme vol. KOSPI +6.24% Jul 15 (close 7,284) on soft-CPI relief; Samsung +6.3%, SK Hynix +8.8%, SK Hynix ADR +27% Nasdaq debut. But rollercoaster: -6-8% Jul 2 chip-rout then double-digit snapback. EWY still technically weak (RS -22%) despite Korea rally \u2014 a divergence. No 48h binary but chip headlines drive overnight gap risk.",
+    "analyst": "EWY 168.53; failed bounce 166.5->170.3 now fading, last 15m closed near low. 1h -0.74 strong short, RS -22% weakest, below VWAP, RSI 50.2 (room to fall), not extended (vwap_dist -1.28%). But ATR 3.1% (~5.3pts): honest stop above 170.5 (~2.7pts) vs nearest target 166.5 (~2pts) = <1R; off-hours thin/gappy fills; macro/sentiment conflicted (Korea just ripped). HOLD, size 0, arm short trigger on break of 166.5 to compress risk.",
+    "portfolio": "EWY: HOLD, conf 0.40, size 0 \u2014 right-direction short but sub-1R and conflicted; short trigger armed below 166.5."
+  },
+  "timestamp": "2026-07-16T03:33:42.915934+00:00"
+}

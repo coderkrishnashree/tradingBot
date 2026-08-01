@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "SOL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Chop 74.7-75.5 into the 08:30 ET CPI print; a break of 74.5 opens 74.04 then a flush toward 73; reclaim of VWAP ~76.4 flips it back up toward 77+.",
+  "expectancy_note": "Short here (75.16->74.04) is only ~1.5% with a stop above 75.6 = R:R <1.0, and fires into a holding 74.5 base before a binary event; p(win) fade at extreme is low. HOLD beats chasing.",
+  "rationale": "4h trend is down (ADX 62) and macro is hostile, but price is NOT extended: it based at 74.5-74.7 and reclaimed 75.3 on the 15m, sitting just above support 74.04 with RSI 37 (not a clean short entry, not oversold enough to fade long). Funding is flat and L/S is 2.59 (crowded long) so a squeeze is as likely as a flush, and CPI 08:30 ET plus Fed testimony is an imminent binary that will decide direction. No honest >=1.5R setup exists at 75.16 - wait for the level break the event resolves.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 74.5,
+    "expires_min": 240,
+    "note": "Losing the 74.5 base (the level buyers defended on the 15m) confirms the downtrend resumes and opens a clean short toward 74.04 then 73."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF, event-gated. June CPI 08:30 ET + Fed Chair Warsh testimony ~10:00 ET today; ~50% odds of a July RATE HIKE. Hormuz blockade threat spiked oil/yields; SOX -3.6% Mon, Nasdaq -1.55%. SOL: BTC ~$62.6k, crypto -2%+ on rate-hike repricing. Funding flat/slightly neg, L/S 2.59 (very crowded long -> contrarian bearish), structure_bias -0.29, btc_corr 0.79, rel_strength +8.1% vs BTC.",
+    "sentiment": "SOL neutral, no in-window hard catalyst. Spot SOL ETFs live (~$1.12B inflows), possible SEC staking decision, Alpenglow upgrade Q3 not 48h. On-chain soft (MAU 2yr low, TVL -56%). Near-term driver is crypto beta, not SOL headlines.",
+    "analyst": "4h trend down (ADX 62) and macro hostile, but price NOT extended - based at 74.5-74.7, reclaimed 75.3 on 15m, just above support 74.04, RSI 4h 37. Flat funding + L/S 2.59 means squeeze as likely as flush. No honest >=1.5R short at 75.16 into a holding base before the CPI/Fed binary; long unjustified. HOLD; short trigger on loss of 74.5 base.",
+    "portfolio": "SOL/USDT:USDT -> HOLD (conf 0.50): no clean edge into the CPI/Fed binary; watch for a break of the 74.5 base."
+  },
+  "timestamp": "2026-07-14T06:34:53.011029+00:00"
+}

@@ -1,0 +1,27 @@
+{
+  "action": "hold",
+  "symbol": "NVDA/USDT:USDT",
+  "size": 0.0,
+  "entry": null,
+  "stop_loss": null,
+  "take_profit": null,
+  "take_profit_1": null,
+  "take_profit_2": null,
+  "confidence": 0.6,
+  "playbook": "none",
+  "expectancy_note": "Short bias is real (ADX 31.6, all-TF aligned, RS -1.96%) but entry is terrible: price pinned ON support 190.16 with 1h RSI 19, 15m RSI already snapped to 67 = bounce underway, into thin pre-cash-open gappy tape + crowd long 1.84 (squeeze fuel). Chasing a short here is <1xATR to a bouncing level = negative expectancy.",
+  "rationale": "NVDA is in a clean downtrend and is the weakest horse in the semi complex, so the directional lean is short, but the tactical read forbids entering now: spot 194.19 is ~2% above support 190.16 with 1h RSI at 19 (deeply oversold) and 15m already bouncing (RSI 67), and the scan is stamped before US cash open so a gap-bounce is a live risk. The clean edge is either a short into a relief rally back toward 195-200 or a confirmed break-and-hold below 190.16 for a continuation leg; neither exists yet, so HOLD is the highest-expectancy position. FOMC minutes Wed Jul 8 is the main event risk, reinforcing patience.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 190.16,
+    "expires_min": 240,
+    "note": "A break-and-hold below support 190.16 confirms downtrend continuation and arms the short with a measured move lower and a stop back above the level."
+  },
+  "transcript": {
+    "macro": "Regime MIXED, tilting risk-off for tech beta. Hawkish-Fed tape (Chair Warsh flipped to hikes; funds ~3.63% rising toward ~3.8% by Oct; FOMC Jul 28-29). Active rotation OUT of semis after +80% H1 run; Nasdaq lower Jul 1 & 2 \u2014 risk-on at index level, risk-off at semis. Scan 08:38 UTC = BEFORE US cash open, tokens mark off Monday close, thin/gappy gap-risk at NY open. Funding 0.0, OI thin (NVDA ~20.8k). NVDA: epicenter of semi rotation, RS -1.96% vs BTC, price 194.19 pinned near support 190.16, 1h RSI ~19 deeply oversold; structure_bias -0.26 from lopsided long/short 1.84 (squeeze fuel both ways). SIZE DOWN.",
+    "sentiment": "Biggest <=48h catalyst: FOMC minutes 2:00 PM ET Wed Jul 8 (first under Warsh) \u2014 binary vol event; dovish squeezes tech up, hawkish = tech leg down. NVDA: neutral-to-heavy near-term, NO company binary within 48h (earnings Aug 26). Denied NVL144 rack-delay report (mild+), board expansion Jul 13, $80B buyback bid. SK Hynix ~$29B offering this week tests AI/semi appetite (modest sector risk). Short is a technicals/macro trade, not a catalyst trade.",
+    "analyst": "Textbook conflict: strong downtrend (short bias, ADX 31.6, all-TF aligned, blended -0.414) BUT price pinned on support 190.16 (~2% below spot) at 1h RSI 19, into a pre-cash-open thin/gappy tape, crowd still long (squeeze fuel). 15m RSI already snapped to 67 = bounce underway. Shorting here = chasing into support at RSI 19 with gap-bounce risk = poor R:R (<1xATR to a bouncing level). Long unsupported (fighting primary downtrend). Best expectancy = HOLD; wait for a relief rally toward VWAP/resistance 195-200 OR a confirmed break-and-hold below 190.16 to arm the continuation short.",
+    "portfolio": "HOLD NVDA \u2014 directional lean is short but entry is negative-expectancy at oversold support pre-open; armed trigger is a confirmed break below 190.16."
+  },
+  "timestamp": "2026-07-07T08:42:11.281855+00:00"
+}

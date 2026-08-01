@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "TSM/USDT:USDT",
+  "size": 0.0,
+  "entry": 436.51,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.34,
+  "playbook": "none",
+  "forecast": "Price is frozen near 436.5 on near-zero volume (multiple 0.0-volume, flat candles); no concrete next-candle move can be read. Most likely path is continued illiquid chop inside 425.7-460.5 until the Jul 14 CPI and Jul 16 earnings force a levered gap.",
+  "expectancy_note": "No fillable edge: illiquid tape + weak 37.5% short signal contradicted by bullish divergence and 15m/1h RSI 23.8/26.7 oversold; binary Jul-16 earnings makes any short-dated R:R a coin flip. p(win) ~0.5, negative expectancy after slippage.",
+  "rationale": "TSM is untradeable in-scan: near-zero volume with price stuck at 436.51, ADX 24 (chop), and a bullish divergence undercutting the already-weak short composite. Crowded-long 1.75 cuts both ways (unwind vs squeeze). With CPI Jul 14 and Q2 earnings Jul 16 both inside the holding window, entering now is a binary gap bet with no honest 1.5R structural setup and unavoidable fill slippage on illiquid quotes. HOLD is the highest-expectancy action.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 460.54,
+    "expires_min": 240,
+    "note": "Reclaiming the 460.54 resistance would confirm the bullish divergence resolving into a squeeze and turn the crowded-long into breakout fuel worth a long re-debate."
+  },
+  "transcript": {
+    "macro": "Fragile/mixed, risk-off in tech. SEMIS actively hostile: memory names in bear market, ~$1.5T semi cap erased since Jun 25. TSM RS -6.7% vs BTC, but essentially UNTRADEABLE in-scan \u2014 near-zero volume prints, ADX 24 (chop), and a BULLISH DIVERGENCE. TSMC reports Q2 earnings Jul 16 as a binary catalyst. Crowded L/S 1.75 = unwind risk but also squeeze risk on a bounce. Environment cautions TSM either way. Jul 14 CPI overhead.",
+    "sentiment": "Bullish but binary IMMINENT. TSMC reports Q2 2026 on JULY 16 \u2014 Street expects $3.81/ADR on ~$40B revenue, GM 65.5-67.5%, AI-chip demand strong, stock +~40% last quarter, analysts strongly bullish into print. Real 48h event risk: consensus elevated so bar is high; a levered beat-or-miss gap is likely.",
+    "analyst": "TSM untradeable in-scan: near-zero-volume frozen candles at 436.51, ADX 24 (chop), bullish divergence undercutting an already-weak (37.5%) short composite, 15m/1h RSI 23.8/26.7 oversold. Crowded-long 1.75 cuts both ways. With CPI Jul 14 and Q2 earnings Jul 16 both inside the window, entering now is a binary gap bet with no honest 1.5R setup and unavoidable slippage. HOLD; reconsider on a reclaim above 460.54.",
+    "portfolio": "HOLD TSM \u2014 illiquid/frozen tape, binary Jul-16 earnings; reconsider above 460.54."
+  },
+  "timestamp": "2026-07-12T07:03:36.207391+00:00"
+}

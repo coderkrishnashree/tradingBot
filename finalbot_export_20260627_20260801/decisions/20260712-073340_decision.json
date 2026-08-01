@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "AAPL/USDT:USDT",
+  "size": 0.0,
+  "entry": 313.57,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.34,
+  "playbook": "none",
+  "forecast": "Frozen pre-US-open book: price grinds in the 313.5-314.3 pocket on near-zero volume until the 13:30 UTC cash open, then takes direction from Nasdaq tone; no clean move to trade yet.",
+  "expectancy_note": "No edge: mid-range (support 305.19 / resistance 316.77), 1h RSI 27 already oversold so a continuation short would chase into a bounce, and a thin gappy tokenized-equity book makes any tight stop gap-risky.",
+  "rationale": "AAPL is a tokenized equity scanned pre-US-open - crypto structure (funding 0, OI 3436, L/S 1.08) is meaningless and the last 5h of 15m candles are frozen sub-1-unit prints. Composite short is only 53.6% on an already-oversold 1h (RSI 27), no divergence, tight BB, price mid-range with no fadeable extreme, and earnings are Jul 30 (outside window). Account history shows shorts and trend plays bleeding by chasing stretched tape into gaps, so wait for the cash session to print a real level.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 313.49,
+    "expires_min": 240,
+    "note": "Losing the range floor that held all pre-market on real US-session volume opens a clean continuation short toward 305.19."
+  },
+  "transcript": {
+    "macro": "Regime MIXED, risk-cautious. Semiconductor valuation wobble plus live Middle East premium. Fed on hold 3.50-3.75%. Event stack: June CPI + Fed Chair Warsh testimony Tue Jul 14; TSMC earnings Thu Jul 16. Tokenized equity perps = thin/gappy/frozen prints when US cash closed; scan pre-US-open so equity reads stale. AAPL: cleanest non-semi equity, not a chip-cycle hostage (corr to MU negative); modest short bias from an already-oversold 1h (RSI 27), weakest structure signal, relative-strength outperformer (+7.2%), pinned under resistance 316.77. Low-conviction, range-bound, mean-reversion.",
+    "sentiment": "Risk-off tilt into a semi-heavy week. AAPL: no <=48h binary - earnings Jul 30 (outside window); only fresh item Broadcom chip-supply deal extension (mildly positive, priced). Purely macro/tape-follower next two days. Lean neutral, defer to price.",
+    "analyst": "No honest edge: book frozen and gappy until 13:30 UTC US open, entering now risks a gap through any tight stop. Not at resistance to short, not at support to buy, 1h already oversold (RSI 27) so no clean continuation short, no catalyst inside window. Hold and wait for the cash session to define a real level.",
+    "portfolio": "AAPL: HOLD, size 0 - frozen pre-open tape, wait for US session; arm short on loss of 313.49."
+  },
+  "timestamp": "2026-07-12T07:33:40.208458+00:00"
+}

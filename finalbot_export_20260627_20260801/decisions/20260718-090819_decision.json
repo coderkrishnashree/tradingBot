@@ -1,0 +1,28 @@
+{
+  "symbol": "SOL/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.58,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "none",
+  "forecast": "Price coils 74.8-75.1 just above 73.3 support on fading volume for the next few bars; no clean directional break yet. Fresh push below 74.73 opens 73.3; a reclaim of VWAP ~76.2 flips the near-term bias up.",
+  "expectancy_note": "Short here is a late chase into 4h RSI 29.7 + L/S 2.795 crowd (squeeze risk); account shorts win only 47% at -0.87 avg and model penalizes aligned/structure_bias. Long has no risk-on fuel. HOLD has best expectancy until a level breaks.",
+  "rationale": "4h is a strong downtrend (ADX 44.7) but RSI 29.7 is oversold and the 15m tape has STALLED \u2014 last 8 bars coil 74.86-75.00 on drying volume above support 73.3, while 15m/1h/5m are all flat. Shorting into a stretched, crowded-long, squeeze-prone tape is precisely the losing pattern in this account's stats (36 shorts, 47% win, -0.87 avg). No long either: RISK-OFF, BTC-dominance, corr 0.79 with RS -2.9% = pure BTC-beta with no bid. Wait for a clean break of 73.3 or a VWAP reclaim.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 73.3,
+    "expires_min": 240,
+    "note": "Losing 73.3 support confirms the 4h downtrend resumed and validates a fresh continuation short with a measured target lower."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF. Crypto in Extreme Fear (F&G 25), BTC ~$63.9k, BTC dominance elevated ~56.4% \u2014 capital hiding in BTC, alts starved. SOL: HOSTILE / lean short; only true-crypto name, corr 0.79 to BTC (mostly BTC-beta, RS -2.9%), L/S 2.795 very long-crowded (contrarian short) but you'd be short-beta into an already-fearful, oversold tape (4h RSI 29.7).",
+    "sentiment": "SOL structurally constructive (5 spot SOL ETFs live, >$1.1B inflows, staking-ETF filing, Morgan Stanley low fees) but multi-week narratives, no 48h binary, no unlock/hack pending. Short-term trades as high-beta crypto, hit in mid-week risk-off. BULLISH structurally, NEUTRAL-TO-BEARISH near-term (follows BTC/risk).",
+    "analyst": "Strong 4h downtrend but oversold (RSI 29.7) and the 15m tape has stalled/coiled above 73.3 on drying volume. Shorting a stretched, crowded-long (L/S 2.795) name is the account's loss pattern; no long fuel in a BTC-dominance risk-off tape. HOLD, reconsider on a clean break of 73.3.",
+    "portfolio": "SOL \u2014 HOLD (0.58): oversold BTC-beta, crowded-long squeeze risk kills the short; no risk-on fuel for a long. Wait for 73.3 break."
+  },
+  "timestamp": "2026-07-18T09:08:19.608188+00:00"
+}

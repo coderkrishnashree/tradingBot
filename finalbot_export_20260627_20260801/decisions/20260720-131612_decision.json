@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "QQQ/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.55,
+  "playbook": "none",
+  "forecast": "Choppy grind in the 701-705 band into the 13:30 UTC US open; price stalled under the 704.65 local high with two rejections. Expect a thin, gappy resolution - most likely a shallow fade toward 700-701 before the tape decides, not a clean continuation from these stretched levels.",
+  "expectancy_note": "No edge: long = chasing RSI 77 / %B>1 / stoch 88 into a pre-open gap (p_win only 0.53); short = fading ADX-65 uptrend with no reversal + support far at 688. ATR 0.33% makes any target tiny, R:R poor both ways. HOLD is highest expectancy.",
+  "rationale": "QQQ is stretched (RSI 77.1, bb%B 1.065, stoch 87.7) on a strong but low-volatility trend (ADX 65, ATR only 0.33%), sitting just under the 704.65 local high after two rejections. The lone bullish tell (orderbook +0.74) is flagged as pre-open thinness and is contradicted by negative funding, -14.4% relative strength, and a negative 4h MACD. Into risk-off tape, a 13:30 UTC gap, and GOOGL/TSLA earnings Wed (inside 48h), chasing an overbought laggard has no honest R:R. Wait for either a confirmed breakout close above the high or a loss of 700 to trade the resolution.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 700.0,
+    "expires_min": 180,
+    "note": "Losing the 700 round-number / VWAP shelf breaks the grind and opens a short toward 695/688 as the overbought move unwinds."
+  },
+  "transcript": {
+    "macro": "Cycle 2026-07-20 (scan 13:08 UTC). Regime RISK-OFF leaning; session is PRE-US-OPEN so tokenized-equity perps (EWY/HOOD/COIN/TSLA/NVDA/QQQ/CRCL/SNDK/GOOGL) are thin/gappy and re-rate ~13:30 UTC (gap risk). Equity tape soft, semiconductor-led sell-off on AI-capex worries (TSMC capex guide up); rates offer no tailwind (~60% odds higher by Oct); FOMC July 28-29 is OUTSIDE the 48h window. Crypto heavy: BTC ~$62-64k after failing low-$70k, record June ETF outflows (-$4.5B), dominance ~56-60% so alts bleed vs BTC (caps SOL, corr 0.81). Precious metals the one independent bid (silver ~$56.9 +1.5%). DOMINANT POSITIONING THEME = CROWDED LONGS: negative structure_bias almost everywhere, lopsided long/short ratios (XAG 3.99, SOL 2.70, CRCL 2.17), and the WHOLE basket lags BTC (all relative_strength negative, -1% to -48%). Argues for smaller size on high-beta longs and elevated long-squeeze risk. COIN is the least-crowded (L/S 0.80, net-short crowd); QQQ the only positive structure_bias (+0.15, orderbook bid, but likely pre-open thinness).",
+    "sentiment": "Hot earnings week. Soft June CPI (July 14, coolest since Apr 2020) broadly risk-supportive; FOMC July 28-29 is outside the 48h window. IMMINENT <=48h BINARIES: TSLA Q2 earnings Wed July 22 after close (~7-8% implied swing; Q2 deliveries ~480K record already spent, call is about margins/guidance) and GOOGL/Alphabet Wed July 22 4:30pm ET (consensus ~$2.86 EPS/$116.5B rev, focus AI capex $175B + Cloud) - both spill into QQQ. EWY = LIVE BEARISH MACRO SHOCK: Bank of Korea surprise +25bp hike to 2.75% (July 16, first in 3.5yrs) + KOSPI crash (-6.4% July 16, -4.5% today) on AI/chip rout (Samsung -4.7%, SK Hynix -4.5%). HOOD (Jul 29), COIN (Jul 30), SNDK (Aug 5), CRCL (~Aug 10) earnings all OUTSIDE this cycle. NVDA bullish headline flow (US resumed H20/H200 China licenses, ~$200B CPU/Vera TAM) but no 48h binary; reports late Aug. SOL constructive medium-term (5 spot ETFs live >$1.12B inflows, Firedancer v1.0 testnet) but crypto-beta with no dated catalyst. XAG structural supply deficit (6th straight annual), two-sided, macro-flow-dependent. CRCL got a Mizuho DOWNGRADE to Underperform, PT cut to $50 from $85 (July 17), competitive overhang from Visa/Stripe.",
+    "analyst": "QQQ is stretched (RSI 77.1, bb%B 1.065, stoch 87.7) on a strong but low-volatility trend (ADX 65, ATR only 0.33%), sitting just under the 704.65 local high after two rejections. The lone bullish tell (orderbook +0.74) is flagged as pre-open thinness and is contradicted by negative funding, -14.4% relative strength, and a negative 4h MACD. Into risk-off tape, a 13:30 UTC gap, and GOOGL/TSLA earnings Wed (inside 48h), chasing an overbought laggard has no honest R:R. Wait for either a confirmed breakout close above the high or a loss of 700 to trade the resolution.",
+    "portfolio": "HOLD - overbought laggard, lone bull tell is pre-open thinness; GOOGL/TSLA earnings loom. Short trigger <700."
+  },
+  "timestamp": "2026-07-20T13:16:12.108662+00:00"
+}

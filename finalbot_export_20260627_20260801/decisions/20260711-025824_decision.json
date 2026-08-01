@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "META/USDT:USDT",
+  "size": 0.0,
+  "entry": 669.03,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Thin weekend chop between 667 and the 678.67 resistance; likely oscillates 666-671 near-term. No clean pullback to VWAP (~642) is on offer, and 4h RSI 80.4 into resistance means a market long gets bought at the worst spot before the routine counter-bounce/flush. Wait for either a decisive break-and-hold over 678.67 (breakout confirmed) or a deeper reset toward 660 to buy the trend cheaper.",
+  "expectancy_note": "Market long here: TP to 678.67 is ~+1.4% while an honest stop below the 664.57 flush is ~-1.9% -> R:R < 1 and p(win) low into RSI 80. HOLD dominates until price offers a real level.",
+  "rationale": "META is the strongest horse (RS +16.11%, real bid imbalance +0.741, long/short 0.83 not crowded) but it is stretched: 4h RSI 80.4, stoch 90, %B 0.89, +4.14% above VWAP, pinned just under resistance 678.67. The 15m path shows a sharp rejection flush to 664.57 then low-volume weekend chop, not a buyable pullback. Chasing into resistance on thin, gappy off-hours tape is the account's classic late-long loss; size 0 until a break above 678.67 confirms continuation.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 678.67,
+    "expires_min": 240,
+    "note": "A clean break and hold above the 678.67 resistance confirms the breakout and turns a chase into a valid measured-move continuation long."
+  },
+  "transcript": {
+    "macro": "Regime MIXED, cautious risk-on. Hot inflation lid, Fed on hold; tech tape choppy but recovered Jul 10. US cash closed (weekend) -> perps thin/gappy. META most supportive long of group: best RS +16.11%, orderbook +0.741, long/short 0.83 (not crowded), but 4h RSI 80.4 pinned at resistance 678.67 = extended, chase risk high.",
+    "sentiment": "META modestly bullish momentum, no <=48h catalyst. Rallied ~4.7% Jul 9; down ~13% YTD (bounce not breakout). Real binary is Q2 earnings Jul 29 (AI capex focus). Near-term neutral-to-slightly-bullish; nothing scheduled to move it in 2 days.",
+    "analyst": "Strongest horse but stretched: RSI 80.4, stoch 90, %B 0.89, +4.14% above VWAP under resistance 678.67. 15m shows rejection flush to 664.57 then low-vol weekend chop, not a buyable pullback. Market long TP ~+1.4% vs honest stop ~-1.9% -> R:R<1. Chasing into resistance in thin off-hours tape is the account's classic late-long loss. HOLD; reconsider on clean break/hold above 678.67.",
+    "portfolio": "META: HOLD (0.60) - strongest name but stretched into resistance in thin weekend tape; wait for break above 678.67."
+  },
+  "timestamp": "2026-07-11T02:58:24.369925+00:00"
+}

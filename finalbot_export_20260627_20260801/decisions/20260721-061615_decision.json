@@ -1,0 +1,28 @@
+{
+  "symbol": "HOOD/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.55,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "none",
+  "forecast": "Tape has gone flat/coiling at 100.5-100.85 after a 15m/30m RSI-82 burst; next few bars most likely digest lower toward the 100.0-99.9 VWAP/breakout retest before the trend can resume \u2014 chasing 100.84 into RSI 82 gets stopped by that routine pullback.",
+  "expectancy_note": "p(win) on a market-buy here ~0.45: extended short-TF, no near TP (res 116 useless), only sub-1R honest R:R into RSI 82 = negative expectancy; holding to buy the 100.0 retest flips it to a clean 1.5R+ trend entry.",
+  "rationale": "Composite long (+0.40, p_win 0.68) and orderbook bid-heavy support an eventual continuation, but 15m/30m RSI ~82 with the last 8 candles going flat at the highs and volume drying means the immediate next move is a pullback, not a break \u2014 and buying now would be chasing (the account's top loss pattern) with no near resistance to target and only a sub-1R honest stop. L/S 1.65 crowded-long and RS -11.6% add caution. Wait: a dip that holds ~100.0 (VWAP/breakout retest) is the high-expectancy long entry; a break of the coil low kills the thesis.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 101.1,
+    "expires_min": 240,
+    "note": "Reclaim above the coil top 101.1 on a fresh push (after any dip holds ~100.0) proves buyers absorbed the overbought digestion and the trend is resuming \u2014 arm the long there rather than chase the flat top now."
+  },
+  "transcript": {
+    "macro": "Regime MIXED, cautiously risk-on, geopolitical knife-edge. HOOD long composite +0.40 but structure_bias -0.103 flags crowding (L/S 1.65), 15m/30m RSI ~82 overbought; RS -11.6% vs BTC (big laggard). High BTC-corr (0.54), partly crypto-beta. Momentum long OK but late/crowded \u2014 trim size, watch exhaustion.",
+    "sentiment": "HOOD Q2 earnings Wed July 29 (after close), outside 48h but approaching. Tailwind from July 1 Robinhood Chain / tokenized-stocks / DeFi launch (busy new L2, volume memecoin-driven). No <=48h binary; momentum/beta name (high BTC & COIN correlation).",
+    "analyst": "Composite long and orderbook bid-heavy, but 15m/30m RSI ~82 with the last 8 candles flat at the highs and volume drying means the next move is a pullback, not a break. Market-buying at 100.84 chases the move (account's top loss pattern) with no near resistance to target and only a sub-1R honest stop. Wait for a dip that holds ~100.0 (VWAP/breakout retest) for a clean 1.5R+ long, or a reclaim of 101.1 to confirm resumption.",
+    "portfolio": "HOLD HOOD \u2014 long thesis intact but overbought/coiling at highs; buy the 100.0 retest, don't chase."
+  },
+  "timestamp": "2026-07-21T06:16:15.969879+00:00"
+}

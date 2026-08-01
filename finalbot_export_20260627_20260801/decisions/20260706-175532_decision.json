@@ -1,0 +1,23 @@
+{
+  "symbol": "MSFT/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.6,
+  "size": 0.0,
+  "entry": 385.35,
+  "stop_loss": 396.0,
+  "take_profit": 368.0,
+  "rationale": "Strong downtrend (ADX 45.5, 30m/1h scores -0.85/-0.81, price below VWAP) but price is already extended: RSI 26.3, bb_pctB -0.17 (below lower band), stoch 28, sitting only ~4.6% above support 367.68. Shorting naked oversold lows into a green Nasdaq (+1%) with a 1.92 long/short ratio of trapped longs is classic short-squeeze bait - both macro and sentiment explicitly say the ideal short is a pullback into VWAP/resistance, not selling the low. A fresh short here has poor R:R (only ~$17 to support target vs a snapback risk to $388-394 needing a stop near $396, R:R <1). No long: structure hostile (-0.315 bias), no VWAP reclaim, MSFT is the Mag-7 laggard on fresh layoff headlines. Highest-expectancy play is to wait: short with the trend on a bounce into the 388-394 VWAP/resistance zone, or on a clean support break for continuation. No <=48h binary catalyst forces action.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 390.5,
+    "expires_min": 240,
+    "note": "A bounce into the VWAP/resistance zone (~388-394) unwinds the oversold stretch and offers a high-quality short entry with the downtrend at better R:R; crossing 390.5 arms that short."
+  },
+  "transcript": {
+    "macro": "Treat as EQUITY not crypto (btc_correlation 0.292, rel_strength +0.82 - idiosyncratic). US session open (Mon Jul 6) is right window; overnight = gap risk. Broad regime modestly risk-ON for tech (Nasdaq +1%, QQQ +1.5%, SMH +3.6%, Dow ATH) BUT MSFT is the laggard, down ~1.7% intraday on fresh ~4,800 job-cut headline; worst Mag-7 in H1 (-23%). Structure_bias -0.315 (supports shorts), driven by lopsided long_short_ratio 1.92 (retail ~2:1 long into a falling stock = contrarian-bearish, argues AGAINST longs). Funding negligible, orderbook mildly bearish. ADX 45.5 strong trend, below VWAP, RSI ~29, MACD deeply negative; but RSI 26 / bb_pctB -0.17 = oversold, chasing naked short at lows risks snapback. VERDICT: MIXED tilting bearish for MSFT specifically. Hostile for longs, supportive-but-crowded for shorts. Biggest risk: 1.92 long/short + RSI 26 oversold vs green Nasdaq = squeeze/bounce risk. Smaller size, ideal short is pullback into VWAP/resistance.",
+    "sentiment": "Cautiously bearish-to-mixed multi-week, NO <=48h binary catalyst - Q4 FY2026 earnings Jul 28 after close (~3wk out, outside horizon). MSFT down ~20.5% YTD, 'worst month in 25 years'; bear thesis = ballooning AI capex (~$190B 2026, +63% y/y). Counter: ripped ~4% Jul 1 on Haleon 5yr Copilot/Azure deal + rotation into software + Azure share gains - tape not one-directional. NEAR-TERM: reported layoff round week of Jul 6-10 cutting thousands - unscheduled low-confidence wildcard, not tradable binary. Long-horizon narrative (35/36 analysts Buy, $562 avg PT ~38% upside) not for this horizon. Net: near-term news roughly NEUTRAL, does not argue against a short-term technical short; only asymmetric risk to a short is a surprise positive cost-cut headline this week; be flat before Jul 28 earnings.",
+    "analyst": "Strong downtrend but price already extended (RSI 26.3, below lower BB, ~4.6% above support 367.68). Shorting naked oversold lows into a green Nasdaq with 1.92 trapped longs is squeeze bait; both macro and sentiment say the ideal short is a pullback into VWAP/resistance. Fresh short here has poor R:R (~$17 to target vs snapback to 388-394 needing stop ~396, R:R <1). No long: structure hostile, no VWAP reclaim, laggard on layoff headlines. Wait: short on a bounce into 388-394, or on a clean support break. No <=48h catalyst forces action.",
+    "portfolio": "HOLD MSFT/USDT:USDT - wait for a bounce into 388-394 to short with the trend, or a clean break of 367.68; do not sell the oversold low."
+  },
+  "timestamp": "2026-07-06T17:55:32.171070+00:00"
+}

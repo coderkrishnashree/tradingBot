@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "XAUT/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Price is coiling mid-range 4106-4122 around VWAP (4113); expect continued chop between 4106 and 4122 over the next 2-4 bars until it resolves one side. A push and hold above 4122 confirms 1h/5m long momentum toward 4130+; loss of 4106 opens 4090s.",
+  "expectancy_note": "No edge: mid-band entry (bb%b 0.59) at VWAP, stoch 80 elevated, 4h MACD negative/neutral while crowded long/short 2.57 + macro headwind cap upside \u2014 any long stop would sit far from a real level. p(win) not above ~0.5; HOLD is highest expectancy.",
+  "rationale": "XAUT sits at 4113 dead-center of a tight 4106-4122 micro-range with composite only 46% confidence and the 4h timeframe rolling over (MACD -7.9). Crowded long (L/S 2.57), structure_bias -0.29 and a firmer-DXY/one-more-hike macro cap fresh longs, while price is nowhere near resistance (4189) to justify a short. No honest stop location and no confirmed trigger \u2014 wait for the range to resolve. CPI this week is the real swing factor.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 4123,
+    "expires_min": 240,
+    "note": "Clearing the micro-range high on volume confirms 1h/5m long momentum and gives a real continuation entry with a stop back under 4106; below that it's just chop."
+  },
+  "transcript": {
+    "macro": "Risk-OFF, event-driven. Fear&Greed 22, BTC ~$62,850 below $65k pivot, Iran deal 'over' (oil +5%), firmer DXY / elevated real yields / one-more-hike pricing = headwind for gold. BTC dominance ~56%. XAUT read: macro MIXED, lean neutral/short-side; spot gold ~$4,075-4,110 drifting lower off highs. In-scan L/S 2.57 (crowded long, contrarian negative), structure_bias -0.29, corr to BTC just 0.34. Gold trades 24h so no market-hours gap issue \u2014 cleanest of the three.",
+    "sentiment": "Cautious/soft, macro-driven. Gold sliding, lowest since early July after Iran flare-up revived inflation-keeps-rates-high fears (USD/rates bearish for gold). Fed on hold (~75% no change), hawkish June minutes, market pricing possible hike into year-end caps upside. Key near-term binary: CPI this week \u2014 hot=gold-bearish, soft=gold-bullish. Size around it. Near-term news neutral-to-slightly-bearish.",
+    "analyst": "XAUT sits at 4113 dead-center of a tight 4106-4122 micro-range around VWAP with composite only 46% confidence and 4h rolling over (MACD -7.9). Crowded long (L/S 2.57), structure_bias -0.29 and macro headwind cap fresh longs; price nowhere near 4189 resistance to justify a short. No honest stop location, no confirmed trigger \u2014 HOLD is highest expectancy. Reconsider long only on a hold above 4123.",
+    "portfolio": "XAUT: HOLD (conf 0.50) \u2014 mid-range chop, no edge; watch 4123 breakout / CPI."
+  },
+  "timestamp": "2026-07-09T21:58:08.642344+00:00"
+}

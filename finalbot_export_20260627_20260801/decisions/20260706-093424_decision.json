@@ -1,0 +1,25 @@
+{
+  "action": "hold",
+  "symbol": "SNDK/USDT:USDT",
+  "size": 0.0,
+  "entry": 1824.07,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "expectancy_note": "Fresh short here = shorting into support 1813 while 15m/5m RSI 24.7/31.2 + bullish divergence flag a bounce; target only 0.6% down vs 1.8% stop = R:R ~0.3 (negative). Long = knife-catch vs ADX-65 downtrend in a sector rout. Best EV is wait: short on a bounce to VWAP/resistance 1845-1857, or on a clean loss of 1813.",
+  "rationale": "SNDK is in a confirmed strong downtrend (ADX 64.8, 4h/30m/15m/5m all short, 0.85 corr to MU sector rout) BUT price is pinned ~0.6% above support 1813 with 15m/5m deeply oversold (RSI 24.7/31.2), %B 0.078, and a flagged bullish divergence \u2014 the classic spot to get squeezed on a short and stopped, while the long is a knife-catch. Neither side offers acceptable R:R at 1824: a short's target (1813) is closer than its stop (above 1857), and a long fights the dominant trend and dip-buy risk in a headline-driven, gappy tokenized equity near the US close. I stand aside and let the 1813 level resolve.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 1813.25,
+    "expires_min": 240,
+    "note": "Losing support 1813 invalidates the oversold-bounce/divergence thesis and confirms trend continuation \u2014 the with-trend short entry with a stop back above 1813 and room toward the next leg down."
+  },
+  "transcript": {
+    "macro": "Regime RISK-ON but fragile/whippy. Mon 7/6 US index futures higher (Nasdaq-100 +1.0%), AI/semiconductor trade reclaiming leadership after a violent late-June flush (Micron ~-19%/wk, SNDK ~-14%/5d, Intel ~-17%). Oversold semi bounce within intact H1-2026 uptrend; high-beta, headline-driven, two-way sector. BTC noise for these equities. Event risk 24-48h LOW/CLEAN (no FOMC until 7/28-29, no CPI). Live risk = US cash close: tokenized equities thin/gappy overnight/weekend. SNDK short fights the session dip-buy tape and shows an oversold bullish divergence. Lean smaller.",
+    "sentiment": "SNDK BEARISH near-term, momentum broken. Best large-cap of H1 2026 but hammered in memory-chip rout: -10-11% on 7/1 with Micron/Seagate/WDC, global spread (Samsung/SK Hynix -9%+). Live drivers: late-June CA class-action alleging DRAM supply collusion; Samsung/SK Hynix supply additions stoking glut fears; H1 profit-taking. No earnings risk in window (next report Aug 24). 0.85 corr to MU \u2014 sector rout is the story, argues WITH a short over 1-2 days, but RSI ~24-31 + 15m bullish divergence = oversold-bounce risk.",
+    "analyst": "Confirmed strong downtrend (ADX 64.8) but price pinned ~0.6% above support 1813 while 15m/5m deeply oversold with bullish divergence. Short target (1813) closer than stop (>1857) = R:R ~0.3; long is a knife-catch vs the trend and dip-buy risk. Stand aside; short on a bounce to VWAP/resistance 1845-1857 or on a clean loss of 1813.",
+    "portfolio": "HOLD SNDK \u2014 no acceptable R:R either side at 1824; wait for the 1813 level to resolve (conf 0.50)."
+  },
+  "timestamp": "2026-07-06T09:34:24.835434+00:00"
+}

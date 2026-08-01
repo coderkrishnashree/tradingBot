@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "AAPL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Continued chop between 326.9 and 329.4 over the next several bars; price drifts around VWAP (~329) with no thrust. No move to trade until the range breaks.",
+  "expectancy_note": "No edge: p(win) ~0.5 either way. The lone short signal is a 4h RSI 34.7 already near oversold while all intraday TFs are flat and price sits mid-range - shorting here is the account's classic late-short-into-stretched-tape loser. Best expectancy is standing aside.",
+  "rationale": "AAPL is isolated (BTC corr 0.10), structure flat, and every timeframe 15m-1h reads flat - only the 4h shows a short, and its RSI is already 34.7. Price at 327.4 sits mid-range between support 312 and resistance 339 with no extreme to fade and no coil to break; last bars drift down on collapsing volume (1.04), not a real impulse. No R:R >= 1.5 setup and earnings (Jul 30) out of window.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 326.85,
+    "expires_min": 240,
+    "note": "Losing the 15m support cluster confirms the 4h short is finally engaging intraday, opening a move toward 312 - that would flip me to a short setup."
+  },
+  "transcript": {
+    "macro": "Regime MIXED, tilting risk-on but fragile. Alphabet earnings July 22 after close = complex-wide read-through. Hawkish Fed, Middle East tensions. Funding ~zero on tokenized perps -> long/short negatives noisy. Liquidity best during US cash hours. AAPL: NEUTRAL - weakest technicals (RSI 34.7, 4h short), lowest BTC corr (0.10), flat structure. No edge either way; reports July 30, out of window. Stand aside.",
+    "sentiment": "AAPL neutral for 24-48h. Earnings July 30 (out of window). Only news is the already-known, orderly Tim Cook -> John Ternus succession (effective Sept 1), digested calmly - not a 48h mover. Near-term news neutral; nothing to trade on.",
+    "analyst": "Isolated (BTC corr 0.10), structure flat, all TFs 15m-1h flat; only 4h short and its RSI already 34.7. Price 327.4 mid-range between support 312 and resistance 339, no extreme to fade, drifting down on collapsing volume. No R:R>=1.5 setup, earnings out of window. HOLD; reconsider short on losing the 15m support cluster at 326.85.",
+    "portfolio": "HOLD AAPL - no edge either direction, mid-range chop; stand aside."
+  },
+  "timestamp": "2026-07-21T19:31:21.519196+00:00"
+}

@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "EWY/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.34,
+  "playbook": "none",
+  "forecast": "Price just bounced ~2.6% off support 157.14 to 161.4 and is stalling below the swing with 15m RSI 78; next bars likely chop 160.3-161.5 as the LTF bounce exhausts against a bearish 1h/4h.",
+  "expectancy_note": "Short into a live bounce (15m RSI 78, no rejection confirmation) risks the classic 'stopped by the bounce' loss; long fades a 4h downtrend into thin closed-session tape. Both <1.5R.",
+  "rationale": "HTF is bearish (1h/4h short, structure_bias -0.09, p_win 0.41) but the immediate 15m path already reverted sharply UP off 157.14 and is stalling overbought \u2014 shorting 161.13 chases into a completed bounce, and with 1.7% ATR in a thin closed-cash-session post-Black-Monday whipsaw an honest stop above 162.5 gets tagged before any downside resumes. No confirmed rejection and no long edge into a downtrend, so wait. FOMC Wed adds event risk.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 157.14,
+    "expires_min": 240,
+    "note": "Losing the bounce-launch support flips the LTF back in line with the bearish 1h/4h, giving a clean short-continuation trigger."
+  },
+  "transcript": {
+    "macro": "Regime mildly risk-on; US equity/ETF cash CLOSED overnight \u2014 thin/gappy until 13:30 UTC Mon. EWY bullish underlying longer-term (KOSPI AI/semi deal wave, BOK 2.75%) but US-listed ETF proxy closed overnight; scan conf 26.8 SHORT, structure_bias -0.71.",
+    "sentiment": "DESK-WIDE FOMC Wed Jul 29 hawkish hold, DXY 13-mo high. EWY bearish near-term, violent tape: KOSPI another 'Black Monday' -5.72% to ~6,691, >20% off Jun high on Samsung/SK Hynix chip rout + geopolitics (still +65% YTD). Extreme volatility, correlated to chip complex. Near-term favors whipsaw.",
+    "analyst": "Scan short bias is HTF read but immediate 15m already bounced ~2.6% off 157.14 to 161.4, stalling with 15m RSI 78. ATR 1.7% in thin post-Black-Monday tape; honest short stop >162.5 gets tagged. Two-sided, no clean edge.",
+    "portfolio": "EWY: HOLD (conf 0.34) \u2014 HTF-short vs live LTF bounce, thin whipsaw tape, no edge."
+  },
+  "timestamp": "2026-07-27T21:35:49.645823+00:00"
+}

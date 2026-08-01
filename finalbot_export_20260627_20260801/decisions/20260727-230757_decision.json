@@ -1,0 +1,23 @@
+{
+  "symbol": "COIN/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.34,
+  "size": 0,
+  "entry": 165.28,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "rationale": "HTF composite is long but only 30.6% confidence and NOT aligned, while the last 8 15m candles rolled over cleanly off 167.9 into a BTC breakdown (corr 0.51) with US cash closed and Monday gap risk. Price is +2.2% above VWAP with RSI 70 \u2014 a market long chases the late-entry pattern that bleeds this account, while a short sells into a 5m RSI 8.1 flush a routine bounce would stop. With Q2 earnings Thursday and FOMC Wednesday adding binary risk, standing aside is highest-expectancy.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 167.9,
+    "expires_min": 240,
+    "note": "Reclaiming the 167.9 rejection shelf proves the HTF uptrend is resuming \u2014 a valid long trigger on the retest rather than chasing extended tape."
+  },
+  "transcript": {
+    "macro": "Regime HOSTILE-to-MIXED. US cash CLOSED, thin/gappy, Monday gap risk. Crypto risk-OFF, BTC ~63.7k broke down. COIN: L/S 1.12 (balanced, cleanest positioning), orderbook -0.10, structure_bias -0.07, composite LONG on higher TFs (1h/4h up, RSI 70, ADX 97) but 5m/15m rolling over, corr 0.51 to BTC (half crypto-beta, BTC breakdown = headwind). Verdict: MIXED / STAY OUT \u2014 needs BTC to stabilize.",
+    "sentiment": "HARD catalyst: COIN Q2 earnings Thu Jul 30 after close (~3d), consensus ~$0.31 EPS into a soft crypto quarter. Stock weak, -36% YTD near 52-wk low ~$139, governance wrinkle (CLO + CPO departing). Plus FOMC Wed. Verdict: BEARISH (near-term) \u2014 argues against pressing a long.",
+    "analyst": "HTF long real but weak (30.6% conf, non-aligned); LTF rolled over off 167.9 into a BTC breakdown, price +2.2% VWAP RSI 70 -> long is a chase; short sells into 5m RSI 8.1 exhaustion -> bounce-stop risk. Two exhausted extremes + binary earnings/FOMC = stand aside. HOLD.",
+    "portfolio": "HOLD COIN \u2014 HTF long but extended into BTC breakdown + earnings binary; no edge."
+  },
+  "timestamp": "2026-07-27T23:07:57.842043+00:00"
+}

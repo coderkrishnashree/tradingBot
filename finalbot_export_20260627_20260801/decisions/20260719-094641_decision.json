@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "ORCL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.62,
+  "playbook": "none",
+  "forecast": "Weekend-frozen: price grinds in a 126.4-127.1 dead zone on near-zero volume into Monday 13:30 UTC US open, where a bearish gap is the real risk given the S&P downgrade + 13% headcount cut + SOXX rout; no tradeable move exists until liquidity returns.",
+  "expectancy_note": "No edge either way now: 'long' scan (ADX 61, RSI 75) is a stale-tape artifact on a closed book; chasing it = the account's #1 late-continuation loss pattern. Short lacks a level (BB %B 0.54, VWAP flat). HOLD beats both.",
+  "rationale": "ORCL is a tokenized equity on a frozen weekend book - the last 15m candles print 0.0-1.8 volume, so ADX/RSI/trend are noise, not flow. RSI 75 into a capex-anxiety name (downgraded to BBB-, -5% Jul 17, in the SOXX -17%/mo cohort) with L/S 2.59 crowded-long and rel-strength -23% is a fade candidate, not a long; but there is no clean intraday level or divergence to trade and Monday's US open is a hard gap event. Sitting flat is the highest-expectancy choice; I want the market to reopen and pick a direction before committing.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 125.0,
+    "expires_min": 240,
+    "note": "Losing 125 (below the frozen base) on Monday-open liquidity confirms the risk-off/downgrade thesis is activating and opens a fade-the-rally short toward 120.8 support."
+  },
+  "transcript": {
+    "macro": "Risk-off/hostile weekend (Sun Jul 19); US equity/futures/oil CLOSED, tokenized equities thin/gap-prone, hard Monday 13:30 UTC gap risk. Week risk-off (S&P -1.6%, Nasdaq -2.9%, semis SOXX ~-17%/mo AI-chip rout). Hawkish new Warsh Fed. Crypto Fear (F&G 25-26). Long/short crowded-long everywhere. Bias: size down, prefer shorts/fades. ORCL: strong intraday scan (ADX 61, aligned long) BUT RSI 75 overbought, L/S 2.59 crowded long, rel-strength -23%, AI-infra capex cohort - do not chase.",
+    "sentiment": "Risk-off. Semiconductor bear market. US-Iran re-escalating. Crypto Extreme Fear. Catalyst: Jul 22 TSLA+GOOGL earnings. ORCL: bearish - 13% headcount cut (~21k jobs) + S&P downgrade to BBB- on AI-capex debt worries; -5% Jul 17. Fade rallies into resistance.",
+    "analyst": "Frozen weekend book, last 15m bars print 0.0-1.8 volume so ADX 61/RSI 75 are stale-tape artifacts. RSI 75 into a downgraded capex-anxiety name with crowded longs (L/S 2.59) and -23% rel-strength is a fade candidate, not a long, but no clean intraday level/divergence exists and Monday open is a hard gap. Flat is highest-expectancy; re-debate on a loss of 125.",
+    "portfolio": "ORCL HOLD - the strong 'long' scan is stale-tape noise; overbought into bearish catalysts, wait for Monday's open and a 125 break to fade."
+  },
+  "timestamp": "2026-07-19T09:46:41.891859+00:00"
+}

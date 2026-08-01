@@ -1,0 +1,24 @@
+{
+  "symbol": "MSFT/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.6,
+  "size": 0.0,
+  "entry": 386.63,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "forecast": "Thin pre-market coil 385.9-386.6 keeps rejecting the highs; expect chop into the 13:30 UTC cash open, then the real move. No edge until price breaks 386.7 (continuation) or loses 384.4 (pullback toward VWAP/378).",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 386.7,
+    "expires_min": 180,
+    "note": "A clean break of the pre-market coil high on the cash open confirms continuation and gives a long a defined base at 384.4 to stop against \u2014 re-debate a small, same-day-only entry that must be flat before the Wed close."
+  },
+  "rationale": "MSFT is a tokenized equity (funding/OI/L-S are noise; read technicals + catalyst). Price is fully extended near the coil high on thin pre-market tape with momentum flattening (12 bars of drift, no follow-through above 386.6) \u2014 a no-edge chop where the account's late-entry losers get made. The overriding constraint is the HARD BINARY: fiscal Q4 earnings after close Wed Jul 29 is inside the hold window, so any directional swing risks a large unknowable gap. Zero size is highest-expectancy; want a confirmed break to define direction first.",
+  "transcript": {
+    "macro": "Cycle 2026-07-27: regime MIXED, day-of risk-on relief bounce into a heavy event week. Crowd already long; funding not extreme. Equity names pre-market at scan (11:00 UTC, US opens 13:30) \u2014 thin/gappy. MSFT HARD BINARY: reports fiscal Q4 after close Wed Jul 29 \u2014 a binary event inside the typical hold window.",
+    "sentiment": "MSFT: HIGH, imminent binary. Reports fiscal Q4 after close Wed Jul 29 (~2:30pm PT, EPS consensus ~$4.24). Azure growth + AI-capex commentary drives a large post-earnings gap; Street setup bullish but high bar; direction unknowable pre-release. Do NOT hold naked directional through the print.",
+    "analyst": "Last 386.63 (scan price). Stretched near range top: bb_pctb 0.95, stoch 100, RSI 72.9 (15m 77.8), ADX 75.9. 15m: burst to 386.43 then 12 bars of drift/coil 385.9-386.6, no follow-through = flattened momentum. Support 378, resistance 403.24, ATR% 0.38 (~$1.47), vwap +0.54%. Pre-market thin/gappy. Long chases into a stretched coil; short has no rejection/trigger vs ADX 76; neither is honest 1.5R. HARD BINARY earnings inside the hold window makes any hold hostile. -> HOLD.",
+    "portfolio": "MSFT: HOLD (conf 0.60) \u2014 extended pre-market coil, binary earnings Wed close; no naked carry, flat."
+  },
+  "timestamp": "2026-07-27T11:10:20.766881+00:00"
+}

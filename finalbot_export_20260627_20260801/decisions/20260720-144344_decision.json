@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "CRCL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.32,
+  "playbook": "none",
+  "forecast": "Stretched at top of intraday range (62.4, %B>1, stoch 87, +2.85% over VWAP); expect a stall/pullback toward 61.3 then VWAP ~60.6 over 2-6 bars rather than clean continuation, but no reversal candle yet.",
+  "expectancy_note": "No edge: composite flat (conf 10.9), all TFs ~+0.1 no direction. Long = chasing an extended pop into a crowded-long book (LS 2.45) at %B>1. Short has no confirmation. p(win) both ~0.5; HOLD.",
+  "rationale": "Just spiked to 62.7 and holding the upper edge while overbought and +2.85% above VWAP into a heavily crowded long book (L/S 2.45, structure_bias -1.0). Buying chases the move; shorting has mild logic but zero reversal trigger, risking the squeeze. Composite conviction near zero, no <48h binary (earnings Aug 18) \u2014 sit out.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 61.1,
+    "expires_min": 240,
+    "note": "Losing the 61.3 shelf proves the 62.7 pop failed and opens a fade toward VWAP ~60.6 / support 58.76."
+  },
+  "transcript": {
+    "macro": "REGIME: NEUTRAL, leaning cautious risk-on into a heavy-catalyst week. Mon 7/20 opened green (S&P +0.63%, Nasdaq +1.02%), chips bid ahead of Big Tech earnings; oil easing off ~$90. Follows real damage (SMH -9% over prior weeks, Samsung-triggered chip selloff) = bounce inside choppy rotation, not clean trend. LONGS: TSMC Q2 rev +36% YoY confirmed AI demand; AMD/MSFT deal positive; semis are momentum leaders (NVDA/INTC/SNDK/QQQ); funding flat/near-zero (no crowded-long tax). SHORTS/CAUTION: long/short ratios lopsided long across complex (INTC 1.93, ORCL 2.40, MSFT 1.53, NVDA 1.59) = negative structure_bias/contrarian; ORCL already broken (RSI 25); RS vs BTC deeply negative across board. RISKS next 48h: earnings wall Wed-Thu (GOOGL+TSLA Wed after close, INTC Thu after close) moves whole Nasdaq/QQQ complex; tokenized-equity gap risk outside RTH + US-Iran oil headline risk; FOMC Jul 28-29 just outside window; semis extended (RSI 72-83). Bottom line: mildly supportive intraday-to-1-day longs in semi/AI leaders (NVDA, QQQ, TSM), HOSTILE for fresh ORCL longs, NOT a place to carry size through Wed-Thu earnings; smaller size, tight stops, take profits quickly.",
+    "sentiment": "NVDA: No earnings until Aug 26; no fresh <=48h binary. Semi-complex beta (moves on TSM read-through, Jul 16 SOX selloff aftermath, INTC Thu print). Structurally bullish (Q1 rev $81.6B +85% y/y) but near-term pure macro/sector flow.\nQQQ: No single catalyst; it's the tape. Down ~3% on month, 3 down days, testing $700 support (cluster 702-715) after Jul 16 semi selloff. Hostage to semi complex + INTC/MSFT prints + Fed-cut chatter. July seasonally strongest month (90% win rate) = mild tailwind.\nEWY: Fresh flow story - record inflows (~$1.1B, $814M prior day) as SK Hynix proxy (Hynix ~25% of fund). YTD +67%. Bullish near-term, memory/HBM demand; tracks Korea semi headlines. No single-stock earnings.\nSNDK: Top S&P 500 stock 2026 (+707% YTD) on NAND tightness. Q4 earnings Aug 5 + investor day Aug 13 (OUTSIDE 48h). Recent moves analyst-driven (Goldman PT $2200, Bernstein $3000). Bullish but crowded/extended. No <=48h catalyst.\nMSFT: FQ4 earnings Wed Jul 29 after close - approaching binary (do NOT hold multi-day straddling 29th). Sentiment mixed/bearish drift (~-20% YTD on AI capex fears, $190B FY26 capex) but AI run-rate $37B (+123% y/y), revised OpenAI deal removed overhang. No <=48h catalyst today.\nORCL: No earnings until ~Sept 8. Clearly bearish/deteriorating: freefall to lowest since Apr 2025, market cap halved from $877B peak to ~$383B, S&P cut to BBB- on AI-datacenter spend, Project Jupiter delay. Weakest sentiment name.\nINTC: Q2 earnings Thu Jul 23 after close (CONFIRMED). Binary landmine - options imply ~15% swing. +163% YTD, corrected ~17%. Cautiously bullish on 18A/Google Cloud partnership. HARD AVOID into the print.\nTSM: Q2 reported Jul 16 - blowout beat (rev +33.7% y/y to $40.2B, EPS +77%, 67.7% GM). Fresh positive shock, bullish anchor of semi complex. No new earnings risk near-term. News now 2 days old = momentum not fresh catalyst.\nCRCL: Q2 earnings Aug 18 (far). Mixed-to-bearish/volatile: OCC federal banking charter Jul 10 (structurally bullish moat) offset by Mizuho downgrade to Underperform Jul 14 + Visa \"Open USD\" threatening USDC. Stock $60.64 below all key EMAs. Neutral-to-bearish near-term.",
+    "analyst": "Just spiked to 62.7 and holding the upper edge while overbought and +2.85% above VWAP into a heavily crowded long book (L/S 2.45, structure_bias -1.0). Buying chases the move; shorting has mild logic but zero reversal trigger, risking the squeeze. Composite conviction near zero, no <48h binary (earnings Aug 18) \u2014 sit out. | expectancy: No edge: composite flat (conf 10.9), all TFs ~+0.1 no direction. Long = chasing an extended pop into a crowded-long book (LS 2.45) at %B>1. Short has no confirmation. p(win) both ~0.5; HOLD. | forecast: Stretched at top of intraday range (62.4, %B>1, stoch 87, +2.85% over VWAP); expect a stall/pullback toward 61.3 then VWAP ~60.6 over 2-6 bars rather than clean continuation, but no reversal candle yet.",
+    "portfolio": "HOLD CRCL (conf 0.32) \u2014 no-edge, extended into crowded longs; fade only on <61.1 break."
+  },
+  "timestamp": "2026-07-20T14:43:44.684952+00:00"
+}

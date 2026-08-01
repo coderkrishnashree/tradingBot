@@ -1,0 +1,26 @@
+{
+  "symbol": "AAPL/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.55,
+  "size": 0.0,
+  "entry": 317.26,
+  "stop_loss": 315.5,
+  "take_profit": 323.2,
+  "playbook": "none",
+  "forecast": "Price is coiling 316.8-317.6 just under 323.2 resistance in a tight squeeze (bb_width 1.33%); into a thin risk-off after-hours close it most likely chops sideways / drifts back toward VWAP 316.9 over the next 2-4 bars rather than breaking 323 cleanly tonight.",
+  "expectancy_note": "p(win) ~0.45 chasing the upper band vs a wall; a market long at 317.3 into resistance 323.2 with overnight gap risk is negative-expectancy. Better to wait for a pullback-to-support long or a confirmed 323 break - HOLD keeps the edge.",
+  "rationale": "AAPL is the only long candidate (1h/4h up, RS +8.5%, independent of BTC at 0.22) but it is pinned at bb_pctb 0.97 against 323.2 resistance in a tight coil, and 30m/5m are flat-to-negative. US cash just closed so books are thin and gappy; a counter-regime long that chases the upper band offers only ~6 pts to a hard ceiling with real overnight gap risk. No trigger yet - the coil favors sideways/pullback, so I wait rather than pay up mid-range. Size 0.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 323.4,
+    "expires_min": 240,
+    "note": "A hold above 323.2 resistance breaks the squeeze to the upside and confirms the 1h/4h uptrend continuation, flipping this to a breakout long with a measured target."
+  },
+  "transcript": {
+    "macro": "REGIME RISK-OFF/MIXED, hostile to longs. US cash close just passed - equity tokens in after-hours (thin, gappy). AAPL the odd one out - only LONG candidate (blended +0.368, 1h/4h up, RSI 60, RS +8.5%, low BTC corr 0.22). BUT bb_pctb 0.97 pinned at upper band/resistance ~323 into a risk-off close; long is counter-regime, so tight and small.",
+    "sentiment": "AAPL neutral into a dated catalyst. Earnings July 30 after close (outside 48h) - key binary; Tim Cook's expected final call as CEO adds headline risk. Consensus ~$108.9B rev / ~$1.89 EPS. Nothing imminent this cycle; drift with Nasdaq.",
+    "analyst": "Only long candidate (1h/4h up, RS +8.5%, BTC-independent) but pinned at bb_pctb 0.97 against 323.2 resistance in a tight coil, 30m/5m flat-negative, thin after-hours with gap risk. Chasing the upper band = ~6 pts to a wall, negative EV. HOLD; reconsider on a hold above 323.4.",
+    "portfolio": "AAPL: HOLD - best structure of the group but pinned under 323 resistance counter-regime; wait for a 323.4 breakout or a pullback-to-support long."
+  },
+  "timestamp": "2026-07-13T23:33:41.831858+00:00"
+}

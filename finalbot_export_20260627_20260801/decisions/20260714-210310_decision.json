@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "TSLA/USDT:USDT",
+  "size": 0.0,
+  "entry": 395.94,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.45,
+  "playbook": "none",
+  "forecast": "Thin after-hours grind holds the 391-397 range near-term; either a slow drift to test 391 support where an oversold snapback is likely, or a bounce back toward VWAP/398. No clean directional edge until 391 breaks or 400 reclaims.",
+  "expectancy_note": "Short here: p(win)~0.4, entry-to-support only ~1.2% with 391 a bounce magnet at 4h RSI 26.7 = R:R below 1.5 and negative expectancy (the account's late-short-into-oversold loss pattern). No confirmed long. Flat is highest expectancy.",
+  "rationale": "TSLA composite short is weak (44%) and driven by the contrarian crowded-long read, not real momentum; the 15m candles are a low-volume after-hours bleed, not an impulsive breakdown. 4h/5m RSI deeply oversold (26.7/24) on a fresh-catalyst name only ~1.2% above 391 support makes a fresh short a countertrend chase into a bounce magnet with poor R:R, and there is no confirmed long trigger yet. Thin tokenized-perp after-hours tape makes stops unreliable, so the disciplined play is to wait for 391 to break (breakdown) or 400 to reclaim (bounce confirmed) rather than force a marginal entry.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 391.0,
+    "expires_min": 240,
+    "note": "A decisive break of 391 support voids the oversold-bounce case and opens a clean momentum short toward the next level; until then shorting into support against deep oversold has negative expectancy."
+  },
+  "transcript": {
+    "macro": "Regime modestly RISK-ON (June CPI 3.5% vs 3.8% exp, Nasdaq +0.9%). TSLA BTC corr only 0.27 \u2014 own equity tape. On a positive-catalyst run: record 480k Q2 deliveries, Miami robotaxi, ran to ~$416-420 prior week, faded to ~$396. Lopsided long book (L/S 2.07) cuts both ways \u2014 can fuel a flush lower but shorting a fresh-catalyst name oversold intraday is countertrend. Q2 earnings Jul 22 after close (8 days out, outside 48h and outside the hold) \u2014 don't drift toward it. No FOMC/CPI in 48h. Thin perp, after-hours gaps; prefer entries while US cash open. MIXED-to-HOSTILE for fresh shorts; high squeeze/mean-reversion risk.",
+    "sentiment": "NEUTRAL-to-cautious, earnings binary looming. Q2 earnings Jul 22 after close (~8 days out, outside window). Catalysts digested: Q2 deliveries 480,126 (+25% YoY, ~18% beat) Jul 2 \u2014 but stock fell ~7.5% that day (sell-the-news), recovered toward ~$420, now faded to ~$396. Robotaxi Miami/Dallas/Houston longer-horizon. Risks: BYD ahead in BEV volume; sell-the-news already shown. Short bias weak (44%), 4h RSI 26.7 oversold = bounce risk, L/S 2.07 crowded longs vulnerable to a flush. Near-term news NEUTRAL for intraday short. Stocks Fear&Greed 44.",
+    "analyst": "Composite short weak (44%) and driven by the contrarian crowded-long read, not real momentum; 15m candles a low-volume after-hours bleed, not an impulsive breakdown. 4h/5m RSI deeply oversold (26.7/24) on a fresh-catalyst name only ~1.2% above 391 support = countertrend chase into a bounce magnet with R:R below 1.5. No confirmed long trigger. Thin after-hours tape makes stops unreliable. HOLD; wait for 391 break (short) or 400 reclaim (bounce).",
+    "portfolio": "HOLD TSLA/USDT:USDT \u2014 negative-expectancy short into oversold support; armed short trigger on break of 391."
+  },
+  "timestamp": "2026-07-14T21:03:10.118060+00:00"
+}

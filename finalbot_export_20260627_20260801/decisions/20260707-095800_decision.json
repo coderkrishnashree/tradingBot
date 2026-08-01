@@ -1,0 +1,27 @@
+{
+  "symbol": "EWY/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.5,
+  "size": 0.0,
+  "entry": 182.32,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "none",
+  "expectancy_note": "Short signal is real but price sits AT lower BB (%B -0.007), RSI 34.6, 2.81% below VWAP, only ~1.9 ATR above support 174.61 \u2014 chasing a short here into support ahead of FOMC (Wed) + imminent Samsung earnings is negative expectancy; no clean long vs bearish divergence + worst RS.",
+  "rationale": "EWY is the highest-beta AI-memory proxy and already flushed to the lower Bollinger band with weak ADX (25.5), leaving little room down to support at 174.61 before an oversold bounce; entering a fresh short here means selling the low into a level and into two binary events inside the window (FOMC minutes Jul 8, Samsung Q2 early-mid July that could snap it up). The bear thesis only becomes clean/high-expectancy on a decisive break of support, so I wait rather than chase or fade. No size until a level resolves.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 174.61,
+    "expires_min": 240,
+    "note": "Losing the 174.61 support proves the down-trend continues past the oversold band and opens a clean short with a measured move toward 168-170, stop back above 178."
+  },
+  "transcript": {
+    "macro": "Cautiously risk-on but hawkish-Fed overhang. FOMC minutes Wed Jul 8 (<48h). EWY relative strength -10.4%, weak; Korea a semi proxy (0.81 corr to MU) \u2014 SHORT-biased, consistent with chip weakness.",
+    "sentiment": "EWY (South Korea) \u2014 HIGHEST-beta name; Samsung + SK Hynix ~half of KOSPI, trades AI-memory sentiment on leverage; endured -8% to -10% flush days late June/Jul 2. TWO dated catalysts near window: Samsung Q2 earnings imminent (early-mid July) and SK Hynix ADRs begin Nasdaq trading Jul 10. HIGHEST near-term event risk.",
+    "analyst": "Short signal real but extended: at lower BB (%B -0.007), RSI 34.6, -2.81% vs VWAP, ~1.9 ATR above 174.61 support, weak ADX 25.5. Chasing short into support ahead of FOMC + imminent Samsung earnings is negative expectancy; no clean long vs bearish divergence + worst RS. Wait for break of 174.61.",
+    "portfolio": "EWY \u2014 HOLD (conf 0.50): extended short into support + event risk; arm continuation-short below 174.61."
+  },
+  "timestamp": "2026-07-07T09:58:00.006412+00:00"
+}

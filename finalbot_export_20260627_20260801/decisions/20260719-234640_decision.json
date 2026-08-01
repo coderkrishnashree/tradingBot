@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "EWY/USDT:USDT",
+  "size": 0.0,
+  "entry": 164.22,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.4,
+  "playbook": "none",
+  "forecast": "Thin Sunday tape chops 163-165; the 166.5 spike was violently rejected (2135-vol down-bar). Real move waits for Mon Korea/cash open on the BoK-hike + 7/24 tariff read-through - gappy either way, no tight-R:R entry now.",
+  "expectancy_note": "No edge: composite long fights a fresh bearish catalyst and worst-in-class RS (-25%); shorting mid-range on illiquid pre-gap tape has no honest stop. p(win) either side ~0.45 with poor R:R -> HOLD.",
+  "rationale": "EWY is an equity ETF proxy (crypto structure metrics don't apply) with an ACTIVE bearish macro shock: BoK surprise hike, KOSPI -6.4% into bear market, tariff expiry 7/24. Weakest relative strength in the equity complex (-25.5%), so the scan long composite is a low-conviction bounce. The 166.5 spike was rejected on the heaviest volume of the session and price faded to mid-range; on thin Sunday liquidity the honest next catalyst is Monday's gappy cash open.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 162.6,
+    "expires_min": 240,
+    "note": "Losing the 162.6 base low with the KOSPI bear shock live confirms the down-leg resumes -> clean short trigger toward 158/154 support."
+  },
+  "transcript": {
+    "macro": "RISK-OFF; BoK hawkish shock bleeds into Asia semis. Sunday off-hours thin/gappy, real discovery Mon open. Capital preservation.",
+    "sentiment": "EWY (S.Korea proxy): BEARISH macro shock, fresh. BoK surprise first hike since 2023 (to 2.75%) 7/16 -> KOSPI -6.4% into bear market. US 10% tariff expires 7/24, Korea Q2 GDP this week. Bounces counter-trend.",
+    "analyst": "Country-ETF proxy with active bearish catalyst, worst-in-class RS -25.5%. Scan long is a dead-cat bounce; 166.5 spike violently rejected (2135-vol down-bar), faded to mid-range 164.22. Thin Sunday tape, Mon open gaps either way on tariff/BoK. No 1.5R. HOLD.",
+    "portfolio": "HOLD EWY (conf 0.4) \u2014 bearish shock, wait for 162.6 break to short."
+  },
+  "timestamp": "2026-07-19T23:46:40.336789+00:00"
+}

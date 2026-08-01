@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "GOOGL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price basing on 341.86 support with RSI ~24 across all TFs and 6.2% below VWAP; most likely a mean-reversion bounce toward 348-352 (VWAP), not fresh downside.",
+  "expectancy_note": "Short p(win) ~0.31 per learner (chasing into support, oversold, long-crowded); no long trigger yet. R:R on a short at support <1.5. HOLD beats both.",
+  "rationale": "GOOGL is in a violent downtrend (ADX 90) but now deeply oversold (RSI 4h 23.9, 30m 23.1) and pressed against hard support at 341.86 (only 1.2% below spot), with bearish divergence printed and price 6.2% below VWAP \u2014 shorting here is textbook chasing into stretched tape at a level (p_win_learned 0.307). No confirmed long reversal. Weekend/thin perps and a Jul 22 earnings binary 3 days out argue against committing risk. HOLD: break of 341.86 opens continuation; reclaim of VWAP (~348.5) signals the bounce.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 341.86,
+    "expires_min": 240,
+    "note": "Losing 341.86 on volume confirms downtrend continuation and validates a fresh short with a level to lean on."
+  },
+  "transcript": {
+    "macro": "RISK-OFF / defensive. Nasdaq -2.9% on the week on an AI-capex scare hitting semis + hyperscalers; 10Y 4.55% (tech-multiple headwind), Fed hold expected with a hawkish tail, USD easing. Weekend: US cash market CLOSED, perps thin/gap-prone into Monday's reopen \u2014 size down. Long/short ratios are crowded long across the basket (contrarian short fuel) but RSIs of 18-29 flag heavy oversold-bounce risk. Earnings inside the horizon: GOOGL/TSLA Jul 22, INTC Jul 23. Verdict: short-biased tape but stretched \u2014 trade smaller.",
+    "sentiment": "Risk-off. Friday AI/semiconductor selloff (US + Japan Nikkei -4%) into a make-or-break week \u2014 GOOGL/TSLA earnings Jul 22, INTC Jul 23, then FOMC Jul 29. The only hard near-term catalysts are Monday's reopen gap and the Wed-after-close earnings cluster. Bias: cautiously short beta (QQQ/EWJ/ORCL), earnings-blackout discipline on INTC/GOOGL/TSLA, neutral on TSM (Q2 beat already spent Jul 16) and HOOD (crypto-beta, earnings Jul 29).",
+    "analyst": "GOOGL is in a violent downtrend (ADX 90) but now deeply oversold (RSI 4h 23.9, 30m 23.1) and pressed against hard support at 341.86 (only 1.2% below spot), with bearish divergence printed and price 6.2% below VWAP \u2014 shorting here is textbook chasing into stretched tape at a level (p_win_learned 0.307). No confirmed long reversal. Weekend/thin perps and a Jul 22 earnings binary 3 days out argue against committing risk. HOLD: break of 341.86 opens continuation; reclaim of VWAP (~348.5) signals the bounce.",
+    "portfolio": "HOLD GOOGL \u2014 deep oversold on hard support into Jul 22 earnings; short here is a chase. Wait for 341.86 break."
+  },
+  "timestamp": "2026-07-19T00:42:27.836470+00:00"
+}

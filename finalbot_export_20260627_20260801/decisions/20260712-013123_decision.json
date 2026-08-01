@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "MU/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.55,
+  "playbook": "none",
+  "forecast": "976-980 base holding after the 987->975 flush; next few bars likely a relief bounce toward VWAP/982 before the downtrend can resume. A fresh break of 976 on volume reopens continuation toward 968/960.",
+  "expectancy_note": "p(win) on a market short ~40% - 1h RSI 31.8 and basing candles mean the immediate move is a counter-bounce; learner shows trend shorts 44% win / -2.89 avg. No positive-EV entry until 976 breaks or 982 rejects.",
+  "rationale": "MU is a tokenized equity with US markets closed (gap risk) and a CPI binary Tue plus ASML/TSM read-through inside 48h. Tape is a strong downtrend but stretched short-term (LTF RSI low-30s) and basing at 976 after a 12-pt flush, so the next move is likely a relief bounce that would stop a chased short - the account's #1 loss pattern. Flat is highest-EV; re-engage short only on a 976 volume breakdown.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 975.3,
+    "expires_min": 240,
+    "note": "Losing the twice-defended 975-976 base proves the relief bounce failed and the downtrend resumes toward 968/960 with stop above 982."
+  },
+  "transcript": {
+    "macro": "2026-07-12 (Sun, US equity/oil underlyings CLOSED -> Mon gap risk). Regime mildly risk-OFF, hawkish Fed (~61-63% Sept HIKE odds), firm dollar, event-heavy. June CPI Tue Jul 14 08:30 ET = dominant <=48h binary. Gold in downtrend (XAU ~$4100, ADX 73, crowded longs L/S 2.66); oil the mirror (WTI ~$73-74 on Hormuz supply premium but longs extremely crowded L/S 4.08 -> squeeze-prone). Crypto soft (BTC chop ~$58-64k, Fear 31) -> SOL/MSTR BTC-beta weak. L/S ratios contrarian-bearish across the book. Bottom line: short bias on equity/gold/crypto-beta names with reduced size + Mon-gap awareness; CL the lone fundamental long but positioning-risky.",
+    "sentiment": "2026-07-12. Whole book short-biased into a hot-button June CPI print Tue Jul 14 08:30 ET (shared <=48h risk). AAPL earnings Jul 30 (outside window). MU fiscal Q3 already reported ~Jun 24 (blowout, catalyst spent, digesting). XAUT bearish, Goldman cut YE target to $4900. EWY chip-driven volatility, tightly corr MU (0.81). CL the only independent live catalyst (Hormuz/US-Iran, two-sided; OPEC+ +188kbpd = bearish structure). MSTR turned net BTC seller Jun29-Jul5, Mizuho cut target; BTC-beta bearish. SOL oversold at 75.6 support, ETF-inflow 'paradox', no hard <=48h catalyst.",
+    "analyst": "MU is a tokenized equity with US markets closed (gap risk) and a CPI binary Tue plus ASML/TSM read-through inside 48h. Tape is a strong downtrend but stretched short-term (LTF RSI low-30s) and basing at 976 after a 12-pt flush, so the next move is likely a relief bounce that would stop a chased short - the account's #1 loss pattern. Flat is highest-EV; re-engage short only on a 976 volume breakdown. | Forecast: 976-980 base holding after the 987->975 flush; next few bars likely a relief bounce toward VWAP/982 before the downtrend can resume. A fresh break of 976 on volume reopens continuation toward 968/960. | p(win) on a market short ~40% - 1h RSI 31.8 and basing candles mean the immediate move is a counter-bounce; learner shows trend shorts 44% win / -2.89 avg. No positive-EV entry until 976 breaks or 982 rejects.",
+    "portfolio": "HOLD - stretched-oversold downtrend basing at 976; don't chase, arm short below 975.3."
+  },
+  "timestamp": "2026-07-12T01:31:23.531736+00:00"
+}

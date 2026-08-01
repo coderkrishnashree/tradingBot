@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "GOOGL/USDT:USDT",
+  "size": 0,
+  "entry": 348.82,
+  "stop_loss": 341.86,
+  "take_profit": 379.97,
+  "confidence": 0.35,
+  "playbook": "none",
+  "forecast": "Price is coiled in a 347.8-349.7 band with ATR just 0.38% and a BB squeeze (width 1.19%); over the next few bars it most likely keeps grinding sideways near VWAP until the squeeze resolves, with no directional edge.",
+  "expectancy_note": "No setup: sub-0.4% ATR gives no room for a 1.5R trade to any real level; a squeeze with no trigger + earnings event risk near the window edge = negative expectancy to force either side.",
+  "rationale": "GOOGL is an equity, so crypto structure is muted; the read is technicals + macro. Lower timeframes are all flat (15m/30m/1h/5m scores ~0), only 4h leans mildly long, and price is dead-pinned in a tight coil at VWAP with 0.38% ATR - there is no move to forecast. Macro is RISK-OFF / chip-led with GOOGL crowded-long (L/S 1.71) and negative relative strength, and earnings event risk sits right at the edge of the 48h window, so I will not chase either direction into a squeeze. Size 0.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 347.8,
+    "expires_min": 240,
+    "note": "Losing the coil floor breaks the squeeze downward and aligns with the risk-off macro base case, opening a possible short toward 341.86 support."
+  },
+  "transcript": {
+    "macro": "RISK-OFF, fragile, chip-led selloff; rips suspect. macro-agent flags GOOGL earnings Jul 22 as an event-risk name feeding QQQ beta; sentiment-agent places Alphabet Q2 earnings Jul 28 - either way GOOGL carries event risk near/at the edge of the hold window, do not assume a clean 48h. Crowded-long L/S 1.71, rel strength negative. FOMC Jul 28-29. Net: MIXED-to-HOSTILE with earnings event risk.",
+    "sentiment": "GOOGL neutral pre-event. Q2 earnings ~Jul 28 (after close) per sentiment source, but macro source flagged Jul 22 - earnings date is a live risk right around the hold window. No fresh driver today; drifts with QQQ/mega-cap tape.",
+    "analyst": "GOOGL is dead-pinned in a tight coil at VWAP (all LTFs flat, only 4h mildly long) with 0.38% ATR and a BB squeeze - no move to forecast and no room for a 1.5R trade to any real level. Risk-off macro, crowded-long, negative RS, and earnings event risk near the window edge mean don't force either side. Wait for the coil to break.",
+    "portfolio": "HOLD GOOGL - a dead tight coil (0.38% ATR) with earnings event risk near the window edge; no tradable move, wait for the squeeze to resolve."
+  },
+  "timestamp": "2026-07-20T12:16:34.286812+00:00"
+}

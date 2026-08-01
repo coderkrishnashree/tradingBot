@@ -1,0 +1,24 @@
+{
+  "symbol": "CRCL/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.5,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "rationale": "Composite reads long (ADX 46) but the tape just printed a blow-off spike to 62.71 on heavy volume that was immediately sold to 61.34 \u2014 classic exhaustion, aligning with bearish sentiment (Mizuho downgrade, Visa threat, below all EMAs), hostile macro for longs, and crowded LSR 2.45 (structure_bias -0.28) that fuels downside. But at 61.47 price is mid-range with no clean level under it, so a market short risks the counter-bounce stop-out; a long chases the rejected spike against every tailwind. No high-expectancy entry now \u2014 hold and short the bounce.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 62.2,
+    "expires_min": 240,
+    "note": "A bounce to 62.0-62.2 (broken breakout/VWAP) is the high-R:R short entry, stop above 62.7 spike, target 60.0/58.76."
+  },
+  "transcript": {
+    "macro": "Regime mixed-to-hostile for chasing longs; risk flipped from AI-euphoria to caution. Semis in active July drawdown (AI-capex fears). Hawkish Fed (Warsh), ~53% odds Sept hike; Middle East war lifting oil/inflation; USD a headwind. Every target lags BTC and long/short ratios crowded-long (structure_bias negative) \u2014 favor mean-reversion/shorts over trend-longs; if long, smaller size, tight stops.",
+    "sentiment": "Heavy earnings week. Live <=48h binaries: TSLA Q2 Wed Jul 22 (~7.6% implied), INTC Q2 Thu Jul 23 (~15% implied). TSM already reported Jul 16 (beat, raised capex). CRCL bearish drift (Visa 'Open USD' + Mizuho downgrade to Underperform, below all EMAs). EWY mildly bullish SK Hynix/HBM proxy flows. NVDA/MU/SNDK/QQQ no own <=48h catalyst. XAG choppy/macro-driven, FOMC Jul 29 looms.",
+    "analyst": "Failed breakout: 62.71 spike fully rejected back to 61.3-61.5 on 4863 vol. Mid-range at 61.47 between support 58.76 and the rejected 62.6-62.7 zone; honest short stop above 62.7 is ~1.6xATR while first target 60.0 is <1.5R \u2014 sub-threshold. Composite-long is stale vs the exhaustion tape and bearish context. Wait to short the retest of 62.0-62.2 rather than chase the completed down-move.",
+    "portfolio": "HOLD CRCL \u2014 faded 62.71 blow-off; fade the bounce at 62.2, don't chase the flush."
+  },
+  "timestamp": "2026-07-20T14:14:26.468945+00:00"
+}

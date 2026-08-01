@@ -1,0 +1,28 @@
+{
+  "symbol": "HOOD/USDT:USDT",
+  "action": "hold",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.62,
+  "playbook": "none",
+  "forecast": "Price is coiling flat 99.4-99.7 after a capitulation waterfall; over the next 2-6 bars expect either a snap-back bounce toward 101.5-102 (VWAP retest) or a brief re-test of 96.68 support before deciding \u2014 no clean edge mid-air right now.",
+  "expectancy_note": "Fresh short into 4h RSI 3.4 / vwap -7.38% has negative expectancy (account shorts win 47%, and this is the exact 'late short stopped by bounce' loss pattern); a knife-catch long has no confirmation yet. Best EV is wait.",
+  "rationale": "HOOD is violently oversold and capitulation-grade (RSI 3.4, ADX 89.7, -7.38% below VWAP); the 15m tape has stopped falling and is coiling, which is precisely where snap-back squeezes fire \u2014 so initiating a fresh short here is the account's documented #1 loser (late short into stretched tape). But there is no bullish divergence or VWAP reclaim to justify buying the knife either, in a RISK-OFF regime where HOOD is just high-beta to COIN/BTC. No 48h catalyst. HOLD is the highest-expectancy position; I arm both triggers so a confirmed bounce (long the retest) or a fresh break of support (short with trend, no longer mid-air) re-engages me.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 101.5,
+    "expires_min": 240,
+    "note": "Reclaiming ~101.5 (back toward VWAP) proves the snap-back bounce has legs and opens a long the retest rather than chasing the short."
+  },
+  "transcript": {
+    "macro": "RISK-OFF regime; chips epicenter; crypto weak. No FOMC/CPI inside 48h. #1 risk this cycle: chasing oversold shorts into a squeeze; smaller size across board. HOOD: ADX 89.7, 4h RSI 3.4, vwap_dist -7.38% -> violently oversold, capitulation-grade. Short trend intact but this is where a snap-back bounce is MOST likely; do NOT initiate fresh shorts into that RSI.",
+    "sentiment": "HOOD: earnings Wed 7/29 AMC (>48h out, not this cycle, but do not hold a swing into it blind). High-beta to crypto (corr to COIN 0.77, BTC 0.52) -> dragged by both equity risk-off and soft crypto tape. No fresh idiosyncratic catalyst inside 48h; trades as risk-beta. Neutral-to-bearish tilt matching the tape.",
+    "analyst": "HOOD 99.52, capitulation-grade: 4h RSI 3.4, ADX 89.7, VWAP dist -7.38%, ATR 2.36%. 15m candles show the waterfall has paused and price is coiling flat 99.4-99.7 (no fresh downside momentum) \u2014 the highest-probability spot for a snap-back squeeze. Shorting here is the account's #1 loss pattern (late short into stretched tape stopped by the bounce; shorts only 47% win / -0.87 avg). No bullish divergence or VWAP reclaim yet to justify a knife-catch long, regime RISK-OFF with HOOD trading as COIN/BTC beta. No idiosyncratic catalyst inside 48h. HOLD; re-debate on a reclaim above 101.5 (bounce has legs -> long) or a fresh break of 96.68 (trend resumes -> short, no longer mid-air).",
+    "portfolio": "HOLD HOOD \u2014 capitulation-grade oversold, do not chase the short; arm long above 101.5 / short below 96.68."
+  },
+  "timestamp": "2026-07-18T12:39:45.069756+00:00"
+}

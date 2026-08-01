@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "XAG/USDT:USDT",
+  "size": 0.0,
+  "entry": 59.96,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.62,
+  "playbook": "none",
+  "forecast": "Price stays pinned in the 59.9-60.0 coil near-term; expect it to drift sideways into Tue CPI, then break with the print - a squeeze-flush is as likely as a leg up given crowded longs, so no directional edge until it leaves the box.",
+  "expectancy_note": "No entry: 15m ATR ~0.02, price dead-flat with no level within reach - any stop is noise-width and R:R is undefined; CPI in <48h can gap through it. Holding beats a coin-flip into a crowded-long, event-gated tape.",
+  "rationale": "XAG is coiled in a 4-cent box (59.93-59.97) with volatility collapsed to near-zero and no structure nearby - the trend is real on higher TFs but there is nothing to trade in the next few candles. long_short 3.29 flags very crowded longs (structure_bias -0.31) into a live CPI + Warsh binary Tue, so a hot print risks a sharp reversal exactly where the book is offside; account learner data shows trend-longs bleeding (44% win, -2.89 avg). Size zero: wait for the coil to resolve on volume rather than chase a stretched, event-gated leader.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 60.15,
+    "expires_min": 240,
+    "note": "A volume-backed break above the coil high toward resistance 63.36 validates trend-continuation long; until then price is boxed and event-gated."
+  },
+  "transcript": {
+    "macro": "Regime risk-ON but late-stage & event-gated (2026-07-11). CATALYST inside 48h: June CPI + Core CPI Tue Jul 14 8:30am ET + Warsh testimony 10am - live binary inside a 2-day hold window. Silver (XAG): strongest secular story, +100% YTD, ~$60, weak-dollar + rate-cut repricing (June NFP soft, 57k) + industrial demand tailwind. BUT scan long/short 3.29 = very crowded-long (contrarian risk), RSI/stoch stretched. Supportive macro, crowded positioning; cool CPI = tailwind, hot CPI = sharp reversal risk given crowding. Size DOWN into Monday.",
+    "sentiment": "XAG: bullish momentum, +5% early July (~$60-62) on dovish Fed repricing after weak June payrolls (57k vs 110k), structural 6th-year supply deficit + record industrial/solar/AI demand. Highly volatile (fell from $121 Jan to ~$58). Same CPI/Fed catalysts. Overall tone: cautiously risk-on, hinges on CPI.",
+    "analyst": "15m candles dead-flat pinned 59.93-59.97 for ~5h; 15m ATR% 0.02, 5m ATR% 0.0 - ultra-low-vol coil. RSI 67.8/stoch 71.5 elevated not extreme; price mid-air (support 57.31, resistance 63.36 both far). long_short 3.286 = very crowded long (structure_bias -0.307) into a live CPI binary. No honest stop/target - any level is noise-width, R:R undefined, CPI can gap through it. Verdict: HOLD; arm a volume break >60.15 as the with-trend flip.",
+    "portfolio": "HOLD XAG - volatility-dead coil, crowded-long, event-gated; nothing to trade until it leaves the box."
+  },
+  "timestamp": "2026-07-11T09:33:32.739087+00:00"
+}

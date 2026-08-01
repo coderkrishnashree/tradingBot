@@ -1,0 +1,27 @@
+{
+  "action": "hold",
+  "symbol": "QQQ/USDT:USDT",
+  "size": 0.0,
+  "entry": 716.19,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.34,
+  "playbook": "none",
+  "expectancy_note": "Mid-range chop (~10 above support, ~22 below resistance), overnight thin/gappy, no edge; any entry here is <1.5 R:R into two-sided open gap risk. Best expectancy = wait.",
+  "rationale": "QQQ sits mid-range at 716 between support 705.83 and resistance 737.88 with composite short conviction near-nil (29.8%, aligned:false) and structure_bias actually mildly long (+0.09), so neither side is supported for a sized swing. US cash is closed with ~7h to the open and a SpaceX-inclusion rebalance at the bell, making overnight tokenized-perp wiggles noise and gap risk the dominant, two-sided hazard. Price is not at either level, so there is no high-probability fade and no confirmed breakout to trade; entering now donates the stop to noise. Highest-expectancy action is to wait for a real level to resolve.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 705.83,
+    "expires_min": 240,
+    "note": "Losing range-low support 705.83 confirms sellers won the overnight drift and opens a short with a defined structural level into the US open; until then it is mid-range chop."
+  },
+  "transcript": {
+    "macro": "Environment MIXED, leaning cautious for long tech. Scan stamped ~02:22 ET \u2014 US cash CLOSED (~7h to 09:30 open); overnight tokenized-equity perps thin/wide/gap-prone, dominant risk is a two-sided open gap. Mon Jul 6 close mildly risk-on (S&P +0.72%, Nasdaq +1.12%, Dow record) led by Big Tech + chip rebound (Foxconn AI-demand trade) but a bounce off a wobble. Rates a headwind: June FOMC hawkish hold 3.50-3.75%, May CPI +4.2% y/y, soft June payrolls (+57k) \u2014 stagflation-tinged, caps multiples. No FOMC/CPI in 48h (next FOMC Jul 28-29). QQQ derivatives: funding 0.0, OI ~4,181, L/S 1.077, orderbook +0.379 -> structure_bias +0.09 (mildly long). Composite 'short' but LOW conf 29.8%, aligned:false; 1h/30m down, RSI 38, mid-range (705 support / 738 resistance), rel_strength +0.33% (neutral vs BTC). Chop/indecision \u2014 no crowding, no conviction, no squeeze to fade.",
+    "sentiment": "QQQ lean MILDLY BEARISH (supports short). One concrete <=48h catalyst TODAY: SpaceX joins Nasdaq-100 before the open Jul 7 \u2014 fastest post-IPO inclusion; forces ~$4.3B passive QQQ buying but mechanic ADDS SpaceX while proportionally TRIMMING incumbents \u2014 mild mechanical drag on the mega-caps that dominate QQQ plus rebalance noise at the bell (weight only ~1%, net impact modest). Hawkish-Fed rotation out of tech + Microsoft 4,800 job cuts add pressure. Counter-risk: July seasonality (QQQ 90% 10-yr win rate, avg +4.4%) \u2014 don't press shorts.",
+    "analyst": "QQQ last 716.19, mid-range between support 705.83 and resistance 737.88; composite short conviction near-nil (29.8%, aligned:false) and structure_bias mildly LONG (+0.09) \u2014 neither side supported. US cash closed ~7h out with a SpaceX rebalance at the bell = overnight wiggles are noise, gap risk two-sided. No level to fade, no confirmed breakout; entering now donates the stop to noise. HOLD, size 0. Trigger: losing 705.83 opens a short with a defined level into the open.",
+    "portfolio": "QQQ \u2014 HOLD (conf 0.34): mid-range chop with no conviction either way; arm a short only on a break below 705.83."
+  },
+  "timestamp": "2026-07-07T06:26:38.854150+00:00"
+}

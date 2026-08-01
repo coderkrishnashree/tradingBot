@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "HOOD/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.34,
+  "playbook": "none",
+  "forecast": "Price is grinding lower and pinned near 93.40 at the low of its range; over the next 2-6 candles I expect either continued slow bleed toward the 89.8 support or a dead-cat bounce back toward the ~95.5 VWAP/broken-support zone that fails. Neither leg offers clean R:R from here.",
+  "expectancy_note": "Short p(win)~0.35 (learned 0.307): 4h RSI 23.6 + vwap_dist -3.79% = already extended, a routine bounce stops a fresh short before the ~1R target at 89.76; long fights a 68-ADX downtrend. Both sub-1.5 R:R -> HOLD is highest expectancy.",
+  "rationale": "HOOD is in a strong-ADX (68) 4h downtrend but already stretched (RSI 23.6, -3.79% below VWAP) - market-shorting here is exactly the account's proven late-short trap where the counter-bounce hits the stop. A short's only clean target is support 89.76 (~$3.6 away, ~1R vs a 1.5xATR ~$3.5 stop), so R:R fails. Weekend/US-closed adds Monday gap risk with no <=48h catalyst and near-zero BTC correlation to lean on. No trade; wait for either a stretched bounce into resistance to short, or a reclaim to flip long.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 95.5,
+    "expires_min": 480,
+    "note": "Reclaiming the swept 95.5 VWAP/broken-support zone would break the down-drift and open a long; below it the extended short offers no honest R:R."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF/DEFENSIVE. Sat Jul 18, US cash closed until Mon Jul 20 -> tokenized stocks thin & gappy, Monday gap risk. Crypto soft (Fear&Greed 25). HOOD-specific: highest crypto-beta of the stock names (btc_corr 0.518, 0.767 vs COIN). Trades as a crypto-proxy equity - exposed to BOTH the soft crypto tape AND the closed equity market; that double exposure with no cash anchor makes it the gappiest of the group. Scan composite near-flat (conf 0.3). MIXED-to-hostile; size small.",
+    "sentiment": "HOOD constructive medium-term tone, NO <=48h catalyst, rising event risk. +17% past month, 'Moderate Buy' consensus, highly BTC/COIN-correlated so tracks crypto beta. Q2 earnings Jul 29 (est $0.40 EPS/$1.23B rev) is the binary - outside 48h. Near-term news neutral to the trade; treat as a crypto-beta proxy this cycle, not a standalone catalyst play.",
+    "analyst": "Strong-ADX (68) 4h downtrend but already stretched (RSI 23.6, -3.79% below VWAP). Market-shorting here is the account's proven late-short trap - the counter-bounce hits the stop before the only clean target (support 89.76, ~1R vs a ~1.5xATR $3.5 stop), so R:R fails. Long fights the 68-ADX downtrend with no reversal signal. Weekend/US-closed + Monday gap risk, no <=48h catalyst, near-zero BTC corr to lean on. Learner p_win 0.307. HOLD; flip long on a reclaim above 95.5, else wait for a bounce to short.",
+    "portfolio": "HOLD HOOD - extended late-short trap on a gappy weekend tape; no honest R:R, arm long above 95.5."
+  },
+  "timestamp": "2026-07-18T18:41:52.424165+00:00"
+}

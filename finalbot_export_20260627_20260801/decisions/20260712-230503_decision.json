@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "ORCL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.28,
+  "playbook": "none",
+  "forecast": "Dead weekend tape: price chops 140.9-141.7 on near-zero volume with no trend (ADX 11.6); expect continued sideways drift until Monday cash open reprices the underlying. 5m RSI 25.3 is already stretched down, so a market short here just buys the counter-bounce.",
+  "expectancy_note": "No edge: chop regime, composite regime-blocked (conf 5.0), no level to fade and no ADX to trend; p(win) ~0.4 with random-walk R:R < 1.5 \u2014 HOLD is highest expectancy. Account's trend/short book is bleeding (-1.8 to -2.9R).",
+  "rationale": "ORCL trades as an equity with US cash markets closed on Sunday, so the perp is stale/thin/gappy with no reliable price discovery. All 15m-4h timeframes read flat/regime-blocked, ADX 11.6 confirms no trend, and the 5m short signal is already extended (RSI 25) \u2014 entering now is chasing into a bounce, the exact loss pattern. Crowd is heavily long (L/S 2.41) into a weak YTD-down tape, which mildly supports a short, but only worth taking with confirmation at a level or on a Monday-open break. Size 0.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 137.63,
+    "expires_min": 900,
+    "note": "Losing support 137.63 (ideally on Monday cash-open volume) confirms the crowded-long liquidation and opens a clean trend-short toward the next leg down; that flips HOLD to a short entry."
+  },
+  "transcript": {
+    "macro": "RISK-OFF lean. Sunday \u2014 US cash CLOSED, ORCL perp on stale/thin/gappy prices \u2192 smaller size, confirm at Monday open. Defensive macro. ORCL trades as equity, BTC-corr 0.375; scan composite conf very low (~5.0). Broad short tilt across equity perps but on thin weekend tape. MIXED.",
+    "sentiment": "Risk-cautious; June CPI + Warsh July 14 = dominant 48h binary. ORCL just reported (record Q4, RPO +363% to $638B on AI contracts) \u2014 NO earnings in window. BUT stock down ~25% YTD on FCF/capex fears ($23.7B negative FCF); tape weak/bearish (testing ~$140). Soft-tone weak-price backdrop mildly supports a short.",
+    "analyst": "Last 141.09, chop regime (ADX 11.6), composite conf 5.0, direction flat/regime_blocked. All 15m-4h scores ~0; only 5m short (-0.785, RSI 25.3 stretched). VWAP dist -1.64%, near support 137.63. Candles coiled 141.3-141.7 then leaked to 140.96 on near-zero volume = dead weekend tape. Funding -0.0012, L/S 2.41 crowd long. No trend, no level to fade, 5m already stretched \u2192 chasing risk. HOLD, armed short on a 137.63 break (ideally Monday-open volume).",
+    "portfolio": "ORCL \u2014 HOLD, conf 0.28: dead-tape chop, regime-blocked, no edge; armed short on a 137.63 break at Monday open."
+  },
+  "timestamp": "2026-07-12T23:05:03.315467+00:00"
+}

@@ -1,0 +1,26 @@
+{
+  "symbol": "MU/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.6,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "forecast": "Weekend pin: price stays coiled 984-990 on dead volume; a Monday gap resolves it. A dip toward VWAP/960 would set up the real long; a break under 984 opens a 960 support test.",
+  "expectancy_note": "p(win) on a chase-long ~0.45: +2.94% above VWAP, RSI 70-75 on 30m/1h, no 48h catalyst, Saturday no discovery + Monday gap. Waiting for a VWAP pullback flips R:R to ~1.8R. HOLD beats chase-long and short.",
+  "rationale": "MU is the cleanest structural long (multi-TF up, L/S 1.545 least-crowded, orderbook +0.137, own driver at btc_corr 0.35) but it is extended +2.94% over VWAP with 30m/1h RSI 70-75, the earnings catalyst is spent, and it is a tokenized equity pinned to Friday close on a Saturday with no discovery and Monday gap risk. The 15m coils 984-990 on collapsing volume, not a tradeable impulse. Best expectancy: wait for a pullback into VWAP (~960) where R:R is honest.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 962.0,
+    "expires_min": 240,
+    "note": "A dip into the VWAP/~960 zone unwinds the +2.94% stretch and 70-75 RSI, giving a clean dip-buy aligned with the intact multi-TF uptrend."
+  },
+  "transcript": {
+    "macro": "Sat Jul 11 2026 ~12:00 UTC. Regime MIXED-to-HOSTILE. US equity markets CLOSED; tokenized-equity perps pinned to Friday close, no discovery, Monday gap risk. MU: best-looking long -- multi-TF up, orderbook +0.14, least-crowded of equity longs (L/S 1.55), but RSI 61-75 and rel-strength -13.85% vs BTC; semis name with Monday gap risk. Macro: MU and TSLA are the least-bad longs.",
+    "sentiment": "MU BULLISH structurally, NO fresh 48h catalyst. Q3 blowout already reported (EPS $18.90 guide, $33.5B revenue guide, HBM/AI) -- spent. Stock down ~14% over five sessions off a >$1,200 high = pullback within a massive uptrend (+~700% YoY). No binary next 48h; dip-buy narrative intact but not a same-day trigger.",
+    "analyst": "Cleanest structural long but extended +2.94% over VWAP with 30m/1h RSI 70-75, catalyst spent, Saturday no discovery + Monday gap. 15m coils 984-990 on collapsing volume -- market-buying chases into a weekend gap (the account's loss pattern). Wait for a VWAP pullback (~960) for honest R:R. HOLD.",
+    "portfolio": "HOLD MU -- cleanest long of the set but extended into a weekend pin; buy the ~960 VWAP dip instead of chasing."
+  },
+  "timestamp": "2026-07-11T12:03:08.057295+00:00"
+}

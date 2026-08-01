@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "MSFT/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Coiled at VWAP/384-385 with BB width just 1.62% and ATR 0.33%; expect continued chop in the 383-386 band into the Fed, with a rejection wick already printed at 385.4. No clean directional move until 378 support breaks (short) or 388 reclaims (long).",
+  "expectancy_note": "No entry: tight coil gives ~0.3% ATR so any stop that survives noise kills R:R; crowded-long (L/S 1.89) into FOMC + earnings this window = negative expectancy on a fresh long, and no confirmed breakdown for a short yet.",
+  "rationale": "MSFT is an equity in a risk-off tape, crowded long (L/S 1.89, orderbook -0.172) and stretched (RSI 60, stoch 85) while coiled in a 1.6%-wide BB with tiny 0.33% ATR - no room for a valid R:R>=1.5 long, and the 5m has already flipped short. Two binaries sit inside the window (FOMC Jul 28-29 and earnings Wed after close); mandate is explicit not to carry size through them. HOLD; arm the 378 breakdown as the flip.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 378.0,
+    "expires_min": 240,
+    "note": "Losing 378 support breaks the coil and opens a short into the crowded-long unwind; that is the only clean setup pre-Fed."
+  },
+  "transcript": {
+    "macro": "REGIME: RISK-OFF/MIXED, defensive. FOMC Jul 28-29 inside window. MSFT crowded-long (L/S 1.9, negative orderbook), RSI ~60; longs chasing into AI-capex jitters. Smaller size.",
+    "sentiment": "RISK-OFF/EVENT-GRIDLOCKED. MSFT earnings Wed Jul 29 AFTER CLOSE - INSIDE the hold window. HIGH; capex/margin scrutiny is the swing factor. News argues against fresh conviction longs ahead of the Fed + this print.",
+    "analyst": "Coiled at VWAP in a 1.6%-wide BB with tiny 0.33% ATR - no room for a 1.5R long; crowded long (L/S 1.89, orderbook -0.172), stoch 85, 5m already flipped short. Two binaries inside the window (FOMC + earnings Wed after close). HOLD; short arms on loss of 378, long only on reclaim of 388.",
+    "portfolio": "HOLD MSFT - coiled at VWAP into earnings + Fed; wait for 378 breakdown."
+  },
+  "timestamp": "2026-07-27T00:08:22.417825+00:00"
+}

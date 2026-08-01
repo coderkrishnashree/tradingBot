@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "COIN/USDT:USDT",
+  "confidence": 0.5,
+  "size": 0.0,
+  "entry": 157.36,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "forecast": "Price is pinned at VWAP (157.3) with 5m RSI 29.4 and stoch 10 \u2014 the immediate down-leg is exhausted; expect a chop/relief bounce toward 158.6-159.4 (the rejected wick) over the next 2-4 bars before the 4h down-bias can resume. A clean break of the 156.9 base opens 155.5 then 152.9.",
+  "expectancy_note": "Short thesis is valid (4h -0.71, L/S short-lean, crowd offside) but a market short HERE chases oversold fast-frames into VWAP \u2014 p(win) ~0.45, negative expectancy vs a bounce-to-reject or break-confirm entry.",
+  "rationale": "The 4h/structure lean is genuinely short and best-aligned in the basket, but the entry timing is wrong: price sits exactly on VWAP with 5m RSI 29 and stoch 10 (oversold), so a routine relief bounce would stop out any honest short before continuation \u2014 the account's signature loss. Support 152.9 is 3.5xATR away, so a proper R:R short needs a higher entry (bounce into 158.6-159.4) or a confirmed break of the 156.9 base. Also pre-US-open thin book until ~13:30 UTC makes fills/stops unreliable, reinforcing patience over a chase.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 156.9,
+    "expires_min": 240,
+    "note": "Losing the 156.9 intraday base after the exhausted bounce confirms the 4h short is resuming with room to 155.5/152.9 \u2014 that is the honest continuation short, not chasing oversold at VWAP."
+  },
+  "transcript": {
+    "macro": "2026-07-20 09:08 UTC, pre-US-open. Cautious risk-off into a heavy earnings week. Thin overnight book, unreliable fills/stops until ~13:30 UTC. COIN is the ONE exception to the long-crowded basket: L/S 0.757 (short-leaning), orderbook -0.25, near-flat structure_bias (-0.002) \u2014 positioning favors the short the scan flags (4h -0.71, composite conf 43%, direction short). Crypto in extreme fear (BTC ~$64k, F/G 25); COIN genuinely crypto-levered (BTC corr 0.63) so downside inherits crypto fear. Best-aligned short setup in the basket.",
+    "sentiment": "COIN earnings Jul 30 after close (OUTSIDE 48h window); carries baggage from a Q1 miss (EPS -$1.49). USDC/Circle distribution-agreement renewal chatter expected August (not in window). Near-term neutral on news; trades as a crypto-beta proxy \u2014 crypto tape matters more than COIN-specific news. Supports the short lean.",
+    "analyst": "The 4h/structure lean is genuinely short and best-aligned in the basket, but timing is wrong: price sits exactly on VWAP with 5m RSI 29 and stoch 10 (oversold), so a routine relief bounce would stop any honest short first (the account's signature loss). Support 152.9 is 3.5xATR away; a proper R:R short needs a higher entry (bounce into 158.6-159.4) or a confirmed break of the 156.9 base. Thin pre-open book reinforces patience.",
+    "portfolio": "HOLD COIN \u2014 best short thesis in the basket but oversold at VWAP; wait for a bounce-to-reject or a 156.9 break."
+  },
+  "timestamp": "2026-07-20T09:17:20.856589+00:00"
+}

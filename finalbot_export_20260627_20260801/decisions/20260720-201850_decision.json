@@ -1,0 +1,28 @@
+{
+  "action": "short",
+  "symbol": "CRCL/USDT:USDT",
+  "size": 3.0,
+  "entry": 65.95,
+  "stop_loss": 67.55,
+  "take_profit": 62.6,
+  "take_profit_1": 63.6,
+  "take_profit_2": 62.6,
+  "confidence": 0.6,
+  "playbook": "range",
+  "forecast": "Weak bounce from 64.55 is stalling under 65.7; expect a retest of 65.9-66.2 (broken micro-support/VWAP-anchor resistance) to get sold, then rollover toward 63.6 and the deeper VWAP zone ~62.6 within 4-8 bars as the RSI-82 blow-off unwinds.",
+  "expectancy_note": "p(win)~0.6, R:R ~1.5 to tp1 (risk 1.60 vs 2.35 reward); fade beats chase \u2014 price is 4.45% above VWAP with %B>1, crowded L/S 2.02 = fuel for a mean-reversion down, not a fresh long.",
+  "rationale": "CRCL printed a blow-off to 67.03 (RSI 82, bb_pctb 1.095, +4.45% vs VWAP) and has already rolled ~2.4% off the high; the last five 15m bars are a fading bounce stalling under 65.7. I sell the retest of 65.9-66.2 rather than market at 65.43 (mid-range, no edge, avoids chasing), stop just above the blow-off high (67.55, ~1xATR), targeting the VWAP reversion at 63.6 then 62.6. Crowded 2.02 long ratio and RISK-OFF macro back the fade; size kept moderate at 3% given headline-whippy name and no <=48h catalyst.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 67.35,
+    "expires_min": 240,
+    "note": "reclaiming the 67 blow-off high on volume invalidates the exhaustion fade \u2014 momentum still in control"
+  },
+  "transcript": {
+    "macro": "2026-07-20 RISK-OFF/DEFENSIVE. Funding ~0; crowded-long board = contrarian-short tilt. CRCL line: avoid longs (blow-off, RSI 82, bb_pctb>1, vwap +4.5%, crowded L/S 2.02). Only a fade/short candidate; do NOT chase.",
+    "sentiment": "CRCL (Circle): no earnings until Aug 18 \u2014 but that same date the Coinbase revenue-share deal expires (existential overhang). New threat: 'Open USD' consortium stablecoin (Jun 30, 140+ firms incl. Coinbase). Analysts split (Mizuho Underperform $50; Goldman $96; range $55-243; Cathie Wood buying). Bearish structural lean, headline-whippy, no clean <=48h catalyst.",
+    "analyst": "Blow-off to 67.03 (RSI 82, %B 1.095, +4.45% VWAP) already rolled ~2.4% off high; last five 15m bars a fading bounce stalling under 65.7. Sell the retest of 65.9-66.2 (not market at 65.43 mid-range), stop 67.55 above the blow-off high, tp1 63.6 / tp2 62.6 (VWAP reversion) = R:R ~1.5. Crowded L/S 2.02 + risk-off back the fade. Size 3%, headline-whippy.",
+    "portfolio": "SHORT CRCL fade \u2014 limit 65.95 on the bounce, conf 0.60, blow-off unwind toward VWAP."
+  },
+  "timestamp": "2026-07-20T20:18:50.758841+00:00"
+}

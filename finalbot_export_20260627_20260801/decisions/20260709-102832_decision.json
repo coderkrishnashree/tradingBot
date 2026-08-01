@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "ORCL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price is mid-range (137.6 support / 150.2 resistance) after repeated 143.5 rejections; last 15m bar broke down closing on its low. Expect chop 141.8-143.5 near VWAP over next 2-6 bars; a decisive loss of 137.6 opens a clean momentum short toward 134, while a reclaim of 143.7 revives the crowded-long bounce.",
+  "expectancy_note": "Short here: entry 142.6, honest stop ~145.4 (2.8 risk) vs first support 140 (2.6 reward) = R:R <1.0 \u2014 fails the 1.5 gate. Long fights L/S 2.20 + positive funding + -22% RS + AI-capex rotation. No-trade beats both.",
+  "rationale": "ORCL is the most crowded long (L/S 2.20, only positive funding, structure_bias -0.462) and steepest laggard (-22% RS) in an AI-capex group sold Jul 8, into a hostile-for-longs open. The scan's long signal fights a broken chart, so no long. But at 142.61 price is mid-range and only +0.26% from VWAP with RSI 47.9 \u2014 not extended, so a short has no honest R:R (stop-to-first-support < 1.5). Wait for the range to resolve; size 0.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 137.63,
+    "expires_min": 240,
+    "note": "Losing the 137.63 range floor confirms the breakdown and gives a momentum short room toward 134 with real R:R, aligning with the bearish structure/crowding."
+  },
+  "transcript": {
+    "macro": "Regime MIXED tilting HOSTILE for fresh longs into July 9 US open. 10Y ~4.58% (4wk high). AI hyperscalers/software sold Jul 8 \u2014 weaker sub-group. ORCL: last 142.61, most crowded (L/S 2.20, only positive funding 0.00037, structure_bias -0.462), rel-strength -22.06% (steep laggard). In AI-capex crosshairs; elevated squeeze risk.",
+    "sentiment": "ORCL is the WEAKEST name, story negative: down ~25% H1 2026, ~50% off highs. Dire AI-backlog warning ($638B RPO but ~12% converts/12mo, ~$300B OpenAI concentration; $122B debt + $40B raise dilution fear). RS deeply negative. No <=48h binary but tone/flow bearish; any pop suspect.",
+    "analyst": "Broken deeply-lagging chart, most crowded long (L/S 2.20, positive funding), AI-capex rotation, hostile open \u2014 scan's long signal fights all of it, so no long. But at 142.61 price is mid-range, +0.26% from VWAP, RSI 47.9 \u2014 not extended, so short has no honest >=1.5R (stop ~145.4 vs first support 140). No-trade until range resolves; arm short below 137.6.",
+    "portfolio": "ORCL: HOLD (0.60) \u2014 bearish structure but mid-range no-edge; short only below 137.6, no long."
+  },
+  "timestamp": "2026-07-09T10:28:32.657796+00:00"
+}

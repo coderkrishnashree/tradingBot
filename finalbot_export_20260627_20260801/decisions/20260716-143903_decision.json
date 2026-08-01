@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "SOL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.55,
+  "playbook": "none",
+  "forecast": "SOL coils 76.2-76.75 under the local ceiling while BTC tests 65566; likely chops sideways-to-slightly-up until BTC resolves. A clean 15m/1h close above 77.0 opens the run toward 79.6; failure and loss of 75.6 opens 74.0.",
+  "expectancy_note": "p(win) on a market long here ~0.5: unaligned (1h short), BTC-beta echo lagging -3.4%, L/S 2.68 crowded-long into BTC resistance = poor R:R to distant 79.6 vs 74.0 structural stop. Waiting for the 77.0 trigger raises p(win) materially.",
+  "rationale": "The 4h leans long (+0.60, ADX 43, at VWAP not extended) but the tape is a muddy coil: 1h is short, SOL is a crowded-long BTC-beta tag-along (L/S 2.68, structure_bias -0.30) lagging BTC by 3.4%, and BTC is pushing into its own 65566 resistance where crowded SOL longs unwind first. Market-entering an unaligned continuation into resistance is precisely this book's #1 loss pattern; R:R to 79.6 against a 74.0 structural stop is unattractive. Wait for a confirmed break above 77.0 (with BTC clearing 65566).",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 77.0,
+    "expires_min": 240,
+    "note": "A 15m/1h close above 77.0 breaks the local ceiling and confirms BTC-led continuation, flipping the muddy coil into a valid long toward 79.6."
+  },
+  "transcript": {
+    "macro": "Risk-off lean in equities but crypto decoupling slightly up. BTC reclaimed ~$65K (~$64.8K), funding modest, Fear&Greed 26. DXY firm ~100.6, yields up. No FOMC/CPI inside 48h. SOL: btc_corr 0.771 (mostly BTC-beta), rel-strength -3.42% (lagging BTC); funding ~0, L/S 2.68 heavily long-skewed (structure_bias -0.30, contrarian-short risk). Scan flags long (4h +0.60) but not aligned; long works only as a BTC-beta tag-along - if BTC stalls at resistance, crowded SOL longs unwind first.",
+    "sentiment": "Cool June CPI Jul 14 sparked risk-on relief rally; BTC +10% MTD but spot BTC-ETF flows still net-outflow (institutional bid not confirming) - pause-rally not fresh trend leg. SOL net NEUTRAL-to-BULLISH: strong fundamentals (Firedancer v1.0 testnet, Alpenglow Q3, ~7M active addresses, ETF fee cuts) but multi-week narratives, not 48h catalysts. Whole bid hinges on break above $80 (now ~$76.6). Same ETF-outflow drag as BTC.",
+    "analyst": "4h leans long but tape is a muddy coil: 1h short, crowded-long BTC-beta tag-along lagging BTC 3.4%, BTC into its own 65566 resistance where SOL longs unwind first. Market long is negative EV; R:R to 79.6 vs 74.0 stop poor. HOLD and arm a long on a confirmed 77.0 break with BTC clearing 65566.",
+    "portfolio": "SOL: HOLD (0.55) - unaligned crowded-long BTC-echo; armed to long above 77.0 on BTC confirmation."
+  },
+  "timestamp": "2026-07-16T14:39:03.952789+00:00"
+}

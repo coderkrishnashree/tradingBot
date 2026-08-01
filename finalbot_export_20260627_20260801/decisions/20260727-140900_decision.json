@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "BTC/USDT:USDT",
+  "size": 0.0,
+  "entry": 65201,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Failed 15m spike to 65,670 was sold back to 65,200; expect chop 64,900-65,400 into FOMC. A reclaim/hold above 65,700 resumes the 4h uptrend toward 66,900; a flush to 64,800 offers a cleaner dip-buy in the still-intact 4h trend.",
+  "expectancy_note": "No RR>=1.5 at 65.2k: honest stop below 64,800 (~0.6%) vs first structure resistance ~66,000 gives ~1.2R while the last spike already failed. LTFs flat, funding/L-S give no fade edge, FOMC hawkish tail Wed. Waiting beats chasing a rejected spike.",
+  "rationale": "4h is a genuine ADX-72 uptrend but RSI 76 is extended and all sub-1h timeframes are neutral (scores ~0), so there is no LTF momentum to ride now. The most recent 15m bars show a high-volume spike to 65,670 immediately faded back to 65,200 - a bull trap, not a base - so a market long chases into a rejection with FOMC's hawkish tail two days out. No honest 1.5R setup exists at this price; size zero until price picks a side.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 65700,
+    "expires_min": 240,
+    "note": "Reclaiming and holding the failed-spike high proves buyers absorbed the fade and the 4h uptrend is resuming toward 66,900 - flips this to a trend long."
+  },
+  "transcript": {
+    "macro": "Regime MIXED, risk-on into event risk: ceasefire + oil -7% lifted crypto (BTC ~$65.2k +1.1%, dominance ~56.6%). BTC cleanest of the group - mild positive funding, L/S 1.44 (least crowded), 4h uptrend. DOMINANT SHARED RISK: FOMC Wed Jul 29 with a live hawkish/hike tail -> tighten before Wednesday.",
+    "sentiment": "FOMC Jul 28-29 is BTC's main <=48h driver; it behaves as a macro risk asset with no fresh coin-specific catalyst. BTC ETFs on an 8-week outflow streak (~$527M last wk) = slow bleed. Crypto neutral (F&G ~44-53).",
+    "analyst": "BTC 65,201; 4h uptrend RSI 76 / ADX 72 (extended but strong) while 1h/30m/15m are flat (scores ~0). Last 15m bars: high-volume spike to 65,670 immediately faded back to 65,200 = bull trap. Funding/L-S give no fade edge, not extended enough to short. No honest 1.5R at 65.2k into FOMC hawkish tail. HOLD, flip to trend long on reclaim/hold >65,700.",
+    "portfolio": "BTC/USDT:USDT - HOLD (conf 0.50): strong 4h trend but LTFs flat and last spike failed; wait for reclaim >65,700 or dip to 64,800."
+  },
+  "timestamp": "2026-07-27T14:09:00.945596+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "SNDK/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.55,
+  "playbook": "none",
+  "forecast": "Coils 1500-1512 near VWAP; needs a break of 1518 to extend toward 1540+, or loses 1489 and rolls toward 1470. Mid-range now offers no edge.",
+  "expectancy_note": "No pullback to buy and no extreme to fade; market-buying mid-range into RSI 74.8/stoch 86 with orderbook -0.48 sell pressure is negative-expectancy chasing. HOLD beats a coin-flip entry pre-FOMC.",
+  "rationale": "SNDK popped to 1518 then stalled into a tight 1500-1512 coil sitting exactly on VWAP (+0.22%) - no discount to buy and no exhaustion extreme to fade. 4h RSI 74.8/stoch 86 is extended and orderbook imbalance -0.476 shows real sellers stacked against any long, so a market entry is the classic chase-and-get-stopped setup. With FOMC Wed and no <=48h catalyst, the highest-expectancy action is to wait for either a confirmed breakout over the 1518 rejection or a flush to the 1489-1495 support to buy a real pullback.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 1518.5,
+    "expires_min": 240,
+    "note": "A break-and-hold above the 1518 rejection high confirms continuation and flips to a with-trend long."
+  },
+  "transcript": {
+    "macro": "MIXED regime, risk-cautious into a heavy-event week. FOMC Wed Jul 29 + MSFT/META earnings Wed after-close. Crowded longs + RSI extremes broadly -> longs SMALL, tight stops, prefer pullbacks. US equity markets open this week.",
+    "sentiment": "SNDK positive fundamental backdrop but NO <=48h catalyst - earnings are Aug 5 (outside window). Goldman raised PT $1,200->$2,200 (Jul 5) on NAND supply tightness (low weight, long-horizon). Rides the memory/NAND up-cycle with INTC/MU. Lean mildly positive but event >1 week out.",
+    "analyst": "Popped to 1518 then coiled 1500-1512 on VWAP - no discount to buy, no exhaustion to fade. RSI 74.8/stoch 86 extended, orderbook -0.476 sellers stacked, least-crowded long but mixed. HOLD; wait for a >1518 breakout or a 1489-1495 pullback.",
+    "portfolio": "HOLD SNDK (conf 0.55) - mid-range coil; buy a >1518 breakout or a flush to ~1490."
+  },
+  "timestamp": "2026-07-27T10:37:47.625469+00:00"
+}

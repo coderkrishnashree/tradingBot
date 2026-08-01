@@ -1,0 +1,28 @@
+{
+  "symbol": "EWY/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.58,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "none",
+  "forecast": "Overbought pre-open bounce (30m RSI 82, +1.6% vs VWAP, upper BB) is stalling at 166.8; expect chop 165.1-166.3 then a fade. A clean break of the 165.10 intraday shelf opens the retrace toward VWAP ~163.3; failing that it grinds back to 166.8 resistance.",
+  "expectancy_note": "No clean entry: long = chasing an extended overbought bounce into the worst rel-strength/macro headwind in the scan (account's top loss pattern); short lacks a confirmed lower-high and market-order into thin pre-open tape risks a squeeze. Wait for 165.10 break to short with confirmation, ~2:1 R:R.",
+  "rationale": "EWY carries the strongest bearish macro/sentiment case (KOSPI bear market, BOK hike, rel-str -28%), yet price rallied ~3% intraday into 166.8 and is now overbought and extended above VWAP with the last impulse rejected. That is a fade setup, not a long, but there's no confirmed rejection yet and the ETF is thin/gappy before 09:30 ET, so a market short risks the squeeze that kills late entries. Rather trigger the short on a loss of the 165.10 shelf than chase either side blind.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 165.1,
+    "expires_min": 240,
+    "note": "Loss of the intraday shelf proves the overbought bounce has failed and confirms the fade back toward VWAP (~163.3) into the bearish macro tide \u2014 the trigger to short."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF; AI-capex/semi scare; hawkish Fed; pre-cash-open thin/gappy until 09:30 ET. EWY STRONG headwind: KOSPI in freefall (-6.4% Fri, -23% mo, below 7,000 on Samsung/SK Hynix chip rout); BOK started hiking (2.75%). Rel-str -28% (worst in scan). Avoid longs.",
+    "sentiment": "EWY bearish risk: BOK surprise HIKE pushed KOSPI into a bear market; SK Hynix ADRs -13%. Semis-heavy, exposed to US-China chip policy and this week's chip earnings (Intel Wed). Argues against fresh longs.",
+    "analyst": "Despite catastrophic macro, price rallied ~3% intraday into 166.8 and stalled \u2014 overbought (30m RSI 82), extended above VWAP, last impulse rejected. Fade setup but no confirmed lower-high yet and thin pre-open = squeeze risk on a blind short. HOLD; arm short on loss of 165.10 shelf.",
+    "portfolio": "EWY: HOLD (conf 0.58) \u2014 bearish tide but no confirmed fade; arm short below 165.10."
+  },
+  "timestamp": "2026-07-20T12:44:09.968340+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "INTC/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.62,
+  "playbook": "none",
+  "forecast": "Price just spiked vertically to 96.32 on 5x volume, poking above the upper Bollinger (%B 1.12), stoch 96.6, 30m RSI 82, +2.3% above VWAP. Expect the blow-off to stall and mean-revert toward VWAP ~94.2 over the next few bars; but it could also squeeze crowded shorts higher first, so no confirmed edge yet.",
+  "expectancy_note": "Shorting a live vertical spike with no rejection into thin (US-closed) tape + a July 23 earnings binary is negative-EV; waiting for a rejection below 95.0 turns it into a ~1.6R fade toward VWAP/support with far higher p(win).",
+  "rationale": "Longs are dead: RISK-OFF semis bear, INTC -36% rel strength, price extended above the upper band in a chop/regime-blocked composite (conf 1.2). A short is the right direction (crowded long L/S 2.16, exhaustion signals) but the last bar closed near its high with no rejection, and US cash is closed with earnings 3 days out. No clean entry, so I hold and arm the trigger. Size 0.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 95.0,
+    "expires_min": 240,
+    "note": "Losing 95.0 (below the 95.53 breakout base and last bar's body) confirms the blow-off failed and opens a fade toward VWAP ~94.2 then support 89.76."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF/defensive, semis in a bear market. FOMC Jul 28-29 caps upside. Scan 00:07 UTC Monday = US cash CLOSED, gap risk; INTC scan composite very low (~1.2, flat), weak per-TF signals. Intel specifically named down -2% Fri; correlated to the SNDK/MU/TSM cluster. INTC: SHORT bias / avoid longs \u2014 environment hostile to longs.",
+    "sentiment": "INTC has a LIVE <=48h binary: Q2 earnings after close July 23 (~3 days out). Sentiment polarized/volatile \u2014 up ~160% YTD but off ~21% from the June ~$142 peak on foundry-loss concerns and AMD overtaking Intel in data-center revenue for the first time. Extreme PT dispersion. Elevated implied vol and gap risk into/after the 23rd. Any position through Jul 23 is an earnings gamble, direction genuinely two-sided.",
+    "analyst": "Price spiked vertically to 96.32 on 5x volume, above the upper Bollinger (%B 1.12), stoch 96.6, 30m RSI 82, +2.3% above VWAP. Longs dead (risk-off semis bear, RS -36%, chop/regime-blocked). Short is the right direction (crowded long L/S 2.16, exhaustion) but there's no rejection yet \u2014 last bar closed near its high \u2014 and a Jul 23 earnings binary looms with US cash closed. Negative-EV to short a live spike; HOLD, arm short below 95.0.",
+    "portfolio": "HOLD INTC \u2014 right direction is short but no rejection + Jul 23 earnings gamble; trigger armed below 95.0."
+  },
+  "timestamp": "2026-07-20T00:14:55.106644+00:00"
+}

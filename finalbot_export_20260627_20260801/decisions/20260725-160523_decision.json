@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "SNDK/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price has stopped falling and is coiling 1434-1444 on drying volume; over the next several bars it either grinds a relief bounce back toward VWAP (~1560) or loses 1432 and flushes to 1311 support. No clean entry until one side resolves.",
+  "expectancy_note": "Short: p(win) ~0.4 into 4h RSI 22.6 / -8% below VWAP is the account's classic late-short-into-stretched-tape loser (bounce hits any honest stop first); long is a knife-catch with no 48h catalyst. Best expectancy is wait \u2014 thinnest, gappiest weekend token, market closed until Mon.",
+  "rationale": "SNDK is deeply oversold (4h RSI 22.6, %B 0.13, -8.17% from VWAP, >2x ATR extended) with ADX 59.5 confirming a strong but exhausted downtrend, and the last ~5h of 15m candles show the decline has paused into a tight 1434-1444 coil on fading volume \u2014 precisely the setup where a fresh short gets stopped by a reflex bounce. As the least liquid token (OI 11,077), lowest BTC-corr (0.11 = idiosyncratic single-name risk), with a dormant weekend book and equity market closed until Monday, gap/whipsaw risk is highest and structure metrics (orderbook +0.83) are unreliable. No 48h binary in either direction, so I wait for a real level to trade rather than chase the stretched move. Size zero.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 1432.0,
+    "expires_min": 240,
+    "note": "Losing the 1432 coil low breaks the base and confirms trend resumption toward 1311 support \u2014 a clean short trigger rather than chasing mid-air."
+  },
+  "transcript": {
+    "macro": "OVERALL REGIME: RISK-OFF, tech-led \u2014 favors SHORTS on tech tokens; memory/chip epicenter of the selloff. DXY 13-mo high, 10y ~4.5%. CRITICAL: equity tokens CLOSED until Mon 09:30 ET \u2014 thin, gappy, weekend gap risk; funding 0.0 / stale L/S = dormant books, LOW-conviction. SNDK SHORT-supportive but MOST hazardous / smallest size: fell ~11% Jul 24 with memory names on tech-capex fears (Intel -6.5% same session). Token $1,435, deep below vwap (-8.2%). LEAST liquid (OI 11,077, BTC-corr 0.11 = idiosyncratic). L/S 1.22 (less crowded) but orderbook +0.83 = thin-book artifact (discount). 4h RSI 22.6, ADX 59.5, RS -25% vs BTC (worst performer). Highest gap/whipsaw risk \u2014 smallest size of the four.",
+    "sentiment": "SNDK BULLISH underlying trend, but tape reversing HARD; NO 48h binary. Top-performing S&P 500 stock 2026, +707% YTD on NAND supply tightness; Jul 2 BiCS10 1Tb TLC sampling. Analyst PT stampede (Goldman ->$2,200, Bernstein ->$3,000, Wedbush ->$2,000) \u2014 not tradeable 48h catalysts. Earnings NOT until Wed Aug 5 (outside window). DIVERGENCE: despite bullish narrative, scan shows SNDK selling off hard (4h RSI 22.6, ADX 59.5, vwap_dist -8%), consistent with semis/memory pullback. Near-term tape bearish/pullback within a strong uptrend \u2014 parabolic name unwinding, no fresh catalyst in 48h. Read: neutral-to-bearish for a 48h trade, bullish structurally; short fights a monster uptrend + PT tailwinds, long is a knife-catch pre-Aug 5.",
+    "analyst": "last 1435.74; 4h RSI 22.6, ADX 59.5, vwap_dist -8.17% (>2x ATR extended), %B 0.13, atr_pct 3.67%. 15m basing sideways 1434-1444 for ~5h, bounced intraday to 1447.72, higher-low vs 1432.25 low, volume drying \u2014 fall paused, not breaking down. Shorting into RSI 22 on the most illiquid/gappiest weekend token = negative expectancy (account's late-short loss pattern). Long = knife-catch pre-Aug 5. HOLD until base breaks (resume short) or mean-reverts to VWAP (better short entry).",
+    "portfolio": "HOLD SNDK/USDT:USDT \u2014 thinnest/gappiest name, oversold pullback in an uptrend; short only if 1432 base breaks."
+  },
+  "timestamp": "2026-07-25T16:05:23.554339+00:00"
+}

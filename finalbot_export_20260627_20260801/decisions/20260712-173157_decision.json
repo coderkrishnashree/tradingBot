@@ -1,0 +1,26 @@
+{
+  "symbol": "TSM/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.5,
+  "size": 0.0,
+  "entry": 437.83,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "forecast": "Frozen off-hours tape: price oscillates 437.4-438.4 near VWAP into Monday open; no directional move until US cash reopens. Real move only on a break of 425.7 support (rout resumes) or a gap.",
+  "expectancy_note": "No edge: 4h is the only short signal (macro rout already priced), all fast TFs flat, price dead-center at VWAP on ~0 volume. R:R on a static short into a stale mark + Monday-gap is negative EV; HOLD is highest expectancy.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 425.72,
+    "expires_min": 240,
+    "note": "Losing 4h support on live Monday volume confirms the semis rout resuming intraday and validates a short with real R:R \u2014 re-debate immediately (still flatten before Jul 16 earnings)."
+  },
+  "rationale": "Only the 4h reads short (semis rout); 15m/30m/1h/5m are all FLAT, price sits at VWAP (-0.06%), bb %B 0.458 mid-band, RSI 48, on near-zero off-hours volume with stale Friday marks. Orderbook -0.56 is meaningful on a live book but noise on this dead one. Shorting a frozen tape means holding a static position blind into Monday-gap risk with Q2 earnings Thu Jul 16 \u2014 any short here is short-fuse only and must NOT be held into the print. No concrete next-candle move, so no position; wait for real flow to break the range.",
+  "transcript": {
+    "macro": "MIXED-to-HOSTILE, TSM is the EPICENTER of the chip rout (Samsung miss, Kospi circuit breaker, SOX -5%). Sunday US-equity CLOSED, thin/stale/gappy. Orderbook -0.56 supports shorts, L/S 1.80, RS -6.6% vs BTC. Directionally sane short but thin/gap risk \u2014 size down.",
+    "sentiment": "Market: June CPI Tues Jul 14 (hot=hike risk), Warsh testifies. TSM: CAUTION \u2014 Q2 earnings Thu Jul 16 (just outside 48h but close). Guidance strong (rev $39-40.2B, +30% FY, robust AI demand), stock +40% last quarter. Do NOT hold a short naked into the print; flatten/reassess before Jul 16.",
+    "analyst": "Only 4h reads short (rout already priced); all fast TFs flat, price dead-center at VWAP on ~0 volume, stale marks. Orderbook -0.56 is noise on a dead book. Static short into Monday-gap + Jul 16 earnings = negative EV and short-fuse only. Stand aside; short a real break below 425.72 support on live volume, flatten before the print.",
+    "portfolio": "TSM: HOLD \u2014 frozen off-hours tape, no edge; reconsider short below 425.72, never hold into Jul 16 earnings."
+  },
+  "timestamp": "2026-07-12T17:31:57.835650+00:00"
+}

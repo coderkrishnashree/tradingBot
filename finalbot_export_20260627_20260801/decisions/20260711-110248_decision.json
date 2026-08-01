@@ -1,0 +1,26 @@
+{
+  "symbol": "MU/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.55,
+  "size": 0.0,
+  "entry": 987.22,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "forecast": "Price coils 985-988 under the 990.5 local high on drying weekend volume; choppy drift into Mon open, then direction set by the equity gap. Break >990.5 opens 996-1000; loss of 984 exposes 978.",
+  "expectancy_note": "No clean 1.5R: honest structural stop (~978) is far while nearest upside is only ~995-1000 (sub-1:1); a tight stop gets ghost-wicked on thin Saturday liquidity.",
+  "rationale": "MU has the best fundamental backdrop in the set (memory supercycle, HBM sold out, composite 71.6% long, 15m-1h aligned) and coils constructively under 990.5, not stretched (RSI 61, stoch 51, VWAP +2.8%). But US equities are CLOSED (Saturday) so the perp is thin/gappy/detached until Mon, structure is crowded-long (bias -0.205), rel-strength lags BTC -13.9%, and Tue Jul 14 CPI + bank earnings is a heavy binary. No clean 1.5R at 987 without a weekend-wickable stop, so wait for a confirmed breakout.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 990.6,
+    "expires_min": 240,
+    "note": "Decisive break of the 990.5 local high with follow-through confirms continuation off the coil and opens 996-1000 \u2014 that is the long trigger."
+  },
+  "transcript": {
+    "macro": "2026-07-11 Sat, US cash CLOSED. Regime moderately risk-on but late-cycle/stretched; mega-cap tech leadership; Fed hawkish (no cut until 2027). Weekend perps thin/gappy/detached, gap risk into Mon open. EVENT: Tue Jul 14 8:30ET June CPI + JPM/GS bank earnings = heavy vol. Sector: AI/memory semis leadership; SK Hynix $26.5B IPO +12.8% Jul 10 tailwinds MU. Size down.",
+    "sentiment": "Risk-on but stretched into Jul 14 CPI binary (futures 61% odds Sept HIKE). MU: constructive; Q3 FY26 beat already reported late June (rev $41.5B, guided ~$50B, HBM sold out through 2027); no <=48h catalyst; slightly long-supportive but news-neutral for 24-48h.",
+    "analyst": "Best fundamental backdrop in group but wrong time (weekend gap + Tue CPI binary) and no clean R:R at current price. Coiling under 990.5 with higher-lows on drying volume; not stretched. Long entry offers sub-1:1 with an honest stop; tight stop gets ghost-wicked. HOLD; long trigger is a decisive reclaim/break above 990.5 with follow-through.",
+    "portfolio": "HOLD MU \u2014 best fundamentals in the set but no clean R:R on a detached weekend tape; armed long trigger above 990.5."
+  },
+  "timestamp": "2026-07-11T11:02:48.759779+00:00"
+}

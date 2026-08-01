@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "INTC/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Coiling on 94.4-94.6 with dried-up volume after the flush to 94.31; most likely a mean-reversion bounce toward 95.8-96.2 (VWAP magnet) over the next 2-6 bars, then chop into the earnings vol build. No clean edge either way from 94.44.",
+  "expectancy_note": "Short at 94.44 is a chase: RSI 33.9, %B 0.24, -4.1% vs VWAP, crowded 2.13 longs and earnings squeeze risk = high odds a bounce stops any honest ~3pt stop before support 89.76. Long is knife-catch vs ADX 58.9 downtrend, no reclaim yet. Learner p_win 0.309 (worst in set) confirms this profile bleeds. HOLD > both.",
+  "rationale": "INTC is ground-zero of the semi rout but already stretched intraday (RSI 33.9, stoch 30.4, -4.1% vs VWAP, ATR 3.28%) and the last ~9 bars have flattened into a low-volume base above 94.4 \u2014 selling is exhausting, not accelerating, so shorting here risks the classic late-entry stop-out on a counter-bounce. No reversal trigger exists to justify a long into an ADX-58.9 downtrend with RS -32%. Neither side clears R:R 1.5 with an honest stop from mid-air, so the highest-expectancy play is to wait for either a bounce into 96 (better short entry near VWAP) or a loss of 93.5 (breakdown continuation). Q2 earnings Jul 23 sits outside the 48h window but is building vol \u2014 another reason not to force size now.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 93.5,
+    "expires_min": 240,
+    "note": "Losing 93.5 breaks the intraday base and confirms fresh downside momentum toward support 89.76 \u2014 a with-trend short entry rather than a chase into stalled selling."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF, tech/semis-led selloff. INTC ground-zero: -21% over 7 days, ~-14% on week, ~$79B wiped ahead of earnings. Drivers structural/negative \u2014 18A yields unprofitable until late-2026/2027, AMD overtook Intel in data-center rev, BofA 'AI bubble' note, weak Samsung print. Scan: last 94.44, RS -32.19% (weakest in set), 4h RSI 33.9, ADX 58.9, vwap_dist -4.1%, structure_bias -0.346, long_short 2.131 (pinned max long). OVERSOLD so chase-shorts risk mean-reversion bounce. HARD CATALYST: Q2 earnings Jul 23 after close (outside 48h but dominant, vol building). Funding flat.",
+    "sentiment": "INTC BEARISH near-term but HIGH-RISK due to imminent binary. Closed ~$96.98 (-5.8%) Jul 16. Longer-horizon positives (yields ~85%, Nvidia/OpenAI foundry clients, PT raises HSBC $200/KeyBanc $155/Susquehanna $115) are multi-quarter, not 48h drivers. Q2 earnings Jul 23 (~6 days), razor-thin ~$0.06 EPS on ~$14.4B, live gap risk. Within 48h downtrend supports SHORT, but crowded 2.13 L/S + pre-earnings vol = squeeze risk.",
+    "analyst": "Price already stretched (-4.1% vs VWAP, RSI 33.9) and flattening into a low-volume base above 94.4 \u2014 selling exhausting, shorting here = late-entry chase. No reclaim to justify a long into ADX-58.9 downtrend, RS -32%. Neither side clears R:R 1.5 from mid-air. Learner p_win 0.309 worst in set. HOLD; arm short trigger on loss of 93.5.",
+    "portfolio": "HOLD INTC/USDT:USDT \u2014 conf 0.60, no trade; reconsider short on loss of 93.5."
+  },
+  "timestamp": "2026-07-17T22:05:45.660295+00:00"
+}

@@ -1,0 +1,24 @@
+{
+  "symbol": "CRCL/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.28,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "rationale": "Tokenized equity on a Saturday with US cash closed (thin, gappy Monday risk); treat crypto structure as noise except the crowded 2.8x long/short which cautions against a fresh long. Signal is muddled: composite long but only 23% confidence and NOT aligned, with 1h short fighting 4h long, price dead mid-range at VWAP with no extreme to fade and no squeeze to break. Huge 3.43% ATR vs far-away structure (res 73.7 / sup 61.8, ~9% away) kills R:R, and rel-strength -17.8% shows it's the laggard. Zero size \u2014 sit out until the coil resolves.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 67.9,
+    "expires_min": 240,
+    "note": "Reclaiming 67.9 on real volume breaks the coil top and opens the path toward 70+, turning the muddled 4h-long bias into a tradable continuation long."
+  },
+  "transcript": {
+    "macro": "REGIME: MIXED/risk-off tilt; hawkish, 61% Sept Fed HIKE odds. Saturday = tokenized stocks thin/gappy. CRCL avoid/no edge: whipsawed a huge $65-73.7 range Friday; ATR 3.4%, L/S 2.80 crowded long (structure_bias -0.29), P/E negative, closed cash market. Too gappy this weekend.",
+    "sentiment": "CRCL (~$67): volatile, mixed. Bullish: USDC volume hit ATH $1.21T in June, passing Tether; Nomura/Japan FX-settlement deal. Bearish overhang: Stripe's rival 'Open USD' stablecoin (Compass Point cut PT to $55). Watch: Coinbase-Circle USDC renewal expected August \u2014 outside 48h. No <=48h binary; tone choppy/headline-driven, net neutral.",
+    "analyst": "No-trade: 15m slow low-volume drift, coiling ~67 near VWAP with fading volume. Per-TF conflict (1h short vs 4h long), only 23% composite confidence, NOT aligned. 3.43% ATR forces a >$2 stop but nearest structure is ~9% away, so R:R << 1.5. HOLD; arm reclaim of 67.9 on volume for a continuation long.",
+    "portfolio": "CRCL: HOLD (0.28) \u2014 muddled signal, huge ATR, laggard; no edge this weekend."
+  },
+  "timestamp": "2026-07-11T06:31:31.831972+00:00"
+}

@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "AAPL/USDT:USDT",
+  "confidence": 0.55,
+  "size": 0.0,
+  "entry": 316.66,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "forecast": "Price grinding sideways-to-down in a 316.0-317.4 coil at VWAP; expect continued chop/slow bleed toward 315 unless buyers reclaim 317.5. No clean bounce trigger yet.",
+  "expectancy_note": "p(win) ~0.45 on a long here; entry at VWAP with fading 15m/30m and CPI in <24h gives no tight-stop edge. HOLD beats a chase into a binary; learner shows longs -1.87 and trend playbook -2.51.",
+  "rationale": "Higher-TF bull case (4h +0.88, 1h +0.54, rel-strength +8.5%, low chip beta) is real, but the immediate 15m/30m tape is fading and price sits exactly on VWAP with a tight BB coil (width 1.23%) - no pullback-and-bounce, just a slow down-grind. Broad RISK-OFF, closed/thin cash market, and core CPI July 14 inside the window make a market long a coin-flip with no honest tight stop. Wait for either a 317.5 reclaim (fade over, trend resumes) or a flush to 314.5 support to buy the dip cleanly; size 0 until then.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 317.5,
+    "expires_min": 240,
+    "note": "Reclaiming 317.5 proves the 15m/30m fade is done and re-arms the higher-TF long toward 320-323 resistance."
+  },
+  "transcript": {
+    "macro": "Broad regime RISK-OFF (US-Iran escalation, WTI +4%, tech selling off). Rates hawkish, Fed held 3.50-3.75%, ~62% odds of Sept HIKE; core CPI July 14 inside hold window. All four cash markets CLOSED (off-hours, thin/gappy - size down). AAPL: LEAN LONG but weak conviction. Rel outperformer (+8.54% vs BTC), 4h/1h up, least crowded (L/S 0.958, OB +0.109, structure_bias +0.045). Lowest semi/tech beta (AAPL-QQQ corr 0.17) - dodges chip carnage. Best LONG candidate of the four but risk-off + CPI cap it to small size; 15m/5m already flat/fading.",
+    "sentiment": "AAPL MIXED, no 48h catalyst; margin overhang building. Q3 earnings July 30 after close (OUTSIDE window). Live theme: DRAM cost spike (iPhone 18 Pro memory +272%) pressuring 46.5-47.5% GM guide; Apple qualifying China's CXMT for leverage. Near-ATH; JPM PT $345. Slightly negative fundamental drift on margins, but nothing to move price in 24-48h.",
+    "analyst": "Higher-TF bull case real but immediate tape fading, not pulling back-and-bouncing. Price at VWAP with fading 15m/30m; no clean tight-stop long trigger. A long needs reclaim of ~317.5 or a flush to ~314-315 to buy the dip. Neither present. HOLD; reconsider arms the timely entry at 317.5.",
+    "portfolio": "AAPL: HOLD (conf 0.55) - best long candidate but immediate tape fading at VWAP; wait for 317.5 reclaim."
+  },
+  "timestamp": "2026-07-13T19:33:12.044952+00:00"
+}

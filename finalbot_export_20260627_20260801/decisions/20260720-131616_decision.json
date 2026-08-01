@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "SNDK/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Rollover from 1427 into a bounce: I expect a relief pop back toward the broken 1418-1427 shelf over the next 2-4 bars; that lower-high retest is the short entry, not this stretched flush (5m RSI 33.6). If it instead reclaims 1427 and holds, the parabola resumes and the short is dead.",
+  "expectancy_note": "p(win) on a market-short here ~0.4 (already extended down, gap risk in 20min); waiting for the 1420 retest lifts it toward 0.6 with a clean stop over 1427 and R:R ~2 to 1370 - better than chasing.",
+  "rationale": "SNDK is the ugliest positioning in the set (extreme +0.032% funding, bearish 4h divergence, worst relative strength -48%) rolling over from a 1427 high in a risk-off, pre-US-open thin tape with gap risk at 13:30 UTC. The bias is short, but 5m RSI 33.6 means the immediate down-leg is already stretched and the honest stop (~1.5xATR = 37pts) would sit mid-air with no nearby structure - market-shorting now is the exact late-short-into-flush pattern that gets stopped by the bounce. I want the relief pop into 1418-1427 to short the lower-high; until then, no trade. Size 0.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 1420,
+    "expires_min": 180,
+    "note": "A bounce into 1418-1427 is the broken-shelf retest where I short the lower-high with a stop over 1427; reclaiming and holding above 1427 instead kills the short."
+  },
+  "transcript": {
+    "macro": "Cycle 2026-07-20 (scan 13:08 UTC). Regime RISK-OFF leaning; session is PRE-US-OPEN so tokenized-equity perps (EWY/HOOD/COIN/TSLA/NVDA/QQQ/CRCL/SNDK/GOOGL) are thin/gappy and re-rate ~13:30 UTC (gap risk). Equity tape soft, semiconductor-led sell-off on AI-capex worries (TSMC capex guide up); rates offer no tailwind (~60% odds higher by Oct); FOMC July 28-29 is OUTSIDE the 48h window. Crypto heavy: BTC ~$62-64k after failing low-$70k, record June ETF outflows (-$4.5B), dominance ~56-60% so alts bleed vs BTC (caps SOL, corr 0.81). Precious metals the one independent bid (silver ~$56.9 +1.5%). DOMINANT POSITIONING THEME = CROWDED LONGS: negative structure_bias almost everywhere, lopsided long/short ratios (XAG 3.99, SOL 2.70, CRCL 2.17), and the WHOLE basket lags BTC (all relative_strength negative, -1% to -48%). Argues for smaller size on high-beta longs and elevated long-squeeze risk. COIN is the least-crowded (L/S 0.80, net-short crowd); QQQ the only positive structure_bias (+0.15, orderbook bid, but likely pre-open thinness).",
+    "sentiment": "Hot earnings week. Soft June CPI (July 14, coolest since Apr 2020) broadly risk-supportive; FOMC July 28-29 is outside the 48h window. IMMINENT <=48h BINARIES: TSLA Q2 earnings Wed July 22 after close (~7-8% implied swing; Q2 deliveries ~480K record already spent, call is about margins/guidance) and GOOGL/Alphabet Wed July 22 4:30pm ET (consensus ~$2.86 EPS/$116.5B rev, focus AI capex $175B + Cloud) - both spill into QQQ. EWY = LIVE BEARISH MACRO SHOCK: Bank of Korea surprise +25bp hike to 2.75% (July 16, first in 3.5yrs) + KOSPI crash (-6.4% July 16, -4.5% today) on AI/chip rout (Samsung -4.7%, SK Hynix -4.5%). HOOD (Jul 29), COIN (Jul 30), SNDK (Aug 5), CRCL (~Aug 10) earnings all OUTSIDE this cycle. NVDA bullish headline flow (US resumed H20/H200 China licenses, ~$200B CPU/Vera TAM) but no 48h binary; reports late Aug. SOL constructive medium-term (5 spot ETFs live >$1.12B inflows, Firedancer v1.0 testnet) but crypto-beta with no dated catalyst. XAG structural supply deficit (6th straight annual), two-sided, macro-flow-dependent. CRCL got a Mizuho DOWNGRADE to Underperform, PT cut to $50 from $85 (July 17), competitive overhang from Visa/Stripe.",
+    "analyst": "SNDK is the ugliest positioning in the set (extreme +0.032% funding, bearish 4h divergence, worst relative strength -48%) rolling over from a 1427 high in a risk-off, pre-US-open thin tape with gap risk at 13:30 UTC. The bias is short, but 5m RSI 33.6 means the immediate down-leg is already stretched and the honest stop (~1.5xATR = 37pts) would sit mid-air with no nearby structure - market-shorting now is the exact late-short-into-flush pattern that gets stopped by the bounce. I want the relief pop into 1418-1427 to short the lower-high; until then, no trade. Size 0.",
+    "portfolio": "HOLD - ugliest positioning (extreme funding, bearish divergence, RS -48%) but flush already stretched; want the 1420 retest to short."
+  },
+  "timestamp": "2026-07-20T13:16:16.254927+00:00"
+}

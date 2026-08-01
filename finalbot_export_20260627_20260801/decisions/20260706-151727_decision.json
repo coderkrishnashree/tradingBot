@@ -1,0 +1,25 @@
+{
+  "action": "hold",
+  "symbol": "MSFT/USDT:USDT",
+  "size": 0.0,
+  "entry": 386.48,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "expectancy_note": "Short p(win)~0.4: chasing RSI27/%B-0.18 into support 367.7 is negative-expectancy; long has no reversal confirmation vs ADX45 downtrend. HOLD beats both.",
+  "rationale": "MSFT is an equity (market open, BTC corr 0.31 \u2014 crypto structure irrelevant). Composite reads short on ADX 45.5 with 15m/30m/1h aligned down, but price is already BELOW the lower Bollinger band (%B -0.18), RSI 27, only ~5% above support 367.68, and 5m is already turning up (RSI 67.7) \u2014 shorting here chases an extended move into support with poor R:R. A bounce-long lacks confirmation against a strong downtrend and macro caps on high-multiple names. No edge either way at 386; wait for a level.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 394.19,
+    "expires_min": 240,
+    "note": "Reclaiming resistance 394.19 breaks the intraday downtrend and flips the bias long; a rejection there is the clean short entry instead of chasing at 386."
+  },
+  "transcript": {
+    "macro": "Regime risk-ON, tech-selective. Dow record, S&P +0.6%/Nasdaq +1.2% intraday 7/6; chip leadership. Market OPEN. Rates/USD mild headwind \u2014 DXY ~100, sticky CPI 4.2%, higher-for-longer caps high-multiple names; next CPI is the event, nothing inside 24h. Derivatives: all targets crowded LONG (L/S 1.7-1.9) + negative structure_bias \u2014 contrarian caution for fresh longs, tailwind for shorts. Low BTC corr. MSFT (386.5): oversold (RSI 27, structure_bias -0.32), scan reads SHORT; bounce risk into support 367.7.",
+    "sentiment": "Overall cautiously risk-on; AI/chip slump reversing. Overhang: weak June NFP (57k vs 115k) growth scare keeps rate-cut odds & headline risk live. No FOMC/CPI inside 48h. MSFT: neutral-to-constructive, NO <=48h catalyst; earnings ~July 28-31 so current pullback is technical/sector, not news; OpenAI restructured deal + antitrust are slow-burn. Near-term news NEUTRAL.",
+    "analyst": "MSFT is an equity (market open, BTC corr 0.31 \u2014 crypto structure irrelevant). Composite reads short on ADX 45.5 with 15m/30m/1h aligned down, but price is already BELOW the lower Bollinger band (%B -0.18), RSI 27, only ~5% above support 367.68, and 5m is already turning up (RSI 67.7) \u2014 shorting here chases an extended move into support with poor R:R. A bounce-long lacks confirmation against a strong downtrend and macro caps on high-multiple names. No edge either way at 386; wait for a level (reclaim 394.19 = long/short-rejection setup).",
+    "portfolio": "HOLD MSFT \u2014 extended into support, no edge either side at 386; wait for a level."
+  },
+  "timestamp": "2026-07-06T15:17:27.857787+00:00"
+}

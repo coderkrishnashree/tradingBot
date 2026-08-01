@@ -1,0 +1,26 @@
+{
+  "symbol": "EWY/USDT:USDT",
+  "action": "hold",
+  "size": 0.0,
+  "entry": 182.07,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.32,
+  "playbook": "none",
+  "forecast": "Thin Sunday synthetic marks; price bounced off 181.52 to 182.07 near lower BB (%B 0.115). Expect drift/chop 181.5-183 into Monday, then a GAP at the US cash open (CPI 7/14 + Samsung/SK Hynix semi tape) that resolves direction \u2014 unknowable from off-hours prints.",
+  "expectancy_note": "No positive-expectancy entry: market-short at %B 0.11 / stoch 24.9 is chasing a stretched move, and a two-way Monday gap can jump any honest ~1xATR stop either direction. Best EV is flat.",
+  "rationale": "EWY is a closed-cash-market equity token on Sunday \u2014 near-zero real volume, gappy synthetic marks. Composite leans short (-0.315, ADX 27.6, rel strength -10.87%) but price sits at the lower Bollinger band with LTF RSI already 29 and the last bar bouncing, so shorting now fades into likely mean-reversion while carrying unquantifiable Monday gap risk ahead of CPI 7/14. Holding flat is the highest-expectancy choice; size 0.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 181.5,
+    "expires_min": 240,
+    "note": "Losing the 181.5 recent-low shelf on real Monday liquidity confirms continuation of the down leg rather than a stretched-Sunday fade \u2014 re-debate a trend short then."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF / hawkish Fed. June CPI Tue 2026-07-14 + Warsh testimony this week. IMPORTANT: Sunday 2026-07-12, US cash market CLOSED \u2014 thin/gappy synthetic marks (candles printing 0.0 volume), Monday-open GAP RISK dominates. EWY NEUTRAL-to-SHORT, size down HARD: last ~182, composite -0.32, chip roller coaster (KOSPI -5.35% then +0.62%), Samsung+SK Hynix ~60% KOSPI cap, heavy foreign outflows, -10.9% rel strength.",
+    "sentiment": "EWY neutral, thin/gappy (treat as equity, closed today). Korea ETF dominated by Samsung + SK Hynix -> trades as AI/semi + Fed-cut proxy; supported by rate-cut hopes + semi momentum but vulnerable to semi shocks (June Broadcom miss hit KOSPI). No Korea-specific <=48h catalyst; US CPI 7/14 + any Monday semi move drives it. Off-hours ~$182 can GAP at Monday US open \u2014 thin liquidity, don't trust off-hours fills.",
+    "analyst": "Closed-cash-market equity token on Sunday \u2014 near-zero real volume, gappy synthetic marks. Composite leans short (-0.315, ADX 27.6, rel strength -10.87%) but price sits at the lower Bollinger band (%B 0.115) with LTF RSI ~29 and the last bar bouncing off 181.52, so a market short fades into likely mean-reversion while carrying unquantifiable Monday gap risk ahead of CPI 7/14. HOLD flat, size 0; reconsider armed at price_below 181.5 on real Monday liquidity.",
+    "portfolio": "EWY: HOLD (conf 0.32) \u2014 flat is highest EV; closed-market gap risk + stretched LTF, revisit on a Monday break of 181.5."
+  },
+  "timestamp": "2026-07-12T23:33:20.661737+00:00"
+}

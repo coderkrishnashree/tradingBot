@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "SOL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price is coiling just under 79.01 resistance after a stalled push (lower highs 78.55->78.48->78.36); expect chop between 77.7 and 79.0 near-term, with a probe of 79.01 that either breaks out or gets rejected back toward 77.7 VWAP support within 2-4 bars.",
+  "expectancy_note": "No honest R:R now: nearest TP 79.01 is ~0.6 away vs a valid stop below 77.7 (~0.7) = sub-1:1. Long-chase into RSI74/%B0.81 under resistance is the account's #1 loss pattern; short fights the multi-TF uptrend and the winning long bias (learner longs 0.71 win). Wait for the trigger.",
+  "rationale": "SOL is a multi-TF long (ADX 48) but stretched (RSI 74, %B 0.81, VWAP +1.69%) and pinned under 79.01, lagging BTC (rel-str -9.9%) with the most lopsided-long book in the scan (L/S 2.49, structure_bias -0.31) - model weights punish exactly this crowding/weak-RS combo. Entering long here means buying the top of the move before a likely pullback; there is no level to lean on for a clean 1.5R. Best expectancy is to wait: buy a dip into 77.0-77.3 VWAP support or a confirmed reclaim of 79.01, not chase the stall.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 79.01,
+    "expires_min": 240,
+    "note": "A 15m close back above 79.01 resistance confirms the breakout and turns this into a valid trend-continuation long into open air toward the next level."
+  },
+  "transcript": {
+    "macro": "Regime risk-on but late-stage; chip-led rebound, hawkish Fed (~60% Oct hike), BTC +13% July. SOL lean: NEUTRAL, mild supportive - best crypto-beta of the bounce (BTC corr 0.77), highest learned p_win (0.65), multi-TF long, funding ~0. Caution: L/S 2.49 most lopsided-long in book (structure_bias -0.31, contrarian), RSI 74 stretched, lagging BTC. Modest size, tight management.",
+    "sentiment": "SOL neutral-to-mildly-bullish, no <=48h binary. Trades 24/7. Above the $80 pivot. Supportive backdrop: Alpenglow upgrade (Q3, not imminent), ETF inflows, SOL capturing tokenized-equity volume. No dated catalyst inside 48h - technicals-and-flow trade.",
+    "analyst": "Multi-TF long (ADX 48) but stretched (RSI 74, %B 0.81) and pinned under 79.01, lagging BTC, most lopsided-long book (L/S 2.49). Chasing long = buying the top; no level for a clean 1.5R. Short fights the trend and winning long bias. HOLD; buy a dip to 77.0-77.3 or a confirmed reclaim of 79.01.",
+    "portfolio": "HOLD SOL - trend-long tape but stretched under resistance and maximally crowded-long; wait for a dip or a clean breakout."
+  },
+  "timestamp": "2026-07-22T02:01:01.812273+00:00"
+}

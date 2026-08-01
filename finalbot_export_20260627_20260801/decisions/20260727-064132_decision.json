@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "SOL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.62,
+  "playbook": "none",
+  "forecast": "SOL stalls in 76.2-76.9 after the 76.95 volume spike faded; expect chop/mild fade toward 75.0-75.5 (VWAP) over the next few bars, with FOMC capping any fresh trend impulse. No clean entry until a VWAP pullback (re-long) or a break below 76.2 that opens the 73.4 support test (short).",
+  "expectancy_note": "No positive-EV entry: long = chasing +2.18% over VWAP, RSI78/stoch87/%B0.95 into crowded L/S 2.75 and FOMC binary; short = fading ADX81 uptrend with resistance 2.9% away and no rejection. Both negative-EV here; wait.",
+  "rationale": "SOL is pure BTC beta (corr 0.855) lagging BTC (rel-strength -8.99), extended above VWAP with 4h RSI 78, stoch 87, %B 0.95 \u2014 a stretched, crowded-long book (L/S 2.75, structure_bias -0.34) into a binary FOMC in <48h. Buying here chases the top; shorting a strong uptrend (ADX 81) without a rejection at 78.86 is premature. The 76.95 spike faded but there is no confirmed reversal yet, so highest-EV is to wait.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 76.2,
+    "expires_min": 240,
+    "note": "Losing the 76.2 shelf turns the faded 76.95 spike into a lower-high and opens a clean run at 73.39 support \u2014 flips to a short with structure behind it."
+  },
+  "transcript": {
+    "macro": "Regime MIXED-to-HOSTILE for fresh risk. FOMC Jul 28-29 binary event; fragile US-Iran truce. Crypto downtrend, BTC ~65k (-18% MTD), dominance ~56-57% (NO altcoin rotation), F&G ~29 fear. Cross-cutting: crowded-long book, positive/extreme funding, RSI 70s-80s, flush risk. SOL: 0.855 corr to BTC = pure high-beta; L/S 2.75 (very crowded long), structure_bias -0.34, 4h RSI 78, rel-strength -8.99 (lagging BTC). No independent price story. Verdict: smaller size.",
+    "sentiment": "FOMC Wed biggest \u226448h catalyst; crypto F&G ~50 neutral. SOL: constructive backdrop \u2014 Morgan Stanley spot SOL ETF won NYSE Arca approval Jul 24 (staking fund MSOL), 5 spot ETFs live with steady inflows; Firedancer H2 (long-horizon). High BTC beta so it rides the FOMC outcome. Mildly bullish tone but macro-driven; no SOL-specific \u226448h binary.",
+    "analyst": "SOL 76.63: extended (+2.18% vs VWAP, RSI78/stoch87/%B0.95), pure BTC beta (0.855) lagging BTC (-8.99 rel-str), crowded long (L/S 2.75, structure_bias -0.34) into FOMC binary <48h. Long = chasing the top; short = fading ADX81 uptrend with no rejection. HOLD is highest EV. Re-long on a VWAP dip (~75), or flip short if 76.2 gives way toward 73.39.",
+    "portfolio": "HOLD flat \u2014 extended BTC-beta laggard into FOMC; short on a loss of 76.2, re-long on a VWAP dip."
+  },
+  "timestamp": "2026-07-27T06:41:32.646387+00:00"
+}

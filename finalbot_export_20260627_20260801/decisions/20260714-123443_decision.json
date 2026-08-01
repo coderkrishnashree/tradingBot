@@ -1,0 +1,25 @@
+{
+  "action": "hold",
+  "symbol": "GOOGL/USDT:USDT",
+  "confidence": 0.6,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "forecast": "Price tagged support 350.51 and printed a bullish rejection candle closing 351.49 near the high on the session's biggest volume; over the next 2-4 bars expect chop/mean-reversion toward 352.5-353 (VWAP) rather than clean continuation, with the real move deferred to the 08:30 ET CPI print.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 350.51,
+    "expires_min": 240,
+    "note": "A 15m close below support 350.51 confirms the breakdown holds through/after CPI and re-arms the short from a non-extended level, target next 4h support toward 348."
+  },
+  "rationale": "Structure favors short (orderbook_imbalance -0.649, bias -0.297, strong 1h/4h downtrend, own beta at 0.176 BTC-corr) but price is extremely oversold (RSI 10.9, stoch 11.4, bb%b 0.07) sitting exactly on support 350.51 and the last 15m candle is a high-volume bullish rejection off that low \u2014 market-shorting here is the account's #1 loss pattern (late short into stretched tape, stopped by the bounce), confirmed by learner stats (short 0.46 wr / -1.6 avg, aligned weight -0.523, trend playbook 0.45/-2.51). CPI at 08:30 ET is a binary that could squeeze this crowded oversold short on a cool print. No honest R:R>=1.5 short exists at the low and no clean long into a strong ADX 68.8 downtrend; highest-expectancy action is to wait for a clean support break or a bounce to VWAP.",
+  "transcript": {
+    "macro": "Cautious risk-off tilting HOSTILE on timing. June CPI 08:30 ET today + Warsh testimony; ~33% July HIKE odds, ~69% by Sep, inflation 3yr high. Hormuz escalation lifting oil, weighing equities. Book-wide risk: a COOL CPI (-0.2% m/m consensus) relief rally squeezing crowded/oversold shorts. GOOGL: MIXED, best of the shorts but stretched \u2014 only 0.18 BTC corr (own/equity beta). Cleanest short structure of the four (orderbook_imbalance -0.649, L/S 1.34, bias -0.297, strong 1h downtrend) BUT RSI 10.9 / stoch 11.4 / bb%b 0.07 extremely oversold, on support 350.51. Biggest risk: exhaustion bounce off oversold into a benign CPI.",
+    "sentiment": "Risk-OFF, macro-driven. GOOGL: neutral now, hard catalyst on calendar (not yet). Concrete binary = Q2 2026 earnings July 22 after close (est EPS ~$2.87) \u2014 ~8 days out, OUTSIDE 24-48h, so does not justify trading the event this cycle though argues against holding size into next week. Q1 strong (rev +22%, stock +10% on print). Overhangs: DOJ antitrust appeal, $80B AI-infra equity raise \u2014 both multi-quarter. Scan shows GOOGL washed out short-term (RSI 10.9). Near-term news neutral.",
+    "analyst": "GOOGL is the cleanest short structure of the group but stretched to an extreme (RSI 10.9, stoch 11.4, bb%b 0.07), sitting exactly on support 350.51, and the final 15m candle is a bullish rejection off that low on the biggest volume of the batch. Market-shorting here is precisely the 'late short into stretched tape, stopped by the bounce' pattern the learner shows bleeding this account (short 0.46 win / -1.6 avg, aligned weight -0.523, trend 0.45/-2.51). Add the 08:30 ET CPI binary (cool print squeezes crowded oversold shorts) \u2014 no entry with honest R:R>=1.5. HOLD; re-debate armed on a 15m close below 350.51.",
+    "portfolio": "GOOGL: HOLD (conf 0.60) \u2014 cleanest short structure but too oversold on support into CPI; short re-arms below 350.51."
+  },
+  "timestamp": "2026-07-14T12:34:43.981106+00:00"
+}

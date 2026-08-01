@@ -1,0 +1,5510 @@
+{
+  "generated_at": "2026-08-01T11:04:52.993856+00:00",
+  "data_source": "bybit-mainnet-live",
+  "timeframes": [
+    "15m",
+    "30m",
+    "1h",
+    "4h",
+    "5m"
+  ],
+  "corr_matrix": {
+    "BTC/USDT:USDT|SOL/USDT:USDT": 0.859,
+    "BTC/USDT:USDT|XAUT/USDT:USDT": 0.375,
+    "BTC/USDT:USDT|TSM/USDT:USDT": 0.345,
+    "BTC/USDT:USDT|NVDA/USDT:USDT": 0.327,
+    "BTC/USDT:USDT|MU/USDT:USDT": 0.376,
+    "BTC/USDT:USDT|TSLA/USDT:USDT": 0.374,
+    "BTC/USDT:USDT|SNDK/USDT:USDT": 0.28,
+    "BTC/USDT:USDT|META/USDT:USDT": 0.127,
+    "BTC/USDT:USDT|GOOGL/USDT:USDT": 0.16,
+    "BTC/USDT:USDT|MSFT/USDT:USDT": 0.137,
+    "BTC/USDT:USDT|ORCL/USDT:USDT": 0.275,
+    "BTC/USDT:USDT|AAPL/USDT:USDT": -0.006,
+    "BTC/USDT:USDT|INTC/USDT:USDT": 0.355,
+    "BTC/USDT:USDT|MSTR/USDT:USDT": 0.771,
+    "BTC/USDT:USDT|COIN/USDT:USDT": 0.535,
+    "BTC/USDT:USDT|CRCL/USDT:USDT": 0.572,
+    "BTC/USDT:USDT|HOOD/USDT:USDT": 0.462,
+    "BTC/USDT:USDT|QQQ/USDT:USDT": 0.456,
+    "BTC/USDT:USDT|EWJ/USDT:USDT": 0.456,
+    "BTC/USDT:USDT|EWY/USDT:USDT": 0.395,
+    "BTC/USDT:USDT|XAG/USDT:USDT": 0.422,
+    "BTC/USDT:USDT|CL/USDT:USDT": -0.17,
+    "SOL/USDT:USDT|XAUT/USDT:USDT": 0.491,
+    "SOL/USDT:USDT|TSM/USDT:USDT": 0.414,
+    "SOL/USDT:USDT|NVDA/USDT:USDT": 0.407,
+    "SOL/USDT:USDT|MU/USDT:USDT": 0.387,
+    "SOL/USDT:USDT|TSLA/USDT:USDT": 0.42,
+    "SOL/USDT:USDT|SNDK/USDT:USDT": 0.308,
+    "SOL/USDT:USDT|META/USDT:USDT": 0.042,
+    "SOL/USDT:USDT|GOOGL/USDT:USDT": 0.242,
+    "SOL/USDT:USDT|MSFT/USDT:USDT": 0.22,
+    "SOL/USDT:USDT|ORCL/USDT:USDT": 0.307,
+    "SOL/USDT:USDT|AAPL/USDT:USDT": -0.076,
+    "SOL/USDT:USDT|INTC/USDT:USDT": 0.448,
+    "SOL/USDT:USDT|MSTR/USDT:USDT": 0.65,
+    "SOL/USDT:USDT|COIN/USDT:USDT": 0.397,
+    "SOL/USDT:USDT|CRCL/USDT:USDT": 0.541,
+    "SOL/USDT:USDT|HOOD/USDT:USDT": 0.421,
+    "SOL/USDT:USDT|QQQ/USDT:USDT": 0.538,
+    "SOL/USDT:USDT|EWJ/USDT:USDT": 0.516,
+    "SOL/USDT:USDT|EWY/USDT:USDT": 0.477,
+    "SOL/USDT:USDT|XAG/USDT:USDT": 0.498,
+    "SOL/USDT:USDT|CL/USDT:USDT": -0.352,
+    "XAUT/USDT:USDT|TSM/USDT:USDT": 0.259,
+    "XAUT/USDT:USDT|NVDA/USDT:USDT": 0.396,
+    "XAUT/USDT:USDT|MU/USDT:USDT": 0.302,
+    "XAUT/USDT:USDT|TSLA/USDT:USDT": 0.286,
+    "XAUT/USDT:USDT|SNDK/USDT:USDT": 0.315,
+    "XAUT/USDT:USDT|META/USDT:USDT": -0.053,
+    "XAUT/USDT:USDT|GOOGL/USDT:USDT": 0.195,
+    "XAUT/USDT:USDT|MSFT/USDT:USDT": 0.245,
+    "XAUT/USDT:USDT|ORCL/USDT:USDT": 0.475,
+    "XAUT/USDT:USDT|AAPL/USDT:USDT": 0.053,
+    "XAUT/USDT:USDT|INTC/USDT:USDT": 0.347,
+    "XAUT/USDT:USDT|MSTR/USDT:USDT": 0.373,
+    "XAUT/USDT:USDT|COIN/USDT:USDT": 0.174,
+    "XAUT/USDT:USDT|CRCL/USDT:USDT": 0.353,
+    "XAUT/USDT:USDT|HOOD/USDT:USDT": 0.251,
+    "XAUT/USDT:USDT|QQQ/USDT:USDT": 0.477,
+    "XAUT/USDT:USDT|EWJ/USDT:USDT": 0.552,
+    "XAUT/USDT:USDT|EWY/USDT:USDT": 0.426,
+    "XAUT/USDT:USDT|XAG/USDT:USDT": 0.855,
+    "XAUT/USDT:USDT|CL/USDT:USDT": -0.333,
+    "TSM/USDT:USDT|NVDA/USDT:USDT": 0.592,
+    "TSM/USDT:USDT|MU/USDT:USDT": 0.792,
+    "TSM/USDT:USDT|TSLA/USDT:USDT": 0.466,
+    "TSM/USDT:USDT|SNDK/USDT:USDT": 0.747,
+    "TSM/USDT:USDT|META/USDT:USDT": -0.062,
+    "TSM/USDT:USDT|GOOGL/USDT:USDT": -0.16,
+    "TSM/USDT:USDT|MSFT/USDT:USDT": -0.06,
+    "TSM/USDT:USDT|ORCL/USDT:USDT": 0.385,
+    "TSM/USDT:USDT|AAPL/USDT:USDT": -0.281,
+    "TSM/USDT:USDT|INTC/USDT:USDT": 0.777,
+    "TSM/USDT:USDT|MSTR/USDT:USDT": 0.327,
+    "TSM/USDT:USDT|COIN/USDT:USDT": 0.314,
+    "TSM/USDT:USDT|CRCL/USDT:USDT": 0.368,
+    "TSM/USDT:USDT|HOOD/USDT:USDT": 0.393,
+    "TSM/USDT:USDT|QQQ/USDT:USDT": 0.796,
+    "TSM/USDT:USDT|EWJ/USDT:USDT": 0.574,
+    "TSM/USDT:USDT|EWY/USDT:USDT": 0.725,
+    "TSM/USDT:USDT|XAG/USDT:USDT": 0.32,
+    "TSM/USDT:USDT|CL/USDT:USDT": -0.259,
+    "NVDA/USDT:USDT|MU/USDT:USDT": 0.582,
+    "NVDA/USDT:USDT|TSLA/USDT:USDT": 0.39,
+    "NVDA/USDT:USDT|SNDK/USDT:USDT": 0.598,
+    "NVDA/USDT:USDT|META/USDT:USDT": 0.015,
+    "NVDA/USDT:USDT|GOOGL/USDT:USDT": 0.106,
+    "NVDA/USDT:USDT|MSFT/USDT:USDT": -0.074,
+    "NVDA/USDT:USDT|ORCL/USDT:USDT": 0.288,
+    "NVDA/USDT:USDT|AAPL/USDT:USDT": -0.102,
+    "NVDA/USDT:USDT|INTC/USDT:USDT": 0.539,
+    "NVDA/USDT:USDT|MSTR/USDT:USDT": 0.291,
+    "NVDA/USDT:USDT|COIN/USDT:USDT": 0.19,
+    "NVDA/USDT:USDT|CRCL/USDT:USDT": 0.413,
+    "NVDA/USDT:USDT|HOOD/USDT:USDT": 0.435,
+    "NVDA/USDT:USDT|QQQ/USDT:USDT": 0.799,
+    "NVDA/USDT:USDT|EWJ/USDT:USDT": 0.518,
+    "NVDA/USDT:USDT|EWY/USDT:USDT": 0.632,
+    "NVDA/USDT:USDT|XAG/USDT:USDT": 0.48,
+    "NVDA/USDT:USDT|CL/USDT:USDT": -0.293,
+    "MU/USDT:USDT|TSLA/USDT:USDT": 0.351,
+    "MU/USDT:USDT|SNDK/USDT:USDT": 0.92,
+    "MU/USDT:USDT|META/USDT:USDT": -0.101,
+    "MU/USDT:USDT|GOOGL/USDT:USDT": -0.257,
+    "MU/USDT:USDT|MSFT/USDT:USDT": -0.054,
+    "MU/USDT:USDT|ORCL/USDT:USDT": 0.395,
+    "MU/USDT:USDT|AAPL/USDT:USDT": -0.296,
+    "MU/USDT:USDT|INTC/USDT:USDT": 0.842,
+    "MU/USDT:USDT|MSTR/USDT:USDT": 0.417,
+    "MU/USDT:USDT|COIN/USDT:USDT": 0.369,
+    "MU/USDT:USDT|CRCL/USDT:USDT": 0.381,
+    "MU/USDT:USDT|HOOD/USDT:USDT": 0.389,
+    "MU/USDT:USDT|QQQ/USDT:USDT": 0.813,
+    "MU/USDT:USDT|EWJ/USDT:USDT": 0.61,
+    "MU/USDT:USDT|EWY/USDT:USDT": 0.828,
+    "MU/USDT:USDT|XAG/USDT:USDT": 0.398,
+    "MU/USDT:USDT|CL/USDT:USDT": -0.094,
+    "TSLA/USDT:USDT|SNDK/USDT:USDT": 0.305,
+    "TSLA/USDT:USDT|META/USDT:USDT": 0.253,
+    "TSLA/USDT:USDT|GOOGL/USDT:USDT": 0.253,
+    "TSLA/USDT:USDT|MSFT/USDT:USDT": 0.051,
+    "TSLA/USDT:USDT|ORCL/USDT:USDT": 0.532,
+    "TSLA/USDT:USDT|AAPL/USDT:USDT": -0.028,
+    "TSLA/USDT:USDT|INTC/USDT:USDT": 0.457,
+    "TSLA/USDT:USDT|MSTR/USDT:USDT": 0.449,
+    "TSLA/USDT:USDT|COIN/USDT:USDT": 0.461,
+    "TSLA/USDT:USDT|CRCL/USDT:USDT": 0.481,
+    "TSLA/USDT:USDT|HOOD/USDT:USDT": 0.581,
+    "TSLA/USDT:USDT|QQQ/USDT:USDT": 0.573,
+    "TSLA/USDT:USDT|EWJ/USDT:USDT": 0.416,
+    "TSLA/USDT:USDT|EWY/USDT:USDT": 0.398,
+    "TSLA/USDT:USDT|XAG/USDT:USDT": 0.328,
+    "TSLA/USDT:USDT|CL/USDT:USDT": -0.34,
+    "SNDK/USDT:USDT|META/USDT:USDT": -0.062,
+    "SNDK/USDT:USDT|GOOGL/USDT:USDT": -0.202,
+    "SNDK/USDT:USDT|MSFT/USDT:USDT": -0.063,
+    "SNDK/USDT:USDT|ORCL/USDT:USDT": 0.406,
+    "SNDK/USDT:USDT|AAPL/USDT:USDT": -0.38,
+    "SNDK/USDT:USDT|INTC/USDT:USDT": 0.817,
+    "SNDK/USDT:USDT|MSTR/USDT:USDT": 0.267,
+    "SNDK/USDT:USDT|COIN/USDT:USDT": 0.221,
+    "SNDK/USDT:USDT|CRCL/USDT:USDT": 0.311,
+    "SNDK/USDT:USDT|HOOD/USDT:USDT": 0.354,
+    "SNDK/USDT:USDT|QQQ/USDT:USDT": 0.783,
+    "SNDK/USDT:USDT|EWJ/USDT:USDT": 0.549,
+    "SNDK/USDT:USDT|EWY/USDT:USDT": 0.782,
+    "SNDK/USDT:USDT|XAG/USDT:USDT": 0.354,
+    "SNDK/USDT:USDT|CL/USDT:USDT": -0.029,
+    "META/USDT:USDT|GOOGL/USDT:USDT": 0.4,
+    "META/USDT:USDT|MSFT/USDT:USDT": -0.207,
+    "META/USDT:USDT|ORCL/USDT:USDT": 0.204,
+    "META/USDT:USDT|AAPL/USDT:USDT": 0.091,
+    "META/USDT:USDT|INTC/USDT:USDT": -0.011,
+    "META/USDT:USDT|MSTR/USDT:USDT": 0.128,
+    "META/USDT:USDT|COIN/USDT:USDT": 0.154,
+    "META/USDT:USDT|CRCL/USDT:USDT": 0.213,
+    "META/USDT:USDT|HOOD/USDT:USDT": 0.218,
+    "META/USDT:USDT|QQQ/USDT:USDT": 0.041,
+    "META/USDT:USDT|EWJ/USDT:USDT": 0.082,
+    "META/USDT:USDT|EWY/USDT:USDT": -0.021,
+    "META/USDT:USDT|XAG/USDT:USDT": -0.007,
+    "META/USDT:USDT|CL/USDT:USDT": -0.087,
+    "GOOGL/USDT:USDT|MSFT/USDT:USDT": 0.245,
+    "GOOGL/USDT:USDT|ORCL/USDT:USDT": 0.216,
+    "GOOGL/USDT:USDT|AAPL/USDT:USDT": 0.021,
+    "GOOGL/USDT:USDT|INTC/USDT:USDT": -0.101,
+    "GOOGL/USDT:USDT|MSTR/USDT:USDT": 0.18,
+    "GOOGL/USDT:USDT|COIN/USDT:USDT": 0.057,
+    "GOOGL/USDT:USDT|CRCL/USDT:USDT": 0.263,
+    "GOOGL/USDT:USDT|HOOD/USDT:USDT": 0.264,
+    "GOOGL/USDT:USDT|QQQ/USDT:USDT": 0.09,
+    "GOOGL/USDT:USDT|EWJ/USDT:USDT": 0.177,
+    "GOOGL/USDT:USDT|EWY/USDT:USDT": 0.026,
+    "GOOGL/USDT:USDT|XAG/USDT:USDT": 0.182,
+    "GOOGL/USDT:USDT|CL/USDT:USDT": -0.271,
+    "MSFT/USDT:USDT|ORCL/USDT:USDT": 0.221,
+    "MSFT/USDT:USDT|AAPL/USDT:USDT": 0.087,
+    "MSFT/USDT:USDT|INTC/USDT:USDT": -0.008,
+    "MSFT/USDT:USDT|MSTR/USDT:USDT": 0.214,
+    "MSFT/USDT:USDT|COIN/USDT:USDT": 0.012,
+    "MSFT/USDT:USDT|CRCL/USDT:USDT": 0.156,
+    "MSFT/USDT:USDT|HOOD/USDT:USDT": -0.076,
+    "MSFT/USDT:USDT|QQQ/USDT:USDT": 0.118,
+    "MSFT/USDT:USDT|EWJ/USDT:USDT": 0.264,
+    "MSFT/USDT:USDT|EWY/USDT:USDT": 0.056,
+    "MSFT/USDT:USDT|XAG/USDT:USDT": 0.187,
+    "MSFT/USDT:USDT|CL/USDT:USDT": -0.099,
+    "ORCL/USDT:USDT|AAPL/USDT:USDT": -0.081,
+    "ORCL/USDT:USDT|INTC/USDT:USDT": 0.489,
+    "ORCL/USDT:USDT|MSTR/USDT:USDT": 0.488,
+    "ORCL/USDT:USDT|COIN/USDT:USDT": 0.363,
+    "ORCL/USDT:USDT|CRCL/USDT:USDT": 0.47,
+    "ORCL/USDT:USDT|HOOD/USDT:USDT": 0.474,
+    "ORCL/USDT:USDT|QQQ/USDT:USDT": 0.502,
+    "ORCL/USDT:USDT|EWJ/USDT:USDT": 0.447,
+    "ORCL/USDT:USDT|EWY/USDT:USDT": 0.445,
+    "ORCL/USDT:USDT|XAG/USDT:USDT": 0.41,
+    "ORCL/USDT:USDT|CL/USDT:USDT": -0.236,
+    "AAPL/USDT:USDT|INTC/USDT:USDT": -0.471,
+    "AAPL/USDT:USDT|MSTR/USDT:USDT": 0.042,
+    "AAPL/USDT:USDT|COIN/USDT:USDT": 0.367,
+    "AAPL/USDT:USDT|CRCL/USDT:USDT": 0.149,
+    "AAPL/USDT:USDT|HOOD/USDT:USDT": -0.114,
+    "AAPL/USDT:USDT|QQQ/USDT:USDT": -0.215,
+    "AAPL/USDT:USDT|EWJ/USDT:USDT": -0.045,
+    "AAPL/USDT:USDT|EWY/USDT:USDT": -0.228,
+    "AAPL/USDT:USDT|XAG/USDT:USDT": 0.029,
+    "AAPL/USDT:USDT|CL/USDT:USDT": -0.074,
+    "INTC/USDT:USDT|MSTR/USDT:USDT": 0.4,
+    "INTC/USDT:USDT|COIN/USDT:USDT": 0.28,
+    "INTC/USDT:USDT|CRCL/USDT:USDT": 0.377,
+    "INTC/USDT:USDT|HOOD/USDT:USDT": 0.432,
+    "INTC/USDT:USDT|QQQ/USDT:USDT": 0.813,
+    "INTC/USDT:USDT|EWJ/USDT:USDT": 0.621,
+    "INTC/USDT:USDT|EWY/USDT:USDT": 0.75,
+    "INTC/USDT:USDT|XAG/USDT:USDT": 0.431,
+    "INTC/USDT:USDT|CL/USDT:USDT": -0.14,
+    "MSTR/USDT:USDT|COIN/USDT:USDT": 0.65,
+    "MSTR/USDT:USDT|CRCL/USDT:USDT": 0.746,
+    "MSTR/USDT:USDT|HOOD/USDT:USDT": 0.463,
+    "MSTR/USDT:USDT|QQQ/USDT:USDT": 0.505,
+    "MSTR/USDT:USDT|EWJ/USDT:USDT": 0.491,
+    "MSTR/USDT:USDT|EWY/USDT:USDT": 0.435,
+    "MSTR/USDT:USDT|XAG/USDT:USDT": 0.442,
+    "MSTR/USDT:USDT|CL/USDT:USDT": -0.181,
+    "COIN/USDT:USDT|CRCL/USDT:USDT": 0.744,
+    "COIN/USDT:USDT|HOOD/USDT:USDT": 0.617,
+    "COIN/USDT:USDT|QQQ/USDT:USDT": 0.366,
+    "COIN/USDT:USDT|EWJ/USDT:USDT": 0.376,
+    "COIN/USDT:USDT|EWY/USDT:USDT": 0.351,
+    "COIN/USDT:USDT|XAG/USDT:USDT": 0.244,
+    "COIN/USDT:USDT|CL/USDT:USDT": -0.084,
+    "CRCL/USDT:USDT|HOOD/USDT:USDT": 0.537,
+    "CRCL/USDT:USDT|QQQ/USDT:USDT": 0.53,
+    "CRCL/USDT:USDT|EWJ/USDT:USDT": 0.471,
+    "CRCL/USDT:USDT|EWY/USDT:USDT": 0.433,
+    "CRCL/USDT:USDT|XAG/USDT:USDT": 0.365,
+    "CRCL/USDT:USDT|CL/USDT:USDT": -0.192,
+    "HOOD/USDT:USDT|QQQ/USDT:USDT": 0.537,
+    "HOOD/USDT:USDT|EWJ/USDT:USDT": 0.349,
+    "HOOD/USDT:USDT|EWY/USDT:USDT": 0.419,
+    "HOOD/USDT:USDT|XAG/USDT:USDT": 0.305,
+    "HOOD/USDT:USDT|CL/USDT:USDT": -0.172,
+    "QQQ/USDT:USDT|EWJ/USDT:USDT": 0.723,
+    "QQQ/USDT:USDT|EWY/USDT:USDT": 0.816,
+    "QQQ/USDT:USDT|XAG/USDT:USDT": 0.587,
+    "QQQ/USDT:USDT|CL/USDT:USDT": -0.311,
+    "EWJ/USDT:USDT|EWY/USDT:USDT": 0.735,
+    "EWJ/USDT:USDT|XAG/USDT:USDT": 0.634,
+    "EWJ/USDT:USDT|CL/USDT:USDT": -0.231,
+    "EWY/USDT:USDT|XAG/USDT:USDT": 0.499,
+    "EWY/USDT:USDT|CL/USDT:USDT": -0.217,
+    "XAG/USDT:USDT|CL/USDT:USDT": -0.314
+  },
+  "rows": [
+    {
+      "symbol": "NVDA/USDT:USDT",
+      "last": 200.0,
+      "breakout": null,
+      "recent_candles": {
+        "tf": "15m",
+        "ohlcv": [
+          [
+            199.64,
+            199.75,
+            199.58,
+            199.68,
+            13.06
+          ],
+          [
+            199.68,
+            199.76,
+            199.58,
+            199.58,
+            32.35
+          ],
+          [
+            199.58,
+            199.69,
+            199.58,
+            199.58,
+            19.35
+          ],
+          [
+            199.58,
+            199.64,
+            199.57,
+            199.62,
+            17.6
+          ],
+          [
+            199.62,
+            199.63,
+            199.6,
+            199.63,
+            1.91
+          ],
+          [
+            199.63,
+            199.74,
+            199.63,
+            199.72,
+            26.37
+          ],
+          [
+            199.72,
+            199.89,
+            199.69,
+            199.83,
+            19.11
+          ],
+          [
+            199.83,
+            199.9,
+            199.79,
+            199.9,
+            12.58
+          ],
+          [
+            199.9,
+            200.16,
+            199.52,
+            199.72,
+            525.33
+          ],
+          [
+            199.72,
+            199.72,
+            199.59,
+            199.67,
+            93.35
+          ],
+          [
+            199.67,
+            199.67,
+            199.43,
+            199.58,
+            128.16
+          ],
+          [
+            199.58,
+            199.72,
+            199.52,
+            199.58,
+            163.4
+          ],
+          [
+            199.58,
+            199.69,
+            199.58,
+            199.64,
+            8.22
+          ],
+          [
+            199.64,
+            199.66,
+            199.62,
+            199.66,
+            1.08
+          ],
+          [
+            199.66,
+            199.93,
+            199.66,
+            199.88,
+            54.09
+          ],
+          [
+            199.88,
+            200.0,
+            199.86,
+            199.94,
+            21.09
+          ],
+          [
+            199.94,
+            199.96,
+            199.89,
+            199.89,
+            6.88
+          ],
+          [
+            199.89,
+            200.05,
+            199.81,
+            200.05,
+            301.14
+          ],
+          [
+            200.05,
+            200.21,
+            200.03,
+            200.03,
+            51.68
+          ],
+          [
+            200.03,
+            200.03,
+            199.96,
+            200.0,
+            53.02
+          ]
+        ]
+      },
+      "composite": {
+        "confidence_pct": 63.4,
+        "direction": "long",
+        "blended_score": 0.569,
+        "aligned": true,
+        "align_factor": 1.2,
+        "regime": "trend",
+        "p_win_learned": 0.575
+      },
+      "structure": {
+        "funding_rate": 0.0,
+        "funding_next": 1785600000000,
+        "open_interest": 27154.28,
+        "long_short_ratio": 1.952,
+        "orderbook_imbalance": 0.185,
+        "structure_bias": -0.229,
+        "bias_parts": {
+          "funding": -0.0,
+          "long_short": -0.95,
+          "orderbook": 0.185
+        }
+      },
+      "indicators_ref": {
+        "rsi": 74.8,
+        "adx": 64.6,
+        "bb_pctb": 0.796,
+        "bb_width_pct": 6.73,
+        "stoch": 82.0,
+        "vwap_dist_pct": 2.41,
+        "divergence": null,
+        "support": 189.02,
+        "resistance": 212.0,
+        "atr_pct": 1.23
+      },
+      "per_tf": {
+        "15m": {
+          "score": 0.248,
+          "direction": "long",
+          "rsi": 62.5,
+          "trend": "up",
+          "macd": 0.100132,
+          "atr_pct": 0.09
+        },
+        "30m": {
+          "score": 0.376,
+          "direction": "long",
+          "rsi": 63.5,
+          "trend": "up",
+          "macd": 0.198372,
+          "atr_pct": 0.12
+        },
+        "1h": {
+          "score": 0.862,
+          "direction": "long",
+          "rsi": 70.8,
+          "trend": "up",
+          "macd": 0.61461,
+          "atr_pct": 0.17
+        },
+        "4h": {
+          "score": 0.481,
+          "direction": "long",
+          "rsi": 74.8,
+          "trend": "neutral",
+          "macd": 0.081535,
+          "atr_pct": 1.23
+        },
+        "5m": {
+          "score": 0.9,
+          "direction": "long",
+          "rsi": 59.2,
+          "trend": "up",
+          "macd": 0.088033,
+          "atr_pct": 0.03
+        }
+      },
+      "btc_correlation": 0.327,
+      "relative_strength_pct": -4.15
+    },
+    {
+      "symbol": "CL/USDT:USDT",
+      "last": 86.68,
+      "breakout": null,
+      "recent_candles": {
+        "tf": "15m",
+        "ohlcv": [
+          [
+            86.36,
+            86.49,
+            86.27,
+            86.44,
+            828.92
+          ],
+          [
+            86.44,
+            86.53,
+            86.33,
+            86.37,
+            2488.17
+          ],
+          [
+            86.37,
+            86.46,
+            86.34,
+            86.39,
+            506.01
+          ],
+          [
+            86.39,
+            86.49,
+            86.38,
+            86.44,
+            947.07
+          ],
+          [
+            86.44,
+            86.46,
+            86.37,
+            86.38,
+            683.77
+          ],
+          [
+            86.38,
+            86.5,
+            86.26,
+            86.5,
+            1322.69
+          ],
+          [
+            86.5,
+            86.51,
+            86.39,
+            86.43,
+            471.34
+          ],
+          [
+            86.43,
+            86.7,
+            86.42,
+            86.66,
+            1346.89
+          ],
+          [
+            86.66,
+            86.72,
+            86.43,
+            86.52,
+            1237.08
+          ],
+          [
+            86.52,
+            86.59,
+            86.46,
+            86.53,
+            1115.53
+          ],
+          [
+            86.53,
+            86.61,
+            86.49,
+            86.59,
+            1560.93
+          ],
+          [
+            86.59,
+            86.64,
+            86.49,
+            86.52,
+            518.44
+          ],
+          [
+            86.52,
+            86.61,
+            86.37,
+            86.41,
+            4029.5
+          ],
+          [
+            86.41,
+            86.53,
+            86.33,
+            86.5,
+            1903.73
+          ],
+          [
+            86.5,
+            86.53,
+            86.41,
+            86.53,
+            335.9
+          ],
+          [
+            86.53,
+            86.76,
+            86.53,
+            86.67,
+            1622.91
+          ],
+          [
+            86.67,
+            86.79,
+            86.54,
+            86.74,
+            1218.53
+          ],
+          [
+            86.74,
+            86.79,
+            86.6,
+            86.65,
+            521.21
+          ],
+          [
+            86.65,
+            86.74,
+            86.65,
+            86.69,
+            763.76
+          ],
+          [
+            86.69,
+            86.69,
+            86.65,
+            86.68,
+            239.26
+          ]
+        ]
+      },
+      "composite": {
+        "confidence_pct": 59.7,
+        "direction": "long",
+        "blended_score": 0.576,
+        "aligned": true,
+        "align_factor": 1.2,
+        "regime": "trend",
+        "p_win_learned": 0.439
+      },
+      "structure": {
+        "funding_rate": 0.0,
+        "funding_next": 1785585600000,
+        "open_interest": 267316.09,
+        "long_short_ratio": 1.379,
+        "orderbook_imbalance": -0.034,
+        "structure_bias": -0.124,
+        "bias_parts": {
+          "funding": -0.0,
+          "long_short": -0.38,
+          "orderbook": -0.034
+        }
+      },
+      "indicators_ref": {
+        "rsi": 60.5,
+        "adx": 44.0,
+        "bb_pctb": 0.867,
+        "bb_width_pct": 7.15,
+        "stoch": 77.8,
+        "vwap_dist_pct": 2.89,
+        "divergence": null,
+        "support": 77.87,
+        "resistance": 91.94,
+        "atr_pct": 2.02
+      },
+      "per_tf": {
+        "15m": {
+          "score": 0.9,
+          "direction": "long",
+          "rsi": 57.8,
+          "trend": "neutral",
+          "macd": 0.032023,
+          "atr_pct": 0.2
+        },
+        "30m": {
+          "score": 0.0,
+          "direction": "flat",
+          "rsi": 48.1,
+          "trend": "up",
+          "macd": 0.153764,
+          "atr_pct": 0.26
+        },
+        "1h": {
+          "score": 0.9,
+          "direction": "long",
+          "rsi": 29.9,
+          "trend": "up",
+          "macd": 0.54671,
+          "atr_pct": 0.53
+        },
+        "4h": {
+          "score": 0.518,
+          "direction": "long",
+          "rsi": 60.5,
+          "trend": "neutral",
+          "macd": 0.629445,
+          "atr_pct": 2.02
+        },
+        "5m": {
+          "score": 0.427,
+          "direction": "long",
+          "rsi": 67.8,
+          "trend": "up",
+          "macd": 0.047027,
+          "atr_pct": 0.11
+        }
+      },
+      "btc_correlation": -0.17,
+      "relative_strength_pct": 19.57
+    },
+    {
+      "symbol": "INTC/USDT:USDT",
+      "last": 90.51,
+      "breakout": null,
+      "recent_candles": {
+        "tf": "15m",
+        "ohlcv": [
+          [
+            90.0,
+            90.57,
+            90.0,
+            90.48,
+            415.98
+          ],
+          [
+            90.48,
+            90.55,
+            90.36,
+            90.36,
+            115.72
+          ],
+          [
+            90.36,
+            90.45,
+            90.29,
+            90.33,
+            141.36
+          ],
+          [
+            90.33,
+            90.4,
+            90.32,
+            90.34,
+            25.98
+          ],
+          [
+            90.34,
+            90.38,
+            90.28,
+            90.36,
+            5.06
+          ],
+          [
+            90.36,
+            90.45,
+            90.28,
+            90.28,
+            22.37
+          ],
+          [
+            90.28,
+            90.6,
+            90.28,
+            90.5,
+            206.23
+          ],
+          [
+            90.5,
+            90.65,
+            90.47,
+            90.6,
+            170.6
+          ],
+          [
+            90.6,
+            90.68,
+            90.48,
+            90.68,
+            91.89
+          ],
+          [
+            90.68,
+            90.68,
+            90.45,
+            90.49,
+            223.16
+          ],
+          [
+            90.49,
+            90.53,
+            90.33,
+            90.36,
+            231.87
+          ],
+          [
+            90.36,
+            90.46,
+            90.33,
+            90.39,
+            32.94
+          ],
+          [
+            90.39,
+            90.45,
+            90.36,
+            90.38,
+            14.81
+          ],
+          [
+            90.38,
+            90.39,
+            90.26,
+            90.36,
+            28.75
+          ],
+          [
+            90.36,
+            90.43,
+            90.34,
+            90.37,
+            15.49
+          ],
+          [
+            90.37,
+            90.49,
+            90.31,
+            90.46,
+            54.35
+          ],
+          [
+            90.46,
+            90.52,
+            90.46,
+            90.49,
+            4.29
+          ],
+          [
+            90.49,
+            90.56,
+            90.47,
+            90.53,
+            21.27
+          ],
+          [
+            90.53,
+            90.54,
+            90.51,
+            90.51,
+            7.52
+          ],
+          [
+            90.51,
+            90.51,
+            90.51,
+            90.51,
+            0.0
+          ]
+        ]
+      },
+      "composite": {
+        "confidence_pct": 58.7,
+        "direction": "long",
+        "blended_score": 0.516,
+        "aligned": true,
+        "align_factor": 1.2,
+        "regime": "trend",
+        "p_win_learned": 0.572
+      },
+      "structure": {
+        "funding_rate": 0.0,
+        "funding_next": 1785600000000,
+        "open_interest": 54540.26,
+        "long_short_ratio": 1.991,
+        "orderbook_imbalance": -0.048,
+        "structure_bias": -0.311,
+        "bias_parts": {
+          "funding": -0.0,
+          "long_short": -0.99,
+          "orderbook": -0.048
+        }
+      },
+      "indicators_ref": {
+        "rsi": 66.8,
+        "adx": 46.7,
+        "bb_pctb": 0.589,
+        "bb_width_pct": 22.67,
+        "stoch": 59.4,
+        "vwap_dist_pct": 2.91,
+        "divergence": null,
+        "support": 79.14,
+        "resistance": 106.95,
+        "atr_pct": 3.54
+      },
+      "per_tf": {
+        "15m": {
+          "score": 0.267,
+          "direction": "long",
+          "rsi": 61.9,
+          "trend": "up",
+          "macd": 0.082167,
+          "atr_pct": 0.15
+        },
+        "30m": {
+          "score": 0.548,
+          "direction": "long",
+          "rsi": 65.7,
+          "trend": "neutral",
+          "macd": -0.144447,
+          "atr_pct": 0.27
+        },
+        "1h": {
+          "score": 0.519,
+          "direction": "long",
+          "rsi": 70.6,
+          "trend": "neutral",
+          "macd": -0.449586,
+          "atr_pct": 0.43
+        },
+        "4h": {
+          "score": 0.496,
+          "direction": "long",
+          "rsi": 66.8,
+          "trend": "neutral",
+          "macd": 0.308968,
+          "atr_pct": 3.54
+        },
+        "5m": {
+          "score": 0.898,
+          "direction": "long",
+          "rsi": 69.2,
+          "trend": "neutral",
+          "macd": 0.030168,
+          "atr_pct": 0.05
+        }
+      },
+      "btc_correlation": 0.355,
+      "relative_strength_pct": -16.82
+    },
+    {
+      "symbol": "XAUT/USDT:USDT",
+      "last": 4038.1,
+      "breakout": null,
+      "recent_candles": {
+        "tf": "15m",
+        "ohlcv": [
+          [
+            4038.6,
+            4038.6,
+            4038.5,
+            4038.6,
+            1.925
+          ],
+          [
+            4038.6,
+            4038.6,
+            4038.5,
+            4038.6,
+            0.106
+          ],
+          [
+            4038.6,
+            4038.6,
+            4038.5,
+            4038.6,
+            6.399
+          ],
+          [
+            4038.6,
+            4039.7,
+            4038.5,
+            4039.6,
+            11.094
+          ],
+          [
+            4039.6,
+            4040.0,
+            4039.6,
+            4039.9,
+            47.969
+          ],
+          [
+            4039.9,
+            4040.0,
+            4039.9,
+            4040.0,
+            10.888
+          ],
+          [
+            4040.0,
+            4040.2,
+            4039.9,
+            4040.2,
+            9.613
+          ],
+          [
+            4040.2,
+            4040.2,
+            4040.1,
+            4040.1,
+            1.73
+          ],
+          [
+            4040.1,
+            4040.3,
+            4040.1,
+            4040.3,
+            6.761
+          ],
+          [
+            4040.3,
+            4040.3,
+            4040.2,
+            4040.3,
+            18.209
+          ],
+          [
+            4040.3,
+            4040.3,
+            4036.2,
+            4038.5,
+            153.639
+          ],
+          [
+            4038.5,
+            4039.8,
+            4038.5,
+            4039.8,
+            25.653
+          ],
+          [
+            4039.8,
+            4039.8,
+            4039.7,
+            4039.8,
+            1.481
+          ],
+          [
+            4039.8,
+            4039.8,
+            4039.7,
+            4039.8,
+            1.502
+          ],
+          [
+            4039.8,
+            4039.8,
+            4039.7,
+            4039.8,
+            1.982
+          ],
+          [
+            4039.8,
+            4039.8,
+            4033.9,
+            4037.1,
+            170.148
+          ],
+          [
+            4037.1,
+            4037.2,
+            4034.6,
+            4035.9,
+            51.388
+          ],
+          [
+            4035.9,
+            4036.1,
+            4035.8,
+            4036.1,
+            12.595
+          ],
+          [
+            4036.1,
+            4038.3,
+            4036.1,
+            4038.2,
+            26.558
+          ],
+          [
+            4038.2,
+            4038.2,
+            4038.1,
+            4038.1,
+            0.079
+          ]
+        ]
+      },
+      "composite": {
+        "confidence_pct": 51.4,
+        "direction": "short",
+        "blended_score": -0.487,
+        "aligned": false,
+        "align_factor": 1.0,
+        "regime": "trend",
+        "p_win_learned": 0.516
+      },
+      "structure": {
+        "funding_rate": -0.00011298,
+        "funding_next": 1785585600000,
+        "open_interest": 34749.458,
+        "long_short_ratio": 2.765,
+        "orderbook_imbalance": -0.245,
+        "structure_bias": -0.33,
+        "bias_parts": {
+          "funding": 0.11,
+          "long_short": -1.0,
+          "orderbook": -0.245
+        }
+      },
+      "indicators_ref": {
+        "rsi": 46.4,
+        "adx": 26.5,
+        "bb_pctb": 0.377,
+        "bb_width_pct": 2.43,
+        "stoch": 22.7,
+        "vwap_dist_pct": -0.33,
+        "divergence": null,
+        "support": 3990.3,
+        "resistance": 4105.9,
+        "atr_pct": 0.51
+      },
+      "per_tf": {
+        "15m": {
+          "score": -0.9,
+          "direction": "short",
+          "rsi": 40.4,
+          "trend": "neutral",
+          "macd": -0.369948,
+          "atr_pct": 0.03
+        },
+        "30m": {
+          "score": -0.9,
+          "direction": "short",
+          "rsi": 52.8,
+          "trend": "down",
+          "macd": -0.805911,
+          "atr_pct": 0.03
+        },
+        "1h": {
+          "score": -0.492,
+          "direction": "short",
+          "rsi": 52.2,
+          "trend": "down",
+          "macd": -3.822742,
+          "atr_pct": 0.06
+        },
+        "4h": {
+          "score": -0.435,
+          "direction": "short",
+          "rsi": 46.4,
+          "trend": "down",
+          "macd": -2.709505,
+          "atr_pct": 0.51
+        },
+        "5m": {
+          "score": 0.597,
+          "direction": "long",
+          "rsi": 37.9,
+          "trend": "neutral",
+          "macd": -0.570521,
+          "atr_pct": 0.02
+        }
+      },
+      "btc_correlation": 0.375,
+      "relative_strength_pct": 0.36
+    },
+    {
+      "symbol": "SNDK/USDT:USDT",
+      "last": 1224.24,
+      "breakout": null,
+      "recent_candles": {
+        "tf": "15m",
+        "ohlcv": [
+          [
+            1217.77,
+            1224.88,
+            1217.06,
+            1221.82,
+            346.34
+          ],
+          [
+            1221.82,
+            1224.46,
+            1219.22,
+            1219.45,
+            53.51
+          ],
+          [
+            1219.45,
+            1220.8,
+            1219.03,
+            1219.83,
+            94.02
+          ],
+          [
+            1219.83,
+            1222.03,
+            1219.69,
+            1220.6,
+            29.2
+          ],
+          [
+            1220.6,
+            1221.17,
+            1219.66,
+            1220.5,
+            65.04
+          ],
+          [
+            1220.5,
+            1222.6,
+            1220.01,
+            1221.38,
+            52.97
+          ],
+          [
+            1221.38,
+            1228.16,
+            1221.25,
+            1226.26,
+            124.86
+          ],
+          [
+            1226.26,
+            1227.61,
+            1224.37,
+            1225.05,
+            124.85
+          ],
+          [
+            1225.05,
+            1227.92,
+            1224.38,
+            1225.47,
+            85.63
+          ],
+          [
+            1225.47,
+            1225.49,
+            1223.18,
+            1224.18,
+            50.55
+          ],
+          [
+            1224.18,
+            1225.2,
+            1221.72,
+            1221.72,
+            76.67
+          ],
+          [
+            1221.72,
+            1224.2,
+            1221.67,
+            1223.31,
+            56.23
+          ],
+          [
+            1223.31,
+            1224.99,
+            1223.16,
+            1224.68,
+            57.85
+          ],
+          [
+            1224.68,
+            1225.32,
+            1223.21,
+            1224.14,
+            33.91
+          ],
+          [
+            1224.14,
+            1225.46,
+            1222.48,
+            1224.31,
+            49.73
+          ],
+          [
+            1224.31,
+            1224.94,
+            1223.22,
+            1223.96,
+            64.31
+          ],
+          [
+            1223.96,
+            1224.81,
+            1223.17,
+            1224.21,
+            12.31
+          ],
+          [
+            1224.21,
+            1225.07,
+            1223.6,
+            1224.73,
+            6.75
+          ],
+          [
+            1224.73,
+            1224.87,
+            1223.93,
+            1224.69,
+            16.25
+          ],
+          [
+            1224.69,
+            1224.85,
+            1224.13,
+            1224.24,
+            25.61
+          ]
+        ]
+      },
+      "composite": {
+        "confidence_pct": 50.6,
+        "direction": "long",
+        "blended_score": 0.418,
+        "aligned": true,
+        "align_factor": 1.2,
+        "regime": "trend",
+        "p_win_learned": 0.524
+      },
+      "structure": {
+        "funding_rate": 0.0,
+        "funding_next": 1785600000000,
+        "open_interest": 14636.92,
+        "long_short_ratio": 1.369,
+        "orderbook_imbalance": 0.169,
+        "structure_bias": -0.06,
+        "bias_parts": {
+          "funding": -0.0,
+          "long_short": -0.37,
+          "orderbook": 0.169
+        }
+      },
+      "indicators_ref": {
+        "rsi": 66.5,
+        "adx": 46.2,
+        "bb_pctb": 0.595,
+        "bb_width_pct": 41.68,
+        "stoch": 51.1,
+        "vwap_dist_pct": 4.42,
+        "divergence": null,
+        "support": 971.7,
+        "resistance": 1593.47,
+        "atr_pct": 6.22
+      },
+      "per_tf": {
+        "15m": {
+          "score": 0.393,
+          "direction": "long",
+          "rsi": 59.2,
+          "trend": "up",
+          "macd": 1.275275,
+          "atr_pct": 0.21
+        },
+        "30m": {
+          "score": 0.565,
+          "direction": "long",
+          "rsi": 64.8,
+          "trend": "neutral",
+          "macd": -2.896056,
+          "atr_pct": 0.29
+        },
+        "1h": {
+          "score": 0.506,
+          "direction": "long",
+          "rsi": 68.5,
+          "trend": "neutral",
+          "macd": -9.176235,
+          "atr_pct": 0.53
+        },
+        "4h": {
+          "score": 0.291,
+          "direction": "long",
+          "rsi": 66.5,
+          "trend": "neutral",
+          "macd": -4.202254,
+          "atr_pct": 6.22
+        },
+        "5m": {
+          "score": 0.499,
+          "direction": "long",
+          "rsi": 61.3,
+          "trend": "up",
+          "macd": 0.257072,
+          "atr_pct": 0.08
+        }
+      },
+      "btc_correlation": 0.28,
+      "relative_strength_pct": -35.61
+    },
+    {
+      "symbol": "TSM/USDT:USDT",
+      "last": 406.74,
+      "breakout": null,
+      "recent_candles": {
+        "tf": "15m",
+        "ohlcv": [
+          [
+            405.4,
+            406.07,
+            405.4,
+            405.77,
+            1.55
+          ],
+          [
+            405.77,
+            405.77,
+            405.77,
+            405.77,
+            0.0
+          ],
+          [
+            405.77,
+            405.77,
+            405.67,
+            405.67,
+            0.26
+          ],
+          [
+            405.67,
+            405.8,
+            405.67,
+            405.8,
+            0.14
+          ],
+          [
+            405.8,
+            405.8,
+            405.8,
+            405.8,
+            0.0
+          ],
+          [
+            405.8,
+            405.8,
+            405.75,
+            405.77,
+            0.17
+          ],
+          [
+            405.77,
+            406.56,
+            405.77,
+            406.43,
+            6.43
+          ],
+          [
+            406.43,
+            406.46,
+            406.19,
+            406.32,
+            14.33
+          ],
+          [
+            406.32,
+            406.44,
+            406.32,
+            406.44,
+            0.03
+          ],
+          [
+            406.44,
+            406.44,
+            406.44,
+            406.44,
+            0.0
+          ],
+          [
+            406.44,
+            406.44,
+            406.31,
+            406.31,
+            0.25
+          ],
+          [
+            406.31,
+            406.6,
+            406.31,
+            406.5,
+            4.3
+          ],
+          [
+            406.5,
+            406.5,
+            406.5,
+            406.5,
+            0.0
+          ],
+          [
+            406.5,
+            406.5,
+            406.44,
+            406.48,
+            0.16
+          ],
+          [
+            406.48,
+            406.48,
+            406.48,
+            406.48,
+            0.0
+          ],
+          [
+            406.48,
+            406.48,
+            406.48,
+            406.48,
+            0.0
+          ],
+          [
+            406.48,
+            406.48,
+            406.48,
+            406.48,
+            0.0
+          ],
+          [
+            406.48,
+            406.54,
+            406.48,
+            406.54,
+            0.03
+          ],
+          [
+            406.54,
+            406.54,
+            406.54,
+            406.54,
+            0.0
+          ],
+          [
+            406.54,
+            406.74,
+            406.54,
+            406.74,
+            0.04
+          ]
+        ]
+      },
+      "composite": {
+        "confidence_pct": 47.5,
+        "direction": "long",
+        "blended_score": 0.375,
+        "aligned": true,
+        "align_factor": 1.2,
+        "regime": "trend",
+        "p_win_learned": 0.58
+      },
+      "structure": {
+        "funding_rate": 0.0,
+        "funding_next": 1785600000000,
+        "open_interest": 4753.14,
+        "long_short_ratio": 1.999,
+        "orderbook_imbalance": -0.353,
+        "structure_bias": -0.406,
+        "bias_parts": {
+          "funding": -0.0,
+          "long_short": -1.0,
+          "orderbook": -0.353
+        }
+      },
+      "indicators_ref": {
+        "rsi": 69.8,
+        "adx": 41.6,
+        "bb_pctb": 0.653,
+        "bb_width_pct": 14.87,
+        "stoch": 66.4,
+        "vwap_dist_pct": 2.52,
+        "divergence": null,
+        "support": 368.54,
+        "resistance": 422.76,
+        "atr_pct": 1.94
+      },
+      "per_tf": {
+        "15m": {
+          "score": 0.127,
+          "direction": "long",
+          "rsi": 82.6,
+          "trend": "up",
+          "macd": 0.277042,
+          "atr_pct": 0.03
+        },
+        "30m": {
+          "score": 0.189,
+          "direction": "long",
+          "rsi": 82.5,
+          "trend": "neutral",
+          "macd": -0.027115,
+          "atr_pct": 0.08
+        },
+        "1h": {
+          "score": 0.416,
+          "direction": "long",
+          "rsi": 79.0,
+          "trend": "neutral",
+          "macd": -0.197786,
+          "atr_pct": 0.15
+        },
+        "4h": {
+          "score": 0.524,
+          "direction": "long",
+          "rsi": 69.8,
+          "trend": "neutral",
+          "macd": 3.115284,
+          "atr_pct": 1.94
+        },
+        "5m": {
+          "score": 0.297,
+          "direction": "long",
+          "rsi": 100.0,
+          "trend": "up",
+          "macd": 0.078089,
+          "atr_pct": 0.0
+        }
+      },
+      "btc_correlation": 0.345,
+      "relative_strength_pct": -5.33
+    },
+    {
+      "symbol": "CRCL/USDT:USDT",
+      "last": 61.7,
+      "breakout": null,
+      "recent_candles": {
+        "tf": "15m",
+        "ohlcv": [
+          [
+            61.56,
+            61.71,
+            61.51,
+            61.63,
+            457.6
+          ],
+          [
+            61.63,
+            61.67,
+            61.61,
+            61.66,
+            6.58
+          ],
+          [
+            61.66,
+            61.71,
+            61.63,
+            61.7,
+            18.17
+          ],
+          [
+            61.7,
+            61.76,
+            61.69,
+            61.7,
+            7.96
+          ],
+          [
+            61.7,
+            61.7,
+            61.66,
+            61.67,
+            16.45
+          ],
+          [
+            61.67,
+            61.69,
+            61.65,
+            61.69,
+            24.19
+          ],
+          [
+            61.69,
+            61.72,
+            61.66,
+            61.71,
+            249.43
+          ],
+          [
+            61.71,
+            61.81,
+            61.7,
+            61.75,
+            96.79
+          ],
+          [
+            61.75,
+            61.85,
+            61.75,
+            61.82,
+            13.57
+          ],
+          [
+            61.82,
+            61.86,
+            61.72,
+            61.72,
+            55.56
+          ],
+          [
+            61.72,
+            61.72,
+            61.54,
+            61.61,
+            152.59
+          ],
+          [
+            61.61,
+            61.63,
+            61.54,
+            61.61,
+            15.68
+          ],
+          [
+            61.61,
+            61.71,
+            61.61,
+            61.7,
+            43.14
+          ],
+          [
+            61.7,
+            61.71,
+            61.68,
+            61.7,
+            13.36
+          ],
+          [
+            61.7,
+            61.7,
+            61.67,
+            61.67,
+            17.5
+          ],
+          [
+            61.67,
+            61.72,
+            61.59,
+            61.6,
+            11.25
+          ],
+          [
+            61.6,
+            61.7,
+            61.6,
+            61.61,
+            36.67
+          ],
+          [
+            61.61,
+            61.69,
+            61.6,
+            61.68,
+            10.74
+          ],
+          [
+            61.68,
+            61.7,
+            61.67,
+            61.69,
+            7.33
+          ],
+          [
+            61.69,
+            61.71,
+            61.69,
+            61.7,
+            5.06
+          ]
+        ]
+      },
+      "composite": {
+        "confidence_pct": 45.1,
+        "direction": "short",
+        "blended_score": -0.366,
+        "aligned": true,
+        "align_factor": 1.2,
+        "regime": "trend",
+        "p_win_learned": 0.437
+      },
+      "structure": {
+        "funding_rate": 0.0,
+        "funding_next": 1785600000000,
+        "open_interest": 119498.5,
+        "long_short_ratio": 3.11,
+        "orderbook_imbalance": 0.21,
+        "structure_bias": -0.237,
+        "bias_parts": {
+          "funding": -0.0,
+          "long_short": -1.0,
+          "orderbook": 0.21
+        }
+      },
+      "indicators_ref": {
+        "rsi": 49.5,
+        "adx": 35.5,
+        "bb_pctb": 0.314,
+        "bb_width_pct": 7.66,
+        "stoch": 48.6,
+        "vwap_dist_pct": -0.97,
+        "divergence": null,
+        "support": 58.85,
+        "resistance": 66.28,
+        "atr_pct": 2.51
+      },
+      "per_tf": {
+        "15m": {
+          "score": 0.0,
+          "direction": "flat",
+          "rsi": 50.8,
+          "trend": "neutral",
+          "macd": -0.014221,
+          "atr_pct": 0.14
+        },
+        "30m": {
+          "score": -0.689,
+          "direction": "short",
+          "rsi": 46.0,
+          "trend": "down",
+          "macd": -0.052385,
+          "atr_pct": 0.23
+        },
+        "1h": {
+          "score": -0.0,
+          "direction": "flat",
+          "rsi": 55.1,
+          "trend": "down",
+          "macd": -0.21167,
+          "atr_pct": 0.28
+        },
+        "4h": {
+          "score": -0.687,
+          "direction": "short",
+          "rsi": 49.5,
+          "trend": "down",
+          "macd": -0.482569,
+          "atr_pct": 2.51
+        },
+        "5m": {
+          "score": 0.0,
+          "direction": "flat",
+          "rsi": 53.3,
+          "trend": "neutral",
+          "macd": 0.000845,
+          "atr_pct": 0.06
+        }
+      },
+      "btc_correlation": 0.572,
+      "relative_strength_pct": -6.29
+    },
+    {
+      "symbol": "SOL/USDT:USDT",
+      "last": 72.8,
+      "breakout": null,
+      "recent_candles": {
+        "tf": "15m",
+        "ohlcv": [
+          [
+            72.94,
+            72.99,
+            72.91,
+            72.96,
+            13295.6
+          ],
+          [
+            72.96,
+            72.98,
+            72.92,
+            72.94,
+            8525.3
+          ],
+          [
+            72.94,
+            72.99,
+            72.91,
+            72.95,
+            7634.8
+          ],
+          [
+            72.95,
+            73.07,
+            72.95,
+            73.04,
+            13980.8
+          ],
+          [
+            73.04,
+            73.05,
+            72.94,
+            72.95,
+            9701.7
+          ],
+          [
+            72.95,
+            72.96,
+            72.88,
+            72.93,
+            11342.1
+          ],
+          [
+            72.93,
+            72.97,
+            72.9,
+            72.93,
+            14200.6
+          ],
+          [
+            72.93,
+            72.97,
+            72.91,
+            72.95,
+            9318.3
+          ],
+          [
+            72.95,
+            73.04,
+            72.94,
+            73.01,
+            15241.3
+          ],
+          [
+            73.01,
+            73.03,
+            72.94,
+            72.95,
+            8987.7
+          ],
+          [
+            72.95,
+            73.02,
+            72.94,
+            73.0,
+            13642.5
+          ],
+          [
+            73.0,
+            73.04,
+            72.93,
+            72.94,
+            14730.9
+          ],
+          [
+            72.94,
+            72.98,
+            72.91,
+            72.92,
+            5548.7
+          ],
+          [
+            72.92,
+            72.94,
+            72.89,
+            72.94,
+            8132.6
+          ],
+          [
+            72.94,
+            72.94,
+            72.79,
+            72.79,
+            13143.7
+          ],
+          [
+            72.79,
+            72.85,
+            72.61,
+            72.76,
+            61799.9
+          ],
+          [
+            72.76,
+            72.86,
+            72.72,
+            72.79,
+            22474.7
+          ],
+          [
+            72.79,
+            72.85,
+            72.75,
+            72.85,
+            14571.0
+          ],
+          [
+            72.85,
+            72.85,
+            72.78,
+            72.8,
+            8619.9
+          ],
+          [
+            72.8,
+            72.81,
+            72.75,
+            72.8,
+            8322.3
+          ]
+        ]
+      },
+      "composite": {
+        "confidence_pct": 42.4,
+        "direction": "short",
+        "blended_score": -0.319,
+        "aligned": true,
+        "align_factor": 1.2,
+        "regime": "trend",
+        "p_win_learned": 0.46
+      },
+      "structure": {
+        "funding_rate": -3.607e-05,
+        "funding_next": 1785600000000,
+        "open_interest": 6147928.1,
+        "long_short_ratio": 2.818,
+        "orderbook_imbalance": 0.022,
+        "structure_bias": -0.277,
+        "bias_parts": {
+          "funding": 0.04,
+          "long_short": -1.0,
+          "orderbook": 0.022
+        }
+      },
+      "indicators_ref": {
+        "rsi": 38.8,
+        "adx": 28.5,
+        "bb_pctb": 0.191,
+        "bb_width_pct": 3.42,
+        "stoch": 10.5,
+        "vwap_dist_pct": -1.14,
+        "divergence": "bullish",
+        "support": 72.24,
+        "resistance": 77.49,
+        "atr_pct": 0.98
+      },
+      "per_tf": {
+        "15m": {
+          "score": -0.9,
+          "direction": "short",
+          "rsi": 39.3,
+          "trend": "down",
+          "macd": -0.04921,
+          "atr_pct": 0.14
+        },
+        "30m": {
+          "score": -0.87,
+          "direction": "short",
+          "rsi": 29.9,
+          "trend": "down",
+          "macd": -0.075317,
+          "atr_pct": 0.19
+        },
+        "1h": {
+          "score": -0.015,
+          "direction": "flat",
+          "rsi": 54.7,
+          "trend": "down",
+          "macd": -0.188645,
+          "atr_pct": 0.28
+        },
+        "4h": {
+          "score": -0.114,
+          "direction": "short",
+          "rsi": 38.8,
+          "trend": "down",
+          "macd": -0.417384,
+          "atr_pct": 0.98
+        },
+        "5m": {
+          "score": -0.293,
+          "direction": "short",
+          "rsi": 45.2,
+          "trend": "down",
+          "macd": -0.033088,
+          "atr_pct": 0.11
+        }
+      },
+      "btc_correlation": 0.859,
+      "relative_strength_pct": -4.22
+    },
+    {
+      "symbol": "EWY/USDT:USDT",
+      "last": 156.89,
+      "breakout": null,
+      "recent_candles": {
+        "tf": "15m",
+        "ohlcv": [
+          [
+            156.3,
+            157.35,
+            156.3,
+            156.85,
+            311.63
+          ],
+          [
+            156.85,
+            157.16,
+            156.61,
+            156.62,
+            118.63
+          ],
+          [
+            156.62,
+            156.71,
+            156.44,
+            156.47,
+            57.04
+          ],
+          [
+            156.47,
+            156.74,
+            156.45,
+            156.67,
+            29.76
+          ],
+          [
+            156.67,
+            156.82,
+            156.61,
+            156.75,
+            45.17
+          ],
+          [
+            156.75,
+            156.76,
+            156.47,
+            156.57,
+            41.93
+          ],
+          [
+            156.57,
+            156.99,
+            156.53,
+            156.76,
+            74.18
+          ],
+          [
+            156.76,
+            156.96,
+            156.71,
+            156.94,
+            57.8
+          ],
+          [
+            156.94,
+            157.49,
+            156.81,
+            157.11,
+            256.91
+          ],
+          [
+            157.11,
+            157.15,
+            156.91,
+            156.91,
+            21.6
+          ],
+          [
+            156.91,
+            156.93,
+            156.59,
+            156.68,
+            43.17
+          ],
+          [
+            156.68,
+            156.78,
+            156.49,
+            156.73,
+            60.07
+          ],
+          [
+            156.73,
+            156.89,
+            156.71,
+            156.84,
+            36.32
+          ],
+          [
+            156.84,
+            156.87,
+            156.7,
+            156.71,
+            20.81
+          ],
+          [
+            156.71,
+            156.85,
+            156.6,
+            156.63,
+            32.88
+          ],
+          [
+            156.63,
+            156.94,
+            156.62,
+            156.69,
+            53.83
+          ],
+          [
+            156.69,
+            156.84,
+            156.69,
+            156.76,
+            6.76
+          ],
+          [
+            156.76,
+            156.93,
+            156.69,
+            156.91,
+            15.7
+          ],
+          [
+            156.91,
+            156.93,
+            156.83,
+            156.85,
+            17.45
+          ],
+          [
+            156.85,
+            156.93,
+            156.84,
+            156.89,
+            2.53
+          ]
+        ]
+      },
+      "composite": {
+        "confidence_pct": 39.7,
+        "direction": "long",
+        "blended_score": 0.275,
+        "aligned": true,
+        "align_factor": 1.2,
+        "regime": "trend",
+        "p_win_learned": 0.554
+      },
+      "structure": {
+        "funding_rate": 0.0,
+        "funding_next": 1785600000000,
+        "open_interest": 39880.92,
+        "long_short_ratio": 1.617,
+        "orderbook_imbalance": -0.085,
+        "structure_bias": -0.211,
+        "bias_parts": {
+          "funding": -0.0,
+          "long_short": -0.62,
+          "orderbook": -0.085
+        }
+      },
+      "indicators_ref": {
+        "rsi": 65.9,
+        "adx": 44.3,
+        "bb_pctb": 0.583,
+        "bb_width_pct": 19.36,
+        "stoch": 55.4,
+        "vwap_dist_pct": 2.71,
+        "divergence": "bullish",
+        "support": 137.26,
+        "resistance": 171.56,
+        "atr_pct": 2.89
+      },
+      "per_tf": {
+        "15m": {
+          "score": 0.214,
+          "direction": "long",
+          "rsi": 59.3,
+          "trend": "neutral",
+          "macd": -0.078103,
+          "atr_pct": 0.17
+        },
+        "30m": {
+          "score": -0.0,
+          "direction": "flat",
+          "rsi": 40.4,
+          "trend": "down",
+          "macd": -0.414892,
+          "atr_pct": 0.34
+        },
+        "1h": {
+          "score": -0.0,
+          "direction": "flat",
+          "rsi": 56.2,
+          "trend": "down",
+          "macd": -0.719735,
+          "atr_pct": 0.46
+        },
+        "4h": {
+          "score": 0.538,
+          "direction": "long",
+          "rsi": 65.9,
+          "trend": "neutral",
+          "macd": 0.307301,
+          "atr_pct": 2.89
+        },
+        "5m": {
+          "score": 0.493,
+          "direction": "long",
+          "rsi": 61.6,
+          "trend": "neutral",
+          "macd": 0.023926,
+          "atr_pct": 0.08
+        }
+      },
+      "btc_correlation": 0.395,
+      "relative_strength_pct": -12.61
+    },
+    {
+      "symbol": "COIN/USDT:USDT",
+      "last": 146.26,
+      "breakout": null,
+      "recent_candles": {
+        "tf": "15m",
+        "ohlcv": [
+          [
+            146.09,
+            146.71,
+            146.09,
+            146.63,
+            50.77
+          ],
+          [
+            146.63,
+            146.64,
+            146.6,
+            146.6,
+            0.67
+          ],
+          [
+            146.6,
+            146.68,
+            146.6,
+            146.68,
+            2.08
+          ],
+          [
+            146.68,
+            146.69,
+            146.58,
+            146.61,
+            3.87
+          ],
+          [
+            146.61,
+            146.62,
+            146.38,
+            146.38,
+            5.56
+          ],
+          [
+            146.38,
+            146.38,
+            146.08,
+            146.16,
+            4.75
+          ],
+          [
+            146.16,
+            146.31,
+            146.16,
+            146.26,
+            3.75
+          ],
+          [
+            146.26,
+            146.38,
+            146.12,
+            146.21,
+            17.85
+          ],
+          [
+            146.21,
+            146.35,
+            146.2,
+            146.2,
+            19.75
+          ],
+          [
+            146.2,
+            146.39,
+            146.2,
+            146.27,
+            4.87
+          ],
+          [
+            146.27,
+            146.32,
+            146.19,
+            146.32,
+            6.57
+          ],
+          [
+            146.32,
+            146.36,
+            146.31,
+            146.33,
+            16.42
+          ],
+          [
+            146.33,
+            146.34,
+            146.28,
+            146.31,
+            2.14
+          ],
+          [
+            146.31,
+            146.31,
+            146.31,
+            146.31,
+            0.0
+          ],
+          [
+            146.31,
+            146.64,
+            146.16,
+            146.53,
+            176.47
+          ],
+          [
+            146.53,
+            146.59,
+            145.87,
+            145.94,
+            28.83
+          ],
+          [
+            145.94,
+            146.02,
+            145.92,
+            145.96,
+            3.87
+          ],
+          [
+            145.96,
+            146.2,
+            145.96,
+            146.2,
+            13.29
+          ],
+          [
+            146.2,
+            146.37,
+            146.2,
+            146.32,
+            5.67
+          ],
+          [
+            146.32,
+            146.32,
+            146.26,
+            146.26,
+            1.18
+          ]
+        ]
+      },
+      "composite": {
+        "confidence_pct": 33.7,
+        "direction": "short",
+        "blended_score": -0.31,
+        "aligned": false,
+        "align_factor": 0.95,
+        "regime": "trend",
+        "p_win_learned": 0.375
+      },
+      "structure": {
+        "funding_rate": 0.0,
+        "funding_next": 1785600000000,
+        "open_interest": 21120.24,
+        "long_short_ratio": 1.947,
+        "orderbook_imbalance": 0.053,
+        "structure_bias": -0.269,
+        "bias_parts": {
+          "funding": -0.0,
+          "long_short": -0.95,
+          "orderbook": 0.053
+        }
+      },
+      "indicators_ref": {
+        "rsi": 29.2,
+        "adx": 65.5,
+        "bb_pctb": 0.183,
+        "bb_width_pct": 20.27,
+        "stoch": 26.2,
+        "vwap_dist_pct": -4.77,
+        "divergence": null,
+        "support": 139.61,
+        "resistance": 169.74,
+        "atr_pct": 3.02
+      },
+      "per_tf": {
+        "15m": {
+          "score": -0.9,
+          "direction": "short",
+          "rsi": 53.2,
+          "trend": "neutral",
+          "macd": -0.038378,
+          "atr_pct": 0.13
+        },
+        "30m": {
+          "score": -0.0,
+          "direction": "flat",
+          "rsi": 51.6,
+          "trend": "down",
+          "macd": -0.311373,
+          "atr_pct": 0.21
+        },
+        "1h": {
+          "score": -0.291,
+          "direction": "short",
+          "rsi": 51.2,
+          "trend": "down",
+          "macd": -1.603029,
+          "atr_pct": 0.32
+        },
+        "4h": {
+          "score": -0.442,
+          "direction": "short",
+          "rsi": 29.2,
+          "trend": "down",
+          "macd": -4.643903,
+          "atr_pct": 3.02
+        },
+        "5m": {
+          "score": 0.512,
+          "direction": "long",
+          "rsi": 46.7,
+          "trend": "neutral",
+          "macd": -0.011962,
+          "atr_pct": 0.1
+        }
+      },
+      "btc_correlation": 0.535,
+      "relative_strength_pct": -6.85
+    },
+    {
+      "symbol": "MU/USDT:USDT",
+      "last": 821.5,
+      "breakout": null,
+      "recent_candles": {
+        "tf": "15m",
+        "ohlcv": [
+          [
+            817.03,
+            821.46,
+            816.94,
+            819.63,
+            117.63
+          ],
+          [
+            819.63,
+            820.99,
+            818.31,
+            818.56,
+            41.01
+          ],
+          [
+            818.56,
+            819.31,
+            818.16,
+            818.23,
+            22.99
+          ],
+          [
+            818.23,
+            819.22,
+            818.14,
+            818.74,
+            70.43
+          ],
+          [
+            818.74,
+            819.14,
+            818.39,
+            818.5,
+            34.99
+          ],
+          [
+            818.5,
+            819.92,
+            818.19,
+            819.6,
+            58.66
+          ],
+          [
+            819.6,
+            821.94,
+            818.99,
+            821.29,
+            72.8
+          ],
+          [
+            821.29,
+            822.66,
+            821.03,
+            821.58,
+            53.6
+          ],
+          [
+            821.58,
+            822.96,
+            820.78,
+            821.6,
+            43.26
+          ],
+          [
+            821.6,
+            821.6,
+            819.83,
+            820.47,
+            48.36
+          ],
+          [
+            820.47,
+            820.72,
+            818.95,
+            818.95,
+            22.2
+          ],
+          [
+            818.95,
+            820.3,
+            818.9,
+            819.45,
+            46.75
+          ],
+          [
+            819.45,
+            821.0,
+            819.45,
+            821.0,
+            12.76
+          ],
+          [
+            821.0,
+            821.08,
+            819.97,
+            820.24,
+            31.74
+          ],
+          [
+            820.24,
+            820.64,
+            819.23,
+            820.32,
+            15.58
+          ],
+          [
+            820.32,
+            821.28,
+            820.0,
+            820.8,
+            17.79
+          ],
+          [
+            820.8,
+            821.15,
+            820.14,
+            820.47,
+            9.04
+          ],
+          [
+            820.47,
+            821.72,
+            820.14,
+            821.27,
+            12.48
+          ],
+          [
+            821.27,
+            821.8,
+            821.11,
+            821.73,
+            11.6
+          ],
+          [
+            821.73,
+            821.73,
+            821.48,
+            821.5,
+            2.97
+          ]
+        ]
+      },
+      "composite": {
+        "confidence_pct": 31.9,
+        "direction": "long",
+        "blended_score": 0.207,
+        "aligned": false,
+        "align_factor": 1.0,
+        "regime": "trend",
+        "p_win_learned": 0.549
+      },
+      "structure": {
+        "funding_rate": 0.0,
+        "funding_next": 1785600000000,
+        "open_interest": 22134.4,
+        "long_short_ratio": 1.539,
+        "orderbook_imbalance": 0.057,
+        "structure_bias": -0.145,
+        "bias_parts": {
+          "funding": -0.0,
+          "long_short": -0.54,
+          "orderbook": 0.057
+        }
+      },
+      "indicators_ref": {
+        "rsi": 63.7,
+        "adx": 35.6,
+        "bb_pctb": 0.509,
+        "bb_width_pct": 28.76,
+        "stoch": 48.7,
+        "vwap_dist_pct": 1.22,
+        "divergence": null,
+        "support": 706.21,
+        "resistance": 987.38,
+        "atr_pct": 4.64
+      },
+      "per_tf": {
+        "15m": {
+          "score": 0.666,
+          "direction": "long",
+          "rsi": 59.7,
+          "trend": "up",
+          "macd": 0.460796,
+          "atr_pct": 0.18
+        },
+        "30m": {
+          "score": 0.57,
+          "direction": "long",
+          "rsi": 60.1,
+          "trend": "neutral",
+          "macd": -3.089567,
+          "atr_pct": 0.25
+        },
+        "1h": {
+          "score": -0.759,
+          "direction": "short",
+          "rsi": 59.3,
+          "trend": "down",
+          "macd": -9.187128,
+          "atr_pct": 0.43
+        },
+        "4h": {
+          "score": 0.394,
+          "direction": "long",
+          "rsi": 63.7,
+          "trend": "neutral",
+          "macd": -8.121086,
+          "atr_pct": 4.64
+        },
+        "5m": {
+          "score": 0.887,
+          "direction": "long",
+          "rsi": 69.8,
+          "trend": "up",
+          "macd": 0.372207,
+          "atr_pct": 0.08
+        }
+      },
+      "btc_correlation": 0.376,
+      "relative_strength_pct": -14.59
+    },
+    {
+      "symbol": "AAPL/USDT:USDT",
+      "last": 307.65,
+      "breakout": null,
+      "recent_candles": {
+        "tf": "15m",
+        "ohlcv": [
+          [
+            307.63,
+            307.65,
+            307.32,
+            307.42,
+            3.28
+          ],
+          [
+            307.42,
+            307.54,
+            307.21,
+            307.54,
+            4.06
+          ],
+          [
+            307.54,
+            307.59,
+            307.34,
+            307.41,
+            7.38
+          ],
+          [
+            307.41,
+            307.41,
+            307.01,
+            307.06,
+            6.24
+          ],
+          [
+            307.06,
+            307.28,
+            306.89,
+            307.28,
+            25.92
+          ],
+          [
+            307.28,
+            307.42,
+            307.28,
+            307.41,
+            7.87
+          ],
+          [
+            307.41,
+            307.63,
+            307.41,
+            307.56,
+            40.47
+          ],
+          [
+            307.56,
+            307.8,
+            307.37,
+            307.64,
+            52.51
+          ],
+          [
+            307.64,
+            307.71,
+            306.55,
+            306.7,
+            64.92
+          ],
+          [
+            306.7,
+            307.9,
+            306.67,
+            307.68,
+            32.12
+          ],
+          [
+            307.68,
+            307.79,
+            307.43,
+            307.54,
+            1692.27
+          ],
+          [
+            307.54,
+            307.78,
+            307.54,
+            307.77,
+            1690.99
+          ],
+          [
+            307.77,
+            307.8,
+            307.39,
+            307.44,
+            13.37
+          ],
+          [
+            307.44,
+            307.93,
+            307.41,
+            307.92,
+            308.56
+          ],
+          [
+            307.92,
+            307.99,
+            307.91,
+            307.96,
+            33.74
+          ],
+          [
+            307.96,
+            308.16,
+            307.83,
+            307.83,
+            131.92
+          ],
+          [
+            307.83,
+            308.03,
+            307.82,
+            307.97,
+            11.69
+          ],
+          [
+            307.97,
+            308.17,
+            307.97,
+            308.04,
+            2.36
+          ],
+          [
+            308.04,
+            308.3,
+            308.04,
+            308.23,
+            2368.83
+          ],
+          [
+            308.23,
+            308.23,
+            307.65,
+            307.65,
+            6.78
+          ]
+        ]
+      },
+      "composite": {
+        "confidence_pct": 29.3,
+        "direction": "short",
+        "blended_score": -0.177,
+        "aligned": true,
+        "align_factor": 1.2,
+        "regime": "trend",
+        "p_win_learned": 0.434
+      },
+      "structure": {
+        "funding_rate": 0.0,
+        "funding_next": 1785600000000,
+        "open_interest": 13511.96,
+        "long_short_ratio": 1.53,
+        "orderbook_imbalance": 0.302,
+        "structure_bias": -0.068,
+        "bias_parts": {
+          "funding": -0.0,
+          "long_short": -0.53,
+          "orderbook": 0.302
+        }
+      },
+      "indicators_ref": {
+        "rsi": 20.1,
+        "adx": 92.7,
+        "bb_pctb": 0.233,
+        "bb_width_pct": 18.55,
+        "stoch": 17.6,
+        "vwap_dist_pct": -4.4,
+        "divergence": null,
+        "support": 300.54,
+        "resistance": 345.18,
+        "atr_pct": 2.1
+      },
+      "per_tf": {
+        "15m": {
+          "score": 0.0,
+          "direction": "flat",
+          "rsi": 52.7,
+          "trend": "neutral",
+          "macd": 0.128998,
+          "atr_pct": 0.14
+        },
+        "30m": {
+          "score": -0.518,
+          "direction": "short",
+          "rsi": 48.4,
+          "trend": "neutral",
+          "macd": 0.128807,
+          "atr_pct": 0.17
+        },
+        "1h": {
+          "score": 0.0,
+          "direction": "flat",
+          "rsi": 57.5,
+          "trend": "neutral",
+          "macd": -1.356133,
+          "atr_pct": 0.23
+        },
+        "4h": {
+          "score": -0.258,
+          "direction": "short",
+          "rsi": 20.1,
+          "trend": "down",
+          "macd": -7.908184,
+          "atr_pct": 2.1
+        },
+        "5m": {
+          "score": -0.0,
+          "direction": "flat",
+          "rsi": 39.6,
+          "trend": "neutral",
+          "macd": 0.098595,
+          "atr_pct": 0.05
+        }
+      },
+      "btc_correlation": -0.006,
+      "relative_strength_pct": -0.53
+    },
+    {
+      "symbol": "MSFT/USDT:USDT",
+      "last": 461.2,
+      "breakout": null,
+      "recent_candles": {
+        "tf": "15m",
+        "ohlcv": [
+          [
+            461.88,
+            461.95,
+            461.78,
+            461.93,
+            0.54
+          ],
+          [
+            461.93,
+            462.11,
+            461.93,
+            462.06,
+            0.7
+          ],
+          [
+            462.06,
+            462.12,
+            461.95,
+            461.98,
+            4.41
+          ],
+          [
+            461.98,
+            462.05,
+            461.63,
+            461.66,
+            10.36
+          ],
+          [
+            461.66,
+            461.68,
+            460.91,
+            460.91,
+            5.58
+          ],
+          [
+            460.91,
+            461.23,
+            460.91,
+            460.94,
+            9.81
+          ],
+          [
+            460.94,
+            461.24,
+            460.89,
+            461.24,
+            65.15
+          ],
+          [
+            461.24,
+            461.69,
+            461.24,
+            461.38,
+            2.75
+          ],
+          [
+            461.38,
+            461.62,
+            461.3,
+            461.3,
+            4.04
+          ],
+          [
+            461.3,
+            461.35,
+            461.06,
+            461.11,
+            4.0
+          ],
+          [
+            461.11,
+            461.2,
+            460.79,
+            460.79,
+            12.01
+          ],
+          [
+            460.79,
+            461.69,
+            460.79,
+            461.12,
+            14.53
+          ],
+          [
+            461.12,
+            461.2,
+            461.01,
+            461.2,
+            0.76
+          ],
+          [
+            461.2,
+            461.32,
+            461.09,
+            461.28,
+            3.84
+          ],
+          [
+            461.28,
+            461.28,
+            461.11,
+            461.11,
+            0.03
+          ],
+          [
+            461.11,
+            462.0,
+            461.11,
+            461.33,
+            16.74
+          ],
+          [
+            461.33,
+            461.39,
+            461.23,
+            461.37,
+            3.28
+          ],
+          [
+            461.37,
+            461.37,
+            461.01,
+            461.27,
+            1.43
+          ],
+          [
+            461.27,
+            461.62,
+            461.27,
+            461.51,
+            2.28
+          ],
+          [
+            461.51,
+            461.51,
+            461.2,
+            461.2,
+            1.91
+          ]
+        ]
+      },
+      "composite": {
+        "confidence_pct": 29.0,
+        "direction": "short",
+        "blended_score": -0.137,
+        "aligned": false,
+        "align_factor": 0.95,
+        "regime": "trend",
+        "p_win_learned": 0.588
+      },
+      "structure": {
+        "funding_rate": 0.0,
+        "funding_next": 1785600000000,
+        "open_interest": 9349.18,
+        "long_short_ratio": 0.979,
+        "orderbook_imbalance": -0.027,
+        "structure_bias": -0.002,
+        "bias_parts": {
+          "funding": -0.0,
+          "long_short": 0.02,
+          "orderbook": -0.027
+        }
+      },
+      "indicators_ref": {
+        "rsi": 83.0,
+        "adx": 73.8,
+        "bb_pctb": 0.739,
+        "bb_width_pct": 22.85,
+        "stoch": 87.9,
+        "vwap_dist_pct": 6.87,
+        "divergence": null,
+        "support": 380.31,
+        "resistance": 467.22,
+        "atr_pct": 1.73
+      },
+      "per_tf": {
+        "15m": {
+          "score": -0.9,
+          "direction": "short",
+          "rsi": 55.0,
+          "trend": "down",
+          "macd": -0.075055,
+          "atr_pct": 0.08
+        },
+        "30m": {
+          "score": -0.289,
+          "direction": "short",
+          "rsi": 49.5,
+          "trend": "neutral",
+          "macd": 0.310154,
+          "atr_pct": 0.2
+        },
+        "1h": {
+          "score": -0.0,
+          "direction": "flat",
+          "rsi": 46.6,
+          "trend": "neutral",
+          "macd": 2.690259,
+          "atr_pct": 0.34
+        },
+        "4h": {
+          "score": 0.161,
+          "direction": "long",
+          "rsi": 83.0,
+          "trend": "up",
+          "macd": 17.328417,
+          "atr_pct": 1.73
+        },
+        "5m": {
+          "score": -0.459,
+          "direction": "short",
+          "rsi": 51.8,
+          "trend": "neutral",
+          "macd": 0.021784,
+          "atr_pct": 0.05
+        }
+      },
+      "btc_correlation": 0.137,
+      "relative_strength_pct": 21.91
+    },
+    {
+      "symbol": "EWJ/USDT:USDT",
+      "last": 91.91,
+      "breakout": null,
+      "recent_candles": {
+        "tf": "15m",
+        "ohlcv": [
+          [
+            92.11,
+            92.11,
+            92.11,
+            92.11,
+            0.0
+          ],
+          [
+            92.11,
+            92.11,
+            92.11,
+            92.11,
+            0.0
+          ],
+          [
+            92.11,
+            92.11,
+            92.11,
+            92.11,
+            0.0
+          ],
+          [
+            92.11,
+            92.11,
+            92.11,
+            92.11,
+            1.45
+          ],
+          [
+            92.11,
+            92.11,
+            92.11,
+            92.11,
+            0.0
+          ],
+          [
+            92.11,
+            92.11,
+            92.11,
+            92.11,
+            0.0
+          ],
+          [
+            92.11,
+            92.11,
+            92.11,
+            92.11,
+            0.0
+          ],
+          [
+            92.11,
+            92.17,
+            92.11,
+            92.17,
+            1.44
+          ],
+          [
+            92.17,
+            92.17,
+            92.17,
+            92.17,
+            0.0
+          ],
+          [
+            92.17,
+            92.17,
+            91.86,
+            92.01,
+            0.6
+          ],
+          [
+            92.01,
+            92.01,
+            92.01,
+            92.01,
+            0.0
+          ],
+          [
+            92.01,
+            92.01,
+            92.01,
+            92.01,
+            0.0
+          ],
+          [
+            92.01,
+            92.01,
+            92.01,
+            92.01,
+            0.0
+          ],
+          [
+            92.01,
+            92.01,
+            92.01,
+            92.01,
+            0.0
+          ],
+          [
+            92.01,
+            92.01,
+            92.01,
+            92.01,
+            0.0
+          ],
+          [
+            92.01,
+            92.01,
+            92.01,
+            92.01,
+            0.0
+          ],
+          [
+            92.01,
+            92.01,
+            92.01,
+            92.01,
+            0.0
+          ],
+          [
+            92.01,
+            92.01,
+            92.01,
+            92.01,
+            0.0
+          ],
+          [
+            92.01,
+            92.01,
+            92.01,
+            92.01,
+            0.0
+          ],
+          [
+            92.01,
+            92.01,
+            91.85,
+            91.91,
+            2.97
+          ]
+        ]
+      },
+      "composite": {
+        "confidence_pct": 25.8,
+        "direction": "short",
+        "blended_score": -0.122,
+        "aligned": false,
+        "align_factor": 1.0,
+        "regime": "trend",
+        "p_win_learned": 0.472
+      },
+      "structure": {
+        "funding_rate": 0.0,
+        "funding_next": 1785600000000,
+        "open_interest": 3099.76,
+        "long_short_ratio": 1.606,
+        "orderbook_imbalance": -0.277,
+        "structure_bias": -0.266,
+        "bias_parts": {
+          "funding": -0.0,
+          "long_short": -0.61,
+          "orderbook": -0.277
+        }
+      },
+      "indicators_ref": {
+        "rsi": 63.7,
+        "adx": 30.8,
+        "bb_pctb": 0.581,
+        "bb_width_pct": 5.97,
+        "stoch": 63.5,
+        "vwap_dist_pct": 0.81,
+        "divergence": null,
+        "support": 88.6,
+        "resistance": 93.62,
+        "atr_pct": 1.06
+      },
+      "per_tf": {
+        "15m": {
+          "score": -0.294,
+          "direction": "short",
+          "rsi": 18.8,
+          "trend": "down",
+          "macd": -0.062306,
+          "atr_pct": 0.04
+        },
+        "30m": {
+          "score": -0.327,
+          "direction": "short",
+          "rsi": 27.5,
+          "trend": "down",
+          "macd": -0.100077,
+          "atr_pct": 0.1
+        },
+        "1h": {
+          "score": -0.853,
+          "direction": "short",
+          "rsi": 31.5,
+          "trend": "down",
+          "macd": -0.075746,
+          "atr_pct": 0.14
+        },
+        "4h": {
+          "score": 0.547,
+          "direction": "long",
+          "rsi": 63.7,
+          "trend": "up",
+          "macd": 0.377422,
+          "atr_pct": 1.06
+        },
+        "5m": {
+          "score": -0.3,
+          "direction": "short",
+          "rsi": 0.0,
+          "trend": "down",
+          "macd": -0.020691,
+          "atr_pct": 0.01
+        }
+      },
+      "btc_correlation": 0.456,
+      "relative_strength_pct": -1.54
+    },
+    {
+      "symbol": "TSLA/USDT:USDT",
+      "last": 309.71,
+      "breakout": null,
+      "recent_candles": {
+        "tf": "15m",
+        "ohlcv": [
+          [
+            310.08,
+            310.45,
+            310.07,
+            310.4,
+            5.23
+          ],
+          [
+            310.4,
+            310.71,
+            310.29,
+            310.42,
+            51.28
+          ],
+          [
+            310.42,
+            310.42,
+            310.17,
+            310.19,
+            15.46
+          ],
+          [
+            310.19,
+            310.19,
+            310.04,
+            310.07,
+            14.69
+          ],
+          [
+            310.07,
+            310.07,
+            309.92,
+            309.92,
+            37.25
+          ],
+          [
+            309.92,
+            309.96,
+            309.83,
+            309.83,
+            25.66
+          ],
+          [
+            309.83,
+            310.07,
+            309.78,
+            310.07,
+            43.22
+          ],
+          [
+            310.07,
+            310.09,
+            309.88,
+            310.03,
+            18.18
+          ],
+          [
+            310.03,
+            310.24,
+            309.95,
+            310.09,
+            17.34
+          ],
+          [
+            310.09,
+            310.09,
+            309.81,
+            309.92,
+            25.5
+          ],
+          [
+            309.92,
+            309.92,
+            309.78,
+            309.84,
+            71.9
+          ],
+          [
+            309.84,
+            309.85,
+            309.71,
+            309.74,
+            51.68
+          ],
+          [
+            309.74,
+            309.83,
+            309.74,
+            309.83,
+            26.26
+          ],
+          [
+            309.83,
+            309.95,
+            309.83,
+            309.95,
+            4.83
+          ],
+          [
+            309.95,
+            310.16,
+            309.71,
+            309.77,
+            16.41
+          ],
+          [
+            309.77,
+            309.95,
+            309.7,
+            309.79,
+            3.56
+          ],
+          [
+            309.79,
+            309.86,
+            309.75,
+            309.83,
+            15.46
+          ],
+          [
+            309.83,
+            309.87,
+            309.71,
+            309.76,
+            11.97
+          ],
+          [
+            309.76,
+            309.79,
+            309.7,
+            309.73,
+            17.95
+          ],
+          [
+            309.73,
+            309.73,
+            309.71,
+            309.71,
+            0.2
+          ]
+        ]
+      },
+      "composite": {
+        "confidence_pct": 24.0,
+        "direction": "short",
+        "blended_score": -0.131,
+        "aligned": false,
+        "align_factor": 0.95,
+        "regime": "trend",
+        "p_win_learned": 0.418
+      },
+      "structure": {
+        "funding_rate": 0.0,
+        "funding_next": 1785600000000,
+        "open_interest": 40141.14,
+        "long_short_ratio": 3.331,
+        "orderbook_imbalance": 0.19,
+        "structure_bias": -0.243,
+        "bias_parts": {
+          "funding": -0.0,
+          "long_short": -1.0,
+          "orderbook": 0.19
+        }
+      },
+      "indicators_ref": {
+        "rsi": 66.3,
+        "adx": 42.9,
+        "bb_pctb": 0.629,
+        "bb_width_pct": 6.67,
+        "stoch": 49.5,
+        "vwap_dist_pct": 0.99,
+        "divergence": null,
+        "support": 293.99,
+        "resistance": 325.96,
+        "atr_pct": 1.75
+      },
+      "per_tf": {
+        "15m": {
+          "score": -0.595,
+          "direction": "short",
+          "rsi": 45.2,
+          "trend": "down",
+          "macd": -0.093606,
+          "atr_pct": 0.06
+        },
+        "30m": {
+          "score": -0.0,
+          "direction": "flat",
+          "rsi": 34.1,
+          "trend": "down",
+          "macd": -0.154633,
+          "atr_pct": 0.1
+        },
+        "1h": {
+          "score": -0.9,
+          "direction": "short",
+          "rsi": 45.6,
+          "trend": "down",
+          "macd": -0.105115,
+          "atr_pct": 0.17
+        },
+        "4h": {
+          "score": 0.488,
+          "direction": "long",
+          "rsi": 66.3,
+          "trend": "neutral",
+          "macd": -0.453778,
+          "atr_pct": 1.75
+        },
+        "5m": {
+          "score": -0.153,
+          "direction": "short",
+          "rsi": 23.5,
+          "trend": "down",
+          "macd": -0.055132,
+          "atr_pct": 0.03
+        }
+      },
+      "btc_correlation": 0.374,
+      "relative_strength_pct": -22.5
+    },
+    {
+      "symbol": "QQQ/USDT:USDT",
+      "last": 687.36,
+      "breakout": null,
+      "recent_candles": {
+        "tf": "15m",
+        "ohlcv": [
+          [
+            687.42,
+            687.91,
+            687.23,
+            687.89,
+            12.6
+          ],
+          [
+            687.89,
+            687.89,
+            687.68,
+            687.75,
+            4.04
+          ],
+          [
+            687.75,
+            687.84,
+            687.55,
+            687.74,
+            11.78
+          ],
+          [
+            687.74,
+            687.74,
+            687.4,
+            687.58,
+            17.31
+          ],
+          [
+            687.58,
+            687.63,
+            687.51,
+            687.51,
+            1.01
+          ],
+          [
+            687.51,
+            687.6,
+            687.31,
+            687.59,
+            265.67
+          ],
+          [
+            687.59,
+            687.74,
+            687.58,
+            687.72,
+            4.21
+          ],
+          [
+            687.72,
+            687.73,
+            687.51,
+            687.53,
+            6.29
+          ],
+          [
+            687.53,
+            687.71,
+            687.53,
+            687.66,
+            4.06
+          ],
+          [
+            687.66,
+            687.72,
+            687.4,
+            687.63,
+            47.27
+          ],
+          [
+            687.63,
+            687.63,
+            687.43,
+            687.51,
+            3.13
+          ],
+          [
+            687.51,
+            687.54,
+            687.12,
+            687.25,
+            5.7
+          ],
+          [
+            687.25,
+            687.39,
+            687.24,
+            687.33,
+            2.38
+          ],
+          [
+            687.33,
+            687.44,
+            687.31,
+            687.32,
+            4.5
+          ],
+          [
+            687.32,
+            688.09,
+            687.31,
+            687.62,
+            17.01
+          ],
+          [
+            687.62,
+            687.63,
+            687.3,
+            687.31,
+            14.09
+          ],
+          [
+            687.31,
+            687.45,
+            687.3,
+            687.38,
+            13.74
+          ],
+          [
+            687.38,
+            687.39,
+            687.32,
+            687.33,
+            1.25
+          ],
+          [
+            687.33,
+            687.39,
+            687.33,
+            687.38,
+            2.33
+          ],
+          [
+            687.38,
+            687.38,
+            687.36,
+            687.36,
+            0.16
+          ]
+        ]
+      },
+      "composite": {
+        "confidence_pct": 9.0,
+        "direction": "flat",
+        "blended_score": -0.09,
+        "aligned": false,
+        "align_factor": 1.0,
+        "regime": "trend"
+      },
+      "structure": {
+        "funding_rate": 0.0,
+        "funding_next": 1785600000000,
+        "open_interest": 7561.3,
+        "long_short_ratio": 1.261,
+        "orderbook_imbalance": 0.27,
+        "structure_bias": 0.003,
+        "bias_parts": {
+          "funding": -0.0,
+          "long_short": -0.26,
+          "orderbook": 0.27
+        }
+      },
+      "indicators_ref": {
+        "rsi": 71.9,
+        "adx": 34.3,
+        "bb_pctb": 0.675,
+        "bb_width_pct": 5.69,
+        "stoch": 72.9,
+        "vwap_dist_pct": 1.18,
+        "divergence": null,
+        "support": 658.65,
+        "resistance": 696.35,
+        "atr_pct": 0.83
+      },
+      "per_tf": {
+        "15m": {
+          "score": -0.339,
+          "direction": "short",
+          "rsi": 43.4,
+          "trend": "neutral",
+          "macd": -0.031175,
+          "atr_pct": 0.03
+        },
+        "30m": {
+          "score": -0.227,
+          "direction": "short",
+          "rsi": 47.3,
+          "trend": "down",
+          "macd": -0.09292,
+          "atr_pct": 0.05
+        },
+        "1h": {
+          "score": -0.594,
+          "direction": "short",
+          "rsi": 72.4,
+          "trend": "neutral",
+          "macd": 0.182415,
+          "atr_pct": 0.1
+        },
+        "4h": {
+          "score": 0.535,
+          "direction": "long",
+          "rsi": 71.9,
+          "trend": "neutral",
+          "macd": 1.772291,
+          "atr_pct": 0.83
+        },
+        "5m": {
+          "score": -0.733,
+          "direction": "short",
+          "rsi": 32.4,
+          "trend": "down",
+          "macd": -0.029017,
+          "atr_pct": 0.01
+        }
+      },
+      "btc_correlation": 0.456,
+      "relative_strength_pct": -3.76
+    },
+    {
+      "symbol": "META/USDT:USDT",
+      "last": 555.24,
+      "breakout": null,
+      "recent_candles": {
+        "tf": "15m",
+        "ohlcv": [
+          [
+            554.18,
+            555.5,
+            554.18,
+            554.96,
+            66.7
+          ],
+          [
+            554.96,
+            555.1,
+            554.68,
+            554.78,
+            13.82
+          ],
+          [
+            554.78,
+            554.95,
+            554.65,
+            554.73,
+            1.84
+          ],
+          [
+            554.73,
+            554.96,
+            554.63,
+            554.81,
+            22.92
+          ],
+          [
+            554.81,
+            554.96,
+            554.61,
+            554.63,
+            7.82
+          ],
+          [
+            554.63,
+            554.77,
+            554.58,
+            554.71,
+            6.14
+          ],
+          [
+            554.71,
+            554.85,
+            554.3,
+            554.83,
+            8.8
+          ],
+          [
+            554.83,
+            554.87,
+            554.63,
+            554.86,
+            0.98
+          ],
+          [
+            554.86,
+            555.0,
+            554.52,
+            554.53,
+            14.34
+          ],
+          [
+            554.53,
+            555.14,
+            554.26,
+            554.86,
+            10.4
+          ],
+          [
+            554.86,
+            555.51,
+            554.83,
+            555.51,
+            4.05
+          ],
+          [
+            555.51,
+            556.38,
+            555.43,
+            555.43,
+            125.85
+          ],
+          [
+            555.43,
+            556.12,
+            555.28,
+            555.34,
+            224.63
+          ],
+          [
+            555.34,
+            555.57,
+            555.23,
+            555.23,
+            10.94
+          ],
+          [
+            555.23,
+            555.48,
+            555.22,
+            555.37,
+            2.44
+          ],
+          [
+            555.37,
+            555.62,
+            555.05,
+            555.2,
+            11.34
+          ],
+          [
+            555.2,
+            555.38,
+            554.7,
+            554.7,
+            1.34
+          ],
+          [
+            554.7,
+            555.65,
+            554.7,
+            555.63,
+            3.82
+          ],
+          [
+            555.63,
+            555.66,
+            555.52,
+            555.55,
+            2.1
+          ],
+          [
+            555.55,
+            555.63,
+            555.24,
+            555.24,
+            0.5
+          ]
+        ]
+      },
+      "composite": {
+        "confidence_pct": 8.5,
+        "direction": "flat",
+        "blended_score": 0.118,
+        "aligned": true,
+        "align_factor": 1.2,
+        "regime": "chop",
+        "raw_direction": "long",
+        "regime_blocked": true
+      },
+      "structure": {
+        "funding_rate": 2.54e-06,
+        "funding_next": 1785600000000,
+        "open_interest": 10132.2,
+        "long_short_ratio": 1.571,
+        "orderbook_imbalance": 0.08,
+        "structure_bias": -0.147,
+        "bias_parts": {
+          "funding": -0.0,
+          "long_short": -0.57,
+          "orderbook": 0.08
+        }
+      },
+      "indicators_ref": {
+        "rsi": 59.0,
+        "adx": 2.9,
+        "bb_pctb": 0.499,
+        "bb_width_pct": 14.48,
+        "stoch": 87.6,
+        "vwap_dist_pct": 1.55,
+        "divergence": null,
+        "support": 520.27,
+        "resistance": 611.43,
+        "atr_pct": 1.52
+      },
+      "per_tf": {
+        "15m": {
+          "score": 0.0,
+          "direction": "flat",
+          "rsi": 56.8,
+          "trend": "neutral",
+          "macd": 0.143196,
+          "atr_pct": 0.1
+        },
+        "30m": {
+          "score": 0.599,
+          "direction": "long",
+          "rsi": 56.5,
+          "trend": "up",
+          "macd": 0.480321,
+          "atr_pct": 0.13
+        },
+        "1h": {
+          "score": 0.105,
+          "direction": "long",
+          "rsi": 41.8,
+          "trend": "up",
+          "macd": 1.599844,
+          "atr_pct": 0.18
+        },
+        "4h": {
+          "score": -0.0,
+          "direction": "flat",
+          "rsi": 59.0,
+          "trend": "down",
+          "macd": -9.392703,
+          "atr_pct": 1.52
+        },
+        "5m": {
+          "score": -0.0,
+          "direction": "flat",
+          "rsi": 50.0,
+          "trend": "neutral",
+          "macd": 0.070784,
+          "atr_pct": 0.05
+        }
+      },
+      "btc_correlation": 0.127,
+      "relative_strength_pct": -15.58
+    },
+    {
+      "symbol": "GOOGL/USDT:USDT",
+      "last": 353.96,
+      "breakout": null,
+      "recent_candles": {
+        "tf": "15m",
+        "ohlcv": [
+          [
+            354.12,
+            354.12,
+            354.02,
+            354.07,
+            3.3
+          ],
+          [
+            354.07,
+            354.69,
+            354.07,
+            354.66,
+            13.59
+          ],
+          [
+            354.66,
+            354.74,
+            354.58,
+            354.59,
+            4.29
+          ],
+          [
+            354.59,
+            354.7,
+            354.37,
+            354.52,
+            11.21
+          ],
+          [
+            354.52,
+            354.57,
+            354.37,
+            354.37,
+            9.36
+          ],
+          [
+            354.37,
+            354.41,
+            354.16,
+            354.16,
+            24.38
+          ],
+          [
+            354.16,
+            354.38,
+            354.07,
+            354.3,
+            4.04
+          ],
+          [
+            354.3,
+            354.37,
+            354.14,
+            354.14,
+            6.35
+          ],
+          [
+            354.14,
+            354.29,
+            354.13,
+            354.29,
+            1.69
+          ],
+          [
+            354.29,
+            354.39,
+            354.23,
+            354.29,
+            2.08
+          ],
+          [
+            354.29,
+            354.34,
+            354.19,
+            354.22,
+            63.77
+          ],
+          [
+            354.22,
+            354.29,
+            354.02,
+            354.03,
+            2.76
+          ],
+          [
+            354.03,
+            354.1,
+            353.9,
+            354.08,
+            1.88
+          ],
+          [
+            354.08,
+            354.28,
+            354.08,
+            354.23,
+            5.01
+          ],
+          [
+            354.23,
+            354.23,
+            354.07,
+            354.12,
+            3.4
+          ],
+          [
+            354.12,
+            354.68,
+            353.98,
+            354.17,
+            5.63
+          ],
+          [
+            354.17,
+            354.35,
+            354.04,
+            354.32,
+            21.43
+          ],
+          [
+            354.32,
+            354.77,
+            354.31,
+            354.54,
+            10.27
+          ],
+          [
+            354.54,
+            354.8,
+            354.01,
+            354.07,
+            29.12
+          ],
+          [
+            354.07,
+            354.07,
+            353.96,
+            353.96,
+            6.26
+          ]
+        ]
+      },
+      "composite": {
+        "confidence_pct": 5.9,
+        "direction": "flat",
+        "blended_score": -0.068,
+        "aligned": false,
+        "align_factor": 0.87,
+        "regime": "trend"
+      },
+      "structure": {
+        "funding_rate": 0.0,
+        "funding_next": 1785600000000,
+        "open_interest": 12397.78,
+        "long_short_ratio": 2.373,
+        "orderbook_imbalance": -0.292,
+        "structure_bias": -0.388,
+        "bias_parts": {
+          "funding": -0.0,
+          "long_short": -1.0,
+          "orderbook": -0.292
+        }
+      },
+      "indicators_ref": {
+        "rsi": 74.9,
+        "adx": 70.5,
+        "bb_pctb": 0.863,
+        "bb_width_pct": 9.81,
+        "stoch": 82.7,
+        "vwap_dist_pct": 4.87,
+        "divergence": null,
+        "support": 315.34,
+        "resistance": 358.78,
+        "atr_pct": 1.26
+      },
+      "per_tf": {
+        "15m": {
+          "score": -0.071,
+          "direction": "flat",
+          "rsi": 45.0,
+          "trend": "neutral",
+          "macd": -0.010709,
+          "atr_pct": 0.08
+        },
+        "30m": {
+          "score": -0.138,
+          "direction": "short",
+          "rsi": 44.6,
+          "trend": "neutral",
+          "macd": 0.493757,
+          "atr_pct": 0.11
+        },
+        "1h": {
+          "score": -0.58,
+          "direction": "short",
+          "rsi": 55.1,
+          "trend": "neutral",
+          "macd": 2.472719,
+          "atr_pct": 0.19
+        },
+        "4h": {
+          "score": 0.289,
+          "direction": "long",
+          "rsi": 74.9,
+          "trend": "up",
+          "macd": 6.391726,
+          "atr_pct": 1.26
+        },
+        "5m": {
+          "score": -0.013,
+          "direction": "flat",
+          "rsi": 45.8,
+          "trend": "neutral",
+          "macd": 0.014679,
+          "atr_pct": 0.07
+        }
+      },
+      "btc_correlation": 0.16,
+      "relative_strength_pct": 0.48
+    },
+    {
+      "symbol": "BTC/USDT:USDT",
+      "last": 63015.1,
+      "breakout": null,
+      "recent_candles": {
+        "tf": "15m",
+        "ohlcv": [
+          [
+            62999.9,
+            63043.1,
+            62981.1,
+            63033.9,
+            56.157
+          ],
+          [
+            63033.9,
+            63046.6,
+            63023.0,
+            63030.4,
+            72.844
+          ],
+          [
+            63030.4,
+            63047.7,
+            63020.7,
+            63046.0,
+            41.354
+          ],
+          [
+            63046.0,
+            63081.8,
+            63045.9,
+            63078.1,
+            35.8
+          ],
+          [
+            63078.1,
+            63078.2,
+            63033.2,
+            63035.2,
+            109.974
+          ],
+          [
+            63035.2,
+            63035.3,
+            62999.0,
+            63008.1,
+            151.952
+          ],
+          [
+            63008.1,
+            63016.9,
+            63007.8,
+            63011.1,
+            154.812
+          ],
+          [
+            63011.1,
+            63067.4,
+            63011.1,
+            63067.4,
+            81.109
+          ],
+          [
+            63067.4,
+            63067.4,
+            63054.8,
+            63054.9,
+            40.564
+          ],
+          [
+            63054.9,
+            63076.5,
+            63054.8,
+            63065.0,
+            71.785
+          ],
+          [
+            63065.0,
+            63118.3,
+            63052.0,
+            63090.0,
+            137.282
+          ],
+          [
+            63090.0,
+            63110.4,
+            63074.1,
+            63081.4,
+            241.618
+          ],
+          [
+            63081.4,
+            63098.0,
+            63068.1,
+            63082.1,
+            79.877
+          ],
+          [
+            63082.1,
+            63094.2,
+            63072.2,
+            63072.2,
+            52.041
+          ],
+          [
+            63072.2,
+            63072.3,
+            63012.0,
+            63014.8,
+            192.793
+          ],
+          [
+            63014.8,
+            63080.0,
+            62950.4,
+            62976.1,
+            269.825
+          ],
+          [
+            62976.1,
+            63039.8,
+            62961.2,
+            63016.0,
+            134.816
+          ],
+          [
+            63016.0,
+            63050.0,
+            62988.2,
+            63037.7,
+            68.167
+          ],
+          [
+            63037.7,
+            63041.3,
+            63011.4,
+            63030.6,
+            91.195
+          ],
+          [
+            63030.6,
+            63031.7,
+            63015.0,
+            63015.1,
+            11.191
+          ]
+        ]
+      },
+      "composite": {
+        "confidence_pct": 4.0,
+        "direction": "flat",
+        "blended_score": -0.057,
+        "aligned": false,
+        "align_factor": 0.7,
+        "regime": "trend"
+      },
+      "structure": {
+        "funding_rate": 7.9e-06,
+        "funding_next": 1785600000000,
+        "open_interest": 58031.639,
+        "long_short_ratio": 1.673,
+        "orderbook_imbalance": 0.321,
+        "structure_bias": -0.109,
+        "bias_parts": {
+          "funding": -0.01,
+          "long_short": -0.67,
+          "orderbook": 0.321
+        }
+      },
+      "indicators_ref": {
+        "rsi": 34.5,
+        "adx": 30.1,
+        "bb_pctb": 0.201,
+        "bb_width_pct": 4.4,
+        "stoch": 21.0,
+        "vwap_dist_pct": -1.42,
+        "divergence": null,
+        "support": 62384.9,
+        "resistance": 65784.7,
+        "atr_pct": 0.87
+      },
+      "per_tf": {
+        "15m": {
+          "score": -0.0,
+          "direction": "flat",
+          "rsi": 51.1,
+          "trend": "neutral",
+          "macd": 2.216334,
+          "atr_pct": 0.07
+        },
+        "30m": {
+          "score": -0.0,
+          "direction": "flat",
+          "rsi": 50.6,
+          "trend": "down",
+          "macd": -17.439807,
+          "atr_pct": 0.1
+        },
+        "1h": {
+          "score": 0.298,
+          "direction": "long",
+          "rsi": 56.2,
+          "trend": "neutral",
+          "macd": -167.979317,
+          "atr_pct": 0.18
+        },
+        "4h": {
+          "score": -0.35,
+          "direction": "short",
+          "rsi": 34.5,
+          "trend": "down",
+          "macd": -364.571542,
+          "atr_pct": 0.87
+        },
+        "5m": {
+          "score": -0.0,
+          "direction": "flat",
+          "rsi": 47.5,
+          "trend": "down",
+          "macd": -7.959372,
+          "atr_pct": 0.06
+        }
+      },
+      "btc_correlation": 1.0,
+      "relative_strength_pct": 0.0
+    },
+    {
+      "symbol": "MSTR/USDT:USDT",
+      "last": 94.23,
+      "breakout": null,
+      "recent_candles": {
+        "tf": "15m",
+        "ohlcv": [
+          [
+            94.21,
+            94.6,
+            94.17,
+            94.56,
+            427.9
+          ],
+          [
+            94.56,
+            94.57,
+            94.46,
+            94.46,
+            26.13
+          ],
+          [
+            94.46,
+            94.51,
+            94.45,
+            94.47,
+            6.02
+          ],
+          [
+            94.47,
+            94.58,
+            94.46,
+            94.58,
+            7.92
+          ],
+          [
+            94.58,
+            94.58,
+            94.36,
+            94.38,
+            2155.36
+          ],
+          [
+            94.38,
+            94.39,
+            94.22,
+            94.26,
+            14.86
+          ],
+          [
+            94.26,
+            94.39,
+            94.26,
+            94.27,
+            31.87
+          ],
+          [
+            94.27,
+            94.41,
+            94.27,
+            94.33,
+            50.4
+          ],
+          [
+            94.33,
+            94.38,
+            94.3,
+            94.33,
+            16.28
+          ],
+          [
+            94.33,
+            94.33,
+            94.08,
+            94.22,
+            46.96
+          ],
+          [
+            94.22,
+            94.35,
+            94.14,
+            94.32,
+            31.51
+          ],
+          [
+            94.32,
+            94.32,
+            94.17,
+            94.21,
+            29.88
+          ],
+          [
+            94.21,
+            94.23,
+            94.17,
+            94.23,
+            12.96
+          ],
+          [
+            94.23,
+            94.27,
+            94.23,
+            94.25,
+            5.8
+          ],
+          [
+            94.25,
+            94.28,
+            94.2,
+            94.27,
+            48.77
+          ],
+          [
+            94.27,
+            94.35,
+            94.07,
+            94.2,
+            72.14
+          ],
+          [
+            94.2,
+            94.25,
+            94.14,
+            94.16,
+            100.87
+          ],
+          [
+            94.16,
+            94.27,
+            94.16,
+            94.27,
+            4.75
+          ],
+          [
+            94.27,
+            94.3,
+            94.22,
+            94.29,
+            15.59
+          ],
+          [
+            94.29,
+            94.29,
+            94.22,
+            94.23,
+            4.11
+          ]
+        ]
+      },
+      "composite": {
+        "confidence_pct": 3.3,
+        "direction": "flat",
+        "blended_score": -0.048,
+        "aligned": false,
+        "align_factor": 0.7,
+        "regime": "trend"
+      },
+      "structure": {
+        "funding_rate": 0.0,
+        "funding_next": 1785600000000,
+        "open_interest": 42627.82,
+        "long_short_ratio": 1.422,
+        "orderbook_imbalance": 0.03,
+        "structure_bias": -0.117,
+        "bias_parts": {
+          "funding": -0.0,
+          "long_short": -0.42,
+          "orderbook": 0.03
+        }
+      },
+      "indicators_ref": {
+        "rsi": 49.3,
+        "adx": 22.9,
+        "bb_pctb": 0.354,
+        "bb_width_pct": 7.43,
+        "stoch": 51.4,
+        "vwap_dist_pct": -0.83,
+        "divergence": null,
+        "support": 89.4,
+        "resistance": 100.13,
+        "atr_pct": 2.2
+      },
+      "per_tf": {
+        "15m": {
+          "score": -0.581,
+          "direction": "short",
+          "rsi": 48.0,
+          "trend": "neutral",
+          "macd": 0.031925,
+          "atr_pct": 0.14
+        },
+        "30m": {
+          "score": -0.0,
+          "direction": "flat",
+          "rsi": 50.3,
+          "trend": "neutral",
+          "macd": 0.095596,
+          "atr_pct": 0.22
+        },
+        "1h": {
+          "score": 0.468,
+          "direction": "long",
+          "rsi": 72.1,
+          "trend": "neutral",
+          "macd": -0.150245,
+          "atr_pct": 0.42
+        },
+        "4h": {
+          "score": -0.272,
+          "direction": "short",
+          "rsi": 49.3,
+          "trend": "neutral",
+          "macd": -0.428223,
+          "atr_pct": 2.2
+        },
+        "5m": {
+          "score": 0.12,
+          "direction": "long",
+          "rsi": 50.7,
+          "trend": "neutral",
+          "macd": -0.004209,
+          "atr_pct": 0.08
+        }
+      },
+      "btc_correlation": 0.771,
+      "relative_strength_pct": -0.34
+    },
+    {
+      "symbol": "XAG/USDT:USDT",
+      "last": 57.83,
+      "breakout": null,
+      "recent_candles": {
+        "tf": "15m",
+        "ohlcv": [
+          [
+            57.89,
+            57.9,
+            57.85,
+            57.85,
+            105.666
+          ],
+          [
+            57.85,
+            57.87,
+            57.84,
+            57.87,
+            580.61
+          ],
+          [
+            57.87,
+            57.87,
+            57.86,
+            57.87,
+            66.513
+          ],
+          [
+            57.87,
+            57.87,
+            57.83,
+            57.84,
+            439.987
+          ],
+          [
+            57.84,
+            57.85,
+            57.83,
+            57.85,
+            60.882
+          ],
+          [
+            57.85,
+            57.86,
+            57.81,
+            57.83,
+            3322.55
+          ],
+          [
+            57.83,
+            57.83,
+            57.82,
+            57.83,
+            3.262
+          ],
+          [
+            57.83,
+            57.83,
+            57.81,
+            57.81,
+            101.837
+          ],
+          [
+            57.81,
+            57.82,
+            57.81,
+            57.81,
+            339.575
+          ],
+          [
+            57.81,
+            57.82,
+            57.81,
+            57.81,
+            4.148
+          ],
+          [
+            57.81,
+            57.83,
+            57.81,
+            57.83,
+            141.241
+          ],
+          [
+            57.83,
+            57.83,
+            57.82,
+            57.82,
+            176.871
+          ],
+          [
+            57.82,
+            57.83,
+            57.82,
+            57.83,
+            3.317
+          ],
+          [
+            57.83,
+            57.83,
+            57.82,
+            57.83,
+            392.077
+          ],
+          [
+            57.83,
+            57.83,
+            57.82,
+            57.83,
+            157.182
+          ],
+          [
+            57.83,
+            57.83,
+            57.82,
+            57.83,
+            446.258
+          ],
+          [
+            57.83,
+            57.83,
+            57.82,
+            57.83,
+            342.37
+          ],
+          [
+            57.83,
+            57.84,
+            57.82,
+            57.82,
+            384.357
+          ],
+          [
+            57.82,
+            57.83,
+            57.82,
+            57.83,
+            20.79
+          ],
+          [
+            57.83,
+            57.83,
+            57.82,
+            57.83,
+            52.084
+          ]
+        ]
+      },
+      "composite": {
+        "confidence_pct": 1.7,
+        "direction": "flat",
+        "blended_score": -0.039,
+        "aligned": false,
+        "align_factor": 0.7,
+        "regime": "chop",
+        "raw_direction": "flat",
+        "regime_blocked": true
+      },
+      "structure": {
+        "funding_rate": 0.0,
+        "funding_next": 1785585600000,
+        "open_interest": 635392.118,
+        "long_short_ratio": 3.824,
+        "orderbook_imbalance": -0.046,
+        "structure_bias": -0.314,
+        "bias_parts": {
+          "funding": -0.0,
+          "long_short": -1.0,
+          "orderbook": -0.046
+        }
+      },
+      "indicators_ref": {
+        "rsi": 51.7,
+        "adx": 11.2,
+        "bb_pctb": 0.415,
+        "bb_width_pct": 3.86,
+        "stoch": 32.8,
+        "vwap_dist_pct": -0.23,
+        "divergence": null,
+        "support": 56.74,
+        "resistance": 60.18,
+        "atr_pct": 0.99
+      },
+      "per_tf": {
+        "15m": {
+          "score": -0.731,
+          "direction": "short",
+          "rsi": 50.0,
+          "trend": "down",
+          "macd": -0.005569,
+          "atr_pct": 0.02
+        },
+        "30m": {
+          "score": -0.0,
+          "direction": "flat",
+          "rsi": 44.4,
+          "trend": "neutral",
+          "macd": -0.012339,
+          "atr_pct": 0.05
+        },
+        "1h": {
+          "score": -0.0,
+          "direction": "flat",
+          "rsi": 46.9,
+          "trend": "down",
+          "macd": -0.066454,
+          "atr_pct": 0.08
+        },
+        "4h": {
+          "score": -0.0,
+          "direction": "flat",
+          "rsi": 51.7,
+          "trend": "down",
+          "macd": -0.077966,
+          "atr_pct": 0.99
+        },
+        "5m": {
+          "score": 0.6,
+          "direction": "long",
+          "rsi": 50.0,
+          "trend": "neutral",
+          "macd": -0.000448,
+          "atr_pct": 0.01
+        }
+      },
+      "btc_correlation": 0.422,
+      "relative_strength_pct": -1.4
+    },
+    {
+      "symbol": "HOOD/USDT:USDT",
+      "last": 86.2,
+      "breakout": null,
+      "recent_candles": {
+        "tf": "15m",
+        "ohlcv": [
+          [
+            86.31,
+            86.52,
+            86.31,
+            86.52,
+            7.62
+          ],
+          [
+            86.52,
+            86.52,
+            86.52,
+            86.52,
+            0.03
+          ],
+          [
+            86.52,
+            86.52,
+            86.22,
+            86.23,
+            28.86
+          ],
+          [
+            86.23,
+            86.23,
+            86.08,
+            86.18,
+            136.12
+          ],
+          [
+            86.18,
+            86.18,
+            86.12,
+            86.15,
+            19.79
+          ],
+          [
+            86.15,
+            86.32,
+            86.15,
+            86.3,
+            15.34
+          ],
+          [
+            86.3,
+            86.34,
+            86.3,
+            86.34,
+            0.11
+          ],
+          [
+            86.34,
+            86.34,
+            86.25,
+            86.28,
+            2.09
+          ],
+          [
+            86.28,
+            86.32,
+            86.28,
+            86.32,
+            2.14
+          ],
+          [
+            86.32,
+            86.32,
+            86.32,
+            86.32,
+            0.0
+          ],
+          [
+            86.32,
+            86.32,
+            86.18,
+            86.26,
+            13.87
+          ],
+          [
+            86.26,
+            86.26,
+            86.2,
+            86.2,
+            2.04
+          ],
+          [
+            86.2,
+            86.2,
+            86.12,
+            86.12,
+            1.35
+          ],
+          [
+            86.12,
+            86.16,
+            86.12,
+            86.12,
+            6.2
+          ],
+          [
+            86.12,
+            86.27,
+            86.12,
+            86.16,
+            46.77
+          ],
+          [
+            86.16,
+            86.16,
+            86.12,
+            86.16,
+            8.47
+          ],
+          [
+            86.16,
+            86.18,
+            86.16,
+            86.18,
+            0.67
+          ],
+          [
+            86.18,
+            86.2,
+            86.18,
+            86.2,
+            0.67
+          ],
+          [
+            86.2,
+            86.2,
+            86.2,
+            86.2,
+            0.0
+          ],
+          [
+            86.2,
+            86.2,
+            86.2,
+            86.2,
+            0.0
+          ]
+        ]
+      },
+      "composite": {
+        "confidence_pct": 0.6,
+        "direction": "flat",
+        "blended_score": 0.014,
+        "aligned": false,
+        "align_factor": 0.7,
+        "regime": "chop",
+        "raw_direction": "flat",
+        "regime_blocked": true
+      },
+      "structure": {
+        "funding_rate": 0.0,
+        "funding_next": 1785600000000,
+        "open_interest": 17107.41999999,
+        "long_short_ratio": 1.681,
+        "orderbook_imbalance": 0.024,
+        "structure_bias": -0.197,
+        "bias_parts": {
+          "funding": -0.0,
+          "long_short": -0.68,
+          "orderbook": 0.024
+        }
+      },
+      "indicators_ref": {
+        "rsi": 38.8,
+        "adx": 7.9,
+        "bb_pctb": 0.272,
+        "bb_width_pct": 10.18,
+        "stoch": 27.1,
+        "vwap_dist_pct": -2.86,
+        "divergence": null,
+        "support": 83.83,
+        "resistance": 102.32,
+        "atr_pct": 2.33
+      },
+      "per_tf": {
+        "15m": {
+          "score": -0.308,
+          "direction": "short",
+          "rsi": 38.1,
+          "trend": "down",
+          "macd": -0.053683,
+          "atr_pct": 0.06
+        },
+        "30m": {
+          "score": -0.0,
+          "direction": "flat",
+          "rsi": 42.3,
+          "trend": "down",
+          "macd": -0.118587,
+          "atr_pct": 0.15
+        },
+        "1h": {
+          "score": -0.0,
+          "direction": "flat",
+          "rsi": 46.8,
+          "trend": "down",
+          "macd": -0.309689,
+          "atr_pct": 0.23
+        },
+        "4h": {
+          "score": -0.0,
+          "direction": "flat",
+          "rsi": 38.8,
+          "trend": "down",
+          "macd": -2.065286,
+          "atr_pct": 2.33
+        },
+        "5m": {
+          "score": 0.599,
+          "direction": "long",
+          "rsi": 38.9,
+          "trend": "neutral",
+          "macd": -0.00858,
+          "atr_pct": 0.02
+        }
+      },
+      "btc_correlation": 0.462,
+      "relative_strength_pct": -21.79
+    },
+    {
+      "symbol": "ORCL/USDT:USDT",
+      "last": 128.98,
+      "breakout": null,
+      "recent_candles": {
+        "tf": "15m",
+        "ohlcv": [
+          [
+            129.26,
+            129.35,
+            129.25,
+            129.33,
+            1.85
+          ],
+          [
+            129.33,
+            129.34,
+            129.24,
+            129.25,
+            0.1
+          ],
+          [
+            129.25,
+            129.25,
+            129.25,
+            129.25,
+            0.0
+          ],
+          [
+            129.25,
+            129.29,
+            129.25,
+            129.29,
+            0.65
+          ],
+          [
+            129.29,
+            129.29,
+            129.29,
+            129.29,
+            0.0
+          ],
+          [
+            129.29,
+            129.29,
+            129.29,
+            129.29,
+            0.0
+          ],
+          [
+            129.29,
+            129.46,
+            129.29,
+            129.42,
+            14.75
+          ],
+          [
+            129.42,
+            129.42,
+            129.2,
+            129.2,
+            7.33
+          ],
+          [
+            129.2,
+            129.25,
+            129.2,
+            129.22,
+            5.37
+          ],
+          [
+            129.22,
+            129.25,
+            129.22,
+            129.22,
+            1.02
+          ],
+          [
+            129.22,
+            129.22,
+            129.13,
+            129.13,
+            0.97
+          ],
+          [
+            129.13,
+            129.14,
+            129.06,
+            129.06,
+            29.12
+          ],
+          [
+            129.06,
+            129.06,
+            128.95,
+            128.95,
+            7.12
+          ],
+          [
+            128.95,
+            128.95,
+            128.86,
+            128.86,
+            0.37
+          ],
+          [
+            128.86,
+            128.86,
+            128.85,
+            128.85,
+            0.32
+          ],
+          [
+            128.85,
+            128.86,
+            128.82,
+            128.82,
+            12.85
+          ],
+          [
+            128.82,
+            129.03,
+            128.82,
+            129.03,
+            3.11
+          ],
+          [
+            129.03,
+            129.03,
+            129.03,
+            129.03,
+            0.0
+          ],
+          [
+            129.03,
+            129.03,
+            128.79,
+            128.84,
+            19.48
+          ],
+          [
+            128.84,
+            128.98,
+            128.84,
+            128.98,
+            0.11
+          ]
+        ]
+      },
+      "composite": {
+        "confidence_pct": 0.1,
+        "direction": "flat",
+        "blended_score": 0.001,
+        "aligned": false,
+        "align_factor": 0.87,
+        "regime": "trend"
+      },
+      "structure": {
+        "funding_rate": 0.0,
+        "funding_next": 1785600000000,
+        "open_interest": 20621.56,
+        "long_short_ratio": 2.397,
+        "orderbook_imbalance": -0.12,
+        "structure_bias": -0.336,
+        "bias_parts": {
+          "funding": -0.0,
+          "long_short": -1.0,
+          "orderbook": -0.12
+        }
+      },
+      "indicators_ref": {
+        "rsi": 77.4,
+        "adx": 53.3,
+        "bb_pctb": 0.694,
+        "bb_width_pct": 15.93,
+        "stoch": 72.0,
+        "vwap_dist_pct": 4.35,
+        "divergence": null,
+        "support": 113.0,
+        "resistance": 133.28,
+        "atr_pct": 2.09
+      },
+      "per_tf": {
+        "15m": {
+          "score": -0.846,
+          "direction": "short",
+          "rsi": 38.2,
+          "trend": "down",
+          "macd": -0.078124,
+          "atr_pct": 0.08
+        },
+        "30m": {
+          "score": -0.0,
+          "direction": "flat",
+          "rsi": 47.8,
+          "trend": "down",
+          "macd": -0.091783,
+          "atr_pct": 0.13
+        },
+        "1h": {
+          "score": -0.136,
+          "direction": "short",
+          "rsi": 37.7,
+          "trend": "neutral",
+          "macd": 0.158757,
+          "atr_pct": 0.23
+        },
+        "4h": {
+          "score": 0.376,
+          "direction": "long",
+          "rsi": 77.4,
+          "trend": "up",
+          "macd": 2.689829,
+          "atr_pct": 2.09
+        },
+        "5m": {
+          "score": 0.0,
+          "direction": "flat",
+          "rsi": 61.4,
+          "trend": "neutral",
+          "macd": -0.042079,
+          "atr_pct": 0.04
+        }
+      },
+      "btc_correlation": 0.275,
+      "relative_strength_pct": -7.32
+    }
+  ]
+}

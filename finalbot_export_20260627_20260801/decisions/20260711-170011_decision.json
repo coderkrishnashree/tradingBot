@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "CL/USDT:USDT",
+  "size": 0.0,
+  "entry": 71.63,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Price is coiling on the 71.57-71.63 shelf after stair-stepping down from 71.96; expect either a small mean-reversion bounce back toward VWAP ~72.5-73 (RSI 34, -2% below VWAP = stretched), or a clean break of 71.57 that opens 71.0 then 70.5. I want the break confirmed, not the stretched fade.",
+  "expectancy_note": "Fresh short here is chasing into oversold fast-frame RSI (~34) and -2% below VWAP \u2014 the account's proven late-short loss pattern; R:R to a realistic first exit is <1.5 and a routine bounce to VWAP stops it. Active Hormuz weekend headline risk is two-sided and can gap oil up several percent through any stop \u2014 negative expectancy for a fresh entry.",
+  "rationale": "CL is a genuine short structurally (crowded 4.09 longs, structure_bias -0.35, weakest name -9.25% vs BTC, supply-heavy fundamentals), but the intraday tape is already stretched down (RSI ~34, price 2% below VWAP) and coiling on the 71.57 shelf \u2014 shorting now buys a bounce risk, not the trend. Overlay an ACTIVE Strait of Hormuz crisis with high two-sided weekend gap risk after a +5-6% weekly run, and a fresh entry either direction is negative expectancy. Wait for a confirmed break-and-hold below the shelf to short into real continuation; size 0 until then.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 71.5,
+    "expires_min": 240,
+    "note": "Losing the 71.57-71.63 shelf confirms the down-leg resumes (not a stretched fade), opening 71.0 then 70.5 with the crowded-long fuel \u2014 that is the clean short entry."
+  },
+  "transcript": {
+    "macro": "Regime: risk-on equities on a hawkish rates/USD backdrop (DXY reclaimed 100; Fed funds 3.50-3.75%, mkt pricing ~62% chance of a Sept HIKE; CPI 4.2% y/y hot). US CPI Tue Jul 14 + FOMC Jul 28-29 are catalysts. CL last ~71.63, short setup: structure_bias -0.35, crowded longs (long/short 4.09 = contrarian downside fuel), funding mildly positive, orderbook flat, RSI 33.9 (4h), rel-strength -9.25% vs BTC (weakest name, lagging on oil fundamentals). Supply side bearish (UAE record output, Gulf restoring supply). BUT crude ran +3.5-6% on the week (mean-reversion/squeeze risk) and a Hormuz/Iran flare-up is the #1 threat to a short \u2014 argues for reduced size given the two-way geopolitical tail.",
+    "sentiment": "Oil is in an ACTIVE Strait of Hormuz crisis \u2014 WTI/Brent +5-6% on the week on renewed US-Iran military exchanges (Trump declared ceasefire over, threatened blockade; Iran struck tankers near Hormuz; ~20% of world oil flow slowed). Two-sided headline-driven tape: a fresh tanker/blockade headline gaps oil UP several percent; a de-escalation headline dumps the risk premium. Near-term catalyst risk is HIGH and can hit any hour INCLUDING the weekend (today Sat Jul 11). A short is a bet on continued de-escalation; a single Hormuz headline is the primary stop-out risk. CL trading risk-off, inverse to tech-equity complex.",
+    "analyst": "Price 71.63 coiling on the 71.57-71.63 shelf after stair-stepping down from 71.96 on modest volume; RSI ~34 across fast frames and -2.08% below VWAP = already stretched intraday. 4h trend neutral (not down), 30m flat, 1h MACD weak = muddy multi-TF trend, not clean continuation. A fresh short here is the account's #1 loss pattern (shorting AFTER the move into stretched tape); R:R to a realistic first exit <1.5 and a routine VWAP bounce (~73) stops it. Overlay live two-sided Hormuz weekend gap risk after a +5-6% weekly run = negative expectancy for a fresh entry either way. HOLD, armed to short only on a confirmed break-and-hold below the 71.57 shelf -> 71.0 / 70.5.",
+    "portfolio": "CL: HOLD (size 0) \u2014 structurally short but intraday stretched and coiling on the 71.57 shelf into active two-sided Hormuz weekend gap risk; short only on a confirmed break below 71.5."
+  },
+  "timestamp": "2026-07-11T17:00:11.478729+00:00"
+}

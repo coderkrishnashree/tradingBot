@@ -1,0 +1,25 @@
+{
+  "action": "hold",
+  "symbol": "ORCL/USDT:USDT",
+  "size": 0.0,
+  "entry": 118.3,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Post-spike fade continues toward the 117.5 VWAP/breakout shelf over next 2-4 bars; reclaim of 118.65 = real continuation, loss of 117.4 = fade to 116.x.",
+  "rationale": "Higher TFs read up (composite long 57.9%) but not aligned (aligned:false, 5m RSI 29.8 short) and price is mid-fade after a one-bar 571-vol spike to 119.17 (last 5 bars lower highs/closes), +0.77% over VWAP into crowded-long (L/S 2.17) and worst-in-class rel strength (-17.7%). Buying chases; shorting fights a strong ADX-84 uptrend the learner says loses. Best expectancy is to wait for the 117.5 VWAP retest or a 118.65 reclaim. Refuse to hold tokenized-equity long naked into Wed FOMC.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 118.65,
+    "expires_min": 240,
+    "note": "Reclaiming the spike-fade high proves buyers absorbed the pullback - arms a trend long toward 120+."
+  },
+  "transcript": {
+    "macro": "RISK-ON tape but into an event wall. S&P ~7,454 (+0.57%), Nasdaq futures +1.4%, VIX ~17.6 falling on US-Iran ceasefire + oil down ~5-6%. BUT busiest week of the quarter: FOMC Wed 7/29 2pm ET (~79% priced hold 3.50-3.75%) + 4 Mag-7 earnings (MSFT+META Wed after close, AAPL+AMZN Thu). Crypto HEAVY/laggard, NOT confirming equity risk-on: BTC soft low-$60Ks, positioning crowded-long. 10Y >4.6% + firmer DXY = headwind for gold/duration/semis. Verdict: CAUTION / two-sided - tape supports short-term longs but FOMC + MSFT/META are binary catalysts inside the hold window; smaller size, avoid holding tokenized-equity/META longs naked through Wed close, treat BTC/SOL longs skeptically. Crowded-long: SOL, TSLA, ORCL, XAUT. Overbought/chase-risk: XAUT(RSI80.8), TSM(RSI76/stoch96), SNDK(74), QQQ(72.5). Weakest rel-strength vs BTC: TSLA -24%, ORCL -18%, SOL -9%, EWY -8.6%.",
+    "sentiment": "Everything overshadowed by Wed 7/29 FOMC + Big-Tech earnings wall; tape punishing capex/FCF compression even on top-line beats. ORCL: mildly constructive, no 48h binary ($3.31B Navy contract 7/23, OCI +93%; $40B AI-buildout overhang). XAUT/gold: neutral-cautious, coiled ~$4,040-4,130 for FOMC. QQQ: constructive but at mercy of Wed, RSI stretched. SNDK: bullish tone (NAND tight, +580% YTD) but earnings Aug 5 (outside window). TSLA: bearish/risk-off, Q2(7/22) EPS $0.33 missed $0.51, margin 16.3%, dropped post-print. MU: bullish fundamentals (HBM sold out) but no 48h catalyst, high AI-semi beta. EWY: high-vol two-sided levered SK Hynix proxy (5-7% swings), FOMC+US semi exposed. META: HARD binary, Q2 Wed 7/29 after close, coin-flip earnings gap. TSM: bullish underlying (blowout Q2 7/16, AI ~61% rev) but -15% MTD on margin/capex, earnings spent. BTC: cautious-neutral improving (~$65K, F&G ~30, July ETF flows net-positive), Fed-gated. SOL: fresh bullish edge - Morgan Stanley spot SOL ETF (MSOL) approved 7/24, $1.12B inflows; still BTC-corr 0.85, Fed-gated. Cleanest longs: SOL+ORCL; highest risk/avoid overnight: META+TSLA.",
+    "analyst": "Higher TFs read up (composite long 57.9%) but not aligned (aligned:false, 5m RSI 29.8 short) and price is mid-fade after a one-bar 571-vol spike to 119.17 (last 5 bars lower highs/closes), +0.77% over VWAP into crowded-long (L/S 2.17) and worst-in-class rel strength (-17.7%). Buying chases; shorting fights a strong ADX-84 uptrend the learner says loses. Best expectancy is to wait for the 117.5 VWAP retest or a 118.65 reclaim. Refuse to hold tokenized-equity long naked into Wed FOMC.\n\nForecast: Post-spike fade continues toward the 117.5 VWAP/breakout shelf over next 2-4 bars; reclaim of 118.65 = real continuation, loss of 117.4 = fade to 116.x.",
+    "portfolio": "HOLD ORCL (0.50) - no chase after the spike fade; wait for 117.5 retest or 118.65 reclaim, no naked hold into FOMC."
+  },
+  "timestamp": "2026-07-27T09:36:46.821521+00:00"
+}

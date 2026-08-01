@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "CL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price is pinned under 88.11 after a vertical war-premium spike; last bar wicked 88.11 and closed back to 87.93 (rejection). Expect chop 87.3-88.1 next few bars, then resolution: a clean break of 87.3 opens a mean-reversion fade toward 85.2, while a fresh escalation headline gaps it through 88.5.",
+  "expectancy_note": "No honest directional edge: chasing long into 88.11 with RSI91/stoch98/+5.3% VWAP is the account's #1 loss pattern; a naked fade here risks a ceasefire-OR-escalation binary and an honest stop >88.5 kills R:R. Standing aside beats both until 87.3 breaks.",
+  "rationale": "CL is a pure geopolitical instrument in a textbook overextended vertical spike (RSI 91 on 15m / 79.5 on 1h, stoch 97.9, %B 1.08, +5.3% above VWAP) parked directly at 88.11 resistance, with the last bar tagging 88.11 and rejecting to 87.93. Macro/sentiment are explicitly hostile to fresh longs at highs and warn of two-way ceasefire headline risk inside 48h. A short is tempting on the rejection but the only structurally honest stop sits above 88.5-89 (~1.5% away) into a tape that gaps on any escalation print, and there is no clean confirmation yet \u2014 so R:R and headline risk both argue against pulling the trigger now. Zero size; the correct trade is to wait for 87.3 to break, which converts this rejection into a real fade with defined risk.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 87.3,
+    "expires_min": 240,
+    "note": "Losing the 87.3 consolidation shelf confirms the 88.11 rejection and VWAP-reversion has begun, opening a proper short toward 85.2-84 with a stop back above 88.1."
+  },
+  "transcript": {
+    "macro": "Regime MIXED tilting risk-off-defensive. DXY ~100.6, Fed on hold. Live US-Iran tension = war premium to crude. CL bias STAY-OUT / fade-extension, NOT fresh long: ~$87.9 at $88.11 resistance after vertical push from ~$85.2. RSI 91 on 15m / 79.5 on 1h, stoch 97.9, bb_pctb 1.08 (closed above upper band), +5.3% above VWAP \u2014 textbook overextended spike into resistance. War-premium spike not fundamentals-led: OPEC+ ADDING ~548kbd in August, underlying balance bearish/well-supplied \u2192 de-escalation gaps it lower. Neg corr to BTC (-0.25) and metals (-0.46). Environment HOSTILE for new longs into $88; setup favors fading a rejection but headline risk cuts both ways \u2192 smallest size or stand aside.",
+    "sentiment": "CL BULLISH (geopolitical premium) but FRAGILE. ~$82-85 (6-month highs) on escalating US-Iran conflict \u2014 US strikes expanded to Iranian ports/infrastructure, Iran retaliating, Strait of Hormuz + Red Sea shipping threats. Confirmed, moving price now. Offsetting: OPEC+ adds 548k bpd August; low US inventories + record production + peak-summer demand. TWO-WAY HEADLINE RISK: mediators floating a 10-day ceasefire \u2014 confirmed de-escalation could gap crude sharply LOWER. Dominant <=48h driver.",
+    "analyst": "Pure geopolitical instrument, textbook overextended vertical spike (RSI 91/79.5, stoch 97.9, %B 1.08, +5.3% VWAP) parked at 88.11 resistance; last bar tagged 88.11 and rejected to 87.93. Macro/sentiment hostile to fresh longs, two-way ceasefire risk inside 48h. Short tempting on rejection but honest stop >88.5-89 (~1.5%) into gap-prone tape, no confirmation yet \u2192 R:R + headline risk argue against triggering. Zero size. Wait for 87.3 break to convert rejection into a real fade toward 85.2-84.",
+    "portfolio": "CL: HOLD (conf 0.60) \u2014 stand aside; overextended war-premium spike into $88.11 resistance with binary ceasefire/escalation headline risk. Fade only on a 87.3 break."
+  },
+  "timestamp": "2026-07-22T09:30:45.150556+00:00"
+}

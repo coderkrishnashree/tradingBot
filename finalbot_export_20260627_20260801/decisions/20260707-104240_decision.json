@@ -1,0 +1,25 @@
+{
+  "symbol": "EWY/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.5,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "expectancy_note": "Short here has poor expectancy: p(win)~0.45 selling %B=0 / RSI35 / -2.78% below VWAP right above 174.6 support, into binary Samsung squeeze risk (+5% headline gap). R:R only ~1.0 (4pts to support vs squeeze to VWAP 187/res 203). Better short is a bounce toward VWAP or a confirmed break of 174.6.",
+  "rationale": "EWY (treat as equity; crypto structure metrics muted) is already extended DOWN \u2014 price at/below the lower Bollinger band, RSI 34.6, stoch 27, sitting 2.78% under VWAP and only ~2xATR above firm support at 174.61. Shorting this exact low is chasing into the worst single-name event risk in the book (Samsung prelim earnings), where one positive HBM/AI-memory headline prints +5% against the position; the 30m has already flipped to RSI 65 signaling a nascent bounce. The genuine RS -10.4% laggard status and mild long crowding keep me bearish-biased, but I want to short a reversion toward VWAP (~186-188) with defined risk, or a clean momentum break of 174.6 \u2014 not sell the hole. HOLD is the highest-expectancy choice here.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 174.61,
+    "expires_min": 240,
+    "note": "Losing the 174.61 support flips the extended-but-holding read into a confirmed breakdown \u2014 activates the continuation short toward the next leg with a stop back inside the range."
+  },
+  "transcript": {
+    "macro": "Regime mixed. EWY scan short conf 42%. KOSPI near 8,000, +~100% YTD memory/AI supercycle, violently volatile \u2014 fell >1.5% Jul 6 as foreigners sold ahead of Samsung prelim earnings, ~15% below YTD high. EWY L/S 1.32 (mild long crowding supports short), RS -10.4% (genuine laggard). BUT Samsung earnings pop could squeeze the short hard \u2014 highest single-name event risk of the four. Shorts into a record tape carry mean-reversion squeeze risk. Short only with reduced size.",
+    "sentiment": "EWY EXTREME volatility \u2014 the live one. KOSPI fell ~8% Thursday (SK Hynix -15%, Samsung -9%) on AI/memory jitters, rebounded ~5-6% Friday, +~1% Mon/Tue Jul 6-7. Samsung+SK Hynix ~half index \u2014 any HBM/AI-memory headline swings hard. 4h ATR 2.2%. Two-sided headline-driven shock; short works if AI-demand fear reasserts but a single positive chip headline = +5% against it. Trade small.",
+    "analyst": "Already extended DOWN \u2014 price at/below lower BB, RSI 34.6, stoch 27, -2.78% under VWAP, only ~2xATR above firm support 174.61. Shorting the low chases into the worst event risk in the book (Samsung); 30m already flipped RSI 65 (nascent bounce). Bearish-biased (RS -10.4%, mild long crowding) but want a reversion short toward VWAP ~186-188 or a break of 174.6 \u2014 not sell the hole. HOLD.",
+    "portfolio": "HOLD EWY \u2014 bearish bias but extended-down at support into Samsung headline risk; short a bounce or a break of 174.61."
+  },
+  "timestamp": "2026-07-07T10:42:40.302624+00:00"
+}

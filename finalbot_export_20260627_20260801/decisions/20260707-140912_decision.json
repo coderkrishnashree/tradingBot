@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "EWY/USDT:USDT",
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "size": 0,
+  "confidence": 0.55,
+  "playbook": "none",
+  "forecast": "Price coiling at 180.8 just under a 179.8-183.5 range after a violent two-way flush; expect chop/small bounce toward 182.5-183 VWAP over 2-4 bars unless 179.80 breaks, which opens 176-174.6.",
+  "expectancy_note": "Fresh short here is a chase: -3.31% below VWAP, bb_pctb<0 (below lower band), stoch 19, only ~3.4% to support 174.6 - poor R:R and squeeze risk late in the flush. Best short is a break of 179.80 or a bounce-to-183 fade, neither triggered now.",
+  "rationale": "Bear thesis is clean (EWY is the literal source of the semi selloff, RS -9.92%, all TFs down, bearish divergence, structure_bias -0.19), but the setup is stretched into the lower Bollinger band with a doji at the lows, thin/gappy overnight Korean liquidity, and binary Samsung-earnings two-way risk in 48h. Shorting a 2.36% ATR name at the extreme with support 3% away is low expectancy; want confirmation. A clean break of the 179.80 flush low re-arms the short toward 174.6.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 179.8,
+    "expires_min": 240,
+    "note": "Losing the 179.80 flush low ends the coil and confirms continuation toward 176/174.6, giving a valid short with the stop back above 182."
+  },
+  "transcript": {
+    "macro": "Risk-off, semiconductor-led selloff (Samsung Q2 sparked semi fear; SOX broke uptrend, Nasdaq below 50-DMA; Nasdaq futures -0.9% vs S&P -0.3%). Pullback from Monday's record highs. BTC chopping ~$62.9k, funding mild +0.01%, OI flat - no crypto risk-on. Environment SUPPORTS tech/semi shorts over hours-to-days, but these are LATE in a one-directional intraday flush (RSIs stretched) so squeeze risk on a bounce is the main hazard; favor smaller size and shorts on a bounce toward VWAP rather than chasing lows. Macro events in window: FOMC minutes Jul 8, June jobs Jul 9.",
+    "sentiment": "Overall: risk to any short book is a BTC/AI-chip sentiment bounce plus the FOMC-minutes/NFP prints. NVDA: constructive/dip-buy, no 48h binary (earnings ~Aug 26), Jul 7 Kyber-delay-rumor denial nudged +1%. EWY: highest near-term catalyst risk - ~40% Samsung/SK Hynix, KOSPI whipsawing on AI doubt (-8% Jul 2, +5.8% Jul 3), Samsung Q2 print + SK Hynix ~$29B Nasdaq DR listing both live, two-way gap risk. MSTR: BTC-proxy (corr 0.81), BTC ~$64k in Extreme Fear (F&G ~23-27); Strategy actively selling BTC to fund preferred divs - slight overhang; bounce off Extreme Fear is key short risk. TSLA: post-catalyst cooldown; Q2 deliveries (Jul 2) beat big at 480,126, now priced; next binary Jul 22 earnings (outside window); overbought, delivery beat argues against pressing shorts. INTC: no 48h trigger (earnings Jul 23); rides semis/Nasdaq beta.",
+    "analyst": "HOLD @180.81. Cleanest bear thesis of the group (EWY IS the semi selloff, all TFs down) but price is stretched below the lower band with a doji at the lows and thin/gappy overnight Korean liquidity + binary Samsung two-way risk. Chasing a short 3% above support is poor R:R. Wait for a break of 179.80 or a fade of a bounce to 183. conf 0.55.",
+    "portfolio": "HOLD - cleanest bear thesis but stretched; wait for 179.80 break."
+  },
+  "timestamp": "2026-07-07T14:09:12.718872+00:00"
+}

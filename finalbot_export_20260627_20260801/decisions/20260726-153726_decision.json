@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "XAUT/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Dead-flat coil continues: price chops in the 4052-4057 band on drying volume into FOMC; no directional resolution expected within the next several 15m bars.",
+  "expectancy_note": "No edge: bb_width 1.0% + ATR 0.2% means any honest ~1xATR stop (~8pts) dwarfs any reachable target with price glued mid-range mid-Bollinger; p(win) barely 50/50, R:R undefined. HOLD beats both a chase and a levelless fade.",
+  "rationale": "XAUT is mid-range (support 3984 / resistance 4155), sitting exactly on VWAP at mid-Bollinger with RSI 56 and a compressed 1% BB width; the high ADX 88 is an artifact of the flatline, not a tradable trend. There is no extreme to fade and no level to break, so no setup clears the 1.5R bar. Crowded longs (L/S 2.53) and mild hawkish-Fed lean argue against a fresh long, while the safe-haven Hormuz bid and FOMC-in-2-days binary argue against a short - balanced, so I stand aside and wait for the coil to resolve.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 4057.0,
+    "expires_min": 240,
+    "note": "Reclaiming the top of the coil on volume shows the safe-haven bid resuming into FOMC and would open a small long toward 4075+."
+  },
+  "transcript": {
+    "macro": "Regime MIXED->HOSTILE for new longs. Hawkish Fed repricing (DXY ~101.4 firming, 2Y ~4.35% 17mo high, mkt pricing a Sept hike), risk-off Nasdaq. FOMC July 28-29 inside swing window (event risk). Sunday scan; US cash equities closed. XAUT: rising real yields + firm DXY headwind; dead-flat 15m, ADX high but no momentum; L/S 2.53 crowded long. OK for small mean-reversion, not a trend long.",
+    "sentiment": "Overall RISK-OFF; active US-Iran/Hormuz conflict keeps safe-havens volatile. XAUT bullish-to-neutral: safe-haven bid vs hawkish Fed at FOMC July 28-29; pulled back from ~4140. FOMC in ~2 days is the binary; expect chop into it.",
+    "analyst": "Dead tape: bb_width 1.0% and ATR 0.2% mean the whole range is a couple points; price glued to VWAP mid-Bollinger, nothing extended, no level to fade, no breakout trigger. ADX 88 is a flatline artifact. No honest R:R. Textbook no-trade; hold and arm a reconsider on a reclaim above 4057.",
+    "portfolio": "HOLD XAUT (conf 0.60) - dead coil into FOMC, no edge; watch reclaim >4057."
+  },
+  "timestamp": "2026-07-26T15:37:26.470670+00:00"
+}

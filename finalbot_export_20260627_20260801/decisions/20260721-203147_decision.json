@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "INTC/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.62,
+  "playbook": "none",
+  "forecast": "Price is stalling at the highs (rejected 106.28, last bar a doji on collapsing volume at 105.57); most likely chops 104.6-106.3 then either grinds into Thursday's print or mean-reverts toward VWAP/104. No clean directional edge near-term.",
+  "expectancy_note": "p(win) on any market entry ~0.45: shorting a parabola (RSI 88, ADX 90, +6.8% VWAP) before it rolls is the book's #1 loss (bounce stops the late short); longing this extension into a binary earnings is worse.",
+  "rationale": "INTC is a blow-off long -- 4h RSI 88.5, ADX 90.7, stoch 94.5, +6.82% above VWAP, upper BB %B 0.97 -- while long/short 1.66 shows crowded longs and structure_bias -0.22 (contrarian bearish). Last 15m bars rejected 106.28 and printed a doji on dried-up volume (stalling, not accelerating), but no structural level to lean on yet and earnings Thu 7/23 after close is a binary I will NOT carry. Neither chase-long nor premature short offers >=1.5R; HOLD and arm a short trigger for the rollover.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 104.6,
+    "expires_min": 240,
+    "note": "Losing 104.6 (below the recent 15m shelf / start of VWAP mean-reversion) confirms the blow-off is rolling over for a lower-risk short toward VWAP, stop above 106.3 -- only if it triggers well before Thursday's print."
+  },
+  "transcript": {
+    "macro": "Regime MIXED/cautious (2026-07-21). US equity tape choppy, headline-driven; hawkish-Fed (market pricing a possible HIKE by Oct) is a headwind for high-multiple tech. Crypto tape constructive short-term (BTC ~$66.5k, 5-wk high, +ETF inflows) -> helps MSTR/CRCL crypto-proxies only. BIGGEST RISK: earnings inside the hold window -- GOOGL reports Wed 7/22 after close, INTC Thu 7/23 after close; do NOT carry either through the print. Several longs (INTC, CRCL, EWY, EWJ, MSTR) already RSI-extended/crowded-long -> smaller size, prefer intraday over multi-day until earnings clear.",
+    "sentiment": "Overall risk-OFF: Nasdaq-100 down 5 straight weeks on AI-capex anxiety + Iran/oil spike; heavy earnings + macro week (GOOGL/TSLA 7/22, INTC 7/23, FOMC 7/28-29, BOJ 7/30). GOOGL bearish/event-risk (earnings 7/22). AAPL neutral-slightly bearish (earnings 7/30, outside window). QQQ bearish tilt, extended into weak macro week. MSTR neutral fragile bounce on fading volume. INTC bearish/event-risk, ~12% swing priced into 7/23 print, RSI88 extended. CRCL neutral-cautious: OCC bank-charter catalyst spent, Mizuho downgrade + Visa overhang, RSI89. EWJ neutral/mildly bullish but Nikkei record already priced, BOJ 7/30 caps runway. EWY bearish: KOSPI in a record -23% crash w/ circuit breakers -- scan long tilt fights a violent country downtrend.",
+    "analyst": "Blow-off long: 4h RSI 88.5, ADX 90.7, stoch 94.5, +6.82% above VWAP, %B 0.97, crowded long 1.66, structure_bias -0.22. 15m rejected 106.28 into a low-volume doji (stalling not accelerating) but no level to lean on. Earnings Thu 7/23 after close = binary I won't carry. Neither chase-long nor premature short is 1.5R; HOLD, short trigger below 104.6 (pre-print only).",
+    "portfolio": "HOLD INTC -- parabolic + binary earnings 7/23; size 0, short only on a 104.6 rollover before the print."
+  },
+  "timestamp": "2026-07-21T20:31:47.793590+00:00"
+}

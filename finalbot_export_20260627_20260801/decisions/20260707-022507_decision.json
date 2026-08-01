@@ -1,0 +1,23 @@
+{
+  "symbol": "AAPL/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.6,
+  "size": 0.0,
+  "entry": 313.81,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "rationale": "AAPL is in a real, strong uptrend (ADX 53.4, all timeframes long, rel-strength +7.48% vs BTC, flat funding, bid-heavy book +0.346) but price at 313.81 is pinned just $1.44 under resistance 315.25 while badly overbought: RSI 69.4/80.3, stoch 85.7, bb_pctb 1.059 (above the upper band), VWAP +1.28%. That is a chase into a wall with poor entry location, and it's off-hours with US cash closed and a thin ~2368 OI perp that is gappy and slippage-prone. No short case (trend + flow are up). No pullback level has printed yet to buy cheaply, so the highest-expectancy action is to wait: a clean reclaim above 315.25 flips this into a continuation long, otherwise let it mean-revert toward VWAP/SMA20 for a better long entry.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 315.25,
+    "expires_min": 240,
+    "note": "A decisive break/hold above resistance 315.25 clears the wall and confirms a continuation long with room to run."
+  },
+  "transcript": {
+    "macro": "Overall crypto regime RISK-OFF/defensive: BTC chopping ~$63.7k, no trend (ADX 2.1), dominance ~55-60%, Fear&Greed ~24. But AAPL btc_correlation only 0.274 so equity backdrop dominates. AAPL derivatives: funding 0.0 (no crowding), long/short 1.006 (balanced), orderbook +0.346 (bid-heavy), OI ~2368 (thin). Momentum stretched: price 313.81 pinned at resistance 315.25, RSI 69.4/80.3, stoch 85.7, composite long +0.309, all TFs up but overbought into a wall. Equity: AAPL reclaimed $300 July 2 (+4.59%), rel-strength +7.48% vs BTC, outlier strength in a mixed equity complex. Biggest risk: liquidity/market-hours gap \u2014 scan ~02:22 UTC, US cash CLOSED, thin OI gappy off-hours. Bottom line: MODESTLY supports a long but MIXED; trade smaller; prefer pullback entry over breakout chase; no short case. Q3 earnings July 30 (~23d out).",
+    "sentiment": "Tone mildly bullish, no <=48h binary catalyst. AAPL rallied +4.6% July 2 reclaiming $300 (Chinese memory-chip sourcing CXMT/YMTC, AI-roadmap optimism); July 4 reports of ~5 new iPhones H1 2027 incl ~$2,500 foldable 'iPhone Ultra'. Consolidating ~$294-309. Key catalyst outside window: Q3 FY2026 earnings Thu July 30 after close; margin guidance the swing factor. Tim Cook's last call (Ternus CEO Sept 1, priced). Analyst consensus Buy (PT ~$309-323). Structural DOJ/EU DMA risks, no imminent dated event. Off-hours = thinner/gappier action.",
+    "analyst": "Real strong uptrend (ADX 53.4) but price 313.81 sits just $1.44 under resistance 315.25, above upper Bollinger (bb_pctb 1.059), RSI 69.4/80.3, stoch 85.7, VWAP +1.28% \u2014 a textbook extended long into a wall. Off-hours, thin book (OI 2368), US cash closed = poor/negative-expectancy chase. No short (trend + flow up). No pullback level printed yet to buy cheaply. Highest-expectancy action is HOLD: a decisive reclaim above 315.25 flips to continuation long, else wait for mean-reversion to VWAP/SMA20 for a better entry.",
+    "portfolio": "HOLD AAPL/USDT:USDT \u2014 strong uptrend but overbought at resistance off-hours; wait for a break above 315.25 or a pullback before going long."
+  },
+  "timestamp": "2026-07-07T02:25:07.324651+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "symbol": "EWJ/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.63,
+  "size": 0.0,
+  "entry": 92.86,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "none",
+  "forecast": "Parabolic blow-off on near-zero off-hours volume; price pinned above the upper BB (%B 1.03, RSI 80, stoch 95.7) into resistance 94.82. Most likely path next few bars is a stall/small mean-revert toward VWAP (~90.6) rather than a clean continuation.",
+  "expectancy_note": "Long = chasing +2.48% VWAP extension into resistance (the account's #1 loss pattern); short = knife-catch vs ADX 77.6 uptrend with no confirmation and gap risk. Both sub-1.5 R:R on illiquid tape; HOLD is highest expectancy.",
+  "rationale": "EWJ is a tokenized Japan equity ETF trading off Tokyo hours on effectively zero volume (repeated 0.0 15m prints), so crypto structure metrics are noise and any stop is subject to gap risk. Trend is genuinely up but maximally extended (RSI 80.3, ADX 77.6, stoch 95.7, above upper Bollinger, +2.48% from VWAP) \u2014 a long here buys the top of a parabola and gets stopped on the routine counter-bounce, while a short fights the strongest trend in the book with no exhaustion signal. No catalyst inside 48h (BoJ is Jul 30). Wait for a pullback that resets the extension.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 91.4,
+    "expires_min": 300,
+    "note": "A pullback under 91.4 unwinds the overbought extension back toward VWAP/prior consolidation, opening a low-risk trend-continuation long with an honest ~1x ATR stop below 90.6 support instead of chasing the parabola."
+  },
+  "transcript": {
+    "macro": "Regime MIXED/cautious-defensive; DXY recovered. EWJ: Japan backdrop genuinely bullish \u2014 Nikkei ~70,475 near record, Tankan best since 2018, weak yen (~162) juicing exporters \u2014 BUT scan shows RSI 80.3 / ADX 77.6 / stoch 95.7 (blow-off extended) and LIQUIDITY NEAR-ZERO off Tokyo hours (repeated 0.0 15m volume). Trend up but chasing is poor R:R; longs only on a pullback, tiny size. BoJ Jul 30 flags fade risk on a yen snap-back.",
+    "sentiment": "EWJ NEUTRAL, macro event on the far edge. No catalyst inside 48h. BOJ decision Jul 30-31 (rate 1.00%, July move seen unlikely) \u2014 9+ days out, not tradable now. Nikkei near record highs under PM Takaichi, settled US tariff framework (autos/reciprocal 15%); tone constructive but no near-term driver.",
+    "analyst": "Last 92.86, support 88.16, resistance 94.82, vwap_dist +2.48%. Steady grind 91.88->93.01 then a 0.02-volume tick down \u2014 a parabolic blow-off on essentially no volume, price above the upper Bollinger with RSI 80 / stoch 95.7. A long chases a maximally-extended move into resistance (the account's classic late-continuation loss); a short is a knife-catch vs ADX 77.6 with gap risk on illiquid tape. HOLD; re-look on a pullback below 91.4 that resets the extension into a buyable continuation.",
+    "portfolio": "EWJ \u2014 HOLD (conf 0.63), extended blow-off on near-zero off-hours volume; buy only on a pullback below 91.4."
+  },
+  "timestamp": "2026-07-21T17:02:12.824968+00:00"
+}

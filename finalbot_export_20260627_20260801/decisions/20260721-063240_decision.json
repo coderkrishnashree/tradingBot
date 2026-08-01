@@ -1,0 +1,26 @@
+{
+  "symbol": "HOOD/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.5,
+  "size": 0.0,
+  "entry": 101.01,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "forecast": "Low-volume grind into 101.0 with 5m RSI 94 / 15m-30m RSI 81-83 is a stretched micro-push likely to stall and pull back toward the 99.7-100.0 VWAP/prior-shelf before any fresh leg; no clean entry at the high.",
+  "expectancy_note": "No positive-expectancy entry: buying RSI-94 into the high is the classic late-long-stopped-by-the-bounce loss (rel-str -11.6%, learner weight -0.43); shorting fights an uptrend where longs win 69% and bids support (+0.36).",
+  "rationale": "HOOD is grinding to session highs on thin low-volume 15m bars with LTF RSI 81-94 (5m 94) while the 1h reads flat (score 0.007) and 4h is only mid-range \u2014 a stretched micro-squeeze, not a confirmed higher-TF breakout, and resistance 116.66 is too far for honest R:R. Longs are crowded (L/S 1.65), HOOD underperforms BTC by 11.6% (strong negative predictor), and equity-perps are thin off-hours \u2014 chasing here is the late-long trap. No pullback to buy and no level to fade means no +EV trade; want a dip to 99.7-100.0 to reset a long or a loss of 100.0 to open a fade.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 100.0,
+    "expires_min": 240,
+    "note": "Losing the 100.0 micro-shelf confirms the overbought LTF push is unwinding, opening a pullback long re-entry or a short toward 99.5/96.68."
+  },
+  "transcript": {
+    "macro": "Regime MIXED/cautious risk-on, geopolitical overhang; VIX 18.65; equity-perp longs crowded/late; thin/gappy off US cash hours. HOOD: LONG-OK momentum \u2014 uptrend, bid orderbook (+0.36), but underperforming BTC (rel-str -11.6%) and crowded long (1.65); high-beta risk-on proxy, small size.",
+    "sentiment": "HOOD ~$101, RSI 81-94 very overbought. No fresh single-name shock in window. High crypto/COIN correlation (0.77) \u2014 BTC stability above $65k supportive. BINARY Q2 earnings Wed 7/29 after close (outside 48h); shareholder Q&A opens 7/22. Tilt NEUTRAL/cautious-bullish; no near-term catalyst.",
+    "analyst": "Grind to highs on tiny volume, 5m RSI 94, 1h flat \u2014 stretched micro-squeeze, not a confirmed breakout; resistance far. Crowded long + weak rel-strength = late-long trap. No pullback to buy, no level to fade. HOLD; reset a long on a 99.7-100 dip or fade a loss of 100.0.",
+    "portfolio": "HOOD: HOLD (0.5) \u2014 no +EV entry at the high; wait for a pullback reset."
+  },
+  "timestamp": "2026-07-21T06:32:40.257340+00:00"
+}

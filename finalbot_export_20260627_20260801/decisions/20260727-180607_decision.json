@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "BTC/USDT:USDT",
+  "size": 0.0,
+  "entry": 65008.6,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Choppy grind between 64850 and 65350 over the next few bars; no clean thrust until price either reclaims 65350 (continuation toward 66900) or loses the 64374 higher-low base.",
+  "expectancy_note": "Long here chases a 630pt grind with 15m RSI 77.7 into a hawkish-FOMC crowd already long; honest structural stop (~630pt) kills R:R. Short fights the account's winning-long tape. p(win) both ~0.5 \u2014 HOLD is the highest-expectancy line.",
+  "rationale": "BTC is mid-range (65008; sup 63678 / res 66937) recovering on higher lows but with fading volume and 15m overbought, while 30m/1h read flat and the crowd is already net-long (L/S 1.46, bias -0.17) into Wed FOMC. Pure BTC-beta (corr 1.0, RS 0.0), a grind not a thrust; neither direction offers a clean >=1.5R entry near a level right now. Sit flat and let a 65350 reclaim or a 64374 break define the trade.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 65350,
+    "expires_min": 240,
+    "note": "Reclaiming and holding the 65350 breakdown shelf confirms the recovery has momentum for a continuation long toward 66900 with a defensible stop under 64900."
+  },
+  "transcript": {
+    "macro": "Regime MIXED-to-CAUTIOUS. FOMC Wed Jul 29 (hold, hawkish lean, ~73% Dec hike odds) + MSFT/META same day; smaller size, tighter holds, prefer trades closing before Wed 2pm. Tech selloff (Nasdaq -0.6%, SMH -3%), WTI -7%. No risk-on. Crypto: BTC ~$65k, dominance ~56% (capital consolidating in BTC), alts not running, heavy ETF outflows; BTC funding near-flat (2.1e-5), OI moderate; 4h/5m lean long but 30m/1h flat \u2014 grind, not thrust.",
+    "sentiment": "FOMC Jul 28-29 master catalyst, hawkish lean. BTC: cautious-to-weak. ~$65k, +1.3% on day, structurally damaged after failing to hold $70k; Fear&Greed 29 (fear). ETF outflows + macro caution are the drag, partially offset by Strategy accumulation as a demand floor. No fresh binary next 48h except FOMC read-through \u2014 near-term neutral-to-slightly-negative for a long.",
+    "analyst": "BTC spiked to 65670, sold to 64374, then ground back up on higher lows (630pts) to 65008 with fading volume \u2014 a grind recovery, not a thrust. VWAP dist +0.6% (not extended), 15m RSI 77.7 overbought, 30m/1h flat, crowd already long into hawkish FOMC. Long's honest structural stop is too wide for the R:R; short fights the winning-long tape. Wait for 65350 reclaim (continuation long) or 64374 break (short live).",
+    "portfolio": "HOLD BTC - mid-range grind; wait for 65350 reclaim or 64374 break."
+  },
+  "timestamp": "2026-07-27T18:06:07.474747+00:00"
+}

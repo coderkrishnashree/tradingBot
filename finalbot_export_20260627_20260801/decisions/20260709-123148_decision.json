@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "CL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Post-spike fade: after rejecting 74.60, price drifts to retest the 72.9-73.1 VWAP/consolidation shelf over the next 2-5 bars; a hold there sets up a trend-continuation long back toward 74.6/76.1, while losing 72.4 opens a flush to 72.0.",
+  "expectancy_note": "Long here is 0.7 R:R (stop <72.4 = ~$1.3 risk vs TP1 74.6 = ~$0.9) \u2014 fails the 1.5 gate; account's high-ADX trend chases are net -2.87. Best expectancy is waiting for the 72.9-73.1 retest to enter long with ~1.8 R:R, not chasing the top.",
+  "rationale": "CL is a live event-driven 4h uptrend (ADX 54, RSI 66) but the 15m tape rejected the 74.60 spike and is fading toward 73.7 with 5m RSI at 31.7 and L/S crowded 2.778 long \u2014 classic post-spike exhaustion where a routine dip stops any chase. Entering long at 73.71 gives sub-1.5 R:R into resistance at 76.13, and shorting fights the supply-shock trend plus the Hormuz gap-up tail. Wait for the 72.9-73.1 VWAP/shelf retest to join the trend cleanly, or flip bearish on a 72.4 break.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 72.9,
+    "expires_min": 240,
+    "note": "Tag of the VWAP/consolidation shelf \u2014 the pullback needed to enter a trend-continuation long with clean R:R (and if 72.4 then breaks, the long thesis is void and structure flips bearish)."
+  },
+  "transcript": {
+    "macro": "RISK-OFF, geopolitics-driven \u2014 and CL is the ENGINE of it. WTI surged ~5% to ~$74 on the Iran supply shock; CL is negatively correlated to the rest of the book (a hedge). 4h uptrend, RSI 66, price at upper band. Structure: L/S 2.778 (very crowded long, skew normal in a live supply-shock move), funding 0, OB neutral. Env: LONG (event momentum, small size). Biggest risk: a de-escalation/ceasefire headline gaps it down hard \u2014 two-way geopolitical tail.",
+    "sentiment": "CL bullish near-term, event-driven & two-sided. WTI +5% to ~$74 on renewed US-Iran conflict: ceasefire 'over', US revoked Iran crude waiver, Iran threatening to close the Strait of Hormuz. Biggest 48h risk: Hormuz/Iran headlines are BINARY, can gap violently either direction \u2014 structural backdrop is bearish (OPEC+ +188kb/d July hike, inventories rebuilding, EIA cutting Brent to ~$70 by 4Q26). Geopolitical-premium spike on a bearish fundamental base \u2014 trade tight/small.",
+    "analyst": "Live event-driven 4h uptrend (ADX 54, RSI 66) but the 15m tape rejected the 74.60 spike and is fading (5m RSI 31.7) with crowded long L/S 2.778 \u2014 post-spike exhaustion. Long at 73.71 is sub-1.5 R:R into 76.13 resistance and the account's high-ADX chases are net -2.87; shorting fights the supply-shock trend plus the Hormuz gap-up tail. Hold; wait for the 72.9-73.1 VWAP/shelf retest to join the trend cleanly, flip bearish only on a 72.4 break.",
+    "portfolio": "CL: HOLD (conf 0.60) \u2014 wait for 72.9-73.1 pullback to go long; 72.4 break flips bearish."
+  },
+  "timestamp": "2026-07-09T12:31:48.056171+00:00"
+}

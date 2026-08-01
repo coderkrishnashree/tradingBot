@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "XAUT/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Mid-TF momentum has rolled over after rejection at 4133; expect a drift/pullback toward 4090-4067 (VWAP) over the next 2-4 bars, then the dominant 4h uptrend likely tries to resume \u2014 no clean entry until price finds support and turns up or reclaims 4127.",
+  "expectancy_note": "No edge now: p(win) ~0.5 either way. Long is right-trend but price just got rejected and is fading (buying a falling knife, RSI 4h 69.8 extended); short fights an ADX-75.9 uptrend without being at the resistance extreme.",
+  "rationale": "Strong 4h uptrend (score 0.75, ADX 75.9) but every faster TF (5m/15m/30m/1h) is negative and the last five 15m bars fade off a 4133 rejection to close near the low at 4109 \u2014 the pullback isn't done. Long/short ratio 2.529 is a crowded-long red flag into a hawkish-Fed/firm-DXY drag with FOMC July 28-29, so chasing here risks the routine counter-move stopping me out. No trade until the pullback exhausts near VWAP/support and confirms up, or a reclaim proves the uptrend resumed.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 4127.0,
+    "expires_min": 240,
+    "note": "Reclaiming the 4127 shelf shows the mid-TF pullback is over and the 4h uptrend is resuming \u2014 flips this to a trend-continuation long toward 4155 resistance."
+  },
+  "transcript": {
+    "macro": "RISK-OFF/DEFENSIVE. Hawkish Fed = firm DXY, a headwind for gold. FOMC July 29. XAUT: gold ~$4,100-4,200, choppy, caught between safe-haven (Iran) and hawkish-Fed/firm-DXY drag; WGC fair value ~$4,100. Least-bad long-side risk of the group. MIXED, mild safe-haven tilt.",
+    "sentiment": "XAUT neutral, macro-driven, no <=48h binary: gold ~$4,200 caught between safe-haven bid (Middle East) and firm dollar/hawkish Fed. Structural support from central-bank buying (PBoC +14.93t June, 20-month streak). Live risk is FOMC July 28-29 (a hike-leaning Fed pressures gold). Range-bound.",
+    "analyst": "4h strongly long (0.75, RSI 69.8, ADX 75.9) but 5m/15m/30m/1h all negative; last 5 15m bars fade off a 4133 rejection to close near the low at 4109. L/S ratio 2.529 = crowded long into hawkish-Fed/firm-DXY drag + FOMC July 28-29. Not a clean long (rejected, momentum down, 4h extended) nor a clean short (fights ADX-75.9 uptrend, not at resistance extreme). HOLD; reconsider on a 4127 reclaim.",
+    "portfolio": "HOLD XAUT \u2014 right-trend but mid-pullback and crowded-long into FOMC risk; wait for 4127 reclaim or a support-and-confirm."
+  },
+  "timestamp": "2026-07-23T02:32:50.417385+00:00"
+}

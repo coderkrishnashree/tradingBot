@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "MSTR/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Failed bounce: price rejected 97.5 and faded to 96.0 near bar-low; likely chops 95.4-97.0 next few bars. A clean loss of 95.30 opens continuation to 93-94; a reclaim of ~99.5 would relieve the oversold stretch.",
+  "expectancy_note": "Short here is chasing RSI 22 / stoch 9 / -5.94% below VWAP (extended mid-air, poor R:R, squeeze risk); long fights ADX 61 downtrend + risk-off + closed market. p(win) on either <0.5 from spot \u2014 wait for the break or the retest.",
+  "rationale": "MSTR is deeply oversold (4h RSI 22, stoch 9, %B 0.066) and 5.94% below VWAP after a strong ADX-61 downtrend, then just failed a bounce at 97.5 and faded back toward the lows on the closed, gappy US wrapper. Shorting at 96 mid-air offers weak R:R with real squeeze risk (retail long/short 1.245 is fuel); a long has no durable thesis into risk-off with MSTR now a BTC net-seller. Best expectancy is to wait for a clean break of the 95.30 swing low to short continuation (stop ~97.6, target 93/support).",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 95.3,
+    "expires_min": 240,
+    "note": "Losing the recent swing low ends the oversold-bounce attempt and confirms downtrend continuation toward 93-94 \u2014 a proper short entry with defined risk above 97.5."
+  },
+  "transcript": {
+    "macro": "REGIME: RISK-OFF / defensive, OVERNIGHT session (scan ~01:55 UTC = ~22:00 ET Jul 7; US CASH MARKET CLOSED). Nasdaq -1.16% Jul 7 on AI/semi rotation OUT of risk (Micron -4.7%, SOX -3%+). Scan uniformly short-biased -> supports short/fade-risk, hostile to fresh longs. CRITICAL: all tokenized equities (COIN,QQQ,MSTR,SNDK) on 24/7 perp wrapper with NO underlying price discovery -> thin, gappy, gap-on-open risk at 13:30 UTC -> SMALLER SIZE. Crypto (COIN/MSTR): neutral-to-soft, BTC ~$63.7-64k flat, dominance high, Fear&Greed 27; both far WEAKER than BTC intraday, funding ~0, no crypto tailwind. XAG: DXY bouncing = headwind, short crowded/extended (long/short 3.14 squeeze risk), FOMC June minutes near-term binary. EWJ: hawkish BOJ (1%), Nikkei -2.12% 3-wk low, but liquidity nil (OI 1,253, zero-vol candles). Bottom line: supportive for shorts but biggest risk is closed-market thin liquidity + FOMC minutes -> smaller size across the board.",
+    "sentiment": "DOMINANT OVERLAY: fresh live AI/semiconductor selloff \u2014 Samsung missed lofty AI expectations Jul 7 + reports China's DeepSeek building its own AI chip. Nasdaq Comp ~-1.2%, memory names (Micron/WD/SanDisk) -7%, AMAT/AMD -8-10%. Bearish risk-off tech shock; reinforces short bias on tech-linked names (QQQ,SNDK,EWJ, via beta COIN/MSTR). No single-name binary inside 24-48h for any target -> trade the macro tape. COIN: soft crypto-beta, earnings Jul 30 (outside window), Q1 ugly; neutral-to-bearish. QQQ: cleanest confirmation of short via chip selloff; rate path two-sided. XAG: heavy below ~$62 on yields/dollar; rate-sensitive. MSTR: mixed \u2014 $1B buyback + Digital Credit framework constructive BUT Strategy upped BTC SALES (3,588 BTC ~$216M) = bearish tell; net neutral-to-slightly-bearish. EWJ: Japan epicenter of rout, hawkish BoJ; multi-week drift not 48h binary. SNDK: +635% YTD parabolic, -7% Jul 7 on memory selloff; two-sided, stabilization can snap back violently.",
+    "analyst": "Deeply oversold (RSI 22, stoch 9, -5.94% vs VWAP) after ADX-61 downtrend; failed bounce at 97.5 fading to 96 on closed gappy wrapper. Short mid-air = weak R:R + squeeze risk (L/S 1.245); no long thesis into risk-off with MSTR a BTC net-seller. HOLD; short a clean break of 95.30.",
+    "portfolio": "HOLD \u2014 short bias but too extended/oversold to chase mid-air; trigger a short only on loss of 95.30."
+  },
+  "timestamp": "2026-07-08T02:01:42.940946+00:00"
+}

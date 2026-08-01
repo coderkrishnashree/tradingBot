@@ -1,0 +1,26 @@
+{
+  "symbol": "MSTR/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.55,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "forecast": "Price stalls at 102.3-102.6 into overhead 104.64 resistance; likely a fade back toward VWAP/101.4 over the next 2-6 bars, but no clean trigger yet.",
+  "expectancy_note": "Fresh long is extended (RSI 78.7, +3.16% VWAP, bearish 4h divergence, R:R<1.5); market short into ADX-80 uptrend is the account's #1 loser (shorts 45% win). HOLD beats both.",
+  "rationale": "MSTR is a leveraged BTC proxy (corr 0.71) lagging BTC (RS -2.72%), pinned mid-range under 104.64 resistance with a confirmed 4h bearish divergence, RSI 78.7, and price 3.16% above VWAP. Last 15m bar closed on its lows showing supply. Too extended to chase long; won't market-short an ADX-80 uptrend. No entry with R:R>=1.5 from 102.28, so wait for the tape to pick a side.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 101.4,
+    "expires_min": 240,
+    "note": "Losing 101.4 with bearish divergence intact opens a clean short toward VWAP ~99.2; above 104.64 resumes the long."
+  },
+  "transcript": {
+    "macro": "Regime cautiously risk-on but event-gated. Nasdaq +1.9% Tue on semi bounce (SOX +5%); Fed 3.50-3.75%, FOMC Jul 28-29 next week. Crypto soft: BTC ~$66.6k, dominance 56.3%. Funding flat (no crowding tax) but lopsided L/S = crowded longs/contrarian risk (XAG 3.19, SOL 2.48, TSM 2.19, INTC 1.85, MSTR 1.34). Most names RSI 74-89 4h, bearish divergence on BTC/MSTR/XAG. HARD EVENTS: GOOGL+TSLA earnings after close TODAY (Jul 22), INTC Thu Jul 23. BTC cleanest structure (strong +0.78 bid); SOL/MSTR are BTC-beta laggards.",
+    "sentiment": "24/7 tokenized perps tracking underlying equities/assets. Hard <=48h binaries: GOOGL Q2 after close TODAY, INTC Q2 Thu Jul 23 (options price ~12-15% move). Outside 48h: HOOD Jul 29, COIN Jul 30, MSTR ~Jul 30-Aug 4 (down ~44% since last report, tied to BTC), SNDK Aug 5. TSM reported Jul 16 (beat). BTC Fear&Greed ~28. MSTR neutral-bearish, no <=48h binary.",
+    "analyst": "HOLD. MSTR extended and mid-range: RSI 78.7 + bearish 4h divergence + 3.16% above VWAP under 104.64 resistance = too stretched to chase long; ADX-80 uptrend + account's shorts losing (45% win) = won't chase short. No R:R>=1.5 entry at 102.28. Armed short trigger below 101.4.",
+    "portfolio": "HOLD MSTR \u2014 extended BTC-proxy under resistance, no R:R>=1.5 setup; watch 101.4 (short) / 104.64 (long)."
+  },
+  "timestamp": "2026-07-22T01:05:49.434829+00:00"
+}

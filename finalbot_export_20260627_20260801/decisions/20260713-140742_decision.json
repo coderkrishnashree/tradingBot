@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "ORCL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price just flushed 139.4 to a 136.37 low and closed 137.17 off the low on huge volume with 5m RSI 8.6 / 15m RSI 12.7 - expect a reflex bounce back toward VWAP 141.0-141.5 over the next 4-10 bars before the downtrend can resume; that VWAP retest is where a clean short sets up.",
+  "expectancy_note": "Shorting the 136.37 low now = ~40% p(win), a routine counter-bounce hits any honest stop first (account's #1 loss pattern). Waiting to short the VWAP bounce flips this to ~60% with better R:R; HOLD is the higher-expectancy call.",
+  "rationale": "ORCL has the cleanest fundamental short (bias -0.372, L/S 2.68 crowded long, rel-strength -16.95, ADX 60) but price is mid-flush sitting ON support 136.37 with single-digit LTF RSI and -3% below VWAP - textbook oversold-into-support, not a rally to short. Entering now means chasing a vertical move where a stop above the swing gives poor R:R to a target that must break the support price already rests on. Wait for the bounce to VWAP ~141 to short strength; CPI tomorrow 08:30 and no-overnight-equity-size rules also favor patience.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 141.0,
+    "expires_min": 240,
+    "note": "A bounce reclaiming VWAP ~141 gives the strength-rally short entry (stop above ~142.7, target back toward 137/136.4) with proper R:R; that is the level that turns this correct-but-early HOLD into a timely short."
+  },
+  "transcript": {
+    "macro": "Env MIXED-to-SHORT-biased; enter shorts on rallies not breakdowns, small size. June CPI Tue Jul 14 08:30 ET inside 48h, no overnight equity-token size. ORCL: bias -0.372 (short), L/S 2.68 (very crowded long), rel-strength -16.95 (big laggard), ADX 60 strong downtrend, RSI 24.9, -3% below VWAP. Cleanest fundamental short by trend but deeply oversold + crowded-long = high bounce risk. Short strength, not weakness.",
+    "sentiment": "ORCL bearish, no \u226448h catalyst. Down ~29% YTD, testing $140; $638B RPO / $300B OpenAI backlog overshadowed by negative FCF (-$23.7B FY26), >$100B debt, rating pressure. Recent drag: reports of delayed OpenAI IPO + OpenAI counterparty-concentration risk (~half of RPO). Narrative-driven, not a scheduled event.",
+    "analyst": "Cleanest fundamental short but climactic flush sitting ON support 136.37 with 5m RSI 8.6 / 15m RSI 12.7, -3% below VWAP \u2014 'short strength not weakness' territory. Shorting the low is chasing; high-probability next move is a reflex bounce to VWAP ~141.5, which is where the clean short sets up. CPI tomorrow favors patience. HOLD; short armed on a bounce reclaiming ~141.",
+    "portfolio": "HOLD ORCL \u2014 cleanest short but mid-flush at support; wait to short the VWAP ~141 bounce."
+  },
+  "timestamp": "2026-07-13T14:07:42.831585+00:00"
+}

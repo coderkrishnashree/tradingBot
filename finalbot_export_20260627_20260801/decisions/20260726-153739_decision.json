@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "TSM/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.34,
+  "playbook": "none",
+  "forecast": "Thin Sunday drift: price micro-chops 409-411 on near-zero volume through the close; no clean directional move until Monday cash open, where the risk-off chip complex biases a break of 397.8 support or a squeeze back toward 412+ VWAP.",
+  "expectancy_note": "No edge: illiquid frozen tape (many 0-volume bars), 'breakout' is a 2.8-unit data artifact, and 4h(-0.84)/15m(RSI 78) conflict - any entry has negative expectancy vs waiting for Monday confirmation.",
+  "rationale": "US equities are CLOSED (Sunday) so tokenized TSM is thin and gappy - the recent candles are frozen prints on microscopic volume and the long 'breakout' flag fired on ~2.8 units, not real demand. The 4h is genuinely bearish (score -0.84, RSI 34, downtrend) but the intraday is a low-liquidity drift up into 15m RSI 78, so shorting now walks into the classic late-entry bounce trap while going long fights the risk-off chip selloff and FOMC (Jul 28-29) binary risk. No honest R:R exists until Monday's open reprices; HOLD is the highest-expectancy choice.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 397.8,
+    "expires_min": 1080,
+    "note": "Losing 4h support 397.8 on real Monday-session volume confirms the bearish continuation and arms a proper short with a defined stop above the level."
+  },
+  "transcript": {
+    "macro": "Regime MIXED->HOSTILE; risk-off Nasdaq on AI-capex fears dragging the chip complex; FOMC July 28-29 inside window; Sunday, US equities CLOSED, tokenized TSM thin/gappy. TSM short lean: 4h score -0.84, RSI 34, trend down, below VWAP; already reported July 16 (no fresh catalyst). Wait for Monday open confirmation.",
+    "sentiment": "TSM neutral, post-catalyst: blew out Q2 July 16 (record rev/margins, raised FY guide >40%, capex $60-64B on robust AI demand) - bullish but priced and 10 days stale. Immediate risk is the fresh AI-spend/valuation selloff hitting the whole chip complex. No new <=48h catalyst.",
+    "analyst": "US equities closed - thin/gappy; recent candles frozen on microscopic volume, the long 'breakout' fired on ~2.8 units (data artifact). 4h genuinely bearish but intraday low-liquidity drift up into 15m RSI 78 - shorting now = late-entry bounce trap; long fights the chip selloff + FOMC. No honest R:R until Monday. Hold.",
+    "portfolio": "HOLD TSM (conf 0.34) - frozen thin tape, phantom breakout; wait for Monday break of 397.8."
+  },
+  "timestamp": "2026-07-26T15:37:39.941594+00:00"
+}

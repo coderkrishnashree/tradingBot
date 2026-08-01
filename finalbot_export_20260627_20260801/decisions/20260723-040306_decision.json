@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "MSFT/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.58,
+  "playbook": "none",
+  "forecast": "Price chops in the 388.6-390.0 range next few bars; likely a dead-cat bounce toward VWAP/391.5 given 4h RSI 21 / stoch 15 / %B 0.06 exhaustion, OR a clean flush through 384.31 that opens 380. Short only on the flush, not into the hole.",
+  "expectancy_note": "Short here p(win) ~0.42 (learner: shorts 0.46 win / -0.97 avg over 50; RSI 21 = late-short trap). A break of 384.31 lifts continuation p(win) to ~0.6 at 2R; waiting has higher expectancy than chasing.",
+  "rationale": "MSFT is deeply oversold on mid/high TFs (4h RSI 21, stoch 15, %B 0.06) after a strong ADX-62 down leg, and the last 15m bars coil in a tight 388.6-390.0 range just 1.2% above support 384.31 - a bounce-risk zone, not a fresh breakdown. This account's shorts lose (0.46 win, -0.97 avg) and its worst pattern is shorting stretched tape into the counter-bounce; thin off-hours tape adds gap risk. Highest-expectancy move is to wait: short only on a confirmed loss of 384.31.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 384.31,
+    "expires_min": 240,
+    "note": "Losing support 384.31 breaks the oversold coil and confirms downtrend continuation toward 380 - the honest short entry, avoiding the RSI-21 bounce trap."
+  },
+  "transcript": {
+    "macro": "MIXED regime, cautious risk-off into next-week mega-cap earnings (MSFT/HOOD 7/29, MSTR 7/30 - all outside 48h window). Wed close: Dow +0.05%, S&P -0.1%, Nasdaq-100 -0.5%. Oil spiked (Brent ~$94) = tech headwind. Scan struck outside US cash hours = thin/gappy tape, funding ~0, cash-open gap risk. Every name crowded long, several oversold = squeeze risk. Cleanest alignment on tech shorts but they are oversold - don't add into the hole.",
+    "sentiment": "MSFT mildly bearish near-term, no fresh catalyst today. Scan shorts it (4h RSI 21, deeply oversold). Real event is FQ4 earnings Wed 7/29 after close (Azure/AI focus) - a full cycle+ away, does NOT justify holding a short through the weekend. Technical-only; neutral-to-slightly-soft, no 48h binary.",
+    "analyst": "MSFT last 389.11, short-aligned (composite short 52%, ADX 62.6, 1h/30m downtrends) but deeply oversold (4h RSI 21, stoch 15, %B 0.06). Learner: shorts 0.46 win / -0.97 avg over 50; p_win_learned 0.429 - shorting is this book's losing pattern and RSI 21 is the late-short trap. Price coils 388.6-390.0 just above support 384.31 = bounce-risk zone, not a fresh breakdown. HOLD; short only on a clean loss of 384.31.",
+    "portfolio": "HOLD MSFT - short bias real but deeply oversold; short only on a confirmed break of 384.31 (reconsider armed)."
+  },
+  "timestamp": "2026-07-23T04:03:06.817048+00:00"
+}

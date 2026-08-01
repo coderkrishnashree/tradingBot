@@ -1,0 +1,25 @@
+{
+  "symbol": "EWY/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.4,
+  "size": 0.0,
+  "entry": 163.14,
+  "stop_loss": 165.5,
+  "take_profit": 159.52,
+  "playbook": "none",
+  "forecast": "Bounce to 164.76 just failed; price chops between support 159.52 and the 164.8 bounce-high over the next few bars. No clean edge until support breaks or a reclaim confirms.",
+  "rationale": "EWY is in a strong 4h/1h downtrend (ADX 56, RSI 29) but deeply oversold, -4.12% below VWAP and only ~2.2% above support 159.52, with record $1.1B ETF inflows and a Goldman KOSPI upgrade as active dip-buying fuel and overnight gap risk. Shorting now chases an extended move into support (the book's #1 loss pattern) and a long is a falling-knife catch against ADX 56 \u2014 neither clears a 1.5R honest bar. I want proof: a decisive close below 159.52 confirms continuation and re-arms the short, so I wait rather than force a low-expectancy trade into a violently whipsawing tape.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 159.52,
+    "expires_min": 240,
+    "note": "Losing support 159.52 breaks the last floor and confirms trend continuation, opening clean downside room to re-enter short with proper R:R below the oversold zone."
+  },
+  "transcript": {
+    "macro": "Regime RISK_OFF (2026-07-16): semiconductor sell-off, tokenized perps thin/gappy overnight. EWY low BTC-corr 0.26 (equity beta). Highest volatility, most extended-short. KOSPI whipsawing violently \u2014 down ~27% from June 19 peak then a 6%+ single-day bounce, highly semi-sensitive (SK Hynix/Samsung). Deeply OVERSOLD (RSI 29, relative_strength -23.7% vs BTC, ADX 56). Funding mildly positive (+0.0004, longs paying), structure_bias -0.24 (most short-biased).",
+    "sentiment": "EWY acutely bearish/high-vol: KOSPI plunged ~6-7% today (below 7,000), triggered a sidecar, as SK Hynix (~25% of EWY) fell ~11.5% on profit-taking after record $26.5B Nasdaq ADR listing (July 10) + broad chip rout. TENSION price misses: record ETF inflows (>$1.1B Wed, $814M prior) and Goldman 12-month KOSPI target hike to 12,000 signal dip-buying \u2014 two-way risk. EWY and NVDA are the SAME semi-rout trade \u2014 correlated.",
+    "analyst": "Strong downtrend (ADX 56, RSI 29) but deeply oversold, -4.12% below VWAP, only ~2.2% above support 159.52; intraday bounce to 164.76 just failed and rolled to 163.14. Short into support at oversold with record inflows + Goldman upgrade fueling dip-buying = classic late-short loss, R:R to TP1 only ~1.6. Long fights ADX 56. HOLD; short re-arms on a decisive close below 159.52.",
+    "portfolio": "HOLD EWY \u2014 violent oversold tape into support, dip-buyers active; wait for a decisive break of 159.52 to re-arm the short."
+  },
+  "timestamp": "2026-07-16T22:34:49.681908+00:00"
+}

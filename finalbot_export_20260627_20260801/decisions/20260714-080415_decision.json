@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "GOOGL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price coils on the $351.50 support shelf; last 15m bar already rejected the low (351.50) and closed 352.22. Into the 08:30 ET CPI print it likely chops 351.5-353.7; a cool print squeezes shorts back toward 355+, a hot print flushes 351 toward 349. No high-expectancy entry until that resolves.",
+  "expectancy_note": "Short at 4h RSI 9.7 / bb%b -0.012 / stoch 8.9 sitting ON support = chasing into a bounce; a normal counter-rally stops it before trend resumes (the account's #1 loss pattern). Long has no reclaim confirmation vs ADX 66 downtrend. Both sit inside a 30-min binary CPI event, negative expectancy either way; waiting is the +EV play.",
+  "rationale": "GOOGL is the most oversold name on the board (4h RSI 9.7, ADX 66) and pinned exactly to $351.50 support with the last candle wicking off the low, so shorting here is late/chasing and vulnerable to a snapback, while going long fights a raging downtrend without confirmation. With CPI at 08:30 ET a ~30-minute binary and thin pre-market liquidity, the honest move is to stand aside and let the event pick a direction. Zero size; re-engage only on a clean level break.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 353.65,
+    "expires_min": 180,
+    "note": "Reclaiming the 353.65 intraday pivot/VWAP zone confirms the deeply-oversold snapback is real and turns the exhaustion into a tradeable long off support; below that it's just a bounce inside a downtrend."
+  },
+  "transcript": {
+    "macro": "Regime MIXED-to-HOSTILE. Scan 03:58 ET pre-market, BEFORE 8:30 ET CPI + bank earnings; equity futures modestly red. GOOGL MIXED, short-biased but exhausted: structure_bias -0.241 (funding +0.000315 longs paying, L/S 1.449 long-skewed = contrarian short), OI tiny. BUT 4h RSI 9.7, 1h RSI 24, %B -0.012, price pinned to support $351.50 = one of the most oversold names; short thesis is LATE. btc_corr 0.137 (idiosyncratic). Exhaustion + event risk = smaller size, high snapback risk.",
+    "sentiment": "Risk-off; CPI 08:30 ET binary; Warsh 10:00 ET; bank earnings today. GOOGL BEARISH near-term into an event but oversold: Q2 earnings confirmed Wed July 22 after close (EPS ~$2.87), outside 48h but pre-print drift + AI-capex scrutiny matters. Deeply oversold (4h RSI 9.7, ADX 66) = momentum down but stretched, so a short here is chasing. No fresh 48h catalyst beyond CPI/tape.",
+    "analyst": "GOOGL $352.22, support $351.50 (pinned on it). 4h RSI 9.7, 1h 24, 5m 20 = extremely oversold; %B -0.012 (below lower band), stoch 8.9, ADX 66 strong downtrend, vwap_dist -0.15% (at VWAP, NOT extended). funding +0.000315, L/S 1.449. Candles ran to 353.64 then faded steadily; last bar dipped to 351.50 exact support and closed 352.22 (rejection wick). Shorting at sub-10 4h RSI on support is textbook chasing; long fights ADX 66 without reclaim confirmation; CPI ~30 min out is a binary. HOLD - no clean short, no clean long.",
+    "portfolio": "HOLD GOOGL, zero size, conf 0.60 - most oversold name pinned to 351.50 support into a CPI binary; short is chasing, long unconfirmed. Long triggers on reclaim of 353.65; short on a clean loss of 351.00."
+  },
+  "timestamp": "2026-07-14T08:04:15.623861+00:00"
+}

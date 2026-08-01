@@ -1,0 +1,26 @@
+{
+  "symbol": "NVDA/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.55,
+  "size": 0,
+  "entry": 192.06,
+  "stop_loss": 190.16,
+  "take_profit": 196.5,
+  "playbook": "none",
+  "forecast": "Price is coiling above 190.16 support with higher lows (190.97 to 191.68) after the flush; expect a relief bounce toward 194-196 over the next few bars OR a clean loss of 190.16 that opens 188. Neither edge is actionable at 192.06 mid-range.",
+  "expectancy_note": "Shorting now (RSI 23.7, below lower band, 2% under VWAP, on support) is chasing into a hole; long is countertrend vs ADX 49 \u2014 p(win) too low both ways, so HOLD beats both.",
+  "rationale": "NVDA is deeply oversold at support 190.16 with 4h RSI 23.7 and price below the lower Bollinger band; the 15m tape shows buyers defending with higher lows, so a short here has terrible R:R (support only ~2pts away, bounce risk into a defused Kyber catalyst +1%). The high-expectancy plays are to short a relief RALLY into 194.5-196 (strength into the strong ADX-49 downtrend) or to short a confirmed break BELOW 190.16 targeting 188 \u2014 not to sell the flush at the level. Size 0 until price shows its hand.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 190.16,
+    "expires_min": 240,
+    "note": "Losing 190.16 confirms the base failed and opens the 188 leg \u2014 arm the trend short; conversely a push back to 195+ would offer a short-into-strength entry."
+  },
+  "transcript": {
+    "macro": "Cautiously risk-on, hawkish Fed overhang (~56% Sep hike odds). Crowded/trapped longs (long/short ~2x) squeeze-prone. NVDA bearish/weak near-term: BTC corr 0.32, RS -4.58% vs BTC (the laggard, -12% past month), composite SHORT ~34%, down-trend 15m-4h, RSI 23.7 (deeply oversold), below lower band, at support 190.16, ADX 49 strong downtrend. structure_bias -0.42 (trapped longs). Mild positive news (Kyber denial +1%) = mean-reversion risk against shorts near oversold support. Short into strength, not into the hole.",
+    "sentiment": "NVDA constructive long-horizon (Strong Buy, PT ~$301, board expansion Jul 13) but short-term opposite \u2014 oversold, selling off. Fresh: Jul 7 Kyber NVL144 slip-to-2028 headline denied same-day (+1%) \u2014 defused. Own earnings far (Aug 26). Near-term news NEUTRAL; oversold flush looks technical/positioning-driven, watch for bounce off support.",
+    "analyst": "NVDA 192.06 with support 190.16 just below; RSI 23.7, below lower band, stoch 14.4, ADX 49. 15m tape flushed to 190.97 then based with higher lows (190.97-191.68), buyers defending above support. Classic oversold-at-support: shorting the hole is chasing (poor R:R, ~2pt support, bounce risk); long is countertrend. HOLD \u2014 short a relief bounce into 194.5-196, or a confirmed break below 190.16 toward 188.",
+    "portfolio": "NVDA \u2014 HOLD (conf 0.55): oversold at support 190.16, terrible R:R to short the flush; wait for a bounce to 195+ to short into strength or a break below 190.16."
+  },
+  "timestamp": "2026-07-07T14:39:05.951354+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "BTC/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Coils 64,700-65,100 into FOMC; overhead ask cluster (imbalance -0.63) caps rallies just under 65k, so the next clean move is either a flush toward 63,900-64,000 support or a reclaim of 65,100 \u2014 buy the dip, not chase mid-range.",
+  "expectancy_note": "p(win) on a mid-range market long ~0.5, R:R poor: support is ~$1,050 below (wide stop) while resistance/offers sit ~$150 above \u2014 no 1.5R. Waiting for a support tag or a 65,100 reclaim gives a clean-stop long, which is the account's winning side (longs 0.60 WR vs shorts 0.44).",
+  "rationale": "BTC is mid-range (64,960 vs 63,680 support / 66,940 resistance) with 4h up but 1h/30m flat and ADX only 36 \u2014 chop, not a clean trend. Heavy resting offers (orderbook imbalance -0.629) are the dominant drag and will cap any rally under 65k, so a market long here chases into supply with no room to a target and a too-wide stop to support; a market entry fails the 1.5R test. Genuine FOMC binary in ~48h argues against holding naked risk into a coil. Longs are the account's winning side, so the plan is to buy a controlled dip to support or a confirmed 65,100 reclaim, not to force it now.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 64100,
+    "expires_min": 240,
+    "note": "A flush to 64,100 tags the 63,680 support zone and lets me buy the dip with a ~1xATR stop below 63,600 and a clean bounce target back toward 65k."
+  },
+  "transcript": {
+    "macro": "Risk-off crypto, wobbly equities. BTC ~$64,960, dominance elevated 56.3% (alts bleeding). Fed funds 3.50-3.75%; FOMC decision Wed Jul 29 2pm ET \u2014 HOLD expected but live hawkish tail risk. MSFT/META earnings Wed after-close, AAPL Thu. Nasdaq -0.2%, semis heavy; DXY soft ~101.2. BTC book: structure_bias -0.337, funding +0.0045% (flat), orderbook imbalance -0.629 (heavy overhead offers), L/S 1.442. 4h up but 30m/1h flat, ADX 36 \u2014 chop with offers overhead. Keep size small, avoid naked holds into Wed.",
+    "sentiment": "Dominant catalyst across the book = FOMC Jul 28-29 (hike-vs-hold, ~33% hike odds); options traders dropping hedges into it ('volatility trap'). BTC cautiously constructive but fragile \u2014 defending ~$65k, mkt cap +1.7% today, but Fear&Greed still 'fear' (30). Near-term neutral-to-bearish skew: coiled range into Wed, then sharp directional move. Long not clean until Fed clears.",
+    "analyst": "BTC mid-range (64,960 between 63,680 support and 66,940 resistance), 4h uptrend but 1h/30m flat, ADX 36 \u2014 chop into an event. Orderbook imbalance -0.629 means overhead supply caps rallies under 65k; a market long chases into offers with a too-wide stop to support (fails 1.5R). Not at an extreme, so no clean fade either. FOMC binary ~48h out. Best expectancy is to wait: buy a dip to 63,900-64,000 support (the account's winning long side) or a confirmed 65,100 reclaim.",
+    "portfolio": "HOLD BTC/USDT \u2014 mid-range chop with overhead offers into FOMC; armed a buy-the-dip reconsider at 64,100."
+  },
+  "timestamp": "2026-07-27T19:36:32.395246+00:00"
+}

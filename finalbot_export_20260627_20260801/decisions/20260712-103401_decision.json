@@ -1,0 +1,27 @@
+{
+  "action": "hold",
+  "symbol": "ORCL/USDT:USDT",
+  "size": 0.0,
+  "entry": 141.42,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.34,
+  "leverage": 0,
+  "playbook": "none",
+  "forecast": "Thin Sunday grind: price chops 140.5-142.5 above the 137.63 support into Monday; either a low-volume drift lower to test 137.63 or a mean-revert bounce toward VWAP ~144 \u2014 no clean directional edge until 137.63 breaks or reclaims.",
+  "expectancy_note": "Short = chasing (15m RSI 19.8, 5m 22.6, -1.9% below VWAP) into support with crowded-long fuel for a bounce; long = counter-trend knife-catch on worst rel-strength name (-18.8%) into thin closed-market tape. Neither clears R:R 1.5; HOLD has best expectancy.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 137.63,
+    "expires_min": 240,
+    "note": "Losing 137.63 support on a close confirms 4h downtrend continuation and gives a real level to short against (stop over 139); an oversold bounce that reclaims VWAP ~144 would argue the flush is done."
+  },
+  "rationale": "Equity token on a Sunday (US cash closed) \u2014 crypto funding/OI/L-S not meaningful, and Monday-open gap risk makes fresh entries low-quality. Tape is 4h-down but LTF deeply oversold (15m RSI 19.8, 5m 22.6) and price sits 2.7% above support 137.63 with a small green tick on the last bar, so a market short is exactly the late-into-stretched-tape entry that gets stopped by a counter-bounce. No reversal signal to justify a long against the weakest name on the board. Best expectancy is to wait for the level to resolve.",
+  "transcript": {
+    "macro": "Regime NEUTRAL. Risk-on tape but late-cycle/jittery after ~$1T semi selloff; Sunday = US cash closed, equity tokens thin/gappy off Friday closes, Monday-open gap risk. ORCL weakest of the semi/AI group \u2014 4h down, RSI 32.9, rel-strength -18.8% (worst on board), near support 137.63. Oversold but no reversal signal. Funding ~0; L/S crowded long 2.13; structure_bias -0.30. Scan bias short 38%.",
+    "sentiment": "ORCL neutral \u2014 no near-term catalyst; long-horizon narrative only. Last earnings Jun 10 (record Q4 FY26, rev +21% to $19.2B, cloud infra +93%) in rear-view; next report ~Sept. Ex-div Jul 10 passed. Only fresh items long-horizon/low-weight: analysts 'Buy'; $40B FY27 debt+equity financing ($20B ATM equity issuance) a structural overhang/slow bearish drip, not a 48h mover.",
+    "analyst": "Both sides bad: short chases deeply-oversold LTF into support with crowded-long bounce fuel; long is a counter-trend knife-catch on the worst rel-strength name into thin closed-market tape. Hold; short only on a clean break/hold below 137.63, or reconsider if a bounce reclaims VWAP ~144.",
+    "portfolio": "HOLD ORCL \u2014 weakest name, oversold into support; no honest entry, arm short below 137.63."
+  },
+  "timestamp": "2026-07-12T10:34:01.320064+00:00"
+}

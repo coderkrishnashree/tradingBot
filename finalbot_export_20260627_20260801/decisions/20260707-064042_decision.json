@@ -1,0 +1,27 @@
+{
+  "action": "hold",
+  "symbol": "QQQ/USDT:USDT",
+  "size": 0.0,
+  "entry": 716.49,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "expectancy_note": "Bounce-at-support long has decent p(win)~0.55 but entering on a thin 5m spike pre-open is negative-EV vs waiting for the 09:30 ET reclaim; short fights up-tape+mechanical bid. Best EV = wait for confirmation.",
+  "rationale": "QQQ is a tokenized Nasdaq-100 equity perp with US cash market CLOSED (~02:37 ET) \u2014 thin, gappy OI ~4,181, so the +0.411 orderbook tilt and 5m RSI-71 spike are low-conviction off-hours noise, not signal. 15m-4h are all short but deeply oversold (RSI 27-38, %B -0.09) sitting just above support 705.83, and the macro read (SpaceX index-add mechanical buying, risk-on Jul 6 tape) is constructive INTO the open, not before it. A long now chases a thin spike with real whipsaw risk at 09:30 ET; a short fights the up-tape and balanced positioning. No 48h binary (CPI Jul 14, FOMC Jul 28-29). Highest-expectancy move is to wait for the cash open to confirm the bounce \u2014 flip long on a VWAP/717.5 reclaim.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 717.5,
+    "expires_min": 240,
+    "note": "Reclaiming above VWAP/717.5 into/after the 09:30 ET open confirms the oversold bounce off 705.83 is real (not a thin off-hours fade), arming a long toward 725/737.88 with the SpaceX mechanical bid behind it."
+  },
+  "transcript": {
+    "macro": "QQQ = tokenized Nasdaq-100 equity perp; crypto funding largely noise (btc_corr ~0.445). US cash market CLOSED at scan time (~02:37 ET) \u2014 thin/gappy until 09:30 ET. Regime modestly risk-on but hawkish-Fed cap. Jul 6 close strong: Nasdaq Comp +1.12%, QQQ +1.43% led by semis. Tailwind: SpaceX added to Nasdaq-100 before Jul 7 open -> mechanical QQQ index-fund buying. Offset: Fed on hold 3.50-3.75%, May CPI hot 4.2% YoY, Warsh dot plot leans possible HIKE (~71% '0 cuts'). No binary in hours-to-2-day window (CPI Jul 14, FOMC Jul 28-29). Structure_bias +0.099, long/short 1.077 balanced/uncrowded, funding 0.0, orderbook_imbalance +0.411 but thin off-hours OI ~4,181 (low conviction). Verdict MIXED, leaning constructive for longs INTO the cash open, not before; reduced size until open (liquidity/timing haircut).",
+    "sentiment": "Tone bullish/risk-on but into an information vacuum. Jul 6 US tech rallied on AI optimism, Nasdaq +~1.1%, broad mega-cap bid (AMD +6.6%, Broadcom +3.7% on Apple partnership). Scan Jul 7 06:37 UTC shows QQQ short-timeframes red (15m/30m ~-0.9, RSI 27-38, price 716.5 just off support 705.8) \u2014 overnight off-hours mean-reversion, not fundamental shift. Concrete <=48h catalysts: essentially NONE dated. CPI Jul 14, FOMC Jul 29 out of window; Q2 earnings open Jul 9 (Pepsi)/Jul 10 (Delta) not Nasdaq movers; big-tech Jul 27-31. Only dated micro-event: SpaceX joining Nasdaq-100 before Tue open (mechanical). Net near-term NEUTRAL headlines, mildly constructive bias \u2014 argues AGAINST pressing a fresh short; bounce off 705.8 higher-probability absent a new shock.",
+    "analyst": "Mildly oversold bounce setup at support into a constructive cash open with SpaceX mechanical index-buying tailwind \u2014 but the entire read rests on thin off-hours data while US market closed, with real gap/whipsaw risk at 09:30 ET. A short fights the up-tape, mechanical bid, and balanced positioning. A long here is premature \u2014 chasing a thin 5m spike before confirmation. Best expectancy is to wait for the cash-open reclaim. HOLD; flip long on a VWAP/717.5 reclaim (arms toward 725/737.88), short thesis only if support 705.83 breaks. Levels: last 716.49, support 705.83, resistance 737.88, ATR% 0.47, RSI 38.4, ADX 29.",
+    "portfolio": "HOLD QQQ/USDT:USDT (conf 0.5) \u2014 no trade off-hours; wait for 09:30 ET cash open, arm long on 717.5 reclaim."
+  },
+  "timestamp": "2026-07-07T06:40:42.296556+00:00"
+}

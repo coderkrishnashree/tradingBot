@@ -1,0 +1,25 @@
+{
+  "action": "hold",
+  "symbol": "INTC/USDT:USDT",
+  "entry": 122.94,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "size": 0.0,
+  "confidence": 0.4,
+  "playbook": "none",
+  "expectancy_note": "Short = chasing RSI 25 into support with negative funding + weekend gap/squeeze risk (low p); mean-rev long = knife-catch vs ADX 77.7 with no divergence (low p). Neither clears R:R; HOLD is highest expectancy.",
+  "rationale": "INTC has the group's strongest downtrend (ADX 77.7, all TFs short) but is also its most oversold (RSI 25.3, %B 0.128) and sits right on support 122.47 with negative funding - the exact conditions flagged as the highest mean-reversion/short-squeeze risk into US-holiday-closed, thin/gappy perps. Shorting here chases an extended move at a level rather than a fresh breakdown; fading it has no reversal confirmation into a hostile-for-longs macro. No entry offers 1.5R with a stop outside the noise, so I stand aside and let the weekend gap resolve. Size 0.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 122.47,
+    "expires_min": 240,
+    "note": "A clean break/close below support 122.47 proves the downtrend resumes rather than bouncing, re-arming a trend-continuation short with a defined stop back inside the base."
+  },
+  "transcript": {
+    "macro": "Environment HOSTILE-to-MIXED for longs, MIXED-to-SUPPORTIVE for shorts. Active early-July 2026 AI/semiconductor VALUATION SELLOFF (Micron -13%, Intel -9%, AMD -7%, SMH -5%; SK Hynix slowing HBM, AI-capex ROI skepticism, hawkish Warsh Fed, May CPI 4.2%). Tape cracking; Goldman risk-appetite 99th pct. Trade as EQUITIES (INTC BTC corr 0.27). CRITICAL: US July 4 holiday weekend, underlying equities CLOSED, perps thin/gappy/wick-prone until reopen; expect a gap. INTC: last 122.94, RS -2.41%, OI 24,119, funding NEGATIVE (shorts paying), L/S 1.53, orderbook +0.015 (neutral), structure_bias -0.135 (least bearish), RSI 25 (deeply oversold), ADX 77.7 (extremely strong downtrend), all TFs short. Cleanest downtrend but MOST oversold - mean-reversion bounce risk HIGHEST here; single biggest squeeze risk in the group on US reopen. Argue SMALLER SIZE.",
+    "sentiment": "Sector constructive-but-jittery (structural DRAM/NAND shortage, volatile tape, June 5 rout wiped ~$1T). INTC: earnings Thu July 23 after close (well outside window). NEAR-TERM RISK: Foundry layoffs (15-20% of Foundry div, CEO Lip-Bu Tan restructuring, >25k cuts) BEGIN MID-JULY - headline risk. Stock TRIPLED over 12 months = momentum-extended, was a leader in the June 5 selloff. Q1 Foundry rev $5.4B (+16% YoY) supportive. No <=48h binary; watch layoff headlines + sector beta.",
+    "analyst": "INTC is the textbook trap in this cluster - it screens as the cleanest short (ADX 77.7, every TF negative, RS weakest at -2.41%) precisely because it fell hardest, which is why it is now the most dangerous short. RSI 25.3, stoch 25, %B 0.128, price pinned to support 122.47 (only 0.39% under VWAP): the easy downside is priced; negative funding means shorts are already crowded and paying, which is squeeze fuel not confirmation. Macro flags this specific name as the group's biggest oversold-bounce/short-squeeze risk on US reopen, and the July 4 holiday scan means the underlying is closed and the perp likely gaps. Fading it long has no divergence/reversal trigger against ADX~78 in a hostile-for-longs macro with mid-July Foundry-layoff headline risk. No entry offers a 1.5R stop outside the noise, so stand aside and let the gap resolve; re-debate armed on a clean break of 122.47.",
+    "portfolio": "HOLD INTC (conf 0.40, size 0) - strongest downtrend but most oversold and highest squeeze risk into a holiday gap; short-trigger armed on a break of 122.47 support."
+  },
+  "timestamp": "2026-07-06T00:06:03.522174+00:00"
+}

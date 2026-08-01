@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "MSFT/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.34,
+  "playbook": "none",
+  "forecast": "Extreme short-TF overbought (1h RSI 93) with sellers on the book and 4h bull divergence points to a stall/mean-revert dip from 384.75 toward 378-380 over the next few bars, but with no clean level touched yet and a violent Jul 29 earnings+FOMC gap inside the window, there is no positive-expectancy entry now.",
+  "expectancy_note": "p(win) on any directional bet ~coin-flip once the Jul 29 binary dominates; a late short into a stretched tape gets bounce-stopped (~2R loss), a long into crowded-long overbought is worse. HOLD beats both.",
+  "rationale": "MSFT earnings after close Wed Jul 29 plus FOMC same day is a hard binary squarely inside the hold window with real overnight gap risk on a thin tokenized single-stock; any trade carried into it is an earnings coin-flip, not a structural edge. Short-TF RSIs are exhaustion-extreme (30m 83 / 1h 93) and the book shows sellers, so chasing a long is the account's worst pattern, while shorting a stretched-but-crowded tape with 4h bullish divergence risks the routine counter-bounce stopping me out first. Composite confidence only 36% and structure mixed - no clean level, no edge, stand aside.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 378.0,
+    "expires_min": 240,
+    "note": "Losing 378 with overbought short-TF RSIs unwinding confirms the sellers/rollover thesis and opens a clean intraday short with room before the Jul 29 earnings binary."
+  },
+  "transcript": {
+    "macro": "Regime MIXED/cautious into a 3-day binary event cluster inside the hold window: FOMC Jul 28-29, MSFT earnings Jul 29, BOJ Jul 30-31. All three tokenized names funding 0, crowded-long, lag BTC, low BTC corr. MSFT: fiscal Q4 AFTER CLOSE Jul 29 - binary inside window; consensus ~$87.7B rev / $4.24 EPS; scrutiny on $190B AI capex and Azure (~40%) sustainability; earnings + FOMC same day dominate technicals; thin off US cash hours, hard gap risk.",
+    "sentiment": "Stacked catalyst calendar Jul 28-31; anything past Wed close is an event bet. MSFT -18% YTD (~$381-385), cheapest fwd multiple (~21-22x) since 2023; bearish-on-price but analysts Strong Buy (long-horizon). Q4 FY26 earnings Wed Jul 29 after close is dominant binary; Azure growth + $190B capex justification are the fault line (capex +49% y/y, FCF -22%). Same day as FOMC - expect violent after-hours gap. Do NOT carry naked through Jul 29 close.",
+    "analyst": "Extreme overbought short-TF (30m 83 / 1h 93) with sellers on book and 4h bull divergence; crowded long; low composite conf 36%; dominant Jul 29 earnings+FOMC binary inside window. No positive-expectancy directional bet - HOLD. Losing 378 would open a clean intraday short.",
+    "portfolio": "HOLD MSFT - exhaustion-overbought into a dominant earnings binary; conf 0.34."
+  },
+  "timestamp": "2026-07-26T03:03:53.390540+00:00"
+}

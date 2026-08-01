@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "NVDA/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Price coils in the 207.9-208.4 mid-range near VWAP; with 5m RSI 25 the immediate down-leg is stretched, so the next few bars more likely chop/bounce toward 209.5-210.5 than break clean; a short only earns its keep on a failed bounce into 210 or a decisive loss of 206.",
+  "expectancy_note": "Short p(win) poor here: account shorts run 0.47 win / -0.78 avg, and model penalizes high rel-strength (-0.33) which NVDA has (+5.1%, leader). Market-short at VWAP with 5m RSI 25 = chasing into a bounce = the documented loss pattern. No 1.5R edge from 208; waiting beats forcing.",
+  "rationale": "Scan leans short on structure (L/S 1.625, bias -0.20) but NVDA is the relative-strength LEADER (+5.1% vs BTC, corr 0.18), 4h RSI 52 is not rolled over, price sits AT VWAP (-0.18%) in mid-range, and 5m RSI 25 means the immediate down-move is already stretched into a likely counter-bounce. Sunday, US cash closed, thin/gappy into FOMC Wed. Entering a market short here is exactly this account's #1 loser (late short stopped by the bounce), so I wait for a better location. Size 0 until a failed bounce or a clean support break defines a real edge.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 205.9,
+    "expires_min": 240,
+    "note": "Losing 206 breaks the mid-range floor and confirms the structure-short with the crowd offside long; that is a valid short entry with support 201.93 as target and a stop back above VWAP, whereas 208 is just noise."
+  },
+  "transcript": {
+    "macro": "Regime HOSTILE-to-MIXED. S&P -1.21%, Nasdaq -2.15% on Jul 23; S&P below 50-day MA. FOMC Jul 28-29: ~36% hike tail. Firm dollar. Sunday Jul 26 US cash CLOSED; equity perps thin/gappy; Monday gap risk into FOMC week. NVDA: L/S 1.63, OI 18,863, structure_bias -0.20, but rel-strength +5.1% vs BTC (leader, low corr 0.18). Scan leans short but 4h RSI 52 not washed out.",
+    "sentiment": "NVDA: NO earnings this cycle (Aug 26 AMC), trades on macro + headlines. Tone improving off ~18% drawdown; ~$207, ~$5T cap. Positive catalyst: China cleared limited H200 shipments (Alibaba/ByteDance), easing export overhang. Will whip on FOMC and peers' AI-capex commentary. Mildly supportive but macro-dominated.",
+    "analyst": "Composite short 58.9% (blended -0.469), 4h RSI 52.5 NOT washed, 5m RSI 25 (already stretched down), price at VWAP -0.18%. Learner: shorts n=51 win 0.47 avg -0.78 (bleed); model penalizes high rel-strength (-0.326) which NVDA has (+5.1%, leader). Market-shorting an LTF-oversold rel-strength leader into thin weekend tape = the account #1 loss pattern. No clean R:R from 208 mid-range. HOLD, arm short on failed bounce or support break.",
+    "portfolio": "NVDA: HOLD (conf 0.50) - structure-short valid only lower; no edge market-shorting the leader at VWAP with 5m RSI 25."
+  },
+  "timestamp": "2026-07-26T13:35:03.393932+00:00"
+}

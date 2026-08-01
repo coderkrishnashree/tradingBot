@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "GOOGL/USDT:USDT",
+  "size": 0.0,
+  "entry": 355.49,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.34,
+  "playbook": "none",
+  "forecast": "Thin off-hours grind: price likely chops 354-357 into US open (13:30 UTC); either a small mean-revert bounce toward VWAP ~357 or a flush that loses 351.78 support. No clean short from here without a bounce to sell into or a break to confirm.",
+  "expectancy_note": "Shorting oversold-at-support (1h RSI 11.8, %B 0.014, stoch 6.2) has ~40% p(win) and negative expectancy \u2014 account's trend-short bucket is 0.45 win / -2.51 avg. HOLD beats chasing.",
+  "rationale": "Structure tilts short (blended -0.44, L/S 1.91 long-crowded, orderbook -0.21) but the tape is already stretched: 1h RSI 11.8, stoch 6.2, %B pinned at 0.014, price 0.5% below VWAP and only ~$3.7 above support on tiny off-hours volume. With a $1.24 ATR, any honest stop above VWAP gives sub-1.5 R:R and sits directly in the path of the routine bounce that has stopped this account's late shorts. US cash closed, earnings July 22 caps holds \u2014 no edge to press now. Size 0.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 351.78,
+    "expires_min": 240,
+    "note": "Losing 351.78 support on real US-session volume confirms downside continuation and opens a clean short toward the next leg; a break here flips HOLD to a valid entry rather than chasing into support."
+  },
+  "transcript": {
+    "macro": "GOOGL short \u2014 MIXED, event risk caps conviction. Structure tilts short: funding mildly positive (-0.27), L/S 1.91 (long-crowded), orderbook -0.21, structure_bias -0.44 (most bearish of the two). Trend down across TFs. BUT underlying less broken: stock ~12% off highs, Q1 very strong (rev +22%, EPS +82%); overhang is $180-190B capex/FCF narrative (slow-burn). HARD FLAG: earnings July 22 AMC \u2014 outside hours-to-2-day horizon but shorts press into pre-earnings drift. Very low BTC corr 0.13. Leans SHORT on structure but no macro tailwind; STAY SMALL. US cash CLOSED (Mon 05:00 UTC) \u2014 thin/gappy, real discovery 13:30 UTC.",
+    "sentiment": "NEUTRAL (lean cautious on shorts). Q1 2026 blowout (net income +81%, EPS $5.11, Cloud +63%, backlog ~$460B, Gemini 750M MAU), stock +10%. Bearish counterweights (DOJ antitrust appeal, EU fine, raised capex) all multi-quarter, not 48h movers. Q2 earnings Wed July 22 AMC (~$2.87 EPS exp) \u2014 ~9 days out, doesn't gate a short today but flags multi-day-hold binary. Scan shows shallow low-conviction short (blended -0.263, RS +3%) \u2014 strong name drifting on thin off-hours flow. No <=48h catalyst; keep size modest, be flat before the 22nd.",
+    "analyst": "Structure tilts short but tape is stretched (1h RSI 11.8, stoch 6.2, %B 0.014 pinned at lower band, 0.5% below VWAP, only ~$3.7 above 351.78 support) on tiny off-hours volume. $1.24 ATR means any honest stop above VWAP gives sub-1.5 R:R directly in the path of the routine bounce that stops this account's late shorts (trend-short bucket 0.45 win / -2.51 avg). US cash closed, earnings July 22 caps holds. No edge to press \u2014 HOLD, size 0.",
+    "portfolio": "HOLD GOOGL \u2014 lower-conviction short than ORCL; oversold-at-support into thin off-hours tape with no honest R:R; wait for 351.78 break or a bounce to sell (conf 0.34)."
+  },
+  "timestamp": "2026-07-13T05:00:53.031226+00:00"
+}

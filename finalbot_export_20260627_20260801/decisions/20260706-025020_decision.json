@@ -1,0 +1,24 @@
+{
+  "action": "hold",
+  "symbol": "COIN/USDT:USDT",
+  "size": 0.0,
+  "entry": 169.22,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.34,
+  "playbook": "none",
+  "rationale": "COIN is pinned to support 169.14 (price 0.05% above) with a bullish divergence, deeply oversold stochastic (4.3) and 15m RSI 21.3, and an orderbook imbalance of +0.367 leaning buy \u2014 shorting here fights structure and strong 5-session up-momentum on real catalysts. Going long has no trigger and the coil is dead (bb_width 1.42%, ATR 0.23%), plus this is a tokenized equity into the Jul 6 US reopen with gap risk and soft BTC. No side clears a 1.5 R:R at a defensible stop, so HOLD is the highest-expectancy call until the 169.14 support resolves.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 169.0,
+    "expires_min": 240,
+    "note": "A decisive hold below the 169.14 support flips the setup to a valid trend-continuation short with a measured target toward the low-160s, overriding the bullish divergence."
+  },
+  "transcript": {
+    "macro": "Regime MIXED-to-HOSTILE. US cash reopens Mon Jul 6 after holiday \u2014 gap risk, SIZE DOWN. Tech/semis in hard reversal. Fed hawkish but weak NFP cooled hike bets, DXY ~101. BTC soft ~$63.4k, RSI 23, squeeze, negative structure \u2014 mildly risk-off. COIN tilt: NEUTRAL-to-HEADWIND \u2014 only name with live crypto beta (0.36 BTC, 0.57 QQQ) and BTC is soft; tight range (ADX 25.7, bb_width 1.4%, ATR 0.23%), coiled, low conviction, structure near-flat (+0.09). No edge yet.",
+    "sentiment": "COIN BULLISH near-term momentum, caution \u2014 rallied ~19% in 5 sessions to ~$165 (July 2) on System Update (tokenized stocks, options, equities) + Open USD stablecoin consortium (Google, BlackRock, Visa). Fresh real product catalysts. A scan short fights strong up-momentum \u2014 flag against.",
+    "analyst": "Composite short (33% conf) is directly contradicted by structure: at support 169.14 with bullish divergence, stoch 4.3, 15m RSI 21.3 and a buy-stacked book (+0.367). Short into support is a low-EV fade; long has no trigger and the coil is dead (ATR 0.23%). Tokenized equity into US reopen gap. No-trade until 169.14 resolves.",
+    "portfolio": "HOLD COIN (conf 0.34) \u2014 short signal contradicted by bullish divergence/up-momentum at support; short only on hold < 169."
+  },
+  "timestamp": "2026-07-06T02:50:20.807754+00:00"
+}

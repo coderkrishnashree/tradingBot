@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "NVDA/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.55,
+  "playbook": "none",
+  "forecast": "Thin overnight grind stalls near 204.8-205.5; expect a fade/pullback toward the 203.2-202.6 VWAP base within a few bars before any real continuation, given 5m RSI ~96 / 15m RSI 88 exhaustion.",
+  "expectancy_note": "No positive-EV entry: market-buying RSI 88/96 into thin off-hours tape is the account's classic late-continuation loss; shorting an ADX-43 uptrend at new highs with bid-heavy book and no divergence is fighting momentum. Wait for the reset.",
+  "rationale": "NVDA is a tokenized equity (US market closed, thin/gappy) so crypto structure is irrelevant. Price is extremely stretched intraday (5m RSI 96, 15m RSI 88) on low volume, VWAP dist only +0.22% so no discount to buy and resistance (213.96) too far for a clean short target. With TSLA earnings Wed and semi headline-fragility, and rel-strength -8.2% (a laggard), there is no honest 1.5R setup. A pullback to the 202.6-203.2 VWAP base would reset a higher-probability long.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 203.2,
+    "expires_min": 240,
+    "note": "A pullback into the 203.2/VWAP base unwinds the RSI-96 overextension and offers a lower-risk long entry off structure instead of chasing the top."
+  },
+  "transcript": {
+    "macro": "NEUTRAL tilting risk-off. US-Iran conflict spiking oil (WTI ~$83-85) reviving inflation/hike fear; higher long-end yields + firm dollar pressure equity multiples & metals. US indices digesting near highs (S&P -0.19%, Nasdaq -0.05%). Key events <48h: GOOGL earnings Wed Jul 22 AC, TSLA Jul 22 AC, INTC Jul 23 AC; FOMC Jul 28-29 (market pricing hike RISK, not cuts). BTC ~$65.5k pinned under $65.8k resistance, dominance ~56.5%, Fear & Greed 25 (Extreme Fear), funding benign; crypto-beta names crowded long -> squeeze risk to downside if BTC stalls. Semis (NVDA/MU/INTC/SNDK) move as a pack, headline-fragile. CL structurally bid on Hormuz supply fear (hostile to shorts). XAG near 8-month lows, capped by dollar/yields. Tokenized-equity perps thin/gappy overnight (scan 03:38 UTC).",
+    "sentiment": "Risk-off/cautious. Only tradable <=48h binaries are GOOGL (Jul 22 AC) and INTC (Jul 23 AC, ~15% implied move), both casting a shadow over beta names (QQQ, NVDA, MU, SNDK, crypto). MSFT (Jul 13) & MU (blowout Q3) already reported - no fresh binary. COIN Jul 30, HOOD Jul 29, SNDK Aug 5 all OUTSIDE the window (don't hold into next week). MSTR flipped to SELLING BTC (largest since 2022) - sentiment negative. CL live geopolitical gap risk both ways, supply-shock skew up. XAG coiled in a triangle (breakout >61 / breakdown <55.7), no dated catalyst. No hacks/exploits/large delistings flagged.",
+    "analyst": "NVDA 204.71, composite long conf 46.7%, ADX 43.5, 5m RSI 96.4/15m 88.3, VWAP +0.22%, long_short 1.602 (crowded), orderbook +0.537 (bid-heavy), no own catalyst <48h (earnings Aug 26) - pure beta to GOOGL/INTC prints. Extreme LTF stretch into thin overnight air with resistance far => HOLD, reconsider on a dip to 203.2.",
+    "portfolio": "NVDA: HOLD - RSI-96 overnight stretch, no clean entry; beta to Jul 22/23 prints."
+  },
+  "timestamp": "2026-07-21T03:47:46+00:00"
+}

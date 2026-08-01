@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "META/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price coils in the 637-639 zone near VWAP-3%; over the next few candles I expect chop between support 626.5 and 648, with a mild oversold-bounce bias rather than a clean fresh leg either way.",
+  "expectancy_note": "Short p(win) is low here: unaligned (conf 40%, align 0.95), 4h RSI 22 / %B 0.21 / vwap -3% = extended into oversold, no crowding fuel (L/S 1.17, bids +0.20) - a routine bounce stops any honest short. No confirmed long trigger yet. Best expectancy is to wait for the level break.",
+  "rationale": "META is tagged SHORT but the signal is UNALIGNED and low-confidence, and price is already deeply extended down (4h RSI 22.2, stoch 20, %B 0.21, 3% below VWAP) - pressing a short here is the account's classic late-short-into-oversold loss. It is also the LONE relative-strength leader (+7.5% vs BTC) with bid-heavy order flow, so macro explicitly says fade/avoid the short. Weekend thin tape + Monday gap risk removes any edge from a speculative long, so no-trade is the highest-expectancy call until a level breaks.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 626.46,
+    "expires_min": 240,
+    "note": "Losing the 626.46 support turns the unaligned short into a real aligned breakdown (structure gives way, not chasing mid-air) - re-debate for a short then."
+  },
+  "transcript": {
+    "macro": "RISK-OFF, short lean, low-conviction due to weekend illiquidity. Sat Jul 18 scan, US cash closed until Monday -> thin/gappy perps, Monday-open gap risk. META tagged SHORT but NOT aligned (p_win 0.646), L/S 1.17 (mildly crowded long), funding ~0. META is the LONE relative-strength LEADER +7.5% vs BTC -> macro flags fade/avoid META short.",
+    "sentiment": "Broad AI/semiconductor-led tech selloff Fri Jul 17. META neutral idiosyncratic / bearish tape: Q2 earnings Jul 29 after close (outside window); not a chip name so less directly exposed to the SOX rout but a mega-cap AI-spend story vulnerable in a de-rating; the only positive rel-strength name in the set, has held up better; no <=48h idiosyncratic catalyst.",
+    "analyst": "Scan short is UNALIGNED + low conf (40%); price already extended down (4h RSI 22.2, stoch 20, %B 0.21, -3% VWAP) so pressing a short is the classic late-short-into-oversold loss. META is the lone rel-strength leader (+7.5%) with bid-heavy flow (+0.20) - macro says fade/avoid short. No confirmed long trigger; weekend thin tape + Monday gap risk kills a speculative long. HOLD; reconsider a real aligned short only below 626.46.",
+    "portfolio": "META: HOLD - unaligned short into oversold on the set's rel-strength leader; fade/avoid, no trade."
+  },
+  "timestamp": "2026-07-18T16:38:56.984656+00:00"
+}

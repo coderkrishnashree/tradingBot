@@ -1,0 +1,26 @@
+{
+  "symbol": "CRCL/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.34,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "forecast": "Thin Saturday drift in the 66.8-67.6 band around Friday's pinned close; 15m/5m rolling over suggests a soft slide toward 66.8 before any bounce. No real discovery until Monday.",
+  "expectancy_note": "No edge: closed-market weekend, wide 3.4% ATR + gap risk makes any honest stop wide-of-target; p(win) ~0.45, R:R sub-1.5. HOLD beats chasing a crowded (L/S 2.7) already-popped tokenized equity.",
+  "rationale": "CRCL is a tokenized equity and it's Saturday with US markets closed -- the OCC-charter pop already fired and is pinned into Friday's close, so no price discovery, only thin whippy drift plus Monday gap risk. Structure bullish on 1h/4h (ADX 59) but 15m/5m rolling over with no pullback-to-level trigger; crowd at max long (L/S 2.7), rel-strength -17.96% vs BTC. No clean R:R >= 1.5 entry into weekend liquidity -- wait for the real Monday move.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 68.6,
+    "expires_min": 240,
+    "note": "A decisive reclaim/hold above 68.6 confirms the 4h long is resuming with real bids; losing 66.5 would flag the crowded long unwinding."
+  },
+  "transcript": {
+    "macro": "Sat Jul 11 2026 ~12:00 UTC. Regime MIXED-to-HOSTILE. US equity markets CLOSED; tokenized-equity perps pinned to Friday close, no discovery, Monday gap risk. Crypto risk-OFF. CRCL: highest-conviction long structurally (4h/1h long, ADX 59) BUT most crowded (L/S 2.7), rel-strength -17.96% vs BTC, btc_corr 0.53, 3.4% ATR whippy. Macro flags CRCL as one to AVOID.",
+    "sentiment": "CRCL BULLISH fresh catalyst: July 10 final OCC approval for a national digital-currency bank charter, shares +13% pre-market; Nomura/Japan FX-settlement buzz; Aug USDC/Coinbase renewal. Offset: Compass Point PT cut to $55 (long-horizon). Fresh shock argues against shorting, but the pop may already be digesting.",
+    "analyst": "OCC pop already fired and is pinned into Friday close -- no Saturday discovery, only whippy drift + Monday gap. 1h/4h bullish but 15m/5m rolling over (67.47->67.14), no bounce trigger; crowd at max long, rel-strength lags. No clean R:R entry. HOLD; reconsider on reclaim above 68.6.",
+    "portfolio": "HOLD CRCL -- bullish catalyst already digested into a crowded, illiquid weekend tape; no clean entry until Monday."
+  },
+  "timestamp": "2026-07-11T12:03:05.932006+00:00"
+}

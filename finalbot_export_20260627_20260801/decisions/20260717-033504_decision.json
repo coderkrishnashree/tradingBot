@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "MU/USDT:USDT",
+  "size": 0.0,
+  "entry": 843.51,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Oversold snap-back off 816.54 is live (RSI 15.6, price ripped 827->846); expect chop 838-860 over the next 2-6 bars. A rejection back under ~838 resumes the downtrend toward 816; a reclaim/hold above ~860 breaks the lower-high sequence and squeezes higher.",
+  "expectancy_note": "No directional edge: blended composite flat (conf 2.3). Fresh short = late entry into a live bounce (account's #1 loser, shorts 49% win / -0.74 avg); long = fighting ADX 80 downtrend + risk-off macro. HOLD beats both.",
+  "rationale": "MU is deeply oversold (4h RSI 15.6, -6.68% below VWAP, -31% rel strength) and the last two candles show a sharp reversal bounce off the 816.54 low \u2014 the exact oversold squeeze the macro flags as the top short risk. Chasing a short here is the account's proven losing pattern (late shorts stopped by the bounce), and a long fights a strong-ADX downtrend into risk-off chip tape. With the blended signal flat and no clean R:R at spot, the highest-expectancy action is to wait for the bounce to resolve. Size 0.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 837.0,
+    "expires_min": 240,
+    "note": "Losing the 837 bounce-base after the pop confirms the oversold snap-back has failed and the ADX-80 downtrend is resuming toward 816.54 \u2014 a valid short re-entry with the trend rather than into the bounce."
+  },
+  "transcript": {
+    "macro": "Regime risk-OFF for chips (Jul 16 ugly semi tape; TSM beat but fell >4%; MU/AMD -5%). Trade as EQUITY not crypto (MU BTC corr 0.09). Funding ~0. Long/short lopsidedly LONG into falling tape (memory/sector proxy weakest). MU blended composite conf LOW (~2.3, flat bias, mixed per-TF cells). Catalysts <48h: Fri Jul 17 UMich (minor); no MU earnings imminent. Bottom line: favors SHORT / fading bounces across the complex; biggest risk oversold snap-back squeeze; SMALLER SIZE, tight risk, elevated semi vol + thin tokenized liquidity.",
+    "sentiment": "MU \u2014 strongest fundamentals but most sentiment-sensitive/whipsaw name. Already reported fiscal Q3 (Jun 24): record $41.46B revenue, data-center up ~7x, HBM sold out through 2026 with ~$100B binding contracts. No earnings catalyst inside 48h. But MU fell 13.3% on Jun 23 purely on Korea leveraged-semi-ETF regulatory scare \u2014 sentiment overrides bull story fast. Only low-weight positive today (KeyBanc PT to $1,750, Jul 14 \u2014 do not trade on it). MU highly correlated to sector (0.58 with TSM, 0.83 with SNDK) so will track TSM-driven risk-off; near-term news neutral-to-slightly-negative.",
+    "analyst": "MU is a tokenized equity so discount the crypto structure block (order-book imbalance and funding are noise for a synthetic). Tape story: a 4h downtrend (ADX 80, RSI 15.6, -6.68% from VWAP, worst relative strength in the complex at -31%) that just printed a sharp reversal bounce off the 816.54 support \u2014 last two 15m bars ran 827->846.81 high before a small pullback to 843.51. That is precisely the 'oversold snap-back squeeze' the macro note calls the biggest short-side risk. Learner stats reinforce caution: this account's shorts are a losing book (35 trades, 49% win, -0.74 avg PnL) and the signature failure is late shorts into stretched tape getting stopped by the bounce \u2014 live right now. A long is equally poor: fighting a strong-ADX downtrend in risk-off chips with no fresh catalyst inside 48h. Blended composite flat (2.3 conf, score -0.029) confirms no edge at spot. Neither side offers R:R >= 1.5 at 843; the disciplined call is HOLD and wait. Armed price_below 837 trigger: losing that bounce-base after the pop is the cleanest evidence the squeeze failed and the downtrend resumes, letting a short be taken WITH the trend into 816 rather than into the bounce.",
+    "portfolio": "MU \u2014 HOLD (flat), conf 0.50, size 0. Flat blended signal, live oversold bounce; armed short reconsider on break below 837."
+  },
+  "timestamp": "2026-07-17T03:35:04.821907+00:00"
+}

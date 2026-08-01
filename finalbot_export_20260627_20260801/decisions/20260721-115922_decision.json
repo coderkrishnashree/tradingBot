@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "INTC/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.62,
+  "playbook": "none",
+  "forecast": "Parabolic thrust has stalled at 103.2; expect continued chop in the 102.0-103.2 box over the next few bars as the market coils into Thursday's earnings binary rather than a clean directional move.",
+  "expectancy_note": "No entry clears R:R>=1.5: a momentum long chases RSI85/ADX87 +5.5% over VWAP (the account's classic late-long loss), a short fights an ADX87 uptrend + earnings pop-risk, and no tight mean-revert level exists. HOLD is highest expectancy.",
+  "rationale": "INTC is parabolic (RSI 84.9, ADX 87.2, %B 1.05, +5.55% vs VWAP) and has stopped making new highs, chopping in a 102.0-103.2 box on the 15m. Nearest structural support (89.76) is far below, so any honest stop is wider than the reachable target -- no valid R:R. Q2 earnings Thursday July 23 after close is a live binary at the edge of the window; entering fresh size into a stretched tape ahead of a coin-flip has negative expectancy. Stand aside.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 103.25,
+    "expires_min": 240,
+    "note": "A clean break and hold above the 103.22 recent high proves the parabola is re-accelerating, opening a tight trend-continuation scalp; below it it's just exhaustion chop into earnings."
+  },
+  "transcript": {
+    "macro": "Regime MIXED, constructive for longs but selective. Nasdaq-100 futs +1.3%, chips leading. FOMC July 28-29 (outside 48h). Crowded-long ratios, funding benign, chase-risk elevated on extended names. INTC tilt: LONG but PARABOLIC \u2014 RSI 85, ADX 87, VWAP +5.5%, OI large (42.6k). Trend intact but blow-off risk; smaller size / tight stop.",
+    "sentiment": "INTC: HIGHEST near-term risk \u2014 reports Q2 2026 after close THURSDAY JULY 23 (~2 days out, edge of 48h). Consensus EPS ~$0.21, rev ~$14.4B; guidance $13.8-14.8B. LIVE BINARY. Already parabolic into the print. Earnings risk argues AGAINST fresh momentum longs and against carrying size through Thu close.",
+    "analyst": "Most stretched name on the board sitting at the edge of a live earnings binary (Q2 Thursday after close). Tape textbook parabolic (RSI 84.9, ADX 87.2, %B 1.05, +5.55% over VWAP), and the last ~8 15m candles show the thrust stalling into a 102.0-103.2 box \u2014 momentum fading, not confirming a fresh long. A momentum buy is the account's proven loss pattern; a mean-reversion short has no tight structural level (real support ~13% lower at 89.76). No config gives R:R>=1.5 to a reachable target, and a Thursday earnings coin-flip sits inside the holding window. Stand aside; reconsider armed at 103.25.",
+    "portfolio": "INTC: HOLD @ conf 0.62 \u2014 parabolic into Thu earnings binary; no valid R:R, stand aside."
+  },
+  "timestamp": "2026-07-21T11:59:22.057331+00:00"
+}

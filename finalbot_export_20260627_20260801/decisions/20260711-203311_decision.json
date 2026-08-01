@@ -1,0 +1,26 @@
+{
+  "symbol": "CRCL/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.36,
+  "size": 0,
+  "entry": 67.0,
+  "stop_loss": 61.78,
+  "take_profit": 73.72,
+  "playbook": "none",
+  "forecast": "Price coils 66.5-67.1 on thin weekend liquidity; expect continued drift near VWAP/67 into Monday with no directional edge until it breaks the 66.5 floor or reclaims 68+.",
+  "expectancy_note": "No R:R worth taking mid-range; p(win) on any entry ~0.45 into chop, and account's trend playbook is at 44%/-2.89R - HOLD is highest expectancy.",
+  "rationale": "CRCL is dead-coiling in a 0.6% band mid-range (support 61.78 / resistance 73.72), right at VWAP with no nearby level to trade against, on a US-cash-closed weekend. It is the group's biggest laggard (rel strength -17%) with the MOST crowded-long book (L/S 2.74, bias -0.31) while BTC is soft at 64.3k and corr 0.54 - a poor long, and shorting a stretched-down laggard into fresh bullish charter/Nomura headlines is a coin-flip. Binary CPI Tuesday adds gap risk; no honest entry, so flat.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 66.4,
+    "expires_min": 240,
+    "note": "Losing the 20-bar coil floor opens a momentum leg toward 61.78 support and would arm a short with the crowded-long book unwinding."
+  },
+  "transcript": {
+    "macro": "Cycle 2026-07-11. Scan Saturday, US cash CLOSED - thin/gappy, funding 0.0. Regime RISK-ON but late-stage/stretched; VIX 15 calm. BIG event risk inside 48h: CPI Tue Jul 14, bank earnings - smaller size, don't chase. CRCL = crypto-adjacent, HIGHEST BTC correlation of the group (0.54); BTC soft at 64.3k. CRCL L/S 2.74 = MOST crowded-long book in the set (bias -0.31). Rel strength vs BTC -17.0% (biggest laggard). Verdict: caution (crowded long, BTC soft).",
+    "sentiment": "CRCL (Circle): Most catalyst-rich. Just won final OCC national bank charter (+~5%) and a Nomura Japan USDC deal - both fresh, both bullish. Offset by Stripe 'Open USD' stablecoin threat (Compass Point upgraded to Neutral but CUT PT to $55). Down from ~$85 late-June to high-$60s. High-beta, headline-driven, crypto-linked. Mixed but freshest positive flow - mildly bullish/volatile. Broader: Nasdaq fragile, hawkish FOMC, CPI binary Tuesday, BTC soft.",
+    "analyst": "Price 67.0, tight coil 20 bars (66.47-67.10), dead-flat weekend, US cash closed. ATR% 4h 3.03% but 15m atr 0.19%. vwap_dist -0.3% (at VWAP). Support 61.78 / resistance 73.72 (mid-range, no nearby level). L/S 2.74 (most crowded long), bias -0.31, rel strength -17%, BTC corr 0.54, BTC soft 64.3k. Composite 40.5%. Textbook no-trade; armed short trigger below 66.4.",
+    "portfolio": "CRCL: HOLD (conf 0.36) - dead-coiling mid-range, most crowded-long laggard vs soft BTC; re-debate on a break below 66.4."
+  },
+  "timestamp": "2026-07-11T20:33:11.223574+00:00"
+}

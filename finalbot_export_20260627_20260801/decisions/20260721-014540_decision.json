@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "GOOGL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.68,
+  "playbook": "none",
+  "forecast": "Grind/chop 352-356 into the Jul 22 close, then a binary earnings gap the next session that no intraday stop can survive; direction into print is a coin flip.",
+  "expectancy_note": "Any swing here is ~50/50 on the earnings gap (negative expectancy after fees/slippage); long is extended (bb%b 0.96, 30m RSI 77) into crowded longs (bias -0.31), short fights ADX 84 uptrend. HOLD dominates both.",
+  "rationale": "HARD RULE forbids carrying GOOGL through the Jul 22 after-close print, which sits inside the 48h window and dominates all structure. A long is chasing an extended move (top of Bollinger band, +0.93% over VWAP, crowded long book) into elevated-IV binary; a short fights a powerful uptrend with no exhaustion signal. No honest stop survives the gap, so expectancy is negative for any directional entry.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 341.86,
+    "expires_min": 240,
+    "note": "Losing the 341.86 4h support (post-event) would break the uptrend and open a short setup once the earnings binary has resolved."
+  },
+  "transcript": {
+    "macro": "MIXED, leaning RISK-OFF for fresh longs (2026-07-21). Indices stalling just off highs (S&P 7,443, Nasdaq Comp 25,508), rising 10Y yields (4.55%) = headwind for tech multiples, DXY ~100.8. Earnings gauntlet inside 48h: GOOGL + TSLA after close Wed 7/22, INTC after close Thu 7/23 (no position carried through those). Tech names uniformly long-crowded (negative structure_bias). Chips are the relative-strength pocket but on a bounce, not a confirmed leg. Crude has the only fresh macro tailwind (US-Iran, Hormuz) but it's binary headline risk. Metals capped by yields (gold rejected $4,000, silver crowded-long/extended). BTC cleanest tape (benign funding, no earnings gate) but heavy overhead offers. EWJ pure QQQ/EWY beta, no independent driver. FOMC 7/29, BOJ 7/30 outside window. Size stance BELOW NORMAL - elevated gap risk into next 2 sessions.",
+    "sentiment": "Only true <=48h binaries are GOOGL (Q2 earnings 7/22 after close, elevated IV, gap expected) and INTC (Q2 earnings 7/23, options pricing ~15% move, RSI ~76). MSTR flipped to SELLING BTC (~$216M, largest since 2022) to fund dividends, stock -79% YoY - modest sentiment negative, BTC-dependent. BTC low-$65k, coiled bet on 7/28-29 FOMC ($2.5B call spreads target $72k); record June ETF outflows. XAG near 8-month lows after -6%, Sept-hike fears a headwind, no 48h catalyst. CL ~$82-83 five-week highs on US-Iran day 10 / Hormuz disruption - two-sided gap risk (possible 10-day ceasefire circulating). AAPL record ~$334 on China Apple Intelligence approval, +24% China iPhone units; earnings 7/30 (outside). MSFT earnings 7/29 (outside). TSM already reported 7/16 (rev +36% YoY, strong guide) - catalyst behind. ORCL no near-term catalyst. EWJ driver is BOJ 7/30 (outside). Everything except GOOGL/INTC/CL is pre-positioning ahead of the 7/28-30 FOMC/BOJ/MSFT/AAPL cluster - no fresh 48h mover.",
+    "analyst": "HARD RULE forbids carrying GOOGL through the Jul 22 after-close print, which sits inside the 48h window and dominates all structure. A long is chasing an extended move (top of Bollinger band, +0.93% over VWAP, crowded long book) into elevated-IV binary; a short fights a powerful uptrend with no exhaustion signal. No honest stop survives the gap, so expectancy is negative for any directional entry.",
+    "portfolio": "HOLD (0.68) - earnings binary 7/22 after close; no swing through the print."
+  },
+  "timestamp": "2026-07-21T01:45:40.252622+00:00"
+}

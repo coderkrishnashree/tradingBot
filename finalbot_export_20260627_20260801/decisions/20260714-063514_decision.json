@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "QQQ/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Chop between 708.7 and 716.7 into the 08:30 ET CPI, then a binary break: soft CPI squeezes stacked bids toward 730, hot CPI/hawkish-Warsh flushes below 708.5 toward 698.4. No tradable edge until the print resolves it.",
+  "expectancy_note": "Both sides are coin-flips into a <2.5h binary: short fights a rising intraday bounce (+0.53 stacked bids, 15m RSI 72) and the account's worst pattern (aligned=-0.52, structure_bias hurts shorts, trend-short win 0.45/-2.51); long fights risk-off macro + hot-CPI tail into closed cash. HOLD is the positive-expectancy choice.",
+  "rationale": "Composite short is contradicted by structure (+0.114 bias, +0.528 orderbook bids) and by a clean intraday staircase of higher-lows now capping at 716.7 - the 4h RSI 31 short is stale while the tape bounces. A direct CPI + Fed-hike binary lands at 08:30 ET with US cash closed (thin/gappy), so any blind entry is negative expectancy; the account's book proves late trend-shorts into stretched tape are the #1 loss source. Wait for the print to pick the direction, then trade the reaction off structure.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 708.5,
+    "expires_min": 240,
+    "note": "Losing the intraday bounce base means the bounce failed and stacked bids pulled - confirms the risk-off short is finally working, flips me to press the short toward 698.4."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF, event-gated. June CPI 08:30 ET + Warsh testimony ~10:00 ET (direct QQQ catalyst); ~50% odds of July RATE HIKE. Hormuz threat dropped Nasdaq -1.55% Mon, SOX -3.6%. QQQ divergence: composite short (-0.23) but structure_bias +0.11, L/S near neutral (1.08), large +0.53 orderbook (bids stacked) + 4h RSI 31 = short-squeeze fuel if CPI soft. btc_corr 0.44. Thin OI (5,376), US cash closed at scan.",
+    "sentiment": "QQQ mildly bearish / event-gated. Mega-cap tech in AI-ROI rotation, hawkish Fed, hot CPI overhang. Two <=48h catalysts: TSMC print Jul 16 and June CPI. Tokenized equity -> off-hours thin/gappy. Near-term lean neutral-to-bearish, gated on Thursday.",
+    "analyst": "Composite short contradicted by +0.114 structure bias, +0.528 stacked bids, and a 15m higher-lows staircase capping at 716.7 (4h RSI 31 short is stale). CPI + Fed-hike binary at 08:30 with US cash closed -> blind entry negative expectancy; learner shows late trend-shorts are #1 loss source. HOLD; short trigger on loss of 708.5 base.",
+    "portfolio": "QQQ/USDT:USDT -> HOLD (conf 0.60): stacked bids + intraday bounce make the short a coin-flip into the CPI binary; wait for the print."
+  },
+  "timestamp": "2026-07-14T06:35:14.532856+00:00"
+}

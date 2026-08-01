@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "MSTR/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.4,
+  "playbook": "none",
+  "forecast": "Weak dead-cat bounce: price grinds 98.3->98.6 on drying volume, likely stalls under the 99.6 breakdown shelf and rolls back toward 97.1 while BTC is capped at 65769; no clean entry either way over next 2-4 bars.",
+  "expectancy_note": "Long chases a fading bounce into BTC resistance (p~0.45, no R:R edge); short fights the 4h/1h uptrend and the account's losing short pattern (0.48 wr). Best expectancy is wait.",
+  "rationale": "MSTR is levered BTC-beta (0.733 corr) and BTC just rejected resistance at 65769, exactly the macro risk. MSTR faded 100.78->97.10 and is bouncing on declining volume into its broken shelf near 99.6 - a retest, not a fresh trend leg, with the lowest composite confidence (40.3%) of the beta names and mildly negative structure_bias. No pullback-to-VWAP long entry and no confirmed breakdown short; HOLD until price picks a side.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 99.6,
+    "expires_min": 240,
+    "note": "Reclaiming the 99.6 breakdown shelf (ideally with BTC clearing 65769) proves the bounce is a real continuation leg and flips me long toward 102."
+  },
+  "transcript": {
+    "macro": "Regime MIXED, leaning risk-off. Equity proxies past US cash close - thin/gappy overnight. MSTR: highest BTC correlation of the equity names (0.73) - effectively leveraged BTC. Modest long trend, slightly negative structure_bias (-0.07), just faded from 100.5 to 98.35. Trade it as a BTC-beta long, not standalone; if BTC stalls at resistance, MSTR gives it back faster.",
+    "sentiment": "Q2 earnings Jul 30 (webinar). Fresh item: Strategy disclosed its largest-ever BTC sale, 3,588 BTC (~$216M), to fund preferred dividends - a subtle negative signal on the perpetual-issuance flywheel. Trades as a ~1.7-2x levered BTC proxy (0.73 corr). Near-term neutral-to-slightly-cautious; direction is really a BTC bet with an earnings landmine at month-end.",
+    "analyst": "MSTR faded 100.78->97.10 then is bouncing on drying volume back toward its broken 99.6 shelf - a dead-cat retest, not a fresh trend leg. It is levered BTC-beta and BTC just rejected 65769 (the macro risk), so a long chases into overhead resistance; a short fights the 4h/1h uptrend and the account's losing short pattern. Lowest composite confidence (40.3%) of the beta names. HOLD; a reclaim of 99.6 (ideally with BTC clearing 65769) flips me long toward 102, loss of 97.10 confirms the fade.",
+    "portfolio": "HOLD MSTR - dead-cat bounce into a broken shelf while BTC is capped; no edge until 99.6 reclaim."
+  },
+  "timestamp": "2026-07-20T21:16:35.040918+00:00"
+}

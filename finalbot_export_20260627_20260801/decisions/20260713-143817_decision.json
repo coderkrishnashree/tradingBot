@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "AAPL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Price rejected 323.2 resistance and is fading (323.2 -> 321.1 -> 320.8 -> 320.0, last bar closing near its low); expect drift/chop between the 317 support-VWAP zone and 323 over the next 2-6 bars, with CPI Tue the real decider.",
+  "expectancy_note": "No edge: a long chases an RSI 68-76, bb%B 1.4, +1.2% VWAP-extended move into a just-rejected resistance and risk-off CPI gap (the account's #1 loss pattern); a short fights the only all-TF-up, RS +8.4% name. p(win) ~50/50 either way, R:R unattractive both directions.",
+  "rationale": "AAPL is the tape's outlier - composite long but only 37% confidence, mega-cap safe-haven bid with RS +8.4% and BTC-corr 0.21 (own path). It just tagged $323.2 resistance and got rejected, printing three lower closes with the last bar near its low while badly overbought (RSI 68/76, %B 1.40, +1.2% above VWAP). Chasing long here into resistance and a Tue CPI gap is negative-expectancy; shorting the strongest name on a mere intraday fade is equally thin. Flat is the highest-expectancy stance until either $317 holds on a pullback (long re-entry) or breaks (exhaustion confirmed).",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 317.0,
+    "expires_min": 240,
+    "note": "Losing $317 (the macro line-in-sand and VWAP shelf) confirms the 323 rejection is a genuine exhaustion top, opening a risk-off short toward 305 support; holding above keeps the momentum-long thesis alive."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF/defensive, event-gated. Fresh Strait-of-Hormuz oil shock (WTI +3%) hit risk 2026-07-13 ~14:30 UTC; synchronized intraday down-legs across equities/semis/crypto. DXY firm ~101 => the DOLLAR is the safe-haven, NOT gold; real yields up. BTC ~$62.5k in a strong downtrend (ADX 74), SOL high-beta to it; gold DOWN ~0.9% despite the geopolitics. Environment favors the SHORT side but conviction is capped by a wall of event risk: CUT SIZE, and do NOT carry tokenized-equity risk naked through Tue 2026-07-14 8:30 ET CPI. Biggest shared risk: an oversold bounce / short-squeeze (many names RSI 23-29, several long-heavy L/S ratios) into the CPI + bank-earnings gap.",
+    "sentiment": "Hawkish / risk-off; Fed now priced for possible HIKES after hot prior CPI. The only <=48h catalyst that moves ALL of these names is CPI (Tue 7/14 8:30 ET) + PPI (Wed 7/15). Single-name earnings binaries are OUTSIDE the window (TSM 7/16; TSLA & GOOGL 7/22) -> trade them as tape, not news. Everything is deeply oversold = squeeze risk on any soft CPI print; SNDK/MU/EWY are violent two-way chip names; AAPL is the lone relative-strength long; gold (XAUT) is NOT hedging risk here -- it trades on rate fear.",
+    "analyst": "AAPL is the tape's outlier - composite long but only 37% confidence, mega-cap safe-haven bid with RS +8.4% and BTC-corr 0.21 (own path). It just tagged $323.2 resistance and got rejected, printing three lower closes with the last bar near its low while badly overbought (RSI 68/76, %B 1.40, +1.2% above VWAP). Chasing long here into resistance and a Tue CPI gap is negative-expectancy; shorting the strongest name on a mere intraday fade is equally thin. Flat is the highest-expectancy stance until either $317 holds on a pullback (long re-entry) or breaks (exhaustion confirmed).",
+    "portfolio": "HOLD AAPL - lone RS long but rejected at 323 resistance and overbought into CPI; wait for 317 to hold (long) or break (short)."
+  },
+  "timestamp": "2026-07-13T14:38:17.694593+00:00"
+}

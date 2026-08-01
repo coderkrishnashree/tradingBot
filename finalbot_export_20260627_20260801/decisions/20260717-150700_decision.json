@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "HOOD/USDT:USDT",
+  "size": 0.0,
+  "entry": 100.12,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.55,
+  "playbook": "none",
+  "forecast": "Dead-cat bounce off 96.68 is fading - price coils 100-102 and likely grinds back up to retest 102.3-103 (VWAP/broken-support-now-resistance) over the next 2-6 bars before sellers reload; only there does a clean short set up.",
+  "expectancy_note": "Shorting here (RSI 13.1, -10.3% vwap, on round 100) is the account's #1 loss pattern - a routine counter-bounce stops it; waiting for the 102-103 retest gives ~1.8 R:R vs negative expectancy now.",
+  "rationale": "Thesis is bearish (own catalyst: ABS sale + credit concerns + Meta encroachment, risk-off tape, structure_bias -0.116) but price is deeply oversold and extended: 4h RSI 13.1, vwap_dist -10.32%, sitting on 96.68 support after a 3-pt bounce. Market-shorting the $100 break here is chasing into a stretched move that any bounce stops out. Wait for the retest toward 102-103 to short with an honest ~1x-ATR stop above resistance; no valid long into a risk-off idiosyncratic downtrend. HOLD is the highest-expectancy call until the retest arms the entry.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 102.3,
+    "expires_min": 240,
+    "note": "A bounce into 102.3-103 reaches VWAP/broken-support-turned-resistance where the fading bounce lets a low-risk trend-continuation short set up with a stop just above 103.7."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF, favors shorts. HOOD: last 100.12, just puked to 96.68 and bounced. 4h RSI 13.1, vwap_dist -10.32%, ADX 77.5, ATR 2.73% - extremely volatile/oversold, gappiest name. Name-specific bearish narrative REAL (down ~9% week, Meta encroaching, credit/ABS concerns) - not just beta. But btc_corr 0.544 brokerage, rips on risk-on bounce. Long/short 1.55, structure_bias -0.116. Earnings Jul 29 (no immediate landmine). SHORT best-supported of tokenized trio but don't chase; short retests toward 102-103, size smaller given 2.7% ATR.",
+    "sentiment": "HOOD: only name with a genuine fresh idiosyncratic catalyst. Dropped ~8% Jul 16 on ~$500M ABS sale + push into consumer finance/credit card (credit-risk), failed breakout above $120, Meta targeting its hottest business. Testing $100. Consensus still Strong Buy (long-horizon, ignore). Earnings Jul 29. Verdict: bearish near-term - only one with active price-moving catalyst; watch $100/$96.68 support for a bounce given RSI ~13.",
+    "analyst": "HOOD at 100.12, support 96.68, 4h RSI 13.1, ATR 2.73%, ADX 77.5, vwap_dist -10.32%, %B -0.019. 15m tape puked from 103.5 to 96.68 low, bounced to 100.67, chopped 100-102, faded back to 100.12 on the round number - bounce stalling with a lower high at 102.09. Market short here is the late-short-into-stretched-tape loss pattern; long is fighting a broken idiosyncratic downtrend into risk-off. HOLD and arm a retest toward 102.3-103 (VWAP/broken-support-turned-resistance) for a clean trend-continuation short with a stop above 103.7.",
+    "portfolio": "HOLD HOOD - best-supported short thesis but too extended to chase; re-debate on a bounce to 102.3-103."
+  },
+  "timestamp": "2026-07-17T15:07:00.294615+00:00"
+}

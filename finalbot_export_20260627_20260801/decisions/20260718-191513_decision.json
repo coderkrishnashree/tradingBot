@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "META/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Choppy: the 15m/5m bounce off 638 stalled at 641.28 and last bar closed on its low; expect chop between 638 support and ~645 over next few bars, no clean edge either way inside the 626-690 range.",
+  "expectancy_note": "Long is counter to a 4h downtrend (RSI 24) in a risk-off 'sell rallies' tape with weekend gap risk; short is a late fade into a fresh bounce off 626 support (the account's #1 loser). Neither clears R:R 1.5 with an honest ~1x ATR (9.8pt) stop; p(win) sub-0.5 both ways.",
+  "rationale": "META composite is only +0.202 at 31.7% confidence and NOT aligned - lower TFs bounced but 4h is deep-down (RSI 24.3, ADX 91.8). Relative strength (+7.35%) is a positive, but a counter-trend long into risk-off equities over a closed-market weekend has weak expectancy, and shorting a fresh bounce off support is the exact late-entry trap the learner shows losing (shorts 47% WR). Best expectancy is to wait for the range to resolve.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 626.46,
+    "expires_min": 240,
+    "note": "Losing the 626.46 4h support flips this to a clean short - the oversold 4h downtrend resumes and the lower-TF bounce is proven a failed reaction rather than a bottom."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF, 'sell rallies in tech' tape; equity longs fight the tape. US cash CLOSED Sat, reopen Mon Jul 20 - thin/gappy, Monday gap risk; reduce size on all equity tokens. META scan composite LONG (+0.202) but NOT aligned - lower TFs up, 4h down (RSI 24.3, ADX 91.8). The one target with positive relative strength (+7.35% vs BTC), lower semi correlation. Earnings July 29 - outside 48h, hold-into-earnings clock starting. Mixed/choppy.",
+    "sentiment": "META neutral-to-cautious, binary approaching but OUTSIDE 48h. Q2 earnings July 29 after close - hard catalyst but 11 days out, NOT tradable this cycle. Guided rev $58-61B (cons $60.2B), EPS cons $7.18; overhang is AI capex ($125-145B 2026). Lower semi correlation; short-term long momentum (15m/5m RSI 66-67) against a weak 4h. Rides broad risk-off, less chip-exposed than TSM/SNDK.",
+    "analyst": "Composite only +0.202 at 31.7% conf and NOT aligned - LTFs bounced but 4h deep-down (RSI 24.3, ADX 91.8). Rel strength +7.35% is a positive, but a counter-trend long into risk-off over a closed-market weekend is weak EV, and shorting a fresh bounce off 626 support is the account's late-short trap. Wait for the 626-690 range to resolve.",
+    "portfolio": "HOLD META (conf 0.50) - best relative strength but unaligned and mid-range; arm short on loss of 626.46."
+  },
+  "timestamp": "2026-07-18T19:15:13.370915+00:00"
+}

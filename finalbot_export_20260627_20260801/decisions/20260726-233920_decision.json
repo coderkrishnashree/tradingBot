@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "COIN/USDT:USDT",
+  "size": 0.0,
+  "entry": 162.68,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Vertical blow-off exhausting at 162.7 with RSI pinned 90-98 across all TFs; expect a stall/pullback toward VWAP/161 over the next 2-4 bars rather than clean continuation, but no honest close-to-price entry exists.",
+  "expectancy_note": "p(win) too low both ways: chasing long +2.2% above VWAP at RSI98 = the account's classic late-entry loss; fading a strong ADX51 uptrend into Thu earnings + risk-off thin liquidity is negative EV. Flat beats both.",
+  "rationale": "COIN is a crypto-equity proxy in a full 15m blow-off (160.6->163 vertical, last bar stalling on 1.26 vol), RSI 81.8/90.5/98.5 (4h/1h/15m), +2.19% over VWAP, %B 0.85 - far too extended to buy and no reason to short a trending name into Q2 earnings Thu Jul 30 during risk-off, thin liquidity. Composite only 40% with crowded longs (funding +0.018%, structure_bias -0.26). Wait for a pullback or a clean structural break.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 160.5,
+    "expires_min": 240,
+    "note": "Loss of the 160.5 micro-shelf / VWAP reclaim from above proves the blow-off is unwinding and opens a mean-reversion short toward 157-154; a controlled dip-buy also becomes viable if it holds."
+  },
+  "transcript": {
+    "macro": "NEUTRAL tilting RISK-OFF for equity-proxies into mid-week. Two event risks INSIDE 48h: FOMC Wed Jul 29 2pm ET (hawkish-hold risk) and a Big-Tech earnings wall (MSFT Wed; AAPL/AMZN/META Wed-Thu). Equities toppy/mixed, VIX ~18.6, 10y ~4.6%, DXY firm ~101.4, Sep hike odds ~50-60%. US-Iran/Hormuz keeps an oil bid + safe-haven bid (tail escalation risk). Crypto is the cleanest longs (BTC $65.3k, funding benign, no crowding) but short-term overbought (RSI 78) - don't chase. Cut size / avoid multi-day holds on ALL equity proxies (QQQ, MSFT, AAPL, TSM, EWJ, EWY, COIN, HOOD) through the Wed FOMC + earnings gauntlet. Avoid crowded longs in TSLA (L/S 2.67, worst RS) and XAG (L/S 3.69, squeeze-prone). Favor quick tactical trades over swings; longs>shorts only in crypto, longs neutral-to-unfavorable in equities.",
+    "sentiment": "Risk-OFF and event-heavy. A bruised, AI-capex-ROI-spooked tech tape (Mag7 shed ~$797B on Jul 23; Nasdaq -2.15% Thu) heading into an FOMC + mega-cap-earnings gauntlet Jul 29-30. Imminent binaries: MSFT+HOOD earnings Wed Jul 29 after close; AAPL+COIN earnings Thu Jul 30 after close. Asia fragile: KOSPI -5.72% Jul 24 (circuit-breaker), Nikkei -2.73%, US tariffs live. CL bearish short-term (fell ~4% Fri on US-Iran talk, two-sided war premium, weekend gap risk). XAG neutral ~$58 consolidating. BTC cautious/range-bound, Fear&Greed 27, $225M ETF outflows Jul 25. TSLA bearish (-14% on Q2 miss). TSM already reported Jul 16 (beat). Favor caution/short bias on tech-index and Asia names; avoid new pre-earnings directional bets; crypto macro-tethered and defensive.",
+    "analyst": "COIN 162.68 in a full 15m blow-off (160.6->163 vertical), RSI 98.5 (15m)/90.5 (1h)/81.8 (4h), +2.19% VWAP, crowd long (funding +0.018%, structure_bias -0.26), composite only 40%. Q2 earnings Thu Jul 30 after close. Too extended to buy, no reason to short a trend into earnings.",
+    "portfolio": "HOLD COIN - vertical blow-off into a Thu earnings binary; too extended to chase, flat. Re-debate below 160.5."
+  },
+  "timestamp": "2026-07-26T23:39:20.896437+00:00"
+}

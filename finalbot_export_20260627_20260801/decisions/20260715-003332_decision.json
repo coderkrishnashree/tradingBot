@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "SNDK/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price just ran +3.3% off 1739 into 15m/5m RSI ~81-83 and printed its strongest bar at 1796.62; next few bars likely stall/pull back toward the 1747-1757 breakout shelf/VWAP before any continuation \u2014 no clean tight-stop entry into that stretch.",
+  "expectancy_note": "No positive-expectancy entry now: chasing the long into RSI 81 with a 4%+ ATR (~72pt stop) and a -0.663 offer-heavy book kills R:R; fresh short fights bullish NAND tape + crowded-short L/S 0.848 and the account's losing short record. Wait for the pullback.",
+  "rationale": "SNDK is a tokenized equity, so crypto structure is only a tint \u2014 but the -0.663 orderbook and funding turning against longs both say the book is selling into this vertical bounce, and 15m/5m RSI in the 80s means a routine counter-dip would hit any honest ~1x-ATR stop before continuation. 4h is still soft (RSI 35.9, MACD negative), US cash market is closed (thin/gappy, Warsh testimony + earnings headline risk), and the learner shows this account bleeds on chased trend/short entries. The high-expectancy play is to wait for a pullback into the 1747-1757 shelf/VWAP for a tight-stop long, or step aside if that shelf fails.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 1757,
+    "expires_min": 240,
+    "note": "A pullback into the 1747-1757 breakout shelf/VWAP is where a tight-stop (under 1739) trend-continuation long becomes viable \u2014 re-debate on the retest rather than chasing 1796."
+  },
+  "transcript": {
+    "macro": "RISK-ON, tech-led (2026-07-15 00:29 UTC). Soft June CPI 3.5% (vs 3.8%) cut hike odds to ~15%; semis led July 14 (SMH +2.5%, SOXX +3%), memory names jumped. SOXX vol at 5yr high (whippy). SNDK/USDT 1796.62: funding +0.00034, OI thin 7,181, L/S 0.848 (shorts>longs, contrarian-bullish), orderbook -0.663 (offer-heavy), structure_bias -0.29; 15m/5m RSI 81/83 stretched, 4h soft (RSI 35.9), ATR 4.03%. NAND structurally bullish into 2027-28. Env: supportive-to-mixed for longs, hostile for shorts; biggest risk = event/session (US cash closed, thin/gap-prone, Warsh testimony 10am ET). Size smaller; prefer pullbacks.",
+    "sentiment": "SNDK tilt BULLISH (softer than MU). NAND supply constrained into 2027 (Goldman); Q4 FY26 guide strong (rev ~$7.75-8.25B, EPS $30-33). No <=48h catalyst; dated binaries = earnings 2026-08-05 + Investor Day 8/13 (out of horizon). Thinly covered, ~0.78 corr to MU \u2014 beta-follows Micron/memory tape. Sector prices still rising but decelerating; 'prices cooling' is emerging bear counter-narrative.",
+    "analyst": "V-recovery off 1739 into 15m RSI 81.4 / 5m RSI 82.7 \u2014 near-term overbought, countertrend bounce into a soft 4h. ATR 4.03% => ~72pt 1x-ATR stop kills R:R on a chase; orderbook -0.663 + funding against longs = book selling the bounce. Fresh short fights bullish NAND tape and crowded-short L/S 0.848, and account shorts bleed. Best expectancy: wait for pullback into 1747-1757 shelf/VWAP for a tight-stop long under 1739, or step aside if shelf fails.",
+    "portfolio": "HOLD SNDK/USDT:USDT \u2014 no clean entry; armed pullback-buy trigger below 1757 (conf 0.60)."
+  },
+  "timestamp": "2026-07-15T00:33:32.673887+00:00"
+}

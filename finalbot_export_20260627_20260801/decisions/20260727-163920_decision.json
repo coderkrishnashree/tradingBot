@@ -1,0 +1,28 @@
+{
+  "symbol": "INTC/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.4,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "none",
+  "forecast": "Bounce off the 87.12 low grinds up toward the 92-93 broken-support/VWAP shelf over the next few bars; that is where the dominant downtrend should reassert. A below-VWAP short here gets run over by the active bounce.",
+  "expectancy_note": "Short is late/extended (-4.38% below VWAP, active bounce, orderbook +0.438 bid) = account's #1 loss pattern; long fights the bearish trend into FOMC + overnight gap. Neither offers clean R:R >= 1.5 now; wait for the retest.",
+  "rationale": "All HTFs short but price is stretched 4.4% below VWAP sitting on the 87.12 low with a clear higher-low bounce (89.28->89.83->90.54->90.67) and heavy orderbook bid absorption (+0.438) - chasing a short into this is how this account bleeds. p_win_learned is only 0.387 and the setup is not aligned. A long counter-trend into a semi wreck with FOMC Jul 28-29 and overnight-gap risk on a thin tokenized equity is equally poor. Highest-expectancy action is to wait for the bounce to reach the ~92.6 resistance/VWAP zone for a proper trend-aligned short.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 92.6,
+    "expires_min": 240,
+    "note": "Bounce reaching the broken-support/VWAP shelf near 92.6 gives a trend-aligned short entry with a tight stop above resistance and room down to 87 - re-debate for a proper short."
+  },
+  "transcript": {
+    "macro": "Environment HOSTILE-to-MIXED, risk-off tech-led. FOMC Jul 28-29 inside the holding window; active AI-capex/semiconductor selloff is the defining tape. Prefer trend-aligned shorts in the semi/AI complex over longs; cut size. Tokenized-equity perps thin/gappy overnight. INTC is the EPICENTER of the semi wreck (-21% in 7 sessions, weakest RS in book at -18.5%, all TFs short) but L/S 2.22 (crowd long a falling knife) with orderbook +0.438 hinting near-term bounce/absorption - squeeze risk both ways.",
+    "sentiment": "INTC already reported Jul 23/24: Q2 blowout (EPS $0.42 vs $0.21, rev $16.1B) YET the stock fell ~8% on the print and is down ~28% on the month on 18A foundry-yield delays + AI-bubble warnings. Momentum broken/bearish, but the earnings catalyst is SPENT - no new 48h binary. Overall: bearish/risk-off tech tape.",
+    "analyst": "INTC last 90.67. All HTFs short (composite -0.404) but aligned:false and p_win_learned only 0.387. RSI 43.2, VWAP -4.38% (extended down), %B 0.098. Tape crashed 94->87.12, then the last 7-8 bars bounced and made higher lows/closes (89.28->90.67) with orderbook +0.438 bid absorption. Shorting here is the classic late-short-into-a-bounce loss; a long counter-trend into a semi wreck with FOMC + overnight gap is equally poor. HOLD, armed short trigger at the ~92.6 VWAP/broken-support retest.",
+    "portfolio": "INTC: HOLD (conf 0.40) - trend is down but stretched into a live bounce; armed short at the 92.6 retest."
+  },
+  "timestamp": "2026-07-27T16:39:20.982404+00:00"
+}

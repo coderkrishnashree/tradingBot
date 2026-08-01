@@ -1,0 +1,22 @@
+{
+  "action": "buy",
+  "symbol": "CL/USDT:USDT",
+  "size": 3.0,
+  "entry": 86.8,
+  "stop_loss": 86.35,
+  "take_profit": 88.6,
+  "take_profit_1": 87.7,
+  "take_profit_2": 88.6,
+  "confidence": 0.58,
+  "playbook": "range",
+  "forecast": "Waterfall into 86.64 has stalled; price bases 86.74-86.93 and turns up. Expect a dip-fill near 86.80 then an oversold-bounce reclaim of VWAP toward 87.70, extending to 88.60 within 4-8 bars as deeply oversold 1h/4h (RSI 24-26) mean-reverts.",
+  "expectancy_note": "p(win)~0.60, R:R 2.0 to TP1 (0.90 reward vs 0.45 risk). Mean-reversion long at a real support with exhaustion (RSI 26.6, %B 0.125, VWAP -3.36%, 5m already flipped long, crowd short LSR 0.573, bid-side orderbook) beats shorting into stretched oversold tape - the account's proven loss pattern.",
+  "rationale": "CL flushed to 86.64 then based for 7 bars; every stretch metric (RSI 26.6, stoch 16.1, %B 0.125, -3.36% VWAP) plus a contrarian structure (crowd already short, orderbook +0.15) argues the composite short is late, not fresh. Macro is explicitly long-supportive and CL is the scan's top relative-strength name (+25.6%) on its own drivers (BTC corr -0.19). I fade the exhaustion at support: stop 86.35 sits below the flush low (honest ~1xATR of mid TF), TP1 87.70 gives clean 2.0 R:R. Size held to 3% because FOMC Wed and live two-way Middle East headline risk can gap this pair either way within hours.",
+  "transcript": {
+    "macro": "Regime RISK-OFF leaning; CL negatively correlated to the risk basket (-0.30 to -0.52), the natural hedge. CL lean SUPPORTIVE for longs (session's cleanest long): crude ~$87-90, bid on Hormuz/Red Sea disruption, falling US inventories, OPEC+ discipline, top relative-strength name (+25.6% vs BTC, own drivers). Scan composite reads short (4h oversold RSI 26.6) = tactical pullback within a macro-supported uptrend.",
+    "sentiment": "BEARISH structurally but HIGH two-way geopolitical risk. OPEC+ +548k bpd for August (Jul 22), fifth straight hike = supply-glut bearish; countered by fresh Houthi tanker threats (Jul 23) and CPC Black Sea disruption injecting a risk premium (WTI spiked ~$89-90). Most headline-sensitive pair - a single Mideast escalation can gap either way. FOMC Wed shared overhang.",
+    "analyst": "Composite says short but everything screams counter-trend exhaustion: RSI 26.6, %B 0.125, VWAP -3.36%, stoch 16.1 - >2xATR stretched below VWAP, crowd already short (LSR 0.573), orderbook bid, 5m flipped long. Shorting here is the account's #1 loss pattern. Fade the exhaustion at the 86.74-86.92 base: entry 86.80 dip-limit, stop 86.35 under the flush low, TP1 87.70 (R:R 2.0), TP2 88.60. Size 3% for FOMC/geopolitical two-way gap risk.",
+    "portfolio": "BUY CL 3% at 86.80 - oversold-bounce long at support, stop 86.35, targets 87.70/88.60, R:R 2.0; trimmed size for FOMC + Mideast gap risk."
+  },
+  "timestamp": "2026-07-26T00:34:12.380940+00:00"
+}

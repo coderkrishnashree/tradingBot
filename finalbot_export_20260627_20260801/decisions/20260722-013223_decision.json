@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "EWJ/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Dead overnight tape: price drifts in the 92.6-93.3 band on zero real volume until Tokyo/US flow returns; most likely a small mean-reversion fade off the 94.82 resistance / RSI 83.7 extreme toward VWAP ~90.8, but no confirmation and no liquidity to express it yet.",
+  "expectancy_note": "No fill/exit in zero-volume tape; any fade risks a gap through the stop, any chase buys the top of a vertical ADX-91 move. Best expectancy is flat.",
+  "rationale": "EWJ is massively overbought (RSI 83.7, stoch 97, %b 0.98, +2.62% above VWAP) and pinned at 94.82 resistance, but the recent 15m candles are mostly zero-volume repeated prints - there is no liquidity to enter or exit and no honest R:R on dead bars. A fade is the only logical direction here, yet without a confirmed rejection and with a live US-Iran oil shock plus the BOJ binary looming, entering thin overnight tape is negative expectancy. Wait for real volume and a rejection print.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 92.6,
+    "expires_min": 240,
+    "note": "Losing the overnight-session floor on real volume confirms the overbought unwind has begun and opens a fade toward VWAP ~90.8 / support 88.16."
+  },
+  "transcript": {
+    "macro": "Regime RISK-ON but capped by live US-Iran oil shock, firm DXY ~100.6, rising yields. EWJ: lean NEUTRAL / fade-the-spike, HOSTILE for fresh longs. Japan constructive medium-term (Nikkei near records, weak yen ~162 boosting exporters) BUT massively OVERBOUGHT and ILLIQUID: RSI 83.7 (1h 85, 5m 97), stoch 97, %b 0.98, ADX 91, price pinned at resistance 94.82 vs last 93.21. Structure bias -0.08 (L/S 1.59 crowded long, offset by +0.31 orderbook). Many 15m candles ZERO volume. Do not add longs; fade candidate. Smallest size or skip.",
+    "sentiment": "EWJ NEUTRAL-to-POSITIVE. 'Takaichi Trade' - LDP supermajority, fiscal stimulus, weak yen (USD/JPY ~162) boosting exporters (Nikkei +37% YTD, +3.9% Jul 21). Key looming binary: BOJ decision Jul 30-31 (rate 0.75%, hawkish/tightening bias); hawkish surprise strengthens yen & pressures exporter-heavy EWJ - but OUTSIDE 48h window. EWJ is US-listed, gaps on overnight Tokyo session, illiquid off-hours. No fresh <=48h shock.",
+    "analyst": "Recent 15m candles are mostly zero-volume repeated prints (92.85 x5, 92.77) pinned 92.62-93.32 - no liquidity to enter or exit, no honest R:R. Extreme overbought (RSI 83.7, stoch 97, %b 0.98, +2.62% vwap) makes a fade the only logical direction, but last real bar still creeping up (93.32 high, closed 93.21) - no confirmed rejection. With live oil shock + BOJ binary looming, entering thin overnight tape is negative-EV. HOLD; wait for real volume and a rejection below 92.6.",
+    "portfolio": "HOLD EWJ - overbought into zero-liquidity overnight tape, no tradeable fill; conf 0.6."
+  },
+  "timestamp": "2026-07-22T01:32:23.507898+00:00"
+}

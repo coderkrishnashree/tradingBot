@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "EWY/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.55,
+  "playbook": "none",
+  "forecast": "Mid-range chop 172.0-172.8 near-term; likely dip to retest the 170.5-171.0 base first, then either reclaim 173.7 (long resumes toward 174.5/176) or lose 170.0 (fade extends to VWAP ~167.5). No clean edge from 172.36 mid-air.",
+  "expectancy_note": "p(win) for a market entry now ~0.5 either way; RSI 60.6 + VWAP +2.67% + rejection off 174.5 in thin US-closed tape = negative-expectancy chase long, while shorting a 39.6-ADX uptrend from mid-range fights the trend. HOLD beats both.",
+  "rationale": "EWY ran +2.67% above VWAP into 174.49 and got cleanly rejected (173.96->172.36, fading closes), leaving price stranded mid-range with crowded longs (L/S 1.25), rel-strength -13.8%, and a risk-off, US-cash-CLOSED gappy backdrop that punishes chasing. A market long here buys the rejection; a short fights a strong 1h/4h uptrend. Neither offers R:R >= 1.5 to a real level from 172.36, so I wait for confirmation.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 173.7,
+    "expires_min": 240,
+    "note": "Reclaiming above the rejection body invalidates the 174.5 top and revives the 1h/4h uptrend for a continuation long toward 176+."
+  },
+  "transcript": {
+    "macro": "2026-07-22 RISK-OFF tilt. S&P -0.14%, Nasdaq -0.57% on oil spike (Brent +3.4% ~$94) reviving inflation worry; unwinds Tue SOX +5.2% chip rally -> choppy two-sided tape. Fear&Greed 33. Korea/Japan: KOSPI +0.74% (surged >6% intraday, hit program-trade halt, very volatile), Nikkei -0.18%, both open-high/close-low. EWY crowded (L/S 1.25, structure_bias -0.07, rel-strength -13.8%), driven by semi complex. US cash CLOSED -> tokenized names thin/gappy. NET: MIXED-to-HOSTILE for fresh longs; crowded retail longs everywhere = squeeze risk; favor smaller size / mean-reversion over chasing longs.",
+    "sentiment": "EWY: momentum ETF, semi-heavy (48% IT). No Korea-specific <=48h binary; trades off global semis (SK Hynix/Samsung read-through) and Fed rate-cut hopes. Some analysts flag near-term weakness. NEUTRAL. Cycle-wide: no <=48h scheduled binaries on any of the 7 names; all events (FOMC 7/28-29, HOOD 7/29, BOJ 7/30-31, SNDK 8/5) sit beyond the window.",
+    "analyst": "Extended equity-token, +2.67% above VWAP into 174.49, cleanly rejected and fading (173.96->172.36). Crowded longs + rel-strength -13.8% + hostile macro. Chasing the 1h/4h uptrend = buying a rejection into thin overnight tape (the account's core loss pattern); a fresh short fights ADX 39.6 uptrend from mid-range with no confirmed breakdown. Price stranded mid-range between faded 174.5 high and 170.0-170.5 base; R:R for a market entry is poor. HOLD, arm reclaim of 173.7 for continuation long.",
+    "portfolio": "EWY: HOLD (conf 0.55) \u2014 no clean edge mid-range; wait for reclaim of 173.7 or loss of 170.0."
+  },
+  "timestamp": "2026-07-22T22:33:19.380065+00:00"
+}

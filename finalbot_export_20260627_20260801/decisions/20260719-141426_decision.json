@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "QQQ/USDT:USDT",
+  "size": 0.0,
+  "entry": 694.84,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Thin weekend drift keeps price pinned 693-696 into Monday; real directional move comes on the cash open. A clean break and hold below 688 confirms the risk-off breakdown toward 682/676; a reclaim of 700 negates the short.",
+  "expectancy_note": "No edge now: market closed/gappy, price already on 688 support with LTF RSI ~31 (stretched), learner p_win 0.42 flags this short as a loser, and news lean is risk-on - shorting into support here is the account's #1 loss pattern.",
+  "rationale": "QQQ is a closed-market equity proxy on a weekend; the 20-bar path is a low-volume grind (volumes 0.05-12) with no real signal, and only the 4h is bearish while 15m/30m/1h/5m are flat. Price sits on 688 support after already sliding ~1 ATR, so a market short now risks the routine bounce hitting any honest stop before Monday's real move. Better to wait: a confirmed break below 688 on the open opens the short with genuine edge, a reclaim of 700 kills the thesis.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 688.0,
+    "expires_min": 240,
+    "note": "Losing the 688 support that has held all weekend confirms the risk-off breakdown and opens the aligned short with real edge toward 682/676."
+  },
+  "transcript": {
+    "macro": "RISK-OFF/defensive regime. 2026-07-19 WEEKEND - US cash markets CLOSED; QQQ proxy thin/gappy, real move waits for Monday open. Nasdaq closed weak (-1.4% Fri, -2.9% wk) on AI-capex/semis scare. FOMC July 28-29 (~9d out). QQQ is the cleanest expression of the risk-off short thesis, but it's a closed-market drift; real edge is Monday's open.",
+    "sentiment": "QQQ (Nasdaq-100): NEUTRAL-to-bullish tape, but scan flags SHORT. Index rode soft-CPI rally (~$720, +17% YTD); no index-level 48h binary, but big earnings wall late July (GOOGL/MSFT/META Jul 29-30, NVDA August) - event risk >1wk out. IBM -25% miss a recent AI-capex-jitters datapoint. Weekend = closed, proxy gaps to Monday open. Near-term news (cooling CPI, fading hike odds) leans risk-on - treat the short as counter-news.",
+    "analyst": "QQQ 694.84: on support 688.09, resistance 729.56, ATR% 0.43 (~3.0 abs), vwap_dist -0.84%, RSI 51.3, ADX 35.1, %B 0.331, 4h score -0.691 (short) but 15m/30m/1h/5m flat, structure_bias -0.038, p_win_learned 0.419 (learner says this short has been LOSING). 20-bar low-volume grind 696->694.8 = weekend drift. Already on 688 support with LTF RSI ~31 (stretched down); shorting into support = #1 loss pattern. HOLD; short on a confirmed Monday break of 688.",
+    "portfolio": "HOLD QQQ - risk-off short thesis intact but closed-market drift sitting on support; short on a Monday break of 688."
+  },
+  "timestamp": "2026-07-19T14:14:26.177035+00:00"
+}

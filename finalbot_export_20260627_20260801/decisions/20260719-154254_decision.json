@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "CRCL/USDT:USDT",
+  "size": 0.0,
+  "entry": 61.01,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.4,
+  "playbook": "none",
+  "forecast": "Coiling 60.63-61.37 at VWAP; expect continued chop until Monday cash reopens. A loss of 60.63 opens a slide toward 58.76 support; a reclaim of 61.40 with volume reopens the trend leg toward 62.5+.",
+  "expectancy_note": "No edge: long is crowded (L/S 2.26) into RSI 75.9 with a fresh Mizuho downgrade + Open USD shock and -26.7% rel weakness; short fights ADX-83 4h uptrend with no rejection trigger. Sunday gap risk. p(win) on either side near coin-flip, R:R sub-1.5 without a level break.",
+  "rationale": "Real 4h uptrend (ADX 83) but overbought (RSI 75.9), one-sided long positioning (L/S 2.26), freshest-negative sentiment, big underperformer vs BTC (-26.7%), and a CLOSED US cash market with Monday gap risk make chasing the long poor expectancy; the 15m tape is flat/coiling at VWAP with no trigger, and shorting into an 83-ADX trend without a rejection is a knife-catch. Highest-expectancy move is to wait for the range to resolve. Size 0.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 60.63,
+    "expires_min": 240,
+    "note": "Losing the local range floor breaks the coil to the downside, aligning tape with the bearish news/crowding for a short toward 58.76 support."
+  },
+  "transcript": {
+    "macro": "Regime HOSTILE-to-MIXED, risk-off. Sunday 2026-07-19: US cash CLOSED, tokenized-stock perps thin/gappy, gap risk into Monday. Crypto risk-off, Extreme Fear. FOMC July 28-29 outside window. CRCL line: LONG signal (ADX 83, strong 4h trend) but CROWDED L/S 2.26, RSI 75.9, structure_bias -0.32, big underperformer vs BTC (-26.7%) - trend real but one-sided into weak tape, size down.",
+    "sentiment": "CRCL BEARISH tilt, freshest negative story of group. Coinbase/BlackRock/Visa 'Open USD' stablecoin already knocked CRCL ~16-17%, and Mizuho DOWNGRADED to Underperform, PT cut to $50 (from $85) ~July 17. Partial offset: OCC national-trust-bank charter. Sentiment/momentum clearly negative.",
+    "analyst": "Real 4h uptrend (ADX 83) but overbought (RSI 75.9), crowded long (L/S 2.26), freshest-negative sentiment, big underperformer, CLOSED cash market with gap risk = chasing the long is poor expectancy. 15m tape flat/coiling at VWAP with no trigger; shorting an 83-ADX trend without a rejection is a knife-catch. Wait for range to resolve.",
+    "portfolio": "HOLD CRCL - momentum-long vs bearish news/crowding conflict, overbought into gap risk; armed short trigger below 60.63."
+  },
+  "timestamp": "2026-07-19T15:42:54.538857+00:00"
+}

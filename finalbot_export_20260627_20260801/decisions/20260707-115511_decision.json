@@ -1,0 +1,26 @@
+{
+  "symbol": "EWY/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.55,
+  "entry": 181.75,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "size": 0.0,
+  "playbook": "trend",
+  "forecast": "Price pinned below the lower BB (%B -0.04, RSI 33.8, VWAP -3.07%) after a clean 15m stair-step down; next likely a dead-cat bounce toward 182.5-183.2 (broken support/VWAP) over 2-5 bars, THEN bearish continuation toward 178-176. Shorting here chases weakness into support 174.61.",
+  "expectancy_note": "Thesis bearish but entry extended (below band, oversold 15m+1h); chasing gives ~0.8R and poor fill. Selling the bounce at 182.6-183.2 with stop 184.3, target 178 gives ~2.2R.",
+  "rationale": "EWY is the cleanest short on the board (rel-strength -10.75%, bearish divergence, Samsung miss + KOSPI -1.6% chip unwind, ADX rising to 25.5) and I want to be short it, but not HERE. Price is below the lower Bollinger with RSI 33.8/stoch 23.9, ~3% under VWAP, only ~4% above real support at 174.61; the final two candles already show stabilization off 181.04. That is a chase, not a setup. Hold for a retrace into 182.6-183.2 to short the continuation with stop above 184.3 toward 178/176 where R:R and probability favor the trade.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 182.6,
+    "expires_min": 240,
+    "note": "A bounce to 182.6 (broken support / toward VWAP) is the short-entry zone \u2014 selling strength into the bearish Korea/chip tape gives far better R:R than shorting the oversold hole at 181.75."
+  },
+  "transcript": {
+    "macro": "Cautious risk-OFF / SHORT-tilt (2026-07-07). QQQ broke below 50-day MA Jul 2, down ~2.4% over 10d. DXY reclaimed 100, US 10Y ~4.48%, Sep cut odds ~56%. Live risk: AI-chip unwind; PHLX chip index bled >$1T since June; Micron reports Wed Jul 8/9 (48h event risk). Funding ~0 on equity perps; crowding shows in L/S ratios; low BTC correlation. EWY-specific: cleanest short \u2014 bias -0.14, bearish divergence, rel-strength -10.75%, ADX rising; Korea/semi beta to chip unwind. Overall bias: SHORT-tilt.",
+    "sentiment": "AI/chip rotation is the tape-mover. Samsung Q2 overnight: record op profit but revenue MISS, sold off; KOSPI -1.6%, dragging memory/chip complex; Nasdaq-100 futures -0.9 to -1.1% pre-open. EWY: BEARISH near-term \u2014 direct hit from Samsung revenue miss + chip profit-taking; confirms scan short bias.",
+    "analyst": "Thesis is strongly bearish and EWY is the cleanest short, but price is extended: %B negative (below lower band), RSI 33.8, stoch 23.9, VWAP -3.07%, 1h RSI 26.2, only ~4% above support 174.61, with a small bounce off 181.04 printing. Chasing gives ~0.8R with poor fill; the high-expectancy short is on a retrace into 182.6-183.2 (broken support/VWAP), stop 184.3, target 178/176 (~2.2R). HOLD-to-short: thesis right, price wrong.",
+    "portfolio": "HOLD EWY \u2014 cleanest short thesis but extended into support; armed to short a bounce to 182.6."
+  },
+  "timestamp": "2026-07-07T11:55:11.368588+00:00"
+}

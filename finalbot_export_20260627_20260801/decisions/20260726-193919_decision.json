@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "TSLA/USDT:USDT",
+  "size": 0.0,
+  "entry": 315.02,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.55,
+  "playbook": "none",
+  "forecast": "Live 5m bounce (RSI 69.6) lifting price off the 313.5 low toward VWAP ~319-321; expect that retest to fail and roll back over toward 307 support, but a market short HERE gets run by this bounce first.",
+  "expectancy_note": "Short is the right direction (weakest name -25.5% rel str, 4h downtrend, crowded-long trap) but entering at 315 - 2.25% below VWAP, 4h RSI 31 oversold, 5m flipped long - is the account's proven losing pattern (shorts 0.47 win). Waiting for ~319-321 gives ~1.5R+ to 307.",
+  "rationale": "TSLA is the weakest horse and the continuation-short thesis is valid, but price is stretched to the downside (VWAP -2.25%, 4h RSI 31.2) with a live 5m counter-bounce underway, and support 307 sits only ~2.5% below - a market short here has poor R:R and matches how this book's late shorts get stopped. FOMC Jul 28-29 argues for patience. Short the failed retest into the VWAP band instead of chasing.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 319.5,
+    "expires_min": 240,
+    "note": "A bounce into the VWAP/broken-support retest band (~319-321) is where the crowded-long trap gives a clean continuation-short entry back toward 307."
+  },
+  "transcript": {
+    "macro": "Risk-off/defensive, weak Nasdaq tape. FOMC Jul 28-29 inside horizon = vol event. Book-wide crowded-long = contrarian downside risk. TSLA: post-earnings -14% underlying, WEAKEST name vs BTC (rel str -25.5%), 4h downtrend, but crowded LONG into downtrend (L/S 2.64) = long-trap / continuation-short setup; scan direction SHORT; bounce risk real.",
+    "sentiment": "TSLA POST-EVENT. Reported Jul 22: record rev $28.24B (beat) but big profit MISS (adj EPS $0.33 vs $0.51; operating income -57% YoY, margin 1.4%; neg FCF). Deliveries strong (480k). Fell ~5.6% AH, -7% premarket. Catalyst spent, tone negative/heavy.",
+    "analyst": "Continuation-short thesis valid (weakest horse, 4h downtrend, crowded-long trap) but price stretched down (VWAP -2.25%, 4h RSI 31) with a live 5m bounce and support 307 close - market short here is the account's losing pattern. Hold; short the failed retest at 319.5.",
+    "portfolio": "HOLD TSLA - right direction (short) but too extended; short the ~319-321 retest, not here."
+  },
+  "timestamp": "2026-07-26T19:39:19.826879+00:00"
+}

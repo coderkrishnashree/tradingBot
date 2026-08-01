@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "SOL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.4,
+  "playbook": "none",
+  "forecast": "Bounce is fading into VWAP/76.0-76.2 supply on drying volume; expect chop 75.5-76.2 with risk of a fade back toward 75.3 flush low over the next 2-4 bars. No clean edge until 76.30 reclaims or 75.30 breaks.",
+  "expectancy_note": "Long = chasing extended 4h RSI 69 into most-crowded-long book (squeeze risk down); short = fresh bounce, account's proven late-short loser (shorts 47% win, -0.87R). Neither clears R:R 1.5 at mid-range 75.97.",
+  "rationale": "SOL sits mid-range (support 75.3 / resistance 76.2-79) as a dry-volume recovery bounce stalls at VWAP. Pure BTC-beta (corr 0.80) with negative relative strength in a risk-off crypto tape, 4h RSI stretched to 69, long/short 2.76 (most crowded long in scan) and structure_bias -0.31 - hostile for a fresh long, while shorting a live bounce is the account's #1 loss pattern. No R:R-1.5 setup; wait for the resolving level.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 76.3,
+    "expires_min": 240,
+    "note": "Reclaiming 76.30 (above flush-candle high / prior rejection) proves crowded-long supply is being absorbed, opening 77+ and a small quick long."
+  },
+  "transcript": {
+    "macro": "SOL is the only true crypto-beta name (btc_corr 0.80) and crypto is the WEAK asset class - BTC low-$60Ks, ~21-month lows, ETF outflows, BTC.D ~56%. L/S 2.76 = most crowded long in ENTIRE scan, structure_bias -0.31, RSI 69 (4h) stretched. Environment HOSTILE for fresh longs; highest squeeze risk. Small/quick only. FOMC Jul 28-29 outside window.",
+    "sentiment": "SOL NEUTRAL-to-cautious, no dated binary in 48h. Spot SOL ETFs live (~$1B AUM) but small late-June outflows. Firedancer v1.0 / Alpenglow are Q3 catalysts. Testing $74-75 support (last 75.97). Main risk is broad crypto beta, not SOL-specific; no hacks/unlocks.",
+    "analyst": "Dry-volume recovery bounce fading into VWAP/76.0-76.2 supply; 4h RSI 69 stretched, most-crowded-long in the book (squeeze risk DOWN), negative rel-strength in a risk-off crypto tape. Long = chase; short = fresh-bounce late-short loser. No 1.5R edge at mid-range; wait for 76.30 reclaim or 75.30 break.",
+    "portfolio": "HOLD SOL - hostile crypto tape + most-crowded-long, no clean edge mid-range; armed long trigger above 76.30."
+  },
+  "timestamp": "2026-07-19T20:45:21.676526+00:00"
+}

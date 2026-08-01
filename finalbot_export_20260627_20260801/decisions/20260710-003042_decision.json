@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "SOL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price stays pinned in the 77.7-78.3 coil near-term; no directional path yet. Breaks either 76.24 (down, trend resumes) or 78.8 (up, short squeeze) before a tradable move.",
+  "expectancy_note": "No setup clears R:R 1.5 in a 0.6-wide flat range; 4h RSI 29 makes a fresh short a late chase and crowded longs + BTC stabilization threaten an up-squeeze. Sitting out beats both.",
+  "rationale": "SOL is digesting a 16% bounce in a razor-thin 15m coil (77.7-78.3) with 30m/1h neutral and 4h already oversold (RSI 29) \u2014 no honest edge either way. Crowded longs (2.33) and slightly negative funding lean contrarian-bearish, but that's squeeze fuel if BTC bounces, and the account's losing pattern is exactly late trend-shorts into stretched tape. Waiting for a decisive break of the coil is the highest-expectancy action; size 0.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 76.24,
+    "expires_min": 240,
+    "note": "Losing range support 76.24 confirms the downtrend resuming and turns a fresh short into a clean structure-backed setup rather than a mid-range chase."
+  },
+  "transcript": {
+    "macro": "Regime mildly risk-on but fragile/two-way. US semis rallied hard into the close (SMH +2.5%, Micron +7.5%). BTC soft ~$63k near 21-month lows; spot-BTC ETFs snapped a 10-day outflow streak (+$222M) = tentative stabilization -> risk-neutral-to-cautious for alts. SOL is mostly BTC-beta (corr 0.79) near BTC lows; slightly-negative funding + crowded longs (2.33) = squeezy/contrarian-bearish, but risk is a BTC bounce squeezing shorts. Scan ~00:25 UTC. Catalysts: June CPI Jul 14, FOMC Jul 28-29 (outside window). Smaller size broadly.",
+    "sentiment": "SOL ~$78, neutral-to-slightly-bearish, moving with broad risk/BTC, no crypto-specific catalyst in window; Alpenglow upgrade late Q3/Q4; MoneyGram validator / Clearstream custody slow-burn positives. Direction set by broad risk, not SOL headlines.",
+    "analyst": "20 15m bars stuck in a razor-thin 77.7-78.3 coil, last 77.88 \u2014 dead-flat consolidation. 4h RSI 29 oversold (argues against a fresh short); 30m/1h flat. Structure_bias -0.24 (funding negative, L/S 2.33), but BTC stabilizing + SOL leading rel-strength +9.7% = up-squeeze risk. No honest R:R>1.5 in a 0.6-wide range. Account bleeds on late trend-shorts into stretched tape. HOLD, arm short trigger on a break of 76.24.",
+    "portfolio": "HOLD SOL \u2014 no edge in the coil; short only on a decisive break below 76.24."
+  },
+  "timestamp": "2026-07-10T00:30:42.936331+00:00"
+}

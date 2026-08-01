@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "HOOD/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.62,
+  "playbook": "none",
+  "forecast": "Capitulation to 97.03 is in and the snapback is already running (higher lows 97.12->100.07->100.67->100.82, closes near range highs); expect chop/drift between 99.5 and 103.5 into the weekend rather than a clean next leg. A fresh short only reactivates on a failure back below the 96.68 flush low.",
+  "expectancy_note": "Short p(win)~0.35 (learner: shorts 0.47/-0.87, HOOD p_win 0.345; vwap_dist -10%, RSI 13.5 = chase into a live bounce). Long has no base and fights risk-off + Friday gap risk. HOLD beats both on expectancy.",
+  "rationale": "HOOD is the account's #1 loss setup: an aligned, deeply-oversold (RSI 4h 13.5, %B 0.002, -10% from VWAP) short into a bounce that is already underway off 96.68 support \u2014 a routine counter-bounce takes out any honest short stop first. The long fails the regime (risk-off, double-exposed to crypto+equity) with weekend headline/gap risk and no confirmed base, only a dead-cat off the low. Neither side clears R:R>=1.5 with an honest <=1.5xATR stop here, so the highest-expectancy action is to wait for the bounce to resolve.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 96.68,
+    "expires_min": 240,
+    "note": "Losing the capitulation low proves the snapback failed and opens a fresh, non-extended short leg with real downside room."
+  },
+  "transcript": {
+    "macro": "RISK-OFF, semiconductor-led selloff (PHLX Semi -3%+, Nasdaq -1.5%). HOOD is a tokenized US equity \u2014 Nasdaq/financials tape matters plus crypto beta (BTC-corr 0.54, double-exposed). last 100.68, funding 0.0, L/S 1.53, orderbook +0.01 (neutral), structure_bias -0.155. Deeply oversold: 4h RSI 13.5, ADX 77.5, vwap_dist -10%. Friday weekend-gap risk. Earnings Jul 29 (outside 48h).",
+    "sentiment": "SHORT bias, NO near-term binary. Q2 earnings Jul 29 after close (outside 48h). Consensus EPS ~$0.41. Deeply oversold after a hard flush; high beta to COIN/crypto (corr 0.76) which is in extreme fear (F&G ~25). Near-term news neutral-to-bearish; main risk to a short is an oversold mean-reversion snapback given how stretched it is.",
+    "analyst": "HOLD. Capitulation to 97.03 is in and the snapback is already running (higher lows 97.12->100.07->100.67->100.82). Market-shorting an aligned, deeply-oversold (RSI 4h 13.5, %B 0.002, -10% from VWAP) name mid-bounce is the account's #1 loss pattern (shorts 0.47 win/-0.87 pnl; HOOD p_win 0.345). The long has no confirmed base and fights risk-off + Friday gap risk. Neither side clears R:R>=1.5 with an honest stop. Wait for a failure back below 96.68 to short a non-extended leg.",
+    "portfolio": "HOOD: HOLD (conf 0.62) \u2014 too stretched to chase short; re-arm short on loss of 96.68, else stand aside."
+  },
+  "timestamp": "2026-07-17T14:35:54.847772+00:00"
+}

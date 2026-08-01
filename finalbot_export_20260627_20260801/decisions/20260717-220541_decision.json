@@ -1,0 +1,22 @@
+{
+  "action": "short",
+  "symbol": "XAUT/USDT:USDT",
+  "size": 3.0,
+  "entry": 4005.0,
+  "stop_loss": 4019.0,
+  "take_profit": 3963.0,
+  "take_profit_1": 3980.0,
+  "take_profit_2": 3963.0,
+  "confidence": 0.58,
+  "playbook": "trend",
+  "forecast": "Coil under VWAP (4000-4012) resolves down within 2-6 bars; break of 4000 flushes trapped longs toward 3980, then 3963.8 support test.",
+  "expectancy_note": "p(win)~0.58, R:R to TP1 ~1.8 ($25 reward vs $14 risk), to TP2 ~3.0; trend-continuation beats fade because ADX 61 + 4h/5m both short with price pinned at VWAP, not extended (safe entry, not chasing).",
+  "rationale": "Strong downtrend (ADX 61.1, 4h score -0.9, RSI 37) with trapped longs (L/S 2.588 pinned max) providing downside fuel and structure_bias -0.345. Entry is at VWAP (vwap_dist -0.28%), not extended, so I'm shorting into the trend rather than chasing a stretched move. Tight bb_width (2.21%) signals imminent coil resolution; with all higher-TF momentum down and price capped under 4012, it resolves toward 3961.8 support. Stop 4019 sits just above the coil high plus ATR buffer, keeping risk honest vs a $42 target. Size 3% given real squeeze risk (any safe-haven headline flips trapped longs into a violent bounce) \u2014 tail risk caps conviction at 0.58 and size below full.",
+  "transcript": {
+    "macro": "Regime RISK-OFF, tech/semis-led selloff; hawkish Warsh Fed, higher-for-longer, DXY firm ~100.7, oil >$80 on Iran conflict. GOLD: XAUT broke down hard, spot at/below $4,000 (~Nov-2025 lows), -3%+ on week. Safe-haven bid NOT working \u2014 higher oil -> sticky inflation -> hawkish Fed/higher real yields pressures non-yielding gold. Scan: 4h RSI 37, ADX 61 (strong trend), 4h/5m both short, structure_bias -0.345, last 4004.9. Crowded longs: long_short 2.588 (pinned max) \u2014 trapped longs fuel downside but elevated squeeze risk on any safe-haven headline. Funding flat. RS -8.15% vs BTC. Support $3,961.8. JPM cut Q4 to $4,500, Goldman to $4,900.",
+    "sentiment": "Gold BEARISH near-term; breaking DOWN not up on geopolitics. No binary event inside 48h. Near-term news supports the short. Only risk: sharp conflict escalation -> safe-haven reversal spike.",
+    "analyst": "Trend clearly down (ADX 61, 4h short) \u2014 shorting with trend but entering near VWAP (not chasing), since price is mid-range in a tight coil not extended. Honest short target support 3961.8 (~$43), stop above coil high w/ ATR buffer 4019 (~$14) = R:R ~3. bb_width 2.21% tight = imminent resolution, likely down. Squeeze risk from 2.588 crowded longs caps size/conviction.",
+    "portfolio": "SHORT XAUT/USDT:USDT \u2014 size 3%, conf 0.58, entry 4005 / stop 4019 / TP 3980->3963."
+  },
+  "timestamp": "2026-07-17T22:05:41.433317+00:00"
+}

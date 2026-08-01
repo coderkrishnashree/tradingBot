@@ -1,0 +1,25 @@
+{
+  "symbol": "AAPL/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.4,
+  "size": 0.0,
+  "entry": 337.18,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "forecast": "Thin Sunday-night drift chops between 336.3 and resistance 339.51; no clean directional edge until cash market reopens or 339.51 resolves.",
+  "rationale": "Market CLOSED (Sunday 9pm ET) makes AAPL perp thin and gappy, so any technical level is low-confidence. Price sits mid-air at top of the Bollinger band (%B 0.949) under resistance 339.51 with 4h RSI 74.8 and bearish divergence \u2014 too extended to chase long, but structure_bias +0.389 and the winning-long account history argue against shorting into a supportive book. FOMC Wed (hawkish tail) and earnings Thu after close are binary events that can gap this thin book either way. No honest R:R here; wait for a real break of 339.51 on reopened liquidity.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 339.51,
+    "expires_min": 240,
+    "note": "Break/hold above 339.51 on reopened volume confirms continuation \u2192 trend long."
+  },
+  "transcript": {
+    "macro": "Cautious risk-off / event-gated. FOMC Wed Jul 30 hawkish tail (real chance of 25bp HIKE). Semi bleed Fri. Crypto soft (BTC ~$63-64k, dom 56.4%, F&G 29). AAPL: funding slightly neg, OI light, long/short 0.87 (more shorts, not crowded long), orderbook +0.36, structure_bias +0.389 (long-supportive). btc_corr -0.106, rel-strength +7.4% (leading), but 4h RSI 74.8 + bearish divergence = overbought. Scan stamped Sun 9pm ET \u2192 US cash CLOSED, thin/gappy. Lean: mild long but overbought, fade-risk.",
+    "sentiment": "AAPL neutral / event risk. Fiscal Q3 after close THU Jul 30 (Street EPS $1.88 +19.8% YoY, ~$108.9B rev, 4 straight beats). Tim Cook's final earnings call as CEO (soft overhang). Binary inside 48h, direction unknown.",
+    "analyst": "Price pinned at top of Bollinger band under 339.51 resistance, 4h RSI 74.8 + bearish divergence = fade/exhaustion signal. But structure_bias long-supportive, longs are the account's winning side, market closed (thin, no real flow), and binary earnings ~2.5 days out. Short fights the supportive book + account's losing side (44% win); long chases overbought into resistance with no liquidity. Genuine no-trade; best expectancy is HOLD. Flip on a clean break of 339.51 on real volume.",
+    "portfolio": "HOLD AAPL \u2014 overbought into resistance on a thin closed-market tape; wait for 339.51 break on reopened liquidity."
+  },
+  "timestamp": "2026-07-28T01:07:17.545592+00:00"
+}

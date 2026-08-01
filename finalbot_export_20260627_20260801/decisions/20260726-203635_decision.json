@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "CRCL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.4,
+  "playbook": "none",
+  "forecast": "Slow low-volume grind lower off the 63.95 stall; price likely chops 63.5-63.9. A loss of 63.5 opens a fade toward VWAP/62.5; a reclaim of 63.95 revives the 30m uptrend toward 64.5+.",
+  "expectancy_note": "No edge: composite long is muddy (36.6% conf, not aligned) and price is +1.81% above VWAP (chasing risk), while a short lacks a level/trigger at price. Crowded longs (L/S 3.24) favor an eventual fade but only on a confirmed break \u2014 waiting has higher expectancy.",
+  "rationale": "CRCL is extended above VWAP (+1.81%, bb %B 0.805) with 15m and 5m momentum rolling over, yet higher TFs still read long \u2014 a mixed tape with no clean entry at price. Longs would be chasing into a HOSTILE window (FOMC Wed) with crowded longs (L/S 3.24) as fuel against them; a short has no confirmation and support 60.11 is ~5% away. Best expectancy is to wait for the breakdown/reclaim rather than force a sub-1.5R trade into event risk.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 63.5,
+    "expires_min": 240,
+    "note": "Losing the intraday base after the 63.95 stall confirms the 15m/5m short and opens a crowded-long fade toward VWAP/62.5 with a clean structural stop."
+  },
+  "transcript": {
+    "macro": "HOSTILE window (2026-07-26). Broad tech/AI-capex selloff (Nasdaq ~-2% on week). Hawkish rates: June CPI 3.5%, oil>$100, ~34% chance of a HIKE next week, Sep hike ~81%. Event minefield <48h: FOMC Wed Jul29 2pm ET, MSFT/META earnings Wed AH, AAPL/AMZN Thu, GDP+PCE Thu 8:30am. Crypto weak: BTC ~$64.6k off 21-mo low, $4.5B June spot-ETF outflows. Precious metals the one bright spot (DXY<103, safe-haven bid). Crowded longs across the board = squeeze fuel. Cut size hard; prefer flat before Wed; equity-perp funding ~0. | CRCL: Crypto/stablecoin-beta (corr MSTR/COIN 0.70) into weak tape; newly-listed, volatile. Neutral-short-lean.",
+    "sentiment": "Event-heavy pre-earnings cycle. HARD earnings flags: META (Wed Jul29 AH), AAPL/COIN/MSTR (Thu Jul30). FOMC + GDP/PCE + BOJ (Jul29-30) = desk-wide landmines. Crypto Fear&Greed ~33-39 (fear). Cleanest names without single-name binaries: TSLA (bearish drift post -14.5% earnings), ORCL (bearish, -50% since Jun), XAG (mild bull, safe-haven), CRCL/SOL (sentiment/technical). | CRCL: Neutral; earnings Aug5 (out of window); driver is crypto/stablecoin sentiment (fearful).",
+    "analyst": "CRCL is extended above VWAP (+1.81%, bb %B 0.805) with 15m and 5m momentum rolling over, yet higher TFs still read long \u2014 a mixed tape with no clean entry at price. Longs would be chasing into a HOSTILE window (FOMC Wed) with crowded longs (L/S 3.24) as fuel against them; a short has no confirmation and support 60.11 is ~5% away. Best expectancy is to wait for the breakdown/reclaim rather than force a sub-1.5R trade into event risk.",
+    "portfolio": "HOLD CRCL/USDT:USDT @ conf 0.4"
+  },
+  "timestamp": "2026-07-26T20:36:35.479767+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "SOL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Push to 77.60 just got sold and the last 15m bar closed weak near its low; expect a pullback to retest the 76.7-76.9 VWAP/base over the next 2-4 bars. A hold there sets a clean continuation long toward 78.6-79; losing 76.7 opens 76.0/74 support.",
+  "expectancy_note": "p(win) on a market-long here ~0.45: entry is mid-move after a stall right under the 79-85 supply zone, not a pullback \u2014 R:R is poor and it chases. Waiting for the 76.8 retest or a 78.1 reclaim flips it to ~1.8 R:R; HOLD beats chasing.",
+  "rationale": "SOL momentum is real (5m/4h long, ADX 69, rel strength +3.65%) but it is pure BTC beta (corr 0.749) into a defensive-BTC, elevated-dominance tape, and the crowd is max-long (L/S 2.539, structure_bias -0.259) \u2014 the account's own learner penalizes negative structure_bias (-0.598 weight) and its short book bleeds. Price just got rejected at 77.60 with a weak closing bar, so a market long chases a stall under the 79-85 supply zone with no honest sub-1.5x-ATR stop. Highest-expectancy move is to wait: buy the 76.8 VWAP/base retest that holds, or a confirmed reclaim above 78.1, rather than enter mid-move.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 76.9,
+    "expires_min": 240,
+    "note": "A pullback to the 76.7-76.9 VWAP/base is the honest continuation-long entry with tight stop below 76.0; re-debate the moment it tags there."
+  },
+  "transcript": {
+    "macro": "Overall regime cautious risk-off, not panic. BTC ~$64,800 at 50-month EMA, dominance elevated ~56.3% (alt headwind), BTC structure defensive (orderbook imbalance -0.424, structure_bias -0.239). SOL crypto beta (BTC corr 0.749): outperforming (rel strength +3.65%), leading short-term frames (5m/4h long, RSI 68), deep liquid OI. Positioning catch: funding slightly negative (fine for longs) BUT L/S 2.539 (max-pegged), structure_bias -0.259. Biggest risk: long-crowded alt that is pure BTC beta; if BTC rolls off 50-month EMA + stacked sell book, SOL longs flushed harder. Verdict MIXED-to-SUPPORTIVE for a long but only as leveraged bet BTC holds \u2014 size down, tight stop to SOL $74 support.",
+    "sentiment": "Overall crypto neutral-to-cautiously-constructive, Fear&Greed ~44-58, BTC defending $65k, no macro binary next 48h. SOL (last 77.34): mildly constructive fundamentals but near-term overhang. Bullish medium-term flow (Morgan Stanley ETF refile Jul 15, Grayscale fee cut, Clearstream custody, SBI on-chain venture) \u2014 longer-horizon not 48h catalysts. Near-term watch: July is largest ecosystem unlock month (pump.fun ~$124M PUMP ~21% supply + others) \u2014 supply drag (ecosystem-token dilution, not SOL). July 10 genesis-whale hack (~180.9k SOL) stale, not moving price. Price pinned below $79-85 supply zone on lowest volume of 2026. Net near-term news roughly neutral with slight negative tilt from unlock supply + thin volume \u2014 argues against chasing longs into $79-85; scan's long bias is technical not news-backed.",
+    "analyst": "SOL last 77.34, mid of a 15m push that just stalled at 77.60 with a weak closing bar. Momentum genuinely bullish (5m +0.864, 4h +0.799, ADX 69, RSI 68, rel strength +3.65%) but the setup is a crowd-heavy long: L/S 2.539 (max-pegged), structure_bias -0.259, pure BTC beta (corr 0.749) into a cautious/defensive BTC tape at the 50-month EMA with elevated dominance. Learner reinforces caution \u2014 structure_bias carries -0.598 weight (negative bias predicts losses) and the short book loses (47%, -1.59 avg) while longs win (67%) only from good entries. A market long here chases into the 79-85 supply zone with no clean sub-1.5x-ATR stop; a short fights momentum and the losing short pattern. Correct call is HOLD with a pullback-long trigger at 76.9 (VWAP/base retest) where R:R becomes ~1.8. Not chasing is the account's #1 fix.",
+    "portfolio": "HOLD SOL/USDT:USDT (conf 0.50) \u2014 bullish momentum but crowd-heavy and mid-move; re-debate on a pullback to the 76.9 VWAP/base."
+  },
+  "timestamp": "2026-07-16T06:34:02.098768+00:00"
+}

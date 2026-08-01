@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "MU/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Thin Saturday coil 982-985; the last-bar pop to 985.6 has no volume follow-through and sits +2.8% above VWAP into a seller-stacked book. Expect drift/fade back toward 982-980; a loss of 982 opens a slide to VWAP ~959.",
+  "expectancy_note": "No near level (support 876, resist 1049 both >6% away), price stretched +2.8% over VWAP, crowded-long book, hostile semi rotation. Any entry here is a coin-flip on thin weekend tape; HOLD is highest expectancy.",
+  "rationale": "MU is dead-flat coiling 982-984 all session; the final +2 pop is an isolated thin-liquidity print, not a trend. Chasing it long is the account's proven #1 loser (late continuation into a stretched, crowded-long tape with negative order flow and RS -14% vs BTC). Shorting has no confirmation and support is 11% below, so R:R is unfavorable and Monday gap risk is live. Wait for the 982 coil floor to break for a clean short toward VWAP, or a 989 reclaim to prove the pop.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 981.9,
+    "expires_min": 240,
+    "note": "Losing the 982 coil floor confirms the thin bull pop failed and opens a momentum short toward VWAP ~959."
+  },
+  "transcript": {
+    "macro": "2026-07-11 (Sat): cautious risk-on/mixed. Saturday - equity weekend-closed, thin. Semi rotation actively AGAINST Micron: SK Hynix's $26.5B debut popped +13% Fri and took share, MU slipped. Hostile-to-mixed: crowded long (long/short 1.61, structure_bias -0.238), orderbook -0.185, RS -14% vs BTC. Reduced size across board.",
+    "sentiment": "MU bullish backdrop but catalyst spent. Blowout fiscal Q3 reported Jun 24 (record $41.5B rev, HBM sold out through 2027, ~$50B Q4 guide vs $43.6B est, Anthropic partnership, ~$100B binding AI-memory contracts). Earnings binary behind us; no new <=48h catalyst. Supportive of trend but not a fresh trigger - momentum not event.",
+    "analyst": "Dead-flat coil 982-984 all session; final +2 pop to 985.6 is an isolated thin-liquidity Saturday print, not a trend, and sits +2.8% above VWAP into a seller-stacked book (orderbook -0.185). Nearest levels >6% away. Long = chasing the account's #1 loser; short = no confirmation, support 11% below, Monday gap risk. Textbook NO TRADE - wait for a 982 break (short) or 989 reclaim.",
+    "portfolio": "HOLD MU/USDT:USDT - isolated thin pop, no near level, hostile semi rotation; no edge (conf 0.6)."
+  },
+  "timestamp": "2026-07-11T07:02:59.945176+00:00"
+}

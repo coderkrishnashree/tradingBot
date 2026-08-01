@@ -1,0 +1,23 @@
+{
+  "symbol": "META/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.35,
+  "size": 0,
+  "entry": 603.31,
+  "stop_loss": 578.0,
+  "take_profit": 628.0,
+  "rationale": "META just ripped ~25 pts off the 578 flush low back to 603-604 and is now STALLING exactly at prior reclaim resistance: last two 15m bars are small dojis with volume collapsing (83->8) and 5m RSI stretched to 75. Buying here is chasing a vertical bounce into overhead supply (the account's #1 loss pattern); shorting fights a strong intraday reclaim with 4h only mildly weak (-0.37) and structure_bias -0.30 meaningless on 2,125 OI. Composite is flat (blended -0.016, 1.4% conf), RSI 51.8 at VWAP, mixed TFs \u2014 no directional edge and no R:R>=1.5 setup either way. Thin tokenized perp + weekend/overnight gap risk on a name that gaps violently both ways (last print -8.6%) argues for standing aside until price picks a side.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 605.5,
+    "expires_min": 240,
+    "note": "A clean hold above 605.5 proves buyers absorbed the reclaim-resistance supply and confirms momentum continuation toward 610-615, turning this into a valid long; failure to reclaim leaves a fade back toward VWAP/583 as the more likely path."
+  },
+  "transcript": {
+    "macro": "MIXED-to-HOSTILE for a swing over hours-to-days; trade META as an equity, cut size. Nasdaq/S&P constructive but choppy near record highs. Rates a headwind (hawkish June FOMC split, 9/18 see rates rising 2026) \u2014 negative for long-duration AI-capex mega-caps. Crypto a sideshow (BTC ~$63-64k, dominance ~55-56%, F&G 24 Extreme Fear = cautious appetite). Perp structure UNRELIABLE: tiny OI ~2,125, funding 0.0; structure_bias -0.30 is noise. Underlying META weak: -18% trailing yr, -11-12% YTD; -4.9% Jul 2-3 on capex-balloon fears ($125-145B 2026, ~2x 2025); +9.7% pop late June on AI-compute deal \u2014 violent both ways. 4h -0.37 down bias but sharp intraday reclaim (15m ~584->603). Rel strength +4.5% vs BTC, corr 0.39 \u2014 own capex story. Biggest risk: earnings Jul 29 AMC (last print -8.6% gap); near-term thin-perp weekend/overnight gap risk. Bias: no clean directional edge; argues against pressing longs AND against fresh shorts into a bounce; smaller size warranted.",
+    "sentiment": "Cautiously bullish but choppy. Dominant story: Jul 1 Bloomberg report Meta to sell excess AI cloud capacity spiked shares ~9-10% to ~$612; pop FADED back to ~$600 (closed ~$599-602 Jul 8). Biggest recent catalyst already priced and cooling. NO binary catalyst in 48h \u2014 key event Q2 earnings Jul 29 AMC (~20 days out), consensus EPS ~$7.18-7.19 on rev ~$60B; do NOT anchor short-term trade on it. Bearish overhang: AI capex anxiety ($125-145B, possible +$10B ceiling), Zuckerberg Jul 2 town hall AI progress 'hasn't really accelerated', ~8,000 layoffs; FTC monopoly appeal live. EU DMA partial annulment mild positive. Analysts (low weight): Strong Buy, avg PT ~$818-840 vs ~$600 spot. Net: near-term news NEUTRAL, no fresh directional edge next 24-48h.",
+    "analyst": "META current 603.31, ATR% 2.05, support 562, resistance 628, at VWAP, RSI 51.8, ADX 30.8, BB %B 0.48. 15m flushed ~604->578.25 then V-recovered to 603-604, now stalling at prior reclaim resistance with small-body dojis and collapsing volume (83->8). Per-TF mixed: 15m +0.39, 5m +0.66 (RSI 75 stretched), 30m/1h flat, 4h -0.37. Composite flat (blended -0.016, 1.4% conf). No clean continuation long (chasing a 25-pt vertical rip into overhead supply with 5m RSI 75) and no short setup (fighting a strong reclaim, 4h only mildly weak, structure_bias meaningless on 2,125 OI). HOLD; arm upside reclaim >605.5 as trigger, weekend/thin-perp gap risk argues against pressing now.",
+    "portfolio": "META/USDT:USDT \u2014 HOLD (conf 0.35, size 0): stalled bounce at reclaim resistance, no edge either way; reconsider long on a clean hold above 605.5 within 4h."
+  },
+  "timestamp": "2026-07-09T15:27:59.492955+00:00"
+}

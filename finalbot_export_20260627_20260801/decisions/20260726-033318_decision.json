@@ -1,0 +1,23 @@
+{
+  "symbol": "MSFT/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.6,
+  "size": 0.0,
+  "entry": 384.71,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "rationale": "MSFT is right at VWAP with a faded 385 spike, screaming overbought on 15m-1h (RSI 77/82/92) while 4h is only neutral (RSI 57.8, MACD -2.64) and 5m has flipped short (-0.596) - a stalled exhausted move, not a trend to join. Structure skews against longs (L/S 1.93 crowded, orderbook -0.163, structure_bias -0.328) but there is no tight structural short level at spot and it is a stale/thin Sunday tokenized quote with US markets closed, so no honest R:R exists yet. Wed earnings after-close is a hard event wall capping any multi-day hold; the right move is to wait for Monday's real tape and a defined level rather than trade Sunday noise.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 383.3,
+    "expires_min": 240,
+    "note": "Losing 383.3 (below the pre-spike base and VWAP) on real Monday volume confirms the overbought fade is resolving down toward 381-378 support - that would arm an intraday short scalp with a defined stop back above 385."
+  },
+  "transcript": {
+    "macro": "Regime MIXED/DEFENSIVE. MSFT macro tilt HOSTILE for a multi-day hold - do not carry through Jul 29. Reports Q4 after close Wed Jul 29; any position to the 2-day horizon is an earnings coin-flip. Nasdaq -0.64% Fri, chip sell-off, rising yields pressuring long-duration tech. Scan composite weak long (39.6%, aligned:false); exhaustion tell 1h RSI 91.6/30m RSI 81.9. Positioning against longs: L/S 1.93, orderbook -0.163, structure_bias -0.328.",
+    "sentiment": "Lean neutral, HIGH event risk. Earnings Jul 29 after close - dominant catalyst, will gap the token overnight. Consensus rev ~$87.4B (+14% YoY); make-or-break = Azure 39-40% cc + Copilot seats. Biggest downside = capex >$40B quarter, ~$190B CY2026; capex-heavy/soft-Azure could sell off even on a beat. Same afternoon as FOMC - double event. Flat before the close.",
+    "analyst": "Post-spike stall: lower TFs screaming overbought (1h RSI 91.6), 5m flipped short, crowded longs, negative structure, price failing to hold 385. Sunday stale/thin tape, US closed. Long = chasing overbought into hostile macro (account's #1 loss pattern); short = no tight level at spot, stale quotes. NO TRADE / HOLD; short scalp arms below 383.3 on real Monday volume.",
+    "portfolio": "HOLD MSFT - exhausted post-spike stall on stale Sunday tape into a dominant Jul 29 earnings+FOMC binary."
+  },
+  "timestamp": "2026-07-26T03:33:18.668726+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "ORCL/USDT:USDT",
+  "size": 0.0,
+  "entry": 143.03,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Overbought spike-high fade stalling at 143.0-143.7; expect a drift/rollover, but in thin closed-market tape it can chop 142.5-143.7 or thin-squeeze first. Clean short triggers on a break of the 141.6 base, targeting 140.0 then 137.6.",
+  "expectancy_note": "Fade-at-extreme short is the aligned side (crowded-long 2.11, 1h RSI 85, 4h MACD neg, weakest RS -21.8%), but market-entry now is ~1.15R and overnight gap risk is unhedgeable; waiting for the 141.6 breakdown lifts p(win) and R:R above threshold.",
+  "rationale": "ORCL is the most lopsided-long name into a hostile risk-off tape and just faded a 143.72 overnight spike high with 1h RSI 85 and negative 4h MACD, so the edge is clearly SHORT. But US cash is CLOSED (zero-volume candles, unhedgeable gap into 09:30 ET) and a market short here is only ~1.15R to the first target with a thin-squeeze able to hit an honest 144.2 stop first. Size stays zero; I want the confirmed breakdown or the US session, not a thin-tape chase against a crowd that can squeeze.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 141.6,
+    "expires_min": 300,
+    "note": "Losing the overnight VWAP/base at 141.6 confirms the de-rating fade is underway with momentum, turning the crowded-long setup into a clean short toward 140.0/137.6 with proper R:R."
+  },
+  "transcript": {
+    "macro": "Scan ~04:55 ET, US CASH MARKET CLOSED -> thin, gappy liquidity, unhedgeable gap into 09:30 open; cut size. Regime RISK-OFF/hostile for high-multiple tech: hawkish Warsh Fed, NO 2026 cuts, rising real yields, choppy Nasdaq. ORCL 143.03: funding +0.00036 (longs paying), OI 10,704, L/S 2.11 (CROWDED LONG \u2014 biggest squeeze risk), structure_bias -0.467 (most lopsided), 1h RSI 85, 4h MACD negative. Rel strength -21.8% vs BTC (weakest name, idiosyncratic, BTC-corr 0.381). Next earnings September \u2014 no near-term catalyst. Overhang: ~$95bn FY27 capex / $40bn raise / negative FCF, punished by rising yields. Read: HOSTILE for fresh longs; aligned side is SHORT but overnight thinness makes chasing dangerous \u2014 prefer US session; smallest size.",
+    "sentiment": "ORCL tilt BEARISH / high-vol, active de-rating. Down ~25% H1 2026, ~$138-142, 'worst week in 25 years' \u2014 momentum DOWN, headline-sensitive. Drivers: $300B OpenAI deal (2027) & $638B RPO questioned; Jun 23 10-K warning AI buildout pressures profitability; FY26 FCF -$23.7B; ~$40B more debt/equity FY27. Jul 9 frames $140 as technical test. Earnings already reported (no binary). Dividend ex/record Jul 10 (immaterial to perp). Analysts high PTs $245-300 mostly Buy \u2014 long-horizon bull vs falling tape; do NOT anchor a short-term long. News supports downside continuation; elevated vol/gap risk.",
+    "analyst": "15m: ground up 141.58 -> 143.72 spike (166 vol on bar 17), last two bars faded to 143.03 close. Crowded-long, overbought (1h RSI 85), weakest-in-class, hostile macro, faded off spike high = aligned side is SHORT. Disqualifiers for acting now: US cash closed (zero-vol candles, unhedgeable gap); market short at 143 is only ~1.15R to TP1 141.6 vs stop 144.2 \u2014 under 1.5R floor; learner shorts bleeding (avg_pnl -2.61). HOLD with armed short: break of 141.6 base confirms fade with momentum toward 140/137.6.",
+    "portfolio": "HOLD ORCL (conf 0.6) \u2014 short is the aligned side but thin-tape R:R sub-threshold; armed short trigger on 141.6 breakdown."
+  },
+  "timestamp": "2026-07-09T09:00:20.159834+00:00"
+}

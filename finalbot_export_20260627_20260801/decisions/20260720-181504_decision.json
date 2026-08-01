@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "NVDA/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Thin Sunday chop near VWAP 204.5-205; likely grinds 203-206 with a slight downside lean (15m rolling over, crowded longs), real repricing waits for Mon US open. A break under 203.3 opens 200/198; a reclaim of 207.8 resumes the uptrend.",
+  "expectancy_note": "No edge either side: p(win)~0.5, R:R muddy mid-range. Short is the account's losing side (47%, -0.94) and I'd be chasing a 2% drop into a bounce; long lacks a support-hold trigger. HOLD beats forcing a thin-liquidity Sunday entry.",
+  "rationale": "NVDA sits mid-range (204.76 between S198.1/R213.96) right on VWAP after a slow bleed from 207.77 to 203.34 then a weak bounce; 15m composite is short (-0.822) but 1h/4h remain long, so it is a pullback with no clean edge. US cash is CLOSED (Sunday) \u2014 marks are proxy with elevated gap risk into Mon open, and shorts have been the losing side for this book. Crowded longs (L/S 1.62) and bias -0.172 lean bearish but that is fuel, not a trigger; I want confirmation before committing. Size 0 until price picks a side.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 202.5,
+    "expires_min": 240,
+    "note": "Losing the 203.34 swing low confirms the bleed continues and sets a short toward 200/198 with crowded longs as fuel."
+  },
+  "transcript": {
+    "macro": "Environment MIXED, cautiously risk-on but event-heavy. Sun Jul 20 = US cash CLOSED; tokenized perps trade thin off-hours, marks are proxy, real repricing at Mon Jul 21 open, elevated gap risk. Funding 0.0 (uninformative); L/S + orderbook live positioning. Index momentum choppy (Fri Jul 17 Nasdaq -1% on chips then rebound, chips led bounce). Rates/USD mildly supportive (~65% Fed hold Jul 29, DXY ~100.9). US-Iran + oil weekend wildcard. NVDA: no earnings until Aug 26 (a plus) \u2014 THE chip-tape bellwether, drove both Friday's drop and the rebound; L/S 1.62 crowded long, bias -0.172, RSI 66 mid-range; best RS of group (-9.3%). Cleanest on event risk but fully exposed to semi rotation & Big Tech earnings tape.",
+    "sentiment": "Risk-on but jumpy, Big Tech earnings storm (GOOGL/TSLA Wed Jul 22, INTC Thu Jul 23); AI-capex vol next 48h; US-Iran + oil ~$90 tail. NVDA: no own catalyst until Aug 26 \u2014 no binary in-window; near-term driver is others' prints (MSFT, NVDA's largest customer, Jul 29) and this week's cloud-capex commentary; chips rebounded Monday with NVDA leading. Neutral to slightly CONSTRUCTIVE on the bounce, but exposed to AI-capex headline risk from Wed-Thu earnings.",
+    "analyst": "Mid-range (204.76 between S198.1/R213.96) on VWAP after a slow bleed 207.77->203.34 then a weak bounce; 15m short (-0.822) while 1h/4h stay long \u2014 a pullback, no clean edge. Sunday proxy marks + gap risk; shorts are the account's losing side (47%, -0.94R) and a fresh short chases a 2% drop into a bounce; long lacks a support-hold trigger. Crowded longs (L/S 1.62) are fuel, not a trigger. HOLD size 0; armed for a short on a break < 202.5.",
+    "portfolio": "HOLD NVDA \u2014 mid-range pullback on VWAP, no confirmed side; re-debate short on <202.5 break of the 203.3 low."
+  },
+  "timestamp": "2026-07-20T18:15:04.466098+00:00"
+}

@@ -1,0 +1,24 @@
+{
+  "symbol": "SOL/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.34,
+  "size": 0.0,
+  "entry": 74.66,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 74.42,
+    "expires_min": 240,
+    "note": "Losing 74.42 support on volume (with BTC breaking 61.3k) confirms the risk-off leg down and validates a short toward 71-72; a reclaim of 75.85 flips to the squeeze-bounce long."
+  },
+  "rationale": "SOL is pure BTC-beta (corr 0.79) sitting exactly on 74.42 support, deeply oversold (4h RSI 28.9, stoch 5.4, %B -0.14, -3.0% below VWAP) with a strong downtrend (ADX 59) and a crowded long book (L/S 2.52). Both sides low-EV: shorting chases into held support (the account's classic late-short loss); buying is a knife-catch with no reversal confirmation \u2014 the 74.42 low held on a 617k-volume flush but the bounce failed and the last 15m candle closed on its low. BTC (61,956) grinding toward its 61,272 support, so SOL won't lead. Wait: loss of 74.42 opens the short; reclaim of 75.85 with BTC stabilizing confirms the bounce long. Size 0.",
+  "transcript": {
+    "macro": "RISK-OFF (US-Iran/Hormuz). Crypto risk-off, BTC ~$62k, dominance rising (alts lag). Broadly oversold, crowded long. SOL: pure BTC-beta (corr 0.79), oversold and sitting on support 74.42, extreme crowded long (L/S 2.52); short only if BTC breaks $61.3k, else neutral.",
+    "sentiment": "SOL neutral/slightly constructive but crypto-beta dominated: Fear & Greed in Fear (28-29), BTC weak near $62.9k. No 48h binary (Firedancer/Alpenglow too far out); mild positives (Clearstream custody, spot SOL ETFs live). Follows BTC and the CPI risk tape more than Solana news.",
+    "analyst": "74.42 support held once on a 617k-volume flush but follow-through failed; last 15m candle closed on its low at 74.66. Short here chases into held support; long has no reversal confirmation and BTC still bleeding. No RR>=1.5 at spot. HOLD, resolve on BTC.",
+    "portfolio": "SOL: HOLD (0.34) \u2014 BTC-beta at support, no edge either way; short-trigger armed below 74.42."
+  },
+  "timestamp": "2026-07-13T18:05:24.811987+00:00"
+}

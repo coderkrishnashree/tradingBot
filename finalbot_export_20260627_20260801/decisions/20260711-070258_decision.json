@@ -1,0 +1,22 @@
+{
+  "action": "buy",
+  "symbol": "COIN/USDT:USDT",
+  "size": 3.0,
+  "entry": 160.5,
+  "stop_loss": 158.7,
+  "take_profit": 166.0,
+  "take_profit_1": 163.5,
+  "take_profit_2": 166.0,
+  "confidence": 0.58,
+  "playbook": "breakout",
+  "forecast": "Fresh 15m breakout above the 160.42 coil ceiling on 3.7x volume with price still at VWAP (not extended); expect follow-through toward the ~163.5 measured-move/swing over the next 4-8 bars, a pullback to retest 160.4 as support is the risk, then push toward 166.",
+  "expectancy_note": "p(win)~0.55, R:R 1.67 to TP1 (reward 3.0 vs risk 1.8); breakout beats mean-reversion because ADX 33 + neutral funding + buyer orderbook (+0.39) confirm expansion, and price isn't extended so it's not the account's late-chase loss pattern.",
+  "rationale": "Clean coil-then-break: 15+ bars pinned 159.4-160.4, last 3 bars broke and held 160.52 on a 3.73x volume spike, orderbook +0.39 and long/short neutral (1.077) so this is real buying, not crowded longs. Price sits exactly at VWAP with RSI 50.8 - entry is NOT extended, so an honest 1.8-wide stop below the 159.3 base survives noise while giving 3.0 to TP1 (R:R 1.67). Size held to 3% because Saturday equity underlying is closed (thin/gappy), COIN is 0.73 BTC-correlated into Tue CPI, and the account's trend book has been bleeding - modest risk on a genuine breakout, not conviction size.",
+  "transcript": {
+    "macro": "2026-07-11 (Sat): cautious risk-on/mixed. Saturday - equity underlying weekend-closed, thin. COIN best-positioned of tokenized-equity longs: long/short near neutral (1.077), structure_bias +0.093, orderbook +0.39, fresh 15m breakout (level 160.42, vol ratio 3.73). BUT highly BTC-correlated (0.73) -> essentially a leveraged BTC bet into Tue Jul 14 CPI. Lean long-biased but size down. Reduced size across board.",
+    "sentiment": "COIN neutral, no <=48h catalyst. Earnings Jul 30 (outside window). Minor: CLO Paul Grewal stepping down eff Jul 31 (not price-moving). Trades ~0.73 correlated to BTC - near-term driver is crypto beta. CRCL's USDC-renewal talk with Coinbase in August is a shared tailwind but not <=48h.",
+    "analyst": "Clean coil-then-break: 15+ bars pinned 159.4-160.4, last 3 bars broke/held 160.52 on 3.73x volume, orderbook +0.39, long/short neutral (1.077) = real buying not crowded longs. Price at VWAP, RSI 50.8 = NOT extended, so it is not the account's late-chase pattern. Honest 1.8-wide stop below the 159.3 base gives R:R 1.67 to TP1 163.5. Modest 3% size given closed weekend underlying and BTC beta into CPI.",
+    "portfolio": "BUY COIN/USDT:USDT - genuine breakout, entry at VWAP not extended; modest 3% size, TP1 163.5 / TP2 166, stop 158.7 (conf 0.58)."
+  },
+  "timestamp": "2026-07-11T07:02:58.566618+00:00"
+}

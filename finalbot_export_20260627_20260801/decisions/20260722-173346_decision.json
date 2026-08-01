@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "BTC/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.55,
+  "playbook": "range",
+  "forecast": "Mid-range chop: after rejecting 66,364 the last three 15m bars printed lower highs and closed near range-lows (65,982), likely drifting down to retest 65,550-65,600 over the next few bars; no clean edge from 65,982 mid-air.",
+  "expectancy_note": "Range 62.5k-66.9k, price mid-range at 65,982 - a short here has entry too far from resistance (stop >1.5xATR to clear 66.4k highs) and a long needs a dip to 63.8k support that isn't here; best expectancy is to wait for an extreme.",
+  "rationale": "BTC is explicitly range-bound (62.5k-66.9k) and currently mid-range at 65,982 with a fresh rejection off 66,364, 4h bearish divergence and heavy offers (orderbook -0.52) capping upside, but there is no clean level to trade against from here. Fading mid-air or chasing a long into hawkish-Fed/firm-DXY headwinds are both sub-1.5R. I hold for either a short at the 66.9k resistance test or a buy at the 63.8k-64k support dip.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 64000,
+    "expires_min": 360,
+    "note": "Losing 64k opens the lower-range support zone (63.8k/62.5k) - a flush there sets up a high-probability range-long off support with a tight stop."
+  },
+  "transcript": {
+    "macro": "Regime MIXED-to-HOSTILE, defensive. Hawkish Fed under Warsh (2026 hike risk, ~65-69% Sept-hike odds, DXY ~101, Brent >$92). Crypto risk-off: F&G 29, BTC dominance ~56-57% rising (capital hiding in BTC). GOOGL/TSLA/IBM earnings after close today. Books crowded LONG, structure_bias negative.",
+    "sentiment": "BTC neutral, event risk building but not inside 48h. June CPI soft pushed BTC ~$61.6k->$66k but follow-through faded. Real dated binary is FOMC Jul 28-29 (hold at 3.5-3.75% expected but Warsh Fed has debated a hike) - outside window. Support ~$63.8k/$62.5k, resistance ~$66.9k. Lean neutral into the Fed.",
+    "analyst": "Last 65,982.8, support 62,502 / resistance 66,937.7, RSI 63.1, ADX 44.9, VWAP +0.74%, 4h bearish divergence, orderbook -0.52 (heavy offers), structure_bias -0.233. 15m rallied to 66,364 then faded, lower highs, closed near bar low. Explicitly range-bound and mid-range - short entry too far from resistance, long needs a 63.8k dip that isn't here. Both sides sub-1.5R. HOLD; buy the support flush or short the 66.9k test.",
+    "portfolio": "BTC/USDT:USDT -> HOLD (conf 0.55): range-bound mid-range, no clean level; buy <64k flush or short 66.9k test."
+  },
+  "timestamp": "2026-07-22T17:33:46.217945+00:00"
+}

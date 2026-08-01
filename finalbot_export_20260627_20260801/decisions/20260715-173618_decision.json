@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "MSTR/USDT:USDT",
+  "confidence": 0.58,
+  "size": 0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "none",
+  "forecast": "Chop 97-99.5 near-term; 102 rejected and 4h RSI 82.6 into BTC resistance argues against chasing. Either a VWAP/95-96 pullback to buy the trend, or loss of 96.9 to start mean-reversion toward 95/90.",
+  "expectancy_note": "No edge: fresh long chases 82-RSI 4h into BTC top (account's #1 loser); short fights ADX 62 with shorts already bleeding (0.47 win, -1.59 avg). Mid-range chop = negative-EV entry either way.",
+  "rationale": "MSTR is pure BTC-beta (corr 0.735) and BTC is toppy at 65.5k resistance; the 4h is stretched (RSI 82.6, vwap +3.51%). The 15m tape rejected 102 and is chopping 97-99 with no fresh impulse and no LTF confirmation. Chasing a long here is the exact late-continuation pattern that stops out on a routine bounce-back; shorting a 62-ADX uptrend with no exhaustion signal is worse. HOLD is highest-expectancy until price either pulls back to a buyable level or breaks the range.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 100.1,
+    "expires_min": 240,
+    "note": "Reclaiming 100 above the 99.9-100.5 shelf shows buyers absorbing the overbought and reopens a momentum long toward 103.6 resistance."
+  },
+  "transcript": {
+    "macro": "Regime MIXED-to-SUPPORTIVE (soft CPI -> risk-on). BTC ~$65K 3-week high but toppy at resistance 65.5k (4h RSI 69), BTC.D ~56% slipping. MSTR (BTC proxy): RSI 82.6, ADX 62, 4h STRETCHED/very extended, L/S 1.59, btc_corr 0.735, rel-strength +6.8%. Leveraged BTC bet running hot into BTC resistance; longs are chasing, smaller size warranted.",
+    "sentiment": "MicroStrategy tone improving with BTC. BTC topped $65K (+3.5%) after soft CPI triggered ~$1.1B short-squeeze. MSTR bounced ~29% off late-June low, shrugged off selling ~3,588 BTC (~$216M) for preferred dividends; still holds ~843,775 BTC; $8.32B Q2 digital-asset loss (backward-looking). No scheduled MSTR catalyst in 48h - driver is BTC. Fear&Greed 25 (extreme fear) -> bounce within fearful tape.",
+    "analyst": "Pure BTC-beta into a toppy BTC; 4h deeply overbought (RSI 82.6), 15m rejected 102 and chops 97-99 with no fresh impulse. A long chases the account's #1 loss pattern (late continuation); a short fights ADX 62 with shorts bleeding (0.47 win, -1.59 avg). Mid-range chop = no edge. HOLD until a pullback or range break.",
+    "portfolio": "MSTR: HOLD (size 0) - overbought BTC-beta mid-range chop, conf 0.58."
+  },
+  "timestamp": "2026-07-15T17:36:18.648932+00:00"
+}

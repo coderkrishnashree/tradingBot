@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "SOL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "LTF washed (5m RSI 24.6, stoch 9.8) after a clean 15m rollover from 76.86 to 75.51; expect a dead-cat bounce toward the broken 76.0-76.3 VWAP shelf within 2-6 bars, OR a knife-through of 74.04 support if BTC rolls. Both beat a market short here.",
+  "expectancy_note": "p(win) ~0.5 on a chased short vs ~0.6 shorting the retest; entering now gives only ~1.5xATR to support 74.0 with BTC bounce risk (4h +0.9, bullish div) \u2014 negative expectancy, so wait.",
+  "rationale": "Direction is short (all TFs down, 4h -0.55, ADX 37), but LTF is oversold (5m RSI 24.6, stoch 9.8) and only ~1.3xATR from support 74.04 \u2014 this is the account's proven losing pattern (late trend-short into stretched tape, n=33 shorts avg -0.52). BTC is 0.79-correlated, near range resistance with a bullish divergence and 4h +0.9, so a counter-bounce that stops a chased short is the base case. Best expectancy is to wait for either a bounce into the 76.2 VWAP retest to short with an honest stop above 76.86, or a clean break of 74.04 to short confirmed momentum. No size until one triggers.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 76.2,
+    "expires_min": 240,
+    "note": "A bounce to the broken 76.0-76.3 VWAP shelf gives a clean short entry with a stop above the 76.86 swing high and target back to 74.0 \u2014 the R:R the current chased entry lacks."
+  },
+  "transcript": {
+    "macro": "REGIME mixed, tilting risk-off. BTC 3-week high ~$64.7-65k (range resistance). Crypto F&G 26 (Fear), BTC dominance ~56-60%. SOL: LEAN SHORT \u2014 last 75.5, all TFs down (4h -0.55), stoch washed 9.8, high BTC corr 0.79 (BTC-beta). Short into support 74.0 reasonable but crowded (L/S 2.65); BTC bounce is the risk.",
+    "sentiment": "SOL (Solana): mildly bearish/heavy, no <=48h binary. Below $79-85 supply zone on lowest 2026 volume. Catalysts constructive but multi-week (MS SOL ETF filing, Grayscale fee cuts, Alpenglow Q3). No unlock cliff this window. Follows BTC (corr 0.79). News neutral-to-slightly-supportive of long / doesn't obstruct a short given weak tape.",
+    "analyst": "SOL clean 15m rollover 76.86->75.51, all TFs down, 4h -0.55, ADX 37 = real trend. BUT LTF oversold: 5m RSI 24.6, 15m 31.6, stoch 9.8; only ~1.3xATR from support 74.04. Chasing a short = account's losing pattern. BTC corr 0.79, near range top with bullish div / 4h +0.9 = counter-bounce risk. HOLD; reconsider on bounce to 76.2 VWAP retest for clean short R:R.",
+    "portfolio": "SOL: HOLD (0.50) \u2014 right direction (short) but LTF washed into nearby support; wait for 76.2 retest, don't chase."
+  },
+  "timestamp": "2026-07-16T18:08:38.357102+00:00"
+}

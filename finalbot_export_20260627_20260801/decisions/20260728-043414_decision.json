@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "CL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.58,
+  "playbook": "none",
+  "forecast": "Snapback in motion off the 80.74 low: price grinds up toward the 82.3-83.0 supply shelf (prior rejection zone / broken support) over the next 2-6 bars before the dominant downtrend can reassert; shorting here at 81.7 with 4h RSI 21.9 mid-bounce gets stopped by that same bounce.",
+  "expectancy_note": "Direction is down but entry timing is wrong: p(win) on a market short here ~40% (account's 55 shorts = 44% win, -1.02R avg, all late-into-stretched-tape). Waiting to fade the bounce at 82.6-83 flips R:R to ~2:1 with stop above the shelf; HOLD beats chasing.",
+  "rationale": "WTI is in a decisive news-driven downtrend (ADX 74.8) but 4h RSI 21.9, VWAP dist -3.74% and a live 5m bounce (score +0.878, RSI 68) show price is extended and snapping back off 80.74 right now. Market-shorting into this is the exact pattern that has bled this account (late shorts stopped by the counter-bounce), and FOMC Wed + high Iran/Hormuz headline sensitivity make a mid-bounce short doubly risky. I want the short on a retest of the 82.6-83.0 supply shelf where I can place a tight stop above structure and target back toward 79.65 support for real R:R.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 82.6,
+    "expires_min": 240,
+    "note": "Reclaiming 82.6 completes the bounce into the broken-support/supply shelf \u2014 the level to sell the downtrend from with a stop above 83.4 and target 79.65, giving honest R:R instead of chasing at 81.7."
+  },
+  "transcript": {
+    "macro": "Cycle 2026-07-28 MIXED-to-HOSTILE; FOMC Wed 07/29 inside 48h. WTI in a sharp geopolitical unwind (~$84, -5% on day) as US-Iran diplomacy drains war-risk premium + inventory build. Trend decisively DOWN (scan blended -0.279, ADX 74.8, 4h RSI 21.9, at support 79.65; funding 0, L/S 0.94, structure neutral = clean macro-momentum short, not a positioning trap). Caveats inside 48h: API inventory, OPEC, US Q2 GDP, FOMC whipsaw; RSI ~22 = oversold, snapback risk. atr 1.85% => wide stops. SUPPORTIVE for short but smaller size / wide stops.",
+    "sentiment": "CL fresh shock: WTI -8.7% to ~$82.6 ~07/27 as Mideast risk premium unwound (US paused Iran strikes; Tehran halted retaliation, Hormuz talks). Had spiked >$92 days earlier => very wide/whippy range. OPEC+ ~Tue Aug 4 next scheduled binary (already +188k b/d Aug hike; Saudi/Russia prioritize stability). Weekly EIA inventory recurring. Bearish near-term but TWO-SIDED; highest headline sensitivity of the three.",
+    "analyst": "Decisive news-driven downtrend (ADX 74.8) but 4h RSI 21.9, VWAP -3.74% and a live 5m bounce (score +0.878, RSI 68) = price extended and snapping back off 80.74 NOW. Market-shorting mid-bounce is the account's #1 bleed pattern (55 shorts, 44% win, -1.02R). FOMC Wed + Iran/Hormuz headline risk compound it. HOLD; arm a retest short at 82.6-83.0 supply shelf (stop >83.4, target 79.65) for honest ~2:1 R:R.",
+    "portfolio": "CL: HOLD (conf 0.58) \u2014 downtrend intact but oversold mid-bounce; fade the retest at 82.6, don't chase at 81.7."
+  },
+  "timestamp": "2026-07-28T04:34:14.110576+00:00"
+}

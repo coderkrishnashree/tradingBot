@@ -179,6 +179,25 @@ DEFAULT_TRADING_CONFIG = {
     # Feedback loop: blend the win-probability learned from this account's own
     # closed trades into scanner confidence (needs 30+ closed trades).
     "adaptive_weights": True,
+    # --- 2026-08 profitability fixes (from the Jun-Jul losing-month analysis:
+    # shorts -65 USDT @42% WR vs longs +32 @62%; oversold shorts -24; US-open
+    # fast stop-outs -79; fees 19 of the 32.6 net loss) ---------------------
+    # Asymmetric short gate: shorts need MORE conviction than longs, and we
+    # never short an already-oversold tape (that's where the snap-backs bit).
+    "short_min_ai_conf": 0.70,   # AI confidence floor for SHORT entries. 0 = off
+    "short_min_rsi": 40.0,       # block shorts when ref-TF RSI is below this. 0 = off
+    "short_symbol_blocklist": ["MSTR/USDT:USDT"],  # shorts only; longs still allowed
+    # Learner direction veto: when THIS account's record for a direction is
+    # provably negative (enough samples, sub-50% WR, negative avg), block that
+    # direction unless the AI is exceptionally confident.
+    "learner_direction_veto": True,
+    "learner_veto_min_n": 20,
+    "learner_veto_wr": 0.50,
+    "learner_veto_override_conf": 0.75,
+    # US-open blackout: no FRESH entries during the open-bell volatility window
+    # (UTC). Closes/exits are never blocked. Pure-crypto pairs are exempt.
+    "entry_blackout_utc": "13:00-14:30",
+    "blackout_exempt": ["BTC/USDT:USDT", "SOL/USDT:USDT"],
 }
 
 

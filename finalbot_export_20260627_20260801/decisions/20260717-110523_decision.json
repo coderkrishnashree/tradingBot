@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "TSLA/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price is coiling on 382.84 support after a stretched selloff (4h RSI 6.3, %B below lower band, 5m turning up); expect a chop/relief drift toward 388-390 over the next 2-6 bars unless 382.84 gives way, in which case a fresh leg to ~378 opens.",
+  "expectancy_note": "Both directions are low-edge: shorting an RSI-6.3 4h with support 0.6% below is chasing (bounce stops me first); a long is a knife-catch against a risk-off tech tape into 7/22 earnings gap risk. HOLD beats both until the coil resolves.",
+  "rationale": "TSLA is extremely oversold (4h RSI 6.3, 1h 21.7, %B -0.04) and basing just above 382.84 support with 5m momentum ticking up \u2014 the classic 'do not chase the short' setup, and the account's #1 loss pattern is late shorts into stretched tape getting bounced. A long is equally poor: intact downtrend, RISK-OFF chip-led deleveraging, and Q2 earnings 7/22 (5d out) add overnight gap risk with a crowded-long (1.76) squeeze wildcard. No entry offers R:R >= 1.5 with an honest stop, so I wait for the coil to break.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 382.84,
+    "expires_min": 240,
+    "note": "Losing 382.84 support on a 15m close resolves the coil downward and re-arms a with-trend short toward ~378, now with structure behind the entry rather than a stretched knife-catch."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF, tech-led. 7/16 close: S&P -0.51% (7,534), Nasdaq -1.47% (25,882); chips dumped on TSMC capex + Alphabet AI-delay. Macro backdrop friendly (June CPI 3.5%/2.6% core, 2y 4.19%, DXY ~100.6, July Fed hike odds ~12%) but price action is growth-stock deleveraging. Tape NOT supportive of fresh longs; shorts favored near-term. TSLA: structure_bias -0.277, long_short 1.76 (crowded long), 4h RSI 6.3 extremely oversold, low BTC-corr (0.24). Downtrend intact but stretched. Earnings 7/22 after close (5d out) = overnight/multi-day gap risk; record Q2 deliveries (480k) a latent squeeze catalyst. Smaller size, prefer intraday over multi-day holds.",
+    "sentiment": "TSLA MIXED, leaning event-risk/short-term bearish. Dominant catalyst: Q2 earnings after close Wed 7/22 (~5d out, just beyond 48h) \u2014 whole tape positioning around it, coiling into it. Deliveries known & strong (480,126 vs ~406k consensus, +25% y/y) so beat priced; 7/22 now a pure margin story (~$0.52 EPS, watch auto GM ~19%). Options imply large post-print move. Fresh 48h risk mildly negative: 7/16 NHTSA rejected Tesla headlight-recall exemption (~20k vehicles), robotaxi safety fixes pressed by month-end, possible NJ sensor bill. Down ~12% YTD, range near $400/$385, no clean pre-earnings catalyst. Net: no clean <=48h directional catalyst; pre-earnings drift into 7/22 binary \u2014 caution/tight risk.",
+    "analyst": "TSLA at 385.12, support 382.84, resistance 413.44. 15m coiling/basing just above 382.84 with a mild higher-low near 384-385; 5m turning up (score +0.292). 4h RSI 6.3 (extremely oversold), 1h RSI 21.7, ADX 23.7 weakening, %B -0.041, stoch 9.4, VWAP dist -2.88%, ATR 1.12%. long_short 1.758 (crowded long), funding barely positive, orderbook near neutral. Textbook 'extended down, do not chase the short' \u2014 shorting at 385 with support 0.6% below is terrible R:R and the book's #1 loss pattern. Mean-reversion long is a knife-catch against a risk-off tech tape with 7/22 gap risk. No R:R >= 1.5 entry with an honest stop, so HOLD; watch 382.84 break (re-arm short to ~378) vs reclaim ~388-389 (bounce confirmed).",
+    "portfolio": "HOLD TSLA/USDT:USDT \u2014 no honest 1.5R entry; stretched oversold coil into 7/22 earnings gap risk. Reconsider on 15m close below 382.84."
+  },
+  "timestamp": "2026-07-17T11:05:23.523081+00:00"
+}

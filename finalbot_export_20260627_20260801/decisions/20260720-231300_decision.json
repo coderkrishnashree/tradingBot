@@ -1,0 +1,23 @@
+{
+  "symbol": "QQQ/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.55,
+  "size": 0.0,
+  "entry": 696.0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "rationale": "Account's #1 loss pattern: a late short into stretched-oversold tape (30m RSI 16.8, stoch 15) with the book bid-heavy (structure_bias +0.118), crowd already short (L/S 0.806), and the last candle closing at its range high \u2014 a routine counter-bounce would hit any honest stop before the trend resumes. US cash market is CLOSED, so this thin/gappy tape offers no confirmation and carries Iran overnight gap risk. No long either: macro hostile to fresh risk-on, price mid-band (%B 0.41), not a buyable extreme. Wait for a bounce to sell into (~699 VWAP) or a clean breakdown below 688.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 688.0,
+    "expires_min": 240,
+    "note": "Losing the 688 swing support confirms a real breakdown rather than an oversold flush, turning the short into a with-trend continuation worth taking."
+  },
+  "transcript": {
+    "macro": "2026-07-20, mixed-to-hostile for fresh risk-on longs; environment favors short/fade side. Broad tape mildly risk-off, headline-driven (US-Iran escalation = live overnight gap risk). US CASH EQUITY MARKET CLOSED \u2014 tokenized perps thin/gappy off Friday close. Fed ~60%+ odds of Sept HIKE, corrective/range tape. Crypto risk-off: BTC ~$64.2k, dominance ~56.4%, F&G 29. No FOMC/CPI in 48h. Alphabet+Tesla earnings Wed Jul 22 open Mag-7; QQQ sits under that first AI-trade test. QQQ short is a fade-into-oversold with structure (bias +0.118) mildly against it; reduced size advised.",
+    "sentiment": "QQQ neutral-to-cautious next 24-48h. No single-name binary hits QQQ today. Chip rebound off bear-market low gives selective support but Iran overhang caps upside. Tilts to 'wait for Wednesday'. Near-term news does not contradict the scan's technical short.",
+    "analyst": "Snapshot: last 696.0, stoch 15.2, RSI 51, ADX 32.5, %B 0.41 (mid-band, not extreme), VWAP dist -0.44%. 30m RSI 16.8 / 15m RSI 30.6 deeply oversold; 5m score +0.595 ticking up; last bar closed at its high (694.7 low -> 696.0) = oversold-bounce setup, not fresh breakdown. Learner: shorts 0.48 win / -0.73 avg (bleeding); structure_bias weight -0.328 and RS weight -0.473 both penalize this short (RS already -15.4, mean-reverts); p_win_learned 0.475. Short expectancy poor, long is a knife-catch against hostile macro into a closed/gappy tape. HOLD is highest-expectancy: short a bounce into ~699 VWAP or a confirmed break of 688.",
+    "portfolio": "QQQ \u2014 HOLD (conf 0.55, size 0): no honest entry beats waiting; arm short on break of 688 or bounce to 699."
+  },
+  "timestamp": "2026-07-20T23:13:00.487955+00:00"
+}

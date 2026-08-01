@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "SNDK/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.55,
+  "playbook": "none",
+  "forecast": "Price just cratered to 1389.73 close 1394.81 on the largest down-volume bar with 5m RSI at 12.6 \u2014 an oversold flush. Expect a dead-cat bounce toward broken support/VWAP 1409-1422 over the next 2-4 bars; that failed retest is the sell-the-rip short, not this stretched low.",
+  "expectancy_note": "Market-shorting a 5m-RSI-12.6 flush into a +0.80 bid-heavy book is the account's proven loser (shorts 0.48 win, -0.73 avg). Better EV: wait for the bounce to 1410-1415 to short the rip with a tight stop above 1422, or skip.",
+  "rationale": "SNDK is the weakest name in the book (rel strength -49%) in a sell-the-rip semis regime, so the bias is short \u2014 but the last bar is a capitulation candle into oversold 5m, exactly the spot where a counter-bounce hits any honest short stop. No long either: 4h MACD rolling negative, bearish divergence, below VWAP. HOLD for the retest; a bounce into 1410-1422 that fails is the actionable short, a reclaim above 1422 flips the near-term read to neutral/bullish.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 1410,
+    "expires_min": 180,
+    "note": "A bounce back to broken support/VWAP ~1410 is the sell-the-rip retest where a fresh short becomes actionable (fade the rally, stop above 1422)."
+  },
+  "transcript": {
+    "macro": "Regime MIXED-to-RISK-OFF, semis-led drawdown. SOX -20% from June peak; memory (MU/SNDK) dragged toward bear market. Semis sell-the-rip, rallies suspect. FOMC 7/28-29 (~63% hold, 37% HIKE). Funding flat; long/short lopsidedly long desk-wide => contrarian-bearish. Favor selective shorts/fades over fresh longs; reduce size.",
+    "sentiment": "SNDK earnings Aug 5 (no 48h binary). Very strong fundamentals (Q3 rev +251% YoY, NAND supply tightness), Goldman PT hike to $2,200 \u2014 constructive but long-horizon; no near-term catalyst. High corr to MU (0.86). Memory in sector-wide drawdown despite strong fundamentals.",
+    "analyst": "Weakest name (RS -49%) in sell-the-rip semis = short bias, but last bar is a capitulation candle into 5m RSI 12.6 with bid-heavy book (+0.80) \u2014 market short = account's #1 loser. No long (4h MACD negative, bearish divergence, below VWAP). Wait for bounce to 1410-1422 that fails to short the rip.",
+    "portfolio": "SNDK: HOLD (conf 0.55) \u2014 weakest name but flushed oversold; short the failed retest ~1410."
+  },
+  "timestamp": "2026-07-20T19:17:00.928441+00:00"
+}

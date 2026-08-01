@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "MU/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Momentum fading at the highs: last 3 bars rolled from 922.85 back to 915.92 (close near low). Expect a pullback toward the 899-901 support shelf / VWAP over the next few bars; no clean close-in long entry exists up here and no divergence to justify shorting ADX-87 tape.",
+  "expectancy_note": "Chasing long at +4.35% VWAP / RSI 77 / %b 1.01 fails the extension checks (account's #1 loss); shorting an 87-ADX uptrend with flat funding is fighting the trend. HOLD is highest expectancy until a pullback offers 1.5R+.",
+  "rationale": "MU is a strong but massively extended uptrend (RSI 77.4, stoch 91, price 4.35% above VWAP, %b 1.01, worst rel-strength vs BTC at -23%, L/S crowded 2.06). A market long here is a textbook late-cycle chase that a routine counter-bounce would stop out; there is no close-in structural entry and no bearish divergence to fade the top. The high-expectancy play is to wait for a pullback into the 899-901 shelf where a long gets a tight stop and 1.5R+ to the 922/1006 highs. Size 0.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 901.0,
+    "expires_min": 240,
+    "note": "A dip into the 899-901 support shelf resets the extension and offers a tight-stop trend-continuation long with real R:R; re-debate on the tag."
+  },
+  "transcript": {
+    "macro": "Regime MIXED/risk-off; hawkish Fed tilt caps high-beta tech; crowded-long, thin/gappy. MU macro: supportive momentum long but overextended \u2014 rode chip rebound, ADX 87, but RSI 77, +4.35% above VWAP, %b 1.01, worst rel-strength vs BTC (-23%), L/S 2.06 crowded. Trend real but late-cycle; smaller size.",
+    "sentiment": "MU bullish, no <48h binary. Already reported (fiscal Q3 May 29); Q4 guided strong (~$11.2B rev, ~$3.50 EPS, 42% GM), HBM sold out through 2026-27, ~$100B contracts. Best fundamental story but massively extended (+211%/90d). Momentum only; blowoff/mean-reversion is the real danger.",
+    "analyst": "Strong ADX-87 uptrend but every extension check is red (RSI 77, stoch 91, +4.35% VWAP, %b 1.01). Market long = textbook late-cycle chase; no bearish divergence to fade the top. Wait for a pullback into the 899-901 shelf for a tight-stop continuation long with 1.5R+. HOLD, size 0.",
+    "portfolio": "HOLD MU \u2014 great story, too extended to chase; buy the 899-901 pullback, conf 0.6."
+  },
+  "timestamp": "2026-07-21T09:02:20.975497+00:00"
+}

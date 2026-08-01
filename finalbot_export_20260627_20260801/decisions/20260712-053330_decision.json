@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "MU/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.4,
+  "playbook": "none",
+  "forecast": "Price is coiling in a tight 976-980 base with drying volume and higher-lows just under VWAP (~985); next few bars likely chop 977-982 until it either loses 976 (momentum short to 970) or reclaims 985+ VWAP (higher-lows resolve up). No clean edge until it picks a side.",
+  "expectancy_note": "Short signal is misaligned (align 0.8) and weak (42%), RSI already 38 with tape basing on higher-lows \u2014 shorting here is the account's proven loser (late short into a bounce, ~1.5-2R stop over ATR 14.8). No long: mids bearish, worst laggard, CPI Tue. Best expectancy = wait for the break.",
+  "rationale": "MU shows a real conflict: bullish long-term story but a stale, non-aligned short composite against a tape that is quietly basing with higher-lows into VWAP. RSI (38) leaves no room to short and no confirmation to long, so any entry needs a >1.5xATR stop that kills R:R. With CPI Tuesday and a thin weekend, the highest-expectancy action is to hold and let the 976-985 range resolve before committing size.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 976.0,
+    "expires_min": 240,
+    "note": "Losing the 976 base breaks the higher-low coil and confirms the offered book wins \u2014 arms a momentum short toward 970/support."
+  },
+  "transcript": {
+    "macro": "Equities risk-ON but wobbly, mid-week chip rout. June CPI Tue Jul 14 \u2014 trim size; weekend thin/gappy tape. MU: tokenized equity, standout fundamental story (HBM sold out through 2027, +68% YTD, $1T cap, record Q3), BUT scan short (-0.49) NOT aligned, rel-strength -16.17% (worst laggard = near-term pullback consistent with chip rout), orderbook -0.58 heavily offered. Near-term mixed-to-bearish tactically; the -16% is a pause in an 8x run, not a top.",
+    "sentiment": "MU: Bullish fundamentally but catalyst already spent. Record fiscal Q3 (revenue beat, HBM sold out through 2027, ~$50B next-qtr guide, Anthropic partnership) \u2014 print was late June, already in price. No <=48h binary; minor short-lawsuit overhang. Treat MU as mean-reverting off an exhausted catalyst \u2014 no 48h directional edge.",
+    "analyst": "HOLD. Conflict: bullish story vs a stale, non-aligned (align 0.8), weak-42% short composite against a tape basing with higher-lows into VWAP. RSI 38 leaves no room to short and no confirmation to long; any honest stop over ATR 14.8 kills R:R. CPI Tue + thin weekend. Let the 976-985 range resolve; arm a momentum short below 976.",
+    "portfolio": "MU \u2014 HOLD (conf 0.40): stale short vs a basing tape, no clean edge; re-debate a short on a break below 976."
+  },
+  "timestamp": "2026-07-12T05:33:30.833311+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "SOL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.58,
+  "playbook": "none",
+  "forecast": "Doji at 74.81 on dead volume after a heavy-volume flush to 74.62 = short-term exhaustion; expect a relief bounce toward the 75.2 shelf / VWAP ~76.2 over the next 2-6 bars before the downtrend resumes. Market-shorting 74.81 (RSI-28 on 4h, support 73.3 only 1.9% below) invites the bounce that stops late shorts.",
+  "expectancy_note": "Direction is short (risk-off, crowded 2.79 L/S, weak RS) but entry is mid-air near support and oversold; shorts have bled (n=36, win 0.47, avg -0.87). Best EV = wait for a bounce to VWAP to short, or a clean break of 73.3 \u2014 both beat chasing 74.81.",
+  "rationale": "SOL is a high-beta BTC laggard in a risk-off tape, and the composite says short, but price sits only 1.9% above support 73.3 with 4h RSI 28.6 and a doji forming at the lows on dying volume \u2014 the textbook 'late short stopped by the bounce' that this account keeps losing on. I want to short strength into VWAP ~76.0-76.3 or a decisive loss of 73.3, not chase here. Holding with both triggers armed is the higher-expectancy play; no valid 1.5R market entry exists at 74.81.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 73.3,
+    "expires_min": 240,
+    "note": "Losing support 73.3 confirms the downtrend continuation and opens a clean short with a defined stop back above the level; a bounce to ~76 would instead offer the preferred fade entry."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF, semiconductor-led equity selloff. Fri 7/17: Nasdaq -1.40%, S&P -1.02%. Fed funds 3.50-3.75%, soft June CPI, next FOMC 7/28-29. Crypto risk-off: BTC ~$63.9k -1.0%, Fear&Greed 27 (fear), BTC dominance 56.3% (elevated, alts bleeding). SOL is the only genuinely BTC-correlated name here (btc_corr 0.79) and BTC is soft; SOL short composite (-0.60) is a crowded-long contrarian read (L/S 2.79, funding flat, 4h RSI 28.6). Direction supports short but oversold \u2014 favor fading strength over chasing lows.",
+    "sentiment": "SOL (~$74.8): constructive crypto catalysts, no hard <=48h binary. Staking-enabled Solana ETF filed Jul 16, Grayscale fee cuts, 300k RWA holders; Alpenglow upgrade Q3. ETF approval possibly 'as soon as July' \u2014 live but unscheduled catalyst = headline/bounce risk to a short. Crypto sentiment Neutral.",
+    "analyst": "Doji at 74.81 on dead volume after a heavy-volume flush to 74.62 = exhaustion at the lows. RSI 4h 28.6, ADX 45.9 (strong but stretched), vwap_dist -1.86%, support 73.3 only 1.9% below. Learner: shorts n=36, win 0.47, avg_pnl -0.87 (losing). Market-shorting mid-air near support into oversold is the account's #1 loss pattern. No long (falling knife vs risk-off). Best EV = wait to fade a bounce to VWAP ~76 or short a clean break of 73.3.",
+    "portfolio": "HOLD SOL \u2014 short bias but oversold mid-air near 73.3 support; wait to fade a bounce to ~76 or a break of 73.3."
+  },
+  "timestamp": "2026-07-18T10:10:00.737292+00:00"
+}

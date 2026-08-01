@@ -1,0 +1,24 @@
+{
+  "action": "hold",
+  "symbol": "AAPL/USDT:USDT",
+  "size": 0.0,
+  "entry": null,
+  "stop_loss": null,
+  "take_profit": null,
+  "confidence": 0.55,
+  "playbook": "trend",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 314.05,
+    "expires_min": 240,
+    "note": "A hold above resistance 314.05 confirms breakout continuation and turns the extended read into a valid trend-long entry."
+  },
+  "rationale": "AAPL is the strongest relative-strength name with a genuine, non-BTC-beta uptrend and neutral/uncrowded structure - the bias is clearly long, but not at this price. Price sits directly on resistance 314.05 with bb %B 0.993, stoch 88.4 and +1.11% above VWAP: entering now buys the top of the band into a hard level, and thin overnight liquidity plus Wed FOMC minutes add wick/gap risk. Best expectancy is to wait for a clean break-and-hold above 314.05 (trend confirmation) or a pullback toward VWAP ~309.5 for a cheaper long. Do not short a leader in a risk-on tape.",
+  "transcript": {
+    "macro": "Regime RISK-ON, tech-led (Jul 6 records; AAPL a named leader in the rally). AAPL SUPPORTIVE for longs but extended: long/short 1.017 (balanced, NOT crowded), funding flat 0.0, orderbook +0.092 -> structure_bias ~neutral +0.022. Momentum strong/aligned: RSI 67.7, ADX 46.9, all TFs long, rel-strength +6.89% (leading on its own). Price 313 pinned at resistance 314.05, bb_pctb 0.99, stoch 88 -> stretched. Earnings Jul 30 (out of window). FOMC minutes Wed Jul 8 = 48h wildcard; perps thin overnight.",
+    "sentiment": "AAPL modestly constructive, NO imminent binary, but extended. WWDC26 delivered well-received Siri AI / Apple Intelligence overhaul + multi-year Google Gemini partnership; last print Apr 30 strong (+17% rev). Earnings Jul 30 = no in-window risk. Scan has AAPL as long but richly extended (RSI 67.7, stoch 88, %B ~0.99, at resistance 314). Risk is a technical pullback, not a news shock. Neutral-to-slightly-supportive.",
+    "analyst": "Strongest RS name with a genuine, non-BTC-beta uptrend (ADX 46.9, RS +6.89%) and neutral/uncrowded structure - bias clearly long, but not here. Price pinned AT resistance 314.05 with %B 0.99, stoch 88, +1.11% above VWAP: entering now buys the band top into a hard level; thin overnight tape + FOMC minutes add wick/gap risk. High-expectancy entry is a break-and-hold above 314.05 (continuation) or a pullback toward VWAP ~309.5. Do not short a leader in a risk-on tape. Reconsider on a hold above 314.05.",
+    "portfolio": "HOLD AAPL/USDT:USDT - long bias is right but price is extended at resistance; wait for breakout above 314.05 or a VWAP pullback. Confidence 0.55."
+  },
+  "timestamp": "2026-07-07T01:11:52.012128+00:00"
+}

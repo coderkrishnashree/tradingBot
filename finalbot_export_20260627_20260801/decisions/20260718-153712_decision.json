@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "MSTR/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price stays pinned 94.9-95.5, coiling dead-center of the 90-102 range at VWAP; no directional resolution likely on thin weekend flow over the next several bars.",
+  "expectancy_note": "No edge: price mid-range at VWAP, %B 0.51, RSI 44.7, ADX 26 near chop. Any long here is BTC-beta (0.71 corr) into extreme-fear soft BTC; R:R undefined with no level to lean on. HOLD is the highest-expectancy option.",
+  "rationale": "MSTR is coiling 94.9-95.5, dead-center of its 89.95-102.0 range, at VWAP with neutral RSI and %B - no structural level to enter against and no next-candle forecast. It is 0.71 correlated to a soft, extreme-fear BTC on a Saturday with US cash markets closed (thin, gappy, no price discovery). The learner flags aligned + positive-rel-strength longs (structure_bias/rel_strength/aligned all negative weights) and high-ADX trades as recent losers. Only positive rel-strength (+8.6%) is not enough to force a chase mid-range; wait for a real level.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 96.0,
+    "expires_min": 240,
+    "note": "Clean break above the 95.44-95.47 rejection shelf toward resistance 102 would confirm the long tag has momentum rather than chop; re-debate for a trend-continuation long."
+  },
+  "transcript": {
+    "macro": "RISK-OFF/MIXED. Saturday 2026-07-18 - US cash markets closed until Mon Jul 21; tokenized-equity perps thin, gappy, weekend gap/liquidation risk. Fri equity close weak (S&P -1.01%, Nasdaq -1.4%). BTC ~$62.9k soft, down on the day. Funding ~0. MSTR: least-bad LONG candidate but small - only name with positive RS (+8.6% vs BTC) and positive blended momentum (+0.26, 30m/1h/4h all up), BUT 0.71 corr to a soft BTC = BTC-beta not idiosyncratic strength. Overhang: earnings Jul 30, stock -44% since last report. Tolerates a small tactical long, not size.",
+    "sentiment": "MSTR: RISK-EVENT PENDING, crypto-beta bearish. Earnings Jul 30 (outside 48h). Leveraged BTC proxy (0.71 corr); BTC soft & sentiment bad - BTC ~$64k down on week, crypto Fear & Greed 25 (Extreme Fear) Jul 17-18 = the real <=48h driver, argues bearish/neutral. Mild idiosyncratic support: Digital Credit Capital Framework authorizing up to $1B buybacks + Jul 10 pop (longer-horizon, not 48h). Net: extreme fear + no MSTR binary inside 48h = bearish-to-neutral; scan's long tag fights a weak BTC tape.",
+    "analyst": "MSTR/USDT last 95.28. Composite long, blended +0.256, aligned, conf 35%, p_win_learned 0.436, ADX 26.1 (barely trend). RSI 44.7 neutral, %B 0.509 mid, VWAP dist -0.23%, stoch 80. Support 89.95, resistance 102.0. Funding 0, long/short 1.177, OB +0.03, structure_bias -0.045 neutral. btc_corr 0.711, RS +8.61%. 15m coiling 95.0-95.47 = chop, not a timeable trend. Learner penalizes exactly this aligned + positive-RS long profile and high-ADX trades. BTC-beta into extreme-fear tape on a closed-market weekend; price mid-range at VWAP = no edge. HOLD.",
+    "portfolio": "MSTR - HOLD (conf 0.6): BTC-beta chop mid-range into extreme-fear BTC; long only on a clean break above 96.0."
+  },
+  "timestamp": "2026-07-18T15:37:12.141491+00:00"
+}

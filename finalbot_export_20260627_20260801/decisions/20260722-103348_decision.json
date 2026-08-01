@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "ORCL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.28,
+  "playbook": "none",
+  "forecast": "Choppy ~1% oscillation between 126.3 and 127.6 over the next few bars; the 126.36 bounce is weak and likely fades back toward 126.5-127.0 with no clean directional resolution inside the window.",
+  "expectancy_note": "No edge: ADX 9.7 (dead), mid-range, stoch 80.8 stretched on a nothing bounce; any mid-range short is the account's proven losing pattern (shorts 0.45 win, -1.21 avg) and no honest long structure exists. p(win) on a forced entry <0.45, R:R <1.5. HOLD is highest expectancy.",
+  "rationale": "ORCL is dead chop (ADX 9.7, composite 1.1%, regime_blocked) mid-range between support 120.36 and resistance 135.53, price wiggling 126.3-127.6. Crowd is heavily long (L/S 2.66) into an ugly downtrend narrative (52-wk lows, S&P downgrade), so longs lack structure and a fresh short into a stretched-stoch bounce is exactly how this book's late shorts get stopped. No R:R>=1.5 setup exists; size 0.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 126.36,
+    "expires_min": 240,
+    "note": "Losing the session low breaks the weak bounce and confirms the bearish down-leg resuming, opening a cleaner short toward 124-120 with structure behind the stop."
+  },
+  "transcript": {
+    "macro": "ORCL: no imminent catalyst, constructive AI-cloud narrative but positioning crowded \u2014 L/S 2.66, structure_bias -0.286, ADX 9.7 (NO trend, chop), stoch 80.8 stretched. Environment neutral-to-soft, nothing pulling it. Lowest blended confidence in the scan (~1.1%). Tokenized equity: thin/gappy outside US hours, trade inside US cash hours only. Regime MIXED-hostile for fresh longs.",
+    "sentiment": "ORCL bearish. Ugly tape: fresh 52-week lows mid-July (~$126, down ~42% y/y, ~59% off highs). $638B AI backlog being discounted over cash-flow/debt concerns; S&P downgraded to BBB-, ~$24B cash shortfall vs ~$70B FY27 capex plan. No imminent earnings in 48h (next report Sept) \u2014 trades on sentiment/momentum, which is negative. Low BTC corr (~0.10). Watch relief bounces off $140/$126 but narrative + rating pressure argue against longs.",
+    "analyst": "Dead chop (ADX 9.7, composite 1.1%, regime_blocked) mid-range 126.3-127.6 between 120.36/135.53. Crowd heavily long (L/S 2.66) into an ugly downtrend narrative, so longs lack structure; a fresh short into a stretched-stoch (80.8) bounce is exactly how this book's late shorts get stopped (shorts 0.45 win, -1.21 avg). No R:R>=1.5 setup.",
+    "portfolio": "HOLD ORCL \u2014 dead chop, weakest horse, no honest setup; flat until 126.36 breaks."
+  },
+  "timestamp": "2026-07-22T10:33:48.030171+00:00"
+}

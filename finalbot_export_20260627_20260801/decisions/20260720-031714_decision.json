@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "GOOGL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.7,
+  "playbook": "none",
+  "forecast": "Price stays pinned in the 347.9-349.5 coil at VWAP over the next several bars on drying volume; no clean directional move until the range breaks or the 7/22 earnings binary resolves it.",
+  "expectancy_note": "No edge: composite weak/unaligned (0.209), ATR only 0.36% with drying volume, no nearby level to trade, and a ~48h earnings binary caps any swing - HOLD has the best expectancy vs a low-conviction chop entry.",
+  "rationale": "GOOGL is coiling flat right at VWAP (348.4-349.5) with tiny ATR, drying volume, a bearish divergence and elevated stoch (78) - no clean setup either way. The composite is a muddy 0.209 and NOT aligned (15m short vs 30m-4h long), structure is negative with crowded-long funding, and macro is risk-off rotation out of big-tech. Decisively, Q2 earnings hit Wed 7/22 (~48h) and sentiment says do not hold into the print; entering a swing now buys event risk with no directional edge, so flat is highest-EV.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 347.9,
+    "expires_min": 240,
+    "note": "Losing the coil low with the 15m already short would confirm a downside resolution ahead of earnings, opening a short toward support 341.86."
+  },
+  "transcript": {
+    "macro": "MIXED-to-CAUTIOUS. US equities risk-off; rotation OUT of big-tech. FOMC 7/28-29 overhang. Scan shows GOOGL long composite but short_ok False with negative structure. Equity pairs face gap risk at US open (thin overnight book, low-conviction structure).",
+    "sentiment": "GOOGL BINARY - Q2 2026 earnings Wed 7/22 (~4:30pm ET), ~2 days out (same night as TSLA). AI/Search momentum the focus; EU/UK/AdX antitrust background. Do NOT hold into the print. Event risk = the story.",
+    "analyst": "Coiling flat at VWAP 347.9-349.5 with tiny ATR (0.36%), drying volume, bearish divergence, stoch 78. Composite muddy 0.209 and NOT aligned (15m short vs 30m-4h long); structure negative with crowded-long funding. No nearby level to trade (support 342, resistance 380 both far). Q2 earnings ~48h out and sentiment says do not hold into the print. HOLD; losing 347.9 opens a short toward 341.86.",
+    "portfolio": "HOLD GOOGL - low-conviction coil at VWAP with a ~48h earnings binary; flat is highest-EV (conf 0.7)."
+  },
+  "timestamp": "2026-07-20T03:17:14.118367+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "TSLA/USDT:USDT",
+  "size": 0.0,
+  "entry": 381.92,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Thin Sunday tape chops between support 377.78 and VWAP ~385.8; the last 125-lot rejection candle from 383.4 hints at fade but price sits only ~1% above support with 4h RSI 27.9 oversold \u2014 likely coils/bases near 380-382 rather than a clean directional leg before Monday cash open.",
+  "expectancy_note": "Short here: entry 381.9, stop ~385, first target support 377.8 gives R:R ~1:0.9 \u2014 fails the 1.5x test; oversold + thin liquidity + Wed earnings binary make expectancy negative.",
+  "rationale": "Aligned-short composite is real (4h downtrend, ADX 43, crowded longs L/S 1.98, orderbook -0.43) but price is deeply oversold (4h RSI 27.9) and hugging support 377.78, so a market short chases a stretched move into a level with sub-1.5 R:R \u2014 the account's textbook loser. US cash is closed (near-zero volume, gappy) and Q2 earnings hit Wed after close, so I want either a clean break of 377.78 to sell continuation or a bounce back to VWAP ~385.8 to short with room.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 377.78,
+    "expires_min": 240,
+    "note": "Losing 4h support 377.78 confirms the downtrend resuming with clear air to the next level, giving a valid continuation short with proper R:R."
+  },
+  "transcript": {
+    "macro": "Sunday Jul 19 2026, US cash equities CLOSED \u2014 tokenized-equity perps thin/gappy, high slippage. Fri Jul 17 risk-off (S&P -1%, Nasdaq -1.5%). Crowded longs -> smaller size. TSLA: short-favored \u2014 4h downtrend, RSI 27.9 (oversold), crowded longs (L/S 1.98). Aligned short but note oversold.",
+    "sentiment": "TSLA NEAR-TERM BINARY: Q2 earnings + call WED JULY 22 after close (inside ~3-day horizon). Q2 deliveries beat huge (480k, +25% YoY) but stock fell 7% on the print (valuation/profit-taking); Street focused on gross margins, FSD/Cybercab/Optimus. Expect elevated vol into Wed; direction hinges on margins.",
+    "analyst": "Aligned-short composite real but price deeply oversold (4h RSI 27.9) hugging support 377.78 \u2014 short R:R ~1:0.9 fails 1.5x. Thin closed-market tape + Wed earnings binary = negative expectancy. HOLD size zero; arm continuation short below 377.78 or short a bounce to VWAP ~385.8.",
+    "portfolio": "HOLD TSLA \u2014 oversold into support, poor R:R, earnings Wed binary; wait for 377.78 break."
+  },
+  "timestamp": "2026-07-19T09:12:50.580168+00:00"
+}

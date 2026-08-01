@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "TSM/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Fresh volume-spike flush to 426.31 is being reclaimed - last bar closed at its high (431.32) on rising volume; expect a relief bounce toward VWAP/broken shelf ~433.5-435 over the next 2-4 bars before the downtrend can resume. Shorting here chases into the bounce; support 425.72 is only ~1.3% below, leaving too little room.",
+  "expectancy_note": "Immediate short R:R < 1.5 (target 425.72 is <2*ATR away vs a stop that must sit above 435 through a live bounce); better to sell the retest. p(win) on a chased short here ~40%.",
+  "rationale": "All TFs are short-aligned with ADX 70, but 4h RSI 31 plus a capitulation candle (168 vol) and two green reclaim bars closing at the highs mark an oversold flush that is bouncing, not breaking - the exact late-short-into-stretched-tape setup that has bled this account. Downside room to support (425.72) is thin while squeeze risk into soft-CPI Tue is elevated. Wait to short the retest of ~433.5-434.5 rather than sell the hole; hold with the trigger armed.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 425.72,
+    "expires_min": 240,
+    "note": "Losing the 425.72 flush low confirms the bounce failed and the downtrend is resuming - clean short trigger toward the next leg with proper R:R."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF/defensive, event-gated. Fresh Strait-of-Hormuz oil shock (WTI +3%) hit risk 2026-07-13 ~14:30 UTC; synchronized intraday down-legs across equities/semis/crypto. DXY firm ~101 => the DOLLAR is the safe-haven, NOT gold; real yields up. BTC ~$62.5k in a strong downtrend (ADX 74), SOL high-beta to it; gold DOWN ~0.9% despite the geopolitics. Environment favors the SHORT side but conviction is capped by a wall of event risk: CUT SIZE, and do NOT carry tokenized-equity risk naked through Tue 2026-07-14 8:30 ET CPI. Biggest shared risk: an oversold bounce / short-squeeze (many names RSI 23-29, several long-heavy L/S ratios) into the CPI + bank-earnings gap.",
+    "sentiment": "Hawkish / risk-off; Fed now priced for possible HIKES after hot prior CPI. The only <=48h catalyst that moves ALL of these names is CPI (Tue 7/14 8:30 ET) + PPI (Wed 7/15). Single-name earnings binaries are OUTSIDE the window (TSM 7/16; TSLA & GOOGL 7/22) -> trade them as tape, not news. Everything is deeply oversold = squeeze risk on any soft CPI print; SNDK/MU/EWY are violent two-way chip names; AAPL is the lone relative-strength long; gold (XAUT) is NOT hedging risk here -- it trades on rate fear.",
+    "analyst": "All TFs are short-aligned with ADX 70, but 4h RSI 31 plus a capitulation candle (168 vol) and two green reclaim bars closing at the highs mark an oversold flush that is bouncing, not breaking - the exact late-short-into-stretched-tape setup that has bled this account. Downside room to support (425.72) is thin while squeeze risk into soft-CPI Tue is elevated. Wait to short the retest of ~433.5-434.5 rather than sell the hole; hold with the trigger armed.",
+    "portfolio": "HOLD TSM - oversold flush being reclaimed into CPI; short the ~433.5-435 retest, not the hole."
+  },
+  "timestamp": "2026-07-13T14:38:06.081726+00:00"
+}

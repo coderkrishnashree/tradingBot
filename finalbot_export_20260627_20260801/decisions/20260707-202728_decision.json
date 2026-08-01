@@ -1,0 +1,28 @@
+{
+  "symbol": "EWJ/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.2,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "none",
+  "forecast": "Tokyo cash market shut, EWJ prints phantom zero-volume bars (last bar 93.23 flat, 0.0 vol) inside 92.14-93.59; no directional path is real until liquidity returns. Expect it to drift on US/QQQ beta, likely chopping 92.9-93.6 with unreliable fills.",
+  "expectancy_note": "No tradable edge: ADX 67.8 and 'bullish divergence' are artifacts of zero-volume candles; any SL sits in an ungapfillable band. HOLD beats a coin-flip fill in a risk-off tape.",
+  "rationale": "EWJ is the lowest-conviction, worst-liquidity name in the set: recent candles show 0.0-1.9 volume with repeated identical prints while Japan is closed, so indicators are unreliable and any tokenized fill is untrustworthy. Macro is RISK-OFF and hostile to longs with carry-trade unwind (hawkish BOJ = yen up = EWJ down) as the tail risk, and there is no Japan-specific catalyst inside 48h. Corr to BTC is only 0.24 and RS is -2.04%, so no relative-strength case. Zero size, no honest R:R to underwrite.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 92.14,
+    "expires_min": 240,
+    "note": "Clean break of 92.14 support on real volume confirms the carry-unwind bear thesis and would justify re-debating a short with tradable structure."
+  },
+  "transcript": {
+    "macro": "RISK-OFF, hostile to longs. Rates HIKE regime; Fed minutes this week. EWJ: corr BTC 0.24, RS -2.04%, trade as equity. Nikkei up ~39% YTD but carry-trade unwind is the tail risk (BOJ 0.75%, signaling another Q3 hike; hawkish BOJ = yen up = EWJ down). Thin/gappy \u2014 Japan cash market CLOSED during US session, scan candles near-zero volume, tokenized fills UNRELIABLE. Lowest-conviction, worst liquidity of the set.",
+    "sentiment": "EWJ mixed, thin/illiquid, no Japan-specific <=48h catalyst. Nikkei near record; rotation out of tech into cyclicals; slow BOJ tightening (highest rate in 30yrs) is slow-burn not a 48h event. ETF wrapper candles extremely thin/gappy off US hours, price signal unreliable, tracks US risk/QQQ beta. Neutral; beware illiquidity.",
+    "analyst": "Recent candles 0.0-1.9 volume with repeated identical prints (Japan closed) => ADX 67.8 / 'bullish divergence' are measurement artifacts, any stop sits in an ungapfillable band. RISK-OFF + carry-unwind tail risk, no <=48h Japan catalyst, corr BTC only 0.24. No honest edge. HOLD, size 0.",
+    "portfolio": "HOLD EWJ \u2014 dead/illiquid tape, no honest edge; re-debate only on a real-volume break of 92.14."
+  },
+  "timestamp": "2026-07-07T20:27:28.400925+00:00"
+}

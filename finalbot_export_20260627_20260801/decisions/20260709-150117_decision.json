@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "MSFT/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Bounce off 373.78 support is underway (bullish reversal bar, last close 378.16 at bar high); expect chop 375-381 over next 2-4 bars, likely a grind up toward VWAP ~385 before the downtrend can resume. No clean edge either way here.",
+  "expectancy_note": "Shorting RSI 29 at support into L/S 1.87 crowded-long = the account's classic late-short-into-squeeze loss; long is counter-trend vs risk-off macro with no confirmation. HOLD beats both; p(win) on either sub-1.5 R:R.",
+  "rationale": "MSFT is deeply oversold (1h/4h RSI ~29-30, %B 0.003) sitting on 373.78 support with a fresh bullish engulfing bar and last candle closing on its high - chasing the short here invites the squeeze that L/S 1.87 (most crowded long in the set) makes likely. A long, however, fights a clean multi-TF downtrend and risk-off macro with no reclaim yet. No entry offers R:R >= 1.5 with an honest stop, so flat is highest-expectancy; wait for either a decisive loss of 373.78 to re-arm the short or a VWAP reclaim to validate the bounce.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 373.5,
+    "expires_min": 240,
+    "note": "A decisive break/close below 373.78 support voids the bounce and re-opens the downtrend short with a clean stop above the level."
+  },
+  "transcript": {
+    "macro": "Cycle 2026-07-09, RISK-OFF/defensive. Jittery tape, oil/Iran risk-off, hawkish Fed minutes. Nasdaq tone fragile. Env favors shorts/mean-reversion; size modest. US cash closes ~20:00 UTC -> overnight thin/gappy. MSFT: btc_corr 0.281 (independent mega-cap tech). Scan short (blended -0.356), 1h/4h RSI ~29-30 (oversold), L/S 1.87 = MOST crowded long in the set -> contrarian squeeze risk AGAINST shorts. No imminent catalyst; moves with fragile Nasdaq tone.",
+    "sentiment": "MSFT near-term NEUTRAL/BEARISH tape. Earnings fiscal Q4 confirmed Wed Jul 29 2026 after close (outside window). Backdrop strong (Azure +40%, AI ARR $37B +123%, 20M+ Copilot seats) but $190B capex partly on soaring memory costs - margin watch-item, not 48h mover. No fresh <=48h catalyst. Scan oversold and trending down; L/S 1.87 crowded-long. Pure technical short; news neutral.",
+    "analyst": "MSFT @378.16, 1h/4h RSI ~29-30 (deeply oversold), %B 0.003 (pinned to lower band), on 373.78 support (just 1.2% below). A bullish engulfing bar already printed off support (373.78 low, closed 378.76) and the last bar closed on its high - the bounce is underway. Shorting RSI 29 at support into L/S 1.87 crowded-long is the account's classic late-short-into-a-squeeze loss; a long fights the intact multi-TF downtrend + risk-off macro with no reclaim yet. Neither side offers R:R >= 1.5 with an honest stop, so HOLD flat and re-arm the short on a decisive break below 373.78.",
+    "portfolio": "MSFT: HOLD (conf 0.60) - oversold-into-squeeze, don't chase; short re-armed below 373.5."
+  },
+  "timestamp": "2026-07-09T15:01:17.856266+00:00"
+}

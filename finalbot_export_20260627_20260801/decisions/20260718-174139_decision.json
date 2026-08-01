@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "GOOGL/USDT:USDT",
+  "confidence": 0.5,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "range",
+  "forecast": "Price is basing in a tight 346.7-347.5 shelf on dried-up volume just above 341.86 support after a violent 4h selloff (RSI 11.5). Expect either a dip to retest 342-343 (the buyable spot) or continued low-volume chop; a clean bounce toward 355 only sets up FROM the support retest, not from mid-air at 347.",
+  "expectancy_note": "A mean-reversion long is the right idea (learner: longs 75% win/+3.44 vs shorts 47%/-0.87), but at 347 the entry is ~5.3 above support so market-long R:R is only ~1.3 (fails 1.5); the +EV version is a limit at the retest, which hasn't triggered.",
+  "rationale": "GOOGL is deeply oversold (4h RSI 11.5, ADX 95) and stabilizing on a shelf above 341.86 with LTF momentum flipping up - a pre-earnings mean-reversion bounce is plausible. But chasing a long at 347 mid-air is the losing pattern (extended move, no trigger, R:R ~1.3), and shorting into extreme oversold at support is the account's proven bleed. Saturday close + gappy tokens + Q2 earnings ~7/22 inside the window all argue to wait for the retest rather than size in now. HOLD and let a 342-343 retest (stop below 341.86) create the honest 2R+ long.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 343.0,
+    "expires_min": 600,
+    "note": "A dip into 342-343 that holds 341.86 is the buyable mean-reversion long with stop below support and target 349-355 for 2R+; losing 341.86 outright instead flips the thesis to no-trade/breakdown."
+  },
+  "transcript": {
+    "macro": "Regime risk-OFF in tech, HOSTILE for semis. Fri 7/17 S&P -1.0%, Nasdaq -1.4% (week -2.9%), semi rout (SMH ~-9%) from Moonshot AI + Netflix miss + US-Iran tension. BTC correlation near-zero for these equity perps. Sat 2026-07-18 US cash CLOSED - tokens thin/gappy off Fri close, Monday can gap. GOOGL cleanest but stretched: 4h RSI ~11.5, ADX 95, vwap -5.88%, just above support 341.86 (last ~347), L/S 1.55, orderbook +0.19, bias -0.108. Dominant risk: Alphabet Q2 earnings ~7/22 (~4 days out, inside multi-day hold) - no size through the print. FOMC 7/28-29 looms. Argue smaller size.",
+    "sentiment": "Overall tech tone RISK-OFF (dominant). Philly Semi Index ~20% off high, VIX +12%, AI-capex-cut + Moonshot China-competition fears. GOOGL: bearish-lean into a hard catalyst - Q2 earnings Wed July 22 after close (~$2.87 EPS), capex guide $180-190B will drive the move; binary inside horizon. Antitrust low-weight long-horizon overhang (appeal, oral args late-2026/2027) - no <=48h catalyst. Net near-term neutral-to-bearish, July 22 the real event risk.",
+    "analyst": "Deeply oversold and basing on a shelf above 341.86 with LTF momentum flipping up - a mean-reversion bounce is plausible and matches the learner edge (longs 75%/+3.44 vs shorts 47%/-0.87). But market-long at 347 is ~5.3 above support so R:R ~1.3 fails the 1.5 gate; the +EV entry is a limit on a 342-343 retest (R:R ~2.4) which hasn't triggered. Shorting into extreme oversold at support is the account's proven losing pattern. Weekend close + earnings binary ~7/22 => HOLD, arm the support-retest long.",
+    "portfolio": "GOOGL: HOLD (conf 0.50) - oversold-bounce setup but no honest entry until a 342-343 retest; earnings ~7/22 caps size."
+  },
+  "timestamp": "2026-07-18T17:41:39.915158+00:00"
+}

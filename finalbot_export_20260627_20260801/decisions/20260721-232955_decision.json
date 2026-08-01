@@ -1,0 +1,23 @@
+{
+  "symbol": "HOOD/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.6,
+  "size": 0.0,
+  "entry": 106.92,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "rationale": "HOOD is extended and crowded long (RSI 72, above upper BB, +4.6% VWAP, bearish divergence, L/S 1.94) and the weakest RS name (-10.6% vs BTC) \u2014 a mean-reversion short is the eventual play, but the last ~8 15m bars are flat, mid-range, near-zero volume with no rejection candle, and US cash is CLOSED (gappy/thin). No honest R:R entry until an exhaustion trigger prints or liquidity returns; chasing the long is the exact stretched-top mistake this book bleeds on. Size 0 \u2014 wait for a break below ~105 to arm the fade toward VWAP 102 / support 96.68.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 105.0,
+    "expires_min": 240,
+    "note": "Losing 105 breaks the overnight consolidation floor and confirms the crowded-long unwind, opening the mean-reversion short toward VWAP ~102 / support 96.68."
+  },
+  "transcript": {
+    "macro": "Regime RISK-ON but late-session, US cash CLOSED (thin overnight, no underlying discovery until ~13:30 UTC). Nasdaq +1.29%, semis-led snapback; BTC ~$66.3k firm, dominance ~56.5%. HOOD: funding flat, L/S 1.94 (very long-crowded), orderbook +0.335, structure_bias -0.181; RSI 72, ADX 72, above upper BB, vwap_dist +4.6%, bearish divergence; RS vs BTC -10.6%, BTC-corr 0.45. Q2 earnings July 29 (outside 48h). Biggest risk: crowded-long unwind on thin tape.",
+    "sentiment": "HOOD bearish-to-neutral, NO <=48h binary. Fell ~9% toward critical $100 after failing to hold $120; scrutiny over aggressive consumer-credit push (premium card, up to $500M ABS), $2.2B convertible note raise, CFO insider sale July 15. Weakest RS of the three. Earnings July 29 (outside window). News argues mildly AGAINST chasing longs into a pre-earnings, credit-headline pullback.",
+    "analyst": "Classic NO-TRADE. Extended/crowded long (RSI 72, above BB, +4.6% VWAP, bearish divergence, L/S 1.94), weakest RS. Long = chasing the stretched top (account's #1 loss pattern); short = knifing a 71-ADX uptrend with no exhaustion trigger on dead-volume CLOSED tape. Last ~8 15m bars flat/mid-range. HOLD highest-expectancy; break below 105 flips to mean-reversion short toward VWAP ~102 / support 96.68.",
+    "portfolio": "HOLD HOOD (0.60) \u2014 no honest R:R either way on dead overnight tape; wait for sub-105 break to arm the short."
+  },
+  "timestamp": "2026-07-21T23:29:55.087980+00:00"
+}

@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "CL/USDT:USDT",
+  "size": 0.0,
+  "entry": 74.75,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Choppy churn between 73.4 support and 76.13 resistance over the next 2-6 bars; the bounce off 73.5 is stalling under 75 (last bar rejected 75.10, closed mid-range), so expect a re-test of 74.0-73.5 before the next headline decides direction.",
+  "expectancy_note": "No side clears R:R 1.5 cleanly: long chases a decelerating bounce into 76 resistance with crowded longs (L/S 3.63) and RSI 77; short fights a live Iran/Hormuz bull catalyst that gaps violently. p(win) ~0.5 either way. Wait for the range break.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 76.13,
+    "expires_min": 240,
+    "note": "A clean reclaim/hold above 76.13 confirms the Iran-premium breakout continuation and flips to a momentum long; losing 73.40 (the bounce base) would open the reversal short."
+  },
+  "rationale": "Price already flushed ~3% off the 76 high to 73.5 then bounced to 74.75, so it is mid-range \u2014 not at an extreme worth fading nor a level worth chasing. ADX 95 with RSI 77 on 4h signals an extended trend that has begun correcting; crowded long structure (bias -0.30, L/S 3.63) is a headwind for new longs while the active geopolitical premium makes a short a knife-catch. Headline-whippy event tape with no clean entry \u2014 flat is highest-expectancy until the 73.4-76.13 range resolves. Size 0.",
+  "transcript": {
+    "macro": "RISK-OFF regime, but CL is the one clear macro tailwind (LONG oil as the geopolitical-inflation play): Iran/Hormuz risk premium live and building; WTI +4-5%, ADX 95, RSI 77, price at resistance ~76. Negative BTC correlation (-0.23) = useful diversifier. Caveat: stretched/overbought, headline-whippy (Trump walked back war talk intraday), scan structure_bias oddly short (crowded L/S 3.63). Size for reversal risk, don't chase above resistance.",
+    "sentiment": "CL bullish shock in play, CONTRADICTS scan's technical short-exhaustion read. Oil jumped ~5% to ~$74-78 after Trump said Iran ceasefire 'over' and US revoked Iran's export waiver \u2014 active geopolitical catalyst, can extend or reverse violently. Longer-term EIA sees prices falling (Brent ~$70 Q4) but 48h driver is Middle East headline risk. High headline volatility both ways.",
+    "analyst": "CL flushed from ~76 down to 73.5 and bounced back to 74.75, so it is churning mid-range rather than at a tradeable extreme. The 15m bounce is decelerating (last bar rejected 75.10, closed near lows); with crowded longs (L/S 3.63, bias -0.30) and overbought 4h RSI 77, a fresh long is a chase into resistance while a short fights a live Iran/Hormuz catalyst. No side offers R:R >= 1.5 \u2014 headline-whippy event tape, so flat until price reclaims 76.13 (long) or loses 73.40 (short).",
+    "portfolio": "CL/USDT:USDT \u2014 HOLD (conf 0.50): headline-driven chop mid-range; wait for the 73.4-76.13 break, don't fade the Iran premium."
+  },
+  "timestamp": "2026-07-08T20:59:41.058934+00:00"
+}

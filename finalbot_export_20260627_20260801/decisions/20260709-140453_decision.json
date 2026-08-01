@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "CL/USDT:USDT",
+  "size": 0.0,
+  "entry": 72.91,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.55,
+  "playbook": "none",
+  "forecast": "Price is mid-range at VWAP (72.91) after rejecting 74.60; LTF momentum is down (1h/15m/5m short, 5m RSI 19.5 exhausted) but 4h trend is up (ADX 54). Expect chop 72.7-73.5 - likely a small bounce off oversold 5m then decision at the 73.5 shelf; no clean edge until it picks a side.",
+  "expectancy_note": "p(win) ~0.5 either way - mid-range, at VWAP, conflicting TFs + live Iran/Hormuz binary. A market short chases 5m RSI 19.5; a long fights fresh down-momentum with no reclaim. No 1.5R setup exists here; HOLD is highest expectancy.",
+  "rationale": "4h is a strong uptrend (score +0.59, ADX 54) but 1h/15m/5m are all in a pullback and price sits dead-on VWAP mid-range between 67.17 support and 76.13 resistance - no entry with honest R:R. Crowded long (L/S 2.73) is flush-vulnerable, and this is a two-way geopolitical binary (Iran/Hormuz spikes vs OPEC+ surplus) with CPI Jul 14 ahead, so wide-stop two-way risk kills small setups. I wait for the tape to resolve the TF conflict rather than pay the spread on a coin-flip.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 73.55,
+    "expires_min": 240,
+    "note": "Reclaiming the 73.5 churn shelf turns the LTF pullback back into 4h-trend continuation, opening a long toward 74.6/76.1; losing 72.73 instead would trigger the crowded-long flush lower."
+  },
+  "transcript": {
+    "macro": "US equity risk tone MIXED, tilting risk-OFF near-term. Mon 7/6 record highs, Tue 7/7 tech-led pullback (Nasdaq -1.16%) with rotation OUT of mega-cap tech/semis; scan shows AAPL/MSFT/META/GOOGL/TSLA/ORCL negative composites, RSI 25-38, downtrend 15m-1h (wobble, not breakdown). Fed HAWKISH: dot plot year-end 3.8%, ~36% tail for a July hike, cuts off the table. June CPI drops Jul 14 (binary event risk if carried). Positioning: crowded longs everywhere (L/S: MSFT 1.89, META 1.93, GOOGL 1.76, ORCL 2.15, CL 2.73, SOL 2.36), funding ~zero on equity perps -> downside air-pockets favored, rallies fade-able, but snap-back squeeze risk from oversold RSIs. Environment MIXED-to-HOSTILE for LONGs, modestly SUPPORTIVE for tactical SHORTS/fades in mega-cap tech. Smaller size / faster targets. CL is own driver (choppy-to-soft, Iran/Hormuz two-way tail, negatively correlated to equities). SOL: BTC dead-flat, no crypto impulse, crowded longs; trades on weak drift.",
+    "sentiment": "Two-sided VOLATILE within 48h: OPEC+ +188k bpd from Aug + 2026 surplus (JPM Brent ~$60) pressures DOWN, BUT fresh Iran/Hormuz escalation spiked WTI ~5% to ~$74 (ceasefire 'over', US revoked Iran waiver). LIVE geopolitical binary; wide stops.",
+    "analyst": "4h is a strong uptrend (score +0.59, ADX 54) but 1h/15m/5m are all in a pullback and price sits dead-on VWAP mid-range between 67.17 support and 76.13 resistance - no entry with honest R:R. Crowded long (L/S 2.73) is flush-vulnerable, and this is a two-way geopolitical binary (Iran/Hormuz spikes vs OPEC+ surplus) with CPI Jul 14 ahead, so wide-stop two-way risk kills small setups. I wait for the tape to resolve the TF conflict rather than pay the spread on a coin-flip.",
+    "portfolio": "HOLD CL/USDT:USDT (conf 0.55)"
+  },
+  "timestamp": "2026-07-09T14:04:53.486395+00:00"
+}

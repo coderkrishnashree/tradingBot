@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "CRCL/USDT:USDT",
+  "size": 0.0,
+  "entry": 67.15,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Slow chop between 66.99 and 67.30 near VWAP over next 2-4 bars; repeated rejections at 67.27-67.30 and buyers defending 67.02. No directional edge until 66.99 breaks (opens squeeze-down toward 65.5) or 68.5 reclaims (4h uptrend resumes).",
+  "expectancy_note": "No stretched extreme to fade and no trigger to chase; aligned=false composite + crowded-long unwind risk make a fresh high-ADX long negative-expectancy (account's trend/high-ADX book is -2.9R/-2R). HOLD is highest expectancy.",
+  "rationale": "CRCL is mid-range (67.15 between 61.78 support and 73.72 resistance), sitting on VWAP with RSI 56/stoch 45 \u2014 nothing extended to trade, and the composite is aligned=FALSE (30m/15m short vs 4h/1h long). It is the group's most crowded-long book (L/S 2.695, structure_bias -0.31) and worst laggard (-18% RS vs BTC), so any long fights a live squeeze/unwind; weekend/thin tape + CPI Tuesday add gap risk, and the learner shows high-ADX trend longs are exactly what has been bleeding. No concrete next move = no trade; size 0.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 66.99,
+    "expires_min": 240,
+    "note": "Losing today's 66.99 low with the crowded-long book unwinding confirms a squeeze-down leg toward 65.5/61.78 \u2014 re-debate for a short."
+  },
+  "transcript": {
+    "macro": "MIXED, highest-caution name. 4h trend strong (score 0.9, ADX 56, ATR 3.3%) but rel strength -18.2% vs BTC (heavy laggard/unwinder), L/S 2.695 = MOST crowded-long book of the set, structure_bias -0.31. Thin weekend tape (US cash closed Saturday) + newly-listed volatility + extreme long crowding = squeeze risk. CPI Tue Jul 14 landmine. Hostile-to-mixed for fresh longs.",
+    "sentiment": "CRCL freshest positive catalyst but largely priced. July 10 OCC approved Circle national trust bank; shares spiked +16% intraday to ~$72.85 (biggest single-day gain in 2 months). Real dated shock still reverberating, but scan shows last 67.15, down off that high, extreme L/S 2.70. Overhang: pending Fed stablecoin rules, Coinbase/USDC renewal Aug. Near-term news modestly supportive but pop may be fading; watch mean-reversion.",
+    "analyst": "4h/1h trend strong (ADX 56, scores 0.9/0.85) but stale/unconfirmed by mid-lower TFs (30m -0.40, 15m flat), so composite is aligned=FALSE at 49.5% conf. Price dead on VWAP mid-range, no stretched extreme to fade, no coil/trigger to break \u2014 no honest R:R entry. Decisive risk is structure: most crowded-long book (L/S 2.695), negative bias (-0.31), -18% RS \u2014 classic long-unwind setup, not continuation. Closed weekend tape + CPI Tuesday + account history (high-ADX trend longs losing ~2-3R) make any fresh long negative-expectancy. Armed downside reconsider at 66.99 (higher-prob resolution); upside flip needs 68.5 reclaim.",
+    "portfolio": "CRCL: HOLD (conf 0.60) \u2014 crowded-long unwind risk, no edge; armed short trigger below 66.99."
+  },
+  "timestamp": "2026-07-11T14:30:33.079979+00:00"
+}

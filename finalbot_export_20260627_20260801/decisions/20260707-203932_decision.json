@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "XAG/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price flushed to ~59.5, bounced to 60.37, now fading back toward 60.0-59.5; likely chops 59.5-60.4 near-term, then either dead-cat bounces into 60.5-61 (the short entry) or leaks toward 58-57 support. Deeply oversold (4h RSI 24.5, %B<0) makes selling 60.07 mid-air poor expectancy.",
+  "expectancy_note": "Short bias is right (ADX 57, crowded 3.1 long, RS -12%) but entering here = selling the hole 2.9% below VWAP; waiting for a 60.5-61 bounce gives ~1.8:1 R:R vs ~1:1 chasing now.",
+  "rationale": "Silver is in a genuine down-leg but is deeply oversold and just bounced off 59.5; a fresh short at 60.07 has too much snap-back risk and thin room to the next support (56.66). The high-expectancy play is to short a dead-cat bounce into the broken 60.5-61 shelf with a stop over 61.5 targeting 58/57, not to sell the flush. No silver-specific catalyst inside 48h, so I wait for the level rather than force it.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 60.55,
+    "expires_min": 240,
+    "note": "Reclaim of the broken 60.5-61 shelf gives a defined-risk short entry into VWAP resistance with a stop over 61.5 and downside to 58/57."
+  },
+  "transcript": {
+    "macro": "Regime: RISK-OFF (tech-led). Nasdaq -1.16%, S&P -0.45%. DeepSeek in-house AI-chip report + Samsung results gutted semis (SMH -3%+, Micron -4.7%) - AI trade questioned, money rotating OUT of tech. Oil +5% (Brent >$76) on US revoking Iran oil license = inflationary headwind. Gold & silver did NOT act as havens - sold off with a firmer dollar. Broad de-risking/DXY-up session; backdrop favors SHORTS/defense over fresh longs. Long/short ratios lopsidedly LONG nearly everywhere (crowded longs into falling tape = squeeze fuel lower); funding flat. Equity-style perps gap when US cash closed - thin after-hours liquidity, size down.",
+    "sentiment": "Weak US June jobs (+57k) unwound Fed HIKE bets (this cycle Fed debating hikes under Chair Warsh); DXY rebounded Mon; 10Y ~4.48%. June CPI July 14 (outside 48h); no FOMC in 48h. META: NEUTRAL, earnings Jul 29 (outside window), technically extended not news-driven. XAG: mid-term BULLISH but volatile/extended, no <=48h catalyst, dollar/CPI sensitive. COIN: BEARISH/weak, earnings Jul 30, poor fundamentals (Q1 miss, near 52wk low), BTC-beta proxy. XAUT: mildly BULLISH mid-term, near-term choppy dollar/yield pullback, CPI Jul 14 next catalyst. EWJ: NEUTRAL, thin/illiquid on venue (zero-volume candles), no <=48h catalyst.",
+    "analyst": "Silver is in a genuine down-leg but is deeply oversold and just bounced off 59.5; a fresh short at 60.07 has too much snap-back risk and thin room to the next support (56.66). The high-expectancy play is to short a dead-cat bounce into the broken 60.5-61 shelf with a stop over 61.5 targeting 58/57, not to sell the flush. No silver-specific catalyst inside 48h, so I wait for the level rather than force it.",
+    "portfolio": "HOLD - short bias but oversold; armed short trigger on 60.55 bounce."
+  },
+  "timestamp": "2026-07-07T20:39:32.653121+00:00"
+}

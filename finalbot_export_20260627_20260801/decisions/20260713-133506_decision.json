@@ -1,0 +1,23 @@
+{
+  "symbol": "NVDA/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.6,
+  "size": 0.0,
+  "entry": 208.46,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "rationale": "NVDA is coiling on VWAP (vwap_dist -0.18%, bb_pctb 0.385 mid-band, RSI 42.7) with genuinely mixed timeframes (1h short but 4h MACD positive, 5m turning up) and the weakest short structure of the equities (bias -0.13, orderbook +0.17, rel_str +3.8%). There is no extended move to fade and no confirmed impulse to follow, so neither entry clears the 1.5R bar. With CPI gap risk tomorrow on a thin tokenized equity and this account already losing on both shorts and trend continuation, standing aside is the highest-expectancy choice.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 205.0,
+    "expires_min": 240,
+    "note": "Losing 205 breaks the VWAP coil to the downside and validates the 1h short leg; a reclaim/hold above 213.1 would instead flip long. 205 is the more actionable break given down-momentum on 1h."
+  },
+  "transcript": {
+    "macro": "Regime MIXED-to-cautious into June CPI (Tue Jul 14 8:30am ET). Fed debating HIKE; DXY ~101, real yields elevated. Tokenized equities thin/gappy overnight, CPI gap risk. NVDA: chip trade headline-sensitive (TSM/ASML report this week); weakest short case - down on 1h/4h but not crowded and outperforming (leader).",
+    "sentiment": "Overall bearish/risk-off into CPI. NVDA: two live catalysts - China reportedly to allow select firms to buy H200 chips (bullish, capped) vs DeepSeek building own chip (bearish overhang). No earnings inside 48h (late Aug). Net mixed/choppy, mild positive tilt from H200, macro-capped.",
+    "analyst": "No edge: price pinned to VWAP in a 207.5-209 coil, mixed timeframes, least-bearish structure of the equities. Short into a leader with positive orderbook gets squeezed; long fights 1h/4h momentum. No trade beats a forced chop entry, esp. with account bleeding shorts.",
+    "portfolio": "NVDA - HOLD (conf 0.60), no trade; short trigger below 205, long above 213.1."
+  },
+  "timestamp": "2026-07-13T13:35:06.629119+00:00"
+}

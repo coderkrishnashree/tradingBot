@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "TSM/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.55,
+  "playbook": "none",
+  "forecast": "Fresh 441.8 breakout on real vol (4.09x) with higher-lows into a strong close at 442.32; but on a thin overnight book (OI 3,478, US cash CLOSED) with an offered order book (imbalance -0.367) expect a fade/retest of 441.8 first. Base case: pullback toward 441.8-440, hold there = valid long trigger; failure below 439 = thin-book fakeout.",
+  "expectancy_note": "Chasing 442.3 into thin/gappy overnight tape with offered book = late-continuation stop-out (account's #1 loss pattern); next res 461.8 too far in-window. Better EV to wait for the retest.",
+  "rationale": "Genuine 15m breakout (vol 4.09x, ADX 29.8, higher-lows into a strong close) but structure_bias -0.305 with an offered order book leans against chasing, OI is only 3,478 and US cash markets are CLOSED (thin/gappy). Macro is risk-OFF/hawkish for high-beta semis and the July 16 earnings binary is 6 days out. HOLD armed to go long on a 441.8 retest-hold; abandon the long thesis if 439 fails.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 443.5,
+    "expires_min": 240,
+    "note": "A decisive push/hold above 443.5 (clear of the 442.48 swing high) confirms the breakout is sticking rather than fading on thin overnight liquidity."
+  },
+  "transcript": {
+    "macro": "Regime risk-OFF/oil-shock: US-Iran escalation, Brent +~7% (>$80), hawkish Fed minutes, 2Y ~4.23%, ~70% odds of a Sept Fed HIKE, firmer DXY/real yields - headwind for high-beta semis. US markets CLOSED at scan (thin/gappy). TSM: last 442.32, 15m breakout @441.80 vol_ratio 4.09; funding 0.0; OI only 3,478; LSR 1.653, orderbook_imbalance -0.367 -> structure_bias -0.305 (contrarian caution). Semis the one pocket of strength (SMH +2.5%, MU +4.5%). Dominant risk: TSMC Q2 earnings July 16 (~6d out) - do not carry in unplanned; smaller size.",
+    "sentiment": "US June CPI July 14 8:30am ET = biggest scheduled risk event. Live Iran/oil shock, hawkish repricing. TSM (equity): Q2 earnings Thu July 16, guidance $39-40.2B rev ~65.5-67.5% GM, Citi/UBS raising targets on robust AI/HPC demand, Q2 margins near 70%. Constructively bullish into print but two-sided binary; Iran risk-off is interim headwind. No confirmed catalyst inside 48h; earnings binary looms just beyond - avoid short-dated exposure into July 16.",
+    "analyst": "Breakout is real (vol 4.09x, ADX 29.8, higher-lows into strong close near high 442.48) but on a thin overnight book (OI 3,478, US cash closed) with an offered order book leaning against it and hawkish/risk-off macro for high-beta semis. Chasing at 442.32 (~0.99% above VWAP, top of a fresh push) into thin/gappy tape is the late-continuation entry that gets stopped by a routine pullback; honest stop below 437 makes R:R <1.5 and next res 461.8 is too far in-window. Cleanest overnight call is HOLD, armed to go long on a 441.8 retest-hold and abandon if 439 fails.",
+    "portfolio": "TSM: HOLD (conf 0.55) - real breakout but thin overnight book + offered order book + July 16 earnings; wait for a 441.8 retest-hold or >443.5 confirmation."
+  },
+  "timestamp": "2026-07-10T02:58:44.194667+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "EWY/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price is pinned at 170.0 at the top of a vertical 4-bar spike (168.2->170.0) into maxed LTF momentum (stoch 99.6, 15m RSI 87); expect it to stall/chop 169.5-170.2 and likely fade toward the 169.2 pivot / 168 shelf on this dead Sunday tape.",
+  "expectancy_note": "No side clears R:R: long chases the top of a thin spike (account's #1 loss pattern), short fights a fresh thrust with no exhaustion yet; est p(win) <0.5 either way, so flat is highest-expectancy.",
+  "rationale": "EWY is a tokenized Korea ETF with cash market CLOSED (thin/gappy/pinned) and the single most idiosyncratic name in the book (KOSPI -23% MTD, 7 circuit breakers, headline whipsaw). It just spiked vertically ~1.3% into stoch 99.6 / RSI 87 with orderbook imbalance -0.52 leaning hard against the move and composite confidence only 38%. Chasing this top or knifing the thrust both carry negative expectancy into FOMC/mega-cap earnings week; size 0.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 168.0,
+    "expires_min": 240,
+    "note": "Losing the 168 spike base invalidates the vertical thrust and opens a mean-reversion short toward 167.6/160.15 - re-debate for a directional entry."
+  },
+  "transcript": {
+    "macro": "2026-07-26 Sun: MIXED / risk-off into a heavy event week. Nasdaq -2.1% on the week (chip-led selloff); crypto the relative bright spot, BTC ~$65k pressing $68k resistance on thin summer volume. Sunday night = every tokenized US stock/ETF (AAPL, QQQ, MU, NVDA, MSTR, TSLA, CRCL, MSFT, HOOD, TSM, COIN, EWY) trades with its cash market CLOSED -> thin, gappy, pinned. Calendar: FOMC Wed 7/29; MSFT/META earnings Wed AC; AAPL/AMZN Thu AC. Derivatives book is crowded LONG (contrarian-bearish) with funding near-flat and RSIs stretched. Argues for smaller size and no directional swings held through Wed/Thu. The only two environments that actually support a trade this cycle: CL short (real 24h liquidity, clean supply catalyst) and BTC / BTC-proxy longs on a PULLBACK, not chasing the vertical.",
+    "sentiment": "Heavy earnings gauntlet inside the window: FOMC 7/28-29 (hold at 3.50-3.75% expected) plus MSFT+HOOD earnings Wed 7/29 AC and AAPL+COIN Thu 7/30 AC -> overnight gap risk on those names and index-level on QQQ. CL: bearish (OPEC+ output expansion, IEA/EIA cut 3Q26 Brent to ~$74). MU: very bullish narrative (HBM sold out through 2027) but no imminent catalyst. NVDA: earns ~Aug 26 (no near-term print). EWY: highest idiosyncratic risk (KOSPI -23% in July, 7 circuit breakers, bounced ~40% off lows). MSTR: sentiment deteriorating - Strategy now selling BTC + stock to fund preferred dividend. TSLA: reported 7/22, big EPS miss still digesting. CRCL: earns Aug 5, constructive USDC flow. TSM: reported 7/16 big beat, catalyst passed. BTC: cautious/Fear tone, ETF outflows into the Fed. SOL: best idiosyncratic catalyst (spot SOL ETF NYSE Arca approval 7/24) but pinned by broad crypto / FOMC risk-off (0.85 corr to BTC).",
+    "analyst": "EWY is a tokenized Korea ETF with cash market CLOSED (thin/gappy/pinned) and the single most idiosyncratic name in the book (KOSPI -23% MTD, 7 circuit breakers, headline whipsaw). It just spiked vertically ~1.3% into stoch 99.6 / RSI 87 with orderbook imbalance -0.52 leaning hard against the move and composite confidence only 38%. Chasing this top or knifing the thrust both carry negative expectancy into FOMC/mega-cap earnings week; size 0.",
+    "portfolio": "HOLD - most idiosyncratic name (KOSPI chaos), vertical spike into stoch 99.6; no edge."
+  },
+  "timestamp": "2026-07-26T23:11:18.594313+00:00"
+}

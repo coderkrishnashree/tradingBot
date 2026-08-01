@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "QQQ/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.55,
+  "playbook": "none",
+  "forecast": "Price grinds sideways-to-slightly-up in the 716-721 pocket, capped by the heavy offered book near 720-721; either it stalls and rolls back to retest 714.4, or absorbs the offers and pushes toward 728-734. No clean edge until one of those resolves.",
+  "expectancy_note": "No trade beats both alternatives: long = chasing stoch-100 / 5m-RSI-86 into a -0.649 offered book (account's #1 loss pattern); short = fading a green grind with bullish divergence and ADX 22 (no trend). p(win) on either < 0.5; HOLD preserves R.",
+  "rationale": "QQQ (treat as equity) is mid-range at 718.8 (support 698.4 / resistance 734), ADX 22 = no trend to ride, BB width 3.37% = compression/chop, and it is short-term stretched (stoch 100, 5m RSI 86, 1h/30m RSI ~72) right into a heavily offered order book (-0.649). Recent candles show a clean higher-low bounce off 714.4 closing on the high, so shorting now fights the immediate tape while buying chases an extended move into overhead supply \u2014 neither offers 1.5R with honest stops in thin off-hours tape. CPI (Jul 14) sits just outside 48h, so nothing forces a directional bet; wait for the range edge or a confirmed break.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 714.4,
+    "expires_min": 240,
+    "note": "Losing the 714.4 swing low the bounce is built on proves the heavy offered book won and the grind-up failed \u2014 arms a short toward 708/698."
+  },
+  "transcript": {
+    "macro": "RISK-OFF, geopolitics-driven. Broad tape soft (S&P/Dow down) even as N100 outperformed on narrow mega-cap leadership. Rates 10yr 4.59% + oil-inflation headwinds. 7/9 bounce expected but fragile (Polymarket 85% higher open). QQQ: funding 0, L/S 0.955 (balanced), OB imbalance -0.649 (HEAVY offered book, near-term bearish), structure_bias -0.18; composite flat/regime-mixed, 5m RSI 86 stretched. Env: MIXED -> lean STAY-OUT / slight short. Tokenized ETF \u2014 mind US-hours liquidity.",
+    "sentiment": "QQQ neutral-to-cautious, CPI is the whole ballgame. FOMC projected a HIKE before year-end (median dot 3.8% from 3.4%), hawkish. Tape volatile at key resistance into AI/hyperscaler earnings. Single biggest catalyst: June CPI Jul 14 (JUST OUTSIDE 48h) \u2014 pivotal binary. Nothing mega-cap-moving inside 48h; treat anything before Jul 14 as noise-driven positioning. Off-hours QQQ on Bybit thin/gappy.",
+    "analyst": "Mid-range at 718.8 (support 698.4 / resistance 734), ADX 22 = no trend, BB width 3.37% = chop, short-term stretched (stoch 100, 5m RSI 86) into a heavy offered book (-0.649). Recent higher-low bounce off 714.4 closing on the high, so shorting fights the tape while buying chases into overhead supply \u2014 neither offers 1.5R with honest stops in thin off-hours tape. CPI Jul 14 forces nothing. Hold; a 714.4 break arms a short toward 708/698.",
+    "portfolio": "QQQ: HOLD (conf 0.55) \u2014 range chop; 714.4 break arms a short toward 708/698."
+  },
+  "timestamp": "2026-07-09T12:31:55.860771+00:00"
+}

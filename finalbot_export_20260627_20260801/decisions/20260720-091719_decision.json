@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "QQQ/USDT:USDT",
+  "size": 0.0,
+  "entry": 698.66,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Coils inside 696.5-700.4 on a thin overnight book; last bar rejected the 700 round-number and closed at its low, so I expect continued chop until the 13:30 UTC US open resolves the squeeze. A clean 15m close above 700.4 opens 702-704; a break under 696.5 targets 691-688 support.",
+  "expectancy_note": "No edge now: BB width 1.05% squeeze has NO trigger, ATR only 0.27% (~$1.9) so an honest stop+1.5R can't clear noise on a sub-90-volume book; p(win) on a market-entry here is coin-flip and the account's shorts are already bleeding (0.49 win, -0.84 avg).",
+  "rationale": "QQQ is the cleanest-positioned name (L/S 1.08) but the scan is pre-US-open on an unreliable, thin book where stops/fills can't be trusted until ~13:30 UTC. Price is coiled in a tight 4-point range and just got rejected at 700, with 5m already short (RSI 39.9) against the higher-TF longs (composite aligned:false) \u2014 mixed, no confirmed direction. With ATR this small there is no R:R-viable entry: I wait for the open to break the coil rather than chase a squeeze with no trigger into midweek earnings gappiness.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 700.5,
+    "expires_min": 300,
+    "note": "A 15m close back above the 700.4 coil top on real post-open volume confirms the squeeze resolving up with the higher-TF trend, turning this into a long toward 704 / the 727 resistance shelf."
+  },
+  "transcript": {
+    "macro": "2026-07-20 09:08 UTC, pre-US-open. Cautious risk-off into a heavy earnings week. Nasdaq ~26,269 off highs after a losing week; Jul 29 hike odds ~10%. Thin overnight book (QQQ 15m volume under 90), unreliable fills/stops until ~13:30 UTC. QQQ cleanest positioning: L/S 1.08, structure_bias -0.15; BTC corr 0.32. Treat QQQ as the risk barometer / index proxy.",
+    "sentiment": "No single catalyst, but QQQ is the aggregation of this week's mega-cap earnings \u2014 GOOGL + TSLA Wed Jul 22 after close, INTC Thu. Index is oversold; direction hinges on Alphabet capex/cloud Wed after close. Event-sensitive into midweek \u2014 neutral now, gappy Wed evening.",
+    "analyst": "QQQ is the cleanest-positioned name (L/S 1.08) but the scan is pre-open on an unreliable thin book. Price coiled in a tight 4-point range, just rejected 700, with 5m short (RSI 39.9) against higher-TF longs (aligned:false) \u2014 no confirmed direction. ATR only 0.27% (~$1.9) so an honest stop+1.5R can't clear noise; account shorts are bleeding. Wait for the open to break the 696.5-700.4 coil rather than chase a triggerless squeeze into midweek earnings.",
+    "portfolio": "HOLD QQQ \u2014 cleanest positioning but a triggerless squeeze on a thin book; wait for the open to resolve the coil."
+  },
+  "timestamp": "2026-07-20T09:17:19.563302+00:00"
+}

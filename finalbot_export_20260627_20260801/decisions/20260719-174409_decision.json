@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "CRCL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price coils in a tight 60.77-61.40 band around VWAP; most likely it keeps chopping 60.8-61.4 over the next 2-6 bars until a 15m close breaks 61.40 (up) or 60.77 (down). No directional edge until that break.",
+  "expectancy_note": "No trade: long is weak (+0.27), 4h RSI 74.6 with negative MACD = extended/exhausting, and crowded (L/S 2.23, structure_bias -0.32); short fights held 58.76 support and the account's losing short record (36 shorts, 47% win, -0.87 avg). Mid-range at VWAP = no honest R:R either way.",
+  "rationale": "Tokenized equity on a weekend (US cash closed) = thin/gappy, de-weight trend signals. Price sits mid-range (VWAP dist +0.35%) with BB width compressed to 4%, no extreme to fade and no confirmed break to chase. Learner flags this exact profile as a bad long (rel-strength -27%, negative structure_bias both weigh against longs) and a historically bleeding short, so the highest-expectancy action is to wait for the coil to resolve.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 61.4,
+    "expires_min": 240,
+    "note": "A 15m close above 61.40 breaks the intraday rejection ceiling and validates the scan's long bias toward resistance 67.38, turning the weak long into a cleaner momentum entry."
+  },
+  "transcript": {
+    "macro": "Sun Jul 19 2026, US cash equities CLOSED (weekend) \u2014 tokenized-equity perps thin/gap-prone, de-weight trend until Monday. Tape RISK-OFF; crypto cautious-stabilizing, BTC ~$64.7k, Fear&Greed ~26-28. Desk tilts SHORT this basket. CRCL-specific: LONG signal but crowded and headline-fragile \u2014 composite +0.27, RSI 74.6 (4h) with negative MACD = extended, L/S 2.23 crowded long, structure_bias -0.32, rel-strength -27%, BTC corr 0.44.",
+    "sentiment": "BEARISH near-term lean \u2014 softest sentiment of group. Mizuho downgraded to Underperform Jul 14; below 20/50/200 EMAs (~$60.6 vs EMAs $70/$81/$92), pressured by Coinbase+BlackRock Open USD threat (fell ~16-17%). Offsetting: OCC trust-bank approval (structural win, already priced). Long bias fights the news flow.",
+    "analyst": "Textbook chop on a weekend-thin tokenized equity: price mid-range at VWAP (+0.35%), BB width compressed to 4%, no extreme to fade and no confirmed break to chase. Long is weak/extended-on-4h/crowded; short fights held 58.76 support and the losing-short history. HOLD; arm the upside trigger since scan bias is long \u2014 a 15m close above 61.40 turns the weak long into a cleaner entry toward 67.38.",
+    "portfolio": "HOLD CRCL \u2014 compressed mid-range coil, no edge; arm long on a 15m close above 61.40."
+  },
+  "timestamp": "2026-07-19T17:44:09.816765+00:00"
+}

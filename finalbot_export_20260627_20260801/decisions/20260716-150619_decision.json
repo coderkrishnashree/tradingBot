@@ -1,0 +1,24 @@
+{
+  "symbol": "EWJ/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.34,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "rationale": "EWJ downtrend bias is intact (4h short, RSI 41) but this is the wrong spot and wrong hour: price is pinned at the lower Bollinger band (stoch 10.3, %B 0.08), the Japan market is closed with 0.1-2 contract candles making fills unreliable, the crowd is already long (L/S 1.58) offering no squeeze fuel, and the learned win-rate on this condition is 0.44. Shorting an oversold, illiquid tape is the account's classic late-short loss pattern. No sub-48h catalyst (BOJ Jul 30 outside window). Wait for a clean break of support 90.27 or a reclaim that voids the bias.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 90.27,
+    "expires_min": 240,
+    "note": "Losing support 90.27 confirms trend continuation with clear air, justifying a short with a defined stop back inside the range."
+  },
+  "transcript": {
+    "macro": "EWJ = Japan ETF perp. Underlying Japan market CLOSED -> thin/gappy (0.1-2 contract candles, unreliable fills). Downtrend, RSI 41, L/S 1.58. Low-conviction, low-liquidity; avoid meaningful size either direction.",
+    "sentiment": "EWJ NEUTRAL-to-bearish. Drivers macro: Nikkei whipsawing on semi/AI-trade selloff (-2.6% below 67k), sliding yen forcing BOJ interventions, rising JGB yields. Dated binary BOJ Jul 30 (outside 48h). No <=48h catalyst; off-hours liquidity thin.",
+    "analyst": "Sold to 91.72 then recovered on near-zero volume; pinned at lower BB (stoch 10.3). Shorting oversold/illiquid = negative expectancy, p_win 0.44. Hold, arm short at 90.27 break.",
+    "portfolio": "HOLD EWJ/USDT:USDT (conf 0.34) \u2014 illiquid oversold tape, no size; trigger at 90.27."
+  },
+  "timestamp": "2026-07-16T15:06:19.629570+00:00"
+}

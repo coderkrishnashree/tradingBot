@@ -1,0 +1,22 @@
+{
+  "action": "short",
+  "symbol": "COIN/USDT:USDT",
+  "size": 2.5,
+  "entry": 161.0,
+  "stop_loss": 164.3,
+  "take_profit": 155.0,
+  "take_profit_1": 155.0,
+  "take_profit_2": 150.5,
+  "confidence": 0.6,
+  "playbook": "trend",
+  "forecast": "Price is stretched (-3.1% VWAP, RSI 30, %B 0.15) right after a 582-vol flush to 157.25 and is trying to bounce (5m RSI back to 49, last bar green to 158.55). Expect a dead-cat retest of the broken 160.3-161 shelf / VWAP over the next 2-4 bars, where sellers reload and resume the ADX-62 downtrend toward 155 then 150.5.",
+  "expectancy_note": "p(win)~0.58, R:R 1.9 to tp1 (6.0 reward vs 3.3 risk); limit-at-retest beats market-chasing 157 (stopped by the bounce) and beats range/breakout since ADX 62.9 confirms trend.",
+  "rationale": "Genuine downtrend, not a squeeze: structure_bias only -0.07, L/S 1.13 balanced, funding flat, orderbook -0.107 sellers, macro RISK-OFF fully behind a weak crypto-beta short (rel_str -3.4%). But price is extended below VWAP with RSI 30, so refuse to market-short into the flush; place a LIMIT at the 161 broken-shelf/VWAP retest with ~1xATR stop (164.3), tp1 155 under the flush low, tp2 150.5 toward the 144.6 support. Size 2.5% given pre-market equity-token 09:30 gap risk both ways and leveraged BTC-beta (corr 0.74).",
+  "transcript": {
+    "macro": "RISK-OFF regime (rates + Iran), crypto Extreme Fear (22), BTC -1.6%. Equity tokens pre-market/thin (~07:54 ET), gap risk at 09:30. COIN is the cleanest short of the crypto-equity group: ADX 62.9 strong downtrend, RSI 30, structure_bias only -0.07 (L/S 1.13 balanced, funding flat) = genuine trend not a squeeze; macro fully behind it.",
+    "sentiment": "COIN bearish-leaning. Earnings Jul 30 (outside window). Trades as crypto-beta; weak crypto tape + oil risk-off is the near-term driver. Argues short via correlation, no stock-specific catalyst.",
+    "analyst": "Strong ADX-62 downtrend but price is stretched (-3.1% VWAP, RSI 30, %B 0.15, stoch 16) right after a 582-vol flush to 157.25 and 5m has bounced (RSI 49). Won't chase 157 (the account's #1 loss pattern). LIMIT short at the 161 broken-shelf/VWAP dead-cat retest, ~1xATR stop 164.3, tp1 155 under the flush low, tp2 150.5 toward 144.6 support (R:R ~1.9). Size 2.5% for pre-market gap and BTC-beta squeeze risk.",
+    "portfolio": "COIN: limit-short the 161 retest (conf 0.60) \u2014 cleanest regime-fit short, but enter on the bounce not the flush."
+  },
+  "timestamp": "2026-07-09T12:01:16.608492+00:00"
+}

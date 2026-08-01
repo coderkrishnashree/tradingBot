@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "AAPL/USDT:USDT",
+  "size": 0.0,
+  "entry": 314.04,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.34,
+  "playbook": "none",
+  "forecast": "Dead Sunday tape: price coils 313.65-314.90 around VWAP on near-zero volume; expect 1-point chop with a slight downward drift until US cash open, no clean break inside the next few bars.",
+  "expectancy_note": "No honest 1.5R: bb_width squeezed 1.37%, ATR 0.48%, next real level (support 305) too far for a 1.5R short and resistance 316.77 too far for a long; thin closed-market liquidity + learner shows late high-ADX shorts losing (-1.98 avg).",
+  "rationale": "AAPL tokenized equity with US cash CLOSED (Sunday) - candles frozen on 0.26-20 unit volume, structure flat (bias -0.024), no catalyst inside 48h (earnings Jul 30). Composite leans short at only 37% but price is bouncing off 313.65 on VWAP inside a squeezed coil, no confirmed break and no 1.5R target either way. Account history shows late high-ADX shorts bleed, so wait for a real break.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 313.65,
+    "expires_min": 240,
+    "note": "Losing the coil base on real volume opens the short toward 305 and validates the short-biased composite."
+  },
+  "transcript": {
+    "macro": "Risk-ON but stretched/late-stage; S&P ~7575 near ATH, Mag-7 led. Key macro risk: hawkish Warsh Fed (9/18 pencil a hike), 10Y toward 5%, FOMC Jul 28-29. ~03:26 UTC Sunday: US CASH EQUITIES CLOSED -> tokenized equity perps (MU/TSM/EWY/AAPL/TSLA/CRCL) thin/gappy, low conviction until cash open. Crypto RISK-OFF & diverging: BTC ~$64K, dominance >50% rising, capital rotating out of alts; SOL crowded long. TSM Q2 earnings Jul 16 is the biggest event, drives MU/EWY read-through. Crude (CL) independent on Hormuz supply premium but very crowded long. Biggest recurring trap: crowded longs (SOL 2.5x, CRCL 2.76x, CL 4.0x L/S) into a stretched melt-up.",
+    "sentiment": "Cautiously risk-off/event-gated. Dominant near-term driver = TSM Q2 earnings binary Thu Jul 16 (drags MU/EWY/QQQ). MU: blowout Q3 Jun 24, news stale, next earnings ~Sep 22. SOL ~$77, best week of 2026 but crypto ETF ~$4.4B outflows/13 sessions, momentum fragile. EWY +112% YTD parabolic, geared to TSM print. CL=crude/WTI (not Colgate), whippy on US-Iran/Hormuz vs OPEC+ output hike. AAPL quiet into Jul 30 earnings (outside 48h). TSLA Q2 Jul 22 approaching, record deliveries digested, choppy. CRCL ~$67 down from mid-$80s: bank charter bullish vs Stripe 'Open USD' threat (PT cut to $55); most volatile name, headline-sensitive. Only CL and the TSM-complex have true <=48h catalysts.",
+    "analyst": "AAPL tokenized equity with US cash CLOSED (Sunday) - candles frozen on 0.26-20 unit volume, structure flat (bias -0.024), no catalyst inside 48h (earnings Jul 30). Composite leans short at only 37% but price is bouncing off 313.65 on VWAP inside a squeezed coil, no confirmed break and no 1.5R target either way. Account history shows late high-ADX shorts bleed, so wait for a real break.",
+    "portfolio": "HOLD AAPL - dead closed-market coil at VWAP, no 1.5R either way; wait for 313.65 break."
+  },
+  "timestamp": "2026-07-12T03:32:13.155614+00:00"
+}

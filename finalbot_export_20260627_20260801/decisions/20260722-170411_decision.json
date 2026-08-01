@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "SOL/USDT:USDT",
+  "size": 0.0,
+  "entry": 78.52,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.55,
+  "playbook": "none",
+  "forecast": "Price coils 78.1-78.7 just under 79.01 resistance; most likely chops or gets rejected back toward 77.4/VWAP over the next 2-4 bars unless BTC breaks its own 66.9k ceiling. A decisive 15m close above 79.01 opens a run at 80+.",
+  "expectancy_note": "No clean edge: long = chasing into resistance with stoch 89 + crowded 2.47 L/S (squeeze-down fuel) in risk-off; short fights the up 15m/4h trend and the account's losing short pattern (46% win). Best EV is waiting for the 79.01 break to confirm.",
+  "rationale": "SOL is a lagging BTC-beta echo (corr 0.815, rel str -10.2%) with no idiosyncratic tailwind, pinned just under 79.01 resistance while stochastic 89 and a crowded long book (L/S 2.467, structure_bias -0.343) skew the next surprise to a downside squeeze. A long here buys 0.6% below a ceiling with negative R:R, and a short contradicts the still-rising trend and this account's proven-losing short record. Flat is highest expectancy until the 79.01 coil resolves.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 79.01,
+    "expires_min": 240,
+    "note": "A 15m close and hold above 79.01 clears the resistance cap and turns the coil into a breakout long toward 80-81."
+  },
+  "transcript": {
+    "macro": "RISK-OFF/hawkish; DXY 13-mo high. BTC ~$64-66k range-bound with bearish 15m divergence + negative orderbook imbalance. F&G 29 (Fear). BTC dominance 56-57% holding \u2014 capital NOT rotating into alts = direct headwind for SOL. SOL high-beta to BTC (corr 0.815) and lagging (-10.2%) -> mostly a leveraged BTC-beta bet. Crowded long -> squeeze risk skews downside.",
+    "sentiment": "SOL neutral-to-constructive. Five spot SOL ETFs live, ~$1.12B cumulative inflows (slow). Alpenglow upgrade Q3. WATCH: July PUMP unlock (~$124M) \u2014 indirect drag, not a direct SOL unlock. SEC staking-ETF headline risk (no fixed date). ~0.82 corr to BTC, so BTC's range is main driver.",
+    "analyst": "Coiling under 79.01 resistance, stoch 89, crowded long, no idiosyncratic strength; BTC also capped. No R:R either way. HOLD, long a 79.01 breakout.",
+    "portfolio": "SOL -> HOLD (conf 0.55): lagging BTC-beta pinned under 79.01 \u2014 wait for the breakout."
+  },
+  "timestamp": "2026-07-22T17:04:11.511269+00:00"
+}

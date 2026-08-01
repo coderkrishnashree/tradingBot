@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "TSM/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Thin Sunday tape drifts sideways 399-402 on near-zero volume into Monday cash open; the real move is the Monday gap, likely down given Friday's chip rout (SMH -4%), toward the 386.81 support.",
+  "expectancy_note": "No honest R:R \u2014 indicators (5m RSI 90, ADX 35) are distorted by zero-volume prints; long chases an illiquid creep into gap risk, short fights the composite. Flat is highest expectancy.",
+  "rationale": "TSM is a tokenized equity and it is Sunday 21:07 UTC \u2014 US cash closed, price stale off Friday, last 8 candles are a low/zero-volume creep to 401.44 (5m RSI 90.4) that is not real buying. Composite long + p_win 0.673 are built on those fake prints; meanwhile L/S is crowded long 2.45 (contrarian bearish), rel-str -19.5%, and the chip complex just got routed, so Monday open carries real down-gap risk. No <=48h catalyst (Q2 earnings already dropped Jul 16). No tradable edge \u2014 wait for the Monday cash open to reveal a real level.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 386.81,
+    "expires_min": 900,
+    "note": "Losing the 386.81 support on Monday's cash open confirms the chip-rout gap-down continuation and turns this into a short setup."
+  },
+  "transcript": {
+    "macro": "REGIME: RISK-OFF/cautious. Friday equity selloff (S&P -1%, Nasdaq -1.5%) on a semiconductor rout (SMH -4%) + Middle East risk. Crypto soft: BTC ~$64.5k. CRITICAL: Sunday 21:07 UTC \u2014 US cash equities CLOSED; tokenized-equity perps (incl TSM) thin/gappy off Friday stale reference; Monday-open gap risk. TSM: Q2 earnings dropped Jul 16, sits in routed chip complex, rel-str -19.5%, L/S very long 2.45 (contrarian).",
+    "sentiment": "TSM \u2014 Bullish (post-catalyst). Blowout Q2 Jul 16: rev $40.2B beat, GM 67.7%, RAISED FY26 growth outlook >30% on AI demand. Catalyst behind us, tailwind fading; no fresh <=48h binary. Momentum already priced.",
+    "analyst": "Last 8 bars a low/zero-volume creep to 401.44 (5m RSI 90.4, 15m RSI 70.1) \u2014 illiquid Sunday drift, not real buying. Composite long / p_win 0.673 built on distorted prints; L/S crowded 2.45, rel-str -19.5%, chip complex routed \u2192 Monday down-gap risk. No honest R:R on fake tape. NO TRADE; watch 386.81 break on Monday cash open for a short.",
+    "portfolio": "HOLD TSM \u2014 no edge on thin closed-market tape; short trigger below 386.81."
+  },
+  "timestamp": "2026-07-19T21:14:29.511001+00:00"
+}

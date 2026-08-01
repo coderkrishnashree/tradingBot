@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "AAPL/USDT:USDT",
+  "size": 0.0,
+  "entry": 332.61,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.62,
+  "playbook": "none",
+  "forecast": "Thin weekend chop 331-335; price coils under 335.34 resistance with wick-rejections \u2014 no clean directional edge until 335.34 breaks or 331 support gives way.",
+  "expectancy_note": "Long: chasing RSI 83/stoch 89, +1.45% over VWAP into earnings = negative expectancy. Short: ADX 78.7 raging trend, no divergence, thin book = knife-catch. HOLD is highest expectancy.",
+  "rationale": "AAPL is parabolic (RSI 83.3, stoch 89.4, ADX 78.7) pinned just under 335.34 resistance on a thin gappy weekend synthetic book (OI 5,353, orderbook +0.785 an artifact), with a live FOMC Wed and Q3 earnings Thu Jul 30 that will gap it violently \u2014 a naked position held through that is a coin flip. No confirmed exhaustion, so a mean-reversion short lacks its trigger and fading ADX 78.7 is negative expectancy; a fresh long at these extremes is the account's #1 loss pattern. Size 0 \u2014 wait for a real level to break.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 331.0,
+    "expires_min": 240,
+    "note": "Losing 331 breaks the consolidation floor and would confirm the parabola cracking \u2014 the first honest short trigger back toward VWAP/support."
+  },
+  "transcript": {
+    "macro": "Overall bias RISK-OFF/NEUTRAL (2026-07-26, weekend \u2014 US/COMEX/Tokyo underlyings closed -> thin gappy synthetic pricing, reduce-size, Monday gap risk). 10Y 4.67% near multi-month high, DXY ~101.5 firm, wobbly tech tape (chip sell-off, Alphabet capex scare), oil-driven geopolitical risk. Silver: ~$58 stalling below $60 as yields rally; fundamental floor real (46Moz 2026 deficit, AI/solar) but cycle story; L/S 4.05 crowded long, RS -8.5% vs BTC. AAPL: mixed-to-hostile for longs \u2014 parabolic (RSI 83, ADX 78) pinned under 335.3 resistance on thin weekend book. EWJ: cleanest fundamental long (BOJ 1% June hike, Nikkei firm) but dead untradeable tape, RS -5.3%.",
+    "sentiment": "Event cluster over next 48-72h dominates all three: FOMC Wed Jul 29 (unusually live \u2014 oil spike pushed implied hike odds to ~31%), then BOJ Jul 30-31 and AAPL Q3 earnings Thu Jul 30. Silver: active correction (down ~3.5% Jul 16, ~20% YTD), rate/dollar-driven \u2014 argues against fresh longs into Wed; neutral-to-bearish until Fed clears. AAPL: momentum bullish (BofA Buy PT $380) but earnings Jul 30 after close (~$108.9B rev/$1.89 EPS, Tim Cook's final call) = large after-hours gap; RSI 83 stretched \u2014 risky to hold naked. EWJ: BOJ base case hold at 1.0% (supportive) but Bloomberg Jul 22 flagged BOJ 'open to faster hike pace' (hawkish-yen tail pressures EWJ); yen near 40yr lows ~163-164. Net: keep risk light / event-aware, don't press directional longs into Wednesday.",
+    "analyst": "AAPL is parabolic (RSI 83.3, stoch 89.4, ADX 78.7) pinned just under 335.34 resistance on a thin gappy weekend synthetic book (OI 5,353, orderbook +0.785 an artifact), with a live FOMC Wed and Q3 earnings Thu Jul 30 that will gap it violently \u2014 a naked position held through that is a coin flip. No confirmed exhaustion, so a mean-reversion short lacks its trigger and fading ADX 78.7 is negative expectancy; a fresh long at these extremes is the account's #1 loss pattern. Size 0 \u2014 wait for a real level to break.",
+    "portfolio": "AAPL: HOLD @0.62 \u2014 parabolic (RSI 83) under 335.3 resistance into FOMC+earnings; no clean R:R either way, reconsider on loss of 331."
+  },
+  "timestamp": "2026-07-26T01:03:05.350989+00:00"
+}

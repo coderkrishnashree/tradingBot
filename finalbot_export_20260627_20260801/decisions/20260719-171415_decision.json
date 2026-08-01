@@ -1,0 +1,24 @@
+{
+  "symbol": "TSM/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.34,
+  "size": 0.0,
+  "entry": 399.66,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "rationale": "Macro/sentiment favor the short (most-crowded long 2.578, structure_bias -0.217, RS worst-in-group -19.33%, capex-fear unwind), but tactically price is flat at VWAP, 30m/1h/5m are neutral, bullish divergence is flagged, orderbook bids are stacked (+0.275), and the last candle bounced off 398.8 on the biggest volume of the run. US market is CLOSED (weekend, sub-1 volumes, Monday gap risk both ways). Entering a fresh short here is the textbook 'short into the bounce, stopped by the pop' loss this book keeps taking, so hold and arm the break level instead.",
+  "forecast": "Thin weekend tape; price coils around VWAP ~400 between support 386.81 and resistance 440.88. Last 15m bar is a green reversal off 398.8 with bullish-divergence flag, so immediate risk is a bounce toward 401.4-403 before any resumption lower.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 398.7,
+    "expires_min": 240,
+    "note": "Losing the 398.8 reversal low resumes the capex-unwind with a clean short toward 386.81 support and honest ~1x ATR stop."
+  },
+  "transcript": {
+    "macro": "Regime NEUTRAL tilting risk-off in AI/semi complex (semis sold hard Jul 16-17). TSM: L/S 2.578 (MOST crowded long of basket), structure_bias -0.217 (crowd offside), RS -19.33%, BTC corr -0.044. Composite short; semiconductor drawdown contagion active. Verdict: favors short side on crowded semis; group being de-rated.",
+    "sentiment": "Sat Jul 19 \u2014 US market CLOSED, weekend thin/gappy. TSM bearish near-term overhang from a 'beat-and-drop': reported Jul 16 (record Q2, net profit +77%, 67.7% gross margin, raised FY26 revenue growth >40%) but shares fell ~5% on capex raise to $60-64B + overseas-fab margin drag. Fresh, still-digesting negative reaction; trading heavy (~$399, below VWAP, 4h down). Lean: bearish/heavy near-term until it laps the report.",
+    "analyst": "Macro/sentiment favor short (crowded long, capex unwind, worst RS), but tactically price is AT VWAP (-0.56%), 30m/1h/5m neutral, bullish divergence flagged, bids stacked (+0.275), last 15m bar a green reversal off 398.8 on biggest volume. Market closed, sub-1 volumes. Shorting here = the book's proven loser (shorts 47% win, -0.87 avg). HOLD; arm a break below 398.7 toward 386.81.",
+    "portfolio": "TSM: HOLD (conf 0.34) \u2014 bearish thesis but green reversal at VWAP + bullish divergence, don't short the bounce; arm below 398.7."
+  },
+  "timestamp": "2026-07-19T17:14:15.946821+00:00"
+}

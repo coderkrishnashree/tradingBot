@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "NVDA/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Last 15m bar tagged 213.06 on 305 volume and closed back at 212.81 \u2014 a rejection at the wall; into thin Sunday tape I expect chop/rejection between VWAP (~207) and 213.06, likely a fade back toward 211.5-210.5 before any real breakout attempt.",
+  "expectancy_note": "No positive-expectancy entry: long is extended (stoch 94, 1h RSI 83.6, VWAP +2.84%) with only 0.25 to resistance = <1.5R and classic chase; short into an intact up-trend on thin Sunday tape is a wick-lottery. HOLD is highest EV.",
+  "rationale": "NVDA is a chased, deeply overbought long pinned against 213.06 with offer-heavy book (orderbook -0.21, structure_bias -0.17) and only 22.3 composite conf \u2014 the account's #1 loss pattern is entering continuation after the move, and there is zero room to resistance. US cash is closed (Sunday, gappy/wick-prone) and CPI + Warsh testimony hit Tuesday, so I want a confirmed structural event, not a mid-air entry. No entry clears the 1.5R bar in either direction; wait.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 213.2,
+    "expires_min": 240,
+    "note": "A hold above 213.06 breaks the wall and turns a pullback-to-retest into a valid continuation long instead of a chase."
+  },
+  "transcript": {
+    "macro": "Regime MIXED, leaning risk-on but late-cycle/fragile. Semis crowded/extended (BofA bubble risk 0.91). Sunday Jul 12 \u2014 US cash CLOSED, perps thin/gappy until Mon. Within 48h: June CPI Tue Jul 14 + Fed Chair Warsh first testimony Tue. Group co-correlated (NVDA/EWY 0.51) \u2014 smaller size. NVDA: long composite (+0.20) but structure_bias -0.17 and orderbook -0.21 (offer-heavy); RSI 66, stoch 94, at resistance 213.06 \u2014 longs chasing extension into a wall. Highest scan conf (22.3) but into resistance.",
+    "sentiment": "Overall semis CAUTIOUS/VOLATILE \u2014 SOX ~11% plunge on AI-spend scare, whipsaw. NVDA: tone stabilizing after summer swoon; Jul 9 refuted Kyber NVL144 2028-slip claim, Goldman called 21.7x forward 'compelling' \u2014 narrative/analyst items, LOW weight, not tradable binaries. Next earnings Aug 26. Up ~5% YTD vs SOXX +59%, a laggard. Near-term neutral, follows AI/SOX tape.",
+    "analyst": "At 212.81, resistance 213.06 tagged on last bar (high 213.06, closed back at 212.81, 305-vol rejection wick). Deeply overbought: stoch 94.6, 1h RSI 83.6, VWAP +2.84%. Offer-heavy book. Composite conf only 22.3. Long = chase with no room (<1.5R); short into intact up-trend on thin Sunday tape = wick-lottery. HOLD; long only on a hold above 213.06 (retest).",
+    "portfolio": "NVDA: HOLD (size 0) \u2014 extended into resistance with no room; continuation long only on a confirmed hold above 213.06."
+  },
+  "timestamp": "2026-07-12T22:02:34.592086+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "TSLA/USDT:USDT",
+  "size": 0.0,
+  "entry": 395.96,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Coiling 395.6-396.4 just above 391 support; RSI 27 + stacked bids favor a mean-revert bounce toward VWAP ~399.6 before any breakdown - the last green bar off 395.55 supports a short-term hold/bounce, not fresh downside.",
+  "expectancy_note": "Short into 391 support is only ~1.2xATR reward with stacked bids beneath (poor R:R, high stop-out risk); long is countertrend into a downtrend + Wed earnings binary. No edge either way - HOLD is highest expectancy.",
+  "rationale": "TSLA is extended down (RSI 26.7, -0.91% below VWAP) and pinned ~5pts above 391 support with orderbook +0.558 (bids stacked) and crowded long/short 2.015 - a fresh short here chases a stretched move into support, the account's proven loser. The mid-TF candles show momentum stalling and a green rejection bar off 395.55, i.e. bounce-prone, not breaking down. I want a clean loss of 391 (fresh breakdown, stops run) or a VWAP rejection to short into strength, not a fade into support.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 390.8,
+    "expires_min": 240,
+    "note": "Losing 391 support confirms a real breakdown rather than an oversold hold, opening room toward the next leg down and justifying a fresh short."
+  },
+  "transcript": {
+    "macro": "Regime risk-on but headline-sensitive (soft June CPI, S&P +0.38%, Nasdaq +0.9% semis-led). US equity cash market CLOSED at scan -> TSLA perp thin/gappy/mean-revert prone until 13:30 UTC open; funding stale, lean on L/S ratio + orderbook. TSLA last ~395.96: structure_bias -0.225, L/S 2.015 (crowded long -> contrarian short support) but orderbook +0.558 (bids stacked -> bounce risk), RSI 26.7 just above 391 support, extended down/squeeze-prone. Low BTC corr; downtrend intact 15m/1h/4h. A short here = mean-reversion-into-support fade, not a breakdown. Size DOWN.",
+    "sentiment": "Net NEUTRAL-to-BEARISH into a high-weight binary. Q2 2026 earnings after close Tue Jul 22 (~8 days out, outside same-cycle window). Q2 deliveries already blew out 480,126 (+25% y/y, Jul 2) - beat priced in; Jul 22 now a margins/FCF/guidance story; tape 'sideways ahead of earnings, delivery beat can't mask margin squeeze.' ~$408, analysts balanced Hold (avg PT ~$425). Robotaxi live in Miami but no material revenue before 2027. No fresh <=48h shock.",
+    "analyst": "Price coiling 395.6-396.2 with a green rejection bar off 395.55, momentum stalled ~5pts above 391 support, bids stacked, RSI 26-27. Fresh short = chasing a stretched move into support (account's #1 loss pattern) with poor R:R (~1.2xATR to 391). Long is countertrend into intact downtrend + Wed earnings binary. Best expectancy is HOLD, short armed only on a clean break below 391.",
+    "portfolio": "HOLD TSLA/USDT:USDT - no edge; arm a short on a clean loss of 391."
+  },
+  "timestamp": "2026-07-14T22:33:51.095496+00:00"
+}

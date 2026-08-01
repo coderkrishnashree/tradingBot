@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "TSLA/USDT:USDT",
+  "size": 0.0,
+  "entry": 394.53,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Oversold bounce likely first: dip already flushed to 394.01 on heavy volume, stoch 22 and 5m turning up \u2014 expect a probe back toward VWAP ~397 over the next 2-4 bars before the 30m/4h downtrend can resume. Shorting here at the low into support 391 is chasing; longing counter to ADX-69 downtrend is low-expectancy.",
+  "expectancy_note": "p(win) ~0.45 either way, R:R poor: short target 391 is only 0.9% off with a fresh oversold bounce in the way (classic late-short-stop pattern); long fights a 69-ADX downtrend. HOLD beats both until price picks a side.",
+  "rationale": "TSLA is in a firm 30m/4h/1h downtrend (ADX 69) but just flushed into support 391 with stoch 22 and a nascent 5m bounce, so a market short here is the account's #1 loss pattern (late short into a bounce) and a long is counter-trend into resistance. US market is closed \u2014 thin, gappy off-hours perp with no <48h catalyst \u2014 warranting no size. The high-expectancy version is a short on a bounce back to VWAP ~397 or a fresh short once support 391 breaks with room to run; neither exists at 394.53, so I wait.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 391.0,
+    "expires_min": 240,
+    "note": "Losing support 391 confirms the dominant downtrend has resumed with clear room to the next level, validating a fresh short with proper R:R instead of chasing the current oversold pinch."
+  },
+  "transcript": {
+    "macro": "Overall regime RISK-ON but late-stage/event-gated. TSLA benefits from broad tech/risk-on tape, but US market CLOSED at scan (~21:59 ET Jul 15) \u2014 off-hours perp, thin liquidity, gap risk into Jul 16 US open. Positioning: funding 0 (neutral); L/S 1.71 = moderately crowded long (contrarian); orderbook near-flat +0.06; structure_bias -0.19; very low BTC corr (0.26) -> moves on its own; rel strength -0.7%; ADX 69 + 30m/4h down, pressing support 391. Read: MIXED; decide on price/structure; smaller size given hours/gap risk.",
+    "sentiment": "Mixed with a MAJOR binary looming: Q2 earnings after close Wed Jul 22 (~6 days out, outside 48h but flag if held into next week). Q2 deliveries already reported Jul 2: 480,126 +25% YoY, ~74k above consensus (strong beat, priced). Robotaxi Miami small; NHTSA scrutiny overhang. <=48h catalyst: none; drift tracks Nasdaq/QQQ. JPM sees Q2 EPS ~1.80 vs consensus ~1.95 (below), risk into Jul 22. Lean: neutral near-term; do NOT hold directional TSLA blindly into Jul 22 earnings.",
+    "analyst": "Firm 30m/4h/1h downtrend (ADX 69) but just flushed into support 391 with stoch 22 and a 5m bounce forming (last closes 394.02->394.38->394.53, higher high 395.13). Market short here = account's #1 loss pattern (late short into bounce); long is counter-trend into resistance. US market closed = thin/gappy, no <48h catalyst. HOLD; arm a reconsider on a break below 391 (confirms downtrend resumption, room to run) rather than chasing the oversold pinch or fading VWAP counter-trend.",
+    "portfolio": "TSLA/USDT:USDT -> HOLD (conf 0.50), size 0; armed short trigger on break below 391."
+  },
+  "timestamp": "2026-07-16T02:04:32.081452+00:00"
+}

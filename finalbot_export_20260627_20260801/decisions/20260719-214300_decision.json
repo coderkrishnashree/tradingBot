@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "META/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.35,
+  "playbook": "none",
+  "forecast": "Coils/bounces in the 638-641 zone off exhausted 638.03 sellers; a short only opens on a decisive loss of support 626.46, a long only on a VWAP reclaim ~647.",
+  "expectancy_note": "Scan short is below-VWAP (-1.16%), TF-unaligned (5m flipped long +0.9), basing on the last bars = chasing into a bounce; p(win) sub-0.5 with negative R:R. HOLD beats a late short.",
+  "rationale": "The only conviction is 4h (-0.807), but price is already 1.16% under VWAP with 15m/1h flat and 5m long, and the last candles base/bounce off 638.03 \u2014 entering short here fights the counter-bounce that has stopped this account's late shorts. It is also the ONLY positive-RS name (+5.2%), a poor short, on a thin closed-market Sunday with GOOGL/TSLA earnings two-way risk. No long without a VWAP reclaim. Flat is highest expectancy.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 626.46,
+    "expires_min": 240,
+    "note": "Losing 4h support 626.46 confirms the downtrend and re-arms the short with momentum instead of chasing below VWAP."
+  },
+  "transcript": {
+    "macro": "Regime: RISK-OFF/defensive, and it is SUNDAY 2026-07-19 \u2014 US cash equities CLOSED until Monday, so tokenized equities (TSM, COIN, ORCL, META, CRCL, SNDK) trade thin/gappy with weekend gap risk. Last week: S&P -1.6%, Nasdaq -2.9%, PHLX Semiconductor (SOX) entered a BEAR MARKET on an AI-capex scare (Samsung, TSM capex hike to $60-64B). BTC ~$64.4k soft, capped below $65.6k pivot, dominance ~54-56% slipping, weak US spot demand. Catalysts this week: GOOGL/TSLA/INTC earnings whip semis/tech; Fed quiet before Jul 28-29 FOMC. Long/short crowded LONG on ORCL 2.63, TSM 2.45, CRCL 2.24, SNDK 1.59 (contrarian downside risk). Environment argues for SMALLER SIZE across the board.",
+    "sentiment": "2026-07-19: no fresh <=48h binary catalyst on any name. TSM \u2014 neutral/slightly bullish post Q2 beat (Jul 16, raised FY guide >30%), catalyst spent. COIN \u2014 neutral/cautious, ~$159, JPM PT cut, 14% layoffs. ORCL \u2014 bearish tilt, S&P cut to BBB-, NM blocked its 2.5GW data center. BTC \u2014 bearish/risk-off, Fear & Greed 25 (Extreme Fear). META \u2014 neutral now, Q2 earnings Jul 29 event risk. CRCL \u2014 bearish, ~$61 below all EMAs, Mizuho downgrade to Underperform, Coinbase/BlackRock 'Open USD' threat. SNDK \u2014 bullish momentum but stretched (+700% YTD, Goldman PT $2,200), down 30%+ from June high.",
+    "analyst": "Scan flags a short but it's below VWAP (-1.16%), TF-unaligned (5m flipped long), and basing off 638.03 \u2014 chasing into a bounce. Also the only positive-RS name (+5.2%), a poor short, with Jul-29 earnings ahead. Flat.",
+    "portfolio": "HOLD META \u2014 scan short is a chase below VWAP into a bounce; wait for 626.46 to break."
+  },
+  "timestamp": "2026-07-19T21:43:00.029447+00:00"
+}

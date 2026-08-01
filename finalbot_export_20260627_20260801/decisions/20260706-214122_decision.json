@@ -1,0 +1,27 @@
+{
+  "action": "hold",
+  "symbol": "EWY/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "expectancy_note": "Binary Samsung earnings sub-24h + thin overnight window makes both long and short coin-flips; est p(win) ~0.5 with gap risk that blows through any noise-based stop = negative expectancy. HOLD beats forcing a directional bet.",
+  "rationale": "EWY faces Samsung Electronics preliminary Q2 print tomorrow (July 7); the ETF is ~46% Samsung+SK Hynix memory beta, so this is a genuine sub-24h gap-risk binary. KOSPI already slid 1.5% as foreigners de-risked into it. Technicals are mixed and non-actionable: high ADX 81 is contradicted by a fresh 4h BEARISH DIVERGENCE, RS is -6% vs BTC (lagging the group), long/short 1.32 crowded long and orderbook imbalance -0.15 lean seller-heavy. Price sits near VWAP (+0.49%) mid-range between support 174.6 and resistance 202.9 with no clean level to lean on, and it is the illiquid overnight tokenized-equity session (gap-prone) \u2014 no edge worth risking capital into an event that can jump either way.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 194.5,
+    "expires_min": 240,
+    "note": "A decisive hold above 194.5 clears the recent intraday high and invalidates the 4h bearish divergence, confirming buyers absorbed the Samsung print and a post-earnings continuation long is worth chasing."
+  },
+  "transcript": {
+    "macro": "Regime RISK-ON but tokenized equities in illiquid overnight window (thin, gap-prone). Positioning: funding ~0, EWY L/S 1.32 crowded long. Korea standout \u2014 KOSPI +86% YTD memory supercycle, Goldman raised targets. Near-term nuances: won weak, foreigners net sellers, EWY ~46% SK Hynix+Samsung memory beta. Scan flags 4h bearish divergence, RS -6.1% vs BTC (lagging) despite ADX 81.",
+    "sentiment": "EWY bullish but HIGH event risk sub-24h: Samsung preliminary Q2 earnings July 7 (tomorrow), op profit expected ~17-18x YoY \u2014 the one imminent binary in the basket, can gap ETF either way. KOSPI slid ~1.5% July 6 as foreigners de-risked into print. Don't be complacent long into it.",
+    "analyst": "Decisive factor is Samsung's July 7 preliminary \u2014 genuine sub-24h binary on a ~46% memory-beta ETF, plus thin overnight tape. ADX 81 is stale vs a fresh 4h bearish divergence; RS -6%, L/S 1.32 crowded, orderbook -0.15 seller-lean, price mid-range with no clean level. Both long (into gap) and short (into beat-relief) are coin-flips = negative EV. HOLD, armed for a post-print continuation long above 194.5.",
+    "portfolio": "HOLD EWY \u2014 event risk (Samsung July 7) dominates; no edge, wait for the print to resolve."
+  },
+  "timestamp": "2026-07-06T21:41:22.095459+00:00"
+}

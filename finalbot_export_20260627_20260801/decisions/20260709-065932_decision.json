@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "TSM/USDT:USDT",
+  "confidence": 0.34,
+  "size": 0.0,
+  "entry": 441.14,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "none",
+  "forecast": "Off-hours thin drift; price likely chops 437-442 on near-zero volume until US cash reopens. No clean structural level at 441 to lean on; next real decision comes on a dip toward 425.7 support or a reclaim above the 30m congestion.",
+  "expectancy_note": "No edge: entry is mid-range (441 vs 425.7 sup / 478.9 res), 5m RSI 98 is a liquidity artifact, US market closed = gap risk. Any entry here has <50% p(win) with poor location; HOLD is highest expectancy.",
+  "rationale": "TSM sits mid-air between 425.72 support and 478.94 resistance with price right at VWAP and no clean level to trade against; the recent grind from 436 to 441 is on vanishing off-hours volume (last bar 0.06), not real demand. 4h bullish divergence and +0.579 score are constructive but not actionable in a closed cash session with overnight gap risk, and earnings July 16 is building event vol. Best expectancy is to wait for price to reach a real level, so size is 0.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 427.0,
+    "expires_min": 360,
+    "note": "A pullback into the 425.72 support zone would give a real level to buy the 4h bullish divergence against with a tight stop, converting this HOLD into a high-location long entry."
+  },
+  "transcript": {
+    "macro": "Regime MIXED, leaning risk-off (2026-07-09). Hawkish Fed, CPI 4.2% hot, yields rising, oil shock Brent +5.4%. Funding ~0 (no edge). US cash CLOSED at snapshot \u2192 perps thin/gap-prone; TSM 5m RSI 98 on tiny volume is a liquidity artifact, near-untradeable off-hours. TSM: L/S 1.284 (moderately long-crowded), structure_bias -0.044, lowest BTC corr (0.16) so trades on own semi/geopolitics story. 4h score +0.579 with bullish divergence, but Q2 EARNINGS JULY 16 starts pulling pre-event vol in. Neutral, smallest size, tightest gap respect.",
+    "sentiment": "TSM: HIGH event risk. Earnings CONFIRMED Thursday July 16 before open (~7 days out). Q2 est EPS ~$3.74-3.80, revenue ~$39.8B; guided FY2026 revenue +30%+ USD. Not inside 48h window today but a hard binary if holding toward mid-week next week; event risk builds daily. No fresh 48h shock; scan shows bullish 4h divergence. Verdict: NEUTRAL next few candles; flag rising earnings risk approaching July 16.",
+    "analyst": "last 441.14, ADX 56.6, RSI 40.0 (4h), %B 0.506, VWAP dist -0.21% (at VWAP). Support 425.72, resistance 478.94, ATR% 1.89. 4h bullish divergence, score +0.579. L/S 1.284, structure_bias -0.044, BTC corr 0.16 (own story). 15m: grind off 436.16 back to 441.14 on tiny volume (last bar 0.06). Price is mid-air between support/resistance at VWAP \u2014 no level to lean on; closed session, gap risk, earnings Jul 16 building vol. Clear HOLD, size 0.",
+    "portfolio": "HOLD TSM \u2014 mid-range, no edge in thin closed session; arm a long on a dip into 425.7 support."
+  },
+  "timestamp": "2026-07-09T06:59:32.699410+00:00"
+}

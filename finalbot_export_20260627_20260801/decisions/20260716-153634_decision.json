@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "TSLA/USDT:USDT",
+  "size": 0.0,
+  "entry": 393.76,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Chop between defended 386 support and 395 resistance for the next few bars; 386 just held with a flush-and-reclaim, and 5m momentum flipped up, so I expect a grind toward 395 rather than a clean breakdown here.",
+  "expectancy_note": "p(win) ~0.5 either direction; ADX 22.6 = no trend, weak misaligned short composite (conf 32.8%), crowded-short squeeze risk + earnings Jul 22 make a fresh short the account's classic late-short loss. No edge > HOLD.",
+  "rationale": "Signal is muddy: composite short but only 32.8% conf and aligned=false, ADX 22.6 borderline chop, and the recent flush to 386 was immediately reclaimed to 395 with 5m momentum turning up \u2014 not a continuation setup. Structure is mixed (crowded longs L/S 1.87 vs sellers in the book -0.38), and lopsided shorts into an approaching earnings binary create squeeze risk against any fresh short. No clean long catalyst mid-range either, so any entry now is a sub-1.5 R:R coin flip; HOLD is the highest-expectancy call until price resolves the 386/395 range.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 385.9,
+    "expires_min": 240,
+    "note": "Losing the 386 support that just held on the flush confirms the range broke down and reopens a clean short toward the next level; a reclaim of 395 would instead flip me long."
+  },
+  "transcript": {
+    "macro": "RISK-OFF/defensive tilt (hawkish Warsh Fed), though June CPI/PPI soft. TSLA ($394): risk-off but crowded-short \u2014 L/S 1.87, orderbook -0.38 (structure_bias -0.37); shorts already lopsided = squeeze risk. RS -4.7%. Smaller size.",
+    "sentiment": "TSLA event risk, lean neutral into print. Q2 EARNINGS Wed Jul 22 (after close) \u2014 outside 48h but approaching; expect vol compression/positioning now. Record Q2 deliveries (480k, +25% y/y, beat) already digested; Miami robotaxi live. Stock 'fully priced' (>200x P/E). No fresh <=48h catalyst; earnings is the next binary.",
+    "analyst": "Muddy signal: composite short but only 32.8% conf and aligned=false, ADX 22.6 borderline chop; the flush to 386 was immediately reclaimed to 395 with 5m momentum turning up \u2014 not a continuation. Mixed structure (crowded longs L/S 1.87 vs sellers -0.38), and lopsided shorts into the Jul 22 earnings binary = squeeze risk vs any fresh short. No clean long mid-range. Any entry is a sub-1.5 R:R coin flip. Reconsider short on a break below 385.9, long on a 395 reclaim.",
+    "portfolio": "TSLA: HOLD (conf 0.5) \u2014 muddy chop in 386/395 range, squeeze risk into Jul 22 earnings; stand aside."
+  },
+  "timestamp": "2026-07-16T15:36:34.448531+00:00"
+}

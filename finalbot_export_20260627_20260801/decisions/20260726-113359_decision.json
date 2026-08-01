@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "XAG/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Price stalling under $59 after the push to 59.02; last 3 bars fading with the final 15m bar closing on its low (58.92). Expect chop/small pullback toward 58.5-58.6 VWAP zone into FOMC unless 59.05 breaks; overbought + crowded long argues against chasing here.",
+  "expectancy_note": "Long chases +1.11% VWAP-extended, RSI 74.9/stoch 91.7, crowded 4.03:1 into FOMC binary <48h. Short fights ADX 93.6 + bid support, no reversal confirmed. Best expectancy is wait for a clean 59.05 break (buy continuation) or a 58.0 loss (fade).",
+  "rationale": "Very strong aligned uptrend (ADX 93.6, all TFs long) but stretched and overbought right at the $59 rejection, with mid-TF candles fading bar-by-bar and the last bar closing on its low. Long/short 4.03 shows the trade is crowded on my side, and FOMC is a binary event inside my 48h window - the exact recipe for a stop-out on a routine counter-move. No R:R-viable entry with stop near structure and target respecting resistance, so HOLD is highest expectancy; size 0.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 59.05,
+    "expires_min": 240,
+    "note": "Reclaiming/breaking above the 59.02 rejection high proves the stall resolved up and confirms trend continuation toward $60/$61 - flips me to a trend long."
+  },
+  "transcript": {
+    "macro": "Overall regime MIXED, leaning risk-off intraday (Nasdaq -2% on week, oil spike). Dominant event FOMC July 28-29 (inside 48h): hold eases real-yield pressure, hawkish surprise hurts. USD/yields firm = headwind for non-yielders. Tokenized metal - US cash-session hours are real liquidity. XAG ~$58.9 on $58 support; real yields/strong DXY active headwind; L/S crowded 4.03 (contrarian long-crowding risk); RSI 74.9/stoch 91.7 overbought; rel_strength -6.3% vs BTC. FOMC is binary catalyst.",
+    "sentiment": "XAG BULLISH structurally but macro-vulnerable: ~$58-59, 6th straight annual supply deficit + AI/industrial demand, but whipsawing on yield surge, stalling below $60. Rising real yields into FOMC a headwind; safe-haven Iran bid a tailwind. Mildly constructive but two-sided. Overall risk-off into loaded week (FOMC Wed Jul 29).",
+    "analyst": "Strong aligned uptrend (ADX 93.6, all TFs long) but stretched/overbought at the $59 rejection; mid-TF candles fading, last bar closing on its low (58.92). Crowded long 4.03:1 into an FOMC binary <48h is the recipe for a stop-out on a routine counter-move. Long chases a VWAP-extended, overbought move against a crowded book; short fights ADX 93.6 and bid support with no confirmed reversal. No R:R-viable entry - HOLD. Arm a break above 59.05 to flip long.",
+    "portfolio": "HOLD XAG/USDT:USDT (conf 0.60) - overbought + crowded long into FOMC, no R:R entry."
+  },
+  "timestamp": "2026-07-26T11:33:59.990255+00:00"
+}

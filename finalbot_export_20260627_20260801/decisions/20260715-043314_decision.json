@@ -1,0 +1,25 @@
+{
+  "action": "hold",
+  "symbol": "COIN/USDT:USDT",
+  "confidence": 0.6,
+  "size": 0.0,
+  "entry": 162.95,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "forecast": "Price is stalling at 162.9-163.0 after rejecting 163.5; expect chop/small fade toward 161.8 over next 2-4 bars, no clean entry until it either pulls back to VWAP ~159 or breaks 161.8.",
+  "rationale": "COIN is aligned-long but deeply stretched (RSI 67, stoch 94, %B 0.95, +2.55% over VWAP) and the recent 15m candles show momentum drying up and rolling over at 163.5 into thin sideways churn. Learner stats show this exact profile (aligned late-continuation long, high vwap_dist, high ADX) is the account's biggest bleeder at -2.62R. It is only BTC-beta (corr 0.70, RS +0.9%) with BTC itself stalling and US crypto demand soft, so there is no edge to chase. Better to wait for a VWAP pullback to buy the trend cheaply or a structure break to short.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 161.8,
+    "expires_min": 240,
+    "note": "Losing 161.8 (recent 15m structure low) breaks the near-term higher-low ladder and confirms the stall is turning into a pullback \u2014 re-debate for a short or a lower-VWAP long entry."
+  },
+  "transcript": {
+    "macro": "Regime MIXED tilting mildly risk-on: cool June CPI cut Fed hike odds (July ~17-33%, Sept ~60-69%); S&P +0.38%, Nasdaq +0.9%, tech leading; Middle East/oil risk caps equities. BTC ~$63k stalling after 6-day run, BTC dominance ~60%, Coinbase Premium negative 50 straight days = soft US crypto demand. COIN: crypto-beta long, BTC corr 0.70, RS +0.9% (tracking BTC not leading), funding flat, L/S 1.29 mildly long-crowded, structure_bias -0.078. Q2 earnings ~July 30 outside 48h window.",
+    "sentiment": "COIN net cautiously BULLISH: rallied ~4-5% July 7-10 on US Tiger upgrade (Hold->Buy, $200 PT), Strategic Bitcoin Reserve chatter, Circle OCC bank approval (positive for USDC). Offset: high-beta to weak BTC tape. Q2 earnings July 30 after close, outside window. Mild tailwind, not a tradable catalyst.",
+    "analyst": "Aligned-long but deeply stretched (RSI 67.2, stoch 94, %B 0.95, vwap_dist +2.55%). 15m candles rolled over at 163.5 into thin churn 162.9-163.0. L/S 1.29, structure_bias -0.078, only BTC-beta with BTC stalling. Learner: this aligned late-continuation-long profile is the account's #1 bleeder at -2.62R. Short tempting but ADX 33.5 uptrend with no clean rejection = countertrend risk. HOLD best expectancy; wait for VWAP pullback (~159) or 161.8 break.",
+    "portfolio": "HOLD COIN \u2014 stretched late-continuation long into stalling BTC-beta tape, no clean entry."
+  },
+  "timestamp": "2026-07-15T04:33:14.575776+00:00"
+}

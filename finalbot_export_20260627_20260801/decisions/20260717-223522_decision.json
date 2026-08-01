@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "QQQ/USDT:USDT",
+  "size": 0.0,
+  "entry": 696.02,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.55,
+  "playbook": "none",
+  "forecast": "Price coiled dead-flat at 696 on collapsing volume just above the 694.84 micro-low; likely chops 694-697 into the weekend close, with a Monday-gap either flushing sub-688 (continuation) or mean-reverting toward 702-708 VWAP (bounce) - no clean next move to trade tonight.",
+  "expectancy_note": "Shorting 4h RSI 25.5 into a flat/no-momentum tape with support only ~1.1xATR away and a weekend gap = negative expectancy; account shorts run 0.47 win / -0.87 avg and model penalizes aligned/structure-bias shorts. Best short is on a bounce, not here.",
+  "rationale": "QQQ is the cleanest bearish expression but deeply oversold (4h RSI 25.5, ADX ~80) and the last 8 bars have gone dead flat at 696 on near-zero volume - momentum has faded, not resumed, so a market short now chases into exhaustion with first support (688) barely 1xATR away and a weekend gap threatening a mean-revert bounce that would hit any honest stop. Learner data confirms shorts bleed here (0.47 win, -0.87 avg). Rather short a bounce into 702-708 with a stop above 712, or short a decisive break of 688 on volume - neither trigger present, so HOLD is the highest-expectancy call.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 688.0,
+    "expires_min": 240,
+    "note": "Losing 688 support on volume breaks the coil and confirms continuation for a fresh short; a bounce above 702 sets up a short into strength."
+  },
+  "transcript": {
+    "macro": "RISK-OFF into a weekend; deepening semiconductor selloff, tech-led de-risking. Tokenized equity perps judged as stocks. US cash market CLOSED into a weekend gap -> thin liquidity, Monday-gap risk -> size down. QQQ is the cleanest short-side expression of the regime: 4h RSI 25.5, ADX 79.5, consistent down across TFs, VWAP -2.1%, rel strength -7.8%, last 696.02. structure_bias +0.12 is a misleading orderbook (0.77) artifact vs a real downtrend - thin after-hours noise. No single-stock earnings risk. RSI 25 = late/extended; best entries on bounces.",
+    "sentiment": "QQQ bearish, the index expressing the selloff. No single-name catalyst; the tech tape that just broke (4h RSI 25.5, ADX ~80, strongly trending down). Pure macro/beta bet: bearish while semi-led risk-off persists, but deeply oversold so a mean-revert bounce on Monday stabilization is the main counter-risk. Neutral-to-bearish; follow the broad market.",
+    "analyst": "Last ~8 15m bars pinned 695.9-696.5 in a 0.5pt coil on near-zero volume ~1pt above the 694.84 low and ~8pt above 688 support - stalled tape, not a fresh leg. Shorting 4h RSI 25.5 into a weekend gap is the account's #1 loss pattern (shorts 0.47 win, -0.87 avg; structure_bias/aligned weights penalize it). First TP (688) only ~1.1xATR away = poor R:R. Short a bounce into 702-708 with stop above 712, or a decisive break of 688 - HOLD until then.",
+    "portfolio": "HOLD QQQ (size 0) \u2014 cleanest regime short but oversold and coiled flat into a closed/gappy market; reconsider short on a break below 688 or a bounce into 702-708."
+  },
+  "timestamp": "2026-07-17T22:35:22.484460+00:00"
+}

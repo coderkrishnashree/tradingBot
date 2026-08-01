@@ -1,0 +1,26 @@
+{
+  "symbol": "ORCL/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.6,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "forecast": "Price stalling at 127.4-127.9 after a volume-spike push; last bar closed mid-low of range on fading volume. Most likely a drift/fade back toward VWAP ~124.5 over the next few bars rather than clean continuation; a real long only sets up on a controlled pullback there.",
+  "expectancy_note": "Chasing a long here (+2.31% over VWAP, stoch 70.9, ADX only 25.9) into a risk-off tape and the MOST crowded-long name is negative expectancy; short fights the learner (shorts 0.47 win, -0.88 avg) and the tape is holding. No edge either way now.",
+  "rationale": "Scan flags long but this is a chase: price extended above VWAP, ADX barely trending (25.9), and ORCL is the single most crowded-long name (L/S 2.939, structure_bias -0.314, rel-strength -23.9%) heading into a risk-off tech tape with weekend gap risk and near-junk credit headlines. Model weights punish exactly these conditions. No R:R-positive entry at 127.35; a long only earns edge on a pullback into VWAP ~124.5, and a loss of that level confirms the crowded-long unwind. Sit flat and let a level decide.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 124.5,
+    "expires_min": 240,
+    "note": "Losing VWAP (~124.5) confirms the crowded-long unwind, opens a with-flow short toward support 120.79; reclaim-and-hold on a pullback would instead be the better long."
+  },
+  "transcript": {
+    "macro": "REGIME RISK-OFF in tech/semi. Tokenized equity gaps at Monday open. ORCL L/S 2.939 (MOST crowded-long name on the board), structure_bias -0.314, rel-strength -23.9%. Not a semi but same lopsided positioning. Verdict: UNFAVORABLE long \u2014 crowded longs first to unwind Monday.",
+    "sentiment": "ORCL mixed/cautious \u2014 most bearish near-term skew of the equity names. Q4 strong (rev +21%, OCI +93%) but fresher headlines negative: sharp drawdown, ~$40B FY27 debt-financing alarm, credit near junk. No <=48h scheduled catalyst; Alphabet+Tesla 7/20-24 = event risk.",
+    "analyst": "Scan says long but it's a chase: +2.31% over VWAP, ADX only 25.9, most crowded-long name into risk-off with near-junk credit headlines. No R:R at 127.35. HOLD; a long earns edge only on a pullback to VWAP ~124.5, loss of which confirms the unwind (short).",
+    "portfolio": "ORCL: HOLD 0.60 \u2014 crowded-long chase into bearish skew; flat, watch 124.5."
+  },
+  "timestamp": "2026-07-20T00:46:56.625921+00:00"
+}

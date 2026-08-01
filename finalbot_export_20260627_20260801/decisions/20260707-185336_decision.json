@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "SOL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Choppy coil between 81.4 and 82.75 over the next 2-6 bars; momentum has faded off the 82.75 rejection and 5m is rolling (RSI 30), but funding is neutral and BTC is bid, so no clean directional edge - expect range-bound drift until either 83.95 breaks or 81.4 loses.",
+  "expectancy_note": "Any short here is a small intraday roll-over vs far-away 71.86 support = R:R barely 1.2 with a noise-band stop; any long needs the 83.95 break it hasn't earned. p(win) on either forced trade ~0.45 - negative expectancy. HOLD beats both.",
+  "rationale": "SOL is the RS leader (+14.5% vs BTC) but composite is flat (conf 6.9%), only 4h leans long, and price just failed at 82.75 well short of 83.95 resistance with a lower-high/lower-close fade and 5m rolling over (bearish divergence flagged). BB width is compressed (2.79%) = coiling, not trending - no trigger yet. The 2:1 crowded long plus 0.80 BTC beta is real squeeze risk but BTC is holding bid, so there's no confirmed break either way. No SOL catalyst inside 48h. Sitting flat and waiting for the range to resolve is the highest-expectancy call; size 0.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 83.95,
+    "expires_min": 240,
+    "note": "A 15m/1h close above 83.95 confirms the momentum-continuation long the RS leadership sets up; that break is the only clean entry - a loss of 81.4 would instead arm the crowded-long squeeze short."
+  },
+  "transcript": {
+    "macro": "Regime (2026-07-07): cautiously risk-on but shallow. BTC dominance ~55.5%, capital consolidating into BTC not alts (headwind for SOL outperformance). BTC ~$64k +6.3% week on soft US labor data, but Coinbase premium negative ~50d (weak US spot demand), Fear & Greed 24 (Extreme Fear); BTC choppy (ADX 8.1) with bearish divergence near $64.7k resistance. SOL derivatives: price ~$81.79, +14.5% RS vs BTC (strongest name, leading tape). Funding neutral/flat (0.00144%). OI very large 7.11M contracts (~$5.5B, biggest in scan) = real build but crowded. Long/short 2.098 (~2:1 long, contrarian risk, structure_bias -0.302). BTC corr 0.80 (high beta). Timeframes mixed: composite flat (score +0.099, conf 6.9%), 4h up but 5m rolling (RSI 30), bearish divergence at 4h, price pinned under $83.95. Bottom line: MIXED, not a clean directional bet. Not a short on structure; long only as momentum-continuation on hold above $83.95, sized down; FLAT is honest read. Biggest risk: 2:1 crowded long + 0.80 BTC beta squeeze if BTC divergence resolves down.",
+    "sentiment": "SOL ~$81 today, +8% week off ~$73 support, +30% month, strongly outperforming BTC. Fundamentals bullish but slow-burn (not <=48h): record network activity (weekly non-vote tx crossed 1B ~Jul 6, active addresses +76.8% in 2wks), stake-weighted on-chain governance launched Jul 2, tokenized RWA/stock adoption surging, spot SOL ETFs w/ staking live since Oct 2025 pulling inflows. Social notably bullish (highest since Jan, ~3.2:1). Jul 7 warning: crowded unliquidated longs across BTC/ETH/SOL = squeeze risk if BTC rolls. No SOL unlocks (fully unlocked), no fresh hack. Real <=48h risk is MACRO: extreme fear, Fed hawkish, June CPI Jul 14 (outside 48h), FOMC Jul 28-29. Verdict: NEUTRAL-to-slightly-bullish; no SOL catalyst next 24-48h, trade price structure + BTC lead.",
+    "analyst": "Path read (15m): rallied 80.81 -> 82.75 peak, then faded on expanding volume into a lower-high/lower-close string (82.67 -> 82.25 -> 82.0 -> 81.79, last bar closing near its low 81.67). Rejection came ~1.2 below the 83.95 resistance, so the coil never tested the breakout level. Composite genuinely flat (conf 6.9%, score +0.099); only 4h leans long, 5m rolling over (RSI 30.3), bearish divergence flagged, BB width compressed 2.79% (squeeze/coil, no trend to ride). No tradable edge either way: a short targets far-away 71.86 support off only a small intraday roll (R:R ~1.2 with a noise-band stop = donation); a long needs a 83.95 reclaim it hasn't earned. Funding neutral (0.0014%), so no fade edge at the extreme. Risk is the 2:1 crowded long + 0.80 BTC beta squeeze, but BTC holding bid so squeeze isn't triggered. Decision: HOLD, size 0; armed trigger at 83.95 (breakout = momentum-continuation long), loss of 81.4 flips toward crowded-long squeeze short.",
+    "portfolio": "SOL/USDT:USDT \u2014 HOLD, size 0, confidence 0.50: mid-range coil under $83.95 resistance with no clean edge either direction; wait for 83.95 break (long) or 81.4 loss (short)."
+  },
+  "timestamp": "2026-07-07T18:53:36.955153+00:00"
+}

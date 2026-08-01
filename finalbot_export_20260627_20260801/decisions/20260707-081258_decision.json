@@ -1,0 +1,27 @@
+{
+  "symbol": "NVDA/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.34,
+  "size": 0.0,
+  "entry": 194.19,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "none",
+  "expectancy_note": "Short here p(win)~0.4, R:R~0.6 (2% to support vs 3.3% stop above resistance) into oversold+squeeze \u2014 negative expectancy; no long trigger yet. HOLD beats both.",
+  "rationale": "NVDA is deeply oversold (4h RSI 30.8, 1h RSI 19.2, stoch 13.8, %B 0.046) sitting right ON support 190.16 while crowded long (L/S 1.84) into a cash-open bounce risk \u2014 shorting the low into a squeeze is exactly the hazard the macro desk flagged, and R:R is poor (only ~2% to support vs a stop that must clear 200.68). A fresh long has no reversal trigger and is mostly QQQ beta (corr 0.82, rel strength -1.9), so it is not an independent bet. Best expectancy is to wait: a decisive break below support opens a clean trend-continuation short with room to run, avoiding the donation of selling the oversold hole.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 190.16,
+    "expires_min": 240,
+    "note": "Losing support 190.16 on a 1h close confirms the oversold bounce failed and opens the trend-continuation short with room down toward next support, without selling into the oversold hole."
+  },
+  "transcript": {
+    "macro": "Regime MIXED, leaning cautious. Rates hostile (~19% HIKE risk Jul 28-29 FOMC, hot CPI) \u2014 pressures NVDA's ~43x forward P/E. Semis bellwether sitting right ON support 190.2, oversold (RSI 30.8, 1h RSI 19), crowded long (L/S 1.84). SOX +47% YTD, demand strong, but July AI-valuation wobble and no room for error on the multiple. Two-sided into the open \u2014 macro desk: treat NVDA shorts as mean-reversion-only, not trend-adds; shorting oversold+crowded-long into cash-open squeeze is the biggest positioning hazard.",
+    "sentiment": "Sector tone fragile/two-sided: late-June AI-chip selloff (NVDA led the group) then Jul 6 bounce. NVDA bullish long-term but no <=48h binary (earnings Aug 26). FY26 rev $215.9B (+65%), Blackwell sold out through mid-2026, $80B buyback \u2014 all long-horizon. Near-term risk: poster child of the valuation/bubble debate; NVL144 rack delays to 2028 lingering negative. Moves this cycle = sector beta, not stock-specific. High corr to QQQ (0.82) \u2014 one bet with QQQ/INTC.",
+    "analyst": "Two-sided oversold-on-support setup; both a fresh short (squeeze/bounce risk, R:R ~0.6, sells the low) and a fresh long (no trigger, rates-hostile, pure QQQ beta) are negative-to-thin expectancy. Correlated basket NVDA+QQQ+INTC = one bet, so no need to force NVDA. HOLD; wait for a real level break \u2014 loss of 190.16 opens the trend-continuation short without selling into the oversold hole.",
+    "portfolio": "NVDA: HOLD (conf 0.34) \u2014 oversold on support, crowded long, correlated-basket beta; armed breakdown trigger at 190.16."
+  },
+  "timestamp": "2026-07-07T08:12:58.723617+00:00"
+}

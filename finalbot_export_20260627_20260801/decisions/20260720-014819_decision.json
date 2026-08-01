@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "GOOGL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.34,
+  "playbook": "none",
+  "forecast": "Coiling at VWAP inside 347.4-349.5; likely more chop/drift 348-349 into thin weekend tape. A close under 347.44 opens 344 then 341.86; a reclaim of 349.5 negates the bearish tilt.",
+  "expectancy_note": "No edge mid-range: entry at VWAP (%B 0.47) with next support ~5xATR away and 1h TF still long means R:R to any honest stop is <1.5; earnings Wed + closed market = negative expectancy to force it.",
+  "rationale": "GOOGL is range-bound at VWAP in the middle of its band (RSI 56, %B 0.47, not extended) with conflicting TFs (4h/5m short but 1h long), so a short here is a mid-range coin-flip with no clean intermediate target before 341.86 (~5xATR away). Structure_bias -0.50 favors down eventually, but the trigger hasn't fired. Q2 earnings July 22 after close is a binary inside the holding window and the US market is closed (thin/gappy) \u2014 both forbid pre-positioning size. Wait for the range to break.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 347.44,
+    "expires_min": 240,
+    "note": "Losing the range floor / recent swing low confirms bearish structure resolving down toward 344/341.86."
+  },
+  "transcript": {
+    "macro": "Regime RISK-OFF (2026-07-20 Mon), rotation out of tech. US equity market CLOSED (weekend) \u2014 thin/gappy, gap risk. GOOGL: scan direction SHORT, bearish divergence, structure_bias -0.50. Not a chip name but in the tech rotation. Mixed.",
+    "sentiment": "HIGH EVENT RISK \u2014 GOOGL Q2 earnings 7/22 after close (Cloud +~63% in focus; some sources say 7/28 \u2014 treat 7/22 as the risk date). Argues AGAINST pre-earnings size.",
+    "analyst": "Range-bound at VWAP mid-band (RSI 56, %B 0.47, not extended) with conflicting TFs (4h/5m short but 1h long). A short here is a mid-range coin-flip with no clean intermediate target before 341.86 (~5xATR away). Structure_bias -0.50 favors down eventually but the trigger hasn't fired. Earnings 7/22 binary + closed thin market forbid pre-positioning size. HOLD; short valid on a close below 347.44.",
+    "portfolio": "HOLD \u2014 mid-range coil, earnings Wed binary; watch 347.44 break."
+  },
+  "timestamp": "2026-07-20T01:48:19.376503+00:00"
+}

@@ -1,0 +1,25 @@
+{
+  "symbol": "XAUT/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.5,
+  "entry": 4151.9,
+  "stop_loss": 4108.0,
+  "take_profit": 4200.0,
+  "size": 0.0,
+  "playbook": "none",
+  "expectancy_note": "Fresh long here = p(win)~0.45 at negative-skew R:R: entry at resistance 4152.3 with RSI 82.7/stoch 98.9/%B 1.11 (above upper band) is a chase; pullback-to-VWAP long or a confirmed-hold-above-resistance long both beat buying the exact extension into FOMC minutes.",
+  "rationale": "Gold is in a genuine strong uptrend (ADX 73, +RS, low BTC corr real diversifier) and printed a real 15m breakout (vol 3.42x), but price is pinned at resistance 4152.3, above the upper Bollinger band, RSI 82.7 and stoch 98.9 - the definition of extended mid-air, with a crowded long/short 3.225 (structure_bias -0.352) that is squeeze fuel on any USD bounce. Buying here risks the standard overbought-into-event fade; the favorable R:R long sits either on a pullback-retest of the 4140.9 breakout/VWAP or on a decisive hold above resistance that proves buyers absorbed the overbought. I stay flat and arm the reclaim trigger rather than donate into the band ahead of Wed FOMC minutes.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 4153.0,
+    "expires_min": 240,
+    "note": "A decisive hold/close above the 4152.3 resistance high proves buyers are absorbing the extreme overbought and extending - flips me to a momentum continuation long with stop back below the breakout level."
+  },
+  "transcript": {
+    "macro": "Crypto regime RISK-OFF/defensive (BTC dom 55.5%, BTC ~$59.5k weak, ETF outflows). XAUT/gold STRONG UPTREND but stretched: spot ~$4,137/oz, +2%+ prior session, fresh 15m breakout (level 4140.9, vol 3.42x). Drivers supportive: weak June jobs (57k vs 110k exp) priced out Fed hikes, dovish Chair Warsh, weaker-USD bias, structural bull (bank targets $4,900-$6,300). BUT crowded/overheated: RSI 82.7, stoch 98.9, ADX 73.1, L/S 3.225 (structure_bias -0.352), funding neutral -> positioning-driven crowding, squeeze risk on dollar bounce. Low BTC corr 0.321 = genuine diversifier. Catalyst: Wed Jul 8 FOMC minutes (hawkish=gold pullback, dovish=continuation). Verdict: supportive trend, mixed positioning; favor longs WITH trend but trimmed size/tight risk, avoid fresh chase-longs at extreme extension.",
+    "sentiment": "NEUTRAL-to-BULLISH. Gold >$4,100 on weak June jobs, >2% intraday as Fed hike bets cut - bullish near-term but macro-data-driven, can reverse fast. Context: gold fell ~29% from Jan highs, broke <$4,000 in June under hawkish Warsh - this is a rebound off an 8-month low, NOT a fresh uptrend; argues against chasing overbought long. Structural support: central banks +244t Q1, ECB says gold surpassed US Treasuries as largest reserve asset; ETF flows stabilizing ($1.1B inflow snapped 4wk outflows) but ~298t ETF gold underwater near $4,000 (overhead supply). Bank targets bullish. Geopolitics easing (Hormuz/US-Iran) removes some safe-haven bid - mildly bearish. XAUT token: NO depeg/hack/reserve issues, Q1 attestation 707,747 oz, reserves +36% QoQ; caveat attestations not full audits. NET: momentum-only long with tight risk; hot US data surprise is main reversal catalyst.",
+    "analyst": "Gold in genuine strong uptrend and printed a real 15m breakout (vol 3.42x), but price pinned at resistance 4152.3, above upper Bollinger band, RSI 82.7 / stoch 98.9 = extended mid-air, with crowded L/S 3.225 (squeeze fuel on USD bounce). Buying here is a textbook chase risking the overbought-into-event fade. Favorable R:R long sits on a pullback-retest of the 4140.9 breakout/VWAP or a decisive hold above resistance proving buyers absorbed the overbought. Stay flat and arm a price_above 4153 reclaim trigger (240 min) rather than donate into the band ahead of Wed FOMC minutes.",
+    "portfolio": "XAUT/USDT:USDT -> HOLD (flat), conf 0.50; strong trend but overbought/crowded at resistance into FOMC minutes - armed reclaim-long trigger above 4153."
+  },
+  "timestamp": "2026-07-03T01:09:15.323925+00:00"
+}

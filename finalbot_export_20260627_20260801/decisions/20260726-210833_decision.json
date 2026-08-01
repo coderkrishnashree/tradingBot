@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "MSTR/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Slow bleed continues: price coils in the 93.60-93.90 shelf; a clean loss of 93.55 opens a slide toward VWAP/93.0 then 92.4 within 3-6 bars, while a reclaim of 94.10 revives the stalled long.",
+  "expectancy_note": "No edge either way now: long chases a fading, crowded (L/S 1.48) move into 4h bearish divergence; short lacks a trigger (only +0.6% over VWAP, support far). Best expectancy is to wait for the 93.55 break.",
+  "rationale": "MSTR is the weakest BTC-beta proxy (-7.1% rel strength, corr 0.71) into a RISK-OFF tape with BTC Fear&Greed 27, and the 4h shows negative MACD plus flagged bearish divergence while 5m rolls over and volume dries up near the top of the move. A long here chases a stalling, crowded move into earnings ~July 30; a short has no clean trigger yet with price only +0.6% over VWAP and support 4% below. Holding flat is highest-expectancy until the 93.55 shelf breaks (short) or 94.10 reclaims (long).",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 93.55,
+    "expires_min": 240,
+    "note": "Losing the tested intraday shelf confirms the bearish-divergence/rel-strength thesis and opens the slide toward VWAP/92.4 for a short."
+  },
+  "transcript": {
+    "macro": "RISK-OFF/cautious tape 2026-07-26: BTC ~$64k Fear&Greed 27, dominance 56.4%, USD/rates firm into Fed week. Book pervasively crowded-long into risk-off => favors fading strength. Weekend gap before Monday cash open; equity perps thin/gappy off-hours. Verdict: CAUTIOUS/FLAT-to-lean-SHORT; smaller size on any BTC-beta long; avoid holding into earnings/Fed windows.",
+    "sentiment": "Crypto EXTREME FEAR. MSTR (Strategy) EARNINGS ~Jul 30 (same day as AAPL+COIN = event risk). Fell 6.4% Jul 24 after overhauling BTC valuation metric (now reports NET BTC 554k vs 843k gross); HALTED bitcoin purchases, building $3.2B cash. Holdings unchanged. Heavily BTC-correlated (0.71).",
+    "analyst": "Weakest BTC-beta proxy (-7.1% RS) into risk-off; 4h negative MACD + bearish divergence, 5m rolling over, volume drying near the top. Long chases a stalling crowded move into Jul 30 earnings; short has no trigger (only +0.6% over VWAP, support 4% below). Hold until 93.55 breaks (short) or 94.10 reclaims (long).",
+    "portfolio": "MSTR: HOLD 0.60 \u2014 no edge either way; armed to short on loss of 93.55 shelf."
+  },
+  "timestamp": "2026-07-26T21:08:33.730481+00:00"
+}

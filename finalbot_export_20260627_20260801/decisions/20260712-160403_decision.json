@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "TSM/USDT:USDT",
+  "size": 0.0,
+  "entry": 437.7,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.4,
+  "playbook": "none",
+  "forecast": "Dead Sunday tape: price pinned 437.4-438.4 on near-zero volume, drifting sideways at VWAP into the Monday reopen gap. Most likely chop within the 425.7-460.5 range for the next several bars.",
+  "expectancy_note": "No edge: unaligned composite, RSI 50 mid-band, 5m already RSI 25 (stretched), no extreme to fade and no pullback to join. Shorting into a high-beat-probability TSMC Q2 print (Thu Jul 16, inside window) with lopsided contrarian-long structure is a binary coin-flip, not positive expectancy.",
+  "rationale": "TSM is a tokenized EQUITY on the thinnest, illiquid Sunday tape (candle volumes 0.0-6.6, price glued to a 1-point band) with US markets closed and Monday gap risk. The short structure bias (-0.421, heavy offer, contrarian longs) is real but the composite is NOT aligned, price sits right at VWAP with neutral RSI, and 5m is already oversold - no clean extreme to fade nor trend pullback to join at 437.70. The decisive risk is the TSMC Q2 earnings binary Thursday inside the hold window, which macro/sentiment explicitly warn against carrying; a mid-range short risks being squeezed by lopsided longs into a bullish catalyst. Size zero - wait for a structural break.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 425.72,
+    "expires_min": 240,
+    "note": "Losing range-low support 425.72 on real volume confirms the heavy-offer book won and opens the 4h downtrend for a clean short with stop above the broken level, well before Thursday's print."
+  },
+  "transcript": {
+    "macro": "Cycle 2026-07-12 (Sunday) - US markets CLOSED, thin/gappy tokenized tape, Monday reopen-gap risk. TSM/USDT last 437.70, composite short 38.3% NOT aligned (align_factor 0.95): highest-conviction structural short-lean but heaviest event risk. structure_bias -0.421 (L/S 1.756 lopsided long = contrarian short fuel, orderbook -0.642 heavy offer). CRITICAL: TSMC reports Q2 Thursday Jul 16 (02:00 ET) - inside a multi-day hold window; do NOT carry a position into that print unless an intended earnings bet. Thinnest tape in set. Smaller size, tight horizon.",
+    "sentiment": "TSM HIGHEST near-term risk (hard binary). TSMC reports Q2 earnings ~Jul 16 - inside horizon. Street expects ~$3.81/ADR EPS on ~$40B revenue, 65.5-67.5% guided GM; the AI-capex read-through for the whole semi complex. June monthly revenue postponed by a Jul 10 typhoon - delayed figure could drop this week. Short into a high-beat-probability semi earnings fights a bullish catalyst; expect gap risk. No acute Taiwan-Strait shock recently.",
+    "analyst": "last 437.70, ATR% 0.66, support 425.72, resistance 460.54. Composite short 38.3% but aligned:false. RSI 50.2 neutral, ADX 37.4, bb_pctb 0.422, vwap_dist -0.15% (at VWAP). Per-TF conflict: 15m short, 30m LONG, 1h flat, 4h short, 5m short (RSI 25.2 stretched). 15m candles near-zero volume (0.0-6.6), price pinned in a 1-point range. Structure short is real (heavy offer, contrarian longs) but no clean extreme to fade or pullback to join, and TSMC Q2 binary sits inside any hold window. NO-TRADE; arm short trigger on losing 425.72.",
+    "portfolio": "HOLD TSM - real short structure but unaligned, dead mid-range Sunday tape into a Thursday TSMC earnings binary; wait for a 425.72 breakdown."
+  },
+  "timestamp": "2026-07-12T16:04:03.052249+00:00"
+}

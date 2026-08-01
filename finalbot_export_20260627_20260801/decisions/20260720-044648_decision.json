@@ -1,0 +1,26 @@
+{
+  "symbol": "HOOD/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.5,
+  "size": 0.0,
+  "entry": 100.58,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "forecast": "Dead micro-drift 100.3-100.6 near VWAP continues; no directional edge until price breaks 99.70 (toward 96.68) or reclaims 101.0 with volume. Continued coil pinned at mid-Bollinger absent a BTC impulse.",
+  "expectancy_note": "Mid-band coil at VWAP (%B 0.51), no rejection wick either side, R:R < 1.5 from dead-center; both a crowded-long buy into risk-off and a coinflip short lack edge, so HOLD is highest expectancy.",
+  "rationale": "Price pinned at VWAP dead-center of the Bollinger band on near-zero volume (2-4 units/bar) - no honest stop/target yields R:R >= 1.5. Long is the crowded-long trap (L/S 1.73, rel_strength -10.9% underperforming BTC into extreme-fear risk-off); short fights ADX 37.5 up-trend, bullish divergence and stacked bids (+0.348), and shorts have bled this account (0.47 WR). Wait for the coil to resolve.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 99.7,
+    "expires_min": 240,
+    "note": "Losing the swing low / VWAP shelf proves the weak retail-proxy echo is cracking under risk-off, opening a clean short toward 96.68 support with real R:R."
+  },
+  "transcript": {
+    "macro": "RISK-OFF/defensive 2026-07-20. VIX ~16.7 rising, semis rout, crowded-long positioning broadly. BTC ~64.7k capped at $65.5k resistance, Fear&Greed 25 (Extreme Fear). HOOD L/S 1.73 crowded long; high-beta crypto/retail proxy (corr to COIN 0.77), amplifies BTC moves.",
+    "sentiment": "2026-07-20. HOOD neutral: Q2 earnings 7/29 (outside window). No fresh \u226448h catalyst; drifts with risk tone as a high-beta crypto/retail proxy. Crypto complex flow-driven; GOOGL 7/22 the one true binary.",
+    "analyst": "HOLD (conf 0.50). Price pinned at VWAP dead-center on near-zero volume - no R:R>=1.5. Long is the crowded-long trap (underperforming BTC by 11% into extreme fear); short fights the up-trend, bullish divergence and stacked bids, and shorts bleed this account. Wait for a 99.70 break for a clean short.",
+    "portfolio": "HOOD - HOLD (conf 0.50): dead coil, no edge; short only if 99.70 gives way toward 96.68."
+  },
+  "timestamp": "2026-07-20T04:46:48.070620+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "HOOD/USDT:USDT",
+  "size": 0.0,
+  "entry": 112.19,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.55,
+  "playbook": "none",
+  "forecast": "HOOD just ripped 109->112.2 on the biggest-volume bar of the window and closed at the high with 15m RSI 79 - short-term extended. Expect a stall/pullback toward the 110 breakout shelf over the next 2-4 bars before any continuation; a dip to ~110 is the buyable spot, not 112.2.",
+  "expectancy_note": "No edge AT 112.2: long chases into RSI 79 (poor R:R to VWAP ~114/res 120), short fights a fresh impulse + clean book + positive RS. Best EV is waiting for the 110 retest to buy with a tight stop under 108.4 -> R:R ~2 to 120.",
+  "rationale": "Momentum is up (5m/15m long, +4.96% RS, risk-on macro), but price is mid-impulse just below VWAP with 15m RSI 79 and resistance at 120 - buying here is chasing and a stop honest enough to survive noise (below 108.4) would blow R:R. Shorting is hostile: funding 0, book balanced, HOOD outperforming BTC into the weekend. Cleanest expectancy is a HOLD armed to buy the 110 breakout-retest, so size 0 now.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 110.3,
+    "expires_min": 240,
+    "note": "A pullback to the 110 breakout shelf offers a proper long entry with stop under 108.4 and R:R ~2 back toward VWAP/120; confirms the impulse is a base rather than a blow-off."
+  },
+  "transcript": {
+    "macro": "Cautiously risk-on grind. BTC ~$62-64k, DXY <102 supportive, dominance rising. HOOD last 112.19, structure_bias -0.090, funding 0.0, OI 8,269, long/short 1.26, orderbook -0.041 (clean book, no crowding). btc_corr 0.616, RS +4.96% (outperforming BTC, moving on its own; S&P 500 member, Q1 rev +15% YoY). MIXED-to-SUPPORTIVE for longs, HOSTILE for shorts. Tokenized equity thin outside US hours; earnings Jul 29 out of window.",
+    "sentiment": "Q2 earnings Jul 29 (out of window); crypto revenue fell 47% YoY, FY EPS seen down ~12% \u2014 later downside risk. Stock surged ~14% this week on product launches (Robinhood Chain on Arbitrum, AI trading, intl expansion) \u2014 multi-quarter narrative not a 48h shock. Correlated to COIN (0.81) and BTC (0.62). Tilt: neutral-to-bullish momentum.",
+    "analyst": "Last 112.19, fresh 15m impulse 109->112.2 on the largest-volume bar of the window, closed at the high but 15m RSI 79 = short-term extended; still 1.8% below VWAP (~114) with resistance at 120. Buying here chases into overbought with no room for an honest stop; shorting fights momentum + clean book + positive RS into a risk-on weekend. Wait for the ~110 breakout-retest to go long with a stop under 108.4 for R:R ~2 to 120.",
+    "portfolio": "HOOD \u2014 HOLD (0.55): best-positioned name but mid-impulse and overbought; no clean entry, armed to buy the 110 retest."
+  },
+  "timestamp": "2026-07-08T14:27:30.910337+00:00"
+}

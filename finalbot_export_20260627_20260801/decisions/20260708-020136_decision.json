@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "COIN/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.5,
+  "playbook": "none",
+  "forecast": "Downtrend intact but near-term oversold (4h RSI 31, %B 0.07); price rejected 164.7 and is fading toward the 162.72 swing low. Expect a grind/chop between 162.7 and 164, more likely a small dead-cat bounce toward VWAP before the next leg down.",
+  "expectancy_note": "Short is the right direction but chasing at %B 0.07 with no nearby support to target gives TP1 (162.0) < 1R vs a ~1.5R stop above 164.9 \u2014 negative expectancy into oversold; wait for a cleaner trigger.",
+  "rationale": "All timeframes short-aligned, ADX 47.9, macro risk-off and COIN weaker than BTC \u2014 bias is clearly down and shorts have won 70% on this book. But price is already oversold near the lower Bollinger with the nearest support (142) far away, so a fresh short here chases into a likely bounce with sub-1.5 R:R to a realistic first target. US cash is closed (thin/gappy), reinforcing patience. Wait for a bounce to VWAP (~166) to short a real level, or a decisive break of 162.72 to confirm continuation.",
+  "reconsider": {
+    "condition": "price_below",
+    "level": 162.7,
+    "expires_min": 240,
+    "note": "Losing the 162.72 swing low confirms downtrend continuation and opens a clean short toward 161/160 with structure-defined risk."
+  },
+  "transcript": {
+    "macro": "REGIME: RISK-OFF / defensive, OVERNIGHT session (scan ~01:55 UTC = ~22:00 ET Jul 7; US CASH MARKET CLOSED). Nasdaq -1.16% Jul 7 on AI/semi rotation OUT of risk (Micron -4.7%, SOX -3%+). Scan uniformly short-biased -> supports short/fade-risk, hostile to fresh longs. CRITICAL: all tokenized equities (COIN,QQQ,MSTR,SNDK) on 24/7 perp wrapper with NO underlying price discovery -> thin, gappy, gap-on-open risk at 13:30 UTC -> SMALLER SIZE. Crypto (COIN/MSTR): neutral-to-soft, BTC ~$63.7-64k flat, dominance high, Fear&Greed 27; both far WEAKER than BTC intraday, funding ~0, no crypto tailwind. XAG: DXY bouncing = headwind, short crowded/extended (long/short 3.14 squeeze risk), FOMC June minutes near-term binary. EWJ: hawkish BOJ (1%), Nikkei -2.12% 3-wk low, but liquidity nil (OI 1,253, zero-vol candles). Bottom line: supportive for shorts but biggest risk is closed-market thin liquidity + FOMC minutes -> smaller size across the board.",
+    "sentiment": "DOMINANT OVERLAY: fresh live AI/semiconductor selloff \u2014 Samsung missed lofty AI expectations Jul 7 + reports China's DeepSeek building its own AI chip. Nasdaq Comp ~-1.2%, memory names (Micron/WD/SanDisk) -7%, AMAT/AMD -8-10%. Bearish risk-off tech shock; reinforces short bias on tech-linked names (QQQ,SNDK,EWJ, via beta COIN/MSTR). No single-name binary inside 24-48h for any target -> trade the macro tape. COIN: soft crypto-beta, earnings Jul 30 (outside window), Q1 ugly; neutral-to-bearish. QQQ: cleanest confirmation of short via chip selloff; rate path two-sided. XAG: heavy below ~$62 on yields/dollar; rate-sensitive. MSTR: mixed \u2014 $1B buyback + Digital Credit framework constructive BUT Strategy upped BTC SALES (3,588 BTC ~$216M) = bearish tell; net neutral-to-slightly-bearish. EWJ: Japan epicenter of rout, hawkish BoJ; multi-week drift not 48h binary. SNDK: +635% YTD parabolic, -7% Jul 7 on memory selloff; two-sided, stabilization can snap back violently.",
+    "analyst": "All TFs short-aligned (ADX 47.9) but price is oversold near lower BB (RSI 31, %B 0.07) with nearest support far (142) after rejecting 164.7 and fading to 163.18. Fresh short chases into a likely bounce with sub-1.5 R:R; closed thin tape reinforces patience. HOLD; re-arm on break of 162.72.",
+    "portfolio": "HOLD \u2014 right direction (short) but too extended/oversold to chase; wait for break of 162.72 or bounce to VWAP."
+  },
+  "timestamp": "2026-07-08T02:01:36.734899+00:00"
+}

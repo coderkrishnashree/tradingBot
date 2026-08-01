@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "MSFT/USDT:USDT",
+  "size": 0.0,
+  "entry": 385.21,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.44,
+  "playbook": "none",
+  "forecast": "Choppy drift between 383 support-shelf and the 385.4 pop-high over the next few bars; no directional resolution until the Wed 07/29 earnings/FOMC gap, which is a binary outside any tradable edge.",
+  "expectancy_note": "p(win) ~0.45 either way; ADX 23 = chop, crowded long (LS 1.96) + orderbook -0.351 argue against the long, LTF RSI 80-92 too stretched to chase, and a binary earnings gap inside the hold window destroys expectancy. HOLD beats both.",
+  "rationale": "Scan confidence is only 46.2% with structure_bias -0.393 actively against the long, longs crowded (1.96) and sellers stacked in the book (-0.351), while 1h/30m RSI at 92/81 is overbought into the print. MSFT reports after close Wed 07/29 with FOMC the same day, both inside the hours-to-2-day window, so any position is an earnings gamble, not a tape trade. With US markets closed today (thin tokenized liquidity) and no clean R:R setup, HOLD is the highest-expectancy call; size 0.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 403.24,
+    "expires_min": 240,
+    "note": "A decisive reclaim of the 403 resistance would prove buyers overwhelmed the stacked sell wall and flip the crowded-long/overbought bear case into genuine breakout momentum worth a long; below that there is no edge before the binary event."
+  },
+  "transcript": {
+    "macro": "Regime risk-OFF, sentiment stretched (BofA Bull&Bear highest since 2021). Nasdaq ~-2% month, Alphabet -7%/Tesla -14% post-earnings. Oil/Iran => hawkish Fed repricing; real yields + USD headwind. Wall of event risk: FOMC Wed 7/29 AND MSFT earnings Wed AH \u2014 inside hold window; any position is a coin-flip on a binary. MSFT: weakest conviction (conf 46.2%). Structure actively against long: bias -0.393, L/S 1.96 (crowded), orderbook -0.351 (sellers stacked). 1h RSI 92.3 / 30m 80.8 overbought into earnings. Do not carry size through it.",
+    "sentiment": "MSFT tense/anticipatory, near a one-year low into the print \u2014 highest-conviction binary on the board. FQ4 after close Wed 7/29 (call 2:30pm PT), consensus ~$87.7B rev / $4.24 EPS; focus on Azure growth (~40%), $37B AI run-rate, ~$190B AI capex vs FCF. Expect large post-earnings gap Wed evening. Any directional position into it is an earnings gamble; the hours-to-2-day horizon runs straight through the report.",
+    "analyst": "Scan conf only 46.2%, structure_bias -0.393 against the long, longs crowded (1.96), sellers stacked (-0.351), 1h/30m RSI 92/81 overbought into the print. ADX 23 = chop; 15m coiling 384.7-385.4 on low volume. MSFT earnings + FOMC both Wed inside window => earnings gamble not tape trade; US markets closed today = thin tokenized liquidity. HOLD; flip only on decisive reclaim of 403.24.",
+    "portfolio": "HOLD MSFT/USDT:USDT \u2014 structure against the long, overbought, earnings+FOMC binary Wed inside window; no edge below 403.24."
+  },
+  "timestamp": "2026-07-26T04:35:03.618132+00:00"
+}

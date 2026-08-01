@@ -1,0 +1,25 @@
+{
+  "symbol": "INTC/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.6,
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "playbook": "none",
+  "expectancy_note": "Oversold (RSI 29, %B<0) but inside a strong ADX 53 downtrend with no divergence/confirmation, thin closed-market tape, gap risk \u2014 fade EV is negative; wait for reclaim.",
+  "rationale": "INTC trades as an equity (btc_corr 0.29) and the US market was CLOSED at scan, so this is a thin/gappy overnight print with real Monday-open gap risk. Price is oversold and pressed against the lower Bollinger band (%B -0.08) sitting right on support 122.22, but ADX 53.5 with every higher TF 'down' means this is an impulsive downdraft, not a stalled range \u2014 no bullish divergence to confirm a bounce, and long-short is crowded long (1.79) leaving fuel for more downside. Weakest relative strength on the board (-3.05%) and composite conf 1.2% argue against forcing a long into a knife; no <=48h binary (earnings Jul 23). HOLD is the highest-expectancy call until price confirms.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 124.5,
+    "expires_min": 240,
+    "note": "Reclaiming the broken band/VWAP zone toward resistance 125.48 confirms the oversold bounce and flips me toward a Monday-open long."
+  },
+  "transcript": {
+    "macro": "Regime MIXED, hawkish-Fed overhang on tech/semis (Warsh biased to 1-2 2026 hikes). INTC btc_corr 0.292 (equity, not crypto), negatively correlated to AI-semis (NVDA -0.46, TSM -0.41), positively tied to HOOD (0.625), MU (0.647) \u2014 idiosyncratic foundry narrative. +45.8% drift since April blowout, Jul 3 note doubled target on foundry \u2014 crowded optimism / chase risk. CRITICAL: US market CLOSED at scan \u2014 overnight thin/gappy, first real discovery Mon 09:30 ET, gap risk. Scan composite conf very low (~1.2%), flat per-TF.",
+    "sentiment": "INTC Q2 earnings Thu Jul 23 (after close) \u2014 OUTSIDE 24-48h, not a tradeable binary but flag for multi-day holds. Stock +~160% in 2026 on foundry/18A + AI narrative \u2014 strong but crowded/extended; scan shows oversold intraday (RSI ~31 at support). Mixed analyst flow (one doubled PT Jul 2; one downgrade to Market Perform) \u2014 low weight. Tail risk if 18A yields stall / no 14A customer. Correlated to HOOD (0.63). Net: bullish trend but extended, no <=48h binary.",
+    "analyst": "Oversold (RSI 29.4, %B -0.08, VWAP -1.58%) sitting on support 122.22, but ADX 53.5 with every higher TF 'down' = impulsive downdraft, not a stalled range. No bullish divergence, crowded-long structure (L/S 1.79) = fuel for more downside, weakest relative strength on the board (-3.05%), composite conf 1.2%. US market closed => thin/gappy, Monday gap risk. Fading a strong ADX downtrend with no confirmation is a knife-catch; negative EV. HOLD; reconsider a long on reclaim above ~124.5 toward resistance 125.48.",
+    "portfolio": "INTC \u2014 HOLD (conf 0.60): oversold but knife-catching a strong downtrend on a thin closed-market tape; wait for a reclaim above ~124.5."
+  },
+  "timestamp": "2026-07-06T01:49:21.188148+00:00"
+}

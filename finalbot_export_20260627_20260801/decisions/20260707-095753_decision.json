@@ -1,0 +1,27 @@
+{
+  "symbol": "NVDA/USDT:USDT",
+  "action": "hold",
+  "confidence": 0.35,
+  "size": 0.0,
+  "entry": 194.2,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "playbook": "none",
+  "expectancy_note": "Oversold-at-support (RSI 30.9, %B 0.05, 5m turning +) argues bounce, but 15m-4h downtrend intact and price ~2% ABOVE support 190.16 (not at it) \u2014 no confirmation either way, and FOMC minutes inside 48h caps edge.",
+  "rationale": "NVDA composite is short but NON-aligned (30.2% conf) with deeply oversold shorter-TF RSI/stoch at a tight lower band \u2014 shorting here chases the low, while a long needs a VWAP/196.7 reclaim that hasn't printed (still -1.26% below VWAP, 4h/1h trend down). Price sits mid-range between 190.16 support and 200.68 resistance with no divergence and FOMC minutes Wed as a binary inside my 48h window. No level-based R:R>=1.5 exists right now, so the highest-expectancy action is to wait for the break/reclaim.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 196.7,
+    "expires_min": 240,
+    "note": "Reclaiming the ~196.7 VWAP/pivot zone confirms the oversold-at-support bounce and flips me to a mean-reversion long toward resistance 200.68; conversely losing 190.16 would arm the continuation short."
+  },
+  "transcript": {
+    "macro": "Cautiously risk-on but hawkish-Fed overhang. FOMC minutes Wed Jul 8 (<48h). Semis two-sided: SOX +47% YTD, structural AI demand intact, but early-July valuation-driven selloff. NVDA short-biased structurally (L/S 1.94) but composite non-aligned \u2014 bounce candidate if AI bid persists. Size small into event risk.",
+    "sentiment": "NVDA constructive structural story (Jul 4 cloud-partner financing, Blackwell sold out, buyback/dividend hike) but long-horizon. Epicenter of AI-selloff scares. No earnings in 48h. Near-term = macro/sector beta. Neutral, elevated vol.",
+    "analyst": "Composite short but non-aligned (30.2% conf); deeply oversold shorter-TF at a tight lower band. Price mid-range between 190.16 support and 200.68 resistance, ~2% above support, still -1.26% below VWAP. No divergence; FOMC binary <48h. No R:R>=1.5 setup \u2014 wait for 196.7 reclaim (long) or 190.16 break (short).",
+    "portfolio": "NVDA \u2014 HOLD (conf 0.35): non-aligned, mid-range, no edge; watch 196.7 reclaim / 190.16 break."
+  },
+  "timestamp": "2026-07-07T09:57:53.775528+00:00"
+}

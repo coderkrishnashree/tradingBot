@@ -1,0 +1,28 @@
+{
+  "action": "hold",
+  "symbol": "SOL/USDT:USDT",
+  "size": 0.0,
+  "entry": 0,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "take_profit_1": 0,
+  "take_profit_2": 0,
+  "confidence": 0.4,
+  "playbook": "none",
+  "forecast": "Price chops between 74.7 support-shelf and the 75.2 rejection zone over the next 2-4 bars; no directional edge until it resolves - a reclaim/hold above 75.4 opens 76.5+, loss of 74.7 targets 73.4 support.",
+  "expectancy_note": "p(win) ~0.45 for a market long here; sitting at VWAP mid-band (%B 0.515) with ADX 24.3 (trend/chop border) gives no R:R edge - better to wait for the 75.4 reclaim that confirms bid vs enter the crowded, BTC-lagging echo blind.",
+  "rationale": "SOL is the lowest-conviction crypto long (blended 0.263, conf 42.7): pure BTC-beta (corr 0.844) badly lagging the leader (rel strength -10.07), crowded long (L/S 2.88, structure_bias -0.298) into a risk-off alt tape. Both the model weights (rel_strength -0.326, structure_bias -0.278) and macro flag this as a laggard with no independent bid. Recent candles show a rejected 91k-volume spike to 75.19 and a grind back - chop, not a path. No honest 1.5R market entry exists mid-range at VWAP; HOLD and let a genuine reclaim prove the bid before committing size.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 75.4,
+    "expires_min": 240,
+    "note": "Reclaiming and holding above the 75.4 rejection shelf (where the high-volume spike failed) would show SOL following BTC up with real bid, flipping the weak long into an actionable trend-continuation entry toward resistance 78.86."
+  },
+  "transcript": {
+    "macro": "Regime MIXED-to-RISK-OFF. Crypto beta weak/risk-off: BTC ~$64.7k (failed low-$70k range), dominance 56.3%, Fear&Greed 29 (fear) = capital hiding in BTC not alts. SOL lens: STAY OUT / marginal long at best; scan long but lowest-conviction crypto (blended 0.263, conf 42.7). High BTC corr (0.844) with downside amplification, rel strength -10.07 = LAGGING BTC. Crowded long (L/S 2.88). Needs BTC to lead first.",
+    "sentiment": "Constructive flow - Morgan Stanley spot SOL ETF won NYSE Arca approval Jul 24; five spot SOL ETFs trading, >$1.12B cumulative inflows; network activity strong. No unlock/hack this cycle. Net mildly bullish on institutional-access momentum but trades with broad crypto beta - BTC under pressure caps SOL. Risk: crypto-wide risk-off drags SOL regardless.",
+    "analyst": "Lowest-conviction crypto long: pure BTC-beta (corr 0.844) badly lagging (rel strength -10.07), crowded long (L/S 2.88) into risk-off alt tape. Mid-range at VWAP (%B 0.515), ADX 24.3 = trend/chop border; rejected 91k-volume spike to 75.19 then grind back = chop. No honest 1.5R entry; wait for a 75.4 reclaim to prove bid.",
+    "portfolio": "HOLD SOL - laggard BTC-beta with no independent bid in a risk-off alt tape; flat until a 75.4 reclaim."
+  },
+  "timestamp": "2026-07-26T15:06:06.727239+00:00"
+}

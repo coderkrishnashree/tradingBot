@@ -1,0 +1,26 @@
+{
+  "action": "hold",
+  "symbol": "BTC/USDT:USDT",
+  "size": 0.0,
+  "entry": 64192.7,
+  "stop_loss": 0,
+  "take_profit": 0,
+  "confidence": 0.6,
+  "playbook": "none",
+  "forecast": "Coiling 64180-64260 just under 64703 resistance after a momentum push; over 2-6 bars expect either a shallow pullback toward VWAP/63400-63600 (the entry wanted) or a squeeze that tags 64703 and stalls.",
+  "expectancy_note": "No trade > forced entry: long here has only ~0.8% to resistance (sub-1R) into CPI; extended 4h (RSI73/ADX77) is the account's losing late-continuation pattern.",
+  "rationale": "BTC in a strong but stretched 4h uptrend (RSI 73.7, ADX 77.2, stoch 83.6), 1.9% above VWAP and only ~0.8% below hard resistance 64703 - no room for a 1.5R long and no exhaustion/divergence to justify a short. Funding benign, orderbook bid-heavy (+0.378); path of least resistance still up, but a market-buy chases into a wall two days before CPI. Wait for a pullback toward 63400-63600 or a clean hold above 64703; size 0 until one triggers.",
+  "reconsider": {
+    "condition": "price_above",
+    "level": 64703,
+    "expires_min": 240,
+    "note": "A decisive break and hold above 64703 clears the last resistance and opens a measured-move breakout long."
+  },
+  "transcript": {
+    "macro": "2026-07-11 (Sat): cautious risk-on/mixed regime. US equity cash CLOSED for the weekend -> tokenized single-stocks trade thin/gappy with weekend-gap risk. US CPI (June) Tue Jul 14 8:30 ET is a live catalyst on day 2 of any hold; FOMC Jul 29 is out of window. BTC ~$64.2K, +10% in July on pulled-forward Fed-easing bets after soft jobs, BUT BTC ETFs had worst month on record (-$4.5B June) -> rally is momentum/macro-driven, not fresh spot demand; vulnerable if CPI hot. Backdrop argues for reduced size across the board.",
+    "sentiment": "BTC neutral-to-cautiously-bullish, no <=48h binary. ETF flows flipped positive first week of July (+$46.6M) after June's record outflows. Risk: Strategy/MSTR made largest-ever BTC sale (3,588 BTC ~$216M) Jul 6 -> watch treasury-bid follow-on supply. Only fresh idiosyncratic catalyst this cycle across the universe is CRCL's OCC bank charter (bullish).",
+    "analyst": "Strong but stretched 4h uptrend (RSI 73.7/ADX 77.2/stoch 83.6), 1.9% above VWAP, only ~0.8% below resistance 64703 -> no room for a 1.5R long and no exhaustion to short. Funding benign, orderbook bid-heavy. Buying 0.8% under a wall into CPI is the account's proven losing late-continuation pattern. Highest-EV action is HOLD; wait for a pullback to 63400-63600 to join with room, or a confirmed break/hold above 64703.",
+    "portfolio": "HOLD BTC/USDT:USDT - extended into resistance ahead of CPI; no clean R:R either side (conf 0.6)."
+  },
+  "timestamp": "2026-07-11T07:02:51.597300+00:00"
+}
